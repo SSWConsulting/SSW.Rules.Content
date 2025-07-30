@@ -28,7 +28,7 @@ Development for SharePoint is very different depending upon whether you are onli
 
 ## For SharePoint Online
 
-All you need is VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
+All you need is VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518).
 
 💡 Best practice is to isolate your code as much as possible during development/staging. Unfortunately it's not easy to come up with a full-blown dedicated Test Tenant.\
 As a minimum, make sure you test all your custom code in a dedicated Site Collection to avoid as much side effects as possible.

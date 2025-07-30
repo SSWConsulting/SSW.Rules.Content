@@ -116,6 +116,6 @@ Remember, pick what naming method works for your team & organisation's way of wo
 
 ## Resources
 
-For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices?WT.mc_id=DOP-MVP-33518)
 
 A list of other suggested conventions can be found here: [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming).

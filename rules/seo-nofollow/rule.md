@@ -40,7 +40,7 @@ As per [Search Engine Journal](https://www.searchenginejournal.com/when-to-use-n
 ::: bad
 
 ```html
-<a href="https://www.microsoft.com/Azure">Azure</a> 
+<a href="https://www.microsoft.com/Azure"?WT.mc_id=AZ-MVP-33518>Azure</a> 
 ```
 
 Figure: Bad example - Nofollow rel tag is not present on the link above
@@ -49,7 +49,7 @@ Figure: Bad example - Nofollow rel tag is not present on the link above
 ::: good
 
 ```html
-<a rel="nofollow" href="https://www.microsoft.com/Azure">Azure</a> 
+<a rel="nofollow" href="https://www.microsoft.com/Azure"?WT.mc_id=AZ-MVP-33518>Azure</a> 
 ```
 
 Figure: Good example - Nofollow rel was added to the URL to make sure it does not impact the landing page

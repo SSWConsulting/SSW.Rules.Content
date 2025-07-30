@@ -26,4 +26,4 @@ The Power App Community Plan gives developers a dedicated environment with acces
 Best of all it’s completely free, yes there are some restrictions but they’re quite reasonable. The main ones being the environment is restricted to a single user and no ability to share apps. 
 Sign up for a Community Plan here: [https://powerapps.microsoft.com/en-us/communityplan](https://powerapps.microsoft.com/en-us/communityplan)
 
-Full documentation here: [https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan)
+Full documentation here: [https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan?WT.mc_id=DX-MVP-33518)

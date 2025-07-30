@@ -66,4 +66,4 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 ![Figure: This is how you set it up in .NET 5](net-core-development.png)
 :::
 
-Find out more about exception handling in .NET Core 5 [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0).
+Find out more about exception handling in .NET Core 5 [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518).

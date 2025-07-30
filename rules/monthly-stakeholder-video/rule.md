@@ -68,7 +68,7 @@ The video should be recorded by the Product Owner (or other head of the team).
 1. Open the relevant pages/analytics in browser tabs (this might be PowerBI for Sales, Google Ads and social media for Marketing, etc.)
 2. Bring up the important points you will talk about
 3. Record the video, clicking through the tabs and talking through the important metrics\
-   **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) for easy recording and on screen notation
+   **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=DOP-MVP-33518) for easy recording and on screen notation
 4. Upload the video to YouTube (public if there is no sensitive information - unlisted if there is)
 5. Email your stakeholders with the video link
 

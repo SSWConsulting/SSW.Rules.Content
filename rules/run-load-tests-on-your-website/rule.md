@@ -36,8 +36,8 @@ Load testing can help you to reveal these issues before you go live. Some issues
 
 Load testing tools are designed to help you perform load testing, by recording metrics about the application as the load is varied and allowing you to visualize where user load impacts performance and/or causes application errors.
 
-Visual Studio 2019 Enterprise Edition is the last version of Visual Studio with built-in [load testing functionality](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-create-and-run-a-load-test?view=vs-2022). However, it only supports Internet Explorer so **Visual Studio is not a recommended load testing option** .
+Visual Studio 2019 Enterprise Edition is the last version of Visual Studio with built-in [load testing functionality](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-create-and-run-a-load-test?view=vs-2022&WT.mc_id=DP-MVP-33518). However, it only supports Internet Explorer so **Visual Studio is not a recommended load testing option** .
 
 :::greybox
-**Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
+**Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing?WT.mc_id=AZ-MVP-33518) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
 :::

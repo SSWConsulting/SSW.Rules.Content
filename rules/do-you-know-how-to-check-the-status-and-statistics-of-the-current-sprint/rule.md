@@ -24,7 +24,7 @@ Keeping an eye on the results of [acceptance testing](/does-your-team-write-acce
 
 <!--endintro-->
 
-Azure Test Plans provides two different ways to see testing status, a built-in [Progress Report](https://docs.microsoft.com/en-us/azure/devops/test/progress-report?view=azure-devops) and customizable [Test Status](https://docs.microsoft.com/en-us/azure/devops/test/track-test-status?view=azure-devops) charts.
+Azure Test Plans provides two different ways to see testing status, a built-in [Progress Report](https://docs.microsoft.com/en-us/azure/devops/test/progress-report?view=azure-devops&WT.mc_id=AZ-MVP-33518) and customizable [Test Status](https://docs.microsoft.com/en-us/azure/devops/test/track-test-status?view=azure-devops&WT.mc_id=AZ-MVP-33518) charts.
 
 ### Progress report
 

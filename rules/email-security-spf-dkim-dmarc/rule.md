@@ -44,7 +44,7 @@ DKIM provides an encryption key and digital signature that verifies that an emai
 
 2. When an email is sent, it is signed with the private key.
 
-See [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) for more details on how to set this up in Exchange Online.
+See [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide&WT.mc_id=ES-MVP-33518) for more details on how to set this up in Exchange Online.
 
 ## DMARC (Domain-based Message Authentication, Reporting & Conformance)
 

@@ -33,7 +33,7 @@ When passwords have to be changed they should meet the following complexity requ
 1. **Ignore password complexity (numbers, special characters, spaces) but require longer passwords** - E.g. Require 16 characters length minimum, without special characters or numbers
 2. **Longer passphrases are better than passwords** - They are even [more difficult to crack than complex passwords](https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity)
 3. **Longer password history remembered** - E.g. Cannot use the last 10 passwords you already used
-4. **Blocking of common password and words** – E.g. [Via Azure AD Password Protection](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises)
+4. **Blocking of common password and words** – E.g. [Via Azure AD Password Protection](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises?WT.mc_id=ES-MVP-33518)
 5. **[Use of MFA (Multi Factor Authentication) everywhere possible](/do-you-have-mfa-multi-factor-authentication-enabled)**
 6. **Use a password manager**
 7. **Use different passwords for every service**

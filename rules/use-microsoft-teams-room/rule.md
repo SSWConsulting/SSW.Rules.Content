@@ -27,7 +27,7 @@ In today's fast-paced work environment, efficient communication and collaboratio
 3. **Missed Opportunities:** In today's fast-paced business world, every second counts. A delayed start or technical glitches can result in missed opportunities, whether it's a crucial client call or a collaborative brainstorming session
 4. **User Discomfort:** Users may feel uncomfortable or overwhelmed by technology issues, affecting their confidence and overall experience in the meeting room
 
-Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. You can also check out more information on Microsoft's website at [Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms).
+Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. You can also check out more information on Microsoft's website at [Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms?WT.mc_id=M365-MVP-33518).
 
 ::: bad  
 ![Figure: Bad Example - Cable adapter Hell](bad-example-too-many-cables.png)  
@@ -53,7 +53,7 @@ These are generally sold by Microsoft Teams Rooms partners like [Logitech](https
 - Medium rooms
 - Large/Boardrooms
 
-You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packages and Systems](https://www.microsoft.com/en-au/microsoft-teams/across-devices/devices/category/teams-rooms/20)
+You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packages and Systems](https://www.microsoft.com/en-au/microsoft-teams/across-devices/devices/category/teams-rooms/20?WT.mc_id=M365-MVP-33518)
 
 After you've acquired the gear, then it's time to see how to use your Microsoft Teams Rooms setup. In the scenarios below, let's pretend that `TeamsRoom@northwind.com` is the email address set for your Teams Rooms device.
 

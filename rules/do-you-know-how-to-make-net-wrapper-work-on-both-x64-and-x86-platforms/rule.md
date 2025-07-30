@@ -10,7 +10,7 @@ created: 2014-03-14T02:02:00.000Z
 guid: b82e36db-e95a-4ece-98b4-4a97625c88b3
 ---
 
-Sometimes, we need to use .NET wrapper to call Windows built-in forms for implementing special functionalities. For example, calling the Directory Object Picker dialog enables a user to select objects from the Active Directory. Microsoft provides an article and an C++ example on [how to calling the Directory Object Picker dialog](https://learn.microsoft.com/en-us/windows/win32/ad/directory-object-picker), and the CodePlex website used to give a .NET version of implementation(C#).
+Sometimes, we need to use .NET wrapper to call Windows built-in forms for implementing special functionalities. For example, calling the Directory Object Picker dialog enables a user to select objects from the Active Directory. Microsoft provides an article and an C++ example on [how to calling the Directory Object Picker dialog](https://learn.microsoft.com/en-us/windows/win32/ad/directory-object-picker?WT.mc_id=WDIT-MVP-33518), and the CodePlex website used to give a .NET version of implementation(C#).
 
 However, all of this implementations only work on x86 platform, and will crash on x64 platform, regarding to this problem, the keynote is to understand the difference of IntPtr in between x64 and x86 platforms.
 

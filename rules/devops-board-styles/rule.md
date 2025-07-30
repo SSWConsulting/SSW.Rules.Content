@@ -29,4 +29,4 @@ To learn how to customize your board, see the walkthrough video below:
 `youtube: https://www.youtube.com/embed/lKNVn4PqxAI`
 **Video: Azure DevOps | Customizing your Board (15 mins)**
 
-For more information, read [Microsoft's article - Customize cards on a Sprint taskboard in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/sprints/customize-taskboard).
+For more information, read [Microsoft's article - Customize cards on a Sprint taskboard in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/sprints/customize-taskboard?WT.mc_id=AZ-MVP-33518).

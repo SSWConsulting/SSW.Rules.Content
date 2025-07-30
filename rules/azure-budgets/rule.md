@@ -70,7 +70,7 @@ If the company is really worried about costs, an Azure runbook could even be set
 
 ### Cost analysis - What if you get an alert?
 
-It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs by various attributes (e.g. resource group or resource type).
+It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=AZ-MVP-33518). You can break down costs by various attributes (e.g. resource group or resource type).
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
@@ -94,7 +94,7 @@ Developers often have high permissions (e.g. Contributor permissions to a Resour
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - Work out the monthly resource $ price
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator?WT.mc_id=AZ-MVP-33518) - Work out the monthly resource $ price
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
@@ -125,7 +125,7 @@ Total:
 ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
 **Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample_1710232021930.jpg)
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample_1710232021930.jpg?WT.mc_id=AZ-MVP-33518)
 
 1. Please approve
 

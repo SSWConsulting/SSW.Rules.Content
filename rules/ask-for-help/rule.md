@@ -56,7 +56,7 @@ Here are some things developers should do before asking for help:
 
 * Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
 * Check [Stack Overflow](https://stackoverflow.com/)
-* Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
+* Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/?WT.mc_id=DT-MVP-33518)
 * Explore the code
   * Look at pages that do similar things
   * Put breakpoints and check the values to see if you can figure out little bits

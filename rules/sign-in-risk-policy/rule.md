@@ -30,4 +30,4 @@ When setting this up, you can also choose to apply this to all your users, selec
 
 ![Good Example - All users with a risk of Low and above will be prompted for MFA authentication](signinrisk.jpg)
 
-You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)
+You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies?WT.mc_id=ES-MVP-33518)

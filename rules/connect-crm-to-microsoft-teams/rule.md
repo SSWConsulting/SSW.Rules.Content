@@ -63,7 +63,7 @@ Add a button to the Ribbon to provision a new team and link to it.
 
 #### How to add the button to the Dynamics Ribbon?
 
-* **Option A** - [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
+* **Option A** - [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer?WT.mc_id=M365-MVP-33518) (new approach - customizing command bar using the command designers)
 * **Option B** (old approach) - [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
 
 ![Figure: Use the Ribbon](account_createteamssite.png)

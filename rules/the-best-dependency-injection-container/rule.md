@@ -35,7 +35,7 @@ Dependency injection is a method for managing Inversion of Control (IoC). This i
 
 ## IoC containers
 
-IoC containers are powerful tools that apply the IoC principle and automatically handle dependency resolution and object instantiation. They act as central repositories for services and take care of managing the lifespan of objects. At SSW we recommend using [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) as default. Read more on [Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0).
+IoC containers are powerful tools that apply the IoC principle and automatically handle dependency resolution and object instantiation. They act as central repositories for services and take care of managing the lifespan of objects. At SSW we recommend using [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?WT.mc_id=AZ-MVP-33518) as default. Read more on [Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0&WT.mc_id=AZ-MVP-33518).
 
 However, in larger applications, manually registering dependencies can become cumbersome and easy to forget. In those cases, we recommend using [Scrutor](https://github.com/khellang/Scrutor). While it isn't a DI container itself, it works on top of the .NET built-in Dependency Injection capabilities and adds assembly scanning to automatically register discovered types.
 
@@ -43,7 +43,7 @@ However, in larger applications, manually registering dependencies can become cu
 
 ## .NET IoC containers
 
-* [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) (recommended)
+* [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection?WT.mc_id=AZ-MVP-33518) (recommended)
 * [Autofac](https://autofac.org/)
 * [Unity](https://github.com/unitycontainer/unity)
 * [Castle Winsdor](https://github.com/castleproject/Windsor)

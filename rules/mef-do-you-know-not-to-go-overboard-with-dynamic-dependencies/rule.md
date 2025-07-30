@@ -31,4 +31,4 @@ There are disadvantages to using dynamic loading of references:
 1. You lose your Code Analysis. Only static references can be analysed by code analysis tools.
 2. You lose your traceability. Visual Studio can no longer show you what concrete method is being called at design time.
 
-More details on MEF can be foud here: [http://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx](http://msdn.microsoft.com/en-us/library/dd460648%28v=vs.110%29.aspx)
+More details on MEF can be foud here: [http://msdn.microsoft.com/en-us/library/dd460648(v=vs.110?WT.mc_id=AZ-MVP-33518).aspx](http://msdn.microsoft.com/en-us/library/dd460648%28v=vs.110%29.aspx?WT.mc_id=AZ-MVP-33518)

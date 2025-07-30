@@ -32,4 +32,4 @@ Follow naming conventions:
 9. Prefix all date fields with 'Date' ie. `DateInvoiced`. One extra use of this is you can have generic code that enables a date control on this field.
 10. Suffix Percent fields with 'Pct' ie. `SalesTaxPct`.
 11. Only use alphabet characters. ie. don't use `AustraliaListA$`. Avoid the following characters in your object names in SQL Server. If you do not do this, you will need to constantly identify those ill-named objects with bracketed or quoted identifiers - otherwise, unintended bugs can arise.
-12. Don't use reserved words on their own. ie. `User`, `Count`, `Group`, etc. They can be used if joined with other words. See [Reserved Keywords (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15)
+12. Don't use reserved words on their own. ie. `User`, `Count`, `Group`, etc. They can be used if joined with other words. See [Reserved Keywords (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/reserved-keywords-transact-sql?view=sql-server-ver15&WT.mc_id=DP-MVP-33518)

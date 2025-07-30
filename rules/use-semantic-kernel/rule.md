@@ -20,7 +20,7 @@ Semantic Kernel can solve this problem by orchestrating all our AI services for 
 Semantic Kernel is an open source SDK developed by Microsoft for their Copilot range of AI tools.  
 It acts as an orchestration layer between an application and any AI services it may consume, such as the OpenAI API or Azure OpenAI, removing the need to write boilerplate code to use AI.
 
-[Microsoft - What is Semantic Kernel?](https://learn.microsoft.com/en-us/semantic-kernel/overview/)  
+[Microsoft - What is Semantic Kernel?](https://learn.microsoft.com/en-us/semantic-kernel/overview/?WT.mc_id=AI-MVP-33518)  
 [Semantic Kernel - GitHub Repo](https://github.com/microsoft/semantic-kernel)
 
 ### Why use Semantic Kernel?
@@ -54,4 +54,4 @@ while (true)
 }
 ```
 
-For a more in depth walkthrough, please see [Stephen Toub's article](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/).
+For a more in depth walkthrough, please see [Stephen Toub's article](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/?WT.mc_id=AI-MVP-33518).

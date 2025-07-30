@@ -44,7 +44,7 @@ It can also be error prone as you may forget to launch a project.
 
 You can set multiple startup projects in Visual Studio and Rider, this will allow you to launch all your projects with a single click.
 
-[Launch Multiple Projects in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2022)  
+[Launch Multiple Projects in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-set-multiple-startup-projects?view=vs-2022&WT.mc_id=DT-MVP-33518)  
 [Launch Multiple Projects in Jetbrains Rider](https://www.jetbrains.com/help/rider/Run_Debug_Multiple.html#compound-configs)
 
 ::: greybox  

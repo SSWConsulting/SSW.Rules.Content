@@ -21,7 +21,7 @@ Currently in preview (as at May 2020) Common Data Service supports direct SQL Ac
 
 <!--endintro-->
 
-As this feature is in preview (as at May 2020) you'll need to enable it, and it's not recommended for production environments. With that out of the way follow the steps at the Microsoft Docs page: [Use SQL to query data (Preview)](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/cds-sql-query)
+As this feature is in preview (as at May 2020) you'll need to enable it, and it's not recommended for production environments. With that out of the way follow the steps at the Microsoft Docs page: [Use SQL to query data (Preview)](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/cds-sql-query?WT.mc_id=DP-MVP-33518)
 
 ### Supported operations and data types
 

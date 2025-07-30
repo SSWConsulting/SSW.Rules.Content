@@ -32,7 +32,7 @@ Whenever there is a deployment problem, instead of fixing it straight away, we f
 * Use of memory, disk, and other physical server resources can be monitored for healthy status.
 * Health checks can test an app's dependencies, such as databases and external service endpoints, to confirm availability and normal functioning.
 
-See more at [Health checks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-3.1).
+See more at [Health checks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-3.1&WT.mc_id=AZ-MVP-33518).
 
 If you need to add a UI to the health check system - we recommend checking out [spNetCore.Diagnostics.HealthChecks
 Public](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks).

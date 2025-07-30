@@ -54,7 +54,7 @@ There are many different load testing tools to choose from. Some of the most pop
 - [LoadView-testing.com](https://www.loadview-testing.com/) (Dotcom-Monitor)
 
 :::greybox
-**Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
+**Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing?WT.mc_id=AZ-MVP-33518) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
 :::
 
 ![Figure: Loader.io load testing results](loader-io.jpg "Screenshot of load testing chart in Loader.io")

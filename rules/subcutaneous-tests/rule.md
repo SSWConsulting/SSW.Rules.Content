@@ -35,7 +35,7 @@ The [Introduction To Subcutaneous Testing](https://www.ministryoftesting.com/doj
 
 ### Integrate with DevOps
 
-The gold standard ⭐ is to automatically run subcutaneous tests inside your DevOps processes such as when you perform a Pull Request or a build. You can do this using [GitHub Actions](https://github.com/features/actions) or [Azure DevOps](https://azure.microsoft.com/en-au/services/devops/).
+The gold standard ⭐ is to automatically run subcutaneous tests inside your DevOps processes such as when you perform a Pull Request or a build. You can do this using [GitHub Actions](https://github.com/features/actions) or [Azure DevOps](https://azure.microsoft.com/en-au/services/devops/?WT.mc_id=AZ-MVP-33518).
 
 Every test should reset the database so you always know your resources are in a consistent state.
 

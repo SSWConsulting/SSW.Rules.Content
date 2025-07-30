@@ -71,7 +71,7 @@ To protect AI models from manipulation, implement proactive strategies including
 To minimize the risk of exposing confidential data or intellectual property:
 
 
-* **Opt-out of training public models:** When using enterprise versions of models, such as [OpenAI services on Azure](https://azure.microsoft.com/products/ai-services/openai-service), data used for analysis is automatically opted out of model training. Ensure that you are opted out of model training for any enterprise data, either by default (e.g. with OpenAI on Azure) or manually if necessary (e.g. with [GitHub Copilot](https://github.com/features/copilot)).
+* **Opt-out of training public models:** When using enterprise versions of models, such as [OpenAI services on Azure](https://azure.microsoft.com/products/ai-services/openai-service?WT.mc_id=AI-MVP-33518), data used for analysis is automatically opted out of model training. Ensure that you are opted out of model training for any enterprise data, either by default (e.g. with OpenAI on Azure) or manually if necessary (e.g. with [GitHub Copilot](https://github.com/features/copilot)).
 * **Training Public vs. Private Models:** Avoid using confidential data to train public models. If building a proprietary model, ensure it is secured as per standard security practices. For proprietary data, always use a private model to prevent unintended exposure.
 
 

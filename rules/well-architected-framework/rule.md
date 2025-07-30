@@ -28,11 +28,11 @@ The Well-Architected Framework is a set of best practices which form a repeatabl
 
 ### The 5 Pillars
 
-- **Reliability** – Handling and recovering from failures <https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles>
-- **Cost Optimization** – Minimizing costs without impacting workload performance <https://docs.microsoft.com/en-us/azure/architecture/framework/cost/principles>
-- **Performance Efficiency** **(Scalability)** – Testing, monitoring and adapting to changes in load e.g. new product launch, Black Friday sale, etc. <https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/principles>
-- **Security** – Protecting from threats and bad actors <https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-principles>
-- **Operational Excellence** **(DevOps)** – Deploying and managing workloads once deployed <https://docs.microsoft.com/en-us/azure/architecture/framework/devops/principles>
+- **Reliability** – Handling and recovering from failures <https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles?WT.mc_id=AZ-MVP-33518>
+- **Cost Optimization** – Minimizing costs without impacting workload performance <https://docs.microsoft.com/en-us/azure/architecture/framework/cost/principles?WT.mc_id=AZ-MVP-33518>
+- **Performance Efficiency** **(Scalability)** – Testing, monitoring and adapting to changes in load e.g. new product launch, Black Friday sale, etc. <https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/principles?WT.mc_id=AZ-MVP-33518>
+- **Security** – Protecting from threats and bad actors <https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-principles?WT.mc_id=AZ-MVP-33518>
+- **Operational Excellence** **(DevOps)** – Deploying and managing workloads once deployed <https://docs.microsoft.com/en-us/azure/architecture/framework/devops/principles?WT.mc_id=AZ-MVP-33518>
 
 ### Trade-offs
 
@@ -46,7 +46,7 @@ Just like Agile, this is intended to be applied for continuous improvement throu
 
 ### What to do next?
 
-[Assess your workload against the 5 Pillars of WAF with the Microsoft Azure Well-Architected Review](https://learn.microsoft.com/en-us/assessments/azure-architecture-review) and add any recommendations from the assessment results to your backlog.
+[Assess your workload against the 5 Pillars of WAF with the Microsoft Azure Well-Architected Review](https://learn.microsoft.com/en-us/assessments/azure-architecture-review?WT.mc_id=AZ-MVP-33518) and add any recommendations from the assessment results to your backlog.
 
 ![Figure: Some recommendations will be checked, others go to the backlog so the Product Owner can prioritize](waf-assessment.png)
 

@@ -41,4 +41,4 @@ What Power Platform Projects are supported?
 
 If it can be included in a solution, then it's supported.
 
-More Information here: https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools
+More Information here: https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools?WT.mc_id=DX-MVP-33518

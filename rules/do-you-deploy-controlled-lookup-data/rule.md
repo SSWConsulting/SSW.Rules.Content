@@ -58,7 +58,7 @@ else
 
 ### Modern Frameworks (EF)
 
-Entity Framework allows for [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding) which is the process of populating a database with an initial set of data. This is perfect for populating controlled lookup data.
+Entity Framework allows for [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding?WT.mc_id=DP-MVP-33518) which is the process of populating a database with an initial set of data. This is perfect for populating controlled lookup data.
 
 ### Legacy Applications
 

@@ -178,7 +178,7 @@ Standardizing where your organisation stores architecture diagrams ensures a con
 
 ### Tip #12: Use Azure Architecture Center
 
-[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](/azure-architecture-center)
+[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/?WT.mc_id=AZ-MVP-33518) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](/azure-architecture-center)
 
 ### Alternatives to draw.io
 

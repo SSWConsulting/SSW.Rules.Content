@@ -34,7 +34,7 @@ Addressing users already registered with company emails in the existing applicat
 
 #### SubId check
 
-Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store using the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method. If found, proceed with authentication by handling the request gracefully.
+Begin by verifying if the user has an external login associated with the SubId from the ExternalAuthProvider in your application's user store using the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) method. If found, proceed with authentication by handling the request gracefully.
 
 ```csharp
 var existingUserByExternalLogin = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId);
@@ -54,7 +54,7 @@ Figure: Retrieving existing user by using the Email claim from the JWT token uti
 
 #### Users known to the application but not authenticated via ExternalAuthProvider
 
-Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the user's record.
+Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) method to associate this SubId as an external login with the user's record.
 
 ```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
@@ -67,12 +67,12 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 
 #### Future Authentications
 
-For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>) method.
+For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108?WT.mc_id=DT-MVP-33518)>) method.
 
 ### ✅ Benefits
 
 - Seamless authentication experience for existing users
-- Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>)
+- Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108?WT.mc_id=DT-MVP-33518)>)
 
 ## 2. New ExternalAuthProvider registrants
 
@@ -80,7 +80,7 @@ Incorporating users who are new to both the ExternalAuthProvider and the applica
 
 #### Email verification
 
-Check if the email provided by the ExternalAuthProvider during authentication exists in your application's user store by using ASP .NET Identity Core methods like [`FindByEmailAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyemailasync?view=aspnetcore-7.0). If it doesn't, this indicates the user is new.
+Check if the email provided by the ExternalAuthProvider during authentication exists in your application's user store by using ASP .NET Identity Core methods like [`FindByEmailAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyemailasync?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518). If it doesn't, this indicates the user is new.
 
 ```csharp
   var existingUser = await _userManager.FindByEmailAsync(emailFromIdentityServer);
@@ -108,7 +108,7 @@ Register by creating a new user in your application's store using claims provide
 **Note**: In the example above extraction of claims may vary based on how you access the token.
 :::
 
-Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the newly created user record.
+Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) method to associate this SubId as an external login with the newly created user record.
 
 ```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
@@ -117,7 +117,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 
 #### Future Authentications
 
-Finally for all subsequent logins use the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0) method to check if the user already exists.
+Finally for all subsequent logins use the [`FindByLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.findbyloginasync?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) method to check if the user already exists.
 
 ```csharp
 var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, subId));

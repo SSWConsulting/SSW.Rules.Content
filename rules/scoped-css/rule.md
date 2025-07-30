@@ -88,7 +88,7 @@ In `MyComponent.razor.cs`, if we use the `::deep` psuedo selector on a class, it
 }
 ```
 
-[Blazor CSS Isolation - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/css-isolation?view=aspnetcore-7.0)
+[Blazor CSS Isolation - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/css-isolation?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518)
 
 #### Angular
 

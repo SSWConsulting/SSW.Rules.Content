@@ -35,7 +35,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 
 ## Options
 
-- [Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0) (Recommended)
+- [Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) (Recommended)
 - [ngrok](https://ngrok.com)
 - [TunnelTo](https://tunnelto.dev)
 - [Packet Riot](https://packetriot.com)
@@ -86,7 +86,7 @@ Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 
 ## Resources
 
-- [MS Learn - Port Tunneling](https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling)
-- [How To - Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0)
-- [Dev Tunnels Public Preview](https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects)
+- [MS Learn - Port Tunneling](https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling?WT.mc_id=DT-MVP-33518)
+- [How To - Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518)
+- [Dev Tunnels Public Preview](https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects?WT.mc_id=DT-MVP-33518)
 - [Twilio Webhooks](https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks)

@@ -37,7 +37,7 @@ In such case you will have to manually backup databases. Make sure all relevant 
 ::: info
 **Important:** Manual backup requires additional user steps which involve creation of additional tables and stored procedures. These tables has to be created to keep TFS databases in sync.
 
-Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops).
+Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops&WT.mc_id=DOP-MVP-33518).
 :::
 
 ![Figure: Add tbl_TfsTransactionLogMark table to every Tfs_* Database](add tbl.jpg)

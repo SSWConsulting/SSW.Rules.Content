@@ -21,7 +21,7 @@ redirects:
   - do-you-know-how-to-set-up-application-insights
 ---
 
-The easiest way to get started with Application Insights is to [follow the documentation on Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview).
+The easiest way to get started with Application Insights is to [follow the documentation on Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?WT.mc_id=AZ-MVP-33518).
 
 Lets take a look at the overview and our tips to help you get the most out of Application Insights.
 
@@ -31,11 +31,11 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
 
 Application Insights requires that you make 2 general modifications to your application:
 
-1. On the client side, manually [add a Javascript tracker to your web page header](https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-sdk?tabs=javascriptwebsdkloaderscript) (i.e. by placing directly on each page or through a "master page" or "layout template"), this modification enables the "browser page loading time" monitor and can track client-side exceptions:
+1. On the client side, manually [add a Javascript tracker to your web page header](https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-sdk?tabs=javascriptwebsdkloaderscript&WT.mc_id=AZ-MVP-33518) (i.e. by placing directly on each page or through a "master page" or "layout template"), this modification enables the "browser page loading time" monitor and can track client-side exceptions:
 
    ![Browser side stats have been enabled with the JavaScript tracker](app-insights-browser-loading-time.jpg)
 
-2. On the server side, [install and configure the Azure.Monitor.OpenTelemetry.AspNetCore package](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable?tabs=aspnetcore). These modifications enable the "server response time", "server request" and "failed requests" monitors.
+2. On the server side, [install and configure the Azure.Monitor.OpenTelemetry.AspNetCore package](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable?tabs=aspnetcore&WT.mc_id=AZ-MVP-33518). These modifications enable the "server response time", "server request" and "failed requests" monitors.
 
   ![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
 
@@ -49,7 +49,7 @@ Application Insights makes it easy to check the health of your app and its infra
 
 ### Create a custom dashboard
 
-A custom [Application Insights dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#create-custom-kpi-dashboards-using-application-insights) makes monitoring your application much easier. The KPIs that you would typically monitor for each component of your application are:
+A custom [Application Insights dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#create-custom-kpi-dashboards-using-application-insights?WT.mc_id=AZ-MVP-33518) makes monitoring your application much easier. The KPIs that you would typically monitor for each component of your application are:
 
 * How many requests each component is receiving.
 * How long requests are taking.

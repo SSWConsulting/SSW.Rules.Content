@@ -50,7 +50,7 @@ Figure: Bad example - A client-side redirect achieved by returning a meta refres
 
 ### 2. Server-side redirects
 
-An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1). 
+An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1&WT.mc_id=AZ-MVP-33518). 
 
 This approach involves modifying the response to incoming requests at the source rather than simply sending HTML that will redirect the user to the appropriate location by proxy.
 

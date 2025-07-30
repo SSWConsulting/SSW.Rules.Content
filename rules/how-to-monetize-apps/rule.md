@@ -58,7 +58,7 @@ Subscriptions have become much more popular, even for traditional desktop softwa
 ![Figure: Good example - Microsoft 365 is available to home and business users for a low recurring cost](microsoft365.png)
 :::
 
-[Microsoft 365](https://www.microsoft.com/microsoft-365) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. With a subscription, users get access to these apps and the connected services that tie them together in the cloud, and the cost over a 3 year period (the average time between desktop releases before Office 365) is lower than the cost of a desktop license amortized over the same period.
+[Microsoft 365](https://www.microsoft.com/microsoft-365?WT.mc_id=AZ-MVP-33518) (formerly Office 365) is a suite of productivity tools that run on mobile, desktop and web. With a subscription, users get access to these apps and the connected services that tie them together in the cloud, and the cost over a 3 year period (the average time between desktop releases before Office 365) is lower than the cost of a desktop license amortized over the same period.
 
 ### Micro-transactions
 

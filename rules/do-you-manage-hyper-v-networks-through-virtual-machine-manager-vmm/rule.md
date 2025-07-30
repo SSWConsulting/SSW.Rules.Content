@@ -24,7 +24,7 @@ To do that, you need to complete a few steps:
 
 1. Configure network settings with a logical switch;
 
-You can learn more on how to set this up [here](https://docs.microsoft.com/en-us/system-center/vmm/network-switch?view=sc-vmm-2019).
+You can learn more on how to set this up [here](https://docs.microsoft.com/en-us/system-center/vmm/network-switch?view=sc-vmm-2019&WT.mc_id=DT-MVP-33518).
 
 2. Ask yourself: "What is this network adapter going to be used for?"
 
@@ -32,4 +32,4 @@ You need to specify if the network adapter is going to be used for virtual machi
 
 3. Apply the logical switch and monitor physical network devices
 
-For full instructions on how to do this, see [here](https://docs.microsoft.com/en-us/system-center/vmm/hyper-v-network?view=sc-vmm-2019).
+For full instructions on how to do this, see [here](https://docs.microsoft.com/en-us/system-center/vmm/hyper-v-network?view=sc-vmm-2019&WT.mc_id=DT-MVP-33518).

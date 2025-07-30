@@ -54,4 +54,4 @@ Data in Azure Storage accounts is protected by replication. Deciding how far to 
 
 **More information:**
 
-- [Azure Storage Redundancy Option](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+- [Azure Storage Redundancy Option](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy?WT.mc_id=DP-MVP-33518)

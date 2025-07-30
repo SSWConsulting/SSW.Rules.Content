@@ -131,7 +131,7 @@ Connection string is automatically injected.
 ## Get Started with Aspire
 
 Check out Microsoft's docs  
-<https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview>
+<https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518>
 
 ::: greybox  
 You can test out Aspire by running the SSW.CleanArchitecture template - Let us know what you think!  

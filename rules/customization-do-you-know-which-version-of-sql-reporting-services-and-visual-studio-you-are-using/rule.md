@@ -25,7 +25,7 @@ Make sure you are using the correct version of Visual Studio to edit reports, ei
 
 The benefit of using SSDT-BI is you will be able to target SQL Reporting Services 2008-2012 without having different versions of Visual Studio installed.
 
-SSDT-BI can be downloaded from: [http://www.microsoft.com/en-au/download/details.aspx?id=36843](http://www.microsoft.com/en-au/download/details.aspx?id=36843)
+SSDT-BI can be downloaded from: [http://www.microsoft.com/en-au/download/details.aspx?id=36843](http://www.microsoft.com/en-au/download/details.aspx?id=36843&WT.mc_id=DT-MVP-33518)
 
 <!--endintro-->
 

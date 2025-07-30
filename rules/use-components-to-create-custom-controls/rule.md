@@ -23,6 +23,6 @@ That's where Components come in. Components allow you to create a custom control
 
 For more information on Components look at the following blog post: https://powerapps.microsoft.com/en-us/blog/components-available-in-preview/
 
-Full documentation here: https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component
+Full documentation here: https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/create-component?WT.mc_id=DX-MVP-33518
 
 ![Figure: Create a new Component](newcomponent-powerapps.png)

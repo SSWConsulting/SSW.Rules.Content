@@ -14,6 +14,6 @@ redirects:
   - do-you-know-all-steps-required-when-migrating-to-the-cloud
 ---
 
-Planning is an important part of your TFS Migration to the cloud therefore it is highly recommended to read the [TFS Migration Guide](https://docs.microsoft.com/en-us/azure/devops/migrate/migration-overview?view=azure-devops).
+Planning is an important part of your TFS Migration to the cloud therefore it is highly recommended to read the [TFS Migration Guide](https://docs.microsoft.com/en-us/azure/devops/migrate/migration-overview?view=azure-devops&WT.mc_id=AZ-MVP-33518).
 
 <!--endintro-->

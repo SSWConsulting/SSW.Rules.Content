@@ -17,7 +17,7 @@ related:
   - migrate-from-system-web-to-modern-alternatives
 ---
 
-Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
+Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
 
 In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectContext is the base class that is used by the generated class, which will generally end with Entities (e.g. DataEntities).
 
@@ -154,8 +154,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 # Resources
 
-- How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s)
-- Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx>
+- How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
+- Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
 
 # Alternative
 

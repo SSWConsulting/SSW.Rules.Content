@@ -15,7 +15,7 @@ redirects: []
 
 Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.
 
-If you want to delay something, you can use a [storyboard](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.animation.storyboard?view=windowsdesktop-7.0&redirectedfrom=MSDN).
+If you want to delay something, you can use a [storyboard](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.animation.storyboard?view=windowsdesktop-7.0&redirectedfrom=MSDN&WT.mc_id=DT-MVP-33518).
 
 <!--endintro-->
 

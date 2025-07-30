@@ -28,7 +28,7 @@ Changing the appearance of your browser's new tabs can greatly enhance your brow
 :::
 
 ::: info
-**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
+**Tip:** You can also [change your browser theme color](https://techcommunity.microsoft.com/t5/articles/personalize-microsoft-edge-with-built-in-theme-colors/m-p/2230250?WT.mc_id=DT-MVP-33518) to match your branding. This is especially useful to differentiate multiple profiles in your browser.
 :::
 
 ## How to add a branded image to your new tab experience

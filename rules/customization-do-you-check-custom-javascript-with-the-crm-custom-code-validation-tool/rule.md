@@ -21,4 +21,4 @@ To use the CRM 2011 Custom Code Validation Tool, download the zip file from Micr
 
 ![Figure: Using Custom Code Verification Tool](CRM-2011-Custom-Code-Validation-Tool.png)
 
-Download the [CRM 2011 Custom Code Validation Tool](http://www.microsoft.com/en-us/download/details.aspx?id=30151).
+Download the [CRM 2011 Custom Code Validation Tool](http://www.microsoft.com/en-us/download/details.aspx?id=30151&WT.mc_id=DX-MVP-33518).

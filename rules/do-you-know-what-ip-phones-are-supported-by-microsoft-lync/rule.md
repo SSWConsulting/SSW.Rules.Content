@@ -20,7 +20,7 @@ Before you rush out to purchase IP phones for the new Lync solution you have wan
 
 <!--endintro-->
 
-As per [IP Desk Phones page](http://technet.microsoft.com/en-us/lync/gg278172) we can see there are three vendors which supply IP phones which are supported by Lync. These three vendors are:
+As per [IP Desk Phones page](http://technet.microsoft.com/en-us/lync/gg278172?WT.mc_id=M365-MVP-33518) we can see there are three vendors which supply IP phones which are supported by Lync. These three vendors are:
 
 * SNOM
 * HP

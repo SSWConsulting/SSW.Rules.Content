@@ -18,7 +18,7 @@ Are you still managing your Dynamics solution changes manually? Manually exporti
 
 <!--endintro-->
 
-Dynamics (and model-driven Power Apps) use solution files to store and apply changes across environments. Using the [Power Platform Build Tools for Azure DevOps](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools) will let automate manual tasks like:
+Dynamics (and model-driven Power Apps) use solution files to store and apply changes across environments. Using the [Power Platform Build Tools for Azure DevOps](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools?WT.mc_id=DOP-MVP-33518) will let automate manual tasks like:
 
 - Exporting unmanaged solutions and committing to source control
 - Generating managed solutions for use in downstream environments such as Testing and Production

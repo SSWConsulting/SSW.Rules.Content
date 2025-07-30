@@ -56,7 +56,7 @@ const getTargetedDayAsText = (targetedDays) => {
 
 Now this is nowhere near as terse, but anyone looking at it is able to quickly determine what is going on. And anyone who has to investigate any issue with the code is going to be able to step through and debug this without any issues.
 
-This above is not an overly complicated example but now imagine something like this [example](https://learn.microsoft.com/en-us/archive/blogs/lukeh/taking-linq-to-objects-to-extremes-a-fully-linqified-raytracer)
+This above is not an overly complicated example but now imagine something like this [example](https://learn.microsoft.com/en-us/archive/blogs/lukeh/taking-linq-to-objects-to-extremes-a-fully-linqified-raytracer?WT.mc_id=AI-MVP-33518)
 
 ```js
 var pixelsQuery =

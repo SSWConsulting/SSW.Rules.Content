@@ -20,7 +20,7 @@ In many cases, there are legal requirements to audit all updates to financial re
 
 <!--endintro-->
 
-[Temporal tables](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables) were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
+[Temporal tables](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?WT.mc_id=DP-MVP-33518) were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
 They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.
 
 ::: good

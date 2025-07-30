@@ -38,13 +38,13 @@ Organizing your cloud assets starts with good names. It is best to be consistent
 
 * All lower case
 * Use [kebab case (“-“ as a separator)](/use-dashes-in-urls)
-* Include a [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) (so it's easy to find the resource in a script)
+* Include a [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations?WT.mc_id=AZ-MVP-33518) (so it's easy to find the resource in a script)
 * Include which environment the resource is intended for i.e. [dev, test, prod, etc.](/do-you-have-separate-development-testing-and-production-environments)
 * If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix _api_
 
 <!--endintro-->
 
-Azure defines [some best practices for naming and tagging your resource](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).
+Azure defines [some best practices for naming and tagging your resource](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging?WT.mc_id=AZ-MVP-33518).
 
 Having inconsistent resource names across projects creates all sorts of pain
 

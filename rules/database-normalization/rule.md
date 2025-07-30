@@ -194,4 +194,4 @@ The use of these tools helps improve data integrity and reduce data redundancy.
 
 # Further Study
 
-- Microsoft Office's Troubleshoot Access Database Normalization Description: https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
+- Microsoft Office's Troubleshoot Access Database Normalization Description: https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description?WT.mc_id=DP-MVP-33518

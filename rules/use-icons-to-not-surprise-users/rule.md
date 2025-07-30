@@ -36,7 +36,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |
-| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/)                                     | ...                      |
+| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/?WT.mc_id=M365-MVP-33518)                                     | ...                      |
 | **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
 | **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
 | **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |

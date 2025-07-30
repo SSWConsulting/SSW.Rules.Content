@@ -34,5 +34,5 @@ btnAbout.Text = "&About"
 ```
 
 ::: info
-Learn more about the [Mnemonic property on Windows Desktop](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.label.usemnemonic?view=windowsdesktop-7.0).
+Learn more about the [Mnemonic property on Windows Desktop](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.label.usemnemonic?view=windowsdesktop-7.0&WT.mc_id=WDIT-MVP-33518).
 :::

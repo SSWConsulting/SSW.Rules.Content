@@ -58,6 +58,6 @@ For web applications, always run the assessment scripts in advance and generate 
 
 ### Useful Resources
 
-* [🔗 Official Azure App Service Migration Assistant Documentation](https://learn.microsoft.com/en-us/azure/app-service/app-service-migration-assistant)
-* [🔗 App Service Migration Assistant – Official Azure Blog Announcement](https://azure.microsoft.com/en-us/blog/introducing-the-app-service-migration-assistant-for-asp-net-applications/)
+* [🔗 Official Azure App Service Migration Assistant Documentation](https://learn.microsoft.com/en-us/azure/app-service/app-service-migration-assistant?WT.mc_id=AZ-MVP-33518)
+* [🔗 App Service Migration Assistant – Official Azure Blog Announcement](https://azure.microsoft.com/en-us/blog/introducing-the-app-service-migration-assistant-for-asp-net-applications/?WT.mc_id=AZ-MVP-33518)
 * [▶️ Video: Azure App Service Migration Assistant Demo](https://www.youtube.com/watch?v=9LBUmkUhmXU)

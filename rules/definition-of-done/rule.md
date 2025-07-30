@@ -93,7 +93,7 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 - _All of the above, plus_
 - All acceptance criteria have been met
 - All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)  
-  **Tip:** Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans)
+  **Tip:** Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans&WT.mc_id=DOP-MVP-33518)
 - Sending a Done email (with video recording using SnagIt)
 
 ::: good  
@@ -116,7 +116,7 @@ Figure: Good example - Done video showing the features worked on
 ### Team - Level 6
 
 - _All of the above, plus_
-- Application automatically tested in multiple environments, using services such as [Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview) and [BrowserStack](https://www.browserstack.com/)
+- Application automatically tested in multiple environments, using services such as [Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview?WT.mc_id=DOP-MVP-33518) and [BrowserStack](https://www.browserstack.com/)
 
 ### Team - Level 7
 

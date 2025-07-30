@@ -78,4 +78,4 @@ When using `LoggerMessageAttribute`, ensure:
 
 ## More information
 
-See this great article on Microsoft Learn which goes into more detail and usage examples: [Compile-time logging source generation in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator).
+See this great article on Microsoft Learn which goes into more detail and usage examples: [Compile-time logging source generation in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator?WT.mc_id=DT-MVP-33518).

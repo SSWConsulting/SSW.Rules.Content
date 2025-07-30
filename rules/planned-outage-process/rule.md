@@ -139,6 +139,6 @@ Once these have been checked for active users, and users have logged off, mainte
 2. Between 1pm and 1:05pm
 3. Between 7pm and 7:05pm
 
-If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown) page.
+If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown?WT.mc_id=M365-MVP-33518) page.
 
 **Always reply 'Done' when you finish the task.**
