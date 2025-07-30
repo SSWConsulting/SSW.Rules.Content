@@ -10,6 +10,7 @@ authors:
     url: https://ssw.com.au/people/luke-cook
 related:
   - add-context-reasoning-to-emails
+  - the-value-of-consistency
 redirects:
   - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
   - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
