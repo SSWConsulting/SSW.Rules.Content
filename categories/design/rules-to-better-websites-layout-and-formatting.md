@@ -32,7 +32,7 @@ index:
 - do-you-know-table-tags-should-not-specify-the-width
 - do-you-use-doctype-without-any-reference
 - do-you-include-the-number-of-results-in-drop-down-list
-- do-you-use-back-instead-of-previous-or-other-variations
+- back-buttons
 - do-you-use-predictive-textboxes-instead-of-normal-combo-or-text-boxes
 - do-you-use-the-correct-input-type
 - do-you-know-font-tags-are-no-longer-used
