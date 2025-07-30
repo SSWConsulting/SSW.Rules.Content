@@ -6,6 +6,8 @@ uri: run-llms-locally
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - use-ai-responsibly
   - best-ai-tools
@@ -15,8 +17,6 @@ guid: 2b7d9e5f-3a1c-4f6e-9d2a-8c4e5f6a7b8c
 ---
 
 While cloud-based AI services like [OpenAI](https://openai.com/), [Claude](https://claude.ai/), and [Gemini](https://gemini.google.com/) offer convenience and power, running large language models (LLMs) locally provides significant advantages for privacy-conscious developers, businesses with sensitive data, and those who need offline capabilities.
-
-<!--endintro-->
 
 ## Why run LLMs locally?
 
@@ -38,13 +38,17 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 * **Setup complexity** - Requires technical knowledge for initial configuration
 * **Updates** - Must manually update models and software
 
+<!--endintro-->
+
 ## Ollama vs Microsoft Foundry Local
+
+Two main platforms simplify running local LLMs: Ollama for its ease of use, and Microsoft Foundry for its enterprise integration.
 
 There are two primary platforms for running LLMs locally, each with distinct advantages:
 
 ### Ollama - The Open Source Champion
 
-**[Ollama](https://ollama.com/)** is an open-source platform that makes running LLMs locally incredibly simple:
+**[Ollama](https://ollama.com)** is an open-source platform that makes running LLMs locally incredibly simple:
 
 **✅ Pros:**
 
@@ -64,7 +68,7 @@ There are two primary platforms for running LLMs locally, each with distinct adv
 
 ### Microsoft Foundry Local - The Enterprise Solution
 
-**[Microsoft Foundry Local](https://azure.microsoft.com/en-us/products/ai-foundry/)** is a local version of Azure AI Foundry, designed for enterprise scenarios:
+**[Microsoft Foundry Local](https://azure.microsoft.com/en-us/products/ai-foundry)** is a local version of Azure AI Foundry, designed for enterprise scenarios:
 
 **✅ Pros:**
 
@@ -112,15 +116,12 @@ Here are some popular coding models to get you started:
 
 * [StarCoder](https://ollama.com/library/starcoder2) - Open-source code generation model (3B/15B)
 
-* [https://ollama.com/library/codestral](https://ollama.com/library/codestral) - designed by Mistral for code generation tasks
+* [Codestral](https://ollama.com/library/codestral) - designed by Mistral for code generation tasks
 
 ## Best practices
 
-* **Choose the right model size** - Balance capability with hardware constraints
-* **Monitor resource usage** - Watch CPU, RAM, and GPU utilization
-* **Keep models updated** - Regularly update to latest versions
-* **Backup configurations** - Save your local setup configurations
-* **Test performance** - Benchmark different models for your use cases
+* **Start with a ~7B parameter model** - Models like codellama:7b or llama3:8b are a great baseline for performance on consumer hardware (e.g., a MacBook with 16GB+ RAM)
+* **Benchmark models on your tasks** - A model that excels at writing prose may not be the best for generating C# code. Test a few to see what works best for your needs.
 * **Consider hybrid approaches** - Use local models for sensitive data, cloud for complex tasks
 
 Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment. Whether you choose Ollama for simplicity or Foundry Local for enterprise features, local LLMs are becoming an essential tool for modern development workflows.
