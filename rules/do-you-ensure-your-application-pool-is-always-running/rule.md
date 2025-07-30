@@ -23,7 +23,7 @@ When you set the startMode property of your application pool to AlwaysRunning a 
 
 When you set preloadEnabled to true, IIS will simulate a user request to the default page (can be changed with initializationPage metabase setting) of the website/virdir so that the application initializes. The request is not logged in the IIS logs.
 
-### IIS 8 configuration:
+### IIS 8 configuration
 
 The feature is built-in to IIS 8
 
@@ -40,9 +40,9 @@ The feature is built-in to IIS 8
 5. Change Preload Enabled to True
    ![Figure: Preload setting](iis8-3.jpg)
 
-### Instructions below for IIS 7.5:
+### Instructions below for IIS 7.5
 
-1. On the application server install http://www.iis.net/downloads/microsoft/application-initialization or it can be installed using the Web Platform installer
+1. On the application server install <http://www.iis.net/downloads/microsoft/application-initialization> or it can be installed using the Web Platform installer
 2. Open **Internet Information Services (IIS)**
 3. Select the server
 4. Scroll down and select **Configuration Editor**
@@ -60,7 +60,7 @@ The feature is built-in to IIS 8
 
 ---
 
-### Alternative Instructions for IIS 7.5:
+### Alternative Instructions for IIS 7.5
 
 1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. We recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
 
@@ -69,7 +69,9 @@ The feature is built-in to IIS 8
    ```
 
 2. Add the Always Running mode by adding startMode="AlwaysRunning"
+
    ```xml
    <add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″" startmode="AlwaysRunning"></add>
    ```
+
 3. Save this file and perform an IISReset so that the change is read into the running memory of the IIS server.

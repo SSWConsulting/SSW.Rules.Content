@@ -129,20 +129,20 @@ Prior to SQL Server 2016, a single Log Writer thread performed all log writes. I
 
 Occurs when some of the following I/O activities happen:
 
-- The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
-- Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
-- Reading the actual data from the data files during a data backup.
+* The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
+* Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
+* Reading the actual data from the data files during a data backup.
 
 ### IO_COMPLETION
 
 Occurs while waiting for I/O operations to complete. This wait type generally involves I/Os not related to data pages (buffers). Examples include:
 
-- Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
-- Reading and writing eager spools to disk (check tempdb storage).
-- Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
-- Reading a page from disk when database isn't set up yet.
-- Copying pages to a database snapshot (Copy-on-Write).
-- Closing database file and file uncompression.
+* Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
+* Reading and writing eager spools to disk (check tempdb storage).
+* Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
+* Reading a page from disk when database isn't set up yet.
+* Copying pages to a database snapshot (Copy-on-Write).
+* Closing database file and file uncompression.
 
 ### BACKUPIO
 

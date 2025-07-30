@@ -27,11 +27,11 @@ It acts as an orchestration layer between an application and any AI services it 
 
 Semantic Kernel offers many benefits over manually setting up your AI services.
 
-- Common AI abstractions
-  - Resistant to API changes
-  - Services can be easily swapped (i.e. from Azure OpenAI to OpenAI API or vice versa)
-- Faster development time
-- Easier maintenance
+* Common AI abstractions
+  * Resistant to API changes
+  * Services can be easily swapped (i.e. from Azure OpenAI to OpenAI API or vice versa)
+* Faster development time
+* Easier maintenance
 
 Using Semantic Kernel, it's easy to set up a basic console chat bot in under 15 lines of code!
 

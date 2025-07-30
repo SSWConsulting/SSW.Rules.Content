@@ -49,9 +49,9 @@ Backup storage is the storage associated with your automated database backups th
 
 **Learn more on Microsoft documentation:**
 
-- [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx?WT.mc_id=DP-MVP-33518)
-- [Restore a SQL Database Using Point in Time Restore](https://azure.microsoft.com/en-ca/blog/azure-sql-database-point-in-time-restore/?WT.mc_id=DP-MVP-33518)
+* [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx?WT.mc_id=DP-MVP-33518)
+* [Restore a SQL Database Using Point in Time Restore](https://azure.microsoft.com/en-ca/blog/azure-sql-database-point-in-time-restore/?WT.mc_id=DP-MVP-33518)
 
 **Other ways to back up Azure SQL Database:**
 
-- Microsoft Blog - [Different ways to Backup your Windows Azure SQL Database](https://daoudisamir.com/different-ways-backup-windows-azure-sql-database/)
+* Microsoft Blog - [Different ways to Backup your Windows Azure SQL Database](https://daoudisamir.com/different-ways-backup-windows-azure-sql-database/)

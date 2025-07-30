@@ -34,9 +34,9 @@ Whether your app is paid up front or 'freemium', if you need to collect money at
 
 This is the traditional approach, where you set a price for your app or game, and users must buy it before they can use it. This might be the right approach for you if:
 
-- Your product is a AAA gaming title
-- Your product is a useful, but not essential, productivity tool
-- Your product is _not_ a SaaS product (one-off payments are difficult to reconcile against ongoing cloud and hosting costs)
+* Your product is a AAA gaming title
+* Your product is a useful, but not essential, productivity tool
+* Your product is _not_ a SaaS product (one-off payments are difficult to reconcile against ongoing cloud and hosting costs)
 
 ::: good
 ![Figure: Good example - The Legend of Engadine on iOS and Android is free to play, but a one-time purchase unlocks premium features.](engadine.png)
@@ -50,9 +50,9 @@ One-time fees work with either paid apps or 'freemium' apps; users can either bu
 
 Subscriptions have become much more popular, even for traditional desktop software. Rather than pay a one-time fee, users pay a recurring monthly or annual fee to use the software. This might be the right approach for you if:
 
-- Your product is a SaaS product
-- Your product is likely to get recurring regular use _without_ you needing to continually drive engagement (e.g. An essential, or at least high value, productivity tool)
-- Your product has other ongoing maintenance costs (e.g. Content development)
+* Your product is a SaaS product
+* Your product is likely to get recurring regular use _without_ you needing to continually drive engagement (e.g. An essential, or at least high value, productivity tool)
+* Your product has other ongoing maintenance costs (e.g. Content development)
 
 ::: good
 ![Figure: Good example - Microsoft 365 is available to home and business users for a low recurring cost](microsoft365.png)
@@ -66,9 +66,9 @@ Micro-transactions is the practice of continually charging comparatively small a
 
 For these reasons, micro-transactions are [increasingly](https://www.vg247.com/australian-government-rules-games-microtransactions-must-address-packaging) [subject](https://www.gamespot.com/articles/you-might-have-to-prove-your-age-to-buy-a-loot-box/1100-6474443/) to scrutiny from [governments](https://www.aph.gov.au/Parliamentary_Business/Committees/House/Social_Policy_and_Legal_Affairs/Onlineageverification/Report) and [regulators](https://www.gamesindustry.biz/australian-investigation-finds-loot-boxes-are-pscyholgocially-akin-to-gambling). This might be the right approach for you if:
 
-- You are certain you have an ethical model for micro-transactions
-- You are not exploiting minors or people with a gambling addiction
-- You have a genuine use case for providing small purchases in your app that can bring joy to your users
+* You are certain you have an ethical model for micro-transactions
+* You are not exploiting minors or people with a gambling addiction
+* You have a genuine use case for providing small purchases in your app that can bring joy to your users
 
 `youtube: https://www.youtube.com/embed/fKK9nVLvhGM`
 
@@ -84,9 +84,9 @@ Most free apps are designed to make money too. There are of course exceptions (f
 
 [The most common way for free apps and games to make money is through advertising](https://www.spaceotechnologies.com/blog/how-do-free-apps-make-money/). Ads are shown to users in the app or game, either as banners that are constantly there, or as interstitial ads (ads that appear between levels or interactions and block the rest of the app or game until they are finished). In-app advertising is still a significant revenue stream, but is considered less-professional or less-polished for certain categories of games or apps. This might be the right approach for you if:
 
-- Your app is a mobile or web app (desktop users are less tolerant of in-app ads)
-- Your app has a strong re-use strategy (e.g., 'addictive' games, or diary-like apps that require or support daily use)
-- Your target demographic is less likely to pay to use an app (and less bothered by ads)
+* Your app is a mobile or web app (desktop users are less tolerant of in-app ads)
+* Your app has a strong re-use strategy (e.g., 'addictive' games, or diary-like apps that require or support daily use)
+* Your target demographic is less likely to pay to use an app (and less bothered by ads)
 
 **Note:** If you include ads in your app, you should consider a freemium model, so that users can pay to remove them.
 
@@ -98,9 +98,9 @@ Most free apps are designed to make money too. There are of course exceptions (f
 
 Some apps provide the app for free, but content within the app is paid for. This is a good model for content creators, or an excellent model for content platforms with user generated content. This might be the right approach for you if:
 
-- Your content is your product, and your app is just a delivery vessel
-- You have a lot of user generated content (and your users want to monetize that content too)
-- You are regularly adding new content to your app
+* Your content is your product, and your app is just a delivery vessel
+* You have a lot of user generated content (and your users want to monetize that content too)
+* You are regularly adding new content to your app
 
 ::: good
 ![Figure: Good example - The Zinio app is a digital magazine platform. The app is free, but users pay to subscribe to a magazine or to purchase individual issues](zinio.png)
@@ -110,9 +110,9 @@ Some apps provide the app for free, but content within the app is paid for. This
 
 This approach is uncommon, but occasionally an app developer might want to give an app away for free to entice users to try another, revenue generating app. Examples include showcase apps for UI control library vendors, like [Syncfusion](https://apps.apple.com/us/app/syncfusion-dashboard-mobile/id1157300621), [Telerik](https://apps.apple.com/us/app/telerik-ui-for-xamarin-samples/id1083924868) or [Grial Kit](https://apps.apple.com/us/app/grial-uikit/id1099501310). This might be the right approach for you if:
 
-- Your app is used to demonstrate expertise
-- Your app is a portal for a different subscription product
-- Your app has low or no ongoing maintenance or support/infrastructure costs
+* Your app is used to demonstrate expertise
+* Your app is a portal for a different subscription product
+* Your app has low or no ongoing maintenance or support/infrastructure costs
 
 ### Data mining
 

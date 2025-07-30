@@ -39,19 +39,19 @@ Now with that out of the way, which one do I use?
 
 Fetch Restrictions:
 
-- Fetch does not support RIGHT OUTER JOIN and FULL OUTER JOIN.
-- Fetch does not support EXISTS/IN condition with sub-query/expression.
-- **An amount of 5000 returned records maximum.**
-- No “UNION” selects.
-- You cannot specify group by / sum queries – You can only select the records in detail and then perform the aggregation in your report.
-- Number of entity join (link) limitations.
-- **FetchXML reports cannot use non-CRM online data sources.**
-- Learning curve – for report writers that are not familiar with FetchXML the syntax is quite different from SQL.
+* Fetch does not support RIGHT OUTER JOIN and FULL OUTER JOIN.
+* Fetch does not support EXISTS/IN condition with sub-query/expression.
+* **An amount of 5000 returned records maximum.**
+* No “UNION” selects.
+* You cannot specify group by / sum queries – You can only select the records in detail and then perform the aggregation in your report.
+* Number of entity join (link) limitations.
+* **FetchXML reports cannot use non-CRM online data sources.**
+* Learning curve – for report writers that are not familiar with FetchXML the syntax is quite different from SQL.
 
 What do you need get started writing Fetch based CRM Custom Reports?
 
-- Visual Studio (or BIDS, SSDT etc)
-- [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823&WT.mc_id=DX-MVP-33518)
+* Visual Studio (or BIDS, SSDT etc)
+* [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823&WT.mc_id=DX-MVP-33518)
 
 Get up and running quickly with Fetch:
 
@@ -71,13 +71,13 @@ Here's an example of a before (CRM Wizard) and after (Visual Studio) for an Acti
 
 5 enhancements that required a custom report:
 
-- Company logo top left
-- Total call minutes in header
-- Total call count and minutes totals for staff
-- Links to regarding account (in a grouping)
-- Colour coded series for charts that relate back to the report data headings
+* Company logo top left
+* Total call minutes in header
+* Total call count and minutes totals for staff
+* Links to regarding account (in a grouping)
+* Colour coded series for charts that relate back to the report data headings
 
 More Information:
 
-- [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/blogs/post/?postid=cf170dc9-95d7-440d-bd5f-888661caaaa2)
-- [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx?WT.mc_id=DX-MVP-33518)
+* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/blogs/post/?postid=cf170dc9-95d7-440d-bd5f-888661caaaa2)
+* [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx?WT.mc_id=DX-MVP-33518)

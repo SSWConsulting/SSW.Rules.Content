@@ -31,18 +31,18 @@ In the fast-evolving world of software development, it's crucial for your databa
 
 ### ✅ Recommended Tools for Database Schema Updates
 
-- [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?WT.mc_id=DP-MVP-33518): EF Core Migrations has become the de facto standard for managing database schema changes. It offers robust, integrated support for versioning and deploying database changes, making it the preferred choice for both new and existing projects.
+* [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?WT.mc_id=DP-MVP-33518): EF Core Migrations has become the de facto standard for managing database schema changes. It offers robust, integrated support for versioning and deploying database changes, making it the preferred choice for both new and existing projects.
 
-- [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16&WT.mc_id=DP-MVP-33518) (.dacpac files): Still relevant for SQL Server database management, particularly in complex deployment scenarios.
+* [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16&WT.mc_id=DP-MVP-33518) (.dacpac files): Still relevant for SQL Server database management, particularly in complex deployment scenarios.
 
 ### ❌ Not Recommended
 
 These methods are outdated and lack the comprehensive features required for modern database schema management, With no ability to validate that the database hasn't been tampered with:
 
-- [SQL Deploy](http://sqldeploy.com/) (This is the suggested tool if you are not using Entity Framework Code First)
-- [DbUp](https://dbup.readthedocs.io/en/latest/) + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.Core/)
-- [Navicat for MySQL](https://navicat.com/manual/online_manual/en/navicat/win_manual/#/structure_sync)
-- [DataGrip](https://www.jetbrains.com/help/datagrip/differences-viewer-for-routines.html)
-- SQL Management Studio + OSQL (Free and roll your own)
-- Visual Studio + [SQL Server Data Tools](https://visualstudio.microsoft.com/vs/features/ssdt/) (Formerly Data Dude) + Deploy (post-development model)
-- Red Gate SQL Compare + Red Gate SQL Packager (post-development model)
+* [SQL Deploy](http://sqldeploy.com/) (This is the suggested tool if you are not using Entity Framework Code First)
+* [DbUp](https://dbup.readthedocs.io/en/latest/) + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.Core/)
+* [Navicat for MySQL](https://navicat.com/manual/online_manual/en/navicat/win_manual/#/structure_sync)
+* [DataGrip](https://www.jetbrains.com/help/datagrip/differences-viewer-for-routines.html)
+* SQL Management Studio + OSQL (Free and roll your own)
+* Visual Studio + [SQL Server Data Tools](https://visualstudio.microsoft.com/vs/features/ssdt/) (Formerly Data Dude) + Deploy (post-development model)
+* Red Gate SQL Compare + Red Gate SQL Packager (post-development model)

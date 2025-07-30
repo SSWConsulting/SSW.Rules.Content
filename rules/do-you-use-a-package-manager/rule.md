@@ -61,6 +61,6 @@ For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/pa
 
 ## Option 3: Homebrew
 
-[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: https://brew.sh/
+[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: <https://brew.sh/>
 
 ![Figure: Homebrew installed](homebrew.png)

@@ -154,8 +154,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 # Resources
 
-- How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
-- Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
+* How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
+* Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
 
 # Alternative
 
@@ -165,9 +165,9 @@ While the above blog is supposedly working in EF Core 3.1, there is no informati
 
 Limitations:
 
-- EDMX is not supported in .NET Standard or .NET or any other SDK-style projects (required for .NET migrations)
-- Requires a dedicated .NET Framework project that is not yet upgraded to an SDK-style project to generate and update EDMX, models and ObjectContext
-- EF6 and EDMX are out of support
-- Built for EF Core 3.1 which is out of support
-- Unknown if it works on .NET 8 even with legacy .NET Framework support
-- ObjectContext (the core of EDMX) was slowly phasing out, being replaced by DbContext in 2012
+* EDMX is not supported in .NET Standard or .NET or any other SDK-style projects (required for .NET migrations)
+* Requires a dedicated .NET Framework project that is not yet upgraded to an SDK-style project to generate and update EDMX, models and ObjectContext
+* EF6 and EDMX are out of support
+* Built for EF Core 3.1 which is out of support
+* Unknown if it works on .NET 8 even with legacy .NET Framework support
+* ObjectContext (the core of EDMX) was slowly phasing out, being replaced by DbContext in 2012

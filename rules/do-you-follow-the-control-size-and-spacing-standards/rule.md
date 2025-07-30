@@ -44,18 +44,18 @@ These examples assume that you are using the standard system font as defined in 
 ### The Rules
 
 1. **Buttons must be...**
-   - Spaced apart by 6 pixels from other buttons
+   * Spaced apart by 6 pixels from other buttons
      **except** in the case of wizards where the
      _&lt; Back_ and
      _Next &gt;_ buttons may be closer together
-   - Spaced 6 pixels from the inside border of a form on the sides closest to it
-   - usually 75 pixels wide
-   - 23 pixels high
+   * Spaced 6 pixels from the inside border of a form on the sides closest to it
+   * usually 75 pixels wide
+   * 23 pixels high
 2. **Single-line textboxes and most controls must be...**
-   - 21 pixels high (width depends on content)
-   - Aligned correctly with any related controls
+   * 21 pixels high (width depends on content)
+   * Aligned correctly with any related controls
 3. **In a form...**
-   - Margins must be consistent (see
+   * Margins must be consistent (see
      [Microsoft's diagram illustrating this](http://www.ssw.com.au/ssw/Redirect/Microsoft/MSDNMargins.htm))
 
 **Ultimately the goal of all of this is to ensure consistency** . Keeping these ideas in mind at all times while doing user interface design will give users a better overall experience and will boost the professionalism of your products.

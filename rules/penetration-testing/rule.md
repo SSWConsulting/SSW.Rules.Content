@@ -66,7 +66,7 @@ There are 5 common penetration tests most businesses will engage a 3rd party for
 1. **Internal penetration testing** - A consultant will simulate an attacker who has managed to access your internal network to evaluate security and configuration issues in your network, systems and endpoints
 2. **External penetration testing** - A consultant would simulate an attacker trying to access any device or service that a business uses which would provide them with access to an organisations resources
 3. **Wi-Fi penetration testing** - A consultant evaluates the security and configuration of your offices wireless networks
-4. **Application penetration testing** - A consultant looks for vulnerabilities and flaws in the design of an application, this can be done by identifying issues with API's, authentication, data exposure or 
+4. **Application penetration testing** - A consultant looks for vulnerabilities and flaws in the design of an application, this can be done by identifying issues with API's, authentication, data exposure or
 5. **Physical penetration testing** - A consultant tests the physical security of an office to see how easy it is to gain access to restricted areas
 
 ## What are the recommended tools to use?

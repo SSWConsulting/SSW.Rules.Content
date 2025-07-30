@@ -31,6 +31,6 @@ You can check [how to send email through the Graph API](https://docs.microsoft.c
 
 Another way to send email is to use a third-party solution e.g. Sendgrid that gives you many more features over the normal email-sending mechanisms above e.g:
 
-- Integrated API
-- Click tracking
-- Spam management
+* Integrated API
+* Click tracking
+* Spam management

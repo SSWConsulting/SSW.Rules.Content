@@ -41,17 +41,17 @@ Now, imagine a solution that eliminates these pain points, making every meeting 
 
 Before you think about Microsoft Teams Rooms, you need different pieces of hardware to be able to use it. This generally consists of:
 
-- An intelligent camera
-- Good microphones
-- Speakers
-- A touchscreen to control your call
-- A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
+* An intelligent camera
+* Good microphones
+* Speakers
+* A touchscreen to control your call
+* A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
 
 These are generally sold by Microsoft Teams Rooms partners like [Logitech](https://www.logitech.com/en-au/video-collaboration/partners/microsoft.html), Yealink, Poly, Dell, Cisco, and they are generally sold in bundles by room size:
 
-- Huddle/Small rooms
-- Medium rooms
-- Large/Boardrooms
+* Huddle/Small rooms
+* Medium rooms
+* Large/Boardrooms
 
 You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packages and Systems](https://www.microsoft.com/en-au/microsoft-teams/across-devices/devices/category/teams-rooms/20?WT.mc_id=M365-MVP-33518)
 

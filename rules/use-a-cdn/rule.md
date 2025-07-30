@@ -27,6 +27,7 @@ If your site takes too long to load, there is a high chance your users will not 
 <!--endintro-->
 
 ### What is a CDN?
+
 CDN is short for a Content Delivery Network. It is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
 
 ### Why use a CDN?
@@ -76,9 +77,6 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
 * **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
-
-
-
 
 #### Which CDNs work well from China?
 

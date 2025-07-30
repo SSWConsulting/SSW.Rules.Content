@@ -23,4 +23,4 @@ If you are creating and using Components, you’re already doing a great job. Th
 
 ![Figure: Create a new component library](create-component-library.png)
 
-For more information on Component libraries see documentation here: https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/component-library?WT.mc_id=DX-MVP-33518
+For more information on Component libraries see documentation here: <https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/component-library?WT.mc_id=DX-MVP-33518>

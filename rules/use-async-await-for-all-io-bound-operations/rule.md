@@ -18,10 +18,10 @@ IO-Bound operations are operations where the execution time is not determined by
 
 Examples include:
 
-- Reading from a hard disk
-- Working with a database
-- Sending an email
-- HTTP REST API calls
+* Reading from a hard disk
+* Working with a database
+* Sending an email
+* HTTP REST API calls
 
 It's important to note that all these IO operations are usually several orders of magnitude slower than performing operations against data in RAM.
 
@@ -56,7 +56,7 @@ public async Task<ActionResult> GizmosAsync()
 ```
 
 ::: good
-Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
+Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete
 :::
 
 Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4?WT.mc_id=DT-MVP-33518)
@@ -69,6 +69,6 @@ For more information on understanding and diagnosing thread pool starvation, rea
 
 ### Further Information
 
-- [Why would one use Task&lt;T&gt; over ValueTask&lt;T&gt; in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
-- [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
-- [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)
+* [Why would one use Task&lt;T&gt; over ValueTask&lt;T&gt; in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
+* [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
+* [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)

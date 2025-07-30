@@ -44,9 +44,9 @@ Microsoft has a great [tutorial](https://learn.microsoft.com/en-us/training/modu
 
 Dev Containers are setup with a few files in the repo:
 
-- [devcontainer.json](https://containers.dev/implementors/json_reference/) - This specifies the setup instructions for your Dev Container e.g. post creation commands, VS Code extensions
-- [Docker-compose.yml](https://docs.docker.com/compose/compose-file/#compose-file-structure-and-examples)
-- [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+* [devcontainer.json](https://containers.dev/implementors/json_reference/) - This specifies the setup instructions for your Dev Container e.g. post creation commands, VS Code extensions
+* [Docker-compose.yml](https://docs.docker.com/compose/compose-file/#compose-file-structure-and-examples)
+* [Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
 These files define an image to use, tools to install and settings to configure.
 
@@ -56,8 +56,8 @@ Once those files are configured, you can simply run a command to get it running.
 
 There are 2 places that Dev Containers can be run:
 
-- **Your PC** - Dev Containers in VS Code
-- **In the cloud** - [GitHub Codespaces](https://github.com/features/codespaces)
+* **Your PC** - Dev Containers in VS Code
+* **In the cloud** - [GitHub Codespaces](https://github.com/features/codespaces)
 
 Locally works awesome if you have a powerful PC. However, sometimes you might need to give an environment to people who don't have a powerful PC or you might want people to develop on an iPad. In that case it's time to take advantage of the cloud.
 
@@ -65,8 +65,8 @@ Locally works awesome if you have a powerful PC. However, sometimes you might ne
 
 The following tools are not supported yet
 
-- .NET Framework (because it is a linux container)
-- [Visual Studio](https://containers.dev/supporting)
+* .NET Framework (because it is a linux container)
+* [Visual Studio](https://containers.dev/supporting)
 
 ::: bad
 ![Figure: Bad example - Before using Dev Containers you would be missing a lot of pre-requisites!](NervousDevs.png)

@@ -25,9 +25,9 @@ guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 
 Power BI reports are generally published directly into the Power BI Service. But doing so has many drawbacks. For example, you **can't** see:
 
-- What was changed
-- Who made the change
-- When the change was made
+* What was changed
+* Who made the change
+* When the change was made
 
 In other words, the history of the changes isn't recorded anywhere.
 
@@ -45,7 +45,7 @@ In other words, the history of the changes isn't recorded anywhere.
 ![Figure: Bad example - Option 1: Publish reports directly to Power BI Service; however it does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is the **PBIP method**, which is: 
+The correct method is the **PBIP method**, which is:
 
 1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
 2. Use Power BI's Git integration to deploy reports
@@ -64,9 +64,10 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats. 
+Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats.
 
 ### Editing and Committing Reports
+
 ### Business Users (Use Power BI Service)
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.

@@ -21,9 +21,9 @@ guid: c7465c5f-45be-4185-ade6-836ff4d6b633
 
 There are three main frameworks for unit testing. The good news is that they are all acceptable choices:
 
-- They all have test runner packages for running tests directly from Visual Studio
-- They all have console-based runners that can run tests as part of a CI/CD pipeline
-- They differ slightly in syntax and feature set
+* They all have test runner packages for running tests directly from Visual Studio
+* They all have console-based runners that can run tests as part of a CI/CD pipeline
+* They differ slightly in syntax and feature set
 
 <!--endintro-->
 
