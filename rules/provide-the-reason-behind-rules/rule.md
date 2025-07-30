@@ -2,7 +2,7 @@
 seoDescription: Discover how to effectively enforce standards by explaining their importance, fostering better teamwork and avoiding repeated mistakes
 type: rule
 title: Standards Watchdog - Do you provide the reason behind rules when enforcing them?
-uri: do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+uri: provide-the-reason-behind-rules
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,6 +12,7 @@ related:
   - add-context-reasoning-to-emails
 redirects:
   - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+  - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 created: 2012-09-25T17:54:42.000Z
 archivedreason: null
 guid: b9a01f68-abe6-45aa-b1cd-aa4a68b02186
