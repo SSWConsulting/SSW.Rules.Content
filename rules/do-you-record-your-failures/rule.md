@@ -52,9 +52,9 @@ Assume you are creating a cool new feature. First you will create a new branch, 
 This makes sure that we have a historical log of work completed, and still keeps a clean repository.
 
 ::: good
-![Figure: Good example - Setup pull request for feature branch so that we have a history of the commits](create-pr-for-failed-branch_1753414827883.png)
+![Figure: Good example - Setup pull request for feature branch so that we have a history of the commits](pr-for-feature-branch.png)
 :::
 
 ::: good
-![Figure: Good example - PR is abandoned with a deleted branch](abandoned-pr-for-branch_1753414827882.png)
+![Figure: Good example - PR is abandoned with a deleted branch](abandoned-pr-with-deleted-branch.png)
 :::
