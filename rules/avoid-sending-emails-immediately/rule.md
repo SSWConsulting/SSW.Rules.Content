@@ -75,4 +75,4 @@ Follow these steps to set a 120-second delay on all outgoing emails (**Mac**):
 5. Send a test email to yourself – you'll see it remain in Drafts with a scheduled send time
 
 
-   ![Figure: Test Email to yourself & see the delayed in drafts](test-delayed-email.png)
+   ![Figure: Test Email to yourself & see the delayed email in drafts](test-delayed-email.png)
