@@ -62,7 +62,7 @@ Follow these steps to set a 120-second delay on all outgoing emails (**Mac**):
 1. Click the **Outlook** tab in the status bar
 
 
-   ![Figure: Outlook | Settings](outook-settings.png)
+   ![Figure: Outlook | Settings](outlook-settings.png)
 2. Go to **Settings** or press **`cmd` + `,`**
 3. Under the **Email** group, click **Composing**.
 
