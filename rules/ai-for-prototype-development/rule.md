@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/steven-qiang
 related:
   - generate-ui-mockups-with-ai
+redirects:
+  - ai-for-frontend-development
 created: 2025-01-23T16:56:00.000Z
 guid: dc8d2bb0-bc49-452b-9d0e-00a8d20f9e93
 ---
