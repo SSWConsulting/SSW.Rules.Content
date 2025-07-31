@@ -8,6 +8,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Harkirat Singh
+    url: https://github.com/0xharkirat
+  
 related: []
 redirects:
   - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
