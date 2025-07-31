@@ -38,9 +38,9 @@ From the **customer's perspective**, consistency leads to a reliable and repeata
 
 ::: greybox
 
-The following story (excerpt from **"The E Myth" by Michael E. Gerber**) illustrates these values:
+The following story is an excerpt from **"The E Myth" by Michael E. Gerber**, a bestselling author, who teaches entrepreneurs how to build scalable, system-driven businesses. It illustrates the value of consistency:
 
-![Figure: Michael E. Gerber, author of "The E Myth"](consistency.png)
+![Figure: Michael E. Gerber is an American author](consistency.png)
 
 ## The Barber
 
