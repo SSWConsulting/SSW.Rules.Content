@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you use AI tools in your prototype development?
-seoDescription: Learn the best AI tools for prototyping your idea and show to your clinet
+seoDescription: Learn the best AI tools for prototyping your idea and show to your client
 uri: ai-for-prototype-development
 authors:
   - title: Isaac Lombard
