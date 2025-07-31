@@ -23,7 +23,7 @@ Outlook by default reads your emails and can flag your email as potential junk e
 
 If you use terms like “free,” “urgent,” “guaranteed,” “buy now,” or all caps with too many exclamation marks, your message might be flagged as junk, even if it's important and well-written.
 
-## ✅ Tips:
+## ✅ Tips
 
 * Write with clarity and purpose, not hype
 * Avoid overly promotional phrases
@@ -43,4 +43,3 @@ Figure: Bad example
 ::: good
 Figure: Good example
 :::
-
