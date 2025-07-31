@@ -1,7 +1,7 @@
 ---
 seoDescription: Make your Windows PC easy to view by increasing font sizes and removing distracting panes for a seamless presentation experience.
 type: rule
-title: Screen Recordings - Do you make sure your Windows PC is easy to view?
+title: Screen Recordings - Do you make sure your applications are easy to view?
 uri: enable-presentation-mode-in-visual-studio
 authors:
   - title: Adam Cogan
@@ -22,15 +22,15 @@ guid: ec754795-4211-4aa8-8259-eb14dacbcbb8
 
 <!--endintro-->
 
-When presenting the screen of your Windows PC to an audience it is important to alter a few things for the best possible experience for the audience. The most import thing is to increase your font to make the content more visible.
+When presenting the screen to an audience it is important to alter a few things for the best possible experience for the audience. The most import thing is to increase your font to **make the content more visible**.
 
 Here are some of the applications where it is especially important:
 
-1. Visual Studio
-2. Text Editor
-3. Command Prompt
+* Visual Studio
+* Text Editor
+* Command Prompt
 
-### Visual Studio
+## Visual Studio
 
 1. Make your font bigger. This is probably rule number one. There's nothing worse than not being able to see the excellent code you're trying to demo.
 
@@ -45,41 +45,45 @@ Here are some of the applications where it is especially important:
 **Video: Use Presentation Mode in Visual Studio (5 min)**
 
 ::: bad
-![Figure: Bad Example - Most of the Visual Studio UI is too small to read and the Output window takes up a lot of space](present_off.png)
+![Figure: Bad example - Most of the Visual Studio UI is too small to read and the Output window takes up a lot of space](present_off.png)
 :::
 
 ::: good
-![Figure: Good Example - Presentation mode creates a full alternative profile so you can adjust font sizes across the whole UI](present_on.png)
+![Figure: Good example - Presentation mode creates a full alternative profile so you can adjust font sizes across the whole UI](present_on.png)
 :::
 
 ![Figure: Open Visual Studio Presentation mode](open-vs-presentation-mode.png)
 
-### Text Editor
+## Text Editor
 
 Change font size in your text editor. Zoom in from 100% to 200%.
 
 ::: bad
-![Figure: Bad Example - Small font size](text-editor-bad.png)
+![Figure: Bad example - Small font size](text-editor-bad.png)
 :::
 
 ::: good
-![Figure: Good Example - Good font size](text-editor-good.png)
+![Figure: Good example - Good font size](text-editor-good.png)
 :::
 
-### Command Prompt
+## Command Prompt
 
 And don't forget to change your command prompt as well. Increase the font size from 12 to 16 or more.
 
 ::: bad
-![Figure: Bad Example - Command prompts are hard to read](cmd-bad.png)
+![Figure: Bad example - Command prompts are hard to read](cmd-bad.png)
 :::
 
 ::: good
-![Figure: Good Example - Font size for command prompt should be about twice as much as by default](cmd-good.png)
+![Figure: Good example - Font size for command prompt should be about twice as much as by default](cmd-good.png)
 :::
 
-**Tip: You can create a custom profile for Command Prompt in Command Prompt | Settings | Add a new profile.**
+### Extra - Create a Command Prompt profile
+
+You can create a custom profile for Command Prompt in Command Prompt | Settings | Add a new profile.
 
 ![Figure: Command Prompt profiles](command-prompt-profiles.png)
 
 ![Figure: Open Presentation Prompt](cmd-open-presentation-mode.png)
+
+
