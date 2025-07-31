@@ -68,6 +68,6 @@ If you're using Entity Framework Core, you should also configure the type as fol
 
 ![Figure: Using Entity Framework Core to Configure Value Objects as Owned Entity Types](when-use-value-eg-2.png)
 
-With the above configuration in place, EF Core will name the database columns for the properties of the owned entity type as **AdAccount_Domain** and **AdAccount_Name**. You can learn more about [Owned Entity Types](https://docs.microsoft.com/en-us/ef/core/modeling/owned-entities) by reviewing the EF Core documentation.
+With the above configuration in place, EF Core will name the database columns for the properties of the owned entity type as **AdAccount_Domain** and **AdAccount_Name**. You can learn more about [Owned Entity Types](https://docs.microsoft.com/en-us/ef/core/modeling/owned-entities?WT.mc_id=DT-MVP-33518) by reviewing the EF Core documentation.
 
 Next time you are building an entity, consider carefully if the type you are defining is a primitive type or a complex type. Primitive types work well for storing simple state such as first name or order count, complex types work best when defining types that include complex logic or validation such as postal or email addresses. Using a value object to encapsulate logic and validation will simplify your overall design.

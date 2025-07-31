@@ -20,7 +20,7 @@ Learn how to effectively choose a multi-tenancy model that suits your system's n
 * Single application, multiple databases
 * Hybrid models
 
-Other models: [Tenancy models for a multitenant solution](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/considerations/tenancy-models)
+Other models: [Tenancy models for a multitenant solution](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/considerations/tenancy-models?WT.mc_id=DP-MVP-33518)
 
 ## Decision Factors
 

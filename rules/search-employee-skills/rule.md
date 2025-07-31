@@ -21,7 +21,7 @@ guid: d641a712-b67f-40dc-8251-4b933afb487a
 
 AD has all your users e.g. Bob, Mary, Jane...
 
-SharePoint also has all your users, plus you can extend this information using the [UserProfile Service](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles).
+SharePoint also has all your users, plus you can extend this information using the [UserProfile Service](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles?WT.mc_id=M365-MVP-33518).
 
 The beauty of this is that if everyone has updated their skills, it is wonderfully searchable.
 
@@ -53,11 +53,11 @@ You can use PowerShell and SharePoint PNP libraries to programmatically interact
 
 ![Figure: Powershell - Adding “Blazor” to Jean’s skill list](extending-ad-6.png)
 
-OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search).
+OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search?WT.mc_id=M365-MVP-33518).
 
 ::: greybox
 
-#### Suggestions to Microsoft:
+#### Suggestions to Microsoft
 
 **#1 Help me better sync my Dynamics 365 CRM data with the SharePoint user profile service**
 
@@ -72,7 +72,7 @@ This is essentially just calling a different API.
 **#3 Help me customise SharePoint search results**
 
 If you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
-E.g. Search for people here: https://ssw.com.au/people
+E.g. Search for people here: <https://ssw.com.au/people>
 
 ![Figure: The SharePoint Search should let you add links like in this image](sharepointuxforpeopleandbookedindays.png)
 

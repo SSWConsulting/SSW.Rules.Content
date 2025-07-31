@@ -63,8 +63,8 @@ Add a button to the Ribbon to provision a new team and link to it.
 
 #### How to add the button to the Dynamics Ribbon?
 
-* **Option A** - [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
-* **Option B** (old approach) - [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) 
+* **Option A** - [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer?WT.mc_id=M365-MVP-33518) (new approach - customizing command bar using the command designers)
+* **Option B** (old approach) - [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx)
 
 ![Figure: Use the Ribbon](account_createteamssite.png)
 
@@ -76,6 +76,7 @@ Click on this section on your CRM Dynamics to have a Team created:
 
 ![Figure: PCF control allows you to add a button to create a Team](click-to-create.png)
 
-**Notes:** 
-- Alternatively, this process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM. This has the disadvantage that every single Account would get a Team...and that could create a real mess of unused Teams
-- The Team's name can get out of sync if the Dynamics client name is changed, therefore you need one extra flow that is called when the client name is changed to keep them in sync
+**Notes:**
+
+* Alternatively, this process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM. This has the disadvantage that every single Account would get a Team...and that could create a real mess of unused Teams
+* The Team's name can get out of sync if the Dynamics client name is changed, therefore you need one extra flow that is called when the client name is changed to keep them in sync

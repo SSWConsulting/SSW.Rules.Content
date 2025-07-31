@@ -38,7 +38,7 @@ Here are some of the applications where it is especially important:
    * Increase the font of your Environment from 9 to 12 or more.
 
 2. Remove any distracting panes or other windows. These usually just get in the way. If you really need them, make sure they're set to pin mode, so they hide when not in use.
-3. Most importantly, you can have all these things done for you at the click of a button by using the [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
+3. Most importantly, you can have all these things done for you at the click of a button by using the [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/?WT.mc_id=DT-MVP-33518).
 
 `youtube: https://www.youtube.com/embed/7wMJIYz9lvU`
 

@@ -24,7 +24,7 @@ The problem is that people may have difficulty finding out who "The Product Cham
 
 ### Use a distribution group
 
-So, the gold standard is to setup a [distribution group](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) that represents this role. Using the distribution group, people know what email to send to immediately, and the responsible people can be swapped out easily.
+So, the gold standard is to setup a [distribution group](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups?WT.mc_id=M365-MVP-33518) that represents this role. Using the distribution group, people know what email to send to immediately, and the responsible people can be swapped out easily.
 
 #### Managing people assigned to distribution groups
 

@@ -27,7 +27,7 @@ By default, Microsoft Dynamics CRM 2016 does not come with good functionality on
 
 Prerequisites:
 
-* [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook client)](https://www.microsoft.com/en-au/download/details.aspx?id=50370) is installed and set up
+* [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook client)](https://www.microsoft.com/en-au/download/details.aspx?id=50370&WT.mc_id=DX-MVP-33518) is installed and set up
 * Microsoft Outlook is running and set up
 
 ### Option 1 (recommended)

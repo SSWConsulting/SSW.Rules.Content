@@ -8,7 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-08-17T18:40:42.796Z
 guid: 8744a176-c690-43a2-abd8-6a48ab0725b5
-archivedreason: No longer valid. Outdated. https://learn.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-8.0#stop-event-propagation
+archivedreason: No longer valid. Outdated. https://learn.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-8.0#stop-event-propagation&WT.mc_id=DT-MVP-33518
 ---
 
 Workaround - When you have two fields and you want to handle tabbing out of the last one to do some stuff and save.

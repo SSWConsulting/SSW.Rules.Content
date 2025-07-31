@@ -17,7 +17,7 @@ redirects: []
 
 1. Don't take all the data for the first release - Usually there are huge amounts
    of data in legacy systems - take only the most important firstly.
-2. Using the planning spreadsheets included with the [Microsoft CRM Data Migration Pack](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-migrate-customer-data) - they are excellent for specifying data migration
+2. Using the planning spreadsheets included with the [Microsoft CRM Data Migration Pack](https://docs.microsoft.com/en-us/dynamics365/business-central/admin-migrate-customer-data?WT.mc_id=DP-MVP-33518) - they are excellent for specifying data migration
    field mappings.
 
 ### Step 2 - Sync or import?

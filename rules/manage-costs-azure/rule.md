@@ -21,7 +21,7 @@ Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets hard
 
 <!--endintro-->
 
-Azure has a nice tool for managing its own costs, called the [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis). You can break down costs per resource group, resource type and many other aspects in Azure.
+Azure has a nice tool for managing its own costs, called the [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=AZ-MVP-33518). You can break down costs per resource group, resource type and many other aspects in Azure.
 
 ::: info
 
@@ -34,11 +34,12 @@ Even with Cost Analysis, Developers with enough permissions (e.g. Contributor pe
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator?WT.mc_id=AZ-MVP-33518) - work out the monthly resource $ price
 
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Spend Master |
@@ -61,7 +62,7 @@ Project details:
 
 Total: {{AUD$}} per month
 
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg?WT.mc_id=AZ-MVP-33518)
 
 1. Please approve
 

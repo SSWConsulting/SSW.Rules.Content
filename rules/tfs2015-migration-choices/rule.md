@@ -26,13 +26,13 @@ Migrating to a new environment may be required if you need to move to new upgrad
 
 **Reducing downtime**
 
-With both options, you can also use the [TfsPreUpgrade tool to reduce downtime](https://msdn.microsoft.com/en-us/Library/vs/alm/TFS/upgrade/pre-upgrade). As per the article, the TfsPreUpgrade tool will:
+With both options, you can also use the [TfsPreUpgrade tool to reduce downtime](https://msdn.microsoft.com/en-us/Library/vs/alm/TFS/upgrade/pre-upgrade?WT.mc_id=DOP-MVP-33518). As per the article, the TfsPreUpgrade tool will:
 
-- Enable compression for a small number of tables that were not compressed in 2013 but will be in 2015.
-- Scan for and fix a very rare but well understood data corruption in TFS version control data.
-- Create new tables and migrate existing data to them.
-- Create triggers.
-- Update stored procedures.
-- Create indexes.
+* Enable compression for a small number of tables that were not compressed in 2013 but will be in 2015.
+* Scan for and fix a very rare but well understood data corruption in TFS version control data.
+* Create new tables and migrate existing data to them.
+* Create triggers.
+* Update stored procedures.
+* Create indexes.
 
 By using the TfsPreUpgrade tool, you can thereby reduce the downtime for the actual cut-over to the new version by ensuring that your databases are updated in advance.

@@ -45,6 +45,6 @@ Set-Mailbox -Identity "Adam Cogan" -MaxSendSize 35mb -MaxReceiveSize 35mb
 
 ### Links
 
-[Exchange Online limits - Service Descriptions | Microsoft Docs](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits)
+[Exchange Online limits - Service Descriptions | Microsoft Docs](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits?WT.mc_id=M365-MVP-33518)
 
-[Configure message size limits for a mailbox | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/recipients/user-mailboxes/mailbox-message-size-limits?view=exchserver-2019)
+[Configure message size limits for a mailbox | Microsoft Docs](https://docs.microsoft.com/en-us/exchange/recipients/user-mailboxes/mailbox-message-size-limits?view=exchserver-2019&WT.mc_id=M365-MVP-33518)

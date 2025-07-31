@@ -129,7 +129,7 @@ Unfortunately, there's no easy way to know if a library is tree-shakable other t
 
 Unfortunately, there are no tools available yet to check for bundle size of NuGet packages.
 
-To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
+To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0&WT.mc_id=DT-MVP-33518), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0&WT.mc_id=DT-MVP-33518).
 
 ### 7. Have you documented the decision?
 

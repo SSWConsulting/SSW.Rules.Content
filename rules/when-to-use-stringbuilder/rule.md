@@ -44,4 +44,4 @@ for (int i = 0; i < 1000; i ++) {
 Figure: Good example - This efficient code only uses one StringBuilder object
 :::
 
-See [StringBuilder Class](https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-7.0) for more details.
+See [StringBuilder Class](https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-7.0&WT.mc_id=DT-MVP-33518) for more details.

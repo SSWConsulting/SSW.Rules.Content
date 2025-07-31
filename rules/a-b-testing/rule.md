@@ -32,15 +32,15 @@ Feature flags are often implemented by developers writing their own code. Howeve
 
   * [Video interview](https://tv.ssw.com/ndc-sydney-2017-ask-me-anything-with-adam-cogan-and-edith-harbaugh-launchdarkly-tripit-devops/) of LaunchDarkly CEO Edith Harbaugh
 
-* [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview) is the recommended solution and there are some great tutorials that help developers get up and running in minutes:
+* [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-33518) is the recommended solution and there are some great tutorials that help developers get up and running in minutes:
 
-  * [Use feature filters to enable conditional feature flags](https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-feature-filters-aspnet-core)
-  * [Tutorial: Use feature flags in an ASP.NET Core app](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core)
+  * [Use feature filters to enable conditional feature flags](https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-feature-filters-aspnet-core?WT.mc_id=AZ-MVP-33518)
+  * [Tutorial: Use feature flags in an ASP.NET Core app](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core?WT.mc_id=AZ-MVP-33518)
 
 ## Azure Deployment Slots
 
-[Azure Deployment Slots](https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots) are another way of doing A/B testing, you essentially deploy 2 versions of your app and then direct traffic to different versions.
+[Azure Deployment Slots](https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots?WT.mc_id=AZ-MVP-33518) are another way of doing A/B testing, you essentially deploy 2 versions of your app and then direct traffic to different versions.
 
 ## Azure FrontDoor
 
-[Azure FrontDoor](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview) is an offering that lets developers direct traffic to different versions of an app.
+[Azure FrontDoor](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview?WT.mc_id=AZ-MVP-33518) is an offering that lets developers direct traffic to different versions of an app.

@@ -47,7 +47,7 @@ If you need multi-threading, or access to hardware features, platform or operati
 
 If you need access to specific platform APIs, you may not find them available in the web wrapper options (and almost certainly not via 1st party support). In this case, you could rule out using a web wrapper.
 
-If you already have a .NET development team and your solution is built on .NET, it makes sense to use **[.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui)**. .NET MAUI lets you write your UI in XAML or Blazor, so if you already have a Blazor web solution, you can share your UI controls in a Razor Class Library. You could also share other things like DTOs and authentication logic between Blazor, ASP.NET Core, and .NET MAUI apps.
+If you already have a .NET development team and your solution is built on .NET, it makes sense to use **[.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui?WT.mc_id=DT-MVP-33518)**. .NET MAUI lets you write your UI in XAML or Blazor, so if you already have a Blazor web solution, you can share your UI controls in a Razor Class Library. You could also share other things like DTOs and authentication logic between Blazor, ASP.NET Core, and .NET MAUI apps.
 
 If you already have a strong React team, it may make sense to use **[React Native](https://reactnative.dev/)**. There is a bit of a learning curve to go from React to React Native, but it still builds upon your team’s existing skills.
 

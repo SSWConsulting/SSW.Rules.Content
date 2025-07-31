@@ -120,7 +120,7 @@ Offer rich text, can be shared with anyone, and provide access to contact data. 
 Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access
 :::
 
-More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
+More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/?WT.mc_id=M365-MVP-33518).
 
 ## Option 7 - officeatwork Content Chooser (⭐️ recommended)
 

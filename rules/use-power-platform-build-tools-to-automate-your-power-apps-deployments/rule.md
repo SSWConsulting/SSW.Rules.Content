@@ -26,19 +26,19 @@ The solution, Power Platform Build Tools:
 
 The Power Platform Build Tools are a collection of Power Platform-specific Azure DevOps build tasks. They automate the manual steps and scripts needed to manage the application lifecycle. There four types of tasks:
 
-- Helper
-- Quality check
-- Solution
-- Environment management
+* Helper
+* Quality check
+* Solution
+* Environment management
 
 What Power Platform Projects are supported?
 
-- Canvas and Model-Driven Apps
-- Power Virtual Agents
-- UI Flows and Traditional Flows
-- AI Builder
-- Custom Connectors and Dataflows
+* Canvas and Model-Driven Apps
+* Power Virtual Agents
+* UI Flows and Traditional Flows
+* AI Builder
+* Custom Connectors and Dataflows
 
 If it can be included in a solution, then it's supported.
 
-More Information here: https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools
+More Information here: <https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools?WT.mc_id=DX-MVP-33518>

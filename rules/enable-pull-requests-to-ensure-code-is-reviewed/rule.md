@@ -56,8 +56,8 @@ When Pull Requests are enabled, developers must create a branch and make their c
 
 ### Useful resources - learn about Pull Requests
 
-- [Pull Requests in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
-- [Pull Requests in Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops)
+* [Pull Requests in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+* [Pull Requests in Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&WT.mc_id=DOP-MVP-33518)
 
 `youtube: https://www.youtube.com/watch?v=2VX1ISk9XH8`
 **Video: What is a Pull Request? (3 min)**

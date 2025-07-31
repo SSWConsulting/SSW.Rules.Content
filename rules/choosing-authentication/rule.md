@@ -113,7 +113,7 @@ While there are too many options to cover them all, this chart will help you nar
 
 ASP.NET Core has some built-in identity functionality that allows you to create users and roles, and manage the security of your web applications. It is extremely capable and can be used to support a broad number of scenarios. However, it is intended for use in simple web applications, and while it can be extended to support other clients, you will need to build and wire up a lot of the UI for these scenarios yourself.
 
-[With the new Identity endpoints in .NET 8](https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/), you can now support even more scenarios (like using API endpoints to exchange a username and password for an access token).
+[With the new Identity endpoints in .NET 8](https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/?WT.mc_id=ES-MVP-33518), you can now support even more scenarios (like using API endpoints to exchange a username and password for an access token).
 
 However, the most important consideration is that this approach is intended for use in a single, standalone application.
 
@@ -208,7 +208,7 @@ Disadvantages:
 
 ## 4. Active Directory (for Internal Enterprise Applications)
 
-[Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) has been the de facto enterprise identity store for most of the world for decades. While most organizations are moving to the cloud these days, many still use AD as it provides a lot of additional capability and is integrated with most of their existing enterprise applications. AD supports multiple authentication protocols, including:
+[Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview?WT.mc_id=ES-MVP-33518) has been the de facto enterprise identity store for most of the world for decades. While most organizations are moving to the cloud these days, many still use AD as it provides a lot of additional capability and is integrated with most of their existing enterprise applications. AD supports multiple authentication protocols, including:
 
 * LDAP/LDAPS: simple to use but old tech, requires multiple queries to check permissions, roles not natively supported, and need to be managed by groups.
 * Kerberos: Excellent experience for users as it provides a silent and transparent login. But can only be used for on-premises, domain-joined computers.
@@ -239,7 +239,7 @@ Disadvantages:
 
 ## 5. Microsoft Entra ID (previously Azure AD) (for Internal Enterprise Applications)
 
-[Microsoft Entra](https://www.microsoft.com/security/business/microsoft-entra) is Microsoft's cloud-based identity and network/access management platform and provides strong identity features such as MFA and self-service password recovery, as well as access policies and anomoly detection. Being cloud-based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
+[Microsoft Entra](https://www.microsoft.com/security/business/microsoft-entra?WT.mc_id=ES-MVP-33518) is Microsoft's cloud-based identity and network/access management platform and provides strong identity features such as MFA and self-service password recovery, as well as access policies and anomoly detection. Being cloud-based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
 
 ::: good
 Advantages:
@@ -266,7 +266,7 @@ Disadvantages:
 
 ## 6. Microsoft Entra External Id (previously Azure AD B2C) (simple Auth as a Service)
 
-[Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable login flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
+[Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id?WT.mc_id=ES-MVP-33518) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable login flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
 
 ::: good
 Advantages:
@@ -419,7 +419,7 @@ External applications are B2B or B2C applications that are intended for consumpt
 ::: greybox
 **Scenario:**
 
-* **Scope** - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.
+* **Scope** - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net?WT.mc_id=ES-MVP-33518) and a mobile app.
 * **Social** - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social login or don't want to use it.
 * All users will have the same level of access once logged in.
 * **Volume** - You anticipate 20,000 active users.
@@ -427,7 +427,7 @@ External applications are B2B or B2C applications that are intended for consumpt
 
 **Your choices:**
 
-* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) provides all of the functionality you need and provides all required functionality in the free tier.
+* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra?WT.mc_id=ES-MVP-33518) provides all of the functionality you need and provides all required functionality in the free tier.
 * **Option B** - [Auth0](https://auth0.com/) - Auth0 will meet most of these requirements, however, your volume of users will exceed the free tier and you don't need the additional functionality of the paid tier.
 * **Option C** - [IdentityServer](https://duendesoftware.com/products/identityserver) - This would work but adds additional management overhead and complexity. You would also need to manage scaling to cope with your volume of users.
 
@@ -445,15 +445,15 @@ For internal applications (referred to as "intranet applications" by Microsoft),
 ::: greybox
 **Scenario:**
 
-- **Scope** - You have an internal enterprise application, which will support approximately 1,000 users.\
-- You already have Active Directory in place and are syncing with an Entra tenant.\
-- Your users will need to access this application from anywhere.\
-- **MFA** - As per your company security policy, you must enforce MFA.\
+* **Scope** - You have an internal enterprise application, which will support approximately 1,000 users.\
+* You already have Active Directory in place and are syncing with an Entra tenant.\
+* Your users will need to access this application from anywhere.\
+* **MFA** - As per your company security policy, you must enforce MFA.\
 
 **Your choices:**
 
-* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) (previously Azure Active Directory) - most of the infrastructure for this is already in place for you, and it already meets all your requirements. We would just need to wire up your application to it.
-* **Option B** - [Active Directory](https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - while your users are already in AD, it doesn't give you MFA or access outside your network.
+* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra?WT.mc_id=ES-MVP-33518) (previously Azure Active Directory) - most of the infrastructure for this is already in place for you, and it already meets all your requirements. We would just need to wire up your application to it.
+* **Option B** - [Active Directory](https://learn.microsoft.com/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview?WT.mc_id=ES-MVP-33518) - while your users are already in AD, it doesn't give you MFA or access outside your network.
 * **Option C** - [Okta](https://www.okta.com/) - this is a sophisticated option but is also expensive and, for this scenario, doesn't provide any advantages over Microsoft Entra ID.
 
 :::
@@ -463,5 +463,6 @@ Good example - The chosen solution meets the requirements without adding unneces
 :::
 
 **Notes:**
+
 * All of the following options assume you are building an ASP.NET Core application, although the commercial options listed here provide libraries for most development languages, frameworks, and platforms.
 * The information here is relevant as provided, but consider other factors that may impact your decision too. For example, cost may be a factor and saving money may be more important than the added benefits of higher-cost options. Additionally, your situation may not fit neatly into one of the scenarios we have listed and may span multiple scenarios, in which case you may need to pick the option which caters to the broadest set of requirements (avoid 'mix and match').

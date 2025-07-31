@@ -30,4 +30,4 @@ You can leverage this feature to organize your resources in a logical way, not r
 * **Owner tag:** You can specify who owns that resource
 * **Environment tag:** You can specify which environment that resource is in
 
-**Tip:** Do not forget to have a strong naming convention document stating how those tags and resources should be named. You can use this Microsoft guide as a starter point: [Recommended naming and tagging conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).
+**Tip:** Do not forget to have a strong naming convention document stating how those tags and resources should be named. You can use this Microsoft guide as a starter point: [Recommended naming and tagging conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging?WT.mc_id=AZ-MVP-33518).

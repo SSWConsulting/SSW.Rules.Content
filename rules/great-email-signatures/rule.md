@@ -34,14 +34,14 @@ Email signatures are a great way of adding some advertising and branding. You sh
 
 Full email signatures (for external recipients) are great when they have:
 
-- A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
-  - You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
-- Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
-- Your company **website** link
-- Your **social media** and **blog** link
-- Your **IM** link (e.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
-- Your **position**
-- Your **location** (city/country) where you are based
+* A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
+  * You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
+* Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
+* Your company **website** link
+* Your **social media** and **blog** link
+* Your **IM** link (e.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
+* Your **position**
+* Your **location** (city/country) where you are based
 
 ::: info
 **Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://answers.microsoft.com/en-us/outlook_com/forum/all/add-hyperlink-to-outlook-signature-on-iphone-and/56edcf68-a1ba-43c1-80cc-49b3248b25e8) – what a shame.
@@ -84,7 +84,7 @@ Use a really **short signature** (your first name or initials) or no signature a
 
 ::: greybox
 **Note:** "Ping me on Teams" is a link that directly opens chat with the person as per [Teams Hyperlinks on Outlook Signature
-](https://learn.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature).
+](https://learn.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature?WT.mc_id=M365-MVP-33518).
 :::
 
 ## Implementation

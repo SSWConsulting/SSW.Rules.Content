@@ -122,4 +122,4 @@ To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
 ![Figure: Selecting Red SSW Custom theme for Production ](2024-09-16_18-06-09.jpg)
 
-More about SharePoint Online custom themes: https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint
+More about SharePoint Online custom themes: <https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint?WT.mc_id=DX-MVP-33518>

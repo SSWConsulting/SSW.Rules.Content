@@ -88,10 +88,10 @@ Comment below for what you think would be:
 
 There are a few options to set up a Data Lake.
 
-* [Azure Data Lake](https://azure.microsoft.com/en-au/solutions/data-lake) (reccommended)
+* [Azure Data Lake](https://azure.microsoft.com/en-au/solutions/data-lake?WT.mc_id=DP-MVP-33518) (reccommended)
 * Microsoft Fabric Lakehouse
-  * [What is it](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview)
-  * [How to set it up](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction)
+  * [What is it](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview?WT.mc_id=DP-MVP-33518)
+  * [How to set it up](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction?WT.mc_id=DP-MVP-33518)
 * [AWS Data Lake](https://aws.amazon.com/solutions/implementations/data-lake-solution/)
 * [Google Cloud](https://cloud.google.com/learn/what-is-a-data-lake#section-1)
 * DIY Data Lake

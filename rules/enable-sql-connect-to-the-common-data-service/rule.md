@@ -21,7 +21,7 @@ Currently in preview (as at May 2020) Common Data Service supports direct SQL Ac
 
 <!--endintro-->
 
-As this feature is in preview (as at May 2020) you'll need to enable it, and it's not recommended for production environments. With that out of the way follow the steps at the Microsoft Docs page: [Use SQL to query data (Preview)](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/cds-sql-query)
+As this feature is in preview (as at May 2020) you'll need to enable it, and it's not recommended for production environments. With that out of the way follow the steps at the Microsoft Docs page: [Use SQL to query data (Preview)](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/cds-sql-query?WT.mc_id=DP-MVP-33518)
 
 ### Supported operations and data types
 
@@ -29,24 +29,24 @@ The list of supported SQL operations includes:
 
 Batch operations
 
-- SELECT
-- Aggregation functions (i.e., Count() and Max() functions)
-- UNIONs and JOINs
-- Filtering
+* SELECT
+* Aggregation functions (i.e., Count() and Max() functions)
+* UNIONs and JOINs
+* Filtering
 
 Any operation that attempts to modify data (i.e., INSERT, UPDATE) will not work as this is a read-only SQL data connection. Common Data Service option sets are represented as &lt;OptionSet&gt;Name and &lt;OptionSet&gt;Label in a result set.
 
 The following Common Data Service datatypes are not supported with the SQL connection:
 
-- binary
-- image
-- ntext
-- sql_variant
-- varbinary
-- virtual
-- HierarchyId
-- managedproperty
-- file
-- xml
-- partylist
-- timestamp
+* binary
+* image
+* ntext
+* sql_variant
+* varbinary
+* virtual
+* HierarchyId
+* managedproperty
+* file
+* xml
+* partylist
+* timestamp

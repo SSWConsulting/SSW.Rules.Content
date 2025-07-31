@@ -166,9 +166,9 @@ To export your diagram, go to *File* | *Export as* | *PNG*
 
 Make sure to tick *Include a copy of my diagram* is selected. This will let you open your diagram and edit it again when you import the PNG file into draw.io.
 
-To make it easy to tell that you can open the file in draw.io, ensure that the file extension is `.drawio.png`. 
+To make it easy to tell that you can open the file in draw.io, ensure that the file extension is `.drawio.png`.
 
-Read more in the docs - https://www.drawio.com/doc/faq/export-to-png
+Read more in the docs - <https://www.drawio.com/doc/faq/export-to-png>
 
 ### Tip #11: Where to store diagrams?
 
@@ -178,10 +178,9 @@ Standardizing where your organisation stores architecture diagrams ensures a con
 
 ### Tip #12: Use Azure Architecture Center
 
-[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](/azure-architecture-center)
+[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/?WT.mc_id=AZ-MVP-33518) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](/azure-architecture-center)
 
 ### Alternatives to draw.io
-
 
 **Eraser**
 

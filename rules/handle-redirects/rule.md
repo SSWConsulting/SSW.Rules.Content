@@ -27,12 +27,12 @@ Redirects play a key role in guiding users and search engines to the correct con
 
 ### 1. Client-side redirects
 
-A client side redirect involves responding to the client request with a payload that will send their browser to a different locations. This is usually achieved by sending some JavaScript or a meta tag to the user's browser which will send them to a different location when the page loads. 
+A client side redirect involves responding to the client request with a payload that will send their browser to a different locations. This is usually achieved by sending some JavaScript or a meta tag to the user's browser which will send them to a different location when the page loads.
 
 #### ✅ Pros
 
 * **Customizability:** It's easy to embed extra code when using this approach. This can be useful if you're hoping to track whether or not the redirects are being hit using Azure Application Insights or Google Analytics
-* **Cost:** Compared to alternative options such as using Azure Front Door or Cloudflare, there are no additional costs 
+* **Cost:** Compared to alternative options such as using Azure Front Door or Cloudflare, there are no additional costs
 
 #### ❌ Cons
 
@@ -44,13 +44,14 @@ A client side redirect involves responding to the client request with a payload 
 ``` html
 <meta http-equiv="refresh" content="0; url=https://www.northwind.com">
 ```
+
 ::: bad
 Figure: Bad example - A client-side redirect achieved by returning a meta refresh
 :::
 
 ### 2. Server-side redirects
 
-An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1). 
+An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1&WT.mc_id=AZ-MVP-33518).
 
 This approach involves modifying the response to incoming requests at the source rather than simply sending HTML that will redirect the user to the appropriate location by proxy.
 
@@ -89,6 +90,7 @@ const redirects = {
   //you can add more redirects here if you need to
 }
 ```
+
 ::: good
 Figure: Good example - Server-side redirects using middleware in Next JS
 :::

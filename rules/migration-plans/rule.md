@@ -53,10 +53,10 @@ Once you've addressed any technical debt or architectural concerns, you can star
 ### Identify Unavailable Technologies and Obsolete APIs
 
 Several technologies available in .NET Framework are no longer supported in modern .NET (6+). These include APIs like AppDomains, .NET Remoting, and Code Access Security (CAS). Identifying these early helps you avoid unexpected blockers later in your migration.  
-See Microsoft's documentation: [.NET Framework technologies unavailable on .NET](https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable)
+See Microsoft's documentation: [.NET Framework technologies unavailable on .NET](https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable?WT.mc_id=DT-MVP-33518)
 
 For a complete list of obsolete APIs, broken down by .NET version, check out:
-[Obsolete features in .NET 5+](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview)
+[Obsolete features in .NET 5+](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview?WT.mc_id=DT-MVP-33518)
 
 Finding usages of these legacy or obsolete APIs gives you a strong sense of the blast radius of your migration and highlights areas where modern replacements will be needed. This is also the perfect time to begin banning deprecated APIs to avoid regression.
 Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
@@ -133,7 +133,7 @@ As soon as you add .NET 5+ to your `targetFrameworks`, you'll likely encounter b
 These warnings are part of Microsoft's structured obsolescence plan. Each `SYSLIBxxxx` code identifies an API that has beeen marked obsoltet due to security, performance or support issues.
 Many of these APIs are **removed completely in .NET 8+**, so treating these as blockers early will save you from future runtime issues.
 
-[See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview)
+[See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview?WT.mc_id=DT-MVP-33518)
 
 **Recommended:**
 

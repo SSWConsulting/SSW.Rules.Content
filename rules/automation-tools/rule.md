@@ -56,7 +56,7 @@ Some of the awesome connectors that exist include:
 
 **Custom Connectors**
 
-If the connector you want doesn't exist you can create custom connectors to access your favourite APIs and you can even [throw your own code into them](https://docs.microsoft.com/en-us/connectors/custom-connectors/write-code).
+If the connector you want doesn't exist you can create custom connectors to access your favourite APIs and you can even [throw your own code into them](https://docs.microsoft.com/en-us/connectors/custom-connectors/write-code?WT.mc_id=DX-MVP-33518).
 
 **Beyond the Basics**
 

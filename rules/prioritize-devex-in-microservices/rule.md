@@ -51,7 +51,7 @@ Microservice architecture can be complex, and ensuring a positive developer expe
 
 A great way to tackle this problem is via an **Up script** ( ie `Up.ps1` or `Up.sh`), where a developer executes the script and has all data, infra, and config automatically provisioned in their development environment.
 
-If you're building a .NET application, an even better way is using [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview).
+If you're building a .NET application, an even better way is using [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
 
 ## Foster a culture of collaboration
 

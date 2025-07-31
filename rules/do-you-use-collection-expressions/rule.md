@@ -66,4 +66,4 @@ void Foo3(int[] numbers)
 
 **Figure: Versatile use of collection expressions in methods with varying collection types**
 
-For more information on collection expressions see here: [learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)
+For more information on collection expressions see here: [learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions?WT.mc_id=DT-MVP-33518)

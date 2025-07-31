@@ -22,23 +22,23 @@ This one is going to be a controversial one. But the bottom line is every now an
 Cons
 :::
 
-- You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
-- Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
-- Replication you will get conflicts
+* You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
+* Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
+* Replication you will get conflicts
 
 In Microsoft Access you have autonumbers and there is no way around them so never use them.
 But in SQL Server you have identities and we have these procs:
 
-- DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
-- SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
+* DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
+* SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
 
 ::: good
 Pros
 :::
 
-- Less programming - letting the database take care of it
-- Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
-- Avoiding concurrency errors on high INSERT systems so no coding
+* Less programming - letting the database take care of it
+* Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
+* Avoiding concurrency errors on high INSERT systems so no coding
 
 So the only Con left is the importing of data but we can use one of the above procs to get around it. See grey box.
 
@@ -65,7 +65,7 @@ SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the
 SET IDENTITY_INSERT Shippers OFF --as it can only be on for one table at a time
 ```
 
-More information on [IDENTITY_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
+More information on [IDENTITY_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15&WT.mc_id=DP-MVP-33518)
 
 ### Automatic Identity Range Handling
 

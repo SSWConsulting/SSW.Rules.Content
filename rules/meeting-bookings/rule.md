@@ -20,7 +20,7 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 ### The tools
 
-* [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
+* [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app?WT.mc_id=M365-MVP-33518) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
 * [Calendly](https://calendly.com/)
 
 `youtube: https://www.youtube.com/embed/LsFofCLoUJE`
@@ -56,7 +56,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 
 ### Create a Microsoft Bookings page for a team
 
-1. Open [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app)
+1. Open [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app?WT.mc_id=M365-MVP-33518)
 2. Click on "Create" | Choose if you want to create from scratch or clone an existing one
 3. Choose a name for your booking page (e.g., "Initial Recruitment Meetings") and customize it with your branding and settings
 4. Invite the Staff members that will be part of the calendars, and choose their roles

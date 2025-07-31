@@ -16,7 +16,7 @@ redirects:
 
 If you're creating new web apps in ASP.NET 2.0, do you still use  **Website projects** ? We strongly recommend using the new  **Web Application projects** .
 
-What's the difference between the two? There is a [detailed comparison here](https://msdn.microsoft.com/en-us/library/aa730880%28VS.80%29.aspx#wapp_topic5), but to summarize:
+What's the difference between the two? There is a [detailed comparison here](https://msdn.microsoft.com/en-us/library/aa730880%28VS.80%29.aspx#wapp_topic5?WT.mc_id=DT-MVP-33518), but to summarize:
 
 <!--endintro-->
 

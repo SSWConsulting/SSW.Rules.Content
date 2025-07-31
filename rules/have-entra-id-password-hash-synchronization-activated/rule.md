@@ -30,4 +30,4 @@ The web requests don't even come to your server, they are server by Microsoft's 
 ![Figure: Good Example – Entra ID PHS infrastructure workflow](entra-id-phs.png)  
 :::
 
-You can check out a deep dive of Entra ID PHS in official Microsoft documentation at [What is password hash synchronization with Microsoft Entra ID?](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-phs)
+You can check out a deep dive of Entra ID PHS in official Microsoft documentation at [What is password hash synchronization with Microsoft Entra ID?](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/whatis-phs?WT.mc_id=ES-MVP-33518)

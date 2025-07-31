@@ -25,18 +25,18 @@ Good error design is as important to the success of an API as the API design its
 
 The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Only some developers will be able to remember all of them, so it pays to keep it simple and use the most common Status Codes. Below are the most common HTTP status codes:
 
-- **2XX** - Success. Examples:
+* **2XX** - Success. Examples:
 
-  - 200 OK - Generic success response.
+  * 200 OK - Generic success response.
 
-- **4XX** - Client errors. Examples:
+* **4XX** - Client errors. Examples:
 
-  - 400 Bad Request - The server cannot understand the request.
-  - 401 Unauthorised - Invalid/non-existent credential for this request.
+  * 400 Bad Request - The server cannot understand the request.
+  * 401 Unauthorised - Invalid/non-existent credential for this request.
 
-- **5XX** - Server errors. Examples:
+* **5XX** - Server errors. Examples:
 
-  - 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
+  * 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
 
 ### Use ProblemDetails Format
 
@@ -59,12 +59,12 @@ Below is an example of an error message in Problem Details format:
 
 In the above example:
 
-- `type` specifies a URI that uniquely identifies the type of the problem.
-- `title` provides a short, human-readable summary of the problem.
-- `status` indicates the HTTP status code for the response.
-- `detail` gives a human-readable explanation specific to the occurrence of the problem.
-- `instance` provides a URI reference that identifies the specific occurrence of the problem.
-- `allowedCharacters` is an example property specificly added to the problem.
+* `type` specifies a URI that uniquely identifies the type of the problem.
+* `title` provides a short, human-readable summary of the problem.
+* `status` indicates the HTTP status code for the response.
+* `detail` gives a human-readable explanation specific to the occurrence of the problem.
+* `instance` provides a URI reference that identifies the specific occurrence of the problem.
+* `allowedCharacters` is an example property specificly added to the problem.
 
 Using the above structured message format, APIs can now reliably communicate problems to clients to enable better error handling.
 
@@ -77,7 +77,7 @@ ASP.NET Core has built-in support for the problem details specification since .N
 ```csharp
 // Program.cs
 // This adds ProblemDetails service
-// Read more on https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#problem-details
+// Read more on https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#problem-details&WT.mc_id=DT-MVP-33518
 builder.Services.AddProblemDetails();
 
 ...
@@ -88,14 +88,14 @@ app.UseExceptionHandler();
 
 Using this option, the API will generate a problem details response for all HTTP client and server error responses that _don't have body content yet_.
 
-You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details).
+You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details&WT.mc_id=DT-MVP-33518).
 
 ⚠️ **Important**
-On certain templates, the default .NET Exception Handler middleware will **only** produce ProblemDetails responses for exceptions when running in a non-Development [environment](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#environments). See Option 2 below on how to make this consistent across environments.
+On certain templates, the default .NET Exception Handler middleware will **only** produce ProblemDetails responses for exceptions when running in a non-Development [environment](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#environments&WT.mc_id=DT-MVP-33518). See Option 2 below on how to make this consistent across environments.
 
 ### Option 2 - Customise Exception Handler Middleware (Recommended)
 
-This option provides more flexibility in controlling the API's behaviour when it encounters thrown exceptions. Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda).
+This option provides more flexibility in controlling the API's behaviour when it encounters thrown exceptions. Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda&WT.mc_id=DT-MVP-33518).
 By Customising the `ExceptionHandler` middleware, developers have complete control over what format endpoints should return under a particular scenario.
 
 Below is an example of customising the `ExceptionHandler` middleware to produce a `ProblemDetails` response for any exception.
@@ -119,7 +119,7 @@ app.UseExceptionHandler(exceptionHandlerApp =>
 API will produce consistent response formats in any environment using the above approach.
 This approach is the recommended approach for frontend and backend development.
 
-## Any API (REST, gRPC and GraphQL):
+## Any API (REST, gRPC and GraphQL)
 
 ### Add Sufficient Details in Error Message
 

@@ -52,8 +52,8 @@ The Domain layer contains the enterprise logic and types. This layer should not 
 Examples:
 
 * Entities
-* [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects) (immutable objects that represent a single value or concept)
-* [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation) (something that has happened in the past)
+* [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects?WT.mc_id=DOP-MVP-33518) (immutable objects that represent a single value or concept)
+* [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation?WT.mc_id=DOP-MVP-33518) (something that has happened in the past)
 
 ### 2 - Application
 
@@ -132,4 +132,4 @@ This results in an architecture and design that is:
 ### References
 
 * [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)
+* [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture?WT.mc_id=DOP-MVP-33518)

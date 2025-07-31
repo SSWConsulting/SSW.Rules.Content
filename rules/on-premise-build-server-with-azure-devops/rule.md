@@ -16,7 +16,7 @@ archivedreason: null
 guid: 3ef53ffe-23ec-452a-83ac-c57b307febb7
 ---
 
-If you are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops), there's an awesome [Hosted Build Server](https://devblogs.microsoft.com/bharry/configuring-a-build-server-against-your-shiny-new-hosted-tfs-account/) option you can use to perform your builds with little to no setup. But if you're working on a project that has continuous integration and a long build time, it's not long before those build minutes start to add up.
+If you are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops?WT.mc_id=DOP-MVP-33518), there's an awesome [Hosted Build Server](https://devblogs.microsoft.com/bharry/configuring-a-build-server-against-your-shiny-new-hosted-tfs-account/?WT.mc_id=DOP-MVP-33518) option you can use to perform your builds with little to no setup. But if you're working on a project that has continuous integration and a long build time, it's not long before those build minutes start to add up.
 
 <!--endintro-->
 
