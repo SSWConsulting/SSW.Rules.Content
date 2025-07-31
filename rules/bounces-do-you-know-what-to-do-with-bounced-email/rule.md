@@ -2,14 +2,15 @@
 seoDescription: What to do when email bounces? Check your mail server's spam blacklist and MX records to ensure delivery issues aren't on your end.
 type: rule
 archivedreason:
-title: Bounces - Do you know what to do with bounced email?
+title: Do you know what to do with bounced emails?
 guid: e21a0c88-e1a5-4b66-acc6-0dfb7fffbf12
 uri: bounces-do-you-know-what-to-do-with-bounced-email
 created: 2011-08-25T19:54:59.0000000Z
 authors:
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
-related: []
+related:
+  - correct-a-wrong-email-bounce
 redirects: []
 ---
 
@@ -33,7 +34,7 @@ If success on both steps the error is most likely on the senders side. Send them
 
 Dear xxx,
 
-As per this rule on bounced emails [https://www.ssw.com.au/rules/bounces-do-you-know-what-to-do-with-bounced-email](/bounces-do-you-know-what-to-do-with-bounced-email)
+As per [this rule on bounced emails](/bounces-do-you-know-what-to-do-with-bounced-email)
 
 * I have checked Step 1 – it is good
 * I have checked Step 2 – it is good
