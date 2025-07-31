@@ -2,7 +2,7 @@
 seoDescription: Use +1 when you agree or support someone's suggestion or idea on a thread to show your endorsement and encourage others to do the same.
 type: rule
 archivedreason:
-title: Do you add a "+1" to indicate you agree with someone’s input?
+title: Do you add a "+1" to indicate you agree?
 guid: e708950c-6bf0-440f-9ee3-fd2099e86d6c
 uri: do-you-know-when-to-use-plus-one
 created: 2009-04-07T08:09:02.0000000Z
