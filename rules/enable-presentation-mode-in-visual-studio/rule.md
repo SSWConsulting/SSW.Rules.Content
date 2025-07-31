@@ -85,5 +85,3 @@ You can create a custom profile for Command Prompt in Command Prompt | Settings 
 ![Figure: Command Prompt profiles](command-prompt-profiles.png)
 
 ![Figure: Open Presentation Prompt](cmd-open-presentation-mode.png)
-
-
