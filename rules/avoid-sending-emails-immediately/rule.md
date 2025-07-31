@@ -8,7 +8,10 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: Harkirat Singh
+    url: https://github.com/0xharkirat
+related:
+  - email-send-a-v2
 redirects:
   - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
   - do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
@@ -23,11 +26,11 @@ Microsoft Outlook has the option to "recall the message", but this is not recomm
 
 Also, it's not a good experience for the users who receive a recall, as it does not even send it on the same thread.
 
-What you need to do is to set a rule to delay sending your emails in 15 minutes for example, which gives you time enough to correct it in most of the cases. If you only realize your mistake after this amount of time, just use "reply to all", mentioning your changes or [send a v2](/how-to-send-a-v2-if-requested) when changes are too substantial.
+What you need to do is to set a rule to delay sending your emails in 15 minutes for example, which gives you time enough to correct it in most of the cases. If you only realize your mistake **after** this amount of time, just use "reply to all", mentioning your changes or [send a v2](/email-send-a-v2) when changes are too substantial.
 
 <!--endintro-->
 
-Here is how you do it in Outlook:
+### How you do it in Outlook
 
 1. Click the **File** tab
 2. Click **Manage Rules & Alerts**
@@ -52,3 +55,24 @@ Now when you click Send, each message remains in the Outbox folder for the time 
 ::: good  
 ![Figure: Good example - Delay sending in 15 minutes (make it less or more if necessary)](create-rule-to-delay-sending.jpg)  
 :::
+
+### For Mac 
+
+Follow these steps to set a 120-second delay on all outgoing emails:
+
+1. Click **Outlook** in the menu bar
+
+   ![Figure: Outlook | Settings](outlook-settings.png)
+
+2. Go to **Settings** or press **`cmd` + `,`**
+
+3. Under the **Email** group | Click **Composing**
+
+   ![Figure: Email | Composing](outlook-composing.png)
+4. In the **Undo Send** | Set **Wait to send messages for:** to **120 seconds**
+
+   ![Figure: Undo Send | 120 Seconds](undo-send.png)
+
+5. Send a test email to yourself – you'll see it remain in Drafts with a scheduled send time
+
+   ![Figure: Test email to yourself. See the delayed email in drafts](test-delayed-email.png)
