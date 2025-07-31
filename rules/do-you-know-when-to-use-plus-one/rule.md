@@ -20,11 +20,12 @@ redirects:
   - do-you-know-when-to-use-+1
 ---
 
-Usually, when someone makes a suggestion or a complaint... you only hear from the ones who disagree. If you agree with someone, it helps to let others on the thread know. Simply reply with "+1" and a quick sentence. 
+Usually, when someone makes a suggestion or a complaint... you only hear from the ones who disagree. If you agree with someone, it helps to let others on the thread know. Simply reply with "+1" and a quick sentence.
 
 <!--endintro-->
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Gary |
@@ -32,7 +33,7 @@ Usually, when someone makes a suggestion or a complaint... you only hear from th
 | Subject: | RE: CodeAuditor rule files |  
 ::: email-content
 
-### Hi Gary,
+### Hi Gary
 
 <mark>+1</mark> on this. Duplicates can be quite frustrating
 
