@@ -59,7 +59,7 @@ Now when you click Send, each message remains in the Outbox folder for the time 
 Follow these steps to set a 120-second delay on all outgoing emails (**Mac**):
 
 
-1. Click the **Outlook** tab in the status bar
+1. Click **Outlook** in the menu bar
 
 
    ![Figure: Outlook | Settings](outlook-settings.png)
