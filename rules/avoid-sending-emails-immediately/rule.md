@@ -52,3 +52,24 @@ Now when you click Send, each message remains in the Outbox folder for the time 
 ::: good  
 ![Figure: Good example - Delay sending in 15 minutes (make it less or more if necessary)](create-rule-to-delay-sending.jpg)  
 :::
+
+Follow these steps to set a 120-second delay on all outgoing emails (**Mac**):
+
+
+1. Click the **Outlook** tab in the status bar
+
+
+   ![Figure: Outlook | Settings](outook-settings.png)
+2. Go to **Settings** or press **`cmd` + `,`**
+3. Under the **Email** group, click **Composing**.
+
+
+   ![Figure: Email | Composing](outlook-composing.png)
+4. In the **Undo Send** section, set **Wait to send messages for:** to **`120 seconds`**
+
+
+   ![Figure: Undo Send | 120 Seconds](undo-send.png)
+5. Send a test email to yourself – you'll see it remain in Drafts with a scheduled send time
+
+
+   ![Figure: Test Email to yourself & see the delayed in drafts](test-delayed-email.png)
