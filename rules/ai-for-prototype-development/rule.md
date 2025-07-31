@@ -32,35 +32,35 @@ Here is a list of AI code generation tools:
 These tools keep getting better - what they can do changes quickly.
 :::
 
-- [Github Spark](https://github.com/features/spark) (Copilot Pro+ only)
+* [Github Spark](https://github.com/features/spark) (Copilot Pro+ only)
 
   GitHub Spark is an AI‑powered app builder that turns natural language instructions into full‑stack TypeScript/React apps, complete with live preview and GitHub repo integration. It’s tightly integrated with GitHub Copilot and Codespaces, making it easy to go from idea → prototype → hosted demo quickly. Spark is perfect for building end‑to‑end demos directly within the GitHub ecosystem.
 
-- [Base44](https://base44.com)
+* [Base44](https://base44.com)
 
   Base44 focuses on full‑stack scaffolding. By simply describing your app, it spins up CRUD operations, authentication, forms, and basic data flows. It’s particularly helpful when you need a working skeleton to show user journeys or data interactions during client presentations.
 
-- [v0](https://v0.dev)
+* [v0](https://v0.dev)
 
   v0 by Vercel is a UI‑focused generator that outputs production‑ready React and Tailwind components. It’s a great option when you need to iterate on design directions quickly or want to build out front‑end layouts that work seamlessly with Next.js projects.
 
-- [Firebase Studio](https://firebase.studio)
+* [Firebase Studio](https://firebase.studio)
 
   Firebase Studio leverages AI to help you scaffold backends, define Firestore data models, generate security rules, and create sample data. It’s ideal when your prototype needs authentication, cloud functions, and real‑time data syncing without heavy backend setup.
 
-- [Lovable](https://lovable.dev)
+* [Lovable](https://lovable.dev)
 
   Lovable focused on responsive design. It helps you generate front-end and full-stack applications that adapt seamlessly from desktop to mobile. You can start from a prompt, an image, or directly from a Figma file. It's especially useful when you need polished, responsive layouts that work across screen sizes out of the box.
 
-- [Bolt.new](https://bolt.new)
+* [Bolt.new](https://bolt.new)
 
   Bolt.new supports multiple frameworks beyond React, such as Vue, Svelte, and Angular. It offers terminal access for running specific commands and supports integrated deployment, so you can go from prompt (or even an image) to a live site in minutes. Ideal for quick prototyping in non-React stacks or showcasing cross-framework concepts.
 
-- [Anima](https://www.animaapp.com)
+* [Anima](https://www.animaapp.com)
 
   Anima specializes in turning high-fidelity designs into near pixel-perfect React, HTML, and CSS code. It integrates directly with tools like Figma, Sketch, and Adobe XD via plugins, making it easy to export real, production-grade code from your design files. It's a great choice when visual accuracy and front-end alignment with design specs are a top priority in your prototypes.
 
-- [Uizard](https://uizard.io)
+* [Uizard](https://uizard.io)
 
   Uizard acts like a pseudo-designer, allowing you to quickly generate multi-page UI designs from prompts or even screenshots. It supports exporting to code, making it ideal for rapid prototyping or client-facing mockups without needing full design expertise. It's especially handy for quickly visualizing product ideas or user flows in minutes.
 
