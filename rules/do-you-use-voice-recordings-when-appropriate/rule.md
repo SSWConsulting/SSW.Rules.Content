@@ -48,4 +48,4 @@ Voice recordings and videos shouldn't replace email entirely, but can be valuab
 * [Tencent Meeting (China)](https://meeting.tencent.com/) - Combines stable conferencing with built-in recording, useful for sharing key takeaways
 * [DingTalk (China)](https://www.dingtalk.com/en) - Workplace-focused tool for quick status reports or task updates
 
-For videos, you should put them on youtube as unlisted videos and send the link
+For videos, you should upload them to YouTube (as unlisted) and share the link.
