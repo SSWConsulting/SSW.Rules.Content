@@ -32,7 +32,7 @@ Say we are creating a web application. There are 4 main benefits you will get:
 
 You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
 
-From the **developer's perspective**, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more whispers down the lane, and less time wasted.
+From the **developer's perspective**, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
 
 From the **customer's perspective**, consistency leads to a reliable and repeatable experience.
 
