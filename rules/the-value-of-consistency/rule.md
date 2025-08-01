@@ -16,13 +16,11 @@ archivedreason: null
 guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 ---
 
-If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get:
+If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency.
 
 <!--endintro-->
 
-![](consitency.png)
-
-Say we are creating a web application. We can expect to:
+Say we are creating a web application. There are 4 main benefits you will get:
 
 * **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
@@ -34,17 +32,19 @@ Say we are creating a web application. We can expect to:
 
 You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
 
-From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
+From the **developer's perspective**, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
 
-From the customer's perspective, consistency leads to a reliable and repeatable experience.
-
-The following story illustrates these values:
+From the **customer's perspective**, consistency leads to a reliable and repeatable experience.
 
 ::: greybox
 
-**The Barber** (excerpt from "The E Myth")
+The following story is an excerpt from **"The E Myth" by Michael E. Gerber**, a bestselling author, who teaches entrepreneurs how to build scalable, system-driven businesses. It illustrates the value of consistency:
 
-I went to a barber who, in our first meeting, gave me one of the best haircuts I had ever had. He was a master with the scissors and used them exclusively, never resorting to electric shears as so many others do. Before cutting my hair, he insisted on washing it, explaining that the washing made cutting easier. During the haircut, one of his assistants kept my cup of coffee fresh. In all, the experience was delightful, so I made an appointment to return.
+![Figure: Michael E. Gerber is an American author](consistency.png)
+
+## The Barber
+
+"I went to a barber who, in our first meeting, gave me one of the best haircuts I had ever had. He was a master with the scissors and used them exclusively, never resorting to electric shears as so many others do. Before cutting my hair, he insisted on washing it, explaining that the washing made cutting easier. During the haircut, one of his assistants kept my cup of coffee fresh. In all, the experience was delightful, so I made an appointment to return.
 
 When I returned, however, everything had changed. Instead of using the scissors exclusively, he used the shears about 50 percent of the time. He not only didn't wash my hair but never even mentioned it. The assistant did bring me a cup of coffee, but only once, never to return. Nonetheless, the haircut was again excellent.
 
@@ -70,7 +70,7 @@ I would have been embarrassed to ask for these things, let alone to give my reas
 
 What the barber did was to give me a delightful experience and then take it away.
 
-What you do in your model is not nearly as important as doing what you do the same way, each and every time.
+What you do in your model is not nearly as important as doing what you do the same way, each and every time."
 
 :::
 **Figure: 'The Barber' describes an inconsistent experience**
