@@ -6,7 +6,8 @@ seoDescription: " Avoid design bottlenecks by maintaining a short list of
   trusted people who can approve UI/UX changes."
 uri: design-masters-list
 authors:
-  - title: ""
+  - title: Micaela Blank
+    url: https://www.ssw.com.au/people/micaela-blank/
 related:
   - rules-to-better-designers
   - have-a-schema-master
