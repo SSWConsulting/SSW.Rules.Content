@@ -57,8 +57,8 @@ While you can use Bootstrap without any framework specific integrations, using o
 
 ## Tailwind
 
-Alternatively, [TailwindCSS](https://tailwindcss.com) is also acceptable. The difference between the Tailwind and Bootstrap is a matter of how comfortable you are with CSS.
+[TailwindCSS](https://tailwindcss.com) is also recommended. Out of the box, Tailwind is lightweight and will get the job done simply; you can build a website without ever having to look at CSS.
 
-Out of the box, Tailwind is lightweight and will get the job done simply; you can build a website without ever having to look at CSS.
-
-Bootstrap requires theme customization, but it’s more robust and solid once done. [Read more about these differences](https://themesberg.com/blog/design/tailwind-css-vs-bootstrap).
+::: info
+**Note:** The difference between Tailwind and Bootstrap often comes down to how comfortable you are with writing CSS. **Tailwind** gives you full control with utility classes, while **Bootstrap** provides ready-made components that require less custom styling. [Read more about these differences](https://themesberg.com/blog/design/tailwind-css-vs-bootstrap).
+:::
