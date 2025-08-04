@@ -34,6 +34,7 @@ You should use a front-end framework, like [Bootstrap](https://getbootstrap.com/
   margin-top: 0;
 }
 ```
+
 :::
 ::: bad
 Figure: Bad example - The "view-all-link" class was added unnecessarily
@@ -45,6 +46,7 @@ Figure: Bad example - The "view-all-link" class was added unnecessarily
 ```html
 <a class="mt-0" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
 ```
+
 :::
 ::: good
 Figure: Good example - Using a front-end framework class has the same effect without adding any extra CSS ruleset
