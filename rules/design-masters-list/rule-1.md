@@ -11,6 +11,7 @@ authors:
 related:
   - rules-to-better-designers
   - have-a-schema-master
+  - design-system
 created: 2025-08-04T10:45:00.000Z
 guid: b066a562-f1ab-4820-af7d-b21e3b22a32b
 ---
@@ -23,7 +24,7 @@ Create a “Design Masters” list – a small group of trusted designers and de
 ## Why it helps
 
 * Speeds up decisions on small, non-controversial UI tweaks
-* Reduces design debt
+* Reduces [design debt](https://www.ssw.com.au/rules/design-debt/)
 * Maintains visual consistency
 
 ## How to do it
