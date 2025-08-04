@@ -12,6 +12,7 @@ related:
   - rules-to-better-designers
   - have-a-schema-master
   - design-system
+  - design-debt
 created: 2025-08-04T10:45:00.000Z
 guid: b066a562-f1ab-4820-af7d-b21e3b22a32b
 ---
