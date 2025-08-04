@@ -14,7 +14,7 @@ guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
 
 When creating or editing CSS or HTML, it's important to avoid adding unnecessary classes and IDs.
 
-It can be tempting to add classes to elements, as it's often the most obvious solution to CSS problems — but doing so can lead to cluttered code and overly specific solutions. When working with CSS, it's almost always better to reuse existing classes rather than adding new ones.
+It can be tempting to add classes to elements, as it's often the most obvious solution to CSS problems. However doing so can lead to cluttered code and overly specific solutions. When working with CSS, it's almost always better to reuse existing classes rather than adding new ones.
 
 <!--endintro-->
 
