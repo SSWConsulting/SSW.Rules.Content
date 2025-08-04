@@ -14,7 +14,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - definition-of-done
-  - dones-do-you-include-useful-details-in-your-done-email
+  - include-useful-details-in-emails
   - when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
   - split-emails-by-topic
@@ -34,13 +34,13 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Only say "Done" when the work is completed
 
-* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
+* [Ensure your changes are live](/include-links-in-emails#ensure-changes-are-live) when sending a "Done"
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
 ### When it's ok to reply before the task is done
 
-If you believe the sender expects the task to be done sooner than you can reasonably complete it, it may be appropriate to reply to an email before the task is fully completed. In these cases, it’s important to set expectations to maintain [professional integrity](https://www.ssw.com.au/rules/professional-integrity).
+If you believe the sender expects the task to be done sooner than you can reasonably complete it, it may be appropriate to reply to an email before the task is fully completed. In these cases, it’s important to set expectations to maintain [professional integrity](/professional-integrity).
 
 Reply with an estimated timeline, for example, “I’ve started working on this, and I expect it to be done by {{ DATE }}. This will take a bit longer due to {{ REASON }}.”
 
@@ -90,7 +90,7 @@ For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should b
 
 ### Tip #2: Provide details in your "Done"
 
-In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as [URLs](/dones-do-your-dones-include-a-url), screenshots, or pieces of code/text that have been updated. URLs can be direct links to GitHub/Azure DevOps comments, in either Discussions, PBIs, Issues, etc. This allows others to check what was done straight away.
+In any reply, [include relevant information](/include-useful-details-in-emails), such as [URLs](/include-links-in-emails), screenshots, or pieces of code/text that have been updated. URLs can be direct links to GitHub/Azure DevOps comments, in either Discussions, PBIs, Issues, etc. This allows others to check what was done straight away.
 
 ### Tip #3: Replying "Done" to multiple tasks
 
@@ -196,7 +196,7 @@ Not Done - I couldn't find a camera
 :::
 :::
 ::: good
-Figure: Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/do-you-use-indentation-for-readability)
+Figure: Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/indent)
 :::
 
 ::: greybox
@@ -206,7 +206,7 @@ What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
+a. Put [yourself in the "To:"](/send-to-myself-emails) if you are going to do the remaining items later  
 b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
 c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
 d. Give a reason if it won't be done  
@@ -241,7 +241,7 @@ Figure: Good example – If multiple tasks are clearly 'done', then replying "Al
 
 ### Tip #4: Replying "Done" to huge tasks
 
-Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/split-emails-by-topic).
 
 ### Tip #5: Don't consolidate emails
 
@@ -322,11 +322,11 @@ Likewise, when you get an email - don't just open it, have a quick look and clos
 In a development team environment, it is better to move emails to tracking systems. E.g.:
 
 1. [Azure DevOps Work Items](/turn-emails-into-pbis)
-2. [GitHub](/do-you-turn-an-email-into-a-github-issue-before-starting-work)
+2. [GitHub](/turn-emails-into-a-github-issue)
 
 ### Tip #10: Include a video when appropriate
 
-See how to [record a quick and dirty "Done Video"](/record-a-quick-and-dirty-done-video).
+See how to [record a quick and dirty "Done Video"](/done-video).
 
 ### Tip #11: Remember to thank people - don't be too brief and icy
 
