@@ -59,8 +59,8 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-* {{ ✅/❌/🚧 }} {{ DONE? }} - {{ GOAL }}
-* {{ ✅/❌/🚧 }} {{ DONE? }} - {{ GOAL }}
+* {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
+* {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
 
 Please see below for a more detailed breakdown of the Sprint:
 
