@@ -9,6 +9,7 @@ authors:
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
 related:
+  - css-frameworks
   - less-is-more
 created: 2022-07-28T06:06:37.551Z
 guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
@@ -20,7 +21,7 @@ It can be tempting to add classes to elements, as it's often the most obvious so
 
 <!--endintro-->
 
-You should use a front-end framework, like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for **very specific** layout elements.
+You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for **very specific** layout elements.
 
 ::: greybox
 **HTML:**
