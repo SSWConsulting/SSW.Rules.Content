@@ -27,5 +27,5 @@ Hold the cursor over the image below and see what happens.
 :::
 
 ::: good  
-![Figure: Good example - Search engines will index this text (scroll over image to see)](../../assets/SSWLogo.png “SSW Logo”)  
+![Figure: Good example - Search engines will index this text (scroll over image to see)](../../assets/SSWLogo.png "SSW Logo")  
 :::
