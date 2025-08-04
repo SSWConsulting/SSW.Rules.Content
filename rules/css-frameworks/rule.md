@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
-related: []
+related:
+  - avoid-unnecessary-css-classes
 redirects:
   - do-you-use-twitter-bootstrap
   - do-you-use-bootstrap
