@@ -2,7 +2,9 @@
 type: rule
 tips: ""
 title: Do you have a design system?
-seoDescription: Tame visual inconsistencies and streamline team collaboration by building a design system that aligns your product, design, and engineering teams.
+seoDescription: Tame visual inconsistencies and streamline team collaboration by
+  building a design system that aligns your product, design, and engineering
+  teams.
 uri: design-system
 authors:
   - title: Betty Bondoc
@@ -65,6 +67,8 @@ A solid design system should include:
   Enterprise-level, open source, and WCAG-compliant
 * **[Atlassian Design System](https://atlassian.design/)**  \
   Includes tokens, patterns, tone of voice, and code
+* **[Shadcn](https://ui.shadcn.com/)**  \
+  Headless components + Tailwind, great for custom styling and modern UIs
 
 ## Design System maturity: From Library to Ecosystem
 
