@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/geordie-robinson
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
+related:
+  - less-is-more
 created: 2022-07-28T06:06:37.551Z
 guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
 ---
