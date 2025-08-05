@@ -45,7 +45,7 @@ Create a “Design Masters” list – a small group of trusted designers and de
 * Share the list in the **Intranet | Designers**  
 * Include this link in the **Induction process** so the whole company is aware and knows how to proceed on design changes
 
-::: good
+::: good img-medium
 ![Figure: Good example – A developer who gets a bronze result on cantunsee.space has a good eye for design and may approve basic design changes](cantunsee-bronze.png)
 :::
 
