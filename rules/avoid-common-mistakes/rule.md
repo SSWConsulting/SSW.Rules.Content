@@ -59,6 +59,14 @@ Words like “verses” and “versus” are homophones, meaning they are pronou
 “Versus” can be shortened to “vs.”, which is common in sporting situations, or “v.”, which is the standard abbreviation for legal scenarios.
 :::
 
+### Be careful of misunderstanding across English variants
+
+It’s important to avoid culturally specific language that may not translate well globally, especially when a company has international offices or clients.
+
+In the software world, acronyms like CI/CD or API can confuse non-technical people. In the same way, some everyday Australian terms might be unclear to international readers. It’s important to use clear, **globally understood language** when working across regions.
+
+For example, a “tip fee” in Australia means a rubbish disposal charge, but to an American audience, it may be misinterpreted as a service tip. Instead, it would be clearer to use the term “Waste removal”
+
 #### More examples
 
 * **"Their"** shows possession (e.g. _"It's their car"_)
