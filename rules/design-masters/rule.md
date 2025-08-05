@@ -34,11 +34,11 @@ Create a “Design Masters” list – a small group of trusted designers and de
 * Designers are always the first choice
 * Add developers who understand design and have done basic training  
   E.g. They should meet the following minimum criteria:
-  - Achieve at least a **bronze** rating on [https://cantunsee.space/](https://cantunsee.space/)
-  - Have read or used these resources: 
-    - [NNG – 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
-    - [Who Can Use – Accessibility Contrast Checker](https://www.whocanuse.com/)
-    - [Realtime Colors – Color system visualisation](https://www.realtimecolors.com/)
+  * Achieve at least a **bronze** rating on [https://cantunsee.space/](https://cantunsee.space/)
+  * Have read or used these resources:
+    * [NNG – 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
+    * [Who Can Use – Accessibility Contrast Checker](https://www.whocanuse.com/)
+    * [Realtime Colors – Color system visualisation](https://www.realtimecolors.com/)
 * Define what changes can be approved (e.g. padding, alignment) and what can’t (e.g. new components). The developer should understand their approval limitations and know when to escalate to a designer
 * Create **Employee Responsibilities** for each Design Master  
 * Share the list in the **Intranet | Designers**  
