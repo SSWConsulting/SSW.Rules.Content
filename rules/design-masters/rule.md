@@ -34,7 +34,7 @@ Create a “Design Masters” list – a small group of trusted designers and de
 * Designers are always the first choice
 * Add developers who understand design and have done basic training  
   E.g. They should meet the following minimum criteria:
-  * Achieve at least a **bronze** rating on [https://cantunsee.space/](https://cantunsee.space/)
+  * Achieve at least a **bronze** rating on [Can't Unsee](https://cantunsee.space/)
   * Have read or used these resources:
     * [NNG – 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
     * [Who Can Use – Accessibility Contrast Checker](https://www.whocanuse.com/)
@@ -46,7 +46,7 @@ Create a “Design Masters” list – a small group of trusted designers and de
 * Include this link in the **Induction process** so the whole company is aware and knows how to proceed on design changes
 
 ::: good
-Figure: Good example – A developer who gets a bronze result on [cantunsee.space (https://cantunsee.space/) has a good eye for design and may approve basic design changes
+![Figure: Good example – A developer who gets a bronze result on cantunsee.space has a good eye for design and may approve basic design changes](cantunsee-bronze.png)
 :::
 
 Keep it tight, clear, and maintained – so you stay fast without sacrificing design quality.
