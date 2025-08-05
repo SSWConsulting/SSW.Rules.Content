@@ -32,20 +32,21 @@ Create a “Design Masters” list – a small group of trusted designers and de
 ## How to do it
 
 * Designers are always the first choice
-* Add devs who understand design and have done basic training (e.g. short video/course)
-* Define what changes can be approved (e.g. padding, alignment) and what can’t (e.g. new components)
-* Share the list with the team and review it regularly
+* Add developers who understand design and have done basic training  
+  E.g. They should meet the following minimum criteria:
+  * Achieve at least a **bronze** rating on [Can't Unsee](https://cantunsee.space/)
+  * Have read or used these resources:
+    * [NNG – 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
+    * [Who Can Use – Accessibility Contrast Checker](https://www.whocanuse.com/)
+    * [Realtime Colors – Color system visualisation](https://www.realtimecolors.com/)
+    * [Laws of UX](https://lawsofux.com/)
+* Define what changes can be approved (e.g. padding, alignment) and what can’t (e.g. new components). The developer should understand their approval limitations and know when to escalate to a designer
+* Create **Employee Responsibilities** for each Design Master  
+* Share the list in the **Intranet | Designers**  
+* Include this link in the **Induction process** so the whole company is aware and knows how to proceed on design changes
 
-::: greybox
-**SSW Design Masters:**
-
-- Tiago (UI UX Designer)
-- Ken (UI UX Designer)
-- Pravin (Graphic Designer)
-- Isaac (Design Literate Dev)
-:::
-::: good
-Figure: Good example – A short, visible list of trusted approvers
+::: good img-medium
+![Figure: Good example – A developer who gets a bronze result on cantunsee.space has a good eye for design and may approve basic design changes](cantunsee-bronze.png)
 :::
 
 Keep it tight, clear, and maintained – so you stay fast without sacrificing design quality.
