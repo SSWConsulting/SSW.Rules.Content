@@ -39,6 +39,7 @@ Create a “Design Masters” list – a small group of trusted designers and de
     * [NNG – 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
     * [Who Can Use – Accessibility Contrast Checker](https://www.whocanuse.com/)
     * [Realtime Colors – Color system visualisation](https://www.realtimecolors.com/)
+    * [Laws of UX](https://lawsofux.com/)
 * Define what changes can be approved (e.g. padding, alignment) and what can’t (e.g. new components). The developer should understand their approval limitations and know when to escalate to a designer
 * Create **Employee Responsibilities** for each Design Master  
 * Share the list in the **Intranet | Designers**  
