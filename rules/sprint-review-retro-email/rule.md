@@ -163,6 +163,12 @@ Progress:
 
 * {{ PERSON }} - {{ TOOLS }}
 
+### Copilot Stats
+
+![Figure: Copilot speaking summary was {{ DURATION }} - Image from Product Owner](meeting-length.png)
+
+![Figure: Copilot showed the main action point was {{ MAIN ACTION POINT }} - Image from Product Owner](main-action-point.png)
+
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
