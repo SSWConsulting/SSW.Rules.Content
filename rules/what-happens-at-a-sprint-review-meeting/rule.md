@@ -65,20 +65,17 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 
 ::: good
 
-
-
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
 
 :::
 
-::: greybox 
+::: greybox
 Copilot Stats - I am recording the current meeting and will need to get a screenshot from the AI summary.
 I will be attempting to call:
-- @AdamCogan
-- @UlyssesMaclaren
-- @MattWicks
+* @AdamCogan
+* @UlyssesMaclaren
+* @MattWicks
 :::
-
 
 ### What if you can't attend the Sprint Review
 
