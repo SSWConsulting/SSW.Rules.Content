@@ -57,8 +57,8 @@ If there are additional stakeholders, make sure they get called in for the summa
 
 ::: greybox
 **When you ping stakeholders, include a message like this**:
-* I am recording the current meeting so I can get the Copilot stats later.  
-* I will call you and the stakeholders in 30 mins.  
+* I'm recording the current meeting so I can get the Copilot stats later.  
+* I'll call you and the stakeholders in 30 mins.  
 * The stakeholders are: {{ Stakeholders Name }}  
 * Let me know if you want anyone else added.
 :::
