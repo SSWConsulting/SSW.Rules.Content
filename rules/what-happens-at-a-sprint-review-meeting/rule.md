@@ -56,6 +56,15 @@ If there are additional stakeholders, make sure they get called in for the summa
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
+**When you ping stakeholders, include a message like this**:
+
+* I'm recording the current meeting so I can get the Copilot stats later.  
+* I'll call you and the stakeholders in 30 mins.  
+* The stakeholders are: {{ Stakeholders Name }}  
+* Let me know if you want anyone else added.
+:::
+
+::: greybox
 **Tip**:Stakeholders often have a lot on their plate... Make their life easier: Rename the group chat so it's clear which project's review is about to start
 :::
 
@@ -67,14 +76,6 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
 
-:::
-
-::: greybox
-Copilot Stats - I am recording the current meeting and will need to get a screenshot from the AI summary.
-I will be attempting to call:
-* @AdamCogan
-* @UlyssesMaclaren
-* @MattWicks
 :::
 
 ### What if you can't attend the Sprint Review
