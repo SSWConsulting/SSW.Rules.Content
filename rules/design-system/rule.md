@@ -48,7 +48,7 @@ A solid design system should include:
   * Changes are made in one place which scales across projects
   *The design system can span across multiple projects, it is up to the implementer to decide
 * **Faster build time** – Shared components and patterns boost delivery speed
-* **Accessibility guidelines** – Standards like contrast, keyboard nav, and screen-reader support come by default
+* **Accessibility guidelines** – Standards like contrast, keyboard navigation, and screen-reader support come by default
 
 ## Signs you’re due for a Design System
 
