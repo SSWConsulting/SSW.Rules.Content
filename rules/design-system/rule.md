@@ -39,7 +39,7 @@ A solid design system should include:
 * **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
 ::: info
-**Design tokens** Design tokens are small, reusable design decisions that make up a design system's visual style.
+**Design tokens** are small, reusable design decisions that make up a design system's visual style.
 :::
 
 ## Why it works
