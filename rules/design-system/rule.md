@@ -22,59 +22,44 @@ guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
 ---
 When every button looks a little different, spacing feels off, and handoffs between designer and dev are painful, you know something's wrong.
 
-
 **A design system can fix all of that**, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.  
 
-
 <!--endintro-->
-
 
 `youtube: https://www.youtube.com/embed/YLo6g58vUm0`
 **Video: Welcome to Design Systems – Lesson 1: Introduction to Design Systems (15 min)**
 
-
 ## Key components
-
 
 A solid design system should include:
 
-
-* **Style guide, design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance 
+* **Style guide, design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
 * **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns
 * **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
 * **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
-
 
 ::: info
 **Design tokens** Design tokens are small, reusable design decisions that make up a design system's visual style.
 :::
 
-
 ## Why it works
 
+* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency.
 
-* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. 
-
-
-Changes are made in one place which scales across projects 
+Changes are made in one place which scales across projects
 The design system can span across multiple projects, it is up to the implementer to decide
-
 
 * **Faster build time** – Shared components and patterns boost delivery speed
 * **Accessibility guidelines** – Standards like contrast, keyboard nav, and screen-reader support come by default
 
-
 ## Signs you’re due for a Design System
-
 
 * Spacing, fonts, or colors shift between screens for no reason
 * Handoffs and review meetings are dominated by nitpicking visual issues
 * Design doesn’t match production
 * Style guides are outdated, scattered, or missing entirely
 
-
 ## Real-world examples
-
 
 * **[Material Design](https://m3.material.io/)** (Google)  \
   Theming, deep docs, and ready-to-use code
@@ -87,20 +72,15 @@ The design system can span across multiple projects, it is up to the implementer
 * **[Shadcn](https://ui.shadcn.com/)**  \
   Headless components + Tailwind, great for custom styling and modern UIs
 
-
 ## Design System maturity: From Library to Ecosystem
 
-
 Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product.
-
 
 ::: info
 Most teams don't start with a full design system — they start small with just a few shared components and evolve over time.
 :::
 
-
 Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next:
-
 
 | Stage | Description |
 |-------|-------------|
@@ -110,9 +90,7 @@ Since “design system” is often used loosely, this table helps clarify where 
 | **4. Coded Components** | Components exist in code (e.g. Storybook) and match the Design Library. |
 | **5. Scalable Ecosystem** | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal. |
 
-
 ## Start small in 7 steps
-
 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
@@ -121,7 +99,6 @@ Since “design system” is often used loosely, this table helps clarify where 
 5. **Document as you go** – Add usage rules, visual examples, and versioning
 6. **Share internally** – Use demos and changelogs to get buy-in
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
-
 
 ::: greybox
 **Quick-start tip:** Kick off with a shared library (e.g. Figma, Sketch, Adobe XD) and key components to provide value, then expand.
