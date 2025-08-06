@@ -71,6 +71,15 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 
 :::
 
+::: greybox 
+Copilot Stats - I am recording the current meeting and will need to get a screenshot from the AI summary.
+I will be attempting to call:
+- @AdamCogan
+- @UlyssesMaclaren
+- @MattWicks
+:::
+
+
 ### What if you can't attend the Sprint Review
 
 ![Figure: Playing golf](Golf-holiday.png)
