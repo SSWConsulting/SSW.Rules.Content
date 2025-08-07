@@ -20,8 +20,7 @@ related:
 created: 2025-05-14T15:18:00.000Z
 guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
 ---
-
-When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something's wrong.
+When every button looks a little different, spacing feels off, and handoffs between designer and dev are painful, you know something's wrong.
 
 **A design system can fix all of that**, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.  
 
@@ -34,21 +33,22 @@ When every button looks a little different, spacing feels off, and handoffs betw
 
 A solid design system should include:
 
-* **Style guide and design values/tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
+* **Style guide, design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
 * **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns
-* **Documentation** – Guidelines for component usage, do’s and don’ts, examples and demos
+* **Documentation** – Guidelines for component usage, dos and don’ts, examples and demos
 * **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
 ::: info
-**Design tokens** are reusable values that define your system’s design language in a format that both designers and developers can use—ensuring consistency and simplifying updates across your product ecosystem.
+**Design tokens** are small, reusable design decisions that make up a design system's visual style.
 :::
 
 ## Why it works
 
-* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place which scales across projects
+* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency.
+  * Changes are made in one place which scales across projects
+  *The design system can span across multiple projects, it is up to the implementer to decide
 * **Faster build time** – Shared components and patterns boost delivery speed
-* **Accessibility baked-in** – Standards like contrast, keyboard nav, and screen-reader support come by default
-* **Fewer subjective debates** – Shared standards help teams align faster
+* **Accessibility guidelines** – Standards like contrast, keyboard navigation, and screen-reader support come by default
 
 ## Signs you’re due for a Design System
 
@@ -83,7 +83,7 @@ Since “design system” is often used loosely, this table helps clarify where 
 | Stage | Description |
 |-------|-------------|
 | **1. Design Library** | A shared file (e.g. Figma, Sketch, Adobe XD) with consistent styles and reusable components like buttons and inputs. |
-| **2. Documented System** | Adds usage guidelines, naming conventions, do's and don'ts, accessibility considerations, and basic governance (who owns updates). |
+| **2. Documented System** | Adds usage guidelines, naming conventions, dos and don'ts, accessibility considerations, and basic governance (who owns updates). |
 | **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
 | **4. Coded Components** | Components exist in code (e.g. Storybook) and match the Design Library. |
 | **5. Scalable Ecosystem** | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal. |
@@ -93,7 +93,7 @@ Since “design system” is often used loosely, this table helps clarify where 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
 3. **Build your first components** – Focus on core UI elements (i.e. header, footer, buttons, input fields)
-4. **Integrate tokens** – Start with simple design tokens in your design tool, then explore code integration tools like Style Dictionary as your system matures
+4. **Integrate tokens** – Start with simple design tokens in your design tool, then explore code integration tools like [Style Dictionary(https://styledictionary.com/) as your system matures
 5. **Document as you go** – Add usage rules, visual examples, and versioning
 6. **Share internally** – Use demos and changelogs to get buy-in
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
