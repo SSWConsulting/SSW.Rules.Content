@@ -33,7 +33,7 @@ When estimating a piece of work, the first thing to do is come up with a baselin
 
 ### How big/complex is the change?
 
-While this is probably the most obvious area of risk, it is still risk and therefore worth remembering. Perhaps the feature or change you're being asked to do is merely changing the colour of a button (hey, it happens!). Maybe the feature is adding a shopping cart to a website. Don't take things at face value: ask questions, describe the flow. More often than not, you'll start teasing out additional requirements that you didn't know about. 
+While this is probably the most obvious area of risk, it is still risk and therefore worth remembering. Perhaps the feature or change you're being asked to do is merely changing the colour of a button (hey, it happens!). Maybe the feature is adding a shopping cart to a website. Don't take things at face value: ask questions, describe the flow. More often than not, you'll start teasing out additional requirements that you didn't know about.
 
 A typical conversation around something like "add a shopping cart" might play out like this:
 
@@ -54,13 +54,13 @@ Once you have your initial estimate, it's time to examine which (if any) risk mu
 
 ### How well do you know the codebase?
 
-If you've been working on a project for a suitable length of time, you should know your way around its architecture and code flows. This will provide significant context when gauging the required effort to build out the feature you're estimating. 
+If you've been working on a project for a suitable length of time, you should know your way around its architecture and code flows. This will provide significant context when gauging the required effort to build out the feature you're estimating.
 
 On the flipside, if you're a contractor, consultant, or simply new to a project, the existing codebase is a massive unknown and holds a great deal of potential risk. The feature you're estimating may seem simple at the surface, but when you discover a mess of spaghetti code and zero documentation, you will find yourself burning huge amounts of time just trying to grok what's currently happening before you can write a single line of code.
 
 ### How often have you done this work?
 
-If you're a back-end web developer, and the feature you're estimating is some simple CRUD endpoints, you've probably done this type of work hundreds of times before. You know what's required, and you know can confidently gauge how long it will take. 
+If you're a back-end web developer, and the feature you're estimating is some simple CRUD endpoints, you've probably done this type of work hundreds of times before. You know what's required, and you know can confidently gauge how long it will take.
 
 Alternatively, if you're being asked to build something exotic, or even just outside your wheelhouse, confidence can drop quickly. Maybe what's being asked is simply not possible, or requires significant infrastructure or iteration before meeting requirements. Know your strengths, and more importantly, know your blindspots.
 
