@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook
 related:
   - underpromise-overdeliver
+  - size-pbis-effectively
+  - break-tasks
 created: 2025-06-03T23:36:34.812Z
 guid: b2b5a30c-7023-47a8-ac07-f8059e7f303d
 
@@ -99,10 +101,10 @@ If you're in the enterprise space, or working on projects that have many moving 
 
 **Bonus:** Try estimating your work on complexity, rather than time. For example:
 
-* Project estimate is ~200 effort points
-* Predicted Sprint velocity of 40 (~5 Sprints)
-* Actual velocity at the end of Sprint 1 is ~30
-* Adjust Sprint 2 estimated velocity to 30
+* Your estimated effort for a project is ~200 effort points
+* **Predicted** Sprint velocity for Sprint 1 is ~40 points
+* **Actual** Sprint velocity at the end of Sprint 1 is ~30
+* Adjust Sprint 2 velocity to 30
 * Repeat
 :::
 
