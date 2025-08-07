@@ -21,7 +21,7 @@ When you're scoping out a piece of work, it's important to help the business und
 
 Like an iceberg, a piece of work might have a lot more to what meets the eye
 
-![Figure: PBIs might have extra work hidden beneath the surface](https://github.com/user-attachments/assets/66fae3e4-549c-4c89-8701-606d59a8591a)
+![Figure: PBIs might have extra work hidden beneath the surface](iceberg.jpg)
 
 ## The initial estimate
 
