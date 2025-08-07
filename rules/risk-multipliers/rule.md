@@ -19,6 +19,10 @@ Estimating time and complexity in software is hard. By its nature, almost all so
 
 When you're scoping out a piece of work, it's important to help the business understand and manage those risks, and help shine a light on areas where risk can quickly snowball.
 
+Like an iceberg, a piece of work might have a lot more to what meets the eye
+
+![Figure: PBIs might have extra work hidden beneath the surface](https://github.com/user-attachments/assets/66fae3e4-549c-4c89-8701-606d59a8591a)
+
 ## The initial estimate
 
 When estimating a piece of work, the first thing to do is come up with a baseline estimate *before* applying any risk multipliers. This is the initial estimate.
