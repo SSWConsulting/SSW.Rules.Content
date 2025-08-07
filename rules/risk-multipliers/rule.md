@@ -8,8 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/andrew-harris
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
-  - title: Andrew Harris
-    url: https://www.ssw.com.au/people/andrew-harris
 related:
   - underpromise-overdeliver
   - size-pbis-effectively
