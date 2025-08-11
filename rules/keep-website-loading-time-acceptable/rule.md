@@ -33,5 +33,3 @@ Then work to keep it under 3 MB:
 | 👍 **OK**           | 1.5 MB to 3 MB (apple.com is 1.5 MB) |
 | ✅ **Good**         | < 1.5 MB                  |
 | ⭐️ **Excellent**    | < 1 MB                    |
-
-
