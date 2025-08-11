@@ -36,15 +36,15 @@ jobs:
             | sed 's|refs/heads/||')" >> $GITHUB_OUTPUT
 
       # TODO - Change the ref for the main branch after PR validated
-      - name: Trigger Website staging deploy
-        run: |
-          gh workflow run build-and-deploy.yml \
-            --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main \
-            --field environment=staging \
-            --field branch_name="${GITHUB_REF#refs/heads/}"
-        env:
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+      # - name: Trigger Website staging deploy
+      #   run: |
+      #     gh workflow run build-and-deploy.yml \
+      #       --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
+      #       --ref main \
+      #       --field environment=staging \
+      #       --field branch_name="${GITHUB_REF#refs/heads/}"
+      #   env:
+      #     GH_TOKEN: ${{ steps.generate-token.outputs.token }}
 
       - name: Trigger Website production deploy
         run: |
