@@ -8,7 +8,10 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - avoid-reviewing-performance-without-metrics
+  - website-page-speed
+  - core-web-vitals
 redirects:
   - devops-stage-1-do-you-know-what-things-to-measure
   - devops-–-stage-1-do-you-know-what-things-to-measure
