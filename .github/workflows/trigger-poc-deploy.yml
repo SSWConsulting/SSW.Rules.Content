@@ -17,6 +17,19 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
+
+      - name: Find latest release branch
+        id: find_release
+        run: |
+          echo "branch_name=$(git ls-remote --heads origin \
+            | grep -oe 'refs/heads/release/.*' \
+            | sort -V \
+            | tail -n 1 \
+            | sed 's|refs/heads/||')" >> $GITHUB_OUTPUT
+      
       - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
@@ -27,11 +40,24 @@ jobs:
           repositories: SSW.Rules.Tina.Nextjs.POC
 
       # TODO - Change the ref for the main branch after PR validated
-      - name: Trigger Tina POC deploy with payload
+      # Keep the staging deploy for now to speed up POC testing
+      - name: Trigger Website staging deploy
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
             --ref main \
+            --field environment=staging \
+            --field branch_name="${GITHUB_REF#refs/heads/}"
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+
+      - name: Trigger Website production deploy
+        run: |
+          echo "Triggering production on ref: ${{ steps.find_release.outputs.branch_name }}"
+          gh workflow run build-and-deploy.yml \
+            --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
+            --ref "${{ steps.find_release.outputs.branch_name }}" \
+            --field environment=production \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
