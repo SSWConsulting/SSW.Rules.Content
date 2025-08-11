@@ -13,7 +13,7 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
 related:
   - website-page-speed
-  - keep-your-website-loading-time-acceptable
+  - keep-website-loading-time-acceptable
   - steps-required-to-implement-a-performance-improvement
 redirects:
   - do-you-avoid-reviewing-performance-without-metrics
