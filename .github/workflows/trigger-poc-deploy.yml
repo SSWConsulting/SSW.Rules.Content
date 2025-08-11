@@ -17,14 +17,9 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-      - name: Generate a token
-        id: generate-token
-        uses: actions/create-github-app-token@v2
+      - uses: actions/checkout@v4
         with:
-          app-id: ${{ vars.POC_APP_ID }}
-          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
-          owner: SSWConsulting
-          repositories: SSW.Rules.Tina.Nextjs.POC
+          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
 
       - name: Find latest release branch
         id: find_release
@@ -34,6 +29,15 @@ jobs:
             | sort -V \
             | tail -n 1 \
             | sed 's|refs/heads/||')" >> $GITHUB_OUTPUT
+      
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.POC_APP_ID }}
+          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
+          owner: SSWConsulting
+          repositories: SSW.Rules.Tina.Nextjs.POC
 
       # TODO - Change the ref for the main branch after PR validated
       # - name: Trigger Website staging deploy
