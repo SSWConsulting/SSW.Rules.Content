@@ -40,21 +40,27 @@ For any software team, understanding your current DevOps maturity is essential t
 This comprehensive DevOps evaluation covers these critical domains:
 
 ### 1. Team Onboarding & Collaboration
+
 Efficient onboarding and seamless collaboration set the foundation for high-performing teams. Key aspects to track include onboarding time for new members, quality of documentation, communication tools in use, team size, meeting cadence, and the presence of cross-functional skills.
 
 ### 2. Deployments
+
 Deployment practices are a strong indicator of delivery capability. Teams should monitor their most recent deployment date, deployment frequency, downtime during releases, incident resolution times, the number of environments, and overall deployment cycle time.
 
 ### 3. Coding Practices
+
 High-quality code starts with disciplined development habits. This includes the use of source control, effective branching strategies, peer code reviews, well-defined pull-request workflows, and regular updates of dependencies.
 
 ### 4. Development Process
+
 A clear and consistent process helps teams deliver predictably. Evaluate the development methodology in use—whether Agile, Scrum, Kanban, or hybrid—and how well the team identifies and manages technical debt.
 
 ### 5. Automation
+
 Automation reduces manual effort and minimizes errors. Track automation in infrastructure provisioning, build pipelines, deployment workflows, and UI testing to ensure repeatable, scalable delivery.
 
 ### 6. Telemetry
+
 Continuous monitoring is essential for proactive improvement. Measure how effectively your team tracks errors, monitors performance, and analyzes usage to inform both technical and business decisions.
 
 ---
