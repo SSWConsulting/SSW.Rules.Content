@@ -5,7 +5,7 @@ guid: 0f29f4b8-61ae-4c6a-ac40-f3084086d817
 uri: rules-to-better-devops
 index:
 - the-goal-of-devops
-- things-to-measure
+- devops-things-to-measure
 - things-to-automate-stage-2
 - what-metrics-to-collect-stage-3
 - continually-improve-processes
