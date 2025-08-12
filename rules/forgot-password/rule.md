@@ -23,15 +23,15 @@ Users often forget their passwords — the key to accessing their accounts. To h
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - What will happen for the poor user that forgot their password?](bad.png)  
+![Figure: Bad example - What will happen for the poor user that forgot their password?](forgot-password-bad.png)  
 :::
 
 ::: good  
-![Figure: Good example - Users have an option if they forget their password](good.png)  
+![Figure: Good example - Users have an option if they forget their password](forgot-password-good.png)  
 :::
 
 ::: good  
-![Figure: Good example - Users enter their email to get a new password](reset example.png)  
+![Figure: Good example - Users enter their email to get a new password](reset-password-example.png)  
 :::
 
 ## Avoid extra wording
@@ -65,9 +65,9 @@ Read more on Troy Hunt's blog post ["Everything you ever wanted to know about bu
 You should always aim to not disclose if a user is registered with your site or not.
 
 ::: bad  
-![Figure: Bad example - Displaying information whether a user exists or not](2016-01-05_15-20-06.png)  
+![Figure: Bad example - Displaying information whether a user exists or not](username-enumeration-bad.png)  
 :::
 
 ::: good  
-![Figure: Good example - Do not disclose whether a user is registered with your site](demo.png)  
+![Figure: Good example - Do not disclose whether a user is registered with your site](username-enumeration-good.png)  
 :::
