@@ -27,9 +27,9 @@ Additionally, buttons should have clear names so the user knows what to expect. 
 
 We recommend the web standards of:
 
-- **Save** - Save data without closing the form
-- **Save and Close** - Close the form and save any changed data
-- **Cancel** - Close the form without saving
+* **Save** - Save data without closing the form
+* **Save and Close** - Close the form and save any changed data
+* **Cancel** - Close the form without saving
 
 ::: good  
 ![Figure: Good example - This form uses the standard button naming standards (and has the Default buttons set!)](./GoodFormButtonLabel.png)  
