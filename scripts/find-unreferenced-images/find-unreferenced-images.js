@@ -1,24 +1,28 @@
 const fs = require('fs');
 const path = require('path');
-const marked = require('marked');
 const core = require('@actions/core');
+const { unified } = require('unified');
+const remarkParse = require('remark-parse').default;
+const remarkMdx = require('remark-mdx').default; 
+const { visit } = require('unist-util-visit');
 
 function findImagesInMarkdown(file) {
-    const nodeList = []
-    const markdown = fs.readFileSync(file, "utf8");
+  const code = fs.readFileSync(file, 'utf8');
+  if (!code) return [];
 
-    if (!markdown) return
+  const tree = unified().use(remarkParse).use(remarkMdx).parse(code);
+  const out = new Set();
 
-    const walkTokens = (token) => {
-        if (token.type === "image") {
-            nodeList.push(token.href)
-        }
-    };
+  visit(tree, 'mdxJsxFlowElement', (node) => {
+    if (node.name === 'imageEmbed') {
+      const srcAttr = node.attributes.find(a => a.type === 'mdxJsxAttribute' && a.name === 'src');
+      if (srcAttr && typeof srcAttr.value === 'string') {
+        out.add(path.basename(srcAttr.value));
+      }
+    }
+  });
 
-    marked.use({ walkTokens });
-    marked.parse(markdown, { mangle: false, headerIds: false });
-
-    return [...new Set(nodeList)];
+  return [...out];
 }
 
 function traverseEverything(directory) {
