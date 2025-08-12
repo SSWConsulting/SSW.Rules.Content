@@ -12,6 +12,7 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
+  - user-authentication-terms
 ---
 
 Consistency is a key factor of software development, designing applications that minimise the learning curve through consistent use of componentry and functionality. If buttons with similar functionality are named inconsistently across a web application, it can cause a confusing experience for its users. For example, the buttons used to close a form should be named consistently across your application.
