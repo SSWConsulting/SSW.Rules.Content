@@ -1,4 +1,4 @@
-name: Trigger-Rules-POC-Build
+name: Rules — Cross-Repo Deploy Trigger
 
 on:
   workflow_dispatch:
