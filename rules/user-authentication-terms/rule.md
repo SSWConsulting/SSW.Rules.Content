@@ -40,7 +40,7 @@ While **❌ "Log in"** has been widely used in the past, modern applications ten
 When prompting users to create accounts, **❌ "Sign up"** can sometimes be confused with **"Sign in"**. To avoid this, **✅ "Register"** or **✅ "Create account"** can offer clearer direction and convey a greater sense of formality and commitment.  
 
 ::: info
-**Note:** **"Join"** is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community.
+**Note:** **✅ "Join"** is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community.
 :::
 
 ---
