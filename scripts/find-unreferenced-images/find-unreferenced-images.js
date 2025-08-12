@@ -37,7 +37,7 @@ function traverseDirectories(directories) {
         const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
         if (intersection.length > 0) {
-            images[directory.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
+            images[directory.replaceAll("../", "").replaceAll("public/uploads/rules/", "")] = intersection;
         }
     });
 
@@ -86,13 +86,13 @@ async function main() {
         if (process.argv[2] && process.argv[2].length > 0) {
             const folders = process.argv[2]
                 .split(",")
-                .filter(file => file.slice(0, 5) == "rules")
+                .filter(file => file.slice(0, 5) == "public/uploads/rules")
                 .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
 
             images = traverseDirectories(folders);
         }
     } else if (eventType === "workflow_dispatch") {
-        images = traverseEverything("../../rules/");
+        images = traverseEverything("../../public/uploads/rules/");
     }
     
     if (images === undefined || images === null || Object.keys(images).length === 0) {
@@ -102,7 +102,7 @@ async function main() {
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
-        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
+        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/public/uploads/rules/${rule}`).addList(images[rule]).write();
     }
 }
 
