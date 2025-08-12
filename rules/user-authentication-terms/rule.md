@@ -24,6 +24,7 @@ The words we choose can significantly impact user experience. One such area of c
 <!--endintro-->
 
 ## User authentication  
+
 While "Log in" has been widely used in the past, modern applications tend to prefer **"Sign in"**. The term is widely recognized, intuitive, and aligns with current user expectations.  
 
 ::: info
@@ -35,6 +36,7 @@ While "Log in" has been widely used in the past, modern applications tend to pre
 :::
 
 ## User account creation  
+
 When prompting users to create accounts, **"Sign up"** can sometimes be confused with **"Sign in"**. To avoid this, **"Register"** or **"Create account"** can offer clearer direction and convey a greater sense of formality and commitment.  
 
 ::: info
