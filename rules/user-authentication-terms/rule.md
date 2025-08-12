@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/matt-goldman
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - label-buttons-consistently
 redirects:
   - tiny-do-you-know-when-to-use-log-on-log-in-and-sign-in
   - when-to-use-log-on-log-in-and-sign-in
