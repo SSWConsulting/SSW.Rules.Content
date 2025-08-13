@@ -27,6 +27,8 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 <!--endintro-->
 
+Learn more on what happens at [Sprint Retrospective](/what-happens-at-retro-meetings), [Sprint Review](//what-happens-at-a-sprint-review-meeting), and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings.
+
 ::: info
 To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
 :::
@@ -67,7 +69,7 @@ Here's a suggested runsheet for what to cover in the video:
 
 See [useful tips on how to make great videos](/making-a-great-done-video).
 
-**Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points... it gives *some* window into the team, but not everything.
+**Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should **only** include the main good and bad points... it gives **some** window into the team, but not everything.
 
 ::: info
 **Tip:** To make the video more entertaining, get more than one person to talk (e.g. ask someone to talk about a PBI that they worked on). Also, when you have a chance, try to include a [YakShave](https://yakshaver.ai) during the recording.
