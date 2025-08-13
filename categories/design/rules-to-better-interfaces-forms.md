@@ -27,6 +27,7 @@ index:
 - weekdays-on-date-selectors
 - do-you-make-text-boxes-show-the-whole-query
 - do-you-provide-hints-for-filling-non-common-fields
+- forgot-password
 - do-you-provide-red-errors-next-to-the-field
 - trim-input-whitespace
 - do-you-provide-the-user-drill-downs-and-drill-arounds
