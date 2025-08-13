@@ -29,16 +29,16 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 Learn more on what happens at [Sprint Retrospective](/what-happens-at-retro-meetings), [Sprint Review](//what-happens-at-a-sprint-review-meeting), and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings.
 
-::: info
-To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
-:::
-
 ## Why record a summary of the Sprint Meeting?
 
 * **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present
 * **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity
 * **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment
 * **Community:** Allows the community at large to see what is happening on a product and provide feedback
+
+::: info
+To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
+:::
 
 ## Prepare for the Sprint Meeting recording
 
