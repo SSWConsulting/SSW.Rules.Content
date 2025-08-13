@@ -4,9 +4,7 @@ name: Check-Images
 on:
   # # Triggers the workflow on pull request events but only for the main branch
   pull_request:
-    branches:
-      - main
-      - 1869-update-github-actions
+    branches: [ main ]
   # TODO: Trigger temporarily disabled as per https://github.com/SSWConsulting/SSW.Rules/issues/1065
     
   # Allows you to run this workflow manually from the Actions tab

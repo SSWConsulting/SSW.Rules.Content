@@ -50,6 +50,6 @@ jobs:
             This PR was created because an automated check found multiple images with the same name in SSW.Rules.Content and tried to rename them.
 
             The goal is to prevent incorrect images from being displayed on rules, see detail at https://github.com/SSWConsulting/SSW.Rules.Content/wiki/GitHub-Action---Check-For-Duplicate-Image-Names
-          base: tina/migration-dev-content
+          base: main
           branch: auto-rename-duplicate-images
           delete-branch: true
