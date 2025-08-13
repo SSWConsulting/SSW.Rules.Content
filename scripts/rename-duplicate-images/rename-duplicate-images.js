@@ -58,6 +58,6 @@ function modifyRuleMd(ruleMdPath, oldImageName, newImageName) {
   fs.writeFileSync(ruleMdPath, newContent, "utf-8");
 }
 
-const directory = "../../rules";
+const directory = "../../public/uploads/rules";
 
 checkDuplicateImages(directory);
