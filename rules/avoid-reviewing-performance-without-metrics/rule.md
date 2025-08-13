@@ -13,7 +13,7 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
 related:
   - website-page-speed
-  - keep-your-website-loading-time-acceptable
+  - keep-website-loading-time-acceptable
   - steps-required-to-implement-a-performance-improvement
 redirects:
   - do-you-avoid-reviewing-performance-without-metrics
@@ -72,22 +72,25 @@ Depending on your tech stack, there are various tools available to measure perfo
 
 Here are other performance tools worth considering:
 
-### Frontend Performance:
-- **Page Speed Insights** - Google's web performance analyzer
-- **React Developer Tools** - Component-specific profiling for React apps
+### Frontend Performance
 
-### API Performance:
-- **Insomnia** - REST client with performance timing
-- **BenchmarkDotNet** - .NET microbenchmarking framework
-- **Fiddler** - HTTP debugging proxy with performance metrics
-- **Visual Studio Performance Profiler** - Integrated .NET profiling
-- **Bombardier** - HTTP load testing tool
+* **Page Speed Insights** - Google's web performance analyzer
+* **React Developer Tools** - Component-specific profiling for React apps
 
-### Telemetry & Monitoring:
-- **Azure App Insights** - Microsoft's application performance monitoring
-- **OpenTelemetry** - Vendor-neutral observability framework
-- **Sentry.io** - Error tracking with performance monitoring
-- **AWS CloudWatch** - Amazon's monitoring and observability service
+### API Performance
+
+* **Insomnia** - REST client with performance timing
+* **BenchmarkDotNet** - .NET microbenchmarking framework
+* **Fiddler** - HTTP debugging proxy with performance metrics
+* **Visual Studio Performance Profiler** - Integrated .NET profiling
+* **Bombardier** - HTTP load testing tool
+
+### Telemetry & monitoring
+
+* **Azure App Insights** - Microsoft's application performance monitoring
+* **OpenTelemetry** - Vendor-neutral observability framework
+* **Sentry.io** - Error tracking with performance monitoring
+* **AWS CloudWatch** - Amazon's monitoring and observability service
 
 ## Samples
 
