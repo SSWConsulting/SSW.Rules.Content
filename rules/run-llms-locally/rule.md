@@ -58,14 +58,13 @@ Local LLMs ensure your data never leaves your machine, providing consistent perf
 | **Cost** | Free | Free | Free; enterprise licensing may apply |
 | **Best for** | Simple and lightweight, great for backends | Polished UX, great for experimentation | Enterprise integration in .NET ecosystem |
 
-
 ![Figure: Chat interfaces in LM Studio (left), and Ollama (right)](ollama-or-lmstudio-ui.png)
 
 Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
 
 ### Coding with local LLMs
 
-**[⭐️ Cline](https://cline.bot/)** is an open source VSCode extension that adds AI enhanced workflows to your IDE, with comprehensive support for various model providers. 
+**[⭐️ Cline](https://cline.bot/)** is an open source VSCode extension that adds AI enhanced workflows to your IDE, with comprehensive support for various model providers.
 We can link it up with LM Studio or Ollama without any complex configuration, simply clicking a button.
 
 1. Install the Cline extension
@@ -100,7 +99,7 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 
 ### Model selection strategy
 
-The open-source model landscape evolves rapidly, with new models released weekly that often surpass current leaders. 
+The open-source model landscape evolves rapidly, with new models released weekly that often surpass current leaders.
 
 Rather than recommending specific models that may become outdated, consider these resources for current information:
 
@@ -127,7 +126,7 @@ Model size (B = billion parameters) directly impacts hardware requirements:
 * **Check the leaderboards** -  Open source models are always improving, always make sure your chosen model is the best fit
 * **Consider hybrid approaches** - Use local models for sensitive data, cloud models for complex tasks
 
-Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment. 
+Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment.
 
 Local LLMs have only recently been able to compete with closed source, cloud hosted ones.
 
