@@ -14,7 +14,8 @@ authors:
 related:
   - add-days-to-dates
   - date-and-time-of-change-as-tooltip
-  - sharepoint-format-dates-to-include-the-weekday 
+  - sharepoint-format-dates-to-include-the-weekday
+  - use-correct-time-format
 redirects:
   - do-you-display-dates-in-a-human-friendly-format
 ---
