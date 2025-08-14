@@ -19,8 +19,9 @@ related:
 created: 2025-07-17T21:00:00.000Z
 guid: 2b7d9e5f-3a1c-4f6e-9d2a-8c4e5f6a7b8c
 ---
-
 When you need AI assistance for development but find yourself offline (whether you're on a flight, gone camping, or facing the inevitable zombie apocalypse) you'll appreciate having local LLMs ready in your workflow!
+
+![Figure: Will local LLMs catch up with cloud-based?](coverphoto.png)
 
 Running LLMs locally unlocks ultimate freedom, through privacy, offline use, and control.
 
@@ -28,12 +29,12 @@ Running LLMs locally unlocks ultimate freedom, through privacy, offline use, and
 
 ## Why run LLMs locally?
 
-Local LLMs ensure your data never leaves your machine, provide consistent performance without internet dependencies, and offer cost savings for high-volume usage.
+Local LLMs ensure your data never leaves your machine, providing consistent performance without internet dependencies, and offering cost savings for high-volume usage.
 
 ### ✅ Benefits of local LLMs
 
-* **Enhanced privacy** - Your code and data never leave your machine
-* **Offline capabilities** - Work without internet connectivity
+* **Enhanced privacy** - Your code and data never leaves your machine
+* **Offline capabilities** - Works without internet connectivity
 * **Cost control** - No per-token charges for high-volume usage
 * **Customization** - Full control over model selection and fine-tuning
 * **Consistent performance** - No API rate limits or service outages
@@ -43,16 +44,15 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 
 * **Hardware requirements** - Need sufficient RAM and GPU for good performance
 * **Model size constraints** - Smaller models may have reduced capabilities
-* **Setup complexity** - Requires technical knowledge for initial configuration
 * **Updates** - Must manually update models and software
 
-## Comparison
+## Local LLM Host Comparison
 
 | Feature | [⭐️ Ollama](https://ollama.com) | [⭐️ LM Studio](https://lmstudio.ai) | [Microsoft Foundry Local](**https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-local/what-is-foundry-local**) |
 | --- | --- | --- | --- |
 | Open Source? | Yes 😁 | No 😢 | No 😓 |
 | UI | Simple chat and model management interface | Full desktop UI | CLI |
-| Models | Large open‑source library (Llama, Mistral, Qwen, etc.) | GGUF downloads; curated catalog | Microsoft‑curated selection |
+| Models | Large open‑source library (Llama, Mistral, Qwen, etc.) | Supports most models from [Hugging Face](https://huggingface.co/) | Microsoft‑curated selection |
 | Endpoint/API (OpenAI schema?) | Yes | Yes | Yes |
 | Cost | Free | Free | Free; enterprise licensing may apply |
 | Best for | Simple and lightweight, great for backends | Polished UX, great for experimentation | Enterprise integration in .NET ecosystem |
@@ -63,7 +63,9 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 
 
 
-## Using Cline with your local Ollama or LM Studio models
+### Coding with Local LLMs
+
+**[⭐️ Cline](https://cline.bot/)**
 
 Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
 
@@ -82,7 +84,6 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 
 **Figure: Using Cline locally with Qwen-3**
 
-### Other open source AI coding tools worth mentioning:
 
 **[GitHub Copilot](https://github.com/features/copilot)** - You've probably heard of it:
 
@@ -115,10 +116,10 @@ Rather than recommending specific models that may become outdated, consider thes
 
 Model size (B = billion parameters) directly impacts hardware requirements:
 
-* **1-7B** - Great for small context tasks requiring speed, e.g. reformatting text.
-* **7-13B** - Great for getting started with local development, may not be viable for practical use-cases.
-* **13-30B** - Sweet spot for local development with dedicated GPU
-* **70B+** - God tier, requires high-end GPU and 64GB+ VRAM
+* **1-7B** - Great for small context tasks requiring speed, e.g. reformatting text. (~4-8 GB)
+* **7-13B** - Great for getting started with local development, may not be viable for practical use-cases. (~8-16 GB)
+* **13-30B** - Sweet spot for local development with dedicated GPU (~16-32 GB)
+* **70B+** - God tier, requires high-end GPU and 64GB+ VRAM (~80+ GB)
 
 ::: info
 **Note:** Without a powerful GPU, locally-run models may not produce code quality suitable for development work.
