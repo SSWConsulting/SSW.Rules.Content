@@ -82,7 +82,7 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
   Your browser does not support the video tag.
 </video>
 
-**Figure: Using Cline locally with Qwen-3**
+**Animated GIF: Using Cline locally with Qwen-3**
 
 
 **[GitHub Copilot](https://github.com/features/copilot)** - You've probably heard of it:
@@ -137,3 +137,5 @@ Running LLMs locally provides developers with powerful AI capabilities while mai
 Local LLMs have only recently been able to compete with closed source, cloud hosted ones.
 
 Whether you choose Ollama for simplicity or Foundry Local for enterprise features, local LLMs provide ultimate freedom, and they're just getting started.
+
+What excites you about local LLMs?
