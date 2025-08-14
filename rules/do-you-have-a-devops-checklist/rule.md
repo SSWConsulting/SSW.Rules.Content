@@ -9,7 +9,7 @@ authors:
 related: []
 redirects: []
 created: 2015-10-07T01:12:53.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/devops-things-to-measure
 guid: 529217e9-eda4-4654-85f0-a8aba759301b
 ---
 
