@@ -57,23 +57,19 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 | Cost | Free | Free | Free; enterprise licensing may apply |
 | Best for | Simple and lightweight, great for backends | Polished UX, great for experimentation | Enterprise integration in .NET ecosystem |
 
-
-
 ![Figure: Chat interfaces in LM Studio (left), and Ollama (right)](ollama-or-lmstudio-ui.png)
-
-
 
 ## Using Cline with your local Ollama or LM Studio models
 
 Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
 
-Cline is an open source VSCode extension that adds AI enhanced workflows to your IDE, with comprehensive support for various model providers. 
+Cline is an open source VSCode extension that adds AI enhanced workflows to your IDE, with comprehensive support for various model providers.
 We can link it up with LM Studio or Ollama without any complex configuration, simply clicking a button.
 
-- Install the Cline extension.
-- For Provider: Select either LM Studio or Ollama
-- Select the model you would like to use
-- Happy ~~vibe coding~~ AI assisted developing!
+* Install the Cline extension.
+* For Provider: Select either LM Studio or Ollama
+* Select the model you would like to use
+* Happy ~~vibe coding~~ AI assisted developing!
 
 <video width="100%" height="auto" autoplay muted loop>
   <source src="cline-local.webm" type="video/webm">
@@ -82,7 +78,7 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 
 **Figure: Using Cline locally with Qwen-3**
 
-### Other open source AI coding tools worth mentioning:
+### Other open source AI coding tools worth mentioning
 
 **[GitHub Copilot](https://github.com/features/copilot)** - You've probably heard of it:
 
@@ -104,7 +100,7 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 
 ### Model selection strategy
 
-The open-source model landscape evolves rapidly, with new models released weekly that often surpass current leaders. 
+The open-source model landscape evolves rapidly, with new models released weekly that often surpass current leaders.
 
 Rather than recommending specific models that may become outdated, consider these resources for current information:
 
@@ -131,7 +127,7 @@ Model size (B = billion parameters) directly impacts hardware requirements:
 * **Check the leaderboards** -  Open source models are always improving, always make sure your chosen model is the best fit.
 * **Consider hybrid approaches** - Use local models for sensitive data, cloud models for complex tasks
 
-Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment. 
+Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment.
 
 Local LLMs have only recently been able to compete with closed source, cloud hosted ones.
 
