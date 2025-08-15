@@ -1,8 +1,7 @@
 ---
+seoDescription: Learn when and how to send a v2 of an email effectively while maintaining clean email threads and incorporating feedback.
 type: rule
 title: Do you know when and how to send a v2 of an email?
-seoDescription: Learn when and how to send a v2 of an email effectively while
-  maintaining clean email threads and incorporating feedback.
 uri: email-send-a-v2
 authors:
   - title: Adam Cogan
@@ -24,6 +23,7 @@ created: 2020-01-13T15:33:23.000Z
 archivedreason: null
 guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
 ---
+
 Sometimes you will need to send a new version for an email. This often is due to 2 main reasons:
 
 * You **received substantial feedback** about the email you've sent that requires a new version
@@ -41,7 +41,7 @@ Having an entire new version of an email is important as it:
 
 * Hints for what could be better for next time, in which case all that's required is you take the feedback on board
 * Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
-  :::
+:::
 
 ## How to structure and send a v2
 
@@ -50,17 +50,15 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 1. Open your v1 email in Sent Items
 2. Reply to All
 3. Delete the whole v1 from the thread, including:
-
    * The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
    * Your signature
    * The words "RE:" from the subject only in the cases where first email was **not** a reply
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - {{ REASON }}) on the first line of the email body
-
+   * For further versions of an email, replace the v2 with v3, v4, v5, etc
    * The reason should include a summary of what was changed
    * If additional versions of an email is needed:
-
      * Repeat steps 1-3
      * Add a new v3, v4 ,v5 above the previous version with the reason for the new update
 
@@ -79,26 +77,25 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 
 ::: email-template  
 
-|     |     |
-| --- | --- |
-| To: | Bob |
-
+|          |     |
+| -------- | --- |
+| To:      | Bob |
 ::: email-content  
 
 (v2 - {{ REASON }})
 
-### Hi Bob
+### Hi Bob  
 
 {{ EMAIL CONTENT }}
 
-Regards,\
+Regards,  
 Dave
 
 {{ HISTORY OF THE THREAD, EXCEPT THE PREVIOUS VERSION WITH MISTAKE(S) }}
 
-:::\
-:::\
-::: good\
+:::  
+:::  
+::: good  
 Figure: Good example - Sending a 'v2' when you need to make an update
 :::
 
@@ -110,7 +107,7 @@ Figure: Good example - Sending a 'v2' when you need to make an update
 
 For appointments, the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments)
 
-- - -
+---
 
 `youtube: https://www.youtube.com/embed/2WoDQBhJCVQ`
 **Video: Some jobs give no chance for a v2**
