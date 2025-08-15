@@ -12,7 +12,7 @@ authors:
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman/
   - title: Luke Cook
-    url: https://www.ssw.com.au/people/josh-berman/
+    url: https://www.ssw.com.au/people/luke-cook/
 related:
   - color-contrast
 redirects: []
