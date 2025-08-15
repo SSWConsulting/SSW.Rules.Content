@@ -23,7 +23,7 @@ Using screen captures is a good practice - pictures do tell a thousand words - b
 
 <!--endintro-->
 
-When your attachment is too big, you should think twice. 
+When your attachment is too big, you should think twice.
 
 ## Avoid large attachments
 
@@ -36,6 +36,7 @@ Some email clients may prompt you to resize images before sending, but if they d
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -43,7 +44,7 @@ Some email clients may prompt you to resize images before sending, but if they d
 | Subject: | Northwind app - New artwork |  
 ::: email-content
 
-### Dear Bob,
+### Dear Bob
 
 Thank you for spending time with us to come to a better understanding of your business requirements. Please review the new version of the artwork attached
 
@@ -57,13 +58,14 @@ Figure: Bad example - Sending a large attachment
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
 | Subject: | Northwind app - New artwork |  
 ::: email-content
 
-### Dear Bob,
+### Dear Bob
 
 Thank you for spending time with us to come to a better understanding of your business requirements. Please review the new version of the artwork at [filename.png](https://northwind365.com/images/Group%2013.png)
 
