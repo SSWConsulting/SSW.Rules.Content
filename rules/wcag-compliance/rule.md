@@ -88,8 +88,6 @@ Level A is a must-have, AA is a should-have (common target), and AAA represents 
 
 ## Tools for Testing Accessibility
 
-## Automated Accessibility Testing Tools
-
 | Tool | What It Does | When to Use |
 |------|--------------|-------------|
 | [axe DevTools](https://www.deque.com/axe/devtools/) | Browser extension that runs WCAG checks and highlights code issues inline. | During development and QA for quick checks. |
