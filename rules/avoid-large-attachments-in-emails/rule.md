@@ -21,15 +21,19 @@ redirects:
 
 Using screen captures is a good practice - pictures do tell a thousand words - but don't include unnecessarily huge images or attachments in your email.
 
-When your attachment is too big, you should think twice.
-
 <!--endintro-->
 
-Avoid large attachments. If you are sending an email with attachments or images that are **greater than 1MB** you need to consider:
+When your attachment is too big, you should think twice. 
 
-* Files - Could a URL be better than this attachment?
-  * Could I send this as a UNC to an internal share?
-* Images - Could I put this picture on Google Photos or another image server?
+## Avoid large attachments
+
+If you're sending an email with attachments or images over 1 MB, consider uploading the file to a server (e.g., Google Photos or Microsoft Teams) and including the link in the email instead.
+
+::: info
+**Note:** Photos taken with modern smartphones 📱 are often quite large. A single high-resolution image can easily be 2–5 MB, and some mobile devices produce photos over 10 MB - far above the ideal size for email attachments.
+
+Some email clients may prompt you to resize images before sending, but if they don’t, consider resizing them yourself or sharing via a link instead.
+:::
 
 ::: email-template  
 | | |
@@ -39,7 +43,7 @@ Avoid large attachments. If you are sending an email with attachments or images 
 | Subject: | Northwind app - New artwork |  
 ::: email-content
 
-### Dear Bob
+### Dear Bob,
 
 Thank you for spending time with us to come to a better understanding of your business requirements. Please review the new version of the artwork attached
 
@@ -59,7 +63,7 @@ Figure: Bad example - Sending a large attachment
 | Subject: | Northwind app - New artwork |  
 ::: email-content
 
-### Dear Bob
+### Dear Bob,
 
 Thank you for spending time with us to come to a better understanding of your business requirements. Please review the new version of the artwork at [filename.png](https://northwind365.com/images/Group%2013.png)
 
@@ -78,21 +82,17 @@ Figure: Good example - Sending a link instead of an attachment
 **Note:** An added advantage is that the document stays alive. If the URL has been updated and a user takes a week to get around to this email, they will view the latest version.
 :::
 
-### Tips
+## Tips
 
 1. Reduce the size by sending just the relevant part of the image you need
-
 2. Avoid **.bmp**. Use **.jpg**, **.gif** or **.png** instead
-
-3. If you are sending photos (every year cameras are making our photos bigger and bigger) you may need to [resize them down](https://imagecompressor.com/).
-
+3. If you are sending photos (every year cameras are making our photos bigger and bigger) you may need to [resize them down](https://imagecompressor.com/)
 4. If you have multiple files, consider .zip them
-
 5. SharePoint was built with sharing files in mind and is a great way to collaborate. If you are using SharePoint to send a file you simply need to open the context menu, click "send to" and "email a link" as shown:
 
-![Figure: SharePoint makes it easy to share or just copy the link](sharepoint-file-share.png)
+  ![Figure: SharePoint makes it easy to share or just copy the link](sharepoint-file-share.png)
 
-### When can you break these size rules?
+## When can you break these size rules?
 
 Basically, you should be practical:
 
