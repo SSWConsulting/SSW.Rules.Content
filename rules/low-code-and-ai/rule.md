@@ -14,9 +14,6 @@ Repetitive tasks like updating spreadsheets, sending reminders, and syncing data
 
 The goal is to move from humans doing and approving the work, to automation doing and humans approving the work.
 
-`youtube: https://www.youtube.com/embed/dummy-link-example`
-**Video: How to auto-post social media using n8n + AI (5 min)**
-
 <!--endintro-->
 
 Low-code platforms with built-in or easy AI integration make automation more accessible than ever, even for non-developers. These tools empower staff to create powerful workflows that once required a full-stack developer to implement.
