@@ -24,6 +24,9 @@ Accessibility isnt just about compliance - it's about improving the usability of
 
 Making your website accessible ensures equal access, better usability, and improved SEO.
 
+`youtube: https://www.youtube.com/watch?v=QWPWgaDqbZI`
+**Video: The Internet's Accessibility Problem - and How to Fix It (13 min)**
+
 <!--endintro-->
 
 ## What is WCAG?
@@ -31,10 +34,6 @@ Making your website accessible ensures equal access, better usability, and impro
 The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the WW3C's Web Accessibility Initiative (WAI). They define hwo to make web content more accessible to people with disabilities.
 
 These guidelines are constantly reviewed and updated to make the web a more accessible place. Each version release has its own focus, and moves with evolving technologies. The current latest set of guidelines is the [WCAG 2.2](https://www.w3.org/TR/WCAG22/), released in December 2024.
-
-<!-- Should we remove the info about the current version as this will be updated? Although the version only updates every few years -->
-
-<!-- TODO YOUTUBE VIDEO GOES HERE -->
 
 ## The 4 principles (P.O.U.R.)
 
