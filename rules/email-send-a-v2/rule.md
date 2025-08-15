@@ -59,7 +59,8 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
    * The reason should include a summary of what was changed
    * If additional versions of an email is needed:
      * Repeat steps 1-3
-     * Add a new v3, v4 ,v5 above the previous version with the reason for the new update
+     * Add a new v3, v4, v5 above the previous version with the reason for the new update
+    **Note:** Having a history of each new version can help people to understand what has been changed with each iteration.
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
