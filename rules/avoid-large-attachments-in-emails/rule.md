@@ -12,6 +12,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - links-or-attachments-in-emails
   - how-to-share-a-file-folder-in-sharepoint
   - dones-do-you-include-useful-details-in-your-done-email
   - dones-do-your-dones-include-a-url
@@ -27,7 +28,7 @@ When your attachment is too big, you should think twice.
 
 ## Avoid large attachments
 
-If you're sending an email with attachments or images over 1 MB, consider uploading the file to a server (e.g., Google Photos or Microsoft Teams) and including the link in the email instead.
+If you're sending an email with attachments or images over 1 MB, consider uploading the file to a server (e.g., Google Photos or Microsoft Teams) and [include the link in the email](/links-or-attachments-in-emails) instead.
 
 ::: info
 **Note:** Photos taken with modern smartphones 📱 are often quite large. A single high-resolution image can easily be 2–5 MB, and some mobile devices produce photos over 10 MB - far above the ideal size for email attachments.
