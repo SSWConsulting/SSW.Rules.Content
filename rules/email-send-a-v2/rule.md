@@ -56,7 +56,6 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - {{ REASON }}) on the first line of the email body
-   * For further versions of an email, replace the v2 with v3, v4, v5, etc
    * The reason should include a summary of what was changed
    * If additional versions of an email is needed:
      * Repeat steps 1-3
