@@ -27,9 +27,9 @@ To prevent downtime while waiting for a response from a client, or the topic in
 `youtube: https://www.youtube.com/embed/1lc57QC-5Ik`
 **Video: Resolving conflict - call before emailing (28 min)**
 
-## ✅ Benefits of calling first 
+## ✅ Benefits of calling first
 
-Calling first can save valuable time versus waiting for someone to respond to your email, making you more productive. 
+Calling first can save valuable time versus waiting for someone to respond to your email, making you more productive.
 
 It also saves time when discussing topics that are [easier explained over the phone](/seek-clarification-via-phone).
 
