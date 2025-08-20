@@ -83,7 +83,7 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 
 * One of the most popular extensions
 * Works with Ollama models (not LM Studio)
-* Closed source
+* Open-source VS Code extension
 
 **[Continue](https://continue.dev/)** - Open-source VS Code and JetBrains extension:
 
