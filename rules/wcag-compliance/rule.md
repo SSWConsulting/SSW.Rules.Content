@@ -72,27 +72,29 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 
 * Compatible (4.1): Optimize compatibility with current and future technologies.
 
-## Examples of WCAG Accessibility 
+## Examples of WCAG Accessibility
 
-Suppose we want to create a simple button on our site. 
+Suppose we want to create a simple button on our site.
 
 ![Bad Example of Button Accessibility](./bad-example-accessibility.png)
 
 **Figure: ❌ Bad Example - Lacks Accessibility**
 
-This fails numerous guidelines: 
+This fails numerous guidelines:
+
 * Criteria 2.1.1: Not operable by keyboard
 * Criteria 4.2.1: No accessible role/ name (for screen readers)
 * Criteria 1.3.1: Using div for a button breaks semantic structure
 
 ![Good Example of Button Accessibility](./good-example-accessibility.png)
 
-**Figure: ✅ Good Example - Correct Accessibility** 
+**Figure: ✅ Good Example - Correct Accessibility**
 
 Improving on the previous example, this button passes:
+
 * Criteria 2.1.1: Keyboard focus and activation are built-in
 * Criteria 4.1.2: The button role and label are exposed to assistive tech
-* Criteria 1.3.1: Correct semantic element conveys structure and purpose 
+* Criteria 1.3.1: Correct semantic element conveys structure and purpose
 
 ## Conformance Level
 
@@ -111,16 +113,18 @@ Level A is a must-have, AA is a should-have (common target), and AAA represents 
 ## Tools for Testing Accessibility
 
 ### Lighthouse
+
 Lighthouse is an automated auditing tool by Google that runs inside Chrome Devtools to check a website's performance, accessibility, best practices, and SEO. It's automated accessibility checks are based on WCAG, and it uses rules from axe-core.
 
-It is best used for performance and accessibility review before release. Although it only covers ~20-30% of accessibiltiy checks because many need manual testing. 
+It is best used for performance and accessibility review before release. Although it only covers ~20-30% of accessibiltiy checks because many need manual testing.
 
 ![Lighthouse in DevTools](./lighthouse-in-devtools.png)
 
 **Figure: Lighthouse in DevTools**
 
 ### axe DevTools
-Similarly, axe DevTools is a browser extension and testing toolkit powered by axe-core, using the same accessibility engine used in Lighthouse. It is used to find and fix accessibility issues during development. However, unlike lighthouse, it allows guided and manual testing for things automation can't fully check (e.g., meaningful ink text, focus order, screen reader experience). 
+
+Similarly, axe DevTools is a browser extension and testing toolkit powered by axe-core, using the same accessibility engine used in Lighthouse. It is used to find and fix accessibility issues during development. However, unlike lighthouse, it allows guided and manual testing for things automation can't fully check (e.g., meaningful ink text, focus order, screen reader experience).
 
 ![axe DevTools Example](./axe-devtools-example.png)
 
