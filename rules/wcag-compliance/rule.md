@@ -36,7 +36,7 @@ The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guid
 
 These guidelines are constantly reviewed and updated to make the web a more accessible place. Each version release has its own focus, and moves with evolving technologies. The current latest set of guidelines is the [WCAG 2.2](https://www.w3.org/TR/WCAG22/), released in December 2024.
 
-## The 4 principles (P.O.U.R.)
+## The 4 principles (POUR)
 
 WCAG consists of 4 high-level principles. Each principle is broken down into a number of sub-criteria.
 
