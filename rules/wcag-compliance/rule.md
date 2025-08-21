@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook/
 related:
   - color-contrast
+  - seo-tools
 redirects: []
 ---
 
