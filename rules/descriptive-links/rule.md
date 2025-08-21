@@ -31,7 +31,7 @@ Having descriptive links with relevant words **boosts your website SEO**, **impr
 <!--endintro-->
 
 ::: info
-**Note:** This is extra important for accessibility - According to [CAG 2.4.4/2.4.9 Link Purpose - Write better link text](https://www.youtube.com/watch?v=fXlLLVE6Grg), links should be as descriptive and contextual as possible for users who rely on accessibility tools. 
+**Note:** This is extra important for accessibility - According to [CAG 2.4.4/2.4.9 Link Purpose - Write better link text](https://www.youtube.com/watch?v=fXlLLVE6Grg), links should be as descriptive and contextual as possible for users who rely on accessibility tools.
 
 This can be achieved through **clear link text** or by **using the `aria-label` attribute** in the link’s HTML.
 
