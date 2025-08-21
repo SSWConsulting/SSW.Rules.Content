@@ -14,6 +14,7 @@ authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook/
 related:
+  - descriptive-links
   - color-contrast
   - seo-tools
 redirects: []
@@ -23,14 +24,14 @@ The internet has become a part of daily life, but not everyone uses it in the sa
 
 Accessibility isn't just about compliance - it's about improving the usability of your product for everyone. Whilst essential for people with permanent sensory, motor, or cognitive impairments, it also improves the experience for users with temporary or situational limitations.
 
+<!--endintro-->
+
 Making your website accessible ensures equal access, better usability, and improved SEO.
 
 `youtube: https://www.youtube.com/watch?v=QWPWgaDqbZI`
 **Video: The Internet's Accessibility Problem - and How to Fix It (13 min)**
 
-<!--endintro-->
-
-## What is WCAG?
+## An overview of WCAG standards
 
 The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the WW3C's Web Accessibility Initiative (WAI). They define how to make web content more accessible to people with disabilities.
 
@@ -73,7 +74,7 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 
 * Compatible (4.1): Optimize compatibility with current and future technologies.
 
-## Examples of WCAG Accessibility
+## Examples of WCAG accessibility
 
 Suppose we want to create a simple button on our site.
 
