@@ -12,6 +12,7 @@ created: 2024-07-09T20:21:50.796Z
 guid: 09bd4539-6c37-4233-81dd-e9f0392e2c37
 related:
   - google-search-console-vs-google-analytics
+  - wcag-compliance
 ---
 
 When trying to optimize your website’s performance and visibility, there are a few tools that can help (e.g. Google Search Console, Google Analytics, SEMrush). Each offers unique features suited to different aspects of your site's SEO.
