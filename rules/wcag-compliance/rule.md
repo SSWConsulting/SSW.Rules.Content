@@ -14,6 +14,7 @@ authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook/
 related:
+  - descriptive-links
   - color-contrast
   - seo-tools
 redirects: []
@@ -23,14 +24,14 @@ The internet has become a part of daily life, but not everyone uses it in the sa
 
 Accessibility isn't just about compliance - it's about improving the usability of your product for everyone. Whilst essential for people with permanent sensory, motor, or cognitive impairments, it also improves the experience for users with temporary or situational limitations.
 
+<!--endintro-->
+
 Making your website accessible ensures equal access, better usability, and improved SEO.
 
 `youtube: https://www.youtube.com/watch?v=QWPWgaDqbZI`
 **Video: The Internet's Accessibility Problem - and How to Fix It (13 min)**
 
-<!--endintro-->
-
-## What is WCAG?
+## An overview of WCAG standards
 
 The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the WW3C's Web Accessibility Initiative (WAI). They define how to make web content more accessible to people with disabilities.
 
@@ -42,68 +43,70 @@ WCAG consists of 4 high-level principles. Each principle is broken down into a n
 
 ### 1. Perceivable
 
-Information must be presented in a way users can perceive
+Information must be presented in a way users can perceive:
 
-* Text Alternatives (1.1): Provide text alternatives for non-text content.
-* Time-based Media (1.2): Provide alternatives and captions for multimedia and time-based content.
-* Adaptable (1.3): Present content in different ways without losing information or structure.
-* Distinguishable (1.4): Making it easier for users to see and hear content, including separating foreground from background (E.g Color contrast - [Do you meet color contrast requirements for accessibility?](/rules/color-contrast/))
+* **Text Alternatives (1.1):** Provide text alternatives for non-text content
+* **Time-based Media (1.2):** Provide alternatives and captions for multimedia and time-based content
+* **Adaptable (1.3):** Present content in different ways without losing information or structure
+* **Distinguishable (1.4):** Making it easier for users to see and hear content, including separating foreground from background (E.g Color contrast - [Do you meet color contrast requirements for accessibility?](/rules/color-contrast/))
 
 ### 2. Operable
 
-User Interface components and navigation must be operable
+User Interface components and navigation must be operable:
 
-* Keyboard Accessible (2.1): Ensure all functionality can be operated via a keyboard.
-* Enough Time (2.2): Provide users enough time to read and complete tasks.
-* Seizures and Physical Reactions (2.3): Do not design content that is known to cause seizures or physical discomfort.
-* Navigable (2.4): Create a navigable and intuitive user interface.
-* Input Modalities (2.5): Ensure compatibility with input methods beyond just a keyboard.
+* **Keyboard Accessible (2.1):** Ensure all functionality can be operated via a keyboard
+* **Enough Time (2.2):** Provide users enough time to read and complete tasks
+* **Seizures and Physical Reactions (2.3):** Do not design content that is known to cause seizures or physical discomfort
+* **Navigable (2.4):** Create a navigable and intuitive user interface
+* **Input Modalities (2.5):** Ensure compatibility with input methods beyond just a keyboard
 
 ### 3. Understandable
 
-Information and the operation of the user interface must be understandable
+Information and the operation of the user interface must be understandable:
 
-* Readable (3.1): Make content readable and understandable.
-* Predictable (3.2): Create a consistent and predictable user interfaces.
-* Input Assistance (3.3): Help users avoid and correct errors.
+* **Readable (3.1):** Make content readable and understandable
+* **Predictable (3.2):** Create a consistent and predictable user interfaces
+* **Input Assistance (3.3):** Help users avoid and correct errors
 
 ### 4. Robust
 
-Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies
+Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies:
 
-* Compatible (4.1): Optimize compatibility with current and future technologies.
+* **Compatible (4.1):** Optimize compatibility with current and future technologies
 
-## Examples of WCAG Accessibility
+## WCAG accessibility example
 
 Suppose we want to create a simple button on our site.
 
-![Bad Example of Button Accessibility](./bad-example-accessibility.png)
-
-**Figure: ❌ Bad Example - Lacks Accessibility**
+::: bad
+![Figure: Bad example - Lacks accessibility](./bad-example-accessibility.png)
+:::
 
 This fails numerous guidelines:
 
-* Criteria 2.1.1: Not operable by keyboard
-* Criteria 4.2.1: No accessible role/ name (for screen readers)
-* Criteria 1.3.1: Using div for a button breaks semantic structure
+* **Criteria 2.1.1:** Not operable by keyboard
+* **Criteria 4.2.1:** No accessible role/ name (for screen readers)
+* **Criteria 1.3.1:** Using div for a button breaks semantic structure
 
-![Good Example of Button Accessibility](./good-example-accessibility.png)
-
-**Figure: ✅ Good Example - Correct Accessibility**
+::: good
+![Figure: Good example - Correct accessibility](./good-example-accessibility.png)
+:::
 
 Improving on the previous example, this button passes:
 
-* Criteria 2.1.1: Keyboard focus and activation are built-in
-* Criteria 4.1.2: The button role and label are exposed to assistive tech
-* Criteria 1.3.1: Correct semantic element conveys structure and purpose
+* **Criteria 2.1.1:** Keyboard focus and activation are built-in
+* **Criteria 4.1.2:** The button role and label are exposed to assistive tech
+* **Criteria 1.3.1:** Correct semantic element conveys structure and purpose
 
-## Conformance Level
+## Conformance Levels
 
 WCAG defines three levels of conformance to these guidelines: A, AA, and AAA. They stack - meaning each higher level includes all requirements of the one below it.
 
-Level A is a must-have, AA is a should-have (common target), and AAA represents maximized accessibility
+* **Level A** is a must-have
+* **Level AA** is a should-have (common target)
+* **Level AAA** represents maximized accessibility
 
-## How can you Improve Accessibility?
+## How can you improve accessibility?
 
 | Role       | Actions |
 |------------|---------|
@@ -111,7 +114,7 @@ Level A is a must-have, AA is a should-have (common target), and AAA represents 
 | **Developers** | - Write semantic HTML (e.g., `<button>` not `<div>` for buttons)<br>- Use ARIA only when necessary<br>- Ensure full keyboard navigation<br>- Maintain logical tab order |
 | **Testers**    | - Run automated checks (axe, Lighthouse)<br>- Test with keyboard only<br>- Test with a screen reader (NVDA, VoiceOver)<br>- Verify form error handling |
 
-## Tools for Testing Accessibility
+## Tools for testing accessibility
 
 ### Lighthouse
 
@@ -119,9 +122,7 @@ Lighthouse is an automated auditing tool by Google that runs inside Chrome Devto
 
 It is best used for performance and accessibility review before release. Although it only covers ~20-30% of accessibiltiy checks because many need manual testing.
 
-![Lighthouse in DevTools](./lighthouse-in-devtools.png)
-
-**Figure: Lighthouse in DevTools**
+![Figure: Lighthouse in DevTools](./lighthouse-in-devtools.png)
 
 ### axe DevTools
 
@@ -133,9 +134,6 @@ Similarly, axe DevTools is a browser extension and testing toolkit powered by ax
 
 The following are some key concepts that can help make WCAG easier to understand.
 
-* **WCAG versioning** - The guidelines are updated at irregular intervals so it's important to be clear which version you're referencing.
-  E.g. [WCAG 2.2.](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22)
-* **Success Criteria** - Each WCAG principle contains sub-categories which themselves contain specific success criteria.
-  This means when you reference a success criterion it will have a number like "2.4.1: Bypass Blocks".
-* **WAI-ARIA** (Web Accessibility Initiative - Accessible Rich Internet Applications) -
-  A specification of semantic requirements for assistive technologies like screen readers.
+* **WCAG versioning** - The guidelines are updated at irregular intervals so it's important to be clear which version you're referencing. E.g. [WCAG 2.2.](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22)
+* **Success criteria** - Each WCAG principle contains sub-categories which themselves contain specific success criteria. This means when you reference a success criterion it will have a number like "2.4.1: Bypass Blocks"
+* **WAI-ARIA** (Web Accessibility Initiative - Accessible Rich Internet Applications) - A specification of semantic requirements for assistive technologies like screen readers
