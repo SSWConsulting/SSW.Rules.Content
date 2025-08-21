@@ -15,6 +15,7 @@ authors:
 related:
   - create-friendly-short-urls
   - do-you-display-information-consistently
+  - wcag-compliance
 redirects:
   - do-you-use-relevant-words-on-your-links
   - relevant-words-on-links
