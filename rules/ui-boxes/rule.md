@@ -31,8 +31,7 @@ Full-width UI boxes maximize screen real estate and create a bold, immersive, an
 
 ## ✅ Design advantages
 
-- **Enhance visual impact** - Stretching edge-to-edge creates a modern, cinematic feel that’s perfect for rich visuals and content-heavy layouts
-- **Work beautifully on all devices** - They adapt smoothly to any screen size, especially mobile, for a seamless experience everywhere
-- **Make the most of space** - No more wasted margins on big screens; every pixel is put to good use
-- **Give designers more freedom** - Full-width layouts allow creative use of images, backgrounds, and flow, great for storytelling or product showcases
-
+* **Enhance visual impact** - Stretching edge-to-edge creates a modern, cinematic feel that’s perfect for rich visuals and content-heavy layouts
+* **Work beautifully on all devices** - They adapt smoothly to any screen size, especially mobile, for a seamless experience everywhere
+* **Make the most of space** - No more wasted margins on big screens; every pixel is put to good use
+* **Give designers more freedom** - Full-width layouts allow creative use of images, backgrounds, and flow, great for storytelling or product showcases
