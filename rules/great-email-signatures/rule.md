@@ -1,7 +1,8 @@
 ---
-seoDescription: Discover how to create effective email signatures that boost your brand's consistency and marketing efforts with CodeTwo or manual setup.
 type: rule
 title: Do you use great email signatures?
+seoDescription: Discover how to create effective email signatures that boost
+  your brand's consistency and marketing efforts with CodeTwo or manual setup.
 uri: great-email-signatures
 authors:
   - title: Adam Cogan
@@ -25,7 +26,6 @@ created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
 ---
-
 Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
 
 `youtube: https://www.youtube.com/embed/qwG8RA-cWy0`
@@ -35,6 +35,7 @@ Email signatures are a great way of adding some advertising and branding. You sh
 Full email signatures (for external recipients) are great when they have:
 
 * A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
+
   * You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
 * Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
 * Your company **website** link
@@ -59,7 +60,7 @@ Figure: Bad example - The default signature
 :::
 
 ::: greybox
-Thanks, Adam  
+Thanks, Adam\
 ssw.com.au | [+61 2 9953 3000](tel:+61299533000) | [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
@@ -121,6 +122,8 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 ![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
 
 ### PC - How to set it up in Outlook
+
+For windows
 
 1. Open Microsoft Outlook and go File | Options
 2. Click the "Mail" tab as seen below
