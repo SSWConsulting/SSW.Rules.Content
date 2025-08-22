@@ -123,13 +123,20 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 
 ### PC - How to set it up in Outlook
 
-For windows
+For windows:
 
 1. Open Microsoft Outlook and go File | Options
 2. Click the "Mail" tab as seen below
 3. Click on "Signatures..." and add in your signatures
 
-![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
+![Figure: How to add a signature in Outlook in Windows](screen-shot-2021-10-01-at-11.20.33-am.png)
+
+For Mac:
+
+1. Open Microsoft Outlook app and go Outlook | Settings
+2. Click the "Signatures" tab in the "Email" section
+
+   ![Figure: How to add a signature in Outlook in Mac](有框的outlooksignature.png)
 
 ### Browser - How to set it up in OWA
 
