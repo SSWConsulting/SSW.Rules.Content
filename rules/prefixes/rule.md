@@ -22,10 +22,10 @@ The English language can be complex, and often the context of a message isn't cl
 
 ## ✅ Benefits of using prefixes
 
-- **Skimming** - Establishing context without having to read the full content
-- **Contextualizing** - Priming the reader on the subject matter
-- **Finding** - Helping the reader quickly jump to the right content in a list
-- **Grouping** - Categorizing content together without the need for a complex bespoke solution
+* **Skimming** - Establishing context without having to read the full content
+* **Contextualizing** - Priming the reader on the subject matter
+* **Finding** - Helping the reader quickly jump to the right content in a list
+* **Grouping** - Categorizing content together without the need for a complex bespoke solution
 
 ## When to use prefixes
 
