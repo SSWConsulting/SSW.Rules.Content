@@ -41,7 +41,7 @@ Add relevant and recent facts to make the content more informative and credible�
 Avoid common AI phrases and terms that make the text sound unnatural. Perplexity measures the complexity and unpredictability of text. To make AI-generated content sound more human, avoid overused and predictable phrases. This enhances the natural flow and makes the content more engaging.
 
 **Prompt example:** _"Don’t always use the most natural words. Use the following words fewer than three times on this page: unique, ensure, utmost, meticulous, meticulously, navigate, navigation, digital era, art of, secrets of, ever-evolving, unlock, bespoke, realm of, utilize, synthesize, conceptualize, paradigm, leverage, pivot, robust, synergy, optimize, utilize, orchestrate, cultivate.”_
-     
+
 ## 5. Burstiness
 
 Vary sentence and paragraph lengths to create a dynamic flow.
@@ -104,7 +104,7 @@ Adjust the tone and vocabulary to match the reading level and interests of {{ IN
 Analyze the attached articles for tone, structure, and vocabulary, then use this style to write new content."
 :::
 
-::: good 
+::: good
 Figure: Good example - Incorporating current and relevant facts to add credibility
 :::
 
