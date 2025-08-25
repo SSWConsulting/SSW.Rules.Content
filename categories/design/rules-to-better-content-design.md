@@ -7,6 +7,7 @@ index:
 - concise-writing
 - avoid-using-unnecessary-words
 - web-users-dont-read
+- prefixes
 - f-shaped-pattern
 - use-active-voice
 - write-in-eye-witness-style
