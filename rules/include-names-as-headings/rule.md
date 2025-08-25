@@ -30,7 +30,7 @@ If you have to address an email to one or multiple people (including [to yoursel
 | -------- | --------------------- |
 | To:      | Jean, Anthony         |
 | Cc:      | Adam                  |
-| Subject: | SSW CodeAuditor - Bug |
+| Subject: | 🐛 BUG - SSW CodeAuditor not loading |
 
 ::: email-content
 
@@ -57,7 +57,7 @@ Figure: Bad example - Names as normal text is not the best for readability
 | -------- | --------------------- |
 | To:      | Jean, Anthony         |
 | Cc:      | Adam                  |
-| Subject: | SSW CodeAuditor - Bug |
+| Subject: | 🐛 BUG - SSW CodeAuditor not loading |
 
 ::: email-content
 
