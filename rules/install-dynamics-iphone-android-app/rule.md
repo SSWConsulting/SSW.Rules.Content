@@ -19,4 +19,4 @@ You should have Dynamics 365 installed on your phone.
 
 <!--endintro-->
 
-![Figure: Dynamics 365 in appstore.](dynamics365-app.png)
+![Figure: Dynamics 365 in app store](dynamics365-app.png)
