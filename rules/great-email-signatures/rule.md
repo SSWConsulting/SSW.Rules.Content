@@ -136,7 +136,7 @@ For Mac:
 1. Open Microsoft Outlook app and go Outlook | Settings
 2. Click the "Signatures" tab in the "Email" section
 
-   ![Figure: How to add a signature in Outlook in Mac](有框的outlooksignature.png)
+   ![Figure: How to add a signature in Outlook in Mac](macoutlooksignature.png)
 
 ### Browser - How to set it up in OWA
 
