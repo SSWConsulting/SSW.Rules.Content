@@ -94,6 +94,13 @@ It is quite easy to do with these simple steps using OBS Hotkeys!
 `youtube: https://www.youtube.com/embed/vr8WyM12qC8`
 **Video: How To Switch Scenes In OBS Easily! (OBS Hotkeys) | Tutorial (4 min)**
 
+#### Camtasia
+
+Here's a quick video describing how to record and edit a quick Done video using Camtasia.
+
+`youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
+**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)**
+
 ## Tip #2: Follow the 'Done Video' structure
 
 Your Done Videos should follow the following format:
