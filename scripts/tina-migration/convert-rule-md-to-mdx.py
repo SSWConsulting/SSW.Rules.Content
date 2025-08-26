@@ -62,6 +62,7 @@ EMAIL_BLOCK_REGEX = (
 SIMPLE_FIGURE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s*\n(.*?)\n:::' 
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
+INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
 
 # ----------------------------- #
 # Utilities
@@ -112,6 +113,22 @@ def replace_youtube_block(m):
     url = m.group(1).strip()
     desc = m.group(2).strip() if m.group(2) else ""
     return f'<youtubeEmbed url="{url}" description="{desc}" />'
+
+def replace_youtube_block_inside_intro(m):
+    url = m.group(1).strip()
+    desc = m.group(2).strip() if m.group(2) else ""
+    return f'<introYoutube url="{url}" description="{desc}" />'
+
+def wrap_intro_embed(m):
+    fm = m.group('fm') or ''
+    intro = m.group('intro') or ''
+    intro_processed = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block_inside_intro, intro.strip(), flags=re.MULTILINE)
+    return f'''{fm}<introEmbed
+  body={{<>
+{intro_processed}
+  </>}}
+/>
+'''
 
 def replace_image_block(m, src_prefix):
     preset = m.group(1).strip()
@@ -309,8 +326,9 @@ def transform_md_to_mdx(file_path):
     content = path.read_text(encoding='utf-8')
 
     content = mdx_safe_template_vars(content)
+    content = re.sub(INTRO_WITH_FM_REGEX, wrap_intro_embed, content, flags=re.IGNORECASE | re.DOTALL)
+
     content = process_custom_aside_blocks(content)
-    content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
     content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)

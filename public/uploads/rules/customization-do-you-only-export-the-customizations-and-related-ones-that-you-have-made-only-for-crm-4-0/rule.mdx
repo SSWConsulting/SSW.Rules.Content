@@ -22,7 +22,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Sometimes less is better, CRM customizations are cumulative, this means that a customization that you import will override your existing schema. So if you're only working on for example Account entity, you should only export the Account entity's customization and any related entities in any new relationship that you have added to the schema. This avoids unexpected overriding existing entity's customization that potentially can break your CRM system.
+  </>}
+/>
 Account entity has relationships with pretty much every other entity in CRM.
 
 You could also export all the customizations and then just import the customization and the related ones that you have made changes. However, this requires you taking an extra effort to take note of which customizations that you have made changes.

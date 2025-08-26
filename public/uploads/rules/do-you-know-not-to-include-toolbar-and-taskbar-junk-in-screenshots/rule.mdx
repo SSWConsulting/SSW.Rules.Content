@@ -19,7 +19,11 @@ createdBy: RebeccaLiu
 createdByEmail: RebeccaLiu@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Screenshots are a very important part of websites these days. Ensure they are clean and free of distractions like browser tabs, toolbars, debug windows, and taskbars.
+  </>}
+/>
 <imageEmbed
   alt="Image"
   size="large"
@@ -60,4 +64,17 @@ Tips:
     shouldDisplay: true
   }}
   src="/uploads/rules/do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots/good-auto-hide-taskbar.gif"
+/>
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Done Videos are an exception – it’s fine to include the full screen. See [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/done-video/)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
 />

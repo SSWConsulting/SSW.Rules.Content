@@ -18,9 +18,13 @@ createdBy: Luke Parker [SSW]
 createdByEmail: 10430890+Hona@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 ### What is Clever Code?
 
 Clever Code comes in several forms. The desired form is solving a complex problem, in a simple way. The Clever Code that causes tech debt, is when code is written in a way to use the language features to look 'smart', while making it difficult for developers to read.
+  </>}
+/>
 ```cs
 var totalMoved = sortedChannels.Where((channel, i) => channel.Position != i).Count();
 ```

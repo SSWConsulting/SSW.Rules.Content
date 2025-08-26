@@ -19,12 +19,16 @@ createdBy: ChristianMWaite
 createdByEmail: ChristianMWaite@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 It is important to parameterize all input to your database and it’s easy to implement.
 Doing so will also reduce a lot of headaches down the track.
 
 ![](/uploads/rules/parameterize-all-input-to-your-database/ParameterizeSqlInputsXKCD.png) **Figure: What can happen if you don’t parameterize your inputs
 Source: [xkcd.com](https://xkcd.com/327/)
 **
+  </>}
+/>
 <figureEmbed figureEmbed={{
   preset: "goodExample",
   figure: 'Advantages',
@@ -32,10 +36,10 @@ Source: [xkcd.com](https://xkcd.com/327/)
 } } />
 
 
-- Prevents SQL injection attacks
-- Preserves types being sent to the database
-- Increased performance by reducing the number of query plans
-- Makes your code more readable
+* Prevents SQL injection attacks
+* Preserves types being sent to the database
+* Increased performance by reducing the number of query plans
+* Makes your code more readable
 
 ```sql
 SELECT Id, CompanyName, ContactName, ContactTitle
@@ -66,7 +70,7 @@ WHERE CompanyName = @companyName;
 ### Should I use Parameters.AddWithValue()?
 
 Using Parameters.AddWithValue() can be a bit of a shortcut as you don’t need to specify a type. However shortcuts often have their dangers and this one certainly does.
-For most cases [Parameters.AddWithValue()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.addwithvalue?view=netframework-4.8) will guess correctly, but sometimes it doesn’t which can lead to the value being misinterpreted when sent to the database. This can be avoided using [Parameters.Add()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.add?view=netframework-4.8) and specifying the [SqlDbType](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqldbtype?view=netframework-4.8), this will ensure the data will reach the database in the correct form.
+For most cases [Parameters.AddWithValue()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.addwithvalue?view=netframework-4.8&WT.mc_id=DP-MVP-33518) will guess correctly, but sometimes it doesn’t which can lead to the value being misinterpreted when sent to the database. This can be avoided using [Parameters.Add()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.add?view=netframework-4.8&WT.mc_id=DP-MVP-33518) and specifying the [SqlDbType](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqldbtype?view=netframework-4.8&WT.mc_id=DP-MVP-33518), this will ensure the data will reach the database in the correct form.
 When using dates, strings, varchar and nvarchar it is strongly recommended to use **Parameters.Add()** as there is a possibility of **Parameters.AddWithValue()** to incorrectly guess the type.
 Implementing parameterized queries using Parameters.Add()
 

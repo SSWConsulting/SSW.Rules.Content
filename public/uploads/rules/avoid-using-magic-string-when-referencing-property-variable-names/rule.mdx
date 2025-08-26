@@ -21,7 +21,11 @@ createdBy: LiamElliott
 createdByEmail: LiamElliott@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Hard coded strings when referencing property and variable names can be problematic as your codebase evolves, and can make your code brittle.
+  </>}
+/>
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```

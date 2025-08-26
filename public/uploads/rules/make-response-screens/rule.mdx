@@ -18,9 +18,13 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 One of the more common complaints about Microsoft Access databases is that some screens are slow to respond. **This is often misinterpreted as poor performance on the part of the database engine but the real culprit is usually the screen design.**
 
 Here are a few techniques that developers can use to improve screen responsiveness.
+  </>}
+/>
 ### 1) Fetch fewer records
 
 It is far too easy to create a screen that fetches all the records in a table. Such a time consuming exercise is seldom necessary and serves only to make screens appear sluggish. Users are usually interested in a few or perhaps only one specific record. They may simply wish to add a new record. In either case, it is a waste of time to fetch enormous quantities of data. If you are on a local area network, you will not only slow down your own application but probably annoy most of your cohorts by greatly increasing network traffic.

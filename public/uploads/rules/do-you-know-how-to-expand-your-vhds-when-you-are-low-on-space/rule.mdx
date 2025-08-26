@@ -18,7 +18,11 @@ createdBy: Unknown
 createdByEmail: Unknown@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Occasionally when you estimate the size of a VHD that you will be using in a server, you can get it wrong and you will need to give the Virtual Machine some more space. Instead of adding a bigger data disk in the Virtual Machine and migrating data, you can expand the existing disk.
+  </>}
+/>
 1. Open the **Hyper-V Manager** on the server hosting the Virtual Machine
 2. Shutdown the virtual machine (only required for Gen1 VMs)
 3. Click **Edit Disk...** in the **Actions** pane of the **Hyper-V Manager

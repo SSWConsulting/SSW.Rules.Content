@@ -19,6 +19,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 ### 1. Bit data type
 
 Bit data from 0 to 1 (2 values only). Storage size is 1 byte.
@@ -28,6 +30,8 @@ Columns of type bit cannot have indexes on them.
 Columns of type bit should be prefixed with "Is" or a "Should" ie. `IsInvoiceSent (y/n)` or `ShouldInvoiceBeSent (y/n)` you can tell easily which way the boolean is directed. See [more information on naming conventions](/object-name-should-follow-your-company-naming-conventions).
 
 This being said, fields of this type should generally be avoided because often a field like this can contain a date i.e. `DateInvoiceSent (Date/Time)` is prefered over `InvoiceSent (y/n)`. If a date is inappropriate then we still recommend an int field over a bit field anyway, because bits are a pain!
+  </>}
+/>
 ### 2. Tinyint data type
 
 Integer data from 0 through 255. Storage size is 1 byte.

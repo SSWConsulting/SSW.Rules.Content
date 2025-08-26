@@ -23,9 +23,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Office 365 products eg. Teams, SharePoint, Exchange use User Profile Service as their source of truth. Therefore, if you use them in your organization, the information needs to be up-to-date.
 
 The User Profile is simply a layer of information on top of Active Directory properties. As long as Azure AD is up to date (i.e. in sync with you On-Premises AD), the information in the User Profile Service will also be. You can then add new custom properties to store information such as extra phone numbers or skills coming from a predefined list. User Profile does not, however, allow complex custom scenarios.
+  </>}
+/>
 ### Where should the source of truth be?
 
 **A:** Simple - If you are happy with just names and address and simple pick lists then User Profiles work great.

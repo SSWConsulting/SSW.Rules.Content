@@ -17,9 +17,13 @@ createdBy: Baba Kamyljanov [SSW]
 createdByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Logging is a critical component in modern applications, but it can easily introduce performance overhead.
 
 .NET 6 introduced the `LoggerMessageAttribute`, a feature in the `Microsoft.Extensions.Logging` namespace that enables source-generated, highly performant logging APIs. This approach eliminates runtime overheads like boxing and temporary allocations, making it faster than traditional logging methods.
+  </>}
+/>
 ## Key performance benefits of LoggerMessageAttribute
 
 * **Source Generation:** Automatically generates the implementation of partial methods with compile-time diagnostics.
@@ -80,4 +84,4 @@ When using `LoggerMessageAttribute`, ensure:
 
 ## More information
 
-See this great article on Microsoft Learn which goes into more detail and usage examples: [Compile-time logging source generation in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator).
+See this great article on Microsoft Learn which goes into more detail and usage examples: [Compile-time logging source generation in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator?WT.mc_id=DT-MVP-33518).

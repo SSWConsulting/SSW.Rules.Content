@@ -17,7 +17,11 @@ createdBy: Chris Schultz [SSW]
 createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 It is best practice to limit the number of administrator accounts in your environment, including local administrators on users' computers. However, it is necessary to have a local administrator account so the computer can be accessed if it loses connection to the domain. LAPS does exactly that.
+  </>}
+/>
 Microsoft LAPS provides management of local account passwords of domain or hybrid-joined computers. Passwords are stored in on-premises Active Directory (AD) or Entra ID and protected by ACL or RBAC, so only eligible users can read it or request for it to be reset. The passwords are automatically changed regularly - the default is every 30 days, but this can be changed. LAPS is provided by Microsoft and comes integrated with newer Windows versions.
 
 As of April 2023, Microsoft has launched a new solution called Microsoft LAPS which replaces the older Windows LAPS.

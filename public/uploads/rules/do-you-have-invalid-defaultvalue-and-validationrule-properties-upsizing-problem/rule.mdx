@@ -25,7 +25,11 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 When you upsize a table, the Upsizing Wizard tries to "map" Visual Basic for Applications functions in your DefaultValue and ValidationRule properties to an equivalent TSQL function. If this attempt is not successful, the validation rule or default will be skipped by the Upsizing Wizard. Consider the following:
+  </>}
+/>
 - If the Upsizing Wizard fails to map a function in a field's ValidationRule property, only the validation rule is skipped, and the rest of the table is upsized.
 - If the Upsizing Wizard fails to map a function in a field's DefaultValue property, the entire table is skipped.
 - Access 2000: Validation rules are not upsized

@@ -19,7 +19,11 @@ lastUpdatedByEmail: 65155920+0xharkirat@users.noreply.github.com
 createdBy: Harkirat Singh [SSW]
 createdByEmail: 65155920+0xharkirat@users.noreply.github.com
 ---
+<introEmbed
+  body={<>
 Mobile keyboards, autocomplete, and even copy-paste behavior often introduce leading or trailing whitespace into input fields. This causes validation to fail, even when the actual content is correct—like a GitHub URL ending in a space. That’s a frustrating experience for users, and it’s easily avoidable.
+  </>}
+/>
 When input validation fails because of a whitespace character the user can’t see, it feels like the form is broken. Trimming whitespace is a simple fix that drastically improves UX.
 
 ## Always trim inputs before validating

@@ -20,6 +20,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Follow the below standards for tables and columns.
 
 1. All tables should have the following fields:
@@ -31,6 +33,8 @@ Follow the below standards for tables and columns.
 | ModifiedUtc | datetime2 Allow Nulls=False Default=GETUTCDATE() |
 | ModifiedUserId | Foreign Key to Users table, Allow Nulls=False |
 | Concurrency | rowversion Allow Nulls=False|
+  </>}
+/>
 
 <imageEmbed
   alt="Image"

@@ -18,7 +18,11 @@ createdBy: William Liebenberg
 createdByEmail: awliebenberg@outlook.com
 ---
 
+<introEmbed
+  body={<>
 In a blazing-fast CI/CD pipeline, we've got everything automated for maximum efficiency! From building, testing and finally deploying our code. But sometimes we need to pause prior to large operations such as deployments and make sure that they are manually approved by someone with insight and oversight.
+  </>}
+/>
 GitHub enables us to add manual approval steps in our workflow via the [environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment) feature.
 
 Environments also allow us to add per-environment secrets, timers, and protection rules. To use environments we have to consider if our repository is:

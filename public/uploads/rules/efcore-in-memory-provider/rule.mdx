@@ -19,7 +19,11 @@ createdBy: Jack Pettit [SSW]
 createdByEmail: 57518417+JackDevAU@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 When testing code that depends on Entity Framework Core, the challenge often lies in how to effectively mock out the database access. This is crucial for focusing tests on the functionality surrounding the DB access rather than the database interactions themselves. The EF Core In-Memory provider is a tool designed to address this need.
+  </>}
+/>
 ### Common Pitfalls in Mocking
 
 #### Trying to Mock `DbContext`

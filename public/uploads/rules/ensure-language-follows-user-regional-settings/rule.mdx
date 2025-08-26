@@ -20,7 +20,11 @@ createdBy: Jeoffrey Fischer [SSW]
 createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Developers too often change the 'Language' settings on reports in order to make it look ok for how they want to see it. Without realizing that they are now not supporting multiple cultures.
+  </>}
+/>
 To do this, you need to set the 'Language' to **"=User!Language"**. Then the report will recognize user client's culture settings, e.g. IE's languages settings.
 
 Now you can specify this on either the culture sensitive controls or the whole report. Generally, is better specify this property on the whole report.

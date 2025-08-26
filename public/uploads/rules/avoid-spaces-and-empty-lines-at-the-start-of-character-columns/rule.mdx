@@ -21,9 +21,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces or empty lines which is usually data entry error.
 
 The best way to avoid this issue is to handle whitespace in the middle-tier before it reaches the database.
+  </>}
+/>
 Here’s an example of removing whitespace and carriage returns in the middle-tier using Regex:
 
 ```csharp

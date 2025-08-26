@@ -33,9 +33,13 @@ createdBy: Babanazar Kamyljanov [SSW]
 createdByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Dependency graphs are important because they give you an indication of the coupling between the different components within your application.
 
 A well architected application (ie. one that correctly follows the Onion Architecture) will be easy to maintain because it is loosely coupled.
+  </>}
+/>
 There are many tools to quickly generate dependency graphs for .NET projects, each with its own pros and cons. However, the best way to create nice, well-structured diagrams is by crafting them yourself using online tools like [draw.io](https://app.diagrams.net/). Although this takes more time and requires a deeper understanding of the project, it’s worth the effort when you want to present it to a client.
 
 If you're looking for quick solutions, check out the options below, where we explore different tools for generating dependency graphs.
@@ -107,7 +111,7 @@ Another option to generate the dependency graph is with the Rider's built-in too
 
 ## Option 3 - Visual Studio Enterprise
 
-Next option to generate the dependency graph is with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022) to learn more about architecture tools in Visual Studio.
+Next option to generate the dependency graph is with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022&WT.mc_id=DT-MVP-33518) to learn more about architecture tools in Visual Studio.
 
 <imageEmbed
   alt="Image"
@@ -133,7 +137,7 @@ Next option to generate the dependency graph is with Visual Studio, first you ne
 * **Dependency arrows** - Arrows are messy and go into the directory rather than into specific project that makes unclear to see which project it is referencing to
 * **Interface** - Interacting with the graph is slow and not fluid
 * **Cluttered view** - Graph becomes unreadable and confusing for complex projects
-* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
+* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport&WT.mc_id=DT-MVP-33518) for version support
 
 <imageEmbed
   alt="Image"

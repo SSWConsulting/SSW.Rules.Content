@@ -21,11 +21,15 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 In PowerShell, you can easily create variables without explicitly typing them and that leads to some hardcoded "magic" strings.
 
 Instead of using XML, JSON, YAML, or TXT files, PowerShell "accidentally" created a very nice configuration file format, PSD1.
 
 PSD1 us the filename extension for PowerShell module descriptions, and this file contains metadata for that module. You can, however, load any kind of data from a PSD1 file using a simple cmdlet.
+  </>}
+/>
 ```ps1
 Import-PowerShellDataFile.
 ```

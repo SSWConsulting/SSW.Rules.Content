@@ -15,9 +15,11 @@ createdBy: Matt Wicks
 createdByEmail: wicksipedia@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Despite tooling coming a long way to prevent it, accidentally committing a config file with some secrets in it is far too easy to do.
 
-<youtubeEmbed url="https://www.youtube.com/embed/CY1_trMEJuM" description="Figure: Up to 2022, GitHub had detected more than 700,000 secrets across thousands of private repositories using secret scanning for GitHub Advanced Security." />
+<introYoutube url="https://www.youtube.com/embed/CY1_trMEJuM" description="Figure: Up to 2022, GitHub had detected more than 700,000 secrets across thousands of private repositories using secret scanning for GitHub Advanced Security." />
 
 Once this occurs, amongst other things, you need to:
 
@@ -29,6 +31,8 @@ Once this occurs, amongst other things, you need to:
 This is a lot of stressful work!
 
 On GitHub, what actions do we need to take to make it better?
+  </>}
+/>
 GitHub Secret Scanning is a freemium feature for public repositories (not configurable). Otherwise, you need to be a GitHub Enterprise Cloud customer with [Advanced Security](https://github.com/features/security) to utilize it.
 
 ### How does GitHub know it has found a secret?

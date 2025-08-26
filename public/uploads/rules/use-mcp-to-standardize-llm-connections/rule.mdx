@@ -26,10 +26,14 @@ createdBy: Louis Roa [SSW]
 createdByEmail: 149936952+louisroa8189@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice. Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
 ![](/uploads/rules/use-mcp-to-standardize-llm-connections/mcp.png)
 **Figure: MCP Architecture (Image Credit: [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/))**
+  </>}
+/>
 ## What is MCP?
 
 MCP (Model Context Protocol) is a standardized way for LLMs and agents to interact with external APIs and tools—think of it as **USB-C for AI**. Instead of manually wiring integrations into each agent or app, MCP centralizes them on a server. Agents speak a single protocol, and the server handles:

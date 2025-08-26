@@ -19,9 +19,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Since .NET 5+, the choice between using String.Empty and "" is a stylistic decision for the team. In .NET Framework, "" is less efficient than String.Empty from a memory perspective which can result in better performance due to faster garbage collection.
 
 From the team that worked on performance in .NET: [String.Empty vs "" in modern .NET language](https://youtube.com/clip/UgkxIv8HnqTApTo6VOuEvBkAx3VnjY6RioCh)
+  </>}
+/>
 ```csharp
 public string myString
 

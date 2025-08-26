@@ -12,6 +12,7 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - links-or-attachments-in-emails
   - how-to-share-a-file-folder-in-sharepoint
   - dones-do-you-include-useful-details-in-your-done-email
   - dones-do-your-dones-include-a-url
@@ -24,14 +25,30 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 Using screen captures is a good practice - pictures do tell a thousand words - but don't include unnecessarily huge images or attachments in your email.
-
+  </>}
+/>
 When your attachment is too big, you should think twice.
-Avoid large attachments. If you are sending an email with attachments or images that are **greater than 1MB** you need to consider:
 
-* Files - Could a URL be better than this attachment?
-  * Could I send this as a UNC to an internal share?
-* Images - Could I put this picture on Google Photos or another image server?
+## Avoid large attachments
+
+If you're sending an email with attachments or images over 1 MB, consider uploading the file to a server (e.g., Google Photos or Microsoft Teams) and [include the link in the email](/links-or-attachments-in-emails) instead.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** Photos taken with modern smartphones 📱 are often quite large. A single high-resolution image can easily be 2–5 MB, and some mobile devices produce photos over 10 MB - far above the ideal size for email attachments.
+
+Some email clients may prompt you to resize images before sending, but if they don’t, consider resizing them yourself or sharing via a link instead.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
 
 <emailEmbed
   from=""
@@ -89,19 +106,15 @@ Dave
   }}
 />
 
-### Tips
+## Tips
 
 1. Reduce the size by sending just the relevant part of the image you need
-
 2. Avoid **.bmp**. Use **.jpg**, **.gif** or **.png** instead
-
-3. If you are sending photos (every year cameras are making our photos bigger and bigger) you may need to [resize them down](https://imagecompressor.com/).
-
+3. If you are sending photos (every year cameras are making our photos bigger and bigger) you may need to [resize them down](https://imagecompressor.com/)
 4. If you have multiple files, consider .zip them
-
 5. SharePoint was built with sharing files in mind and is a great way to collaborate. If you are using SharePoint to send a file you simply need to open the context menu, click "send to" and "email a link" as shown:
 
-
+  
 <imageEmbed
   alt="Image"
   size="large"
@@ -114,7 +127,7 @@ Dave
   src="/uploads/rules/avoid-large-attachments-in-emails/sharepoint-file-share.png"
 />
 
-### When can you break these size rules?
+## When can you break these size rules?
 
 Basically, you should be practical:
 

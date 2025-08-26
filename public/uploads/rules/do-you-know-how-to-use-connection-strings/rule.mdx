@@ -46,7 +46,7 @@ In .NET 5 we can use **Azure Key Vault** to securely store our connection string
 
 Azure Key Vault is great for keeping your secrets secret because you can control access to the vault via Access Policies. The access policies allows you to add Users and Applications with customized permissions. Make sure you enable the System assigned identity for your App Service, this is required for adding it to Key Vault via Access Policies.
 
-You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via `IConfiguration`.
+You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0&WT.mc_id=ES-MVP-33518). This allows you to access Key Vault secrets via `IConfiguration`.
 
 ``` cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>

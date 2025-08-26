@@ -26,12 +26,16 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 This type of testing runs the whole application and uses tools to interact with the application in the same way that a user would – such as clicking buttons or entering text into an input field.
 
 This type of testing is powerful as it tests the entire application, including the UI, and is especially useful for mission-critical pathways such as a shopping cart checkout process.
 
 The downside of this type of test is that it can be complex to write and that the tests can sometimes be brittle – small changes to the UI can break your tests.
 Because these tests run on top of your UI, the type of UI drives the choice of the testing framework.
+  </>}
+/>
 ### Web Applications: Playwright
 
 Playwright works similar to Selenium, however it has a great feature where you can record tests from actions in a browser to a file.

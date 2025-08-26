@@ -21,9 +21,13 @@ createdBy: WilliamYin
 createdByEmail: WilliamYin@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Using default zone URL in search content source, it will be automatically convert to the relative URL on the search result (e.g. if a user access search "keyword" via **http**://projects.ssw.com.au/search, the result will be like **http**://projects.ssw.com.au/search/keyword).
 
 While another user access search center via **https**://projects.ssw.com.au/search, the result will be **https**://projects.ssw.com.au/search/keyword.
+  </>}
+/>
 <figureEmbed figureEmbed={{
   preset: "badExample",
   figure: '![Bad example: use https](https-data-source.jpg)',

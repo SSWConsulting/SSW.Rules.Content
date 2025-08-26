@@ -19,9 +19,13 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 Before starting your upgrade, you should back up all your TFS databases.
 
 It's important that you backup TFS by using one of the supported methods, to ensure that you can reliably restore your data if needed.
+  </>}
+/>
 <asideEmbed
   variant="greybox"
   body={<>
@@ -82,7 +86,7 @@ In such case you will have to manually backup databases. Make sure all relevant 
   body={<>
     **Important:** Manual backup requires additional user steps which involve creation of additional tables and stored procedures. These tables has to be created to keep TFS databases in sync.
 
-Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops).
+Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops&WT.mc_id=DOP-MVP-33518).
   </>}
   figureEmbed={{
     preset: "default",

@@ -15,7 +15,11 @@ createdBy: Bryden Oliver
 createdByEmail: 77371877+brydeno@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Due to LINQ expressions being lazy executed, it is a important to avoid re-evaluating the expression. For LINQ extension methods, this is critically important.
+  </>}
+/>
 There are 2 problems with multiple evaluations:
 
 * It is needlessly expensive

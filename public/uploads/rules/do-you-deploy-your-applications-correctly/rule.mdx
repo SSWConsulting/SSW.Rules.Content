@@ -21,7 +21,11 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Many applications end up working perfectly on the developer's machine. However once the application is deployed into a setup package and ready for the public, the application could suddenly give the user the most horrible experience of his life. There are plenty of issues that developers don't take into consideration. Amongst the many issues, 3 can stand above the rest if the application isn't tested thoroughly:
+  </>}
+/>
 1. The SQL Server Database or the Server machine cannot be accessed by the user, and so developer settings are completely useless to the user.
 2. The user doesn't install the application in the default location. (i.e. instead of C:\Program Files\ApplicationName, the user could install it on D:\Temp\ApplicationName)
 3. The developer has assumed that certain application dependencies are installed on the user's machine. (i.e. MDAC; IIS; a particular version of MS Access; or SQL Server runtime components like sqldmo.dll)

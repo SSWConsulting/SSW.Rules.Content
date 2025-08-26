@@ -19,7 +19,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 You should use SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes (i.e. when you want the rowcounts to display as the messages from your T-SQL).
+  </>}
+/>
 According to SQL Server Books Online:
 "For stored procedures that contain several statements that do not return much actual data, this can provide a significant performance boost because network traffic is greatly reduced."
 

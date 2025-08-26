@@ -18,7 +18,11 @@ createdBy: Harry Ross [SSW]
 createdByEmail: harryross@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Core Web Vitals are super important metrics to measure how good your page's performance is. It's also incredibly important to how Google ranks page results.
+  </>}
+/>
 The most important Core Web Vitals at time of writing is [Largest Contentful Paint (LCP)](https://web.dev/lcp/), [Interaction To Next Paint (INP)](https://web.dev/inp) and [Cumulative Layout Shift (CLS)](https://web.dev/cls/).
 
 ## Types of Web Vitals
@@ -87,7 +91,7 @@ There are a variety of services that you can use for collecting data Core Web Vi
 
 * Sentry - see [Sentry's marketing page on monitoring Web Vitals](https://sentry.io/for/web-vitals/)
 * Google Analytics - see [Google's how-to page on monitoring Web Vitals with GA4 and BigQuery](https://web.dev/articles/vitals-ga4)
-* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics)
+* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics?WT.mc_id=AZ-MVP-33518)
 
 To track this data on App Insights you can use `trackMetric`:
 

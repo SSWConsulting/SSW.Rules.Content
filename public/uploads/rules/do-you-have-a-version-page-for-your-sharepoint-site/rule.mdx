@@ -20,9 +20,13 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Each time you deploy a new package to your SharePoint site, you should add a new entry in the version list.
 
 This will enable you to quickly find out which version of the package your SharePoint site is using, and let users know what version they are running.
+  </>}
+/>
 ![](/uploads/rules/do-you-have-a-version-page-for-your-sharepoint-site/SP_version_small.jpg)
 
 - A custom list for Version should be created at the root level of a SharePoint site collection, and each time a package is deployed - a new record should be added to this version list.

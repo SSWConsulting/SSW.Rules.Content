@@ -20,9 +20,13 @@ createdBy: johnliu
 createdByEmail: johnliu@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 SharePoint utilizes CAML to do a lot of things - one of these is using CAML to define a query language to select elements from lists within SharePoint.
 
 The development experience with CAML is not good.  CAML is unforgiving when it comes to errors, but it doesn't tell you what's wrong.  Thus earning it a bad name with SharePoint developers.  People don't like CAML.
+  </>}
+/>
 The SharePoint object model is very comprehensive and lets you select items from lists, select lists from sites, in site-collections within web-applications.
 
 Naturally, using the object model is great for traversing all elements in a list.  Once you have a handle to the item, you can also easily modify that item.

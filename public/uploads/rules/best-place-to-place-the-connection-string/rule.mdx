@@ -17,7 +17,11 @@ createdBy: Igor Goldobin
 createdByEmail: igor.goldobin@gmail.com
 ---
 
+<introEmbed
+  body={<>
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:
+  </>}
+/>
 ```cs
 string cnnString = "data source=(local); integrated security=SSPI; persist security info=False; pooling=False; initial catalog=Northwind2";
 ```

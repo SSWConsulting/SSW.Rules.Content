@@ -16,11 +16,15 @@ lastUpdatedByEmail: bradystroud@ssw.com.au
 createdBy: Matt Wicks
 createdByEmail: wicksipedia@users.noreply.github.com
 ---
+<introEmbed
+  body={<>
 The need to add new features and functionality to legacy systems is always present - over time it can become continually harder to do this. Additionally, these systems are often built using old tools, SDKs, hosted on outdated platforms, or potentially have increasingly complex (or obsolete) architectures - these all contribute to make is harder to maintain the systems in the first place.
 
 At some point, it becomes necessary to take the existing legacy system and update it to a more modern architecture using newer tools and technologies.
 
 Without focusing on the specific technology - there are 3 main approaches to modernizing applications:
+  </>}
+/>
 1. Big Bang (aka Rewrite)
 2. Evolutionary
 3. Strangler fig pattern
@@ -104,7 +108,7 @@ The idea is to create a "new" application (with a modern architecture) that acts
 <asideEmbed
   variant="info"
   body={<>
-    Looking to incrementally update an ASP.NET application? Read about using [YARP](https://microsoft.github.io/reverse-proxy/) and [Incremental ASP.NET to ASP.NET Core Migration](https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/)
+    Looking to incrementally update an ASP.NET application? Read about using [YARP](https://microsoft.github.io/reverse-proxy/) and [Incremental ASP.NET to ASP.NET Core Migration](https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/?WT.mc_id=DT-MVP-33518)
   </>}
   figureEmbed={{
     preset: "default",
@@ -115,7 +119,7 @@ The idea is to create a "new" application (with a modern architecture) that acts
 
 It's a language & platform agnostic approach that can be applied to any application.
 
-Microsoft have a great article on the strangler fig pattern - [Strangler Fig Application](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler-fig).
+Microsoft have a great article on the strangler fig pattern - [Strangler Fig Application](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler-fig?WT.mc_id=DT-MVP-33518).
 
 It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-aspnet-web-services/fig-pattern.html).
 

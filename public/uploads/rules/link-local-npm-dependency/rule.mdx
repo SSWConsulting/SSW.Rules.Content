@@ -16,7 +16,11 @@ createdBy: Thom Wang [SSW]
 createdByEmail: thomwang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 When working on multiple related JavaScript projects, you may need to test changes in a local dependency without publishing it to npm. `npm link` provides a way to symlink a local package, allowing real-time updates without reinstalling the package manually. However, improper usage can lead to issues like dependency mismatches or unresolved modules.
+  </>}
+/>
 ## How `npm link` works
 
 `npm link` creates a symbolic link between a globally registered local package and a project that depends on it.

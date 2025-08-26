@@ -29,7 +29,11 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Appropriate use of design patterns can ensure your code is maintainable and easy to read.
+  </>}
+/>
 ### Code against Interfaces
 
 Always code against an interface rather than a concrete implementation. Use dependency injection to control which implementation the interface uses. By doing this you create a contract for that service which the rest of the codebase has to adhere to.

@@ -19,6 +19,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Depending on which components you decide to install on your SQL Server, you may need to configure the following services:
 
 - SQL Server
@@ -31,6 +33,8 @@ Depending on which components you decide to install on your SQL Server, you may 
 In the service properties window for these services, ensure that the Service Startup Account is run as "This Account" and not as "Built-in Account". Otherwise, you won't get all the functionality by default such as the ability to use Replication, Linked Servers or connect to other machines.
 
 For security, you should not have this domain account in the Administrators group.
+  </>}
+/>
 <imageEmbed
   alt="Image"
   size="large"

@@ -21,7 +21,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 The reason is that you avoid ownership chain problems. Where Mary owns an object, Fred can read the object and then he creates a proc and he gives permission to Tom to execute. But Tom cannot because there is a product chain of ownership.
+  </>}
+/>
 ```sql
 CREATE PROCEDURE [Adam Cogan].[Sales by Year]
 

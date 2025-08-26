@@ -19,7 +19,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 There are multiple versions of NUnit and .NET Framework, the following will explain how to use them correctly.
+  </>}
+/>
 - if your application was built with .NET Framework 1.1, NUnit 2.2.0 which was built with .NET Framework 1.1 is the best choice if you compact it into the installation package, You then don't need any additional config - it will auto use .NET Framework 1.1 to reflect your assembly;
 - If there is only .NET Framework 2.0 on the client-side, how to make it works?
   Just add the  **yellow**  into nunit-gui.exe.config (it is under the same folder as nunit-gui.exe), which will tell NUnit to reflect your assembly with .NET Framework 2.0;

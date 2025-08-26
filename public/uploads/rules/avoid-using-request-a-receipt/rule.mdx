@@ -2,7 +2,7 @@
 seoDescription: Avoid requesting receipts unnecessarily to prevent annoying recipients and ensure effective communication.
 type: rule
 archivedreason:
-title: Do you avoid using "Request a Receipt"?
+title: Do you avoid using "Request a Receipt" for emails?
 guid: fc96cc1d-1944-4010-9ed0-42b1b96c29e1
 uri: avoid-using-request-a-receipt
 created: 2009-04-17T04:23:17.000Z
@@ -22,9 +22,13 @@ createdBy: Unknown
 createdByEmail: Unknown@ssw.com.au
 ---
 
-Do you always demand a receipt for every email you send? This is the equivalent of crying wolf. People get prompted about receipts so often, that eventually, they change the settings to automatically ignore receipt requests. Then when someone really, really needs acknowledgment that an email has been received, you never get one, because they've turned off the mechanism.
+<introEmbed
+  body={<>
+Always demanding a receipt for emails you send is the equivalent of crying wolf. People get prompted about receipts so often, that eventually, they change the settings to automatically ignore receipt requests. Then when someone really, really needs acknowledgment that an email has been received, you never get one, because they've turned off the mechanism.
 
 Turning this option on all the time effectively throws the option away, not just for yourself, but everyone else as well.
+  </>}
+/>
 
 <imageEmbed
   alt="Image"
@@ -32,10 +36,20 @@ Turning this option on all the time effectively throws the option away, not just
   showBorder={false}
   figureEmbed={{
     preset: "default",
-    figure: 'Selectively request read receipts so as not to annoy your recipient.',
+    figure: 'Selectively request read receipts so as not to annoy your recipient',
     shouldDisplay: true
   }}
   src="/uploads/rules/avoid-using-request-a-receipt/OutlookReceiptRequest.gif"
 />
 
-**Warning:** If you are using this more than once a year then alarms should be ringing!
+<asideEmbed
+  variant="info"
+  body={<>
+    **Warning:** If you are using this more than once a year then alarms should be ringing!
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>

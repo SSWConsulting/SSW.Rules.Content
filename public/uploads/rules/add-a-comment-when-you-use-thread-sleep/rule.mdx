@@ -19,7 +19,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 First don’t do it and find the right fix. But if you have to, it should always be commented – as though your life depended on it.
+  </>}
+/>
 ```cs
 public DialogResult RefreshSchema() {
     SSW.SQLAuditor.WindowsUI.QueryAnalysisForm.RunScript(Startup.PageQueryAnalyzer.txtScript.Text)

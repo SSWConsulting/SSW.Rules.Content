@@ -14,9 +14,13 @@ lastUpdatedByEmail: 62824904+YazhiChen@users.noreply.github.com
 createdBy: Yazhi Chen [SSW]
 createdByEmail: 62824904+YazhiChen@users.noreply.github.com
 ---
+<introEmbed
+  body={<>
 Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
+  </>}
+/>
 ### Using #if Pragma Statements
 
 You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.

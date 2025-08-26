@@ -19,8 +19,12 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 No "UI" in event names, the event raiser should be unaware of the UI in MVVM and user controls
 The handler of the event should then do something on the UI.
+  </>}
+/>
 ```csharp
 private void RaiseUIUpdateBidButtonsRed() {
   if (UIUpdateBidButtonsRed != null) {

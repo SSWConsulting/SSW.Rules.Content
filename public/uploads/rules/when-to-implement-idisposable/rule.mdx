@@ -17,7 +17,11 @@ createdBy: CalumSimpson
 createdByEmail: CalumSimpson@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 If you access unmanaged resources (e.g. files, database connections etc.) in a class, you should implement `IDisposable` and overwrite the `Dispose` method to allow you to control when the memory is freed.  If not, this responsibility is left to the garbage collector to free the memory when the object containing the unmanaged resources is finalized. This means the memory will be unnecessarily consumed by resources which are no longer required, which can lead to inefficient performance and potentially running out of memory altogether.
+  </>}
+/>
 ```cs
 public class MyClass
 {
@@ -80,4 +84,4 @@ private void useClass()
 } } />
 
 
-[See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx) for more details.
+[See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx?WT.mc_id=DP-MVP-33518) for more details.

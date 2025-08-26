@@ -26,6 +26,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 ### Test Projects
 
 Tests typically live in separate projects – and you usually create a project from a template for your chosen test framework.
@@ -37,6 +39,8 @@ A unit test project usually targets a single code project.
 Integration and unit tests should be kept separate and should be named to clearly distinguish the two.
 This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
 Integration tests require dependencies and often won't run as part of your build process. These should be automated later in the DevOps pipeline.
+  </>}
+/>
 ### Test Project Location
 
 Test projects can be located either:
@@ -140,6 +144,6 @@ Remember, pick what naming method works for your team & organisation's way of wo
 
 ## Resources
 
-For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+For more reading, the read the [Microsoft guidance on Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices?WT.mc_id=DOP-MVP-33518)
 
 A list of other suggested conventions can be found here: [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming).

@@ -8,7 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-08-18T10:49:09.000Z
 guid: 8744a176-c690-43a2-abd8-6a48ab0725b5
-archivedreason: No longer valid. Outdated. https://learn.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-8.0#stop-event-propagation
+archivedreason: No longer valid. Outdated. https://learn.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-8.0#stop-event-propagation&WT.mc_id=DT-MVP-33518
 lastUpdated: 2024-09-04T05:25:41.000Z
 lastUpdatedBy: Sam Wagner [SSW]
 lastUpdatedByEmail: 66365977+SamBWagner@users.noreply.github.com
@@ -16,10 +16,14 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 Workaround - When you have two fields and you want to handle tabbing out of the last one to do some stuff and save.
 
 * If you handle onkeydown the value isn't set yet
 * If you handle onkeyup it triggers on the first field instead of the last one
+  </>}
+/>
 To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down.
 
 The reason is due to the problem outlined in [Keyup event behavior on tab](https://stackoverflow.com/questions/18020098/keyup-event-behavior-on-tab).

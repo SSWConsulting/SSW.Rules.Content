@@ -20,6 +20,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 We strongly believe that this process should all be automated and painless. Even the receptionist should be able to make a grammatical change on the website and be able to deploy it.
 
 We use TFS gated check-ins to do the deployment for us. When a developer checks there changes into TFS they are prompted with a gated check-in screen.
@@ -34,6 +36,8 @@ We use TFS gated check-ins to do the deployment for us. When a developer checks 
     shouldDisplay: true
   }}
   src="/uploads/rules/do-your-developers-deploy-manually/deployment1.jpg"
+/>
+  </>}
 />
 The developer clicks the "Build changes" button and waits for the build to complete. This process needs to take no longer than 2 minutes as it just makes cranky developers if this takes too long.
 The code is put into a TFS shelf, compiled, had all the unit tests run against the code and then deployed to the internal webserver if successful.

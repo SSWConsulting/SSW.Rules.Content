@@ -1,7 +1,7 @@
 ---
 seoDescription: Know when to multiply your estimates, based on the main risk factors
 type: rule
-title: Do you consider Risk Multipliers in Software Estimates?
+title: Do you consider risk multipliers in software estimates?
 uri: risk-multipliers
 authors:
   - title: Andrew Harris
@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook
 related:
   - underpromise-overdeliver
+  - size-pbis-effectively
+  - break-tasks
 created: 2025-07-17T04:12:06.000Z
 guid: b2b5a30c-7023-47a8-ac07-f8059e7f303d
 
@@ -20,26 +22,54 @@ createdBy: Luke Cook [SSW]
 createdByEmail: 100659715+lukecookssw@users.noreply.github.com
 ---
 
-Estimating time and complexity in software is hard. By its nature, almost all software development is attempting to solve problems no one else has done before. Industry veterans broadly agree that up to 60% of time and effort in software development is consumed by resolving unanticipated issues. Developers call these unanticipated issues "unknowns". Businesses call them "risks".
+<introEmbed
+  body={<>
+Estimating time and complexity in software is hard. By its nature, almost all software development is attempting to solve problems no one else has done before. Industry veterans broadly agree that **up to 60% of time and effort in software development is consumed by resolving unanticipated issues**. Developers call these unanticipated issues "unknowns". Businesses call them "risks".
 
 When you're scoping out a piece of work, it's important to help the business understand and manage those risks, and help shine a light on areas where risk can quickly snowball.
+  </>}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Like an iceberg, PBIs might have extra work hidden beneath the surface',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/risk-multipliers/iceberg.jpg"
+/>
 
 ## The initial estimate
 
-When estimating a piece of work, the first thing to do is come up with a baseline estimate *before* applying any risk multipliers. This is the initial estimate.
+When estimating a piece of work, the first thing to do is come up with a baseline estimate **before** applying any risk multipliers. This is the initial estimate.
 
 ### How big/complex is the change?
 
-While this is probably the most obvious area of risk, it is still risk and therefore worth remembering. Perhaps the feature or change you're being asked to do is merely changing the colour of a button (hey, it happens!). Maybe the feature is adding a shopping cart to a website. Don't take things at face value: ask questions, describe the flow. More often than not, you'll start teasing out additional requirements that you didn't know about. A *very common* conversation around something like "add a shopping cart" might play out like this:
+While this is probably the most obvious area of risk, it is still risk and therefore worth remembering. Perhaps the feature or change you're being asked to do is merely changing the colour of a button (hey, it happens!). Maybe the feature is adding a shopping cart to a website. Don't take things at face value: ask questions, describe the flow. More often than not, you'll start teasing out additional requirements that you didn't know about.
 
-* I want a shopping cart on my website
-* Oh, and it needs to process payments
-* We already have a payment gateway! Talk to Alice about it.
-* Oh, that payment gateway is throttled - it won't be able to handle the expected transaction increase...
-* We need a new payment gateway!
-* ...etc.
+A typical conversation around something like "add a shopping cart" might play out like this:
 
-One of the best ways to identify these complexities is to **[run an Event Storming session](/event-storming)**. This approach is highly recommended for all medium to large projects, as it’s proven effective in identifying complexity and clearly demonstrating it to non-technical stakeholders.
+<asideEmbed
+  variant="greybox"
+  body={<>
+    I want a shopping cart on my website.\
+Oh, and it needs to process payments.\
+We already have a payment gateway! Talk to David about it.\
+Oh, that payment gateway is throttled - it won't be able to handle the expected transaction increase....\
+We need a new payment gateway!.\
+...etc.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+One of the best ways to identify these complexities is to [run an "Event Storming" session](/event-storming). This approach is highly recommended for all medium to large projects, as it’s proven effective in identifying complexity and clearly demonstrating it to non-technical stakeholders.
 
 ## The risk multipliers
 
@@ -47,15 +77,19 @@ Once you have your initial estimate, it's time to examine which (if any) risk mu
 
 ### How well do you know the codebase?
 
-If you've been working on a project for a suitable length of time, you should know your way around its architecture and code flows. This will provide significant context when gauging the required effort to build out the feature you're estimating. On the flipside, if you're a contractor, consultant, or simply new to a project, the existing codebase is a massive unknown and holds a great deal of potential risk. The feature you're estimating may seem simple at the surface, but when you discover a mess of spaghetti code and zero documentation, you will find yourself burning huge amounts of time just trying to grok what's currently happening before you can write a single line of code.
+If you've been working on a project for a suitable length of time, you should know your way around its architecture and code flows. This will provide significant context when gauging the required effort to build out the feature you're estimating.
+
+On the flipside, if you're a contractor, consultant, or simply new to a project, the existing codebase is a massive unknown and holds a great deal of potential risk. The feature you're estimating may seem simple at the surface, but when you discover a mess of spaghetti code and zero documentation, you will find yourself burning huge amounts of time just trying to grok what's currently happening before you can write a single line of code.
 
 ### How often have you done this work?
 
-If you're a back-end web developer, and the feature you're estimating is some simple CRUD endpoints, you've probably done this type of work hundreds of times before. You know what's required, and you know can confidently gauge how long it will take. Alternatively, if you're being asked to build something exotic, or even just outside your wheelhouse, confidence can drop quickly. Maybe what's being asked is simply not possible, or requires significant infrastructure or iteration before meeting requirements. Know your strengths, and more importantly, know your blindspots.
+If you're a back-end web developer, and the feature you're estimating is some simple CRUD endpoints, you've probably done this type of work hundreds of times before. You know what's required, and you know can confidently gauge how long it will take.
+
+Alternatively, if you're being asked to build something exotic, or even just outside your wheelhouse, confidence can drop quickly. Maybe what's being asked is simply not possible, or requires significant infrastructure or iteration before meeting requirements. Know your strengths, and more importantly, know your blindspots.
 
 ## Managing risk
 
-Okay, so you've done your best to identify as many risk factors as possible. How do you *manage* that risk?
+Okay, so you've done your best to identify as many risk factors as possible. How do you manage that risk?
 
 ### Option 1: Overestimate everything
 
@@ -89,9 +123,19 @@ Use this approach when:
 * The codebase is known/unknown
 * The complexity is moderate/high
 
+### Summary table
+
+| Scope     | Codebase         | Complexity     | Recommended approach |
+|-----------|------------------|----------------|----------------------------------|
+| Known     | Known            | Low/Moderate   | **Overestimate everything** |
+| Known     | Known/Unknown    | Moderate/High  | **Spike or PoC**            |
+| Unknown   | Known/Unknown    | Moderate/High  | **Narrow the scope**        |
+
+---
+
 ## Guidance for large or complex projects
 
-If you're in the enterprise space, or working on projects that have many moving parts, SSW recommends the following high-level plan:
+If you're in the enterprise space, or working on projects that have many moving parts, follow this high-level plan:
 
 1. Select a single business goal/process
 2. Run one or more [Event Storming workshops](/event-storming-workshop) to map out the business flow
@@ -101,16 +145,17 @@ If you're in the enterprise space, or working on projects that have many moving 
 6. Use the strategies above to identify high risk areas
 
 <asideEmbed
-  variant="greybox"
+  variant="info"
   body={<>
-    
-**Bonus:** Try estimating your work on complexity, rather than time. For example:
+    **Bonus tip:** Try estimating your work on complexity, rather than time. For example:
 
-* Project estimate is ~200 effort points
-* Predicted Sprint velocity of 40 (~5 Sprints)
-* Actual velocity at the end of Sprint 1 is ~30
-* Adjust Sprint 2 estimated velocity to 30
+* Your estimated effort for a project is ~200 effort points
+* **Predicted** Sprint velocity for Sprint 1 is ~40 points
+* **Actual** Sprint velocity at the end of Sprint 1 is ~30
+* Adjust Sprint 2 velocity to 30
 * Repeat
+
+Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it'll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.
   </>}
   figureEmbed={{
     preset: "default",
@@ -118,13 +163,6 @@ If you're in the enterprise space, or working on projects that have many moving 
     shouldDisplay: false
   }}
 />
-
-<figureEmbed figureEmbed={{
-  preset: "goodExample",
-  figure: 'Figure: Good example - Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it\'ll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.',
-  shouldDisplay: true
-} } />
-
 
 > "I love deadlines. I like the whooshing sound they make as they fly by."
 >

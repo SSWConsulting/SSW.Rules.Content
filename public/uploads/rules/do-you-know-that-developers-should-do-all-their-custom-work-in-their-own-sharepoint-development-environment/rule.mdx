@@ -20,6 +20,8 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 This is to prevent their work affecting other developers. During development, you can expect many of these things to happen:
 
 - IIS resets may need to be done frequently, which stops the SharePoint website working.
@@ -32,6 +34,8 @@ Thus, all SharePoint customization and development must be done on a Virtual Mac
 1. It's very important to correctly setup a SharePoint environment for development. Correctly configured, this will save you a lot of trouble later on.
 2. From time to time, you can seriously screw/damage a SharePoint installation during development and it is best not to install SharePoint on your day-to-day machine.
 3. Additionally, when you start a new SharePoint project you don't want to carry all the baggage from previous customizations that could potentially affect your new project.
+  </>}
+/>
 There are many other benefits of using a virtual machine for development
 
 1. Virtual machines can be fired up and shut down easily

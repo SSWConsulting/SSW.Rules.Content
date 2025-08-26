@@ -19,11 +19,15 @@ createdBy: Toby Churches [SSW]
 createdByEmail: 61444937+TobyChurches@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Most fields require validation. There are three types of validation:
 
 - Required Field - the field should be filled in.
 - Formatting - the field must be in a correct format, e.g. currency or date.
 - Logical - the field needs to pass some validation tests in the business layer.
+  </>}
+/>
 To show an error, display an error provider icon next to the field on the right. An example of this is shown in the figure below.
 
 - Validation must not be done on TextChanged, as this may chew the processor if it is a logical validation. It can also give unpleasant results, e.g. when entering -6.00, as soon as the '-' is entered the validation control would turn on.

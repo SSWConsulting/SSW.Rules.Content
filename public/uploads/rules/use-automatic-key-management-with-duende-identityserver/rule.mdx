@@ -24,7 +24,11 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
+  </>}
+/>
 ```cs
 services.AddIdentityServer()
     .AddInMemoryClients(new List<Client>())

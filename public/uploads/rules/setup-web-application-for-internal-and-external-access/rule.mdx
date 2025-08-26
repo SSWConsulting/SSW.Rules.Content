@@ -19,11 +19,15 @@ createdBy: WilliamYin
 createdByEmail: WilliamYin@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 - default zone should be over http, this is so search can access it over non-secure connection
 - default zone should not be accessible outside of internal network
 - extend the web application to an internet zone, this should be https to provide secure connection
 
 - this section should be extended with strategy to work with reverse proxy.
+  </>}
+/>
 Reverse proxy handle https connection to client, and connects to SharePoint via http to reduce https overhead on SharePoint
 
 SharePoint also needs to support https for internal traffic, if I click on a link to HTTPS it should work internally

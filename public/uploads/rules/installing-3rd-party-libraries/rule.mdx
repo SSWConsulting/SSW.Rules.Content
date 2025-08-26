@@ -19,9 +19,13 @@ lastUpdatedByEmail: bradystroud@ssw.com.au
 createdBy: Chris Clement [SSW]
 createdByEmail: 35278147+christoment@users.noreply.github.com
 ---
+<introEmbed
+  body={<>
 Efficient software developers don't reinvent the wheel and know the right libraries to use. Using an existing and well-tested library will speed up development time.
 
 However, there are scenarios where the libraries integrated in a project bring overhead in the future. For example, if a project is using a NuGet package that is no longer being maintained and does not support the latest .NET version. This incompatibility would force the development team to refactor the code to use another library if they wish to use the latest version of .NET.
+  </>}
+/>
 <youtubeEmbed url="https://www.youtube.com/embed/1LPK3jgga_c" description="" />
 
 Looking for the right library can help to minimize the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library:
@@ -187,7 +191,7 @@ Unfortunately, there's no easy way to know if a library is tree-shakable other t
 
 Unfortunately, there are no tools available yet to check for bundle size of NuGet packages.
 
-To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0).
+To reduce the final build size, .NET provide a built in feature  [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0&WT.mc_id=DT-MVP-33518), but these needs to be done carefully as apps that use reflection might not work as expected. [Read more about Trimmer](https://learn.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/configure-trimmer?view=aspnetcore-6.0&WT.mc_id=DT-MVP-33518).
 
 ### 7. Have you documented the decision?
 

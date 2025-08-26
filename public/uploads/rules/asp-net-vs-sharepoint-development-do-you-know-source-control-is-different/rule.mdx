@@ -18,11 +18,15 @@ createdBy: Unknown
 createdByEmail: Unknown@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 **In ASP.NET** - Typically, the team will store the code on a source control system such as TFS (Team Foundation Server), check it out to their own local system, develop and test locally then check it back into source control for sharing.
 
 **In SharePoint** - SharePoint comes with its own document control and version history out of the box. This is great for collaborating between developers and designers, but isn’t available for everything.
 
 **Differences** - Unlike TFS, SharePoint does not support multiple check-out so each file can only be checked out to one person at a time.  The modification must be checked back into SharePoint.
+  </>}
+/>
 We think the following are best tracked on a development SharePoint server:
 
 * Master page

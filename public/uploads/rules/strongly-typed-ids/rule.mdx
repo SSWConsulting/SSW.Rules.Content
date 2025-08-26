@@ -21,9 +21,13 @@ createdBy: Bahjat Alaadel [SSW]
 createdByEmail: bahjatalaadel@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Developers often fall into the trap of using primitive types (`int`, `string`, `Guid`) for entity identifiers when using Entity Framework (EF) because it is straight forward to simply add a `string` or `int` or `Guid` as the `ID` field for an entity. The misuse of the primitive types lead to **Primitive Obsession**.
 
 Primitive Obsession refers to a code smell or anti-pattern where primitive data types (such as integers, strings, booleans, etc.) are excessively used to represent domain concepts, instead of creating dedicated classes to encapsulate those concepts.
+  </>}
+/>
 Consider this example of Primitive Obsession:
 
 ```cs
@@ -139,7 +143,7 @@ However, `class` and `struct` are more verbose and require that we implement the
 
 Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
 
-![Benchmark results of various StronglyTyped ID constructs](/uploads/rules/strongly-typed-ids/image.png)
+![Benchmark results of various StronglyTyped ID constructs](/uploads/rules/strongly-typed-ids/stronglytypedid.png)
 
 Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
 

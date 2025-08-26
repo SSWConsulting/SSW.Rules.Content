@@ -22,7 +22,11 @@ createdBy: Aman Kumar [SSW]
 createdByEmail: 71385247+amankumarrr@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Whether you’re rebranding, migrating your website to a new technology stack, or simply retiring old content, understanding when and how to implement redirects is crucial to preserve your SEO and avoid potential 404 errors.
+  </>}
+/>
 ## Choosing the right redirect method
 
 Redirects play a key role in guiding users and search engines to the correct content, especially when URLs change or pages are moved. However, not all redirect methods are created equal—each serves a different purpose and can have varying impacts on SEO, user experience, and site performance. Understanding the differences between methods is essential to making informed decisions that align with your website’s goals.
@@ -46,6 +50,7 @@ A client side redirect involves responding to the client request with a payload 
 ``` html
 <meta http-equiv="refresh" content="0; url=https://www.northwind.com">
 ```
+
 <figureEmbed figureEmbed={{
   preset: "badExample",
   figure: 'Figure: Bad example - A client-side redirect achieved by returning a meta refresh',
@@ -55,7 +60,7 @@ A client side redirect involves responding to the client request with a payload 
 
 ### 2. Server-side redirects
 
-An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1).
+An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1&WT.mc_id=AZ-MVP-33518).
 
 This approach involves modifying the response to incoming requests at the source rather than simply sending HTML that will redirect the user to the appropriate location by proxy.
 
@@ -94,6 +99,7 @@ const redirects = {
   //you can add more redirects here if you need to
 }
 ```
+
 <figureEmbed figureEmbed={{
   preset: "goodExample",
   figure: 'Figure: Good example - Server-side redirects using middleware in Next JS',

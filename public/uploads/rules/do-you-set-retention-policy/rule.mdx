@@ -18,7 +18,11 @@ createdBy: danijelmalik
 createdByEmail: danijelmalik@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Octopus Deploy will by default keep all packages (NuGet, ZIP, …) as well as files deployed on all Tentacles. Because of that your hard drive will fill up very fast as you keep pushing in more packages and creating more releases, especially if you are using Continuous Integration and pushing out new packages with every commit to a repository.
+  </>}
+/>
 That's why you need to set up a retention policy. Octopus Deploy supports two options:
 
 - Retention policy for packages

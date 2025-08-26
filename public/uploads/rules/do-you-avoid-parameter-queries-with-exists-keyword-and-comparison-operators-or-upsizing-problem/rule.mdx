@@ -21,12 +21,16 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 The MS Upsizing Wizard cannot upsize Microsoft Access queries containing:
 
 - EXISTS &lt;&gt; FALSE/TRUE or
 - EXISTS = FALSE/TRUE
 
 For example, the following query will not be upsized:
+  </>}
+/>
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );
 SELECT Orders.OrderID

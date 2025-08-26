@@ -31,9 +31,13 @@ createdBy: JayLin
 createdByEmail: JayLin@sydney.ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Scripting out a schema change is easy, worrying about data is not. "'Data motion" refers to a change in the meaning of data, which will require scripts which touch data and schema.
 
 Let's look at an example:
+  </>}
+/>
 We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.
 
 
@@ -135,7 +139,7 @@ There are few options available to perform data type change correctly:
 Using EF Code First Migrations is comparable to using one of the below combinations:
 
 * DBUp + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.EF/)
-* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx) (.dacpac files)
+* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx?WT.mc_id=DP-MVP-33518) (.dacpac files)
 * SQL Deploy
 
 ```csharp

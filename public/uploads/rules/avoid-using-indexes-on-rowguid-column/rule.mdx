@@ -19,11 +19,15 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 RowGuids (uniqueidentifier) are large fields (16 bytes) and are basically going to ALWAYS be unique.
 
 SQL Server adds a RowGUID column to all tables if you are using Merge Replication (but doesn't add an index).
 
 RowGuids in general slow things down. Some people may consider using a RowGuid as their primary key. This is a bad idea because the index is going to be quite slow.... you are searching a large field. It goes without saying, NEVER have clustered index on a RowGuid column.
+  </>}
+/>
 Another little annoyance with RowGuids is when you are searching for one. You can't use &gt; or &lt; on a RowGuid column.
 
 **Note:** There are not many cases where a RowGuid should have an index on it.

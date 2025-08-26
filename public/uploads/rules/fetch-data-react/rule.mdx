@@ -18,7 +18,11 @@ createdBy: Harry Ross [SSW]
 createdByEmail: harryross@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 While using a regular `useEffect` to run when a component is loaded to fetch data is super easy, it may result in unnecesary duplicate requests for data or unexpected errors when unmounting components. It is best to use a library that can provide hooks for fetching data, as not only does it solve the above issues, but also comes with useful features such as caching, background updates, and pre-fetching.
+  </>}
+/>
 Below is an example of a standard data fetch in React:
 
 <figureEmbed figureEmbed={{

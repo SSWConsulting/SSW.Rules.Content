@@ -20,6 +20,8 @@ createdBy: Unknown
 createdByEmail: Unknown@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Disposing objects in SharePoint is important, but never do it with objects from `SPContext.Current`. SharePoint will manage disposing these objects itself.
 
 ```csharp
@@ -49,3 +51,5 @@ SPWeb web =  SPContext.Current.Site.RootWeb;
   shouldDisplay: true
 } } />
 
+  </>}
+/>

@@ -16,9 +16,13 @@ createdBy: Aman Kumar [SSW]
 createdByEmail: 71385247+amankumarrr@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 When working with Power Automate flows, there are instances where you need to use or compare the time in your flow, by default, it is set to UTC.
 
 However, there are situations where using your local timezone might be more appropriate, especially for tasks or events that are specific to a particular region. It's important to choose the appropriate timezone based on the context and requirements of your task or system.
+  </>}
+/>
 ❌ **Complex time zone calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
 ❌ **Daylight saving time issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
 ❌ **Confusing user experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
@@ -53,6 +57,6 @@ convertTimeZone(&#123;&#123; array/object &#125;&#125;?[&#123;&#123; 'timedate v
   src="/uploads/rules/power-automate-flows-convert-timezone/convert-timezone-expression.gif"
 />
 
-For further details on converting timezones in Power Automate Flow, refer to the [Microsoft Learn - Converting time zone](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/converting-time-zone-power-automate).
+For further details on converting timezones in Power Automate Flow, refer to the [Microsoft Learn - Converting time zone](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/converting-time-zone-power-automate?WT.mc_id=DX-MVP-33518).
 
-For default timezones, refer to the [Microsoft Learn - Default time zones](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11).
+For default timezones, refer to the [Microsoft Learn - Default time zones](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11&WT.mc_id=DX-MVP-33518).

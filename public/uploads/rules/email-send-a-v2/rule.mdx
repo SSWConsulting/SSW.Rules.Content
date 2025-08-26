@@ -29,10 +29,14 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 Sometimes you will need to send a new version for an email. This often is due to 2 main reasons:
 
 * You **received substantial feedback** about the email you've sent that requires a new version
 * You realized you've **made a mistake** and want to send an updated version of an email
+  </>}
+/>
 Having an entire new version of an email is important as it:
 
 * Ensures that you understood feedback and incorporated it immediately
@@ -66,8 +70,12 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - &#123;&#123; REASON &#125;&#125;) on the first line of the email body
-   * For further versions of an email, replace the v2 with v3, v4, v5, etc
    * The reason should include a summary of what was changed
+   * If additional versions of an email is needed:
+     * Repeat steps 1-3
+     * Add a new v3, v4, v5 above the previous version with the reason for the new update
+
+**Note:** Having a history of each new version can help people to understand what has been changed with each iteration.
 
 <asideEmbed
   variant="info"

@@ -18,9 +18,13 @@ createdBy: William Liebenberg
 createdByEmail: awliebenberg@outlook.com
 ---
 
+<introEmbed
+  body={<>
 Domain Events and Integration Events are a concept primarily found in Domain-Driven Design (DDD) that can be applied in various other architectural patterns such as [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture).
 
 Domain Events and Integration Events are powerful patterns improve decoupling and facilitate communication between different components of an application. They serve as a means of **notification** for important domain concepts that have occurred.
+  </>}
+/>
 In [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture), Domain Events can be employed to enhance the communication between the `Domain` layer and other outer layers, such as the `Application` layer or `Infrastructure` layer. By raising Domain Events within the `Domain` layer, we achieve loose coupling between different parts of the application while ensuring that the domain layer remains independent of other concerns.
 
 For an example implementation of DDD Domain and Integration events with Clean Architecture, check out this [example project](https://github.com/william-liebenberg/CleanArchitectureWithDomainEvents).
@@ -76,7 +80,7 @@ It is recommended that Integration Events should only be raised from the `Applic
 } } />
 
 
-Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/interact/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution).
+Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/interact/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution?WT.mc_id=AZ-MVP-33518).
 
 ## Naming Events
 

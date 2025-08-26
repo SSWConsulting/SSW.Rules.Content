@@ -15,7 +15,11 @@ createdBy: Igor Goldobin
 createdByEmail: igor.goldobin@gmail.com
 ---
 
+<introEmbed
+  body={<>
 If you ask a new .NET developer (from the Access or VB6 world) what is the best thing about .NET Windows Forms, most of your answers will be "Form Inheritance" that allows them to keep a nice consistent look for all forms. If you ask them a couple of months later, they will probably tell you the worst thing about .NET Windows Forms is "Form Inheritance". This is because they have had too many problems with the bugs in the form designer regarding this feature. Many abandon them altogether and jump on the user control band wagon. Please don't... we have a solution to this...
+  </>}
+/>
 If you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.
 
 Well how do you keep it to a minimum? Well make the first base form without any controls, only code (to make it as flexible as possible and avoid having a multitude of base forms).

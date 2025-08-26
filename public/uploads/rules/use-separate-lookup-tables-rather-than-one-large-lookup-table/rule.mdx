@@ -19,6 +19,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 <figureEmbed figureEmbed={{
   preset: "goodExample",
   figure: 'Advantage: Simplifies ORM Mapping',
@@ -26,6 +28,8 @@ createdByEmail: TiagoAraujo@ssw.com.au
 } } />
 
 We prefer multiple lookup tables so they make more sense in ORM tools. If you have multiple lookups to the one table, you would need to do your mappings manually rather than using a tool. E.g. you could have either: LookupTable or OrderType
+  </>}
+/>
 When you are obtaining the OrderType for an order, you would have either:
 
 * Order.OrderType.OrderTypeID

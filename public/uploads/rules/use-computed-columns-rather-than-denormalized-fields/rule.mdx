@@ -19,6 +19,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 When you have a denormalized field, use a computed column. In SQL Server they can be persisted.
 
 Use the suffix "Computed" to clearly distinguish that this field is a computed field.
@@ -45,6 +47,8 @@ Use the suffix "Computed" to clearly distinguish that this field is a computed f
     shouldDisplay: true
   }}
   src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
+/>
+  </>}
 />
 Computed columns have some limitations - they cannot access fields in other tables, or other computed fields in the current table.
 

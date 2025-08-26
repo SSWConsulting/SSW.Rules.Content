@@ -19,9 +19,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Collation is the combination of language and sort orders, and you typically don't notice it until you start running cross-database queries.
 
 It would make development simpler if the whole world spoke one language but even if you are using English, you will still encounter collation issues if you are not careful. The most common issue is the dreaded 'Cannot resolve collation conflict for equal to operation' error when joining on columns that have different collation orders. Collation is a great feature for international companies, but if you are not consciously using it then you should have ALL the objects in ALL the databases on ALL the servers using a consistent collation.
+  </>}
+/>
 Flexibility with collation orders has increased a lot since SQL 7.0:
 
 * SQL 7: Back in SQL Server 7, you could only define the collation at the server level and, once it was set, you could not change it without rebuilding the master database.

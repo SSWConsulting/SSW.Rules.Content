@@ -19,8 +19,12 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Initial Sitefinity load times are quite bad.
 On a live site you can do things like keeping the site warm though IIS however for developers this process takes quite a bit of time.
+  </>}
+/>
 Sitefinity caches everything, checks licenses, creates in memory pages from the content in the DB, etc.
 There will be a lot of small quick query's against the Sitefinity SQL database and it is important that these remain quick.
 

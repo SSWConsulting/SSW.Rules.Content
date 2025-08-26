@@ -20,9 +20,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Clear text email addresses in web pages are very dangerous because it gives spam sender a chance to pick up your email address, which produces a lot of spam/traffic to your mail server, this will cost you money and time to fix.
 
 Never put clear text email addresses on web pages.
+  </>}
+/>
 ```html
 <!--SSW Code Auditor - Ignore next line(HTML)-->
 <a href="mailto:test@ssw.com.au">Contact Us</a>

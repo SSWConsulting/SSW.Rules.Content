@@ -15,9 +15,13 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 One of EF Core's best features is the fact it tracks any changes you make to entities after you retrieve them. However this comes with a cost, if the data is only being read and the returned entities will never be modified then you can use the AsNoTracking method to inform EF Core not to bother tracking changes.
 
 This results in fairly significant memory and CPU improvements on the client side.
+  </>}
+/>
 ```cs
 return context.Sales.AsNoTracking().Where(x => x.Id == 5).ToList();
 ```

@@ -18,6 +18,8 @@ createdBy: johnliu
 createdByEmail: johnliu@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 This is the meat of the migration process. First we need to detach the current content database from the Web Application:
 
 1. On the SharePoint 2010 server, open **SharePoint Central Administration | Application Management | Manage Content Databases**
@@ -25,6 +27,8 @@ This is the meat of the migration process. First we need to detach the current c
 3. Open **SQL Server Management Studio** and delete the database you just removed from the web application
 
 Now we need to attach the database backup we took of our SharePoint 2007 server:
+  </>}
+/>
 1. In **SQL Server Management Studio** right click on **Databases | Restore Database...**
 
 

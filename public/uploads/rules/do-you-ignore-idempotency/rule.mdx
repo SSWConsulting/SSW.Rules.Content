@@ -18,12 +18,16 @@ createdBy: JayLin
 createdByEmail: JayLin@sydney.ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Many developers worry about Idempotency. They make sure that their scripts can run multiple times without it affecting the database, upon subsequent running of the script.
 
 This usually involves a check at the start to see if the object exists or not.
 E.g. If this table exists, then don't create the table.
 
 Seems popular, seems like a good idea, right? Wrong! And here is why.
+  </>}
+/>
 Database scripts should be run in order (into separate sequential files), as per the rule [Do you script out all changes?](/script-out-all-changes)
 
 Therefore developers should not worry about idempotency, as the script will run in the order it was created. Actually, if they are doing this, then **they want to see the errors**. It means that the database is not in the state that they expect.

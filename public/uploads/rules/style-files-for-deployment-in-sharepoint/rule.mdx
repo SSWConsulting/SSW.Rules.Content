@@ -20,11 +20,15 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 When a designer (or a developer) adds style (CSS) files to SharePoint - care must be taken regarding where the files are placed:
 
 * Some places are are not suitable because they are not good for deployment
 * Other places may have permission issues - designers can't access them
 * Some files are part of the site definition and should not be customized
+  </>}
+/>
 So the rules are:
 
 1. Never modify out of the box SharePoint files in `/Style Library/` - those files are part of the site definition, if you customize them they are hard to deploy

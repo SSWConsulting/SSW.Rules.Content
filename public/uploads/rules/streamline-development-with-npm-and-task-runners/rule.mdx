@@ -21,11 +21,15 @@ createdBy: Jack Pettit [SSW]
 createdByEmail: 57518417+JackDevAU@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 The current trend in web development is to use a large range of front-end libraries to give a great user experience.
 
 However, .NET devs know it is no easy task to manage all of these on top of a large script folder. Previously we tried to improve and streamline the process by using NuGet, but found this package manager was ill-suited.
 
 Another issue was that due to the requirement of checking the library’s files into source control, this has the potential to grind fellow devs to a halt while Visual Studio tries to make sense of the myriad of small JavaScript files. Furthermore, there were many smaller tasks that needed to be completed, such as minification and bundling. In the older versions of Visual Studio, a large portion of these tasks had be performed manually by the developer.
+  </>}
+/>
 Needless to say, however a developer could try to tackle this task, it was always a challenging and time consuming endeavour.
 
 Enter Visual Studio 2015 with NPM (Node Package Manager) in-built. This package manager has been built from the ground up to make downloading your JavaScript libraries simple. These tools existed outside of the .NET space, but in 2015 they’ve been brought into the fold and made easy to use in Visual Studio 2015.

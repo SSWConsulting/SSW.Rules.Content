@@ -1,11 +1,15 @@
 ---
-seoDescription: Add a spot of color to key words for emphasis, making important text stand out and drawing attention to your message
+seoDescription: Add a spot of color for emphasis, making important text stand out and drawing attention to your message.
 type: rule
-title: Do you add a spot of color for emphasis?
+title: Do you add a spot of color for text emphasis?
 uri: add-a-spot-of-color-for-emphasis
 authors:
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 created: 2022-02-14T07:38:49.000Z
 guid: 94dbbef5-a1ac-4369-8955-45152590f1f4
 lastUpdated: 2024-06-11T00:27:00.000Z
@@ -15,8 +19,24 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 When there are key words that you want people to notice, you can add a spot of color on the important word for emphasis.
-You should make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message. Whenever possible use the brand colors when you do this.
+  </>}
+/>
+You should make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    Use colors from your branding/[design system](/design-system) when you do this.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
 
 <imageEmbed
   alt="Image"
@@ -30,38 +50,92 @@ You should make parts of the text different colors just like you’d highlight o
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/sswtv-signage.jpg"
 />
 
+## Use color sparingly
+
+While a spot of color can guide attention and improve scannability, overusing color has the opposite effect. If everything is emphasized, nothing stands out.
+
+Too many bright or contrasting elements:
+
+* Create visual noise, making the UI feel cluttered and overwhelming
+* Reduce readability and accessibility, especially for users with visual impairments
+* Make it harder for users to know what truly matters
+
+Stick to one accent colors per screen or section. Use them intentionally—only for elements that truly require user focus.
+
+::: img-medium good
+
 <imageEmbed
   alt="Image"
-  size="medium"
-  showBorder={true}
+  size="large"
+  showBorder={false}
   figureEmbed={{
     preset: "default",
-    figure: 'See bottom tag line - Don\'t make the important word “quality software” in red... because you already have red',
+    figure: 'See bottom tagline - Don\'t make the important word “quality software” in red... because you already have red',
     shouldDisplay: true
   }}
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/quality-software-tagline.png"
 />
+:::
+
+::: img-medium good
 
 <imageEmbed
   alt="Image"
-  size="medium"
-  showBorder={true}
+  size="large"
+  showBorder={false}
   figureEmbed={{
     preset: "default",
-    figure: 'See bottom tag line - Make the important word “quality software” in red... because you do not have red',
+    figure: 'See bottom tagline - Make the important word “quality software” in red... because you do not have red',
     shouldDisplay: true
   }}
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/quality-software-tagline-grey.png"
 />
+:::
+
+## Avoid using color for full sentences, even if it's just one word
+
+Color should be used to emphasize **keywords** or **short phrases** within a sentence — not to style entire statements.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip:** Instead of coloring a sentence, add a colored icon (like ✅ or ❌). This keeps the message clear and accessible while still providing visual emphasis.
+
+Use color to guide, not to shout.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+::: img-medium bad
 
 <imageEmbed
   alt="Image"
-  size="medium"
-  showBorder={true}
+  size="large"
+  showBorder={false}
   figureEmbed={{
     preset: "default",
-    figure: 'Chewing the Fat bottom text. No red word because it is the title',
+    figure: 'Bad example - Text in green is too much',
     shouldDisplay: true
   }}
-  src="/uploads/rules/add-a-spot-of-color-for-emphasis/chewing-fat-bottom-text.png"
+  src="/uploads/rules/add-a-spot-of-color-for-emphasis/text-color-bad.png"
 />
+:::
+
+::: img-medium good
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Good example - Text in content color (white in this dark mode example) with a green tick',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/add-a-spot-of-color-for-emphasis/text-color-good.png"
+/>
+:::

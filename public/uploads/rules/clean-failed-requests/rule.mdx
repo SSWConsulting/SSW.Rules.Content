@@ -19,7 +19,11 @@ createdBy: Vlad Kireyev [SSW]
 createdByEmail: 54652701+vladislav-kir@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 [Application Insights](/why-you-want-to-use-application-insights) provide crucial insights into the health and performance of the application. **Failed Requests** allow the DevOps specialists to identify the specific errors and exceptions occurring in the application. However, keeping Failed Requests clean is crucial to troubleshoot and pinpoint the root causes of the problems efficiently. A cluttered failed requests list filled with irrelevant entries can make it difficult to identify the critical issues that require immediate attention.
+  </>}
+/>
 <youtubeEmbed url="https://youtu.be/ealr-_vrX3o" description="Video: Do you keep Failed Requests clean? (5 min)" />
 
 ## Understand your Failed Requests
@@ -44,6 +48,18 @@ When cleaning up Failed Requests, it is important to identify the patterns betwe
     **Note:** Not everything you encounter can be matched to a pattern or fixed straight away.
 
 If that is the case, continue to other requests. As the logs become cleaner, it will get easier to understand the problems with the left-over requests.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip:** Splitting the chart based on response codes may make patterns clearer. For instance, 500 responses will almost always be fixable bugs worth investigating.
   </>}
   figureEmbed={{
     preset: "default",
@@ -81,6 +97,18 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
   size="large"
   showBorder={false}
   figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - Split Chart - the fixable 500 responses can be seen in purple',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/clean-failed-requests/good-example-split-chart.png"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
     preset: "badExample",
     figure: 'Bad example - Default Table - 5 out of top 8 failed requests are irrelevant or spam',
     shouldDisplay: true
@@ -104,11 +132,11 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
 
 While the Fixable Failed Requests can be dealt with by resolving their underlying causes, the other two categories will continue to clutter your Application Insights.
 
-You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#application-dashboard) and [Azure Workbook](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview) to filter out any unwanted failed requests and display only useful information.
+You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#application-dashboard?WT.mc_id=AZ-MVP-33518) and [Azure Workbook](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview?WT.mc_id=AZ-MVP-33518) to filter out any unwanted failed requests and display only useful information.
 
 **Application Dashboard** is a customizable interface that provides an overview of an application's performance and health. You can access it at the top of the Overview page of your Application Insights. If the Application Dashboard was not yet created, you must have a **Contributor Role** in that Resource Group. A new Application dashboard automatically displays various charts, metrics, and alerts to monitor application behavior.
 
-**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
+**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/?WT.mc_id=AZ-MVP-33518), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
 
 <asideEmbed
   variant="info"
@@ -130,7 +158,7 @@ Go to Application Insights | Failures | View in Logs | Failed request count.
   src="/uploads/rules/clean-failed-requests/failed-requests-logs.png"
 />
 
-This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs), before saving it in Workbooks.
+This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs?WT.mc_id=AZ-MVP-33518), before saving it in Workbooks.
 
 
 <imageEmbed

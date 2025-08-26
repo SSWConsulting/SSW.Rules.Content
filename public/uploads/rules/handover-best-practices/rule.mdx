@@ -2,9 +2,7 @@
 type: rule
 tips: ""
 title: Do you leave a project ready for the next person?
-seoDescription: Make your handovers smooth and useful by planning with your
-  successor in mind, whether you're going on leave or leaving the project
-  permanently.
+seoDescription: Make your handovers smooth and useful by planning with your successor in mind, whether you're going on leave or leaving the project permanently.
 uri: handover-best-practices
 authors:
   - title: Betty Bondoc
@@ -21,8 +19,12 @@ createdBy: Betty Bondoc [SSW]
 createdByEmail: 33026270+bettybondoc@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 A poorly planned handover can result in wasted time, repeated work, and confusion for the person taking over. Imagine walking into a project with no context, outdated documentation, and a scattering of files across different systems. It’s frustrating and it’s preventable.
-There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always plan from the perspective of the person receiving the handover. Here's how:
+  </>}
+/>
+There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always **plan from the perspective of the person receiving the handover**.
 
 ## Ensure access is sorted early
 
@@ -33,7 +35,7 @@ The first blocker for any new person is access. Remove that hurdle by organizing
 
 Coordinate with sysadmins or clients in advance to avoid blockers.
 
-## Organise files into a single source of truth
+## Organize files into a single source of truth
 
 Don’t leave your successor scavenging for files. If your team doesn’t already have a designated location for handover assets, create a central folder (e.g. SharePoint or a shared drive) and include:
 
@@ -73,7 +75,7 @@ At the root level, add a `_instructions.md` or `README` to explain the folde
 
 <figureEmbed figureEmbed={{
   preset: "goodExample",
-  figure: 'Figure: Good Example – A structured handover folder with an index file for guidance',
+  figure: 'Figure: Good example – A structured handover folder with an index file for guidance',
   shouldDisplay: true
 } } />
 
@@ -145,7 +147,7 @@ Regards,
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: "Good Example – A clear onboarding email helps reduce first-day confusion",
+    figure: "Good example – A clear onboarding email helps reduce first-day confusion",
     shouldDisplay: true
   }}
 />
@@ -168,6 +170,18 @@ Introduce your successor to:
 * Sysadmins
 * Key team members
 
-Bonus: Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
+<asideEmbed
+  variant="info"
+  body={<>
+    **Bonus:** Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+---
 
 By thinking of your handover as a **user experience** for your successor, you help ensure the transition is clear, respectful, and productive for everyone.

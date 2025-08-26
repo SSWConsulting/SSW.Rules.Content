@@ -19,8 +19,12 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
 Take this for example (and see how we refactor it):
+  </>}
+/>
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
 {

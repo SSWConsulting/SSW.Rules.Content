@@ -18,9 +18,13 @@ createdBy: Christian Morford-Waite [SSW]
 createdByEmail: ChristianMWaite@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 You finally dumped `BinaryFormatter`, replaced `WebClient` with `HttpClient`, and standardised on **System.Text.Json**!
 
 But in a big codebase (or with a rotating team) someone can unknowingly add the old API back in a new feature branch, **undoing days of migration work**. The same risk appears with *library preferences*: you want everybody using `FluentValidation`, yet the next pull request pulls in `DataAnnotations` again.
+  </>}
+/>
 ## Ban unwanted APIs at the compiler gate
 
 **[BannedApiAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.BannedApiAnalyzers/)** (the Microsoft-maintained NuGet package *Microsoft.CodeAnalysis.BannedApiAnalyzers*) lets you fail the build the instant a forbidden symbol is referenced. It’s compatible with SDK-style projects (e.g., `<Project Sdk="Microsoft.NET.Sdk">`), including those targeting .NET Framework.

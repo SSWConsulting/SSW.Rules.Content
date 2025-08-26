@@ -1,7 +1,8 @@
 ---
-seoDescription: Include addressed names as headings to help recipients quickly locate specific parts of the email.
 type: rule
 title: Do you include addressed names in emails as headings?
+seoDescription: Include addressed names as headings to help recipients quickly
+  locate specific parts of the email.
 uri: include-names-as-headings
 authors:
   - title: Adam Cogan
@@ -24,14 +25,17 @@ lastUpdatedByEmail: tiagov8@gmail.com
 createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
-
-If you have to address an email to one or multiple people (including [to yourself](/dones-do-you-send-yourself-emails)), include each person's name as a heading. This helps them quickly locate which part of the email that applies to them.
+<introEmbed
+  body={<>
+If you have to address an email to one or multiple people (including [to yourself](/dones-do-you-send-yourself-emails)), include each person's name **as a heading**. This helps them quickly locate which part of the email that applies to them.
+  </>}
+/>
 <emailEmbed
   from=""
   to="Jean, Anthony"
   cc="Adam"
   bcc=""
-  subject="SSW CodeAuditor - Bug"
+  subject="🐛 BUG - SSW CodeAuditor not loading"
   body={<>
     Hi Jean,
 
@@ -56,13 +60,13 @@ I've tried to replicate the behaviour but was unsuccessful.
   to="Jean, Anthony"
   cc="Adam"
   bcc=""
-  subject="SSW CodeAuditor - Bug"
+  subject="🐛 BUG - SSW CodeAuditor not loading"
   body={<>
-    ## Hi Jean
+    ## Hi Jean,
 
 Can you help with this one?
 
-## Hi Anthony
+## Hi Anthony,
 
 I've tried to replicate the behaviour but was unsuccessful.
 
@@ -77,11 +81,21 @@ I've tried to replicate the behaviour but was unsuccessful.
 />
 
 <asideEmbed
-  variant="greybox"
+  variant="info"
   body={<>
-    **Tip 1:** You can add a heading 3 in Outlook by typing Control+Alt+3.
+    **Note:** When sending from apps/devices that don't allow headings, at least make the names **bold**.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
 
-**Tip 2:** When sending from apps/devices that don't allow headings, at least make the names **bold**.
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip:** You can add a heading 3 in Outlook by typing **Control + Alt + 3** (for Windows) or **Command⌘ + Option + 3** (for Mac)
   </>}
   figureEmbed={{
     preset: "default",

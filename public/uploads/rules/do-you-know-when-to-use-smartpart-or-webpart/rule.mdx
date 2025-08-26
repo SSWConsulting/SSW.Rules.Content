@@ -20,9 +20,13 @@ createdBy: johnliu
 createdByEmail: johnliu@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 SmartPart is basically a simple but genius idea - it is a simple web part that can host a user control (ascx) inside it via the Page.LoadControl method. That way, all you have to do as a SharePoint developer is to write the ascx control, and you can do it with the Visual Studio designer to arrange the user control via drag and drop, and then when you want the web part on a SharePoint page, you load the generic SmartPart, and tell it to load the ascx that you want.
 
 However, there are some PRO's and CON's when you use a SmartPart:
+  </>}
+/>
 ### Pros
 
 1. Being able to rapidly create the control's layout and then focus on the code behind - in familiar ASP.NET user control style.

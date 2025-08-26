@@ -22,9 +22,13 @@ createdBy: Bryden Oliver [SSW]
 createdByEmail: 77371877+brydeno@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 ## Identifying CPU Pressure
 
 When looking at SQL Server, you often get performance issues, but how can you figure out what might be the cause?
+  </>}
+/>
 To figure out whether the SQL Server itself is experiencing CPU pressure, fire up Task manager and take a look at the CPU usage. If the CPU is high and SQL Server is not the primary consumer, evaluate whether you can separate the CPU consuming workload from your SQL Server by moving one onto another server.
 
 A good way to identify if SQL Server is experiencing CPU Pressure internally is to try the following SQL. It counts the number of SQL batches, compilations and recompilations per second averaged over a minute. _Note_ A batch is a group of one or more SQL statements sent to the server at the same time. The batch separator, GO, is used to separate batches.

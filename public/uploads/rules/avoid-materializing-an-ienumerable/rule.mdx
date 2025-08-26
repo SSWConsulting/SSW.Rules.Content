@@ -15,7 +15,11 @@ createdBy: Bryden Oliver
 createdByEmail: 77371877+brydeno@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 This is the golden rule of LINQ. You generally have no idea how big the IEnumerable might be, so where possible just iterate through, don't force it into an array or list before doing that.
+  </>}
+/>
 The primary reason for this is that your input stream might not fit into RAM, and you will cause unnecessary object creation and garbage collection which will also consume a lot of CPU on top of eating memory for breakfast.
 
 ```cs

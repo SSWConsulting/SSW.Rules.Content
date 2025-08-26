@@ -20,6 +20,8 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 <imageEmbed
   alt="Image"
   size="medium"
@@ -35,6 +37,8 @@ createdByEmail: tiagov8@gmail.com
 If you're building installable binary apps (as opposed to web apps), it makes sense to use a cross-platform framework so that you don’t need to maintain multiple code bases.
 
 Writing apps in a single-platform language or framework can lead to fragmentation and technical debt, while writing your app once using a cross-platform technology is the best way to apply [DRY](/do-you-look-for-duplicate-code) to your app as a whole.
+  </>}
+/>
 <youtubeEmbed url="https://www.youtube.com/embed/2IoFI3tCN5g" description="" />
 
 ### Cross-platform approaches
@@ -57,7 +61,7 @@ If you need multi-threading, or access to hardware features, platform or operati
 
 If you need access to specific platform APIs, you may not find them available in the web wrapper options (and almost certainly not via 1st party support). In this case, you could rule out using a web wrapper.
 
-If you already have a .NET development team and your solution is built on .NET, it makes sense to use **[.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui)**. .NET MAUI lets you write your UI in XAML or Blazor, so if you already have a Blazor web solution, you can share your UI controls in a Razor Class Library. You could also share other things like DTOs and authentication logic between Blazor, ASP.NET Core, and .NET MAUI apps.
+If you already have a .NET development team and your solution is built on .NET, it makes sense to use **[.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui?WT.mc_id=DT-MVP-33518)**. .NET MAUI lets you write your UI in XAML or Blazor, so if you already have a Blazor web solution, you can share your UI controls in a Razor Class Library. You could also share other things like DTOs and authentication logic between Blazor, ASP.NET Core, and .NET MAUI apps.
 
 If you already have a strong React team, it may make sense to use **[React Native](https://reactnative.dev/)**. There is a bit of a learning curve to go from React to React Native, but it still builds upon your team’s existing skills.
 

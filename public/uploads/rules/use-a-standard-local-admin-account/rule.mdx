@@ -18,7 +18,11 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 Having a local admin account that is not the built-in admin account Windows creates at first is an important way to get access back to your system if any troubles arise.
+  </>}
+/>
 When first setting up, Windows creates a local administrator account that can change everything in the system – this account cannot be deleted, just disabled. It is good practice to disable this account and create a new one, following your own company password and naming standard, that is also a local administrator on the PC.
 
 It is also good practice to use a script (or Group Policy) to set that admin account, fewer errors than doing it manually.

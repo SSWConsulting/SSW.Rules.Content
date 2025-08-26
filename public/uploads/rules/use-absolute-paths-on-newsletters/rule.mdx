@@ -19,7 +19,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Newsletters should **always use absolute references** to all links and images within the HTML. Relative paths don't contain the server information so external users see a broken link/image - the outside email application won't find the where the file is.
+  </>}
+/>
 ```html
 <a href="/ssw/Company/ContactUs.aspx "><img src="/SSW/images/SSWLogo.png" /></a>
 ```

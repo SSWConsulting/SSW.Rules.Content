@@ -24,9 +24,13 @@ createdBy: Piers Sinclair [SSW]
 createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 ---
 
+<introEmbed
+  body={<>
 Email templates are an awesome way to help people save time writing emails. Often the template needs to indicate a piece of text that should be replaced with custom content. When you need to identify text that should be replaced (e.g. in an email template), it's important to use a consistent way of indicating the replaceable text with a placeholder.
 
 Use a consistent character to make it clear which piece of text should be substituted.
+  </>}
+/>
 <youtubeEmbed url="https://youtu.be/uFLnYo_z6Pw" description="Video: Choose the Best Text Placeholders (3 min)" />
 
 However, everyone has their own preferences about which placeholder character to use 🥸
@@ -60,7 +64,7 @@ Let's see these in action:
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
 
-{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
+{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
 [Angular interpolation uses &#123;&#123; and &#125;&#125; as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
 

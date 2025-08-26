@@ -32,11 +32,15 @@ createdBy: MatthewWicks
 createdByEmail: MatthewWicks@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 When a developer joins a team, they need to find important meetings like the Daily Scrum and the Sprint Review. Unfortunately, these meetings are often organized by a team member and there is no way to find them.
 
 Ideally, a new team member would jump into Microsoft Teams and find the team they are joining. Then they would see all the important meetings from within the team and join them as needed.
 
 From then on, they would be able to see those appointments in Microsoft Outlook and edit them as needed.
+  </>}
+/>
 In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, and then add this as a tab in Teams. Microsoft Teams have since released Channel Calendars, which are better because they are built in.
 
 <imageEmbed
@@ -136,9 +140,9 @@ By default, group calendars do not show up in Microsoft Outlook, so they need to
 Set-UnifiedGroup -identity &#123;&#123; GROUP NAME &#125;&#125; -HiddenFromExchangeClientsEnabled:$False
 ```
 
-**Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled) will also make the teams' group email address show in the global address list (GAL).
+**Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled&WT.mc_id=M365-MVP-33518) will also make the teams' group email address show in the global address list (GAL).
 
-More info on [removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354).
+More info on [removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354?WT.mc_id=M365-MVP-33518).
 
   </>}
   figureEmbed={{

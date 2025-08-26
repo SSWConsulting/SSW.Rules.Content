@@ -18,9 +18,13 @@ lastUpdatedByEmail: stefstarcevic@ssw.com.au
 createdBy: Stefan Starcevic [SSW]
 createdByEmail: stefstarcevic@ssw.com.au
 ---
+<introEmbed
+  body={<>
 \
 \
 Travel schedules can get complicated, especially when managing multiple trips or coordinating with team members. Relying solely on digital calendars can lead to missed details, especially when internet access is limited or when navigating multiple time zones. Having a printed version of your travel schedule can be a lifesaver in these situations.
+  </>}
+/>
 ## Why It Matters
 
 Printed travel schedules provide several benefits:
@@ -50,8 +54,8 @@ Printed travel schedules provide several benefits:
 
 * If you want to view your boss's calendar to edit:
   * To give somebody else permissions to your calendar - right click on calendar | sharing and permissions. From there you can select someone to give permissions to.
-  * Alternatively, ask a SysAdmin - This had to be done in PowerShell – as per: https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission
-  *    The command is
+  * Alternatively, ask a SysAdmin - This had to be done in PowerShell – as per: <https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission?WT.mc_id=M365-MVP-33518>
+  * The command is
 ```Add-MailboxFolderPermission -Identity &#123;&#123; BOSS'S EMAIL &#125;&#125;:\Calendar -User &#123;&#123; YOUR EMAIL &#125;&#125; -AccessRights Editor```
 * In the new Outlook, you cannot print your boss's calendar
   * Even though you can add categories, you cannot filter based on the boss's categories (as you only see your own filters in the filters list). Therefore you need to print from your boss's Outlook.

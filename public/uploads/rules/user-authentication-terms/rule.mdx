@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/matt-goldman
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - label-buttons-consistently
 redirects:
   - tiny-do-you-know-when-to-use-log-on-log-in-and-sign-in
   - when-to-use-log-on-log-in-and-sign-in
@@ -24,17 +25,19 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 ---
 
+<introEmbed
+  body={<>
 The words we choose can significantly impact user experience. One such area of careful consideration is the language surrounding user authentication.
-### User authentication
+  </>}
+/>
+## User authentication
 
-While "Log in" has been widely used in the past, for modern applications it is preferred to use "Sign in". The term is widely recognized, intuitive, and aligns well with the modern user's expectations.
+While **❌ "Log in"** has been widely used in the past, modern applications tend to prefer **✅ "Sign in"**. The term is widely recognized, intuitive, and aligns with current user expectations.
 
 <asideEmbed
   variant="info"
   body={<>
-    **Note:** The term "Login" as a noun (no spaces) is still widely used in content, often interchangeably with the term "username."
-
-**Warning:** It's advised to steer clear of using "logon." This term, although it may have historical roots, has fallen out of favor and could potentially confuse users. Opting for more widely accepted alternatives ensures a smoother user experience.
+    **Note:** The term **"Login"** as a noun (no spaces) is still widely used in content, often interchangeably with the term **"Username"**.
   </>}
   figureEmbed={{
     preset: "default",
@@ -43,14 +46,10 @@ While "Log in" has been widely used in the past, for modern applications it is p
   }}
 />
 
-### Use "Register" for creating acccounts
-
-When prompting users to create accounts, "Sign up" may cause confusion with "Sign in". Based on that, "Register" can offer a clearer indication of the action being taken, fostering a sense of formality and commitment.
-
 <asideEmbed
   variant="info"
   body={<>
-    **Note:** "Join" is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community.
+    **Warning:** It's advised to steer clear of using **❌ "Logon"**. This term, although it may have historical roots, has fallen out of favor and could potentially confuse users. Opting for more widely accepted alternatives ensures a smoother user experience.
   </>}
   figureEmbed={{
     preset: "default",
@@ -59,4 +58,22 @@ When prompting users to create accounts, "Sign up" may cause confusion with "Sig
   }}
 />
 
-Always align terminology with the expectations and preferences of your target audience to create a seamless and positive interaction. By embracing the clearer, user-friendly terms "Sign in" and "Register" we can contribute to a more intuitive and consistent user experience.
+## User account creation
+
+When prompting users to create accounts, **❌ "Sign up"** can sometimes be confused with **"Sign in"**. To avoid this, **✅ "Register"** or **✅ "Create account"** can offer clearer direction and convey a greater sense of formality and commitment.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** **✅ "Join"** is a versatile term that can be suitable, depending on the context. For instance, it works well when inviting users to become part of a group or community.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+---
+
+Always align terminology with the expectations and preferences of your target audience to create a more intuitive and consistent user experience.

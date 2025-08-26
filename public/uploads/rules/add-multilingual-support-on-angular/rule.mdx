@@ -26,6 +26,8 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 ### How to implement multilingual support in an Angular project?
 
 There are several ways of implementing multilingual support in an Angular project, the following libraries are popular:
@@ -37,6 +39,8 @@ There are several ways of implementing multilingual support in an Angular projec
 **[angular-gettext:](https://angular-gettext.rocketeer.be/)** the simplest powerful 3rd party library providing translation support to Angular.
 
 The following table shows the pros and cons of the 3 libraries:
+  </>}
+/>
 |                                     | **Pros (+)**                                                                                                                                       | **Cons (-)**                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Internationalization** **(i18n)** | <ul class="p3"><li>Better support of displaying dates,</li><li>Better support for handling plural forms of words, and alternative text. </li></ul> | <ul class="ul1"><li class="li2">It only works with one language at a time, you have to completely reload the application to change the language</li><li class="li2">Only support translation in the template (by using HTML tag)</li><li class="li2">You need to build + deploy every time you make a change to the language, and you have to have a separate folder every time.</li><li class="li2">You can see the language in the URL.</li></ul>  |

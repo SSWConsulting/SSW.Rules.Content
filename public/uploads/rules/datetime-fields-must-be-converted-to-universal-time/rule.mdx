@@ -21,9 +21,13 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.
 
 We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https://nodatime.org).
+  </>}
+/>
 Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.
 An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).
 

@@ -23,7 +23,11 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
+<introEmbed
+  body={<>
 Boolean Properties must be prefixed by a verb. Verbs like "Supports", "Allow", "Accept", "Use" should be valid. Also properties like "Visible", "Available" should be accepted (maybe not). See [how to name Boolean columns in SQL databases](/use-bit-numeric-data-type-correctly).
+  </>}
+/>
 ```csharp
 public bool Enable { get; set; }
 public bool Invoice { get; set; }
