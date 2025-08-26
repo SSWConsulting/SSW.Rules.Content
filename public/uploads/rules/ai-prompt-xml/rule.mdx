@@ -1,31 +1,31 @@
 ---
 type: rule
 title: Do you use Markdown or XML tags to structure your AI prompts?
+seoDescription: Markdown or XML can both be used to structure large prompts for
+  large language models (LLMs)
 uri: ai-prompt-xml
 authors:
   - title: Eddie Kranz
-    url: 'https://www.ssw.com.au/people/eddie-kranz'
+    url: https://www.ssw.com.au/people/eddie-kranz
 related: null
-guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
-seoDescription: >-
-  Markdown or XML can both be used to structure large prompts for large language
-  models (LLMs)
-archivedreason: null
 created: 2025-05-14T18:48:11.000Z
-createdBy: 'Eddie Kranz [SSW]'
+archivedreason: null
+guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
+lastUpdated: 2025-05-16T02:08:42.000Z
+lastUpdatedBy: Ulysses Maclaren [SSW]
+lastUpdatedByEmail: 162542237+uly1@users.noreply.github.com
+createdBy: Eddie Kranz [SSW]
 createdByEmail: ed@kranz.au
-lastUpdated: 2025-07-24T08:12:08.040Z
-lastUpdatedBy: Gilles Pothieu
-lastUpdatedByEmail: gillespothieu.pro@gmail.com
 ---
-
+<introEmbed
+  body={<>
 The bigger your prompts get, the more challenging they become for the AI to understand.
-Testing deployment on Azure.
 
 Using  Markdown or XML tags will help an LLM parse your prompts more accurately, leading to higher-quality outputs.
 
 The best part is that it doesn't need to follow any specific syntax. It just helps both humans and AI to have structured prompts.
-
+  </>}
+/>
 ## Why use Markdown or XML tags?
 
 * **Clarity** - Ensure your prompt is well structured by having clear separation of different parts
@@ -36,20 +36,18 @@ You can even ask the LLM to give outputs in XML, which makes things easier to re
 
 ```html
 You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices.
-Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: {{ARCHITECTURE_DOC}}.
-Use the latest performance metrics from: {{PERFORMANCE_DASHBOARD}}.
+Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: &#123;&#123;ARCHITECTURE_DOC&#125;&#125;.
+Use the latest performance metrics from: &#123;&#123;PERFORMANCE_DASHBOARD&#125;&#125;.
 The review should be technical, actionable, and highlight key issues and opportunities.
 Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
 
-<figureEmbed
-  figureEmbed={{
-    preset: "badExample",
-    figure:
-      "Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Code: Bad example - If it\'s hard for humans to read \'at-a-glance\', the AI will struggle too',
+  shouldDisplay: true
+} } />
+
 
 ```xml
 ## Context
@@ -58,7 +56,7 @@ Northwind is a B2B supply chain management SaaS company
 Our development team values clean architecture and maintainable code
 
 # Use this data for the review
-{{CODEBASE_ANALYSIS_JSON}}
+&#123;&#123;CODEBASE_ANALYSIS_JSON&#125;&#125;
 
 # Instructions
 1. Include sections: API Design, Service Communication, Database Optimization
@@ -68,17 +66,15 @@ Our development team values clean architecture and maintainable code
 Make sure your tone is technical and solution-oriented
 
 # Follow this structure:
-{{PREVIOUS_ARCH_REVIEW_MD}}
+&#123;&#123;PREVIOUS_ARCH_REVIEW_MD&#125;&#125;
 ```
 
-<figureEmbed
-  figureEmbed={{
-    preset: "goodExample",
-    figure:
-      "Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for',
+  shouldDisplay: true
+} } />
+
 
 ```xml
 <context>
@@ -89,7 +85,7 @@ Make sure your tone is technical and solution-oriented
 
 Use this data for the review
 <data>
-    {{CODEBASE_ANALYSIS_JSON}}
+    &#123;&#123;CODEBASE_ANALYSIS_JSON&#125;&#125;
 </data>
 
 <instructions>
@@ -103,15 +99,12 @@ Make sure your tone is technical and solution-oriented
 
 Follow this structure:
 <formatting-example>
-    {{PREVIOUS_ARCH_REVIEW_MD}}
+    &#123;&#123;PREVIOUS_ARCH_REVIEW_MD&#125;&#125;
 </formatting-example>
 ```
 
-<figureEmbed
-  figureEmbed={{
-    preset: "goodExample",
-    figure:
-      "Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs',
+  shouldDisplay: true
+} } />
