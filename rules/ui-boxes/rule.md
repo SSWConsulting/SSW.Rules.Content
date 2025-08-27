@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you have full-width UI boxes?
+title: Do you have full-width callouts?
 seoDescription: Full-width UI boxes deliver a modern, responsive design that maximizes space and enhances visual impact.
 uri: ui-boxes
 authors:
