@@ -48,7 +48,7 @@ Vary sentence and paragraph lengths to create a dynamic flow.
 
 **Prompt example:** **"Mix short and long sentences to enhance readability."**
 
-## 6. **Unfluffing:**
+## 6. Unfluffing
 
 Ensure every sentence provides value and is actionable, removing unnecessary filler content.
 
