@@ -156,7 +156,8 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
 When using a browser, IDE, or any relevant app, make sure the interface is readable, clean and free of distractions.
 
 * **Resolution** - Set your screen to 1080p (1920x1080)
-* **Browser** - Hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+* **Browser** - Hide the bookmarks bar, set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+* **Environment** - Ensure your app is in a production environment (URL should be https://northwind365.com and not http://localhost:3000)
 * **Microsoft Office** - Hide ribbons
 * **Outlook and others** - Clear any irrelevant reminders, clear messages and notifications
 * **Everywhere** - [Don't share sensitive information](/hide-sensitive-information)
