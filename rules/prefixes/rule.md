@@ -39,6 +39,7 @@ Prefixes are especially useful for list items, and when written in **bold**, the
 :::
 
 ::: greybox
+
 * Bug - Critical security issue  
 * Status - Needs hotfix  
 * Owner - Assigned to backend team  
@@ -48,6 +49,7 @@ Figure: Prefixes are harder to distinguish
 :::
 
 ::: greybox
+
 * **Bug** - Critical security issue  
 * **Status** - Needs hotfix  
 * **Owner** - Assigned to the backend team  
