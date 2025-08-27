@@ -13,7 +13,7 @@ index:
 - css-frameworks
 - css-changes
 - avoid-unnecessary-css-classes
-- avoid-full-width-ui-boxes
+- ui-boxes
 - trim-input-whitespace
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
