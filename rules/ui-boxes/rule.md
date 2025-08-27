@@ -17,7 +17,9 @@ redirects:
 guid: 545edc76-fd47-4bed-9083-19a752415c14
 ---
 
-Full-width UI boxes maximize screen real estate and create a bold, immersive, and visually striking interface.
+Callouts, or UI boxes, are often used to highlight alerts, warnings, and other key information. They work best when they span the full width of the screen, making the message clear and hard to miss. 
+
+Full-width callouts use space effectively, pull focus to the content, and add a strong, immersive feel to the page.
 
 <!--endintro-->
 
