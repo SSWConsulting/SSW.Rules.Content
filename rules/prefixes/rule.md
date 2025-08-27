@@ -12,6 +12,7 @@ related:
   - meaningful-pbi-titles
   - web-users-dont-read
   - distinguish-keywords-from-content
+  - use-emojis
 guid: 33494411-c328-41ed-8513-6c8fb3031082
 
 ---
@@ -22,10 +23,10 @@ The English language can be complex, and often the context of a message isn't cl
 
 ## ✅ Benefits of using prefixes
 
-* **Skimming** - Establishing context without having to read the full content
-* **Contextualizing** - Priming the reader on the subject matter
-* **Finding** - Helping the reader quickly jump to the right content in a list
-* **Grouping** - Categorizing content together without the need for a complex bespoke solution
+* **Skimming** – Lets you catch the context quickly without reading everything  
+* **Context** – Sets up what the item is about before the details  
+* **Finding** – Makes it easier to jump to the right item in a list  
+* **Grouping** – Keeps related items together without extra formatting  
 
 ## When to use prefixes
 
@@ -34,7 +35,25 @@ The English language can be complex, and often the context of a message isn't cl
 Prefixes are especially useful for list items, and when written in **bold**, they make content easier to scan, highlight key points quickly, and improve overall readability. 👆 The list above is a good example of this.
 
 ::: info
-While some may associate bold prefixes with GPT-generated text, the focus should remain on clarity and effective content design, which matter far more.
+**Note:** While some may associate bold prefixes with GPT-generated text, the focus should remain on clarity and **effective content design**, which is more important.
+:::
+
+::: greybox
+* Bug - Critical security issue  
+* Status - Needs hotfix  
+* Owner - Assigned to backend team  
+:::
+::: bad
+Figure: Prefixes are harder to distinguish
+:::
+
+::: greybox
+* **Bug** - Critical security issue  
+* **Status** - Needs hotfix  
+* **Owner** - Assigned to the backend team  
+:::
+::: good
+Figure: Prefixes stand out in bold making it easier to scan and process
 :::
 
 ### Email/Appointment subjects
