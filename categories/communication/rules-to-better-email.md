@@ -82,7 +82,7 @@ index:
 - screenshots-avoid-walls-of-text
 - screenshots-add-branding
 - bounces-do-you-know-what-to-do-with-bounced-email
-- bounces-do-you-know-how-to-correct-a-bounce
+- correct-a-wrong-email-bounce
 - fix-small-web-errors
 - use-the-best-email-templates
 - add-a-bot-signature-on-automated-emails
