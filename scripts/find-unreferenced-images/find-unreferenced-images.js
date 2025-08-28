@@ -1,24 +1,28 @@
 const fs = require('fs');
 const path = require('path');
-const marked = require('marked');
 const core = require('@actions/core');
+const { unified } = require('unified');
+const remarkParse = require('remark-parse').default;
+const remarkMdx = require('remark-mdx').default; 
+const { visit } = require('unist-util-visit');
 
 function findImagesInMarkdown(file) {
-    const nodeList = []
-    const markdown = fs.readFileSync(file, "utf8");
+  const code = fs.readFileSync(file, 'utf8');
+  if (!code) return [];
 
-    if (!markdown) return
+  const tree = unified().use(remarkParse).use(remarkMdx).parse(code);
+  const out = new Set();
 
-    const walkTokens = (token) => {
-        if (token.type === "image") {
-            nodeList.push(token.href)
-        }
-    };
+  visit(tree, 'mdxJsxFlowElement', (node) => {
+    if (node.name === 'imageEmbed') {
+      const srcAttr = node.attributes.find(a => a.type === 'mdxJsxAttribute' && a.name === 'src');
+      if (srcAttr && typeof srcAttr.value === 'string') {
+        out.add(path.basename(srcAttr.value));
+      }
+    }
+  });
 
-    marked.use({ walkTokens });
-    marked.parse(markdown, { mangle: false, headerIds: false });
-
-    return [...new Set(nodeList)];
+  return [...out];
 }
 
 function traverseEverything(directory) {
@@ -37,7 +41,7 @@ function traverseDirectories(directories) {
         const intersection = subdirectoryImages.folderImages.filter(x => !subdirectoryImages.markdownImages.includes(x));
 
         if (intersection.length > 0) {
-            images[directory.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
+            images[directory.replaceAll("../", "").replaceAll("public/uploads/rules/", "")] = intersection;
         }
     });
 
@@ -86,13 +90,13 @@ async function main() {
         if (process.argv[2] && process.argv[2].length > 0) {
             const folders = process.argv[2]
                 .split(",")
-                .filter(file => file.slice(0, 5) == "rules")
+                .filter(file => file.slice(0, 5) == "public/uploads/rules")
                 .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
 
             images = traverseDirectories(folders);
         }
     } else if (eventType === "workflow_dispatch") {
-        images = traverseEverything("../../rules/");
+        images = traverseEverything("../../public/uploads/rules/");
     }
     
     if (images === undefined || images === null || Object.keys(images).length === 0) {
@@ -102,7 +106,7 @@ async function main() {
     await core.summary.addHeading(`Found ${Object.keys(images).length} unreferenced images`).addSeparator().write();
 
     for (const [idx, rule] of Object.keys(images).entries()) {
-        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
+        await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/public/uploads/rules/${rule}`).addList(images[rule]).write();
     }
 }
 

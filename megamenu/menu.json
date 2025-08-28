@@ -1,0 +1,718 @@
+{
+  "menuGroups": [
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "description": "Creating intelligent, data-driven solutions for businesses",
+                  "iconImg": "/images/megamenu-icons/AIDevelopment.svg",
+                  "name": "AI Development",
+                  "url": "/consulting?tag=AI-Development"
+                },
+                {
+                  "description": "Professional web development service that creates stylish, functional, user-friendly websites",
+                  "iconImg": "/images/megamenu-icons/WebsiteDevelopment.svg",
+                  "name": "Web Development",
+                  "url": "/consulting?tag=Website-Development"
+                },
+                {
+                  "description": "Building cutting-edge apps for diverse platforms",
+                  "iconImg": "/images/megamenu-icons/MobileDevelopment.svg",
+                  "name": "Mobile Development",
+                  "url": "/consulting?tag=Mobile-Development"
+                },
+                {
+                  "description": "Constructing robust, scalable, and efficient data management systems",
+                  "iconImg": "/images/megamenu-icons/DatabaseDevelopment.svg",
+                  "name": "Database Development",
+                  "url": "/consulting?tag=Database-Development"
+                },
+                {
+                  "description": "Delivering versatile, integrated solutions that optimize business operations",
+                  "iconImg": "/images/megamenu-icons/PlatformDevelopment.svg",
+                  "name": "Platform Development",
+                  "url": "/consulting?tag=Platform-Development"
+                }
+              ],
+              "name": "Development Teams"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "description": "Crafting visually stunning, intuitive user intertaces for seamless experiences",
+                  "iconImg": "/images/megamenu-icons/UIUXDesign.svg",
+                  "name": "UI/UX Design",
+                  "url": "/consulting?tag=Design"
+                },
+                {
+                  "description": "Creating captivating, high-quality visual content for impactful storytelling",
+                  "iconImg": "/images/megamenu-icons/VideoProduction.svg",
+                  "name": "Video Production",
+                  "url": "/consulting?tag=Video"
+                },
+                {
+                  "description": "Designing scalable, secure, and resilient cloud computing environments",
+                  "iconImg": "/images/megamenu-icons/CloudAndInfrastructure.svg",
+                  "name": "Cloud and Infrastructure",
+                  "url": "/consulting?tag=Cloud-and+Infrastructure"
+                }
+              ],
+              "name": "Consulting Teams"
+            }
+          ]
+        }
+      ],
+      "name": "Services",
+      "sidebarItems": [
+        {
+          "items": [
+            {
+              "description": "Unlock the power of language Al for your business",
+              "name": "ChatGPT & GPT-4o",
+              "url": "/consulting/gpt",
+              "widgetType": "featured"
+            },
+            {
+              "description": "A quick and easy solution for entry into a large and juicy market",
+              "icon": "chinaFlag",
+              "name": "Bring your App to China",
+              "url": "/consulting/chinafy-app",
+              "widgetType": "featured"
+            }
+          ],
+          "name": "Featured"
+        },
+        {
+          "items": [
+            {
+              "name": "Book Now",
+              "url": "/company/contact-us",
+              "widgetType": "bookNow"
+            }
+          ],
+          "name": "Free Initial Meeting"
+        }
+      ],
+      "viewAll": {
+        "name": "View all SSW services",
+        "url": "/consulting"
+      }
+    },
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "description": "Tina is a fully open source headless CMS that supports Git and Markdown. It's a great choice for any website with its friendly UX and DevEx",
+                  "documentationLink": "https://tina.io/docs",
+                  "iconImg": "/images/megamenu-icons/TinaDefault.svg",
+                  "name": "TinaCMS",
+                  "url": "https://tina.io",
+                  "youtubeLink": "https://www.youtube.com/c/tinacms"
+                },
+                {
+                  "description": "The next generation on-boarding & induction tool for smart companies",
+                  "iconImg": "/images/megamenu-icons/SugarLearning.svg",
+                  "name": "SugarLearning",
+                  "url": "https://www.sugarlearning.com/"
+                },
+                {
+                  "description": "TimePro offers everything an enterprise needs, such as invoicing, receipting, and time sheeting",
+                  "iconImg": "/images/megamenu-icons/TimePro.svg",
+                  "name": "TimePro",
+                  "url": "https://sswtimepro.com/"
+                },
+                {
+                  "description": "Scan any website for broken links and HTML Issues",
+                  "iconImg": "/images/megamenu-icons/CodeAuditor.svg",
+                  "name": "CodeAuditor",
+                  "url": "https://codeauditor.com"
+                }
+              ],
+              "name": "Web"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "description": "An AI tool that records your screen and voice, then assigns tasks to the appropriate people based on the content",
+                  "documentationLink": "https://yakshaver.ai/docs",
+                  "iconImg": "/images/megamenu-icons/YakShaver-v3.svg",
+                  "name": "YakShaver",
+                  "url": "https://www.sswyakshaver.com",
+                  "youtubeLink": "https://www.youtube.com/@SSWYakShaver"
+                },
+                {
+                  "description": "AI-driven solution that provides insights and patterns, boosts productivity & data-driven decisions",
+                  "iconImg": "/images/megamenu-icons/EagleEye-Icon.svg",
+                  "name": "EagleEye",
+                  "url": "https://www.ssweagleeye.com"
+                },
+                {
+                  "description": "AI-driven solution that delivers a competitive edge through its ability to find data",
+                  "iconImg": "/images/megamenu-icons/SophieBot.svg",
+                  "name": "SophieBot",
+                  "url": "https://sswsophie.com/sophiebot"
+                },
+                {
+                  "description": "A Smart Environment System which shows user specific information based on the user",
+                  "iconImg": "/images/megamenu-icons/SophieHub.svg",
+                  "name": "SophieHub",
+                  "url": "https://sswsophie.com"
+                }
+              ],
+              "name": "AI"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "description": "Scan SSW QR codes, earn SSW Points, claim rewards, and win prizes",
+                  "iconImg": "/images/megamenu-icons/SSWRewards.svg",
+                  "name": "SSW Rewards",
+                  "url": "/products/rewards"
+                }
+              ],
+              "name": "Apps"
+            }
+          ]
+        }
+      ],
+      "name": "Products",
+      "sidebarItems": [
+        {
+          "icon": "",
+          "iconImg": "/images/megamenu-icons/YoutubePlayButton.svg",
+          "items": [
+            {
+              "icon": "playCircle",
+              "name": "TinaCMS",
+              "url": "https://www.youtube.com/@TinaCMS",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "SugarLearning",
+              "url": "https://www.youtube.com/@sugarlearning",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "TimePro",
+              "url": "https://www.youtube.com/@sswtimepro",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "CodeAuditor",
+              "url": "https://www.youtube.com/@codeauditor",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "EagleEye",
+              "url": "https://www.youtube.com/@SSWEagleEye",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "YakShaver",
+              "url": "https://www.youtube.com/@SSWYakShaver",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "SophieBot",
+              "url": "https://www.youtube.com/@sswsophiebot",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "SophieHub",
+              "url": "https://www.youtube.com/@sophiehub",
+              "widgetType": "standardLink"
+            },
+            {
+              "icon": "playCircle",
+              "name": "SSW Rewards",
+              "url": "https://www.youtube.com/@sswrewards",
+              "widgetType": "standardLink"
+            }
+          ],
+          "name": "Latest Videos"
+        },
+        {
+          "items": [
+            {
+              "name": "Knowledge Base",
+              "url": "https://pdi-ssw.zendesk.com/hc",
+              "widgetType": "standardLink"
+            },
+            {
+              "name": "Report a bug",
+              "url": "https://www.ssw.com.au/rules/report-bugs-and-suggestions",
+              "widgetType": "standardLink"
+            }
+          ],
+          "name": "Support"
+        }
+      ],
+      "viewAll": {
+        "name": "View all SSW products",
+        "url": "/products"
+      }
+    },
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "Sydney .NET UG",
+                  "url": "/netug/sydney"
+                },
+                {
+                  "name": "Canberra .NET UG",
+                  "url": "/netug/canberra"
+                },
+                {
+                  "name": "Melbourne .NET UG",
+                  "url": "/netug/melbourne"
+                },
+                {
+                  "name": "Brisbane Full Stack UG",
+                  "url": "/netug/brisbane"
+                },
+                {
+                  "name": "Gold Coast Azure .NET UG",
+                  "url": "/netug/gold-coast"
+                },
+                {
+                  "name": "China Fire User Group",
+                  "url": "https://fireusergroup.com/"
+                }
+              ],
+              "name": "User Groups"
+            },
+            {
+              "menuItems": [
+                {
+                  "name": "Angular Hack Day",
+                  "url": "https://angularhackday.com/"
+                },
+                {
+                  "name": "MAUI Hack Day",
+                  "url": "https://mauihackday.com/"
+                },
+                {
+                  "name": "AI Hack Day",
+                  "url": "https://aihackday.com/"
+                },
+                {
+                  "name": "View All Hack Days",
+                  "url": "/hackday"
+                }
+              ],
+              "name": "Hack Days"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "AI Essentials Workshop",
+                  "url": "/events/ai-workshop-essentials"
+                },
+                {
+                  "name": "Angular Superpowers Tour",
+                  "url": "/events/angular-superpowers-tour"
+                },
+                {
+                  "name": "Azure Superpowers Tour",
+                  "url": "/events/azure-superpowers-tour"
+                },
+                {
+                  "name": "Clean Architecture Superpowers Tour",
+                  "url": "/events/clean-architecture-superpowers-tour"
+                },
+                {
+                  "name": ".NET Superpowers Tour",
+                  "url": "/events/net-superpowers-tour"
+                },
+                {
+                  "name": "Azure Super Skills",
+                  "url": "/events/azure-superskills"
+                }
+              ],
+              "name": "1-Day Training"
+            },
+            {
+              "menuItems": [
+                {
+                  "name": "AI Workshop",
+                  "url": "https://www.ssw.com.au/events/ai-workshop"
+                },
+                {
+                  "name": "Angular Workshop",
+                  "url": "/events/angular-workshop"
+                },
+                {
+                  "name": "Clean Architecture Workshop",
+                  "url": "/events/clean-architecture-workshop"
+                }
+              ],
+              "name": "2-Day Training"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "FireBootCamp",
+                  "url": "https://firebootcamp.com/firebootcamp"
+                },
+                {
+                  "name": "Full Stack Developer Internship",
+                  "url": "/training/internship-fullstack"
+                }
+              ],
+              "name": "12-Week Programs"
+            },
+            {
+              "menuItems": [
+                {
+                  "name": "Video Production & Live Streaming",
+                  "url": "/consulting/video-production"
+                },
+                {
+                  "name": "Conference Room for Hire",
+                  "url": "https://sswchapel.com.au/"
+                }
+              ],
+              "name": "Related Services"
+            }
+          ]
+        }
+      ],
+      "name": "Events & Training",
+      "sidebarItems": [
+        {
+          "items": [
+            {
+              "name": "Newsletters",
+              "url": "/newsletters",
+              "widgetType": "standardLink"
+            },
+            {
+              "name": "Past Sessions",
+              "url": "/events?past=1",
+              "widgetType": "standardLink"
+            },
+            {
+              "name": "Past User Groups",
+              "url": "https://www.youtube.com/playlist?list=PLpiOR7CBNvlpmhfwQeIVhbqZKxV-do0wY",
+              "widgetType": "standardLink"
+            },
+            {
+              "name": "Northwind365",
+              "url": "https://northwind365.com",
+              "widgetType": "standardLink"
+            }
+          ],
+          "name": "Resources"
+        }
+      ],
+      "viewAll": {
+        "name": "View all SSW events & training",
+        "url": "/events"
+      }
+    },
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "About SSW",
+                  "url": "/company/about-us"
+                },
+                {
+                  "name": "Our History",
+                  "url": "/company/history"
+                },
+                {
+                  "name": "Awards",
+                  "url": "https://www.ssw.com.au/company/awards"
+                }
+              ],
+              "name": "Why Us"
+            },
+            {
+              "menuItems": [
+                {
+                  "name": "Our People",
+                  "url": "https://www.ssw.com.au/people/"
+                },
+                {
+                  "name": "Employment",
+                  "url": "/employment"
+                }
+              ],
+              "name": "Who We Are"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "Our Clients' Stories",
+                  "url": "/company/clients"
+                },
+                {
+                  "name": "Testimonials",
+                  "url": "https://www.ssw.com.au/company/testimonials"
+                },
+                {
+                  "name": "Partners",
+                  "url": "/company/partners"
+                },
+                {
+                  "name": "Finance",
+                  "url": "/industry/finance"
+                },
+                {
+                  "name": "Non-Profit",
+                  "url": "/industry/non-profit"
+                },
+                {
+                  "name": "Educational",
+                  "url": "/industry/educational"
+                }
+              ],
+              "name": "Who We Work With"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "Articles",
+                  "url": "/articles"
+                },
+                {
+                  "name": "News & Press",
+                  "url": "/company/news/"
+                },
+                {
+                  "name": "SSW Blog",
+                  "url": "https://blog.ssw.com.au/"
+                },
+                {
+                  "name": "Adam's Blog",
+                  "url": "https://adamcogan.com/"
+                },
+                {
+                  "name": "Newsletters",
+                  "url": "/newsletters"
+                }
+              ],
+              "name": "Our Blogs"
+            }
+          ]
+        }
+      ],
+      "name": "About Us",
+      "sidebarItems": [
+        {
+          "items": [
+            {
+              "name": "Our Offices",
+              "url": "/offices",
+              "widgetType": "standardLink"
+            },
+            {
+              "name": "Contact Us",
+              "url": "/company/contact-us",
+              "widgetType": "standardLink"
+            }
+          ],
+          "name": "Where to find us"
+        }
+      ],
+      "viewAll": {
+        "name": "",
+        "url": ""
+      }
+    },
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "icon": "magnifyingGlass",
+                  "name": "Do you allow users to comment and rate your pages?",
+                  "url": "https://www.ssw.com.au/rules/best-commenting-engine"
+                },
+                {
+                  "icon": "magnifyingGlass",
+                  "name": "Do you know how to record a quick and dirty 'Done Video'?",
+                  "url": "https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/"
+                },
+                {
+                  "icon": "magnifyingGlass",
+                  "name": "Do you know how to record your screen?",
+                  "url": "https://www.ssw.com.au/rules/recording-screen/"
+                }
+              ],
+              "name": "Latest Rules"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "name": "Artificial Intelligence",
+                  "url": "https://www.ssw.com.au/rules/rules-to-better-chatgpt-prompt-engineering/"
+                },
+                {
+                  "name": "Communication",
+                  "url": "https://www.ssw.com.au/rules/rules-to-better-communication/"
+                },
+                {
+                  "name": "Project Delivery",
+                  "url": "https://www.ssw.com.au/rules/rules-to-better-scrum/"
+                }
+              ],
+              "name": "Top Categories"
+            }
+          ]
+        }
+      ],
+      "name": "SSW Rules",
+      "sidebarItems": [
+        {
+          "items": [
+            {
+              "description": "Try out our custom GPT used to write our Rules",
+              "icon": "fingerPrint",
+              "name": "RulesGPT",
+              "url": "https://rulesgpt.ssw.com.au/",
+              "widgetType": "featured"
+            }
+          ],
+          "name": "Featured"
+        }
+      ],
+      "url": "",
+      "viewAll": {
+        "name": "View all SSW Rules",
+        "url": "https://www.ssw.com.au/rules"
+      }
+    },
+    {
+      "menuColumns": [
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "icon": "playCircle",
+                  "name": "Tech News # 42 | Nvidia Nemotron beats ChatGPT",
+                  "url": "https://youtu.be/U9TJ7jj6418?si=eMs9JmM9lQvU3VDA"
+                },
+                {
+                  "icon": "playCircle",
+                  "name": "Building Cross-platform Blazor Desktop Apps with Photino",
+                  "url": "https://youtu.be/PVRNOoO_iXA?si=IjCjj2b5jXn2LDxa"
+                },
+                {
+                  "icon": "playCircle",
+                  "name": "Naming Conventions | Jeoffrey Fischer",
+                  "url": "https://youtu.be/t-t7P2BZnS4?si=sRZv_P9gLuAUGp2g"
+                }
+              ],
+              "name": "New Releases"
+            }
+          ]
+        },
+        {
+          "menuColumnGroups": [
+            {
+              "menuItems": [
+                {
+                  "icon": "magnifyingGlass",
+                  "name": "User Groups",
+                  "url": "https://youtube.com/playlist?list=PLpiOR7CBNvlpmhfwQeIVhbqZKxV-do0wY&si=77S27Tbts3ISbV-o"
+                }
+              ],
+              "name": "Playlists"
+            }
+          ]
+        }
+      ],
+      "name": "SSW TV",
+      "sidebarItems": [
+        {
+          "items": [
+            {
+              "description": "Why SSW is Australia's leading custom software development company",
+              "icon": "fingerPrint",
+              "name": "The People Behind SSW",
+              "url": "https://www.youtube.com/watch?v=Jveq6VFjWTA&t=12s",
+              "widgetType": "featured"
+            },
+            {
+              "description": "Check for employment opportunities in our team",
+              "icon": "fingerPrint",
+              "name": "Why work at SSW?",
+              "url": "https://www.youtube.com/watch?v=tWuutobJtdg&t=2s",
+              "widgetType": "featured"
+            },
+            {
+              "description": "Investing early with AI will deliver the greatest rewards",
+              "icon": "fingerPrint",
+              "name": "The Future of Business with AI",
+              "url": "https://www.youtube.com/watch?v=-q9lLqtkC00",
+              "widgetType": "featured"
+            }
+          ],
+          "name": "Featured"
+        }
+      ],
+      "url": "",
+      "viewAll": {
+        "name": "Visit our channel",
+        "url": "https://www.youtube.com/@SSWTV"
+      }
+    }
+  ]
+}
