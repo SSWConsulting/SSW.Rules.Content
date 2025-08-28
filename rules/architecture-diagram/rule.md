@@ -18,7 +18,7 @@ archivedreason: null
 guid: 356ef246-3c81-4f04-8d5e-bf10d98f0bb8
 ---
 
-A good **architecture diagram** (aka **cloud architecture diagram** or **system architecture diagram**) gives a great overview of your project. An architecture diagram lets you see at a glance what the overall structure of the solution is. 
+A good **architecture diagram** (aka **cloud architecture diagram** or **system architecture diagram**) gives a great overview of your project. An architecture diagram lets you see at a glance what the overall structure of the solution is.
 
 This is useful for gaining an understanding of how the system fits together, how it flows, and what it does. It also helps to easily show which components can be improved due to updated or better components (or improved architectural guidelines).
 
@@ -200,4 +200,3 @@ Standardizing where your organization stores architecture diagrams ensures a con
 ## Tip #12: Use Azure Architecture Center
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/?WT.mc_id=AZ-MVP-33518) is the best tool to help you figure out the pieces you need for an architecure diagram. Learn more on [Do you use Azure Architecture Center?](/azure-architecture-center)
-
