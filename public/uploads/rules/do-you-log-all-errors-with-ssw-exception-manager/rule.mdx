@@ -1,0 +1,42 @@
+---
+seoDescription: Log all unhandled exceptions to provide developers with sufficient information to fix bugs when they occur, using a customized exception management block that logs to a database via a web service.
+type: rule
+title: Do you log all errors (with SSW Exception Manager)?
+uri: do-you-log-all-errors-with-ssw-exception-manager
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
+created: 2024-03-18T21:09:35.000Z
+guid: e34839fb-b482-4c4c-8e0d-e6a5565a6f31
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+---
+
+<introEmbed
+  body={<>
+All unhandled exceptions should be logged to provide developers with sufficient information to fix bugs when they occur. There are two options we for logging exceptions:
+  </>}
+/>
+The Microsoft **Exception Management Application Block**Microsoft provides full source code for the EMAB, which is fully extensible with custom logging target extensions. We decided to customize the EMAB to produce the SSW Exception Management Block, which logs exceptions to a database using a web service, allowing us to keep a history of all exceptions.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Exception Reporting Web Service',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-log-all-errors-with-ssw-exception-manager/exceptionreportingservice.gif"
+/>
+
+Your code should not contain any empty catch blocks as this can hamper exception handling and debugging.
+
+We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/) to check for this rule.
+
+We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements Exception Logging and Handling

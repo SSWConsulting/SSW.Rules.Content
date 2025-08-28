@@ -1,0 +1,67 @@
+---
+seoDescription: People misunderstand sarcasm in text messages due to lack of tone and voice cues, leading to misinterpretation and potential miscommunication.
+type: rule
+archivedreason:
+title: Do you know that people misunderstand sarcasm in text?
+guid: d057ce56-3e74-4639-92db-7e2ab191fefe
+uri: avoid-sarcasm-misunderstanding
+created: 2024-05-11T08:32:28.000Z
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related: []
+redirects:
+  - do-you-know-that-people-misunderstand-sarcasm-in-email
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Chloe Lin [SSW]
+createdByEmail: chloelin@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+According to Sydney Morning Herald's "[Flame emails missing the mark](https://www.smh.com.au/national/flame-emails-missing-the-mark-20060216-gdmze2.html)":
+
+> "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
+  </>}
+/>
+Because there is no "tone of voice" in an email, sarcasm can easily be misinterpreted by the receiver. You can use a smiley face or emoji to soften it up a bit.
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Keeping our office clean"
+  body={<>
+    ## John
+
+Make sure your office is clean when clients come in - you might scare them away with all that mess.
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Example",
+    shouldDisplay: false
+  }}
+/>
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Keeping our office clean"
+  body={<>
+    ## Hey John
+
+Make sure your office is clean when clients come in - you might scare them away with all that mess :)
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Example",
+    shouldDisplay: false
+  }}
+/>

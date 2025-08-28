@@ -1,0 +1,45 @@
+---
+seoDescription: TypeScript infers types for you most of the time, except when initializing variables or function parameters.
+type: rule
+archivedreason:
+title: Do you describe types sparsely?
+guid: 8ee9d1a7-4f85-4548-83fa-13d702b45be4
+uri: describe-types-sparsely
+created: 2016-04-28T19:44:54.000Z
+authors:
+  - title: Steve Leigh
+    url: https://ssw.com.au/people/steve-leigh
+related: []
+redirects:
+  - do-you-describe-types-sparsely
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+This comes down to personal preference, but there are only a few times when you must define a type in TypeScript, for example:
+
+1. When initializing a variable with an ambiguous value (eg. null)
+2. Function parameters
+
+Of course, there are also times when you may want to be more explicit – you may want to have an interface as a function return value instead of the class, for example.
+  </>}
+/>
+The rest of the time, rely on TypeScript to infer the type for you.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Except for the input parameter, TypeScript can infer all the types for this function',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/describe-types-sparsely/describe.png"
+/>

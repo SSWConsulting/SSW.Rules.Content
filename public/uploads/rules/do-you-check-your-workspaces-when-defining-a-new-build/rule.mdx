@@ -1,0 +1,53 @@
+---
+seoDescription: Defining a new build in TFS requires checking workspaces to ensure only relevant files are included.
+type: rule
+archivedreason:
+title: Do you check your Workspaces when defining a new build?
+guid: a8c4e7bc-555d-4420-80a5-29b0d2924d94
+uri: do-you-check-your-workspaces-when-defining-a-new-build
+created: 2012-03-28T06:01:49.000Z
+authors:
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Daragh Bannigan
+    url: https://twitter.com/dbannigan
+    noimage: true
+related: []
+redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Daragh
+createdByEmail: Daragh@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+When defining a build, you should always check the Workspace tab. Only the workspace relevant to your build should be included.
+  </>}
+/>
+If you have a number of Team Projects open from the same TFS Project Collection, all of their workspaces will be included by default. You should remove those workspaces that aren’t being used otherwise the build server will get the source for every workspace in this list before starting a build.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example – Several workspaces from other team projects are included by default',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-check-your-workspaces-when-defining-a-new-build/bad_workspace.png"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example – Only the relevant workspace has been included in this build definition',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-check-your-workspaces-when-defining-a-new-build/good_workspace.png"
+/>

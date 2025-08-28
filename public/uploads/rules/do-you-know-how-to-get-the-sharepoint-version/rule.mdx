@@ -1,0 +1,56 @@
+---
+seoDescription: Get the latest SharePoint version quickly and easily through a simple file check or URL query.
+type: rule
+archivedreason:
+title: Do you know how to get the SharePoint version?
+guid: 6083d824-bf33-47e2-9c88-6cbf86e00dec
+uri: do-you-know-how-to-get-the-sharepoint-version
+created: 2013-09-10T07:05:38.000Z
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+You want to be on the latest version of SharePoint.
+
+There are multiple ways to get it:
+
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Check SharePoint DLL version',
+  shouldDisplay: true
+} } />
+
+
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Check `http://<CentralAdminSite>/\_admin/FarmServers.aspx`',
+  shouldDisplay: true
+} } />
+
+
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`',
+  shouldDisplay: true
+} } />
+
+
+See [Get SharePoint version number of your platform quickly](https://jeremythake.com/get-sharepoint-version-number-of-your-platform-quickly-6d092d2d1aff) for details.
+  </>}
+/>
+```dotnet
+vti\_encoding:SR|utf8-nl
+vti\_extenderversion:SR|16.0.0.4327
+```
+
+**Figure: On SharePoint 2016, this is what you get for intranet.ssw.com.au for example**

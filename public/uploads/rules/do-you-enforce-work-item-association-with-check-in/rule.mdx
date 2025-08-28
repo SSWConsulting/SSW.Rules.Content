@@ -1,0 +1,87 @@
+---
+seoDescription: Enforce work item association with check-in to link code changes to user requirements and ensure end-to-end traceability in your TFS project.
+type: rule
+archivedreason:
+title: Do you enforce work item association with check-in?
+guid: 50f6576b-571d-490c-8748-6559b6375346
+uri: do-you-enforce-work-item-association-with-check-in
+created: 2011-11-18T03:52:43.000Z
+authors:
+  - title: David Klein
+    url: https://ssw.com.au/people/david-klein
+    noimage: true
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
+related: []
+redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+One of the big advantage of using TFS is end to end traceability, however this requires the developer to do one extra step to link their code (changeset) with requirements (work items). Code is the body of software, while user requirement is the spirit. Work Item association feature helps us to link the spirit and body of software together. This is especially useful when you trying to identify the impact of a bug in term of user requirements.
+  </>}
+/>
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad Example: No work item is associated with changeset',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-enforce-work-item-association-with-check-in/WorkItemAss-1.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good Example: No work item is associated with changeset',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-enforce-work-item-association-with-check-in/WorkItemAss-2.jpg"
+/>
+
+**More Information**
+In order to achieve this, developers need to choose the Work Item tab when check-in and "associate" code with a related work item.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Associate Work Item with Changeset',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-enforce-work-item-association-with-check-in/WorkItemAss-3.jpg"
+/>
+
+As the project administrator, you can take one step further to enable "Work Item Check-in Policy" to enforce this rule in your team.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Always enable the “Work Items check-in policy”',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-enforce-work-item-association-with-check-in/WorkItemAss-4.jpg"
+/>

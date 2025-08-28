@@ -1,0 +1,61 @@
+---
+seoDescription: Distributing a product in Release mode while retaining debugging information.
+type: rule
+title: Do you distribute a product in Release mode?
+uri: do-you-distribute-a-product-in-release-mode
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
+related: []
+redirects: []
+created: 2009-12-04T08:45:01.000Z
+archivedreason: null
+guid: fe6201ba-9b95-420c-80f5-9e02b14d12b2
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+We like to have debugging information in our application, so that we can view the line number information in the stack trace. However, we won't release our product in Debug mode, for example if we use "#if Debug" statement in our code we don't want them to be compiled in the release version.
+
+If we want line numbers, we simply need **Debugging Information** . You can change an option in the project settings so these will be generated in when using Release build.
+  </>}
+/>
+```csharp
+#if DEBUG MessageBox.Show("Application started"); #endif
+```
+
+**Figure: Code that should only run in Debug mode, we certainly don't want this in the release version.**
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Set "Generate Debugging Information" to True on the project properties page (VS 2003)',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-distribute-a-product-in-release-mode/DebugConfiguration.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Set "Debug Info" to "pdb-only" on the Advanced Build Settings page (VS 2005)',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-distribute-a-product-in-release-mode/VS2005AdvancedBuildSettings.gif"
+/>

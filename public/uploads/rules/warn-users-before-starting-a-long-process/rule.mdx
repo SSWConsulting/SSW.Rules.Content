@@ -1,0 +1,45 @@
+---
+seoDescription: Warn users before starting long processes in applications by showing a warning message with time estimates.
+type: rule
+archivedreason:
+title: Do you warn users before starting a long process?
+guid: 9f0f545d-1ecc-48f2-b36a-3aa1ca659531
+uri: warn-users-before-starting-a-long-process
+created: 2018-04-25T20:50:37.000Z
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+- do-you-warn-users-before-starting-a-long-process
+
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+When your application is about to start a long process (more than 30 seconds) it should first show a warning message to let the user know approximately how long it will take.
+  </>}
+/>
+You will need to have 2 things:
+
+1. A table to record processes containing the following fields:
+    * ALogRecord (DateCreated, FunctionName, EmpUpdated, ComputerName, ActiveForm, ActiveControl, SystemsResources, ConventionalMemory, FormsCount, TimeStart, TimeEnd, TimeTaken, RecordsProcessed, Avg, Note, RowGuide, SSWTimeStamp)
+
+2. A function to change the number of seconds lapsed to words - see the "1 minute, 9 seconds" in the above messagebox - this requires a `SecondsToWords()` function shown
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - Code Auditor message warning this is a long process',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/warn-users-before-starting-a-long-process/lengthyoperation.jpg"
+/>

@@ -1,0 +1,70 @@
+---
+seoDescription: Learn when to refactor functions and simplify code using Visual Studio's built-in Code Metrics tool and Cyclomatic Complexity analysis.
+type: rule
+title: Do you know when functions are too complicated?
+uri: know-when-functions-are-too-complicated
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+  - do-you-know-when-functions-are-too-complicated
+created: 2020-03-12T21:53:03.000Z
+archivedreason: null
+guid: 3198a586-9314-431d-8226-51dce77fac4f
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+You should generally be looking for ways to simplify your code (e.g. removing heavily-nested case statements). As a minimum, look for the most complicated method you have and check whether it needs simplifying.
+
+In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
+  </>}
+/>
+1. Go to Analyze | Calculate Code Metrics | For Solution
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Launching the Code Metrics tool within Visual Studio',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/know-when-functions-are-too-complicated/calculate_code_metrics.jpg"
+/>
+
+2. Look at the function with the largest Cyclomatic Complexity number and consider refactoring to make it simpler.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/know-when-functions-are-too-complicated/code_metrics_report.jpg"
+/>
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
+**Tip:** Aim for "green" against each function's Maintainability Index.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>

@@ -1,0 +1,62 @@
+---
+seoDescription: Know how to use font tags? Don't! They're deprecated since HTML 4. Use CSS classes for styling instead.
+type: rule
+archivedreason:
+title: Do you know to not use FONT tags?
+guid: e222a40a-c652-473c-8a43-fd86b3b67d13
+uri: do-you-know-font-tags-are-no-longer-used
+created: 2012-07-17T21:35:41.000Z
+authors:
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related: []
+redirects: []
+lastUpdated: 2024-08-07T01:23:46.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4... so it should **not** be used. Learn more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).
+  </>}
+/>
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;font&gt;Some text&lt;/font&gt;
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example - Using deprecated HTML &lt;font&gt; tag',
+    shouldDisplay: true
+  }}
+/>
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;p&gt;My brother has \<span style="color:blue"\>blue\</span\> eyes.&lt;/p&gt;
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts\' variations',
+    shouldDisplay: true
+  }}
+/>
+
+**Tip:** The best practice is to CSS classes to define the font family, size, and color.
+
+<asideEmbed
+  variant="codeauditor"
+  body={<>
+    We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>

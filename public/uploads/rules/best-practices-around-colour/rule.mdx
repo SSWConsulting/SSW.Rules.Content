@@ -1,0 +1,119 @@
+---
+seoDescription: Best practices around colour usage in reports and visualizations, ensuring clarity and effectiveness through semantic colours, minimalism, consistent palette, and consideration for colour blindness.
+type: rule
+title: Do you know the best practices around colour?
+uri: best-practices-around-colour
+authors:
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+related:
+  - color-contrast
+redirects:
+  - do-you-know-the-best-practices-around-colour
+created: 2020-10-14T17:07:49.000Z
+archivedreason: null
+guid: 632c4694-2279-4ab4-b33d-8e42edf6ac44
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+Using colour in reports can bring them to life, or else make them confusing and noisy, so make sure youre intentional with them.
+  </>}
+/>
+### Semantic colours
+
+Remember that some colours have a shared understanding of their meaning:
+
+* **Red** means pay attention or danger
+* **Green** often means good
+* Traffic lights can be used for showing 3 levels
+* Cold, Warm, Hot should have appropriate colours that make sense without having to look at the legend
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example – Non-semantic colours cause confusion',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/colours-powerbi-bad.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example – Obvious colours used for Cold, Warm, and Hot',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/colours-powerbi-good.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example – Using the correct state colours (e.g. In Australia: NSW = light blue, QLD = maroon, VIC = dark blue, etc)',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/state-colors.png"
+/>
+
+### Tufte minimalism
+
+Edward Tufte is often quoted as saying that, on a report where you want to draw the eye to exceptions or out of bounds data, colour should only be used to highlight what you want the user to see.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example – The black stands out as everything else looks translucent',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/tufte-good.png"
+/>
+
+### Consistent Palette
+
+Make sure you stick with one colour palette, so if you use one pastel colour, make them all pastel. If you have one bold colour, make them all bold
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example – Inconsistent palette feel like the colours clash',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/pallete-bad.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example – Consistent colour palette',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/best-practices-around-colour/pallete-good.jpg"
+/>
+
+### Colour Blind palette
+
+Just to be difficult, it is worth noting that red/green colour blindness is the most common type, which may make standard semantic colours sometimes less desirable. In this case, use blues and oranges for contrast instead.

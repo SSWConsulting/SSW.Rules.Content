@@ -1,0 +1,49 @@
+---
+seoDescription: When developing command-line applications, providing a list of arguments and help on usage is crucial for effective user interaction.
+type: rule
+title: Do you provide list of arguments?
+uri: provide-list-of-arguments
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan/
+created: 2024-04-20T23:56:26.000Z
+guid: d0bd94cb-018e-4144-a1ad-492a1d499ea1
+related:
+  - cocona-command-line-tools
+lastUpdated: 2025-07-02T23:25:29.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+---
+
+<introEmbed
+  body={<>
+When you develop an application that supports command line, you must provide a list of arguments / help on how to use the application through command line.
+
+It can be as easy as typing: `\[ApplicationName].exe /?` for listing the arguments.
+  </>}
+/>
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example - Do no provide supported argument through /?',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/provide-list-of-arguments/nolistofarguments.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - Provide supported argument through /?',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/provide-list-of-arguments/listofarguments.jpg"
+/>

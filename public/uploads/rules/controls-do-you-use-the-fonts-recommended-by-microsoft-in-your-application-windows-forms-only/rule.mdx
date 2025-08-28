@@ -1,0 +1,61 @@
+---
+seoDescription: Ensure a consistent reading experience by using Microsoft-recommended Tahoma font on Windows Forms, while allowing controls to use alternative fonts for specific information.
+type: rule
+archivedreason: Deprecated
+title: Controls - Do you use the fonts recommended by Microsoft in your application? (Windows Forms Only)
+guid: 733e7da0-e5d7-4224-8362-5f6ca804f118
+uri: controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only
+created: 2012-11-27T09:17:32.000Z
+authors: []
+related: []
+redirects:
+  - controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-(windows-forms-only)
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+Some font are easier to read then others, at SSW we follow Microsoft's Visual Design Guidelines. This means we use Tahoma 8pt as our font of choice.
+  </>}
+/>
+Ensure all fonts on your forms are set to Tahoma but we allow controls to use a different font. This is because certain information is better displayed in a different font. For example a Textbox to show code should use Courier instead of Tahoma.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'Bad example - This form uses a non-standard font, and it is hard to read',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only/../../assets/FontBadArialNarrow.gif"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - This form uses Tahoma, and it is easy to read',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only/../../assets/FontGoodTahoma.gif"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - This form uses Tahoma, and the RichTextBox displays source code using Courier New',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only/../../assets/FontCourierNew.gif"
+/>

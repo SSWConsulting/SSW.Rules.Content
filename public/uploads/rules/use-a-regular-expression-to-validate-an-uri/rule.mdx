@@ -1,0 +1,64 @@
+---
+seoDescription: Validate URLs effectively using a well-crafted regular expression.
+type: rule
+title: Do you use a regular expression to validate an URL?
+uri: use-a-regular-expression-to-validate-an-uri
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+  - do-you-use-a-regular-expression-to-validate-an-url
+created: 2018-04-26T17:31:11.000Z
+archivedreason: null
+guid: 45e21c54-baae-4c39-a245-8ce58c49978a
+lastUpdated: 2023-08-15T17:19:45.000Z
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+A regex is the best way to verify an URI.
+  </>}
+/>
+```csharp
+public bool IsValidUri(string uri)
+{
+try
+{
+Uri testUri = new Uri(uri);
+return true;
+}
+catch (UriFormatException ex)
+{
+return false;
+}
+}
+```
+
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Figure: Bad example of verifying URI',
+  shouldDisplay: true
+} } />
+
+
+```csharp
+public bool IsValidUri(string uri)
+{
+// Return true if it is in valid Uri format.
+return System.Text.RegularExpressions.Regex.IsMatch( uri,@"^(http|ftp|https)://([^\/][\w-/:]+\.?)+([\w- ./?/:/;/\%&=]+)?(/[\w- ./?/:/;/\%&=]*)?");
+}
+```
+
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Figure: Good example of verifying URI',
+  shouldDisplay: true
+} } />
+
+
+You should have unit tests for it, see our [Rules to Better Unit Tests](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx) for more information.

@@ -1,0 +1,73 @@
+---
+seoDescription: Ensure task assignment clarity by explicitly adding recipients' names to the "To -" field in emails.
+type: rule
+archivedreason:
+title: Do you know who to put in the "To:" field?
+guid: 292307eb-59d1-453e-be8c-f83e8dd0368f
+uri: do-you-know-who-to-put-in-the-to-field
+created: 2011-04-25T07:13:08.000Z
+authors:
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - do-you-include-the-name-of-the-person-you-address-on-the-first-line
+redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+Make sure that anyone tasked in emails is explicitly added to the "To:" line. This helps them identify emails where they have tasks.
+
+A fair percentage of people open an email and don’t read who is on the "To:" or "Cc:" lines.
+  </>}
+/>
+<emailEmbed
+  from=""
+  to="@SSWScrumDogs"
+  cc=""
+  bcc=""
+  subject="Northwind App - Update work items"
+  body={<>
+    ## Hi All
+
+Can everyone make sure to update your work items as you work on them?
+
+## Hi Mark
+
+1. At the end of the day, please double check the above was done
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Mark can’t search for tasks that have been assigned to him",
+    shouldDisplay: true
+  }}
+/>
+
+<emailEmbed
+  from=""
+  to="@SSWScrumDogs, Mark"
+  cc=""
+  bcc=""
+  subject="Northwind App - Update work items"
+  body={<>
+    ## Hi All
+
+Can everyone make sure to update your work items as you work on them?
+
+## Hi Mark
+
+1. At the end of the day, please double check the above was done
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Mark can filter his emails based on whether his name is on the "To:" field",
+    shouldDisplay: true
+  }}
+/>

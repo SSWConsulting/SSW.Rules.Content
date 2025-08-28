@@ -1,0 +1,52 @@
+---
+seoDescription: Avoid using non-strongly-typed connection strings to improve code maintainability and reduce errors.
+type: rule
+title: Do you avoid using non strongly typed connection strings?
+uri: avoid-using-non-strongly-typed-connection-strings
+authors:
+  - title: Igor Goldobin
+    url: https://ssw.com.au/people/alumni/igor-goldobin/
+created: 2024-03-11T17:54:44.000Z
+archivedreason: Update connection string management - favor IOptions pattern over Visual Studio's Application Settings. Offers robust, flexible config in .NET Core, aligning with modern development practices. Refer to Microsoft's IOptions pattern in .NET documentation for implementation guidance.
+guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+---
+
+<introEmbed
+  body={<>
+Using non strongly typed connection strings means that you have to hard code at some point in your code. Once you change the name of your connection strings, you have to change the code that references them too.
+
+Visual Studio provides a convenient tool, called Application Settings, that allows you to manage all of your connection strings from only one location. You can use its wizard to compose connection strings quickly and correctly. Also, it provides a management class to read and write all of your connection strings.
+  </>}
+/>
+```cs
+var connString = System.Configuration.ConfigurationManager.ConnectionStrings["MyProj.Properties.Settings.ConnectString"].ToString();
+var conn = new SqlConnection(ConnString);
+var cmd = new SqlCommand(strSql, conn);
+conn.Open();
+cmd.ExecuteNonQuery();
+conn.Close();
+```
+
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Bad example - Using non strongly typed connection strings, the highlighted text is hard code actually',
+  shouldDisplay: true
+} } />
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: 'Good example - Using Application Settings to configure connection strings',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/avoid-using-non-strongly-typed-connection-strings/conn.gif"
+/>

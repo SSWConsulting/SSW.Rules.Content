@@ -1,0 +1,95 @@
+---
+seoDescription: Identify and refactor "smelliest code" using Visual Studio's Code Metrics to pinpoint hotspots, then collaborate with responsible developers.
+type: rule
+archivedreason:
+title: Do you know how to laser in on the smelliest code?
+guid: c69ca2e5-0323-430e-ae26-62a753d4ace5
+uri: do-you-know-how-to-laser-in-on-the-smelliest-code
+created: 2012-04-03T05:19:38.000Z
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+related: []
+redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: DamianBrady
+createdByEmail: DamianBrady@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics feature to identify "Hot Spots" that require investigation.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "badExample",
+    figure: 'The bad was is to browse the code',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/lotto-balls.jpeg"
+/>
+  </>}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Run Code Metrics in Visual Studio',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/VS 11 Code Metrics.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/CodeMetrics_3_1710232021935.png"
+/>
+
+Identifying the problem areas is only the start of the process. From here, you should speak to the developers responsible for this dodgy code. There might be good reasons why they haven't invested time on this.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Find out who the devs are by using CodeLens and start a conversation',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/codelens-start-conversation.png"
+/>
+
+**Tip:** Learn [the benefits of Source Control](/do-you-know-the-benefits-of-using-source-control).
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Suggestion to Microsoft:** Allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>

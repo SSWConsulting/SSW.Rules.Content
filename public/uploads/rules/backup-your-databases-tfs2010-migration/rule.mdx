@@ -1,0 +1,60 @@
+---
+seoDescription: Migrate TFS 2010 smoothly by backing up your databases to ensure a safe transition.
+type: rule
+archivedreason:
+title: Do you backup your databases for TFS 2010 migration?
+guid: 51ffe26f-c0cf-418e-be78-e7e742be6e99
+uri: backup-your-databases-tfs2010-migration
+created: 2021-12-07T02:57:16.000Z
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+  - do-you-backup-your-databases
+lastUpdated: 2024-08-01T23:58:11.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+---
+
+<introEmbed
+  body={<>
+Run your daily backups to provide a safety net should things go wrong.
+  </>}
+/>
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
+1. Confirm that the TFS2008 databases were backed up last night.
+   a. TfsActivityLogging
+   b. TfsBuild
+   c. TfsIntegration
+   d. TfsVersionControl
+   e. TfsWarehouse
+   f. TfsWorkItemTracking
+   g. TfsWorkItemTrackingAttachments
+
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'If you can’t see the physical .bak file for all these, chase up your DBA',
+    shouldDisplay: true
+  }}
+/>
+
+2. Create a backup of the TFS2008 databases by running your Daily Backup maintenance plan on TFS2008
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'Before starting, kick off the daily backups',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/backup-your-databases-tfs2010-migration/RunDailyBackup.png"
+/>

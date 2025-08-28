@@ -1,0 +1,51 @@
+---
+seoDescription: C# developers can simplify variable declarations by using the "var" keyword to infer the type from the initial assignment.
+type: rule
+title: Do you use "var"?
+uri: use-var
+authors:
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+created: 2021-12-13T23:28:35.000Z
+related:
+  - consistent-code-style
+guid: edd8d397-3651-47c0-8737-fa38152558d1
+lastUpdated: 2024-05-27T19:07:57.000Z
+lastUpdatedBy: Bryden Oliver [SSW]
+lastUpdatedByEmail: 77371877+brydeno@users.noreply.github.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+---
+
+<introEmbed
+  body={<>
+In C# the "var" keyword can be used instead of providing an explicit type when declaring a variable. The type is then inferred from the initial assignment of the variable.
+  </>}
+/>
+It is just a short hand to save developers from typing out the type of a variable.
+
+```
+List<string> items = new List<string>();
+```
+
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Figure: Bad example - You should just use "var" instead of "List<string>"',
+  shouldDisplay: true
+} } />
+
+
+```
+var item = new List<string>();
+```
+
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Figure: Good example - Using "var" to save a few keystrokes and reduce repetition',
+  shouldDisplay: true
+} } />
+
+
+This can be kept consistent by creating an [editorconfig file](/consistent-code-style) which can then generate compile time warnings.
+
+An [example editor config](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/.editorconfig), look for the **var preferences**.

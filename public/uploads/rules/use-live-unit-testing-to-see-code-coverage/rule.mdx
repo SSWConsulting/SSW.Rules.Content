@@ -1,0 +1,70 @@
+---
+seoDescription: Enable Live Unit Testing in Visual Studio to gain insight into test coverage and receive immediate feedback on code changes.
+type: rule
+title: Do you use Live Unit Testing to see code coverage?
+uri: use-live-unit-testing-to-see-code-coverage
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+  - do-you-use-live-unit-testing-to-see-code-coverage
+created: 2020-03-12T23:43:11.000Z
+archivedreason: null
+guid: 7cb53405-eee4-4181-9f61-b7253ce9221d
+lastUpdated: 2022-07-29T17:32:36.000Z
+lastUpdatedBy: Lee Hawkins [SSW]
+lastUpdatedByEmail: 106290015+leehawkinsssw@users.noreply.github.com
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+---
+
+<introEmbed
+  body={<>
+By enabling Live Unit Testing in a Visual Studio solution, you gain insight into the test coverage and the status of your tests.
+
+Whenever you modify your code, Live Unit Testing dynamically executes your tests and immediately notifies you when your changes cause tests to fail, providing a fast feedback loop as you code.
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** The Live Unit Testing feature requires Visual Studio Enterprise edition
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+  </>}
+/>
+To enable Live Unit Testing in Visual Studio, select Test | Live Unit Testing | Start
+
+You can get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window:
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={{
+    preset: "default",
+    figure: 'This code is covered by 3 unit tests, all of which passed',
+    shouldDisplay: true
+  }}
+  src="/uploads/rules/use-live-unit-testing-to-see-code-coverage/live-unit-testing-good.jpg"
+/>
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** If you find a method that isn't covered by _any_ unit tests, consider writing a unit test for it. You can simply right-click on the method and choose Create Unit Tests to add a unit test in context.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+For more details see [Joe Morris’s video on .NET Tooling Improvements Overview – Live Unit Testing](https://www.youtube.com/watch?v=kBlLi4BYCKk).

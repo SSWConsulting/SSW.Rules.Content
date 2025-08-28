@@ -1,0 +1,79 @@
+---
+seoDescription: Discover how to create efficient ChatGPT prompt templates for repetitive tasks
+type: rule
+title: Do you create ChatGPT prompt templates for repeatable tasks?
+uri: chatgpt-prompt-templates
+authors:
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+created: 2023-05-05T21:40:16.000Z
+guid: 56c3db26-d6c1-40d0-91cf-8d0487e2ff23
+lastUpdated: 2024-02-08T19:04:32.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+---
+<introEmbed
+  body={<>
+When using ChatGPT, you will eventually find yourself typing in similar prompts over and over for common tasks. This can get annoying!
+  </>}
+/>
+Creating prompt templates can save time and improve the consistency of outputs. Templates should be a starting point with the necessary elements (role, result, intent, context, and constraint), that you tweak every time depending on your needs..
+
+Here are some examples:
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Responses to clients**
+   "As a &#123;&#123; ROLE &#125;&#125;, draft a response to a client's question regarding &#123;&#123; ISSUE &#125;&#125; with our &#123;&#123; PRODUCT/SERVICE &#125;&#125;.
+   (Goal: Address the concern, Constraint: Maintain a professional and empathetic tone)"
+
+**Debugging code**
+   "As a software developer, identify the possible causes of the error in the following code snippet and suggest fixes. &#123;&#123; PASTE CODE &#125;&#125;.
+   (Goal: Resolve the bug, Constraint: Provide clear explanations and solutions)"
+
+**Market research**
+   "As a market research analyst, provide an overview of the competitive landscape for &#123;&#123; INDUSTRY &#125;&#125; in &#123;&#123; REGION &#125;&#125;.
+   (Goal: Identify key competitors, Constraint: Focus on the top 5 companies)"
+
+**Social media post**
+   "As a social media manager, generate 5 creative caption ideas for our &#123;&#123; COMPANY &#125;&#125; account that engage our audience and promote &#123;&#123; PRODUCT/SERVICE &#125;&#125;.
+   (Goal: Increase engagement, Constraint: Suitable for &#123;&#123; PLATFORM &#125;&#125;)
+
+**Meeting agenda**
+   "As a team leader, create an agenda for our upcoming &#123;&#123; MEETING TYPE &#125;&#125; with a focus on &#123;&#123; KEY TOPICS &#125;&#125;.
+   (Goal: Facilitate productive discussions, Constraint: Limit the meeting to &#123;&#123; DURATION &#125;&#125;)"
+
+**Sales copy**
+   "As an experienced copywriter, please transform the given product into a comprehensive and precise list of benefits. Based on the features and benefits, identify and describe the most suitable target customer including their values, aspirations, pain points, and challenges. Then, considering my product and the ideal customer, use the AIDA formula to write an email for my potential customers. Then, write the copy for my webpage in the style of Joseph Sugarman. Remember the list of features and benefits, and also the ideal customer we've discussed. Brainstorm 10 different headlines ideas following one of the 4 ‘U’s: urgent, unique, ultra-specific and useful. Then generate a persuasive CTA to put at the end that encourages the ideal customer to purchase the product or service from my website. Let's work step by step to get the best answer."
+
+**Blog post**
+   "As my blog writer, first read these blog posts to understand my writing style. Then, write a blog post about &#123;&#123; TOPIC &#125;&#125;.
+    (Goal: be fun and engaging, Constraint: stick to my writing style)
+    &#123;&#123; PREVIOUS BLOG POSTS &#125;&#125;"
+
+**Prompt for an image generator**
+   "You are a prompt generator for image generation diffusion models. Upon receiving a visual description, craft a detailed prompt that can be seamlessly integrated into a diffusion model. The prompt should be enriched with a range of photographic jargon, emphasizing lens specifications and lighting descriptions, and the shot type. It should be vivid and succinct. I want an image of &#123;&#123; GOAL &#125;&#125;"
+
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+Tips:
+
+* Adoption - Share the templates within your team or organization to ensure everyone benefits from the consistency and efficiency
+* Keep it up-to-date - Work with your team members on using ChatGPT, and modify templates as needed
+
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Good example: SSW TV has [templates for video production](/chatgpt-prompts-for-video-production).',
+  shouldDisplay: true
+} } />
