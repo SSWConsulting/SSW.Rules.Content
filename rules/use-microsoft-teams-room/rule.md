@@ -1,16 +1,25 @@
 ---
 type: rule
 title: Do you use Microsoft Teams Rooms?
+seoDescription: Discover how Microsoft Teams Rooms with Logitech hardware
+  delivers effortless, one-touch video meetings that eliminate setup hassles and
+  boost collaboration in any modern workspace.
 uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki
+related:
+  - the-best-boardroom-av-solution
 created: 2023-09-05T08:15:32.788Z
 guid: e6f53005-699e-4594-b2f3-e0254115de07
 ---
 In today's fast-paced work environment, efficient communication and collaboration are paramount. However, we often encounter a common and frustrating pain point when entering a meeting room: the time-consuming and error-prone process of setting up and configuring the technology.
+
+`youtube: https://www.youtube.com/embed/ATq5ukOA53U`
+**Video: Effortless Meetings with Logitech Tap Rally Bar + Microsoft Teams Room | Kaique Biancatti (6 min)**
+
 
 <!--endintro-->
 
