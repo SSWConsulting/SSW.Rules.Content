@@ -123,9 +123,22 @@ Your Done Videos should follow the following format:
 
 ## Tip #3: Look sharp when presenting
 
-If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
+If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt.
 
-## Tip #4: Frame yourself properly
+## Tip #4: Be friendly and natural  
+
+Smile, speak naturally, and imagine you're talking to a friend — it helps build connection and keeps viewers engaged. See this great example by Ben Cull:
+
+`youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
+**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)**
+
+::: info
+**Looking to improve your presentation skills?**
+
+See our tips to [craft and deliver engaging presentations](/craft-and-deliver-engaging-presentations).
+:::
+
+## Tip #5: Frame yourself properly
 
 Have your webcam height at eye level for engagement. Make sure there is sufficient headroom - not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame).
 
@@ -139,11 +152,11 @@ Ensure your branded clothing is visible and the background is clean and tidy, al
 ![Figure: Good example - Good framing, lights and background](https://github.com/user-attachments/assets/204f8986-5146-4e0c-9c5f-34985728d03d)
 :::
 
-## Tip #5: Get your lighting right
+## Tip #6: Get your lighting right
 
 Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting
 
-## Tip #6: Record in one take
+## Tip #7: Record in one take
 
 Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. "Whoops, clicked build accidently. Let me just refresh and go again"
 
@@ -151,7 +164,7 @@ Record it in one take, but start again if it's super bad. If something out-of-yo
 If your video is short (1-2 mins), then starting again may be optimal. However, if your video is longer ( more than 5 minutes), then try to incorporate any accidental errors and keep going.
 :::
 
-## Tip #7: Keep the UI clean
+## Tip #8: Keep the UI clean
 
 When using a browser, IDE, or any relevant app, make sure the interface is readable, clean and free of distractions.
 
@@ -163,7 +176,7 @@ When using a browser, IDE, or any relevant app, make sure the interface is reada
 * **Everywhere** - [Don't share sensitive information](/hide-sensitive-information)
 
 ::: info
-**Extra tip:** Make your **mouse cursor larger and more visible** by increasing its size and adding a bright color.
+**Extra:** Make your **mouse cursor larger and more visible** by increasing its size and adding a bright color.
 
 This helps viewers follow your actions easily — especially on high-resolution screens or busy UIs.
 
@@ -180,19 +193,9 @@ This helps viewers follow your actions easily — especially on high-resolution 
 ![Figure: Good example - Email is popped out to hide messages, and reminder has been cleared](good_example_email.png)
 :::
 
-## Tip #8: Use clear audio  
+## Tip #9: Use clear audio  
 
 Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
-
-## Tip #9: Be friendly and natural  
-
-Smile, speak naturally, and imagine you're talking to a friend — it helps build connection and keeps viewers engaged.
-
-::: info
-**Looking to improve your presentation skills?**
-
-See our tips to [craft and deliver engaging presentations](/craft-and-deliver-engaging-presentations).
-:::
 
 ## Tip #10: Do a quick test first
 
