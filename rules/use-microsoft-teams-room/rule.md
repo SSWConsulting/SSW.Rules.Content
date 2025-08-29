@@ -72,7 +72,15 @@ After you've acquired the gear, then it's time to see how to use your Microsoft 
 
 1. Include TeamsRoom@northwind.com in your Outlook appointments.
 2. Scheduled appointments will appear on the room's screen.
-3. On the touchscreen, join the meeting by clicking "Join" when the appointment starts.
+3. On the touchscreen, join the meeting by clicking **"Join"** when the appointment starts.
+
+## Option 4 - Forward the Appointment to the Microsoft Teams Room
+
+1. If you already have a meeting scheduled in Outlook or Teams, open the calendar appointment.
+2. Forward the invitation to **TeamsRoom@northwind.com** (the email address assigned to your Teams Room device).
+3. The meeting will automatically appear on the room’s touchscreen console.
+4. When it’s time for the meeting, simply walk in and tap **“Join”** on the console to get started.
+
 
 ## Bonus - Share your Laptop Screen
 
