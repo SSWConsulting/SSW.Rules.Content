@@ -2,7 +2,7 @@
 seoDescription: Do you have a negative keyword list on your campaigns to prevent wasting money on irrelevant search terms?
 type: rule
 archivedreason:
-title: Do you have a negative keyword list on your campaigns?
+title: SEM - Do you have a negative keyword list on your campaigns?
 guid: 8f1e5fe1-b534-488d-86cf-26cd2d77145d
 uri: how-to-create-a-negative-keyword-list
 created: 2019-03-26T22:02:27.0000000Z
