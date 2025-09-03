@@ -26,10 +26,10 @@ Tip: Remember to untick the boxes that automatically import the budget. This is 
 
 Some important points to remember before using Microsoft Ads:
 
-- They charge in USD, not in AUD; so you might have to adjust your budget to the currency.
-- Remember to check your budget value right after importing your campaigns. They could have been transferred accidentally.
+* They charge in USD, not in AUD; so you might have to adjust your budget to the currency.
+* Remember to check your budget value right after importing your campaigns. They could have been transferred accidentally.
 
-If you need further instructions, you can find more at Microsoft Ads support: https://help.ads.microsoft.com/apex/index/3/en-us/51050/
+If you need further instructions, you can find more at Microsoft Ads support: <https://help.ads.microsoft.com/apex/index/3/en-us/51050/>
 
 ![](Msads.png)
 **Figure: Import Campaigns default selection will match your budget from Google**
