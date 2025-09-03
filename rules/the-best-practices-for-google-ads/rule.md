@@ -38,7 +38,7 @@ Note: You can start out with more keywords, then narrow it down to the best perf
 
 <!--endintro-->
 
-![Figure: Always check your Ad strength](ad-strength.png)
+![Figure: Always check your Ad strength. You can check in Google Ads via Ad Assets | Ads | Ad Strength ](ad-strength.png)
 
 ### Additional resources
 
