@@ -29,7 +29,7 @@ Use AI editing when you need **surgical changes** and fast iteration:
 Avoid or get explicit approval for:
 
 * Sensitive content (medical, legal/forensic, news)  
-* Deceptive changes (e.g., misrepresenting events)  
+* Deceptive changes (e.g. misrepresenting events)  
 * Portrait retouching without consent or policy coverage
 
 ## From text-to-image to intelligent editing
