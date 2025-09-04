@@ -44,13 +44,15 @@ Avoid or get explicit approval for:
 **Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
 ::: bad  
-![Figure: Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
+![Figure: Bad example - Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
 :::  
+
+### Enter Nano Banana
 
 **Today's shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
 ::: good  
-![Figure: Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
+![Figure: Good example - Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
 :::  
 
 ## What makes editing-first models different?
@@ -99,7 +101,7 @@ Use these templates and tweak the nouns:
 
 Prompt: “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
 :::
-**Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively.**
+**Figure: Here we have 13 images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively.**
 
 ::: greybox
 
@@ -113,13 +115,13 @@ Prompt: “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
 
 ![](gzsnxlyxcaasy2_.jpg)
 
-Prompt: “Create a Nike ad with this umage with text copy"
+Prompt: “Create a Nike ad with this image with text copy"
 :::
 **Figure: Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption..**
 
-## Provenance & trust (label your edits)
+## Origin & trust (label your edits)
 
-As AI editing becomes standard, **provenance** is essential. **SynthID** is an industry approach that embeds an **imperceptible, pixel-level watermark** at generation/edit time (in addition to any visible “AI” label). It’s designed to **survive common transforms** (compression, mild crops/brightness changes) and can be **verified** by compatible detectors.
+As AI editing becomes standard, **origin** is essential. **SynthID** is an industry approach that embeds an **imperceptible, pixel-level watermark** at generation/edit time (in addition to any visible “AI” label). It’s designed to **survive common transforms** (compression, mild crops/brightness changes) and can be **verified** by compatible detectors.
 
 **Team policy:**
 
@@ -128,11 +130,8 @@ As AI editing becomes standard, **provenance** is essential. **SynthID** is an i
 * **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted").  
 * **Know the limits:** very tiny edits may be too subtle to flag; keep manual logs regardless.
 
-::: greybox  
-"We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04."
-:::  
 ::: good  
-Good example – Clear disclosure aligned to asset management and brand guidelines
+![Figure: Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata](origin-added-to-metadata.png)
 :::  
 
 ## Common pitfalls and fixes
@@ -152,3 +151,5 @@ One quick way to experiment with AI image editing:
    *Upload the same photo and prompt: "replace the background with a sunset sky."*  
 
 Comparing the results side by side will help you see how different models handle **precise edits vs. full regeneration**.
+
+What do you think about using tools like Nano Banana to create varied poses and portraits of yourself, for use on social media posts/YouTube thumbnails, etc?
