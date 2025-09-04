@@ -10,15 +10,17 @@ authors:
   - title: ""
 guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
 ---
-You’ve probably seen AI churn out gorgeous images from a sentence… then watched it *ruin* a photo when you asked for a tiny tweak. Teams waste time regenerating whole scenes, subject identity drifts between edits, and brand consistency suffers. Modern **editing-first** AI models fix this by making *targeted, local edits* while preserving everything else, so you can remove a bin, change a sky, or adjust a shirt color without redrawing the whole shot.
-            
+You’ve probably seen AI churn out gorgeous images from a sentence… then watched it *ruin* a photo when you asked for a tiny tweak.
+
+Teams waste time regenerating whole scenes, your subject look-alike drifts between edits, and brand consistency suffers. Modern **editing-first** AI models fix this by making *targeted, local edits* while preserving everything else, so you can remove a bin, change the background, or adjust a shirt color without re-generating the whole shot.
+
 <!--endintro-->
 
 ## When should you use AI to edit images?
 
 Use AI editing when you need **surgical changes** and fast iteration:
 
-* Remove or replace small elements (e.g., “remove the person in the background”)
+* Remove or replace small elements (e.g., “remove the chair in the background”)
 * Background swaps and extensions (outpainting), canvas cleanup, or sky replacement
 * Consistent variations for marketing (same product/person, different scenes)
 * Style harmonization (color matching, lighting tweaks, subtle restyling)
@@ -32,23 +34,27 @@ Avoid or get explicit approval for:
 
 ## From text-to-image to intelligent editing
 
-**Early days (circa 2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized “prompt to picture” and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
+**Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized “prompt to picture” and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-**Today’s shift:** Editing-first models take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Think “Photoshop with natural-language brushes.”
+**Today’s shift:** Editing-first models take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like “Photoshop with natural-language brushes.”
 
 ## What makes editing-first models different?
 
-**1) Targeted local edits**  
+**1) Targeted local edits**\
 They change only what you ask for and leave everything else untouched. This makes them practical for production assets where fidelity matters.
 
-**2) Consistency & identity preservation**  
+**2) Consistency & identity preservation**\
 They maintain the same person/product across edits (haircut, outfit, background changes) without subtle morphing.
 
-**3) Strong prompt adherence**  
+**3) Strong prompt adherence**\
 They follow instructions literally (“make the shirt red” means *only* the shirt becomes red) and are less likely to hallucinate unrelated changes.
 
-**4) Iterative & interactive**  
+**4) Iterative & interactive**\
 You can chain edits (clean background → add shadow → tweak contrast) while keeping quality stable—mirroring designer workflows.
+
+![Fig: Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional.](gz4kb-fbaaayj5n.jpg "Targeted local edits")
+
+
 
 ## Practical workflow (fast lane)
 
@@ -64,28 +70,32 @@ You can chain edits (clean background → add shadow → tweak contrast) while k
 
 Use these templates and tweak the nouns:
 
-* “**Remove** the [unwanted object] in the [location]. Keep subject identity, pose, and lighting unchanged.”  
-* “**Change** the [attribute] of the [object] to [new value], **only** affecting that item. Keep everything else identical.”  
-* “**Replace background** with [description]. Preserve subject edges, shadows, and color balance.”  
-* “**Add** a [small object] to [location] with consistent perspective and soft shadow matching the scene.”  
-* “**Extend canvas** to the [direction] and continue the [background pattern/scene] naturally.”
+* “**Remove** the \[unwanted object] in the \[location]. Keep subject identity, pose, and lighting unchanged.”  
+* “**Change** the \[attribute] of the \[object] to \[new value], **only** affecting that item. Keep everything else identical.”  
+* “**Replace background** with \[description]. Preserve subject edges, shadows, and color balance.”  
+* “**Add** a \[small object] to \[location] with consistent perspective and soft shadow matching the scene.”  
+* “**Extend canvas** to the \[direction] and continue the \[background pattern/scene] naturally.”
 
 ::: greybox
-Source: Product on desk with a visible power cord.  
-Prompt: “Remove the power cord on the right. Keep reflections and desk grain unchanged.”  
-Result: Cord is gone, surface texture and reflections untouched.
+
+
+![](gzyyduowiaa8x0l.jpg)
+
+Prompt: “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
 :::
 ::: good
-Figure: Good example – A tightly scoped prompt that preserves context and avoids drift
+Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively.
 :::
 
 ::: greybox
-Source: Portrait against busy street.  
-Prompt: “Replace background with a soft studio gray. Keep person’s skin tone, hair detail, and rim light.”  
-Result: Clean studio look; edges and lighting remain natural.
+
+
+![](gz1gbfmaoaavuob.jpg)
+
+Prompt: “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
 :::
 ::: good
-Figure: Good example – Background swap while preserving fine subject detail
+Figure: Nano Banana relighting applied. Shot simulated as RAW.
 :::
 
 ## Quality guardrails
@@ -103,7 +113,8 @@ Figure: Good example – Background swap while preserving fine subject detail
 * **Disclose AI edits** to stakeholders—especially for ads, journalism, or regulated content.  
 * **Alt text & captions** should reflect what’s real vs. edited.
 
-::: greybox
+::: greybox\
+
 “We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04.”
 :::
 ::: good
@@ -115,7 +126,7 @@ Figure: Good example – Clear disclosure aligned to asset management and brand 
 * **Identity drift:** Re-state constraints each turn (“keep the same face,” “same product texture”). If drift persists, roll back one step and re-edit in smaller increments.  
 * **Over-editing look:** Prefer subtle adjustments; specify “natural” or “minimal” in the prompt.  
 * **Perspective mismatches:** Add guidance like “match camera angle and lens feel.”  
-* **Lighting inconsistency:** Include “soft shadow matching [light direction]” and “keep global color balance.”
+* **Lighting inconsistency:** Include “soft shadow matching \[light direction]” and “keep global color balance.”
 
 ## Definitions (quick glossary)
 
