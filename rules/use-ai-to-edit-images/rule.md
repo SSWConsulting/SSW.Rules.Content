@@ -139,18 +139,14 @@ As AI editing becomes standard, **origin** is essential. **SynthID** is an indus
 
 ## Common pitfalls and fixes
 
-* **Identity drift**  
-❌ The pitfall: The subject (face, object, or brand element) gradually morphs into something unrecognizable after repeated edits.  
+* ❌ **Identity drift:** The subject (face, object, or brand element) gradually morphs into something unrecognizable after repeated edits.  
 ✅ The fix: Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
-* **Over-editing look**
-❌ The pitfall: Edits pile up until the result looks artificial, plastic, or uncanny.  
-✅ The fix: Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.
-* **Perspective mismatches**  
-❌ The pitfall: Inserted or modified objects appear at the wrong scale, angle, or depth compared to the base image.  
+* ❌ **Over-editing look:** Edits pile up until the result looks artificial, plastic, or uncanny.  
+✅ The fix: Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.  
+* ❌ **Perspective mismatches:** Inserted or modified objects appear at the wrong scale, angle, or depth compared to the base image.  
 ✅ The fix: Add guidance like "match camera angle and lens feel."  
-* **Lighting inconsistency**
-❌ The pitfall: New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
-✅ The fix: Include "soft shadow matching light direction" and "keep global color balance."
+* ❌ **Lighting inconsistency:** New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
+✅ The fix: Include "soft shadow matching light direction" and "keep global color balance."  
 
 ## Try it yourself
 
