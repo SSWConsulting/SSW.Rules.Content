@@ -54,7 +54,9 @@ You can chain edits (clean background → add shadow → tweak contrast) while k
 
 ![Fig: Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional.](gz4kb-fbaaayj5n.jpg "Targeted local edits")
 
+![Fig: Change the perspective of an image](gzsnzhtwoaapceg.jpg)
 
+![Fig: Isolate a character](gzwtouzbyaamxak.jpg)
 
 ## Practical workflow (fast lane)
 
@@ -78,7 +80,6 @@ Use these templates and tweak the nouns:
 
 ::: greybox
 
-
 ![](gzyyduowiaa8x0l.jpg)
 
 Prompt: “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
@@ -89,7 +90,6 @@ Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Ba
 
 ::: greybox
 
-
 ![](gz1gbfmaoaavuob.jpg)
 
 Prompt: “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
@@ -98,22 +98,28 @@ Prompt: “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
 Figure: Nano Banana relighting applied. Shot simulated as RAW.
 :::
 
-## Quality guardrails
+::: greybox
 
-* **Be specific & minimal.** One change at a time beats all-in-one prompts.  
-* **Anchor identity.** Call out what must stay the same (face, logo geometry, product texture).  
-* **Check edges & shadows.** Zoom at 200–300% to spot halos, smudges, and mismatched lighting.  
-* **Typography & logos.** Verify curves, counters, and spacing—AI can mangle vector-like details.  
-* **Export losslessly** during review; compress only at the end.
+![](gzsnxlyxcaasy2_.jpg)
+
+Prompt: “Create a Nike ad with this umage with text copy"
+:::
+::: good
+Figure: Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption..
+:::
 
 ## Provenance & trust (label your edits)
 
-* **Keep originals + edit history.** Store prompts and steps alongside assets.  
-* **Use watermarks/labels** where policy requires (visible and/or invisible).  
-* **Disclose AI edits** to stakeholders—especially for ads, journalism, or regulated content.  
-* **Alt text & captions** should reflect what’s real vs. edited.
+As AI editing becomes standard, **provenance** is essential. **SynthID** is an industry approach that embeds an **imperceptible, pixel-level watermark** at generation/edit time (in addition to any visible “AI” label). It’s designed to **survive common transforms** (compression, mild crops/brightness changes) and can be **verified** by compatible detectors.
 
-::: greybox\
+**Team policy:**
+
+* **Enable watermarking** where your stack supports it (e.g., tools that offer SynthID-style invisible marks plus visible “AI-edited” labels).  
+* **Store proof** of detection alongside the final asset (export the verifier result or checksum).  
+* **Disclose edits** in captions/metadata (“Edited with AI; objects removed; colors adjusted”).  
+* **Know the limits:** very tiny edits may be too subtle to flag; keep manual logs regardless.
+
+::: greybox
 
 “We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04.”
 :::
@@ -127,16 +133,3 @@ Figure: Good example – Clear disclosure aligned to asset management and brand 
 * **Over-editing look:** Prefer subtle adjustments; specify “natural” or “minimal” in the prompt.  
 * **Perspective mismatches:** Add guidance like “match camera angle and lens feel.”  
 * **Lighting inconsistency:** Include “soft shadow matching \[light direction]” and “keep global color balance.”
-
-## Definitions (quick glossary)
-
-* **Inpainting:** Edit inside a selected region.  
-* **Outpainting:** Extend the image beyond its original borders.  
-* **In-context editing:** Provide the *image + instruction*; the model localizes and applies the change while preserving context.
-
-## Team policy (TL;DR)
-
-* Default to **AI editing** for precise, localized changes; avoid full regeneration when fidelity matters.  
-* **One change per pass**, review, then proceed.  
-* **Document & label** all AI-assisted edits.  
-* **Escalate** sensitive or potentially misleading edits for approval.
