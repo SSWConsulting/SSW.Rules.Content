@@ -20,7 +20,7 @@ Teams waste time regenerating whole scenes, your subject look-alike drifts betwe
 
 Use AI editing when you need **surgical changes** and fast iteration:
 
-* Remove or replace small elements (e.g., “remove the chair in the background”)
+* Remove or replace small elements (e.g. "remove the chair in the background")
 * Background swaps and extensions (outpainting), canvas cleanup, or sky replacement
 * Consistent variations for marketing (same product/person, different scenes)
 * Style harmonization (color matching, lighting tweaks, subtle restyling)
