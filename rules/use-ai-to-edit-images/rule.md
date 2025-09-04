@@ -36,7 +36,7 @@ Avoid or get explicit approval for:
 
 **Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized “prompt to picture” and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-**Today’s shift:** Editing-first models take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like “Photoshop with natural-language brushes.”
+**Today’s shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like “Photoshop with natural-language brushes.”
 
 ## What makes editing-first models different?
 
@@ -138,10 +138,9 @@ Figure: Good example – Clear disclosure aligned to asset management and brand 
 
 One quick way to experiment with AI image editing:
 
-1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model.  
+1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model.\
    *Upload a photo and give it a small edit prompt like: “remove the tree in the background.”*  
-
-2. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing.  
+2. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing.\
    *Upload the same photo and prompt: “replace the background with a sunset sky.”*  
 
 Comparing the results side by side will help you see how different models handle **precise edits vs. full regeneration**.
