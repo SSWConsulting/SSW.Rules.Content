@@ -6,7 +6,14 @@ seoDescription: Learn when and how to use AI to edit images—what it’s good f
   common pitfalls, ethical labeling, and battle-tested prompt patterns that
   preserve identity and make precise, localized changes
 uri: use-ai-to-edit-images
-authors: []
+authors:
+  - title: Louis Roa
+    url: https://www.ssw.com.au/people/louis-roa/
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook/
+related:
+  - the-best-ai-image-generators
+  - when-to-use-ai-generated-images
 created: 2025-09-04T11:55:00.000Z
 guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
 ---
