@@ -99,9 +99,7 @@ Use these templates and tweak the nouns:
 
 Prompt: “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
 :::
-::: good
-Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively.
-:::
+**Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively.**
 
 ::: greybox
 
@@ -109,9 +107,7 @@ Figure: Thirteen images merged into one using Gemini 2.5 Flash Image (“Nano Ba
 
 Prompt: “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
 :::
-::: good
-Figure: Nano Banana relighting applied. Shot simulated as RAW.
-:::
+**Figure: Nano Banana relighting applied. Shot simulated as RAW.**
 
 ::: greybox
 
@@ -119,9 +115,7 @@ Figure: Nano Banana relighting applied. Shot simulated as RAW.
 
 Prompt: “Create a Nike ad with this umage with text copy"
 :::
-::: good
-Figure: Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption..
-:::
+**Figure: Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption..**
 
 ## Provenance & trust (label your edits)
 
