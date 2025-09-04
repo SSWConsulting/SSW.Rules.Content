@@ -43,12 +43,15 @@ Avoid or get explicit approval for:
 
 **Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-
-![Figure: ❌ Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
+::: bad  
+![Figure: Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
+:::  
 
 **Today's shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
-![Figure: ✅ Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
+::: good  
+![Figure: Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
+:::  
 
 ## What makes editing-first models different?
 
@@ -64,11 +67,11 @@ They follow instructions literally (“make the shirt red” means *only* the sh
 **4) Iterative & interactive**\
 You can chain edits (clean background → add shadow → tweak contrast) while keeping quality stable—mirroring designer workflows.
 
-![Fig: Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional.](gz4kb-fbaaayj5n.jpg "Targeted local edits")
+![Figure: Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional.](gz4kb-fbaaayj5n.jpg "Targeted local edits")
 
-![Fig: Change the perspective of an image](gzsnzhtwoaapceg.jpg)
+![Figure: Change the perspective of an image](gzsnzhtwoaapceg.jpg)
 
-![Fig: Isolate a character](gzwtouzbyaamxak.jpg)
+![Figure: Isolate a character](gzwtouzbyaamxak.jpg)
 
 ## Practical workflow
 
@@ -131,20 +134,19 @@ As AI editing becomes standard, **provenance** is essential. **SynthID** is an i
 * **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted").  
 * **Know the limits:** very tiny edits may be too subtle to flag; keep manual logs regardless.
 
-::: greybox
-
+::: greybox  
 "We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04."
-:::
-::: good
-Figure: Good example – Clear disclosure aligned to asset management and brand guidelines
-:::
+:::  
+::: good  
+Good example – Clear disclosure aligned to asset management and brand guidelines
+:::  
 
 ## Common pitfalls and fixes
 
 * **Identity drift:** Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
 * **Over-editing look:** Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.  
 * **Perspective mismatches:** Add guidance like "match camera angle and lens feel."  
-* **Lighting inconsistency:** Include "soft shadow matching \light direction" and "keep global color balance."
+* **Lighting inconsistency:** Include "soft shadow matching light direction" and "keep global color balance."
 
 ## Try it yourself
 
