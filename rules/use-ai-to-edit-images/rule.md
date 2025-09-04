@@ -6,8 +6,8 @@ seoDescription: Learn when and how to use AI to edit images—what it’s good f
   common pitfalls, ethical labeling, and battle-tested prompt patterns that
   preserve identity and make precise, localized changes
 uri: use-ai-to-edit-images
-authors:
-  - title: ""
+authors: []
+created: 2025-09-04T11:55:00.000Z
 guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
 ---
 You’ve probably seen AI churn out gorgeous images from a sentence… then watched it *ruin* a photo when you asked for a tiny tweak.
