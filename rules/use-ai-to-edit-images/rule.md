@@ -134,10 +134,10 @@ Figure: Good example – Clear disclosure aligned to asset management and brand 
 
 ## Common pitfalls and fixes
 
-* **Identity drift:** Re-state constraints each turn (“keep the same face,” “same product texture”). If drift persists, roll back one step and re-edit in smaller increments.  
-* **Over-editing look:** Prefer subtle adjustments; specify “natural” or “minimal” in the prompt.  
-* **Perspective mismatches:** Add guidance like “match camera angle and lens feel.”  
-* **Lighting inconsistency:** Include “soft shadow matching \[light direction]” and “keep global color balance.”
+* **Identity drift:** Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
+* **Over-editing look:** Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.  
+* **Perspective mismatches:** Add guidance like "match camera angle and lens feel."  
+* **Lighting inconsistency:** Include "soft shadow matching \light direction" and "keep global color balance."
 
 ## Try it yourself
 
