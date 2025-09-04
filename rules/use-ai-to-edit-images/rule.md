@@ -119,9 +119,9 @@ As AI editing becomes standard, **provenance** is essential. **SynthID** is an i
 
 **Team policy:**
 
-* **Enable watermarking** where your stack supports it (e.g., tools that offer SynthID-style invisible marks plus visible “AI-edited” labels).  
+* **Enable watermarking** where your stack supports it (e.g. tools that offer SynthID-style invisible marks plus visible "AI-edited" labels).  
 * **Store proof** of detection alongside the final asset (export the verifier result or checksum).  
-* **Disclose edits** in captions/metadata (“Edited with AI; objects removed; colors adjusted”).  
+* **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted").  
 * **Know the limits:** very tiny edits may be too subtle to flag; keep manual logs regardless.
 
 ::: greybox
