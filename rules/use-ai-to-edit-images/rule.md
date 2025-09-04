@@ -146,6 +146,6 @@ One quick way to experiment with AI image editing:
 1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model.\
    *Upload a photo and give it a small edit prompt like: "remove the tree in the background."*  
 2. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing.\
-   *Upload the same photo and prompt: “replace the background with a sunset sky.”*  
+   *Upload the same photo and prompt: "replace the background with a sunset sky."*  
 
 Comparing the results side by side will help you see how different models handle **precise edits vs. full regeneration**.
