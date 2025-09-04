@@ -126,7 +126,7 @@ As AI editing becomes standard, **provenance** is essential. **SynthID** is an i
 
 ::: greybox
 
-“We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04.”
+"We removed two background bystanders and warmed the sky colors. Subject and product untouched. Edited with AI; approved by Marketing on 2025-09-04."
 :::
 ::: good
 Figure: Good example – Clear disclosure aligned to asset management and brand guidelines
