@@ -50,7 +50,7 @@ Avoid or get explicit approval for:
 ![Figure: Bad example - Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
 :::  
 
-### Enter Nano Banana
+### Enter Nano Banana 🍌
 
 **Today's shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
@@ -139,10 +139,18 @@ As AI editing becomes standard, **origin** is essential. **SynthID** is an indus
 
 ## Common pitfalls and fixes
 
-* **Identity drift:** Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
-* **Over-editing look:** Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.  
-* **Perspective mismatches:** Add guidance like "match camera angle and lens feel."  
-* **Lighting inconsistency:** Include "soft shadow matching light direction" and "keep global color balance."
+* **Identity drift**  
+❌ The pitfall: The subject (face, object, or brand element) gradually morphs into something unrecognizable after repeated edits.  
+✅ The fix: Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
+* **Over-editing look**
+❌ The pitfall: Edits pile up until the result looks artificial, plastic, or uncanny.  
+✅ The fix: Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.
+* **Perspective mismatches**  
+❌ The pitfall: Inserted or modified objects appear at the wrong scale, angle, or depth compared to the base image.  
+✅ The fix: Add guidance like "match camera angle and lens feel."  
+* **Lighting inconsistency**
+❌ The pitfall: New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
+✅ The fix: Include "soft shadow matching light direction" and "keep global color balance."
 
 ## Try it yourself
 
