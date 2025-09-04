@@ -34,7 +34,7 @@ Avoid or get explicit approval for:
 
 ## From text-to-image to intelligent editing
 
-**Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized “prompt to picture” and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
+**Early days (2022):** Text-to-image models like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
 
 ![Figure: ❌ Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
