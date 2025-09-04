@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 related:
   - the-best-way-to-generate-your-entities-from-swagger
   - generate-interfaces-for-your-dtos
@@ -54,6 +56,27 @@ Kiota is Microsoft's next-generation API client generator designed for modern cl
 ❌ **Cons**
 * Smaller community compared to alternatives
 * Newer tool with fewer examples
+
+
+### Orval ⭐ (Recommended for TypeScript/React projects)
+
+<https://orval.dev>
+
+Orval is a TypeScript-first OpenAPI generator, popular for Next.js and React projects. It integrates cleanly with TanStack Query (React Query), making API consumption highly ergonomic.
+
+**How it works:** Reads your OpenAPI specification and generates TypeScript clients with optional React Query hooks, mocks, and strongly typed DTOs.
+
+✅ **Pros**
+* Generates modern fetch-based clients compatible with Next.js and Edge runtimes
+* Optional React Query hooks out of the box
+* Type-safe DTOs and request/response validation
+* Can also generate API mocks for frontend testing
+* Generated code is clean, readable, and follows familiar HTTP conventions
+* Clients are easily extensible e.g. add interceptors for bearer tokens, custom headers, or logging with minimal effort
+
+❌ **Cons**
+* Focused on TypeScript/React – less useful for .NET-only stacks
+* Requires configuration file for advanced setups
 
 ### NSwag
 
