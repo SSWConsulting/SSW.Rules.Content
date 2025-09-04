@@ -58,7 +58,7 @@ You can chain edits (clean background → add shadow → tweak contrast) while k
 
 ![Fig: Isolate a character](gzwtouzbyaamxak.jpg)
 
-## Practical workflow (fast lane)
+## Practical workflow
 
 1. **Duplicate your source** and keep originals under version control.  
 2. **Write a narrow prompt**: describe the change + what to preserve.  
@@ -127,7 +127,7 @@ As AI editing becomes standard, **provenance** is essential. **SynthID** is an i
 Figure: Good example – Clear disclosure aligned to asset management and brand guidelines
 :::
 
-## Common pitfalls (and fixes)
+## Common pitfalls and fixes
 
 * **Identity drift:** Re-state constraints each turn (“keep the same face,” “same product texture”). If drift persists, roll back one step and re-edit in smaller increments.  
 * **Over-editing look:** Prefer subtle adjustments; specify “natural” or “minimal” in the prompt.  
