@@ -23,6 +23,9 @@ Teams waste time regenerating whole scenes, your subject look-alike drifts betwe
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=8_GgeASwHwQ`
+**Video: Google’s nano banana just killed Photoshop... let’s run it (3 min)**
+
 ## When should you use AI to edit images?
 
 Use AI editing when you need **surgical changes** and fast iteration:
