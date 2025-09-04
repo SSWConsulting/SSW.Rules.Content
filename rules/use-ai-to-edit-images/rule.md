@@ -39,7 +39,7 @@ Avoid or get explicit approval for:
 
 ![Figure: ❌ Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
 
-**Today’s shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like “Photoshop with natural-language brushes.”
+**Today's shift:** Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
 ![Figure: ✅ Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
 
