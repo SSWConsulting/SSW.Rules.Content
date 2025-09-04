@@ -79,7 +79,7 @@ Avoid or get explicit approval for:
 ## Practical workflow
 
 1. **Duplicate your source** - Keep originals under version control
-2. **Write a narrow prompt** - Describe the change + what to preserve 
+2. **Write a narrow prompt** - Describe the change + what to preserve
 3. **Call out constraints** - “keep pose, keep lighting, keep composition”  
 4. **Iterate in small steps** - One change per pass
 5. **Compare A/B** - After each step; revert quickly if drift appears
@@ -172,9 +172,9 @@ New elements don’t share the same light source, shadow direction, or color tem
 One quick way to experiment with AI image editing:
 
 1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model
-2. Upload a photo and give it a small edit prompt like: _"remove the tree in the background."_  
+2. Upload a photo and give it a small edit prompt like: *"remove the tree in the background."*  
 3. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing
-4. Upload the same photo and prompt: _"replace the background with a sunset sky."_  
+4. Upload the same photo and prompt: *"replace the background with a sunset sky."*  
 
 Comparing the results side by side will help you see how different models handle **precise edits** versus **full regeneration**.
 
