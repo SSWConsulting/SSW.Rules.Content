@@ -13,6 +13,8 @@ authors:
 created: 2023-10-05T17:05:14.553Z
 guid: 92fc2f34-a038-46ac-9fea-7cee042175ec
 related:
+  - avoid-unclear-terms
+  - spelling-do-you-use-us-english
   - ampersand
   - are-you-careful-with-your-spelling-grammar-and-punctuation
 redirects:
@@ -23,7 +25,7 @@ Attention to detail plays a vital role to effective communication. **Grammar**, 
 
 <!--endintro-->
 
-### Common language pitfalls
+## Common language pitfalls
 
 Embracing the modern standard not only keeps your writing current but also ensures consistency in your communication.
 
@@ -39,7 +41,7 @@ Embracing the modern standard not only keeps your writing current but also ensur
 **Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - with all letters in lowercase and not separated by dots/spaces.
 :::
 
-### Syntax changes the meaning of certain words
+## Syntax changes the meaning of certain words
 
 Often when writing technical documents, you will instruct the reader to 'set up' his PC or run a 'setup' file.
 
@@ -48,7 +50,7 @@ Often when writing technical documents, you will instruct the reader to 'set up'
 
 How can you remember this? Mentally replace "setup" or "set up" with "setting up". If the sentence still basically makes sense, use two words. If it doesn't, use the single word. For example, the sentence _"...he is setting up the shop"_ makes sense. _"The setting up was all wrong"_ does not.
 
-### Be careful with homophones
+## Be careful with homophones
 
 Words like “verses” and “versus” are homophones, meaning they are pronounced the same but have different spelling and different meanings. Always ensure you are using the correct word. If you're not, it won’t be picked up by spell checkers.
 
@@ -59,15 +61,7 @@ Words like “verses” and “versus” are homophones, meaning they are pronou
 “Versus” can be shortened to “vs.”, which is common in sporting situations, or “v.”, which is the standard abbreviation for legal scenarios.
 :::
 
-### Be careful of misunderstanding across English variants
-
-It’s important to avoid culturally specific language that may not translate well globally, especially when a company has international offices or clients.
-
-In the software world, acronyms like CI/CD or API can confuse non-technical people. In the same way, some everyday Australian terms might be unclear to international readers. It’s important to use clear, **globally understood language** when working across regions.
-
-For example, a “tip fee” in Australia means a rubbish disposal charge, but to an American audience, it may be misinterpreted as a service tip. Instead, it would be clearer to use the term “Waste removal”
-
-#### More examples
+### More examples
 
 * **"Their"** shows possession (e.g. _"It's their car"_)
 * **"There"** indicates a place (e.g. _"It's over there"_)
@@ -81,6 +75,4 @@ For example, a “tip fee” in Australia means a rubbish disposal charge, but t
 
 ---
 
-Language precision is a valuable skill and is essential for effective communication - they significantly impact how your writing is perceived.
-
-By following these guidelines and staying current with language conventions, you can enhance the clarity, professionalism, and effectiveness of your communication.
+Language precision is is essential for effective communication as they significantly impact how your writing is perceived.
