@@ -8,7 +8,6 @@ index:
   - safety-step-when-deleting-content
   - do-you-avoid-duplicating-content
   - avoid-using-unnecessary-words
-  - avoid-but
   - avoid-repetition
   - avoid-acronyms
   - avoid-unclear-terms
