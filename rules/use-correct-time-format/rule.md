@@ -58,21 +58,21 @@ Use valid formats to avoid confusion - both 24-hour and 12-hour formats are univ
 
 ::: greybox
 
-* The user group will start at 18:00 tomorrow (24-hour format)
-* The user group will start at 6 PM tomorrow (12-hour format)
-:::
-::: good
-Good example - Correct formatting for time
-:::
-
-::: greybox
-
 * The user group will start at 6 (is this AM or PM?)
 * The user group will start at 18 PM (invalid format)
 * The user group will start at 6.00 PM (use of dot)
 :::
 ::: bad
 Bad example - Incorrect or ambiguous times
+:::
+
+::: greybox
+
+* The user group will start at 18:00 tomorrow (24-hour format)
+* The user group will start at 6 PM tomorrow (12-hour format)
+:::
+::: good
+Good example - Correct formatting for time
 :::
 
 Avoid the 12 PM / 12 PM trap.
