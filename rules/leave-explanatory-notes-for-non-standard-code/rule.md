@@ -56,7 +56,7 @@ To solve this, use a standardized, prefixed format for these permanent notes. Th
 
 The format is:
 
-**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**\
+**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**
 **`// {{ OPTIONAL: see URL }}`**
 
 This approach provides the best of both worlds: the explanation is right next to the code, but it can also link out to more detailed documentation if needed.
@@ -78,7 +78,7 @@ Figure: Good Example - The `NOTE:` prefix makes the intent clear. The comment is
 
 This standardized format ensures:
 
-✅ **Clarity:** It's immediately obvious that this is a permanent and important note.\
-✅ **Discoverability:** The reason for the non-standard code is impossible to miss.\
-✅ **Consistency:** The format is easy to recognize and search for codebase-wide.\
-✅ **Traceability:** It provides a clear link between the code and the business/technical requirement in the work item or documentation.
+✅ **Clarity:** It's immediately obvious that this is a permanent and important note.  
+✅ **Discoverability:** The reason for the non-standard code is impossible to miss.  
+✅ **Consistency:** The format is easy to recognize and search for codebase-wide.  
+✅ **Traceability:** It provides a clear link between the code and the business/technical requirement in the work item or documentation.  
