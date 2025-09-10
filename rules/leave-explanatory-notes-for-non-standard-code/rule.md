@@ -58,7 +58,7 @@ To solve this, use a standardized, prefixed format for these permanent notes. Th
 
 The format is:
 
-**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**
+**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**  
 **`// {{ OPTIONAL: see URL }}`**
 
 This approach provides the best of both worlds: the explanation is right next to the code, but it can also link out to more detailed documentation if needed.
