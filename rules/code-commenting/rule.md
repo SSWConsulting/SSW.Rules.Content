@@ -13,6 +13,7 @@ related: []
 redirects:
 - comments-do-you-follow-the-general-commenting-rules
 - follow-version-conventions
+- leave-explanatory-notes-for-non-standard-code
 
 ---
 
