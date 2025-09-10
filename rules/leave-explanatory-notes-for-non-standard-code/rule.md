@@ -15,7 +15,7 @@ archivedreason: null
 guid: B60B8EC3-A44F-43C9-94F0-13E8ABCB9533
 ---
 
-Sometimes, you need to write code that deviates from the standard pattern. It might be a workaround for a library bug, an optimization for a critical performance path, or a temporary solution pending a larger refactor. Without context, a future developer—or even you, months later—might see this "weird" code and refactor it back to the standard pattern, unknowingly reintroducing a bug.
+Sometimes, you need to write code that deviates from the standard pattern. It might be a workaround for a library bug, an optimization for a critical performance path, or a temporary solution pending a larger refactor. Without context, a future developer, or even you, months later, might see this "weird" code and refactor it back to the standard pattern, unknowingly reintroducing a bug.
 
 To prevent this, it's crucial to leave a clear, permanent note directly in the code. This ensures the "why" behind the decision is never lost.
 
@@ -34,7 +34,7 @@ var db = sqlServer
 ```
 :::
 ::: bad
-Figure: Bad Example - This format is ambiguous. Is it a permanent note or a temporary reminder for the author to fix later?
+Bad Example - This format is ambiguous. Is it a permanent note or a temporary reminder for the author to fix later?
 :::
 
 ### The Problem with External Documentation
@@ -42,12 +42,12 @@ Figure: Bad Example - This format is ambiguous. Is it a permanent note or a temp
 Another common approach is to document these decisions in a wiki, like Confluence. While great for detailed documentation, it has a major flaw.
 
 ::: greybox
-**Confluence Page: "Fund File Sync Job Architecture"**
+**Wiki Page: "Local Development & Testing Setup"**
 
-... The fund file synchronization is handled in a separate Azure Function (SyncJob) due to performance considerations. The main HubX API will not process these files directly...
+...To ensure idempotent and reliable local test runs, the database for the 'clean-architecture' project must be dropped and recreated on each execution when running in `DEBUG` mode. This prevents data contamination between test sessions...
 :::
 ::: bad
-Figure: Bad Example - Documentation is disconnected from the code. A developer won't see this unless they know to look for it, making it easy to miss.
+Bad Example - Documentation is disconnected from the code. A developer won't see this unless they know to look for it, making it easy to miss.
 :::
 
 ## The Solution: A Standardized NOTE Format
@@ -56,13 +56,12 @@ To solve this, use a standardized, prefixed format for these permanent notes. Th
 
 The format is:
 
-**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**
-**`// {{ OPTIONAL: see URL }}`**
+**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`** 
+**`// {{ OPTIONAL: see URL }}`** 
 
 This approach provides the best of both worlds: the explanation is right next to the code, but it can also link out to more detailed documentation if needed.
 
 ::: greybox
-
 ```csharp
 // NOTE: [10 Sep 2025] GB - We need to drop database each run in DEBUG mode for local testing
 // see [https://github.com/SSWConsulting/SSW.CleanArchitecture/issues/421](https://github.com/SSWConsulting/SSW.CleanArchitecture/issues/421)
@@ -70,10 +69,9 @@ var db = sqlServer
     .AddDatabase("clean-architecture")
     .WithDropDatabaseCommand();
 ```
-
 :::
 ::: good
-Figure: Good Example - The `NOTE:` prefix makes the intent clear. The comment is permanent, explains the deviation, and provides a link for more context.
+Good Example - The `NOTE:` prefix makes the intent clear. The comment is permanent, explains the deviation, and provides a link for more context.
 :::
 
 This standardized format ensures:
