@@ -26,12 +26,14 @@ To prevent this, it's crucial to leave a clear, permanent note directly in the c
 Developer comments are often temporary. We use them as personal reminders to fix something before a pull request is merged. These are often unstructured and can be confusing if left in the codebase permanently.
 
 ::: greybox
+
 ```csharp
 // GB: We need to drop database each run in DEBUG mode for local testing
 var db = sqlServer
     .AddDatabase("clean-architecture")
     .WithDropDatabaseCommand();
 ```
+
 :::
 ::: bad
 Bad Example - This format is ambiguous. Is it a permanent note or a temporary reminder for the author to fix later?
@@ -56,12 +58,13 @@ To solve this, use a standardized, prefixed format for these permanent notes. Th
 
 The format is:
 
-**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`** 
-**`// {{ OPTIONAL: see URL }}`** 
+**`// NOTE: [{{ DATE }}] {{ INITIALS }} - {{ REASON }}`**
+**`// {{ OPTIONAL: see URL }}`**
 
 This approach provides the best of both worlds: the explanation is right next to the code, but it can also link out to more detailed documentation if needed.
 
 ::: greybox
+
 ```csharp
 // NOTE: [10 Sep 2025] GB - We need to drop database each run in DEBUG mode for local testing
 // see [https://github.com/SSWConsulting/SSW.CleanArchitecture/issues/421](https://github.com/SSWConsulting/SSW.CleanArchitecture/issues/421)
@@ -69,6 +72,7 @@ var db = sqlServer
     .AddDatabase("clean-architecture")
     .WithDropDatabaseCommand();
 ```
+
 :::
 ::: good
 Good Example - The `NOTE:` prefix makes the intent clear. The comment is permanent, explains the deviation, and provides a link for more context.
