@@ -6,6 +6,7 @@ uri: rules-to-better-product-owners
 index:
 - do-you-know-the-how-to-be-a-good-product-owner
 - scrum-master-support-product-owner
+- use-ai-manage-backlog
 - agreements-do-you-book-the-next-sprint-ahead-of-time
 - agreements-do-you-join-the-team-as-a-tester
 - agreements-do-you-know-who-pays-for-bugs
