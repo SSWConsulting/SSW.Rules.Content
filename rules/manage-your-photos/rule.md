@@ -1,22 +1,42 @@
 ---
-seoDescription: Discover and organize your photos using Google Photos, the ultimate platform to find any image instantly.
 type: rule
-archivedreason:
 title: Do you manage your images using Google Photos?
-guid: 51bc0f77-deab-436e-be51-ebc00b076009
+seoDescription: Discover and organize your photos using Google Photos, the
+  ultimate platform to find any image instantly.
 uri: manage-your-photos
-created: 2020-07-23T20:56:16.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-manage-your-photos
+created: 2020-07-23T20:56:16.000Z
+archivedreason: null
+guid: 51bc0f77-deab-436e-be51-ebc00b076009
 ---
-
 Google Photos offers a practical way to organize and find your images with ease. By using features like automatic sorting, facial recognition, and powerful search tools, it helps you quickly locate specific photos from your collection. Whether you're looking for a picture of a specific person, place, or event, Google Photos makes the process straightforward and efficient. This guide will explore how to make the most of Google Photos' capabilities for managing and finding your images.
 
 <!--endintro-->
+
+There are 3 main ways you can organise your photos using Google Photos:
+
+### Google Photos via Links
+
+Google Photos can be used as a repository, but it can also be used as a file-sharing tool. If you want multiple people to add photos to an album, you can create a link and share it for others to use. It's quick, easy, and doesn't require special access to your repository. 
+
+One limitation to be aware of is that whoever uploads the photos maintains control over the image. So, if an admin or the uploader removes their access to a folder, so too are their images.
+
+### Staging Area + Google Photos
+
+Inviting lots of people to share thier photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
+
+To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' that everyone can upload thier photos to, so they can be curated, and only the good ones can then be uploaded to Google.
+
+You could use SharePoint or a file server for this purpose. 
+
+### File Server as a staging area  + Google Photos
+
+If you use a file server as your staging area, it is then possible to use the Google API to automatically upload files to your Google Photos storage. It takes a little more time to set up, but it saves you time in the long run! 
 
 Watch the video to know more:
 
