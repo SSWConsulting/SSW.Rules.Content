@@ -14,7 +14,7 @@ created: 2020-07-23T20:56:16.000Z
 archivedreason: null
 guid: 51bc0f77-deab-436e-be51-ebc00b076009
 ---
-Google Photos offers a practical way to organize and find your images with ease. By using features like automatic sorting, facial recognition, and powerful search tools, it helps you quickly locate specific photos from your collection. Whether you're looking for a picture of a specific person, place, or event, Google Photos makes the process straightforward and efficient. This guide will explore how to make the most of Google Photos' capabilities for managing and finding your images.
+Google Photos offers a practical way to organize and find your images with ease. Using features like automatic sorting, facial recognition, and powerful search tools, it helps you quickly locate specific photos from your collection. Whether you're looking for a picture of a specific person, place, or event, Google Photos makes the process straightforward and efficient. This guide will explore how to make the most of Google Photos' capabilities for managing and finding your images.
 
 <!--endintro-->
 
@@ -28,9 +28,9 @@ One limitation to be aware of is that whoever uploads the photos maintains contr
 
 ### Staging Area + Google Photos
 
-Inviting lots of people to share thier photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
+Inviting lots of people to share their photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
 
-To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' that everyone can upload thier photos to, so they can be curated, and only the good ones can then be uploaded to Google.
+To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' that everyone can upload their photos to, so they can be curated, and only the good ones can then be uploaded to Google.
 
 You could use SharePoint or a file server for this purpose. 
 
