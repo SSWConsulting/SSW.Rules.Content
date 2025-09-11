@@ -23,6 +23,7 @@ Managing a backlog can quickly become overwhelming. It often grows into a long, 
 
 Backlogs often contain hundreds of items, making it hard to spot what matters most.  
 AI can:
+
 * **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter.
 * **Highlight overlooked high-priority items** - Spots critical issues buried in the backlog so they get the attention they deserve.
 * **Summarize backlog areas at a glance** - Groups and condenses issues into clear themes, making it easy to see where work is concentrated.
@@ -39,6 +40,7 @@ AI can:
 
 Some backlog items (PBIs) are simply too big to complete in a sprint.  
 AI can:
+
 * **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a sprint.
 * **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.  
 
@@ -46,6 +48,7 @@ AI can:
 
 Sprints are more effective when they focus on a single area or feature.  
 AI can:
+
 * **Tag related issues automatically** - Assigns consistent labels to similar backlog items, making it easier to organize and filter work.
 * **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives.
 * **Suggest sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive sprint.  
@@ -54,12 +57,14 @@ AI can:
 
 AI can compare a new item against similar past issues and suggest an estimate.  
 This is especially helpful when:
+
 * **Estimating bugs vs features** - Compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features.  
 * **Providing quick t-shirt sizing (S, M, L) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement.  
 
 ### 5. Kick-start new requests
 
 When a vague request comes in (“Improve reporting”), AI can help you:  
+
 * **Break it into concrete tasks** - Transforms vague requests into specific, actionable steps the team can pick up immediately.  
 * **Draft acceptance criteria** - Generates clear, testable conditions that define when a task or feature is successfully completed.  
 * **Propose dependencies** - Identifies related tasks or prerequisites that need to be completed first, reducing blockers during delivery.
@@ -68,6 +73,7 @@ When a vague request comes in (“Improve reporting”), AI can help you:
 
 Not every backlog item has the same impact.  
 AI can help prioritize by:  
+
 * **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work.  
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first.  
 
