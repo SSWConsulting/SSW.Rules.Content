@@ -24,7 +24,7 @@ The results of the Brainstorming day can have a great impact on the company. It'
 
 <!--endintro-->
 
-If the presentations were recorded, the videos should be editied and attached to the questions in the form.
+If the presentations were recorded, the videos should be edited and attached to the questions in the form.
 
 Send out a Microsoft form with the following questions:
 
