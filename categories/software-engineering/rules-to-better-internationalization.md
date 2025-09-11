@@ -17,7 +17,7 @@ index:
   - use-a-cdn
   - handle-redirects
   - add-multilingual-support-on-angular
-  - do-you-avoid-reviewing-performance-without-metrics
+  - avoid-reviewing-performance-without-metrics
   - do-you-use-gzip
   - ok-words-in-china
   - pick-a-chinese-name

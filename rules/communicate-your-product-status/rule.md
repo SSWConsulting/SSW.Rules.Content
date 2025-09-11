@@ -44,7 +44,7 @@ To prepare for meetings and maximise the chances of success for your project, en
    * Subscription epic - Added payment processing
 
    ::: info
-   **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops) can be used to graphically demonstrate progress.
+   **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops?WT.mc_id=AZ-MVP-33518) can be used to graphically demonstrate progress.
    :::
 
    ![Figure: Progress for SSW.EagleEye epics in GitHub Projects](github-product-roadmap.png)

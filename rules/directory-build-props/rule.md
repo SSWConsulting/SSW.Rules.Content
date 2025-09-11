@@ -18,7 +18,7 @@ When working on large enterprise scale projects .NET Solutions can often become 
 
 ## What is a Directory.Build.props file?
 
-A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022) file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.
+A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022&WT.mc_id=DT-MVP-33518) file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.
 
 ### Usages
 

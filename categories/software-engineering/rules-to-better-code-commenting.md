@@ -5,6 +5,7 @@ guid: 1c07cfbf-ffe2-41fc-a115-ccd0d6b26f37
 uri: rules-to-better-code-commenting
 index:
 - code-commenting
+- leave-explanatory-notes-for-non-standard-code
 - what-to-do-with-comments-and-debug-print-statements
 - comment-when-your-code-is-updated
 - todo-tasks

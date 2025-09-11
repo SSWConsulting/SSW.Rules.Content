@@ -26,9 +26,9 @@ For unplanned outages, see [Outage - Do you have an unplanned outage process?](/
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
-For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use Microsoft Teams or Skype, a quick message will do.
+For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use Microsoft Teams, a quick message will do.
 
-**Note:** If they are not online on Teams or Skype, then they can't complain that they were not warned.
+**Note:** If they are not online on Teams, then they can't complain that they were not warned.
 
 For extended or planned outages, or if you have a larger number of users (50+), **email** is the suggested method.
 
@@ -42,10 +42,12 @@ Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | SSWAll |
-| Subject: | Planned Outage | Date and time |
+| Subject: | Planned Outage \| Date and time |
+
 ::: email-content
 
 ### Hi All
@@ -69,11 +71,11 @@ Here is the summary of the outage plan:
 
 **Note:** The following servers will be affected:
 
-![](rule-outage-1.jpg)
+![VMs Affected](rule-outage-1.jpg)
 
 and
 
-![](rule-outage-2.jpg)
+![WhatsUp Gold](rule-outage-2.jpg)
 
 ### To myself
 
@@ -137,6 +139,6 @@ Once these have been checked for active users, and users have logged off, mainte
 2. Between 1pm and 1:05pm
 3. Between 7pm and 7:05pm
 
-If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown) page.
+If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown?WT.mc_id=M365-MVP-33518) page.
 
 **Always reply 'Done' when you finish the task.**

@@ -23,12 +23,12 @@ Most developers like to set up their screen efficiently – often that means sma
 
 Before recording your screen reduce visual noise by:
 
-1. ✅**Removing unnecessary tabs** - Open the tab in its own window
-2. ✅**Avoiding small fonts** - Zoom in to 125% by holding Ctrl and scrolling up on the mouse wheel. If you're using a 4K or large monitor, consider zooming further or increasing your display scale to 175% or 200% instead of the recommended 150%.
-3. ✅**Hiding the bookmark bar**
+* **Removing unnecessary tabs** - Open the tab in its own window
+* **Avoiding small fonts** - Zoom in to 125% by holding Ctrl and scrolling up on the mouse wheel. If you're using a 4K or large monitor, consider zooming further or increasing your display scale to 175% or 200% instead of the recommended 150%
+* **Hiding the bookmark bar**
 
-   * Windows shortcut: Ctrl + Shift + b
-   * Mac shortcut: Cmd + Shift + b
+  * Windows shortcut: Ctrl + Shift + b
+  * Mac shortcut: Cmd + Shift + b
 
 ::: bad
 ![Figure: Bad example - This video will be cluttered and unprofessional](screen-recording-bad.png)

@@ -14,9 +14,12 @@ authors:
     url: https://www.ssw.com.au/people/thomas-iwainski/
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
+  - use-banned-api-analyzers
 created: 2023-09-06T23:08:53.979Z
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
 redirects:
@@ -46,6 +49,17 @@ If you host your app on premise, it's also worth checking your infrastructure to
 ## Breaking changes
 
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
+
+### Identify Unavailable Technologies and Obsolete APIs
+
+Several technologies available in .NET Framework are no longer supported in modern .NET (6+). These include APIs like AppDomains, .NET Remoting, and Code Access Security (CAS). Identifying these early helps you avoid unexpected blockers later in your migration.  
+See Microsoft's documentation: [.NET Framework technologies unavailable on .NET](https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable?WT.mc_id=DT-MVP-33518)
+
+For a complete list of obsolete APIs, broken down by .NET version, check out:
+[Obsolete features in .NET 5+](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview?WT.mc_id=DT-MVP-33518)
+
+Finding usages of these legacy or obsolete APIs gives you a strong sense of the blast radius of your migration and highlights areas where modern replacements will be needed. This is also the perfect time to begin banning deprecated APIs to avoid regression.
+Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
 
 ::: greybox
 **Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
@@ -81,8 +95,8 @@ Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
 Targeting both your current .NET Framework version _and_ your future .NET version will give you the following information:
 
-- Expose any build errors you receive when trying to build for .NET
-- Expose any build errors you receive when trying to build for .NET Framework
+* Expose any build errors you receive when trying to build for .NET
+* Expose any build errors you receive when trying to build for .NET Framework
 
 ::: greybox
 Why is this important?
@@ -111,6 +125,24 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 
 ![Figure: Bad and good examples when targeting multiple target frameworks](good-example-vs-bad-example-tfms.png)
 
+### Watch for SYSLIB diagnostic warnings
+
+As soon as you add .NET 5+ to your `targetFrameworks`, you'll likely encounter build warnings like:
+`SYSLIB0011: BinaryFormatter serialization is obsolete and should not be used.`
+
+These warnings are part of Microsoft's structured obsolescence plan. Each `SYSLIBxxxx` code identifies an API that has beeen marked obsoltet due to security, performance or support issues.
+Many of these APIs are **removed completely in .NET 8+**, so treating these as blockers early will save you from future runtime issues.
+
+[See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview?WT.mc_id=DT-MVP-33518)
+
+**Recommended:**
+
+* Fix them immediately or raise PBIs if he fix is non-trivial
+* Add `<WarningsAsErrors>SYSLIB*</WarningsAsErrors>` to your `.csproj` files to stop deprecated APIs creeping back in
+* For sticter enforcement, consider using [BannedApiAnalyzers](/use-banned-api-analyzers/)
+
+This makes sure progress isn't undone later by new usages of deprecated APIs.
+
 ### Creating the migration backlog
 
 At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work it might lies ahead.
@@ -127,14 +159,14 @@ At this point, ensure your project can target both the .NET Framework and the ne
 
 By the end of this process, you'll have a much clearer view (and backlog!) of your path to the latest .NET:
 
-- PBIs for technical debt
-- PBIs for architectural concerns
-- PBIs for breaking changes
+* PBIs for technical debt
+* PBIs for architectural concerns
+* PBIs for breaking changes
 
 ## What's next?
 
 While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
-- [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
-- [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
-- [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
+* [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
+* [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
+* [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)

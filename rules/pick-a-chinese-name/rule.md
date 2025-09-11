@@ -8,6 +8,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Clara Fang
+    url: https://www.ssw.com.au/people/clara-fang/
 related: []
 redirects:
   - do-you-pick-a-chinese-name
@@ -29,7 +30,7 @@ You should pick a Chinese name for your app or product when going to China marke
 
 #### Option 2: Use the same meaning
 
-* Microsoft &gt; Microcomputer & Software &gt; "Micro" & "Soft" &gt; 微软 
+* Microsoft &gt; Microcomputer & Software &gt; "Micro" & "Soft" &gt; 微软
 
 ### 2. Leverage Positive Connotations
 
@@ -42,13 +43,9 @@ Avoid characters with negative or unlucky connotations.
 
 * **Mercedes Benz** originally could be "Bensi" ("rush to die" in Chinese); so they changed to "Benchi" ("run quickly", like flying)
 
-
-
 ### 3. Make It Memorable
 
 Keep the name concise (2–4 characters) and ensure the name is easy to pronounce for native Chinese speakers. Collaborate with a Chinese colleague to ensure cultural accuracy and effectiveness.
-
-
 
 ### 4. Check Domain Availability
 

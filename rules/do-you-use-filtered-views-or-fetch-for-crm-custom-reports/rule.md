@@ -25,11 +25,11 @@ But when the user wants to create a report that needs additional totals, differe
 
 Do you use Filtered Views or Fetch?
 
-[Filtered Views](<https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg309722(v=crm.6)?redirectedfrom=MSDN>) allows the report developer to query underlying SQL data directly. Filtered views are fully compliant with the Microsoft Dynamics CRM security model. When you run a report that obtains data from filtered views, the Microsoft Dynamics CRM security role determines what data you can view in the report.
+[Filtered Views](<https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg309722(v=crm.6?WT.mc_id=DX-MVP-33518)?redirectedfrom=MSDN>) allows the report developer to query underlying SQL data directly. Filtered views are fully compliant with the Microsoft Dynamics CRM security model. When you run a report that obtains data from filtered views, the Microsoft Dynamics CRM security role determines what data you can view in the report.
 
 ![Figure: Filtered Views in the CRM SQL Database](custom-reports-2.jpg)
 
-[Fetch](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-fetchxml-construct-query) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
+[Fetch](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/use-fetchxml-construct-query?WT.mc_id=DX-MVP-33518) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
 
 Now with that out of the way, which one do I use?
 
@@ -39,19 +39,19 @@ Now with that out of the way, which one do I use?
 
 Fetch Restrictions:
 
-- Fetch does not support RIGHT OUTER JOIN and FULL OUTER JOIN.
-- Fetch does not support EXISTS/IN condition with sub-query/expression.
-- **An amount of 5000 returned records maximum.**
-- No “UNION” selects.
-- You cannot specify group by / sum queries – You can only select the records in detail and then perform the aggregation in your report.
-- Number of entity join (link) limitations.
-- **FetchXML reports cannot use non-CRM online data sources.**
-- Learning curve – for report writers that are not familiar with FetchXML the syntax is quite different from SQL.
+* Fetch does not support RIGHT OUTER JOIN and FULL OUTER JOIN.
+* Fetch does not support EXISTS/IN condition with sub-query/expression.
+* **An amount of 5000 returned records maximum.**
+* No “UNION” selects.
+* You cannot specify group by / sum queries – You can only select the records in detail and then perform the aggregation in your report.
+* Number of entity join (link) limitations.
+* **FetchXML reports cannot use non-CRM online data sources.**
+* Learning curve – for report writers that are not familiar with FetchXML the syntax is quite different from SQL.
 
 What do you need get started writing Fetch based CRM Custom Reports?
 
-- Visual Studio (or BIDS, SSDT etc)
-- [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823)
+* Visual Studio (or BIDS, SSDT etc)
+* [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823&WT.mc_id=DX-MVP-33518)
 
 Get up and running quickly with Fetch:
 
@@ -71,13 +71,13 @@ Here's an example of a before (CRM Wizard) and after (Visual Studio) for an Acti
 
 5 enhancements that required a custom report:
 
-- Company logo top left
-- Total call minutes in header
-- Total call count and minutes totals for staff
-- Links to regarding account (in a grouping)
-- Colour coded series for charts that relate back to the report data headings
+* Company logo top left
+* Total call minutes in header
+* Total call count and minutes totals for staff
+* Links to regarding account (in a grouping)
+* Colour coded series for charts that relate back to the report data headings
 
 More Information:
 
-- [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/blogs/post/?postid=cf170dc9-95d7-440d-bd5f-888661caaaa2)
-- [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx)
+* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/blogs/post/?postid=cf170dc9-95d7-440d-bd5f-888661caaaa2)
+* [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx?WT.mc_id=DX-MVP-33518)

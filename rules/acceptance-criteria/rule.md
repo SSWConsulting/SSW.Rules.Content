@@ -1,7 +1,7 @@
 ---
-seoDescription: Do your PBIs include Acceptance Criteria?
+seoDescription: Acceptance Criteria define when a Product Backlog Item (PBI) is complete. Provided by the Product Owner, they set clear requirements for delivery and ensure the team knows exactly what “Done” means.
 type: rule
-title: Do your PBIs include Acceptance Criteria?
+title: Do you include Acceptance Criteria in your PBIs?
 uri: acceptance-criteria
 authors:
   - title: Adam Cogan
@@ -29,7 +29,7 @@ guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
 
 Acceptance Criteria are useful to every person who deals with a PBI. Developers know what they are required to implement and how their work will be tested. Testers have a basis for knowing what tests to create.
 
-### What do good Acceptance Criteria look like?
+## What do good Acceptance Criteria look like?
 
 Product Owners should make an effort to specify all of their requirements for a PBI in the Acceptance Criteria. For example, Product Owners should not assume things like:
 
@@ -76,7 +76,7 @@ Figure: Good example of Acceptance Criteria
 Be mindful that such small PBIs are the exception and not the rule when it comes to the need for Acceptance Criteria.
 :::
 
-### Negotiating "gold plating"
+## Negotiating "gold plating"
 
 Any requirements that the Product Owner considers "nice to have" - as opposed to being mandatory for the PBI to be considered complete - should be negotiated with development as early as possible. Developers can spend significant time working to meet acceptance criteria that the Product Owner is actually willing to sacrifice in the interests of quicker delivery.
 
@@ -84,7 +84,7 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 **Tip:** Work closely with the Product Owner to identify potential "gold plating" in the PBI. Suggest creating a separate PBI for the functionality that is nice to have but has lower priority. Doing so allows developers to focus on building the most important functionality for the PBI first and prevents valuable time being wasted on gold plating.
 :::
 
-### Technical Acceptance Criteria
+## Technical Acceptance Criteria
 
 Sometimes, the team may discuss including technical requirements in Acceptance Criteria. Typically, technical Acceptance Criteria should be avoided. However, there are some situations where it makes sense, such as when:
 
@@ -98,7 +98,7 @@ If technical requirements are added, it should be a discussion between all of th
 
 Additionally, when adding technical requirements try to prefix with "Technical - " so their purpose is clear to everyone (e.g. "Technical - New CQRS Query made to get all employees")
 
-### Acceptance Tests
+## Acceptance Tests
 
 Since Acceptance Criteria will be used to determine whether the work for the PBI is done or not, each of them needs to verified [using an Acceptance Test](/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria).
 
@@ -108,7 +108,7 @@ It is good practice to make sure that each of the Acceptance Criteria is **testa
 **Note:** When all of the acceptance tests pass, the PBI **might** be acceptable - but deeper testing would be required to be more certain. When any of the acceptance tests fail, though, we know for sure that the PBI isn’t acceptable. It can be helpful to think of "Acceptance Tests" instead as "Rejection Tests".
 :::
 
-### What's the difference between "Acceptance Criteria" and "Definition of Done"?
+## What's the difference between "Acceptance Criteria" and "Definition of Done"?
 
 Acceptance Criteria help to answer the question _"How will I know when I'm done with this PBI?"_. **The Acceptance Criteria are different for each PBI**, provided by the Product Owner and used as a way to communicate to all involved that the requirements for a particular PBI have been met.
 
@@ -124,7 +124,7 @@ Examples of items in a Definition of Done that would **not** be part of Acceptan
 The term "Definition of Done" is defined in the Scrum Guide, while "Acceptance Criteria" is not.
 :::
 
-### Capture changes to the PBI from discussions
+## Capture changes to the PBI from discussions
 
 The Acceptance Criteria are the source of truth for what functionality needs to be implemented for the PBI to be considered complete, so it's important to capture any changes to the PBI and the Acceptance Criteria (e.g. adding or removing "nice to have" aspects of the PBI).
 

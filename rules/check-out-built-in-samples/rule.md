@@ -29,7 +29,7 @@ Upon installing the samples successfully, you should see 3 folders (shown below)
 
 For more information, visit the following links:
 
-* [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+* [AdventureWorks sample databases](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms&WT.mc_id=DP-MVP-33518)
 
 * [Samples for Reporting Services](https://github.com/microsoft/sql-server-samples/tree/master/samples/features/reporting-services)
 

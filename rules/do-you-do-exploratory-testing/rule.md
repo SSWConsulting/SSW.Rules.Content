@@ -52,5 +52,5 @@ Test on any platform (Windows, Mac or Linux) on different devices - without the 
    ![Figure: Chrome extension icon](exploratory-test-extension-icon.png) ![Figure: Test & Feedback "Start session" button](exploratory-test-extension-start.png)
 
 ::: greybox
-**Note:** See [Azure DevOps - Explore work items with the Test & Feedback extension](https://docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing) for detailed information about the use of this extension alongside Azure DevOps.
+**Note:** See [Azure DevOps - Explore work items with the Test & Feedback extension](https://docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing?WT.mc_id=AZ-MVP-33518) for detailed information about the use of this extension alongside Azure DevOps.
 :::

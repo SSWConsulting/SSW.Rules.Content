@@ -49,7 +49,7 @@ Example of properties you can use (common ones);
 * ModifiedBy:
 * Title:
 
-**More:** <https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions>
+**More:** <https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions?WT.mc_id=M365-MVP-33518>
 
 ![Figure: Example of using Filetype: filter](filter-sharepoint-example.png)  
 Use Boolean OR and AND operators

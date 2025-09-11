@@ -12,10 +12,10 @@ index:
 - have-a-bid-strategy-for-your-google-ads
 - cheat-sheet-for-google-ads
 - how-to-bid-on-google-ads
+- bid-on-your-own-brand-keyword
 - how-to-optimize-google-ads-campaigns
 - how-to-optimize-your-google-ads
 - how-to-create-a-negative-keyword-list
-- bid-on-your-own-brand-keyword
 - use-microsoft-advertising-formerly-known-as-bing-ads
 - regularly-audit-your-google-ads-account
 - import-your-google-campaigns-to-your-microsoft-ads

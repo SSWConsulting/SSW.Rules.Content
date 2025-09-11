@@ -55,7 +55,7 @@ Great company security starts with great user security. Here are some of the mos
 
 1. Multi Factor Authentication – **[more than one authentication method](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)** means more layers of security
 2. Use **[password managers](https://www.ssw.com.au/rules/password-manager/)** to generate unique passwords for every service (and auto-fill them)
-3. **[Lock your laptop](https://www.ssw.com.au/rules/lock-your-computer-when-you-leave/)** when you leave your desk. For Windows users, check out [DynamicLock](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-feature-dynamic-lock)
+3. **[Lock your laptop](https://www.ssw.com.au/rules/lock-your-computer-when-you-leave/)** when you leave your desk. For Windows users, check out [DynamicLock](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-feature-dynamic-lock?WT.mc_id=ES-MVP-33518)
 4. **[Avoid malware](https://www.ssw.com.au/rules/understand-the-dangers-of-social-engineering/)** by not clicking on suspicious links and making sure the person is who they say they are
 5. **[Report potential breaches to SysAdmins]((https://www.ssw.com.au/rules/security-compromised-password/))**, whether it's your personal account or a company account
 
@@ -66,7 +66,7 @@ There are 5 common penetration tests most businesses will engage a 3rd party for
 1. **Internal penetration testing** - A consultant will simulate an attacker who has managed to access your internal network to evaluate security and configuration issues in your network, systems and endpoints
 2. **External penetration testing** - A consultant would simulate an attacker trying to access any device or service that a business uses which would provide them with access to an organisations resources
 3. **Wi-Fi penetration testing** - A consultant evaluates the security and configuration of your offices wireless networks
-4. **Application penetration testing** - A consultant looks for vulnerabilities and flaws in the design of an application, this can be done by identifying issues with API's, authentication, data exposure or 
+4. **Application penetration testing** - A consultant looks for vulnerabilities and flaws in the design of an application, this can be done by identifying issues with API's, authentication, data exposure or
 5. **Physical penetration testing** - A consultant tests the physical security of an office to see how easy it is to gain access to restricted areas
 
 ## What are the recommended tools to use?

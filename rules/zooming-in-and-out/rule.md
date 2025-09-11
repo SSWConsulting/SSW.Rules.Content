@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to explain problems clearly by starting broad (zoomed out) and then narrowing in
 type: rule
-title: Explaining - Do you zoom out then in?
+title: Do you explain concepts by zooming out then zooming in?
 uri: zooming-in-and-out
 authors:
   - title: Luke Cook

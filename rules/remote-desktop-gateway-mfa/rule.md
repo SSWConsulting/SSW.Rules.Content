@@ -29,7 +29,7 @@ Protecting your Remote Desktop connections is crucial in today's cybersecurity l
 
 <!--endintro-->
 
-You can follow along [Microsoft's documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-nps-extension) to implement this at your company and follow the summary below, if you already fill the prerequisites:
+You can follow along [Microsoft's documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-nps-extension?WT.mc_id=ES-MVP-33518) to implement this at your company and follow the summary below, if you already fill the prerequisites:
 
 1. ##### Enable the NPS role on a domain-joined server
 

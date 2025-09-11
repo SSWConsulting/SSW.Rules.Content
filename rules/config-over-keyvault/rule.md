@@ -18,7 +18,7 @@ We all know that we should [Store Secrets Securely](/store-your-secrets-securely
 ![Figure: Bad example - Having to wire up Key Vault unnecessarily](badkeyvault.png "Wiring up both KeyVault and Configure")
 :::
 
-A feature of Azure AppService is the ability to [use secrets from Key Vault as Configuration values](https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references). This allows you to setup a link between your AppService and a Key Vault and have Configuration values point to a Key Vault Entry.
+A feature of Azure AppService is the ability to [use secrets from Key Vault as Configuration values](https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?WT.mc_id=AZ-MVP-33518). This allows you to setup a link between your AppService and a Key Vault and have Configuration values point to a Key Vault Entry.
 
 So now rather than developers having to think about if a value is a secret or configurations, it's always configuration. It just might have its value stored securely in Key Vault.
 

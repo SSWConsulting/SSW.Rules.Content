@@ -52,4 +52,4 @@ Figure: Good example - using Primary Constructors to reduce boilerplate code.
 
 In the example above we the `Hero` class has access to the parameters passed into the Primary Constructor so we don't need to store them in private fields. We can use them directly in the `ToString()` method.
 
-For more information on Primary Constructors see [learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors)
+For more information on Primary Constructors see [learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors?WT.mc_id=DT-MVP-33518)

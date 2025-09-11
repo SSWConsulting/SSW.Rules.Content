@@ -30,8 +30,6 @@ Most developers include [health checks for their own applications](/have-a-healt
 
 <!--endintro-->
 
-
-
 ![Figure: Infrastructure Health Checks](health-check-image.png)
 
 ## Your app is only as healthy as its infrastructure
@@ -47,11 +45,11 @@ Monitoring the health of infrastructure services is not just a technical task; i
 
 To set up health checks in a .NET application, start by configuring the built-in health checks middleware in your Program.cs (or Startup.cs for older versions). Use AddHealthChecks() to monitor core application behavior, and extend it with specific checks for infrastructure services such as databases, Redis, or external APIs using packages like AspNetCore.HealthChecks.SqlServer or AspNetCore.HealthChecks.Redis. This approach ensures your health endpoint reflects the status of both your app and its critical dependencies.
 
-👉 See detailed implementation steps in the **video above**, and refer to the official [Microsoft documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-9.0) for further configuration examples and advanced usage
+👉 See detailed implementation steps in the **video above**, and refer to the official [Microsoft documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-9.0&WT.mc_id=AZ-MVP-33518) for further configuration examples and advanced usage
 
 ## Alerts and responses
 
-Adding comprehensive health checks is great, but if no-one is told about it - what's the point? There are awesome tools available to notify Site Reliability Engineers (SREs) or SysAdmins when something is offline, so make sure your app is set up to use them! For instance, Azure's [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) and AWS' [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) provide a suite of configurable options for who, what, when, and how alerts should be fired.
+Adding comprehensive health checks is great, but if no-one is told about it - what's the point? There are awesome tools available to notify Site Reliability Engineers (SREs) or SysAdmins when something is offline, so make sure your app is set up to use them! For instance, Azure's [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview?WT.mc_id=AZ-MVP-33518) and AWS' [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) provide a suite of configurable options for who, what, when, and how alerts should be fired.
 
 ## Health check UIs
 
@@ -63,7 +61,7 @@ Depending on your needs, you may want to bake in a health check UI directly into
 
 ::: good
 ![Figure: Good example - SSWTimePro has a Health Check page](timepro-health-check.png)
-::: 
+:::
 
 ::: good
 ![Figure: Good example - Tina.io has a Health Check page](tina-health-check.png)
@@ -88,7 +86,7 @@ When deploying apps in Azure it's good practice to enable health checks within t
 * Include detailed diagnostics (e.g., database, Redis, third-party services)
 * Integrate with internal observability tools like Azure Monitor
 * Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources
-* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/)
+* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/?WT.mc_id=AZ-MVP-33518)
 
 ## Handle offline infrastructure gracefully
 

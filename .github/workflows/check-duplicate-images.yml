@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # Step 1: Check out the source code of the pull request.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -24,7 +24,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
 
       # Step 2: Set up the Node.js environment.
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
 
       # Step 3: Check and renaming duplicate images
       - name: Rename Duplicate Images

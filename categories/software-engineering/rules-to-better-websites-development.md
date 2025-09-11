@@ -41,6 +41,7 @@ index:
   - use-jquery-instead-of-javascript
   - use-link-auditor
   - using-markdown-to-store-your-content
+  - self-contained-images-and-content
   - mdx-vs-markdown
   - best-practices-for-frontmatter-in-markdown
   - page-owner
@@ -52,7 +53,7 @@ index:
   - use-open-graph
   - use-server-side-comments
   - best-static-site-tech-stack
-  - use-nextjs
+  - why-nextjs-is-great
   - use-nextjs-caching-system
   - cms-solutions
   - git-based-cms-solutions
@@ -63,6 +64,7 @@ index:
   - monitor-packages-for-vulnerabilities
   - do-you-perform-migration-procedures-with-an-approved-plan
   - manage-bundle-size
+  - keep-website-loading-time-acceptable
   - best-commenting-engine
   - do-you-know-the-best-framework-to-build-an-admin-interface
 ---

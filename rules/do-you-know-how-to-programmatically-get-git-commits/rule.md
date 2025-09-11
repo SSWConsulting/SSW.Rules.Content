@@ -13,7 +13,7 @@ related: []
 redirects: []
 ---
 
-Using the [Azure DevOps API](https://docs.microsoft.com/en-us/rest/api/azure/devops/git/commits/get-commits?view=azure-devops-rest-6.0) you can programmatically get a list of commits from your repository with only a HTTP request.
+Using the [Azure DevOps API](https://docs.microsoft.com/en-us/rest/api/azure/devops/git/commits/get-commits?view=azure-devops-rest-6.0&WT.mc_id=DOP-MVP-33518) you can programmatically get a list of commits from your repository with only a HTTP request.
 
 ![Figure: HTTPS GET commits from your repository](devops-get-commits.png)
 

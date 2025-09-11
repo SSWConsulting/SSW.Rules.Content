@@ -3,7 +3,7 @@ seoDescription: Learn to use "Save", "Save and Close", and "Cancel" buttons effe
 type: rule
 archivedreason:
 title: Do you know to provide a "Save and Close" option?
-guid: 1b4ab685-c5ba-4edb-ba20-62ff8a7932012
+guid: 805ea409-4b53-4ffe-afd1-981f7d0dd7b0
 uri: do-you-know-to-use-save-save-and-close-on-a-webpage
 created: 2014-11-27T03:54:09.0000000Z
 authors:

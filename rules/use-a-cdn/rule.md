@@ -27,6 +27,7 @@ If your site takes too long to load, there is a high chance your users will not 
 <!--endintro-->
 
 ### What is a CDN?
+
 CDN is short for a Content Delivery Network. It is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
 
 ### Why use a CDN?
@@ -51,7 +52,7 @@ Front Door is a good option, but it has some notable downsides regarding redirec
 
 ❌ Cons:
 
-* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits) per resource group.
+* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits?WT.mc_id=AZ-MVP-33518) per resource group.
 * **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
 * **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
 * **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
@@ -76,9 +77,6 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
 * **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
-
-
-
 
 #### Which CDNs work well from China?
 

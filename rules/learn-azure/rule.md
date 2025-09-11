@@ -24,14 +24,14 @@ There are heaps of great tools out there with differing pricing models and learn
 
 YouTube is a great resource for those who love audio-visual learning. It is completely free and there are heaps of industry experts providing content. Some of the best examples are:
 
-- [John Savill](https://www.youtube.com/c/NTFAQGuy)
-- [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
-- [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
-- [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
+* [John Savill](https://www.youtube.com/c/NTFAQGuy)
+* [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
+* [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
+* [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
 
 ### Microsoft Learn - $0 - Recommended ✅
 
-[Microsoft Learn](https://docs.microsoft.com/en-us/learn/) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
+[Microsoft Learn](https://docs.microsoft.com/en-us/learn/?WT.mc_id=AZ-MVP-33518) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
 
 ### Online Learning Platforms - $100 - 500 AUD
 
@@ -39,6 +39,6 @@ Online learning platforms provide high quality technical training from your brow
 
 Some of the options:
 
-- Udemy - $~100 AUD - Budget Option, no instructor vetting
-- LinkedIn Learning $~300 AUD
-- PluralSight - $~500 AUD - Gold Standard ⭐
+* Udemy - $~100 AUD - Budget Option, no instructor vetting
+* LinkedIn Learning $~300 AUD
+* PluralSight - $~500 AUD - Gold Standard ⭐

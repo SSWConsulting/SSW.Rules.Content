@@ -20,18 +20,18 @@ This information is essential for understanding which reports are delivering the
 
 ## Access Usage Metrics Report
 
-You need one of the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
+You need one of the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces?WT.mc_id=DP-MVP-33518) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics?WT.mc_id=DP-MVP-33518):
 
-- Admin
-- Contributor
-- Member
+* Admin
+* Contributor
+* Member
 
 You have 2 options to view the Usage Metrics Report for an individual report:
 
-- Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
+* Inside your Workspace for the Report, that you are interested in, click “More Options (…)” | “View usage metrics report”.
   ![Figure: From Workspace - click “More Options (…)” | “View usage metrics report”](open-from-workspace.png)
 
-- Inside opened Report in the command bar click “More Options (…)” | “Open usage metrics”.
+* Inside opened Report in the command bar click “More Options (…)” | “Open usage metrics”.
   ![Figure: From Report - click “More Options (…)” | “Open usage metrics”](open-from-report.png)
 
 If you're viewing a Usage Metrics report for the first time, Power BI may initially open the old version of the this report. To access the enhanced Usage Metrics report, toggle the "New usage report" switch located in the command bar.
@@ -42,10 +42,10 @@ Usage Metrics Report dataset contains data for the last 30 days and refreshes da
 
 The report contains 4 pages:
 
-- **Report usage** – Shows such information as number of report open requests and views per user or per page
-- **Report performance** – Shows trends of Open Report actions
-- **Report list** – Shows the list of all reports in the workspace and their metrics
-- **FAQ** – Shows the answers to frequently asked questions about Usage Metrics Report
+* **Report usage** – Shows such information as number of report open requests and views per user or per page
+* **Report performance** – Shows trends of Open Report actions
+* **Report list** – Shows the list of all reports in the workspace and their metrics
+* **FAQ** – Shows the answers to frequently asked questions about Usage Metrics Report
 
 ## Customize Usage Metrics Report
 

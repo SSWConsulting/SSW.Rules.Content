@@ -26,16 +26,16 @@ Martin Fowler was one of the first people to [introduce the concept of subcutane
 
 Some of the key qualities of these tests are:
 
-- They are written by developers (typically using the same framework as the unit tests)
-- They can test the full underlying behaviour of your app, but bypass the UI
-- They require business logic to be implemented in an API / middle layer and not in the UI
-- They can be much easier to write than using technologies that drive a UI, e.g. Playwright or Selenium
+* They are written by developers (typically using the same framework as the unit tests)
+* They can test the full underlying behaviour of your app, but bypass the UI
+* They require business logic to be implemented in an API / middle layer and not in the UI
+* They can be much easier to write than using technologies that drive a UI, e.g. Playwright or Selenium
 
 The [Introduction To Subcutaneous Testing](https://www.ministryoftesting.com/dojo/lessons/introduction-to-subcutaneous-testing) by Melissa Eaden provides a good overview of this approach.
 
 ### Integrate with DevOps
 
-The gold standard ⭐ is to automatically run subcutaneous tests inside your DevOps processes such as when you perform a Pull Request or a build. You can do this using [GitHub Actions](https://github.com/features/actions) or [Azure DevOps](https://azure.microsoft.com/en-au/services/devops/).
+The gold standard ⭐ is to automatically run subcutaneous tests inside your DevOps processes such as when you perform a Pull Request or a build. You can do this using [GitHub Actions](https://github.com/features/actions) or [Azure DevOps](https://azure.microsoft.com/en-au/services/devops/?WT.mc_id=AZ-MVP-33518).
 
 Every test should reset the database so you always know your resources are in a consistent state.
 

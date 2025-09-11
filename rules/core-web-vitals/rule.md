@@ -85,7 +85,7 @@ There are a variety of services that you can use for collecting data Core Web Vi
 
 * Sentry - see [Sentry's marketing page on monitoring Web Vitals](https://sentry.io/for/web-vitals/)
 * Google Analytics - see [Google's how-to page on monitoring Web Vitals with GA4 and BigQuery](https://web.dev/articles/vitals-ga4)
-* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics)
+* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics?WT.mc_id=AZ-MVP-33518)
 
 To track this data on App Insights you can use `trackMetric`:
 

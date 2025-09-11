@@ -15,6 +15,7 @@ authors:
 related:
   - create-friendly-short-urls
   - do-you-display-information-consistently
+  - wcag-compliance
 redirects:
   - do-you-use-relevant-words-on-your-links
   - relevant-words-on-links
@@ -25,9 +26,17 @@ guid: 507ec7a5-a681-4617-abf1-b87ddc96f157
 
 The way your inbound links are worded makes a big difference. They play an important factor for search engine results and for the users.
 
-Having descriptive links with relevant words **improves your website SEO** and gives a **more friendly experience to users**.
+Having descriptive links with relevant words **boosts your website SEO**, **improves accessibility**, and gives a **more friendly experience to all users**.
 
 <!--endintro-->
+
+::: info
+**Note:** This is extra important for accessibility - According to [CAG 2.4.4/2.4.9 Link Purpose - Write better link text](https://www.youtube.com/watch?v=fXlLLVE6Grg), links should be as descriptive and contextual as possible for users who rely on accessibility tools.
+
+This can be achieved through **clear link text** or by **using the `aria-label` attribute** in the link’s HTML.
+
+[Learn more about making your website WCAG compliant]/wcag-compliance).
+:::
 
 For example, if a website had millions of inbound links that described it as "Movies for Free", when someone searches for "free movies" on Google, it would point to this website.
 

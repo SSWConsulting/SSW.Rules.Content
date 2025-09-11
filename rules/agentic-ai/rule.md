@@ -13,8 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
-
 related:
+  - ai-assisted-development-workflow
   - avoid-ai-hallucinations
   - use-semantic-kernel
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
@@ -38,16 +38,14 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 
 ## Leading agent frameworks comparison
 
-| Feature            | [Autogen](https://microsoft.github.io/autogen/stable/) ⭐️ | [OpenAI Agents](https://openai.github.io/openai-agents-python/) | [LangGraph](https://www.langchain.com/langgraph)           | [n8n](https://n8n.io/)                                |
-| ------------------ | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------- |
-| **Developed By**   | Microsoft                                              | OpenAI                                                       | LangChain                                                  | n8n                                                   |
-| **Best For**       | Multi-agent conversations, flexible agent topologies    | Production-ready pipelines with OpenAI models                | Complex stateful workflows, cyclical execution patterns    | No-code AI workflow automation                        |
-| **Learning Curve** | Medium                                                  | Low                                                          | High                                                       | Low (visual interface)                                |
-| **Key Features**   | - Conversational agents<br>- Event-driven<br>- Group chat | - Agent SDK<br>- Native handoffs<br>- Built-in tracing<br>- Guardrails | - Graph-based workflows<br>- State management<br>- Human-in-loop<br>- Time-travel debugging | - Visual workflow editor<br>- 400+ integrations<br>- AI nodes |
-| **Integration**    | Python, various LLMs                                   | Python/JS, OpenAI ecosystem                                  | Python/JS, LangChain ecosystem                            | No-code interface, LangChain under the hood          |
-| **Production Ready** | Research-focused                                      | Yes, built for production                                    | Yes, enterprise-grade                                      | Yes, for workflow automation                          |
+| Tool / Feature | **Developed by** | **Best for** | **Learning curve** | **Key features** | **Integration** | **Production ready** |
+|----------------|------------------|--------------|---------------------|------------------|------------------|------------------------|
+| [**Autogen ⭐️**](https://microsoft.github.io/autogen/stable/) | Microsoft | Multi-agent conversations, flexible agent topologies | Medium | - Conversational agents<br>- Event-driven<br>- Group chat | Python, various LLMs | Research-focused |
+| [**OpenAI Agents**](https://openai.github.io/openai-agents-python/) | OpenAI | Production-ready pipelines with OpenAI models | Low | - Agent SDK<br>- Native handoffs<br>- Built-in tracing<br>- Guardrails | Python/JS, OpenAI ecosystem | Yes, built for production |
+| [**LangGraph**](https://www.langchain.com/langgraph) | LangChain | Complex stateful workflows, cyclical execution patterns | High | - Graph-based workflows<br>- State management<br>- Human-in-loop<br>- Time-travel debugging | Python/JS, LangChain ecosystem | Yes, enterprise-grade |
+| [**n8n**](https://n8n.io/) | n8n | No-code AI workflow automation | Low (visual interface) | - Visual workflow editor<br>- 400+ integrations<br>- AI nodes | No-code interface, LangChain under the hood | Yes, for workflow automation |
 
-*Note: Microsoft is planning to merge [Semantic Kernel](https://www.ssw.com.au/rules/use-semantic-kernel/) and AutoGen into a unified framework, combining enterprise Azure workflows with advanced agent capabilities.*
+**Note:** Microsoft is planning to merge [Semantic Kernel](https://www.ssw.com.au/rules/use-semantic-kernel/) and AutoGen into a unified framework, combining enterprise Azure workflows with advanced agent capabilities.
 
 - - -
 

@@ -20,4 +20,4 @@ The Composite Application Guidance from the patterns & practices team at Microso
 <!--endintro-->
 
 With Composite Application Library (CAL), you can only adopt the components your application requires. For example, you could change your communication approach from .NET Framework events to use the Event Aggregator, which allows you to send loosely coupled messages between modules.
-[Composite Application Guidance](<https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648465(v=pandp.10)?redirectedfrom=MSDN>)
+[Composite Application Guidance](<https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648465(v=pandp.10?WT.mc_id=WDIT-MVP-33518)?redirectedfrom=MSDN>)

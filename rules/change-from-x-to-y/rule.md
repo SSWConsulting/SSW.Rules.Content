@@ -23,11 +23,16 @@ created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
-When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "Change from X to Y".
+
+When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "change from X to Y".
 
 This process consists of including the original version of the content ("X") along with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
 
 <!--endintro-->
+
+::: info
+**Tip:** For any changes that aren't text-related, [YakShaver is the way to go](https://yakshaver.ai/). It captures the exact user context, and automatically creates and assigns issues to the right team, saving time and improving accuracy.
+:::
 
 `youtube: https://www.youtube.com/embed/zP5xdELqlBY`
 **Video: Best way to ask for content changes | Ulysses Maclaren | SSW Rules (5 min)**

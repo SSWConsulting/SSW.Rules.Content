@@ -33,9 +33,11 @@ When using Bootstrap it's best to opt for the framework specific integration of 
 
 ## shadcn/ui – customized with V0 (Recommended)
 
-This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
+Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a separate library by utilising path aliases.
 
-It builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com) (the industry standard CSS framework).
+The trade-off of this approach is that any updates made to the Shadcn code base won't automatically be reflected in your code base. You should consider this when electing to use Shadcn. If having a distinct look and feel for your UI is unimportant, and you don't want to maintain your UI, a conventional library such as [Material UI](https://mui.com/) may be better for your project.
+
+Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com), an industry standard framework that offers an opinionated approach to managing your css classes. This makes it even easier to manage customizations made to your components.
 
 ::: info
 While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
@@ -51,6 +53,34 @@ It's also integrated with the shadcn/ui path alias conventions.
 For more info, see the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
 
 In effect, these technologies together let you quickly build your own custom component library for any React application.
+
+Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
+
+::: info
+Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
+:::
+
+```jsx
+const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
+  {/* 
+    Classes in the second argument of "cn" 
+    will override classes in the first argument 
+  */}
+  return <h1 className=cn("font-semibold text-xl", className)>{children}</h1>
+}
+
+
+const Layout = ({children}: {children: React.ReactNode})=>{
+  
+  return <main>
+          {/* text-2xl will be applied here */}
+          <Heading1 className="text-2xl">
+            Hello world!
+          </Heading1>
+          {children}
+        </main>
+}
+```
 
 `youtube: https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u`
 **Video – Why Everyone Loves Shadcn UI Right Now (1 min)**

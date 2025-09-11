@@ -20,9 +20,9 @@ If you have an on-premises Skype for Business (S4B) server, and you want to upgr
 
 Microsoft Teams is going to replace Skype and Skype for Business in the near future - which means an upgrade will be necessary soon.
 
-1. To leverage the full features of Teams, you need to first setup Hybrid on your S4B on-premises server. This is no small task, and you can find the full instructions on how to do that [here](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+1. To leverage the full features of Teams, you need to first setup Hybrid on your S4B on-premises server. This is no small task, and you can find the full instructions on how to do that [here](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json&WT.mc_id=M365-MVP-33518)
 
 2. After setting up a Hybrid environment, you will need to migrate all your users from S4B to Teams. This involves 2 steps (if you have an on-premises S4B):
 
-1. Moving from S4B on-premises to S4B online ([instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud));
-2. Moving from S4B online to Teams ([see instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams))
+1. Moving from S4B on-premises to S4B online ([instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?WT.mc_id=M365-MVP-33518));
+2. Moving from S4B online to Teams ([see instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams?WT.mc_id=M365-MVP-33518))

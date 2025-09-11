@@ -43,7 +43,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 ### 1. Headings, paragraphs, and blockquotes
 
 ```markdown
-## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
+## This is a heading 2 
 
 ### This is a heading 3
 
@@ -60,7 +60,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 **Figure: Markdown to generate headings and blockquotes**
 
 ::: info
-Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+Do **not** use Heading 1 (`<h1>`) in the content, even with the good intention of improving SEO. The page title already uses `<h1>`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `<h1>` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
 :::
 
 ## This is a heading 2

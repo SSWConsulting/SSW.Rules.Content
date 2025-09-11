@@ -60,7 +60,7 @@ Let's see these in action:
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
 
-{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
+{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
 [Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
 

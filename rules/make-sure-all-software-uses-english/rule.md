@@ -1,7 +1,9 @@
 ---
-seoDescription: Ensure all software uses English as default language settings to avoid cultural and linguistic barriers when interacting with Western audiences.
 type: rule
 title: Do you make sure all software uses English as default on language settings?
+seoDescription: Ensure all software uses English as default language settings to
+  avoid cultural and linguistic barriers when interacting with Western
+  audiences.
 uri: make-sure-all-software-uses-english
 authors:
   - title: William Yin
@@ -20,6 +22,7 @@ archivedreason: null
 guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 ---
 
+
 When dealing with western people, you want to avoid having screen captures showing foreign characters.
 
 Let us look at some examples:
@@ -29,11 +32,11 @@ Let us look at some examples:
 ## Google Chrome
 
 ::: bad
-![Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
+!\[Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
 :::
 
 ::: good
-![Figure: Good example - Chrome using English as its language setting](2016-3-22 14-59-07.png)
+!\[Figure: Good example - Chrome using English as its language setting](2016-3-22 14-59-07.png)
 :::
 
 ### How to fix on a PC?
@@ -69,7 +72,6 @@ In Chrome, you can follow these steps directly:
 ![Figure: In macOS it’s simple to change to English](WX20180906-111514@2x.png)
 
 2. In Preferred languages, add English and select it as primary language
-
 3. Reboot the system and verify that English is now the primary language for all desktop applications
 
 ## Google account
@@ -77,7 +79,6 @@ In Chrome, you can follow these steps directly:
 You should also change your Google language to English as well. If it is not already, take a look at these steps:
 
 1. Go to google.com
-
 2. Click on `Sign-In` or `My Account` if you are already signed in
 
 ![Figure: Google page without an account](ssw1.png)
@@ -204,4 +205,32 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 ![Figure: Drag English field to the top of the list](iossettinglanguage.jpg)
 :::
 
+3. Done!
+
+
+
+## Fix Your Personal Email - Netease Mail Box (Mail.163.com)
+
+1. Navigate to Mail.163.com | Setting and then select English from the dropdown
+
+   ![Figure: Navigate to mail.163.com | Setting and then select English from the dropdown](163-setting.png)
+
+
+
+
+2. Click on the name field next to the head portrait | Enter your English Name
+
+   ![Figure: Enter your English name so your Western colleagues can read](163-rename.png)
+3. Done!
+
+
+
+## Fix Your Personal Email - Tencent Mail Box (Mail.qq.com)
+
+1. Navigate to Mail.qq.com | General | Profile | My Profile, click edit to add your English Name.
+
+   ![Figure: Add your English name in profile](qqrename.png)
+2. Navigate to Mail.qq.com | General | Language then select English from the dropdown
+
+   ![Figure: General | Language select English](qqsetting.png)
 3. Done!

@@ -12,8 +12,7 @@ guid: 43ebc750-b0c4-417a-8a92-e32254c29959
 
 Repetitive tasks like updating spreadsheets, sending reminders, and syncing data between services are time-consuming and distract your team from higher-value work. Businesses that fail to automate these tasks fall behind.
 
-`youtube: https://www.youtube.com/embed/dummy-link-example`
-**Video: How to auto-post social media using n8n + AI (5 min)**
+The goal is to move from humans doing and approving the work, to automation doing and humans approving the work.
 
 <!--endintro-->
 

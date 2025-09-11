@@ -1,5 +1,5 @@
 ---
-seoDescription: Improve project workflow efficiency by contacting clients via Skype or Instant Messenger to resolve roadblocks and build relationships.
+seoDescription: Improve project workflow efficiency by contacting clients via Teams or Instant Messenger to resolve roadblocks and build relationships.
 type: rule
 archivedreason:
 title: Do you contact your clients using IM?

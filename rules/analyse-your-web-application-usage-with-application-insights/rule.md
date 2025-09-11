@@ -28,6 +28,6 @@ The Application Insights provides devs with two different levels of usage tracki
 
 ![Figure: Easily track and compare custom events](custom-events-in-app-insights.jpg)
 
-It is very straightforward to add these to an application by adding a few lines of code to the hot points of your app. Follow [Application Insights API for custom events and metrics](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics) to learn more.
+It is very straightforward to add these to an application by adding a few lines of code to the hot points of your app. Follow [Application Insights API for custom events and metrics](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics?WT.mc_id=AZ-MVP-33518) to learn more.
 
-If you feel constricted by the Application Insights custom events blade? Then you can export your data and display it in PowerBI, take a look at [Using Azure Log Analytics in Power BI](https://learn.microsoft.com/en-us/power-bi/transform-model/log-analytics/desktop-log-analytics-overview)
+If you feel constricted by the Application Insights custom events blade? Then you can export your data and display it in PowerBI, take a look at [Using Azure Log Analytics in Power BI](https://learn.microsoft.com/en-us/power-bi/transform-model/log-analytics/desktop-log-analytics-overview?WT.mc_id=DP-MVP-33518)

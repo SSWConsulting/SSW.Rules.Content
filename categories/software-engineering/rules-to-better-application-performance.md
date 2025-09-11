@@ -6,9 +6,10 @@ uri: rules-to-better-application-performance
 index:
 - the-best-time-to-tackle-performance-testing
 - optimize-bundle-size
+- keep-website-loading-time-acceptable
 - compare-pr-performance-with-production
 - where-your-goal-posts-are
-- do-you-avoid-reviewing-performance-without-metrics
+- avoid-reviewing-performance-without-metrics
 - steps-required-to-implement-a-performance-improvement
 - the-best-way-to-get-metrics-out-of-your-browser
 - where-bottlenecks-can-happen

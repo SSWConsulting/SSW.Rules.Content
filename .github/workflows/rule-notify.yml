@@ -1,0 +1,50 @@
+name: Notify n8n of new rules
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'rules/**/rule.md'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  
+
+      # ---------- 1. Detect added rule files ----------
+      - name: List brand-new rule files
+        id: diff
+        run: |
+          ADDED=$(git diff --diff-filter=A --name-only \
+                  "${{ github.event.before }}" "${{ github.sha }}" \
+                  | grep -E '^rules/.+\.md$' || true)
+
+          echo "Added rule files (debug):"
+          echo "$ADDED"
+
+          # pass the (possibly multi-line) string to later steps
+          printf "files<<EOF\n%s\nEOF\n" "$ADDED" >> "$GITHUB_OUTPUT"
+
+      # ---------- 2. Call n8n, echoing each file ----------
+      - name: Call n8n for each new rule (includes file content)
+        if: steps.diff.outputs.files != ''
+        env:
+          WEBHOOK_URL: ${{ secrets.N8N_RULE_WEBHOOK }}
+        run: |
+          # Use a here-string to iterate over each file path on its own line
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue   # skip empty lines (safety)
+
+            echo "Sending $f to n8n…"   # debug output
+
+            CONTENT=$(jq -Rs '.' < "$f")
+
+            curl -s -X POST "$WEBHOOK_URL" \
+                 -H 'Content-Type: application/json' \
+                 -d "{\"path\":\"$f\",\"commit\":\"${GITHUB_SHA}\",\"content\":${CONTENT}}"
+          done <<< "${{ steps.diff.outputs.files }}"

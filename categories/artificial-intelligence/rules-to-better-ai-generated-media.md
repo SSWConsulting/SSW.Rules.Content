@@ -17,6 +17,7 @@ index:
 - generate-ui-mockups-with-ai
 - use-negative-prompting
 - ai-tools-voice-translations
+- use-ai-to-edit-images
 ---
 
 Mastering AI-generated media is key to enhancing creativity and efficiency. These rules cover everything from generating images to transforming them, ensuring you're equipped with the best practices for AI-driven content creation.

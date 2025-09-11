@@ -19,7 +19,7 @@ As soon as you have configured Application Insights, you should immediately add 
 <!--endintro-->
 
 Instructions on how to add Web Tests can be found on [Microsoft Learn - Application Insights availability tests
-(https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability?tabs=standard).
+(https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability?tabs=standard&WT.mc_id=AZ-MVP-33518).
 
 Setting up a Web Test will allow you to query and see how the performance of your application has changed over a period of time and to help you spot any anomalies. It can be useful to query over a long period of time (e.g. a year) and see if the performance has stayed the same or if there have been any regressions in responsiveness.
 

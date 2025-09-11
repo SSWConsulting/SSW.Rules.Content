@@ -9,15 +9,19 @@ created: 2015-07-24T04:48:34.0000000Z
 authors:
   - title: Chris Briggs
     url: https://ssw.com.au/people/chris-briggs
+  - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
 related:
   - do-you-know-how-to-set-up-application-insights-in-sharepoint
   - do-you-use-an-analytics-framework-to-help-manage-exceptions
   - do-you-know-why-you-want-to-use-application-insights
+  - infrastructure-health-checks
+  - clean-failed-requests
 redirects:
   - do-you-know-how-to-set-up-application-insights
 ---
 
-The easiest way to get started with Application Insights is to [follow the documentation on Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview).
+The easiest way to get started with Application Insights is to [follow the documentation on Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?WT.mc_id=AZ-MVP-33518).
 
 Lets take a look at the overview and our tips to help you get the most out of Application Insights.
 
@@ -27,22 +31,35 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
 
 Application Insights requires that you make 2 general modifications to your application:
 
-1. On the client side, manually [add a Javascript tracker to your web page header](https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-sdk?tabs=javascriptwebsdkloaderscript) (i.e. by placing directly on each page or through a "master page" or "layout template"), this modification enables the "browser page loading time" monitor and can track client-side exceptions:
+1. On the client side, manually [add a Javascript tracker to your web page header](https://learn.microsoft.com/en-us/azure/azure-monitor/app/javascript-sdk?tabs=javascriptwebsdkloaderscript&WT.mc_id=AZ-MVP-33518) (i.e. by placing directly on each page or through a "master page" or "layout template"), this modification enables the "browser page loading time" monitor and can track client-side exceptions:
 
    ![Browser side stats have been enabled with the JavaScript tracker](app-insights-browser-loading-time.jpg)
 
-2. On the server side, [add the Application Insights DLL references and update web.config](https://learn.microsoft.com/en-us/azure/azure-monitor/app/asp-net), these modifications enable the "server response time", "server request" and "failed requests" monitors. This step can either be done within Visual Studio when right-clicking on a project in Solution Explorer, but it can also be done with the server monitoring tool on ASP.NET applications you don't have control over (e.g. SharePoint).
+2. On the server side, [install and configure the Azure.Monitor.OpenTelemetry.AspNetCore package](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable?tabs=aspnetcore&WT.mc_id=AZ-MVP-33518). These modifications enable the "server response time", "server request" and "failed requests" monitors.
 
   ![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
 
-### Tip #1: Add enhanced Exception tracking to your application
+## Tips
 
-The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow [Diagnose exceptions in web apps with Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions) for more information.
+Now that you've added Application Insights, what can you do with it?
 
-### Tip #2: Add Web tests to monitor performance metrics over time
+### Add Health Checks
 
-As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends over time. More information can be found at [Do you add Web Tests to Application Insights to monitor trends over time?](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time).
+Application Insights makes it easy to check the health of your app and its infrastructure - see [Do you Health Check your infrastructure?](/infrastructure-health-checks)
 
-### Tip #3: What if you don't have the source code of your ASP.NET application
+### Create a custom dashboard
 
-[Do you know how to set up Application Insights (in SharePoint)?](/application-insights-in-sharepoint) shows that you can use the Application Insights Status Monitor to monitor an application that’s already installed and running without updating the code or redeploying it.
+A custom [Application Insights dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#create-custom-kpi-dashboards-using-application-insights?WT.mc_id=AZ-MVP-33518) makes monitoring your application much easier. The KPIs that you would typically monitor for each component of your application are:
+
+* How many requests each component is receiving.
+* How long requests are taking.
+* How many exceptions and dependency failures are being experienced by the app.
+* [How many requests are failing.](/clean-failed-requests)
+
+When designing your custom dashboard:
+
+* Size charts based on their importance.
+* Lay charts out so that it is easy to compare points in time between charts.
+* Ensure that metrics with different scales are not on the same chart. For instance, the average server response time may vary between 250 and 500 milliseconds, but that variance may not be easily visible if the maximum server response time is plotted as taking 40 seconds on the same chart.
+
+![Good example - Custom dashboard demonstrating the above points](good-example-custom-dashboard.png)

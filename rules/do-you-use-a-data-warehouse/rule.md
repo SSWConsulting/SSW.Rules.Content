@@ -41,16 +41,16 @@ Advanced - \[YouTube: Azure Synapse Analytics] If you want to see an example, ta
 
 ### ✅ When to use a Data Warehouse
 
-- **Complex Analytical Reporting:** Data Warehouses excel at handling complex queries and generating comprehensive reports across different dimensions of the data. If your organization requires in-depth analysis, trend identification, and complex reporting on large volumes of historical and real-time data, a Data Warehouse can be a valuable asset.
-- **Decision Support:** When making strategic decisions based on data-driven insights, a Data Warehouse provides a reliable foundation. It enables the integration of data from multiple sources, which allows for a comprehensive view of the organization's operations, customers, and market trends. With a Data Warehouse, you can derive meaningful business intelligence and support decision-making processes effectively.
-- **Data Integration:** If your organization deals with disparate data sources such as databases, spreadsheets, files, or external systems, a Data Warehouse offers a unified platform for integrating and harmonizing the data. It enables data cleansing, transformation, and consolidation, ensuring consistency and accuracy across various data sets.
-- **Historical Analysis:** Data Warehouses retain historical data over extended periods, enabling retrospective analysis and trend identification. This capability is particularly useful for businesses that require insights into long-term performance, customer behavior, market trends, and forecasting.
+* **Complex Analytical Reporting:** Data Warehouses excel at handling complex queries and generating comprehensive reports across different dimensions of the data. If your organization requires in-depth analysis, trend identification, and complex reporting on large volumes of historical and real-time data, a Data Warehouse can be a valuable asset.
+* **Decision Support:** When making strategic decisions based on data-driven insights, a Data Warehouse provides a reliable foundation. It enables the integration of data from multiple sources, which allows for a comprehensive view of the organization's operations, customers, and market trends. With a Data Warehouse, you can derive meaningful business intelligence and support decision-making processes effectively.
+* **Data Integration:** If your organization deals with disparate data sources such as databases, spreadsheets, files, or external systems, a Data Warehouse offers a unified platform for integrating and harmonizing the data. It enables data cleansing, transformation, and consolidation, ensuring consistency and accuracy across various data sets.
+* **Historical Analysis:** Data Warehouses retain historical data over extended periods, enabling retrospective analysis and trend identification. This capability is particularly useful for businesses that require insights into long-term performance, customer behavior, market trends, and forecasting.
 
 ### ❌ When **not** to use a Data Warehouse
 
-- **Real-time Transactional Processing:** Data Warehouses are not suitable for real-time transactional processing where immediate response and low-latency data access are critical, as the data will often need to be cleaned or transformed (typically as a part of the ETL stage) before it can be used. Operational databases or other specialized systems are more suitable for such use cases.
-- **Small-scale Data Storage:** If your organization deals with relatively small volumes of data that don't require extensive integration, analysis, or long-term historical retention, a Data Warehouse may introduce unnecessary complexity and overhead. In such cases, simpler data storage and retrieval solutions might suffice.
-- **Temporary Data Analysis:** If you only need to perform ad hoc analysis on short-lived datasets, it may be more efficient to use other data analysis tools or platforms that don't involve building and maintaining a Data Warehouse.
+* **Real-time Transactional Processing:** Data Warehouses are not suitable for real-time transactional processing where immediate response and low-latency data access are critical, as the data will often need to be cleaned or transformed (typically as a part of the ETL stage) before it can be used. Operational databases or other specialized systems are more suitable for such use cases.
+* **Small-scale Data Storage:** If your organization deals with relatively small volumes of data that don't require extensive integration, analysis, or long-term historical retention, a Data Warehouse may introduce unnecessary complexity and overhead. In such cases, simpler data storage and retrieval solutions might suffice.
+* **Temporary Data Analysis:** If you only need to perform ad hoc analysis on short-lived datasets, it may be more efficient to use other data analysis tools or platforms that don't involve building and maintaining a Data Warehouse.
 
 ::: greybox
 
@@ -60,17 +60,17 @@ The business **Northwind Chips & Cream** sells hot chips and ice cream from thei
 
 The company wants to analyze its sales data across geographic locations and weather factors. They want to optimize their food truck distribution according to the highest grossing suburbs in each city for each day's conditions.
 
-- The company's sales data is stored in an Accounting system (ACME).
-- The trucks' locations are stored in a Fleet Management Library (FML).
-- The weather data comes from the country's weather API (BOM).
+* The company's sales data is stored in an Accounting system (ACME).
+* The trucks' locations are stored in a Fleet Management Library (FML).
+* The weather data comes from the country's weather API (BOM).
 
 A Data Warehouse is a compelling recommendation, because:
 
-- Analytical goals are clearly defined
-- Time variant data is used
-- Daily forecasts incentivize automation
-- Disparate data sources require aggregation
-- No real-time data ingestion required
+* Analytical goals are clearly defined
+* Time variant data is used
+* Daily forecasts incentivize automation
+* Disparate data sources require aggregation
+* No real-time data ingestion required
 
 :::
 
@@ -92,12 +92,12 @@ After defining business goals and assessing data, the next step is to develop a 
 
 ### Popular Data Warehouse products
 
-- [Microsoft Fabric](https://www.microsoft.com/en-au/microsoft-fabric)
-- [Azure Synapse Analytics](https://azure.microsoft.com/en-au/products/synapse-analytics/)
-- [Amazon Redshift](https://aws.amazon.com/redshift/)
-- [Google BigQuery](https://cloud.google.com/bigquery)
-- [Snowflake](https://www.snowflake.com/)
-- (On prem) [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads)
-- (On prem) [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions)
+* [Microsoft Fabric](https://www.microsoft.com/en-au/microsoft-fabric?WT.mc_id=DP-MVP-33518)
+* [Azure Synapse Analytics](https://azure.microsoft.com/en-au/products/synapse-analytics/?WT.mc_id=DP-MVP-33518)
+* [Amazon Redshift](https://aws.amazon.com/redshift/)
+* [Google BigQuery](https://cloud.google.com/bigquery)
+* [Snowflake](https://www.snowflake.com/)
+* (On prem) [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads?WT.mc_id=DP-MVP-33518)
+* (On prem) [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions&WT.mc_id=DP-MVP-33518)
 
 Remember, the decision to use a Data Warehouse should be based on the specific needs and requirements of your organization. Consider factors such as data volume, complexity, analytical needs, and long-term data retention before opting for a Data Warehouse solution.

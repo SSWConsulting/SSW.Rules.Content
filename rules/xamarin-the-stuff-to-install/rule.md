@@ -20,7 +20,7 @@ Installing Visual Studio is not enough.... There is another 2 hours plus of down
 
 ### Step 1
 
-Install VS 2015 + the Xamarin extension: https://msdn.microsoft.com/en-us/library/mt613162.aspx
+Install VS 2015 + the Xamarin extension: <https://msdn.microsoft.com/en-us/library/mt613162.aspx?WT.mc_id=DT-MVP-33518>
 
 ![Figure: You need "C#/.NET (Xamarin v4.1.0)](xamarin-1.png)
 

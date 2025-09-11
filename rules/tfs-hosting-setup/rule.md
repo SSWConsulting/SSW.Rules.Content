@@ -15,8 +15,8 @@ guid: 1b806cc8-71d3-43af-83fc-647cea0acbc1
 
 1. Connect to your TFS 2010 server you will need either:
 
-   - **Visual Studio 2008 Team System SP1 with the [TFS2010 Forward Compatibility update](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=cf13ea45-d17b-4edc-8e6c-6c5b208ec54d&displaylang=en)** OR
-   - **Visual Studio 2010**
+   * **Visual Studio 2008 Team System SP1 with the [TFS2010 Forward Compatibility update](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=cf13ea45-d17b-4edc-8e6c-6c5b208ec54d&displaylang=en&WT.mc_id=DOP-MVP-33518)** OR
+   * **Visual Studio 2010**
 
 <!--endintro-->
 

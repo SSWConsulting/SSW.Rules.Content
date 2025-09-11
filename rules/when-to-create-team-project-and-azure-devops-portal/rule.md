@@ -11,12 +11,12 @@ authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
 created: 2021-08-31T18:11:04.052Z
-archivedreason: Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017. Replaced by https://ssw.com.au/rules/connect-crm-to-microsoft-teams
+archivedreason: Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017.&WT.mc_id=DOP-MVP-33518 Replaced by https://ssw.com.au/rules/connect-crm-to-microsoft-teams
 guid: 2a827a86-f4c9-496e-aba1-6b77ea2a1429
 ---
 
 ::: info
-Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS <https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017>.
+Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS <https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017&WT.mc_id=DOP-MVP-33518>.
 :::
 
 When a prospect/client is ready to move forward (typically after a Specification Review)...
@@ -35,9 +35,9 @@ When a prospect/client is ready to move forward (typically after a Specification
 
 A few other things to do frequently do right away:
 
-- If required, create an external user account for the Product Owner. This enables the client access to your SharePoint Extranet to see the documents, sites and reports.
-- If required, let the client know they can upload additional files, or download a copy of the project for testing and deployment.
-- Check permissions and access rights
-- Consider synchronizing the project documents offline via Outlook or SharePoint Workspaces
-- Edit the SharePoint site landing wiki-page and upload some pictures of the team
+* If required, create an external user account for the Product Owner. This enables the client access to your SharePoint Extranet to see the documents, sites and reports.
+* If required, let the client know they can upload additional files, or download a copy of the project for testing and deployment.
+* Check permissions and access rights
+* Consider synchronizing the project documents offline via Outlook or SharePoint Workspaces
+* Edit the SharePoint site landing wiki-page and upload some pictures of the team
   ![Figure: Once your 'TFS Portal' is ready, add a picture of the team site, prior to letting them know about the new site](addimgtoteamsite.jpeg)

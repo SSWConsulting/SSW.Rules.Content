@@ -1,13 +1,18 @@
 ---
-seoDescription: Understand what happens in a Sprint Review meeting, including how PBIs are presented, accepted, or rejected, and how to keep stakeholders informed and engaged.
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
+seoDescription: Understand what happens in a Sprint Review meeting, including
+  how PBIs are presented, accepted, or rejected, and how to keep stakeholders
+  informed and engaged.
 uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - monthly-stakeholder-video
+  - summary-recording-sprint-reviews
   - sprint-review-retro-email
+  - scrum-master-do-you-schedule-the-3-meetings
   - do-you-make-your-team-meetings-easy-to-find
   - tick-and-flick
   - explaining-pbis
@@ -19,13 +24,17 @@ guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
 This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint.
 
-<!--endintro-->
-
 The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the PBIs to the Product Owner.
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the PBIs committed at the Sprint Planning meeting and the done PBIs being presented for acceptance. The Team seeks to have more PBIs accepted than originally committed. It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
+<!--endintro-->
+
 Each done PBI is then presented by the Team for acceptance. They aim to get the PBI accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+
+::: info
+To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
+:::
 
 `youtube: https://youtu.be/L94TEsTuLz4`
 
@@ -43,23 +52,34 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
-* Ping them in a Teams chat when the meeeting starts
+* Ping them in a Teams chat when the meeting starts
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
-"Here is a screenshot of the meeting in progress (so you can see who is in the meeting currently) 📅
+**When you ping stakeholders, include a message like this**:
 
-For the summary I will be attempting to add:
+* I'm recording the current meeting so I can get the Copilot stats later.
+* I'll call you and the stakeholders in 30 mins, {{ PRESENTER_NAME }} will run the Sprint Summary.
+* The stakeholders are: {{ STAKEHOLDER NAMES }}  
+* Let me know if you want anyone else added.
+:::
 
-* {{ LIST OF ITEMS }}"
+::: greybox
+**Tip**:Ask for Copilot AI images before the summary meeting to include in the summary.
+:::
+
+::: greybox
+**Tip**:Stakeholders often have a lot on their plate... Make their life easier: Rename the group chat so it's clear which project's review is about to start
 :::
 
 ::: good
-Good example - Pinging the stakeholders in a Teams chat at the beginning of the Sprint Review
+Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review
 :::
 
 ::: good
+
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
+
 :::
 
 ### What if you can't attend the Sprint Review
@@ -72,11 +92,12 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ YOUR SCRUM MASTER }} |
-| Cc:      | {{ YOUR TEAM }} |
-| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |\
+|          |                                                                    |     |
+| -------- | ------------------------------------------------------------------ | --- |
+| To:      | {{ YOUR SCRUM MASTER }}                                            |     |
+| Cc:      | {{ YOUR TEAM }}                                                    |     |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary | \   |
+
 ::: email-content
 
 ### Hi Team
@@ -90,7 +111,7 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 :::
 :::
 
----
+- - -
 
 ::: greybox
 Learn more about the meetings in Scrum:
@@ -103,7 +124,7 @@ Learn more about the meetings in Scrum:
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
 
----
+- - -
 
 ::: info
 **Not doing Scrum?**

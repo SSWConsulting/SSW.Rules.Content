@@ -33,21 +33,22 @@ Another scenario is when you've found something you should work on, but don't ha
 :::
 
 ::: bad
-![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.jpg)
+![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.png)
 :::
 
 ::: greybox
 **Tips:**
 
-- Make it clearer to everyone else [by making "To myself" a heading or bold](/include-names-as-headings)\
+* Make it clearer to everyone else [by making "To myself" a heading or bold](/include-names-as-headings)\
   Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on
-- When replying "Done", address it to the Product Owner (or another person), not to yourself... Only crazy people talk to themselves :-)
-- Include an estimate and priority too...so the expectations are set better. With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI
-- If there are other people addressed in the email, put the "To myself" at the top so the tasks aren't buried at the bottom of the email.
+* When replying "Done", address it to the Product Owner (or another person), not to yourself... Only crazy people talk to themselves :-)
+* Include an estimate and priority too...so the expectations are set better. With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI
+* If there are other people addressed in the email, put the "To myself" at the top so the tasks aren't buried at the bottom of the email.
 
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | John |
@@ -56,7 +57,7 @@ Another scenario is when you've found something you should work on, but don't ha
 | Subject: | Add a bad example to Rules to Better UI - Progress bar |
 ::: email-content
 
-### To myself,
+### To myself
 
 As per my conversation with Lei, the rule on progress bars {{link}} is missing a bad example
 
@@ -71,6 +72,7 @@ Figure: Good example - Send yourself an email with estimate and prioritization
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | John |
@@ -79,7 +81,7 @@ Figure: Good example - Send yourself an email with estimate and prioritization
 | Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |
 ::: email-content
 
-### Hi Lei,
+### Hi Lei
 
 \> 1. Include a bad example to Rules to Better UI - progress bar
 

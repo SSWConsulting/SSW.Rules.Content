@@ -27,16 +27,16 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 1. Install the [Azure Boards App](https://github.com/marketplace/azure-boards) from the GitHub Marketplace
 2. Create the GitHub Action secrets
 
-- **ADO_PERSONAL_ACCESS_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
-  The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
+* **ADO_PERSONAL_ACCESS_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
+  The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?WT.mc_id=AZ-MVP-33518) requires "read & write" permission for Work Items.
 
-- **GH_PERSONAL_ACCESS_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
+* **GH_PERSONAL_ACCESS_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
   The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
 
-- **ADO_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)  
+* **ADO_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)  
   The Organization name is in your Azure DevOps URL.
 
-- **ADO_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules**)  
+* **ADO_PROJECT** (<https://ssw.visualstudio.com/> **SSW.Rules**)  
   The Project name can also be found in your Azure DevOps URL.
 
 3. Create the following GitHub Action
@@ -76,16 +76,16 @@ Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps
 
 ### Pros
 
-- Easily manage Sprints and calculate burndown and cycle time
-- See all your GitHub Issues and Azure DevOps PBIs in one Backlog
-- Automated tagging and hyperlinking between Issues and PBIs
+* Easily manage Sprints and calculate burndown and cycle time
+* See all your GitHub Issues and Azure DevOps PBIs in one Backlog
+* Automated tagging and hyperlinking between Issues and PBIs
 
 ### Cons
 
-- The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
-- It won’t sync existing GitHub Issues unless they are updated
+* The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
+* It won’t sync existing GitHub Issues unless they are updated
 
-More information about this GitHub Action can be found here https://github.com/danhellem/github-actions-issue-to-work-item
+More information about this GitHub Action can be found here <https://github.com/danhellem/github-actions-issue-to-work-item>
 
 To avoid people adding a PBI to the Azure DevOps, add a PBI at the top of your backlog to indicate that they should add it to GitHub issues.
 

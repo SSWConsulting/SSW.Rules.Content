@@ -11,6 +11,9 @@ index:
   - rules-to-better-mvc
   - rules-to-better-bots
   - rules-to-better-clean-architecture
+  - rules-to-better-vertical-slice-architecture
+  - rules-to-better-modular-monoliths
+  - rules-to-better-microservices
   - rules-to-better-domain-driven-design
   - rules-to-better-version-management
   - rules-to-better-bug-management-and-product-feedback
@@ -56,11 +59,10 @@ index:
   - rules-to-better-naming-conventions
   - rules-to-better-entity-framework
   - rules-to-better-linq
-  - rules-to-better-microservices
-  - rules-to-better-modular-monoliths
   - rules-to-better-testing
   - rules-to-better-sitefinity
   - rules-to-better-wordpress
+  - rules-to-better-tinacms
   - rules-to-better-websites-development
   - rules-to-better-angular
   - rules-to-better-angularjs

@@ -1,7 +1,7 @@
 ---
 seoDescription: TFS migration rollback plan ensures minimal disruption with a tested disaster recovery strategy.
 type: rule
-archivedreason:
+archivedreason: Outdated - TFS 2010 is outdated and no longer relevant. See https://www.ssw.com.au/rules/rules-to-better-devops/
 title: Do you have a rollback plan for TFS 2010 migration?
 guid: f13a6fd0-9137-4981-a613-3408b36c0229
 uri: rollback-plan-tfs2010-migration

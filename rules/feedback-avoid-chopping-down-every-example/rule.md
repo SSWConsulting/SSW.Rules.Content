@@ -17,7 +17,7 @@ archivedreason: null
 guid: 2003e3be-619b-4b6a-b0e5-e5b6b3cc64f4
 ---
 
-Brian Harry said in [his blog](https://blogs.msdn.microsoft.com/bharry/2017/08/18/taking-feedback/):
+Brian Harry said in [his blog](https://blogs.msdn.microsoft.com/bharry/2017/08/18/taking-feedback/?WT.mc_id=DT-MVP-33518):
 
 <!--endintro-->
 
@@ -84,4 +84,4 @@ Alternatively, to demonstrate the feedback was understood correctly and to reaff
 
 ### Related Rule
 
-- [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)
+* [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)

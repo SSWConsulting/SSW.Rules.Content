@@ -25,4 +25,4 @@ An application can now be easily found on the user’s desktop or start menu, an
 ![Figure: OOB demo](OOB.jpg)
 :::
 
-**Source:** [microsoft.com/silverlight/out-of-browser/demo](https://www.microsoft.com/silverlight/out-of-browser/demo)
+**Source:** [microsoft.com/silverlight/out-of-browser/demo](https://www.microsoft.com/silverlight/out-of-browser/demo?WT.mc_id=WDIT-MVP-33518)

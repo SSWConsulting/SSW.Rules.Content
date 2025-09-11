@@ -1,7 +1,9 @@
 ---
-seoDescription: Find the best framework for your admin interface. Explore top choices like React, Blazor, and Angular, based on your tech stack and project needs
 type: rule
 title: Do you know the best framework to build an admin interface for Web Apps?
+seoDescription: Find the best framework for your admin interface. Explore top
+  choices like React, Blazor, and Angular, based on your tech stack and project
+  needs
 uri: do-you-know-the-best-framework-to-build-an-admin-interface
 authors:
   - title: Tom Iwainski
@@ -50,8 +52,12 @@ React provides a component-based architecture that makes building complex UIs in
 
 For more information, see our rules:
 
-- [Do you know why Next.js is awesome?](/use-nextjs)
-- [Do you know why React is awesome?](/why-react-is-great)
+- [Do you know why Next.js is great?](/use-nextjs)
+- [Do you know why React is great?](/why-react-is-great)
+
+::: greybox
+**💡 Tip:** Next.js is particularly popular these days as it offers the best experience for prototyping (feature-rich, flexible, zero-config deployment with Vercel), while being perfectly capable of covering most production-grade apps with great performance. 
+:::
 
 ### Blazor
 
@@ -61,7 +67,7 @@ Blazor allows you to build interactive web UIs using C# instead of JavaScript. I
 
 For more information, see our rule:
 
-- [Do you know why Blazor is awesome?](/why-blazor-is-great/)
+- [Do you know why Blazor is great?](/why-blazor-is-great)
 
 ### Angular
 

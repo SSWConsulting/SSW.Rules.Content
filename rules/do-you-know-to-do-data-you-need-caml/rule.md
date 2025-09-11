@@ -24,7 +24,7 @@ In SharePoint development, you will also need to know CAML, in particular, how t
 
 <!--endintro-->
 
-More info: [Introduction to Collaborative Application Markup Language (CAML)](https://docs.microsoft.com/en-us/sharepoint/dev/schema/introduction-to-collaborative-application-markup-language-caml?redirectedfrom=MSDN) and [Query Schema](https://docs.microsoft.com/en-us/sharepoint/dev/schema/query-schema?redirectedfrom=MSDN)
+More info: [Introduction to Collaborative Application Markup Language (CAML)](https://docs.microsoft.com/en-us/sharepoint/dev/schema/introduction-to-collaborative-application-markup-language-caml?redirectedfrom=MSDN&WT.mc_id=DP-MVP-33518) and [Query Schema](https://docs.microsoft.com/en-us/sharepoint/dev/schema/query-schema?redirectedfrom=MSDN&WT.mc_id=DP-MVP-33518)
 
 ```caml
 <query>

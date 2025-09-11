@@ -14,10 +14,10 @@ Whether you're an expert or just getting started, working towards gaining a new 
 
 Microsoft provides numerous certifications and training options to help you:
 
-- Learn new skills
-- Fill technical knowledge gaps
-- Boost your productivity
-- Prove your competence
+* Learn new skills
+* Fill technical knowledge gaps
+* Boost your productivity
+* Prove your competence
 
 <!--endintro-->
 
@@ -29,11 +29,11 @@ Microsoft provides numerous certifications and training options to help you:
 
 If you're just getting started, take a look at:
 
-#### [Microsoft Certified: Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you have a foundational knowledge of the Power Platform.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900?WT.mc_id=M365-MVP-33518).
 
 ---
 
@@ -41,63 +41,63 @@ You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https
 
 Once you've mastered the fundamentals, developers should move on to:
 
-#### [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-au/learn/certifications/data-analyst-associate/)
+#### [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-au/learn/certifications/data-analyst-associate/?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you have skills and knowledge in data processing and storage.
 
-You will need to pass Exam [DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-au/learn/certifications/exams/da-100).
+You will need to pass Exam [DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-au/learn/certifications/exams/da-100?WT.mc_id=M365-MVP-33518).
 
-#### [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate)
+#### [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you can build solutions on the Power Platform using low code or no code solutions.
 
-You will need to pass Exam [PL-200: Microsoft Power Platform Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-200).
+You will need to pass Exam [PL-200: Microsoft Power Platform Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-200?WT.mc_id=M365-MVP-33518).
 
-#### [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate)
+#### [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you can design, develop, secure and extend Microsoft Power Platform solutions.
 
-You will need to pass Exam [PL-400: Microsoft Power Platform Developer](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-400).
+You will need to pass Exam [PL-400: Microsoft Power Platform Developer](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-400?WT.mc_id=M365-MVP-33518).
 
-#### [Microsoft Certified: Power Platform App Maker Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-app-maker)
+#### [Microsoft Certified: Power Platform App Maker Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-app-maker?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove that as a business stakeholder you can engage well with Power Platform developers to design and specify business automations.
 
-You will need to pass Exam [PL-100: Microsoft Power Platform App Maker](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-100).
+You will need to pass Exam [PL-100: Microsoft Power Platform App Maker](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-100?WT.mc_id=M365-MVP-33518).
 
-#### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/d365-business-central-functional-consultant-associate)
+#### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/d365-business-central-functional-consultant-associate?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you have a solid knowledge of Dynamics 365 Business Central.
 
-You will need to pass Exam [MB-800: Microsoft Dynamics 365 Business Central Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-800).
+You will need to pass Exam [MB-800: Microsoft Dynamics 365 Business Central Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-800?WT.mc_id=M365-MVP-33518).
 
 ---
 
 ## Specialty
 
-#### [Microsoft Certified: Customer Data Platform Specialty](https://docs.microsoft.com/en-au/learn/certifications/customer-data-platform-specialty)
+#### [Microsoft Certified: Customer Data Platform Specialty](https://docs.microsoft.com/en-au/learn/certifications/customer-data-platform-specialty?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you understand using the Power Platform to manage customer retention, improve customer experiences.
 
-You will need to pass Exam [MB-260: Microsoft Customer Data Platform Specialist](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-260).
+You will need to pass Exam [MB-260: Microsoft Customer Data Platform Specialist](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-260?WT.mc_id=M365-MVP-33518).
 
 ---
 
 ## Expert
 
-#### [Microsoft Certified: Power Platform Solution Architect Expert](https://docs.microsoft.com/en-au/learn/certifications/power-platform-solution-architect-expert)
+#### [Microsoft Certified: Power Platform Solution Architect Expert](https://docs.microsoft.com/en-au/learn/certifications/power-platform-solution-architect-expert?WT.mc_id=M365-MVP-33518)
 
 Earn this certification to prove you have a foundational knowledge of the Power Platform.
 
-You will need to pass Exam [PL-600: Microsoft Power Platform Solution Architect](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-600)
+You will need to pass Exam [PL-600: Microsoft Power Platform Solution Architect](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-600?WT.mc_id=M365-MVP-33518)
 
 and complete one of
 
-[Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate/)
+[Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate/?WT.mc_id=M365-MVP-33518)
 
 OR
 
-[Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate/).
+[Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate/?WT.mc_id=M365-MVP-33518).
 
 ---
 

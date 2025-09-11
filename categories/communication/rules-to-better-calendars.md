@@ -13,6 +13,7 @@ index:
 - how-to-reply-all-to-an-appointment
 - duplicate-email-content-in-a-calendar-appointment
 - appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting
+- use-correct-time-format
 - use-propose-new-time
 - automate-schedule-meetings
 - join-link-at-the-top

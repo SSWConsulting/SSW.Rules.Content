@@ -1,37 +1,44 @@
 ---
-seoDescription: Enhance your ASP.NET site's user experience with a custom 404 error page that redirects visitors effectively.
 type: rule
-archivedreason: 
 title: Do you have a useful 404 error page?
-guid: a006213a-e97b-46a7-a66b-beb52b205533
+seoDescription: Enhance your ASP.NET site's user experience with a custom 404
+  error page that redirects visitors effectively.
 uri: 404-useful-error-page
-created: 2016-08-11T17:30:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-related: 
-- 404-error-avoid-changing-the-url
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+related:
+  - 404-error-avoid-changing-the-url
 redirects:
-- do-you-replace-the-404-error-with-a-useful-error-page
-
+  - do-you-replace-the-404-error-with-a-useful-error-page
+created: 2016-08-11T17:30:01.000Z
+archivedreason: null
+guid: a006213a-e97b-46a7-a66b-beb52b205533
 ---
+Error page, you say? But you worked so hard to make sure everything runs perfectly! The thing is, even the best sites aren’t immune to the occasional misstep. Sometimes users just type a URL wrong. It happens.
 
-Error page, you say? You worked hard to make sure my site has no errors!! Well, surfers don't always type URLs accurately. No website is immune to such errors.
+A well-designed custom error page encourages surfers to remain in your site and help them to the right page. Although it's possible to redirect error codes straight to your homepage, that doesn't tell visitors what's going on. 
 
-A well-designed custom error page encourages surfers to remain in your site and help them to the right page. Although it's possible to redirect error codes straight to your homepage, that doesn't tell visitors what's going on. It's more user-friendly to explain that there was a problem and provide some alternatives. Supply a link to your home page or other links, or offer your site's search function if you have one.
+A branded 404 (error) page also reinforces your identity and keeps the user experience consistent, even when things go wrong. It shows professionalism and helps maintain trust.
+
+Consider adding a button to your homepage here, or your site's search functionality if applicable.
 
 <!--endintro-->
 
-::: bad  
-![Figure: Bad example - Unhandled error](404-bad.png)  
+::: bad
+![Figure: Bad example - Unhandled error](404-bad.png)
 :::
 
-::: good  
-![Figure: Good example - Custom error page](404-good.png)  
+::: good
+![Figure: Good example - Custom error page](404-good.png)
+:::
+
+::: good
+![Figure: Good example - Playful branding turns an error case into a less negative experience](mailchimp-404.png)
 :::
 
 ## .NET Core (Server-Side)
@@ -169,7 +176,7 @@ Figure: Bad example - The default code on web.config
 ```
 
 ::: good
-Figure: Good example - The custom code in the web.config  
+Figure: Good example - The custom code in the web.config
 :::
 
 For ASP.NET website, the detailed information would be presented to the remote machines when an unhandled error occurs if the customErrors mode is off.
@@ -181,5 +188,5 @@ This error information is useful for the developer to do debugging. However, it 
 ```
 
 ::: good
-Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker  
+Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker
 :::

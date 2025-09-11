@@ -47,4 +47,4 @@ Note `rs:ParameterLanguage=en-AU` in the query string, this is very important es
 
 Refer to the following MSDN references for more details:
 
-* [URL Access for Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/url-access-ssrs?view=sql-server-ver16&redirectedfrom=MSDN)
+* [URL Access for Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/url-access-ssrs?view=sql-server-ver16&redirectedfrom=MSDN&WT.mc_id=DP-MVP-33518)

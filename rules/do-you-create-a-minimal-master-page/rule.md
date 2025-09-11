@@ -51,9 +51,9 @@ To create a minimal master page
 5. Click Code to show the master page in code view.
 6. Copy the code into the master page  
 
-[SharePoint 2007 - How to: Create a Minimal Master Page](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2007/aa660698(v=office.12)?redirectedfrom=MSDN)  
+[SharePoint 2007 - How to: Create a Minimal Master Page](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2007/aa660698(v=office.12?WT.mc_id=DP-MVP-33518)?redirectedfrom=MSDN)  
 
-[SharePoint 2010 - Create a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint?redirectedfrom=MSDN)
+[SharePoint 2010 - Create a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint?redirectedfrom=MSDN&WT.mc_id=DP-MVP-33518)
 
 ``` cs
 <%@ Master language="C#" %> ... <html>     

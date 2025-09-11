@@ -36,6 +36,7 @@ index:
 - penetration-testing
 - sysadmin-cybersecurity-tools
 - developer-cybersecurity-tools
+- remove-confidential-information-from-github
 ---
 
 Want to avoid embarrassing or expensive data breaches? Check [SSW's Security consulting page](https://www.ssw.com.au/consulting/security).

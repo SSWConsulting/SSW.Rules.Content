@@ -28,6 +28,7 @@ index:
 - do-you-let-the-adapter-handle-the-connection-for-you
 - do-you-use-one-class-per-file
 - do-you-use-a-dataadapter-to-insert-rows-into-your-database
+- optimize-ef-core-queries
 - do-you-put-all-images-in-the-images-folder
 - do-you-keep-images-folder-image-only
 - do-you-put-your-setup-file-in-your-a-setup-folder

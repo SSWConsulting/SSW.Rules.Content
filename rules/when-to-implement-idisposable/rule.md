@@ -72,4 +72,4 @@ Figure: Good example - With the `using` statement, the unmanaged resources are d
 
 :::
 
-[See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx) for more details.
+[See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx?WT.mc_id=DP-MVP-33518) for more details.

@@ -24,10 +24,10 @@ guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 
 There's not 1 single thing that makes a .NET project complex to migrate to the latest .NET Framework. Generally though it's a combination of the following:
 
-- High complexity
-- Lots of .NET Framework dependencies
-- Outdated NuGet packages with no modern alternatives
-- etc.
+* High complexity
+* Lots of .NET Framework dependencies
+* Outdated NuGet packages with no modern alternatives
+* etc.
 
 If your project doesn't meet any of the above criteria, you should consider using the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](/dotnet-upgrade-assistant/) If the .NET Upgrade Assistant works for your project, you could save a significant amount of time. However, the level of success may vary across different projects.
 
@@ -93,8 +93,8 @@ At this point, ensure your project can target both the .NET Framework and the ne
 
 Outlined below are rules designed to assist in the project upgrade process during migration. Please note that the applicability of certain rules may vary based on individual project requirements.
 
-- [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
-- [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
+* [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
+* [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
 
 # Web application
 
@@ -102,20 +102,20 @@ There are several ways to migrate projects from ASP.NET to ASP.NET Core. We stro
 
 ### Create a side-by-side incremental project with [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
 
-After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension),
+After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension?WT.mc_id=DT-MVP-33518),
 Right-click on the project in the Solution Explorer window, and select Upgrade.
 
 ![Figure: Visual Studio context menu.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
-- In-place project upgrade <br/>
+* In-place project upgrade <br/>
   This option upgrades your project without making a copy.
 
-- Side-by-side project upgrade <br/>
+* Side-by-side project upgrade <br/>
   Copies your project and upgrades the copy, leaving your original project alone.
 
-- Side-by-side incremental <br/>
+* Side-by-side incremental <br/>
   A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
 
   This option lets you upgrade your ASP.NET app or class library project piece by piece.
@@ -124,10 +124,10 @@ On more complex projects you might find that Upgrade Assistant only provides you
 
 Once your app has been upgraded, a status screen is displayed which shows all of the artifacts related to your project that were associated with the upgrade. Each upgrade artifact can be expanded to read more information about the status. The following list describes the status icons:
 
-- **Filled green checkmark**: The artifact was upgraded and completed successfully.
-- **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
-- **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
-- **Red X**: The artifact was to be upgraded, but the upgrade failed.
+* **Filled green checkmark**: The artifact was upgraded and completed successfully.
+* **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
+* **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
+* **Red X**: The artifact was to be upgraded, but the upgrade failed.
   ![Figure: Example results from an Upgrade Assistant upgrade.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57)
 
 After the Upgrade Assistant completes the upgrade you will find a new project in the solution running .NET 8. Upgrade Assistant pre-configured the project and installed any necessary packages it required to run side-by-side using the Yarp proxy.
@@ -198,9 +198,9 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-- [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
-- [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
-- [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+* [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
+* [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+* [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
 
 # .NET Upgrade Assistant
 

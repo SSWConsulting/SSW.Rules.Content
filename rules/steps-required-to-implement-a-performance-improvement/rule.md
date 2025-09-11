@@ -14,6 +14,7 @@ authors:
 related:
   - do-you-avoid-reviewing-performance-without-metrics
   - have-tests-for-performance
+  - website-page-speed
 redirects:
   - do-you-know-the-steps-required-to-implement-a-performance-improvement
 ---
@@ -25,7 +26,7 @@ The following steps will help to guide efforts to implement a performance improv
 1. Establish a performance target (goal posts)
 2. Build an automated performance test
 3. Run the performance test to establish a baseline (the current performance data)
-4. Make a *small*change to the process
+4. Make **one** change to the process
 5. Run the performance test again to measure the impact of the single improvement against the baseline
 6. If the change results in a measurable performance improvement, then keep it
 7. Repeat steps 4 to 6 until the performance target has been met
