@@ -20,4 +20,4 @@ index:
 
 ---
 
-We use [SSW TimePro](https://sswtimepro.com/) for our timesheets. It is a sleek and powerful software is a web app, so there’s no tricky installation required.
+We use [SSW TimePro](https://sswtimepro.com/) for our timesheets. It is a sleek and powerful web app, just log in and start tracking your time!
