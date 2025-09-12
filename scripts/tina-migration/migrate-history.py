@@ -61,6 +61,9 @@ def update_file(filepath, meta):
         "createdBy": meta["createdBy"],
         "createdByEmail": meta["createdByEmail"],
     }
+    
+    if "public/uploads/rules/" in filepath:
+        updates["isArchived"] = "true" if meta.get("isArchived") is True else "false"
 
     new_lines = patch_frontmatter_lines(lines, updates)
 
