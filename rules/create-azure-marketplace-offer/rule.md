@@ -15,9 +15,11 @@ related:
 redirects:
 ---
 
+Publish your solution to the [Azure Marketplace](https://azuremarketplace.microsoft.com) to reach millions of Microsoft customers and unlock new revenue streams. However, many partners underestimate the preparation required, which leads to rejected offers, costly delays, or poor marketplace visibility.
+
 `youtube: https://www.youtube.com/embed/e7RvBydtmj4`
 
-Publish your solution to the [Azure Marketplace](https://azuremarketplace.microsoft.com) to reach millions of Microsoft customers and unlock new revenue streams. However, many partners underestimate the preparation required, which leads to rejected offers, costly delays, or poor marketplace visibility.
+**Video: Marketplace Mini | Creating a marketplace offer (2 min)**
 
 <!--endintro-->
 
@@ -69,10 +71,3 @@ For detailed guidance on each step, see the [Azure Application publishing guide]
 ::: good
 ![Figure: Good example - SSW.EagleEye is published to Azure Marketplace](eagleeye-azure-marketplace.png)
 :::
-
-## Best practices
-
-- **Think customer-first** – Write your description and plans in a way that clearly highlights benefits, not just features.
-- **Plan for updates** – Once published, you can iterate on versions, pricing, or plans without republishing from scratch.
-- **Test thoroughly** – Use preview mode to validate your complete purchase and deployment experience.
-- **Monitor performance** – Set up analytics to track offer performance and customer feedback.
