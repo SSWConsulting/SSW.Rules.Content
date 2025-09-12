@@ -43,7 +43,7 @@ Before you begin creating your Azure Marketplace offer, ensure you have:
 
 Select the most appropriate offer type based on your solution:
 
-- **Azure Application (Managed app)** - Solutions with managed resource deployment
+- **Azure Application (Managed app)** - Solutions with managed resource deployment. See example: [SSW.EagleEye](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/ssw1700450141896.ssweagleeye?tab=Overview)
 - **Azure Application (Solution template)** - Multi-resource deployments using ARM templates
 - **Azure Container** - Containerized applications for Azure Container Instances/Kubernetes
 - **Azure Virtual Machine** - VM-based applications with pre-configured software
