@@ -18,6 +18,7 @@ index:
 - do-you-thoroughly-test-employment-candidates
 - make-secondary-linkedin-account-obvious
 - successful-reachouts
+- validate-employees-background-checks
 
 ---
 
