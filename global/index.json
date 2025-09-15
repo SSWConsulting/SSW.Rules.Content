@@ -1,6 +1,5 @@
 {
-  "blocks": [
-  ],
+  "blocks": [],
   "header": {
     "icon": {
       "name": "Tina",
@@ -48,5 +47,17 @@
     "color": "blue",
     "font": "sans",
     "darkMode": "light"
+  },
+  "quickLinks": {
+    "links": [
+      {
+        "linkText": "SSW Rules Wiki",
+        "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki"
+      },
+      {
+        "linkText": "SSW Rules Channel",
+        "uri": "https://www.youtube.com/@sswrules"
+      }
+    ]
   }
 }
