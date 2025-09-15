@@ -84,24 +84,23 @@ You can connect any MCP-compatible client to GitHub and bring it into your backl
 ## Steps  
 
 1. **Install an MCP Client**  
-   - Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP).  
+   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP).  
 
 2. **Configure the GitHub MCP Server**  
-   - Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server).  
-   - Add the GitHub MCP server to your client’s configuration.  
+   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server).  
+   * Add the GitHub MCP server to your client’s configuration.  
 
 3. **Start Querying Your Backlog**  
-   - Once connected, you can interact with your GitHub issues and pull requests in natural language.  
-   - Example queries:  
-     - *“Which issues are too big for a sprint?”*  
-     - *“Group all issues related to payments into an epic.”*  
-     - *“Suggest estimates based on past completed issues.”*  
+   * Once connected, you can interact with your GitHub issues and pull requests in natural language.  
+   * Example queries:  
+     * *“Which issues are too big for a sprint?”*  
+     * *“Group all issues related to payments into an epic.”*  
+     * *“Suggest estimates based on past completed issues.”*  
 
 ![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Generic.png)  
- 
 
 ## Quick Recap  
 
-- AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks.  
-- It’s a support tool — final decisions stay with the team.  
-- The more data you provide (issues, history, estimates), the more accurate and helpful it becomes.  
+* AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks.  
+* It’s a support tool — final decisions stay with the team.  
+* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes.  
