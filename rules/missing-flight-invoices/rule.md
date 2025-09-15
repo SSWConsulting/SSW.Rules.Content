@@ -19,7 +19,7 @@ When booking a flight for a business trip, it is common for accountants to claim
 
 In most cases, the tax invoices of the flights that booked by company were sent to the person.
 
-The traditional way of retrieving the invoice is for the person who took the flight to send through the invoice directly. However, sometimes the person who needs to send through the invoice is too busy and unable to action this task for a long time or they may even forget to do it entirely.
+The traditional way of retrieving the invoice is for the person who took the flight to send the invoice directly. However, sometimes the person who needs to send through the invoice is too busy and unable to action this task for a long time, or they may even forget to do it entirely.
 
 ::: bad
 ![Figure: Bad example - Ask the individual for the tax invoice of a flight](2023-02-24_15-40-04.png)
@@ -29,31 +29,26 @@ Luckily, most airlines offers a convenient portal for managing bookings where yo
 
 Qantas offers a robust loyalty program, [take advantage of it](/do-you-take-advantage-of-business-rewards-programs).
 
-- All flights booked by the company can be managed through Qantas Business Rewards website
+- All flights booked by the company can be managed through the Qantas Business Rewards website
 - There is a **monthly report** which can be downloaded
 
 If an invoice is missing, you can access the document by:
 
-1. Going to **Qantas Business Reward | Manage trips**
-2. Search and open the flights
-3. Choose "Manage booking"
+1. Going to **Qantas Business Reward | Trips | Manage trips**
+2. Search and open the bookings
+3. Select "Request tax invoice"
+4. Put the email address where you wish the tax invoice to be received. The tax invoice should be resent in a few seconds.
 
 ::: good
-![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds.](qantas-tax-invoice-v2.png)
+![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds](qantas-tax-invoice-v3.jpg)
 :::
 
 ::: info
-**Note:** You can also access to this page as a guest via Qantas Manage booking (without Qantas Business), but a booking reference is required.
+**Note:** You can also access this page as a guest via Qantas Manage booking (without Qantas Business), but a booking reference is required.
 :::
 
-4. Select "Resend tax invoice"
-
-![Figure: Resend the tax invoice on manage booking.](qantas-tax-invoice-2.png)
-
-5. Put the email that you wish the tax invoice to be received. The tax invoice should be resent in a few seconds.
-
-Simply retrieve the missed invoices from that portal and you can skip the middle man!
+Simply retrieve the missed invoices from that portal without asking the passengers!
 
 ::: greybox
-**Note:** Only bookings with company name and ABN can be managed through Qantas Business Rewards.
+**Note:** Only bookings with the company name and ABN can be managed through Qantas Business Rewards.
 :::
