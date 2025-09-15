@@ -506,6 +506,9 @@ def transform_md_to_mdx(file_path):
     src_prefix = f"{SRC_PREFIX_BASE}{folder_name}"
     content = path.read_text(encoding='utf-8')
 
+    content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
+
     content = mdx_safe_template_vars(content)
     content = re.sub(INTRO_WITH_FM_REGEX, wrap_intro_embed, content, flags=re.IGNORECASE | re.DOTALL)
 
