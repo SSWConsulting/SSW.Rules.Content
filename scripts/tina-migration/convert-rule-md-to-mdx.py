@@ -121,12 +121,14 @@ def prefix_raw_image_src(m, src_prefix):
 def replace_youtube_block(m):
     url = m.group(1).strip()
     desc = m.group(2).strip() if m.group(2) else ""
-    return f'<youtubeEmbed url="{url}" description={js_string(desc)} />'
+    desc_js = js_string(desc)
+    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
 
 def replace_youtube_block_inside_intro(m):
     url = m.group(1).strip()
     desc = m.group(2).strip() if m.group(2) else ""
-    return f'<introYoutube url="{url}" description={js_string(desc)} />'
+    desc_js = js_string(desc)
+    return f'<introYoutube url="{url}" description={{{desc_js}}} />'
 
 def wrap_intro_embed(m):
     fm = m.group('fm') or ''
