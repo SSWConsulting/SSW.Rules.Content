@@ -48,5 +48,12 @@
     "color": "blue",
     "font": "sans",
     "darkMode": "light"
+  },
+  "quickLinks": {
+    "links": [
+      { "linkText": "Top Contributors", "uri": "" },
+      { "linkText": "SSW Rules Wiki", "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki" },
+      { "linkText": "SSW Rules Channel", "uri": "https://www.youtube.com/@sswrules" }
+    ]
   }
 }
