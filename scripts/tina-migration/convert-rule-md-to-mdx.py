@@ -95,10 +95,11 @@ def parse_email_table(table_text):
 
 def clean_email_body(body_text):
     cleaned = mdx_safe_template_vars(body_text)
+    cleaned = convert_angle_bracket_links(cleaned)
     cleaned = cleaned.replace(r'\>', '&gt;')
-    cleaned = re.sub(r'(?<!&lt;)<', '&lt;', cleaned)
-    cleaned = re.sub(r'(?<!&gt;)>', '&gt;', cleaned)
+    cleaned = escape_angle_brackets_except(cleaned, allowed_tags=("mark",))
     return re.sub(r'^###', '##', cleaned, flags=re.MULTILINE)
+
 
 def clean_image_src(src):
     return re.sub(r'(\.(?:png|jpg|jpeg|gif))\s.*$', r'\1', src, flags=re.IGNORECASE)
@@ -113,6 +114,34 @@ def prefix_raw_image_src(m, src_prefix):
 
     prefixed_src = f"{src_prefix}/{clean_src}"
     return f'![{alt_text}]({prefixed_src})'
+
+def convert_angle_bracket_links(text: str) -> str:
+    return re.sub(
+        r'(?<!&lt;)<([a-zA-Z][a-zA-Z0-9+.-]*:[^>\s]+)>(?!&gt;)',
+        r'[\1](\1)',
+        text
+    )
+
+def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
+    tag_names = "|".join(re.escape(t) for t in allowed_tags)
+    placeholders = []
+
+    def protect(m):
+        placeholders.append(m.group(0))
+        return f"__TAG_PLACEHOLDER_{len(placeholders)-1}__"
+
+    protected = re.sub(rf"</?({tag_names})>", protect, text)
+
+    protected = re.sub(r"(?<!&lt;)<", "&lt;", protected)
+    protected = re.sub(r"(?<!&gt;)>", "&gt;", protected)
+
+    def restore(m):
+        idx = int(m.group(1))
+        return placeholders[idx]
+
+    return re.sub(r"__TAG_PLACEHOLDER_(\d+)__", restore, protected)
+
+
 
 # ----------------------------- #
 # Replacements
@@ -133,7 +162,15 @@ def replace_youtube_block_inside_intro(m):
 def wrap_intro_embed(m):
     fm = m.group('fm') or ''
     intro = m.group('intro') or ''
-    intro_processed = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block_inside_intro, intro.strip(), flags=re.MULTILINE)
+
+    intro_processed = intro.strip()
+    intro_processed = re.sub(
+        YOUTUBE_BLOCK_REGEX, replace_youtube_block_inside_intro,
+        intro_processed, flags=re.MULTILINE
+    )
+    intro_processed = convert_angle_bracket_links(intro_processed)
+    intro_processed = escape_angle_brackets_except(intro_processed, allowed_tags=("mark",))
+
     return f'''{fm}<introEmbed
   body={{<>
 {intro_processed}
@@ -348,7 +385,11 @@ def process_custom_aside_blocks(content):
                         show = True
                         i += 3
 
-            body = '\n'.join(buffer).replace("`<", "&lt;").replace(">`", "&gt;").replace("`-<", "-&lt;").replace("`->", "-&gt;")
+            body = '\n'.join(buffer)
+            body = mdx_safe_template_vars(body)
+            body = convert_angle_bracket_links(body)
+            body = escape_angle_brackets_except(body, allowed_tags=("mark",))
+
             figure_js = js_string(figure)
             embed = f'''<asideEmbed
   variant="{box_type}"
@@ -477,11 +518,13 @@ def transform_md_to_mdx(file_path):
     content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
 
+    content = convert_angle_bracket_links(content)
+
     output_path = path.with_suffix('.mdx')
     output_path.write_text(content, encoding='utf-8')
 
     print(f"Transformed content saved to: {output_path}")
-    path.unlink()  # delete original .md file
+    # path.unlink()  # delete original .md file
 
 def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME):
     """
