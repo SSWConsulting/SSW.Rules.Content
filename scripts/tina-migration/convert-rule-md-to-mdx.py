@@ -527,7 +527,7 @@ def transform_md_to_mdx(file_path):
     output_path.write_text(content, encoding='utf-8')
 
     print(f"Transformed content saved to: {output_path}")
-    # path.unlink()  # delete original .md file
+    path.unlink()  # delete original .md file
 
 def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME):
     """
