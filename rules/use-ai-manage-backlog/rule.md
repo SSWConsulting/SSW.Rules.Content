@@ -77,30 +77,30 @@ AI can help prioritize by:
 * **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work.  
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first.  
 
-## How to connect Claude Code to GitHub
+# How to connect an MCP client to GitHub  
 
-There are several ways to bring Claude into your backlog management workflow:
+You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow.  
 
-1. **Claude Code + GitHub (via MCP)**  
-   * Install **Claude Code** (available as a VS Code extension or standalone app).  
-   * [Configure Claude Code with the GitHub MCP server](https://github.com/github/github-mcp-server/blob/main/docs/installation-guides/install-claude.md).  
-   * Start asking questions directly in your editor or Claude Code interface, like:  
+## Steps  
+
+1. **Install an MCP Client**  
+   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP).  
+
+2. **Configure the GitHub MCP Server**  
+   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server).  
+   * Add the GitHub MCP server to your client’s configuration.  
+
+3. **Start Querying Your Backlog**  
+   * Once connected, you can interact with your GitHub issues and pull requests in natural language.  
+   * Example queries:  
      * *“Which issues are too big for a sprint?”*  
      * *“Group all issues related to payments into an epic.”*  
-     * *“Suggest estimates based on past completed issues.”*
+     * *“Suggest estimates based on past completed issues.”*  
 
-  ![Figure: GitHub MCP Server added to Claude.ai](MCP-Servers-Claude.png)
+![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Generic.png)  
 
-2. **ChatGPT or Cursor.ai**  
-   * Both can access your GitHub backlog if you connect via MCP (Model Context Protocol) or with a connector like `codex`.  
-   * Once connected, you can query your backlog directly in natural language.  
+## Quick Recap  
 
-3. **Build your own with GitHub MCP**  
-   * GitHub already provides an MCP server.  
-   * You can write a custom connector for more tailored queries (e.g., tagging, sprint planning automation).  
-
-## Key Takeaways
-
-* **AI won’t replace your product owner** — but it *does* save time by surfacing insights, drafting breakdowns, and automating the repetitive parts of backlog grooming.  
-* Use AI as a **decision-support tool**, not an autopilot. The team still makes the final call.  
-* The more data (issues, history, estimates) AI has, the more accurate and helpful it becomes.  
+* AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks.  
+* It’s a support tool — final decisions stay with the team.  
+* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes.  
