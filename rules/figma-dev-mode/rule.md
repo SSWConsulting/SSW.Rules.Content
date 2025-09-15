@@ -7,7 +7,7 @@ authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
 created: 2024-10-30T14:20:35.753Z
-guid: 83be089e-9cad-4d55-8f77-26b1ce2d2fbc
+guid: 3864f24e-eef8-407b-bd29-3e70dc42509e
 ---
 
 One of the biggest pain points during design-to-development handover is the loss of information or miscommunication between teams. Designers might create stunning designs, but without clear specifications, developers can struggle to implement them accurately. This often results in back-and-forth clarifications, missed deadlines, and frustration.

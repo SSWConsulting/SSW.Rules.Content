@@ -7,7 +7,7 @@ uri: use-nextjs-caching-system
 authors:
   - title: Gilles Pothieu
     url: https://ssw.com.au/people/gilles-pothieu
-guid: 27aa1f0a-3a29-4c3c-a8aa-1deccb4cd6c5
+guid: 08b2084f-dd13-4389-a0f5-92589846d066
 related: 
  - use-nextjs
  

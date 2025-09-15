@@ -11,7 +11,7 @@ redirects:
   - Employee-YOLO-Day
 created: 2021-04-07T06:35:55.000Z
 archivedreason: null
-guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
+guid: bb312284-a8a1-4b33-9c7a-acbc20569225
 ---
 
 It's important that staff feel appreciated, expand their horizons, and also that they celebrate each others' successes. A great way to do all of these is to give them an additional day of Annual Leave each year, and encourage them to use it to do something remarkable.

@@ -9,7 +9,7 @@ authors:
 created: 2024-03-09T06:48:10.371Z
 archivedreason: |
   Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.
-guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
+guid: 21370ad5-406f-4830-9b86-65db6ce19214
 ---
 
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:

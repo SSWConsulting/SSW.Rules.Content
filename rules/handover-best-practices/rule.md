@@ -10,7 +10,7 @@ authors:
 related:
   - bus-test
   - hand-over-projects
-guid: e3427c47-5871-476d-8aaf-e0968edd3cb5
+guid: 95b188ce-a802-4e25-b467-ae580aea89c0
 ---
 
 A poorly planned handover can result in wasted time, repeated work, and confusion for the person taking over. Imagine walking into a project with no context, outdated documentation, and a scattering of files across different systems. It’s frustrating and it’s preventable.

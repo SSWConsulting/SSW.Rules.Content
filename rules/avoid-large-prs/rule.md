@@ -11,7 +11,7 @@ authors:
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit
 created: 2023-02-22T22:41:50.529Z
-guid: d85ead8c-9a6b-4715-b798-e3db535604f8
+guid: f7755d74-ce62-4362-b211-b899863c2348
 ---
 
 Nobody wants to review a PR with 100s of files, nor is it nice to have a lot of work that is committed (a PR may even be waiting), but not approved. This is merge debt. Part of getting work complete is getting the PR approved by another developer so you don’t have it sitting around for a long time.
