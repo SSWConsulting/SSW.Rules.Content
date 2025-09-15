@@ -1,6 +1,5 @@
 {
-  "blocks": [
-  ],
+  "blocks": [],
   "header": {
     "icon": {
       "name": "Tina",
@@ -51,9 +50,14 @@
   },
   "quickLinks": {
     "links": [
-      { "linkText": "Top Contributors", "uri": "" },
-      { "linkText": "SSW Rules Wiki", "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki" },
-      { "linkText": "SSW Rules Channel", "uri": "https://www.youtube.com/@sswrules" }
+      {
+        "linkText": "SSW Rules Wiki",
+        "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki"
+      },
+      {
+        "linkText": "SSW Rules Channel",
+        "uri": "https://www.youtube.com/@sswrules"
+      }
     ]
   }
 }
