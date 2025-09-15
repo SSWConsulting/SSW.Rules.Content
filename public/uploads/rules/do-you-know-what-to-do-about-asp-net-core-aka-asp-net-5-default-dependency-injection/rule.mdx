@@ -34,7 +34,7 @@ We already know what the [best IOC container is](/the-best-dependency-injection-
 
 ASP.NET Core includes default dependency injection for new Web Apps in the Startup.cs file. This is adequate for simple projects, but not designed to compete with the features of alternatives containers (like AutoFac's convention based registration).
 
-> "The default services container provided by ASP.NET Core provides a minimal feature set and is not intended to replace other containers."
+&gt; "The default services container provided by ASP.NET Core provides a minimal feature set and is not intended to replace other containers."
 
 **Steve Smith, ([ASP.NET Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518))**
   </>}
@@ -47,11 +47,11 @@ Here is an example of rewiring the default code to AutoFac with the [SSW's Music
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad Example - The default dependency injection for ASP.NET Core',
+    figure: "Bad Example - The default dependency injection for ASP.NET Core",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Bad.png"
 />
 
@@ -59,10 +59,10 @@ Here is an example of rewiring the default code to AutoFac with the [SSW's Music
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code',
+    figure: "Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Good.png"
 />

@@ -34,26 +34,25 @@ This alignment can be achieved through a weekly meeting with the Bench Masters a
 
 The following meeting structure should be followed
 
-::: email-template
-
-|          |                                                      |
-| -------- | ---------------------------------------------------- |
-| To:      | &#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;                           |
-| Subject: | ⚖️ Bench Master Priority Alignment - &#123;&#123; DATE &#125;&#125; |
-::: email-content
-
-Hey &#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;,
+<emailEmbed
+  from=""
+  to="&#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="⚖️ Bench Master Priority Alignment - &#123;&#123; DATE &#125;&#125;"
+  body={<>
+    Hey &#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;,
 
 1. Watch the recording
     &#123;&#123; RECORDING URL &#125;&#125;
 
 The goal is to use our internal devs on the best project.
 
-### Attendees
+## Attendees
 
 &#123;&#123; ATTENDEES &#125;&#125;
 
-### Summary - Have there been any staffing changes for any of our internal projects in the past week?
+## Summary - Have there been any staffing changes for any of our internal projects in the past week?
 
 * &#123;&#123; PROJECT 1 &#125;&#125; - &#123;&#123; STATUS 1 &#125;&#125;
 * &#123;&#123; PROJECT 2 &#125;&#125; - &#123;&#123; STATUS 2 &#125;&#125;
@@ -61,24 +60,24 @@ The goal is to use our internal devs on the best project.
 * ❓&#123;&#123; PERSON 1 &#125;&#125; - from &#123;&#123; PREVIOUS PROJECT &#125;&#125; to &#123;&#123; NEW PROJECT &#125;&#125; - &#123;&#123; NOTE &#125;&#125;
 * &#123;&#123; PERSON 2 &#125;&#125; - Back on &#123;&#123; PROJECT NAME &#125;&#125; next &#123;&#123; DATE &#125;&#125;
 
-### 🛑 Blocked people (times we proxied for &#123;&#123; COMPANY STAKEHOLDER &#125;&#125;)
+## 🛑 Blocked people (times we proxied for &#123;&#123; COMPANY STAKEHOLDER &#125;&#125;)
 
 * &#123;&#123; BLOCKED PERSON 1 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
 * &#123;&#123; BLOCKED PERSON 2 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
 
-### ✅ The highlights
+## ✅ The highlights
 
 * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
 
-### ❌ The lowlights – any issues or concerns?
+## ❌ The lowlights – any issues or concerns?
 
 * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
 
-### Ad hoc topics
+## Ad hoc topics
 
 * &#123;&#123; TOPIC &#125;&#125;
 
-### Priorities - any new tasks that need to get done and who should do it?
+## Priorities - any new tasks that need to get done and who should do it?
 
 Copy from last week and make changes as needed
 Legend:
@@ -92,10 +91,14 @@ Legend:
 | **&#123;&#123; PRODUCT 1 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
 | **&#123;&#123; PRODUCT 2 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
 
-<This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)>
-
-:::
-:::
+&lt;This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)&gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 After the meeting, the Bench Masters should record a [quick summary](/summary-recording-sprint-reviews) and send it out to the stakeholders. This is especially important for stakeholders who couldn't attend.
 

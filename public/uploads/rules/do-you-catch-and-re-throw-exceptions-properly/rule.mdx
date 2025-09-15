@@ -40,9 +40,9 @@ catch { throw; }
 catch (SomeException) { throw; }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad Example - Never use an empty catch block. Do something in the block or remove it.',
+  figure: "Bad Example - Never use an empty catch block. Do something in the block or remove it.",
   shouldDisplay: true
 } } />
 
@@ -53,9 +53,9 @@ catch (SomeException ex) { throw ex; }
 catch (SomeException ex) { someMethod(); throw ex; }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.',
+  figure: "Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.",
   shouldDisplay: true
 } } />
 
@@ -70,9 +70,9 @@ catch (SomeException)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good Example - Calling throw',
+  figure: "Good Example - Calling throw",
   shouldDisplay: true
 } } />
 
@@ -86,8 +86,8 @@ catch (SqlException ex) when (ex.Number == 2601)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good Example - By rethrowing a specific exception, my application code now doesn\'t need to know that there is a SQL database or the magic numbers that SQL exceptions use',
+  figure: "Good Example - By rethrowing a specific exception, my application code now doesn't need to know that there is a SQL database or the magic numbers that SQL exceptions use",
   shouldDisplay: true
 } } />

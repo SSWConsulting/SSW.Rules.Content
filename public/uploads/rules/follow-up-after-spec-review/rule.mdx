@@ -42,13 +42,13 @@ Account Manager: _"No problem, we can re-evaluate the backlog and adjust the est
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Adapting to client’s evolving priorities maintains alignment and trust',
+  figure: "Good example - Adapting to client’s evolving priorities maintains alignment and trust",
   shouldDisplay: true
 } } />
 
@@ -77,15 +77,14 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 
 To facilitate the scheduling of the follow-up meeting, here's a template that Account Managers can use:
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| Title:| &#123;&#123; YOUR COMPANY NAME &#125;&#125; and &#123;&#123; CLIENT NAME &#125;&#125; - Post Spec Review catch-up |
-| Required:| &#123;&#123; CLIENT &#125;&#125;; &#123;&#123; SPEC REVIEW DEVS &#125;&#125; |
-::: email-content
-
-### Hi &#123;&#123; CLIENT NAME &#125;&#125;
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject=""
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
 Thank you for your time during the Spec Review.
 
@@ -105,7 +104,10 @@ Please let us know if the proposed date and time work for you, or suggest an alt
 Looking forward it.
 
 Regards,
-
-:::
-:::
-**Figure: Follow up appointment after a Spec Review**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Follow up appointment after a Spec Review",
+    shouldDisplay: true
+  } }
+/>

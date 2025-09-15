@@ -34,7 +34,7 @@ On the surface it appears that you are just preventing someone from inheriting f
 
 Watch this video by Nick Chapsas, to see the performance benefits of sealing your classes for different usage scenarios:
 
-<youtubeEmbed url="https://www.youtube.com/embed/d76WWAD99Yo" description="Video: Why all your classes should be sealed by default in C# by Nick Chapsas (11 min)" />
+<youtubeEmbed url="https://www.youtube.com/embed/d76WWAD99Yo" description={"Video: Why all your classes should be sealed by default in C# by Nick Chapsas (11 min)"} />
 
 ### Avoid unnecessary covariance checks in Array
 
@@ -47,11 +47,11 @@ When the array is an array of sealed types, JIT knows there won’t be any covar
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Array covariance - sealed Vs non-sealed. See the next figure for performance results',
+    figure: "Array covariance - sealed Vs non-sealed. See the next figure for performance results",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/seal-your-classes-by-default/ArrayCovariance_code.png"
 />
 
@@ -60,11 +60,11 @@ When the array is an array of sealed types, JIT knows there won’t be any covar
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Performance results show arrays with sealed types show improved performance compared to arrays with non-sealed types',
+    figure: "Performance results show arrays with sealed types show improved performance compared to arrays with non-sealed types",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/seal-your-classes-by-default/ArrayCovariance_PerfResults.png"
 />
 
@@ -79,11 +79,11 @@ When casting to a sealed type, the runtime only checks the type of the object. H
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Casting sealed Vs non-sealed. See the next figure for performance results',
+    figure: "Casting sealed Vs non-sealed. See the next figure for performance results",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/seal-your-classes-by-default/Casting_code.png"
 />
 
@@ -92,10 +92,10 @@ When casting to a sealed type, the runtime only checks the type of the object. H
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Performance results show casting of sealed has improved performance compared to non-sealed',
+    figure: "Performance results show casting of sealed has improved performance compared to non-sealed",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/seal-your-classes-by-default/Casting_PerfResult.png"
 />

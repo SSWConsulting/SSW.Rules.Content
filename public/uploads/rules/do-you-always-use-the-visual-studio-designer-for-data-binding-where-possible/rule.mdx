@@ -28,11 +28,11 @@ Basic data binding should always be done in the designer because the syntax for 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Simple data binding (binding to a single property) in the designer',
+    figure: "Simple data binding (binding to a single property) in the designer",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible/simpledatabindingdesigner.gif"
 />
 
@@ -41,11 +41,11 @@ Basic data binding should always be done in the designer because the syntax for 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Complex data binding (binding to a list) in the designer',
+    figure: "Complex data binding (binding to a list) in the designer",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible/complexdatabindingdesigner.gif"
 />
 
@@ -100,9 +100,9 @@ private void InitializeComponent()
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - DataBinding in Designer',
+  figure: "Figure: Good example - DataBinding in Designer",
   shouldDisplay: true
 } } />
 
@@ -128,9 +128,9 @@ object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventH
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - DataBinding in Code',
+  figure: "Figure: Bad example - DataBinding in Code",
   shouldDisplay: true
 } } />
 
@@ -159,8 +159,8 @@ private void DataBind()
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Set controls\' values in Code',
+  figure: "Figure: Bad example - Set controls' values in Code",
   shouldDisplay: true
 } } />

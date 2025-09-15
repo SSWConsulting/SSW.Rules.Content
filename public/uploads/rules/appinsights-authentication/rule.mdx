@@ -78,9 +78,9 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
   // ... the rest of your app service configuration
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Enable System Assigned managed identity',
+  figure: "Figure: Enable System Assigned managed identity",
   shouldDisplay: true
 } } />
 
@@ -105,9 +105,9 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Disable Local Authentication to enable Enhanced Security for Application Insights using Bicep',
+  figure: "Figure: Disable Local Authentication to enable Enhanced Security for Application Insights using Bicep",
   shouldDisplay: true
 } } />
 
@@ -161,9 +161,9 @@ resource monitoringMetricsPublisherRoleAssignment 'Microsoft.Authorization/roleA
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep',
+  figure: "Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep",
   shouldDisplay: true
 } } />
 
@@ -173,11 +173,11 @@ resource monitoringMetricsPublisherRoleAssignment 'Microsoft.Authorization/roleA
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService',
+    figure: "AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/appinsights-authentication/appinsights-assigned-role.png"
 />
 
@@ -225,9 +225,9 @@ builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Using Managed Identities when authenticating with Application Insights',
+  figure: "Figure: Using Managed Identities when authenticating with Application Insights",
   shouldDisplay: true
 } } />
 

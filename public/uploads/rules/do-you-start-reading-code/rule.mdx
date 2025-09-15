@@ -64,7 +64,7 @@ public IEnumerable<Customer> GetSupplierCustomersWithMoreThanZeroOrders(int supp
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -100,9 +100,9 @@ result.Sort(delegate(ProductGroup groupX, ProductGroup groupY) {
 });
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Not using LINQ',
+  figure: "Figure: Bad example - Not using LINQ",
   shouldDisplay: true
 } } />
 
@@ -117,9 +117,9 @@ result = products
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - using LINQ',
+  figure: "Figure: Good example - using LINQ",
   shouldDisplay: true
 } } />
 

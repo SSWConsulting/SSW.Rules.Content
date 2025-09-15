@@ -32,11 +32,11 @@ How often do you find files on your network file server that clearly shouldn't b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Who created this file?',
+    figure: "Who created this file?",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/DuplicateFile.png"
 />
 
@@ -45,11 +45,11 @@ How often do you find files on your network file server that clearly shouldn't b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Terminal into your file server using Terminal Services',
+    figure: "Terminal into your file server using Terminal Services",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/RDP.png"
 />
 
@@ -58,11 +58,11 @@ How often do you find files on your network file server that clearly shouldn't b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'It was Jatin!',
+    figure: "It was Jatin!",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/FileOwner.png"
 />
 
@@ -80,11 +80,11 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Select the folder you want to configure auditing for',
+    figure: "Select the folder you want to configure auditing for",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_01.gif"
 />
 4. Click the **Auditing** tab
@@ -94,11 +94,11 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Select Everyone so that anyone who modifies any of the files will be logged',
+    figure: "Select Everyone so that anyone who modifies any of the files will be logged",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_02.gif"
 />
 6. Select what you want to monitor. For best performance, we only tick the options in shown in the figure below - there's no need to log when someone opens a file.
@@ -107,11 +107,11 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Select these 4 options (only audit the events you need to audit - there\'s no need to log when someone opens a file)',
+    figure: "Select these 4 options (only audit the events you need to audit - there's no need to log when someone opens a file)",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_03.gif"
 />
 7. Click **OK** and **OK** again to apply the changes. The process may take some time depending on the number of subfolders and files selected.
@@ -124,11 +124,11 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Keep your log file to about 250MB - otherwise, your system performance may suffer',
+    figure: "Keep your log file to about 250MB - otherwise, your system performance may suffer",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_04.gif"
 />
 
@@ -144,11 +144,11 @@ Now test to see if auditing is working.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Any creates, deletes and updates now get logged to the Event Log',
+    figure: "Any creates, deletes and updates now get logged to the Event Log",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_05.gif"
 />
 
@@ -167,10 +167,10 @@ Done, now you need only double-click to start it.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Caught an action on remote server and logged it to database',
+    figure: "Caught an action on remote server and logged it to database",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-file-servers-clean/EventLogger.gif"
 />

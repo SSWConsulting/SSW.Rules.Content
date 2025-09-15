@@ -28,7 +28,7 @@ It’s painful when a client finds out indirectly (e.g. via LinkedIn) that a dev
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – The client finds out by surprise and feels left out of the loop',
+    figure: "Bad example – The client finds out by surprise and feels left out of the loop",
     shouldDisplay: true
   }}
 />
@@ -40,7 +40,7 @@ It’s painful when a client finds out indirectly (e.g. via LinkedIn) that a dev
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Client feels respected and part of the transition process',
+    figure: "Good example – Client feels respected and part of the transition process",
     shouldDisplay: true
   }}
 />
@@ -62,15 +62,14 @@ When a developer resigns, you must immediately inform the client. We believe in 
 
 Here's a good template for your follow-up email:
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | &#123;&#123; CLIENT NAME &#125;&#125; |
-| Subject: | &#123;&#123; EMPLOYEE &#125;&#125; has resigned - Project Transition Plan |
-::: email-content
-
-### Hi &#123;&#123; CLIENT NAME &#125;&#125;
+<emailEmbed
+  from=""
+  to="&#123;&#123; CLIENT NAME &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; EMPLOYEE &#125;&#125; has resigned - Project Transition Plan"
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
 As per our conversation, I’m sorry to let you know that &#123;&#123; EMPLOYEE &#125;&#125; has resigned from SSW.
 
@@ -83,9 +82,13 @@ If you have any further questions or concerns, feel free to reach out.
 
 Kind regards,
 &#123;&#123; YOUR NAME &#125;&#125;
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 ## Important points
 

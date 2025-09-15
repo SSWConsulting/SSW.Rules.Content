@@ -25,9 +25,9 @@ isArchived: false
 This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:
   </>}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Cons',
+  figure: "Cons",
   shouldDisplay: true
 } } />
 
@@ -42,9 +42,9 @@ But in SQL Server you have identities and we have these procs:
 * DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
 * SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Pros',
+  figure: "Pros",
   shouldDisplay: true
 } } />
 
@@ -68,11 +68,11 @@ Using SQL Management Studio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'SQL Import Wizard - Edit Mappings',
+    figure: "SQL Import Wizard - Edit Mappings",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-identities-in-sql-server/IdentityImportEditMappings.png"
 />
 
@@ -82,11 +82,11 @@ Using SQL Management Studio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'SQL Import Wizard – Ensure Enable identity insert is checked',
+    figure: "SQL Import Wizard – Ensure Enable identity insert is checked",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-identities-in-sql-server/EnableIdentityInsert.png"
 />
 

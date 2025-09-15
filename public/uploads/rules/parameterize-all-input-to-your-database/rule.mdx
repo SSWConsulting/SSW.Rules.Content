@@ -30,9 +30,9 @@ Source: [xkcd.com](https://xkcd.com/327/)
 **
   </>}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Advantages',
+  figure: "Advantages",
   shouldDisplay: true
 } } />
 
@@ -48,9 +48,9 @@ FROM dbo.Customers
 WHERE CompanyName = 'NorthWind';
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad Example - Using a dynamic SQL query',
+  figure: "Figure: Bad Example - Using a dynamic SQL query",
   shouldDisplay: true
 } } />
 
@@ -61,9 +61,9 @@ FROM dbo.Customers
 WHERE CompanyName = @companyName;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example - Using a parameterized query',
+  figure: "Figure: Good Example - Using a parameterized query",
   shouldDisplay: true
 } } />
 
@@ -79,9 +79,9 @@ Implementing parameterized queries using Parameters.Add()
 cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = “Text”;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)',
+  figure: "Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)",
   shouldDisplay: true
 } } />
 
@@ -90,9 +90,9 @@ cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = �
 cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value = decimalValue;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example – Using decimal(11,4) SQL Parameter',
+  figure: "Figure: Good Example – Using decimal(11,4) SQL Parameter",
   shouldDisplay: true
 } } />
 
@@ -101,9 +101,9 @@ cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value 
 cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = DateTime.UtcNow;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example - C#, VB .NET SQL DateTime Parameter',
+  figure: "Figure: Good Example - C#, VB .NET SQL DateTime Parameter",
   shouldDisplay: true
 } } />
 
@@ -112,8 +112,8 @@ cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = Da
 $SqlCmd.Parameters.Add("@dateTimeValue", [System.Data.SqlDbType]::DateTime2).Value = $dateTime2Value
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example - PowerShell SQL DateTime Parameter',
+  figure: "Figure: Good Example - PowerShell SQL DateTime Parameter",
   shouldDisplay: true
 } } />

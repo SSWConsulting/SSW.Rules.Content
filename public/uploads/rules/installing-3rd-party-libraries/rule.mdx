@@ -27,7 +27,7 @@ Efficient software developers don't reinvent the wheel and know the right librar
 However, there are scenarios where the libraries integrated in a project bring overhead in the future. For example, if a project is using a NuGet package that is no longer being maintained and does not support the latest .NET version. This incompatibility would force the development team to refactor the code to use another library if they wish to use the latest version of .NET.
   </>}
 />
-<youtubeEmbed url="https://www.youtube.com/embed/1LPK3jgga_c" description="" />
+<youtubeEmbed url="https://www.youtube.com/embed/1LPK3jgga_c" description={""} />
 
 Looking for the right library can help to minimize the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library:
 
@@ -65,11 +65,11 @@ Couple of things to check:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Unmaintained library - little to no activity - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly',
+    figure: "Bad example - Unmaintained library - little to no activity - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-not-maintained.png"
 />
 
@@ -77,11 +77,11 @@ Couple of things to check:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example #1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns',
+    figure: "Good example #1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained.png"
 />
 
@@ -89,11 +89,11 @@ Couple of things to check:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example #2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly',
+    figure: "Good example #2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained-2.png"
 />
 
@@ -129,11 +129,11 @@ Always check the license associated with the package before deciding to use it i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - npm - uncommon license, need to check for conditions and fees - https://npmjs.com/package/highcharts',
+    figure: "Bad example - npm - uncommon license, need to check for conditions and fees - https://npmjs.com/package/highcharts",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/npm-bad-license.png"
 />
 
@@ -141,11 +141,11 @@ Always check the license associated with the package before deciding to use it i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - NuGet – uncommon license, need to check for conditions and fees - https://nuget.org/packages/PDFTron.NET.x64',
+    figure: "Bad example - NuGet – uncommon license, need to check for conditions and fees - https://nuget.org/packages/PDFTron.NET.x64",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/nuget-bad-license.png"
 />
 
@@ -153,11 +153,11 @@ Always check the license associated with the package before deciding to use it i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - npm - MIT License, free to use - https://npmjs.com/package/date-fns',
+    figure: "Good example - npm - MIT License, free to use - https://npmjs.com/package/date-fns",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/npm-good-license.png"
 />
 
@@ -165,11 +165,11 @@ Always check the license associated with the package before deciding to use it i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - NuGet – MIT License, free to use - https://nuget.org/packages/Newtonsoft.Json/13.0.1',
+    figure: "Good example - NuGet – MIT License, free to use - https://nuget.org/packages/Newtonsoft.Json/13.0.1",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/nuget-good-license.png"
 />
 
@@ -203,10 +203,10 @@ To reduce the final build size, .NET provide a built in feature  [Trimmer](https
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - A markdown file should include your reasons to assist future developers',
+    figure: "Good example - A markdown file should include your reasons to assist future developers",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/installing-3rd-party-libraries/md-reasons.png"
 />

@@ -30,7 +30,7 @@ JavaScript is a powerful language, but it can sometimes be tricky to write clean
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -47,32 +47,16 @@ Always consider the trade-off between adding an extra dependency to your project
 
 Here's an example where using Lodash's `_.map` method is unnecessary:
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```js
-const arr = [1, 2, 3];
-const newArr = _.map(arr, function (n) {
-  return n * 3;
-});
-console.log(newArr);
-// output: [3, 6, 9]
-```
-
-Figure: using Lodash\'s \_.map method',
+  figure: "```js\nconst arr = [1, 2, 3];\nconst newArr = _.map(arr, function (n) {\n  return n * 3;\n});\nconsole.log(newArr);\n// output: [3, 6, 9]\n```\n\nFigure: using Lodash's \\_.map method",
   shouldDisplay: true
 } } />
 
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '```js
-const arr = [1, 2, 3];
-const newArr = arr.map((n) => n * 3);
-console.log(newArr);
-// output: [3, 6, 9]
-```
-
-Figure: using the native JavaScript Array.map() method',
+  figure: "```js\nconst arr = [1, 2, 3];\nconst newArr = arr.map((n) => n * 3);\nconsole.log(newArr);\n// output: [3, 6, 9]\n```\n\nFigure: using the native JavaScript Array.map() method",
   shouldDisplay: true
 } } />
 
@@ -83,35 +67,15 @@ In the above example it is more efficient to use the native implementation and w
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```js
-const user = users.find((user) => user.age === 1 && user.active === true);
-console.log(user);
-// output: { \'user\': \'pebbles\', \'age\': 1, \'active\': true }
-```
-
-Figure: native JavaScript find method',
+  figure: "```js\nconst user = users.find((user) => user.age === 1 && user.active === true);\nconsole.log(user);\n// output: { 'user': 'pebbles', 'age': 1, 'active': true }\n```\n\nFigure: native JavaScript find method",
   shouldDisplay: true
 } } />
 
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '```js
-import { find } from "lodash-es";
-
-const users = [
-  { user: "barney", age: 36, active: true },
-  { user: "fred", age: 40, active: false },
-  { user: "pebbles", age: 1, active: true },
-];
-
-const user = find(users, { age: 1, active: true });
-console.log(user);
-// output: { \'user\': \'pebbles\', \'age\': 1, \'active\': true }
-```
-
-Figure: Lodash\'s \_.find method',
+  figure: "```js\nimport { find } from \"lodash-es\";\n\nconst users = [\n  { user: \"barney\", age: 36, active: true },\n  { user: \"fred\", age: 40, active: false },\n  { user: \"pebbles\", age: 1, active: true },\n];\n\nconst user = find(users, { age: 1, active: true });\nconsole.log(user);\n// output: { 'user': 'pebbles', 'age': 1, 'active': true }\n```\n\nFigure: Lodash's \\_.find method",
   shouldDisplay: true
 } } />

@@ -41,13 +41,13 @@ VSTS is the best home to put it and share it across their organization because:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example',
+  figure: "Bad example",
   shouldDisplay: true
 } } />
 
@@ -59,13 +59,13 @@ VSTS is the best home to put it and share it across their organization because:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "okExample",
-  figure: 'OK example',
+  figure: "OK example",
   shouldDisplay: true
 } } />
 
@@ -77,14 +77,14 @@ VSTS is the best home to put it and share it across their organization because:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example',
+  figure: "Good example",
   shouldDisplay: true
 } } />
 
@@ -94,11 +94,11 @@ VSTS is the best home to put it and share it across their organization because:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Start from Visual Studio Marketplace',
+    figure: "Start from Visual Studio Marketplace",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/share-code-using-packages/package-management-site.png"
 />
 
@@ -109,20 +109,20 @@ VSTS is the best home to put it and share it across their organization because:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Sharing source or binaries via packages created using Sonatype Nexus. Already supports Component Governance',
+  figure: "Good example - Sharing source or binaries via packages created using Sonatype Nexus. Already supports Component Governance",
   shouldDisplay: true
 } } />
 
 
 ### Additional info
 
-<youtubeEmbed url="https://www.youtube.com/embed/r-nVWDq1QBg" description="" />
+<youtubeEmbed url="https://www.youtube.com/embed/r-nVWDq1QBg" description={""} />
 
 - At 2:50 Mario Rodriguez talks about the bad ways customers share code
 - At 6:30 Mario explains to Danijel Malik how VSTS helps with the nasty problem of Diamond Dependencies (aka Binary Consumption Hell) (E.g. That's when devs are trying to get the new version of say Newtonsoft v1.9 in all projects, but one at a time)

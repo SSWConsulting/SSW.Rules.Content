@@ -40,24 +40,27 @@ Just email &#123;&#123; TIME/DATE &#125;&#125;@followupthen.com, and you'll get 
 
 Note: You can BCC @followupthen.com on any email with other people, and the reminder will only go to you.
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | <1week@followupthen.com> |
-| Subject: | New Starter - Sophie Belle |
-::: email-content
-
-### To Myself
+<emailEmbed
+  from=""
+  to="<1week@followupthen.com>"
+  cc=""
+  bcc=""
+  subject="New Starter - Sophie Belle"
+  body={<>
+    ## To Myself
 
 Sophie Belle starts work tomorrow.
 
 1. Get their account set up today
 
 Thanks!
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 #### B. Follow up flags
 
@@ -70,11 +73,11 @@ The only downside is that you only get a notification (not an email) - so you mi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Outlook | Follow up flag | Custom reminder',
+    figure: "Outlook | Follow up flag | Custom reminder",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/tasks-with-a-ticking-clock/follow-up-flag.png"
 />
 
@@ -87,11 +90,11 @@ The only downside is that you only get a notification (not an email) - so you mi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Microsoft To Do within Outlook',
+    figure: "Microsoft To Do within Outlook",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/tasks-with-a-ticking-clock/to-do.png"
 />
 
@@ -106,11 +109,11 @@ In Zendesk, it's easy to add a due date to a task. Agents can do this in their A
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Zendesk | Agent workspace | Due date and time',
+    figure: "Zendesk | Agent workspace | Due date and time",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/tasks-with-a-ticking-clock/zendesk-due-date.png"
 />
 
@@ -121,10 +124,10 @@ Then, you can set up an automation to send an email reminder a certain number of
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Zendesk Admin Center | Automations | Send email 24 hours before due date',
+    figure: "Zendesk Admin Center | Automations | Send email 24 hours before due date",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/tasks-with-a-ticking-clock/zendesk-due-date-automation.png"
 />

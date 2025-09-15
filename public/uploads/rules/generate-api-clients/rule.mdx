@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 related:
   - the-best-way-to-generate-your-entities-from-swagger
   - generate-interfaces-for-your-dtos
@@ -38,6 +40,7 @@ Generating API clients from OpenAPI specifications provides several key benefits
 * **Consistency** - Standardized approach across your codebase
 
 ### Best practices
+
 * **Automate generation** - Include client generation in your build pipeline
 * **Separate generated code** - Keep generated clients in separate projects/folders
 * **Don't modify generated code** - Use partial classes or wrapper services for customizations
@@ -47,56 +50,84 @@ Generating API clients from OpenAPI specifications provides several key benefits
 
 ### Kiota ⭐ (Recommended)
 
-<https://github.com/microsoft/kiota>
+[https://github.com/microsoft/kiota](https://github.com/microsoft/kiota)
 
 Kiota is Microsoft's next-generation API client generator designed for modern cloud APIs.
 
 **How it works:** Generates fluent clients from OpenAPI specifications with focus on Microsoft Graph APIs and modern patterns.
 
 ✅ **Pros**
+
 * Modern async/await patterns
 * Supports complex API scenarios - you can filter to the endpoints you care about
 * Growing ecosystem and active development
 * Extendable - easy to add handlers to the client
 
 ❌ **Cons**
+
 * Smaller community compared to alternatives
 * Newer tool with fewer examples
 
+### Orval ⭐ (Recommended for TypeScript/React projects)
+
+[https://orval.dev](https://orval.dev)
+
+Orval is a TypeScript-first OpenAPI generator, popular for Next.js and React projects. It integrates cleanly with TanStack Query (React Query), making API consumption highly ergonomic.
+
+**How it works:** Reads your OpenAPI specification and generates TypeScript clients with optional React Query hooks, mocks, and strongly typed DTOs.
+
+✅ **Pros**
+
+* Generates modern fetch-based clients compatible with Next.js and Edge runtimes
+* Optional React Query hooks out of the box
+* Type-safe DTOs and request/response validation
+* Can also generate API mocks for frontend testing
+* Generated code is clean, readable, and follows familiar HTTP conventions
+* Clients are easily extensible e.g. add interceptors for bearer tokens, custom headers, or logging with minimal effort
+
+❌ **Cons**
+
+* Focused on TypeScript/React – less useful for .NET-only stacks
+* Requires configuration file for advanced setups
+
 ### NSwag
 
-<https://github.com/RicoSuter/NSwag>
+[https://github.com/RicoSuter/NSwag](https://github.com/RicoSuter/NSwag)
 
 NSwag generates strongly-typed C# and TypeScript clients from OpenAPI specifications.
 
 **How it works:** Reads your OpenAPI/Swagger specification and generates complete client classes with methods, models, and error handling.
 
 ✅ **Pros**
+
 * Generates C# and TypeScript clients
 * Full-featured with extensive customization options
 * Handles complex scenarios (inheritance, polymorphism)
 * Strong tooling support (CLI, MSBuild, Visual Studio)
 
 ❌ **Cons**
+
 * Needs configuration
 * Can generate complex code for simple APIs
 * Large generated files for big APIs
 
 ### Refit
 
-<https://github.com/reactiveui/refit>
+[https://github.com/reactiveui/refit](https://github.com/reactiveui/refit)
 
 Refit generates HTTP client implementations from interface definitions using attributes.
 
 **How it works:** You define interfaces with HTTP attributes, and Refit generates the implementation at runtime.
 
 ✅ **Pros**
+
 * Simple attribute-based API definitions
 * Lightweight and easy to learn
 * Great integration with .NET dependency injection
 * No code generation step required
 
 ❌ **Cons**
+
 * REST HTTP only (no GraphQL, gRPC, etc.)
 * Manual model definition required
 * Runtime generation (no compile-time validation of endpoints)
@@ -106,11 +137,13 @@ Refit generates HTTP client implementations from interface definitions using att
 Hand-writing HTTP client code for each API endpoint without any code generation.
 
 ✅ **Pros**
+
 * Full control over implementation
 * No external dependencies
 * Simple
 
 ❌ **Cons**
+
 * Time consuming and repetitive
 * Error prone (typos, wrong URLs, etc.)
 * No automatic updates when API changes

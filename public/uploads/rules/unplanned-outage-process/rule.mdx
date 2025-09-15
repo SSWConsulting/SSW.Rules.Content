@@ -36,7 +36,7 @@ During your course of being a SysAdmin, you will come across many unplanned outa
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -85,14 +85,14 @@ If you cannot reach anyone move on to the Email section.
 
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | SSWAll |
-| Subject: | SysAdmins – Outage Notice |
-::: email-content
-
-### Hi All
+<emailEmbed
+  from=""
+  to="SSWAll"
+  cc=""
+  bcc=""
+  subject="SysAdmins – Outage Notice"
+  body={<>
+    ## Hi All
 
 We are experiencing an outage and the following services have been affected:
 
@@ -104,20 +104,24 @@ We are working on restoring these services and will keep you updated.
 
 Thank you,
 SysAdmins
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | SysAdmins |
-| Subject: | SysAdmins – Outage Notice |
-::: email-content
-
-### Hi Team
+<emailEmbed
+  from=""
+  to="SysAdmins"
+  cc=""
+  bcc=""
+  subject="SysAdmins – Outage Notice"
+  body={<>
+    ## Hi Team
 
 As per our conversation,
 
@@ -135,7 +139,7 @@ The impact of these services disrupted are:
 
 We have decided that an email to ALL is/is not required.
 
-### To myself
+## To myself
 
 The next steps to resolving this are:
 
@@ -145,9 +149,13 @@ The next steps to resolving this are:
 
 Thank you,
 SysAdmin
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 ### Next steps did NOT resolve the issue
 

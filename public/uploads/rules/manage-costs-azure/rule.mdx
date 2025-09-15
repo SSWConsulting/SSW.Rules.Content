@@ -40,7 +40,7 @@ has this planned for the future, but it's not here yet.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -53,15 +53,14 @@ For everyone to be on the same page, the process a developer should follow is:
 
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Spend Master |
-| Subject: | Purchase Please - Azure Resource Request for &#123;&#123;product/service&#125;&#125; |
-::: email-content
-
-### Hi Spend Master aka SysAdmins
+<emailEmbed
+  from=""
+  to="Spend Master"
+  cc=""
+  bcc=""
+  subject="Purchase Please - Azure Resource Request for &#123;&#123;product/service&#125;&#125;"
+  body={<>
+    ## Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for xx
 
@@ -82,11 +81,11 @@ Total: &#123;&#123;AUD$&#125;&#125; per month
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'I generated the price from https://azure.microsoft.com/en-au/pricing/calculator',
+    figure: "I generated the price from https://azure.microsoft.com/en-au/pricing/calculator",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/manage-costs-azure/azurecalcexample.jpg?WT.mc_id=AZ-MVP-33518"
 />
 
@@ -94,10 +93,14 @@ Total: &#123;&#123;AUD$&#125;&#125; per month
 
 David
 
-<As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)>
-
-:::
-:::
+&lt;As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)&gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
 
@@ -106,10 +109,10 @@ David
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Daily costs by category',
+    figure: "Daily costs by category",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/manage-costs-azure/azurecostsbycategory.png"
 />

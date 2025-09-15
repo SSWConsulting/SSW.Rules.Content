@@ -35,7 +35,7 @@ Accessibility isn't just about compliance - it's about improving the usability o
 />
 Making your website accessible ensures equal access, better usability, and improved SEO.
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=QWPWgaDqbZI" description="Video: The Internet's Accessibility Problem - and How to Fix It (13 min)" />
+<youtubeEmbed url="https://www.youtube.com/watch?v=QWPWgaDqbZI" description={"Video: The Internet's Accessibility Problem - and How to Fix It (13 min)"} />
 
 ## An overview of WCAG standards
 
@@ -88,11 +88,11 @@ Suppose we want to create a simple button on our site.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Lacks accessibility',
+    figure: "Bad example - Lacks accessibility",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/wcag-compliance/./bad-example-accessibility.png"
 />
 
@@ -106,11 +106,11 @@ This fails numerous guidelines:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Correct accessibility',
+    figure: "Good example - Correct accessibility",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/wcag-compliance/./good-example-accessibility.png"
 />
 
@@ -149,11 +149,11 @@ It is best used for performance and accessibility review before release. Althoug
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Lighthouse in DevTools',
+    figure: "Lighthouse in DevTools",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/wcag-compliance/./lighthouse-in-devtools.png"
 />
 

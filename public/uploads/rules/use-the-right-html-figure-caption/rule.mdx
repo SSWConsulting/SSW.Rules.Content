@@ -36,9 +36,9 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
 </div>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example',
+  figure: "Figure: Bad example",
   shouldDisplay: true
 } } />
 
@@ -52,9 +52,9 @@ Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [h
 </figure>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example',
+  figure: "Figure: Good example",
   shouldDisplay: true
 } } />
 
@@ -82,7 +82,7 @@ For some internal sites, we still use the old way to place images: Using  **&lt
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

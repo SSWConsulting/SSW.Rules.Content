@@ -31,12 +31,9 @@ When testing code that depends on Entity Framework Core, the challenge often lie
 
 Attempting to mock the entire `DbContext` is a common mistake. This approach typically leads to complex and fragile test setups, making the tests hard to understand and maintain.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```csharp
-var mockContext = new Mock<ApplicationDbContext>();
-// Adding further mock setups...
-```',
+  figure: "```csharp\nvar mockContext = new Mock<ApplicationDbContext>();\n// Adding further mock setups...\n```",
   shouldDisplay: true
 } } />
 
@@ -47,12 +44,9 @@ var mockContext = new Mock<ApplicationDbContext>();
 
 Similarly, mocking `DbSet` entities often results in tests that don't accurately reflect the behavior of the database, leading to unreliable test outcomes.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```csharp
-var mockSet = new Mock<DbSet<MyEntity>>();
-// Configuring mockSet behaviors...
-```',
+  figure: "```csharp\nvar mockSet = new Mock<DbSet<MyEntity>>();\n// Configuring mockSet behaviors...\n```",
   shouldDisplay: true
 } } />
 
@@ -63,16 +57,9 @@ var mockSet = new Mock<DbSet<MyEntity>>();
 
 Instead of extensive mocking, using `DbContext` with the EF Core In-Memory provider simplifies the setup and reduces the need for mocks. This approach enables more realistic testing of database interactions.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '```csharp
-var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-    .UseInMemoryDatabase(Guid.NewGuid().ToString())
-    .Options;
-
-var dbContext = new ApplicationDbContext(options);
-
-```',
+  figure: "```csharp\nvar options = new DbContextOptionsBuilder<ApplicationDbContext>()\n    .UseInMemoryDatabase(Guid.NewGuid().ToString())\n    .Options;\n\nvar dbContext = new ApplicationDbContext(options);\n\n```",
   shouldDisplay: true
 } } />
 
@@ -93,7 +80,7 @@ While the EF Core In-Memory provider is useful for isolating unit tests, it's im
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

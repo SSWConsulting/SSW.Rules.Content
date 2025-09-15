@@ -59,9 +59,9 @@ public class OrderService(ApplicationDbContext dbContext)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Duplicated query logic to fetch the customer',
+  figure: "Figure: Bad example - Duplicated query logic to fetch the customer",
   shouldDisplay: true
 } } />
 
@@ -79,7 +79,7 @@ The Specification pattern is a design pattern used to define business rules in a
 
 ## Using the Specification Pattern
 
-Steve Smith (aka ["Ardalis"])(<https://github.com/ardalis>) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
+Steve Smith (aka ["Ardalis"])([https://github.com/ardalis](https://github.com/ardalis)) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
 
 To use the Specification pattern, follow these steps:
 
@@ -149,8 +149,8 @@ public class OrderService(ApplicationDbContext dbContext)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Specification used to keep Order query logic DRY',
+  figure: "Figure: Good example - Specification used to keep Order query logic DRY",
   shouldDisplay: true
 } } />

@@ -30,11 +30,11 @@ A report with drill through like this should have the number in nodes like Outlo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - This does not have the nodes count',
+    figure: "Bad example - This does not have the nodes count",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/nodes-count-like-outlook/No_number.jpg"
 />
 
@@ -42,11 +42,11 @@ A report with drill through like this should have the number in nodes like Outlo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - This does have the nodes count',
+    figure: "Good example - This does have the nodes count",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/nodes-count-like-outlook/number.jpg"
 />
 
@@ -63,9 +63,9 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 = Fields!Number.Value
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Get the Outlook Node Count look by changing the SQL.',
+  figure: "Bad example - Get the Outlook Node Count look by changing the SQL.",
   shouldDisplay: true
 } } />
 
@@ -76,9 +76,9 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 = Fields!Name.Value + "(" + CStr ( CountRows( ) ) + ")"
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Use the CountRows() function to get the Outlook Node Count look',
+  figure: "Use the CountRows() function to get the Outlook Node Count look",
   shouldDisplay: true
 } } />
 

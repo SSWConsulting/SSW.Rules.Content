@@ -30,7 +30,7 @@ isArchived: true
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -47,9 +47,9 @@ The bad old way was to use an IFrame and point it to the report's URL (including
 </IFRAME>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad Example - Embed report using IFrame',
+  figure: "Bad Example - Embed report using IFrame",
   shouldDisplay: true
 } } />
 
@@ -61,9 +61,9 @@ The bad old way was to use an IFrame and point it to the report's URL (including
 </rsweb:ReportViewer>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good Example - Embed report using Report Viewer',
+  figure: "Good Example - Embed report using Report Viewer",
   shouldDisplay: true
 } } />
 
@@ -72,11 +72,11 @@ The bad old way was to use an IFrame and point it to the report's URL (including
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - IFrame with vertical scrollbar',
+    figure: "Bad example - IFrame with vertical scrollbar",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/embed-rs-report-in-asp-net-page/IFrame.gif"
 />
 
@@ -84,10 +84,10 @@ The bad old way was to use an IFrame and point it to the report's URL (including
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Report Viewer without vertical scrollbar',
+    figure: "Good example - Report Viewer without vertical scrollbar",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/embed-rs-report-in-asp-net-page/ReportViewer.gif"
 />

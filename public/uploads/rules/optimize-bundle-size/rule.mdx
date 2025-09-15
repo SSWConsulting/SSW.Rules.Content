@@ -35,11 +35,11 @@ It's important to analyze the unused JavaScript in the final bundles. **Lighthou
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times',
+    figure: "Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/optimize-bundle-size/unoptimized-bundle-size.png"
 />
 
@@ -58,9 +58,9 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes',
+  figure: "Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes",
   shouldDisplay: true
 } } />
 
@@ -124,9 +124,9 @@ import * as utils from './utils';
 const result = utils.expensiveFunction();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Code: Bad example - Importing entire module',
+  figure: "Code: Bad example - Importing entire module",
   shouldDisplay: true
 } } />
 
@@ -138,9 +138,9 @@ import { expensiveFunction } from './utils';
 const result = expensiveFunction();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Code: Good example - Importing only the required function',
+  figure: "Code: Good example - Importing only the required function",
   shouldDisplay: true
 } } />
 
@@ -195,9 +195,9 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.',
+  figure: "Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.",
   shouldDisplay: true
 } } />
 
@@ -208,11 +208,11 @@ Route (app)                     Size        First Load JS
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - After optimization it is down to 2.5 unused megabytes',
+    figure: "Good example - After optimization it is down to 2.5 unused megabytes",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/optimize-bundle-size/optimized-bundle-size.png"
 />
 

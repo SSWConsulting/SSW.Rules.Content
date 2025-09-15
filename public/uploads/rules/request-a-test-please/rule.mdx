@@ -53,17 +53,16 @@ When there is **no project backlog** in place, you should send the 'Test Please'
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
-::: email-template
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Test Please - &#123;&#123; PRODUCT/DESIGN &#125;&#125; &#123;&#123; VERSION NUMBER (e.g. V1.11) &#125;&#125;"
+  body={<>
+    <mark>Test Please</mark>
 
-| | |
-| -------- | --- |
-| To:| John |
-| Subject: | Test Please - &#123;&#123; PRODUCT/DESIGN &#125;&#125; &#123;&#123; VERSION NUMBER (e.g. V1.11) &#125;&#125; |
-::: email-content
-
-<mark>Test Please</mark>
-
-### Hi John
+## Hi John
 
 I am looking for bugs or approval to release this version.
 
@@ -108,9 +107,13 @@ Keep in mind that a "Test Please" is an urgent task and that it should start ASA
 * "**❌ Test Please failed** (critical bugs reported via email)"
 
 Regards,
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 <asideEmbed
   variant="info"
@@ -125,7 +128,7 @@ If current version is better than the last version you can release (even with a 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -143,7 +146,7 @@ See subject: Test Please - &#123;&#123; PRODUCT/DESIGN &#125;&#125; &#123;&#123;
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -171,7 +174,7 @@ This way everyone will have the entire history of the task and its progress.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -211,7 +214,7 @@ For Windows Forms test you should include this info to the email:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

@@ -29,9 +29,9 @@ The domain layer should be independent of data access concerns. The domain layer
 This is often a problem when building systems that leverage Entity Framework, as it's common for data annotations to be added to the domain model. Data annotations, such as the Required or MinLength attributes, support validation and help Entity Framework to map objects into the relational model. In the next example, data annotations are used within the domain model:
   </>}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '![Bad Example: Domain is cluttered with data annotations](/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/domain-layer-1.png)',
+  figure: "![Bad Example: Domain is cluttered with data annotations](/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/domain-layer-1.png)",
   shouldDisplay: true
 } } />
 
@@ -42,9 +42,9 @@ As you can see in the above example, the domain is cluttered with data annotatio
 
 ![](/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/domain-layer-3.png)
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '![Good Example: Domain is lean, configuration for entity is contained within a separate configuration type](/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/domain-layer-3.png)',
+  figure: "![Good Example: Domain is lean, configuration for entity is contained within a separate configuration type](/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/domain-layer-3.png)",
   shouldDisplay: true
 } } />
 
@@ -58,10 +58,10 @@ Learn more about this approach by reading about [self-contained configuration fo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Database implementation is a Infrastructure concern not a Domain concern',
+    figure: "Database implementation is a Infrastructure concern not a Domain concern",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/keep-your-domain-layer-independent-of-the-data-access-concerns/CA_Animation_4.gif"
 />

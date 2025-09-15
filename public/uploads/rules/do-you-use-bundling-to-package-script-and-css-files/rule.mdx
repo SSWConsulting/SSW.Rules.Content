@@ -44,9 +44,9 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.theme.css" />
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – each reference will be downloaded separately and won’t be compressed',
+  figure: "Figure: Bad example – each reference will be downloaded separately and won’t be compressed",
   shouldDisplay: true
 } } />
 
@@ -74,8 +74,8 @@ View:
 @Styles.Render("~/Content/themes/base/css")
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – Define a bundle and render it in the view for maximum performance',
+  figure: "Figure: Good example – Define a bundle and render it in the view for maximum performance",
   shouldDisplay: true
 } } />

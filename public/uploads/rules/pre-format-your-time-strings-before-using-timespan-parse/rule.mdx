@@ -32,9 +32,9 @@ This pre-parsing is done by the FormatTimeSpanString( ) function. This function 
 ts = TimeSpan.Parse(cboMyComboBox.Text)
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - A value greater than 24hours will crash eg. 45:30',
+  figure: "Figure: Bad example - A value greater than 24hours will crash eg. 45:30",
   shouldDisplay: true
 } } />
 
@@ -43,9 +43,9 @@ ts = TimeSpan.Parse(cboMyComboBox.Text)
 ts = TimeSpan.Parse(FormatTimeSpanString(cboMyComboBox.Text))
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Using a wrapper method to pre-parse the string containing the TimeSpan value.',
+  figure: "Figure: Good example - Using a wrapper method to pre-parse the string containing the TimeSpan value.",
   shouldDisplay: true
 } } />
 

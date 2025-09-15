@@ -41,38 +41,9 @@ When working with large datasets or generating multiple subcomponents, following
 
   * Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '```js
-export default async function Home({ params }: HomePageProps) {
-    const location = params.location;
-
-    const websiteProps = await client.queries.website({
-        relativePath: `${location}/website.md`,
-    });
-
-    const { conferencesData, footerData, speakers } = websiteProps.data;
-
-    return (
-        <ConferenceContext.Provider value={conferencesData}>
-            <FooterContext.Provider value={footerData}>
-                <PageTransition>
-                    <HomeComponent speakers={speakers} />
-                </PageTransition>
-            </FooterContext.Provider>
-        </ConferenceContext.Provider>
-    );
-}
-
-export async function generateStaticParams() {
-    const contentDir = path.join(process.cwd(), \'content/websites\');
-    const locations = await fs.readdir(contentDir);
-
-    return locations.map((location) => ({ location }));
-}
-```
-
-**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.**',
+  figure: "```js\nexport default async function Home({ params }: HomePageProps) {\n    const location = params.location;\n\n    const websiteProps = await client.queries.website({\n        relativePath: `${location}/website.md`,\n    });\n\n    const { conferencesData, footerData, speakers } = websiteProps.data;\n\n    return (\n        <ConferenceContext.Provider value={conferencesData}>\n            <FooterContext.Provider value={footerData}>\n                <PageTransition>\n                    <HomeComponent speakers={speakers} />\n                </PageTransition>\n            </FooterContext.Provider>\n        </ConferenceContext.Provider>\n    );\n}\n\nexport async function generateStaticParams() {\n    const contentDir = path.join(process.cwd(), 'content/websites');\n    const locations = await fs.readdir(contentDir);\n\n    return locations.map((location) => ({ location }));\n}\n```\n\n**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.**",
   shouldDisplay: true
 } } />
 

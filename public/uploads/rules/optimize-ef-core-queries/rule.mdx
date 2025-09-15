@@ -40,7 +40,7 @@ foreach (var item in items)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits',
+    figure: "Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits",
     shouldDisplay: true
   }}
 />
@@ -59,7 +59,7 @@ context.SaveChangesAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Using `AddRangeAsync()` minimizes database calls and improves performance',
+    figure: "Good example – Using `AddRangeAsync()` minimizes database calls and improves performance",
     shouldDisplay: true
   }}
 />
@@ -79,7 +79,7 @@ When retrieving data in a loop, developers sometimes execute multiple queries in
 ```csharp
 foreach (var id in ids)
 {
-    var entity = context.MyEntities.FirstOrDefaultAsync(e => e.Id == id);
+    var entity = context.MyEntities.FirstOrDefaultAsync(e =&gt; e.Id == id);
     ProcessEntity(entity);
 }
 ```
@@ -87,7 +87,7 @@ foreach (var id in ids)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Each iteration performs a separate database query, leading to N queries',
+    figure: "Bad example – Each iteration performs a separate database query, leading to N queries",
     shouldDisplay: true
   }}
 />
@@ -99,7 +99,7 @@ If you know the approximate size of your dataset, and it is suitable for your da
   body={<>
     
 ```csharp
-var entities = context.MyEntities.Where(e => ids.Contains(e.Id)).ToListAsync();
+var entities = context.MyEntities.Where(e =&gt; ids.Contains(e.Id)).ToListAsync();
 foreach (var entity in entities)
 {
     ProcessEntity(entity);
@@ -109,7 +109,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Fetches all required records in one query, reducing database load',
+    figure: "Good example – Fetches all required records in one query, reducing database load",
     shouldDisplay: true
   }}
 />
@@ -124,10 +124,10 @@ If the dataset is **too large to fetch at once**, consider batching:
     
 ```csharp
 int batchSize = 100;
-for (int i = 0; i < ids.Count; i += batchSize)
+for (int i = 0; i &lt; ids.Count; i += batchSize)
 {
     var batch = ids.Skip(i).Take(batchSize).ToList();
-    var entities = context.MyEntities.Where(e => batch.Contains(e.Id)).ToList();
+    var entities = context.MyEntities.Where(e =&gt; batch.Contains(e.Id)).ToList();
     ProcessEntities(entities);
 }
 ```
@@ -135,7 +135,7 @@ for (int i = 0; i < ids.Count; i += batchSize)
   </>}
   figureEmbed={{
     preset: "okExample",
-    figure: 'OK example – Processes data in batches to balance efficiency and memory usage',
+    figure: "OK example – Processes data in batches to balance efficiency and memory usage",
     shouldDisplay: true
   }}
 />
@@ -159,7 +159,7 @@ var entities = context.MyEntities.ToListAsync();
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Unnecessary tracking increases memory usage',
+    figure: "Bad example – Unnecessary tracking increases memory usage",
     shouldDisplay: true
   }}
 />
@@ -175,7 +175,7 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage',
+    figure: "Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage",
     shouldDisplay: true
   }}
 />
@@ -187,7 +187,7 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -213,7 +213,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance',
+    figure: "Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance",
     shouldDisplay: true
   }}
 />
@@ -233,7 +233,7 @@ context.SaveChangesAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Updates all entities in memory first, then commits changes in a single transaction',
+    figure: "Good example – Updates all entities in memory first, then commits changes in a single transaction",
     shouldDisplay: true
   }}
 />
@@ -261,7 +261,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead',
+    figure: "Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead",
     shouldDisplay: true
   }}
 />
@@ -291,7 +291,7 @@ catch
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability',
+    figure: "Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability",
     shouldDisplay: true
   }}
 />
@@ -310,7 +310,7 @@ using var transaction = await context.Database.BeginTransactionAsync();
 
 try
 {
-    for (int i = 0; i < entities.Count; i += batchSize)
+    for (int i = 0; i &lt; entities.Count; i += batchSize)
     {
         var batch = entities.Skip(i).Take(batchSize).ToList();
         context.AddRange(batch);
@@ -328,7 +328,7 @@ catch
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal',
+    figure: "Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal",
     shouldDisplay: true
   }}
 />

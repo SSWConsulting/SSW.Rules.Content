@@ -32,7 +32,7 @@ Email templates are an awesome way to help people save time writing emails. Ofte
 Use a consistent character to make it clear which piece of text should be substituted.
   </>}
 />
-<youtubeEmbed url="https://youtu.be/uFLnYo_z6Pw" description="Video: Choose the Best Text Placeholders (3 min)" />
+<youtubeEmbed url="https://youtu.be/uFLnYo_z6Pw" description={"Video: Choose the Best Text Placeholders (3 min)"} />
 
 However, everyone has their own preferences about which placeholder character to use 🥸
 
@@ -81,10 +81,10 @@ Replaceable text is often seen in email templates:
 
 <emailEmbed
   from=""
-  to="\[Client email\]"
+  to="\\[Client email\\]"
   cc=""
   bcc=""
-  subject="\[Project name\] - Test please"
+  subject="\\[Project name\\] - Test please"
   body={<>
     ## Hi \[Client name\]
 
@@ -95,11 +95,11 @@ I've been working on \[Project name\] and just deployed version \[Version number
 Regards,
 \[Your name\]
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
     figure: "Bad example - Using square brackets for replaceable text",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <emailEmbed
@@ -118,9 +118,9 @@ I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed ve
 Regards,
 &#123;&#123; YOUR NAME &#125;&#125;
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
     figure: "Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE",
     shouldDisplay: true
-  }}
+  } }
 />

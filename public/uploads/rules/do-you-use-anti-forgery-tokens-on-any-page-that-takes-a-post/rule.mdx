@@ -42,9 +42,9 @@ To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryTok
  }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server',
+  figure: "Figure: Bad example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server",
   shouldDisplay: true
 } } />
 
@@ -79,8 +79,8 @@ public ActionResult Create(CreateModel model)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – The page is no longer vulnerable to XSRF attacks',
+  figure: "Figure: Good example – The page is no longer vulnerable to XSRF attacks",
   shouldDisplay: true
 } } />

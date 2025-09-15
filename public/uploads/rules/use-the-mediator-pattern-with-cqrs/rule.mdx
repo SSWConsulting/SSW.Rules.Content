@@ -30,7 +30,7 @@ CQRS stands for Command Query Responsibility Segregation. It's a pattern that I 
 …
 There's room for considerable variation here. The in-memory models may share the same database, in which case the database acts as the communication between the two models. However they may also use separate databases, effectively making the query-side's database into a real-time ReportingDatabase.
 
-**Martin Fowle** - <https://martinfowler.com/bliki/CQRS.html>
+**Martin Fowle** - [https://martinfowler.com/bliki/CQRS.html](https://martinfowler.com/bliki/CQRS.html)
 
 CQRS means clear separation between Commands (Write operations) and Queries (Read operations).
 
@@ -46,11 +46,11 @@ For every command or query, you create a specific request class that explicitly 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: '(from mediatr MediatR docs) A Simple Request class',
+    figure: "(from mediatr MediatR docs) A Simple Request class",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-1.png"
 />
 
@@ -61,11 +61,11 @@ Then the implementation of that command or query is implemented in a handler cla
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'A handler class',
+    figure: "A handler class",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-2.png"
 />
 
@@ -86,11 +86,11 @@ This approach brings many benefits:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse',
+    figure: "Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-bad.jpg"
 />
 
@@ -98,10 +98,10 @@ This approach brings many benefits:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class',
+    figure: "Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-good.jpg"
 />

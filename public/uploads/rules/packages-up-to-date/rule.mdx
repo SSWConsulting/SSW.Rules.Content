@@ -34,7 +34,7 @@ isArchived: false
 
 <introEmbed
   body={<>
-<introYoutube url="https://www.youtube.com/embed/LN2zsrLqljY" description="Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)" />
+&lt;introYoutube url="https://www.youtube.com/embed/LN2zsrLqljY" description={"Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)"} /&gt;
 
 NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
@@ -65,11 +65,11 @@ The packages output from this command will also show up in different colours:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Use \'npm outdated\'',
+    figure: "Use 'npm outdated'",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/packages-up-to-date/npm_outdated.png"
 />
 
@@ -80,11 +80,11 @@ The packages output from this command will also show up in different colours:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Use \'npm audit\' to discover vulnerabilities in your application',
+    figure: "Use 'npm audit' to discover vulnerabilities in your application",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/packages-up-to-date/npm_audit.png"
 />
 
@@ -115,11 +115,11 @@ Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Using yarn upgrade-interactive',
+    figure: "Using yarn upgrade-interactive",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/packages-up-to-date/upgrade-interactive.png"
 />
 
@@ -130,7 +130,7 @@ Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

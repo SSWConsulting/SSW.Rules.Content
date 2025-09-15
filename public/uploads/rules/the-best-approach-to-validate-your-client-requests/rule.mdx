@@ -29,11 +29,11 @@ When building Web APIs, it is important to validate each request to ensure that 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad Example - Managing Request Validation within the Controller',
+    figure: "Bad Example - Managing Request Validation within the Controller",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-bad.png"
 />
 
@@ -46,11 +46,11 @@ One approach to solving this problem is to move validation to the Application la
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'OK Example - Validation Handled Manually within Request Handler Ensuring All Requests are Validated',
+    figure: "OK Example - Validation Handled Manually within Request Handler Ensuring All Requests are Validated",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-ok.png"
 />
 
@@ -62,11 +62,11 @@ Fortunately, if you are following our recommendations and combining CQRS with Me
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - Automatically Validate All Requests By Using a MediatR Pipeline Behaviour',
+    figure: "Good Example - Automatically Validate All Requests By Using a MediatR Pipeline Behaviour",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-good.png"
 />
 
@@ -78,10 +78,10 @@ The only step that remains is handle any validation exceptions. Within the conso
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example – Use an ExceptionFilterAttribute to Catch and Handle Exceptions within the Web API',
+    figure: "Good Example – Use an ExceptionFilterAttribute to Catch and Handle Exceptions within the Web API",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-good-2.png"
 />

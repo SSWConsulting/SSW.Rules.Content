@@ -41,7 +41,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
     **Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!
 You should [use CSS margin and/or padding](/html-css-do-you-know-how-to-create-spaces-in-a-web-page) instead.
 
-Learn more on [HTML &lt;br&gt; Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
+Learn more on [HTML `&lt;br&gt;` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
 See the [more information on line breaks in Markdown](https://www.markdownguide.org/basic-syntax/#line-breaks).
 
@@ -49,7 +49,7 @@ On the other hand, in regards to **emails** and/or **informal documents**, line 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -67,7 +67,7 @@ SSW is made up of a great team of staff that is passionate about technology and 
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example - Long block of text',
+    figure: "Bad example - Long block of text",
     shouldDisplay: true
   }}
 />
@@ -83,7 +83,7 @@ Want to meet them? Have a look at SSW People.
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example - The text is separated by paragraphs',
+    figure: "Good example - The text is separated by paragraphs",
     shouldDisplay: true
   }}
 />
@@ -99,7 +99,7 @@ Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example - No line break before the note',
+    figure: "Bad example - No line break before the note",
     shouldDisplay: true
   }}
 />
@@ -113,7 +113,7 @@ Test the login functionality thoroughly.\
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example - The "Note" being on a fresh line and in bold makes it much easier to read',
+    figure: "Good example - The \"Note\" being on a fresh line and in bold makes it much easier to read",
     shouldDisplay: true
   }}
 />
@@ -125,11 +125,11 @@ Breaking a line is also recommended before URLs.
 <asideEmbed
   variant="greybox"
   body={<>
-    Check out these employment opportunities at SSW: <https://www.ssw.com.au/employment#available>
+    Check out these employment opportunities at SSW: [https://www.ssw.com.au/employment#available](https://www.ssw.com.au/employment#available)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example - No line break before the URL',
+    figure: "Bad example - No line break before the URL",
     shouldDisplay: true
   }}
 />
@@ -138,12 +138,12 @@ Breaking a line is also recommended before URLs.
   variant="greybox"
   body={<>
     Check out these employment opportunities at SSW:  \
-<https://www.ssw.com.au/employment#available>
+[https://www.ssw.com.au/employment#available](https://www.ssw.com.au/employment#available)
 
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example - The URL being on a fresh line makes it much easier to read',
+    figure: "Good example - The URL being on a fresh line makes it much easier to read",
     shouldDisplay: true
   }}
 />
@@ -155,7 +155,7 @@ Breaking a line is also recommended before URLs.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -173,7 +173,7 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example - No spacing after heading',
+    figure: "Bad example - No spacing after heading",
     shouldDisplay: true
   }}
 />
@@ -187,7 +187,7 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example - Spacing after heading',
+    figure: "Good example - Spacing after heading",
     shouldDisplay: true
   }}
 />
@@ -203,7 +203,7 @@ If you text has information that can be turned into multiple items, you should d
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example - Block of text',
+    figure: "Bad example - Block of text",
     shouldDisplay: true
   }}
 />
@@ -221,13 +221,13 @@ I will do the IoC after.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - List is used to separate information and make it easier to digest',
+  figure: "Figure: Good example - List is used to separate information and make it easier to digest",
   shouldDisplay: true
 } } />
 

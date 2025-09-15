@@ -30,18 +30,18 @@ The best way to avoid it is not to display valid individual email addresses in t
 <asideEmbed
   variant="greybox"
   body={<>
-    <FirstnameSurname@ssw.com.au>
+    &lt;FirstnameSurname@ssw.com.au&gt;
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad way - normal email address in text format',
+  figure: "Figure: Bad way - normal email address in text format",
   shouldDisplay: true
 } } />
 

@@ -55,11 +55,11 @@ For Visual Studio development on web applications, [download Web Essentials](htt
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Steps to install NuGet Packages',
+    figure: "Steps to install NuGet Packages",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-InstallNuGetPackages_1710232021935.png"
 />
 
@@ -80,11 +80,11 @@ Issues from these will now be returned in the Visual Studio analyzer error list.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'New Roslyn Rule issues raised in Visual Studio Analyzer',
+    figure: "New Roslyn Rule issues raised in Visual Studio Analyzer",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-RoslynRules_1710232021936.png"
 />
 
@@ -115,11 +115,11 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Addition of CSSLint and ESLint to VS Code Project',
+    figure: "Addition of CSSLint and ESLint to VS Code Project",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/vs-code-extensions_1710232021938.png"
 />
 
@@ -139,11 +139,11 @@ Edit the build definition
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Steps to edit an existing build definition on VisualStudio.com',
+    figure: "Steps to edit an existing build definition on VisualStudio.com",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EditBuild.png"
 />
 
@@ -154,7 +154,7 @@ Edit the build definition
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -166,11 +166,11 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Example completed build definition',
+    figure: "Example completed build definition",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildDefinition-V3_1710232021937.png"
 />
 
@@ -179,11 +179,11 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Example directory for TSLint run commands',
+    figure: "Example directory for TSLint run commands",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-DirectoryExampleV2_1710232021937.png"
 />
 
@@ -221,11 +221,11 @@ If this is the case, just add a step to delete your config file after the scan i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Command line step to remove the config file (tslint.json) after the linter has run',
+    figure: "Command line step to remove the config file (tslint.json) after the linter has run",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-RemoveConfig_1710232021938.png"
 />
 
@@ -247,11 +247,11 @@ Then check the build is successful.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing',
+    figure: "Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EnsureTSLintRuns.png"
 />
 
@@ -264,11 +264,11 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Steps to add PrimaryBuild variable to build definition',
+    figure: "Steps to add PrimaryBuild variable to build definition",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-AddVariableTag_1710232021936.png"
 />
 
@@ -276,11 +276,11 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Build broke due to compile errors. Must fix to proceed',
+    figure: "Bad example - Build broke due to compile errors. Must fix to proceed",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResult-BadV3.png"
 />
 
@@ -288,11 +288,11 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Successful build with warnings. Should be disabled or set as errors',
+    figure: "Bad example - Successful build with warnings. Should be disabled or set as errors",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResultV3.png"
 />
 
@@ -300,10 +300,10 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Successful build with no warnings',
+    figure: "Good example - Successful build with no warnings",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResult-GoodV3.png"
 />

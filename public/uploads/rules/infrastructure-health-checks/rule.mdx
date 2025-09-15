@@ -42,11 +42,11 @@ Most developers include [health checks for their own applications](/have-a-healt
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Infrastructure Health Checks',
+    figure: "Infrastructure Health Checks",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/health-check-image.png"
 />
 
@@ -56,7 +56,7 @@ Enterprise applications typically leverage a large number of cloud services; dat
 
 Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=GdA5_8Chk2g" description="Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)" />
+<youtubeEmbed url="https://www.youtube.com/watch?v=GdA5_8Chk2g" description={"Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)"} />
 
 ## Setting Up Health Checks for App & Infrastructure in .NET
 
@@ -76,11 +76,11 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB',
+    figure: "Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png"
 />
 
@@ -88,11 +88,11 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - SSWTimePro has a Health Check page',
+    figure: "Good example - SSWTimePro has a Health Check page",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/timepro-health-check.png"
 />
 
@@ -100,11 +100,11 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Tina.io has a Health Check page',
+    figure: "Good example - Tina.io has a Health Check page",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/tina-health-check.png"
 />
 
@@ -120,11 +120,11 @@ When deploying apps in Azure it's good practice to enable health checks within t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Performing a health check on an azure app service',
+    figure: "Good example - Performing a health check on an azure app service",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/image-3-.png"
 />
 
@@ -150,11 +150,11 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example – The user is given the chance to interact with a feature that is currently unavailable',
+    figure: "Bad example – The user is given the chance to interact with a feature that is currently unavailable",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/infra-bad-example.png"
 />
 
@@ -162,10 +162,10 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable',
+    figure: "Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/infrastructure-health-checks/infra-good-example.png"
 />

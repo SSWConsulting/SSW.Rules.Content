@@ -27,16 +27,16 @@ isArchived: false
 Do you know String should be @-quoted instead of using escape character for "\\"?
 The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
 
-As per: [Strings](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>)
+As per: [Strings]([https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN))
   </>}
 />
 ```cs
 string p2 = "\\My Documents\\My Files\\";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Using "\\"',
+  figure: "Figure: Bad example - Using \"\\\\\"",
   shouldDisplay: true
 } } />
 
@@ -45,9 +45,9 @@ string p2 = "\\My Documents\\My Files\\";
 string p2 = @"\My Documents\My Files\";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Using @',
+  figure: "Figure: Good example - Using @",
   shouldDisplay: true
 } } />
 
@@ -66,9 +66,9 @@ var bad = "<html>" +
            "</html>";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Single quotes',
+  figure: "Figure: Bad example - Single quotes",
   shouldDisplay: true
 } } />
 
@@ -83,9 +83,9 @@ var good = """
            """;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Using raw string literals',
+  figure: "Figure: Good example - Using raw string literals",
   shouldDisplay: true
 } } />
 

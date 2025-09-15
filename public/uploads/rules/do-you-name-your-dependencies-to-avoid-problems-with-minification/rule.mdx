@@ -31,9 +31,9 @@ The standard way to inject your dependencies looks a little like the following. 
 phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {...}
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Code: Bad example - This code will break when minified',
+  figure: "Code: Bad example - This code will break when minified",
   shouldDisplay: true
 } } />
 
@@ -48,9 +48,9 @@ PhoneListCtrl.$inject = ['$scope', '$http'];
 phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Code: Good example - This code names the parameters using the $inject property',
+  figure: "Code: Good example - This code names the parameters using the $inject property",
   shouldDisplay: true
 } } />
 
@@ -61,9 +61,9 @@ The second and **preferred** option is to pass an array containing the names, fo
 phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {...}]);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Code: Better example - This code names the parameters inline which is a little cleaner',
+  figure: "Code: Better example - This code names the parameters inline which is a little cleaner",
   shouldDisplay: true
 } } />
 

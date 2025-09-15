@@ -43,7 +43,7 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 * **ADO_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)
   The Organization name is in your Azure DevOps URL.
 
-* **ADO_PROJECT** (<https://ssw.visualstudio.com/> **SSW.Rules**)
+* **ADO_PROJECT** ([https://ssw.visualstudio.com/](https://ssw.visualstudio.com/) **SSW.Rules**)
   The Project name can also be found in your Azure DevOps URL.
 
 3. Create the following GitHub Action
@@ -73,9 +73,9 @@ jobs:
           ado_bypassrules: true
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps',
+  figure: "Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps",
   shouldDisplay: true
 } } />
 
@@ -84,11 +84,11 @@ jobs:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - GitHub Issues Syncing to Azure DevOps',
+    figure: "Good Example - GitHub Issues Syncing to Azure DevOps",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/sync-your-github-issues-to-azure-devops/GitHub-Issues-Syncing-to-AzDevOps.png"
 />
 
@@ -103,7 +103,7 @@ jobs:
 * The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
 * It won’t sync existing GitHub Issues unless they are updated
 
-More information about this GitHub Action can be found here <https://github.com/danhellem/github-actions-issue-to-work-item>
+More information about this GitHub Action can be found here [https://github.com/danhellem/github-actions-issue-to-work-item](https://github.com/danhellem/github-actions-issue-to-work-item)
 
 To avoid people adding a PBI to the Azure DevOps, add a PBI at the top of your backlog to indicate that they should add it to GitHub issues.
 
@@ -112,11 +112,11 @@ To avoid people adding a PBI to the Azure DevOps, add a PBI at the top of your b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Add the PBI at the top of your backlog',
+    figure: "Add the PBI at the top of your backlog",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/sync-your-github-issues-to-azure-devops/GitHub-PBI-Backlog.png"
 />
 
@@ -125,10 +125,10 @@ To avoid people adding a PBI to the Azure DevOps, add a PBI at the top of your b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Inform users where to add new PBIs',
+    figure: "Inform users where to add new PBIs",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/sync-your-github-issues-to-azure-devops/GitHub-PBI-Backlog-Text.png"
 />

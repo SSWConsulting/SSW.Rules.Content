@@ -24,7 +24,7 @@ isArchived: false
 
 <introEmbed
   body={<>
-<introYoutube url="http://www.youtube.com/embed/1j3m4A9Tlhc" description="Figure: Watch the URL working as a navigation aid" />
+&lt;introYoutube url="http://www.youtube.com/embed/1j3m4A9Tlhc" description={"Figure: Watch the URL working as a navigation aid"} /&gt;
 
 MVC gives us great URLs, but you need to help users navigate via the URL. If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.
   </>}
@@ -45,9 +45,9 @@ public ActionResult Edit(string employeename, int id)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - The comment says it all Wordpress and Stack Overflow have URL formats that do this very well',
+  figure: "Figure: Good example - The comment says it all Wordpress and Stack Overflow have URL formats that do this very well",
   shouldDisplay: true
 } } />
 
@@ -59,13 +59,13 @@ public ActionResult Edit(string employeename, int id)
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - If the "settimeout-or-setinterval" part of th eURL changes, the page will redirect to the correct location',
+  figure: "Figure: Good example - If the \"settimeout-or-setinterval\" part of th eURL changes, the page will redirect to the correct location",
   shouldDisplay: true
 } } />

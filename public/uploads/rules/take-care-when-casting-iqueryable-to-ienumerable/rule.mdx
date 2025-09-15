@@ -51,9 +51,9 @@ public IEnumerable<Sale> GetSales() => context.Sales;
 int count4 = GetSales().Count();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - All these examples read the entire table instead of just returning the count from the database.',
+  figure: "Bad example - All these examples read the entire table instead of just returning the count from the database.",
   shouldDisplay: true
 } } />
 
@@ -70,9 +70,9 @@ public IQueryable<Sale> GetSales() => context.Sales;
 int count3 = GetSales().Count();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Only the count is returned by the query',
+  figure: "Good example - Only the count is returned by the query",
   shouldDisplay: true
 } } />
 
@@ -94,9 +94,9 @@ List<Sale> sales2 = Sales
     .ToList();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - The whole table is returned from the database and then discarded in code.',
+  figure: "Bad example - The whole table is returned from the database and then discarded in code.",
   shouldDisplay: true
 } } />
 
@@ -115,8 +115,8 @@ List<Sale> sales2 = Sales
     .ToList();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Filtering is done on the database before returning data.',
+  figure: "Good example - Filtering is done on the database before returning data.",
   shouldDisplay: true
 } } />

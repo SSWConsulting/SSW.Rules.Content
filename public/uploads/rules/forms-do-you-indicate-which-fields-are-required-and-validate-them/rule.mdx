@@ -28,11 +28,11 @@ Always indicate which fields are required. Users get frustrated when they experi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - No visual indication for required fields when a user first sees the form',
+    figure: "Bad example - No visual indication for required fields when a user first sees the form",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Required-field_Bad-example.jpg"
 />
 
@@ -42,11 +42,11 @@ A designer will know the best way to indicate required field depending on the la
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)',
+    figure: "Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Redstar_Good-example.jpg"
 />
 
@@ -58,9 +58,9 @@ You should combine these visual indicators with appropriate client and server si
 <asp:Textbox runat="Server" ID="email" />
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - No validator used, so the user won\'t know the email is required',
+  figure: "Figure: Bad example - No validator used, so the user won't know the email is required",
   shouldDisplay: true
 } } />
 
@@ -73,9 +73,9 @@ You should combine these visual indicators with appropriate client and server si
 ID="emailReqValidator" />
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - An ASP.NET validator in use, to indicate the fields required',
+  figure: "Figure: Good example - An ASP.NET validator in use, to indicate the fields required",
   shouldDisplay: true
 } } />
 
@@ -87,7 +87,7 @@ ID="emailReqValidator" />
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

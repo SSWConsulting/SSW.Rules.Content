@@ -83,11 +83,11 @@ Use this approach to prevent misunderstandings and to make sure the requester is
 
 Not done - as per our conversation, I've checked with Northwind and they're happy with the form as it is
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example - "Not done" email",
+    figure: "Good example - \"Not done\" email",
     shouldDisplay: true
-  }}
+  } }
 />
 
 ### Tip #1: Say "Done" first
@@ -117,31 +117,32 @@ As per our conversation,
 2. Take a photo of the office façade and add to the "About Us" page
 
 Bob
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Original email with the client request",
+    shouldDisplay: true
+  } }
+/>
 
-:::
-:::
-**Figure: Original email with the client request**
-
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | RE: Northwind website - Update logo + add a photo |
-
-::: email-content
-
-## Hi Bob
+<emailEmbed
+  from=""
+  to="Bob"
+  cc=""
+  bcc=""
+  subject="RE: Northwind website - Update logo + add a photo"
+  body={<>
+    ## Hi Bob
 
 I couldn't find a camera so I haven't taken the photo.
 
 Jason
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
     figure: "Bad example – It is not clear which tasks have been done and which haven't",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <emailEmbed
@@ -170,11 +171,11 @@ Jason
 
 Bob
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
     figure: "Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <emailEmbed
@@ -186,21 +187,21 @@ Bob
   body={<>
     ## Hi Bob
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo
-Done - See <u>northwind&#46;com</u>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; 1. Update the logo on Northwind website to the new logo
+Done - See &lt;u&gt;northwind&#46;com&lt;/u&gt;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; 2. Take a photo of the office façade and add to the "About Us" page
 Not Done - I couldn't find a camera
 
 ## To myself
 
 1. Action \#2 above once I get the camera from Peter tomorrow
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
     figure: "Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/indent)",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <asideEmbed
@@ -219,7 +220,7 @@ d. Give a reason if it won't be done
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -243,11 +244,11 @@ All Done - see &#123;&#123; URL &#125;&#125;
 
 Jason
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example – If multiple tasks are clearly 'done', then replying "All done" is a good way to simplify things",
+    figure: "Good example – If multiple tasks are clearly 'done', then replying \"All done\" is a good way to simplify things",
     shouldDisplay: true
-  }}
+  } }
 />
 
 ### Tip #4: Replying "Done" to huge tasks
@@ -279,7 +280,7 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -298,7 +299,7 @@ Done - used the following to get it:
 
 ```sql
 SELECT
-ProdName = CASE WHEN Download.ProdCategoryID <> ''
+ProdName = CASE WHEN Download.ProdCategoryID &lt;&gt; ''
 
 THEN ProdCategory.CategoryName
 ELSE Download.ProdName END,
@@ -306,8 +307,8 @@ Downloads = (SELECT Count(*) FROM ClientDiary
 WHERE ClientDiary.DownloadID = Download.DownloadID
 
 AND ClientDiary.CategoryID = 'DOWN'
-AND ClientDiary.DateCreated > '01/01/2010'
-AND ClientDiary.DateCreated < '01/01/2020')
+AND ClientDiary.DateCreated &gt; '01/01/2010'
+AND ClientDiary.DateCreated &lt; '01/01/2020')
 FROM
 Download
 LEFT JOIN ProdCategory
@@ -318,11 +319,11 @@ ORDER By Downloads DESC
 
 Jason
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example - This "Done" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification",
+    figure: "Good example - This \"Done\" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification",
     shouldDisplay: true
-  }}
+  } }
 />
 
 ### Tip #8: Handle an email once

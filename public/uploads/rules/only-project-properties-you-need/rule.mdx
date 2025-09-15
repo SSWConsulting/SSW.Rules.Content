@@ -21,38 +21,15 @@ isArchived: false
 When retrieving data it's much more efficient to only collect the data you need. It saves computation and IO on the database and also saves memory and CPU on the calling side.
   </>}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```cs
-IEnumerable<string> GetProductGuids(string category)
-{
-    IEnumerable<Product> products = context.Products
-        .Where(x => x.Category == category)
-        .ToList();
-
-    return products.Select(x => x.ProductGuid);
-}
-```
-
-Figure: Bad example - Retrieved the whole product record when we only needed 1 property',
+  figure: "```cs\nIEnumerable<string> GetProductGuids(string category)\n{\n    IEnumerable<Product> products = context.Products\n        .Where(x => x.Category == category)\n        .ToList();\n\n    return products.Select(x => x.ProductGuid);\n}\n```\n\nFigure: Bad example - Retrieved the whole product record when we only needed 1 property",
   shouldDisplay: true
 } } />
 
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '```cs
-IEnumerable<string> GetProductGuids(string category)
-{
-    IEnumerable<string> productGuids = context.Products
-        .Where(x => x.Category == category)
-        .Select(x => x.ProductGuid)
-        .ToList();
-
-    return productGuids;
-}
-```
-
-Figure: Good example - Retrieved only the required property.',
+  figure: "```cs\nIEnumerable<string> GetProductGuids(string category)\n{\n    IEnumerable<string> productGuids = context.Products\n        .Where(x => x.Category == category)\n        .Select(x => x.ProductGuid)\n        .ToList();\n\n    return productGuids;\n}\n```\n\nFigure: Good example - Retrieved only the required property.",
   shouldDisplay: true
 } } />

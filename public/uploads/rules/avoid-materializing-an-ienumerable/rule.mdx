@@ -30,9 +30,9 @@ foreach(var product in products.ToList())
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - This creates a list with all of the products in RAM before iterating over them. This can very easily cause an OutOfMemoryException.',
+  figure: "Figure: Bad example - This creates a list with all of the products in RAM before iterating over them. This can very easily cause an OutOfMemoryException.",
   shouldDisplay: true
 } } />
 
@@ -44,9 +44,9 @@ foreach(var product in products)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Doesn\'t force the data to be read into memory before iterating. This will behave nicely even for an infinite enumerator.',
+  figure: "Figure: Good example - Doesn't force the data to be read into memory before iterating. This will behave nicely even for an infinite enumerator.",
   shouldDisplay: true
 } } />
 

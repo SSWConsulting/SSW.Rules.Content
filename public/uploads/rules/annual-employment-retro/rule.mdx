@@ -57,24 +57,26 @@ Employee turnover can be costly and disruptive. Conducting an Annual Employment 
 
 #### Annual Employment Retro Template
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | &#123;&#123; STATE MANAGERS &#125;&#125; |
-| Subject: | Annual Employment Retro &#123;&#123; YEAR &#125;&#125; - Why did people leave? |
-
-::: email-content
-
-### Hi State Managers
+<emailEmbed
+  from=""
+  to="&#123;&#123; STATE MANAGERS &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="Annual Employment Retro &#123;&#123; YEAR &#125;&#125; - Why did people leave?"
+  body={<>
+    ## Hi State Managers
 
 1. **Review Departures**: Look at who left in the previous year on &#123;&#123; LINK TO REPORT &#125;&#125;
 2. **Consolidate Feedback**: Gather all their &#123;&#123; FEEDBACK &#125;&#125; emails to find common trends in the good and the bad
 3. **Identify Suggestions**: Determine suggestions for any changes to be made
 4. **Approval and Distribution**: Get them checked by the boss and send them out
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 ### Examples of feedback analysis
 
@@ -87,14 +89,14 @@ Employee turnover can be costly and disruptive. Conducting an Annual Employment 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Not addressing feedback can lead to recurring issues and continued high turnover rates',
+  figure: "Figure: Bad example - Not addressing feedback can lead to recurring issues and continued high turnover rates",
   shouldDisplay: true
 } } />
 
@@ -108,14 +110,14 @@ Employee turnover can be costly and disruptive. Conducting an Annual Employment 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Addressing feedback with specific actions can improve employee satisfaction and retention',
+  figure: "Figure: Good example - Addressing feedback with specific actions can improve employee satisfaction and retention",
   shouldDisplay: true
 } } />
 

@@ -29,7 +29,7 @@ isArchived: false
 Did you know that writing your own logging infrastructure code wastes time? There are awesome logging abstractions in .NET Core and .NET 5+ that you should use instead!
   </>}
 />
-<youtubeEmbed url="https://www.youtube.com/embed/pUMs8TkuMFk" description="" />
+<youtubeEmbed url="https://www.youtube.com/embed/pUMs8TkuMFk" description={""} />
 
 These abstractions allow you to:
 
@@ -47,11 +47,11 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Using Debug or Trace for logging, or writing hard coded mechanisms for logging does not allow you to configure logging at runtime',
+    figure: "Bad example - Using Debug or Trace for logging, or writing hard coded mechanisms for logging does not allow you to configure logging at runtime",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/best-trace-logging/trace-logging-bad.jpg"
 />
 
@@ -59,11 +59,11 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net',
+    figure: "Bad example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/best-trace-logging/trace-logging-bad-2.jpg"
 />
 
@@ -71,9 +71,9 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
 _logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Using templates allows persisting structured log data (DateTime is a complex object)',
+  figure: "Good example - Using templates allows persisting structured log data (DateTime is a complex object)",
   shouldDisplay: true
 } } />
 
@@ -82,10 +82,10 @@ _logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Seq provides a powerful UI for searching and viewing your structured logs',
+    figure: "Good example - Seq provides a powerful UI for searching and viewing your structured logs",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/best-trace-logging/seq2.png"
 />

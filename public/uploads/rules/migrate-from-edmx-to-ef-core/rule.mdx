@@ -79,7 +79,7 @@ Steps 6 and 7 are required when upgrading from .NET Framework to .NET 8 and the 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -101,16 +101,16 @@ using System.Data.Entity.Core.Objects;
 
 public interface ITenantDbContext
 {
-    ObjectSet<Client> Clients { get; }
+    ObjectSet&lt;Client&gt; Clients { get; }
 
     int SaveChanges();
-    Task<int> SaveChangesAsync(CancellationToken ct = default);
+    Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default);
 }
 
-/// <summary>
+/// &lt;summary&gt;
 /// Implement DbContext as internal, so that external libraries cannot access it directly.
 /// Expose functionality via interfaces instead.
-/// </summary>
+/// &lt;/summary&gt;
 internal class TenantDbContext : ITenantDbContext
 {
     private readonly DataEntities _entities;
@@ -120,24 +120,24 @@ internal class TenantDbContext : ITenantDbContext
         _entities = entities;
     }
 
-    public ObjectSet<Client> Clients => _entities.Clients;
+    public ObjectSet&lt;Client&gt; Clients =&gt; _entities.Clients;
 
-    public int SaveChanges() => _entities.SaveChanges();
-    public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
+    public int SaveChanges() =&gt; _entities.SaveChanges();
+    public Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default) =&gt; _entities.SaveChangesAsync(ct);
 }
 ```
 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.',
+  figure: "Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.",
   shouldDisplay: true
 } } />
 
@@ -149,7 +149,7 @@ internal class TenantDbContext : ITenantDbContext
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -165,11 +165,11 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Select reverse engineer tool',
+    figure: "Select reverse engineer tool",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-1.png"
 />
 
@@ -180,11 +180,11 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Data Connection',
+    figure: "Data Connection",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-2.png"
 />
 
@@ -195,11 +195,11 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Database Objects',
+    figure: "Database Objects",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-3.png"
 />
 
@@ -213,11 +213,11 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Settings for project',
+    figure: "Settings for project",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-4.png"
 />
 
@@ -228,11 +228,11 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Settings for project',
+    figure: "Settings for project",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-5.png"
 />
 
@@ -243,18 +243,18 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Settings for project',
+    figure: "Settings for project",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-6.png"
 />
 
 # Resources
 
 * How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
-* Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
+* Official porting docs to EF Core 3.1 - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
 
 # Alternative
 

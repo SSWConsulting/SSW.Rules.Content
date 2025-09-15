@@ -84,9 +84,9 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
   });
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)',
+  figure: "Good example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)",
   shouldDisplay: true
 } } />
 
@@ -98,7 +98,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -125,11 +125,11 @@ Applications require at least the LIST and GET permissions, otherwise the Key Va
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Key Vault Access Policies - Setting permissions for Applications and/or Users',
+    figure: "Key Vault Access Policies - Setting permissions for Applications and/or Users",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/access_policies.png"
 />
 
@@ -144,11 +144,11 @@ Once enabled, you can create a Key Vault Access policy to give your App Service 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies',
+    figure: "Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/identity.png"
 />
 
@@ -164,11 +164,11 @@ Adding secrets into Key Vault is easy.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Creating the SqlConnectionString secret in Key Vault.',
+    figure: "Creating the SqlConnectionString secret in Key Vault.",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/add-a-secret.png"
 />
 
@@ -177,11 +177,11 @@ Adding secrets into Key Vault is easy.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'SqlConnectionString stored in Key Vault',
+    figure: "SqlConnectionString stored in Key Vault",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/secrets.png"
 />
 
@@ -194,15 +194,15 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access',
+    figure: "Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/configuration.png"
 />
 
-<youtubeEmbed url="https://www.youtube.com/embed/ZG7IykWdlng" description="Video: Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail (8 min)" />
+<youtubeEmbed url="https://www.youtube.com/embed/ZG7IykWdlng" description={"Video: Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail (8 min)"} />
 
 ### History of Connection Strings
 
@@ -225,9 +225,9 @@ new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Historical example - Old ASP.NET 1.1 way, untyped and prone to error',
+  figure: "Historical example - Old ASP.NET 1.1 way, untyped and prone to error",
   shouldDisplay: true
 } } />
 
@@ -241,11 +241,11 @@ In .NET 2.0 we used strongly typed settings classes:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Settings in Project Properties',
+    figure: "Settings in Project Properties",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/ConnStringNET2\_Settings.jpg"
 />
 
@@ -271,8 +271,8 @@ SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Historical example - Access our connection string by strongly typed generated settings class...this is no longer the best way to do it',
+  figure: "Historical example - Access our connection string by strongly typed generated settings class...this is no longer the best way to do it",
   shouldDisplay: true
 } } />

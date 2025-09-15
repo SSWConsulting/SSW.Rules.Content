@@ -29,9 +29,9 @@ You should format "Environment.NewLine" at the end of a line.
 string message = "The database is not valid." + Environment.NewLine + "Do you want to upgrade it? ";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - "Environment.NewLine" isn\'t at the end of the line',
+  figure: "Bad example - \"Environment.NewLine\" isn't at the end of the line",
   shouldDisplay: true
 } } />
 
@@ -41,9 +41,9 @@ string message = "The database is not valid." + Environment.NewLine;
 message += "Do you want to upgrade it? ";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example -  "Environment.NewLine" is at the end of the line',
+  figure: "Good example -  \"Environment.NewLine\" is at the end of the line",
   shouldDisplay: true
 } } />
 
@@ -52,8 +52,8 @@ message += "Do you want to upgrade it? ";
 return string.Join(Environment.NewLine, paragraphs);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - "Environment.NewLine" is an exception for String.Join\',
+  figure: "Good example - \"Environment.NewLine\" is an exception for String.Join\\",
   shouldDisplay: true
 } } />

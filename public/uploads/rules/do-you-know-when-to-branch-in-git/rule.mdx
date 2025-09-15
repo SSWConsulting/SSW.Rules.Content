@@ -45,22 +45,22 @@ Using this strategy, **main** is always production-ready and deployable.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<youtubeEmbed url="https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0" description="" />
+<youtubeEmbed url="https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0" description={""} />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Committing to main',
+    figure: "Bad example - Committing to main",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/commit-master-bad.jpg"
 />
 
@@ -68,11 +68,11 @@ Using this strategy, **main** is always production-ready and deployable.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Committing to a new branch',
+    figure: "Good example - Committing to a new branch",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/commit-branch-good.jpg"
 />
 
@@ -81,11 +81,11 @@ Using this strategy, **main** is always production-ready and deployable.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Great diagram from GitHub',
+    figure: "Great diagram from GitHub",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/github-flow.jpg"
 />
 
@@ -108,9 +108,9 @@ When starting a PBI from the task board, create a branch from **main** with a de
 git branch start-stuff
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Branch name is not descriptive',
+  figure: "Figure: Bad example - Branch name is not descriptive",
   shouldDisplay: true
 } } />
 
@@ -119,9 +119,9 @@ git branch start-stuff
 git branch feature/1234-create-basic-web-application
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Branch name describes the intent of the change and follows a [branch naming convention](/branch-naming)',
+  figure: "Figure: Good example - Branch name describes the intent of the change and follows a [branch naming convention](/branch-naming)",
   shouldDisplay: true
 } } />
 
@@ -142,9 +142,9 @@ While working, commit frequently to this branch with nice, descriptive messages.
 git commit -m "Started report change"
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Commit message does not describe what was changed',
+  figure: "Figure: Bad example - Commit message does not describe what was changed",
   shouldDisplay: true
 } } />
 
@@ -153,9 +153,9 @@ git commit -m "Started report change"
 git commit -m "Added a product category filter to the timesheet summary report UI"
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Commit message describes exactly what was changed',
+  figure: "Figure: Good example - Commit message describes exactly what was changed",
   shouldDisplay: true
 } } />
 
@@ -175,7 +175,7 @@ When the change is complete, or when you want feedback on anything, open a pull 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -194,11 +194,11 @@ Once everyone is happy and everything is tested, complete the pull request, whic
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Each change is well described, small and in its own feature branch',
+    figure: "Good example - Each change is well described, small and in its own feature branch",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/GoodGitHistory.png"
 />
 
@@ -208,11 +208,11 @@ After you completed the pull request, make sure you also delete the branch that 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging',
+    figure: "Bad example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/bad-figure-stale-branches2.png"
 />
 
@@ -222,11 +222,11 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Automatically delete the branch after the pull request completion in Azure Devops',
+    figure: "Good example - Automatically delete the branch after the pull request completion in Azure Devops",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png"
 />
 
@@ -234,11 +234,11 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Set the whole project to auto-delete branch after merging in GitHub',
+    figure: "Good example - Set the whole project to auto-delete branch after merging in GitHub",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/github-settings.png"
 />
 
@@ -249,7 +249,7 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

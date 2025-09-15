@@ -31,8 +31,8 @@ The most obvious is a SQL UPDATE statement which updates a large number of rows.
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Updating a large number of rows quickly with SQL',
+  figure: "Good example - Updating a large number of rows quickly with SQL",
   shouldDisplay: true
 } } />

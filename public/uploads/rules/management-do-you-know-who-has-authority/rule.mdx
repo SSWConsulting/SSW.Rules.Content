@@ -26,20 +26,20 @@ isArchived: false
 OK, once a project gets going, you can end up dealing with many people on the client side. From the Boss to the Business Decision Maker (we call them the "Product Owner") through to Mary the receptionist (aka "users"), everyone has something to say about the software as it is being developed. However, when you are working on a Time & Materials basis in a rapid development environment with continually changing specs, you have to be certain that the work you are doing is authorised by the person who signs the cheques.
   </>}
 />
-::: email-template
-| | |
-| -------- | --- |
-| To: | John, Bob Northwind |
-| Cc: | Sophie |
-| Subject: | Changes Requested by Sophie |
-::: email-content
-(CC'ing the Product Owner Bob)
+<emailEmbed
+  from=""
+  to="John, Bob Northwind"
+  cc="Sophie"
+  bcc=""
+  subject="Changes Requested by Sophie"
+  body={<>
+    (CC'ing the Product Owner Bob)
 
-### To Myself
+## To Myself
 
 As per my conversation with Sophie, she has requested the following changes to the application: modifying the report ContractRenewal to include the "MaidenName" field from the ClientContact Table, and positioning right next to the LastName field.
 
-### Hi Bob
+## Hi Bob
 
 Please let us know ASAP if you don't want this problem fixed.
 
@@ -47,9 +47,13 @@ Thanks,
 John
 
 [www.ssw.com.au](http://www.ssw.com.au/)
-:::
-:::
-**Figure: Sample Change Request Confirmation email**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Sample Change Request Confirmation email",
+    shouldDisplay: true
+  } }
+/>
 
 So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.
 The following is the recommended approach to governing this process:

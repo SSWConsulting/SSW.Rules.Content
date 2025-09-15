@@ -44,7 +44,7 @@ To set this up you need to perform the following:
 
 4. Set the file access security on the new folders so that "Everyone" has full permissions.
 
-5. Edit the ReportServer_External/rsreportserver.config file. Update the URL node `<UrlRoot><http://xxxx:81/ReportServer></URlRoot>`
+5. Edit the ReportServer_External/rsreportserver.config file. Update the URL node `<UrlRoot>[http://xxxx:81/ReportServer](http://xxxx:81/ReportServer)</URlRoot>`
 
 6. the ReportManager_External/RSWebApplication.config file. Update the URL node `<ReportServerUrl>http://xxxx:81/ReportServer</ReportServerUrl>`
 
@@ -66,7 +66,7 @@ Add the user for these folders to have access in SQL.
 
 ### In Reporting Services
 
-1. Go to <http://localhost/reports>
+1. Go to [http://localhost/reports](http://localhost/reports)
 
 2. Click Properties -> New Role Assignment
 
@@ -85,7 +85,7 @@ Once complete, you should now have authenticated access available on the standar
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -95,11 +95,11 @@ Once complete, you should now have authenticated access available on the standar
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Create a separate virtual directory for admin access',
+    figure: "Create a separate virtual directory for admin access",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/create-separate-virtual-directory-for-admin-access/RSVirtualDirectory.gif"
 />
 

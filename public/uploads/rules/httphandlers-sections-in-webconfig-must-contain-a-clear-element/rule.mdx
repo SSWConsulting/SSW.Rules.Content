@@ -27,7 +27,7 @@ isArchived: false
 
 <introEmbed
   body={<>
-If web.config contains a `<httpHandlers>` or `<httpModules>` section, that section must contain a `<remove... />` or a `<clear />` element.
+If web.config contains a `&lt;httpHandlers&gt;` or `&lt;httpModules&gt;` section, that section must contain a `&lt;remove... /&gt;` or a `&lt;clear /&gt;` element.
 
 This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.
   </>}
@@ -47,9 +47,9 @@ This basically forces developers to explicitly enable inheritance in nested virt
 </configuration>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example',
+  figure: "Figure: Bad example",
   shouldDisplay: true
 } } />
 
@@ -70,8 +70,8 @@ This basically forces developers to explicitly enable inheritance in nested virt
 <configuration>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example',
+  figure: "Figure: Good example",
   shouldDisplay: true
 } } />
