@@ -12,7 +12,7 @@ authors:
 related:
   - generate-ui-mockups-with-ai
 created: 2025-01-23T16:56:00.000Z
-guid: dc8d2bb0-bc49-452b-9d0e-00a8d20f9e93
+guid: 411dec90-2d5e-4a66-8583-0f2247d883c6
 ---
 
 AI‑assisted tools can turn rough ideas into working demos in hours instead of weeks. They help you scaffold codebases, generate UI from prompts or designs, and wire up data so you can validate scope and risk with clients quickly.

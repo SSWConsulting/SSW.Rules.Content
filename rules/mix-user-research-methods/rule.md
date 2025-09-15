@@ -11,7 +11,7 @@ authors:
 related:
   - test-high-risk-features
   - measure-website-changes-impact
-guid: e3427c47-5871-476d-8aaf-e0968edd3cb5
+guid: 8fc0259e-f4b9-48bd-9c6c-565677b7b841
 ---
 Relying on the same user research method like only running 1-on-1 interviews leads to blind spots. Interviews are great for depth, but they don’t reveal group dynamics, cross-team dependencies, or patterns that emerge at scale.
 
