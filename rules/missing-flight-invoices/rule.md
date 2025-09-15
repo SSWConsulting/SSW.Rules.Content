@@ -40,7 +40,7 @@ If an invoice is missing, you can access the document by:
 4. Put the email address where you wish the tax invoice to be received. The tax invoice should be resent in a few seconds.
 
 ::: good
-![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds.](qantas-tax-invoice-v3.jpg)
+![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds](qantas-tax-invoice-v3.jpg)
 :::
 
 ::: info
