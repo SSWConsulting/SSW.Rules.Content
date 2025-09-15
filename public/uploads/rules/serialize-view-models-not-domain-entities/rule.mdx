@@ -30,11 +30,11 @@ When building a simple API based on Entity Framework, It can be tempting to keep
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - A naive WebAPI implementation',
+    figure: "Bad example - A naive WebAPI implementation",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/serialize-view-models-not-domain-entities/bad-webapi.png"
 />
 
@@ -51,11 +51,11 @@ Update operations can be even more problematic:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - A naive update operation',
+    figure: "Bad example - A naive update operation",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/serialize-view-models-not-domain-entities/bad-webapi-operation.png"
 />
 
@@ -86,11 +86,11 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - Update an Entity from a submitted View Model',
+    figure: "Good Example - Update an Entity from a submitted View Model",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-2.png"
 />
 
@@ -105,11 +105,11 @@ As the complexity of the code increases, it will be much easier for developers t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - A Read Operation that selects directly into a view model',
+    figure: "Good example - A Read Operation that selects directly into a view model",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-operation-2.png"
 />
 

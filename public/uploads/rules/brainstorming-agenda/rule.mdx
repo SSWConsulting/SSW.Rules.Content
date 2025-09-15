@@ -34,14 +34,14 @@ It's go time - teams have been allocated and the day has arrived.
 Ensure this is sent out to all staff months before the event to encourage ideas.
   </>}
 />
-::: email-template
-| | |
-| -------- | --- |
-| To: | &#123;&#123; ALL STAFF &#125;&#125; |
-| Subject: | 🧠⚡️ Prepare for our Brainstorming Day |
-::: email-content
-
-### Hi All
+<emailEmbed
+  from=""
+  to="&#123;&#123; ALL STAFF &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="🧠⚡️ Prepare for our Brainstorming Day"
+  body={<>
+    ## Hi All
 
 I’m really excited about our Brainstorming Day! I hope you’re all thinking about what you would like to work on.
 
@@ -71,5 +71,10 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
   * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
 
 * **6:00 pm** – 🍻 The pub!
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>

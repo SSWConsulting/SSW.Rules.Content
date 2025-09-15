@@ -38,7 +38,7 @@ One of the annoying things with SharePoint document and page libraries is that u
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -48,11 +48,11 @@ One of the annoying things with SharePoint document and page libraries is that u
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Here Greg Harris has not checked in a file',
+    figure: "Here Greg Harris has not checked in a file",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/no-checked-out-files/sp-docs.jpg"
 />
 
@@ -113,16 +113,14 @@ Learn more: [SSW.Dory](https://sswdory.com/)
 
 To make reminding users easier, we have created a [Power Automate](https://powerautomate.microsoft.com/en-au/) flow called SSW.Dory that will find checked out files and send out a notification email to all the naughty people automatically every day.
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | Dave |
-| Subject: | SSW.Dory \| 🔷 SharePoint files need your attention |
-
-::: email-content
-
-### Hi Dave
+<emailEmbed
+  from=""
+  to="Dave"
+  cc=""
+  bcc=""
+  subject="SSW.Dory \\"
+  body={<>
+    ## Hi Dave
 
 You currently have the following pages **checked out in SharePoint**:
 
@@ -132,13 +130,15 @@ You currently have the following pages **checked out in SharePoint**:
   Note: You should check in at least daily, as per rule [SSW.Rules | Do you confirm there is no checked out data?](/do-you-confirm-there-is-no-checked-out-data).
 2. Reply to this email with something like:
 
-  > ‘Done - x files checked in’
+  &gt; ‘Done - x files checked in’
 
 **Note:** See all files you have checked out at &#123;&#123; LINK TO CHECKED OUT LIST &#125;&#125;
 
 *-- Powered by Power Automate, Job: SSW.Dory*
-
-:::
-:::
-
-**Figure: An example of the reminder email that all users receive**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "An example of the reminder email that all users receive",
+    shouldDisplay: true
+  } }
+/>

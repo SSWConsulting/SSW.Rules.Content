@@ -22,9 +22,9 @@ isArchived: false
 
 <introEmbed
   body={<>
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Advantage: Simplifies ORM Mapping',
+  figure: "Advantage: Simplifies ORM Mapping",
   shouldDisplay: true
 } } />
 
@@ -41,9 +41,9 @@ When you are obtaining the OrderType for an order, you would have either:
 
 > Not great as it is not clear what the nature of the lookup table is.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Advantage: Maintains Complete Referential Integrity without the need for triggers',
+  figure: "Advantage: Maintains Complete Referential Integrity without the need for triggers",
   shouldDisplay: true
 } } />
 
@@ -54,18 +54,18 @@ If I put OrderTypeID = 10, then I will not get referential integrity errors (eve
 
 If I want to enforce referential integrity so I can only enter the correct type for my lookup table, then I would need to resort to triggers or a (fallible) coded data tier.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Advantage: You can add new columns specific to each lookup table',
+  figure: "Advantage: You can add new columns specific to each lookup table",
   shouldDisplay: true
 } } />
 
 
 For example, if a Lookup table (e.g. CustomerType) has an associated value (e.g. the field MaximumDebtAmount), we don't need to add a field that is irrelevant to all the other lookup tables. We can just add it to the individual lookup table.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Disadvantage: Multiple tables make maintenance slightly more difficult, especially when making changes directly via Management Studio',
+  figure: "Disadvantage: Multiple tables make maintenance slightly more difficult, especially when making changes directly via Management Studio",
   shouldDisplay: true
 } } />
 

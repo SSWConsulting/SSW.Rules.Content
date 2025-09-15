@@ -29,29 +29,19 @@ Updating everything manually is time consuming, and it can be easy to miss patch
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Manually checking for updates',
+    figure: "Bad example - Manually checking for updates",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/automate-patch-management/windows-update.png"
 />
 
 [WSUS](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus?WT.mc_id=WDIT-MVP-33518)is a great way to keep Microsoft operating systems and products up to date. It can be painful to manage, but with a bit of work it is a great tool. The only issue is that it cannot be used to manage any non-Microsoft apps. If your environment is big enough, you can use [Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction?WT.mc_id=WDIT-MVP-33518) (formerly SCCM) for 3rd party apps - but it is not worth setting up for smaller environments.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "okExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'OK example - WSUS is a good tool, but it only does Microsoft Updates\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/automate-patch-management/01_wsus-console.png"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"OK example - WSUS is a good tool, but it only does Microsoft Updates\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/automate-patch-management/01_wsus-console.png\"\n/>",
   shouldDisplay: true
 } } />
 
@@ -83,32 +73,9 @@ The main benefits of patch management solutions are:
 
 You should consider when to automatically install updates - of course, it needs to be a time that will cause minimal disruption, but it should also be a suitable amount of time after the updates are released in case there are any issues. Microsoft updates are released on the 2nd Tuesday of every month - known as Patch Tuesday - so you might choose to install the updates a week or two after this date.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Good example - In Patch Manager Plus, you can set the deployment date based on Patch Tuesday\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/automate-patch-management/patch-tuesday.png"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Good example - A report of installed patches\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/automate-patch-management/patch-list.png"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Good example - In Patch Manager Plus, you can set the deployment date based on Patch Tuesday\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/automate-patch-management/patch-tuesday.png\"\n/>\n\n\n<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Good example - A report of installed patches\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/automate-patch-management/patch-list.png\"\n/>",
   shouldDisplay: true
 } } />
 

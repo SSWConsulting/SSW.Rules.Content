@@ -31,11 +31,11 @@ If we want to refresh and data bind the same page from client side, we can use t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Right click the link with \_\_doPostBack event',
+    figure: "Right click the link with \\_\\_doPostBack event",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-not-use-linkbutton/RightClickLink.gif"
 />
 
@@ -44,11 +44,11 @@ If we want to refresh and data bind the same page from client side, we can use t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'New window with incorrect URL',
+    figure: "New window with incorrect URL",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-not-use-linkbutton/PostBack.gif"
 />
 
@@ -92,9 +92,9 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 <a href="javascript:__doPostBack('mUpdatePanel','');">Refresh</a>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad code',
+  figure: "Bad code",
   shouldDisplay: true
 } } />
 
@@ -103,9 +103,9 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 <input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" />
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good code',
+  figure: "Good code",
   shouldDisplay: true
 } } />
 

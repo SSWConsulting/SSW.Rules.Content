@@ -30,9 +30,9 @@ In many cases, there are legal requirements to audit all updates to financial re
 [Temporal tables](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?WT.mc_id=DP-MVP-33518) were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
 They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Pros:',
+  figure: "Pros:",
   shouldDisplay: true
 } } />
 
@@ -41,9 +41,9 @@ They offer the ability to record all the entity changes to a history table allow
 * Restore accidentally deleted records by retrieving them from the history table.
 * Retention period can be set on the history table, this can be set as frequent as 1 day.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Cons:',
+  figure: "Cons:",
   shouldDisplay: true
 } } />
 
@@ -79,11 +79,11 @@ WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.ShippersHistory));
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'New temporal table shown in SQL Management Studio.',
+    figure: "New temporal table shown in SQL Management Studio.",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-temporal-tables-to-audit-data-changes/shippers-temporal-table.png"
 />
 

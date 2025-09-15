@@ -61,11 +61,11 @@ If you have a list of things to be done, and find that your requests are **not**
 4. Make sure all the fonts are consistent
 5. Make the headings bold
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
     figure: "Bad example - One email for multiple unrelated tasks (domains vs styling)",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <emailEmbed
@@ -80,27 +80,30 @@ If you have a list of things to be done, and find that your requests are **not**
 1. Please buy the domain **Northwind.com**
 2. Migrate all the content from **Northwind.com.au** to **Northwind.com**
 3. Set up a 301 redirect from **Northwind.com.au** to **Northwind.com**
-
-:::
-:::
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Steven |
-| Subject: | Northwind website CSS fixes |
-::: email-content
-
-## Hi Steven
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
+<emailEmbed
+  from=""
+  to="Steven"
+  cc=""
+  bcc=""
+  subject="Northwind website CSS fixes"
+  body={<>
+    ## Hi Steven
 
 1. Make sure all the fonts are consistent
 2. Make the headings bold
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
     figure: "Good example - Separate emails for unrelated tasks. A few related tasks in the same email",
     shouldDisplay: true
-  }}
+  } }
 />
 
 ## Break up monster tasks
@@ -120,7 +123,7 @@ The advantages are that you get an email history for specific parts, making it e
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

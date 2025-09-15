@@ -26,11 +26,11 @@ isArchived: false
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Can you tell what is wrong with this Picture?',
+    figure: "Can you tell what is wrong with this Picture?",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true/../../assets/ShowInTaskBar.jpg"
 />
   </>}
@@ -44,7 +44,7 @@ isArchived: false
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -53,9 +53,9 @@ isArchived: false
 Dim frm as new frmCustomer frm.ShowDialog
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad Code',
+  figure: "Figure: Bad Code",
   shouldDisplay: true
 } } />
 
@@ -66,9 +66,9 @@ If your form is designed to be used modally (and thus be called using ShowDialog
 Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad Code (because this should be set in the form designer)',
+  figure: "Figure: Bad Code (because this should be set in the form designer)",
   shouldDisplay: true
 } } />
 
@@ -77,8 +77,8 @@ Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 Dim frm as new frmCustomer frm.ShowDialog
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Code (ShowInTaskbar is set in the form\'s InitializeComponents method instead)',
+  figure: "Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)",
   shouldDisplay: true
 } } />

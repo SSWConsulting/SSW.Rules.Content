@@ -31,9 +31,9 @@ Many of the databases that SSW works with make use of denormalized fields. We be
 With this example in mind, the main reasons we use denormalized fields are:
   </>}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Reducing development complexity',
+  figure: "Reducing development complexity",
   shouldDisplay: true
 } } />
 
@@ -85,32 +85,32 @@ ORDER BY Customer.CustomerID
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Performance is better for read-intensive reports',
+  figure: "Performance is better for read-intensive reports",
   shouldDisplay: true
 } } />
 
 
 Particularly when reporting on data with a cube.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'When there a multiple tables in a SQL Server view',
+  figure: "When there a multiple tables in a SQL Server view",
   shouldDisplay: true
 } } />
 
 
 They cannot be updated in one hit - they must be updated one table at a time.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'It is a built-in validation device',
+  figure: "It is a built-in validation device",
   shouldDisplay: true
 } } />
 
@@ -119,18 +119,18 @@ For example, if records are accidentally deleted directly in the database, there
 
 However, there are reasons against using denormalized fields:
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'They have to be maintained and can potentially get out of synch',
+  figure: "They have to be maintained and can potentially get out of synch",
   shouldDisplay: true
 } } />
 
 
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'They can be seen as an unnecessary waste of space',
+  figure: "They can be seen as an unnecessary waste of space",
   shouldDisplay: true
 } } />
 

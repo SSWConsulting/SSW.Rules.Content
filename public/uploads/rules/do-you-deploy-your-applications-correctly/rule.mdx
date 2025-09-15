@@ -41,11 +41,11 @@ Wise has a Dialog that prompts the user for the installation directory:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Wise Prompts the user for the installation directory and sets the path to a property in wise called "INSTALLDIR"',
+    figure: "Wise Prompts the user for the installation directory and sets the path to a property in wise called \"INSTALLDIR\"",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-deploy-your-applications-correctly/INSTALLDIR.jpg"
 />
 
@@ -102,9 +102,9 @@ oFile.Close
 this.pictureReportSample.Image = Image.FromFile(@"Reports\Images\Blank.jpg");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut',
+  figure: "Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut",
   shouldDisplay: true
 } } />
 
@@ -117,9 +117,9 @@ string appPath = Path.GetDirectoryName(appFilePath);
 this.pictureReportSample.Image = Image.FromFile(appPath + @"\Reports\Images\Blank.jpg");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown',
+  figure: "Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown",
   shouldDisplay: true
 } } />
 

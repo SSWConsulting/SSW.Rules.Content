@@ -100,9 +100,9 @@ var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Running migrations manually during startup in `program.cs`',
+  figure: "Figure: Bad example - Running migrations manually during startup in `program.cs`",
   shouldDisplay: true
 } } />
 
@@ -116,9 +116,9 @@ dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Creating and executing a migration bundle during a CICD pipeline',
+  figure: "Figure: Good example - Creating and executing a migration bundle during a CICD pipeline",
   shouldDisplay: true
 } } />
 
@@ -130,7 +130,7 @@ dotnet ef migrations bundle --self-contained --force
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

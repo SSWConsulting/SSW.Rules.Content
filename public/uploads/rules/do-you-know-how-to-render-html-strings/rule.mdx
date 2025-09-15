@@ -32,9 +32,9 @@ string message = "Hello, <b>world</b>!";
 Output: Hello, &lt;b&gt;world&lt;/b&gt;!
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - A string containing HTML tags will be encoded',
+  figure: "Figure: Bad example - A string containing HTML tags will be encoded",
   shouldDisplay: true
 } } />
 
@@ -45,9 +45,9 @@ IHtmlContent message = new HtmlString("Hello, <b>world</b>!");
 Output: Hello, <b>world</b>!
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded',
+  figure: "Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded",
   shouldDisplay: true
 } } />
 
@@ -59,7 +59,7 @@ Output: Hello, <b>world</b>!
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

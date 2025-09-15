@@ -31,9 +31,9 @@ Null-conditional operators - makes checking for null as easy as inserting a sing
 int length = customer != null && customer.name != null ? customer.name.length : 0;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Verbose and complex code checking for nulls',
+  figure: "Figure: Bad example - Verbose and complex code checking for nulls",
   shouldDisplay: true
 } } />
 
@@ -42,8 +42,8 @@ int length = customer != null && customer.name != null ? customer.name.length 
 int length = customers?.name?.length ?? 0;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Robust and easier to read code',
+  figure: "Figure: Good example - Robust and easier to read code",
   shouldDisplay: true
 } } />

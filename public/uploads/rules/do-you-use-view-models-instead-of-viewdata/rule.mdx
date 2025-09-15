@@ -48,9 +48,9 @@ public IActionResult About()
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – ViewData is being used in Action which isn’t type-safe',
+  figure: "Figure: Bad example – ViewData is being used in Action which isn’t type-safe",
   shouldDisplay: true
 } } />
 
@@ -65,14 +65,14 @@ Show data using ViewData in View:
 <h2>ViewData["Message"]</h2>
 
 <div>
-    @user.Name<br>
-    @user.Age<br>
+    @user.Name
+    @user.Age
 </div>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – Displaying not-safe data in View',
+  figure: "Figure: Bad example – Displaying not-safe data in View",
   shouldDisplay: true
 } } />
 
@@ -94,9 +94,9 @@ public IActionResult About()
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed',
+  figure: "Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed",
   shouldDisplay: true
 } } />
 
@@ -107,13 +107,13 @@ Show data using ViewModel in View:
 @model YourNamespace.ViewModels.UserViewModel
 
 <div>
-    @Model.Name<br>
-    @Model.Age<br>
+    @Model.Name
+    @Model.Age
 </div>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – Displaying safe data in View',
+  figure: "Figure: Good example – Displaying safe data in View",
   shouldDisplay: true
 } } />

@@ -34,15 +34,14 @@ Get your employees to enter [their timesheets daily](/do-you-know-when-to-enter-
 
 A deadline for submitting timesheets (Friday 12pm). The entire company is rewarded with a free lunch, and only people who missed the deadline will miss out on it.
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | All |
-| Subject: | Free Lunch |
-::: email-content
-
-Hi All,
+<emailEmbed
+  from=""
+  to="All"
+  cc=""
+  bcc=""
+  subject="Free Lunch"
+  body={<>
+    Hi All,
 
 Everyone gets a free lunch today except for the following people:
 
@@ -58,10 +57,14 @@ Here’s what we check:
 2. SugarLearning - [sugarlearning.com/SSW/Leaderboard](https://www.sugarlearning.com/SSW/Leaderboard)
 3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline.
 
-\<This email was sent as per the rule: [https://ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)\>
-
-:::
-:::
+\&lt;This email was sent as per the rule: [https://ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)&gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 **Notes:**
 

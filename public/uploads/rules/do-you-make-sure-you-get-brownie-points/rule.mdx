@@ -29,25 +29,22 @@ People are not mind-readers (unless they are telepathic!), so when you get good 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Brownie points',
+    figure: "Brownie points",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-make-sure-you-get-brownie-points/brownie-points.png"
 />
 
-::: email-template
-
-| | |
-| -------- | --- |
-| From: | Sophie Belle - SSW Developer |
-| To: | John Smith - CEO Qwerty Organization |
-| Cc: | Adam Cogan - SSW Manager |
-| Subject: | FW: .NET Development Work for Qwerty Organization by SSW |
-::: email-content
-
-### Hi John
+<emailEmbed
+  from="Sophie Belle - SSW Developer"
+  to="John Smith - CEO Qwerty Organization"
+  cc="Adam Cogan - SSW Manager"
+  bcc=""
+  subject="FW: .NET Development Work for Qwerty Organization by SSW"
+  body={<>
+    ## Hi John
 
 FYI - see the email below. As you can see, I am loved :)
 
@@ -60,7 +57,7 @@ Sophie Belle
 **From:** Amanda Panda - Qwerty Organization
 **Subject:** .NET Development Work for Qwerty Organization by SSW
 
-### Sophie
+## Sophie
 
 Thanks for the latest release.
 
@@ -69,10 +66,13 @@ It is fantastic! Thank you for all your hard work and commitment to helping impl
 Regards,
 Amanda Panda
 Qwerty Organization
-
-:::
-:::
-**Figure: Developers, when you get good feedback from anyone at the client's company, forward their comments onto the boss at the client's company and CC your manager**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Developers, when you get good feedback from anyone at the client's company, forward their comments onto the boss at the client's company and CC your manager",
+    shouldDisplay: true
+  } }
+/>
 
 > It’s not good enough just to do good work. You’ve gotta do good work and be visible.
 >

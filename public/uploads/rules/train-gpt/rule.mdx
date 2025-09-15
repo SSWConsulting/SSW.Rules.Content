@@ -1,26 +1,24 @@
 ---
+seoDescription: Train your GPT model to unlock its full potential and generate accurate responses for complex or highly specific use cases.
 type: rule
 title: Do you know how to train GPT?
 uri: train-gpt
 authors:
   - title: Calum Simpson
-    url: 'https://www.ssw.com.au/people/calum-simpson'
+    url: https://www.ssw.com.au/people/calum-simpson
   - title: Piers Sinclair
-    url: 'https://www.ssw.com.au/people/piers-sinclair'
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Jack Reimers
-    url: 'https://www.ssw.com.au/people/jack-reimers'
+    url: https://www.ssw.com.au/people/jack-reimers
+created: 2023-07-11T05:29:16.000Z
+guid: c655297f-eeea-41ca-beda-b1f9c27c7cdd
 redirects:
   - train-gpt-3
-guid: c655297f-eeea-41ca-beda-b1f9c27c7cdd
-seoDescription: >-
-  Train your GPT model to unlock its full potential and generate accurate
-  responses for complex or highly specific use cases.
-created: 2023-07-11T05:29:16.000Z
-createdBy: Seth Daily [SSW]
-createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 lastUpdated: 2024-09-04T03:55:39.000Z
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Seth Daily [SSW]
+createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 isArchived: false
 ---
 
@@ -28,15 +26,10 @@ isArchived: false
   body={<>
 GPT is an awesome product that can do a lot out-of-the-box. However, sometimes that out-of-the-box model doesn't do what you need it to do.
 
-test content change in staging
-
 In that case, you need to provide the model with more training data, which can be done in a couple of ways.
   </>}
 />
 Usually, for common scenarios GPT will already be adequate, but for more complex or highly specific use cases it will not have the required training to output what you need.
-
-
-Manual Modify
 
 ### 1. System Prompt
 
@@ -67,12 +60,11 @@ For example, if you want to build an app that outputs SSW rules based on a title
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure:
-      "Bad example - The untrained GPT model doesn't know what format to create a rule in",
+    figure: "Bad example - The untrained GPT model doesn't know what format to create a rule in",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/train-gpt/untrainedgpt3badexample.png.png"
 />
 
@@ -80,12 +72,11 @@ For example, if you want to build an app that outputs SSW rules based on a title
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure:
-      "Good example - The trained GPT model knows how to format the rule, and the style rules are written in",
+    figure: "Good example - The trained GPT model knows how to format the rule, and the style rules are written in",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/train-gpt/trainedgpt3goodexample.png"
 />
 

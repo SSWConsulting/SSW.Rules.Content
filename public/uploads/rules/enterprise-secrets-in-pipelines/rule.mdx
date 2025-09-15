@@ -32,19 +32,9 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ## Scenario: Every time a new repository is set up, developers manually add secrets to it.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Secrets added to each repository\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/enterprise-secrets-in-pipelines/repo-secrets.png"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Secrets added to each repository\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/enterprise-secrets-in-pipelines/repo-secrets.png\"\n/>",
   shouldDisplay: true
 } } />
 
@@ -57,19 +47,9 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "okExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Secrets added to the GitHub organization\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/enterprise-secrets-in-pipelines/org-secrets.png"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Secrets added to the GitHub organization\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/enterprise-secrets-in-pipelines/org-secrets.png\"\n/>",
   shouldDisplay: true
 } } />
 
@@ -124,9 +104,9 @@ jobs:
         run: az logout
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "okExample",
-  figure: 'Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization',
+  figure: "Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization",
   shouldDisplay: true
 } } />
 
@@ -141,19 +121,9 @@ jobs:
 
 ## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/enterprise-secrets-in-pipelines/enterprise-secrets.jpg"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/enterprise-secrets-in-pipelines/enterprise-secrets.jpg\"\n/>",
   shouldDisplay: true
 } } />
 

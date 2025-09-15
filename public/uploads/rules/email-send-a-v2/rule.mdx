@@ -53,7 +53,7 @@ Having an entire new version of an email is important as it:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -85,7 +85,7 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -95,26 +95,9 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
   body={<>
     **Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Bad example - Outlook\\'s \\'Resend This Message\\' feature is no longer recommended\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/email-send-a-v2/microsoftteams-image.png"
-/>
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: \'XXX\',
-    shouldDisplay: false
-  }}
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Bad example - Outlook's 'Resend This Message' feature is no longer recommended\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/email-send-a-v2/microsoftteams-image.png\"\n/>\n  </>}\n  figureEmbed={{\n    preset: \"default\",\n    figure: \"XXX\",\n    shouldDisplay: false\n  }}\n/>",
   shouldDisplay: true
 } } />
 
@@ -137,11 +120,11 @@ Dave
 
 &#123;&#123; HISTORY OF THE THREAD, EXCEPT THE PREVIOUS VERSION WITH MISTAKE(S) &#125;&#125;
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
     figure: "Good example - Sending a 'v2' when you need to make an update",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <asideEmbed
@@ -151,7 +134,7 @@ Dave
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

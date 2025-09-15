@@ -39,11 +39,11 @@ Managing additional work requests can reduce the adverse impact on estimates and
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Only if it\'s life and death does it get added "in this Sprint"',
+    figure: "Only if it's life and death does it get added \"in this Sprint\"",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/triaging-do-you-correctly-triage-additional-item-requests/SuccessfulProjects\_Triage.jpg"
 />
 
@@ -64,7 +64,7 @@ The first step is to prioritize the new work item.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -90,20 +90,22 @@ A client may request a small feature (e.g. changing the sort order of a combo-bo
 
 If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/inform-clients-about-estimates-overrun).
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | Dave |
-| Subject: | Northwind - Client List for Administrators  |
-::: email-content
-
-### Hi Dave
+<emailEmbed
+  from=""
+  to="Dave"
+  cc=""
+  bcc=""
+  subject="Northwind - Client List for Administrators"
+  body={<>
+    ## Hi Dave
 
 1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization
 2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc
 3. Please use the text Ascending instead of "smallest to Largest" and Descending for "Largest to Smallest"
-
-:::
-:::
-**Figure: The above email sample from a customer will, by default, go into a future Sprint, not the current**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "The above email sample from a customer will, by default, go into a future Sprint, not the current",
+    shouldDisplay: true
+  } }
+/>

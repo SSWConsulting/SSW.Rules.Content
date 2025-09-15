@@ -29,7 +29,7 @@ isArchived: true
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -51,25 +51,27 @@ Register yourself at Meet Scheduler before you can use this feature.
 
 Open an email... not an appointment!
 
-::: email-template
-|          |     |
-| -------- | --- |
-| To:      | Adam |
-| Cc:      | Cortana |
-| Subject: | Talk about Northwind project |
-::: email-content
-
-### Hi Adam
+<emailEmbed
+  from=""
+  to="Adam"
+  cc="Cortana"
+  bcc=""
+  subject="Talk about Northwind project"
+  body={<>
+    ## Hi Adam
 
 We need to talk about Northwind project.
 
 --
 
-<mark>Cortana, schedule a meeting.</mark>
-
-:::
-:::
-**Figure: after your message, add some request to Cortana as you would a PA**
+&lt;mark&gt;Cortana, schedule a meeting.&lt;/mark&gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "after your message, add some request to Cortana as you would a PA",
+    shouldDisplay: true
+  } }
+/>
 
 Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.
 
@@ -78,11 +80,11 @@ Cortana then handles all the back-and-forth emails to find a time when everyone 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Cortana will find a time that suits everyone and send the appointment',
+    figure: "Cortana will find a time that suits everyone and send the appointment",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/microsoft-cortana-scheduler/confirmation.jpg"
 />
 
@@ -95,11 +97,11 @@ To make it easier to add Cortana to your emails, create a Contact.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Cortana added as a contact',
+    figure: "Cortana added as a contact",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/microsoft-cortana-scheduler/CortanaContact.jpg"
 />
 
@@ -110,10 +112,10 @@ To make it easier to add Cortana to your emails, create a Contact.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Microsoft Scheduler – Fully works on mobile phone',
+    figure: "Microsoft Scheduler – Fully works on mobile phone",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/microsoft-cortana-scheduler/cortana-scheduler-mobile.jpg"
 />

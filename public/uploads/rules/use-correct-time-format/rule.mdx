@@ -27,7 +27,7 @@ Clear, unambiguous dates and times prevent missed meetings, costly travel mistak
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -43,11 +43,11 @@ People in different regions format the date in different ways:
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: '10/05/25 reads differently to Aussie, American and Chinese',
+    figure: "10/05/25 reads differently to Aussie, American and Chinese",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-correct-time-format/image-use-correct-time-format-1.png"
 />
 
@@ -62,13 +62,13 @@ This is why you should avoid numeric-only formats... they can cause major confus
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Use slashes on their own, it’s ambiguous',
+  figure: "Bad example - Use slashes on their own, it’s ambiguous",
   shouldDisplay: true
 } } />
 
@@ -80,13 +80,13 @@ This is why you should avoid numeric-only formats... they can cause major confus
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Use "DD MMM YYYY" and include the abbreviated day of the week',
+  figure: "Good example - Use \"DD MMM YYYY\" and include the abbreviated day of the week",
   shouldDisplay: true
 } } />
 
@@ -99,18 +99,19 @@ Use valid formats to avoid confusion - both 24-hour and 12-hour formats are univ
   variant="greybox"
   body={<>
     
-* The user group will start at 18:00 tomorrow (24-hour format)
-* The user group will start at 6 PM tomorrow (12-hour format)
+* The user group will start at 6 (is this AM or PM?)
+* The user group will start at 18 PM (invalid format)
+* The user group will start at 6.00 PM (use of dot)
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
-  preset: "goodExample",
-  figure: 'Good example - Correct formatting for time',
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - Incorrect or ambiguous times",
   shouldDisplay: true
 } } />
 
@@ -119,19 +120,18 @@ Use valid formats to avoid confusion - both 24-hour and 12-hour formats are univ
   variant="greybox"
   body={<>
     
-* The user group will start at 6 (is this AM or PM?)
-* The user group will start at 18 PM (invalid format)
-* The user group will start at 6.00 PM (use of dot)
+* The user group will start at 18:00 tomorrow (24-hour format)
+* The user group will start at 6 PM tomorrow (12-hour format)
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
-<figureEmbed figureEmbed={{
-  preset: "badExample",
-  figure: 'Bad example - Incorrect or ambiguous times',
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Correct formatting for time",
   shouldDisplay: true
 } } />
 
@@ -145,11 +145,11 @@ Avoid the 12 PM / 12 PM trap.
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Will you attend this event on the night of the 14th or the 15th?',
+    figure: "Will you attend this event on the night of the 14th or the 15th?",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-correct-time-format/image-use-correct-time-format-2.png"
 />
 

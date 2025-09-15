@@ -37,7 +37,7 @@ However, when not structured properly, it can lead to parsing errors, inconsiste
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -59,9 +59,9 @@ title+author: My Article by John
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies',
+  figure: "Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies",
   shouldDisplay: true
 } } />
 
@@ -74,9 +74,9 @@ date: 2023-10-31
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata',
+  figure: "Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata",
   shouldDisplay: true
 } } />
 
@@ -97,9 +97,9 @@ authors: John Doe, Jane Smith, Bob Johnson
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging',
+  figure: "Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging",
   shouldDisplay: true
 } } />
 
@@ -115,9 +115,9 @@ authors:
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently',
+  figure: "Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently",
   shouldDisplay: true
 } } />
 
@@ -138,9 +138,9 @@ auth: Bob Northwind
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Shortened or unclear keys can lead to confusion',
+  figure: "Figure: Bad example - Shortened or unclear keys can lead to confusion",
   shouldDisplay: true
 } } />
 
@@ -154,9 +154,9 @@ author: Bob Northwind
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with',
+  figure: "Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with",
   shouldDisplay: true
 } } />
 
@@ -177,9 +177,9 @@ published: "yes"
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Ambiguous datatypes can lead to parsing errors',
+  figure: "Figure: Bad example - Ambiguous datatypes can lead to parsing errors",
   shouldDisplay: true
 } } />
 
@@ -193,9 +193,9 @@ published: true
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Explicit datatypes ensure accurate data representation and extraction',
+  figure: "Figure: Good example - Explicit datatypes ensure accurate data representation and extraction",
   shouldDisplay: true
 } } />
 
@@ -216,9 +216,9 @@ author: <strong>Bob Northwind</strong>
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues',
+  figure: "Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues",
   shouldDisplay: true
 } } />
 
@@ -243,8 +243,8 @@ metadata:
 –––
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering',
+  figure: "Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering",
   shouldDisplay: true
 } } />

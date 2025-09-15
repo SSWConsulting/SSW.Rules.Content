@@ -33,11 +33,11 @@ Date formats should always be kept consistent across applications. More importan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Operating System\'s Regional Settings',
+    figure: "Operating System's Regional Settings",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/operatingsystem-language-setting.png"
 />
 
@@ -45,11 +45,11 @@ Date formats should always be kept consistent across applications. More importan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Screens with inconsistent date formats',
+    figure: "Bad example - Screens with inconsistent date formats",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/../../assets/BadExampleDP.gif"
 />
 
@@ -57,11 +57,11 @@ Date formats should always be kept consistent across applications. More importan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Screens with consistent date formats',
+    figure: "Good example - Screens with consistent date formats",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/../../assets/GoodExampleDP.gif"
 />
 
@@ -71,9 +71,9 @@ The best way to do this in your code is to grab the culture information from the
 startTimeTextBox.Text = resultResults.StartTime.ToString("dd/MM/yyyy hh:mm:ss");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Using hard coded formatting string',
+  figure: "Figure: Bad example - Using hard coded formatting string",
   shouldDisplay: true
 } } />
 
@@ -88,9 +88,9 @@ Public initialCulture As CultureInfo
 txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialCulture.DateTimeFormat)
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Using culture info to format datetime',
+  figure: "Figure: Good example - Using culture info to format datetime",
   shouldDisplay: true
 } } />
 
@@ -106,11 +106,11 @@ For example, Power BI is date format agnostic and will honor the setting in your
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Date format incorrect due to unmodified web page language settings',
+    figure: "Date format incorrect due to unmodified web page language settings",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/PowerBI-wrong-date-format.png"
 />
 
@@ -121,11 +121,11 @@ Go to **Browser Settings | Language | Select English (Australia)** as the top pr
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Set English (Australia) as the top priority in the browser language settings',
+    figure: "Set English (Australia) as the top priority in the browser language settings",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/browser-language-setting.png"
 />
 

@@ -38,9 +38,9 @@ Marshal.StructureToPtr (scopeInitInfo[0], refScopeInitInfo,true);
 Marshal.StructureToPtr(scopeInitInfo[1], (IntPtr)((int)refScopeInitInfo + Marshal.SizeOf(typeof(DSOP_SCOPE_INIT_INFO))), true);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - The code above always gets crash in x64 platform, because of an integer overflow and result in a segmentation fault in 64 bits.',
+  figure: "Bad example - The code above always gets crash in x64 platform, because of an integer overflow and result in a segmentation fault in 64 bits.",
   shouldDisplay: true
 } } />
 
@@ -55,9 +55,9 @@ int offset = scopeInitInfoSize;
 IntPtr scopeInitInfo = (IntPtr)(refScopeInitInfo.ToInt64() + offset);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - The Directory Object Picker dialog works on both x64 and x86 platforms well when using the good code above.',
+  figure: "Good example - The Directory Object Picker dialog works on both x64 and x86 platforms well when using the good code above.",
   shouldDisplay: true
 } } />
 
@@ -66,11 +66,11 @@ IntPtr scopeInitInfo = (IntPtr)(refScopeInitInfo.ToInt64() + offset);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Calling the Directory Object Picker dialog causes crash on x64 platform when using the bad code above',
+    figure: "Bad example - Calling the Directory Object Picker dialog causes crash on x64 platform when using the bad code above",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms/crash.jpg"
 />
 
@@ -78,10 +78,10 @@ IntPtr scopeInitInfo = (IntPtr)(refScopeInitInfo.ToInt64() + offset);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - The Directory Object Picker dialog works on both x64 and x86 platforms well when using the good code above',
+    figure: "Good example - The Directory Object Picker dialog works on both x64 and x86 platforms well when using the good code above",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms/worknormal.jpg"
 />

@@ -31,9 +31,9 @@ When you need to create a new line in your string, make sure you use Environment
 string strExample = "This is a very long string that is \r\n not properly implementing a new line.";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - The string has implemented a manual carriage return line feed pair `\r\n`',
+  figure: "Bad example - The string has implemented a manual carriage return line feed pair `\\r\\n`",
   shouldDisplay: true
 } } />
 
@@ -43,9 +43,9 @@ string strExample = "This is a very long string that is " + Environment.NewLine 
 		 " properly implementing a new line.";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'OK example - The new line is created with Enviroment.NewLine (but strings are immutable)',
+  figure: "OK example - The new line is created with Enviroment.NewLine (but strings are immutable)",
   shouldDisplay: true
 } } />
 
@@ -58,8 +58,8 @@ example.AppendLine("This is a very long string that is ");
 example.Append(" properly implementing a new line.");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - The new line is created by the StringBuilder and has better memory utilisation',
+  figure: "Good example - The new line is created by the StringBuilder and has better memory utilisation",
   shouldDisplay: true
 } } />

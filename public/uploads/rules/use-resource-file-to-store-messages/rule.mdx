@@ -29,9 +29,9 @@ All messages are stored in one central place so it's easy to reuse. Furthermore,
 Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Write(HelloWorld)Console.Read() End Sub End Module
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example of a constant message',
+  figure: "Bad example of a constant message",
   shouldDisplay: true
 } } />
 
@@ -42,11 +42,11 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Saving constant message in Resource',
+    figure: "Saving constant message in Resource",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-resource-file-to-store-messages/BetterCode_ConstantMessages.gif"
 />
 :::
@@ -55,8 +55,8 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example of a constant message',
+  figure: "Good example of a constant message",
   shouldDisplay: true
 } } />

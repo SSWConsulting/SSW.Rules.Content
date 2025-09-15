@@ -32,9 +32,9 @@ if (A is null || (A.PropertyA == SOME_CONSTANT && B))
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Vulnerable to race condition',
+  figure: "Figure: Bad example - Vulnerable to race condition",
   shouldDisplay: true
 } } />
 
@@ -52,8 +52,8 @@ if (A is null || (copyA == SOME_CONSTANT && B))
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Local copy to resolve race condition',
+  figure: "Figure: Good example - Local copy to resolve race condition",
   shouldDisplay: true
 } } />

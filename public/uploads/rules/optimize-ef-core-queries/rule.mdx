@@ -40,7 +40,7 @@ foreach (var item in items)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits',
+    figure: "Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits",
     shouldDisplay: true
   }}
 />
@@ -59,7 +59,7 @@ context.SaveChangesAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Using `AddRangeAsync()` minimizes database calls and improves performance',
+    figure: "Good example – Using `AddRangeAsync()` minimizes database calls and improves performance",
     shouldDisplay: true
   }}
 />
@@ -87,7 +87,7 @@ foreach (var id in ids)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Each iteration performs a separate database query, leading to N queries',
+    figure: "Bad example – Each iteration performs a separate database query, leading to N queries",
     shouldDisplay: true
   }}
 />
@@ -109,7 +109,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Fetches all required records in one query, reducing database load',
+    figure: "Good example – Fetches all required records in one query, reducing database load",
     shouldDisplay: true
   }}
 />
@@ -135,7 +135,7 @@ for (int i = 0; i < ids.Count; i += batchSize)
   </>}
   figureEmbed={{
     preset: "okExample",
-    figure: 'OK example – Processes data in batches to balance efficiency and memory usage',
+    figure: "OK example – Processes data in batches to balance efficiency and memory usage",
     shouldDisplay: true
   }}
 />
@@ -159,7 +159,7 @@ var entities = context.MyEntities.ToListAsync();
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Unnecessary tracking increases memory usage',
+    figure: "Bad example – Unnecessary tracking increases memory usage",
     shouldDisplay: true
   }}
 />
@@ -175,7 +175,7 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage',
+    figure: "Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage",
     shouldDisplay: true
   }}
 />
@@ -187,7 +187,7 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -213,7 +213,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance',
+    figure: "Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance",
     shouldDisplay: true
   }}
 />
@@ -233,7 +233,7 @@ context.SaveChangesAsync();
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Updates all entities in memory first, then commits changes in a single transaction',
+    figure: "Good example – Updates all entities in memory first, then commits changes in a single transaction",
     shouldDisplay: true
   }}
 />
@@ -261,7 +261,7 @@ foreach (var entity in entities)
   </>}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead',
+    figure: "Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead",
     shouldDisplay: true
   }}
 />
@@ -291,7 +291,7 @@ catch
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability',
+    figure: "Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability",
     shouldDisplay: true
   }}
 />
@@ -328,7 +328,7 @@ catch
   </>}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal',
+    figure: "Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal",
     shouldDisplay: true
   }}
 />

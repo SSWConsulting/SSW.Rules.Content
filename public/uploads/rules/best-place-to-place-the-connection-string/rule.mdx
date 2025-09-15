@@ -9,7 +9,7 @@ authors:
 created: 2024-03-11T17:54:56.000Z
 archivedreason: |
   Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.
-guid: 536140f1-c685-487e-8f9a-8cde0453f5a7
+guid: 21370ad5-406f-4830-9b86-65db6ce19214
 lastUpdated: 2024-06-08T03:27:17.000Z
 lastUpdatedBy: Brady Stroud [SSW]
 lastUpdatedByEmail: bradystroud@ssw.com.au
@@ -27,9 +27,9 @@ The best place to put the connection string is in the Web.Config file.That makes
 string cnnString = "data source=(local); integrated security=SSPI; persist security info=False; pooling=False; initial catalog=Northwind2";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Using magic strings',
+  figure: "Bad example - Using magic strings",
   shouldDisplay: true
 } } />
 
@@ -40,9 +40,9 @@ and observe the following code which is simple and easy to read:
 string cnnString = LinqToNorthwind.Properties.Settings.Default.NorthwindEFConnectionString;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Strongly typed connection string',
+  figure: "Good example - Strongly typed connection string",
   shouldDisplay: true
 } } />
 
@@ -60,8 +60,8 @@ private void Form1_Load(object sender, System.EventArgs e)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Using strongly typed connection string',
+  figure: "Good example - Using strongly typed connection string",
   shouldDisplay: true
 } } />

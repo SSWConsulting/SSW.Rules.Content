@@ -31,9 +31,9 @@ Hard coded strings when referencing property and variable names can be problemat
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad Example - Hardcoding a reference to a property',
+  figure: "Figure: Bad Example - Hardcoding a reference to a property",
   shouldDisplay: true
 } } />
 
@@ -42,8 +42,8 @@ Hard coded strings when referencing property and variable names can be problemat
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good Example - Using nameof() operator to avoid hardcoded strings',
+  figure: "Figure: Good Example - Using nameof() operator to avoid hardcoded strings",
   shouldDisplay: true
 } } />

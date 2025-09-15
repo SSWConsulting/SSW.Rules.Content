@@ -37,9 +37,9 @@ As you can see, when in the past you would have to write the following code:
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Amount of boiler plate code for a simple task',
+  figure: "Figure: Bad example - Amount of boiler plate code for a simple task",
   shouldDisplay: true
 } } />
 
@@ -50,22 +50,9 @@ Now you only have write:
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - The same functionality as the Bad Example in a single line of code
- :::
-
-The benefit of this change is when refactoring our code, we don\'t need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.
-
-2. S**tring Interpolation** - Greatly reduces the amount of boilerplate code required when working with strings
-
-Formatting strings on the fly was previously a task which required a stack of boilerplate code. In the Visual Studio 2015, we can use the smart String Interpolation feature. Not only does this feature reduce the amount of code we have to write, it also improves code readability.
-
-For example, before C# 6, we would write:
-
-```csharp
-var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
-```',
+  figure: "Figure: Good example - The same functionality as the Bad Example in a single line of code\n :::\n\nThe benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.\n\n2. S**tring Interpolation** - Greatly reduces the amount of boilerplate code required when working with strings\n\nFormatting strings on the fly was previously a task which required a stack of boilerplate code. In the Visual Studio 2015, we can use the smart String Interpolation feature. Not only does this feature reduce the amount of code we have to write, it also improves code readability.\n\nFor example, before C# 6, we would write:\n\n```csharp\nvar s = String.Format(\"Profit is ${0} this year\", p.TotalEarnings - p.Totalcost);\n```",
   shouldDisplay: true
 } } />
  bad
@@ -78,9 +65,9 @@ Now we are able to:
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Very human readable code',
+  figure: "Figure: Good example - Very human readable code",
   shouldDisplay: true
 } } />
 
@@ -95,9 +82,9 @@ For example, previously we would of had to write a chunk of code to achieve a si
 if(customers.Length != null) { int length = customers.Length; } else { int length = 0; }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Fragile code',
+  figure: "Figure: Bad example - Fragile code",
   shouldDisplay: true
 } } />
 
@@ -108,9 +95,9 @@ Now we are able to replace that chunk of code with a single line
 int length = customers?.Length ?? 0;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Robust code',
+  figure: "Figure: Good example - Robust code",
   shouldDisplay: true
 } } />
 

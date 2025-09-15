@@ -30,11 +30,11 @@ Client-side validation provides a great user experience but this must always be 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Client-side validation does not provide effective data security for your Web API endpoints',
+    figure: "Client-side validation does not provide effective data security for your Web API endpoints",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-fluent-validation/cartoon-client-side-validation.jpg"
 />
 
@@ -70,9 +70,9 @@ public class CustomerValidator: AbstractValidator<Customer> {
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.',
+  figure: "Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.",
   shouldDisplay: true
 } } />
 
@@ -83,9 +83,9 @@ public class CustomerValidator: AbstractValidator<Customer> {
 RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good Example: Conditional validation with the .When() clause allows for complex logic such as “Discount number cannot be 0 if the HasDiscount boolean is true”',
+  figure: "Good Example: Conditional validation with the .When() clause allows for complex logic such as “Discount number cannot be 0 if the HasDiscount boolean is true”",
   shouldDisplay: true
 } } />
 
@@ -98,8 +98,8 @@ RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good Example: This is the JSON returned from Fluent Validation when a validation rule fails. This is exactly the same format as what would be returned by the built-in ModelState validation.',
+  figure: "Good Example: This is the JSON returned from Fluent Validation when a validation rule fails. This is exactly the same format as what would be returned by the built-in ModelState validation.",
   shouldDisplay: true
 } } />

@@ -26,35 +26,9 @@ While using a regular `useEffect` to run when a component is loaded to fetch dat
 />
 Below is an example of a standard data fetch in React:
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '```tsx
-
-const Component = () => {
-  const [data, setData] = useState({});
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos/1")
-      .then(res => res.json())
-      .then(json => {
-        setData(json);
-        setLoading(false);
-      })
-  }, [])
-
-  return (
-    {loading
-      ? <> {/* Display data here */} </>
-      : <p>Loading...</p>
-    }
-  )
-}
-
-
-```
-
-**Figure: The traditional way of fetching data in React**',
+  figure: "```tsx\n\nconst Component = () => {\n  const [data, setData] = useState({});\n  const [loading, setLoading] = useState(true);\n\n  useEffect(() => {\n    fetch(\"https://jsonplaceholder.typicode.com/todos/1\")\n      .then(res => res.json())\n      .then(json => {\n        setData(json);\n        setLoading(false);\n      })\n  }, [])\n\n  return (\n    {loading\n      ? <> {/* Display data here */} </>\n      : <p>Loading...</p>\n    }\n  )\n}\n\n\n```\n\n**Figure: The traditional way of fetching data in React**",
   shouldDisplay: true
 } } />
 

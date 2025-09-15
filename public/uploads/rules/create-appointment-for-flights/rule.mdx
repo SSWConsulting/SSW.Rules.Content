@@ -41,11 +41,11 @@ This is how you should create an appointment in the Outlook calendar for flights
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - create two appointments for connecting flights.',
+    figure: "Good Example - create two appointments for connecting flights.",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/create-appointment-for-flights/v2-creating-two-appointments-for-connecting-flights.png"
 />
 
@@ -53,27 +53,24 @@ This is how you should create an appointment in the Outlook calendar for flights
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad Example - only one appointment for connecting flights that has two legs.',
+    figure: "Bad Example - only one appointment for connecting flights that has two legs.",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/create-appointment-for-flights/only-one-appointment-for-connecting-flights.png"
 />
 
 Here is a template to follow:
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | &#123;&#123; RELEVANT PARTIES &#125;&#125; |
-| Event Name: | ✈️ &#123;&#123; PERSON &#125;&#125; - &#123;&#123; FROM -> TO (e.g. SYD -> BNE) &#125;&#125; - &#123;&#123; FLIGHT NUMBER &#125;&#125; - &#123;&#123; DATE AND TIME &#125;&#125; |
-| Location: | &#123;&#123; TERMINAL NUMBER &#125;&#125;  |
-| Status: | 🔴 Busy  |
-::: email-content
-
-### Hi &#123;&#123; RELEVANT PARTIES &#125;&#125;
+<emailEmbed
+  from=""
+  to="&#123;&#123; RELEVANT PARTIES &#125;&#125;"
+  cc=""
+  bcc=""
+  subject=""
+  body={<>
+    ## Hi &#123;&#123; RELEVANT PARTIES &#125;&#125;
 
 I am flying to &#123;&#123; DESTINATION &#125;&#125;
 Booking number: &#123;&#123; BOOKING NUMBER &#125;&#125;
@@ -92,7 +89,11 @@ This flight cost is &#123;&#123; COST &#125;&#125;
 
 On arrival, I will get a train to my accommodation.
 
-\< This is as per [https://www.ssw.com.au/rules/create-appointment-for-flights](/create-appointment-for-flights) \>
-
-:::
-:::
+\&lt; This is as per [https://www.ssw.com.au/rules/create-appointment-for-flights](/create-appointment-for-flights) &gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>

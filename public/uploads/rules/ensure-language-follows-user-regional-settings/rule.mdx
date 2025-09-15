@@ -34,11 +34,11 @@ Now you can specify this on either the culture sensitive controls or the whole r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - \'Language\' setting is set to a specific culture',
+    figure: "Bad example - 'Language' setting is set to a specific culture",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage4.jpg"
 />
 
@@ -46,11 +46,11 @@ Now you can specify this on either the culture sensitive controls or the whole r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - \'Language\' setting is set to \'=User!Language\' to detect user\'s culture automatically',
+    figure: "Good example - 'Language' setting is set to '=User!Language' to detect user's culture automatically",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage3.jpg"
 />
 
@@ -58,11 +58,11 @@ Now you can specify this on either the culture sensitive controls or the whole r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - The data respects user\'s Language preference of IE in this case English (Australia)',
+    figure: "Good example - The data respects user's Language preference of IE in this case English (Australia)",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage1.jpg"
 />
 
@@ -70,11 +70,11 @@ Now you can specify this on either the culture sensitive controls or the whole r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Likewise the data also respects user\'s Language preference of IE in this case Chinese (China)',
+    figure: "Good example - Likewise the data also respects user's Language preference of IE in this case Chinese (China)",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage2.jpg"
 />
 
@@ -91,7 +91,7 @@ The reason is the report doesn't know which language to choose. The workaround i
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -106,8 +106,8 @@ Public Function Language()
 End Function
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Use above function to replace your reference to "Report.User!Language"/. It allows the subscription to work correctly',
+  figure: "Good example - Use above function to replace your reference to \"Report.User!Language\"/. It allows the subscription to work correctly",
   shouldDisplay: true
 } } />

@@ -38,11 +38,11 @@ For instance in a recipe book that contains many types of dishes, you might want
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Typical book index',
+    figure: "Typical book index",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/sql-real-world-indexes/index.png"
 />
 
@@ -52,9 +52,9 @@ FROM Badges
 WHERE Name = 'John Doe';
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example: Using a table scan - the DB needs to look at every row to find the result',
+  figure: "Bad example: Using a table scan - the DB needs to look at every row to find the result",
   shouldDisplay: true
 } } />
 
@@ -68,9 +68,9 @@ FROM Badges
 WHERE Name = 'John Doe';
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example: Using an index - DB can quickly find the result',
+  figure: "Good example: Using an index - DB can quickly find the result",
   shouldDisplay: true
 } } />
 

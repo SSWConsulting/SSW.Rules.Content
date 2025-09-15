@@ -40,23 +40,21 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | Adam, Dave, Denise |
-| Subject: | Meet with the SSW software architects and talk about CodeAuditor |
-| When: | Friday, 30 July 2022 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney |
-| Where: | SSW Sydney Boardroom |
-::: email-content
+<emailEmbed
+  from=""
+  to="Adam, Dave, Denise"
+  cc=""
+  bcc=""
+  subject="Meet with the SSW software architects and talk about CodeAuditor"
+  body={<>
+    (copy of email)
 
-(copy of email)
-
-### Hi Adam,
+## Hi Adam,
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements
 
@@ -65,8 +63,11 @@ I am the Scrum Master of the upcoming Northwind project and I’d like to unders
 
 Sophie
 
-<This email was sent as per [https://www.ssw.com.au/rules/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment)>
-
-:::
-:::
-**Figure: Calendar appointment with tasks should be copied from an email, so the items assigned get read via the email (better visibility), and also the email can get replied to with a ‘done’**
+&lt;This email was sent as per [https://www.ssw.com.au/rules/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment)&gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Calendar appointment with tasks should be copied from an email, so the items assigned get read via the email (better visibility), and also the email can get replied to with a ‘done’",
+    shouldDisplay: true
+  } }
+/>

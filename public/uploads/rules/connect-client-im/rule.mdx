@@ -27,11 +27,11 @@ Effective communication with your clients on Microsoft Teams builds credibility,
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Keeping Teams at the centre of client communication',
+    figure: "Keeping Teams at the centre of client communication",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/connect-client-im/Teams-image.png"
 />
   </>}
@@ -60,11 +60,11 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Client with open tenant',
+    figure: "Client with open tenant",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/connect-client-im/https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/202b36bf-f727-470b-ae25-4985aed1ff2c"
 />
 
@@ -77,7 +77,7 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -91,22 +91,22 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Client with a closed tenant',
+    figure: "Client with a closed tenant",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/connect-client-im/https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/c6cead28-1d2c-45e3-8e3f-d089447de683"
 />
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | &#123;&#123; CLIENT &#125;&#125; |
-| Subject: | Communication via Microsoft Teams |
-::: email-content
-
-### Dear &#123;&#123; CLIENT &#125;&#125;
+<emailEmbed
+  from=""
+  to="&#123;&#123; CLIENT &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="Communication via Microsoft Teams"
+  body={<>
+    ## Dear &#123;&#123; CLIENT &#125;&#125;
 
 As discussed earlier, we should use Microsoft Teams to chat because it ensures quick responses to your queries.
 
@@ -118,7 +118,10 @@ Please copy them your IT into this email chain so I can request access.
 
 Thanks,
 &#123;&#123; YOUR NAME &#125;&#125;
-:::
-:::
-
-**Figure: Send an email to your client requesting access to their organization's tenant**
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Send an email to your client requesting access to their organization's tenant",
+    shouldDisplay: true
+  } }
+/>

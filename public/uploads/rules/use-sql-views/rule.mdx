@@ -105,11 +105,11 @@ So your business has an employees table as shown below that has detailed informa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Northwind traders employees table',
+    figure: "Northwind traders employees table",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-sql-views/ViewsSqlEmployeesTable.png"
 />
 
@@ -120,11 +120,11 @@ This would also need an additional system to sync between the tables to ensure t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example – Using tables and duplicating data',
+    figure: "Bad example – Using tables and duplicating data",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/use-sql-views/ViewsSqlTables.png"
 />
 
@@ -138,9 +138,9 @@ SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Photo, PhotoPath
 FROM Employees;
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – Using views from the base table containing the source data',
+  figure: "Figure: Good example – Using views from the base table containing the source data",
   shouldDisplay: true
 } } />
 

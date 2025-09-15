@@ -35,7 +35,7 @@ The approach described here assumes that the user's email address is verified. W
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -62,9 +62,9 @@ If there's no associated SubId, check if the email (provided by the ExternalAuth
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class.',
+  figure: "Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class.",
   shouldDisplay: true
 } } />
 
@@ -85,7 +85,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -136,7 +136,7 @@ Register by creating a new user in your application's store using claims provide
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

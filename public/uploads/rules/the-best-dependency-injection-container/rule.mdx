@@ -73,11 +73,11 @@ The top tools all contain comparable functionality. In practice which one you us
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad Example - Ninject and StructureMap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET',
+    figure: "Bad Example - Ninject and StructureMap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/the-best-dependency-injection-container/di-container-bad.png"
 />
 
@@ -94,9 +94,9 @@ public class Program
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Use the StructureMap IoC container but did not do the proper dependency injection',
+  figure: "Bad example - Use the StructureMap IoC container but did not do the proper dependency injection",
   shouldDisplay: true
 } } />
 
@@ -109,9 +109,9 @@ using var scope = host.Services.CreateScope();
 scope.ServiceProvider.GetRequiredService<BadgeTaskJob>().Run();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Use .NET built-in Dependency Injection for console app',
+  figure: "Good example - Use .NET built-in Dependency Injection for console app",
   shouldDisplay: true
 } } />
 
@@ -124,8 +124,8 @@ var app = builder.Build();
 app.Run();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Use ASP.Net Core built-in Dependency Injection for web app',
+  figure: "Good example - Use ASP.Net Core built-in Dependency Injection for web app",
   shouldDisplay: true
 } } />

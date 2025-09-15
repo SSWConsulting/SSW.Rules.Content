@@ -34,11 +34,11 @@ At SSW, we have "URL Access" at the bottom of reports for easy reference.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - URL Access link for quick reference at the bottom of report',
+    figure: "Good example - URL Access link for quick reference at the bottom of report",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/url-access-link-for-report/BetterRS_URLAccess.jpg"
 />
 
@@ -46,9 +46,9 @@ At SSW, we have "URL Access" at the bottom of reports for easy reference.
 http://localhost/ReportServer/Pages/ReportViewer.aspx?%2fSSWTimePRO_CompanyPerformance%2f01+-+BillableTimeSummary&rs:Command=Render
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Only refer to the default report URL, parameters on the report will be lost',
+  figure: "Bad example - Only refer to the default report URL, parameters on the report will be lost",
   shouldDisplay: true
 } } />
 
@@ -57,9 +57,9 @@ http://localhost/ReportServer/Pages/ReportViewer.aspx?%2fSSWTimePRO_CompanyPerfo
 http://localhost/ReportServer/Pages/ReportViewer.aspx?/SSWTimePRO_CompanyPerformance/01%20-%20BillableTimeSummary&rs:Command=Render&rs:ParameterLanguage=en-AU&pStartDate=1/06/2009&pEndDate=7/06/2009&pEmpID=ALZ
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Refer to the report with all parameters ready',
+  figure: "Good example - Refer to the report with all parameters ready",
   shouldDisplay: true
 } } />
 

@@ -57,9 +57,9 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ["0", "1", "2", "Apple", "Banana", "Cherry"]
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - An irritating DX, instead of returning just the values of the enum',
+  figure: "Bad example - An irritating DX, instead of returning just the values of the enum",
   shouldDisplay: true
 } } />
 
@@ -82,9 +82,9 @@ We can construct this type from the above array, which is equivalent to:
 type Fruit = "Apple" | "Banana" | "Cherry";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - A much cleaner DX',
+  figure: "Good example - A much cleaner DX",
   shouldDisplay: true
 } } />
 
@@ -96,11 +96,11 @@ This makes it super easy to loop over keys within a union type. This also allows
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Working VSCode Intellisense that works with all const assertions',
+    figure: "Working VSCode Intellisense that works with all const assertions",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/typescript-enums/vscode-intellisense-array2.png"
 />
 
@@ -118,9 +118,9 @@ const icons: Record<Icon, string> = {
 };
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - Duplication of key values where it is not needed',
+  figure: "Bad example - Duplication of key values where it is not needed",
   shouldDisplay: true
 } } />
 
@@ -138,9 +138,9 @@ type IconKey = keyof typeof icons; // "sun" | "moon" union type
 type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" union type
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - A much cleaner DX with a single source of truth in the `as const` object',
+  figure: "Good example - A much cleaner DX with a single source of truth in the `as const` object",
   shouldDisplay: true
 } } />
 
@@ -152,11 +152,11 @@ Similar to the array const assertion above, these also provide useful type hints
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Using the Icon type from above',
+    figure: "Using the Icon type from above",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/typescript-enums/icon-vscode-sense.png"
 />
 
@@ -165,11 +165,11 @@ Similar to the array const assertion above, these also provide useful type hints
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'The IconKey type from above',
+    figure: "The IconKey type from above",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/typescript-enums/iconkey-vscode-sense.png"
 />
 

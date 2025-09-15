@@ -81,9 +81,9 @@ windows.forEach(async handle => {
 await driver.wait(until.titleIs('Selenium documentation'), 10000);
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Selenium only lets you have one window focused at a time meaning you can\'t do parallel testing easily',
+  figure: "Figure: Bad example - Selenium only lets you have one window focused at a time meaning you can't do parallel testing easily",
   shouldDisplay: true
 } } />
 
@@ -101,9 +101,9 @@ const adminContext = await browser.newContext();
 // Create pages and interact with contexts independently
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Playwright makes it easy to spin up independent browser contexts for parallel testing',
+  figure: "Figure: Good example - Playwright makes it easy to spin up independent browser contexts for parallel testing",
   shouldDisplay: true
 } } />
 

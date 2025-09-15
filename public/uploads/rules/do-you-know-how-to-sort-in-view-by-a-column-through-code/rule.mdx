@@ -30,11 +30,11 @@ You may know that it is quite easy to sort view by a column through the UI.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Change view column sort from web UI',
+    figure: "Change view column sort from web UI",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-know-how-to-sort-in-view-by-a-column-through-code/SortInView.png"
 />
 
@@ -55,9 +55,9 @@ But the below code won't work:
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" False \" /></OrderBy>";
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Bad example - The Ascending attribute is case-sensitive',
+  figure: "Bad example - The Ascending attribute is case-sensitive",
   shouldDisplay: true
 } } />
 
@@ -70,8 +70,8 @@ view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" FALSE \" /></Ord
 view.Update();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - The Ascending attribute is using capital charactors as it is case-sensitive',
+  figure: "Good example - The Ascending attribute is using capital charactors as it is case-sensitive",
   shouldDisplay: true
 } } />

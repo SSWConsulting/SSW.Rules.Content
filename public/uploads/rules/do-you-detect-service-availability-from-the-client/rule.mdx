@@ -58,9 +58,9 @@ SSW has created a simple Service Detection library for exactly this purpose call
 
 This Service Detector works by attempting to download the Favicon.ico file from the website for each service you want to use. These favicon files are small, so if a service is available, the file will download very quickly. If a service is blocked, the connection could take a long time to timeout on its own. In this situation, the service detector uses a 1.5-second timer to attempt the download and will cancel the request after this time so that these connection attempts fail quickly and don't block the entire page.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '![Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page](/uploads/rules/do-you-detect-service-availability-from-the-client/BlockedDependencies_1710232021933.png)',
+  figure: "![Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page](/uploads/rules/do-you-detect-service-availability-from-the-client/BlockedDependencies_1710232021933.png)",
   shouldDisplay: true
 } } />
 
@@ -69,11 +69,11 @@ This Service Detector works by attempting to download the Favicon.ico file from 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good Example - Only 4 errors on F12 in China. Using SSW.ServiceDetector, there were only short, canceled requests raised to blocked services. The site was then able to fall-back gracefully for some services and load YouKu for videos',
+    figure: "Good Example - Only 4 errors on F12 in China. Using SSW.ServiceDetector, there were only short, canceled requests raised to blocked services. The site was then able to fall-back gracefully for some services and load YouKu for videos",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-detect-service-availability-from-the-client/SSW.ServiceDetector.png"
 />
 

@@ -39,7 +39,7 @@ A job title on social media or other public place should **always** be:
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -50,11 +50,11 @@ This is to maintain consistency across the company - the companies with strong b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "badExample",
-    figure: 'Bad example - Job title missing the company name',
+    figure: "Bad example - Job title missing the company name",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/prefix-job-title/job-title-bad.jpg"
 />
 
@@ -62,11 +62,11 @@ This is to maintain consistency across the company - the companies with strong b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Job title includes the company name and matches other employees',
+    figure: "Good example - Job title includes the company name and matches other employees",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/prefix-job-title/job-title-good.jpg"
 />
 
@@ -77,25 +77,8 @@ This is to maintain consistency across the company - the companies with strong b
 
 Following the above tweet, you can get a result like this:
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Good example - See how much branding is on people\\'s GitHub profiles\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/prefix-job-title/excel-result.png"
-/>
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: \'XXX\',
-    shouldDisplay: false
-  }}
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Good example - See how much branding is on people's GitHub profiles\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/prefix-job-title/excel-result.png\"\n/>\n  </>}\n  figureEmbed={{\n    preset: \"default\",\n    figure: \"XXX\",\n    shouldDisplay: false\n  }}\n/>",
   shouldDisplay: true
 } } />

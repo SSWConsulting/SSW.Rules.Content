@@ -46,7 +46,7 @@ Each done PBI is then presented by the Team for acceptance. They aim to get the 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -74,13 +74,25 @@ If there are additional stakeholders, make sure they get called in for the summa
     **When you ping stakeholders, include a message like this**:
 
 * I'm recording the current meeting so I can get the Copilot stats later.
-* I'll call you and the stakeholders in 30 mins.
-* The stakeholders are: &#123;&#123; Stakeholders Name &#125;&#125;
+* I'll call you and the stakeholders in 30 mins, &#123;&#123; PRESENTER_NAME &#125;&#125; will run the Sprint Summary.
+* The stakeholders are: &#123;&#123; STAKEHOLDER NAMES &#125;&#125;
 * Let me know if you want anyone else added.
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip**:Ask for Copilot AI images before the summary meeting to include in the summary.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -92,14 +104,14 @@ If there are additional stakeholders, make sure they get called in for the summa
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review',
+  figure: "Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review",
   shouldDisplay: true
 } } />
 
@@ -108,11 +120,11 @@ If there are additional stakeholders, make sure they get called in for the summa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary',
+    figure: "Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-review-stakeholders.png"
 />
 
@@ -123,11 +135,11 @@ If there are additional stakeholders, make sure they get called in for the summa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'Playing golf',
+    figure: "Playing golf",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/what-happens-at-a-sprint-review-meeting/Golf-holiday.png"
 />
 
@@ -135,26 +147,27 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 * Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
 
-::: email-template
-
-|          |                                                                    |     |
-| -------- | ------------------------------------------------------------------ | --- |
-| To:      | &#123;&#123; YOUR SCRUM MASTER &#125;&#125;                                            |     |
-| Cc:      | &#123;&#123; YOUR TEAM &#125;&#125;                                                    |     |
-| Subject: | &#123;&#123; YOUR NAME &#125;&#125; - Sprint Review &#123;&#123; SPRINT REVIEW NUMBER &#125;&#125; Summary | \   |
-
-::: email-content
-
-### Hi Team
+<emailEmbed
+  from=""
+  to="&#123;&#123; YOUR SCRUM MASTER &#125;&#125;"
+  cc="&#123;&#123; YOUR TEAM &#125;&#125;"
+  bcc=""
+  subject="&#123;&#123; YOUR NAME &#125;&#125; - Sprint Review &#123;&#123; SPRINT REVIEW NUMBER &#125;&#125; Summary"
+  body={<>
+    ## Hi Team
 
 I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#125;. Here's an update on my PBIs:
 
 * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Done - Done Video in the PBI ready to show the client.
 * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Blocked - Waiting on &#123;&#123; BLOCKER &#125;&#125;. Details in the PBI.
   ...
-
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 - - -
 
@@ -172,7 +185,7 @@ I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#12
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -189,7 +202,7 @@ E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />

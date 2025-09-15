@@ -30,9 +30,9 @@ Hard-coding URLs in your View can cause problems if your routes or page names ne
 <a href="/Rule/Create">Create a Rule</a>
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – Hard-coded URLs may lead to broken links if routes change',
+  figure: "Figure: Bad example – Hard-coded URLs may lead to broken links if routes change",
   shouldDisplay: true
 } } />
 
@@ -41,8 +41,8 @@ Hard-coding URLs in your View can cause problems if your routes or page names ne
 @Html.ActionLink("Create a Rule", "Create", "Rule")
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example – Use the Url or Html helpers to provide links',
+  figure: "Figure: Good example – Use the Url or Html helpers to provide links",
   shouldDisplay: true
 } } />

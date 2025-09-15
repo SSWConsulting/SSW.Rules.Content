@@ -32,7 +32,7 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -41,19 +41,9 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
 
 The least secure way is to use Remote Desktop Connection to make changes directly on the domain controller. Domain controllers should be locked down to only accept log ins from domain admin accounts - and should only be used when changes require these credentials.
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: '<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: \'Bad example - RDP directly to the domain controller\',
-    shouldDisplay: true
-  }}
-  src="/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png"
-/>',
+  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Bad example - RDP directly to the domain controller\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png\"\n/>",
   shouldDisplay: true
 } } />
 
@@ -70,11 +60,11 @@ Since the tool is browser-based, you only need to allow access to one port for H
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Managing AD in Windows Admin Center',
+    figure: "Managing AD in Windows Admin Center",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/run-rsat-from-non-domain-computer/admin-center-aduc.png"
 />
 
@@ -91,7 +81,7 @@ While Windows Admin Center is a great solution, many SysAdmins prefer the extra 
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -110,11 +100,11 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'MMC | Add or Remove Snap-ins',
+    figure: "MMC | Add or Remove Snap-ins",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/run-rsat-from-non-domain-computer/mmc-add-snapin.png"
 />
 5. For ADUC (and possibly other tools), you will need to specify the domain to connect to. Make sure you tick the box **Save this domain setting for the current console**.
@@ -124,11 +114,11 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "default",
-    figure: 'ADUC | Change domain',
+    figure: "ADUC | Change domain",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/run-rsat-from-non-domain-computer/aduc-domain.png"
 />
 

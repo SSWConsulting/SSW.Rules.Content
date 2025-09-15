@@ -44,14 +44,14 @@ Always inform stakeholders in advance if you anticipate a significant increase i
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Nobody likes a surprise bill',
+  figure: "Figure: Bad example - Nobody likes a surprise bill",
   shouldDisplay: true
 } } />
 
@@ -65,37 +65,41 @@ Then send an email (as per the template below)
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Informing and emailing stakeholders before a spike makes everyone happy',
+  figure: "Figure: Informing and emailing stakeholders before a spike makes everyone happy",
   shouldDisplay: true
 } } />
 
 
 #### Email template
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| To:      | &#123;&#123; SpendMaster (aka SysAdmins) &#125;&#125; |
-| Subject: | &#123;&#123; PROJECT NAME &#125;&#125; - Cost spike due to data migration  |
-::: email-content
-
-### Hi &#123;&#123; SpendMaster aka SysAdmins &#125;&#125;
+<emailEmbed
+  from=""
+  to="&#123;&#123; SpendMaster (aka SysAdmins) &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Cost spike due to data migration"
+  body={<>
+    ## Hi &#123;&#123; SpendMaster aka SysAdmins &#125;&#125;
 
 I need to perform &#123;&#123; TASK &#125;&#125; on &#123;&#123; PROJECT NAME &#125;&#125;. I know that this will cost more than our usual amount for Azure. I expect the process to run for &#123;&#123; X &#125;&#125; days.
 
 I have calculated this cost to be &#123;&#123; $$ &#125;&#125;.
 
 1. Please approve
-:::
-:::
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 ---
 

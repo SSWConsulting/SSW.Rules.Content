@@ -40,9 +40,9 @@ services.AddIdentityServer()
     .AddDeveloperSigningCredential();
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - you don\'t need to use `.AddDevelopersSigningCredential()` anymore',
+  figure: "Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore",
   shouldDisplay: true
 } } />
 
@@ -58,9 +58,9 @@ services.AddAuthentication("Bearer")
     });
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - don\'t use `IdentityServer4.AccessTokenValidation` package as it is deprecated.',
+  figure: "Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.",
   shouldDisplay: true
 } } />
 
@@ -74,8 +74,8 @@ services.AddAuthentication("Bearer")
     });
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - use `AddJwtBearer("Bearer")` instead',
+  figure: "Figure: Good example - use `AddJwtBearer(\"Bearer\")` instead",
   shouldDisplay: true
 } } />

@@ -72,14 +72,14 @@ Typically, `GET`, `PUT` and `DELETE` are idempotent by default, but special hand
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - This prevents accidental duplicate data processing',
+  figure: "Figure: Good example - This prevents accidental duplicate data processing",
   shouldDisplay: true
 } } />
 
@@ -102,9 +102,9 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 `?x=name&y=asc`
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - It\'s impossible to understand what those query string mean!',
+  figure: "Figure: Bad example - It's impossible to understand what those query string mean!",
   shouldDisplay: true
 } } />
 
@@ -113,9 +113,9 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 `?sortBy=name&order=asc`
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Query strings are meaningful',
+  figure: "Figure: Good example - Query strings are meaningful",
   shouldDisplay: true
 } } />
 
@@ -130,9 +130,9 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 `api/products?user_id=123&product_id=321`
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Messy query parameter',
+  figure: "Figure: Bad example - Messy query parameter",
   shouldDisplay: true
 } } />
 
@@ -141,9 +141,9 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 `api/orders/123/items/456/products/789`
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example - Overly complicated endpoint',
+  figure: "Figure: Bad example - Overly complicated endpoint",
   shouldDisplay: true
 } } />
 
@@ -152,9 +152,9 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 `api/products/789`
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Good example - Clearly defined endpoint',
+  figure: "Figure: Good example - Clearly defined endpoint",
   shouldDisplay: true
 } } />
 

@@ -36,7 +36,7 @@ To keep stakeholders well informed, these teams should record a **monthly stakeh
   </>}
   figureEmbed={{
     preset: "default",
-    figure: 'XXX',
+    figure: "XXX",
     shouldDisplay: false
   }}
 />
@@ -63,16 +63,20 @@ Please record last month’s overview video.
 1. Follow the instructions: &#123;&#123; URL TO THE LIST OF REPORTS TO REVIEW &#125;&#125;
 2. Try having &#123;&#123; PRODUCT OWNER &#125;&#125; on the call – if not choose another relevant person
 
-\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> &gt;
-
-:::
-:::
+\&lt; As per &lt;https://ssw.com.au/rules/monthly-stakeholder-video&gt; &gt;
+  </>}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  } }
+/>
 
 ## Creating an effective video
 
 To ensure your video is clear and following best practices, read and follow [the key things for making a great 'Done Video'](/making-a-great-done-video/).
 
-## Steps
+### Steps
 
 The video should be recorded by the Product Owner (or other head of the team).
 
@@ -83,17 +87,14 @@ The video should be recorded by the Product Owner (or other head of the team).
 4. Upload the video to YouTube (public if there is no sensitive information - unlisted if there is)
 5. Email your stakeholders with the video link
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Product Owner |
-| CC: | Stakeholders |
-| Subject: | Recording - Monthly Finance Meeting for &#123;&#123; MONTH YEAR &#125;&#125; |
-
-::: email-content
-
-## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
+<emailEmbed
+  from=""
+  to="Product Owner"
+  cc="Stakeholders"
+  bcc=""
+  subject="Recording - Monthly Finance Meeting for &#123;&#123; MONTH YEAR &#125;&#125;"
+  body={<>
+    ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
 
 FYI - I have recorded the Monthly Marketing video for &#123;&#123; MONTH &#125;&#125; with &#123;&#123; COLLEAGUE &#125;&#125; on the call with me.
 
@@ -103,23 +104,23 @@ Here’s the link &#123;&#123; YOUTUBE LINK &#125;&#125;
 
 1. So I know who has watched this - please like and comment on the video
 
-\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> &gt;
+\&lt; As per &lt;https://ssw.com.au/rules/monthly-stakeholder-video&gt; &gt;
   </>}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
     figure: "Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visibility from your team.",
     shouldDisplay: true
-  }}
+  } }
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example - a list of reports to review each month (this one is a SharePoint example)',
+    figure: "Good example - a list of reports to review each month (this one is a SharePoint example)",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/monthly-stakeholder-video/reports-list-marketing.jpg"
 />

@@ -40,9 +40,9 @@ public class MvcApplication : System.Web.HttpApplication
         );        }
 }
 ```
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Bad example – Logic is implemented in the Application\_Start method which breaks the Single Responsibility Principle',
+  figure: "Figure: Bad example – Logic is implemented in the Application\\_Start method which breaks the Single Responsibility Principle",
   shouldDisplay: true
 } } />
 
@@ -51,10 +51,10 @@ public class MvcApplication : System.Web.HttpApplication
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={{
+  figureEmbed={ {
     preset: "goodExample",
-    figure: 'Good example – Startup tasks are called from the Application\_Start method but are located in the App\_Start folder',
+    figure: "Good example – Startup tasks are called from the Application\\_Start method but are located in the App\\_Start folder",
     shouldDisplay: true
-  }}
+  } }
   src="/uploads/rules/do-you-use-startup-tasks-in-the-app_start-folder-instead-of-putting-code-in-global-asax/startup-task.jpg"
 />

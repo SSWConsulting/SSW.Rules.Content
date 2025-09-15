@@ -32,9 +32,9 @@ using (SPWeb web =  SPContext.Current.Site.RootWeb)
 }
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: 'Figure: Using statement is trying to dispose current site object - it will cause exception',
+  figure: "Figure: Using statement is trying to dispose current site object - it will cause exception",
   shouldDisplay: true
 } } />
 
@@ -46,9 +46,9 @@ SPWeb web =  SPContext.Current.Site.RootWeb;
 //do something here
 ```
 
-<figureEmbed figureEmbed={{
+<figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: 'Figure: Use Current objects directly - don\'t need to dispose them',
+  figure: "Figure: Use Current objects directly - don't need to dispose them",
   shouldDisplay: true
 } } />
 
