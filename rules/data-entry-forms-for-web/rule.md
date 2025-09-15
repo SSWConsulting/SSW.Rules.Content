@@ -15,7 +15,7 @@ redirects:
   - do-you-know-the-correct-way-to-develop-data-entry-forms-for-web
 created: 2014-12-01T00:36:14.000Z
 archivedreason: null
-guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
+guid: 303c53ce-4b57-4863-a831-a3651aca1507
 ---
 
 Regular users or data entry personnel should be able to use your data entry form with ease. The form should follow a logical sequence of steps that matches the expectations they have based on their past experiences. This user experience will help to maximise their efficiency and satisfaction.

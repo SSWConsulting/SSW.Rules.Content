@@ -8,7 +8,7 @@ authors:
     url: https://ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T06:15:30.110Z
 archivedreason: Update connection string management - favor IOptions pattern over Visual Studio's Application Settings. Offers robust, flexible config in .NET Core, aligning with modern development practices. Refer to Microsoft's IOptions pattern in .NET documentation for implementation guidance.
-guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
+guid: 65039e5e-cae8-4a07-b934-669eff984bc3
 ---
 
 Using non strongly typed connection strings means that you have to hard code at some point in your code. Once you change the name of your connection strings, you have to change the code that references them too.

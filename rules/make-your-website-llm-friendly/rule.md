@@ -11,7 +11,7 @@ authors:
   - title: Louis Roa
     url: https://www.ssw.com.au/people/louis-roa
 created: 2025-03-20T14:00:00.000Z
-guid: 123e4567-e89b-12d3-a456-426614174000
+guid: e50ef151-ba45-4907-ac92-50896d720573
 ---
 As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information.
 

@@ -7,7 +7,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:51:00.000Z
-guid: d4123a64-239a-4251-9a22-1ba31e85b690
+guid: b3f843c5-e848-4841-be01-ea4eda5b5401
 ---
 
 If your application accesses properties in app.config, you should provide a strongly typed wrapper for the app.config file. The following code shows you how to build a simple wrapper for app.config in an **AssemblyConfiguration** class:
