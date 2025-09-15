@@ -17,11 +17,11 @@ redirects:
 
 Publish your solution to the [Azure Marketplace](https://azuremarketplace.microsoft.com) to reach millions of Microsoft customers and unlock new revenue streams. However, many partners underestimate the preparation required, which leads to rejected offers, costly delays, or poor marketplace visibility.
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/e7RvBydtmj4`
 
 **Video: Marketplace Mini | Creating a marketplace offer (2 min)**
-
-<!--endintro-->
 
 ## Prerequisites
 
@@ -49,13 +49,13 @@ Select the most appropriate offer type based on your solution:
 - **Azure Virtual Machine** - VM-based applications with pre-configured software
 - **Software as a Service (SaaS)** - Cloud applications with subscription billing
 
-_Note: See [Microsoft's offer type guidance](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/determine-your-listing-type) for all available types._
+**Note:** See [Microsoft's offer type guidance](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/determine-your-listing-type) for all available types.
 
 ### 2. Follow offer type-specific publishing guide
 
 Different types of offers have different publishing steps. Follow Microsoft's [Publisher Guide by Offer Type](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/publisher-guide-by-offer-type) for detailed steps.
 
-**Example: Azure Application offer**
+#### Example: Azure Application offer
 
 Publishing an Azure Application offer involves several key phases:
 
