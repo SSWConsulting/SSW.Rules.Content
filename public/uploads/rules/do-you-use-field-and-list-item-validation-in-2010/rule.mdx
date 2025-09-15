@@ -32,7 +32,7 @@ class CreateShoppingListHandler : SPItemEventReceiver
 
         if(float.TryParse(properties.ListItem.Fields["Price"].ToString(), out price) && float.TryParse(properties.ListItem.Fields["Cost"].ToString(), out cost))
         {
-            if(price < cost)
+            if(price &lt; cost)
             {
                 properties.ErrorMessage = "The cost must not be less than the price";
                 properties.Cancel = true;

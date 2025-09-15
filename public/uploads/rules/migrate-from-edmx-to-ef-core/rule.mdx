@@ -101,16 +101,16 @@ using System.Data.Entity.Core.Objects;
 
 public interface ITenantDbContext
 {
-    ObjectSet<Client> Clients { get; }
+    ObjectSet&lt;Client&gt; Clients { get; }
 
     int SaveChanges();
-    Task<int> SaveChangesAsync(CancellationToken ct = default);
+    Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default);
 }
 
-/// <summary>
+/// &lt;summary&gt;
 /// Implement DbContext as internal, so that external libraries cannot access it directly.
 /// Expose functionality via interfaces instead.
-/// </summary>
+/// &lt;/summary&gt;
 internal class TenantDbContext : ITenantDbContext
 {
     private readonly DataEntities _entities;
@@ -120,10 +120,10 @@ internal class TenantDbContext : ITenantDbContext
         _entities = entities;
     }
 
-    public ObjectSet<Client> Clients => _entities.Clients;
+    public ObjectSet&lt;Client&gt; Clients =&gt; _entities.Clients;
 
-    public int SaveChanges() => _entities.SaveChanges();
-    public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
+    public int SaveChanges() =&gt; _entities.SaveChanges();
+    public Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default) =&gt; _entities.SaveChangesAsync(ct);
 }
 ```
 
@@ -254,7 +254,7 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 # Resources
 
 * How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
-* Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
+* Official porting docs to EF Core 3.1 - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
 
 # Alternative
 

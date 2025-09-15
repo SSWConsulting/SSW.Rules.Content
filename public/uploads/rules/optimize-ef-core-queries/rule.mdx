@@ -79,7 +79,7 @@ When retrieving data in a loop, developers sometimes execute multiple queries in
 ```csharp
 foreach (var id in ids)
 {
-    var entity = context.MyEntities.FirstOrDefaultAsync(e => e.Id == id);
+    var entity = context.MyEntities.FirstOrDefaultAsync(e =&gt; e.Id == id);
     ProcessEntity(entity);
 }
 ```
@@ -99,7 +99,7 @@ If you know the approximate size of your dataset, and it is suitable for your da
   body={<>
     
 ```csharp
-var entities = context.MyEntities.Where(e => ids.Contains(e.Id)).ToListAsync();
+var entities = context.MyEntities.Where(e =&gt; ids.Contains(e.Id)).ToListAsync();
 foreach (var entity in entities)
 {
     ProcessEntity(entity);
@@ -124,10 +124,10 @@ If the dataset is **too large to fetch at once**, consider batching:
     
 ```csharp
 int batchSize = 100;
-for (int i = 0; i < ids.Count; i += batchSize)
+for (int i = 0; i &lt; ids.Count; i += batchSize)
 {
     var batch = ids.Skip(i).Take(batchSize).ToList();
-    var entities = context.MyEntities.Where(e => batch.Contains(e.Id)).ToList();
+    var entities = context.MyEntities.Where(e =&gt; batch.Contains(e.Id)).ToList();
     ProcessEntities(entities);
 }
 ```
@@ -310,7 +310,7 @@ using var transaction = await context.Database.BeginTransactionAsync();
 
 try
 {
-    for (int i = 0; i < entities.Count; i += batchSize)
+    for (int i = 0; i &lt; entities.Count; i += batchSize)
     {
         var batch = entities.Skip(i).Take(batchSize).ToList();
         context.AddRange(batch);

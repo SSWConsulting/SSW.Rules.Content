@@ -69,7 +69,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 <asideEmbed
   variant="info"
   body={<>
-    Do **not** use Heading 1 (&lt;h1&gt;) in the content, even with the good intention of improving SEO. The page title already uses &lt;h1&gt;, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple &lt;h1&gt; elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+    Do **not** use Heading 1 (`&lt;h1&gt;`) in the content, even with the good intention of improving SEO. The page title already uses `&lt;h1&gt;`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `&lt;h1&gt;` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
   </>}
   figureEmbed={{
     preset: "default",
@@ -571,7 +571,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 #### Code for videos
 
 ```md
-<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description="Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)" />
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
 ```
 
 **Figure: Markdown to add videos and video captions**
@@ -580,7 +580,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 Check out this video - it's responsive!
 
-<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description="Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)" />
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
 
 ---
 

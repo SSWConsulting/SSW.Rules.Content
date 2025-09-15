@@ -235,15 +235,15 @@ namespace Microsoft.AspNetCore.Http
     NOTE: Make sure your .csproj is correctly configured. Don't use
 
 ```xml
-<!-- .NET Framework reference for HttpContext -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
-    <Reference Include="System.Web" />
-</ItemGroup>
+&lt;!-- .NET Framework reference for HttpContext --&gt;
+&lt;ItemGroup Condition="'$(TargetFramework)' == 'net472'"&gt;
+    &lt;Reference Include="System.Web" /&gt;
+&lt;/ItemGroup&gt;
 
-<!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-</ItemGroup>
+&lt;!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp --&gt;
+&lt;ItemGroup Condition="'$(TargetFramework)' == 'net8.0'"&gt;
+    &lt;FrameworkReference Include="Microsoft.AspNetCore.App" /&gt;
+&lt;/ItemGroup&gt;
 ```
 
   </>}
