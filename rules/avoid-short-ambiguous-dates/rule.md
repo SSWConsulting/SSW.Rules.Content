@@ -2,12 +2,13 @@
 type: rule
 tips: ""
 title: Do you avoid short or ambiguous dates?
-seoDescription: "Prevent confusion and tampering by avoiding short or ambiguous
-  date formats. Always use full numbers for day, month, and year. type: rule"
+seoDescription: Prevent confusion and tampering by avoiding short or ambiguous date formats. Always use full numbers for day, month, and yeay
 uri: avoid-short-ambiguous-dates
 authors:
   - title: Harkirat Singh
     url: https://github.com/0xharkirat
+related:
+  - dates-do-you-keep-date-formats-consistent-across-your-application
 created: 2025-09-11T12:20:00.000Z
 guid: 050f797a-c163-45f2-bc5e-f6820688eb8e
 ---
