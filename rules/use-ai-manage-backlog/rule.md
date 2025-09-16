@@ -24,12 +24,13 @@ Managing a backlog can quickly become overwhelming. It often grows into a long, 
 
 ## Why AI is useful for backlog management
 
-### 1. Handle large, messy backlogs
+### 1. Check for existing and duplicate issues
 
-Backlogs often contain hundreds of items, making it hard to spot what matters most. AI can:
+Backlogs often contain hundreds of items, and sometimes, it's hard to know if an issue already exists before you create it.
+With AI managing your backlog, you can easily:
 
+* **Find an existing issue** - Finds an existing issue based on the description provided
 * **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter
-* **Highlight overlooked high-priority items** - Spots critical issues buried in the backlog so they get the attention they deserve
 
 ::: bad
 ![Figure: Bad example — In this case, there are 4 topics that have duplicates](Big-Backlog.gif)
@@ -44,7 +45,11 @@ Backlogs often contain hundreds of items, making it hard to spot what matters mo
 Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 
 * **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a Sprint
-* **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.  
+* **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
+
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
 
 ### 3. Group related work
 
@@ -54,12 +59,20 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 * **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives
 * **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
+
 ### 4. Estimate effort
 
 AI can compare a new item against similar past issues and suggest an estimate. This is especially helpful when:
 
 * **Estimating bugs vs features** - Compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
-* **Providing quick t-shirt sizing (S, M, L) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
+* **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
+
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
 
 ### 5. Kick-start new requests
 
@@ -69,12 +82,20 @@ When a vague request comes in (“Improve reporting”), AI can help you:
 * **Draft acceptance criteria** - Generates clear, testable conditions that define when a task or feature is successfully completed
 * **Propose dependencies** - Identifies related tasks or prerequisites that need to be completed first, reducing blockers during delivery
 
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
+
 ### 6. Prioritize smarter
 
 Not every backlog item has the same impact. AI can help prioritize by:  
 
 * **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work  
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
+
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
 
 ## How to connect an MCP client to GitHub  
 
