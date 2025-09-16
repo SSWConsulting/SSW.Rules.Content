@@ -50,18 +50,24 @@ def patch_frontmatter_lines(lines, updates):
     return lines[:start + 1] + patched + lines[end:]
 
 def should_be_archived_based_on_reason(lines):
-    """Check if the rule should be archived based on archivedreason field"""
+    """Check if the rule should be archived based on archivedreason field
+    
+    New logic:
+    - If rule has no archivedreason, add an empty one and set isArchived: false
+    - If archivedreason is empty, null, or undefined, then isArchived: false
+    - If archivedreason has content, then isArchived: true
+    """
     content = '\n'.join(lines)
     # Look for archivedreason: followed by actual content on the same line
     reason_match = re.search(r'^archivedreason:\s*(.+)$', content, re.MULTILINE)
     if reason_match:
         reason = reason_match.group(1).strip()
-        # Rule should be archived if archivedreason is empty, null, or undefined
+        # Rule should be archived if archivedreason has actual content
         if not reason:  # Empty string after stripping
-            return True
+            return False
         if reason.lower() in ['null', 'undefined', 'none']:
-            return True
-        return False
+            return False
+        return True
     
     # Also check for archivedreason: on its own line followed by content on next line
     # This handles YAML multiline scenarios
@@ -78,13 +84,13 @@ def should_be_archived_based_on_reason(lines):
                     # If next line has content and doesn't start a new field, consider it the reason
                     if next_line and not re.match(r'^[a-zA-Z_][a-zA-Z0-9_]*:', next_line):
                         if next_line.lower() in ['null', 'undefined', 'none']:
-                            return True
-                        return False
+                            return False
+                        return True
                 # If archivedreason: is on its own line with no content following, consider it empty
-                return True
+                return False
     
-    # If no archivedreason field is found, consider it as empty (should be archived)
-    return True
+    # If no archivedreason field is found, it will be added as empty, so should not be archived
+    return False
 
 def update_file(filepath, meta):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -100,7 +106,17 @@ def update_file(filepath, meta):
     }
     
     if "public/uploads/rules/" in filepath:
-        # For rules only: set isArchived: true if archivedreason is empty, null, or undefined
+        # Check if archivedreason field exists
+        content = '\n'.join(lines)
+        has_archivedreason = bool(re.search(r'^archivedreason:', content, re.MULTILINE))
+        
+        # Add empty archivedreason if it doesn't exist - do this first
+        if not has_archivedreason:
+            updates["archivedreason"] = ""
+            # Update lines with the new archivedreason field before checking
+            lines = patch_frontmatter_lines(lines, {"archivedreason": ""})
+        
+        # For rules only: set isArchived based on archivedreason content (now with updated lines)
         should_be_archived = should_be_archived_based_on_reason(lines)
         updates["isArchived"] = "true" if should_be_archived else "false"
 
