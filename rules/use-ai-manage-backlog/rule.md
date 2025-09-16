@@ -74,13 +74,12 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
 :::
 
-### 5. Kick-start new requests
+### 5. Propose dependencies
 
-When a vague request comes in (“Improve reporting”), AI can help you:  
+When a request comes in, it isn't easy to know what issues are required to complete it. AI helps this by:
 
-* **Break it into concrete tasks** - Transforms vague requests into specific, actionable steps the team can pick up immediately
-* **Draft acceptance criteria** - Generates clear, testable conditions that define when a task or feature is successfully completed
-* **Propose dependencies** - Identifies related tasks or prerequisites that need to be completed first, reducing blockers during delivery
+* **Identifying existing issues** - Finds prerequisites that need to be completed first to ensure the delivery is not blocked
+* **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
 ::: good
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
