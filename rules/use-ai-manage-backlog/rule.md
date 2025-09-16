@@ -15,7 +15,7 @@ related:
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
-Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting **Claude.ai** (or alternatives like ChatGPT or Cursor.ai) to GitHub, you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
+Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting **Claude Code** (or alternatives like ChatGPT or Cursor.ai) to GitHub, you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
 
 `youtube: https://www.youtube.com/watch?v=KWjYXYBIIQo`
 **Video: Managing 1000+ GitHub Issues with Claude AI – Eli & Gert Reveal the Secret Sauce | SSW Rules (8 mins)**
@@ -29,11 +29,10 @@ AI can:
 
 * **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter.
 * **Highlight overlooked high-priority items** - Spots critical issues buried in the backlog so they get the attention they deserve.
-* **Summarize backlog areas at a glance** - Groups and condenses issues into clear themes, making it easy to see where work is concentrated.
 
 ![](Big-Backlog.gif)
 
-❌ Figure: Bad Example — Wasting time manually searching for duplicates
+❌ Figure: Bad Example — In this case, there are 4 topics that have duplicates
 
 ![](Duplicates-GitHub.png)
 
