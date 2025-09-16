@@ -13,7 +13,7 @@ authors:
 related: []
 ---
 
-Have you ever watched an awesome presentation, and been excited to hear the presenter say they are going to share some resources, only to be frustrated when they're racing through their slides too fast for you to note down the URLs they are sharing? It's best not to do that to your audience.
+Have you ever watched an awesome presentation? The presenter promises to share some resources. You’re excited to see what they recommend. But then they start racing through their slides. The URLs flash past before you can even write them down. Frustrating, right? Don’t do that to your audience.
 
 <!--endintro-->
 
@@ -32,13 +32,13 @@ This reduces friction for interested people trying to view your website!
 
 #### Use QR codes in your presentations
 
-Showing URLs on a slide is sometimes necessary - for example, you might be specifically talking about URLs. But when it comes to sharing resources, your audience will struggle to note them down, and lingering on the slide just so people can take note of it can interrupt your flow.
+Sometimes you need to show URLs on a slide. For example, you might be talking about the URLs themselves. But when you’re sharing resources, your audience struggles to write them down. The URLs slip past before they’re ready. And if you linger on the slide just so people can copy them, it breaks your flow.
 
 ::: bad
 ![Figure: Bad example - A long URL is impossible to note down](url-in-presentation-bad.png)
 :::
 
-A much better approach is to use QR codes in your slides instead. Your audience can quickly scan the code and bookmark the interesting resource you are sharing.
+A better approach is to use QR codes in your slides. Your audience scans the code in a second. They can bookmark the resource right away, without becoming stressed.
 
 ::: good
 ![Figure: Good example - A QR code is easier for the audience to quickly scan during a talk](url-in-presentation-good.png)
