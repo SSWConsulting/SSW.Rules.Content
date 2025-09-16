@@ -54,18 +54,20 @@ def should_be_archived_based_on_reason(lines):
     
     New logic:
     - If rule has no archivedreason, add an empty one and set isArchived: false
-    - If archivedreason is empty, null, or undefined, then isArchived: false
+    - If archivedreason is empty, null, undefined, or "", then isArchived: false
     - If archivedreason has content, then isArchived: true
     """
     content = '\n'.join(lines)
     # Look for archivedreason: followed by actual content on the same line
-    reason_match = re.search(r'^archivedreason:\s*(.+)$', content, re.MULTILINE)
+    reason_match = re.search(r'^archivedreason:\s*(.*)$', content, re.MULTILINE)
     if reason_match:
         reason = reason_match.group(1).strip()
         # Rule should be archived if archivedreason has actual content
         if not reason:  # Empty string after stripping
             return False
         if reason.lower() in ['null', 'undefined', 'none']:
+            return False
+        if reason == '""':  # Handle explicit empty string quotes
             return False
         return True
     
@@ -84,6 +86,8 @@ def should_be_archived_based_on_reason(lines):
                     # If next line has content and doesn't start a new field, consider it the reason
                     if next_line and not re.match(r'^[a-zA-Z_][a-zA-Z0-9_]*:', next_line):
                         if next_line.lower() in ['null', 'undefined', 'none']:
+                            return False
+                        if next_line == '""':  # Handle explicit empty string quotes
                             return False
                         return True
                 # If archivedreason: is on its own line with no content following, consider it empty
