@@ -48,7 +48,7 @@ A better approach is to use QR codes in your slides. Your audience scans the cod
 
 ::: info
 
-**Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint. 
+**Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint.
 
 Check out this video:
 
