@@ -11,6 +11,7 @@ index:
   - avoid-repetition
   - avoid-acronyms
   - avoid-unclear-terms
+  - avoid-short-ambiguous-dates
   - avoid-common-mistakes
   - are-you-careful-with-your-spelling-grammar-and-punctuation
   - use-the-right-capitalization
