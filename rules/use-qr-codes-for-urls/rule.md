@@ -21,16 +21,16 @@ Have you ever watched an awesome presentation? The presenter promises to share s
 
 **Video: What’s the difference between QR and barcode? (2 min)**
 
-#### Use QR codes in your marketing material
+## Use QR codes in marketing materials
 
 You should put QR codes in all your marketing material, wherever there is a URL.
 This reduces friction for interested people trying to view your website!
 
 ::: good
-![Figure: Good example - We use QR codes in our banners in conference, making attendees more likely to open the website on their phones.](qr-code-in-booth.png)
+![Figure: Good example - We use QR codes in our banners in conference, making attendees more likely to open the website on their phones](qr-code-in-booth.png)
 :::
 
-#### Use QR codes in your presentations
+## Use QR codes in presentations
 
 Sometimes you need to show URLs on a slide. For example, you might be talking about the URLs themselves. But when you’re sharing resources, your audience struggles to write them down. The URLs slip past before they’re ready. And if you linger on the slide just so people can copy them, it breaks your flow.
 
@@ -46,8 +46,13 @@ A better approach is to use QR codes in your slides. Your audience scans the cod
 
 ---
 
-**💡 Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint. Check out this video:
+::: info
+
+**Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint. 
+
+Check out this video:
 
 `youtube: https://www.youtube.com/embed/XRveGL3nXUM`
 
 **Video: How to create QR code in PowerPoint (2 min)**
+:::
