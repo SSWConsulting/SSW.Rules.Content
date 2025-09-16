@@ -38,7 +38,7 @@ There are 3 types of mockup or prototype, use depends on the specific goals and 
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
-### Low-fidelity Mockups
+## Low-fidelity Mockups
 
 Creating a low-fidelity design mockup can be achieved through various methods including wireframes, paper prototypes, and other similar techniques. It can be valuable to have the Product Owner on call when creating a low-fidelity mockup to get immediate feedback and direction.
 
@@ -48,7 +48,7 @@ Start by identifying the key features and functionality that the product should 
 ![Figure: Good Example - A hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
-Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Figma, Adobe XD, or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
+Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Excalidraw, Figma, Adobe XD or Sketch. Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
 
 ::: good
 ![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
@@ -56,7 +56,7 @@ Then create a basic wireframe of your design. A wireframe is a visual representa
 
 Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup.
 
-### High-fidelity Mockups
+## High-fidelity Mockups
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
@@ -74,21 +74,22 @@ Use a design tool such as Figma to create high-fidelity mockups of a website or 
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
-### Interactive Prototypes
+## Interactive Prototypes
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 
 `youtube: https://www.youtube.com/embed/-d6zNGeF59M`
 
-### What are the best tools?
+## What are the best tools?
 
-* [Figma](https://www.figma.com) (Recommended)
+* [Excalidraw](https://excalidraw.com/) (Recommended for low-fidelity mockups)
+* [Figma](https://www.figma.com) (Recommended for high-fidelity mockups)
 * [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
 * [Moqups](https://moqups.com) (HTML5 based App)
 * [Balsamiq](https://balsamiq.com)
 * [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
-### Tips
+## Tips
 
 ::: greybox
 
