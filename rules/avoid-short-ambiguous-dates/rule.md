@@ -21,6 +21,9 @@ It's a small habit, but writing dates properly can prevent fraud, confusion, and
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/shorts/3b3cVZtDMLo`
+**Video: Do you avoid short / ambiguous dates? SSW Rules (48 sec)**
+
 ## ❌ Avoid short formats
 
 - `2/1` is not helpful at all
