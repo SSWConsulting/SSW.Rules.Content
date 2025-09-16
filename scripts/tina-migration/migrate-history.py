@@ -49,6 +49,16 @@ def patch_frontmatter_lines(lines, updates):
 
     return lines[:start + 1] + patched + lines[end:]
 
+def has_meaningful_archive_reason(lines):
+    """Check if the file has a meaningful archivedreason"""
+    content = '\n'.join(lines)
+    reason_match = re.search(r'^archivedreason:\s*(.+)', content, re.MULTILINE)
+    if reason_match:
+        reason = reason_match.group(1).strip()
+        # Consider meaningful if not null, empty, or just whitespace
+        return reason and reason.lower() not in ['null', '', 'none'] and len(reason.strip()) > 0
+    return False
+
 def update_file(filepath, meta):
     with open(filepath, "r", encoding="utf-8") as f:
         lines = f.read().splitlines()
@@ -63,7 +73,11 @@ def update_file(filepath, meta):
     }
     
     if "public/uploads/rules/" in filepath:
-        updates["isArchived"] = "true" if meta.get("isArchived") is True else "false"
+        # Check if rule should be archived based on:
+        # 1. History data has isArchived: true, OR
+        # 2. File has meaningful archivedreason content
+        should_be_archived = meta.get("isArchived") is True or has_meaningful_archive_reason(lines)
+        updates["isArchived"] = "true" if should_be_archived else "false"
 
     new_lines = patch_frontmatter_lines(lines, updates)
 
