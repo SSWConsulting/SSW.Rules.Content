@@ -52,7 +52,7 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 
 * **Tag related issues automatically** - Assigns consistent labels to similar backlog items, making it easier to organize and filter work
 * **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives
-* **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint 
+* **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
 ### 4. Estimate effort
 
@@ -102,4 +102,4 @@ You can connect any MCP-compatible client to GitHub and bring it into your backl
 
 * AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks  
 * It’s a support tool — final decisions stay with the team  
-* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes 
+* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes
