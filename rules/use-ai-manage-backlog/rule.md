@@ -81,7 +81,7 @@ AI can help prioritize by:
 
 # How to connect an MCP client to GitHub  
 
-You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our [rule](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/) on MCPs for more information. 
+You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our [rule](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/) on MCPs for more information.
 
 ## Steps  
 
