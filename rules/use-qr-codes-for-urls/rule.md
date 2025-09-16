@@ -8,12 +8,29 @@ created: 2024-11-18T00:43:28.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/goldie
+  - title: Eddie Kranz
+    url: https://ssw.com.au/people/eddie-kranz
 related: []
 ---
 
 Have you ever watched an awesome presentation, and been excited to hear the presenter say they are going to share some resources, only to be frustrated when they're racing through their slides too fast for you to note down the URLs they are sharing? It's best not to do that to your audience.
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=gB0-1yoR8g4`
+
+**Video: What’s the difference between QR and barcode? (2 min)**
+
+#### Use QR codes in your marketing material
+
+You should put QR codes in all your marketing material, wherever there is a URL.
+This reduces friction for interested people trying to view your website!
+
+::: good
+![Figure: Good example - We use QR codes in our banners in conference, making attendees more likely to open the website on their phones.](qr-code-in-booth.png)
+:::
+
+#### Use QR codes in your presentations
 
 Showing URLs on a slide is sometimes necessary - for example, you might be specifically talking about URLs. But when it comes to sharing resources, your audience will struggle to note them down, and lingering on the slide just so people can take note of it can interrupt your flow.
 
