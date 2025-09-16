@@ -11,6 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/eli-kent/
 related:
   - backlog-refinement-meeting
+  - use-mcp-to-standardize-llm-connections
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
