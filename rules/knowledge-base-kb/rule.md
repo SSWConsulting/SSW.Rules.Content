@@ -3,7 +3,7 @@ seoDescription: Do you have a Knowledge Base (KB)?
 type: rule
 archivedreason:
 title: Do you have a Knowledge Base (KB)?
-guid: 00879668-3bca-40bf-bdeb-7e4970062fc6
+guid: be630745-f956-4c85-a521-5c8b210f93fe
 uri: knowledge-base-kb
 created: 2009-03-02T02:45:54.0000000Z
 authors:

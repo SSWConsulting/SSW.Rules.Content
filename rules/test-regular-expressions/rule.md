@@ -7,7 +7,7 @@ authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin
 created: 2024-03-09T01:35:11.086Z
-guid: 6be11005-f82a-48ba-8300-460284be1df5
+guid: b3479545-f9e1-4979-9419-f5f864d16468
 ---
 
 Everyone writes unit tests for their code, because it helps developer to make changes in future without breaking existing functionalities. The same goes for regular expressions. A good regular expression will have a set of test cases to make sure any future changes does not invalidate existing requirements.

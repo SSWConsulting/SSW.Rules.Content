@@ -13,9 +13,10 @@ index:
 - do-you-know-the-main-features-of-linkedin-talent-hub
 - recruitment-data
 - do-you-use-tags-on-linkedin-hub
+- do-you-thoroughly-test-employment-candidates
+- validate-employees-background-checks
 - make-newcomers-feel-welcome
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
-- do-you-thoroughly-test-employment-candidates
 - make-secondary-linkedin-account-obvious
 - successful-reachouts
 - validate-employees-background-checks

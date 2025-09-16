@@ -18,18 +18,17 @@ redirects:
 ---
 
 In Bing, if you are logged in to your work account, you can easily see your recent files!
+
 The same works for your work colleagues.
 
 <!--endintro-->
 
-::: good  
-![Good Example: Bing - Find your files faster by just searching on Bing](bing-recent-files.png)  
+![Figure: Find your files or someone else’s faster by just searching on Bing](bing-recent-files.png)  
+
+::: info
+**Suggestion to Microsoft:** Put a checkbox "Show thumbnails" to allow a better experience.
 :::
 
-**Suggestion to Microsoft:** Put a checkbox "Show thumbnails" like Delve.
+In a slower way, you can go to **M365 Copilot | Search | Content** to see this information with a different UI with big images.
 
-In a slower way, you can go to Delve to see this information with a different UI with big images.
-
-::: bad  
-![Bad Example: Delve - Is harder to get to and the UI doesn't offer a summary view like Bing](delve-recent-files.png)  
-:::
+![Figure: Find your files or someone else’s by searching in M365 Copilot](copitot-recent-files.png)

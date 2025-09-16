@@ -3,7 +3,7 @@ seoDescription: How to take feedback or criticism effectively, even if it's not 
 type: rule
 archivedreason:
 title: Communication - Do you know the 3 A's for receiving feedback/criticism (even if it’s not your fault)?
-guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
+guid: 0a850f07-ec50-4bb5-8313-cac67d0b39fa
 uri: how-to-take-feedback-or-criticism
 created: 2013-04-08T20:28:20.0000000Z
 authors:

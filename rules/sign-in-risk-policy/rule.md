@@ -9,7 +9,7 @@ authors:
 related:
   - risky-users-policy
 created: 2022-04-29T02:06:23.523Z
-guid: 0aef7548-1e06-4723-9f51-a6da5f564813
+guid: 8faf35c0-b062-4223-9bd3-aec5373eafa6
 ---
 
 Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.
