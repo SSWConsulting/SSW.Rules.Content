@@ -25,9 +25,9 @@ Make sure your document contains:
 * **Footer** - The filename (hyperlinked with the URL) and the [version number](/show-version-numbers)
 
 ::: bad
-![Bad example - The link is too long and messy](bad-footer.jpg)
+![Figure: Bad example - The link is too long and messy](bad-footer.jpg)
 :::
 
 ::: good
-![Good example - The header and footer are consistent, using the branding colours and all the useful information](proposal-header-and-footer.jpg)
+![Figure: Good example - The header and footer are consistent, using the branding colours and all the useful information](proposal-header-and-footer.jpg)
 :::
