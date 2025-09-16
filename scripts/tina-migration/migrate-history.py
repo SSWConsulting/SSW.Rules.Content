@@ -110,19 +110,7 @@ def update_file(filepath, meta):
     }
     
     if "public/uploads/rules/" in filepath:
-        # Check if archivedreason field exists
-        content = '\n'.join(lines)
-        has_archivedreason = bool(re.search(r'^archivedreason:', content, re.MULTILINE))
-        
-        # Add empty archivedreason if it doesn't exist - do this first
-        if not has_archivedreason:
-            updates["archivedreason"] = ""
-            # Update lines with the new archivedreason field before checking
-            lines = patch_frontmatter_lines(lines, {"archivedreason": ""})
-        
-        # For rules only: set isArchived based on archivedreason content (now with updated lines)
-        should_be_archived = should_be_archived_based_on_reason(lines)
-        updates["isArchived"] = "true" if should_be_archived else "false"
+        updates["isArchived"] = "true" if meta.get("isArchived") is True else "false"
 
     new_lines = patch_frontmatter_lines(lines, updates)
 
