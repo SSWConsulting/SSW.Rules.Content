@@ -9,6 +9,9 @@ authors:
     url: https://www.ssw.com.au/people/gert-marx/
   - title: Eli Kent
     url: https://www.ssw.com.au/people/eli-kent/
+related:
+  - backlog-refinement-meeting
+  - use-mcp-to-standardize-llm-connections
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
@@ -79,7 +82,7 @@ AI can help prioritize by:
 
 # How to connect an MCP client to GitHub  
 
-You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow.  
+You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our [rule](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/) on MCPs for more information.
 
 ## Steps  
 
@@ -95,9 +98,9 @@ You can connect any MCP-compatible client to GitHub and bring it into your backl
    * Example queries:  
      * *“Which issues are too big for a sprint?”*  
      * *“Group all issues related to payments into an epic.”*  
-     * *“Suggest estimates based on past completed issues.”*  
+     * *“Suggest estimates based on past completed issues.”*
 
-![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Generic.png)  
+![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Claude.png)  
 
 ## Quick Recap  
 
