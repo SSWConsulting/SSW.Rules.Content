@@ -7,6 +7,8 @@ guid: 76838a73-4219-4127-8033-f5f4edbf8091
 uri: use-passkeys
 created: 2024-09-17T00:00:00.000Z
 authors:
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
   - title: Baba Kamyljanov
