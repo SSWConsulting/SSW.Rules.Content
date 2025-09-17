@@ -15,88 +15,104 @@ related:
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
-Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting **Claude.ai** (or alternatives like ChatGPT or Cursor.ai) to GitHub, you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
+Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting **Claude Code** (or alternatives like ChatGPT or Cursor.ai) to GitHub, you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
+
+<!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=KWjYXYBIIQo`
 **Video: Managing 1000+ GitHub Issues with Claude AI – Eli & Gert Reveal the Secret Sauce | SSW Rules (8 mins)**
 
 ## Why AI is useful for backlog management
 
-### 1. Handle large, messy backlogs
+### 1. Check for existing and duplicate issues
 
-Backlogs often contain hundreds of items, making it hard to spot what matters most.  
-AI can:
+Backlogs often contain hundreds of items, and sometimes, it's hard to know if an issue already exists before you create it.
+With AI managing your backlog, you can easily:
 
-* **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter.
-* **Highlight overlooked high-priority items** - Spots critical issues buried in the backlog so they get the attention they deserve.
-* **Summarize backlog areas at a glance** - Groups and condenses issues into clear themes, making it easy to see where work is concentrated.
+* **Find an existing issue** - Finds an existing issue based on the description provided
+* **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter
 
-![](Big-Backlog.gif)
+::: bad
+![Figure: Bad example — In this case, there are 4 topics that have duplicates](Big-Backlog.gif)
+:::
 
-❌ Figure: Bad Example — Wasting time manually searching for duplicates
-
-![](Duplicates-GitHub.png)
-
-✅ Figure: Good Example — AI automatically surfaces duplicates and overlaps  
+::: good
+![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
 
 ### 2. Break down large items
 
-Some backlog items (PBIs) are simply too big to complete in a sprint.  
-AI can:
+Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 
-* **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a sprint.
-* **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.  
+* **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a Sprint
+* **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
+
+::: good
+![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
+:::
 
 ### 3. Group related work
 
-Sprints are more effective when they focus on a single area or feature.  
-AI can:
+Sprints are more effective when they focus on a single area or feature. AI can:
 
-* **Tag related issues automatically** - Assigns consistent labels to similar backlog items, making it easier to organize and filter work.
-* **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives.
-* **Suggest sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive sprint.  
+* **Tag related issues automatically** - Assigns consistent labels to similar backlog items, making it easier to organize and filter work
+* **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives
+* **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
+
+::: good
+![Figure: Good example — AI groups related works under epics](Grouping-GitHub.png)
+:::
 
 ### 4. Estimate effort
 
-AI can compare a new item against similar past issues and suggest an estimate.  
-This is especially helpful when:
+AI can compare a new item against similar past issues and suggest an estimate. This is especially helpful when:
 
-* **Estimating bugs vs features** - Compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features.  
-* **Providing quick t-shirt sizing (S, M, L) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement.  
+* **Estimating bugs vs features** - Compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
+* **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
-### 5. Kick-start new requests
+::: good
+![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
+:::
 
-When a vague request comes in (“Improve reporting”), AI can help you:  
+### 5. Propose dependencies
 
-* **Break it into concrete tasks** - Transforms vague requests into specific, actionable steps the team can pick up immediately.  
-* **Draft acceptance criteria** - Generates clear, testable conditions that define when a task or feature is successfully completed.  
-* **Propose dependencies** - Identifies related tasks or prerequisites that need to be completed first, reducing blockers during delivery.
+When a request comes in, it isn't easy to know what issues are required to complete it. AI helps this by:
+
+* **Identifying existing issues** - Finds prerequisites that need to be completed first to ensure the delivery is not blocked
+* **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
+
+::: good
+![Figure: Good example — AI finds related issues for a given issue](Dependencies-GitHub.png)
+:::
 
 ### 6. Prioritize smarter
 
-Not every backlog item has the same impact.  
-AI can help prioritize by:  
+Not every backlog item has the same impact. AI can help prioritize by:  
 
-* **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work.  
-* **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first.  
+* **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work  
+* **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
 
-# How to connect an MCP client to GitHub  
+::: good
+![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
+:::
 
-You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our [rule](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/) on MCPs for more information.
+## How to connect an MCP client to GitHub  
 
-## Steps  
+You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
+
+### Steps  
 
 1. **Install an MCP Client**  
-   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP).  
+   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP)  
 
 2. **Configure the GitHub MCP Server**  
-   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server).  
-   * Add the GitHub MCP server to your client’s configuration.  
+   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server)  
+   * Add the GitHub MCP server to your client’s configuration  
 
 3. **Start Querying Your Backlog**  
-   * Once connected, you can interact with your GitHub issues and pull requests in natural language.  
+   * Once connected, you can interact with your GitHub issues and pull requests in natural language  
    * Example queries:  
-     * *“Which issues are too big for a sprint?”*  
+     * *“Which issues are too big for a Sprint?”*  
      * *“Group all issues related to payments into an epic.”*  
      * *“Suggest estimates based on past completed issues.”*
 
@@ -104,6 +120,6 @@ You can connect any MCP-compatible client to GitHub and bring it into your backl
 
 ## Quick Recap  
 
-* AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks.  
-* It’s a support tool — final decisions stay with the team.  
-* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes.  
+* AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks  
+* It’s a support tool — final decisions stay with the team  
+* The more data you provide (issues, history, estimates), the more accurate and helpful it becomes
