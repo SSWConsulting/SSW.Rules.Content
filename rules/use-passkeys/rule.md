@@ -43,11 +43,11 @@ Passwords are a traditional technology that create security vulnerabilities thro
 2. **Synced across devices** - Passkeys created with major providers like Google, Apple, or Microsoft automatically sync across your devices using their secure cloud services (e.g.: Google Password Manager, iCloud Keychain). This means a passkey you create on your phone will be available on your tablet and laptop, as long as you're signed into the same account.
 3. **No forgotten passwords** - Never forget a password again or get locked out of accounts
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Traditional password vulnerable to phishing, are often used across many accounts, and you may forget it over time](sign-in-with-password.png)
 :::
 
-::: good
+::: good img-medium
 ![Figure: Good example - Passkey authentication is phishing-resistant and convenient (in this example using Windows PIN)](sign-in-with-passkey.png)
 :::
 
@@ -83,9 +83,11 @@ Passwords are a traditional technology that create security vulnerabilities thro
    * In Authenticator app select your Microsoft account
    * Then select **Create a passkey** and follow the instructions
 
+   ::: img-medium
    ![Figure: Passkey created successfully](passkey-create-success.png)
-
-5. **Test your passkey**
+   :::
+   
+6. **Test your passkey**
 
    * Sign out of your Microsoft account
    * When signing back in, select **"Other ways to sign in"**
