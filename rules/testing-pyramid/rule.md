@@ -27,7 +27,7 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 
 > "All models are wrong, but some are useful"
 >
-> - George Box
+> * George Box
 
 The test pyramid is a model and, like all models, it is wrong, though it is perhaps useful.
 
@@ -81,5 +81,5 @@ Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://lea
 
 ### Further reading
 
-- [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
-- [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen
+* [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
+* [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen

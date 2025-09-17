@@ -22,7 +22,7 @@ If there is an upgrade available (see ["Have you installed the latest DNN versio
 3. Check your database and website backups!
 4. Download the latest DotNetNuke upgrade package:
 
-   A. From the www.dotnetnuke.com site. You may need login credentials if you are using a non-community version of DNN or
+   A. From the <www.dotnetnuke.com> site. You may need login credentials if you are using a non-community version of DNN or
    B. Click the "Upgrade Available" button that appears when you are _not_ running the latest version.
 
 5. Create a basic html document called app_offline.htm. This page will be shown on the site while you are doing the upgrade.

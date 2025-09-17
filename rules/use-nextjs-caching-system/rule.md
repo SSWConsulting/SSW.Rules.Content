@@ -13,7 +13,7 @@ related:
  
 ---
 
-Next.js 15 introduced a more explicit and developer-friendly caching system. 
+Next.js 15 introduced a more explicit and developer-friendly caching system.
 But it's not automatic—caching only activates when you *opt in* using three mechanisms: enabling two flags (`dynamicIO`, `useCache`) in your config and adding the `"use cache"` directive inside a file, a component or a function. This triple-lock prevents accidental caching and gives you fine-grained control over revalidation and tagging.
 
 <!--endintro-->
@@ -57,9 +57,9 @@ export default async function ProductPage() {
 
 Use the built-in functions below to fine-tune caching behavior:
 
-- **`cacheLife(seconds)`**: Sets a time-to-live (TTL), similar to ISR’s `revalidate`.
-- **`cacheTag(tag)`**: Associates a label (e.g. `user-123`) to allow grouped invalidation.
-- **`revalidateTag(tag)`**: Clears all entries with that tag on next request—ideal for post-write updates.
+* **`cacheLife(seconds)`**: Sets a time-to-live (TTL), similar to ISR’s `revalidate`.
+* **`cacheTag(tag)`**: Associates a label (e.g. `user-123`) to allow grouped invalidation.
+* **`revalidateTag(tag)`**: Clears all entries with that tag on next request—ideal for post-write updates.
 
 ```javascript
 cacheLife(3600)
@@ -77,15 +77,18 @@ export async function POST() {
 When using `dynamicIO`, some core Next.js behaviors change:
 
 1. `cookies()` and `headers()` become async functions:
+
 ```javascript
 import { cookies } from 'next/headers'
 const token = (await cookies()).get('token')
 ```
 
 2. Route files are dynamic by default. You must explicitly add:
+
 ```javascript
 export const dynamic = 'force-static'
 ```
+
 if you want to guarantee build-time rendering.
 
 ## Pro Patterns
@@ -109,9 +112,9 @@ Figure: Good example - Mixing real-time and cached content gives you performance
 
 ## Additional Notes
 
-- Cache keys are based on build ID + args, so new props auto-generate new cache entries.
-- The client router cache uses `staleTime: 0` by default—navigations recheck the server.
-- Deploys automatically clear cache, so no need for manual flushing.
+* Cache keys are based on build ID + args, so new props auto-generate new cache entries.
+* The client router cache uses `staleTime: 0` by default—navigations recheck the server.
+* Deploys automatically clear cache, so no need for manual flushing.
 
 You can learn more in depth about how to cache with Next.js in the [official documentation](https://nextjs.org/docs/app/building-your-application/caching).
 

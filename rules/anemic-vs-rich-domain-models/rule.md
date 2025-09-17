@@ -39,8 +39,8 @@ class Order {
     public decimal TotalAmount { get; set; }
 }
 ```
-**Figure: Example - Anemic model where the Order class is just a data container with no behavior.**
 
+**Figure: Example - Anemic model where the Order class is just a data container with no behavior.**
 
 ## Rich Domain Model
 
@@ -83,8 +83,8 @@ class Order {
     }
 }
 ```
-**Figure: Example - Rich model where the Order class encapsulates data and business logic.**
 
+**Figure: Example - Rich model where the Order class encapsulates data and business logic.**
 
 In both cases the Application is still responsible for communicating with external systems via abstractions implemented in the Infrastructure Layer.
 

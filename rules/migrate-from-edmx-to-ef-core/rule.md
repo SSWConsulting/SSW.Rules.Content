@@ -108,6 +108,7 @@ internal class TenantDbContext : ITenantDbContext
     public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
+
 ::: good
 Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.
 :::

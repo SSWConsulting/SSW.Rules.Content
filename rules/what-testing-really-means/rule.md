@@ -8,7 +8,7 @@ authors:
 created: 2022-10-04T23:47:00.656Z
 guid: e49fd41e-0790-42bb-b6e4-da3ed85d984c
 ---
-Everyone thinks they know what "testing" is. Like most things, though, there isn't a shared understanding of what testing really means across the IT industry. 
+Everyone thinks they know what "testing" is. Like most things, though, there isn't a shared understanding of what testing really means across the IT industry.
 
 Distinguishing "testing" and "checking" is a great way to help build this shared understanding when we're talking about this critical part of the software development process.
 
@@ -20,9 +20,8 @@ A commonly held view is that the purpose of testing is to detect non-conformance
 
 "Testing" is often conflated with "finding bugs" and we all know how easy it is to find bugs in the software we use every day:
 
-
 > There's a reason that many people think testing is easy, due to an asymmetry. No one ever fired up a computer and stumbled into creating a slick UI or a sophisticated algorithm, but people stumble into bugs every day. Finding bugs is easy, they think. So testing must be easy.
->     \- Michael Bolton
+> \- Michael Bolton
 
 ### Testing and checking
 
