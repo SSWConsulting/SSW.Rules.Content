@@ -53,37 +53,37 @@ Passwords are a traditional technology that creates security vulnerabilities thr
 
 ### Prerequisites
 
-- Microsoft Authenticator app installed on your mobile device and your Microsoft account added to Authenticator
-- A device that supports biometric authentication (fingerprint, face recognition, or PIN)
+* Microsoft Authenticator app installed on your mobile device and your Microsoft account added to Authenticator
+* A device that supports biometric authentication (fingerprint, face recognition, or PIN)
 
 ### Steps to create a Passkey
 
 1. **Navigate to your Microsoft security settings**
 
-   - Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info)
-   - Sign in with your Microsoft account credentials
+   * Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info)
+   * Sign in with your Microsoft account credentials
 
 2. **Add a new sign-in method**
 
-   - Click **"+ Add sign-in method"**
+   * Click **"+ Add sign-in method"**
 
 3. **Choose your passkey type**
 
-   - Select **"Passkey in Microsoft Authenticator"** for device-bound passkeys using face, fingerprint, or PIN
+   * Select **"Passkey in Microsoft Authenticator"** for device-bound passkeys using face, fingerprint, or PIN
 
 4. **Set up through Microsoft Authenticator**
 
-   - In Authenticator app select your Microsoft account
-   - Then select **Create a passkey** and follow the instructions
+   * In Authenticator app select your Microsoft account
+   * Then select **Create a passkey** and follow the instructions
 
    ![Figure: Passkey created successfully](passkey-create-success.png)
 
 5. **Test your passkey**
 
-   - Sign out of your Microsoft account
-   - When signing back in, select **"Other ways to sign in"**
-   - Choose **"Face, fingerprint, PIN, or security key"** option
-   - Use your biometric authentication to complete sign-in
+   * Sign out of your Microsoft account
+   * When signing back in, select **"Other ways to sign in"**
+   * Choose **"Face, fingerprint, PIN, or security key"** option
+   * Use your biometric authentication to complete sign-in
 
 ::: greybox
 **Pro tip:** Set up passkeys on multiple devices (phone, laptop, tablet) to ensure you always have access to your accounts even if one device is unavailable.
@@ -91,16 +91,16 @@ Passwords are a traditional technology that creates security vulnerabilities thr
 
 ### Managing your passkeys
 
-- **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
-- **Remove passkeys:** Delete unused passkeys for old or lost devices
+* **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
+* **Remove passkeys:** Delete unused passkeys for old or lost devices
 
 ## Supporting Passkeys in your applications
 
 If you're developing applications, consider implementing passkey support using:
 
-- **WebAuthn API** for web applications
-- **Platform-specific APIs** for mobile apps
-- **FIDO2 libraries** for server-side implementation
+* **WebAuthn API** for web applications
+* **Platform-specific APIs** for mobile apps
+* **FIDO2 libraries** for server-side implementation
 
 Learn more at [FIDO Alliance](https://fidoalliance.org/passkeys/) and [Microsoft's Passwordless documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless).
 
