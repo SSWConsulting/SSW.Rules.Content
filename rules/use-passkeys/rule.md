@@ -26,7 +26,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/bdp8RdjV6PU`
-**Video: What are passkeys? Explained in under 4 minutes**
+**Video: What are passkeys? Explained in under 4 minutes (4 min)**
 
 ## Why Passkeys are superior to passwords
 
@@ -51,7 +51,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 ![Figure: Good example - Passkey authentication is phishing-resistant and convenient (in this example using Windows PIN)](sign-in-with-passkey.png)
 :::
 
-## How to set up Passkeys for your Microsoft Entra Account
+## How to set up passkeys for your Microsoft Entra Account
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
    5. Then tap **Scan a QR Code**
 * A device that supports biometric authentication (fingerprint, face recognition, or PIN)
 
-### Steps to create a Passkey
+### Steps to create a passkey
 
 1. **Navigate to your Microsoft security settings**
 
@@ -100,7 +100,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 **Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your security dashboard at <https://account.microsoft.com/security>.
 :::
 
-### Managing your passkeys
+### Managing passkeys
 
 * **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
 * **Remove passkeys:** Delete unused passkeys for old or lost devices
