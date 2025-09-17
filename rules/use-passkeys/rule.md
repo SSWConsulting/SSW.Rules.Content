@@ -55,7 +55,12 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
 ### Prerequisites
 
-* Microsoft Authenticator app installed on your mobile device and your Microsoft account added to Authenticator
+* If you haven't set up the Microsoft Authenticator app with your account yet, follow these steps:
+   1. Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info)
+   2. Select **+ Add sign-in method**
+   3. Choose **Microsoft Authenticator** from the dropdown and select Add
+   4. Open Authenticator on your phone, click the **+** and select **Work or school account**
+   5. Then tap **Scan a QR Code**
 * A device that supports biometric authentication (fingerprint, face recognition, or PIN)
 
 ### Steps to create a Passkey
@@ -67,11 +72,11 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
 2. **Add a new sign-in method**
 
-   * Click **"+ Add sign-in method"**
+   * Click **+ Add sign-in method**
 
 3. **Choose your passkey type**
 
-   * Select **"Passkey in Microsoft Authenticator"**. This will create a passkey stored securely on your phone, which you can use to sign in on this or other devices.
+   * Select **Passkey in Microsoft Authenticator**. This will create a passkey stored securely on your phone, which you can use to sign in on this or other devices.
 
 4. **Set up through Microsoft Authenticator**
 
@@ -84,7 +89,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
    * Sign out of your Microsoft account
    * When signing back in, select **"Other ways to sign in"**
-   * Choose **"Face, fingerprint, PIN, or security key"** option
+   * Choose **Face, fingerprint, PIN, or security key** option
    * Use your biometric authentication to complete sign-in
 
 ::: greybox
@@ -109,5 +114,6 @@ Most companies including SSW have committed to the vision of a passwordless futu
 * [FIDO Alliance - Passkeys](https://fidoalliance.org/passkeys/)
 * [Microsoft Docs - Passwordless authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless)
 * [Microsoft Support - Signing in with a passkey](https://support.microsoft.com/en-us/account-billing/signing-in-with-a-passkey-09a49a86-ca47-406c-8acc-ed0e3c852c6d)
+* [Learn more about Microsoft Authenticator app](https://support.microsoft.com/en-us/account-billing/about-microsoft-authenticator-9783c865-0308-42fb-a519-8cf666fe0acc)
 * [Learn about WebAuthn](https://webauthn.io/)
 * [FIDO2 .NET library for server side implementation of Passkeys](https://github.com/passwordless-lib/fido2-net-lib)
