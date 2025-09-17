@@ -94,16 +94,14 @@ Passwords are a traditional technology that creates security vulnerabilities thr
 * **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
 * **Remove passkeys:** Delete unused passkeys for old or lost devices
 
-## Supporting Passkeys in your applications
-
-If you're developing applications, consider implementing passkey support using:
-
-* **WebAuthn API** for web applications
-* **Platform-specific APIs** for mobile apps
-* **FIDO2 libraries** for server-side implementation
-
-Learn more at [FIDO Alliance](https://fidoalliance.org/passkeys/) and [Microsoft's Passwordless documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless).
-
 ## The future is passwordless
 
 Most companies including SSW have committed to the vision of a passwordless future. By adopting passkeys now, you're not just improving your current security posture - you're preparing for a world where passwords become obsolete.
+
+### References
+
+* [FIDO Alliance - Passkeys](https://fidoalliance.org/passkeys/)
+* [Microsoft Docs - Passwordless authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-passwordless)
+* [Microsoft Support - Signing in with a passkey](https://support.microsoft.com/en-us/account-billing/signing-in-with-a-passkey-09a49a86-ca47-406c-8acc-ed0e3c852c6d)
+* [Learn about WebAuthn](https://webauthn.io/)
+* [FIDO2 .NET library for server side implementation of Passkeys](https://github.com/passwordless-lib/fido2-net-lib)
