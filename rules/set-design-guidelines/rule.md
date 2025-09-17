@@ -44,7 +44,7 @@ These are things to keep in mind for good branding:
 * **[Cars](/cars-branding)**
 * Others, like **[coffee mugs](/coffee-mugs-branding)**, **[plastic bags](/plastic-bags-branding)**, etc
 
-### Create a well-documented brand guideline 
+### Create a well-documented brand guideline
 
 ::: good
 ![Figure: Good example - YakShaver brand guideline](yakshaver-brand-guide-screenshot-v2.jpg)
