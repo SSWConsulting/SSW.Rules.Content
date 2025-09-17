@@ -26,20 +26,20 @@ It's a small habit, but writing dates properly can prevent fraud, confusion, and
 
 ## ❌ Avoid short formats
 
-- `2/1` is not helpful at all
-- `2/1/12` is vulnerable to tampering and misreading
+* `2/1` is not helpful at all
+* `2/1/12` is vulnerable to tampering and misreading
 
 ## ❌ Avoid ambiguous formats
 
-- `08/09/25` could mean August 9, 2025 or September 8, 2025, depending on the region date format being used:
+* `08/09/25` could mean August 9, 2025 or September 8, 2025, depending on the region date format being used:
 
-  - U.S. uses `MM/DD/YY`
-  - Most of the world use `DD/MM/YY`
+  * U.S. uses `MM/DD/YY`
+  * Most of the world use `DD/MM/YY`
 
 ## ✅ Best options for clarity in documents
 
-- **Formal / technical docs** - `2025-02-12` ([ISO 8601 standard](https://en.wikipedia.org/wiki/ISO_8601))
-- **Readable docs / mixed audiences** - `12 Feb 2025` (use a 3-letter month to avoid confusion)
+* **Formal / technical docs** - `2025-02-12` ([ISO 8601 standard](https://en.wikipedia.org/wiki/ISO_8601))
+* **Readable docs / mixed audiences** - `12 Feb 2025` (use a 3-letter month to avoid confusion)
 
 ::: greybox
 Signed on 2/1/25
@@ -57,21 +57,22 @@ Figure: Good example – Clear, unchangeable, ISO standard
 
 ::: greybox
 Signed on 12 Feb 2025
+:::
 ::: good
 Good example – Uses 3-letter month for clarity across regions
 :::
 
 ### Format for clarity and integrity
 
-- **Day** - Always two digits (`01` to `31`)
-- **Month** - Use two digits (`01` to `12`) when you can't use letters
-- **Year** - Always four digits (e.g. `2025` – unless you're from the future after year 9999)
-- **Separators** - ISO 8601 prefers dashes (spaces if using 3-letter month)
+* **Day** - Always two digits (`01` to `31`)
+* **Month** - Use two digits (`01` to `12`) when you can't use letters
+* **Year** - Always four digits (e.g. `2025` – unless you're from the future after year 9999)
+* **Separators** - ISO 8601 prefers dashes (spaces if using 3-letter month)
 
 > A document is only as reliable as the details on it. Don't let a shortcut make it questionable.
 
 This rule isn't about style but about **trust**. Whether it's a legal contract, client invoice, or project brief, using full numeric dates to ensure:
 
-- The date can't be easily altered
-- Readers across regions (US, AU, EU) understand it clearly
-- The document remains valid long into the future
+* The date can't be easily altered
+* Readers across regions (US, AU, EU) understand it clearly
+* The document remains valid long into the future
