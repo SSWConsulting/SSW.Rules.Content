@@ -49,6 +49,7 @@ As a guiding principle, Account Managers should not join daily scrums or partici
 *  ✅ Conflict resolution
 *  ✅ Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
 *  ✅ Budget discussions
+*  ✅ Join Sprint Reviews periodically e.g. once a month (or if there are issues)
 
 ### Tech Lead
 **Generally avoid:**
