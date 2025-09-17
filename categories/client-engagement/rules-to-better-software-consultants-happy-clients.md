@@ -14,6 +14,7 @@ index:
 - send-a-thank-you-email-to-your-client
 - poc-vs-mvp
 - separate-urge-from-behavior
+- underpromise-overdeliver
 ---
 
 Aiming for 'happy clients' can be an elusive game. Ultimately what makes one client happy is different from what makes another happy.
