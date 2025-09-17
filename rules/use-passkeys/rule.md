@@ -19,7 +19,7 @@ related:
   - modern-stateless-authentication
 ---
 
-Passwords are a traditional technology that creates security vulnerabilities through reuse, breaches, and phishing attacks. Passwords remain a weak point in your security chain. Passkeys represent the next evolution in authentication, providing phishing-resistant, seamless integration with biometric technology, and passwordless security that's both more secure and more convenient than traditional methods.
+Passwords are a traditional technology that create security vulnerabilities through reuse, breaches, and phishing attacks. Passwords remain a weak point in your security chain. Passkeys represent the next evolution in authentication, providing phishing-resistant, seamless integration with biometric technology, and passwordless security that's both more secure and more convenient than traditional methods.
 
 <!--endintro-->
 
