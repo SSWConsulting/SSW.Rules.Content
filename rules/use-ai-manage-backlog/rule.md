@@ -48,7 +48,7 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 * **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
 
 ::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
 :::
 
 ### 3. Group related work
@@ -60,7 +60,7 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 * **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
 ::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+![Figure: Good example — AI groups related works under epics](Grouping-GitHub.png)
 :::
 
 ### 4. Estimate effort
@@ -71,7 +71,7 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 * **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
 ::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
 :::
 
 ### 5. Propose dependencies
@@ -82,7 +82,7 @@ When a request comes in, it isn't easy to know what issues are required to compl
 * **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
 ::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+![Figure: Good example — AI finds related issues for a given issue](Dependencies-GitHub.png)
 :::
 
 ### 6. Prioritize smarter
@@ -93,7 +93,7 @@ Not every backlog item has the same impact. AI can help prioritize by:
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
 
 ::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
 :::
 
 ## How to connect an MCP client to GitHub  
