@@ -67,8 +67,8 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 
 AI can compare a new item against similar past issues and suggest an estimate. This is especially helpful when:
 
-* **Estimating bugs vs features** - Compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
-* **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - Offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
+* **Estimating bugs vs features** - AI compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
+* **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - AI offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
 ::: good
 ![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
@@ -118,7 +118,7 @@ You can connect any MCP-compatible client to GitHub and bring it into your backl
 
 ![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Claude.png)  
 
-## Quick Recap  
+## In Summary  
 
 * AI helps with backlog grooming by surfacing insights, drafting breakdowns, and automating repetitive tasks  
 * It’s a support tool — final decisions stay with the team  
