@@ -19,6 +19,7 @@ index:
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 - make-secondary-linkedin-account-obvious
 - successful-reachouts
+- validate-employees-background-checks
 
 ---
 
