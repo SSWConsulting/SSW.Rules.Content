@@ -38,7 +38,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 ### User experience benefits
 
 1. **Faster sign-in** - Authenticate with just your biometric (fingerprint, face, or PIN) - no typing passwords or waiting for SMS codes
-2. **Cross-platform sync** - Passkeys sync across your devices through your platform's secure sync (e.g. Microsoft Authenticator)
+2. **Synced across devices** - Passkeys created with major providers like Google, Apple, or Microsoft automatically sync across your devices using their secure cloud services (e.g., Google Password Manager, iCloud Keychain). This means a passkey you create on your phone will be available on your tablet and laptop, as long as you're signed into the same account.
 3. **No forgotten passwords** - Never forget a password again or get locked out of accounts
 
 ::: bad
