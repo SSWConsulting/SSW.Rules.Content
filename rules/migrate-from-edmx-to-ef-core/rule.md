@@ -78,8 +78,6 @@ Before starting, it’s important to note that ObjectContext and EDMX are no lon
 
 The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
-::: greybox
-
 ```csharp
 using System.Data.Entity.Core.Objects;
 
@@ -110,8 +108,6 @@ internal class TenantDbContext : ITenantDbContext
     public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
-
-:::
 
 ::: good
 Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.

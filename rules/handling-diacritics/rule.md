@@ -44,7 +44,7 @@ console.log(normalizedString); // Output: resume
 There are 2 things happening in the code above:
 
 1. **normalize()** converts strings into the NFD. This form decomposes composite characters into the base character and combining characters. E.g. 'é' would be decomposed into 'e' + '´'
-2. **replace(/\p{Diacritic}/gu, "")** matches any character with a diacritic mark (accent) and replaces it with an empty string
+2. **replace(/\p\{Diacritic}/gu, "")** matches any character with a diacritic mark (accent) and replaces it with an empty string
 
 ### Handling diacritics in .NET
 
