@@ -42,7 +42,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 3. **No forgotten passwords** - Never forget a password again or get locked out of accounts
 
 ::: bad
-![Figure: Bad example - Traditional password vulnerable to phishing, using for many accounts, and forgetting it over time](sign-in-with-password.png)
+![Figure: Bad example - Traditional password vulnerable to phishing, are often used across many accounts, and you may forget it over time](sign-in-with-password.png)
 :::
 
 ::: good
