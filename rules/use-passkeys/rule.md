@@ -49,7 +49,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 ![Figure: Good example - Passkey authentication is phishing-resistant and convenient (in this example using Windows PIN)](sign-in-with-passkey.png)
 :::
 
-## How to set up Passkeys for your Microsoft account
+## How to set up Passkeys for your Microsoft Entra Account
 
 ### Prerequisites
 
