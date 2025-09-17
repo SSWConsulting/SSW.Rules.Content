@@ -69,7 +69,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
 3. **Choose your passkey type**
 
-   * Select **"Passkey in Microsoft Authenticator"** for device-bound passkeys using face, fingerprint, or PIN
+   * Select **"Passkey in Microsoft Authenticator"**. This will create a passkey stored securely on your phone, which you can use to sign in on this or other devices.
 
 4. **Set up through Microsoft Authenticator**
 
