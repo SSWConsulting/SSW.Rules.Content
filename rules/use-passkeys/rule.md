@@ -30,7 +30,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
 ### Security benefits
 
-1. **Phishing-resistant** - Unlike passwords and SMS codes, passkeys cannot be stolen through phishing attacks because they use cryptographic keys tied to specific domains
+1. **Phishing-resistant** - Unlike passwords and SMS codes, passkeys cannot currently be stolen through phishing attacks because they use cryptographic keys tied to specific domains
 2. **No password reuse** - Each passkey is unique to a service, eliminating the risk of credential stuffing attacks across multiple sites
 3. **Breach-proof** - Services only store your public key, so even if breached, attackers get nothing useful
 4. **No interceptable codes** - Unlike SMS-based MFA, passkeys can't be intercepted or redirected
