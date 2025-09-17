@@ -53,11 +53,8 @@ A data lake serves as a single source of truth for all company data, helping to 
 
 Microsoft Fabric integrates neatly with AI, meaning you can leverage tools like Copilot directly from the user interface.
 
-<video controls>
-  <source src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/bf4f8032-b937-444a-ae91-a342fd07aa88/d1345772-86d1-4d8c-9ae3-9dbd580d_6750.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+`youtube: https://www.youtube.com/watch?v=WmMa_aPlPCA`
+**Video: Power your AI transformation with a complete data platform: Microsoft Fabric (1 min)**
 
-**Video: How Microsoft Fabric fits into AI (1 min)**
 
 In conclusion, every company should have a data lake as a single source of truth, enhanced by Microsoft Fabric. It not only solves the pain of managing data in silos but also improves efficiency, reduces costs, and leads to better, data-driven decisions.

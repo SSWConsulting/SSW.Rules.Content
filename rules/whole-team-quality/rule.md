@@ -29,7 +29,7 @@ The idea of adopting a "whole team approach to quality" is to **build quality in
 There are many definitions of "quality". A simple but very useful definition is:
 
 > Quality is value to some person(s) who matter(s)\
->  - Jerry Weinberg (with changes by Michael Bolton & James Bach)
+>  \- Jerry Weinberg (with changes by Michael Bolton & James Bach)
 
 This definition highlights the fact that quality is a relationship between the user and the product - it's not the product itself, nor an element of the product. The user's perception of value is also subjective.
 

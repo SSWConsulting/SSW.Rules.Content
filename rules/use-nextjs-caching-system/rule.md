@@ -77,16 +77,16 @@ export async function POST() {
 When using `dynamicIO`, some core Next.js behaviors change:
 
 1. `cookies()` and `headers()` become async functions:
-   ```javascript
-   import { cookies } from 'next/headers'
-   const token = (await cookies()).get('token')
-   ```
+```javascript
+import { cookies } from 'next/headers'
+const token = (await cookies()).get('token')
+```
 
 2. Route files are dynamic by default. You must explicitly add:
-   ```javascript
-   export const dynamic = 'force-static'
-   ```
-   if you want to guarantee build-time rendering.
+```javascript
+export const dynamic = 'force-static'
+```
+if you want to guarantee build-time rendering.
 
 ## Pro Patterns
 

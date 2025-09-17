@@ -23,7 +23,7 @@ Great code isn't just about making computers do stuff; it's about making sure hu
 
 > “Aim for simplicity. I want to code to read like poetry”*
 >
-> * Terje Sandstrom  
+> \* Terje Sandstrom  
 
 ### Good code characteristics
 

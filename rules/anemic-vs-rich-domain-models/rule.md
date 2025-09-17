@@ -32,15 +32,15 @@ An Anemic Domain Model is characterized by:
 * Difficult to maintain as the project grows - changes to logic need to be updated in multiple places
 * Less readable code - Code related to an entity is scattered across multiple places
 
-::: greybox
+```cs
 class Order {
     public int Id { get; set; }
     public DateTime OrderDate { get; set; }
     public decimal TotalAmount { get; set; }
 }
-:::
-Figure: Example - Anemic model where the Order class is just a data container with no behavior.
-:::
+```
+**Figure: Example - Anemic model where the Order class is just a data container with no behavior.**
+
 
 ## Rich Domain Model
 
@@ -62,7 +62,7 @@ A Rich Domain Model is characterized by:
 * Steeper learning curve
 * May require more initial setup and design
 
-::: greybox
+```cs
 class Order {
     public int Id { get; private set; }
     public DateTime OrderDate { get; private set; }
@@ -82,9 +82,9 @@ class Order {
         TotalAmount += itemPrice;
     }
 }
-:::
-Figure: Example - Rich model where the Order class encapsulates data and business logic.
-:::
+```
+**Figure: Example - Rich model where the Order class encapsulates data and business logic.**
+
 
 In both cases the Application is still responsible for communicating with external systems via abstractions implemented in the Infrastructure Layer.
 

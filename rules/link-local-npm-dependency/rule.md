@@ -24,17 +24,17 @@ When working on multiple related JavaScript projects, you may need to test chang
 
 1. Navigate to the local package directory (the dependency you are developing) and run:
    
-   ```sh
-   npm link
-   ```
+  ```sh
+  npm link
+  ```
    
    This registers the package globally on your system.
 
 2. Navigate to the project that will use this dependency and run:
    
-   ```sh
-   npm link <package-name>
-   ```
+  ```sh
+  npm link <package-name>
+  ```
    
    This links the globally registered package into your project’s `node_modules`.
 
@@ -55,9 +55,9 @@ Now, `my-app` will use the local version of `my-local-package` instead of fetchi
 
 - **Module Resolution Issues**: If your project uses a different version of a peer dependency than the linked package, you might get errors. A common fix is running:
   
-  ```sh
-  npm install
-  ```
+```sh
+npm install
+```
   
   in both the linked package and the main project.
 

@@ -22,7 +22,7 @@ A commonly held view is that the purpose of testing is to detect non-conformance
 
 
 > There's a reason that many people think testing is easy, due to an asymmetry. No one ever fired up a computer and stumbled into creating a slick UI or a sophisticated algorithm, but people stumble into bugs every day. Finding bugs is easy, they think. So testing must be easy.
->     - Michael Bolton
+>     \- Michael Bolton
 
 ### Testing and checking
 

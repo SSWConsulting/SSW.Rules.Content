@@ -36,7 +36,7 @@ Automation can be an awesome part of a test strategy, but not all tests are good
 ![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](to-automate-or-not-ssw.jpg)
 
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.  
->  - Michael Bolton
+>  \- Michael Bolton
 
 ## Evaluating the value of automation
 

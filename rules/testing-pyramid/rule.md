@@ -77,7 +77,7 @@ Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://lea
 
 > I imagine the bugs that drop through this filter as being butterflies in all stages of their lifecycle. Unit tests are going to capture the eggs — bugs before they develop into anything of consequence. Integration tests are going to capture the caterpillars. These may have arisen from a unit test egg that has hatched in the integrated environment, or may have crawled into our platform via a third-party system. End-to-end tests capture the butterflies."
 >
-> - Katrina Clokie
+> \- Katrina Clokie
 
 ### Further reading
 

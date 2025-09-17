@@ -48,7 +48,7 @@ We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/R
   - Save
   - Browse
   - Select
-  - Test<
+  - Test
   - Next
   - Back
   - Remove

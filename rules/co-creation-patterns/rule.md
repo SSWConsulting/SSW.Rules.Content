@@ -115,7 +115,7 @@ Here's a quick guide to getting started. Just note that these are just guideline
 4. **Maintain Open Communication:** Keep an ongoing dialogue to discuss ideas and approaches.
 5. **Regularly Swap Roles:** Switch between the driver and navigator roles periodically to maintain engagement and balance in the partnership.
 
-<!--
+\<!--
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
  -->
