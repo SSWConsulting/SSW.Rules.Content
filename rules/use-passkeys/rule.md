@@ -89,6 +89,10 @@ Passwords are a traditional technology that create security vulnerabilities thro
 **Pro tip:** Set up passkeys on multiple devices (phone, laptop, tablet) to ensure you always have access to your accounts even if one device is unavailable.
 :::
 
+::: info
+**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your security dashboard at https://account.microsoft.com/security.
+:::
+
 ### Managing your passkeys
 
 * **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
