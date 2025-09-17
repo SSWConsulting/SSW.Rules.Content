@@ -57,6 +57,7 @@ Figure: Good example – Clear, unchangeable, ISO standard
 
 ::: greybox
 Signed on 12 Feb 2025
+:::
 ::: good
 Good example – Uses 3-letter month for clarity across regions
 :::
