@@ -75,26 +75,26 @@ To use the Specification pattern, follow these steps:
 
 1. **Define the Specification**:
 
-    ```csharp
-   public sealed class TeamByIdSpec : SingleResultSpecification<Team>
-   {
-      public TeamByIdSpec(TeamId teamId)
-      {
-         Query.Where(t => t.Id == teamId)
-            .Include(t => t.Missions)
-            .Include(t => t.Heroes);
-      }
-   }
-    ```
+```csharp
+public sealed class TeamByIdSpec : SingleResultSpecification<Team>
+{
+    public TeamByIdSpec(TeamId teamId)
+    {
+        Query.Where(t => t.Id == teamId)
+        .Include(t => t.Missions)
+        .Include(t => t.Heroes);
+    }
+}
+```
 
 2. **Use Specification**:
 
-    ```csharp
-        var teamId = new TeamId(request.TeamId);
-        var team = dbContext.Teams
-            .WithSpecification(new TeamByIdSpec(teamId))
-            .FirstOrDefault();
-    ```
+```csharp
+    var teamId = new TeamId(request.TeamId);
+    var team = dbContext.Teams
+        .WithSpecification(new TeamByIdSpec(teamId))
+        .FirstOrDefault();
+```
 
 For an end-to-end example of the specification pattern see the [SSW.CleanArchitecture Template](https://github.com/SSWConsulting/SSW.CleanArchitecture).
 

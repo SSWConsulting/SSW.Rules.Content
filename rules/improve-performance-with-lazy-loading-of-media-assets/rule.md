@@ -46,67 +46,67 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 
 1. Check if the browser supports IntersectionObserver, if the browser supports IntersectionObserver, we will only load images and videos in the areas are visible to users by default. If the browser doesn’t support it, we will have to load all images and embedded videos on the page immediately after the page is loaded.
 
-   ```js
-   if (!("IntersectionObserver" in window)) {
-     console.log("No Intersection");
-   } else {
-     console.log("Support intersection");
-   }
-   ```
+  ```js
+  if (!("IntersectionObserver" in window)) {
+    console.log("No Intersection");
+  } else {
+    console.log("Support intersection");
+  }
+  ```
 
 **Note:** You can use a polyfill library to add **IntersectionObserver** support to older browsers.
 
 2. If the browser supports IntersectionObserver, in your page html, change the “src” of “&lt;img&gt;” to “data-src”  
    From
 
-   ```html
-   <img alt="flight.jpg" src="https://ssw.com.au/images/flight.jpg" />
-   ```
+  ```html
+  <img alt="flight.jpg" src="https://ssw.com.au/images/flight.jpg" />
+  ```
 
-   to
+  to
 
-   ```html
-   <img alt="flight.jpg" data-src="https://ssw.com.au/images/flight.jpg" />
-   ```
+  ```html
+  <img alt="flight.jpg" data-src="https://ssw.com.au/images/flight.jpg" />
+  ```
 
 3. Use the below Javascript to change “data-src” back to “src” for the &lt;img&gt; html objects, which become visible, so that those images will be loaded
 
-   ```js
-   function onIntersection(entries) {
-     // Loop through the entries
-     entries.forEach((entry) => {
-       // Are we in viewport?
-       if (entry.intersectionRatio > 0) {
-         // Stop watching and load the image
-         observer.unobserve(entry.target);
-         //console.log(entry);
-         //console.log(entry.target);
-         preloadImage(entry.target);
-       }
-     });
-   }
+  ```js
+  function onIntersection(entries) {
+    // Loop through the entries
+    entries.forEach((entry) => {
+      // Are we in viewport?
+      if (entry.intersectionRatio > 0) {
+        // Stop watching and load the image
+        observer.unobserve(entry.target);
+        //console.log(entry);
+        //console.log(entry.target);
+        preloadImage(entry.target);
+      }
+    });
+  }
 
-   function preloadImage(target) {
-     console.log(target);
-     if (target.getAttribute("data-src")) {
-       target.setAttribute("src", target.getAttribute("data-src"));
-     }
-   }
+  function preloadImage(target) {
+    console.log(target);
+    if (target.getAttribute("data-src")) {
+      target.setAttribute("src", target.getAttribute("data-src"));
+    }
+  }
 
-   // Get images of class lazy
-   const images = document.querySelectorAll(".sswRuleSummaryUCDiv img");
-   const config = {
-     // If image gets within 50px go get it
-     rootMargin: "50px 0px",
-     threshold: 0.01,
-   };
+  // Get images of class lazy
+  const images = document.querySelectorAll(".sswRuleSummaryUCDiv img");
+  const config = {
+    // If image gets within 50px go get it
+    rootMargin: "50px 0px",
+    threshold: 0.01,
+  };
 
-   let observer = new IntersectionObserver(onIntersection, config);
+  let observer = new IntersectionObserver(onIntersection, config);
 
-   images.forEach((image) => {
-     observer.observe(image);
-   });
-   ```
+  images.forEach((image) => {
+    observer.observe(image);
+  });
+  ```
 
 4. More details can be found at [Updating jQuery-based Lazy Image Loading to IntersectionObserver](https://www.hanselman.com/blog/updating-jquerybased-lazy-image-loading-to-intersectionobserver) article.
 
@@ -117,65 +117,65 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 
    From
 
-   ```html
-   <iframe
-     width="853"
-     height="480"
-     src="https://www.youtube.com/embed/OhVYTOKCsWI"
-     frameborder="0"
-   ></iframe>
-   ```
+  ```html
+  <iframe
+    width="853"
+    height="480"
+    src="https://www.youtube.com/embed/OhVYTOKCsWI"
+    frameborder="0"
+  ></iframe>
+  ```
 
    To
 
-   ```html
-   <!-- (1) video wrapper in div instead of iframe -->
-   <div
-     data-iframewidth="853"
-     data-iframeheight="480"
-     data-iframecode="OhVYTOKCsWI"
-     data-iframesrc="https://www.youtube.com/embed/OhVYTOKCsWI"
-     frameborder="0"
-   >
-     <!-- (2) the "play" button -->
-     <div class="play-button"></div>
-   </div>
-   ```
+  ```html
+  <!-- (1) video wrapper in div instead of iframe -->
+  <div
+    data-iframewidth="853"
+    data-iframeheight="480"
+    data-iframecode="OhVYTOKCsWI"
+    data-iframesrc="https://www.youtube.com/embed/OhVYTOKCsWI"
+    frameborder="0"
+  >
+    <!-- (2) the "play" button -->
+    <div class="play-button"></div>
+  </div>
+  ```
 
 3. Use the below code to convert “&lt;div&gt;” to “&lt;iframe&gt;” to load the embedded videos when they are visible while scrolling down:
 
-   ```js
-   let youtube = document.querySelectorAll("div[data-iframesrc]");
+  ```js
+  let youtube = document.querySelectorAll("div[data-iframesrc]");
 
-   for (var i = 0; i < youtube.length; i++) {
-     let source =
-       "https://img.youtube.com/vi/" +
-       youtube[i].dataset.iframecode +
-       "/sddefault.jpg";
+  for (var i = 0; i < youtube.length; i++) {
+    let source =
+      "https://img.youtube.com/vi/" +
+      youtube[i].dataset.iframecode +
+      "/sddefault.jpg";
 
-     let image = new Image();
-     image.src = source;
-     image.addEventListener(
-       "load",
-       (function () {
-         youtube[i].appendChild(image);
-       })(i)
-     );
+    let image = new Image();
+    image.src = source;
+    image.addEventListener(
+      "load",
+      (function () {
+        youtube[i].appendChild(image);
+      })(i)
+    );
 
-     youtube[i].addEventListener("click", function () {
-       let iframe = document.createElement("iframe");
-       iframe.setAttribute("frameborder", "0");
-       iframe.setAttribute("allowfullscreen", "");
-       iframe.setAttribute("width", this.dataset.iframewidth);
-       iframe.setAttribute("height", this.dataset.iframeheight);
-       iframe.setAttribute(
-         "src",
-         this.dataset.iframesrc + "?rel=0&showinfo=0&autoplay=1"
-       );
-       this.innerHTML = "";
-       this.appendChild(iframe);
-     });
-   }
-   ```
+    youtube[i].addEventListener("click", function () {
+      let iframe = document.createElement("iframe");
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("width", this.dataset.iframewidth);
+      iframe.setAttribute("height", this.dataset.iframeheight);
+      iframe.setAttribute(
+        "src",
+        this.dataset.iframesrc + "?rel=0&showinfo=0&autoplay=1"
+      );
+      this.innerHTML = "";
+      this.appendChild(iframe);
+    });
+  }
+  ```
 
 More details can be found at [How to “Lazy Load” Embedded YouTube Videos](https://webdesign.tutsplus.com/how-to-lazy-load-embedded-youtube-videos--cms-26743t).

@@ -29,31 +29,31 @@ Source control is essential for any software development project, and Microsoft 
 
 2. **Export Solution**: Use the Power Platform CLI to export your Power Apps solution. This will create a `.zip` file or a directory structure that represents your solution.
 
-    ```bash
-    pac solution export --path ./YourSolutionName --name YourSolutionName
-    ```
+```bash
+pac solution export --path ./YourSolutionName --name YourSolutionName
+```
 
 #### Using GitHub
 
 1. **Initialize a Git Repository**: Navigate to your project directory and run `git init`.
 
-    ```bash
-    git init
-    ```
+```bash
+git init
+```
 
 2. **Add Remote Repository**: Add GitHub as the remote repository.
 
-    ```bash
-    git remote add origin <Your-GitHub-Repository-URL>
-    ```
+```bash
+git remote add origin <Your-GitHub-Repository-URL>
+```
 
 3. **Commit and Push**: Add your Power Apps exported solution files to the Git repository, commit them, and push to GitHub.
 
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    git push -u origin master
-    ```
+```bash
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
 
 #### Using Azure DevOps
 
@@ -61,17 +61,17 @@ Source control is essential for any software development project, and Microsoft 
 
 2. **Clone the Repository**: Clone the repository to your local machine.
 
-    ```bash
-    git clone <Your-Azure-DevOps-Repository-URL>
-    ```
+```bash
+git clone <Your-Azure-DevOps-Repository-URL>
+```
 
 3. **Commit and Push**: Add your Power Apps exported solution files to the Git repository, commit them, and push to Azure DevOps.
 
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    git push -u origin master
-    ```
+```bash
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
 
 #### Importing Power Apps Solution
 
@@ -79,8 +79,8 @@ Source control is essential for any software development project, and Microsoft 
 
 2. **Import Solution**: Use the Power Platform CLI to import the solution into another environment.
 
-    ```bash
-    pac solution import --path ./YourSolutionName --name YourSolutionName
-    ```
+```bash
+pac solution import --path ./YourSolutionName --name YourSolutionName
+```
 
 By following these steps, you can implement source control for your Power Apps solutions using either GitHub or Azure DevOps. This will help you manage your project more effectively, collaborate with others, and maintain a history of your changes.

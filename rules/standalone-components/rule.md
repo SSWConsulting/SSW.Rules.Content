@@ -39,5 +39,3 @@ export class MyComponent {
   // component logic
 }
 ```
-
-<!--endintro-->
