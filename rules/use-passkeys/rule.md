@@ -86,7 +86,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
    ::: img-medium
    ![Figure: Passkey created successfully](passkey-create-success.png)
    :::
-   
+
 6. **Test your passkey**
 
    * Sign out of your Microsoft account
