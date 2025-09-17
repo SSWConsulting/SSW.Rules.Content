@@ -9,13 +9,19 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+  - title: Ken Shi
+    url: https://ssw.com.au/people/ken-shi
+  - title: Pravin Kumar
+    url: https://ssw.com.au/people/pravin-kumar
+related:
+  - have-a-great-company-logo
 redirects:
   - do-you-set-design-guidelines-for-your-company
 created: 2015-11-24T17:40:06.000Z
 archivedreason: null
 guid: 4022a44e-4223-4a5c-8337-80244432a9b4
 ---
+
 The start point of your branding is the logo. From there everything the company produces or owns should "feel" like it comes from your company. When you walk by a pile of documents on a desk, you should recognize that it's from your company. It's not just plonking the logo everywhere.
 
 These are things to keep in mind for good branding:
@@ -38,14 +44,14 @@ These are things to keep in mind for good branding:
 * **[Cars](/cars-branding)**
 * Others, like **[coffee mugs](/coffee-mugs-branding)**, **[plastic bags](/plastic-bags-branding)**, etc
 
-### Tip: Create a well-documented brand guideline 
+### Create a well-documented brand guideline 
+
 ::: good
 ![Figure: Good example - YakShaver brand guideline](yakshaver-brand-guide-screenshot-v2.jpg)
-
 :::
-See more at yakshaver.ai/media
-### Tip: Help designers to find stuff in your Intranet
 
-::: good
-![Figure: Good example - Keep things together in your Intranet](intranet.jpg)
+See more at [YakShaver Logo and Brand Assets](https://yakshaver.ai/media) and [YakShaver Brand Guide](https://yakshaver.ai/YakShaver/YakShaver-Brand-Guide-V3.pdf).
+
+::: info
+**Tip:** Make it easy for designers and developers to find design resources by linking them clearly on your website and intranet.
 :::
