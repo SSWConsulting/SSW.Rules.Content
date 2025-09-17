@@ -155,13 +155,13 @@ Jason
 
 ---
 
-**From:** Bob
-**To:** Jason
-**Subject:** Northwind website - Update logo + add a photo
+**From:** Bob\
+**To:** Jason\
+**Subject:** Northwind website - Update logo + add a photo\
 
 ### Hi Jason
 
-&gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
+ &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
  &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
 
 Bob
@@ -170,6 +170,41 @@ Bob
 :::
 ::: bad
 Figure: Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
+:::
+
+::: email-template
+
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |
+
+::: email-content
+
+### Hi Bob
+
+ &gt; 1. Done - See northwind&#46;com  
+ &gt; 2. Not Done - I couldn't find a camera
+
+Jason
+
+---
+
+**From:** Bob\
+**To:** Jason\
+**Subject:** Northwind website - Update logo + add a photo\
+
+### Hi Jason
+
+ &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
+ &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
+
+Bob
+
+:::
+:::
+::: bad
+Figure: Bad example – You can imply which tasks have been done by looking at the history, however it is painful, and [numbered lists are for tasks only](/number-tasks-questions)
 :::
 
 ::: email-template

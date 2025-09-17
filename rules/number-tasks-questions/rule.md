@@ -75,7 +75,13 @@ I have a few more questions about the day to help me and the team prepare:
 Good example - Tasks/questions are clear
 :::
 
-## ⚠️ Warning - Avoid numbered lists that aren't tasks**
+## ⚠️ Warning - Avoid numbered lists that aren't tasks/questions
+
+::: info
+**Note:** This applies to **replies** as well.  
+
+If you're responding to a numbered list, **don't make your answers another numbered list**. Instead, use indentation as per [Replying "Done" to multiple tasks](reply-done/#tip-3-replying-done-to-multiple-tasks).
+:::
 
 ::: email-template  
 
