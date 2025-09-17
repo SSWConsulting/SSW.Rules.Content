@@ -92,7 +92,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 :::
 
 ::: info
-**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your security dashboard at https://account.microsoft.com/security.
+**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your security dashboard at <https://account.microsoft.com/security>.
 :::
 
 ### Managing your passkeys
