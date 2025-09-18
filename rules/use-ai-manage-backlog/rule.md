@@ -73,7 +73,7 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 * **Estimating bugs vs features** - AI compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
 * **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - AI offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
-Example Query: Can you provide me an estimate on {{ ISSUE }}
+Example Query: Can you provide me an estimate on {{ ISSUE }}?
 ::: good
 ![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
 :::
