@@ -136,4 +136,3 @@ Once connected, you can interact with your GitHub issues and pull requests in na
 * "Which issues are too big for a Sprint?"
 * "Group all issues related to payments into an epic."  
 * "Suggest estimates based on past completed issues."
-
