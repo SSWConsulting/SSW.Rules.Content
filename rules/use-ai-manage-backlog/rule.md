@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you use AI to manage your backlog?
-seoDescription: Take the stress out of backlog management. With AI + GitHub or DevOps MCP, you can quickly organize tasks and focus on the fun work.
+seoDescription: Take the stress out of backlog management. With AI + GitHub or
+  DevOps MCP, you can quickly organize tasks and focus on the fun work.
 uri: use-ai-manage-backlog
 authors:
   - title: Gert Marx
@@ -136,3 +137,4 @@ Once connected, you can interact with your GitHub issues and pull requests in na
 * "Which issues are too big for a Sprint?"
 * "Group all issues related to payments into an epic."  
 * "Suggest estimates based on past completed issues."
+:::
