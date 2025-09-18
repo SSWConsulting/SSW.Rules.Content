@@ -56,20 +56,53 @@ def modify_category_files(categories_root='categories'):
                     i += 1
                     continue
                 
-                # Check if this is an index item
-                if re.match(r'^\s*-', line):
-                    item = line.strip()[2:]  # Remove '- '
-                    if not (item.startswith('rule:') or ':' in item):
-                        # Convert to new format
-                        indent = re.match(r'^\s*', line).group()
-                        clean_item = item.replace('.md', '').strip("'\"")
-                        new_line = f"{indent}- rule: public/uploads/rules/{clean_item}/rule.mdx"
+                # Check if this is an index item (starts with '-') or a comment line
+                if re.match(r'^\s*-', line) or re.match(r'^\s*#', line):
+                    # Handle comment lines first
+                    if re.match(r'^\s*#', line):
+                        # Keep comment lines as-is
+                        new_index_lines.append(line)
+                        i += 1
+                        continue
+                    
+                    # Handle regular index items
+                    item = line.strip()[2:].strip()  # Remove '- ' and any extra whitespace
+                    indent = re.match(r'^\s*', line).group()
+                    
+                    # Check if already in correct format: "rule: public/uploads/rules/name/rule.mdx"
+                    if item.startswith('rule: public/uploads/rules/') and item.endswith('/rule.mdx'):
+                        # Already correctly formatted
+                        new_index_lines.append(line)
+                    elif item.startswith('rule:'):
+                        # Has rule: but might not have full path - fix it anyway
+                        # Extract the rule name from various possible formats
+                        if 'public/uploads/rules/' in item:
+                            # Extract rule name from path
+                            rule_name = item.split('public/uploads/rules/')[1].split('/')[0]
+                        else:
+                            # Extract from "rule: rule-name"
+                            rule_name = item[5:].strip().replace('.mdx', '').replace('/rule.mdx', '')
+                        clean_rule_name = rule_name.strip("'\"")
+                        new_line = f"{indent}- rule: public/uploads/rules/{clean_rule_name}/rule.mdx"
                         new_index_lines.append(new_line)
                         needs_update = True
                     else:
-                        new_index_lines.append(line)
+                        # Plain rule name without prefix - convert to full format
+                        clean_item = item.replace('.md', '').replace('.mdx', '').strip("'\"")
+                        # Skip empty items
+                        if clean_item:
+                            new_line = f"{indent}- rule: public/uploads/rules/{clean_item}/rule.mdx"
+                            new_index_lines.append(new_line)
+                            needs_update = True
+                        else:
+                            new_index_lines.append(line)
+                    i += 1
+                elif line.strip() == '' or re.match(r'^\s+$', line):
+                    # Keep empty lines within the index section
+                    new_index_lines.append(line)
                     i += 1
                 else:
+                    # End of index section
                     break
             
             # Replace the index section if we made changes
