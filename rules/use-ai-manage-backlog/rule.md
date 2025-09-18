@@ -98,7 +98,7 @@ Not every backlog item has the same impact. AI can help prioritize by:
 
 ## How to connect an MCP Host to GitHub  
 
-You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
+You can connect any MCP-compatible host to [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
 **Start Querying Your Backlog**  
 
