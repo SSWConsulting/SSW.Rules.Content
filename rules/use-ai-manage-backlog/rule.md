@@ -51,7 +51,7 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 ![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
 :::
 
-### 3. Group related work
+### 3. Group-related work
 
 Sprints are more effective when they focus on a single area or feature. AI can:
 
@@ -96,28 +96,13 @@ Not every backlog item has the same impact. AI can help prioritize by:
 ![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
 :::
 
-## How to connect an MCP client to GitHub  
+## How to connect an MCP Host to GitHub  
 
 You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
-### Steps  
-
-1. **Install an MCP Client**  
-   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP)  
-
-2. **Configure the GitHub MCP Server**  
-   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server)  
-   * Add the GitHub MCP server to your client’s configuration  
-
-3. **Start Querying Your Backlog**  
+**Start Querying Your Backlog**  
    * Once connected, you can interact with your GitHub issues and pull requests in natural language  
    * Example queries:  
      * *“Which issues are too big for a Sprint?”*  
      * *“Group all issues related to payments into an epic.”*  
      * *“Suggest estimates based on past completed issues.”*
-
-![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Claude.png)  
-
-## In Summary  
-
-AI speeds up backlog management by detecting duplicates, breaking down large items, grouping related work, estimating effort, and suggesting priorities. Using tools like Claude Code, ChatGPT, and Cursor connected through the GitHub MCP, you can query and refine issues in natural language, reducing manual effort while controlling the final decisions.
