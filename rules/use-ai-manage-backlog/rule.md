@@ -15,7 +15,7 @@ related:
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
-Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting **Claude Code** (or alternatives like ChatGPT or Cursor) to GitHub, you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
+Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting the [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) MCP to a host (eg. Claude Code), you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
 
 <!--endintro-->
 
@@ -51,7 +51,7 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 ![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
 :::
 
-### 3. Group related work
+### 3. Group-related work
 
 Sprints are more effective when they focus on a single area or feature. AI can:
 
@@ -96,28 +96,14 @@ Not every backlog item has the same impact. AI can help prioritize by:
 ![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
 :::
 
-## How to connect an MCP client to GitHub  
+## How to connect an MCP Host to GitHub  
 
-You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
+You can connect any MCP-compatible host to [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
-### Steps  
+**Start Querying Your Backlog**  
 
-1. **Install an MCP Client**  
-   * Choose your preferred MCP client (e.g., a VS Code extension, standalone app, or AI assistant that supports MCP)  
-
-2. **Configure the GitHub MCP Server**  
-   * Follow the [GitHub MCP server setup guide](https://github.com/github/github-mcp-server)  
-   * Add the GitHub MCP server to your client’s configuration  
-
-3. **Start Querying Your Backlog**  
-   * Once connected, you can interact with your GitHub issues and pull requests in natural language  
-   * Example queries:  
-     * *“Which issues are too big for a Sprint?”*  
-     * *“Group all issues related to payments into an epic.”*  
-     * *“Suggest estimates based on past completed issues.”*
-
-![Figure: GitHub MCP Server added to an MCP client](MCP-Servers-Claude.png)  
-
-## In Summary  
-
-AI speeds up backlog management by detecting duplicates, breaking down large items, grouping related work, estimating effort, and suggesting priorities. Using tools like Claude Code, ChatGPT, and Cursor connected through the GitHub MCP, you can query and refine issues in natural language, reducing manual effort while controlling the final decisions.
+* Once connected, you can interact with your GitHub issues and pull requests in natural language  
+* Example queries:  
+  * *“Which issues are too big for a Sprint?”*  
+  * *“Group all issues related to payments into an epic.”*  
+  * *“Suggest estimates based on past completed issues.”*
