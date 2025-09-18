@@ -33,7 +33,7 @@ You've recently had an engaging initial meeting with a prospective client. While
    Right after the initial meeting, set a reminder for yourself to send a follow-up email in 3 days. You can use various tools for this, but one effective method is to email `3days@followupthen.com`.
 
    ::: greybox
-   Forward the “post initial meeting” email to <3days@followupthen.com>
+   Forward the “post initial meeting” email to `3days@followupthen.com`
 
    To Myself,
 
