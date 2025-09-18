@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/betty-bondoc/
   - title: Pravin Kumar
     url: https://www.ssw.com.au/people/pravin-kumar/
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo/
 created: 2024-10-30T16:40:00.000Z
 guid: a58d7671-4567-4812-870c-0feace088524
 ---
