@@ -48,7 +48,7 @@ Start by identifying the key features and functionality that the product should 
 ![Figure: Good Example - A hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
 :::
 
-Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using tools like Excalidraw, V0, Figma, Adobe XD or Sketch (see tools below). Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
+Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using a variety of tools (see list below). Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
 
 ::: good
 ![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
