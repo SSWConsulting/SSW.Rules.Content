@@ -15,7 +15,7 @@ related: []
 redirects:
   - do-you-have-a-consistent-brand-image
 created: 2014-10-13T17:30:46.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/branding-is-more-than-logo/
 guid: adb59ba2-c9b8-4e90-8a74-b39546db0448
 ---
 
