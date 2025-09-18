@@ -2090,6 +2090,9 @@
     "avoid-unclear-terms": [
         "rules-to-better-technical-documentation"
     ],
+    "avoid-short-ambiguous-dates": [
+        "rules-to-better-technical-documentation"
+    ],
     "avoid-common-mistakes": [
         "rules-to-better-technical-documentation",
         "rules-to-better-content-design"
@@ -4740,6 +4743,9 @@
         "rules-to-better-security-end-users"
     ],
     "choosing-authentication": [
+        "rules-to-better-security"
+    ],
+    "use-passkeys": [
         "rules-to-better-security"
     ],
     "remote-desktop-gateway-mfa": [

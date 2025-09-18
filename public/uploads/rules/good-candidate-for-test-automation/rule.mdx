@@ -54,19 +54,19 @@ Automation can be an awesome part of a test strategy, but not all tests are good
 />
 
 > If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
->  - Michael Bolton
+> \- Michael Bolton
 
 ## Evaluating the value of automation
 
 There are multiple attributes that make a test a good candidate for automation.
 
-- **Repeatability** - How often is the test run?
-- **Complexity** - How prone is the test to human error?
-- **Time commitment** - How long do testers have to dedicate to completing a test?
-- **Stability** - How likely is it that the test will change in the future?
-- **Scale** - How much data needs to be run through the test?
-- **Subjectivity** - How easy is it to evaluate the test outcome objectively?
-- **Value** - How much value does the test provide?
+* **Repeatability** - How often is the test run?
+* **Complexity** - How prone is the test to human error?
+* **Time commitment** - How long do testers have to dedicate to completing a test?
+* **Stability** - How likely is it that the test will change in the future?
+* **Scale** - How much data needs to be run through the test?
+* **Subjectivity** - How easy is it to evaluate the test outcome objectively?
+* **Value** - How much value does the test provide?
 
 <youtubeEmbed url="https://www.youtube.com/embed/pQPUs9uaKUM" description={"Video: What is automated testing? Beginner intro & automation demo (watch from 5:30 – 7:10)"} />
 
@@ -114,35 +114,35 @@ For example, if a test checks whether the application is going to crash, and it 
 
 ## ✅ Good candidates for automation
 
-- **Unit tests** - Unit tests are often highly objective tests and so are a great first step into automation
+* **Unit tests** - Unit tests are often highly objective tests and so are a great first step into automation
 
-- **Smoke tests** - Smoke tests do not require much human input and are repetitive and high value so it's usually a good idea to automate them
+* **Smoke tests** - Smoke tests do not require much human input and are repetitive and high value so it's usually a good idea to automate them
 
-- **Regression and API tests** - These tests are highly repeatable and so are often good to automate
+* **Regression and API tests** - These tests are highly repeatable and so are often good to automate
 
-- **Performance and load tests** - Tests that look at performance and load often require a great deal of data or interaction making them impractical for humans to perform. As such, they are a good candidate for automation
+* **Performance and load tests** - Tests that look at performance and load often require a great deal of data or interaction making them impractical for humans to perform. As such, they are a good candidate for automation
 
 ## ❌ Don't even think about automation for these tests
 
 Some types of test just don't make sense to even try to automate:
 
-- **Tests that will only need to be run once** - For tests that won't be run again, it doesn't make sense to automate them.
+* **Tests that will only need to be run once** - For tests that won't be run again, it doesn't make sense to automate them.
 
-- **Tests of early stage features** - These types of features are liable to change and shouldn't be automated.
+* **Tests of early stage features** - These types of features are liable to change and shouldn't be automated.
 
-- **Exploratory tests** - Experimentation is by it's nature unpredictable so it isn't a good idea to try and automate these tests.
+* **Exploratory tests** - Experimentation is by it's nature unpredictable so it isn't a good idea to try and automate these tests.
 
-- **User Experience tests** - UX is a very subjective matter, so it's not easy to automate these kinds of tests.
+* **User Experience tests** - UX is a very subjective matter, so it's not easy to automate these kinds of tests.
 
-- **Tests for obscure edge cases** - Anything that tests obscure scenarios probably shouldn't be automated because it is unlikely to be a recurring problem.
+* **Tests for obscure edge cases** - Anything that tests obscure scenarios probably shouldn't be automated because it is unlikely to be a recurring problem.
 
 ## ❔ Take care when deciding to automate these tests
 
 It's not always a black and white decision about whether to automate a test. Let's discuss:
 
-- **Automating "manual" test cases** - Teams are often tempted to take their existing "manual" test cases and automate them, especially as a way to kick off an automated testing project. This isn't necessarily a good approach since the test cases were designed to be performed by humans and not all of their steps probably make sense to be automated, from a value perspective.
+* **Automating "manual" test cases** - Teams are often tempted to take their existing "manual" test cases and automate them, especially as a way to kick off an automated testing project. This isn't necessarily a good approach since the test cases were designed to be performed by humans and not all of their steps probably make sense to be automated, from a value perspective.
 
-- **Adding automated tests for every bug** - It might seem like a good idea to have a policy of adding an automated test for every bug you fix, to help ensure the bug doesn't happen again.
+* **Adding automated tests for every bug** - It might seem like a good idea to have a policy of adding an automated test for every bug you fix, to help ensure the bug doesn't happen again.
 
   While this can be a valuable policy, you should leave room for exceptions to this rule. Some bugs are merely cosmetic and are unlikely to appear again. A good example of this is the typo - if a developer accidentally entered text that said "Contcat us" instead of "Contact us", it's very unlikely that a developer would ever go into the code and revert to the earlier misspelling.
 
@@ -233,4 +233,4 @@ Let's look at some tests and why we would choose to automate them or not.
 
 ### Further reading
 
-- [When Should a Test Be Automated?](https://www.stickyminds.com/sites/default/files/article/file/2014/When%20Should%20a%20Test%20Be%20Automated.pdf) by Brian Marick
+* [When Should a Test Be Automated?](https://www.stickyminds.com/sites/default/files/article/file/2014/When%20Should%20a%20Test%20Be%20Automated.pdf) by Brian Marick

@@ -35,15 +35,15 @@ Git provides a way to manage line endings across different operating systems by 
 
 * **Windows users**: Set Git to automatically convert line endings to **CRLF** when checking out files, and convert them back to **LF** when committing.
 
-  ```bash
-  git config --global core.autocrlf true
-  ```
+```bash
+git config --global core.autocrlf true
+```
 
 * **macOS/Linux users**: Set Git to automatically convert **CRLF** line endings to **LF** when checking out files and leave them as **LF** when committing.
 
-  ```bash
-  git config --global core.autocrlf input
-  ```
+```bash
+git config --global core.autocrlf input
+```
 
 * **Repository-Wide configuration**: It's a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
 
@@ -116,22 +116,22 @@ To further ensure smooth collaboration among multi-OS teams, it’s important to
 
 * **User Name and Email**: Ensure each developer has set up their user name and email, as this is crucial for committing with correct author information:
 
-  ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "youremail@example.com"
-  ```
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
 
 * **Global `.gitignore`**: A global `.gitignore` file can help ensure that certain system files (e.g., `Thumbs.db` on Windows or `.DS_Store` on macOS) are ignored across all repositories. You can create and set a global `.gitignore` file using the following command:
 
-  ```bash
-  git config --global core.excludesfile ~/.gitignore_global
-  ```
+```bash
+git config --global core.excludesfile ~/.gitignore_global
+```
 
-  And in `~/.gitignore_global`:
+And in `~/.gitignore_global`:
 
-  ```text
-  .DS_Store
-  Thumbs.db
-  ```
+```text
+.DS_Store
+Thumbs.db
+```
 
 * **Hooks and Templates**: Some repositories might require hooks or commit templates to enforce conventions like conventional commit messages or certain commit checks. Using a `.githooks` or `.gitmessage` file in the repository can help maintain consistency across platforms.

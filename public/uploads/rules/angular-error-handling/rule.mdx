@@ -97,34 +97,34 @@ All failed API calls not handled (i.e. not caught) will be handled by `ErrorHand
 
 * In `Subscribe` method:
 
-  ```ts
-  this.http.get("/foo").subscribe({
-    next: (response) => {
-      // Handle response
-    },
-    error: (err) => {
-      // Handle error
-      console.error("Error while calling API", err);
-    },
-  });
-  ```
+```ts
+this.http.get("/foo").subscribe({
+  next: (response) => {
+    // Handle response
+  },
+  error: (err) => {
+    // Handle error
+    console.error("Error while calling API", err);
+  },
+});
+```
 
 * In `pipe` using `catchError()`:
 
-  ```ts
-  this.http
-    .get("/foo")
-    .pipe(
-      catchError((err) => {
-        // Handle error
-        console.error("Error while calling API", err);
-        return of(null); // Return fallback value
-      })
-    )
-    .subscribe((response) => {
-      // Handle response
-    });
-  ```
+```ts
+this.http
+  .get("/foo")
+  .pipe(
+    catchError((err) => {
+      // Handle error
+      console.error("Error while calling API", err);
+      return of(null); // Return fallback value
+    })
+  )
+  .subscribe((response) => {
+    // Handle response
+  });
+```
 
 ### Catching API errors in HTTP Interceptor
 

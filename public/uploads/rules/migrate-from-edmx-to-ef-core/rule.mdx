@@ -92,25 +92,21 @@ Before starting, it’s important to note that ObjectContext and EDMX are no lon
 
 The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 using System.Data.Entity.Core.Objects;
 
 public interface ITenantDbContext
 {
-    ObjectSet&lt;Client&gt; Clients { get; }
+    ObjectSet<Client> Clients { get; }
 
     int SaveChanges();
-    Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default);
+    Task<int> SaveChangesAsync(CancellationToken ct = default);
 }
 
-/// &lt;summary&gt;
+/// <summary>
 /// Implement DbContext as internal, so that external libraries cannot access it directly.
 /// Expose functionality via interfaces instead.
-/// &lt;/summary&gt;
+/// </summary>
 internal class TenantDbContext : ITenantDbContext
 {
     private readonly DataEntities _entities;
@@ -120,20 +116,12 @@ internal class TenantDbContext : ITenantDbContext
         _entities = entities;
     }
 
-    public ObjectSet&lt;Client&gt; Clients =&gt; _entities.Clients;
+    public ObjectSet<Client> Clients => _entities.Clients;
 
-    public int SaveChanges() =&gt; _entities.SaveChanges();
-    public Task&lt;int&gt; SaveChangesAsync(CancellationToken ct = default) =&gt; _entities.SaveChangesAsync(ct);
+    public int SaveChanges() => _entities.SaveChanges();
+    public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
-
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
-/>
 
 <figureEmbed figureEmbed={ {
   preset: "goodExample",

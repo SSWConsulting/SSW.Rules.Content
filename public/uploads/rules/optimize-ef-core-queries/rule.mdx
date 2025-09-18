@@ -25,10 +25,6 @@ EF Core provides a powerful way to interact with databases using .NET, but poor 
 
 One of the most common mistakes is inserting entities one by one inside a loop. This results in multiple round trips to the database, which is extremely inefficient.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 foreach (var item in items)
 {
@@ -37,32 +33,26 @@ foreach (var item in items)
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits",
+  shouldDisplay: true
+} } />
+
 
 Instead, use **bulk insertion** techniques like `AddRangeAsync()` and call `SaveChangesAsync()` once:
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 context.MyEntities.AddRangeAsync(items);
 context.SaveChangesAsync();
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Using `AddRangeAsync()` minimizes database calls and improves performance",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Using `AddRangeAsync()` minimizes database calls and improves performance",
+  shouldDisplay: true
+} } />
+
 
 For **even larger datasets**, consider using external libraries like **EF Core Bulk Extensions** for optimized bulk insert performance.
 
@@ -72,73 +62,58 @@ For **even larger datasets**, consider using external libraries like **EF Core B
 
 When retrieving data in a loop, developers sometimes execute multiple queries instead of batching them upfront.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 foreach (var id in ids)
 {
-    var entity = context.MyEntities.FirstOrDefaultAsync(e =&gt; e.Id == id);
+    var entity = context.MyEntities.FirstOrDefaultAsync(e => e.Id == id);
     ProcessEntity(entity);
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Each iteration performs a separate database query, leading to N queries",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Each iteration performs a separate database query, leading to N queries",
+  shouldDisplay: true
+} } />
+
 
 If you know the approximate size of your dataset, and it is suitable for your database server, retrieve all records in a single query before processing:
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
-var entities = context.MyEntities.Where(e =&gt; ids.Contains(e.Id)).ToListAsync();
+var entities = context.MyEntities.Where(e => ids.Contains(e.Id)).ToListAsync();
 foreach (var entity in entities)
 {
     ProcessEntity(entity);
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Fetches all required records in one query, reducing database load",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Fetches all required records in one query, reducing database load",
+  shouldDisplay: true
+} } />
+
 
 ### Handling large datasets
 
 If the dataset is **too large to fetch at once**, consider batching:
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 int batchSize = 100;
-for (int i = 0; i &lt; ids.Count; i += batchSize)
+for (int i = 0; i < ids.Count; i += batchSize)
 {
     var batch = ids.Skip(i).Take(batchSize).ToList();
-    var entities = context.MyEntities.Where(e =&gt; batch.Contains(e.Id)).ToList();
+    var entities = context.MyEntities.Where(e => batch.Contains(e.Id)).ToList();
     ProcessEntities(entities);
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example – Processes data in batches to balance efficiency and memory usage",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "okExample",
+  figure: "Figure: OK example – Processes data in batches to balance efficiency and memory usage",
+  shouldDisplay: true
+} } />
+
 
 The benefit of loading data into memory at once is that you can process it more efficiently without making multiple database calls. This opens up opportunities for parallel processing and other optimizations on the application side.
 
@@ -148,37 +123,27 @@ The benefit of loading data into memory at once is that you can process it more 
 
 By default, EF Core tracks entities, which increases memory usage and slows down performance. If you're just **reading data** without modifying it, disable tracking.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 var entities = context.MyEntities.ToListAsync();
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Unnecessary tracking increases memory usage",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Unnecessary tracking increases memory usage",
+  shouldDisplay: true
+} } />
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
+
 ```csharp
 var entities = context.MyEntities.AsNoTracking().ToListAsync();
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage",
+  shouldDisplay: true
+} } />
+
 
 <asideEmbed
   variant="info"
@@ -198,10 +163,6 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
 
 Each call to `SaveChangesAsync()` triggers a database transaction and commits changes to the database, which is costly in terms of performance.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 foreach (var entity in entities)
 {
@@ -210,18 +171,13 @@ foreach (var entity in entities)
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance",
+  shouldDisplay: true
+} } />
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
+
 ```csharp
 foreach (var entity in entities)
 {
@@ -230,13 +186,12 @@ foreach (var entity in entities)
 context.SaveChangesAsync();
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Updates all entities in memory first, then commits changes in a single transaction",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Updates all entities in memory first, then commits changes in a single transaction",
+  shouldDisplay: true
+} } />
+
 
 Whenever possible, defer calling `SaveChangesAsync()` until after all modifications have been made.
 
@@ -246,10 +201,6 @@ Whenever possible, defer calling `SaveChangesAsync()` until after all modificati
 
 EF Core automatically wraps `SaveChangesAsync()` calls in a transaction, but **explicit transactions** allow multiple operations to be committed together, improving performance and reducing the risk of partial failures. When working with large data modifications, batch processing, or multiple related database operations, using transactions ensures **data consistency** and **reduces performance overhead**.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 foreach (var entity in entities)
 {
@@ -258,18 +209,13 @@ foreach (var entity in entities)
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead",
+  shouldDisplay: true
+} } />
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
+
 ```csharp
 using var transaction = await context.Database.BeginTransactionAsync();
 try
@@ -288,29 +234,24 @@ catch
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability",
+  shouldDisplay: true
+} } />
+
 
 ### Combining transactions with batching
 
 For very large datasets, committing everything in one transaction may still be inefficient. Instead, **process data in batches** while keeping transactions:
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
 ```csharp
 int batchSize = 100;
 using var transaction = await context.Database.BeginTransactionAsync();
 
 try
 {
-    for (int i = 0; i &lt; entities.Count; i += batchSize)
+    for (int i = 0; i < entities.Count; i += batchSize)
     {
         var batch = entities.Skip(i).Take(batchSize).ToList();
         context.AddRange(batch);
@@ -325,13 +266,12 @@ catch
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal",
+  shouldDisplay: true
+} } />
+
 
 ### When to use transactions
 

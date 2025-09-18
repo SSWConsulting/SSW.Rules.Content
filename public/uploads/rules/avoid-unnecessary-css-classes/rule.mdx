@@ -30,13 +30,10 @@ It can be tempting to add classes to elements, as it's often the most obvious so
 />
 You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for **very specific** layout elements.
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    **HTML:**
+**HTML:**
 
 ```html
-&lt;a class="view-all-link" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV"&gt;View All&lt;/a&gt;
+<a class="view-all-link" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
 ```
 
 **CSS:**
@@ -47,13 +44,12 @@ You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](ht
 }
 ```
 
-  </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The \"view-all-link\" class was added unnecessarily",
-    shouldDisplay: true
-  }}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - The \"view-all-link\" class was added unnecessarily",
+  shouldDisplay: true
+} } />
+
 
 <asideEmbed
   variant="greybox"

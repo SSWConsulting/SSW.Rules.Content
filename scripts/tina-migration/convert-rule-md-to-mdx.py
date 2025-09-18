@@ -169,7 +169,7 @@ def wrap_intro_embed(m):
         intro_processed, flags=re.MULTILINE
     )
     intro_processed = convert_angle_bracket_links(intro_processed)
-    intro_processed = escape_angle_brackets_except(intro_processed, allowed_tags=("mark",))
+    # intro_processed = escape_angle_brackets_except(intro_processed, allowed_tags=("mark",))
 
     return f'''{fm}<introEmbed
   body={{<>

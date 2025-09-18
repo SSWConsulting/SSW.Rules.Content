@@ -84,27 +84,27 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 * Install the analyzer:
 
-  ```bash
-  npm install @next/bundle-analyzer
-  ```
+```bash
+npm install @next/bundle-analyzer
+```
 
 * Add this configuration to your `next.config.js`:
 
-  ```js
-  const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: process.env.ANALYZE === 'true',
-  });
+```js
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
-  module.exports = withBundleAnalyzer({
-    // other Next.js config options
-  });
-  ```
+module.exports = withBundleAnalyzer({
+  // other Next.js config options
+});
+```
 
 * Then run the analyzer with:
 
-  ```bash
-  ANALYZE=true next build
-  ```
+```bash
+ANALYZE=true next build
+```
 
 **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 

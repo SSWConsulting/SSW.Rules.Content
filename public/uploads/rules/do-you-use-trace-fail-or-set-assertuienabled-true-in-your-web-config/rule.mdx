@@ -29,11 +29,22 @@ Have you ever seen dialogs raised on the server-side? These dialogs would hang t
   </>}
 />
 See Scott's blog [Preventing Dialogs on the Server-Side in ASP.NET or Trace.Fail considered Harmful](http://www.hanselman.com/blog/PreventingDialogsOnTheServerSideInASPNETOrTraceFailConsideredHarmful.aspx)
+
+```csharp
  public static void ExceptionFunc(string strException)
 {
     System.Diagnostics.Trace.Fail(strException);
 }
-Figure: Never use Trace.Fail &lt;configuration&gt;
+```
+
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Never use Trace.Fail &lt;configuration&gt;",
+  shouldDisplay: true
+} } />
+
+
+```csharp
    &lt;system.diagnostics&gt;
       &lt;assert AssertUIEnabled="true" logfilename="c:\log.txt" /&gt;
    &lt;/system.diagnostics&gt;
@@ -43,4 +54,10 @@ Figure: Never set AssertUIEnabled="true" in web.config &lt;configuration&gt;
       &lt;assert AssertUIEnabled="false" logfilename="c:\log.txt" /&gt;
    &lt;/system.diagnostics&gt;
 &lt;/configuration&gt;
-Figure: Should set AssertUIEnabled="false" in web.config
+```
+
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Should set AssertUIEnabled=\"false\" in web.config",
+  shouldDisplay: true
+} } />

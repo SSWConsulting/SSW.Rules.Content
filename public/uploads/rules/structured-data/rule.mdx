@@ -54,21 +54,21 @@ Structured data is a standardized format for providing information about a page 
 
 2. **Use Schema.org vocabulary** - Schema.org provides a wide range of types and properties to annotate your content. For example:
 
-    ``` xml
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Smartphone XYZ",
-      "description": "A high-performance smartphone with 128GB storage",
-      "brand": "BrandName",
-      "offers": {
-        "@type": "Offer",
-        "price": "699.99",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
+  ``` xml
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Smartphone XYZ",
+    "description": "A high-performance smartphone with 128GB storage",
+    "brand": "BrandName",
+    "offers": {
+      "@type": "Offer",
+      "price": "699.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
     }
-    ```
+  }
+  ```
 
 3. **Implement structured data correctly** - Use JSON-LD format, as it is Google’s preferred method. Ensure that structured data matches the visible content on the page to avoid misleading search engines or users
 
