@@ -39,6 +39,7 @@ Do the following:
 
 1. Go to PIM at <https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles>
 2. Go to Assignments | Add Assignment:
+
    ::: good
    ![Figure: Good example - Assigning roles in PIM](pim1.jpg)
    :::

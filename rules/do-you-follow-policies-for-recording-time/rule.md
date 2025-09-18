@@ -22,9 +22,9 @@ There needs to be consistency between all of your developers' timesheets, so you
 
 - Be accurate
 
-  ::: good  
-   ![Figure: Good example - Inform accurately how much time you spent for each client](timesheet-accuracy.jpg)  
-   :::
+::: good  
+  ![Figure: Good example - Inform accurately how much time you spent for each client](timesheet-accuracy.jpg)  
+:::
 
 - [Describe the work you have done?](/do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug)
 - Record all the work you do for a client, even if it is to be written off

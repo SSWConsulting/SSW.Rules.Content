@@ -85,12 +85,3 @@ So many problems in business come down to a lack of clear and effective communic
 
 - [Do you use 'Checked by xxx'?](/checked-by-xxx)
 - [Do you send "As Per Our Conversation" emails?](/as-per-our-conversation-emails)
-
-<!--
-# Anatomy of an EagleEye rule
-=============================
-What are we looking at? Email
-What are the insights? See bullets above
-Video
-Actionable insights - How we change process off the data
--->

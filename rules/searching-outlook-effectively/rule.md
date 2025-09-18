@@ -97,7 +97,7 @@ File contents can also be searched. If you know that there was an attachment tha
 
 Note: You must enter dates in USA format #ouch
 
-### Tip #9: Focus on the date received (i.e. received=<>)
+### Tip #9: Focus on the date received (i.e. received=`<>`)
 
 You can filter on a specific time period or date. For example, If you know that the email was received after 07/20/2019 then:
 

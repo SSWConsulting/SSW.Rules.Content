@@ -31,7 +31,7 @@ You don’t need a full bug bounty program to start. Just set up the email, publ
 Make sure it’s:
 
 * Monitored by trusted staff (not just one person)
-* Responded to quickly (aim for <48h)
+* Responded to quickly (aim for &lt; 48h)
 * Part of your incident response process
 
 

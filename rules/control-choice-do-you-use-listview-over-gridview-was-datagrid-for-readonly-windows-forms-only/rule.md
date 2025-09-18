@@ -40,7 +40,9 @@ So the listview looks nicer? If you are not convinced here is another one:
 
 But another issue is how much code to write... For ListView you will need to write a bit of code to fill the list view...
 
+```
 this.listView1.Items.Clear(); // stops drawing to speed up the process, draw right at the end. this.listView1.BeginUpdate(); foreach(DataRow dr in this.dataSet11.Tables[0].Rows) { ListViewItem lvi = new ListViewItem(new string[] {dr[0].ToString(),dr[1].ToString(),dr[2].ToString()}); lvi.Tag = dr; this.listView1.Items.Add(lvi); } this.listView1.EndUpdate();
+```
 Figure: 8 lines of code to fill a ListView
 But the datagrid is nicer to code... this is because it comes with data binding ability.
 

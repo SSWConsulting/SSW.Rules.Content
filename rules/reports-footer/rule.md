@@ -24,7 +24,7 @@ Include:
 1. Date and Time Printed and User who printed it - see warning below (e.g. Printed by SSW\DaveSmith on 3/1/2024 3:16:30 PM)
 2. Execution Time (e.g. Execution time: 1 minute, 10 seconds)
 3. Page x of y (e.g. Page 3 of 10)
-4. Link to company website + slogan (e.g. <www.ssw.com.au> - Enterprise Sopftware Development)
+4. Link to company website + slogan (e.g. `www.ssw.com.au` - Enterprise Sopftware Development)
 
 ::: bad
 ![Bad example - This footer doesn't provide any useful information](RSRulesBadFooter.gif)
@@ -50,7 +50,7 @@ Use these handy report expressions to show the above information.
 ![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif)
 :::
 
-**Tip:** Copy and Paste this XML into the <PageFooter> for the recommended footer of all your \*.rdl files.
+**Tip:** Copy and Paste this XML into the \<PageFooter> for the recommended footer of all your \*.rdl files.
 
 ```xml
  <PageFooter>
