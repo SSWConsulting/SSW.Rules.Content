@@ -19,7 +19,7 @@ Managing a backlog can quickly become overwhelming. It often grows into a long, 
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=KWjYXYBIIQo`
+`youtube: https://www.youtube.com/watch?v=u_0WgkNn7dI`
 **Video: Managing 1000+ GitHub Issues with Claude AI – Eli & Gert Reveal the Secret Sauce | SSW Rules (8 mins)**
 
 ## Why AI is useful for backlog management
