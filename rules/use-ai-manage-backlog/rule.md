@@ -101,8 +101,9 @@ Not every backlog item has the same impact. AI can help prioritize by:
 You can connect any MCP-compatible client to GitHub and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
 **Start Querying Your Backlog**  
-   * Once connected, you can interact with your GitHub issues and pull requests in natural language  
-   * Example queries:  
-     * *“Which issues are too big for a Sprint?”*  
-     * *“Group all issues related to payments into an epic.”*  
-     * *“Suggest estimates based on past completed issues.”*
+
+* Once connected, you can interact with your GitHub issues and pull requests in natural language  
+* Example queries:  
+  * *“Which issues are too big for a Sprint?”*  
+  * *“Group all issues related to payments into an epic.”*  
+  * *“Suggest estimates based on past completed issues.”*
