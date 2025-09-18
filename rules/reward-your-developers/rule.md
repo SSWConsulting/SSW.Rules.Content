@@ -19,6 +19,7 @@ When your team has completed an important milestone successfully, they should be
 <!--endintro-->
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Team and Client |

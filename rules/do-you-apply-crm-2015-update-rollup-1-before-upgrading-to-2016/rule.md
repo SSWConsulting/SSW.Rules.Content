@@ -27,11 +27,11 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
 
 **Solution:**
 
-- Make a backup of the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
+* Make a backup of the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
 
-- Open the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
+* Open the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
 
-- Remove the entry about the index “cndx_BusinessDataLocalizedLabel”. This is found at the very end of the file:
+* Remove the entry about the index “cndx_BusinessDataLocalizedLabel”. This is found at the very end of the file:
 
 ```xml
 <index Name="cndx_BusinessDataLocalizedLabel">
@@ -49,10 +49,10 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
   </index>
 ```
 
-- Close Deployment Manager
-- Start Deployment Manager
-- Start the organization update from Deployment manager
-- Run the following query on the organization DB to manually recreate the index
+* Close Deployment Manager
+* Start Deployment Manager
+* Start the organization update from Deployment manager
+* Run the following query on the organization DB to manually recreate the index
 
 ```sql
 IF EXISTS (SELECT * FROM sys.indexes WHERE name = 'cndx_BusinessDataLocalizedLabel' AND OBJECT_NAME(object_id) = 'BusinessDataLocalizedLabelBase') DROP INDEX [cndx_BusinessDataLocalizedLabel] ON [BusinessDataLocalizedLabelBase];
@@ -65,6 +65,6 @@ BEGIN CATCH
 END CATCH
 ```
 
-- Restore the file MetadataDiffs.xml to its original state using the backup taken at step 1
+* Restore the file MetadataDiffs.xml to its original state using the backup taken at step 1
 
 **Source:** [Error updating Microsoft Dynamics CRM 2015 0.1](https://community.dynamics.com/forums/thread/details/?threadid=8f9d9ec1-541e-4562-a813-f548550061e4)

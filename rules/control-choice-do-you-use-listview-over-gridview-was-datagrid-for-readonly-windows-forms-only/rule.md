@@ -16,9 +16,9 @@ redirects:
 
 Yes a ListView looks nicer than a DataGrid, but a Datagrid is better because it has more functionality (out of the box that is). With a ListView you cannot:
 
-- Copy and paste - although you can select a row of data in both controls, you can't copy and paste a whole row from the ListView
-- Sort data - always useful when there are more than about 20 rows
-- DataBind - always saves heaps of code
+* Copy and paste - although you can select a row of data in both controls, you can't copy and paste a whole row from the ListView
+* Sort data - always useful when there are more than about 20 rows
+* DataBind - always saves heaps of code
 
 <!--endintro-->
 
@@ -43,6 +43,7 @@ But another issue is how much code to write... For ListView you will need to wri
 ```
 this.listView1.Items.Clear(); // stops drawing to speed up the process, draw right at the end. this.listView1.BeginUpdate(); foreach(DataRow dr in this.dataSet11.Tables[0].Rows) { ListViewItem lvi = new ListViewItem(new string[] {dr[0].ToString(),dr[1].ToString(),dr[2].ToString()}); lvi.Tag = dr; this.listView1.Items.Add(lvi); } this.listView1.EndUpdate();
 ```
+
 Figure: 8 lines of code to fill a ListView
 But the datagrid is nicer to code... this is because it comes with data binding ability.
 
@@ -56,15 +57,15 @@ So what is this SSW ListView?
 
 It is an inherited control that how we implemented the ListView to give us what MS left out.
 
-- DataBinding
-- Sorting
+* DataBinding
+* Sorting
 
 So now the rules are:
 Always use the SSW ListView.
 Exception: Use the DataGrid when:
 
-- When not read only - i.e. users will be editing data directly from the cells.
-- You need more than 1 column with checkboxes, or the column with checkboxes can't be the first column. E.g.:
+* When not read only - i.e. users will be editing data directly from the cells.
+* You need more than 1 column with checkboxes, or the column with checkboxes can't be the first column. E.g.:
   ![Figure: One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields](../../assets/DataGrid2CheckBoxes.gif)
 
 So in summary, if you don't want users to edit the data directly from the cell, and only the first column need checkboxes, then the ListView is always the better choice.

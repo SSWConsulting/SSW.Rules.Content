@@ -48,6 +48,7 @@ sDataGridViewRow.Cells(0).Value = Me.CheckBoxSelectAll.Checked
 Next
 End Sub
 ```
+
 Code: Code for selecting all checkboxes in a windows form
 ![Figure: Select all checkboxes in a web form](../../assets/SelectAllCheckBox\_Web.jpg)  
 
@@ -65,5 +66,6 @@ document.form1.elements[n].checked = document.getElementById("CheckBoxAll").chec
 }
 &lt;/script&gt;
 ```
+
 Code: Code for selecting all checkboxes in a web form
 We have suggestions for Visual Studio .NET about this at [A top CheckBox to "select all" in windows forms](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSForm.aspx#SelectAllCheckWindows) and [A top CheckBox to "select all" in web forms.](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSAjax.aspx#SelectAllCheckWeb)

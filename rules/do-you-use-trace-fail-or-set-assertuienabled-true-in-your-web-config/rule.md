@@ -29,10 +29,10 @@ See Scott's blog [Preventing Dialogs on the Server-Side in ASP.NET or Trace.Fail
     System.Diagnostics.Trace.Fail(strException);
 }
 ```
+
 ::: bad
 Figure: Never use Trace.Fail &lt;configuration&gt;
 :::
-
 
 ```csharp
    &lt;system.diagnostics&gt;
@@ -45,6 +45,7 @@ Figure: Never set AssertUIEnabled="true" in web.config &lt;configuration&gt;
    &lt;/system.diagnostics&gt;
 &lt;/configuration&gt;
 ```
+
 ::: good
 Figure: Should set AssertUIEnabled="false" in web.config
 :::

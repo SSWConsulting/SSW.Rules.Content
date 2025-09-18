@@ -28,6 +28,7 @@ Because of that, you should avoid using that functionality if you want people to
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Adam |
