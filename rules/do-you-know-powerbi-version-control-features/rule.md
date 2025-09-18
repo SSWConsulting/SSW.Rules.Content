@@ -54,12 +54,12 @@ The following video provides an overview of these features.
 
    **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf?WT.mc_id=DOP-MVP-33518) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
 
-   ::: img-large
-   ![Figure: cache.abf](PBICache.png)
-   :::
+  ::: img-large
+  ![Figure: cache.abf](PBICache.png)
+  :::
 
-   ::: img-large
-   ![Figure: The .gitignore file](Gitignore.png)
-   :::
+  ::: img-large
+  ![Figure: The .gitignore file](Gitignore.png)
+  :::
 
 3. [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo&WT.mc_id=DOP-MVP-33518)

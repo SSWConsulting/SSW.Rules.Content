@@ -131,6 +131,5 @@ If you're in the enterprise space, or working on projects that have many moving 
 Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it'll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.
 :::
 
-> "I love deadlines. I like the whooshing sound they make as they fly by."
->
-> * Douglas Adams
+> "I love deadlines. I like the whooshing sound they make as they fly by."  
+> \* Douglas Adams

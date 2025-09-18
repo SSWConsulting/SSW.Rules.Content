@@ -14,7 +14,7 @@ GitHub Secrets and Variables are an invaluable way to store sensitive informatio
 
 <!--endintro-->
 
-When storing Secrets and Variables in GitHub, it's common that these are stored with special characters (for example: "$", "&", "(", ")", "<", ">"). We have a few ways to use these in our GitHub Actions:
+When storing Secrets and Variables in GitHub, it's common that these are stored with special characters (for example: "$", "&", "(", ")", "\<", ">"). We have a few ways to use these in our GitHub Actions:
 
 1. ❌ **Bad** - Referencing the raw text as-is
 2. ✅ **Good** - Referencing the raw text in enclosing quotes

@@ -31,7 +31,7 @@ It is important to note that as more project management overheads are added, the
 
 > "The more you want to see how much you're spending, the more you'll spend".
 >
-> * Ulysses Maclaren
+> \* Ulysses Maclaren
 
 It's important to find the right balance for you.
 

@@ -39,6 +39,7 @@ Do you have checkbox (on the top) that let users select or unselect all checkbox
 
 ![Figure: Selecting some should show the Indeterminate check state - aka customized selection](../../assets/SQLAuditorSelectAll\_Customize.jpg)  
 
+```
 Private Sub CheckBoxSelectAll\_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) \_
 Handles CheckBoxSelectAll.CheckedChanged
 'Select checkbox in each row
@@ -46,9 +47,12 @@ For Each sDataGridViewRow As DataGridViewRow In Me.DataGridViewCustomer.Rows
 sDataGridViewRow.Cells(0).Value = Me.CheckBoxSelectAll.Checked
 Next
 End Sub
+```
+
 Code: Code for selecting all checkboxes in a windows form
 ![Figure: Select all checkboxes in a web form](../../assets/SelectAllCheckBox\_Web.jpg)  
 
+```
 &lt;script type="text/javascript"&gt;
 function SeleteCheckBox()
 {
@@ -61,5 +65,7 @@ document.form1.elements[n].checked = document.getElementById("CheckBoxAll").chec
 }
 }
 &lt;/script&gt;
- Code: Code for selecting all checkboxes in a web form
+```
+
+Code: Code for selecting all checkboxes in a web form
 We have suggestions for Visual Studio .NET about this at [A top CheckBox to "select all" in windows forms](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSForm.aspx#SelectAllCheckWindows) and [A top CheckBox to "select all" in web forms.](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSAjax.aspx#SelectAllCheckWeb)
