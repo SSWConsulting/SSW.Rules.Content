@@ -87,10 +87,10 @@ Passwords are a traditional technology that create security vulnerabilities thro
    ![Figure: Passkey created successfully](passkey-create-success.png)
    :::
 
-6. **Test your passkey**
+5. **Test your passkey**
 
    * Sign out of your Microsoft account
-   * When signing back in, select **"Other ways to sign in"**
+   * When signing back in, select **Other ways to sign in**
    * Choose **Face, fingerprint, PIN, or security key** option
    * Use your biometric authentication to complete sign-in
 
