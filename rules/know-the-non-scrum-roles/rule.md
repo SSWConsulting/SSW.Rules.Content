@@ -34,11 +34,12 @@ An Account Manager’s main job is to **own the relationship with the client** a
 As a guiding principle, Account Managers should not join daily scrums or participate in technical conversations — those are best left to the delivery team. However, relationships are fluid, and occasionally joining a stand-up (e.g., to check in with the client or resolve a relationship issue) may be appropriate. The key is to respect boundaries: don’t manage the project or the technical side of things.
 
 ### ❌ Generally avoid
-- Joining daily scrums (unless there is a specific relationship issue to address)  
-- Changing resources mid-week (resourcing changes should be deliberate and always involve the Tech Lead)  
-- Having technical conversations with the client on the side without the Tech Lead present  
+* Joining daily scrums (unless there is a specific relationship issue to address)  
+* Changing resources mid-week (resourcing changes should be deliberate and always involve the Tech Lead)  
+* Having technical conversations with the client on the side without the Tech Lead present  
 
-### ✅ Focus on 
+### ✅ Focus on
+
 * Managing communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to the [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews), until the main body of work is booked  
 * Managing key relationships and ensuring the client is happy with the Tech Lead and Scrum Master  
 * Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and other required documents signed  
@@ -52,9 +53,10 @@ As a guiding principle, Account Managers should not join daily scrums or partici
 ## Tech Lead
 
 ### ❌ Generally avoid
-- Discussing money or budget directly with the client
+* Discussing money or budget directly with the client
 
 ### ✅ Focus on
+
 * Displaying ownership of the project while keeping code quality high and technical debt low  
 * Delivering the project into production  
 * Spec review and project communication — being the primary communicator with the Product Owner  
