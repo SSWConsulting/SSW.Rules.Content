@@ -15,7 +15,7 @@ related:
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
-Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don't always come with clear next steps. 
+Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don't always come with clear next steps.
 
 **This is where AI can help.** By connecting the [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) MCP to a host (eg. Claude Code), you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
 
@@ -100,7 +100,7 @@ When a request comes in, it isn't easy to know what issues are required to compl
 * **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
 ::: greybox
-**Example Query:** "Does {{ ISSUE }} have any related issues that should be done before work is started?" 
+**Example Query:** "Does {{ ISSUE }} have any related issues that should be done before work is started?"
 :::
 
 ::: good
@@ -132,6 +132,7 @@ Once connected, you can interact with your GitHub issues and pull requests in na
 
 ::: greybox
 **Example queries:**  
+
 * "Which issues are too big for a Sprint?"
 * "Group all issues related to payments into an epic."  
 * "Suggest estimates based on past completed issues."
