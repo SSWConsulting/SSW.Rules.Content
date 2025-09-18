@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you use AI to manage your backlog?
-seoDescription: use AI to manage and refine you backlog
+seoDescription: Take the stress out of backlog management. With AI + GitHub or DevOps MCP, you can quickly organize tasks and focus on the fun work.
 uri: use-ai-manage-backlog
 authors:
   - title: Gert Marx
@@ -15,7 +15,9 @@ related:
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
-Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don’t always come with clear next steps. This is where AI can help. By connecting the [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) MCP to a host (eg. Claude Code), you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
+Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don't always come with clear next steps.
+
+**This is where AI can help.** By connecting the [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) MCP to a host (eg. Claude Code), you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
 
 <!--endintro-->
 
@@ -36,7 +38,9 @@ With AI managing your backlog, you can easily:
 ![Figure: Bad example — In this case, there are 4 topics that have duplicates](Big-Backlog.gif)
 :::
 
-Example Query: Find me duplicate issues  
+::: greybox
+**Example Query:** "Find me duplicate issues."  
+:::
 
 ::: good
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
@@ -49,7 +53,9 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 * **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a Sprint
 * **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
 
-Example Query: Are there any issues in the backlog that can be broken down into smaller issues?  
+::: greybox
+**Example Query:** "Are there any issues in the backlog that can be broken down into smaller issues?"  
+:::
 
 ::: good
 ![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
@@ -63,7 +69,9 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 * **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives
 * **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
-Example Query: Can you group some issues that could be in a single epic?  
+::: greybox
+**Example Query:** "Can you group some issues that could be in a single epic?"  
+:::
 
 ::: good
 ![Figure: Good example — AI groups related works under epics](Grouping-GitHub.png)
@@ -76,7 +84,9 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 * **Estimating bugs vs features** - AI compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
 * **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - AI offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
-Example Query: Can you provide me an estimate on {{ ISSUE }}?  
+::: greybox
+**Example Query:** "Can you provide me an estimate on {{ ISSUE }}?"  
+:::
 
 ::: good
 ![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
@@ -89,7 +99,9 @@ When a request comes in, it isn't easy to know what issues are required to compl
 * **Identifying existing issues** - Finds prerequisites that need to be completed first to ensure the delivery is not blocked
 * **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
-Example Query: Does {{ ISSUE }} have any related issues that should be done before work is started?  
+::: greybox
+**Example Query:** "Does {{ ISSUE }} have any related issues that should be done before work is started?"
+:::
 
 ::: good
 ![Figure: Good example — AI finds related issues for a given issue](Dependencies-GitHub.png)
@@ -102,7 +114,9 @@ Not every backlog item has the same impact. AI can help prioritize by:
 * **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work  
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
 
-Example Query: Can you give me the highest priorities that would improve user experience?  
+::: greybox
+**Example Query:** "Can you give me the highest priorities that would improve user experience?"
+:::
 
 ::: good
 ![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
@@ -112,10 +126,13 @@ Example Query: Can you give me the highest priorities that would improve user ex
 
 You can connect any MCP-compatible host to [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
-**Start Querying Your Backlog**  
+### Start querying your backlog**  
 
-* Once connected, you can interact with your GitHub issues and pull requests in natural language  
-* Example queries:  
-  * *“Which issues are too big for a Sprint?”*  
-  * *“Group all issues related to payments into an epic.”*  
-  * *“Suggest estimates based on past completed issues.”*
+Once connected, you can interact with your GitHub issues and pull requests in natural language.
+
+::: greybox
+**Example queries:**  
+
+* "Which issues are too big for a Sprint?"
+* "Group all issues related to payments into an epic."  
+* "Suggest estimates based on past completed issues."
