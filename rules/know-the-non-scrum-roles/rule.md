@@ -29,29 +29,31 @@ This rule clarifies responsibilities and ensures smooth collaboration.
 
 <!--endintro-->
 
-### Account Manager
+## Account Manager
 
 An Account Manager’s main job is to **own the relationship with the client** and ensure satisfaction, without stepping into daily project delivery. They should support the Tech Lead and Scrum Master, not replace them.
 
 As a guiding principle, Account Managers should not join daily scrums or participate in technical conversations — those are best left to the delivery team. However, relationships are fluid, and occasionally joining a stand-up (e.g., to check in with the client or resolve a relationship issue) may be appropriate. The key is to respect boundaries: don’t manage the project or the technical side of things.
 
-**Generally avoid:**
-- ❌ Joining daily scrums (unless there is a specific relationship issue to address)  
-- ❌ Changing resources mid-week (resourcing changes should be deliberate and always involve the Tech Lead)  
-- ❌ Having technical conversations with the client on the side, without the Tech Lead present
+### ❌ Generally avoid
 
-**Focus on:**  
-*  ✅ Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
-*  ✅ Managing key relationships, Ensuring the client is happy with the Tech Lead and Scrum Master 
-*  ✅ Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
-*  ✅ CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
-*  ✅ Invoicing
-*  ✅ Conflict resolution
-*  ✅ Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
-*  ✅ Budget discussions
-*  ✅ Join Sprint Reviews periodically e.g. once a month (or if there are issues)
+- Joining daily scrums (unless there is a specific relationship issue to address)  
+- Changing resources mid-week (resourcing changes should be deliberate and always involve the Tech Lead)  
+- Having technical conversations with the client on the side, without the Tech Lead present
 
-### Tech Lead
+### ✅ Focus on 
+*  Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
+*  Managing key relationships, Ensuring the client is happy with the Tech Lead and Scrum Master 
+*  Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
+*  CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
+*  Invoicing
+*  Conflict resolution
+*  Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
+*  Budget discussions
+*  Join Sprint Reviews periodically e.g. once a month (or if there are issues)
+
+## Tech Lead
+
 **Generally avoid:**
 - ❌ Discussing money or budget directly with the client  
 
