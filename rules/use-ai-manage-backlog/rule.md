@@ -131,10 +131,8 @@ You can connect any MCP-compatible host to [GitHub](https://github.com/github/gi
 
 Once connected, you can interact with your GitHub issues and pull requests in natural language.
 
-::: greybox
 **Example queries:**  
 
 * "Which issues are too big for a Sprint?"
 * "Group all issues related to payments into an epic."  
 * "Suggest estimates based on past completed issues."
-:::
