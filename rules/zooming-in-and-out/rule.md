@@ -33,7 +33,9 @@ When trying to explain something, think about it in the context of 3 levels of z
 * Normal Zoom - Challenge
 * Micro Zoom - Core
 
+::: info
 **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=DOP-MVP-33518) for easy recording and on screen notation, especially when using [YakShaver](https://yakshaver.ai).
+:::
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
