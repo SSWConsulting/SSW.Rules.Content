@@ -33,6 +33,20 @@ YouTube is a great resource for those who love audio-visual learning. It is comp
 
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/?WT.mc_id=AZ-MVP-33518) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
 
+#### Recommended Practices
+
+Here’s a simple example of how you can start a project to learn Azure: build a small **.NET Web API** with basic CRUD operations, use **Azure SQL Database** for storage, and deploy it to **Azure App Service**. Going hands-on like this helps you see how things work.
+
+---
+
+**Quick Tips / Best Practices**
+
+- Start small: only add features you need to learn something new.  
+- Use free or lowest-cost tiers wherever possible (for learning project).
+- Focus on deployment and configuration as much as code (connection strings, environment, security).  
+- Play around with the live app (invoke endpoints, debug issues).
+
+
 ### Online Learning Platforms - $100 - 500 AUD
 
 Online learning platforms provide high quality technical training from your browser. These courses include lectures, tutorials, exams and more so you can learn at your own pace.
