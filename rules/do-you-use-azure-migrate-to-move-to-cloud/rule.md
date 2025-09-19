@@ -2,7 +2,7 @@
 seoDescription: Learn why you should use Azure Migrate and the App Service Migration Assistant for assessing and migrating on-premise applications to Azure with a fast, clear, and repeatable process.
 type: rule
 title: Do you use Azure Migrate and App Service Migration Assistant before migrating your app to the cloud?
-uri: azure-migrate-before-migration
+uri: do-you-use-azure-migrate-to-move-to-cloud
 authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh
