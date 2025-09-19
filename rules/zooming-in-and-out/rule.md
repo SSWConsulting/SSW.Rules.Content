@@ -27,6 +27,8 @@ That's why it is crucial to start at a fully zoomed out level and slowly zoom in
 
 `youtube: https://www.youtube.com/embed/tKRozsNl_0c`
 
+**Video: Do you explain a problem by zooming in and out with Luke Cook (5 min)**
+
 When trying to explain something, think about it in the context of 3 levels of zoom:
 
 * Macro Zoom - Context
