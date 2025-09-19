@@ -41,11 +41,10 @@ Here’s a simple example of how you can start a project to learn Azure: build a
 
 **Quick Tips / Best Practices**
 
-- Start small: only add features you need to learn something new.  
-- Use free or lowest-cost tiers wherever possible (for learning project).
-- Focus on deployment and configuration as much as code (connection strings, environment, security).  
-- Play around with the live app (invoke endpoints, debug issues).
-
+* Start small: only add features you need to learn something new.  
+* Use free or lowest-cost tiers wherever possible (for learning project).
+* Focus on deployment and configuration as much as code (connection strings, environment, security).  
+* Play around with the live app (invoke endpoints, debug issues).
 
 ### Online Learning Platforms - $100 - 500 AUD
 
