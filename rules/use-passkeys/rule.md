@@ -52,6 +52,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 :::
 
 ## Wider adoption and social pressure
+
 While passkeys have been around for many years, it's taken longer than we'd like for companies and services to adopt them. And even when they *are* adopted, passkeys are often treated as second-class citizens, and sites still default users to less secure authentication methods. Some cybersecurity professionals are taking it upon themselves to drive an increase in the adoption rate of passkeys, by way of social pressure and public education on the topic.
 
 One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.troyhunt.com) - creator of [haveibeenpwned.com](https://haveibeenpwned.com/), publishes a "list of shame" of businesses and services that don't yet support passkeys as a form of authentication. This is the same tactic Troy used many years ago to pressure businesses to implement secure transport layer encryption (HTTPS) on their sites, to great effect. Go Troy!  
