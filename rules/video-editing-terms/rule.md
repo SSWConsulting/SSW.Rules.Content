@@ -298,7 +298,7 @@ Is the operation by which the computer processes the edited sequence to allow fo
 
 Video rendering is similar to compiling code for developers.
 
-### 23. Video Export
+## 23. Video Export
 
 When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube.
 
