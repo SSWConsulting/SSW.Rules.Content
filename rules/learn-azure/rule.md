@@ -41,7 +41,7 @@ Here’s a simple example of how you can start a project to learn Azure: build a
 
 #### Quick Tips / Best Practices**
 
-* Start small by only adding features you need to learn something new 
+* Start small by only adding features you need to learn something new
 * Use free or lowest-cost tiers wherever possible (for learning project)
 * Focus on deployment and configuration as much as code (connection strings, environment, security)
 * Play around with the live app (invoke endpoints, debug issues)
