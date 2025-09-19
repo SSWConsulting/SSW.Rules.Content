@@ -312,7 +312,7 @@ The video has been approved and the feedback loop is closed. It is the stage of 
 
 ---
 
-## Sample feedback email
+### Sample feedback email
 
 Here is a sample email that you can use to provide feedback to the video editor.
 
