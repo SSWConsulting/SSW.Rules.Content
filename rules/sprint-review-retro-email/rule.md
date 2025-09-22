@@ -131,7 +131,7 @@ Please see below for a more detailed breakdown of the Sprint:
 
 Progress:
 
-**{{ EPIC #1 }}** 
+**{{ EPIC #1 }}**
 
 * Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
 
