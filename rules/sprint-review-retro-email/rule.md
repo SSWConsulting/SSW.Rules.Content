@@ -18,6 +18,8 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
+  - title: Josh Berman
+    url: https://ssw.com.au/people/josh-berman
 related:
   - roadmap
   - what-happens-at-retro-meetings
@@ -90,7 +92,7 @@ Please see below for a more detailed breakdown of the Sprint:
 
 3. Sprint Burndown - A quick overview of the Sprint
 
-![Figure: Sprint Burndown](burndown.jpg)
+![Figure: Sprint Burndown](burndown-V2.png)
 
 4. Code Coverage - Hopefully tests are increasing each Sprint
 
@@ -136,19 +138,7 @@ Progress:
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-**{{ EPIC #2 }}**
-
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
-
-**{{ EPIC #3 }}**
-
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+*Add this for each current epic in your backlog*
 
 10. R&D - Did we do any experimental work?
 
@@ -156,11 +146,11 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
-### 🤖 AI use - what tools did you use?
+11. AI use - what tools did you use?
 
 * {{ PERSON }} - {{ TOOLS }}
 
-### Copilot Stats
+#### Copilot Stats
 
 ![Figure: Copilot speaking summary was {{ DURATION }} - Image from Product Owner](meeting-length.png)
 
@@ -221,5 +211,8 @@ Figure: Good example - Template for Sprint Review/Retro email
 
 Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
 
-`youtube: https://www.youtube.com/watch?v=t3SlxTKiT6U`
-**Video: TinaCMS - Sprint 23 Review and Sprint 24 Forecast (10 min)**
+`youtube: https://www.youtube.com/watch?v=d1-5wziOH7o`
+**Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)**
+
+`youtube: https://www.youtube.com/watch?v=eqc_fKk2ZFo`
+**Video: ✅ Good Example: Josh B in Tina.io - Sprint Review 48 & Forecast 49 (13 min)**
