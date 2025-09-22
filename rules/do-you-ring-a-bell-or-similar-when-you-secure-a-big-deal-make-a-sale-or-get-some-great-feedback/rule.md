@@ -27,5 +27,5 @@ At SSW whenever a big new project is signed up, we sell an enterprise license fo
 :::
 
 ::: info
-**Note:** For really large milestones, you may want to go a step further and organise a [reward for the team](/reward-your-developers).
+**Note:** For really large milestones, you may want to go a step further and organize a [reward for the team](/reward-your-developers).
 :::
