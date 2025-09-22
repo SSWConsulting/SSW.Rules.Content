@@ -164,7 +164,7 @@ Progress:
 
 ![Figure: Copilot speaking summary was {{ DURATION }} - Image from Product Owner](meeting-length.png)
 
-Note: People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
+**Note:** People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
 
 ![Figure: Copilot showed the main action point was {{ MAIN ACTION POINT }} - Image from Product Owner](main-action-point.png)
 
