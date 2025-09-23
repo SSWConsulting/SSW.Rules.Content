@@ -16,6 +16,16 @@ index:
   - avoid-short-ambiguous-dates
   - use-digits-instead-of-words
   - make-numbers-more-readable
+  - prefixes
+  - use-emojis
+  - format-new-lines
+  - formatting-ui-elements
+  - distinguish-keywords-from-content
+  - placeholder-for-replaceable-text
+  - style-quotations
+  - descriptive-links
+  - keep-your-urls-clean
+  - use-correct-symbols-when-documenting-instructions
   - add-days-to-dates
   - address-formatting
   - use-the-right-capitalization
@@ -32,24 +42,14 @@ index:
   - screenshots-avoid-walls-of-text
   - screenshots-add-branding
   - borders-around-white-images
-  - use-correct-symbols-when-documenting-instructions
-  - prefixes
-  - use-emojis
-  - format-new-lines
-  - formatting-ui-elements
-  - distinguish-keywords-from-content
-  - placeholder-for-replaceable-text
-  - highlighting-important-contract-terms
-  - style-quotations
   - refer-consistently-throughout-your-document
-  - descriptive-links
-  - keep-your-urls-clean
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename
   - use-generic-consistent-names-on-examples
   - show-version-numbers
   - document-the-job
   - end-user-documentation
+  - highlighting-important-contract-terms
   - architectural-decision-records
   - hide-sensitive-information
   - do-you-know-all-the-symbols-on-the-keyboard
