@@ -2,7 +2,7 @@
 seoDescription: Mastering your keyboard's symbols can take you to new levels of typing efficiency and creativity.
 type: rule
 archivedreason:
-title: Do you know the common symbols on the keyboard?
+title: Do you know the special symbols on your keyboard?
 guid: 578c55c7-6a02-441a-ba89-9d151be72250
 uri: do-you-know-all-the-symbols-on-the-keyboard
 created: 2019-03-13T01:38:31.0000000Z
