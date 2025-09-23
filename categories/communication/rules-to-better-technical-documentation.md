@@ -8,21 +8,25 @@ index:
   - safety-step-when-deleting-content
   - do-you-avoid-duplicating-content
   - avoid-using-unnecessary-words
+  - are-you-careful-with-your-spelling-grammar-and-punctuation
+  - avoid-common-mistakes
   - avoid-repetition
   - avoid-acronyms
   - avoid-unclear-terms
   - avoid-short-ambiguous-dates
-  - avoid-common-mistakes
-  - are-you-careful-with-your-spelling-grammar-and-punctuation
+  - use-digits-instead-of-words
+  - make-numbers-more-readable
+  - add-days-to-dates
+  - address-formatting
   - use-the-right-capitalization
   - how-to-capitalize-titles
   - scrum-should-be-capitalized
-  - use-will-not-should
-  - user-authentication-terms
-  - use-try-again-instead-of-retry
   - commas-and-full-stops-always-should-have-1-space-after-them
   - dashes
   - use-lowercase-after-a-dash
+  - user-authentication-terms
+  - use-will-not-should
+  - use-try-again-instead-of-retry
   - use-bad-and-good-examples
   - screenshots-tools
   - screenshots-avoid-walls-of-text
@@ -37,14 +41,9 @@ index:
   - placeholder-for-replaceable-text
   - highlighting-important-contract-terms
   - style-quotations
-  - use-digits-instead-of-words
-  - make-numbers-more-readable
-  - add-days-to-dates
-  - address-formatting
   - refer-consistently-throughout-your-document
   - descriptive-links
   - keep-your-urls-clean
-  - create-friendly-short-urls
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename
   - use-generic-consistent-names-on-examples
@@ -52,11 +51,9 @@ index:
   - document-the-job
   - end-user-documentation
   - architectural-decision-records
-  - have-a-strong-header-and-footer
   - hide-sensitive-information
   - do-you-know-all-the-symbols-on-the-keyboard
   - copy-text-from-image
-  - support-send-links
 
 ---
 
