@@ -70,6 +70,8 @@ SIMPLE_FIGURE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s*\n(.*?)\n:::'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
+PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s+(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
 
 # ----------------------------- #
 # Utilities
@@ -141,6 +143,33 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 
     return re.sub(r"__TAG_PLACEHOLDER_(\d+)__", restore, protected)
 
+def convert_mark_tags_to_md_highlight(text: str) -> str:
+    return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
+
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed")) -> bool:
+    body_start = s.rfind('body={<>', 0, pos)
+    if body_start == -1:
+        return False
+
+    window_start = max(0, body_start - 5000)
+    pre_segment = s[window_start:body_start]
+    if not any(tag in pre_segment for tag in component_tags):
+        return False
+
+    body_end = s.find('</>}', body_start)
+    return body_end != -1 and pos < body_end
+
+def keep_markdown_figure_with_prefix(m, src_prefix: str) -> str:
+    figure = m.group(1).strip()
+    raw_src = m.group(2).strip()
+    src = add_prefix_if_relative(raw_src, src_prefix)
+    return f'![Figure: {figure}]({src})'
+
+def add_prefix_if_relative(raw_src: str, src_prefix: str) -> str:
+    clean = clean_image_src(raw_src)
+    if clean.startswith('/') or re.match(r'https?://', clean, flags=re.IGNORECASE):
+        return clean
+    return f"{src_prefix}/{clean}"
 
 
 # ----------------------------- #
@@ -186,7 +215,7 @@ def replace_image_block(m, src_prefix):
         return m.group(0)
     figure = alt_match.group(1).strip()
     raw_src = alt_match.group(2).strip()
-    src = f"{src_prefix}/{clean_image_src(raw_src)}"
+    src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
 
@@ -207,7 +236,7 @@ def replace_custom_size_image_block(m, src_prefix):
     variant = m.group(1).strip()
     figure_raw = m.group(2).strip()
     raw_src = m.group(3).strip()
-    src = f"{src_prefix}/{clean_image_src(raw_src)}"
+    src = add_prefix_if_relative(raw_src, src_prefix)
 
     size = {
         "img-small": "small",
@@ -235,7 +264,7 @@ def replace_custom_size_image_block(m, src_prefix):
 def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
-    src = f"{src_prefix}/{clean_image_src(raw_src)}"
+    src = add_prefix_if_relative(raw_src, src_prefix)
     figure_js = js_string(figure)
 
     return '\n' + f'''<imageEmbed
@@ -244,6 +273,35 @@ def replace_standalone_image(m, src_prefix):
   showBorder={{false}}
   figureEmbed={{ {{
     preset: "default",
+    figure: {figure_js},
+    shouldDisplay: true
+  }} }}
+  src="{src}"
+/>'''
+
+def replace_preset_custom_size_image_block(m, src_prefix):
+    preset_kind = m.group(1).strip()        # good / bad / ok
+    variant = m.group(2).strip()            # img-small / img-medium / img-large / no-border
+    figure_raw = m.group(3).strip()
+    raw_src = m.group(4).strip()
+
+    size = {
+        "img-small": "small",
+        "img-medium": "medium",
+        "img-large": "large",
+        "no-border": "large"
+    }.get(variant, "large")
+
+    show_border = "false" if variant == "no-border" else "true"
+    src = add_prefix_if_relative(raw_src, src_prefix)
+    figure_js = js_string(figure_raw)
+
+    return f'''<imageEmbed
+  alt="Image"
+  size="{size}"
+  showBorder={{{show_border}}}
+  figureEmbed={{ {{
+    preset: "{preset_kind}Example",
     figure: {figure_js},
     shouldDisplay: true
   }} }}
@@ -509,15 +567,24 @@ def transform_md_to_mdx(file_path):
     content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
 
+    content = convert_mark_tags_to_md_highlight(content)
     content = mdx_safe_template_vars(content)
     content = re.sub(INTRO_WITH_FM_REGEX, wrap_intro_embed, content, flags=re.IGNORECASE | re.DOTALL)
 
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
+    content = re.sub(PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
     content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
     content = transform_email_blocks(content)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
-    content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
+    # content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
+
+    def _replace_standalone_image_conditional(m):
+        if is_inside_any_embed_body(content, m.start()):
+            return keep_markdown_figure_with_prefix(m, src_prefix)
+        return replace_standalone_image(m, src_prefix)
+    content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
+
     content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
 

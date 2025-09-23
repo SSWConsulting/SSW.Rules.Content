@@ -48,39 +48,33 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-::: bad img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "badExample",
     figure: "Bad example - Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image",
     shouldDisplay: true
   } }
   src="/uploads/rules/use-ai-to-edit-images/xen-create-image-blog-fail-1.webp"
 />
-:::
 
 ### Today's shift - Enter Nano Banana 🍌
 
 **Editing-first models** like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
-::: good img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "goodExample",
     figure: "Good example - Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.",
     shouldDisplay: true
   } }
   src="/uploads/rules/use-ai-to-edit-images/generated-image-september-04-2025-12_19pm.jpeg"
 />
-:::
 
 ### What makes editing-first models different?
 

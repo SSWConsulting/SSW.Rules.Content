@@ -36,40 +36,34 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 <input type="text" name="phone" />
 ```
 
-::: bad img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "badExample",
     figure: "Bad example – This field is using a \"text\" type and shows a standard keyboard on mobile",
     shouldDisplay: true
   } }
   src="/uploads/rules/do-you-use-the-correct-input-type/field-type-text.png"
 />
-:::
 
 ```html
 <label for="phone">Phone</label>:
 <input type="tel" name="phone" />
 ```
 
-::: good img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "goodExample",
     figure: "Good example – This field is using the correct field type and shows the keypad on mobile",
     shouldDisplay: true
   } }
   src="/uploads/rules/do-you-use-the-correct-input-type/field-type-tel.png"
 />
-:::
 
 Here is a table of some useful input types and what they do:
 
