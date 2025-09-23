@@ -15,7 +15,7 @@ related: []
 redirects: []
 ---
 
-A standard computer keyboard can produce dozens of different symbols. Some of these are commonly used, whereas others are used only rarely. It is important to know what each symbol is called and how to spell it in English. That way, if you are uncertain of how or when to use a particular symbol, you can look it up and get your answer. 
+A standard computer keyboard can produce dozens of different symbols. Some of these are commonly used, whereas others are used only rarely. It is important to know what each symbol is called and how to spell it in English. That way, if you are uncertain of how or when to use a particular symbol, you can look it up and get your answer.
 
 Below is a table of common keyboard symbols and their names:
 
