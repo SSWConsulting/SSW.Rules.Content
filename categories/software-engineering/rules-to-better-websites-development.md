@@ -6,6 +6,7 @@ uri: rules-to-better-websites-development
 index:
   - the-right-technology
   - the-steps-to-do-after-adding-a-page
+  - create-friendly-short-urls
   - structured-website
   - always-have-a-default-index-page
   - have-a-stylesheet-file
