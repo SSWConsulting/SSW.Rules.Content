@@ -175,37 +175,31 @@ One way is to use inline HTML, this allows you to use HTML tags that you are fam
 
 The other way is to use templates or containers:
 
-::: bad img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "badExample",
     figure: "Bad example – The danger of using HTML in your Markdown files is that you add too much formatting e.g. use Bootstrap classes that create a tight coupling between the content and the presentation",
     shouldDisplay: true
   } }
   src="/uploads/rules/using-markdown-to-store-your-content/danger-html-and-markdown.png"
 />
-:::
 
 A better way is to use a plugin (if your Markdown engine supports it).
 
-::: good img-medium
-
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
-    preset: "default",
+    preset: "goodExample",
     figure: "Good example – VuePress has a custom container that generates nice alert boxes like Bootstrap but without tying the presentation to the CSS framework in the content",
     shouldDisplay: true
   } }
   src="/uploads/rules/using-markdown-to-store-your-content/vuepress-custom-container.png"
 />
-:::
 
 Unfortunately, Markdown does not support YouTube videos embedding out of the box. However, there is a workaround to embed it.
 
