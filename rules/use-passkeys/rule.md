@@ -53,7 +53,7 @@ Passwords are a traditional technology that create security vulnerabilities thro
 
 ## Wider adoption and social pressure
 
-While passkeys have been around for many years, it's taken longer than we'd like for companies and services to adopt them. And even when they **are** adopted, passkeys are often treated as second-class citizens, and sites still default users to less secure authentication methods. 
+While passkeys have been around for many years, it's taken longer than we'd like for companies and services to adopt them. And even when they **are** adopted, passkeys are often treated as second-class citizens, and sites still default users to less secure authentication methods.
 
 Some cybersecurity professionals are taking it upon themselves to drive an increase in the adoption rate of passkeys, by way of social pressure and public education on the topic.
 
