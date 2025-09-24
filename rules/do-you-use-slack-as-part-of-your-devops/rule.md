@@ -17,20 +17,20 @@ With all these different tools being used to collect information in your applica
 
 <!--endintro-->
 
-- Was the last build successful?
-- What version is in production?
-- What errors are being triggered on the app?
-- Is the server running slow?
-- What is James working on?
+* Was the last build successful?
+* What version is in production?
+* What errors are being triggered on the app?
+* Is the server running slow?
+* What is James working on?
 
 This is where a tool like Slack comes in handy. It can help your team aggregate this information from many separate sources into one dedicated channel for your project. The other benefits also include a new team member instantly having access to the full history of the channel as well so no conversations are lost.
 
 You can integrate Slack with:
 
-- Octopus Deploy
-- RayGun.io
-- TeamCity
-- Visual Studio
+* Octopus Deploy
+* RayGun.io
+* TeamCity
+* Visual Studio
 
 Even better, you can create bots in slack to manage things like deployments and updating release notes.
 
