@@ -24,10 +24,10 @@ SharePoint is a great platform for intranet, and the new version SharePoint 2019
 `youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
 **Video: Why SharePoint Search is Awesome! How to use SharePoint Search | Jean Thirion (4 min)**
 
-- Powerful content discoverability via full-text search
-- Rich workflow capabilities (e.g. approval & distribution processes)
-- Document Accessibility (over the web and via Office programs)
-- Information Management Policies (e.g. Document retention policies)
-- Compliance suitability (e.g. Email archiving)
-- Great for storing both structured and unstructured content. (e.g. meeting workspaces, ad-hoc lists, project workspaces, company portal)
-- Highly customizable and extensible
+* Powerful content discoverability via full-text search
+* Rich workflow capabilities (e.g. approval & distribution processes)
+* Document Accessibility (over the web and via Office programs)
+* Information Management Policies (e.g. Document retention policies)
+* Compliance suitability (e.g. Email archiving)
+* Great for storing both structured and unstructured content. (e.g. meeting workspaces, ad-hoc lists, project workspaces, company portal)
+* Highly customizable and extensible
