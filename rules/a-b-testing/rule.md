@@ -32,7 +32,7 @@ Feature flags are often implemented by developers writing their own code. Howeve
 
 * [Video interview](https://tv.ssw.com/ndc-sydney-2017-ask-me-anything-with-adam-cogan-and-edith-harbaugh-launchdarkly-tripit-devops/) of LaunchDarkly CEO Edith Harbaugh
 
-### [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-33518) 
+### [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-33518)
 
 It is the recommended solution and there are some great tutorials that help developers get up and running in minutes:
 
