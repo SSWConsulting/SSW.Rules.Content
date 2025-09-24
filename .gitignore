@@ -31,3 +31,4 @@ yarn-error.log*
 /static
 scripts/tina-migration/category-uri-title-map.json
 scripts/tina-migration/rule-to-categories.json
+scripts/tina-migration/orphaned_rules.json
