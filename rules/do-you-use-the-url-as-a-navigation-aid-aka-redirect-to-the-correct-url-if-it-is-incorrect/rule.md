@@ -45,7 +45,7 @@ Figure: Good example - The comment says it all Wordpress and Stack Overflow hav
 :::
 
 ::: greybox
-http://stackoverflow.com/questions/729921/settimeout-or-setinterval
+<http://stackoverflow.com/questions/729921/settimeout-or-setinterval>
 :::
 
 ::: good
