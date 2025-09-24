@@ -1,0 +1,14 @@
+{
+    "orphaned_rules": [
+        "ai-for-prototype-development",
+        "blazor-basic-appstate-pattern",
+        "blazor-use-bind-value-after-instead-of-valuechanged",
+        "build-hallucination-proof-ai-assistants",
+        "do-you-know-how-to-use-nextjs-caching-system",
+        "do-you-use-azure-migrate-to-move-to-cloud",
+        "follow-outlook-group-in-inbox",
+        "speak-up-in-meetings",
+        "use-ai-for-meeting-notes",
+        "use-figma-dev-mode"
+    ]
+}
