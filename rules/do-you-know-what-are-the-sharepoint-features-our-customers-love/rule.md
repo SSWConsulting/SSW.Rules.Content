@@ -1,7 +1,7 @@
 ---
 seoDescription: Discover a powerful intranet platform with SharePoint's robust features, including full-text search, rich workflows, and document accessibility.
 type: rule
-title: Do you know what are the SharePoint features customers love?
+title: Do you know the SharePoint features customers love?
 uri: do-you-know-what-are-the-sharepoint-features-our-customers-love
 authors:
   - title: Adam Cogan
@@ -19,9 +19,10 @@ guid: b925a34f-2222-4ff3-bfc8-22a0138f00ed
 
 SharePoint is a great platform for intranet, and the new version SharePoint 2019 and SharePoint Online is getting even better every day.
 
-`youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
-
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
+**Video: Why SharePoint Search is Awesome! How to use SharePoint Search | Jean Thirion (4 min)**
 
 - Powerful content discoverability via full-text search
 - Rich workflow capabilities (e.g. approval & distribution processes)
