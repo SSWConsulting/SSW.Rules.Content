@@ -41,9 +41,10 @@ def extract_rule_key(rule_line):
         return match.group(1)
     return None
 
-def get_all_rules_from_history(script_dir):
+def get_all_rules_from_history():
     """Get all rule keys from history.json with their metadata"""
-    history_file = os.path.join(script_dir, '..', '..', 'history.json')
+    ROOT_DIR = os.path.abspath(os.path.join(__file__, "../../.."))
+    history_file = os.path.join(ROOT_DIR, 'history.json')
 
     try:
         with open(history_file, 'r', encoding='utf-8') as f:
@@ -123,7 +124,7 @@ def build_rule_category_maps(categories_root='categories'):
         json.dump({"categories": category_title_map}, f, indent=4, ensure_ascii=False)
 
     # Generate orphaned rules file
-    history_rules_metadata = get_all_rules_from_history(script_dir)
+    history_rules_metadata = get_all_rules_from_history()
 
     # Also get all rules from filesystem to catch rules not in history.json
     rules_path = os.path.join(script_dir, '..', '..', 'public', 'uploads', 'rules')
