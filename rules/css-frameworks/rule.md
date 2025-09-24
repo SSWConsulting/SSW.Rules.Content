@@ -1,8 +1,7 @@
 ---
 type: rule
 title: Do you use CSS frameworks?
-seoDescription: Do you use Bootstrap to create responsive and user-friendly
-  websites that adapt to various devices and browsers?
+seoDescription: Do you use Bootstrap to create responsive and user-friendly websites that adapt to various devices and browsers?
 uri: css-frameworks
 authors:
   - title: Adam Stephensen
@@ -66,23 +65,25 @@ While you can use Bootstrap without any framework-specific integrations, using o
 
 If you are considering an upgrade to Tailwind 4, plan ahead. The jump from version 3 to 4 is substantial, and requires careful manual QA due to breaking changes in utilities, defaults, and stricter browser support.
 
-**Pros of v4:**
-* Faster builds – up to 5× faster full builds and 100× faster incremental builds.  
-* Simpler setup – fewer dependencies, one CSS import, zero config for most apps.  
-* Auto content detection – no need for a content array; use `@source` when needed.  
-* CSS-first config – tokens defined via `@theme`, exposed as CSS variables for runtime theming.  
-* New core APIs – container queries, 3D transforms, expanded gradients, `not-*`, `@starting-style`.  
-* Better DX – dynamic utility values (`grid-cols-15`, `w-17`), first-party Vite plugin.
+#### ✅ Pros of v4
+* **Faster builds** – Up to 5× faster full builds and 100× faster incremental builds
+* **Simpler setup** – Fewer dependencies, one CSS import, zero config for most apps
+* **Auto content detectio**n – No need for a content array; use `@source` when needed
+* **CSS-first config** – Tokens defined via `@theme`, exposed as CSS variables for runtime theming
+* **New core APIs** – Container queries, 3D transforms, expanded gradients, `not-*`, `@starting-style`
+* **Better DX** – Dynamic utility values (`grid-cols-15`, `w-17`), first-party Vite plugin
 
-**Cons / Risks:**
-* Breaking changes – shadows, radius, blur scales, spacing, ring defaults, and removal of `@tailwind` directives.  
-* Stricter browser support – Safari ≥16.4, Chrome ≥111, Firefox ≥128. Stay on v3.4 for older browsers.  
-* Preprocessors unsupported – Sass, Less, Stylus are no longer supported.  
-* Config changes – no default `tailwind.config.js`, use `@config`; some options dropped.  
-* Real-world friction – some teams reported dark-mode surprises and missing parity during migration.
+#### ❌ Migration cons and risks
+* **Breaking changes** – Shadows, radius, blur scales, spacing, ring defaults, and removal of `@tailwind` directives
+* **Stricter browser support** – Safari ≥16.4, Chrome ≥111, Firefox ≥128. Stay on v3.4 for older browsers
+* **Preprocessors unsupported** – Sass, Less, Stylus are no longer supported
+* **Config changes** – No default `tailwind.config.js`, use `@config`; some options dropped
+* **Real-world friction** – Some teams reported dark-mode surprises and missing parity during migration
 
-**Upgrade notes:**
-* Use the official upgrade tool:  
-  ```bash
-  npx @tailwindcss/upgrade
-  ```
+#### Upgrade notes
+
+Use the official upgrade tool:  
+
+```bash
+npx @tailwindcss/upgrade
+```
