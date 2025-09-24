@@ -7,6 +7,7 @@ index:
 - have-a-marketing-plan
 - identify-your-target-market
 - have-a-consistent-brand-image
+- branding-is-more-than-logo
 - do-you-know-how-to-discover-your-perfect-prospects-pain-points
 - do-you-plan-in-advance-for-your-marketing-campaigns
 - email-drip-campaign
@@ -25,7 +26,6 @@ index:
 - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
 - do-you-rotate-your-marketing-communications
 - do-you-sell-the-sizzle-not-the-steak
-- spelling-do-you-use-us-english
 - website-heatmaps
 - endomarketing-strategy-for-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
