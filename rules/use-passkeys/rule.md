@@ -21,7 +21,9 @@ related:
   - modern-stateless-authentication
 ---
 
-Passwords are a traditional technology that create security vulnerabilities through reuse, breaches, and phishing attacks. Passwords remain a weak point in your security chain. Passkeys represent the next evolution in authentication, providing phishing-resistant, seamless integration with biometric technology, and passwordless security that's both more secure and more convenient than traditional methods.
+Passwords are a traditional technology that create security vulnerabilities through reuse, breaches, and phishing attacks. Passwords remain a weak point in your security chain. 
+
+Passkeys represent the next evolution in authentication, providing phishing-resistant, seamless integration with biometric technology, and passwordless security that's both more secure and more convenient than traditional methods.
 
 <!--endintro-->
 
@@ -59,17 +61,18 @@ Some cybersecurity professionals are taking it upon themselves to drive an incre
 
 One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.troyhunt.com) - creator of [haveibeenpwned.com](https://haveibeenpwned.com/), publishes a "list of shame" of businesses and services that don't yet support passkeys as a form of authentication. This is the same tactic Troy used many years ago to pressure businesses to implement secure transport layer encryption (HTTPS) on their sites, to great effect. Go Troy!  
 
-## How to set up passkeys for your Microsoft Entra Account
+## How to set up passkeys for Microsoft Entra Account
 
 ### Prerequisites
 
-* If you haven't set up the Microsoft Authenticator app with your account yet, follow these steps:
+* Set up the Microsoft Authenticator app with your account
+  If you haven't yet, follow these steps:
    1. Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info)
    2. Select **+ Add sign-in method**
    3. Choose **Microsoft Authenticator** from the dropdown and select Add
    4. Open Authenticator on your phone, click the **+** and select **Work or school account**
    5. Then tap **Scan a QR Code**
-* A device that supports biometric authentication (fingerprint, face recognition, or PIN)
+* Use a device that supports biometric authentication (fingerprint, face recognition, or PIN)
 
 ### Steps to create a passkey
 
@@ -102,22 +105,22 @@ One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.t
    * Choose **Face, fingerprint, PIN, or security key** option
    * Use your biometric authentication to complete sign-in
 
-::: greybox
+::: info
 **Pro tip:** Set up passkeys on multiple devices (phone, laptop, tablet) to ensure you always have access to your accounts even if one device is unavailable.
 :::
 
 ::: info
-**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your security dashboard at <https://account.microsoft.com/security>.
+**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your [security dashboard](https://account.microsoft.com/security).
 :::
 
 ### Managing passkeys
 
-* **View all passkeys:** Return to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
-* **Remove passkeys:** Delete unused passkeys for old or lost devices
+* **View all passkeys** - Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
+  * **Removing passkeys** - Delete unused passkeys for old or lost devices
 
 ## The future is passwordless
 
-Most companies including SSW have committed to the vision of a passwordless future. By adopting passkeys now, you're not just improving your current security posture - you're preparing for a world where passwords become obsolete.
+Many companies, including SSW, are moving toward a passwordless future. By starting with passkeys today, you’re making logins safer and easier while getting ready for a time when passwords are no longer needed.
 
 ### References
 
