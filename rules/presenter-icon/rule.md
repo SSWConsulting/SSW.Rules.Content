@@ -11,6 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - craft-and-deliver-engaging-presentations
+  - demo-slides
 guid: 2031aa26-537f-4a5d-90e7-e000ec4eb2df
 ---
 When sharing the presentation content between a few speakers, it might be hard to remember who is supposed to talk during each slide. You can help this by placing a little icon on your slide. 
