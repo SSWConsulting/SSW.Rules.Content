@@ -42,11 +42,11 @@ You could use SharePoint or a file server for this purpose, making it the most v
 
 ### File Server as a staging area  + Google Photos
 
-If you use a file server as your staging area, it is then possible to use a Google Drive to upload files to your Google Photos storage automatically. It takes a little more time to set up, but it saves you time in the long run! 
+Using a file server as a staging area makes it easy to automate uploads to Google Photos. While the initial setup takes a little time, it saves effort in the long run. Once curated, photos can be stored in a designated folder on the file server, which then pushes them to Google Photos, no more manual transfers!
 
-Unfortunately, changes made in September 2024 mean that the Google Photos API now has some limitations - it's not great at doing integrations from cloud to cloud. See [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/) for more. 
+However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/). 
 
-Watch the video to know more about Google Photos, and how to set it up for your company:
+Watch the video to learn more about Google Photos, and how to set it up for your company:
 
 `youtube: https://www.youtube.com/embed/p8_siTdeeCg`
 
