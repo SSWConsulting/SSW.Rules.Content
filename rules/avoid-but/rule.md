@@ -92,6 +92,7 @@ Use **Acknowledge → Validate → Reframe (AVR)** to stay calm, correct the rec
 *You*: “Sounds like the timing hasn’t worked for you, and I’d like to fix that. Let’s map the timeline and see where it slipped.”
 
 ### Why this works
+
 * Validation makes people feel heard, reducing stress hormones :contentReference[oaicite:7]\{index=7}.  
 * Reframing steers the chat from blame to problem-solving :contentReference[oaicite:8]\{index=8}.  
 * Bridging and pivoting are proven objection-handling moves in sales playbooks :contentReference[oaicite:9]\{index=9}.
@@ -106,4 +107,3 @@ Use **Acknowledge → Validate → Reframe (AVR)** to stay calm, correct the rec
 * End with a forward-looking question: “How does that sound?”
 
 ---
-

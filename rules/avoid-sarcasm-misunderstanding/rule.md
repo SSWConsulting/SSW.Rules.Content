@@ -25,6 +25,7 @@ According to Sydney Morning Herald's "[Flame emails missing the mark](https://ww
 Because there is no "tone of voice" in an email, sarcasm can easily be misinterpreted by the receiver. You can use a smiley face or emoji to soften it up a bit.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -42,6 +43,7 @@ Bad example: This is bad because it may seem like John is being reprimanded, eve
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |

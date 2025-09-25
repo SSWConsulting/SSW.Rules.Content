@@ -13,9 +13,9 @@ redirects: []
 
 It's OK to use text because it's more natural, but use columns if you need:
 
-- reordering
-- side by side comparison
-- totals
+* reordering
+* side by side comparison
+* totals
 
 <!--endintro-->
 

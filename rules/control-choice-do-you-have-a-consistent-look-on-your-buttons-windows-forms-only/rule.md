@@ -22,9 +22,9 @@ redirects:
 
 **Answer:** There are three different types of buttons in the Application:
 
-- _Next &gt;_ - Default Window Style
-- _Preview_ - .NET Flat Style
-- _Cancel_ - Window XP Style
+* _Next &gt;_ - Default Window Style
+* _Preview_ - .NET Flat Style
+* _Cancel_ - Window XP Style
 
 ![Figure: Even labels need to use FlatStyle.System. Can you spot the wrong label?](/BadDivider.gif)
 

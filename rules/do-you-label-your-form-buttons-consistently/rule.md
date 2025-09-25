@@ -21,15 +21,15 @@ Additionally, buttons should have clear names so the user knows what to expect. 
 ![Figure: Bad Example - Unclear labels on the buttons](/ButtonLabels_Bad.gif)  
 :::
 
-- **Save** button could possibly update the fields but keep the form open.
-- **Close** could save the fields, then close the form, when the
+* **Save** button could possibly update the fields but keep the form open.
+* **Close** could save the fields, then close the form, when the
   **Cancel** button may be more appropriate.
 
 We recommend the age-old standards of:
 
-- **OK** . Close the form and save any changed data. This should be referenced by the form's AcceptButton property.
-- **Cancel** . Close the form without saving. This should be referenced by the form's CancelButton property.
-- **Apply** . Save data without closing the form.
+* **OK** . Close the form and save any changed data. This should be referenced by the form's AcceptButton property.
+* **Cancel** . Close the form without saving. This should be referenced by the form's CancelButton property.
+* **Apply** . Save data without closing the form.
 
 ::: good  
 ![Figure: Good Example - This form uses the standard button naming standards (and has the Default buttons set!)](/OKCancelExampleDialog.jpg)  

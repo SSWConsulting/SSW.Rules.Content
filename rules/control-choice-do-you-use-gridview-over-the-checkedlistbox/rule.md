@@ -15,13 +15,13 @@ redirects: []
 
 In Web we have:
 
-- Grids E.g. http://demos.kendoui.com/web/grid/selection.html
+* Grids E.g. <http://demos.kendoui.com/web/grid/selection.html>
 
 In Windows Forms we have a CheckedListBox. With a CheckedListBox you cannot:
 
-- Sort data - always useful when there are more than about 20 rows
-- Contain much information - can only show one field
-- DataBind - always costs heaps of code
+* Sort data - always useful when there are more than about 20 rows
+* Contain much information - can only show one field
+* DataBind - always costs heaps of code
 
 <!--endintro-->
 

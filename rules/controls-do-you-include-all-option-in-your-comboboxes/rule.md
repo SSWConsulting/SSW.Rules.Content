@@ -17,8 +17,8 @@ ComboBoxes are often used for filtering data. It is best to have an '-All-' opti
 
 It is important to understand the idea of **visual text** . In a list you could see either:
 
-- -None- or
-- No activity assigned
+* -None- or
+* No activity assigned
 
 They both have the same meaning, but the first one is immediately visible whereas the second one must be read.
 

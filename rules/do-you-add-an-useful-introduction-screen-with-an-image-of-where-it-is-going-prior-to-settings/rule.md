@@ -16,8 +16,8 @@ A brief introduction will give some idea about what will happen on this process 
 
 <!--endintro-->
 
-- Add screen shot with red circle at the top of the screen
-- Put a description next to it
+* Add screen shot with red circle at the top of the screen
+* Put a description next to it
 
 ::: bad  
 ![Figure: Bad Example - This screen has no product introduction... The user is thinking ‘What is this going to do?’](/IntroScreenBad.gif)  

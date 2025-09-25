@@ -18,8 +18,8 @@ Use Text Box controls to display data (results of calculations, information, rec
 
 The reasons are:
 
-- users know it is data, not a label of the application
-- users can copy and paste from the field
+* users know it is data, not a label of the application
+* users can copy and paste from the field
 
 PS: One reason web UI's are nice, is that the information is always selectable/copyable.
 
