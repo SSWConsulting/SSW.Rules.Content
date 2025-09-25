@@ -59,9 +59,9 @@ This heading will auto-generate an anchor `#getting-started`.
 https://example.com/docs#getting-started
 ```
 
-
-
+::: good
 ![Figure: Click the heading (or its link icon) to get a URL that takes you straight to that section of the page](heading-anchor-link-good-example.png)
+:::
 
 ## MDX / React implementation (auto-IDs + autolinks)
 
