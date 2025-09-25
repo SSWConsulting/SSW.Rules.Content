@@ -16,15 +16,15 @@ Combining data entry and find navigation is a mistake. I think 2 forms are bette
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - ListView with data entry fields in one form](../../assets/Rule-2formbetter-bad-1.jpg)  
+![Figure: Bad Example - ListView with data entry fields in one form](/Rule-2formbetter-bad-1.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - ListView with only 'Add' 'Edit' 'Delete' buttons](../../assets/Rule-2formbetter-good-1.jpg)  
+![Figure: Good Example - ListView with only 'Add' 'Edit' 'Delete' buttons](/Rule-2formbetter-good-1.jpg)  
 :::
 
 When you want to create a new entry or edit one, just click the buttons and open a new form with all the data entry fields.
 
 ::: good  
-![Figure: Good Example - Separate form with all the data entry fields](../../assets/Rule-2formbetter-good-2.jpg)  
+![Figure: Good Example - Separate form with all the data entry fields](/Rule-2formbetter-good-2.jpg)  
 :::

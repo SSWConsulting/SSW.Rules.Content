@@ -20,7 +20,7 @@ SSW have a random testimonials box up the top of many pages. One example is the 
 
 <!--endintro-->
 
-![Figure: Testimonials as displayed on SSW's About Us page](../../assets/MarketingTestimonials.gif)
+![Figure: Testimonials as displayed on SSW's About Us page](/MarketingTestimonials.gif)
 
 Another alternative is having the testimonials listed down the right hand side of the screen. An example of this can be seen at: [http://www.ericjsmith.net/codesmith/](http://www.ssw.com.au/ssw/Redirect/Codesmith.htm).
 

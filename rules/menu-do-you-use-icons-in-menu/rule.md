@@ -16,17 +16,17 @@ Plain menu items make your application look normal and less expressive.
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Plain menu](../../assets/BetterUI_PlainMenu.gif)  
+![Figure: Bad Example - Plain menu](/BetterUI_PlainMenu.gif)  
 :::
 
 While icons can make your application look good.
 
 ::: good  
-![Figure: Good Example - Menu with icons](../../assets/BetterUI_MenuStrip.gif)  
+![Figure: Good Example - Menu with icons](/BetterUI_MenuStrip.gif)  
 :::
 
 # More information
 
 You can use the MenuStrip control in .Net
 
-![Figure: the Menuitem has a simple image property](../../assets/BetterUI_MenuStrip_DesignView.gif)
+![Figure: the Menuitem has a simple image property](/BetterUI_MenuStrip_DesignView.gif)

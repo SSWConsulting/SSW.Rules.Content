@@ -19,5 +19,5 @@ When your wizard has a lot of processing, do you allow the user to skip that pro
 <!--endintro-->
 
 ::: good  
-![Figure: Good Example - Here the user can skip a long process and see the last results (from SSW Diagnostics)](../../assets/SkipLongProcess.gif)  
+![Figure: Good Example - Here the user can skip a long process and see the last results (from SSW Diagnostics)](/SkipLongProcess.gif)  
 :::

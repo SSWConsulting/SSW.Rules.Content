@@ -16,9 +16,9 @@ Using a separate menu to maintain ComboBoxes is never a good idea. A better solu
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Menu driven ComboBox maintenance form](../../assets/ComboBoxMenuBad.gif)  
+![Figure: Bad Example - Menu driven ComboBox maintenance form](/ComboBoxMenuBad.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Use ellipses to drill down into a ComboBox maintenance form](../../assets/Ellipses.gif)  
+![Figure: Good Example - Use ellipses to drill down into a ComboBox maintenance form](/Ellipses.gif)  
 :::

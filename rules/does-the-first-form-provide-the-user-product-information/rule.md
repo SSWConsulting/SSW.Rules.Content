@@ -20,12 +20,12 @@ How you present the product information depends on the sort of application you a
   A "More" hyperlink can also be added at the bottom of the screen, which will direct the user to the website where they can read further information about the application.
 
 ::: good  
-![Figure: Good Example - This wizard has an information screen as the first screen](../../assets/CodeAuditorWelcome.gif)  
+![Figure: Good Example - This wizard has an information screen as the first screen](/CodeAuditorWelcome.gif)  
 :::
 
 - _If the application is not a wizard application_
   The main menu of the application should have a Help - About... menu item. When clicked, a new form should open up containing similar information as the page in the wizard application described above.
 
 ::: good  
-![Figure: Good Example - Help - About... menu item opening the product information](../../assets/HelpAbout.jpg)  
+![Figure: Good Example - Help - About... menu item opening the product information](/HelpAbout.jpg)  
 :::

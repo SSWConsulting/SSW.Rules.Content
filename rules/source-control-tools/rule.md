@@ -66,7 +66,7 @@ The company behind GitKraken, Axosoft, has been recognized for its significant c
 - **UI Aesthetics vs. Performance Trade-Off:** The attractive UI may come at the cost of slower performance compared to some alternatives
 - **Limited Terminal and Workspaces Features:** GitKraken's terminal and workspaces might not meet the needs of users requiring advanced features
 
-![Figure: branchs management in Git Kraken](../../assets/gitkraken.png)
+![Figure: branchs management in Git Kraken](/gitkraken.png)
 
 GitKraken emerges as a visually appealing, user-friendly Git client, making it an excellent choice for those new to Git or preferring a GUI over command-line operations. Its graphical interface, ease of use, and integration capabilities are significant strengths. However, its performance with large repositories, the freemium model, and some missing features like GCM support are noteworthy drawbacks. For developers and teams considering a GUI for Git, GitKraken presents a compelling option, especially if the project scale and the need for advanced features align with what GitKraken offers.
 
@@ -104,7 +104,7 @@ Fork's development is primarily the effort of Dan and Tanya Pristupov. They star
 - **Learning Curve for Git Flow and Tagging**: Some users feel that Git flow and tagging features are less intuitive compared to other clients like SourceTree
 - **Potential Learning Curve**: For users accustomed to more complex tools, adapting to Fork's simplicity could initially be challenging
 
-![Figure: Staging in Fork](../../assets/fork.jpg)
+![Figure: Staging in Fork](/fork.jpg)
 
 Fork represents a balanced choice in the Git client market, particularly appealing to individual developers and small teams due to its simplicity, efficiency, and cost-effectiveness. However, for larger projects or users in need of advanced features and integrations, it might fall short. The continuous updates and dedicated development by its creators keep it a competitive and evolving tool in the software development landscape.
 
@@ -135,6 +135,6 @@ Atlassian's commitment to the developer community is evident in the continuous u
 - **Complex for Advanced Operations**: While great for basic operations, it can be overwhelming for more complex Git tasks
 - **Lacks some Integration Features**: Compared to GitKraken, it may not integrate as smoothly with non-Atlassian platforms
 
-![Figure: Branchs management in SourceTree](../../assets/sourcetree.png)
+![Figure: Branchs management in SourceTree](/sourcetree.png)
 
 SourceTree stands out as a robust and user-friendly Git client, particularly beneficial for those already within the Atlassian ecosystem. Its intuitive interface and integration with Jira and Bitbucket make it an excellent choice for teams looking for a seamless development workflow. While it shines in user-friendliness and basic Git operations, its performance with large repositories and lack of support for Linux are limitations. SourceTree is a strong contender for teams and developers who prioritize ease of use and are primarily working within the Atlassian suite of tools.

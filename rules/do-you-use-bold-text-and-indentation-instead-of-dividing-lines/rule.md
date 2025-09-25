@@ -29,17 +29,17 @@ We recommend using bold instead of dividing lines because:
    - Each line creates additional performance implications (ever so slight)
 
 ::: bad  
-![Figure: Bad Example - This is the Tools - Options from Internet Explorer and it groups each section in a groupbox - busy UI.](../../assets/ToolsOptionforIE.gif)  
+![Figure: Bad Example - This is the Tools - Options from Internet Explorer and it groups each section in a groupbox - busy UI.](/ToolsOptionforIE.gif)  
 :::
 
 ::: bad  
-![Figure: Bad Example - This is the Tools - Options from Outlook and it uses dividing lines for each section.](../../assets/ToolsOptionforOutlook.gif)  
+![Figure: Bad Example - This is the Tools - Options from Outlook and it uses dividing lines for each section.](/ToolsOptionforOutlook.gif)  
 :::
 
 ::: bad  
-![Figure: Bad Example - This is an old screen from Code Auditor - the dividing lines are not required.](../../assets/BadDivider.gif)  
+![Figure: Bad Example - This is an old screen from Code Auditor - the dividing lines are not required.](/BadDivider.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - This is the new screen from Code Auditor - the bold title and indenting are the best way to show the sections.](../../assets/GoodDivider.jpg)  
+![Figure: Good Example - This is the new screen from Code Auditor - the bold title and indenting are the best way to show the sections.](/GoodDivider.jpg)  
 :::

@@ -22,17 +22,17 @@ There are four ways to provide drill-downs:
 
 1. Preferred - Use buttons to navigate around the application
 
-![Figure: Use named buttons to navigate around the application (Preferred)](../../assets/DrillDownDrillAround.gif)
+![Figure: Use named buttons to navigate around the application (Preferred)](/DrillDownDrillAround.gif)
 
 2. Double click the control
 3. Use buttons with three dots - an ellipsis (...) character
 
 ::: good  
-![Figure: Good Example - Use ellipses to navigate around the application](../../assets/CodeAuditorEllipses.gif)  
+![Figure: Good Example - Use ellipses to navigate around the application](/CodeAuditorEllipses.gif)  
 :::
 
 4. Use hyperlinks
 
-![Figure: Drill-downs implemented as links (an interesting alternative but a bit too much of a visual impact)](../../assets/AssetForm.png)
+![Figure: Drill-downs implemented as links (an interesting alternative but a bit too much of a visual impact)](/AssetForm.png)
 
 Another handy thing to add for users is "drill-around". This is implemented by using a right mouse-click to activate context-sensitive links between related screens.

@@ -20,18 +20,18 @@ ComboBoxes are better than List Boxes **for data entry** because:
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Using list boxes](../../assets/ListBoxesAreEvil_SingleSelectBad.gif)  
+![Figure: Bad Example - Using list boxes](/ListBoxesAreEvil_SingleSelectBad.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Using ComboBoxes - takes up less screen space and the required field indication is easy to see](../../assets/ListBoxesAreEvil_SingleSelectGood.gif)  
+![Figure: Good Example - Using ComboBoxes - takes up less screen space and the required field indication is easy to see](/ListBoxesAreEvil_SingleSelectGood.gif)  
 :::
 
 **Note: When are single-select list boxes OK?**
 
 As mentioned before, there are exceptions to this rule. It would be hard to imagine the Include/Exclude boxes in the SQL Server Enterprise Manager's Server Registration Wizard being handled with ComboBoxes, for example.
 
-![Figure: Include/Exclude Listboxes are an example of a valid use for List Boxes](../../assets/ListBoxesAreEvil_ExceptForThisOne.gif)
+![Figure: Include/Exclude Listboxes are an example of a valid use for List Boxes](/ListBoxesAreEvil_ExceptForThisOne.gif)
 
 | We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule. |
 | ----------------------------------------------------------------------------------------------------------- |

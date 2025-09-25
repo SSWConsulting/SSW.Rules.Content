@@ -18,11 +18,11 @@ Hyperlinks are the foundation to website navigation. Without it, the Internet is
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - I have no way of knowing that this link allows me to edit my details](../../assets/Websites_NotIntuitiveHyperlinks.gif)  
+![Figure: Bad Example - I have no way of knowing that this link allows me to edit my details](/Websites_NotIntuitiveHyperlinks.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - I'm pretty certain where this link will take me...](../../assets/Websites_IntuitiveHyperlinks.gif)  
+![Figure: Good Example - I'm pretty certain where this link will take me...](/Websites_IntuitiveHyperlinks.gif)  
 :::
 
 This rule also has relevance to [improve your Google ranking](/rules-to-better-google-rankings-and-seo).

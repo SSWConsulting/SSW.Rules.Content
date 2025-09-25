@@ -13,7 +13,7 @@ redirects:
 ---
 
 ::: good  
-![Figure: Good example - a "search box" makes it easy to find data](../../assets/EasySearch.png)  
+![Figure: Good example - a "search box" makes it easy to find data](/EasySearch.png)  
 :::
 
 ::: good  

@@ -18,7 +18,7 @@ Additionally, buttons should have clear names so the user knows what to expect. 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Unclear labels on the buttons](../../assets/ButtonLabels_Bad.gif)  
+![Figure: Bad Example - Unclear labels on the buttons](/ButtonLabels_Bad.gif)  
 :::
 
 - **Save** button could possibly update the fields but keep the form open.
@@ -32,7 +32,7 @@ We recommend the age-old standards of:
 - **Apply** . Save data without closing the form.
 
 ::: good  
-![Figure: Good Example - This form uses the standard button naming standards (and has the Default buttons set!)](../../assets/OKCancelExampleDialog.jpg)  
+![Figure: Good Example - This form uses the standard button naming standards (and has the Default buttons set!)](/OKCancelExampleDialog.jpg)  
 :::
 
 We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

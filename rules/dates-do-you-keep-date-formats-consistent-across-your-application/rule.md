@@ -25,11 +25,11 @@ Date formats should always be kept consistent across applications. More importan
 ![Figure: Operating System's Regional Settings](operatingsystem-language-setting.png)
 
 ::: bad  
-![Figure: Bad example - Screens with inconsistent date formats](../../assets/BadExampleDP.gif)  
+![Figure: Bad example - Screens with inconsistent date formats](/BadExampleDP.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Screens with consistent date formats](../../assets/GoodExampleDP.gif)  
+![Figure: Good example - Screens with consistent date formats](/GoodExampleDP.gif)  
 :::
 
 The best way to do this in your code is to grab the culture information from the application thread and use it to automatically format your Datetime data type. Do not use hard coded datetime formatting strings unless it's absolutely necessary.

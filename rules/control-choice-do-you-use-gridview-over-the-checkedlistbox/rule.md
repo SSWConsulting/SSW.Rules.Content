@@ -26,11 +26,11 @@ In Windows Forms we have a CheckedListBox. With a CheckedListBox you cannot:
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - The CheckedListBox is limited](../../assets/UsingCheckedListBox.gif)  
+![Figure: Bad Example - The CheckedListBox is limited](/UsingCheckedListBox.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)](../../assets/UsingDataGrid.gif)  
+![Figure: Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)](/UsingDataGrid.gif)  
 :::
 
 In Windows Forms, the code of DataGrid databinding is easier than that of CheckedListBox.

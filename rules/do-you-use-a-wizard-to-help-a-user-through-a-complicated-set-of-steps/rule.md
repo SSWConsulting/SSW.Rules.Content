@@ -30,7 +30,7 @@ To ensure a consistent user experience, make sure to include these visual elemen
    inconspicuous and should not move visual focus away from the body of your application.
 
 ::: good  
-![Figure: Good Example - SSW Link Auditor Wizard's                                 better flow of information](../../assets/GoodInformationFlow.gif)  
+![Figure: Good Example - SSW Link Auditor Wizard's                                 better flow of information](/GoodInformationFlow.gif)  
 :::
 
 Technical Note: To ensure visual consistency across applications, create a base form then set the properties in that form (application icon, menu structure, button names etc.) Add any logic in for switching pages with the "Next" and "Back" buttons. Then for all projects, add a reference to that one and inherit the customized form.
@@ -53,7 +53,7 @@ The "finish" button denotes the end of the Wizard; by clicking on it, the user c
 For longer processes, the Wizard should implement "Start" and "Skip" features to guide the user through from start to finish.
 
 ::: good  
-![Figure: Good Example - SSW Code Auditor Wizard featuring                                 "Start" and "Skip" options](../../assets/StartProcess.gif)  
+![Figure: Good Example - SSW Code Auditor Wizard featuring                                 "Start" and "Skip" options](/StartProcess.gif)  
 :::
 
 Here's some more information on the [Microsoft Standard for Wizard Welcome and Completion Page art](http://www.ssw.com.au/ssw/Redirect/Microsoft/wizard.htm) and [Interior Page art](http://www.ssw.com.au/ssw/Redirect/Microsoft/wizard2.htm).

@@ -24,11 +24,11 @@ Instead, keep users happy with your application by:
 - Allowing the user to stop the process at any time by clicking "Cancel" (or as a minimum, prompt for confirmation before the long running process starts)
 
 ::: good  
-![Figure: Good Example - Progress Bar with description and Cancel Button](../../assets/AllowCancelAndShowProgressForLongRunningProcesses.gif)  
+![Figure: Good Example - Progress Bar with description and Cancel Button](/AllowCancelAndShowProgressForLongRunningProcesses.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Progress Bar with description and status, and Cancel Button](../../assets/AllowCancelAndShowProgressForLongRunningProcesses2.jpg)  
+![Figure: Good Example - Progress Bar with description and status, and Cancel Button](/AllowCancelAndShowProgressForLongRunningProcesses2.jpg)  
 :::
 
 We have a product called [SSW .NET Toolkit](http://www.ssw.com.au/ssw/NETToolKit/) which includes these controls. [SSW .NET Toolkit - Using Progress bars/Status forms.](http://www.ssw.com.au/ssw/NETToolKit/08ProgressbarsStatusforms.aspx)
