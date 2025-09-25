@@ -32,13 +32,13 @@ Google Photos can be used as a repository, but it can also be used as a file-sha
 
 One limitation to be aware of is that whoever uploads the photos maintains control over the image. So, if an admin or the uploader removes their access to a folder, so too are their images.
 
-### Staging Area + Google Photos
+### Staging Area + Google Photos (recommended)
 
 Inviting lots of people to share their photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
 
 To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' that everyone can upload their photos to, so they can be curated, and only the good ones can then be uploaded to Google.
 
-You could use SharePoint or a file server for this purpose. 
+You could use SharePoint or a file server for this purpose, making it the most versatile approach. 
 
 ### File Server as a staging area  + Google Photos
 
