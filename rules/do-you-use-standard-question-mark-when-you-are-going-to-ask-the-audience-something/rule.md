@@ -15,7 +15,7 @@ archivedreason: null
 guid: ab0b1942-097f-4cd8-a359-47b36db4b6a8
 ---
 
-In a similar fashion to the [Do you indicate 'demo' slides?](/do-you-know-the-right-way-to-do-a-demo-slide) rule, you can also add a visual cue (icon or simply text) for any audience participation you would like, such as questions or voting.
+In a similar fashion to the [Do you indicate 'demo' slides?](/demo-slides) rule, you can also add a visual cue (icon or simply text) for any audience participation you would like, such as questions or voting.
 
 <!--endintro-->
 
