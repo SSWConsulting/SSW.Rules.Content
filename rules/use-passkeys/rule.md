@@ -66,6 +66,7 @@ One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.t
 ### Prerequisites
 
 * Set up the Microsoft Authenticator app with your account
+
   If you haven't yet, follow these steps:
    1. Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info)
    2. Select **+ Add sign-in method**
@@ -116,7 +117,7 @@ One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.t
 ### Managing passkeys
 
 * **View all passkeys** - Go to [https://mysignins.microsoft.com/security-info](https://mysignins.microsoft.com/security-info) to see all registered passkeys
-  * **Removing passkeys** - Delete unused passkeys for old or lost devices
+* **Removing passkeys** - Delete unused passkeys for old or lost devices
 
 ## The future is passwordless
 
