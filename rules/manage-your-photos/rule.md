@@ -34,15 +34,18 @@ One limitation to be aware of is that whoever uploads the photos maintains contr
 
 ### Staging Area + Google Photos (recommended)
 
-Inviting lots of people to share their photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
+Inviting a lot of people to share their photos of an event with you can create curation issues. For example, an attendee might upload 50 images they've taken, but only 10 of those are good enough quality to keep.
 
-To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' that everyone can upload their photos to, so they can be curated, and only the good ones can then be uploaded to Google.
+To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' where everyone can upload their photos, allowing them to be curated, and only the best ones can then be uploaded to Google.
 
 You could use SharePoint or a file server for this purpose, making it the most versatile approach. 
 
 ### File Server as a staging area  + Google Photos
 
-If you use a file server as your staging area, it is then possible to use the Google API to automatically upload files to your Google Photos storage. It takes a little more time to set up, but it saves you time in the long run! 
+If you use a file server as your staging area, it is then possible to use a Google Drive to upload files to your Google Photos storage automatically. It takes a little more time to set up, but it saves you time in the long run! 
+
+Unfortunately, changes made in September 2024 mean that the Google Photos API now has some limitations - it's not great at doing integrations from cloud to cloud.\
+ See [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/) for more. 
 
 Watch the video to know more:
 
