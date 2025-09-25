@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
+related:
+  - anchor-links
 guid: f5999763-c079-4ec2-aff4-fbdf675b92e2
 ---
 Help readers get exactly where they need to go by making your headings linkable. This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID. 
