@@ -7,7 +7,8 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-  - do-you-know-the-right-way-to-do-a-demo-slide
+  - demo-slides
+  - presenter-icon
 redirects: []
 created: 2010-06-08T09:51:56.000Z
 archivedreason: null
