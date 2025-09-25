@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you turn your headings into anchor links?
+title: Do you turn your headings into anchor l?
 seoDescription: Make your headings linkable so people can jump straight to the
   right section, share precise URLs, and keep links stable even if headings
   change later (by setting a custom ID).
@@ -18,7 +18,7 @@ guid: f5999763-c079-4ec2-aff4-fbdf675b92e2
 Help readers get exactly where they need to go by making your headings linkable. 
 
 This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID. 
-            
+
 <!--endintro-->
 
 ::: info
@@ -32,13 +32,16 @@ See the [Google Developer Style Guide on headings and anchor targets](https://de
 * Stable links via custom IDs
 * Consistent style using lowercase with hyphens
 
+::: info
+
+
 ## Example: From heading to anchor link
 
 Say you have a documentation page with many sections.
 
 **Markdown heading:**
 
-``` md
+```md
 ## Getting started
 ```
 
@@ -46,19 +49,19 @@ This heading will auto-generate an anchor `#getting-started`.
 
 **HTML heading with an explicit ID:**
 
-``` html
+```html
 <h2 id="getting-started">Getting started</h2>
-````
+```
 
 **Link to access that section of the page:**
 
-``` html
+```html
 https://example.com/docs#getting-started
 ```
 
-::: info
-**Tip:** [Headings names](/efficient-anchor-names) should be descriptive and unique so the generated or custom anchors are clear. 
-:::
+
+
+![Figure: Click the heading (or its link icon) to get a URL that takes you straight to that section of the page](heading-anchor-link-good-example.png)
 
 ## MDX / React implementation (auto-IDs + autolinks)
 
