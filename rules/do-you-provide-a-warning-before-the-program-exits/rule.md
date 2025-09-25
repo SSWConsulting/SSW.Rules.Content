@@ -16,7 +16,7 @@ A product should not close without providing a warning. We use the following mes
 <!--endintro-->
 
 ::: good  
-![Figure: Good Example - Standard warning before a program exits](../../assets/CloseWarning.gif)  
+![Figure: Good Example - Standard warning before a program exits](/CloseWarning.gif)  
 :::
 
 ```cs

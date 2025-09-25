@@ -23,9 +23,9 @@ In Outlook, the Calendar control has a number of important features:
 Users are familiar with the Outlook calendar control. When the calendar control is used it should incorporate all of these features of the Outlook calendar control.
 
 ::: bad  
-![Figure: Bad example - Calendar Control - Sunday is at the front, today's date is not highlighted, and items with data are not bolded](../../assets/CalendarControlBad.gif)  
+![Figure: Bad example - Calendar Control - Sunday is at the front, today's date is not highlighted, and items with data are not bolded](/CalendarControlBad.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Calendar Control - Monday is at the front, today's date is highlighted, and items with data are bolded](../../assets/CalendarControlGood.gif)
+![Figure: Good example - Calendar Control - Monday is at the front, today's date is highlighted, and items with data are bolded](/CalendarControlGood.gif)
 :::

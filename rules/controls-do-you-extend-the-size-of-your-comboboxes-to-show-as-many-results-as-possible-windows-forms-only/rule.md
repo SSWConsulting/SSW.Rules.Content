@@ -22,11 +22,11 @@ When designing your form, it's a good idea to help your user whenever it's possi
 However, you should not extend your ComboBox without limit, normally the maximum number of items should be under 10 and the maximum width of the drop-down should be smaller than your hosting form.
 
 ::: bad  
-![Figure: Bad example - You have to scroll to see all the result, and the long results are cut off](../../assets/ComboBox-Size-1.jpg)  
+![Figure: Bad example - You have to scroll to see all the result, and the long results are cut off](/ComboBox-Size-1.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - The size of the drop down has been extended to allow user to see as much as possible](../../assets/ComboBox-Size-2.jpg)  
+![Figure: Good example - The size of the drop down has been extended to allow user to see as much as possible](/ComboBox-Size-2.jpg)  
 :::
 
 Changing the maximum items is easy, just include the following code in your form:

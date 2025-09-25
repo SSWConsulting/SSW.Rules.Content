@@ -25,11 +25,11 @@ Date formats should always be kept consistent across applications. More importan
 ![Figure: Operating System's Regional Settings](operatingsystem-language-setting.png)
 
 ::: bad  
-![Figure: Bad example - Screens with inconsistent date formats](../../assets/BadExampleDP.gif)  
+![Figure: Bad example - Screens with inconsistent date formats](/BadExampleDP.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Screens with consistent date formats](../../assets/GoodExampleDP.gif)  
+![Figure: Good example - Screens with consistent date formats](/GoodExampleDP.gif)  
 :::
 
 The best way to do this in your code is to grab the culture information from the application thread and use it to automatically format your Datetime data type. Do not use hard coded datetime formatting strings unless it's absolutely necessary.
@@ -58,7 +58,7 @@ Figure: Good example - Using culture info to format datetime
 
 ## Browser language settings
 
-It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content. 
+It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content.
 
 For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
 

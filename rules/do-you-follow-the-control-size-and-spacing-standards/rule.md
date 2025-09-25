@@ -18,7 +18,7 @@ Despite seeming trivial, the most subtle elements of your form can have the grea
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - See below what is wrong with this form](../../assets/ScreenBadControls.gif)  
+![Figure: Bad Example - See below what is wrong with this form](/ScreenBadControls.gif)  
 :::
 
 The form shown in this screenshot is an example of bad control placement:
@@ -38,7 +38,7 @@ The good news is that **you don't need to**: Microsoft have gone to a great deal
 These examples assume that you are using the standard system font as defined in the rule mentioned above. Please note that although Dialog Units (DLUs) are better suited for generic (font independent) use, they are not available in the Visual Studio designer.
 
 ::: good  
-![Figure: Good Example - The form follows Standards of good form design discussed below](../../assets/GoodStandardForm.jpg)  
+![Figure: Good Example - The form follows Standards of good form design discussed below](/GoodStandardForm.jpg)  
 :::
 
 ### The Rules
@@ -69,7 +69,7 @@ Here's a good example for you to take inspiration from. This dialog is from Micr
 3. The logo has been positioned evenly
 
 ::: good  
-![Figure: Good Example - Microsoft have defined to exacting measures what spacing should be used in their Microsoft Outlook wizards](../../assets/ScreenGoodControls.gif)  
+![Figure: Good Example - Microsoft have defined to exacting measures what spacing should be used in their Microsoft Outlook wizards](/ScreenGoodControls.gif)  
 :::
 
 Read more about control size on the [Rules to Better Windows Forms](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx) page.

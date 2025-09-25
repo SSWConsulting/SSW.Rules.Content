@@ -24,9 +24,9 @@ The active menu item should stand out from the others. This way you make it easy
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example – You can't tell where you are in the site](../../assets/active-state-bad.jpg)  
+![Figure: Bad example – You can't tell where you are in the site](/active-state-bad.jpg)  
 :::
 
 ::: good  
-![Figure: Good example – It’s easy to see where you are at](../../assets/active-state-good.jpg)  
+![Figure: Good example – It’s easy to see where you are at](/active-state-good.jpg)  
 :::

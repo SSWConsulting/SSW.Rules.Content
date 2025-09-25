@@ -16,9 +16,9 @@ Time formats should be consistent across your application, to give the applicati
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Three screens with inconsistent time formats](../../assets/BadExampleTP.gif)  
+![Figure: Bad Example - Three screens with inconsistent time formats](/BadExampleTP.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Three screens with consistent formats](../../assets/GoodExampleTP.gif)  
+![Figure: Good Example - Three screens with consistent formats](/GoodExampleTP.gif)  
 :::

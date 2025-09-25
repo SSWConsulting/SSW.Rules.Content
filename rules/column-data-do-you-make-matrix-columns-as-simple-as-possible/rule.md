@@ -12,11 +12,11 @@ redirects: []
 ---
 
 ::: bad  
-![Figure: Bad example - Hard to read these columns](../../assets/bad-matrixcol.jpg)  
+![Figure: Bad example - Hard to read these columns](/bad-matrixcol.jpg)  
 :::
 
 <!--endintro-->
 
 ::: good  
-![Figure: Good example - The whole table has been re-written and is now easier to understand](../../assets/good-matrixcol.jpg)  
+![Figure: Good example - The whole table has been re-written and is now easier to understand](/good-matrixcol.jpg)  
 :::

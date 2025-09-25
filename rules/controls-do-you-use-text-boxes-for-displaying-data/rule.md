@@ -18,17 +18,17 @@ Use Text Box controls to display data (results of calculations, information, rec
 
 The reasons are:
 
-- users know it is data, not a label of the application
-- users can copy and paste from the field
+* users know it is data, not a label of the application
+* users can copy and paste from the field
 
 PS: One reason web UI's are nice, is that the information is always selectable/copyable.
 
 ::: bad  
-![Figure: Bad Example - Not only is the data cut off when you are using label, but you can't copy and paste the value](../../assets/BetterInterface_LabelCutOff.jpg)  
+![Figure: Bad Example - Not only is the data cut off when you are using label, but you can't copy and paste the value](/BetterInterface_LabelCutOff.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - Using Textbox controls makes the data obvious to users](../../assets/GoodTextbox.gif)  
+![Figure: Good Example - Using Textbox controls makes the data obvious to users](/GoodTextbox.gif)  
 :::
 
 As you can see you'll barely know the difference, so start using Textboxes for displaying data, that's good practice.
@@ -37,6 +37,6 @@ As you can see you'll barely know the difference, so start using Textboxes for d
 
 When using TextBox controls in Windows Forms, set them up like this:
 
-![Figure: Having the 'BorderStyle' Property set to Fixed3D is the best choice visually](../../assets/BorderStyle_1.gif)
+![Figure: Having the 'BorderStyle' Property set to Fixed3D is the best choice visually](/BorderStyle_1.gif)
 
-![Figure: Make the text box Read-Only (users copying data is OK, changing is silly)](../../assets/ReadOnly_1.gif)
+![Figure: Make the text box Read-Only (users copying data is OK, changing is silly)](/ReadOnly_1.gif)

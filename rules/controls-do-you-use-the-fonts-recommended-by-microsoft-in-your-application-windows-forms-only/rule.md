@@ -19,13 +19,13 @@ Some font are easier to read then others, at SSW we follow Microsoft's Visual De
 Ensure all fonts on your forms are set to Tahoma but we allow controls to use a different font. This is because certain information is better displayed in a different font. For example a Textbox to show code should use Courier instead of Tahoma.
 
 ::: bad  
-![Figure: Bad example - This form uses a non-standard font, and it is hard to read](../../assets/FontBadArialNarrow.gif)  
+![Figure: Bad example - This form uses a non-standard font, and it is hard to read](/FontBadArialNarrow.gif)  
 :::
 
 ::: good  
-![Figure: Good example - This form uses Tahoma, and it is easy to read](../../assets/FontGoodTahoma.gif)  
+![Figure: Good example - This form uses Tahoma, and it is easy to read](/FontGoodTahoma.gif)  
 :::
 
 ::: good  
-![Figure: Good example - This form uses Tahoma, and the RichTextBox displays source code using Courier New](../../assets/FontCourierNew.gif)  
+![Figure: Good example - This form uses Tahoma, and the RichTextBox displays source code using Courier New](/FontCourierNew.gif)  
 :::

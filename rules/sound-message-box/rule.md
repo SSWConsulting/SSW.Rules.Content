@@ -19,7 +19,7 @@ A message box automatically provides this functionality so there is no need to m
 <!--endintro-->
 
 ::: good  
-![Figure: Good example - Windows message boxes plays a sound... which cannot be captured in screenshot form.](../../assets/Win7SoundError.png)  
+![Figure: Good example - Windows message boxes plays a sound... which cannot be captured in screenshot form.](/Win7SoundError.png)  
 :::
 
 ```csharp

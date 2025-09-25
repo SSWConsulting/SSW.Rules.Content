@@ -17,13 +17,13 @@ Sounds are important to an interface. Sounds provide an extra level of feedback 
 
 Out of the box, you'll get a sound with error messages. You'll still need to add your own for:
 
-- Long process - there should be a sound at the end of every long process to notify the user that it has finished [![](../../assets/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/sswLongProcessFinished01_ChatWhsp.wav)
+- Long process - there should be a sound at the end of every long process to notify the user that it has finished [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/sswLongProcessFinished01_ChatWhsp.wav)
 - Deleting records
-- ![](../../assets/iconAudio.png "Audio File") [Application opening](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) [![](../../assets/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) / ![](../../assets/iconAudio.png "Audio File") [closing](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav) [![](../../assets/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav)
+- ![](/iconAudio.png "Audio File") [Application opening](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) / ![](/iconAudio.png "Audio File") [closing](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav) [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav)
 - Copying and pasting text
 
 However, not everyone likes sounds, so we think it is also important to have an option to disable sounds in your application.
 
 ::: good  
-![Figure: Good Example - Turning on Feedback with sound in Outlook](../../assets/OutlookSounds.gif)  
+![Figure: Good Example - Turning on Feedback with sound in Outlook](/OutlookSounds.gif)  
 :::

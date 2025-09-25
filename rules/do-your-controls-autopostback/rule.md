@@ -16,21 +16,21 @@ When visitors are navigating through your site and they need to make a selection
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - because the combos can be set to autopostback and should not have a "Show" button.](../../assets/comboswithshowbutton.gif)  
+![Figure: Bad Example - because the combos can be set to autopostback and should not have a "Show" button.](/comboswithshowbutton.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - because the combo boxes have fixed values and can autopostback.](../../assets/autopostbackcombos.gif)  
+![Figure: Good Example - because the combo boxes have fixed values and can autopostback.](/autopostbackcombos.gif)  
 :::
 
 ::: bad  
-![Figure: Bad Example -  because the text boxes do not have fixed data and thus should have a "Show" button.](../../assets/textboxeswithnoshowbutton.gif)  
+![Figure: Bad Example -  because the text boxes do not have fixed data and thus should have a "Show" button.](/textboxeswithnoshowbutton.gif)  
 :::
 
 ::: good  
-![Figure: Good Example -  because there is a "Show" button as the text boxes do not contained fixed data.](../../assets/textboxeswithshowbutton.gif)  
+![Figure: Good Example -  because there is a "Show" button as the text boxes do not contained fixed data.](/textboxeswithshowbutton.gif)  
 :::
 
 ::: good  
-![Figure: Good Example -  because the combos can be set to autopostback while the text boxes have the "Show" button available.](../../assets/autopostbackandshowbutton.gif)  
+![Figure: Good Example -  because the combos can be set to autopostback while the text boxes have the "Show" button available.](/autopostbackandshowbutton.gif)  
 :::

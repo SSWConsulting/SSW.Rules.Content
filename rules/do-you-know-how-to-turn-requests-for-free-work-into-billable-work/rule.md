@@ -36,4 +36,4 @@ Figure: OK example - Making sure you won't work for free
 Figure: Good example - Booking in a day of work minimises context switching, and trains the client to book you for 1 day at a time.
 :::
 
-![Figure: Careful! One small free task can turn into a dam-breaking torrent of free work.](../../assets/DealingwithClients-Floodgates.jpg)
+![Figure: Careful! One small free task can turn into a dam-breaking torrent of free work.](/DealingwithClients-Floodgates.jpg)
