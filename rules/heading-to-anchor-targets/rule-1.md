@@ -54,6 +54,10 @@ This heading will auto-generate an anchor `#getting-started`.
 https://example.com/docs#getting-started
 ```
 
+::: info
+**Tip:** [Headings names](/efficient-anchor-names) should be descriptive and unique so the generated or custom anchors are clear. 
+:::
+
 ## MDX / React implementation (auto-IDs + autolinks)
 
 If you render Markdown/MDX in a React app, add slug and autolink plugins so headings get IDs and clickable anchors automatically. Example (Next.js + MDX):
