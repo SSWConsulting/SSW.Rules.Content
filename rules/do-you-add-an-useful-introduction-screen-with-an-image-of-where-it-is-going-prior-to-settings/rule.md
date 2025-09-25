@@ -16,13 +16,13 @@ A brief introduction will give some idea about what will happen on this process 
 
 <!--endintro-->
 
-- Add screen shot with red circle at the top of the screen
-- Put a description next to it
+* Add screen shot with red circle at the top of the screen
+* Put a description next to it
 
 ::: bad  
-![Figure: Bad Example - This screen has no product introduction... The user is thinking ‘What is this going to do?’](../../assets/IntroScreenBad.gif)  
+![Figure: Bad Example - This screen has no product introduction... The user is thinking ‘What is this going to do?’](/IntroScreenBad.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - This screen has product information before the settings... With a screen capture of where it ends up](../../assets/IntroScreenGood.gif)  
+![Figure: Good Example - This screen has product information before the settings... With a screen capture of where it ends up](/IntroScreenGood.gif)  
 :::

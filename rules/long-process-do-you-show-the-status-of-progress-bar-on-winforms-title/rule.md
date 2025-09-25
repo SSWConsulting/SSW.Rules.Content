@@ -23,17 +23,17 @@ The form title should take the form of "[XX]% Completed - [Task Description] - [
 There is another relevant rule about the [winform title](/title-bar-do-you-put-the-current-document-project-name-as-the-first-word-of-your-title-bar).
 
 ::: bad  
-![Figure: Bad Example - The winform's title does not contain the progress status](../../assets/BadProgressForm.gif)  
+![Figure: Bad Example - The winform's title does not contain the progress status](/BadProgressForm.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - The winform's title contains the status of progress bar](../../assets/GoodProgressForm.gif)  
+![Figure: Good Example - The winform's title contains the status of progress bar](/GoodProgressForm.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - You can clearly see the progress status from taskbar when you have the windows minimized](../../assets/GoodProgressFormTaskbar.gif)  
+![Figure: Good Example - You can clearly see the progress status from taskbar when you have the windows minimized](/GoodProgressFormTaskbar.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Windows 7 shows the progress in the taskbar (which is visible even when the application is minimized)](../../assets/TaskBarProgress.png)  
+![Figure: Good Example - Windows 7 shows the progress in the taskbar (which is visible even when the application is minimized)](/TaskBarProgress.png)  
 :::

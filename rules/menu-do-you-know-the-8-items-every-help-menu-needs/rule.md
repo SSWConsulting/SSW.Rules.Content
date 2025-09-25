@@ -27,9 +27,9 @@ A good help menu should have these 8 items in it:
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Example of a Help menu with only "About"](../../assets/BadExampleForHelpMenu.gif)  
+![Figure: Bad Example - Example of a Help menu with only "About"](/BadExampleForHelpMenu.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Example of a Help menu with all 8 items](../../assets/GoodExampleOfHelpMenu.gif)  
+![Figure: Good Example - Example of a Help menu with all 8 items](/GoodExampleOfHelpMenu.gif)  
 :::

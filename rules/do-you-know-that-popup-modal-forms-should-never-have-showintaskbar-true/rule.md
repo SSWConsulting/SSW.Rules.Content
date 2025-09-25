@@ -13,7 +13,7 @@ redirects: []
 
 **Question:** What is wrong with this Picture?
 
-![Figure: Can you tell what is wrong with this Picture?](../../assets/ShowInTaskBar.jpg)
+![Figure: Can you tell what is wrong with this Picture?](/ShowInTaskBar.jpg)
 
 <!--endintro-->
 

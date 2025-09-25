@@ -15,8 +15,8 @@ Popups are intrusive and ugly.
 
 <!--endintro-->
 
-![Figure: All popups are evil but this may be the most annoying one in history. How ironic that the popup is informing you that IE has blocked a popup.](../../assets/popup-evil.jpg)
+![Figure: All popups are evil but this may be the most annoying one in history. How ironic that the popup is informing you that IE has blocked a popup.](/popup-evil.jpg)
 
 ::: bad  
-![Figure: Bad Example – Even popups are bad on the iPhone. In iOS5 this style of alerts have been banned (or at least, made optional)](../../assets/iphone-popup.jpg)  
+![Figure: Bad Example – Even popups are bad on the iPhone. In iOS5 this style of alerts have been banned (or at least, made optional)](/iphone-popup.jpg)  
 :::

@@ -16,13 +16,13 @@ Graphs are a great way to display data in an easy to follow visual format. Some 
 <!--endintro-->
 
 ::: good  
-![Figure: Good Example - Are your graphs simple to understand?](../../assets/Graph.jpg)  
+![Figure: Good Example - Are your graphs simple to understand?](/Graph.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad Example - When there's more than four preceptual units, a graph becomes hard to digest](../../assets/badGraph.jpg)  
+![Figure: Bad Example - When there's more than four preceptual units, a graph becomes hard to digest](/badGraph.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - You can split your graphs to make them easer to understand](../../assets/GoodGraph.jpg)  
+![Figure: Good Example - You can split your graphs to make them easer to understand](/GoodGraph.jpg)  
 :::

@@ -23,5 +23,5 @@ So when you add business rules to the middle tier, consider scenarios such as im
 - For Access we use **qryValidateClient_MustHaveACategoryID**
 
 ::: good  
-![Figure: Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data](../../assets/TimeProValidateData.png)  
+![Figure: Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data](/TimeProValidateData.png)  
 :::

@@ -18,11 +18,11 @@ A mnemonic for a button is the letter which has an underscore, and the user can 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - All buttons without Mnemonic](../../assets/BadMem.gif)  
+![Figure: Bad example - All buttons without Mnemonic](/BadMem.gif)  
 :::
 
 ::: good  
-![Figure: Good example - All buttons with Mnemonic - user can easily choose which button they want without a click](../../assets/GoodMem.gif)  
+![Figure: Good example - All buttons with Mnemonic - user can easily choose which button they want without a click](/GoodMem.gif)  
 :::
 
 In Windows Applications, it is quite easy to assign a mnemonic to a button with the "&" character.

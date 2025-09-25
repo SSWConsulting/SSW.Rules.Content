@@ -30,15 +30,15 @@ It might be fantastic under the covers, but if the user interface is not intuiti
 Do yourself a favor, take some time to think about UI first.
 
 ::: bad  
-![Figure: Bad example - An example of a poor UI](../../assets/badui2.jpg)  
+![Figure: Bad example - An example of a poor UI](/badui2.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad example - Functional overload (a programmer probably designed this one)](../../assets/bad-functionaloverload1.jpg)  
+![Figure: Bad example - Functional overload (a programmer probably designed this one)](/bad-functionaloverload1.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad example - Another example of Functional overload](../../assets/bad-functionaloverload2.jpg)  
+![Figure: Bad example - Another example of Functional overload](/bad-functionaloverload2.jpg)  
 :::
 
 ::: good  

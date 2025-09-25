@@ -23,4 +23,4 @@ redirects:
 
 <!--endintro-->
 
-![Figure: Graph Interface](../../assets/GraphInterface.gif)
+![Figure: Graph Interface](/GraphInterface.gif)

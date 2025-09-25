@@ -15,22 +15,22 @@ redirects: []
 
 In Web we have:
 
-- Grids E.g. http://demos.kendoui.com/web/grid/selection.html
+* Grids E.g. <http://demos.kendoui.com/web/grid/selection.html>
 
 In Windows Forms we have a CheckedListBox. With a CheckedListBox you cannot:
 
-- Sort data - always useful when there are more than about 20 rows
-- Contain much information - can only show one field
-- DataBind - always costs heaps of code
+* Sort data - always useful when there are more than about 20 rows
+* Contain much information - can only show one field
+* DataBind - always costs heaps of code
 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - The CheckedListBox is limited](../../assets/UsingCheckedListBox.gif)  
+![Figure: Bad Example - The CheckedListBox is limited](/UsingCheckedListBox.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)](../../assets/UsingDataGrid.gif)  
+![Figure: Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)](/UsingDataGrid.gif)  
 :::
 
 In Windows Forms, the code of DataGrid databinding is easier than that of CheckedListBox.

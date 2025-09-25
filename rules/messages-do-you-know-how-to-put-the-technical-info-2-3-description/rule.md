@@ -19,7 +19,7 @@ The description should explain _what the error was_, followed by the _why it occ
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - A message box that does not intuitively alert the user](../../assets/BadMessageBox.gif)  
+![Figure: Bad Example - A message box that does not intuitively alert the user](/BadMessageBox.gif)  
 :::
 
 - This is confusing, because it uses different terminology to the title ("estimate" instead of "quote")
@@ -28,7 +28,7 @@ The description should explain _what the error was_, followed by the _why it occ
 - Line breaks are not present, so the message box is too wide and the text may wrap in the wrong spot
 
 ::: good  
-![Figure: Good Example - A message box that is clear, consistent and intuitive](../../assets/GoodMessageBox.gif)  
+![Figure: Good Example - A message box that is clear, consistent and intuitive](/GoodMessageBox.gif)  
 :::
 
 - Terminology is consistent

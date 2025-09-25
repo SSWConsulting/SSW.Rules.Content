@@ -16,5 +16,5 @@ Some processes might take a long time to be completed and this can frustrate the
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example – this progress bar looks like it is stuck at 99%. Ideally the progress bar should be hidden when completed and replaced by a green tick](../../assets/long-process-bad.jpg)
+![Figure: Bad example – this progress bar looks like it is stuck at 99%. Ideally the progress bar should be hidden when completed and replaced by a green tick](/long-process-bad.jpg)
 :::

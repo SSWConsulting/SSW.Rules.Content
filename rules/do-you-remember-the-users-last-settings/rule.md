@@ -18,11 +18,11 @@ The user's last settings should be saved and should be selected as the Default t
 * Login forms - the last login name should be the Default selected and the cursor should be in the password box.
 
 ::: bad  
-![Figure: Bad Example - Last Username is not saved](../../assets/BadFormLogin.jpg)  
+![Figure: Bad Example - Last Username is not saved](/BadFormLogin.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - Last Username is saved](../../assets/GoodFormLogin.jpg)  
+![Figure: Good Example - Last Username is saved](/GoodFormLogin.jpg)  
 :::
 
 * Report criteria forms - e.g. date start and date end fields should be automatically populated

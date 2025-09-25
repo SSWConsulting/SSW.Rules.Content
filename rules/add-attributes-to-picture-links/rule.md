@@ -23,9 +23,9 @@ What do you do when you want images to link to your site? In the case of images,
 Hold the cursor over the image below and see what happens.
 
 ::: bad  
-![Figure: Bad example - No attributes to the image](../../assets/SSWLogo.png)  
+![Figure: Bad example - No attributes to the image](/SSWLogo.png)  
 :::
 
 ::: good  
-![Figure: Good example - Search engines will index this text (scroll over image to see)](../../assets/SSWLogo.png "SSW Logo")  
+![Figure: Good example - Search engines will index this text (scroll over image to see)](/SSWLogo.png "SSW Logo")  
 :::

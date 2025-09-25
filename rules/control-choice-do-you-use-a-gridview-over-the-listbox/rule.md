@@ -17,9 +17,9 @@ A GridView provides much richer features than ListBox, you can easily add a chec
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Use the ListBox.](../../assets/BadUseListBox.jpg)  
+![Figure: Bad Example - Use the ListBox.](/BadUseListBox.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - Use GridView and add the enabled checkbox on the header](../../assets/GoodUseGridView.jpg)  
+![Figure: Good Example - Use GridView and add the enabled checkbox on the header](/GoodUseGridView.jpg)  
 :::
