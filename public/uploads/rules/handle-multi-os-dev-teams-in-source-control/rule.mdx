@@ -47,11 +47,11 @@ git config --global core.autocrlf input
 
 * **Repository-Wide configuration**: It's a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
 
-  ```text
-  * text=auto
-  *.sh text eol=lf
-  *.bat text eol=crlf
-  ```
+```text
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+```
 
 This ensures that, no matter what OS a developer is using, files are checked out and committed with consistent line endings. The `eol` attribute specifically handles cases like batch scripts or shell scripts that may need different line endings.
 
