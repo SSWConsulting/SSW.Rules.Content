@@ -32,7 +32,7 @@ For any case of 'Add New', choose to open a new window (popup) for entering data
     figure: "The 'Add New' button changes from a view into a data entry form",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-avoid-doing-an-embedded-add/../../assets/EmbeddedAdd.jpg"
+  src="/EmbeddedAdd.jpg"
 />
 
 <imageEmbed
@@ -44,13 +44,13 @@ For any case of 'Add New', choose to open a new window (popup) for entering data
     figure: "Bad Example - The 'Add New' button, shown in Figure 1, opened the page in the same window",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-avoid-doing-an-embedded-add/../../assets/BadEmbeddedAdd.jpg"
+  src="/BadEmbeddedAdd.jpg"
 />
 
 It is better to open in a new form, reasons being:
 
-- It is better for the user in terms of clarity. The change of view to data entry form can be a surprise
-- It is better to code e.g. if you are using this control in a couple of places you may need to show or hide 'Save' buttons etc. Otherwise, it is a pain to make it behave differently in different contexts.
+* It is better for the user in terms of clarity. The change of view to data entry form can be a surprise
+* It is better to code e.g. if you are using this control in a couple of places you may need to show or hide 'Save' buttons etc. Otherwise, it is a pain to make it behave differently in different contexts.
 
 However, you do need to call back on save and requery it.
 Use a modal form and requery it (DON'T use JavaScript, instead use the Modal Popup Form Example)
@@ -65,7 +65,7 @@ An example of this is in Outlook with the 'New' button.
     figure: "Good Example - the 'New' button in Outlook opens a new form for you to construct your email",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-avoid-doing-an-embedded-add/../../assets/GoodEmbeddedAdd.jpg"
+  src="/GoodEmbeddedAdd.jpg"
 />
 
 
@@ -78,5 +78,5 @@ An example of this is in Outlook with the 'New' button.
     figure: "Adding a table in SharePoint have a popup with dimmed background",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-avoid-doing-an-embedded-add/../../assets/sharepoint-add-table.jpg"
+  src="/sharepoint-add-table.jpg"
 />
