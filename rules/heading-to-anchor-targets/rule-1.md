@@ -51,3 +51,28 @@ This heading will auto-generate an anchor `#getting-started`.
 ``` html
 https://example.com/docs#getting-started
 ```
+
+## MDX / React implementation (auto-IDs + autolinks)
+
+If you render Markdown/MDX in a React app, add slug and autolink plugins so headings get IDs and clickable anchors automatically. Example (Next.js + MDX):
+
+```js
+// next.config.mjs
+import createMDX from '@next/mdx';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+
+const withMDX = createMDX({
+  extension: /\.mdx?$/,
+  options: {
+    rehypePlugins: [
+      rehypeSlug,
+      [rehypeAutolinkHeadings, { behavior: 'wrap' }],
+    ],
+  },
+});
+
+export default withMDX({
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+});
+```
