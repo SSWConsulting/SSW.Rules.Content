@@ -18,7 +18,7 @@ redirects:
 
 According to Sydney Morning Herald's "[Flame emails missing the mark](https://www.smh.com.au/national/flame-emails-missing-the-mark-20060216-gdmze2.html)":
 
-> "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
+\> "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
 
 <!--endintro-->
 
