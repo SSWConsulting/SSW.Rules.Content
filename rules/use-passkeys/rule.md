@@ -28,7 +28,9 @@ Passkeys represent the next evolution in authentication, providing phishing-resi
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/bdp8RdjV6PU`
-**Video: What are passkeys? Explained in under 4 minutes (4 min). Watch more deep dive video about Passkeys [here](https://youtu.be/_tQbWop1P7o)**
+**Video: What are passkeys? Explained in under 4 minutes (4 min)**
+
+Watch a more deep dive video about Passkeys: [Passkeys SUCK (here’s why + how I use them)](https://youtu.be/_tQbWop1P7o) (10 min).
 
 ## Why Passkeys are superior to passwords
 
