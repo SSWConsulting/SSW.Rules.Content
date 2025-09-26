@@ -23,11 +23,11 @@ From the main search box, you can search for:
 
 <!--endintro-->
 
-- Teams
-- Channels
-- Messages
-- People
-- Files
+* Teams
+* Channels
+* Messages
+* People
+* Files
 
 ## Be aware of Teams Search limitations
 
