@@ -6,7 +6,6 @@ uri: why-working-website-break-for-global-users
 authors:
   - title: Gilles Pothieu
     url: https://ssw.com.au/people/gilles-pothieu
-guid: 85c41111-33ea-4199-8ab1-da58f179c033
 created: 2025-09-26T11:00:34.000Z
 archivedreason: null
 guid: 37c8955a-c4fe-492e-8bbc-9410e55c1c45
