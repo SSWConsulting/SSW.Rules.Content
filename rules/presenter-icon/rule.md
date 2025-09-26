@@ -9,6 +9,8 @@ uri: presenter-icon
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - craft-and-deliver-engaging-presentations
   - demo-slides
