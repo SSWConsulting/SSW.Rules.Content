@@ -50,8 +50,6 @@ German text expands 30-40% on average. Russian text is wider. Chinese text is de
 
 [Facebook's Arabic interface](https://www.facebook.com/help/1126828894024656) mirrors everything. The logo stays the same but moves to the right. Progress bars fill right-to-left. Even shadows flip. Your back button? Now on the right.
 
-
-
 ![Figure: Arabic Facebook page](facebook_arabic.png)
 
 [Interesting article about mirroring design for Arabic users](https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566)
@@ -112,7 +110,7 @@ Google Translate, while advanced, often struggles to produce accurate translatio
 
 ### **URLs and SEO**
 
-Internationalized Domain Names (IDN) allow non-Latin URLs like https://例え.jp or https://مثال.السعودية. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
+Internationalized Domain Names (IDN) allow non-Latin URLs like <https://例え.jp> or <https://مثال.السعودية>. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
 
 [Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions) tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.\
 Format: `<link rel="alternate" hreflang="de-DE" href="https://example.com/de/">`.
@@ -137,7 +135,7 @@ Chinese fonts contain 20,000+ characters and typically weigh 10-20MB. Your fancy
 Solution: concider [dynamic subsetting](https://web.dev/reduce-webfont-size/) or system fonts.
 
 Network speeds vary wildly. Indian mobile averages 12 Mbps, Myanmar 4 Mbps. Your 5MB JavaScript bundle takes 40 seconds to load. Users would probably leave after 10.\
-Have a look at : https://www.speedtest.net/global-index
+Have a look at : <https://www.speedtest.net/global-index>
 
 CDN presence matters. [CloudFlare has 310 cities](https://www.cloudflare.com/network/), but weak in Africa. Fastly strong in developed markets, absent in emerging ones. Your millisecond optimizations in San Francisco mean nothing if your CDN serves the cities of Central Africa from London.
 
