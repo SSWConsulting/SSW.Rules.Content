@@ -5,7 +5,7 @@ guid: 4c1776cd-7726-4c6f-b62b-56f57cdead44
 uri: rules-to-better-internationalization
 consulting: https://www.ssw.com.au/consulting/chinafy-app
 index:
-  - why-working-website-break-for-global-users
+  - why-your-website-might-break-for-global-users
   - do-you-know-why-you-should-chinafy-your-app
   - do-you-know-how-to-better-localize-your-application
   - do-you-set-your-application-default-language-to-automatically-change-to-local-language
