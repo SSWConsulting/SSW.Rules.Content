@@ -21,17 +21,18 @@ Microsoft Teams search is designed to help you quickly find the files you are co
 
 From the main search box, you can search for:
 
+<!--endintro-->
+
 - Teams
 - Channels
 - Messages
 - People
 - Files
 
-### Be aware of Teams Search limitations
+## Be aware of Teams Search limitations
 
 `youtube: https://www.youtube.com/watch?v=EeXkhYHlWGI`
-
-<!--endintro-->
+**Video: Teams and SharePoint Search Bug with Jean Thirion (6 min)**
 
 If you start typing in the search box, you will see a dropdown with the main results that matches your query divided by type, prioritizing **Teams** and **Channels**:
 
