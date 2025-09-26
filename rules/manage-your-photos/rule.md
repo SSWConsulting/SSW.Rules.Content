@@ -18,7 +18,7 @@ Have you ever wasted time searching through disorganized photo folders or lost i
 
 Google Photos offers a practical way to organize and find your images with ease. Using features like automatic sorting, facial recognition, and powerful search tools, it helps you quickly locate specific photos from your collection. Whether you're looking for a picture of a specific person, place, or event, Google Photos makes the process straightforward and efficient. This guide will explore how to make the most of Google Photos' capabilities for managing and finding your images.
 
-![❌ Bad Example: While the files are well ordered, it's not clear what they are photos of, or who is in there.](bad-example.png)
+![❌ Bad Example: While the files are well ordered, it's not clear what they are photos of, or who is in there.](bad-example_1758855734749.png)
 
 ![ ✅Good Example: With Google Photos you can organise your photos into folders, but also search for keywords or names to find things easily. They also display as thumbnails for greater visability.](tesla-search.png)
 
