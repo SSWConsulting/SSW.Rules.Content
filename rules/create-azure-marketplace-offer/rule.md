@@ -11,8 +11,8 @@ authors:
     url: https://ssw.com.au/people/luke-mao
   - title: Jim Zheng
     url: https://ssw.com.au/people/jim-zheng
-related:
-redirects:
+related: []
+redirects: []
 ---
 
 Publish your solution to the [Azure Marketplace](https://azuremarketplace.microsoft.com) to reach millions of Microsoft customers and unlock new revenue streams. However, many partners underestimate the preparation required, which leads to rejected offers, costly delays, or poor marketplace visibility.
