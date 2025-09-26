@@ -27,6 +27,7 @@ index:
 - anchor-links
 - efficient-anchor-names
 - do-you-use-the-right-anchor-names
+- heading-to-anchor-targets
 - hyperlink-phone-numbers
 - add-callable-link
 - do-you-save-clicking-through

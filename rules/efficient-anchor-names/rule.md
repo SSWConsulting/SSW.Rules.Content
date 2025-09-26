@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - anchor-links
+  - heading-to-anchor-targets
 redirects:
   - do-you-chose-efficient-anchor-names
   - chose-efficient-anchor-names
