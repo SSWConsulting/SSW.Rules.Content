@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you turn your headings into anchor l?
+title: Do you turn your headings into anchor links?
 seoDescription: Make your headings linkable so people can jump straight to the
   right section, share precise URLs, and keep links stable even if headings
   change later (by setting a custom ID).
