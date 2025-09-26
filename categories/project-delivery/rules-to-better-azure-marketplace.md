@@ -7,7 +7,6 @@ consulting: https://www.ssw.com.au/consulting/azure
 index:
   - create-azure-marketplace-offer
 ---
-
 Getting your product onto the [Azure Marketplace](https://azuremarketplace.microsoft.com) isn't always straightforward, but it can be hugely rewarding.  
 
 Check out these practical tips to sharpen your go-to-market strategy and steer clear of common mistakes.
