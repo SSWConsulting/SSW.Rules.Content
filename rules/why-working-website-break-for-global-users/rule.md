@@ -30,11 +30,13 @@ The [World Wide Web Consortium (W3C)](https://www.w3.org/International/) has bee
 ## The Expensive Confusion: i18n vs L10n
 
 ### **Internationalization (i18n)** - The Architecture
+
 Count the letters between 'i' and 'n' in "internationalization"—18. Hence i18n. The [W3C Internationalization Activity](https://www.w3.org/International/) defines it as designing products and services so they can easily adapt to specific local languages and cultures.
 
 Think of it like building a house with modular plumbing that could handle any water system globally. You're not installing fixtures yet—just ensuring your foundation won't collapse when someone needs a bidet instead of a toilet.
 
 ### **Localization (L10n)** - The Implementation
+
 If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
 
 ## The Hidden Complexity
@@ -59,9 +61,7 @@ Facebook's Arabic interfacemirrors everything. The logo stays the same but moves
 
 ![Figure: Arabic Facebook homepage](facebook_arabic.png)
 
-Interesting article about mirroring design for Arabic users: https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566
-
-
+Interesting article about mirroring design for Arabic users: <https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566>
 
 ### **Names: Your Form's Cultural Bias**
 
@@ -76,9 +76,9 @@ Interesting article about mirroring design for Arabic users: https://blog.protot
 ### **Date Confusion Matrix**
 
 "03/04/2025" means:
-- Americans: "March 4th"
-- Europeans: "April 3rd"
-- Japanese: "What year era?"
+* Americans: "March 4th"
+* Europeans: "April 3rd"
+* Japanese: "What year era?"
 
 A European product launch could easily see poor results if a discount is labeled to expire on “03/04,” since many customers might think the offer ended on 3 April rather than 4 March.
 
@@ -95,6 +95,7 @@ Your DECIMAL(10,2) database column: Inadequate
 ## Success Stories
 
 ### **[Spotify's Smooth Expansion](https://www.nimdzi.com/lessons-in-localization-spotify-expanded/?utm_source=chatgpt.com)**
+
 Built i18n from day one. Payment methods auto-adapt: credit cards in US, SEPA in EU, carrier billing in emerging markets. Local music categories appear automatically.
 
 ### Netflix's Content Strategy
@@ -102,6 +103,7 @@ Built i18n from day one. Payment methods auto-adapt: credit cards in US, SEPA in
 [Subtitles handle mid-sentence](https://partnerhelp.netflixstudios.com/hc/en-us/articles/217350977-English-USA-Timed-Text-Style-Guide?utm_source=chatgpt.com) direction changes. Thumbnail images [change by local](https://netflixtechblog.com/artwork-personalization-c589f074ad76). Search understands local names for international content.
 
 ### **Uber's Market Adaptation**
+
 Cash payments in India, prayer time considerations in Middle East and [Female driver options](https://techcrunch.com/2025/07/23/uber-is-finally-bringing-a-feature-to-the-u-s-that-lets-women-riders-match-with-women-drivers/?utm_source=chatgpt.com) where culturally significant.
 
 ## Common Myths
@@ -116,7 +118,7 @@ Google Translate, while advanced, often struggles to produce accurate translatio
 
 ### **URLs and SEO**
 
-Internationalized Domain Names (IDN) allow non-Latin URLs like https://例え.jp or https://مثال.السعودية. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
+Internationalized Domain Names (IDN) allow non-Latin URLs like <https://例え.jp> or <https://مثال.السعودية>. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
 
 [Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions) tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.  
 Format: `<link rel="alternate" hreflang="de-DE" href="https://example.com/de/">`.
@@ -141,12 +143,12 @@ Chinese fonts contain 20,000+ characters and typically weigh 10-20MB. Your fancy
 Solution: concider [dynamic subsetting](https://web.dev/reduce-webfont-size/) or system fonts.
 
 Network speeds vary wildly. Indian mobile averages 12 Mbps, Myanmar 4 Mbps. Your 5MB JavaScript bundle takes 40 seconds to load. Users would probably leave after 10.  
-Have a look at : https://www.speedtest.net/global-index
+Have a look at : <https://www.speedtest.net/global-index>
 
 CDN presence matters. [CloudFlare has 310 cities](https://www.cloudflare.com/network/), but weak in Africa. Fastly strong in developed markets, absent in emerging ones. Your millisecond optimizations in San Francisco mean nothing if your CDN serves the cities of Central Africa from London.
-Check out that rule about CDN and Interalization: https://www.ssw.com.au/rules/use-a-cdn/
+Check out that rule about CDN and Interalization: <https://www.ssw.com.au/rules/use-a-cdn/>
 
-We also have a set of rule about internalization and China that might interest you: https://www.ssw.com.au/rules/search/?keyword=chinafy
+We also have a set of rule about internalization and China that might interest you: <https://www.ssw.com.au/rules/search/?keyword=chinafy>
 
 ## The Mindset Shift
 
