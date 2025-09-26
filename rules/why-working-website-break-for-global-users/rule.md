@@ -4,8 +4,12 @@ tips: ""
 title: Why you perfectly working website might me completely broken for global users
 uri: why-working-website-break-for-global-users
 authors:
-  - title: ""
+  - title: Gilles Pothieu
+    url: https://ssw.com.au/people/gilles-pothieu
 guid: 85c41111-33ea-4199-8ab1-da58f179c033
+created: 2025-09-26T11:00:34.000Z
+archivedreason: null
+guid: 37c8955a-c4fe-492e-8bbc-9410e55c1c45
 ---
 ### Why your perfectly working website might be completely broken for global users
 
@@ -51,7 +55,7 @@ German text expands 30-40% on average. Russian text is wider. Chinese text is de
 
 ![Figure: Arabic Facebook page](facebook_arabic.png)
 
-Interesting article about mirroring design for Arabic users: https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566
+[Interesting article about mirroring design for Arabic users](https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566)
 
 ### **Names: Your Form's Cultural Bias**
 
@@ -159,7 +163,7 @@ White = death in China, red = danger in the West but luck in Asia. Your "friendl
 
 ## The Bottom Line
 
-Every market has its digital giants. WeChat dominates China, Line owns Japan,WhatsApp rules Brazil and India. They succeeded by understanding that global software isn't about translation—it's about architecture that respects fundamental differences in how humans organize information, express meaning, and interact with technology.
+Every market has its digital giants. WeChat dominates China, Line owns Japan, WhatsApp rules Brazil and India. They succeeded by understanding that global software isn't about translation—it's about architecture that respects fundamental differences in how humans organize information, express meaning, and interact with technology.
 
 When PowerGen Italia became powergenitalia.com, it revealed a truth: our assumptions are so deep we can't even see them. When HSBC lost $10 million, when German patients needed repeat surgeries, when [Walmart retreated from Germany](https://www.theguardian.com/business/2006/jul/28/retail.money#:~:text=The%20world%27s%20largest%20retailer%2C%20Wal,price%2C%20American%2Dstyle%20trading.)—these weren't localization failures. They were architectural failures baked in from day one.
 
