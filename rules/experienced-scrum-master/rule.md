@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?
 guid: c73f2949-72ed-4562-8e3c-3cf03e0403ba
-uri: agreements-do-you-use-an-experienced-scrum-master-or-project-manager
+uri: experienced-scrum-master
 created: 2010-05-20T10:43:28.0000000Z
 authors:
   - title: Adam Cogan
@@ -12,19 +12,24 @@ authors:
 related: []
 redirects:
   - agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)
+  - agreements-do-you-use-an-experienced-scrum-master-or-project-manager
 ---
 
 Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians, and plumbers to just work it out between themselves. The house does get built if the foreman is keeping everyone on their toes, making sure they are doing their job.
-
-`youtube: https://www.youtube.com/embed/QbPkcfzi2HI`
 
 Software teams often come with a Project Manager. You can do better than that by getting a Scrum Master.
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/QbPkcfzi2HI`
+
+**Video: What is a Scrum Master? - Scrum Guide (3 min)**
+
 It's generally best for the Scrum Master **not** to be a member of the development team. This way they can stay objective and it creates more of a ceremony when they turn up.
 
+::: info
 **Tip:** If they are trying to be a member of the development team and a Scrum Master, call them a 'Semi Scrum Master" as they often don't do as good a job.
+:::
 
 Here is a common way a project goes with a Scrum Master involved:
 
@@ -44,7 +49,7 @@ This is much better than the old waterfall method which goes like this:
 Insist that your Scrum Master (aka Project Manager) [maintains a strict project schedule](/does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule).
 
 ::: greybox
-**For Scrum Projects:** In Scrum projects, the role of a Project Manager is split into three roles: Scrum Master, Product Owner, and the team. Each role is essential.
+**For Scrum projects:** The role of a Project Manager is split into three roles: **Scrum Master**, **Product Owner**, and **the team**. Each role is essential.
 :::
 
 For more information go to [Scrum Terms](https://www.scrum.org/resources/scrum-glossary) and [Scrum Roles](https://resources.scrumalliance.org/Article/scrum-team).

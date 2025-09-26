@@ -15,14 +15,16 @@ guid: e2d55514-1ead-49c3-ae2f-a160f4decd9c
 
 Home and office automation can drastically improve the security, comfort, and accessibility of a space. And if we're being honest - it's just plain cool!
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/watch?v=JdGya9Pw07E`
 **Video: May the 4th Be With You | Home & Office Automation (1 min)**
 
 Sometimes it can be hard to decide what to automate, or where to even begin. Let's take a look at SSW's top 3 automation essentials!
 
+::: info
 **Tip:** Check out more automation rules in our [Rules to better Control4](/rules-to-better-control4/)
-
-<!--endintro-->
+:::
 
 ## Security
 

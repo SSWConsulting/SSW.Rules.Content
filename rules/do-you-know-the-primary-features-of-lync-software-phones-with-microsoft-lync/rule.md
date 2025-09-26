@@ -16,11 +16,12 @@ redirects:
 
 Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone)
 
-`youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
+<!--endintro-->
+
+`youtube: https://www.youtube.com/embed/z45_IMwslYw`
+**Video: How To Use Microsoft Lync 2013 Features with Brooke Rooney (3 min)**
 
 There are a lot of features of Microsoft Lync. The primary features are:
-
-<!--endintro-->
 
 * Internal calls
 * Transfer a call
@@ -35,5 +36,3 @@ Plus even more:
 * Meetings
 * Remote Desktop
 * Whiteboard
-
-Read more about [implementing Microsoft Lync](https://www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx).

@@ -18,14 +18,15 @@ guid: 10489ca4-5e42-49af-b502-d3572d573e7f
 
 Notifications from GitHub can be quite a pain, as they send a lot of emails. This leads to many developers ignoring the important emails they receive.
 
-`youtube: https://www.youtube.com/embed/Lb1slP9jSGk`
-
 <!--endintro-->
 
-### Github
+`youtube: https://www.youtube.com/embed/Lb1slP9jSGk`
+**Video: Taming GitHub - Notification Hell 🔥 with Adam Cogan and Luke Parker (7 min)**
+
+## Github
 
 ::: bad
-![Figure: Bad example - lots of notifications](./notifications.png)
+![Figure: Bad example - Lots of notifications](./notifications.png)
 :::
 
 To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications).
@@ -42,7 +43,7 @@ Turning off Watching notifications significantly reduces the number of spam emai
 
 The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your deployments.
 
-### Outlook
+## Outlook
 
 You often want to receive emails when you’re @mentioned or someone requests your review on a pull request, but you probably don’t want to then subscribe to every future thing that happens about it.
 

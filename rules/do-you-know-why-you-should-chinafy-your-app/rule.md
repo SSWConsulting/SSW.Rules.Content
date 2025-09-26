@@ -15,34 +15,18 @@ related: []
 redirects: []
 ---
 
-`youtube: https://www.youtube.com/embed/-FvYcZ70VHY`
-
-
-
-<!--endintro-->
-
 China is a booming market and now is the time to take advantage of this growing user base. If you have a successful application you should bring it to the Chinese market.
 
 Most Chinese consumers will not make a purchase or use your application if information is not easily available in Chinese.
 
-### Benefits
+<!--endintro-->
 
-::: good
-You can grow and target your audience better using the local social media networks
+`youtube: https://www.youtube.com/embed/-FvYcZ70VHY`
+**Video: Chinafy - SSW LinkAuditor (2 min)**
 
-:::
+## ✅ Benefits
 
-::: good
-You should ensure your application works in China, and that critical application resources are not blocked by the firewall
-
-:::
-
-::: good
-You should integrate with local services (such as video streaming)
-
-:::
-
-::: good
-Localizing for the market is not just translation
-
-:::
+* Grow and target your audience better using the local social media networks
+* Ensure your application works in China, and that critical application resources are not blocked by the firewall
+* Integrate with local services (such as video streaming)
+* Localizing for the market is not just translation

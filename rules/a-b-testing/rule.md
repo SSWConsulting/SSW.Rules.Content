@@ -14,13 +14,13 @@ A/B Testing is the process of testing different versions of an application on di
 
 Using A/B Testing enables you to get features tested and when used effectively means that **a bug will never be deployed to 100% of users.** Generally, new features should be tested on 20% of users and rolled out to others once they are reliable.
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/v=zFMgpxG-chM`
 
-**Video: What is A/B Testing? | Data Science in Minutes**
+**Video: What is A/B Testing? | Data Science in Minutes (4 min)**
 
 There are several ways this can be done...
-
-<!--endintro-->
 
 ## Feature Flags (Recommended)
 
@@ -28,14 +28,16 @@ Feature flags are a modern way to toggle features for users. They are essentiall
 
 Feature flags are often implemented by developers writing their own code. However, there are better solutions today:
 
-* [LaunchDarkly](https://launchdarkly.com/)
+### [LaunchDarkly](https://launchdarkly.com/)
 
-  * [Video interview](https://tv.ssw.com/ndc-sydney-2017-ask-me-anything-with-adam-cogan-and-edith-harbaugh-launchdarkly-tripit-devops/) of LaunchDarkly CEO Edith Harbaugh
+* [Video interview](https://tv.ssw.com/ndc-sydney-2017-ask-me-anything-with-adam-cogan-and-edith-harbaugh-launchdarkly-tripit-devops/) of LaunchDarkly CEO Edith Harbaugh
 
-* [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-33518) is the recommended solution and there are some great tutorials that help developers get up and running in minutes:
+### [Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview?WT.mc_id=AZ-MVP-33518)
 
-  * [Use feature filters to enable conditional feature flags](https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-feature-filters-aspnet-core?WT.mc_id=AZ-MVP-33518)
-  * [Tutorial: Use feature flags in an ASP.NET Core app](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core?WT.mc_id=AZ-MVP-33518)
+It is the recommended solution and there are some great tutorials that help developers get up and running in minutes:
+
+* [Use feature filters to enable conditional feature flags](https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-feature-filters-aspnet-core?WT.mc_id=AZ-MVP-33518)
+* [Tutorial: Use feature flags in an ASP.NET Core app](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core?WT.mc_id=AZ-MVP-33518)
 
 ## Azure Deployment Slots
 

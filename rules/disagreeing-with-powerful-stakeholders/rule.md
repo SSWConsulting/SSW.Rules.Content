@@ -21,14 +21,14 @@ archivedreason: null
 
 Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
+<!--endintro-->
+
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
-**Video: How to Disagree with Someone More Powerful (watch 3 min from 3:06-5:38)**
+**Video: How to Disagree with Someone More Powerful (watch 3 min from 3:06 to 5:38)**
 
 Imagine a scenario where you are a Developer on a team and you disagree with the Product Owner about the priority of your PBI - migrating from .NET 6 to .NET 8. The Product Owner is saying they don't want to do it, but you think it's important for this Sprint.
 
 Let's see what tips and tricks can be applied to ensure a smooth discussion.
-
-<!--endintro-->
 
 ## Align your interests and understanding
 
@@ -102,7 +102,7 @@ If you caveat that you are just expressing your opinion, others will feel like y
 **Developer**: No, we should upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
 :::bad
-Bad example - The Developer didn't express that it was their opinion.
+Bad example - The Developer didn't express that it was their opinion
 :::
 
 :::greybox
@@ -111,7 +111,7 @@ Bad example - The Developer didn't express that it was their opinion.
 **Developer**: In my opinion, it's better if we upgrade to .NET 8 this Sprint because it will help fix users' performance issues.
 :::
 :::good
-Good example - The Developer mentions that it is their opinion leaving the topic open for discussion.
+Good example - The Developer mentions that it is their opinion leaving the topic open for discussion
 :::
 
 ### 3. Avoid judgemental language
