@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you use AI to manage your backlog?
 seoDescription: Take the stress out of backlog management. With AI + GitHub or
   DevOps MCP, you can quickly organize tasks and focus on the fun work.
@@ -40,7 +39,7 @@ With AI managing your backlog, you can easily:
 :::
 
 ::: greybox
-**Example Query:** "Find me duplicate issues."  
+**Example Prompt:** "Find me duplicate issues."  
 :::
 
 ::: good
@@ -55,7 +54,7 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 * **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
 
 ::: greybox
-**Example Query:** "Are there any issues in the backlog that can be broken down into smaller issues?"  
+**Example Prompt:** "Are there any issues in the backlog that can be broken down into smaller issues?"  
 :::
 
 ::: good
@@ -71,7 +70,7 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 * **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
 ::: greybox
-**Example Query:** "Can you group some issues that could be in a single epic?"  
+**Example Prompt:** "Can you group some issues that could be in a single epic?"  
 :::
 
 ::: good
@@ -86,7 +85,7 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 * **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - AI offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
 ::: greybox
-**Example Query:** "Can you provide me an estimate on {{ ISSUE }}?"  
+**Example Prompt:** "Can you provide me an estimate on {{ ISSUE }}?"  
 :::
 
 ::: good
@@ -101,7 +100,7 @@ When a request comes in, it isn't easy to know what issues are required to compl
 * **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
 ::: greybox
-**Example Query:** "Does {{ ISSUE }} have any related issues that should be done before work is started?"
+**Example Prompt:** "Does {{ ISSUE }} have any related issues that should be done before work is started?"
 :::
 
 ::: good
@@ -116,7 +115,7 @@ Not every backlog item has the same impact. AI can help prioritize by:
 * **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
 
 ::: greybox
-**Example Query:** "Can you give me the highest priorities that would improve user experience?"
+**Example Prompt:** "Can you give me the highest priorities that would improve user experience?"
 :::
 
 ::: good
