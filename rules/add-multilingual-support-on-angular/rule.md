@@ -21,15 +21,16 @@ archivedreason: null
 guid: 6a959062-c8cf-419d-adbd-97aed99ea3e1
 ---
 
-### How to implement multilingual support in an Angular project?
-
 There are several ways of implementing multilingual support in an Angular project, the following libraries are popular:
 
 **[Internationalization (i18n)](https://angular.dev/guide/i18n):** the standard Angular built-in module to help the application dealing with multilingual. It creates multiple language versions of your application.
 
 **[ngx-translate](https://github.com/ngx-translate/core):** a library enhanced the Angular built-in feature, it supports not only template translations but can also be used in the code by APIs.
 
-`https://www.youtube.com/watch?v=KNTN-nsbV7M`  
+
+<!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=KNTN-nsbV7M`  
 **Video: Introduction to Internationalization in Angular (13mn)**
 
 The following table shows the pros and cons of the 2 libraries:

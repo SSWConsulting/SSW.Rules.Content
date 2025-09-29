@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know why your perfectly working website might be completely broken for global users
+title: Do you know the importance of Internationalization?
 seoDescription: i18n, L10n, internationalization, localization, W3C standards
 uri: why-your-website-might-break-for-global-users
 authors:
@@ -15,8 +15,6 @@ related:
   - do-you-always-give-the-user-an-option-to-change-the-locale
 guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
 ---
-
-### Do you know why your perfectly working website might be completely broken for global users
 
 Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site powergenitalia.com instead of powergen-italia.com back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental architectural failures.
 
