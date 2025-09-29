@@ -1,0 +1,39 @@
+---
+seoDescription: 
+type: rule
+title: Kingdee-Do you know how to set up auxiliary accounting for Accounts Receivables?(Chinese only)
+uri: Do-you-know-how-to-set-up-auxiliary-accounting?
+authors:
+  - title: Clara Fang
+    url: https://www.ssw.com.au/people/clara-fang
+related:
+  - importance-of-reconciliation
+created: 2025-09-29T22:53:34.710Z
+guid: f5af8a5b-0401-4830-be3f-7d4daf853c22
+---
+
+Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to a general ledger account, allowing for detailed tracking beyond the main account balance. For the "Accounts Receivable" account, its primary use is to link the "Customer" auxiliary dimension.
+
+::: greybox  
+1120 Accounts Receivable
+1120.001 Accounts Receivable - Customer A
+1120.002 Accounts Receivable - Customer B
+1120.003 Accounts Receivable - Customer C
+... (This list becomes unmanageable with hundreds of customers.)
+This causes your chart of accounts to become bloated, inefficient, and difficult to maintain. 
+:::
+
+::: bad
+Figure: Bad Example - Problem with the Traditional Method  
+:::
+
+::: greybox 
+The Auxiliary Accounting Solution:
+Setup: Use one main account (1120 Accounts Receivable) and enable the "Customer" dimension for it.
+Entry: When posting an invoice to this account, the system prompts you to select a specific customer.
+Result: Each transaction is automatically tagged (e.g., 1120 Receivable | Customer A).
+:::
+
+::: good
+Figure: Good Example - The Auxiliary Accounting Solution  
+:::
