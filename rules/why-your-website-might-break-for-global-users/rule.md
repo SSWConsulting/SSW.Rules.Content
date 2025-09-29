@@ -7,7 +7,7 @@ uri: why-your-website-might-break-for-global-users
 authors:
   - title: Gilles Pothieu
     url: https://www.ssw.com.au/people/gilles-pothieu
-  - title: Chloé Lin
+  - title: Chloe Lin
     url: https://www.ssw.com.au/people/chloe-lin/
 related:
   - add-multilingual-support-on-angular
