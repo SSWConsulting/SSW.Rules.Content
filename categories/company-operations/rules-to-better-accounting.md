@@ -37,6 +37,7 @@ index:
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - how-do-you-manage-your-corporate-card
 - do-you-schedule-supplier-payments
+- Do you know how to set up auxiliary accounting?
 ---
 
 Streamline accounting practices by implementing essential rules that enhance operational efficiency and financial accuracy. Discover strategies for effective payroll management, expense tracking, and ensuring compliance within your organization.
