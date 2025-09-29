@@ -28,7 +28,7 @@ There are 3 main ways you can organise your photos using Google Photos:
 
 ### Google Photos via Links
 
-Google Photos can be used as a repository, but it can also be used as a file-sharing tool. If you want multiple people to add photos to an album, you can create a link and share it for others to use. It's quick, easy, and doesn't require special access to your repository. 
+Google Photos can be used as a repository, but it can also be used as a file-sharing tool. If you want multiple people to add photos to an album, you can create a link and share it for others to use. It's quick, easy, and doesn't require special access to your repository.
 
 One limitation to be aware of is that whoever uploads the photos maintains control over the image. So, if an admin or the uploader removes their access to a folder, so too are their images.
 
@@ -38,13 +38,13 @@ Inviting a lot of people to share their photos of an event with you can create c
 
 To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' where everyone can upload their photos, allowing them to be curated, and only the best ones can then be uploaded to Google.
 
-You could use SharePoint or a file server for this purpose, making it the most versatile approach. 
+You could use SharePoint or a file server for this purpose, making it the most versatile approach.
 
 ### File Server as a staging area  + Google Photos
 
 Using a file server as a staging area makes it easy to automate uploads to Google Photos. While the initial setup takes a little time, it saves effort in the long run. Once curated, photos can be stored in a designated folder on the file server, which then pushes them to Google Photos, no more manual transfers!
 
-However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/). 
+However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/).
 
 Watch the video to learn more about Google Photos, and how to set it up for your company:
 
