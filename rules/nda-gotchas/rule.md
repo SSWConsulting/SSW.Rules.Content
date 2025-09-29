@@ -23,15 +23,16 @@ guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
 
 Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.
 
-`youtube: https://youtu.be/6S-OJspJAZA`
-
 <!--endintro-->
 
-### What is an NDA
+`youtube: https://youtu.be/6S-OJspJAZA`
+**Video: Do you spot common gotchas in NDA contracts? (12 min)**
+
+## What is an NDA
 
 A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](<https://en.wikipedia.org/wiki/Party_(law)> "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
 
-### Be Sensible
+### Be sensible
 
 All parties are entitled to have legal representation with an NDA, but there are a few simple gotcha's we detail below that we think can keep all parties safe, without any unnecessary dramas.
 
