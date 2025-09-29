@@ -29,9 +29,6 @@ There are several ways of implementing multilingual support in an Angular projec
 
 **[ngx-translate](https://github.com/ngx-translate/core):** a library enhanced the Angular built-in feature, it supports not only template translations but can also be used in the code by APIs.
 
-
-<!--endintro-->
-
 `https://www.youtube.com/watch?v=KNTN-nsbV7M`  
 **Video: Introduction to Internationalization in Angular (13mn)**
 
