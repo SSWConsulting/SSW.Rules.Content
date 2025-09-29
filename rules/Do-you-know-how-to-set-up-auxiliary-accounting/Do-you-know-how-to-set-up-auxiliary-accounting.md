@@ -29,12 +29,15 @@ Figure: Bad Example - Problem with the Traditional Method
 
 ::: greybox 
 The Auxiliary Accounting Solution:
+
 Setup: Use one main account (1120 Accounts Receivable) and enable the "Customer" dimension for it.
+
 Entry: When posting an invoice to this account, the system prompts you to select a specific customer.
+
 Result: Each transaction is automatically tagged (e.g., 1120 Receivable | Customer A).
 :::
 
-::: class
+:::class
 ![Figure: Good-Example-The-Auxiliary-Accounting-Solution](Good-Example-The-Auxiliary-Accounting-Solution.jpg)
 :::
 
