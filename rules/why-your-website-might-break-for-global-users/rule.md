@@ -71,7 +71,7 @@ Interesting article about mirroring design for Arabic users: <https://blog.proto
 | **Indonesia** | Single name only | "Last name" is required |
 | **Netherlands** | Particles matter | "van der Berg" sorts under 'B' |
 
-[Airbnb's solution](https://airbnb.design/international-typography/): Single "Full Name" field. They learned after losing bookings in markets where forms wouldn't accept local names.
+Airbnb's solution: Single "Full Name" field. They learned after losing bookings in markets where forms wouldn't accept local names.
 
 ### **Date Confusion Matrix**
 
