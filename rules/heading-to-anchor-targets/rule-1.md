@@ -32,9 +32,6 @@ See the [Google Developer Style Guide on headings and anchor targets](https://de
 * Stable links via custom IDs
 * Consistent style using lowercase with hyphens
 
-::: info
-
-
 ## Example: From heading to anchor link
 
 Say you have a documentation page with many sections.
