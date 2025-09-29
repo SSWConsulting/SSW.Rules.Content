@@ -8,7 +8,7 @@ seoDescription: Cold emails don’t exist to book meetings, they exist to start
 uri: do-you-do-cold-emailing-right
 authors:
   - title: ""
-created: 2025-09-29T15:15:00.000Z
+created: 2025-09-29T15:20:00.000Z
 guid: b8dfcdda-64a9-445b-a98d-cfae421b1a3e
 ---
 You write a “perfect” cold email, hit send… and get silence. So you push harder: longer copy, bigger claims, a calendar link. Still nothing.
