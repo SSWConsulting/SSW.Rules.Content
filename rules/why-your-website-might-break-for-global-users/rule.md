@@ -7,7 +7,7 @@ uri: why-your-website-might-break-for-global-users
 authors:
   - title: Gilles Pothieu
     url: https://www.ssw.com.au/people/gilles-pothieu
-  - title: Chloé Lin
+  - title: Chloe Lin
     url: https://www.ssw.com.au/people/chloe-lin/
 related:
   - add-multilingual-support-on-angular
@@ -71,11 +71,12 @@ Interesting article about mirroring design for Arabic users: <https://blog.proto
 | **Indonesia** | Single name only | "Last name" is required |
 | **Netherlands** | Particles matter | "van der Berg" sorts under 'B' |
 
-[Airbnb's solution](https://airbnb.design/international-typography/): Single "Full Name" field. They learned after losing bookings in markets where forms wouldn't accept local names.
+Airbnb's solution: Single "Full Name" field. They learned after losing bookings in markets where forms wouldn't accept local names.
 
 ### **Date Confusion Matrix**
 
 "03/04/2025" means:
+
 * Americans: "March 4th"
 * Europeans: "April 3rd"
 * Japanese: "What year era?"
