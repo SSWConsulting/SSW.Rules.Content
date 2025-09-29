@@ -27,7 +27,7 @@ Visuals in themselves are neither good nor bad. A visual that users love on one 
 
 **C.** Create your own custom visual using custom code with React, Angular, R, etc
 
-Using the pre-built visuals in AppSource saves time and money and should work in most cases. The Charticulator visual has now been integrated in to AppSource which also gives you more flexibility and options. Creating custom visuals from scratch using D3 or similar libraries can be time-consuming. One relatively easy way to add more visual options to your toolset is to create your own visual using React and then use free 3rd party charts to add the extra sizzle. [Check out this video to explore this option](https://www.youtube.com/watch?v=eJ6uHwaGJRM). 
+Using the pre-built visuals in AppSource saves time and money and should work in most cases. The Charticulator visual has now been integrated in to AppSource which also gives you more flexibility and options. Creating custom visuals from scratch using D3 or similar libraries can be time-consuming. One relatively easy way to add more visual options to your toolset is to create your own visual using React and then use free 3rd party charts to add the extra sizzle. [Check out this video to explore this option](https://www.youtube.com/watch?v=eJ6uHwaGJRM).
 
 For more inspiration on using amazing visuals have a look at some of these urls:
 
