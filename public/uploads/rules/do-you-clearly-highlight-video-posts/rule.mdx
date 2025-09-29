@@ -42,15 +42,26 @@ Also, make sure your embedded **video is at the top of the post**, so users will
   }}
 />
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example: From the title, you would be unable to tell that this has a video](/uploads/rules/do-you-clearly-highlight-video-posts/Stevo-Bad-blog.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example: From the title, you would be unable to tell that this has a video",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-clearly-highlight-video-posts/Stevo-Bad-blog.png"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example: From the title, it is easy to see that this includes a video](/uploads/rules/do-you-clearly-highlight-video-posts/Chris-Good-blog.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example: From the title, it is easy to see that this includes a video",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-clearly-highlight-video-posts/Chris-Good-blog.png"
+/>

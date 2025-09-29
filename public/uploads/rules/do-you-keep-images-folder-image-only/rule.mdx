@@ -27,19 +27,29 @@ isArchived: false
 We want to keep clear and simple file structure in our solution. Never put any files other than images file in \images folder.
   </>}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example - HTML file in \\Images Folder.](/uploads/rules/do-you-keep-images-folder-image-only/OnlyImageBad.gif)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - HTML file in \\Images Folder.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-keep-images-folder-image-only/OnlyImageBad.gif"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example - Images only, clean \\Images folder.](/uploads/rules/do-you-keep-images-folder-image-only/OnlyImageGood.gif)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Images only, clean \\Images folder.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-keep-images-folder-image-only/OnlyImageGood.gif"
+/>
 
 | We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
 | ----------------------------------------------------------------------------------------------------------------------- |

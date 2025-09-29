@@ -33,15 +33,26 @@ Using DOM is fine, but manipulating DOM directly in your component is not. With 
 
 This means that the component's state must expose things that are useful to the template as public properties or fields, and the Angular should read these fields to draw itself.
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![This component manipulates the DOM directly to show and hide the menu](/uploads/rules/avoid-the-dom-in-your-components/dom1.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "This component manipulates the DOM directly to show and hide the menu",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-the-dom-in-your-components/dom1.png"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test](/uploads/rules/avoid-the-dom-in-your-components/dom2.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-the-dom-in-your-components/dom2.png"
+/>

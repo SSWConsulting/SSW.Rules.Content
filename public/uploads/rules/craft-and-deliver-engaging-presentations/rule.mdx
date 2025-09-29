@@ -8,7 +8,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Andrew Forsyth
     url: https://www.ssw.com.au/people/andrew-forsyth
-related: []
+related:
+  - presenter-icon
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presenting
   - basic-dos-and-donts-of-presenting

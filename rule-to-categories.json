@@ -1941,6 +1941,9 @@
     "do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something": [
         "rules-to-better-powerpoint-presentations"
     ],
+    "presenter-icon": [
+        "rules-to-better-powerpoint-presentations"
+    ],
     "do-you-use-slido": [
         "rules-to-better-powerpoint-presentations"
     ],
@@ -4141,6 +4144,10 @@
     ],
     "do-you-use-the-right-anchor-names": [
         "rules-to-better-websites-navigation"
+    ],
+    "heading-to-anchor-targets": [
+        "rules-to-better-websites-navigation",
+        "rules-to-better-websites-development"
     ],
     "add-callable-link": [
         "rules-to-better-websites-navigation"
@@ -6415,6 +6422,9 @@
     "does-your-navigation-device-support-touch": [
         "rules-to-better-cars"
     ],
+    "create-azure-marketplace-offer": [
+        "rules-to-better-azure-marketplace"
+    ],
     "do-you-check-your-workspaces-when-defining-a-new-build": [
         "rules-to-better-branching-and-builds"
     ],
@@ -8676,6 +8686,9 @@
     ],
     "share-code-using-packages": [
         "rules-to-better-installers"
+    ],
+    "why-your-website-might-break-for-global-users": [
+        "rules-to-better-internationalization"
     ],
     "do-you-know-why-you-should-chinafy-your-app": [
         "rules-to-better-internationalization"

@@ -36,12 +36,7 @@ isArchived: false
 
 ![](/uploads/rules/azure-naming-resources/icon-naming-azure.png)
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![The scariest resource name you can find](/uploads/rules/azure-naming-resources/kv-bad-name.jpg)",
-  shouldDisplay: true
-} } />
-
+![The scariest resource name you can find](/uploads/rules/azure-naming-resources/kv-bad-name.jpg)
 
 Organizing your cloud assets starts with good names. It is best to be consistent and use:
 
@@ -64,23 +59,33 @@ Having inconsistent resource names across projects creates all sorts of pain
 
 If you're looking for resources, it's much easier to have a pattern to search for. At a bare minimum, you should keep the name of the product in the resource name, so finding them in Azure is easy. One good option is to follow the "productname-environment" naming convention, and most importantly: keep it consistent!
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad Example - Inconsistent resource names. Do these belong to the same product?](/uploads/rules/azure-naming-resources/bad-azure-name-example-1.png)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - Inconsistent resource names. Do these belong to the same product?",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/azure-naming-resources/bad-azure-name-example-1.png"
+/>
 
 ### Name your resources according to their environment
 
 Resource names can impact things like resource addresses/URLs. It's always a good idea to name your resources according to their environment, even when they exist in different Subscriptions/Resource Groups.
 
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](/uploads/rules/azure-naming-resources/better-example.png)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/azure-naming-resources/better-example.png"
+/>
 
 ### Plan for the exceptions
 

@@ -31,26 +31,41 @@ These days, the most important way to secure your VPN is to use MFA. The best wa
 
 It is also important to make sure that your VPN uses a secure protocol. Previously PPTP was a popular method, but this is now a deprecated service as it can be hacked very quickly using online tools. It is recommended to go with a provider that uses SSL or IPSec protocols.
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example: PPTP should not be used, it is old and no longer secure](/uploads/rules/do-you-use-a-secure-remote-access-vpn/vpn-pptp.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example: PPTP should not be used, it is old and no longer secure",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/vpn-pptp.png"
+/>
 
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example: Cisco AnyConnect configured with Azure AD SSO and MFA",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/cisco-vpn.png"
+/>
 
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example: Cisco AnyConnect configured with Azure AD SSO and MFA](/uploads/rules/do-you-use-a-secure-remote-access-vpn/cisco-vpn.png)",
-  shouldDisplay: true
-} } />
-
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example: Fortinet have their own MFA solution for VPN, FortiToken](/uploads/rules/do-you-use-a-secure-remote-access-vpn/fortitoken-vpn.png)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example: Fortinet have their own MFA solution for VPN, FortiToken",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/fortitoken-vpn.png"
+/>
 
 ### More information on Cisco AnyConnect
 
