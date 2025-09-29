@@ -32,17 +32,17 @@ Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confiden
 
 A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](<https://en.wikipedia.org/wiki/Party_(law)> "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
 
-### Be sensible
+## Be sensible
 
 All parties are entitled to have legal representation with an NDA, but there are a few simple gotcha's we detail below that we think can keep all parties safe, without any unnecessary dramas.
 
 Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship.
 
-### If they will sign your NDA (recommended)
+## If they will sign your NDA (recommended)
 
 If a client needs an NDA and are happy to sign yours, this is the optimal situation as you know what's in it, and so can't be caught out. You should always have a boilerplate one stored in your own fileshare (ideally SharePoint) that you can send out as needed.
 
-### If they demand you to sign their NDA
+## If they demand you to sign their NDA
 
 Look out for these potential tripping points:
 
