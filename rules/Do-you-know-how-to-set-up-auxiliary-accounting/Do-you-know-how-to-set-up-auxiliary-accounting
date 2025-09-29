@@ -9,7 +9,7 @@ authors:
 related:
   - importance-of-reconciliation
 created: 2025-09-29T22:53:34.710Z
-guid: f5af8a5b-0401-4830-be3f-7d4daf853c22
+guid: ca50e896-5fe9-43b0-8def-4ead1f9a8349
 ---
 
 Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to a general ledger account, allowing for detailed tracking beyond the main account balance. For the "Accounts Receivable" account, its primary use is to link the "Customer" auxiliary dimension.
