@@ -117,25 +117,31 @@ Google Translate, while advanced, often struggles to produce accurate translatio
 
 ### URLs and SEO
 
-Internationalized Domain Names (IDN) allow non-Latin URLs like <https://例え.jp> or <https://مثال.السعودية>. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
+**Internationalized Domain Names (IDN):** allow non-Latin URLs like <https://例え.jp> or <https://مثال.السعودية>. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
 
-[Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions) tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.  
-Format: `<link rel="alternate" hreflang="de-DE" href="https://example.com/de/">`.
+**[Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions):** tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.  
+Example:
+```html
+<link rel="alternate" hreflang="de-DE" href="https://example.com/de/">
+```
 
-Don't assume Google. [Baidu](https://www.baidu.com/) dominates China (70% market share). [Yandex](https://yandex.com/) owns Russia (60%). [Naver](https://www.naver.com/) rules South Korea. Each has different SEO requirements, Baidu requires ICP license, Yandex favors .ru domains.
+**Search Engine Differences:** Don’t assume Google rules everywhere.
+- [Baidu](https://www.baidu.com/) dominates China (70% market share) and requires an ICP license
+- [Yandex](https://yandex.com/) owns Russia (60%) and favors .ru domains
+- [Naver](https://www.naver.com/) rules South Korea with its own SEO rules
 
 ### Performance Geography
 
-Chinese fonts contain 20,000+ characters and typically weigh 10-20MB. Your fancy web font? It just killed mobile users' data plans.  
-Solution: concider [dynamic subsetting](https://web.dev/reduce-webfont-size/) or system fonts.
+**Fonts:** Chinese fonts contain 20,000+ characters and typically weigh 10-20MB. Your fancy web font? It just killed mobile users' data plans.  
+Solution: consider [dynamic subsetting](https://web.dev/reduce-webfont-size/) or system fonts.
 
-Network speeds vary wildly. Indian mobile averages 12 Mbps, Myanmar 4 Mbps. Your 5MB JavaScript bundle takes 40 seconds to load. Users would probably leave after 10.  
-Have a look at : <https://www.speedtest.net/global-index>
+**Network Speeds:** Network speeds vary wildly. Indian mobile averages 12 Mbps, Myanmar 4 Mbps. Your 5MB JavaScript bundle takes 40 seconds to load. Users would probably leave after 10. See the [global index](https://www.speedtest.net/global-index)
 
-CDN presence matters. CloudFlare has 310 cities, but weak in Africa. Fastly strong in developed markets, absent in emerging ones. Your millisecond optimizations in San Francisco mean nothing if your CDN serves the cities of Central Africa from London.  
-Check out that rule about CDN and Interalization: <https://www.ssw.com.au/rules/use-a-cdn/>
+**CDN Coverage:** CDN presence matters. CloudFlare has 310 cities, but weak in Africa. Fastly strong in developed markets, absent in emerging ones. Your millisecond optimizations in San Francisco mean nothing if your CDN serves the cities of Central Africa from London. See the rule [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
 
-We also have a set of rule about internalization and China that might interest you: <https://www.ssw.com.au/rules/search/?keyword=chinafy>
+::: china  
+Check out our rules about [Chinafy your application](https://www.ssw.com.au/rules/search/?keyword=chinafy)
+:::
 
 ## The Mindset Shift
 
@@ -151,7 +157,7 @@ Thai, Lao, and Khmer don't use spaces between words. Your word-wrap algorithm fa
 Not just text, entire mental models flip. Timelines flow right-to-left. "Next" buttons move left. Carousels swipe opposite. Even emoji directions change in RTL contexts.
 
 **"What if numbers use different symbols?"**  
-[Eastern Arabic numerals](https://en.wikipedia.org/wiki/Eastern_Arabic_numerals): ٠١٢٣٤٥٦٧٨٩. Your regex `/[0-9]/` just failed. Your parseInt() broke. Credit card validation rejected legitimate cards.
+[Eastern Arabic numerals](https://en.wikipedia.org/wiki/Eastern_Arabic_numerals): ٠١٢٣٤٥٦٧٨٩. Your regex `/[0-9]/` just failed. Your `parseInt()` broke. Credit card validation rejected legitimate cards.
 
 **"What if this color means death?"**  
 White = death in China, red = danger in the West but luck in Asia. Your "friendly" yellow warning might mean cowardice in some cultures. [Color psychology varies dramatically](https://www.shutterstock.com/blog/color-symbolism-and-meanings-around-the-world).
