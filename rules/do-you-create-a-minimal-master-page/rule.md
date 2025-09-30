@@ -48,7 +48,7 @@ To create a minimal master page
 3. Double-click Master Page to create a new master page.
 4. Click Design to show the master page in design view. You should see header and left margin areas and several content placeholders in the master page.
 5. Click Code to show the master page in code view.
-6. Copy the code into the master page   
+6. Copy the code into the master page
 
 Learn more on [creating a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint).
 
