@@ -11,8 +11,7 @@ authors:
 related: []
 redirects: []
 created: 2009-06-18T06:46:53.000Z
-archivedreason: This rule should be archived as no one really creates
-  masterpages anymore - classic pages using Master Pages are considered old
+archivedreason: This rule should be archived as no one really creates masterpages anymore - classic pages using Master Pages are considered old.
 guid: 591f621f-a7fb-4ff3-b86d-4ca3fbc085e1
 ---
 
@@ -49,11 +48,9 @@ To create a minimal master page
 3. Double-click Master Page to create a new master page.
 4. Click Design to show the master page in design view. You should see header and left margin areas and several content placeholders in the master page.
 5. Click Code to show the master page in code view.
-6. Copy the code into the master page  
+6. Copy the code into the master page   
 
-[SharePoint 2007 - How to: Create a Minimal Master Page](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2007/aa660698(v=office.12?WT.mc_id=DP-MVP-33518)?redirectedfrom=MSDN)  
-
-[SharePoint 2010 - Create a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint?redirectedfrom=MSDN&WT.mc_id=DP-MVP-33518)
+Learn more on [creating a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint).
 
 ``` cs
 <%@ Master language="C#" %> ... <html>     
@@ -84,7 +81,7 @@ To create a minimal master page
 ```
 
 ::: good
-Good example - using minimal master page
+Good example - Using minimal master page
 :::
 
 7. On the File menu, click Save As, provide a unique file name with the .master extension, and then save the file to the master page gallery (/\_catalogs/masterpage) in your site collection.
