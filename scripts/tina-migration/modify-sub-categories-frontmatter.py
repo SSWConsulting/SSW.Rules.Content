@@ -3,7 +3,18 @@ import glob
 import re
 from pathlib import Path
 
-def modify_category_files(categories_root='categories'):
+def modify_category_files(categories_root=None):
+    # Get the directory where this script is located
+    script_dir = Path(__file__).parent
+    # Go up two levels to get to the project root (from scripts/tina-migration/ to project root)
+    project_root = script_dir.parent.parent
+
+    # Default categories_root to the categories folder in the project root
+    if categories_root is None:
+        categories_root = project_root / 'categories'
+    else:
+        # If provided, make it relative to project root
+        categories_root = project_root / categories_root
     # Find all *.md files in subfolders of categories except index.md
     pattern = os.path.join(categories_root, '**', '*.md')
     md_files = glob.glob(pattern, recursive=True)
@@ -48,6 +59,7 @@ def modify_category_files(categories_root='categories'):
         if index_pos is not None:
             # Process index items
             new_index_lines = []
+            index_modified = False
             i = index_pos
             while i < len(new_fm_lines):
                 line = new_fm_lines[i]
@@ -55,7 +67,21 @@ def modify_category_files(categories_root='categories'):
                     new_index_lines.append(line)
                     i += 1
                     continue
-                
+
+                # Check if this is an empty line
+                if line.strip() == '':
+                    # Skip empty lines and continue
+                    new_index_lines.append(line)
+                    i += 1
+                    continue
+
+                # Check if this is a comment line
+                if re.match(r'^\s*#', line):
+                    # Skip comment lines and continue
+                    new_index_lines.append(line)
+                    i += 1
+                    continue
+
                 # Check if this is an index item
                 if re.match(r'^\s*-', line):
                     item = line.strip()[2:]  # Remove '- '
@@ -65,16 +91,18 @@ def modify_category_files(categories_root='categories'):
                         clean_item = item.replace('.md', '').strip("'\"")
                         new_line = f"{indent}- rule: public/uploads/rules/{clean_item}/rule.mdx"
                         new_index_lines.append(new_line)
+                        index_modified = True
                         needs_update = True
                     else:
                         new_index_lines.append(line)
                     i += 1
                 else:
                     break
-            
-            # Replace the index section if we made changes
-            if needs_update:
+
+            # Replace the index section if we made changes to the index
+            if index_modified:
                 new_fm_lines = new_fm_lines[:index_pos] + new_index_lines + new_fm_lines[i:]
+                needs_update = True
         
         # Only write back if changes were made
         if needs_update:
