@@ -86,7 +86,7 @@ Cursor's BugBot allows you to configure automatic code reviews for a specific re
 
 ### CodeRabbit
 
-[CodeRabbit](https://www.coderabbit.a) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. 
+[CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. 
 
 ::: img-medium
 ![Figure: CodeRabbit leaving a comment on a PR](coderabbit.webp)
