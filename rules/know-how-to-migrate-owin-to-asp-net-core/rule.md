@@ -68,4 +68,4 @@ Figure: Basic OWIN CORS example ported to ASP.NET Core.
 
 ## Third-Party Authentication
 
-A common use for OWIN was to provide access to [third-party authentication sources](/choosing-authentication/). [AspNet.Security.OAuth.Providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers) is a collection of security middleware that works natively in ASP.NET Core to support authentication sources such as GitHub and Azure DevOps. The full list of providers is published [here](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#providers), and the details of the migration differ from provider to provider.
+A common use for OWIN was to provide access to [third-party authentication sources](/choosing-authentication/). [AspNet.Security.OAuth.Providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers) is a collection of security middleware that works natively in ASP.NET Core to support authentication sources such as GitHub and Azure DevOps. See the [full list of providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#providers), and the details of the migration differ from one provider to another.
