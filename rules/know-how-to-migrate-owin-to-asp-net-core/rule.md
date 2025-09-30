@@ -19,7 +19,7 @@ Middleware and module registering functionality are now core features of ASP.NET
 
 ## CORS functionality
 
-CORS functionality was enabled in OWIN with the [UseCors(...)](https://learn.microsoft.com/en-us/previous-versions/aspnet/mt181143(v=vs.113?WT.mc_id=DT-MVP-33518)) extension method. For ASP.NET Core, it is provided by the [UseCors(...)](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.corsmiddlewareextensions.usecors?view=aspnetcore-7.0#microsoft-aspnetcore-builder-corsmiddlewareextensions-usecors(microsoft-aspnetcore-builder-iapplicationbuilder&WT.mc_id=DT-MVP-33518)) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
+CORS functionality was enabled in OWIN with the `UseCors(...)` extension method. For ASP.NET Core, it is provided by the [UseCors(...)](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-9.0) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
 
 ```cs
 public void Configuration(Owin.IAppBuilder app) {
