@@ -7,7 +7,8 @@ seoDescription: Cold emails don’t exist to book meetings, they exist to start
   run   a 3-email sequence that consistently earns replies.
 uri: do-you-do-cold-emailing-right
 authors:
-  - title: ""
+  - title: Louis Roa
+    url: https://ssw.com.au/people/louis-roa
 created: 2025-09-29T15:20:00.000Z
 guid: b8dfcdda-64a9-445b-a98d-cfae421b1a3e
 ---
@@ -15,7 +16,7 @@ You write a “perfect” cold email, hit send… and get silence. So you push h
 
 The problem isn’t that email “doesn’t work”, it’s that you aimed at the wrong target. The goal of a cold email is **not** to pitch, demo, or close. The goal is a **reply** that starts a buying conversation.
 
-Aim for *a response*, and your subject lines, body, and CTAs all get sharper, and your Sales pipeline gets healthier.  
+Your subject lines, body, and CTAs should all be focussed on just getting a response.  
 
 <!--endintro-->
 
@@ -23,31 +24,31 @@ Aim for *a response*, and your subject lines, body, and CTAs all get sharper, an
 ## The mindset: replies over meetings
 
 
-**Don’t aim for:** ❌ value dump ❌ demo request ❌ “15–30 mins on your calendar?”
+**Don’t aim for:** 
+❌ value dump 
+❌ demo request 
+❌ “15–30 mins on your calendar?”
 
-**Do aim for:** a short, relevant note that earns a quick “yes,” “no,” or “tell me more.”
+**Do aim for:** 
+✅ A short, relevant note that earns a quick “yes,” “no,” or “tell me more.”
 
 
 ## Personalization + relevance (by lead quality)
 
-
 Not every prospect deserves the same effort. Tier your list and match your personalization.
-
-
 
 | Tier  | Who                             | Effort           | Personalization focus                                            |
 | ----- | ------------------------------- | ---------------- | ---------------------------------------------------------------- |
-| **1** | High-value ICP, decision-makers | 1:1 research     | Mutual context, interests, timely initiatives, intent            |
-| **2** | Good-fit ICP                    | Semi-automated   | Industry pain, recent triggers (funding, hiring, tech, location) |
+| **1** | High-value lead, decision-makers | 1:1 research    | Mutual context, interests, timely initiatives, buying intent     |
+| **2** | Good-fit lead                   | Semi-automated   | Industry pain, recent triggers (funding, hiring, tech, location) |
 | **3** | Everyone else                   | Mostly automated | First name, company, role-based pains                            |
-
 
 ![Figure: Prioritize effort. More 1:1 at the top, more segmentation at the bottom.](lead-pyramid.png)
 
 Source: [Apollo.io](https://www.apollo.io/academy/guides/pipeline-generation/cold-emailing)
 
-## Anatomy of a cold email
 
+## Anatomy of a cold email
 
 1. **Subject:** Craft a subject line that interrupts their inbox autopilot. For top-tier prospects, use hyper-personalization with details so specific *only they would understand,* creating a powerful **curiosity gap**. For broader outreach, you can use personalization tokens like company name to increase open rates
 
@@ -55,7 +56,7 @@ Source: [Apollo.io](https://www.apollo.io/academy/guides/pipeline-generation/col
 
 3. **Value:** Immediately **connect *their* problem to *your* specific benefit** (no feature dump) Avoid a generic list of your product's features and instead focus on the tangible, personalized value you can provide them.
 
-4. **CTA:** one soft, easy question (no calendar yet). The goal is to make replying feel effortless. Focus on starting a conversation.
+4. **CTA:** One soft, easy question (no calendar yet). The goal is to make replying feel effortless. Focus on starting a conversation.
 
 5. **Length:** Keep emails concise, ideally **between 50 and 125 words**, as this range sees the highest response rates. T1 (first email) can be longer if it’s truly personal.   Allocate your effort accordingly: spend the most time on hyper-personalized emails for your most valuable prospects and use smart automation with some personalization for lower-tier leads.
 
@@ -83,7 +84,7 @@ Best regards,
 Josh
 :::
 ::: bad
-❌ Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored
+Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored
 :::
 
 
@@ -112,7 +113,7 @@ Cheers,
 Josh
 :::
 ::: good
-✅ Good Example - Short, segmented template: pain → proof → small ask
+Good Example - Short, segmented template: pain → proof → small ask
 :::
 
 
@@ -123,17 +124,17 @@ Josh
 
 
 ::: greybox
-Subject: Zurich + Le Dip cheeseburger + {{Your Company}}
+Subject: Le Dip cheeseburger + {{Your Company}}
 
 
-Hi Sam, your post on 🇨🇭 roots + that Le Dip burger made me smile.
-Noticed you’re hiring 3 CSMs while launching in EU. Teams I help cut onboarding time ~30% by unifying playbooks and usage data.
-
+Hi Sam, 
+Your post on LinkedIn about the new Le Dip burger made me smile.
+I noticed you’re hiring 3 CSMs while launching in EU. Teams I help cut onboarding time ~30% by unifying playbooks and usage data.
 
 Worth a quick reply if “faster ramp before Q4” is on your list? If not, I’ll leave you in peace.
 :::
 ::: good
-Figure: ✅ Personal detail + timely company priority + soft, single-question CTA
+Figure: Personal detail + timely company priority + soft, single-question CTA
 :::
 
 
@@ -144,14 +145,14 @@ Figure: ✅ Personal detail + timely company priority + soft, single-question CT
 Subject: For {{Company}}’s printing leads
 
 
-Hi {{FirstName}}, printing services often lose local search traffic to aggregators.\
+Hi {{FirstName}}, 
+Printing services often lose local search traffic to aggregators.
 We’ve helped peers lift inbound quotes 10–20% by fixing GMB + service pages.
-
 
 Open to a quick reply if local visibility is a 2025 focus for you?
 :::
 ::: good
-Figure: ✅ Industry-specific pain + outcome + 1 easy question
+Figure: Industry-specific pain + outcome + 1 easy question
 :::
 
 
@@ -160,12 +161,10 @@ Figure: ✅ Industry-specific pain + outcome + 1 easy question
 
 ### 1) The personalized introduction
 
-
 Use one of the templates above. End with a single question.
 
 
 ### 2) The follow-up (reply in-thread)
-
 
 Keep it to one line. No “just checking in.”
 
@@ -174,18 +173,17 @@ Keep it to one line. No “just checking in.”
 Hi {{FirstName}} — curious if “faster ramp before Q4” is on the list?
 :::
 ::: good
-Figure: ✅ Short, direct restatement of the original question
+Figure: Short, direct restatement of the original question
 :::
 
 
 ### 3) The breakup (pattern interruption + give an out)
 
-
 Re-state value → playful P.S. → permission to say “no.”
 
 
 ::: greybox
-If speeding up onboarding isn’t a priority this quarter, happy to close the loop.\
+If speeding up onboarding isn’t a priority this quarter, happy to close the loop.
 P.S. If you’re already buried in onboarding fires, just reply with “no” and I’ll vanish faster than free snacks. No hard feelings. 🙂
 :::
 ::: good
@@ -195,7 +193,7 @@ Figure: ✅ Pattern interruption in the P.S. earns smiles and replies
 
 ## Keep it human (AI is co-pilot, not autopilot)
 
-AI can help you brainstorm variants, but raw AI copy reads… like AI. Use it to draft, then **humanize**: add one real detail, cut flab, end with a question, the crucial step is to infuse them with genuine, human details.
+AI can help you brainstorm variants, but raw AI copy reads… like AI. Use it to draft, then **humanize**: Add one real detail, cut flab, end with a question, the crucial step is to infuse them with genuine, human details.
 
 ---
 
@@ -203,7 +201,7 @@ AI can help you brainstorm variants, but raw AI copy reads… like AI. Use it to
 
 A practical framework for putting this philosophy into action:
 
-| **Do** | **Don't** |
+| **✅ Do** | **❌ Don't** |
 | :--- | :--- |
 | **Research First:** Always lead with insight, especially for high-value (Tier 1) prospects. | **Paste Your Pitch:** An email is not the place for your full sales deck. |
 | **Focus on Them:** Frame your message around *their* problem and the specific outcome you can help them achieve. | **Ask for Too Much:** A 30-minute meeting is a big ask from a stranger. Start smaller. |
