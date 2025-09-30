@@ -121,14 +121,15 @@ Google Translate, while advanced, often struggles to produce accurate translatio
 
 **[Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions):** tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.  
 Example:
+
 ```html
 <link rel="alternate" hreflang="de-DE" href="https://example.com/de/">
 ```
 
 **Search Engine Differences:** Don’t assume Google rules everywhere.
-- [Baidu](https://www.baidu.com/) dominates China (70% market share) and requires an ICP license
-- [Yandex](https://yandex.com/) owns Russia (60%) and favors .ru domains
-- [Naver](https://www.naver.com/) rules South Korea with its own SEO rules
+* [Baidu](https://www.baidu.com/) dominates China (70% market share) and requires an ICP license
+* [Yandex](https://yandex.com/) owns Russia (60%) and favors .ru domains
+* [Naver](https://www.naver.com/) rules South Korea with its own SEO rules
 
 ### Performance Geography
 
