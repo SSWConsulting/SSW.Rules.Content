@@ -2,7 +2,7 @@
 seoDescription: 
 type: rule
 title: Kingdee - Do you know how to set up auxiliary accounting for Accounts Receivables? (China only)
-uri: Do-you-know-how-to-set-up-auxiliary-accounting?
+uri: set-up-auxiliary-accounting
 authors:
   - title: Clara Fang
     url: https://www.ssw.com.au/people/clara-fang
