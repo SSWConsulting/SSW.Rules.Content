@@ -198,6 +198,6 @@ NOTE: Make sure your .csproj is correctly configured. Don't use
 
 As a final resort, you can use **`System.Web`** adapters. These allow you to access **`HttpContext.Current`** without needing to port the code. Be aware that while this might seem like an easy solution, not all projects have been able to adopt this without issues. Therefore, it should only be used as a last resort if all other options fail.
 
-Please refer to the official Microsoft documentation on [System.Web adapters | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/migration/inc/adapters?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) for more details.
+Please refer to the official Microsoft documentation on [System.Web adapters | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/migration/fx-to-core/inc/systemweb-adapters?view=aspnetcore-9.0) for more details.
 
 NOTE: The above strategies are not mutually exclusive and can be combined depending on your specific needs and constraints. The goal is to make your code more adaptable and ready for the migration to .NET or .NET Standard.
