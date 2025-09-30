@@ -26,29 +26,9 @@ When you have a denormalized field, use a computed column. In SQL Server they ca
 
 Use the suffix "Computed" to clearly distinguish that this field is a computed field.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - This field was manually updated from code in the middle tier.",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg"
-/>
+![Bad Example - This field was manually updated from code in the middle tier.](/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg)
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - There was no code in the middle tier to calculate this (and it has the correct name)",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
-/>
+![Good Example - There was no code in the middle tier to calculate this (and it has the correct name)](/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg)
   </>}
 />
 Computed columns have some limitations - they cannot access fields in other tables, or other computed fields in the current table.

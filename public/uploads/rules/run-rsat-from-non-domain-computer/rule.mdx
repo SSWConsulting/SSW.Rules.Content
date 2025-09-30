@@ -41,12 +41,17 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
 
 The least secure way is to use Remote Desktop Connection to make changes directly on the domain controller. Domain controllers should be locked down to only accept log ins from domain admin accounts - and should only be used when changes require these credentials.
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Bad example - RDP directly to the domain controller\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png\"\n/>",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - RDP directly to the domain controller",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png"
+/>
 
 Another option is to connect to a different computer or server that is on the domain, like a jump box. This is a more secure solution, but for many companies it adds infrastructure that is not necessary.
 

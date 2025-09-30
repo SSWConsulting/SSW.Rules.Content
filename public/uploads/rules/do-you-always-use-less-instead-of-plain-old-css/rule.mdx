@@ -31,19 +31,29 @@ Writing CSS is easy. Writing a lot of CSS can become unwieldy and unmanageable. 
 />
 The key advantage of using CSS pre-processors is nested selectors. Instead line after line of specific CSS selectors you can nest them and they will compile down for you. Check out this example:
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad Example: Using regular CSS, you repeat yourself a lot](/uploads/rules/do-you-always-use-less-instead-of-plain-old-css/RulesLESS - css.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example: Using regular CSS, you repeat yourself a lot",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-always-use-less-instead-of-plain-old-css/RulesLESS - css.png"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good Example: Using LESS, we can structure our CSS better](/uploads/rules/do-you-always-use-less-instead-of-plain-old-css/RulesLESS - less.png)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example: Using LESS, we can structure our CSS better",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-always-use-less-instead-of-plain-old-css/RulesLESS - less.png"
+/>
 
 The pre-processed CSS then compiles to the regular CSS shown above.
 

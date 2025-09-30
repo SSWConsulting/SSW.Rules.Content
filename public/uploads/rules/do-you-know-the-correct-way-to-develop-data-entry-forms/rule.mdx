@@ -33,7 +33,7 @@ Data Entrees should be able to use your data entry form with ease. It should fol
     figure: "Bad Example - New button should open another form, and Delete button should be on that new form",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/BadAddDeleteSubForm.gif"
+  src="/BadAddDeleteSubForm.gif"
 />
 
 ### 1. Multiple Form Instances
@@ -51,7 +51,7 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
     figure: "Good Example - Outlook opens multiple instances of the data entry form (email message)",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/Outlookemails.jpg"
+  src="/Outlookemails.jpg"
 />
 
 <imageEmbed
@@ -63,7 +63,7 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
     figure: "Good example - Each form instance is shown in the taskbar, and easily opened again",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/outlooktaskbar.jpg"
+  src="/outlooktaskbar.jpg"
 />
 
 A method of implementing this is through New and Delete buttons on the form.
@@ -81,7 +81,7 @@ The figure in Data Entry Drill Downs below illustrates this:
     figure: "Good example - New and Delete buttons docked in the Toolbar providing easy data entry for new Timesheets",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/GoodAddDeleteSubForm.jpg"
+  src="/GoodAddDeleteSubForm.jpg"
 />
 
 The Delete button resides there to make sure that Sally has seen the record before she deletes it. The New button should instantiate a new data entry form in add mode (as compared to "edit"), leaving the current one in the background.
@@ -117,7 +117,7 @@ If Cancel, then return back to the dirty form.
     figure: "Good example - Save Changes Dialog must appear when form is dirty",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/SaveChangesDialog.jpg"
+  src="/SaveChangesDialog.jpg"
 />
 
 ### 3. Searching on the data entry
@@ -133,7 +133,7 @@ Do not add buttons for searching on the data entry form, create a new form for s
     figure: "Bad example - This implementation of a search utility is on the same form",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/BadSearch.gif"
+  src="/BadSearch.gif"
 />
 
 <imageEmbed
@@ -145,7 +145,7 @@ Do not add buttons for searching on the data entry form, create a new form for s
     figure: "Good example - This implementation of Search feature is on a separate form",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/SearchForm.gif"
+  src="/SearchForm.gif"
 />
 
 ### 4. No Delete Button for sub forms
@@ -161,7 +161,7 @@ When including a sub form in your main form (as shown in figure below), the only
     figure: "Good example - No Delete button for Sub forms",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/SubFormsExample.gif"
+  src="/SubFormsExample.gif"
 />
 
 ### 5. Validation
@@ -197,7 +197,7 @@ The reason for the above validation placement is that these events run in the fo
     figure: "Good example - Error Provider Icon next to a required field",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/ErrorProviderIconExample.jpg"
+  src="/ErrorProviderIconExample.jpg"
 />
 
 **Do not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
@@ -215,7 +215,7 @@ Make sure that the menu items are relevant to the current form. The main idea is
     figure: "Bad example - Action and Tools are irrelevant on this form",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/MenuBadExample.jpg"
+  src="/MenuBadExample.jpg"
 />
 
 <imageEmbed
@@ -227,7 +227,7 @@ Make sure that the menu items are relevant to the current form. The main idea is
     figure: "Good example - Menus are relevant",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/MenuGoodExample.jpg"
+  src="/MenuGoodExample.jpg"
 />
 
 In the above example, there are a couple of unused menus that have been inherited from the base form and not set to invisible.
@@ -287,7 +287,7 @@ A common UI to use for these fields can be seen in the example below. What we do
     figure: "Bad example - This form has no information to indicate who created this entry and who last modified it",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/BadCreatedUpdated.jpg"
+  src="/BadCreatedUpdated.jpg"
 />
 
 <imageEmbed
@@ -299,7 +299,7 @@ A common UI to use for these fields can be seen in the example below. What we do
     figure: "Good example - This form contains Created by/Updated by fields used in a standard control which is put into all forms",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/GoodCreatedUpdated.jpg"
+  src="/GoodCreatedUpdated.jpg"
 />
 
 An example of how to set the values for this user control is shown below.
@@ -325,7 +325,7 @@ Databinding is also available to be used with this user control.
     figure: "Data Binding using the Designer",
     shouldDisplay: true
   } }
-  src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/../../assets/CommonFieldsDB.gif"
+  src="/CommonFieldsDB.gif"
 />
 
 ### 9. Minimum Defaults

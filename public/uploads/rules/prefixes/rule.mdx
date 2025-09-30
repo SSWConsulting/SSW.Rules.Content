@@ -103,22 +103,38 @@ A page might have a category on a website, but when you look at it in Google res
 
 At a bare minimum, the context should be completely fleshed out in the title of a page. However, the gold standard is to use prefixes.
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example - There is no context provided in the title, it could be about subjects for Meetings, Conferences, Videos or something entirely different](/uploads/rules/prefixes/badexamplenocontext.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - There is no context provided in the title, it could be about subjects for Meetings, Conferences, Videos or something entirely different",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/prefixes/badexamplenocontext.png"
+/>
 
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - The context is included in the title",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/prefixes/okayexamplehascontext.png"
+/>
 
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "![OK example - The context is included in the title](/uploads/rules/prefixes/okayexamplehascontext.png)",
-  shouldDisplay: true
-} } />
-
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example - The prefix very clearly identifies the subject in the title](/uploads/rules/prefixes/goodexamplehascontextviaprefix.png)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - The prefix very clearly identifies the subject in the title",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/prefixes/goodexamplehascontextviaprefix.png"
+/>

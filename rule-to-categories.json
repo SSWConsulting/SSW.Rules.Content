@@ -347,8 +347,7 @@
         "rules-to-better-proposals"
     ],
     "have-a-strong-header-and-footer": [
-        "rules-to-better-proposals",
-        "rules-to-better-technical-documentation"
+        "rules-to-better-proposals"
     ],
     "have-a-table-summarizing-the-major-features-and-options": [
         "rules-to-better-proposals"
@@ -1942,6 +1941,9 @@
     "do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something": [
         "rules-to-better-powerpoint-presentations"
     ],
+    "presenter-icon": [
+        "rules-to-better-powerpoint-presentations"
+    ],
     "do-you-use-slido": [
         "rules-to-better-powerpoint-presentations"
     ],
@@ -1980,7 +1982,8 @@
         "rules-to-better-powerpoint-presentations"
     ],
     "use-qr-codes-for-urls": [
-        "rules-to-better-powerpoint-presentations"
+        "rules-to-better-powerpoint-presentations",
+        "rules-to-better-qr-code"
     ],
     "use-creative-commons-images": [
         "rules-to-better-powerpoint-presentations"
@@ -2079,6 +2082,10 @@
         "rules-to-better-technical-documentation",
         "rules-to-better-content-design"
     ],
+    "avoid-common-mistakes": [
+        "rules-to-better-technical-documentation",
+        "rules-to-better-content-design"
+    ],
     "avoid-repetition": [
         "rules-to-better-technical-documentation",
         "rules-to-better-content-design"
@@ -2093,47 +2100,12 @@
     "avoid-short-ambiguous-dates": [
         "rules-to-better-technical-documentation"
     ],
-    "avoid-common-mistakes": [
+    "use-digits-instead-of-words": [
+        "rules-to-better-technical-documentation"
+    ],
+    "make-numbers-more-readable": [
         "rules-to-better-technical-documentation",
-        "rules-to-better-content-design"
-    ],
-    "use-the-right-capitalization": [
-        "rules-to-better-technical-documentation"
-    ],
-    "how-to-capitalize-titles": [
-        "rules-to-better-technical-documentation",
-        "rules-to-better-content-design"
-    ],
-    "scrum-should-be-capitalized": [
-        "rules-to-better-technical-documentation"
-    ],
-    "use-will-not-should": [
-        "rules-to-better-technical-documentation"
-    ],
-    "user-authentication-terms": [
-        "rules-to-better-technical-documentation",
-        "rules-to-better-interfaces-forms"
-    ],
-    "use-try-again-instead-of-retry": [
-        "rules-to-better-technical-documentation"
-    ],
-    "commas-and-full-stops-always-should-have-1-space-after-them": [
-        "rules-to-better-technical-documentation"
-    ],
-    "dashes": [
-        "rules-to-better-technical-documentation"
-    ],
-    "use-lowercase-after-a-dash": [
-        "rules-to-better-technical-documentation"
-    ],
-    "screenshots-tools": [
-        "rules-to-better-technical-documentation"
-    ],
-    "borders-around-white-images": [
-        "rules-to-better-technical-documentation"
-    ],
-    "use-correct-symbols-when-documenting-instructions": [
-        "rules-to-better-technical-documentation"
+        "rules-to-better-interfaces-general-usability-practices"
     ],
     "prefixes": [
         "rules-to-better-technical-documentation",
@@ -2149,24 +2121,7 @@
     "placeholder-for-replaceable-text": [
         "rules-to-better-technical-documentation"
     ],
-    "highlighting-important-contract-terms": [
-        "rules-to-better-technical-documentation"
-    ],
     "style-quotations": [
-        "rules-to-better-technical-documentation"
-    ],
-    "use-digits-instead-of-words": [
-        "rules-to-better-technical-documentation"
-    ],
-    "make-numbers-more-readable": [
-        "rules-to-better-technical-documentation",
-        "rules-to-better-interfaces-general-usability-practices"
-    ],
-    "address-formatting": [
-        "rules-to-better-technical-documentation",
-        "rules-to-better-websites-layout-and-formatting"
-    ],
-    "refer-consistently-throughout-your-document": [
         "rules-to-better-technical-documentation"
     ],
     "descriptive-links": [
@@ -2174,9 +2129,50 @@
         "rules-to-better-websites-navigation",
         "rules-to-better-google-rankings-and-seo"
     ],
-    "create-friendly-short-urls": [
+    "use-correct-symbols-when-documenting-instructions": [
+        "rules-to-better-technical-documentation"
+    ],
+    "address-formatting": [
         "rules-to-better-technical-documentation",
-        "rules-to-better-social-media-for-business"
+        "rules-to-better-websites-layout-and-formatting"
+    ],
+    "use-the-right-capitalization": [
+        "rules-to-better-technical-documentation"
+    ],
+    "how-to-capitalize-titles": [
+        "rules-to-better-technical-documentation",
+        "rules-to-better-content-design"
+    ],
+    "scrum-should-be-capitalized": [
+        "rules-to-better-technical-documentation"
+    ],
+    "commas-and-full-stops-always-should-have-1-space-after-them": [
+        "rules-to-better-technical-documentation"
+    ],
+    "dashes": [
+        "rules-to-better-technical-documentation"
+    ],
+    "use-lowercase-after-a-dash": [
+        "rules-to-better-technical-documentation"
+    ],
+    "user-authentication-terms": [
+        "rules-to-better-technical-documentation",
+        "rules-to-better-interfaces-forms"
+    ],
+    "use-will-not-should": [
+        "rules-to-better-technical-documentation"
+    ],
+    "use-try-again-instead-of-retry": [
+        "rules-to-better-technical-documentation"
+    ],
+    "screenshots-tools": [
+        "rules-to-better-technical-documentation"
+    ],
+    "borders-around-white-images": [
+        "rules-to-better-technical-documentation"
+    ],
+    "refer-consistently-throughout-your-document": [
+        "rules-to-better-technical-documentation"
     ],
     "how-to-name-documents": [
         "rules-to-better-technical-documentation",
@@ -2200,6 +2196,9 @@
     "end-user-documentation": [
         "rules-to-better-technical-documentation"
     ],
+    "highlighting-important-contract-terms": [
+        "rules-to-better-technical-documentation"
+    ],
     "architectural-decision-records": [
         "rules-to-better-technical-documentation",
         "rules-to-better-architecture-and-code-review"
@@ -2212,10 +2211,6 @@
     ],
     "copy-text-from-image": [
         "rules-to-better-technical-documentation"
-    ],
-    "support-send-links": [
-        "rules-to-better-technical-documentation",
-        "rules-to-successful-projects"
     ],
     "salary-sacrificing": [
         "rules-to-better-accounting"
@@ -3397,6 +3392,9 @@
     "hard-tasks-first": [
         "rules-to-successful-projects"
     ],
+    "support-send-links": [
+        "rules-to-successful-projects"
+    ],
     "wcag-compliance": [
         "rules-to-better-accessibility"
     ],
@@ -4146,6 +4144,10 @@
     ],
     "do-you-use-the-right-anchor-names": [
         "rules-to-better-websites-navigation"
+    ],
+    "heading-to-anchor-targets": [
+        "rules-to-better-websites-navigation",
+        "rules-to-better-websites-development"
     ],
     "add-callable-link": [
         "rules-to-better-websites-navigation"
@@ -5340,7 +5342,8 @@
         "rules-to-better-branding"
     ],
     "branding-is-more-than-logo": [
-        "rules-to-better-branding"
+        "rules-to-better-branding",
+        "rules-to-better-marketing"
     ],
     "set-design-guidelines": [
         "rules-to-better-branding"
@@ -5612,8 +5615,7 @@
         "rules-to-better-google-rankings-and-seo"
     ],
     "spelling-do-you-use-us-english": [
-        "rules-to-better-google-rankings-and-seo",
-        "rules-to-better-marketing"
+        "rules-to-better-google-rankings-and-seo"
     ],
     "html-meta-tags": [
         "rules-to-better-google-rankings-and-seo"
@@ -5964,6 +5966,10 @@
     ],
     "text-limit-for-images": [
         "rules-to-better-social-media-for-business"
+    ],
+    "create-friendly-short-urls": [
+        "rules-to-better-social-media-for-business",
+        "rules-to-better-websites-development"
     ],
     "post-using-social-media-management-tools": [
         "rules-to-better-social-media-for-business"
@@ -6415,6 +6421,9 @@
     ],
     "does-your-navigation-device-support-touch": [
         "rules-to-better-cars"
+    ],
+    "create-azure-marketplace-offer": [
+        "rules-to-better-azure-marketplace"
     ],
     "do-you-check-your-workspaces-when-defining-a-new-build": [
         "rules-to-better-branching-and-builds"
@@ -8677,6 +8686,9 @@
     ],
     "share-code-using-packages": [
         "rules-to-better-installers"
+    ],
+    "why-your-website-might-break-for-global-users": [
+        "rules-to-better-internationalization"
     ],
     "do-you-know-why-you-should-chinafy-your-app": [
         "rules-to-better-internationalization"

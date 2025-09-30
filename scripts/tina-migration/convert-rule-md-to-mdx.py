@@ -52,7 +52,8 @@ IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g
 # ----------------------------- #
 
 YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
-IMAGE_BLOCK_REGEX = r'::: (bad|ok|good)\s+(!\[Figure:.*?\]\(.*?\))\s+:::'
+# IMAGE_BLOCK_REGEX = r'::: (bad|ok|good)\s+(!\[Figure:.*?\]\(.*?\))\s+:::'
+IMAGE_BLOCK_REGEX = r':::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))\s+:::'
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 EMAIL_BLOCK_REGEX = (
     r'::: email-template\s+(.*?)'
@@ -146,7 +147,7 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 def convert_mark_tags_to_md_highlight(text: str) -> str:
     return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -170,6 +171,24 @@ def add_prefix_if_relative(raw_src: str, src_prefix: str) -> str:
     if clean.startswith('/') or re.match(r'https?://', clean, flags=re.IGNORECASE):
         return clean
     return f"{src_prefix}/{clean}"
+
+def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
+    image_line = m.group(2)
+    def _repl(md_img_m):
+        alt = md_img_m.group(1).strip()
+        raw_src = md_img_m.group(2).strip()
+        new_src = add_prefix_if_relative(raw_src, src_prefix)
+        return f'![{alt}]({new_src})'
+    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
+
+def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
+    body = m.group(2)
+    def _repl(md_img_m):
+        alt = md_img_m.group(1).strip()
+        raw_src = md_img_m.group(2).strip()
+        new_src = add_prefix_if_relative(raw_src, src_prefix)
+        return f'![{alt}]({new_src})'
+    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
 
 
 # ----------------------------- #
@@ -210,7 +229,7 @@ def wrap_intro_embed(m):
 def replace_image_block(m, src_prefix):
     preset = m.group(1).strip()
     image_line = m.group(2).strip()
-    alt_match = re.match(r'!\[Figure:\s*(.*?)\]\((.*?)\)', image_line)
+    alt_match = re.match(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', image_line)
     if not alt_match:
         return m.group(0)
     figure = alt_match.group(1).strip()
@@ -574,10 +593,15 @@ def transform_md_to_mdx(file_path):
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
     content = re.sub(PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
-    content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
+
+    def _replace_image_block_conditional(m):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+            return keep_image_block_with_prefixed_src(m, src_prefix)
+        return replace_image_block(m, src_prefix)
+    content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.DOTALL)
+
     content = transform_email_blocks(content)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
-    # content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
 
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
@@ -585,7 +609,16 @@ def transform_md_to_mdx(file_path):
         return replace_standalone_image(m, src_prefix)
     content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
 
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
+    def _replace_simple_figure_block_conditional(m):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+            body = m.group(2)
+            if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
+                return keep_simple_block_with_prefixed_images(m, src_prefix)
+            return m.group(0)
+        return replace_simple_figure_block(m)
+    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.DOTALL)
+
+
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
 
     content = convert_angle_bracket_links(content)

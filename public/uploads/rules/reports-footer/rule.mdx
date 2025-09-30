@@ -33,19 +33,29 @@ Include:
 3. Page x of y (e.g. Page 3 of 10)
 4. Link to company website + slogan (e.g. `www.ssw.com.au` - Enterprise Sopftware Development)
 
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example - This footer doesn't provide any useful information](/uploads/rules/reports-footer/RSRulesBadFooter.gif)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - This footer doesn't provide any useful information",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/reports-footer/RSRulesBadFooter.gif"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example - Useful and informative information should be displayed in your report footer](/uploads/rules/reports-footer/RSRulesGoodFooter.gif)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Useful and informative information should be displayed in your report footer",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/reports-footer/RSRulesGoodFooter.gif"
+/>
 
 Use these handy report expressions to show the above information.
 

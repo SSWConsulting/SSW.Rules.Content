@@ -27,19 +27,29 @@ isArchived: false
 Instead of images sitting all around the solution, we put all the images in the same folder.
   </>}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "![Bad example - Images under Product root folder.](/uploads/rules/do-you-put-all-images-in-the-images-folder/../../assets/ImageLinkBad.gif)",
-  shouldDisplay: true
-} } />
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Images under Product root folder.",
+    shouldDisplay: true
+  } }
+  src="/ImageLinkBad.gif"
+/>
 
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "![Good example - Images under \\Images folder.](/uploads/rules/do-you-put-all-images-in-the-images-folder/../../assets/ImageLinkGood.gif)",
-  shouldDisplay: true
-} } />
-
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Images under \\Images folder.",
+    shouldDisplay: true
+  } }
+  src="/ImageLinkGood.gif"
+/>
 
 | We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
 | ----------------------------------------------------------------------------------------------------------------------- |
