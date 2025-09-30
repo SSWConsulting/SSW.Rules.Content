@@ -47,7 +47,7 @@ Figure: The migrated configuration to ASP.NET Core
 
 ### Namespaces
 
-The [`<pages>/<namespaces>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms164642(v=vs.100?WT.mc_id=DT-MVP-33518)) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
+The [`<pages>/<namespaces>`](https://learn.microsoft.com/en-us/windows/win32/wsdapi/namespace) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
 
 ### HTTP Handler Routes
 
