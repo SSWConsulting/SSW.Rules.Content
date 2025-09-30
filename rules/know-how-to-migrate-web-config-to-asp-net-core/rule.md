@@ -55,7 +55,7 @@ The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/aspne
 
 ### HTTP Modules
 
-The [`<httpModules>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/9b9dh535(v=vs.100?WT.mc_id=DT-MVP-33518)) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
+The [`<httpModules>`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/development/http-modules-handlers) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
 
 ## Custom Configuration Values
 
