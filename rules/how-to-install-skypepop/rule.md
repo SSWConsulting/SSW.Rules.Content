@@ -46,7 +46,7 @@ Only receptionists should have SkypePOP installed.
 
 `youtube: https://www.youtube.com/embed/5tapdkp1vDg`
 
-1. Download and install [SkypePOP](https://www.skypepop.com/)
+1. Download and install SkypePOP
 
 2. Open the **Connections** settings
 
