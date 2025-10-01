@@ -23,15 +23,15 @@ So you have a shiny PowerPoint deck with heaps of great content, and you know wh
 
 You need to practice it so that you know your stuff backwards as well as forwards.
 
+<!--endintro-->
+
 `youtube: https://youtu.be/jPwNwNdE7pE`
 
 ::: good
-**Figure: Good example - you need to practice your content forwards and backwards to be as good as Victor Borge.**
+**Figure: Good example - You need to practice your content forwards and backwards to be as good as Victor Borge.**
 :::
 
 These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh Giang](https://www.vinhgiang.com/)):
-
-<!--endintro-->
 
 1. Record the "Test Please"
 2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video)
@@ -61,7 +61,7 @@ Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted wor
 
 5. Practice by cutting out unnecessary repetition and filler words
 
-### PowerPoint's "Rehearse with Coach"
+## PowerPoint's "Rehearse with Coach"
 
 You can use PowerPoint's built-in AI "Rehearse with Coach" to get help with some of the above. It gives you instant feedback on how fast you are talking and what language you are using, so you can avoid unwanted words. In the video below Mike Tholfsen shows you how to use the feature and what feedback you get.
 
