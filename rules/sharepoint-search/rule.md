@@ -24,13 +24,14 @@ guid: 34637e83-ce1f-46db-896c-0a639ae0c28b
 
 SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.
 
+<!--endintro-->
+
 Here are some tips for performing searches:
 
-### Know how to navigate SharePoint search – watch this video
+## How to navigate SharePoint search
 
 `youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
-
-<!--endintro-->
+**Video: Why SharePoint Search is Awesome! How to use SharePoint Search | Jean Thirion (4 min)**
 
 * Use the categories (top)
 * Use the filters (right navigation / faceted search)
@@ -49,10 +50,12 @@ Example of properties you can use (common ones);
 * ModifiedBy:
 * Title:
 
-**More:** <https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions?WT.mc_id=M365-MVP-33518>
+**More:** [Keyword queries and search conditions for eDiscovery](https://learn.microsoft.com/en-us/purview/ediscovery-keyword-queries-and-search-conditions?WT.mc_id=M365-MVP-33518)
 
 ![Figure: Example of using Filetype: filter](filter-sharepoint-example.png)  
-Use Boolean OR and AND operators
+
+### Use Boolean OR and AND operators
+
 Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "sharepoint AND search".
 
 ::: greybox
