@@ -43,49 +43,48 @@ If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, an
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-- **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.
-- **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???.”
-- **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction.  
-- **Names & forms**: Some cultures have one name, some have none that fit “first/last.” 
-- **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money.  
-- **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users.  
-- **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are. 
+* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.
+* **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???.”
+* **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction.  
+* **Names & forms**: Some cultures have one name, some have none that fit “first/last.”
+* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money.  
+* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users.  
+* **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are.
 
 ![Figure: Arabic Facebook homepage](facebook_arabic.png)
 
-
 ## 2. General Tips & Best Practices
 
-- **Design elastic UIs**  
+* **Design elastic UIs**  
   ✅ Use flex layouts, `min-width`, `word-break`  
   ❌ Don’t hardcode pixel widths for buttons or labels  
 
-- **Use Unicode everywhere**  
+* **Use Unicode everywhere**  
   ✅ UTF-8 end-to-end (DB, API, frontend)  
   ❌ No assumptions about ASCII-only inputs  
 
-- **Plan for RTL**  
+* **Plan for RTL**  
   ✅ Test with `direction: rtl;` CSS  
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
-- **Simplify forms**  
+* **Simplify forms**  
   ✅ Use a single “Full Name” field, or make name parts optional  
   ❌ Never force “First Name / Last Name” globally  
 
-- **Localize time & numbers properly**  
+* **Localize time & numbers properly**  
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
   ❌ Don’t parse strings manually
 
-- **SEO & URLs**  
+* **SEO & URLs**  
   ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
   ✅ Configure hreflang tags correctly  
-  ✅ Research local search engines (Baidu, Yandex, Naver) 
+  ✅ Research local search engines (Baidu, Yandex, Naver)
 
-- **Check cultural assumptions**  
+* **Check cultural assumptions**  
   ✅ Test color/icon choices with local users (white = death in China)  
   ❌ Don’t assume Western metaphors apply everywhere  
 
-- **Optimize performance globally**  
+* **Optimize performance globally**  
   ✅ Use a CDN close to your users  
   ✅ Subset fonts or use system fonts  
   ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
@@ -94,40 +93,37 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
 :::
 
-
 ## 3. Useful Tools
 
-- **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
-- **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
-- **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
-- **Angular i18n / ngx-translate**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
-
+* **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
+* **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
+* **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
+* **Angular i18n / ngx-translate**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
 ## 4. Internationalization helped by AI
 
 ### Exploring AI Agents in i18n
 
-Check the video below that explores how AI agents combined with translation APIs can transform internationalization (i18n) workflows. I present three concrete scenarios tested to evaluate the real utility of agents: improving raw translations, internationalizing a monolingual site, and automating a complete workflow. 
+Check the video below that explores how AI agents combined with translation APIs can transform internationalization (i18n) workflows. I present three concrete scenarios tested to evaluate the real utility of agents: improving raw translations, internationalizing a monolingual site, and automating a complete workflow.
 The conclusion is that agents work best as "enthusiastic junior assistants" that accelerate repetitive tasks but still require human supervision for quality and context.
 
 `youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (18 min)**
 
-
 **Scenario 1 — Improving translations via agents**
-- Quality can improve through iterative reflection or specialized agents, but gains are inconsistent
-- Token costs and latency are high (e.g., 34 seconds and 3000+ tokens for a single line)
-- A single pass with a strong translation API often equals or beats expensive multi-agent pipelines
+* Quality can improve through iterative reflection or specialized agents, but gains are inconsistent
+* Token costs and latency are high (e.g., 34 seconds and 3000+ tokens for a single line)
+* A single pass with a strong translation API often equals or beats expensive multi-agent pipelines
 
 **Scenario 2 — Internationalizing a monolingual site**
-- Agent scans code, proposes i18n keys, replaces hardcoded strings, and generates JSON resource files
-- More flexible than regex scripts for detecting strings in varied or unpredictable code patterns
-- Requires human oversight to validate keys, disambiguate translations, and ensure architectural consistency
- 
+* Agent scans code, proposes i18n keys, replaces hardcoded strings, and generates JSON resource files
+* More flexible than regex scripts for detecting strings in varied or unpredictable code patterns
+* Requires human oversight to validate keys, disambiguate translations, and ensure architectural consistency
+
 **Scenario 3 — Automating the complete translation workflow**
-- Agent extracts strings, generates machine translations, and populates a collaborative spreadsheet for human review
-- After human approval, agent automatically reintegrates final translations into resource files
-- MCPs (Model Capability Providers) simplify manipulation of spreadsheets and Git repos with high-level operations
+* Agent extracts strings, generates machine translations, and populates a collaborative spreadsheet for human review
+* After human approval, agent automatically reintegrates final translations into resource files
+* MCPs (Model Capability Providers) simplify manipulation of spreadsheets and Git repos with high-level operations
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
@@ -135,19 +131,18 @@ The conclusion is that agents work best as "enthusiastic junior assistants" that
 
 Here are some popular and practical solutions that most teams can adopt:
 
-- **Translation QA**  
+* **Translation QA**  
   Use AI models (e.g., GPT) to catch mistranslations in context.  
-  - Example: **[Lokalise AI LQA](https://docs.lokalise.com/en/articles/7945761-ai-lqa)** and **[Smartling AI Translation QA](https://www.smartling.com/)** integrate GPT to automatically review translations and flag errors.  
+  * Example: **[Lokalise AI LQA](https://docs.lokalise.com/en/articles/7945761-ai-lqa)** and **[Smartling AI Translation QA](https://www.smartling.com/)** integrate GPT to automatically review translations and flag errors.  
 
-- **Pseudolocalization & UX testing**  
+* **Pseudolocalization & UX testing**  
   Automatically generate pseudo-translations (extra-long text, special characters, RTL mirroring) to stress-test your UI.  
-  - Example: **Microsoft/Android pseudolocalization (`en-XA`, `ar-XB`)** and **[Applitools Visual AI](https://applitools.com/)** are widely used to reveal layout issues early.  
+  * Example: **Microsoft/Android pseudolocalization (`en-XA`, `ar-XB`)** and **[Applitools Visual AI](https://applitools.com/)** are widely used to reveal layout issues early.  
 
-- **Context-aware copywriting**  
+* **Context-aware copywriting**  
   Use AI to adapt tone, style, and terminology for different markets, instead of just translating literally.  
-  - Example: **[Phrase](https://phrase.com/)** and **[Lokalise](https://lokalise.com/)** offer GPT-powered copy assistance that helps teams create culturally appropriate content.  
+  * Example: **[Phrase](https://phrase.com/)** and **[Lokalise](https://lokalise.com/)** offer GPT-powered copy assistance that helps teams create culturally appropriate content.  
 
-- **Cultural review checks**  
+* **Cultural review checks**  
   AI can help flag potentially sensitive terms, icons, or symbols before launch.  
-  - Example: **[OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation)** or **[Perspective API](https://perspectiveapi.com/)** can be used to detect inappropriate or risky wording, with human review as a final step.  
-
+  * Example: **[OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation)** or **[Perspective API](https://perspectiveapi.com/)** can be used to detect inappropriate or risky wording, with human review as a final step.  
