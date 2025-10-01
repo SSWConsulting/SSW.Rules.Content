@@ -114,22 +114,39 @@ In this part, Ben Morss shows how an AI agent can internationalize a monolingual
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-### AI-powered solutions
 
-Here are some popular and practical solutions that most teams can adopt:
+### Choosing the Right i18n Strategy by Project Size
+Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
 
-* **Translation QA**  
-  Use AI models (e.g., GPT) to catch mistranslations in context.  
-  * Example: **[Lokalise AI LQA](https://docs.lokalise.com/en/articles/7945761-ai-lqa)** and **[Smartling AI Translation QA](https://www.smartling.com/)** integrate GPT to automatically review translations and flag errors.  
+#### 1. Small Project — Essentials (POC)  
+**Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
+**Stack:** Depends on your tech stack (for example use i18next for React, Angular i18n / ngx-translate for Angular project)
+✅ Cheap, fast, avoids future i18n debt  
+❌ Manual releases, limited scalability, brand/tone risks  
 
-* **Pseudolocalization & UX testing**  
-  Automatically generate pseudo-translations (extra-long text, special characters, RTL mirroring) to stress-test your UI.  
-  * Example: **Microsoft/Android pseudolocalization (`en-XA`, `ar-XB`)** and **[Applitools Visual AI](https://applitools.com/)** are widely used to reveal layout issues early.  
+#### 2. Medium Project — Step Further with TMS  
+**Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
+**Stack:** TMS + pseudolocalization tests.  
+✅ Centralized management, easier scaling, better consistency  
+❌ Licensing costs, more process overhead  
 
-* **Context-aware copywriting**  
-  Use AI to adapt tone, style, and terminology for different markets, instead of just translating literally.  
-  * Example: **[Phrase](https://phrase.com/)** and **[Lokalise](https://lokalise.com/)** offer GPT-powered copy assistance that helps teams create culturally appropriate content.  
+#### 3. Large Project — AI in CI/CD
+**Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
+**Stack:** CI/CD pipeline + TMS + LLM QA.  
+✅ 80/20 automation, faster releases, consistent quality  
+❌ Needs strong CI/CD setup, token costs, prompt governance  
 
-* **Cultural review checks**  
-  AI can help flag potentially sensitive terms, icons, or symbols before launch.  
-  * Example: **[OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation)** or **[Perspective API](https://perspectiveapi.com/)** can be used to detect inappropriate or risky wording, with human review as a final step.  
+#### 4. Enterprise Project — Full-Blown Live LLM Translation  
+**Approach:** Dynamic runtime translations (best for UGC, long-tail docs). Cache aggressively and use guardrails.  
+**Stack:** LLM API + caching + glossary/do-not-translate rules.  
+✅ Instant coverage, great for user content and fast-changing text  
+❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
+
+## Buyer’s Guide Table
+
+| Project Size       | Stack Suggestion                 | Why                                            | Caveats                                  |
+|--------------------|----------------------------------|------------------------------------------------|------------------------------------------|
+| Small project      | i18next, Angular i18n/ngx-translate| ✅ Cheapest way to get started, avoids i18n debt | ❌ Manual, hard to scale, tone issues     |
+| Medium project     | TMS (Phrase/Lokalise) + pseudoloc| ✅ Centralized control, consistent translations | ❌ Adds license cost + extra process      |
+| Large project      | TMS + CI/CD integration + AI QA  | ✅ Automation + speed, 80/20 human/AI workflow  | ❌ Needs mature CI/CD, token costs        |
+| Enterprise project | TMS for UI + Live LLM for content| ✅ Instant coverage for UGC + long-tail pages   | ❌ Latency, cost drift, SEO monitoring    |
