@@ -27,7 +27,7 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 <!--endintro-->
 
-Learn more on what happens at [Sprint Retrospective](/what-happens-at-retro-meetings), [Sprint Review](//what-happens-at-a-sprint-review-meeting), and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings.
+Learn more on what happens at [Sprint Retrospective](/what-happens-at-retro-meetings), [Sprint Review](/what-happens-at-a-sprint-review-meeting), and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings.
 
 ## Why record a summary of the Sprint Meeting?
 

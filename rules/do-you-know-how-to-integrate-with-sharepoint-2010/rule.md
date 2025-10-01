@@ -23,4 +23,4 @@ If you want to run SharePoint 2010 on the same box as TFS 2010 then make sure yo
 
 ### Multi-Server Deployment
 
-If you are going to have SharePoint 2010 on a separate server to your TFS 2010 then you will need to again run the Custom configuration wizard, but you will also need to [Integrate your SharePoint 2010 instance with TFS 2010](https://nkdagility.com/blog/integrate-sharepoint-2010-with-team-foundation-server-2010).
+If you are going to have SharePoint 2010 on a separate server to your TFS 2010 then you will need to again run the Custom configuration wizard, but you will also need to [Integrate your SharePoint 2010 instance with TFS 2010](https://nkdagility.com/resources/blog/integrate-sharepoint-2010-with-team-foundation-server-2010).
