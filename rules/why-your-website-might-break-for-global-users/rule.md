@@ -1,9 +1,9 @@
 ---
 type: rule
 tips: ""
-title: Do you know the importance of Internationalization?
+title: Do you know the challenges of i18n and how AI makes them easier?
 seoDescription: i18n, L10n, internationalization, localization, W3C standards
-uri: why-your-website-might-break-for-global-users
+uri: i18n-with-ai
 authors:
   - title: Gilles Pothieu
     url: https://www.ssw.com.au/people/gilles-pothieu
@@ -20,10 +20,12 @@ Amazon's Swedish website accidentally replaced "rooster" with the Swedish word f
 
 The [World Wide Web Consortium (W3C)](https://www.w3.org/International/) has been working on these problems since 1994, establishing standards that make the web work for everyone, everywhere. The difference between companies that successfully expand globally and those that retreat in embarrassment isn't translation quality, it's understanding the difference between building for one culture and architecting for all of them.
 
+The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), Netflix, Uber) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=-m9KHI1Fg0w`  
-**Video: Introduction to Internationalization -i18n (4mn)**
+**Video: Introduction to Internationalization -i18n (4 min)**
 
 ## The Expensive Confusion: i18n vs L10n
 
@@ -37,138 +39,115 @@ Think of it like building a house with modular plumbing that could handle any wa
 
 If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
 
-## The Hidden Complexity
+## 1. Common i18n Issues
 
-### Character Encoding: When Names Become Question Marks
+Here are the most frequent pitfalls developers encounter when scaling globally:
 
-A developer in Austin builds a contact form. Works perfectly, until, for instance, Björk tries to enter her name and it becomes "Bj?rk." Or when 田中さん submits information and your database stores "???."
-
-If your system can't handle a customer's actual name, they won't complain, they'll just leave.
-
-### The German Problem
-
-English: "Speed limit"  
-German: "Geschwindigkeitsbegrenzung"  
-Your button: 💥
-
-German text expands 30-40% on average. Russian text is wider. Chinese text is denser, four characters might need 20 English words to explain. Twitter had to rebuild their entire character [counting system](https://developer.twitter.com/en/docs/counting-characters) because 140 Latin characters ≠ 140 Chinese characters.
-
-### RTL: Everything Backwards
-
-Facebook's Arabic interfacemirrors everything. The logo stays the same but moves to the right. Progress bars fill right-to-left. Even shadows flip. Your back button? Now on the right.
+- **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.
+- **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???.”
+- **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction.  
+- **Names & forms**: Some cultures have one name, some have none that fit “first/last.” 
+- **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money.  
+- **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users.  
+- **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are. 
 
 ![Figure: Arabic Facebook homepage](facebook_arabic.png)
 
-Interesting article about mirroring design for Arabic users: <https://blog.prototypr.io/mirroring-how-to-design-for-arabic-users-a1dbcd3aa566>
 
-### Names: Your Form's Cultural Bias
+## 2. General Tips & Best Practices
 
-| **Culture** | **Name Structure** | **Your Form Fails Because...** |
-|-------------|-------------------|--------------------------------|
-| **Iceland** | Patronymic system | No family name exists |
-| **Indonesia** | Single name only | "Last name" is required |
-| **Netherlands** | Particles matter | "van der Berg" sorts under 'B' |
+- **Design elastic UIs**  
+  ✅ Use flex layouts, `min-width`, `word-break`  
+  ❌ Don’t hardcode pixel widths for buttons or labels  
 
-Airbnb's solution: Single "Full Name" field. They learned after losing bookings in markets where forms wouldn't accept local names.
+- **Use Unicode everywhere**  
+  ✅ UTF-8 end-to-end (DB, API, frontend)  
+  ❌ No assumptions about ASCII-only inputs  
 
-### Date Confusion Matrix
+- **Plan for RTL**  
+  ✅ Test with `direction: rtl;` CSS  
+  ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
-"03/04/2025" means:
+- **Simplify forms**  
+  ✅ Use a single “Full Name” field, or make name parts optional  
+  ❌ Never force “First Name / Last Name” globally  
 
-* Americans: "March 4th"
-* Europeans: "April 3rd"
-* Japanese: "What year era?"
+- **Localize time & numbers properly**  
+  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
+  ❌ Don’t parse strings manually
 
-A European product launch could easily see poor results if a discount is labeled to expire on “03/04,” since many customers might think the offer ended on 3 April rather than 4 March.
+- **SEO & URLs**  
+  ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
+  ✅ Configure hreflang tags correctly  
+  ✅ Research local search engines (Baidu, Yandex, Naver) 
 
-### Numbers: Where Commas Cost Millions
+- **Check cultural assumptions**  
+  ✅ Test color/icon choices with local users (white = death in China)  
+  ❌ Don’t assume Western metaphors apply everywhere  
 
-European enters "1.234" (one thousand)  
-American system reads "1.234" (one point two)  
-You've undercharged by 99.9%
+- **Optimize performance globally**  
+  ✅ Use a CDN close to your users  
+  ✅ Subset fonts or use system fonts  
+  ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
 
-[Indian numbering](https://en.wikipedia.org/wiki/Indian_numbering_system): 12,34,567  
-Swiss formatting: 1'234.56  
-Your DECIMAL(10,2) database column: Inadequate
-
-## Success Stories
-
-### **[Spotify's Smooth Expansion](https://www.nimdzi.com/lessons-in-localization-spotify-expanded/?utm_source=chatgpt.com)**
-
-Built i18n from day one. Payment methods auto-adapt: credit cards in US, SEPA in EU, carrier billing in emerging markets. Local music categories appear automatically.
-
-### Netflix's Content Strategy
-
-[Subtitles handle mid-sentence](https://partnerhelp.netflixstudios.com/hc/en-us/articles/217350977-English-USA-Timed-Text-Style-Guide?utm_source=chatgpt.com) direction changes. Thumbnail images change by local. Search understands local names for international content.
-
-### Uber's Market Adaptation
-
-Cash payments in India, prayer time considerations in Middle East and Female driver options where culturally significant.
-
-## Common Myths
-
-**"English Is Universal"**  
-[76% of consumers](https://csa-research.com/Blogs-Events/CSA-in-the-Media/Press-Releases/Consumers-Prefer-their-Own-Language?utm_source=chatgpt.com) won't buy in another language.
-
-**"Google Translate Is Good Enough"**  
-Google Translate, while advanced, often struggles to produce accurate translations because it lacks the ability to fully understand the context or cultural nuances of the text. As a result, Google Translate frequently produces translations that are [funny or confusing](https://www.indigoextra.com/blog/google-translate-funny-fails) rather than reliable, making it unsuitable when accuracy and clarity are critical.
-
-## The Technical Checklist
-
-### URLs and SEO
-
-**Internationalized Domain Names (IDN):** allow non-Latin URLs like <https://例え.jp> or <https://مثال.السعودية>. But your regex validation probably breaks on these. Your sitemap generator might crash. Your analytics will show garbage.
-
-**[Hreflang tags](https://developers.google.com/search/docs/advanced/crawling/localized-versions):** tell Google which language version to show where. Get them wrong and German users see English results while Americans get Dutch pages.  
-Example:
-
-```html
-<link rel="alternate" hreflang="de-DE" href="https://example.com/de/">
-```
-
-**Search Engine Differences:** Don’t assume Google rules everywhere.
-* [Baidu](https://www.baidu.com/) dominates China (70% market share) and requires an ICP license
-* [Yandex](https://yandex.com/) owns Russia (60%) and favors .ru domains
-* [Naver](https://www.naver.com/) rules South Korea with its own SEO rules
-
-### Performance Geography
-
-**Fonts:** Chinese fonts contain 20,000+ characters and typically weigh 10-20MB. Your fancy web font? It just killed mobile users' data plans.  
-Solution: consider [dynamic subsetting](https://web.dev/reduce-webfont-size/) or system fonts.
-
-**Network Speeds:** Network speeds vary wildly. Indian mobile averages 12 Mbps, Myanmar 4 Mbps. Your 5MB JavaScript bundle takes 40 seconds to load. Users would probably leave after 10. See the [global index](https://www.speedtest.net/global-index)
-
-**CDN Coverage:** CDN presence matters. CloudFlare has 310 cities, but weak in Africa. Fastly strong in developed markets, absent in emerging ones. Your millisecond optimizations in San Francisco mean nothing if your CDN serves the cities of Central Africa from London. See the rule [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
-
-::: china  
-Check out our rules about [Chinafy your application](https://www.ssw.com.au/rules/search/?keyword=chinafy)
+::: greybox  
+Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
 :::
 
-## The Mindset Shift
 
-Before writing any code, challenge every assumption:
+## 3. Useful Tools
 
-**"What if this text was 3x longer?"**  
-Finnish word for "not even with the help of his unintentionalness": "epäjärjestelmällistyttämättömyydelläänsäkään". Your fixed-width button just exploded. Design with elastic containers, never pixel-perfect layouts.
+- **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
+- **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
+- **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
+- **Angular i18n / ngx-translate**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-**"What if there were no spaces?"**  
-Thai, Lao, and Khmer don't use spaces between words. Your word-wrap algorithm fails. Line breaks happen mid-word. Text selection becomes impossible. [CSS word-break](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break) and proper Unicode segmentation required.
 
-**"What if everything read right-to-left?"**  
-Not just text, entire mental models flip. Timelines flow right-to-left. "Next" buttons move left. Carousels swipe opposite. Even emoji directions change in RTL contexts.
+## 4. Internationalization helped by AI
 
-**"What if numbers use different symbols?"**  
-[Eastern Arabic numerals](https://en.wikipedia.org/wiki/Eastern_Arabic_numerals): ٠١٢٣٤٥٦٧٨٩. Your regex `/[0-9]/` just failed. Your `parseInt()` broke. Credit card validation rejected legitimate cards.
+### Exploring AI Agents in i18n
 
-**"What if this color means death?"**  
-White = death in China, red = danger in the West but luck in Asia. Your "friendly" yellow warning might mean cowardice in some cultures. [Color psychology varies dramatically](https://www.shutterstock.com/blog/color-symbolism-and-meanings-around-the-world).
+Check the video below that explores how AI agents combined with translation APIs can transform internationalization (i18n) workflows. I present three concrete scenarios tested to evaluate the real utility of agents: improving raw translations, internationalizing a monolingual site, and automating a complete workflow. 
+The conclusion is that agents work best as "enthusiastic junior assistants" that accelerate repetitive tasks but still require human supervision for quality and context.
 
-## The Bottom Line
+`youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (18 min)**
 
-Every market has its digital giants. WeChat dominates China, Line owns Japan,WhatsApp rules Brazil and India. They succeeded by understanding that global software isn't about translation, it's about architecture that respects fundamental differences in how humans organize information, express meaning, and interact with technology.
 
-When PowerGen Italia became powergenitalia.com, it revealed a truth: our assumptions are so deep we can't even see them. When HSBC lost $10 million, when German patients needed repeat surgeries, when [Walmart retreated from Germany](https://www.theguardian.com/business/2006/jul/28/retail.money#:~:text=The%20world%27s%20largest%20retailer%2C%20Wal,price%2C%20American%2Dstyle%20trading.), these weren't localization failures. They were architectural failures baked in from day one.
+**Scenario 1 — Improving translations via agents**
+- Quality can improve through iterative reflection or specialized agents, but gains are inconsistent
+- Token costs and latency are high (e.g., 34 seconds and 3000+ tokens for a single line)
+- A single pass with a strong translation API often equals or beats expensive multi-agent pipelines
 
-The internet's infrastructure, [UTF-8](https://en.wikipedia.org/wiki/UTF-8), [Unicode](https://home.unicode.org/), [IANA time zones](https://www.iana.org/time-zones), [ISO standards](https://www.iso.org/), exists because engineers understood that people compute differently depending on where they live. The W3C's Internationalization Activity continues this work, creating standards like Internationalized Resource Identifiers (IRIs) that allow web addresses in any script, and guidelines that help developers avoid these costly mistakes.
+**Scenario 2 — Internationalizing a monolingual site**
+- Agent scans code, proposes i18n keys, replaces hardcoded strings, and generates JSON resource files
+- More flexible than regex scripts for detecting strings in varied or unpredictable code patterns
+- Requires human oversight to validate keys, disambiguate translations, and ensure architectural consistency
+ 
+**Scenario 3 — Automating the complete translation workflow**
+- Agent extracts strings, generates machine translations, and populates a collaborative spreadsheet for human review
+- After human approval, agent automatically reintegrates final translations into resource files
+- MCPs (Model Capability Providers) simplify manipulation of spreadsheets and Git repos with high-level operations
 
-Build systems that assume nothing, adapt to everything, and treat edge cases as first-class citizens. Because in global software, there's no such thing as an edge case, just use cases you haven't encountered yet.
+🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
+
+### AI-powered solutions
+
+Here are some popular and practical solutions that most teams can adopt:
+
+- **Translation QA**  
+  Use AI models (e.g., GPT) to catch mistranslations in context.  
+  - Example: **[Lokalise AI LQA](https://docs.lokalise.com/en/articles/7945761-ai-lqa)** and **[Smartling AI Translation QA](https://www.smartling.com/)** integrate GPT to automatically review translations and flag errors.  
+
+- **Pseudolocalization & UX testing**  
+  Automatically generate pseudo-translations (extra-long text, special characters, RTL mirroring) to stress-test your UI.  
+  - Example: **Microsoft/Android pseudolocalization (`en-XA`, `ar-XB`)** and **[Applitools Visual AI](https://applitools.com/)** are widely used to reveal layout issues early.  
+
+- **Context-aware copywriting**  
+  Use AI to adapt tone, style, and terminology for different markets, instead of just translating literally.  
+  - Example: **[Phrase](https://phrase.com/)** and **[Lokalise](https://lokalise.com/)** offer GPT-powered copy assistance that helps teams create culturally appropriate content.  
+
+- **Cultural review checks**  
+  AI can help flag potentially sensitive terms, icons, or symbols before launch.  
+  - Example: **[OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation)** or **[Perspective API](https://perspectiveapi.com/)** can be used to detect inappropriate or risky wording, with human review as a final step.  
+
