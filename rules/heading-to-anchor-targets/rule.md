@@ -15,9 +15,9 @@ related:
   - anchor-links
 guid: f5999763-c079-4ec2-aff4-fbdf675b92e2
 ---
-Help readers get exactly where they need to go by making your headings linkable. 
+Help readers get exactly where they need to go by making your headings linkable.
 
-This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID. 
+This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID.
 
 <!--endintro-->
 
@@ -31,9 +31,6 @@ See the [Google Developer Style Guide on headings and anchor targets](https://de
 * Easy sharing of specific sections
 * Stable links via custom IDs
 * Consistent style using lowercase with hyphens
-
-::: info
-
 
 ## Example: From heading to anchor link
 
