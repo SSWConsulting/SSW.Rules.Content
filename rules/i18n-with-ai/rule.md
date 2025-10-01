@@ -101,9 +101,9 @@ Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/
 
 ### Exploring AI Agents in i18n
 
-One of the hardest real-world i18n challenges is when you already have a single-language web app with hardcoded strings and suddenly need to support multiple countries.
+Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
 
-`youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
+`youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (Watch 8:10 – 16:40)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
@@ -122,7 +122,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 #### 1. Small Project — Essentials (POC)  
 
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
-**Stack:** Depends on your tech stack (for example use i18next for React, Angular i18n / ngx-translate for Angular project)
+**Stack:** use [traditional non-AI i18n approaches](https://www.ssw.com.au/rules/i18n-with-ai/#3-useful-tools)
 ✅ Cheap, fast, avoids future i18n debt  
 ❌ Manual releases, limited scalability, brand/tone risks  
 
