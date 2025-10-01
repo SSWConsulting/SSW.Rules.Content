@@ -16,16 +16,11 @@ related:
 guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
 ---
 
-Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site powergenitalia.com instead of powergen-italia.com back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental architectural failures.
-
-The [World Wide Web Consortium (W3C)](https://www.w3.org/International/) has been working on these problems since 1994, establishing standards that make the web work for everyone, everywhere. The difference between companies that successfully expand globally and those that retreat in embarrassment isn't translation quality, it's understanding the difference between building for one culture and architecting for all of them.
+Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site powergenitalia.com instead of powergen-italia.com back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental marketing failures.
 
 The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), Netflix, Uber) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
 
 <!--endintro-->
-
-`youtube: https://www.youtube.com/watch?v=-m9KHI1Fg0w`  
-**Video: Introduction to Internationalization -i18n (4 min)**
 
 ## The Expensive Confusion: i18n vs L10n
 
@@ -51,9 +46,13 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 * **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users.  
 * **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are.
 
-![Figure: Arabic Facebook homepage](facebook_arabic.png)
+![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic.](RTL_mobile.jpg)
 
 ## General Tips
+
+* **Localize time & numbers properly**
+  ❌ Don’t parse strings manually
+  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
 * **Design elastic UIs**
   ❌ Don’t hardcode pixel widths for buttons or labels  
@@ -63,17 +62,14 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ❌ No assumptions about ASCII-only inputs
   ✅ UTF-8 end-to-end (DB, API, frontend)  
 
-* **Plan for RTL**  
+* **Plan for RTL**
+Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.
   ✅ Test with `direction: rtl;` CSS  
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
 * **Simplify forms**  
   ❌ Never force “First Name / Last Name” globally
   ✅ Use a single “Full Name” field, or make name parts optional  
-
-* **Localize time & numbers properly**
-  ❌ Don’t parse strings manually
-  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
 * **SEO & URLs**  
   ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
@@ -86,7 +82,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 * **Optimize performance globally**
   ❌ Don’t ship a 5MB JS bundle to mobile-first markets
-  ✅ Use a CDN close to your users  
+  ✅ Use a CDN close to your users
+  ✅ In China, use local CDNs to avoid latency from the Great Firewall  
   ✅ Subset fonts or use system fonts  
 
 ::: greybox  
