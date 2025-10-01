@@ -217,5 +217,6 @@ Before you hit send, run through these final checks:
 
 *   **Subject Line:** Is it specific enough that it would likely only make sense to the recipient?
 *   **Conciseness:** Is the email under 100 words (especially for Tier 2/3) and focused on a single problem and outcome?
+*   **ROI Hook:** Is there a tangible cost saving, benefit, or other measurable ‘hook’ e.g. We’ve reduced bug fix times on average by 30%
 *   **Call-to-Action:** Is there only one soft question without a calendar link?
 *   **The Gut Check:** Would you be comfortable receiving this email in your own inbox?
