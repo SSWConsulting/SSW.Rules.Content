@@ -15,6 +15,8 @@ redirects: []
 
 You want to be on the latest version of SharePoint.
 
+<!--endintro-->
+
 There are multiple ways to get it:
 
 ::: bad
@@ -31,7 +33,6 @@ Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`
 
 See [Get SharePoint version number of your platform quickly](https://jeremythake.com/get-sharepoint-version-number-of-your-platform-quickly-6d092d2d1aff) for details.
 
-<!--endintro-->
 
 ```dotnet
 vti\_encoding:SR|utf8-nl
