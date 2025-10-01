@@ -111,16 +111,19 @@ The conclusion is that agents work best as "enthusiastic junior assistants" that
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (18 min)**
 
 **Scenario 1 — Improving translations via agents**
+
 * Quality can improve through iterative reflection or specialized agents, but gains are inconsistent
 * Token costs and latency are high (e.g., 34 seconds and 3000+ tokens for a single line)
 * A single pass with a strong translation API often equals or beats expensive multi-agent pipelines
 
 **Scenario 2 — Internationalizing a monolingual site**
+
 * Agent scans code, proposes i18n keys, replaces hardcoded strings, and generates JSON resource files
 * More flexible than regex scripts for detecting strings in varied or unpredictable code patterns
 * Requires human oversight to validate keys, disambiguate translations, and ensure architectural consistency
 
 **Scenario 3 — Automating the complete translation workflow**
+
 * Agent extracts strings, generates machine translations, and populates a collaborative spreadsheet for human review
 * After human approval, agent automatically reintegrates final translations into resource files
 * MCPs (Model Capability Providers) simplify manipulation of spreadsheets and Git repos with high-level operations
