@@ -107,10 +107,10 @@ One of the hardest real-world i18n challenges is when you already have a single-
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (Watch 8:10 – 16:40)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
-- Scanning the codebase to detect hardcoded strings
-- Proposing i18n keys and replacing literals with t() function calls.
-- Generating JSON resource files and populating them with translations.
-- Opening a pull request so humans can review and approve.
+* Scanning the codebase to detect hardcoded strings
+* Proposing i18n keys and replacing literals with t() function calls.
+* Generating JSON resource files and populating them with translations.
+* Opening a pull request so humans can review and approve.
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
