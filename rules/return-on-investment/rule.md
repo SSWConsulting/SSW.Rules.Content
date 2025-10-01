@@ -20,11 +20,12 @@ created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
 
-`youtube: https://www.youtube.com/embed/GEYDtxmX_8I`
-
 An important part of communication is to improve the Product Owner's understanding of ROI and help them make good decisions. When you are actioning a task, it's crucial to value your time and think about how much manual time it may consume over a longer period, say a year. You can then go the extra step and quantify this $ cost.
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/GEYDtxmX_8I`
+**Vide: Do you understand how Return on Investment (ROI) can affect decision making? (5 min)**
 
 If you find out that another solution would be better, then you should clearly communicate that to the Product Owner.
 
