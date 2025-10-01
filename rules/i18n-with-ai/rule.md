@@ -152,7 +152,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
 **Stack:** use traditional non-AI i18n approaches  
 
-✅ Cheap, fast, avoids future i18n debt   
+✅ Cheap, fast, avoids future i18n debt
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium Project - Step Further with TMS  
