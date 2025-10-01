@@ -20,6 +20,8 @@ Amazon's Swedish website accidentally replaced "rooster" with the Swedish word f
 
 The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), Netflix, Uber) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
 
+![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online.](first_language_vs_web.png)
+
 <!--endintro-->
 
 ## The Expensive Confusion: i18n vs L10n
@@ -33,6 +35,8 @@ Think of it like building a house with modular plumbing that could handle any wa
 ### Localization (L10n) - The Implementation
 
 If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
+
+![Figure: Languages most frequently used for web content as of February 2025. English dominates, but many markets require multilingual support.](web_content_languages_2025.png)
 
 ## Common i18n Issues
 
