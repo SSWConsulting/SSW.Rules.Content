@@ -39,7 +39,7 @@ Think of it like building a house with modular plumbing that could handle any wa
 
 If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
 
-## 1. Common i18n Issues
+## Common i18n Issues
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
@@ -53,27 +53,27 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 ![Figure: Arabic Facebook homepage](facebook_arabic.png)
 
-## 2. General Tips & Best Practices
+## General Tips
 
-* **Design elastic UIs**  
-  ✅ Use flex layouts, `min-width`, `word-break`  
+* **Design elastic UIs**
   ❌ Don’t hardcode pixel widths for buttons or labels  
+  ✅ Use flex layouts, `min-width`, `word-break`    
 
 * **Use Unicode everywhere**  
+  ❌ No assumptions about ASCII-only inputs
   ✅ UTF-8 end-to-end (DB, API, frontend)  
-  ❌ No assumptions about ASCII-only inputs  
 
 * **Plan for RTL**  
   ✅ Test with `direction: rtl;` CSS  
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
 * **Simplify forms**  
+  ❌ Never force “First Name / Last Name” globally
   ✅ Use a single “Full Name” field, or make name parts optional  
-  ❌ Never force “First Name / Last Name” globally  
-
-* **Localize time & numbers properly**  
-  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
+    
+* **Localize time & numbers properly**
   ❌ Don’t parse strings manually
+  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
 * **SEO & URLs**  
   ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
@@ -81,31 +81,31 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ✅ Research local search engines (Baidu, Yandex, Naver)
 
 * **Check cultural assumptions**  
+  ❌ Don’t assume Western metaphors apply everywhere
   ✅ Test color/icon choices with local users (white = death in China)  
-  ❌ Don’t assume Western metaphors apply everywhere  
 
-* **Optimize performance globally**  
+* **Optimize performance globally**
+  ❌ Don’t ship a 5MB JS bundle to mobile-first markets
   ✅ Use a CDN close to your users  
   ✅ Subset fonts or use system fonts  
-  ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
+    
 
 ::: greybox  
 Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
 :::
 
-## 3. Useful Tools
+## Non-AI tools
 
 * **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
 * **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
 * **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
 * **Angular i18n / ngx-translate**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-## 4. Internationalization helped by AI
+## AI-tools (recommended)
 
 ### Exploring AI Agents in i18n
 
-Check the video below that explores how AI agents combined with translation APIs can transform internationalization (i18n) workflows. I present three concrete scenarios tested to evaluate the real utility of agents: improving raw translations, internationalizing a monolingual site, and automating a complete workflow.
-The conclusion is that agents work best as "enthusiastic junior assistants" that accelerate repetitive tasks but still require human supervision for quality and context.
+AI agents can do more than just translate. In the video below, Ben Morss shows how they can refine translations, add i18n support to existing sites, and even run full translation workflows. They’re fast helpers for repetitive tasks, but still need humans to check quality and context.
 
 `youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (18 min)**
