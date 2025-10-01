@@ -22,7 +22,7 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 
 <!--endintro-->
 
-![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online.](first_language_vs_web.png)
+![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online](first_language_vs_web.png)
 
 ## The Expensive Confusion: i18n vs L10n
 
@@ -40,33 +40,33 @@ If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, an
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.
-* **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???.”
-* **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction.  
-* **Names & forms**: Some cultures have one name, some have none that fit “first/last.”
-* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money.  
-* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users.  
-* **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are.
+* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters
+* **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???”
+* **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction
+* **Names & forms**: Some cultures have one name, some have none that fit “first/last”
+* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money  
+* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
+* **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are
 
-![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic.](RTL_mobile.jpg)
+![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
 
 ## General Tips
 
 * **Localize time & numbers properly**  
-  ❌ Don’t parse strings manually  
+  ❌ Don’t parse strings manually  \
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
 * **Design elastic UIs**  
-  ❌ Don’t hardcode pixel widths for buttons or labels
+  ❌ Don’t hardcode pixel widths for buttons or labels\
   ✅ Use flex layouts, `min-width`, `word-break`
 
 * **Use Unicode everywhere**
-  ❌ No assumptions about ASCII-only inputs  
+  ❌ No assumptions about ASCII-only inputs  \
   ✅ UTF-8 end-to-end (DB, API, frontend)  
 
 * **Plan for RTL**
 Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
-  ✅ Test with `direction: rtl;` CSS  
+  ✅ Test with `direction: rtl;` CSS  \
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
 * **Simplify forms**  
@@ -89,7 +89,7 @@ Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring
   ✅ Subset fonts or use system fonts  
 
 ::: greybox  
-Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
+Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
 :::
 
 ## Traditional i18n approach
@@ -112,7 +112,7 @@ Use standard i18n tools (see below) with an internal translation workflow.
 ❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
 ❌ Ongoing costs for maintaining and updating translations with each new feature
 ❌ Complex maintenance of language files
-❌ Slow update process for new content
+❌ Slow update process for new content  
 ✅ High-quality, controlled translations  
 ✅ Professional multilingual user experience  
 ✅ Native language support and better SEO  
@@ -132,7 +132,7 @@ Use standard i18n tools (see below) with an internal translation workflow.
 Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
 
 `youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (Watch 8:10 – 16:40)**
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (Watch 8:10 – 16:40)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
 
@@ -151,13 +151,15 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
 **Stack:** use traditional non-AI i18n approaches  
-✅ Cheap, fast, avoids future i18n debt  
+
+✅ Cheap, fast, avoids future i18n debt   
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium Project - Step Further with TMS  
 
 **Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
+
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
 
@@ -165,6 +167,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
+
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
 
@@ -172,6 +175,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 **Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
+
 ✅ Instant coverage, great for user content and fast-changing text  
 ❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
 
