@@ -107,6 +107,7 @@ One of the hardest real-world i18n challenges is when you already have a single-
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (Watch 8:10 – 16:40)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
+
 * Scanning the codebase to detect hardcoded strings
 * Proposing i18n keys and replacing literals with t() function calls.
 * Generating JSON resource files and populating them with translations.
@@ -114,29 +115,33 @@ In this part, Ben Morss shows how an AI agent can internationalize a monolingual
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-
 ### Choosing the Right i18n Strategy by Project Size
+
 Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
 
 #### 1. Small Project — Essentials (POC)  
+
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
 **Stack:** Depends on your tech stack (for example use i18next for React, Angular i18n / ngx-translate for Angular project)
 ✅ Cheap, fast, avoids future i18n debt  
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium Project — Step Further with TMS  
+
 **Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
 
 #### 3. Large Project — AI in CI/CD
+
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
 
 #### 4. Enterprise Project — Full-Blown Live LLM Translation  
+
 **Approach:** Dynamic runtime translations (best for UGC, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
 ✅ Instant coverage, great for user content and fast-changing text  
