@@ -57,7 +57,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 * **Design elastic UIs**
   ❌ Don’t hardcode pixel widths for buttons or labels  
-  ✅ Use flex layouts, `min-width`, `word-break`    
+  ✅ Use flex layouts, `min-width`, `word-break`
 
 * **Use Unicode everywhere**  
   ❌ No assumptions about ASCII-only inputs
@@ -70,7 +70,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 * **Simplify forms**  
   ❌ Never force “First Name / Last Name” globally
   ✅ Use a single “Full Name” field, or make name parts optional  
-    
+
 * **Localize time & numbers properly**
   ❌ Don’t parse strings manually
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
@@ -88,7 +88,6 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ❌ Don’t ship a 5MB JS bundle to mobile-first markets
   ✅ Use a CDN close to your users  
   ✅ Subset fonts or use system fonts  
-    
 
 ::: greybox  
 Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
