@@ -21,10 +21,10 @@ Up to 2022, GitHub had detected more than 700,000 secrets across thousands of pr
 
 Once this occurs, amongst other things, you need to:
 
-- assume breach
-- rotate secrets
-- update affected applications
-- notify affected parties
+* assume breach
+* rotate secrets
+* update affected applications
+* notify affected parties
 
 This is a lot of stressful work!
 

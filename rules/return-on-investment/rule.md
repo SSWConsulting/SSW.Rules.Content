@@ -34,6 +34,7 @@ In the software world to calculate ROI we take a PBI and do [Business Value ÷ E
 If the Product Owner still disagrees with you then it may be a good idea to [send a 'For the record' email](/send-a-for-the-record-email-when-you-disagree).
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | Piers |
@@ -55,6 +56,7 @@ Figure: Bad Example - ROI was not mentioned
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | Piers |
@@ -78,6 +80,7 @@ Figure: OK Example - ROI is mentioned
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | Piers |
@@ -95,14 +98,14 @@ The choices:
 
 **Option A** - Continue manually adding each email signature, every month.
 
-- Maintenance: SysAdmin x 12 hours x $200/hr = $2,400 per month
-- Total cost = $28,800 per year
+* Maintenance: SysAdmin x 12 hours x $200/hr = $2,400 per month
+* Total cost = $28,800 per year
 
 **Option B (recommended)** - Purchase and configure an email signature system.
 
-- Configure: SysAdmin x 16 hours x $200/hr = $3,200 flat fee
-- License: 1 License fee x $2,000 = $2,000 flat fee
-- Total cost = $5,200 flat fee
+* Configure: SysAdmin x 16 hours x $200/hr = $3,200 flat fee
+* License: 1 License fee x $2,000 = $2,000 flat fee
+* Total cost = $5,200 flat fee
 
 Thanks!
 
