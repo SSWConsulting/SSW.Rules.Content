@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know the challenges of i18n and how AI makes them easier?
+title: Do you use AI to make internationalization easier?
 seoDescription: i18n, L10n, internationalization, localization, W3C standards
 uri: i18n-with-ai
 authors:
@@ -101,28 +101,16 @@ Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/
 
 ### Exploring AI Agents in i18n
 
-AI agents can do more than just translate. In the video below, Ben Morss shows how they can refine translations, add i18n support to existing sites, and even run full translation workflows. They’re fast helpers for repetitive tasks, but still need humans to check quality and context.
+One of the hardest real-world i18n challenges is when you already have a single-language web app with hardcoded strings and suddenly need to support multiple countries.
 
 `youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (18 min)**
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss. (Watch 8:10 – 16:40)**
 
-**Scenario 1 — Improving translations via agents**
-
-* Quality can improve through iterative reflection or specialized agents, but gains are inconsistent
-* Token costs and latency are high (e.g., 34 seconds and 3000+ tokens for a single line)
-* A single pass with a strong translation API often equals or beats expensive multi-agent pipelines
-
-**Scenario 2 — Internationalizing a monolingual site**
-
-* Agent scans code, proposes i18n keys, replaces hardcoded strings, and generates JSON resource files
-* More flexible than regex scripts for detecting strings in varied or unpredictable code patterns
-* Requires human oversight to validate keys, disambiguate translations, and ensure architectural consistency
-
-**Scenario 3 — Automating the complete translation workflow**
-
-* Agent extracts strings, generates machine translations, and populates a collaborative spreadsheet for human review
-* After human approval, agent automatically reintegrates final translations into resource files
-* MCPs (Model Capability Providers) simplify manipulation of spreadsheets and Git repos with high-level operations
+In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
+- Scanning the codebase to detect hardcoded strings
+- Proposing i18n keys and replacing literals with t() function calls.
+- Generating JSON resource files and populating them with translations.
+- Opening a pull request so humans can review and approve.
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
