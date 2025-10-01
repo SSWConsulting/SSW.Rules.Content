@@ -24,8 +24,6 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 
 ![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online.](first_language_vs_web.png)
 
-![Figure: Languages most frequently used for web content as of February 2025. English dominates, but many markets require multilingual support.](web_content_languages_2025.png)
-
 ## The Expensive Confusion: i18n vs L10n
 
 ### Internationalization (i18n) - The Architecture
