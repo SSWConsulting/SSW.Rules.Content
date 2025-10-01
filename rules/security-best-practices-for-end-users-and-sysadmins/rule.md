@@ -13,8 +13,25 @@ guid: dcf8b25f-41ff-424d-90a6-c9fa324612e6
 
 The 10 tips CEOs must know for both **end-users** and **SysAdmins**:
 
-`youtube: https://www.youtube.com/embed/uk_YFezVAuw`
-
 <!--endintro-->
 
-For more information see: https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/
+`youtube: https://www.youtube.com/embed/uk_YFezVAuw`
+**Video: Rules to Better Security with Adam Cogan - The 10 tips CEOs must know (6 min)**
+
+## 5 Tips for End-Users
+
+1. Use strong passwords & a password manager – you can also use tools like Security.org to see how secure your password is
+2. Use Multi-Factor Authentication (MFA)
+3. Don’t use a private password for work
+4. Personal breaches should be resolved by SysAdmins
+5. Use Windows Hello and biometrics
+
+## 5 More Tips for SysAdmins
+
+6. No admin access for users on servers
+7. SysAdmins should understand the risk of LSASS.EXE
+8. VPN access should be MFA enabled
+9. SysAdmins need 2 accounts: 1 for doing everyday work, and 1 for SysAdmin work
+10. Upgrade to Windows 11 for TPM enhanced security
+
+For more information see: [10 Security Tips for CEOs and SysAdmins](https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/).
