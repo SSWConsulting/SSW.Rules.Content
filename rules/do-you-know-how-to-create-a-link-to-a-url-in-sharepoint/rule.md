@@ -15,9 +15,9 @@ related: []
 redirects: []
 ---
 
-TODO TIAGO: ADD IMAGE OF WINDOWS EXPLORER (4 files in it) AND ANOTHER WITH SHAREPOINT DOCUMENTS LIBRARY
-
 You may need a link in a SharePoint document to help you navigate to a different URL (like shortcut in Windows), there are different ways to implement this.
+
+<!--endintro-->
 
 ::: bad
 A. Create a shortcut in windows, then upload the shortcut file (.url) to the document library.  
@@ -26,8 +26,6 @@ A. Create a shortcut in windows, then upload the shortcut file (.url) to the doc
 ::: good
 B. Use "Link to a document" content type in SharePoint.  
 :::
-
-<!--endintro-->
 
 Details on how you to create a link to a document in a SharePoint library.
 
@@ -38,12 +36,20 @@ To do this, you need to remove .url file type from your blocked file types in yo
 **B. Use "Link to a document" content type in SharePoint.**
 
 1. Enable "Content Type management" in your document library.
-   ![](EnableContentTypeDocument.png) **Figure: Enable Content Type management in library setting**
+   ![Figure: Enable Content Type management in library setting](EnableContentTypeDocument.png)
+   
 2. Add "Link to a Document" content type into the library.
-   ![](AddExistContentType.png) **Figure: Add from existing site content type** ![](SelectLinkToADocumentType.png) **Figure: Select "Link to a Document" content type**
+   ![Figure: Add from existing site content type](AddExistContentType.png) 
+
+   ![Figure: Select "Link to a Document" content type](SelectLinkToADocumentType.png)
+
 3. Create a "Link to a document" instance
-   ![](CreateLinkToADocumentInstance.png) **Figure: select "File | New Document (dropdown) | Link to a document"** ![](InputLinkUrlAndName.png) **Figure: Input "Name" and "URL"**
+   ![Figure: select "File | New Document (dropdown) | Link to a document"](CreateLinkToADocumentInstance.png)
+   
+   ![Figure: Input "Name" and "URL"](InputLinkUrlAndName.png) 
+
 4. Done
 
 You should be able to see the link type document in your library:
-![](LinksTypeDocumentsWithShortcutIcon.png) **Figure: Link type documents with the lovely shortcut icon**
+
+![Figure: Link type documents with the lovely shortcut icon](LinksTypeDocumentsWithShortcutIcon.png)
