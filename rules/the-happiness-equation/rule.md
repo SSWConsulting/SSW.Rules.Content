@@ -20,8 +20,8 @@ It all starts with how you approach things, some people are better than others a
 
 Let's assume one of these common scenarios:
 
-- **New great project** – Someone is assigned to it... someone is unhappy
-- **New promotion** – Someone gets it, someone else is unhappy
+* **New great project** – Someone is assigned to it... someone is unhappy
+* **New promotion** – Someone gets it, someone else is unhappy
 
 These might seem like unfair situations. People don’t want to be unfair... friends don't... bosses don't.
 
@@ -36,8 +36,8 @@ These might seem like unfair situations. People don’t want to be unfair... fri
 4. **The 'Happiness Equation'**
    Happiness = Reality - Expectations.<br>
    If you want to be happier, then:
-   - Reduce your expectations
-   - Increase your reality
+   * Reduce your expectations
+   * Increase your reality
 5. **Consider luck** - Everyone wants to succeed in life. But what causes some of us to be more successful than others? Is it really down to skill and strategy - or something altogether more unpredictable? Sometimes peoples success is simply luck. Read [the book "Fooled by Randomness"](https://en.wikipedia.org/wiki/Fooled_by_Randomness)
 6. **Compete with yourself by embracing Scrum** – Competing with yourself is the best approach. The same with teams.
    In software, Scrum is the best way of working as you only compare yourself... or your team with what you did before. Using empirical data is the way to go.
