@@ -15,19 +15,21 @@ redirects:
 created: 2012-09-25T17:54:21.000Z
 archivedreason: null
 guid: 781aa623-f379-4187-930c-0e6923eb71c4
+
 ---
+
 Every day you will probably come across something that could be improved. If you're not making improvements, you're going backwards. But don't make suggestions or criticisms without being specific.
 
 <!--endintro-->
 
-# Be specific
+## Be specific
 
 ::: greybox
 "Do you know our sales process is pretty bad, what are you going to do about it?"
 :::
 
 ::: bad
-Figure: Bad Example - Nonspecific criticism
+Figure: Bad example - Nonspecific criticism
 :::
 
 When you find a problem, pinpoint it directly (and recommend a solution):
@@ -37,16 +39,15 @@ When you find a problem, pinpoint it directly (and recommend a solution):
 :::
 
 ::: good
-Figure: Good Example - Offering criticism in this way ensures that something will happen to fix the problem
+Figure: Good example - Offering criticism in this way ensures that something will happen to fix the problem
 :::  
 
 ::: greybox
 "Not done, please try again"
-
 :::
 
 ::: bad
-Figure: Bad Example - If they don't immediately know what to fix, this might end up in their "too hard" bucket and never get done
+Figure: Bad example - If they don't immediately know what to fix, this might end up in their "too hard" bucket and never get done
 :::
 
 ::: greybox
@@ -54,14 +55,14 @@ Figure: Bad Example - If they don't immediately know what to fix, this might end
 :::
 
 ::: good
-The specific missed requirement lets them quickly fix the mistake
+Figure: Good example - The specific missed requirement lets them quickly fix the mistake
 :::  
 
 Of course, there are times that you can 'feel' that a problem exists, but you may not even be sure how are unable to pinpoint it or can't think of a good solution. In this instance you should speak to someone who you think may be able to identify a solution, come to an agreement, and then request that action be taken.
 
 When criticism is generic, it is impossible to know what to fix.
 
-# Videos - Use timecodes
+## Video feedback - Use timecodes
 
 When giving feedback on a video recording, always use timecodes to specify what should be fixed.
 
@@ -72,7 +73,7 @@ When giving feedback on a video recording, always use timecodes to specify what 
 :::
 
 ::: bad
-Figure: Bad Example - No timecodes so it's hard to go back and fix without re-watching the whole video
+Figure: Bad example - No timecodes so it's hard to go back and fix without re-watching the whole video
 :::
 
 ::: greybox
@@ -82,12 +83,12 @@ Figure: Bad Example - No timecodes so it's hard to go back and fix without re-wa
 :::
 
 ::: good
-Figure: Good Example - timecodes specifically say when to look for the mistake
+Figure: Good example - timecodes specifically say when to look for the mistake
 :::  
 
-*ℹ️ Note: You can also use 1'10" notation (' minutes and " seconds) but it isn't considered an industry standard.*
+**Note:** You can also use 1'10" notation (' minutes and " seconds) but it isn't considered an industry standard.
 
-# Consider Context
+## Give context
 
 It's also important to consider both your audience and the overall context.  
 
@@ -100,5 +101,4 @@ It's also important to consider both your audience and the overall context.
 Then I hope the feedback gets it to a 9/10, if not a 10.*
 
 * Adam Cogan
-
 :::
