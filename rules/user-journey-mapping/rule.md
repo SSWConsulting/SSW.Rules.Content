@@ -21,7 +21,7 @@ guid: e7d9e725-74b3-4791-8fbf-0844bf63fef1
 
 A User Journey Map (aka Customer Journey) is a visual aid that allows the clear communication of user needs.
 
-These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong common understanding of a project. 
+These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong common understanding of a project.
 
 Capturing feedback in a Journey Map during or even after development, can provide high value as well. Pain points discovered in this way can reveal opportunities or areas for immediate improvement.
 
