@@ -59,10 +59,10 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
 * **Design elastic UIs**  
-  ❌ Don’t hardcode pixel widths for buttons or labels    
+  ❌ Don’t hardcode pixel widths for buttons or labels
   ✅ Use flex layouts, `min-width`, `word-break`
 
-* **Use Unicode everywhere**   
+* **Use Unicode everywhere**
   ❌ No assumptions about ASCII-only inputs  
   ✅ UTF-8 end-to-end (DB, API, frontend)  
 
@@ -85,9 +85,9 @@ Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring
   ✅ Test color/icon choices with local users (white = death in China)  
 
 * **Optimize performance globally**  
-  ❌ Don’t ship a 5MB JS bundle to mobile-first markets   
+  ❌ Don’t ship a 5MB JS bundle to mobile-first markets
   ✅ Use a CDN close to your users  
-  ✅ In China, use local CDNs to avoid latency from the Great Firewall   
+  ✅ In China, use local CDNs to avoid latency from the Great Firewall
   ✅ Subset fonts or use system fonts  
 
 ::: greybox  
@@ -101,21 +101,20 @@ Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/
 Users can rely on Google Translate in their browser if implementation time is lacking.  
 
 ❌ Poor user experience and unprofessional appearance  
-❌ Inaccurate translations and broken UI elements   
+❌ Inaccurate translations and broken UI elements
 ❌ Potential loss of international users  
 ✅ Immediate availability with zero development effort  
-✅ No implementation or maintenance costs   
-
+✅ No implementation or maintenance costs
 
 ### Implement i18n Libraries
 
 Use standard i18n tools (see below) with an internal translation workflow.  
 
-❌ Significant development time and delays   
+❌ Significant development time and delays
 ❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-❌ Ongoing costs for maintaining and updating translations with each new feature   
-❌ Complex maintenance of language files   
-❌ Slow update process for new content   
+❌ Ongoing costs for maintaining and updating translations with each new feature
+❌ Complex maintenance of language files
+❌ Slow update process for new content
 ✅ High-quality, controlled translations  
 ✅ Professional multilingual user experience  
 ✅ Native language support and better SEO  
@@ -186,5 +185,3 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 | Medium project     | TMS (Phrase/Lokalise) + pseudoloc| Centralized control, consistent translations | Adds license cost + extra process      |
 | Large project      | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
 | Enterprise project | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
-
-
