@@ -19,19 +19,17 @@ redirects:
   - sales-do-you-track-all-sales-related-activities-in-crm
 ---
 
-**Prerequisite:** [Install the CRM Add-in.](/install-the-2-add-ins)
-
-The general principle is that you track important emails as per Do you track important email in CRM?
-
-`youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
+The general principle is that you track important emails as per [Do you track important emails in CRM?](/track-important-emails/)
 
 Microsoft Dynamics 365 allows users to track activities such as appointments, phone calls, emails, etc. This feature can be easily abused by users to record unrelated activities inside CRM. It is difficult sometimes to work out which type of activities should be recorded. These are the types of activities you should track in CRM:
 
 <!--endintro-->
 
-- 01 Appointments: Initial meeting, and follow-up meetings...
-- 02 Phone Calls: Any incoming and outgoing sales related phone call (note Dynamics has Skype for Business integration to automatically track outgoing phone calls)
-- 03 Emails: Sales related emails
+1. **Appointments** - Initial meeting, and follow-up meetings...
+2. **Phone calls** - Any incoming and outgoing sales related phone call (note Dynamics has Skype for Business integration to automatically track outgoing phone calls)
+3. **Emails** - Sales related emails
+
+**Prerequisite:** [Install the CRM Add-in.](/install-the-2-add-ins)
 
 All sales activities should be tracked via CRM as an opportunity, company or contact.
 
@@ -47,3 +45,6 @@ By recording these activities, reports can be created to view:
 ![Figure: Activities Report - Ulysses was the hardest worker for this month. Print this and put it on the wall and it will encourage everyone to log their calls](TrackingGraph.jpg)
 
 **Note:** You can see more details on what emails to track in [Do you know to hit 'Track' when you receive an important email?](/track-important-emails)
+
+`youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
+**Video: Microsoft Teams and Dynamics 365 - You won't believe where you should store your documents! (4 min)**
