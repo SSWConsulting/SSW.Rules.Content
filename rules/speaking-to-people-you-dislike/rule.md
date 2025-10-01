@@ -15,7 +15,7 @@ guid: 9231bb20-936f-430a-9ee0-74f6ee01ef36
 ---
 Everyone knows someone they don't like...
 
-It could be the person at work who never listens, who likes to give backhanded compliments, or who rubs you the wrong way. If it's someone you work with, this can be hard to navigate. 
+It could be the person at work who never listens, who likes to give backhanded compliments, or who rubs you the wrong way. If it's someone you work with, this can be hard to navigate.
 
 <!--endintro-->
 
