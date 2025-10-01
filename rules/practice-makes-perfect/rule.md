@@ -35,10 +35,10 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 
 1. Record the "Test Please"
 2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video)
-   - Are you speaking too fast/too slow?
-   - Are you pausing appropriately?
-   - Voice stressing/pausing on important points?
-   - Are you too loud/too soft?
+   * Are you speaking too fast/too slow?
+   * Are you pausing appropriately?
+   * Voice stressing/pausing on important points?
+   * Are you too loud/too soft?
 
 ::: info
 Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when practising.
@@ -46,14 +46,14 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
 
 3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio)
 
-   - How is your body language?
-   - Moving your hands less/more? (more hand movement means more distraction) Eye contact?
-   - Posture?
-   - Are you smiling or do you look stunned?
+   * How is your body language?
+   * Moving your hands less/more? (more hand movement means more distraction) Eye contact?
+   * Posture?
+   * Are you smiling or do you look stunned?
 
 4. Use a transcript generator and get your speech printed on paper. (Include all the words)
-   - Cut off the unwanted words that do not add meaning
-   - Identify how many times you use "umms", "you know", and repetitive words that we all have a habit of using
+   * Cut off the unwanted words that do not add meaning
+   * Identify how many times you use "umms", "you know", and repetitive words that we all have a habit of using
 
 ::: info
 Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
