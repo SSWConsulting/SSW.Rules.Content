@@ -20,9 +20,11 @@ Amazon's Swedish website accidentally replaced "rooster" with the Swedish word f
 
 The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), Netflix, Uber) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
 
+<!--endintro-->
+
 ![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online.](first_language_vs_web.png)
 
-<!--endintro-->
+![Figure: Languages most frequently used for web content as of February 2025. English dominates, but many markets require multilingual support.](web_content_languages_2025.png)
 
 ## The Expensive Confusion: i18n vs L10n
 
@@ -35,8 +37,6 @@ Think of it like building a house with modular plumbing that could handle any wa
 ### Localization (L10n) - The Implementation
 
 If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
-
-![Figure: Languages most frequently used for web content as of February 2025. English dominates, but many markets require multilingual support.](web_content_languages_2025.png)
 
 ## Common i18n Issues
 
@@ -54,25 +54,25 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 ## General Tips
 
-* **Localize time & numbers properly**
-  ❌ Don’t parse strings manually
+* **Localize time & numbers properly**  
+  ❌ Don’t parse strings manually  
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
-* **Design elastic UIs**
-  ❌ Don’t hardcode pixel widths for buttons or labels  
+* **Design elastic UIs**  
+  ❌ Don’t hardcode pixel widths for buttons or labels    
   ✅ Use flex layouts, `min-width`, `word-break`
 
-* **Use Unicode everywhere**  
-  ❌ No assumptions about ASCII-only inputs
+* **Use Unicode everywhere**   
+  ❌ No assumptions about ASCII-only inputs  
   ✅ UTF-8 end-to-end (DB, API, frontend)  
 
 * **Plan for RTL**
-Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.
+Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
   ✅ Test with `direction: rtl;` CSS  
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
 * **Simplify forms**  
-  ❌ Never force “First Name / Last Name” globally
+  ❌ Never force “First Name / Last Name” globally  
   ✅ Use a single “Full Name” field, or make name parts optional  
 
 * **SEO & URLs**  
@@ -81,27 +81,54 @@ Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring
   ✅ Research local search engines (Baidu, Yandex, Naver)
 
 * **Check cultural assumptions**  
-  ❌ Don’t assume Western metaphors apply everywhere
+  ❌ Don’t assume Western metaphors apply everywhere  
   ✅ Test color/icon choices with local users (white = death in China)  
 
-* **Optimize performance globally**
-  ❌ Don’t ship a 5MB JS bundle to mobile-first markets
-  ✅ Use a CDN close to your users
-  ✅ In China, use local CDNs to avoid latency from the Great Firewall  
+* **Optimize performance globally**  
+  ❌ Don’t ship a 5MB JS bundle to mobile-first markets   
+  ✅ Use a CDN close to your users  
+  ✅ In China, use local CDNs to avoid latency from the Great Firewall   
   ✅ Subset fonts or use system fonts  
 
 ::: greybox  
 Check out our rules [Use a CDN for Internationalization](https://www.ssw.com.au/rules/use-a-cdn/)
 :::
 
-## Non-AI tools
+## Traditional i18n approach
+
+### Rely on Google Translate (0 effort)
+
+Users can rely on Google Translate in their browser if implementation time is lacking.  
+
+❌ Poor user experience and unprofessional appearance  
+❌ Inaccurate translations and broken UI elements   
+❌ Potential loss of international users  
+✅ Immediate availability with zero development effort  
+✅ No implementation or maintenance costs   
+
+
+### Implement i18n Libraries
+
+Use standard i18n tools (see below) with an internal translation workflow.  
+
+❌ Significant development time and delays   
+❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
+❌ Ongoing costs for maintaining and updating translations with each new feature   
+❌ Complex maintenance of language files   
+❌ Slow update process for new content   
+✅ High-quality, controlled translations  
+✅ Professional multilingual user experience  
+✅ Native language support and better SEO  
+✅ Full control of data
+
+### Useful Non-AI tools
 
 * **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
 * **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
 * **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
-* **Angular i18n / ngx-translate**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
+* **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-## AI-tools (recommended)
+## AI-tools
 
 ### Exploring AI Agents in i18n
 
@@ -123,39 +150,41 @@ In this part, Ben Morss shows how an AI agent can internationalize a monolingual
 
 Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
 
-#### 1. Small Project — Essentials (POC)  
+#### 1. Small Project - Essentials (POC)  
 
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
-**Stack:** use [traditional non-AI i18n approaches](https://www.ssw.com.au/rules/i18n-with-ai/#3-useful-tools)
+**Stack:** use traditional non-AI i18n approaches  
 ✅ Cheap, fast, avoids future i18n debt  
 ❌ Manual releases, limited scalability, brand/tone risks  
 
-#### 2. Medium Project — Step Further with TMS  
+#### 2. Medium Project - Step Further with TMS  
 
 **Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
 
-#### 3. Large Project — AI in CI/CD
+#### 3. Large Project - AI in CI/CD
 
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
 
-#### 4. Enterprise Project — Full-Blown Live LLM Translation  
+#### 4. Enterprise Project - Full-Blown Live LLM Translation  
 
-**Approach:** Dynamic runtime translations (best for UGC, long-tail docs). Cache aggressively and use guardrails.  
+**Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
 ✅ Instant coverage, great for user content and fast-changing text  
 ❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
 
-## Buyer’s Guide Table
+## Summary Table
 
-| Project Size       | Stack Suggestion                 | Why                                            | Caveats                                  |
+| Project Size       | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
 |--------------------|----------------------------------|------------------------------------------------|------------------------------------------|
-| Small project      | i18next, Angular i18n/ngx-translate| ✅ Cheapest way to get started, avoids i18n debt | ❌ Manual, hard to scale, tone issues     |
-| Medium project     | TMS (Phrase/Lokalise) + pseudoloc| ✅ Centralized control, consistent translations | ❌ Adds license cost + extra process      |
-| Large project      | TMS + CI/CD integration + AI QA  | ✅ Automation + speed, 80/20 human/AI workflow  | ❌ Needs mature CI/CD, token costs        |
-| Enterprise project | TMS for UI + Live LLM for content| ✅ Instant coverage for UGC + long-tail pages   | ❌ Latency, cost drift, SEO monitoring    |
+| Small project      | i18next, Angular i18n/ngx-translate| Cheapest way to get started, avoids i18n debt | Manual, hard to scale, tone issues     |
+| Medium project     | TMS (Phrase/Lokalise) + pseudoloc| Centralized control, consistent translations | Adds license cost + extra process      |
+| Large project      | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
+| Enterprise project | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
+
+
