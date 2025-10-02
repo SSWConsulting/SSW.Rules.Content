@@ -33,7 +33,6 @@ Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`
 
 See [Get SharePoint version number of your platform quickly](https://jeremythake.com/get-sharepoint-version-number-of-your-platform-quickly-6d092d2d1aff) for details.
 
-
 ```dotnet
 vti\_encoding:SR|utf8-nl
 vti\_extenderversion:SR|16.0.0.4327

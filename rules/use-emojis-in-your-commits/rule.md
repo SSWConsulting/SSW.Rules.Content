@@ -37,9 +37,9 @@ Here are a few ways to improve your commit log.
 
 Examples:
 
-- Fixed bug with emoji engine
-- Added new emoji filter
-- Updated Architecture Diagram to have emojis
+* Fixed bug with emoji engine
+* Added new emoji filter
+* Updated Architecture Diagram to have emojis
 
 ## Tip #2: Using prefixes
 
@@ -47,9 +47,9 @@ Even better is to add a helpful prefix to categorize your commits.
 
 Examples:
 
-- Fix: Fixed bug with emoji engine
-- Feature: Added new emoji filter
-- Doc: Updated Architecture Diagram to have emojis
+* Fix: Fixed bug with emoji engine
+* Feature: Added new emoji filter
+* Doc: Updated Architecture Diagram to have emojis
 
 ## Tip #3: Using emojis 💄
 
@@ -57,9 +57,9 @@ In a text message, emojis helps to add emotion and context to plain text. Why no
 
 Examples:
 
-- 🐛 BUG - Fixed emoji engine in language component
-- 🚀 Feature - Added emoji filter on Snapchat
-- 📄 Doc - Added emoji’s to changelog
+* 🐛 BUG - Fixed emoji engine in language component
+* 🚀 Feature - Added emoji filter on Snapchat
+* 📄 Doc - Added emoji’s to changelog
 
 There are a bunch more options to choose from - [carloscuesta/gitmoji: An emoji guide for your commit messages. 😜 (github.com)](https://github.com/carloscuesta/gitmoji)
 

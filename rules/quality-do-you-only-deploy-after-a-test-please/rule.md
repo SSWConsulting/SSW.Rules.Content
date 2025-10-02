@@ -25,8 +25,8 @@ The Scrum Definition of Done is a great tool to document and promote this consis
 
 Here are some examples:
 
-- In some teams, the client directly participates in the Scrum team by testing PBIs as they are completed. In this scenario, a good approach is for these testers to be the only users that can mark a PBI as 'Done' on the Azure Devops task board
-- With automated deployment tools such as Octopus deploy you can give your client direct control over deployment resposibility by controlling access rights to the "Deploy to Production" button
+* In some teams, the client directly participates in the Scrum team by testing PBIs as they are completed. In this scenario, a good approach is for these testers to be the only users that can mark a PBI as 'Done' on the Azure Devops task board
+* With automated deployment tools such as Octopus deploy you can give your client direct control over deployment resposibility by controlling access rights to the "Deploy to Production" button
 
 ::: good
 ![Figure: Giving clients sole access to the deploy button, allows them to take ownership of the decision to deploy](OctopusDeploy.png)

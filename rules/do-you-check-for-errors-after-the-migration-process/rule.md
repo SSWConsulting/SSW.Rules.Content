@@ -27,4 +27,3 @@ After the database has finished being attached to the web application you will g
 ::: bad
 ![Figure: Bad example - The event log should show 0 errors after fixing the errors  ](FixEventLogs.png)
 :::
-

@@ -40,5 +40,3 @@ SPWeb web =  SPContext.Current.Site.RootWeb;
 ::: good
 Figure: Good example - Use Current objects directly - don't need to dispose them  
 :::
-
-

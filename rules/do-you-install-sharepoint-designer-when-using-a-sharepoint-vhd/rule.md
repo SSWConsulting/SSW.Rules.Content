@@ -24,5 +24,3 @@ Bad example: Installing SharePoint Designer 2007 on a SharePoint 2010 VHD.
 ::: good
 Good example: Installing SharePoint Designer 2010 on a SharePoint 2010 VHD.  
 :::
-
-

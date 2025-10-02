@@ -25,5 +25,3 @@ It is much easier and efficient if app.config is provided in several environment
 ::: good
 ![Figure : Good Example - Several App.config are provided](App.config.jpg)
 :::
-
-

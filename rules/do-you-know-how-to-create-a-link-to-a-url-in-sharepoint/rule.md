@@ -37,16 +37,16 @@ To do this, you need to remove .url file type from your blocked file types in yo
 
 1. Enable "Content Type management" in your document library.
    ![Figure: Enable Content Type management in library setting](EnableContentTypeDocument.png)
-   
+
 2. Add "Link to a Document" content type into the library.
-   ![Figure: Add from existing site content type](AddExistContentType.png) 
+   ![Figure: Add from existing site content type](AddExistContentType.png)
 
    ![Figure: Select "Link to a Document" content type](SelectLinkToADocumentType.png)
 
 3. Create a "Link to a document" instance
    ![Figure: select "File | New Document (dropdown) | Link to a document"](CreateLinkToADocumentInstance.png)
-   
-   ![Figure: Input "Name" and "URL"](InputLinkUrlAndName.png) 
+
+   ![Figure: Input "Name" and "URL"](InputLinkUrlAndName.png)
 
 4. Done
 

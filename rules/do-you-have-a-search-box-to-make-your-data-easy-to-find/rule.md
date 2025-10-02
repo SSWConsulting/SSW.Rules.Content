@@ -29,5 +29,3 @@ Make your data easily accessible by incorporating a "search box" that helps user
 ::: good
 ![Figure: Good example - TFS Preview has an easy to find search box](searchbox.png)
 :::
-
-

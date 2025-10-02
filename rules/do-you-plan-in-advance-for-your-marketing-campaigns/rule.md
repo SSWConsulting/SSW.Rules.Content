@@ -20,7 +20,7 @@ In marketing, good timing is the key to a successful campaign. As a smart marke
 
 <!--endintro-->
 
-For example, when we plan to market training events, the best time for an aggressive direct mail and telemarketing campaign is 4 weeks prior to the event. Any sooner than that and the prospects will often ask you to call again when it is closer to the date. If you start marketing your events too late, for example 5 days prior to the event, your chances of making a sale decrease significantly. 
+For example, when we plan to market training events, the best time for an aggressive direct mail and telemarketing campaign is 4 weeks prior to the event. Any sooner than that and the prospects will often ask you to call again when it is closer to the date. If you start marketing your events too late, for example 5 days prior to the event, your chances of making a sale decrease significantly.
 
 Remember that people often need to gain management approval for leave and expenses. Only rarely will you find someone willing to book just a few days prior to an event.
 
