@@ -14,6 +14,10 @@ redirects:
   - do-you-know-the-best-outlook-add-in-to-get-the-most-out-of-sharepoint
 ---
 
+Maximize SharePoint efficiency through Outlook add-ins like Colligo, Harmon.ie, and Macroview, or explore OnePlaceMail for seamless collaboration.
+
+<!--endintro-->
+
 ::: greybox
 Using no Outlook add-in  
 :::
@@ -37,5 +41,3 @@ OnePlaceMail
 ::: good
 Good example  
 :::
-
-<!--endintro-->
