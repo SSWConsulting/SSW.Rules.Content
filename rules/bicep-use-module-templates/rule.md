@@ -27,7 +27,7 @@ That’s why **using Bicep modules**—small, reusable templates—is the recomm
 
 ## Example: Without vs With Modules
 
-::: greybox
+```bicep
 // main.bicep (all-in-one)
 resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   name: 'myuniquestorage'
@@ -46,12 +46,13 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
     Application_Type: 'web'
   }
 }
-:::
+```
+
 ::: bad
 Figure: Bad Example - Multiple resources jammed into a single main module, hard to maintain and reuse
 :::
 
-::: greybox
+```bicep
 // storageAccount.bicep (module)
 param storageName string
 param location string
@@ -94,7 +95,8 @@ module appInsights './appInsights.bicep' = {
     location: resourceGroup().location
   }
 }
-:::
+```
+
 ::: good
 Figure: Good Example - A clean main module calling smaller reusable modules for storage and application insights
 :::
