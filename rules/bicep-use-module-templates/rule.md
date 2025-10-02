@@ -6,6 +6,8 @@ uri: bicep-module-templates
 authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh
+  - title: Rick Su
+    url: https://www.ssw.com.au/people/rick-su
 created: 2025-10-02T10:00:00.000Z
 guid: 8e4a02af-87ad-4a65-8e6e-bf903ff87d90
 ---
