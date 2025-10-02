@@ -1,7 +1,7 @@
 ---
-seoDescription: Embrace UAT in Scrum by incorporating your testing processes into the Sprint 
 type: rule
 title: Do you include UAT in each Sprint?
+seoDescription: Embrace UAT in Scrum by incorporating your testing processes into the Sprint
 uri: no-uat-phase-in-scrum
 authors:
   - title: Luke Cook
@@ -54,12 +54,16 @@ This is a good question, and generally, the answer is "No". Environments are a s
 
 ## My testers are swamped - there's too much to test in a single Sprint
 
-This can happen for a variety of reasons, and is often a symptom of a more fundamental issue.
+This can happen for a variety of reasons, and is often a symptom of a more fundamental issue. The most common culprits are:
 
 ### Acceptance Criteria
 
-One of the most common causes of an ever-growing backlog is ill-defined [Acceptance Criteria](https://www.ssw.com.au/rules/acceptance-criteria/). In a high-performing Scrum team, every PBI has well-defined AC that allow the programmers to assume the lion's share of testing - whether through building automated tests, or exploratory testing during development.
+One of the most common causes of an ever-growing backlog is ill-defined [Acceptance Criteria](https://www.ssw.com.au/rules/acceptance-criteria/).
+
+✅ Fix: In a high-performing Scrum team, every PBI has well-defined AC that allow the programmers to assume the lion's share of testing - whether through building automated tests, or exploratory testing during development.
 
 ### Programmer to Tester ratio
 
-If you have a poor dev to test ratio, your testing team will be stretched too thin. If you manage your QA department separately to your development teams, this is often the result. Your testers will be trying to service multiple dev teams, with competing priorities, and thus will start to silo themselves and thereby start managing their own separate testing backlog. This is why it's essential to embrace the **cross-functional** nature of a Scrum team, and include dedicated testers in each team.
+If you have a poor dev to test ratio, your testing team will be stretched too thin. If you manage your QA department separately to your development teams, this is often the result. Your testers will be trying to service multiple dev teams, with competing priorities, and thus will start to silo themselves and thereby start managing their own separate testing backlog. 
+
+✅ Fix: Embrace the **cross-functional** nature of a Scrum team, and include dedicated testers in each team.
