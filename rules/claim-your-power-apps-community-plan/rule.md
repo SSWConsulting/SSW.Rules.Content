@@ -1,7 +1,7 @@
 ---
 seoDescription: Claim your Power Apps Community Plan and get access to a dedicated environment with premium features like Power Apps, Connectors, Automate, and more – all for free!
 type: rule
-archivedreason:
+archivedreason: Microsoft has evolved the “Community Plan” into what’s now called the Power Apps Developer Plan
 title: Do you know to claim your Power Apps Community Plan?
 guid: 19cb3f23-5075-4c57-91d8-33e58d2c851f
 uri: claim-your-power-apps-community-plan
@@ -24,6 +24,5 @@ The Power App Community Plan gives developers a dedicated environment with acces
 * Common Data Service and more…
 
 Best of all it’s completely free, yes there are some restrictions but they’re quite reasonable. The main ones being the environment is restricted to a single user and no ability to share apps.
-Sign up for a Community Plan here: [https://powerapps.microsoft.com/en-us/communityplan](https://powerapps.microsoft.com/en-us/communityplan)
 
-Full documentation here: [https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan?WT.mc_id=DX-MVP-33518)
+More info on [Announcing the PowerApps Community Plan](https://www.microsoft.com/en-us/power-platform/blog/power-apps/communityplan/).

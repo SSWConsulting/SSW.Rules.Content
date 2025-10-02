@@ -19,6 +19,7 @@ index:
 - do-you-have-a-section-break-slide
 - demo-slides
 - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
+- presenter-icon
 - do-you-use-slido
 - high-quality-images
 - do-you-keep-your-presentation-simple

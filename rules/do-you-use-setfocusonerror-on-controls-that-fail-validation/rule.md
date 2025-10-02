@@ -18,5 +18,5 @@ For Validation Errors, don’t rely on an error messagebox, instead automaticall
 <!--endintro-->
 
 ::: good  
-![Figure: Good example - Balloons also direct the eye](../../assets/GoodValidation.jpg)  
+![Figure: Good example - Balloons also direct the eye](/GoodValidation.jpg)  
 :::

@@ -22,17 +22,17 @@ In menus (including context menus) or buttons, there are generally two types of 
 Microsoft applications use this technique to indicate whether or not the action will be carried out without any further user intervention. Your application should also follow this well-established standard, so users will not be caught off guard when an action carried out immediately after they click the menu item.
 
 ::: good  
-![Figure: Good Example - Options menu in Outlook, with ellipsis](../../assets/Elipsis.gif)  
+![Figure: Good Example - Options menu in Outlook, with ellipsis](/Elipsis.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Ellipsis on buttons that require further input](../../assets/RunDialog.gif)  
+![Figure: Good Example - Ellipsis on buttons that require further input](/RunDialog.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Different ways of using the elipsis](../../assets/GoodElipsis3.png)  
+![Figure: Good Example - Different ways of using the elipsis](/GoodElipsis3.png)  
 :::
 
 ::: good  
-![Figure: Good Example - Elipsis being used on a button requiring user input](../../assets/GoodElipsis4.png)  
+![Figure: Good Example - Elipsis being used on a button requiring user input](/GoodElipsis4.png)  
 :::

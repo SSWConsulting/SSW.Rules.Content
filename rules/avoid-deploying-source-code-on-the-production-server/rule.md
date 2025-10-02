@@ -30,7 +30,7 @@ To access this dialog box, please open a website that you want to deploy and cli
 
 ![Figure: Publish Website dialog box](publish-website-dialog.jpg)
 
-See more about [Publishing Websites](<https://docs.microsoft.com/en-us/previous-versions/20yh9f1b(v=vs.140?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>).
+See more about [Publishing Websites](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd465337(v=vs.110)).
 
 ### 2. Web Application Project
 
@@ -42,4 +42,4 @@ To access this dialog box, open a Web application project that you want to publi
 
 ![Figure: Publish Web dialog box](publish-web-app-dialog.jpg)
 
-See more about [How to Publish Web Applications](<https://docs.microsoft.com/en-us/previous-versions/aspnet/aa983453(v=vs.100?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>).
+See more about [How to Publish Web Applications](https://learn.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-aspnet-web-app?view=vs-2022).

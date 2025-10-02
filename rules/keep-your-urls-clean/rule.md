@@ -84,7 +84,7 @@ Figure: Good example – Clean URL on a new line is easy to read and looks much 
 **Note:** Make sure to [place the URL on a new line](/format-new-lines/#urls) to reduce clutter and improve readability.
 :::
 
-## Tip #2 - Remove "<https://www>."
+## Tip #2 - Remove `https://` and `www`
 
 For **presentations** and **videos** (i.e. (lower thirds](/video-editing-terms/#3-lower-third)), it's especially important to keep URLs cleaner. Remember to always remove `https://www.` from links. It keeps the slides cleaner and more readable.
 

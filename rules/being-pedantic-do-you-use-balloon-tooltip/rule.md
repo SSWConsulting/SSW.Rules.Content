@@ -16,11 +16,11 @@ The standard tooltip is a rectangle, so the tool tip for the control can be misl
 <!--endintro-->
 
 ::: bad  
-![Figure: Standard tooltip.](../../assets/BadTooltip.gif)  
+![Figure: Standard tooltip.](/BadTooltip.gif)  
 :::
 
 ::: good  
-![Figure: Balloon tooltip.](../../assets/GoodTooltip.gif)  
+![Figure: Balloon tooltip.](/GoodTooltip.gif)  
 :::
 
 To implement you can:

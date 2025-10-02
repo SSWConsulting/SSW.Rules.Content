@@ -56,7 +56,7 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 ![Figure: GitHub Copilot suggestions being suppressed due to potential inaccuracy](github-copilot-review-low-confidence.png)
 :::
 
-In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description. 
+In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description.
 
 ::: img-medium
 ![Figure: PR description suggested by GitHub copilot](github-suggested-pr-description.png)
@@ -86,7 +86,7 @@ Cursor's BugBot allows you to configure automatic code reviews for a specific re
 
 ### CodeRabbit
 
-[CodeRabbit](https://www.coderabbit.a) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. 
+[CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial.
 
 ::: img-medium
 ![Figure: CodeRabbit leaving a comment on a PR](coderabbit.webp)

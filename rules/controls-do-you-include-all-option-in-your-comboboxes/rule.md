@@ -17,8 +17,8 @@ ComboBoxes are often used for filtering data. It is best to have an '-All-' opti
 
 It is important to understand the idea of **visual text** . In a list you could see either:
 
-- -None- or
-- No activity assigned
+* -None- or
+* No activity assigned
 
 They both have the same meaning, but the first one is immediately visible whereas the second one must be read.
 
@@ -34,25 +34,25 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
 ```
 
 ::: bad
-![Figure: Bad example - No '-All-' option so the user cannot select all data](../../assets/Combo-ALL-1.jpg)
+![Figure: Bad example - No '-All-' option so the user cannot select all data](/Combo-ALL-1.jpg)
 :::
 
 ::: good  
-![Figure: Good example - Having an '-All-' option gives a user a chance to select all data](../../assets/Combo-ALL-2.jpg)  
+![Figure: Good example - Having an '-All-' option gives a user a chance to select all data](/Combo-ALL-2.jpg)  
 :::
 
 Also, keep it simple!
 
 ::: bad  
-![Figure: Bad example - '-All Stores-' isn't needed](../../assets/SelectAllBad.jpg)  
+![Figure: Bad example - '-All Stores-' isn't needed](/SelectAllBad.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - Keep it as a simple '-All-'](../../assets/SelectAllGood.jpg)  
+![Figure: Good example - Keep it as a simple '-All-'](/SelectAllGood.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.](../../assets/SelectAllVGood.gif)
+![Figure: Good example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.](/SelectAllVGood.gif)
 :::
 
 Read our rule on [Always make sure the dimensions All Captions = All](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterBusinessIntelligence.aspx#AllDimensionsTag).

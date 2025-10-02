@@ -16,9 +16,9 @@ Every message box should contain a link to a wiki or KB with more details about 
 <!--endintro-->
 
 ::: bad  
-![Figure - Bad Example: User now has to Google to find out how to fix this error](../../assets/NoDirectForError.jpg)  
+![Figure - Bad Example: User now has to Google to find out how to fix this error](/NoDirectForError.jpg)  
 :::
 
 ::: good  
-![Figure - Good Example: If you click on the "Get Help..." link on the bottom of the form it will take you to a wiki page with common issues and resolutions](../../assets/DirectForError.jpg)  
+![Figure - Good Example: If you click on the "Get Help..." link on the bottom of the form it will take you to a wiki page with common issues and resolutions](/DirectForError.jpg)  
 :::

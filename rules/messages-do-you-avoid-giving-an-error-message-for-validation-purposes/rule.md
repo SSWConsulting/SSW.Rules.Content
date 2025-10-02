@@ -15,7 +15,7 @@ redirects:
 If you do a search and no matches are found, display a message indicating zero results were returned rather than an error message.
 
 ::: bad  
-![Figure: Bad Example - No matches found on searching is not an "Error"](../../assets/InappropriateError.gif)  
+![Figure: Bad Example - No matches found on searching is not an "Error"](/InappropriateError.gif)  
 :::
 
 <!--endintro-->
@@ -30,5 +30,5 @@ Forcing the user into this opinion is a good way to make them avoid using your s
 Instead, use the term "Information" when validation is required.
 
 ::: good  
-![Figure: Good Example - Only use "Error" when appropriate](../../assets/AppropriateMessage.gif)  
+![Figure: Good Example - Only use "Error" when appropriate](/AppropriateMessage.gif)  
 :::

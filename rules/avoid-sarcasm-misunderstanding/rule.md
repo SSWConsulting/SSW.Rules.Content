@@ -18,13 +18,14 @@ redirects:
 
 According to Sydney Morning Herald's "[Flame emails missing the mark](https://www.smh.com.au/national/flame-emails-missing-the-mark-20060216-gdmze2.html)":
 
-> "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
+\> "The senders of email messages expected their partners to correctly interpret their tone nearly 80% of the time, but in fact, they only scored just over 50%... Those attempting to interpret the message believed they had scored 90% accuracy".
 
 <!--endintro-->
 
 Because there is no "tone of voice" in an email, sarcasm can easily be misinterpreted by the receiver. You can use a smiley face or emoji to soften it up a bit.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -42,6 +43,7 @@ Bad example: This is bad because it may seem like John is being reprimanded, eve
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |

@@ -18,11 +18,11 @@ When you can't see all the text for an item in a ListView you need to expose the
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - Users can't see all the text and the ListView doesn't use a Tooltip](../../assets/ListViewWithoutToolTip.gif)  
+![Figure: Bad example - Users can't see all the text and the ListView doesn't use a Tooltip](/ListViewWithoutToolTip.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Users can't see all the text, but the ListView shows all the text via a Tooltip](../../assets/ListViewWithToolTip.gif)  
+![Figure: Good example - Users can't see all the text, but the ListView shows all the text via a Tooltip](/ListViewWithToolTip.gif)  
 :::
 
 The code to do this is:
