@@ -2,7 +2,7 @@
 type: rule
 title: Do you include UAT in each Sprint?
 seoDescription: Embrace UAT in Scrum by incorporating your testing processes into the Sprint
-uri: no-uat-phase-in-scrum
+uri: uat-in-sprint
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
