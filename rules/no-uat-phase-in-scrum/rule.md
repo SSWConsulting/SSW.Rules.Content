@@ -48,7 +48,6 @@ The best way to handle UAT is to include your testers within the development tea
 
 ![Figure: Good example - cross-functional teams deliver features faster](cooperative-devs.png)
 
-
 ## Does that mean I should ditch my UAT environment?
 
 This is a good question, and generally, the answer is "No". Environments are a separate concern, and having a UAT environment is often the best location for your testers to perform UAT testing. The important distinction here is that your deployment pipelines should be delivering code changes to whatever environment the testers need for UAT *within the same Sprint that the feature is being developed*.
