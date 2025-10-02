@@ -18,23 +18,23 @@ created: 2025-10-02T22:40:45.273Z
 guid: 091b9044-5067-4bfc-aa15-0fcd150eb94b
 ---
 
-User Acceptance Testing (UAT) is an integral component of software release cycles, but it can often be treated as a secondary backlog of work that's managed independently of the development Sprint. This separation adds friction, creates delays, and **costs you more money** for every piece of work. UAT is incredibly valuable, so make sure you're doing it right.
+User Acceptance Testing (UAT) is common in software release cycles, but it can often be treated as a secondary backlog of work that's managed independently of the development Sprint. This separation adds friction, creates delays, and **costs more money** for every feature. UAT is incredibly valuable, so make sure you're doing it right.
 
 <!-- endintro -->
 
 ## What is UAT?
 
-Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of dedicated testers. Regardless; the concept remains the same. Once the development work has been signed off by the relevant testing authority, the work is approved for production and is ready to be shipped.
+Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of users (ideally real users, but sometimes stakeholders). Regardless; the concept remains the same. Once the development work has been signed off by the relevant testing authority, the work is approved for production and is ready to be shipped.
 
 ## UAT done wrong
 
-In many projects, QA or testing will be treated as an entirely separate phase to development. The Scrum team will work on a Product Backlog Item, merge their code, and set the PBI's status to "Ready for testing". These PBIs will then be managed separately as a "UAT backlog", where it may be days or weeks until that PBI is picked up by the QA team and actioned.
+In many projects, QA or testing will be treated as an entirely separate phase to development. The Scrum team will work on a PBI, merge their code, and set the PBI's status to "Ready for testing". These PBIs will then be managed separately as a "UAT backlog", where it may be days or weeks until that PBI is picked up by the QA team and actioned.
 
 A PBI marked as "Ready for testing" means it cannot be marked as "Done" until testing is complete. This creates long-lived PBIs that constantly prevent teams from meeting their Sprint Goal, as they are never able to mark all PBIs as "Done" by the end of the Sprint.
 
 Additionally, there may be bugs found by testers, meaning those PBIs are thrown back onto the development backlog and have to be re-prioritized and scheduled for future Sprints (or, worse, disrupt the current Sprint). Not to mention that, after all this time, the developers themselves may have already context-switched to different problems and will have to reacquaint themselves with the feature once again.
 
-![Figure: Break down the wall between development and testing](dev-uat.png)
+![Figure: Bad example - walls between development and testing](dev-uat.png)
 
 As you can imagine, this disconnect between development and acceptance testing can result in a significant drop in delivery speed, and dramatically increase the business cost for many work items.
 
@@ -45,6 +45,9 @@ The best way to handle UAT is to include your testers within the development tea
 > It is important to remember that a Developer is not necessarily a software developer. They can focus on any type of product work whether software or not and any aspect of helping to design, build, test or ship the product.
 >
 > <https://www.scrum.org/resources/what-is-a-scrum-developer>
+
+![Figure: Good example - cross-functional teams deliver features faster](cooperative-devs.png)
+
 
 ## Does that mean I should ditch my UAT environment?
 
