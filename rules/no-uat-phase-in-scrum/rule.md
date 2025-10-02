@@ -12,7 +12,7 @@ related:
   - acceptance-criteria
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
   - do-you-have-separate-development-testing-and-production-environments
-created: 2021-12-20T22:40:45.273Z
+created: 2025-10-02T22:40:45.273Z
 guid: 091b9044-5067-4bfc-aa15-0fcd150eb94b
 ---
 
