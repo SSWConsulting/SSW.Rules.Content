@@ -2,7 +2,7 @@
 type: rule
 title: Do you include UAT in each Sprint?
 seoDescription: Embrace UAT in Scrum by incorporating your testing processes into the Sprint
-uri: no-uat-phase-in-scrum
+uri: uat-in-sprint
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
@@ -64,6 +64,6 @@ One of the most common causes of an ever-growing backlog is ill-defined [Accepta
 
 ### Programmer to Tester ratio
 
-If you have a poor dev to test ratio, your testing team will be stretched too thin. If you manage your QA department separately to your development teams, this is often the result. Your testers will be trying to service multiple dev teams, with competing priorities, and thus will start to silo themselves and thereby start managing their own separate testing backlog. 
+If you have a poor dev to test ratio, your testing team will be stretched too thin. If you manage your QA department separately to your development teams, this is often the result. Your testers will be trying to service multiple dev teams, with competing priorities, and thus will start to silo themselves and thereby start managing their own separate testing backlog.
 
 ✅ Fix: Embrace the **cross-functional** nature of a Scrum team, and include dedicated testers in each team.
