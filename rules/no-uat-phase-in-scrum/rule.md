@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - acceptance-criteria
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
