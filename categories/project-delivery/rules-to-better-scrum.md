@@ -70,6 +70,7 @@ index:
   - backlog-refinement-meeting
   - acceptance-criteria
   - do-you-assign-severity-levels
+  - no-uat-phase-in-scrum
 ---
 
 Ready to revolutionize your project management? Check [SSW's Scrum and Agile Methodologies consulting page](https://www.ssw.com.au/consulting/scrum).
