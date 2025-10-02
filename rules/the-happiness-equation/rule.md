@@ -12,23 +12,23 @@ created: 2022-01-11T16:17:36.024Z
 guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
 ---
 
-`youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
-**Video: Fairness and Helping Each Other - 10 tips with [Adam Cogan](https://ssw.com.au/people/adam-cogan) (8 min)**
-
 Everyone wants a place where people help each other. Unfairness can really impact people in the workplace.
 
 It all starts with how you approach things, some people are better than others at dealing with unfair situations.
 
-Lets assume one of these common scenarios:
+<!--endintro-->
 
-- New great project – someone is assigned to it... someone is unhappy
-- New promotion – someone gets it, someone else is unhappy
+Let's assume one of these common scenarios:
+
+* **New great project** – Someone is assigned to it... someone is unhappy
+* **New promotion** – Someone gets it, someone else is unhappy
 
 These might seem like unfair situations. People don’t want to be unfair... friends don't... bosses don't.
 
-Here are 10 tips for how you can manage unfairness.
+## 10 tips for how you can manage unfairness
 
-<!--endintro-->
+`youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
+**Video: Fairness and Helping Each Other - 10 tips with [Adam Cogan](https://ssw.com.au/people/adam-cogan) (8 min)**
 
 1. **Gotta speak up** - See [Do you know to speak up?](/speak-up)
 2. **Happiness is relative** - Unhappiness can come from comparisons with others. Instead compare yourself with your day yesterday.
@@ -36,8 +36,8 @@ Here are 10 tips for how you can manage unfairness.
 4. **The 'Happiness Equation'**
    Happiness = Reality - Expectations.<br>
    If you want to be happier, then:
-   - Reduce your expectations
-   - Increase your reality
+   * Reduce your expectations
+   * Increase your reality
 5. **Consider luck** - Everyone wants to succeed in life. But what causes some of us to be more successful than others? Is it really down to skill and strategy - or something altogether more unpredictable? Sometimes peoples success is simply luck. Read [the book "Fooled by Randomness"](https://en.wikipedia.org/wiki/Fooled_by_Randomness)
 6. **Compete with yourself by embracing Scrum** – Competing with yourself is the best approach. The same with teams.
    In software, Scrum is the best way of working as you only compare yourself... or your team with what you did before. Using empirical data is the way to go.
@@ -53,5 +53,3 @@ Here are 10 tips for how you can manage unfairness.
    Overly ambitious people are often unhappy... they never get there! Sometimes people find they are never rich or successful enough...
 10. **Celebrate other people's wins** - Be at peace and in a place where you are pushing each other up, rather than climbing over each other. Everybody gets their days of sunshine. When others achieve a goal, be happy for them, send a nice message, 'like' their posts, etc.
     > "Always clap for your friends, even if their dreams come true before yours."
-
-Do the above and you can have a culture of helping yourself and helping others.

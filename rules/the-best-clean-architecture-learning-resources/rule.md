@@ -21,6 +21,8 @@ redirects:
 
 There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s videos:
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/5OtUm1BLmG0`
 
 **Video: Clean Architecture with ASP.NET Core 3.0 - Jason Taylor - NDC Sydney 2019 (1 hr)**
@@ -30,8 +32,6 @@ There are many great resources for learning the principles of Clean Architecture
 **Video: Clean Architecture with ASP.NET Core 2.1 | Jason Taylor (49 min)**
 
 Check out the [Awesome Clean Architecture repo](https://github.com/sswconsulting/awesome-clean-architecture) for a community driven up-to-date list of CA resources.
-
-<!--endintro-->
 
 ## Further reading
 

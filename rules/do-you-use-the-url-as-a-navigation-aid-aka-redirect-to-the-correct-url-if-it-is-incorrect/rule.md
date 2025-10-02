@@ -16,13 +16,13 @@ archivedreason: null
 guid: 7f894c9f-4c5f-4460-a5f0-cfe8e0fa5805
 ---
 
-`youtube: http://www.youtube.com/embed/1j3m4A9Tlhc`
-
-**Figure: Watch the URL working as a navigation aid**
-
 MVC gives us great URLs, but you need to help users navigate via the URL. If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.
 
 <!--endintro-->
+
+`youtube: http://www.youtube.com/embed/1j3m4A9Tlhc`
+
+**Video: Do you use the URL as a navigation aid (aka redirect to the correct url if it is incorrect)? (35 sec)**
 
 ```cs
 public ActionResult Edit(string employeename, int id)
@@ -45,7 +45,7 @@ Figure: Good example - The comment says it all Wordpress and Stack Overflow hav
 :::
 
 ::: greybox
-http://stackoverflow.com/questions/729921/settimeout-or-setinterval
+<http://stackoverflow.com/questions/729921/settimeout-or-setinterval>
 :::
 
 ::: good
