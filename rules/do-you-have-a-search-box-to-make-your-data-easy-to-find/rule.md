@@ -19,7 +19,7 @@ Make your data easily accessible by incorporating a "search box" that helps user
 <!--endintro-->
 
 ::: good  
-![Figure: Good example - A "search box" makes it easy to find data](/EasySearch.png)  
+![Figure: Good example - A "search box" makes it easy to find data](EasySearch.png)  
 :::
 
 ::: good  
