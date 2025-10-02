@@ -30,7 +30,7 @@ Developers build a feature, and before shipping that feature to the wider audien
 
 In many projects, QA or testing will be treated as an entirely separate phase to development. The Scrum team will work on a Product Backlog Item, merge their code, and set the PBI's status to "Ready for testing". These PBIs will then be managed separately as a "UAT backlog", where it may be days or weeks until that PBI is picked up by the QA team and actioned.
 
-Additionally, there may be bugs found by testers, meaning those PBIs are thrown back onto the development backlog and have to be re-prioritized and scheduled for future Sprints (or, worse, disrupt the current Sprint). Not to mention that, after all this time, the developers themselves may have already context-switched to different problems and will have to reaquaint themselves with the feature once again.
+Additionally, there may be bugs found by testers, meaning those PBIs are thrown back onto the development backlog and have to be re-prioritized and scheduled for future Sprints (or, worse, disrupt the current Sprint). Not to mention that, after all this time, the developers themselves may have already context-switched to different problems and will have to reacquaint themselves with the feature once again.
 
 As you can imagine, this disconnect between development and acceptance testing can result in a significant drop in delivery speed, and dramatically increase the business cost for many work items.
 
