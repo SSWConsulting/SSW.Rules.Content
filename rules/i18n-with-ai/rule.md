@@ -48,7 +48,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 * **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are
 * **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
 
-**Note:** RTL means "Right to Left"
+**Note:** RTL stands for "Right-To-Left"
 
 ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
 
@@ -66,8 +66,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ❌ Don’t hardcode pixel widths for buttons or labels\
   ✅ Use flex layouts, `min-width`, `word-break`
 
-* **Plan for RTL**
-Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
+* **Plan for RTL**  
+  💡 Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
   ✅ Test with `direction: rtl;` CSS  \
   ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
 
@@ -95,37 +95,37 @@ Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
 
 Users can rely on Google Translate in their browser if implementation time is lacking.
 
-#### Pros
+#### ✅ Pros
 
-✅ Immediate availability with zero development effort  
-✅ No implementation or maintenance costs
+- Immediate availability with zero development effort  
+- No implementation or maintenance costs
 
-#### Cons
+#### ❌ Cons
 
-❌ Poor user experience and unprofessional appearance  
-❌ Inaccurate translations and broken UI elements  
-❌ Potential loss of international users  
+- Poor user experience and unprofessional appearance  
+- Inaccurate translations and broken UI elements  
+- Potential loss of international users  
 
 ### Implement i18n libraries
 
 Use standard i18n tools (see below) with an internal translation workflow.  
 
-#### Pros
+#### ✅ Pros
 
-✅ High-quality, controlled translations  
-✅ Professional multilingual user experience  
-✅ Native language support and better SEO  
-✅ Full control of data
+- High-quality, controlled translations  
+- Professional multilingual user experience  
+- Native language support and better SEO  
+- Full control of data
 
-#### Cons
+#### ❌ Cons
 
-❌ Significant development time and delays  
-❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-❌ Ongoing costs for maintaining and updating translations with each new feature  
-❌ Complex maintenance of language files  
-❌ Slow update process for new content  
+- Significant development time and delays  
+- High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
+- Ongoing costs for maintaining and updating translations with each new feature  
+- Complex maintenance of language files  
+- Slow update process for new content  
 
-### Useful Non-AI tools
+### Useful non-AI tools
 
 * **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
 * **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
@@ -139,7 +139,7 @@ Use standard i18n tools (see below) with an internal translation workflow.
 Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
 
 `youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (watch from 8:10 to 16:40)**
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss - watch from 8:10 to 16:40 (8 min)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
 
@@ -156,36 +156,36 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 #### 1. Small project - Essentials (POC)  
 
+**Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
 **Stack:** use traditional non-AI i18n approaches.  
-**Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
 
 ✅ Cheap, fast, avoids future i18n debt  
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium project - Step further with TMS  
 
+**Use case:** Multi-language app with a small team, growing product with consistent branding needs.  
 **Approach:** Add a lightweight Translation Management System (TMS) like [Phrase](https://phrase.com/), [Lokalise](https://lokalise.com/), or [Crowdin](https://crowdin.com/). Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
-**Use case:** Multi-language app with a small team, growing product with consistent branding needs.  
 
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
 
 #### 3. Large project - AI in CI/CD
 
+**Use case:** SaaS products with frequent releases, multiple languages, distributed dev teams.  
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
-**Use case:** SaaS products with frequent releases, multiple languages, distributed dev teams.  
 
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
 
 #### 4. Enterprise project - Full-blown live LLM translation  
 
+**Use case:** UGC-heavy platforms, fast-changing content, global e-commerce.  
 **Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
-**Use case:** UGC-heavy platforms, fast-changing content, global e-commerce.  
 
 ✅ Instant coverage, great for user content and fast-changing text  
 ❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
