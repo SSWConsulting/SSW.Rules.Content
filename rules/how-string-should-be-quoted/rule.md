@@ -19,7 +19,7 @@ redirects:
 Do you know String should be @-quoted instead of using escape character for "\\"?
 The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
 
-As per: [Strings](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90)?redirectedfrom=MSDN>)
+As per: [Strings](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>)
 
 <!--endintro-->
 
@@ -71,4 +71,4 @@ var good = """
 Figure: Good example - Using raw string literals
 :::
 
-For more information on Raw String literals see [learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string)
+For more information on Raw String literals see [learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string?WT.mc_id=DT-MVP-33518)

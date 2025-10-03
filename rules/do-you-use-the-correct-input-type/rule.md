@@ -2,11 +2,17 @@
 seoDescription: Discover how using the correct HTML5 input types enhances mobile usability with dedicated keyboards for tasks like email, phone numbers, and URLs.
 type: rule
 archivedreason:
-title: Do you use the correct input type?
+title: Do you use the correct HTML input type?
 guid: 00cffd59-b110-46db-ab2d-bb70c0dbe9cf
 uri: do-you-use-the-correct-input-type
 created: 2015-05-22T03:02:36.0000000Z
-authors: []
+authors: 
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
@@ -18,26 +24,22 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 
 <!--endintro-->
 
-![](field-type-text.png)
-
 ```html
 <label for="phone">Phone</label>:
 <input type="text" name="phone" />
 ```
 
-::: bad
-Figure: Bad example – This field is using a text type and shows a standard keyboard on mobile  
+::: bad img-medium
+![Figure: Bad example – This field is using a "text" type and shows a standard keyboard on mobile](field-type-text.png)
 :::
-
-![](field-type-tel.png)
 
 ```html
 <label for="phone">Phone</label>:
 <input type="tel" name="phone" />
 ```
 
-::: good
-Figure: Good example – This field is using the correct field type and shows the keypad on mobile
+::: good img-medium
+![Figure: Good example – This field is using the correct field type and shows the keypad on mobile](field-type-tel.png)
 :::
 
 Here is a table of some useful input types and what they do:

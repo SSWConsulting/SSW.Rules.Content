@@ -3,7 +3,7 @@ seoDescription: Do you have a Knowledge Base (KB)?
 type: rule
 archivedreason:
 title: Do you have a Knowledge Base (KB)?
-guid: 00879668-3bca-40bf-bdeb-7e4970062fc6
+guid: be630745-f956-4c85-a521-5c8b210f93fe
 uri: knowledge-base-kb
 created: 2009-03-02T02:45:54.0000000Z
 authors:
@@ -58,7 +58,7 @@ The basic rule is: don't send back the answer in your email - instead send back 
 
 Thank you for taking the time to report the issue to SSW CodeAuditor.
 
-I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Skype
+I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams
 
 Kind Regards,  
 Bob

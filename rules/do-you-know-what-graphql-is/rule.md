@@ -14,4 +14,7 @@ guid: f31082fc-55b7-4cbb-bc81-7a035d9b8f43
 
 [GraphQL](https://graphql.org/) is a query language for your API. Check the video below to have a quick intro.
 
-`youtube: https://www.youtube-nocookie.com/embed/eIQh02xuVw4`
+<!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=eIQh02xuVw4`
+**Video: GraphQL Explained in 100 Seconds (2 min)**

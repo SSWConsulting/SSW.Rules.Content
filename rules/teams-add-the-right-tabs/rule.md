@@ -28,7 +28,7 @@ When you're having a discussion about the Northwind ordering system that you're 
 
 <!--endintro-->
 
-What separates Teams from other chat programs, such as Slack and Skype, is the ability to add Tabs to your conversations.
+What separates Teams from other chat programs, such as Slack, is the ability to add Tabs to your conversations.
 
 The number of tabs is really broad and starts with the standard Microsoft products such as Excel, Word, and PowerPoint. You can also create tabs using Trello, YouTube, Zendesk, and more. The usefulness of this feature cannot be understated – it is so handy to have all your work items in one place.
 

@@ -7,29 +7,30 @@ index:
 - underlined-links
 - descriptive-links
 - do-you-distinguish-visited-links
-- do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
+- active-menu-item
 - do-you-use-mega-menu-navigation-to-improve-usability
+- hamburger-menu
 - do-you-add-breadcrumb-to-every-page
 - simplify-breadcrumbs
 - do-your-wizards-include-a-wizard-breadcrumb
 - do-you-display-information-consistently
 - do-you-make-sure-your-page-name-is-consistent-in-three-places
 - do-you-make-your-links-intuitive
+- use-icons-to-not-surprise-users
+- do-you-make-external-links-clear
+- external-links-open-on-a-new-tab
+- avoid-absolute-internal-links
 - do-you-put-all-essential-links-in-your-website-on-your-navigation-bar
-- do-you-remember-to-change-the-default-title-of-a-newly-created-page
 - do-you-make-your-pages-easy-to-access
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
 - anchor-links
 - efficient-anchor-names
 - do-you-use-the-right-anchor-names
+- heading-to-anchor-targets
 - hyperlink-phone-numbers
 - add-callable-link
-- do-you-make-external-links-clear
-- external-links-open-on-a-new-tab
-- avoid-absolute-internal-links
 - do-you-save-clicking-through
-- use-icons-to-not-surprise-users
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 - do-you-have-a-related-links-section
 - do-you-avoid-email-harvesting-or-spamming-by-using-images
@@ -39,10 +40,10 @@ index:
 - do-you-avoid-letting-the-screen-go-white
 - do-you-give-option-to-widen-a-search
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
-- do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
 - urls-must-not-have-unc-paths
 - no-full-stop-or-slash-at-the-end-of-urls
-
+- do-you-remember-to-change-the-default-title-of-a-newly-created-page
+  
 ---
 
 

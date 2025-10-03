@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Lync features include internal calls, call transfer, conference calling and more, with presence icons, IM functionality, federation abilities, meetings, remote desktop and whiteboard capabilities.
 type: rule
-archivedreason:
+archivedreason: Microsoft Lync has been deprecated and replaced by Microsoft Teams, which offers enhanced features and functionality. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know the primary features of Lync? (Software Phones with Microsoft Lync)
 guid: 07a37029-b9f4-4969-a98d-f2671d2ca3fd
 uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lync
@@ -16,26 +16,23 @@ redirects:
 
 Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone)
 
-`youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
+<!--endintro-->
 
-
+`youtube: https://www.youtube.com/embed/z45_IMwslYw`
+**Video: How To Use Microsoft Lync 2013 Features with Brooke Rooney (3 min)**
 
 There are a lot of features of Microsoft Lync. The primary features are:
 
-<!--endintro-->
-
-- Internal calls
-- Transfer a call
-- Conference a call
+* Internal calls
+* Transfer a call
+* Conference a call
 
 Plus even more:
 
-- Receiving your voice mails into your email
-- Presence Icon
-- IM functionality
-- Federation Abilities (so you have more people on your IM)
-- Meetings
-- Remote Desktop
-- Whiteboard
-
-Read more about [implementing Microsoft Lync](https://www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx).
+* Receiving your voice mails into your email
+* Presence Icon
+* IM functionality
+* Federation Abilities (so you have more people on your IM)
+* Meetings
+* Remote Desktop
+* Whiteboard

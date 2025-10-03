@@ -1,85 +1,87 @@
 ---
 type: rule
 title: Do you use Microsoft Teams Rooms?
-seoDescription: Microsoft Teams Rooms simplifies meeting setup and
-  collaboration, eliminating wasted time, complexity, and user discomfort.
+seoDescription: Discover how Microsoft Teams Rooms with Logitech hardware
+  delivers effortless, one-touch video meetings that eliminate setup hassles and
+  boost collaboration in any modern workspace.
 uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kiki Biancatti
+    url: https://www.ssw.com.au/people/kiki
+related:
+  - the-best-boardroom-av-solution
 created: 2023-09-05T08:15:32.788Z
 guid: e6f53005-699e-4594-b2f3-e0254115de07
 ---
 
-In today's fast-paced work environment, efficient communication and collaboration are paramount. However, we often encounter a common and frustrating pain point when entering a meeting room: the time-consuming and error-prone process of setting up and configuring the technology.
+In a fast-paced work environment, efficient communication and collaboration are paramount. However, we often encounter a common and frustrating pain point when entering a meeting room: the time-consuming and error-prone process of setting up and configuring the technology.
 
 <!--endintro-->
 
-`youtube: https://youtu.be/3JxH3Hq2s1M`
-**Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
+`youtube: https://www.youtube.com/embed/ATq5ukOA53U`
+**Video: Effortless Meetings with Logitech Tap Rally Bar + Microsoft Teams Room | Kaique Biancatti (6 min)**
 
-## The Pain
+## The pain
 
-1. **Wasted Time:** We've all been there - you step into a meeting room, only to find that the TV is off or the settings are incorrect. The precious minutes spent troubleshooting can disrupt the flow of your meetings and impact productivity
-2. **Complexity:** Modern meeting rooms are equipped with a variety of devices and software, making it challenging to ensure everything works seamlessly. The juggling act of remote controls, apps, and cables can lead to confusion and frustration
-3. **Missed Opportunities:** In today's fast-paced business world, every second counts. A delayed start or technical glitches can result in missed opportunities, whether it's a crucial client call or a collaborative brainstorming session
-4. **User Discomfort:** Users may feel uncomfortable or overwhelmed by technology issues, affecting their confidence and overall experience in the meeting room
+* **Wasted Time** - We've all been there - you step into a meeting room, only to find that the TV is off or the settings are incorrect. The precious minutes spent troubleshooting can disrupt the flow of your meetings and impact productivity
+* **Complexity** - Modern meeting rooms are equipped with a variety of devices and software, making it challenging to ensure everything works seamlessly. The juggling act of remote controls, apps, and cables can lead to confusion and frustration
+* **Missed Opportunities** - In today's fast-paced business world, every second counts. A delayed start or technical glitches can result in missed opportunities, whether it's a crucial client call or a collaborative brainstorming session
+* **User Discomfort** - Users may feel uncomfortable or overwhelmed by technology issues, affecting their confidence and overall experience in the meeting room
 
-Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. You can also check out more information on Microsoft's website at [Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms).
+## The solution - Microsoft Teams Rooms
 
-::: bad  
-![Figure: Bad Example - Cable adapter Hell](bad-example-too-many-cables.png)  
-:::
+Now, imagine a solution that eliminates these pain points, making every meeting a hassle-free and productive experience. Microsoft Teams Rooms offers user-friendly options to transform your meetings into smooth and efficient interactions. 
 
-::: good  
-![Figure: Good Example - Using Microsoft Teams Room setup | Photo Credit: https://proav.pl/logitech-nowe-rozwiazania-do-pracy-zdalnej/](Logitech-Rally-Bar-Switch-Tab.png)  
-:::
+Find more information on [Microsoft's website for Microsoft Teams Rooms](https://www.microsoft.com/en-au/microsoft-teams/microsoft-teams-rooms).
 
-## The Hardware
+### The hardware
 
 Before you think about Microsoft Teams Rooms, you need different pieces of hardware to be able to use it. This generally consists of:
 
-- An intelligent camera
-- Good microphones
-- Speakers
-- A touchscreen to control your call
-- A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
+* An intelligent camera
+* Good microphones
+* Speakers
+* A touchscreen to control your call
+* A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
 
-These are generally sold by Microsoft Teams Rooms partners like [Logitech](https://www.logitech.com/en-au/video-collaboration/partners/microsoft.html), Yealink, Poly, Dell, Cisco, and they are generally sold in bundles by room size:
-
-- Huddle/Small rooms
-- Medium rooms
-- Large/Boardrooms
+These are generally sold by Microsoft Teams Rooms partners like [**Logitech](https://www.logitech.com/en-au/video-collaboration/partners/microsoft.html)**, **Yealink**, **Poly**, **Dell**, **Cisco**; and they are generally sold in bundles by room size: huddle/small, medium, large/boardrooms.
 
 You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packages and Systems](https://www.microsoft.com/en-au/microsoft-teams/across-devices/devices/category/teams-rooms/20)
 
-After you've acquired the gear, then it's time to see how to use your Microsoft Teams Rooms setup. In the scenarios below, let's pretend that `TeamsRoom@northwind.com` is the email address set for your Teams Rooms device.
+After you've acquired the gear, then it's time to see how to use your Microsoft Teams Rooms setup. In the scenarios below, let's pretend that TeamsRoom@northwind.com is the email address set for your Teams Rooms device.
 
-## Option 1 - Start a call from Microsoft Teams Room
+### Option 1 - Start a call from Microsoft Teams Room
 
-1. Check if the TV is on. If it's off, use the remote to turn it on
-2. Change the HDMI output on your TV to the Microsoft Teams Rooms device, if not already
-3. On the Microsoft Teams Rooms touchscreen, click "Meet" to start a call
-4. Invite participants as needed
-5. Utilize the touchscreen for meeting controls, such as sharing content and adjusting settings
-6. End the call using the touchscreen
+1. Check if the TV is on. If it's off, use the remote to turn it on.
+2. Change the HDMI output on your TV to the Microsoft Teams Rooms device, if not already.
+3. On the Microsoft Teams Rooms touchscreen, click "Meet" to start a call.
+4. Invite participants as needed.
+5. Utilize the touchscreen for meeting controls, such as sharing content and adjusting settings.
+6. End the call using the touchscreen.
 
-## Option 2 - Add the Microsoft Teams Room to your Teams call
+### Option 2 - Add the Microsoft Teams Room to your Teams call
 
-1. Start a Teams call from another device, like your laptop or mobile phone
-2. Add `TeamsRoom@northwind.com` to the call, like you would invite anyone else
-3. Mute yourself on other devices to avoid audio issues
-4. Continue the call
+1. Start a Teams call from another device, like your laptop or mobile phone.
+2. Add TeamsRoom@northwind.com to the call, like you would invite anyone else.
+3. Mute yourself on other devices to avoid audio issues.
+4. Continue the call.
 
-## Option 3 - CC (Carbon Copy) the Microsoft Teams Room in your Outlook appointments
+### Option 3 - CC (Carbon Copy) the  Microsoft Teams Room in Your Outlook Appointments
 
-1. Include `TeamsRoom@northwind.com` in your Outlook appointments
-2. Scheduled appointments will appear on the room's screen
-3. On the touchscreen, join the meeting by clicking "Join" when the appointment starts
+1. Include TeamsRoom@northwind.com in your Outlook appointments.
+2. Scheduled appointments will appear on the room's screen.
+3. On the touchscreen, join the meeting by clicking **"Join"** when the appointment starts.
 
-## Bonus - Share your Laptop Screen
+### Option 4 - Forward the appointment to the Microsoft Teams Room
+
+1. If you already have a meeting scheduled in Outlook or Teams, open the calendar appointment.
+2. Forward the invitation to **TeamsRoom@northwind.com** (the email address assigned to your Teams Room device).
+3. The meeting will automatically appear on the room’s touchscreen console.
+4. When it’s time for the meeting, simply walk in and tap **“Join”** on the console to get started.
+
+### Bonus - Share your laptop screen
 
 Logitech is the recommended partner for getting your hardware from, as they have many options and easy-to-use systems. One of these options is the Logitech Swytch, a USB-C/USB-A dongle that you can use to connect any computer to, and it then shares your laptop screen directly to the TV.
 

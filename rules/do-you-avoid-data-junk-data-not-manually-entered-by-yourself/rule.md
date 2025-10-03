@@ -32,7 +32,7 @@ Likewise in a contacts database where you have entries from all around the world
 A good example on that the checkbox on the search screen of TimePRO.NET:
 
 ::: good  
-![Figure: Default search tick box in TimePRO.NET](../../assets/DefaultSearch.gif)  
+![Figure: Default search tick box in TimePRO.NET](/DefaultSearch.gif)  
 :::
 
 Read our rule on [Validation - Do you avoid capturing incorrect data?](/validation-do-you-avoid-capturing-incorrect-data)

@@ -98,6 +98,6 @@ Figure: Good example - Confirming the priority order with the client
 * The most recent task assigned is not necessarily the most important (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land)
 * You can use inbox subfolders to group and prioritize tasks
 
-  ::: good
-  ![Figure: Group by subfolders under your inbox](subfolders.png)
-  :::
+::: good
+![Figure: Group by subfolders under your inbox](subfolders.png)
+:::

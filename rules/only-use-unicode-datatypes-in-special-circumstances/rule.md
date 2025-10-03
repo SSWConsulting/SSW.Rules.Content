@@ -19,7 +19,7 @@ Columns defined using the nchar and nvarchar datatypes can store any character 
 
 <!--endintro-->
 
-It is not the disk space costs that are the concern. It is the 8060 limit, please refer to [Maximum Capacity Specifications for SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server?redirectedfrom=MSDN&view=sql-server-ver15) for details.
+It is not the disk space costs that are the concern. It is the 8060 limit, please refer to [Maximum Capacity Specifications for SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server?redirectedfrom=MSDN&view=sql-server-ver15&WT.mc_id=DP-MVP-33518) for details.
 
 If your database stores only English characters, this is a waste of space. Don't use Unicode double-byte datatypes such as nchar and nvarchar unless you are doing multilingual applications.
 

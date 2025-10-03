@@ -1,7 +1,7 @@
 ---
 seoDescription: Responsive web design ensures a seamless user experience across various devices and screen sizes by dynamically adjusting layout and content presentation based on the user's device.
 type: rule
-title: On-page - Do you design websites and apps to be responsive (aka mobile-friendly)?
+title: Do you design websites and apps to be responsive (aka mobile-friendly)?
 uri: responsive-design
 authors:
   - title: Adam Cogan
@@ -9,7 +9,7 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/camilla-rosa-silva/
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-28aka-responsive-web-design29
@@ -28,7 +28,7 @@ Your goal should be to create designs that seamlessly adapt to various screen si
 <!--endintro-->
 
 ::: info
-The proportion of web users on mobile devices compared to desktop varies by region and demographic, but mobile web usage generally outpaces desktop.
+**Note:** The proportion of web users on mobile devices compared to desktop varies by region and demographic. **Mobile web usage generally outpaces desktop**.
 :::
 
 Responsive design remains crucial in today's digital landscape. It enables websites and apps to dynamically adjust their layout and content presentation based on the user's device, ensuring a consistent and optimal viewing experience across all platforms.
@@ -50,10 +50,12 @@ When designing for mobile web, several factors are particularly relevant for ens
 9. **Page Layout and Content Hierarchy:** Optimize your website's layout and content hierarchy for mobile screens, ensuring that key information is prominently displayed and easily accessible without excessive scrolling or zooming
 10. **Accessibility:** Prioritize accessibility features such as resizable text, high contrast modes, and screen reader compatibility to ensure that all users, including those with disabilities, can access and interact with your website effectively
 
-::: greybox
-Including a responsiveness check in your [Definition of Done (DoD)](/definition-of-done) is a valuable step. It helps ensure your project meets the needs of all users, providing a consistent and accessible experience.
+::: info
+**Tip:** Including responsiveness to your [Definition of Done (DoD)](/definition-of-done) is a valuable step. It helps ensure your project meets the needs of all users, providing a consistent and accessible experience.
 :::
 
-**Tip:** [Google PageSpeed Insights](https://pagespeed.web.dev/) is a valuable tool for optimizing your website's performance, including its mobile user experience.
+### Measure and improve your website’s performance
+
+[Google PageSpeed Insights](https://pagespeed.web.dev/) is a valuable tool for optimizing your website's performance, including its mobile user experience.
 
 ![Figure: Google PageSpeed Insights provides both lab and field data about your site's loading speed on mobile devices, along with actionable recommendations to improve performance](ssw-france-mobile-performance-google-pagespeed.png)

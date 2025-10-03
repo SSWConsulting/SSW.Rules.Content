@@ -20,62 +20,115 @@ App Registrations use secrets or certificates for authentication. It is importan
 
 ### Use a PowerShell script to check expiry dates
 
-An easy way to do this is to run a PowerShell script that checks the expiry date of all app registration secrets or certificates. This requires the Microsoft Graph PowerShell module, as the older AzureAD module is deprecated. The key cmdlets used are:
+An easy way to do this is to run a PowerShell script that checks the expiry date of all app registration secrets or certificates. This requires the Microsoft Graph PowerShell module, as the older AzureAD module is deprecated. The key cmdlets used is **Get-MgApplication**.
 
-Get-MgApplication
-Get-MgApplicationPassword
-Get-MgApplicationKeyCredential
-Here’s an updated script using the Microsoft Graph module:
+Here’s a script using the Microsoft Graph module. It will:
+- Get a list of app registrations with expiring secrets/certs within a specified date range
+- Email the list to a specified address, as well as any owners of the app registration
 
 ```
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+$LimitExpirationDays = 14 #secret expiration date filter - how many days in the future
+$LimitExpirationDaysPast = -14 #secret expiration date filter - how many days in the past
+
+$ownersEmail = @()
+
 # Install Microsoft Graph module (if not installed)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph)) {
-    Install-Module Microsoft.Graph -Scope CurrentUser -Force
+    Write-Host "Installing Microsoft Graph..."
+    Install-Module Microsoft.Graph -Scope AllUSers -Force
 }
 
-# Connect to Microsoft Graph with appropriate permissions
-Connect-MgGraph -Scopes "Application.Read.All"
+Connect-MgGraph
 
-# Get all applications
-$apps = Get-MgApplication -All
-
-# Check expiry dates of secrets and certificates
-foreach ($app in $apps) {
-    $secrets = Get-MgApplicationPassword -ApplicationId $app.Id
-    $certs = Get-MgApplicationKeyCredential -ApplicationId $app.Id
-
-    foreach ($secret in $secrets) {
-        if ($secret.EndDateTime -lt (Get-Date).AddDays(30)) {
-            Write-Host "Secret for App '$($app.DisplayName)' expires on $($secret.EndDateTime)"
+#Retrieving the list of secrets that expires in the above days
+$SecretsToExpire = Get-MgApplication -All | ForEach-Object {
+    $app = $_
+    $owners = ""
+    Get-MgApplicationOwner -ApplicationId $app.Id | ForEach-Object {
+        $owner = Get-MgUser -UserId $_.Id -ErrorAction SilentlyContinue | Select -ExpandProperty DisplayName
+        if ($null -ne $owner) {
+            $owners = $owners+$owner+", "
         }
     }
-
-    foreach ($cert in $certs) {
-        if ($cert.EndDateTime -lt (Get-Date).AddDays(30)) {
-            Write-Host "Certificate for App '$($app.DisplayName)' expires on $($cert.EndDateTime)"
+    @(
+        $app.PasswordCredentials
+        $app.KeyCredentials
+    ) | Where-Object {
+        $_.EndDateTime -lt (Get-Date).AddDays($LimitExpirationDays) -and $_.EndDateTime -gt (Get-Date).AddDays($LimitExpirationDaysPast)
+    } | ForEach-Object {
+        $id = "Not set"
+        if($_.CustomKeyIdentifier) {
+            $id = [System.Text.Encoding]::UTF8.GetString($_.CustomKeyIdentifier)
+        }
+        [PSCustomObject] @{
+            App = $app.DisplayName
+            ObjectID = $app.ObjectId
+            AppId = $app.AppId
+            Type = $_.GetType().name
+            KeyIdentifier = $id
+            EndDate = $_.EndDateTime
+            Owners = $owners
+        }
+        Get-MgApplicationOwner -ApplicationId $app.Id | ForEach-Object {
+            $ownerEmail = Get-MgUser -UserId $_.Id | Select -ExpandProperty mail
+            $ownersEmail += $ownerEmail
         }
     }
 }
+ 
+#Gridview list
+#$SecretsToExpire | Out-GridView
 
-```
+#Printing the list of secrets that are near to expire
+if($SecretsToExpire.Count -EQ 0) {
+    Write-Output "No secrets found that will expire in this range"
+}
+else {
+    Write-Output "Secrets that will expire in this range:" $SecretsToExpire.Count
+    Write-Output $SecretsToExpire
+}
 
-Automate Expiry Notifications
 
-To receive alerts, you can modify the script to send email notifications using Microsoft Graph API (Send-MgUserMail) instead of Send-MailMessage (which is deprecated). For example:
+$emailBody = @"
+    <div>
+        <p>Here is a list of expiring app registration secrets & certificates. Please renew them before they expire!</p>
+    </div>
+"@
+$emailBody += '<pre>{0}</pre>' -f ($SecretsToExpire | Format-Table -AutoSize -Property App,EndDate,Owners | Out-String)
+$emailBody += @"
+    <div style='font-family:Calibri'>
+    <p>Thanks!</p>
+    </div>
+"@
 
-```
-$body = @{
-    Message = @{
-        Subject = "Expiring App Secrets"
-        Body = @{
-            ContentType = "Text"
-            Content = "The following app secrets are expiring soon..."
+$ccRecipients = foreach ($email in ($ownersEmail -split ' ' | Select -Unique)) {
+    @{ emailAddress = @{ address = $email } }
+}
+
+$emailParams = @{
+    message = @{
+        subject = "Entra ID - Expiring app registration secrets"
+        body = @{
+            contentType = "HTML"
+            content = $emailBody
         }
-        ToRecipients = @(@{ EmailAddress = @{ Address = "admin@example.com" } })
+        toRecipients = @(
+            @{
+                emailAddress = @{
+                    address = "SysAdmins@northwind.com"
+                }
+            }
+        )
+#        ccRecipients = $ccRecipients
     }
 }
 
-Send-MgUserMail -UserId "admin@example.com" -Message $body
+Write-Output $ccRecipients
+
+Send-MgUserMail -UserId "noreply@northwind.com" -BodyParameter $emailParams
+
 ```
 
 :::greybox

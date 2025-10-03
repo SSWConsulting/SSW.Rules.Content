@@ -25,14 +25,14 @@ The Australian Government has general information about payroll tax, including a
 
 It is important to stay up to date with the State Government's rules as they may change from time to time. The relevant State Government websites for NSW, QLD and VIC are as follows:
 
-* [NSW OSR - Payroll Tax](https://www.revenue.nsw.gov.au/help-centre/online-services/sections/payroll-tax)
+* [NSW OSR - Payroll Tax](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax)
 * [QLD OSR - Payroll Tax](https://www.business.qld.gov.au/running-business/employing/payroll-tax)
 * [VIC OSR - Payroll Tax](https://www.sro.vic.gov.au/payroll-tax)
 
 ::: greybox
 **Tip:** A common error businesses make is not realising the available exemptions for payroll tax. The most common exemption missed in calculating payroll tax is salary sacrificed items (excluding salary sacrificed superannuation). These items reduce the taxable wages. For example, the NSW State Government rule states payroll tax is applicable on the 'reduced wage that the employee pays income tax on'. You can refer to the relevant NSW page below.
 
-* [NSW OSR - Taxes/Payroll Tax](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/help-getting-it-right/common-errors)
+* [NSW OSR - Taxes/Payroll Tax](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/industry-specific-guidance/information-technology#heading2)
 
 Every state treats salary sacrifice differently for payroll tax purposes, so be sure to check your State Government's rules before processing your payroll tax return.
 :::

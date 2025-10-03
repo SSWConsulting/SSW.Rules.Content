@@ -8,6 +8,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
+  - presenter-icon
 redirects:
   - do-you-know-the-right-way-to-do-a-demo-slide
 created: 2010-06-08T09:50:02.000Z

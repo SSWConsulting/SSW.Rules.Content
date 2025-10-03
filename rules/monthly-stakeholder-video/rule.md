@@ -10,15 +10,21 @@ authors:
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
 related:
+  - what-happens-at-a-sprint-review-meeting
+  - summary-recording-sprint-reviews
   - making-a-great-done-video
 redirects: []
 ---
 
-Keping stakeholders up to date is crucial for the success of any project. Developer teams use [Scrum meetings](/scrum-master-do-you-schedule-the-3-meetings) which work very well. For internal admin teams - Scrum might not work as well (e.g. Sales, Accounting). Often admin teams get sidetracked, and so Scrum isn't a perfect tracker of tasks or performance.
+Keeping stakeholders up to date is crucial for the success of any project. Developer teams use [Scrum meetings](/scrum-master-do-you-schedule-the-3-meetings) which work very well. For internal admin teams - Scrum might not work as well (e.g. Sales, Accounting). Often admin teams get sidetracked or have tasks that are not definitively measurable, therefore Scrum isn't a perfect tracker of tasks or performance.
+
+To keep stakeholders well informed, these teams should record a **monthly stakeholder video**. This ensures that stakeholders are aware of the project’s progress, any challenges faced, and the plans for the upcoming month. It also provides a personal touch - stakeholders get to hear from the team directly.
 
 <!--endintro-->
 
-So, to keep stakeholders well informed, these teams should record a monthly stakeholder video. This ensures that stakeholders are aware of the project’s progress, any challenges faced, and the plans for the upcoming month. It also provides a personal touch - stakeholders get to hear from the team directly.
+::: info
+For more detailed updates on completed work each Sprint, make sure you're also doing a [Sprint Review Summary Recording](/summary-recording-sprint-reviews) to show what’s been done and get PBIs accepted.
+:::
 
 ## ✅ Benefits
 
@@ -62,7 +68,7 @@ The video should be recorded by the Product Owner (or other head of the team).
 1. Open the relevant pages/analytics in browser tabs (this might be PowerBI for Sales, Google Ads and social media for Marketing, etc.)
 2. Bring up the important points you will talk about
 3. Record the video, clicking through the tabs and talking through the important metrics\
-   **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) for easy recording and on screen notation
+   **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=DOP-MVP-33518) for easy recording and on screen notation
 4. Upload the video to YouTube (public if there is no sensitive information - unlisted if there is)
 5. Email your stakeholders with the video link
 
@@ -91,7 +97,7 @@ Here’s the link {{ YOUTUBE LINK }}
 :::
 :::
 ::: good
-Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visability from your team.
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visibility from your team.
 :::
 
 ::: good

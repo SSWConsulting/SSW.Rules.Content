@@ -16,9 +16,9 @@ Your site visitors should never see **Untitled Page** on their browser. When cre
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - A page with the default title](../../assets/BadTitle.jpg)  
+![Figure: Bad example - A page with the default title](/BadTitle.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - A page with a good title](../../assets/GoodTitle.jpg)  
+![Figure: Good example - A page with a good title](/GoodTitle.jpg)  
 :::

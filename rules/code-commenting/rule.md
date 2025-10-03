@@ -9,10 +9,12 @@ created: 2018-04-23T23:28:08.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- leave-explanatory-notes-for-non-standard-code
 redirects:
 - comments-do-you-follow-the-general-commenting-rules
 - follow-version-conventions
+
 
 ---
 
@@ -60,4 +62,4 @@ Last but not the least, [some parting words](http://butunclebob.com/ArticleS.Tim
 
 > "A comment is an apology for not choosing a more clear name, or a more reasonable set of parameters, or for the failure to use explanatory variables and explanatory functions. Apologies for making the code unmaintainable, apologies for not using well-known algorithms, apologies for writing 'clever' code, apologies for not having a good version control system, apologies for not having finished the job of writing the code, or for leaving vulnerabilities or flaws in the code, apologies for hand-optimizing C code in ugly ways."
 >
-> * Uncle Bob (Robert Martin of 'Clean Code' fame)
+> \* Uncle Bob (Robert Martin of 'Clean Code' fame)

@@ -8,53 +8,53 @@ index:
   - safety-step-when-deleting-content
   - do-you-avoid-duplicating-content
   - avoid-using-unnecessary-words
-  - avoid-but
-  - use-bad-and-good-examples
-  - avoid-repetition
-  - screenshots-tools
-  - screenshots-avoid-walls-of-text
-  - screenshots-add-branding
-  - have-a-strong-header-and-footer
-  - hide-sensitive-information
-  - borders-around-white-images
-  - distinguish-keywords-from-content
-  - placeholder-for-replaceable-text
-  - highlighting-important-contract-terms
-  - style-quotations
-  - use-digits-instead-of-words
-  - make-numbers-more-readable
-  - add-days-to-dates
-  - address-formatting
-  - dashes
-  - descriptive-links
-  - keep-your-urls-clean
-  - how-to-capitalize-titles
-  - use-the-right-capitalization
-  - scrum-should-be-capitalized
   - are-you-careful-with-your-spelling-grammar-and-punctuation
   - avoid-common-mistakes
+  - avoid-repetition
   - avoid-acronyms
-  - use-will-not-should
-  - user-authentication-terms
-  - use-try-again-instead-of-retry
-  - commas-and-full-stops-always-should-have-1-space-after-them
-  - use-lowercase-after-a-dash
-  - refer-consistently-throughout-your-document
-  - use-correct-symbols-when-documenting-instructions
+  - avoid-unclear-terms
+  - avoid-short-ambiguous-dates
+  - use-digits-instead-of-words
+  - make-numbers-more-readable
+  - prefixes
   - use-emojis
   - format-new-lines
   - formatting-ui-elements
-  - use-generic-consistent-names-on-examples
-  - create-friendly-short-urls
+  - distinguish-keywords-from-content
+  - placeholder-for-replaceable-text
+  - style-quotations
+  - descriptive-links
+  - keep-your-urls-clean
+  - use-correct-symbols-when-documenting-instructions
+  - add-days-to-dates
+  - address-formatting
+  - use-the-right-capitalization
+  - how-to-capitalize-titles
+  - scrum-should-be-capitalized
+  - commas-and-full-stops-always-should-have-1-space-after-them
+  - dashes
+  - use-lowercase-after-a-dash
+  - user-authentication-terms
+  - use-will-not-should
+  - use-try-again-instead-of-retry
+  - use-bad-and-good-examples
+  - screenshots-tools
+  - screenshots-avoid-walls-of-text
+  - screenshots-add-branding
+  - borders-around-white-images
+  - refer-consistently-throughout-your-document
   - how-to-name-documents
-  - show-version-numbers
   - remove-spaces-from-your-folders-and-filename
+  - use-generic-consistent-names-on-examples
+  - show-version-numbers
   - document-the-job
   - end-user-documentation
+  - highlighting-important-contract-terms
   - architectural-decision-records
-  - prefixes
+  - hide-sensitive-information
   - do-you-know-all-the-symbols-on-the-keyboard
   - copy-text-from-image
-  - support-send-links
+
 ---
+
 Improve the clarity, consistency, and effectiveness of your technical documentation with these comprehensive rules. From formatting and SEO to ensuring readability and accuracy, these guidelines will help you create top-quality documentation.

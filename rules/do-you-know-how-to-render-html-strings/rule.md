@@ -16,7 +16,7 @@ However, this approach can cause confusion when an application needs to output c
 
 <!--endintro-->
 
-To solve this problem, the [`IHtmlString`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihtmlstring) interface in .NET Core can be used to represent HTML content that is pre-encoded and should not be encoded again.
+To solve this problem, the [`IHtmlString`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihtmlstring?WT.mc_id=DT-MVP-33518) interface in .NET Core can be used to represent HTML content that is pre-encoded and should not be encoded again.
 This is to prevent double encoding, which can distort the original HTML content and cause it to display incorrectly on a web page.
 
 ```cs

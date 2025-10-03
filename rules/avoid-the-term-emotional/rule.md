@@ -14,18 +14,15 @@ redirects:
   - do-you-avoid-the-term-emotional
 ---
 
-::: bad
-Bad example: to sound like you are emotional about this
-
-:::
-
-::: good
-Good example: to sound like you are passionate about this
-
-:::
+The word **emotional** often carries a negative or unstable tone — it can imply being overwhelmed, irrational, or easily upset. In contrast, **passionate** conveys energy, dedication, and positive intensity.
 
 <!--endintro-->
 
-Taken from the video "Chris Voss: "Never Split the Difference" | Talks at Google" at 23:50.
+When describing someone’s drive, interest, or commitment, use **passionate** instead of **emotional** to avoid unintended negative connotations. It helps to:
+
+* Keeping your tone professional and uplifting
+* Highlighting strength and enthusiasm instead of vulnerability
+* Improving clarity and avoids misunderstandings
 
 `youtube: https://www.youtube.com/embed/guZa7mQV1l0`
+**Video: Chris Voss: "Never Split the Difference" | Talks at Google" at 23:50**

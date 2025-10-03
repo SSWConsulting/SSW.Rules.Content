@@ -59,7 +59,7 @@ Your brand values and personality hold great insights into the type of people wh
 
 Be aware that some businesses and industries are too serious to create and post that type of content. We also have to mention that some social media don’t quite have the right audience for a meme, for example: LinkedIn. We suggest a bit of research: check what your competitors are posting and if they use memes too, how do they approach it? It’s a great exercise to do market research if you want to add some personality to your socials.
 
-Correlating it to [DevOps Culture](https://docs.microsoft.com/en-us/devops/what-is-devops), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
+Correlating it to [DevOps Culture](https://docs.microsoft.com/en-us/devops/what-is-devops?WT.mc_id=DOP-MVP-33518), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
 
 ::: bad  
 ![Figure: Bad example - Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  

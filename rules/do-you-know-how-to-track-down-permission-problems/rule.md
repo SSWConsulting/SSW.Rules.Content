@@ -15,7 +15,7 @@ related: []
 redirects: []
 ---
 
-You need [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) to track down permissions problems.
+You need [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx?WT.mc_id=DT-MVP-33518) to track down permissions problems.
 
 E.g. **Problem**
 
@@ -24,7 +24,7 @@ To hunt down a problem where say the IIS server couldn’t write to a directory,
 **Solution**
 
 1. Install and run
-   [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx)
+   [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx?WT.mc_id=DT-MVP-33518)
 2. Apply filter
 3. Rejoice
 

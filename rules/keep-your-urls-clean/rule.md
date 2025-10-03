@@ -1,11 +1,13 @@
 ---
 type: rule
-title: Do you know to keep your URLs clean?
+title: Do you know to keep URLs clean?
 seoDescription: Keep your URLs clean and easy to read by removing extra noise, such as CampaignIDs, and breaking lines before long URLs.
 uri: keep-your-urls-clean
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - create-friendly-short-urls
   - relevant-words-on-links
@@ -17,13 +19,17 @@ archivedreason: null
 guid: d5550f1b-d9fa-48e8-9633-13974c97378f
 ---
 
-When you’re sending emails, or pinging someone in Teams, your URLs should be as clean as possible. Having no extra noise ensures that they are easy to read, and it is more aesthetically pleasing. It is also a good idea to break a line before an URL, improving its readability.
+When you’re sending emails, or pinging someone in Teams, your URLs should be as clean as possible. Having no extra noise ensures that they are easy to read, and it is more aesthetically pleasing.
 
 <!--endintro-->
 
 ::: info
 **Note:** URLs have become increasingly cluttered with the introduction of CampaignIDs (used to track customer activities and other information). When you're sharing the URLs, it is better to make them as clean and readable as possible... so delete everything after the question mark (including the CampaignID suffix).
 :::
+
+## Tip #1 - Break a line before URLs
+
+It is also a good idea to [break a line before an URL](/format-new-lines/#urls), improving its readability.
 
 ::: email-template
 
@@ -78,9 +84,9 @@ Figure: Good example – Clean URL on a new line is easy to read and looks much 
 **Note:** Make sure to [place the URL on a new line](/format-new-lines/#urls) to reduce clutter and improve readability.
 :::
 
-### Presentations and videos
+## Tip #2 - Remove `https://` and `www`
 
-For presentations, it's especially important to keep URLs cleaner. Remember to always remove `https://www.` from links in presentations. It keeps the slides cleaner and more readable.
+For **presentations** and **videos** (i.e. (lower thirds](/video-editing-terms/#3-lower-third)), it's especially important to keep URLs cleaner. Remember to always remove `https://www.` from links. It keeps the slides cleaner and more readable.
 
 ::: bad
 ![Figure: Bad example - Showing unnecessary extra noise "https://www."](ppt-urls-bad.png)

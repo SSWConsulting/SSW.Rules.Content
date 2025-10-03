@@ -23,53 +23,58 @@ The question arises: _How can one stay connected without the risk of huge bills?
 Roaming packages (e.g. Telstra) are a big $ money waste.
 
 ::: bad
-![Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-2.png)
+![Figure: Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-2.png)
 :::
 
 ::: bad
-![Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
+![Figure: Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
 :::
 
-There are few options:
+There are a few options:
 
-### Option A. Dual-SIM - Travel SIM/eSIM (recommended)
+## Option A. Dual-SIM - Travel SIM/eSIM (✅ recommended)
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
-Take the popular iPhone as an example, which offers multiple eSIM and a physical SIM slot. You can keep your primary mobile number and add an eSIM for your travel SIMs..
+Take the popular iPhone as an example, which offers multiple eSIMs and a physical SIM slot. You can keep your primary mobile number and add an eSIM for your travel SIMs.
 
-✅ Usually cheap, and easy to acquire and setup
+**✅ Pros:**
 
-✅ Can be pre-purchased weeks before you go – it is only activated once you connect it to the network
+* Usually cheap, and easy to acquire and setup
+* Can be pre-purchased weeks before you go – it is only activated once you connect it to the network
+* Your mobile number is still active when overseas and the data usage stays with the travel eSIMs
+* You can share your data with other devices using Mobile Hotspot
+* Disposal of a used e-SIM can be done easily with a few clicks
 
-✅ Your mobile number is still active when overseas and the data usage stays with the travel eSIMs
+**Note:** Sometimes it is better to use a eSIM travel app, e.g. [mobimatter.com](https://mobimatter.com)> or [roamless.com](https://roamless.com). You can buy an eSIM and add it to your mobile directly, which is available in most countries.
 
-✅ You can share your data with other devices using Mobile Hotspot
+::: greybox
+**Tip:** To make it work, you need to switch your SIM from “Primary” (Home number) to “Travel SIM”
 
-✅ Disposal of a used e-SIM can be done easily with a few clicks
+Go to Settings | Mobile| Sims | Select “Travel SIM".
+:::
 
-Note: Sometimes it is better to use a eSIM travel app e.g. <https://roamless.com/>
-You can buy data and use it in 165 countries without changing SIM cards.
-
-### Option B. Portable 4G Router
+## Option B. Portable 4G Router
 
 Invest in a device, insert the local travel SIM, and share the Wi-Fi with multiple users and devices.
 
-✅ Cost-effective, preserves your phone's battery life and is perfect for single-SIM phones
+**✅ Pros:**
+* Cost-effective, preserves your phone's battery life and is perfect for single-SIM phones
 
-❌ You will need to carry an extra device
+**❌ Cons:**
+* You will need to carry an extra device
+* You may miss out on free Wi-Fi – the router is connected by Wi-Fi so you cannot connect to others, for example, hotels
 
-❌ You may miss out on free Wi-Fi – the router is connected by Wi-Fi so you cannot connect to others, for example, hotels
+## Option #C. Roaming package e,g,. Telstra
 
-### Option #C. Roaming package eg. Telstra
+Rely on your current roaming service, for example, Telstra charges $10 per day for 1 GB of data and $10 per extra GB. Some other carriers may offer more competitive packages, such as Felix (TPG), which provides a 4 GB package that is valid for 365 days for $25.
 
-Rely on your current roaming service, for example, Telstra charges $10 per day for 1 GB of data and $10 per extra GB. Some other carriers may offer more competitive packages.
+**✅ Pros:**
+* Straightforward, with no additional purchases, and a pay-as-you-go structure
+* Good for a short trip
 
-✅ Straightforward, with no additional purchases, and a pay-as-you-go structure
-
-✅ Good for a short trip
-
-❌ Expensive and occasionally poor internet connectivity
+**❌ Cons:**
+* Expensive and occasionally poor internet connectivity
 
 ---
 
@@ -77,18 +82,10 @@ Rely on your current roaming service, for example, Telstra charges $10 per day f
 
 Each option has its pros and cons, allowing you to tailor your connectivity strategy based on your preferences and specific travel needs.
 
-Travel SIMs usually offers better user experience if you spend more data.
-
-✅ Travel SIMs are usually much cheaper than roaming packages with more data
-
-✅ They are prepaid and disposable
-
-✅ It can be a perfect combination with your roaming service to have enough cheap data to spend and have your regular mobile connected as well, so you won’t miss the important calls and text messages
-
-❌ Sometimes are limited to data only and un-rechargable
+Travel SIMs are a prepaid, disposable option that's **usually cheaper** than roaming for high data use, offering a good user experience and a great complement to your main number, though they can sometimes be data-only and non-rechargeable.
 
 ::: good
-![Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
+![Figure: Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
 :::
 
 ::: info

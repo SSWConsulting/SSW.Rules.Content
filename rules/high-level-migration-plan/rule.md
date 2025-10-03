@@ -20,33 +20,33 @@ At a high level, the plan is:
 
 <!--endintro-->
 
-- **Install** **SharePoint**
+* **Install** **SharePoint**
 
 1. Install with topology of your choice in SharePoint 2016 (or use [AutoSPInstaller](https://autospinstaller.com/))
 2. Configure Application services
 
-> - Run the wizard (or use script. the community script wasn't ready when Thiago and I was migrating intranet)
-> - Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx))
+* Run the wizard (or use script. the community script wasn't ready when Thiago and I was migrating intranet)
+* Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx?WT.mc_id=M365-MVP-33518))
 
-- **Test Migration**
+* **Test Migration**
 
 1. [Install required WSP packages in 2016](/do-you-know-how-to-identify-customizations-on-sharepoint-webs)
 2. [Test migrating content database from old to new](/run-test-spcontentdatabase-before-actual-migration)
-3. Fix all the missing customizations error in the above step, then do the [content database migration](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx)
+3. Fix all the missing customizations error in the above step, then do the [content database migration](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx?WT.mc_id=M365-MVP-33518)
 4. (Optional) [Migrate services database](/have-you-migrated-your-service-application-databases) (depends on which service applications do you use)
 
-- **Post migration setup**
+* **Post migration setup**
 
 1. Configure search
-   - [Do you use default zone URL in search content source](/use-default-zone-url-in-search-content-source)
-   - [Do you add https by extending web application](/extend-web-application-for-https)
-   - [Do you fix search with Office App for content preview ? (on premise only)](/fix-search-with-office-app-preview)
+   * [Do you use default zone URL in search content source](/use-default-zone-url-in-search-content-source)
+   * [Do you add https by extending web application](/extend-web-application-for-https)
+   * [Do you fix search with Office App for content preview ? (on premise only)](/fix-search-with-office-app-preview)
 2. Configure metadata (optional)
 
-- **Test test** **tes** **t**
-- **Go-live migration**
+* **Test test** **tes** **t**
+* **Go-live migration**
 
 1. [Put old SharePoint into read-only](/do-you-lock-the-sharepoint-content-database-before-making-a-backup)
-2. [Refresh content & service database from SP 2013 to 2016](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx)
+2. [Refresh content & service database from SP 2013 to 2016](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx?WT.mc_id=M365-MVP-33518)
 3. Update DNS
 4. Decommission old SharePoint server and database (after 2 weeks when you're confident with the new environment)

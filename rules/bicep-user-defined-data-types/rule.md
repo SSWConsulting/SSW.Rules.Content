@@ -2,7 +2,7 @@
 seoDescription: User-defined data types in Bicep enable developers to create custom data structures, enhancing code organization, type safety, and maintainability.
 type: rule
 title: Bicep - Do you use User-defined Data Types?
-guid: 2a3ba816-ba40-4cfe-8193-7e151e038ac5
+guid: e8f2c665-701f-4d11-a939-688b5f6f7f87
 uri: bicep-user-defined-data-types
 created: 2024-03-19T19:19:19.1919191Z
 authors:
@@ -13,7 +13,7 @@ redirects: []
 archivedreason: null
 ---
 
-[User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects.
+[User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types?WT.mc_id=DP-MVP-33518) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects.
 
 <!--endintro-->
 

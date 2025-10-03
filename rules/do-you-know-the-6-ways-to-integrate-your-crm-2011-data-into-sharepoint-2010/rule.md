@@ -1,6 +1,7 @@
 ---
+seoDescription: This rule discusses outdated methods for integrating CRM 2011 data into SharePoint 2010, which are no longer relevant due to deprecated technologies and modern alternatives.
 type: rule
-archivedreason: 
+archivedreason: Obsolete - CRM 2011 and SharePoint 2010 are deprecated technologies. See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
 title: Do you know the 6 ways to integrate your CRM 2011 data into SharePoint 2010?
 guid: c41308f6-7e9f-444a-85f4-20747adc0884
 uri: do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010
@@ -36,10 +37,11 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
 | --- | --- |
 | Read/Write. <br>Minimal coding. <br>Easiest to implement. <br>The likely way forward (Best Practice as Microsoft) | Needs to be deployed and published to the web server. <br> Less performance than SQL filter views directly. |
 
-![](figure5.jpg)  
+![BCS Adapter for CRM 2011](figure5.jpg)  
 
 ::: greybox
 **More information:**
+
 * Download from Microsoft
 * Find and read "*Connecting to CRM Online 2011 with SharePoint 2010 Business Connectivity Services*"
 * Run tool to generate the XML mapping (.BDCM)
@@ -61,8 +63,7 @@ Filtered Views in Microsoft CRM provide access to the data available that suppor
 ::: greybox
 **More information:**
 
-If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database as per [Use SQL and Filtered Views to Retrieve Data for Reports
-](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg328467(v=crm.6)?redirectedfrom=MSDN).
+If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database as per [Use SQL and Filtered Views to Retrieve Data for Reports](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/analytics/improve-report-performance-by-using-filters?view=op-9-1&tabs=without-prefiltering%2Cauto2-prefiltering%2Cauto3-prefiltering).
 
 ![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](figure1.jpg)  
 :::
@@ -123,8 +124,7 @@ The 3 options to consume the OData/RSS data:
 * Consume the OData by SQL Server, via TSQL ??? Then use BCS to call SQL Server.
   **Summary:** SharePoint BCS &gt; DataSourceType: SQL Server &gt; OData &gt; CRM database
 
-You would need to be crazy to go down this route [Calling a Web Service from T-SQL (Stored Procedure) using MSXML RSS
-](https://lejin2000.wordpress.com/2016/11/21/call-a-webservice-from-tsql-stored-procedure-using-msxml-by-vishal)
+You would need to be crazy to go down this route [Calling a Web Service from T-SQL (Stored Procedure) using MSXML RSS](https://lejin2000.wordpress.com/2016/11/21/call-a-webservice-from-tsql-stored-procedure-using-msxml-by-vishal)
 
 * Consume the OData by a BCS adapter + code calling web services (same story as above).
   **Summary:** SharePoint BCS &gt; code calling OData &gt; CRM database

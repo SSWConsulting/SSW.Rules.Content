@@ -14,7 +14,7 @@ redirects:
   - leverage-gpt-3
 ---
 
-ChatGPT has an [awesome API](https://openai.com/api/) and [Azure services](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service) that you can easily wire into any app.
+ChatGPT has an [awesome API](https://openai.com/api/) and [Azure services](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service?WT.mc_id=AI-MVP-33518) that you can easily wire into any app.
 
 The ChatGPT API is a versatile tool capable of far more than just facilitating chat-based conversations. By integrating it into your own applications, it can provide diverse functionalities in various domains. Here are some creative examples of how you might put it to use:
 

@@ -17,11 +17,11 @@ Canary deployments let you release new features or updates to a small group of u
 
 <!--endintro-->
 
-![Figure: Example canary deployment spreadsheet – track who is testing, the environment, and their feedback](../../assets/canary-deployment.png)
+![Figure: Example canary deployment spreadsheet – track who is testing, the environment, and their feedback](/canary-deployment.png)
 
 Using a structured spreadsheet ensures transparency and consistency, so no one is missed and feedback can be actioned quickly.
 
-## Practical use case 
+## Practical use case
 
 **Scenario:** You’ve built a new feature and are eager to roll it out to everyone.
 
@@ -59,7 +59,7 @@ Figure: Good example – A single, consistently updated spreadsheet for your can
 
 1. **Create your spreadsheet**  
 
-   * Include columns for *User*, *Date Onboarded*, *Status*, *Mark /10*, *OS*, *Environment*, and *Notes*
+   * Include columns for _User_, _Date Onboarded_, _Status_, _Mark /10_, _OS_, _Environment_, and _Notes_
    * Store it in a central location (e.g. Microsoft 365, Google Sheets) accessible to all stakeholders, testers and developers
    * If relevant, feel free to add as many columns as needed
 
@@ -85,7 +85,7 @@ Figure: Good example – A single, consistently updated spreadsheet for your can
 
 6. **Go wider**  
 
-   * After successful canary feedback, roll out your feature to all users 
+   * After successful canary feedback, roll out your feature to all users
    * Keep the spreadsheet as a living record of the rollout process
 
 ## Possible statuses

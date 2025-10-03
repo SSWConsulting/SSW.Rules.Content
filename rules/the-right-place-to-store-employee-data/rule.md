@@ -32,8 +32,6 @@ Office 365 User Profile Service is a good tool at managing fields related to use
 
 ![Figure: AD, UserProfile and O365 Services interactions](onpremisesad1.png)
 
-**Tip:** Keep User Profiles up-to-date with [hyperfish.com](https://www.hyperfish.com/)
-
 **B:** Rich - If you want richer relationships eg. Many skills, many languages, past projects and roles on them etc. then you want to add an external 'Source of truth' Eg. Dynamics 365, Salesforce etc. that supports that kind of relationships.
 
 Companies want bots to answer more than just simple questions. If you have rich data then your bot can answer questions like "Who worked in Education and knows French". This is unfortunately not possible with AD/UserProfile custom fields and properties. In those instances, the alternative is to use Dynamics 365 (or SalesForce) as a single source of truth; and then sync back the data to simple fields in User Profile.
@@ -41,8 +39,6 @@ Companies want bots to answer more than just simple questions. If you have rich 
 ![Figure: CRM (Dynamics 365) used a source of truth](onpremisesad2.png)  
  In this scenario, a custom sync mechanism (i.e. SSIS pipeline) will have to be implemented. Both Dynamics 365 and User Profile Service exposes APIs that can read and write properties/fields for such a system.
 Then other external systems such as the public employee pages, Power BI reports and bots can query Dynamics 365 directly.
-
-**Note:** you cannot use https://www.hyperfish.com (as it would be overwritten)
 
 **Note:** Delve profile pages can only read from user profiles. Delve is a nice UI over User Profiles, but it should not be mandated to use. You will find it will not be heavily used.
 

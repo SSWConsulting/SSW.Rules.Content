@@ -47,7 +47,7 @@ index:
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
 - cms-solutions
 - do-you-manage-your-papers
-- do-you-avoid-reviewing-performance-without-metrics
+- avoid-reviewing-performance-without-metrics
 - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
 - do-you-know-you-should-always-use-a-source-control-system
 - do-you-know-what-to-look-out-for-when-signing-legal-documents
@@ -58,6 +58,7 @@ index:
 - reward-your-developers
 - hand-over-projects
 - hand-over-responsibilities
+- handover-best-practices
 - do-you-have-a-deployment-plan
 - risks-of-deploying-on-fridays
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
@@ -72,7 +73,7 @@ index:
 - management-do-you-know-who-has-authority
 - have-an-induction-program
 - identify-crm-web-servers-by-colors
-- record-a-quick-and-dirty-done-video
+- done-video
 - the-best-way-to-learn
 - use-the-brains-of-your-company
 - do-you-give-each-project-a-project-page-that-you-refer-customers-to

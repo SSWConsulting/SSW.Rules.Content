@@ -84,131 +84,131 @@ Here are the steps to split the logic:
 
    Use `Observable` and `BehaviorSubject` (or [`Signal`](https://angular.io/guide/signals), but this is still in developer preview) to bind value to UI elements. This will help us remove the need to imperatively notify the UI to re-render when the source value has changed.
 
-   ```ts
-   calculatedData$ = new BehaviorSubject<CalculatedData | null>(null);
+  ```ts
+  calculatedData$ = new BehaviorSubject<CalculatedData | null>(null);
 
-   constructor(
-     private route: ActivatedRoute,
-     private apiService: ApiService,
-   ) {}
+  constructor(
+    private route: ActivatedRoute,
+    private apiService: ApiService,
+  ) {}
 
-   ngOnInit() {
-     this.route.params.pipe(
-       takeUntil(this.ngDestroy$),
-       switchMap(params => this.apiService.load1(params.id)),
-     ).subscribe(response => {
-       this.calculatedData$.next(this.calculate(payload));
-     });
+  ngOnInit() {
+    this.route.params.pipe(
+      takeUntil(this.ngDestroy$),
+      switchMap(params => this.apiService.load1(params.id)),
+    ).subscribe(response => {
+      this.calculatedData$.next(this.calculate(payload));
+    });
 
-     // UI Binding logic
-     this.calculatedData$.pipe(
-       takeUntil(this.ngDestroy$),
-     ).subscribe(calculatedData => {
-       this.title = calculatedData.title;
-       this.sumAmount = calculatedData.sum;
-     });
-   }
+    // UI Binding logic
+    this.calculatedData$.pipe(
+      takeUntil(this.ngDestroy$),
+    ).subscribe(calculatedData => {
+      this.title = calculatedData.title;
+      this.sumAmount = calculatedData.sum;
+    });
+  }
 
-   private calculate(...): ComponentData {
-     // Calculate implementation
-   }
-   ```
+  private calculate(...): ComponentData {
+    // Calculate implementation
+  }
+  ```
 
-   ::: good
-   Figure: Use declarative code to bind UI value
-   :::
+  ::: good
+  Figure: Use declarative code to bind UI value
+  :::
 
 4. Split data display process.
 
    This gives the most benefit since having the view logic separate allows developers to easily swap out any UI elements, which is one of the frequent things to change in the front end.
    One approach is to create a sidecar service for this component.
 
-   ```ts
-   // ComponentService ================
-   constructor(
-     private apiService: ApiService,
-   ) {}
+  ```ts
+  // ComponentService ================
+  constructor(
+    private apiService: ApiService,
+  ) {}
 
-   private _componentData$ = new BehaviourSubject<ComponentData|null>(null);
-   public componentData$ = this._componentData$.asObservable();
+  private _componentData$ = new BehaviourSubject<ComponentData|null>(null);
+  public componentData$ = this._componentData$.asObservable();
 
-   public initialiseComponentData(paramId: string): void {
-     this.apiService.load1(params.id).subscribe(response => {
-       this._componentData.next(this.calculate(payload));
-     });
-   }
+  public initialiseComponentData(paramId: string): void {
+    this.apiService.load1(params.id).subscribe(response => {
+      this._componentData.next(this.calculate(payload));
+    });
+  }
 
-   private calculate(...): ComponentData {
-     // Calculate implementation
-   }
+  private calculate(...): ComponentData {
+    // Calculate implementation
+  }
 
-   // Component ================
-   constructor(
-     private route: ActivatedRoute,
-     private componentService: ComponentService,
-   ) {}
+  // Component ================
+  constructor(
+    private route: ActivatedRoute,
+    private componentService: ComponentService,
+  ) {}
 
-   ngOnInit() {
-     // API Fetching logic
-     this.route.params.pipe(
-       takeUntil(this.ngDestroy$),
-     ).subscribe(params => {
-       this.componentService.initialiseComponentData(params.id);
-     });
+  ngOnInit() {
+    // API Fetching logic
+    this.route.params.pipe(
+      takeUntil(this.ngDestroy$),
+    ).subscribe(params => {
+      this.componentService.initialiseComponentData(params.id);
+    });
 
-     // UI Binding logic
-     this.componentService.calculatedData$.pipe(
-       takeUntil(this.ngDestroy$),
-     ).subscribe(calculatedData => {
-       this.title = calculatedData.title;
-       this.sumAmount = calculatedData.sum;
-     });
-   }
-   ```
+    // UI Binding logic
+    this.componentService.calculatedData$.pipe(
+      takeUntil(this.ngDestroy$),
+    ).subscribe(calculatedData => {
+      this.title = calculatedData.title;
+      this.sumAmount = calculatedData.sum;
+    });
+  }
+  ```
 
-   ::: good
-   Figure: UI logic is separated from Data Fetching and Data Processing logic
-   :::
+  ::: good
+  Figure: UI logic is separated from Data Fetching and Data Processing logic
+  :::
 
 5. (Optional) If the component is complex enough, consider splitting the data fetching with the data processing step to another component.
 
    In the example below, we create a parent component to handle the routing while providing the child component with the only necessary data.
 
-   ```ts
-   // ComponentService ================
-   // ...Same implementation as above...
+  ```ts
+  // ComponentService ================
+  // ...Same implementation as above...
 
-   // ParentComponent ================
-   constructor(
-     private route: ActivatedRoute,
-     private componentService: ComponentService,
-   ) {}
+  // ParentComponent ================
+  constructor(
+    private route: ActivatedRoute,
+    private componentService: ComponentService,
+  ) {}
 
-   ngOnInit() {
-     // API Fetching logic
-     this.route.params.pipe(
-       takeUntil(this.ngDestroy$),
-     ).subscribe(params => {
-       this.componentService.initialiseComponentData(params.id);
-     });
-   }
+  ngOnInit() {
+    // API Fetching logic
+    this.route.params.pipe(
+      takeUntil(this.ngDestroy$),
+    ).subscribe(params => {
+      this.componentService.initialiseComponentData(params.id);
+    });
+  }
 
-   // Component ================
-   constructor(
-     private componentService: ComponentService,
-   ) {}
+  // Component ================
+  constructor(
+    private componentService: ComponentService,
+  ) {}
 
-   ngOnInit() {
-     // UI Binding logic
-     this.componentService.calculatedData$.pipe(
-       takeUntil(this.ngDestroy$),
-     ).subscribe(calculatedData => {
-       this.title = calculatedData.title;
-       this.sumAmount = calculatedData.sum;
-     });
-   }
-   ```
+  ngOnInit() {
+    // UI Binding logic
+    this.componentService.calculatedData$.pipe(
+      takeUntil(this.ngDestroy$),
+    ).subscribe(calculatedData => {
+      this.title = calculatedData.title;
+      this.sumAmount = calculatedData.sum;
+    });
+  }
+  ```
 
-   ::: good
-   Figure: All logics (data fetching, data processing, and data display) are now separated
-   :::
+  ::: good
+  Figure: All logics (data fetching, data processing, and data display) are now separated
+  :::

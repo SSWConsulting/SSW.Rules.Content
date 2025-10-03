@@ -37,9 +37,9 @@ It is better to run Chocolatey in PowerShell - it may work in Command Prompt, bu
 
 ## Option 2: Winget
 
-[Winget](https://learn.microsoft.com/en-us/windows/package-manager/) is Microsoft's own package manager that developers can use to discover, install, upgrade, remove and configure a curated set of applications.
+[Winget](https://learn.microsoft.com/en-us/windows/package-manager/?WT.mc_id=WDIT-MVP-33518) is Microsoft's own package manager that developers can use to discover, install, upgrade, remove and configure a curated set of applications.
 
-Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab)
+Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab?WT.mc_id=WDIT-MVP-33518)
 
 Once installed you can search for a tool with:
 
@@ -55,12 +55,12 @@ winget install {{ APP NAME }}
 
 For example:
 
-![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget")
+![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518)
 
-For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
+For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/?WT.mc_id=WDIT-MVP-33518).
 
 ## Option 3: Homebrew
 
-[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: https://brew.sh/
+[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: <https://brew.sh/>
 
 ![Figure: Homebrew installed](homebrew.png)

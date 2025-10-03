@@ -41,3 +41,11 @@ Speaker: _"OK Bob, I think that is your 10th question and your quota has expired
 ::: good
 Figure: Good example - This is a firm yet amicable way of managing the situation
 :::
+
+## Audience microphone
+
+Have an audience mic ready for audience interactions & questions.
+
+* Always include and test the audience microphone **before** the session
+* Make sure audience questions are audible to the presenter, the live attendees, and for recording/livestream purposes
+* Encourage audience members to use the mic, and instruct presenters to **paraphrase or repeat the question** before answering—this ensures context and clarity for all audiences

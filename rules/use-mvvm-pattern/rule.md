@@ -18,7 +18,7 @@ redirects:
   - do-you-use-the-mvvm-pattern
 ---
 
-.NET MAUI and Xamarin has been adhering to the MVVM design pattern since their inception. While .NET MAUI provides developers with additional flexibility by adopting the MVU pattern (see: [Introducing .NET Multi-platform App UI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/)), MVVM remains a widely popular approach for architecting mobile applications.
+.NET MAUI and Xamarin has been adhering to the MVVM design pattern since their inception. While .NET MAUI provides developers with additional flexibility by adopting the MVU pattern (see: [Introducing .NET Multi-platform App UI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/?WT.mc_id=DT-MVP-33518)), MVVM remains a widely popular approach for architecting mobile applications.
 
 <!--endintro-->
 
@@ -34,7 +34,7 @@ MVVM allows for loose coupling between data, business logic, and UI. In .NET MAU
 
 .NET MAUI supports MVVM out of the box, but there are several MVVM frameworks available that enhance this functionality. For example, some MVVM frameworks support _"convention over configuration"_, allowing you to just code your View and ViewModel and let the framework hook them up for you. Some include:
 
-- **[MVVM Toolkit](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/):** MVVM Toolkit is maintained and published by Microsoft. The framework significantly reduces the amount of boilerplate code by applying Roslyn source generators.
-- **[Prism](https://github.com/PrismLibrary/Prism):** Prism is an MVVM framework that was developed initially for WPF but has since been ported to Xamarin Forms and then to .NET MAUI. It is stable and mature. For a long time Prism sustained itself through donations, with the founders contributing significant time and effort for free. However, they eventually shifted to a [paid model](https://prismlibrary.com/#pricing) (with a free option) to sustain and further develop the library.
-- **[FreshMVVM](https://github.com/rid00z/FreshMvvm):** FreshMVVM is a framework that was built from the ground up specifically for Xamarin Forms and also migrated to .NET MAUI. It is open-source and maintained by a Microsoft MVP.
-- **[MVVMLight](https://github.com/lbugnion/mvvmlight):** This framework, built especially for Xamarin, was archived in 2021 in favour of its successor, the MVVM Toolkit.
+* **[MVVM Toolkit](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/?WT.mc_id=DT-MVP-33518):** MVVM Toolkit is maintained and published by Microsoft. The framework significantly reduces the amount of boilerplate code by applying Roslyn source generators.
+* **[Prism](https://github.com/PrismLibrary/Prism):** Prism is an MVVM framework that was developed initially for WPF but has since been ported to Xamarin Forms and then to .NET MAUI. It is stable and mature. For a long time Prism sustained itself through donations, with the founders contributing significant time and effort for free. However, they eventually shifted to a [paid model](https://prismlibrary.com/#pricing) (with a free option) to sustain and further develop the library.
+* **[FreshMVVM](https://github.com/rid00z/FreshMvvm):** FreshMVVM is a framework that was built from the ground up specifically for Xamarin Forms and also migrated to .NET MAUI. It is open-source and maintained by a Microsoft MVP.
+* **[MVVMLight](https://github.com/lbugnion/mvvmlight):** This framework, built especially for Xamarin, was archived in 2021 in favour of its successor, the MVVM Toolkit.

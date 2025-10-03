@@ -25,9 +25,9 @@ guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 
 Power BI reports are generally published directly into the Power BI Service. But doing so has many drawbacks. For example, you **can't** see:
 
-- What was changed
-- Who made the change
-- When the change was made
+* What was changed
+* Who made the change
+* When the change was made
 
 In other words, the history of the changes isn't recorded anywhere.
 
@@ -45,7 +45,7 @@ In other words, the history of the changes isn't recorded anywhere.
 ![Figure: Bad example - Option 1: Publish reports directly to Power BI Service; however it does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is the **PBIP method**, which is: 
+The correct method is the **PBIP method**, which is:
 
 1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
 2. Use Power BI's Git integration to deploy reports
@@ -64,9 +64,10 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats. 
+Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats.
 
 ### Editing and Committing Reports
+
 ### Business Users (Use Power BI Service)
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
@@ -100,7 +101,7 @@ The process is done on one's PC. You will need to download Power BI Desktop. At 
 1. Setup a local repository on your PC (1 time)
 2. Create new feature branch off ‘origin/main’ (**every time**)
 3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option (1 time)
-4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
+4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir?WT.mc_id=DOP-MVP-33518) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
 
    **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
 

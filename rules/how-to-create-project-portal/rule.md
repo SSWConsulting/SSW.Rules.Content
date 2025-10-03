@@ -24,4 +24,4 @@ There is a goofy work around:
 5. Finally, delete the temporary project you created
 
 More info at [Configure or add a project portal
-](https://docs.microsoft.com/en-us/azure/devops/project/configure-or-add-a-project-portal?view=azure-devops)
+](https://docs.microsoft.com/en-us/azure/devops/project/configure-or-add-a-project-portal?view=azure-devops&WT.mc_id=AZ-MVP-33518)

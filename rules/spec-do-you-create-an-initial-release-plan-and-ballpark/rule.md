@@ -15,7 +15,7 @@ related: []
 redirects:
   - spec-what-are-the-specification-review-deliverables
 created: 2009-02-26T02:02:12.000Z
-archivedreason: null
+archivedreason: Moved to https://www.ssw.com.au/rules/what-is-a-spec-review/
 guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 ---
 Usually, a specification process is done with the client before beginning work on a project, just like you would never build a house without getting an architect to create a plan.
@@ -36,7 +36,8 @@ The deliverables for the Specification Review depend upon how large the applicat
 * An integration plan
 * A deployment strategy
 * An MVP (minimum viable product) will be identified, as well as a wish list - requiring the client to set the priorities for the project through defining what is in and out of scope for the MVP
-* A detailed list of 'issues' associated with the existing system which impact future development and maintenance
+* A detailed list of 'issues' (e.g. an XLS) associated with the existing system which impact future development and maintenance  
+  Tip: Create a backlog in GitHub. This helps the Account Manager close the sale, and smoothens the transition into Sprint 1
 * Hardware and licensed software recommendations
 * Mock-ups (if required)
 

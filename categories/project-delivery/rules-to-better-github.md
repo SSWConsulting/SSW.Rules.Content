@@ -9,6 +9,7 @@ index:
   - add-a-description-to-github-repositories
   - do-you-know-how-to-structure-a-project-for-github
   - do-you-know-how-to-use-tags-for-github-issues
+  - remove-confidential-information-from-github
   - github-issue-templates
   - github-content-changes
   - write-a-good-pull-request

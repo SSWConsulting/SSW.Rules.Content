@@ -32,6 +32,8 @@ redirects:
 * **Call out** – Additional detail/an invitation to a call-to-action.
 * **Sitelinks** – Promoting links from your website you want to advertise!
 
+Remember to always monitor the effectiveness of each extension. You want to always measure how many clicks each extension or asset is getting. Once armed with this information it is much easier to determine what is the best combination of assets or extensions to maximise lead capturing.
+
 ::: bad  
 ![Figure: Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions "Call Now"](google-ad-no-ad-extension.jpg)  
 :::

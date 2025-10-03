@@ -6,12 +6,13 @@ uri: rules-to-better-product-owners
 index:
 - do-you-know-the-how-to-be-a-good-product-owner
 - scrum-master-support-product-owner
+- use-ai-manage-backlog
 - agreements-do-you-book-the-next-sprint-ahead-of-time
 - agreements-do-you-join-the-team-as-a-tester
 - agreements-do-you-know-who-pays-for-bugs
 - agreements-do-you-provide-a-product-owner
 - agreements-do-you-use-1-or-2-week-sprints
-- agreements-do-you-use-an-experienced-scrum-master-or-project-manager
+- experienced-scrum-master
 - communication-are-you-specific-in-your-requirements
 - communication-do-you-read-and-manage-your-emails-carefully
 - communication-do-you-respond-to-queries-quickly

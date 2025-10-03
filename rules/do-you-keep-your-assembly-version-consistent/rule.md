@@ -31,7 +31,7 @@ guid: 9615f20a-8b4e-4666-beb8-c7da8dfb358e
 Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\*) character  
 :::
 
-If you use an asterisk in the AssemblyVersion, the version will be generated as described in the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.reflection.assemblyversionattribute%28v=vs.110%29.aspx).
+If you use an asterisk in the AssemblyVersion, the version will be generated as described in the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.reflection.assemblyversionattribute%28v=vs.110%29.aspx?WT.mc_id=DT-MVP-33518).
 
 If you use an asterisk in the AssemblyFileVersion, you will see a warning, and the asterisk will be replaced with zeroes. If you use an asterisk in the AssemblyInformationVersion, the asterisk will be stored, as this version property is stored as a string.
 
@@ -65,4 +65,4 @@ If you're working with SharePoint farm solutions (2007, 2010, or 2013), in most 
 
 The AssemblyInformationalVersion stores the product name as marketed to consumers. For example for Microsoft Office, this would be "Microsoft Office 2013", while the AssemblyVersion would be 15.0.0.0, and the AssemblyFileVersion is incremented as patches and updates are released.
 
-**Note:** It would be good if Microsoft changed the default behaviour of AssemblyInformationalVersionAttribute to default to the AssemblyVersion. See [Mike's suggestion for improving the version number (in comments)](http://msdn.microsoft.com/en-us/library/system.reflection.assemblyinformationalversionattribute.aspx).
+**Note:** It would be good if Microsoft changed the default behaviour of AssemblyInformationalVersionAttribute to default to the AssemblyVersion. See [Mike's suggestion for improving the version number (in comments)](http://msdn.microsoft.com/en-us/library/system.reflection.assemblyinformationalversionattribute.aspx?WT.mc_id=DT-MVP-33518).

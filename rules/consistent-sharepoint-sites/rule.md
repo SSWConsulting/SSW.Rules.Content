@@ -19,17 +19,18 @@ guid: 55742b01-36da-491a-84d8-5855fee4f2bd
 
 It's important for all your SharePoint Sites to be as consistent as possible. This helps users' navigation through new pages as they know exactly where to look.
 
-`youtube:https://www.youtube.com/embed/Wf9o6jGhXJI`
-
 <!--endintro-->
+
+`youtube:https://www.youtube.com/embed/Wf9o6jGhXJI`
+**Video: SharePoint Sites for Admins - Tips for Managing SharePoint with Warwick Leahy (5 min)**
 
 Following these simple rules makes this really easy:
 
-1. Put your preferred navigation in the same place (usually on the left-hand side)
-2. Keep the headings consistent
-3. Use icons for each type of link, so users easily know what to expect when clicking on a link (E.g. A Microsoft Word document is going to open a Word document) Aldo, a link to "Home" looks the same on every page.
+* Put your preferred navigation in the same place (usually on the left-hand side)
+* Keep the headings consistent
+* Use icons for each type of link, so users easily know what to expect when clicking on a link (E.g. A Microsoft Word document is going to open a Word document) Aldo, a link to "Home" looks the same on every page.
 
-### Navigation consistency between pages
+## Navigation consistency between pages
 
 ::: bad
 ![Figure: Bad example - The page on the left has totally different navigation to the page on the right](inconsistent1.png)
@@ -39,7 +40,7 @@ Following these simple rules makes this really easy:
 ![Figure: Good example - Both pages looking consistent - common navigation elements in the same spot](consistent.png)
 :::
 
-### Headings and icons consistency within a page
+## Headings and icons consistency within a page
 
 ::: bad
 ![Figure: Bad example - There are no icons to help users on the left navigation + the headings are the different](inconsistent2.png)

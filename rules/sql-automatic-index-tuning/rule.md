@@ -24,4 +24,4 @@ In SQL Server 2022 there are lots of features that make day to day database mana
 
 In small organizations without a dedicated database administrator, turning these features on is strongly recommended. Also for less important servers it can free up the database administrator's time to deal with only the most business critical databases and servers.
 
-See [detailed information on this feature](https://learn.microsoft.com/en-us/sql/relational-databases/automatic-tuning/).
+See [detailed information on this feature](https://learn.microsoft.com/en-us/sql/relational-databases/automatic-tuning/?WT.mc_id=DP-MVP-33518).

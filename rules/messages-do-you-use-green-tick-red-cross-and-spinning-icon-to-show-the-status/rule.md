@@ -19,17 +19,17 @@ It is very important to use a clear information icon to show the current status.
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - The icon is not consistent with the actual status](../../assets/wrongIconStatus.gif)  
+![Figure: Bad Example - The icon is not consistent with the actual status](/wrongIconStatus.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Use spinning icon to show the checking status](../../assets/spinningIconStatus.gif)  
+![Figure: Good Example - Use spinning icon to show the checking status](/spinningIconStatus.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Use red cross icon to show the wrong status](../../assets/crossIconStatus.gif)  
+![Figure: Good Example - Use red cross icon to show the wrong status](/crossIconStatus.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Use green tick icon to show the correct status](../../assets/tickIconStatus.gif)  
+![Figure: Good Example - Use green tick icon to show the correct status](/tickIconStatus.gif)  
 :::

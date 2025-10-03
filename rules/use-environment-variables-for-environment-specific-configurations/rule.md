@@ -20,17 +20,17 @@ If your Power Apps solution has any environment-specific configuration items, th
 
 Some of the benefits of using environment variables are:
 
-- No need to manually edit configurable values in a production environment.
-- Configure one or more variables in one place and reference like a parameter across multiple solution components.
-- Enter different values while importing solutions to other environments.
-- Update values without a code change.
-- Granular level security managed by Common Data Service.
-- Unlimited number of variables (max solution size is 29 MB).
-- Service the definitions and the values independently or together.
-- Supported by Solution Packager and DevOps tools enable continuous integration and continuous delivery (CI/CD).
-- Support for localization.
-- Can be used to control feature flags and other application settings.
+* No need to manually edit configurable values in a production environment.
+* Configure one or more variables in one place and reference like a parameter across multiple solution components.
+* Enter different values while importing solutions to other environments.
+* Update values without a code change.
+* Granular level security managed by Common Data Service.
+* Unlimited number of variables (max solution size is 29 MB).
+* Service the definitions and the values independently or together.
+* Supported by Solution Packager and DevOps tools enable continuous integration and continuous delivery (CI/CD).
+* Support for localization.
+* Can be used to control feature flags and other application settings.
 
 ![Figure: Environment variable make configuration information easy](new-environment-variable.png)
 
-More information here: https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/environmentvariables
+More information here: <https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/environmentvariables?WT.mc_id=DP-MVP-33518>

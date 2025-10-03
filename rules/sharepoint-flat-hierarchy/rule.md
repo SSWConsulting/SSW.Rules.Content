@@ -38,4 +38,4 @@ It is worth noting that this flexibility comes at a cost - permissions can be mo
 
 ### Links
 
-[Introduction to SharePoint information architecture - SharePoint in Microsoft 365 | Microsoft Docs](https://docs.microsoft.com/en-us/sharepoint/information-architecture-modern-experience#guiding-principle-the-world-is-flat)
+[Introduction to SharePoint information architecture - SharePoint in Microsoft 365 | Microsoft Docs](https://docs.microsoft.com/en-us/sharepoint/information-architecture-modern-experience#guiding-principle-the-world-is-flat?WT.mc_id=M365-MVP-33518)

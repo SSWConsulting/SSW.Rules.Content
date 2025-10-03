@@ -28,53 +28,53 @@ The following assumes you have an existing project with a database context, enti
 
 1. Install EF Core Tools
 
-   ```bash
-   dotnet new tool-manifest
-   dotnet tool install dotnet-ef
-   ```
+```bash
+dotnet new tool-manifest
+dotnet tool install dotnet-ef
+```
 
 2. Enable migrations
 
-   ```bash
-   dotnet ef migrations add InitialCreate
-   ```
+```bash
+dotnet ef migrations add InitialCreate
+```
 
    This will create a migration file in your project. This file contains the code to create the database schema.
 
-   ```cs
-   // Example of EF Core Migration in a .NET 8 project
-   public partial class AddUserTable : Migration
-   {
-       protected override void Up(MigrationBuilder migrationBuilder)
-       {
-           migrationBuilder.CreateTable(
-               name: "Users",
-               columns: table => new
-               {
-                   Id = table.Column<int>(nullable: false)
-                       .Annotation("SqlServer:Identity", "1, 1"),
-                   Name = table.Column<string>(nullable: true)
-               },
-               constraints: table =>
-               {
-                   table.PrimaryKey("PK_Users", x => x.Id);
-               });
-       }
+```cs
+// Example of EF Core Migration in a .NET 8 project
+public partial class AddUserTable : Migration
+{
+    protected override void Up(MigrationBuilder migrationBuilder)
+    {
+        migrationBuilder.CreateTable(
+            name: "Users",
+            columns: table => new
+            {
+                Id = table.Column<int>(nullable: false)
+                    .Annotation("SqlServer:Identity", "1, 1"),
+                Name = table.Column<string>(nullable: true)
+            },
+            constraints: table =>
+            {
+                table.PrimaryKey("PK_Users", x => x.Id);
+            });
+    }
 
-       protected override void Down(MigrationBuilder migrationBuilder)
-       {
-           migrationBuilder.DropTable(
-               name: "Users");
-       }
-   }
+    protected override void Down(MigrationBuilder migrationBuilder)
+    {
+        migrationBuilder.DropTable(
+            name: "Users");
+    }
+}
 
-   ```
+```
 
 3. Update database
 
-   ```bash
-   dotnet ef database update
-   ```
+```bash
+dotnet ef database update
+```
 
 ### Using Rider
 

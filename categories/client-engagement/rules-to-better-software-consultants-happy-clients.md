@@ -6,6 +6,7 @@ uri: rules-to-better-software-consultants-happy-clients
 index:
 - estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
 - underpromise-overdeliver
+- risk-multipliers
 - inform-clients-about-estimates-overrun
 - approval-do-you-get-work-approved-before-you-do-it
 - approval-do-you-assume-necessary-tasks-will-get-approval
@@ -13,6 +14,7 @@ index:
 - send-a-thank-you-email-to-your-client
 - poc-vs-mvp
 - separate-urge-from-behavior
+- underpromise-overdeliver
 ---
 
 Aiming for 'happy clients' can be an elusive game. Ultimately what makes one client happy is different from what makes another happy.

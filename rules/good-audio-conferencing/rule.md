@@ -1,5 +1,5 @@
 ---
-seoDescription: Setup a reliable remote meeting experience with good audio conferencing, using a decent microphone, camera, and conferencing software like Teams, Zoom, or Skype.
+seoDescription: Setup a reliable remote meeting experience with good audio conferencing, using a decent microphone, camera, and conferencing software like Teams, Zoom.
 type: rule
 archivedreason:
 title: Setup - Do you have good audio conferencing?
@@ -18,9 +18,9 @@ Whilst working remotely it is good practice to ensure you have a decent setup to
 
 <!--endintro-->
 
-- Good Microphone
-- Camera
-- Conferencing software like Teams, Zoom or Skype
+* Good Microphone
+* Camera
+* Conferencing software like Teams or Zoom
 
 It is always better to have complicated discussions over a call rather than just using instant messaging.
 

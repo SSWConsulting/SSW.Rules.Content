@@ -36,6 +36,7 @@ index:
   - do-you-follow-up-course-attendees-for-consulting-work
   - nda-gotchas
   - how-to-follow-up-a-customised-training-client
+  - follow-up-lost-opportunities
   - how-to-invoice-a-customised-training-client
   - always-propose-all-available-options
   - sales-people-to-work-together-and-keep-each-other-accountable
@@ -48,6 +49,7 @@ index:
   - what-currency-to-quote
   - avoid-using-too-many-decimals
   - include-annual-cost
+  - do-you-do-cold-emailing-right
 ---
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

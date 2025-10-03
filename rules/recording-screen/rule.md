@@ -23,7 +23,7 @@ There are many ways to record your screen. Here are some popular options:
 ### Remote recordings
 
 * [Zoom](https://zoom.us)
-* [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams)
+* [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams?WT.mc_id=M365-MVP-33518)
 
   * Perfect if you are alreay on a call [see](/record-teams-meetings)
 * [StreamYard](https://streamyard.com) (advanced - good for live streaming)

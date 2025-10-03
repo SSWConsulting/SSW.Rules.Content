@@ -6,6 +6,7 @@ uri: rules-to-better-data-analytics
 index:
 - clean-your-data-before-modelling
 - data-lake
+- digest-microsoft-form
 
 ---
 

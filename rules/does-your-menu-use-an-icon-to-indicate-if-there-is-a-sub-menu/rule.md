@@ -16,5 +16,5 @@ Too many sites expect the user to hover and wait to 'discover' if there are sub 
 <!--endintro-->
 
 ::: good  
-![Figure: Good example - This menu clearly shows which items have submenus](../../assets/SubmenusHaveIcons_Good.gif)  
+![Figure: Good example - This menu clearly shows which items have submenus](/SubmenusHaveIcons_Good.gif)  
 :::

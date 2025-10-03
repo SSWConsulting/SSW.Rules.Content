@@ -5,6 +5,7 @@ guid: b665f88f-f71c-4fa9-8c8b-570d62fce515
 uri: rules-to-better-security
 index:
 - choosing-authentication
+- use-passkeys
 - remote-desktop-gateway-mfa
 - secure-access-system
 - understand-the-dangers-of-social-engineering
@@ -36,6 +37,7 @@ index:
 - penetration-testing
 - sysadmin-cybersecurity-tools
 - developer-cybersecurity-tools
+- remove-confidential-information-from-github
 ---
 
 Want to avoid embarrassing or expensive data breaches? Check [SSW's Security consulting page](https://www.ssw.com.au/consulting/security).

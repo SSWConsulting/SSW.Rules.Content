@@ -22,8 +22,8 @@ guid: 62ad0741-0247-4bce-ae4d-0d136d838ba6
 
 To follow best practices for version control for Power BI reports you must know about the following features:
 
-* [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
-* [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
+* [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview?WT.mc_id=DOP-MVP-33518)
+* [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration?WT.mc_id=DOP-MVP-33518)
   * Requires either Fabric capacity or a Power BI Premium per User license
   * Currently only integrates with Git repos in Azure DevOps
 
@@ -45,21 +45,21 @@ The following video provides an overview of these features.
 
    * Converting reports to the PBIP format decomposes it into the following artifacts.
 
-     * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
-     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
+     * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset?WT.mc_id=DOP-MVP-33518), which contains files and folders representing a Power BI dataset
+     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report?WT.mc_id=DOP-MVP-33518), which contains the report settings, metadata for custom visuals, etc.
 
      ![Figure: PBIP artifacts](ProjectFolders.png)
 
 2. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps.
 
-   **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
+   **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf?WT.mc_id=DOP-MVP-33518) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
 
-   ::: img-large
-   ![Figure: cache.abf](PBICache.png)
-   :::
+  ::: img-large
+  ![Figure: cache.abf](PBICache.png)
+  :::
 
-   ::: img-large
-   ![Figure: The .gitignore file](Gitignore.png)
-   :::
+  ::: img-large
+  ![Figure: The .gitignore file](Gitignore.png)
+  :::
 
-3. [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
+3. [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo&WT.mc_id=DOP-MVP-33518)

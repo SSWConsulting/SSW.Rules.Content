@@ -22,15 +22,18 @@ index:
 - use-html-maxlength-to-limit-number-of-characters
 - do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-have-consistent-way-to-store-a-same-field
+- user-authentication-terms
 - label-buttons-consistently
 - data-entry-forms-for-web
+- weekdays-on-date-selectors
 - do-you-make-text-boxes-show-the-whole-query
 - do-you-provide-hints-for-filling-non-common-fields
+- forgot-password
 - do-you-provide-red-errors-next-to-the-field
+- trim-input-whitespace
 - do-you-provide-the-user-drill-downs-and-drill-arounds
 - do-you-save-the-last-users-selections
 - do-you-use-the-concept-of-drafts
-- do-your-windows-forms-have-border-protection
 
 ---
 

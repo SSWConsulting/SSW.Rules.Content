@@ -14,7 +14,7 @@ redirects:
   - do-you-avoid-using-specific-characters-in-friendly-url
 ---
 
-When adding a friendly URL, please avoid using specific characters like `+ : # & , ) ( ! \ } {  @ / = $` (and so on) due to these reasons:
+When adding a friendly URL, please avoid using specific characters like ```+ : # & , ) ( ! \ } {  @ / = $``` (and so on) due to these reasons:
 
 <!--endintro-->
 

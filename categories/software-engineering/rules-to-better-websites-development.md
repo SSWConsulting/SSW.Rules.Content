@@ -6,6 +6,7 @@ uri: rules-to-better-websites-development
 index:
   - the-right-technology
   - the-steps-to-do-after-adding-a-page
+  - create-friendly-short-urls
   - structured-website
   - always-have-a-default-index-page
   - have-a-stylesheet-file
@@ -13,6 +14,7 @@ index:
   - close-quotations-of-html-attributes
   - best-way-to-display-code-on-your-website
   - use-heading-tags-h1-h2-h3
+  - heading-to-anchor-targets
   - design-to-improve-your-google-ranking
   - do-you-include-google-analytics-in-your-website
   - make-your-site-easy-to-maintain
@@ -41,6 +43,7 @@ index:
   - use-jquery-instead-of-javascript
   - use-link-auditor
   - using-markdown-to-store-your-content
+  - self-contained-images-and-content
   - mdx-vs-markdown
   - best-practices-for-frontmatter-in-markdown
   - page-owner
@@ -52,7 +55,7 @@ index:
   - use-open-graph
   - use-server-side-comments
   - best-static-site-tech-stack
-  - use-nextjs
+  - why-nextjs-is-great
   - use-nextjs-caching-system
   - cms-solutions
   - git-based-cms-solutions
@@ -63,6 +66,7 @@ index:
   - monitor-packages-for-vulnerabilities
   - do-you-perform-migration-procedures-with-an-approved-plan
   - manage-bundle-size
+  - keep-website-loading-time-acceptable
   - best-commenting-engine
   - do-you-know-the-best-framework-to-build-an-admin-interface
 ---

@@ -18,7 +18,6 @@ created: 2012-12-10T19:42:40.000Z
 archivedreason: null
 guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
 ---
-![]()
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
@@ -122,4 +121,4 @@ To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
 ![Figure: Selecting Red SSW Custom theme for Production ](2024-09-16_18-06-09.jpg)
 
-More about SharePoint Online custom themes: https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint
+More about SharePoint Online custom themes: <https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint?WT.mc_id=DX-MVP-33518>

@@ -19,7 +19,7 @@ Microsoft Entra Privileged Identity Management (PIM) - formerly Azure Active Dir
 
 PIM enables just-in-time privileged access for users that are eligible for it, reducing the chance of privileged actions being done by malicious (or unaware) actors.
 
-Things that we can do with PIM (taken from [What is Microsoft Entra Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)):
+Things that we can do with PIM (taken from [What is Microsoft Entra Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure?WT.mc_id=ES-MVP-33518)):
 
 * Provide **just-in-time** privileged access to Entra ID and Azure resources
 * Assign **time-bound** access to resources using start and end dates
@@ -39,6 +39,7 @@ Do the following:
 
 1. Go to PIM at <https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles>
 2. Go to Assignments | Add Assignment:
+
    ::: good
    ![Figure: Good example - Assigning roles in PIM](pim1.jpg)
    :::

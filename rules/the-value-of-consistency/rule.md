@@ -16,35 +16,37 @@ archivedreason: null
 guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 ---
 
-If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get:
+If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency.
 
 <!--endintro-->
 
-![](consitency.png)
+Say we are creating a web application. There are 4 main benefits you will get:
 
-Say we are creating a web application. We can expect to:
-
-* **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
+* **Improved productivity** - With set standards, decision-making is streamlined. Bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
 * **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](/why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
 
-* **Improve communications** - For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug](/definition-of-a-bug)
+* **Improved communication** - Complete tasks by sharing a screenshot, code snippet, and time taken—clearly communicating and educating the customer. Be consistent in labeling issues as either bugs or features by [defining what's a bug](/definition-of-a-bug)
 
-* **Direct Focus on Client Issues** - With standards in place, developers don't waste time deliberating over architectural choices like [whether to use RESTful services or gRPC](/choose-the-right-api-tech). They can dive straight into solving the core issues that the client faces
+* **Direct focus on client issues** - With standards in place, developers don't waste time deliberating over architectural choices like [whether to use RESTful services or gRPC](/choose-the-right-api-tech). They can dive straight into solving the core issues that the client faces
+
+It’s not just about following rules for the sake of it, but about creating a smoother, more predictable experience for everyone involved. Here's why consistency is valuable from two key perspectives:
+
+👨‍💻 **Developer's perspective** - Consistency means developers can understand each other’s code more easily. When unsure, a standard often provides the answer—saving them from asking around or spending hours investigating. No more miscommunication, no time wasted.
+
+👩‍💼 **Customer's perspective** - Consistency ensures a reliable and repeatable experience, building trust in how the product behaves and how issues are handled.
 
 You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
 
-From the developer's perspective, consistency means that they understand each other's code, and if they don't know something, a standard will often save them asking someone and spending hours investigating. No more Chinese whispers and less time wasted.
-
-From the customer's perspective, consistency leads to a reliable and repeatable experience.
-
-The following story illustrates these values:
-
 ::: greybox
 
-**The Barber** (excerpt from "The E Myth")
+The following story is an excerpt from **"The E Myth" by Michael E. Gerber**, a bestselling author, who teaches entrepreneurs how to build scalable, system-driven businesses. It illustrates the value of consistency.
 
-I went to a barber who, in our first meeting, gave me one of the best haircuts I had ever had. He was a master with the scissors and used them exclusively, never resorting to electric shears as so many others do. Before cutting my hair, he insisted on washing it, explaining that the washing made cutting easier. During the haircut, one of his assistants kept my cup of coffee fresh. In all, the experience was delightful, so I made an appointment to return.
+![Figure: Michael E. Gerber is an American author](consistency.png)
+
+## The Barber
+
+"I went to a barber who, in our first meeting, gave me one of the best haircuts I had ever had. He was a master with the scissors and used them exclusively, never resorting to electric shears as so many others do. Before cutting my hair, he insisted on washing it, explaining that the washing made cutting easier. During the haircut, one of his assistants kept my cup of coffee fresh. In all, the experience was delightful, so I made an appointment to return.
 
 When I returned, however, everything had changed. Instead of using the scissors exclusively, he used the shears about 50 percent of the time. He not only didn't wash my hair but never even mentioned it. The assistant did bring me a cup of coffee, but only once, never to return. Nonetheless, the haircut was again excellent.
 
@@ -70,7 +72,7 @@ I would have been embarrassed to ask for these things, let alone to give my reas
 
 What the barber did was to give me a delightful experience and then take it away.
 
-What you do in your model is not nearly as important as doing what you do the same way, each and every time.
+What you do in your model is not nearly as important as doing what you do the same way, each and every time."
 
 :::
 **Figure: 'The Barber' describes an inconsistent experience**
@@ -79,13 +81,14 @@ Standards don't need to come at the expense of creativity. Following standards m
 
 `youtube: https://www.youtube.com/shorts/HBsIg5T8VT0`
 
-**Video: "You do not rise to the level of your goals. You fall to the level of your systems" Atomic Habits by James Clear**
+**Video: "You do not rise to the level of your goals. You fall to the level of your systems" Atomic Habits by James Clear (20 sec)**
 
-<br/>
-<br/>
+---
 
-*What is an SSW Rule that is memorable to you?*
+SSW Rules aren’t just guidelines - they’re the lessons we've learned (sometimes the hard way) and the standards that help us work smarter. But some rules stick with us more than others.
 
-*Or, in general what makes a rule memorable?*
+Take a moment to reflect:
 
-*Or, ever had a time that a rule saved you time (or from making a mistake)?*
+* What is an SSW Rule that is memorable to you?
+  * Or, in general what makes a rule memorable?
+  * Or, ever had a time that a rule saved you time (or from making a mistake)?

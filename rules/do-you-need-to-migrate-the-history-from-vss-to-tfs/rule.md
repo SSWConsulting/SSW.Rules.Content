@@ -33,5 +33,5 @@ But there are also some considerations that you may want to migrate the history:
 
 If you are going to move the history, the links may help:
 
-* [Walkthrough: Migrating from Visual SourceSafe to Team Foundation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms181247(v=vs.90)?redirectedfrom=MSDN)
-* [Migrating from SourceSafe to Team Foundation Server](https://devblogs.microsoft.com/buckh/migrating-from-sourcesafe-to-team-foundation-server/)
+* [Walkthrough: Migrating from Visual SourceSafe to Team Foundation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms181247(v=vs.90?WT.mc_id=DOP-MVP-33518)?redirectedfrom=MSDN)
+* [Migrating from SourceSafe to Team Foundation Server](https://devblogs.microsoft.com/buckh/migrating-from-sourcesafe-to-team-foundation-server/?WT.mc_id=DOP-MVP-33518)

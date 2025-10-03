@@ -72,7 +72,7 @@ Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.
 ---
 
 ::: greybox
-**More info:** You can install the IIS [URL Rewrite Module](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module) for IIS7 you can make ugly URLs much more friendly.
+**More info:** You can install the IIS [URL Rewrite Module](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module?WT.mc_id=DT-MVP-33518) for IIS7 you can make ugly URLs much more friendly.
 
 ![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule.jpg)
 

@@ -33,7 +33,7 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 
 ### Option 1: Word document
 
-[word](https://www.microsoft.com/en-au/microsoft-365/word)
+[word](https://www.microsoft.com/en-au/microsoft-365/word?WT.mc_id=DP-MVP-33518)
 
 ✅ **Pros:**
 

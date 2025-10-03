@@ -6,15 +6,20 @@ uri: replying-in-the-same-medium
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - warn-then-call
   - important-chats-should-be-in-an-email
   - better-late-than-never
+  - meaningful-chat-reactions
 created: 2023-06-19T19:31:38.608Z
 guid: 4572b36e-6b6f-4da4-87b1-91e495c30e06
 ---
 
-Consistency is key in communication. Always reply to tasks or questions in the same medium they were sent. It's all about showing courtesy, avoiding confusion, and keeping things running smoothly.
+Consistency is key in communication. Every question or task **must** receive a response, even if it’s just a [quick reaction](/meaningful-chat-reactions) or acknowledgment. That’s always better than silence, which leaves people wondering if you saw it, agreed, or took any action.
+
+Always aim to reply to tasks or questions in the same medium they were sent. It's all about showing courtesy, avoiding confusion, and keeping things running smoothly.
 
 <!--endintro-->
 

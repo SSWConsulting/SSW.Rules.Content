@@ -35,8 +35,8 @@ Get ReSharper to green on each file you touch. You want the files you work on to
 
 You can run through a file and tidy it very quickly if you know 2 great keyboard shortcuts:
 
-- Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
-- Alt + Enter: Smart refactoring suggestions
+* Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
+* Alt + Enter: Smart refactoring suggestions
 
 ![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81_image001.png)
 
@@ -52,17 +52,11 @@ Use [SSW CodeAuditor](https://codeauditor.com).
 
 ### Level 3
 
-Use [SSW LinkAuditor](http://www.ssw.com.au/ssw/LinkAuditor/).
-
-**Note:** Document any rules you've turned off.
-
-### Level 4
-
 Use StyleCop to check that your code has consistent style and formatting.
 
 ![Figure: StyleCop shows a lot of warnings in this test project](StyleCopInVS2010.png)
 
-### Level 5
+### Level 4
 
 Run Code Analysis (was FxCop) with the default settings or ReSharper with Code Analysis turned on.
 
@@ -70,13 +64,13 @@ Run Code Analysis (was FxCop) with the default settings or ReSharper with Code A
 
 ![Figure: The Code Analysis results indicate there are 17 items that need fixing](codeanalysis.png)
 
-### Level 6
+### Level 5
 
 Ratchet up your Code Analysis Rules until you get to 'Microsoft All Rules'.
 
 ![Figure: Start with the Minimum Recommended Rules, and then ratched up.](image003.png)
 
-### Level 7
+### Level 6
 
 Document any rules you've turned off.
 
@@ -86,9 +80,9 @@ Create a **GlobalSuppressions.cs** file in your project with the rules that have
 
 ![Figure: The suppressions file tells Code Analysis which rules it should disable for specific code blocks](suppressions-file.png)
 
-**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview>
+**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?WT.mc_id=DT-MVP-33518>
 
-### Level 8
+### Level 7
 
 The gold standard is to use [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
 

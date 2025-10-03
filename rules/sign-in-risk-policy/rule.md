@@ -9,7 +9,7 @@ authors:
 related:
   - risky-users-policy
 created: 2022-04-29T02:06:23.523Z
-guid: 0aef7548-1e06-4723-9f51-a6da5f564813
+guid: 8faf35c0-b062-4223-9bd3-aec5373eafa6
 ---
 
 Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.
@@ -30,4 +30,4 @@ When setting this up, you can also choose to apply this to all your users, selec
 
 ![Good Example - All users with a risk of Low and above will be prompted for MFA authentication](signinrisk.jpg)
 
-You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)
+You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies?WT.mc_id=ES-MVP-33518)

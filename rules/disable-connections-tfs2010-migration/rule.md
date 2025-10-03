@@ -24,7 +24,7 @@ Once you are ready to start you need to make sure that no one can access the exi
 2. Send out an email notifying all users that TFS2008 will be turned off.
    Follow [Do you have a server reboot/restart policy?](/planned-outage-process)
 3. Make sure no-one can check in files by either:
-   A. Running [TFSQuiesce](https://social.msdn.microsoft.com/Forums/vstudio/en-US/1ec7dc4a-ba2b-4d06-86a3-0924cbe3e919/tfsservicecontrol-quiesce-requirement-for-backups?forum=tfsadmin) (recommended)
+   A. Running [TFSQuiesce](https://learn.microsoft.com/en-us/azure/devops/server/command-line/tfsservicecontrol-cmd?view=azure-devops-2022#parameters) (recommended)
 
    B. Turning off TFS Service 1. Remote desktop into TFS 2008 2. Start IIS 3. Right click Team Foundation Server | Stop
 

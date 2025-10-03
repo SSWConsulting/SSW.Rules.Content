@@ -37,6 +37,6 @@ Make this easy on yourself by adding a query 'Recent'.
 2. Just copy the 'Tasks - My' query
 3. Add the sort date of 'Changed Date' sorted by descending
 
-   <![Figure: The query should be sorted by 'Changed Date'](SortedByChangedDate.jpg)
+   ![Figure: The query should be sorted by 'Changed Date'](SortedByChangedDate.jpg)
 
 4. Use that query on your check ins and you find the relevant work item easily

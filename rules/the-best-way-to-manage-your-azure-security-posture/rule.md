@@ -12,7 +12,7 @@ guid: d66a25f2-cdd0-4ca9-8b12-4c0b67525067
 
 <!--endintro-->
 
-Azure Security Center is a fantastic way to start improving the security of your Azure environment. To be able to see any of the information Azure Security Center can provide, you'll need to follow [Azure Security Center permissions guidelines](https://docs.microsoft.com/en-us/azure/security-center/security-center-permissions).
+Azure Security Center is a fantastic way to start improving the security of your Azure environment. To be able to see any of the information Azure Security Center can provide, you'll need to follow [Azure Security Center permissions guidelines](https://docs.microsoft.com/en-us/azure/security-center/security-center-permissions?WT.mc_id=ES-MVP-33518).
 
 ![](azure-security-1.png)
 

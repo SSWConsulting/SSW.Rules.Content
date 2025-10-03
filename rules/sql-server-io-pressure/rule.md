@@ -42,7 +42,7 @@ If the cost is not overly high, it often provides a better return on investment 
 
 ## Identify the database files under pressure
 
-Use the following query from the Microsoft Learn article [Troubleshoot slow SQL Server performance caused by I/O issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance) to identify which database files are under pressure.
+Use the following query from the Microsoft Learn article [Troubleshoot slow SQL Server performance caused by I/O issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance?WT.mc_id=DP-MVP-33518) to identify which database files are under pressure.
 
 ```sql
    SELECT   LEFT(mf.physical_name,100),
@@ -129,20 +129,20 @@ Prior to SQL Server 2016, a single Log Writer thread performed all log writes. I
 
 Occurs when some of the following I/O activities happen:
 
-- The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
-- Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
-- Reading the actual data from the data files during a data backup.
+* The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
+* Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
+* Reading the actual data from the data files during a data backup.
 
 ### IO_COMPLETION
 
 Occurs while waiting for I/O operations to complete. This wait type generally involves I/Os not related to data pages (buffers). Examples include:
 
-- Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
-- Reading and writing eager spools to disk (check tempdb storage).
-- Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
-- Reading a page from disk when database isn't set up yet.
-- Copying pages to a database snapshot (Copy-on-Write).
-- Closing database file and file uncompression.
+* Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
+* Reading and writing eager spools to disk (check tempdb storage).
+* Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
+* Reading a page from disk when database isn't set up yet.
+* Copying pages to a database snapshot (Copy-on-Write).
+* Closing database file and file uncompression.
 
 ### BACKUPIO
 

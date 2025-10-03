@@ -17,7 +17,6 @@ created: 2025-01-02T12:40:00.000Z
 archivedreason: ""
 guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
 ---
-
 Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. AI has now been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), embedding an even deeper level of AI Integration within a developer's workflow.
 
 <!--endintro-->
@@ -64,24 +63,27 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 
 ## AI-Powered IDE Comparison
 
-| Feature               | [Cursor](https://www.cursor.com/) | [IDE + GitHub Copilot](https://github.com/features/copilot) | [Windsurf](https://codeium.com/windsurf) | [GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
-| Free Version          | • 2000 completions per month<br>• 50 slow premium requests per month | • 2000 completions per month<br>• 50 chat messages per month | • 5 premium user prompts<br>• 5 premium Flow Actions | ❌ |
-| Price (USD per month) | $20 | $10 | $15 | $10 (Bundled with Copilot Pro) |
-| AI Model(s)           | • cursor-small (free)<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | • Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | • Meta Llama<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | OpenAI (GPT 3.5, 4, 4o) |
-| Custom Models         | ❌ | ❌ | ❌ | Enterprise Version |
-| Custom Rules          | ✅ | ✅ | ✅ | ❌ |
-| Auto-Completion       | ✅ | ✅ | ✅ | ✅ |
-| Chat                  | ✅ | ✅ | ✅ | ✅ |
-| Agent                 | ✅ | ❌ | ✅ | ✅ |
-| Privacy Mode          | ✅ | ✅ | ✅ | ✅ |
-| GitHub Integration    | ❌ | • Copilot Chat<br>• Auto-generate commit message | ❌ | • Full Workflow is on GitHub<br>• Generate PR Summary |
-| Web Searching         | ✅ | ❌ | ✅ | ❌ |
-| Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported) | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported) | • Browser based<br>• VSCode Support (GitHub CodeSpace) |
+| Feature               | [Cursor](https://www.cursor.com/)                                                        | [IDE + GitHub Copilot](https://github.com/features/copilot)                                    | [Windsurf](https://codeium.com/windsurf)                                        | [GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) |
+| --------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Free Version          | • 2000 completions per month<br>• 50 slow premium requests per month                     | • 2000 completions per month<br>• 50 chat messages per month                                   | • 5 premium user prompts<br>• 5 premium Flow Actions                            | ❌                                                                             |
+| Price (USD per month) | $20                                                                                      | $10                                                                                            | $15                                                                             | $10 (Bundled with Copilot Pro)                                                |
+| AI Model(s)           | • cursor-small (free)<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | • Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o)                                | • Meta Llama<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | OpenAI (GPT 3.5, 4, 4o)                                                       |
+| Custom Models         | ❌                                                                                        | ❌                                                                                              | ❌                                                                               | Enterprise Version                                                            |
+| Custom Rules          | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ❌                                                                             |
+| Auto-Completion       | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
+| Chat                  | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
+| Agent                 | ✅                                                                                        | ❌                                                                                              | ✅                                                                               | ✅                                                                             |
+| Privacy Mode          | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
+| GitHub Integration    | ❌                                                                                        | • Copilot Chat<br>• Auto-generate commit message                                               | ❌                                                                               | • Full Workflow is on GitHub<br>• Generate PR Summary                         |
+| Web Searching         | ✅                                                                                        | ❌                                                                                              | ✅                                                                               | ❌                                                                             |
+| Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported)                           | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported)                | • Browser based<br>• VSCode Support (GitHub CodeSpace)                        |
 
 ::: info
-**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
+**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you. 
+
+If you still have your student status, you can get **GitHub Copilot Pro for free** here: [Free GitHub Copilot Pro access](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer#about-free-github-copilot-pro-access)
 :::
+
 
 ## A word of caution
 
@@ -92,7 +94,7 @@ You wouldn't send an email written by ChatGPT without first checking it for corr
 You are solely responsible for the code you commit!
 
 ::: info
-**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.  
+**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
 See <https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code>
 :::
 

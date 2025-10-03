@@ -20,25 +20,38 @@ Azure is a beast of a product with hundreds of services. When you start learning
 
 There are heaps of great tools out there with differing pricing models and learning styles.
 
-### YouTube - $0
+## YouTube - $0
 
 YouTube is a great resource for those who love audio-visual learning. It is completely free and there are heaps of industry experts providing content. Some of the best examples are:
 
-- [John Savill](https://www.youtube.com/c/NTFAQGuy)
-- [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
-- [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
-- [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
+* [John Savill](https://www.youtube.com/c/NTFAQGuy)
+* [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
+* [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
+* [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
 
-### Microsoft Learn - $0 - Recommended ✅
+## Microsoft Learn - $0 - Recommended ✅
 
-[Microsoft Learn](https://docs.microsoft.com/en-us/learn/) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
+[Microsoft Learn](https://docs.microsoft.com/en-us/learn/?WT.mc_id=AZ-MVP-33518) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
 
-### Online Learning Platforms - $100 - 500 AUD
+### Recommended practices
+
+Here’s a simple example of how you can start a project to learn Azure: build a small **.NET Web API** with basic CRUD operations, use **Azure SQL Database** for storage, and deploy it to **Azure App Service**. Going hands-on like this helps you see how things work.
+
+---
+
+#### Quick Tips / Best Practices**
+
+* Start small by only adding features you need to learn something new
+* Use free or lowest-cost tiers wherever possible (for learning project)
+* Focus on deployment and configuration as much as code (connection strings, environment, security)
+* Play around with the live app (invoke endpoints, debug issues)
+
+## Online Learning Platforms - $100 - 500 AUD
 
 Online learning platforms provide high quality technical training from your browser. These courses include lectures, tutorials, exams and more so you can learn at your own pace.
 
 Some of the options:
 
-- Udemy - $~100 AUD - Budget Option, no instructor vetting
-- LinkedIn Learning $~300 AUD
-- PluralSight - $~500 AUD - Gold Standard ⭐
+* **Udemy** $~100 AUD - Budget Option, no instructor vetting
+* **LinkedIn Learning** $~300 AUD
+* **PluralSight** $~500 AUD - Gold Standard ⭐

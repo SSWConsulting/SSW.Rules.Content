@@ -18,7 +18,7 @@ If you have an SQL script that runs as part of your install you should always ma
 If you know which machine the database is going to be installed from within your application you should first check that it doesn't already exist and prompt the user accordingly to let them know that they should first manually delete the database. For example the install of the SQL Reporting Services setup handles this problem in an appropriate and simple manner (although some additional help could be provided).
 
 ::: good  
-![Good example – an application should never automatically delete a database, not even a sample database](../../assets/InterfacesDBAlreadyExists.gif)  
+![Good example – an application should never automatically delete a database, not even a sample database](/InterfacesDBAlreadyExists.gif)  
 :::
 
 If you cannot be sure of the machine that the database is going to be installed on then you should make use of third party .sql script execution managers such as [SSW SQL Deploy](http://www.ssw.com.au/ssw/SQLDeploy) to ensure that when you attempt creation of databases where the database already exists then things will run smoothly.

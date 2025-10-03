@@ -56,8 +56,12 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - {{ REASON }}) on the first line of the email body
-   * For further versions of an email, replace the v2 with v3, v4, v5, etc
    * The reason should include a summary of what was changed
+   * If additional versions of an email is needed:
+     * Repeat steps 1-3
+     * Add a new v3, v4, v5 above the previous version with the reason for the new update
+
+**Tip:** If you receive a v2 email, the first thing you should do is go delete the prior email from your inbox. This avoids you accidentally replying to your original email later.
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.

@@ -18,9 +18,13 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
+  - title: Josh Berman
+    url: https://ssw.com.au/people/josh-berman
 related:
   - roadmap
-  - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-planning-meeting
+  - sprint-forecast
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
@@ -30,17 +34,14 @@ created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
-After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
+
+After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint.
 
 <!--endintro-->
 
-Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
+Learn more on [Do you know what happens at a Sprint Retrospective meeting?](/what-happens-at-retro-meetings)
 
-::: info
-
-* It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
-* Move all the dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner
-:::
+Firstly, create a new email copying the information from the previous Sprint Review/Retro.
 
 ::: email-template
 
@@ -57,8 +58,8 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
-* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
+* {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
+* {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
 
 Please see below for a more detailed breakdown of the Sprint:
 
@@ -91,7 +92,7 @@ Please see below for a more detailed breakdown of the Sprint:
 
 3. Sprint Burndown - A quick overview of the Sprint
 
-![Figure: Sprint Burndown](burndown.jpg)
+![Figure: Sprint Burndown](burndown-V2.png)
 
 4. Code Coverage - Hopefully tests are increasing each Sprint
 
@@ -137,19 +138,7 @@ Progress:
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-**{{ EPIC #2 }}**
-
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
-
-**{{ EPIC #3 }}**
-
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+*Add this for each current epic in your backlog*
 
 10. R&D - Did we do any experimental work?
 
@@ -157,9 +146,17 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
-### 🤖 AI use - what tools did you use?
+11. AI use - what tools did you use?
 
 * {{ PERSON }} - {{ TOOLS }}
+
+#### Copilot Stats
+
+![Figure: Copilot speaking summary was {{ DURATION }} - Image from Product Owner](meeting-length.png)
+
+**Note:** People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
+
+![Figure: Copilot showed the main action point was {{ MAIN ACTION POINT }} - Image from Product Owner](main-action-point.png)
 
 ### Sprint Retrospective
 
@@ -200,6 +197,24 @@ As per <https://www.ssw.com.au/rules/for-the-record/>
 Figure: Good example - Template for Sprint Review/Retro email
 :::
 
-::: good
-![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+::: info
+**Note:** It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
 :::
+
+::: info
+**Tip:** Move all Dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner.
+:::
+
+::: good
+![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+:::
+
+## Recording Review and Retrospective Meetings
+
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
+
+`youtube: https://www.youtube.com/watch?v=d1-5wziOH7o`
+**Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)**
+
+`youtube: https://www.youtube.com/watch?v=eqc_fKk2ZFo`
+**Video: ✅ Good Example: Josh B in Tina.io - Sprint Review 48 & Forecast 49 (13 min)**

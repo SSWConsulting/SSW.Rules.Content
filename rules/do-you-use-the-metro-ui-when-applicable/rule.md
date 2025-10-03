@@ -25,9 +25,9 @@ From [Adam Cogan's blog - Microsoft is onto something here
 > What that means for developers is that we have the simplest way to build apps that go across these 3 devices."
 
 ::: good  
-![Figure: Good example – TFSPreview.com adopts the Metro style](../../assets/Metro-Good.jpg)  
+![Figure: Good example – TFSPreview.com adopts the Metro style](/Metro-Good.jpg)  
 :::
 
 ::: good  
-![Figure: Good example – SSW TIMEPRO has been Metro influenced](../../assets/Metro-Good2.jpg)  
+![Figure: Good example – SSW TIMEPRO has been Metro influenced](/Metro-Good2.jpg)  
 :::

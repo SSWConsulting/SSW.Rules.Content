@@ -21,9 +21,9 @@ guid: c7465c5f-45be-4185-ade6-836ff4d6b633
 
 There are three main frameworks for unit testing. The good news is that they are all acceptable choices:
 
-- They all have test runner packages for running tests directly from Visual Studio
-- They all have console-based runners that can run tests as part of a CI/CD pipeline
-- They differ slightly in syntax and feature set
+* They all have test runner packages for running tests directly from Visual Studio
+* They all have console-based runners that can run tests as part of a CI/CD pipeline
+* They differ slightly in syntax and feature set
 
 <!--endintro-->
 
@@ -49,7 +49,7 @@ Because NUnit has an open-source .NET UI control for running tests, NUnit is s
 
 ### MSTest
 
-[MSTest](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing) is Microsoft's testing framework. In the past this was a poor choice as although this was the easiest framework to run from Visual Studio, it was extremely difficult to automate these tests from CI/CD build servers. These problems have been completely solved with .NET Core but for most C# developers this is “too little, too late” and the other unit testing frameworks are now more popular.
+[MSTest](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing?WT.mc_id=DT-MVP-33518) is Microsoft's testing framework. In the past this was a poor choice as although this was the easiest framework to run from Visual Studio, it was extremely difficult to automate these tests from CI/CD build servers. These problems have been completely solved with .NET Core but for most C# developers this is “too little, too late” and the other unit testing frameworks are now more popular.
 
 ### Respawn
 

@@ -5,6 +5,7 @@ guid: 073cbcd8-c942-4a96-a54d-4682c4fc885e
 uri: rules-to-better-interfaces-mobile
 index:
 - do-you-design-for-touch-interfaces
+- hamburger-menu
 - hyperlink-phone-numbers
 - do-you-know-what-guidelines-to-follow-for-wp
 - do-you-know-when-to-build-a-wp-app-over-an-iphone-app

@@ -18,7 +18,7 @@ You can use Virtual Machine Manager (VMM) to manage your Windows Update Services
 
 <!--endintro-->
 
-To find full explained instructions on how to set this up, see [here](https://docs.microsoft.com/en-us/system-center/vmm/update-server?view=sc-vmm-2019).
+To find full explained instructions on how to set this up, see [here](https://docs.microsoft.com/en-us/system-center/vmm/update-server?view=sc-vmm-2019&WT.mc_id=WDIT-MVP-33518).
 
 Before starting, you should take some things into consideration:
 

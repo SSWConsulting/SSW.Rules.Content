@@ -1,30 +1,48 @@
 ---
 seoDescription: how-to-request-a-test-please-effectively-for-software-testing-and-quality-assurance
 type: rule
-title: Quality - Do you know how to request a "Test Please"?
+title: Do you know how to request a "Test Please"?
 uri: request-a-test-please
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
   - conduct-a-test-please
+  - when-you-use-mentions-in-a-pbi
 redirects:
   - quality-do-you-know-how-to-request-a-test-please
 created: 2015-08-26T19:03:34.000Z
 archivedreason: null
 guid: dda8e03b-f5a1-4dea-967e-cfda36fbda95
----
-Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
 
-These are the steps you should take when requesting a "Test Please":
+---
+
+Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
 
 <!--endintro-->
 
-1. Find 2 free testers to send the email below
+## ✅ The ideal 'Test Please' workflow
+
+When requesting a review or approval (commonly called a "Test Please") for a piece of work such as a **[video edit](/test-please-for-video)**, **blog post**, or **design** preview, it's important to follow a consistent and transparent workflow:
+
+1. **Post the preview link in the PBI** – Add the link to the version or preview at the top of the relevant PBI (Product Backlog Item)
+2. **Use the PBI discussion to tag reviewers** – In the comments section, use `@` to mention the team members you want to review the work, and write a clear message (e.g., “Test please 🙏”)
+3. **Keep all feedback and iterations in the same thread** – Reviewers should reply in the same PBI discussion with comments or with a confirmation like “Test passed ✅.” Any required changes or back-and-forth should also stay within that thread to keep the full history in one place
+4. **Follow up professionally via Teams** – If there's no response after a reasonable time, follow up with a [“warn then call”](/warn-then-call) (e.g., “Hi Adam, calling in 1 min about the preview link”), and reference the PBI so the full context is easy to access
+
+This process ensures feedback is traceable, transparent, and tied to the work item.  
+
+## 'Test Please' via email
+
+When there is **no project backlog** in place, you should send the 'Test Please' request via email.
+
+1. Find 2 free testers to send the email
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
@@ -33,21 +51,26 @@ These are the steps you should take when requesting a "Test Please":
 | | |
 | -------- | --- |
 | To:| John |
-| Subject: | Product Name v1.11 |
+| Subject: | Test Please - {{ PRODUCT/DESIGN }} {{ VERSION NUMBER (e.g. V1.11) }} |
 ::: email-content
 
-1. <mark>'Test Please'</mark>
+<mark>Test Please</mark>
 
 ### Hi John
 
 I am looking for bugs or approval to release this version.
 
-1. Please test the following modifications:
+1. Please test:
 
 * {{ FEATURE TO BE TESTED }}
-* {{ FEATURE TO BE TESTED }}
 
-I have done what I could for my code's health. E.g.
+Specific issues to look out for are:
+
+* {{ ISSUE }}
+
+The latest version is at {{ URL }}
+
+**Note:** I have done what I could for my code's health.
 
 * Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
 * Kept my eye on Application Insights
@@ -59,14 +82,7 @@ I have done what I could for my code's health. E.g.
     * {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
     * ...
 
-Specific issues to look out for are:
-
-* {{ ISSUE }}
-* {{ ISSUE }}
-
-The latest version (Product Name v1.11) is at {{ URL }}
-
-Keep in mind that a "Test Please" is an urgent task and that it should start within the hour.
+Keep in mind that a "Test Please" is an urgent task and that it should start ASAP.
 
 **Notes:**
 
@@ -80,11 +96,9 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **\#5** - Do not reply to this message until you can say:
 
-* "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
-or
-* "**❌ Test Please failed** (as per Critical bugs reported)"
-
-**\#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
+* "**✅ Test Please succeeded** (no critical bugs) - You are ready to deploy"\
+   or
+* "**❌ Test Please failed** (critical bugs reported via email)"
 
 Regards,
 
@@ -101,28 +115,21 @@ If current version is better than the last version you can release (even with a 
 * You get to work on the failures ASAP
 :::
 
-## Don't send a 'Test Please' content via IM
+## ❌ Never send a 'Test Please' content via IM
 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
 ::: greybox
 "Ping!
 I need you to check my 'Test Please' email\
-See subject: **Product Name v1.11**"
+See subject: Test Please - {{ PRODUCT/DESIGN }} {{ VERSION NUMBER }}"
 :::
 
-## What if you are doing an email test?
+---
 
-In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
+## Getting input from extra people
 
-For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
-
-* Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
-* Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
-
-## What if you need to get input from a few people?
-
-If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
+If you require input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
 You have 2 options:
 
@@ -134,11 +141,28 @@ In this case, make sure you include the original thread subject in your email, s
 
 This way everyone will have the entire history of the task and its progress.
 
-## What if you're doing a Windows Forms test?
+::: info
+**Note:** A @ mention is all you need if you are following the ideal workflow 😉
+:::
+
+---
+
+## Other types of 'Test Please' requests
+
+### Email draft 'Test Please'
+
+In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
+
+For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
+
+* Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
+* Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
+
+### Windows Forms 'Test Please'
 
 For Windows Forms test you should include this info to the email:
 
-* The latest version of {{Product Name}} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
+* The latest version of {{ PRODUCT NAME }} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
 * Test on a fresh VPC image of Windows
 * Install into a non-default directory
 * Check the installation folder for misplaced items
