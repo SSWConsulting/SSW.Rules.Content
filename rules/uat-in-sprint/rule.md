@@ -43,17 +43,23 @@ As you can imagine, this disconnect between development and acceptance testing c
 
 ## UAT done right
 
-The best way to handle UAT is to include your testers within the development team. While the term "Developer" is used in Scrum, many people forget that Scrum is a **cross-functional** team. It should be comprised of people who have all the skills needed to deliver a piece of work *to production* within a single Sprint. From the Scrum guide:
+A Scrum team should be comprised of people who have all the skills needed to deliver a piece of work to production, **within a single Sprint.**
+
+If your [Definition of Done](https://www.ssw.com.au/rules/definition-of-done/) requires a feature to pass UAT before shipping, then your Development team needs to include people who can make that happen.
+
+From the Scrum guide:
 
 > It is important to remember that a Developer is not necessarily a software developer. They can focus on any type of product work whether software or not and any aspect of helping to design, build, test or ship the product.
 >
 > <https://www.scrum.org/resources/what-is-a-scrum-developer>
 
+
+
 ![Figure: Good example - cross-functional teams deliver features faster](cooperative-devs.png)
 
 ## Does that mean I should ditch my UAT environment?
 
-This is a good question, and generally, the answer is "No". Environments are a separate concern, and having a UAT environment is often the best location for your testers to perform UAT testing. The important distinction here is that your deployment pipelines should be delivering code changes to whatever environment the testers need for UAT *within the same Sprint that the feature is being developed*.
+This is a good question, and generally, the answer is "No". Environments are a separate concern, and having a UAT environment is often the best location for your testers to perform UAT testing. The important distinction here is that your deployment pipelines should be delivering code changes to whatever environment the testers need for UAT **within the same Sprint** that the feature is being developed.
 
 ## My testers are swamped - there's too much to test in a single Sprint
 
