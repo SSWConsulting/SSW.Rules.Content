@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you use AI to make internationalization easier?
-seoDescription: i18n, L10n, internationalization, localization, W3C standards
+seoDescription: i18n, l10n, internationalization, localization, W3C standards
 uri: i18n-with-ai
 authors:
   - title: Gilles Pothieu
@@ -24,33 +24,39 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 
 ![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online](first_language_vs_web.png)
 
-## The Expensive Confusion: i18n vs L10n
+## The expensive confusion: i18n vs l10n
 
-### Internationalization (i18n) - The Architecture
+### **Internationalization** (i18n) - The architecture
 
 Count the letters between 'i' and 'n' in "internationalization", 18. Hence i18n. The W3C Internationalization Activity defines it as designing products and services so they can easily adapt to specific local languages and cultures.
 
 Think of it like building a house with modular plumbing that could handle any water system globally. You're not installing fixtures yet, just ensuring your foundation won't collapse when someone needs a bidet instead of a toilet.
 
-### Localization (L10n) - The Implementation
+### **Localization** (l10n) - The Implementation
 
-If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
+If i18n is the blueprint, l10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
 
-## Common i18n Issues
+## Common i18n issues
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters
 * **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???”
+* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money  
+* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters
 * **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction
 * **Names & forms**: Some cultures have one name, some have none that fit “first/last”
-* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money  
-* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
 * **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are
+* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
+
+**Note:** RTL means "Right to Left"
 
 ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
 
-## General Tips
+## General tips
+
+* **Use Unicode everywhere**  
+  ❌ No assumptions about ASCII-only inputs  \
+  ✅ UTF-8 end-to-end (DB, API, frontend)  
 
 * **Localize time & numbers properly**  
   ❌ Don’t parse strings manually  \
@@ -59,10 +65,6 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 * **Design elastic UIs**  
   ❌ Don’t hardcode pixel widths for buttons or labels\
   ✅ Use flex layouts, `min-width`, `word-break`
-
-* **Use Unicode everywhere**
-  ❌ No assumptions about ASCII-only inputs  \
-  ✅ UTF-8 end-to-end (DB, API, frontend)  
 
 * **Plan for RTL**
 Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
@@ -73,20 +75,16 @@ Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring
   ❌ Never force “First Name / Last Name” globally  
   ✅ Use a single “Full Name” field, or make name parts optional  
 
-* **SEO & URLs**  
-  ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
-  ✅ Configure hreflang tags correctly  
-  ✅ Research local search engines (Baidu, Yandex, Naver)
+* **Optimize performance globally**  
+  ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
+  ✅ Use a CDN close to your users  
+  ✅ In China, use local CDNs to avoid latency from the Great Firewall  
+  ✅ Subset fonts or use system fonts  
 
 * **Check cultural assumptions**  
   ❌ Don’t assume Western metaphors apply everywhere  
   ✅ Test color/icon choices with local users (white = death in China)  
 
-* **Optimize performance globally**  
-  ❌ Don’t ship a 5MB JS bundle to mobile-first markets
-  ✅ Use a CDN close to your users  
-  ✅ In China, use local CDNs to avoid latency from the Great Firewall
-  ✅ Subset fonts or use system fonts  
 
 ::: greybox  
 Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
@@ -96,27 +94,37 @@ Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
 
 ### Rely on Google Translate (0 effort)
 
-Users can rely on Google Translate in their browser if implementation time is lacking.  
+Users can rely on Google Translate in their browser if implementation time is lacking. 
+
+#### Pros:
+
+✅ Immediate availability with zero development effort  
+✅ No implementation or maintenance costs
+
+#### Cons:
 
 ❌ Poor user experience and unprofessional appearance  
 ❌ Inaccurate translations and broken UI elements
 ❌ Potential loss of international users  
-✅ Immediate availability with zero development effort  
-✅ No implementation or maintenance costs
 
-### Implement i18n Libraries
+### Implement i18n libraries
 
 Use standard i18n tools (see below) with an internal translation workflow.  
+
+#### Pros:
+
+✅ High-quality, controlled translations  
+✅ Professional multilingual user experience  
+✅ Native language support and better SEO  
+✅ Full control of data
+
+#### Cons:
 
 ❌ Significant development time and delays
 ❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
 ❌ Ongoing costs for maintaining and updating translations with each new feature
 ❌ Complex maintenance of language files
 ❌ Slow update process for new content  
-✅ High-quality, controlled translations  
-✅ Professional multilingual user experience  
-✅ Native language support and better SEO  
-✅ Full control of data
 
 ### Useful Non-AI tools
 
@@ -127,12 +135,12 @@ Use standard i18n tools (see below) with an internal translation workflow.
 
 ## AI-tools
 
-### Exploring AI Agents in i18n
+### Exploring AI agents in i18n
 
 Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
 
 `youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (Watch 8:10 – 16:40)**
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (watch from 8:10 to 16:40)**
 
 In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
 
@@ -143,11 +151,11 @@ In this part, Ben Morss shows how an AI agent can internationalize a monolingual
 
 🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-### Choosing the Right i18n Strategy by Project Size
+### Choosing the right i18n strategy by project size
 
 Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
 
-#### 1. Small Project - Essentials (POC)  
+#### 1. Small project - Essentials (POC)  
 
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
 **Stack:** use traditional non-AI i18n approaches  
@@ -155,7 +163,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 ✅ Cheap, fast, avoids future i18n debt
 ❌ Manual releases, limited scalability, brand/tone risks  
 
-#### 2. Medium Project - Step Further with TMS  
+#### 2. Medium project - Step further with TMS  
 
 **Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
@@ -163,7 +171,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
 
-#### 3. Large Project - AI in CI/CD
+#### 3. Large project - AI in CI/CD
 
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
@@ -171,7 +179,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
 
-#### 4. Enterprise Project - Full-Blown Live LLM Translation  
+#### 4. Enterprise project - Full-blown live LLM translation  
 
 **Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
@@ -179,7 +187,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 ✅ Instant coverage, great for user content and fast-changing text  
 ❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
 
-## Summary Table
+## Summary table
 
 | Project Size       | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
 |--------------------|----------------------------------|------------------------------------------------|------------------------------------------|
