@@ -19,14 +19,9 @@ When the noise in an open plan office goes beyond appropriate levels, it can be 
 4. Should you anticipate a long call, move into a private room or booth if you can.
 5. Ping very loud people politely/nicely, e.g., “Hey XXX, could you please use headphones?”.
 6. Close your booth/pod door (if you have one) while you’re in calls.
-
-::: greybox
-**Tip:** If you are in a Teams meeting and someone enters the room, it's important to notify the meeting participants of their arrival.
-
-For example: "By the way Team, Jack has now entered the boardroom".
-
-If that person forgets, tap the table to remind them to introduce you.
-:::
+7. If you are in a Teams meeting and someone enters the room, it's important to notify the meeting participants of their arrival.  
+- For example: "By the way team, Jack has now entered the boardroom".  
+- If that person forgets, tap the table to remind them to introduce you.
 
 ::: good
 
