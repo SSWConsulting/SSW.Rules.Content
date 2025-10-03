@@ -53,8 +53,6 @@ From the Scrum guide:
 >
 > <https://www.scrum.org/resources/what-is-a-scrum-developer>
 
-
-
 ![Figure: Good example - cross-functional teams deliver features faster](cooperative-devs.png)
 
 ## Does that mean I should ditch my UAT environment?
