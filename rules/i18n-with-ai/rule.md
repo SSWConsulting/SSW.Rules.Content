@@ -85,7 +85,6 @@ Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring
   ❌ Don’t assume Western metaphors apply everywhere  
   ✅ Test color/icon choices with local users (white = death in China)  
 
-
 ::: greybox  
 Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
 :::
@@ -94,14 +93,14 @@ Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
 
 ### Rely on Google Translate (0 effort)
 
-Users can rely on Google Translate in their browser if implementation time is lacking. 
+Users can rely on Google Translate in their browser if implementation time is lacking.
 
-#### Pros:
+#### Pros
 
 ✅ Immediate availability with zero development effort  
 ✅ No implementation or maintenance costs
 
-#### Cons:
+#### Cons
 
 ❌ Poor user experience and unprofessional appearance  
 ❌ Inaccurate translations and broken UI elements
@@ -111,14 +110,14 @@ Users can rely on Google Translate in their browser if implementation time is la
 
 Use standard i18n tools (see below) with an internal translation workflow.  
 
-#### Pros:
+#### Pros
 
 ✅ High-quality, controlled translations  
 ✅ Professional multilingual user experience  
 ✅ Native language support and better SEO  
 ✅ Full control of data
 
-#### Cons:
+#### Cons
 
 ❌ Significant development time and delays
 ❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
