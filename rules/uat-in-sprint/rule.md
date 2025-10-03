@@ -27,7 +27,7 @@ User Acceptance Testing (UAT) is common in software release cycles, but it can o
 
 ## What is UAT?
 
-Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of users (ideally real users, but sometimes stakeholders). 
+Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of users (ideally real users, but sometimes stakeholders).
 
 Regardless, the concept remains the same. Once the development work has been signed off by the relevant testing authority, the work is approved for production and is ready to be shipped.
 
