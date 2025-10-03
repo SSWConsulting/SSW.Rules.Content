@@ -8,14 +8,19 @@ uri: reduce-office-noise
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
+related:
+  - do-you-know-you-should-write-notes-when-an-activity-is-going
+  - use-a-headset
 created: 2022-06-01T02:10:55.612Z
 guid: 8b63af73-5542-4648-a81f-31f9eeb3e52c
 ---
 When the noise in an open plan office goes beyond appropriate levels, it can be annoying and stressful and thereby affects productivity. Here are a few tips to help reduce noise in your workplace.
 
-1. Use headphones🎧
+1. Use headphones🎧, as per [Do you use a headset?](https://www.ssw.com.au/rules/use-a-headset/)
 2. Use a reasonable voice level or soft voice.
-3. During the conversation, type the important points in to your Teams/private chat box to avoid unnecessary repetition and, at the same time, have those points written not just spoken.
+3. During the conversation, type the important points in to your Teams/private chat box to avoid unnecessary repetition and, at the same time, have those points written not just spoken. As per: [Do you know you should write notes when an activity is going?](https://www.ssw.com.au/rules/do-you-know-you-should-write-notes-when-an-activity-is-going/)
 4. Should you anticipate a long call, move into a private room or booth if you can.
 5. Ping very loud people politely/nicely, e.g., “Hey XXX, could you please use headphones?”.
 6. Close your booth/pod door (if you have one) while you’re in calls.
