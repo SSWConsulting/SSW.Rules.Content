@@ -103,7 +103,7 @@ Users can rely on Google Translate in their browser if implementation time is la
 #### Cons
 
 ❌ Poor user experience and unprofessional appearance  
-❌ Inaccurate translations and broken UI elements
+❌ Inaccurate translations and broken UI elements  
 ❌ Potential loss of international users  
 
 ### Implement i18n libraries
@@ -119,10 +119,10 @@ Use standard i18n tools (see below) with an internal translation workflow.
 
 #### Cons
 
-❌ Significant development time and delays
+❌ Significant development time and delays  
 ❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-❌ Ongoing costs for maintaining and updating translations with each new feature
-❌ Complex maintenance of language files
+❌ Ongoing costs for maintaining and updating translations with each new feature  
+❌ Complex maintenance of language files  
 ❌ Slow update process for new content  
 
 ### Useful Non-AI tools
@@ -160,7 +160,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 **Stack:** use traditional non-AI i18n approaches.  
 **Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
 
-✅ Cheap, fast, avoids future i18n debt
+✅ Cheap, fast, avoids future i18n debt  
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium project - Step further with TMS  
