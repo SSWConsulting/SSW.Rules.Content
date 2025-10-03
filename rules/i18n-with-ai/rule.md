@@ -97,14 +97,14 @@ Users can rely on Google Translate in their browser if implementation time is la
 
 #### ✅ Pros
 
-- Immediate availability with zero development effort  
-- No implementation or maintenance costs
+* Immediate availability with zero development effort  
+* No implementation or maintenance costs
 
 #### ❌ Cons
 
-- Poor user experience and unprofessional appearance  
-- Inaccurate translations and broken UI elements  
-- Potential loss of international users  
+* Poor user experience and unprofessional appearance  
+* Inaccurate translations and broken UI elements  
+* Potential loss of international users  
 
 ### Implement i18n libraries
 
@@ -112,18 +112,18 @@ Use standard i18n tools (see below) with an internal translation workflow.
 
 #### ✅ Pros
 
-- High-quality, controlled translations  
-- Professional multilingual user experience  
-- Native language support and better SEO  
-- Full control of data
+* High-quality, controlled translations  
+* Professional multilingual user experience  
+* Native language support and better SEO  
+* Full control of data
 
 #### ❌ Cons
 
-- Significant development time and delays  
-- High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-- Ongoing costs for maintaining and updating translations with each new feature  
-- Complex maintenance of language files  
-- Slow update process for new content  
+* Significant development time and delays  
+* High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
+* Ongoing costs for maintaining and updating translations with each new feature  
+* Complex maintenance of language files  
+* Slow update process for new content  
 
 ### Useful non-AI tools
 
