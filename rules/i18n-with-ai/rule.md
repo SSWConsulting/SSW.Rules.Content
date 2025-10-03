@@ -157,15 +157,17 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 #### 1. Small project - Essentials (POC)  
 
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
-**Stack:** use traditional non-AI i18n approaches  
+**Stack:** use traditional non-AI i18n approaches.  
+**Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
 
 ✅ Cheap, fast, avoids future i18n debt
 ❌ Manual releases, limited scalability, brand/tone risks  
 
 #### 2. Medium project - Step further with TMS  
 
-**Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
+**Approach:** Add a lightweight Translation Management System (TMS) like [Phrase](https://phrase.com/), [Lokalise](https://lokalise.com/), or [Crowdin](https://crowdin.com/). Enables glossary, screenshots, workflows.  
 **Stack:** TMS + pseudolocalization tests.  
+**Use case:** Multi-language app with a small team, growing product with consistent branding needs.  
 
 ✅ Centralized management, easier scaling, better consistency  
 ❌ Licensing costs, more process overhead  
@@ -174,6 +176,7 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 **Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
 **Stack:** CI/CD pipeline + TMS + LLM QA.  
+**Use case:** SaaS products with frequent releases, multiple languages, distributed dev teams.  
 
 ✅ 80/20 automation, faster releases, consistent quality  
 ❌ Needs strong CI/CD setup, token costs, prompt governance  
@@ -182,15 +185,16 @@ Your i18n strategy should match your project’s size, requirements, and resourc
 
 **Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
 **Stack:** LLM API + caching + glossary/do-not-translate rules.  
+**Use case:** UGC-heavy platforms, fast-changing content, global e-commerce.  
 
 ✅ Instant coverage, great for user content and fast-changing text  
 ❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
 
 ## Summary table
 
-| Project Size       | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
-|--------------------|----------------------------------|------------------------------------------------|------------------------------------------|
-| Small project      | i18next, Angular i18n/ngx-translate| Cheapest way to get started, avoids i18n debt | Manual, hard to scale, tone issues     |
-| Medium project     | TMS (Phrase/Lokalise) + pseudoloc| Centralized control, consistent translations | Adds license cost + extra process      |
-| Large project      | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
-| Enterprise project | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
+| Project Size       | Use case                                                   | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
+|--------------------|-----------------------------------------------------------|----------------------------------|------------------------------------------------|------------------------------------------|
+| Small project      | Quick prototypes, one-person projects, proof-of-concepts  | i18next, Angular i18n/ngx-translate | Cheapest way to get started, avoids i18n debt | Manual, hard to scale, tone issues     |
+| Medium project     | Multi-language app with a small team, growing product with consistent branding needs | TMS (Phrase/Lokalise) + pseudoloc | Centralized control, consistent translations | Adds license cost + extra process      |
+| Large project      | SaaS products with frequent releases, multiple languages, distributed dev teams | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
+| Enterprise project | UGC-heavy platforms, fast-changing content, global e-commerce | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
