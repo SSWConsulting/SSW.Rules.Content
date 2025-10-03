@@ -6,6 +6,8 @@ uri: browser-security-patterns
 authors:
   - title: Jeoffrey Fischer
     url: https://www.ssw.com.au/people/jeoffrey-fischer
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
 related:
   - choosing-authentication
   - modern-stateless-authentication
