@@ -21,7 +21,6 @@ Let’s take a lighthearted but practical tour of how browser security has evolv
 
 <!-- endintro -->
 
-
 ## 1. Cookie-Based Authentication (Traditional Web Apps)
 
 The oldest and most battle-tested approach. Server-rendered apps relied heavily on cookies for session management, long before OAuth and SPAs came along. While simple and effective, cookies had to evolve with new browser features to keep up with modern threats.
@@ -49,14 +48,14 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
 * Intranets or smaller web apps that don’t need OAuth/OIDC or cross-domain API calls.
 
 ::: info
+
 * **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.  
   → If a token is in localStorage and your app suffers an XSS, an attacker can simply read it. With HttpOnly cookies, the attacker can’t.  
 * **SameSite cookies** help prevent CSRF by controlling when cookies are sent with cross-site requests.  
-  - `Strict`: Only sent in first-party contexts.  
-  - `Lax`: Sent for top-level navigations (good balance).  
-  - `None` + `Secure`: Required for third-party usage.
+  * `Strict`: Only sent in first-party contexts.  
+  * `Lax`: Sent for top-level navigations (good balance).  
+  * `None` + `Secure`: Required for third-party usage.
 :::
-
 
 ## 2. OAuth 2.0 Implicit Flow (SPAs v1)
 
@@ -85,7 +84,6 @@ As SPAs emerged, developers needed a way to authenticate without a backend. The 
 * Historically used for early Angular/React apps with no backend.
 * Rarely recommended today.
 
-
 ## 3. OAuth 2.0 Authorization Code Flow with PKCE (SPAs v2)
 
 To fix the flaws of the Implicit Flow, PKCE came into play. This was a big leap forward for SPAs, giving them a safer way to obtain tokens directly. But while more secure, it still left the browser holding sensitive tokens.
@@ -112,7 +110,6 @@ To fix the flaws of the Implicit Flow, PKCE came into play. This was a big leap 
 * Serverless-first SPAs (e.g. static frontends hosted on Netlify, Vercel).
 * Useful if you can’t or won’t run a backend.
 
-
 ## 4. API Gateway / Reverse Proxy Security
 
 When applications grew into ecosystems of microservices, authentication had to scale with them. API gateways and reverse proxies emerged as central control points - moving the burden of auth away from the browser and onto infrastructure.
@@ -138,7 +135,6 @@ When applications grew into ecosystems of microservices, authentication had to s
 
 * Enterprises with multiple frontends + microservices.
 * Teams already using API gateways (Kong, Apigee, AWS API Gateway).
-
 
 ## 5. Backend-for-Frontend (BFF)
 
@@ -170,7 +166,6 @@ The modern favorite. BFFs combine the simplicity of cookies with the security of
 * Apps needing secure API calls + OAuth/OIDC integration.
 * Teams that value high security and standards compliance.
 
-
 ## 6. Content Security Policy (CSP)
 
 Even with secure authentication, XSS remains one of the biggest threats to web apps. That’s where CSP comes in. It acts as a browser-enforced guardrail, letting you tightly control which scripts, styles, and resources are allowed to run. Think of it as a whitelist for your frontend - reducing the blast radius if malicious code ever sneaks in.
@@ -201,7 +196,6 @@ Even with secure authentication, XSS remains one of the biggest threats to web a
 * Especially valuable for SPAs that are more exposed to XSS due to client-side rendering.  
 * Works best when paired with other defenses (e.g., HttpOnly cookies, BFF).  
 
-
 ## 📊 Summary Comparison Table
 
 | Pattern                     | Era           | Tokens in Browser? | Security Strength | Use Case                                     |
@@ -212,7 +206,6 @@ Even with secure authentication, XSS remains one of the biggest threats to web a
 | API Gateway / Reverse Proxy | Microservices | ❌ No               | ⭐⭐⭐ High          | Enterprise microservices, multiple frontends |
 | Backend-for-Frontend (BFF)  | Modern        | ❌ No               | ⭐⭐⭐⭐ Very High    | Secure modern SPAs needing OAuth/OIDC        |
 | Content Security Policy (CSP)| Always       | N/A                 | ⭐⭐⭐⭐ Very High    | All modern apps to mitigate XSS              |
-
 
 ## Conclusion
 
