@@ -27,6 +27,10 @@ Destructive buttons should always stand out with a **red color**. This is a well
 * Use red **only** for destructive actions (not warnings or generic alerts)
 * Avoid using red buttons for neutral or positive actions
 
+::: bad  
+![Figure: Bad example - Wrong color for a destructive button](destruction-button-bad-color.png)
+:::
+
 ::: info
 **Note:** If red is your branding primary color, you may use red for positive or neutral actions, as long as:
 
@@ -41,27 +45,10 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 
 * Always use the trash can (`🗑️`) or appropriate destructive icon
 * Place the icon **to the left** of the button label
-* Avoid ambiguous or abstract icons
+* Avoid ambiguous or abstract icons (E.g. Broom icon is used for “clear all” or “clean up", not "delete")
 
-::: greybox
-[Delete file 🧹]
-:::
 ::: bad  
-Figure: Bad example - Broom icon is used for “clear all” or “clean up,” not delete single item + is on the right  
-:::
-
-::: greybox
-[❌ Delete file]
-:::
-::: bad  
-Figure: Bad example - Cross icon should be avoided for permanent deletion, as it usually means “cancel”
-:::
-
-::: greybox
-[🗑️ Delete file]
-:::
-::: good  
-Figure: Good example - Trash/Bin icon clearly reinforces the label + is on the left  
+![Figure: Bad example - Cross icon should be avoided for permanent deletion, as it usually means “cancel”. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
 :::
 
 ## Position destructive buttons with care
@@ -72,18 +59,12 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 * Use space or visual separation between them
 * Make destructive buttons less prominent (except when the primary purpose is deletion)
 
-::: greybox
-[🗑️ Delete] [Save]
-:::
 ::: bad  
-Figure: Bad example - Delete and Save too close together can lead to accidental clicks
+![Figure: Bad example - "Delete" and "Save" are too close together can lead to accidental clicks](destruction-button-bad-positioning.png)
 :::
 
-::: greybox
-[Cancel] [Save] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [🗑️ Delete Account]
-:::
 ::: good  
-Figure: Good example - Destructive button is separated visually from safe actions
+![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-bad-positioning.png)
 :::
 
 ## Ask for confirmation when necessary
@@ -95,28 +76,20 @@ Use confirmations when:
 * Deleting data that can’t be recovered (e.g. a database record or user profile)
 * The user might not realize the consequences
 
-💡 Use specific confirmation messages like:
-
-::: greybox
-Are you sure you want to permanently delete this file? This action cannot be undone.
-:::
 ::: good  
-Figure: Good example - Confirming a destructive action
+![Figure: Good example - Confirming a destructive action](destruction-button-good-confirmation.png)
 :::
 
 ::: info
-**Tip:** Avoid overusing confirmations — they lead to [alert fatigue](https://www.magicbell.com/blog/alert-fatigue).
+**Tip:** Avoid overusing confirmations as they lead to [alert fatigue](https://www.magicbell.com/blog/alert-fatigue).
 :::
 
 ## Use tooltips or hover explanations
 
-For icons-only destructive buttons (e.g. a red trash icon in a table), always provide a tooltip on hover or focus.
+Sometimes you might have a table or UI with limited space that doesn’t allow text labels. For icon-only destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
 
-::: greybox
-**Hover text:** "Delete this row permanently"
-:::
 ::: good  
-Figure: Good example - Tooltip gives clarity to an icon-only destructive button
+![Figure: Good example - Tooltip gives clarity to an icon-only destructive button](destruction-button-good-tooltip.png)
 :::
 
 ## Ensure accessibility and keyboard navigation
@@ -131,14 +104,13 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 ## Summary of best practices
 
-| Element              | Best Practice                                                  |
-|----------------------|----------------------------------------------------------------|
-| Color                | Use red for destructive buttons                                |
-| Label                | Always include a text label (e.g. "Delete", "Remove")          |
-| Icon                 | Use a trash can or similar, to the left of label               |
-| Placement            | Isolate from primary/positive actions                          |
-| Confirmation         | Use when deletion is permanent or high-risk                    |
-| Accessibility        | Don't rely on color; support keyboard and screen readers       |
+| **Color** | Use red for destructive buttons |
+| **Label** | Always include a text label (e.g. "Delete", "Remove") |
+| **Icon** | Use a trash can or similar |
+| **Icon positioning** | To the left of label |
+| **Placement** | Isolate from safe actions |
+| **Confirmation** | Use when deletion is permanent or high-risk |
+| **Accessibility** | Don't rely on color; support keyboard and screen readers |
 
 ---
 
