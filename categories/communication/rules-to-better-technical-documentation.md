@@ -8,4 +8,5 @@ index:
   - prefixes
   - avoid-common-mistakes
   - avoid-acronyms
+  - include-links-in-emails
 ---
