@@ -94,7 +94,9 @@ Use confirmations when:
 
 ## Use tooltips or hover explanations
 
-Sometimes you might have a table or UI with limited space that doesn’t allow text labels. For icon-only destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
+Sometimes you might have a UI with limited space that doesn’t allow text labels.
+
+For **icon-only** destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
 
 ::: good  
 ![Figure: Good example - Tooltip gives clarity to an icon-only destructive button](destruction-button-good-tooltip.png)
