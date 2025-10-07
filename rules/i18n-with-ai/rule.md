@@ -39,7 +39,6 @@ Think of it like **building a website with a flexible backend**.
 You set up your framework so it supports multiple languages: text is not hardcoded, date and currency formats can be customized, and layouts can adjust for right-to-left text.  
 You are not adding translations yet. You are just making sure the system can handle them later without breaking.  
 
-
 ### **Localization** (l10n) - The Implementation
 
 If i18n is the framework, **l10n** is when you actually **fill in the details for each locale**.  
@@ -57,7 +56,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   “Björk” becomes “Bj?rk” in sweden  
   or 田中さん turns into “???” in japanese  
   ❌ No assumptions about ASCII-only inputs  
-  ✅ UTF-8 end-to-end (DB, API, frontend) 
+  ✅ UTF-8 end-to-end (DB, API, frontend)
 3. **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money
   ❌ Don’t parse strings manually  
   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
@@ -71,7 +70,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
   ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
   ✅ Use a CDN close to your users  
   ✅ In China, use local CDNs to avoid latency from the Great Firewall  
-  ✅ Subset fonts or use system fonts 
+  ✅ Subset fonts or use system fonts
 7. **RTL layouts**: For instance, Arabic language flip entire UI structures, not just text direction (see image below)  
    Note: RTL stands for "Right-To-Left"  
   💡 Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
@@ -80,7 +79,6 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 8. **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
   ❌ Don’t assume Western metaphors apply everywhere  
   ✅ Test color/icon choices with local users (white = death in China)  
-
 
 ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
 
