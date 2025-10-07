@@ -1,7 +1,27 @@
 import os
 import glob
 import re
+import json
 from pathlib import Path
+
+# ----------------------------- #
+# Regex patterns
+# ----------------------------- #
+
+YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
+
+# ----------------------------- #
+# Utilities
+# ----------------------------- #
+
+def js_string(text: str) -> str:
+    return json.dumps(text, ensure_ascii=False)
+
+def replace_youtube_block(m):
+    url = m.group(1).strip()
+    desc = m.group(2).strip() if m.group(2) else ""
+    desc_js = js_string(desc)
+    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
 
 def modify_category_files(categories_root=None):
     # Get the directory where this script is located
@@ -104,6 +124,14 @@ def modify_category_files(categories_root=None):
                 new_fm_lines = new_fm_lines[:index_pos] + new_index_lines + new_fm_lines[i:]
                 needs_update = True
         
+        # Process body content to convert YouTube embeds
+        original_body = body
+        body = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, body, flags=re.MULTILINE)
+
+        # Check if body was modified
+        if body != original_body:
+            needs_update = True
+
         # Only write back if changes were made
         if needs_update:
             new_fm_content = '\n'.join(new_fm_lines)
