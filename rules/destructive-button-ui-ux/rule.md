@@ -11,6 +11,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - hamburger-menu
+  - enforce-the-text-meaning-with-icons-and-emojis
+  - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
+  - do-you-make-users-intuitively-know-how-to-use-something
 created: 2025-10-03T11:52:00.000Z
 guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
 
