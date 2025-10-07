@@ -64,7 +64,7 @@ I'm recording the current meeting so I can get the Copilot stats later.
 
 I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
 
-The stakeholders are: 
+The stakeholders are:
 
 {{ STAKEHOLDER NAME }},
 
