@@ -26,7 +26,7 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 ![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online](first_language_vs_web.png)
 
 ::: china
-Chinese has the largest number of native speakers and represents a huge market opportunity. Check out [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
+China has the largest number of native speakers and represents a huge market opportunity. Check out [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
 :::
 
 ## The expensive confusion: i18n vs l10n
