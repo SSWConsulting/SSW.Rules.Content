@@ -11,6 +11,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - hamburger-menu
+  - enforce-the-text-meaning-with-icons-and-emojis
+  - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
+  - do-you-make-users-intuitively-know-how-to-use-something
 created: 2025-10-03T11:52:00.000Z
 guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
 
@@ -31,12 +34,16 @@ Destructive buttons should always stand out with a **red color**. This is a well
 ![Figure: Bad example - Wrong color for a destructive button](destruction-button-bad-color.png)
 :::
 
+::: good  
+![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-icon.png)
+:::
+
 ::: info
 **Note:** If red is your branding primary color, you may use red for positive or neutral actions, as long as:
 
 * The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
 * Consistency is maintained across all UI elements
-* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A darker red, outlined button, and an appropriate icon.
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon.
 :::
 
 ## Use the right icon in the right position
@@ -45,10 +52,14 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 
 * Always use the trash can (`🗑️`) or appropriate destructive icon
 * Place the icon **to the left** of the button label
-* Avoid ambiguous or abstract icons (E.g. Broom icon is used for “clear all” or “clean up", not "delete")
+* Avoid ambiguous or abstract icons (E.g. Broom icon (`🧹`) is used for “clear all” or “clean up", not "delete". Cross icon (`❌`) means “cancel” or "wrong", not "delete")
 
 ::: bad  
-![Figure: Bad example - Cross icon should be avoided for permanent deletion, as it usually means “cancel”. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
+![Figure: Bad example - Cross icon usually means “cancel” and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
+:::
+
+::: good  
+![Figure: Good example - Trash/Bin icon positioned on the left](destruction-button-good-icon.png)
 :::
 
 ## Position destructive buttons with care
@@ -64,7 +75,7 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 :::
 
 ::: good  
-![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-bad-positioning.png)
+![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-good-positioning.png)
 :::
 
 ## Ask for confirmation when necessary
@@ -86,7 +97,9 @@ Use confirmations when:
 
 ## Use tooltips or hover explanations
 
-Sometimes you might have a table or UI with limited space that doesn’t allow text labels. For icon-only destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
+Sometimes you might have a UI with limited space that doesn’t allow text labels.
+
+For **icon-only** destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
 
 ::: good  
 ![Figure: Good example - Tooltip gives clarity to an icon-only destructive button](destruction-button-good-tooltip.png)
@@ -104,11 +117,12 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 ## Summary of best practices
 
+|   |   |
+|---|---|
 | **Color** | Use red for destructive buttons |
 | **Label** | Always include a text label (e.g. "Delete", "Remove") |
-| **Icon** | Use a trash can or similar |
-| **Icon positioning** | To the left of label |
-| **Placement** | Isolate from safe actions |
+| **Icon** | Use a trash can or similar, to the left of label |
+| **Placement** | Isolate from primary/positive actions |
 | **Confirmation** | Use when deletion is permanent or high-risk |
 | **Accessibility** | Don't rely on color; support keyboard and screen readers |
 
