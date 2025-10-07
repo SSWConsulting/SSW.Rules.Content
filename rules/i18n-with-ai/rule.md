@@ -33,17 +33,15 @@ China has the largest number of native speakers and represents a huge market opp
 
 ### **Internationalization** (i18n) - The architecture
 
-The word “internationalization” is long, so we shorten it to **i18n** because there are 18 letters between the “i” and “n.”  
-According to the W3C, internationalization means **designing your product so it can easily adapt to different languages and cultures** before you start translating.  
+The word “internationalization” is long, so we shorten it to **i18n** because there are 18 letters between the “i” and “n.”  According to the W3C, internationalization means **designing your product so it can easily adapt to different languages and cultures** before you start translating.  
 
-Think of it like **building a website with a flexible backend**.  
-You set up your framework so it supports multiple languages: text is not hardcoded, date and currency formats can be customized, and layouts can adjust for right-to-left text.  
+Think of it like **building a website with a flexible backend**. You set up your framework so it supports multiple languages: text is not hardcoded, date and currency formats can be customized, and layouts can adjust for right-to-left text.  
+
 You are not adding translations yet. You are just making sure the system can handle them later without breaking.  
 
 ### **Localization** (l10n) - The implementation
 
-If i18n is the framework, **l10n** is when you actually **fill in the details for each locale**.  
-This is where you add translations, apply regional settings, and adjust visuals such as date formats, currencies, or culturally specific images.  
+If i18n is the framework, **l10n** is when you actually **fill in the details for each locale**. This is where you add translations, apply regional settings, and adjust visuals such as date formats, currencies, or culturally specific images.  
 
 This step is where you confirm that your internationalized website truly works for users in Japan, Germany, or Brazil, and fix anything that does not fit.
 
