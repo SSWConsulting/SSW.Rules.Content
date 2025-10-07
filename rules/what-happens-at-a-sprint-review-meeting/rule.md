@@ -58,23 +58,23 @@ If there are additional stakeholders, make sure they get called in for the summa
 ::: greybox
 **When you ping stakeholders, include a message like this**:
 
-Hey {{ PROJECT_NAME }} Stakeholders:
+Hey {{ PROJECT NAME }} Stakeholders:
 
 I'm recording the current meeting so I can get the Copilot stats later.
 
-I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER_NAME }} will run the Sprint Summary.
+I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
 
 The stakeholders are: 
 
-{{ STAKEHOLDER_NAME }},
+{{ STAKEHOLDER NAME }},
 
-{{ STAKEHOLDER_NAME }},
+{{ STAKEHOLDER NAME }},
 
-{{ STAKEHOLDER_NAME }}
+{{ STAKEHOLDER NAME }}
 
 Let me know if you want anyone else added.
 
-{{ SCREENSHOT_CURRENT_ATTENDEE }}
+{{ SCREENSHOT OF CURRENT ATTENDEE }}
 :::
 
 ::: greybox
