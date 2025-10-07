@@ -55,7 +55,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
    ✅ Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/))
 
-2. **Character encoding** - All countries using non-latin scripts (japanese, chinese, korean, etc.). E.g. “Björk” becomes “Bj?rk” in Sweden; or " 田中さん " turns into “???” in Japanese. 
+2. **Character encoding** - All countries using non-latin scripts (japanese, chinese, korean, etc.). E.g. “Björk” becomes “Bj?rk” in Sweden; or " 田中さん " turns into “???” in Japanese.
 
    ❌ Don't make assumptions about ASCII-only inputs  
    ✅ Use UTF-8 end-to-end (DB, API, frontend)
@@ -81,19 +81,19 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ✅ [Use a CDN close to your users](/use-a-cdn/)  
    ✅ In China, use local CDNs to avoid latency from the Great Firewall  
    ✅ Subset fonts or use system fonts
-   
+
 8. **Cultural symbols** - White means purity in the West, but death in China. Even colors can alienate users  
 
    ❌ Don’t assume Western metaphors apply everywhere  
    ✅ Test color/icon choices with local users (white = death in China)  b
 
-9. **RTL layouts** - For instance, Arabic language flip entire UI structures, not just text direction (see image below)   
-    
+9. **RTL layouts** - For instance, Arabic language flip entire UI structures, not just text direction (see image below)
+
    ✅ Test with `direction: rtl;`  
    ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
 
    ::: info
-   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text 
+   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text
    :::
 
    ::: img-medium
