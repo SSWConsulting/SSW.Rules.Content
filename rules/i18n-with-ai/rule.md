@@ -68,8 +68,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 * **Plan for RTL**  
   💡 Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
-  ✅ Test with `direction: rtl;` CSS  \
-  ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
+  ✅ Test with `direction: rtl;`  \
+  ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`  
 
 * **Simplify forms**  
   ❌ Never force “First Name / Last Name” globally  
