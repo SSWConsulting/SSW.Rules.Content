@@ -8,10 +8,17 @@ seoDescription: Always include key details when reporting a defect to the
   communication, and follow-up.
 uri: report-defects-to-property-manager
 authors:
-  - title: ""
+  - title: Anastasia Cogan
+    url: https://www.ssw.com.au/people/anastasia-cogan/
+  - title: Marina Gerber
+    url: https://www.ssw.com.au/people/marina-gerber/
+related: []
+created: 2025-10-07T11:34:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
 ---
 When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action. Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
+
+![](screenshot-2025-10-07-125246.png "Figure: what information should you include when reporting a defect")
 
 Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
