@@ -1,7 +1,27 @@
 import os
 import glob
 import re
+import json
 from pathlib import Path
+
+# ----------------------------- #
+# Regex patterns
+# ----------------------------- #
+
+YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
+
+# ----------------------------- #
+# Utilities
+# ----------------------------- #
+
+def js_string(text: str) -> str:
+    return json.dumps(text, ensure_ascii=False)
+
+def replace_youtube_block(m):
+    url = m.group(1).strip()
+    desc = m.group(2).strip() if m.group(2) else ""
+    desc_js = js_string(desc)
+    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
 
 def modify_markdown_files(categories_root='categories'):
     # Find all index.md files in subfolders of categories
@@ -83,20 +103,33 @@ def modify_markdown_files(categories_root='categories'):
                     i += 1
             
             fm_content = '\n'.join(new_lines)
-        
-        # Only write back if changes were made
+
+        # Process body content to convert YouTube embeds
+        original_body = body
+        body = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, body, flags=re.MULTILINE)
+
+        # Check if body was modified
+        if body != original_body:
+            needs_update = True
+
+        # Write back if changes were made
         if needs_update:
             new_content = f"---\n{fm_content}\n---\n{body}"
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
-            new_file_path = Path(file_path).with_suffix('.mdx')
-            os.rename(file_path, new_file_path)
             print(f"Successfully updated: {file_path}")
-            print("Changes made:")
-            print(f"1. Added _template: top_category")
-            print(f"2. Updated index items to new format")
+
+        # Always rename .md to .mdx (even if no content changes)
+        new_file_path = Path(file_path).with_suffix('.mdx')
+        if file_path.endswith('.md'):
+            # Delete existing .mdx file if it exists
+            if new_file_path.exists():
+                new_file_path.unlink()
+
+            os.rename(file_path, new_file_path)
+            print(f"Renamed to: {new_file_path}\n")
         else:
-            print(f"No changes needed for: {file_path}")
+            print(f"Already .mdx: {file_path}\n")
 
 if __name__ == '__main__':
     modify_markdown_files()
