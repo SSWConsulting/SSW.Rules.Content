@@ -49,7 +49,7 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 
 * Always use the trash can (`🗑️`) or appropriate destructive icon
 * Place the icon **to the left** of the button label
-* Avoid ambiguous or abstract icons (E.g. Broom icon is used for “clear all” or “clean up", not "delete")
+* Avoid ambiguous or abstract icons (E.g. Broom icon `🧹` is used for “clear all” or “clean up", not "delete". Cross icon `❌` means “cancel” or "wrong", not "delete")
 
 ::: bad  
 ![Figure: Bad example - Cross icon usually means “cancel” and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
