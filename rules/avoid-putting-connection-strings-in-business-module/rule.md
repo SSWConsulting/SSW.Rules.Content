@@ -7,7 +7,7 @@ authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T06:05:50.030Z
-guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
+guid: f3141c85-0cc8-40da-a08b-68f01bf6595f
 ---
 
 We strongly recommend that putting all connection strings together and saving them to one file, it is convenient for management and deployment.

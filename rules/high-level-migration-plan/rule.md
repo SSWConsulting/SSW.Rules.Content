@@ -25,8 +25,8 @@ At a high level, the plan is:
 1. Install with topology of your choice in SharePoint 2016 (or use [AutoSPInstaller](https://autospinstaller.com/))
 2. Configure Application services
 
-> * Run the wizard (or use script. the community script wasn't ready when Thiago and I was migrating intranet)
-> * Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx?WT.mc_id=M365-MVP-33518))
+* Run the wizard (or use script. the community script wasn't ready when Thiago and I was migrating intranet)
+* Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx?WT.mc_id=M365-MVP-33518))
 
 * **Test Migration**
 

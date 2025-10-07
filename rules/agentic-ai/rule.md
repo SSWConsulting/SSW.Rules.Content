@@ -17,15 +17,15 @@ related:
   - ai-assisted-development-workflow
   - avoid-ai-hallucinations
   - use-semantic-kernel
-guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
+guid: 602cac2f-278b-4c9b-b5ec-c5e0cf989316
 ---
 
 AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives.
 
+<!--endintro-->
+
 `youtube: https://youtu.be/BlqJ7bnivLE`
 **Video: The Year of the AI Agent: Automation to Intelligence | Ulysses Maclaren | SSW User Group (1 hr 30 min)**
-
-<!--endintro-->
 
 ## Why build agentic systems?
 
@@ -34,7 +34,7 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 * **Scalability** - Deploy an "army" of agents to tackle large projects
 * **Collaboration** - Enable agents to communicate and share insights
 
-- - -
+---
 
 ## Leading agent frameworks comparison
 

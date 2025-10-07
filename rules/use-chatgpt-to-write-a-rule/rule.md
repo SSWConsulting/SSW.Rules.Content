@@ -43,7 +43,7 @@ If it makes sense to add examples, they should be formatted by having this forma
 
 ::: greybox
 
-{put the example here}
+&#123; put the example here &#125;
 
 :::
 
@@ -57,7 +57,7 @@ Good examples should have this formatting:
 
 ::: greybox
 
-{put the example here}
+&#123; put the example here &#125;
 
 :::
 

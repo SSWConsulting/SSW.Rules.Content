@@ -16,15 +16,16 @@ In this age of misinformation, it is easy to get swept up in online hype and sha
 
 It’s important to not only check that what you share on social media is correct, but also, that your opinions are based on fact.
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/e0ZR9d7X3-0`
+**Video: Have a voice, make solid posts and build your profile (5 min)**
 
 What if your view differs from popular opinion? It's OK to have a dissenting opinion, and it is OK to play devil's advocate, but you should:
 
-<!--endintro-->
-
-1. Acknowledge when you're not an expert in a particular area
-2. People's perspectives matter, for example, if someone has a history of C# it might explain why they like Blazor for a UI over JavaScript
-3. Acknowledge when you're unable to verify what you’re saying
+* Acknowledge when you're not an expert in a particular area
+* People's perspectives matter, for example, if someone has a history of C# it might explain why they like Blazor for a UI over JavaScript
+* Acknowledge when you're unable to verify what you're saying
 
 Here are some helpful tips to aid in fact verification:
 
@@ -36,6 +37,6 @@ What's equally as important as fact-checking is building your own public profile
 
 Becoming an expert and a source that people can trust isn’t something that happens overnight, it's something that you must continually work on. Here are some helpful hints to get you on your way:
 
-1. Pick several topics and stick to them (be consistent). It’s better to home in on subject matter, rather than being a jack-of-all-trades, master of none
-2. Use the above fact-checking tips and tricks. Make sure you know what you’re talking about, but also that you understand that other people's opinions may differ
-3. Engage with people. Initiate discussions, reply to comments, talk to people who have dissenting opinions
+* Pick several topics and stick to them (be consistent). It’s better to home in on subject matter, rather than being a jack-of-all-trades, master of none
+* Use the above fact-checking tips and tricks. Make sure you know what you’re talking about, but also that you understand that other people's opinions may differ
+* Engage with people. Initiate discussions, reply to comments, talk to people who have dissenting opinions

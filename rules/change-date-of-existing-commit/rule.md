@@ -25,21 +25,21 @@ This rule outlines how to change the date of an existing commit using both a man
 
 1. Checkout to the branch containing the commit
 
-    ```bash
-    git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
-    ```
+```bash
+git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
+```
 
 2. Run git log to get the last commit hash
   
-    ```bash
-    git log
-    ```
+```bash
+git log
+```
 
 3. Do an interactive rebase for the parent of the last commit
   
-    ```bash
-    git rebase -i {{ COMMIT HASH }}^
-    ```
+```bash
+git rebase -i {{ COMMIT HASH }}^
+```
 
 4. This opens vi editor:
 
@@ -50,21 +50,21 @@ This rule outlines how to change the date of an existing commit using both a man
 
 5. Change the commit date
   
-    ``` bash
-    GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" git commit --amend --no-edit
-    ```
+``` bash
+GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" git commit --amend --no-edit
+```
 
 6. Finish the rebase
 
-    ```bash
-    git rebase --continue
-    ```
+```bash
+git rebase --continue
+```
 
 7. Force push to origin
 
-    ```bash
-    git push origin {{ BRANCH NAME }} --force
-    ```
+```bash
+git push origin {{ BRANCH NAME }} --force
+```
 
 ## Method 2 (recommended) – Use a script
 

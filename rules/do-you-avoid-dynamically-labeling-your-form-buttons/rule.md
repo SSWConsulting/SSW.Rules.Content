@@ -16,9 +16,9 @@ The buttons that a user will typically use should not be dynamically labeled acr
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Buttons are dynamically labeled "Build ..." and "Edit ..." depending on text in the text box](../../assets/DynamicallyLabelingButtonBad.gif)  
+![Figure: Bad Example - Buttons are dynamically labeled "Build ..." and "Edit ..." depending on text in the text box](/DynamicallyLabelingButtonBad.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Buttons are not dynamically labelled](../../assets/DynamicallyLabelingButtonGood.gif)  
+![Figure: Good Example - Buttons are not dynamically labelled](/DynamicallyLabelingButtonGood.gif)  
 :::

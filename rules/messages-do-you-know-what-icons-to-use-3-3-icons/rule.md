@@ -20,10 +20,10 @@ Including an icon is important because not only does it give the user a visual i
 
 | Icon                                 | Name                           | When to use                                                                 |
 | ------------------------------------ | ------------------------------ | --------------------------------------------------------------------------- |
-| ![info](../../assets/Info.gif)       | **MessageBoxIcon.Information** | Non-error information, e.g. Database connection test completed successfully |
-| ![Warning](../../assets/Warning.gif) | **MessageBoxIcon.Warning**     | A non-critical error, e.g. The input was invalid                            |
-| ![error](../../assets/Error.gif)     | **MessageBoxIcon.Error**       | Critical error in the program, e.g. Program file was not found              |
-| ![](../../assets/Question.gif)       | **MessageBoxIcon.Question**    | **NEVER** use this.                                                         |
+| ![info](/Info.gif)       | **MessageBoxIcon.Information** | Non-error information, e.g. Database connection test completed successfully |
+| ![Warning](/Warning.gif) | **MessageBoxIcon.Warning**     | A non-critical error, e.g. The input was invalid                            |
+| ![error](/Error.gif)     | **MessageBoxIcon.Error**       | Critical error in the program, e.g. Program file was not found              |
+| ![](/Question.gif)       | **MessageBoxIcon.Question**    | **NEVER** use this.                                                         |
 
 According to Microsoft, the Question mark is being phased out, as any of the other three: Error, Warning or Information can easily be reworded into a Question, and Question does not show the user the severity of the issue that has just occurred.
 E.g. If you want to ask the user whether they want to save a file before closing, you should use the Warning Icon. |

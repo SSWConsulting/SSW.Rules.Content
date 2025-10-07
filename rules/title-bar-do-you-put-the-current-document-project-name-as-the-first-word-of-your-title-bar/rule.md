@@ -20,5 +20,5 @@ Imagine if every email that Microsoft Outlook opened didn't change the title bar
 Therefore change the Title Bar to have the current document/customer/job/project/product name that the user is working on. It should be in the format "Document - Program Name", i.e. 'Northwind - SSW Data Renovator'
 
 ::: good  
-![Figure: Good Example - Application with a standard title bar caption](../../assets/imgTitleBarCaption.gif)  
+![Figure: Good Example - Application with a standard title bar caption](/imgTitleBarCaption.gif)  
 :::

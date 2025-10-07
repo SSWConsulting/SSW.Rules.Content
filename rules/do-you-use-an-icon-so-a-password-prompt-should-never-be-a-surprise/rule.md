@@ -18,5 +18,5 @@ Don't surprise users! Put a lock icon to indicate the link is a password protect
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - because when you click "Building 100" you get a password prompt as a surprise](../../assets/PasswordProtectedPagesNeedKey.gif)  
+![Figure: Bad Example - because when you click "Building 100" you get a password prompt as a surprise](/PasswordProtectedPagesNeedKey.gif)  
 :::

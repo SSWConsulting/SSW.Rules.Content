@@ -11,7 +11,7 @@ related:
   - why-your-business-should-be-on-google-my-business
   - how-to-optimize-your-google-my-business-profile
 created: 2022-05-10T23:27:51.427Z
-guid: 75cb8ea9-146f-487e-b0a4-9a953154e3c0
+guid: 26e5d826-29ef-4b55-8d9c-bd4d52561176
 ---
 
 Many people use Google My Business to find reviews of potential businesses they could be going to to find out what other clients think about their service, products, or customer service before making a purchase decision.

@@ -23,7 +23,7 @@ guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
-![Figure: Bug details window - Don't sent the screenshot ](../../assets/DotNetDebug2.gif)
+![Figure: Bug details window - Don't sent the screenshot ](/DotNetDebug2.gif)
 
 ::: greybox
 See the end of this message for details on invoking

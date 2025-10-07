@@ -22,5 +22,5 @@ If an issue does come up, make sure you come to an agreement quickly and don't l
 If someone else needs to be consulted for approval (e.g. the boss) get them on the phone straight away, rather than speaking to them later and then having to organize yet another meeting with the client.
 
 ::: good  
-![Figure: Use the conference button](../../assets/confrn.jpg)  
+![Figure: Use the conference button](/confrn.jpg)  
 :::

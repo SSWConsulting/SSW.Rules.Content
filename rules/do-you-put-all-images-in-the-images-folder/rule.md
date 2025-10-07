@@ -21,11 +21,11 @@ Instead of images sitting all around the solution, we put all the images in the 
 <!--endintro-->
 
 ::: bad  
-![Bad example - Images under Product root folder.](../../assets/ImageLinkBad.gif)  
+![Bad example - Images under Product root folder.](/ImageLinkBad.gif)  
 :::
 
 ::: good  
-![Good example - Images under \Images folder.](../../assets/ImageLinkGood.gif)  
+![Good example - Images under \Images folder.](/ImageLinkGood.gif)  
 :::
 
 | We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |

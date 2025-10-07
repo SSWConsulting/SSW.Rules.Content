@@ -23,7 +23,6 @@ It can be tempting to add classes to elements, as it's often the most obvious so
 
 You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for **very specific** layout elements.
 
-::: greybox
 **HTML:**
 
 ```html
@@ -38,7 +37,6 @@ You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](ht
 }
 ```
 
-:::
 ::: bad
 Figure: Bad example - The "view-all-link" class was added unnecessarily
 :::

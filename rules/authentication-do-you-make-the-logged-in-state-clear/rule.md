@@ -18,11 +18,11 @@ Remember to make the "logged in" state clear enough to help the user know the cu
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example on Web form - The user is logged in, but it isn't very clear](../../assets/weblogin_bad.gif)
+![Figure: Bad example on Web form - The user is logged in, but it isn't very clear](/weblogin_bad.gif)
 :::
 
 ::: good
-![Figure: Good example on Web form - It's clear that the user is logged in](../../assets/weblogin_good.gif)
+![Figure: Good example on Web form - It's clear that the user is logged in](/weblogin_good.gif)
 :::
 
 ::: good

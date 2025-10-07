@@ -17,8 +17,6 @@ When used right, it can result in some very powerful and readable code, deliveri
 LINQ is an important part of the .NET ecosystem, regularly receiving large improvements.
 Performance was a major focus for LINQ in the .NET 7 release which Nick Chapsas summarised:
 
-<!-- Video title for tracking: The INSANE performance boost of LINQ in .NET 7 -->
-
 `youtube: https://www.youtube.com/watch?v=zCKwlgtVLnQ`
 **Video: [Nick Chapsas](https://www.youtube.com/@nickchapsas) summarised the upgrades included in .NET 7 (11 min)**
 

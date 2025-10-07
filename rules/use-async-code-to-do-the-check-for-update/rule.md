@@ -125,6 +125,6 @@ void ad_UpdateCompleted(object sender, AsyncCompletedEventArgs e)
 Figure: Good example - Using System.Deployment.Application classes to do the check for a new version
 :::
 
-#### More Information
+## More Information
 
-When testing whether your deployment has an available update by using either the CheckForUpdate or CheckForUpdateAsync methods; the latter method raises the CheckForUpdateCompleted event when it has successfully completed. If an update is available, you can install it by using Update or UpdateAsync; the latter method raises the UpdateCompleted event after installation of the update is finished.
+When testing whether your deployment has an available update by using either the `CheckForUpdate` or `CheckForUpdateAsync` methods; the latter method raises the CheckForUpdateCompleted event when it has successfully completed. If an update is available, you can install it by using Update or UpdateAsync; the latter method raises the UpdateCompleted event after installation of the update is finished.

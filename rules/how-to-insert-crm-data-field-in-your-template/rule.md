@@ -18,7 +18,7 @@ While editing your mail merge template, you can add a Dynamics data field in the
 
 <!--endintro-->
 
-1. When you’re editing or creating a new email template, in the subject or body of the email template select </>Insert dynamic text
+1. When you’re editing or creating a new email template, in the subject or body of the email template select `</>Insert dynamic text`
    ![Figure: Selecting dynamic test](insert-data-field-1.png)
 
 2. Leave the Record type as User, and then select the Field name of your choosing (for example, first name)

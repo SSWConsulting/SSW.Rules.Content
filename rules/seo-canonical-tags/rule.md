@@ -31,9 +31,9 @@ When multiple URLs on your website (or external sites) lead to the same or very 
 
 3. **Add the Canonical Tag:** On each version of the duplicate pages, add a canonical tag in the `<head>` section pointing to the preferred URL. For example:
 
-   ```html
-   <link rel="canonical" href="https://www.example.com/preferred-url" />
-   ```
+  ```html
+  <link rel="canonical" href="https://www.example.com/preferred-url" />
+  ```
 
 4. **Apply Across Your Site:** Ensure every page has a canonical tag, even if there are no current duplicates. This future-proofs your site against potential duplicate content issues.
 

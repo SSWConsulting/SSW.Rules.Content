@@ -67,3 +67,43 @@ Figure: Good example – Acknowledges the concern and reinforces the value.
 :::
 
 Stand behind your value. The language you use shapes how your price is perceived.
+
+## Handling Objections & Personal Attacks (AVR)
+
+Sometimes the other person is flat-out wrong or takes a swipe at you.  
+Use **Acknowledge → Validate → Reframe (AVR)** to stay calm, correct the record, and move forward:
+
+| Step | What to say | Why it works |
+|------|-------------|-------------|
+| **1 Acknowledge** | “I hear this is frustrating.” | Naming feelings lowers defensiveness and arousal :contentReference[oaicite:2]\{index=2} |
+| **2 Validate**<br/>*(Feel–Felt–Found option)* | “Others **felt** the same at first…” | People feel heard when you show empathy :contentReference[oaicite:3]\{index=3} |
+| **3 Reframe with ‘Yes, and’** | “Yes, **and** it sounds like the real issue is risk—let’s look at mitigations.” | Improv research shows “Yes, and” increases cooperation :contentReference[oaicite:4]\{index=4} |
+| **4 Provide facts calmly** | “Our last three projects this size finished inside two weeks.” | Non-violent communication focuses on needs, not blame :contentReference[oaicite:5]\{index=5} |
+| **5 Bridge & pivot** | “What might help is a weekly checkpoint—does that work for you?” | Bridging keeps the deal moving instead of bogging down in debate :contentReference[oaicite:6]\{index=6} |
+
+### Quick scripts
+
+**Price objection (sales call)**  
+*Prospect*: “That’s double our budget!”  
+*You*: “I get why that feels steep, and others felt the same. They found bundling discovery and the build cut re-work. Shall we unpack the value together?”
+
+**Personal dig (internal)**  
+*Colleague*: “You always set impossible deadlines.”  
+*You*: “Sounds like the timing hasn’t worked for you, and I’d like to fix that. Let’s map the timeline and see where it slipped.”
+
+### Why this works
+
+* Validation makes people feel heard, reducing stress hormones :contentReference[oaicite:7]\{index=7}.  
+* Reframing steers the chat from blame to problem-solving :contentReference[oaicite:8]\{index=8}.  
+* Bridging and pivoting are proven objection-handling moves in sales playbooks :contentReference[oaicite:9]\{index=9}.
+
+---
+
+## Cheat-sheet
+
+* Swap **“but”** for **“and”** or a new sentence.  
+* AVR for heat: **Acknowledge → Validate → Reframe**.  
+* Use **Feel-Felt-Found** if you need a quick empathy shortcut.  
+* End with a forward-looking question: “How does that sound?”
+
+---

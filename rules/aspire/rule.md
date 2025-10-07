@@ -13,7 +13,10 @@ guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 ---
 
 Building cloud-native applications can be challenging due to their complexity and the need for scalability, resilience, and manageability.
+
 There are lots of ways to build cloud-native applications and the overwhelming number of choices can make it difficult to know where to start.
+
+<!--endintro-->
 
 ![Figure: Too many lego pieces - Where do you start?](too-complex-aspire.png)
 
@@ -22,36 +25,36 @@ Also, the complexity of modern cloud-native applications can make them difficult
 .NET Aspire is a powerful set of tools, templates, and integrations designed to streamline cloud-native app development with .NET. It offers a consistent approach to orchestration, standardized integrations, and developer-friendly tooling to help you build robust, production-ready applications.
 
 `youtube: https://www.youtube.com/watch?v=59G9Cd-rV9w`  
-**Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1:28 hr)**
+**Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)**
 
-<!--endintro-->
-
-![Figure: Aspire makes common time-consuming developer chores a breeze. ](aspire-cool-stuff.png)
+![Figure: Aspire makes common time-consuming developer chores a breeze](aspire-cool-stuff.png)
 
 .NET Aspire addresses common pain points in cloud-native development:
 
-#### Orchestration
+## Orchestration
 
 .NET Aspire helps you manage interconnected services and resources in your application by:
 
-* Automatically setting up service discovery and environment variables.
-* Providing tools to spin up local containers and configure dependencies.
-* Simplifying complex setups with clear abstractions, reducing the need for low-level configuration.
+* Automatically setting up service discovery and environment variables
+* Providing tools to spin up local containers and configure dependencies
+* Simplifying complex setups with clear abstractions, reducing the need for low-level configuration
 
-#### Integrations
+## Integrations
 
 .NET Aspire integrations make it easy to connect to essential services:
 
-* NuGet packages like `AddRedis` or `AddAzureServiceBusClient` streamline configuration and health checks.
-* Standardized interfaces reduce boilerplate code and ensure seamless connectivity.
+* NuGet packages like `AddRedis` or `AddAzureServiceBusClient` streamline configuration and health checks
+* Standardized interfaces reduce boilerplate code and ensure seamless connectivity
 
-#### Tooling and Templates
+## Tooling and Templates
 
 Leverage predefined templates and tooling to:
 
-* Generate projects with common configurations like health checks and telemetry.
-* Save time with opinionated defaults for service discovery, logging, and monitoring.
-* Kickstart new projects or integrate Aspire into existing .NET apps.
+* Generate projects with common configurations like health checks and telemetry
+* Save time with opinionated defaults for service discovery, logging, and monitoring
+* Kickstart new projects or integrate Aspire into existing .NET apps
+
+---
 
 ## Example - Adding Redis Cache to a .NET Core app
 
@@ -128,12 +131,12 @@ No need to write Docker Compose files.
 No need for yaml 🤮.
 Connection string is automatically injected.
 
-## Get Started with Aspire
+---
 
-Check out Microsoft's docs  
-<https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518>
+## Get started with Aspire
+
+[Check out Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
 
 ::: greybox  
-You can test out Aspire by running the SSW.CleanArchitecture template - Let us know what you think!  
-<https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template>  
+You can test out Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template) - Let us know what you think!
 :::

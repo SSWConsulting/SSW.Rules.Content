@@ -24,7 +24,7 @@ By dividing site navigation into groups users will have better view of your site
 Of course, don't use a mega dropdown menu just because you can. Turning your normal navigation into mega-menu whilst keeping it as one continuous level is generally a no-no. in the same manner, just because mega-menus have room, doesn't mean you should overload them.
 
 ::: bad  
-![Figure: Bad Example - Long drop down menu requires scrolling and difficult to see at a glance.](../../assets/longmenu.jpg)  
+![Figure: Bad Example - Long drop down menu requires scrolling and difficult to see at a glance.](/longmenu.jpg)  
 :::
 
 ::: good  

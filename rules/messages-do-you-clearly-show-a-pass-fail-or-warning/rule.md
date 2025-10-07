@@ -15,20 +15,20 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
 
 <!--endintro-->
 
-- For a pass, the message should be green in color, and a tick next to the message. ![](../../assets/Success-lg.gif)
-- For a fail, the message should be red in color, and a cross next to the message. ![](../../assets/Fail-lg.gif)
-- For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message. ![](../../assets/Warning-lg.gif)
+- For a pass, the message should be green in color, and a tick next to the message. ![](/Success-lg.gif)
+- For a fail, the message should be red in color, and a cross next to the message. ![](/Fail-lg.gif)
+- For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message. ![](/Warning-lg.gif)
 
 ::: bad  
-![Figure: Bad Example - Pass and fail are not clear](../../assets/RulesT1.gif)  
+![Figure: Bad Example - Pass and fail are not clear](/RulesT1.gif)  
 :::
 
-![Figure: Green text and tick for pass, red text and cross for fail (Better)](../../assets/RulesT2.gif)
+![Figure: Green text and tick for pass, red text and cross for fail (Better)](/RulesT2.gif)
 
 ::: good  
-![Figure: Good Example - Status on windows forms](../../assets/RulesT4.gif)  
+![Figure: Good Example - Status on windows forms](/RulesT4.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - Microsoft Update uses 3 icons to indicate different status, and good quality of Images too](../../assets/MicrosoftUpdate.gif)  
+![Figure: Good Example - Microsoft Update uses 3 icons to indicate different status, and good quality of Images too](/MicrosoftUpdate.gif)  
 :::

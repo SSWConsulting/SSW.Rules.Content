@@ -55,7 +55,7 @@ winget install {{ APP NAME }}
 
 For example:
 
-![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518 "Installing powertoys via winget")
+![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518)
 
 For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/?WT.mc_id=WDIT-MVP-33518).
 

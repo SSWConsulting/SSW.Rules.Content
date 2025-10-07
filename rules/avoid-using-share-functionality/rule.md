@@ -28,11 +28,12 @@ Because of that, you should avoid using that functionality if you want people to
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Adam |
 | To: | Gordon |
-| Subject: | "Invoices in June&July 2019" - Do we need this? |  
+| Subject: | Invoices in June&July 2019 - Do we need this? |  
 ::: email-content
 
 ### Hi Gordon

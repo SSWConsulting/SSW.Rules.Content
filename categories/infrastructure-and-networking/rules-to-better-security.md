@@ -5,6 +5,8 @@ guid: b665f88f-f71c-4fa9-8c8b-570d62fce515
 uri: rules-to-better-security
 index:
 - choosing-authentication
+- browser-security-patterns
+- use-passkeys
 - remote-desktop-gateway-mfa
 - secure-access-system
 - understand-the-dangers-of-social-engineering

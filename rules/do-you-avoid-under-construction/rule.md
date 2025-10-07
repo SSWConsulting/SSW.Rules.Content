@@ -16,4 +16,4 @@ If all you have time to ftp up is a couple of simple html pages with few contact
 
 <!--endintro-->
 
-![Figure: "We just can't get our act together on our website"](../../assets/Websites_UnderConstruction.jpg)
+![Figure: "We just can't get our act together on our website"](/Websites_UnderConstruction.jpg)

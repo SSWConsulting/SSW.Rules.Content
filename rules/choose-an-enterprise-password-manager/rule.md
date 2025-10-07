@@ -10,14 +10,14 @@ created: 2022-12-14T11:38:54.394Z
 guid: 032f90ed-1492-4222-9b22-7a33d4a98fb0
 ---
 
+Most organizations store lots of passwords. There is often a need to share these passwords with other staff and these passwords all need to be unique, long and complex. This can all be resolved by using a high quality Enterprise Password Manager. There are a lot of password managers on the market so what features are essential.
+
+<!--endintro-->
+
 `youtube: https://www.youtube.com/embed/JnjVvS2Lw7M`
 **Video: Do you know how to choose an Enterprise Password Manager? | [Warwick Leahy](https://ssw.com.au/people/warwick-leahy/) | SSW Rules (5 min)**
 
-Most organizations store lots of passwords. There is often a need to share these passwords with other staff and these passwords all need to be unique, long and complex. This can all be resolved by using a high quality Enterprise Password Manager. There are a lot of password managers on the market so what features are essential.
-
 These are must have features:
-
-<!--endintro-->
 
 1. **Single sign on with Azure AD** - It would be ironic for a password manager to require staff to remember another password when the intent is to stop them remembering passwords, so it is essential that a good password manager leverages your existing security information. Also with Azure AD staff already have security groups, they already have MFA and access to very advanced conditional access policies, such as impossible travel and trusted devices.
 

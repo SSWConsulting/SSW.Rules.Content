@@ -22,6 +22,5 @@ To help track and prioritise Sys Admin tasks - It has the following key features
 5. Versions whereby tasks can be assigned to versions which then form an SSW release plan
 6. Full visibility of everyone's work to everyone else
 
-> > > **_Of all the features above the Dashboard is the one with greatest value.  We are able to configure dashbaords for individuals to know exactly what work they should be doing by when.  We can configure dashboards to summarise a projects status.  Consequently, non-power users of Jira can quicklty see what is going providing the visibility that we all need._**
-> > >
-> > > Clearly other products (like TFS) have similar features and we will be using TFS for other projects
+> **_Of all the features above the Dashboard is the one with greatest value.  We are able to configure dashbaords for individuals to know exactly what work they should be doing by when.  We can configure dashboards to summarise a projects status.  Consequently, non-power users of Jira can quicklty see what is going providing the visibility that we all need._**  
+> Clearly other products (like TFS) have similar features and we will be using TFS for other projects
