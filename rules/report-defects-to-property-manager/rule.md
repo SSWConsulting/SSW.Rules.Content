@@ -1,60 +1,83 @@
 ---
 type: rule
 tips: ""
-title: Do you include all the essential details when reporting a defect to the
-  Property Manager?
-seoDescription: Always include key details when reporting a defect to the
-  Property Manager — clear, complete reports improve turnaround time,
-  communication, and follow-up.
+title: Do you include all the essential details when reporting a defect to the Property Manager?
+seoDescription: Always include key details when reporting a defect to the Property Manager — clear, complete reports improve turnaround time, communication, and follow-up.
 uri: report-defects-to-property-manager
 authors:
   - title: Anastasia Cogan
-    url: https://www.ssw.com.au/people/anastasia-cogan/
+    url: https://www.ssw.com.au/people/anastasia-cogan
   - title: Marina Gerber
-    url: https://www.ssw.com.au/people/marina-gerber/
-related: []
+    url: https://www.ssw.com.au/people/marina-gerber
+related:
+  - supervise-tradespeople
 created: 2025-10-07T11:34:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
+
 ---
+
 When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action. Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
-
-![](screenshot-2025-10-07-125246.png "Figure: what information should you include when reporting a defect")
-
-Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
 <!--endintro-->
 
-When reporting a defect, always make sure your message is **clear, complete, and actionable**.  
+![Figure: What information should you include when reporting a defect](screenshot-2025-10-07-125246.png "Figure: What information should you include when reporting a defect")
 
-### Include the following key details:
+Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
-1. **Location**\
-   Start broad and zoom in:  
+When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  
 
-   * Office name → floor → area → exact item  
-   * Example: “SSW Newcastle → Ground floor → Backlog area → Top right window”
-2. **Urgency and Impact**  
+## Key details to be included
 
-   * Does the defect affect your productivity or safety?  
-   * If yes, clearly state the impact (e.g. “Can’t use meeting room due to flickering lights”).  
-   * Mention any **temporary fix** you’ve already applied (e.g. “Taped over the exposed wire until repaired”).
-3. **Who You’ve Reported It To**  
+### 1. Location
 
-   * Always include:  
+Start broad and zoom in:  
 
-     * The **Head of Office**  
-     * The **Property Manager**  
-   * Use @mentions if you’re reporting via Teams or email, e.g. “@John Smith @Sarah Jones”.
-4. **Historic Information**  
+* Office name → floor → area → exact item   
+  **Example:** “SSW Newcastle → Ground floor → Backlog area → Top right window”
 
-   * Note any past occurrences or related maintenance (e.g. “Window was repaired in 2022 for the same issue”).
-5. **Create a PBI (YakShave It)**  
+### 2. Urgency and impact
 
-   * For traceability, **create a PBI (Product Backlog Item)** in Azure DevOps titled “Defect – \[Brief Description]”.  
-   * Link the PBI in your message so others can track progress and updates.  
-   * Example: “Created PBI: [Defect – Broken window in backlog area](#)”
+Does the defect affect your **productivity** or **safety**?  If yes:
 
-### Example of a good defect report
+* Clearly state the impact   
+  **Example:** “Can’t use meeting room due to flickering lights”
+     
+* Mention any temporary fix you’ve applied   
+  **Example:** “Taped over the exposed wire until repaired”
+
+
+### 3. Who you’ve reported it to 
+
+Inform the people who is aware of the problem. Always include:  
+
+* The **Head of Office**  
+* The **Property Manager**  
+
+::: info
+**Tip:** Use @mentions if you’re reporting via Teams or email, e.g. “@John Smith @Sarah Jones”.
+:::
+
+### 4. Historic information
+
+   * Note any past occurrences or related maintenance   
+     **Example:** “Window was repaired in 2022 for the same issue”
+
+### 5. Create a PBI (YakShave it) 
+
+* For traceability, **create a PBI (Product Backlog Item)** in Azure DevOps titled “Defect – \[Brief Description]”  
+* Link the PBI in your message so others can track progress and updates  
+  **Example:** “Created PBI: [Defect – Broken window in backlog area](#)”
+
+---
+
+## Examples
+
+::: greybox
+“The window in Newcastle is broken. Someone should get it fixed.”
+:::
+::: bad
+Figure: Bad example – Too vague; missing location, urgency, and who it’s reported to
+:::
 
 ::: greybox
 **Subject:** Broken window – SSW Newcastle, ground floor, the Backlog
@@ -70,22 +93,9 @@ Temporary fix: Moved desks away from the area.
 **PBI:** [Defect – Cracked window in backlog area](#)
 :::
 ::: good
-Figure: Good Example – Clear, complete, and includes all the essential details for fast action and tracking
+Figure: Good example – Clear, complete, and includes all the essential details for fast action and tracking
 :::
-
-### Bad example – missing key details
-
-::: greybox
-“The window is broken.”\
-:::
-::: bad
-Figure: Bad Example – Too vague; missing location, urgency, and who it’s reported to
-:::
-
-### Tip
 
 Consistency in reporting helps ensure that all offices communicate defects in the same clear way — improving turnaround time, transparency, and accountability.
 
-- - -
-
-By following this rule and “YakShaving” each defect into a **PBI**, you help ensure property issues are logged, tracked, and resolved efficiently — saving time, reducing confusion, and improving everyone’s work environment.
+“[YakShaving](https://yakshaver.ai/)” each defect into a **PBI** will ensure property issues are logged, tracked, and resolved efficiently — saving time, reducing confusion, and improving everyone’s work environment.
