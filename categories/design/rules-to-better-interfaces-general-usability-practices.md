@@ -10,6 +10,7 @@ index:
 - test-high-risk-features
 - do-you-realize-that-a-good-interface-should-not-require-instructions
 - do-you-make-users-intuitively-know-how-to-use-something
+- destructive-button-ui-ux
 - always-reduce-complexity
 - avoid-labels
 - date-and-time-of-change-as-tooltip
