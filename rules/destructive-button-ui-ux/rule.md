@@ -64,7 +64,7 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 :::
 
 ::: good  
-![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-bad-positioning.png)
+![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-good-positioning.png)
 :::
 
 ## Ask for confirmation when necessary
@@ -104,11 +104,12 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 ## Summary of best practices
 
+|   |   |
+|---|---|
 | **Color** | Use red for destructive buttons |
 | **Label** | Always include a text label (e.g. "Delete", "Remove") |
-| **Icon** | Use a trash can or similar |
-| **Icon positioning** | To the left of label |
-| **Placement** | Isolate from safe actions |
+| **Icon** | Use a trash can or similar, to the left of label |
+| **Placement** | Isolate from primary/positive actions |
 | **Confirmation** | Use when deletion is permanent or high-risk |
 | **Accessibility** | Don't rely on color; support keyboard and screen readers |
 
