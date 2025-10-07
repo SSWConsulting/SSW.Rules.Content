@@ -31,6 +31,10 @@ Destructive buttons should always stand out with a **red color**. This is a well
 ![Figure: Bad example - Wrong color for a destructive button](destruction-button-bad-color.png)
 :::
 
+::: good  
+![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-icon.png)
+:::
+
 ::: info
 **Note:** If red is your branding primary color, you may use red for positive or neutral actions, as long as:
 
@@ -48,7 +52,11 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 * Avoid ambiguous or abstract icons (E.g. Broom icon is used for “clear all” or “clean up", not "delete")
 
 ::: bad  
-![Figure: Bad example - Cross icon should be avoided for permanent deletion, as it usually means “cancel”. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
+![Figure: Bad example - Cross icon usually means “cancel” and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
+:::
+
+::: good  
+![Figure: Good example - Trash/Bin icon positioned on the left](destruction-button-good-icon.png)
 :::
 
 ## Position destructive buttons with care
