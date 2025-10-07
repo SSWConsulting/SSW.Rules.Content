@@ -40,7 +40,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
 
 * The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
 * Consistency is maintained across all UI elements
-* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A darker red, outlined button, and an appropriate icon.
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon.
 :::
 
 ## Use the right icon in the right position
