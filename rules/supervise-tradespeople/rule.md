@@ -67,4 +67,4 @@ Figure: Bad Example – Too vague, no confirmation of quality, tidiness, or defi
 
 ### Supervision checklist workflow
 
-![](image-3-.png "How to supervise tradesperson step by step")
+![](screenshot-2025-10-08-094611.png "How to supervise tradesperson step by step")
