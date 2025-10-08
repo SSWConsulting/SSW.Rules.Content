@@ -24,7 +24,8 @@ isArchived: false
 <introEmbed
   body={<>
 Disposing objects in SharePoint is important, but never do it with objects from `SPContext.Current`. SharePoint will manage disposing these objects itself.
-
+  </>}
+/>
 ```csharp
 using (SPWeb web =  SPContext.Current.Site.RootWeb)
 {
@@ -32,9 +33,12 @@ using (SPWeb web =  SPContext.Current.Site.RootWeb)
 }
 ```
 
-::: bad
-Figure: Using statement is trying to dispose current site object - it will cause exception
-:::
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Using statement is trying to dispose current site object - it will cause exception",
+  shouldDisplay: true
+} } />
+
 
 Just simply use "Current" object directly.
 
@@ -43,8 +47,8 @@ SPWeb web =  SPContext.Current.Site.RootWeb;
 //do something here
 ```
 
-::: good
-Figure: Use Current objects directly - don't need to dispose them
-:::
-  </>}
-/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Use Current objects directly - don't need to dispose them",
+  shouldDisplay: true
+} } />
