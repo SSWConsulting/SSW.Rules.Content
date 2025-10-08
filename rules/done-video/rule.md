@@ -127,14 +127,11 @@ If your company has branded clothing, make sure it's ironed, tidy and visible. W
 
 ## Tip #4: Be friendly and natural  
 
-Smile, speak naturally, and imagine you're talking to a friend... it helps build connection and keeps viewers engaged. 
+Smile, speak naturally, and imagine you're talking to a friend... it helps build connection and keeps viewers engaged.
 
-
-If you want a visual cue, only have your key dot points rather than reading from a script. This keeps your delivery natural and helps you to follow your main points. 
-
+If you want a visual cue, only have your key dot points rather than reading from a script. This keeps your delivery natural and helps you to follow your main points.
 
 See this great example by Ben Cull:
-
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 **Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)**
