@@ -197,8 +197,6 @@ AI can be a big time-saver for large or dynamic codebases. For example, **AI age
 
 ### **When to use what**
 
-### **When to use what**
-
 | Use Case | Main Challenge | Recommended Solution |
 |-----------|----------------|----------------------|
 | **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like Phrase or Crowdin to manage and reuse translations across pages. |
