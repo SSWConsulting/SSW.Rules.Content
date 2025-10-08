@@ -8,7 +8,7 @@ from pathlib import Path
 # Regex patterns
 # ----------------------------- #
 
-YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
+YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`'
 
 # ----------------------------- #
 # Utilities
@@ -19,9 +19,7 @@ def js_string(text: str) -> str:
 
 def replace_youtube_block(m):
     url = m.group(1).strip()
-    desc = m.group(2).strip() if m.group(2) else ""
-    desc_js = js_string(desc)
-    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
+    return f'<youtubeEmbed url="{url}" description={{""}} />'
 
 def modify_category_files(categories_root=None):
     # Get the directory where this script is located
