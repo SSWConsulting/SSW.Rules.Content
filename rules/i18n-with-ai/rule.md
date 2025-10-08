@@ -58,7 +58,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ❌ Don't make assumptions about ASCII-only inputs  
    ✅ Use UTF-8 end-to-end (DB, API, frontend)  
 
-   Note: Every modern front-end framework set charset UTF-8 by default, you don't have to think about it. Don't forget to configure it on a "classic website"
+   **Note:** Every modern front-end framework set charset UTF-8 by default, you don't have to think about it. Don't forget to configure it on a "classic website".
   
 4. **UX - Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
 
@@ -88,7 +88,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ✅ Test color/icon choices with local users (white = death in China)
 
    ::: china
-   Check out [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
+   [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
    :::
 
 9. **RTL layouts** - For instance, Arabic language flip entire UI structures, not just text direction (see image below)
@@ -97,7 +97,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
 
    ::: info
-   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text
+   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text.
    :::
 
    ::: img-medium
@@ -209,5 +209,4 @@ AI can be a big time-saver for large or dynamic codebases. For example, **AI age
 | **Global SaaS product** | Keeping UI, emails, and notifications consistent across languages | **AI + Translation Memory:** Use AI for first-pass translations and a Translation Memory to ensure consistent phrasing across components. |
 | **Marketing or SEO-focused content** | Preserving brand tone while adapting keywords and messaging per market | **AI copy assist:** Use AI to draft localized content, then have human editors refine tone and keyword targeting. |
 
-💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content.  
-AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
+💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content. AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
