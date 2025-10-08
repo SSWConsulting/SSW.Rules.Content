@@ -26,7 +26,7 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 ![Figure: Many top-spoken languages remain underrepresented online, e.g. Chinese represents 13% of the world, but 2.2% of the websites](first_language_vs_web.png)
 
 ::: china
-China has the largest number of native speakers and represents a huge market opportunity. Check out [Want to bring your applications into the Chinese market?](https://www.ssw.com.au/consulting/chinafy-app)
+China has the largest number of native speakers and represents a huge market opportunity. [Want to bring your applications into the Chinese market?](https://www.ssw.com.au/consulting/chinafy-app)
 :::
 
 ## The expensive confusion: i18n vs l10n
