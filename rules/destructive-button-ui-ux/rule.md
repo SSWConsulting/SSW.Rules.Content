@@ -117,14 +117,14 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 ## Summary of best practices
 
-|   |   |
-|---|---|
-| **Color** | Use red for destructive buttons |
-| **Label** | Always include a text label (e.g. "Delete", "Remove") |
-| **Icon** | Use a trash can or similar, to the left of label |
-| **Placement** | Isolate from primary/positive actions |
-| **Confirmation** | Use when deletion is permanent or high-risk |
-| **Accessibility** | Don't rely on color; support keyboard and screen readers |
+| **Element**        | **Best practice**                                                 |
+|--------------------|-------------------------------------------------------------------|
+| **Color**          | Use red for destructive buttons                                   |
+| **Label**          | Always include a text label (e.g. "Delete", "Remove")             |
+| **Icon**           | Use a trash can or similar, to the left of label                  |
+| **Placement**      | Isolate from primary/positive actions                             |
+| **Confirmation**   | Use when deletion is permanent or high-risk                       |
+| **Accessibility**  | Don't rely on color; support keyboard and screen readers          |
 
 ---
 
