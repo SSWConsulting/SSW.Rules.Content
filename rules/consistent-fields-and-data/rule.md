@@ -6,7 +6,8 @@ uri: consistent-fields-and-data
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - ui-boxes
 redirects:
   - do-you-know-that-the-width-of-a-control-indicates-what-to-enter
   - do-you-make-your-fields-consistent-with-the-data
@@ -20,9 +21,9 @@ Field width gives users a visual cue about the type and length of data expected.
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - "Project Name" and "GitHub Organization Project" fields are unnecessarily wide for their expected (short) values](long-width-field.png)  
+![Figure: Bad example - Fields are unnecessarily wide for their expected (short) values](long-width-field.png)  
 :::
 
 ::: good  
-![Figure: Good example - "Project Name" and "GitHub Organization Project" fields are now sized appropriately for their short expected values](short-width-field.png)  
+![Figure: Good example - Fields are sized appropriately for their expected values](short-width-field.png)  
 :::
