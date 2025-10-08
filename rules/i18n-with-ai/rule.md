@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you use AI to make internationalization easier?
-seoDescription: Understand i18n vs l10n. Build software ready for global users with tips on encoding, dates, forms, and cultural adaptation.
+seoDescription: Understand i18n vs l10n. Build software ready for global users
+  with tips on encoding, dates, forms, and cultural adaptation.
 uri: i18n-with-ai
 authors:
   - title: Gilles Pothieu
@@ -14,7 +15,6 @@ related:
   - do-you-know-how-to-better-localize-your-application
   - do-you-always-give-the-user-an-option-to-change-the-locale
 guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
-
 ---
 
 Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental marketing failures.
@@ -23,7 +23,7 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 
 <!--endintro-->
 
-![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online](first_language_vs_web.png)
+![Figure: Many top-spoken languages remain underrepresented online, e.g. Chinese represents 13% of the world, but 2.2% of the websites](first_language_vs_web.png)
 
 ::: china
 China has the largest number of native speakers and represents a huge market opportunity. Check out [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
@@ -141,7 +141,7 @@ Use standard i18n tools (see below) with an internal translation workflow.
 * **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
 * **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-## AI-tools
+## AI-tools for i18n
 
 ### Exploring AI agents in i18n
 
@@ -163,7 +163,7 @@ In this part, Ben Morss shows how an AI agent can internationalize a monolingual
 
 Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
 
-#### 1. Small project - Essentials (POC)  
+#### 1. Small project - Essentials
 
 **Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
 **Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
