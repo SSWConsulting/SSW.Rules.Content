@@ -2,7 +2,7 @@
 seoDescription: Add “Last Updated” to boost SEO, improve transparency, and build trust by showing your content is current and well-maintained.
 type: rule
 title: "Does your website have Last Updated by?"
-uri: website-last-updated-by
+uri: last-updated-by
 authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
