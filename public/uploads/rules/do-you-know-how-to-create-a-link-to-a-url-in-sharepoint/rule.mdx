@@ -23,19 +23,23 @@ isArchived: false
 
 <introEmbed
   body={<>
-TODO TIAGO: ADD IMAGE OF WINDOWS EXPLORER (4 files in it) AND ANOTHER WITH SHAREPOINT DOCUMENTS LIBRARY
-
 You may need a link in a SharePoint document to help you navigate to a different URL (like shortcut in Windows), there are different ways to implement this.
-
-::: bad
-A. Create a shortcut in windows, then upload the shortcut file (.url) to the document library.
-:::
-
-::: good
-B. Use "Link to a document" content type in SharePoint.
-:::
   </>}
 />
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "A. Create a shortcut in windows, then upload the shortcut file (.url) to the document library.",
+  shouldDisplay: true
+} } />
+
+
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "B. Use \"Link to a document\" content type in SharePoint.",
+  shouldDisplay: true
+} } />
+
+
 Details on how you to create a link to a document in a SharePoint library.
 
 **A. Create a shortcut in windows, then upload the shortcut file (.url) to the document library.**
@@ -45,12 +49,86 @@ To do this, you need to remove .url file type from your blocked file types in yo
 **B. Use "Link to a document" content type in SharePoint.**
 
 1. Enable "Content Type management" in your document library.
-   ![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/EnableContentTypeDocument.png) **Figure: Enable Content Type management in library setting**
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Enable Content Type management in library setting",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/EnableContentTypeDocument.png"
+/>
+
 2. Add "Link to a Document" content type into the library.
-   ![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/AddExistContentType.png) **Figure: Add from existing site content type** ![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/SelectLinkToADocumentType.png) **Figure: Select "Link to a Document" content type**
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Add from existing site content type",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/AddExistContentType.png"
+/>
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Select \"Link to a Document\" content type",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/SelectLinkToADocumentType.png"
+/>
+
 3. Create a "Link to a document" instance
-   ![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/CreateLinkToADocumentInstance.png) **Figure: select "File | New Document (dropdown) | Link to a document"** ![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/InputLinkUrlAndName.png) **Figure: Input "Name" and "URL"**
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "select \"File | New Document (dropdown) | Link to a document\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/CreateLinkToADocumentInstance.png"
+/>
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Input \"Name\" and \"URL\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/InputLinkUrlAndName.png"
+/>
+
 4. Done
 
 You should be able to see the link type document in your library:
-![](/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/LinksTypeDocumentsWithShortcutIcon.png) **Figure: Link type documents with the lovely shortcut icon**
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Link type documents with the lovely shortcut icon",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/LinksTypeDocumentsWithShortcutIcon.png"
+/>

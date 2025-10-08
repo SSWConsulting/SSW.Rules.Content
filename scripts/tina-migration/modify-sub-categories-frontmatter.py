@@ -1,7 +1,25 @@
 import os
 import glob
 import re
+import json
 from pathlib import Path
+
+# ----------------------------- #
+# Regex patterns
+# ----------------------------- #
+
+YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`'
+
+# ----------------------------- #
+# Utilities
+# ----------------------------- #
+
+def js_string(text: str) -> str:
+    return json.dumps(text, ensure_ascii=False)
+
+def replace_youtube_block(m):
+    url = m.group(1).strip()
+    return f'<youtubeEmbed url="{url}" description={{""}} />'
 
 def modify_category_files(categories_root=None):
     # Get the directory where this script is located
@@ -104,17 +122,33 @@ def modify_category_files(categories_root=None):
                 new_fm_lines = new_fm_lines[:index_pos] + new_index_lines + new_fm_lines[i:]
                 needs_update = True
         
-        # Only write back if changes were made
+        # Process body content to convert YouTube embeds
+        original_body = body
+        body = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, body, flags=re.MULTILINE)
+
+        # Check if body was modified
+        if body != original_body:
+            needs_update = True
+
+        # Write back if changes were made
         if needs_update:
             new_fm_content = '\n'.join(new_fm_lines)
             new_content = f"---\n{new_fm_content}\n---\n{body}"
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
-            new_file_path = Path(file_path).with_suffix('.mdx')
+            print(f"Successfully updated: {file_path}")
+
+        # Always rename .md to .mdx (even if no content changes)
+        new_file_path = Path(file_path).with_suffix('.mdx')
+        if file_path.endswith('.md'):
+            # Delete existing .mdx file if it exists
+            if new_file_path.exists():
+                new_file_path.unlink()
+
             os.rename(file_path, new_file_path)
-            print(f"Successfully updated: {file_path}\n")
+            print(f"Renamed to: {new_file_path}\n")
         else:
-            print(f"No changes needed for: {file_path}\n")
+            print(f"Already .mdx: {file_path}\n")
 
 if __name__ == '__main__':
     modify_category_files()
