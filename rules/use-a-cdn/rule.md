@@ -58,7 +58,7 @@ Front Door is a good option, but it has some notable downsides regarding redirec
 * **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
 * **High Costs**: It is quite expensive compared to other CDNs.
 
-To overcome these issues, we can use Cloudflare.
+To overcome these issues, use Cloudflare.
 
 ### Cloudflare
 
