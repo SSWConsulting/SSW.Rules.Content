@@ -57,4 +57,4 @@ Figure: Good example – Supervised, tidy outcome, and Definition of Done confir
 
 ## Supervision checklist workflow
 
-![Figure: How to supervise tradesperson step by step](chatgpt-image-oct-3-2025-03_20_11-pm.png "How to supervise tradesperson step by step")
+![Figure: How to supervise tradesperson step by step](screenshot-2025-10-08-094611.png "How to supervise tradesperson step by step")
