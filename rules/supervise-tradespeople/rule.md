@@ -4,12 +4,13 @@ title: Do you supervise tradespeople on behalf of Property Manager?
 seoDescription: Ensure staff consistently supervise tradespeople, confirm work quality and tidiness, facilitate conversations with the Maintenance Manager or Property Owner to agree on the Definition of Done.
 uri: supervise-tradespeople
 authors:
-  - title: Marina Gerber
-    url: https://www.ssw.com.au/people/marina-gerber
-  - title: Anastasia Cogan
-    url: https://www.ssw.com.au/people/anastasia-cogan
+
+* title: Marina Gerber
+    url: <https://www.ssw.com.au/people/marina-gerber>
+* title: Anastasia Cogan
+    url: <https://www.ssw.com.au/people/anastasia-cogan>
 related:
-  - report-defects-to-property-manager
+* report-defects-to-property-manager
 created: 2025-10-03T15:23:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
 
@@ -33,12 +34,12 @@ To prevent these issues, a person should always supervise the tradesperson, be p
 ## Responsibilities of the supervising staff member
 
 * **Be there when trades arrive** – Welcome them, confirm the job details, and set expectations  
-* **Stay available during the work** – Answer questions and ensure they follow agreed instructions 
+* **Stay available during the work** – Answer questions and ensure they follow agreed instructions
 * **Be there when trades leave** – Check the work is correct, ensure the area is neat and tidy, and confirm with the Maintenance Manager or property owner what “done” looks like  
 * **Facilitate a final conversation** – Before the tradesperson leaves, bring in the Maintenance Manager or property owner (in person or via phone/Teams) to confirm the [Definition of Done](/definition-of-done) and sign off on the work
-* **Confirm continuity** – Where possible, the same SSW person should supervise all visits by the same tradesperson 
+* **Confirm continuity** – Where possible, the same SSW person should supervise all visits by the same tradesperson
 * **Notify the Maintenance/Property Manager** – If they are not on site, send a quick message when trades arrive and again when they leave
-* **Communicate results** – Report what was completed, any issues, and if follow-up is required. Photos, videos and video calls are encouraged 
+* **Communicate results** – Report what was completed, any issues, and if follow-up is required. Photos, videos and video calls are encouraged
 
 ::: greybox
 “The plumber came in today.”  
@@ -48,7 +49,7 @@ Figure: Bad example – Too vague, no confirmation of quality, tidiness, or comp
 :::
 
 ::: greybox
-“The electrician replaced the faulty light in the Level 3 meeting room. I supervised the work, confirmed it was functional, and ensured the space was tidy.   
+“The electrician replaced the faulty light in the Level 3 meeting room. I supervised the work, confirmed it was functional, and ensured the space was tidy.
 Before the electrician left, I had a quick call with the Maintenance Manager to confirm the job met the Definition of Done. Photos sent for record.”  
 :::
 ::: good
