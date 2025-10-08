@@ -26,7 +26,7 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 ![Figure: Many top-spoken languages remain underrepresented online, e.g. Chinese represents 13% of the world, but 2.2% of the websites](first_language_vs_web.png)
 
 ::: china
-China has the largest number of native speakers and represents a huge market opportunity. Check out [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
+China has the largest number of native speakers and represents a huge market opportunity. [Want to bring your applications into the Chinese market?](https://www.ssw.com.au/consulting/chinafy-app)
 :::
 
 ## The expensive confusion: i18n vs l10n
@@ -45,7 +45,7 @@ If i18n is the framework, **l10n** is when you actually **fill in the details fo
 
 This step is where you confirm that your internationalized website truly works for users in Japan, Germany, or Brazil, and fix anything that does not fit.
 
-## Common i18n issues and tips
+## Common i18n pitfalls
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
@@ -56,34 +56,40 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 2. **Character encoding** - All countries using non-latin scripts (japanese, chinese, korean, etc.). E.g. “Björk” becomes “Bj?rk” in Sweden; or " 田中さん " turns into “???” in Japanese.
 
    ❌ Don't make assumptions about ASCII-only inputs  
-   ✅ Use UTF-8 end-to-end (DB, API, frontend)
+   ✅ Use UTF-8 end-to-end (DB, API, frontend)  
+
+   **Note:** Every modern front-end framework set charset UTF-8 by default, you don't have to think about it. Don't forget to configure it on a "classic website".
   
-3. **Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
+4. **UX - Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
 
    ❌ Don’t parse strings manually  
    ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
 
-4. **UX - Text expansion and contraction** - German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters  
+5. **UX - Text expansion and contraction** - German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters  
 
    ❌ Don’t hardcode pixel widths for buttons or labels  
-   ✅ Use flex layouts, `min-width`, `word-break`  
+   ✅ Use responsive layouts and visually check text in different languages
 
-5. **Names & forms** - Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet)
+6. **Names & forms** - Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet)
 
    ❌ Don't force “First Name / Last Name” globally  
    ✅ Use a single “Full Name” field, or make name parts optional  
 
 7. **Infrastructure blind spots** - Networks too slow, CDNs not present where your customers are
 
-   ❌ Don’t ship a 5MB JS bundle to mobile-first markets  
-   ✅ [Use a CDN close to your users](/use-a-cdn/)  
-   ✅ In China, use local CDNs to avoid latency from the Great Firewall  
+   ❌ Don’t ship large JS bundles to mobile-first markets  
+   ✅ [Use a CDN close to your users](/use-a-cdn/)
    ✅ Subset fonts or use system fonts
+   ✅ In China, use local CDNs to avoid latency from the Great Firewall
 
 8. **Cultural symbols** - White means purity in the West, but death in China. Even colors can alienate users  
 
    ❌ Don’t assume Western metaphors apply everywhere  
-   ✅ Test color/icon choices with local users (white = death in China)  b
+   ✅ Test color/icon choices with local users (white = death in China)
+
+   ::: china
+   [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
+   :::
 
 9. **RTL layouts** - For instance, Arabic language flip entire UI structures, not just text direction (see image below)
 
@@ -91,18 +97,19 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
 
    ::: info
-   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text
+   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text.
    :::
 
    ::: img-medium
    ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
    :::
 
-## Traditional i18n approach
+## Internationalization (i18n) Approaches
 
-### Option A - Rely on Google Translate (0 effort)
+### Option A - Browser-based translation (Google Translate)
 
-Users can rely on Google Translate in their browser if implementation time is lacking.
+**Use case:** Prototypes, internal demos, hackathons, no i18n budget project  
+Use browser-based Google Translate for instant multilingual support when you have no development time or budget.
 
 #### ✅ Pros
 
@@ -111,13 +118,15 @@ Users can rely on Google Translate in their browser if implementation time is la
 
 #### ❌ Cons
 
-* Poor user experience and unprofessional appearance  
-* Inaccurate translations and broken UI elements  
+* Poor UX and layout issues  
+* Inaccurate translations  
 * Potential loss of international users  
 
-### Option B - Implement i18n libraries
+### Option B - Manual i18n (traditional libraries)
 
-Use standard i18n tools (see below) with an internal translation workflow.  
+**Use case:** Multilingual projects that need stability, quality, and full control without relying on AI.
+Use libraries like **[i18next](https://www.i18next.com/)**, **[FormatJS](https://formatjs.io/)**, or **[Angular i18n](https://angular.dev/guide/i18n)** to manage translation keys and switch languages.  
+This gives developers full control and high-quality results, but requires setup and ongoing translation work.  
 
 #### ✅ Pros
 
@@ -134,78 +143,70 @@ Use standard i18n tools (see below) with an internal translation workflow.
 * Complex maintenance of language files  
 * Slow update process for new content  
 
-### Useful non-AI tools
+#### Useful non-AI tools
 
 * **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
 * **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
 * **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
 * **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-## AI-tools for i18n
+### **Option C – AI-assisted i18n**
 
-### Exploring AI agents in i18n
+**Use case:** Products that need to scale translations from small teams to global platforms efficiently.  
+AI can enhance traditional workflows by automating translation steps, improving quality, and reducing human overhead.  
+You can adopt AI at different points in your process:
 
-Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
+#### **Workflow automation (TMS + AI)**
 
+Use a **Translation Management System (TMS)** such as **[Phrase](https://phrase.com/)**, **[Lokalise](https://lokalise.com/)**, or **[Crowdin](https://crowdin.com/)**.  
+A TMS centralizes translations and glossaries, while AI can pre-translate new strings before human review.
+
+✅ Centralized management and terminology consistency  
+❌ Subscription cost and moderate setup overhead  
+
+#### **CI/CD integration (AI in the pipeline)**
+
+Integrate i18n into your **build pipeline** so translations happen automatically during deployment.  
+AI handles machine translation and quality checks, then opens PRs for human review.
+
+✅ Faster releases with 80/20 automation  
+❌ Requires mature CI/CD and API governance  
+
+#### **Runtime translation (live AI)**
+
+Use **LLM APIs** to translate user-generated or frequently changing content **on the fly**.  
+Cache translations and use glossaries to preserve accuracy and tone.
+
+✅ Real-time coverage for global audiences  
+❌ Latency, cost variability, and SEO risks if not cached  
+
+## Choosing the right solution
+
+Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
+Not every project needs AI. Sometimes traditional tools are faster, simpler, and more reliable.  
+
+AI can be a big time-saver for large or dynamic codebases. For example, **AI agents** can:
+
+* Scan your codebase for hardcoded strings  
+* Generate i18n keys automatically  
+* Pre-translate multiple languages  
+* Open pull requests for review
+
+🎥 Check out this video:
 `youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss - watch from 8:10 to 16:40 (8 min)**
 
-In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
-
-* Scanning the codebase to detect hardcoded strings
-* Proposing i18n keys and replacing literals with t() function calls
-* Generating JSON resource files and populating them with translations
-* Opening a pull request so humans can review and approve
-
 🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-### Choosing the right i18n strategy by project size
+### **When to use what**
 
-Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
+| Use Case | Main Challenge | Recommended Solution |
+|-----------|----------------|----------------------|
+| **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like Phrase or Crowdin to manage and reuse translations across pages. |
+| **Dynamic web app with frequent content updates** | Making sure new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
+| **Multi-market e-commerce site** | Adapting prices, currencies, measurements, and promotions for different locales | **Hybrid:** Combine TMS for UI strings with programmatic locale logic for regional data and formatting. |
+| **Community or user-generated content platform** | Handling massive volumes of diverse content, slang, or informal text | **AI-assisted:** Use machine translation APIs (DeepL, Google Translate) and apply human review for quality. |
+| **Global SaaS product** | Keeping UI, emails, and notifications consistent across languages | **AI + Translation Memory:** Use AI for first-pass translations and a Translation Memory to ensure consistent phrasing across components. |
+| **Marketing or SEO-focused content** | Preserving brand tone while adapting keywords and messaging per market | **AI copy assist:** Use AI to draft localized content, then have human editors refine tone and keyword targeting. |
 
-#### 1. Small project - Essentials
-
-**Use case:** Quick prototypes, one-person projects, proof-of-concepts.  
-**Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
-**Stack:** use traditional non-AI i18n approaches.  
-
-✅ Cheap, fast, avoids future i18n debt  
-❌ Manual releases, limited scalability, brand/tone risks  
-
-#### 2. Medium project - Step further with TMS  
-
-**Use case:** Multi-language app with a small team, growing product with consistent branding needs.  
-**Approach:** Add a lightweight Translation Management System (TMS) like [Phrase](https://phrase.com/), [Lokalise](https://lokalise.com/), or [Crowdin](https://crowdin.com/). Enables glossary, screenshots, workflows.  
-**Stack:** TMS + pseudolocalization tests.  
-
-✅ Centralized management, easier scaling, better consistency  
-❌ Licensing costs, more process overhead  
-
-#### 3. Large project - AI in CI/CD
-
-**Use case:** SaaS products with frequent releases, multiple languages, distributed dev teams.  
-**Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
-**Stack:** CI/CD pipeline + TMS + LLM QA.  
-
-✅ 80/20 automation, faster releases, consistent quality  
-❌ Needs strong CI/CD setup, token costs, prompt governance  
-
-#### 4. Enterprise project - Full-blown live LLM translation  
-
-**Use case:** UGC-heavy platforms, fast-changing content, global e-commerce.  
-**Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
-**Stack:** LLM API + caching + glossary/do-not-translate rules.  
-
-✅ Instant coverage, great for user content and fast-changing text  
-❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
-
----
-
-#### Summary table
-
-| Project Size       | Use case                                                   | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
-|--------------------|-----------------------------------------------------------|----------------------------------|------------------------------------------------|------------------------------------------|
-| **Small project**      | Quick prototypes, one-person projects, proof-of-concepts  | i18next, Angular i18n/ngx-translate | Cheapest way to get started, avoids i18n debt | Manual, hard to scale, tone issues     |
-| **Medium project**     | Multi-language app with a small team, growing product with consistent branding needs | TMS (Phrase/Lokalise) + pseudoloc | Centralized control, consistent translations | Adds license cost + extra process      |
-| **Large project**      | SaaS products with frequent releases, multiple languages, distributed dev teams | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
-| **Enterprise project** | UGC-heavy platforms, fast-changing content, global e-commerce | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
+💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content. AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
