@@ -58,7 +58,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ❌ Don't make assumptions about ASCII-only inputs  
    ✅ Use UTF-8 end-to-end (DB, API, frontend)  
 
-   **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. Still, verify it's present in your index.html and configured correctly on your server.
+   **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. Still, verify it's present in `index.html` and configured correctly on the server.
   
 4. **UX - Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
 
