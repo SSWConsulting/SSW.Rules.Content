@@ -78,7 +78,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 7. **Infrastructure blind spots** - Networks too slow, CDNs not present where your customers are
 
    ❌ Don’t ship large JS bundles to mobile-first markets  
-   ✅ [Use a CDN close to your users](/use-a-cdn/)    
+   ✅ [Use a CDN close to your users](/use-a-cdn/)
    ✅ Subset fonts or use system fonts
    ✅ In China, use local CDNs to avoid latency from the Great Firewall
 
@@ -104,13 +104,12 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
    :::
 
-
 ## Internationalization (i18n) Approaches
 
 ### Option A - Browser-based translation (Google Translate)
 
 **Use case:** Prototypes, internal demos, hackathons, no i18n budget project  
-Use browser-based Google Translate for instant multilingual support when you have no development time or budget.   
+Use browser-based Google Translate for instant multilingual support when you have no development time or budget.
 
 #### ✅ Pros
 
@@ -151,7 +150,6 @@ This gives developers full control and high-quality results, but requires setup 
 * **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
 * **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
 
-
 ### **Option C – AI-assisted i18n**
 
 **Use case:** Products that need to scale translations from small teams to global platforms efficiently.  
@@ -159,28 +157,28 @@ AI can enhance traditional workflows by automating translation steps, improving 
 You can adopt AI at different points in your process:
 
 #### **Workflow automation (TMS + AI)**
+
 Use a **Translation Management System (TMS)** such as **[Phrase](https://phrase.com/)**, **[Lokalise](https://lokalise.com/)**, or **[Crowdin](https://crowdin.com/)**.  
 A TMS centralizes translations and glossaries, while AI can pre-translate new strings before human review.
 
 ✅ Centralized management and terminology consistency  
 ❌ Subscription cost and moderate setup overhead  
 
-
 #### **CI/CD integration (AI in the pipeline)**
+
 Integrate i18n into your **build pipeline** so translations happen automatically during deployment.  
 AI handles machine translation and quality checks, then opens PRs for human review.
 
 ✅ Faster releases with 80/20 automation  
 ❌ Requires mature CI/CD and API governance  
 
-
 #### **Runtime translation (live AI)**
+
 Use **LLM APIs** to translate user-generated or frequently changing content **on the fly**.  
 Cache translations and use glossaries to preserve accuracy and tone.
 
 ✅ Real-time coverage for global audiences  
 ❌ Latency, cost variability, and SEO risks if not cached  
-
 
 ## Choosing the right solution
 
@@ -188,6 +186,7 @@ Choosing the right internationalization solution depends on your project’s com
 Not every project needs AI. Sometimes traditional tools are faster, simpler, and more reliable.  
 
 AI can be a big time-saver for large or dynamic codebases. For example, **AI agents** can:
+
 * Scan your codebase for hardcoded strings  
 * Generate i18n keys automatically  
 * Pre-translate multiple languages  
@@ -198,7 +197,6 @@ AI can be a big time-saver for large or dynamic codebases. For example, **AI age
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss - watch from 8:10 to 16:40 (8 min)**
 
 🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
-
 
 ### **When to use what**
 
