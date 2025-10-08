@@ -26,6 +26,6 @@ The example page explains how TinaCMS works, but users can’t tell whether the 
 ![Figure: Good example - Showing the last updated by and a history link](how-tinacms-works-good-example.png)  
 :::
 
-In this example, the page shows that the content was last updated by Isaac two months ago, indicating that it’s still valid and reliable. This helps the audience understand how frequently the content is updated and assures them that the information is kept current. 
+In this example, the page shows that the content was last updated by Isaac two months ago, indicating that it’s still valid and reliable. This helps the audience understand how frequently the content is updated and assures them that the information is kept current.
 
 It also benefits maintainers by allowing them to see who made the latest changes directly on the site, without needing to open GitHub or check the page’s commit history.
