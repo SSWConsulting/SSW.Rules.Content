@@ -126,7 +126,6 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 | **Confirmation**   | Use when deletion is permanent or high-risk                       |
 | **Accessibility**  | Don't rely on color; support keyboard and screen readers          |
 
-
 ---
 
 For more guidance on destructive actions in UI design:
