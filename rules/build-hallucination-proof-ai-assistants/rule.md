@@ -9,6 +9,8 @@ uri: build-hallucination-proof-ai-assistants
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson/
+related:
+  - avoid-ai-hallucinations
 created: 2025-06-24T15:34:00.000Z
 guid: da2bf3fa-4ef4-4361-8513-2ed48f63c189
 ---
