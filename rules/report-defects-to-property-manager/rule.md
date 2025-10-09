@@ -1,11 +1,8 @@
 ---
 type: rule
 tips: ""
-title: Do you include all the essential details when reporting a defect to the
-  Property Manager?
-seoDescription: Always include key details when reporting a defect to the
-  Property Manager — clear, complete reports improve turnaround time,
-  communication, and follow-up.
+title: Do you include all the essential details when reporting a defect to the Property Manager?
+seoDescription: Always include key details when reporting a defect to the Property Manager — clear, complete reports improve turnaround time, communication, and follow-up.
 uri: report-defects-to-property-manager
 authors:
   - title: Anastasia Cogan
@@ -27,22 +24,22 @@ Good reporting not only helps the Property Manager resolve issues faster, it als
 
 When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  
 
-# Create a PBI (YakShave it)
+## Create a PBI (YakShave it)
 
 * For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled “Defect – \[Brief Description]”  
 * Link the PBI in your message so others can track progress and updates\
   **Example:** “Created PBI: [Defect – Broken window in backlog area](#)”
 
-## Key details to be included
+### Key details to be included
 
-### 1. Location
+#### 1. Location
 
 Start broad and zoom in:  
 
 * Office name → floor → area → exact item\
   **Example:** “SSW Newcastle → Ground floor → Backlog area → Top right window”
 
-### 2. Urgency and impact
+#### 2. Urgency and impact
 
 Does the defect affect your **productivity** or **safety**?  If yes:
 
@@ -52,7 +49,7 @@ Does the defect affect your **productivity** or **safety**?  If yes:
 * Mention any temporary fix you’ve applied\
   **Example:** “Taped over the exposed wire until repaired”
 
-### 3. Ensure you inform responsible parties
+#### 3. Ensure you inform responsible parties
 
 Inform the people who is aware of the problem. Always include:  
 
@@ -63,7 +60,7 @@ Inform the people who is aware of the problem. Always include:
 **Tip:** Use @mentions int the PBI, or if you’re reporting via Teams or email, e.g. “@John Smith @Sarah Jones”.
 :::
 
-### 4. Historic information
+#### 4. Historic information
 
 * Note any past occurrences or related maintenance\
   **Example:** “Window was repaired in 2022 for the same issue”
@@ -79,12 +76,8 @@ Inform the people who is aware of the problem. Always include:
 Figure: Bad example – Too vague; missing location, urgency, and who it’s reported to
 :::
 
-[](#)
-
-![](screenshot-2025-10-09-152230.png)
-
 ::: good
-Figure: Good example – Clear, complete, and includes all the essential details for fast action and tracking
+![Figure: Good example – Clear, complete, and includes all the essential details for fast action and tracking](screenshot-2025-10-09-152230.png)
 :::
 
 Consistency in reporting helps ensure that all offices communicate defects in the same clear way — improving turnaround time, transparency, and accountability.
