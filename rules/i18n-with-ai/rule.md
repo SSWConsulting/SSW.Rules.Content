@@ -117,8 +117,6 @@ However, AI can be a huge time-saver for large or dynamic codebases. For example
 
 🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-### **When to use what**
-
 Below are common scenarios, ordered from simpler to more complex, with tailored solutions ranging from non-AI to AI-assisted approaches:  
 
 | Use Case | Main Challenge | Recommended Solution |
