@@ -58,7 +58,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ❌ Don't make assumptions about ASCII-only inputs  
    ✅ Use UTF-8 end-to-end (DB, API, frontend)  
 
-   **Note:** Every modern front-end framework set charset UTF-8 by default, you don't have to think about it. Don't forget to configure it on a "classic website".
+   **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. Still, verify it's present in `index.html` and configured correctly on the server.
   
 4. **UX - Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
 
@@ -78,8 +78,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 7. **Infrastructure blind spots** - Networks too slow, CDNs not present where your customers are
 
    ❌ Don’t ship large JS bundles to mobile-first markets  
-   ✅ [Use a CDN close to your users](/use-a-cdn/)
-   ✅ Subset fonts or use system fonts
+   ✅ [Use a CDN close to your users](/use-a-cdn/)  
+   ✅ Subset fonts or use system fonts (download specific fonts for certain language only when you need them)
    ✅ In China, use local CDNs to avoid latency from the Great Firewall
 
 8. **Cultural symbols** - White means purity in the West, but death in China. Even colors can alienate users  
@@ -91,7 +91,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
    :::
 
-9. **RTL layouts** - For instance, Arabic language flip entire UI structures, not just text direction (see image below)
+9. **RTL layouts** - For instance, Arabic (and Hebrew) language flip entire UI structures, not just text direction (see image below)
 
    ✅ Test with `direction: rtl;`  
    ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
@@ -125,7 +125,7 @@ Use browser-based Google Translate for instant multilingual support when you hav
 ### Option B - Manual i18n (traditional libraries)
 
 **Use case:** Multilingual projects that need stability, quality, and full control without relying on AI.
-Use libraries like **[i18next](https://www.i18next.com/)**, **[FormatJS](https://formatjs.io/)**, or **[Angular i18n](https://angular.dev/guide/i18n)** to manage translation keys and switch languages.  
+Use popular libraries like **[i18next](https://www.i18next.com/)**, **[FormatJS](https://formatjs.io/)**, or **[Angular i18n](https://angular.dev/guide/i18n)** to manage translation keys and switch languages.  
 This gives developers full control and high-quality results, but requires setup and ongoing translation work.  
 
 #### ✅ Pros
@@ -143,12 +143,9 @@ This gives developers full control and high-quality results, but requires setup 
 * Complex maintenance of language files  
 * Slow update process for new content  
 
-#### Useful non-AI tools
-
-* **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
-* **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
-* **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
-* **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
+::: greybox
+**Note:** First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
+:::
 
 ### **Option C – AI-assisted i18n**
 
@@ -203,10 +200,11 @@ AI can be a big time-saver for large or dynamic codebases. For example, **AI age
 | Use Case | Main Challenge | Recommended Solution |
 |-----------|----------------|----------------------|
 | **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like Phrase or Crowdin to manage and reuse translations across pages. |
-| **Dynamic web app with frequent content updates** | Making sure new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
+| **Static blog with frequent new content** | Generating translations for new posts quickly at build time without manual overhead | **AI at build time:** Use AI translation APIs (DeepL, OpenAI) in your build pipeline to auto-translate new posts, with optional human review for published content. |
+| **Dynamic web app with frequent content updates** | Ensuring new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
 | **Multi-market e-commerce site** | Adapting prices, currencies, measurements, and promotions for different locales | **Hybrid:** Combine TMS for UI strings with programmatic locale logic for regional data and formatting. |
-| **Community or user-generated content platform** | Handling massive volumes of diverse content, slang, or informal text | **AI-assisted:** Use machine translation APIs (DeepL, Google Translate) and apply human review for quality. |
-| **Global SaaS product** | Keeping UI, emails, and notifications consistent across languages | **AI + Translation Memory:** Use AI for first-pass translations and a Translation Memory to ensure consistent phrasing across components. |
+| **Community or user-generated content platform** | Handling high-volume, informal content with slang and varied writing styles | **AI-assisted:** Use machine translation APIs (DeepL, Google Translate, Azure Translator) and apply human review for quality. |
+| **Real-time chat or customer support** | Translating conversations instantly while maintaining context and natural flow | **AI real-time translation:** Use streaming translation APIs with conversation context, potentially with human agent oversight for critical issues. |
 | **Marketing or SEO-focused content** | Preserving brand tone while adapting keywords and messaging per market | **AI copy assist:** Use AI to draft localized content, then have human editors refine tone and keyword targeting. |
 
 💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content. AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
