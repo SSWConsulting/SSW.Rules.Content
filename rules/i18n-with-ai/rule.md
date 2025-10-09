@@ -20,7 +20,7 @@ guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
 ---
 The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), [Netflix](https://www.weglot.com/blog/netflixs-localization-strategy), [Uber](https://www.nimdzi.com/lessons-in-localization-uber/)) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
 
-Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These were more than bad translations. They revealed big marketing mistakes.
+You need to consider both technical and marketing factors. Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These were more than bad translations. They revealed big marketing mistakes.
 
 <!--endintro-->
 
@@ -52,12 +52,12 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 #### UX - No language options
 
-* ❌ **Pain:** Users are stuck with one language.  
+* ❌ **Issue:** Users are stuck with one language.  
 * ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
 
 #### UI - Character encoding
 
-* ❌ **Pain:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
+* ❌ **Issue:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
 * ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
 * **Note:** Modern build tools (Create React App, Angular CLI or Vite for Vue.js) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
