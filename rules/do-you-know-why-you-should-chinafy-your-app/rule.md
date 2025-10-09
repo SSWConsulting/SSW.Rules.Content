@@ -28,5 +28,6 @@ Most Chinese consumers will not make a purchase or use your application if infor
 
 * Grow and target your audience better using the local social media networks
 * Ensure your application works in China, and that critical application resources are not blocked by the firewall
+* In the AI era, since most Western LLMs, such as ChatGPT, Grok, and Gemini, are not accessible in China, ensure your app integrates LLMs available in China, such as Doubao, DeepSeek, or Qianwen.
 * Integrate with local services (such as video streaming)
 * Localizing for the market is not just translation
