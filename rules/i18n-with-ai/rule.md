@@ -49,55 +49,47 @@ This step is where you confirm that your internationalized website truly works f
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-1. **UX - No language options** - Users are stuck with 1 language  
+#### UX - No language options
+- ❌ **Pain:** Users are stuck with one language  
+- ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/))  
 
-   ✅ Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/))
-
-2. **Character encoding** - All countries using non-latin scripts (japanese, chinese, korean, etc.). E.g. “Björk” becomes “Bj?rk” in Sweden; or " 田中さん " turns into “???” in Japanese.
-
-   ❌ Don't make assumptions about ASCII-only inputs  
-   ✅ Use UTF-8 end-to-end (DB, API, frontend)  
-
-   **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. Still, verify it's present in `index.html` and configured correctly on the server.
+#### Character encoding
+- ❌ **Pain:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
+- ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
+- 💡 **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
-4. **UX - Dates & numbers** - “03/04/2025” means "March 4" in the US and "April 3" in Europe. Decimal points and commas vary by region and can cost money
+#### UX - Dates & numbers formatting
+- ❌ **Issue:** “03/04/2025” has different meanings: it means "March 4" in the US and "April 3" in Europe.  
+- ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually.  
 
-   ❌ Don’t parse strings manually  
-   ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
+#### UX - Text expansion and contraction
+- ❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
+- ✅ **Tip:** Use responsive layouts and visually check text in different languages
 
-5. **UX - Text expansion and contraction** - German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters  
+#### Names & forms
+- ❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
+- ✅ **Tip:** Use a single “Full Name” field or make name parts optional.  
 
-   ❌ Don’t hardcode pixel widths for buttons or labels  
-   ✅ Use responsive layouts and visually check text in different languages
+#### Infrastructure blind spots
+- ❌ **Issue:** Slow performance or broken assets in regions with limited infrastructure.  
+- ✅ **Tip:** Optimize delivery globally — [use nearby CDNs](/use-a-cdn/) or smaller bundles.  
 
-6. **Names & forms** - Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet)
-
-   ❌ Don't force “First Name / Last Name” globally  
-   ✅ Use a single “Full Name” field, or make name parts optional  
-
-7. **Infrastructure blind spots** - Networks too slow, CDNs not present where your customers are
-
-   ❌ Don’t ship large JS bundles to mobile-first markets  
-   ✅ [Use a CDN close to your users](/use-a-cdn/)  
-   ✅ Subset fonts or use system fonts (download specific fonts for certain language only when you need them)  
-   ✅ In China, use local CDNs to avoid latency from the Great Firewall  
-
-8. **Cultural symbols** - White means purity in the West, but death in China. Even colors can alienate users  
-
-   ❌ Don’t assume Western metaphors apply everywhere  
-   ✅ Test color/icon choices with local users (white = death in China)
+#### Cultural symbols
+- ❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
+- ✅ **Tip:** Test color/icon choices with local users.  
 
    ::: china
    [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
    :::
 
-9. **RTL layouts** - For instance, Arabic (and Hebrew) language flip entire UI structures, not just text direction (see image below)
-
-   ✅ Test with `direction: rtl;`  
-   ✅ Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
+#### RTL layouts
+- ❌ Issue: Arabic and Hebrew languages are written Right-To-Left (RTL)
+- ✅ Tip: Test with `direction: rtl; Use a combination of  logical CSS properties (`direction: rtl;`) instead of `left`/`right`
+- 💡 Note: Be mindful to also change the images layout, not just the text.
+- For instance, Arabic (and Hebrew) language flip entire UI structures, not just text direction (see image below)
 
    ::: info
-   **Tip:**" Arabic accounts for 5% of internet users (300M+). Supporting RTL ("Right-To-Left") means mirroring the entire UI, not just text.
+   **Tip:**" Arabic accounts for 5% of internet users (300M+).
    :::
 
    ::: img-medium
@@ -107,23 +99,20 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 ## Choosing the right solution
 
 Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
-Not every project needs AI. Sometimes traditional tools are faster, simpler, and more reliable.  
+Not every project needs AI - sometimes traditional tools are faster, simpler, and more reliable.  
 
-AI can be a big time-saver for large or dynamic codebases.  
-For example, **AI agents** can:
+However, AI can be a huge time-saver for large or dynamic codebases. For example, AI agents can scan your codebase, identify hardcoded strings, generate i18n keys, and even automate translations for multiple languages. This can dramatically reduce manual work and speed up the localization process.
 
-* Scan your codebase for hardcoded strings  
-* Generate i18n keys automatically  
-* Pre-translate multiple languages  
-* Open pull requests for review
+🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
-🎥 Check out this video:
 `youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss - watch from 8:10 to 16:40 (8 min)**
 
 🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
 ### **When to use what**
+
+Below are common scenarios, ordered from simpler to more complex, with tailored solutions ranging from non-AI to AI-assisted approaches:  
 
 | Use Case | Main Challenge | Recommended Solution |
 |-----------|----------------|----------------------|
