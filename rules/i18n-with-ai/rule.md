@@ -53,30 +53,30 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 * ❌ **Pain:** Users are stuck with one language  
 * ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/))  
 
-#### Character encoding
+#### UI - Character encoding
 * ❌ **Pain:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
 * ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
 * 💡 **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
-#### UX - Dates & numbers formatting
+#### UI - Dates & numbers formatting
 * ❌ **Issue:** “03/04/2025” has different meanings: it means "March 4" in the US and "April 3" in Europe.  
 * ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually.  
 
-#### UX - Text expansion and contraction
+#### UI - Text expansion and contraction
 * ❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
 * ✅ **Tip:** Use responsive layouts and visually check text in different languages
 
-#### Names & forms
+#### UI - Names & forms
 * ❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
 * ✅ **Tip:** Use a single “Full Name” field or make name parts optional.  
 
-#### Infrastructure blind spots
+#### UI - Cultural symbols
+* ❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
+* ✅ **Tip:** Test color/icon choices with local users.
+
+#### Performance - Infrastructure blind spots
 * ❌ **Issue:** Slow performance or broken assets in regions with limited infrastructure.  
 * ✅ **Tip:** Optimize delivery globally — [use nearby CDNs](/use-a-cdn/) or smaller bundles.  
-
-#### Cultural symbols
-* ❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
-* ✅ **Tip:** Test color/icon choices with local users.  
 
    ::: china
    [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
