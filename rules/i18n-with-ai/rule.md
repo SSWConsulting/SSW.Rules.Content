@@ -182,7 +182,8 @@ Cache translations and use glossaries to preserve accuracy and tone.
 Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
 Not every project needs AI. Sometimes traditional tools are faster, simpler, and more reliable.  
 
-AI can be a big time-saver for large or dynamic codebases. For example, **AI agents** can:
+AI can be a big time-saver for large or dynamic codebases.  
+For example, **AI agents** can:
 
 * Scan your codebase for hardcoded strings  
 * Generate i18n keys automatically  
@@ -200,10 +201,10 @@ AI can be a big time-saver for large or dynamic codebases. For example, **AI age
 | Use Case | Main Challenge | Recommended Solution |
 |-----------|----------------|----------------------|
 | **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like Phrase or Crowdin to manage and reuse translations across pages. |
-| **Static blog with frequent new content** | Generating translations for new posts quickly at build time without manual overhead | **AI at build time:** Use AI translation APIs (DeepL, OpenAI) in your build pipeline to auto-translate new posts, with optional human review for published content. |
+| **Static blog with frequent new content** | Generating translations for new posts quickly at build time without manual overhead | **AI at build time:** Use AI translation APIs (OpenAI, Claude, Deepl...) in your build pipeline to auto-translate new posts, with optional human review for published content. |
 | **Dynamic web app with frequent content updates** | Ensuring new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
 | **Multi-market e-commerce site** | Adapting prices, currencies, measurements, and promotions for different locales | **Hybrid:** Combine TMS for UI strings with programmatic locale logic for regional data and formatting. |
-| **Community or user-generated content platform** | Handling high-volume, informal content with slang and varied writing styles | **AI-assisted:** Use machine translation APIs (DeepL, Google Translate, Azure Translator) and apply human review for quality. |
+| **Community or user-generated content platform** | Handling high-volume, informal content with slang and varied writing styles | **AI-assisted:** Use AI translation APIs and apply human review for quality. |
 | **Real-time chat or customer support** | Translating conversations instantly while maintaining context and natural flow | **AI real-time translation:** Use streaming translation APIs with conversation context, potentially with human agent oversight for critical issues. |
 | **Marketing or SEO-focused content** | Preserving brand tone while adapting keywords and messaging per market | **AI copy assist:** Use AI to draft localized content, then have human editors refine tone and keyword targeting. |
 
