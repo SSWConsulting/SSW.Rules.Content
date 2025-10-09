@@ -117,18 +117,8 @@ However, AI can be a huge time-saver for large or dynamic codebases. For example
 
 🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-Below are common scenarios, ordered from simpler to more complex, with tailored solutions ranging from non-AI to AI-assisted approaches:  
+Below is a decision-tree that you can follow to figure out your optimal i18n solution:
 
-| Use Case | Main Challenge | Recommended Solution |
-|-----------|----------------|----------------------|
-| **Project with zero budget or resources for localization** | Need instant multilingual capability without any setup or cost | **Browser-based translation (Google Translate):** Use browser-based translation for temporary or internal projects. Fast and free, but not suitable for production due to layout and accuracy issues. |
-| **Stable product with few supported languages and no AI requirement** | Need professional, accurate translations and full control over language files | **Manual i18n (traditional libraries):** Use libraries like [i18next](https://www.i18next.com/), [FormatJS](formatjs.io), or [Angular i18n](https://angular.dev/guide/i18n) for high-quality, consistent translations managed by developers or translators. |
-| **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like [Phrase](https://phrase.com/) or [Crowdin](https://crowdin.com/) to manage and reuse translations across pages. |
-| **Static blog with frequent new content** | Generating translations for new posts quickly at build time without manual overhead | **AI at build time:** Use AI translation APIs (OpenAI, Claude, Deepl...) in your build pipeline to auto-translate new posts, with optional human review for published content. |
-| **Dynamic web app with frequent content updates** | Ensuring new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
-| **Multi-market e-commerce site** | Adapting prices, currencies, measurements, and promotions for different locales | **Hybrid:** Combine TMS for UI strings with programmatic locale logic for regional data and formatting. |
-| **Community or user-generated content platform** | Handling high-volume, informal content with slang and varied writing styles | **AI-assisted:** Use AI translation APIs and apply human review for quality. |
-| **Real-time chat or customer support** | Translating conversations instantly while maintaining context and natural flow | **AI real-time translation:** Use streaming translation APIs with conversation context, potentially with human agent oversight for critical issues. |
-| **Marketing or SEO-focused content** | Preserving brand tone while adapting keywords and messaging per market | **AI copy assist:** Use AI to draft localized content, then have human editors refine tone and keyword targeting. |
+![Figure: i18n Decision Tree](i18n-decision-tree.jpg)
 
 💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content. AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
