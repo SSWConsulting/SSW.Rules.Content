@@ -10,16 +10,17 @@ authors:
     url: https://www.ssw.com.au/people/gilles-pothieu
   - title: Chloe Lin
     url: https://www.ssw.com.au/people/chloe-lin
+  - title: Jeoffrey Fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
   - add-multilingual-support-on-angular
   - do-you-know-how-to-better-localize-your-application
   - do-you-always-give-the-user-an-option-to-change-the-locale
 guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
 ---
-
-Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental marketing failures.
-
 The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), [Netflix](https://www.weglot.com/blog/netflixs-localization-strategy), [Uber](https://www.nimdzi.com/lessons-in-localization-uber/)) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
+
+You need to consider both technical and marketing factors. Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These were more than bad translations. They revealed big marketing mistakes.
 
 <!--endintro-->
 
@@ -51,29 +52,29 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 #### UX - No language options
 
-* ❌ **Pain:** Users are stuck with one language.  
+* ❌ **Issue:** Users are stuck with one language.  
 * ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
 
 #### UI - Character encoding
 
-* ❌ **Pain:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
+* ❌ **Issue:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
 * ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
-* 💡 **Note:** Modern build tools (Vite, Create React App, Angular CLI) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
+* **Note:** Modern build tools (Create React App, Angular CLI or Vite for Vue.js) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
 #### UI - Dates & numbers formatting
 
 * ❌ **Issue:** “03/04/2025” has different meanings - it means "March 4" in the US and "April 3" in Europe.  
-* ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually.  
+* ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your browser will handle the date format for you.
 
 #### UI - Text expansion and contraction
 
 * ❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
-* ✅ **Tip:** Use responsive layouts and visually check text in different languages.  
+* ✅ **Tip:** Use responsive layouts and **visually check text in different languages**.  
 
 #### UI - Names & forms
 
 * ❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
-* ✅ **Tip:** Use a single “Full Name” field or make name parts optional.  
+* ✅ **Tip:** Use a single "full name" field, make last name optional.  
 
 #### UI - Cultural symbols
 
@@ -93,32 +94,31 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 * ❌ Issue: Arabic and Hebrew languages are written Right-To-Left (RTL).  
 * ✅ Tip: Test with `direction: rtl; Use a combination of  logical CSS properties (`direction: rtl;`) instead of`left`/`right`.  
-* 💡 Note: Be mindful to also change the images layout, not just the text.  
+* Note: Be mindful to also change the images layout, not just the text.  
 
    ::: info
-   **Tip:**" Arabic accounts for 5% of internet users (300M+).
+   **Tip:** Arabic accounts for 5% of internet users (~250M).
    :::
 
    ::: img-medium
-   ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
+   ![Figure: Arabic is one of the top 5 internet languages with ~250M speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
    :::
 
 ## Choosing the right solution
 
-Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
-Not every project needs AI - sometimes traditional tools are faster, simpler, and more reliable.  
+Not every project needs AI - sometimes traditional tools are faster, simpler, and more reliable.   Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
 
-However, AI can be a huge time-saver for large or dynamic codebases. For example, AI agents can scan your codebase, identify hardcoded strings, generate i18n keys, and even automate translations for multiple languages. This can dramatically reduce manual work and speed up the localization process.
+Localization this days can be improved using AI; it can be a huge time-saver for large or dynamic codebases.  
+For example, AI agents can scan your codebase, identify hardcoded strings, generate i18n keys, and even automate translations for multiple languages. This can dramatically reduce manual work and speed up the localization process.
 
 🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
-`youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss - watch from 8:10 to 16:40 (8 min)**
+`youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (18 min)**  
+Tip: watch from 8:10 to 16:40 (8 min)
 
-🔗 More details in the related article: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
+🔗 Blog: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-Below is a decision-tree that you can follow to figure out your optimal i18n solution:
+Below is a decision-tree that to follow to figure out your optimal i18n solution:
 
 ![Figure: i18n Decision Tree](i18n-decision-tree.jpg)
-
-💡 **Tip:** Even with AI, always involve native speakers for critical customer-facing content. AI accelerates translation but cannot fully replace cultural understanding or brand-specific tone.
