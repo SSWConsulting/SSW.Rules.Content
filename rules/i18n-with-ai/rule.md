@@ -2,8 +2,7 @@
 type: rule
 tips: ""
 title: Do you use AI to make internationalization easier?
-seoDescription: Understand i18n vs l10n. Build software ready for global users
-  with tips on encoding, dates, forms, and cultural adaptation.
+seoDescription: Understand i18n vs l10n. Build software ready for global users with tips on encoding, dates, forms, and cultural adaptation.
 uri: i18n-with-ai
 authors:
   - title: Gilles Pothieu
@@ -50,59 +49,69 @@ This step is where you confirm that your internationalized website truly works f
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-#### UX - No language options
+### UX - No language options
 
-* ❌ **Issue:** Users are stuck with one language.  
-* ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
+❌ **Issue:** Users are stuck with one language.  
 
-#### UI - Character encoding
+✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
 
-* ❌ **Issue:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
-* ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
-* **Note:** Modern build tools (Create React App, Angular CLI or Vite for Vue.js) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
+### UI - Character encoding
+
+❌ **Issue:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
+
+✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
+
+**Note:** Modern build tools (Create React App, Angular CLI or Vite for Vue.js) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
-#### UI - Dates & numbers formatting
+### UI - Dates & numbers formatting
 
-* ❌ **Issue:** “03/04/2025” has different meanings - it means "March 4" in the US and "April 3" in Europe.  
-* ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your browser will handle the date format for you.
+❌ **Issue:** “03/04/2025” has different meanings - it means "March 4" in the US and "April 3" in Europe.  
 
-#### UI - Text expansion and contraction
+✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your browser will handle the date format for you.
 
-* ❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
-* ✅ **Tip:** Use responsive layouts and **visually check text in different languages**.  
+### UI - Text expansion and contraction
 
-#### UI - Names & forms
+❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
 
-* ❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
-* ✅ **Tip:** Use a single "full name" field, make last name optional.  
+✅ **Tip:** Use responsive layouts and **visually check text in different languages**.  
 
-#### UI - Cultural symbols
+### UI - Names & forms
 
-* ❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
-* ✅ **Tip:** Test color/icon choices with local users.  
+❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
 
-#### Performance - Infrastructure blind spots
+✅ **Tip:** Use a single "full name" field, make last name optional.  
 
-* ❌ **Issue:** Slow performance or broken assets in regions with limited infrastructure.  
-* ✅ **Tip:** Optimize delivery globally — [use nearby CDNs](/use-a-cdn/) or smaller bundles.  
+### UI - Cultural symbols
 
-   ::: china
-   [Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
-   :::
+❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
 
-#### RTL layouts
+✅ **Tip:** Test color/icon choices with local users.  
 
-* ❌ **Issue:** Arabic and Hebrew languages are written Right-To-Left (RTL).  
-* ✅ **Tip:** Test with `direction: rtl;` Use a combination of logical CSS properties (`direction: rtl;`) instead of `left`/`right`.  
-* Note: Be mindful to also change the images layout, not just the text.  
+### Performance - Infrastructure blind spots
 
-   ::: info
-   **Tip:** Arabic accounts for 5% of internet users (~250M).
-   :::
+❌ **Issue:** Slow performance or broken assets in regions with limited infrastructure.  
 
-   ::: img-medium
-   ![Figure: Arabic is one of the top 5 internet languages with ~250M speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
-   :::
+✅ **Tip:** Optimize delivery globally — [use nearby CDNs](/use-a-cdn/) or smaller bundles.  
+
+::: china
+[Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
+:::
+
+### RTL layouts
+
+❌ **Issue:** Arabic and Hebrew languages are written Right-To-Left (RTL).  
+
+✅ **Tip:** Test with `direction: rtl;` Use a combination of logical CSS properties (`direction: rtl;`) instead of `left`/`right`.  
+
+**Note:** Be mindful to also change the images layout, not just the text.  
+
+::: info
+**Tip:** Arabic accounts for 5% of internet users (~250M).
+:::
+
+::: img-medium
+![Figure: Arabic is one of the top 5 internet languages with ~250M speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
+:::
 
 ## Choosing the right solution
 
@@ -114,11 +123,12 @@ However, as software becomes more dynamic and content-heavy, **AI-powered locali
 
 🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
+**Tip:** Watch from 8:10 to 16:40 (8 min)
+
 `youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (18 min)**  
-Tip: watch from 8:10 to 16:40 (8 min)
 
-🔗 Blog: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
+**🔗 Blog:** [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
 Below is a **decision tree** that can be followed in order to figure out the optimal i18n solution for a given project:
 
