@@ -61,7 +61,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 ✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
 
-**Note:** Modern build tools (Create React App, Angular CLI or Vite for Vue.js) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
+**Note:** Modern UI frameworks (React, Angular, Blazor, and Vue) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
   
 ### UI - Dates & numbers formatting
 
