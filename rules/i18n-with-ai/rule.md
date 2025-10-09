@@ -64,7 +64,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 #### UI - Dates & numbers formatting
 
 * ❌ **Issue:** “03/04/2025” has different meanings - it means "March 4" in the US and "April 3" in Europe.  
-* ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your brower will handle date for you.
+* ✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your browser will handle the date format for you.
 
 #### UI - Text expansion and contraction
 
