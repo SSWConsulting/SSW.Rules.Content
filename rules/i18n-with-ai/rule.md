@@ -51,8 +51,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 #### UX - No language options
 
-* ❌ **Pain:** Users are stuck with one language  
-* ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/))  
+* ❌ **Pain:** Users are stuck with one language.  
+* ✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
 
 #### UI - Character encoding
 
@@ -68,7 +68,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 #### UI - Text expansion and contraction
 
 * ❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
-* ✅ **Tip:** Use responsive layouts and visually check text in different languages
+* ✅ **Tip:** Use responsive layouts and visually check text in different languages.  
 
 #### UI - Names & forms
 
@@ -78,7 +78,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 #### UI - Cultural symbols
 
 * ❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
-* ✅ **Tip:** Test color/icon choices with local users.
+* ✅ **Tip:** Test color/icon choices with local users.  
 
 #### Performance - Infrastructure blind spots
 
@@ -91,10 +91,9 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 #### RTL layouts
 
-* ❌ Issue: Arabic and Hebrew languages are written Right-To-Left (RTL)
-* ✅ Tip: Test with `direction: rtl; Use a combination of  logical CSS properties (`direction: rtl;`) instead of`left`/`right`
-* 💡 Note: Be mindful to also change the images layout, not just the text.
-* For instance, Arabic (and Hebrew) language flip entire UI structures, not just text direction (see image below)
+* ❌ Issue: Arabic and Hebrew languages are written Right-To-Left (RTL).  
+* ✅ Tip: Test with `direction: rtl; Use a combination of  logical CSS properties (`direction: rtl;`) instead of`left`/`right`.  
+* 💡 Note: Be mindful to also change the images layout, not just the text.  
 
    ::: info
    **Tip:**" Arabic accounts for 5% of internet users (300M+).
