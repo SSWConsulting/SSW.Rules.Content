@@ -1,8 +1,11 @@
 ---
 type: rule
 tips: ""
-title: Do you include all the essential details when reporting a defect to the Property Manager?
-seoDescription: Always include key details when reporting a defect to the Property Manager — clear, complete reports improve turnaround time, communication, and follow-up.
+title: Do you include all the essential details when reporting a defect to the
+  Property Manager?
+seoDescription: Always include key details when reporting a defect to the
+  Property Manager — clear, complete reports improve turnaround time,
+  communication, and follow-up.
 uri: report-defects-to-property-manager
 authors:
   - title: Anastasia Cogan
@@ -13,18 +16,22 @@ related:
   - supervise-tradespeople
 created: 2025-10-07T11:34:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
-
 ---
-
 When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action. Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
 
 <!--endintro-->
 
-![Figure: What information should you include when reporting a defect](screenshot-2025-10-07-125246.png "Figure: What information should you include when reporting a defect")
+![Figure: What information should you include when reporting a defect](screenshot-2025-10-09-152522.png "Figure: What information should you include when reporting a defect")
 
 Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
 When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  
+
+# Create a PBI (YakShave it)
+
+* For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled “Defect – \[Brief Description]”  
+* Link the PBI in your message so others can track progress and updates\
+  **Example:** “Created PBI: [Defect – Broken window in backlog area](#)”
 
 ## Key details to be included
 
@@ -32,21 +39,20 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 
 Start broad and zoom in:  
 
-* Office name → floor → area → exact item   
+* Office name → floor → area → exact item\
   **Example:** “SSW Newcastle → Ground floor → Backlog area → Top right window”
 
 ### 2. Urgency and impact
 
 Does the defect affect your **productivity** or **safety**?  If yes:
 
-* Clearly state the impact   
+* Clearly state the impact\
   **Example:** “Can’t use meeting room due to flickering lights”
      
-* Mention any temporary fix you’ve applied   
+* Mention any temporary fix you’ve applied\
   **Example:** “Taped over the exposed wire until repaired”
 
-
-### 3. Who you’ve reported it to 
+### 3. Ensure you inform responsible parties
 
 Inform the people who is aware of the problem. Always include:  
 
@@ -54,21 +60,15 @@ Inform the people who is aware of the problem. Always include:
 * The **Property Manager**  
 
 ::: info
-**Tip:** Use @mentions if you’re reporting via Teams or email, e.g. “@John Smith @Sarah Jones”.
+**Tip:** Use @mentions int the PBI, or if you’re reporting via Teams or email, e.g. “@John Smith @Sarah Jones”.
 :::
 
 ### 4. Historic information
 
-   * Note any past occurrences or related maintenance   
-     **Example:** “Window was repaired in 2022 for the same issue”
+* Note any past occurrences or related maintenance\
+  **Example:** “Window was repaired in 2022 for the same issue”
 
-### 5. Create a PBI (YakShave it) 
-
-* For traceability, **create a PBI (Product Backlog Item)** in Azure DevOps titled “Defect – \[Brief Description]”  
-* Link the PBI in your message so others can track progress and updates  
-  **Example:** “Created PBI: [Defect – Broken window in backlog area](#)”
-
----
+- - -
 
 ## Examples
 
@@ -79,19 +79,10 @@ Inform the people who is aware of the problem. Always include:
 Figure: Bad example – Too vague; missing location, urgency, and who it’s reported to
 :::
 
-::: greybox
-**Subject:** Broken window – SSW Newcastle, ground floor, the Backlog
+[](#)
 
-**Details:**\
-The top right window in the backlog area has a cracked pane.\
-This may have been caused by recent strong winds.\
-Currently not affecting productivity but could worsen if not fixed soon.\
-Temporary fix: Moved desks away from the area.  
+![](screenshot-2025-10-09-152230.png)
 
-**Reported to:** @John Smith (Head of Office), @Sarah Jones (Property Manager)\
-**Previous issue:** Window repaired in 2022 for similar damage.\
-**PBI:** [Defect – Cracked window in backlog area](#)
-:::
 ::: good
 Figure: Good example – Clear, complete, and includes all the essential details for fast action and tracking
 :::
