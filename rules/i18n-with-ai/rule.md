@@ -79,8 +79,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
    ❌ Don’t ship large JS bundles to mobile-first markets  
    ✅ [Use a CDN close to your users](/use-a-cdn/)  
-   ✅ Subset fonts or use system fonts (download specific fonts for certain language only when you need them)
-   ✅ In China, use local CDNs to avoid latency from the Great Firewall
+   ✅ Subset fonts or use system fonts (download specific fonts for certain language only when you need them)  
+   ✅ In China, use local CDNs to avoid latency from the Great Firewall  
 
 8. **Cultural symbols** - White means purity in the West, but death in China. Even colors can alienate users  
 
