@@ -108,7 +108,7 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 When planning your i18n strategy, start by matching the solution to your project’s **complexity, content volume, and update frequency**.  
 
-For many teams, **traditional i18n and l10n tools** are still the best choice. They’re stable, well-documented, and integrate easily into existing workflows. 
+For many teams, **traditional i18n and l10n tools** are still the best choice. They’re stable, well-documented, and integrate easily into existing workflows.
 
 However, as software becomes more dynamic and content-heavy, **AI-powered localization** is emerging as a powerful complement to these traditional methods. AI can analyze your codebase, identify hardcoded strings, suggest i18n keys, and even automate translations across multiple languages. This reduces manual effort and accelerates the entire l10n process.  
 
