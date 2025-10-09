@@ -92,8 +92,8 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 #### RTL layouts
 
-* ❌ Issue: Arabic and Hebrew languages are written Right-To-Left (RTL).  
-* ✅ Tip: Test with `direction: rtl; Use a combination of  logical CSS properties (`direction: rtl;`) instead of`left`/`right`.  
+* ❌ **Issue:** Arabic and Hebrew languages are written Right-To-Left (RTL).  
+* ✅ **Tip:** Test with `direction: rtl;` Use a combination of logical CSS properties (`direction: rtl;`) instead of `left`/`right`.  
 * Note: Be mindful to also change the images layout, not just the text.  
 
    ::: info
@@ -106,10 +106,11 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
 
 ## Choosing the right solution
 
-Not every project needs AI - sometimes traditional tools are faster, simpler, and more reliable.   Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
+When planning your i18n strategy, start by matching the solution to your project’s **complexity, content volume, and update frequency**.  
 
-Localization this days can be improved using AI; it can be a huge time-saver for large or dynamic codebases.  
-For example, AI agents can scan your codebase, identify hardcoded strings, generate i18n keys, and even automate translations for multiple languages. This can dramatically reduce manual work and speed up the localization process.
+For many teams, **traditional i18n and l10n tools** are still the best choice. They’re stable, well-documented, and integrate easily into existing workflows. 
+
+However, as software becomes more dynamic and content-heavy, **AI-powered localization** is emerging as a powerful complement to these traditional methods. AI can analyze your codebase, identify hardcoded strings, suggest i18n keys, and even automate translations across multiple languages. This reduces manual effort and accelerates the entire l10n process.  
 
 🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
@@ -119,6 +120,6 @@ Tip: watch from 8:10 to 16:40 (8 min)
 
 🔗 Blog: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-Below is a decision-tree that to follow to figure out your optimal i18n solution:
+Below is a **decision tree** that can be followed in order to figure out the optimal i18n solution for a given project:
 
 ![Figure: i18n Decision Tree](i18n-decision-tree.jpg)
