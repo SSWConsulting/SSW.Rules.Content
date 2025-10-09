@@ -123,7 +123,7 @@ However, as software becomes more dynamic and content-heavy, **AI-powered locali
 
 🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
-**Tip:** watch from 8:10 to 16:40 (8 min)
+**Tip:** Watch from 8:10 to 16:40 (8 min)
 
 `youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
 **Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (18 min)**  
