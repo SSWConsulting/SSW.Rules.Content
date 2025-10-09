@@ -22,7 +22,6 @@ The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in
 
 Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These were more than bad translations. They revealed big marketing mistakes.
 
-
 <!--endintro-->
 
 ![Figure: Many top-spoken languages remain underrepresented online, e.g. Chinese represents 13% of the world, but 2.2% of the websites](first_language_vs_web.png)
