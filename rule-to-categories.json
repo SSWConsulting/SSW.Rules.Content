@@ -47,6 +47,12 @@
     "ai-for-frontend-development": [
         "rules-to-better-ai-development"
     ],
+    "ai-for-prototype-development": [
+        "rules-to-better-ai-development"
+    ],
+    "build-hallucination-proof-ai-assistants": [
+        "rules-to-better-ai-development"
+    ],
     "avoid-ai-hallucinations": [
         "rules-to-better-ai-development"
     ],
@@ -513,6 +519,9 @@
         "rules-to-better-sales"
     ],
     "include-annual-cost": [
+        "rules-to-better-sales"
+    ],
+    "do-you-do-cold-emailing-right": [
         "rules-to-better-sales"
     ],
     "being-a-good-consultant": [
@@ -2305,6 +2314,9 @@
     "do-you-schedule-supplier-payments": [
         "rules-to-better-accounting"
     ],
+    "set-up-auxiliary-accounting": [
+        "rules-to-better-accounting"
+    ],
     "bench-master": [
         "rules-to-better-bench-management"
     ],
@@ -2594,7 +2606,13 @@
     "manage-building-related-issues": [
         "rules-to-better-office-operations"
     ],
+    "report-defects-to-property-manager": [
+        "rules-to-better-office-operations"
+    ],
     "capture-contact-details-of-service-providers": [
+        "rules-to-better-office-operations"
+    ],
+    "supervise-tradespeople": [
         "rules-to-better-office-operations"
     ],
     "remind-your-team-to-turn-in-timesheets": [
@@ -3584,6 +3602,9 @@
         "rules-to-better-interfaces-general-usability-practices"
     ],
     "do-you-make-users-intuitively-know-how-to-use-something": [
+        "rules-to-better-interfaces-general-usability-practices"
+    ],
+    "destructive-button-ui-ux": [
         "rules-to-better-interfaces-general-usability-practices"
     ],
     "always-reduce-complexity": [
@@ -4745,6 +4766,9 @@
         "rules-to-better-security-end-users"
     ],
     "choosing-authentication": [
+        "rules-to-better-security"
+    ],
+    "browser-security-patterns": [
         "rules-to-better-security"
     ],
     "use-passkeys": [
@@ -6867,7 +6891,7 @@
     "agreements-do-you-use-1-or-2-week-sprints": [
         "rules-to-better-product-owners"
     ],
-    "agreements-do-you-use-an-experienced-scrum-master-or-project-manager": [
+    "experienced-scrum-master": [
         "rules-to-better-product-owners"
     ],
     "communication-are-you-specific-in-your-requirements": [
@@ -7212,6 +7236,10 @@
     ],
     "do-you-assign-severity-levels": [
         "rules-to-better-scrum"
+    ],
+    "uat-in-sprint": [
+        "rules-to-better-scrum",
+        "rules-to-better-user-acceptance-tests-uat-for-bug-management"
     ],
     "tfs2010-migration-choices": [
         "rules-to-better-tfs-2010-migration"
@@ -8687,7 +8715,7 @@
     "share-code-using-packages": [
         "rules-to-better-installers"
     ],
-    "why-your-website-might-break-for-global-users": [
+    "i18n-with-ai": [
         "rules-to-better-internationalization"
     ],
     "do-you-know-why-you-should-chinafy-your-app": [
@@ -10613,6 +10641,9 @@
         "rules-to-better-websites-development"
     ],
     "do-you-know-the-best-framework-to-build-an-admin-interface": [
+        "rules-to-better-websites-development"
+    ],
+    "last-updated-by": [
         "rules-to-better-websites-development"
     ],
     "good-quality-images": [
