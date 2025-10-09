@@ -31,7 +31,7 @@ China has the largest number of native speakers and represents a huge market opp
 
 ## The expensive confusion: i18n vs l10n
 
-### **Internationalization** (i18n) - The architecture
+### Internationalization (**i18n**) - The architecture
 
 The word “internationalization” is long, so we shorten it to **i18n** because there are 18 letters between the “i” and “n.”  According to the W3C, internationalization means **designing your product so it can easily adapt to different languages and cultures** before you start translating.  
 
@@ -39,7 +39,7 @@ Think of it like **building a website with a flexible backend**. You set up your
 
 You are not adding translations yet. You are just making sure the system can handle them later without breaking.  
 
-### **Localization** (l10n) - The implementation
+### Localization (**l10n**) - The implementation
 
 If i18n is the framework, **l10n** is when you actually **fill in the details for each locale**. This is where you add translations, apply regional settings, and adjust visuals such as date formats, currencies, or culturally specific images.  
 
@@ -104,79 +104,6 @@ Here are the most frequent pitfalls developers encounter when scaling globally:
    ![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
    :::
 
-## Internationalization (i18n) Approaches
-
-### Option A - Browser-based translation (Google Translate)
-
-**Use case:** Prototypes, internal demos, hackathons, no i18n budget project  
-Use browser-based Google Translate for instant multilingual support when you have no development time or budget.
-
-#### ✅ Pros
-
-* Immediate availability with zero development effort  
-* No implementation or maintenance costs
-
-#### ❌ Cons
-
-* Poor UX and layout issues  
-* Inaccurate translations  
-* Potential loss of international users  
-
-### Option B - Manual i18n (traditional libraries)
-
-**Use case:** Multilingual projects that need stability, quality, and full control without relying on AI.
-Use popular libraries like **[i18next](https://www.i18next.com/)**, **[FormatJS](https://formatjs.io/)**, or **[Angular i18n](https://angular.dev/guide/i18n)** to manage translation keys and switch languages.  
-This gives developers full control and high-quality results, but requires setup and ongoing translation work.  
-
-#### ✅ Pros
-
-* High-quality, controlled translations  
-* Professional multilingual user experience  
-* Native language support and better SEO  
-* Full control of data
-
-#### ❌ Cons
-
-* Significant development time and delays  
-* High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-* Ongoing costs for maintaining and updating translations with each new feature  
-* Complex maintenance of language files  
-* Slow update process for new content  
-
-::: greybox
-**Note:** First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
-:::
-
-### **Option C – AI-assisted i18n**
-
-**Use case:** Products that need to scale translations from small teams to global platforms efficiently.  
-AI can enhance traditional workflows by automating translation steps, improving quality, and reducing human overhead.  
-You can adopt AI at different points in your process:
-
-#### **Workflow automation (TMS + AI)**
-
-Use a **Translation Management System (TMS)** such as **[Phrase](https://phrase.com/)**, **[Lokalise](https://lokalise.com/)**, or **[Crowdin](https://crowdin.com/)**.  
-A TMS centralizes translations and glossaries, while AI can pre-translate new strings before human review.
-
-✅ Centralized management and terminology consistency  
-❌ Subscription cost and moderate setup overhead  
-
-#### **CI/CD integration (AI in the pipeline)**
-
-Integrate i18n into your **build pipeline** so translations happen automatically during deployment.  
-AI handles machine translation and quality checks, then opens PRs for human review.
-
-✅ Faster releases with 80/20 automation  
-❌ Requires mature CI/CD and API governance  
-
-#### **Runtime translation (live AI)**
-
-Use **LLM APIs** to translate user-generated or frequently changing content **on the fly**.  
-Cache translations and use glossaries to preserve accuracy and tone.
-
-✅ Real-time coverage for global audiences  
-❌ Latency, cost variability, and SEO risks if not cached  
-
 ## Choosing the right solution
 
 Choosing the right internationalization solution depends on your project’s complexity, content volume, and update frequency.  
@@ -200,7 +127,9 @@ For example, **AI agents** can:
 
 | Use Case | Main Challenge | Recommended Solution |
 |-----------|----------------|----------------------|
-| **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like Phrase or Crowdin to manage and reuse translations across pages. |
+| **Project with zero budget or resources for localization** | Need instant multilingual capability without any setup or cost | **Browser-based translation (Google Translate):** Use browser-based translation for temporary or internal projects. Fast and free, but not suitable for production due to layout and accuracy issues. |
+| **Stable product with few supported languages and no AI requirement** | Need professional, accurate translations and full control over language files | **Manual i18n (traditional libraries):** Use libraries like [i18next](https://www.i18next.com/), [FormatJS](formatjs.io), or [Angular i18n](https://angular.dev/guide/i18n) for high-quality, consistent translations managed by developers or translators. |
+| **Static website with many pages** | Translating large volumes consistently while keeping layout and SEO intact | **Non-AI:** Use a Translation Management System (TMS) like [Phrase](https://phrase.com/) or [Crowdin](https://crowdin.com/) to manage and reuse translations across pages. |
 | **Static blog with frequent new content** | Generating translations for new posts quickly at build time without manual overhead | **AI at build time:** Use AI translation APIs (OpenAI, Claude, Deepl...) in your build pipeline to auto-translate new posts, with optional human review for published content. |
 | **Dynamic web app with frequent content updates** | Ensuring new content is translated quickly without blocking releases | **Partly automated:** Connect your TMS to the CI/CD pipeline so new strings trigger translation automatically. |
 | **Multi-market e-commerce site** | Adapting prices, currencies, measurements, and promotions for different locales | **Hybrid:** Combine TMS for UI strings with programmatic locale logic for regional data and formatting. |
