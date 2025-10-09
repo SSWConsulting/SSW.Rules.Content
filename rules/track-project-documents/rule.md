@@ -102,4 +102,4 @@ Documents with usernames and passwords should not be stored in Microsoft Teams. 
 - No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
 - No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
 - No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
-  :::
+:::
