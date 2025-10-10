@@ -97,7 +97,7 @@ Another user with the same password:
 * Password: `apple123`
 * Salt: `blue`
 * Pepper (secret): `!@#secret`
-* Hash(password + salt + pepper): `z9y8x7w6v5u4t3s2r1q0`
+* Hash(password + salt + pepper): `$2b$10$FgH9iJ0kL1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gH2iJ3kL4mN5o`
 
 **✅ Why it's safer:**
 
