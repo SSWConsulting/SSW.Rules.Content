@@ -21,7 +21,6 @@ Here is a recipe to secure passwords using hash, salt, and pepper - the essentia
 
 <!-- endintro -->
 
-
 ## Why Are Passwords Not Safe Enough?
 
 Passwords alone are fragile ⛓️‍💥
@@ -36,10 +35,9 @@ To protect accounts effectively, additional measures must be applied to make pas
 To build strong password security, the following components are essential:  
 
 * A user **password** e.g., `apple123`
-* A strong, slow **hashing** algorithm   
+* A strong, slow **hashing** algorithm
 * A unique, random **salt** per user  
 * A secret **pepper** stored securely outside the database  
-
 
 ## Step 1: Hash
 
@@ -89,7 +87,6 @@ Another user with the same password:
 
 **💡 Tip:** Store the salt with the hash. It does not need to be secret.
 
-
 ## Step 3: Add Pepper
 
 **What it does:** Adds a secret ingredient only the system knows, applied on top of the password + salt before hashing.
@@ -113,7 +110,6 @@ Another user with the same password:
 
 **💡 Tip:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).
 
-
 ## Step 4: Plating & Storage
 
 **✅ What to store:**
@@ -133,10 +129,9 @@ Think of this step like plating your dish before serving - the “dish” (hash 
 * Limit login attempts and enable Multi-Factor Authentication (MFA) - see our rule [Security - Do you have MFA (Multi-Factor Authentication) enabled?](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)
 * Review and increase hashing parameters over time as computing power grows.
 
-
 ## Chef’s Note / Conclusion
 
-Hash, salt, and pepper create layers of protection-like a recipe with secret ingredients - making it much harder for attackers to steal passwords. 
+Hash, salt, and pepper create layers of protection-like a recipe with secret ingredients - making it much harder for attackers to steal passwords.
 **But this doesn’t mean easy or weak passwords are safe!**  
 
 Combining these layers with strong password choices and multi-factor authentication is what truly keeps user accounts secure.
