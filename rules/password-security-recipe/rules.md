@@ -50,8 +50,7 @@ To build strong password security, the following components are essential:
 **Example:**
 
 * Password: `apple123`
-* Hash: `3f1c9d09ab9e7e4f5a2b`
-
+* Hash (bcrypt): `$2b$10$N9qo8uLOickgx2ZMRZoMyeIjefO6JaPDmvvse.lX5C6P3UnPxGRu`
 **✅ Why it's safer:**
 
 * Prevents direct access to the original password if the database is stolen.
