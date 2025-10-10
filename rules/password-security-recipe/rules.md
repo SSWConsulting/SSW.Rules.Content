@@ -12,6 +12,7 @@ related:
   - secure-password-share
   - password-complexities
   - multi-factor-authentication-enabled
+  - choosing-authentication
 created: 2025-10-10T22:40:45.273Z
 guid: f89948bc-2338-4017-a915-bdcb1d15a036
 ---
