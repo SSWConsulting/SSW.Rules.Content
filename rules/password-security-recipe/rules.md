@@ -20,6 +20,9 @@ guid: f89948bc-2338-4017-a915-bdcb1d15a036
 Passwords are the keys to user accounts. Proper protection transforms them into a form that is useless to attackers, even if the database is compromised.
 Here is a recipe to secure passwords using hash, salt, and pepper - the essential ingredients for keeping accounts safe.
 
+`youtube: https://www.youtube.com/watch?v=--tnZMuoK3E`  
+**Video: Password Hashing, Salts, Peppers | Explained! (4 min)**  
+
 <!-- endintro -->
 
 ## Why are Passwords not safe enough?
