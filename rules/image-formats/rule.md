@@ -217,10 +217,15 @@ While BMPs offer high-quality images, their large file sizes and lack of compres
 
 Understanding the strengths and weaknesses of each format can help you make informed decisions when adding images to your website. Here are some general guidelines:
 
-* **SVGs** for graphics that need to be scalable and maintain clarity across all screen sizes, like logos and icons
-* **PNGs** when you need transparency or when dealing with images that require high-quality, lossless compression
-* **JPGs** for photographs and other complex images where a balance between quality and file size is important
-* **GIFs** for simple animations, low-color images, or when you need a format that supports basic transparency. GIFs are a go-to for creating engaging, lightweight animations and small graphics
+| **Scenario** | **Best Format** | **⭐ Rating** | **Why** | **Notes** |
+|---------------|----------------|---------------|----------|-----------|
+| **Logos, icons, simple illustrations** | **SVG** | ⭐⭐⭐⭐ | Scales infinitely without losing quality; small file size for simple graphics | Avoid for complex or photo-like images (large file sizes) |
+| **General-purpose optimized web images (with or without transparency)** | **WebP** | ⭐⭐⭐⭐ | Smaller file size (25–35% smaller than JPG/PNG); supports transparency and animation | May require fallback for older browsers or editing tools |
+| **High-quality short videos or animations (with sound)** | **WebM** | ⭐⭐⭐⭐ | Superior compression; supports audio; smooth playback | Limited support in older browsers; requires more setup |
+| **Photographs or complex images with gradients** | **JPG** | ⭐⭐⭐ | Smaller file size with lossy compression; ideal for detailed images | No transparency; quality degrades after multiple saves |
+| **Images requiring transparency (e.g., logos over backgrounds)** | **PNG** | ⭐⭐ | Supports transparent backgrounds; lossless quality; good for sharp edges and text | Larger file size than JPG; not good for large, complex images |
+| **Simple animations, memes, or low-color loops** | **GIF** | ⭐ | Universally supported; easy to use for short loops | Large file sizes; limited to 256 colors; poor for photo-like images |
+| **High-quality still images (not for web)** | **BMP** | 🚫 | High quality but uncompressed | ❌ Avoid for web — very large file sizes and poor performance |
 
 ::: info
 **Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience.
