@@ -1,4 +1,4 @@
-# Do you know your Dataverse AI Options
+# Do you know your Dataverse AI options
 
 Want to supercharge your business with Dataverse AI integration? This guide pulls together proven strategies and practical recommendations to help your organization maximize the latest Copilot, Copilot Studio agents, and Model Context Protocol (MCP) innovations for Dataverse.
 
