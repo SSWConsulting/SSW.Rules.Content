@@ -21,7 +21,7 @@ Here is a recipe to secure passwords using hash, salt, and pepper - the essentia
 
 <!-- endintro -->
 
-## Why Are Passwords Not Safe Enough?
+## Why are Passwords not safe enough?
 
 Passwords alone are fragile ⛓️‍💥
 
@@ -39,7 +39,7 @@ To build strong password security, the following components are essential:
 * A unique, random **salt** per user  
 * A secret **pepper** stored securely outside the database  
 
-## Step 1: Hash
+## Step 1: Hash 🔪
 
 **What it does:** Turns a password into a secret code that cannot be reversed.
 
@@ -48,7 +48,7 @@ To build strong password security, the following components are essential:
 * Password: `apple123`
 * Hash: `3f1c9d09ab9e7e4f5a2b`
 
-**✅ Why it’s safer:**
+**✅ Why it's safer:**
 
 * Prevents direct access to the original password if the database is stolen.
 * Protects users from casual leaks or insider attacks.
@@ -60,7 +60,7 @@ To build strong password security, the following components are essential:
 
 **💡 Tip:** Use strong, adaptive hashing algorithms like [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
 
-## Step 2: Add Salt
+## Step 2: Add Salt 🧂
 
 **What it does:** Adds a unique random value to each password before hashing.
 
@@ -75,7 +75,7 @@ Another user with the same password:
 * Salt: `green`
 * Hash(password + salt): `f1e2d3c4b5a697887766`
 
-**✅ Why it’s safer:**
+**✅ Why it's safer:**
 
 * Prevents attackers from noticing users with identical passwords.
 * Makes precomputed attacks (“rainbow tables”) useless.
@@ -87,7 +87,7 @@ Another user with the same password:
 
 **💡 Tip:** Store the salt with the hash. It does not need to be secret.
 
-## Step 3: Add Pepper
+## Step 3: Add Pepper 🌶️
 
 **What it does:** Adds a secret ingredient only the system knows, applied on top of the password + salt before hashing.
 
@@ -98,7 +98,7 @@ Another user with the same password:
 * Pepper (secret): `!@#secret`
 * Hash(password + salt + pepper): `z9y8x7w6v5u4t3s2r1q0`
 
-**✅ Why it’s safer:**
+**✅ Why it's safer:**
 
 * Even if the database is stolen, attackers cannot recreate passwords without the pepper.
 * Acts as a “last line of defense” for stolen hashes.
@@ -110,7 +110,7 @@ Another user with the same password:
 
 **💡 Tip:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).
 
-## Step 4: Plating & Storage
+## Step 4: Plating & Storage 🍽️
 
 **✅ What to store:**
 
@@ -124,14 +124,14 @@ Another user with the same password:
 
 Think of this step like plating your dish before serving - the “dish” (hash + salt) is safe to store and share, but the secret ingredients (pepper and original password) stay in the kitchen.
 
-## Step 5: Serving Suggestion
+## Step 5: Serving suggestion 👩‍🍳
 
 * Limit login attempts and enable Multi-Factor Authentication (MFA) - see our rule [Security - Do you have MFA (Multi-Factor Authentication) enabled?](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)
 * Review and increase hashing parameters over time as computing power grows.
 
-## Chef’s Note / Conclusion
+## Chef's note
 
 Hash, salt, and pepper create layers of protection-like a recipe with secret ingredients - making it much harder for attackers to steal passwords.
-**But this doesn’t mean easy or weak passwords are safe!**  
+**But this doesn't mean easy or weak passwords are safe!**  
 
 Combining these layers with strong password choices and multi-factor authentication is what truly keeps user accounts secure.
