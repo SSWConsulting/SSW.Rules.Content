@@ -75,8 +75,7 @@ To build strong password security, the following components are essential:
 Another user with the same password:
 
 * Salt: `green`
-* Hash(password + salt): `f1e2d3c4b5a697887766`
-
+* Hash(password + salt): ``$2b$10$ZxY9wV8uT7sR6qP5oN4mL3kJ2iH1gF0eD9cB8aZ7yX6wV5uT4sR3q``
 **✅ Why it's safer:**
 
 * Prevents attackers from noticing users with identical passwords.
