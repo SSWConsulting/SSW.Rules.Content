@@ -113,7 +113,6 @@ Another user with the same password:
 **💡 Note:** This example shows simplified concatenation. In production, pepper is often applied using HMAC or as an additional encryption layer.  
 **⚠️ Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.  
 
-
 ## Step 4: Plating & Storage 🍽️
 
 **✅ What to store:**
