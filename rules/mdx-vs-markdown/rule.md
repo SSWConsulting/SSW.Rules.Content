@@ -13,7 +13,7 @@ related:
   - rule
 redirects: []
 ---
-Markdown keeps your content simple. MDX makes it come alive. The trick is knowing when to use which — and how to balance clarity with capability.
+Markdown and MDX are closely related — think of MDX as Markdown’s more powerful sibling. Markdown keeps things simple and readable, while MDX extends it to handle interactive and dynamic content using React (or other component frameworks).
 
 [View MD & MDX examples](/rule).
 
@@ -34,7 +34,7 @@ Markdown is perfect for straightforward content. Think of it like writing a clea
 
 ## When to use MDX (.mdx)
 
-MDX steps up when you need something more powerful. It lets you add interactive elements and custom components to your content. You'll want MDX when:
+MDX builds on Markdown by letting you embed components and logic directly inside your content. It’s still Markdown at heart — but with superpowers. Use MDX when:
 
 * You need interactive features that go beyond static text
 * You want to include custom components from different web frameworks
