@@ -19,7 +19,7 @@ The Dataverse ecosystem now offers advanced built-in AI tools—but not every fe
 
 More information: https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-ai-copilot
 
-![Figure: Copilot pane](model-driven-app-copilot.png) 
+![Figure: Copilot pane](model-driven-app-copilot.png)
 
 ***
 
@@ -31,9 +31,7 @@ More information: https://learn.microsoft.com/en-us/power-apps/maker/model-drive
 
 More information: https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-lite
 
-Diagram:
-TODO: Copilot Studio agent connecting with Dataverse.
-(see the generated image above)
+![Figure: Creating a Copilot Agent](embedded-authoring-starter.png)
 
 ***
 
