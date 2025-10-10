@@ -130,6 +130,8 @@ However, as software becomes more dynamic and content-heavy, **AI-powered locali
 
 **🔗 Blog:** [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
+### i18n decision tree
+
 Below is a **decision tree** that can be followed in order to figure out the optimal i18n solution for a given project:
 
 ![Figure: i18n Decision Tree](i18n-decision-tree.jpg)
