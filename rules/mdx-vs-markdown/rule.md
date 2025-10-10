@@ -9,10 +9,12 @@ authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
-related: []
+related: [rule]
 redirects: []
 ---
-Let's face it, not all content is created equal. Sometimes you just need a simple document, and other times you want something more dynamic and interactive.
+Markdown keeps your content simple. MDX makes it come alive. The trick is knowing when to use which — and how to balance clarity with capability.
+
+[View MD & MDX examples here!](/rule)
 
 <!--endintro-->
 
