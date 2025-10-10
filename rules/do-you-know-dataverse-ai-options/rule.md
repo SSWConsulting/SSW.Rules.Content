@@ -45,9 +45,7 @@ More information: https://learn.microsoft.com/en-us/microsoft-365-copilot/extens
 
 More information: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-mcp
 
-Figure:
-TODO: MCP standardizing Dataverse AI integrations.
-(see the generated image above)
+![Figure: Dataverse MCP](dataverse-mcp.png)
 
 ***
 
