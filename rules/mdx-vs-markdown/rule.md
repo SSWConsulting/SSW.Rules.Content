@@ -61,7 +61,7 @@ The key is to start simple. Use Markdown for most of your content, and only swit
 
 
 ## More on migrating to MDX
-Want to migrate your website to a modern CMS like 🦙 **TinaCMS**, and move from Markdown to MDX? Check out [Markdown to MDX migration guide](https://tina.io/docs/guides/converting-md-to-mdx)
+Want to migrate your website to a modern CMS like 🦙 **[TinaCMS](https://tina.io/)**, and move from Markdown to MDX? Check out [Markdown to MDX migration guide](https://tina.io/docs/guides/converting-md-to-mdx)
 
 `youtube: https://www.youtube.com/watch?v=CyWH5wPJUC8`
 **Video: Case Study - SSW migrating from MD to MDX for SSW Rules (3 min)**
