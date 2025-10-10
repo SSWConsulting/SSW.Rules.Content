@@ -124,7 +124,6 @@ Another user with the same password:
 
 Think of this step like plating your dish before serving - the “dish” (hash + salt) is safe to store and share, but the secret ingredients (pepper and original password) stay in the kitchen.
 
-
 ## That's cool - what now? 🤔
 
 The good news is that many modern authentication frameworks and services already take care of hashing, salting, and sometimes even pepper for you. This means you don’t have to handle all the details yourself. Examples include:  
@@ -144,4 +143,3 @@ Hash, salt, and pepper create layers of protection - like a recipe with secret i
 The good news is that many modern authentication frameworks and services handle hashing, salting, and sometimes pepper automatically. This means you can rely on these tools to enforce strong password security without implementing every detail yourself.  
 
 **But this doesn't mean easy or weak passwords are safe!** Combining these layers with strong password choices and Multi-Factor Authentication is what truly keeps user accounts secure - see our rule [Security - Do you have MFA (Multi-Factor Authentication) enabled?](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)
-
