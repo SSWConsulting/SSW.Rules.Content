@@ -30,7 +30,7 @@ Simple or common passwords are easy for attackers to guess, and stolen passwords
 
 To protect accounts effectively, additional measures must be applied to make passwords resilient against attacks.  
 
-## Ingredients
+## Ingredients 🥕
 
 To build strong password security, the following components are essential:  
 
@@ -58,7 +58,7 @@ To build strong password security, the following components are essential:
 * Weak passwords can still be guessed using brute-force attacks.
 * Fast hash algorithms are vulnerable to modern cracking tools.
 
-**💡 Tip:** Use strong, adaptive hashing algorithms like [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
+**💡 Tip:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
 
 ## Step 2: Add Salt 🧂
 
@@ -124,14 +124,24 @@ Another user with the same password:
 
 Think of this step like plating your dish before serving - the “dish” (hash + salt) is safe to store and share, but the secret ingredients (pepper and original password) stay in the kitchen.
 
-## Step 5: Serving suggestion 👩‍🍳
 
-* Limit login attempts and enable Multi-Factor Authentication (MFA) - see our rule [Security - Do you have MFA (Multi-Factor Authentication) enabled?](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)
-* Review and increase hashing parameters over time as computing power grows.
+## That's cool - what now? 🤔
 
-## Chef's note
+The good news is that many modern authentication frameworks and services already take care of hashing, salting, and sometimes even pepper for you. This means you don’t have to handle all the details yourself. Examples include:  
 
-Hash, salt, and pepper create layers of protection-like a recipe with secret ingredients - making it much harder for attackers to steal passwords.
-**But this doesn't mean easy or weak passwords are safe!**  
+* **ASP.NET Core Identity** - hashes passwords with PBKDF2 and adds unique salts. Pepper can be added if desired.  
+* **IdentityServer** - built on ASP.NET Core Identity, inherits secure password handling.  
+* **Microsoft Entra ID / Azure AD** - cloud-managed hashing and salting; pepper is internally managed.  
+* **Auth0 and Okta** - handle password hashing, salting, and secret management internally.  
+* **Keycloak** - supports bcrypt, PBKDF2, or Argon2 with salts; pepper can be added via configuration.  
 
-Combining these layers with strong password choices and multi-factor authentication is what truly keeps user accounts secure.
+To learn more about those tools, see our rule: [Do you choose the best authentication method for every situation?](https://www.ssw.com.au/rules/choosing-authentication/)
+
+## Chef's note 🧑‍🍳
+
+Hash, salt, and pepper create layers of protection - like a recipe with secret ingredients - making it much harder for attackers to steal passwords.  
+
+The good news is that many modern authentication frameworks and services handle hashing, salting, and sometimes pepper automatically. This means you can rely on these tools to enforce strong password security without implementing every detail yourself.  
+
+**But this doesn't mean easy or weak passwords are safe!** Combining these layers with strong password choices and Multi-Factor Authentication is what truly keeps user accounts secure - see our rule [Security - Do you have MFA (Multi-Factor Authentication) enabled?](https://www.ssw.com.au/rules/multi-factor-authentication-enabled/)
+
