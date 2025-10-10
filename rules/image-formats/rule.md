@@ -227,7 +227,6 @@ Understanding the strengths and weaknesses of each format can help you make info
 | **Simple animations, memes, or low-color loops** | **GIF** | ⭐ | Universally supported; easy to use for short loops | Large file sizes; limited to 256 colors; poor for photo-like images |
 | **High-quality still images (not for web)** | **BMP** | 🚫 | High quality but uncompressed | ❌ Avoid for web — very large file sizes and poor performance |
 
-
 ::: info
 **Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience.
 :::
