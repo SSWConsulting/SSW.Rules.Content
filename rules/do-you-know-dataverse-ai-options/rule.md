@@ -18,9 +18,9 @@ The Dataverse ecosystem now offers advanced built-in AI tools—but not every fe
 - **Validate responses:** Copilot is excellent for summarizing records or generating communications, but always review its suggestions—especially before sharing with clients or acting on sensitive business info.
 
 More information: https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-ai-copilot
-
+::: img-large
 ![Figure: Copilot pane](model-driven-app-copilot.png)
-
+:::
 ***
 
 ## Copilot Studio Agents
@@ -30,9 +30,9 @@ More information: https://learn.microsoft.com/en-us/power-apps/maker/model-drive
 - **Iterate fast:** Gather user feedback on agent outputs, keep logs, and refine your agents in small weekly sprints. AI agents should evolve—don’t treat them as one-off deployments.
 
 More information: https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-lite
-
+::: img-large
 ![Figure: Creating a Copilot Agent](embedded-authoring-starter.png)
-
+:::
 ***
 
 ## Model Context Protocol (MCP)
@@ -44,9 +44,9 @@ More information: https://learn.microsoft.com/en-us/microsoft-365-copilot/extens
 - **Keep good documentation:** Document each MCP link—including purpose, permissions, and owner—for fast troubleshooting when change requests or compliance needs arise.
 
 More information: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-mcp
-
+::: img-large
 ![Figure: Dataverse MCP](dataverse-mcp.png)
-
+:::
 ***
 
 ## Responsible and Transparent AI Use
