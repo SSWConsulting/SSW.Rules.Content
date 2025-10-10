@@ -11,6 +11,10 @@ authors:
     url: https://www.ssw.com.au/people/chloe-lin
   - title: Jeoffrey Fischer
     url: https://www.ssw.com.au/people/jeoffrey-fischer
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
 related:
   - add-multilingual-support-on-angular
   - do-you-know-how-to-better-localize-your-application
