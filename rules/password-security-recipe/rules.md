@@ -110,7 +110,8 @@ Another user with the same password:
 * Weak passwords are still vulnerable to guessing attacks.
 
 **💡 Tip:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).
-
+**💡 Note:** This example shows simplified concatenation. In production, pepper is often applied using HMAC or as an additional encryption layer.
+**⚠️ Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.
 ## Step 4: Plating & Storage 🍽️
 
 **✅ What to store:**
