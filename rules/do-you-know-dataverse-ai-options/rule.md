@@ -76,6 +76,3 @@ More information: https://learn.microsoft.com/en-us/power-apps/maker/data-platfo
 ## In conclusion…
 
 Dataverse is now an AI-enabled platform. By using these up-to-date rules—always choose the right tool for the job, connect smartly with MCP, and stay vigilant on privacy and compliance—your organization will be ready for a new era of data-driven, AI-powered business processes.
-
-[^1]: https://www.ssw.com.au/rules/rules-to-better-ai/
-
