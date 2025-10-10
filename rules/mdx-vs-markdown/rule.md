@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Do you know when to use MDX over Markdown?
-seoDescription: " Learn when to use MDX for custom components and advanced
-  functionality, regardless of the framework, versus sticking with Markdown for
-  simplicity."
+seoDescription: " Learn when to use MDX for custom components and advanced functionality, regardless of the framework, versus sticking with Markdown for simplicity."
 uri: mdx-vs-markdown
 authors:
   - title: Jack Pettit
@@ -15,9 +13,9 @@ redirects: []
 ---
 Markdown and MDX are closely related — think of MDX as Markdown’s more powerful sibling. Markdown keeps things simple and readable, while MDX extends it to handle interactive and dynamic content using React (or other component frameworks).
 
-[View MD & MDX examples](/rule).
-
 <!--endintro-->
+
+[View MD & MDX examples](/rule).
 
 ## When to use Markdown (.md)
 
@@ -58,3 +56,10 @@ MDX isn't perfect for every situation. Before you jump in, consider:
 Choose Markdown for simple, fast content. Choose MDX when you need more interactive and dynamic features.
 
 The key is to start simple. Use Markdown for most of your content, and only switch to MDX when you truly need those extra capabilities.
+
+## More on migrating to MDX
+
+Want to migrate your website to a modern CMS like **[🦙 TinaCMS](https://tina.io/)**, and move from Markdown to MDX? Check out [Markdown to MDX migration guide](https://tina.io/docs/guides/converting-md-to-mdx).
+
+`youtube: https://www.youtube.com/watch?v=CyWH5wPJUC8`
+**Video: Case Study - SSW migrating from MD to MDX for SSW Rules (5 min)**
