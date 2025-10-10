@@ -71,8 +71,7 @@ To build strong password security, the following components are essential:
 
 * Password: `apple123`
 * Salt: `blue`
-* Hash(password + salt): `8a9b7c6d5e4f3g2h1i0j`
-
+* Hash(password + salt): `$2b$10$KmH8vN3pQ9wR2sT5uV7xYzA1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU`
 Another user with the same password:
 
 * Salt: `green`
