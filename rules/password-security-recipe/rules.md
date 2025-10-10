@@ -86,7 +86,7 @@ Another user with the same password:
 * Weak passwords are still vulnerable to brute-force attacks.
 * Salts must be random and unique for each user.
 
-**💡 Tip:** Store the salt with the hash. It does not need to be secret.
+**💡 Tip:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.
 
 ## Step 3: Add Pepper 🌶️
 
