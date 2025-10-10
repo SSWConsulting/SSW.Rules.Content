@@ -17,6 +17,8 @@ The Dataverse ecosystem now offers advanced built-in AI tools—but not every fe
 - **Train your staff:** Make sure team members get prompt engineering basics. “Show me open cases assigned to Jane” works better than vague instructions.
 - **Validate responses:** Copilot is excellent for summarizing records or generating communications, but always review its suggestions—especially before sharing with clients or acting on sensitive business info.
 
+More information: https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-ai-copilot
+
 Example:
 TODO: Copilot generating a Dataverse summary.
 (see the generated image above)
@@ -28,6 +30,8 @@ TODO: Copilot generating a Dataverse summary.
 - **Automate with purpose:** Copilot Studio lets teams build powerful, reusable agents for Dataverse and beyond. Always define the business problem first—avoid spinning up agents without a clear outcome.
 - **Integrate via MCP:** Use Model Context Protocol (MCP) to connect agents with your Dataverse tables, business logic, and external APIs. MCP is the new standard, making future updates and integrations easier and more robust.
 - **Iterate fast:** Gather user feedback on agent outputs, keep logs, and refine your agents in small weekly sprints. AI agents should evolve—don’t treat them as one-off deployments.
+
+More information: https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-lite
 
 Diagram:
 TODO: Copilot Studio agent connecting with Dataverse.
@@ -42,6 +46,8 @@ TODO: Copilot Studio agent connecting with Dataverse.
 - **Standardize your connections:** MCP is rapidly becoming the “USB of AI”—standardizing how Copilot, Copilot Studio agents, and third-party assistants talk to your Dataverse and other business data. With MCP, integrations require less custom code and scale better as new AI tools emerge.[^1]
 - **Guard your endpoints:** Only expose the minimum necessary tables and records over MCP. Always apply Dataverse security roles and audit logs so all AI access is trackable and compliant.
 - **Keep good documentation:** Document each MCP link—including purpose, permissions, and owner—for fast troubleshooting when change requests or compliance needs arise.
+
+More information: https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-mcp
 
 Figure:
 TODO: MCP standardizing Dataverse AI integrations.
