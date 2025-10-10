@@ -21,6 +21,7 @@ index:
 - use-automatic-key-management-with-duende-identityserver
 - security-email-account
 - do-you-disable-insecure-protocols
+- password-security-recipe
 - password-manager
 - secure-password-share
 - run-services-on-their-own-ad-accounts
