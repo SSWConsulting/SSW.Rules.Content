@@ -9,12 +9,13 @@ authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
-related: [rule]
+related:
+  - rule
 redirects: []
 ---
 Markdown keeps your content simple. MDX makes it come alive. The trick is knowing when to use which — and how to balance clarity with capability.
 
-[View MD & MDX examples here!](/rule)
+[View MD & MDX examples](/rule).
 
 <!--endintro-->
 
