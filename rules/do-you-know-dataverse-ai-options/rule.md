@@ -56,7 +56,7 @@ More information: <https://learn.microsoft.com/en-us/microsoft-365-copilot/exten
 
 ⭐ = Recommended
 
-* **Standardize your connections:** MCP is rapidly becoming the “USB of AI”—standardizing how Copilot, Copilot Studio agents, and third-party assistants talk to your Dataverse and other business data. With MCP, integrations require less custom code and scale better as new AI tools emerge.[^1]
+* **Standardize your connections:** MCP is rapidly becoming the “USB of AI”—standardizing how Copilot, Copilot Studio agents, and third-party assistants talk to your Dataverse and other business data. With MCP, integrations require less custom code and scale better as new AI tools emerge.
 * **Guard your endpoints:** Only expose the minimum necessary tables and records over MCP. Always apply Dataverse security roles and audit logs so all AI access is trackable and compliant.
 * **Keep good documentation:** Document each MCP link—including purpose, permissions, and owner—for fast troubleshooting when change requests or compliance needs arise.
 
