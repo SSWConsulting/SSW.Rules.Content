@@ -19,9 +19,7 @@ The Dataverse ecosystem now offers advanced built-in AI tools—but not every fe
 
 More information: https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-ai-copilot
 
-Example:
-TODO: Copilot generating a Dataverse summary.
-(see the generated image above)
+![Figure: Copilot pane](model-driven-app-copilot.png) 
 
 ***
 
