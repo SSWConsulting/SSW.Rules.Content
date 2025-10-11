@@ -2,7 +2,7 @@
 seoDescription: Maintain honest communication and trust by being candid and admitting uncertainty, rather than spreading wishful thinking.
 type: rule
 archivedreason:
-title: Communication - Are you always candid in your communication?
+title: Do you communicate with candour and clarity?
 guid: dc2f7251-97ae-43fa-a7c9-b6d0af0e5fb5
 uri: are-you-candid-in-your-communication
 created: 2012-09-25T17:51:38.0000000Z
@@ -20,6 +20,8 @@ Nothing breaks down a team like a lack of trust. Remember, honesty starts with t
 
 <!--endintro-->
 
+Being candid doesn’t mean being harsh—it means being transparent and constructive, so everyone can grow and make better decisions together.
+
 You also need to make sure you qualify your level of certainty in an answer, so that your guess (which could be wrong) does not end up misleading someone.
 
 ::: greybox
@@ -34,7 +36,7 @@ Figure: Bad example
 ::: greybox
 
 * Is the database corrupt?
-* I don't think so but I'd need investigate further to be sure.
+* I don't think so, but I'd need investigate further to be sure. What makes you ask?
 :::
 ::: good
 Figure: Good example
