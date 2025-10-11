@@ -25,6 +25,7 @@ Being candid doesn’t mean being harsh—it means being transparent and constru
 You also need to make sure you qualify your level of certainty in an answer, so that your guess (which could be wrong) does not end up misleading someone.
 
 ::: greybox
+
 * Is the database corrupt?
 * No.
 :::
@@ -33,6 +34,7 @@ Figure: Bad example
 :::
 
 ::: greybox
+
 * Is the database corrupt?
 * I don't think so, but I'd need investigate further to be sure. What makes you ask?
 :::
