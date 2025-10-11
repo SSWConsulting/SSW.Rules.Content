@@ -39,8 +39,6 @@ index:
 - do-you-offer-positive-feedback-to-your-team
 - do-you-offer-specific-criticism
 - do-you-only-do-what-you-think-is-right
-- dress-code
-- do-you-have-your-mobile-phone-on-vibrate
 - give-enough-notice-for-annual-leave
 - purchase-please
 - do-you-know-the-best-books-to-read-on-software-development
