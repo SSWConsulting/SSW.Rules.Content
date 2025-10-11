@@ -9,6 +9,7 @@ index:
 - manage-office-signs
 - employee-yolo-day
 - reduce-office-noise
+- phone-on-silent
 - build-inter-office-interaction
 - dress-code
 - bring-water-to-guests
