@@ -55,7 +55,6 @@ index:
 - share-preferences-but-accept-less-interesting-tasks
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
-- efficiency-do-you-use-two-monitors
 - hand-over-responsibilities
 - collaborate-across-timezones
 - protect-your-teams-creativity
@@ -63,7 +62,6 @@ index:
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
 - request-a-test-please
-- quality-do-you-only-deploy-after-a-test-please
 - quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
 - do-you-teach-share-ideas-regularly
 - speaking-do-you-avoid-swearing-at-work
