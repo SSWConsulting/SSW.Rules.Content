@@ -22,11 +22,17 @@ Your mobile phone is a very useful tool. However, it can also be a nuisance. To 
 
 If you have a wearable device like an Apple Watch/ Fitbit/ Microsoft Band that connects to your phone, your wrist vibrates when you receive a call. This alerts you to your incoming call silently even if you are not near your phone, and means you \*never\* need to have your phone on anything but VIBRATE. Microsoft Bands also have the added advantage of allowing you to send a text message-based quick response right from the device letting your caller know you are busy.
 
+::: img-medium
 ![Figure: With an Apple Watch, you can keep your phone on vibrate 100% of the time and never have to worry about missing a call](apple-iwatch-incoming-call.jpg)
+:::
 
+::: img-medium
 ![Figure: With a Fitbit, you can keep your phone on vibrate 100% of the time and never have to worry about missing a call](fitbit-band-incoming-call.jpg)
+:::
 
+::: img-medium
 ![Figure: With a Microsoft Band, you can keep your phone on vibrate 100% of the time and never have to worry about missing a call](microsoft-band-incoming-call.jpg)
+:::
 
 This has the following advantages:
 
