@@ -23,13 +23,14 @@ If you found yourself doing ad-hoc reports, or random SQL queries, a few years a
 The best practice is to jump into Power BI and build the report yourself.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Mr. Northwind |
 | Subject: | Report needed |  
 ::: email-content
 
-### Dear boss,
+### Dear boss
 
 Today I needed to find xxx and so I had to write a query to find it. You can find it at \\server\Reports_Adhoc\SalesByRegion.xlsx
 
