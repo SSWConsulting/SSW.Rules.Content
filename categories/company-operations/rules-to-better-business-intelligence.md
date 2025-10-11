@@ -5,6 +5,7 @@ guid: d6da1cc5-cb74-4507-8bcb-4fa736514b89
 uri: rules-to-better-business-intelligence
 index:
 - information-intelligence-wisdom
+- do-you-create-a-report-whenever-you-need-a-number-from-a-system
 - use-by-rather-than-per-in-your-chart-titles
 - dimensions-set-to-all
 - use-the-right-data-storage
