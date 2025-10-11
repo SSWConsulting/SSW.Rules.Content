@@ -41,10 +41,10 @@ If you wear a connected device (like an Apple Watch, Fitbit, or similar), use it
 
 ## ✅ Benefits
 
-- **No interruptions** – Meetings and conversations stay focused and flow naturally
-- **Shows respect** – You won't disrupt clients or colleagues with loud ringtones
-- **Improves focus** – You stay present and productive without constant pings
-- **Gives you control** – You decide when to answer, instead of reacting to every call
+* **No interruptions** – Meetings and conversations stay focused and flow naturally
+* **Shows respect** – You won't disrupt clients or colleagues with loud ringtones
+* **Improves focus** – You stay present and productive without constant pings
+* **Gives you control** – You decide when to answer, instead of reacting to every call
 
 `youtube: https://www.youtube.com/embed/vwBzLLbE738?rel=0`
 
