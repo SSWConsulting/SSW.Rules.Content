@@ -7,6 +7,7 @@ index:
 - reduce-office-noise
 - the-dangers-of-sitting
 - desk-setups
+- efficiency-do-you-use-two-monitors
 - google-maps-profile
 - do-you-identify-your-online-purchases
 - build-inter-office-interaction
