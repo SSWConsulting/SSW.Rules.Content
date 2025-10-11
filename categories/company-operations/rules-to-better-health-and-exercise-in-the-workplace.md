@@ -5,7 +5,7 @@ guid: b8a7588c-69a8-47f3-9080-d70f98cc9ffc
 uri: rules-to-better-health-and-exercise-in-the-workplace
 index:
 - encourage-daily-exercise
-- do-you-know-the-dangers-of-sitting
+- the-dangers-of-sitting
 - healthy-office-food
 - lasting-habits
 - stretch-at-work

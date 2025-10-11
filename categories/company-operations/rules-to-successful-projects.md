@@ -24,6 +24,7 @@ index:
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
 - definition-of-done
+- quality-do-you-only-deploy-after-a-test-please
 - acceptance-criteria
 - ui-ux-test-please
 - fix-bugs-first
