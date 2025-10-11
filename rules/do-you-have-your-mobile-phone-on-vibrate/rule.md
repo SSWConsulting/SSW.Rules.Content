@@ -30,9 +30,9 @@ If you have a wearable device like an Apple Watch/ Fitbit/ Microsoft Band that c
 
 This has the following advantages:
 
-- You get to only answer the phone when it is convenient for you
-- You won't be interrupting conversations with clients, which can be seen as unprofessional
-- You don't interrupt people's work with loud ringtones
+* You get to only answer the phone when it is convenient for you
+* You won't be interrupting conversations with clients, which can be seen as unprofessional
+* You don't interrupt people's work with loud ringtones
 
 `youtube: https://www.youtube.com/embed/vwBzLLbE738?rel=0`
 
