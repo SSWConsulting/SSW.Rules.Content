@@ -9,10 +9,10 @@ authors:
   - title: Hajir Lesani
     url: https://www.ssw.com.au/people/hajir-lesani
 related:
+  - choosing-authentication
+  - multi-factor-authentication-enabled
   - secure-password-share
   - password-complexities
-  - multi-factor-authentication-enabled
-  - choosing-authentication
 created: 2025-10-10T22:40:45.273Z
 guid: f89948bc-2338-4017-a915-bdcb1d15a036
 ---
@@ -51,17 +51,18 @@ To build strong password security, the following components are essential:
 
 * Password: `apple123`
 * Hash (bcrypt): `$2b$10$N9qo8uLOickgx2ZMRZoMyeIjefO6JaPDmvvse.lX5C6P3UnPxGRu`
-**✅ Why it's safer:**
 
-* Prevents direct access to the original password if the database is stolen.
-* Protects users from casual leaks or insider attacks.
+**✅ Why it's safer:**  
 
-**❌ Remaining risks:**
+* Prevents direct access to the original password if the database is stolen.  
+* Protects users from casual leaks or insider attacks.  
 
-* Weak passwords can still be guessed using brute-force attacks.
-* Fast hash algorithms are vulnerable to modern cracking tools.
+**❌ Remaining risks:**  
 
-**💡 Tip:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
+* Weak passwords can still be guessed using brute-force attacks.  
+* Fast hash algorithms are vulnerable to modern cracking tools.  
+
+**💡 Tip:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)  
 
 ## Step 2: Add Salt 🧂
 
@@ -69,45 +70,46 @@ To build strong password security, the following components are essential:
 
 **Example:**
 
-* Password: `apple123`
-* Salt: `blue`
+* Password: `apple123`  
+* Salt: `blue`  
 * Hash(password + salt): `$2b$10$KmH8vN3pQ9wR2sT5uV7xYzA1bC2dE3fG4hI5jK6lM7nO8pQ9rS0tU`
-Another user with the same password:
 
-* Salt: `green`
-* Hash(password + salt): ``$2b$10$ZxY9wV8uT7sR6qP5oN4mL3kJ2iH1gF0eD9cB8aZ7yX6wV5uT4sR3q``
-**✅ Why it's safer:**
+Another user with the same password:  
+
+* Salt: `green`  
+* Hash(password + salt): `$2b$10$ZxY9wV8uT7sR6qP5oN4mL3kJ2iH1gF0eD9cB8aZ7yX6wV5uT4sR3q`  
+**✅ Why it's safer:**  
 
 * Prevents attackers from noticing users with identical passwords.
 * Makes precomputed attacks (“rainbow tables”) useless.
 
 **❌ Remaining risks:**
 
-* Weak passwords are still vulnerable to brute-force attacks.
-* Salts must be random and unique for each user.
+* Weak passwords are still vulnerable to brute-force attacks.  
+* Salts must be random and unique for each user.  
 
-**💡 Tip:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.
+**💡 Tip:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.  
 
-## Step 3: Add Pepper 🌶️
+## Step 3: Add Pepper 🌶️  
 
-**What it does:** Adds a secret ingredient only the system knows, applied on top of the password + salt before hashing.
+**What it does:** Adds a secret ingredient only the system knows, applied on top of the password + salt before hashing.  
 
-**Example:**
+**Example:**  
 
-* Password: `apple123`
-* Salt: `blue`
-* Pepper (secret): `!@#secret`
-* Hash(password + salt + pepper): `$2b$10$FgH9iJ0kL1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gH2iJ3kL4mN5o`
+* Password: `apple123`  
+* Salt: `blue`  
+* Pepper (secret): `!@#secret`  
+* Hash(password + salt + pepper): `$2b$10$FgH9iJ0kL1mN2oP3qR4sT5uV6wX7yZ8aB9cD0eF1gH2iJ3kL4mN5o`  
 
-**✅ Why it's safer:**
+**✅ Why it's safer:**  
 
-* Even if the database is stolen, attackers cannot recreate passwords without the pepper.
-* Acts as a “last line of defense” for stolen hashes.
+* Even if the database is stolen, attackers cannot recreate passwords without the pepper.  
+* Acts as a “last line of defense” for stolen hashes.  
 
-**❌ Remaining risks:**
+**❌ Remaining risks:**  
 
-* If the pepper is leaked or stored insecurely, it loses its protection.
-* Weak passwords are still vulnerable to guessing attacks.
+* If the pepper is leaked or stored insecurely, it loses its protection.  
+* Weak passwords are still vulnerable to guessing attacks.  
 
 **💡 Tip:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).  
 **💡 Note:** This example shows simplified concatenation. In production, pepper is often applied using HMAC or as an additional encryption layer.  
@@ -115,19 +117,19 @@ Another user with the same password:
 
 ## Step 4: Plating & Storage 🍽️
 
-**✅ What to store:**
+**✅ What to store:**  
 
-* Final hash
-* Unique salt
+* Final hash  
+* Unique salt  
 
-**❌ What NOT to store:**
+**❌ What NOT to store:**  
 
-* Original password
-* Pepper
+* Original password  
+* Pepper  
 
-Think of this step like plating your dish before serving - the “dish” (hash + salt) is safe to store and share, but the secret ingredients (pepper and original password) stay in the kitchen.
+Think of this step like plating your dish before serving - the “dish” (hash + salt) is safe to store and share, but the secret ingredients (pepper and original password) stay in the kitchen.  
 
-## That's cool - what now? 🤔
+## That's cool - what now? 🤔  
 
 The good news is that many modern authentication frameworks and services already take care of hashing, salting, and sometimes even pepper for you. This means you don’t have to handle all the details yourself. Examples include:  
 
@@ -137,7 +139,7 @@ The good news is that many modern authentication frameworks and services already
 * **Auth0 and Okta** - handle password hashing, salting, and secret management internally.  
 * **Keycloak** - supports bcrypt, PBKDF2, or Argon2 with salts; pepper can be added via configuration.  
 
-To learn more about those tools, see our rule: [Do you choose the best authentication method for every situation?](https://www.ssw.com.au/rules/choosing-authentication/)
+To learn more about those tools, see our rule: [Do you choose the best authentication method for every situation?](https://www.ssw.com.au/rules/choosing-authentication/)  
 
 ## Chef's note 🧑‍🍳
 
