@@ -14,6 +14,7 @@ index:
 - bring-water-to-guests
 - cultural-exchange
 - desk-setups
+- the-dangers-of-sitting
 - google-maps-profile
 
 ---
