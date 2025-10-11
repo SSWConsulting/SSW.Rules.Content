@@ -34,7 +34,6 @@ index:
 - how-to-avoid-being-blocked
 - cc-account-manager-on-emails-related-to-new-work
 - do-you-enjoy-your-job
-- do-you-create-a-report-whenever-you-need-a-number-from-a-system
 - do-you-give-120-when-deadlines-are-tight
 - do-you-give-people-a-second-chance
 - do-you-offer-positive-feedback-to-your-team
