@@ -10,6 +10,7 @@ index:
 - efficiency-do-you-use-two-monitors
 - google-maps-profile
 - do-you-identify-your-online-purchases
+- phone-on-silent
 - build-inter-office-interaction
 - bring-water-to-guests
 - secure-access-system

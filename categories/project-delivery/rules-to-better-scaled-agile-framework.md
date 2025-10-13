@@ -8,8 +8,8 @@ consulting: https://www.ssw.com.au/consulting/scrum
 index:
 - use-safe-to-align-multiple-scrum-teams
 - prioritize-value-streams-over-individual-projects
-- establish-a-Lean-Agile-mindset-across-all-teams
-- implement-DevOps-practices-for-continuous-delivery
+- establish-a-lean-agile-mindset-across-all-teams
+- implement-devops-practices-for-continuous-delivery
 - utilize-a-release-train
 - involve-stakeholders-in-pi-planning
 - measure-success-using-lean-agile-metrics
