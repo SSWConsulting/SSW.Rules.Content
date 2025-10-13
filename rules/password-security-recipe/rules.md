@@ -62,11 +62,13 @@ To build strong password security, the following components are essential:
 * Weak passwords can still be guessed using brute-force attacks.  
 * Fast hash algorithms are vulnerable to modern cracking tools.  
 
-**💡 Tip:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)  
+::: info
+**Note:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)  
+:::
 
 ## Step 2: Add Salt 🧂
 
-**What it does:** Adds a unique random value to each password before hashing.
+**What it does:** Adds a unique random value to each password before hashing.  
 
 **Example:**
 
@@ -89,7 +91,9 @@ Another user with the same password:
 * Weak passwords are still vulnerable to brute-force attacks.  
 * Salts must be random and unique for each user.  
 
-**💡 Tip:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.  
+::: info
+**Note:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.  
+:::
 
 ## Step 3: Add Pepper 🌶️  
 
@@ -112,9 +116,13 @@ Another user with the same password:
 * If the pepper is leaked or stored insecurely, it loses its protection.  
 * Weak passwords are still vulnerable to guessing attacks.  
 
-**💡 Tip:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).  
-**💡 Note:** This example shows simplified concatenation. In production, pepper is often applied using HMAC or as an additional encryption layer.  
-**⚠️ Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.  
+::: info
+**Note:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).  
+:::
+
+::: info
+**Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.  
+:::
 
 ## Step 4: Plating & Storage 🍽️
 
