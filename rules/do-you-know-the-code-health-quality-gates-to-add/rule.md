@@ -30,16 +30,16 @@ Following the steps should take about 15 minutes to do, but longer to implement 
 
 Version 1.2
 
-- Added step to include "PrimaryBuild" variable as a pseudo id for the API
+* Added step to include "PrimaryBuild" variable as a pseudo id for the API
   Version 1.1
-- Removed CSSLint from VisualStudio.com build definition
-- Added Web Essentials to Visual Studio environment
+* Removed CSSLint from VisualStudio.com build definition
+* Added Web Essentials to Visual Studio environment
 
 ### Visual Studio
 
 Search & Install the NuGet packages:
 
-- [Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)
+* [Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)
 
 For Visual Studio development on web applications, [download Web Essentials](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153), it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript.
 
@@ -85,8 +85,8 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
 
 If you prefer not to use the Extensions, you can install them using npm as normal.
 
-- [CSSLint](https://www.npmjs.com/package/csslint)
-- [ESLint](https://www.npmjs.com/package/eslint)
+* [CSSLint](https://www.npmjs.com/package/csslint)
+* [ESLint](https://www.npmjs.com/package/eslint)
 
 ### Automatically Check your Build in Azure DevOps
 
@@ -146,9 +146,9 @@ Once complete, save the build definition and run the build.
 
 Then check the build is successful.
 
-- If the build fails (due to errors), these should be corrected in the development environment.
-- If warnings exist, the rule should be disabled or set as an error (If it is worth fixing, then it should be required for everyone).
-- If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
+* If the build fails (due to errors), these should be corrected in the development environment.
+* If warnings exist, the rule should be disabled or set as an error (If it is worth fixing, then it should be required for everyone).
+* If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 
 ![Figure: Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing](VSO-EnsureTSLintRuns.png)
 
