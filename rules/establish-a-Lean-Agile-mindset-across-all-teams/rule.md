@@ -3,7 +3,7 @@ seoDescription: Establish a unified Lean-Agile mindset across all teams to boost
 type: rule
 title: Do you establish a Lean-Agile mindset across all teams?
 guid: fe96d5c6-3817-466c-8882-52d62c5831bd
-uri: establish-a-Lean-Agile-mindset-across-all-teams
+uri: establish-a-lean-agile-mindset-across-all-teams
 created: 2023-10-13T17:23:00.000Z
 authors:
   - title: Gert Marx

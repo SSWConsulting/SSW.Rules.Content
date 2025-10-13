@@ -2,7 +2,7 @@
 seoDescription: Implement DevOps practices to streamline software delivery and ensure continuous deployment with high quality and reliability.
 type: rule
 title: Do you implement DevOps practices for continuous delivery?
-uri: implement-DevOps-practices-for-continuous-delivery
+uri: implement-devops-practices-for-continuous-delivery
 authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx

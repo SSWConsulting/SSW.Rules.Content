@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you use Generation 2 VMs?
 guid: 4d706e7e-76fd-48da-9314-ca0a5e82ee04
-uri: use-Generation-2-VMs
+uri: use-generation-2-vms
 created: 2021-04-20T09:20:33.0000000Z
 authors:
   - title: Steven Andrews

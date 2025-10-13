@@ -129,7 +129,7 @@ Under advanced for the Command Line tasks, the Working Directory can be specifie
 **Command Line** - Run tslint, force is required to stop the build from crashing (TSLint will return and exit code of 1 regardless of if issues exist)  
 **Name:** Run tslint  
 **Tool:** TSLint  
-**Arguments:** --force {{ SOLUTION DIRECTORY }}/\*\*/\*.ts{,x}
+**Arguments:** --force {{ SOLUTION DIRECTORY }}/\*\*/\*.ts\{,x}
 
 If your build is being hosted, then the config file must be reloaded every time. If your build is running on premises, the config file will attempt to load over the existing one and break the build.
 
