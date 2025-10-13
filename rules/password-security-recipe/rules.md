@@ -66,7 +66,6 @@ To build strong password security, the following components are essential:
 **Note:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)  
 :::
 
-
 ## Step 2: Add Salt 🧂
 
 **What it does:** Adds a unique random value to each password before hashing.  
@@ -96,7 +95,6 @@ Another user with the same password:
 **Note:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.  
 :::
 
-
 ## Step 3: Add Pepper 🌶️  
 
 **What it does:** Adds a secret ingredient only the system knows, applied on top of the password + salt before hashing.  
@@ -125,7 +123,6 @@ Another user with the same password:
 ::: info
 **Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.  
 :::
-
 
 ## Step 4: Plating & Storage 🍽️
 
