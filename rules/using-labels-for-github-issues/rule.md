@@ -11,6 +11,7 @@ authors:
   - title: Steven Qiang
     url: https://ssw.com.au/people/steven-qiang
 related:
+  - labels-in-github
   - github-issue-templates
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues
@@ -26,7 +27,9 @@ It is important that you, especially a developer, knows how to use labels for 
 
 Every new repository comes in with some default labels out of the box that you could use to label your issues to help create a standard workflow in a repository. A list of the default labels and their general uses can be found here: [GitHub - Managing Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
-Depending on the project, there is often a need to create labels on top of the default labels. For instance, when you are using an internal project management solution (such as Azure DevOps) for an open source project, a new label "added to backlog" is created and applied to applicable issues specifically for demonstrating that an issue has been added to the Azure DevOps backlog and is being worked on for the community. This way you can give the community an understanding of the current goals of the project and a higher feeling of interactivity with your development team.
+Depending on the project, there is often a need to [create labels on top of the default labels](/labels-in-github). For instance, when you are using an internal project management solution (such as Azure DevOps) for an open source project, a new label "added to backlog" is created and applied to applicable issues specifically for demonstrating that an issue has been added to the Azure DevOps backlog and is being worked on for the community. 
+
+This way you can give the community an understanding of the current goals of the project and a higher feeling of interactivity with your development team.
 
 ::: bad
 ![Figure: Bad example - It is hard to understand what issues are being worked on](issues_bad_example.png)
