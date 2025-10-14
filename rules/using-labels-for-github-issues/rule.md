@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/andreas-lengkeek
   - title: Steven Qiang
     url: https://ssw.com.au/people/steven-qiang
-related: []
+related:
+  - github-issue-templates
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues
   - do-you-know-how-to-use-tags-for-github-issues
