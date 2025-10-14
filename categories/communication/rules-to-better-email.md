@@ -7,6 +7,7 @@ index:
 - dones-is-your-inbox-a-task-list-only
 - use-email-for-tasks-only
 - reply-done
+- include-links-in-dones
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
@@ -29,7 +30,6 @@ index:
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
-- include-links-in-emails
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
 - include-useful-details-in-emails
 - keep-email-history
