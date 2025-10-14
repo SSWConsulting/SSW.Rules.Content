@@ -19,7 +19,7 @@ guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
 
 ---
 
-Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users. 
+Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users.
 
 These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
 
