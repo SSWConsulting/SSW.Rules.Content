@@ -7,6 +7,7 @@ seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs
 uri: handle-duplicate-pbis
 authors:
   - title: Zach Keeping
+    url: https://www.ssw.com.au/people/zach-keeping/
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 When working on a GitHub backlog, it’s common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
