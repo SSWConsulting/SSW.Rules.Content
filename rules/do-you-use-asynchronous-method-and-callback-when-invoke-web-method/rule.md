@@ -33,7 +33,7 @@ WebResponse response = request.GetResponse();
      }
 ```
 
-:::
+::: bad
 Figure: Bad example - Invoke web method by the normal way (because this will hang your UI thread)  
 :::
 
