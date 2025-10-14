@@ -26,11 +26,11 @@ Audiences, in general, will allow you to try pulling up your ads to different gr
 - **In-Market Audience** – Find customers who are researching and are actively looking into buying a service or product you sell.
 - **Remarketing & Similar Audiences** – Show your ads to people who have visited your website previously before (You can choose the period) or viewed your content somewhere online. This would include remarketing lists.
 
-::: bad\
+::: bad
 ![Figure: Bad Example – No audiences were set up yet](audience-1.png)\
 :::
 
-::: good\
+::: good
 ![Figure: Good Example – Add specific audiences and increase the engagement on your campaigns with your target audience](audience-2.png)\
 :::
 

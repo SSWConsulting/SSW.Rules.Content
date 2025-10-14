@@ -30,6 +30,6 @@ The best price comparison websites for accommodation are:
 
 As with flights, book the accommodation details as a separate appointment in your calendar. If for the accommodation is for someone else, use the calendar for the person who is travelling.
 
-::: Info
+::: info
 Using a third-party site can often lower the price, but it may make changes or refunds harder because you’re not dealing directly with the hotel. Some reputable third-party sites (e.g. Trip.com) often offer free cancellation on many rates — always check the rate policy before you book.
 :::

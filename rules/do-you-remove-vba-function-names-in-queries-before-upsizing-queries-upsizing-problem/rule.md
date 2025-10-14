@@ -54,7 +54,7 @@ Figure: Good example of SQL Server view with YEAR keyword
 
 :::
 
-::: yellowBox
+::: info
 [Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule
 
 :::
