@@ -2,7 +2,7 @@
 seoDescription: Learn how to use labels for GitHub issues and streamline your open-source project's workflow.
 type: rule
 title: Do you know how to use labels for GitHub Issues?
-uri: do-you-know-how-to-use-tags-for-github-issues
+uri: using-labels-for-github-issues
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,6 +13,7 @@ authors:
 related: []
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues
+  - do-you-know-how-to-use-tags-for-github-issues
 created: 2019-11-15T04:19:40.000Z
 archivedreason: null
 guid: c530e5c8-1fca-4a4b-bc17-fb0ba65b8625
