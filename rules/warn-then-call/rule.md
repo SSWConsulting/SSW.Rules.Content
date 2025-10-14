@@ -88,15 +88,37 @@ Calling you in 2 minutes to review a code change - Code Master (3/5)
 Good example - Includes priority order numbers to share how many other approvers you have attempted to contact 
 :::
 
-## Using Outlook | Share to Teams
+## Giving context
+
+
+It's always a good idea to give some context about what your calling about especially if it is an email thread.
+
+
+::: bad
+![Figure: Bad example - A screenshot includes some context but makes it difficult for others to find as you can not copy](warning-with-screenshot.png)
+:::
+
+
+::: good
+![Figure: Good example - Copying the subject includes context and makes it easy to search for others](warning-with-subject.png)
+:::
+
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
+
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
+
 
 ::: good
 ![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
 :::
+
+
+::: good
+![Figure: Good example - Forwarding then copying an email includes context by sharing the email and providing recipient details](warning-with-email.png)
+:::
+
 
 ### What if your call is declined/not answered?
 
