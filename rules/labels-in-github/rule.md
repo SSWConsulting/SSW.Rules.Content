@@ -11,6 +11,7 @@ authors:
   - title: Luke Parker
     url: https://www.ssw.com.au/people/luke-parker
 related:
+  - using-labels-for-github-issues
   - github-issue-templates
 redirects:
   - customize-labels-in-github
@@ -28,29 +29,29 @@ Let's take a look at how to make a simple, yet information rich set of labels...
 
 Firstly, set up some [GitHub Issue Templates](/github-issue-templates) that have default labels. Prefix those ones with "Type:" so it is clear they define the type of Issue:
 
-- Type: Bug
-- Type: DevOps
-- Type: Documentation
-- Type: Feature
-- Type: Refactor
+- Type: **Bug**
+- Type: **DevOps**
+- Type: **Documentation**
+- Type: **Feature**
+- Type: **Refactor**
 
-Also add some extra labels for important ancillary information. Try not to go overboard though, a good example might be 3:
+Also add some extra labels for important ancillary information. Try not to go overboard though.
 
 Some labels to define the area of work:
 
-- Area: Frontend
-- Area: Backend
+- Area: **Frontend**
+- Area: **Backend**
 
 And the standard GitHub label to indicate it is a good Issue for developers new to the project:
 
-- Good First Issue
+- **Good First Issue**
 
 ::: bad
-![Figure: Bad Example - using Effort labels is not ideal for GitHub Issues](badlabels.png)
+![Figure: Bad example - using Effort labels is not ideal for GitHub Issues](badlabels.png)
 :::
 
 Learn more about where Effort labels are appropriate with [GitHub Projects, which has custom fields](/scrum-in-github).
 
 ::: good
-![Figure: Good Example -  Add a few labels beyond the ones that are set based on the Issue Templates](extralabels.png)
+![Figure: Good example -  Add a few labels beyond the ones that are set based on the Issue Templates](extralabels.png)
 :::
