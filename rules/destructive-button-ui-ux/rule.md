@@ -35,7 +35,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
 :::
 
 ::: good  
-![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-color.png) 
+![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-color.png)
 :::
 
 ::: info
