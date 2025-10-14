@@ -51,9 +51,9 @@ IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g
 # Regex patterns
 # ----------------------------- #
 
-YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
+YOUTUBE_BLOCK_REGEX = r'^(\s*)`youtube:\s*(https?://[^\s]+)`(?:\s*\n\s*\*\*(.*?)\*\*)?'
 # IMAGE_BLOCK_REGEX = r'::: (bad|ok|good)\s+(!\[Figure:.*?\]\(.*?\))\s+:::'
-IMAGE_BLOCK_REGEX = r':::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))\s+:::'
+IMAGE_BLOCK_REGEX = r'^(\s*):::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))\s+:::'
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 EMAIL_BLOCK_REGEX = (
     r'::: email-template\s+(.*?)'
@@ -67,11 +67,12 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
     r':::\s+:::\s*'
     r'(?:\*\*Figure:\s*(.*?)\*\*\s*)?'
 )
-SIMPLE_FIGURE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s*\n(.*?)\n:::' 
-CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+SIMPLE_FIGURE_BLOCK_REGEX = r'^(\s*):::\s*(good|bad|ok)\s*\n(.*?)\n\1:::'
+CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^(\s*):::\s*(img-small|img-medium|img-large|no-border|small|medium|large)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*\n\1:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
-PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s+(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+# Matches both orders: "::: good img-small" AND "::: img-small bad" - with optional indentation and "Figure:"
+PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^(?P<indent>\s*):::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|no-border|small|medium|large)|(?P<size2>img-small|img-medium|img-large|no-border|small|medium|large)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*\n(?P=indent):::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
 
 # ----------------------------- #
@@ -173,22 +174,28 @@ def add_prefix_if_relative(raw_src: str, src_prefix: str) -> str:
     return f"{src_prefix}/{clean}"
 
 def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
-    image_line = m.group(2)
+    indent = m.group(1)  # Capture indentation
+    preset = m.group(2)
+    image_line = m.group(3)
     def _repl(md_img_m):
         alt = md_img_m.group(1).strip()
         raw_src = md_img_m.group(2).strip()
         new_src = add_prefix_if_relative(raw_src, src_prefix)
         return f'![{alt}]({new_src})'
-    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
+    prefixed_img = re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
+    return f'{indent}::: {preset} {prefixed_img} :::'
 
 def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
-    body = m.group(2)
+    indent = m.group(1)  # Capture indentation
+    preset = m.group(2)
+    body = m.group(3)
     def _repl(md_img_m):
         alt = md_img_m.group(1).strip()
         raw_src = md_img_m.group(2).strip()
         new_src = add_prefix_if_relative(raw_src, src_prefix)
         return f'![{alt}]({new_src})'
-    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
+    prefixed_body = re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
+    return f'{indent}::: {preset}\n{prefixed_body}\n{indent}:::'
 
 
 # ----------------------------- #
@@ -196,16 +203,18 @@ def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
 # ----------------------------- #
 
 def replace_youtube_block(m):
-    url = m.group(1).strip()
-    desc = m.group(2).strip() if m.group(2) else ""
+    indent = m.group(1)  # Capture indentation
+    url = m.group(2).strip()
+    desc = m.group(3).strip() if m.group(3) else ""
     desc_js = js_string(desc)
-    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
+    return f'{indent}<youtubeEmbed url="{url}" description={{{desc_js}}} />'
 
 def replace_youtube_block_inside_intro(m):
-    url = m.group(1).strip()
-    desc = m.group(2).strip() if m.group(2) else ""
+    indent = m.group(1)  # Capture indentation
+    url = m.group(2).strip()
+    desc = m.group(3).strip() if m.group(3) else ""
     desc_js = js_string(desc)
-    return f'<introYoutube url="{url}" description={{{desc_js}}} />'
+    return f'{indent}<introYoutube url="{url}" description={{{desc_js}}} />'
 
 def wrap_intro_embed(m):
     fm = m.group('fm') or ''
@@ -227,8 +236,9 @@ def wrap_intro_embed(m):
 '''
 
 def replace_image_block(m, src_prefix):
-    preset = m.group(1).strip()
-    image_line = m.group(2).strip()
+    indent = m.group(1)  # Capture indentation
+    preset = m.group(2).strip()
+    image_line = m.group(3).strip()
     alt_match = re.match(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', image_line)
     if not alt_match:
         return m.group(0)
@@ -236,48 +246,57 @@ def replace_image_block(m, src_prefix):
     raw_src = alt_match.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
+    # If figure is empty, set shouldDisplay to false
+    should_display = "true" if figure else "false"
     figure_js = js_string(figure)
 
-    return f'''<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
-  src="{src}"
-/>'''
+    return f'''{indent}<imageEmbed
+{indent}  alt="Image"
+{indent}  size="large"
+{indent}  showBorder={{false}}
+{indent}  figureEmbed={{ {{
+{indent}    preset: "{preset}Example",
+{indent}    figure: {figure_js},
+{indent}    shouldDisplay: {should_display}
+{indent}  }} }}
+{indent}  src="{src}"
+{indent}/>'''
 
 
 def replace_custom_size_image_block(m, src_prefix):
-    variant = m.group(1).strip()
-    figure_raw = m.group(2).strip()
-    raw_src = m.group(3).strip()
+    indent = m.group(1)  # Capture indentation
+    variant = m.group(2).strip()
+    figure_raw = m.group(3).strip()
+    raw_src = m.group(4).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     size = {
         "img-small": "small",
         "img-medium": "medium",
         "img-large": "large",
-        "no-border": "large"
+        "no-border": "large",
+        "small": "small",      # Old syntax support
+        "medium": "medium",    # Old syntax support
+        "large": "large"       # Old syntax support
     }.get(variant, "large")
 
     show_border = "false" if variant == "no-border" else "true"
+
+    # If figure is empty, set shouldDisplay to false
+    should_display = "true" if figure_raw else "false"
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
-  alt="Image"
-  size="{size}"
-  showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
-  src="{src}"
-/>'''
+    return f'''{indent}<imageEmbed
+{indent}  alt="Image"
+{indent}  size="{size}"
+{indent}  showBorder={{{show_border}}}
+{indent}  figureEmbed={{ {{
+{indent}    preset: "default",
+{indent}    figure: {figure_js},
+{indent}    shouldDisplay: {should_display}
+{indent}  }} }}
+{indent}  src="{src}"
+{indent}/>'''
 
 
 def replace_standalone_image(m, src_prefix):
@@ -299,33 +318,48 @@ def replace_standalone_image(m, src_prefix):
 />'''
 
 def replace_preset_custom_size_image_block(m, src_prefix):
-    preset_kind = m.group(1).strip()        # good / bad / ok
-    variant = m.group(2).strip()            # img-small / img-medium / img-large / no-border
-    figure_raw = m.group(3).strip()
-    raw_src = m.group(4).strip()
+    # Handle both orders: "::: good img-small" or "::: img-small bad"
+    # Check which named groups matched
+    indent = m.group('indent')  # Capture indentation
+    if m.group('preset1'):
+        preset_kind = m.group('preset1').strip()
+        variant = m.group('size1').strip()
+        figure_raw = m.group(5).strip()
+        raw_src = m.group(6).strip()
+    else:
+        variant = m.group('size2').strip()
+        preset_kind = m.group('preset2').strip()
+        figure_raw = m.group(5).strip()
+        raw_src = m.group(6).strip()
 
     size = {
         "img-small": "small",
         "img-medium": "medium",
         "img-large": "large",
-        "no-border": "large"
+        "no-border": "large",
+        "small": "small",      # Old syntax support
+        "medium": "medium",    # Old syntax support
+        "large": "large"       # Old syntax support
     }.get(variant, "large")
 
     show_border = "false" if variant == "no-border" else "true"
     src = add_prefix_if_relative(raw_src, src_prefix)
+
+    # If figure is empty, set shouldDisplay to false
+    should_display = "true" if figure_raw else "false"
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
-  alt="Image"
-  size="{size}"
-  showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
-  src="{src}"
-/>'''
+    return f'''{indent}<imageEmbed
+{indent}  alt="Image"
+{indent}  size="{size}"
+{indent}  showBorder={{{show_border}}}
+{indent}  figureEmbed={{ {{
+{indent}    preset: "{preset_kind}Example",
+{indent}    figure: {figure_js},
+{indent}    shouldDisplay: {should_display}
+{indent}  }} }}
+{indent}  src="{src}"
+{indent}/>'''
 
 
 def replace_email_block(m):
@@ -401,15 +435,42 @@ def replace_email_block_no_rating(m):
   }} }}
 />'''
 
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
+def replace_simple_figure_block(m, src_prefix):
+    indent = m.group(1)  # Capture indentation
+    preset = m.group(2).strip()
+    body = m.group(3).strip()
+
+    # Check if the body contains an image
+    img_match = re.match(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', body)
+    if img_match:
+        # It's an image block, convert to imageEmbed
+        figure = img_match.group(1).strip()
+        raw_src = img_match.group(2).strip()
+        src = add_prefix_if_relative(raw_src, src_prefix)
+
+        # If figure is empty, set shouldDisplay to false
+        should_display = "true" if figure else "false"
+        figure_js = js_string(figure)
+
+        return f'''{indent}<imageEmbed
+{indent}  alt="Image"
+{indent}  size="large"
+{indent}  showBorder={{false}}
+{indent}  figureEmbed={{ {{
+{indent}    preset: "{preset}Example",
+{indent}    figure: {figure_js},
+{indent}    shouldDisplay: {should_display}
+{indent}  }} }}
+{indent}  src="{src}"
+{indent}/>'''
+    else:
+        # It's just text, convert to figureEmbed
+        figure_js = js_string(body)
+        return f'''{indent}<figureEmbed figureEmbed={{ {{
+{indent}  preset: "{preset}Example",
+{indent}  figure: {figure_js},
+{indent}  shouldDisplay: true
+{indent}}} }} />\n'''
 
 
 def process_custom_aside_blocks(content):
@@ -419,19 +480,23 @@ def process_custom_aside_blocks(content):
     in_box = False
     box_type = ""
     buffer = []
+    box_indent = ""  # Track the indentation level of the box
 
     while i < len(lines):
         line = lines[i].rstrip()
 
-        match_start = re.match(r":::\s*(greybox|highlight|china|info|todo|codeauditor)\s*$", line)
+        # Match aside block start with optional indentation
+        match_start = re.match(r"^(\s*):::\s*(greybox|highlight|china|info|todo|codeauditor)\s*$", line)
         if match_start and not in_box:
             in_box = True
-            box_type = match_start.group(1)
+            box_indent = match_start.group(1)  # Capture the indentation
+            box_type = match_start.group(2)
             buffer = []
             i += 1
             continue
 
-        if in_box and line.strip() == ":::":
+        # Match closing ::: at the same indentation level
+        if in_box and re.match(rf"^{re.escape(box_indent)}:::\s*$", line):
 
             preset = "default"
             figure = "XXX"
@@ -468,19 +533,20 @@ def process_custom_aside_blocks(content):
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
             figure_js = js_string(figure)
-            embed = f'''<asideEmbed
-  variant="{box_type}"
-  body={{<>
-    {body}
-  </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
-/>'''
+            embed = f'''{box_indent}<asideEmbed
+{box_indent}  variant="{box_type}"
+{box_indent}  body={{<>
+{box_indent}    {body}
+{box_indent}  </>}}
+{box_indent}  figureEmbed={{{{
+{box_indent}    preset: "{preset}",
+{box_indent}    figure: {figure_js},
+{box_indent}    shouldDisplay: {"true" if show else "false"}
+{box_indent}  }}}}
+{box_indent}/>'''
             output.append(embed)
             in_box = False
+            box_indent = ""  # Reset indentation
             i += 1
             continue
 
@@ -592,16 +658,16 @@ def transform_md_to_mdx(file_path):
 
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
-    content = re.sub(PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
         if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
-    content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.DOTALL)
+    content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
 
     content = transform_email_blocks(content)
-    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
@@ -611,12 +677,12 @@ def transform_md_to_mdx(file_path):
 
     def _replace_simple_figure_block_conditional(m):
         if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
-            body = m.group(2)
+            body = m.group(3)  # Updated from group(2) to group(3) since we added indent capture
             if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
                 return keep_simple_block_with_prefixed_images(m, src_prefix)
             return m.group(0)
-        return replace_simple_figure_block(m)
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.DOTALL)
+        return replace_simple_figure_block(m, src_prefix)
+    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
 
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
