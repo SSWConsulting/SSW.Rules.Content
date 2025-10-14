@@ -22,7 +22,7 @@ guid: 8d36a3c3-47e0-4302-a609-a09080565847
 
 When the Product Owner makes a verbal change request or decision, you might consider sending an email and CCing others, but that limits visibility to only those on the thread.
 
-A better approach is to **update the PBI** to document the change, making the conversation visible to the entire team. Use **comments and mentions (@username)** to notify the Product Owner and any relevant team members. This ensures they receive email notifications about the update.
+A better approach is to **update the PBI** to document the change, making the conversation visible to the entire team. Use **comments** with **tags/mentions (@username)** to notify the Product Owner and any relevant team members. This ensures they receive email notifications about the update.
 
 <!--endintro-->
 
@@ -63,14 +63,14 @@ Figure: Bad example – Don't use emails for tasks updates
 _"I have found and updated the PBI and moved it near the top of the backlog"_
 :::
 ::: bad
-Bad example - Change documented in the backlog, but no @mention used
+Bad example - Change documented in the backlog, but no @mention tag used
 :::
 
 ::: greybox
 _"I have found and updated the PBI, prioritized it near the top of the backlog, and @mentioned you and relevant team members so you know when it is actioned"_
 :::
 ::: good
-Good example - Change documented in the backlog and @mention included
+Good example - Change documented in the backlog and @mention tag included
 :::
 
 ### Format PBI comments like an email
@@ -89,7 +89,7 @@ Try formatting your mentions like an email to clarify both accountability and re
 
 You can save time by not writing change requests manually.
 
-With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning the right people and assigning it to the correct team.
+With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning/tagging the right people and assigning it to the correct team.
 :::
 
 ### How @mentions work
