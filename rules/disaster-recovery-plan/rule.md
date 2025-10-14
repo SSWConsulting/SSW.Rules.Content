@@ -63,11 +63,11 @@ In his Disaster Recovery Plan he had the following objectives:
 | Northwind Website | 2 days  | 4 hours |
 | North Sales       | 4 hours | 8 hours |
 
-::::info
+::: info
 
 It is important that these objectives are signed off by the Product Owner as per [this rule](/do-you-ask-clients-to-initial-your-work)
 
-::::
+:::
 
 After the recovery was complete they then analyzed the downtime which showed the following:
 
