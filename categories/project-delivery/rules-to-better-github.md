@@ -8,7 +8,7 @@ index:
   - do-you-know-how-to-name-a-github-repository
   - add-a-description-to-github-repositories
   - do-you-know-how-to-structure-a-project-for-github
-  - do-you-know-how-to-use-tags-for-github-issues
+  - using-labels-for-github-issues
   - remove-confidential-information-from-github
   - github-issue-templates
   - github-content-changes
