@@ -1,8 +1,8 @@
 ---
 seoDescription: Include URLs in tasks and "Done" emails to enhance transparency and collaboration by providing easy access to relevant information.
 type: rule
-title: Do you include URLs in tasks and "Done" emails?
-uri: include-links-in-emails
+title: Do you include URLs in "Done" tasks and emails?
+uri: include-links-in-dones
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -18,6 +18,7 @@ related:
 redirects:
   - dones-do-your-done’s-include-a-url
   - dones-do-your-dones-include-a-url
+  - include-links-in-emails
 created: 2009-12-10T06:55:30.000Z
 archivedreason: null
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
@@ -59,7 +60,7 @@ Figure: Good example - Easy to check what was done + includes the context of the
 
 ## Ensure changes are live
 
-Before declaring a task 'done' with a link, ensure that your changes are live and accessible for verification.
+Before closing a PBI/Issue and declaring a task 'done' with a link, ensure that your changes are live and accessible for verification. 
 
 ::: info
 **Note:** It is the PR author's responsibility to [avoid merge debt](/merge-debt) by getting the PR reviewed ASAP.
