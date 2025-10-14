@@ -69,7 +69,7 @@ Figure: Good example - Using the built-in GitHub duplicate workflow keeps issues
 :::
 
 ::: good
-![Figure: Good example - Using the built-in "Close as duplicate" button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context.](close-as-duplicate-button.png "Close as duplicate button")
+![Figure: Good example - Using the built-in "Close as duplicate of..." button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context.](close-as-duplicate-button.png "Close as duplicate button")
 :::
 
 #### 3. Notify the users who created the duplicates
