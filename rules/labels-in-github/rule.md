@@ -19,7 +19,7 @@ created: 2021-11-03T16:35:21.048Z
 guid: f779b702-be93-4865-b967-c3bf63498670
 ---
 
-Labels are an important way of categorizing your GitHub Issues. However, it is critical to make sure they are useful, clear and do not overwhelm users.
+[Labels](/using-labels-for-github-issues) are an important way of categorizing your GitHub Issues. However, it is critical to make sure they are useful, clear and do not overwhelm users.
 
 The goal is to use consistent labels across all repos.
 
