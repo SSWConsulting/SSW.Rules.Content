@@ -1,7 +1,7 @@
 ---
 seoDescription: Customize your GitHub labels to categorize issues effectively and improve user experience.
 type: rule
-title: GitHub Issues – Do you customize your labels?
+title: Do you customize GitHub Issues labels?
 uri: labels-in-github
 authors:
   - title: Piers Sinclair
