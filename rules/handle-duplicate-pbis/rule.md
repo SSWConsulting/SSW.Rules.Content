@@ -9,108 +9,124 @@ authors:
   - title: Zach Keeping
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
+When working on a GitHub backlog, it’s common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
+
+If left unmanaged, these duplicates clutter the backlog, confuse priorities, and lead to wasted effort. A clean backlog is easier to maintain, track, and report on.  
 
 
-A clean backlog is crucial for maintaining focus, visibility, and productivity.  
-When Product Backlog Items (PBIs) are duplicated, it creates confusion, unnecessary noise, and wasted effort as multiple team members may end up investigating or working on the same issue.
+<!--endintro-->
 
 
-Instead of keeping multiple PBIs for the same topic, **always close duplicates** and **link them to the single active PBI** that will track the actual work.  
-This keeps your backlog organised and ensures all updates, discussions, and history remain in one place.
+### Why you should close duplicate PBIs
 
 
----
+A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to double work, inconsistent updates, and fragmented discussion across issues.
+
+The best practice is to close duplicate PBIs so that there is **only one active PBI per issue**. This ensures all relevant details, conversations, and notifications remain centralized.
 
 
-## 💡 Why this is important
+### How to manage duplicate PBIs
 
 
-Duplicate PBIs can arise when:
-- Different team members raise the same issue
-- Similar feature requests come from separate sources (clients, the general public, internal QA, etc.)
-- Old PBIs get forgotten and recreated
+#### 1. Identify the main (active) PBI
 
 
-If left unmanaged, duplicates lead to:
-- Confusion over which PBI to update or complete
-- Redundant notifications and wasted triage time
-- Incomplete communication — especially if the original raiser isn’t notified when their duplicate issue is closed
+Choose the most complete or best-discussed PBI as the primary one to keep open.
+It should have the clearest description, relevant discussion, and active tracking.
 
 
-Cleaning duplicates ensures that:
-- The backlog stays lean and accurate
-- Work tracking is centralised
-- Everyone who raised or was affected by the issue is informed when it’s resolved
+::: greybox
+**\#101** - "Fix 404 error when submitting form"\
+**\#102** - "Users get 404 error after submitting the contact form"\
+**\#103** - "Form submission not working, shows 404"
+:::
+::: bad
+Figure: Bad example - Picking #103 (the least detailed PBI) as the main one causes loss of valuable context
+:::
+::: good
+Figure: Good example - Choosing #101 (the PBI with the best description and conversation) as the main issue
+:::
 
 
----
+- - -
 
 
-### 🚫 Bad example
+#### 2. Close and link the duplicate PBIs
 
 
-Multiple duplicate PBIs are left open for the same issue, creating clutter and confusion.
+Once you’ve identified the main PBI, close the others as duplicates.
+In GitHub, there are two standard ways to do this:
 
 
-**Bad:**
-- PBI #123 “Fix login timeout issue”  
-- PBI #145 “Users logged out too quickly”  
-- PBI #172 “Session expires unexpectedly”  
+* Add a comment in the format of **"Duplicate of #101"**, then close the issue manually, or  
+* Use GitHub’s **"Close as duplicate"** feature (available when referencing another issue in the comment)
 
 
-All three describe the same problem, but they remain open separately.  
-Developers don’t know which one to update, and the backlog becomes messy.
+Both methods automatically link the issue to the active PBI and make the relationship clear to other users.
 
 
-📸 _Screenshot_
+::: greybox
+Comment: "Duplicate."
+:::
+::: bad
+Figure: Bad example – The issue is closed abruptly without context, which confuses the reporter
+:::
 
 
----
+::: greybox
+Comment: "Duplicate of #101 - follow here for further updates"
+:::
+::: good
+Figure: Good example – Using the built-in GitHub duplicate workflow keeps issues linked and easy to trace
+:::
+
+![Figure: Good example - Using the built-in "Close as duplicate" button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context.](screenshot-2025-10-14-at-2.20.29 pm.png "Close as duplicate button")
 
 
-### ✅ Good example
+- - -
 
 
-Duplicate PBIs are closed and linked to a single active PBI.
+#### 3. Notify the users who created the duplicates
 
 
-**Good:**
-- PBI #123 “Fix login timeout issue” remains active  
-- PBI #145 and #172 are closed with a comment:
-  > “Closing as duplicate of #123. Please track progress there.”
+Since closing their PBI means they won’t receive future updates automatically, it’s essential to @mention those users in the main PBI so they know when the issue is resolved.
 
 
-- The raisers of #145 and #172 are mentioned in #123 so they’re notified when the issue is completed.
+::: greybox
+Comment on #101:  
 
 
-📸 _Screenshot_
+> "@jane @sam closing your related issues (#102, #103) as duplicates. You’ll be notified here when this issue is resolved."
+:::
+::: good
+
+Figure: Good example - All reporters are acknowledged and notified when the main PBI is completed
+:::
 
 
----
+- - -
 
 
-### 🧭 The process
+### Automate where possible
 
 
-When you find duplicate PBIs:
+If your project frequently encounters duplicates, consider automating this workflow:
 
 
-1. **Identify the main PBI**  
-   Choose the most complete or widely referenced one to keep active.
+* Use GitHub Actions or bots to suggest duplicates automatically based on title or description similarity.
+* Add a checklist to your **PBI template** reminding team members to search for existing issues before creating new ones.
 
 
-2. **Close the duplicates**  
-   Add a note to each duplicate such as:  
-   > “Closing as duplicate of #123 – tracking will continue there.”
+- - -
 
 
-3. **Link them to the main PBI**  
-   Use GitHub’s issue linking feature (`#123`) so others can follow the chain easily.
+### Summary
 
 
-4. **Notify the original raisers**  
-   Mention (`@username`) anyone who created or commented on the duplicate in the main PBI, so they’re informed when it’s closed.
+✅ Keep one active PBI per issue\
+✅ Link duplicates clearly\
+✅ Notify all reporters on completion\
+✅ Automate detection and linking where possible  
 
 
-5. **Consider automation**  
-   If your workflow supports it, automate duplicate detection or user notification to reduce manual work.
+Following these steps keeps your backlog tidy, communication clear, and your team focused on delivering value.
