@@ -56,7 +56,7 @@ AI transcription tools like **[Read AI](https://www.read.ai/)**, **Otter.ai**, a
 4. After the call, check your inbox for a full summary
 5. Share the summary in Teams or Slack
 
-::: info\
+::: info
 **Important:** Always inform attendees if the call is being recorded or transcribed. Consent is required in most regions.
 :::
 
