@@ -57,6 +57,8 @@ e.g. a Sprint Review
 ![Figure: Check their status first](team-status-1.jpg)
 :::
 
+## Giving context
+
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
 
 ::: greybox
@@ -70,14 +72,6 @@ Good example - Includes PBI/Issue link for reference and doesn't leave anyone wa
 
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
-::: greybox
-Calling in 1 minute about this email thread:
-
-**{{ EMAIL SUBJECT }}**
-:::
-::: good
-Good example - Includes email subject for reference and doesn't leave anyone waiting
-:::
 
 For [cross approvals](/cross-approvals), pinging the approvers with their priority order number shows how many you have attempted to contact before them, and how many are after if they can not take the call.
 
@@ -88,14 +82,38 @@ Calling you in 2 minutes to review a code change - Code Master (3/5)
 Good example - Includes priority order numbers to share how many other approvers you have attempted to contact 
 :::
 
-## Using Outlook | Share to Teams
+Providing context when your call is about an email is important to not leave the other person guessing as to which email you mean. A screenshot makes searching their inbox difficult, since they can’t copy or search it.
+
+::: bad
+![Figure: Bad example - A screenshot includes some context but makes it difficult for others to search their inbox](warning-with-screenshot.png)
+:::
+
+Copying the **subject line** makes it instantly searchable and clear to everyone involved.
+
+::: greybox
+Calling in 1 minute about this email thread:
+
+**{{ EMAIL SUBJECT }}**
+:::
+::: good
+Good example - Includes email subject for reference and doesn't leave anyone waiting
+:::
+
+If you want to be extra clear, include the email with thread participants or a link to the email, especially when the thread includes multiple people or has similar subjects.
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
+
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
+
 
 ::: good
 ![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
+:::
+
+
+::: good
+![Figure: Good example - Forwarding then copying an email includes context by sharing the email and providing  participant details](warning-with-email.png)
 :::
 
 ### What if your call is declined/not answered?

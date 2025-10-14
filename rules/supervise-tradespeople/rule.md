@@ -6,9 +6,9 @@ seoDescription: Ensure staff consistently supervise tradespeople, confirm work q
 uri: supervise-tradespeople
 authors:
   - title: Marina Gerber
-    url: <https://www.ssw.com.au/people/marina-gerber>
+    url: https://www.ssw.com.au/people/marina-gerber
   - title: Anastasia Cogan
-    url: <https://www.ssw.com.au/people/anastasia-cogan>
+    url: https://www.ssw.com.au/people/anastasia-cogan
 related:
   - report-defects-to-property-manager
 created: 2025-10-03T15:23:00.000Z
