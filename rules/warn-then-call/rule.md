@@ -115,8 +115,8 @@ Good example - Includes priority order numbers to share how many other approvers
 If you need to give more context than just text, sending a screenshot is a good option. If your call relates to an email, include the subject line. 
 
 
-::: bad
-![Figure: Bad example - A screenshot includes some context but makes it difficult for others to search their inbox](warn-with-screenshot.png)
+::: good
+![Figure: Good example - A screenshot and subject includes context and makes it easy to search a inbox](warn-with-screenshot.png)
 :::
 
 
