@@ -64,9 +64,6 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
 
 ### Option A: No context
 
-
-
-
 ::: greybox
 Calling in 1 minute.
 :::
@@ -74,13 +71,7 @@ Calling in 1 minute.
 Bad example - The recipient has no idea what you are calling about
 :::
 
-
-
-
 ### Option B: Specific context
-
-
-
 
 ::: greybox
 Calling in 1 minute. See the PBI/Issue:
@@ -96,8 +87,6 @@ Good example - Includes PBI/Issue link for reference and doesn't leave anyone wa
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
 
-
-
 ::: greybox
 Calling in 1 minute about this email thread:
 
@@ -107,10 +96,6 @@ Calling in 1 minute about this email thread:
 ::: good
 Good example - Includes email subject for reference and doesn't leave anyone waiting
 :::
-
-
-
-
 
 
 For [cross approvals](/cross-approvals), pinging the approvers with their priority order number shows how many you have attempted to contact before them, and how many are after if they can not take the call.
@@ -135,8 +120,6 @@ If you need to give more context than just text, sending a screenshot is a good 
 :::
 
 
-
-
 ### Option D: Share Email to Teams
 
 
@@ -146,11 +129,7 @@ If you want to be extra clear, include the email with thread participants or a l
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
 
-
-
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
-
-
 
 
 ::: good
