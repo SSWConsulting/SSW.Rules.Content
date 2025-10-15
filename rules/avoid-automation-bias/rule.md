@@ -20,13 +20,13 @@ AI has been championed as a huge productivity booster, which it is. However, peo
 Automation bias describes the impairment of judgement due to a deferred sense of accountability -- "It was the AI's mistake!"
 
 <!--endintro-->
-Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. 
+Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking.
 It’s a _brain_ problem, not a _model_ problem (not to be mistaken with **model bias**)
 
 Automation bias is not just an AI problem -- it's an issue wherever a human has used a machine to automate a task.
 
 ### Errors from automation bias
- 
+
 There are two types of errors made due to automation bias:
 
 **Error of commission**: Doing the wrong thing because the system suggested it (e.g. accepting a flawed suggestion, getting ChatGPT to write your essay, etc.)
@@ -34,9 +34,9 @@ There are two types of errors made due to automation bias:
 
 #### Where automation bias shows up
 
-- **Coding assistants (e.g. Copilot):** They make you faster, not necessarily better. The more complex some generated code is, the more likely you'll be to click "Accept".
-- **Google Search (especially 'AI Overview'):** These search engines are incentivised to return the most **relevant** content, rather than the most **correct** content.
-- **GPS Navigation:** Countless cases of people driving their car into water 'because the app told them to'.
+* **Coding assistants (e.g. Copilot):** They make you faster, not necessarily better. The more complex some generated code is, the more likely you'll be to click "Accept".
+* **Google Search (especially 'AI Overview'):** These search engines are incentivised to return the most **relevant** content, rather than the most **correct** content.
+* **GPS Navigation:** Countless cases of people driving their car into water 'because the app told them to'.
 
 #### Why do we fall for it?
 
@@ -50,17 +50,17 @@ If there are two people within a company who don't know each other well, and rev
 
 ##### Personality traits
 
-- More extroverted people: May move quickly and accept outputs more readily.
-- People high in neuroticism: May doubt their own outputs, and thus doubt AI's outputs too.
+* More extroverted people: May move quickly and accept outputs more readily.
+* People high in neuroticism: May doubt their own outputs, and thus doubt AI's outputs too.
 (This isn't prescriptive, just a pattern to be aware of)
 
 #### What doesn't fix it (but seems like it should)
 
-- **Human-in-the-loop:** This only covers legal accountability. Just because a human is in the loop, doesn't mean they are critically evaluating the output.
-- **Higher model accuracy:** Even a 99.9% accurate model can still be wrong, furthermore - a more accurate model can lead to more complacency.
-- **Training people that "software is often wrong":** Makes people think they know more about the software than they do, leading to overconfidence.
+* **Human-in-the-loop:** This only covers legal accountability. Just because a human is in the loop, doesn't mean they are critically evaluating the output.
+* **Higher model accuracy:** Even a 99.9% accurate model can still be wrong, furthermore - a more accurate model can lead to more complacency.
+* **Training people that "software is often wrong":** Makes people think they know more about the software than they do, leading to overconfidence.
 
-#### What actually helps 
+#### What actually helps
 
 ##### Show the uncertainty
 
@@ -101,6 +101,7 @@ Pair reviews with people who know each other well, so they feel accountable.
 :::
 
 ##### Information, not recommendation
+
 Ask AI to present information and sources before it asserts conclusions. Avoid instructive "do this" prompts.
 
 ::: greybox
@@ -118,11 +119,12 @@ AI has context, and is less likely to make stuff up. People are more likely to c
 :::
 
 #### A structured approach to mitigate automation bias
+
 Before asking AI to help you with a task, consider the following:
-- **Who is this for?**  
-- **What will they learn?**  
-- **What skills will they gain?**  
-- **Two-sentence summary (avoid: delve, explore, streamline, expedite).**  
+* **Who is this for?**  
+* **What will they learn?**  
+* **What skills will they gain?**  
+* **Two-sentence summary (avoid: delve, explore, streamline, expedite).**  
 
 Make sure you know the answers to these questions before you start. This will help you stay focused on the task, and avoid getting distracted by shiny AI outputs.
 
