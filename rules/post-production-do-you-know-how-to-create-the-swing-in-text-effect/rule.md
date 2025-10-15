@@ -32,4 +32,5 @@ The text swing in can be a great way to make a title gain attention, but if the 
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw?t=7s`
 
 ::: good
-Video: Good example – A well designed 'swing-in' effect can bring your titles to life - See 00:07
+Figure: Good example – A well designed 'swing-in' effect can bring your titles to life - See 00:07
+:::
