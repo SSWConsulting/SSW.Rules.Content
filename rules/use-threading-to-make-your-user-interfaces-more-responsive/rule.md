@@ -14,7 +14,7 @@ Threading is not only used to allow a server to process multiple client requests
 
 <!--endintro-->
 
-:: bad
+::: bad
 ![Figure: Bad example - Unresponsive UI because no threading code](nothreading.gif)
 :::
 
