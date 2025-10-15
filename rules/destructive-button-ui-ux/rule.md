@@ -19,23 +19,25 @@ guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
 
 ---
 
-Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users. These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
+Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users.
+
+These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
 
 <!--endintro-->
 
-## Use a consistent color - red for danger
+## Use red for danger consistently
 
 Destructive buttons should always stand out with a **red color**. This is a well-established visual convention that immediately signals danger to users.
 
 * Use red **only** for destructive actions (not warnings or generic alerts)
 * Avoid using red buttons for neutral or positive actions
 
-::: bad  
+::: bad img-medium  
 ![Figure: Bad example - Wrong color for a destructive button](destruction-button-bad-color.png)
 :::
 
-::: good  
-![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-icon.png)
+::: good img-medium  
+![Figure: Good example - Red is the right color for a destructive button](destruction-button-good-color.png)
 :::
 
 ::: info
@@ -43,7 +45,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
 
 * The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
 * Consistency is maintained across all UI elements
-* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon.
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
 :::
 
 ## Use the right icon in the right position
@@ -55,7 +57,7 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 * Avoid ambiguous or abstract icons (E.g. Broom icon (`🧹`) is used for “clear all” or “clean up", not "delete". Cross icon (`❌`) means “cancel” or "wrong", not "delete")
 
 ::: bad  
-![Figure: Bad example - Cross icon usually means “cancel” and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
+![Figure: Bad example - Cross icon usually means "Cancel" and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
 :::
 
 ::: good  
