@@ -61,8 +61,30 @@ e.g. a Sprint Review
 
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
 
+
+### Option A: No context
+
+
+
+
+::: greybox
+Calling in 1 minute.
+:::
+::: bad
+Bad example - The recipient has no idea what you are calling about
+:::
+
+
+
+
+### Option B: Specific context
+
+
+
+
 ::: greybox
 Calling in 1 minute. See the PBI/Issue:
+
 
 **{{ URL }}**
 :::
@@ -70,10 +92,29 @@ Calling in 1 minute. See the PBI/Issue:
 Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting
 :::
 
+
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
 
+
+
+::: greybox
+Calling in 1 minute about this email thread:
+
+
+**{{ EMAIL SUBJECT }}**
+:::
+::: good
+Good example - Includes email subject for reference and doesn't leave anyone waiting
+:::
+
+
+
+
+
+
 For [cross approvals](/cross-approvals), pinging the approvers with their priority order number shows how many you have attempted to contact before them, and how many are after if they can not take the call.
+
 
 ::: greybox
 Calling you in 2 minutes to review a code change - Code Master (3/5)
@@ -82,29 +123,34 @@ Calling you in 2 minutes to review a code change - Code Master (3/5)
 Good example - Includes priority order numbers to share how many other approvers you have attempted to contact 
 :::
 
-Providing context when your call is about an email is important to not leave the other person guessing as to which email you mean. A screenshot makes searching their inbox difficult, since they can’t copy or search it.
+
+### Option C: Screenshot
+
+
+If you need to give more context than just text, sending a screenshot is a good option. If your call relates to an email, include the subject line. 
+
 
 ::: bad
-![Figure: Bad example - A screenshot includes some context but makes it difficult for others to search their inbox](warning-with-screenshot.png)
+![Figure: Bad example - A screenshot includes some context but makes it difficult for others to search their inbox](warn-with-screenshot.png)
 :::
 
-Copying the **subject line** makes it instantly searchable and clear to everyone involved.
 
-::: greybox
-Calling in 1 minute about this email thread:
 
-**{{ EMAIL SUBJECT }}**
-:::
-::: good
-Good example - Includes email subject for reference and doesn't leave anyone waiting
-:::
+
+### Option D: Share Email to Teams
+
 
 If you want to be extra clear, include the email with thread participants or a link to the email, especially when the thread includes multiple people or has similar subjects.
+
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
 
+
+
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
+
+
 
 
 ::: good
@@ -112,9 +158,33 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 :::
 
 
-::: good
-![Figure: Good example - Forwarding then copying an email includes context by sharing the email and providing  participant details](warning-with-email.png)
+### Options E: Email with Header
+
+
+::: greybox
+Calling in 5 minutes regarding:
+ 
+From: Pat Stuart [SSW]
+
+
+Sent: Tuesday, 14 October 2025 12:35 PM
+
+
+To: Harkirat Singh [SSW] <HarkiratSingh@ssw.com.au>
+
+
+Subject: Rules Content Update
+ 
+Hi Hark,
+ 
+As per our conversation, I would like you to update the rules content at: https://www.ssw.com.au/rules/warn-then-call/
+ 
+Update the content with more examples.
 :::
+::: good
+Good example - Forwarding then copying an email includes context by sharing the email and providing  participant details
+:::
+
 
 ### What if your call is declined/not answered?
 
