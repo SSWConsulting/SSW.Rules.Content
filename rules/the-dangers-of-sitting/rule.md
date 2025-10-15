@@ -37,4 +37,4 @@ The ultimate fix is to do a hip flexor stretch whenever possible. The easiest on
 Check out standing desks at SSW:
 
 `youtube: https://www.youtube.com/watch?v=YrnBb7lIsmk`
-**Video: SSW Newcastle stand up desks - Leave them up in the evening (1 min)
+**Video: SSW Newcastle stand up desks - Leave them up in the evening (1 min)**
