@@ -165,7 +165,7 @@ Good example - Forwarding then copying an email includes context by sharing the 
 :::
 
 
-### What if your call is declined/not answered?
+## What if your call is declined/not answered?
 
 When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
@@ -178,7 +178,7 @@ Good example - Send them a message indicating you will try again later
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
 
-### ❌ Blocked - What if you are blocked and can't reach the person for a whole day?
+## ❌ Blocked - What if you are blocked and can't reach the person for a whole day?
 
 If you couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
