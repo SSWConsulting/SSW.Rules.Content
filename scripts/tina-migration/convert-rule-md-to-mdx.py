@@ -53,7 +53,8 @@ IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g
 
 YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
 # IMAGE_BLOCK_REGEX = r'::: (bad|ok|good)\s+(!\[Figure:.*?\]\(.*?\))\s+:::'
-IMAGE_BLOCK_REGEX = r':::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))\s+:::'
+# Allow leading whitespace for indented blocks
+IMAGE_BLOCK_REGEX = r'^\s*:::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))\s+:::'
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 EMAIL_BLOCK_REGEX = (
     r'::: email-template\s+(.*?)'
@@ -67,11 +68,13 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
     r':::\s+:::\s*'
     r'(?:\*\*Figure:\s*(.*?)\*\*\s*)?'
 )
-SIMPLE_FIGURE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s*\n(.*?)\n:::' 
-CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+# Allow leading whitespace for indented blocks
+SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
+CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
-PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s+(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+# Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
+PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|no-border)|(?P<size2>img-small|img-medium|img-large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
 
 # ----------------------------- #
@@ -265,6 +268,9 @@ def replace_custom_size_image_block(m, src_prefix):
     }.get(variant, "large")
 
     show_border = "false" if variant == "no-border" else "true"
+
+    # If figure is empty, set shouldDisplay to false
+    should_display = "true" if figure_raw else "false"
     figure_js = js_string(figure_raw)
 
     return f'''<imageEmbed
@@ -274,7 +280,7 @@ def replace_custom_size_image_block(m, src_prefix):
   figureEmbed={{ {{
     preset: "default",
     figure: {figure_js},
-    shouldDisplay: true
+    shouldDisplay: {should_display}
   }} }}
   src="{src}"
 />'''
@@ -298,11 +304,12 @@ def replace_standalone_image(m, src_prefix):
   src="{src}"
 />'''
 
-def replace_preset_custom_size_image_block(m, src_prefix):
-    preset_kind = m.group(1).strip()        # good / bad / ok
-    variant = m.group(2).strip()            # img-small / img-medium / img-large / no-border
-    figure_raw = m.group(3).strip()
-    raw_src = m.group(4).strip()
+def replace_preset_and_size_image_block(m, src_prefix):
+    # Extract preset and size from either order
+    preset_kind = m.group('preset1') or m.group('preset2')
+    variant = m.group('size1') or m.group('size2')
+    figure_raw = m.group('figure').strip()
+    raw_src = m.group('src').strip()
 
     size = {
         "img-small": "small",
@@ -419,19 +426,21 @@ def process_custom_aside_blocks(content):
     in_box = False
     box_type = ""
     buffer = []
+    box_indent = 0
 
     while i < len(lines):
         line = lines[i].rstrip()
 
-        match_start = re.match(r":::\s*(greybox|highlight|china|info|todo|codeauditor)\s*$", line)
+        match_start = re.match(r"^(\s*):::\s*(greybox|highlight|china|info|todo|codeauditor)\s*$", line)
         if match_start and not in_box:
             in_box = True
-            box_type = match_start.group(1)
+            box_type = match_start.group(2)
+            box_indent = len(match_start.group(1))
             buffer = []
             i += 1
             continue
 
-        if in_box and line.strip() == ":::":
+        if in_box and re.match(r"^\s*:::\s*$", line):
 
             preset = "default"
             figure = "XXX"
@@ -453,16 +462,24 @@ def process_custom_aside_blocks(content):
                         i += 1
                     elif (
                         i + 3 < len(lines)
-                        and (match_l1 := re.match(r"^:::\s*(good|bad|ok)\s*$", lines[i + 1].strip()))
-                        and (match_l2 := re.match(r"^Figure:\s*(.*?)\s*$", lines[i + 2].strip()))
-                        and lines[i + 3].strip() == ":::"
+                        and (match_l1 := re.match(r"^\s*:::\s*(good|bad|ok)\s*$", lines[i + 1]))
+                        and (match_l2 := re.match(r"^\s*Figure:\s*(.*?)\s*$", lines[i + 2]))
+                        and re.match(r"^\s*:::\s*$", lines[i + 3])
                     ):
                         preset = f"{match_l1.group(1)}Example"
                         figure = match_l2.group(1).strip()
                         show = True
                         i += 3
 
-            body = '\n'.join(buffer)
+            # Remove the indentation from buffer content
+            cleaned_buffer = []
+            for buf_line in buffer:
+                if buf_line.startswith(' ' * box_indent):
+                    cleaned_buffer.append(buf_line[box_indent:])
+                else:
+                    cleaned_buffer.append(buf_line)
+
+            body = '\n'.join(cleaned_buffer)
             body = mdx_safe_template_vars(body)
             body = convert_angle_bracket_links(body)
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
@@ -592,16 +609,16 @@ def transform_md_to_mdx(file_path):
 
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
-    content = re.sub(PRESET_CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(PRESET_AND_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_and_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
         if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
-    content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.DOTALL)
+    content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
 
     content = transform_email_blocks(content)
-    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
@@ -616,7 +633,7 @@ def transform_md_to_mdx(file_path):
                 return keep_simple_block_with_prefixed_images(m, src_prefix)
             return m.group(0)
         return replace_simple_figure_block(m)
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.DOTALL)
+    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
 
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
