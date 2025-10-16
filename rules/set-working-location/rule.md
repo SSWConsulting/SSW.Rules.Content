@@ -45,7 +45,7 @@ Remember to update your location if it changes.
 
 ## View your colleagues' locations
 
-To see if your colleagues are in the office or working remotely, simply view their calendar in Outlook or Teams.
+To see if your colleagues are planned in the office or remote, simply view their calendar in Outlook or Teams.
 
 For a view of everyone you work with and their location, head to https://places.cloud.microsoft and select **Show in office summary**.
 
