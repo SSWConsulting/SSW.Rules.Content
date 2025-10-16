@@ -22,7 +22,6 @@ SSW's [Rules to Better Scrum using Azure DevOps](/rules-to-better-scrum-using-az
 <!--endintro-->
 
 > Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change.
->
-> - Adam Cogan, SSW Chief Architect
+> \- Adam Cogan, SSW Chief Architect
 
 ![Figure: Classic stories of Project Management](projectmanagementsummary_small.jpg)

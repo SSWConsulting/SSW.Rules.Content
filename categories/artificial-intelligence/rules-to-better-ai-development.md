@@ -21,8 +21,11 @@ index:
 - use-embeddings
 - best-ai-powered-ide
 - ai-for-frontend-development
+- ai-for-prototype-development
+- build-hallucination-proof-ai-assistants
 - avoid-ai-hallucinations
 - make-your-website-llm-friendly
+- dataverse-ai-options
 
 ---
 

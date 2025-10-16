@@ -68,7 +68,7 @@ Proper preparation is crucial to avoid delays and ensure accurate data is availa
 
 This meeting focuses on operational and sales metrics to gauge the company's performance over the past month. 
 
-::: grebox
+::: greybox
 ### Agenda
 
 * **Review sales reports** - Identify trends and performance gaps

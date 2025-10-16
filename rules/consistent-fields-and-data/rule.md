@@ -6,7 +6,8 @@ uri: consistent-fields-and-data
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - ui-boxes
 redirects:
   - do-you-know-that-the-width-of-a-control-indicates-what-to-enter
   - do-you-make-your-fields-consistent-with-the-data
@@ -15,10 +16,14 @@ archivedreason: null
 guid: e765b828-6eb3-4666-9eed-8c449a6a9685
 ---
 
-The widths of the fields indicate to a user the data that goes in it. Do not use a large width field when you know the entry will have only few characters (the same for small fields and large entries)
+Field width gives users a visual cue about the type and length of data expected. Avoid making a field excessively wide when the value will only be a few characters, and likewise avoid squeezing long values into fields that are too narrow. Size fields proportionally and keep them consistent so the UI sets the right expectation.
 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - The 'Data Retention Days' field should be reduced](/field-width.jpg)  
+![Figure: Bad example - Fields are unnecessarily wide for their expected (short) values](long-width-field.png)  
+:::
+
+::: good  
+![Figure: Good example - Fields are sized appropriately for their expected values](short-width-field.png)  
 :::

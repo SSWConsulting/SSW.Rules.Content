@@ -2,188 +2,140 @@
 type: rule
 tips: ""
 title: Do you use AI to make internationalization easier?
-seoDescription: i18n, L10n, internationalization, localization, W3C standards
+seoDescription: Understand i18n vs l10n. Build software ready for global users with tips on encoding, dates, forms, and cultural adaptation.
 uri: i18n-with-ai
 authors:
   - title: Gilles Pothieu
     url: https://www.ssw.com.au/people/gilles-pothieu
   - title: Chloe Lin
-    url: https://www.ssw.com.au/people/chloe-lin/
+    url: https://www.ssw.com.au/people/chloe-lin
+  - title: Jeoffrey Fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
 related:
   - add-multilingual-support-on-angular
   - do-you-know-how-to-better-localize-your-application
   - do-you-always-give-the-user-an-option-to-change-the-locale
 guid: 7429ba5a-5c49-4b5d-94d0-5c207a33e260
 ---
+The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), [Netflix](https://www.weglot.com/blog/netflixs-localization-strategy), [Uber](https://www.nimdzi.com/lessons-in-localization-uber/)) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
 
-Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site powergenitalia.com instead of powergen-italia.com back in 2003. These weren't just translation mistakes, they were internationalization disasters that exposed fundamental marketing failures.
-
-The companies that succeed globally ([Spotify](https://www.nimdzi.com/lessons-in-localization-spotify-expanded), Netflix, Uber) don’t just translate. They design from day one for cultural, linguistic, and technical differences.
+You need to consider both technical and marketing factors. Amazon's Swedish website accidentally replaced "rooster" with the Swedish word for male genitals. An Italian company named their international site `powergenitalia.com` instead of `powergen-italia.com` back in 2003. These were more than bad translations. They revealed big marketing mistakes.
 
 <!--endintro-->
 
-![Figure: Mismatch between number of native speakers and supported website languages. Many top-spoken languages remain underrepresented online](first_language_vs_web.png)
+![Figure: Many top-spoken languages remain underrepresented online, e.g. Chinese represents 13% of the world, but 2.2% of the websites](first_language_vs_web.png)
 
-## The Expensive Confusion: i18n vs L10n
+::: china
+China has the largest number of native speakers and represents a huge market opportunity. [Want to bring your applications into the Chinese market?](https://www.ssw.com.au/consulting/chinafy-app)
+:::
 
-### Internationalization (i18n) - The Architecture
+## The expensive confusion: i18n vs l10n
 
-Count the letters between 'i' and 'n' in "internationalization", 18. Hence i18n. The W3C Internationalization Activity defines it as designing products and services so they can easily adapt to specific local languages and cultures.
+### Internationalization (**i18n**) - The architecture
 
-Think of it like building a house with modular plumbing that could handle any water system globally. You're not installing fixtures yet, just ensuring your foundation won't collapse when someone needs a bidet instead of a toilet.
+The word “internationalization” is long, so we shorten it to **i18n** because there are 18 letters between the “i” and “n.”  According to the W3C, internationalization means **designing your product so it can easily adapt to different languages and cultures** before you start translating.  
 
-### Localization (L10n) - The Implementation
+Think of it like **building a website with a flexible backend**. You set up your framework so it supports multiple languages: text is not hardcoded, date and currency formats can be customized, and layouts can adjust for right-to-left text.  
 
-If i18n is the blueprint, L10n is choosing the actual fixtures, paint colors, and doorbell tunes for each market. It's where you discover whether your foundation holds.
+You are not adding translations yet. You are just making sure the system can handle them later without breaking.  
 
-## Common i18n Issues
+### Localization (**l10n**) - The implementation
+
+If i18n is the framework, **l10n** is when you actually **fill in the details for each locale**. This is where you add translations, apply regional settings, and adjust visuals such as date formats, currencies, or culturally specific images.  
+
+This step is where you confirm that your internationalized website truly works for users in Japan, Germany, or Brazil, and fix anything that does not fit.
+
+## Common i18n pitfalls
 
 Here are the most frequent pitfalls developers encounter when scaling globally:
 
-* **Text expansion & contraction**: German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters
-* **Character encoding**: “Björk” becomes “Bj?rk” or 田中さん turns into “???”
-* **RTL layouts**: Arabic and Hebrew flip entire UI structures, not just text direction
-* **Names & forms**: Some cultures have one name, some have none that fit “first/last”
-* **Dates & numbers**: “03/04/2025” means March 4 in the US, April 3 in Europe, or something else in Japan. Decimal points and commas vary by region and can cost money  
-* **Cultural symbols**: White means purity in the West, but death in China. Even colors can alienate users  
-* **Infrastructure blind spots**: Fonts too large, networks too slow, CDNs not present where your customers are
+### UX - No language options
 
-![Figure: Arabic is one of the top 5 internet languages with 300M+ speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
+❌ **Issue:** Users are stuck with one language.  
 
-## General Tips
+✅ **Tip:** Provide a language selector (see rule [Do you always give the user an option to change the locale?](/do-you-always-give-the-user-an-option-to-change-the-locale/)).  
 
-* **Localize time & numbers properly**  
-  ❌ Don’t parse strings manually  \
-  ✅ Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/)  
+### UI - Character encoding
 
-* **Design elastic UIs**  
-  ❌ Don’t hardcode pixel widths for buttons or labels\
-  ✅ Use flex layouts, `min-width`, `word-break`
+❌ **Issue:** Countries using non-latin scripts might not render correctly - e.g. “Björk” becomes “Bj?rk” or " 田中さん " turns into “???”.  
 
-* **Use Unicode everywhere**
-  ❌ No assumptions about ASCII-only inputs  \
-  ✅ UTF-8 end-to-end (DB, API, frontend)  
+✅ **Tip:** Use UTF-8 end-to-end (database, API, frontend).  
 
-* **Plan for RTL**
-Arabic accounts for 5% of internet users (300M+). Supporting RTL means mirroring the entire UI, not just text.  
-  ✅ Test with `direction: rtl;` CSS  \
-  ✅ Use logical CSS properties (`inline-start`/`inline-end`) instead of `left`/`right`  
+**Note:** Modern UI frameworks (e.g. React, Angular, Blazor, Vue) include UTF-8 charset in their HTML templates by default. You should still verify whether it's included in your `index.html` file and configured correctly on the server.  
+  
+### UI - Dates & numbers formatting
 
-* **Simplify forms**  
-  ❌ Never force “First Name / Last Name” globally  
-  ✅ Use a single “Full Name” field, or make name parts optional  
+❌ **Issue:** “03/04/2025” has different meanings - it means "March 4" in the US and "April 3" in Europe.  
 
-* **SEO & URLs**  
-  ✅ Test regexes and sitemaps with non-Latin domains (IDNs)  
-  ✅ Configure hreflang tags correctly  
-  ✅ Research local search engines (Baidu, Yandex, Naver)
+✅ **Tip:** Use `Intl.DateTimeFormat`, `Intl.NumberFormat` or libraries like [date-fns](https://date-fns.org/) instead of parsing strings manually. If you do everything correctly, your browser will handle the date format for you.
 
-* **Check cultural assumptions**  
-  ❌ Don’t assume Western metaphors apply everywhere  
-  ✅ Test color/icon choices with local users (white = death in China)  
+### UI - Text expansion and contraction
 
-* **Optimize performance globally**  
-  ❌ Don’t ship a 5MB JS bundle to mobile-first markets
-  ✅ Use a CDN close to your users  
-  ✅ In China, use local CDNs to avoid latency from the Great Firewall
-  ✅ Subset fonts or use system fonts  
+❌ **Issue:** German words can be 30–40% longer, while Chinese can compress paragraphs into a handful of characters.  
 
-::: greybox  
-Check out our rules [Use a CDN for Internationalization](/use-a-cdn/)
+✅ **Tip:** Use responsive layouts and **visually check text in different languages**.  
+
+### UI - Names & forms
+
+❌ **Issue:** Some cultures have one name, some have none that fit “first/last” (i.e. Indonesia, Tibet).  
+
+✅ **Tip:** Use a single "full name" field, make last name optional.  
+
+### UI - Cultural symbols
+
+❌ **Issue:** Colors can alienate users - white means purity in the West, but death in China.  
+
+✅ **Tip:** Test color/icon choices with local users.  
+
+### Performance - Infrastructure blind spots
+
+❌ **Issue:** Slow performance or broken assets in regions with limited infrastructure.  
+
+✅ **Tip:** Optimize delivery globally — [use nearby CDNs](/use-a-cdn/) or smaller bundles.  
+
+::: china
+[Do you know why you should Chinafy your app?](/do-you-know-why-you-should-chinafy-your-app/)
 :::
 
-## Traditional i18n approach
+### RTL layouts
 
-### Rely on Google Translate (0 effort)
+❌ **Issue:** Arabic and Hebrew languages are written Right-To-Left (RTL).  
 
-Users can rely on Google Translate in their browser if implementation time is lacking.  
+✅ **Tip:** Test with `direction: rtl;` Use a combination of logical CSS properties (`direction: rtl;`) instead of `left`/`right`.  
 
-❌ Poor user experience and unprofessional appearance  
-❌ Inaccurate translations and broken UI elements
-❌ Potential loss of international users  
-✅ Immediate availability with zero development effort  
-✅ No implementation or maintenance costs
+**Note:** Be mindful to also change the images layout, not just the text.  
 
-### Implement i18n Libraries
+::: info
+**Tip:** Arabic accounts for 5% of internet users (~250M).
+:::
 
-Use standard i18n tools (see below) with an internal translation workflow.  
+::: img-medium
+![Figure: Arabic is one of the top 5 internet languages with ~250M speakers. Supporting RTL layouts is essential, the UI looks entirely different when switching to Arabic](RTL_mobile.jpg)
+:::
 
-❌ Significant development time and delays
-❌ High translation costs: 0.08–0.15 $AUD per word for professional translators (potentially €5,000–15,000+ per language for a typical app)  
-❌ Ongoing costs for maintaining and updating translations with each new feature
-❌ Complex maintenance of language files
-❌ Slow update process for new content  
-✅ High-quality, controlled translations  
-✅ Professional multilingual user experience  
-✅ Native language support and better SEO  
-✅ Full control of data
+## Choosing the right solution
 
-### Useful Non-AI tools
+When planning your i18n strategy, start by matching the solution to your project’s **complexity, content volume, and update frequency**.  
 
-* **[i18next](https://www.i18next.com/)** (JS/React): Manages translations and language switching  
-* **[FormatJS](https://formatjs.io/)**: Dates, numbers, and message formatting  
-* **[Globalize.js](https://github.com/globalizejs/globalize)**: Number/date formatting, message translation, plurals  
-* **[Angular i18n](https://angular.dev/guide/i18n) / [ngx-translate](https://github.com/ngx-translate/core)**: First-class localization for Angular apps, see Rule [Do you add multilingual support (Angular)](https://www.ssw.com.au/rules/add-multilingual-support-on-angular/)
+For many teams, **traditional i18n and l10n tools** are still the best choice. They’re stable, well-documented, and integrate easily into existing workflows.
 
-## AI-tools
+However, as software becomes more dynamic and content-heavy, **AI-powered localization** is emerging as a powerful complement to these traditional methods. AI can analyze your codebase, identify hardcoded strings, suggest i18n keys, and even automate translations across multiple languages. This reduces manual effort and accelerates the entire l10n process.  
 
-### Exploring AI Agents in i18n
+🎥 Check out this video to see how AI can assist developers in creating a fully internationalized website:
 
-Internationalizing an app after you’ve hardcoded strings everywhere is one of the toughest real-world i18n challenges. In this video, Ben Morss shows how **AI agents** can scan your codebase, create i18n keys, and automate translations.
+**Tip:** Watch from 8:10 to 16:40 (8 min)
 
-`youtube: https://youtu.be/YpVnqI5ljgY?si=jPR7PuV9o6gmneH5&t=491`  
-**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (Watch 8:10 – 16:40)**
+`youtube: https://www.youtube.com/watch?v=YpVnqI5ljgY`  
+**Video: Apidays Munich 2025 - AI translation + AI agents = i18n made easy By Ben Morss (18 min)**  
 
-In this part, Ben Morss shows how an AI agent can internationalize a monolingual site by:
+**🔗 Blog:** [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
 
-* Scanning the codebase to detect hardcoded strings
-* Proposing i18n keys and replacing literals with t() function calls.
-* Generating JSON resource files and populating them with translations.
-* Opening a pull request so humans can review and approve.
+### i18n decision tree
 
-🔗 More detail in the related article here: [AI translation + AI agents = i18n made easy (or is it?) - APIscene](https://www.apiscene.io/ai-and-apis/i-agents-i18n-translation-apis/)
+Below is a **decision tree** that can be followed in order to figure out the optimal i18n solution for a given project:
 
-### Choosing the Right i18n Strategy by Project Size
-
-Your i18n strategy should match your project’s size, requirements, and resources. Use the guide below to find the best fit.
-
-#### 1. Small Project - Essentials (POC)  
-
-**Approach:** Minimal setup. Extract strings, machine translate, quick human check.  
-**Stack:** use traditional non-AI i18n approaches  
-
-✅ Cheap, fast, avoids future i18n debt
-❌ Manual releases, limited scalability, brand/tone risks  
-
-#### 2. Medium Project - Step Further with TMS  
-
-**Approach:** Add a lightweight Translation Management System (TMS) like Phrase, Lokalise, or Crowdin. Enables glossary, screenshots, workflows.  
-**Stack:** TMS + pseudolocalization tests.  
-
-✅ Centralized management, easier scaling, better consistency  
-❌ Licensing costs, more process overhead  
-
-#### 3. Large Project - AI in CI/CD
-
-**Approach:** Automate translations in the build pipeline. Machine translate → AI QA pass → human spot-check → auto-commit.  
-**Stack:** CI/CD pipeline + TMS + LLM QA.  
-
-✅ 80/20 automation, faster releases, consistent quality  
-❌ Needs strong CI/CD setup, token costs, prompt governance  
-
-#### 4. Enterprise Project - Full-Blown Live LLM Translation  
-
-**Approach:** Dynamic runtime translations (best for User-Generated Content, long-tail docs). Cache aggressively and use guardrails.  
-**Stack:** LLM API + caching + glossary/do-not-translate rules.  
-
-✅ Instant coverage, great for user content and fast-changing text  
-❌ Latency, cost variability, SEO/quality risks, heavy monitoring needed  
-
-## Summary Table
-
-| Project Size       | Stack Suggestion                 | ✅ Pros                                            | ❌ Cons                                  |
-|--------------------|----------------------------------|------------------------------------------------|------------------------------------------|
-| Small project      | i18next, Angular i18n/ngx-translate| Cheapest way to get started, avoids i18n debt | Manual, hard to scale, tone issues     |
-| Medium project     | TMS (Phrase/Lokalise) + pseudoloc| Centralized control, consistent translations | Adds license cost + extra process      |
-| Large project      | TMS + CI/CD integration + AI QA  | Automation + speed, 80/20 human/AI workflow  | Needs mature CI/CD, token costs        |
-| Enterprise project | TMS for UI + Live LLM for content| Instant coverage for UGC + long-tail pages   | Latency, cost drift, SEO monitoring    |
+![Figure: i18n Decision Tree](i18n-decision-tree.jpg)

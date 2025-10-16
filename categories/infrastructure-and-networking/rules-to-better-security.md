@@ -5,6 +5,7 @@ guid: b665f88f-f71c-4fa9-8c8b-570d62fce515
 uri: rules-to-better-security
 index:
 - choosing-authentication
+- browser-security-patterns
 - use-passkeys
 - remote-desktop-gateway-mfa
 - secure-access-system
@@ -20,6 +21,7 @@ index:
 - use-automatic-key-management-with-duende-identityserver
 - security-email-account
 - do-you-disable-insecure-protocols
+- password-security-recipe
 - password-manager
 - secure-password-share
 - run-services-on-their-own-ad-accounts

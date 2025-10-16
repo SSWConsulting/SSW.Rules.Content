@@ -20,7 +20,7 @@ Building a strong online presence is more important than ever, and keeping track
 
 Monitoring your social media metrics offers invaluable insights, helping you understand your audience, gauge content performance, and enhance your digital influence. Whether it’s tracking your follower growth on YouTube or analyzing post engagement on X (formerly Twitter), each platform offers unique data to drive your online success. Delving into these statistics enables you to make informed decisions, tailor your content strategy, and bolster your personal or professional brand. Embracing the power of social media analytics is a game-changer for anyone looking to thrive in the digital domain.
 
-::: graybox
+::: info
 **💡 Tip:** Use a tool like [Metricool](https://metricool.com/) (they have a free tier) to automatically generate reports for you, as shown in the video below.
 :::
 

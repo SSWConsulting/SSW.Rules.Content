@@ -143,7 +143,7 @@ Disadvantages:
 
 ## 2. IdentityServer (full control)
 
-[Identity Server](https://duendesoftware.com/products/identityserver) is an open-source, OIDC compliant solution that is built on top of ASP.NET Core. It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
+[Identity Server](https://duendesoftware.com/products/identityserver) is an open-source, OIDC compliant solution from [Duende](https://duendesoftware.com/) that is built on top of ASP.NET Core. It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
 
 IdentityServer provides unmatched flexibility and control over your authentication process. While some other options provide ways to execute custom logic as part of a login process, for anything beyond the most basic of scenarios, IdentityServer will be orders of magnitude easier to implement.
 
