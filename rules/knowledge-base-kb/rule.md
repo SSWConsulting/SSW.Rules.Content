@@ -23,20 +23,22 @@ redirects:
   - do-you-have-a-knowledge-base-kb
 ---
 
-Do you know what the most useful thing on Microsoft website is? It is their knowledge base at [support.microsoft.com](https://support.microsoft.com/).
+Established projects typically include several layers of documentation: a **Repo Doc** (or README) for developers, **Technical Docs** for in-depth guidance, a **Knowledge Base (KB)** with Q&A-style articles, and an **Frequently Asked Questions (FAQs)** section for general users.
 
-When a problem arises it should be your first port of call - it allows you to help yourself.
+<!--endintro-->
+
+For example, one of the most useful feature on Microsoft website is their [knowledge base](https://support.microsoft.com/).
+
+When a problem arises, documentation should be your first port of call as it allows you to help yourself.
 
 `youtube: https://www.youtube.com/watch?v=dEO0bIBIZso`  
 **Video: Document your findings | Jeoffrey Fischer | CTF (2 min)**
 
-<!--endintro-->
-
 ## Why you need a Knowledge Base
 
-If you answer questions on your products to customers, you are wasting time if you don't have a Knowledge Base (KB). Just think, you might not be answering Harry's question if he could have looked it up himself.
+If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning they wouldn’t have to contact you in the first place.
 
-Now of course there are many customers who don't look for a KB, but instead, you fire off the same old email that you already know.
+Sure, some customers will always reach out directly. But with a KB in place, you can drastically reduce repetitive emails and focus on solving the truly unique problems.
 
 ## How to respond to support emails
 
@@ -55,20 +57,20 @@ The basic rule is: don't send back the answer in your email - instead send back 
 
 **Dear Harry,**
 
-Thanks for reporting this issue to TinaCMS. I'm happy to let you know that this is a known issue and has been addressed in our knowledge base: {{ LINK }}
+Thanks for reporting this issue to TinaCMS. I'm happy to let you know that this is a known issue and has been addressed in our our [Knowledge Base](https://tina.io/docs/).
 
 Thanks,  
 Bob
 :::
 ::: good
-Figure: Example #1 - Responding to a known issue when the KB is already updated  
+Figure: Good example - Responding to a known issue when the KB is already updated  
 :::
 
 ::: greybox
 
 **Dear Harry,**
 
-Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our knowkedge base: {{ LINK }}
+Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our [Knowledge Base](https://tina.io/docs/).
 
 Please let me know if this has resolved your issue.
 
@@ -76,7 +78,7 @@ Thanks,
 Bob
 :::
 ::: good
-Figure: Example #2 - Responding to a known issue when you need to update to the KB  
+Figure: Good example - Responding to a known issue when you need to update to the KB
 :::
 
 ::: greybox
@@ -85,61 +87,40 @@ Figure: Example #2 - Responding to a known issue when you need to update to the 
 
 Thank you for taking the time to report the issue to TinaCMS.
 
-I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams
+I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams.
 
 Kind Regards,  
 Bob
 
 :::
 ::: good
-Figure: Example #3 - Responding when you cannot reproduce the issue  
+Figure: Good example - Responding when you cannot reproduce the issue
 :::
 
 ::: greybox
 
 **Dear Harry,**
-
-Done. The code changed from
-
-{{ XXX }}
-
-to
-
-{{ YYY }}
 
 Thank you for reporting this bug - our software only gets better with help from our customers. This fix will be available in the next version shortly.
 
+You can follow our [version history page](https://tina.io/whats-new/tinacms).
+
 Kind Regards,  
 Bob
 
 :::
 ::: good
-Figure: Example #4 - Informing of a fix (Email 1 of 2)
+Figure: Good example - Informing user of a fix
 :::
-
-**Note:** In this email, you can offer them an interim build.
-
-::: greybox
-
-**Dear Harry,**
-
-Thank you for taking the time to report the issue to TinaCMS. I'm happy to let you know that this problem is fixed in this release.
-
-Please download the new version at {{ LINK }}
-
-Kind Regards,
-Bob
-
-:::
-::: good
-Figure: Example #5 - Informing of a new version (Email 2 of 2)  
-:::
-
-Notice how by just giving them the URL, this email encourages them to use your Knowledge Base in the future. You need to make sure the support staff knows that there are really only 5 types of emails customers should be receiving (see 5 grey boxes above).
 
 ::: info
-⚠️ **Important:** Don't write a KB article if fixing the bug and making a new version solves the problem.  
-You'll have to fix the problem anyway, so don't waste time writing a KB — just email the new version.
+**Note:** If the user is technical, you might want to include code changes.
+:::
+
+See how by just giving them the URL, these emails encourages them to use your documentation in the future. You need to make sure the support staff are aware they should send these types of emails to customers.
+
+::: info
+**Important:** Don't write a KB article if fixing the bug and making a new version solves the problem. You'll have to fix the problem anyway, so don't waste time writing a KB — just email the new version.
 :::
 
 ## What to include in your Knowledge Base
@@ -148,9 +129,11 @@ Things are running well when you have support staff adding new KB for:
 
 * Known issues
 * Hot tips
-* Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it.
+* Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it
 
-Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing. This way our customers know of our exciting features coming in future versions of our software.
+Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing.
+
+This way our customers know of our exciting features coming in future versions of our software.
 
 ## Responding to feature suggestions
 
@@ -160,14 +143,30 @@ Focus on getting a version out. It is usually more important to have a version a
 
 Thanks for the suggestion for TinaCMS!
 
-I have added it to the list of future developments (which we call our backlog). Future features can be voted on at uservoice.com
+This has been added it to our [GitHub Discussions](https://github.com/tinacms/tinacms/discussions), where it will be reviewed and considered for inclusion in our backlog.
 
 Thanks,
 Bob
 
 :::
 ::: good
-Figure: Responding to a feature suggestion
+Figure: Good example - Responding to a feature request
+:::
+
+::: greybox
+
+**Dear Harry,**
+
+Thank you for taking the time to submit a feature request to YakShaver. This feature is already part of our [YakShaver roadmap](https://yakshaver.ai/roadmap)
+
+We’ll keep you updated as progress is made and appreciate your input in helping shape our future releases.
+
+Kind Regards,
+Bob
+
+:::
+::: good
+Figure: Good example - Responding to a feature request which is part of the roadmap
 :::
 
 ## Where to host your Knowledge Base
@@ -184,7 +183,7 @@ You don't need to be Microsoft to build a KB. A Knowledge Base does not need to 
 
 ## Tips for maintaining a useful Knowledge Base
 
-* Keep articles concise, accurate, and up to date.  
-* Use searchable titles and keywords.  
-* Link related KBs to improve discoverability.  
-* Periodically review and retire outdated content.
+* Keep articles concise, accurate, and up to date  
+* Use searchable titles and keywords  
+* Link related KBs to improve discoverability
+* Periodically review and retire outdated content
