@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you follow up with your attendees after events?
 guid: 21ad17e7-c3a6-4548-b11c-b3af7cd0cde3
-uri: events-follow-up
+uri: event-follow-up
 created: 2014-12-31T00:46:18.0000000Z
 authors:
   - title: Penny Walker
