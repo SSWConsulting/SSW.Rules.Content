@@ -24,9 +24,9 @@ This can be done through Outlook or Teams, and it will appear on your Calendar i
 
 1. Open the settings in your preferred app:
 
-* **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
-* **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
-* **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
+  * **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
+  * **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
+  * **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
 
 2. If you haven't already, set your working days and hours - as per [Calendar - Do you set your work hours in CRM and your Outlook calendar?](https://www.ssw.com.au/rules/calendar-do-you-set-your-work-hours-in-your-calendars/)
 3. Select **Office** or **Remote** for each of your working days
@@ -45,7 +45,7 @@ Remember to update your location if it changes.
 
 ## View your colleagues' locations
 
-To see if your colleagues are in the office or working remotely, simply view their calendar in Outlook or Teams.
+To see if your colleagues are planned in the office or remote, simply view their calendar in Outlook or Teams.
 
 For a view of everyone you work with and their location, head to https://places.cloud.microsoft and select **Show in office summary**.
 
