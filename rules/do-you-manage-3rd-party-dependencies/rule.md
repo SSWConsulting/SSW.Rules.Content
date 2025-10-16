@@ -29,9 +29,13 @@ Many of these services are completely blocked inside other countries. China, in 
 * YouTube
 * Vimeo
 * Twitter
+* Instagram
 * LinkedIn
+* ChatGPT
+* Gemini
+* Grok
 
-Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria) and YouTube (e.g. Pakistan, Syria).
+Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria), ChatGPT (e.g. Russia, Cuba, North Korea) and YouTube (e.g. Pakistan, Syria).
 
 ![Figure: Blocked sites](social-media-blocked.png)
 
