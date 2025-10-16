@@ -1,20 +1,28 @@
 ---
 type: rule
 tips: ""
-title: Do you include all the essential details when reporting a defect to the Property Manager?
-seoDescription: Always include key details when reporting a defect to the Property Manager — clear, complete reports improve turnaround time, communication, and follow-up.
-uri: report-defects-to-property-manager
+title: Do you know the best way to report an office defect?
+seoDescription: Always include key details when reporting a defect to the
+  Property Manager — clear, complete reports improve turnaround time,
+  communication, and follow-up.
+uri: report-defects
 authors:
   - title: Anastasia Cogan
     url: https://www.ssw.com.au/people/anastasia-cogan
   - title: Marina Gerber
     url: https://www.ssw.com.au/people/marina-gerber
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook/
 related:
   - supervise-tradespeople
 created: 2025-10-07T11:34:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
 ---
-When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action. Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
+When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action.  Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
+
+::: info
+**Tip:** Make sure to follow the rule: Office environment - [Do you label broken equipment?](https://www.ssw.com.au/rules/label-broken-equipment/)
+:::
 
 <!--endintro-->
 
