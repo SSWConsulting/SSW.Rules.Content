@@ -63,7 +63,7 @@ Thanks,
 Bob
 :::
 ::: good
-Figure: Example #1 - Responding to a known issue when the KB is already updated  
+Figure: Good example - Responding to a known issue when the KB is already updated  
 :::
 
 ::: greybox
@@ -78,7 +78,7 @@ Thanks,
 Bob
 :::
 ::: good
-Figure: Example #2 - Responding to a known issue when you need to update to the KB
+Figure: Good example - Responding to a known issue when you need to update to the KB
 :::
 
 ::: greybox
@@ -87,14 +87,14 @@ Figure: Example #2 - Responding to a known issue when you need to update to the 
 
 Thank you for taking the time to report the issue to TinaCMS.
 
-I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams
+I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams.
 
 Kind Regards,  
 Bob
 
 :::
 ::: good
-Figure: Example #3 - Responding when you cannot reproduce the issue
+Figure: Good example - Responding when you cannot reproduce the issue
 :::
 
 ::: greybox
@@ -110,14 +110,15 @@ to
 {{ YYY }}
 
 Thank you for reporting this bug - our software only gets better with help from our customers. This fix will be available in the next version shortly.
-You can follow our version history [here.](https://tina.io/whats-new/tinacms)
+
+You can follow our [version history page](https://tina.io/whats-new/tinacms).
 
 Kind Regards,  
 Bob
 
 :::
 ::: good
-Figure: Example #4 - Informing of a fix if user is technical
+Figure: Good example - Informing of a fix if user is technical
 :::
 
 ::: greybox
@@ -126,14 +127,14 @@ Figure: Example #4 - Informing of a fix if user is technical
 
 Thank you for taking the time to report the issue to YakShaver. I'm happy to let you know that this problem is fixed in this release.
 
-Note that this is an MCP so you will need to download the latest version here
+**Note:** This is an MCP so you will need to download the latest version: {{ LINK }}.
 
 Kind Regards,
 Bob
 
 :::
 ::: good
-Figure: Example #5 - Informing of a new version to non-technical user
+Figure: Good example - Informing of a new version to non-technical user
 :::
 
 Notice how by just giving them the URL, this email encourages them to use your Knowledge Base in the future. You need to make sure the support staff knows that there are really only 5 types of emails customers should be receiving (see 5 grey boxes above).
@@ -149,9 +150,11 @@ Things are running well when you have support staff adding new KB for:
 
 * Known issues
 * Hot tips
-* Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it.
+* Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it
 
-Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing. This way our customers know of our exciting features coming in future versions of our software.
+Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing. 
+
+This way our customers know of our exciting features coming in future versions of our software.
 
 ## Responding to feature suggestions
 
@@ -168,7 +171,7 @@ Bob
 
 :::
 ::: good
-Figure: Example #1 - Responding to a feature request
+Figure: Good example - Responding to a feature request
 :::
 
 ::: greybox
@@ -184,7 +187,7 @@ Bob
 
 :::
 ::: good
-Figure: Example #2 - Responding to a feature request which is part of the roadmap
+Figure: Good example - Responding to a feature request which is part of the roadmap
 :::
 
 ## Where to host your Knowledge Base
@@ -201,7 +204,7 @@ You don't need to be Microsoft to build a KB. A Knowledge Base does not need to 
 
 ## Tips for maintaining a useful Knowledge Base
 
-* Keep articles concise, accurate, and up to date.  
-* Use searchable titles and keywords.  
-* Link related KBs to improve discoverability.  
-* Periodically review and retire outdated content.
+* Keep articles concise, accurate, and up to date  
+* Use searchable titles and keywords  
+* Link related KBs to improve discoverability 
+* Periodically review and retire outdated content
