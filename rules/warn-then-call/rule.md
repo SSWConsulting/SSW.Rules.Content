@@ -105,12 +105,12 @@ For [cross approvals](/cross-approvals), pinging the approvers with their priori
 Calling you in 2 minutes to review a code change - Code Master (3/5)
 :::
 ::: good
-Good example - Includes priority order numbers to share how many other approvers you have attempted to contact 
+Good example - Includes priority order numbers to share how many other approvers you have attempted to contact
 :::
 
 ### Option D: Add a screenshot
 
-If you need to give more context than just text, sending a screenshot is a good option. If your call relates to an email, include the subject line. 
+If you need to give more context than just text, sending a screenshot is a good option. If your call relates to an email, include the subject line.
 
 ::: good
 ![Figure: Good example - A screenshot and subject includes context and makes it easy to search a inbox](warn-with-screenshot.png)
@@ -120,16 +120,16 @@ If you need to give more context than just text, sending a screenshot is a good 
 
 ::: greybox
 Calling in 5 minutes regarding:
- 
+
 **From:** Pat Stuart\
 **Sent:** Tuesday, 14 October 2025 12:35 PM\
 **To:** Harkirat Singh\
 **Subject:** Rules Content Update
- 
+
 Hi Hark,
- 
-As per our conversation, I would like you to update the rules content at: https://www.ssw.com.au/rules/warn-then-call/
- 
+
+As per our conversation, I would like you to update the rules content at: <https://www.ssw.com.au/rules/warn-then-call/>
+
 Update the content with more examples.
 :::
 ::: good
