@@ -27,10 +27,12 @@ isArchived: false
 
 <introEmbed
   body={<>
-Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users. These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
+Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users.
+
+These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
   </>}
 />
-## Use a consistent color - red for danger
+## Use red for danger consistently
 
 Destructive buttons should always stand out with a **red color**. This is a well-established visual convention that immediately signals danger to users.
 
@@ -39,8 +41,8 @@ Destructive buttons should always stand out with a **red color**. This is a well
 
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
     preset: "badExample",
     figure: "Bad example - Wrong color for a destructive button",
@@ -51,14 +53,14 @@ Destructive buttons should always stand out with a **red color**. This is a well
 
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
+  size="medium"
+  showBorder={true}
   figureEmbed={ {
     preset: "goodExample",
     figure: "Good example - Red is the right color for a destructive button",
     shouldDisplay: true
   } }
-  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-icon.png"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-color.png"
 />
 
 <asideEmbed
@@ -68,7 +70,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
 
 * The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
 * Consistency is maintained across all UI elements
-* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon.
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
   </>}
   figureEmbed={{
     preset: "default",
@@ -91,7 +93,7 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
   showBorder={false}
   figureEmbed={ {
     preset: "badExample",
-    figure: "Bad example - Cross icon usually means “cancel” and should be avoided for permanent deletion. The icon is also wrongly positioned on the right",
+    figure: "Bad example - Cross icon usually means \"Cancel\" and should be avoided for permanent deletion. The icon is also wrongly positioned on the right",
     shouldDisplay: true
   } }
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-icon.png"

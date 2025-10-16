@@ -18,6 +18,7 @@ related:
   - professional-integrity-tools
   - creating-action-items
   - tofu
+  - warn-then-call
 redirects:
   - follow-up-emails-effectively
   - do-you-follow-up-emails-effectively

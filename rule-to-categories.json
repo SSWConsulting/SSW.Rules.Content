@@ -59,6 +59,9 @@
     "make-your-website-llm-friendly": [
         "rules-to-better-ai-development"
     ],
+    "dataverse-ai-options": [
+        "rules-to-better-ai-development"
+    ],
     "when-to-use-ai-generated-images": [
         "rules-to-better-ai-generated-media"
     ],
@@ -829,9 +832,6 @@
     "do-you-enjoy-your-job": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
-    "do-you-create-a-report-whenever-you-need-a-number-from-a-system": [
-        "rules-to-better-software-consultants-working-in-a-team"
-    ],
     "do-you-give-120-when-deadlines-are-tight": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
@@ -846,13 +846,6 @@
         "rules-to-better-giving-and-taking-feedback"
     ],
     "do-you-only-do-what-you-think-is-right": [
-        "rules-to-better-software-consultants-working-in-a-team"
-    ],
-    "dress-code": [
-        "rules-to-better-software-consultants-working-in-a-team",
-        "rules-to-better-offices"
-    ],
-    "do-you-have-your-mobile-phone-on-vibrate": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
     "give-enough-notice-for-annual-leave": [
@@ -895,10 +888,6 @@
     "do-you-use-voice-recordings-when-appropriate": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
-    "efficiency-do-you-use-two-monitors": [
-        "rules-to-better-software-consultants-working-in-a-team",
-        "rules-to-better-remote-work"
-    ],
     "hand-over-responsibilities": [
         "rules-to-better-software-consultants-working-in-a-team",
         "rules-to-successful-projects"
@@ -925,9 +914,6 @@
     "request-a-test-please": [
         "rules-to-better-software-consultants-working-in-a-team",
         "rules-to-successful-projects"
-    ],
-    "quality-do-you-only-deploy-after-a-test-please": [
-        "rules-to-better-software-consultants-working-in-a-team"
     ],
     "quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisation": [
         "rules-to-better-software-consultants-working-in-a-team"
@@ -1194,6 +1180,13 @@
         "rules-to-better-technical-documentation",
         "rules-to-better-control4"
     ],
+    "set-working-location": [
+        "rules-to-better-calendars"
+    ],
+    "warn-then-call": [
+        "rules-to-better-communication",
+        "rules-to-better-im"
+    ],
     "keep-tasks-handy-for-calls": [
         "rules-to-better-communication"
     ],
@@ -1278,6 +1271,10 @@
         "rules-to-better-email",
         "rules-to-better-inbox-management"
     ],
+    "include-links-in-dones": [
+        "rules-to-better-email",
+        "rules-to-better-scrum"
+    ],
     "send-to-myself-emails": [
         "rules-to-better-email"
     ],
@@ -1345,9 +1342,6 @@
         "rules-to-better-email"
     ],
     "seek-clarification-via-phone": [
-        "rules-to-better-email"
-    ],
-    "include-links-in-emails": [
         "rules-to-better-email"
     ],
     "dones-do-you-reply-done-using-team-companion-when-using-tfs": [
@@ -1620,9 +1614,6 @@
         "rules-to-better-im"
     ],
     "if-communication-is-not-simple-call-the-person-instead-of-im": [
-        "rules-to-better-im"
-    ],
-    "warn-then-call": [
         "rules-to-better-im"
     ],
     "investigate-your-question-for-two-minutes-before-asking-someone-on-im": [
@@ -2363,6 +2354,9 @@
     "information-intelligence-wisdom": [
         "rules-to-better-business-intelligence"
     ],
+    "do-you-create-a-report-whenever-you-need-a-number-from-a-system": [
+        "rules-to-better-business-intelligence"
+    ],
     "use-by-rather-than-per-in-your-chart-titles": [
         "rules-to-better-business-intelligence"
     ],
@@ -2570,8 +2564,9 @@
     "encourage-daily-exercise": [
         "rules-to-better-health-and-exercise-in-the-workplace"
     ],
-    "do-you-know-the-dangers-of-sitting": [
-        "rules-to-better-health-and-exercise-in-the-workplace"
+    "the-dangers-of-sitting": [
+        "rules-to-better-health-and-exercise-in-the-workplace",
+        "rules-to-better-offices"
     ],
     "healthy-office-food": [
         "rules-to-better-health-and-exercise-in-the-workplace"
@@ -2636,33 +2631,48 @@
     "continuous-learning": [
         "rules-to-better-office-operations"
     ],
-    "do-you-colour-code-your-keys": [
-        "rules-to-better-offices"
-    ],
-    "do-you-identify-your-online-purchases": [
-        "rules-to-better-offices"
-    ],
-    "manage-office-signs": [
-        "rules-to-better-offices"
-    ],
-    "employee-yolo-day": [
-        "rules-to-better-offices"
-    ],
     "reduce-office-noise": [
-        "rules-to-better-offices"
-    ],
-    "bring-water-to-guests": [
-        "rules-to-better-offices"
-    ],
-    "cultural-exchange": [
         "rules-to-better-offices"
     ],
     "desk-setups": [
         "rules-to-better-offices"
     ],
+    "efficiency-do-you-use-two-monitors": [
+        "rules-to-better-offices",
+        "rules-to-better-remote-work"
+    ],
     "google-maps-profile": [
         "rules-to-better-offices",
         "rules-to-better-marketing"
+    ],
+    "do-you-identify-your-online-purchases": [
+        "rules-to-better-offices"
+    ],
+    "phone-on-silent": [
+        "rules-to-better-offices"
+    ],
+    "bring-water-to-guests": [
+        "rules-to-better-offices"
+    ],
+    "secure-access-system": [
+        "rules-to-better-offices",
+        "rules-to-better-control4",
+        "rules-to-better-security"
+    ],
+    "do-you-colour-code-your-keys": [
+        "rules-to-better-offices"
+    ],
+    "cultural-exchange": [
+        "rules-to-better-offices"
+    ],
+    "employee-yolo-day": [
+        "rules-to-better-offices"
+    ],
+    "manage-office-signs": [
+        "rules-to-better-offices"
+    ],
+    "dress-code": [
+        "rules-to-better-offices"
     ],
     "do-you-do-daily-check-in-ins": [
         "rules-to-better-personal-assistants-pa"
@@ -3245,6 +3255,9 @@
     "definition-of-done": [
         "rules-to-successful-projects",
         "rules-to-better-scrum"
+    ],
+    "quality-do-you-only-deploy-after-a-test-please": [
+        "rules-to-successful-projects"
     ],
     "acceptance-criteria": [
         "rules-to-successful-projects",
@@ -4391,10 +4404,6 @@
     "control4-separate-user-accounts": [
         "rules-to-better-control4"
     ],
-    "secure-access-system": [
-        "rules-to-better-control4",
-        "rules-to-better-security"
-    ],
     "do-you-backup-your-control4-projects-to-the-cloud": [
         "rules-to-better-control4"
     ],
@@ -4516,7 +4525,7 @@
     "do-you-use-fixed-disks": [
         "rules-to-better-hyper-v"
     ],
-    "use-Generation-2-VMs": [
+    "use-generation-2-vms": [
         "rules-to-better-hyper-v"
     ],
     "do-you-use-basic-volumes-inside-vhds": [
@@ -4812,6 +4821,9 @@
         "rules-to-better-security"
     ],
     "do-you-disable-insecure-protocols": [
+        "rules-to-better-security"
+    ],
+    "password-security-recipe": [
         "rules-to-better-security"
     ],
     "block-lsass-credential-dumping": [
@@ -5476,7 +5488,7 @@
         "rules-to-better-event-management",
         "rules-to-running-better-user-groups"
     ],
-    "follow-up": [
+    "event-follow-up": [
         "rules-to-better-event-management"
     ],
     "evaluate-your-event-feedback": [
@@ -6787,6 +6799,9 @@
         "rules-to-better-github",
         "rules-to-better-scrum-using-github"
     ],
+    "handle-duplicate-pbis": [
+        "rules-to-better-github"
+    ],
     "close-pbis-with-context": [
         "rules-to-better-github",
         "rules-to-better-scrum-using-github"
@@ -6996,10 +7011,10 @@
     "prioritize-value-streams-over-individual-projects": [
         "rules-to-better-scaled-agile-framework"
     ],
-    "establish-a-Lean-Agile-mindset-across-all-teams": [
+    "establish-a-lean-agile-mindset-across-all-teams": [
         "rules-to-better-scaled-agile-framework"
     ],
-    "implement-DevOps-practices-for-continuous-delivery": [
+    "implement-devops-practices-for-continuous-delivery": [
         "rules-to-better-scaled-agile-framework"
     ],
     "utilize-a-release-train": [

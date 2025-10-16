@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Calling - Do you warn then call?
-seoDescription: Do you warn someone before calling them? A warm call can be a
-  game-changer, prioritizing their attention and ensuring they're prepared to
-  discuss important topics.
+seoDescription: Do you warn someone before calling them? A warm call can be a game-changer, prioritizing their attention and ensuring they're prepared to discuss important topics.
 uri: warn-then-call
 authors:
   - title: Adam Cogan
@@ -18,6 +16,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - no-hello
+  - follow-up-effectively
   - appointments-throw-it-in-their-calendar
   - as-per-our-conversation-emails
   - when-to-email-chat-call-or-meet
@@ -69,8 +68,7 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 <asideEmbed
   variant="info"
   body={<>
-    **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting
-e.g. a Sprint Review
+    **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting. E.g. a Sprint Review
 ![Figure: Check their status first](/uploads/rules/warn-then-call/team-status-1.jpg)
   </>}
   figureEmbed={{
@@ -80,7 +78,51 @@ e.g. a Sprint Review
   }}
 />
 
+## Giving context
+
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
+
+### Option A: No context
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Calling in 1 minute.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - The recipient has no idea what you are calling about",
+  shouldDisplay: true
+} } />
+
+
+### Option B: Generic context
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Calling in 1 minute about the SysAdmin candidate.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "OK example - Includes context although the other person can't easily find out more",
+  shouldDisplay: true
+} } />
+
+
+### Option C: Specific context
 
 <asideEmbed
   variant="greybox"
@@ -102,7 +144,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
 } } />
 
 
-**Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
+**Tip:** For the example above, PBIs often have long URLs. [Include a line break](format-new-lines/#urls) for better readability.
 
 <asideEmbed
   variant="greybox"
@@ -119,7 +161,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
 />
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
-  figure: "Good example - Includes email subject for reference and doesn't leave anyone waiting",
+  figure: "Good example - Includes email subject for reference",
   shouldDisplay: true
 } } />
 
@@ -144,7 +186,56 @@ For [cross approvals](/cross-approvals), pinging the approvers with their priori
 } } />
 
 
-## Using Outlook | Share to Teams
+### Option D: Add a screenshot
+
+If you need to give more context than just text, sending a screenshot is a good option. If your call relates to an email, include the subject line.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A screenshot and subject includes context and makes it easy to search a inbox",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/warn-then-call/warn-with-screenshot.png"
+/>
+
+### Option E: Include email header/content in text
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Calling in 5 minutes regarding:
+
+**From:** Pat Stuart\
+**Sent:** Tuesday, 14 October 2025 12:35 PM\
+**To:** Harkirat Singh\
+**Subject:** Rules Content Update
+
+Hi Hark,
+
+As per our conversation, I would like you to update the rules content at: [https://www.ssw.com.au/rules/warn-then-call/](https://www.ssw.com.au/rules/warn-then-call/)
+
+Update the content with more examples.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Forwarding then copying an email includes context by sharing the email and providing participant details",
+  shouldDisplay: true
+} } />
+
+
+### Option F: Use "Share to Teams" button
+
+If you want to be extra clear, include the email with thread participants or a link to the email, especially when the thread includes multiple people or has similar subjects.
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
@@ -173,7 +264,7 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
   src="/uploads/rules/warn-then-call/share-to-teams.png"
 />
 
-### What if your call is declined/not answered?
+## What if your call is declined/not answered?
 
 When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
@@ -197,15 +288,16 @@ When a call is declined, it is important to follow up in order to ensure the tas
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
 
-### ❌ Blocked - What if you are blocked and can't reach the person for a whole day?
+## What if you are ❌ blocked and can't reach the person for a whole day?
 
-If you couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
+If you still couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
 <asideEmbed
   variant="greybox"
   body={<>
     "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with &#123;&#123; THE RECOMMENDATION &#125;&#125; tomorrow.
 (checked by &#123;&#123; APPROVER &#125;&#125;).
+
 Please get back to me if you prefer another way."
   </>}
   figureEmbed={{

@@ -40,9 +40,12 @@ WebResponse response = request.GetResponse();
      }
 ```
 
-:::
-Figure: Bad example - Invoke web method by the normal way (because this will hang your UI thread)
-:::
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Invoke web method by the normal way (because this will hang your UI thread)",
+  shouldDisplay: true
+} } />
+
 
 The correct way to invoke web method is using asynchronous call to send a request and use the delegated CallBack method to read the response, see code below:
 
