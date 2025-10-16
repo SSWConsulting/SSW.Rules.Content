@@ -1,16 +1,20 @@
 ---
-seoDescription: Set up your calendar to accurately track your availability and boost team collaboration by setting work hours, sharing calendars, allowing admin access, and sending leave appointments.
 type: rule
-archivedreason:
 title: Calendar - Does your calendar always accurately show where you are?
-guid: adaf5467-2e05-413d-a424-162034ecf679
+seoDescription: Set up your calendar to accurately track your availability and
+  boost team collaboration by setting work hours, sharing calendars, allowing
+  admin access, and sending leave appointments.
 uri: calendar-does-your-calendar-always-accurately-show-where-you-are
-created: 2012-09-25T18:11:12.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - set-working-location
+  - know-where-your-staff-are
 redirects: []
+created: 2012-09-25T18:11:12.000Z
+archivedreason: null
+guid: adaf5467-2e05-413d-a424-162034ecf679
 ---
 
 The following steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.
