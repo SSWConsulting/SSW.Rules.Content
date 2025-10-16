@@ -22,14 +22,17 @@ The text swing in can be a great way to make a title gain attention, but if the 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - this does not simulate gravity and will be jarring to the viewer](TextExpression-AfterEffects-TheSwingIn_BadExample.jpg)  
+![Figure: Bad example - This does not simulate gravity and will be jarring to the viewer](TextExpression-AfterEffects-TheSwingIn_BadExample.jpg)  
 :::
 
 ::: good
-![Figure: Good Example - Angle/time graphic for "swing in" effect](TextExpression-AfterEffects-TheSwingIn.jpg)  
+![Figure: Good example - Angle/time graphic for "swing in" effect](TextExpression-AfterEffects-TheSwingIn.jpg)  
 :::
+
+## Example 
 
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw?t=7s`
 
 ::: good
 Video: Good example – A well designed 'swing-in' effect can bring your titles to life - See 00:07
+:::
