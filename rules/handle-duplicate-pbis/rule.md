@@ -17,7 +17,7 @@ guid: 85612086-fd82-4d02-abd0-baf0b310004a
 
 When working on a GitHub backlog, it’s common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
 
-If left unmanaged, these duplicates clutter the backlog, confuse priorities, and lead to wasted effort. A clean backlog is easier to maintain, track, and report on.  
+Backlog - Duplicates clutter the backlog and can lead to wasted effort. A clean backlog is easier to maintain. But it's also important to make sure everyone stays informed on their reported issues.
 
 <!--endintro-->
 
@@ -27,11 +27,11 @@ A cluttered backlog slows progress and makes it hard for the team to focus on wh
 
 The best practice is to close duplicate PBIs so that there is **only one active PBI per issue**. This ensures all relevant details, conversations, and notifications remain centralized, while still ensuring everyone who reported the issue stays informed.
 
-### Keep reporters informed
+### Keep bug reporters informed
 
-When a PBI is closed as a duplicate, the person who raised it will **not** automatically receive updates when the main issue is completed. To maintain transparency and show respect for the reporter’s contribution, always ensure they are kept informed.
+When a PBI is closed as a duplicate, the person who raised it will **not** automatically receive updates when the main issue is completed. To maintain transparency and show respect for the bug reporter’s contribution, always ensure they are kept informed.
 
-The simplest way to do this is to **@mention the reporter** in the main (active) PBI when closing the duplicate. This ensures they receive notifications about progress and resolution.
+The simplest way to do this is to **@mention the reporting user** in the main (active) PBI when closing the duplicate. This ensures they receive notifications about progress and resolution.
 
 ## How to manage duplicate PBIs
 
@@ -97,4 +97,4 @@ If your project frequently encounters duplicates, consider automating this workf
 * Link duplicates clearly
 * Notify all reporters on completion
 
-By consistently managing duplicates this way, your backlog stays clean, your team stays aligned, and every contributor feels informed and valued.
+By consistently managing duplicates this way, your backlog stays clean and nobody is kept in the dark on their reported issues.
