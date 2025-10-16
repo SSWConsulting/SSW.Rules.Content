@@ -36,7 +36,7 @@ When a problem arises, documentation should be your first port of call as it a
 
 ## Why you need a Knowledge Base
 
-If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning them wouldn’t have to contact you in the first place.
+If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning they wouldn’t have to contact you in the first place.
 
 Sure, some customers will always reach out directly. But with a KB in place, you can drastically reduce repetitive emails and focus on solving the truly unique problems.
 
