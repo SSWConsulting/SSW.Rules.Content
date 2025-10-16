@@ -27,6 +27,9 @@ Do you know what the most useful thing on Microsoft website is? It is their kno
 
 When a problem arises it should be your first port of call - it allows you to help yourself.
 
+`youtube: https://www.youtube.com/watch?v=dEO0bIBIZso`  
+**Video: Document your findings | Jeoffrey Fischer | CTF (2 min)** 
+
 <!--endintro-->
 
 ## Why you need a Knowledge Base
