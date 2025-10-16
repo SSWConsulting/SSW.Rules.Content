@@ -18,6 +18,7 @@ created: 2012-09-25T18:08:17.000Z
 archivedreason: null
 guid: 9ddc3832-9a7c-4a2a-a60a-f24f44dca17f
 ---
+
 Setting up an Outlook calendar can be highly beneficial not just for you, but also for others who need to see your availability. By sharing your calendar with your colleagues, they can easily see when you are free or busy and can schedule meetings or appointments with you.
 
 This can avoid scheduling conflicts, especially when different people work different hours. For example, if the company has standard hours (9am to 6pm), when someone is working different hours (say 8am to 5pm) it is desirable to have this visible in Outlook for others making an appointment.
@@ -32,16 +33,30 @@ You should always set your working hours in your Outlook calendar so others know
 * ✅ Allow for better company resource scheduling  
 * ✅ Communicate better with part time employees and contractors
 
-1. Open the settings in your preferred app:
+### On Windows OS
 
-* **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
-* **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
-* **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
+1. Go to your [Outlook calendar](https://outlook.office.com/calendar)
 
-2. Set your days and hours
-3. While you're here, why not set your location as well - as per: [Calendar - Do you set your working location?](https://www.ssw.com.au/rules/set-working-location/)[](https://www.ssw.com.au/rules/set-working-location/)
+2. Click on **File | Options**
+   ![Figure: Options tab on Outlook settings | Windows OS](windows-os-guide-step-3.png)
 
-![Figure: Outlook on the web | Set your working days, hours, and location](work-location.png)
+3. Click on **Calendar**
+   ![Figure: Calendar tab on outlook options | Windows OS](windows-os-guide-step-4.png)
+
+4. Set your work hours
+   ![Figure: Modification of work hours in outlook settings | Windows OS](windows-os-guide-step-5.png)
+
+### On macOS
+
+1. Go to your [Outlook calendar](https://outlook.office.com/calendar/)
+2. Click on **Settings**
+   ![Figure: Settings icon on outlook | macOS](macos-guide-step-2.jpg)
+
+3. Click on **Calendar**
+   ![Figure: Calendar tab on outlook settings | macOS](macos-guide-step-3.jpg)
+
+4. Set your work hours
+   ![Figure: Modification of work hours in outlook settings | macOS](macos-guide-step-4.jpg)
 
 Once you set this up, you will be able to see the grey area in "Scheduling assistant" so you know what's the best time to book that person.
 
