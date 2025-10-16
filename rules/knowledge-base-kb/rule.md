@@ -35,7 +35,6 @@ If you answer questions on your products to customers, you are wasting time if y
 
 Now of course there are many customers who don't look for a KB, but instead, you fire off the same old email that you already know.
 
-
 ## How to respond to support emails
 
 The basic rule is: don't send back the answer in your email - instead send back the link. More specifically:
@@ -67,7 +66,7 @@ Figure: Example #1 - Responding to a known issue when the KB is already updated
 **Dear Harry,**
 
 Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our knowkedge base: {{ LINK }}
- 
+
 Please let me know if this has resolved your issue.
 
 Thanks,  
@@ -140,7 +139,6 @@ Notice how by just giving them the URL, this email encourages them to use your K
 You'll have to fix the problem anyway, so don't waste time writing a KB — just email the new version.
 :::
 
-
 ## What to include in your Knowledge Base
 
 Things are running well when you have support staff adding new KB for:
@@ -150,7 +148,6 @@ Things are running well when you have support staff adding new KB for:
 * Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it.
 
 Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing. This way our customers know of our exciting features coming in future versions of our software.
-
 
 ## Responding to feature suggestions
 
@@ -170,7 +167,6 @@ Bob
 Figure: Responding to a feature suggestion
 :::
 
-
 ## Where to host your Knowledge Base
 
 You don't need to be Microsoft to build a KB. A Knowledge Base does not need to be complicated but it needs to be **easily accessible**.
@@ -186,7 +182,6 @@ Figure: Create a wiki page on TinaCMS e.g. [TinaDocs](https://tina.io/tinadocs/d
 ::: good
 ![Figure: Good example - TinaCMS Docs page](https://user-images.githubusercontent.com/67776356/233515514-b81668ee-e0a7-49e5-a09e-595e895ef303.png)
 :::
-
 
 ## Tips for maintaining a useful Knowledge Base
 
