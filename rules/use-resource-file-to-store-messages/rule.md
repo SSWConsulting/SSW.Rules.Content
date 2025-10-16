@@ -26,7 +26,7 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 Bad example of a constant message
 :::
 
-::: good\
+::: good
 ![Figure: Saving constant message in Resource](BetterCode_ConstantMessages.gif)
 :::
 

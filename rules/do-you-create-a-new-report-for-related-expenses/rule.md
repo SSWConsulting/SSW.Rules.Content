@@ -22,13 +22,13 @@ Expensify lets you separate your expenses into different folders to avoid confus
 <!--endintro-->
 
 ::: img-medium bad
-![Bad example: Two unrelated expenses in the same folder, this can be confusing to Accounts Staff](Expensify6.PNG)
+![Figure: Bad example - Two unrelated expenses in the same folder, this can be confusing to Accounts Staff](Expensify6.PNG)
 :::
 
 Expensify lets you create new reports so that you can separate your receipts and reports.
 
 ::: img-medium good
-![Good example: Expenses separated into different folders - easier to claim and track what your receipts were for!](Expensify9.PNG)
+![Figure: Good example - Expenses separated into different folders - easier to claim and track what your receipts were for!](Expensify9.PNG)
 :::
 
 ### To Create a new folder on an iPhone:

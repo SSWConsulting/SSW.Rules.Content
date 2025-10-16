@@ -48,11 +48,11 @@ Sometimes the other person will 'little r' instead of 'Reply All' by mistake. Th
 
 If you are still on the loop, you should reply to the thread as soon as possible, adding back all those dropped from the loop.
 
-::: Bad
+::: bad
 ![Figure: Bad example - 'Little r' should be rarely clicked](2021-04-12_11-22-10.png)
 :::
 
-::: Good
+::: good
 ![Figure: Good example - Adding back those incorrectly dropped from the loop](2021-04-12_11-30-35.png)
 :::
 

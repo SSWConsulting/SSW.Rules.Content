@@ -18,13 +18,11 @@ That might seem manageable in a small team, but it quickly becomes unscalable as
 
 <!--endintro-->
 
-### Make birthdays scalable
+## Make birthdays scalable
 
 Celebrating birthdays is important—it shows appreciation and builds team morale. But like any good process, it should scale as your team grows.
 
 Here are some common approaches:
-
----
 
 ### 🎂 Option A – Same-day celebration
 
@@ -39,8 +37,6 @@ This is the classic approach: celebrate someone’s birthday on the actual day w
 **Use this only if:**  
 You have a very small team (fewer than 10 people) and someone *loves* managing birthday logistics.
 
----
-
 ### 🎁 Option B – Let individuals choose how they celebrate
 
 Some teams give the birthday person a choice—e.g. pick the Friday lunch venue, get a small gift, or have a shout-out.
@@ -53,8 +49,6 @@ Some teams give the birthday person a choice—e.g. pick the Friday lunch venue,
 
 **Use this if:**  
 Your culture is very personalized and you can handle the overhead.
-
----
 
 ### ✅ Option C – Monthly grouped celebrations (Recommended)
 
@@ -73,7 +67,7 @@ The best way to do this is with a **monthly summary email** to the organizers us
 | Subject: | Monthly Birthday Summary |
 ::: email-content  
 
-### Hi Free Lunch Masters
+### Hi Free Lunch Masters,
 
 The following birthdays happened this month:  
 
@@ -84,12 +78,13 @@ Tip: check any dietary needs in CRM | Users | {{ PERSON }}
 |----------------|------------|------------|---------------|
 | {{ NAME }}     | {{ CITY }} | {{ DATE }} | N/A           |
 
-Note #1: This data is driven from {{ URL TO THE REPORT }}  
+--
 
-Note #2: The people responsible are: {{ LINK TO THE CRM RESPONSIBIILITY }}
+**Notes:**
+* This data is driven from {{ URL TO THE REPORT }}  
+* The people responsible are: {{ LINK TO THE CRM RESPONSIBIILITY }}
 
 <This email is sent as per <https://www.ssw.com.au/rules/celebrate-birthdays>>
-::::::
 
 :::
 :::
