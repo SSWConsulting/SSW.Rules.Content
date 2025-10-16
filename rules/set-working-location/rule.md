@@ -6,7 +6,12 @@ seoDescription: Set your location in your Outlook/Teams calendar to let your
   colleagues know when you're in the office or remote.
 uri: set-working-location
 authors:
-  - title: ""
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
+related:
+  - calendar-do-you-set-your-work-hours-in-your-calendars
+  - know-where-your-staff-are
+  - calendar-does-your-calendar-always-accurately-show-where-you-are
 guid: 03081ea7-e786-45f5-8d53-7b703e2b9519
 ---
 Working from home is common these days, so it is beneficial to let your colleagues know when you're in the office and when you're working remotely.
