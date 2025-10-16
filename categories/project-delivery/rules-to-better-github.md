@@ -46,6 +46,7 @@ index:
   - over-the-shoulder
   - use-gated-deployments
   - use-tasklists-in-your-pbis
+  - handle-duplicate-pbis
   - close-pbis-with-context
   - avoid-auto-closing-issues
   - enterprise-secrets-in-pipelines
