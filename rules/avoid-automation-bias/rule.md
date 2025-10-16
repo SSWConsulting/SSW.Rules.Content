@@ -44,7 +44,7 @@ There are two types of errors made due to automation bias:
 
 #### Task complexity + time pressure
 
-Under stress, cognition narrows and we rely more heavily on mental shortcuts. AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time". 
+Under stress, cognition narrows and we rely more heavily on mental shortcuts. AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
 
 This creates a vicious cycle where increased time pressure makes us even more likely to accept AI outputs without proper scrutiny, amplifying our over-reliance on automation.
 
@@ -56,7 +56,7 @@ If there are two people within a company who don't know each other well, and rev
 
 More extroverted people may move quickly and accept outputs more readily.
 
-People high in neuroticism may doubt their own outputs, and thus doubt AI's outputs too. 
+People high in neuroticism may doubt their own outputs, and thus doubt AI's outputs too.
 
 This isn't prescriptive, just a pattern to be aware of.
 
