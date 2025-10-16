@@ -9,6 +9,7 @@ index:
   - how-to-create-a-sprint-backlog
   - github-sprint-templates
   - labels-in-github
+  - using-labels-for-github-issues
   - turn-emails-into-a-github-issue
   - react-to-reviewed-pbis
   - do-you-know-how-to-handle-undone-work
