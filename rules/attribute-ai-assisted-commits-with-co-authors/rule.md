@@ -8,6 +8,8 @@ seoDescription: Learn how to properly attribute commits when using GitHub
 uri: attribute-ai-assisted-commits-with-co-authors
 authors:
   - title: ""
+related:
+  - keep-task-summaries-from-ai-assisted-development
 created: 2025-10-17T09:52:00.000Z
 guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
 ---
@@ -60,7 +62,7 @@ feat: Complete authentication system
 - Impossible to review effectively
 - Can't revert specific changes
 - Lost context about which changes relate to which sub-tasks
-- No connection to [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
+- No connection to [task documentation](keep-task-summaries-from-ai-assisted-development) created during the session
 :::
 ::: bad
 Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs
