@@ -34,9 +34,9 @@ You should always set your working hours in your Outlook calendar so others know
 
 1. Open the settings in your preferred app:
 
-* **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
-* **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
-* **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
+  * **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
+  * **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
+  * **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
 
 2. Set your days and hours
 3. While you're here, why not set your location as well - as per: [Calendar - Do you set your working location?](https://www.ssw.com.au/rules/set-working-location/)[](https://www.ssw.com.au/rules/set-working-location/)
