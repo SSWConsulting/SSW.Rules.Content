@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you give support answers via Knowledge Base links?
+seoDescription: Share consistent, reusable support answers by linking to your Knowledge Base instead of retyping replies.
 type: rule
 archivedreason:
 title: Do you give support answers via Knowledge Base links?
