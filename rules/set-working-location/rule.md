@@ -15,6 +15,14 @@ This can be done through Outlook or Teams, and it will appear on your Calendar i
 
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+## Setting your working location
+
+1. Open the settings in your preferred app:
+
+* **Teams:** Go to **Calendar | Calendar Settings | Work hours and location**
+* **Classic Outlook:** Go to **File | Options | Calendar | Work hours and location**
+* **New Outlook & Outlook on the web:** Go to **Settings | Calendar | Work hours and location**
+
+2. If you haven't already, set your working days and hours - as per [Calendar - Do you set your work hours in CRM and your Outlook calendar?](https://www.ssw.com.au/rules/calendar-do-you-set-your-work-hours-in-your-calendars/)
+
+3. [](https://www.ssw.com.au/rules/calendar-do-you-set-your-work-hours-in-your-calendars/)
