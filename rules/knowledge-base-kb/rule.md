@@ -23,16 +23,16 @@ redirects:
   - do-you-have-a-knowledge-base-kb
 ---
 
-Established projects typically include several layers of documentation: a Repo Doc (or README) for developers, Technical Docs for in-depth guidance, a Knowledge Base (KB) with Q&A-style articles, and an FAQ section - a curated list of common questions often featured on a homepage.
+Established projects typically include several layers of documentation: a **Repo Doc** (or README) for developers, **Technical Docs** for in-depth guidance, a **Knowledge Base (KB)** with Q&A-style articles, and an **FAQ** section for general users.
 
-Do you know what the most useful thing on Microsoft website is? It is their knowledge base at [support.microsoft.com](https://support.microsoft.com/).
+<!--endintro-->
 
-When a problem arises it should be your first port of call - it allows you to help yourself.
+For example, one of the most useful feature on Microsoft website is their [knowledge base](https://support.microsoft.com/).
+
+When a problem arises, documentation should be your first port of call as it allows you to help yourself.
 
 `youtube: https://www.youtube.com/watch?v=dEO0bIBIZso`  
 **Video: Document your findings | Jeoffrey Fischer | CTF (2 min)**
-
-<!--endintro-->
 
 ## Why you need a Knowledge Base
 
