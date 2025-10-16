@@ -131,7 +131,7 @@ Things are running well when you have support staff adding new KB for:
 * Hot tips
 * Performance tips KBs also play a very important role in getting a product released. You will never get every feature done or bug fixed - we all know it
 
-Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing. 
+Focus on getting a version out. It is usually more important to have a version available than having no version at all. When you are looking down the Project Plan, decide on what the **must-haves** are. The other features and known bugs will have to remain outstanding. All the longer-term bugs should go into the KB. We also put in the feature requests that we plan on doing.
 
 This way our customers know of our exciting features coming in future versions of our software.
 
@@ -185,5 +185,5 @@ You don't need to be Microsoft to build a KB. A Knowledge Base does not need to 
 
 * Keep articles concise, accurate, and up to date  
 * Use searchable titles and keywords  
-* Link related KBs to improve discoverability 
+* Link related KBs to improve discoverability
 * Periodically review and retire outdated content
