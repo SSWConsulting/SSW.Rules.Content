@@ -39,9 +39,9 @@ Now of course there are many customers who don't look for a KB, but instead, you
 
 The basic rule is: don't send back the answer in your email - instead send back the link. More specifically:
 
-1. **If you can answer** a support email then reply to the support email
+1. **If you can answer** a support email then reply to the support email with the KB link
    * To: the client
-   * Cc: the developer and your manager with the KB link
+   * Cc: the developer and your manager
 2. **If you can't answer** the question then reply to the support email:
    * To: the client and the developer
    * Cc: your manager
