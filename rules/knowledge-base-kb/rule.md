@@ -1,8 +1,8 @@
 ---
-seoDescription: Do you have a Knowledge Base (KB)?
+seoDescription: Do you give support answers via Knowledge Base links?
 type: rule
 archivedreason:
-title: Do you have a Knowledge Base (KB)?
+title: Do you give support answers via Knowledge Base links?
 guid: be630745-f956-4c85-a521-5c8b210f93fe
 uri: knowledge-base-kb
 created: 2009-03-02T02:45:54.0000000Z
@@ -23,7 +23,11 @@ redirects:
   - do-you-have-a-knowledge-base-kb
 ---
 
-Established projects typically include several layers of documentation: a **Repo Doc** (or README) for developers, **Technical Docs** for in-depth guidance, a **Knowledge Base (KB)** with Q&A-style articles, and an **Frequently Asked Questions (FAQs)** section for general users.
+Established projects typically include several layers of documentation, collectively known as a **Knowledge Base (KB)**:
+* **FAQs (Frequently Asked Questions)** - Quick questions and their answers
+* **Documentation (Docs)** - In-depth guidance and references
+* **Q&A Articles** - More detailed question/answer pairs for more specific use cases
+* **Roadmap** - Outlines upcoming goals, features, and milestones to show the project’s direction and priorities
 
 <!--endintro-->
 
@@ -44,7 +48,7 @@ Sure, some customers will always reach out directly. But with a KB in place, you
 
 The basic rule is: don't send back the answer in your email - instead send back the link. More specifically:
 
-1. **If you can answer** a support email then reply to the support email with the KB link
+1. **If you can answer** a support email then reply to the support email with the Knowledge Base link
    * To: the client
    * Cc: the developer and your manager
 2. **If you can't answer** the question then reply to the support email:
