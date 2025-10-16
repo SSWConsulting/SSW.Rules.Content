@@ -30,6 +30,7 @@ index:
 - track-your-initial-meetings
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - use-emojis
+- set-working-location
 
 ---
 
