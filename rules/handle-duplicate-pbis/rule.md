@@ -41,7 +41,7 @@ Backlog - Duplicates clutter the backlog and can lead to wasted effort - a clean
 
 ## Why you should close duplicate PBIs
 
-A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to double work, inconsistent updates, and fragmented discussion across issues.
+A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to a messier and harder to manage backlog, which can mean time wasted and discussion fragmented across these issues.
 
 The best practice is to close duplicate PBIs so that there is **only one active PBI per issue**. This ensures all relevant details, conversations, and notifications remain centralized, while still ensuring everyone who reported the issue stays informed.
 
