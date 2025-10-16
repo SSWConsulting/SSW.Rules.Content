@@ -24,6 +24,7 @@ redirects:
 ---
 
 Established projects typically include several layers of documentation, collectively known as a **Knowledge Base (KB)**:
+
 * **FAQs (Frequently Asked Questions)** - Quick questions and their answers
 * **Documentation (Docs)** - In-depth guidance and references
 * **Q&A Articles** - More detailed question/answer pairs for more specific use cases
