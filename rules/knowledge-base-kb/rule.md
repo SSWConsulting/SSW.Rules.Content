@@ -171,13 +171,9 @@ Figure: Responding to a feature suggestion
 
 You don't need to be Microsoft to build a KB. A Knowledge Base does not need to be complicated but it needs to be **easily accessible**.
 
-::: bad  
-Figure: Use a simple knowledge base e.g. [pdi-ssw.zendesk.com/hc/en-us](https://pdi-ssw.zendesk.com/hc/).
-:::
+❌ Don't use a simple knowledge base e.g. [pdi-ssw.zendesk.com/hc/en-us](https://pdi-ssw.zendesk.com/hc/).
 
-::: good  
-Figure: Create a wiki page on TinaCMS e.g. [TinaDocs](https://tina.io/tinadocs/docs)
-:::
+✅ Create a docs page e.g. [TinaDocs](https://tina.io/tinadocs/docs)
 
 ::: good
 ![Figure: Good example - TinaCMS Docs page](tina-cms-docs.png)
