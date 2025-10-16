@@ -111,14 +111,6 @@ Prefer updating existing documentation when:
 - It's a bug fix or improvement to something recently implemented
 - It adds clarification or correction to existing docs
 - The change is minor and fits within the scope of existing documentation
-
-### Purpose
-This approach:
-- Reduces documentation noise and clutter
-- Keeps related information together
-- Makes documentation easier to navigate and maintain
-- Ensures only significant changes are documented separately
-- Maintains high signal-to-noise ratio in documentation
 ```
 
 ### 2. Create the Documentation Directory
