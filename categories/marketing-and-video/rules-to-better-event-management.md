@@ -23,7 +23,7 @@ index:
 - organize-the-audience-when-numbers-are-low
 - event-feedback
 - bring-evaluation-forms-to-every-event-you-speak-at
-- follow-up
+- event-follow-up
 - evaluate-your-event-feedback
 - avoid-dates-text-in-graphics-for-events
 - do-you-use-events-to-market-your-consulting-work
