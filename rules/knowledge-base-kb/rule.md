@@ -180,7 +180,7 @@ Figure: Create a wiki page on TinaCMS e.g. [TinaDocs](https://tina.io/tinadocs/d
 :::
 
 ::: good
-![Figure: Good example - TinaCMS Docs page](https://user-images.githubusercontent.com/67776356/233515514-b81668ee-e0a7-49e5-a09e-595e895ef303.png)
+![Figure: Good example - TinaCMS Docs page](tina-cms-docs.png)
 :::
 
 ## Tips for maintaining a useful Knowledge Base
