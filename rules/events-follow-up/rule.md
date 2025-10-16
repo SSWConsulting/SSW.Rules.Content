@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you follow up with your attendees after events?
 guid: 21ad17e7-c3a6-4548-b11c-b3af7cd0cde3
-uri: follow-up
+uri: events-follow-up
 created: 2014-12-31T00:46:18.0000000Z
 authors:
   - title: Penny Walker
@@ -12,6 +12,8 @@ authors:
 related: []
 redirects:
   - do-you-follow-up-with-your-attendees-after-events
+  - follow-up
+
 ---
 
 Your attendees have all gone home with a mental boat load of information and great insights. Now is the time to follow them up and remind them of other events, how to keep in touch with you and where to find more information.
