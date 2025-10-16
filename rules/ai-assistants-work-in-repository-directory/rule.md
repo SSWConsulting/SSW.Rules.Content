@@ -46,18 +46,17 @@ Bad Example - Files scattered across the system are hard to find, review, and cl
 
 Using directories outside the repository causes:
 
-1. **Visibility problems** - Team members can't see what the AI created
-2. **Cleanup challenges** - Files left behind after tasks complete
-3. **Security risks** - Sensitive data might be written to shared system directories
-4. **Review difficulties** - Harder to review AI-generated code before committing
+1. **Cleanup challenges** - Files left behind after tasks complete
+2. **Security risks** - Sensitive data might be written to shared system directories
+3. **Review difficulties** - Harder to review AI-generated code before committing
 
 ## The Solution: Repository-Bounded Work
 
-Configure your AI assistants to keep all work within the repository directory by adding guidelines to your AI assistant instructions.
+Configure your AI assistants' instruction to keep all work within the repository directory by introducing guidelines
 
-### 1. Add to Your AI Assistant Instructions
+### 1. Add to your AI Assistant Instructions
 
-Add the following section to your AI assistant configuration (e.g., `.github/copilot-instructions.md`, `.cursorrules`, `.ai/instructions.md`, or your preferred location):
+Add the following section to your AI assistant configuration (e.g. `.github/copilot-instructions.md`, `.cursorrules`, `.ai/instructions.md`):
 ```markdown
 ## Working Directory and File Management
 
@@ -108,9 +107,7 @@ This approach provides:
 ✅ **Visibility:** All files are within the repository and easy to find\
 ✅ **Version Control Ready:** Can selectively commit useful artifacts\
 ✅ **Easy Cleanup:** Simple to remove all temporary files at once\
-✅ **Local Visibility:** You can easily locate and inspect AI-generated files\
 ✅ **Security:** `.gitignore` prevents accidental commits of sensitive temp files\
-✅ **Consistency:** Every developer follows the same structure for temporary work\
 ✅ **Tool-agnostic:** Works with any AI assistant or development tool
 
 ### Example Workflow
@@ -140,44 +137,6 @@ $ rm -rf tmp/*
 Good Example - All temporary files are in one predictable location within the repository
 :::
 
-## Advanced Tips
-
-### 1. Structured Temporary Directories
-
-::: info
-Tip: You can add these to your AI assistant instructions so they can be created automatically
-:::
-
-For complex projects, create subdirectories within `/tmp/`:
-```bash
-tmp/
-├── scripts/        # Generated scripts
-├── analysis/       # Analysis outputs
-├── backups/        # Temporary backups
-└── test-data/      # Test data files
-```
-
-### 2. Time-Stamped Cleanup
-
-Add a script to clean old temporary files:
-```bash
-# cleanup-tmp.sh
-find tmp/ -type f -mtime +7 -delete
-echo "Cleaned temporary files older than 7 days"
-```
-
-### 3. Git Attributes
-
-You can track what's in `/tmp/` without committing content:
-```gitattributes
-# .gitattributes
-tmp/* linguist-generated=true
-```
-
 ## Conclusion
 
-By configuring AI assistants to work exclusively within repository boundaries, you maintain full visibility and control over AI-generated files. This simple practice prevents file sprawl and makes it easier to review and manage all work produced during AI-assisted development sessions.
-
-This pattern works with any AI development tool—whether you're using GitHub Copilot, Claude, ChatGPT, Cursor, or other AI assistants. The key is consistency and keeping all work visible within your project.
-
-Remember: If you can't see it in your repository, it's harder to review, share, and manage.
+By configuring AI assistants to work exclusively within repository boundaries, you maintain full visibility and control over AI-generated files. This prevents file sprawl and makes it easier to review and manage all work produced during AI-assisted development sessions.
