@@ -2,11 +2,16 @@
 type: rule
 tips: ""
 title: Do you know how to handle duplicate PBIs in your backlog?
-seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs to keep your project clean, organized, and user-focused.
+seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs
+  to keep your project clean, organized, and user-focused.
 uri: handle-duplicate-pbis
 authors:
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 
