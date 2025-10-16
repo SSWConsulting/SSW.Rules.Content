@@ -12,6 +12,24 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Levi Jackson
+    url: https://www.ssw.com.au/people/levi-jackson
+  - title: Jim Zheng
+    url: https://www.ssw.com.au/people/jim-zheng
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
+  - title: Aman Kumar
+    url: https://www.ssw.com.au/people/aman-kumar
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 
