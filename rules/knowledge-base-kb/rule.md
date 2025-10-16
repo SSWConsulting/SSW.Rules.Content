@@ -36,7 +36,7 @@ When a problem arises, documentation should be your first port of call as it a
 
 ## Why you need a Knowledge Base
 
-If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning Harry wouldn’t have needed to email you in the first place.
+If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning them wouldn’t have to contact you in the first place.
 
 Sure, some customers will always reach out directly. But with a KB in place, you can drastically reduce repetitive emails and focus on solving the truly unique problems.
 
@@ -70,7 +70,7 @@ Figure: Example #1 - Responding to a known issue when the KB is already updated
 
 **Dear Harry,**
 
-Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our knowkedge base [here.](https://tina.io/docs/introduction/faq#18-getting-a-503-service-unavailable-error-when-loading-the-reference-field)
+Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our [knowkedge base](https://tina.io/docs/introduction/faq#18-getting-a-503-service-unavailable-error-when-loading-the-reference-field)
 
 Please let me know if this has resolved your issue.
 
