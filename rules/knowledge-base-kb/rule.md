@@ -23,6 +23,8 @@ redirects:
   - do-you-have-a-knowledge-base-kb
 ---
 
+Established projects typically include several layers of documentation: a Repo Doc (or README) for developers, Technical Docs for in-depth guidance, a Knowledge Base (KB) with Q&A-style articles, and an FAQ section - a curated list of common questions often featured on a homepage.
+
 Do you know what the most useful thing on Microsoft website is? It is their knowledge base at [support.microsoft.com](https://support.microsoft.com/).
 
 When a problem arises it should be your first port of call - it allows you to help yourself.
@@ -34,9 +36,9 @@ When a problem arises it should be your first port of call - it allows you t
 
 ## Why you need a Knowledge Base
 
-If you answer questions on your products to customers, you are wasting time if you don't have a Knowledge Base (KB). Just think, you might not be answering Harry's question if he could have looked it up himself.
+If you’re constantly answering the same customer questions about your product, you’re wasting valuable time without a Knowledge Base/FAQ's. A well-organized KB empowers customers to find answers themselves, meaning Harry wouldn’t have needed to email you in the first place.
 
-Now of course there are many customers who don't look for a KB, but instead, you fire off the same old email that you already know.
+Sure, some customers will always reach out directly. But with a KB in place, you can drastically reduce repetitive emails and focus on solving the truly unique problems.
 
 ## How to respond to support emails
 
@@ -55,7 +57,7 @@ The basic rule is: don't send back the answer in your email - instead send back 
 
 **Dear Harry,**
 
-Thanks for reporting this issue to TinaCMS. I'm happy to let you know that this is a known issue and has been addressed in our knowledge base: {{ LINK }}
+Thanks for reporting this issue to TinaCMS. I'm happy to let you know that this is a known issue and has been addressed in our knowledge base [here.](https://tina.io/docs/introduction/faq#13-how-do-i-resolve-failed-loading-tinacms-assets-error)
 
 Thanks,  
 Bob
@@ -68,7 +70,7 @@ Figure: Example #1 - Responding to a known issue when the KB is already updated
 
 **Dear Harry,**
 
-Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our knowkedge base: {{ LINK }}
+Thanks for reporting this issue to TinaCMS. I've reproduced it and updated the docs on our knowkedge base [here.](https://tina.io/docs/introduction/faq#18-getting-a-503-service-unavailable-error-when-loading-the-reference-field)
 
 Please let me know if this has resolved your issue.
 
@@ -76,7 +78,7 @@ Thanks,
 Bob
 :::
 ::: good
-Figure: Example #2 - Responding to a known issue when you need to update to the KB  
+Figure: Example #2 - Responding to a known issue when you need to update to the KB
 :::
 
 ::: greybox
@@ -92,7 +94,7 @@ Bob
 
 :::
 ::: good
-Figure: Example #3 - Responding when you cannot reproduce the issue  
+Figure: Example #3 - Responding when you cannot reproduce the issue
 :::
 
 ::: greybox
@@ -108,31 +110,30 @@ to
 {{ YYY }}
 
 Thank you for reporting this bug - our software only gets better with help from our customers. This fix will be available in the next version shortly.
+You can follow our version history [here.](https://tina.io/whats-new/tinacms)
 
 Kind Regards,  
 Bob
 
 :::
 ::: good
-Figure: Example #4 - Informing of a fix (Email 1 of 2)
+Figure: Example #4 - Informing of a fix if user is technical
 :::
-
-**Note:** In this email, you can offer them an interim build.
 
 ::: greybox
 
 **Dear Harry,**
 
-Thank you for taking the time to report the issue to TinaCMS. I'm happy to let you know that this problem is fixed in this release.
+Thank you for taking the time to report the issue to YakShaver. I'm happy to let you know that this problem is fixed in this release.
 
-Please download the new version at {{ LINK }}
+Note that this is an MCP so you will need to download the latest version here
 
 Kind Regards,
 Bob
 
 :::
 ::: good
-Figure: Example #5 - Informing of a new version (Email 2 of 2)  
+Figure: Example #5 - Informing of a new version to non-technical user
 :::
 
 Notice how by just giving them the URL, this email encourages them to use your Knowledge Base in the future. You need to make sure the support staff knows that there are really only 5 types of emails customers should be receiving (see 5 grey boxes above).
@@ -160,14 +161,30 @@ Focus on getting a version out. It is usually more important to have a version a
 
 Thanks for the suggestion for TinaCMS!
 
-I have added it to the list of future developments (which we call our backlog). Future features can be voted on at uservoice.com
+This has been added it to our [GitHub Discussions](https://github.com/tinacms/tinacms/discussions), where it will be reviewed and considered for inclusion in our backlog.
 
 Thanks,
 Bob
 
 :::
 ::: good
-Figure: Responding to a feature suggestion
+Figure: Example #1 - Responding to a feature request
+:::
+
+::: greybox
+
+**Dear Harry,**
+
+Thank you for taking the time to submit a feature request to YakShaver. This feature is already part of our [YakShaver roadmap](https://yakshaver.ai/roadmap)
+
+We’ll keep you updated as progress is made and appreciate your input in helping shape our future releases.
+
+Kind Regards,
+Bob
+
+:::
+::: good
+Figure: Example #2 - Responding to a feature request which is part of the roadmap
 :::
 
 ## Where to host your Knowledge Base
