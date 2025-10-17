@@ -2,31 +2,54 @@
 type: rule
 tips: ""
 title: Do you know how to handle duplicate PBIs in your backlog?
-seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs to keep your project clean, organized, and user-focused.
+seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs
+  to keep your project clean, organized, and user-focused.
 uri: handle-duplicate-pbis
 authors:
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Levi Jackson
+    url: https://www.ssw.com.au/people/levi-jackson
+  - title: Jim Zheng
+    url: https://www.ssw.com.au/people/jim-zheng
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+  - title: Tom Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski
+  - title: Aman Kumar
+    url: https://www.ssw.com.au/people/aman-kumar
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 
 When working on a GitHub backlog, it’s common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
 
-If left unmanaged, these duplicates clutter the backlog, confuse priorities, and lead to wasted effort. A clean backlog is easier to maintain, track, and report on.  
+Duplicates clutter the backlog and can lead to wasted effort. A clean backlog is easier to maintain. But it's also important to make sure everyone stays informed on their reported issues.
 
 <!--endintro-->
 
 ## Why you should close duplicate PBIs
 
-A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to double work, inconsistent updates, and fragmented discussion across issues.
+A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to a messier and harder to manage backlog, which can mean time wasted and discussion fragmented across these issues.
 
 The best practice is to close duplicate PBIs so that there is **only one active PBI per issue**. This ensures all relevant details, conversations, and notifications remain centralized, while still ensuring everyone who reported the issue stays informed.
 
-### Keep reporters informed
+### Keep bug reporters informed
 
-When a PBI is closed as a duplicate, the person who raised it will **not** automatically receive updates when the main issue is completed. To maintain transparency and show respect for the reporter’s contribution, always ensure they are kept informed.
+When a PBI is closed as a duplicate, the person who raised it will **not** automatically receive updates when the main issue is completed. To maintain transparency and show respect for the bug reporter’s contribution, always ensure they are kept informed.
 
-The simplest way to do this is to **@mention the reporter** in the main (active) PBI when closing the duplicate. This ensures they receive notifications about progress and resolution.
+The simplest way to do this is to **@mention the reporting user** in the main (active) PBI when closing the duplicate. This ensures they receive notifications about progress and resolution.
 
 ## How to manage duplicate PBIs
 
@@ -92,4 +115,4 @@ If your project frequently encounters duplicates, consider automating this workf
 * Link duplicates clearly
 * Notify all reporters on completion
 
-By consistently managing duplicates this way, your backlog stays clean, your team stays aligned, and every contributor feels informed and valued.
+By consistently managing duplicates this way, your backlog stays clean and nobody is kept in the dark on their reported issues.
