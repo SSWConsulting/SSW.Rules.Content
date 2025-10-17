@@ -11,6 +11,7 @@ index:
 - what-is-chatgpt
 - chatgpt-skills-weaknesses
 - what-is-gpt
+- avoid-automation-bias
 - chatgpt-vs-gpt
 - automatic-code-reviews-github
 - weekly-ai-meetings
