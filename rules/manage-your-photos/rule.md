@@ -55,6 +55,7 @@ However, changes introduced in September 2024 brought new limitations to the Goo
 Watch the video to learn more about Google Photos and how to set it up for your company:
 
 `youtube: https://www.youtube.com/embed/p8_siTdeeCg`
+**Video: SSW Google Photos - The awesome way to find any image (6 min)**
 
 ---
 
