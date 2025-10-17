@@ -38,13 +38,13 @@ Inviting a lot of people to share their photos of an event with you can create c
 
 To avoid storage space issues (everyone gets 15 GB), it is a better practice to have a 'staging area' where everyone can upload their photos, allowing them to be curated, and only the best ones can then be uploaded to Google.
 
-Use SharePoint or a traditional file server to collect all of your photos. From there, they can be organised, bad photos can be removed, and then added to Google Photos by our marketing team. You'll have a more useful repository of photos to use later. 
+Use SharePoint or a traditional file server to collect all of your photos. From there, they can be organised, bad photos can be removed, and then added to Google Photos by our marketing team. You'll have a more useful repository of photos to use later.
 
 #### Option C: File Server for staging, then auto-add to Google Photos
 
 Using a file server as a staging area makes it easy to automate uploads to Google Photos. While the initial setup takes a little time, it saves a lot of effort in the long run. Once curated, photos can be stored in a designated folder on the file server, which then pushes them to Google Photos, no more manual transfers!
 
-However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/). 
+However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/).
 
 Watch the video to learn more about Google Photos and how to set it up for your company:
 
