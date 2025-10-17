@@ -70,11 +70,11 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
 )
 # Allow leading whitespace for indented blocks
 SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
-CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
+CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(img-small|img-medium|img-large|small|medium|large|no-border)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
-PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|no-border)|(?P<size2>img-small|img-medium|img-large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
+PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
 
 # ----------------------------- #
@@ -264,6 +264,9 @@ def replace_custom_size_image_block(m, src_prefix):
         "img-small": "small",
         "img-medium": "medium",
         "img-large": "large",
+        "small": "small",
+        "medium": "medium",
+        "large": "large",
         "no-border": "large"
     }.get(variant, "large")
 
@@ -315,6 +318,9 @@ def replace_preset_and_size_image_block(m, src_prefix):
         "img-small": "small",
         "img-medium": "medium",
         "img-large": "large",
+        "small": "small",
+        "medium": "medium",
+        "large": "large",
         "no-border": "large"
     }.get(variant, "large")
 
