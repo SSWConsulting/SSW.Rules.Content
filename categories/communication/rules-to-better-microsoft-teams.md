@@ -43,6 +43,7 @@ index:
 - use-microsoft-teams-room
 - refer-to-email-subject
 - when-to-use-microsoft-teams-preview
+- tool-for-facilitating-real-time-collaboration
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.

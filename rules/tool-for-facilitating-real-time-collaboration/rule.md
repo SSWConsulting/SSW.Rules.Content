@@ -7,7 +7,6 @@ authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
 related:
-  - rules-to-better-microsoft-teams
   - do-you-know-you-should-write-notes-when-an-activity-is-going
   - the-best-wiki
 created: 2024-02-26T12:33:21.000Z
@@ -16,10 +15,10 @@ guid: e4385123-a305-4b3f-a7bd-1ab052e23138
 
 When collaborating within teams, the current process involves soliciting individual updates or feedback, with one team member responsible for manually compiling this information. Unfortunately, this method presents several challenges:
 
-- The need for manual compilation of feedback/updates
-- Time-consuming process
-- The individual providing the original feedback must verify it, as it has been consolidated into a single file
-- Any subsequent updates may necessitate the creation of a new version (v2) of the compiled file
+* The need for manual compilation of feedback/updates
+* Time-consuming process
+* The individual providing the original feedback must verify it, as it has been consolidated into a single file
+* Any subsequent updates may necessitate the creation of a new version (v2) of the compiled file
 
 Fortunately, Microsoft Loop offers a solution by introducing interactive notes shared seamlessly across all Microsoft 365 products. This addresses the challenges by eliminating the need for manual compilation, streamlining the process, and ensuring that updates are instantly accessible to all stakeholders.
 
@@ -45,5 +44,5 @@ Fortunately, Microsoft Loop offers a solution by introducing interactive notes s
 ✅ **Dynamic and Visual Collaboration** - Microsoft Loop offers a visually appealing and dynamic collaboration environment, allowing for the incorporation of rich multimedia elements, interactive charts, and engaging content  
 Explore the Microsoft Loop App:
 
-- [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
-- [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)
+* [iOS App](https://apps.apple.com/au/app/microsoft-loop/id1637682491)
+* [Android App](https://play.google.com/store/apps/details?id=com.microsoft.loop&hl=en&gl=US)

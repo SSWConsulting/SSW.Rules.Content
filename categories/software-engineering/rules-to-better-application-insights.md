@@ -17,6 +17,7 @@ index:
   - do-you-know-how-to-find-performance-problems-with-application-insights
   - use-codelens-to-view-your-application-insights-data
   - do-you-include-application-insights-for-visual-studio-online-in-your-website
+  - do-you-only-roll-forward
 ---
 
 Enhance your web application's performance and reliability with essential rules for using Application Insights. These guidelines cover everything from setup to monitoring and alerting, ensuring you can effectively analyze usage and address performance issues over time.

@@ -6,8 +6,7 @@ uri: connect-client-im
 authors:
   - title: Asher Paris
     url: https://ssw.com.au/people/
-related:
-  - rules-to-better-microsoft-teams
+related: []
 created: 2023-10-31T16:50:21.000Z
 guid: 4332723e-c780-4d0c-a759-5067404ed8fc
 ---
@@ -52,6 +51,7 @@ Hey thanks for the meeting. Feel free to ping me on Teams or by email any time i
 ![Figure: Client with a closed tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/c6cead28-1d2c-45e3-8e3f-d089447de683)
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | {{ CLIENT }} |

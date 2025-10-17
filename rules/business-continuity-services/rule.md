@@ -9,7 +9,6 @@ authors:
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related:
   - azure-site-recovery
-  - rules-to-better-backups
 created: 2021-10-14T05:29:39.921Z
 guid: a93c7265-c1d1-43c0-9dc3-21ccd7532f4e
 ---
