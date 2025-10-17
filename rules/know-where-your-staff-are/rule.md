@@ -51,6 +51,6 @@ At the beginning of each day you should:
 5. If staff are missing or otherwise unaccounted for, make sure to take appropriate action to find out where they are and why they haven't been in communication
 6. Get your staff to set their working location (i.e. in the office or remote), as per [Calendar - Do you set your working location?](https://www.ssw.com.au/rules/set-working-location/)
 
-![Figure: Calendar with location set](calendar-location.png)
+![Figure: Calendar with location set](calendar-location_1760670250489.png)
 
 7. If you find you are having to constantly remind someone they are missing without the paperwork e.g. on leave with no appointment, WFH with no email, etc. then please follow: <https://www.ssw.com.au/rules/reduce-your-admin/>

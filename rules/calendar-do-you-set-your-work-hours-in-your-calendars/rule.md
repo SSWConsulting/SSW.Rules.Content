@@ -41,7 +41,7 @@ You should always set your working hours in your Outlook calendar so others know
 2. Set your days and hours
 3. While you're here, why not set your location as well - as per: [Calendar - Do you set your working location?](https://www.ssw.com.au/rules/set-working-location/)[](https://www.ssw.com.au/rules/set-working-location/)
 
-![Figure: Outlook on the web | Set your working days, hours, and location](work-location.png)
+![Figure: Outlook on the web | Set your working days, hours, and location](work-location_1760670250489.png)
 
 Once you set this up, you will be able to see the grey area in "Scheduling assistant" so you know what's the best time to book that person.
 
