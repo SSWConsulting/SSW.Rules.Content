@@ -50,7 +50,6 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Basic example application code from a `Global.asax.cs` file.",
@@ -68,7 +67,6 @@ app.Lifetime.ApplicationStarted.Register(() => Console.WriteLine("Init"));
 app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("Stopping"));
 app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Stopped"));
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: The above code migrated to ASP.NET Core.",
@@ -98,7 +96,6 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Basic example request lifecycle code from a `Global.asax.cs` file.",
@@ -117,7 +114,6 @@ app.Use(async (context, next) =>
     Console.WriteLine("End request");
 })
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Using middleware to execute logic before and after a request.",
@@ -138,7 +134,6 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Basic example error handling code from a `Global.asax.cs` file.",
@@ -163,7 +158,6 @@ app.UseExceptionHandler(exceptionHandlerApp =>
     })
 });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Using exception handling middleware.",

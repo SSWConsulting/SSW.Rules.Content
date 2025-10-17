@@ -49,7 +49,6 @@ public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken 
         ...
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - System.Exception is thrown, you now need to read the code to try to work out what is going wrong (hard if it was thrown by code outside of this solution)",
@@ -94,7 +93,6 @@ public class NotFoundException : Exception
         }
     }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - A specific exception is thrown which you can specifically catch, the message is consistently formatted and a consuming application can understand what was wrong with their request easily",

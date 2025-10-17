@@ -57,7 +57,6 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Public setters, exposed collections, no constructor",
@@ -98,7 +97,6 @@ public class Order
         }
     }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Private setters, read-only collection, factory method",

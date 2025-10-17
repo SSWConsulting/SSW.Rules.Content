@@ -44,7 +44,6 @@ IF EXISTS (SELECT 1 FROM
 ELSE
     CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created",
@@ -57,7 +56,6 @@ CREATE TABLE [dbo].[Employees](
     ……
 ) ON [PRIMARY]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read",

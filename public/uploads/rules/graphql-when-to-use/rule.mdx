@@ -59,7 +59,6 @@ GraphQL differs from REST in that REST is concerned with **resources** and Graph
 ### Advantages of GraphQL
 
 - **No under-fetching:** Sometimes a REST resource may only give you part of what you need. For example, if you need to know all the orders placed by a customer, what date they were ordered, and their current status, but the initial customer search resource only returns the details of the customer, this is called under-fetching. You then need to use the customer’s ID to query your orders resource for all orders matching that customer ID.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -73,7 +72,6 @@ GraphQL differs from REST in that REST is concerned with **resources** and Graph
 />
 
 - **No need for over-fetching:** Continuing the above example, you may decide a workaround is to return details of all orders with all customer queries. However, this overwhelms your client with data it doesn’t need most of the time, just to solve a problem in one scenario. This is called over-fetching (and is the specific problem Facebook set out to resolve with GraphQL).
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -87,7 +85,6 @@ GraphQL differs from REST in that REST is concerned with **resources** and Graph
 />
 
 - **Client Defined Queries:** In a REST API, the CRUD operations are defined by the API, and the client application is constrained by the operations available. This means that any changes required by your UI necessitate changes to your back end as well. With GraphQL you can change your client queries to meet changing UI needs without needing to update your back end.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -106,7 +103,6 @@ Sounds great, right? Well, there are some limitations to be aware of before you 
 
 - **No caching:** With the exception of the POST HTTP verb, REST calls are idempotent. This means that for any REST call, if the parameters are the same, the result will always be the same. And as REST is built on top of HTTP, and most HTTP stacks have caching built-in, you get client-side caching for free with REST. With GraphQL, this is not possible. If you want to take advantage of caching, it needs to be server-side and requires effort on the part of the developer.
 - **Not suitable for rich content:** GraphQL is a query language, and is fundamentally meant for data. Rich content, like images and videos, is not best suited to GraphQL. GraphQL is a text-based specification, and while it is possible to (for example) encode images into Base64 strings and send them as a field in your GraphQL type, this is not the best way to do it. This is analogous to storing BLOBs in your SQL database – you can do it, but it’s not a good idea.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -132,7 +128,6 @@ Some example use cases might include:
 - **A public database:** If your product _is_ your data, and you make it available for people to consume in their own applications, providing a GraphQL endpoint lets them consume the data in a way that meets the needs of their applicaiton, rather than in a way that the API has defined.
 
 GraphQL is not a replacement for REST; in fact, it’s often best to use them together. While GraphQL supports changing state on the server through migrations, the true power of GraphQL is in queries. Many create, update, and delete operations are relatively unchanging and can benefit from being maintained as REST resources – think sign-up forms for example. REST is also better for transferring rich content, like images and videos.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -146,7 +141,6 @@ GraphQL is not a replacement for REST; in fact, it’s often best to use them to
 />
 
 Adam Cogan introducting SSW People [explains how GraphQL can be combined with other technologies to get the best results](https://adamcogan.com/2020/02/10/introducing-ssw-people).
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -158,7 +152,6 @@ Adam Cogan introducting SSW People [explains how GraphQL can be combined with ot
   } }
   src="/uploads/rules/graphql-when-to-use/adam-blog-screenshot.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"

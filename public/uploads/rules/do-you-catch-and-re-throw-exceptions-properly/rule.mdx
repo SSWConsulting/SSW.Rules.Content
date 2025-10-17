@@ -39,7 +39,6 @@ catch { throw; }
 
 catch (SomeException) { throw; }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad Example - Never use an empty catch block. Do something in the block or remove it.",
@@ -52,7 +51,6 @@ catch (SomeException ex) { throw ex; }
 
 catch (SomeException ex) { someMethod(); throw ex; }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.",
@@ -69,7 +67,6 @@ catch (SomeException)
      throw;
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good Example - Calling throw",
@@ -85,7 +82,6 @@ catch (SqlException ex) when (ex.Number == 2601)
      throw new IdAlreadyTakenException(ex);
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good Example - By rethrowing a specific exception, my application code now doesn't need to know that there is a SQL database or the magic numbers that SQL exceptions use",

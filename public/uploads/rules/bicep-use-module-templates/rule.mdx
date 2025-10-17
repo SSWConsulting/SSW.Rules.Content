@@ -54,7 +54,6 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example - Multiple resources jammed into a single main module, hard to maintain and reuse",
@@ -106,7 +105,6 @@ module appInsights './appInsights.bicep' = {
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example - A clean main module calling smaller reusable modules for storage and application insights",

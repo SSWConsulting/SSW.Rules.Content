@@ -33,7 +33,6 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
     }
 </div>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – The above code could be encapsulated into a Partial View for reuse",
@@ -51,7 +50,6 @@ public static class DateExtensions
 }
 @Html.GetTodayDate()
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using an HTML Helper extension method for reusable code",
@@ -62,7 +60,6 @@ public static class DateExtensions
 ```cs
 @Html.Partial("_FeaturedProduct")
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using a Partial View for reusable sections of UI",

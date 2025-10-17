@@ -30,7 +30,6 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 ## Checking the Lighthouse Treemap for bundle size
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -57,7 +56,6 @@ Route (app)                     Size        First Load JS
 ├ ├ /booknow
 ├ └ [+10 more paths]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes",
@@ -123,7 +121,6 @@ import * as utils from './utils';
 
 const result = utils.expensiveFunction();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Code: Bad example - Importing entire module",
@@ -137,7 +134,6 @@ import { expensiveFunction } from './utils';
 
 const result = expensiveFunction();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Code: Good example - Importing only the required function",
@@ -194,7 +190,6 @@ Route (app)                     Size        First Load JS
 ├ ├ /booknow
 ├ └ [+10 more paths]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.",
@@ -203,7 +198,6 @@ Route (app)                     Size        First Load JS
 
 
 ## Lighthouse Treemap
-
 <imageEmbed
   alt="Image"
   size="large"

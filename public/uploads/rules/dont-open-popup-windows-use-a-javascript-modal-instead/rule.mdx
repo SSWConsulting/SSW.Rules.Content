@@ -29,7 +29,6 @@ The popup blockers in several browsers prevent JavaScript from being used to ope
 ```html
 <body onload="window.open('http://www.mydomain.com/document.html');return true;">
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Using JavaScrip in OnLoad event",
@@ -40,7 +39,6 @@ The popup blockers in several browsers prevent JavaScript from being used to ope
 ```html
 <a href="http://www.mydomain.com/document.html" target="_new">Document</a>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration",
@@ -51,7 +49,6 @@ The popup blockers in several browsers prevent JavaScript from being used to ope
 ```html
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Using Javascript in an onclick event means you can force a popup window in preference to a new tab and also control the size and placement of the window",

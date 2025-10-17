@@ -43,7 +43,6 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.progressbar.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.theme.css" />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – each reference will be downloaded separately and won’t be compressed",
@@ -73,7 +72,6 @@ public static void RegisterBundles(BundleCollection bundles)
 View:
 @Styles.Render("~/Content/themes/base/css")
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Define a bundle and render it in the view for maximum performance",

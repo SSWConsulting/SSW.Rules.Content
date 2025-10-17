@@ -30,7 +30,6 @@ The most obvious is a SQL UPDATE statement which updates a large number of rows.
 ```cs
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Updating a large number of rows quickly with SQL",

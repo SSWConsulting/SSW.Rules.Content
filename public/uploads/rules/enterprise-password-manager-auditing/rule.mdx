@@ -29,7 +29,6 @@ Auditing access data is crucial for any enterprise to ensure security and compli
   </>}
 />
 For example, Keeper (an enterprise-focused password product) is a leading enterprise password manager that offers a comprehensive auditing feature. It provides administrators with detailed logs and reports on user access, ensuring transparency and accountability.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -68,9 +67,17 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
 2. **Login to the Keeper Admin Console**: Now switch to Keeper's admin console and login.
 3. **Navigate to the 'Reporting & Alerts' Section**: This allows an admin to create a custom report. Then add a new report.
 
-   ::: info
-   **Tip:** You can then create an alert from that report if required.
-   :::
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip:** You can then create an alert from that report if required.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
 5. **Apply Filters**: You can filter the audit logs by various criteria, including user, date range, or specific activities. To find audit data for a particular folder or record, input its name or related keyword in the search or filter option.
 

@@ -115,7 +115,6 @@ So your business has an employees table as shown below that has detailed informa
 
 You could create separate tables for each department, only supplying the required fields for each.
 This would also need an additional system to sync between the tables to ensure the information was kept up to date.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -137,7 +136,6 @@ CREATE VIEW  vwWebsiteProfiles AS
 SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Photo, PhotoPath
 FROM Employees;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using views from the base table containing the source data",

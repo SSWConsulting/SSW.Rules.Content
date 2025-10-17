@@ -38,7 +38,6 @@ private void useMyClass()
   */
  }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Using unmanaged resources without disposing of them when we are done",
@@ -58,7 +57,6 @@ public class MyClass : IDisposable
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Implementing `IDisposable` allows you to dispose of the unmanaged resources deterministically to maximize efficiency",
@@ -77,7 +75,6 @@ private void useClass()
   }  // myClass.Dispose() is automatically run at the end of the using block
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - With the `using` statement, the unmanaged resources are disposed of as soon as we are finished with them",

@@ -32,7 +32,6 @@ using (SPWeb web =  SPContext.Current.Site.RootWeb)
     //do something here
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Using statement is trying to dispose current site object - it will cause exception",
@@ -46,7 +45,6 @@ Just simply use "Current" object directly.
 SPWeb web =  SPContext.Current.Site.RootWeb;
 //do something here
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Use Current objects directly - don't need to dispose them",

@@ -43,7 +43,6 @@ But the below code won't work:
 ```sql
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" False \" /></OrderBy>";
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - The Ascending attribute is case-sensitive",
@@ -58,7 +57,6 @@ SPView view = list.DefaultView;
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" FALSE \" /></OrderBy>";
 view.Update();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - The Ascending attribute is using capital charactors as it is case-sensitive",

@@ -41,7 +41,6 @@ isArchived: false
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Code",
@@ -54,7 +53,6 @@ If your form is designed to be used modally (and thus be called using ShowDialog
 ```vbnet
 Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Code (because this should be set in the form designer)",
@@ -65,7 +63,6 @@ Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)",

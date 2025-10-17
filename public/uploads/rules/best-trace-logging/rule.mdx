@@ -42,7 +42,6 @@ These abstractions allow you to:
 * Can be used with a range of [3rd party logging providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/#third-party-logging-providers-1?WT.mc_id=DT-MVP-33518)
 
 Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging?WT.mc_id=DT-MVP-33518)
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,7 +53,6 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
   } }
   src="/uploads/rules/best-trace-logging/trace-logging-bad.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -70,13 +68,11 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
 ```csharp
 _logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Using templates allows persisting structured log data (DateTime is a complex object)",
   shouldDisplay: true
 } } />
-
 
 <imageEmbed
   alt="Image"

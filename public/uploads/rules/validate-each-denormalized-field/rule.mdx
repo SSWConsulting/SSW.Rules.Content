@@ -89,7 +89,6 @@ ORDER BY Customer.CustomerID
     shouldDisplay: false
   }}
 />
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Performance is better for read-intensive reports",
@@ -98,7 +97,6 @@ ORDER BY Customer.CustomerID
 
 
 Particularly when reporting on data with a cube.
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "When there a multiple tables in a SQL Server view",
@@ -107,7 +105,6 @@ Particularly when reporting on data with a cube.
 
 
 They cannot be updated in one hit - they must be updated one table at a time.
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "It is a built-in validation device",
@@ -118,7 +115,6 @@ They cannot be updated in one hit - they must be updated one table at a time.
 For example, if records are accidentally deleted directly in the database, there is still a validation check for the correct totals. The value of this is mitigated when there is a full audit log on the database
 
 However, there are reasons against using denormalized fields:
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "They have to be maintained and can potentially get out of synch",
@@ -127,7 +123,6 @@ However, there are reasons against using denormalized fields:
 
 
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "They can be seen as an unnecessary waste of space",

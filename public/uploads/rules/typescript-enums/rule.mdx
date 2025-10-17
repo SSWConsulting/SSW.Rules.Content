@@ -56,7 +56,6 @@ However, this makes it hard to loop over the keys of the enum, as when you run `
 ```ts
 ["0", "1", "2", "Apple", "Banana", "Cherry"]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - An irritating DX, instead of returning just the values of the enum",
@@ -81,7 +80,6 @@ We can construct this type from the above array, which is equivalent to:
 ```ts
 type Fruit = "Apple" | "Banana" | "Cherry";
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - A much cleaner DX",
@@ -117,7 +115,6 @@ const icons: Record<Icon, string> = {
   moon: "moon_543212.jpg"
 };
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Duplication of key values where it is not needed",
@@ -137,7 +134,6 @@ type IconKey = keyof typeof icons; // "sun" | "moon" union type
 
 type Icon = (typeof icons)[IconKey]; // "sun_12345.jpg" | "moon_543212.jpg" union type
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - A much cleaner DX with a single source of truth in the `as const` object",

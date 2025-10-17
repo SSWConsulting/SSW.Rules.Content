@@ -33,7 +33,6 @@ isArchived: false
 [assembly: AssemblyFileVersion("2.0.0.*")]
 [assembly: AssemblyInformationalVersion("2.0.0.*")]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\\*) character",
@@ -63,7 +62,6 @@ If you use an asterisk in the AssemblyFileVersion, you will see a warning, and t
 [assembly: AssemblyFileVersion("2.0.1.1")]
 [assembly: AssemblyInformationalVersion("2.0")]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - MSBuild will automatically set the Assembly version on build (when not using the GAC)",
@@ -80,7 +78,6 @@ If you are using the GAC, you should adopt a single AssemblyVersion and Assembly
 [assembly: AssemblyFileVersion("2.0.0.1")]
 [assembly: AssemblyInformationalVersion("My Product 2015 Professional")]
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - The best way for Assembly versioning (when using the GAC)",

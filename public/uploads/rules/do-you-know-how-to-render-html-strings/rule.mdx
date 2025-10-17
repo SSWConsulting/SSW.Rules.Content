@@ -31,7 +31,6 @@ string message = "Hello, <b>world</b>!";
 
 Output: Hello, &lt;b&gt;world&lt;/b&gt;!
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - A string containing HTML tags will be encoded",
@@ -44,7 +43,6 @@ IHtmlContent message = new HtmlString("Hello, <b>world</b>!");
 
 Output: Hello, <b>world</b>!
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded",

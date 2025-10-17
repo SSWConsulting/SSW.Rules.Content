@@ -33,7 +33,6 @@ param skuName string = 'Basic'
 param skuCapacity int = 5
 param skuSizeInGB int = 2
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort",
@@ -44,7 +43,6 @@ param skuSizeInGB int = 2
 ```bicep
 param sku object
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - When declaring a parameter as an untyped object, bicep cannot validate the object's properties and values at compile time, risking runtime errors.",
@@ -66,7 +64,6 @@ param sku skuConfig = {
   sizeInGB: 2
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier",

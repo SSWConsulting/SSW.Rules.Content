@@ -41,7 +41,6 @@ Data Entrees should be able to use your data entry form with ease. It should fol
 Imagine, while the Sally is entering a Quote on the Quote Form, they receive a Phone call from a client needing a new Quote. The user will not want to close the current Quote, because they are 1/2 way through it.
 
 As we saw in the example above, Sally needs to open multiple instances of the same form. A reputable example for this is Microsoft's Outlook. When you are 1/2 way through an email, and you chose to start writing another, Outlook makes it convenient by placing every email you open in the taskbar. The figure below illustrates this.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -53,7 +52,6 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
   } }
   src="/Outlookemails.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -71,7 +69,6 @@ A method of implementing this is through New and Delete buttons on the form.
 New and Delete buttons should appear, in a toolbar for example, docked to the top.
 
 The figure in Data Entry Drill Downs below illustrates this:
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -107,7 +104,6 @@ The form is to be aware of the data state. If the data is dirty:
 If the user decides to save, it should save the record and close the form.
 If No, then close the form without saving.
 If Cancel, then return back to the dirty form.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -123,7 +119,6 @@ If Cancel, then return back to the dirty form.
 ### 3. Searching on the data entry
 
 Do not add buttons for searching on the data entry form, create a new form for search, through which you can open new instances of the form. The convenience of the search capability on the form will be overlooked as it makes the form more crowded. Another issue which can arise is if Sally searches for a criteria which returns multiple records, she cannot look at all those records. She can only open one at a time, navigating through them. The solution to the search dilemma is to create a new search form, which is shown in the figure below. The search form will allow multiple criteria, will not over crowd the data entry form, and will show you all the results that your search has retrieved.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -135,7 +130,6 @@ Do not add buttons for searching on the data entry form, create a new form for s
   } }
   src="/BadSearch.gif"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -151,7 +145,6 @@ Do not add buttons for searching on the data entry form, create a new form for s
 ### 4. No Delete Button for sub forms
 
 When including a sub form in your main form (as shown in figure below), the only options the user should have are "New" and "Edit". When "Edit" is clicked, another data entry form is opened to edit selected record. In this data entry form, you will have a "Delete" button on the toolbar. This saves the user from making mistakes and forcing them to see the record before deleting.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -187,7 +180,6 @@ The reason for the above validation placement is that these events run in the fo
 * Validating
 * Parse/Format
 * Validated
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -205,7 +197,6 @@ The reason for the above validation placement is that these events run in the fo
 ### 6. Relevant Menus
 
 Make sure that the menu items are relevant to the current form. The main idea is that we don't want to show the user any dummy menu items. However, this may become complex when a base form (containing the menu) is inherited. Access to menus in the base form must be granted (maybe through properties), so that each menu can be customized according to each child form.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -217,7 +208,6 @@ Make sure that the menu items are relevant to the current form. The main idea is
   } }
   src="/MenuBadExample.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -277,7 +267,6 @@ The Binding is created and added to the Data-Bindings of the Control all in one 
 With all database entries, there are always some fields that are used over and over again. For example, these fields may be created date, created by, last updated date, updated by, etc.
 
 A common UI to use for these fields can be seen in the example below. What we do is create a user control that is identical across all projects/UI.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -289,7 +278,6 @@ A common UI to use for these fields can be seen in the example below. What we do
   } }
   src="/BadCreatedUpdated.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"

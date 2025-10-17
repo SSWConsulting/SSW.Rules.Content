@@ -77,7 +77,6 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
   }
   // ... the rest of your app service configuration
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Enable System Assigned managed identity",
@@ -104,7 +103,6 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Disable Local Authentication to enable Enhanced Security for Application Insights using Bicep",
@@ -160,7 +158,6 @@ resource monitoringMetricsPublisherRoleAssignment 'Microsoft.Authorization/roleA
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep",
@@ -224,7 +221,6 @@ builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 // ---- the rest of Program.cs ----
 
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Using Managed Identities when authenticating with Application Insights",

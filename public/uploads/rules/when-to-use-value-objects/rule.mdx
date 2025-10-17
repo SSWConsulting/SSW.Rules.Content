@@ -26,7 +26,6 @@ When defining a domain, entities are created and consist of properties and metho
   </>}
 />
 As an example, consider an AD account. An AD Account consists of a domain name and username, e.g. SSW\Jason. It is a string so using the **string** type makes sense. Or does it?
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -40,7 +39,6 @@ As an example, consider an AD account. An AD Account consists of a domain name a
 />
 
 An AD Account is a complex type. Only certain strings are valid AD accounts. Sometimes you will want the string representation (SSW\Jason), sometimes you will need the domain name (SSW), and sometimes just the username (Jason). All of this requires logic and validation, and the logic and validation cannot be provided by the string primitive type. Clearly, what is required is a more complex type such as a value object.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,7 +52,6 @@ An AD Account is a complex type. Only certain strings are valid AD accounts. Som
 />
 
 The underlying implementation for the **AdAccount** class is as follows:
-
 <imageEmbed
   alt="Image"
   size="large"

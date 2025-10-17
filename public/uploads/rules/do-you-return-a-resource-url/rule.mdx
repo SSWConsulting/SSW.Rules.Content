@@ -31,7 +31,6 @@ public Product PostProduct(Product item)
  return item;
  }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – The response does not contain a reference to the location of the new resource",
@@ -58,7 +57,6 @@ public HttpResponseMessage PostProduct(Product item)
 
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – The response message contains a link in the header to the created resource (plus the “Created” status code is returned)",

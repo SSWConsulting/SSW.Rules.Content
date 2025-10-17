@@ -56,13 +56,11 @@ EXEC master.dbo.xp_smtp_sendmail
 @type = N'text/html',
 @server = N'mail.company.com.au'
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Avoid using SQL Mail - you need to have Outlook on the server and there is no built-in logging",
   shouldDisplay: true
 } } />
-
 
 <imageEmbed
   alt="Image"
@@ -86,7 +84,6 @@ Execute dbo.sp_send_dbmail
 @subject = 'Vendor List',
 @attach_query_result_as_file = 1
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Use database mail for scalability, built-in logging and HTML capability",

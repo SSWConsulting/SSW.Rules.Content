@@ -28,13 +28,11 @@ All messages are stored in one central place so it's easy to reuse. Furthermore,
 ```vbnet
 Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Write(HelloWorld)Console.Read() End Sub End Module
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example of a constant message",
   shouldDisplay: true
 } } />
-
 
 <imageEmbed
   alt="Image"
@@ -51,7 +49,6 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 ```vbnet
 Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example of a constant message",

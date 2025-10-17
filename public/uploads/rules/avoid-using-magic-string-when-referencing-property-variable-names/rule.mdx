@@ -30,7 +30,6 @@ Hard coded strings when referencing property and variable names can be problemat
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example - Hardcoding a reference to a property",
@@ -41,7 +40,6 @@ Hard coded strings when referencing property and variable names can be problemat
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example - Using nameof() operator to avoid hardcoded strings",

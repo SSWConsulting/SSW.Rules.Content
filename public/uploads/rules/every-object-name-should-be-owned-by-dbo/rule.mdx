@@ -50,7 +50,6 @@ ON Orders.OrderID = "vwOrderSubTotals".OrderID
 
 WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example",
@@ -81,7 +80,6 @@ CREATE PROCEDURE [dbo].[Sales by Year]
 
  WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example",

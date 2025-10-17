@@ -28,7 +28,6 @@ Typically in the past you'd want to use your `Startup` or `Program` classes, the
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
 
 ### Option 1 - Using InternalsVisibleTo attribute
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -50,7 +49,6 @@ This small change leads to a long road of pain:
 3. In turn add an `InternalsVisibleTo` tag to your test project for the test runner to be able to access the tests.
 
 ### Option 2 - public partial program class
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -80,7 +78,6 @@ public interface IApiMarker
 {
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Using an `IApiMarker` interface",

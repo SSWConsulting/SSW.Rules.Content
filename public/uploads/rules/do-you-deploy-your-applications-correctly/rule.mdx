@@ -36,7 +36,6 @@ To prevent issues from arising and having to re-deploy continuously which would 
 1. Have scripts that can get the pathname of the .exe that the user has installed the application on
 
 Wise has a Dialog that prompts the user for the installation directory:
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -101,7 +100,6 @@ oFile.Close
 ```vbnet
 this.pictureReportSample.Image = Image.FromFile(@"Reports\Images\Blank.jpg");
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut",
@@ -116,7 +114,6 @@ string appPath = Path.GetDirectoryName(appFilePath);
 
 this.pictureReportSample.Image = Image.FromFile(appPath + @"\Reports\Images\Blank.jpg");
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown",

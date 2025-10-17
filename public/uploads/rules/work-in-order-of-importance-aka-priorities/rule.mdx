@@ -39,7 +39,6 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
 />
 > "The difficult we do immediately; the impossible takes a little longer"
 > \— French Proverb
-
 <imageEmbed
   alt="Image"
   size="medium"
@@ -56,9 +55,17 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
 
 1. **Urgent/Important emails & PBIs/tasks** – Make them visible in the Backlog, communicate, and action
 
-    ::: info
+<asideEmbed
+  variant="info"
+  body={<>
     The word **"Urgent"** is more important than the word **"Important"**.
-    :::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
     If you see the keyword "URGENT" (or ⚠️ emoji) in the subject/title/body, it automatically becomes the **top priority** and is to be resolved immediately.
     E.g. "⚠️ URGENT - The website is down"
@@ -66,16 +73,32 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
     If you see the keyword "IMPORTANT" (or ❗ emoji), that PBI should to be treated as **high priority** and is to be resolved ASAP.
     E.g. "❗️ IMPORTANT - Broken link"
 
-    ::: warning
+<asideEmbed
+  variant="warning"
+  body={<>
     Call your Product Owner and Scrum Master when "URGENT/IMPORTANT" issues arisen, and inform them you will be working on it (immediately if "URGENT") instead of other items in the Sprint.
-    :::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-    ::: info
+<asideEmbed
+  variant="info"
+  body={<>
     **Note:** The fire 🔥 emoji is no longer used to indicate something bad, as it can be misinterpreted.
-    Often these days the 🔥 emoji is used for "hot topics".
+Often these days the 🔥 emoji is used for "hot topics".
 
    Instead, the ⚠️ warning emoji should be used to indicate an issue of concern.
-   :::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
 3. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
 4. **Your calendar** - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are) so people know where you are
@@ -117,7 +140,6 @@ When someone is asking you to do a new task while you are still working on anoth
 * Don't move an important task out of your inbox unless someone else is going to do it right away
 * The most recent task assigned is not necessarily the most important (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land)
 * You can use inbox subfolders to group and prioritize tasks
-
 <imageEmbed
   alt="Image"
   size="large"

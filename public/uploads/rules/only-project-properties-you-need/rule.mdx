@@ -27,7 +27,6 @@ When retrieving data it's much more efficient to only collect the data you need.
   shouldDisplay: true
 } } />
 
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "```cs\nIEnumerable<string> GetProductGuids(string category)\n{\n    IEnumerable<string> productGuids = context.Products\n        .Where(x => x.Category == category)\n        .Select(x => x.ProductGuid)\n        .ToList();\n\n    return productGuids;\n}\n```\n\nFigure: Good example - Retrieved only the required property.",

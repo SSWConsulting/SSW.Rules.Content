@@ -46,13 +46,11 @@ Always consider the trade-off between adding an extra dependency to your project
 ### A simple misuse of Lodash
 
 Here's an example where using Lodash's `_.map` method is unnecessary:
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "```js\nconst arr = [1, 2, 3];\nconst newArr = _.map(arr, function (n) {\n  return n * 3;\n});\nconsole.log(newArr);\n// output: [3, 6, 9]\n```\n\nFigure: using Lodash's \\_.map method",
   shouldDisplay: true
 } } />
-
 
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
@@ -66,13 +64,11 @@ In the above example it is more efficient to use the native implementation and w
 ### A good use of Lodash
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values.
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "```js\nconst user = users.find((user) => user.age === 1 && user.active === true);\nconsole.log(user);\n// output: { 'user': 'pebbles', 'age': 1, 'active': true }\n```\n\nFigure: native JavaScript find method",
   shouldDisplay: true
 } } />
-
 
 <figureEmbed figureEmbed={ {
   preset: "goodExample",

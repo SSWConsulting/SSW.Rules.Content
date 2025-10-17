@@ -99,7 +99,6 @@ result.Sort(delegate(ProductGroup groupX, ProductGroup groupY) {
         0;
 });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Not using LINQ",
@@ -116,7 +115,6 @@ result = products
     .OrderByDescending(group => group.Count())
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - using LINQ",

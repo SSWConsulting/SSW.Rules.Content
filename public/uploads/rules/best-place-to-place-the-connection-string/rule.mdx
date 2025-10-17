@@ -26,7 +26,6 @@ The best place to put the connection string is in the Web.Config file.That makes
 ```cs
 string cnnString = "data source=(local); integrated security=SSPI; persist security info=False; pooling=False; initial catalog=Northwind2";
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Using magic strings",
@@ -39,7 +38,6 @@ and observe the following code which is simple and easy to read:
 ```cs
 string cnnString = LinqToNorthwind.Properties.Settings.Default.NorthwindEFConnectionString;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Strongly typed connection string",
@@ -59,7 +57,6 @@ private void Form1_Load(object sender, System.EventArgs e)
     cboCity.SelectedIndex = 0;
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Using strongly typed connection string",

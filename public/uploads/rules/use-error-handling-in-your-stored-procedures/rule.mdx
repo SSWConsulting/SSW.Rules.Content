@@ -61,7 +61,6 @@ DECLARE @inputNumber AS INT = 0;
 -- Generate a divide-by-zero error
 SELECT 1 / @inputNumber AS Error;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example - No error handling.",
@@ -97,7 +96,6 @@ BEGIN CATCH
               THROW;
 END CATCH;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example - Using error handling to catch an error and attempt to resolve it.",
@@ -127,7 +125,6 @@ BEGIN CATCH
              THROW;
 END CATCH;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example - Using error handling to catch an error and retrieving its details, allowing it to be logged.",

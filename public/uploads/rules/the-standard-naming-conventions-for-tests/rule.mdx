@@ -25,11 +25,11 @@ isArchived: false
   body={<>
 Ensuring a consistent and organized approach to testing is pivotal in any development process. Do you adhere to the established standard naming conventions for tests? Let's explore the importance of this practice and its impact on the efficiency and clarity of your testing procedures.
 
-&gt; As well as keeping your code tidy, using this naming convention also allows you to use TestDriven.Net's 'Go To Test/Code' command.
-&gt; This navigates between your tests and code under test (and back). This is something that test-driven developers end up doing a lot.
-&gt; Screen captures at [https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go](https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go)
-&gt;
-&gt; - Jamie Cansdale
+> As well as keeping your code tidy, using this naming convention also allows you to use TestDriven.Net's 'Go To Test/Code' command.
+> This navigates between your tests and code under test (and back). This is something that test-driven developers end up doing a lot.
+> Screen captures at [https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go](https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go)
+>
+> - Jamie Cansdale
   </>}
 />
 | **Test Object**                                           | **Recommended Style**         | **Example**                                                                                                 |
@@ -58,7 +58,6 @@ That means all tests must pass.
 That means if any external resource is unavailable, the tests will fail.
 
 **Tests.Functional.SilverlightUI:** Tests the Silverlight UI from an end-user perspective by clicking around in the application
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -77,7 +76,6 @@ That means if any external resource is unavailable, the tests will fail.
 [TestMethod]
  public void Test_Client()
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example: There is no way to guess what this test does; you have to read the source",
@@ -89,7 +87,6 @@ That means if any external resource is unavailable, the tests will fail.
 [TestMethod]
  public void PubSubServiceConnectTest_AuctionOk_AuctionInfoReturned()
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example: We are testing PubSubService.Connect under the scenario that the \"Auction status is OK\" with an expected behaviour that data is returned",

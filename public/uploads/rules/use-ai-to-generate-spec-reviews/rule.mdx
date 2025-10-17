@@ -71,24 +71,31 @@ Ask sequentially, with each question stemming from the previous response."
 * **Generating PBIs:** Harness AI to create Product Backlog Items (PBIs) with both speed and consistency.
 * **Architecture Visualization:** With tools like [Mermaid](https://mermaid.js.org/), AI can manifest complex data into clear, interactive architecture diagrams.
 
-  ::: greybox
-  graph TB\
-  CUI\[Cloud User Interface]\
-  CPM\[Cloud Product Management]\
-  COM\[Cloud Order Management]\
-  CAM\[Cloud Admin Module]\
-  CPG\[Payment Gateway]\
-  CI\[Cloud Infrastructure]\
-  CUI -->|Order Placement| COM\
-  COM -->|Payment Processing| CPG\
-  CAM -->|Product Management| CPM\
-  CAM -->|System Configurations| CSC\[Cloud System Configurations]\
-  CI -->|Supports| CUI\
-  CI -->|Supports| CPM\
-  CI -->|Supports| COM\
-  CI -->|Supports| CAM
-  :::
-
+<asideEmbed
+  variant="greybox"
+  body={<>
+    graph TB\
+CUI\[Cloud User Interface]\
+CPM\[Cloud Product Management]\
+COM\[Cloud Order Management]\
+CAM\[Cloud Admin Module]\
+CPG\[Payment Gateway]\
+CI\[Cloud Infrastructure]\
+CUI --&gt;|Order Placement| COM\
+COM --&gt;|Payment Processing| CPG\
+CAM --&gt;|Product Management| CPM\
+CAM --&gt;|System Configurations| CSC\[Cloud System Configurations]\
+CI --&gt;|Supports| CUI\
+CI --&gt;|Supports| CPM\
+CI --&gt;|Supports| COM\
+CI --&gt;|Supports| CAM
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 <imageEmbed
   alt="Image"
   size="large"
@@ -103,7 +110,6 @@ Ask sequentially, with each question stemming from the previous response."
 
 * **From Architecture to Specification:**
   Entrust your AI with an architecture blueprint. See it draft an initial Specification Review, ready for human refinement.
-
 <imageEmbed
   alt="Image"
   size="large"

@@ -54,7 +54,6 @@ BEGIN
  WHERE ParaID = @id
 END
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example - Using SELECT \\* when inserting data. Besides, this stored procedure should have an Else section to raise error when no condition is satisfied",
@@ -93,7 +92,6 @@ END
 ELSE BEGIN PRINT "Please use a correct direction"
  END
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example - Using concrete columns instead of \\* and provide an Else section to raise errors",

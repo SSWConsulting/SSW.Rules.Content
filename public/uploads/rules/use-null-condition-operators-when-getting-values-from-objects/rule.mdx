@@ -30,7 +30,6 @@ Null-conditional operators - makes checking for null as easy as inserting a sing
 ```cs
 int length = customer != null && customer.name != null ? customer.name.length : 0;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Verbose and complex code checking for nulls",
@@ -41,7 +40,6 @@ int length = customer != null && customer.name != null ? customer.name.length 
 ```cs
 int length = customers?.name?.length ?? 0;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Robust and easier to read code",

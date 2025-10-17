@@ -47,7 +47,6 @@ Lock the developers into a room and shove some pizza under the door... and don't
 * Once live, there is no quick rollback strategy if something goes wrong.
 * BAU work must stop whilst this is happening.
 * This is not a realistic approach for most enterprise applications.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -75,7 +74,6 @@ The idea is to take the existing application and incrementally update it to a mo
 * It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
 * There is no quick rollback strategy if something goes wrong.
 * At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -91,7 +89,6 @@ The idea is to take the existing application and incrementally update it to a mo
 ## Strangler fig pattern (recommended)
 
 [Strangler Fig pattern was first described by Martin Fowler in 2004](https://martinfowler.com/bliki/StranglerFigApplication.html). The strangler fig is a type of tree that grows around other trees and slowly kills them by strangling them. This is exactly what this pattern does.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -135,7 +132,6 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
 
 * Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
 * Not for smaller/non-complex systems.
-
 <imageEmbed
   alt="Image"
   size="large"

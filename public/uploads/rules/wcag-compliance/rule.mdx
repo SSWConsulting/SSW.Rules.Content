@@ -83,7 +83,6 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 ## WCAG accessibility example
 
 Suppose we want to create a simple button on our site.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -101,7 +100,6 @@ This fails numerous guidelines:
 * **Criteria 2.1.1:** Not operable by keyboard
 * **Criteria 4.2.1:** No accessible role/ name (for screen readers)
 * **Criteria 1.3.1:** Using div for a button breaks semantic structure
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -132,9 +130,9 @@ WCAG defines three levels of conformance to these guidelines: A, AA, and AAA. Th
 
 | Role       | Actions |
 |------------|---------|
-| **Designers**  | - Use accessible colour palettes and check contrast ratios (4.5:1 minimum for body text);- Ensure font sizes are readable;- Clearly indicate focus states;- Design with text alternatives in mind |
-| **Developers** | - Write semantic HTML (e.g., `<button>` not `<div>` for buttons);- Use ARIA only when necessary;- Ensure full keyboard navigation;- Maintain logical tab order |
-| **Testers**    | - Run automated checks (axe, Lighthouse);- Test with keyboard only;- Test with a screen reader (NVDA, VoiceOver);- Verify form error handling |
+| **Designers**  | - Use accessible colour palettes and check contrast ratios (4.5:1 minimum for body text)<br>- Ensure font sizes are readable<br>- Clearly indicate focus states<br>- Design with text alternatives in mind |
+| **Developers** | - Write semantic HTML (e.g., `<button>` not `<div>` for buttons)<br>- Use ARIA only when necessary<br>- Ensure full keyboard navigation<br>- Maintain logical tab order |
+| **Testers**    | - Run automated checks (axe, Lighthouse)<br>- Test with keyboard only<br>- Test with a screen reader (NVDA, VoiceOver)<br>- Verify form error handling |
 
 ## Tools for testing accessibility
 

@@ -71,7 +71,6 @@ Adding comprehensive health checks is great, but if no-one is told about it - wh
 ## Health check UIs
 
 Depending on your needs, you may want to bake in a health check UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -83,7 +82,6 @@ Depending on your needs, you may want to bake in a health check UI directly into
   } }
   src="https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -95,7 +93,6 @@ Depending on your needs, you may want to bake in a health check UI directly into
   } }
   src="/uploads/rules/infrastructure-health-checks/timepro-health-check.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -115,7 +112,6 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 ## Health Checks in Azure
 
 When deploying apps in Azure it's good practice to enable health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -145,7 +141,6 @@ When deploying apps in Azure it's good practice to enable health checks within t
 | **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
 
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -157,7 +152,6 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   } }
   src="/uploads/rules/infrastructure-health-checks/infra-bad-example.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"

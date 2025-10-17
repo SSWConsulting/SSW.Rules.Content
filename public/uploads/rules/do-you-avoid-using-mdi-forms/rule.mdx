@@ -37,7 +37,6 @@ MDI (Multiple Document Interface) forms should be avoided in most modern data-ce
   } }
   src="/uploads/rules/do-you-avoid-using-mdi-forms/vs.net.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -49,7 +48,6 @@ MDI (Multiple Document Interface) forms should be avoided in most modern data-ce
   } }
   src="/uploads/rules/do-you-avoid-using-mdi-forms/wordmdibad.gif"
 />
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Good example - Word 2003 with Default Settings\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/do-you-avoid-using-mdi-forms/sdiexample.jpg\"\n/>\n\n```cs\nMe.IsMdiContainer = true;\n\nClientForm frm = new ClientForm();\nfrm.MdiParent = this;\nfrm.Show();\n```",
@@ -62,7 +60,6 @@ Figure: Bad code example - using MDI forms
 ```cs
 ClientForm frm = new ClientForm(); frm.Show();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - not using MDI",

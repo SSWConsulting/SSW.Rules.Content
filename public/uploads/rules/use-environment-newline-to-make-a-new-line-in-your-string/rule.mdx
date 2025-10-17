@@ -30,7 +30,6 @@ When you need to create a new line in your string, make sure you use Environment
 ```csharp
 string strExample = "This is a very long string that is \r\n not properly implementing a new line.";
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - The string has implemented a manual carriage return line feed pair `\\r\\n`",
@@ -42,7 +41,6 @@ string strExample = "This is a very long string that is \r\n not properly implem
 string strExample = "This is a very long string that is " + Environment.NewLine +
 		 " properly implementing a new line.";
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "OK example - The new line is created with Enviroment.NewLine (but strings are immutable)",
@@ -57,7 +55,6 @@ example.AppendLine("This is a very long string that is ");
 
 example.Append(" properly implementing a new line.");
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - The new line is created by the StringBuilder and has better memory utilisation",

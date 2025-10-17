@@ -32,7 +32,6 @@ Include:
 2. Execution Time (e.g. Execution time: 1 minute, 10 seconds)
 3. Page x of y (e.g. Page 3 of 10)
 4. Link to company website + slogan (e.g. `www.ssw.com.au` - Enterprise Sopftware Development)
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -44,7 +43,6 @@ Include:
   } }
   src="/uploads/rules/reports-footer/RSRulesBadFooter.gif"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -68,7 +66,6 @@ Use these handy report expressions to show the above information.
 | Date and Time printed / User ID | ="Printed by " + User!UserID + " on " + Globals!ExecutionTime.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Printed by SSW2000\JatinValabjee on 3/1/2006 3:16:30 PM |
 | Execution Time                  | ="Execution Time: " + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).TotalSeconds < 1, "0 seconds", ( IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours & " hour(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes & " minute(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds & " second(s)", "")) ) | Execution time: 1 minute, 10 seconds                    |
 | Page x of y                     | ="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Page 3 of 10                                            |
-
 <imageEmbed
   alt="Image"
   size="large"

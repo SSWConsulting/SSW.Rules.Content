@@ -35,7 +35,6 @@ using (SqlConnection conn = new SqlConnection())
     bindingSource1.DataSource = cmd.ExecuteReader();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - using ADO.NET and not strongly typed",
@@ -58,7 +57,6 @@ var results = dbContext.Customers
     });
 customersBindingSource.DataSource = results;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - at least 4 good reasons below",

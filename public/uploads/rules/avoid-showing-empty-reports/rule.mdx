@@ -39,7 +39,6 @@ When a user opens a report, they expect to see something. It is the developer's 
 />
 
 The following report shows nothing, because the parameters are using meaningless default values (in this case, old dates for the year 2006)
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,7 +50,6 @@ The following report shows nothing, because the parameters are using meaningless
   } }
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT7.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -82,13 +80,11 @@ DateSerial(Year(DateTime.Now), Month(DateTime.Now),1)
 --Expression to get the 1st day of the next month
 DateSerial(iif( Month(DateTime.Now)=12, Year(DateTime.Now)+1, Year(DateTime.Now)), iif( Month(DateTime.Now)=12, 1, Month(DateTime.Now) + 1), 1)
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Expressions to set the date range to the current month",
   shouldDisplay: true
 } } />
-
 
 <imageEmbed
   alt="Image"
@@ -123,13 +119,11 @@ DATENAME(year, MAX(OrderDate))
 ) AS StartOfMonth
 FROM Orders
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Using a query to retrieve the last month of available data",
   shouldDisplay: true
 } } />
-
 
 <imageEmbed
   alt="Image"

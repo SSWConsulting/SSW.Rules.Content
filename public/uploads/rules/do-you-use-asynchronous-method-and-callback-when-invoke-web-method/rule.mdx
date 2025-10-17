@@ -39,7 +39,6 @@ WebResponse response = request.GetResponse();
      ...
      }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Invoke web method by the normal way (because this will hang your UI thread)",
@@ -86,7 +85,6 @@ IAsyncResult r = request.BeginGetResponse(new AsyncCallback(ResCallBack), reques
          }
      }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Invoke web method by using asynchronous method and CallBack (UI thread will be free once the request has been sent)",

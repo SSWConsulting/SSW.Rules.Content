@@ -33,7 +33,6 @@ public ActionResult Create()
     UpdateModel(myEntity);
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – UpdateModel may throw an exception and the ModelState dictionary won’t be updated",
@@ -53,7 +52,6 @@ public ActionResult Create()
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – TryUpdateModel will gracefully handle validation and will add to the ModelState dictionary so we can check for validity",

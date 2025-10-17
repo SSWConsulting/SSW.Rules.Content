@@ -34,7 +34,6 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
   } }
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-bad.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -79,9 +78,17 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-signin.png"
 />
 
-   ::: greybox
-   **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
-   :::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
 4. Follow the prompts to sign in to LinkedIn, and allow access to your account
 5. Hover over your name again, click the LinkedIn logo and see your profile appear

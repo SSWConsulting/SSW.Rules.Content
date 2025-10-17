@@ -65,7 +65,6 @@ protected void Application_Start(object sender, EventArgs e)
 RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx")));
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "okExample",
   figure: "Figure: OK example - create a static route if you only have a few rewrites**",
@@ -74,7 +73,6 @@ RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new Pa
 
 
 2. Use the URL Rewriting Module for IIS7
-
 <imageEmbed
   alt="Image"
   size="large"

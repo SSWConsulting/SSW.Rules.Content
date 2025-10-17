@@ -39,7 +39,6 @@ services.AddIdentityServer()
     .AddTestUsers(new List<TestUser>())
     .AddDeveloperSigningCredential();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore",
@@ -57,7 +56,6 @@ services.AddAuthentication("Bearer")
         options.Authority = "https://localhost:5000";
     });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.",
@@ -73,7 +71,6 @@ services.AddAuthentication("Bearer")
       options.Authority = "https://localhost:5000";
     });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - use `AddJwtBearer(\"Bearer\")` instead",

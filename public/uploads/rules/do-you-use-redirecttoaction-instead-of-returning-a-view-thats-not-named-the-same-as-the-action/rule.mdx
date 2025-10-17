@@ -39,7 +39,6 @@ public ActionResult Create(CreateModel model)
     return View("Success");
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Returning a different view is misleading and potentially dangerous",
@@ -61,7 +60,6 @@ public ActionResult Success(string message)
     return View();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using the PRG pattern to avoid duplicate data being posted",
