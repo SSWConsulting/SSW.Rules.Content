@@ -15,7 +15,6 @@ authors:
 related:
   - tech-check
   - record-a-quick-and-dirty-done-video
-  - rules-to-better-video-recording
   - making-a-great-done-video
   - creating-action-items
   - monthly-stakeholder-video

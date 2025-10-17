@@ -10,7 +10,6 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
 related:
   - pc-do-you-use-the-best-backup-solution
-  - rules-to-better-backups
 redirects:
   - do-you-know-the-right-notification-for-backups
 created: 2017-07-10T23:20:11.000Z

@@ -38,6 +38,7 @@ index:
   - chatgpt-for-email
   - humanise-ai-generated-content
   - train-ai-to-write-in-your-style
+  - avoid-ai-hallucinations
 
 ---
 

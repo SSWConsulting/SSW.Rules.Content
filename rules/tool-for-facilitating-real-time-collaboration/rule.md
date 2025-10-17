@@ -7,7 +7,6 @@ authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
 related:
-  - rules-to-better-microsoft-teams
   - do-you-know-you-should-write-notes-when-an-activity-is-going
   - the-best-wiki
 created: 2024-02-26T12:33:21.000Z

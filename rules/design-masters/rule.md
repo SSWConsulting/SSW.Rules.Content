@@ -8,7 +8,6 @@ authors:
   - title: Micaela Blank
     url: https://www.ssw.com.au/people/micaela-blank
 related:
-  - rules-to-better-designers
   - have-a-schema-master
   - design-system
   - design-debt

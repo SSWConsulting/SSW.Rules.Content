@@ -6,8 +6,7 @@ uri: sharepoint-usage
 authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
-related:
-  - rules-to-better-google-analytics-reports
+related: []
 created: 2021-11-17T05:37:10.823Z
 guid: b757f0c9-a2ed-4acc-8fa9-47577557a1c3
 ---

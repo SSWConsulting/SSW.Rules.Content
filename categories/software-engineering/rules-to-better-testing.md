@@ -32,6 +32,7 @@ index:
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
   - use-logging-fakes
   - canary-deploy
+  - do-you-only-roll-forward
 
 ---
 
