@@ -25,7 +25,7 @@ index:
 - build-hallucination-proof-ai-assistants
 - avoid-ai-hallucinations
 - make-your-website-llm-friendly
-- do-you-know-dataverse-ai-options
+- dataverse-ai-options
 
 ---
 
