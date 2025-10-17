@@ -61,7 +61,7 @@ This Service Detector works by attempting to download the Favicon.ico file from 
 
 ### Solutions
 
-If, for example, your site displays videos, you can detect that YouTube is not available in China and embed YouKu videos instead. 
+If, for example, your site displays videos, you can detect that YouTube is not available in China and embed YouKu videos instead.
 Both these options require service detection to operate properly. Remember that attempting to connect to a blocked service from China could take a long time to timeout, potentially adding significant loading times to your site.
 
 **Solution 1: Remove the content**
