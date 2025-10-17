@@ -7,7 +7,10 @@ seoDescription: Learn how to properly attribute commits when using GitHub
   and transparency in AI-human collaboration.
 uri: attribute-ai-assisted-commits-with-co-authors
 authors:
-  - title: ""
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
+  - title: Lewis Toh
+    url: https://ssw.com.au/people/lewis-toh
 related:
   - keep-task-summaries-from-ai-assisted-development
 created: 2025-10-17T09:52:00.000Z
@@ -133,18 +136,6 @@ Check these sources to determine your details for co-author attribution:
 
 The standard Git co-author format:
 
-```bash
-git commit -m "Type: Brief description
-
-Co-authored-by: Your Name <your.email@example.com>"
-```
-
-::: good
-Good Example - Clear attribution shows who verified the AI's work
-:::
-
-### Co-Author Example
-
 ::: greybox
 ```bash
 git commit -m "feat: Add recipe search functionality
@@ -162,7 +153,7 @@ Co-authored-by: Gordon Beeming <me@gordonbeeming.com>"
 Good Example - You get proper credit for verifying and approving the AI's work
 :::
 
-### Multiple Co-Authors Example
+### Multiple Co-Authors
 
 For collaborative work where multiple people reviewed the AI's work:
 
@@ -190,13 +181,13 @@ Good Example - All reviewers are properly credited
 ### ❌ DON'T Add Co-Authors For:
 
 - **Automated updates**: Dependency bumps, bot-generated changes
-- **Manual work**: Code you write yourself without AI assistance
+- **Routine maintenance**: Scheduled tasks with no specific requester
 
-## Implementation for GitHub Copilot CLI
+## Implementation for your AI Assistant
 
-### Configure Copilot Instructions
+### Option 1: Configure AI Assistant Instructions (⭐ Recommended)
 
-Add this section to your `.github/copilot-instructions.md`:
+Add the following section to your AI assistant configuration (e.g., `.github/copilot-instructions.md`, `.cursorrules`, `.ai/instructions.md`, or your preferred location):
 
 ```markdown
 ## Git Commit Guidelines
@@ -245,139 +236,8 @@ git commit -m "feat: Add recipe search functionality
 Co-authored-by: Gordon Beeming <me@gordonbeeming.com>"
 ```
 
-**When to add yourself as co-author:**
-- ✅ When AI implements a feature you requested
-- ✅ When AI fixes a bug and you verify the fix
-- ✅ When AI refactors code and you approve the changes
-- ✅ When collaborating with AI on any code changes
-- ❌ Not needed for automated updates (dependency bumps, etc.)
-```
 
-### Automatic Attribution Script
-
-Create a helper script to automatically add yourself as co-author:
-
-```bash
-#!/bin/bash
-# save as: .github/scripts/commit-with-coauthor.sh
-
-# Get current git user details
-COAUTHOR_NAME=$(git config user.name)
-COAUTHOR_EMAIL=$(git config user.email)
-
-# Commit with co-author
-git commit -m "$1
-
-Co-authored-by: $COAUTHOR_NAME <$COAUTHOR_EMAIL>"
-```
-
-**Usage:**
-```bash
-chmod +x .github/scripts/commit-with-coauthor.sh
-./.github/scripts/commit-with-coauthor.sh "feat: Add authentication module"
-```
-
-## Benefits
-
-This practice provides:
-
-✅ **Proper Credit:** Both AI and human contributors receive recognition  
-✅ **Transparency:** Clear record of who verified the AI's work  
-✅ **Collaboration History:** Easy to trace AI-assisted changes  
-✅ **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
-✅ **Vertical Slicing:** Each commit represents one logical unit of work  
-✅ **Task Documentation Alignment:** Commits correspond to [task docs created](task-docs-created) during the session  
-✅ **Team Visibility:** Managers can see AI collaboration patterns  
-✅ **GitHub Insights:** Contribution graphs reflect collaborative work  
-✅ **Future Context:** Helps understand how changes were created  
-✅ **Easy Reverting:** Can undo specific changes without affecting other work
-
-### GitHub UI Benefits
-
-When you use co-authors, GitHub automatically:
-
-- Shows all co-authors on the commit in the UI
-- Counts the commit toward each co-author's contributions
-- Links the commit to all co-authors' profiles
-- Includes it in contribution graphs for all co-authors
-
-::: greybox
-**GitHub Commit View:**
-
-```
-feat: Add authentication module
-
-Author: GitHub Copilot
-Co-authored-by: Gordon Beeming <gordon@example.com>
-```
-
-**Shows:**
-- Gordon's avatar appears on the commit
-- Commit counts toward Gordon's contributions
-- Links to Gordon's profile from the commit
-:::
-::: good
-Good Example - GitHub recognizes and displays all contributors
-:::
-
-## Real-World Scenarios
-
-### Scenario 1: AI Implements Feature
-
-::: greybox
-**You ask AI:**
-"Add dark mode support to the dashboard"
-
-**Your commit:**
-```bash
-git commit -m "feat: Implement dark mode toggle
-
-Co-authored-by: Gordon Beeming <gordon@example.com>"
-```
-:::
-::: good
-Good Example - You get credit for directing and verifying the AI's work
-:::
-
-### Scenario 2: AI Fixes Bug
-
-::: greybox
-**You identify:**
-"The validation logic has a bug when email field is empty"
-
-**Your commit:**
-```bash
-git commit -m "fix: Handle empty email validation correctly
-
-Co-authored-by: Gordon Beeming <gordon@example.com>"
-```
-:::
-::: good
-Good Example - You are credited for finding and verifying the fix
-:::
-
-### Scenario 3: Copilot CLI Implementation
-
-::: greybox
-**Command:**
-```bash
-copilot_here "add TypeScript types for all API responses"
-```
-
-**Copilot commits:**
-```bash
-git commit -m "feat: Add TypeScript types for API responses
-
-Co-authored-by: Gordon Beeming <gordon@example.com>"
-```
-
-**Result:** Gordon is credited for the type safety improvement alongside the AI
-:::
-::: good
-Good Example - The person who directed Copilot gets proper attribution
-:::
-
-## Advanced: Git Hooks for Automatic Attribution
+### Option 2: Git Hooks for Automatic Attribution
 
 Create a `prepare-commit-msg` hook to automatically add yourself as co-author:
 
@@ -405,6 +265,37 @@ fi
 **Note:** Git hooks are local and not committed to the repository. Share this with your team via documentation.
 :::
 
+## Benefits
+
+✅ **Proper Credit:** Both AI and human contributors receive recognition  
+✅ **Transparency:** Clear record of who verified the AI's work  
+✅ **Collaboration History:** Easy to trace AI-assisted changes  
+✅ **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
+✅ **Vertical Slicing:** Each commit represents one logical unit of work  
+✅ **Task Documentation Alignment:** Commits correspond to [task docs created](task-docs-created) during the session  
+✅ **Team Visibility:** Team can see AI collaboration patterns  
+✅ **Future Context:** Helps understand how changes were created  
+✅ **Easy Reverting:** Can undo specific changes without affecting other work
+
+### GitHub UI Benefits
+
+::: greybox
+**GitHub Commit View:**
+
+```
+feat: Add authentication module
+
+Author: GitHub Copilot
+Co-authored-by: Gordon Beeming <gordon@example.com>
+```
+- Gordon's avatar appears on the commit
+- Commit counts toward Gordon's contributions
+- Links to Gordon's profile from the commit
+:::
+::: good
+Good Example - GitHub recognizes and displays all contributors
+:::
+
 ## Conclusion
 
 Proper commit attribution is essential when AI assists with code changes. By consistently adding yourself as co-author to commits, you:
@@ -412,8 +303,3 @@ Proper commit attribution is essential when AI assists with code changes. By con
 - Ensure fair credit for all contributors (both AI and human)
 - Maintain transparent collaboration history
 - Provide context for future developers
-- Support accurate contribution metrics
-
-This practice transforms AI from a black box into a transparent collaborator, showing who verified the work and ensuring accountability.
-
-Remember: **If AI wrote it and you approved it, you both deserve credit for it.**
