@@ -20,7 +20,7 @@ redirects: []
 
 ---
 
-Some countries (especially the People's Republic of China) strictly control access to various international web services. You can use service detection to determine whether particular services are available and fall-back gracefully or use alternative providers.
+Some countries (especially China) strictly control access to various international web services. Meanwhile, as geopolitical tensions escalate, many service providers are actively restricting or blocking access to their services in specific regions like China, including Copilot, ChatGPT, Google Gemini and Claude, etc. You can use service detection to determine whether particular services are available, allowing you to fallback gracefully or use alternative providers.
 
 <!--endintro-->
 
