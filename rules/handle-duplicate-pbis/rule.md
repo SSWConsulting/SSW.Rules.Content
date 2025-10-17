@@ -35,7 +35,7 @@ guid: 85612086-fd82-4d02-abd0-baf0b310004a
 
 When working on a GitHub backlog, it’s common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
 
-Backlog - Duplicates clutter the backlog and can lead to wasted effort - a clean backlog is easier to maintain. But it's also important to make sure everyone stays informed on their reported issues.
+Duplicates clutter the backlog and can lead to wasted effort. A clean backlog is easier to maintain. But it's also important to make sure everyone stays informed on their reported issues.
 
 <!--endintro-->
 
