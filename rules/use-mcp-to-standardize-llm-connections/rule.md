@@ -1,10 +1,7 @@
 ---
 type: rule
-title: Do you use MCP to standardize connections
-  between your LLMs/Agents and external services?
-seoDescription: Learn why using the Model Context Protocol (MCP) is a
-  game-changer for connecting LLMs and agents to external services in a
-  standardized, scalable way
+title: Do you use MCP to standardize connections between your LLMs/Agents and external services?
+seoDescription: Learn why using the Model Context Protocol (MCP) is a game-changer for connecting LLMs and agents to external services in a standardized, scalable way.
 uri: use-mcp-to-standardize-llm-connections
 related: 
  - mcp-server
@@ -12,22 +9,23 @@ related:
 authors:
   - title: Hajir Lesani
     url: https://www.ssw.com.au/people/hajir-lesani/
-    img: https://www.ssw.com.au/people/static/Hajir-Lesani-Profile-ec51b567a8fa713a30f7b55a89bed440.jpg
   - title: Louis Roa
     url: https://www.ssw.com.au/people/louis-roa/
-    img: https://www.ssw.com.au/people/static/Louis-Roa-Profile-ed19143ab4c27c8c7a4f5ef049ee0c3b.jpg
   - title: Anton Polkanov
     url: https://www.ssw.com.au/people/anton-polkanov/
 created: 2025-04-23T12:04:00.000Z
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ---
 
-Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice. Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
+Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice. 
 
-![](mcp.png "MCP Architecture")
-**Figure: MCP Architecture (Image Credit: [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/))**
+Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
 <!--endintro-->
+
+![Figure: MCP Architecture ](mcp.png "MCP Architecture")
+
+**Image credit:** [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/)
 
 ## What is MCP?
 
@@ -41,7 +39,7 @@ This architecture separates logic and plumbing from your agent, making developme
 
 ### MCP architecture breakdown
 
-Three main components:
+The main components:
 
 **1. Host** - An application that wants to use backend services. E.g. an GitHub Copilot or Claude Desktop
 
@@ -84,11 +82,11 @@ All communication is standardized and discoverable.
 
 ### Who's already using MCP?
 
-* Anthropic invented it.
-* **Google, Microsoft, and OpenAI** are backing it.
-* **Zapier** wrapped 7,000+ SaaS integrations as an MCP gateway.
-* IDEs like **VS Code, Cursor, and JetBrains** are MCP-native.
-* **Docker, Postman, GitHub** are building servers.
+* Anthropic invented it
+* **Google, Microsoft, and OpenAI** are backing it
+* **Zapier** wrapped 7,000+ SaaS integrations as an MCP gateway
+* IDEs like **VS Code, Cursor, and JetBrains** are MCP-native
+* **Docker, Postman, GitHub** are building servers
 
 ### USB-C for AI: Not just a buzzword
 
@@ -108,9 +106,10 @@ Whether you're building the agent side or the server:
 
 ### Try it yourself
 
-Want to get hands-on with MCP? Here's how to get started with one of the useful MCPs called **Context7**:
+Want to get hands-on with MCP? Here's how to get started with one of the useful MCPs called **Context7**.
 
 LLMs rely on outdated or generic information about the libraries you use. Context7 pulls **up-to-date, version-specific documentation and code examples** directly from the source.
+
 While using AI code editors like Cursor or VSCode, **include the phrase "use context7"** in your prompt, and it'll automatically retrieve relevant information from official sources. This helps AI assistant generate accurate and current code snippets.
 
 * **Step 1** - Go to [context7 repo](https://github.com/upstash/context7) and read the setup guide (Cursor, VSCode, Claude Desktop, etc)
@@ -118,9 +117,9 @@ While using AI code editors like Cursor or VSCode, **include the phrase "use con
 * **Step 2** - Once installed, try asking a question using context7\
   Example: In your Chat panel, type: "Add tailwind to my project. Use context7"
 
-✨ **Note:** Make sure you're in **Agent Mode**
+  ✨ **Note:** Make sure you're in **Agent Mode**
 
-Cursor/VSCode will auto‑discover two tools exposed by Context7: resolve-library-id ➜ get-library-docs. It resolves "tailwind" to the latest compatible ID and injects concise, version‑accurate code snippets into the conversation
+   Cursor/VSCode will auto‑discover two tools exposed by Context7: resolve-library-id ➜ get-library-docs. It resolves "tailwind" to the latest compatible ID and injects concise, version‑accurate code snippets into the conversation
 
 * **Step 3** - Verify that tailwind (version 4) is added
 
@@ -136,6 +135,6 @@ More servers can be found on [MCP Server Directory](https://www.pulsemcp.com/ser
 
 ---
 
-#### Need help connecting your proprietary services?  
+## Need help connecting your proprietary services?  
 
 📩 [Reach out to SSW](https://www.ssw.com.au/consulting/artificial-intelligence) – we'll help you build a robust, scalable MCP server.
