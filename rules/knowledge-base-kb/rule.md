@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
  - follow-boy-scout-rule
+ - awesome-documentation
  - use-readme-templates
  - awesome-readme
  - support-send-links
@@ -26,9 +27,9 @@ redirects:
 Established projects typically include several layers of documentation, collectively known as a **Knowledge Base (KB)**:
 
 * **FAQs (Frequently Asked Questions)** - Quick questions and their answers
-* **Documentation (Docs)** - In-depth guidance and references
+* **[Documentation](/awesome-documentation) (Docs)** - In-depth guidance and references
 * **Q&A Articles** - More detailed question/answer pairs for more specific use cases
-* **Roadmap** - Outlines upcoming goals, features, and milestones to show the project’s direction and priorities
+* **[Roadmap](/roadmap)** - Outlines upcoming goals, features, and milestones to show the project’s direction and priorities
 
 <!--endintro-->
 
@@ -180,7 +181,7 @@ You don't need to be Microsoft to build a KB. A Knowledge Base does not need to 
 
 ❌ Don't use a simple knowledge base e.g. [pdi-ssw.zendesk.com/hc/en-us](https://pdi-ssw.zendesk.com/hc/).
 
-✅ Create a docs page e.g. [TinaDocs](https://tina.io/tinadocs/docs)
+✅ Make your knowledge easy to find by using a well-designed docs system like [TinaDocs](https://tina.io/tinadocs/docs)
 
 ::: good
 ![Figure: Good example - TinaCMS Docs page](tina-cms-docs.png)
