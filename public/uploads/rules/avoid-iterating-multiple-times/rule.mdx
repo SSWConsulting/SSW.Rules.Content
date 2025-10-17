@@ -42,7 +42,6 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluation",
@@ -65,7 +64,6 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Only enumerates once",

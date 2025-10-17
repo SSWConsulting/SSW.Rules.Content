@@ -32,7 +32,6 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 2. If it doesn't already exist, create a branch protection rule on the 'main' or 'master' branch
 3. Ensure 'Allow force pushes' and 'Allow Deletions' are disabled
 4. Save changes
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -44,7 +43,6 @@ Using force push is dangerous and should be used with extreme caution, as it wil
   } }
   src="/uploads/rules/use-branch-protection/bad-unprotected-main-branch.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -60,7 +58,6 @@ Using force push is dangerous and should be used with extreme caution, as it wil
 See the GitHub docs [Managing a branch protection rule](https://docs.github.com/en/github/administering-a-repository/managing-a-branch-protection-rule)
 
 You can use required status checks if you need to check that your code changes will build. Status checks are GitHub Actions that are required to succeed before the PR can be merged, so developers can't merge failing code. You can enable required status checks in the same location as **Allow force pushes** and **Allow Deletions**.
-
 <imageEmbed
   alt="Image"
   size="large"

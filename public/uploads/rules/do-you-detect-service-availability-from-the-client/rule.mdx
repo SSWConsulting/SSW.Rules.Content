@@ -28,7 +28,7 @@ isArchived: false
 
 <introEmbed
   body={<>
-Some countries (especially the People's Republic of China) strictly control access to various international web services. You can use service detection to determine whether particular services are available and fall-back gracefully or use alternative providers.
+Some countries (especially China) strictly control access to various international web services. Meanwhile, as geopolitical tensions escalate, many service providers are actively restricting or blocking access to their services in specific regions like China, including Copilot, ChatGPT, Google Gemini and Claude, etc. You can use service detection to determine whether particular services are available, allowing you to fallback gracefully or use alternative providers.
   </>}
 />
 As well as from inside China, another common place where access to third-party services may be blocked is from behind corporate firewalls.
@@ -57,7 +57,6 @@ For these reasons, dynamic service detection is recommended in preference to sol
 SSW has created a simple Service Detection library for exactly this purpose called SSW Service Detector. This is open source and available from GitHub:[SSW Service Detector](https://github.com/SSWConsulting/SSW.ServiceDetector).
 
 This Service Detector works by attempting to download the Favicon.ico file from the website for each service you want to use. These favicon files are small, so if a service is available, the file will download very quickly. If a service is blocked, the connection could take a long time to timeout on its own. In this situation, the service detector uses a 1.5-second timer to attempt the download and will cancel the request after this time so that these connection attempts fail quickly and don't block the entire page.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -69,7 +68,6 @@ This Service Detector works by attempting to download the Favicon.ico file from 
   } }
   src="/uploads/rules/do-you-detect-service-availability-from-the-client/BlockedDependencies_1710232021933.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"

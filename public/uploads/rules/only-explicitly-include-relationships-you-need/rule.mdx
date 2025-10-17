@@ -28,7 +28,6 @@ var query = _dbContext
         .Sales
         .Include(x => x.SalesPerson);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Retrieved the sales records and the salesperson, even though we don't intend to use the salesperson record.",
@@ -40,7 +39,6 @@ var query = _dbContext
 var query = _dbContext
         .Sales;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Retrieved only the sales records themselves",

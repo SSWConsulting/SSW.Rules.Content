@@ -32,7 +32,6 @@ foreach (var item in items)
     context.SaveChangesAsync();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits",
@@ -46,7 +45,6 @@ Instead, use **bulk insertion** techniques like `AddRangeAsync()` and call `Save
 context.MyEntities.AddRangeAsync(items);
 context.SaveChangesAsync();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using `AddRangeAsync()` minimizes database calls and improves performance",
@@ -69,7 +67,6 @@ foreach (var id in ids)
     ProcessEntity(entity);
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Each iteration performs a separate database query, leading to N queries",
@@ -86,7 +83,6 @@ foreach (var entity in entities)
     ProcessEntity(entity);
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Fetches all required records in one query, reducing database load",
@@ -107,7 +103,6 @@ for (int i = 0; i < ids.Count; i += batchSize)
     ProcessEntities(entities);
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "okExample",
   figure: "Figure: OK example – Processes data in batches to balance efficiency and memory usage",
@@ -126,7 +121,6 @@ By default, EF Core tracks entities, which increases memory usage and slows down
 ```csharp
 var entities = context.MyEntities.ToListAsync();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Unnecessary tracking increases memory usage",
@@ -137,7 +131,6 @@ var entities = context.MyEntities.ToListAsync();
 ```csharp
 var entities = context.MyEntities.AsNoTracking().ToListAsync();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage",
@@ -170,7 +163,6 @@ foreach (var entity in entities)
     context.SaveChangesAsync();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance",
@@ -185,7 +177,6 @@ foreach (var entity in entities)
 }
 context.SaveChangesAsync();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Updates all entities in memory first, then commits changes in a single transaction",
@@ -208,7 +199,6 @@ foreach (var entity in entities)
     await context.SaveChangesAsync(); // Each iteration creates a separate transaction
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead",
@@ -233,7 +223,6 @@ catch
     await transaction.RollbackAsync();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability",
@@ -265,7 +254,6 @@ catch
     await transaction.RollbackAsync();
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal",

@@ -86,10 +86,17 @@ dotnet ef database update
 ### Using Rider
 
 If you struggle to remember the commands above, Rider has a great UI that makes creating migrations easy. This is especially useful when you have different projects for both startup and migrations.
-
-::: img-large
-![Rider - EF Core Migrations](/uploads/rules/use-code-migrations/rider-ef-core.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Rider - EF Core Migrations",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-code-migrations/rider-ef-core.png"
+/>
 
 ## Executing Entity Framework Code First Migrations
 
@@ -99,7 +106,6 @@ Once you have some migration, you'll then need to decide when these get run. Nai
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Running migrations manually during startup in `program.cs`",
@@ -115,7 +121,6 @@ A place to run migrations is during your CICD deployment pipeline.
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Creating and executing a migration bundle during a CICD pipeline",

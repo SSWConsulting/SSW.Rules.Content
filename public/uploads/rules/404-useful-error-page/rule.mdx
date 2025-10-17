@@ -47,7 +47,6 @@ Consider adding a button to your homepage here, or your site's search functional
   } }
   src="/uploads/rules/404-useful-error-page/404-bad.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -59,7 +58,6 @@ Consider adding a button to your homepage here, or your site's search functional
   } }
   src="/uploads/rules/404-useful-error-page/404-good.png"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -115,7 +113,6 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Wildcard routing of unrecognised paths",
@@ -145,7 +142,6 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Wildcard routing of unrecognised paths",
@@ -161,7 +157,6 @@ export class AppRoutingModule { }
   <a routerLink="/">Go back to Home</a>
 </div>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - The custom 404 html page",
@@ -194,7 +189,6 @@ function App() {
 
 export default App;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - The custom 404 pages",
@@ -207,7 +201,6 @@ export default App;
 ```xml
 <customErrors mode="Off"></customErrors>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - The default code on web.config",
@@ -220,7 +213,6 @@ export default App;
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - The custom code in the web.config",
@@ -235,7 +227,6 @@ This error information is useful for the developer to do debugging. However, it 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Turning on \"customErrors\" protects sensitive information against Hacker",

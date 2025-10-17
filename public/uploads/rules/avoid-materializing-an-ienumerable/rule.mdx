@@ -29,7 +29,6 @@ foreach(var product in products.ToList())
  // Do something
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - This creates a list with all of the products in RAM before iterating over them. This can very easily cause an OutOfMemoryException.",
@@ -43,7 +42,6 @@ foreach(var product in products)
      // Do something
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Doesn't force the data to be read into memory before iterating. This will behave nicely even for an infinite enumerator.",

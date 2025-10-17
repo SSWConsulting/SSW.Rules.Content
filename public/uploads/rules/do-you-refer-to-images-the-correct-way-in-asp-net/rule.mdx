@@ -39,7 +39,6 @@ Often developers reference all images by using an root-relative path (prefixing 
 ```html
 <img src="/Images/spacer.jpg" />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Referencing images with absolute paths",
@@ -63,7 +62,6 @@ Images that are part of the content of a page should be referenced using relativ
 ```html
 <img src="../Images/spacer.jpg" />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Referencing images with relative paths",
@@ -84,7 +82,6 @@ To use this feature, you need either use ASP.NET Server controls or HTML Server 
 <img id="spacerImage" src="~/Images/spacer.gif" originalAttribute="src"
 originalPath=""~/Images/spacer.gif"" runat="server">
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Application-relative paths with an ASP.NET Server control",
@@ -100,7 +97,6 @@ Using an HTML Server control creates less overhead than an ASP.NET Server contro
 <img src='<%# originalAttribute="src" originalPath="'<%#"
 Page.ResolveUrl("~/Images/spacer.gif") %>'>
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Page.ResolveUrl method with a non-server tag",

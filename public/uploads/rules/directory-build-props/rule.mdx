@@ -99,7 +99,6 @@ This can be used for:
   shouldDisplay: true
 } } />
 
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "**Project1.csproj:**\n\n```xml\n<Project Sdk=\"Microsoft.NET.Sdk.Web\">\n</Project>\n```\n\n**Project2.csproj:**\n\n```xml\n<Project Sdk=\"Microsoft.NET.Sdk.Web\">\n</Project>\n```\n\n**Directory.Build.props:**\n\n```xml\n<Project>\n    <PropertyGroup>\n        <TargetFramework>net8.0</TargetFramework>\n        <ImplicitUsings>enable</ImplicitUsings>\n        <Nullable>enable</Nullable>\n\n        <!-- Configure code analysis. -->\n        <AnalysisLevel>latest</AnalysisLevel>\n        <AnalysisMode>Recommended</AnalysisMode>\n        <TreatWarningsAsErrors Condition=\"'$(Configuration)' == 'Release'\">true</TreatWarningsAsErrors>\n        <CodeAnalysisTreatWarningsAsErrors Condition=\"'$(Configuration)' == 'Release'\">true</CodeAnalysisTreatWarningsAsErrors>\n        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>\n    </PropertyGroup>\n</Project>\n```",

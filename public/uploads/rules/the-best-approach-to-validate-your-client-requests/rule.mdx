@@ -57,7 +57,6 @@ One approach to solving this problem is to move validation to the Application la
 The above implementation solves the problem. Whether the request originates from the Web API or a console app it will be validated before further processing occurs. However, the above code is boilerplate and will need to be repeated for each and every request that requires validation. And of course, it will only work if the developer remembers to include the validation check in the first place!
 
 Fortunately, if you are following our recommendations and combining CQRS with MediatR you can solve this problem by incorporating the following behaviour into your MediatR pipeline:
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -73,7 +72,6 @@ Fortunately, if you are following our recommendations and combining CQRS with Me
 This **RequestValidationBehavior** class will automatically validate all incoming requests and throw a **ValidationException** should the request be invalid. This is the best and easiest approach since existing requests, and new requests added later, will be automatically validated. This is possible through the power of MediatR pipeline behaviours. The documentation for MediatR includes a section on Behaviours; https://github.com/jbogard/MediatR/wiki/Behaviors. Review this documentation to understand how you can enhance your request handlers with behaviours and how to register pipeline behaviours.
 
 The only step that remains is handle any validation exceptions. Within the console app, a try catch block will suffice. The action taken within the catch block will of course depend on requirements. Within the Web API, use an **ExceptionFilterAttribute** to catch these exceptions and convert them into a **BadRequest** result as follows:
-
 <imageEmbed
   alt="Image"
   size="large"

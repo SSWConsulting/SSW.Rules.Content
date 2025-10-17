@@ -76,7 +76,6 @@ Typically, `GET`, `PUT` and `DELETE` are idempotent by default, but special hand
     shouldDisplay: false
   }}
 />
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - This prevents accidental duplicate data processing",
@@ -101,7 +100,6 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 ```js
 `?x=name&y=asc`
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - It's impossible to understand what those query string mean!",
@@ -112,7 +110,6 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 ```jsox
 `?sortBy=name&order=asc`
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Query strings are meaningful",
@@ -129,7 +126,6 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 ```js
 `api/products?user_id=123&product_id=321`
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Messy query parameter",
@@ -140,7 +136,6 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 ```js
 `api/orders/123/items/456/products/789`
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Overly complicated endpoint",
@@ -151,7 +146,6 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 ```js
 `api/products/789`
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Clearly defined endpoint",

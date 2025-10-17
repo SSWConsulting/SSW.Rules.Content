@@ -49,7 +49,6 @@ public ActionResult Gizmos()
     return View("Gizmos", gizmoService.GetGizmos());
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request",
@@ -64,7 +63,6 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete",

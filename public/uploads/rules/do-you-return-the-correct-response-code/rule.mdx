@@ -37,7 +37,6 @@ public Product PostProduct(Product item)
  return item;
  }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example – By default a 200 status code is returned.",
@@ -56,7 +55,6 @@ public Product PostProduct(Product item)
  return response;
  }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example – When creating objects the “Created” status code is returned.",
@@ -80,7 +78,6 @@ public void PutProduct(int id, Product product)
 
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound",

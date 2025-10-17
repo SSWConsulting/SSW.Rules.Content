@@ -69,7 +69,6 @@ public class CustomerValidator: AbstractValidator<Customer> {
   }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.",
@@ -82,7 +81,6 @@ public class CustomerValidator: AbstractValidator<Customer> {
 ```cs
 RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good Example: Conditional validation with the .When() clause allows for complex logic such as “Discount number cannot be 0 if the HasDiscount boolean is true”",
@@ -97,7 +95,6 @@ RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
   "CompanyName": ["The CompanyName field is required."]
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good Example: This is the JSON returned from Fluent Validation when a validation rule fails. This is exactly the same format as what would be returned by the built-in ModelState validation.",

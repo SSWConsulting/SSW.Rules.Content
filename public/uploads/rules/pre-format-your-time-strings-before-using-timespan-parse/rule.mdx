@@ -31,7 +31,6 @@ This pre-parsing is done by the FormatTimeSpanString( ) function. This function 
 ```csharp
 ts = TimeSpan.Parse(cboMyComboBox.Text)
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - A value greater than 24hours will crash eg. 45:30",
@@ -42,7 +41,6 @@ ts = TimeSpan.Parse(cboMyComboBox.Text)
 ```csharp
 ts = TimeSpan.Parse(FormatTimeSpanString(cboMyComboBox.Text))
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Using a wrapper method to pre-parse the string containing the TimeSpan value.",

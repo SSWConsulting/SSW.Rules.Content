@@ -31,7 +31,6 @@ Managing secrets is hard. It's not just about storing them securely, but also en
 In a development ecosystem, secrets are the lifeblood that makes many processes tick smoothly – but they're also a potential point of vulnerability. When multiple repositories and workflows require access to shared secrets, like an Azure Service Principal or credentials for a service account, the management overhead increases. Imagine the pain of secrets expiring or changing: the need to update each and every repository that uses them emerges. Beyond the inconvenience, doing this manually for each repository is not only tedious but fraught with risks. An erroneous secret entry might break a CI/CD pipeline or, even worse, pose a security risk. Let's explore ways to handle secrets more efficiently and securely.
 
 ## Scenario: Every time a new repository is set up, developers manually add secrets to it.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,7 +50,6 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 ❌ Increased vulnerability surface area – each repo is a potential leak point.
 
 ## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -113,7 +111,6 @@ jobs:
       - name: Logout from Azure
         run: az logout
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "okExample",
   figure: "Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization",
@@ -130,7 +127,6 @@ jobs:
 ❌ Still a concern - Dependencies on external systems can introduce complexities and may require specific expertise to manage.
 
 ## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
-
 <imageEmbed
   alt="Image"
   size="large"

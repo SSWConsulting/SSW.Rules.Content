@@ -37,7 +37,6 @@ A report with drill through like this should have the number in nodes like Outlo
   } }
   src="/uploads/rules/nodes-count-like-outlook/No_number.jpg"
 />
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -62,7 +61,6 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 
 = Fields!Number.Value
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Get the Outlook Node Count look by changing the SQL.",
@@ -75,7 +73,6 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 
 = Fields!Name.Value + "(" + CStr ( CountRows( ) ) + ")"
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Use the CountRows() function to get the Outlook Node Count look",

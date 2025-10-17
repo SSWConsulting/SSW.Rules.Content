@@ -40,7 +40,6 @@ Putting all the field binding code AND the business rule in the control:
     Text='<%# iif( Container.DataItem.Row.IsNull("TumorSize"), "N/A",DataBinder.Eval(Container, "DataItem.TumorSize", "0.00")) %>'
 />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad code",
@@ -78,7 +77,6 @@ End If
 End If
 End Sub
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good code",

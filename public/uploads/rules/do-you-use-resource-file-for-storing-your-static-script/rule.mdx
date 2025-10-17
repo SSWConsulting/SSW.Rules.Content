@@ -36,7 +36,6 @@ sb.AppendLine(string.Format(@"{0}.Delete({0}.GetRowFromClientId(rowId));", Owner
 sb.AppendLine(@"}");
 sb.AppendLine(@"</script>");
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Hard to read, the string is surrounded by rubbish + inefficient because you have an object and 6 strings",
@@ -54,7 +53,6 @@ string.Format(@"
 </script>
 ", OwnersGrid.ClientID);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example Slightly easier to read ?but it is 1 code statement across 10 lines",

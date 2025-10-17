@@ -53,7 +53,6 @@ Many developers struggle to choose the right database model for multi-tenant app
 ### One-Size-Fits-All Approach
 
 Some developers apply the same database model regardless of tenant requirements, workload patterns, or scale. This often leads to inefficiencies and increased costs.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -74,7 +73,6 @@ Pooling tenants in a shared database without proper security measures can expose
 -- No row-level security, just application-level filtering
 SELECT * FROM SalesData WHERE TenantID = @TenantID;
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad Example – No row-level security exposes all tenant data if a query bypasses application logic",
@@ -121,7 +119,6 @@ Multiple single-tenant databases share resources within an elastic pool.
 * Applications with variable usage patterns across tenants
 * Scenarios where some tenants are inactive at any given time
 * Both small and large numbers of tenants, depending on workload characteristics
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -151,7 +148,6 @@ All tenants share a single database with a schema that includes tenant identifie
 **Best for:**
 * Applications with hundreds or thousands of tenants
 * Scenarios where cost efficiency is paramount and strict isolation isn't required
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "```sql\n-- Implementing Row-Level Security in a shared database\nCREATE SECURITY POLICY TenantFilter\nADD FILTER PREDICATE rls.fn_TenantAccessPredicate(TenantID)\nON dbo.SalesData;\n```\n\nFigure: Good Example – Row-level security ensures tenant isolation at the database level",
@@ -228,7 +224,6 @@ Combine multiple models or technologies to address diverse requirements.
 * SaaS platforms with diverse tenant profiles or tiered pricing models
 * Applications with mixed data access patterns
 * Systems requiring both OLTP and OLAP capabilities
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "**Cost Optimization Example:** A financial services platform uses a hybrid approach where premium clients ($10,000+/month) get dedicated databases with guaranteed performance, while standard clients share elastic pools, and entry-level clients use a multi-tenant database with row-level security. This approach optimizes both performance and cost across different customer segments.",
@@ -274,7 +269,6 @@ When planning costs, consider more than just compute pricing:
 * **Storage Costs:** Allocated storage and backup retention
 * **IO Operations:** Read/write operations can add up in high-throughput applications
 * **Network Egress:** Data transfer out of Azure regions incurs charges
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "**Example Scenario:** A SaaS provider with 50 small business clients switched from dedicated databases (S2 tier, $75/month each) to an Elastic Pool (S2, 50 DTUs/database, 200 total DTUs at $560/month), reducing costs by over 85% while maintaining performance and isolation.",

@@ -41,7 +41,6 @@ public class Hero
     public override string ToString() => $"{_name} has {_power} and lives in {_city}";
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - large amount of boiler plate code needed to store injected properties.",
@@ -55,7 +54,6 @@ public class Hero(string name, string power, string city)
     public override string ToString() => $"{name} has {power} and lives in {city}";
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - using Primary Constructors to reduce boilerplate code.",

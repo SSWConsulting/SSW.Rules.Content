@@ -43,7 +43,6 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name]
  AND Employees.EmployeeID=Orders.EmployeeID) <> FALSE
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - Access query with EXISTS keyword and comparison operator",
@@ -65,7 +64,6 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name]
  AND Employees.EmployeeID=Orders.EmployeeID)
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - Access query with EXISTS keyword and without comparison operator",

@@ -68,7 +68,6 @@ public class OrderItemModel
     public List<OrderItemViewModel> OrderItems { get; set; } = [];
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - `OrderViewModel` is used for multiple purposes (e.g., `GetOrderList`, `GetOrderDetails`, `CreateOrder`) and has accumulated many properties, making it hard to read and maintain.",
@@ -88,7 +87,6 @@ public class GetOrderListItemDto
     public OrderStatus Status { get; set; }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - A simple `OrderSummaryDto` designed specifically for an endpoint that lists orders.",

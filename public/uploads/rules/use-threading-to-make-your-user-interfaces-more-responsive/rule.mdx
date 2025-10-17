@@ -21,20 +21,17 @@ isArchived: false
 Threading is not only used to allow a server to process multiple client requests - it could make your user interfaces responsive when your application is performing a long-running process, allowing the user to keep interactive.
   </>}
 />
-:: bad
-
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
   figureEmbed={ {
-    preset: "default",
+    preset: "badExample",
     figure: "Bad example - Unresponsive UI because no threading code",
     shouldDisplay: true
   } }
   src="/uploads/rules/use-threading-to-make-your-user-interfaces-more-responsive/nothreading.gif"
 />
-:::
 
 ```cs
 private void Form1_Load(object sender, EventArgs e)
@@ -44,7 +41,6 @@ private void Form1_Load(object sender, EventArgs e)
 ```
 
 **Code: No threading code for long task**
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -56,7 +52,6 @@ private void Form1_Load(object sender, EventArgs e)
   } }
   src="/uploads/rules/use-threading-to-make-your-user-interfaces-more-responsive/threadingstart.gif"
 />
-
 <imageEmbed
   alt="Image"
   size="large"

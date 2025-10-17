@@ -42,7 +42,6 @@ FROM Orders
 INNER JOIN "Order Subtotals"
     ON (Orders.OrderID="Order Subtotals".OrderID);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example of Access query with FORMAT keyword",
@@ -58,7 +57,6 @@ FROM Orders
 INNER JOIN "Order Subtotals"
     ON (Orders.OrderID="Order Subtotals".OrderID)
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example of SQL Server view with YEAR keyword",
@@ -66,7 +64,15 @@ INNER JOIN "Order Subtotals"
 } } />
 
 
-::: yellowBox
-[Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule
+<asideEmbed
+  variant="info"
+  body={<>
+    [Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

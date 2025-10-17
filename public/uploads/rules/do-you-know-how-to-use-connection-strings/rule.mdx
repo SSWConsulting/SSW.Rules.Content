@@ -83,7 +83,6 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
     });
   });
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)",
@@ -224,7 +223,6 @@ SqlConnection sqlConn =
 new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Historical example - Old ASP.NET 1.1 way, untyped and prone to error",
@@ -270,7 +268,6 @@ In .NET 2.0 we used strongly typed settings classes:
 SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Historical example - Access our connection string by strongly typed generated settings class...this is no longer the best way to do it",

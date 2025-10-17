@@ -30,7 +30,6 @@ When testing code that depends on Entity Framework Core, the challenge often lie
 #### Trying to Mock `DbContext`
 
 Attempting to mock the entire `DbContext` is a common mistake. This approach typically leads to complex and fragile test setups, making the tests hard to understand and maintain.
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "```csharp\nvar mockContext = new Mock<ApplicationDbContext>();\n// Adding further mock setups...\n```",
@@ -43,7 +42,6 @@ Attempting to mock the entire `DbContext` is a common mistake. This approach typ
 #### Trying to Mock `DbSet`
 
 Similarly, mocking `DbSet` entities often results in tests that don't accurately reflect the behavior of the database, leading to unreliable test outcomes.
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "```csharp\nvar mockSet = new Mock<DbSet<MyEntity>>();\n// Configuring mockSet behaviors...\n```",
@@ -56,7 +54,6 @@ Similarly, mocking `DbSet` entities often results in tests that don't accurately
 ### Good Practice: Using DbContext with In-Memory Provider
 
 Instead of extensive mocking, using `DbContext` with the EF Core In-Memory provider simplifies the setup and reduces the need for mocks. This approach enables more realistic testing of database interactions.
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "```csharp\nvar options = new DbContextOptionsBuilder<ApplicationDbContext>()\n    .UseInMemoryDatabase(Guid.NewGuid().ToString())\n    .Options;\n\nvar dbContext = new ApplicationDbContext(options);\n\n```",

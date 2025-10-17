@@ -46,7 +46,6 @@ public static List<string> GetFilesInProject(string projectFile)
   return files;
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad - The logic and the IO are coded in a same method",
@@ -87,7 +86,6 @@ public static List<string> GetFilesInProjectByContents(string projectFileContent
   return files;
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good - The logic is now isolated from the IO",
@@ -120,7 +118,6 @@ public void TestVS2005CSProj()
   Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good - Different test cases and assertions are created to test the logic",

@@ -72,7 +72,6 @@ private calculate(...): ComponentData {
   // Calculate implementation
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Massive amount of code intermingling from API calls to calculation to UI binding",
@@ -123,10 +122,12 @@ Here are the steps to split the logic:
     // Calculate implementation
   }
   ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Use declarative code to bind UI value",
+  shouldDisplay: true
+} } />
 
-  ::: good
-  Figure: Use declarative code to bind UI value
-  :::
 
 4. Split data display process.
 
@@ -175,10 +176,12 @@ Here are the steps to split the logic:
     });
   }
   ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: UI logic is separated from Data Fetching and Data Processing logic",
+  shouldDisplay: true
+} } />
 
-  ::: good
-  Figure: UI logic is separated from Data Fetching and Data Processing logic
-  :::
 
 5. (Optional) If the component is complex enough, consider splitting the data fetching with the data processing step to another component.
 
@@ -218,7 +221,8 @@ Here are the steps to split the logic:
     });
   }
   ```
-
-  ::: good
-  Figure: All logics (data fetching, data processing, and data display) are now separated
-  :::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: All logics (data fetching, data processing, and data display) are now separated",
+  shouldDisplay: true
+} } />

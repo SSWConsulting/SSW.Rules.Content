@@ -37,7 +37,6 @@ Always indicate which fields are required. Users get frustrated when they experi
 />
 
 A designer will know the best way to indicate required field depending on the layout. However if you are in doubt and don’t have a designer around, a red asterisk is definitely the best option.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -57,7 +56,6 @@ You should combine these visual indicators with appropriate client and server si
 ```cshtml
 <asp:Textbox runat="Server" ID="email" />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Figure: Bad example - No validator used, so the user won't know the email is required",
@@ -72,7 +70,6 @@ You should combine these visual indicators with appropriate client and server si
 
 ID="emailReqValidator" />
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Figure: Good example - An ASP.NET validator in use, to indicate the fields required",

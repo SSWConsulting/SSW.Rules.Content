@@ -68,7 +68,6 @@ When selecting a Dependency Injection container it is worth considering a number
 The top tools all contain comparable functionality. In practice which one you use makes little difference, especially when you consider that your container choice should not leak into your domain model.
 
 **Important:** Unless a specific shortfall is discovered with the container your team uses, you should continue to use the same container across all of your projects, become an expert with it and invest time on building features rather than learning new container implementations.
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -93,7 +92,6 @@ public class Program
     }
 }
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Bad example - Use the StructureMap IoC container but did not do the proper dependency injection",
@@ -108,7 +106,6 @@ using IHost host = builder.Build();
 using var scope = host.Services.CreateScope();
 scope.ServiceProvider.GetRequiredService<BadgeTaskJob>().Run();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Use .NET built-in Dependency Injection for console app",
@@ -123,7 +120,6 @@ builder.Services.AddSingleton<AssetDomain>();
 var app = builder.Build();
 app.Run();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Good example - Use ASP.Net Core built-in Dependency Injection for web app",

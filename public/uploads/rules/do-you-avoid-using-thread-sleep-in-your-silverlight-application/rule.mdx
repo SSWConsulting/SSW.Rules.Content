@@ -35,7 +35,6 @@ this.Dispatcher.BeginInvoke(new Action(() =>
     Connect.Execute(null);
   }));
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "badExample",
   figure: "Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze",
@@ -52,7 +51,6 @@ sb.Completed += (ds, de) => this.Dispatcher.BeginInvoke(new Action(() =>
   }));
 sb.Begin();
 ```
-
 <figureEmbed figureEmbed={ {
   preset: "goodExample",
   figure: "Code: Good example - Use a Storyboard with a duration of the delay and once the Storyboard is finished running",
