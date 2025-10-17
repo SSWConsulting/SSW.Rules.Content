@@ -70,7 +70,7 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
 )
 # Allow leading whitespace for indented blocks
 SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
-CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(img-small|img-medium|img-large|small|medium|large|no-border)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
+CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
@@ -255,22 +255,29 @@ def replace_image_block(m, src_prefix):
 
 
 def replace_custom_size_image_block(m, src_prefix):
-    variant = m.group(1).strip()
+    variants_str = m.group(1).strip()
     figure_raw = m.group(2).strip()
     raw_src = m.group(3).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
-    size = {
-        "img-small": "small",
-        "img-medium": "medium",
-        "img-large": "large",
-        "small": "small",
-        "medium": "medium",
-        "large": "large",
-        "no-border": "large"
-    }.get(variant, "large")
+    # Parse multiple variants (e.g., "img-small no-border")
+    variants = variants_str.split()
 
-    show_border = "false" if variant == "no-border" else "true"
+    # Determine size
+    size = "large"  # default
+    for v in variants:
+        if v in ("img-small", "small"):
+            size = "small"
+            break
+        elif v in ("img-medium", "medium"):
+            size = "medium"
+            break
+        elif v in ("img-large", "large"):
+            size = "large"
+            break
+
+    # Determine border
+    show_border = "false" if "no-border" in variants else "true"
 
     # If figure is empty, set shouldDisplay to false
     should_display = "true" if figure_raw else "false"
@@ -437,7 +444,7 @@ def process_custom_aside_blocks(content):
     while i < len(lines):
         line = lines[i].rstrip()
 
-        match_start = re.match(r"^(\s*):::\s*(greybox|highlight|china|info|todo|codeauditor)\s*$", line)
+        match_start = re.match(r"^(\s*):::\s*(greybox|highlight|china|info|todo|codeauditor|tips|warning)\s*$", line)
         if match_start and not in_box:
             in_box = True
             box_type = match_start.group(2)
