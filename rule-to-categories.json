@@ -45,7 +45,8 @@
         "rules-to-better-ai-development"
     ],
     "ai-for-frontend-development": [
-        "rules-to-better-ai-development"
+        "rules-to-better-ai-development",
+        "rules-to-better-cars"
     ],
     "ai-for-prototype-development": [
         "rules-to-better-ai-development"
@@ -59,7 +60,7 @@
     "make-your-website-llm-friendly": [
         "rules-to-better-ai-development"
     ],
-    "dataverse-ai-options": [
+    "do-you-know-dataverse-ai-options": [
         "rules-to-better-ai-development"
     ],
     "when-to-use-ai-generated-images": [
@@ -6456,6 +6457,9 @@
         "rules-to-better-cars"
     ],
     "does-your-navigation-device-support-touch": [
+        "rules-to-better-cars"
+    ],
+    "test-add-rule-3": [
         "rules-to-better-cars"
     ],
     "create-azure-marketplace-offer": [
