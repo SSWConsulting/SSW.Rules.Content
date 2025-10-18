@@ -1,8 +1,8 @@
 ---
 seoDescription: Do you color-code your keys to save time and reduce frustration when identifying the correct key?
 type: rule
-title: Do you color-code your keys?
-uri: do-you-colour-code-your-keys
+title: Do you color-code your keys for easy access?
+uri: color-code-keys
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
@@ -12,6 +12,7 @@ related:
   - do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
 redirects:
   - do-you-color-code-your-keys
+  - do-you-colour-code-your-keys
 created: 2017-03-28T06:35:55.000Z
 archivedreason: null
 guid: 54de015d-46b2-42fb-99e9-96c143c57397
