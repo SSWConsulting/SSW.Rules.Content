@@ -84,4 +84,4 @@ index:
 - microsoft-planner-for-tasks
 ---
 
-Enhance software consulting practices by exploring essential principles that focus on teamwork, communication, and [working in a nice office](/rules-to-better-offices). 
+Enhance software consulting practices by exploring essential principles that focus on teamwork, communication, and [working in a nice office](/rules-to-better-offices).
