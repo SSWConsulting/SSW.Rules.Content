@@ -12,7 +12,7 @@ index:
 - dress-code
 
 - secure-access-system
-- do-you-colour-code-your-keys
+- color-code-keys
 - office-signs
 - bring-water-to-guests
 - identify-office-deliveries
