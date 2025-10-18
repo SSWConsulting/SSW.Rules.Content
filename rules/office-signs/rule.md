@@ -34,21 +34,21 @@ To ensure a standardized approach to creating and sharing signage templates, fol
 
 ### Design Creation
 
-- Start by selecting an appropriate template in Canva for the desired signage type.
-- Customize the template with relevant content, branding elements, and visuals.
-- Incorporate a strong header and footer as per the [SSW's design rule](/have-a-strong-header-and-footer/).
-- Include a version number following [SSW's version number rule](/show-version-numbers/).
+* Start by selecting an appropriate template in Canva for the desired signage type.
+* Customize the template with relevant content, branding elements, and visuals.
+* Incorporate a strong header and footer as per the [SSW's design rule](/have-a-strong-header-and-footer/).
+* Include a version number following [SSW's version number rule](/show-version-numbers/).
 
 ### Duplication and Review
 
-- Once the initial design is complete, create a duplicate of the design within Canva.
-- Make necessary changes to the duplicated design while adhering to your requirements.
-- Before finalizing, it's important to get the duplicated design checked and approved by a designated reviewer as per the [Checked by rule](/checked-by-xxx/).
+* Once the initial design is complete, create a duplicate of the design within Canva.
+* Make necessary changes to the duplicated design while adhering to your requirements.
+* Before finalizing, it's important to get the duplicated design checked and approved by a designated reviewer as per the [Checked by rule](/checked-by-xxx/).
 
 ### Storing and Sharing
 
-- Store the approved designs in an accessible location, such as a SharePoint repository.
-- Share the repository link with all employees who need access to the templates.
+* Store the approved designs in an accessible location, such as a SharePoint repository.
+* Share the repository link with all employees who need access to the templates.
 
 :::bad
 ![Figure: Bad example - Photoshop file with no filename & version number in the footer](bad-example-photoshop.jpg)
