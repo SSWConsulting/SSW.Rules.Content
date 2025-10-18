@@ -24,4 +24,4 @@ index:
 
 A great workspace doesn't happen by accident. Follow these rules to keep your office organized, encourage better communication, and build stronger connections between team members.
 
-You'll create an environment where everyone feels productive, supported, and happy to come to work.
+You'll create an [environment where everyone feels productive, supported, and happy](/rules-to-better-software-consultants-working-in-a-team) to come to work.
