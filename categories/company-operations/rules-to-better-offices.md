@@ -15,7 +15,7 @@ index:
 - do-you-colour-code-your-keys
 - office-signs
 - bring-water-to-guests
-- do-you-identify-your-online-purchases
+- identify-office-deliveries
 - employee-yolo-day
 - build-inter-office-interaction
 - cultural-exchange
