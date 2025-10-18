@@ -1,14 +1,16 @@
 ---
 seoDescription: Non-designers can easily create professional office signs using Canva's user-friendly design tool.
 type: rule
-title: Do you know how to manage office signs?
-uri: manage-office-signs
+title: Do you have branded office signs?
+uri: office-signs
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil-anil/
 related:
   - have-a-strong-header-and-footer
   - show-version-numbers
+redirects:
+  - manage-office-signs
 created: 2023-08-15T02:13:00.396Z
 guid: 65048841-7d01-421b-b2d2-13ac621dd25a
 ---
