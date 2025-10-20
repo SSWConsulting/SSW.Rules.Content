@@ -12,6 +12,7 @@ authors:
 related:
   - backlog-refinement-meeting
   - use-mcp-to-standardize-llm-connections
+  - handle-duplicate-pbis
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
@@ -44,6 +45,10 @@ With AI managing your backlog, you can easily:
 
 ::: good
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
+
+::: greybox
+💡 *Best practice*: When you find duplicate issues, make sure you close the duplicate and link it to the primary one so your backlog stays clean and traceable. See our rule on [Closing a duplicate issue](https://www.ssw.com.au/rules/handle-duplicate-pbis/).
 :::
 
 ### 2. Break down large items
