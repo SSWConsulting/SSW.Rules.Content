@@ -30,6 +30,8 @@ authors:
     url: https://www.ssw.com.au/people/jake-bayliss
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman
+related:
+  - use-ai-manage-backlog
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 
