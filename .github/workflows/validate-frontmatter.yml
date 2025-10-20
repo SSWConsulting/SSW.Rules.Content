@@ -25,7 +25,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
 
       # Step 2: Set up the Node.js environment.
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
 
       # Step 3: Get the list of changed files in the PR
       - name: Get changed files
