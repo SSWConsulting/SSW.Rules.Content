@@ -12,6 +12,7 @@ authors:
 related:
   - backlog-refinement-meeting
   - use-mcp-to-standardize-llm-connections
+  - handle-duplicate-pbis
 created: 2025-09-11T11:24:00.000Z
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
 ---
@@ -44,6 +45,10 @@ With AI managing your backlog, you can easily:
 
 ::: good
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
+:::
+
+::: info
+**Best practice**: When you find duplicate issues, make sure you [close the duplicate and link it to the primary one](/handle-duplicate-pbis) so your backlog stays clean and traceable.
 :::
 
 ### 2. Break down large items
@@ -133,5 +138,5 @@ Once connected, you can interact with your GitHub issues and pull requests in na
 **Example queries:**  
 
 * "Which issues are too big for a Sprint?"
-* "Group all issues related to payments into an epic."  
-* "Suggest estimates based on past completed issues."
+* "Group all issues related to payments into an epic"  
+* "Suggest estimates based on past completed issues"
