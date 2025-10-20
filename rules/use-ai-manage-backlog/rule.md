@@ -47,8 +47,8 @@ With AI managing your backlog, you can easily:
 ![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
 :::
 
-::: greybox
-💡 *Best practice*: When you find duplicate issues, make sure you close the duplicate and link it to the primary one so your backlog stays clean and traceable. See our rule on [Closing a duplicate issue](https://www.ssw.com.au/rules/handle-duplicate-pbis/).
+::: info
+**Best practice**: When you find duplicate issues, make sure you [close the duplicate and link it to the primary one](/handle-duplicate-pbis) so your backlog stays clean and traceable.
 :::
 
 ### 2. Break down large items
@@ -138,5 +138,5 @@ Once connected, you can interact with your GitHub issues and pull requests in na
 **Example queries:**  
 
 * "Which issues are too big for a Sprint?"
-* "Group all issues related to payments into an epic."  
-* "Suggest estimates based on past completed issues."
+* "Group all issues related to payments into an epic"  
+* "Suggest estimates based on past completed issues"
