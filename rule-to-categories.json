@@ -45,8 +45,7 @@
         "rules-to-better-ai-development"
     ],
     "ai-for-frontend-development": [
-        "rules-to-better-ai-development",
-        "rules-to-better-cars"
+        "rules-to-better-ai-development"
     ],
     "ai-for-prototype-development": [
         "rules-to-better-ai-development"
@@ -55,12 +54,13 @@
         "rules-to-better-ai-development"
     ],
     "avoid-ai-hallucinations": [
-        "rules-to-better-ai-development"
+        "rules-to-better-ai-development",
+        "rules-to-better-chatgpt-prompt-engineering"
     ],
     "make-your-website-llm-friendly": [
         "rules-to-better-ai-development"
     ],
-    "do-you-know-dataverse-ai-options": [
+    "dataverse-ai-options": [
         "rules-to-better-ai-development"
     ],
     "when-to-use-ai-generated-images": [
@@ -104,6 +104,9 @@
         "rules-to-better-ai"
     ],
     "what-is-gpt": [
+        "rules-to-better-ai"
+    ],
+    "avoid-automation-bias": [
         "rules-to-better-ai"
     ],
     "chatgpt-vs-gpt": [
@@ -982,8 +985,7 @@
     ],
     "build-inter-office-interaction": [
         "rules-to-better-software-consultants-working-in-a-team",
-        "rules-to-better-outsourcing",
-        "rules-to-better-offices"
+        "rules-to-better-outsourcing"
     ],
     "gather-team-opinions": [
         "rules-to-better-software-consultants-working-in-a-team"
@@ -1192,7 +1194,8 @@
         "rules-to-better-communication"
     ],
     "tool-for-facilitating-real-time-collaboration": [
-        "rules-to-better-communication"
+        "rules-to-better-communication",
+        "rules-to-better-microsoft-teams"
     ],
     "catering-to-audience": [
         "rules-to-better-communication"
@@ -2635,42 +2638,15 @@
     "reduce-office-noise": [
         "rules-to-better-offices"
     ],
+    "phone-on-silent": [
+        "rules-to-better-offices"
+    ],
     "desk-setups": [
         "rules-to-better-offices"
     ],
     "efficiency-do-you-use-two-monitors": [
         "rules-to-better-offices",
         "rules-to-better-remote-work"
-    ],
-    "google-maps-profile": [
-        "rules-to-better-offices",
-        "rules-to-better-marketing"
-    ],
-    "do-you-identify-your-online-purchases": [
-        "rules-to-better-offices"
-    ],
-    "phone-on-silent": [
-        "rules-to-better-offices"
-    ],
-    "bring-water-to-guests": [
-        "rules-to-better-offices"
-    ],
-    "secure-access-system": [
-        "rules-to-better-offices",
-        "rules-to-better-control4",
-        "rules-to-better-security"
-    ],
-    "do-you-colour-code-your-keys": [
-        "rules-to-better-offices"
-    ],
-    "cultural-exchange": [
-        "rules-to-better-offices"
-    ],
-    "employee-yolo-day": [
-        "rules-to-better-offices"
-    ],
-    "manage-office-signs": [
-        "rules-to-better-offices"
     ],
     "dress-code": [
         "rules-to-better-offices"
@@ -4405,6 +4381,10 @@
     "control4-separate-user-accounts": [
         "rules-to-better-control4"
     ],
+    "secure-access-system": [
+        "rules-to-better-control4",
+        "rules-to-better-security"
+    ],
     "do-you-backup-your-control4-projects-to-the-cloud": [
         "rules-to-better-control4"
     ],
@@ -5888,6 +5868,9 @@
     "make-money-from-your-content": [
         "rules-to-better-marketing"
     ],
+    "google-maps-profile": [
+        "rules-to-better-marketing"
+    ],
     "why-your-business-should-be-on-google-my-business": [
         "rules-to-better-marketing"
     ],
@@ -6459,9 +6442,6 @@
     "does-your-navigation-device-support-touch": [
         "rules-to-better-cars"
     ],
-    "test-add-rule-3": [
-        "rules-to-better-cars"
-    ],
     "create-azure-marketplace-offer": [
         "rules-to-better-azure-marketplace"
     ],
@@ -6545,7 +6525,9 @@
         "rules-to-better-websites-development"
     ],
     "do-you-only-roll-forward": [
-        "rules-to-better-continuous-deployment-with-tfs"
+        "rules-to-better-continuous-deployment-with-tfs",
+        "rules-to-better-application-insights",
+        "rules-to-better-testing"
     ],
     "the-goal-of-devops": [
         "rules-to-better-devops-using-azure-devops",
@@ -6696,8 +6678,9 @@
     "do-you-know-how-to-structure-a-project-for-github": [
         "rules-to-better-github"
     ],
-    "do-you-know-how-to-use-tags-for-github-issues": [
-        "rules-to-better-github"
+    "using-labels-for-github-issues": [
+        "rules-to-better-github",
+        "rules-to-better-scrum-using-github"
     ],
     "github-issue-templates": [
         "rules-to-better-github",
@@ -10106,7 +10089,8 @@
         "rules-to-better-sql-server-schema-deployment"
     ],
     "why-testing-is-important": [
-        "rules-to-better-testing"
+        "rules-to-better-testing",
+        "rules-to-better-user-acceptance-tests-uat-for-bug-management"
     ],
     "what-testing-really-means": [
         "rules-to-better-testing"
