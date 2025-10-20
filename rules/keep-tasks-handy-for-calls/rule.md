@@ -38,7 +38,7 @@ Things move fast at work, so staying on top of your tasks is key. With Microsoft
     ::: img-medium
     ![Figure: Add Loop to Teams Tab](loop-tab-creation.jpg)
     :::
-    
+
     ::: img-medium
     ![Figure: Loop added to Teams](loop-tab-teams.jpg)
     :::
