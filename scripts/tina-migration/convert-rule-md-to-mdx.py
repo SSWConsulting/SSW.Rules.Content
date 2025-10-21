@@ -202,7 +202,7 @@ def replace_youtube_block(m):
     url = m.group(1).strip()
     desc = m.group(2).strip() if m.group(2) else ""
     desc_js = js_string(desc)
-    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
+    return f'\n<youtubeEmbed url="{url}" description={{{desc_js}}} />\n'
 
 def replace_youtube_block_inside_intro(m):
     url = m.group(1).strip()
@@ -241,7 +241,8 @@ def replace_image_block(m, src_prefix):
 
     figure_js = js_string(figure)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
@@ -284,7 +285,8 @@ def replace_custom_size_image_block(m, src_prefix):
     should_display = "true" if figure_raw else "false"
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
@@ -304,7 +306,8 @@ def replace_standalone_image(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
     figure_js = js_string(figure)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
@@ -338,7 +341,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
@@ -375,7 +379,8 @@ def replace_email_block(m):
 
     should_display = 'Figure:' in figure_block
 
-    return f'''<emailEmbed
+    return f'''
+<emailEmbed
   from={from_js}
   to={to_js}
   cc={cc_js}
@@ -410,7 +415,8 @@ def replace_email_block_no_rating(m):
 
     should_display = bool(figure_text)
 
-    return f'''<emailEmbed
+    return f'''
+<emailEmbed
   from={from_js}
   to={to_js}
   cc={cc_js}
@@ -507,7 +513,8 @@ def process_custom_aside_blocks(content):
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
             figure_js = js_string(figure)
-            embed = f'''<asideEmbed
+            embed = f'''
+<asideEmbed
   variant="{box_type}"
   body={{<>
     {body}
