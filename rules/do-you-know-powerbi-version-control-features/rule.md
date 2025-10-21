@@ -22,17 +22,17 @@ guid: 62ad0741-0247-4bce-ae4d-0d136d838ba6
 
 To follow best practices for version control for Power BI reports you must know about the following features:
 
+<!--endintro-->
+
 * [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview?WT.mc_id=DOP-MVP-33518)
 * [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration?WT.mc_id=DOP-MVP-33518)
   * Requires either Fabric capacity or a Power BI Premium per User license
   * Currently only integrates with Git repos in Azure DevOps
 
-The following video provides an overview of these features.
-
 `youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
-![Figure: Once version control has been setup you can see more clearly what changed in the report.](good-example-compare-changes-2_1719542104669.png)
+![Figure: Once version control has been setup you can see more clearly what changed in the report](good-example-compare-changes-2_1719542104669.png)
 
 1. Convert all your Power BI reports to the PBIP format
 
@@ -46,7 +46,7 @@ The following video provides an overview of these features.
    * Converting reports to the PBIP format decomposes it into the following artifacts.
 
      * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset?WT.mc_id=DOP-MVP-33518), which contains files and folders representing a Power BI dataset
-     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report?WT.mc_id=DOP-MVP-33518), which contains the report settings, metadata for custom visuals, etc.
+     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report?WT.mc_id=DOP-MVP-33518), which contains the report settings, metadata for custom visuals, etc
 
      ![Figure: PBIP artifacts](ProjectFolders.png)
 
