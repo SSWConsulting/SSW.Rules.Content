@@ -31,7 +31,9 @@ A good **architecture diagram** (aka **cloud architecture diagram** or **system 
 This is useful for gaining an understanding of how the system fits together, how it flows, and what it does. It also helps to easily show which components can be improved due to updated or better components (or improved architectural guidelines).
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/ek8ArrOfJxA" description={"Video: Why you need an Architecture Diagram? (6 min)"} />
+
 
 An architecture diagram is useful when:
 
@@ -42,6 +44,7 @@ An architecture diagram is useful when:
 * Whenever you are discussing requirements that may require structural changes
 
 The architecture diagram is a technical diagram that demonstrates the technology in use. The purpose of the architecture diagram is to show how a solution has been built and what the technical dependencies are. It is not used for user journeys or business logic.
+
 
 <asideEmbed
   variant="info"
@@ -54,6 +57,7 @@ The architecture diagram is a technical diagram that demonstrates the technology
     shouldDisplay: false
   }}
 />
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -65,6 +69,7 @@ The architecture diagram is a technical diagram that demonstrates the technology
   } }
   src="/uploads/rules/architecture-diagram/bad-azure-resource-screenshot.jpg"
 />
+
 
 Depending on the complexity of your solution and your comfort/familiarity with the tools, an architecture diagram could take you anywhere from half an hour to a couple of days.
 
@@ -89,6 +94,7 @@ Your diagram needs to include the relationships between these components, and ho
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
 
 Learn more on [Do you generate dependency graphs?](/generate-dependency-graphs)
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -101,9 +107,11 @@ Learn more on [Do you generate dependency graphs?](/generate-dependency-graphs)
   src="/uploads/rules/architecture-diagram/dependency-validation-01.png"
 />
 
+
 ## Tip #3: Show data dependencies and data flows
 
 Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -116,11 +124,13 @@ Your architecture diagram should show how the components of your solution fit to
   src="/uploads/rules/architecture-diagram/architecture-diagram-good1.png"
 />
 
+
 ## Tip #4: Put data at the top
 
 Pick a direction for your data flow, and keep it consistent across all your documentation. Where there are exceptions (for example data going to analytics or to/from partner sources) make these perpendicular to the primary data flow direction.
 
 It should be easy to tell at a glance which direction data flows in your diagram. **Top to bottom is recommended**.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -133,11 +143,13 @@ It should be easy to tell at a glance which direction data flows in your diagram
   src="/uploads/rules/architecture-diagram/sugarlearning-architecture-diagram.png"
 />
 
+
 ## Tip #5: Group relevant components
 
 Group components logically by enclosing them in a box. Components that operate independently can stand alone, and those that work together to deliver a logical function can be grouped together. Also show components that are out of scope, i.e. important for understanding the architecture but not necessarily part of it, e.g. legacy components, partner components, or components that have not been implemented yet.
 
 **Note:** For clarity, out of scope items whether one or many, should be in a box.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -150,6 +162,7 @@ Group components logically by enclosing them in a box. Components that operate i
   src="/uploads/rules/architecture-diagram/rewards-architecture-diagram.png"
 />
 
+
 ## Tip #6: Start with paper
 
 Make sure you use the right tools when creating your architecture diagrams. There's nothing wrong with starting out with pen and paper, but your hand-drawn sketch should not be considered your 'done' final architecture diagram. If you want to save paper, and increase collaboration, a great alternative is the trusty old whiteboard.
@@ -161,6 +174,7 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 > A key milestone in the early engagement is the first time a client takes the pen and starts using the whiteboard to explain something to me. Early use of the whiteboard is all about immediate communication. Later, the solution design starts to solidify and we can then use the last state of the whiteboard to make out first architecture diagram.
 >
 > \* Brendan Richards, SSW Solution Architect
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -173,7 +187,9 @@ Putting something on a whiteboard is "low risk" for the participants as its real
   src="/uploads/rules/architecture-diagram/rewards-hand-drawn-sketch.jpg"
 />
 
+
 **Tip:** [Microsoft Office Lens](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi6-NTb1MvrAhWXA3IKHevqC-MQtwIwAHoECAEQAQ&url=https://www.youtube.com/watch?v%3DjzZ3WVhgi5w&usg=AOvVaw25XKH6ZRcPfM5jaVajFOlH) is a free mobile app that uses your smartphone camera to capture scan-like images of documents, photographs, business cards, and whiteboards (including searchable handwritten text).
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -185,6 +201,7 @@ Putting something on a whiteboard is "low risk" for the participants as its real
   } }
   src="/uploads/rules/architecture-diagram/reward-hand-drawn-sketch-office-lens.jpg"
 />
+
 
 ## Tip #7: Finish up with draw.io
 
@@ -204,6 +221,8 @@ It is definitely the most popular diagram tool at SSW:
   } }
   src="/uploads/rules/architecture-diagram/FaveTool.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -216,7 +235,9 @@ It is definitely the most popular diagram tool at SSW:
   src="/uploads/rules/architecture-diagram/TimePRO-Architecture-Diagram-v2.png"
 />
 
+
 Draw.io is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use draw.io is to integrate it directly into VS Code.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -229,7 +250,9 @@ Draw.io is free, can be used in the browser, or can be downloaded as a desktop a
   src="/uploads/rules/architecture-diagram/thumbnail_image003.jpg"
 />
 
+
 There are multiple extensions available that let you do this, the best one is [VS Code | Extensions | Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio). This makes it easy to create and edit the architecture diagram right alongside the code, and check-in with the relevant commits.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -242,6 +265,7 @@ There are multiple extensions available that let you do this, the best one is [V
   src="/uploads/rules/architecture-diagram/architecture-2.png"
 />
 
+
 ## Tip #8: Polish up draw.io
 
 Maintain standards to keep your diagrams consistent:
@@ -253,6 +277,7 @@ Maintain standards to keep your diagrams consistent:
 * Doc details - at the bottom left, add file location. E.g. DevOps | Wiki or GitHub | Repo | Docs, in font size 22pts
 * Doc details - at the bottom right, add branding and URL. E.g. &#123;&#123;logo image&#125;&#125; - url.com, in font size 22pts
 * Add color and icons to make your diagrams engaging and easier to distinguish
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -264,6 +289,7 @@ Maintain standards to keep your diagrams consistent:
   } }
   src="/uploads/rules/architecture-diagram/SSW.People-Architecture-Diagram.png"
 />
+
 
 ### Alternatives to draw.io
 
@@ -289,6 +315,7 @@ Another popular tool is [Eraser](app.eraser.io) which provide many industry stan
   } }
   src="/uploads/rules/architecture-diagram/miro-arch-diagram.jpg"
 />
+
 
 #### Mermaid
 

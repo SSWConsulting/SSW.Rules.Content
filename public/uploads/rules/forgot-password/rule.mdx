@@ -29,6 +29,7 @@ isArchived: false
 Users often forget their passwords — the key to accessing their accounts. To handle this, include a "Forgot your password?" link on the sign-in page.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -40,6 +41,8 @@ Users often forget their passwords — the key to accessing their accounts. To h
   } }
   src="/uploads/rules/forgot-password/forgot-password-bad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,6 +54,8 @@ Users often forget their passwords — the key to accessing their accounts. To h
   } }
   src="/uploads/rules/forgot-password/forgot-password-good.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -63,9 +68,11 @@ Users often forget their passwords — the key to accessing their accounts. To h
   src="/uploads/rules/forgot-password/reset-password-example.png"
 />
 
+
 ## Avoid extra wording
 
 For best UX, “Forgot your password?” should usually be a single clickable link — the question itself is enough to imply “Click here to reset.”
+
 
 <asideEmbed
   variant="greybox"
@@ -79,6 +86,8 @@ For best UX, “Forgot your password?” should usually be a single clickable li
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -90,6 +99,8 @@ For best UX, “Forgot your password?” should usually be a single clickable li
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="info"
@@ -103,6 +114,7 @@ For best UX, “Forgot your password?” should usually be a single clickable li
   }}
 />
 
+
 ## Avoid username enumeration attacks
 
 This practice also opens up the risk of "username enumeration" where an entire collection of usernames or email addresses can be validated for existence on the website simply by batching requests and looking at the responses.
@@ -110,6 +122,7 @@ This practice also opens up the risk of "username enumeration" where an entire c
 Read more on Troy Hunt's blog post ["Everything you ever wanted to know about building a secure password reset feature"](http://www.troyhunt.com/2012/05/everything-you-ever-wanted-to-know.html).
 
 You should always aim to not disclose if a user is registered with your site or not.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -121,6 +134,8 @@ You should always aim to not disclose if a user is registered with your site or 
   } }
   src="/uploads/rules/forgot-password/username-enumeration-bad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

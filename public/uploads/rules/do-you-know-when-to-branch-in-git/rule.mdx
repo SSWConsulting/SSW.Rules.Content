@@ -38,6 +38,7 @@ Using this strategy, **main** is always production-ready and deployable.
 />
 ![Finishing a Feature with World Class Flow](/uploads/rules/do-you-know-when-to-branch-in-git/finishing-a-feature-with-world-class-flow.jpg)
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -50,7 +51,10 @@ Using this strategy, **main** is always production-ready and deployable.
   }}
 />
 
+
+
 <youtubeEmbed url="https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0" description={""} />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -62,6 +66,8 @@ Using this strategy, **main** is always production-ready and deployable.
   } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/commit-master-bad.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -75,6 +81,7 @@ Using this strategy, **main** is always production-ready and deployable.
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -86,6 +93,7 @@ Using this strategy, **main** is always production-ready and deployable.
   } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/github-flow.jpg"
 />
+
 
 ### The process
 
@@ -162,6 +170,7 @@ When the change is complete, or when you want feedback on anything, open a pull 
 
 **Tip:** A best practice is to have another developer review your work and then approve.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -174,6 +183,7 @@ When the change is complete, or when you want feedback on anything, open a pull 
   }}
 />
 
+
 #### Assumption
 
 Deploy the changes to a staging environment. This allows the features to be tested before being merged to **main**.
@@ -183,6 +193,7 @@ Some prefer to move this step to after the merge, especially when using a releas
 ### Step 3 - Merge and Deploy (to main)
 
 Once everyone is happy and everything is tested, complete the pull request, which will merge back to **main**. Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in **main**. Being able to see the feature branches in the git log is very useful.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -195,7 +206,9 @@ Once everyone is happy and everything is tested, complete the pull request, whic
   src="/uploads/rules/do-you-know-when-to-branch-in-git/GoodGitHistory.png"
 />
 
+
 After you completed the pull request, make sure you also delete the branch that you made the pull request of. Deleting your completed branch will not just help yourself in the long run, but also everyone else. Having too many branches especially a stale one will confuse developers on what "may" be in progress, moreover it would cause so much pain to the future developer when they have to do a clean-up and the branch author has left.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -208,7 +221,9 @@ After you completed the pull request, make sure you also delete the branch that 
   src="/uploads/rules/do-you-know-when-to-branch-in-git/bad-figure-stale-branches2.png"
 />
 
+
 Otherwise, you can do it before you complete the pull request by ticking delete branch option.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -220,6 +235,8 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
   } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -231,6 +248,8 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
   } }
   src="/uploads/rules/do-you-know-when-to-branch-in-git/github-settings.png"
 />
+
+
 
 <asideEmbed
   variant="greybox"

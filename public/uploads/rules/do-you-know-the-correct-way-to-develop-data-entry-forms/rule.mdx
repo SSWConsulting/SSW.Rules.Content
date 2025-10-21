@@ -24,6 +24,7 @@ isArchived: true
 Data Entrees should be able to use your data entry form with ease. It should follow the flow that they are familiar with.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -36,11 +37,13 @@ Data Entrees should be able to use your data entry form with ease. It should fol
   src="/BadAddDeleteSubForm.gif"
 />
 
+
 ### 1. Multiple Form Instances
 
 Imagine, while the Sally is entering a Quote on the Quote Form, they receive a Phone call from a client needing a new Quote. The user will not want to close the current Quote, because they are 1/2 way through it.
 
 As we saw in the example above, Sally needs to open multiple instances of the same form. A reputable example for this is Microsoft's Outlook. When you are 1/2 way through an email, and you chose to start writing another, Outlook makes it convenient by placing every email you open in the taskbar. The figure below illustrates this.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -52,6 +55,8 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
   } }
   src="/Outlookemails.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -64,11 +69,13 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
   src="/outlooktaskbar.jpg"
 />
 
+
 A method of implementing this is through New and Delete buttons on the form.
 
 New and Delete buttons should appear, in a toolbar for example, docked to the top.
 
 The figure in Data Entry Drill Downs below illustrates this:
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -80,6 +87,7 @@ The figure in Data Entry Drill Downs below illustrates this:
   } }
   src="/GoodAddDeleteSubForm.jpg"
 />
+
 
 The Delete button resides there to make sure that Sally has seen the record before she deletes it. The New button should instantiate a new data entry form in add mode (as compared to "edit"), leaving the current one in the background.
 
@@ -104,6 +112,7 @@ The form is to be aware of the data state. If the data is dirty:
 If the user decides to save, it should save the record and close the form.
 If No, then close the form without saving.
 If Cancel, then return back to the dirty form.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -116,9 +125,11 @@ If Cancel, then return back to the dirty form.
   src="/SaveChangesDialog.jpg"
 />
 
+
 ### 3. Searching on the data entry
 
 Do not add buttons for searching on the data entry form, create a new form for search, through which you can open new instances of the form. The convenience of the search capability on the form will be overlooked as it makes the form more crowded. Another issue which can arise is if Sally searches for a criteria which returns multiple records, she cannot look at all those records. She can only open one at a time, navigating through them. The solution to the search dilemma is to create a new search form, which is shown in the figure below. The search form will allow multiple criteria, will not over crowd the data entry form, and will show you all the results that your search has retrieved.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -130,6 +141,8 @@ Do not add buttons for searching on the data entry form, create a new form for s
   } }
   src="/BadSearch.gif"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -142,9 +155,11 @@ Do not add buttons for searching on the data entry form, create a new form for s
   src="/SearchForm.gif"
 />
 
+
 ### 4. No Delete Button for sub forms
 
 When including a sub form in your main form (as shown in figure below), the only options the user should have are "New" and "Edit". When "Edit" is clicked, another data entry form is opened to edit selected record. In this data entry form, you will have a "Delete" button on the toolbar. This saves the user from making mistakes and forcing them to see the record before deleting.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -156,6 +171,7 @@ When including a sub form in your main form (as shown in figure below), the only
   } }
   src="/SubFormsExample.gif"
 />
+
 
 ### 5. Validation
 
@@ -180,6 +196,7 @@ The reason for the above validation placement is that these events run in the fo
 * Validating
 * Parse/Format
 * Validated
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -192,11 +209,13 @@ The reason for the above validation placement is that these events run in the fo
   src="/ErrorProviderIconExample.jpg"
 />
 
+
 **Do not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
 
 ### 6. Relevant Menus
 
 Make sure that the menu items are relevant to the current form. The main idea is that we don't want to show the user any dummy menu items. However, this may become complex when a base form (containing the menu) is inherited. Access to menus in the base form must be granted (maybe through properties), so that each menu can be customized according to each child form.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -208,6 +227,8 @@ Make sure that the menu items are relevant to the current form. The main idea is
   } }
   src="/MenuBadExample.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -219,6 +240,7 @@ Make sure that the menu items are relevant to the current form. The main idea is
   } }
   src="/MenuGoodExample.jpg"
 />
+
 
 In the above example, there are a couple of unused menus that have been inherited from the base form and not set to invisible.
 
@@ -267,6 +289,7 @@ The Binding is created and added to the Data-Bindings of the Control all in one 
 With all database entries, there are always some fields that are used over and over again. For example, these fields may be created date, created by, last updated date, updated by, etc.
 
 A common UI to use for these fields can be seen in the example below. What we do is create a user control that is identical across all projects/UI.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -278,6 +301,8 @@ A common UI to use for these fields can be seen in the example below. What we do
   } }
   src="/BadCreatedUpdated.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -289,6 +314,7 @@ A common UI to use for these fields can be seen in the example below. What we do
   } }
   src="/GoodCreatedUpdated.jpg"
 />
+
 
 An example of how to set the values for this user control is shown below.
 
@@ -315,6 +341,7 @@ Databinding is also available to be used with this user control.
   } }
   src="/CommonFieldsDB.gif"
 />
+
 
 ### 9. Minimum Defaults
 

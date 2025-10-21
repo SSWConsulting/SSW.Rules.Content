@@ -50,6 +50,7 @@ To help in these decisions, the .NET Core team has released a roadmap for upcomi
   src="/uploads/rules/when-to-target-lts-versions/net-schedule.jpg"
 />
 
+
 Important questions to consider include:
 
 * What is the planned lifecycle of the project?
@@ -64,6 +65,7 @@ A few invented scenarios are presented below:
 
 ### Example 1
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -76,10 +78,12 @@ A few invented scenarios are presented below:
     shouldDisplay: false
   }}
 />
+
 **Recommendation:**
 Although moving to .NET 5 could introduce a performance improvement, .NET 5 is not LTS and there is little future development planned. In this situation staying with the LTS .Net Core 3.1 is recommended.
 
 ### Example 2
+
 
 <asideEmbed
   variant="greybox"
@@ -93,10 +97,12 @@ Although moving to .NET 5 could introduce a performance improvement, .NET 5 is n
     shouldDisplay: false
   }}
 />
+
 **Recommendation:**
 When “continual development” is planned, it’s much easier to recommend working against the latest .NET version as it’s released. Upgrading incrementally during active development is often less painful than a larger planned upgrade between LTS versions
 
 ### Example 3
+
 
 <asideEmbed
   variant="greybox"
@@ -110,6 +116,7 @@ When “continual development” is planned, it’s much easier to recommend wor
     shouldDisplay: false
   }}
 />
+
 **Recommendation:**
 The plan to reach “feature complete and done” followed by no planned subsequent work seems to suggest that development with an LTS version would be best.
 But if you look at the planned launch date, it’s 1 month before the next LTS release (.NET 6).

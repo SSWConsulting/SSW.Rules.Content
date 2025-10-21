@@ -44,6 +44,7 @@ One of the best ways to measure performance is by using **Lighthouse**, a widely
 ## Automating Lighthouse Comparison in PRs
 
 You can integrate Lighthouse into your GitHub Actions workflow using [Lighthouse CI Action](https://github.com/treosh/lighthouse-ci-action). This enables automated comparison of the PR deployment with the current Production site. A summary comment can be added to the PR, showing key performance differences.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -55,5 +56,6 @@ You can integrate Lighthouse into your GitHub Actions workflow using [Lighthouse
   } }
   src="/uploads/rules/compare-pr-performance-with-production/pr-comparison-with-prod.png"
 />
+
 
 By following this approach, teams can ensure that new code changes do not negatively impact performance. The comparison table allows developers to quickly identify performance drops and take action before merging, leading to a more consistent and reliable user experience.

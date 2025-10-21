@@ -31,7 +31,9 @@ isArchived: false
 REST APIs are everywhere in our daily lives — from social media updates and online shopping to weather forecasts and GPS navigation. These interfaces allow different applications to connect seamlessly, providing the backbone for countless modern conveniences.
   </>}
 />
+
 <youtubeEmbed url="https://youtu.be/_gQaygjm_hg" description={"Video: Good APIs Vs Bad APIs: 7 Tips for API Design (6 min)"} />
+
 
 ## Recommended configuration for most REST APIs
 
@@ -64,6 +66,7 @@ This provides a much more consistent API structure when querying both collection
 Design requests as idempotent operations, where repeating an action yields the same result as performing it once. This avoids unintended actions from repeated requests.
 
 Typically, `GET`, `PUT` and `DELETE` are idempotent by default, but special handling needs to be added to make `POST` requests idempotent.
+
 
 <asideEmbed
   variant="greybox"

@@ -59,6 +59,7 @@ console.log(person.name.first)
 ```
 
 **Code maintainability** - Maintaining a large TypeScript code base where "any" is used frequently can be an absolute nightmare. Imagine you have a recurring object in your code base representing a person, with properties like "fName" and "lName". Now suppose you're using "any" as the input argument for all methods that work with this object. What happens when you want to rename "fName" to "firstName"? You’d have to do a find and replace across the entire code base, hoping that no other objects have properties with the same name.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -70,6 +71,8 @@ console.log(person.name.first)
   } }
   src="/uploads/rules/avoid-using-any/any-bad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -81,5 +84,6 @@ console.log(person.name.first)
   } }
   src="/uploads/rules/avoid-using-any/any-good.png"
 />
+
 
 If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project.

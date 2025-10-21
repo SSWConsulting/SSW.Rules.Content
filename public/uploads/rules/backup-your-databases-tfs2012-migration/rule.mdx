@@ -27,6 +27,7 @@ Before starting your upgrade, you should back up all your TFS databases.
 It's important that you backup TFS by using one of the supported methods, to ensure that you can reliably restore your data if needed.
   </>}
 />
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -40,6 +41,7 @@ It's important that you backup TFS by using one of the supported methods, to ens
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,6 +53,7 @@ It's important that you backup TFS by using one of the supported methods, to ens
   } }
   src="/uploads/rules/backup-your-databases-tfs2012-migration/tfs scheduled.jpg"
 />
+
 
 In some cases you won't be able to use this tool e.g. with TFS 2012 Power Tools RTM. This version has a bug which causes a failure of Tfs_Configuration DB when you try to restore it.
 
@@ -67,6 +70,7 @@ In some cases you won't be able to use this tool e.g. with TFS 2012 Power Tools 
   src="/uploads/rules/backup-your-databases-tfs2012-migration/tfs backup.jpg"
 />
 
+
 In such case you will have to manually backup databases. Make sure all relevant databases have been backed up. This includes all those starting with "Tfs\_"
 
 
@@ -81,6 +85,8 @@ In such case you will have to manually backup databases. Make sure all relevant 
   } }
   src="/uploads/rules/backup-your-databases-tfs2012-migration/backup all.jpg"
 />
+
+
 
 <asideEmbed
   variant="info"
@@ -97,6 +103,7 @@ Follow this instructions to properly backup your databases: [Manually back up Te
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -110,6 +117,7 @@ Follow this instructions to properly backup your databases: [Manually back up Te
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -121,6 +129,7 @@ Follow this instructions to properly backup your databases: [Manually back up Te
   } }
   src="/uploads/rules/backup-your-databases-tfs2012-migration/add spset.jpg"
 />
+
 
 If you manually backup the TFS Databases make sure you add additional jobs that execute 1 minute before the backup kick off.
 
@@ -136,6 +145,7 @@ If you manually backup the TFS Databases make sure you add additional jobs that 
   } }
   src="/uploads/rules/backup-your-databases-tfs2012-migration/add additional.jpg"
 />
+
 
 Make sure you back up the Reporting Services database if you'd like your reports to come across as well.
 

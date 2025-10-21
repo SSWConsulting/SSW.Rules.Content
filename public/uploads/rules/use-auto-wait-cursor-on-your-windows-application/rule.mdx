@@ -21,6 +21,7 @@ isArchived: false
 It can be extremely tiresome to have to continually remember to set and unset the wait cursor for an application. If an exception occurs you have to remember to add a try finally block to restore the cursor, or if you popup a message box you must remember to change the cursor first otherwise the user will just sit there thinking the application is busy.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -32,6 +33,8 @@ It can be extremely tiresome to have to continually remember to set and unset th
   } }
   src="/uploads/rules/use-auto-wait-cursor-on-your-windows-application/autowaitcursor_bad.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -43,5 +46,6 @@ It can be extremely tiresome to have to continually remember to set and unset th
   } }
   src="/uploads/rules/use-auto-wait-cursor-on-your-windows-application/autowaitcursor_good.jpg"
 />
+
 
 AutoWaitCursor Class automatically monitors the state of an application and sets and restores the cursor according to whether the application is busy or not. All that required are a few lines of setup code and you are done. [See this great blog on how to use AutoWaitCursor](http://snipplr.com/view/24851/). If you have a multithreaded application, it won't change the cursor unless the main input thread is blocked. In fact, you can remove all of your cursor setting code everywhere!

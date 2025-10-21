@@ -41,6 +41,7 @@ While automated UI testing has its place in an overall test strategy (involving 
   src="/uploads/rules/automated-ui-testing-sparingly/hammer-not-drill.jpg"
 />
 
+
 It's worth looking at Mike Cohn's automated test pyramid:
 
 
@@ -56,6 +57,7 @@ It's worth looking at Mike Cohn's automated test pyramid:
   src="/uploads/rules/automated-ui-testing-sparingly/test-pyramid-cohn_1710232021929.jpg"
 />
 
+
 The topmost layer of the pyramid is deliberately small and represents the relatively small amount of end-to-end UI-based automated checks that should be written and executed against the system.
 
 ✅ **Customer workflows** - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking that the most important customer workflows continue to function as expected
@@ -69,6 +71,7 @@ The topmost layer of the pyramid is deliberately small and represents the relati
 ❌ **Less deterministic** - The scope of automated UI tests is large, so when they fail, they generally don't pinpoint problems in the code as closely as, say, unit or API tests
 
 ❌ **Hard to test business logic** - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level
+
 
 <asideEmbed
   variant="greybox"

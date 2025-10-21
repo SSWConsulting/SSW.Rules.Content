@@ -26,6 +26,7 @@ isArchived: false
   </>}
 />
 In Reporting Services 2005 you can use an expression to specify the scale of your charts. If you do not specify a maximum value for your y axis, the bar charts become inaccurate, as you can see in this figure.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -37,6 +38,7 @@ In Reporting Services 2005 you can use an expression to specify the scale of you
   } }
   src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChartBad.gif"
 />
+
 
 Here's how to set the scale.
 
@@ -56,6 +58,7 @@ Here's how to set the scale.
   } }
   src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart01.gif"
 />
+
 
 3. Set the textbox's Name property to MaxMyTotal (e.g. MaxCount)
 
@@ -78,6 +81,7 @@ Here's how to set the scale.
   src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart02.gif"
 />
 
+
 7. If you expect to have negative values in the chart (e.g. when comparing 2 values), set the Minimum to -1 multiplied by the max value, i.e. "=-1 \* ReportItems!MaxMyTotal.Value". Otherwise set it to 0 (zero).
 
 8. If you expect to have negative values in the chart, select the chart value in the Data tab and click "Edit..." . Go to **Appearance->Series Style->Fill** and enter the following expression:
@@ -89,6 +93,7 @@ Here's how to set the scale.
 Where "Change" is the name of your data field. This sets the color of the bar to green if it is positive, and red if it is negative
 
 9. Click OK and preview the report. The chart will now be using the maximum value across all the charts.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -100,6 +105,8 @@ Where "Change" is the name of your data field. This sets the color of the bar to
   } }
   src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart03.gif"
 />
+
+
 
 <asideEmbed
   variant="greybox"

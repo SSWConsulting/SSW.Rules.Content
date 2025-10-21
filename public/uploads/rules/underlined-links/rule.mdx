@@ -33,6 +33,7 @@ Ensure your links are easily distinguishable from the background and surrounding
 />
 **Note:** Underlines are **not** necessary on obvious links, like **menu/breadcrumb items** or **buttons**. On the other hand, hover effect (see more below) should always exist.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -44,6 +45,8 @@ Ensure your links are easily distinguishable from the background and surrounding
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="info"
@@ -57,9 +60,11 @@ Ensure your links are easily distinguishable from the background and surrounding
   }}
 />
 
+
 ## Never underline a text that isn't a link
 
 Use bold or another styling if you need emphasis.
+
 
 <asideEmbed
   variant="greybox"
@@ -73,6 +78,8 @@ Use bold or another styling if you need emphasis.
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -84,6 +91,7 @@ Use bold or another styling if you need emphasis.
     shouldDisplay: true
   }}
 />
+
 
 ## Include a hovering effect
 
@@ -100,6 +108,7 @@ a:hover {
 ### Avoid other effects on hover for text
 
 Effects like **bold**, **scaling**, **rotation**, or **background changes** can distort text, making it harder for users to read and interact with links.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -112,6 +121,7 @@ Effects like **bold**, **scaling**, **rotation**, or **background changes** can 
   src="/uploads/rules/underlined-links/bad-example-bold-hover.gif"
 />
 
+
 **Note:** These effects may be used for buttons or other non-text content elements.
 
 ## Do not use borders to replace underlines
@@ -119,6 +129,7 @@ Effects like **bold**, **scaling**, **rotation**, or **background changes** can 
 The default implementation of underlines in CSS is `text-decoration: underline;`.
 
 Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for example. In this case, you could even have a **dotted** line under the text. It's **not recommended** you use this method - It may create extra pixels in the interface, which can potentially cause other problems in your UI:
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -130,6 +141,8 @@ Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for
   } }
   src="/uploads/rules/underlined-links/border-problem-1.gif"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

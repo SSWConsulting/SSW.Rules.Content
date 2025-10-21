@@ -39,6 +39,7 @@ We've been down this road before where developers had to be taught not to manual
 This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration drift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency?WT.mc_id=AZ-MVP-33518), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.
 
 * Create resources in Azure and not save a script
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,9 +52,11 @@ This is the most common and the worst. This is bad because it requires manual ef
   src="/uploads/rules/azure-resources-creating/azure resources.gif"
 />
 
+
 ### Manually creating and saving the script
 
 Some people half solve the problem by manually creating and saving the script. This is also bad because it’s like eating ice cream and brushing your teeth – it doesn’t solve the **health** problem.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -65,6 +68,8 @@ Some people half solve the problem by manually creating and saving the script. T
   } }
   src="/uploads/rules/azure-resources-creating/azure-bad-1.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -76,6 +81,8 @@ Some people half solve the problem by manually creating and saving the script. T
   } }
   src="/uploads/rules/azure-resources-creating/azure-bad-2.png"
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -89,6 +96,7 @@ Some people half solve the problem by manually creating and saving the script. T
   }}
 />
 
+
 So if you aren't manually creating your Azure resources, what options do you have?
 
 ### Option A: Farmer
@@ -100,7 +108,9 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Add a very short and readable F# project in your solution
 * Tip: The F# solution of scripts should be in a folder called Azure
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/8E63s2QlbhA" description={"Figure: Farmer was our favourite until Bicep was supported by Microsoft"} />
+
 
 ### Option B: Bicep by Microsoft (recommended)
 
@@ -118,6 +128,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell&WT.mc_id=AZ-MVP-33518) for publishing versioned and reusable architectures
 * No need for deploy scripts! There's an [bicep-deploy](https://github.com/Azure/bicep-deploy) GitHub Action from Microsoft to make it easy add deployments to your workflows
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -130,9 +141,11 @@ So if you aren't manually creating your Azure resources, what options do you hav
   }}
 />
 
+
 **Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/?WT.mc_id=AZ-MVP-33518)
 
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -145,6 +158,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
   src="/uploads/rules/azure-resources-creating/Bicep.png"
 />
 
+
 ### Option C: Enterprise configuration management $$$
 
 The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure.
@@ -155,6 +169,7 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   * like YAML but much more powerful
   * [https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf](https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf)
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -166,6 +181,8 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   } }
   src="/uploads/rules/azure-resources-creating/pulumi3.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -177,6 +194,8 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   } }
   src="/uploads/rules/azure-resources-creating/pulumi2.png"
 />
+
+
 
 <asideEmbed
   variant="info"

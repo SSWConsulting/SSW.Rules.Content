@@ -24,6 +24,7 @@ isArchived: false
 Border protection helps us design Windows Forms properly without placing controls too near to the border. Maintain a consistent alignment makes the Windows Forms look better, especially on designing wizard forms where all forms have the same size.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -36,7 +37,9 @@ Border protection helps us design Windows Forms properly without placing control
   src="/BorderProtectionExample.gif"
 />
 
+
 **Border protection in action:**
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -48,6 +51,8 @@ Border protection helps us design Windows Forms properly without placing control
   } }
   src="/BorderProtectionBad.gif"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -61,6 +66,7 @@ Border protection helps us design Windows Forms properly without placing control
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -72,6 +78,7 @@ Border protection helps us design Windows Forms properly without placing control
   } }
   src="/BorderProtectionDesign.gif"
 />
+
 
 The way to implement border protection (the 2 vertical red lines) is implement it in the base form or base user control, and all other forms and user controls inherit the base class to get consistent border protection lines.
 

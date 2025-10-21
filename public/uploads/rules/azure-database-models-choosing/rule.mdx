@@ -36,6 +36,7 @@ Many developers struggle to choose the right database model for multi-tenant app
 * A SaaS application serving 200 tenants may use a single database per tenant, leading to high costs and underutilized resources
 * Conversely, pooling all tenants in one shared database might create security risks or performance bottlenecks
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -48,11 +49,13 @@ Many developers struggle to choose the right database model for multi-tenant app
   }}
 />
 
+
 ## Common Mistakes When Choosing Database Models
 
 ### One-Size-Fits-All Approach
 
 Some developers apply the same database model regardless of tenant requirements, workload patterns, or scale. This often leads to inefficiencies and increased costs.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -64,6 +67,7 @@ Some developers apply the same database model regardless of tenant requirements,
   } }
   src="/uploads/rules/azure-database-models-choosing/single-db-per-tenant-bad.png"
 />
+
 
 ### Ignoring Security Considerations
 
@@ -119,6 +123,7 @@ Multiple single-tenant databases share resources within an elastic pool.
 * Applications with variable usage patterns across tenants
 * Scenarios where some tenants are inactive at any given time
 * Both small and large numbers of tenants, depending on workload characteristics
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -130,6 +135,7 @@ Multiple single-tenant databases share resources within an elastic pool.
   } }
   src="/uploads/rules/azure-database-models-choosing/elastic-pool-good.png"
 />
+
 
 ### Option C: Shared Multi-Tenant Database
 
@@ -172,6 +178,7 @@ Azure SQL's serverless tier automatically scales compute resources based on work
 * Development/test environments
 * Early-stage SaaS applications with uncertain growth patterns
 
+
 <asideEmbed
   variant="info"
   body={<>
@@ -183,6 +190,7 @@ Azure SQL's serverless tier automatically scales compute resources based on work
     shouldDisplay: false
   }}
 />
+
 
 ### Option E: Hyperscale
 
@@ -235,6 +243,7 @@ Combine multiple models or technologies to address diverse requirements.
 
 When choosing the right Azure database model for your multi-tenant application, use this decision framework:
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -260,6 +269,7 @@ When choosing the right Azure database model for your multi-tenant application, 
     shouldDisplay: false
   }}
 />
+
 
 ## Cost Considerations
 
@@ -291,6 +301,7 @@ Even with separate databases, proper security measures are essential:
 Choosing the right Azure database model requires balancing cost, scalability, and isolation needs. While single databases offer maximum isolation, elastic pools and shared databases provide cost-efficient alternatives for multi-tenancy at scale. Serverless tiers excel in handling unpredictable workloads, while Hyperscale supports extreme scalability demands.
 
 By carefully evaluating your application's requirements and leveraging Azure's diverse offerings, you can design an optimal architecture that scales efficiently while controlling costs.
+
 
 <asideEmbed
   variant="info"

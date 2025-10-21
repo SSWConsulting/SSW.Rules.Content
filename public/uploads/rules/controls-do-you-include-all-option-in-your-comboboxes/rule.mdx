@@ -39,6 +39,7 @@ In SQL Server, you can add a check constraint that limits your column to alphanu
 ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
     CHECK ([StringIdColumn] NOT LIKE'%[^a-zA-Z0-9_\-]%')
 ```
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -50,6 +51,8 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
   } }
   src="/Combo-ALL-1.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -62,7 +65,9 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
   src="/Combo-ALL-2.jpg"
 />
 
+
 Also, keep it simple!
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -74,6 +79,8 @@ Also, keep it simple!
   } }
   src="/SelectAllBad.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -85,6 +92,8 @@ Also, keep it simple!
   } }
   src="/SelectAllGood.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -96,5 +105,6 @@ Also, keep it simple!
   } }
   src="/SelectAllVGood.gif"
 />
+
 
 Read our rule on [Always make sure the dimensions All Captions = All](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterBusinessIntelligence.aspx#AllDimensionsTag).

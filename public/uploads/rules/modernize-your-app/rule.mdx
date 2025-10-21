@@ -30,7 +30,9 @@ Without focusing on the specific technology - there are 3 main approaches to mod
 2. Evolutionary
 3. Strangler fig pattern
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/XQyCgwB_szI" description={"Figure: Migrate Your Legacy ASP.NET Projects to ASP.NET Core Incrementally with YARP (36:45)"} />
+
 
 ## Big Bang (aka Rewrite)
 
@@ -47,6 +49,7 @@ Lock the developers into a room and shove some pizza under the door... and don't
 * Once live, there is no quick rollback strategy if something goes wrong.
 * BAU work must stop whilst this is happening.
 * This is not a realistic approach for most enterprise applications.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -58,6 +61,7 @@ Lock the developers into a room and shove some pizza under the door... and don't
   } }
   src="/uploads/rules/modernize-your-app/big-bang.png"
 />
+
 
 ## Evolutionary
 
@@ -74,6 +78,7 @@ The idea is to take the existing application and incrementally update it to a mo
 * It is still a big task, and you generally have re-test large parts of the application to ensure that the changes have not broken anything.
 * There is no quick rollback strategy if something goes wrong.
 * At some point you'll hit a point where there needs to be a Big Bang change to get it over the line - this is not a realistic approach for most applications.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -86,9 +91,11 @@ The idea is to take the existing application and incrementally update it to a mo
   src="/uploads/rules/modernize-your-app/evolutionary.png"
 />
 
+
 ## Strangler fig pattern (recommended)
 
 [Strangler Fig pattern was first described by Martin Fowler in 2004](https://martinfowler.com/bliki/StranglerFigApplication.html). The strangler fig is a type of tree that grows around other trees and slowly kills them by strangling them. This is exactly what this pattern does.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -101,7 +108,9 @@ The idea is to take the existing application and incrementally update it to a mo
   src="/uploads/rules/modernize-your-app/strangler-fig.jpg"
 />
 
+
 The idea is to create a "new" application (with a modern architecture) that acts as a facade to the existing application - then port features bit by bit to the new/modern architecture. Once slices of functionality have been ported and are ready - re-point the facade to execute the new code. You can trigger this through feature flags and this also allows you to rollback to the old code if something goes wrong.
+
 
 <asideEmbed
   variant="info"
@@ -114,6 +123,7 @@ The idea is to create a "new" application (with a modern architecture) that acts
     shouldDisplay: false
   }}
 />
+
 
 It's a language & platform agnostic approach that can be applied to any application.
 
@@ -132,6 +142,7 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
 
 * Not be suitable for all applications - especially when you cannot intercept calls to the back-end system being replaced
 * Not for smaller/non-complex systems.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -143,6 +154,8 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
   } }
   src="/uploads/rules/modernize-your-app/strangler-fig-pattern.png"
 />
+
+
 
 <asideEmbed
   variant="info"
@@ -156,8 +169,10 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
   }}
 />
 
+
 ## Customer success story
 
 Campion was able to move from a monolithic application to microservices whilst still continually deploying code to production by leveraging the Strangler Fig pattern. Watch at 28:00
+
 
 <youtubeEmbed url="https://youtu.be/TNTqd0vhalY?t=1679" description={"Figure: Education in the Cloud – Campion's Digital Journey with Alexander Candy-Levy (1:07:46)"} />

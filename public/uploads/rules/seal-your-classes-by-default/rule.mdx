@@ -34,7 +34,9 @@ On the surface it appears that you are just preventing someone from inheriting f
 
 Watch this video by Nick Chapsas, to see the performance benefits of sealing your classes for different usage scenarios:
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/d76WWAD99Yo" description={"Video: Why all your classes should be sealed by default in C# by Nick Chapsas (11 min)"} />
+
 
 ### Avoid unnecessary covariance checks in Array
 
@@ -56,6 +58,7 @@ When the array is an array of sealed types, JIT knows there won’t be any covar
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -67,6 +70,7 @@ When the array is an array of sealed types, JIT knows there won’t be any covar
   } }
   src="/uploads/rules/seal-your-classes-by-default/ArrayCovariance_PerfResults.png"
 />
+
 
 ### Skip hierarchy checks of inheritance in runtime for is/as cast operations
 
@@ -86,6 +90,7 @@ When casting to a sealed type, the runtime only checks the type of the object. H
   } }
   src="/uploads/rules/seal-your-classes-by-default/Casting_code.png"
 />
+
 
 
 <imageEmbed

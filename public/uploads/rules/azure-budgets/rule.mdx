@@ -36,7 +36,9 @@ Azure costs can be difficult to figure out and it is important to make sure ther
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/G7JEz8b-G24" description={"Video: Monitoring your Azure $ costs with Warwick Leahy (4 min)"} />
+
 
 ### Budgets - Specify how much you aim to spend
 
@@ -49,6 +51,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 ### Subscriptions - Split costing by environment
 
 In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -60,6 +63,8 @@ In addition to budgets, it's also a good idea to split costing between productio
   } }
   src="/uploads/rules/azure-budgets/viewbudgetbad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -72,6 +77,7 @@ In addition to budgets, it's also a good idea to split costing between productio
   src="/uploads/rules/azure-budgets/viewbudget.png"
 />
 
+
 ### Cost alerts - Make sure you know something has gone wrong
 
 Once a budget is set up, cost alerts are the next important part for monitoring costs. Cost alerts define the notifications that are sent out when budget thresholds are being exceeded. For example, it might be set to send out an alert at 50%, 75%, 100% and 200%.
@@ -79,6 +85,7 @@ Once a budget is set up, cost alerts are the next important part for monitoring 
 Make sure to set up alerts on all the thresholds that are important to the company.
 
 If the company is really worried about costs, an Azure runbook could even be set up to disable resources after exceeding the budget limit. However, that isn't a very common practice since nobody wants the company website to go down randomly!
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -90,6 +97,8 @@ If the company is really worried about costs, an Azure runbook could even be set
   } }
   src="/uploads/rules/azure-budgets/budgetalertsbad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -102,11 +111,13 @@ If the company is really worried about costs, an Azure runbook could even be set
   src="/uploads/rules/azure-budgets/budgetalerts.png"
 />
 
+
 ### Cost analysis - What if you get an alert?
 
 It can be scary when you get an alert. Luckily, Azure has a nice tool for managing costs, called [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=AZ-MVP-33518). You can break down costs by various attributes (e.g. resource group or resource type).
 
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
+
 
 <asideEmbed
   variant="info"
@@ -119,6 +130,7 @@ Using this tool helps identify where the problem lies, and then you can build a 
     shouldDisplay: false
   }}
 />
+
 
 ### Tag your resources - Make it easier to track costs
 
@@ -138,6 +150,7 @@ Running a report every fortnight (grouped by the cost-category tab) will highlig
   } }
   src="/uploads/rules/azure-budgets/azurecostsbycategory_1710232021930.png"
 />
+
 
 ### Approval process - Don't let just anyone create resources
 
@@ -191,6 +204,7 @@ $&#123;&#123; AMOUNT &#125;&#125; AUD + GST/month ($&#123;&#123; AMOUNT &#125;&#
 />
 
 3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+
 
 <asideEmbed
   variant="info"

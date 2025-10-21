@@ -43,6 +43,8 @@ Storing text containing special characters Secret or Variable and referencing th
   } }
   src="/uploads/rules/handle-special-characters-on-github/secret-with-parentheses.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,6 +56,7 @@ Storing text containing special characters Secret or Variable and referencing th
   } }
   src="/uploads/rules/handle-special-characters-on-github/action-no-quotes.png"
 />
+
 
 
 <imageEmbed
@@ -68,9 +71,11 @@ Storing text containing special characters Secret or Variable and referencing th
   src="/uploads/rules/handle-special-characters-on-github/parentheses-error.png"
 />
 
+
 ### ✅ Referencing in quotes
 
 One simple way to avoid this is to wrap your Secrets or Variables in single or double quotes when using them in your GitHub Actions. This will ensure that these are not interpreted incorrectly and will be treated as a string.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -82,6 +87,7 @@ One simple way to avoid this is to wrap your Secrets or Variables in single or d
   } }
   src="/uploads/rules/handle-special-characters-on-github/action-with-quotes.png"
 />
+
 
 
 <imageEmbed
@@ -96,7 +102,9 @@ One simple way to avoid this is to wrap your Secrets or Variables in single or d
   src="/uploads/rules/handle-special-characters-on-github/output-with-quotes.png"
 />
 
+
 However, it's important to note that this can still cause issues in certain scenarios. For instance, if the Secret or Variable contains double quotes and is also wrapped by double quotes in our Action, it will have trouble parsing this and will throw an error.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -108,6 +116,7 @@ However, it's important to note that this can still cause issues in certain scen
   } }
   src="/uploads/rules/handle-special-characters-on-github/secret-with-quote.png"
 />
+
 
 
 <imageEmbed
@@ -122,9 +131,11 @@ However, it's important to note that this can still cause issues in certain scen
   src="/uploads/rules/handle-special-characters-on-github/quote-error.png"
 />
 
+
 ### ✅ Escaping all special characters when storing Secret or Variable (Recommended)
 
 A better way to handle this is to escape these special characters when storing your Secret or Variable. This can be done by adding a backslash ("") before each special character. This will ensure that these characters are interpreted as literal characters and will also help prevent potential ambiguity from using enclosing quotes.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -136,6 +147,7 @@ A better way to handle this is to escape these special characters when storing y
   } }
   src="/uploads/rules/handle-special-characters-on-github/escaped-secret.png"
 />
+
 
 
 <imageEmbed

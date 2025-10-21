@@ -27,7 +27,9 @@ Efficient software developers don't reinvent the wheel and know the right librar
 However, there are scenarios where the libraries integrated in a project bring overhead in the future. For example, if a project is using a NuGet package that is no longer being maintained and does not support the latest .NET version. This incompatibility would force the development team to refactor the code to use another library if they wish to use the latest version of .NET.
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/1LPK3jgga_c" description={""} />
+
 
 Looking for the right library can help to minimize the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library:
 
@@ -60,6 +62,7 @@ Couple of things to check:
 ✅ Good maintainers profile – Libraries sponsored by big companies (e.g. Angular by Google) or established names would be more likely to last longer than a library maintained by an unknown person.
 
 ✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -71,6 +74,8 @@ Couple of things to check:
   } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-not-maintained.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -82,6 +87,8 @@ Couple of things to check:
   } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -93,6 +100,7 @@ Couple of things to check:
   } }
   src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained-2.png"
 />
+
 
 ### 3. Is it compatible?
 
@@ -121,6 +129,7 @@ Here are things to check:
 Not all libraries available on [npmjs](https://npmjs.com) and [NuGet](https://nuget.org) are free to use. The library license can range from free-to-use to paid.
 
 Always check the license associated with the package before deciding to use it in production. You can check common available licenses on [choosealicense.com](https://choosealicense.com).
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -132,6 +141,8 @@ Always check the license associated with the package before deciding to use it i
   } }
   src="/uploads/rules/installing-3rd-party-libraries/npm-bad-license.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -143,6 +154,8 @@ Always check the license associated with the package before deciding to use it i
   } }
   src="/uploads/rules/installing-3rd-party-libraries/nuget-bad-license.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -154,6 +167,8 @@ Always check the license associated with the package before deciding to use it i
   } }
   src="/uploads/rules/installing-3rd-party-libraries/npm-good-license.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -165,6 +180,7 @@ Always check the license associated with the package before deciding to use it i
   } }
   src="/uploads/rules/installing-3rd-party-libraries/nuget-good-license.png"
 />
+
 
 ### 6. What are the bundle characteristics?
 
@@ -191,6 +207,7 @@ To reduce the final build size, .NET provide a built in feature  [Trimmer](https
 
 * **Have a 2nd pair of eyes** - Lastly before deciding to install the library, check with another developer that is experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
 * **[Document the decision](/document-discoveries)** - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
+
 <imageEmbed
   alt="Image"
   size="large"

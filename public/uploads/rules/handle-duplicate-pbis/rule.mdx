@@ -30,6 +30,8 @@ authors:
     url: https://www.ssw.com.au/people/jake-bayliss
   - title: Josh Berman
     url: https://www.ssw.com.au/people/josh-berman
+related:
+  - use-ai-manage-backlog
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
 ---
 
@@ -57,6 +59,7 @@ The simplest way to do this is to **@mention the reporting user** in the main (a
 ### 1. Identify the main (active) PBI
 
 Choose the most complete or best-discussed PBI as the primary one to keep open. It should have the clearest description, relevant discussion, and active tracking.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -69,6 +72,7 @@ Choose the most complete or best-discussed PBI as the primary one to keep open. 
   src="/uploads/rules/handle-duplicate-pbis/good-pbi.png"
 />
 
+
 ### 2. Close and link the duplicate PBIs
 
 Once you’ve identified the main PBI, close the others as duplicates. In GitHub, there are two standard ways to do this:
@@ -77,6 +81,7 @@ Once you’ve identified the main PBI, close the others as duplicates. In GitHub
 * Use GitHub’s **"Close as duplicate"** feature (available when referencing another issue in the comment)
 
 Both methods automatically link the issue to the active PBI and make the relationship clear to other users.
+
 
 <asideEmbed
   variant="greybox"
@@ -90,6 +95,8 @@ Both methods automatically link the issue to the active PBI and make the relatio
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -101,6 +108,7 @@ Both methods automatically link the issue to the active PBI and make the relatio
     shouldDisplay: true
   }}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -113,9 +121,11 @@ Both methods automatically link the issue to the active PBI and make the relatio
   src="/uploads/rules/handle-duplicate-pbis/close-as-duplicate-button.png"
 />
 
+
 ### 3. Notify the users who created the duplicates
 
 Since closing their PBI means they won’t receive future updates automatically, it’s essential to @mention those users in the main PBI so they know when the issue is resolved.
+
 
 <asideEmbed
   variant="greybox"
@@ -129,6 +139,7 @@ Since closing their PBI means they won’t receive future updates automatically,
     shouldDisplay: true
   }}
 />
+
 
 ## Automate where possible
 
