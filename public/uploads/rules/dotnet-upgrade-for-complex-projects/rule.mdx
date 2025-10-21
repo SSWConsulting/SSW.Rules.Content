@@ -95,6 +95,7 @@ What this will allow you to do is add your target framework and compile the code
   src="/uploads/rules/dotnet-upgrade-for-complex-projects/target-to-multiple-TFMs.png"
 />
 
+
 # Upgrading
 
 At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work it might lies ahead.
@@ -136,6 +137,7 @@ Right-click on the project in the Solution Explorer window, and select Upgrade.
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef"
 />
 
+
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
 * In-place project upgrade <br/>
@@ -170,6 +172,7 @@ Once your app has been upgraded, a status screen is displayed which shows all of
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57"
 />
 
+
 After the Upgrade Assistant completes the upgrade you will find a new project in the solution running .NET 8. Upgrade Assistant pre-configured the project and installed any necessary packages it required to run side-by-side using the Yarp proxy.
 
 ### Configure Yarp
@@ -186,6 +189,7 @@ After the Upgrade Assistant completes the upgrade you will find a new project in
   } }
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432"
 />
+
 
 As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
 
@@ -238,6 +242,7 @@ Once you have created the side-by-side project, select the project that needs mi
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef"
 />
 
+
 Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
 You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
 
@@ -254,6 +259,7 @@ You can also see the migration progress of your endpoints from .NET Framework to
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16"
 />
 
+
 From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
 The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. 
 <imageEmbed
@@ -269,6 +275,7 @@ The chain icon indicates that this endpoint has been migrated and is linked betw
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -280,6 +287,7 @@ The chain icon indicates that this endpoint has been migrated and is linked betw
   } }
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87"
 />
+
 
 Use the `Upgrade` functionality to apply automatic code transformations and speed up the migration process.
 In the best-case scenario, the controller has been fully ported across and does not require any manual work.
@@ -297,6 +305,7 @@ In most scenarios, you will need to review the controller and update any custom 
   } }
   src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20"
 />
+
 
 ### Create PBIs to identify the upcoming tasks
 

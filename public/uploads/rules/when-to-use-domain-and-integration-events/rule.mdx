@@ -54,6 +54,7 @@ Domain Events should not depend on external dependencies or external systems, ad
 
 When publishing a domain event, the entire Entity or Aggregate can be included since the event's scope is confined to the current bounded context.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -65,6 +66,7 @@ When publishing a domain event, the entire Entity or Aggregate can be included s
     shouldDisplay: false
   }}
 />
+
 
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
 

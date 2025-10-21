@@ -64,6 +64,7 @@ If you host your app on premise, it's also worth checking your infrastructure to
   src="/uploads/rules/migration-plans/related-runtimes.png"
 />
 
+
 ## Breaking changes
 
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
@@ -79,6 +80,7 @@ For a complete list of obsolete APIs, broken down by .NET version, check out:
 Finding usages of these legacy or obsolete APIs gives you a strong sense of the blast radius of your migration and highlights areas where modern replacements will be needed. This is also the perfect time to begin banning deprecated APIs to avoid regression.
 Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -91,9 +93,11 @@ Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
   }}
 />
 
+
 ### Upgrade the csproj files
 
 The first thing you want to do is update your projects' `csproj` files to the new SDK-style format. This greatly simplifies the contents of the file, and will allow you to easily target multiple versions of .NET framework monikors simultaneously (more on this below).
+
 
 <asideEmbed
   variant="greybox"
@@ -122,6 +126,7 @@ try-convert --keep-current-tfms
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -134,6 +139,7 @@ try-convert --keep-current-tfms
   src="/uploads/rules/migration-plans/legacy-vs-sdk.png"
 />
 
+
 ### Target multiple Target Framework Monikers (TFM)
 
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
@@ -142,6 +148,7 @@ Targeting both your current .NET Framework version _and_ your future .NET versio
 
 * Expose any build errors you receive when trying to build for .NET
 * Expose any build errors you receive when trying to build for .NET Framework
+
 
 <asideEmbed
   variant="greybox"
@@ -170,6 +177,7 @@ This allows you up to work on your migration PBIs **incrementally**, while still
   }}
 />
 
+
 In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
 ```csharp
@@ -188,6 +196,7 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
   } }
   src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png"
 />
+
 
 ### Watch for SYSLIB diagnostic warnings
 

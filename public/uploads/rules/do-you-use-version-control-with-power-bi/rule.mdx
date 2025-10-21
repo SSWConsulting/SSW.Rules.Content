@@ -40,6 +40,7 @@ Power BI reports are generally published directly into the Power BI Service. But
 In other words, the history of the changes isn't recorded anywhere.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -51,6 +52,8 @@ In other words, the history of the changes isn't recorded anywhere.
   } }
   src="/uploads/rules/do-you-use-version-control-with-power-bi/bad-example-no-history-in-powerbi-service-1.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -62,6 +65,8 @@ In other words, the history of the changes isn't recorded anywhere.
   } }
   src="/uploads/rules/do-you-use-version-control-with-power-bi/bad-example-no-history-in-powerbi-service-2.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -74,6 +79,7 @@ In other words, the history of the changes isn't recorded anywhere.
   src="/uploads/rules/do-you-use-version-control-with-power-bi/bad-example-publish-report-directly.png"
 />
 
+
 The correct method is the **PBIP method**, which is:
 
 1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
@@ -84,6 +90,7 @@ The correct method is the **PBIP method**, which is:
 Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this. Note: This does not work for Power BI dashboards. Dashboards do not have a PBIP or PBIX file associated and are only available on Power BI service, and so cannot have any source control or version history.
 
 When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -95,6 +102,8 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
   } }
   src="/uploads/rules/do-you-use-version-control-with-power-bi/good-example-compare-changes-2.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -107,6 +116,7 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
   src="/uploads/rules/do-you-use-version-control-with-power-bi/good-example-history-recorded.png"
 />
 
+
 Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats.
 
 ### Editing and Committing Reports
@@ -115,7 +125,9 @@ Historically report developers have used the .pbix or the .pbit format. These ar
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=dlOK6QBEyQo" description={"Video: Power BI Source Control for the Business User (timebox 8 min)"} />
+
 
 The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
 
@@ -135,7 +147,9 @@ If you want to update the report's data model or want more sophisticated editing
 
 If you're a developer, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=MpedXah-Hv0" description={"Video: Power BI Source Control for Developers (timebox 5 min)"} />
+
 
 The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
 

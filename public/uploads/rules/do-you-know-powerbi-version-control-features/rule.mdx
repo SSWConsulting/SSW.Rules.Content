@@ -35,7 +35,9 @@ To follow best practices for version control for Power BI reports you must know 
 
 The following video provides an overview of these features.
 
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=OdkS7DF7ElY" description={"Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)"} />
+
 
 
 <imageEmbed
@@ -49,6 +51,7 @@ The following video provides an overview of these features.
   } }
   src="/uploads/rules/do-you-know-powerbi-version-control-features/good-example-compare-changes-2_1719542104669.png"
 />
+
 
 1. Convert all your Power BI reports to the PBIP format
 
@@ -68,6 +71,7 @@ The following video provides an overview of these features.
   src="/uploads/rules/do-you-know-powerbi-version-control-features/enable-pbip-format.png"
 />
 
+
      
 <imageEmbed
   alt="Image"
@@ -80,6 +84,7 @@ The following video provides an overview of these features.
   } }
   src="/uploads/rules/do-you-know-powerbi-version-control-features/save-as-pbip.png"
 />
+
 
    * Converting reports to the PBIP format decomposes it into the following artifacts.
 
@@ -99,9 +104,11 @@ The following video provides an overview of these features.
   src="/uploads/rules/do-you-know-powerbi-version-control-features/ProjectFolders.png"
 />
 
+
 2. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps.
 
    **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf?WT.mc_id=DOP-MVP-33518) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -113,6 +120,8 @@ The following video provides an overview of these features.
   } }
   src="/uploads/rules/do-you-know-powerbi-version-control-features/PBICache.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -124,5 +133,6 @@ The following video provides an overview of these features.
   } }
   src="/uploads/rules/do-you-know-powerbi-version-control-features/Gitignore.png"
 />
+
 
 3. [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo&WT.mc_id=DOP-MVP-33518)

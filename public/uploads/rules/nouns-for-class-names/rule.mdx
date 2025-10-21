@@ -46,6 +46,7 @@ Keeping classes named as nouns maintains clarity and reinforces their role as re
 
 In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -62,6 +63,7 @@ In your code, class names should clearly reflect what they represent, giving dev
   figure: "Bad example - This name suggests an action which sounds like it could be a method - but it's meant to represent the order itself",
   shouldDisplay: true
 } } />
+
 
 
 <asideEmbed
@@ -87,6 +89,7 @@ Later, if you need to perform an action on the order, you might create a `Proces
 ## Events: The exception that proves the rule
 
 In domain-driven design (DDD) and event-driven architectures (EDA), you’ll often see exceptions to this rule. Events like `OrderPlaced` or `UserRegistered` are commonly named with verb phrases to represent specific actions or occurrences within the system, rather than entities with persistent state. This naming convention is acceptable, as it indicates a change or trigger rather than a static object. For other class types, however, sticking to nouns keeps the codebase clear and consistent.
+
 
 <asideEmbed
   variant="info"

@@ -42,9 +42,10 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
 
 | Pros | Cons |
 | --- | --- |
-| Read/Write. ;Minimal coding. ;Easiest to implement. ;The likely way forward (Best Practice as Microsoft) | Needs to be deployed and published to the web server. ; Less performance than SQL filter views directly. |
+| Read/Write. <br>Minimal coding. <br>Easiest to implement. <br>The likely way forward (Best Practice as Microsoft) | Needs to be deployed and published to the web server. <br> Less performance than SQL filter views directly. |
 
 ![BCS Adapter for CRM 2011](/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure5.jpg)
+
 
 <asideEmbed
   variant="greybox"
@@ -63,6 +64,7 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
   }}
 />
 
+
 ## Option 2: SQL Server Filtered Views
 
 CRM recommends that you \*don't\* read from the Tables, so they provide SQL Views for this purpose.
@@ -71,9 +73,10 @@ CRM recommends that you \*don't\* read from the Tables, so they provide SQL View
 
 | Pros | Cons |
 | --- | --- |
-| Best performance. ;Codeless | Read-only.; Not available for hosted CRM. ;Security issues as you are exposing the view. |
+| Best performance. <br>Codeless | Read-only.<br> Not available for hosted CRM. <br>Security issues as you are exposing the view. |
 
 Filtered Views in Microsoft CRM provide access to the data available that supports providing picklist name and id values (lookup tables).
+
 
 <asideEmbed
   variant="greybox"
@@ -91,6 +94,7 @@ If you only want read-only for CRM on-premises data for SharePoint users, this s
   }}
 />
 
+
 ### Option 3: Web Services
 
 CRM provides web services.
@@ -99,9 +103,10 @@ CRM provides web services.
 
 | Pros | Cons |
 | --- | --- |
-| Read/Write | Needs lots of code and test work. Needs to be deployed and published to the web server.; Less performance than SQL filter views directly #1 |
+| Read/Write | Needs lots of code and test work. Needs to be deployed and published to the web server.<br> Less performance than SQL filter views directly #1 |
 
 **Note:** Performance could be improved by making the reads from the views and the writes through the web service
+
 
 <asideEmbed
   variant="greybox"
@@ -120,17 +125,19 @@ CRM provides web services.
   }}
 />
 
+
 ### Option 4: Expose OData from CRM as RSS
 
 The CRM 2011 OData Query Designer can be used to build queries to expose the data from CRM as RSS
 
 | Pros | Cons |
 | --- | --- |
-| Easy configuration | 50 records limit.; Need to page through the results.; Possible issues with firewalls and proxies because it uses Integrated Security for authentication.; Read-Only.; No easy way to consume |
+| Easy configuration | 50 records limit.<br> Need to page through the results.<br> Possible issues with firewalls and proxies because it uses Integrated Security for authentication.<br> Read-Only.<br> No easy way to consume |
 
 **Note:** You can really only call the OData endpoint from an application that already has an authentication cookie with the CRM server.
 i.e. you can't impersonate and call it like you can the standard WCF endpoints
 So it is really only suited to calling from Silverlight and JavaScript web resources that are delivered inside CRM (because they have the cookie)
+
 
 <asideEmbed
   variant="greybox"
@@ -152,6 +159,7 @@ The first step is to expose the data:
   }}
 />
 
+
 The second step (and the problem) is consuming the data
 
 
@@ -166,6 +174,7 @@ The second step (and the problem) is consuming the data
   } }
   src="/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure4.jpg"
 />
+
 
 In summary, CRM 2011 can expose OData, but SharePoint 2010 BCS doesn't consume OData.
 
@@ -193,7 +202,7 @@ Biztalk is built for mapping systems together, unfortunately, this solution is o
 
 | Pros | Cons |
 | --- | --- |
-| Read/Write. ; The BizTalk data centre can also provide data for any system. ; Requires little code if users already have BizTalk | BizTalk :-) ; Deployment - Needs external work to deploy BizTalk server. ; Licence Cost |
+| Read/Write. <br> The BizTalk data centre can also provide data for any system. <br> Requires little code if users already have BizTalk | BizTalk :-) <br> Deployment - Needs external work to deploy BizTalk server. <br> Licence Cost |
 
 ### Option 6: OData 3rd Party solutions (doesn't exist)
 

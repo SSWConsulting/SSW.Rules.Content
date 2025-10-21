@@ -27,6 +27,7 @@ Sometimes users try to view SQL Server Reports in Firefox or Chrome Browser, it 
   </>}
 />
 They found it strange when the same report works absolutely fine in Internet Explorer.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -39,6 +40,7 @@ They found it strange when the same report works absolutely fine in Internet Exp
   src="/uploads/rules/display-reports-properly-in-firefox-chrome/BadImageInFirefox.jpg"
 />
 
+
 The Solution:
 
 Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServices\ReportManager\Styles\ReportingServevices.css"
@@ -50,6 +52,7 @@ Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServ
  min-width: 2000px;
  }
 ```
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -61,5 +64,6 @@ Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServ
   } }
   src="/uploads/rules/display-reports-properly-in-firefox-chrome/GoodImageInFirefox.jpg"
 />
+
 
 Read [how to display reports properly for Reporting Services 2008R2/2012](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#FirefoxChromeReportDisplay20082012).

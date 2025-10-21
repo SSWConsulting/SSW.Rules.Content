@@ -33,6 +33,7 @@ isArchived: false
 A Data Warehouse is a centralized repository of data that is used for analysis and reporting, providing organizations with valuable insights to support decision-making processes. A Data Warehouse can offer significant benefits, so understanding its appropriate use cases and limitations is essential.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -45,9 +46,12 @@ A Data Warehouse is a centralized repository of data that is used for analysis a
   src="/uploads/rules/do-you-use-a-data-warehouse/datawarehouse.jpg"
 />
 
+
 Data Warehouses act as a central repository that consolidate vast amounts of data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
 
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=AIGRlKiiF50" description={"Video: Introduction to Data Warehouses (3 min)"} />
+
 
 Basic (video above) - \[YouTube: Cody Baldwin] gives a good overview of data warehouses, and why you'd want to build one.
 
@@ -65,6 +69,7 @@ Advanced - \[YouTube: Azure Synapse Analytics] If you want to see an example, ta
 * **Real-time Transactional Processing:** Data Warehouses are not suitable for real-time transactional processing where immediate response and low-latency data access are critical, as the data will often need to be cleaned or transformed (typically as a part of the ETL stage) before it can be used. Operational databases or other specialized systems are more suitable for such use cases.
 * **Small-scale Data Storage:** If your organization deals with relatively small volumes of data that don't require extensive integration, analysis, or long-term historical retention, a Data Warehouse may introduce unnecessary complexity and overhead. In such cases, simpler data storage and retrieval solutions might suffice.
 * **Temporary Data Analysis:** If you only need to perform ad hoc analysis on short-lived datasets, it may be more efficient to use other data analysis tools or platforms that don't involve building and maintaining a Data Warehouse.
+
 
 <asideEmbed
   variant="greybox"
@@ -95,6 +100,7 @@ A Data Warehouse is a compelling recommendation, because:
     shouldDisplay: false
   }}
 />
+
 
 ## How to create a Data Warehouse
 

@@ -50,13 +50,16 @@ Most developers include [health checks for their own applications](/have-a-healt
   src="/uploads/rules/infrastructure-health-checks/health-check-image.png"
 />
 
+
 ## Your app is only as healthy as its infrastructure
 
 Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience.
 
 Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=GdA5_8Chk2g" description={"Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)"} />
+
 
 ## Setting Up Health Checks for App & Infrastructure in .NET
 
@@ -71,6 +74,7 @@ Adding comprehensive health checks is great, but if no-one is told about it - wh
 ## Health check UIs
 
 Depending on your needs, you may want to bake in a health check UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -82,6 +86,8 @@ Depending on your needs, you may want to bake in a health check UI directly into
   } }
   src="https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -93,6 +99,8 @@ Depending on your needs, you may want to bake in a health check UI directly into
   } }
   src="/uploads/rules/infrastructure-health-checks/timepro-health-check.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -105,6 +113,7 @@ Depending on your needs, you may want to bake in a health check UI directly into
   src="/uploads/rules/infrastructure-health-checks/tina-health-check.png"
 />
 
+
 ## Tips for Securing Your Health check Endpoints
 
 Keep health check endpoints internal by default to avoid exposing sensitive system data.
@@ -112,6 +121,7 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 ## Health Checks in Azure
 
 When deploying apps in Azure it's good practice to enable health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -123,6 +133,7 @@ When deploying apps in Azure it's good practice to enable health checks within t
   } }
   src="/uploads/rules/infrastructure-health-checks/image-3-.png"
 />
+
 
 ### Private Health Check – ✅ Best Practices
 
@@ -141,6 +152,7 @@ When deploying apps in Azure it's good practice to enable health checks within t
 | **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
 
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -152,6 +164,8 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   } }
   src="/uploads/rules/infrastructure-health-checks/infra-bad-example.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

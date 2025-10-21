@@ -27,6 +27,7 @@ Did you know that you can stop your users from logging into any of your Azure or
 This seriously limits the attack surface and also helps to stop compromised devices and accounts from being used.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -38,6 +39,7 @@ This seriously limits the attack surface and also helps to stop compromised devi
   } }
   src="/uploads/rules/conditional-access-policies/locationsbadexample.png"
 />
+
 
 ### Configure locations
 
@@ -59,6 +61,7 @@ First you need to add any locations that you require for your office.
   src="/uploads/rules/conditional-access-policies/locations1.png"
 />
 
+
 3. Add as many as you require for your users to access
 
    
@@ -73,6 +76,7 @@ First you need to add any locations that you require for your office.
   } }
   src="/uploads/rules/conditional-access-policies/locationsadded.png"
 />
+
 
 ### Configure policies
 
@@ -94,6 +98,7 @@ Now configure some policies to implement these rules
   src="/uploads/rules/conditional-access-policies/conditionalaccess2.png"
 />
 
+
 3. Give it a name then select Cloud apps or actions | Select All cloud apps
 
    
@@ -108,6 +113,7 @@ Now configure some policies to implement these rules
   } }
   src="/uploads/rules/conditional-access-policies/conditionalaccess3.png"
 />
+
 
 4. Select Conditions | Locations
    Then set configure to yes and Include to "Any location"
@@ -124,6 +130,7 @@ Now configure some policies to implement these rules
   } }
   src="/uploads/rules/conditional-access-policies/conditionalaccess4.png"
 />
+
 
 5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia)
 
@@ -142,6 +149,7 @@ Now configure some policies to implement these rules
   src="/uploads/rules/conditional-access-policies/conditionalaccess5.png"
 />
 
+
 6. Now select block access for this rule
 
    
@@ -156,6 +164,7 @@ Now configure some policies to implement these rules
   } }
   src="/uploads/rules/conditional-access-policies/conditionalaccess6.png"
 />
+
 
 ### Create a grant rule
 
@@ -175,6 +184,7 @@ Now configure some policies to implement these rules
   src="/uploads/rules/conditional-access-policies/conditionalaccess7.png"
 />
 
+
 9. You will notice that each of these rules have a 'Report only' mode or enforce. You should leave it on report mode and monitor the audit logs.
 
    **Check for any failures and only apply the rules to a small subset of your users before changing them to 'On'. This is very important as you can stop everyone including yourself from logging in.**
@@ -192,11 +202,13 @@ Now configure some policies to implement these rules
   src="/uploads/rules/conditional-access-policies/conditionalaccess8.png"
 />
 
+
 ### International Travel Notice - Exclude travelling users and let them keep their access to work resources while on holidays or overseas
 
 When a user goes overseas and needs access to the company resources, you should temporarily exclude them from the Block Access policy.
 
 Traveling users should inform and request access prior to their departure. A good way to do this is via Microsoft Forms:
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -209,7 +221,9 @@ Traveling users should inform and request access prior to their departure. A g
   src="/uploads/rules/conditional-access-policies/internationaltravel.png"
 />
 
+
 Otherwise they will get this message:
+
 <imageEmbed
   alt="Image"
   size="large"

@@ -32,6 +32,7 @@ Keep things simple:
 2. Have that branch called "**main**" (or " **trunk** " when using **TFS** or **SVN**
   </>}
 />
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -44,6 +45,7 @@ Keep things simple:
   }}
 />
 
+
 Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/resources/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
 
 The quintessential scenario you need to support is that emergency _"Hey we have a security hole on the site and Hanselman has just tweeted it!"_
@@ -51,6 +53,7 @@ The quintessential scenario you need to support is that emergency _"Hey we have 
 In that case you need to potentially update all of your branches and perform deployment, which can be quite tiresome.
 
 The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -62,6 +65,7 @@ The better way is to use OctopusDeploy which relieves developers from having mul
   } }
   src="/uploads/rules/do-you-know-when-to-branch/2014-10-11_18-54-00.png"
 />
+
 
 ## Why you should avoid branching
 
@@ -80,6 +84,7 @@ This is **very** likely to happen on code bases that require tidying when you ha
 
 * For a disposable, investigatory spike
 * To perform hotfixes to production environment
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -91,6 +96,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
   } }
   src="/uploads/rules/do-you-know-when-to-branch/branch-bad.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -102,6 +109,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
   } }
   src="/uploads/rules/do-you-know-when-to-branch/branch-bad-2.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -113,6 +122,7 @@ This is **very** likely to happen on code bases that require tidying when you ha
   } }
   src="/uploads/rules/do-you-know-when-to-branch/branch-good.jpg"
 />
+
 
 ### Further reading
 

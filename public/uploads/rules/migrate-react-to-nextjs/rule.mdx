@@ -44,6 +44,7 @@ npx @next/codemod cra-to-next
   src="/uploads/rules/migrate-react-to-nextjs/migration-terminal.png"
 />
 
+
 This tool is a great starting point, but make sure to check all intended functionality has been ported correctly.
 
 ## Data Fetching
@@ -53,6 +54,7 @@ It is also important to understand that when moving over the client-side functio
 ## Routing
 
 It is important to keep in mind that Next.js uses file-based routing, so there must be additional care in migrating React applications that use `react-router` or `react-router-dom`. While these libraries will still function as intended in Next.js by running this code on the client, many of the advantages of using Next's file-based routing will not be realised.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -64,6 +66,8 @@ It is important to keep in mind that Next.js uses file-based routing, so there m
   } }
   src="/uploads/rules/migrate-react-to-nextjs/react-router-dom.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -75,5 +79,6 @@ It is important to keep in mind that Next.js uses file-based routing, so there m
   } }
   src="/uploads/rules/migrate-react-to-nextjs/next-routing.png"
 />
+
 
 By using the `[id].tsx`, we can create a [dynamic route](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes), where the ID can be accessed via props. This can then be used by either client-side React code or the Next.js specific server-side functions `getStaticProps` and `getSeverSideProps` to fetch data based on the request URL.

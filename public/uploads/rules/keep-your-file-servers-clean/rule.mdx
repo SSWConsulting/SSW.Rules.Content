@@ -41,6 +41,7 @@ How often do you find files on your network file server that clearly shouldn't b
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,6 +55,7 @@ How often do you find files on your network file server that clearly shouldn't b
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -65,6 +67,7 @@ How often do you find files on your network file server that clearly shouldn't b
   } }
   src="/uploads/rules/keep-your-file-servers-clean/FileOwner.png"
 />
+
 
 The easiest way is to configure **Windows file auditing** .
 
@@ -87,6 +90,7 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_01.gif"
 />
+
 4. Click the **Auditing** tab
 5. Select the users whose usage you want to monitor (usually all users, so select **Everyone** )
    
@@ -101,6 +105,7 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_02.gif"
 />
+
 6. Select what you want to monitor. For best performance, we only tick the options in shown in the figure below - there's no need to log when someone opens a file.
    
 <imageEmbed
@@ -114,6 +119,7 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_03.gif"
 />
+
 7. Click **OK** and **OK** again to apply the changes. The process may take some time depending on the number of subfolders and files selected.
    Now you need to configure the system event log.
 8. Open **Control Panel-&gt;Administrative Tools-&gt;Event Viewer**
@@ -131,6 +137,7 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
   } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_04.gif"
 />
+
 
 ### Checking who created the file
 
@@ -151,6 +158,7 @@ Now test to see if auditing is working.
   } }
   src="/uploads/rules/keep-your-file-servers-clean/networkauditing_05.gif"
 />
+
 
 That's all! It is also great for finding out who accidentally deleted files from the file system.
 

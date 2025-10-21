@@ -34,6 +34,7 @@ isArchived: false
 Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://ui.shadcn.com) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
   </>}
 />
+
 <asideEmbed
   variant="info"
   body={<>
@@ -46,6 +47,7 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
   }}
 />
 
+
 ## shadcn/ui – customized with V0 (Recommended)
 
 Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a separate library by utilising path aliases.
@@ -53,6 +55,7 @@ Shadcn/ui is more recent, but changed the game. It puts the components totally u
 The trade-off of this approach is that any updates made to the Shadcn code base won't automatically be reflected in your code base. You should consider this when electing to use Shadcn. If having a distinct look and feel for your UI is unimportant, and you don't want to maintain your UI, a conventional library such as [Material UI](https://mui.com/) may be better for your project.
 
 Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com), an industry standard framework that offers an opinionated approach to managing your css classes. This makes it even easier to manage customizations made to your components.
+
 
 <asideEmbed
   variant="info"
@@ -65,6 +68,7 @@ Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https:/
     shouldDisplay: false
   }}
 />
+
 
 To install/[update](https://github.com/shadcn-ui/ui/discussions/790) all Shadcn/ui components at once, you can use the npx command: `npx shadcn@latest add -a -y -o`.
 
@@ -79,6 +83,7 @@ In effect, these technologies together let you quickly build your own custom com
 
 Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
 
+
 <asideEmbed
   variant="info"
   body={<>
@@ -90,6 +95,7 @@ Schadcn uses a special **cn** utility under the hood in its component definition
     shouldDisplay: false
   }}
 />
+
 
 ```jsx
 const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
@@ -113,7 +119,9 @@ const Layout = ({children}: {children: React.ReactNode})=>{
 }
 ```
 
+
 <youtubeEmbed url="https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u" description={"Video – Why Everyone Loves Shadcn UI Right Now (1 min)"} />
+
 
 For a more in depth look, see the video later on.
 
@@ -129,6 +137,7 @@ Bootstrap has been the go-to general-purpose component library for years.
 
 While Bootstrap is a safe and reliable choice, it does have drawbacks, such as limited customizability and heavy reliance on CSS overrides to achieve bespoke designs.
 
+
 <asideEmbed
   variant="info"
   body={<>
@@ -140,6 +149,7 @@ While Bootstrap is a safe and reliable choice, it does have drawbacks, such as l
     shouldDisplay: false
   }}
 />
+
 
 ---
 
@@ -159,7 +169,9 @@ When evaluating a component library, also keep in mind:
 
 ### Deep Dive: Front-End Development with shadcn/ui and Next.js
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/U8LyScigrcA?si=VE5qksK9YKgObQoX&amp;start=668" description={"Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library, from 11:08 (10 mins)"} />
+
 
 ## Popular component libraries (ordered by stars)
 

@@ -28,6 +28,7 @@ An application's database access profile should be as restricted as possible, so
 Application database access should be also be restricted to only the application's database, and none of the other databases on the server
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -39,6 +40,8 @@ Application database access should be also be restricted to only the application
   } }
   src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/administratorlogininitsconnectionstring.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -50,6 +53,7 @@ Application database access should be also be restricted to only the application
   } }
   src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/databaseuserconfiguredintheconnectionstring.png"
 />
+
 
 Most web applications need full read and write access to one database. In the case of EF Code first migrations, they might also need DDL admin rights. These roles are built in database roles:
 
@@ -90,6 +94,7 @@ EXEC sp_addrolemember 'db_ddladmin', myappstaging;
 ```sql
 GRANT EXECUTE TO myappstaging
 ```
+
 
 <asideEmbed
   variant="greybox"
