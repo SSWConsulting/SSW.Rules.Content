@@ -14,7 +14,9 @@ authors:
 related:
   - avoid-reviewing-performance-without-metrics
 redirects:
-  - do-you-keep-your-website-loading-time-acceptable
+# TODO - https://github.com/SSWConsulting/SSW.Rules/issues/2037
+# Commenting this rule as it doesn't exist anymore. We need to fix "redirect" feature first.
+# - do-you-keep-your-website-loading-time-acceptable
   - keep-your-website-loading-time-acceptable
 
 ---
