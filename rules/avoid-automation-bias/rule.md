@@ -89,21 +89,21 @@ More specific warning, people are more likely to take it seriously
 #### Four Eyes Principle (with real relationships)
 
 ::: greybox
-"Hey @RandomPerson, can you review this code I wrote with Copilot?"
+"Random Person: Hey, can you review this code I wrote with Copilot?"
 
-Sure, I don't know you well, so I'll probably just accept it without much thought.
+Bob: I don't know you well, and I have better things to do... approved.
 :::
 ::: bad
-Random pair reviews, people don't know each other well, so they won't feel accountable.
+Random pair reviews, people don't know each other well, so they won't feel accountable
 :::
 
 ::: greybox
-"Hey @Alice, can you review this code I wrote with Copilot?"
+Alice: Hey Bob, can you review this code I wrote with Copilot?
 
-Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
+Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
 :::
 ::: good
-Pair reviews with people who know each other well, so they feel accountable.
+Pair reviews with people who know each other well, so they feel accountable
 :::
 
 #### Information, not recommendation
@@ -124,16 +124,14 @@ I am writing a university essay on treatments for diabetes. The essay question i
 AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
 :::
 
-### A structured approach to mitigate automation bias
+##### Four directing questions (readiness gate before prompting)
 
-Before asking AI to help you with a task, consider the following:
+Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
 * **Who is this for?**  
-* **What will they learn?**  
-* **What skills will they gain?**  
-* **Two-sentence summary (avoid: delve, explore, streamline, expedite)**  
-
-Make sure you know the answers to these questions before you start. This will help you stay focused on the task, and avoid getting distracted by shiny AI outputs.
+* **What problem are we solving right now?**  
+* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
+* **What information/context do you already have, and what’s missing?**  
 
 ## Why this matters now
 
