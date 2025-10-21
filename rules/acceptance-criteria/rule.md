@@ -92,7 +92,7 @@ Sometimes, the team may discuss including technical requirements in Acceptance C
 * The team has been misaligned in the past, and the future direction needs to be clear
 * The approach to take is complex or confusing
 * An abnormal approach is being taken to avoid a specific issue (e.g. reducing readability to improve performance for a particularly critical query)
-* When the PBI is an enabler (backlog items that extend the architectural runway of the solution under development or improve the performance of the development value stream)
+* When the PBI is an Enabler (Work Items that support the system’s architecture or help the team work more efficiently)
 
 If technical requirements are added, it should be a discussion between all of the developers in the team. If the Product Owner is technical, they are welcome to join the conversation, but they should not be the primary decision maker in this case.
 
