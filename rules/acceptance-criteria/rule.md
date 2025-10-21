@@ -92,11 +92,17 @@ Sometimes, the team may discuss including technical requirements in Acceptance C
 * The team has been misaligned in the past, and the future direction needs to be clear
 * The approach to take is complex or confusing
 * An abnormal approach is being taken to avoid a specific issue (e.g. reducing readability to improve performance for a particularly critical query)
-* When the PBI is an Enabler (backlog items that extend the architectural runway of the solution under development or improve the performance of the development value stream)
+* When the PBI is an enabler (backlog items that extend the architectural runway of the solution under development or improve the performance of the development value stream)
 
 If technical requirements are added, it should be a discussion between all of the developers in the team. If the Product Owner is technical, they are welcome to join the conversation, but they should not be the primary decision maker in this case.
 
-Additionally, when adding technical requirements try to prefix with "Technical - " so their purpose is clear to everyone (e.g. "Technical - New CQRS Query made to get all employees")
+::: warning
+**Warning:** Any CSS or styling implementation must be reviewed and agreed upon by a **designer** to ensure it aligns with the design system and visual standards.
+:::
+
+::: info
+**Tip:** When adding technical requirements, prefix them with "Technical – " so their purpose is clear to everyone (e.g. "Technical – New CQRS Query made to get all employees").
+:::
 
 ## Acceptance Tests
 
