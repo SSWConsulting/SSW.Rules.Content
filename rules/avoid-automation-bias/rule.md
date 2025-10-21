@@ -124,7 +124,7 @@ I am writing a university essay on treatments for diabetes. The essay question i
 AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
 :::
 
-##### Example: Using AI to draft a presentation:
+##### Example: Using AI to draft a presentation
 
 If you were using AI to write a presentation, before you start prompting, ask yourself these questions to ensure you're equipped to critically evaluate the output:
 
