@@ -89,18 +89,18 @@ More specific warning, people are more likely to take it seriously
 #### Four Eyes Principle (with real relationships)
 
 ::: greybox
-"Hey @RandomPerson, can you review this code I wrote with Copilot?"
+"RandomPerson: Hey Bob, can you review this code I wrote with Copilot?"
 
-Sure, I don't know you well, so I'll probably just accept it without much thought.
+Bob: I don't know you well, and I have better things to do... approved.
 :::
 ::: bad
 Random pair reviews, people don't know each other well, so they won't feel accountable.
 :::
 
 ::: greybox
-"Hey @Alice, can you review this code I wrote with Copilot?"
+Alice: Hey Bob, can you review this code I wrote with Copilot?
 
-Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
+Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
 :::
 ::: good
 Pair reviews with people who know each other well, so they feel accountable.
@@ -124,9 +124,9 @@ I am writing a university essay on treatments for diabetes. The essay question i
 AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
 :::
 
-### A structured approach to mitigate automation bias
+##### Example: Using AI to draft a presentation:
 
-Before asking AI to help you with a task, consider the following:
+If you were using AI to write a presentation, before you start prompting, ask yourself these questions to ensure you're equipped to critically evaluate the output:
 
 * **Who is this for?**  
 * **What will they learn?**  
