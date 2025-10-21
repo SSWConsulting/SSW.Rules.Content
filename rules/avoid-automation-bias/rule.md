@@ -130,8 +130,8 @@ Use these to decide if you know enough to prompt. If any answer is vague, pause 
 
 * **Who is this for?**  
 * **What problem are we solving right now?**  
-* **What does success look like (acceptance criteria/output format)?**  
-* **What inputs do you already have, and what’s missing?**  
+* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
+* **What information/context do you already have, and what’s missing?**  
 
 ## Why this matters now
 
