@@ -124,16 +124,14 @@ I am writing a university essay on treatments for diabetes. The essay question i
 AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
 :::
 
-##### Example: Using AI to draft a presentation
+##### Four directing questions (readiness gate before prompting)
 
-If you were using AI to write a presentation, before you start prompting, ask yourself these questions to ensure you're equipped to critically evaluate the output:
+Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
 * **Who is this for?**  
-* **What will they learn?**  
-* **What skills will they gain?**  
-* **Two-sentence summary (avoid: delve, explore, streamline, expedite)**  
-
-Make sure you know the answers to these questions before you start. This will help you stay focused on the task, and avoid getting distracted by shiny AI outputs.
+* **What problem are we solving right now?**  
+* **What does success look like (acceptance criteria/output format)?**  
+* **What inputs do you already have, and what’s missing?**  
 
 ## Why this matters now
 
