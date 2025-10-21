@@ -89,12 +89,12 @@ More specific warning, people are more likely to take it seriously
 #### Four Eyes Principle (with real relationships)
 
 ::: greybox
-"RandomPerson: Hey Bob, can you review this code I wrote with Copilot?"
+"Random Person: Hey, can you review this code I wrote with Copilot?"
 
 Bob: I don't know you well, and I have better things to do... approved.
 :::
 ::: bad
-Random pair reviews, people don't know each other well, so they won't feel accountable.
+Random pair reviews, people don't know each other well, so they won't feel accountable
 :::
 
 ::: greybox
@@ -103,7 +103,7 @@ Alice: Hey Bob, can you review this code I wrote with Copilot?
 Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
 :::
 ::: good
-Pair reviews with people who know each other well, so they feel accountable.
+Pair reviews with people who know each other well, so they feel accountable
 :::
 
 #### Information, not recommendation
