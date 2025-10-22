@@ -17,6 +17,7 @@ index:
 - the-touch-it-once-principle
 - do-you-unsubscribe-from-newsletters
 - inbox-management-team
+- follow-outlook-group-in-inbox
 - tasks-with-a-ticking-clock
 
 ---
