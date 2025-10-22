@@ -57,8 +57,10 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 * Avoid ambiguous or abstract icons (E.g. Broom icon (`🧹`) is used for “clear all” or “clean up", not "delete". Cross icon (`❌`) means “cancel” or "wrong", not "delete")
 
 ::: bad  
-![Figure: Bad example - Cross icon usually means "Cancel" and should be avoided for permanent deletion. The icon is also wrongly positioned on the right](destruction-button-bad-icon.png)
-:::
+![Figure: Bad example - Cross icon usually means "Cancel" and should be avoided for permanent deletion. The icon is also missing text.](destruction-button-bad-icon.png)  
+
+[Do you avoid OK buttons and use the specific action as labels instead?](https://www.ssw.com.au/rules/do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead/)
+:::  
 
 ::: good  
 ![Figure: Good example - Trash/Bin icon positioned on the left](destruction-button-good-icon.png)
@@ -73,11 +75,11 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 * Make destructive buttons less prominent (except when the primary purpose is deletion)
 
 ::: bad  
-![Figure: Bad example - "Delete" and "Save" are too close together can lead to accidental clicks](destruction-button-bad-positioning.png)
+![Figure: Bad example - "Delete" and "Save" are too close together. (can lead to accidental clicks)](destruction-button-bad-positioning.png)
 :::
 
 ::: good  
-![Figure: Good example - "Delete" button in red, with the right icon, andvisually isolated from safe actions](destruction-button-good-positioning.png)
+![Figure: Good example - "Delete" button in red, with the right icon, and visually isolated from safe actions](destruction-button-good-positioning.png)
 :::
 
 ## Ask for confirmation when necessary
@@ -97,7 +99,7 @@ Use confirmations when:
 **Tip:** Avoid overusing confirmations as they lead to [alert fatigue](https://www.magicbell.com/blog/alert-fatigue).
 :::
 
-## Use tooltips or hover explanations
+## Use tooltips
 
 Sometimes you might have a UI with limited space that doesn’t allow text labels.
 
