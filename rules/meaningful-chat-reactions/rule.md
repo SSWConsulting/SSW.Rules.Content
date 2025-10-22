@@ -34,5 +34,5 @@ This simple habit reduces confusion, keeps chats clean, and ensures the whole te
 
 <img width="925" height="222" alt="image" src="https://github.com/user-attachments/assets/9c3e1e7d-00d3-429d-bd1b-fcc9d36ca59b" />
 ::: good
-Good example - Reply with ✅ when it is done
+Figure: Good example - Reply with ✅ when it is done
 :::
