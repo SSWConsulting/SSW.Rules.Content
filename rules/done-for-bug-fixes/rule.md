@@ -2,19 +2,23 @@
 seoDescription: Perfectly fix bugs by including current status, investigation, and solution in your email replies, ensuring efficient communication with clients.
 type: rule
 archivedreason:
-title: Dones - Do you know how to do a perfect 'Done' (replying to a bug)?
+title: Do you know how to reply 'Done' after fixing a bug?
 guid: b1304beb-f898-4ae3-a18f-a8bfbb1b7a45
-uri: how-to-do-a-perfect-done
+uri: done-for-bug-fixes
 created: 2009-04-08T09:05:06.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+  - reply-done
+  - close-pbis-with-context
 redirects:
   - dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
   - dones-do-you-know-how-to-do-a-perfect-done-(replying-to-a-bug)
+  - how-to-do-a-perfect-done
+
 ---
 
 To reply to a bug effectively and efficiently in your emails, you need to include:
