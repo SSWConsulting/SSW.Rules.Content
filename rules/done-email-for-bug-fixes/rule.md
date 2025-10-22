@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you know how to reply 'Done' after fixing a bug?
 guid: b1304beb-f898-4ae3-a18f-a8bfbb1b7a45
-uri: done-for-bug-fixes
+uri: done-email-for-bug-fixes
 created: 2009-04-08T09:05:06.0000000Z
 authors:
   - title: Adam Cogan
