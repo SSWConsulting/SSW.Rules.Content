@@ -21,8 +21,6 @@ created: 2015-11-24T17:40:06.000Z
 archivedreason: null
 guid: 4022a44e-4223-4a5c-8337-80244432a9b4
 ---
-![]()
-
 The start point of your branding is the logo. From there everything the company produces or owns should "feel" like it comes from your company. When you walk by a pile of documents on a desk, you should recognize that it's from your company. It's not just plonking the logo everywhere.
 
 These are things to keep in mind for good branding:
