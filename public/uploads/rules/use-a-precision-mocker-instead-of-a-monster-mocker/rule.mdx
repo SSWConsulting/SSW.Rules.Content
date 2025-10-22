@@ -37,6 +37,7 @@ There are two types of mocking framework.
 
 This type of mocking framework is very powerful and allows replacing code that wasn’t designed to be replaced.
 This is great for testing legacy code, tightly coupled code with lots of static dependencies (like DateTime.Now) and SharePoint.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -49,11 +50,13 @@ This is great for testing legacy code, tightly coupled code with lots of static 
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/monster-mocker.jpg"
 />
 
+
 ### The Precision Mocker (e.g. NSubstitute)
 
 This mocking framework takes advantage of well written, loosely coupled code.
 
 The mocking framework creates substitute items to inject into the code under test.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -65,6 +68,8 @@ The mocking framework creates substitute items to inject into the code under tes
   } }
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/nsubstitute-1.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -76,6 +81,8 @@ The mocking framework creates substitute items to inject into the code under tes
   } }
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/nsubstitute-2.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

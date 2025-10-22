@@ -43,6 +43,7 @@ From then on, they would be able to see those appointments in Microsoft Outlook 
   </>}
 />
 In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, and then add this as a tab in Teams. Microsoft Teams have since released Channel Calendars, which are better because they are built in.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -54,6 +55,8 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-meetings-bad-example.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -65,6 +68,8 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/team-meetings-ok-example.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -76,6 +81,7 @@ In the past, the best way to do this was to create a SharePoint page with a Grou
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-calendar-good.png"
 />
+
 
 `youtube: MYIjVqD8AUo`
 **Video: An awesome introduction to Channel Calendars in Teams (7 min)**
@@ -112,6 +118,8 @@ B. Make the Channel Calendar visible in Microsoft Outlook
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/adding-channel-calendar.png"
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -124,11 +132,13 @@ B. Make the Channel Calendar visible in Microsoft Outlook
   }}
 />
 
+
 ### B. Make the Channel Calendar visible in Microsoft Outlook
 
 Channel Calendar meetings need to be editable by anyone in the Team and the only way to enable that is via a group calendar in Microsoft Outlook.
 
 By default, group calendars do not show up in Microsoft Outlook, so they need to be made visible to the team with a PowerShell command:
+
 
 <asideEmbed
   variant="greybox"
@@ -150,6 +160,7 @@ More info on [removing a Meeting in a Teams Channel when the organizer is gone](
   }}
 />
 
+
 This can also be done from the Microsoft Admin Center:
 
 1. Go to `https://portal.office.com/adminportal`
@@ -170,6 +181,7 @@ This can also be done from the Microsoft Admin Center:
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -181,6 +193,7 @@ This can also be done from the Microsoft Admin Center:
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/team-calendar.png"
 />
+
 
 ## Manage Appointments - Team members create, join, edit, and leave meetings themselves
 
@@ -201,6 +214,7 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
 1. Follow the rule on [how to create recurring team meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
 2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -212,6 +226,7 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
     shouldDisplay: false
   }}
 />
+
 
 ### B. Join a meeting
 
@@ -235,6 +250,7 @@ To join a meeting do the following:
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-add-to-calendar.png"
 />
 
+
 ### C. Edit a meeting
 
 To update a meeting, you must change the details from the Microsoft Outlook group calendar:
@@ -257,6 +273,7 @@ To update a meeting, you must change the details from the Microsoft Outlook grou
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/EditSugarLearningDailyScrum.png"
 />
 
+
 ### D. Leave a meeting
 
 Many people decline a meeting when they no longer want to attend. However, this method is problematic because you will still be an **Optional** attendee, and receive updates to the appointment.
@@ -268,6 +285,7 @@ To leave a meeting properly:
 3. Open the appointment and select **The entire series**
 4. Remove yourself as a participant
 5. Double-check that no other mailboxes have been added which include you e.g. the Team mailbox
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -279,6 +297,8 @@ To leave a meeting properly:
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/declining-appointment.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -290,6 +310,8 @@ To leave a meeting properly:
   } }
   src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/edit-appointment.png"
 />
+
+
 
 <asideEmbed
   variant="greybox"

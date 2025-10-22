@@ -26,6 +26,7 @@ Errors on reports should not occur but when they do it is best to make it clear 
   </>}
 />
 How evident are the error messages on the 1st report below?
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -37,6 +38,8 @@ How evident are the error messages on the 1st report below?
   } }
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT1.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -48,6 +51,7 @@ How evident are the error messages on the 1st report below?
   } }
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT2.jpg"
 />
+
 
 Reporting Services allows you to set the 'NoRows' property of a table control to warn your user when there is no data available. This is similar to handle the 'NoData event' in Access report but there is no advanced control on this message, not even a Color property - this has not been improved in RS2005, see our [Better Software Suggestions page](https://www.ssw.com.au/archive/standards/rules/rules-to-better-sql-reporting-services.html#Subscription).
 
@@ -63,6 +67,7 @@ Reporting Services allows you to set the 'NoRows' property of a table control to
   } }
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT3.jpg"
 />
+
 
 Here's how to add a custom "NoData" textbox with a red icon to your report:
 
@@ -85,6 +90,7 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT4.gif"
 />
 
+
 4. In the **Hidden** property of the **Rectangle**, add an expression to show/hide it depending on whether any rows were returned. Use the following expression, substituting the bold for your own values (e.g. checking if the sum of all orders is < 0)
 
 ```sql
@@ -105,6 +111,7 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
   } }
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT5.gif"
 />
+
 
 5. Group all other report items into a rectangle - you want to be able to show and hide them dynamically.
 

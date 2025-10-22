@@ -29,6 +29,7 @@ Microsoft Forms offers several ways to analyze your survey responses:
 ## Structured answers
 
 Structured (quantitative) answers include multiple choice, range, or numerical responses. Microsoft Forms excels at automatically generating graphs for these types of answers.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -41,11 +42,13 @@ Structured (quantitative) answers include multiple choice, range, or numerical r
   src="/uploads/rules/digest-microsoft-form/good-structured.png"
 />
 
+
 ## Unstructured answers
 
 Unstructured (qualitative) answers are text-based responses that allow respondents to express themselves fully, yielding more insightful survey results.
 
 The challenge is that Microsoft Forms handles unstructured answers poorly. Your viewing options are limited to a 'word cloud' (more gimmick than analysis tool) or a basic table that contains all feedback but makes finding meaningful insights difficult.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -57,6 +60,7 @@ The challenge is that Microsoft Forms handles unstructured answers poorly. Your 
   } }
   src="/uploads/rules/digest-microsoft-form/bad-unstructured.png"
 />
+
 
 This is where AI becomes invaluable for digesting unstructured data.
 
@@ -73,6 +77,7 @@ Better yet, Cursor Agent lets you interact with your data through conversation. 
 ### How to digest unstructured survey results with Cursor IDE
 
 See how to get the most out of your Microsoft Forms results with AI.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -84,6 +89,8 @@ See how to get the most out of your Microsoft Forms results with AI.
   } }
   src="/uploads/rules/digest-microsoft-form/good-unstructured.png"
 />
+
+
 
 <asideEmbed
   variant="info"
@@ -97,12 +104,14 @@ See how to get the most out of your Microsoft Forms results with AI.
   }}
 />
 
+
 1. Export your Microsoft Forms results in `.csv` format
 2. Create a new folder containing the `.csv` file you would like to digest
 3. Open this new folder in Cursor IDE
 4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
 5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**.
 6. Start prompting your .csv file!
+
 
 <asideEmbed
   variant="info"
@@ -117,7 +126,9 @@ But, if there are better models at the time of reading this, use them! (see the 
   }}
 />
 
+
 For example, the below prompt will read through your `.csv` line by line, highlight interesting parts of each answer, and generate a sentiment for the answer, allowing you much better 'at-a-glance' survey results. We use it to create a visual stimulus for when we record our [Digesting the Fat videos](https://www.youtube.com/watch?v=4DKH5IDp7Wk)
+
 
 <asideEmbed
   variant="info"
@@ -130,6 +141,7 @@ For example, the below prompt will read through your `.csv` line by line, highli
     shouldDisplay: false
   }}
 />
+
 
 ```xml
 <context>

@@ -63,6 +63,7 @@ For Visual Studio development on web applications, [download Web Essentials](htt
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-InstallNuGetPackages_1710232021935.png"
 />
 
+
 Here is a quick guide to the steps to install NuGet Packages to the entire solution:
 
 1. Right click solution
@@ -87,6 +88,7 @@ Issues from these will now be returned in the Visual Studio analyzer error list.
   } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-RoslynRules_1710232021936.png"
 />
+
 
 Run Code Analysis on the project. Check over all of the warnings, if they are unnecessary or inappropriate, disable them, otherwise modify their severity level to "Error".
 
@@ -123,6 +125,7 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/vs-code-extensions_1710232021938.png"
 />
 
+
 If you prefer not to use the Extensions, you can install them using npm as normal.
 
 * [CSSLint](https://www.npmjs.com/package/csslint)
@@ -147,6 +150,8 @@ Edit the build definition
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EditBuild.png"
 />
 
+
+
 <asideEmbed
   variant="info"
   body={<>
@@ -158,6 +163,7 @@ Edit the build definition
     shouldDisplay: false
   }}
 />
+
 
 Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build &gt; Click "Edit"
 
@@ -175,6 +181,7 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -186,6 +193,7 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
   } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-DirectoryExampleV2_1710232021937.png"
 />
+
 
 Under advanced for the Command Line tasks, the Working Directory can be specified if necessary.
 
@@ -229,6 +237,7 @@ If this is the case, just add a step to delete your config file after the scan i
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-RemoveConfig_1710232021938.png"
 />
 
+
 **Command Line** - Remove the tslint config file, as it will break future scan if the build is on premises if a config file already exists and an attempt to add another one is made
 **Name:** Remove tslint config
 **Tool:** del
@@ -255,6 +264,7 @@ Then check the build is successful.
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EnsureTSLintRuns.png"
 />
 
+
 For the purposes of reporting, a unique tag must be added to the build definition which the Code Health steps have been applied to.
 
 This is done with the addition of a variable `(Name = PrimaryBuild, Value = true)`.
@@ -271,6 +281,8 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-AddVariableTag_1710232021936.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -282,6 +294,8 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResult-BadV3.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -293,6 +307,8 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   } }
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResultV3.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

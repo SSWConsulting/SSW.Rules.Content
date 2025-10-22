@@ -27,6 +27,7 @@ However, there are situations where using your local timezone might be more appr
 ❌ **Complex time zone calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
 ❌ **Daylight saving time issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
 ❌ **Confusing user experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -39,11 +40,13 @@ However, there are situations where using your local timezone might be more appr
   src="/uploads/rules/power-automate-flows-convert-timezone/comparing-timedate-without-converting.png"
 />
 
+
 So to convert it to the correct timezone, you can use built-in expression in your flow:
 
 ```js
 convertTimeZone(&#123;&#123; array/object &#125;&#125;?[&#123;&#123; 'timedate variable' &#125;&#125;], 'UTC', 'AUS Eastern Standard Time')
 ```
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -55,6 +58,7 @@ convertTimeZone(&#123;&#123; array/object &#125;&#125;?[&#123;&#123; 'timedate v
   } }
   src="/uploads/rules/power-automate-flows-convert-timezone/convert-timezone-expression.gif"
 />
+
 
 For further details on converting timezones in Power Automate Flow, refer to the [Microsoft Learn - Converting time zone](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/converting-time-zone-power-automate?WT.mc_id=DX-MVP-33518).
 

@@ -34,6 +34,7 @@ isArchived: false
 Your users should never see the “yellow screen of death”. Errors should be caught, logged and a user-friendly screen displayed to the user.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -45,6 +46,8 @@ Your users should never see the “yellow screen of death”. Errors should be c
   } }
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-bad.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -56,6 +59,8 @@ Your users should never see the “yellow screen of death”. Errors should be c
   } }
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-default.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -67,6 +72,7 @@ Your users should never see the “yellow screen of death”. Errors should be c
   } }
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-good.png"
 />
+
 
 However, as a developer you still want to be able to view the detail of the exception in your local development environment.
 
@@ -90,6 +96,7 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     ...
 }
 ```
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -101,5 +108,6 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
   } }
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-development.png"
 />
+
 
 Find out more about exception handling in .NET Core 5 [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518).

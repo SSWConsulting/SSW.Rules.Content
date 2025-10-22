@@ -23,6 +23,7 @@ isArchived: false
   body={<>
 Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -34,6 +35,7 @@ Having an awareness of the different types and levels of testing is critical to 
     shouldDisplay: false
   }}
 />
+
 
 There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid).
   </>}
@@ -50,6 +52,7 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
   } }
   src="/uploads/rules/testing-pyramid/test-pyramid-cohn.jpg"
 />
+
 
 > "All models are wrong, but some are useful"
 >
@@ -107,6 +110,7 @@ An interesting take comes from [Noah Sussman](https://infiniteundo.com/post/1581
   } }
   src="/uploads/rules/testing-pyramid/bug-filter.jpg"
 />
+
 
 Note that the area of the bug filter changes at each level. Unit tests focus solely on product code, but integration tests might include databases or external web services. End-to-end tests cover an even larger architecture. Bugs can appear from these new systems without having passed through a previous filter.
 

@@ -40,6 +40,7 @@ AI models like GPT-4o are powerful but imperfect. They generate plausible-soundi
 documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -53,12 +54,14 @@ documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]
   }}
 />
 
+
 ```python
 documents = [
   {"text": "Sales grew 10% in 2023", "tags": ["finance", "sales"]},
   {"text": "Server downtime: 5hrs in Q2", "tags": ["IT", "downtime"]}
 ]
 ```
+
 
 <asideEmbed
   variant="greybox"
@@ -73,9 +76,11 @@ documents = [
   }}
 />
 
+
 ## Break Workflows into Multi-Step Prompts
 
 Use a **chain-of-thought** approach to split tasks into smaller, validated steps
+
 
 <asideEmbed
   variant="greybox"
@@ -89,6 +94,8 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -104,9 +111,11 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
   }}
 />
 
+
 ## Force the AI to Justify Its Reasoning
 
 Always prompt the AI to **cite sources** and **flag uncertainty**.
+
 
 <asideEmbed
   variant="greybox"
@@ -120,6 +129,8 @@ Always prompt the AI to **cite sources** and **flag uncertainty**.
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -135,9 +146,11 @@ Always prompt the AI to **cite sources** and **flag uncertainty**.
   }}
 />
 
+
 ## Validate Outputs Against the Original Question
 
 Use a **validation layer** to ensure outputs align with the original query.
+
 
 <asideEmbed
   variant="greybox"
@@ -152,6 +165,8 @@ Use a **validation layer** to ensure outputs align with the original query.
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -164,6 +179,7 @@ AI: "Revised answer: AKS simplifies deployment by integrating with Azure DevOps 
     shouldDisplay: true
   }}
 />
+
 
 ## Other techniques to minimize hallucinations
 

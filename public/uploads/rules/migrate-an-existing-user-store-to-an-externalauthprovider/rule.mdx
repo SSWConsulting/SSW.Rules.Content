@@ -27,6 +27,7 @@ On the ExternalAuthProvider side, users are typically recognised by a unique Sub
 
 The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -39,6 +40,7 @@ The approach described here assumes that the user's email address is verified. W
     shouldDisplay: false
   }}
 />
+
 
 Two essential scenarios arise when integrating the ExternalAuthProvider:
 
@@ -77,6 +79,7 @@ var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -88,6 +91,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
     shouldDisplay: false
   }}
 />
+
 
 #### Future Authentications
 
@@ -128,6 +132,7 @@ Register by creating a new user in your application's store using claims provide
  var createNewUserResult = await _userManager.CreateAsync(newUser);
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -139,6 +144,7 @@ Register by creating a new user in your application's store using claims provide
     shouldDisplay: false
   }}
 />
+
 
 Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) method to associate this SubId as an external login with the newly created user record.
 

@@ -32,6 +32,7 @@ isArchived: false
 Authentication and authorization are complicated, and it is risky to try and implement them yourself. Use this rule as a guide on choosing the right service or framework for your situation.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="small"
@@ -43,6 +44,7 @@ Authentication and authorization are complicated, and it is risky to try and imp
   } }
   src="/uploads/rules/choosing-authentication/security-icon-ssw.jpg"
 />
+
 
 Choosing the right [authentication and authorization](https://www.youtube.com/watch?v=i0d9iTmWIOw) approach for your situation can be tricky. It is a multi-faceted problem with many variables, and what seems like the right choice in one situation may not be in the other.
 
@@ -197,7 +199,9 @@ By running your own IdentityServer, you can provide and manage your own SSO IDP 
 * You need to inject custom logic into your authentication flow, or:
 * You have compliance requirements that prohibit you from using a cloud IDP
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/5OUQZAvxZuA?ecver=1" description={""} />
+
 
 ## 3. OpenIddict (extend to build your own auth)
 
@@ -471,6 +475,7 @@ External applications are B2B or B2C applications that are intended for consumpt
 
 ### Example template to customer
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -507,6 +512,7 @@ External applications are B2B or B2C applications that are intended for consumpt
 For internal applications (referred to as "intranet applications" by Microsoft), the requirements might be different to externally facing applications. For example, they are more likely to be hosted on-premises (rare these days), or may need to use Windows Integrated Authentication (also rare these days, but provides a wonderful UX).
 
 ### Example template to customer
+
 
 <asideEmbed
   variant="greybox"

@@ -43,6 +43,7 @@ When a user is created in Active Directory (AD), a Global Unique Identifier (GUI
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/guid.png"
 />
 
+
 When adding a user to CRM, they are assigned with an Employee ID that is linked to the AD account’s GUID.
 
 
@@ -58,11 +59,13 @@ When adding a user to CRM, they are assigned with an Employee ID that is linked 
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/aduser.png"
 />
 
+
 When a user leaves, many companies go through the process of disabling the CRM account and then deleting the AD User.
 
 This creates problems if the employee comes back to the company and a new AD account is created for them - they are no longer able to be associated with the previously created CRM account. Instead, they will need a new CRM user with a different Employee ID.
 
 This makes reporting on a user that has returned more difficult. To get around this problem, it is better to disable and move the user to a "Disabled Users" OU in AD, so that if they return, the AD and CRM user can just be re-enabled.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -74,6 +77,8 @@ This makes reporting on a user that has returned more difficult. To get around t
   } }
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/delete-user.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

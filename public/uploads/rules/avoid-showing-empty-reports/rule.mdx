@@ -26,6 +26,7 @@ isArchived: false
 When a user opens a report, they expect to see something. It is the developer's job to get the default values for parameters right. Default parameters allow the user to see what they expect... a report, and they also show users the expected format for parameters and make it easier to run validation tests to see if all the reports on your server are working correctly And of course you don't get it right by hard coding defaults.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -38,7 +39,9 @@ When a user opens a report, they expect to see something. It is the developer's 
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT07.jpg"
 />
 
+
 The following report shows nothing, because the parameters are using meaningless default values (in this case, old dates for the year 2006)
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -50,6 +53,8 @@ The following report shows nothing, because the parameters are using meaningless
   } }
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT7.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -61,6 +66,7 @@ The following report shows nothing, because the parameters are using meaningless
   } }
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT8.gif"
 />
+
 
 In SQL Reporting Services, parameters can be:
 
@@ -86,6 +92,7 @@ DateSerial(iif( Month(DateTime.Now)=12, Year(DateTime.Now)+1, Year(DateTime.Now)
   shouldDisplay: true
 } } />
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -97,6 +104,7 @@ DateSerial(iif( Month(DateTime.Now)=12, Year(DateTime.Now)+1, Year(DateTime.Now)
   } }
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT11.jpg"
 />
+
 
 The Solution:
 
@@ -125,6 +133,7 @@ FROM Orders
   shouldDisplay: true
 } } />
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -136,6 +145,7 @@ FROM Orders
   } }
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT10.jpg"
 />
+
 
 The dataset 'ValidDates' looks similar to this:
 

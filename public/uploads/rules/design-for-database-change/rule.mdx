@@ -42,6 +42,7 @@ Many developers are frightened of making a change to the existing database becau
   src="/uploads/rules/design-for-database-change/SQLDatabases_zsApplication.png"
 />
 
+
 4. Keep a constantly running login Audit with a SQL Server Profiler Trace that saves to a table and make sure all applications have an application name in their connection string. This method is the most comprehensive option but is not recommended because you get a constant performance hit from SQL Profiler running.
 
     

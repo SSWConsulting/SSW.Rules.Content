@@ -46,6 +46,7 @@ You should always have two builds on your team project. These should be setup an
   src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/Builds.jpg"
 />
 
+
 These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build.
 
 - **CI** - This should run all Unit Tests and all of the automated UI tests. It is run after a successful developer check-in.
@@ -69,9 +70,11 @@ These builds should use the same XAML build workflow; however you may set them u
   } }
   src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/ControlTestAndData.jpg"
 />
+
 **Note:** We do not run all the tests every time because of the time consuming nature of running some tests, but ALL tests should be run overnight.
 
 **Note:** If you had a really large project with thousands of tests including long running Load tests you may need to add a Weekly build to the mix.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -83,6 +86,8 @@ These builds should use the same XAML build workflow; however you may set them u
   } }
   src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/BuildStatus01.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

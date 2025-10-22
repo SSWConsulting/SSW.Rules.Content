@@ -202,7 +202,7 @@ def replace_youtube_block(m):
     url = m.group(1).strip()
     desc = m.group(2).strip() if m.group(2) else ""
     desc_js = js_string(desc)
-    return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
+    return f'\n<youtubeEmbed url="{url}" description={{{desc_js}}} />\n'
 
 def replace_youtube_block_inside_intro(m):
     url = m.group(1).strip()
@@ -241,7 +241,8 @@ def replace_image_block(m, src_prefix):
 
     figure_js = js_string(figure)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
@@ -251,7 +252,8 @@ def replace_image_block(m, src_prefix):
     shouldDisplay: true
   }} }}
   src="{src}"
-/>'''
+/>
+'''
 
 
 def replace_custom_size_image_block(m, src_prefix):
@@ -283,7 +285,8 @@ def replace_custom_size_image_block(m, src_prefix):
     should_display = "true" if figure_raw else "false"
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
@@ -293,7 +296,8 @@ def replace_custom_size_image_block(m, src_prefix):
     shouldDisplay: {should_display}
   }} }}
   src="{src}"
-/>'''
+/>
+'''
 
 
 def replace_standalone_image(m, src_prefix):
@@ -302,7 +306,8 @@ def replace_standalone_image(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
     figure_js = js_string(figure)
 
-    return '\n' + f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
@@ -312,7 +317,8 @@ def replace_standalone_image(m, src_prefix):
     shouldDisplay: true
   }} }}
   src="{src}"
-/>'''
+/>
+'''
 
 def replace_preset_and_size_image_block(m, src_prefix):
     # Extract preset and size from either order
@@ -335,7 +341,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
     figure_js = js_string(figure_raw)
 
-    return f'''<imageEmbed
+    return f'''
+<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
@@ -345,7 +352,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
     shouldDisplay: true
   }} }}
   src="{src}"
-/>'''
+/>
+'''
 
 
 def replace_email_block(m):
@@ -371,7 +379,8 @@ def replace_email_block(m):
 
     should_display = 'Figure:' in figure_block
 
-    return f'''<emailEmbed
+    return f'''
+<emailEmbed
   from={from_js}
   to={to_js}
   cc={cc_js}
@@ -385,7 +394,8 @@ def replace_email_block(m):
     figure: {figure_js},
     shouldDisplay: {"true" if should_display else "false"}
   }} }}
-/>'''
+/>
+'''
 
 def replace_email_block_no_rating(m):
     table = m.group(1)
@@ -405,7 +415,8 @@ def replace_email_block_no_rating(m):
 
     should_display = bool(figure_text)
 
-    return f'''<emailEmbed
+    return f'''
+<emailEmbed
   from={from_js}
   to={to_js}
   cc={cc_js}
@@ -419,7 +430,8 @@ def replace_email_block_no_rating(m):
     figure: {figure_js},
     shouldDisplay: {"true" if should_display else "false"}
   }} }}
-/>'''
+/>
+'''
 
 def replace_simple_figure_block(m):
     preset = m.group(1).strip()
@@ -450,6 +462,9 @@ def process_custom_aside_blocks(content):
             box_type = match_start.group(2)
             box_indent = len(match_start.group(1))
             buffer = []
+            # Add blank line before aside if it's indented (nested in a list)
+            if box_indent > 0 and output and output[-1].strip() != '':
+                output.append('')
             i += 1
             continue
 
@@ -498,7 +513,8 @@ def process_custom_aside_blocks(content):
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
             figure_js = js_string(figure)
-            embed = f'''<asideEmbed
+            embed = f'''
+<asideEmbed
   variant="{box_type}"
   body={{<>
     {body}
@@ -508,7 +524,8 @@ def process_custom_aside_blocks(content):
     figure: {figure_js},
     shouldDisplay: {"true" if show else "false"}
   }}}}
-/>'''
+/>
+'''
             output.append(embed)
             in_box = False
             i += 1

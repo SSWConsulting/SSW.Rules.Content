@@ -54,6 +54,7 @@ We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works wel
   src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/TableBit.jpg"
 />
 
+
 Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA'
 
 
@@ -68,6 +69,7 @@ Later you learn you need to change the data type to char(2) to support 'MA', 'FE
   } }
   src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/CasterSemenya.jpg"
 />
+
 
 The data then must be migrated to the new data type this way:
 
@@ -89,6 +91,8 @@ Delete the column ztGender_
   src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/TableChar.jpg"
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -100,6 +104,7 @@ Delete the column ztGender_
     shouldDisplay: false
   }}
 />
+
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
@@ -116,6 +121,8 @@ Visual Studio does not automatically support this scenario, as data type changes
   src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/microsoft-schema-compare_1710232021939.png"
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -127,6 +134,7 @@ Visual Studio does not automatically support this scenario, as data type changes
     shouldDisplay: false
   }}
 />
+
 
 There are few options available to perform data type change correctly:
 

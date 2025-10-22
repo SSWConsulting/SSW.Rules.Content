@@ -46,6 +46,7 @@ Only repository administrators can configure environments reviewers, timers, and
   src="/uploads/rules/use-gated-deployments/add-required-reviewers.png"
 />
 
+
 Once approvals are configured, and a deployment workflow is triggered the GitHub workflow will pause on an approval step and notify the required approvers to manually review the deployment. Reviewers can approve or reject the deployment and add any comments if necessary. Once a deployment is approved, the GitHub workflow will continue running.
 
 GitHub will also display the review information in the deployment summary.
@@ -83,6 +84,7 @@ Here is an example of a workflow waiting for manual approval from a required rev
   src="/uploads/rules/use-gated-deployments/waiting-for-manual-approval.png"
 />
 
+
 Once the reviewer is notified, they can manually approve which will then let the deployment process continue.
 
 
@@ -97,5 +99,6 @@ Once the reviewer is notified, they can manually approve which will then let the
   } }
   src="/uploads/rules/use-gated-deployments/manual-approval.png"
 />
+
 
 Check out the [sample repo](https://github.com/william-liebenberg/github-gated-deployments) for an example GitHub workflow with gated deployments.

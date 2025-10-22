@@ -26,6 +26,7 @@ Developers can't catch and reproduce every performance issue in the testing envi
 In the figure below, the time taken to load the form over a dialup connection is 61.1 seconds, this proves to the developer that the form is not useable over a dialup connection. In this particular case, the developer has called a 'select \* from Employees' where it was not needed, only the name, password and ID is needed for this form.
 
 **Note:** Once the form is loaded and load time is shown, the status bar can be used to show anything useful as the form is being used.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -37,6 +38,7 @@ In the figure below, the time taken to load the form over a dialup connection is
   } }
   src="/uploads/rules/do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load/doesntperformsowellwhenrunoveravpn2.jpg"
 />
+
 
 Add a StatusBar to the form, and add a StatusBarPanel to the StatusBar, then set the properties like below.
 
@@ -52,6 +54,7 @@ Add a StatusBar to the form, and add a StatusBarPanel to the StatusBar, then set
   } }
   src="/uploads/rules/do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load/statusbarpanel.gif"
 />
+
 
 ```cs
 private DateTime StartLoadTime = System.DateTime.Now;

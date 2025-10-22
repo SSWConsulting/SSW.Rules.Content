@@ -41,6 +41,7 @@ It's important to know how to handle these failures appropriately.
   src="/uploads/rules/dangers-of-tolerating-test-failures/head-in-sand.jpg"
 />
 
+
 ### Some anti-patterns in handling automated test failures
 
 When automated tests fail due to a genuine problem in the software, this is a good thing! You should thank them and address the problem asap.
@@ -58,6 +59,7 @@ Some "reasons" for tolerating test failures include:
 
 Tolerating test failures quickly erodes the trust in the results of the tests, to the point where the results are ignored and so they become pointless to run. This is a significant waste of your investment in building automated tests.
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -71,6 +73,7 @@ Tolerating test failures quickly erodes the trust in the results of the tests, t
     shouldDisplay: false
   }}
 />
+
 
 #### "Skip" the failing tests
 
@@ -91,6 +94,7 @@ When a test fails but **not** because of a problem in the software:
 
 - If the test is important enough to keep, fix it
 - If there's no value in the test anymore, delete it
+
 
 <asideEmbed
   variant="greybox"

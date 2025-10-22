@@ -29,7 +29,9 @@ When building a chat bot, it needs some way to understand natural language text 
 * Well-trained prebuilt entities (e.g. Person names, date and time, geographic locations)
 * A user friendly GUI portal where you can create, test and publish LUIS apps with just a couple of clicks
 
+
 <youtubeEmbed url="https://youtu.be/C7RKx3mJyxI" description={"Video: Introduction to LUIS natural language understanding for bots (using SSW SophieBot) (7 min)"} />
+
 
 ## Intents and User Utterances
 
@@ -50,6 +52,7 @@ So you need a way to define what phrases have the same meaning as "mobile" and w
 In order to make LUIS' recognition more precise, some of the best practises are:
 
 * **Do** define distinct intents
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -61,6 +64,8 @@ In order to make LUIS' recognition more precise, some of the best practises are:
   } }
   src="/uploads/rules/luis/bad-example-distinct-intents.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -73,7 +78,9 @@ In order to make LUIS' recognition more precise, some of the best practises are:
   src="/uploads/rules/luis/good-example-distinct-intents.png"
 />
 
+
 * **Do** assign features for intents
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -85,6 +92,8 @@ In order to make LUIS' recognition more precise, some of the best practises are:
   } }
   src="/uploads/rules/luis/bad-example-features.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -97,7 +106,9 @@ In order to make LUIS' recognition more precise, some of the best practises are:
   src="/uploads/rules/luis/good-example-features.png"
 />
 
+
 * **Do** add examples to None intent (the fallback intent if LUIS doesn't recognize the user input as any intent)
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -109,6 +120,8 @@ In order to make LUIS' recognition more precise, some of the best practises are:
   } }
   src="/uploads/rules/luis/bad-example-none.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

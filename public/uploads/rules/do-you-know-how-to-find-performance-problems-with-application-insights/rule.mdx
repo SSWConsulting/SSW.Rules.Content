@@ -43,6 +43,7 @@ The main focus of the first blade is the 'Overview timeline' chart, which gives 
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-1.jpg"
 />
 
+
 Developers can see the following insights:
 
 - Number of requests to the server and how many have failed (First blue graph)
@@ -65,6 +66,7 @@ Always investigate the spikes first, notice how the two blue ones line up? That 
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance 2.png"
 />
 
+
 As we can see that a single request took four hours in the 'Average of Browser page load time by URL base' graph, it is important to examine this request.
 
 It would be nice to see the prior week for comparison, however, we're unable to in this section.
@@ -81,6 +83,7 @@ It would be nice to see the prior week for comparison, however, we're unable to 
   } }
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-3.png"
 />
+
 
 **At this point, we'll create a PBI to investigate the problem and fix it.**
 
@@ -100,6 +103,7 @@ The other spike which requires investigation is in the server response times. To
   } }
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-4.jpg"
 />
+
 
 In this view, we find performance related issues when the usage graph shows similarities to the previous week but the response times are higher. When this occurs, click and drag on the timeline to select the spike and then click the magnifying glass to ‘zoom in’. This will reload the ‘Average of Server response time by Operation name’ graph with only data for the selected period.
 

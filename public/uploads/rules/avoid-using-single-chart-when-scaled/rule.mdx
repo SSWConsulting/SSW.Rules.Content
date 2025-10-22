@@ -25,6 +25,7 @@ isArchived: false
 
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -36,6 +37,8 @@ isArchived: false
   } }
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToBetterBusinessIntelligence_ChartBad1.gif"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -47,6 +50,7 @@ isArchived: false
   } }
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToBetterBusinessIntelligence_ChartBad2.gif"
 />
+
 
 The reason for this problem is that the 'size' property of the chart control doesn't support expressions like 'Count(Rows) or queried values like 'Fields!RowCount.Value', so the chart control cannot adjust its size according to the data.
 
@@ -64,6 +68,8 @@ The solution for this problem is to use an embedded chart within the table - thi
   } }
   src="/uploads/rules/avoid-using-single-chart-when-scaled/ChartProperties_size.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -75,6 +81,7 @@ The solution for this problem is to use an embedded chart within the table - thi
   } }
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesT12.gif"
 />
+
 
 To do this, you need to create a table in your report and add a chart into each of the rows.
 
@@ -90,6 +97,7 @@ To do this, you need to create a table in your report and add a chart into each 
   } }
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToRS-chart-1.gif"
 />
+
 
 **Note:** When rendering a report to your browser or an email, Reporting Services generates a separate image for every single image in the report, even if they are identical. When you are using graphs, images or charts in your report, this can cause a large number of images to be generated. Always include a red warning at the top of any emailed reports so that users do not try and forward or reply to them. Use a warning like this:
 

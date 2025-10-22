@@ -90,6 +90,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 } } />
 
 
+
 <asideEmbed
   variant="info"
   body={<>
@@ -101,6 +102,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
     shouldDisplay: false
   }}
 />
+
 
 ``` cs
 public static class IWebHostEnvironmentExtensions
@@ -132,6 +134,7 @@ Applications require at least the LIST and GET permissions, otherwise the Key Va
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/access_policies.png"
 />
 
+
 Azure Key Vault and App Services can easily trust each other by making use of System assigned Managed Identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
 
 So, make sure that your Azure App Service has the **System assigned identity** enabled.
@@ -150,6 +153,7 @@ Once enabled, you can create a Key Vault Access policy to give your App Service 
   } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/identity.png"
 />
+
 
 Adding secrets into Key Vault is easy.
 
@@ -172,6 +176,7 @@ Adding secrets into Key Vault is easy.
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -183,6 +188,7 @@ Adding secrets into Key Vault is easy.
   } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/secrets.png"
 />
+
 
 **Note:** The ApplicationSecrets section is indicated by "ApplicationSecrets--" instead of "ApplicationSecrets:".
 
@@ -201,7 +207,10 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/configuration.png"
 />
 
+
+
 <youtubeEmbed url="https://www.youtube.com/embed/ZG7IykWdlng" description={"Video: Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail (8 min)"} />
+
 
 ### History of Connection Strings
 
@@ -246,6 +255,7 @@ In .NET 2.0 we used strongly typed settings classes:
   } }
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/ConnStringNET2\_Settings.jpg"
 />
+
 
 **Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 

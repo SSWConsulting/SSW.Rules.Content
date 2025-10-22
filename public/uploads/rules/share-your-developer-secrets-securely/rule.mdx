@@ -33,11 +33,14 @@ Most systems will have variables that need to be stored securely; OpenId shared 
 There are different ways to [store your secrets securely](/store-your-secrets-securely/). When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you **share** those secrets securely with other developers in your organization?
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/watch?v=IwvCTwz0C7M" description={"Video: Do you share secrets securely | Jeoffrey Fischer (7min)"} />
+
 
 An encryption key or SQL connection string to a developer's local machine/container is a good example of something that will not always be sensitive for in a development environment, whereas a GitHub PAT token or Azure Storage SAS token would be considered sensitive as it allows access to company-owned resources outside of the local development machine.
 
 ## ❌ Bad practices
+
 
 <asideEmbed
   variant="greybox"
@@ -56,6 +59,8 @@ The `appsettings.Development.json` file is meant for storing development setting
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -77,7 +82,9 @@ Sending secrets over Microsoft Teams is a terrible idea, the messages can land u
   }}
 />
 
+
 ## ✅ Good practices
+
 
 <asideEmbed
   variant="greybox"
@@ -100,6 +107,8 @@ As a way of giving a heads up to other developers on the project, you can add a 
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -129,6 +138,8 @@ Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -160,6 +171,8 @@ Azure Key Vault is a great way to store secrets securely. It is great for produc
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -188,6 +201,8 @@ Enterprise Secret Management tools have are great for storing secrets for variou
     shouldDisplay: true
   }}
 />
+
+
 
 <asideEmbed
   variant="info"

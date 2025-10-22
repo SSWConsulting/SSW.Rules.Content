@@ -55,6 +55,7 @@ What about only allowing empty strings? Well, we choose to block Nulls because i
   src="/uploads/rules/do-not-allow-nulls-in-text-fields/sql-table-with-null-value.png"
 />
 
+
 However, you should always be aware that Nulls and empty strings are totally different, so if you absolutely have to have them, they should be used consistently. In the ANSI SQL-92 standard, an empty string ('') is never equated to Null, because empty string can be significant in certain applications.
 
 **Not allowing Nulls will give you the following benefits:**
@@ -79,6 +80,7 @@ For example, you have Address1 and Address2 in your database, a Null value in Ad
   } }
   src="/uploads/rules/do-not-allow-nulls-in-text-fields/null-value-on-ui.jpg"
 />
+
 
 Some people are not going to like this rule, but this is how it works in Oracle and Access:
 

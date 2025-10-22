@@ -48,6 +48,7 @@ A better way is:
 * Change the code
 * Reproduce the steps and record the time again
 * Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -60,9 +61,11 @@ A better way is:
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/code-auditor-performance-score.png"
 />
 
+
 Also, never forget to do incremental changes in your tests!
 
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -75,7 +78,9 @@ For example, if you are trying to measure the optimal number of processors for a
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/1to4.jpg"
 />
 
+
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -87,6 +92,7 @@ Do it incrementally, adding 1 processor each time, measuring the results, and th
   } }
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/1234.jpg"
 />
+
 
 This gives you the most complete set of data to work from.
 
@@ -108,6 +114,7 @@ Depending on your tech stack, there are various tools available to measure perfo
   } }
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/chrome-perf-tools.png"
 />
+
 
 Here are other performance tools worth considering:
 

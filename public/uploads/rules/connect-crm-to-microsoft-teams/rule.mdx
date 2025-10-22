@@ -48,7 +48,9 @@ Microsoft Teams is a great solution for organizing client files and conversation
 Once you have this set up, it is likely that you want to have a link between your Teams instances and the associated CRM record.
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/3nkO8BxG8Sc" description={""} />
+
 
 In the video, Adam Cogan describes how they connect Dynamics 365 and Teams with an extra field. They change the Account table to add a custom column 'Teams-URL'.
 
@@ -65,6 +67,8 @@ In the video, Adam Cogan describes how they connect Dynamics 365 and Teams with 
   src="/uploads/rules/connect-crm-to-microsoft-teams/dynamics-and-teams.png"
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -76,6 +80,7 @@ In the video, Adam Cogan describes how they connect Dynamics 365 and Teams with 
     shouldDisplay: false
   }}
 />
+
 
 ### Level 1: Manual method
 
@@ -93,6 +98,7 @@ To get that URL, simply click the ellipsis next to your Team name and click "Get
   } }
   src="/uploads/rules/connect-crm-to-microsoft-teams/get-teams-url.jpg"
 />
+
 
 ### Level 2: Automatic (Basic)
 
@@ -116,6 +122,7 @@ Add a button to the Ribbon to provision a new team and link to it.
   src="/uploads/rules/connect-crm-to-microsoft-teams/account_createteamssite.png"
 />
 
+
 ### Level 3: Automatic (Advanced - best UX)
 
 Using a PCF control you can add a button directly into the form that can do everything for you.
@@ -134,6 +141,7 @@ Click on this section on your CRM Dynamics to have a Team created:
   } }
   src="/uploads/rules/connect-crm-to-microsoft-teams/click-to-create.png"
 />
+
 
 **Notes:**
 

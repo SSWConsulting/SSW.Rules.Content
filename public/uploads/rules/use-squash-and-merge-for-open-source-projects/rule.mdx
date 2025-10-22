@@ -30,6 +30,7 @@ isArchived: false
 When you are working on an open source project, you will often get pull requests from contributors. When you merge these pull requests, you should use the "Squash and merge" option. This will squash all the commits into one commit and then merge it into the target branch. This is a good practice because it keeps the commit history clean and easy to read. It also makes it easier for other developers to understand what changes were made in each PR.
   </>}
 />
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -42,9 +43,11 @@ When you are working on an open source project, you will often get pull requests
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/merge-bad-example.png"
 />
 
+
 ### Commit Messages
 
 Like any commit message, the PR commit message should be short and descriptive. The easiest way to achieve this is to combine the PR title and commit details.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -56,6 +59,8 @@ Like any commit message, the PR commit message should be short and descriptive. 
   } }
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/confirm-squash-and-merge-with-no-details.jpg"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -67,6 +72,7 @@ Like any commit message, the PR commit message should be short and descriptive. 
   } }
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/confirm-squash-and-merge.jpg"
 />
+
 
 In order to get GitHub to use your commit details by default you need to change the configuration for the repository.
 
@@ -82,6 +88,7 @@ In order to get GitHub to use your commit details by default you need to change 
   } }
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/squash-merge-settings.jpg"
 />
+
 
 ### Limit merge types
 
@@ -100,6 +107,7 @@ You should limit the merge types that are allowed on your repository. This makes
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/limit-merge-types.jpg"
 />
 
+
 ### Automatically delete head branches
 
 After a branch is merged into the target branch, you'd not want to continue development on the previous branch as the changes were squashed in. It's always a good idea to create a new branch after a PR is merged from the target branch if you have additional changes. To make this easier, you can configure GitHub to automatically delete the branch after the PR is merged.
@@ -117,6 +125,7 @@ After a branch is merged into the target branch, you'd not want to continue deve
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/automatically-delete-head-branches.jpg"
 />
 
+
 ### Other configurations
 
 If you find that Pull Requests are often approved but for some reason not merged in, you may want to enable `auto-merge`. This will automatically merge the PR when all the required checks have passed.
@@ -133,6 +142,7 @@ If you find that Pull Requests are often approved but for some reason not merged
   } }
   src="/uploads/rules/use-squash-and-merge-for-open-source-projects/auto-merge.jpg"
 />
+
 
 You may want to enable "Always suggest updating pull request branches", this can be done from **Repo Settings | Pull Requests**, this provides contributors with an easy way to update their branch from the target branch without performing the merge themselves on their local machine.
 

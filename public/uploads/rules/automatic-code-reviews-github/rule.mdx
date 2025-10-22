@@ -34,7 +34,10 @@ isArchived: false
 Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when Sprint Review approaches, developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PRs early, buying your senior devs more time (and sanity!) to review higher quality code.
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/LsQGilvXAfE?si=F4A2mdp2bjqnzlUQ" description={"Video: Code review & refactoring with GitHub Copilot: A beginner's guide (8 min)"} />
+
+
 
 <asideEmbed
   variant="info"
@@ -48,6 +51,7 @@ Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing the
   }}
 />
 
+
 In a perfect world,  reviewing a PR would simply be rubber-stamping perfect code. In reality, reviewers spend a lot of time flagging comments, typos, linting problems and, eventually bugs. This takes time away from focusing on more valuable concerns like scalability, maintainability, extensibility, and, ultimately the longevity of the code.
 
 Enter AI agents. AI Agents such as [GitHub Copilot](https://github.com/features/copilot) are great at improving code quality before putting the PR in front of a senior. By making your code more enjoyable to review, you'll find people won't disappear under a rock whenever you ping them with a PR.
@@ -57,6 +61,7 @@ There's a few agents developers can choose for their PR reviewing needs.
 ## GitHub Copilot Code Reviews ⭐ (recommended)
 
 GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request. Copilot will also suppress any reviews it generated with low confidence intervals, filtering out any code suggestions that are likely incorrect.
+
 
 <asideEmbed
   variant="info"
@@ -69,6 +74,7 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
     shouldDisplay: false
   }}
 />
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -80,6 +86,8 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
   } }
   src="/uploads/rules/automatic-code-reviews-github/tina-starter-reveiew-code-review.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -92,7 +100,9 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
   src="/uploads/rules/automatic-code-reviews-github/github-copilot-review-low-confidence.png"
 />
 
+
 In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description.
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -104,6 +114,7 @@ In addition to leaving comments on PRs, GitHub Copilot can analyse the changes m
   } }
   src="/uploads/rules/automatic-code-reviews-github/github-suggested-pr-description.png"
 />
+
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
 
@@ -122,6 +133,7 @@ For information about setting up automated code reviews using GitHub copilot ref
 ### Cursor's BugBot
 
 Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot).
+
 <imageEmbed
   alt="Image"
   size="medium"
@@ -134,9 +146,11 @@ Cursor's BugBot allows you to configure automatic code reviews for a specific re
   src="/uploads/rules/automatic-code-reviews-github/cursor-bugbot-example.png"
 />
 
+
 ### CodeRabbit
 
 [CodeRabbit](https://www.coderabbit.ai) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial.
+
 <imageEmbed
   alt="Image"
   size="medium"

@@ -35,6 +35,7 @@ However, if you monitor the packages you have installed, and a vulnerability is 
 ### Level 0 - Manual tracking
 
 List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -47,6 +48,7 @@ List all installed packages in a file and cross-check with the [advisory board](
   src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png"
 />
 
+
 ### Level 1 - Using tools to scan for vulnerabilities
 
 Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](/packages-up-to-date)
@@ -58,6 +60,7 @@ Modern package managers such as npm or NuGet offers a way to check for vulnerabi
 Regularly running this command can give a summarised report on known vulnerabilities in the referenced libraries.
 
 This is an improvement over manual tracking but still requires a developer to check out the latest code and then run the command.
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -69,6 +72,8 @@ This is an improvement over manual tracking but still requires a developer to ch
   } }
   src="/uploads/rules/monitor-packages-for-vulnerabilities/npm-audit-report.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -80,6 +85,7 @@ This is an improvement over manual tracking but still requires a developer to ch
   } }
   src="/uploads/rules/monitor-packages-for-vulnerabilities/dotnet-audit-report.png"
 />
+
 
 ### Level 2 - Automate vulnerability scanning (recommended)
 
@@ -93,6 +99,7 @@ Some of the available tools in the market:
 - [GitHub Enterprise Advanced Security](https://github.com/enterprise) - $ includes Dependabot plus additional features [like code scanning](https://docs.github.com/en/code-security/getting-started/github-security-features#available-with-github-advanced-security). See [here](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for more details.
 - [Snyk](https://snyk.io/) - $
 - [Sonatype](https://www.sonatype.com/) - $
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -104,6 +111,8 @@ Some of the available tools in the market:
   } }
   src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png"
 />
+
+
 <imageEmbed
   alt="Image"
   size="large"

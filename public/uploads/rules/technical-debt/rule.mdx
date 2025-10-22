@@ -40,7 +40,9 @@ isArchived: false
 Technical Debt (or tech debt) is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
   </>}
 />
+
 <youtubeEmbed url="https://www.youtube.com/embed/ASVD4YIOgpU" description={""} />
+
 
 Technical Debt can occur for all kinds of reasons, for example:
 
@@ -48,6 +50,7 @@ Technical Debt can occur for all kinds of reasons, for example:
 * Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
 Systems need to have features added to them to continually remain useful (or competitive). As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it **will** accumulate Technical Debt.
+
 
 <asideEmbed
   variant="greybox"
@@ -64,11 +67,13 @@ See [Do you document "TODO" tasks?](/todo-tasks)
   }}
 />
 
+
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
 * $100 - Full feature
 * $20 - Feature with shortcuts (no tests, dirty code, whatever it takes)
 * $80 - IOU via PBI in the backlog e.g. &#123;&#123; FeatureName &#125;&#125; – Technical Debt - Planned
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -80,6 +85,7 @@ See [Do you document "TODO" tasks?](/todo-tasks)
   } }
   src="/uploads/rules/technical-debt/waf-tech-debt-backlog-northwind_1710232021944.png"
 />
+
 
 ### What are the consequences of Technical Debt?
 
@@ -100,11 +106,13 @@ See [Do you document "TODO" tasks?](/todo-tasks)
   src="/uploads/rules/technical-debt/technical-debt-graph.png"
 />
 
+
 ### The 3 types of Technical Debt
 
 #### 1. Planned Technical Debt
 
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
+
 
 <asideEmbed
   variant="greybox"
@@ -118,11 +126,13 @@ Sometimes you want to quickly implement a new feature to get it out and receive 
   }}
 />
 
+
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
 
 #### 2. Discovered Technical Debt
 
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
+
 
 <asideEmbed
   variant="greybox"
@@ -136,11 +146,13 @@ During a code review, you or the team notice something as part of the system tha
   }}
 />
 
+
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
 
 #### 3. Unavoidable Technical Debt
 
 Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt cannot only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may have been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
+
 
 <asideEmbed
   variant="greybox"
@@ -154,11 +166,14 @@ Every system will accumulate Technical Debt over time. For example, if you built
   }}
 />
 
+
 **Note:** Martin Fowler would also classify this as "Inadvertent Technical Debt".
 
 ### Get a Verifiably Stable Application
 
+
 <youtubeEmbed url="https://www.youtube.com/embed/0FlLE8AdZgk" description={""} />
+
 
 ### How to repay Technical Debt
 
@@ -185,6 +200,7 @@ At the Sprint Planning:
 />
 
 
+
 <imageEmbed
   alt="Image"
   size="large"
@@ -196,6 +212,7 @@ At the Sprint Planning:
   } }
   src="/uploads/rules/technical-debt/techdebt-backlog.png"
 />
+
 
 
 <imageEmbed

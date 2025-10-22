@@ -90,6 +90,7 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
 </ItemGroup>
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -102,6 +103,7 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
   }}
 />
 
+
 Next step is to define an interface. For this case, we’ll only expose currently authenticated user. We are calling it IApplicationContext as it contains context for current request, whether it’s coming from an HttpContext or somewhere else if it’s a background job or console application.
 
 ```csharp
@@ -110,6 +112,7 @@ public interface IRequestContext
     string GetCurrentUsername();
 }
 ```
+
 
 <asideEmbed
   variant="greybox"
@@ -122,6 +125,7 @@ public interface IRequestContext
     shouldDisplay: false
   }}
 />
+
 
 Below you can see multiple implementations of `IRequestContext` as an example. You may need to implement in the web application project of the respective platform.
 
@@ -167,6 +171,7 @@ public sealed class BackgroundJobRequestContext : IRequestContext
 }
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -179,6 +184,8 @@ public sealed class BackgroundJobRequestContext : IRequestContext
   }}
 />
 
+
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -190,6 +197,7 @@ public sealed class BackgroundJobRequestContext : IRequestContext
     shouldDisplay: false
   }}
 />
+
 
 ## 3. Abstract HttpContext Accessor (.NET Framework only)
 
@@ -215,6 +223,7 @@ namespace Microsoft.AspNetCore.Http
 }
 ```
 
+
 <asideEmbed
   variant="greybox"
   body={<>
@@ -226,6 +235,8 @@ namespace Microsoft.AspNetCore.Http
     shouldDisplay: false
   }}
 />
+
+
 
 <asideEmbed
   variant="greybox"
@@ -251,6 +262,7 @@ namespace Microsoft.AspNetCore.Http
     shouldDisplay: false
   }}
 />
+
 
 ## 4. ⚠️ Last resort: System.Web adapters
 
