@@ -20,7 +20,7 @@ If you are localizing your application to China, some of the English words are c
 
 Here is a list of English words which are OK to use on your user interface:
 
-* OK
+* OK, Hi, Hello
 * APP
 * FAQ
 * VS
@@ -29,6 +29,14 @@ Here is a list of English words which are OK to use on your user interface:
 * VR
 * AI
 * 3D
+* PC, Mac, iPhone
+* USB, HDMI, Bluetooth
+* API, SDK, UI, UX
+* PDF, PPT, Word, Excel
+* WiFi
+* DIY
+* VIP
+* Live
 
 ::: good
 ![Figure: Good Example - Microsoft's Chinese software downloading site use "FAQ" on the main menu](microsoft download site.jpg)
