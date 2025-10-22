@@ -11,9 +11,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - reply-done
   - close-pbis-with-context
+  - include-useful-details-in-emails
 redirects:
   - dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
   - dones-do-you-know-how-to-do-a-perfect-done-(replying-to-a-bug)
@@ -21,14 +24,61 @@ redirects:
 
 ---
 
-To reply to a bug effectively and efficiently in your emails, you need to include:
+
+When replying to a bug in an email, make sure your response helps everyone understand the current state, what you found, and how it was resolved.
 
 <!--endintro-->
 
-* Current Status - the bug is fixed (screenshot of working application) or not fixed (ask for more detailed information from the client)
-* Investigation - the reason for the bug, or if you don't know, what you investigated, e.g. checked Windows event logs and found nothing helpful
-* Solution - how you fixed the bug (code snippet if necessary)
+## 1. Investigation details
 
+Share what you discovered about the issue.  
+
+- If you already know the cause, describe it clearly 
+- If you are still investigating, explain what you have checked and what possible causes you ruled out
+
+## 2. Solution
+
+Describe how you fixed the problem.  
+
+Include a short code snippet or example if it helps others understand the change.
+
+## 3. Current ctatus
+
+Explain the most up-to-date situation for the bug.  
+
+- If the bug is **fixed**, [include a screenshot](/include-useful-details-in-emails) showing the working result
+- If it’s **not yet fixed**, ask the reporter for more details so you can continue investigating
+
+::: info
+**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first). 
+:::
+
+---
+
+::: email-template  
+| | |
+| -------- | --- |
+| To: | John |
+| Subject: | RE: 🐛 SSW.Website - Can't access website |  
+::: email-content
+
+### Hi John,
+
+✅ Done - Bug has been fixed
+
+**Investigation:**\
+As per the error message you provided below, it’s a timeout issue.
+
+**Solution:**\
+I have increased the timeout threshold in the connection string.
+
+**Current Status:**\
+The site is working now.
+
+![Figure: Website is up and running](bug-reply-screenshot.png)  
+
+:::  
+:::  
 ::: good  
-![Figure: Good Example - Reply to a bug showing all steps](better_emails_reply_bug_small.jpg)  
+Figure: Good example - Replying to a bug with the details  
 :::
