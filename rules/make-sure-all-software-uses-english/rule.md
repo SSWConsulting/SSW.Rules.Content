@@ -57,7 +57,7 @@ In Chrome, you can follow these steps directly:
 
 3. Click on Languages:
 
-![Figure: Languages tab in Settings](languagestab.png)
+![Figure: Languages tab in Settings](languages-tab.png)
 
 4. Click on 'Add Languages':
 
