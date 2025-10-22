@@ -31,15 +31,13 @@ Let us look at some examples:
 
 ::: bad
 
-![Figure: Bad example - Chrome using Chinese as its language setting](google_chrome_chinese.png)
-
+![Figure: Bad example - Chrome using Chinese as its language setting](google-chrome-chinese.png)
 
 :::
 
 ::: good
 
-![Figure: Good example - Chrome using English as its language setting](google_chrome_english.png)
-
+![Figure: Good example - Chrome using English as its language setting](google-chrome-english.png)
 
 :::
 
