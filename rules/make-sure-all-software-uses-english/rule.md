@@ -21,8 +21,6 @@ created: 2016-03-22T06:16:19.000Z
 archivedreason: null
 guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 ---
-
-
 When dealing with western people, you want to avoid having screen captures showing foreign characters.
 
 Let us look at some examples:
@@ -32,11 +30,15 @@ Let us look at some examples:
 ## Google Chrome
 
 ::: bad
-!\[Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
+
+![Figure: Bad example - Chrome using Chinese as its language setting](google-chrome-chinese.png)
+
 :::
 
 ::: good
-!\[Figure: Good example - Chrome using English as its language setting](2016-3-22 14-59-07.png)
+
+![Figure: Good example - Chrome using English as its language setting](google-chrome-english.png)
+
 :::
 
 ### How to fix on a PC?
@@ -53,9 +55,9 @@ In Chrome, you can follow these steps directly:
 
 ![Figure: Showing the 'Settings' page](ssw12.png)
 
-3. Click on Advanced:
+3. Click on Languages:
 
-![Figure: Advanced tab in Settings](ssw13.png)
+![Figure: Languages tab in Settings](languages-tab.png)
 
 4. Click on 'Add Languages':
 
@@ -207,23 +209,15 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 3. Done!
 
-
-
 ## Fix Your Personal Email - Netease Mail Box (Mail.163.com)
 
 1. Navigate to Mail.163.com | Setting and then select English from the dropdown
 
    ![Figure: Navigate to mail.163.com | Setting and then select English from the dropdown](163-setting.png)
-
-
-
-
 2. Click on the name field next to the head portrait | Enter your English Name
 
    ![Figure: Enter your English name so your Western colleagues can read](163-rename.png)
 3. Done!
-
-
 
 ## Fix Your Personal Email - Tencent Mail Box (Mail.qq.com)
 
