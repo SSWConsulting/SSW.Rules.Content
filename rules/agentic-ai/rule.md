@@ -39,7 +39,7 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 ## Leading agent frameworks comparison
 
 | Tool / Feature | **Developed by** | **Best for** | **Learning curve** | **Key features** | **Integration** | **Production ready** |
-|----------------|------------------|--------------|---------------------|------------------|------------------|------------------------|
+|----------------|------------------|--------------|--------------------|------------------|-----------------|----------------------|
 | [**Autogen ⭐️**](https://microsoft.github.io/autogen/stable/) | Microsoft | Multi-agent conversations, flexible agent topologies | Medium | - Conversational agents<br>- Event-driven<br>- Group chat | Python, various LLMs | Research-focused |
 | [**OpenAI Agents**](https://openai.github.io/openai-agents-python/) | OpenAI | Production-ready pipelines with OpenAI models | Low | - Agent SDK<br>- Native handoffs<br>- Built-in tracing<br>- Guardrails | Python/JS, OpenAI ecosystem | Yes, built for production |
 | [**LangGraph**](https://www.langchain.com/langgraph) | LangChain | Complex stateful workflows, cyclical execution patterns | High | - Graph-based workflows<br>- State management<br>- Human-in-loop<br>- Time-travel debugging | Python/JS, LangChain ecosystem | Yes, enterprise-grade |
