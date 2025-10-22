@@ -31,3 +31,8 @@ To improve clarity and keep everyone aligned:
 * Once the task is complete, update your reaction to ✅ to signal it’s done
 
 This simple habit reduces confusion, keeps chats clean, and ensures the whole team can track progress at a glance.
+
+<img width="925" height="222" alt="image" src="https://github.com/user-attachments/assets/9c3e1e7d-00d3-429d-bd1b-fcc9d36ca59b" />
+::: good
+Good example - Reply with ✅ when it is done
+:::
