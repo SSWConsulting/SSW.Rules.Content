@@ -21,6 +21,7 @@ created: 2015-11-24T17:40:06.000Z
 archivedreason: null
 guid: 4022a44e-4223-4a5c-8337-80244432a9b4
 ---
+![]()
 
 The start point of your branding is the logo. From there everything the company produces or owns should "feel" like it comes from your company. When you walk by a pile of documents on a desk, you should recognize that it's from your company. It's not just plonking the logo everywhere.
 
@@ -47,10 +48,10 @@ These are things to keep in mind for good branding:
 ### Create a well-documented brand guideline
 
 ::: good
-![Figure: Good example - YakShaver brand guideline](yakshaver-brand-guide-screenshot-v2.jpg)
+![Figure: Good example - YakShaver brand guideline](yakshaver-brand-guide-rules.jpg)
 :::
 
-See more at [YakShaver Logo and Brand Assets](https://yakshaver.ai/media) and [YakShaver Brand Guide](https://yakshaver.ai/YakShaver/YakShaver-Brand-Guide-V3.pdf).
+See more at [YakShaver Logo and Brand Assets](https://yakshaver.ai/media) and [YakShaver Brand Guide](https://yakshaver.ai/YakShaver/YakShaver-Brand-Guide-V4.pdf).
 
 ::: info
 **Tip:** Make it easy for designers and developers to find design resources by linking them clearly on your website and intranet.
