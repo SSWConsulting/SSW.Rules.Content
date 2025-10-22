@@ -35,7 +35,7 @@ Figure: Bad example
 ::: greybox
 (This is in English since I have included a Sydney colleague... let me know if you need it in Chinese).
 
-Hi Joe, hope all is well. I wanted to confirm our conversation...\
+Hi Joe, hope all is well. I wanted to confirm our conversation...
 :::
 
 ::: good
