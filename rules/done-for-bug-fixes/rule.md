@@ -33,8 +33,8 @@ When replying to a bug in an email, make sure your response helps everyone under
 
 Share what you discovered about the issue.  
 
-- If you already know the cause, describe it clearly 
-- If you are still investigating, explain what you have checked and what possible causes you ruled out
+* If you already know the cause, describe it clearly
+* If you are still investigating, explain what you have checked and what possible causes you ruled out
 
 ## 2. Solution
 
@@ -46,23 +46,24 @@ Include a short code snippet or example if it helps others understand the change
 
 Explain the most up-to-date situation for the bug.  
 
-- If the bug is **fixed**, [include a screenshot](/include-useful-details-in-emails) showing the working result
-- If it’s **not yet fixed**, ask the reporter for more details so you can continue investigating
+* If the bug is **fixed**, [include a screenshot](/include-useful-details-in-emails) showing the working result
+* If it’s **not yet fixed**, ask the reporter for more details so you can continue investigating
 
 ::: info
-**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first). 
+**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
 :::
 
 ---
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |
 | Subject: | RE: 🐛 SSW.Website - Can't access website |  
 ::: email-content
 
-### Hi John,
+### Hi John
 
 ✅ Done - Bug has been fixed
 
