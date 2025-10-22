@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Do you know you should always use the language of your head office?
-  (usually English)
-seoDescription: Always use English in communications involving your head office
-  for seamless collaboration and clarity.
+title: Do you know you should always use the language of your head office? (usually English)
+seoDescription: Always use English in communications involving your head office for seamless collaboration and clarity.
 uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 authors:
   - title: Adam Cogan
