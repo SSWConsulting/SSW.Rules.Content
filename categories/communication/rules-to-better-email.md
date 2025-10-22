@@ -8,7 +8,7 @@ index:
 - use-email-for-tasks-only
 - reply-done
 - include-links-in-dones
-- done-for-bug-fixes
+- done-email-for-bug-fixes
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
