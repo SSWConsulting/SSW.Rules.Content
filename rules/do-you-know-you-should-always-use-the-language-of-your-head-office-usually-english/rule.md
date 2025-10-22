@@ -39,5 +39,5 @@ Hi Joe, hope all is well. I wanted to confirm our conversation...\
 :::
 
 ::: good
-Figure: Good example\
+Figure: Good example
 :::
