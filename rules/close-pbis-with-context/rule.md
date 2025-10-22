@@ -14,7 +14,7 @@ related:
   - write-a-good-pull-request
   - reply-done-and-delete-the-email
   - when-to-send-a-done-email-in-scrum
-  - done-for-bug-fixes
+  - done-email-for-bug-fixes
 redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null
