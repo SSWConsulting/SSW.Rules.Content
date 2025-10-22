@@ -56,7 +56,7 @@ If you are closing a PBI as "Won't fix", mention the person who agreed and the r
 :::
 
 ::: info
-**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first). 
+**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
 :::
 
 ## Be aware of auto-closing Issues in GitHub
