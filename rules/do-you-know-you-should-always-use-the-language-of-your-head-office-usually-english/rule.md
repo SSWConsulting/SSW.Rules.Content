@@ -15,6 +15,7 @@ created: 2013-04-01T04:14:41.000Z
 archivedreason: null
 guid: 0fc40d1a-ca9a-4c2d-be62-831fe962bfd5
 ---
+
 Say your language is Chinese, of course, local Chinese customers would feel more comfortable communicating in Chinese. The disconnect happens when head office needs to get involved. They can't review emails, read the history of email threads etc.
 
 <!--endintro-->
