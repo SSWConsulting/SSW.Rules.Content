@@ -32,4 +32,4 @@ To improve clarity and keep everyone aligned:
 
 This simple habit reduces confusion, keeps chats clean, and ensures the whole team can track progress at a glance.
 
-![Figure: Good example - Reply with ✅ when it is done](meaningful-chat-good-example.png)
+![Figure: Good example - Reply with ✅ when the task is done](meaningful-chat-good-example.png)
