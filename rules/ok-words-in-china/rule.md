@@ -33,7 +33,7 @@ Here is a list of English words which are OK to use on your user interface:
 * USB, HDMI, Bluetooth
 * API, SDK, UI, UX
 * PDF, PPT, Word, Excel
-* WiFi
+* Wi-Fi
 * DIY
 * VIP
 * Live
