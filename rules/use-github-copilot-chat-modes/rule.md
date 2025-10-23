@@ -23,7 +23,7 @@ Without a chat mode, individuals might copy/paste prompts . Important acceptance
 
 Define a Chat Mode once (YAML front matter + system instructions) and save it in your repos source control so the entire team sees it. The team can then:
 
-1. Select the mode (e.g. “Create PBI”) from the Chat Mode picker
+1. Select the mode (e.g. “issue-scribe”) from the Chat Mode picker
 2. Answers any clarifying questions
 3. Executes consistent, reviewed guidance every time
 
