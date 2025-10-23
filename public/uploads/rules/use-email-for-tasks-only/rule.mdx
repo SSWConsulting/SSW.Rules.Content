@@ -46,6 +46,7 @@ Using your mailbox as a task list also saves you from having to use inefficient 
   cc=""
   bcc=""
   subject="What do you think?"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Mark
 
@@ -53,11 +54,11 @@ I am not 100% happy , maybe we should look into making the menu better...
 
 Tim
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other)",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -66,6 +67,7 @@ Tim
   cc=""
   bcc=""
   subject="Improve menu - Options"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Mark
 
@@ -75,11 +77,11 @@ As per our conversation,
 
 Tim
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - A good email has a clear task to be done (decision was made in-person or via call)",
     shouldDisplay: true
-  } }
+  }}
 />
 
 

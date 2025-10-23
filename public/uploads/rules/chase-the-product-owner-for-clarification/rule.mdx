@@ -56,6 +56,7 @@ As a guideline, you should not go more than 2 weeks without talking to your Prod
   cc=""
   bcc=""
   subject="What's next?"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Uly
 
@@ -63,11 +64,11 @@ Did I have a project or something due soon?
 
 Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - you shouldn't have to ask that!",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -76,6 +77,7 @@ Jason
   cc=""
   bcc=""
   subject="Northwind presentation v1 - review"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Uly
 
@@ -85,9 +87,9 @@ Would you have some time on Thursday afternoon to go over it with me?
 
 Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Actively reaching out to your Product Owner",
     shouldDisplay: true
-  } }
+  }}
 />

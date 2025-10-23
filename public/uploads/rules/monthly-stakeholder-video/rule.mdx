@@ -57,6 +57,7 @@ To be consistent, have a recurring appointment each month:
   cc=""
   bcc=""
   subject="Recording - Monthly &#123;&#123; PROJECT NAME &#125;&#125; for &#123;&#123; MONTH &#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; PERSON WITH THE EMPLOYEE RESPONSIBILITY &#125;&#125;
 
@@ -67,11 +68,11 @@ Please record last month’s overview video.
 
 \&lt; As per [https://ssw.com.au/rules/monthly-stakeholder-video](https://ssw.com.au/rules/monthly-stakeholder-video) &gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 ## Creating an effective video
@@ -95,6 +96,7 @@ The video should be recorded by the Product Owner (or other head of the team).
   cc="Stakeholders"
   bcc=""
   subject="Recording - Monthly Finance Meeting for &#123;&#123; MONTH YEAR &#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
 
@@ -108,11 +110,11 @@ Here’s the link &#123;&#123; YOUTUBE LINK &#125;&#125;
 
 \&lt; As per [https://ssw.com.au/rules/monthly-stakeholder-video](https://ssw.com.au/rules/monthly-stakeholder-video) &gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visibility from your team.",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <imageEmbed

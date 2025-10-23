@@ -54,6 +54,7 @@ It is also a good idea to [break a line before an URL](/format-new-lines/#urls),
   cc=""
   bcc=""
   subject="Purchase please - New hand dryer"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -65,11 +66,11 @@ Here is the link to the new hand dryer that you wanted to see:
 Best,
 Dave
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Dirty URL with superfluous information",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -78,6 +79,7 @@ Dave
   cc=""
   bcc=""
   subject="Purchase please - New hand dryer"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -90,11 +92,11 @@ Here is the link to the new hand dryer that you wanted to see:
 Best,
 Dave
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example – Clean URL on a new line is easy to read and looks much better",
     shouldDisplay: true
-  } }
+  }}
 />
 
 

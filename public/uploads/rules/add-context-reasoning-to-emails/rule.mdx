@@ -45,16 +45,17 @@ Also make sure to always [keep the history of an email](/keep-email-history), so
   cc=""
   bcc=""
   subject="Map link"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
 I've added the map link
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - There is no context or reasoning",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -63,6 +64,7 @@ I've added the map link
   cc=""
   bcc=""
   subject="SSW.Website - Office page - Add link to address"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
@@ -73,11 +75,11 @@ This will facilitate clients and event attendees in finding their way to the off
 
 ![Figure: Link added to address](/uploads/rules/add-context-reasoning-to-emails/screenshot-example.png)
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - There is both context and reasoning",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### What if you receive a cryptic email?

@@ -66,14 +66,15 @@ Meetings don't have to be a drag. When they're done right, they actually help te
   cc=""
   bcc=""
   subject="Let's have a meeting"
+  shouldDisplayBody={true}
   body={<>
     Meeting time at 8
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Meeting with bad subject, no agenda, and lack of information",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -82,6 +83,7 @@ Meetings don't have to be a drag. When they're done right, they actually help te
   cc=""
   bcc=""
   subject="Northwind App - React project"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Mr. Northwind
 
@@ -104,11 +106,11 @@ Regards,
 **David**
 SSW Software Developer | Sydney, Australia | Phone: +61 X XXX XXXX
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Meeting appointment with a good subject, the agenda, and more useful information",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ## After the meeting

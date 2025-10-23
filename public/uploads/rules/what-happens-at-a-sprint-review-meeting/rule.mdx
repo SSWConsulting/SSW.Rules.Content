@@ -176,6 +176,7 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
   cc="&#123;&#123; YOUR TEAM &#125;&#125;"
   bcc=""
   subject="&#123;&#123; YOUR NAME &#125;&#125; - Sprint Review &#123;&#123; SPRINT REVIEW NUMBER &#125;&#125; Summary"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Team
 
@@ -185,11 +186,11 @@ I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#12
 * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Blocked - Waiting on &#123;&#123; BLOCKER &#125;&#125;. Details in the PBI.
   ...
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 - - -

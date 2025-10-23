@@ -53,6 +53,7 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
   cc=""
   bcc=""
   subject="Meet with the SSW software architects and talk about CodeAuditor"
+  shouldDisplayBody={true}
   body={<>
     (copy of email)
 
@@ -67,9 +68,9 @@ Sophie
 
 &lt;This email was sent as per [https://www.ssw.com.au/rules/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment)&gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Calendar appointment with tasks should be copied from an email, so the items assigned get read via the email (better visibility), and also the email can get replied to with a ‘done’",
     shouldDisplay: true
-  } }
+  }}
 />

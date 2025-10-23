@@ -59,6 +59,7 @@ So to ensure the migration process did not miss any items, ensure nobody modifie
   cc="YYY"
   bcc=""
   subject="Changes to yyy file"
+  shouldDisplayBody={true}
   body={<>
     ## Hey John
 
@@ -75,11 +76,11 @@ Regards,
 
 * SharePoint Admin Team
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 After you export to Excel, follow this example:

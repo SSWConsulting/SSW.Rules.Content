@@ -52,6 +52,7 @@ This way you won't forget any questions in the original email.
   cc=""
   bcc=""
   subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -59,11 +60,11 @@ Please change from X to Y\
 The program flow logic worries me a bit\
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - There's too much information with no reasonable order",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -72,6 +73,7 @@ Done. Sorry, this wasn't a final decision - I just put it there for testing pur
   cc=""
   bcc=""
   subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -80,11 +82,11 @@ Done - northwind365.com\
 "The program flow logic worries me a bit"\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -93,6 +95,7 @@ Sorry, this wasn't a final decision - I just put it there for testing purposes
   cc=""
   bcc=""
   subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -101,11 +104,11 @@ Done - northwind365.com\
 &nbsp;&nbsp;&nbsp; &gt; 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "okExample",
     figure: "OK example - Even with \">\", indentation and numbers, without spacing the text becomes cramped and hard to read",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -114,6 +117,7 @@ Sorry, this wasn't a final decision - I just put it there for testing purposes
   cc=""
   bcc=""
   subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -125,11 +129,11 @@ Done - northwind365.com
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - You can clearly see the context of each part of the reply",
     shouldDisplay: true
-  } }
+  }}
 />
 
 

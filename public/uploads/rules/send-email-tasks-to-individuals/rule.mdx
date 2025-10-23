@@ -35,16 +35,17 @@ As the old quote goes: *“If everyone is in charge of something, no one is!”*
   cc=""
   bcc=""
   subject="Video thumbnail"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Designers
 
 1. Please create a video thumbnail for this week's Tech News video
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Designers don't know which of them should action the task",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -53,16 +54,17 @@ As the old quote goes: *“If everyone is in charge of something, no one is!”*
   cc="@TheDesigners"
   bcc=""
   subject="Video thumbnail"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
 1. Please create a video thumbnail for this week's Tech News video
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - It is clear who should do the task",
     shouldDisplay: true
-  } }
+  }}
 />
 
 The exceptions are:

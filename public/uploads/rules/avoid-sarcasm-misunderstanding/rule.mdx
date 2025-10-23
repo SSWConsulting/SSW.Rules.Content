@@ -37,16 +37,17 @@ Because there is no "tone of voice" in an email, sarcasm can easily be misinterp
   cc=""
   bcc=""
   subject="Keeping our office clean"
+  shouldDisplayBody={true}
   body={<>
     ## John
 
 Make sure your office is clean when clients come in - you might scare them away with all that mess.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 <emailEmbed
@@ -55,14 +56,15 @@ Make sure your office is clean when clients come in - you might scare them away 
   cc=""
   bcc=""
   subject="Keeping our office clean"
+  shouldDisplayBody={true}
   body={<>
     ## Hey John
 
 Make sure your office is clean when clients come in - you might scare them away with all that mess :)
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />

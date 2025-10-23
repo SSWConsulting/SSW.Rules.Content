@@ -88,6 +88,7 @@ Another scenario is when you've found something you should work on, but don't ha
   cc="Adam, Uly, Dave"
   bcc=""
   subject="Add a bad example to Rules to Better UI - Progress bar"
+  shouldDisplayBody={true}
   body={<>
     ## To myself
 
@@ -97,11 +98,11 @@ As per my conversation with Lei, the rule on progress bars &#123;&#123;link&#125
 
 It's estimated to take **2 hours** and I'll make it my #1 priority on the next Sprint, starting tomorrow
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Send yourself an email with estimate and prioritization",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -110,6 +111,7 @@ It's estimated to take **2 hours** and I'll make it my #1 priority on the next S
   cc="Adam, Uly"
   bcc=""
   subject="RE: Add a bad example to Rules to Better UI - Progress bar"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Lei
 
@@ -117,9 +119,9 @@ It's estimated to take **2 hours** and I'll make it my #1 priority on the next S
 
 Done - This change has been made and can be found at &#123;&#123; URL &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Replying to a 'To myself' email showing done evidence and correctly replying to the person who requested the task",
     shouldDisplay: true
-  } }
+  }}
 />

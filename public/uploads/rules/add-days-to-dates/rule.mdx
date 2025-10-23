@@ -37,6 +37,7 @@ To ensure complete clarity, you should always include the **day of the week** al
   cc="Uly"
   bcc=""
   subject="Penny - Working from the Sydney office for 3 days"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Sydney team
 
@@ -45,11 +46,11 @@ I'll be visiting your office for 3 days (**16th** to **18th September**) to run 
 Looking forward to seeing you all!
 Penny
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - The team know what dates you're coming, but it's not clear in which days of the week",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -58,6 +59,7 @@ Penny
   cc="Uly"
   bcc=""
   subject="Penny - Working from the Sydney office for 3 days"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Sydney team
 
@@ -66,11 +68,11 @@ I'll be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) t
 Looking forward to seeing you all!
 Penny
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Having the day of the week next to the date makes it easy for the team to know exactly when you're visting",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ---
