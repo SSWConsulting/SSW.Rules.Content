@@ -19,8 +19,8 @@ index:
 - where-to-find-nice-icons
 - do-you-use-text-rather-than-images-where-appropriate
 - do-you-know-how-to-use-balloons-in-screenshots-for-instructions
-- do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots
 - readable-screenshots
+- hide-visual-clutter-in-screenshots
 - do-you-use-image-styles-to-ensure-great-looking-content
 - do-you-use-image-sprites-to-reduce-http-requests
 - do-you-add-width-and-height-properties-to-images-in-user-controls
