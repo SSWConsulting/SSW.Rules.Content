@@ -68,7 +68,7 @@ This isn't prescriptive, just a pattern to be aware of.
 
 ### What actually helps
 
-#### Show the uncertainty
+#### Show error rates clearly
 
 Replace vague disclaimers with bold numbers where possible:  
 
