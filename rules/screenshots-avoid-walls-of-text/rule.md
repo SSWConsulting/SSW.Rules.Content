@@ -15,6 +15,7 @@ related:
   - screenshots-add-branding
   - screenshots-tools
   - use-images-to-replace-words
+  - hide-visual-clutter-in-screenshots
 redirects:
   - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
