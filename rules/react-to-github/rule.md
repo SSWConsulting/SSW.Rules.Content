@@ -1,11 +1,8 @@
 ---
 type: rule
 tips: ""
-title: Do you know why reacting to GitHub Issues/PRs/Discussions is cool?
-seoDescription: "Reactions on GitHub Issues and Discussions help convey
-  sentiment, showing agreement, excitement, or the need for further discussion.
-  This keeps issue threads clear while helping maintainers prioritize
-  efficiently. "
+title: Do you know why reacting and voting on GitHub matters?
+seoDescription: "Reactions and voting on GitHub Issues and Discussions help convey sentiment, showing agreement, excitement, or the need for further discussion. This keeps issue threads clear while helping maintainers prioritize efficiently."
 uri: react-to-github
 authors:
   - title: Adam Cogan
