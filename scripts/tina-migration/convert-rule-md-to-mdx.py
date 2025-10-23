@@ -637,15 +637,15 @@ def transform_email_blocks(content: str) -> str:
   cc={cc_js}
   bcc={bcc_js}
   subject={subject_js}
-  shouldDisplayBody={should_display_body_js}
-  body={{{{<>
+  shouldDisplayBody={{{should_display_body_js}}}
+  body={{<>
     {cleaned_body}
-  </>}}}}
-  figureEmbed={{{{ {{{{
+  </>}}
+  figureEmbed={{{{
     preset: "{preset}",
     figure: {figure_js},
     shouldDisplay: {should_display_js}
-  }}}} }}}}
+  }}}}
 />'''
 
         out.append(embed)
