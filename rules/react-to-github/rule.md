@@ -20,7 +20,7 @@ guid: 5f9318b8-fae1-4c5a-b829-3047d7744191
 
 ---
 
-Reacting to GitHub Issues, PRs, and Discussions is a simple yet powerful way to show that you've seen and acknowledged a task, report or suggestion.
+Reacting to GitHub Issues, PRs, and Discussions is a simple yet powerful way to show that you've seen and acknowledged a task, report or suggestion. 
 
 These reactions allow teams to give and get quick feedback, gauge consensus, and stay engaged without cluttering conversations or triggering extra notifications.
 
@@ -28,7 +28,7 @@ These reactions allow teams to give and get quick feedback, gauge consensus, and
 
 For GitHUb Issues, [react with a 👍 (like) to show you have read and agree](react-to-reviewed-pbis). If you don’t agree with it, use a 👎 (dislike) with a quick comment to explain the reasons.
 
-::: img-medium
+:::
 ![Figure: A simple reaction let others know you read and acknowledged some feedback](github-reaction.png)
 :::
 
@@ -36,13 +36,13 @@ Feel free to use other reactions like 👀 or ❤️ to keep discussions more en
 
 ## Vote up on GitHub Discussions
 
-With GitHub Discussions, voting up adds an extra layer of valuable feedback. Maintainers can see what the community prioritizes most, making it easier to focus on high-impact requests.
+With GitHub Discussions, voting up adds an extra layer of valuable feedback. Maintainers can see what the community prioritizes most, making it easier to focus on high-impact requests. 
 
 :::
 ![Votes help streamline decision-making and ensure that development aligns with user needs](github-vote-up.png)
 :::
 
-By usiong this simple interactions to GitHub Issues and Discussions, teams create a more responsive and organized backlog, strengthening collaboration and keeping the project moving forward.
+By using these simple reactions in GitHub Issues and Discussions, teams make their backlog more responsive and organized, improve collaboration, and keep the project moving forward.
 
 ::: info
 **Note:** For more detailed feedback, **comments** are the best way to provide deeper insights and should be encouraged.
