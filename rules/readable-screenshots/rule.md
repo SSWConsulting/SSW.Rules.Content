@@ -53,7 +53,7 @@ To reduce white space and make screenshots easier better to capture, resize the 
 :::
 
 ::: good
-![Figure: Good example - Screen resized to the relevant part](screenshot-whitespace-bad.png)
+![Figure: Good example - Screen resized to the relevant part](screenshot-whitespace-good.png)
 :::
 
 ## Mobile screenshots
@@ -64,10 +64,14 @@ Modern mobile devices have extraordinary screen resolution, which makes screensh
 
 When adding a mobile screenshot, make sure its width is about 50% of a desktop screen.
 
+::: info
+**Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp). 
+:::
+
 ::: bad
 ![Figure: Bad Example - mobile screenshot is way too big](privacy-mode-ios-huge.png)
 :::
 
-::: good
+::: good img-medium
 ![Figure: Good Example - mobile screenshot is smaller and easier to follow](privacy-mode-ios.png)
 :::
