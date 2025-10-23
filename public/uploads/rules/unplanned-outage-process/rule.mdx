@@ -93,6 +93,7 @@ If from the previous discussion you have determined that an email needs to be se
   cc=""
   bcc=""
   subject="SysAdmins – Outage Notice"
+  shouldDisplayBody={true}
   body={<>
     ## Hi All
 
@@ -107,11 +108,11 @@ We are working on restoring these services and will keep you updated.
 Thank you,
 SysAdmins
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
@@ -122,6 +123,7 @@ A separate email needs to be sent to SysAdmins outlining what was discussed on t
   cc=""
   bcc=""
   subject="SysAdmins – Outage Notice"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Team
 
@@ -152,11 +154,11 @@ The next steps to resolving this are:
 Thank you,
 SysAdmin
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 ### Next steps did NOT resolve the issue

@@ -35,6 +35,7 @@ The best practice is to jump into Power BI and build the report yourself.
   cc=""
   bcc=""
   subject="Report needed"
+  shouldDisplayBody={true}
   body={<>
     ## Dear boss
 
@@ -44,11 +45,11 @@ I suggest adding this into our Performance Point Cube so I could find it at a UR
 
 Dave
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Can't build it yourself, sending an email to your boss for a number",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <imageEmbed

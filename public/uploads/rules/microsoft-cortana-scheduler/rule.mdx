@@ -59,6 +59,7 @@ Open an email... not an appointment!
   cc="Cortana"
   bcc=""
   subject="Talk about Northwind project"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -68,11 +69,11 @@ We need to talk about Northwind project.
 
 ==Cortana, schedule a meeting.==
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "after your message, add some request to Cortana as you would a PA",
     shouldDisplay: true
-  } }
+  }}
 />
 
 Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.

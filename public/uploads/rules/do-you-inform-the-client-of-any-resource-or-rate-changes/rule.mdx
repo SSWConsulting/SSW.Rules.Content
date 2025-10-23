@@ -38,6 +38,7 @@ We have standard templates for these situations in our intranet shared documents
   cc=""
   bcc=""
   subject="Notice of change to Scott’s rates"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; CLIENT NAME &#125;&#125;,
 
@@ -55,11 +56,11 @@ I trust you've been happy with Scott's contribution to your project so far.
 
 Let me know if you have any questions; always happy to talk.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Email informing the client about an individual rate change",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -68,6 +69,7 @@ Let me know if you have any questions; always happy to talk.
   cc=""
   bcc=""
   subject="&#123;&#123; CLIENT NAME &#125;&#125; - Notice of change to SSW rates"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; CLIENT NAME &#125;&#125;,
 
@@ -81,9 +83,9 @@ After careful consideration, we've decided to increase SSW’s rates by $&#123;&
 
 Thank you for all the work you’ve done with us, and we look forward to doing much more with you in the years to come.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Email informing the client about a company-wide rate change",
     shouldDisplay: true
-  } }
+  }}
 />

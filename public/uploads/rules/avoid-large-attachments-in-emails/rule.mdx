@@ -59,6 +59,7 @@ Some email clients may prompt you to resize images before sending, but if they d
   cc=""
   bcc=""
   subject="Northwind app - New artwork"
+  shouldDisplayBody={true}
   body={<>
     ## Dear Bob
 
@@ -67,11 +68,11 @@ Thank you for spending time with us to come to a better understanding of your bu
 Regards,
 Dave
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Sending a large attachment",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -80,6 +81,7 @@ Dave
   cc=""
   bcc=""
   subject="Northwind app - New artwork"
+  shouldDisplayBody={true}
   body={<>
     ## Dear Bob
 
@@ -90,11 +92,11 @@ PS: Sending the image as a link as it is too big to attach.
 Regards,
 Dave
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Sending a link instead of an attachment",
     shouldDisplay: true
-  } }
+  }}
 />
 
 

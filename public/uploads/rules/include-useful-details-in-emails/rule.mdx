@@ -76,16 +76,17 @@ Finally, in the very unlikely case that the code repository and backup goes corr
   cc=""
   bcc=""
   subject="RE: Northwind - Include one more field to the form"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
 Done on the contact page
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - \"Done\" email lacks details",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -94,6 +95,7 @@ Done on the contact page
   cc=""
   bcc=""
   subject="RE: Northwind - Include one more field to the form"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
@@ -109,11 +111,11 @@ To:
 
 &#123;&#123; NEW CODE &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - \"Done\" email has a link, a screenshot (showing the URL), and code changes",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### More useful details to include

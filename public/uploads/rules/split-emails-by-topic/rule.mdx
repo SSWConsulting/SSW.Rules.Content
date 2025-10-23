@@ -52,6 +52,7 @@ If you have a list of things to be done, and find that your requests are **not**
   cc=""
   bcc=""
   subject="Northwind website domain change and CSS fixes"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Steven
 
@@ -61,11 +62,11 @@ If you have a list of things to be done, and find that your requests are **not**
 4. Make sure all the fonts are consistent
 5. Make the headings bold
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - One email for multiple unrelated tasks (domains vs styling)",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -74,6 +75,7 @@ If you have a list of things to be done, and find that your requests are **not**
   cc=""
   bcc=""
   subject="Northwind website domain change"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Steven
 
@@ -81,11 +83,11 @@ If you have a list of things to be done, and find that your requests are **not**
 2. Migrate all the content from **Northwind.com.au** to **Northwind.com**
 3. Set up a 301 redirect from **Northwind.com.au** to **Northwind.com**
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 <emailEmbed
   from=""
@@ -93,17 +95,18 @@ If you have a list of things to be done, and find that your requests are **not**
   cc=""
   bcc=""
   subject="Northwind website CSS fixes"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Steven
 
 1. Make sure all the fonts are consistent
 2. Make the headings bold
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Separate emails for unrelated tasks. A few related tasks in the same email",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ## Break up monster tasks

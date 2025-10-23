@@ -129,16 +129,17 @@ Using the Work Item discussion provides several benefits to developers on the te
   cc="Development Team"
   bcc=""
   subject="Project - Work Item Update"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
 As per our conversation, the primary button colour does not conform with the Northwind branding. The colour will be updated to #CC4141.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Sending an email to confirm updates to the work item",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <imageEmbed

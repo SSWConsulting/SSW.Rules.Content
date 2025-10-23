@@ -32,6 +32,7 @@ OK, once a project gets going, you can end up dealing with many people on the cl
   cc="Sophie"
   bcc=""
   subject="Changes Requested by Sophie"
+  shouldDisplayBody={true}
   body={<>
     (CC'ing the Product Owner Bob)
 
@@ -48,11 +49,11 @@ John
 
 [www.ssw.com.au](http://www.ssw.com.au/)
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Sample Change Request Confirmation email",
     shouldDisplay: true
-  } }
+  }}
 />
 
 So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.

@@ -47,6 +47,7 @@ All this information is important as it gives the next salesperson who speaks to
   cc=""
   bcc=""
   subject="Talk soon"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Marlon
 
@@ -54,11 +55,11 @@ As per our conversation, I look forward to seeing you at the SharePoint 101 work
 
 Feel free to contact me for more information.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad Example - The next time you call you will NOT 'remember' any details of the client and have to start COLD again",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -67,6 +68,7 @@ Feel free to contact me for more information.
   cc=""
   bcc=""
   subject="TFS upgrade"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Marlon
 
@@ -84,9 +86,9 @@ I have also included information on our seminars below just in case anyone was i
 
 Feel free to contact me for more information.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />

@@ -53,16 +53,17 @@ Watch the video below and see how a single email can make your job easier.
   cc=""
   bcc=""
   subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
   body={<>
     ## Hi John
 
 ==As per our conversation,== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Using \"As per our conversation\" email",
     shouldDisplay: true
-  } }
+  }}
 />
 
 This is not just a 'cover my ass' email. This is for several reasons:
@@ -124,16 +125,17 @@ In this case, it's still important to record everything in an email, starting w
   cc=""
   bcc=""
   subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
   body={<>
     ## Hi John
 
 ==I tried calling you but didn't get through.== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Email when you can't reach the person by calling",
     shouldDisplay: true
-  } }
+  }}
 />
 
 You should also send a quick message on Microsoft Teams with a brief summary of the decision you made, referencing the email you sent about the decision.
@@ -161,6 +163,7 @@ When you have an image or other information, remember to keep the main reason te
   cc=""
   bcc=""
   subject="RE: PowerBi error"
+  shouldDisplayBody={true}
   body={<>
     ## Hi John
 
@@ -170,11 +173,11 @@ When you have an image or other information, remember to keep the main reason te
 
 1. ==Can you fix this?==
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Reason at the bottom",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -183,6 +186,7 @@ When you have an image or other information, remember to keep the main reason te
   cc=""
   bcc=""
   subject="RE: PowerBi error"
+  shouldDisplayBody={true}
   body={<>
     ## Hi John
 
@@ -192,11 +196,11 @@ When you have an image or other information, remember to keep the main reason te
 
 ![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Reason at the top",
     shouldDisplay: true
-  } }
+  }}
 />
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

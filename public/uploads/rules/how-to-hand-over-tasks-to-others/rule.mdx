@@ -58,6 +58,7 @@ Always make sure you clearly reallocate a task with an email to the person who w
   cc="David"
   bcc=""
   subject="RE: Northwind app update"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -78,11 +79,11 @@ As per our conversation about Northwind app, it keeps crashing when I do a searc
 
 1. Please fix
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Task not directly reallocated",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -91,6 +92,7 @@ As per our conversation about Northwind app, it keeps crashing when I do a searc
   cc="Bob"
   bcc=""
   subject="RE: Northwind app update"
+  shouldDisplayBody={true}
   body={<>
     ## Hi David
 
@@ -113,11 +115,11 @@ As per our conversation about Northwind app, it keeps crashing when I do a searc
 
 1. Please fix
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Clear reassignment from Andy to David",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ## Handing over employee's responsibilities
@@ -135,6 +137,7 @@ If you are handing over an employee responsibility using an intranet, you should
   cc="&#123;&#123; MANAGER &#125;&#125;"
   bcc=""
   subject="SSW.Admin - Scheduling .NET User Groups handover"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Mary
 
@@ -150,9 +153,9 @@ Andy
 
 \&lt;As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)&gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Clear reassignment from Andy to Mary",
     shouldDisplay: true
-  } }
+  }}
 />
