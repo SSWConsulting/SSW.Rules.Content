@@ -44,7 +44,7 @@ Structure & learn your content well and then rehearse the delivery for a given a
 `youtube: https://youtu.be/V8eLdbKXGzk`
 
 ::: bad
-Video: Bad example – Ill prepared and low energy. They shows you how to fix it though (5 min)
+Video: Bad example – Ill prepared and low energy. They show you how to fix it, though (5 min)
 :::
 
 `youtube: https://youtu.be/nPIAiPhKtvc`
