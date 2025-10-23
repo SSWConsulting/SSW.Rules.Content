@@ -542,21 +542,56 @@ def process_custom_aside_blocks(content):
 
 
 def transform_email_blocks(content: str) -> str:
-    base_pat = re.compile(
+    # First, handle email templates WITHOUT email-content (body-less templates)
+    no_body_pat = re.compile(
+        r'::: email-template\s+(.*?)'
+        r':::\s*(?=\n)',
+        re.DOTALL
+    )
+
+    # Then, handle email templates WITH email-content
+    with_body_pat = re.compile(
         r'::: email-template\s+(.*?)'
         r'::: email-content\s+(.*?)'
         r':::\s+:::',
         re.DOTALL
     )
 
+    # Process all email templates in order
+    all_matches = []
+
+    # Find all matches with body
+    for m in with_body_pat.finditer(content):
+        all_matches.append(('with_body', m))
+
+    # Find all matches without body
+    for m in no_body_pat.finditer(content):
+        # Check if this match is not part of a with_body match
+        is_part_of_with_body = False
+        for match_type, other_m in all_matches:
+            if match_type == 'with_body' and m.start() >= other_m.start() and m.end() <= other_m.end():
+                is_part_of_with_body = True
+                break
+        if not is_part_of_with_body:
+            all_matches.append(('no_body', m))
+
+    # Sort by start position
+    all_matches.sort(key=lambda x: x[1].start())
+
     out = []
     idx = 0
 
-    for m in base_pat.finditer(content):
+    for match_type, m in all_matches:
         out.append(content[idx:m.start()])
 
         table = m.group(1)
-        body  = m.group(2).strip()
+
+        if match_type == 'with_body':
+            body = m.group(2).strip()
+            should_display_body = True
+        else:
+            body = ""
+            should_display_body = False
 
         tail = content[m.end():]
 
@@ -584,7 +619,7 @@ def transform_email_blocks(content: str) -> str:
                 consumed = fig_m.end()
 
         email_data = parse_email_table(table)
-        cleaned_body = clean_email_body(body)
+        cleaned_body = clean_email_body(body) if body else ""
 
         from_js    = js_string(email_data['from'])
         to_js      = js_string(email_data['to'])
@@ -593,20 +628,24 @@ def transform_email_blocks(content: str) -> str:
         subject_js = js_string(email_data['subject'])
         figure_js  = js_string(figure_text if figure_text else "Example")
 
+        should_display_body_js = "true" if should_display_body else "false"
+        should_display_js = "true" if should_display else "false"
+
         embed = f'''<emailEmbed
   from={from_js}
   to={to_js}
   cc={cc_js}
   bcc={bcc_js}
   subject={subject_js}
-  body={{<>
+  shouldDisplayBody={should_display_body_js}
+  body={{{{<>
     {cleaned_body}
-  </>}}
-  figureEmbed={{ {{
+  </>}}}}
+  figureEmbed={{{{ {{{{
     preset: "{preset}",
     figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+    shouldDisplay: {should_display_js}
+  }}}} }}}}
 />'''
 
         out.append(embed)
