@@ -32,10 +32,12 @@ There is a myriad of options to choose from when storing and sharing documents: 
 Warwick Leahy tells us why it's so important to save our files in the right place:
 
 `youtube: https://www.youtube.com/embed/Ey_zIh0cRrU`
+**Video: Store your notes in Microsoft Teams with Warwick Leahy (2 min)**
 
 Want to learn more? Watch Jean Thirion's longer video on this topic:
 
 `youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
+**Video: Microsoft Teams and Dynamics 365 - You won't believe where you should store your documents! (4 min)**
 
 ::: bad
 ![Figure: Bad example - You shouldn't look for files on network shares](teams - network share.png)
@@ -69,37 +71,38 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 ![Figure: Good example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](teams - sync onedrive.png)
 :::
 
-::: greybox
-**Note**
-If you realise later that you have created a client document and uploaded it to OneDrive instead of saving it to Teams, then you should Sync Teams to your drive and copy the file locally. This will keep the file version history. Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
+::: info
+**Note:** If you realize later that you have created a client document and uploaded it to OneDrive instead of saving it to Teams, then you should Sync Teams to your drive and copy the file locally. This will keep the file version history. Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
 :::
 
-### What does not get stored in Microsoft Teams?
+**Note:** Although you can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc... this is **not** recommended, as they aren't first-class citizens (i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams).
 
-#### For developers
+## What does not get stored in Microsoft Teams?
 
-- Code obviously belongs in GitHub, Azure DevOps, etc
-- The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+### For developers
 
-#### For designers
+* Code obviously belongs in GitHub, Azure DevOps, etc
+* The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
-- For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
+### For designers
 
-### What about usernames and passwords?
-
-Documents with usernames and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords.
-
-**Note:** API keys, whether generic or for the individual should also be stored in a password manager.
-
-**Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc. This is not recommended, as they aren't first-class citizens (i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams).
+* For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
 
 ::: info
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
 
-- No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
-- No support for private channels. E.g. You will need a team per subset of users with different permissions
-- No direct access to version history from Teams UI (still exists on SharePoint UI)
-- No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
-- No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
-- No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+* No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
+* No support for private channels. E.g. You will need a team per subset of users with different permissions
+* No direct access to version history from Teams UI (still exists on SharePoint UI)
+* No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
+* No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
+* No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+:::
+
+## What about usernames and passwords?
+
+Documents with usernames and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords.
+
+::: info
+**Note:** API keys, whether generic or for the individual should also be stored in a password manager.
 :::
