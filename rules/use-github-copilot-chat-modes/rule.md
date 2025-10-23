@@ -31,8 +31,6 @@ Define a Chat Mode once (YAML front matter + system instructions) and save it in
 ![Figure: Good example - Chat Mode Picker in VS Code](chat-mode-picker.png)
 :::
 
-
-
 ## How to Implement
 
 1. Identify repetitive high‑value conversations (e.g. PBI creation, writing release notes, drafting sprint review emails, generating API docs, refactoring safety checks).
