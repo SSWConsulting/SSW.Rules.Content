@@ -16,7 +16,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Piers Sinclair
   url: https://ssw.com.au/people/piers-sinclair
-related: []
+related:
+- react-and-vote-on-github
 redirects: []
 ---
 
