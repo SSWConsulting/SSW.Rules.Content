@@ -10,7 +10,7 @@ authors:
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
 related:
-  - react-to-github
+  - react-and-vote-on-github
   - 3-steps-to-a-pbi
   - meaningful-chat-reactions
 guid: 8b99aae2-c351-4eca-a46d-0e29eb91733c
