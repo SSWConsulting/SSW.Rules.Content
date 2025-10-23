@@ -8,6 +8,7 @@ index:
 - use-email-for-tasks-only
 - reply-done
 - include-links-in-dones
+- done-email-for-bug-fixes
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
@@ -37,7 +38,6 @@ index:
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - avoid-large-attachments-in-emails
-- how-to-do-a-perfect-done
 - avoid-replying-to-all-when-bcced
 - email-add-or-remove-someone-from-conversation
 - replying-in-the-same-medium
