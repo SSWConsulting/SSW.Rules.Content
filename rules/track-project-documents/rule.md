@@ -81,22 +81,22 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 
 ### For developers
 
-- Code obviously belongs in GitHub, Azure DevOps, etc
-- The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+* Code obviously belongs in GitHub, Azure DevOps, etc
+* The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
 ### For designers
 
-- For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
+* For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
 
 ::: info
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
 
-- No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
-- No support for private channels. E.g. You will need a team per subset of users with different permissions
-- No direct access to version history from Teams UI (still exists on SharePoint UI)
-- No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
-- No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
-- No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+* No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
+* No support for private channels. E.g. You will need a team per subset of users with different permissions
+* No direct access to version history from Teams UI (still exists on SharePoint UI)
+* No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
+* No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
+* No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
 :::
 
 ## What about usernames and passwords?
