@@ -43,13 +43,13 @@ Structure & learn your content well and then rehearse the delivery for a given a
 `youtube: https://youtu.be/V8eLdbKXGzk`
 
 ::: bad
-Figure: Bad example – Ill prepared and low energy. They shows you how to fix it though
+Figure: Bad example – Ill prepared and low energy. They shows you how to fix it though (YouTube: 5 min)
 :::
 
 `youtube: https://youtu.be/nPIAiPhKtvc`
 
 ::: good
-Figure: Good example - A well prepared presentation with an excellent delivery
+Figure: Good example - A well prepared presentation with an excellent delivery (YouTube: 1 hr 9 min)
 :::
 
 ## Be understood
@@ -79,8 +79,17 @@ A good way to achieve a strong delivery is to avoid using filler and non-words. 
 `youtube: https://youtu.be/mlDAO7DgJNk?si=17Dci0Ub-z_oZOE6`
 
 ::: good
-Figure: Good example - Using silence to strengthen your message
+Figure: Good example - Using silence to strengthen your message (YouTube: 1 min)
 :::
+
+## Use AI to help you prepare
+AI can be useful for both preparing and testing your presentation. While never a substitute for a real human, it can be a sounding board for general structure, talking points, and flow. Use it to help build your first draft, before putting it in front of other subject matter experts (SMEs) for feedback.
+
+### AI practice tools
+While the usual suspects (GPT, Claude, etc.) are good for content and structure, they can't assess or provide feedback on your performance. Instead, you should use more presentation-specific tooling that can measure your delivery, tone, and eye contact. Some useful tools in this area are:
+
+- [Microsoft Speaker Coach](https://support.microsoft.com/en-au/office/rehearse-your-slide-show-with-speaker-coach-cd7fc941-5c3b-498c-a225-83ef3f64f07b)
+- [Yoodli](https://yoodli.ai/)
 
 ::: info
 **Extra tips:** Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https://www.pluralsight.com/courses/hanselman-speaking).
