@@ -1,7 +1,8 @@
 ---
-seoDescription: Master the art of crafting and delivering engaging presentations with proven tips and strategies for confident and effective communication
 type: rule
 title: Do you craft and deliver engaging presentations?
+seoDescription: Master the art of crafting and delivering engaging presentations
+  with proven tips and strategies for confident and effective communication
 uri: craft-and-deliver-engaging-presentations
 authors:
   - title: Ulysses Maclaren
@@ -81,6 +82,10 @@ A good way to achieve a strong delivery is to avoid using filler and non-words. 
 ::: good
 Video: Good example - Using silence to strengthen your message (1 min)
 :::
+
+## Engage your audience
+
+Ask your audience questions audience members questions during your presentation. Even simple yes or no questions can make the audience feel like they're part of the conversation. For example, consider asking for a show of hands.
 
 ## Use AI to help you prepare
 
