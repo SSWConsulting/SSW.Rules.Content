@@ -11,6 +11,7 @@ authors:
 related:
   - screenshots-avoid-walls-of-text
   - screenshots-tools
+  - hide-visual-clutter-in-screenshots
 redirects:
   - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
   - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
