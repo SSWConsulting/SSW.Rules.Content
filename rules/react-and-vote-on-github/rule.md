@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know why reacting and voting on GitHub matters?
 seoDescription: "Reactions and voting on GitHub Issues and Discussions help convey sentiment, showing agreement, excitement, or the need for further discussion. This keeps issue threads clear while helping maintainers prioritize efficiently."
-uri: react-to-github
+uri: react-and-vote-on-github
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
