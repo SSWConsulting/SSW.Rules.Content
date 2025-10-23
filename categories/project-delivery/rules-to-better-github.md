@@ -30,7 +30,8 @@ index:
   - override-branch-protection
   - use-github-discussions
   - use-github-topics
-  - react-to-github
+  - react-and-vote-on-github
+  - react-to-reviewed-pbis
   - use-github-teams-for-collaborator-permissions
   - github-mobile
   - how-to-view-activity-traffic-and-contributions-of-a-project
