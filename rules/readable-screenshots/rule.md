@@ -20,7 +20,7 @@ guid: 6011c97c-6bb6-4ddc-a627-8f5238405baa
 
 ---
 
-creenshots are a great way to explain instructions or share information, but if they’re blurry or too small, they quickly become useless. With so many different devices, screens, and resolutions, unreadable screenshots are a common mistake.
+Screenshots are a great way to explain instructions or share information, but if they’re blurry or too small, they quickly become useless. With so many different devices, screens, and resolutions, unreadable screenshots are a common mistake.
 
 Always check that your screenshots are clear, properly cropped, and readable. If people can’t see what you’re showing, your message gets lost.
 
