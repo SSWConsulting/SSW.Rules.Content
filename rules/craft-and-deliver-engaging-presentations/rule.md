@@ -43,13 +43,13 @@ Structure & learn your content well and then rehearse the delivery for a given a
 `youtube: https://youtu.be/V8eLdbKXGzk`
 
 ::: bad
-Figure: Bad example – Ill prepared and low energy. They shows you how to fix it though (YouTube: 5 min)
+Video: Bad example – Ill prepared and low energy. They shows you how to fix it though (5 min)
 :::
 
 `youtube: https://youtu.be/nPIAiPhKtvc`
 
 ::: good
-Figure: Good example - A well prepared presentation with an excellent delivery (YouTube: 1 hr 9 min)
+Video: Good example - A well prepared presentation with an excellent delivery (1 hr 9 min)
 :::
 
 ## Be understood
@@ -79,7 +79,7 @@ A good way to achieve a strong delivery is to avoid using filler and non-words. 
 `youtube: https://youtu.be/mlDAO7DgJNk?si=17Dci0Ub-z_oZOE6`
 
 ::: good
-Figure: Good example - Using silence to strengthen your message (YouTube: 1 min)
+Video: Good example - Using silence to strengthen your message (1 min)
 :::
 
 ## Use AI to help you prepare
