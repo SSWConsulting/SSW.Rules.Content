@@ -11,10 +11,10 @@ authors:
 related:
   - add-useful-and-concise-figure-captions
   - add-context-reasoning-to-emails
+  - readable-screenshots
   - screenshots-add-branding
   - screenshots-tools
   - use-images-to-replace-words
-  - do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots
 redirects:
   - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
