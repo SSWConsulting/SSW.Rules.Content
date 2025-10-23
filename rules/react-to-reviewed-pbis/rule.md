@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you review PBIs and react with 👍 or 👎?
+title: Do you review PBIs and react with 👍?
 seoDescription: Review Issues and PBIs by reacting with 👍 or 👎 to show you've read them. Especially important for YakShaver-created items.
 uri: react-to-reviewed-pbis
 authors:
