@@ -65,7 +65,7 @@ Modern mobile devices have extraordinary screen resolution, which makes screensh
 When adding a mobile screenshot, make sure its width is about 50% of a desktop screen.
 
 ::: info
-**Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp). 
+**Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp).
 :::
 
 ::: bad
