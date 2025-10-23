@@ -19,7 +19,7 @@ Without a chat mode, individuals might copy/paste prompts . Important acceptance
 
 <!--endintro-->
 
-## The Solution – Custom Chat Modes
+## The solution – Custom Chat Modes
 
 Define a Chat Mode once (YAML front matter + system instructions) and save it in your repos source control so the entire team sees it. The team can then:
 
@@ -28,21 +28,21 @@ Define a Chat Mode once (YAML front matter + system instructions) and save it in
 3. Executes consistent, reviewed guidance every time
 
 ::: good
-![Figure: Good example - Chat Mode Picker in VS Code](chat-mode-picker.png)
+![Figure: Good example - Chat Mode picker in VS Code](chat-mode-picker.png)
 :::
 
-## How to Implement
+## How to implement
 
-1. Identify repetitive high‑value conversations (e.g. PBI creation, writing release notes, drafting sprint review emails, generating API docs, refactoring safety checks).
-2. Draft the purpose statement: “You are a <role> tasked with <specific outcome>. Produce <clear deliverable>.” Keep it concise.
-3. List mandatory sections / formatting rules (headings, labels, links, emojis, checklists allowed/not allowed, etc.).
-4. Add governance links (e.g. [Definition of Done](/definition-of-done), coding standards, security checklist) using durable URLs from the repo (relative paths where possible).
-5. Specify guardrails: what NOT to do (e.g. “Do not include the title in the body”, “Never guess requirements – ask clarifying questions first”).
-6. Declare required tools in the `tools:` array (only those needed – too many tools confuses the model).
+1. Identify repetitive high‑value conversations (e.g. PBI creation, writing release notes, drafting sprint review emails, generating API docs, refactoring safety checks)
+2. Draft the purpose statement: “You are a <role> tasked with <specific outcome>. Produce <clear deliverable>.” Keep it concise
+3. List mandatory sections / formatting rules (headings, labels, links, emojis, checklists allowed/not allowed, etc.)
+4. Add governance links (e.g. [Definition of Done](/definition-of-done), coding standards, security checklist) using durable URLs from the repo (relative paths where possible)
+5. Specify guardrails: what NOT to do (e.g. “Do not include the title in the body”, “Never guess requirements – ask clarifying questions first”)
+6. Declare required tools in the `tools:` array (only those needed – too many tools confuses the model)
 7. Pick a model (optional)
-8. Save the mode in a `.github/chatmodes/` folder with a file name like `create-pbi.chatmode.md`.
+8. Save the mode in a `.github/chatmodes/` folder with a file name like `create-pbi.chatmode.md`
 
-### Example - PBI Creation Mode
+### Example - PBI creation
 
 ```markdown
 ---
