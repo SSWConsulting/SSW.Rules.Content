@@ -73,7 +73,7 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 * Make destructive buttons less prominent (except when the primary purpose is deletion)
 
 ::: bad  
-![Figure: Bad example - "Delete" and "Save" are too close together. (can lead to accidental clicks)](destruction-button-bad-positioning.png)
+![Figure: Bad example - "Delete" and "Save" are too close together, which can lead to accidental clicks](destruction-button-bad-positioning.png)
 :::
 
 ::: good  
