@@ -22,13 +22,13 @@ Promoting your application and business via social media can be extremely benefi
 
 <!--endintro-->
 
-- Target platforms for the countries in which you’ll have either e-commerce or on-the-ground presence. e.g. Facebook/Rednote, Twitter/Weibo, TikTok/Douyin.
-- Understand the specific social media websites and craft the message for each language. Always localize, don’t just translate. Google Translate just isn't good enough; always give it to a native speaker to translate (LLMs are getting much better, but still need a human to do the final check).
-- Don't make the text longer than what the shortest supported is (usually Twitter which is 140 characters).
-- Studies show that posts with an image get more traction.
-- Post it to the English site.
-- Then post it to the Chinese site.
-- Great, now you are ready to post to all of the social media platforms simultaneously.
+* Target platforms for the countries in which you’ll have either e-commerce or on-the-ground presence. e.g. Facebook/Rednote, Twitter/Weibo, TikTok/Douyin.
+* Understand the specific social media websites and craft the message for each language. Always localize, don’t just translate. Google Translate just isn't good enough; always give it to a native speaker to translate (LLMs are getting much better, but still need a human to do the final check).
+* Don't make the text longer than what the shortest supported is (usually Twitter which is 140 characters).
+* Studies show that posts with an image get more traction.
+* Post it to the English site.
+* Then post it to the Chinese site.
+* Great, now you are ready to post to all of the social media platforms simultaneously.
 
 ![Figure: Make sure that your social media presence covers the countries you have translated your application into. E.g. Link Auditor on Weibo (A local social media, China’s Twitter replacement)](Weibo.jpg)
 
