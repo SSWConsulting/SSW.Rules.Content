@@ -64,7 +64,7 @@ For more information read about [identifying your audience knowledge level](http
 
 Gain repeated exposure to high-pressure situations - staying cool and dealing with problems as they arise without derailing yourself or the audience.
 
-![](picture3.jpg)
+![Figure: The only way to get comfortable speaking... is to start speaking](picture3.jpg)
 
 ## Know mistakes happen and that's OK
 
