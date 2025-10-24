@@ -13,6 +13,8 @@ redirects: []
 ---
 Markdown and MDX are closely related — think of MDX as Markdown’s more powerful sibling. Markdown keeps things simple and readable, while MDX extends it to handle interactive and dynamic content using React (or other component frameworks).
 
+[TinaCMS](https://tina.io) is a great tool to build your site in MDX.
+
 <!--endintro-->
 
 [View MD & MDX examples](/rule).
