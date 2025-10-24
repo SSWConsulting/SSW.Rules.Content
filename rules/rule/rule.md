@@ -24,7 +24,7 @@ guid: 55db32aa-0718-4868-995c-673d8dd69f62
 
 SSW Rules are **technical documentation** presented as practical guidelines that help teams build better software and work more effectively. They capture best practices across coding, architecture, communication, design and project management, making them a living knowledge base that supports consistency, clarity and quality in every project.
 
-This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule.
+This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
 
 <!--endintro-->
 
