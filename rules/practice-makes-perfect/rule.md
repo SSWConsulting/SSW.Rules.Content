@@ -12,6 +12,7 @@ authors:
     url: https://www.ssw.com.au/people/gordon-beeming
 related:
   - conduct-a-test-please
+  - craft-and-deliver-engaging-presentations
 redirects:
   - practise-makes-perfect
 created: 2022-06-29T21:46:41.000Z
@@ -28,7 +29,7 @@ You need to practice it so that you know your stuff backwards as well as forward
 `youtube: https://youtu.be/jPwNwNdE7pE`
 
 ::: good
-**Figure: Good example - You need to practice your content forwards and backwards to be as good as Victor Borge.**
+**Video: Good example - Practice your content forwards and backwards to be as good as Victor Borge**
 :::
 
 These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh Giang](https://www.vinhgiang.com/)):
@@ -39,10 +40,6 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
    * Are you pausing appropriately?
    * Voice stressing/pausing on important points?
    * Are you too loud/too soft?
-
-::: info
-Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when practising.
-:::
 
 3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio)
 
@@ -55,20 +52,16 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
    * Cut off the unwanted words that do not add meaning
    * Identify how many times you use "umms", "you know", and repetitive words that we all have a habit of using
 
-::: info
-Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted words.
-:::
-
 5. Practice by cutting out unnecessary repetition and filler words
 
 ## PowerPoint's "Rehearse with Coach"
 
-You can use PowerPoint's built-in AI "Rehearse with Coach" to get help with some of the above. It gives you instant feedback on how fast you are talking and what language you are using, so you can avoid unwanted words. In the video below Mike Tholfsen shows you how to use the feature and what feedback you get.
+You can use PowerPoint's built-in AI "Rehearse with Coach" to get help with some of the above. It gives you **instant feedback** on how fast you are talking and what language you are using, so you can **avoid unwanted words**. In the video below Mike Tholfsen shows you how to use the feature and what feedback you get.
 
 `youtube: https://youtu.be/tGkANWhoo0Y`
 **Video: How to use Presenter Coach in PowerPoint for the web (2 min)**
 
-To get started you'll need a Microsoft PowerPoint presentation. Click the Slide Show tab | Rehearse with Coach | Start Rehearsing.
+To get started you'll need a Microsoft PowerPoint presentation. Click the tab **Slide Show | Rehearse with Coach | Start Rehearsing**.
 
 ![Figure: Starting a rehearsal](start-rehearsing-dialog.png)
 

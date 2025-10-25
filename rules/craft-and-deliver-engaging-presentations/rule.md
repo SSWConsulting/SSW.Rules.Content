@@ -10,6 +10,7 @@ authors:
   - title: Andrew Forsyth
     url: https://www.ssw.com.au/people/andrew-forsyth
 related:
+  - practice-makes-perfect
   - presenter-icon
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presenting
@@ -63,7 +64,7 @@ For more information read about [identifying your audience knowledge level](http
 
 Gain repeated exposure to high-pressure situations - staying cool and dealing with problems as they arise without derailing yourself or the audience.
 
-![](picture3.jpg)
+![Figure: The only way to get comfortable speaking... is to start speaking](picture3.jpg)
 
 ## Know mistakes happen and that's OK
 
@@ -102,7 +103,7 @@ While the usual suspects (GPT, Claude, etc.) are good for content and structure,
 **Extra tips:** Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https://www.pluralsight.com/courses/hanselman-speaking).
 
 * Don't touch your face
-* Don't put your hands in your pockets, or if you do, don’t have your keys in your pockets
+* Don't put your hands in your pockets, or if you do, don’t have keys in your pockets
 * Don't rock back and forth
 * If you’re moving, move deliberately
   * When you're walking, they’ll look at you
