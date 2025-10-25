@@ -1,9 +1,8 @@
 ---
 type: rule
 tips: ""
-title: Do you review PBIs and react with 👍 or 👎?
-seoDescription: Review Issues and PBIs by reacting with 👍 or 👎 to show you’ve
-  read them. Especially important for YakShaver-created items.
+title: Do you review PBIs and react with 👍?
+seoDescription: Review Issues and PBIs by reacting with 👍 or 👎 to show you've read them. Especially important for YakShaver-created items.
 uri: react-to-reviewed-pbis
 authors:
   - title: Adam Cogan
@@ -11,7 +10,9 @@ authors:
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
 related:
+  - react-and-vote-on-github
   - 3-steps-to-a-pbi
+  - meaningful-chat-reactions
 guid: 8b99aae2-c351-4eca-a46d-0e29eb91733c
 ---
 When an Issue or Product Backlog Item (PBI) is created, it's important that team members review [the title](/meaningful-pbi-titles) and content to ensure it is clear and correct.

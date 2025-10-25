@@ -14,6 +14,8 @@ related:
   - close-off-thread
   - separate-messages
   - avoid-sending-unnecessary-messages
+  - react-and-vote-on-github
+  - like-and-comment-on-videos
 guid: 285240aa-9ef2-4654-b10d-42de294c662b
 ---
 

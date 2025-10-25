@@ -14,7 +14,7 @@ authors:
 related:
   - conduct-a-test-please
   - refer-to-email-subject
-  - react-to-github
+  - react-and-vote-on-github
 guid: 78046a40-e7da-4b4f-8d05-c15fc8b06af3
 ---
 
