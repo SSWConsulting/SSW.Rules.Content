@@ -84,10 +84,12 @@ Hi <Name>,
 Thanks for the work you've done on <Project/Client>. As part of our offboarding process we've compiled balanced feedback to support your ongoing growth.
 
 **Strengths**
+
 * <Bullet 1>
 * <Bullet 2>
 
 **Opportunities to Improve**
+
 * <Bullet 1>
 * <Bullet 2>
 
@@ -106,11 +108,13 @@ All the best,
 (Replace with team-specific items – keep neutral and factual.)
 
 **Strengths**
+
 * Proactively picked up unassigned bugs without prompting
 * Built strong rapport with the client product owner
 * Documented deployment steps clearly in the runbook
 
 **Opportunities to Improve**
+
 * Standups often ran long – answers sometimes included unnecessary detail
 * Pull Requests occasionally lacked context in the description
 * Missed 2 sprint retros – need more consistent participation in team ceremonies
@@ -123,6 +127,7 @@ Offboarding isn’t only about the person leaving – it’s a chance to spot wh
 During the internal huddle, list any friction the leaver experienced and turn each into a concrete improvement (a PBI or task). Aim for at least one improvement item.
 
 **Examples**
+
 * Dev environment setup required 3 days – create a self-serve onboarding checklist and automate script
 * Access to logging tools took a week – streamline the access request via an internal form
 * Onboarding docs missed API version dependencies – update the runbook and add a validation step
