@@ -40,6 +40,7 @@ In the rare cases where you really need to reply inline for a special reason, it
   cc=""
   bcc=""
   subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -66,11 +67,11 @@ Daniel
 4. Access reporter
    Not done
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Replying inline can mess up the history. No indentation makes it harder to read",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -79,6 +80,7 @@ Daniel
   cc=""
   bcc=""
   subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -109,11 +111,11 @@ Not Done
 
 Not Done
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "okExample",
     figure: "OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -122,6 +124,7 @@ Not Done
   cc=""
   bcc=""
   subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Adam
 
@@ -155,11 +158,11 @@ Daniel
 3. Make sure Exchange is backing itself up... Check Google on why not.
 4. Access reporter
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability",
     shouldDisplay: true
-  } }
+  }}
 />
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.

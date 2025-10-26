@@ -33,6 +33,7 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
   cc=""
   bcc=""
   subject="Request for Access to SugarLearning Prod"
+  shouldDisplayBody={true}
   body={<>
     ## Dear SysAdmins
 
@@ -42,11 +43,11 @@ Thanks
 
 Warwick
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - This requires manual changes by a SysAdmin",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ## ✅ Good Example - Requesting Access via myaccess.microsoft.com

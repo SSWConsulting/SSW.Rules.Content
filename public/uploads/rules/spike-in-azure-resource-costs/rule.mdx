@@ -85,6 +85,7 @@ Then send an email (as per the template below)
   cc=""
   bcc=""
   subject="&#123;&#123; PROJECT NAME &#125;&#125; - Cost spike due to data migration"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; SpendMaster aka SysAdmins &#125;&#125;
 
@@ -94,11 +95,11 @@ I have calculated this cost to be &#123;&#123; $$ &#125;&#125;.
 
 1. Please approve
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 ---

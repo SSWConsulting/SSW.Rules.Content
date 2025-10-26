@@ -37,6 +37,7 @@ You should list the remaining tasks and ask them to reply if they have completed
   cc=""
   bcc=""
   subject="&#123;&#123; SUBJECT &#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; COWORKER IN OTHER TIMEZONE &#125;&#125;
 
@@ -50,11 +51,11 @@ Handing the baton back to you. Here is the progress I made today.
 
 &lt;This email was sent as per the rule: [https://ssw.com.au/rules/collaborate-across-timezones](/collaborate-across-timezones)&gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example – A nice handover email to your coworker in another timezone, repeat this process until the task is complete",
     shouldDisplay: true
-  } }
+  }}
 />
 
 If there is business hours overlap, get a [checked by](/checked-by-xxx) from the recipient.

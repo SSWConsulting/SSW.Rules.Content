@@ -61,6 +61,7 @@ For everyone to be on the same page, the process a developer should follow is:
   cc=""
   bcc=""
   subject="Purchase Please - Azure Resource Request for &#123;&#123;product/service&#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Spend Master aka SysAdmins
 
@@ -86,11 +87,11 @@ David
 
 &lt;As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)&gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.

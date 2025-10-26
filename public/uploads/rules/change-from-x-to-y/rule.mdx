@@ -71,6 +71,7 @@ Make the changes even easier to see and understand by highlighting:
   cc=""
   bcc=""
   subject="Update CodeAuditor features list"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
@@ -82,11 +83,11 @@ Scan all your projects for coding errors:
 
 \- Friendly licensing model, bloggers even pay $0 for the full version!
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - The original version of content has not been included in the email... it is hard to tell what needs to be changed",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -95,6 +96,7 @@ Scan all your projects for coding errors:
   cc=""
   bcc=""
   subject="Update CodeAuditor features list"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Dave
 
@@ -118,11 +120,11 @@ To:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Friendly licensing model== - bloggers even pay $0== for the full version!
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - 'From' and 'To' changes are highlighted... it is clear what needs to be changed",
     shouldDisplay: true
-  } }
+  }}
 />
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

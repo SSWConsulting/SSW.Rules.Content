@@ -67,6 +67,7 @@ For example, you can send an email similar to this to share a new Done Video to 
   cc=""
   bcc=""
   subject="🎥 &#123;&#123; PROJECT NAME &#125;&#125; - Done Video for &#123;&#123; PBI TITLE &#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Team
 
@@ -78,11 +79,11 @@ If you have any feedback, please post it on the PBI.
 
 &lt;This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)&gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi).

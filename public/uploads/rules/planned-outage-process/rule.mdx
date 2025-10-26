@@ -54,6 +54,7 @@ it easier to remember to send the 'done' email. E.g. "done - CRM is alive again"
   cc=""
   bcc=""
   subject="Planned Outage \\"
+  shouldDisplayBody={true}
   body={<>
     ## Hi All
 
@@ -109,11 +110,11 @@ To show others who are interested in what needs to be done to fix the problem:
 
 **Note:** &lt;This is as per rule [Outage - Do you have a planned outage process?](/planned-outage-process) &gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example planned outage email",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### Pre-Outage Checklist

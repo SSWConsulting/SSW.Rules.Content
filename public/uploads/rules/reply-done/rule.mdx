@@ -78,16 +78,17 @@ Use this approach to prevent misunderstandings and to make sure the requester is
   cc=""
   bcc=""
   subject="RE: Northwind - Include one more field to the form"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Jason
 
 Not done - as per our conversation, I've checked with Northwind and they're happy with the form as it is
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - \"Not done\" email",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### Tip #1: Say "Done" first
@@ -108,6 +109,7 @@ It is important that you clearly reply to each of the multiple tasks.
   cc=""
   bcc=""
   subject="Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Jason
 
@@ -118,11 +120,11 @@ As per our conversation,
 
 Bob
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Original email with the client request",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -131,6 +133,7 @@ Bob
   cc=""
   bcc=""
   subject="RE: Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -138,11 +141,11 @@ I couldn't find a camera so I haven't taken the photo.
 
 Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example – It is not clear which tasks have been done and which haven't",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -151,6 +154,7 @@ Jason
   cc=""
   bcc=""
   subject="RE: Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -171,11 +175,11 @@ Jason
 
 Bob
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -184,6 +188,7 @@ Bob
   cc=""
   bcc=""
   subject="RE: Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -205,11 +210,11 @@ Jason
 
 Bob
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example – You can imply which tasks have been done by looking at the history, however it is painful, and [numbered lists are for tasks only](/number-tasks-questions)",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -218,6 +223,7 @@ Bob
   cc=""
   bcc=""
   subject="RE: Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -231,11 +237,11 @@ Not Done - I couldn't find a camera
 
 1. Action \#2 above once I get the camera from Peter tomorrow
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/indent)",
     shouldDisplay: true
-  } }
+  }}
 />
 
 
@@ -273,6 +279,7 @@ Make sure all tasks have been done and others can see the history of the request
   cc=""
   bcc=""
   subject="RE: Northwind website - Update logo + add a photo"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -280,11 +287,11 @@ All Done - see &#123;&#123; URL &#125;&#125;
 
 Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example – If multiple tasks are clearly 'done', then replying \"All done\" is a good way to simplify things",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### Tip #4: Replying "Done" to huge tasks
@@ -329,6 +336,7 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
   cc=""
   bcc=""
   subject="RE: Northwind website - find orders"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -357,11 +365,11 @@ ORDER By Downloads DESC
 
 Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - This \"Done\" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ### Tip #8: Handle an email once

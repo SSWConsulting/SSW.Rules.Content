@@ -134,6 +134,7 @@ In email replies, quoting previous messages is essential for context. The standa
   cc=""
   bcc=""
   subject="Northwind - April report"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob
 
@@ -141,11 +142,11 @@ In email replies, quoting previous messages is essential for context. The standa
 
 Sure! I’ll send it over by end of day.
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - This simple formatting makes conversations easier to follow, especially in long email threads",
     shouldDisplay: true
-  } }
+  }}
 />
 
 ## 🖥️ For Web UI

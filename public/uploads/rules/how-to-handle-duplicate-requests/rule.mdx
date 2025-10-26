@@ -35,16 +35,17 @@ Whether you keep a backlog or are just using your email inbox as a to-do list, y
   cc=""
   bcc=""
   subject="RE: Update the form options"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob,
 
 Not done yet. Closing this, as it will be done in another email subject: **“Form options need refresh”** from Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example – This email will never get a ‘done’ when completed",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -53,17 +54,18 @@ Not done yet. Closing this, as it will be done in another email subject: **“Fo
   cc="Jason"
   bcc=""
   subject="RE: Update the form options"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Bob,
 
 Done
 FYI – This was also requested by Jason under subject: **“Form options need refresh”** from Jason
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 <emailEmbed
   from=""
@@ -71,15 +73,16 @@ FYI – This was also requested by Jason under subject: **“Form options need r
   cc="Bob"
   bcc=""
   subject="RE: Form options need refresh"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Jason,
 
 Done
 FYI – This was also requested by Bob under subject: **“Update the form options”**
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example – Both emails got a ‘done’ reply and were referenced to each other",
     shouldDisplay: true
-  } }
+  }}
 />

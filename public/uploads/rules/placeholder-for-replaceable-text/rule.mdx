@@ -87,6 +87,7 @@ Replaceable text is often seen in email templates:
   cc=""
   bcc=""
   subject="\\[Project name\\] - Test please"
+  shouldDisplayBody={true}
   body={<>
     ## Hi \[Client name\]
 
@@ -97,11 +98,11 @@ I've been working on \[Project name\] and just deployed version \[Version number
 Regards,
 \[Your name\]
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Using square brackets for replaceable text",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -110,6 +111,7 @@ Regards,
   cc=""
   bcc=""
   subject="&#123;&#123; PROJECT NAME &#125;&#125; - Test please"
+  shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
@@ -120,9 +122,9 @@ I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed ve
 Regards,
 &#123;&#123; YOUR NAME &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE",
     shouldDisplay: true
-  } }
+  }}
 />

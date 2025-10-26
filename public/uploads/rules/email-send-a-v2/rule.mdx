@@ -114,6 +114,7 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
   cc=""
   bcc=""
   subject=""
+  shouldDisplayBody={true}
   body={<>
     (v2 - &#123;&#123; REASON &#125;&#125;)
 
@@ -126,11 +127,11 @@ Dave
 
 &#123;&#123; HISTORY OF THE THREAD, EXCEPT THE PREVIOUS VERSION WITH MISTAKE(S) &#125;&#125;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - Sending a 'v2' when you need to make an update",
     shouldDisplay: true
-  } }
+  }}
 />
 
 

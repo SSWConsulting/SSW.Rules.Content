@@ -169,6 +169,7 @@ For everyone to be on the same page, the process a developer should follow is:
   cc=""
   bcc=""
   subject="Purchase Please - Azure Resource Request for &#123;&#123; PRODUCT/SERVICE &#125;&#125;"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Spend Master aka SysAdmins
 
@@ -196,11 +197,11 @@ $&#123;&#123; AMOUNT &#125;&#125; AUD + GST/month ($&#123;&#123; AMOUNT &#125;&#
 
 &lt; As per [https://ssw.com.au/rules/azure-budgets](https://ssw.com.au/rules/azure-budgets) &gt;
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Example",
     shouldDisplay: false
-  } }
+  }}
 />
 
 3. If the request is approved, remember to add a cost-category tag to the new resource once it is created

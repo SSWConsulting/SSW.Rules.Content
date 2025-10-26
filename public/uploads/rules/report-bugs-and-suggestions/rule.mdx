@@ -101,6 +101,7 @@ Learn more:
   cc=""
   bcc=""
   subject="Your software"
+  shouldDisplayBody={true}
   body={<>
     ## Hi
 
@@ -110,11 +111,11 @@ Can you tell how to fix this?
 
 Thanks
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -123,6 +124,7 @@ Thanks
   cc=""
   bcc=""
   subject="🐛 BUG - PerformancePro - Error on startup"
+  shouldDisplayBody={true}
   body={<>
     ## Hi team
 
@@ -146,11 +148,11 @@ Can you please investigate and let me know how to proceed?
 
 Thanks
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system",
     shouldDisplay: true
-  } }
+  }}
 />
 
 #### Functional Bug template
@@ -167,6 +169,7 @@ When possible, a great template to follow is the [Functional Bug template](https
   cc=""
   bcc=""
   subject="SSW TV"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Danny
 
@@ -174,11 +177,11 @@ Where is SSW TV on the navigation?
 
 Adam
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "badExample",
     figure: "Bad example - Lack of details",
     shouldDisplay: true
-  } }
+  }}
 />
 
 <emailEmbed
@@ -187,6 +190,7 @@ Adam
   cc=""
   bcc=""
   subject="SSW Website - Can't find SSW TV link"
+  shouldDisplayBody={true}
   body={<>
     ## Hi Danny
 
@@ -217,11 +221,11 @@ Couldn't find a link on the page.
 
 Adam
   </>}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "goodExample",
     figure: "Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action",
     shouldDisplay: true
-  } }
+  }}
 />
 
 #### Make it extra clear with videos
