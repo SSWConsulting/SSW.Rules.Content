@@ -6,6 +6,8 @@ uri: offboarding-feedback-session
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
 related:
