@@ -129,9 +129,9 @@ Calling in 5 minutes regarding:
 
 Hi Hark,
 
-As per our conversation, 
+As per our conversation,
 
-1. Please update https://ssw.com.au/rules/warn-then-call rule with a good example
+1. Please update <https://ssw.com.au/rules/warn-then-call> rule with a good example
 
 :::
 ::: good
