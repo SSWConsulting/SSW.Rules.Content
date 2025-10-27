@@ -24,7 +24,7 @@ Do you like apples?
 ( ) No  
 :::  
 ::: bad  
-Figure: Only Yes and No provided  
+Figure: Only "Yes" and "No" options provided  
 :::  
 
 
@@ -39,5 +39,5 @@ Do you like apples?
 ( ) Cannot say  
 :::  
 ::: good  
-Figure: Included an option to opt out of answering  
+Figure: Included the "Cannot say" option to opt out of answering  
 :::  
