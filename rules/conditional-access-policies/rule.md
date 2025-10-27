@@ -90,6 +90,14 @@ Traveling users should inform and request access prior to their departure. A g
 
 Otherwise they will get this message:
 
+
+#### In-Flight Wi-Fi
+When using in-flight Wi-Fi, even on domestic flights, you may occasionally lose access to Microsoft services. This occurs because most in-flight Wi-Fi providers rely on satellite networks that span multiple countries. As a result, your network traffic may appear to originate from a foreign location, which can trigger blocks depending on how your conditional access policies are configured.
+
+
+To prevent this, we recommend connecting through your corporate VPN so that your connection is identified as coming from a trusted location.
+
+
 ::: bad
 ![Figure: Bad example - You get this error message: "You cannot access this right now"](conditionalaccess.jpg)
 :::
