@@ -27,7 +27,6 @@ Do you like apples?
 Figure: Only "Yes" and "No" options provided  
 :::  
 
-
 Maybe they only like cooked apples not raw ones. When asking any question in which "Don't know." or "Don't care." is a valid response, always include an option to opt out of answering.
 
 Additionally, when the user don't answer the question at all, the response you would get would be determined by the browser the user was using. Give them an answer they can agree with and you'll reduce the chance of bogus responses.
