@@ -23,6 +23,10 @@ Do you like apples?
 ( ) Yes
 ( ) No
 :::
+::: bad  
+Figure: Only Yes and No provided  
+:::
+
 
 Maybe they only like cooked apples not raw ones. When asking any question in which "Don't know." or "Don't care." is a valid response, always include an option to opt out of answering.
 
@@ -33,4 +37,7 @@ Do you like apples?
 ( ) Yes
 ( ) No
 ( ) Cannot say
+:::
+::: bad  
+Figure: Included an option to opt out of answering  
 :::
