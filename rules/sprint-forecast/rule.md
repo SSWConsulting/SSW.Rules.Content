@@ -26,7 +26,7 @@ This is simply an agreement between the Development Team and the PO for one Spri
 
 <!--endintro-->
 
-> “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the Sprint. (Ideally they deliver what they promised, or even a bit more). The Product Owner agrees not to change his instructions before the end of the Sprint.”  
+> “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the Sprint. (Ideally they deliver what they promised, or even a bit more). The Product Owner agrees not to change his instructions before the end of the Sprint.”
 > **Agile Project management**
 
 Each Sprint in a Scrum project can be considered a mini-project that has **time** (Sprint Length), **scope** (Sprint Backlog), **quality** (Definition of Done) and **cost** (Team Size \* Sprint Length). Only the scope can vary and this is measured every Sprint.
@@ -68,8 +68,8 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 |   ID   |   Title                             |   State   |   Effort   |
 | ------ | ----------------------------------- | --------- | ---------- |
 |   ID   |   Title                             |   State   |   Effort   |
-| 24124  | UI Improvements                     | Done      | 4          |
-| 24112  | Integrate Business Logic to MVC app | Done      | 8          |
+| 24124  | UI Improvements                     | ToDo      | 4          |
+| 24112  | Integrate Business Logic to MVC app | ToDo      | 8          |
 | 24097  | Styling                             | Committed | 16         |
 
 **Figure: The Sprint Backlog**
@@ -85,7 +85,7 @@ Figure: Good example - Copy this as email template and send to Product Owner
 ::: info
 **Tip:** You can copy and paste the Sprint Backlog as a table into the email body:
 
-1. Go to Azure DevOps and navigate to the Sprint's Backlog view  
+1. Go to Azure DevOps and navigate to the Sprint's Backlog view
    E.g. `https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201`
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
