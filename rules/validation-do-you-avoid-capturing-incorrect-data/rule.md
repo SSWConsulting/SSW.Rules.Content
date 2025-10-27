@@ -38,6 +38,6 @@ Do you like apples?
 ( ) No
 ( ) Cannot say
 :::
-::: bad  
+::: good  
 Figure: Included an option to opt out of answering  
 :::
