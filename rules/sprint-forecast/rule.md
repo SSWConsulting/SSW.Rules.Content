@@ -27,7 +27,6 @@ This is simply an agreement between the Development Team and the PO for one Spri
 <!--endintro-->
 
 > “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the Sprint. (Ideally they deliver what they promised, or even a bit more). The Product Owner agrees not to change his instructions before the end of the Sprint.”
-> **Agile Project management**
 
 Each Sprint in a Scrum project can be considered a mini-project that has **time** (Sprint Length), **scope** (Sprint Backlog), **quality** (Definition of Done) and **cost** (Team Size \* Sprint Length). Only the scope can vary and this is measured every Sprint.
 
