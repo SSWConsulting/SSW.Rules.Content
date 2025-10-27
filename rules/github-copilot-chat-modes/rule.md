@@ -2,8 +2,12 @@
 type: rule
 title: Do you create reusable GitHub Copilot Chat Modes?
 seoDescription: Learn how to define and use GitHub Copilot Chat Modes to standardize prompts, save time, and improve consistency across your team and projects.
-uri: use-github-copilot-chat-modes
+uri: github-copilot-chat-modes
 authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 created: 2025-10-23T10:00:00.000Z
@@ -12,7 +16,10 @@ related:
   - ai-pair-programming
   - copilot-lingo
   - automatic-code-reviews-github
+redirects:
+  - use-github-copilot-chat-modes
 ---
+
 GitHub Copilot Custom Chat Modes let you package the prompt and available tools for a given task (e.g. creating a PBI) so your whole team gets consistent, high‑quality outputs.
 
 Without a chat mode, individuals might copy/paste prompts . Important acceptance criteria or governance links get lost. New starters don't know the “standard way” and quality varies.

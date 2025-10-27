@@ -33,7 +33,6 @@ index:
 - use-mcp-to-standardize-llm-connections
 - digest-microsoft-form
 - copilot-lingo
-- use-github-copilot-chat-modes
 
 ---
 
