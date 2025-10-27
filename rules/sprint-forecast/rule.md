@@ -68,8 +68,8 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 |   ID   |   Title                             |   State   |   Effort   |
 | ------ | ----------------------------------- | --------- | ---------- |
 |   ID   |   Title                             |   State   |   Effort   |
-| 24124  | UI Improvements                     | ToDo      | 4          |
-| 24112  | Integrate Business Logic to MVC app | ToDo      | 8          |
+| 24124  | UI Improvements                     | TODO      | 4          |
+| 24112  | Integrate Business Logic to MVC app | TODO      | 8          |
 | 24097  | Styling                             | Committed | 16         |
 
 **Figure: The Sprint Backlog**
