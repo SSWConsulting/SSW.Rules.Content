@@ -39,8 +39,9 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 <!--endintro-->
 
 ::: greybox
-**Warm Calling:** Give a warning, then call.  
-**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.
+**Hot Calling**
+
+The only good reason not to give a warning before calling is when the person is already expecting your pre-arranged call..
 :::
 
 ## ✅ The benefits of a warm call
@@ -124,13 +125,14 @@ Calling in 5 minutes regarding:
 **From:** Pat Stuart\
 **Sent:** Tuesday, 14 October 2025 12:35 PM\
 **To:** Harkirat Singh\
-**Subject:** Rules Content Update
+**Subject:** "Warn then call" rule - add good example
 
 Hi Hark,
 
-As per our conversation, I would like you to update the rules content at: <https://www.ssw.com.au/rules/warn-then-call/>
+As per our conversation,
 
-Update the content with more examples.
+1. Please update <https://ssw.com.au/rules/warn-then-call> rule with a good example
+
 :::
 ::: good
 Good example - Forwarding then copying an email includes context by sharing the email and providing participant details
