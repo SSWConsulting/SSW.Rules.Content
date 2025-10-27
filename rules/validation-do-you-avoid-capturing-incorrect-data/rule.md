@@ -21,11 +21,11 @@ When asking for an opinion do you give people the option of having no opinion at
 ::: greybox
 Do you like apples?
 ( ) Yes
-( ) No
-:::
+( ) No  
+:::  
 ::: bad  
 Figure: Only Yes and No provided  
-:::
+:::  
 
 
 Maybe they only like cooked apples not raw ones. When asking any question in which "Don't know." or "Don't care." is a valid response, always include an option to opt out of answering.
@@ -36,8 +36,8 @@ Additionally, when the user don't answer the question at all, the response you w
 Do you like apples?
 ( ) Yes
 ( ) No
-( ) Cannot say
-:::
+( ) Cannot say  
+:::  
 ::: good  
 Figure: Included an option to opt out of answering  
-:::
+:::  
