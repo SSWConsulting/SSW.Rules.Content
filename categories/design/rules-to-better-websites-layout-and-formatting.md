@@ -65,7 +65,6 @@ index:
 - how-to-use-ssw-style-in-radhtmlcontrol
 - control-choice-do-you-know-when-to-use-checkboxes
 - control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
-- validation-do-you-avoid-capturing-incorrect-data
 - controls-do-you-disable-buttons-that-are-unavailable
 - controls-do-you-make-option-groups-and-check-boxes-simple-to-understand
 - consistent-fields-and-data
