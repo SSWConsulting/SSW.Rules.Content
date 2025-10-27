@@ -22,6 +22,7 @@ index:
 - use-html-maxlength-to-limit-number-of-characters
 - do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-have-consistent-way-to-store-a-same-field
+- validation-do-you-avoid-capturing-incorrect-data
 - user-authentication-terms
 - label-buttons-consistently
 - data-entry-forms-for-web
