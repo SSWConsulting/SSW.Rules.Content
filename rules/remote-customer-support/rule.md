@@ -60,7 +60,7 @@ For managing server machines, the following tools are recommended:
 
 Remote Desktop works for workstations, but it's not recommended due to a security risk if Remote Support isn't disabled. Also, because of the End User License Agreement (EULA), only allows 1 user at a time, if you log in to client's Windows machine, the client will be logged off.
 
-### 2. VNC-Based Tools 
+### 2. VNC-Based Tools
 
 * Tools like [TightVNC](https://www.tightvnc.com/) and [UltraVNC](https://www.uvnc.com/) are useful when RDP is not an option
 * VNC tools share the same session as the logged-in user, making them suitable for collaborative troubleshooting
