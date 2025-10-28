@@ -15,6 +15,8 @@ related:
   - like-and-comment-on-videos
   - meaningful-chat-reactions
 guid: 5f9318b8-fae1-4c5a-b829-3047d7744191
+redirects:
+  - react-to-github
 
 ---
 
