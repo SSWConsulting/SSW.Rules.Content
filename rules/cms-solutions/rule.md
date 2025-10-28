@@ -56,7 +56,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 * [WordPress VIP](https://wpvip.com/pricing) - (pricing non-transparent)
 * [Sanity.io](https://www.sanity.io/pricing) - (pricing non-transparent)
-* [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html) - (pricing non-transparent)
+* [Magnolia](https://www.magnolia-cms.com/get-started/pricing.html?) - (pricing non-transparent)
 * [Contentful](https://www.contentful.com/pricing) - (pricing non-transparent)
 * [Arc XP](https://www.arcxp.com) - (pricing non-transparent)
 
