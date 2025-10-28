@@ -20,7 +20,7 @@ Running Copilot CLI in a secure Docker container provides the best of both world
 
 <!--endintro-->
 
-### The Problem with Unrestricted Access
+## The problem with unrestricted access
 
 When running Copilot CLI directly on your host machine:
 
@@ -36,7 +36,7 @@ When running Copilot CLI directly on your host machine:
 Bad Example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
 :::
 
-## The Solution: Docker-Based Isolation
+## The solution: Docker-based isolation
 
 By running Copilot CLI inside a Docker container, you create a secure sandbox where:
 
@@ -45,7 +45,7 @@ By running Copilot CLI inside a Docker container, you create a secure sandbox wh
 - You can safely use `--allow-all-tools` with confidence (automatic approval)
 - The worst-case scenario is limited to the current project
 
-### Understanding the Safety Net
+### Understanding the safety net
 
 If Copilot runs a dangerous command like `rm -rf .`:
 
@@ -63,7 +63,7 @@ If Copilot runs a dangerous command like `rm -rf .`:
 **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
 :::
 
-## Understanding the Two Modes
+### Understanding the two modes
 
 Before diving into the setup, it's important to understand the two approaches available. You can install both side-by-side with different command names to give yourself options.
 
@@ -73,7 +73,7 @@ Before diving into the setup, it's important to understand the two approaches av
 
 Both modes include security checks for proper GitHub token scopes and warn about overly privileged tokens. The YOLO mode adds the `--allow-all-tools` flag which bypasses execution confirmation.
 
-## Implementation: The copilot_here Setup
+### Implementation: The copilot_here setup
 
 The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
 
@@ -81,7 +81,7 @@ The complete solution is available at [https://github.com/GordonBeeming/copilot_
 **Note:** The functions below provide cross-platform support for Linux/macOS and Windows. For the latest version, always check the GitHub repository.
 :::
 
-### Option 1: Safe Mode (Recommended)
+#### Option 1: Safe Mode (Recommended)
 
 This mode asks for confirmation before executing any commands, giving you full control.
 
@@ -292,7 +292,7 @@ Execute this command? [y/N]: y
 Good Example - Safe mode asks for confirmation before executing commands on both platforms
 :::
 
-### Option 2: YOLO Mode (Auto-Approve)
+#### Option 2: YOLO Mode (Auto-Approve)
 
 This mode automatically approves all tool usage. Use with caution!
 
@@ -490,9 +490,9 @@ Good Example - YOLO mode executes commands without asking for approval on both p
 **Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
 :::
 
-## How It Works
+## How it works
 
-### Security Features
+### Security features
 
 1. **File System Isolation**
    - Only mounts your current project directory to `/work`
@@ -514,25 +514,25 @@ Good Example - YOLO mode executes commands without asking for approval on both p
    - Can access local services and APIs (by design)
    - Not a fully firewalled environment
 
-## Benefits
+## ✅ Benefits
 
 This approach provides:
 
-✅ **Security:** Strict isolation limits damage potential\
-✅ **Confidence:** Use powerful features like `--allow-all-tools` safely\
-✅ **Portability:** Same setup works across all machines\
-✅ **Cross-platform:** Works on Linux, macOS, and Windows\
-✅ **Auto-authentication:** Seamlessly uses your existing `gh` login\
-✅ **Cognitive ease:** Feel safe letting AI execute commands\
-✅ **Flexibility:** Choose safe or YOLO mode based on context
+* **Security:** Strict isolation limits damage potential
+* **Confidence:** Use powerful features like `--allow-all-tools` safely
+* **Portability:** Same setup works across all machines
+* **Cross-platform:** Works on Linux, macOS, and Windows
+* **Auto-authentication:** Seamlessly uses your existing `gh` login
+* **Cognitive ease:** Feel safe letting AI execute commands
+* **Flexibility:** Choose safe or YOLO mode based on context
 
-## Learn More
+## Learn more
 
 For detailed implementation, troubleshooting, and the complete source code:
 
-📖 **Blog Post:** [Taming the AI: My Paranoid Guide to Running Copilot CLI in a Secure Docker Sandbox](https://www.gordonbeeming.xyz/blog/taming-the-ai-my-paranoid-guide-to-running-copilot-cli-in-a-secure-docker-sandbox)
+* **Blog post 📖:** [Taming the AI: My Paranoid Guide to Running Copilot CLI in a Secure Docker Sandbox](https://gordonbeeming.com/blog/2025-10-03/taming-the-ai-my-paranoid-guide-to-running-copilot-cli-in-a-secure-docker-sandbox)
 
-🔧 **GitHub Repository:** [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here)
+* **GitHub Repository:** [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here)
 
 ## Conclusion
 
