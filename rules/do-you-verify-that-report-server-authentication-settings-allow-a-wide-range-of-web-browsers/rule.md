@@ -20,7 +20,7 @@ The default configuration for Report Server isn't accessible by most mobile brow
 The configuration file for the Report Server is named RSReportServer.config and the default location is:
 
 ::: greybox
-\*\*C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\*\*
+C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer
 :::
 
 You should make a backup of the configuration before editing it so you can rollback if you make a mistake.
