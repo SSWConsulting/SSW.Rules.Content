@@ -1,7 +1,7 @@
 ---
 seoDescription: Securely store sensitive information such as credit card details and passport data with an enterprise password manager like Keeper to protect against data breaches, non-compliance, and management issues.
 type: rule
-title: Do you store your sensitive information securely
+title: Do you store your sensitive information securely?
 uri: store-sensitive-information-securely
 authors:
   - title: Warwick Leahy
@@ -13,48 +13,61 @@ created: 2023-10-11T21:27:10.724Z
 guid: 75da57d7-3f2c-4e5c-b964-eb656f52dccc
 ---
 
-Storing sensitive information such as credit card details and passport information in an unsecured location poses significant risks, not only for the individuals whose information is stored but also for the organization responsible for that data.
+Keeping sensitive details like credit card numbers and passport information in unsecured places is risky. It can harm both the individuals involved and the organization’s reputation.
 
-Ideally don't keep these kinds of details at all. However that isn't always practical; busy managers and CEOs often need to be able to share them with admin staff easily so that they can (e.g.) book flights and arrange travel for them. They don't want to be always getting out their cards.
+Ideally, avoid storing this information altogether. However, that is not always practical. Managers and CEOs often need to share these details with admin staff to book flights or arrange travel, for example. When that happens, make sure the information is stored and shared securely. Use encrypted files, password managers, or secure portals instead of emails, spreadsheets, or notes.
 
 <!--endintro-->
 
-### **Data Breach Risks**
+## Risks of insecure storage
 
-- Credit card information and passport details are highly sought-after by cybercriminals. When this data is stored in an unsecure manner, the likelihood of it being accessed and misused by unauthorized parties increases significantly.
-- Should a data breach occur, the organization could face severe reputational damage, legal consequences, and financial penalties. https://www.oaic.gov.au/about-the-OAIC/our-regulatory-approach/guide-to-privacy-regulatory-action/chapter-7-privacy-assessments
+Storing credit card details, passport information, or any sensitive data in unsecured fields exposes the organization to unnecessary risks.
 
-### **Non-compliance with Data Protection Regulations**
+### Data breach
 
-- Global and regional data protection regulations, such as GDPR in Europe, CCPA in California, and the Australian Privacy Principles (APPs) under the Privacy Act 1988 in Australia, mandate strict guidelines on how personal and sensitive data should be stored and protected.
-- Storing such sensitive information in an insecure manner is a direct violation of these regulations, leading to hefty fines and legal action.
+* Credit card information and passport details are highly sought-after by cybercriminals. When this data is stored in an unsecure manner, the likelihood of it being accessed and misused by unauthorized parties increases significantly
+* Should a data breach occur, the organization could face severe reputational damage, legal consequences, and financial penalties. <https://www.oaic.gov.au/about-the-OAIC/our-regulatory-approach/guide-to-privacy-regulatory-action/chapter-7-privacy-assessments>
 
-### **Data Integrity and Management Issues**
+### Non-compliance with data protection regulations
 
-- Over time, unstructured and unsecured data can become outdated, redundant, or even be altered unintentionally.
-- Using Dynamics 365's notes field for such data means there's no systematic way to track its accuracy, validity, or history.
+* Global and regional data protection regulations, such as GDPR in Europe, CCPA in California, and the Australian Privacy Principles (APPs) under the Privacy Act 1988 in Australia, mandate strict guidelines on how personal and sensitive data should be stored and protected
+* Storing such sensitive information in an insecure manner is a direct violation of these regulations, leading to hefty fines and legal action
+
+### Data integrity and management issues
+
+* Over time, unstructured and unsecured data can become outdated, redundant, or even be altered unintentionally
+* Using Dynamics 365's notes field for such data means there's no systematic way to track its accuracy, validity, or history
+
   ::: bad
-  ![Bad Example: Storing sensitive data in Dynamics 365's  | Notes is insecure](bad-example-crm-notesfield.png)
+  ![Figure: Bad example - Storing sensitive data in Dynamics 365's  | Notes is insecure](bad-example-crm-notesfield.png)
   :::
 
-# **Store details in an Enterprise Password Manager like Keeper**
+## How to store details securely
 
-- **End-to-end Encryption**: Keeper ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms.
-- **Role-Based Access Control**: Only authorized personnel can access and manage sensitive data. This ensures that sensitive information is not accidentally or intentionally accessed by unauthorized parties.
+Using **enterprise password managers** ensures that this data is stored securely, complies with data protection regulations such as the Australian Privacy Principles (APPs), and remains easy to manage.
 
-::: good
-![Good Example: Role based access to sensitive data](keeper-goodexample-sharing.png)
-:::
-Even better from an enterprise password manager like Keeper sensitive details can be OneTime shared for a short time period on an ad-hoc basis.
-::: good
-![Good Example: One-Time Share sensitive data for an hour](keeper-onetime-sharing.png)
-:::
+### Keeper
 
-- **Auditing and Reporting**: Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within.
-  ::: good
-  ![Good Example: Keeper allows full auditing of all access](keeper-good-example-auditreport.png)
-  :::
-- **Regulatory Compliance**: With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs).
-- **Data Integrity**: With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date.
+* **End-to-end encryption** - [Keeper](https://www.keepersecurity.com) ensures that sensitive information is encrypted both in transit and at rest, using advanced encryption algorithms
 
-Storing credit card details, passport information, or any sensitive data in Dynamics 365's notes or similar unsecured fields exposes the organization to unnecessary risks. Leveraging enterprise password managers like Keeper ensures that this data is stored securely, is compliant with data protection regulations, including the Australian Privacy Principles (APPs), and is easily manageable.
+* **Role-based access control** - Only authorized personnel can access and manage sensitive data. This ensures that sensitive information is not accidentally or intentionally accessed by unauthorized parties
+
+   ::: good
+   ![Figure: Good example - Role based access to sensitive data](keeper-goodexample-sharing.png)
+   :::
+  
+   Even better, share sensitive details one time only, for a short and specific purpose.
+  
+   ::: good
+   ![Figure: Good example - One-Time Share sensitive data for an hour](keeper-onetime-sharing.png)
+   :::
+
+* **Auditing and reporting** - Keeper provides detailed logs and reports, allowing for complete oversight and management of all data stored within
+
+   ::: good
+   ![Figure: Good example - Keeper allows full auditing of all access](keeper-good-example-auditreport.png)
+   :::
+
+* **Regulatory compliance** - With tools and features designed to aid organizations in complying with data protection regulations, enterprise password managers like Keeper ensure that sensitive information is handled according to global standards, including Australian Privacy Principles (APPs)
+  
+* **Data Integrity** - With structured data management, sensitive data stored in Keeper remains consistent, accurate, and up-to-date
