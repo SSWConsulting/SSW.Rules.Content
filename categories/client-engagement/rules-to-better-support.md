@@ -7,6 +7,7 @@ index:
   - knowledge-base-kb
   - support-send-links
   - provide-ongoing-support
+  - reply-to-free-support-requests
   - remote-customer-support
     
 ---
