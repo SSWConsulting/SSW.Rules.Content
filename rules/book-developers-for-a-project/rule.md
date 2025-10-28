@@ -136,7 +136,7 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 **For OWA**
 
-Open browser’s incognito mode | go to <https://outlook.office.com> | logon with the **crmtimeprosync@** account
+Open browser’s incognito mode | go to **outlook.office.com** | logon with the **crmtimeprosync@** account
 
 **For Outlook Desktop**
 
