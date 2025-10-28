@@ -60,7 +60,7 @@ Figure: Bad practice - Overall rating: 1/10
 
 ::: greybox
 
-#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://docs.microsoft.com/en-us/previous-versions/zhhddkxy(v=vs.140?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN)
+#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://learn.microsoft.com/en-us/previous-versions/aspnet/zhhddkxy(v=vs.100))
 
 Pros:
 
