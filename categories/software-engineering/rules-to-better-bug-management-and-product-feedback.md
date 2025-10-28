@@ -16,4 +16,4 @@ redirects:
 
 ---
 
-If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/Default.aspx) and book in a consultant.
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/consulting) and book in a consultant.
