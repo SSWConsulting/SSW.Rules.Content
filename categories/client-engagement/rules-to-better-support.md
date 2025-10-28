@@ -12,4 +12,3 @@ index:
 ---
 
 Great support is not just about solving problems; it is about building trust, clear communication, and lasting relationships. Learn how SSW delivers fast, consistent, and friendly support through our [Support Plans](https://www.ssw.com.au/consulting/support-plans).
-
