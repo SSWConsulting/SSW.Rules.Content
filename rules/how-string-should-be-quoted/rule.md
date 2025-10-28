@@ -16,12 +16,11 @@ redirects:
   - c-code-do-you-use-string-literals
 ---
 
-Do you know String should be @-quoted instead of using escape character for "\\"?
-The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
-
-As per: [Strings](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/c84eby0h(v=vs.90?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>)
+Strings should be @-quoted instead of using escape character for "\\". The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
 
 <!--endintro-->
+
+Source: [Verbatim text - @ in variables, attributes, and string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/verbatim)
 
 ```cs
 string p2 = "\\My Documents\\My Files\\";
@@ -71,4 +70,4 @@ var good = """
 Figure: Good example - Using raw string literals
 :::
 
-For more information on Raw String literals see [learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string?WT.mc_id=DT-MVP-33518)
+For more information on Raw String literals see [Raw string literal text - """ in string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string?WT.mc_id=DT-MVP-33518).
