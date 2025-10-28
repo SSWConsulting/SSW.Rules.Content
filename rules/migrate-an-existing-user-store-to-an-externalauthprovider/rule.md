@@ -48,6 +48,7 @@ If there's no associated SubId, check if the email (provided by the ExternalAuth
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
+
 ::: good
 Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class
 :::
