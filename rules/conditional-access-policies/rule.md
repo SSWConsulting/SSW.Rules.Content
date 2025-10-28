@@ -24,7 +24,7 @@ This seriously limits the attack surface and also helps to stop compromised devi
 ![Figure: Bad example - No locations setup](locationsbadexample.png)
 :::
 
-### Configure locations
+## Configure locations
 
 First you need to add any locations that you require for your office.
 
@@ -37,7 +37,7 @@ First you need to add any locations that you require for your office.
 
    ![Figure: Every location that your users work from](locationsadded.png)
 
-### Configure policies
+## Configure policies
 
 Now configure some policies to implement these rules
 
@@ -65,7 +65,7 @@ Now configure some policies to implement these rules
 
    ![Figure: Block access](conditionalaccess6.png)
 
-### Create a grant rule
+## Create a grant rule
 
 7. Similarly create a rule that applies to all cloud apps as above
 8. This will be exactly the same as the above rule except that you should not have conditions and should Grant access with MFA
@@ -78,7 +78,7 @@ Now configure some policies to implement these rules
 
    ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
 
-### International Travel Notice - Exclude travelling users and let them keep their access to work resources while on holidays or overseas
+## International Travel Notice - Exclude travelling users and let them keep their access to work resources while on holidays or overseas
 
 When a user goes overseas and needs access to the company resources, you should temporarily exclude them from the Block Access policy.
 
@@ -93,3 +93,9 @@ Otherwise they will get this message:
 ::: bad
 ![Figure: Bad example - You get this error message: "You cannot access this right now"](conditionalaccess.jpg)
 :::
+
+## In-Flight Wi-Fi
+
+When using in-flight Wi-Fi, even on domestic flights, you may occasionally lose access to Microsoft services. This occurs because most in-flight Wi-Fi providers rely on satellite networks that span multiple countries. As a result, your network traffic may appear to originate from a foreign location, which can trigger blocks depending on how your conditional access policies are configured.
+
+To prevent this, we recommend connecting through your corporate VPN so that your connection is identified as coming from a trusted location.
