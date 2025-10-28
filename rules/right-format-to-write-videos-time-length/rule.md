@@ -41,4 +41,3 @@ The following table shows the right format for writing video time lengths (hours
 ::: greybox
 For a real example of displaying a video time length, see this rule on [being a good Product Owner](/do-you-know-the-how-to-be-a-good-product-owner).
 :::
-
