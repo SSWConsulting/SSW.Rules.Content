@@ -24,7 +24,7 @@ For internal communications, linking to a document store on the intranet keeps f
 
 <!--endintro-->
 
-## Internal documents - link
+## Internal documents - Use a link
 
 If you're sending to a fellow employee, **use a link** to a document stored on your intranet (E.g.: `intranet.northwind.com/SharedDocuments`).
 
@@ -38,9 +38,11 @@ When sharing documents internally it's best to keep the work alive in a link. Th
 ![Figure: Good example - Sharing documents in SharePoint so the team can access and work on the same document](good-example-sharepoint.png)
 :::
 
+::: info
 **Tip:** Using SharePoint can help minimizing broken links.
+:::
 
-## External documents - public link or attachment
+## External documents - Use a public link or attachment
 
 If you're sending to a client, either get them to share a publically available link, or **attach the file** to the email (e.g.: a Spec Review).
 
