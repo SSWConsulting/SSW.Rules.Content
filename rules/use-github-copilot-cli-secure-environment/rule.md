@@ -26,6 +26,7 @@ When running Copilot CLI directly on your host machine:
 
 ::: greybox
 **Copilot has access to:**
+
 * Your entire file system
 * Your SSH keys in `~/.ssh/`
 * All your repositories
@@ -50,10 +51,12 @@ By running Copilot CLI inside a Docker container, you create a secure sandbox wh
 If Copilot runs a dangerous command like `rm -rf .`:
 
 **❌ Without Docker:**
+
 * Deletes everything in current directory and subdirectories, depending on the folder you ran copilot in, could be catastrophic
 * No way to easily recover lost files and folders
 
 **✅ With Docker:**
+
 * Only deletes files in the mounted /work directory which is mapped to your current project folder
 * Your other projects and system files are safe
 * If setup with git, it is easily recoverable
