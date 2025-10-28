@@ -39,15 +39,19 @@ Merge debt can be avoided by:
   
 ## Internal contributors
 
-If you are in a team (i.e. an internal contributor) it is the PR author's responsibility to get a PR reviewed and action feedback ASAP.  
+If you are in a team (i.e. an internal contributor) it is the PR author's responsibility to get the PR **reviewed** and **merged** ASAP.  
 
 ::: greybox
 **Tip:** For internal contributors, it's a good idea to have a call with the PR reviewers.
 :::
 
+::: info
+**Note:** If are a PR author and you don't have merge permissions, add a comment to the description, so Repo maintainers can action.
+:::
+
 ## Outside contributors
 
-If you are **not** part of the team (i.e. an outside contributor), reviewing the PR is the responsibility of the Repo maintainers. Actioning the feedback is still the responsibility of the PR author.  
+If you are **not** part of the team (i.e. an outside contributor), reviewing and merging the PR is the responsibility of the Repo maintainers. Actioning the feedback is still the responsibility of the PR author.  
 
 ::: greybox
 **Tip:** For outside contributors, it's a good idea to chase the reviewers by reaching out with a comment on GitHub, or through the repo's community (e.g. Discord channels).
