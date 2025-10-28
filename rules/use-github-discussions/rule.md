@@ -74,7 +74,7 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 ::: info
 **Using votes to prioritize community needs on GitHub**
 
-Voting up is available in GitHub Discussions, and they provide a great way to prioritize what the community wants most. By encouraging users to upvote feature requests, bug reports, or important discussions, maintainers can better understand which topics have the highest demand. Learn more about [why reacting to GitHub Issues and Discussions matters](react-to-github).
+Voting up is available in GitHub Discussions, and they provide a great way to prioritize what the community wants most. By encouraging users to upvote feature requests, bug reports, or important discussions, maintainers can better understand which topics have the highest demand. Learn more about [why reacting to GitHub Issues and Discussions matters](/react-to-github).
 :::
 
 #### ✨ Stage 2 - GitHub Issues
