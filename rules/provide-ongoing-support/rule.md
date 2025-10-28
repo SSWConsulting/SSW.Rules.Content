@@ -41,7 +41,7 @@ For a small monthly cost, plus a multiple of the hourly rate, you can guarantee 
 
 Learn more on [Support Plan](https://www.ssw.com.au/ssw/Consulting/Support-Plans.aspx)
 
-## 3. Time and Materials or Prepaid 
+## 3. Time and Materials or Prepaid
 
 A client can simply call for bug fixing or support as and when needed. However, unless it's a show stopper, this model can involve waiting for developer availability.
 
