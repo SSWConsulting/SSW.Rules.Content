@@ -26,11 +26,11 @@ When running Copilot CLI directly on your host machine:
 
 ::: greybox
 **Copilot has access to:**
-- Your entire file system
-- Your SSH keys in `~/.ssh/`
-- All your repositories
-- Your environment variables and secrets
-- System-wide configurations
+* Your entire file system
+* Your SSH keys in `~/.ssh/`
+* All your repositories
+* Your environment variables and secrets
+* System-wide configurations
 :::
 ::: bad
 Bad Example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
@@ -40,24 +40,23 @@ Bad Example - Copilot running with full system access creates unnecessary risk -
 
 By running Copilot CLI inside a Docker container, you create a secure sandbox where:
 
-- Copilot can only see your **current project directory**
-- Your home directory, SSH keys, and other projects are completely inaccessible
-- You can safely use `--allow-all-tools` with confidence (automatic approval)
-- The worst-case scenario is limited to the current project
+* Copilot can only see your **current project directory**
+* Your home directory, SSH keys, and other projects are completely inaccessible
+* You can safely use `--allow-all-tools` with confidence (automatic approval)
+* The worst-case scenario is limited to the current project
 
 ### Understanding the safety net
 
 If Copilot runs a dangerous command like `rm -rf .`:
 
 **❌ Without Docker:**
-- Deletes everything in current directory and subdirectories, depending on the folder you ran copilot in, could be catastrophic
-- No way to easily recover lost files and folders
-
+* Deletes everything in current directory and subdirectories, depending on the folder you ran copilot in, could be catastrophic
+* No way to easily recover lost files and folders
 
 **✅ With Docker:**
-- Only deletes files in the mounted /work directory which is mapped to your current project folder
-- Your other projects and system files are safe
-- If setup with git, it is easily recoverable
+* Only deletes files in the mounted /work directory which is mapped to your current project folder
+* Your other projects and system files are safe
+* If setup with git, it is easily recoverable
 
 ::: info
 **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
@@ -495,24 +494,24 @@ Good Example - YOLO mode executes commands without asking for approval on both p
 ### Security features
 
 1. **File System Isolation**
-   - Only mounts your current project directory to `/work`
-   - Your home directory, SSH keys, and other projects are completely hidden
-   - Configuration stored in isolated `~/.config/copilot-cli-docker`
+   * Only mounts your current project directory to `/work`
+   * Your home directory, SSH keys, and other projects are completely hidden
+   * Configuration stored in isolated `~/.config/copilot-cli-docker`
 
 2. **Token Scope Validation**
-   - Checks that your GitHub token has the required `copilot` scope
-   - Warns if your token has dangerous elevated permissions
-   - Requires explicit confirmation for high-privilege tokens
+   * Checks that your GitHub token has the required `copilot` scope
+   * Warns if your token has dangerous elevated permissions
+   * Requires explicit confirmation for high-privilege tokens
 
 3. **User Permission Mapping (Linux/macOS)**
-   - Uses `PUID` and `PGID` to match your user ID inside the container
-   - Files created by Copilot have correct ownership on your host
-   - Windows Docker Desktop handles permissions automatically
+   * Uses `PUID` and `PGID` to match your user ID inside the container
+   * Files created by Copilot have correct ownership on your host
+   * Windows Docker Desktop handles permissions automatically
 
 4. **Network Access**
-   - Container shares host network for development workflows
-   - Can access local services and APIs (by design)
-   - Not a fully firewalled environment
+   * Container shares host network for development workflows
+   * Can access local services and APIs (by design)
+   * Not a fully firewalled environment
 
 ## ✅ Benefits
 
