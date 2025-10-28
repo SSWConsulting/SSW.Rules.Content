@@ -10,5 +10,6 @@ index:
   - rules-to-better-software-consultants-dealing-with-clients
   - rules-to-better-software-consultants-working-in-a-team
   - rules-to-better-software-consultants-happy-clients
+  - rules-to-better-support
   - rules-to-better-tenders
 ---

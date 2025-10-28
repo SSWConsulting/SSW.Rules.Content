@@ -54,4 +54,4 @@ index:
 
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.
 
-Once you've got the sale, check out [Rules to Better Account Management.](/rules-to-better-account-management)
+Once you've got the sale, check out [Rules to Better Account Management](/rules-to-better-account-management).

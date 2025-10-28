@@ -8,7 +8,6 @@ index:
 - report-bugs-and-suggestions
 - definition-of-a-bug
 - fix-small-web-errors
-- reply-to-free-support-requests
 - todo-tasks
 - allow-users-to-get-up-to-date-messages
 - a-b-testing
@@ -17,4 +16,4 @@ redirects:
 
 ---
 
-If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/Default.aspx) and book in a consultant.
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/consulting) and book in a consultant.

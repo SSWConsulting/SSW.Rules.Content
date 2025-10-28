@@ -10,7 +10,7 @@ index:
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
 - definition-of-a-bug
-- do-you-provide-ongoing-support
+- provide-ongoing-support
 - management-do-you-use-just-in-time-speccing
 - storyboards
 - do-you-conduct-market-research-via-the-web
@@ -36,7 +36,6 @@ index:
 - do-you-constantly-add-to-the-backlog
 - fix-small-web-errors
 - knowledge-base-kb
-- do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
 - standards-watchdog
@@ -87,7 +86,7 @@ index:
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - hard-tasks-first
 - poc-vs-mvp
-- support-send-links
+
 ---
 
 ### What is a successful project?
