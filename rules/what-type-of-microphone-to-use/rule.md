@@ -48,7 +48,7 @@ On the lower end, the [Logitech H340](https://www.logitech.com/en-au/products/he
 
 Desktop mics can offer better audio quality than headsets mics overall.
 
-There are many models to pick with different characteristics. Our choice is the [Blue Yeti X](https://www.bluemic.com/en-us/products/yeti-x/). It connects via USB to your laptop and works without additional drivers.
+There are many models to pick with different characteristics. Our choice is the [Yeti](https://www.logitechg.com/en-au/products/streaming-gear/yeti-premium-usb-microphone.988-000448.html). It connects via USB to your laptop and works without additional drivers.
 
 ![Figure: Desktop microphone – plugs into USB and sits in front of you on the desk. Preferred for done videos and is portable](blue-yeti-x.jpg)
 
