@@ -18,13 +18,13 @@ When creating a Power BI connection to Dynamics 365, the first thing that comes 
 
 <!--endintro-->
 
+Wrong.
+
 ::: bad  
 ![Figure: Bad example - Searching for Dynamics 365 connector](dynamics-connector-1.png)  
 :::
 
-Wrong.
-
-When connecting to Dynamics 365 data always use the Dataverse connector (if it is available). Your system admin will need to tinker with some settings to enable this support, but it's simple and easy enough to do, here's the link: <https://docs.microsoft.com/en-us/powerapps/maker/data-platform/view-entity-data-power-bi.?WT.mc_id=DX-MVP-33518>
+When connecting to Dynamics 365 data [always use the Dataverse connector](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-powerbi-connector?tabs=Dataverse) (if it is available). Your system admin will need to tinker with some settings to enable this support, but it's simple and easy enough to do.
 
 Once enabled instead of using Dynamics 365 (online) connector use the Dataverse connector.
 
@@ -32,12 +32,10 @@ Once enabled instead of using Dynamics 365 (online) connector use the Dataverse 
 ![Figure: Good example - Use the Dataverse connector instead](dynamics-connector-2.png)  
 :::
 
-The advantages of using the Dataverse connector are:
+✅ Advantages of using the Dataverse connector:
 
 * Supports both Import and Direct Query (Direct Query means live reporting 🙂)
 * Dataverse is built on top of TDS (Tabular Data Stream), meaning it should be much faster than the WebAPI connector
 * Potential to write custom SQL queries for data sources
 
-The disadvantages of using the Dataverse connector are:
-
-* None
+There are **no** disadvantages of using the Dataverse connector.
