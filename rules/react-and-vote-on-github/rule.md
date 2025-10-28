@@ -26,9 +26,7 @@ These reactions allow teams to give and get quick feedback, gauge consensus, and
 
 For GitHUb Issues, [react with a 👍 (like) to show you have read and agree](react-to-reviewed-pbis). If you don’t agree with it, use a 👎 (dislike) with a quick comment to explain the reasons.
 
-:::
 ![Figure: A simple reaction let others know you read and acknowledged some feedback](github-reaction.png)
-:::
 
 Feel free to use other reactions like 👀 or ❤️ to keep discussions more engaging, and reduce uncertainty about whether some feedback is being considered.
 
@@ -36,9 +34,7 @@ Feel free to use other reactions like 👀 or ❤️ to keep discussions more en
 
 With GitHub Discussions, voting up adds an extra layer of valuable feedback. Maintainers can see what the community prioritizes most, making it easier to focus on high-impact requests.
 
-:::
 ![Votes help streamline decision-making and ensure that development aligns with user needs](github-vote-up.png)
-:::
 
 By using these simple reactions in GitHub Issues and Discussions, teams make their backlog more responsive and organized, improve collaboration, and keep the project moving forward.
 
