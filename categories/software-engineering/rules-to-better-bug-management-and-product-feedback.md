@@ -8,7 +8,6 @@ index:
 - report-bugs-and-suggestions
 - definition-of-a-bug
 - fix-small-web-errors
-- reply-to-free-support-requests
 - todo-tasks
 - allow-users-to-get-up-to-date-messages
 - a-b-testing
