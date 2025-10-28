@@ -55,7 +55,7 @@ Risk analysis workshops are a good way to involve different stakeholders in this
 * Begin with a set of potential risks and match them to the details of the situation. With this approach, you consult a predefined list of risks and determine whether they apply here and now. These risk lists could be in the form of a set of Quality Criteria categories, generic risk lists or risk catalogues.
 
 ::: info
-**Tips:** 
+**Tips:**
 
 * Start with a simple approach to your risk analysis, then become more advanced as your teams become more familiar with the risk-based approach
 * Try to gather diverse opinions about risk. Technical folks will likely identify different types of risk to business stakeholders, while testers will bring yet another perspective
