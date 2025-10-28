@@ -4,6 +4,7 @@ title: Rules to Better Support
 guid: 229ffa65-faa5-422d-bd0c-c970444548a1
 uri: rules-to-better-support
 index:
+  - provide-ongoing-support
   - knowledge-base-kb
   - support-send-links
   - remote-customer-support
