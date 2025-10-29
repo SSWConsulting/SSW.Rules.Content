@@ -31,18 +31,18 @@ It's often quoted in marketing circles that it costs between 60% and 600% more t
 
 Feedback has been received from larger clients in the past that they expect regular check-ins and guidance from senior staff.
 
-- A nice informal way to arrange this is to buy your client lunch once a month
-- Review the project for half an hour, then grab a bite to eat
-- The review should cover the project as a whole, any niggling problems, and discuss any upcoming projects
-- Do this free of charge
+* A nice informal way to arrange this is to buy your client lunch once a month
+* Review the project for half an hour, then grab a bite to eat
+* The review should cover the project as a whole, any niggling problems, and discuss any upcoming projects
+* Do this free of charge
 
 Regular check-ins are an important part of the broader key topic of **communication**. For current clients, a week must not pass without a phone call or some other contact. A lot of the time this will be emails from the developer. Almost all disputes arise when you don't speak to a client for a period of time - annoyances can fester and small misunderstandings can turn into real problems.
 
 A "client relationship problem" is when you have said "no" to a client and they let you know that they strongly disagree. In that case:
 
-- Tell them the reasons for your stand
-- Tell them that developers will sometimes do the wrong thing - clients have different opinions of what that is
-- Tell them you are authorized to split a problem, offer them the solution and ask if they are happy with that solution
+* Tell them the reasons for your stand
+* Tell them that developers will sometimes do the wrong thing - clients have different opinions of what that is
+* Tell them you are authorized to split a problem, offer them the solution and ask if they are happy with that solution
 
 If they're still not happy you may need to refer them up the chain of authority (but don't get comfortable doing this - work on improving your own conflict resolution skills).
 
