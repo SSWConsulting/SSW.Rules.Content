@@ -27,6 +27,9 @@ Duplicates clutter the backlog and can lead to wasted effort. A clean backlog is
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=ZlY_TrR3R-4`
+**Video: Keep your users in the loop when closing duplicate PBIs (4 min)**
+
 ## Why you should close duplicate PBIs
 
 A cluttered backlog slows progress and makes it hard for the team to focus on what matters most. Keeping duplicates open leads to a messier backlog, which can mean time wasted and discussion fragmented across these issues.
