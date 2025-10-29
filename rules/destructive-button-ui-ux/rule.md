@@ -150,7 +150,7 @@ Check out how SSW manages UI bugs across our many products and teams using [YakS
 **Video: ✨ UI Update - Relocate Delete Project Button (1 min)**
 
 * [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) (1 min)  
-* [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
+* [YakShaver UX Issue \#3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
 
 ---
 
@@ -160,6 +160,6 @@ Check out how SSW manages UI bugs across our many products and teams using [YakS
 **Video: 🐛 Bug - UI Button Color and Behavior Consistency (1 min)**
 
 * [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
-* [TinaCMS UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
+* [TinaCMS UX Issue \#6076](https://github.com/tinacms/tinacms/issues/6076)
  
 :::
