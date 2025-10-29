@@ -480,13 +480,13 @@ Add it to your PowerShell profile (same process as Option 1) and reload.
 copilot_yolo "clean and reinstall dependencies"
 ```
 
-```
+```bash
 > Copilot suggests: rm -rf node_modules package-lock.json && npm install
 ✅ Auto-executed in /work directory only
 ```
 
 ::: good
-Good Example - YOLO mode executes commands without asking for approval on both platforms
+Good example - YOLO mode executes commands without asking for approval on both platforms
 :::
 
 ::: info
