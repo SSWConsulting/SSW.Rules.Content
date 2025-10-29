@@ -1,7 +1,7 @@
 ---
 seoDescription: Developers show client love weekly, while account managers track and encourage extra initiative.
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/weekly-client-love
 title: Do you encourage your team to do weekly "Client Love"?
 guid: c96d034b-abfc-46bc-bcb1-dd11acfd0200
 uri: encourage-client-love
