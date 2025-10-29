@@ -142,11 +142,13 @@ For more guidance on destructive actions in UI design:
 >
 > 🎥 **YakShaver UI Bug Report**  
 > [![YakShaver Video](https://img.youtube.com/vi/NE2vPXZpRXo/0.jpg)](https://www.youtube.com/watch?v=NE2vPXZpRXo)  
-> 🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)
+> 🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
+> <figcaption>▶️ [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) — 1:21 minutes</figcaption>
 >
 > 🎥 **Tina UI Bug Report**  
 > [![Tina Video](https://img.youtube.com/vi/VNQhcBZzys0/0.jpg)](https://www.youtube.com/watch?v=VNQhcBZzys0)  
-> 🔗 [Tina UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
+> 🔗 [Tina UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)  
+> <figcaption>▶️ [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) — 1:08 minutes</figcaption>
 >
 > 🪒 [YakShaver.ai](https://yakshaver.ai/)
 >
