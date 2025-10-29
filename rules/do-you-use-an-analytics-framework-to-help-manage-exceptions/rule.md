@@ -1,7 +1,9 @@
 ---
 type: rule
 title: Do you use an analytics framework to help manage exceptions?
-seoDescription: Use an analytics framework to gain control over your application's performance, exceptions, and usage, allowing you to identify and address issues effectively.
+seoDescription: Use an analytics framework to gain control over your
+  application's performance, exceptions, and usage, allowing you to identify and
+  address issues effectively.
 uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
 authors:
   - title: Igor Goldobin
@@ -57,24 +59,16 @@ Key benefits include:
 * **Exception reporting** - Capture and track errors with full context and stack traces
 * **Event logging** - Track custom events throughout your application for detailed analytic
 
-::: good
-![Figure: PostHog dashboard showing key metrics at a glance](https://res.cloudinary.com/dmukukwp6/image/upload/dashboard_dark_5f2002f750.png)
-:::
+![Figure: PostHog dashboard showing key metrics at a glance](posthog-dashboard.png)
 
-PostHog excels at answering questions like "Which features are users actually using?" and "Where do users drop off in our workflow?" The session replay feature is particularly valuable for debugging user-reported issues, while exception reporting ensures you're notified immediately when errors occur.
+PostHog excels at answering questions like "Which features are users actually using?" and "Where do users drop off in our workflow?" The session replay feature is particularly valuable for debugging user-reported issues, while exception reporting ensures you're notified immediately when errors occur
 
-::: good
-![Figure: Session replay in PostHog helps you see exactly what the user experienced](https://res.cloudinary.com/dmukukwp6/image/upload/Clean_Shot_2025_07_18_at_13_40_58_2x_bbafdeed8d.png)
-:::
+![Figure: Session replay in PostHog helps you see exactly what the user experienced](posthog-recordings.png)
 
 Event logging allows you to track any custom action in your application - from button clicks to API calls - giving you complete visibility into user behavior. Combined with user surveys, you can correlate what users do with what they think.
 
-::: good
 ![Figure: Track feature adoption and performance in real-time with custom events](posthog-activity-metrics.png)
-:::
 
 The combination of analytics, feature flags, and exception reporting means you can safely roll out changes, immediately see their impact on user behavior and application performance, and catch any issues before they affect your entire user base.
 
-::: good
-![Figure: Exception reporting with full context helps you fix issues faster](https://res.cloudinary.com/dmukukwp6/image/upload/issues_list_dark_b24ad6301b.png)
-:::
+![Figure: Exception reporting with full context helps you fix issues faster](posthog-error-tracking.png)
