@@ -135,3 +135,20 @@ For more guidance on destructive actions in UI design:
 * [NNG: Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)
 * [Material Design: Error & Destructive Actions](https://m3.material.io/foundations/error-handling/overview)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
+
+
+> ## ✨ **Hey YakShaver! I found a UI bug.**
+> **Check out how SSW manages UI bugs across our many products and teams.**
+>
+> 🎥 **YakShaver UI Bug Report**  
+> [![YakShaver Video](https://img.youtube.com/vi/NE2vPXZpRXo/0.jpg)](https://www.youtube.com/watch?v=NE2vPXZpRXo)  
+> 🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)
+>
+> 🎥 **Tina UI Bug Report**  
+> [![Tina Video](https://img.youtube.com/vi/VNQhcBZzys0/0.jpg)](https://www.youtube.com/watch?v=VNQhcBZzys0)  
+> 🔗 [Tina UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
+>
+> 🪒 [YakShaver.ai](https://yakshaver.ai/)
+>
+> ---
+> _Smarter workflows. Fewer distractions._
