@@ -25,5 +25,3 @@ In unusual cases where you don’t have source code (for your own customizations
 1. Download **Solution Exporter** and run it on the SharePoint 2007 server. This allows you to export the installed solutions from the source SharePoint server
 2. Export all of the solutions out of the SharePoint farm
 3. Copy the **C:\SharePointCustomizations** folder to the destination SharePoint 2010 server
-
-
