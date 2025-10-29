@@ -136,25 +136,28 @@ For more guidance on destructive actions in UI design:
 * [Material Design: Error & Destructive Actions](https://m3.material.io/foundations/error-handling/overview)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
 
-> ## **Example Bug Reports**
->
-> **Check out how SSW manages UI bugs across our many products and teams.**
->
-> ### #1 For product: YakShaver - UI Bug
->
-> [![YakShaver Video](https://img.youtube.com/vi/NE2vPXZpRXo/0.jpg)](https://www.youtube.com/watch?v=NE2vPXZpRXo)  
-> <figcaption>▶️ [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) (1 min)</figcaption>
-> 🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
->
-> <br>
->
-> ### #2 For product: TinaCMS - UI Bug
->
-> [![Tina Video](https://img.youtube.com/vi/VNQhcBZzys0/0.jpg)](https://www.youtube.com/watch?v=VNQhcBZzys0)  
->
-> <figcaption>▶️ [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)</figcaption>
-> 🔗 [TinaCMS UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)  
-> 🪒 [YakShaver.ai](https://yakshaver.ai/)
->
-> ---
-> _Smarter workflows. Fewer distractions._
+::: greybox
+
+## **Example Bug Reports**
+
+**Check out how SSW manages UI bugs across our many products and teams.**
+
+### #1 For product: YakShaver - UI Bug
+
+![YakShaver Video](https://img.youtube.com/vi/NE2vPXZpRXo/0.jpg)(<https://www.youtube.com/watch?v=NE2vPXZpRXo>)  
+▶️ [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) (1 min)  
+🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
+
+<br>
+
+### #2 For product: TinaCMS - UI Bug
+
+![Tina Video](https://img.youtube.com/vi/VNQhcBZzys0/0.jpg)(<https://www.youtube.com/watch?v=VNQhcBZzys0>)
+
+▶️ [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
+🔗 [TinaCMS UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
+🪒 [YakShaver.ai](https://yakshaver.ai/)  
+
+ ---
+_Smarter workflows. Fewer distractions._
+:::
