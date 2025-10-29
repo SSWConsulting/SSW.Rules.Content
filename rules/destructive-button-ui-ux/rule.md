@@ -136,28 +136,30 @@ For more guidance on destructive actions in UI design:
 * [Material Design: Error & Destructive Actions](https://m3.material.io/foundations/error-handling/overview)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
 
+---
+
 ::: greybox
 
-## **Example Bug Reports**
+## Bug reports examples
 
-**Check out how SSW manages UI bugs across our many products and teams.**
+Check out how SSW manages UI bugs across our many products and teams using [YakShaver](https://yakshaver.ai/). Smarter workflows. Fewer distractions.
 
-### #1 For product: YakShaver - UI Bug
+### 1. For YakShaver - UI Bug
 
-![YakShaver Video](https://img.youtube.com/vi/NE2vPXZpRXo/0.jpg)(<https://www.youtube.com/watch?v=NE2vPXZpRXo>)  
-▶️ [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) (1 min)  
-🔗 [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
+`youtube: https://www.youtube.com/embed/NE2vPXZpRXo`
+**Video: ✨ UI Update - Relocate Delete Project Button (1 min)**
 
-<br>
+* [Watch on YouTube](https://www.youtube.com/watch?v=NE2vPXZpRXo) (1 min)  
+* [YakShaver UX Issue #3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
 
-### #2 For product: TinaCMS - UI Bug
+---
 
-![Tina Video](https://img.youtube.com/vi/VNQhcBZzys0/0.jpg)(<https://www.youtube.com/watch?v=VNQhcBZzys0>)
+### 2. For TinaCMS - UI Bug
 
-▶️ [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
-🔗 [TinaCMS UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
-🪒 [YakShaver.ai](https://yakshaver.ai/)  
+`youtube: https://www.youtube.com/embed/VNQhcBZzys0`
+**Video: 🐛 Bug - UI Button Color and Behavior Consistency (1 min)**
 
- ---
-_Smarter workflows. Fewer distractions._
+* [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
+* [TinaCMS UX Issue #6076](https://github.com/tinacms/tinacms/issues/6076)
+ 
 :::
