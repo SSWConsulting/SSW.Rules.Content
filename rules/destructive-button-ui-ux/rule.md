@@ -161,5 +161,5 @@ Check out how SSW manages UI bugs across our many products and teams using [YakS
 
 * [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
 * [TinaCMS UX Issue \#6076](https://github.com/tinacms/tinacms/issues/6076)
- 
+
 :::
