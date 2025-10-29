@@ -12,6 +12,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Brook Jeynes
+    url: https://www.ssw.com.au/people/brook-jeynes
 related:
   - do-you-know-how-to-set-up-application-insights
   - do-you-know-why-you-want-to-use-application-insights
