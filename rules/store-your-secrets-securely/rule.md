@@ -51,7 +51,7 @@ Cons:
 * Difficult to manage production and non-production config settings
 * Developers can read and access the production password
 
-![](BadSettings.png)
+![Figure: Bad settings](BadSettings.png)
 
 :::
 ::: bad
@@ -223,7 +223,7 @@ Cons:
 
 * Only works where Azure AD RBAC is available. NB. There are still some Azure services that don't yet support this. Most do though.
 
-![](GoodSettings.png)
+![Figure: Good settings](GoodSettings.png)
 
 :::
 ::: good
