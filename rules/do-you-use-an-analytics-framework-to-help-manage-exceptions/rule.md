@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Do you use an analytics framework to help manage exceptions?
-seoDescription: Use an analytics framework to gain control over your
-  application's performance, exceptions, and usage, allowing you to identify and
-  address issues effectively.
+seoDescription: Use an analytics framework to gain control over your application's performance, exceptions, and usage, allowing you to identify and address issues effectively.
 uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
 authors:
   - title: Igor Goldobin
@@ -47,7 +45,7 @@ There are a number of existing Analytics frameworks available on the market, so
 
 Each one of those frameworks has a fairly extensive set of tools available and are easy to integrate into your application.
 
-### PostHog - A case study for great product analytics
+## PostHog - A case study for great product analytics
 
 [PostHog](https://posthog.com/) is an open-source analytics platform that combines product analytics, session recording, feature flags, and user feedback in one place. It's particularly useful for understanding how users interact with your application.
 
