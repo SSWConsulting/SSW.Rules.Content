@@ -16,8 +16,8 @@ You should have at this point, either:
 
 <!--endintro-->
 
-1.  Installer packages from 3rd Party Vendors for installing their custom solution or,
-2.  WSP packages from 3rd party, or built from your own source code, or extracted using the Export Method (**not** recommended)
+1. Installer packages from 3rd Party Vendors for installing their custom solution or,
+2. WSP packages from 3rd party, or built from your own source code, or extracted using the Export Method (**not** recommended)
 
 You can add the WSP package solutions to the new server by:
 
