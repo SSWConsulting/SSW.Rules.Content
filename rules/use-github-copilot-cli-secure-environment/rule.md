@@ -14,6 +14,7 @@ authors:
 created: 2025-10-16T17:32:00.000Z
 guid: babc794e-a638-4d05-b234-52d69ae4f432
 ---
+
 GitHub Copilot CLI is incredibly powerful, but giving AI deep access to your terminal and file system can be concerning. When you use features like `--allow-all-tools` - which approves all actions - Copilot can execute commands on your behalf, which means one wrong suggestion could have serious consequences.
 
 Running Copilot CLI in a secure Docker container provides the best of both worlds: powerful AI assistance with strict security boundaries that limit the "blast radius" of any potential mistakes.
@@ -34,7 +35,7 @@ When running Copilot CLI directly on your host machine:
 * System-wide configurations
 :::
 ::: bad
-Bad Example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
+Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
 :::
 
 ## The solution: Docker-based isolation
@@ -284,14 +285,14 @@ Reload your PowerShell profile:
 copilot_here "clean and reinstall dependencies"
 ```
 
-```
+```bash
 > Copilot suggests: rm -rf node_modules package-lock.json && npm install
 Execute this command? [y/N]: y
 ✅ Executed safely in /work directory only
 ```
 
 ::: good
-Good Example - Safe mode asks for confirmation before executing commands on both platforms
+Good example - Safe mode asks for confirmation before executing commands on both platforms
 :::
 
 #### Option 2: YOLO Mode (Auto-Approve)
