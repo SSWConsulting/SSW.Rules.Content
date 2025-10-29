@@ -136,8 +136,8 @@ For more guidance on destructive actions in UI design:
 * [Material Design: Error & Destructive Actions](https://m3.material.io/foundations/error-handling/overview)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
 
-
 > ## ✨ **Hey YakShaver! I found a UI bug.**
+>
 > **Check out how SSW manages UI bugs across our many products and teams.**
 >
 > 🎥 **YakShaver UI Bug Report**  
