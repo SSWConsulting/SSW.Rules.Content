@@ -39,9 +39,9 @@ When a PBI is closed as a duplicate, the person who raised it will **not** autom
 
 The easiest way to do this is to close the PBI with a friendly comment directing the user to the issue you're keeping, inviting them to subscribe to that thread for updates and discussion.
 
-### How to manage duplicate PBIs
+## How to manage duplicate PBIs
 
-#### 1. Identify the main (active) PBI
+### 1. Identify the main (active) PBI
 
 Choose the most complete or best-discussed PBI as the primary one to keep open. It should have the clearest description, relevant discussion, and active tracking.
 
@@ -49,7 +49,7 @@ Choose the most complete or best-discussed PBI as the primary one to keep open. 
 ![Figure: Good example - A clean and well-defined PBI is a good candidate for the main PBI to keep](good-pbi.png "Good bug report")
 :::
 
-#### 2. Close and link the duplicate PBIs
+### 2. Close and link the duplicate PBIs
 
 Once you've identified the main PBI, close the others as duplicates. In GitHub, there are two standard ways to do this:
 
@@ -76,7 +76,7 @@ Figure: Good example - Using the built-in GitHub duplicate workflow keeps issues
 ![Figure: Good example - Using the built-in "Close as duplicate of..." button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context](close-as-duplicate-button.png "Close as duplicate button")
 :::
 
-#### 3. Notify users who created the duplicates
+### 3. Notify users who created the duplicates
 
 Since closing their PBI means they won't receive future updates automatically, it's a good idea to invite the users to follow the main issue, if they're interested in tracking progress and adding to the discussion.
 
@@ -88,7 +88,7 @@ Comment on #101:
 Figure: Good example - All reporters are acknowledged and invited to join the discussion on the main issue
 :::
 
-#### 4. Gold plating - Notify users when the work is complete
+### 4. Gold plating - notify users when the work is complete
 
 For an amazing user or customer experience, don't just rely on them subscribing to the main issue. Instead, get back to them when the work is done, letting them know their contribution has been heard and actioned.
 
