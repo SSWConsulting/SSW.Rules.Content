@@ -25,9 +25,9 @@ It is the responsibility of Account Managers to book developers for known client
 
 Before booking developers, make sure you talk to them and check that they are cool with:
 
-* The Time - how long is the project?
-* The Tech - what skills are required?
-* The Team - who will they be working with?
+* The **Time** - How long is the project?
+* The **Tech** - What skills are required?
+* The **Team** - Who will they be working with?
 
 :::
 
@@ -69,7 +69,7 @@ This is a backup option for anyone who doesn't have access to Outlook with the C
 
 1. Create a new appointment in Dynamics 365 Online
 
-![Figure: Click Appointment to create a new appointment in CRM](Dynamics-Calendar-App.jpg)
+   ![Figure: Click Appointment to create a new appointment in CRM](Dynamics-Calendar-App.jpg)
 
 2. Set the Subject
 3. Select the resources that you want to book
