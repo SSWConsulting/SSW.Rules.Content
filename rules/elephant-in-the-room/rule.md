@@ -2,8 +2,7 @@
 type: rule
 tips: ""
 title: Do you address the elephant in the room?
-seoDescription: Address issues early. Naming "the elephant" builds trust,
-  strengthens teamwork, and keeps projects moving forward.
+seoDescription: Address issues early. Naming "the elephant" builds trust, strengthens teamwork, and keeps projects moving forward.
 uri: elephant-in-the-room
 authors:
   - title: Ulysses Maclaren
@@ -17,8 +16,8 @@ Sometimes, meetings can drag on while everyone tiptoes around an obvious problem
 
 <!--endintro-->
 
-::: info\
-**Tip:** Learn more on [Teamwork - Do you know the 5 dysfunctions of a team?](/do-you-know-the-5-dysfunctions-of-a-team/)\
+::: info
+**Tip:** Learn more on [Teamwork - Do you know the 5 dysfunctions of a team?](/do-you-know-the-5-dysfunctions-of-a-team/)
 :::
 
 When teams avoid naming the elephant, trust fades and projects drift. Talking about it early, calmly, and clearly turns awkward silence into progress.
@@ -35,30 +34,42 @@ Here's how to structure it:
 
 Use this rule any time the room feels tense and no one is saying why. Maybe a project is clearly off-track, but the updates skip over it, or feedback is being hinted at rather than spoken plainly. Sometimes the real issue is a risky assumption no one has challenged, or a key person is missing and decisions keep stalling. If it feels like everyone is thinking the same thing but avoiding it, it’s time to name the elephant.
 
-Example 1 – Client delivery slip
+### Example 1 – Client delivery slip
 
-“We’re working hard. Let’s park timelines for now.”
+::: greybox
+“We're working hard. Let’s park timelines for now.”
+:::
+::: bad
+Figure: Bad example - Client loses trust; slip becomes a surprise
+:::
 
-❌ Figure - Bad Example: Client loses trust; slip becomes a surprise.
+::: greybox
+“We're trending two weeks late because of the API blocker. That risks the launch event on Nov 15th.
 
-“We’re trending two weeks late because of the API blocker. That risks the launch event on 15 Nov.
+I see a few options:
 
-Options:
+A. remove SSO from MVP\
+B. add Thom full-time for 10 days\
+C. move launch to 29 Nov
 
-(1) remove SSO from MVP,
+Which do you prefer?”
+:::
+::: good
+Figure: Good example - Clear trade-offs and a decision path
+:::
 
-(2) add Thom full-time for 10 days,
+### Example 2 – Internal performance issue
 
-(3) move launch to 29 Nov. Which do you prefer?”
-
-✅ Figure - Good Example: Clear trade-offs and a decision path.
-
-Example 2 – Internal performance issue
-
+::: greybox
 “Let’s focus on positives today.”
+:::
+::: bad
+Figure: Bad example - Issue festers; team gossips instead of fixes
+:::
 
-❌ Figure - Bad Example: Issue festers; team gossips instead of fixes.
-
+::: greybox
 “Let’s talk about the elephant: our PR review turnaround has averaged 3 days. That’s stalling the team. Can we agree on a 24-hour SLA and a backup reviewer?”
-
-✅ Figure - Good Example: A measurable change with shared ownership.
+:::
+::: good
+Figure: Good example - A measurable change with shared ownership
+:::
