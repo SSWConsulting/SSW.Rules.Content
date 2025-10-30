@@ -18,6 +18,7 @@ related:
   - do-you-label-broken-equipment
   - fix-bugs-via-phone
   - report-bugs-and-suggestions
+  - elephant-in-the-room
 redirects:
   - do-you-fix-problems-quickly
 created: 2010-07-16T06:48:10.000Z
