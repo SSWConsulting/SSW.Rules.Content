@@ -58,7 +58,7 @@ Do not ignore the problem (by continuing business as usual) as it will only esca
 
 Always find out the priority and expectation of a task's deadline. If you've been reminded about a task you thought was of lower priority, that is a good time to have that conversation - better late than never 😊.
 
-Read through [Communication - Do you have professional integrity? (Be a person of your word)](/professional-integrity).
+Read through [having professional integrity (AKA be a person of your word)](/professional-integrity).
 
 ## Common Symptoms
 
@@ -97,8 +97,10 @@ Bugs or things not working are things people expect actioned quickly. Therefore 
 
 You can work to resolve any conflict afterwards.
 
-- One-off tasks - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
+- **One-off tasks** - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
 
-- Recurring tasks - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
+- **Recurring tasks** - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
 
-**Note:** If after raising the problem, you are still not happy, consider sending a "[For the record email](/for-the-record)"
+::: info
+**Tip:** If after raising the problem, you are still unhappy, consider sending a "[For the record email](/for-the-record)"
+:::
