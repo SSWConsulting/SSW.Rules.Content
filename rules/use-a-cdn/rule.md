@@ -1,8 +1,7 @@
 ---
 type: rule
 title: Do you use a Content Delivery Network (CDN)?
-seoDescription: Do you use a Content Delivery Network (CDN) to reduce network
-  latency and improve page load times for your users?
+seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?
 uri: use-a-cdn
 authors:
   - title: Barry Sanders
@@ -26,31 +25,31 @@ If your site takes too long to load, there is a high chance your users will not 
 
 <!--endintro-->
 
-### What is a CDN?
+## What is a CDN?
 
 CDN is short for a Content Delivery Network. It is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
 
-### Why use a CDN?
+## Why use a CDN?
 
 A website may be hosted in a particular region, but have the majority of its users coming from an entirely different region – for example, if your site is hosted in North America, GTmetrix(A free tool that analyzes your page's speed performance) might report fast speeds based on our default test location, but if a good chunk of your users come from China, their speed will not be as fast as you experience it to be.
 Using a CDN can improve your user’s experience in terms of speed, and as we know – speed matters!
 Ensuring a consistent experience for all your users is important.
 CDNs not only ensure a faster experience to your users, but they also help to prevent site crashes in the event of traffic surges – CDNs help to distribute bandwidth across multiple servers, instead of allowing one server to handle all traffic.
 
-### How to choose a CDN?
+## How to choose a CDN?
 
 When selecting a Content Delivery Network (CDN) for your website, you face the challenge of ensuring robust edge-level redirects and effective caching to speed up your site. Unfortunately, not all CDNs provide these functionalities seamlessly, making it difficult to find one that meets these critical needs.
 
-### Front Door as Your CDN
+### Front Door as your CDN
 
 Front Door is a good option, but it has some notable downsides regarding redirects and caching that you should be aware of:
 
-✅ Pros:
+**✅ Pros:**
 
 * **Easy Integration**: Seamlessly integrates with other Azure services.
 * **Flexible Origin Handling**: Better handling for origin groups on a route level (e.g., /people can be hosted on a different server).
 
-❌ Cons:
+**❌ Cons:**
 
 * **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits?WT.mc_id=AZ-MVP-33518) per resource group.
 * **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
@@ -64,7 +63,7 @@ To overcome these issues, use Cloudflare.
 
 Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and Web Application Firewall (WAF), along with a host of other options.
 
-✅ Pros:
+**✅ Pros:**
 
 * **Easy Deployment**: Simple deployment through Wrangler. (it takes a few seconds to deploy workers)
 * **Flexible Redirects**: More flexible in handling bulk and customizable redirects using [Cloudflare Workers](https://developers.cloudflare.com/workers/).
@@ -73,31 +72,33 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 * **Efficient Caching**: Better caching options.
 * **Instant Cache Purging**: Offers an instant purging option for caches.
 
-❌ Cons:
+**❌ Cons:**
 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
 * **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
 
-#### Which CDNs work well from China?
+---
 
-1. <https://cdnjs.cloudflare.com> (recommended)
-2. <http://www.staticfile.org/>
-3. <http://www.bootcdn.cn/>
-4. <https://intl.cloud.baidu.com/product/cdn.html>
-5. <http://lib.sinaapp.com/>
-6. <http://cdnjs.net/>
-7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
-8. <https://www.akamai.com>
-
-#### Which ones do not work well from China?
+### Which ones do **not** work well from China?
 
 1. <https://maxcdn.bootstrapcdn.com>
 2. <https://ajax.googleapis.com>
 
 ::: bad
-![Figure: Bad example, jquery.min.js from GoogleAPIs failed to load](5-28.4.png)
+![Figure: Bad example - jquery.min.js from GoogleAPIs failed to load](5-28.4.png)
 :::
 
+### Which CDNs work well from China?
+
+1. [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com) (recommended)
+2. <http://www.staticfile.org/>
+3. <http://www.bootcdn.cn/>
+4. [Baidu AI Cloud | Object Storage (BOS)](https://intl.cloud.baidu.com/en/product/bos.html)
+5. <http://lib.sinaapp.com/>
+6. <http://cdnjs.net/>
+7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
+8. <https://www.akamai.com>
+
 ::: good
-![Figure: Good example, jquery.min.js from CDNJS isn't blocked and is very fast](5-28.5.png)
+![Figure: Good example - jquery.min.js from CDNJS isn't blocked and is very fast](5-28.5.png)
 :::

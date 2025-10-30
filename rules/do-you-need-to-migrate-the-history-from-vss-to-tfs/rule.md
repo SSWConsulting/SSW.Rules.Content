@@ -21,7 +21,7 @@ related: []
 redirects: []
 ---
 
-Normally, you don't need to check the history very often. If you do need sometimes, then get it from VSS - Save much space for TFS. For example, we have a about 7G VSS history database, and we may only need a small bit of them every 3 months, so what's the point of coping about 7G file when we only need one line of code?
+Normally, you don't need to check the history very often. If you do need sometimes, then get it from Visual SourceSafe (VSS) - Save much space for Team Foundation Server (TFS). For example, we have a about 7G VSS history database, and we may only need a small bit of them every 3 months, so what's the point of coping about 7G file when we only need one line of code?
 
 <!--endintro-->
 
@@ -33,5 +33,5 @@ But there are also some considerations that you may want to migrate the history:
 
 If you are going to move the history, the links may help:
 
-* [Walkthrough: Migrating from Visual SourceSafe to Team Foundation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms181247(v=vs.90?WT.mc_id=DOP-MVP-33518)?redirectedfrom=MSDN)
+* [Preparing to Migrate from Visual SourceSafe to Team Foundation Source Control](https://devblogs.microsoft.com/devops/preparing-to-migrate-from-visual-sourcesafe-to-team-foundation-source-control/)
 * [Migrating from SourceSafe to Team Foundation Server](https://devblogs.microsoft.com/buckh/migrating-from-sourcesafe-to-team-foundation-server/?WT.mc_id=DOP-MVP-33518)

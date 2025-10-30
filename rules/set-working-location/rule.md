@@ -2,8 +2,7 @@
 type: rule
 tips: ""
 title: Calendar - Do you set your working location?
-seoDescription: Set your location in your Outlook/Teams calendar to let your
-  colleagues know when you're in the office or remote.
+seoDescription: Set your location in your Outlook/Teams calendar to let your colleagues know when you're in the office or remote.
 uri: set-working-location
 authors:
   - title: Chris Schultz
@@ -38,15 +37,13 @@ This can be done through Outlook or Teams, and it will appear on your Calendar i
 ![Figure: Classic Outlook | Calendar with locations set](calendar-location.png)
 
 ::: info
-
-Remember to update your location if it changes.
-
+**Note:** Remember to update your location if it changes.
 :::
 
 ## View your colleagues' locations
 
 To see if your colleagues are planned in the office or remote, simply view their calendar in Outlook or Teams.
 
-For a view of everyone you work with and their location, head to https://places.cloud.microsoft and select **Show in office summary**.
+For a view of everyone you work with and their location, go to **places.cloud.microsoft** and select **Show in office summary**.
 
 ![Figure: Microsoft Places | Show in office summary](microsoft-places.png)

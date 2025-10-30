@@ -133,7 +133,6 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 For more guidance on destructive actions in UI design:
 
 * [NNG: Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)
-* [Material Design: Error & Destructive Actions](https://m3.material.io/foundations/error-handling/overview)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
 
 ---

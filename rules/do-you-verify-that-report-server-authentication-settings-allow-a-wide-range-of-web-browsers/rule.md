@@ -20,7 +20,7 @@ The default configuration for Report Server isn't accessible by most mobile brow
 The configuration file for the Report Server is named RSReportServer.config and the default location is:
 
 ::: greybox
-\*\*C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\*\*
+C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer
 :::
 
 You should make a backup of the configuration before editing it so you can rollback if you make a mistake.
@@ -43,6 +43,6 @@ to:
 </AuthenticationTypes>
 ```
 
-Check out the different [Authentication Types in the Report Server documentation](<https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/cc281310(v=sql.105?WT.mc_id=ES-MVP-33518)?redirectedfrom=MSDN>) and select the types that suit your needs.
+Check out the different [Authentication Types in the Report Server documentation](https://learn.microsoft.com/en-us/sql/reporting-services/security/authentication-with-the-report-server?view=sql-server-ver17#authentication-types) and select the types that suit your needs.
 
-More details on configuring Windows authentication on the report server can be found here: [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server?WT.mc_id=ES-MVP-33518).
+More details on configuring Windows authentication on the report server can be found here: [Configure Windows Authentication on the Report Server](https://learn.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server?view=sql-server-ver17&WT.mc_id=ES-MVP-33518).

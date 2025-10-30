@@ -22,15 +22,15 @@ Depending on the type of video you are making, you will need to decide what micr
 
 <!--endintro-->
 
-### Webcam/built-in microphone
+## Webcam/built-in microphone
 
 The most common type of microphone many of us use is the built-in one on your laptop.
+
 While some modern ones are a little more advanced than normal, they generally offer the poorest sound quality out of any microphone type. This is because they’re designed for conferencing and web calls, which prioritizes things like ambient noise cancellation. This can sound like a benefit, but in reality, it causes audio to sound ‘tinny’ vs proper microphones.
 
-### Headset microphone
+## Headset microphone
 
-Headsets are handy because they offer combined audio feedback and microphone in one.
-**This is the recommended setup for most people.**
+Headsets are handy because they offer combined audio feedback and microphone in one. **This is the recommended setup for most people.**
 
 A headset mic offers the advantage of being very close to the source of the audio (your mouth), which is important to consider when recording video.
 
@@ -42,23 +42,25 @@ On the lower end, the [Logitech H340](https://www.logitech.com/en-au/products/he
 
 ![Figure: Logitech H340 headset](mic-2-logitech.png)
 
+::: info
 **Warning:** These look poor on video.
+:::
 
-### Desktop microphone – portable
+## Desktop microphone (portable)
 
 Desktop mics can offer better audio quality than headsets mics overall.
 
-There are many models to pick with different characteristics. Our choice is the [Blue Yeti X](https://www.bluemic.com/en-us/products/yeti-x/). It connects via USB to your laptop and works without additional drivers.
+There are many models to pick with different characteristics. Our choice is the [Yeti](https://www.logitechg.com/en-au/products/streaming-gear/yeti-premium-usb-microphone.988-000448.html). It connects via USB to your laptop and works without additional drivers.
 
 ![Figure: Desktop microphone – plugs into USB and sits in front of you on the desk. Preferred for done videos and is portable](blue-yeti-x.jpg)
 
-### Desktop microphone – non-portable
+## Desktop microphone (non-portable)
 
 You can go beyond a portable desktop mic and get something like the Rode Procaster mic on an arm. These are typically used by professional podcasters.
 
 ![Figure: Professional podcasting mic](micpro-1.jpg)
 
-### Lapel microphone
+## Lapel microphone
 
 Lapel mics are a great option for both mobile and PC devices.
 
@@ -67,9 +69,11 @@ The benefit of this type of mic is that it is placed on your shirt and close to 
 
 ![Figure: Rode smartLav+ Lapel Microphone for Smart Phones](micpro-2-lapel.jpg)
 
+::: info
 **Warning:** [The cable can look poor on video](https://www.youtube.com/watch?v=3YbAGcB2LgQ&feature=emb_title).
+:::
 
-### Shotgun microphone
+## Shotgun microphone
 
 Shotgun Microphones are, by definition, built to capture the audio from the source they are directly pointed at. They are designed to cut out audio from other directions. This means that if someone behind the microphone says something, it will likely not be picked up clearly.
 These are traditionally used on film and TV sets and offer among the highest quality recordings.

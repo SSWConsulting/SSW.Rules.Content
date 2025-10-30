@@ -2,7 +2,7 @@
 seoDescription: Stay informed about project costs and progress by receiving regular updates on actual spend, ETA, and testing quality.
 type: rule
 archivedreason:
-title: Watch - Do you get regular updates on costs and progress (aka Project Progress, Burndown, etc.)?
+title: Do you review your team’s cost, burndown, and story progress every sprint?
 guid: 8b24e8bd-1bc5-4677-87fb-fcf6df669606
 uri: burndown-and-stories-overview-reports-updates
 created: 2010-05-20T10:48:01.0000000Z
@@ -18,7 +18,7 @@ redirects:
 
 You're the one paying the bills, make sure you know where the costs are and how the project is progressing.
 
-Insist on receiving these 3 reports in every Review meeting:
+Insist on receiving these 3 reports in every Sprint Review meeting:
 
 <!--endintro-->
 
@@ -28,14 +28,15 @@ Insist on receiving these 3 reports in every Review meeting:
 
 Let's look at those 3 reports:
 
-### 1. Current project costs
+## 1. Current project costs
 
 This allows you to see the actual costs of the project on a weekly basis.
-![Figure 1: Project Progress – There is $30k spent and $8K outstanding](/project-progress-capture.jpg)
 
-### 2. Current hours remaining and hours completed for the current Sprint
+![Figure: Project Progress – There is $30k spent and $8K outstanding](/project-progress-capture.jpg)
 
-![Figure 2: Burndown report - Shows the progress of the team in the current Sprint – ETA is March 29 and Ana has no work to do](/burndown.jpg)
+## 2. Current hours remaining and hours completed for the current Sprint
+
+![Figure: Burndown report - Shows the progress of the team in the current Sprint – ETA is March 29 and Ana has no work to do](/burndown.jpg)
 
 **Questions that the Burndown and Burn Rate report help answer:**
 
@@ -44,11 +45,11 @@ This allows you to see the actual costs of the project on a weekly basis.
 3. Has the team added work to the iteration?
 4. How much work does each team member have?
 
-See how to use the [Burndown and Burn Rate Report](<https://docs.microsoft.com/en-us/previous-versions/dd380678(v=vs.100?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>).
+See how to use the [Burndown and Burn Rate Report](https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sql-reports/burndown-and-burn-rate-report?view=tfs-2017).
 
-### 3. Story Overview - See how each task is tracking
+## 3. Story Overview - See how each task is tracking
 
-![Figure 3: Stories Overview report - Shows the progress of the User Stories in the current Sprint and nothing has been tested and no active bugs](/stories-overview.jpg)
+![Figure: Stories Overview report - Shows the progress of the User Stories in the current Sprint and nothing has been tested and no active bugs](/stories-overview.jpg)
 
 **Questions that the Stories Overview report help answer:**
 
@@ -57,4 +58,4 @@ See how to use the [Burndown and Burn Rate Report](<https://docs.microsoft.com/e
 3. Are the tests for each story passing?
 4. How many active bugs does each story have?
 
-See how to use the [Stories Overview Report](<https://docs.microsoft.com/en-us/previous-versions/dd380648(v=vs.100?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN>).
+See how to use the [Stories Overview Report](https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sql-reports/stories-overview-report-agile?view=tfs-2017).

@@ -51,7 +51,7 @@ Cons:
 * Difficult to manage production and non-production config settings
 * Developers can read and access the production password
 
-![](BadSettings.png)
+![Figure: Bad settings](BadSettings.png)
 
 :::
 ::: bad
@@ -60,7 +60,7 @@ Figure: Bad practice - Overall rating: 1/10
 
 ::: greybox
 
-#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://docs.microsoft.com/en-us/previous-versions/zhhddkxy(v=vs.140?WT.mc_id=DT-MVP-33518)?redirectedfrom=MSDN)
+#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://learn.microsoft.com/en-us/previous-versions/aspnet/zhhddkxy(v=vs.100))
 
 Pros:
 
@@ -223,7 +223,7 @@ Cons:
 
 * Only works where Azure AD RBAC is available. NB. There are still some Azure services that don't yet support this. Most do though.
 
-![](GoodSettings.png)
+![Figure: Good settings](GoodSettings.png)
 
 :::
 ::: good

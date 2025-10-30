@@ -10,7 +10,7 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
 archivedreason:
 related: []
-redirects:
+
 ---
 
 Domain Events and Integration Events are a concept primarily found in Domain-Driven Design (DDD) that can be applied in various other architectural patterns such as [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture).
@@ -19,17 +19,25 @@ Domain Events and Integration Events are powerful patterns improve decoupling an
 
 <!--endintro-->
 
+## Overview
+
 In [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture), Domain Events can be employed to enhance the communication between the `Domain` layer and other outer layers, such as the `Application` layer or `Infrastructure` layer. By raising Domain Events within the `Domain` layer, we achieve loose coupling between different parts of the application while ensuring that the domain layer remains independent of other concerns.
 
 For an example implementation of DDD Domain and Integration events with Clean Architecture, check out this [example project](https://github.com/william-liebenberg/CleanArchitectureWithDomainEvents).
 
 Here's a brief overview of how Domain Events fit into Clean Architecture:
 
-`Domain` Layer: The domain layer, as discussed earlier, contains the domain model and business logic. When a significant event occurs within the domain, the relevant domain entity can raise a domain event without being concerned about what happens next.
+### `Domain` Layer
 
-`Application` Layer: The application layer, which orchestrates the flow of the application, is responsible for subscribing to Domain Events raised by the domain layer. When a domain event is raised, the application layer can react to it by initiating additional processes or triggering other actions in response to the event.
+The domain layer, as discussed earlier, contains the domain model and business logic. When a significant event occurs within the domain, the relevant domain entity can raise a domain event without being concerned about what happens next.
 
-`Infrastructure` Layer: The infrastructure layer is responsible for implementing the actual event handling mechanisms. It provides the infrastructure to publish and subscribe to Domain Events, and it ensures that the events are properly handled and dispatched to interested parties, such as external systems or other services.
+### `Application` Layer
+
+The application layer, which orchestrates the flow of the application, is responsible for subscribing to Domain Events raised by the domain layer. When a domain event is raised, the application layer can react to it by initiating additional processes or triggering other actions in response to the event.
+
+### `Infrastructure` Layer
+
+The infrastructure layer is responsible for implementing the actual event handling mechanisms. It provides the infrastructure to publish and subscribe to Domain Events, and it ensures that the events are properly handled and dispatched to interested parties, such as external systems or other services.
 
 ## What are Domain Events
 
@@ -63,7 +71,7 @@ It is recommended that Integration Events should only be raised from the `Applic
 If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](/the-main-principles-of-clean-architecture/#principles))
 :::
 
-Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/interact/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution?WT.mc_id=AZ-MVP-33518).
+Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/latest/develop/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution?WT.mc_id=AZ-MVP-33518).
 
 ## Naming Events
 

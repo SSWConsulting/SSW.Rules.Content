@@ -14,56 +14,59 @@ authors:
 created: 2025-10-16T17:32:00.000Z
 guid: babc794e-a638-4d05-b234-52d69ae4f432
 ---
+
 GitHub Copilot CLI is incredibly powerful, but giving AI deep access to your terminal and file system can be concerning. When you use features like `--allow-all-tools` - which approves all actions - Copilot can execute commands on your behalf, which means one wrong suggestion could have serious consequences.
 
 Running Copilot CLI in a secure Docker container provides the best of both worlds: powerful AI assistance with strict security boundaries that limit the "blast radius" of any potential mistakes.
 
 <!--endintro-->
 
-### The Problem with Unrestricted Access
+## The problem with unrestricted access
 
 When running Copilot CLI directly on your host machine:
 
 ::: greybox
 **Copilot has access to:**
-- Your entire file system
-- Your SSH keys in `~/.ssh/`
-- All your repositories
-- Your environment variables and secrets
-- System-wide configurations
+
+* Your entire file system
+* Your SSH keys in `~/.ssh/`
+* All your repositories
+* Your environment variables and secrets
+* System-wide configurations
 :::
 ::: bad
-Bad Example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
+Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
 :::
 
-## The Solution: Docker-Based Isolation
+## The solution: Docker-based isolation
 
 By running Copilot CLI inside a Docker container, you create a secure sandbox where:
 
-- Copilot can only see your **current project directory**
-- Your home directory, SSH keys, and other projects are completely inaccessible
-- You can safely use `--allow-all-tools` with confidence (automatic approval)
-- The worst-case scenario is limited to the current project
+* Copilot can only see your **current project directory**
+* Your home directory, SSH keys, and other projects are completely inaccessible
+* You can safely use `--allow-all-tools` with confidence (automatic approval)
+* The worst-case scenario is limited to the current project
 
-### Understanding the Safety Net
+### Understanding the safety net
 
 If Copilot runs a dangerous command like `rm -rf .`:
 
 **❌ Without Docker:**
-- Deletes everything in current directory and subdirectories, depending on the folder you ran copilot in, could be catastrophic
-- No way to easily recover lost files and folders
 
+* Deletes everything in current directory and subdirectories, depending on the folder you ran copilot in, could be catastrophic
+* No way to easily recover lost files and folders
 
 **✅ With Docker:**
-- Only deletes files in the mounted /work directory which is mapped to your current project folder
-- Your other projects and system files are safe
-- If setup with git, it is easily recoverable
+
+* Only deletes files in the mounted /work directory which is mapped to your current project folder
+* Your other projects and system files are safe
+* If setup with git, it is easily recoverable
 
 ::: info
 **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
 :::
 
-## Understanding the Two Modes
+### Understanding the two modes
 
 Before diving into the setup, it's important to understand the two approaches available. You can install both side-by-side with different command names to give yourself options.
 
@@ -73,7 +76,7 @@ Before diving into the setup, it's important to understand the two approaches av
 
 Both modes include security checks for proper GitHub token scopes and warn about overly privileged tokens. The YOLO mode adds the `--allow-all-tools` flag which bypasses execution confirmation.
 
-## Implementation: The copilot_here Setup
+### Implementation: The copilot_here setup
 
 The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
 
@@ -81,7 +84,7 @@ The complete solution is available at [https://github.com/GordonBeeming/copilot_
 **Note:** The functions below provide cross-platform support for Linux/macOS and Windows. For the latest version, always check the GitHub repository.
 :::
 
-### Option 1: Safe Mode (Recommended)
+#### Option 1: Safe Mode (Recommended)
 
 This mode asks for confirmation before executing any commands, giving you full control.
 
@@ -282,17 +285,17 @@ Reload your PowerShell profile:
 copilot_here "clean and reinstall dependencies"
 ```
 
-```
+```bash
 > Copilot suggests: rm -rf node_modules package-lock.json && npm install
 Execute this command? [y/N]: y
 ✅ Executed safely in /work directory only
 ```
 
 ::: good
-Good Example - Safe mode asks for confirmation before executing commands on both platforms
+Good example - Safe mode asks for confirmation before executing commands on both platforms
 :::
 
-### Option 2: YOLO Mode (Auto-Approve)
+#### Option 2: YOLO Mode (Auto-Approve)
 
 This mode automatically approves all tool usage. Use with caution!
 
@@ -477,62 +480,62 @@ Add it to your PowerShell profile (same process as Option 1) and reload.
 copilot_yolo "clean and reinstall dependencies"
 ```
 
-```
+```bash
 > Copilot suggests: rm -rf node_modules package-lock.json && npm install
 ✅ Auto-executed in /work directory only
 ```
 
 ::: good
-Good Example - YOLO mode executes commands without asking for approval on both platforms
+Good example - YOLO mode executes commands without asking for approval on both platforms
 :::
 
 ::: info
 **Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
 :::
 
-## How It Works
+## How it works
 
-### Security Features
+### Security features
 
 1. **File System Isolation**
-   - Only mounts your current project directory to `/work`
-   - Your home directory, SSH keys, and other projects are completely hidden
-   - Configuration stored in isolated `~/.config/copilot-cli-docker`
+   * Only mounts your current project directory to `/work`
+   * Your home directory, SSH keys, and other projects are completely hidden
+   * Configuration stored in isolated `~/.config/copilot-cli-docker`
 
 2. **Token Scope Validation**
-   - Checks that your GitHub token has the required `copilot` scope
-   - Warns if your token has dangerous elevated permissions
-   - Requires explicit confirmation for high-privilege tokens
+   * Checks that your GitHub token has the required `copilot` scope
+   * Warns if your token has dangerous elevated permissions
+   * Requires explicit confirmation for high-privilege tokens
 
 3. **User Permission Mapping (Linux/macOS)**
-   - Uses `PUID` and `PGID` to match your user ID inside the container
-   - Files created by Copilot have correct ownership on your host
-   - Windows Docker Desktop handles permissions automatically
+   * Uses `PUID` and `PGID` to match your user ID inside the container
+   * Files created by Copilot have correct ownership on your host
+   * Windows Docker Desktop handles permissions automatically
 
 4. **Network Access**
-   - Container shares host network for development workflows
-   - Can access local services and APIs (by design)
-   - Not a fully firewalled environment
+   * Container shares host network for development workflows
+   * Can access local services and APIs (by design)
+   * Not a fully firewalled environment
 
-## Benefits
+## ✅ Benefits
 
 This approach provides:
 
-✅ **Security:** Strict isolation limits damage potential\
-✅ **Confidence:** Use powerful features like `--allow-all-tools` safely\
-✅ **Portability:** Same setup works across all machines\
-✅ **Cross-platform:** Works on Linux, macOS, and Windows\
-✅ **Auto-authentication:** Seamlessly uses your existing `gh` login\
-✅ **Cognitive ease:** Feel safe letting AI execute commands\
-✅ **Flexibility:** Choose safe or YOLO mode based on context
+* **Security:** Strict isolation limits damage potential
+* **Confidence:** Use powerful features like `--allow-all-tools` safely
+* **Portability:** Same setup works across all machines
+* **Cross-platform:** Works on Linux, macOS, and Windows
+* **Auto-authentication:** Seamlessly uses your existing `gh` login
+* **Cognitive ease:** Feel safe letting AI execute commands
+* **Flexibility:** Choose safe or YOLO mode based on context
 
-## Learn More
+## Learn more
 
 For detailed implementation, troubleshooting, and the complete source code:
 
-📖 **Blog Post:** [Taming the AI: My Paranoid Guide to Running Copilot CLI in a Secure Docker Sandbox](https://www.gordonbeeming.xyz/blog/taming-the-ai-my-paranoid-guide-to-running-copilot-cli-in-a-secure-docker-sandbox)
+* **Blog post 📖:** [Taming the AI: My Paranoid Guide to Running Copilot CLI in a Secure Docker Sandbox](https://gordonbeeming.com/blog/2025-10-03/taming-the-ai-my-paranoid-guide-to-running-copilot-cli-in-a-secure-docker-sandbox)
 
-🔧 **GitHub Repository:** [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here)
+* **GitHub Repository:** [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here)
 
 ## Conclusion
 
