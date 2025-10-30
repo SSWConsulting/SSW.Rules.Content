@@ -2,11 +2,12 @@
 type: rule
 tips: ""
 title: Do you address the elephant in the room?
+seoDescription: Address issues early. Naming "the elephant" builds trust,
+  strengthens teamwork, and keeps projects moving forward.
 uri: elephant-in-the-room
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren/
-  - {}
 related:
   - fix-problems-quickly
 guid: bb7377f1-1fc0-4085-91d2-4b162f92bd31
