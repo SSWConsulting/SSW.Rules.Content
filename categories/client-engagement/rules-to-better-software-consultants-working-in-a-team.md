@@ -9,6 +9,7 @@ index:
 - professional-integrity-tools
 - strong-suits
 - do-you-manage-up
+- elephant-in-the-room
 - follow-up-effectively
 - do-you-know-the-5-dysfunctions-of-a-team
 - teamwork-pillars
