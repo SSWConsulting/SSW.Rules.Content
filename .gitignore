@@ -32,3 +32,4 @@ yarn-error.log*
 scripts/tina-migration/category-uri-title-map.json
 scripts/tina-migration/rule-to-categories.json
 scripts/tina-migration/orphaned_rules.json
+scripts/tina-migration/redirects.json
