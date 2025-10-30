@@ -12,7 +12,6 @@ related:
 created: 2025-01-03T10:58:08.000Z
 guid: 096b7e93-242d-4383-8978-f86c6cf0f2f3
 ---
-
 Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <!--endintro-->
 
 ## 1. Enforce Strong Authentication
@@ -20,7 +19,7 @@ Effective management of Microsoft Entra ID (formerly Azure Active Directory) is 
 * **Implement Multi-Factor Authentication (MFA):** Require MFA for all users, especially administrators, to add an extra layer of security
 * **Adopt Passwordless Authentication:** Utilize methods like Windows Hello for Business or FIDO2 security keys to enhance security and user experience
 
-To check if your users are still typing passwords, use the `Get-MgBetaAuditLogSignIn` cmdlet - for example:
+To check if your users are still typing passwords, use the [Get-MgBetaAuditLogSignIn cmdlet](https://learn.microsoft.com/en-us/powershell/module/microsoft.graph.beta.reports/get-mgbetaauditlogsignin?view=graph-powershell-beta) - for example:
 
 ```powershell
 Connect-MgGraph
@@ -88,9 +87,11 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 #### Best practices
 
 1. **Follow a Standard Structure:** Include key details in the group name, such as department, function, and access level
+
    * Example: `[Department]-[Resource]-[Level]`
    * `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group
+
    * `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. [Kebab-case is recommended](/how-to-name-documents).
@@ -111,6 +112,6 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 Figure: Good example - Access group naming conventions that improve clarity and reduce errors in assignment
 :::
 
----
+- - -
 
 By adhering to these best practices, including clear naming conventions for access groups, you can strengthen your organization's security posture and streamline the management of Microsoft Entra ID.
