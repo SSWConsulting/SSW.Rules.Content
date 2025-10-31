@@ -91,7 +91,7 @@ Comment on #101:
 Figure: Good example - All reporters are acknowledged and invited to join the discussion on the main issue
 :::
 
-### 4. Gold plating - notify users when the work is complete
+### 4. Gold plating - Notify users when the work is complete
 
 For an amazing user or customer experience, don't just rely on them subscribing to the main issue. Instead, get back to them when the work is done, letting them know their contribution has been heard and actioned.
 
@@ -111,7 +111,7 @@ Figure: Best example - Users are kept informed that the work is done, even when 
 If your project frequently encounters duplicates, consider automating this workflow:
 
 * Use GitHub Actions or bots to suggest duplicates automatically based on title or description similarity
-* Add a checklist to your **PBI template** reminding team members to search for existing issues before creating new ones
+* Add a checklist to your **PBI template**, reminding team members to search for existing issues before creating new ones
 * Automatically notify authors of duplicate issues using our [GitHub workflow](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/workflows/duplicate-issue-notifier.yml)
 
 ---
@@ -122,4 +122,4 @@ If your project frequently encounters duplicates, consider automating this workf
 * Link duplicates clearly
 * Notify all reporters on completion
 
-By consistently managing duplicates this way, your backlog stays clean and nobody is kept in the dark on their reported issues.
+By consistently managing duplicates this way, your backlog stays clean, and nobody is kept in the dark on their reported issues.
