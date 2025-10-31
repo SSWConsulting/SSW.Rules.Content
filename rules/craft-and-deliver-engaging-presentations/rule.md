@@ -102,6 +102,7 @@ While the usual suspects (GPT, Claude, etc.) are good for content and structure,
 ::: info
 **Extra tips:** Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https://www.pluralsight.com/courses/hanselman-speaking).
 
+* Consider attire vs background - make sure there's contrast
 * Don't touch your face
 * Don't put your hands in your pockets, or if you do, don’t have keys in your pockets
 * Don't rock back and forth
