@@ -155,10 +155,10 @@ Check out how SSW manages UI bugs across our many products and teams using [YakS
 
 ### 2. For TinaCMS - UI Bug
 
-`youtube: https://www.youtube.com/embed/VNQhcBZzys0`
+`youtube: https://www.youtube.com/embed/pwVSWCSsWOU`
 **Video: 🐛 Bug - UI Button Color and Behavior Consistency (1 min)**
 
-* [Watch on YouTube](https://www.youtube.com/watch?v=VNQhcBZzys0) (1 min)  
+* [Watch on YouTube](https://www.youtube.com/watch?v=pwVSWCSsWOU) (1 min)   
 * [TinaCMS UX Issue \#6076](https://github.com/tinacms/tinacms/issues/6076)
 
 :::
