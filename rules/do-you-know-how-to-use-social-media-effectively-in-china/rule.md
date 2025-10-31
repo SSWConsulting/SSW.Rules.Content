@@ -17,7 +17,7 @@ redirects: []
 
 The biggest mistake most western companies make when embarking on a business journey in China, is assuming that their current Social Media strategies will work over there.
 
-China is different. There are different rules, platforms and of course, they have a government controlled firewall that blocks many western platforms your are familiar with, like Facebook, Twitter, Instagram, LinkedIn and YouTube. \*Uh oh\*. That's right - none of the platforms you currently use everyday now work in China, you need a new plan.
+China is different. There are different rules, platforms and of course, they have a government controlled firewall that blocks many western platforms your are familiar with, like Facebook, X, Instagram, LinkedIn and YouTube. \*Uh oh\*. That's right - none of the platforms you currently use everyday now work in China, you need a new plan.
 
 <!--endintro-->
 
@@ -25,7 +25,7 @@ China has a huge amount of social media users, there are over 1 billion active u
 
 ![Figure: According to Social Media experts Hootsuite, there are 911 million active social media users (yellow), 65% of the overall population (red)](DigitalInChina-1024x576.png)
 
-There is one big problem - the digital market in China also has hundreds of social media platform options. With no big platforms like Google, Facebook, and Twitter to focus on, so who do you target? The biggest platforms in China are WeChat (instant messaging and social media), Baidu (similar to Google search engine), Weibo (like Facebook and Twitter combined), Bilibili (similar to YouTube) and RedNote (Similar to a combination of Instagram and Pinterest)… but there are others that are now trending.
+There is one big problem - the digital market in China also has hundreds of social media platform options. With no big platforms like Google, Facebook, and X (was Twitter) to focus on, so who do you target? The biggest platforms in China are WeChat (instant messaging and social media), Baidu (similar to Google search engine), Weibo (like Facebook and X combined), Bilibili (similar to YouTube) and RedNote (Similar to a combination of Instagram and Pinterest)... but there are others that are now trending.
 
 However while we often try to draw comparisons with these platforms with their western counterparts, be aware that even though these Chinese platforms may take the basic concepts and functions from the West, they are equipped with much more diverse features.
 
