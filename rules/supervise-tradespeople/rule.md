@@ -18,7 +18,7 @@ Tradespeople often carry out important maintenance or repair work in our offices
 
 To prevent these issues, a SSW person should always supervise the tradesperson, be present at their arrival and departure, facilitate a handover conversation with the Maintenance Manager or Property Owner, and then clearly report back with the outcome.  
 
-![](screenshot-2025-10-07-095917.png "Figure: Always supervise tradespeople on site")
+![](ssw-rules-supervise-tradespeople-v2.jpg "Figure: Always supervise tradespeople on site")
 
 <!--endintro-->
 
