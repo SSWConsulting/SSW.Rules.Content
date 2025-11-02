@@ -26,7 +26,7 @@ When a defect occurs in an office (e.g. a broken window, faulty air conditioning
 
 <!--endintro-->
 
-![Figure: What information should you include when reporting a defect](screenshot-2025-10-09-152522.png "Figure: What information should you include when reporting a defect")
+![Figure: What information should you include when reporting a defect](ssw-rules-best-way-to-report-an-office-defect-v3.jpg "Figure: What information should you include when reporting a defect")
 
 Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
