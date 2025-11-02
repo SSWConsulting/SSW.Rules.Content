@@ -171,8 +171,9 @@ def keep_markdown_figure_with_prefix(m, src_prefix: str) -> str:
 
 def add_prefix_if_relative(raw_src: str, src_prefix: str) -> str:
     clean = clean_image_src(raw_src)
-    if clean.startswith('/') or re.match(r'https?://', clean, flags=re.IGNORECASE):
+    if re.match(r'https?://', clean, flags=re.IGNORECASE):
         return clean
+    clean = clean.lstrip('/')
     return f"{src_prefix}/{clean}"
 
 def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
