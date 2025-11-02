@@ -14,6 +14,7 @@ related:
   - write-a-good-pull-request
   - reply-done-and-delete-the-email
   - when-to-send-a-done-email-in-scrum
+  - done-email-for-bug-fixes
 redirects: []
 created: 2023-07-08T05:50:21.000Z
 archivedreason: null
@@ -37,7 +38,7 @@ For example, if you have UI changes, a [Done video](/send-done-videos) or a coup
 <asideEmbed
   variant="info"
   body={<>
-    **Note:** A comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach.
+    **Note:** A comment is critical when closing a PBI. It is valuable in all scenarios and should be the default approach.
   </>}
   figureEmbed={{
     preset: "default",
@@ -51,18 +52,17 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 These are sentences you should add to include context when closing a PBI / Issue:
 
-* "For more details, see **&#123;&#123; DONE VIDEO &#125;&#125;** / **&#123;&#123; SCREENSHOT(S) &#125;&#125;**"
-* "The document/page was updated: **&#123;&#123; LINK &#125;&#125;**"
+* "Done - For more details, see **&#123;&#123; DONE VIDEO &#125;&#125;** / **&#123;&#123; SCREENSHOT(S) &#125;&#125;**"
+* "Done - The document/page was updated: **&#123;&#123; LINK &#125;&#125;**"
 * "Done - see email: **&#123;&#123; EMAIL SUBJECT &#125;&#125;**"
-* "[As per conversation with](/as-per-our-conversation-emails/) **&#123;&#123; @NAME(S) &#125;&#125;**"
 
 If you are closing a PBI as duplicate:
 
 * "Duplicate of **&#123;&#123; LINK TO THE OTHER PBI &#125;&#125;**"
 
-If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed:
+If you are closing a PBI as "Won't fix", mention the person who agreed and the reason why it is not being fixed:
 
-* "Not done - **&#123;&#123; REASON &#125;&#125;**"
+* "Not done - Won't fix [as per conversation with](/as-per-our-conversation-emails/) **&#123;&#123; @NAME(S) &#125;&#125;**, we decided **&#123;&#123; REASON FOR NOT DOING IT &#125;&#125;**"
 
 <imageEmbed
   alt="Image"
@@ -87,6 +87,20 @@ If you are closing a PBI as "Won't Fix", mention the reason why it is not being 
     shouldDisplay: true
   } }
   src="/uploads/rules/close-pbis-with-context/closing-pbis-with-context.jpg"
+/>
+
+
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
 />
 
 

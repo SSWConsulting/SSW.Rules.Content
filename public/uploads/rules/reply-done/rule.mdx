@@ -18,6 +18,7 @@ related:
   - when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
   - split-emails-by-topic
+  - done-email-for-bug-fixes
 redirects:
   - dones-do-you-reply-done-and-delete-the-original-email
   - reply-done-and-delete-the-email

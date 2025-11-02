@@ -2,6 +2,12 @@
     "ai-assisted-development-workflow": [
         "rules-to-better-ai-development"
     ],
+    "use-github-copilot-cli-secure-environment": [
+        "rules-to-better-ai-development"
+    ],
+    "github-copilot-chat-modes": [
+        "rules-to-better-ai-development"
+    ],
     "create-gpts": [
         "rules-to-better-ai-development"
     ],
@@ -61,6 +67,15 @@
         "rules-to-better-ai-development"
     ],
     "dataverse-ai-options": [
+        "rules-to-better-ai-development"
+    ],
+    "keep-task-summaries-from-ai-assisted-development": [
+        "rules-to-better-ai-development"
+    ],
+    "attribute-ai-assisted-commits-with-co-authors": [
+        "rules-to-better-ai-development"
+    ],
+    "ai-assistants-work-in-repository-directory": [
         "rules-to-better-ai-development"
     ],
     "when-to-use-ai-generated-images": [
@@ -751,6 +766,9 @@
     "do-you-manage-up": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
+    "elephant-in-the-room": [
+        "rules-to-better-software-consultants-working-in-a-team"
+    ],
     "follow-up-effectively": [
         "rules-to-better-software-consultants-working-in-a-team",
         "rules-to-better-communication",
@@ -1076,6 +1094,23 @@
         "rules-to-better-microservices",
         "rules-to-better-modular-monoliths"
     ],
+    "knowledge-base-kb": [
+        "rules-to-better-support",
+        "rules-to-successful-projects"
+    ],
+    "support-send-links": [
+        "rules-to-better-support"
+    ],
+    "provide-ongoing-support": [
+        "rules-to-better-support",
+        "rules-to-successful-projects"
+    ],
+    "reply-to-free-support-requests": [
+        "rules-to-better-support"
+    ],
+    "remote-customer-support": [
+        "rules-to-better-support"
+    ],
     "create-comprehensive-tender-proposal": [
         "rules-to-better-tenders"
     ],
@@ -1279,6 +1314,9 @@
         "rules-to-better-email",
         "rules-to-better-scrum"
     ],
+    "done-email-for-bug-fixes": [
+        "rules-to-better-email"
+    ],
     "send-to-myself-emails": [
         "rules-to-better-email"
     ],
@@ -1367,9 +1405,6 @@
         "rules-to-better-email"
     ],
     "avoid-large-attachments-in-emails": [
-        "rules-to-better-email"
-    ],
-    "how-to-do-a-perfect-done": [
         "rules-to-better-email"
     ],
     "avoid-replying-to-all-when-bcced": [
@@ -1509,6 +1544,11 @@
     ],
     "dictate-emails": [
         "rules-to-better-email"
+    ],
+    "readable-screenshots": [
+        "rules-to-better-email",
+        "rules-to-better-technical-documentation",
+        "rules-to-better-websites-graphics"
     ],
     "screenshots-avoid-walls-of-text": [
         "rules-to-better-email",
@@ -1730,6 +1770,9 @@
     "inbox-management-team": [
         "rules-to-better-inbox-management"
     ],
+    "follow-outlook-group-in-inbox": [
+        "rules-to-better-inbox-management"
+    ],
     "tasks-with-a-ticking-clock": [
         "rules-to-better-inbox-management",
         "rules-to-better-system-administrators"
@@ -1900,6 +1943,16 @@
     "add-clientid-as-email-subject-prefix": [
         "rules-to-better-outsourcing"
     ],
+    "do-you-keep-your-presentation-simple": [
+        "rules-to-better-powerpoint-presentations"
+    ],
+    "presentation-test-please": [
+        "rules-to-better-powerpoint-presentations"
+    ],
+    "practice-makes-perfect": [
+        "rules-to-better-powerpoint-presentations",
+        "rules-to-better-presentations"
+    ],
     "do-you-know-if-you-are-using-the-template": [
         "rules-to-better-powerpoint-presentations"
     ],
@@ -1907,6 +1960,9 @@
         "rules-to-better-powerpoint-presentations"
     ],
     "do-you-know-how-to-change-the-layout-for-your-slides": [
+        "rules-to-better-powerpoint-presentations"
+    ],
+    "have-good-and-bad-bullet-points": [
         "rules-to-better-powerpoint-presentations"
     ],
     "do-you-limit-the-number-of-fonts": [
@@ -1930,6 +1986,12 @@
     "do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience": [
         "rules-to-better-powerpoint-presentations"
     ],
+    "do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something": [
+        "rules-to-better-powerpoint-presentations"
+    ],
+    "do-you-use-a-word-document-to-record-your-audiences-questions-and-answers": [
+        "rules-to-better-powerpoint-presentations"
+    ],
     "do-you-have-an-about-the-presenter-slide": [
         "rules-to-better-powerpoint-presentations"
     ],
@@ -1942,9 +2004,6 @@
     "demo-slides": [
         "rules-to-better-powerpoint-presentations"
     ],
-    "do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something": [
-        "rules-to-better-powerpoint-presentations"
-    ],
     "presenter-icon": [
         "rules-to-better-powerpoint-presentations"
     ],
@@ -1955,25 +2014,13 @@
         "rules-to-better-powerpoint-presentations",
         "rules-to-better-websites-graphics"
     ],
-    "do-you-keep-your-presentation-simple": [
-        "rules-to-better-powerpoint-presentations"
-    ],
-    "do-you-make-todo-items-in-red": [
+    "use-creative-commons-images": [
         "rules-to-better-powerpoint-presentations"
     ],
     "do-you-use-the-full-slide-for-screenshots": [
         "rules-to-better-powerpoint-presentations"
     ],
-    "have-good-and-bad-bullet-points": [
-        "rules-to-better-powerpoint-presentations"
-    ],
-    "do-you-use-a-word-document-to-record-your-audiences-questions-and-answers": [
-        "rules-to-better-powerpoint-presentations"
-    ],
     "do-you-finish-your-presentation-with-a-thank-you-slide": [
-        "rules-to-better-powerpoint-presentations"
-    ],
-    "presentation-test-please": [
         "rules-to-better-powerpoint-presentations"
     ],
     "do-you-keep-your-presentations-in-a-public-location": [
@@ -1989,16 +2036,13 @@
         "rules-to-better-powerpoint-presentations",
         "rules-to-better-qr-code"
     ],
-    "use-creative-commons-images": [
+    "do-you-make-todo-items-in-red": [
         "rules-to-better-powerpoint-presentations"
     ],
     "powerpoint-comments": [
         "rules-to-better-powerpoint-presentations"
     ],
     "craft-and-deliver-engaging-presentations": [
-        "rules-to-better-presentations"
-    ],
-    "practice-makes-perfect": [
         "rules-to-better-presentations"
     ],
     "do-you-set-a-clear-end-time-for-breaks": [
@@ -2168,6 +2212,10 @@
     ],
     "use-try-again-instead-of-retry": [
         "rules-to-better-technical-documentation"
+    ],
+    "hide-visual-clutter-in-screenshots": [
+        "rules-to-better-technical-documentation",
+        "rules-to-better-websites-graphics"
     ],
     "screenshots-tools": [
         "rules-to-better-technical-documentation"
@@ -3188,9 +3236,6 @@
         "rules-to-successful-projects",
         "rules-to-better-bug-management-and-product-feedback"
     ],
-    "do-you-provide-ongoing-support": [
-        "rules-to-successful-projects"
-    ],
     "management-do-you-use-just-in-time-speccing": [
         "rules-to-successful-projects"
     ],
@@ -3261,12 +3306,6 @@
         "rules-to-successful-projects"
     ],
     "do-you-constantly-add-to-the-backlog": [
-        "rules-to-successful-projects"
-    ],
-    "knowledge-base-kb": [
-        "rules-to-successful-projects"
-    ],
-    "do-you-know-the-best-way-to-give-the-best-customer-support": [
         "rules-to-successful-projects"
     ],
     "do-you-stop-dealing-with-data-and-schema": [
@@ -3398,9 +3437,6 @@
         "rules-to-better-testing"
     ],
     "hard-tasks-first": [
-        "rules-to-successful-projects"
-    ],
-    "support-send-links": [
         "rules-to-successful-projects"
     ],
     "wcag-compliance": [
@@ -3543,6 +3579,9 @@
         "rules-to-better-interfaces-forms"
     ],
     "do-you-have-consistent-way-to-store-a-same-field": [
+        "rules-to-better-interfaces-forms"
+    ],
+    "validation-do-you-avoid-capturing-incorrect-data": [
         "rules-to-better-interfaces-forms"
     ],
     "label-buttons-consistently": [
@@ -4070,9 +4109,6 @@
         "rules-to-better-websites-layout-and-formatting"
     ],
     "control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes": [
-        "rules-to-better-websites-layout-and-formatting"
-    ],
-    "validation-do-you-avoid-capturing-incorrect-data": [
         "rules-to-better-websites-layout-and-formatting"
     ],
     "controls-do-you-disable-buttons-that-are-unavailable": [
@@ -5655,7 +5691,6 @@
     ],
     "use-301-redirect-on-renamed-or-moved-pages": [
         "rules-to-better-google-rankings-and-seo",
-        "rules-to-better-website-development-asp-net",
         "rules-to-better-wordpress"
     ],
     "structured-data": [
@@ -6733,8 +6768,14 @@
     "use-github-topics": [
         "rules-to-better-github"
     ],
-    "react-to-github": [
+    "react-and-vote-on-github": [
         "rules-to-better-github"
+    ],
+    "react-to-reviewed-pbis": [
+        "rules-to-better-github",
+        "rules-to-better-scrum-using-azure-devops",
+        "rules-to-better-scrum-using-github",
+        "rules-to-better-scrum"
     ],
     "use-github-teams-for-collaborator-permissions": [
         "rules-to-better-github",
@@ -7047,11 +7088,6 @@
     ],
     "3-steps-to-a-pbi": [
         "rules-to-better-scrum-using-azure-devops"
-    ],
-    "react-to-reviewed-pbis": [
-        "rules-to-better-scrum-using-azure-devops",
-        "rules-to-better-scrum-using-github",
-        "rules-to-better-scrum"
     ],
     "do-you-have-templates-for-your-pbis-and-bugs": [
         "rules-to-better-scrum-using-azure-devops"
@@ -7599,8 +7635,7 @@
     "the-best-sample-applications": [
         "rules-to-better-angular",
         "rules-to-better-mvc",
-        "rules-to-better-net-projects",
-        "rules-to-better-website-development-asp-net"
+        "rules-to-better-net-projects"
     ],
     "the-best-build-tool": [
         "rules-to-better-angular"
@@ -7906,8 +7941,7 @@
     ],
     "web-ui-libraries": [
         "rules-to-better-architecture-and-code-review",
-        "rules-to-better-javascript-and-jquery",
-        "rules-to-better-website-development-asp-net"
+        "rules-to-better-javascript-and-jquery"
     ],
     "do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container": [
         "rules-to-better-architecture-and-code-review"
@@ -8093,9 +8127,6 @@
         "rules-to-better-bots"
     ],
     "manage-product-feedback": [
-        "rules-to-better-bug-management-and-product-feedback"
-    ],
-    "reply-to-free-support-requests": [
         "rules-to-better-bug-management-and-product-feedback"
     ],
     "todo-tasks": [
@@ -8687,9 +8718,6 @@
         "rules-to-better-entity-framework",
         "rules-to-better-net8-migrations"
     ],
-    "optimise-ef-core-queries": [
-        "rules-to-better-entity-framework"
-    ],
     "enable-the-search": [
         "rules-to-better-exchange-server"
     ],
@@ -9066,7 +9094,6 @@
     ],
     "why-choose-dot-net-core": [
         "rules-to-better-net-core",
-        "rules-to-better-website-development-asp-net",
         "rules-to-better-websites-development"
     ],
     "testing-tools": [
@@ -9508,6 +9535,9 @@
         "rules-to-better-regular-expressions"
     ],
     "sharepoint-development": [
+        "rules-to-better-sharepoint-for-developers"
+    ],
+    "sharepoint-development-environment": [
         "rules-to-better-sharepoint-for-developers"
     ],
     "do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer": [
@@ -10460,59 +10490,6 @@
     "keep-your-databinder-eval-clean": [
         "rules-to-better-website-development-asp-net"
     ],
-    "do-you-keep-your-website-loading-time-acceptable": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "how-to-generate-maintenance-pages": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "do-not-use-linkbutton": [
-        "rules-to-better-website-development-asp-net",
-        "rules-to-better-websites-development"
-    ],
-    "httphandlers-sections-in-webconfig-must-contain-a-clear-element": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "when-anchor-should-run-at-server": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "packages-to-add-to-your-mvc-project": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "release-build-your-web-applications-before-you-deploy-them": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "404-useful-error-page": [
-        "rules-to-better-website-development-asp-net",
-        "rules-to-better-websites-development"
-    ],
-    "use-css-validation-service-to-check-your-css-file": [
-        "rules-to-better-website-development-asp-net",
-        "rules-to-better-websites-development"
-    ],
-    "use-markup-validation-service-to-check-your-html-code": [
-        "rules-to-better-website-development-asp-net",
-        "rules-to-better-websites-development"
-    ],
-    "use-server-side-comments": [
-        "rules-to-better-website-development-asp-net",
-        "rules-to-better-websites-development"
-    ],
-    "use-sso-for-your-websites": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "use-windows-integrated-authentication": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "do-you-log-usage": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "do-you-know-how-to-render-html-strings": [
-        "rules-to-better-website-development-asp-net"
-    ],
-    "do-you-have-a-cookie-banner": [
-        "rules-to-better-website-development-asp-net"
-    ],
     "do-you-know-where-to-host-your-frontend-application": [
         "rules-to-better-websites-deployment"
     ],
@@ -10562,6 +10539,9 @@
     "streamline-development-with-npm-and-task-runners": [
         "rules-to-better-websites-development"
     ],
+    "404-useful-error-page": [
+        "rules-to-better-websites-development"
+    ],
     "404-error-avoid-changing-the-url": [
         "rules-to-better-websites-development"
     ],
@@ -10583,6 +10563,9 @@
     "use-right-site-search-for-your-website": [
         "rules-to-better-websites-development"
     ],
+    "do-not-use-linkbutton": [
+        "rules-to-better-websites-development"
+    ],
     "name-webpages-consistently-with-database-tables": [
         "rules-to-better-websites-development"
     ],
@@ -10593,6 +10576,9 @@
         "rules-to-better-websites-development"
     ],
     "run-load-tests-on-your-website": [
+        "rules-to-better-websites-development"
+    ],
+    "use-css-validation-service-to-check-your-css-file": [
         "rules-to-better-websites-development"
     ],
     "do-you-choose-the-best-way-to-send-emails-for-application": [
@@ -10613,6 +10599,9 @@
     "set-language-on-code-blocks": [
         "rules-to-better-websites-development"
     ],
+    "use-markup-validation-service-to-check-your-html-code": [
+        "rules-to-better-websites-development"
+    ],
     "html-unicode-hex-codes": [
         "rules-to-better-websites-development"
     ],
@@ -10623,6 +10612,9 @@
         "rules-to-better-websites-development"
     ],
     "use-open-graph": [
+        "rules-to-better-websites-development"
+    ],
+    "use-server-side-comments": [
         "rules-to-better-websites-development"
     ],
     "best-static-site-tech-stack": [
@@ -10687,12 +10679,6 @@
         "rules-to-better-websites-graphics"
     ],
     "do-you-know-how-to-use-balloons-in-screenshots-for-instructions": [
-        "rules-to-better-websites-graphics"
-    ],
-    "do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots": [
-        "rules-to-better-websites-graphics"
-    ],
-    "do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails": [
         "rules-to-better-websites-graphics"
     ],
     "do-you-use-image-styles-to-ensure-great-looking-content": [
@@ -10944,7 +10930,7 @@
     "do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list": [
         "rules-to-better-wordpress"
     ],
-    "do-you-follow-composite-application-guidance-formerly-code-named-prism-in-your-silverlight-and-wpf-projects": [
+    "follow-composite-application-guidance-in-silverlight-and-wpf-projects": [
         "rules-to-better-wpf-and-silverlight"
     ],
     "do-you-use-dynamic-application-loading-in-silverlight": [

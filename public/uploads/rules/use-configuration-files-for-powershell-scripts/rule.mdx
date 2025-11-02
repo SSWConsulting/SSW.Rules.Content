@@ -43,7 +43,8 @@ Some of the things we can do in a PSD1 file:
 4. And more.
 
 Instead of keeping all your important URLs and FQDNs inside your PowerShell script, you should keep the script itself clean and "sanitized" from those hard-coded variables, so it can be freely shared on GitHub without any security concerns for you or your company. It also makes the script much more maintainable, where you can easily change the variables in the .PSD1 file without needing to change your core script.
-Don't forget to add the configuration file to .gitignore!
+
+Don't forget to add the configuration file to `.gitignore`!
 
 <imageEmbed
   alt="Image"
@@ -51,11 +52,11 @@ Don't forget to add the configuration file to .gitignore!
   showBorder={false}
   figureEmbed={ {
     preset: "badExample",
-    figure: "Bad Example - Your script variables are in the script itself, making it insecure to share outside",
+    figure: "Bad example - Your script variables are in the script itself, making it insecure to share outside",
     shouldDisplay: true
   } }
   src="/uploads/rules/use-configuration-files-for-powershell-scripts/bad-script-variables.png"
 />
 
 
-Credits to: [PowerShell Accidentally Created A Nice Configuration Format](https://medium.com/%40ssg/powershell-accidentally-created-a-nice-configuration-format-3efde5448090).
+**Credits:** [PowerShell Accidentally Created A Nice Configuration Format]([https://medium.com/%40ssg/powershell-accidentally-created-a-nice-configuration-format-3efde5448090](https://ssg.dev/powershell-accidentally-created-a-nice-configuration-format-3efde5448090/)).

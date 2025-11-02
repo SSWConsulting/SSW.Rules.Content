@@ -32,7 +32,7 @@ For more information about how to use PageSpeed to find which files on your site
 
 Use one of the methods described below to add Gzip compression to your site ASP.Net/Angular website
 
-### Method 1: Turn on "Dynamic Content Compression" In IIS Server
+## Method 1: Turn on "Dynamic Content Compression" In IIS Server
 
 
 <imageEmbed
@@ -93,10 +93,12 @@ Choose **Internet Information Services | Web Management Tools | World Wide Web S
 />
 
 
-### Method 2:  Using “Gzipper” in your Angular website
+## Method 2:  Using “Gzipper” in your Angular website
 
 Follow [https://www.npmjs.com/package/gzipper](https://www.npmjs.com/package/gzipper) (but it still need IIS Server enable static content compression). Using `npm i gzipper -g` to install "gzipper" first. Add to scripts in your package.json
+
 ![](/uploads/rules/do-you-use-gzip/use-gzip-7.png)
+
 
 <imageEmbed
   alt="Image"
@@ -111,9 +113,9 @@ Follow [https://www.npmjs.com/package/gzipper](https://www.npmjs.com/package/gzi
 />
 
 
-### Method 3: Using ASP.NET code in MVC
+## Method 3: Using ASP.NET code in MVC
 
-Refer to [Improve the Performance of ASP.NET MVC Web Application Using HTTP Compression](https://www.codeproject.com/Tips/1080065/Improve-the-Performance-of-ASP-NET-MVC-Web-Applica).
+Refer to [Improve the Performance of ASP.NET MVC Web Application Using HTTP Compression](https://www.codeproject.com/articles/Improve-the-Performance-of-ASP-NET-MVC-Web-Applica#comments-section).
 
 To implement this in ASP.NET MVC, we can utilize `ActionFilterAttribute` and override either `OnActionExecuting` or `OnResultExecuting` method. The below code snippet is being used to check whether the current request browser can accept GZIP/DEFLATE encoding by looking at Accept-Encoding request header. If it finds GZIP encoding in this header, then we would set gzip in Content-encoding in response header and if it supports DEFLATE, then this code would set deflate in Content-encoding.
 
