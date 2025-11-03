@@ -1,26 +1,26 @@
 ---
-seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting access to `ObjectContext` and scaffolding the DB.
-type: rule
-title: Do you know how to migrate from EDMX to EF Core
-guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
-uri: migrate-from-edmx-to-ef-core
-created: 2023-06-19T09:52:06.000Z
 authors:
-  - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jernej-kavka
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-
-related:
-  - dotnet-upgrade-for-complex-projects
-  - migrate-from-system-web-to-modern-alternatives
-lastUpdated: 2025-09-17T13:55:02.000Z
-lastUpdatedBy: Chloe Lin [SSW]
-lastUpdatedByEmail: chloelin@ssw.com.au
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  title: Jernej Kavka (JK)
+  url: https://ssw.com.au/people/jernej-kavka
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+created: 2023-06-19 09:52:06+00:00
 createdBy: Jernej Kavka (JK) [SSW]
 createdByEmail: jernejk@users.noreply.github.com
+guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
 isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+related:
+- rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
+- rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting access
+  to `ObjectContext` and scaffolding the DB.
+title: Do you know how to migrate from EDMX to EF Core
+type: rule
+uri: migrate-from-edmx-to-ef-core
 ---
 
 Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
