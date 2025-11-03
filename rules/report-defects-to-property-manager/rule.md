@@ -18,7 +18,7 @@ related:
 created: 2025-10-07T11:34:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
 ---
-When a defect occurs in an office (e.g. a broken window, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action.  Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
+When a defect occurs in an office (e.g. a broken coffee machine, faulty air conditioning, or leaking tap), it’s crucial to report it with enough detail so that the Property Manager can take quick and accurate action.  Many issues get delayed or mishandled because the initial report is missing key details like **location**, **urgency**, or **who has been informed**.
 
 ::: info
 **Tip:** Make sure to follow the rule: Office environment - [Do you label broken equipment?](https://www.ssw.com.au/rules/label-broken-equipment/)
@@ -36,7 +36,7 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 
 * For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled “Defect – \[Brief Description]”  
 * Link the PBI in your message so others can track progress and updates\
-  **Example:** “Created PBI: [Defect – Broken window in backlog area](#)”
+  **Example:** “Created PBI: [Defect – Broken coffee machine in SSW France kitchen](https://github.com/SSWConsulting/SSW.Maintenance/issues/1)”
 
 ### Key details to be included
 
@@ -45,7 +45,7 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 Start broad and zoom in:  
 
 * Office name → floor → area → exact item\
-  **Example:** “SSW Newcastle → Ground floor → Backlog area → Top right window”
+  **Example:** “SSW Brisbane→ First floor → Kitchen area → The counter next to the sink”
 
 #### 2. Urgency and impact
 
@@ -71,9 +71,7 @@ Inform the people who is aware of the problem. Always include:
 #### 4. Historic information
 
 * Note any past occurrences or related maintenance\
-  **Example:** “Window was repaired in 2022 for the same issue”
-
-
+  **Example:** “Coffee Machine keeps jamming; it was repaired in last month with the same issue”
 
 Watch the video below and see how simple it is to report a defect
 
@@ -92,7 +90,11 @@ Figure: Bad example – Too vague; missing location, urgency, and who it’s rep
 :::
 
 ::: good
-![Figure: Good example – Clear, complete, and includes all the essential details for fast action and tracking](screenshot-2025-10-09-152230.png)
+
+
+![Figure: ✅Good example- Clear and includes all the essential details for fast action and tracking](screenshot-2025-11-03-121733.png "Figure: ✅Good example - Clear, complete and includes all the essential details for fast action and tracking")
+
+
 :::
 
 Consistency in reporting helps ensure that all offices communicate defects in the same clear way — improving turnaround time, transparency, and accountability.
