@@ -73,6 +73,13 @@ Inform the people who is aware of the problem. Always include:
 * Note any past occurrences or related maintenance\
   **Example:** “Window was repaired in 2022 for the same issue”
 
+
+
+Watch the video below and see how simple it is to report a defect
+
+`youtube: https://www.youtu.be/AxBS6JYcLIQ`
+**Video: YakShaver - fix the broken Coffee Machine ☕️ ❌  (1 min)**
+
 - - -
 
 ## Examples
