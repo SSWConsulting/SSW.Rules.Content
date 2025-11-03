@@ -22,7 +22,7 @@ Sometimes, meetings can drag on while everyone tiptoes around an obvious problem
 
 When teams avoid naming the elephant, trust fades and projects drift. Talking about it early, calmly, and clearly turns awkward silence into progress.
 
-Here's how to structure it:
+Here’s a checklist you can follow to structure it:
 
 1. **Say what you see** (brief, neutral, specific).
 2. **State the impact, or describe how it feels off** (on goals, morale, communication, trust, etc.).
