@@ -9,7 +9,7 @@ redirects:
 index:
   - welcoming-office
   - manage-building-related-issues
-  - report-defects-to-property-manager
+  - report-defects
   - capture-contact-details-of-service-providers
   - supervise-tradespeople
   - remind-your-team-to-turn-in-timesheets
