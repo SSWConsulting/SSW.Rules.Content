@@ -21,11 +21,11 @@ Things move fast at work, so staying on top of your tasks is key. With Microsoft
 **Video: Efficient Task Management with Microsoft Loop Tutorial | Tanya Leahy | SSW Rules (3 mins)**
 
 ::: bad  
-![Figure: Bad example - Unorganized tasks written in a notebook](rules/keep-tasks-handy-for-calls/notebook-task-list.png)
+![Figure: Bad example - Unorganized tasks written in a notebook](notebook-task-list__from_keep-tasks-handy-for-calls.png)
 :::
 
 ::: good  
-![Figure: Good example - Organized task list using Loop in a Teams tab](rules/keep-tasks-handy-for-calls/loop-tasks-in-teams.png)
+![Figure: Good example - Organized task list using Loop in a Teams tab](loop-tasks-in-teams__from_keep-tasks-handy-for-calls.png)
 :::
 
 ## Using Loop in Teams

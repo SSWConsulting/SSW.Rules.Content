@@ -58,4 +58,4 @@ For more information, see [Choosing a Deployment Strategy](https://learn.microso
 4. Deploy the COM Components. Read [Deploying COM Components with ClickOnce](https://learn.microsoft.com/en-us/visualstudio/deployment/deploying-com-components-with-clickonce?WT.mc_id=DP-MVP-33518) for more informations.
 5. Publish the application using Publish Wizard.
 
-![Figure: ClickOnce Publish Wizard](images/clickonce_publishwizard.gif)
+![Figure: ClickOnce Publish Wizard](clickonce_publishwizard__from_use-click-once-or-msi.gif)
