@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you follow best UI practices for delete buttons?
 seoDescription: Learn the best UI/UX practices for designing delete buttons, including placement, color, icons, confirmation steps, and accessibility.
-uri: delete-button-ui-ux
+uri: destructive-button-ui-ux
 authors:
   - title: Micaela Blank
     url: https://www.ssw.com.au/people/micaela-blank
