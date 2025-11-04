@@ -21,7 +21,6 @@ Sometimes users try to view SQL Server Reports in Firefox or Chrome Browser, it 
 
 They found it strange when the same report works absolutely fine in Internet Explorer.
 
-
 The Solution:
 
 Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServices\ReportManager\Styles\ReportingServevices.css"
