@@ -62,6 +62,6 @@ Now you have your SSRS report in your MVC application.
 
 ### When using Web-API the method above is difficult and time-consuming
 
-![](2015-04-29\_10-09-56-compressor.png)  
+![](2015-04-29_10-09-56-compressor.png)  
 
 The easy solution is to render the report within the API and return it to the user  as a pdf. For an example of how to implement the functionality, read the following series  of articles on ['Integrating SSRS Web-API and AngularJS'](http://blog.chrisbriggsy.com/the-first-step-towards-integration/).

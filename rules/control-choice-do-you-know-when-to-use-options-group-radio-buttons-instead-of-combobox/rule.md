@@ -24,7 +24,7 @@ For a ComboBox, user needs 2 clicks to change the value:
 For an options group, user can see all the available options without clicking, and select the option with just a click.
 
 ::: bad  
-![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](/7bc61bd6260b11c47497bca703306b7c/NotUsingRadioButtons.gif)  
+![Figure: Bad example - ComboBox is used for "Job Type" where it contains only 2 options](/NotUsingRadioButtons.gif)  
 :::
 
 ::: good  

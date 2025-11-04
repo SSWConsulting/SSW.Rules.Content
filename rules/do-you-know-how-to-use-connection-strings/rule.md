@@ -163,7 +163,7 @@ In .NET 2.0 we used strongly typed settings classes:
 
 **Step 1:** Setup your settings in your common project. E.g. Northwind.Common
 
-![Figure: Settings in Project Properties](ConnStringNET2\_Settings.jpg)
+![Figure: Settings in Project Properties](ConnStringNET2_Settings.jpg)
 
 **Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 

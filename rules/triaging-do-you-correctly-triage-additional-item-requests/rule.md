@@ -27,7 +27,7 @@ guid: 368379e7-2a52-439c-973f-e58de293d65b
 
 Managing additional work requests can reduce the adverse impact on estimates and deadlines. These work requests can include new feature requests, non-critical bug fixes, modifications and undiscovered work (i.e. work you didn't initially anticipate).
 
-![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects\_Triage.jpg)  
+![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects_Triage.jpg)  
 
 ## Prioritization
 
