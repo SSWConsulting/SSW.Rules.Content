@@ -90,7 +90,7 @@ Use confirmations when:
 * The user might not realize the consequences
 
 ::: good  
-![Figure: Good example - Confirming a delete action](destruction-button-good-confirmation.png)
+![Figure: Good example - Confirming a deletion](destruction-button-good-confirmation.png)
 :::
 
 ::: info
@@ -130,7 +130,7 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 ---
 
-For more guidance on delete actions in UI design:
+For more guidance on destructive actions in UI design:
 
 * [NNG: Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)
 * [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
