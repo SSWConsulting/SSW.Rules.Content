@@ -79,7 +79,7 @@ Here are other performance tools worth considering:
 
 * **Page Speed Insights** - Google's web performance analyzer
 * **React Developer Tools** - Component-specific profiling for React apps
-* **Pingdom -** Offers uptime monitoring, page performance analysis & drilling for advanced performance troubleshooting
+* **[Pingdom](https://www.pingdom.com/) -** Offers uptime monitoring, page performance analysis & drilling for advanced performance troubleshooting
 
 ### API Performance
 
