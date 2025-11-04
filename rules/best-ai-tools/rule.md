@@ -1,7 +1,8 @@
 ---
-seoDescription: This rule provides a regularly updated list of the best AI tools for various use cases.
 type: rule
 title: Do you know the best AI tools for different tasks?
+seoDescription: This rule provides a regularly updated list of the best AI tools
+  for various use cases.
 uri: best-ai-tools
 authors:
   - title: Seth Daily
@@ -14,7 +15,15 @@ The world of AI tools is a jungle - every company wants you to use their tool, b
 
 This rule aims to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams (visit their websites to learn more).
 
+This rule aims to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams (visit their websites to learn more).
+
+We also recommend using [LMArena.ai](https://lmarena.ai) to confirm the best AI models in the market.
+
 <!--endintro-->
+
+### 🏆 What is LMArena?
+
+LMArena is a public, web-based platform that evaluates large language models through anonymous, crowd-sourced pairwise comparisons. Users enter prompts for two anonymous models to respond to, then vote on the model that gave the better response. The model identities are revealed only after the vote. Similar to a blind taste test of Pepsi versus Coke.
 
 ::: greybox
 ⭐ = Recommended\
