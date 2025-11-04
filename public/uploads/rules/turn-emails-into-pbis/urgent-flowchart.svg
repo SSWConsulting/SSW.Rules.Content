@@ -27,7 +27,7 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 How long will
-                                <br/>
+                                
                                 the email take?
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 Is the task labelled
-                                <br/>
+                                
                                 "URGENT"?
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 Is it a legitimate
-                                <br/>
+                                
                                 emergency?
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 CC the PO
-                                <br/>
+                                
                                 Do it immediately as your top priority
                             </div>
                         </div>
@@ -247,9 +247,9 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 Does the email
-                                <br/>
+                                
                                 contain confidential
-                                <br/>
+                                
                                 information?
                             </div>
                         </div>
@@ -268,9 +268,9 @@
                         <div data-drawio-colors="color: #ffffff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(255, 255, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
                                 Does the email
-                                <br/>
+                                
                                 contain an actionable
-                                <br/>
+                                
                                 task?
                             </div>
                         </div>

@@ -56,7 +56,7 @@ If we want to refresh and data bind the same page from client side, we can use t
 ``` aspnet
 <asp:Panel runat="server" ID="mUpdatePanel" OnLoad="mUpdatePanel_Load">
  <asp:Label runat="server" ID="lblTime" />
- <br />
+ 
  <asp:GridView ID="gvList" runat="server" AutoGenerateColumns="false">
  <Columns>
  <asp:BoundField DataField="ID" HeaderText="ID" />
@@ -65,7 +65,7 @@ If we want to refresh and data bind the same page from client side, we can use t
  <asp:BoundField DataField="Name" HeaderText="Name" />
  </Columns>
  </asp:GridView>
- <br />
+ 
  ID:<asp:TextBox ID="txtID" runat="server"/>
  Name:<asp:TextBox ID="txtName" runat="server"/>
 </asp:Panel>
