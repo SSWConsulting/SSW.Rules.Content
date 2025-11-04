@@ -21,10 +21,6 @@ Sometimes users try to view SQL Server Reports in Firefox or Chrome Browser, it 
 
 They found it strange when the same report works absolutely fine in Internet Explorer.
 
-::: bad  
-![Figure: Bad example - SQL Report viewed in Firefox / Chrome (which does not display report properly or display only half the screen)](BadImageInFirefox.jpg)  
-:::
-
 The Solution:
 
 Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServices\ReportManager\Styles\ReportingServevices.css"
@@ -36,9 +32,5 @@ Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServ
  min-width: 2000px;
  }
 ```
-
-::: good  
-![Figure: Good example - SQL Report viewed in Firefox / Chrome (which displays properly in Firefox and Chrome)](GoodImageInFirefox.jpg)
-:::
 
 Read [how to display reports properly for Reporting Services 2008R2/2012](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#FirefoxChromeReportDisplay20082012).

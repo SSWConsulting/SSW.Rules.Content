@@ -33,4 +33,4 @@ You could go the extra mile and explain your whole talk for an even better resul
 \
 Plus, you have the added benefit of having visual/audio content through the video, as well as written content. That way, you are really catering and communicating to all types of learners, readers or consumers your audience might include.
 
-![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](/static/d4b8c03a75bd571d4c7b57ad4f026e67/72e01/matt-goldman-blog-good-example.jpg)
+![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](matt-goldman-blog-good.jpg)

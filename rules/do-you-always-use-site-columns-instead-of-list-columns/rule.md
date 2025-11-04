@@ -37,7 +37,7 @@ You should always try to use Site Columns instead of List Columns
 :::
 
 ::: good  
-![Figure: Site Columns - Good Example](SSWColumns\_small.jpg)  
+![Figure: Site Columns - Good Example](SSWColumns_small.jpg)  
 :::
 
 Sometimes you still may want to use a List Column.
