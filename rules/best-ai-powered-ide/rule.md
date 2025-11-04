@@ -79,11 +79,10 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 | Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported)                           | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported)                | • Browser based<br>• VSCode Support (GitHub CodeSpace)                        |
 
 ::: info
-**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you. 
+**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
 
 If you still have your student status, you can get **GitHub Copilot Pro for free** here: [Free GitHub Copilot Pro access](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer#about-free-github-copilot-pro-access)
 :::
-
 
 ## A word of caution
 
@@ -103,6 +102,8 @@ See <https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-l
 As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them.
 
 Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=cursor%20ide,windsurf%20ide&hl=en). However, Windsurf is a formidable competitor in the battle for the best AI-powered IDE.
+
+Note: In some regions, such as China, tools like Cursor and Claude are restricted from access. In such cases, [Trae](https://www.trae.ai/) serves as a great alternative. Trae is developed by ByteDance, the parent company of TikTok.
 
 ::: info
 **Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
