@@ -7,27 +7,35 @@ authors:
   - title: ""
 guid: bd3708fd-2bb4-49a3-842f-49004a5373d9
 ---
-Choosing the right language from your MCP tool can feel a little bit like finding a needle in the hay stack. Your inundated with options but now the onus is on you to pick the one that is suits your needs. At the same time, choosing the best language for your MCP tools has a directy impact on how and where you choose to expand and optimize.
+Choosing the right language from your Model Context Protocol (MCP) tool can feel a little bit like finding a needle in the hay stack. Your inundated with options but now the onus is on you to pick the one that is suits your needs. At the same time, choosing the best language for your MCP tools has a directly impact on how and where you choose to expand and optimize.
 
 <!--endintro-->
 
 
+## MCP Client
 
-### Why choose python?
+### #1 Recommended tool: Python
 
-If you hate type safety and happen to be a fan of spending most of your time fighting an absolutely dog shit package management ecosystem rather than actually coding Python may be the language for you. Do you love having to go back and fix your projects when a package updates and suddenly all you entire code base shits itself because none of the classes you were consuming from that package exist anymore? Choose Python.
+At SSW at the time of writing we have found the MCP library to be the most stable for creating an MCP client. We generally recommend .NET for building web APIs, but in our experience we've found that the official MCP library for C# is in a state of Flux and the developer experience isn't currently on par with Python.
+
+
 
 ### What is an MCP client?
 
 An MCP client acts as a bridge between a large language model and the services that language model can consume on the MCP server. The client is responsible for reporting which tools are available on it's corresponding server and providing an interface for the LLMs to invoke these tools.
 
-##### Why does this matter?
 
-Essentially your MCP Client only treats your MCP server as a functional dependency. The language your server is written in could be completely different to your client. The server simply needs to implement the JSON-RPC protocol.
 
-#### Official SDK Support
+## MCP Server
+### What is an MCP server?
 
-MCP is evolving quickly. Choose a language that has an actively maintained SDK or community library for MCP (e.g. TypeScript or Python). Each of the following libraries has an official MCP SDK support:
+An MCP server contains the services that will be exposed to LLM and consumed by the LLM via the MCP Client. As the MCP Client and MCP Server run independently from one another they can both be written in different languages.
+
+#### Choosing the right
+
+At SSW we haven't found significant differences between the official MCP SDKs in terms of building MCP servers. 
+
+As the ecosystem is evolving quickly we recommend choosing a language that has an actively maintained SDK or community library for MCP (e.g. TypeScript or Python). Each of the following libraries has an official MCP SDK support:
 
 * [TypeScript](https://github.com/modelcontextprotocol/typescript-sdk)
 * [Python](https://github.com/modelcontextprotocol/python-sdk)
@@ -40,72 +48,15 @@ MCP is evolving quickly. Choose a language that has an actively maintained SDK o
 * [Rust](https://github.com/modelcontextprotocol/rust-sdk)
 * [Swift](https://github.com/modelcontextprotocol/swift-sdk)
 
-### Common language choices for MCP tools
 
-### TypeScript / Node.js
 
-**✅ Pros:**
 
-* Fast iteration and development
-* Excellent JSON handling for integration with Web based SDKs
 
-**⚠️ Cons:**
+##### Why does this matter?
 
-* Less suited for heavy data or AI workloads
-* May lack the raw performance of compiled languages
+Essentially your MCP Client only treats your MCP server as a functional dependency. The language your server is written in could be completely different to your client. The server simply needs to implement the JSON-RPC protocol.
 
-### Python
 
-**✅ Pros:**
-
-* ⭐️Has the best libraries for local LLM development [LangChain](https://www.langchain.com/), [Pytorch](https://pytorch.org/), [LlamaIndex](https://www.llamaindex.ai/).
-* Supports Image analysis through the [Azure Computer Vision SDK](https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/sdk/overview-sdk#supported-languages)
-  Strong support for OpenAI and AI libraries
-* Has a robust ecosystem of libraries for adding data science capabilities such as  
-* Libraries such as [Pytorch](https://pytorch.org/) offer hardware acceleration for better performance.
-* Ideal for data-heavy and scientific workflows
-
-**⚠️ Cons:**
-
-* Slower performance compared to compiled languages
-* Not optimal for large-scale concurrent systems
-
-### C# (.NET)
-
-**✅ Pros:**
-
-* Excellent for API integrations and enterprise environments
-* Stable and well-supported on Windows and Azure
-
-**⚠️ Cons:**
-
-* Less flexible for non-Windows systems
-* Heavier setup compared to scripting languages
-
-### Go
-
-✅ Pros:
-
-* Very high performance and efficient concurrency
-* Great for scalable back-end or streaming applications
-
-⚠️ Cons:
-
-* Limited AI/ML library support
-* Less expressive for rapid prototyping
-
-### Rust
-
-**✅ Pros:**
-
-* Maximum performance and memory safety
-* Ideal for low-level or high-throughput tools
-
-**⚠️ Cons:**
-
-* Steeper learning curve
-* No Azure SDK for extended AI capabilities using Azure Services
-* Slower development speed compared to scripting languages
 
 - - -
 
