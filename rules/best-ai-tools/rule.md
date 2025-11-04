@@ -7,6 +7,8 @@ uri: best-ai-tools
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
+  - title: Alex Blum
+    url: https://www.ssw.com.au/people/alex-blum
 created: 2023-10-03T14:30:00.000Z
 guid: f393a74b-fbce-4d24-a4d8-3d0dad7007f5
 ---
