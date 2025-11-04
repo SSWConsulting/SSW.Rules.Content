@@ -94,10 +94,11 @@ Provides proof of approval
 :::
 
 ::: bad
-![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")
+![Figure: Bad example - Decision is recorded in notepad](RecordingInNotepad.png "Recording in Notepad")
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Product Owner|
@@ -116,13 +117,13 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 :::
 
 ::: good
-![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")
+![Figure: Good example - Decision is documented in the work item](document-discoveries-good-example.png "Azure Work Item")
 :::
 
 ::: bad
-![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::
 
 ::: good
-![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+![Figure: Good example - Moving a PBI to the backlog and documenting the decision](Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
 :::
