@@ -51,7 +51,7 @@ Also, never forget to do incremental changes in your tests!
 
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
 
-::: bad\
+::: bad
 ![Figure: Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.jpg)
 :::
 
