@@ -98,6 +98,7 @@ Provides proof of approval
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Product Owner|
