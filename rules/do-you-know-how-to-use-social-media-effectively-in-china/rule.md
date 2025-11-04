@@ -111,7 +111,7 @@ According to Bilibili's annual report to investors, their top 5 most watched vid
 4. Anime
 5. Technology
 
-Technology videos are now in the top 5 most watched category on Bilbili, and SSW China have discovered that Bilibili is a great platform to live stream and record our FireUG, we have over 50,000 followers now, Please check at https://space.bilibili.com/545713776.
+Technology videos are now in the top 5 most watched category on Bilbili, and SSW China have discovered that Bilibili is a great platform to live stream and record our FireUG, we have over 50,000 followers now, Please check at <https://space.bilibili.com/545713776>.
 
 Why you should use it:
 
@@ -129,6 +129,6 @@ Why you should use it:
 
 * Strong Trendsetting Impact
 * Over 300 million active users
-* Highly Engaged User Base 
+* Highly Engaged User Base
 * Powerful Influencer Ecosystem
 * Integrated E-commerce Features
