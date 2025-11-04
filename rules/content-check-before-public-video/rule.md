@@ -2,7 +2,7 @@
 seoDescription: Before recording a public-facing video, get a Content Check - a quick review of your script or outline by a Subject Matter Expert (SME) or the TV/Production Team to ensure accuracy, save time, and avoid re-edits.
 type: rule
 title: Do you get content check before public facing video?
-uri: content-check-before-public--facing-video
+uri: content-check-before-public-facing-video
 authors:
   - title: Hark
     url: https://ssw.com.au/people/harkirat-singh
