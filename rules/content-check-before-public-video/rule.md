@@ -44,6 +44,8 @@ Think of it like the “[Checked by xxx](https://www.ssw.com.au/rules/checked-by
    * If it’s a **technical/development topic** → get a **Dev SME** to review.  
    * If it’s a **production, marketing, or client-facing topic** → get a **TV/Production Team** member.  
    * Sometimes, it’s both!
+
+Then setup some time with them to perform your presentation/video in full over a call or in person. This way, you're getting rapid feedback in a 1 on 1 way. Saving you loads of time later down the line.
 3. **Ask for feedback early**  
 
    * Send your draft or slides before recording.  
