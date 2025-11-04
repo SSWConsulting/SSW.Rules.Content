@@ -30,3 +30,5 @@ For example, at SSW, we have an awesome office in Hangzhou, China, that offers 
 ::: good
 Good example: SSW China post their social media in both English and Chinese 中文, because it helps establish trust with our audience that we understand them, helps us target a wider audience and proves that we can help bridge the language barrier.
 :::
+
+Of course, you also need to adjust your strategy based on different platforms. For example, on Facebook, LinkedIn, and Twitter, posting in multiple languages looks more professional and helps reach a wider audience. However, for local platforms such as Weibo, WeChat, and Xiaohongshu in China, using only Chinese is more natural and better aligned with audience habits.
