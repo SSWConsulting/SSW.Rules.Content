@@ -24,7 +24,6 @@ created: 2009-02-28T09:43:16.000Z
 archivedreason: null
 guid: f15f834f-70dd-4f38-8597-9e561336caf2
 ---
-
 Tight project teams have a Daily 'Scrum' every day at the same time.
 
 It was once called a 'stand-up meeting' but that discriminates people in wheelchairs.
@@ -36,10 +35,13 @@ It is best to have it standing up, so it's short and to the point. No-one wants 
 Everybody knows the 3 essential questions:
 
 1. **What did you do yesterday?**
+
    * Including having Azure DevOps (or other task tracking system) up-to-date
 2. **What are you going to do today?**
+
    * Make sure the [task board](/task-board) has your current task "In progress"
 3. **Do you have any roadblocks?**
+
    * Explaing issues/impediments
 
 Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discover issues quickly and keep abreast of the progress.
@@ -54,7 +56,7 @@ The team's successes and failures are shared, and anyone who knows the answer to
 > "Great video guys. Remember, it is ok to change Scrum, actually, it is necessary for success. Just adhere to the values of Scrum."
 > Stephen Forte (Board member ScrumAlliance.com)
 
----
+- - -
 
 Follow these essential tips to improve your Daily Scrum meetings:
 
@@ -74,11 +76,11 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | {{ TEAM }} |
-| Recurrence: | Everyday |
-| Subject: | Daily Scrum – {{ PROJECT NAME }} |
+|             |                                  |
+| ----------- | -------------------------------- |
+| To:         | {{ TEAM }}                       |
+| Recurrence: | Everyday                         |
+| Subject:    | Daily Scrum – {{ PROJECT NAME }} |
 
 ::: email-content
 
@@ -142,7 +144,7 @@ Use a pen and paper to jot things down. A whiteboard is also great for "Parking 
 
 ## Tip #10: If you have raised impediments, consider contacting the Product Owner
 
-Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an impediment (aka roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
+Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an impediment (aka roadblock). Communication with the Product Owner is essential and if you haven't touched base with them in the past few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
 
 ![Figure: Call the Product Owner if you have an impediment](ProductOwnerTelephone_1710232021942.jpg)
 
@@ -177,10 +179,10 @@ To prevent misunderstandings or potential disagreements, send your Daily Scrum u
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Cc: | {{ ANYONE YOU'RE WORKING WITH }} |
+|          |                                              |
+| -------- | -------------------------------------------- |
+| To:      | Bob Northwind                                |
+| Cc:      | {{ ANYONE YOU'RE WORKING WITH }}             |
 | Subject: | {{ YOUR NAME / PROJECT NAME }} - Daily Scrum |
 
 ::: email-content
@@ -210,7 +212,7 @@ Figure: Good example - Always include what you previously worked on and what you
 ## Tip #14: Use IM
 
 After you have sent your email, you can also make it front and center by sending them a ping on IM.
-_“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
+*“Check your email for my Daily Scrum”* or paste in the below (a lightweight version with only what to do).
 
 Use Teams to bridge gaps in geography.
 
@@ -263,7 +265,7 @@ AutoScrum will scan your Azure DevOps repositories and find all the PBIs that yo
 
 More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
 
----
+- - -
 
 ### More information
 
@@ -286,7 +288,7 @@ It is important that any major incidents are dealt with first. Start with any ma
 
 ![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage_1710232021942.jpg)
 
----
+- - -
 
 ::: greybox
 Learn more about the meetings in Scrum:
