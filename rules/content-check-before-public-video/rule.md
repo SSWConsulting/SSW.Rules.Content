@@ -48,8 +48,9 @@ Think of it like the “[Checked by xxx](https://www.ssw.com.au/rules/checked-by
 Then setup some time with them to perform your presentation/video in full over a call or in person. This way, you're getting rapid feedback in a 1 on 1 way. Saving you loads of time later down the line.
 3. **Ask for feedback early**  
 
-   * Send your draft or slides before recording.  
-   * Let the reviewer mark it as **Checked by \[Name]**.
+* Send your draft or slides before recording.  
+* Let the reviewer mark it as **Checked by \[Name]**.
+
 4. **Apply suggestions**  
 
    * Update your outline before filming.  
