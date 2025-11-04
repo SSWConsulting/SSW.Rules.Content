@@ -23,7 +23,7 @@ An MCP client acts as a bridge between a large language model and the services t
 
 ##### Why does this matter?
 
-Essentially your MCP Client only treats your MCP server as a functional dependency. The language your server is written in could be completely different to your client. For this reason 
+Essentially your MCP Client only treats your MCP server as a functional dependency. The language your server is written in could be completely different to your client. The server simply needs to implement the JSON-RPC protocol.
 
 #### Official SDK Support
 
