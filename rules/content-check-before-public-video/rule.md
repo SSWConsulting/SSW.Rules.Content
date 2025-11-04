@@ -20,62 +20,49 @@ A quick **Content Check** before hitting record can save hours of rework and ens
 
 <!--endintro-->
 
-
 ### ⚠️ Problem
-
 
 You’ve recorded a video — but once it’s ready for edit, someone notices inaccurate content, missing context, or off-brand messaging.\
 Now you need to re-record… wasting time ⏳ and effort 🎥.
 
-
 ### 💡 Solution
-
 
 Before you hit **Record**, do a **Content Check** - a quick content check with a **Subject Matter Expert (SME)** or the **TV/Production Team**.
 
-
 Think of it like the “[Checked by xxx](https://www.ssw.com.au/rules/checked-by-xxx/)” rule, but for public videos.
-
 
 ### 🪜 Steps
 
-
 1. **Prepare yourself**  
-
 
    * Write your talking points, slides, or short script.  
    * Know the key message you want to deliver.
 2. **Get a content check**  
-
 
    * If it’s a **technical/development topic** → get a **Dev SME** to review.  
    * If it’s a **production, marketing, or client-facing topic** → get a **TV/Production Team** member.  
    * Sometimes, it’s both!
 3. **Ask for feedback early**  
 
-
    * Send your draft or slides before recording.  
    * Let the reviewer mark it as **Checked by \[Name]**.
 4. **Apply suggestions**  
-
 
    * Update your outline before filming.  
    * You’ll save hours of re-edits and extra versions later.
 5. **Record with confidence**  
 
-
    * You’ve already passed the content check.  
    * Hit Record and share your wonderful knowledge.
 
-
 ### 🏁 TL;DR
+
 ::: greybox
 “I’ve already recorded the full video — please review and tell me what to fix.”
 :::
 ::: bad
 Figure: Too late. It’ll cost time and energy to redo the video
 :::
-
 
 ::: greybox
 “Here’s my outline for the Azure feature flag video - Content checked by Bob (Dev) and Alice (TV Team). Recording tomorrow ✅”
