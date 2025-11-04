@@ -104,6 +104,8 @@ As you can see from the comparison table, each of the AI-powered IDEs rival each
 
 Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=cursor%20ide,windsurf%20ide&hl=en). However, Windsurf is a formidable competitor in the battle for the best AI-powered IDE.
 
+Note: In some regions, such as China, tools like Cursor and Claude are restricted from access. In such cases, [Trae](https://www.trae.ai/) serves as a great alternative. Trae is developed by ByteDance, the parent company of TikTok.
+
 ::: info
 **Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
 :::
