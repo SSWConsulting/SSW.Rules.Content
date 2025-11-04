@@ -42,7 +42,7 @@ To prevent these issues, a staff person should always supervise the tradesperson
 ### Examples
 
 ::: greybox
-_“The plumber came in today.”_ 
+_“The plumber came in today.”_
 :::
 ::: bad
 Figure: Bad example – Too vague, no confirmation of quality, tidiness, or definition of done
