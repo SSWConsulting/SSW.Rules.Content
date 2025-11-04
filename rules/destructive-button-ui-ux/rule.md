@@ -45,7 +45,7 @@ Delete buttons should always stand out with a **red color**. This is a well-esta
 
 * The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
 * Consistency is maintained across all UI elements
-* Ensure delete actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
 :::
 
 ## Use the right icon in the right position
@@ -70,7 +70,7 @@ Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is d
 
 * Place delete buttons away from primary actions
 * Use space or visual separation between them
-* Make delete buttons less prominent (except when the primary purpose is deletion)
+* Make destructive buttons less prominent (except when the primary purpose is deletion)
 
 ::: bad  
 ![Figure: Bad example - "Delete" and "Save" are too close together, which can lead to accidental clicks](destruction-button-bad-positioning.png)
@@ -82,7 +82,7 @@ Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is d
 
 ## Ask for confirmation when necessary
 
-Not every delete action needs a popup, but if the data is important or irreversible, you should ask the user to confirm.
+Not every destructive action needs a popup, but if the data is important or irreversible, you should ask the user to confirm.
 
 Use confirmations when:
 
