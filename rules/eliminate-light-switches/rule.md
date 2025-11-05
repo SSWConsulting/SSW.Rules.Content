@@ -33,12 +33,12 @@ With a smart automation system you can manage the whole office from a phone or t
 2. Create default [Control4 scenes](https://docs.control4.com/help/c4/user/userguide/content/topics/lighting/lighting_scenes.htm) for events such as daily open hours, after hours cleaning, and client presentations
 3. Give staff a short introduction so they know how to launch the app and trigger a scene
 
-::: bad
-Figure: Bad example - Light switches everywhere. Visitors guess which button controls the boardroom and employees leave lights on accidentally
+::: bad img-medium
+![Figure: Bad example - Light switches everywhere. Visitors guess which button controls the boardroom and employees leave lights on accidentally](light-switches-bad.png)
 :::
 
-::: good
-Figure: Good example - Control4 app - named rooms, timers, and remote access so you keep the office lit perfectly without touching a wall plate
+::: good img-medium
+![Figure: Good example - Control4 app - named rooms, timers, and remote access so you keep the office lit perfectly without touching a wall plate](light-switches-control4-good.png)
 :::
 
 Finish by scheduling routine checks. Once a quarter, confirm the Control4 scenes still match how the office is used and update names or schedules as needed.
