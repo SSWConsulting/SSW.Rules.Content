@@ -23,6 +23,7 @@ index:
 - record-teams-meetings
 - use-ai-for-meeting-notes
 - speak-up-in-meetings
+- meetings-in-english
 
 ---
 
