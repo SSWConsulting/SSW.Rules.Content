@@ -39,13 +39,18 @@ Think of it as the “[Checked by xxx](/checked-by-xxx/)” rule for your video 
    * Write your talking points, slides, or short script
    * Know the key message you want to deliver
 
-2. **Get a content check**  
+2. **Get a content check and ask for feedback**  
 
-   * If it’s a **technical/development topic** → get a **Dev SME** to review.  
-   * If it’s a **production, marketing, or client-facing topic** → get a **TV/Production Team** member.  
-   * Sometimes, it’s both!
+   * Send your draft or slides
+   * Let the reviewer mark it as **Checked by {{ NAME }}**
 
-   Then setup some time with them to perform your presentation/video in full over a call or in person. This way, you're getting rapid feedback in a 1 on 1 way. Saving you loads of time later down the line.
+   ::: greybox
+
+    * If it’s a **technical/development topic**, get a **Dev SME** to review
+    * If it’s a **production, marketing, or client-facing topic**, get a **TV/Production Team** member
+
+    **Note:** Sometimes, it’s both!
+   :::
   
 3. **(Optional) Perform presentation/video in full over a call or in person**  
 
