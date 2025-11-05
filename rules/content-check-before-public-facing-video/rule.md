@@ -30,7 +30,7 @@ You’ve recorded a video, and once it’s ready for edit, someone notices inacc
 
 Before you hit record, ask for a content check with a **Subject Matter Expert (SME)** or the **TV/Production Team**.
 
-Think of it as the “[Checked by xxx](/checked-by-xxx/)” rule for your video content.
+Think of it as the “[Checked by xxx](/checked-by-xxx)” rule for your video content.
 
 ### Steps for a public video recording
 
