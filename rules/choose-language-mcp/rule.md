@@ -54,9 +54,7 @@ When choosing a language for your MCP Client, you should prioritise SDK stabilit
 
 ### Recommended Language: Python
 
-At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP Clients at the time of writing.
-
-Its official SDK is mature, easy to work with, and has strong community support — making it an excellent option for most MCP integrations.
+At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP Clients at the time of writing. Its official SDK is mature, easy to work with, and has strong community support making it an excellent option for most MCP integrations.
 
 ### Other Options
 
@@ -65,11 +63,7 @@ We generally recommend .NET for building APIs and enterprise-grade applications.
 ## The Right Language for Creating MCP Servers
 
 
-Un our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. For MCP Servers consider any of the standard use cases 
-
-Because the client and server operate independently, you’re free to choose different languages for your server.
-
-The considerations for choosing a language for your MCP server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
+In our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. For MCP Servers consider any of the standard use cases. Because the client and server operate independently, you’re free to choose different languages for your server. The considerations for choosing a language for your MCP Server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
 
 - Integration with your existing systems
 - Performance requirements
