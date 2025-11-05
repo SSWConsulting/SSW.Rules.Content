@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/penny-walker
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
-related: []
+related:
+  - eliminate-light-switches
 redirects:
   - do-you-use-the-control4-app
 ---
