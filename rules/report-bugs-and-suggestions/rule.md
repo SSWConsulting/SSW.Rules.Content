@@ -257,7 +257,7 @@ If you are unclear use IM to ask, but remember [the golden rule to not send task
 Always go for backlog if you have access to a backlog management system, otherwise email relevant people.
 
 ::: info
-You would only Cc group emails - such as `all@northwind.com.au` - when a **greater visibility** is required.
+**Note:** Only Cc **group emails** when you need **extra visibility**.
 :::
 
 ### Tip #5: Make it easy to find backlogs within your company
