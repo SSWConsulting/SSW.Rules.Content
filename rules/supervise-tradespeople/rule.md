@@ -27,7 +27,7 @@ To prevent these issues, a staff person should always supervise the tradesperson
 * Tradespeople may not be familiar with our standards or priorities  
 * They may make assumptions about what needs to be done
 * Supervision ensures the job is completed to expectations the first time
-* Consistency matters — having the same SSW person supervise across multiple visits avoids confusion and miscommunication
+* Consistency matters - Having the same staff to supervise across multiple visits avoids confusion and miscommunication
 
 ## Responsibilities of the supervising staff member
 
@@ -35,14 +35,14 @@ To prevent these issues, a staff person should always supervise the tradesperson
 * **Stay available during the work** – Answer questions and ensure they follow agreed instructions
 * **Be there when trades leave** – Check the work is correct, ensure the area is neat and tidy, and confirm with the Maintenance Manager or property owner what “done” looks like
 * **Facilitate a final conversation** – Before the tradesperson leaves, bring in the Maintenance Manager or property owner (in person or via phone/Teams) to confirm the definition of done and sign off on the work  
-* **Confirm continuity** – Where possible, the same SSW person should supervise all visits by the same tradesperson
+* **Confirm continuity** – Where possible, the same person should supervise all visits by the same tradesperson
 * **Notify the Maintenance/Property Manager** – If they are not on site, send a quick message when trades arrive and again when they leave
 * **Communicate results** – Report what was completed, any issues, and if follow-up is required. Photos, Videos and Video Calls are encouraged
 
 ### Examples
 
 ::: greybox
-_“The plumber came in today.”_ 
+_“The plumber came in today.”_
 :::
 ::: bad
 Figure: Bad example – Too vague, no confirmation of quality, tidiness, or definition of done
