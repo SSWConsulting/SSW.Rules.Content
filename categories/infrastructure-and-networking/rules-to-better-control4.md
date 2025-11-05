@@ -6,6 +6,7 @@ uri: rules-to-better-control4
 index:
 - best-practices-office-automation
 - use-control4-app
+- eliminate-light-switches
 - control4-project-creation-steps
 - control4-agents
 - control4-separate-user-accounts

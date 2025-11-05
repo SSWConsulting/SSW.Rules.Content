@@ -10,7 +10,7 @@ index:
 - desk-setups
 - efficiency-do-you-use-two-monitors
 - dress-code
-
+- eliminate-light-switches
 - secure-access-system
 - color-code-keys
 - office-signs
