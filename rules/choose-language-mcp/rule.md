@@ -7,38 +7,39 @@ authors:
   - title: ""
 guid: bd3708fd-2bb4-49a3-842f-49004a5373d9
 ---
-
-
-Choosing the right language from your Model Context Protocol (MCP) tool can feel a little bit like finding a needle in the hay stack. Your inundated with options but now the onus is on you to pick the one that is suits your needs. At the same time, choosing the best language for your MCP tools has a directly impact on how and where you choose to expand and optimize.
+Choosing the right language for your Model Context Protocol (MCP) project can feel like riding the highway to decision fatigue. You’re inundated with options, but the onus is on you to pick one that truly suits your needs.
+In this rule, we’ll discuss how to choose the right language for your MCP clients and servers, saving you unnecessary pain down the line.
 
 <!--endintro-->
+
+## What are MCP Clients and Servers?
+
 ![Figure: Relationship between MCP servers and clients](mcp-client-server-relation.png)
 
-### \#1 Recommended tool: Python
+MCP (Model Context Protocol) defines a standard way for large language models (LLMs) to interact with external tools and data sources. It does this through two key components: MCP Clients and MCP Servers.
 
-At SSW at the time of writing we have found the MCP library to be the most stable for creating an MCP client. We generally recommend .NET for building web APIs, but in our experience we've found that the official MCP library for C# is in a state of Flux and the developer experience isn't currently on par with Python.
+### MCP Clients
 
-### Other languages
+An MCP Client acts as a bridge between the language model and the services exposed by an MCP Server.
+It reports which tools are available on its corresponding server and provides an interface for LLMs to invoke these tools.
 
-### What is an MCP client?
+Essentially, your MCP Client treats your MCP Server as a functional dependency.
+The language your client is written in can be completely different from your server, they simply communicate via the JSON-RPC protocol.
 
-An MCP client acts as a bridge between a large language model and the services that language model can consume on the MCP server. The client is responsible for reporting which tools are available on it's corresponding server and providing an interface for the LLMs to invoke these tools.
+### MCP Servers
 
-## MCP Server
+An MCP Server hosts the actual tools and services that an LLM can use through an MCP Client.
+Because the two components communicate via a standard protocol, you can implement your server in any language that can handle JSON-RPC requests.
 
-### What is an MCP server?
+### Supported SDKs
 
-An MCP server contains the services that will be exposed to LLM and consumed by the LLM via the MCP Client. As the MCP Client and MCP Server run independently from one another they can both be written in different languages.
+As the ecosystem is evolving quickly, we recommend choosing a language with an actively maintained SDK or community supported library.
 
-#### Choosing the right
-
-At SSW we haven't found significant differences between the official MCP SDKs in terms of building MCP servers. 
-
-As the ecosystem is evolving quickly we recommend choosing a language that has an actively maintained SDK or community library for MCP (e.g. TypeScript or Python). Each of the following libraries has an official MCP SDK support:
+Official SDKs currently exist for the following languages:
 
 * [TypeScript](https://github.com/modelcontextprotocol/typescript-sdk)
 * [Python](https://github.com/modelcontextprotocol/python-sdk)
-* [Java](https://github.com/modelcontextprotocol/java-sdk)
+* [Java](https://github.com/modelcontextprotocol/python-sdk)
 * [Kotlin](https://github.com/modelcontextprotocol/kotlin-sdk)
 * [C#](https://github.com/modelcontextprotocol/csharp-sdk)
 * [Go](https://github.com/modelcontextprotocol/go-sdk)
@@ -47,15 +48,29 @@ As the ecosystem is evolving quickly we recommend choosing a language that has a
 * [Rust](https://github.com/modelcontextprotocol/rust-sdk)
 * [Swift](https://github.com/modelcontextprotocol/swift-sdk)
 
-##### Why does this matter?
+## The Right Language for Creating MCP Clients
 
-Essentially your MCP Client only treats your MCP server as a functional dependency. The language your server is written in could be completely different to your client. The server simply needs to implement the JSON-RPC protocol.
+When choosing a language for your MCP Client, you should prioritise SDK stability and ecosystem support. The MCP community has official SDKs for multiple languages, and these libraries can be used to create both clients and servers.
 
-- - -
+### Recommended Language: Python
 
-### Rule of thumb
+At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP Clients at the time of writing.
 
-* **SDK Support:** Lower level Languages such as Rust may have better performance than scripting languages, but may not have official SDKs, making code maintenance more difficult.
-* **Native vs Cloud Capabilities:** Consider whether you want to be able to customize your language model locally or remotely you want to be tied to a cloud computing ecosystem (e.g. within Azure).
-* **Learning curve:** Once you've evaluated and SDK that meets the needs of your team members it's best to stick to an ecosystem your team already understands. Unless you find that the SDKs in your chosen language don't have the features you want.
-* **Performance:** If you are concerned with hosting your own language models, or running your language models locally consider Python for it's hardware acceleration advantages.
+Its official SDK is mature, easy to work with, and has strong community support — making it an excellent option for most MCP integrations.
+
+### Other Options
+
+We generally recommend .NET for building APIs and enterprise-grade applications. However, in our experience, the official C# MCP library is still evolving, and the developer experience isn’t yet on par with Python.
+
+## The Right Language for Creating MCP Servers
+
+
+Un our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. For MCP Servers consider any of the standard use cases 
+
+Because the client and server operate independently, you’re free to choose different languages for your server.
+
+The considerations for choosing a language for your MCP server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
+
+- Integration with your existing systems
+- Performance requirements
+- Developer familiarity and maintainability
