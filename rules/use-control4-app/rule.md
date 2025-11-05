@@ -39,8 +39,8 @@ To use Control4 on your phone and remotely control all services, you will need t
 
 1. Download the app from:
 
-- [App Store](https://apps.apple.com/us/app/control4-for-os-3/id1320153814?ls=1) or
-- [Google Play](https://play.google.com/store/apps/details?id=com.control4.app)
+* [App Store](https://apps.apple.com/us/app/control4-for-os-3/id1320153814?ls=1) or
+* [Google Play](https://play.google.com/store/apps/details?id=com.control4.app)
 
 ::: img-medium
 ![Figure: Download App](control4iosappstore.jpg)
