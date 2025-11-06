@@ -8,6 +8,7 @@ index:
   - the-steps-to-do-after-adding-a-page
   - create-friendly-short-urls
   - structured-website
+  - sitemap-xml-best-practices
   - always-have-a-default-index-page
   - have-a-stylesheet-file
   - scoped-css
