@@ -55,6 +55,8 @@ When choosing a language for your MCP Client, you should prioritise SDK stabilit
 
 At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP clients. The official SDK is mature, easy to work with, and has strong community support making it an excellent option for most MCP integrations.
 
+We strongly recommend using FastMCP for this. <todo: link>
+
 ### Other Options
 
 We generally recommend .NET for building APIs and enterprise-grade applications. However, in our experience, the official C# MCP library is still evolving, and the developer experience isn’t yet on par with Python.
