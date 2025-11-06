@@ -11,24 +11,8 @@ Choosing the right language for your Model Context Protocol (MCP) project can fe
 In this rule, we’ll discuss how to choose the right language for your MCP clients and servers, saving you unnecessary pain down the line.
 
 <!--endintro-->
-<todo: Move this to a separate rule>
-## What are MCP clients and servers?
 
-![Figure: Relationship between MCP clients and servers](mcp-client-server-relation.png)
-
-MCP (Model Context Protocol) defines a standard way for large language models (LLMs) to interact with external tools and data sources. It does this through two key components: MCP clients and MCP servers.
-
-### MCP Clients
-
-An MCP client acts as a bridge between the language model and the services exposed by an MCP server.
-
-Essentially, your MCP client treats your MCP server as a functional dependency.
-The language your client is written in can be completely different from your server, they simply communicate via the JSON-RPC protocol.
-
-### MCP Servers
-
-An MCP server hosts the actual tools and services that an LLM can use through an MCP client.
-Because the two components communicate via a standard protocol, you can implement your server in any language that can handle JSON-RPC requests.
+We won't cover off the distinction between an MCP client and and MCP server in this rule. If you are curious about the difference between the two, and the architeture of MCP in general please see our [rule about MCP servers](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/).
 
 ### Supported SDKs
 
@@ -55,7 +39,7 @@ When choosing a language for your MCP Client, you should prioritise SDK stabilit
 
 At SSW, we’ve found Python to be the most stable and reliable choice for creating MCP clients. The official SDK is mature, easy to work with, and has strong community support making it an excellent option for most MCP integrations.
 
-We strongly recommend using FastMCP for this. <todo: link>
+We strongly recommend using [FastMCP](https://gofastmcp.com/getting-started/welcome) for this. 
 
 ### Other Options
 
@@ -63,9 +47,8 @@ We generally recommend .NET for building APIs and enterprise-grade applications.
 
 ## The Right Language for Creating MCP servers
 
-
 In our experience we've found that the stability issues with the libraries mainly arise when creating an MCP client. Because the client and server operate independently, you’re free to choose different languages for your server. The considerations for choosing a language for your MCP server will be fairly standard reasons for why you'd choose the language in other scenarios, such as:
 
-- Integration with your existing systems
-- Performance requirements
-- Developer familiarity and maintainability
+* Integration with your existing systems
+* Performance requirements
+* Developer familiarity and maintainability
