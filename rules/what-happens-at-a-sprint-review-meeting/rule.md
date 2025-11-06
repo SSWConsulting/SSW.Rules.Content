@@ -55,7 +55,7 @@ If there are additional stakeholders, make sure they get called in for the summa
 * Ping them in a Teams chat when the meeting starts
   
    **Note**: Stakeholders often have a lot on their plate... Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"{{ TEAM NAME }} Sprint Review Stakeholders"**)
-   
+
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
