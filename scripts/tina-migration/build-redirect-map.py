@@ -22,19 +22,19 @@ def extract_frontmatter(content):
 
 def parse_frontmatter_field(fm_text, field_name):
     """Parse a specific field from frontmatter text."""
-    # First check for multi-line array field (starts with field_name:, followed by lines starting with "  - ")
+    # First check for multi-line array field (starts with field_name:, followed by lines starting with "-")
     array_match = re.search(
-        rf'^{field_name}:\s*$\n((?:  - .+$\n?)+)',
+        rf'^{field_name}:\s*$\n((?:[ \t]*-\s+.+(?:\n|$))+)',
         fm_text,
         re.MULTILINE
     )
     if array_match:
         items = []
-        for line in array_match.group(1).split('\n'):
-            line_stripped = line.strip()
-            if line_stripped.startswith('- '):
-                # Remove the leading "- " and any surrounding whitespace
-                items.append(line_stripped[2:].strip())
+        for line in array_match.group(1).splitlines():
+            m = re.match(r'^[ \t]*-\s*(.+?)\s*$', line)
+            if m:
+                # Remove surrounding quotes if present
+                items.append(m.group(1).strip().strip('\'"'))
         return items if items else None
 
     # Check if field exists but has no value on the same line (e.g., "redirects:" followed by newline)
@@ -54,6 +54,7 @@ def parse_frontmatter_field(fm_text, field_name):
         return value
 
     return None
+
 
 
 def process_mdx_file(file_path):
