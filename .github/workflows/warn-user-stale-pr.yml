@@ -1,0 +1,35 @@
+name: Warn User Stale PR Closed Duplicates
+
+on:
+  workflow_dispatch:
+    inputs:
+      comment:
+        description: "Comment to post on each open PR"
+        required: true
+        default: "Automated reminder: Please review this PR when you have a chance."
+
+jobs:
+  comment_on_open_prs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Comment on all open pull requests
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMENT: ${{ inputs.comment }}
+        run: |
+          set -euo pipefail
+          prs=$(gh pr list --state open --json number --limit 5000 -q '.[].number')
+
+          if [ -z "$prs" ]; then
+            echo "No open pull requests found."
+            exit 0
+          fi
+
+          for pr in $prs; do
+            echo "Commenting on PR #$pr"
+            gh pr comment "$pr" --body "$COMMENT"
+          done
