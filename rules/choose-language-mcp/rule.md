@@ -2,6 +2,9 @@
 type: rule
 tips: ""
 title: Do you choose the right language for your MCP implementation?
+seoDescription: Choosing the correct language for your MCP server can be a hassle.
+  Here are our tips for choosing the right one for your project on industry 
+  experience
 uri: choose-language-mcp
 authors:
   - title: Caleb Williams
