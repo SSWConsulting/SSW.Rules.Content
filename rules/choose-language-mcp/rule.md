@@ -15,7 +15,7 @@ In this rule, we’ll discuss how to choose the right language for your MCP clie
 
 <!--endintro-->
 
-We won't cover off the distinction between an MCP client and and MCP server in this rule. If you are curious about the difference between the two, and the architeture of MCP in general please see our [rule about MCP servers](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/).
+If you need an introduction to the architecture of MCP in general, please [start here](https://www.ssw.com.au/rules/use-mcp-to-standardize-llm-connections/).
 
 ### Supported SDKs
 
