@@ -4,7 +4,7 @@ type: rule
 title: Do you ask for a content check before posting a public video?
 uri: content-check-before-public-facing-video
 authors:
-  - title: Hark Singh
+  - title: Harkirat Singh
     url: https://ssw.com.au/people/harkirat-singh
 related: 
   - checked-by-xxx
