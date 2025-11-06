@@ -22,7 +22,7 @@ Microservice architecture poses some unique challenges that can often trip up ev
 * Draw your Microservices on a whiteboard
 * Whenever one Microservice needs to communicate with another, draw a line between them. If there are several distinct integration points between the same 2 Microservices, add a "+1" or "+2" or "+N" to the line, indicating how many distinct calls those services share. For every paired Microservice, list all the integration points, with particular focus on *why* this integration exists, and the *frequency* in which it occurs (ie rarely, frequently, every time). For example: `OrdersService.Create(...)->Customers.GetCustomer(...). Frequency: every request.`.
 
-![Microservice maps can get intense](bad-example-microservice-boundaries.png)
+![Microservice maps can get intense](bad-example-microservice-map.png)
 **Figure: Incorrect boundaries result in spaghetti services**
 
 ### Identify hotspots

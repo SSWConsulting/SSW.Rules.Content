@@ -26,18 +26,18 @@ Do you have checkbox (on the top) that let users select or unselect all checkbox
 ![Figure: Google have done it a different way to provide multiple methods (All, All Read, All Unread, All Starred, and All Unstarred)](/GmailSelectAll.gif)  
 
 ::: bad  
-![Figure: Bad Example - SQL Auditor - No CheckBox for users to perform a "select all"](/_Bad.jpg)  
+![Figure: Bad Example - SQL Auditor - No CheckBox for users to perform a "select all"](/SQLAuditorSelectAll_Bad.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example - SQL Auditor - CheckBox at the top of the column](/_good.jpg)  
+![Figure: Good Example - SQL Auditor - CheckBox at the top of the column](/SQLAuditorSelectAll_good.jpg)  
 :::
 
-![Figure: Selecting all does this - selects all](/_All.jpg)  
+![Figure: Selecting all does this - selects all](/SQLAuditorSelectAll_All.jpg)  
 
-![Figure: Deselecting all does this - selects none](/_None.jpg)  
+![Figure: Deselecting all does this - selects none](/SQLAuditorSelectAll_None.jpg)  
 
-![Figure: Selecting some should show the Indeterminate check state - aka customized selection](/_Customize.jpg)  
+![Figure: Selecting some should show the Indeterminate check state - aka customized selection](/SQLAuditorSelectAll_Customize.jpg)  
 
 ```
 Private Sub CheckBoxSelectAll\_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) \_
@@ -50,7 +50,7 @@ End Sub
 ```
 
 Code: Code for selecting all checkboxes in a windows form
-![Figure: Select all checkboxes in a web form](/_Web.jpg)  
+![Figure: Select all checkboxes in a web form](/SelectAllCheckBox_Web.jpg)  
 
 ```
 &lt;script type="text/javascript"&gt;

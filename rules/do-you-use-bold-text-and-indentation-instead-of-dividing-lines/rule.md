@@ -37,7 +37,7 @@ We recommend using bold instead of dividing lines because:
 :::
 
 ::: bad  
-![Figure: Bad Example - This is an old screen from Code Auditor - the dividing lines are not required.](/BadDivider.gif)  
+![Figure: Bad Example - This is an old screen from Code Auditor - the dividing lines are not required.](/Bad-Divider.gif)  
 :::
 
 ::: good  

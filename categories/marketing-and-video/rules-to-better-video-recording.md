@@ -9,6 +9,7 @@ index:
   - making-a-great-done-video
   - consultancy-videos
   - pre-production-do-you-test-technical-scripts-properly
+  - content-check-before-public-facing-video
   - define-the-level-of-quality-up-front
   - developer-console-screenshots
   - focus-peaking

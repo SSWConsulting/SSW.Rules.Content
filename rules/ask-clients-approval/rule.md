@@ -72,5 +72,5 @@ Training clients to review the work carefully leads to better quality projects.
 ![Figure: Getting the client's signature ensures more accurate requirements](/MJ-rule-UI-mockup.jpg)
 
 ::: img-medium
-![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects\_Signature.jpg)  
+![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects_Signature.jpg)  
 :::

@@ -29,6 +29,7 @@ index:
 - manage-legal-implications-of-ai
 - mitigate-brand-risks-ai
 - run-llms-locally
+- choose-language-mcp
 - mcp-server
 - use-mcp-to-standardize-llm-connections
 - digest-microsoft-form
