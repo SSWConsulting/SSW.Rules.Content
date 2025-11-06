@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you choose the right language for your MCP implementation
+title: Do you choose the right language for your MCP implementation?
 uri: choose-language-mcp
 authors:
   - title: Caleb Williams
