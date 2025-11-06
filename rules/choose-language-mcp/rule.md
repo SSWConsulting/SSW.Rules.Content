@@ -11,7 +11,7 @@ Choosing the right language for your Model Context Protocol (MCP) project can fe
 In this rule, we’ll discuss how to choose the right language for your MCP clients and servers, saving you unnecessary pain down the line.
 
 <!--endintro-->
-
+<todo: Move this to a separate rule>
 ## What are MCP clients and servers?
 
 ![Figure: Relationship between MCP clients and servers](mcp-client-server-relation.png)
