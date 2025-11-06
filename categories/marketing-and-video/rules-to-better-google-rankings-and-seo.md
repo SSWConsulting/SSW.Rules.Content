@@ -12,6 +12,7 @@ index:
 - do-you-know-that-content-is-king
 - seo-tools
 - seo-checklist
+- sitemap-xml-best-practices
 - do-you-know-anything-about-brand-power-and-social-signals
 - do-you-provide-a-good-user-experience
 - how-to-find-inbound-links-to-your-pages
