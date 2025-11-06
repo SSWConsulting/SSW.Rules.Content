@@ -4,7 +4,7 @@ tips: ""
 title: Do you choose the right language for your MCP implementation
 uri: choose-language-mcp
 authors:
-  - title: ""
+  - title: Caleb Williams
 guid: bd3708fd-2bb4-49a3-842f-49004a5373d9
 ---
 Choosing the right language for your Model Context Protocol (MCP) project can feel like riding the highway to decision fatigue. You’re inundated with options, but the onus is on you to pick one that truly suits your needs.
