@@ -81,7 +81,7 @@ Let me know if you want anyone else added.
 :::
 
 ::: info
-**Tip**: Ask stakeholders for Copilot AI images **before the summary meeting** to include in the summary email.
+**Tip**: (Optional) Ask stakeholders for Copilot AI images **before the summary meeting** to include in the summary email.
 :::
 
 ::: good
