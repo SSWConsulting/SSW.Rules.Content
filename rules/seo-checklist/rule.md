@@ -28,8 +28,8 @@ The best way to avoid this is to **start each webpage with solid SEO built in**.
 <!--endintro-->
 
 Because not everyone creating pages is a developer, the process should be streamlined:
-- Have the requester (content author, marketer) fill a template (for example a GitHub issue) containing the checklist  
-- The developer uses that to build the page and ensure all SEO elements are included
+* Have the requester (content author, marketer) fill a template (for example a GitHub issue) containing the checklist  
+* The developer uses that to build the page and ensure all SEO elements are included
 
 ## 🌐 SEO checklist for websites
 
@@ -91,13 +91,13 @@ Use this list to validate each new page **before publishing**:
 
 ---
 
-Following these checklists ensures your pages and your overall website are **search-engine friendly from day one**, avoiding costly rework later. 
+Following these checklists ensures your pages and your overall website are **search-engine friendly from day one**, avoiding costly rework later.
 
 ---
 
 ### Using GitHub Issues for a new webpage
 
-Not everybody who wants to create a webpage is actually doing the creation (sometimes they will give the task to a developer). Therefore, to make sure that content does not get lost in the creation process, it is important to have a streamlined procedure. 
+Not everybody who wants to create a webpage is actually doing the creation (sometimes they will give the task to a developer). Therefore, to make sure that content does not get lost in the creation process, it is important to have a streamlined procedure.
 
 Creating a GitHub Issue is the best way for non-developers to send the request for a new webpage to their developers. So, the best place to keep your checklist is in a GitHub Issue template that exists specifically for requesting a new page on your website. See this rule about [GitHub issue templates](/github-issue-templates/).
 
