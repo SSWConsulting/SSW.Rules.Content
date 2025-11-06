@@ -8,6 +8,7 @@ seoDescription: Choosing the correct language for your MCP server can be a hassl
 uri: choose-language-mcp
 authors:
   - title: Caleb Williams
+    url: https://ssw.com.au/people/caleb-williams
 guid: bd3708fd-2bb4-49a3-842f-49004a5373d9
 ---
 Choosing the right language for your Model Context Protocol (MCP) project can feel like riding the highway to decision fatigue. You’re inundated with options, but the onus is on you to pick one that truly suits your needs.
