@@ -35,7 +35,7 @@ Your employees are your greatest asset, yet their valuable knowledge and insight
 
 **Video: How we use the "Brains" of our company - SSW Brainstorming (1 min)**
 
-Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency, and even entirely new business ideas. 
+Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency, and even entirely new business ideas.
 
 Empowering these employees with an annual Brainstorming day is a great way to transform their good ideas into valuable solutions, as well as giving them the opportunity to learn and grow from each other. Also, many employees enjoy the opportunity to flex their creative muscles in fun ways that their day-to-day jobs may not always afford them.
 
