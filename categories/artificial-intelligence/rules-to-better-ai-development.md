@@ -31,7 +31,6 @@ index:
 - keep-task-summaries-from-ai-assisted-development
 - attribute-ai-assisted-commits-with-co-authors
 - ai-assistants-work-in-repository-directory
-- 
 ---
 
 Want to revolutionize your business with AI? Check [SSW's Artificial Intelligence and Machine Learning consulting page](https://www.ssw.com.au/consulting/artificial-intelligence).
