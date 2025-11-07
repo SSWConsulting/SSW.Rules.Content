@@ -16,7 +16,7 @@ archivedreason: null
 guid: 2d3c3637-ac4e-4c9c-97b0-1ef0bd238b7f
 ---
 
-Recording a video is time-consuming... scripting, filming, editing, and reviewing all take effort. The biggest waste happens when you record **before** verifying the accuracy of your content.  
+Recording a **public video** is time-consuming... scripting, filming, editing, and reviewing all take extra effort. The biggest waste happens when you record **before** verifying the accuracy of your content.  
 
 Before hitting record, a quick **content check** can save hours of rework and help you get it right the first time.
 
@@ -24,7 +24,7 @@ Before hitting record, a quick **content check** can save hours of rework and he
 
 ## The problem
 
-You’ve recorded a video, and once it’s ready for edit, someone notices inaccurate content, missing context, or off-brand messaging. Now you need to re-record... wasting time and effort.
+You’ve been asked to record a public video, and after filming, someone spots inaccurate content, missing context, or off-brand messaging. Now you have to re-record, wasting time and effort.
 
 ## The solution
 
