@@ -83,6 +83,9 @@ INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
+# Matches Markdown inline links that are not images, capturing the link text, href, and optional title.
+ASSET_LINK_REGEX = r'(?<!\!)\[(?P<text>[^\]]+)\]\((?P<href>[^)\s]+)(?:\s+"(?P<title>[^"]*)")?\)'
+
 
 # ----------------------------- #
 # Utilities
@@ -200,6 +203,20 @@ def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
         new_src = add_prefix_if_relative(raw_src, src_prefix)
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
+
+def replace_asset_link(m, src_prefix: str) -> str:
+    text = m.group('text')
+    href = m.group('href').strip()
+    title = m.group('title')
+
+    if re.match(r'^(https?:|mailto:|#|/)', href, flags=re.IGNORECASE):
+        return m.group(0)
+
+    if not re.search(r'\.(pdf|doc|docx|xls|xlsx|ppt|pptx|zip|mp4|mov|csv|txt)$', href, flags=re.IGNORECASE):
+        return m.group(0)
+
+    new_href = add_prefix_if_relative(href, src_prefix)
+    return f'[{text}]({new_href} "{title}")' if title else f'[{text}]({new_href})'
 
 
 # ----------------------------- #
@@ -714,6 +731,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
+    content = re.sub(ASSET_LINK_REGEX, lambda m: replace_asset_link(m, src_prefix), content)
 
     content = convert_angle_bracket_links(content)
 
