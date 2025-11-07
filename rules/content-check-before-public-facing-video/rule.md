@@ -26,6 +26,10 @@ Before hitting record, a quick **content check** can save hours of rework and he
 
 You’ve been asked to record a public video, and after filming, someone spots inaccurate content, missing context, or off-brand messaging. Now you have to re-record, wasting time and effort.
 
+::: info
+**Tip:** Always make sure there’s a **documented request** for public videos, where the requester clearly states the video's public purpose. This ensures everyone understands its importance and treats it accordingly.
+:::
+
 ## The solution
 
 Before you hit record, ask for a content check with a **Subject Matter Expert (SME)** or the **TV/Production Team**.
