@@ -11,7 +11,7 @@ authors:
 created: 2024-07-09T20:21:50.796Z
 guid: 09bd4539-6c37-4233-81dd-e9f0392e2c37
 related:
-  - google-search-console-vs-google-analytics
+  - do-you-include-google-analytics-in-your-website
   - wcag-compliance
 ---
 

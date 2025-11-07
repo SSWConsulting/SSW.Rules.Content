@@ -8,10 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/ben-neoh
   - title: Rick Su
     url: https://www.ssw.com.au/people/rick-su
-    
 related:
-  - azure-do-you-use-the-right-azure-service
-  - azure-do-you-use-azure-landing-zones
+  - choose-azure-services
 created: 2025-07-17T13:45:00.000Z
 guid: 3d9644e5-1d2d-456f-a7b4-90b8923a1e4b
 ---

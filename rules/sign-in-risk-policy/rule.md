@@ -7,7 +7,7 @@ authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
 related:
-  - risky-users-policy
+  - user-risk-policy
 created: 2022-04-29T02:06:23.523Z
 guid: 8faf35c0-b062-4223-9bd3-aec5373eafa6
 ---

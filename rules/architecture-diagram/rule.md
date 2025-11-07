@@ -167,7 +167,7 @@ Maintain standards to keep your diagrams consistent:
 
 #### Eraser
 
-Another popular tool is [Eraser](app.eraser.io) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
+Another popular tool is [Eraser](https://app.eraser.io/) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
 
 #### Miro (by Adobe)
 

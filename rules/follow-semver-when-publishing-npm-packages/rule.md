@@ -7,7 +7,7 @@ authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh
 related:
-  - different-symbols-mean-for-npm-version
+  - npm-packages-version-symbols
   - packages-up-to-date
   - semantic-versioning
 created: 2024-12-5T08:33:21.000Z

@@ -27,11 +27,11 @@ When messaging someone, it's often tempting to send a big block of text. This ca
 Breaking messages ensures that each segment is clear and distinct, avoiding confusion and promoting a better understanding of individual points. It encourages recipients to respond or interact to specific points or questions, fostering more focused and efficient communication.
 
 ::: bad
-![Figure: Bad example - This message contains many different subjects! It's informative, but hard to respond to](./separate-messages-bad.png)
+![Figure: Bad example - This message contains many different subjects! It's informative, but hard to respond to](/separate-messages-bad.png)
 :::
 
 ::: good
-![Figure: Good example - Here, each message is separate, making them individually available for responses](./separate-messages-good.png)
+![Figure: Good example - Here, each message is separate, making them individually available for responses](/separate-messages-good.png)
 :::
 
 ::: greybox

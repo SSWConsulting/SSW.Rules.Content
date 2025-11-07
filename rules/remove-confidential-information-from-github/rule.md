@@ -39,7 +39,7 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
 3. **Delete the affected revision**
 
    * If you have permission, delete the comment or attachment that contained the data.
-   ![Figure: Delete revisions so compromised data is fully removed](confidential-info-removed-revision-deletion.png)
+   ![Figure: Delete revisions so compromised data is fully removed](/confidential-info-removed-revision-deletion.png)
 
    * If you **can’t delete it yourself**, **contact your repository owners or admins** and ask them to remove it.
    * If the revision still can’t be deleted (e.g. issue body history), **contact [GitHub Support](https://support.github.com/contact)** and provide:
@@ -52,7 +52,7 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
    In the issue description or a comment, add a message like:\
    "**‼️ CONFIDENTIAL INFORMATION REMOVED** The affected content was in a: screenshot / comment / video / etc."  
 
-   ![Figure: Inform about deletions mentioned what it was](confidential-info-removed-comment.png)
+   ![Figure: Inform about deletions mentioned what it was](/confidential-info-removed-comment.png)
 
 ## Tips to prevent future issues
 

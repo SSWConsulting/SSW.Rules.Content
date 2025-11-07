@@ -30,7 +30,7 @@ When there's a major error during deployment or a catastrophic fault happens, wh
 
 It feels like reverting back to the previous stable version is the safest and quickest way to restore functionality.
 
-![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
+![Figure: Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
 
 However, rolling back can have several negative consequences, making it crucial to consider the drawbacks:
 

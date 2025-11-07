@@ -11,7 +11,8 @@ related: []
 redirects: []
 ---
 
-![Optical alignment](/opticalalignment.jpg)**Figure: In the first example, although the text is technically aligned, it does not 'look' it. In the second one, the "V" has been moved into the margin, but the optical alignment is now correct**
+![Optical alignment](/opticalalignment.jpg)
+**Figure: In the first example, although the text is technically aligned, it does not 'look' it. In the second one, the "V" has been moved into the margin, but the optical alignment is now correct**
 
 <!--endintro-->
 

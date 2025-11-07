@@ -21,7 +21,7 @@ related:
 redirects: []
 ---
 
-[Bench Masters](/bench-mastes) are responsible for ensuring that developers get put on projects that align with the companies goals and the developers' career goals. This means they need to stay aligned with the company' stakeholders and keep them informed of the developers' focus.
+[Bench Masters](/bench-master) are responsible for ensuring that developers get put on projects that align with the companies goals and the developers' career goals. This means they need to stay aligned with the company' stakeholders and keep them informed of the developers' focus.
 Bench Masters also help employees blocked by a company stakeholder to get unblocked.
 
 This alignment can be achieved through a weekly meeting with the Bench Masters and stakeholders called the Priority Alignment meeting.

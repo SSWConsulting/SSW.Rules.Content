@@ -31,7 +31,7 @@ Think about this, is that 10th of May or 5th of October? Is it 6 AM or 6 PM?
 People in different regions format the date in different ways:
 
 ::: img-medium  
-![Figure: 10/05/25 reads differently to Aussie, American and Chinese](image-use-correct-time-format-1.png)
+![Figure: 10/05/25 reads differently to Aussie, American and Chinese](/image-use-correct-time-format-1.png)
 :::
 
 Software can also misinterpret it. For example, entering 10/05/2025 on an Aussie laptop could be read as October 5th, 2025, if opened on an American system.
@@ -81,7 +81,7 @@ Avoid the 12 PM / 12 PM trap.
 * For boundaries (e.g., validity periods), avoid 00:00; use 00:01 for start and 23:59 for end (common airline practice) to remove doubt.
 
 ::: img-medium  
-![Figure: Will you attend this event on the night of the 14th or the 15th?](image-use-correct-time-format-2.png)
+![Figure: Will you attend this event on the night of the 14th or the 15th?](/image-use-correct-time-format-2.png)
 :::
 
 Always include a time zone for cross-location events: AEST (UTC+10), AEDT (UTC+11), PT (UTC–8), etc.

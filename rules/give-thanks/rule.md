@@ -9,7 +9,7 @@ authors:
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit/
 related:
-  - do-you-know-to-thank-others-for-each-reference-to-you
+  - thank-others-for-each-reference-to-you
   - what-to-do-with-a-work-around
 redirects:
   - do-you-use-a-signature-with-a-link-when-commenting-on-a-blog

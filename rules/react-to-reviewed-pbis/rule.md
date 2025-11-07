@@ -24,7 +24,7 @@ Once you've done that, react with a 👍 (like) to show you have read and agree.
 If you **don’t** agree with a GitHub issue, please leave a quick comment to share why so everyone can understand your 👎 (dislike) and keep the discussion helpful.
 
 ::: info
-This is especially useful for PBIs created by [YakShaver](/https://yakshaver.ai), as those are ai-generated and may need refinement.
+This is especially useful for PBIs created by [YakShaver](https://yakshaver.ai), as those are ai-generated and may need refinement.
 :::
 
 ::: good

@@ -12,7 +12,7 @@ authors:
 related:
   - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
   - how-to-see-what-is-going-on-in-your-project
-  - do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+  - use-microsoft-advertising-formerly-known-as-bing-ads
   - branding-do-you-know-when-to-use-an-overlay-on-images
 redirects:
   - do-you-have-an-endomarketing-internal-marketing-strategy-in-your-company

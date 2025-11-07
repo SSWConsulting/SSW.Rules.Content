@@ -45,5 +45,4 @@ The tester then runs each Acceptance Test case:
 
 ![Figure: Open the Test Runner using the "Run" menu item from test case(s)](acceptance-tests-run.jpg)
 
-![Figure: In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)
-](acceptance-tests-run-steps.jpg)
+![Figure: In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)](acceptance-tests-run-steps.jpg)

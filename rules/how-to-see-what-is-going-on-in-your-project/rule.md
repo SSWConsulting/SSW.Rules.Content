@@ -12,7 +12,7 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
 related:
   - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
-  - sem-do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+  - use-microsoft-advertising-formerly-known-as-bing-ads
   - do-you-have-an-endomarketing-internal-marketing-strategy-in-your-company
   - branding-do-you-know-when-to-use-an-overlay-on-images
 redirects:

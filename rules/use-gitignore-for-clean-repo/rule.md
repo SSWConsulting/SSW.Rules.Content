@@ -10,7 +10,6 @@ created: 2024-09-19T13:42:55.753Z
 guid: 1e89d2a8-3718-4920-934a-c28f1d4cb497
 related: 
 - do-you-know-the-benefits-of-using-source-control
-- do-you-know-these-important-git-commands
 redirects:
   - do-you-use-gitignore-for-your-repo
 ---

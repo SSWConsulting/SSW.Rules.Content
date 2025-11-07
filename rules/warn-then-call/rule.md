@@ -89,7 +89,7 @@ Calling in 1 minute. See the PBI/Issue:
 Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting
 :::
 
-**Tip:** For the example above, PBIs often have long URLs. [Include a line break](format-new-lines/#urls) for better readability.
+**Tip:** For the example above, PBIs often have long URLs. [Include a line break](/format-new-lines/#urls) for better readability.
 
 ::: greybox
 Calling in 1 minute about this email thread:

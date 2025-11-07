@@ -28,5 +28,5 @@ For an options group, user can see all the available options without clicking, a
 :::
 
 ::: good  
-![Figure: Good example - Radio Buttons are used and aligned vertically](/98ff988107e5d4543d2c344394249dc0/UsingRadioButtons.gif)  
+![Figure: Good example - Radio Buttons are used and aligned vertically](/UsingRadioButtons.gif)  
 :::

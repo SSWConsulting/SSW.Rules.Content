@@ -30,7 +30,7 @@ Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confiden
 
 ## What is an NDA
 
-A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](<https://en.wikipedia.org/wiki/Party_(law)> "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
+A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](https://en.wikipedia.org/wiki/Party_(law) "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
 
 ## Be sensible
 
