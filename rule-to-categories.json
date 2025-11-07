@@ -177,6 +177,9 @@
     "run-llms-locally": [
         "rules-to-better-ai"
     ],
+    "choose-language-mcp": [
+        "rules-to-better-ai"
+    ],
     "mcp-server": [
         "rules-to-better-ai"
     ],
@@ -1003,7 +1006,8 @@
     ],
     "build-inter-office-interaction": [
         "rules-to-better-software-consultants-working-in-a-team",
-        "rules-to-better-outsourcing"
+        "rules-to-better-outsourcing",
+        "rules-to-better-offices"
     ],
     "gather-team-opinions": [
         "rules-to-better-software-consultants-working-in-a-team"
@@ -2697,6 +2701,33 @@
         "rules-to-better-remote-work"
     ],
     "dress-code": [
+        "rules-to-better-offices"
+    ],
+    "eliminate-light-switches": [
+        "rules-to-better-offices",
+        "rules-to-better-control4"
+    ],
+    "secure-access-system": [
+        "rules-to-better-offices",
+        "rules-to-better-control4",
+        "rules-to-better-security"
+    ],
+    "color-code-keys": [
+        "rules-to-better-offices"
+    ],
+    "office-signs": [
+        "rules-to-better-offices"
+    ],
+    "bring-water-to-guests": [
+        "rules-to-better-offices"
+    ],
+    "identify-office-deliveries": [
+        "rules-to-better-offices"
+    ],
+    "employee-yolo-day": [
+        "rules-to-better-offices"
+    ],
+    "cultural-exchange": [
         "rules-to-better-offices"
     ],
     "do-you-do-daily-check-in-ins": [
@@ -4417,10 +4448,6 @@
     "control4-separate-user-accounts": [
         "rules-to-better-control4"
     ],
-    "secure-access-system": [
-        "rules-to-better-control4",
-        "rules-to-better-security"
-    ],
     "do-you-backup-your-control4-projects-to-the-cloud": [
         "rules-to-better-control4"
     ],
@@ -5609,6 +5636,10 @@
     "seo-checklist": [
         "rules-to-better-google-rankings-and-seo"
     ],
+    "sitemap-xml-best-practices": [
+        "rules-to-better-google-rankings-and-seo",
+        "rules-to-better-websites-development"
+    ],
     "do-you-know-anything-about-brand-power-and-social-signals": [
         "rules-to-better-google-rankings-and-seo"
     ],
@@ -5975,10 +6006,10 @@
     "all-the-things-you-can-use-qr-code-for": [
         "rules-to-better-qr-code"
     ],
-    "where-qr-code-scanner-should-be-on-a-ui": [
+    "track-qr-code-data-in-ga": [
         "rules-to-better-qr-code"
     ],
-    "track-qr-code-data-in-ga": [
+    "where-qr-code-scanner-should-be-on-a-ui": [
         "rules-to-better-qr-code"
     ],
     "keep-your-social-media-updated": [
@@ -6180,6 +6211,9 @@
         "rules-to-better-video-recording"
     ],
     "pre-production-do-you-test-technical-scripts-properly": [
+        "rules-to-better-video-recording"
+    ],
+    "content-check-before-public-facing-video": [
         "rules-to-better-video-recording"
     ],
     "define-the-level-of-quality-up-front": [
@@ -8012,9 +8046,6 @@
         "rules-to-better-azure"
     ],
     "do-you-consider-azuresearch-for-your-website": [
-        "rules-to-better-azure"
-    ],
-    "azure-migrate-before-migration": [
         "rules-to-better-azure"
     ],
     "azure-resources-creating": [

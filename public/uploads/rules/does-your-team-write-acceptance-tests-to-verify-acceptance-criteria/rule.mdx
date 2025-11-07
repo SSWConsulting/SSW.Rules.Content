@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: Adam Stephensen
   url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.mdx
 created: 2012-11-08 19:01:49+00:00
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -17,8 +19,6 @@ related:
 seoDescription: Write acceptance tests to verify acceptance criteria and ensure user
   stories meet requirements.
 title: Do you write Acceptance Tests to verify Acceptance Criteria?
-categories:
-  - category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.mdx
 type: rule
 uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 ---
@@ -34,12 +34,12 @@ A combination of human and automated tests is likely to be required to complete 
 />
 Suppose we have a user story to implement searching on customers with the following acceptance criteria on the User Story:
 
-- When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
-- When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-- If no results are returned show a message box ‘No results found’
-- If no search text is entered, the ‘Search’ button should be disabled
-- If the button is disabled and search text is entered, the ‘Search’ button becomes enabled
-- Right-clicking on a column header and using the ‘Sort’ functionality, sorts the data by that column
+* When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
+* If no results are returned show a message box ‘No results found’
+* If no search text is entered, the ‘Search’ button should be disabled
+* If the button is disabled and search text is entered, the ‘Search’ button becomes enabled
+* Right-clicking on a column header and using the ‘Sort’ functionality, sorts the data by that column
 
 The PBI for this User Story in Azure DevOps would look like this, with the Acceptance Criteria clearly defined and the Acceptance Test cases linked to the PBI:
 
@@ -91,5 +91,15 @@ The tester then runs each Acceptance Test case:
 />
 
 
-![Figure: In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)
-](acceptance-tests-run-steps.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "In the Test Runner, the tester follows each of the test steps and passes or fails them as appropriate (using the tick or cross button)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria/acceptance-tests-run-steps.jpg"
+/>

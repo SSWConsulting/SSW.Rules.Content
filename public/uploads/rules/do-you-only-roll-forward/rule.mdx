@@ -12,6 +12,10 @@ authors:
   url: https://www.ssw.com.au/people/matt-wicks
 - title: Matt Goldman
   url: https://www.ssw.com.au/people/matt-goldman
+categories:
+- category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
+- category: categories/software-engineering/rules-to-better-application-insights.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
 created: 2024-07-29 16:43:52+00:00
 createdBy: Ozair Ashfaque [SSW]
 createdByEmail: 96504411+ozairashfaqueSSW@users.noreply.github.com
@@ -25,10 +29,6 @@ redirects:
 - rolling-forward
 seoDescription: Learn that you should only Roll Forward and not Roll Backward.
 title: Do you know you should only Roll Forward?
-categories:
-  - category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
-  - category: categories/software-engineering/rules-to-better-application-insights.mdx
-  - category: categories/software-engineering/rules-to-better-testing.mdx
 type: rule
 uri: do-you-only-roll-forward
 ---
@@ -39,7 +39,19 @@ When there's a major error during deployment or a catastrophic fault happens, wh
 
 It feels like reverting back to the previous stable version is the safest and quickest way to restore functionality.
 
-![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Fixing Problems",
+    shouldDisplay: true
+  } }
+  src="https://imgs.xkcd.com/comics/fixing_problems.png"
+/>
+
 
 However, rolling back can have several negative consequences, making it crucial to consider the drawbacks:
 

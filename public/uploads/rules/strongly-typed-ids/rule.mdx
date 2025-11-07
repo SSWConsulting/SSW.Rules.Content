@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: William Liebenberg
   url: https://ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
 created: 2025-06-05 04:22:19+00:00
 createdBy: Bahjat Alaadel [SSW]
 createdByEmail: bahjatalaadel@ssw.com.au
@@ -18,8 +20,6 @@ related:
 seoDescription: Developers can avoid Primitive Obsession by using Strongly Typed IDs,
   which provide a clear representation of domain entity identifiers.
 title: Do you use Strongly Typed IDs to avoid Primitive Obsession
-categories:
-  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
 type: rule
 uri: strongly-typed-ids
 ---
@@ -146,7 +146,7 @@ However, `class` and `struct` are more verbose and require that we implement the
 
 Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
 
-![Benchmark results of various StronglyTyped ID constructs](/uploads/rules/strongly-typed-ids/stronglytypedid.png)
+![Benchmark results of various StronglyTyped ID constructs](/stronglytypedid.png)
 
 Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
 

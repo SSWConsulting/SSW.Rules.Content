@@ -4,6 +4,8 @@ authors:
   url: https://www.ssw.com.au/people/micaela-blank
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
 created: 2025-10-07 00:00:19+00:00
 createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
@@ -17,12 +19,10 @@ related:
 - rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
 - rule: public/uploads/rules/do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead/rule.mdx
 - rule: public/uploads/rules/do-you-make-users-intuitively-know-how-to-use-something/rule.mdx
-seoDescription: Learn the best UI/UX practices for designing destructive buttons,
-  including placement, color, icons, confirmation steps, and accessibility.
+seoDescription: Learn the best UI/UX practices for designing delete buttons, including
+  placement, color, icons, confirmation steps, and accessibility.
 tips: ''
-title: Do you follow best UI practices for destructive buttons?
-categories:
-  - category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
+title: Do you follow best UI practices for delete buttons?
 type: rule
 uri: destructive-button-ui-ux
 ---
@@ -36,7 +36,7 @@ These actions need to be carefully designed with strong visual cues, clear label
 />
 ## Use red for danger consistently
 
-Destructive buttons should always stand out with a **red color**. This is a well-established visual convention that immediately signals danger to users.
+Delete buttons should always stand out with a **red color**. This is a well-established visual convention that immediately signals danger to users.
 
 * Use red **only** for destructive actions (not warnings or generic alerts)
 * Avoid using red buttons for neutral or positive actions
@@ -47,7 +47,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
   showBorder={true}
   figureEmbed={ {
     preset: "badExample",
-    figure: "Bad example - Wrong color for a destructive button",
+    figure: "Bad example - Wrong color for a delete button",
     shouldDisplay: true
   } }
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-color.png"
@@ -60,7 +60,7 @@ Destructive buttons should always stand out with a **red color**. This is a well
   showBorder={true}
   figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example - Red is the right color for a destructive button",
+    figure: "Good example - Red is the right color for a delete button",
     shouldDisplay: true
   } }
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-color.png"
@@ -119,11 +119,11 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
 />
 
 
-## Position destructive buttons with care
+## Position delete buttons with care
 
-Placing a destructive button next to a primary action (e.g. "Save" or "Confirm") is dangerous. Users may misclick due to proximity.
+Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is dangerous. Users may misclick due to proximity.
 
-* Place destructive buttons away from primary actions
+* Place delete buttons away from primary actions
 * Use space or visual separation between them
 * Make destructive buttons less prominent (except when the primary purpose is deletion)
 
@@ -155,7 +155,7 @@ Placing a destructive button next to a primary action (e.g. "Save" or "Confirm")
 
 ## Ask for confirmation when necessary
 
-Not every delete action needs a popup, but if the data is important or irreversible, you should ask the user to confirm.
+Not every destructive action needs a popup, but if the data is important or irreversible, you should ask the user to confirm.
 
 Use confirmations when:
 
@@ -168,7 +168,7 @@ Use confirmations when:
   showBorder={false}
   figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example - Confirming a destructive action",
+    figure: "Good example - Confirming a deletion",
     shouldDisplay: true
   } }
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-confirmation.png"
@@ -193,7 +193,7 @@ Use confirmations when:
 
 Sometimes you might have a UI with limited space that doesn’t allow text labels.
 
-For **icon-only** destructive buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
+For **icon-only** delete buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
 
 <imageEmbed
   alt="Image"
@@ -201,7 +201,7 @@ For **icon-only** destructive buttons (for example, a red trash icon in a table 
   showBorder={false}
   figureEmbed={ {
     preset: "goodExample",
-    figure: "Good example - Tooltip gives clarity to an icon-only destructive button",
+    figure: "Good example - Tooltip gives clarity to an icon-only delete button",
     shouldDisplay: true
   } }
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-tooltip.png"
@@ -222,7 +222,7 @@ Don't rely solely on color to convey meaning — red may be hard to distinguish 
 
 | **Element**        | **Best practice**                                                 |
 |--------------------|-------------------------------------------------------------------|
-| **Color**          | Use red for destructive buttons                                   |
+| **Color**          | Use red for delete buttons                                   |
 | **Label**          | Always include a text label (e.g. "Delete", "Remove")             |
 | **Icon**           | Use a trash can or similar, to the left of label                  |
 | **Placement**      | Isolate from primary/positive actions                             |

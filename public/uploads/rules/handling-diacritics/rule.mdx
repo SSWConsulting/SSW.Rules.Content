@@ -5,6 +5,8 @@ authors:
   url: https://ssw.com.au/people/chloe-lin
 - title: Brady Stroud
   url: https://ssw.com.au/people/brady-stroud
+categories:
+- category: categories/software-engineering/rules-to-better-websites-deployment.mdx
 created: 2024-03-14 15:47:43+00:00
 createdBy: Chloe Lin [SSW]
 createdByEmail: chloelin@ssw.com.au
@@ -16,8 +18,6 @@ lastUpdatedByEmail: chloelin@ssw.com.au
 seoDescription: Multilingual search features require handling diacritics to ensure
   accurate matches and a seamless user experience.
 title: Do you know how to handle diacritics?
-categories:
-  - category: categories/software-engineering/rules-to-better-websites-deployment.mdx
 type: rule
 uri: handling-diacritics
 ---
@@ -57,7 +57,7 @@ There are 2 things happening in the code above:
 
 ### Handling diacritics in .NET
 
-You can also achieve the same result in .NET using a similar method [Normalize()]([https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0#system-string-normalize(system-text-normalizationform&WT.mc_id=DP-MVP-33518)](https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0#system-string-normalize(system-text-normalizationform&WT.mc_id=DP-MVP-33518))):
+You can also achieve the same result in .NET using a similar method [Normalize()](https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-9.0#system-string-normalize):
 
 ```csharp
 string accentedString = "résumé";

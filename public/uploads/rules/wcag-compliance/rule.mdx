@@ -7,6 +7,8 @@ authors:
   url: https://www.ssw.com.au/people/josh-berman/
 - title: Luke Cook
   url: https://www.ssw.com.au/people/luke-cook/
+categories:
+- category: categories/design/rules-to-better-accessibility.mdx
 created: 2023-12-22 07:02:51+00:00
 createdBy: Jayden Alchin [SSW]
 createdByEmail: 75593567+jaydenalchin@users.noreply.github.com
@@ -23,8 +25,6 @@ related:
 seoDescription: Make your website WCAG compliant to ensure equal access for all users,
   regardless of abilities or navigation methods.
 title: Do you make your website WCAG compliant?
-categories:
-  - category: categories/design/rules-to-better-accessibility.mdx
 type: rule
 uri: wcag-compliance
 ---
@@ -139,9 +139,9 @@ WCAG defines three levels of conformance to these guidelines: A, AA, and AAA. Th
 
 | Role       | Actions |
 |------------|---------|
-| **Designers**  | - Use accessible colour palettes and check contrast ratios (4.5:nimum for body text)<br>- Ensuont sizes are readable<br>- Clearndicate focus states<br>- Design with text alternatives in mind |
-| **Developers** | - Write semantic HTML (e.g., `<button>` `<div>` for buttons)<br>- ARIA only when necessary<br>- Ensure full kerd navigation<br>- Maintain logical tab order |
-| **Testers**    | - Run automated checks (axe, Lighthouse)<br>- Test with keyboard only<br>- Test with a screen reader (NVDA, VoiceOver)<br>- Verify form error handling |
+| **Designers**  | - Use accessible colour palettes and check contrast ratios (4.5:1 minimum for body text)- Ensure font sizes are readable- Clearly indicate focus states- Design with text alternatives in mind |
+| **Developers** | - Write semantic HTML (e.g., `<button>` not `<div>` for buttons)- Use ARIA only when necessary- Ensure full keyboard navigation- Maintain logical tab order |
+| **Testers**    | - Run automated checks (axe, Lighthouse)- Test with keyboard only- Test with a screen reader (NVDA, VoiceOver)- Verify form error handling |
 
 ## Tools for testing accessibility
 

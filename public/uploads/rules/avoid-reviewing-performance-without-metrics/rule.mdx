@@ -5,6 +5,10 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Matt Wicks
   url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
 created: 2025-07-17 22:43:19+00:00
 createdBy: Caleb Williams [SSW]
 createdByEmail: 65635198+Calinator444@users.noreply.github.com
@@ -23,10 +27,6 @@ seoDescription: Optimize your performance reviews by using metrics to measure an
   track progress, ensuring you're meeting clients' expectations and making informed
   improvements.
 title: Do you avoid reviewing performance without metrics?
-categories:
-  - category: categories/company-operations/rules-to-successful-projects.mdx
-  - category: categories/software-engineering/rules-to-better-application-performance.mdx
-  - category: categories/software-engineering/rules-to-better-internationalization.mdx
 type: rule
 uri: avoid-reviewing-performance-without-metrics
 ---
@@ -40,11 +40,11 @@ When a client raises concerns about performance, it is important not to immediat
 />
 For example, if a client says:
 
-> _"This application is too slow, I don't really want to put up with such poor performance. Please fix."_
+> *"This application is too slow, I don't really want to put up with such poor performance. Please fix."*
 
 We don't jump in and look at the code and clean it up and reply with something like:
 
-> _"I've looked at the code and cleaned it up. Please tell me if you are OK with the performance now."_
+> *"I've looked at the code and cleaned it up. Please tell me if you are OK with the performance now."*
 
 A better way is:
 
@@ -53,7 +53,7 @@ A better way is:
 * Reproduce the steps and record the time
 * Change the code
 * Reproduce the steps and record the time again
-* Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
+* Reply with metrics. E.g. *"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."*
 
 <imageEmbed
   alt="Image"
@@ -122,12 +122,27 @@ Depending on your tech stack, there are various tools available to measure perfo
 />
 
 
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Pingdom has advanced tools for diagnosing page performance issue",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/monitoring-performance-pingdom.png"
+/>
+
+
 Here are other performance tools worth considering:
 
 ### Frontend Performance
 
 * **Page Speed Insights** - Google's web performance analyzer
 * **React Developer Tools** - Component-specific profiling for React apps
+* **[Pingdom](https://www.pingdom.com/) -** Offers uptime monitoring, page performance analysis & drilling for advanced performance troubleshooting
 
 ### API Performance
 
