@@ -53,6 +53,9 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
 * Ping them in a Teams chat when the meeting starts
+  
+   **Note**: Stakeholders often have a lot on their plate... Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"{{ TEAM NAME }} Sprint Review Stakeholders"**)
+
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
@@ -77,12 +80,8 @@ Let me know if you want anyone else added.
 {{ SCREENSHOT OF CURRENT ATTENDEE }}
 :::
 
-::: greybox
-**Tip**:Ask for Copilot AI images before the summary meeting to include in the summary.
-:::
-
-::: greybox
-**Tip**:Stakeholders often have a lot on their plate... Make their life easier: Rename the group chat so it's clear which project's review is about to start
+::: info
+**Tip**: (Optional) Ask stakeholders for Copilot AI images **before the summary meeting** to include in the summary email.
 :::
 
 ::: good
