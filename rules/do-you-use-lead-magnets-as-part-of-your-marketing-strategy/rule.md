@@ -14,7 +14,7 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
   - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
-  - sem-do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+  - use-microsoft-advertising-formerly-known-as-bing-ads
   - branding-do-you-know-when-to-use-an-overlay-on-images
 redirects: []
 ---

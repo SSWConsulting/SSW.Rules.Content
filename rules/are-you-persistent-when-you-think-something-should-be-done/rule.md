@@ -19,4 +19,4 @@ This is a very important concept, just because you get answered 'No', it does no
 
 ![Figure: Write down your ideas so they don't get lost](MyGoodIdeasExample.jpg)
 
-Print ["My Good Ideas for the Boss" sheet](My-Good-Ideas_for-the-Boss.pdf) and have it ready for your bright moments. In case you don't have one in hand, draft an email or a note, but don't let good ideas go.
+Print "My Good Ideas for the Boss" sheet and have it ready for your bright moments. In case you don't have one in hand, draft an email or a note, but don't let good ideas go.

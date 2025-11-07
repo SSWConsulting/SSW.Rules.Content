@@ -10,7 +10,7 @@ authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- do-you-display-dates-in-a-human-friendly-format
+- human-friendly-date-and-time
 - dates-do-you-keep-time-formats-consistent-across-your-application
 redirects: []
 

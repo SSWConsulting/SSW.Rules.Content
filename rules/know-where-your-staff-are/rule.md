@@ -39,8 +39,7 @@ At the beginning of each day you should:
 
 4. Check who's in the office. Have a look at who's currently in the office and if someone's not present or doesn't have an absence or booking, find out where they are. You can use a tool like SophieBot or other tools to find out who's physically in your office at any time
 
-![Figure: You can use
-            SophieBot to provide a staffing report of who is physically in the office today](SophieBot.jpg)  
+![Figure: You can use SophieBot to provide a staffing report of who is physically in the office today](SophieBot.jpg)  
 
 ![Figure: SSW SophieBot to answer “Who is booked? [ANSWER: 6 people]](SophieBot-booked.jpg)
 

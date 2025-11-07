@@ -80,7 +80,7 @@ Good example - Tasks/questions are clear
 ::: info
 **Note:** This applies to **replies** as well.  
 
-If you're responding to a numbered list, **don't make your answers another numbered list**. Instead, use indentation as per [Replying "Done" to multiple tasks](reply-done/#tip-3-replying-done-to-multiple-tasks).
+If you're responding to a numbered list, **don't make your answers another numbered list**. Instead, use indentation as per [Replying "Done" to multiple tasks](/reply-done/#tip-3-replying-done-to-multiple-tasks).
 :::
 
 ::: email-template  

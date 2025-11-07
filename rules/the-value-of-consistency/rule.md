@@ -42,7 +42,7 @@ You should create and follow standards for all manner of processes, from coding 
 
 The following story is an excerpt from **"The E Myth" by Michael E. Gerber**, a bestselling author, who teaches entrepreneurs how to build scalable, system-driven businesses. It illustrates the value of consistency.
 
-![Figure: Michael E. Gerber is an American author](consistency.png)
+![Figure: Michael E. Gerber is an American author](/consistency.png)
 
 ## The Barber
 

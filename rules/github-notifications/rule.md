@@ -26,7 +26,7 @@ Notifications from GitHub can be quite a pain, as they send a lot of emails. Thi
 ## Github
 
 ::: bad
-![Figure: Bad example - Lots of notifications](./notifications.png)
+![Figure: Bad example - Lots of notifications](/notifications.png)
 :::
 
 To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications).

@@ -17,10 +17,10 @@ Sounds are important to an interface. Sounds provide an extra level of feedback 
 
 Out of the box, you'll get a sound with error messages. You'll still need to add your own for:
 
-- Long process - there should be a sound at the end of every long process to notify the user that it has finished [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/sswLongProcessFinished01_ChatWhsp.wav)
-- Deleting records
-- ![](/iconAudio.png "Audio File") [Application opening](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationOpened_dooropen.wav) / ![](/iconAudio.png "Audio File") [closing](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav) [![](/Sound.gif)](http://www.ssw.com.au/ssw/Standards/Rules/Sounds/SSWApplicationClosed_doorslam.wav)
-- Copying and pasting text
+* Long process - there should be a sound at the end of every long process to notify the user that it has finished
+* Deleting records
+* Application opening/closing
+* Copying and pasting text
 
 However, not everyone likes sounds, so we think it is also important to have an option to disable sounds in your application.
 

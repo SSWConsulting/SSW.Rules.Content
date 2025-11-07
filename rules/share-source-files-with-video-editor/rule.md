@@ -30,13 +30,13 @@ All editing tools have their own way of saving source files. Some editing tools 
 Sharing these complete project files or all related media ensures your editor can work efficiently and maintain professional quality.
 
 ::: bad
-![Figure: Bad example - Only the exported video file (.mp4) is shared](bad-example-one-video-file.png)
+![Figure: Bad example - Only the exported video file (.mp4) is shared](/bad-example-one-video-file.png)
 :::
 
 ::: good
-![Figure: Good example - Clipchamp - The 2 video files are shared](good-example-two-video-files.png)
+![Figure: Good example - Clipchamp - The 2 video files are shared](/good-example-two-video-files.png)
 :::
 
 ::: good
-![Figure: Good example - Camtasia - The source file and project file are shared](good-example-source-file.png)
+![Figure: Good example - Camtasia - The source file and project file are shared](/good-example-source-file.png)
 :::

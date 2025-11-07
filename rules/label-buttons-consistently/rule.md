@@ -22,7 +22,7 @@ Additionally, buttons should have clear names so the user knows what to expect. 
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - Unclear labels on the buttons](./BadButtonLabels.png)  
+![Figure: Bad example - Unclear labels on the buttons](/BadButtonLabels.png)  
 :::
 
 We recommend the web standards of:
@@ -32,5 +32,5 @@ We recommend the web standards of:
 * **Cancel** - Close the form without saving
 
 ::: good  
-![Figure: Good example - This form uses the standard button naming standards (and has the Default buttons set!)](./GoodFormButtonLabel.png)  
+![Figure: Good example - This form uses the standard button naming standards (and has the Default buttons set!)](/GoodFormButtonLabel.png)  
 :::

@@ -137,7 +137,7 @@ However, `class` and `struct` are more verbose and require that we implement the
 
 Dan unfortunately missed out a benchmark for `record struct`. We wrote our own benchmark's similar to Dan's and as it turns out `record struct` gives us the best of both worlds! We get the performance of `struct` and the succinct one liner declarations of `record` without needing to manually implement the equality checks.
 
-![Benchmark results of various StronglyTyped ID constructs](stronglytypedid.png)
+![Benchmark results of various StronglyTyped ID constructs](/stronglytypedid.png)
 
 Check out William Liebenberg's [StronglyTypeIdsBenchmark](https://github.com/william-liebenberg/StronglyTypedIdsBenchmarks) repo on GitHub for the benchmark results.
 

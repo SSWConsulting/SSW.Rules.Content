@@ -43,7 +43,7 @@ They're awake 24/7, never take bathroom breaks, and can switch language on the f
 4. **Monitor & iterate** – review call summaries and sentiment analytics weekly to plug knowledge gaps and refine routing
 5. **Promote it** – tell customers your phone line is “AI-powered and always on” to set expectations and showcase innovation
 
-![Figure: Example partial configuration of Phonely.ai](phonely.png)
+![Figure: Example partial configuration of Phonely.ai](/phonely.png)
 
 ## Things to remember
 

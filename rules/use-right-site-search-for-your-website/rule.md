@@ -36,7 +36,7 @@ When it comes to site search, managing various search requirements can be challe
 
 ### Typesense
 
-![](https://typesense.org/favicon.png)
+![](/favicon.png)
 
 [Typesense](https://typesense.org/) is designed for simplicity and integration, making it a suitable choice for smaller to medium-sized applications that require a user-friendly search experience.
 
@@ -56,7 +56,7 @@ When it comes to site search, managing various search requirements can be challe
 [Meilisearch](https://www.meilisearch.com/) is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.  
 
 ✅ Easy to use and quick to setup for basic search needs  
-✅ Open source and free version available (self-hosting required)
+✅ Open source and free version available (self-hosting required)  
 ✅ Good performance and built-in typo tolerance for user-friendly searching  
 
 ❌ May have limitations in handling very large datasets or extremely complex use cases  

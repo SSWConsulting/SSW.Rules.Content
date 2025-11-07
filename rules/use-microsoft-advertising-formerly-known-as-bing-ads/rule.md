@@ -15,9 +15,8 @@ related:
   - branding-do-you-know-when-to-use-an-overlay-on-images
   - do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 redirects:
-  - do-you-use-microsoft-advertising-(formerly-known-as-bing-ads)
+  - do-you-use-microsoft-advertising-formerly-known-as-bing-ads
   - sem-do-you-use-microsoft-advertising-formerly-known-as-bing-ads
-  - sem-do-you-use-microsoft-advertising-(formerly-known-as-bing-ads)
 created: 2019-05-02T03:53:19.000Z
 archivedreason: null
 guid: 1dc915b5-9542-42af-aa2b-f8acda6edc6e

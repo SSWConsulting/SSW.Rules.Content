@@ -39,11 +39,11 @@ To avoid confusion, provide buttons for every possible state change and make ["c
 Furthermore, ensure state-based actions are [labelled consistently](/label-buttons-consistently/) across the application so that users always know what to expect.
 
 ::: bad  
-![Figure: Bad example - Ambiguous controls](./bad-form-controls.png)  
+![Figure: Bad example - Ambiguous controls](/bad-form-controls.png)  
 :::
 
 ::: good  
-![Figure: Good example - Well defined controls and associated actions](./Good-form-controls.png)  
+![Figure: Good example - Well defined controls and associated actions](/Good-form-controls.png)  
 :::
 
 ## Test UI responsiveness
@@ -59,11 +59,11 @@ Consider the following questions:
 For more information, read about [making webpages work on mobiles and tablets](/responsive-design) and [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns).
 
 ::: bad  
-![Figure: Bad example - Design fails on smaller views](./Bad-responsive.png)  
+![Figure: Bad example - Design fails on smaller views](/Bad-responsive.png)  
 :::
 
 ::: good  
-![Figure: Good example - Responsive design for smaller views](./Good-responsive.png)  
+![Figure: Good example - Responsive design for smaller views](/Good-responsive.png)  
 :::
 
 ## Field formatting
@@ -98,11 +98,11 @@ Alternatively, this could be done by triggering a transformation method in the T
 See more on [arranging forms](/do-you-know-how-to-arrange-forms) and [aligning form labels](/how-to-align-your-form-labels).
 
 ::: bad  
-![Figure: Bad example - This form has left alignment and non-decimal values](./Bad-Example-Form-Formating.png)  
+![Figure: Bad example - This form has left alignment and non-decimal values](/Bad-Example-Form-Formating.png)  
 :::
 
 ::: good  
-![Figure: Good example - These fields have appropriate width for the data](./Good-Example-Form-Formating.png)  
+![Figure: Good example - These fields have appropriate width for the data](/Good-Example-Form-Formating.png)  
 :::
 
 ## Use auto-populated fields when possible
@@ -110,7 +110,7 @@ See more on [arranging forms](/do-you-know-how-to-arrange-forms) and [aligning f
 Populating fields with default values, such as pulling data from system time, enhances data entry efficiency and user satisfaction by reducing trivial and repetitive data entry. However, when opening a new form, only prepopulate fields unlikely to change, such as sales tax. If you want the user to consider a field, don't prepopulate it by default.
 
 ::: good  
-![Figure: Good example - This form contains the date as that can be safely prepopulated](./minimum-defaults.png)  
+![Figure: Good example - This form contains the date as that can be safely prepopulated](/minimum-defaults.png)  
 :::
 
 ## Use validation
@@ -124,7 +124,7 @@ Validation is essential for any form development, with the majority of fields re
 Tip for long forms: the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identify the issue.
 
 ::: good  
-![Figure: Good example - A scrolling effect added to the validation](./validation-scroll.gif)  
+![Figure: Good example - A scrolling effect added to the validation](/validation-scroll.gif)  
 :::
 
 ## Show "created by" and "updated by" fields
@@ -141,11 +141,11 @@ This will assist with accountability, allowing users to quickly see information 
 Additionally, these fields of the form should remain "Read only" ensuring that the data is accurate and reliable.
 
 ::: bad  
-![Figure: Bad example - This form does not contain Created by/Updated by fields](./NoCreatedUpdatedField.png)  
+![Figure: Bad example - This form does not contain Created by/Updated by fields](/NoCreatedUpdatedField.png)  
 :::
 
 ::: good  
-![Figure: Good example - This form contains Created by/Updated by fields](./FormWithCreatedUpdatedFields.png)  
+![Figure: Good example - This form contains Created by/Updated by fields](/FormWithCreatedUpdatedFields.png)  
 :::
 
 ## Avoid "Delete" button for item lists
@@ -153,13 +153,13 @@ Additionally, these fields of the form should remain "Read only" ensuring that t
 For a list of items that is used for searching for individual records, the user shouldn't be given the option to **delete** from the grid. Instead, they should have to open the individual record to be presented with the option to "Delete" the data. This forces the user to examine all of the information before deleting.
 
 ::: bad  
-![Figure: Bad example - Delete buttons shown](./Delete-Button-grid.png)  
+![Figure: Bad example - Delete buttons shown](/Delete-Button-grid.png)  
 :::
 
 ::: good  
-![Figure: Good example - This grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](./NoDeleteButtonOnGrid.png)  
+![Figure: Good example - This grid contains no delete button, requiring the user to examine the entire record via "Edit" before deletion](/NoDeleteButtonOnGrid.png)  
 :::
 
 However, this rule is contextual. For instances where the importance of the data is trivial or all of the necessary information is immediately presented within the grid, it would be acceptable to include a "Delete" button on the grid.
 
-![Figure: Exception - This grid contains delete button because all of the required information can be seen from the main form](./AppropriateUseOfRemove.png)
+![Figure: Exception - This grid contains delete button because all of the required information can be seen from the main form](/AppropriateUseOfRemove.png)

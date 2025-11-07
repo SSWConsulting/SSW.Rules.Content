@@ -23,7 +23,7 @@ The Scrum team needs a place to gather for all the Scrum ceremonies. This room s
 **Note:** For co-located teams only.
 :::
 
-* [Task Board](/the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams) (to show current work in progress)
+* [Task Board](/task-board) (to show current work in progress)
 * [The 8 Steps to Scrum PDF](8StepstoScrum.pdf) (to show how we work)
 * [The 3 Steps to a PBI PDF](3StepsToAPBI.pdf) (to know the lifecycle of a PBI)
 * [Product Roadmap](/do-you-have-a-product-roadmap) (to let everyone know the large future priorities)

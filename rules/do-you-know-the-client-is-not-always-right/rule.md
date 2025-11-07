@@ -28,11 +28,11 @@ The expertise of a software consultant is likely to be in the technology underly
 
 However, on some issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common:
 
-- Using old technology - e.g. .NET Framework instead of the latest .NET version
-- Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out
-- Pushing for quick fixes when a better longer term fix is reasonable - e.g. hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.
-- Not thinking that UX matters
-- Trying to revert to a fixed price model when the agreement is time & materials
+* Using old technology - e.g. .NET Framework instead of the latest .NET version
+* Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out
+* Pushing for quick fixes when a better longer term fix is reasonable - e.g. hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.
+* Not thinking that UX matters
+* Trying to revert to a fixed price model when the agreement is time & materials
 
 **Knowing how to persuade the client that your way is the best way**
 
@@ -40,4 +40,4 @@ If your client is not technically savvy you should be aware that an argument usi
 
 As soon as you see the clients eyes glaze over, stop, it's likely you're bamboozling with techno-jargon. Rethink your argument and state it again.
 
-If the point is arguable, once a client says no three times, don't push your luck too much. If you do concede don't forget to send an "[as per our conversation](/do-you-send-＂as-per-our-conversation＂-emails)" email to keep a record of the decision.
+If the point is arguable, once a client says no three times, don't push your luck too much. If you do concede don't forget to send an "[as per our conversation](/as-per-our-conversation-emails)" email to keep a record of the decision.

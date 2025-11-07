@@ -17,7 +17,7 @@ related:
   - sharepoint-format-dates-to-include-the-weekday
   - use-correct-time-format
 redirects:
-  - do-you-display-dates-in-a-human-friendly-format
+  - human-friendly-date-and-time
 ---
 
 Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_

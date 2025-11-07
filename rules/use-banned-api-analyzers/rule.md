@@ -24,11 +24,11 @@ But in a big codebase (or with a rotating team) someone can unknowingly add the 
 **[BannedApiAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.BannedApiAnalyzers/)** (the Microsoft-maintained NuGet package *Microsoft.CodeAnalysis.BannedApiAnalyzers*) lets you fail the build the instant a forbidden symbol is referenced. It’s compatible with SDK-style projects (e.g., `<Project Sdk="Microsoft.NET.Sdk">`), including those targeting .NET Framework.
 
 ::: bad
-![Figure: Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs](banned-api-project-building.png)
+![Figure: Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs](/banned-api-project-building.png)
 :::
 
 ::: good
-![Figure: Good example – The analyzer blocks the build and guides the developer towards the approved approach](banned-api-lists-errors.png)
+![Figure: Good example – The analyzer blocks the build and guides the developer towards the approved approach](/banned-api-lists-errors.png)
 :::
 
 ### Step 1: Install the NuGet package

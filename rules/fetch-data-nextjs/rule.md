@@ -166,4 +166,4 @@ This is a great workaround for the limitation of only being able to use the abov
 
 This is also a great way to reduce the occurrence of CORS errors, as you can proxy API data through a simple Next.js API route.
 
-You can learn more about how to fetch with NextJS in the [official Next.js documentation]([https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes](https://nextjs.org/docs/app/guides#data-fetching)).
+You can learn more about how to fetch with NextJS in the [official Next.js documentation](https://nextjs.org/docs/app/guides#data-fetching).

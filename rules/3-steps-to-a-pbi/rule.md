@@ -70,7 +70,7 @@ This step depends on the complexity and nature of the task, especially if the PB
 
 1. Move PBI to "In Progress"
 2. Create a branch
-3. Code, code, code... ([make sure to Red-Green-Refactor](reply-done-plus-added-a-unit-test))
+3. Code, code, code... ([make sure to Red-Green-Refactor](/reply-done-plus-added-a-unit-test))
 4. Make a Pull Request with [lots of context](/write-a-good-pull-request)
 5. Get an ["over the shoulder"](/over-the-shoulder) review
 6. Record a [Done Video](/record-a-quick-and-dirty-done-video) so you get your ducks in a row for the explanation to the Product Owner

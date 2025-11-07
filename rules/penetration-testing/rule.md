@@ -57,7 +57,7 @@ Great company security starts with great user security. Here are some of the mos
 2. Use **[password managers](https://www.ssw.com.au/rules/password-manager/)** to generate unique passwords for every service (and auto-fill them)
 3. **[Lock your laptop](https://www.ssw.com.au/rules/lock-your-computer-when-you-leave/)** when you leave your desk. For Windows users, check out [DynamicLock](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-feature-dynamic-lock?WT.mc_id=ES-MVP-33518)
 4. **[Avoid malware](https://www.ssw.com.au/rules/understand-the-dangers-of-social-engineering/)** by not clicking on suspicious links and making sure the person is who they say they are
-5. **[Report potential breaches to SysAdmins]((https://www.ssw.com.au/rules/security-compromised-password/))**, whether it's your personal account or a company account
+5. **[Report potential breaches to SysAdmins](https://www.ssw.com.au/rules/security-compromised-password/)**, whether it's your personal account or a company account
 
 ## Different types of penetration tests
 

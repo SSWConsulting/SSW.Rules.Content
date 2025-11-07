@@ -33,7 +33,7 @@ Another scenario is when you've found something you should work on, but don't ha
 :::
 
 ::: bad
-![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.png)
+![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](/postit-screen.png)
 :::
 
 ::: greybox

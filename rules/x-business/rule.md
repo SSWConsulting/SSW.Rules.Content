@@ -8,7 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/seth-daily/
 related:
   - keep-your-social-media-updated
-  - twitter-how-to-verify-your-account
+  - x-verify-your-account
   - do-you-know-what-to-tweet
 redirects:
   - twitter-for-professionals

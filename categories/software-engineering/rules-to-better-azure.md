@@ -15,7 +15,6 @@ index:
 - aspire
 - do-you-always-rename-staging-url-on-azure
 - do-you-consider-azuresearch-for-your-website
-- azure-migrate-before-migration
 - azure-resources-creating
 - bicep-user-defined-data-types
 - azure-naming-resources

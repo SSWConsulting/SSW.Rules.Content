@@ -11,7 +11,7 @@ authors:
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
   - notifications-do-you-know-how-to-see-whats-going-on-in-your-project
-  - sem-do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+  - use-microsoft-advertising-formerly-known-as-bing-ads
   - do-you-have-an-endomarketing-internal-marketing-strategy-in-your-company
   - branding-do-you-know-when-to-use-an-overlay-on-images
   - do-you-use-lead-magnets-as-part-of-your-marketing-strategy

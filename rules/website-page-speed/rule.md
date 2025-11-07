@@ -87,11 +87,11 @@ One of the best ways to identify and fix performance issues is by using the Perf
 5. After recording, you'll see metrics like Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and other key performance indicators
 
 ::: bad img-large
-![Figure: Bad example - Slow LCP, leading to a poor user experience](bad-performance.png)
+![Figure: Bad example - Slow LCP, leading to a poor user experience](/bad-performance.png)
 :::
 
 ::: good img-large
-![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](performance-tab.png)
+![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](/performance-tab.png)
 :::
 
 ## Use Lighthouse for a Comprehensive Audit
@@ -109,5 +109,5 @@ Lighthouse is another powerful tool built into Chrome DevTools that provides a f
 This tool gives you a performance score and actionable recommendations to improve your site's speed and user experience.
 
 ::: good img-large
-![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](lighthouse.png)
+![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](/lighthouse.png)
 :::
