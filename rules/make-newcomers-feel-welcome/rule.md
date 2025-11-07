@@ -56,9 +56,9 @@ On the newcomer’s first day, have the manager leave a short “welcome to the 
 
 Other nice ideas could include:
 
-- A mug ☕
-- A map of the area with some cool things pointed out (good coffee spots, restaurants, etc.) 🗺️
-- Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
+* A mug ☕
+* A map of the area with some cool things pointed out (good coffee spots, restaurants, etc.) 🗺️
+* Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
 
 It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office.\
 **Note:** check if they have any special dietary requirements.

@@ -43,20 +43,20 @@ According to the article [Endomarketing campaigns to generate engagement](https:
 
 The main benefits of this strategy are:
 
-- It generates greater motivation for your employees and, at the same time, makes your team feel more connected with the business brand
-- Your company will attract more qualified professionals
-- Your clients will be well assisted by your happy team
-- Worker attrition will decrease as you increase their satisfaction, and commitment to the organization will increase at the same rate
-- It also improves workers’ mental health and quality of life which, in the long term, will reduce the number of casualties in the company
-- Happy, motivated and engaged workers will naturally promote their employer through their networks
+* It generates greater motivation for your employees and, at the same time, makes your team feel more connected with the business brand
+* Your company will attract more qualified professionals
+* Your clients will be well assisted by your happy team
+* Worker attrition will decrease as you increase their satisfaction, and commitment to the organization will increase at the same rate
+* It also improves workers’ mental health and quality of life which, in the long term, will reduce the number of casualties in the company
+* Happy, motivated and engaged workers will naturally promote their employer through their networks
 
 Some examples of how to implement Endomarketing are:
 
-- Invest in training for your team
-- Work on the internal communication
-- Provide space for your employees to give feedback and new ideas e.g. a [Brainstorming day](/use-the-brains-of-your-company)
-- Invest in perks that will actually make a difference in their work conditions
-- Any effort that shows how you care about your employee and their opinion
+* Invest in training for your team
+* Work on the internal communication
+* Provide space for your employees to give feedback and new ideas e.g. a [Brainstorming day](/use-the-brains-of-your-company)
+* Invest in perks that will actually make a difference in their work conditions
+* Any effort that shows how you care about your employee and their opinion
 
 ::: good
 ![Figure: Good example – Celebrate special dates with your team!](bunny.jpg)

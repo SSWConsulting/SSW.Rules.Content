@@ -26,9 +26,9 @@ Engaging with the digital community is vital for establishing a robust online pr
 
 ## The Benefits
 
-- **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
-- **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
-- **For the Company:** The backlink to your website is the main way that Google and other search engines (including LLMs such as ChatGPT) work out how highly they should rank your website in their results.
+* **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
+* **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
+* **For the Company:** The backlink to your website is the main way that Google and other search engines (including LLMs such as ChatGPT) work out how highly they should rank your website in their results.
 
 ## Blogs - Giving thanks
 
@@ -36,7 +36,7 @@ When leaving a blog comment, always incorporate your signature with your name an
 
 ::: greybox
 Thanks for this valuable contribution! 👏\
-Bob Northwind www.ssw.com.au
+Bob Northwind <www.ssw.com.au>
 :::
 
 ::: good

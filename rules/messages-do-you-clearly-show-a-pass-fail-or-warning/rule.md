@@ -15,11 +15,11 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
 
 <!--endintro-->
 
-- For a pass, the message should be green in color, and a tick next to the message.
+* For a pass, the message should be green in color, and a tick next to the message.
 ![](/Success-lg.gif)
-- For a fail, the message should be red in color, and a cross next to the message.
+* For a fail, the message should be red in color, and a cross next to the message.
 ![](/Fail-lg.gif)
-- For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message.
+* For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message.
 ![](/Warning-lg.gif)
 
 ::: bad  
