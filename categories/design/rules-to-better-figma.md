@@ -8,6 +8,7 @@ index:
 - figma-prototypes
 - figma-uses
 - figma-dev-mode
+- outdated-figma
   
 ---
 
