@@ -1,7 +1,8 @@
 ---
 type: rule
 title: LinkedIn - Do you have a good profile?
-seoDescription: Boost your online presence with a well-crafted LinkedIn profile, showcasing your skills, experience, and company affiliation.
+seoDescription: Boost your online presence with a well-crafted LinkedIn profile,
+  showcasing your skills, experience, and company affiliation.
 uri: linkedin-profile
 authors:
   - title: Seth Daily
@@ -10,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Hark Singh
+    url: https://www.ssw.com.au/people/hark-singh
 related:
   - linkedin-profile
   - linkedin-job-experience
@@ -28,21 +31,21 @@ Do the following on your profile page:
 
 1. Make sure your basic information is correct (name, location, education, etc)
 2. Use a [great profile photo](/profile-photos)
-3. Add a nice branded banner image ([see example](https://media.licdn.com/dms/image/v2/D5616AQHAU0WtB7QCpA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1707100851420?e=1733961600&v=beta&t=xU4XRaZXJtiMLfMa-sASok4psbGHKDBM9Z-jLyH7Vv8))
-4. Add a headline for your profile
-5. [Add the company name before your position](/prefix-job-title)
-6. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
-7. [Include other social media](/linkedin-contact-info)
-8. Add a custom button - ['visit my website'](https://feed.link/blog/visit-my-website-link-to-linkedin-profile/)
-9. Add your top skills in the 'About' section (Aim for 5)
-10. [Add your job experience](/linkedin-job-experience)
-11. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
-12. Add a link to your company's profile in your description
+3. Update your [Job Title and ensure it includes the SSW prefix](/prefix-job-title)[](/profile-photos)
+4. Add a nice branded banner image ([see example](https://media.licdn.com/dms/image/v2/D5616AQHAU0WtB7QCpA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1707100851420?e=1733961600&v=beta&t=xU4XRaZXJtiMLfMa-sASok4psbGHKDBM9Z-jLyH7Vv8))
+5. Add a headline for your profile
+6. [Add the company name before your position](/prefix-job-title)
+7. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
+8. [Include other social media](/linkedin-contact-info)
+9. Add a custom button - ['visit my website'](https://feed.link/blog/visit-my-website-link-to-linkedin-profile/)
+10. Add your top skills in the 'About' section (Aim for 5)
+11. [Add your job experience](/linkedin-job-experience)
+12. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
+13. Add a link to your company's profile in your description
 
     E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
-
-13. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
+14. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
 
 ::: good
-![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with](good-linkedin.jpg)
+![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with](good-linkedin.png)
 :::
