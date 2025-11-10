@@ -1,13 +1,16 @@
 ---
-seoDescription: Do include the company name when referring to your job title at SSW Software Engineer.
 type: rule
 title: Do you include the company name when referring to your job title?
+seoDescription: Do include the company name when referring to your job title at
+  SSW Software Engineer.
 uri: prefix-job-title
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Hark Singh
+    url: https://www.ssw.com.au/people/hark-singh
 related:
   - the-value-of-consistency
   - great-email-signatures
@@ -15,10 +18,13 @@ related:
 created: 2024-01-17T13:42:55.753Z
 guid: 12d5f0c8-6e25-4f5b-b9f0-7d4a597d50a7
 ---
-
 Consistency is the most important part of branding. It leads to familiarity which builds brand recognition. A simple and effective method is prefixing job titles everywhere they appear with the company name.
 
 <!--endintro-->
+
+::: info
+**Note:** This applies to all platforms, including **LinkedIn**, **GitHub**, **X (Twitter)**, and others..
+:::
 
 A job title on social media or other public place should **always** be:
 
