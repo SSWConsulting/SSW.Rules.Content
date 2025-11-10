@@ -22,7 +22,7 @@ index:
 
 ---
 
-According to [Statista](https://www.statista.com/statistics/456500/daily-number-of-e-mails-worldwide/), 376 billion emails are sent per day in 2025. Emails can pile up quickly, and before you know it, your inbox becomes a mess. Keeping it under control helps you stay organized and professional. 
+According to [Statista](https://www.statista.com/statistics/456500/daily-number-of-e-mails-worldwide/), 376 billion emails are sent per day in 2025. Emails can pile up quickly, and before you know it, your inbox becomes a mess. Keeping it under control helps you stay organized and professional.
 
 Treat your inbox as a simple to-do list and regularly file or delete messages so it always reflects an accurate record of your work.
 
