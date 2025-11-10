@@ -47,5 +47,5 @@ Do the following on your profile page:
 14. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
 
 ::: good
-![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with](good-linkedin.jpg)
+![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with](good-linkedin.png)
 :::
