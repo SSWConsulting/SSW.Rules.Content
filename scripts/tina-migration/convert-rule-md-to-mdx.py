@@ -124,12 +124,11 @@ def prefix_raw_image_src(m, src_prefix):
     alt_text = m.group(1).strip()
     raw_src = m.group(2).strip()
     clean_src = clean_image_src(raw_src)
-
-    if clean_src.startswith('/') or clean_src.startswith('http'):
+    if clean_src.lstrip('/').startswith(src_prefix.lstrip('/') + '/'):
         return m.group(0)
 
-    prefixed_src = f"{src_prefix}/{clean_src}"
-    return f'![{alt_text}]({prefixed_src})'
+    new_src = add_prefix_if_relative(raw_src, src_prefix)
+    return f'![{alt_text}]({new_src})'
 
 def convert_angle_bracket_links(text: str) -> str:
     return re.sub(
