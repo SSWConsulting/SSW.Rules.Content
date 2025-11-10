@@ -22,8 +22,10 @@ index:
 
 ---
 
-According to [Statista](https://www.statista.com/statistics/456500/daily-number-of-e-mails-worldwide/), 333.2 billion emails are sent per day in 2022. That's a lot of emails, and they can pile up fast - which is why it's so important to keep your inbox under control. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. You should endeavour to keep your inbox as a to-do list only and know how to file or delete emails as necessary so that your inbox reflects an accurate record of requests, conversations, and decisions.
+According to [Statista](https://www.statista.com/statistics/456500/daily-number-of-e-mails-worldwide/), 376 billion emails are sent per day in 2025. Emails can pile up quickly, and before you know it, your inbox becomes a mess. Keeping it under control helps you stay organized and professional. 
 
-Just as...
+Treat your inbox as a simple to-do list and regularly file or delete messages so it always reflects an accurate record of your work.
 
 ![Figure: Don't let your inbox become a vortex of doom - keep it organized!](rules-to-better-inbox-management.png)
+
+**Note:** Remember that emails are legal records and should be kept with care. Never permanently delete them, as they may be needed to confirm agreements, decisions, or conversations.
