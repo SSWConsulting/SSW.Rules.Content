@@ -26,11 +26,11 @@ When a client or coworker **verbally** asks you to do a task... How do you make 
 
 <!--endintro-->
 
+The best solution is to **send yourself an email**, Cc'ing the person who asked you, and including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a documented record of the requests for work. It also gives both parties an opportunity to leave feedback on the request for work.
+
 ::: info
 **Tip:** Use [YakShaver](https://yakshaver.ai/) to send yourself an email. See this [How to send an email to yourself using YakShaver (10 sec) - on YouTube](https://www.youtube.com/watch?v=Hdwr0T1hChE)
 :::
-
-The best solution is to **send yourself an email**, Cc'ing the person who asked you, and including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a documented record of the requests for work. It also gives both parties an opportunity to leave feedback on the request for work.
 
 Another scenario is when you've found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner).
 
