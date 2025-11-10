@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/seth-daily
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Hark Singh
+    url: https://www.ssw.com.au/people/hark-singh
 related:
   - the-value-of-consistency
   - great-email-signatures
