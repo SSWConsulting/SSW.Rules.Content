@@ -29,6 +29,43 @@ function traverseEverything(directory) {
     return images;
 }
 
+function checkForOrphanFolders(rulesDirectory) {
+    const orphans = {};
+
+    if (!fs.existsSync(rulesDirectory)) {
+        return orphans;
+    }
+
+    const folders = fs.readdirSync(rulesDirectory);
+
+    for (const folder of folders) {
+        const folderPath = path.join(rulesDirectory, folder);
+        const stats = fs.statSync(folderPath);
+
+        if (stats.isDirectory()) {
+            const ruleMdPath = path.join(folderPath, 'rule.md');
+            const hasRuleMd = fs.existsSync(ruleMdPath);
+
+            if (!hasRuleMd) {
+                // This folder has no rule.md - check if it has any files
+                const files = fs.readdirSync(folderPath);
+                const imageFiles = files.filter(file => {
+                    const filePath = path.join(folderPath, file);
+                    const fileStats = fs.statSync(filePath);
+                    return fileStats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf|xlsx?)$/i.test(file);
+                });
+
+                if (imageFiles.length > 0) {
+                    // This is an orphan folder - has files but no rule.md
+                    orphans[folderPath.replaceAll("../", "").replaceAll("rules/", "")] = imageFiles;
+                }
+            }
+        }
+    }
+
+    return orphans;
+}
+
 function traverseDirectories(directories) {
     const images = {};
 
@@ -47,6 +84,7 @@ function traverseDirectories(directories) {
 function recTraverseDirectory(directory, images) {
     const markdownImages = [];
     const folderImages = [];
+    let hasRuleMd = false;
 
     if (!fs.existsSync(directory)) {
         return { markdownImages, folderImages };
@@ -66,11 +104,18 @@ function recTraverseDirectory(directory, images) {
                 images[filePath.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
             }
         } else if (file.toLowerCase() === 'rule.md') {
+            hasRuleMd = true;
             const images = findImagesInMarkdown(filePath);
             markdownImages.push(...images);
         } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf)$/i.test(file)) {
             folderImages.push(file);
         }
+    }
+
+    // Check if this directory has images/files but no rule.md (orphan folder)
+    // This is a critical issue as it indicates a leftover folder from a rename
+    if (!hasRuleMd && folderImages.length > 0) {
+        images[directory.replaceAll("../", "").replaceAll("rules/", "")] = folderImages;
     }
 
     return { markdownImages, folderImages };
@@ -89,8 +134,17 @@ async function main() {
                 .filter(file => file.slice(0, 5) == "rules")
                 .map(folder => `../../${folder.split("/").slice(0, -1).join("/")}`);
 
+            // Check changed folders for unreferenced images
             images = traverseDirectories(folders);
+        } else {
+            // No changed files, but still need to check for orphan folders
+            images = {};
         }
+
+        // Always check for orphan folders (folders with files but no rule.md) in the entire rules directory
+        // This catches leftover folders from renames that aren't in the PR diff
+        const orphanFolders = checkForOrphanFolders("../../rules/");
+        Object.assign(images, orphanFolders);
     } else if (eventType === "workflow_dispatch") {
         images = traverseEverything("../../rules/");
     }
@@ -104,6 +158,9 @@ async function main() {
     for (const [idx, rule] of Object.keys(images).entries()) {
         await core.summary.addLink(`${idx + 1}. ${rule}`, `https://github.com/${repo}/tree/${branch}/rules/${rule}`).addList(images[rule]).write();
     }
+
+    // Fail the workflow when unreferenced images or orphan folders are found
+    core.setFailed(`Found ${Object.keys(images).length} folders with unreferenced images or orphan folders`);
 }
 
 main();
