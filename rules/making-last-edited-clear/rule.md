@@ -19,6 +19,7 @@ Nothing undermines confidence faster than uncertainty about a document's freshne
 Clear authorship and update information turn that uncertainty into accountability.
 
 ## The Checklist to Better Document Ownership
+
 * Add a visible _"Last Updated by [Name]"_ to every rule or document (Tip: Even better, link this to the updated Git commit)
 * Include clearly the date when the document was last updated (Tip: Include a time-zone for less chance of confusion)
 * For open-source documentation, add a link allowing to the source of the document, so that users can easily make edits
