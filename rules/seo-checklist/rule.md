@@ -55,7 +55,7 @@ Use this list to maintain a technically healthy and high-performing website:
 ### 🧩 Structure & Tracking
 
 9. **[Schema / Structured Data](/structured-website)** – Use structured markup (e.g., Articles, Products, FAQs) to help search engines understand your content  
-10. **Analytics & Search Console** – Ensure tracking tools (e.g., [Google Analytics](/do-you-include-google-analytics-in-your-website), Google Search Console) are properly configured  
+10. **Analytics & Search Console** – Ensure tracking tools (e.g., [Google Analytics](/use-google-analytics), Google Search Console) are properly configured  
 
 ### 📱 User Experience
 
