@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you include Google Analytics in your website?
-seoDescription: Understand website analytics and boost online presence with Google Analytics.
+title: Do you collect and analyze website data with Google Analytics?
+seoDescription: Install and review Google Analytics to see how people find and use your website, and use the data to make smarter decisions.
 uri: use-google-analytics
 authors:
   - title: Drew Robson
@@ -10,7 +10,10 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+  - title: Louis Roa
+    url: https://www.ssw.com.au/people/louis-roa
+related:
+  - seo-tools
 redirects:
   - do-you-include-google-analytics-in-your-website
 created: 2014-08-20T02:43:16.000Z
@@ -36,14 +39,16 @@ The most useful reports:
 * Which keywords are bringing users to your site
 * If you have downloads, which are the most popular
 
+## Adding Google Analytics to **websites**
+
 To add Google Analytics to your website:
 
-1. [Log into your Google account](https://www.google.com/analytics),
-2. Go to **Admin** ,
-3. Ensure both **Account** and **Property**
-4. Specify your website details,
-5. Find your **Tracking Code**,
-6. And add the script to your website
+1. [Log into your Google account](https://www.google.com/analytics)
+2. Go to **Admin** 
+3. Create a new **Account** (if needed) and a new **Property**
+4. Specify your website details
+5. Find your **Tracking Code**
+6. Add the script to your website
 
 ![Figure: Navigate to the Tracking Code property](tracking-code-property.png)
 
@@ -53,13 +58,15 @@ From this page, you will be able to get a JavaScript snippet to include in your 
 
 ![Figure: The JavaScript code in HTML](20-08-2014-10-53-15-AM-compressor.png)
 
-Once deployed, this script will start tracking metrics and interacting with Google Analytics.
+Once deployed, this script will start tracking metrics and interacting with Google Analytics. You are good to go!
 
-You are good to go!
+More information on [Set up Analytics for a website and/or app](https://support.google.com/analytics/answer/9304153).
 
-## Adding Google Analytics to blogs
+### Adding Google Analytics to **blogs**
 
 Using the above instructions, you can add Google Analytics to any website, including any blog. However, you may also find that your blogging platform or theme provides a way to set up Google Analytics **using a plugin** or other simple approach. Check your theme's documentation - sometimes it's as simple as adding the tracking code to configuration. Of course, adding the above JavaScript is easy enough in any case.
+
+---
 
 ## Plausible - For when Google Analytics is too much
 
