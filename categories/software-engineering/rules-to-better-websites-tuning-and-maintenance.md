@@ -7,7 +7,7 @@ index:
 - provide-fresh-content
 - monitor-google-keywords
 - analyze-website-performance
-- analyze-your-website-stats
+- use-google-analytics
 - do-you-check-your-website-is-multi-browser-compatible
 - have-a-health-check-page-to-make-sure-your-website-is-healthy
 - have-auto-generated-maintenance-pages

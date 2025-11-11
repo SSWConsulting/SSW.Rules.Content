@@ -1,7 +1,7 @@
 ---
 seoDescription: Analyze your website statistics and unlock valuable insights into user behavior, including geographical origin, referring pages, number of users, time spent on site, early departures, and page popularity
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/use-google-analytics
 title: Do you analyze your website statistics (aka Google Analytics)?
 guid: 8af2c0e4-9189-4d0f-8e34-50b39bfb4b65
 uri: analyze-your-website-stats
@@ -25,7 +25,5 @@ There is a lot of information tucked away in your web server log files. Valuable
 * Time spent on the website
 * Reasons for user's early departure
 * Popularity of pages within your website
-
-View a [sample template of Google Analytics report](https://www.ssw.com.au/ssw/Standards/templates/sswgooglereporttemplate.aspx).
 
 Learn more on [Rules to Better Google Rankings](/rules-to-better-google-rankings-and-seo).
