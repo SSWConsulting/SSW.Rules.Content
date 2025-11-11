@@ -56,6 +56,7 @@ index:
   - hide-sensitive-information
   - do-you-know-all-the-symbols-on-the-keyboard
   - copy-text-from-image
+  - making-last-edited-clear
 
 ---
 
