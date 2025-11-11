@@ -28,6 +28,7 @@ The best way to avoid this is to **start each webpage with solid SEO built in**.
 <!--endintro-->
 
 Because not everyone creating pages is a developer, the process should be streamlined:
+
 * Have the requester (content author, marketer) fill a template (for example a GitHub issue) containing the checklist  
 * The developer uses that to build the page and ensure all SEO elements are included
 
