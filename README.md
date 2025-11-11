@@ -34,13 +34,6 @@ Once they have been merged, you can [see them being built and deployed](https://
 * A rule can belong to multiple categories
 * Category pages link to rules via frontmatter data
 
-### ⚠️ Important Rule Folder Requirements
-
-* **Every rule folder MUST contain a `rule.md` file**
-* Folders with images/files but no `rule.md` (orphan folders) will cause validation failures
-* When renaming a rule folder, ensure the old folder is completely removed or cleaned up
-* The automated validation checks all rule folders on every PR to prevent orphan folders
-
 ## The SSW Rules engine 🚗
 
 This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
