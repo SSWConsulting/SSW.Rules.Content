@@ -20,6 +20,7 @@ created: 2014-08-20T02:43:16.000Z
 archivedreason: null
 guid: a0ac61c8-d3cc-44a9-ab94-d142bce80623
 ---
+
 Google Analytics gives you a great insight into how, when and where your website is used. If you're not using an analytics package in your website, you're flying blind when it comes to understanding how, when and where your website is used.
 
 <!--endintro-->
@@ -44,7 +45,7 @@ The most useful reports:
 To add Google Analytics to your website:
 
 1. [Log into your Google account](https://www.google.com/analytics)
-2. Go to **Admin** 
+2. Go to **Admin**
 3. Create a new **Account** (if needed) and a new **Property**
 4. Specify your website details
 5. Find your **Tracking Code**
