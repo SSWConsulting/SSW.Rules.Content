@@ -45,7 +45,7 @@ The most useful reports:
 To add Google Analytics to your website:
 
 1. [Log into your Google account](https://www.google.com/analytics)
-2. Go to **Admin** 
+2. Go to **Admin**
 3. Create a new **Account** (if needed) and a new **Property**
 4. Specify your website details
 5. Find your **Tracking Code**
