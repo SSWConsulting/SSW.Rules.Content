@@ -20,6 +20,7 @@ created: 2014-08-20T02:43:16.000Z
 archivedreason: null
 guid: a0ac61c8-d3cc-44a9-ab94-d142bce80623
 ---
+
 Google Analytics gives you a great insight into how, when and where your website is used. If you're not using an analytics package in your website, you're flying blind when it comes to understanding how, when and where your website is used.
 
 <!--endintro-->
