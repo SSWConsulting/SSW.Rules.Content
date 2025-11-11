@@ -16,8 +16,6 @@ created: 2014-08-20T02:43:16.000Z
 archivedreason: null
 guid: a0ac61c8-d3cc-44a9-ab94-d142bce80623
 ---
-
-
 Google Analytics gives you a great insight into how, when and where your website is used. If you're not using an analytics package in your website, you're flying blind when it comes to understanding how, when and where your website is used.
 
 <!--endintro-->
@@ -62,7 +60,6 @@ Using the above instructions, you can add Google Analytics to any website, inclu
 
 ![](imgi_2_plausible-analytics.png "Plausible Analytics is an open source project dedicated to making web analytics more privacy-friendly")
 
-
 ## When Google Analytics is too much: Plausible Analytics
 
 Google Analytics is incredibly powerful, but for many marketing sites, blogs, and small products it can feel like using a 747 cockpit to check your speed.
@@ -74,7 +71,7 @@ Some common issues:
 * Reliance on cookies and personal data, which means consent banners, adblockers, and missing data
 * Tight alignment with Google’s ad ecosystem, which some teams simply don’t want or need
 
-If you just want fast, trustworthy, privacy-friendly insight, it’s worth looking at [**Plausible Analytics**][1].
+If you just want fast, trustworthy, privacy-friendly insight, it’s worth looking at **[Plausible Analytics](https://plausible.io/docs "Welcome | Plausible docs")**.
 
 ### How Plausible helps
 
@@ -93,6 +90,4 @@ The Plausible script is tiny compared to GA, helping you keep your Core Web Vita
 **5. Open, independent, and self-hostable.**
 Plausible is open source, run by an independent team, with the option to self-host and keep full control over your data if that matters to your organization. 
 
-If you rely heavily on GA4’s advanced features (ad platform integrations, complex attribution, BigQuery exports), keep it. Otherwise, consider running Plausible alongside GA for a while. It’s a one-line script, easy to test, and for many sites it delivers the important 10% of metrics without the 90% of noise.
-
-[1]: https://plausible.io/docs "Welcome | Plausible docs"
+If you rely heavily on GA4’s advanced features (ad platform integrations, complex attribution, BigQuery exports), keep it. Otherwise, **consider running Plausible alongside GA for a while.** It’s a one-line script, easy to test, and for many sites it delivers the important 10% of metrics without the 90% of noise.
