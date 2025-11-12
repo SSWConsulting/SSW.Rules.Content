@@ -10,9 +10,13 @@ authors:
     url: https://www.ssw.com.au/people/gilles-pothieu
   - title: Chloe Lin
     url: https://www.ssw.com.au/people/chloe-lin
+  - title: Josh Berman
+    url: https://www.ssw.com.au/people/josh-berman
 related:
   - optimize-your-images
   - do-you-avoid-reviewing-performance-without-metrics
+  - compare-pr-performance-with-production
+
 redirects:
   - do-you-have-a-good-page-speed
 created: 2019-04-16T22:59:21.000Z
@@ -110,4 +114,21 @@ This tool gives you a performance score and actionable recommendations to improv
 
 ::: good img-large
 ![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](/lighthouse.png)
+:::
+
+### Adding Lighthouse into your CI/CD Workflow 
+
+To leverage the power of Lighthouse even more, we can implement these checks into our CI/CD workflows so that we can automatically scan a series of routes on all of our pull-requests. This increases the likelihood that negative impacts to your site's performance will be picked up on. 
+
+For GitHub, the key aspects of implementing this are:
+
+- A main workflow template (`.github/workflows/template-lighthouse.yml`) - a reusable template that runs the lighthouse audits on deployed sites. This template will be auditing and eventually commenting on the pull-request
+- A workflow that triggers the template - this can be included in any workflow that is run as apart of your CI/CD 
+- A Lighthouse configuration file (`.lighthouserc.json`) - this will configure what aspects of Lighthouse to report on, and allow for selective auditing
+- A report generator (`generate-lighthouse-report.py`) - this will be a Python script that processes Lighthouse results and generates markdown report to be commented
+
+[Do you compare PR performance with Production before merging?](/rules/compare-pr-performance-with-production/)
+
+::: good img-large
+![Figure: Good example - Lighthouse Audit in GitHub pull-request](/lighthouse-gh-action.png)
 :::
