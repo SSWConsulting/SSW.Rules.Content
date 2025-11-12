@@ -34,7 +34,7 @@ Modern businesses run on digital processes. But without automation, these proces
 
 1. **Identify** repetitive tasks that consume time
 2. **Choose** the right platform (see below)
-3. **Start simple** by making an [MVP](https://www.ssw.com.au/rules/poc-vs-mvp/) e.g. turning a form submission into a Teams message
+3. **Start simple** by making an [MVP](poc-vs-mvp) e.g. turning a form submission into a Teams message
 4. **Add AI** if needed to generate content, analyze data, etc.
 5. **Test and iterate** once your tool is working
 
