@@ -26,8 +26,8 @@ Here are the below are the best practices you should know:
 * Campaign name – Choose a name that clearly describes the focus of your campaign so that you can easily find it in your account
 Note: Your campaign name isn't visible to your customers. Keep your campaign names consistent.
 * Budget – Set a budget for each campaign based on needs
-* Connect your account to Google Analytics. The Google Ads Conversion Tag should be the primary source for bidding data. Impact GA4 conversion for observations later down the line.
-* Conversion – Utilise Value-Based Optimisation by tracking Dynamic COnversion Values. Implement Enhanced Conversions and Transaction IDs to ensure data durability and prevent over-counting.
+* Connect your account to Google Analytics. The Google Ads Conversion Tag should be the primary source for bidding data.
+* Conversion – Utilise Value-Based Optimisation by tracking Dynamic Conversion Values. Implement Enhanced Conversions and Transaction IDs to ensure data durability and prevent over-counting.
 * Keywords - aim for 5-20 keywords to avoid keyword stuffing
 Note: You can start out with more keywords, then narrow it down to the best performing ones. Also don't forget to use a negative keyword strategy to save budget spend.
 * Use ALL ad extensions available!
