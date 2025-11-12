@@ -45,7 +45,7 @@ The SLNX (XML-based) format addresses these core issues:
 ![Figure: Traditional .sln format vs SLNX comparison](sln-vs-slnx.png)
 
 Check out Microsofts documentation on SLNX  
-https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/
+<https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/>
 
 ## ⚠️ Considerations
 
