@@ -33,9 +33,15 @@ Use it **only when screen space is tight** (typically on mobile). Otherwise, alw
 
 ### ✅ Best practices
 
-* Users expect the hamburger menu to be in the **top left** - see microsoft.
-* Use the **standard 3-line icon** – don't reinvent it
-* Include a **toggle state** that turns into a cross.
-* If you only have a logo + menu, favor **left placement** for branding and visibility.
+Users expect consistency in navigation — so make sure your hamburger menu behaves the way they expect.  
+
+* **Placement:** Keep the hamburger menu in the **top-left corner**, following standard web conventions (see Microsoft example below)
+* **Icon design:** Use the **standard three-line icon** — don’t reinvent it
+* **Toggle behavior:** When opened, the hamburger icon should **transform into a cross (X)** to indicate it can be closed
+* **Branding:** If your layout includes only a logo and menu, **favor left alignment** for improved visibility and brand recognition
+
+::: good img-medium  
+![Figure: Good example – Microsoft keeps its hamburger menu in the top-left corner, following established UX patterns for consistency and familiarity](microsoft-menu.png)  
+:::
 
 Hamburger menus rock! Especially on mobile.
