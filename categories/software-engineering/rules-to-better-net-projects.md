@@ -8,6 +8,7 @@ index:
 - do-you-have-a-consistent-net-solution-structure
 - do-you-name-your-startup-form-consistently
 - do-you-use-solution-folders-to-neatly-structure-your-solution
+- use-slnx-format
 - do-you-keep-clean-on-imports-of-project-property
 - do-you-add-the-necessary-code-so-you-can-always-sync-the-web-config-file
 - do-you-use-the-designer-for-all-visual-elements
