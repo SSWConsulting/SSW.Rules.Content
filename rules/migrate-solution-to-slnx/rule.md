@@ -43,6 +43,16 @@ The SLNX (XML-based) format addresses these core issues:
 Check out Microsoft's documentation on SLNX  
 <https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/>
 
+::: info
+**Tip:** You can easily convert your existing `.sln` files to `.slnx` format using the .NET CLI:
+
+```bash
+dotnet sln migrate MySolution.sln
+```
+
+This will create a new `.slnx` file alongside your existing `.sln` file.
+:::
+
 ## ⚠️ Considerations
 
 For most solutions, switching to SLNX will be seamless and not require any changes.
