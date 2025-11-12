@@ -27,10 +27,6 @@ The traditional `.sln` format has served developers well for years, but it comes
 
 These issues become increasingly problematic as your codebase grows to include numerous modules and projects, with frequent additions by multiple team members.
 
-::: bad
-Figure: Bad example - Traditional .sln files are verbose and difficult to maintain
-:::
-
 ## ✅ Benefits of using SLNX format
 
 The SLNX (XML-based) format addresses these core issues:
