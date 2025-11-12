@@ -40,12 +40,12 @@ The SLNX (XML-based) format addresses these core issues:
 
 ![Figure: Traditional .sln format vs SLNX comparison](sln-vs-slnx.png)
 
-Check out Microsofts documentation on SLNX  
+Check out Microsoft's documentation on SLNX  
 <https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/>
 
 ## ⚠️ Considerations
 
-For most solutions, switching to SLNX will be seamless and not require any changes other changes.
+For most solutions, switching to SLNX will be seamless and not require any changes.
 
 * Requires Visual Studio 2022 17.0 or later - ensure your whole team is on a compatible version
 * Some older tooling may not support SLNX format
