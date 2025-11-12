@@ -31,12 +31,11 @@ Use it **only when screen space is tight** (typically on mobile). Otherwise, alw
 ![Figure: Good example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate](hamburger-menu-good-example.png)
 :::
 
-
 ### ✅ Best practices
 
-* Users expect the hamburger menu to be in the **top left** - see microsoft. 
+* Users expect the hamburger menu to be in the **top left** - see microsoft.
 * Use the **standard 3-line icon** – don't reinvent it
 * Include a **toggle state** that turns into a cross.
 * If you only have a logo + menu, favor **left placement** for branding and visibility.
 
-Hamburger menus rock! Especially on mobile. 
+Hamburger menus rock! Especially on mobile.
