@@ -1,7 +1,7 @@
 ---
 seoDescription: Avoid using "OK" buttons when actions are clear, instead opt for descriptive names like Save, Move, or Print.
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/use-the-specific-action-as-labels
 title: Messages - Do you avoid 'OK' button when the action is clear?
 guid: b6be4b9c-9358-4f96-a48b-b6c9f8602e21
 uri: messages-do-you-avoid-ok-button-when-the-action-is-clear
