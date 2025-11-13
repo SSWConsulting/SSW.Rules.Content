@@ -2,7 +2,7 @@
 seoDescription: Improve user experience by avoiding "OK" buttons and using specific action labels instead.
 type: rule
 archivedreason:
-title: Do you avoid “OK” buttons and use the specific action as labels instead?
+title: Do you replace ‘OK’ buttons with clear action labels?
 guid: 196073a0-6fe2-4c27-b4c8-7d54427b963d
 uri: use-the-specific-action-as-labels
 created: 2014-12-10T20:22:02.0000000Z
@@ -30,3 +30,15 @@ While "OK" buttons were the standard convention with operating systems of the pa
 ::: good img-medium
 ![Figure: Good example - Button is labeled with the specific action](OKGoodExample.png)  
 :::
+
+Examples of button names that are better than "OK":
+
+- Save
+- Move
+- Rename
+- Open
+- Select
+- Insert
+- Print
+- Process
+- Login
