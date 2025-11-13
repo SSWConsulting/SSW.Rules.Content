@@ -37,5 +37,3 @@ In the SSW Jira implementation, there are six situations where action is require
 **Note:** Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities)
 
 ![Figure: Your dashboard is your Home Page when you [login like this](/do-you-know-how-to-login-to-jira) and clearly shows the issues that need your immediate attention](/Urgent.png)
-
-
