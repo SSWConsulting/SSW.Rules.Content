@@ -7,7 +7,11 @@ guid: 78db8031-c5b3-426e-8813-978929504465
 uri: do-you-use-jira-to-keep-others-informed-and-not-hold-them-up
 created: 2009-12-04T09:27:06.0000000Z
 authors: []
-related: []
+related: 
+  - do-you-know-how-to-answer-a-question-in-jira
+  - do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira
+  - do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities
+  - do-you-really-know-what-a-jira-workflow-is
 redirects: []
 ---
 
@@ -30,18 +34,6 @@ In the SSW Jira implementation, there are six situations where action is require
 | My Assigned Overdue Issues         | --various--       | Update (with new due date), Done, Not Done      | Assignee                                 | --various--                          |
 | My Reported Issues to Close        | Resolved          | Close or Re-open                                | Reporter                                 | Closed or New                        |
 
-NOTE: Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities)
+**Note:** Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities)
 
 ![Figure: Your dashboard is your Home Page when you [login like this](/do-you-know-how-to-login-to-jira) and clearly shows the issues that need your immediate attention](/Urgent.png)
-
-For guidance on dealing with issues check out our other rules:
-
-[Answering](/do-you-know-how-to-answer-a-question-in-jira)
-
-[SSW Dashboard](/do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira)
-
-[Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities)
-
-[SSW Workflow](/do-you-really-know-what-a-jira-workflow-is)
-
-[Jira Rules Page](/rules-to-better-jira)
