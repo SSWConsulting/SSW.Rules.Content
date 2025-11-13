@@ -22,7 +22,6 @@ index:
 - when-to-email-chat-call-or-meet
 - important-chats-should-be-in-an-email
 - when-to-create-a-group-chat
-- teams-meetings-vs-group-chats
 - replying-in-the-same-medium
 - close-off-thread
 - better-late-than-never
