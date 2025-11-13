@@ -20,6 +20,7 @@ index:
   - do-you-have-successful-remote-meetings
   - call-first-before-emailing
   - asking-questions
+  - ai-provide-options-for-questions
   - do-you-know-you-should-write-notes-when-an-activity-is-going
   - loop-someone-in
   - speak-up
