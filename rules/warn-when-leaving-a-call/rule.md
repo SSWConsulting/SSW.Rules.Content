@@ -4,13 +4,15 @@ type: rule
 archivedreason: null
 title: Do you warn others in chat before leaving a group call?
 guid: 6acf2794-acef-4744-9173-4ac3c80a27bf
-uri: minimize-unrelated-interruptions
+uri: warn-when-leaving-a-call
 created: 2023-09-15T01:08:06.0000000Z
 authors:
   - title: Jonty Gardner
     url: https://ssw.com.au/people/jonty-gardner
 related:
   - do-you-have-successful-remote-meetings
+redirects:
+  - minimize-unrelated-interruptions
 ---
 
 Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation.
