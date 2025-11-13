@@ -33,12 +33,12 @@ While "OK" buttons were the standard convention with operating systems of the pa
 
 Examples of button names that are better than "OK":
 
-- Save
-- Move
-- Rename
-- Open
-- Select
-- Insert
-- Print
-- Process
-- Login
+* Save
+* Move
+* Rename
+* Open
+* Select
+* Insert
+* Print
+* Process
+* Login
