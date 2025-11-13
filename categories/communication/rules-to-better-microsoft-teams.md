@@ -17,6 +17,7 @@ index:
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
 - use-quiet-hours-in-teams
+- minimize-teams-distractions
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder
