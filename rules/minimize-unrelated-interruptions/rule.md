@@ -68,4 +68,3 @@ This way the conversation doesn't need to pause if you are taking a break; and n
 ::: info
 See this cool suggestion to [make BRB a built-in feature on Microsoft Teams](https://prezi.com/p/bkbhsl8nznys/brb-on-teams).
 :::
-
