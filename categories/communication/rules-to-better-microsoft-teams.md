@@ -13,6 +13,7 @@ index:
 - when-to-use-meet-now
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- teams-meetings-vs-group-chats
 - start-meetings-with-energy
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
