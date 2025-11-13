@@ -27,7 +27,7 @@ index:
   - avoid-leading-prompt-questions
   - gpt-tokens
   - pros-and-cons-and-ratings
-  - ai-provide-options-for-questions
+  - ai-efficient-clarify-questions
   - examples-and-analogies-clarification
   - summarize-long-conversations
   - chain-of-density

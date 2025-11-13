@@ -1,8 +1,8 @@
 ---
 type: rule
-title: Do you get your AI (and you) to provide labelled options when asking clarifying questions?
+title: Do you know how to efficiently clarify with agents?
 seoDescription: Improve AI prompt efficiency and reduce back-and-forth by having the AI present clarifying questions as labelled option tables (A, B, C) instead of open text.
-uri: ai-provide-options-for-questions
+uri: ai-efficient-clarify-questions
 authors:
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
