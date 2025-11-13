@@ -8,6 +8,10 @@ redirects:
 index:
 - how-to-align-your-form-labels
 - avoid-clutter-in-form-labels
+- label-buttons-consistently
+- use-the-specific-action-as-labels
+- user-authentication-terms
+- do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-align-your-add-edit-delete-buttons-horizontal-and-bottom-right
 - do-you-avoid-data-junk-data-not-manually-entered-by-yourself
 - do-you-avoid-combining-different-entities
@@ -20,11 +24,8 @@ index:
 - do-you-follow-the-control-size-and-spacing-standards
 - do-you-group-related-fields-by-using-fieldset
 - use-html-maxlength-to-limit-number-of-characters
-- do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 - do-you-have-consistent-way-to-store-a-same-field
 - validation-do-you-avoid-capturing-incorrect-data
-- user-authentication-terms
-- label-buttons-consistently
 - data-entry-forms-for-web
 - weekdays-on-date-selectors
 - do-you-make-text-boxes-show-the-whole-query
