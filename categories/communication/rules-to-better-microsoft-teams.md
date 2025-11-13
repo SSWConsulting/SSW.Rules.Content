@@ -9,6 +9,7 @@ index:
 - teams-naming-conventions
 - use-emojis
 - teams-group-chat
+- warn-when-leaving-a-call
 - when-to-use-meet-now
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
