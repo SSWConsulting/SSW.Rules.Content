@@ -13,15 +13,15 @@ redirects: []
 
 Don't use "OK" if the button does one clear action. The button name must reflect the action that is going to happen by clicking the button. Examples of button names that are better than "OK" are:
 
-- Save
-- Move
-- Rename
-- Open
-- Select
-- Insert
-- Print
-- Process
-- Login
+* Save
+* Move
+* Rename
+* Open
+* Select
+* Insert
+* Print
+* Process
+* Login
 
 <!--endintro-->
 
