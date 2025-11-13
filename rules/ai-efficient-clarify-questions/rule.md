@@ -45,7 +45,6 @@ Chosen: **A** – one letter, instant alignment.
 
 <!--endintro-->
 
-
 ::: bad
 ![Figure: Bad Example - These questions are tough to answer](bad-clarifying-questions.png)
 :::
@@ -69,5 +68,3 @@ Add this to your system prompt or instructions:
 Whenever you need clarification, do NOT ask open-ended questions. Instead, produce a table of 2–4 labelled options (A, B, C …) so its easy for me to choose.
 Ask questions one at a time.
 :::
-
-
