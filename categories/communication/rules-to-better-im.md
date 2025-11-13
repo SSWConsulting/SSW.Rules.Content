@@ -35,7 +35,7 @@ index:
 - keep-a-history-of-your-im-conversations
 - snipping-im-chats
 - do-you-minimize-team-distractions
-- minimize-unrelated-interruptions
+- warn-when-leaving-a-call
 - minimize-skype-distractions
 ---
 
