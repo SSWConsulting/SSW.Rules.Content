@@ -12,7 +12,6 @@ index:
 - easy-questions
 - separate-messages
 - avoid-sending-unnecessary-messages
-- use-quiet-hours-in-teams
 - refer-to-email-subject
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
