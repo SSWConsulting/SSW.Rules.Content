@@ -11,9 +11,9 @@ related: []
 redirects: []
 ---
 
-If the task is for SysAdmins you can send an email to jira@ssw.com.au with the summary in the subject and the description in the message body. However, if more information is required you will then be asked a quesion in Jira. [Do you know how to answer it?](/do-you-know-how-to-answer-a-question-in-jira)
+If the task is for SysAdmins you can send an email to the Jira email account with the summary in the subject and the description in the message body. However, if more information is required you will then be asked a quesion in Jira. [Do you know how to answer it?](/do-you-know-how-to-answer-a-question-in-jira)
 
-A better way, and the way it must be done for all other projects, is to [create an issue](/do-you-know-how-to-create-issues-in-jira) in Jira ......
+A better way, and the way it must be done for all other projects, is to [create an issue](/do-you-know-how-to-create-issues-in-jira) in Jira...
 
 <!--endintro-->
 
@@ -21,5 +21,4 @@ A better way, and the way it must be done for all other projects, is to [create 
 
 ![](CreateIssue2.png)
 
-Somebody should quickly acknowledge and priortise it and you can see it in your
-Once priroritsed, you will be able to [track](/do-you-know-how-to-track-requests-in-jira) it.
+Somebody should quickly acknowledge and priortise it and you can see it in your dashboard. Once prioritized, you will be able to [track](/do-you-know-how-to-track-requests-in-jira) it.
