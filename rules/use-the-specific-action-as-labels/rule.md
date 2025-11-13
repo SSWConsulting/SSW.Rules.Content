@@ -23,7 +23,7 @@ While "OK" buttons were the standard convention with operating systems of the pa
 
 <!--endintro-->
 
-::: bad img-medium 
+::: bad img-medium
 ![Figure: Bad example - Web application button labeled as "OK"](OKBadExample.png)  
 :::
 
