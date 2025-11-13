@@ -19,17 +19,22 @@ redirects: []
 
 When interacting with AI, clarifying questions are inevitable. The difference between slow, meandering threads and fast, decisive progress is how those clarifications are framed. You should train your AI assistant to present clarifying questions as **labelled option tables** instead of open-ended text. This reduces friction, lowers cognitive load, and allows quick responses to AI.
 
-Instead of forcing the human to invent an answer, the AI does the thinking upfront: it proposes plausible choices (A, B, C) and asks for a single-letter response (optionally with a tweak). The human can: pick one, pick + adjust, or reject and explain. All are faster than crafting a reply from scratch.
+<!--endintro-->
 
-::: bad
+Instead of forcing the human to invent an answer, the AI does the thinking upfront. It proposes plausible choices (A, B, C) and asks for a single-letter response (optionally with a tweak). 
+
+The human can pick one, pick + adjust, or reject and explain. All are faster than crafting a reply from scratch.
+
+::: greybox
 Developer / AI agent asks:
 
 > Where should the new command go?
-
-Dev has to remember folder conventions, naming, and side‑effects.
+:::
+::: bad
+Dev has to remember folder conventions, naming, and side‑effects
 :::
 
-::: good
+::: greybox
 Developer / AI agent asks with labelled options (Northwind-flavoured example):
 
 > Where should the UpdateCustomerCreditLimitCommand live?
@@ -42,29 +47,28 @@ Developer / AI agent asks with labelled options (Northwind-flavoured example):
 
 Chosen: **A** – one letter, instant alignment.
 :::
+::: good
+Dev can easily see the differences and pick the right one
+:::
 
-<!--endintro-->
+---
 
 ::: bad
-![Figure: Bad Example - These questions are tough to answer](bad-clarifying-questions.png)
+![Figure: Bad example - These questions are tough to answer](bad-clarifying-questions.png)
 :::
 
 ::: good
-![Figure: Good Example - Easy to answer with a single letter](good-clarifying-questions.png)
+![Figure: Good example - Easy to answer with a single letter](good-clarifying-questions.png)
 :::
 
 ## Why this works
 
-* Reduces ambiguity – each option is a concrete, pre-vetted path.
-* Encourages fast, high-signal replies ("A" instead of a paragraph).
-
----
+* Reduces ambiguity – each option is a concrete, pre-vetted path
+* Encourages fast, high-signal replies ("A" instead of a paragraph)
 
 ## Fix your prompt
 
 Add this to your system prompt or instructions:
 
-::: info
-Whenever you need clarification, do NOT ask open-ended questions. Instead, produce a table of 2–4 labelled options (A, B, C …) so its easy for me to choose.
-Ask questions one at a time.
-:::
+> "Whenever you need clarification, do **not** ask open-ended questions. Instead, produce a table of 2–4 labelled options (A, B, C...) so its easy for me to choose.\
+Ask questions one at a time."
