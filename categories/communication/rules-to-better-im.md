@@ -34,7 +34,6 @@ index:
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - keep-a-history-of-your-im-conversations
 - snipping-im-chats
-- do-you-minimize-team-distractions
 - mute-mic
 - warn-when-leaving-a-call
 - minimize-skype-distractions
