@@ -6,12 +6,12 @@ uri: rules-to-better-im
 index:
 - know-that-im-interrupts
 - no-hello
+- avoid-sending-unnecessary-messages
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-call
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - easy-questions
 - separate-messages
-- avoid-sending-unnecessary-messages
 - refer-to-email-subject
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
