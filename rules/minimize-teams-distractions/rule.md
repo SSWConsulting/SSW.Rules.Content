@@ -2,7 +2,7 @@
 seoDescription: Minimize Microsoft Teams distractions and stay focused on your tasks by turning it on at startup, disabling email alerts, and customizing notification settings.
 type: rule
 title: Interruptions - Do you minimize Microsoft Teams distractions?
-uri: do-you-minimize-team-distractions
+uri: minimize-teams-distractions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,6 +12,7 @@ related:
   - minimize-outlook-distractions
 redirects:
   - interruptions-do-you-minimize-microsoft-teams-distractions
+  - do-you-minimize-team-distractions
 created: 2017-10-13T01:52:21.000Z
 archivedreason: null
 guid: aee8193e-8ca9-4cba-8fa8-c5c611112a50
