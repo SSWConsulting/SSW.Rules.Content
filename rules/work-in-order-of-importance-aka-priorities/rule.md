@@ -29,7 +29,7 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
 <!--endintro-->
 
 > "The difficult we do immediately; the impossible takes a little longer"
-> \— French Proverb
+> — French Proverb
 
 ::: img-medium
 ![Figure: Is it urgent or important?](Urgent-or-Important.png)
@@ -94,8 +94,5 @@ Figure: Good example - Confirming the priority order with the client
 * Efficient people keep a priority list (often written)
 * Don't move an important task out of your inbox unless someone else is going to do it right away
 * The most recent task assigned is not necessarily the most important (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land)
-* You can use inbox subfolders to group and prioritize tasks
-
-::: good
-![Figure: Group by subfolders under your inbox](subfolders.png)
-:::
+* You can use inbox subfolders to group and prioritize tasks\
+  ![Figure: Group by subfolders under your inbox](subfolders.png)
