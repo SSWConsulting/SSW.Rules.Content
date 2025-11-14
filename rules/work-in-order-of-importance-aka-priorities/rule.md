@@ -12,18 +12,16 @@ related:
   - keep-tasks-handy-for-calls
   - meaningful-pbi-titles
   - triaging-do-you-correctly-triage-additional-item-requests
+  - 4-quadrants-important-and-urgent
 redirects:
   - do-you-complete-work-in-order-of-importance-(aka-priorities)
   - priorities-do-you-complete-work-in-order-of-importance-aka-priorities
   - priorities-do-you-complete-work-in-order-of-importance-(aka-priorities)
   - do-you-complete-work-in-order-of-importance-aka-priorities
-  - know-that-im-interrupts
-  - use-quiet-hours-in-teams
-  - work-in-order-of-importance-aka-priorities
-  - 4-quadrants-important-and-urgent 
 created: 2012-03-20T17:57:49.000Z
 archivedreason: null
 guid: d7ed07f0-6d42-45a8-8ea5-dbeb78576aef
+
 ---
 
 With a mountain of emails and PBIs, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others.
@@ -78,7 +76,7 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
 
 Phew... Done!
 
-### Double check before changing the priority order
+## Double check before changing the priority order
 
 It's common that priority orders change, but clients don't always mean to, so confirm before proceeding.
 
@@ -91,7 +89,7 @@ _"I'm currently working on... Do you want to change the priority order and get t
 Figure: Good example - Confirming the priority order with the client
 :::
   
-### Tips
+## Tips
 
 * Efficient people keep a priority list (often written)
 * Don't move an important task out of your inbox unless someone else is going to do it right away
