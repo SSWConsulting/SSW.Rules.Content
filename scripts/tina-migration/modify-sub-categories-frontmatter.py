@@ -15,7 +15,7 @@ CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
-SRC_PREFIX_BASE = '/categories/'
+SRC_PREFIX_BASE = '/uploads/categories'
 
 # ----------------------------- #
 # Utilities
@@ -436,9 +436,25 @@ def modify_category_files(categories_root=None):
         # Process body content to convert aside blocks, images, and YouTube embeds
         original_body = body
 
+        # Ensure upload directory exists
+        upload_dir = project_root / "public/uploads/categories"
+        upload_dir.mkdir(parents=True, exist_ok=True)
+
+        # Move all images in the same folder as the MD file
+        current_dir = Path(file_path).parent
+
+        for img in current_dir.glob("*"):
+            if img.suffix.lower() in [".png", ".jpg", ".jpeg", ".gif"]:
+                target = upload_dir / img.name
+
+                # Avoid overwriting existing files
+                if not target.exists():
+                    print(f"Moving image: {img} → {target}")
+                    img.rename(target)
+
         # Get the category folder name for image src prefix
         category_folder = Path(file_path).parent.name
-        src_prefix = f"{SRC_PREFIX_BASE}{category_folder}"
+        src_prefix = SRC_PREFIX_BASE
 
         # Apply transformations in order
         body = process_custom_aside_blocks(body)
