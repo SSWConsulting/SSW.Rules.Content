@@ -30,7 +30,6 @@ index:
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - how-to-use-gamification
 - do-you-encourage-experimentation
-- do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
 - do-you-have-a-last-taken-option
 - have-a-request-access-button-when-you-require-permission
 - clean-no-match-found-screen
