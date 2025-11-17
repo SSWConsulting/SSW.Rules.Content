@@ -6,13 +6,12 @@ uri: rules-to-better-im
 index:
 - know-that-im-interrupts
 - no-hello
+- avoid-sending-unnecessary-messages
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-call
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - easy-questions
 - separate-messages
-- avoid-sending-unnecessary-messages
-- use-quiet-hours-in-teams
 - refer-to-email-subject
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
@@ -23,7 +22,6 @@ index:
 - when-to-email-chat-call-or-meet
 - important-chats-should-be-in-an-email
 - when-to-create-a-group-chat
-- teams-meetings-vs-group-chats
 - replying-in-the-same-medium
 - close-off-thread
 - better-late-than-never
@@ -34,8 +32,8 @@ index:
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - keep-a-history-of-your-im-conversations
 - snipping-im-chats
-- do-you-minimize-team-distractions
-- minimize-unrelated-interruptions
+- mute-mic
+- warn-when-leaving-a-call
 - minimize-skype-distractions
 ---
 

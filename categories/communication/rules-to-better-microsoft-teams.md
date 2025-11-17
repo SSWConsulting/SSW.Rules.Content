@@ -9,13 +9,16 @@ index:
 - teams-naming-conventions
 - use-emojis
 - teams-group-chat
+- warn-when-leaving-a-call
 - when-to-use-meet-now
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- teams-meetings-vs-group-chats
 - start-meetings-with-energy
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
 - use-quiet-hours-in-teams
+- minimize-teams-distractions
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder

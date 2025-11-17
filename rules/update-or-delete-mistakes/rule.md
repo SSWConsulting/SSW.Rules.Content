@@ -15,7 +15,7 @@ redirects:
   - clarity-do-you-update-or-delete-message-mistakes
 ---
 
-If you noticed the message you typed in Microsoft Teams has a mistake, make sure you edit it (or delete it if sent in error) so the recipient doesn't see the mistake.
+If you noticed the message you typed in IM (e.g. Microsoft Teams) has a mistake, make sure you edit it (or delete it if sent in error) so the recipient doesn't see the mistake.
 
 <!--endintro-->
 
