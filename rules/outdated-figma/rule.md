@@ -22,11 +22,15 @@ When a Figma file falls out of sync with the product, new team members (or clien
 
 ## Spot outdated designs fast
 
-Follow this checklist whenever a design is no longer the source of truth:
+When a Figma design is no longer the source of truth, make it unmistakably clear:
 
-1. **Rename the page with a [`zz` prefix](/zz-files) and the status** – e.g. `zz ⛔ Archived – Checkout (see Production)` so it sinks to the bottom of the Pages panel and instantly signals it’s not live
-2. **Drop in a status banner component** – Add a top-of-frame component (e.g. a red ⚠️ callout or your design system’s "Deprecated" badge) that states “Out of date – refer to production {{ LINK }}”. Lock this so it cannot be hidden accidentally
-3. **Link to the production URL**
-4. **Document who can update it** – Add a text block such as “Maintainers: {{ DESIGNER }} with @mentions. This answers “who do I ping for edits?” for viewers on free plans
+1. **Move outdated work to an Archive section** – Add a divider or use a clear naming pattern (e.g. a `zz` prefix) so old pages naturally sink to the bottom and stay separate from live work
 
-These lightweight cues make it obvious which designs are outdated while telling the team where the true behaviour lives.
+2. **Add a locked status banner** – Drop a top-of-frame callout (e.g. a red ⚠️ warning or a “Deprecated” badge) that says: “Out of date — refer to production {{ LINK }}”. Lock it so it can’t be hidden
+
+3. **Link to the production source** – Always include the real live version so there’s no confusion about where the truth lives
+
+4. **Document who maintains it** – Add a small note like “Maintainers: {{ DESIGNER }}” so everyone knows who to @mention for updates, even on free plans
+
+These simple cues make outdated designs obvious, prevent accidental reuse, and clearly point the team to the current production experience.
+
