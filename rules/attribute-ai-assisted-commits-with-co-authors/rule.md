@@ -199,7 +199,7 @@ Commit changes incrementally as you complete logical units of work.
 - ✅ Creates small, focused commits that are easy to review and understand
 - ✅ Enables vertical slicing - each commit represents a single logical change
 - ✅ Avoids one giant commit at the end of a session with dozens of unrelated changes
-- ✅ Makes it easier to track progress and document work in [task docs created](task-docs-created)
+- ✅ Makes it easier to track progress and document work in task docs created
 - ✅ Allows reverting specific changes without losing other work
 - ✅ Provides clear checkpoints during development
 
@@ -272,7 +272,7 @@ fi
 ✅ **Collaboration History:** Easy to trace AI-assisted changes  
 ✅ **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
 ✅ **Vertical Slicing:** Each commit represents one logical unit of work  
-✅ **Task Documentation Alignment:** Commits correspond to [task docs created](task-docs-created) during the session  
+✅ **Task Documentation Alignment:** Commits correspond to task docs created during the session  
 ✅ **Team Visibility:** Team can see AI collaboration patterns  
 ✅ **Future Context:** Helps understand how changes were created  
 ✅ **Easy Reverting:** Can undo specific changes without affecting other work

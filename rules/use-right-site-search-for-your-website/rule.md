@@ -36,7 +36,7 @@ When it comes to site search, managing various search requirements can be challe
 
 ### Typesense
 
-![](/favicon.png)
+![](typesense.png)
 
 [Typesense](https://typesense.org/) is designed for simplicity and integration, making it a suitable choice for smaller to medium-sized applications that require a user-friendly search experience.
 

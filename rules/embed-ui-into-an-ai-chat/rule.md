@@ -36,11 +36,11 @@ See here for a demo of the Vercel AI SDK in action: [Vercel AI SDK Demo](https:/
 ### Examples
 
 ::: ok
-![Figure: OK example - using only text-based responses can make the conversation less engaging and efficient](./text-based-chat.png)
+![Figure: OK example - using only text-based responses can make the conversation less engaging and efficient](/text-based-chat.png)
 :::
 
 ::: good
-![Figure: Good example - embedding visual UI elements like images can make the conversation much more engaging](./ui-based-chat.png)
+![Figure: Good example - embedding visual UI elements like images can make the conversation much more engaging](/ui-based-chat.png)
 :::
 
 ### Use Cases

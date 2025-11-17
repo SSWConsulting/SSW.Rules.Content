@@ -68,7 +68,7 @@ There are several types of microphones, and each has a distinctive shape and a s
   These condenser mics have a much smaller diaphragm, so are more robust that the large diaphragm mics, but are still very sensitive. The most common type is known as a "shotgun", known for the long barrel that it is mounted in, which are directional.
   For recording vocals, the best position for a mall diaphragm condenser mic, or shotgun mic, is to point the tip of the barrel towards the source.
 
-![Figure: How to position your microphone based on type.](https://tv.ssw.com/wp-content/uploads/2021/09/How-to-use-mics.jpg)
+![Figure: How to position your microphone based on type.](How-to-use-mics.jpg)
 
 ### Microphone Patterns
 

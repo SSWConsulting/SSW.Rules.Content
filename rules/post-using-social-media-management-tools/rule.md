@@ -109,4 +109,4 @@ Out in the market since 2010, [Sprout Social](https://sproutsocial.com/) is an a
 
 Besides three options of plans, they have three additional and optional premium solutions: Listening (below), Premium Analytics and Employee Advocacy.
 
-![Figure: Sprout Social has a Listening feature that allows you to build a deeper understanding of your audience, discover trends and apply insights from your social media in your business strategy](https://media.sproutsocial.com/uploads/PI_Listening_Competitive_Analysis_Performance_1000w.png)
+![Figure: Sprout Social has a Listening feature that allows you to build a deeper understanding of your audience, discover trends and apply insights from your social media in your business strategy](PI_Listening_Competitive_Analysis_Performance_1000w.png)
