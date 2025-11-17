@@ -33,4 +33,3 @@ When a Figma design is no longer the source of truth, make it unmistakably clear
 4. **Document who maintains it** – Add a small note like “Maintainers: {{ DESIGNER }}” so everyone knows who to @mention for updates, even on free plans
 
 These simple cues make outdated designs obvious, prevent accidental reuse, and clearly point the team to the current production experience.
-
