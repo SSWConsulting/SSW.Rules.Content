@@ -48,7 +48,6 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
 | **Google Maps**                                                           | [This is a Google Map link](https://www.google.com/maps/place/SSW+Sydney+-+Enterprise+Software+Development/@-33.8305685,151.2193249,15z/data=!4m6!3m5!1s0x6b12ae97d5dce3c1:0xae8cb5f05af0e28d!8m2!3d-33.8305685!4d151.2193249!16s%2Fg%2F1tdy4mhr?entry=ttu)                                             | ![](map-icon.png) |
 
-
 ::: bad img-small
 ![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)
 :::
