@@ -16,7 +16,7 @@ related:
 
 ---
 
-M calls can get noisy fast. Even a bit of background chatter or typing can distract everyone and make it hard to follow what's being said, especially in group calls. Muting your mic when you’re not speaking shows respect for others’ focus and helps keep meetings productive.
+IM calls can get noisy fast. Even a bit of background chatter or typing can distract everyone and make it hard to follow what's being said, especially in group calls. Muting your mic when you’re not speaking shows respect for others’ focus and helps keep meetings productive.
 
 <!--endintro-->
 
