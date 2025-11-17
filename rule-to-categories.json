@@ -2268,6 +2268,9 @@
     "copy-text-from-image": [
         "rules-to-better-technical-documentation"
     ],
+    "making-last-edited-clear": [
+        "rules-to-better-technical-documentation"
+    ],
     "salary-sacrificing": [
         "rules-to-better-accounting"
     ],
@@ -3570,6 +3573,15 @@
     "avoid-clutter-in-form-labels": [
         "rules-to-better-interfaces-forms"
     ],
+    "label-buttons-consistently": [
+        "rules-to-better-interfaces-forms"
+    ],
+    "use-the-specific-action-as-labels": [
+        "rules-to-better-interfaces-forms"
+    ],
+    "do-you-have-a-label-tag-for-the-fields-associated-with-your-input": [
+        "rules-to-better-interfaces-forms"
+    ],
     "do-you-align-your-add-edit-delete-buttons-horizontal-and-bottom-right": [
         "rules-to-better-interfaces-forms"
     ],
@@ -3606,16 +3618,10 @@
     "use-html-maxlength-to-limit-number-of-characters": [
         "rules-to-better-interfaces-forms"
     ],
-    "do-you-have-a-label-tag-for-the-fields-associated-with-your-input": [
-        "rules-to-better-interfaces-forms"
-    ],
     "do-you-have-consistent-way-to-store-a-same-field": [
         "rules-to-better-interfaces-forms"
     ],
     "validation-do-you-avoid-capturing-incorrect-data": [
-        "rules-to-better-interfaces-forms"
-    ],
-    "label-buttons-consistently": [
         "rules-to-better-interfaces-forms"
     ],
     "data-entry-forms-for-web": [
@@ -3716,9 +3722,6 @@
         "rules-to-better-interfaces-general-usability-practices"
     ],
     "do-you-encourage-experimentation": [
-        "rules-to-better-interfaces-general-usability-practices"
-    ],
-    "do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead": [
         "rules-to-better-interfaces-general-usability-practices"
     ],
     "do-you-have-a-last-taken-option": [
@@ -5611,9 +5614,10 @@
     "use-both-english-spelling-on-google-ads": [
         "rules-to-better-google-ads-and-sem"
     ],
-    "do-you-include-google-analytics-in-your-website": [
+    "use-google-analytics": [
         "rules-to-better-google-analytics-reports",
-        "rules-to-better-websites-development"
+        "rules-to-better-websites-development",
+        "rules-to-better-websites-tuning-and-maintenance"
     ],
     "add-tracking-codes-in-urls": [
         "rules-to-better-google-analytics-reports"
@@ -9149,6 +9153,9 @@
     "do-you-use-solution-folders-to-neatly-structure-your-solution": [
         "rules-to-better-net-projects"
     ],
+    "use-slnx-format": [
+        "rules-to-better-net-projects"
+    ],
     "do-you-keep-clean-on-imports-of-project-property": [
         "rules-to-better-net-projects"
     ],
@@ -10734,9 +10741,6 @@
         "rules-to-better-websites-tuning-and-maintenance"
     ],
     "analyze-website-performance": [
-        "rules-to-better-websites-tuning-and-maintenance"
-    ],
-    "analyze-your-website-stats": [
         "rules-to-better-websites-tuning-and-maintenance"
     ],
     "have-a-health-check-page-to-make-sure-your-website-is-healthy": [

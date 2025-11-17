@@ -19,7 +19,7 @@ redirects: []
 related:
 - rule: public/uploads/rules/format-new-lines/rule.mdx
 seoDescription: Learn how to create spaces in a web page using CSS and avoid using
-  outdated methods like `` or ASCII character codes.
+  outdated methods like `<br />` or ASCII character codes.
 title: HTML/CSS - Do you know how to create spaces in a web page?
 type: rule
 uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
@@ -30,7 +30,7 @@ uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
 There are many scenarios where you need some extra space in a web page (HTML or Markdown). No matter which one you are at, CSS is the answer.
   </>}
 />
-Sometimes the first thing that comes to the developer mind is to use the "break line" tag ``, or the [ASCII character codes](https://en.wikipedia.org/wiki/ASCII) for "space" `&#160;` / `&nbsp;` to create these extra spaces. **It's wrong!**
+Sometimes the first thing that comes to the developer mind is to use the "break line" tag `<br />`, or the [ASCII character codes](https://en.wikipedia.org/wiki/ASCII) for "space" `&#160;` / `&nbsp;` to create these extra spaces. **It's wrong!**
 
 CSS is the way to go. You can use both "margin" or "padding" CSS properties to get the result you want.
 
@@ -50,13 +50,13 @@ CSS is the way to go. You can use both "margin" or "padding" CSS properties to g
 <ul>
   <li>List item</li>
 </ul>
-
-
-
+<br />
+<br />
+<br />
 ```
 <figureEmbed figureEmbed={ {
   preset: "badExample",
-  figure: "Figure: Bad example - Using the `` tag to create a space at the bottom of that list",
+  figure: "Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list",
   shouldDisplay: true
 } } />
 
