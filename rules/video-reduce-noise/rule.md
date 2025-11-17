@@ -26,27 +26,27 @@ By employing advanced algorithms and artificial intelligence, Neat Video analyze
    **Note:** This can sometimes be avoided when filming by turning up your lights, adding more lights, or opening your aperture.
 
 ::: good
-![Figure: Good example - Noise reduction applied to low light footage](https://tv.ssw.com/wp-content/uploads/2023/05/slider_lake_3.gif)
+![Figure: Good example - Noise reduction applied to low light footage](slider_lake_3.gif)
 :::
 
 * **High ISO Footage**: If your camera is set to a high ISO setting is used often leads to grainy videos. Neat Video excels in reducing this noise, allowing you to salvage otherwise unusable footage and restore clarity and detail.  
    **Note:** Try to avoid this when filming by keeping your ISO settings low.
 
 ::: good
-![Figure: Good example - Noise reduction applied to high ISO footage](https://tv.ssw.com/wp-content/uploads/2023/05/backyard_slider_11_top.gif)
+![Figure: Good example - Noise reduction applied to high ISO footage](backyard_slider_11_top.gif)
 :::
 
 * **Flicker**: when a camera's framerate clashes with a light's frequency, it can cause a flickering effect. This can be quite distracting and can ruin otherwise beautiful shots.  
    **Note:** You can try to avoid this while shooting by matching your camera's framerate to the Hertz frequency of the light. (e.g. American lights run on 60Hz, so shoot at 60fps. Australian lights run at 50Hz, so shoot at 50fps)
 
 ::: good
-![Figure: Good example - Removing flickering caused by a light's power frequency](https://tv.ssw.com/wp-content/uploads/2023/05/cake_slider_1.gif)
+![Figure: Good example - Removing flickering caused by a light's power frequency](cake_slider_1.gif)
 :::
 
 * **Dirty Sensor or lens, and Restoration of Vintage Footage**: When working with damaged, older or vintage footage, noise, scratches, dust, and artefacts may be prevalent. Neat Video can be a valuable tool in cleaning up the footage without removing its nostalgic charm.
 
 ::: good
-![Figure: Good example - Removing dust and film grain](https://tv.ssw.com/wp-content/uploads/2023/05/clouds_slider_11NVx1.gif)
+![Figure: Good example - Removing dust and film grain](clouds_slider_11NVx1.gif)
 :::
 
 * **Compression artefacts**: Footage shot at low resolution, or on a low quality camera, may have blocky or pixelated video compression that can reduce the quality.

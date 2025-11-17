@@ -77,7 +77,7 @@ E.g. Here are the styles SSW use for their videos:
 :::
 
 ::: good  
-![Figure: Example 2: General SSW TV videos - Corporate branding, clear, eye catching](https://tv.ssw.com/wp-content/uploads/2021/07/2021-lower-thirds-greybox-redstripe.png)  
+![Figure: Example 2: General SSW TV videos - Corporate branding, clear, eye catching](2021-lower-thirds-greybox-redstripe.png)  
 :::
 
 ::: good  

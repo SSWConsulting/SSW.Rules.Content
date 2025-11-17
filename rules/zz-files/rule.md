@@ -55,7 +55,7 @@ Once a new version of the video is ready to be uploaded, do the following:
 4. **Visibility** - Set its visibility to "unlisted"
 
 ::: good
-![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
+![Figure: Good example of the 'zz' process for YouTube videos](zz-process-youtube.png)
 :::
 
 ### 'Zz' videos for viewers

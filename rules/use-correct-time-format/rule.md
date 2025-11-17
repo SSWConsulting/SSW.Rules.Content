@@ -81,7 +81,7 @@ Avoid the 12 PM / 12 PM trap.
 * For boundaries (e.g., validity periods), avoid 00:00; use 00:01 for start and 23:59 for end (common airline practice) to remove doubt.
 
 ::: img-medium  
-![Figure: Will you attend this event on the night of the 14th or the 15th?](/image-use-correct-time-format-2.png)
+![Figure: Will you attend this event on the night of the 14th or the 15th?](image-use-correct-time-format-2.png)
 :::
 
 Always include a time zone for cross-location events: AEST (UTC+10), AEDT (UTC+11), PT (UTC–8), etc.
