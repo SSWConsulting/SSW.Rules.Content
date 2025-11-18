@@ -86,7 +86,7 @@ As SPAs emerged, developers needed a way to authenticate without a backend. The 
 
 ## 3. OAuth 2.0 Authorization Code Flow with PKCE (SPAs v2)
 
-To fix the flaws of the Implicit Flow, PKCE came into play. This was a big leap forward for SPAs, giving them a safer way to obtain tokens directly. But while more secure, it still left the browser holding sensitive tokens.
+To fix the flaws of the Implicit Flow, PKCE (Prook Key for Code Exchange) came into play. This was a big leap forward for SPAs, giving them a safer way to obtain tokens directly. But while more secure, it still left the browser holding sensitive tokens.
 
 📅 **Era:** Mid SPAs (~2016).
 
