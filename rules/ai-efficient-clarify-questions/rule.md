@@ -23,6 +23,8 @@ When interacting with AI, clarifying questions are inevitable. The difference be
 
 Instead of forcing the human to invent an answer, the AI does the thinking upfront. It proposes plausible choices (A, B, C) and asks for a single-letter response (optionally with a tweak).
 
+Learn more on [Efficient Vibe Coding: How Clarifying Questions Make AI Actually Useful](https://www.dandoescode.com/blog/efficient-vibe-coding-with-clarifying-questions) by Daniel Mackay.
+
 The human can pick one, pick + adjust, or reject and explain. All are faster than crafting a reply from scratch.
 
 ::: greybox
