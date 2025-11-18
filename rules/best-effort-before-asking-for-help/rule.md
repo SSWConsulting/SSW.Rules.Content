@@ -19,7 +19,7 @@ When you are asked to improve a feature, your manager expects a recommendation, 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/lVngC0tLiD0`
-**Video: Give your best effort before asking for help (2 min)**
+**Video: Do your part before throwing things over the fence (2 min)**
 
 ## Give a recommendation, even when you're unsure
 
