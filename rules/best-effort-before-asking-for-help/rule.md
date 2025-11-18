@@ -10,7 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - do-you-manage-up
-  - investigate-your-question-for-two-minutes-before-asking-someone-on-im
+  - investigate-before-asking-someone-on-im
 
 ---
 
