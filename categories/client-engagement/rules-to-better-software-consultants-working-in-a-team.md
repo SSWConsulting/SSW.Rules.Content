@@ -9,6 +9,8 @@ index:
 - professional-integrity-tools
 - strong-suits
 - do-you-manage-up
+- investigate-before-asking-someone-on-im
+- best-effort-before-asking-for-help
 - elephant-in-the-room
 - follow-up-effectively
 - do-you-know-the-5-dysfunctions-of-a-team
