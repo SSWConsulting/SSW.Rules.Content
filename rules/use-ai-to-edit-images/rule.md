@@ -48,7 +48,7 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-![Figure: ❌ Bad Example: text to image models often struggle with accuracy, producing distored anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers...](comewith-me-messed-up.png "Example of bad AI image gen")
+![Figure: ❌ Bad Example: text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers...](comewith-me-messed-up.png "Example of bad AI image gen")
 
 ### Today's shift - Enter Nano Banana 🍌
 
@@ -76,8 +76,6 @@ It is great for highly aesthetic, cinematic, and artistic output, making it idea
 V7 offers two modes: Turbo, which is faster but more expensive, and Relax, which is slower but more affordable.
 
 There’s also a new Draft Mode that generates images around 10x faster and at roughly half the cost of standard mode. Draft images are lower quality by default, but you can upscale them if you’re happy with the result.
-
-
 
 ![Figure: ✅ Good example - from Midjourney's v7 release on X, the images are incredibly realistic](midjourney-post.png "Midjourney on X")
 
