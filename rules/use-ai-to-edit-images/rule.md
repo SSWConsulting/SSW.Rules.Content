@@ -48,97 +48,64 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-::: bad img-medium
-![Figure: Bad example - Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image](xen-create-image-blog-fail-1.webp)
-:::  
+![Figure: ❌ Bad Example: text to image models often struggle with accuracy, producing distored anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers...](comewith-me-messed-up.png "Example of bad AI image gen")
 
 ### Today's shift - Enter Nano Banana 🍌
 
-**Editing-first models** like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
+Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an image + instruction and applies localized edits. They preserve subjects and scene layout, follow prompts tightly, and support iterative workflows (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
-::: good img-medium
-![Figure: Good example - Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.](generated-image-september-04-2025-12_19pm.jpeg)
-:::  
+![Figure: ✅ Good Example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes](penny-nano-banana.png "Good exmaple Nano Banana")
 
 ### What makes editing-first models different?
 
 1. **Targeted local edits** - They change only what you ask for and leave everything else untouched. This makes them practical for production assets where fidelity matters
-
 2. **Consistency & identity preservation** - They maintain the same person/product across edits (haircut, outfit, background changes) without subtle morphing
-
 3. **Strong prompt adherence** - They follow instructions literally (“make the shirt red” means *only* the shirt becomes red) and are less likely to hallucinate unrelated changes
-
 4. **Iterative & interactive** - You can chain edits (clean background → add shadow → tweak contrast) while keeping quality stable—mirroring designer workflows
 
-![Figure: Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional](gz4kb-fbaaayj5n.jpg "Targeted local edits")
+![Figure: ✅ Good example - You can even ask it to change the perspective of an image](gzsnzhtwoaapceg.jpg)
 
-![Figure: Changing the perspective of an image](gzsnzhtwoaapceg.jpg)
+![Figure: ✅ Good example - You can isolate a character from an image as seen in this example from Google](gzwtouzbyaamxak.jpg)
 
-![Figure: Isolating a character](gzwtouzbyaamxak.jpg)
+## Today’s shift - Midjourney v7
 
-## Practical workflow
+MidJourney was one of the first quality image generators, but the most recent version is a real step up! The latest version, Midjourney V7, has been designed to better understand text prompts and produce images that are noticeably higher quality. This, as Midjourney CEO David Holz explained on the company Discord, can be seen in textures, bodies, and hands, as well as in objects.
 
-1. **Duplicate your source** - Keep originals under version control
-2. **Write a narrow prompt** - Describe the change + what to preserve
-3. **Call out constraints** - “keep pose, keep lighting, keep composition”  
-4. **Iterate in small steps** - One change per pass
-5. **Compare A/B** - After each step; revert quickly if drift appears
-6. **Record provenance** - Tool, prompt, who approved?
-7. **Label the output** - According to your policy (more info below)
+It is great for highly aesthetic, cinematic, and artistic output, making it ideal for detailed, professional-grade visuals. We recommend it for hero images, stylised key art with minimal edits.
 
-## Prompt patterns that work
+V7 offers two modes: Turbo, which is faster but more expensive, and Relax, which is slower but more affordable.
 
-Use these templates and tweak the nouns:
+There’s also a new Draft Mode that generates images around 10x faster and at roughly half the cost of standard mode. Draft images are lower quality by default, but you can upscale them if you’re happy with the result.
 
-::: greybox
-“**Remove** the \[unwanted object] in the \[location]. Keep subject identity, pose, and lighting unchanged.”  
 
-“**Change** the \[attribute] of the \[object] to \[new value], **only** affecting that item. Keep everything else identical.”  
 
-“**Replace background** with \[description]. Preserve subject edges, shadows, and color balance.”  
+![Figure: ✅ Good example - from Midjourney's v7 release on X, the images are incredibly realistic](midjourney-post.png "Midjourney on X")
 
-“**Add** a \[small object] to \[location] with consistent perspective and soft shadow matching the scene.”  
+## OpenAI Images (DALL·E 3 / GPT‑4o Images)
 
-“**Extend canvas** to the \[direction] and continue the \[background pattern/scene] naturally.”
-:::
+Best known for prompt fidelity, legible typography, and chat‑first iteration in ChatGPT, Open AI images makes AI-generated images really accessible. 
 
-::: greybox
+OpenAI's latest model can be used as a 'chat-driven design assistant'. It's intended to create precise, usable images rather than just pretty art.
 
-![](gzyyduowiaa8x0l.jpg)
+It’s tightly integrated into ChatGPT, so it remembers your conversation and follows detailed instructions. It is designed to handle text in images properly (great for posters, slides, UI mockups, and social tiles), it supports reference images so you can refine or restyle existing designs, and it’s strong at both photorealistic and illustrated styles, making it ideal for marketing assets, product and UI concepts, diagrams and explainers, and quick visual variations you can iterate on in a few conversational steps.
 
-**Prompt:** “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
-:::
-**Figure: Here we have 13 images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively**
+It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'. 
 
-::: greybox
-
-![](gz1gbfmaoaavuob.jpg)
-
-**Prompt:** “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
-:::
-**Figure: Nano Banana relighting applied. Shot simulated as RAW**
-
-::: greybox
-
-![](gzsnxlyxcaasy2_.jpg)
-
-**Prompt:** “Create a Nike ad with this image with text copy"
-:::
-**Figure: Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption**
+![Figure: ✅ Good Example - an example of OpenAI's image generation using the prompt "Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."](dark-mermaids.png "Dark Mermaids ")
 
 ## Origin & trust (label your edits)
 
-As AI editing becomes standard, **origin** is essential. **SynthID** is an industry approach that embeds an **imperceptible, pixel-level watermark** at generation/edit time (in addition to any visible “AI” label). It’s designed to **survive common transforms** (compression, mild crops/brightness changes) and can be **verified** by compatible detectors.
+As AI editing becomes standard, origin is essential. SynthID is an industry approach that embeds an imperceptible, pixel-level watermark at generation/edit time (in addition to any visible “AI” label). It’s designed to survive common transforms (compression, mild crops/brightness changes) and can be verified by compatible detectors.
 
-**Team policy:**
+**Best Practices for AI image use:**
 
 * **Enable watermarking** where your stack supports it (e.g. tools that offer SynthID-style invisible marks plus visible "AI-edited" labels)  
 * **Store proof** of detection alongside the final asset (export the verifier result or checksum)
 * **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted")
 * **Know the limits:** because very tiny edits may be too subtle to flag; keep manual logs regardless
 
-::: good  
-![Figure: Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata](origin-added-to-metadata.png)
+::: good\
+![Figure: ✅ Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata](origin-added-to-metadata.png)
 :::  
 
 ## Common pitfalls and fixes
@@ -165,19 +132,9 @@ Inserted or modified objects appear at the wrong scale, angle, or depth compared
 
 New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
 
-✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."  
+✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."
 
-## Try it yourself
+More to read:
 
-One quick way to experiment with AI image editing:
-
-1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model
-2. Upload a photo and give it a small edit prompt like: *"remove the tree in the background."*  
-3. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing
-4. Upload the same photo and prompt: *"replace the background with a sunset sky."*  
-
-Comparing the results side by side will help you see how different models handle **precise edits** versus **full regeneration**.
-
----
-
-What do you think about using tools like Nano Banana to create varied poses and portraits of yourself, for use on social media posts/YouTube thumbnails, etc?
+If you would like more information on AI image Generators, check out Adam Cogan's blog post:\
+<https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/>
