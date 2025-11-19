@@ -59,16 +59,18 @@ A solid design system should include:
 
 ## Real-world examples
 
-* **[Material Design](https://m3.material.io/)** (Google)  \
-  Theming, deep docs, and ready-to-use code
-* **[Polaris](https://polaris.shopify.com/)** (Shopify)  \
-  Design, content, and accessibility all-in-one
-* **[Carbon](https://carbondesignsystem.com/)** (IBM)  \
-  Enterprise-level, open source, and WCAG-compliant
 * **[Atlassian Design System](https://atlassian.design/)**  \
-  Includes tokens, patterns, tone of voice, and code
+  Includes tokens, patterns, tone of voice, and code.
+* **[Google Material Design](https://m3.material.io/)**  \
+  Theming, deep docs, and ready-to-use code.
+* **[IBM Carbon](https://carbondesignsystem.com/)**  \
+  Enterprise-level, open source, and WCAG-compliant.
 * **[Shadcn](https://ui.shadcn.com/)**  \
-  Headless components + Tailwind, great for custom styling and modern UIs
+  Headless components + Tailwind, great for custom styling and modern UIs.
+* **[Shopify Polaris](https://polaris.shopify.com/)**  \
+  Design, content, and accessibility all-in-one.
+* **[Wise Design](https://wise.design/design-at-wise/get-started)**  \
+  Multi-brand theming, shared tokens, and flexible components.
 
 ## Design System maturity: From Library to Ecosystem
 
