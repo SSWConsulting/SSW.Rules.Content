@@ -3,7 +3,7 @@
 Script: Markdown to MDX Transformer
 ------------------------------------------------------------
 
-This script transforms Markdown (.md) files (used in SSW Rules)
+This script transforms .md and .mdx files (used in SSW Rules)
 into MDX files with special components for images, videos,
 email templates, and aside blocks.
 
@@ -12,30 +12,33 @@ Usage:
     python convert-rule-md-to-mdx.py --update-categories [rules_dir]
 
 Parameters:
-    path        - Optional. Can be a Markdown file path or a directory path.
-                  - If it's a Markdown file: transforms just that file.
+    path        - Optional. Can be a .md/.mdx file path or a directory path.
+                  - If it's a file: transforms just that file.
                   - If it's a directory: processes subdirectories inside it.
-                    Looks for Markdown files to transform (default: rule.md).
+                    Looks for .md/.mdx files to transform (default: rule.mdx,
+                    falling back to rule.md).
 
     file_name   - Optional. Only used when 'path' is a directory.
-                  Specifies which .md file to process in each subfolder.
-                  If omitted, the first .md file in each subfolder is used.
+                  Specifies which .md/.mdx file to process in each subfolder.
+                  If omitted, the first .mdx file in each subfolder is used; 
+                  if none, the first .md file is used.
 
     --update-categories - Flag to update existing MDX files with categories
                           from rule-to-categories.json. If categories already
                           exist in the file, they are preserved.
 
 Examples:
-    python convert-rule-md-to-mdx.py                              # Transforms all rule.md files in ./rules/
+    python convert-rule-md-to-mdx.py                              # Transforms all rule.mdx files in ./public/uploads/rules/
     python convert-rule-md-to-mdx.py rules custom_rule.md         # Transforms custom_rule.md in each subfolder under ./rules/
     python convert-rule-md-to-mdx.py rules/someRule/rule.md       # Transforms only the specified file
     python convert-rule-md-to-mdx.py --update-categories public/uploads/rules  # Updates categories in all rule.mdx files
 
 Notes:
-    - The original .md file will be deleted after successful transformation.
+    - If the input is a .md file, the original .md file will be deleted after successful transformation.
     - The resulting .mdx file will be saved in the same directory.
     - Files listed in IGNORE_FILES will be skipped.
 """
+
 
 import os
 import re
@@ -49,8 +52,8 @@ import glob
 # Configuration
 # ----------------------------- #
 
-DEFAULT_BASE_DIR = 'rules'
-DEFAULT_FILE_NAME = 'rule.md'
+DEFAULT_BASE_DIR = 'public/uploads/rules'
+DEFAULT_FILE_NAME = 'rule.mdx'
 SRC_PREFIX_BASE = '/uploads/rules/'
 IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g., ['ignore_this.md', 'example.md'])
 
@@ -731,12 +734,15 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
     content = re.sub(ASSET_LINK_REGEX, lambda m: replace_asset_link(m, src_prefix), content)
-
     content = convert_angle_bracket_links(content)
 
-    output_path = path.with_suffix('.mdx')
-    output_path.write_text(content, encoding='utf-8')
 
+    if path.suffix.lower() == '.mdx':
+        output_path = path
+    else:
+        output_path = path.with_suffix('.mdx')
+
+    output_path.write_text(content, encoding='utf-8')
     print(f"Transformed content saved to: {output_path}")
     
     # Add categories to the newly converted MDX file
@@ -764,7 +770,9 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
         except Exception as e:
             print(f"[WARNING] Failed to add categories to {output_path}: {e}")
     
-    path.unlink()  # delete original .md file
+
+    if path.suffix.lower() == '.md':
+        path.unlink()  # delete original .md file
 
 def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, add_categories=True):
     """
@@ -807,9 +815,11 @@ def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ad
                     print(f"[WARNING] File not found or ignored: {rule_md}")
                     continue
             else:
-                md_files = [f for f in rule_dir.glob('*.md') if f.name not in IGNORE_FILES]
+                md_files = [f for f in rule_dir.glob('*.mdx') if f.name not in IGNORE_FILES]
                 if not md_files:
-                    print(f"[WARNING] No .md files found in: {rule_dir}")
+                    md_files = [f for f in rule_dir.glob('*.md') if f.name not in IGNORE_FILES]
+                if not md_files:
+                    print(f"[WARNING] No .md/mdx files found in: {rule_dir}")
                     continue
                 rule_md = md_files[0]  # Process the first .md file found
 
