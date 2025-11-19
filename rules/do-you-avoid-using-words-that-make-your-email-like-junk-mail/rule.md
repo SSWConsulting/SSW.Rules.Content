@@ -11,35 +11,37 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+  - descriptive-links
 redirects: []
 ---
 
-Words matter—especially in email. Spam filters are increasingly sensitive, and even internal corporate emails can get caught if you're not careful. Worse still, your email may look unprofessional or overly “salesy,” which reduces trust and engagement.
+Words matter, especially in email. Spam filters are increasingly sensitive, and even internal corporate emails can get caught if you're not careful. Worse still, your email may look unprofessional or overly “salesy,” which reduces trust and engagement.
 
 Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of sensitive words. This list is not available to the public.
 
 <!--endintro-->
 
-If you use terms like “free,” “urgent,” “guaranteed,” “buy now,” or all caps with too many exclamation marks, your message might be flagged as junk, even if it's important and well-written.
+Words like “free”, “urgent”, “guaranteed”, “click here”, or “buy now” (especially in uppercase or with exclamation marks) can cause your message to be marked as junk, even if it’s legitimate.
 
 ## ✅ Tips
 
-* Write with clarity and purpose, not hype
-* Avoid overly promotional phrases
-* Limit exclamation marks and all-caps
-* Check tone with a colleague or a spam filter tool
+* Write with clarity and purpose, not hype  
+* Avoid overly promotional language  
+* Limit exclamation marks and ALL CAPS  
+* Check the tone with a colleague or a spam-filter tool  
 
 ::: greybox
-"ACT NOW to get your FREE trial!!!"
+"CLICK HERE to get your FREE trial!!!"
 :::
 ::: bad
-Figure: Bad example
+Figure: Bad example – Spammy wording in all caps with exclamation marks
 :::
 
 ::: greybox
-"Here’s a quick overview of what’s included in your trial"
+"See a quick overview of what’s included in your trial"
 :::
 ::: good
-Figure: Good example
+Figure: Good example – Clear and descriptive wording
 :::
+
