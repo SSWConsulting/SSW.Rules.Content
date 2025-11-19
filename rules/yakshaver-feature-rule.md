@@ -8,9 +8,9 @@ The YakShaver app has introduced a new feature in its settings to manage release
 
 ## Benefits
 
-- **Efficient Testing:** Quickly switch between different PR pre-releases and test features created by AI agents.
-- **Streamlined Updates:** Check for updates and install pre-releases from the settings.
-- **Enhanced Productivity:** Shift features to production more frequently with minimal hassle.
+* **Efficient Testing:** Quickly switch between different PR pre-releases and test features created by AI agents.
+* **Streamlined Updates:** Check for updates and install pre-releases from the settings.
+* **Enhanced Productivity:** Shift features to production more frequently with minimal hassle.
 
 ## Instructions
 
@@ -24,6 +24,6 @@ The YakShaver app has introduced a new feature in its settings to manage release
 For a detailed walkthrough, please see the video:
 [![YakShaver Feature Video](https://www.youtube.com/watch?v=yE_MoNQbRr4)](https://www.youtube.com/watch?v=yE_MoNQbRr4)
 
---- 
+---
 
 Remember to adhere to this process to leverage the full potential of the YakShaver app's new features.
