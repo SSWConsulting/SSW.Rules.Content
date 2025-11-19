@@ -44,4 +44,3 @@ Figure: Bad example – Spammy wording in all caps with exclamation marks
 ::: good
 Figure: Good example – Clear and descriptive wording
 :::
-
