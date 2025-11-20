@@ -15,7 +15,6 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook/
 related:
   - supervise-tradespeople
-  - watch-do-you-know-what-is-going-on
 redirects:
   - report-defects-to-property-manager
 created: 2025-10-07T11:34:00.000Z
@@ -25,23 +24,26 @@ When a defect occurs in an office (e.g. a broken coffee machine, faulty air cond
 
 <!--endintro-->
 
-`youtube: https://www.youtu.be/AxBS6JYcLIQ`
-**Video: YakShaver - fix the broken Coffee Machine ☕️ ❌ (1 min)**
+::: info
+**Tip:** Make sure to [label broken equipment](/label-broken-equipment)
+:::
+
+![Figure: What information should you include when reporting a defect](ssw-rules-best-way-to-report-an-office-defect-v3.jpg "Figure: What information should you include when reporting a defect")
 
 Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
 
 When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  
 
-## Use a backlog
+## Create a PBI (YakShave it) 🦬
 
-* **Create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ BRIEF DESCRIPTION }}"**  
-* Add a note to the broken item (e.g. sticky note) with the PBI number as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/rules/label-broken-equipment)
+* For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ Brief Description }}**  
+* Link the PBI in your note (e.g. sticky note) as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/label-broken-equipment)
 
   This is so that others can track progress and updates.\
   **Example:** *“Created PBI: [Defect – Broken coffee machine in SSW France kitchen](https://github.com/SSWConsulting/SSW.Maintenance/issues/1)”*
 
 ::: info
-**Tip:** Use a tool like [YakShaver](https://yakshaver.ai) on your phone to create PBIs in seconds! This will ensure your issues are logged, tracked, and resolved efficiently - saving time, reducing confusion, and improving everyone’s work environment.
+**Note:** [YakShaving](https://yakshaver.ai/)” each defect into a **PBI** will ensure property issues are logged, tracked, and resolved efficiently - saving time, reducing confusion, and improving everyone’s work environment.
 :::
 
 ### Key details to be included
@@ -70,37 +72,28 @@ Inform the people who is aware of the problem. Always include:
 * The **Property Manager**  
 
 ::: info
-**Tip:** Use @mentions in the PBI, or if you’re reporting via Teams or email, e.g. *“@John Smith @Sarah Jones”*.
+**Tip:** Use @mentions int the PBI, or if you’re reporting via Teams or email, e.g. *“@John Smith @Sarah Jones”*.
 :::
 
 #### 4. Historic information
 
 * Note any past occurrences or related maintenance\
-  **Example:** *"Coffee Machine keeps jamming; it was repaired in last month with the same issue"*
+  **Example:** *“Coffee Machine keeps jamming; it was repaired in last month with the same issue”*
 
-![Figure: What information should you include when reporting a defect](ssw-rules-best-way-to-report-an-office-defect-v3.jpg "Figure: What information should you include when reporting a defect")
+Watch the video below and see how simple it is to report a defect
+
+`youtube: https://www.youtu.be/AxBS6JYcLIQ`
+**Video: YakShaver - fix the broken Coffee Machine ☕️ ❌ (1 min)**
 
 - - -
 
 ## Examples
 
-::: email-template  
-
-| | |
-| -------- | --- |
-| From: | Hugo |
-| To: | Jean |
-| Subject: | Coffee machine is broken |  
-::: email-content
-
-### Hi Jean
-
-The coffee machine is broken. Can you call someone to fix it?
-
-:::  
-:::  
+::: greybox
+*“The window in Newcastle is broken. Someone should get it fixed.”*
+:::
 ::: bad
-Figure: Bad example - Emails are easily lost or forgotten. The coffee machine will never get fixed!
+Figure: Bad example – Too vague; missing location, urgency, and who it’s reported to
 :::
 
 ::: good
