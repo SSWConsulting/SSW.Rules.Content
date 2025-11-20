@@ -18,7 +18,7 @@ Tools like ZoomIt from the Sysinternals suite let you **enlarge**, **pan**, and 
 
 <!--endintro-->
 
-## Windows 
+## Windows
 
 Follow these steps before you hit record:
 
@@ -31,7 +31,7 @@ This habit keeps the audience engaged, reduces editing, and makes your recording
 
 ## What about Mac users
 
-If you record on macOS, try [Brilliant](https://try-brilliant.com/) to zoom, annotate, and script actions while capturing the screen. It delivers the same clarity benefits as ZoomIt and adds automation to speed up repeat recordings. 
+If you record on macOS, try [Brilliant](https://try-brilliant.com/) to zoom, annotate, and script actions while capturing the screen. It delivers the same clarity benefits as ZoomIt and adds automation to speed up repeat recordings.
 
 See [Homebrew](https://formulae.brew.sh/cask/brilliant) install command:
 
