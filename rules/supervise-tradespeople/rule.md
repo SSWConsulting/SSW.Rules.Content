@@ -2,9 +2,7 @@
 type: rule
 tips: ""
 title: Do you supervise tradespeople on behalf of Property Manager?
-seoDescription: Ensure staff consistently supervise tradespeople, confirm work
-  quality and tidiness, and facilitate conversations with the Maintenance
-  Manager or Property Owner to agree on the definition of done.
+seoDescription: Ensure staff consistently supervise tradespeople, confirm work quality and tidiness, and facilitate conversations with the Maintenance Manager or Property Owner to agree on the definition of done.
 uri: supervise-tradespeople
 authors:
   - title: Marina Gerber
