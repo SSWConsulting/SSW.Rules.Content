@@ -34,7 +34,7 @@ Good reporting not only helps the Property Manager resolve issues faster, it als
 
 When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  
 
-## Create a PBI (YakShave it) 🦬
+## Create a PBI (YakShave it 🦬)
 
 * For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ Brief Description }}**  
 * Link the PBI in your note (e.g. sticky note) as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/label-broken-equipment)
