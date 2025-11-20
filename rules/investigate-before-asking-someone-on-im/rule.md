@@ -1,18 +1,21 @@
 ---
 seoDescription: Improve your online conversations by investigating questions before asking someone on IM, and consider AI tools or chatbots as a helpful alternative.
 type: rule
-title: Interruptions - Do you investigate your question for 2 minutes before
-  asking someone on IM?
-uri: investigate-your-question-for-two-minutes-before-asking-someone-on-im
+title: Interruptions - Do you investigate your question for 2 minutes before asking someone on IM?
+uri: investigate-before-asking-someone-on-im
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - do-you-manage-up
+  - best-effort-before-asking-for-help
 redirects:
   - interruptions-do-you-investigate-your-question-for-2-minutes-before-asking-someone-on-im
+  - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 created: 2015-10-05T05:42:39.000Z
 archivedreason: null
 guid: a876466b-f24d-4393-840d-cbd12946121e
+
 ---
 
 Always do a quick investigation before asking for help. When asking a question using IM, always start your conversation with "I have googled this and no luck".

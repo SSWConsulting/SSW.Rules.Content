@@ -9,7 +9,7 @@ index:
 - avoid-sending-unnecessary-messages
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-call
-- investigate-your-question-for-two-minutes-before-asking-someone-on-im
+- investigate-before-asking-someone-on-im
 - easy-questions
 - separate-messages
 - refer-to-email-subject
