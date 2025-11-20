@@ -85,22 +85,23 @@ Inform the people who is aware of the problem. Always include:
 ## Examples
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Hugo |
 | To: | Jean |
 | Subject: | Coffee machine is broken |  
 ::: email-content
-### Hi Jean,
+
+### Hi Jean
 
 The coffee machine is broken. Can you call someone to fix it?
 
 :::  
 :::  
 ::: bad
-Figure: Bad example - Emails are easily lost or forgotten. The coffee machine will never get fixed! 
+Figure: Bad example - Emails are easily lost or forgotten. The coffee machine will never get fixed!
 :::
-
 
 ::: good
 ![Figure: Good example- Clear and includes all the essential details for fast action and tracking](defects-pbi-example.png "Figure: Good example - Clear, complete and includes all the essential details for fast action and tracking")
