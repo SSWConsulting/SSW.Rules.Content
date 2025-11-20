@@ -40,4 +40,3 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 ## Use a Maintenance Backlog
 
 It is a good idea to create a **Maintenance Backlog** to keep track of all defects. Learn more on [the best way to report an office defects](/report-defects).
-
