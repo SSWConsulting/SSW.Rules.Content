@@ -52,7 +52,7 @@ Bad example - Use slashes on their own, it’s ambiguous
 Good example - Use "DD MMM YYYY" and include the abbreviated day of the week
 :::
 
-## Times - 24-hour or am/pm — both are fine (correctly!)
+## Times - 24-hour or am/pm - both are fine (when used correctly!)
 
 Use valid formats to avoid confusion - both 24-hour and 12-hour formats are universal when used correctly:
 

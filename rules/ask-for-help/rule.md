@@ -15,7 +15,7 @@ related:
   - do-you-manage-up
   - how-to-avoid-being-blocked
   - do-you-add-context-reasoning-to-your-emails
-  - investigate-your-question-for-two-minutes-before-asking-someone-on-im
+  - investigate-before-asking-someone-on-im
   - return-on-investment
   - zooming-in-and-out
   - catering-to-audience
