@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook/
 related:
   - supervise-tradespeople
+  - watch-do-you-know-what-is-going-on
 redirects:
   - report-defects-to-property-manager
 created: 2025-10-07T11:34:00.000Z
@@ -75,7 +76,7 @@ Inform the people who is aware of the problem. Always include:
 #### 4. Historic information
 
 * Note any past occurrences or related maintenance\
-  **Example:** *“Coffee Machine keeps jamming; it was repaired in last month with the same issue”*
+  **Example:** *"Coffee Machine keeps jamming; it was repaired in last month with the same issue"*
 
 ![Figure: What information should you include when reporting a defect](ssw-rules-best-way-to-report-an-office-defect-v3.jpg "Figure: What information should you include when reporting a defect")
 
