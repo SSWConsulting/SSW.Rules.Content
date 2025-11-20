@@ -32,7 +32,7 @@ When you see something not working like a phone or a power point, don't ignore i
 This shouldnt be a large task. Prepare a quick note (sticky notes work great!) form that reminds you what is broken, who you have to call to fix it and any additional details that may required to ensure the item is fixed properly or replaced.
 
 ::: good
-![Figure: Good example - Label broken things with a sticky note](LeaningTowerOfPisa.jpg)
+![Figure: Good example - Label broken things with a sticky note](broken-equipment.jpg)
 :::
 
 When reporting a defect, always make sure your message is **clear**, **complete**, and **actionable**.  

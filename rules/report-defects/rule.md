@@ -35,7 +35,7 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 ## Use a backlog
 
 * **Create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ BRIEF DESCRIPTION }}"**  
-* Add a note to the broken item (e.g. sticky note) with the PBI number as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/label-broken-equipment)
+* Add a note to the broken item (e.g. sticky note) with the PBI number as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/rules/label-broken-equipment)
 
   This is so that others can track progress and updates.\
   **Example:** *“Created PBI: [Defect – Broken coffee machine in SSW France kitchen](https://github.com/SSWConsulting/SSW.Maintenance/issues/1)”*
