@@ -3,8 +3,8 @@ import re
 from pathlib import Path
 
 def modify_main_category_file(categories_root='categories'):
-    # Target the root categories/index.md file
-    file_path = os.path.join(categories_root, 'index.md')
+    # Target the root categories/index.mdx file
+    file_path = os.path.join(categories_root, 'index.mdx')
 
     if not os.path.exists(file_path):
         print(f"Main category file not found: {file_path}")
@@ -80,18 +80,6 @@ def modify_main_category_file(categories_root='categories'):
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
         print(f"Successfully updated: {file_path}")
-
-    # Always rename .md to .mdx (even if no content changes)
-    new_file_path = Path(file_path).with_suffix('.mdx')
-    if file_path.endswith('.md'):
-        # Delete existing .mdx file if it exists
-        if new_file_path.exists():
-            new_file_path.unlink()
-
-        os.rename(file_path, new_file_path)
-        print(f"Renamed to: {new_file_path}\n")
-    else:
-        print(f"Already .mdx: {file_path}\n")
 
 if __name__ == '__main__':
     modify_main_category_file()

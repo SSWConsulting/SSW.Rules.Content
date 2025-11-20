@@ -505,18 +505,6 @@ def modify_category_files(categories_root=None):
                 f.write(new_content)
             print(f"Successfully updated: {file_path}")
 
-        # Always rename .md to .mdx (even if no content changes)
-        new_file_path = Path(file_path).with_suffix('.mdx')
-        if file_path.endswith('.md'):
-            # Delete existing .mdx file if it exists
-            if new_file_path.exists():
-                new_file_path.unlink()
-
-            os.rename(file_path, new_file_path)
-            print(f"Renamed to: {new_file_path}\n")
-        else:
-            print(f"Already .mdx: {file_path}\n")
-
 if __name__ == '__main__':
     modify_category_files()
     print("All category files processed!")

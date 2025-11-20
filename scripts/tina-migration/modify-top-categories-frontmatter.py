@@ -24,12 +24,12 @@ def replace_youtube_block(m):
     return f'<youtubeEmbed url="{url}" description={{{desc_js}}} />'
 
 def modify_markdown_files(categories_root='categories'):
-    # Find all index.md files in subfolders of categories
-    pattern = os.path.join(categories_root, '**', 'index.md')
+    # Find all index.mdx files in subfolders of categories
+    pattern = os.path.join(categories_root, '**', 'index.mdx')
     md_files = glob.glob(pattern, recursive=True)
     
-    # Get the absolute path of the root index.md to exclude it
-    root_index_path = os.path.abspath(os.path.join(categories_root, 'index.md'))
+    # Get the absolute path of the root index.mdx to exclude it
+    root_index_path = os.path.abspath(os.path.join(categories_root, 'index.mdx'))
     
     for file_path in md_files:
         # Skip the root categories/index.md file
@@ -118,18 +118,6 @@ def modify_markdown_files(categories_root='categories'):
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             print(f"Successfully updated: {file_path}")
-
-        # Always rename .md to .mdx (even if no content changes)
-        new_file_path = Path(file_path).with_suffix('.mdx')
-        if file_path.endswith('.md'):
-            # Delete existing .mdx file if it exists
-            if new_file_path.exists():
-                new_file_path.unlink()
-
-            os.rename(file_path, new_file_path)
-            print(f"Renamed to: {new_file_path}\n")
-        else:
-            print(f"Already .mdx: {file_path}\n")
 
 if __name__ == '__main__':
     modify_markdown_files()
