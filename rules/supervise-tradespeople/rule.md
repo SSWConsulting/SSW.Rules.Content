@@ -2,16 +2,19 @@
 type: rule
 tips: ""
 title: Do you supervise tradespeople on behalf of Property Manager?
-seoDescription: Ensure staff consistently supervise tradespeople, confirm work quality and tidiness, and facilitate conversations with the Maintenance Manager or Property Owner to agree on the definition of done.
+seoDescription: Ensure staff consistently supervise tradespeople, confirm work
+  quality and tidiness, and facilitate conversations with the Maintenance
+  Manager or Property Owner to agree on the definition of done.
 uri: supervise-tradespeople
 authors:
   - title: Marina Gerber
     url: https://www.ssw.com.au/people/marina-gerber
   - title: Anastasia Cogan
     url: https://www.ssw.com.au/people/anastasia-cogan
+related:
+  - watch-do-you-know-what-is-going-on
 created: 2025-10-03T15:23:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
-
 ---
 
 Tradespeople often carry out important maintenance or repair work in our offices and project sites. If they are left unsupervised, the result can be poor workmanship, incomplete jobs, or changes made without approval. This leads to frustration, wasted money, and extra time spent fixing mistakes.  
