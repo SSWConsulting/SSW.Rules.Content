@@ -1,32 +1,50 @@
 ---
-seoDescription: Azure DevOps is recommended as a source control solution for efficient collaboration and version management.
-type: rule
-archivedreason:
-title: Do you know the right source control to use?
-guid: 0841f388-e428-4f04-b7b0-693eae2ac1e2
-uri: do-you-know-the-right-source-control-to-use
-created: 2011-11-18T03:52:53.0000000Z
+archivedreason: null
 authors:
-  - title: David Klein
-    url: https://ssw.com.au/people/david-klein
-    noimage: true
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-  - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
+- noimage: true
+  title: David Klein
+  url: https://ssw.com.au/people/david-klein
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+- title: Tristan Kurniawan
+  url: https://ssw.com.au/people/tristan-kurniawan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+created: 2011-11-18 03:52:53+00:00
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
+guid: 0841f388-e428-4f04-b7b0-693eae2ac1e2
+isArchived: false
+lastUpdated: 2014-05-07 01:53:39+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
-
+seoDescription: Azure DevOps is recommended as a source control solution for efficient
+  collaboration and version management.
+title: Do you know the right source control to use?
+type: rule
+uri: do-you-know-the-right-source-control-to-use
 ---
 
+<introEmbed
+  body={<>
 Azure DevOps (was TFS) is recommended as a source code solution.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Microsoft Visual Studio Team System",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-the-right-source-control-to-use/TFSTeam.jpg"
+/>
 
-![Figure: Microsoft Visual Studio Team System](TFSTeam.jpg)
 
 Here are some of the reasons why:
 
@@ -37,35 +55,60 @@ Here are some of the reasons why:
 * HTTP access via webservices
 * Integrated Build Server
 
-::: greybox
-Reasons companies choose Visual SourceSafe (VSS)
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Reasons companies choose Visual SourceSafe (VSS)
 
 * No server required
 * No VPN required
-* They are ignorant about the potential corruption problems  
+* They are ignorant about the potential corruption problems
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Visual SourceSafe (VSS) is a bad choice",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Visual SourceSafe (VSS) is a bad choice  
-:::
 
-::: greybox
-Reasons companies choose Subversion (SVN)
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Reasons companies choose Subversion (SVN)
 
 * It's free
 * It's easy to use
 * No Build integration
-* No Work Item integration  
+* No Work Item integration
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "okExample",
+  figure: "Figure: OK example - Subversion (SVN)",
+  shouldDisplay: true
+} } />
 
-::: ok
-Figure: OK example - Subversion (SVN)
-:::
 
-::: greybox
-Reasons companies choose Azure DevOps:
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Reasons companies choose Azure DevOps:
 
 * It's free (With MSDN)
 * It's easy to use
@@ -76,10 +119,17 @@ Reasons companies choose Azure DevOps:
 * Has Build integration
 * Has Work Item integration
 * Has Test suite integration
-* Has reporting out of the box  
+* Has reporting out of the box
 
-:::
-
-::: good
-Figure: Good example - Azure DevOps
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Azure DevOps",
+  shouldDisplay: true
+} } />

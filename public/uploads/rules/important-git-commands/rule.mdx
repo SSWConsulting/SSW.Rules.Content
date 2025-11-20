@@ -1,32 +1,41 @@
 ---
-type: rule
-title: Do you know these important git commands?
-seoDescription: Compare Git command line, GitHub Desktop, and GitKraken with
-  pros/cons. Comprehensive Git commands reference with examples. Perfect guide
-  for beginners to advanced developers choosing the best Git workflow in 2025.
-uri: important-git-commands
-authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Tino Liu
-    url: https://www.ssw.com.au/people/tino-liu
-  - title: Jerry Luo
-    url: https://www.ssw.com.au/people/jerry-luo
-related: []
-redirects: []
-created: 2014-05-22T20:02:08.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Tino Liu
+  url: https://www.ssw.com.au/people/tino-liu
+- title: Jerry Luo
+  url: https://www.ssw.com.au/people/jerry-luo
+created: 2014-05-22 20:02:08+00:00
 guid: 15698c3c-cf80-4c5c-9030-022aa47933d1
+redirects: []
+seoDescription: Compare Git command line, GitHub Desktop, and GitKraken with pros/cons.
+  Comprehensive Git commands reference with examples. Perfect guide for beginners
+  to advanced developers choosing the best Git workflow in 2025.
+title: Do you know these important git commands?
+type: rule
+uri: important-git-commands
 ---
 
-
+<introEmbed
+  body={<>
 Learn the Git commands every developer should know to keep your history clean, your team in sync and your pull requests stress free.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Git Workflow",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/important-git-commands/git-branches-merge.png"
+/>
 
-::: img-medium
-![Figure: Git Workflow](git-branches-merge.png)
-:::
 
 ## Git Command Line
 
@@ -36,7 +45,7 @@ The bread and butter of git. [Git Command Line](https://git-scm.com/about/branch
 
 * Emphasizes power, control, and completeness
 * Provides deep understanding of Git internals
-  
+
 **❌ Cons**
 
 * Steep learning curve for beginners
@@ -57,7 +66,7 @@ This sets up Git tracking for your project. It creates a .git directory containi
 Creates a local copy of a remote repository.
 
 ``` git
-git clone {{repository-url}}
+git clone &#123;&#123;repository-url&#125;&#125;
 ```
 
 Example:
@@ -68,12 +77,22 @@ git clone https://github.com/test/hello-world.git
 
 This copies all the files, history, and branches from the remote repo.
 
-::: info
-If configured, you can clone via SSH:
+
+<asideEmbed
+  variant="info"
+  body={<>
+    If configured, you can clone via SSH:
 ```git
 git clone git@github.com:test/hello-world
 ```
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 3. git status
 
@@ -103,11 +122,11 @@ Here are some most frequently used `git status` commands:
 Adds files to the staging area so they’re ready to be committed.
 
 ``` git
-git add {{file}}
+git add &#123;&#123;file&#125;&#125;
 git add .
 ```
 
-`git add {{file}}` adds a specific file.
+`git add &#123;&#123;file&#125;&#125;` adds a specific file.
 
 `git add .` adds all changes in the current directory and subdirectories.
 
@@ -131,9 +150,19 @@ Each commit should describe why the changes were made—not just what was change
 
 Use clear, concise messages that help teammates (and your future self) understand the history.
 
-::: info
-A commonly followed spec [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), serves as a way to keep commit messages consistent and easy to read. This involves prefixing commits with a `type` and optional `scope`, e.g. `feat(api): send an email to the customer when a product is shipped`
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    A commonly followed spec [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), serves as a way to keep commit messages consistent and easy to read. This involves prefixing commits with a `type` and optional `scope`, e.g. `feat(api): send an email to the customer when a product is shipped`
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 6. git diff
 
@@ -209,9 +238,19 @@ Passing the `-b` flag allows you to create and checkout a new branch at the same
 git checkout -b new-branch
 ```
 
-::: info
-Due to the `checkout` command having multiple uses, the Git team decided to split its usage into two additional commands, `switch` and `restore`. It's recommended to use `git switch (-c | -C) <new-branch>` to switch/create branches now days.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    Due to the `checkout` command having multiple uses, the Git team decided to split its usage into two additional commands, `switch` and `restore`. It's recommended to use `git switch (-c | -C) &lt;new-branch&gt;` to switch/create branches now days.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 10. git branch
 
@@ -339,8 +378,9 @@ Alternatively, developers could choose a user-friendly visual interface that mak
 * No built-in merge conflict resolution tools
 * Primarily designed for GitHub (limited with other Git hosts)
 
-`youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
-**Video: GitHub Desktop is for everyone - Universe 2022 (12 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8" description={"Video: GitHub Desktop is for everyone - Universe 2022 (12 min)"} />
+
 
 ### 2. GitKraken
 

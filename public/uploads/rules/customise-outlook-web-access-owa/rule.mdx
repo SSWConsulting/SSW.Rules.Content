@@ -10,16 +10,36 @@ created: 2014-03-14T03:40:00.000Z
 guid: d14e0ab3-63d1-4957-ad87-0accad262640
 ---
 
+<introEmbed
+  body={<>
 It is possible to customise OWA, for example you can add change the colouring and add your company logo to the OWA logon page.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - OWA logon page doesn't clearly show it's from SSW",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/customise-outlook-web-access-owa/custom-owa-bad.jpg"
+/>
 
-::: bad
-![Figure: Bad example - OWA logon page doesn't clearly show it's from SSW](custom-owa-bad.jpg)  
-:::
 
-::: good
-![Figure: Good example - SSW OWA logon page with custom logo](custom-owa.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - SSW OWA logon page with custom logo",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/customise-outlook-web-access-owa/custom-owa.jpg"
+/>
+
 
 The following Microsoft article explains how to customise OWA: [Customize the Outlook Web App Sign-In, Language Selection, and Error Pages](https://learn.microsoft.com/en-us/exchange/customize-the-outlook-web-app-sign-in-language-selection-and-error-pages-exchange-2013-help?redirectedfrom=MSDN&WT.mc_id=M365-MVP-33518).

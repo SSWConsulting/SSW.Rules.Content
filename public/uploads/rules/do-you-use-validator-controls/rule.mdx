@@ -10,11 +10,12 @@ created: 2014-03-14T02:45:00.000Z
 guid: 7af2d87a-55a0-4646-a1ad-35ff39da96ad
 ---
 
+<introEmbed
+  body={<>
 Validation is extremely important on a data entry form. There are two ways to do validation:
-
-<!--endintro-->
-
-1. **ErrorProvider** control  
+  </>}
+/>
+1. **ErrorProvider** control
    The **ErrorProvider** control is code intensive. You must manually handle the **Validating** event of each control you want to validate, in addition to manually running the validation methods when the OK or Apply button is clicked.
 
 ```vb
@@ -77,10 +78,12 @@ Private Sub okButton_Click(ByVal sender As Object, _
 
 End Sub
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - lots of code but no balloon tooltips",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - lots of code but no balloon tooltips
-:::
 
 ```vb
 Private Sub productNameTextBox_Validating(ByVal sender As Object, _
@@ -148,19 +151,45 @@ Private Sub okButton_Click(ByVal sender As Object, _
 
 End Sub
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - lots of code but balloon tooltips are used",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - lots of code but balloon tooltips are used
-:::
 
 **Note:** The component for balloon tooltips can be found in the SSW .NET Toolkit.
 
 The error provider has the advantage over the extended provider that it can be used with balloon tooltips. If you are not using balloon tooltips, however, the error provider should not be used.
 
-![Figure: .NET ErrorProvider Control with a custom balloon tooltip](errorprovider.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: ".NET ErrorProvider Control with a custom balloon tooltip",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-validator-controls/errorprovider.gif"
+/>
+
 
 2. **SSW Extended Provider**The SSW Extended Provider integrates with the **ErrorProvider** control to provide the same functionality, but requires no code to implement (everything can be done in the Designer).
 
-![Figure: SSW Extended Provider controls and properties on a TextBox](extendedprovider.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "SSW Extended Provider controls and properties on a TextBox",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-validator-controls/extendedprovider.gif"
+/>
+
 
 We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements this cool Error Provider Control

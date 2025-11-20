@@ -12,10 +12,11 @@ created: 2024-10-28T17:00:00.000Z
 guid: E3F562C1-30FF-4982-B96F-2AA0A716E842
 ---
 
+<introEmbed
+  body={<>
 When working on large enterprise scale projects .NET Solutions can often become unwieldy and difficult to maintain. This is particularly true of `.csproj` files which end up repeating configuration across all projects. How can one file save you hours of maintenance by keeping project configuration DRY?
-
-<!--endintro-->
-
+  </>}
+/>
 ## What is a Directory.Build.props file?
 
 A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022&WT.mc_id=DT-MVP-33518) file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.
@@ -33,90 +34,74 @@ This can be used for:
 
 ### Examples
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 **Project1.csproj:**
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
+&lt;Project Sdk="Microsoft.NET.Sdk.Web"&gt;
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+  &lt;PropertyGroup&gt;
+    &lt;TargetFramework&gt;net8.0&lt;/TargetFramework&gt;
+    &lt;Nullable&gt;enable&lt;/Nullable&gt;
+    &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
 
-    <!-- Configure code analysis. -->
-    <AnalysisLevel>latest</AnalysisLevel>
-    <AnalysisMode>Recommended</AnalysisMode>
-    <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
-    <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
-    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-  </PropertyGroup>
+    &lt;!-- Configure code analysis. --&gt;
+    &lt;AnalysisLevel&gt;latest&lt;/AnalysisLevel&gt;
+    &lt;AnalysisMode&gt;Recommended&lt;/AnalysisMode&gt;
+    &lt;TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/TreatWarningsAsErrors&gt;
+    &lt;CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/CodeAnalysisTreatWarningsAsErrors&gt;
+    &lt;EnforceCodeStyleInBuild&gt;true&lt;/EnforceCodeStyleInBuild&gt;
+  &lt;/PropertyGroup&gt;
 
-</Project>
+&lt;/Project&gt;
 ```
 
 **Project2.csproj:**
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
+&lt;Project Sdk="Microsoft.NET.Sdk.Web"&gt;
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
+    &lt;PropertyGroup&gt;
+        &lt;TargetFramework&gt;net8.0&lt;/TargetFramework&gt;
+        &lt;Nullable&gt;enable&lt;/Nullable&gt;
+        &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
 
-        <!-- Configure code analysis. -->
-        <AnalysisLevel>latest</AnalysisLevel>
-        <AnalysisMode>Recommended</AnalysisMode>
-        <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
-        <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
-        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    </PropertyGroup>
+        &lt;!-- Configure code analysis. --&gt;
+        &lt;AnalysisLevel&gt;latest&lt;/AnalysisLevel&gt;
+        &lt;AnalysisMode&gt;Recommended&lt;/AnalysisMode&gt;
+        &lt;TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/TreatWarningsAsErrors&gt;
+        &lt;CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/CodeAnalysisTreatWarningsAsErrors&gt;
+        &lt;EnforceCodeStyleInBuild&gt;true&lt;/EnforceCodeStyleInBuild&gt;
+    &lt;/PropertyGroup&gt;
 
-</Project>
+&lt;/Project&gt;
 ```
 
-:::
-::: bad
-Bad example - Redundant configuration
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - Redundant configuration",
+  shouldDisplay: true
+} } />
 
-::: good
-**Project1.csproj:**
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "**Project1.csproj:**\n\n```xml\n<Project Sdk=\"Microsoft.NET.Sdk.Web\">\n</Project>\n```\n\n**Project2.csproj:**\n\n```xml\n<Project Sdk=\"Microsoft.NET.Sdk.Web\">\n</Project>\n```\n\n**Directory.Build.props:**\n\n```xml\n<Project>\n    <PropertyGroup>\n        <TargetFramework>net8.0</TargetFramework>\n        <ImplicitUsings>enable</ImplicitUsings>\n        <Nullable>enable</Nullable>\n\n        <!-- Configure code analysis. -->\n        <AnalysisLevel>latest</AnalysisLevel>\n        <AnalysisMode>Recommended</AnalysisMode>\n        <TreatWarningsAsErrors Condition=\"'$(Configuration)' == 'Release'\">true</TreatWarningsAsErrors>\n        <CodeAnalysisTreatWarningsAsErrors Condition=\"'$(Configuration)' == 'Release'\">true</CodeAnalysisTreatWarningsAsErrors>\n        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>\n    </PropertyGroup>\n</Project>\n```",
+  shouldDisplay: true
+} } />
 
-```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
-</Project>
-```
-
-**Project2.csproj:**
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
-</Project>
-```
-
-**Directory.Build.props:**
-
-```xml
-<Project>
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-
-        <!-- Configure code analysis. -->
-        <AnalysisLevel>latest</AnalysisLevel>
-        <AnalysisMode>Recommended</AnalysisMode>
-        <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
-        <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
-        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    </PropertyGroup>
-</Project>
-```
-
-:::
-::: good
-Good example - Centralized configuration
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Centralized configuration",
+  shouldDisplay: true
+} } />

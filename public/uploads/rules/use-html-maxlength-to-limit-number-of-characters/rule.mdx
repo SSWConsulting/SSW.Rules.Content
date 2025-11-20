@@ -1,25 +1,33 @@
 ---
-seoDescription: Limit text input to prevent overwhelming data fields while ensuring user comfort.
-type: rule
-archivedreason:
-title: Do you use HTML "maxlength" attribute to limit number of characters on input fields?
-guid: 23fdcce1-e183-490a-afca-378f8db2fa7b
-uri: use-html-maxlength-to-limit-number-of-characters
-created: 2016-08-24T21:56:21.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2016-08-24 21:56:24+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 23fdcce1-e183-490a-afca-378f8db2fa7b
+isArchived: false
+lastUpdated: 2016-08-24 22:04:45+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-always-use-the-html-maxlength-attribute-on-input-fields-to-limit-number-of-characters-to-the-length-of-the-field-in-the-table
+- do-you-always-use-the-html-maxlength-attribute-on-input-fields-to-limit-number-of-characters-to-the-length-of-the-field-in-the-table
+seoDescription: Limit text input to prevent overwhelming data fields while ensuring
+  user comfort.
+title: Do you use HTML "maxlength" attribute to limit number of characters on input
+  fields?
+type: rule
+uri: use-html-maxlength-to-limit-number-of-characters
 ---
 
+<introEmbed
+  body={<>
 **Rule 1:** Whenever you have a data entry page you should always use the HTML `maxlength` attribute to limit number of characters to the length of the field in the table (except for numbers).
 
 **Rule 2:** Whenever you have a situation where you are using the HTML `textarea` (does not have the `maxlength` property).
-
-<!--endintro-->
-
+  </>}
+/>
 Then you need to:
 
 - Add the JavaScript function. E.g. `ValidateLength(control)`

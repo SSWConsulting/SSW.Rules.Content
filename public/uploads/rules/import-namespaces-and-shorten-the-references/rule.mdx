@@ -1,31 +1,39 @@
 ---
-seoDescription: Import namespaces and shorten references in C# for cleaner, more readable code.
-type: rule
-archivedreason: 
-title: Do you import namespaces and shorten the references?
-guid: 0bf92b2c-b378-4e05-bd4c-d91f783138ac
-uri: import-namespaces-and-shorten-the-references
-created: 2018-04-25T22:28:24.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+created: 2018-04-25 22:28:24+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 0bf92b2c-b378-4e05-bd4c-d91f783138ac
+isArchived: false
+lastUpdated: 2018-04-25 22:44:23+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
 - do-you-import-namespaces-and-shorten-the-references
-
+seoDescription: Import namespaces and shorten references in C# for cleaner, more readable
+  code.
+title: Do you import namespaces and shorten the references?
+type: rule
+uri: import-namespaces-and-shorten-the-references
 ---
 
+<introEmbed
+  body={<>
 You should import namespaces and shorten the references.
-
-<!--endintro-->
-
+  </>}
+/>
 ``` cs
 System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad code - Long reference to object name",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad code - Long reference to object name
-:::
 
 ``` cs
 using System.Text;
@@ -33,13 +41,38 @@ using System.Text;
 ...
 StringBuilder myStringBuilder = new StringBuilder();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good code - Import the namespace and remove the repeated System.Text reference",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good code - Import the namespace and remove the repeated System.Text reference
-:::
 
 If you have ReSharper installed, you can let ReSharper take care of this for you:
 
-![Figure: Right click and select "Reformat Code..."](ReSharperReformatCode.gif)  
 
-![Figure: Make sure "Shorten references" is checked and click "Reformat"](ReSharperShortenReferences.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Right click and select \"Reformat Code...\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/import-namespaces-and-shorten-the-references/ReSharperReformatCode.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Make sure \"Shorten references\" is checked and click \"Reformat\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/import-namespaces-and-shorten-the-references/ReSharperShortenReferences.gif"
+/>

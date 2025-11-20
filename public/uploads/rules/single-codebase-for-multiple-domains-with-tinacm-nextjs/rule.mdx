@@ -10,10 +10,11 @@ authors:
 created: 2024-08-28T17:37:00.000Z
 guid: 2bba887b-9dd7-4f07-978c-a793611e2f85
 ---
+<introEmbed
+  body={<>
 Using multiple domains using TinaCMS and Next.js requires few steps. This setup is particularly useful for managing content across different locations or websites, all from a centralized codebase. We will cover how to structure your project, configure middleware for domain-specific content, and manage environment variables for different locations.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Project Structure
 
 We will detail a project structure using a simple example of a cooking application. We are using the [App Router](https://nextjs.org/docs/app) introduced with version 13.4 of Next.js.
@@ -64,12 +65,12 @@ import type { NextRequest } from 'next/server';
 
 /**
  * Middleware function to handle URL rewriting based on the request's hostname.
- * 
- * This middleware dynamically rewrites incoming requests to ensure that 
+ *
+ * This middleware dynamically rewrites incoming requests to ensure that
  * content is served according to the domain (hostname) being accessed.
- * 
+ *
  * - For local development, it redirects requests to a default location.
- * - For production, it matches the domain to a location and rewrites the URL 
+ * - For production, it matches the domain to a location and rewrites the URL
  *   accordingly.
  *
  * @param {NextRequest} request - The incoming HTTP request object.
@@ -78,13 +79,13 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   // Retrieve the hostname from the request headers
   const hostname = request.headers.get('host');
-  
+
   // Extract the pathname from the requested URL (e.g., /about, /contact)
   const { pathname } = request.nextUrl;
 
   // Check if the request is coming from a local development environment
   const isLocal =
-    hostname?.includes('localhost') || hostname?.includes('127.0.0.1'); 
+    hostname?.includes('localhost') || hostname?.includes('127.0.0.1');
 
   // Variable to store the response after applying the rewrite rules
   let nextResponse;
@@ -122,8 +123,8 @@ export function middleware(request: NextRequest) {
 /**
  * Configuration object for the middleware.
  *
- * Specifies the paths that should be handled by the middleware. The matcher 
- * excludes certain paths (e.g., Next.js internals, static files, favicon) 
+ * Specifies the paths that should be handled by the middleware. The matcher
+ * excludes certain paths (e.g., Next.js internals, static files, favicon)
  * to avoid unnecessary processing.
  */
 export const config = {

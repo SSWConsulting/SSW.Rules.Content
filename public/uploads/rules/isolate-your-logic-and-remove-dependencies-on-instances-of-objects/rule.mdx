@@ -1,25 +1,32 @@
 ---
-seoDescription: Isolate complex logic evaluations and remove dependencies on instances of objects to improve testability and maintainability.
-type: rule
-title: Do you isolate your logic and remove dependencies on instances of objects?
-uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related: []
-redirects:
-  - do-you-isolate-your-logic-and-remove-dependencies-on-instances-of-objects
-created: 2020-03-12T22:04:06.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+created: 2020-03-12 22:04:06+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 9f7792d8-fdb1-4e9b-926f-0cfccf25b87d
+isArchived: false
+lastUpdated: 2020-03-20 01:33:47+00:00
+lastUpdatedBy: Matthew Wicks
+lastUpdatedByEmail: MatthewWicks@ssw.com.au
+redirects:
+- do-you-isolate-your-logic-and-remove-dependencies-on-instances-of-objects
+seoDescription: Isolate complex logic evaluations and remove dependencies on instances
+  of objects to improve testability and maintainability.
+title: Do you isolate your logic and remove dependencies on instances of objects?
+type: rule
+uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 ---
 
+<introEmbed
+  body={<>
 If there are complex logic evaluations in your code, we recommend you isolate them and write unit tests for them.
-
-<!--endintro-->
-
+  </>}
+/>
 Take this for example:
 
 ```cs

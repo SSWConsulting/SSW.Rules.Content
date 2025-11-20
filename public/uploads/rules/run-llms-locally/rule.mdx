@@ -1,30 +1,44 @@
 ---
-type: rule
-title: Do you know how to run LLMs locally?
-seoDescription: Learn how to run large language models locally using Ollama and Microsoft Foundry Local for enhanced privacy, control, and offline capabilities.
-uri: run-llms-locally
 authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
-  - title: Lewis Toh
-    url: https://www.ssw.com.au/people/lewis-toh
-related:
-  - use-ai-responsibly
-  - best-ai-tools
-  - choosing-large-language-models
-created: 2025-07-17T21:00:00.000Z
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz
+- title: Lewis Toh
+  url: https://www.ssw.com.au/people/lewis-toh
+created: 2025-07-17 21:00:00+00:00
 guid: 2b7d9e5f-3a1c-4f6e-9d2a-8c4e5f6a7b8c
+related:
+- rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+- rule: public/uploads/rules/best-ai-tools/rule.mdx
+- rule: public/uploads/rules/choosing-large-language-models/rule.mdx
+seoDescription: Learn how to run large language models locally using Ollama and Microsoft
+  Foundry Local for enhanced privacy, control, and offline capabilities.
+title: Do you know how to run LLMs locally?
+type: rule
+uri: run-llms-locally
 ---
 
+<introEmbed
+  body={<>
 When you need AI assistance for development but find yourself offline (whether you're on a flight, gone camping, or facing the inevitable zombie apocalypse) you'll appreciate having local LLMs ready in your workflow!
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Will local LLMs catch up with cloud-based?",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-llms-locally/coverphoto.png"
+/>
 
-![Figure: Will local LLMs catch up with cloud-based?](coverphoto.png)
 
 Running LLMs locally unlocks ultimate freedom, through privacy, offline use, and control.
 
@@ -58,7 +72,19 @@ Local LLMs ensure your data never leaves your machine, providing consistent perf
 | **Cost** | Free | Free | Free; enterprise licensing may apply |
 | **Best for** | Simple and lightweight, great for backends | Polished UX, great for experimentation | Enterprise integration in .NET ecosystem |
 
-![Figure: Chat interfaces in LM Studio (left), and Ollama (right)](ollama-or-lmstudio-ui.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Chat interfaces in LM Studio (left), and Ollama (right)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-llms-locally/ollama-or-lmstudio-ui.png"
+/>
+
 
 Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
 
@@ -115,9 +141,19 @@ Model size (B = billion parameters) directly impacts hardware requirements:
 * **13-30B** - Sweet spot for local development with dedicated GPU (~16-32 GB)
 * **70B+** - God tier, requires high-end GPU and 64GB+ VRAM (~80+ GB)
 
-::: info
-**Note:** Without a powerful GPU, locally-run models may not produce code quality suitable for development work.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** Without a powerful GPU, locally-run models may not produce code quality suitable for development work.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## Best practices
 

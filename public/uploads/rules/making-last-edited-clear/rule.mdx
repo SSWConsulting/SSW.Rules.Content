@@ -1,15 +1,14 @@
 ---
-type: rule
-title: Do you clearly show who last edited a rule or document?
-seoDescription: Ever needed to track down who last made changes to a document?
-uri: making-last-edited-clear
 authors:
-  - title: Josh Berman
-    url: https://www.ssw.com.au/people/josh-berman
-related: []
-redirects: []
-created: 2025-11-11T23:25:40.698Z
+- title: Josh Berman
+  url: https://www.ssw.com.au/people/josh-berman
+created: 2025-11-11 23:25:40.698000+00:00
 guid: d3bfe8fb-4962-4dbc-a0fd-7b67ed2f05a1
+redirects: []
+seoDescription: Ever needed to track down who last made changes to a document?
+title: Do you clearly show who last edited a rule or document?
+type: rule
+uri: making-last-edited-clear
 ---
 
 Have you ever read a document and wondered if it was still relevent - or who last touched it?
@@ -25,14 +24,40 @@ Clear authorship and update information turn that uncertainty into accountabilit
 * For open-source documentation, add a link allowing to the source of the document, so that users can easily make edits
 * Provide a link to the full change history, showing all commits to the source file (e.g. "See History on GitHub")
 
-::: bad
-![Figure: Bad example ([GitHub Documentation](https://docs.github.com/en/github-cli/github-cli/about-github-cli)) - Is this Documentation Still Valid?](bad-example-no-ownership.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example ([GitHub Documentation",
+    shouldDisplay: true
+  } }
+  src="https://docs.github.com/en/github-cli/github-cli/about-github-cli"
+/>
 
-::: good
-![Figure: Ok example ([MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)) - Last Modified Information at the Bottom of the Page](ok-example.png)
-:::
 
-::: good
-![Figure: ⭐ Good Example ([Tina.io Documentation](https://tina.io/docs)) - Ownership and Last Modified Information Clear at Top of Document](good-example-tina.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Ok example ([MDN Documentation",
+    shouldDisplay: true
+  } }
+  src="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "⭐ Good Example ([Tina.io Documentation",
+    shouldDisplay: true
+  } }
+  src="https://tina.io/docs"
+/>

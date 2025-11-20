@@ -14,16 +14,18 @@ created: 2024-02-28T07:04:54.685Z
 guid: 21275f4c-aaf4-4964-9d25-804f3cb56e75
 ---
 
+<introEmbed
+  body={<>
 Have you been in a scenario when you look at a website in your phone and it works. Meanwhile, one of your colleagues is looking at it in their PC and they get a response saying this site doesn't exist. That's probably a DNS (Domain Name System) issue.
 
 DNS is akin to the internet's phonebook. It's easy to remember a website's name, like `www.ssw.com.au`, but computers and networks need numerical IP addresses to access websites. DNS translates human-readable domain names to machine readable IP addresses.
-
-<!--endintro-->
-
+  </>}
+/>
 ### DNS explained
 
-`youtube: https://www.youtube.com/embed/27r4Bzuj5NQ`
-**Video: Everything You Need to Know About DNS (5 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/27r4Bzuj5NQ" description={"Video: Everything You Need to Know About DNS (5 min)"} />
+
 
 Understanding DNS is crucial for troubleshooting connectivity issues, optimizing network performance, and ensuring secure internet navigation
 
@@ -51,7 +53,19 @@ When you type `www.ssw.com.au` into your browser, the process to translate this 
 
 Each of these steps involves complex interactions between your computer, various DNS servers, and the final web server hosting the content you wish to access. This process, although it might seem lengthy, happens within milliseconds, allowing for the quick loading of web pages.
 
-![Figure: DNS - finding the correct authoritative nameserver](DNS-how-it-works.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "DNS - finding the correct authoritative nameserver",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/what-is-dns/DNS-how-it-works.png"
+/>
+
 
 **Image source:** [ByteByteGo's DNS Video](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
 

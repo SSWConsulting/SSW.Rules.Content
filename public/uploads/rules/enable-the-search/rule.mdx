@@ -10,14 +10,25 @@ created: 2014-03-14T03:40:00.000Z
 guid: 0e902951-0ab8-41e2-acfa-8230ddea5ac4
 ---
 
+<introEmbed
+  body={<>
 If search is not enabled you will get this message in OWA:
 
-::: greybox
-"Search results may take a long time to appear because Microsoft Exchange Search is unavailable. Results will not include matches in the email body."
-:::
 
-<!--endintro-->
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Search results may take a long time to appear because Microsoft Exchange Search is unavailable. Results will not include matches in the email body."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
+  </>}
+/>
 This is how you fix it:
 
 **To diagnose Exchange Search issues**
@@ -34,7 +45,7 @@ This is how you fix it:
 **To Rebuild the Full-Text Index Catalog Using the ResetSearchIndex.ps1 Script**
 
 1. Start the Exchange Management Shell.
-2. _ResetSearchIndex.ps1 -force -all_  
+2. _ResetSearchIndex.ps1 -force -all_
    Wait a couple of minutes to the index be created
-3. Run the command to verify if the index was created  
+3. Run the command to verify if the index was created
    _GetSearchIndexForDatabase -All_

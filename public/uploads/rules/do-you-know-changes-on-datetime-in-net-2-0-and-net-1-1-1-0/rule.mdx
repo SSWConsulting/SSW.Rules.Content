@@ -1,27 +1,35 @@
 ---
-seoDescription: Understand changes on Datetime in .NET 2.0 and .NET 1.1/1.0 for accurate date time conversions.
-type: rule
-archivedreason: Obsolete - Modern .NET versions (e.g., .NET 6 and later) provide better alternatives like DateTimeOffset and DateOnly for handling time zones and serialization.
-title: Do you know changes on Datetime in .NET 2.0 and .NET 1.1/1.0?
-guid: aae59cde-200b-4d55-90b1-ed0db45d32af
-uri: do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
-created: 2009-05-08T08:37:20.0000000Z
+archivedreason: Obsolete - Modern .NET versions (e.g., .NET 6 and later) provide better
+  alternatives like DateTimeOffset and DateOnly for handling time zones and serialization.
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+created: 2009-12-04 08:40:28+00:00
+createdBy: SSW2000\cindywang
+createdByEmail: CindyWang@ssw.com.au
+guid: aae59cde-200b-4d55-90b1-ed0db45d32af
+isArchived: false
+lastUpdated: 2010-10-20 08:56:51+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
+seoDescription: Understand changes on Datetime in .NET 2.0 and .NET 1.1/1.0 for accurate
+  date time conversions.
+title: Do you know changes on Datetime in .NET 2.0 and .NET 1.1/1.0?
+type: rule
+uri: do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
 ---
 
+<introEmbed
+  body={<>
 In v1.0 and v1.1 of .NET framework when serializing DateTime values with the XmlSerializer, the local time zone of machine would always been appended. And when deserializing on the receiving machine, DateTime values would be automatically adjusted based on time zone offset relative to the sender time zone.
 
 See below example:
-
-<!--endintro-->
-
+  </>}
+/>
 ```dotnet
 DataSet returnedResult = webserviceObj.GetByDateCreatedAndEmpID(DateTime.
 Now,'JZ');

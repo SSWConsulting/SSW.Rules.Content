@@ -14,36 +14,84 @@ authors:
 created: 2023-04-14T19:11:11.002Z
 guid: c50ed7aa-1539-4ff9-a11c-d95cc0616d4e
 ---
+<introEmbed
+  body={<>
 As ChatGPT becomes increasingly popular, users are discovering the most effective ways to prompt the AI for different scenarios. One way to compile this information is by putting it in easy to read graphics called cheat sheets. Cheat sheets can spark ideas that you would not have otherwise thought of!
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "SSW ChatGPT Cheat Sheet",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/chatgpt-cheat-sheet/chatgpt-cheat-sheet-bathroom-door.jpg"
+/>
 
-![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
 
-[Download "SSW ChatGPT Cheat Sheet" PDF](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf).
+[Download "SSW ChatGPT Cheat Sheet" PDF](/uploads/rules/chatgpt-cheat-sheet/ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf).
 
-![Figure: SSW ChatGPT Cheat Sheet For Developers](ChatGPT-Cheat-Sheet-Devs-v2-2.jpg)
 
-[Download "ChatGPT Cheat Sheet For Developers" PDF](ChatGPT-Cheat-Sheet-Devs-v2-2.pdf).
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "SSW ChatGPT Cheat Sheet For Developers",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/chatgpt-cheat-sheet/ChatGPT-Cheat-Sheet-Devs-v2-2.jpg"
+/>
 
-::: greybox
-**Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
-:::
+
+[Download "ChatGPT Cheat Sheet For Developers" PDF](/uploads/rules/chatgpt-cheat-sheet/ChatGPT-Cheat-Sheet-Devs-v2-2.pdf).
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Here are examples of the prompting techniques on the cheat sheet:
 
 ## Give a role
 
-::: greybox
-*You are a... 🤖*
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    *You are a... 🤖*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ChatGPT can be given a role to understand the context of what it will need to do/know.
 
 See some examples below:
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 *...writing coach: How can I improve the clarity and impact of this project proposal?"*
 
 *...GitHub Actions expert: "What's the best way to set up a CI/CD pipeline using GitHub Actions?"*
@@ -52,58 +100,129 @@ See some examples below:
 
 *...Copywriter: "Help me write a catchy headline for our new marketing campaign."*
 
-*...{{ POSITION }} interviewer: "Act as a UX Designer interviewer and ask me 5 relevant questions."*
-:::
+*...&#123;&#123; POSITION &#125;&#125; interviewer: "Act as a UX Designer interviewer and ask me 5 relevant questions."*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## Some dos ✅
 
 * For complex tasks, use: *"ask any questions needed for context"*
 
-::: greybox
-*"Design a new feature for our mobile app and ask me any questions for context."*
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    *"Design a new feature for our mobile app and ask me any questions for context."*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 * Tell it to *"be concise"* or *"use bullet points"*
 
-::: greybox
-*"Summarize the benefits of using React in our project, and please be concise. Use bullet points with pros and cons."*
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    *"Summarize the benefits of using React in our project, and please be concise. Use bullet points with pros and cons."*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 * Set the tone for responses (e.g. professional, informal, funny)
 
-::: greybox
-Professional: *"Explain the importance of code reviews in a professional tone."*
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Professional: *"Explain the importance of code reviews in a professional tone."*
 
 Informal: *"In an informal tone, tell me why UX design matters for our app."*
 
 Funny: *"Share a funny anecdote about a marketing campaign that went wrong."*
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 * Specify the response format (e.g. "describe point by point", "paragraph description")
 
-::: greybox
-Point-by-point description: *"Please describe the advantages of using React in points."*
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Point-by-point description: *"Please describe the advantages of using React in points."*
 
 Paragraph description: *"Please describe the development process of C# in four paragraphs."*
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## Some don’ts ❌
 
 * Don't ask leading questions. Don’t anchor ChatGPT.
 
-::: greybox
-*“Isn't Python the best language for this project?"*
-:::
-::: bad
-Bad example
-:::
 
-::: greybox
-*"What language would be best for this project and why?"*
-:::
-::: good
-Good example
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    *“Isn't Python the best language for this project?"*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example",
+  shouldDisplay: true
+} } />
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    *"What language would be best for this project and why?"*
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example",
+  shouldDisplay: true
+} } />
+
 
 * Don’t share confidential information with ChatGPT
 
@@ -121,7 +240,19 @@ It’s important to consider what a prompt is made up of. Here’s an example th
 
 For more on this prompt structure, see: [Do you know the fundamentals of Prompt Engineering?](/fundamentals-of-prompt-engineering)
 
-![Figure: Results from the 5 in 1 example prompt](5in1-prompt.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Results from the 5 in 1 example prompt",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/chatgpt-cheat-sheet/5in1-prompt.png"
+/>
+
 
 ## Prompt Chaining
 

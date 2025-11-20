@@ -1,48 +1,78 @@
 ---
-seoDescription: 
-type: rule
-title: Kingdee - Do you know how to set up auxiliary accounting for Accounts Receivables? (China only)
-uri: set-up-auxiliary-accounting
 authors:
-  - title: Clara Fang
-    url: https://www.ssw.com.au/people/clara-fang
-related:
-  - importance-of-reconciliation
-created: 2025-09-29T22:53:34.710Z
+- title: Clara Fang
+  url: https://www.ssw.com.au/people/clara-fang
+created: 2025-09-29 22:53:34.710000+00:00
 guid: ca50e896-5fe9-43b0-8def-4ead1f9a8349
+related:
+- rule: public/uploads/rules/importance-of-reconciliation/rule.mdx
+seoDescription: null
+title: Kingdee - Do you know how to set up auxiliary accounting for Accounts Receivables?
+  (China only)
+type: rule
+uri: set-up-auxiliary-accounting
 ---
 
 Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to a general ledger account, allowing for detailed tracking beyond the main account balance. For the "Accounts Receivable" account, its primary use is to link the "Customer" auxiliary dimension.
 
 ## Traditional method
 
-::: greybox
-1120 Accounts Receivable\
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    1120 Accounts Receivable\
 1120.001 Accounts Receivable - Customer A\
 1120.002 Accounts Receivable - Customer B\
 1120.003 Accounts Receivable - Customer C\
 
 ... (This list becomes unmanageable with hundreds of customers)...
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - This causes your chart of accounts to become bloated, inefficient, and difficult to maintain",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - This causes your chart of accounts to become bloated, inefficient, and difficult to maintain
-:::
 
 ## The Auxiliary Accounting Solution
 
-::: greybox 
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 **Setup:** Use one main account (1120 Accounts Receivable) and enable the "Customer" dimension for it.
 
 **Entry:** When posting an invoice to this account, the system prompts you to select a specific customer.
 
 **Result:** Each transaction is automatically tagged (e.g., 1120 Receivable | Customer A).
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-::: good
-![Figure: Good-Example - The Auxiliary Accounting Solution](Good-Example-The-Auxiliary-Accounting-Solution.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good-Example - The Auxiliary Accounting Solution",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/set-up-auxiliary-accounting/Good-Example-The-Auxiliary-Accounting-Solution.jpg"
+/>
+
 
 ### The Outcome
 

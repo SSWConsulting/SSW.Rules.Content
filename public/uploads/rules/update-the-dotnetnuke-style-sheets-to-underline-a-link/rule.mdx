@@ -11,10 +11,11 @@ archivedreason: outdated
 guid: b26cba54-c155-4418-8766-392d38ea958d
 ---
 
+<introEmbed
+  body={<>
 As per [rules to underline all links](/underlined-links/) always update the necessary DotNetNuke style sheets to make links perfectly clear, by underlining them.
-
-<!--endintro-->
-
+  </>}
+/>
 To underline links in DotNetNuke you need to change the styles in the style sheet Portals/\_default/default.css
 
 ```css
@@ -35,7 +36,8 @@ A:active {
   color: #003366;
 }
 ```
-
-::: good
-Figure: Good example - The style now underline all links
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - The style now underline all links",
+  shouldDisplay: true
+} } />

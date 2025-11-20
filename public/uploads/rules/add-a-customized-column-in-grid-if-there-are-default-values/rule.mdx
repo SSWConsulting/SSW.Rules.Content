@@ -10,14 +10,33 @@ created: 2014-03-14T00:22:00.000Z
 guid: 4ed43f37-6443-43ad-b201-308c17e3d7c0
 ---
 
+<introEmbed
+  body={<>
 Add a column and show "(customized)" in grid - that is an easier way to know if you have changed from the defaults.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - You need to compare with the default values to know whether it is modified",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/add-a-customized-column-in-grid-if-there-are-default-values/badexampleforcustomizedcolumn.gif"
+/>
 
-::: bad
-![Figure: Bad example - You need to compare with the default values to know whether it is modified](badexampleforcustomizedcolumn.gif)
-:::
 
-::: good
-![Figure: Good example - A "(customized)" column is an easier way to know if you have changed from the defaults](goodexampleforcustomizedcolumn.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A \"(customized)\" column is an easier way to know if you have changed from the defaults",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/add-a-customized-column-in-grid-if-there-are-default-values/goodexampleforcustomizedcolumn.gif"
+/>

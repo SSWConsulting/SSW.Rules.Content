@@ -1,39 +1,47 @@
 ---
-seoDescription: Exposing events as events optimizes communication and streamlines programming.
-type: rule
-title: Do you expose events as events?
-uri: expose-events-as-events
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-expose-events-as-events
-created: 2018-04-30T19:30:42.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-30 19:30:42+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: a322a946-b020-4f03-b20e-afd5ec089323
+isArchived: false
+lastUpdated: 2018-04-30 19:32:16+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-expose-events-as-events
+seoDescription: Exposing events as events optimizes communication and streamlines
+  programming.
+title: Do you expose events as events?
+type: rule
+uri: expose-events-as-events
 ---
 
+<introEmbed
+  body={<>
 You should expose events as events.
-
-<!--endintro-->
-
+  </>}
+/>
 ```csharp
 public Action
 < connectioninformation > ConnectionProblem;
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad code",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad code
-
-:::
 
 ```csharp
 public event Action
 < connectioninformation > ConnectionProblem;
 ```
-
-::: good
-Good code
-
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good code",
+  shouldDisplay: true
+} } />

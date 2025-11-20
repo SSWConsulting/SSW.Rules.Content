@@ -1,30 +1,30 @@
 ---
-seoDescription: Ensure code safety and quality with branch protection rules in Git.
-type: rule
-title: Do you protect your main branch? aka branch protection
-uri: protect-your-main-branch
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming/
-  - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
-related: []
-redirects:
-  - do-you-protect-your-master-branch
-  - protect-your-master-branch
-created: 2017-09-12T22:35:37.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming/
+- title: Jernej Kavka
+  url: https://ssw.com.au/people/jernej-kavka
+created: 2017-09-12 22:35:37+00:00
 guid: 93bfec41-6b37-4413-a660-931fffa88d44
+redirects:
+- do-you-protect-your-master-branch
+- protect-your-master-branch
+seoDescription: Ensure code safety and quality with branch protection rules in Git.
+title: Do you protect your main branch? aka branch protection
+type: rule
+uri: protect-your-main-branch
 ---
 
+<introEmbed
+  body={<>
 Branch protection is a feature in version control software that allows teams to define rules and restrictions around who can make changes to specific branches, what types of changes are allowed, and if there are conditions that have to be met.
-
-<!--endintro-->
-
+  </>}
+/>
 This can include:
 
 * Number of reviewers
@@ -35,10 +35,27 @@ This can include:
 * Checking other services e.g. code quality like SonarQube
 * Automatically adding specific people to review the code
 
-::: bad  
-![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad-1.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – No protection – anyone can make unreviewed changes",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/protect-your-main-branch/protect-branch-bad-1.jpg"
+/>
 
-::: good  
-![Figure: Good example – The branch protected](protect-branch-good-1.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – The branch protected",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/protect-your-main-branch/protect-branch-good-1.jpg"
+/>

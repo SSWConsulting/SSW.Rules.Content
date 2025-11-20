@@ -1,21 +1,23 @@
 ---
-seoDescription: Discover the best SharePoint navigation solutions to enhance your intranet experience with Warwick Leahy.
-type: rule
-title: Do you use the best SharePoint navigation?
-uri: best-sharepoint-navigation
 authors:
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy
-related:
-  - sharepoint-rich-text-markdown
-created: 2022-05-17T18:10:09.867Z
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy
+created: 2022-05-17 18:10:09.867000+00:00
 guid: 470df2e0-4bde-4f70-bfd2-50b90f61f1d5
+related:
+- rule: public/uploads/rules/sharepoint-rich-text-markdown/rule.mdx
+seoDescription: Discover the best SharePoint navigation solutions to enhance your
+  intranet experience with Warwick Leahy.
+title: Do you use the best SharePoint navigation?
+type: rule
+uri: best-sharepoint-navigation
 ---
 
+<introEmbed
+  body={<>
 On intranets you always want a bunch of links easily accessible and customizable by the end users.
-
-<!--endintro-->
-
+  </>}
+/>
 In SharePoint your left navigation can be:
 
 ### The built-in site navigation
@@ -30,13 +32,31 @@ Bad points:
 * Viewer – Can only use emoji not icons in names
 * Customizing – Cant be customized
 
-::: bad
-![Figure: Bad example – Viewing](sharepoint-nav-bad1.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – Viewing",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-bad1.png"
+/>
 
-::: bad
-![Figure: Bad Example - Editing (No customizations)](sharepoint-nav-bad2.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - Editing (No customizations)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-bad2.png"
+/>
+
 
 ### Web links – SharePoint web part
 
@@ -49,13 +69,27 @@ Good points:
 
 Good example:
 
-::: todo
-TODO: Insert Warwick’s video when made
-:::
-::: good
-Figure: Good example – Customizing is easy
-:::
 
-::: good
-![Figure: Good example – Custom icons and built-in icons that look nice](sharepoint-nav-good.png)
-:::
+<asideEmbed
+  variant="todo"
+  body={<>
+    TODO: Insert Warwick’s video when made
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – Customizing is easy",
+    shouldDisplay: true
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – Custom icons and built-in icons that look nice",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-good.png"
+/>

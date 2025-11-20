@@ -1,24 +1,30 @@
 ---
-seoDescription: Use service accounts securely for recurring tasks and systems to maintain application integrity and avoid password-related risks.
-type: rule
-title: Security - Do you use service accounts?
-uri: do-you-use-service-accounts
+archivedreason: This rule is now outdated, service accounts are useful but gMSAs and
+  other kinds of secure identities should be used instead - replaced by [https://www.ssw.com.au/rules/group-managed-service-account-gmsa](/rules/group-managed-service-account-gmsa)
 authors:
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related: []
-redirects: []
-created: 2018-08-22T05:08:37.000Z
-archivedreason: This rule is now outdated, service accounts are useful but gMSAs
-  and other kinds of secure identities should be used instead - replaced by
-  [https://www.ssw.com.au/rules/group-managed-service-account-gmsa](/rules/group-managed-service-account-gmsa)
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+created: 2018-08-22 05:08:38+00:00
+createdBy: Kaique Biancatti
+createdByEmail: kaiqueBiancatti@ssw.com.au
 guid: 3a663158-60ca-4b55-b9cc-eec5774b3346
+isArchived: false
+lastUpdated: 2018-08-22 05:21:34+00:00
+lastUpdatedBy: Kaique Biancatti
+lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
+redirects: []
+seoDescription: Use service accounts securely for recurring tasks and systems to maintain
+  application integrity and avoid password-related risks.
+title: Security - Do you use service accounts?
+type: rule
+uri: do-you-use-service-accounts
 ---
 
+<introEmbed
+  body={<>
 Do you use service accounts for recurring tasks and systems, or do you use user and personal accounts?
-
-<!--endintro-->
-
+  </>}
+/>
 As a rule, you should never use a user account for accessing systems, reports, tasks and other long-running applications that do not need human or user interaction to run.
 
 Service accounts provide a security context where the applications run, without the need to worry about their passwords or privileges. If a user changes their password, you will not break anything, because service account password normally does not expire and changing them is never needed.

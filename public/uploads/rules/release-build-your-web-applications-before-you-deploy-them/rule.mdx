@@ -1,19 +1,28 @@
 ---
-seoDescription: Release build your web applications before deployment to optimize performance and security with ASP.NET by compiling all files into one DLL and disabling resource caching.
-type: rule
-title: Do you release build your web applications before you deploy them?
-uri: release-build-your-web-applications-before-you-deploy-them
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-release-build-your-web-applications-before-you-deploy-them
-created: 2016-11-16T18:34:36.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2016-11-16 18:34:36+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 5c5fb2f8-f771-4d33-8198-357918f75db1
+isArchived: false
+lastUpdated: 2021-06-24 23:16:05.475000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-release-build-your-web-applications-before-you-deploy-them
+seoDescription: Release build your web applications before deployment to optimize
+  performance and security with ASP.NET by compiling all files into one DLL and disabling
+  resource caching.
+title: Do you release build your web applications before you deploy them?
+type: rule
+uri: release-build-your-web-applications-before-you-deploy-them
 ---
 
+<introEmbed
+  body={<>
 Reasons to release build your web applications before you deploy them with ASP.NET:
 
 * ASP.NET conducts a batch compilation on "release builds", which means it tries to compile all files in the current folder into one DLL
@@ -23,17 +32,18 @@ According to [MSDN web developer tips](https://blogs.msdn.microsoft.com?WT.mc_i
 
 * In web.config file, set &lt;compilation debug="false"/&gt;
 * Disable the &lt;compilation debug="true"/&gt; switch for all ASP.NET applications on the server by setting the following in Machine.config
-
-<!--endintro-->
-
+  </>}
+/>
 ```xml
 <system.web>
     <deployment retail="true"/>
 </system.web>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "The setting in machine.config will also turn off trace output in a page and detailed error messages remotely",
+  shouldDisplay: true
+} } />
 
-::: good
-The setting in machine.config will also turn off trace output in a page and detailed error messages remotely
-:::
 
 Machine.config file is typically located at `%SystemRoot%\Microsoft.NET\Framework\%VersionNumber%\CONFIG`.

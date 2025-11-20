@@ -10,17 +10,37 @@ created: 2014-03-14T02:26:00.000Z
 guid: 0692d670-5e4a-4c97-a414-79344ebd617e
 ---
 
+<introEmbed
+  body={<>
 All applications should be compatible with the Windows XP user interface and should be fully themed. Applications that do not use XP themes look like they were designed only for an earlier version of Windows. Mixing themed and non-themed controls looks equally unprofessional.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - XP themes are not used",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-your-applications-support-xp-themes/badxpthemes.gif"
+/>
 
-::: bad
-![Figure: Bad example - XP themes are not used](badxpthemes.gif)
-:::
 
-::: good
-![Figure: Good example - XP themes are used](goodxpthemes.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - XP themes are used",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-your-applications-support-xp-themes/goodxpthemes.gif"
+/>
+
 
 ### Implementing XP Themes
 
@@ -28,9 +48,21 @@ We recommend using manifest file to support XP Themes in .NET. Follow this to us
 
 1. Set the FlatStyle Property in all our controls to "System"
 
-   ![Figure: How to set the Button's FlatStyle Property](setbuttonflatstyle.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "How to set the Button's FlatStyle Property",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-your-applications-support-xp-themes/setbuttonflatstyle.jpg"
+/>
 
-2. Copy XPThemes.manifest file to your bin folder  
+
+2. Copy XPThemes.manifest file to your bin folder
    By default, you can get it from `C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\XPThemes.manifest`
 
 3. Rename "XpThemes.manifest" to "ApplicationName.exe.manifest"

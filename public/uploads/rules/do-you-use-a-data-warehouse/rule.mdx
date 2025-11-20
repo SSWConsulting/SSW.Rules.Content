@@ -1,39 +1,52 @@
 ---
-seoDescription: A centralized repository of data used for analysis and reporting, providing valuable insights to support decision-making processes.
-type: rule
-title: Do you use a Data Warehouse?
-uri: do-you-use-a-data-warehouse
-authors:
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-related:
-  - use-the-right-data-storage
-  - use-the-right-database
-  - do-you-use-a-data-lake
-redirects: []
-created: 2023-06-28T05:30:52.000Z
 archivedreason: null
+authors:
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+created: 2023-06-28 05:30:52+00:00
 guid: fcdde953-807d-4a32-a52e-526fb817cf9c
+redirects: []
+related:
+- rule: public/uploads/rules/use-the-right-data-storage/rule.mdx
+- rule: public/uploads/rules/use-the-right-database/rule.mdx
+- rule: public/uploads/rules/understanding-data-lakes/rule.mdx
+seoDescription: A centralized repository of data used for analysis and reporting,
+  providing valuable insights to support decision-making processes.
+title: Do you use a Data Warehouse?
+type: rule
+uri: do-you-use-a-data-warehouse
 ---
 
+<introEmbed
+  body={<>
 A Data Warehouse is a centralized repository of data that is used for analysis and reporting, providing organizations with valuable insights to support decision-making processes. A Data Warehouse can offer significant benefits, so understanding its appropriate use cases and limitations is essential.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "",
+    shouldDisplay: false
+  } }
+  src="/uploads/rules/do-you-use-a-data-warehouse/datawarehouse.jpg"
+/>
 
-::: img-medium
-![](datawarehouse.jpg)
-:::
 
 Data Warehouses act as a central repository that consolidate vast amounts of data from transactional systems, operational databases, external sources, and more. This consolidated data is then transformed and optimized for efficient reporting, analytics, and business intelligence purposes.
 
-`youtube: https://www.youtube.com/watch?v=AIGRlKiiF50`
-**Video: Introduction to Data Warehouses (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=AIGRlKiiF50" description={"Video: Introduction to Data Warehouses (3 min)"} />
+
 
 Basic (video above) - \[YouTube: Cody Baldwin] gives a good overview of data warehouses, and why you'd want to build one.
 
@@ -52,8 +65,11 @@ Advanced - \[YouTube: Azure Synapse Analytics] If you want to see an example, ta
 * **Small-scale Data Storage:** If your organization deals with relatively small volumes of data that don't require extensive integration, analysis, or long-term historical retention, a Data Warehouse may introduce unnecessary complexity and overhead. In such cases, simpler data storage and retrieval solutions might suffice.
 * **Temporary Data Analysis:** If you only need to perform ad hoc analysis on short-lived datasets, it may be more efficient to use other data analysis tools or platforms that don't involve building and maintaining a Data Warehouse.
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 ### Example
 
 The business **Northwind Chips & Cream** sells hot chips and ice cream from their fleet of food trucks, operating across Australia.
@@ -72,7 +88,14 @@ A Data Warehouse is a compelling recommendation, because:
 * Disparate data sources require aggregation
 * No real-time data ingestion required
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## How to create a Data Warehouse
 

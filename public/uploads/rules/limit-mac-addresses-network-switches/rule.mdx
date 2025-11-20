@@ -1,31 +1,53 @@
 ---
-type: rule
-tips: ""
-title: Do you limit MAC addresses on your network switches?
-seoDescription: Limiting MAC addresses on your network switches to enhance security, control access, and optimize network performance. Learn how and why to implement MAC address restrictions effectively.
-uri: limit-mac-addresses-network-switches
 authors:
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related:
-  - separate-networks
-  - do-you-use-network-intrusion-prevention-systems
+- title: Kiki Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
 guid: a1a2c8c4-efe5-42e8-8e25-bc52fac8ded5
+related:
+- rule: public/uploads/rules/separate-networks/rule.mdx
+- rule: public/uploads/rules/do-you-use-network-intrusion-prevention-systems/rule.mdx
+seoDescription: Limiting MAC addresses on your network switches to enhance security,
+  control access, and optimize network performance. Learn how and why to implement
+  MAC address restrictions effectively.
+tips: ''
+title: Do you limit MAC addresses on your network switches?
+type: rule
+uri: limit-mac-addresses-network-switches
 ---
 
-Have you ever faced a scenario where an unauthorized device is discreetly connected to an open port on your network switch, potentially intercepting sensitive data or disrupting critical services? This situation isn’t just theoretical - it can lead to serious security breaches, data theft, and system downtime if you do not restrict the MAC addresses allowed to connect.        
+<introEmbed
+  body={<>
+Have you ever faced a scenario where an unauthorized device is discreetly connected to an open port on your network switch, potentially intercepting sensitive data or disrupting critical services? This situation isn’t just theoretical - it can lead to serious security breaches, data theft, and system downtime if you do not restrict the MAC addresses allowed to connect.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - An access port with continuous learn mode, meaning any device can connect to it and no security traps will be raised",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-mac-addresses-network-switches/badexampleports.png"
+/>
 
-::: bad
-![Figure: Bad example - An access port with continuous learn mode, meaning any device can connect to it and no security traps will be raised](badexampleports.png)
-:::
 
 An open switch port accepts any device, allowing a malicious actor to connect and compromise internal systems.
 
-::: good
-![Figure: Good example - A switch port accepts only predefined MAC addresses, or is limited on the number of MAC addresses it can learn. Unauthorized devices are immediately blocked, safeguarding the network’s perimeter](goodexampleports.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A switch port accepts only predefined MAC addresses, or is limited on the number of MAC addresses it can learn. Unauthorized devices are immediately blocked, safeguarding the network’s perimeter",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-mac-addresses-network-switches/goodexampleports.png"
+/>
+
 
 ## Benefits of limiting MAC addresses on network switches
 

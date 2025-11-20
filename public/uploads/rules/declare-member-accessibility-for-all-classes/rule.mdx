@@ -1,41 +1,62 @@
 ---
-seoDescription: Do you explicitly declare member accessibility for all classes and methods in your C# code to improve readability and maintainability?
-type: rule
-title: Do you declare member accessibility for all classes?
-uri: declare-member-accessibility-for-all-classes
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-declare-member-accessibility-for-all-classes
-created: 2018-04-25T22:45:00.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-25 22:45:00+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: b1ac5f48-0e88-4eed-8a13-c25ca5a87c6a
+isArchived: false
+lastUpdated: 2021-07-19 00:55:19.982000+00:00
+lastUpdatedBy: Taine Riley
+lastUpdatedByEmail: 40375803+taineriley1@users.noreply.github.com
+redirects:
+- do-you-declare-member-accessibility-for-all-classes
+seoDescription: Do you explicitly declare member accessibility for all classes and
+  methods in your C# code to improve readability and maintainability?
+title: Do you declare member accessibility for all classes?
+type: rule
+uri: declare-member-accessibility-for-all-classes
 ---
 
+<introEmbed
+  body={<>
 Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.
-
-<!--endintro-->
-
+  </>}
+/>
 ```csharp
 Match MatchExpression(string input, string pattern)
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad - Method without member accessibility declared",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad - Method without member accessibility declared
-
-:::
 
 ```csharp
 private Match MatchExpression(string input, string pattern)
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good - Method with member accessibility declared",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good - Method with member accessibility declared
 
-:::
 
-![Figure: Compiler warning given for not explicitly defining member access level](https://user-images.githubusercontent.com/40375803/126088173-2387748e-89df-4f05-bafd-cf293f0ce616.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Compiler warning given for not explicitly defining member access level",
+    shouldDisplay: true
+  } }
+  src="https://user-images.githubusercontent.com/40375803/126088173-2387748e-89df-4f05-bafd-cf293f0ce616.png"
+/>
+
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.

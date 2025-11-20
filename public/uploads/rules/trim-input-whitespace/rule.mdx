@@ -1,35 +1,48 @@
 ---
-type: rule
-tips: ""
-title: Do you trim starting and trailing whitespaces in input fields?
-seoDescription: Avoid user frustration by trimming leading and trailing
-  whitespace from input fields. This prevents validation errors caused by
-  invisible characters.
-uri: trim-input-whitespace
 authors:
-  - title: Harkirat Singh
-    url: https://github.com/0xharkirat
-related:
-  - avoid-spaces-and-empty-lines-at-the-start-of-character-columns
-created: 2025-06-04T10:34:00.000Z
+- title: Harkirat Singh
+  url: https://github.com/0xharkirat
+created: 2025-06-04 10:34:00+00:00
 guid: 9845e6cd-691d-47d2-8ff1-b45cdc0eff64
+related:
+- rule: public/uploads/rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns/rule.mdx
+seoDescription: Avoid user frustration by trimming leading and trailing whitespace
+  from input fields. This prevents validation errors caused by invisible characters.
+tips: ''
+title: Do you trim starting and trailing whitespaces in input fields?
+type: rule
+uri: trim-input-whitespace
 ---
+
+<introEmbed
+  body={<>
 Mobile keyboards, autocomplete, and even copy-paste behavior often introduce leading or trailing whitespace into input fields. This causes validation to fail, even when the actual content is correct—like a GitHub URL ending in a space. That’s a frustrating experience for users, and it’s easily avoidable.
-
-<!--endintro-->
-
+  </>}
+/>
 When input validation fails because of a whitespace character the user can’t see, it feels like the form is broken. Trimming whitespace is a simple fix that drastically improves UX.
 
 ## Always trim inputs before validating
 
 For nearly all form fields (email addresses, URLs, usernames, etc.) it is best practice to automatically remove any leading and trailing whitespace **before** performing validation or submitting data.
 
-::: bad
-![Figure: Bad example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message](bad-example-trailing-white-space-validation-failed.jpeg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/trim-input-whitespace/bad-example-trailing-white-space-validation-failed.jpeg"
+/>
 
-::: greybox
 
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 Code trims the input to remove whitespace:
 
 ```js
@@ -37,10 +50,14 @@ const trimmedValue = input.trim();
 ```
 
 Input validation passes: “github.com/0xharkirat” is accepted
-:::
-::: good
-Figure: Good example – Automatically trimming input before validation makes the form behave as expected
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – Automatically trimming input before validation makes the form behave as expected",
+    shouldDisplay: true
+  }}
+/>
+
 
 ## Exceptions and notes
 

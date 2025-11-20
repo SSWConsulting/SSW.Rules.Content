@@ -1,45 +1,63 @@
 ---
-type: rule
-title: Do you know how to efficiently clarify with agents?
-seoDescription: Improve AI prompt efficiency and reduce back-and-forth by having the AI present clarifying questions as labelled option tables (A, B, C) instead of open text.
-uri: ai-efficient-clarify-questions
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-related:
-  - tell-chatgpt-to-ask-questions
-  - agentic-ai
-  - ai-assisted-development-workflow
-  - avoid-ai-hallucinations
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
 guid: 7b2c3c2e-9c4c-4c9f-9c1b-4f9d5d2e7ab1
 redirects: []
+related:
+- rule: public/uploads/rules/tell-chatgpt-to-ask-questions/rule.mdx
+- rule: public/uploads/rules/agentic-ai/rule.mdx
+- rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+- rule: public/uploads/rules/avoid-ai-hallucinations/rule.mdx
+seoDescription: Improve AI prompt efficiency and reduce back-and-forth by having the
+  AI present clarifying questions as labelled option tables (A, B, C) instead of open
+  text.
+title: Do you know how to efficiently clarify with agents?
+type: rule
+uri: ai-efficient-clarify-questions
 ---
 
+<introEmbed
+  body={<>
 When interacting with AI, clarifying questions are inevitable. The difference between slow, meandering threads and fast, decisive progress is how those clarifications are framed. You should train your AI assistant to present clarifying questions as **labelled option tables** instead of open-ended text. This reduces friction, lowers cognitive load, and allows quick responses to AI.
-
-<!--endintro-->
-
+  </>}
+/>
 Instead of forcing the human to invent an answer, the AI does the thinking upfront. It proposes plausible choices (A, B, C) and asks for a single-letter response (optionally with a tweak).
 
 Learn more on [Efficient Vibe Coding: How Clarifying Questions Make AI Actually Useful](https://www.dandoescode.com/blog/efficient-vibe-coding-with-clarifying-questions) by Daniel Mackay.
 
 The human can pick one, pick + adjust, or reject and explain. All are faster than crafting a reply from scratch.
 
-::: greybox
-Developer / AI agent asks:
 
-> Where should the new command go?
-:::
-::: bad
-Dev has to remember folder conventions, naming, and side‑effects
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Developer / AI agent asks:
 
-::: greybox
-Developer / AI agent asks with labelled options (Northwind-flavoured example):
+&gt; Where should the new command go?
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Dev has to remember folder conventions, naming, and side‑effects",
+  shouldDisplay: true
+} } />
 
-> Where should the UpdateCustomerCreditLimitCommand live?
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Developer / AI agent asks with labelled options (Northwind-flavoured example):
+
+&gt; Where should the UpdateCustomerCreditLimitCommand live?
 
 | Option | Location | Rationale |
 |--------|----------|-----------|
@@ -48,20 +66,47 @@ Developer / AI agent asks with labelled options (Northwind-flavoured example):
 | C | Other (please specify) | Invite a better bounded-context suggestion |
 
 Chosen: **A** – one letter, instant alignment.
-:::
-::: good
-Dev can easily see the differences and pick the right one
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Dev can easily see the differences and pick the right one",
+  shouldDisplay: true
+} } />
+
 
 ---
 
-::: bad
-![Figure: Bad example - These questions are tough to answer](bad-clarifying-questions.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - These questions are tough to answer",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/ai-efficient-clarify-questions/bad-clarifying-questions.png"
+/>
 
-::: good
-![Figure: Good example - Easy to answer with a single letter](good-clarifying-questions.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Easy to answer with a single letter",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/ai-efficient-clarify-questions/good-clarifying-questions.png"
+/>
+
 
 ## Why this works
 

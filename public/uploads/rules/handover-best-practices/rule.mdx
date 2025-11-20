@@ -1,22 +1,24 @@
 ---
-type: rule
-tips: ""
-title: Do you leave a project ready for the next person?
-seoDescription: Make your handovers smooth and useful by planning with your successor in mind, whether you're going on leave or leaving the project permanently.
-uri: handover-best-practices
 authors:
-  - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc/
-related:
-  - bus-test
-  - hand-over-projects
+- title: Betty Bondoc
+  url: https://www.ssw.com.au/people/betty-bondoc/
 guid: 95b188ce-a802-4e25-b467-ae580aea89c0
+related:
+- rule: public/uploads/rules/bus-test/rule.mdx
+- rule: public/uploads/rules/hand-over-projects/rule.mdx
+seoDescription: Make your handovers smooth and useful by planning with your successor
+  in mind, whether you're going on leave or leaving the project permanently.
+tips: ''
+title: Do you leave a project ready for the next person?
+type: rule
+uri: handover-best-practices
 ---
 
+<introEmbed
+  body={<>
 A poorly planned handover can result in wasted time, repeated work, and confusion for the person taking over. Imagine walking into a project with no context, outdated documentation, and a scattering of files across different systems. It’s frustrating and it’s preventable.
-
-<!--endintro-->
-
+  </>}
+/>
 There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always **plan from the perspective of the person receiving the handover**.
 
 ## Ensure access is sorted early
@@ -40,8 +42,11 @@ Don’t leave your successor scavenging for files. If your team doesn’t alread
 
 At the root level, add a `_instructions.md` or `README` to explain the folder structure and what each file contains.
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 /Project-Handover
 
 ├── _instructions.md
@@ -56,11 +61,19 @@ At the root level, add a `_instructions.md` or `README` to explain the folde
 
 └── Tasks (exported backlog, priority list)
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – A structured handover folder with an index file for guidance",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example – A structured handover folder with an index file for guidance
-:::
 
 If your team already has a defined location (like a client-managed drive or internal system), follow that instead and just make sure your files are up to date and easy to navigate.
 
@@ -102,39 +115,38 @@ Label each video clearly with what it covers and why it’s useful.
 
 New joiners can feel overwhelmed. Help them ramp up with a structured welcome message that links them to the right places and explains what to do first.
 
-::: email-template
-
-| | |
-| -------- | ---------------------------------- |
-| To: | John |
-| Subject: | Project Handover – Getting Started |
-
-::: email-content
-
-Hi John,
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Project Handover – Getting Started"
+  shouldDisplayBody={true}
+  body={<>
+    Hi John,
 
 Welcome to the project! 🎉
 
 Here’s a quick guide to help you get set up and familiar with everything:
 
-* **Project Summary** → {{ LINK }}
-* **Architecture Overview** → {{ LINK }}
-* **Active Backlog / Tasks** → {{ LINK }}
-* **Design Files** (Figma, etc.) → {{ LINK }}
-* **Project Folder** → {{ LINK }}
-* **Key Documentation** → {{ LINK }} (includes index or must-read docs)
-* **Team Directory** → {{ LINK }}
+* **Project Summary** → &#123;&#123; LINK &#125;&#125;
+* **Architecture Overview** → &#123;&#123; LINK &#125;&#125;
+* **Active Backlog / Tasks** → &#123;&#123; LINK &#125;&#125;
+* **Design Files** (Figma, etc.) → &#123;&#123; LINK &#125;&#125;
+* **Project Folder** → &#123;&#123; LINK &#125;&#125;
+* **Key Documentation** → &#123;&#123; LINK &#125;&#125; (includes index or must-read docs)
+* **Team Directory** → &#123;&#123; LINK &#125;&#125;
 
 Let me know if anything’s unclear or if you need help with access.
 
-Regards,  
-
-:::
-:::
-
-::: good
-Figure: Good example – A clear onboarding email helps reduce first-day confusion
-:::
+Regards,
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – A clear onboarding email helps reduce first-day confusion",
+    shouldDisplay: true
+  }}
+/>
 
 ## Run a handover walkthrough
 
@@ -154,9 +166,19 @@ Introduce your successor to:
 * Sysadmins
 * Key team members
 
-::: info
-**Bonus:** Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Bonus:** Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ---
 

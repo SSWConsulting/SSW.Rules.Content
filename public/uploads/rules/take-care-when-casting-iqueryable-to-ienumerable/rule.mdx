@@ -10,12 +10,13 @@ created: 2021-12-13T17:00:03.219Z
 guid: ee5bfbb5-7743-462b-bc8a-f32b3fb015b0
 ---
 
+<introEmbed
+  body={<>
 When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast. This can result in very significant extra database load, and extra processing on the client side.
 
 **NOTE:** Using `.AsEnumerable()` achieves the same effect.
-
-<!--endintro-->
-
+  </>}
+/>
 ### Counting
 
 ```cs
@@ -43,10 +44,12 @@ public IEnumerable<Sale> GetSales() => context.Sales;
 // because it receives the query as `IEnumerable` before running `.Count()`.
 int count4 = GetSales().Count();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - All these examples read the entire table instead of just returning the count from the database.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - All these examples read the entire table instead of just returning the count from the database.
-:::
 
 ```cs
 // All of the examples below will result in SQL query:
@@ -59,10 +62,12 @@ int count2 = query.Count();
 public IQueryable<Sale> GetSales() => context.Sales;
 int count3 = GetSales().Count();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Only the count is returned by the query",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example - Only the count is returned by the query
-:::
 
 ### Where
 
@@ -80,10 +85,12 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - The whole table is returned from the database and then discarded in code.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - The whole table is returned from the database and then discarded in code.
-:::
 
 ```cs
 // All Examples will result in a SQL query like:
@@ -98,7 +105,8 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
-
-::: good
-Good example - Filtering is done on the database before returning data.
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Filtering is done on the database before returning data.",
+  shouldDisplay: true
+} } />

@@ -1,41 +1,63 @@
 ---
-type: rule
-title: Do you use MFA and avoid typing passwords?
-seoDescription: Stay ahead of cyber threats by using multi-factor authentication
-  (MFA), and setup passwordless sign-in to avoid typing passwords.
-uri: using-mfa
 authors:
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-  - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy
-related:
-  - password-manager
-  - multi-factor-authentication-enabled
-  - windows-hello
-created: 2022-03-17T05:06:21.573Z
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+- title: Ash Anil
+  url: https://www.ssw.com.au/people/ash-anil
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy
+created: 2022-03-17 05:06:21.573000+00:00
 guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
+related:
+- rule: public/uploads/rules/password-manager/rule.mdx
+- rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
+- rule: public/uploads/rules/windows-hello/rule.mdx
+seoDescription: Stay ahead of cyber threats by using multi-factor authentication (MFA),
+  and setup passwordless sign-in to avoid typing passwords.
+title: Do you use MFA and avoid typing passwords?
+type: rule
+uri: using-mfa
 ---
 
+<introEmbed
+  body={<>
 The best protection you can provide for your password is to not solely rely on it. Multi-factor authentication (MFA) lets you use a mix of techniques when logging into an account. Typically this is made up of something you know (your password) and something you have (your phone - older people will remember RSA tokens).
-
-<!--endintro-->
-
+  </>}
+/>
 Your phone can provide a second factor either through an installed authenticator app, or by receiving an SMS with a one-time password. Authenticator apps are recommended, as they are more secure than SMS.
 
 We are now seeing biometric security using facial recognition, fingerprints, or in more advanced scenarios palm-vein scanning (and plenty of others too). While biometrics offer convenience and reduce our reliance on passwords, they usually replace username and password altogether (although rely on accounts that use them behind the scenes), rather than providing an additional factor (e.g., username + password + fingerprint).
 
 Nearly any service you use now will support MFA, either through an authenticator app, SMS, call or even email if you have no other option. **Ensure that it is enabled for everything you use.**
 
-::: ok
-![Figure: OK example - SMS is less secure than other methods](mfa-sms.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - SMS is less secure than other methods",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/using-mfa/mfa-sms.png"
+/>
 
-![Figure: Microsoft's Authenticator app in action](microsoft-authenticator-steps.gif)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Microsoft's Authenticator app in action",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/using-mfa/microsoft-authenticator-steps.gif"
+/>
+
 
 ### Passwordless sign-in
 
@@ -49,17 +71,48 @@ Now that it is enabled, you will need to change your default - next time you nee
 1. Instead of typing your password, select **Use an app instead** or **Other ways to sign in**
 2. Select **Approve a request on my Microsoft Authenticator app**
 
-![Figure: MFA sign-in | Use an app instead](azure-mfa-useapp.png)
 
-:::greybox
-**Note:** The above option "Use an app instead" takes some time to reflect on your login prompt after you have made changes in your Authenticator App.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "MFA sign-in | Use an app instead",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/using-mfa/azure-mfa-useapp.png"
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** The above option "Use an app instead" takes some time to reflect on your login prompt after you have made changes in your Authenticator App.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 See [detailed instructions from Microsoft](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
 
-::: good
-![Figure: Good example - Microsoft Authenticator app with Passwordless sign-in (recommended)](authenticator-app.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Microsoft Authenticator app with Passwordless sign-in (recommended)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/using-mfa/authenticator-app.gif"
+/>
+
 
 ### Use 2FA in Keeper
 
@@ -67,6 +120,14 @@ See [detailed instructions from Microsoft](https://support.microsoft.com/en-us/a
 
 Keeper works as a password entry authenticator with support for Google Authenticator, Microsoft Authenticator, and other Authenticator apps. To set up this integration, go to your password entry and click the Add Two-Factor Code button under the Custom Fields and File or Photo options. You can then upload a QR code or manually set up a connection to your account to authenticate via a time-based one-time password app.
 
-::: good
-![Figure: Good example - Google authenticator 2FA enabled and saved in Keeper](2022-11-21_10-30-59.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Google authenticator 2FA enabled and saved in Keeper",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/using-mfa/2022-11-21_10-30-59.jpg"
+/>

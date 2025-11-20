@@ -9,6 +9,8 @@ authors:
 created: 2023-06-01T05:47:23.494Z
 guid: 5cba4063-1c91-482d-a4da-26b02c82b289
 ---
+<introEmbed
+  body={<>
 There are lots of ways to retrieve data in SQL Server. In the old days, SQL Server Enterprise Manager was the way to go.
 
 These days, it has been replaced by several other tools:
@@ -16,9 +18,8 @@ These days, it has been replaced by several other tools:
 * [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16&WT.mc_id=DP-MVP-33518)
 * [Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=redhat-install%2Credhat-uninstall&WT.mc_id=DP-MVP-33518)
 * [VS Code MSSQL Extension](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
-
-<!--endintro-->
-
+  </>}
+/>
 ## SQL Server Management Studio (SSMS)
 
 ### Pros
@@ -67,26 +68,53 @@ These days, it has been replaced by several other tools:
 
 ❌ Not as feature-rich as SSMS or Azure Data Studio when it comes to SQL Server specific tasks.
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - SQL Server Enterprise Manager is old and outdated",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/query-data-tools/enterprise_manager.png"
+/>
 
-![Figure: Bad Example - SQL Server Enterprise Manager is old and outdated](enterprise_manager.png)
 
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - SSMS is feature rich",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/query-data-tools/ssms.png"
+/>
 
-::: good
 
-![Figure: Good Example - SSMS is feature rich](ssms.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - Azure Data Studio is lightweight and cross-platform",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/query-data-tools/azuredatastudio.png"
+/>
 
-:::
 
-::: good
-
-![Figure: Good Example - Azure Data Studio is lightweight and cross-platform](azuredatastudio.png)
-
-:::
-
-::: good
-
-![Figure: Good Example - The VS Code MSSQL extension is embedded right in VS Code](vscodemssqlextension.png)
-
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - The VS Code MSSQL extension is embedded right in VS Code",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/query-data-tools/vscodemssqlextension.png"
+/>

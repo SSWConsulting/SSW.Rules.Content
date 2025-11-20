@@ -6,14 +6,21 @@ uri: label-your-assets
 authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
-created: 2021-10-14T22:48:34.119Z
+created: 2021-11-09T01:04:20.812Z
 guid: e8684026-a7b7-4404-a513-9b8b39c55791
+lastUpdated: 2021-11-09T01:04:20.812Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
+<introEmbed
+  body={<>
 Most companies have physical assets and it is crucial to keep track of those assets: Are they in a particular location? Who are the assets with? Are they assigned somewhere else?
-
-<!--endintro-->
-
+  </>}
+/>
 Businesses generally need to provide their employees with a multitude of assets. E.g.:
 
 1. Keyboards
@@ -24,9 +31,18 @@ Businesses generally need to provide their employees with a multitude of assets.
 
 Keeping track of those assets is essential for the business to have any control over them, and having a spreadsheet with values for the assets and all that is not the best approach.
 
-::: bad
-![Figure: Bad example - Asset Tracking on spreadsheets is bad](asset-tracking.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Asset Tracking on spreadsheets is bad",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/label-your-assets/asset-tracking.jpg"
+/>
+
 
 In our day and age, we have better (and free!) systems that allow us to track the businesses' assets, including:
 
@@ -50,10 +66,28 @@ There is a couple of exceptions to the above:
 1. When the items are physically small and can't have a tag on them you shouldn't put one on.
 2. When the items are too cheap they don't need to be individually tagged, having the total number + the number of items checked out to people is enough.
 
-::: good
-![Figure: Good example - A professional label printed with the important asset info e.g. ID, name and serial number](qr-code-v2.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A professional label printed with the important asset info e.g. ID, name and serial number",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/label-your-assets/qr-code-v2.jpg"
+/>
 
-::: info
-A good system that does all this is [SnipeIT](https://snipeitapp.com). It has a nice interface, easy to use, maintain and upgrade. SnipeIT also generates labels for you, wiht an API to integrate with your current systems. It is free if you host it yourself!
-:::
+
+
+<asideEmbed
+  variant="info"
+  body={<>
+    A good system that does all this is [SnipeIT](https://snipeitapp.com). It has a nice interface, easy to use, maintain and upgrade. SnipeIT also generates labels for you, wiht an API to integrate with your current systems. It is free if you host it yourself!
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

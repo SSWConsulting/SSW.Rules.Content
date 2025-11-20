@@ -1,35 +1,37 @@
 ---
-seoDescription: Create a migration plan by targeting multiple target frameworks (TFMs) to avoid introducing breaking changes while migrating from .NET Framework to .NET.
-type: rule
-title: Do you create a migration plan?
-uri: migration-plans
 authors:
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Yazhi Chen
-    url: https://www.ssw.com.au/people/yazhi-chen
-  - title: Thomas Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski/
-  - title: Jernej Kavka
-    url: https://www.ssw.com.au/people/jernej-kavka
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related:
-  - dotnet-upgrade-assistant
-  - migrate-from-system-web-to-modern-alternatives
-  - use-banned-api-analyzers
-created: 2023-09-06T23:08:53.979Z
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Yazhi Chen
+  url: https://www.ssw.com.au/people/yazhi-chen
+- title: Thomas Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski/
+- title: Jernej Kavka
+  url: https://www.ssw.com.au/people/jernej-kavka
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+created: 2023-09-06 23:08:53.979000+00:00
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
 redirects:
-  - do-you-create-a-migration-plan
+- do-you-create-a-migration-plan
+related:
+- rule: public/uploads/rules/dotnet-upgrade-assistant/rule.mdx
+- rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+- rule: public/uploads/rules/use-banned-api-analyzers/rule.mdx
+seoDescription: Create a migration plan by targeting multiple target frameworks (TFMs)
+  to avoid introducing breaking changes while migrating from .NET Framework to .NET.
+title: Do you create a migration plan?
+type: rule
+uri: migration-plans
 ---
 
+<introEmbed
+  body={<>
 Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app _before_ you start breaking things! So how do you ensure your migration is being done the right way?
-
-<!--endintro-->
-
+  </>}
+/>
 ## Preparation
 
 The migration to a newer version of .NET is the perfect opportunity for you to take stock of your current application architecture, and address any technical debt your app has accumulated. Trying to migrate an application that's poorly architected or carrying a lot of tech debt will make your migration **exponentially harder**. Therefore, now is the time to perform a full audit of your app and ensure you have PBIs to rectify these problems before you consider it "migration-ready".
@@ -44,7 +46,19 @@ If your app has 3rd party dependencies (e.g. with a financial system, reporting 
 
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
 
-![Figure: Install necessary .NET 8 runtimes](related-runtimes.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Install necessary .NET 8 runtimes",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/migration-plans/related-runtimes.png"
+/>
+
 
 ## Breaking changes
 
@@ -52,7 +66,7 @@ Once you've addressed any technical debt or architectural concerns, you can star
 
 ### Identify Unavailable Technologies and Obsolete APIs
 
-Several technologies available in .NET Framework are no longer supported in modern .NET (6+). These include APIs like AppDomains, .NET Remoting, and Code Access Security (CAS). Identifying these early helps you avoid unexpected blockers later in your migration.  
+Several technologies available in .NET Framework are no longer supported in modern .NET (6+). These include APIs like AppDomains, .NET Remoting, and Code Access Security (CAS). Identifying these early helps you avoid unexpected blockers later in your migration.
 See Microsoft's documentation: [.NET Framework technologies unavailable on .NET](https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable?WT.mc_id=DT-MVP-33518)
 
 For a complete list of obsolete APIs, broken down by .NET version, check out:
@@ -61,16 +75,29 @@ For a complete list of obsolete APIs, broken down by .NET version, check out:
 Finding usages of these legacy or obsolete APIs gives you a strong sense of the blast radius of your migration and highlights areas where modern replacements will be needed. This is also the perfect time to begin banning deprecated APIs to avoid regression.
 Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
 
-::: greybox
-**Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Upgrade the csproj files
 
 The first thing you want to do is update your projects' `csproj` files to the new SDK-style format. This greatly simplifies the contents of the file, and will allow you to easily target multiple versions of .NET framework monikors simultaneously (more on this below).
 
-::: greybox
-**Tip:** You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format.
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format.
 
 Install the tool using:
 
@@ -85,9 +112,28 @@ try-convert --keep-current-tfms
 ```
 
 **Note:** For Web applications, we'll update at a later stage based on [migrating Web Apps to .NET](/migrating-web-apps-to-dotnet/).
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-![Figure: The differences between the legacy csproj file and the new SDK csproj file](legacy-vs-sdk.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "The differences between the legacy csproj file and the new SDK csproj file",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/migration-plans/legacy-vs-sdk.png"
+/>
+
 
 ### Target multiple Target Framework Monikers (TFM)
 
@@ -98,8 +144,11 @@ Targeting both your current .NET Framework version _and_ your future .NET versio
 * Expose any build errors you receive when trying to build for .NET
 * Expose any build errors you receive when trying to build for .NET Framework
 
-::: greybox
-Why is this important?
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Why is this important?
 
 Imagine you _don't_ do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
 
@@ -115,7 +164,14 @@ While you were fixing those build errors, you wrote code that isn't compatible w
 Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, _without_ introducing breaking changes in .NET Framework.
 
 This allows you up to work on your migration PBIs **incrementally**, while still allowing you to deploy your app on the current .NET version - win/win!
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
 
@@ -123,7 +179,19 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
 
-![Figure: Bad and good examples when targeting multiple target frameworks](good-example-vs-bad-example-tfms.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Bad and good examples when targeting multiple target frameworks",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png"
+/>
+
 
 ### Watch for SYSLIB diagnostic warnings
 

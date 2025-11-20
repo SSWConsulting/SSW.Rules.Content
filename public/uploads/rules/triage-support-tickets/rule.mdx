@@ -1,25 +1,39 @@
 ---
-seoDescription: Efficiently triage support tickets with a clear process and Zendesk views to streamline management.
-type: rule
-title: Do you triage your support tickets?
-uri: triage-support-tickets
 authors:
-  - title: Chris Schultz
-    url: https://www.ssw.com.au/people/chris-schultz/
-    img: ""
-related:
-  - turn-emails-into-pbis
-created: 2023-09-01T05:20:07.458Z
+- img: ''
+  title: Chris Schultz
+  url: https://www.ssw.com.au/people/chris-schultz/
+created: 2023-09-01 05:20:07.458000+00:00
 guid: 2ee8f44f-9455-4306-a947-6ed8f443b34a
+related:
+- rule: public/uploads/rules/turn-emails-into-pbis/rule.mdx
+seoDescription: Efficiently triage support tickets with a clear process and Zendesk
+  views to streamline management.
+title: Do you triage your support tickets?
+type: rule
+uri: triage-support-tickets
 ---
 
+<introEmbed
+  body={<>
 As a SysAdmin, triaging support tickets efficiently is crucial for streamlining the ticket management process. It is important to have a clear process for triaging tickets, including the fields that need to be populated when a ticket comes in.
-
-<!--endintro-->
-
+  </>}
+/>
 In Zendesk, you can create a view for triaging tickets - for example, create a view showing all unsolved tickets that have not been assigned to anyone.
 
-![Figure: Zendesk triage view configuration](zendesk-view.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Zendesk triage view configuration",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/triage-support-tickets/zendesk-view.png"
+/>
+
 
 ### To triage tickets
 
@@ -28,9 +42,19 @@ In Zendesk, you can create a view for triaging tickets - for example, create a v
 - If the ticket is addressed to an individual, the ticket should be assigned to that person.
 - If not, assess the ticket's technical requirements and identify the relevant subject matter expert.
 
-:::info
-It's OK to reassign the ticket if needed - but have a conversation first, and document the reason for the reassignment.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    It's OK to reassign the ticket if needed - but have a conversation first, and document the reason for the reassignment.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 2. Add a Category
 
@@ -53,4 +77,15 @@ It's OK to reassign the ticket if needed - but have a conversation first, and do
 
 You may choose to add other fields that are relevant to your environment.
 
-![Figure: Triaged tickets should have an assignee, category, product and priority.](zendesk-fields.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Triaged tickets should have an assignee, category, product and priority.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/triage-support-tickets/zendesk-fields.png"
+/>

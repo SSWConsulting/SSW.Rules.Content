@@ -1,20 +1,28 @@
 ---
-seoDescription: iSCSI and Cluster networks should be isolated on their own VLAN or even better, their own switch to ensure secure data transfer.
-type: rule
-archivedreason:
-title: Do you have the iSCSI and Cluster networks on their own VLAN (or even better their own switch)?
-guid: 880d650c-1182-48bf-b1c7-ffc9bc2ab055
-uri: do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-or-even-better-their-own-switch
-created: 2012-03-02T18:28:49.0000000Z
+archivedreason: null
 authors: []
-related: []
+created: 2012-03-02 18:31:21+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 880d650c-1182-48bf-b1c7-ffc9bc2ab055
+isArchived: false
+lastUpdated: 2013-04-20 12:30:25+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-(or-even-better-their-own-switch)
+- do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-(or-even-better-their-own-switch)
+seoDescription: iSCSI and Cluster networks should be isolated on their own VLAN or
+  even better, their own switch to ensure secure data transfer.
+title: Do you have the iSCSI and Cluster networks on their own VLAN (or even better
+  their own switch)?
+type: rule
+uri: do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-or-even-better-their-own-switch
 ---
 
+<introEmbed
+  body={<>
 Having the network flooded with a virus is bad news – but it will be worse news if iSCSI traffic is going across the same network. This is why you should have your iSCSI or SAN traffic on a different VLAN.
-
-<!--endintro-->
-
-![VLAN](switch-for-vlan.jpg)**Figure: A managed switch allows VLANing**
+  </>}
+/>
+![VLAN](/uploads/rules/do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-or-even-better-their-own-switch/switch-for-vlan.jpg)**Figure: A managed switch allows VLANing**
 Note: An even better and more expensive solution is purchase a separate Switch for each network (this example means 3 network adapters = 3 networks)

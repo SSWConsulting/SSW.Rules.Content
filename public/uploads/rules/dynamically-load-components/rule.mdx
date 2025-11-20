@@ -1,24 +1,26 @@
 ---
-seoDescription: Learn how to use dynamic imports in Next.js to optimize your web app's performance by lazy loading large components when needed.
-type: rule
-archivedreason:
-title: Do you know when to use dynamic imports in Next.js?
-guid: 9cc784b6-b0a2-4892-863f-2d697017de9e
-uri: dynamically-load-components
-created: 2023-07-14T02:13:28Z
+archivedreason: null
 authors:
-  - title: Harry Ross
-    url: https://www.ssw.com.au/people/harry-ross
+- title: Harry Ross
+  url: https://www.ssw.com.au/people/harry-ross
+created: 2023-07-14 02:13:28+00:00
+guid: 9cc784b6-b0a2-4892-863f-2d697017de9e
 related:
-  - use-nextjs
-  - manage-bundle-size
-  - improve-performance-with-lazy-loading-of-media-assets
+- rule: public/uploads/rules/why-nextjs-is-great/rule.mdx
+- rule: public/uploads/rules/manage-bundle-size/rule.mdx
+- rule: public/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/rule.mdx
+seoDescription: Learn how to use dynamic imports in Next.js to optimize your web app's
+  performance by lazy loading large components when needed.
+title: Do you know when to use dynamic imports in Next.js?
+type: rule
+uri: dynamically-load-components
 ---
 
+<introEmbed
+  body={<>
 Components with large imports loaded in on runtime may result in a much worse UX for users of your web app. Next.js can help with this by using [dynamic imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) to only load these large components when they are rendered on the page.
-
-<!--endintro-->
-
+  </>}
+/>
 When using the Next.js pages router, we can use `next/dynamic` to lazy load components, based on React's [`React.lazy`](https://react.dev/reference/react/lazy) and [`Suspense`](https://react.dev/reference/react/Suspense).
 
 ```jsx

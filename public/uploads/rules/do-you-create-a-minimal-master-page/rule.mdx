@@ -1,26 +1,34 @@
 ---
-seoDescription: Learn how to create a minimal master page in SharePoint for efficient and easy-to-style web pages.
-type: rule
-title: Do you create a minimal master page?
-uri: do-you-create-a-minimal-master-page
+archivedreason: This rule should be archived as no one really creates masterpages
+  anymore - classic pages using Master Pages are considered old.
 authors:
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-  - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
-related: []
-redirects: []
-created: 2009-06-18T06:46:53.000Z
-archivedreason: This rule should be archived as no one really creates masterpages anymore - classic pages using Master Pages are considered old.
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Jay Lin
+  url: https://ssw.com.au/people/jay-lin
+created: 2009-12-04 08:15:06+00:00
+createdBy: Jay Lin
+createdByEmail: JayLin@sydney.ssw.com.au
 guid: 591f621f-a7fb-4ff3-b86d-4ca3fbc085e1
+isArchived: false
+lastUpdated: 2015-10-08 00:13:09+00:00
+lastUpdatedBy: William Yin
+lastUpdatedByEmail: WilliamYin@ssw.com.au
+redirects: []
+seoDescription: Learn how to create a minimal master page in SharePoint for efficient
+  and easy-to-style web pages.
+title: Do you create a minimal master page?
+type: rule
+uri: do-you-create-a-minimal-master-page
 ---
 
+<introEmbed
+  body={<>
 To create a master page or reuse an existing master page is a time-consuming process. Because you have to determine what the Office SharePoint Server 2007 page model requires — necessary content placeholders and controls to work with the page layouts.
 
-Another problem of Default.master is that it contains many tables that are difficult to style.  
-
-<!--endintro-->
-
+Another problem of Default.master is that it contains many tables that are difficult to style.
+  </>}
+/>
 ``` cs
 <%@Master language="C#">
 ...
@@ -30,14 +38,16 @@ Another problem of Default.master is that it contains many tables that are di
 ...
 </HEAD>
 <BODY scroll="yes” ... >
-<form runat="server" onsubmit="return _spFormOnSubmitWrapper();"><WebPartPages:SPWebPartManager id="m" runat="Server"/><table class="ms-main" CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%" HEIGHT="100%"> <tr> <td> <asp:ContentPlaceHolder id="PlaceHolderGlobalNavigation" runat="server"> <table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%"> ... </table> </asp:ContentPlaceHolder> </td> </tr> <tr> ... </tr> <tr> <td id="onetIdTopNavBarContainer" WIDTH=100% class="ms-bannerContainer"> <asp:ContentPlaceHolder id="PlaceHolderTopNavBar" runat="server"> ... </asp:ContentPlaceHolder> </td> </tr> <tr height="100%"> <td> <table width="100%" height="100%" cellspacing="0" cellpadding="0"> ... </table> </td> </tr> </table> <asp:ContentPlaceHolder id="PlaceHolderFormDigest" runat="server"> ... </asp:ContentPlaceHolder> ... </form> <asp:ContentPlaceHolder id="PlaceHolderUtilityContent" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderTitleAreaClass" runat="server"/> 
+<form runat="server" onsubmit="return _spFormOnSubmitWrapper();"><WebPartPages:SPWebPartManager id="m" runat="Server"/><table class="ms-main" CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%" HEIGHT="100%"> <tr> <td> <asp:ContentPlaceHolder id="PlaceHolderGlobalNavigation" runat="server"> <table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH="100%"> ... </table> </asp:ContentPlaceHolder> </td> </tr> <tr> ... </tr> <tr> <td id="onetIdTopNavBarContainer" WIDTH=100% class="ms-bannerContainer"> <asp:ContentPlaceHolder id="PlaceHolderTopNavBar" runat="server"> ... </asp:ContentPlaceHolder> </td> </tr> <tr height="100%"> <td> <table width="100%" height="100%" cellspacing="0" cellpadding="0"> ... </table> </td> </tr> </table> <asp:ContentPlaceHolder id="PlaceHolderFormDigest" runat="server"> ... </asp:ContentPlaceHolder> ... </form> <asp:ContentPlaceHolder id="PlaceHolderUtilityContent" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server"/> <asp:ContentPlaceHolder id="PlaceHolderTitleAreaClass" runat="server"/>
 </BODY>
 </HTML>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - using default master page",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - using default master page
-:::
 
 So we recommend using the minimal master page which includes the necessary placeholders.
 
@@ -53,11 +63,11 @@ To create a minimal master page
 Learn more on [creating a minimal master page in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-create-a-minimal-master-page-in-sharepoint).
 
 ``` cs
-<%@ Master language="C#" %> ... <html>     
-<WebPartPages:SPWebPartManager runat="server"/>     
-<SharePoint:RobotsMetaTag runat="server"/>     
-<head runat="server">         
-<asp:ContentPlaceHolder runat="server" id="head">             
+<%@ Master language="C#" %> ... <html>
+<WebPartPages:SPWebPartManager runat="server"/>
+<SharePoint:RobotsMetaTag runat="server"/>
+<head runat="server">
+<asp:ContentPlaceHolder runat="server" id="head">
 <title><asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server" /></title>
 </asp:ContentPlaceHolder>
 <Sharepoint:CssLink runat="server"/>
@@ -79,9 +89,11 @@ Learn more on [creating a minimal master page in SharePoint](https://learn.micro
 </body>
 </html>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Using minimal master page",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example - Using minimal master page
-:::
 
 7. On the File menu, click Save As, provide a unique file name with the .master extension, and then save the file to the master page gallery (/\_catalogs/masterpage) in your site collection.

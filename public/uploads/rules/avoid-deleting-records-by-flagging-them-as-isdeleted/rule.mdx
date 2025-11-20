@@ -1,25 +1,32 @@
 ---
-seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft Delete) and instead keep historical data intact.
-type: rule
-title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka
-  Soft Delete)?
-uri: avoid-deleting-records-by-flagging-them-as-isdeleted
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
-  - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-(aka-soft-delete)
-created: 2019-11-25T19:14:13.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-11-25 19:14:13+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 56fff82d-9ed7-4aee-ab22-68e4c61fe162
+isArchived: false
+lastUpdated: 2020-05-21 05:38:31+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+redirects:
+- data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
+- data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-(aka-soft-delete)
+seoDescription: Avoid deleting records by flagging them as IsDeleted (aka Soft Delete)
+  and instead keep historical data intact.
+title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka Soft
+  Delete)?
+type: rule
+uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 ---
 
+<introEmbed
+  body={<>
 When users are deleting a lot of records as part of normal operations - they can and do make mistakes. Instead of the painful process of having to go to a backup to get these records, why not simply flag the records as IsDeleted?
-
-<!--endintro-->
-
+  </>}
+/>
 ### ✅ Advantages
 
 * You do not have to delete all related records e.g. Customers, Orders, Order Details. Instead, you can just flag the parent record as deleted with an "IsDeleted" bit field.
@@ -76,9 +83,19 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
 }
 ```
 
-::: greybox
-**Note:** Make sure the entites that require soft delete has implemented the ISoftDeleteEntity interface for them to be captured into this interceptor.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** Make sure the entites that require soft delete has implemented the ISoftDeleteEntity interface for them to be captured into this interceptor.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 4. Registering the Interceptor
 
@@ -96,11 +113,20 @@ This integrates the interceptor with the EF Core context, this will ensure to ru
 
 Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for alternatives to this approach using 3rd party auditing tools.
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 Watch William Liebenberg's SpendOps talk for more details about why soft deletes are advantageous in Azure:
 
 * SSW TV: [Real-life SpendOps with Azure Cosmos DB](https://www.youtube.com/watch?v=qfPQR8XlwFo)
 * NDC: [Azure SpendOps – The Art of Effectively Managing Azure Costs](https://www.youtube.com/watch?v=zxSlKiWOOzw)
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

@@ -1,22 +1,25 @@
 ---
-seoDescription: Learn why and how to use .gitignore to manage clean repositories. Understand key patterns and explore gitignore templates for different projects.
-type: rule
-title: Do you use a .gitignore file to keep your Git repository clean?
-uri: use-gitignore-for-clean-repo
 authors:
-  - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh/
-created: 2024-09-19T13:42:55.753Z
+- title: Ben Neoh
+  url: https://www.ssw.com.au/people/ben-neoh/
+created: 2024-09-19 13:42:55.753000+00:00
 guid: 1e89d2a8-3718-4920-934a-c28f1d4cb497
-related: 
-- do-you-know-the-benefits-of-using-source-control
 redirects:
-  - do-you-use-gitignore-for-your-repo
+- do-you-use-gitignore-for-your-repo
+related:
+- rule: public/uploads/rules/do-you-know-the-benefits-of-using-source-control/rule.mdx
+seoDescription: Learn why and how to use .gitignore to manage clean repositories.
+  Understand key patterns and explore gitignore templates for different projects.
+title: Do you use a .gitignore file to keep your Git repository clean?
+type: rule
+uri: use-gitignore-for-clean-repo
 ---
 
+<introEmbed
+  body={<>
 The .gitignore file tells Git which files to ignore and not track in your repository. Every Git project should have a .gitignore file to keep unnecessary files out of the repo. For example, cache files should not be included in the main repository.
-<!--endintro-->
-
+  </>}
+/>
 ### Why Use .gitignore?
 
 When working on projects, you often generate files that should not be committed to the version control system. These might include:
@@ -26,7 +29,7 @@ When working on projects, you often generate files that should not be committed 
 * Build outputs (e.g., bin/, obj/ folders for .NET projects)
 * Dependency caches (e.g., /node_module folder for javacript projects)
 * Personal IDE config (e.g., .vscode sometimes you might want to share IDE config intentionally)
-  
+
 A .gitignore file tells Git which files or folders to ignore. This keeps your repository clean and ensures that only important files are tracked, improving efficiency.
 
 ### Common Syntax Patterns for .gitignore
@@ -37,7 +40,7 @@ Here are some useful patterns you might need in a .gitignore file:
 
  "\*\*" - (e.g. \**/lib/name.file This pattern will ignore name.file in any lib/ directory within the repository, no matter its depth.)
 
- " /{{name}}/ " - (e.g. /build/ This will ignore the build/ directory only at the root level.)
+ " /&#123;&#123;name&#125;&#125;/ " - (e.g. /build/ This will ignore the build/ directory only at the root level.)
 
 For more details and advanced patterns, refer to the [w3schools Gitignore tutorial](https://www.w3schools.com/git/git_ignore.asp?remote=github).
 

@@ -10,10 +10,11 @@ created: 2024-06-13T13:42:55.753Z
 guid: C490FD8A-EF45-46A8-BF91-14B24AA40AD3
 ---
 
+<introEmbed
+  body={<>
 Encapsulating domain models is a critical aspect of domain-driven design (DDD) that helps maintain the integrity and consistency of your application's core logic. Without proper encapsulation, the domain logic can become scattered and difficult to manage, leading to increased complexity and maintenance challenges.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Why encapsulate domain models?
 
 When the domain model is not properly encapsulated, business rules and logic might be spread across various parts of the application, making it difficult to understand, maintain, and extend. Encapsulation ensures that the domain model is self-contained, with a clear and coherent structure.
@@ -50,32 +51,34 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Public setters, exposed collections, no constructor",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Public setters, exposed collections, no constructor
-:::
 
 ```csharp
     public class Order
     {
         public Guid Id { get; private set; }
-        
+
         public Guid CustomerId { get; private set; }
-    
+
         public OrderStatus OrderStatus { get; private set; }
-    
+
         public Customer Customer { get; private set; } = null!;
-    
+
         public decimal PaidTotal { get; private set; }
-    
+
         private readonly List<OrderItem> _items = [];
-    
+
         public IReadOnlyList<OrderItem> Items => _items.AsReadOnly();
-    
+
         public static Order Create(CustomerId customerId)
         {
             Guard.Against.Null(customerId);
-    
+
             var order = new Order()
             {
                 Id = new OrderId(Guid.NewGuid()),
@@ -83,12 +86,13 @@ Figure: Bad example - Public setters, exposed collections, no constructor
                 OrderStatus = OrderStatus.New,
                 PaidTotal = Money.Default
             };
-    
+
             return order;
         }
     }
 ```
-
-::: good
-Figure: Good example - Private setters, read-only collection, factory method
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Private setters, read-only collection, factory method",
+  shouldDisplay: true
+} } />

@@ -12,10 +12,11 @@ redirects:
   - when-to-use-entity-framework
 ---
 
+<introEmbed
+  body={<>
 Entity Framework allows you to provide a strongly typed object framework (ORM) over your database. This helps abstract the database away allowing it to be replaced with other technologies as needed.
-
-<!--endintro-->
-
+  </>}
+/>
 ```cs
 using (SqlConnection conn = new SqlConnection())
 {
@@ -28,10 +29,12 @@ using (SqlConnection conn = new SqlConnection())
     bindingSource1.DataSource = cmd.ExecuteReader();
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - using ADO.NET and not strongly typed",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - using ADO.NET and not strongly typed
-:::
 
 ```cs
 var results = dbContext.Customers
@@ -48,10 +51,12 @@ var results = dbContext.Customers
     });
 customersBindingSource.DataSource = results;
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - at least 4 good reasons below",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - at least 4 good reasons below
-:::
 
 1. Making queries that are independent from specific Database engine
 2. Strongly typed fields - SQL tables/entities have intellisense

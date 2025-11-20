@@ -1,30 +1,42 @@
 ---
-seoDescription: Learn how to use cloc to measure code line metrics including number file count, blank lines, comment lines, and physical lines of code across multiple programming languages.
-type: rule
-title: Do you know how to get code line metrics?
-uri: get-code-line-metrics
 authors:
-  - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao
-related:
-  - use-chatgpt-to-generate-charts
-redirects:
-  - do-you-know-how-to-get-code-line-metrics
-created: 2024-08-12T12:31:00.000Z
+- title: Luke Mao
+  url: https://www.ssw.com.au/people/luke-mao
+created: 2024-08-12 12:31:00+00:00
 guid: c72d02f4-8990-4f54-964f-17e558d833ae
+redirects:
+- do-you-know-how-to-get-code-line-metrics
+related:
+- rule: public/uploads/rules/use-chatgpt-to-generate-charts/rule.mdx
+seoDescription: Learn how to use cloc to measure code line metrics including number
+  file count, blank lines, comment lines, and physical lines of code across multiple
+  programming languages.
+title: Do you know how to get code line metrics?
+type: rule
+uri: get-code-line-metrics
 ---
 
+<introEmbed
+  body={<>
 When working on software projects, it’s important to keep track of your codebase's size and structure. Code line metrics help you understand the scope of the code, identify potential areas for refactoring, and maintain a healthy balance between files, blank line comments, and code. Without these metrics, your project can become difficult to manage, and you may struggle to track progress or maintain code quality.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Using cloc to measure code line metrics
 
 The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet powerful way to count the number of files, blank lines, comment lines, and physical lines of source code across various programming languages. Here’s how you can use it effectively:
 
-::: good
-![Figure: Good example - Running cloc on EagleEye project](eagleeye-cloc-result.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Running cloc on EagleEye project",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/get-code-line-metrics/eagleeye-cloc-result.png"
+/>
+
 
 ### Understand the output
 

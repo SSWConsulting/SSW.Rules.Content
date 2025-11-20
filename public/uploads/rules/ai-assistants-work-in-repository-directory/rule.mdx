@@ -1,46 +1,68 @@
 ---
-type: rule
-tips: ""
-title: Do you configure AI assistants to keep all working files inside the
-  repository directory?
-seoDescription: Learn how to configure AI coding assistants to keep all work
-  within repository boundaries. This standard ensures temporary files, scripts,
-  and AI-generated content remain visible and properly managed within your
-  project.
-uri: ai-assistants-work-in-repository-directory
 authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-related:
-  - keep-task-summaries-from-ai-assisted-development
-created: 2025-10-16T17:01:00.000Z
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Lewis Toh
+  url: https://ssw.com.au/people/lewis-toh
+created: 2025-10-16 17:01:00+00:00
 guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
+related:
+- rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
+seoDescription: Learn how to configure AI coding assistants to keep all work within
+  repository boundaries. This standard ensures temporary files, scripts, and AI-generated
+  content remain visible and properly managed within your project.
+tips: ''
+title: Do you configure AI assistants to keep all working files inside the repository
+  directory?
+type: rule
+uri: ai-assistants-work-in-repository-directory
 ---
 
+<introEmbed
+  body={<>
 When AI assistants (e.g. GitHub Copilot, Claude, ChatGPT) perform development tasks, they sometimes create temporary files, scripts, or intermediate outputs. By default, they might use system temp directories like `/tmp`, `/var/tmp`, or the user's home directory. This creates several problems: files become hard to find, they're outside version control, and cleanup becomes unpredictable.
 
 Configuring AI assistants to work exclusively within the repository boundaries ensures all work is visible, properly managed, and easy to clean up.
+  </>}
+/>
 
-<!--endintro-->
+<asideEmbed
+  variant="info"
+  body={<>
+    Note: This rule applies to **temporary or working files** created during AI-assisted tasks. See [Do you keep task summaries from AI-assisted development?](/keep-task-summaries-from-ai-assisted-development) if you want to store files permanently from AI output (e.g. documentation)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-:::info
-Note: This rule applies to **temporary or working files** created during AI-assisted tasks. See [Do you keep task summaries from AI-assisted development?](/keep-task-summaries-from-ai-assisted-development) if you want to store files permanently from AI output (e.g. documentation)
-:::
 
 ### The Problem with System Directories
 
 When AI assistants use **system temp directories**, you lose visibility:
 
-::: greybox
-* `/tmp/ai-test-12345.sh`
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    * `/tmp/ai-test-12345.sh`
 * `/var/tmp/analysis-output.json`
 * `~/ai-workspace/temp-queries.sql`
-:::
-::: bad
-Bad Example - Files scattered across the system are hard to find, review, and clean up
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad Example - Files scattered across the system are hard to find, review, and clean up",
+  shouldDisplay: true
+} } />
+
 
 ### Issues with External Files
 
@@ -95,10 +117,12 @@ Ensure your `.gitignore` includes the temporary directory:
 # Temporary work files from AI assistants
 /tmp/
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good Example - Clear structure for temporary files that stays within the repository",
+  shouldDisplay: true
+} } />
 
-::: good
-Good Example - Clear structure for temporary files that stays within the repository
-:::
 
 ## Benefits
 
@@ -112,8 +136,11 @@ This approach provides:
 
 ### Example Workflow
 
-::: greybox
-**Task:** Generate a database migration script
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Task:** Generate a database migration script
 ```bash
 # AI assistant creates work files in repository
 /work/
@@ -132,10 +159,19 @@ $ cat tmp/test-queries.sql
 $ rm -rf tmp/*
 ```
 
-:::
-::: good
-Good Example - All temporary files are in one predictable location within the repository
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good Example - All temporary files are in one predictable location within the repository",
+  shouldDisplay: true
+} } />
+
 
 ## Conclusion
 

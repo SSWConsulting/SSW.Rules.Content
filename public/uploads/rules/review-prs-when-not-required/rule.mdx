@@ -1,28 +1,31 @@
 ---
-seoDescription: As a repository maintainer, it's essential to review pull requests even when not required, as it fosters learning, improves code quality, and enhances team collaboration.
-type: rule
-title: Do you review pull requests even when you're not a required reviewer?
-guid: 2e3f7d09-8004-4de5-a393-b8341e123534
-uri: review-prs-when-not-required
-created: 2023-10-06T00:00:00.0000000Z
 authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related:
-  - use-branch-protection
-  - checked-by-xxx
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+created: 2023-10-06 00:00:00+00:00
+guid: 2e3f7d09-8004-4de5-a393-b8341e123534
 redirects:
-  - still-review-pull-requests-when-you-are-not-a-required-viewer
+- still-review-pull-requests-when-you-are-not-a-required-viewer
+related:
+- rule: public/uploads/rules/use-branch-protection/rule.mdx
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+seoDescription: As a repository maintainer, it's essential to review pull requests
+  even when not required, as it fosters learning, improves code quality, and enhances
+  team collaboration.
+title: Do you review pull requests even when you're not a required reviewer?
+type: rule
+uri: review-prs-when-not-required
 ---
 
+<introEmbed
+  body={<>
 As a repository maintainer you would generally setup a branch policy which may include a certain number of reviewers before a pull request can be completed, this could also include that certain reviewers are required instead of this being wide open to just anybody. This is a great way to ensure that code is reviewed before it is merged into the main branch.
 
 However, this does not mean that you should not review pull requests that you are not required to review.
-
-<!--endintro-->
-
+  </>}
+/>
 Let's take a look at some of the benefits of reviewing pull requests, even if you are not a required reviewer.
 
 As a junior developer, you may not feel comfortable reviewing a senior developer's code, but you should. You may not be able to provide any feedback around standards and best practices, but you can ask questions. This is a great way to learn and understand why the senior developer did something a certain way.

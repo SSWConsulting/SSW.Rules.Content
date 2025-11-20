@@ -1,23 +1,26 @@
 ---
-seoDescription: Do you know how to use code migrations? Manage database schemas effectively with Entity Framework Code First Migrations. Update a production database schema without recreating it from scratch.
-type: rule
-title: Do you know to use code migrations?
-uri: use-code-migrations
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-  - tools-database-schema-changes
-created: 2021-12-13T17:27:38.786Z
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+created: 2021-12-13 17:27:38.786000+00:00
 guid: 8284cedd-8eea-4e3b-b04b-451896a615c0
+related:
+- rule: public/uploads/rules/tools-database-schema-changes/rule.mdx
+seoDescription: Do you know how to use code migrations? Manage database schemas effectively
+  with Entity Framework Code First Migrations. Update a production database schema
+  without recreating it from scratch.
+title: Do you know to use code migrations?
+type: rule
+uri: use-code-migrations
 ---
 
+<introEmbed
+  body={<>
 Most enterprise applications require a database to store data. Once you have a database you need a way to manage the schema.
 
 Entity Framework Code First Migrations allow you to update a database schema rather than recreate it from scratch. This is useful when you have a production database that you want to keep, but you want to make changes to the schema.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Database Schema Management Options
 
 Managing database schemas effectively is crucial for the smooth operation and evolution of software applications. For more options to manage database schemas, see [the best tools for updating database schemas](/tools-database-schema-changes/).
@@ -80,9 +83,18 @@ dotnet ef database update
 
 If you struggle to remember the commands above, Rider has a great UI that makes creating migrations easy. This is especially useful when you have different projects for both startup and migrations.
 
-::: img-large  
-![Rider - EF Core Migrations](rider-ef-core.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Rider - EF Core Migrations",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-code-migrations/rider-ef-core.png"
+/>
+
 
 ## Executing Entity Framework Code First Migrations
 
@@ -92,10 +104,12 @@ Once you have some migration, you'll then need to decide when these get run. Nai
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Running migrations manually during startup in `program.cs`",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Running migrations manually during startup in `program.cs`
-:::
 
 ### Entity Framework Migration Bundles
 
@@ -105,11 +119,22 @@ A place to run migrations is during your CICD deployment pipeline.
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Creating and executing a migration bundle during a CICD pipeline",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Creating and executing a migration bundle during a CICD pipeline
-:::
 
-::: info  
-If an `appsettings.json` file can be found the connection string can be automatically picked up.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    If an `appsettings.json` file can be found the connection string can be automatically picked up.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

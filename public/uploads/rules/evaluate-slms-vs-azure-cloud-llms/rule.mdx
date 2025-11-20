@@ -10,22 +10,38 @@ created: 2024-10-03T16:15:00.000Z
 guid: e9b7c5bc-cb35-4876-9785-d2031fb4f69e
 ---
 
+<introEmbed
+  body={<>
 When using [Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?WT.mc_id=AZ-MVP-33518), you often choose between Small Language Models (SLMs) and powerful cloud-based Large Language Models (LLMs), like [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/?WT.mc_id=AZ-MVP-33518). While Azure OpenAI offer significant capabilities, they can also be expensive. In many cases, SLMs like [Phi-3](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/?msockid=08740f8c07f1631f3aeb1dfc061c62cc&WT.mc_id=AZ-MVP-33518), can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure OpenAI services is essential for balancing cost and performance.
+  </>}
+/>
 
-<!--endintro-->
-::: greybox
-A startup builds a simple FAQ chatbot that answers repetitive customer service questions like “What are your business hours?” or “How do I reset my password?” They choose to implement Azure OpenAI services, leading to high operational costs. An SLM could have provided the same answers without the extra expense.
-:::
-::: bad
-Figure: Bad example - Using Azure OpenAI services for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    A startup builds a simple FAQ chatbot that answers repetitive customer service questions like “What are your business hours?” or “How do I reset my password?” They choose to implement Azure OpenAI services, leading to high operational costs. An SLM could have provided the same answers without the extra expense.
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Using Azure OpenAI services for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective",
+    shouldDisplay: true
+  }}
+/>
 
-::: greybox
-A financial services company needs to develop a chatbot to guide customers through complex mortgage applications, requiring the chatbot to understand intricate details and provide personalized advice. After evaluating both, they use Azure OpenAI GPT-4o due to its better handling of complex queries and personalized responses, which an SLM could not manage effectively.
-:::
-::: good
-Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after evaluation provides better customer service and justifies the higher cost
-:::
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    A financial services company needs to develop a chatbot to guide customers through complex mortgage applications, requiring the chatbot to understand intricate details and provide personalized advice. After evaluating both, they use Azure OpenAI GPT-4o due to its better handling of complex queries and personalized responses, which an SLM could not manage effectively.
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Choosing Azure OpenAI GPT-4o for complex tasks after evaluation provides better customer service and justifies the higher cost",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Why evaluate SLMs?
 

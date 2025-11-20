@@ -1,26 +1,25 @@
 ---
-type: rule
-title: Do you know how to handle redirects?
-seoDescription: Upgrade your website seamlessly with efficient redirects using
-  Cloudflare Workers or Azure Front Door to preserve SEO and traffic during the
-  migration.
-uri: handle-redirects
-authors:
-  - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
-related:
-  - use-a-cdn
-  - use-301-redirect-on-renamed-or-moved-pages
-created: 2024-06-14T06:32:40.000Z
 archivedreason: null
+authors:
+- title: Aman Kumar
+  url: https://ssw.com.au/people/aman-kumar
+created: 2024-06-14 06:32:40+00:00
 guid: 746cfdd5-68d6-4080-b4c8-af73daa2769e
-
+related:
+- rule: public/uploads/rules/use-a-cdn/rule.mdx
+- rule: public/uploads/rules/use-301-redirect-on-renamed-or-moved-pages/rule.mdx
+seoDescription: Upgrade your website seamlessly with efficient redirects using Cloudflare
+  Workers or Azure Front Door to preserve SEO and traffic during the migration.
+title: Do you know how to handle redirects?
+type: rule
+uri: handle-redirects
 ---
 
+<introEmbed
+  body={<>
 Whether you’re rebranding, migrating your website to a new technology stack, or simply retiring old content, understanding when and how to implement redirects is crucial to preserve your SEO and avoid potential 404 errors.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Choosing the right redirect method
 
 Redirects play a key role in guiding users and search engines to the correct content, especially when URLs change or pages are moved. However, not all redirect methods are created equal—each serves a different purpose and can have varying impacts on SEO, user experience, and site performance. Understanding the differences between methods is essential to making informed decisions that align with your website’s goals.
@@ -44,10 +43,12 @@ A client side redirect involves responding to the client request with a payload 
 ``` html
 <meta http-equiv="refresh" content="0; url=https://www.northwind.com">
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - A client-side redirect achieved by returning a meta refresh",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - A client-side redirect achieved by returning a meta refresh
-:::
 
 ### 2. Server-side redirects
 
@@ -90,10 +91,12 @@ const redirects = {
   //you can add more redirects here if you need to
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Server-side redirects using middleware in Next JS",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Server-side redirects using middleware in Next JS
-:::
 
 ### 3. CDN level (global)
 

@@ -13,12 +13,13 @@ created: 2025-06-19T10:42:00.000Z
 guid: 466a7efa-d3a2-456e-86b0-f4174d343ec0
 ---
 
+<introEmbed
+  body={<>
 Most companies do great work for clients — but fail to share it. Meanwhile, marketing teams struggle to produce content that feels real, useful, or relevant. The problem? They're not close enough to the work.
 
 By running quarterly marketing meetings with your account managers, you create a feedback loop that surfaces the most impressive client stories. Even better, by bringing in the developers who built the solution, you can turn those stories into rich, technical case studies that educate, impress, and convert.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Why this matters
 
 Account managers know *what* was built and *why* it mattered to the client. Developers know *how* it was built, including the tough decisions, technical constraints, and clever solutions. Marketing needs both sides of the story to craft high-quality content that:
@@ -39,15 +40,22 @@ These meetings should happen every quarter and follow a simple format.
 
 ### Agenda
 
-::: greybox
-1. Account managers each share 1–2 recent client wins or cool solutions delivered
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    1. Account managers each share 1–2 recent client wins or cool solutions delivered
 2. Marketing asks follow-up questions to assess if a story is "case study worthy"
 3. Identify the key developers involved and invite them to a follow-up deep dive
 4. Capture next steps (e.g. interview scheduled, quote approval, screenshots)
-:::
-::: good
-Figure: Good example – Structured agenda that gets client stories flowing and leads to actionable next steps
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – Structured agenda that gets client stories flowing and leads to actionable next steps",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Pro Tip: Look for stories with these elements
 
@@ -73,4 +81,3 @@ Once a good story is identified, don't let it fade. Assign a content owner to:
 - Sales has powerful proof to share with prospects
 
 By setting up these quarterly meetings, you make case studies part of your company rhythm — not just a wishlist item.
-

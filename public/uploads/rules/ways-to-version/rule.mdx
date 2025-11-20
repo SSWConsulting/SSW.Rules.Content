@@ -1,21 +1,23 @@
 ---
-seoDescription: Discover two common software versioning methods - Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs.
-type: rule
-title: Do you know the different ways to version?
-uri: ways-to-version
 authors:
-  - title: Bryden Oliver
-    url: https://www.ssw.com.au/people/bryden-oliver
-related:
-  - semantic-versioning
-created: 2022-02-02T23:56:48.795Z
+- title: Bryden Oliver
+  url: https://www.ssw.com.au/people/bryden-oliver
+created: 2022-02-02 23:56:48.795000+00:00
 guid: a50fc8ba-3ce8-42c4-b16f-ccc74cd5821b
+related:
+- rule: public/uploads/rules/semantic-versioning/rule.mdx
+seoDescription: Discover two common software versioning methods - Simple Versioning
+  and Semantic Versioning. Learn when to use each for your project's unique needs.
+title: Do you know the different ways to version?
+type: rule
+uri: ways-to-version
 ---
 
+<introEmbed
+  body={<>
 There are 2 very common types of software versioning. Knowing when it is appropriate to use each is important.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Simple Versioning
 
 Simple Versioning is using a single incrementing sequence of integers to denote a version. This is an easy versioning scheme to automate, and the most common example of this is to quote the build number as the version. This means any user of the system can quote a version that developers can easily identify when reporting issues.
@@ -28,7 +30,19 @@ If the Microsoft Office user also wants the hairy details, Microsoft also gives 
 
 Use this on websites and applications, it is generally found in the **Help | About** area. It is especially great on custom client projects where the whole project is all built together and a build is deployed. This is a quick and easy reference for your users.
 
-![Figure: Microsoft Word uses Simple Versioning](wordversion.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Microsoft Word uses Simple Versioning",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/ways-to-version/wordversion.png"
+/>
+
 
 ## Semantic Versioning
 
@@ -36,7 +50,18 @@ Semantic Versioning has a multi part version (e.g. 2.1.0). Changes in each of th
 
 **When to use?**
 
-Use Semantic Versioning if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.  
+Use Semantic Versioning if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
 Read more about [Semantic Versioning](/semantic-versioning).
 
-![Figure: Nuget packages use Semantic Versioning (as do APIs)](semanticversion.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Nuget packages use Semantic Versioning (as do APIs)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/ways-to-version/semanticversion.png"
+/>

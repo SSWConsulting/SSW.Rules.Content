@@ -21,10 +21,11 @@ authors:
 created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
+<introEmbed
+  body={<>
 When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture will allow your software application will scale too meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Popular architectures
 
 Here are some of the popular architectures and factors to consider when deciding the best fit for your project:
@@ -61,7 +62,19 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
 ## Architecture decision tree
 
-![Figure: Architecture Decision Tree](architecture-decision-tree-v3.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Architecture Decision Tree",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/software-architecture-decision-tree/architecture-decision-tree-v3.jpg"
+/>
+
 
 It's important to keep in mind that these architectures are not mutually exclusive.
 
@@ -90,32 +103,62 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 
 Here are some practical scenarios to illustrate the decision-making process:
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 ### Scenario 1: Startup with uncertain requirements
 
 You are building an MVP with a small team and expect the requirements to evolve rapidly.
 
 ✅ **Choice: Clean Architecture or Vertical Slice Architecture** - These architectures offer flexibility and are easier to refactor as requirements change.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-::: greybox
 
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 ### Scenario 2: Medium-sized business with limited DevOps maturity
 
 You have a mid-sized team, and your organization is still developing its DevOps practices.
 
 ✅ **Choice: Modular Monolith** - A Modular Monolith provides some modularity benefits without the full complexity of Microservices, making it easier to manage with limited DevOps capabilities.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-::: greybox
 
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 ### Scenario 3: Large enterprise with multiple domains and teams
 
 You are developing a large-scale application with multiple business domains and have several teams working in parallel.
 
 ✅ **Choice: Microservices** - Microservices allow independent development, deployment, and scaling, which suits large and complex applications.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 By carefully considering these factors and understanding the strengths and limitations of each architectural style, you can choose the best architecture for your system, ensuring a balance between flexibility, scalability, and maintainability.
 

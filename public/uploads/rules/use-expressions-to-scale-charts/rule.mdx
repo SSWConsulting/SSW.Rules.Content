@@ -1,26 +1,39 @@
 ---
-seoDescription: Data Layout - Use expressions to show the correct scale on charts, ensuring accurate visualization of data in Reporting Services 2005.
-type: rule
-archivedreason:
-title: Data Layout - Do you use expressions to show the correct scale on charts?
-guid: c74b30a3-3593-4b32-a996-6dd96256ab07
-uri: use-expressions-to-scale-charts
-created: 2023-12-11T14:38:33.0000000Z
+archivedreason: null
 authors:
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+created: 2023-12-11 14:38:33+00:00
+guid: c74b30a3-3593-4b32-a996-6dd96256ab07
 redirects: []
+related:
+- rule: public/uploads/rules/customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using/rule.mdx
+seoDescription: Data Layout - Use expressions to show the correct scale on charts,
+  ensuring accurate visualization of data in Reporting Services 2005.
+title: Data Layout - Do you use expressions to show the correct scale on charts?
+type: rule
+uri: use-expressions-to-scale-charts
 ---
 
-<!--endintro-->
+<introEmbed
+  body={<>
 
+  </>}
+/>
 In Reporting Services 2005 you can use an expression to specify the scale of your charts. If you do not specify a maximum value for your y axis, the bar charts become inaccurate, as you can see in this figure.
 
-::: bad  
-![Figure: Bad example - With no scale value set, the charts do not display based on the correct scale](RSRulesChartBad.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - With no scale value set, the charts do not display based on the correct scale",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChartBad.gif"
+/>
+
 
 Here's how to set the scale.
 
@@ -28,7 +41,19 @@ Here's how to set the scale.
 
 2. At the bottom of the column with the chart, set the textbox value to =Max(Fields!MyTotal.Value), where "MyTotal" is the Data field you're using in the chart.
 
-![Figure: Add a new row to your table and set the max value](RSRulesChart01.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Add a new row to your table and set the max value",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart01.gif"
+/>
+
 
 3. Set the textbox's Name property to MaxMyTotal (e.g. MaxCount)
 
@@ -38,7 +63,19 @@ Here's how to set the scale.
 
 6. Set the Maximum value to the value of the textbox, i.e. "=ReportItems!MaxMyTotal.Value"
 
-![Figure: Set the maximum value to the value of the textbox](RSRulesChart02.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Set the maximum value to the value of the textbox",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart02.gif"
+/>
+
 
 7. If you expect to have negative values in the chart (e.g. when comparing 2 values), set the Minimum to -1 multiplied by the max value, i.e. "=-1 \* ReportItems!MaxMyTotal.Value". Otherwise set it to 0 (zero).
 
@@ -52,12 +89,30 @@ Where "Change" is the name of your data field. This sets the color of the bar to
 
 9. Click OK and preview the report. The chart will now be using the maximum value across all the charts.
 
-::: good  
-![Figure: Good example - The scale is now correct](RSRulesChart03.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - The scale is now correct",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-expressions-to-scale-charts/RSRulesChart03.gif"
+/>
 
-::: greybox
-This way is tedious and a "hack". We think that the scale should be automatically set with an option to customize it via an expression. See our suggestion about this on [Microsoft SQL Reporting Services Suggestions](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/ReportingServices.aspx#ChartExpressions).
 
-Updated - fixed by Microsoft, see <https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16&WT.mc_id=DP-MVP-33518>
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    This way is tedious and a "hack". We think that the scale should be automatically set with an option to customize it via an expression. See our suggestion about this on [Microsoft SQL Reporting Services Suggestions](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/ReportingServices.aspx#ChartExpressions).
+
+Updated - fixed by Microsoft, see [https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16&WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/sql/reporting-services/report-design/set-a-minimum-or-maximum-on-a-gauge-report-builder-and-ssrs?view=sql-server-ver16&WT.mc_id=DP-MVP-33518)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

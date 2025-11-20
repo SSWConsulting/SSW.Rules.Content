@@ -10,12 +10,13 @@ created: 2022-05-23T23:41:13.679Z
 guid: a2379859-dc7f-499a-88a7-d6961ac0da07
 ---
 
+<introEmbed
+  body={<>
 Email templates are an important way to communicate standard emails that should be sent. Usually, these emails need to be sent to a specific person. It is easy to fall into the trap of addressing the templates to that person. This method leads to problems because when that person needs to change, there could be hundreds of locations to change and those locations may not be visible.
 
 So, what are the solutions?
-
-<!--endintro-->
-
+  </>}
+/>
 ### Point to a role
 
 Instead of an individual, it is better to address the name of a role. For example, if the person is in charge of the product then you might call them "The Product Champion". This title, means that if the responsible person changes then it is a matter of changing who "The Product Champion" is rather than updating that person everywhere in your system.
@@ -38,14 +39,40 @@ If the group will be used in the "Cc" field of an email, then try to end it with
 
 To make sure distribution groups are always up-to-date it is also important to have a regular script that runs to check for empty distribution groups that need updates.
 
-::: bad
-![Figure: Bad example - Someone is directly addressed](badexamplepiersaddresseddirectlyredbox.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Someone is directly addressed",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/template-distribution-groups/badexamplepiersaddresseddirectlyredbox.png"
+/>
 
-::: ok
-![Figure: OK example - A moniker is used](okayexampleproductchampionmonikerusedredbox.png)
-:::
 
-::: good
-![Figure: Good example - A distribution group is used](goodexampleproductchampiondistributiongroupusedredbox.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - A moniker is used",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/template-distribution-groups/okayexampleproductchampionmonikerusedredbox.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A distribution group is used",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/template-distribution-groups/goodexampleproductchampiondistributiongroupusedredbox.png"
+/>

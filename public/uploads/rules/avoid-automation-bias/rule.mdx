@@ -1,28 +1,30 @@
 ---
-type: rule
-tips: ""
-title: Do you avoid Automation Bias?
-seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
-uri: avoid-automation-bias
 authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
-related:
-  - manage-security-risks-when-adopting-ai-solutions
-  - manage-legal-implications-of-ai
-  - mitigate-brand-risks-ai
-  - use-ai-responsibly
-  - checked-by-xxx
-created: 2025-09-16T14:29:00.000Z
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz
+created: 2025-09-16 14:29:00+00:00
 guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
+related:
+- rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+- rule: public/uploads/rules/manage-legal-implications-of-ai/rule.mdx
+- rule: public/uploads/rules/mitigate-brand-risks-ai/rule.mdx
+- rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+seoDescription: Did you know that AI has the potential to make your work worse? Learn
+  the common pitfalls so that AI can help, not hinder.
+tips: ''
+title: Do you avoid Automation Bias?
+type: rule
+uri: avoid-automation-bias
 ---
 
+<introEmbed
+  body={<>
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
 Automation bias describes the impairment of judgement due to a deferred sense of accountability: _"It was the AI's mistake!"_
-
-<!--endintro-->
-
+  </>}
+/>
 Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a **brain** problem, not a **model** problem (not to be mistaken with **model bias**).
 
 Automation bias is not just an AI problem, it's an issue wherever a human has used a machine to automate a task.
@@ -70,68 +72,140 @@ This isn't prescriptive, just a pattern to be aware of.
 
 #### Show error rates clearly
 
-Replace vague disclaimers with bold numbers where possible:  
+Replace vague disclaimers with bold numbers where possible:
 
-::: greybox
-AI sometimes makes mistakes, ensure you check its output.
-:::
-::: bad
-Highly vague warning, most people will ignore it
-:::
 
-::: greybox
-Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
-:::
-::: good
-More specific warning, people are more likely to take it seriously
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    AI sometimes makes mistakes, ensure you check its output.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Highly vague warning, most people will ignore it",
+  shouldDisplay: true
+} } />
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "More specific warning, people are more likely to take it seriously",
+  shouldDisplay: true
+} } />
+
 
 #### Four Eyes Principle (with real relationships)
 
-::: greybox
-"Random Person: Hey, can you review this code I wrote with Copilot?"
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Random Person: Hey, can you review this code I wrote with Copilot?"
 
 Bob: I don't know you well, and I have better things to do... approved.
-:::
-::: bad
-Random pair reviews, people don't know each other well, so they won't feel accountable
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Random pair reviews, people don't know each other well, so they won't feel accountable",
+  shouldDisplay: true
+} } />
 
-::: greybox
-Alice: Hey Bob, can you review this code I wrote with Copilot?
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Alice: Hey Bob, can you review this code I wrote with Copilot?
 
 Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
-:::
-::: good
-Pair reviews with people who know each other well, so they feel accountable
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Pair reviews with people who know each other well, so they feel accountable",
+  shouldDisplay: true
+} } />
+
 
 #### Information, not recommendation
 
 Ask AI to present information and sources before it asserts conclusions. Avoid instructive "do this" prompts.
 
-::: greybox
-"Write a summary of diabetes treatments"
-:::
-::: bad
-AI provides a summary, with not much context. People may take it at face value
-:::
 
-::: greybox
-I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?
-:::
-::: good
-AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Write a summary of diabetes treatments"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "AI provides a summary, with not much context. People may take it at face value",
+  shouldDisplay: true
+} } />
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output",
+  shouldDisplay: true
+} } />
+
 
 ##### Four directing questions (readiness gate before prompting)
 
 Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
-* **Who is this for?**  
-* **What problem are we solving right now?**  
-* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
-* **What information/context do you already have, and what’s missing?**  
+* **Who is this for?**
+* **What problem are we solving right now?**
+* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**
+* **What information/context do you already have, and what’s missing?**
 
 ## Why this matters now
 

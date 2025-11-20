@@ -1,16 +1,19 @@
 ---
-seoDescription: "Migrate Web.config settings to ASP.NET Core with ease. Learn how to transition appSettings, connection strings, and custom configurations to modern JSON files like appsettings.json while leveraging IConfiguration for seamless integration."
-type: rule
-title: Do you know how to migrate Web.config to ASP.NET Core?
-uri: know-how-to-migrate-web-config-to-asp-net-core
 authors:
-  - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
-related:
-  - store-your-secrets-securely
-created: 2023-07-31T22:49:30.966Z
+- title: Nick Curran
+  url: https://ssw.com.au/people/nick-curran
+created: 2023-07-31 22:49:30.966000+00:00
 guid: d7ecd82c-da04-4f8e-bf79-9bb6002769e9
+related:
+- rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+seoDescription: Migrate Web.config settings to ASP.NET Core with ease. Learn how to
+  transition appSettings, connection strings, and custom configurations to modern
+  JSON files like appsettings.json while leveraging IConfiguration for seamless integration.
+title: Do you know how to migrate Web.config to ASP.NET Core?
+type: rule
+uri: know-how-to-migrate-web-config-to-asp-net-core
 ---
+
 The [`Web.Config`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/create-web-config?WT.mc_id=DT-MVP-33518) file was used in ASP.NET to control the behaviour of individual ASP.NET applications and configure IIS. By default, modern ASP.NET Core applications use the Kestrel web server which is [configured in code](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/options?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518). Unless you are deploying your application using IIS, you will need to migrate your `Web.Config` file.
 
 The `Web.Config` file contains data about the package inclusions, module inclusions and configuration values.

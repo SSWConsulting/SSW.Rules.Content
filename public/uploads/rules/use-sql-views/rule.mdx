@@ -1,25 +1,33 @@
 ---
-seoDescription: Do you use SQL Views? Discover how SQL views simplify access to database result sets, provide more security options, and reduce data duplication. Learn how to create and modify views for improved database management.
-type: rule
-archivedreason:
-title: Views - Do you use SQL Views?
-guid: a4615006-2250-4e3f-badf-b9822dfec450
-uri: use-sql-views
-created: 2020-03-20T01:05:11.0000000Z
+archivedreason: null
 authors:
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-  - title: Isaac Lu
-    url: https://ssw.com.au/people/isaac-lu
-related: []
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+- title: Isaac Lu
+  url: https://ssw.com.au/people/isaac-lu
+created: 2020-03-20 01:05:11+00:00
+createdBy: Christian Morford-Waite
+createdByEmail: ChristianMWaite@ssw.com.au
+guid: a4615006-2250-4e3f-badf-b9822dfec450
+isArchived: false
+lastUpdated: 2020-03-20 04:40:30+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - views-do-you-use-sql-views
+- views-do-you-use-sql-views
+seoDescription: Do you use SQL Views? Discover how SQL views simplify access to database
+  result sets, provide more security options, and reduce data duplication. Learn how
+  to create and modify views for improved database management.
+title: Views - Do you use SQL Views?
+type: rule
+uri: use-sql-views
 ---
 
+<introEmbed
+  body={<>
 A view is a virtual table produced from executing a stored query on the database. Views don’t store any data as they retrieve the result set through a query. Users can interact with views similarly as they would with a normal table when retrieving data however limitations do exist when writing back to the result-set. Views can be used to simplify access to database result sets and provide more security options to administrators when granting access. More information can be found at [CREATE VIEW (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15&WT.mc_id=DP-MVP-33518)
-
-<!--endintro-->
-
+  </>}
+/>
 ## ✅ Advantages
 
 **1. Simplicity**
@@ -93,14 +101,35 @@ WHERE Id IN ( SELECT Id FROM  vwProductsByCategory WHERE CategoryName = @Categor
 
 So your business has an employees table as shown below that has detailed information about their name, birthdate, home phone, address and photo. This information is suitable for the payroll department but what you want to display employees names and photos on the website for public viewing. Or what If you want contact information such as extension number and country to be available on the company intranet?
 
-![Figure: Northwind traders employees table](ViewsSqlEmployeesTable.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Northwind traders employees table",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-sql-views/ViewsSqlEmployeesTable.png"
+/>
+
 
 You could create separate tables for each department, only supplying the required fields for each.
 This would also need an additional system to sync between the tables to ensure the information was kept up to date.
 
-::: bad
-![Figure: Bad example – Using tables and duplicating data](ViewsSqlTables.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – Using tables and duplicating data",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-sql-views/ViewsSqlTables.png"
+/>
+
 
 ```sql
 CREATE VIEW  vwIntranetEmployees AS
@@ -111,9 +140,11 @@ CREATE VIEW  vwWebsiteProfiles AS
 SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Photo, PhotoPath
 FROM Employees;
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Using views from the base table containing the source data",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example – Using views from the base table containing the source data
-:::
 
 Creating views of the employee table allows you to update the data in one source location such as payroll and all other departments will see the changes. It prevents the problem of stale data and allows more control over access to the data.

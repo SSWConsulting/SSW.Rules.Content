@@ -1,27 +1,28 @@
 ---
-seoDescription: Blazor code sharing enables C# model libraries to be shared between client and server, reducing development effort and maintenance needs.
-type: rule
-title: Do you share common types and logic in Blazor?
-uri: share-common-types-and-logic
-authors:
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: []
-redirects:
-  - do-you-share-common-types-and-logic
-created: 2021-09-07T00:00:00.000Z
 archivedreason: null
+authors:
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+created: 2021-09-07 00:00:00+00:00
 guid: cd07d952-b9ac-4f8e-a819-693288fd45f1
+redirects:
+- do-you-share-common-types-and-logic
+seoDescription: Blazor code sharing enables C# model libraries to be shared between
+  client and server, reducing development effort and maintenance needs.
+title: Do you share common types and logic in Blazor?
+type: rule
+uri: share-common-types-and-logic
 ---
 
+<introEmbed
+  body={<>
 Due to Blazor using C#, your client and server can share the same model library - sharing behavior and data.
 
 This will reduce the amount of code you need to write, and make it easier to maintain.
-
-<!--endintro-->
-
+  </>}
+/>
 To share your classes between the client and server, just create a class library and reference it in your client and server projects.
 
 See [Blazor Code Sharing Example](https://github.com/bradystroud/BlazorCodeSharingExample) as an example.

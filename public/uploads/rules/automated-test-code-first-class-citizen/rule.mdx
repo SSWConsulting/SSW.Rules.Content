@@ -10,15 +10,28 @@ created: 2022-11-17T23:31:19.187Z
 guid: c3bb3017-1e8f-44d5-98c6-3a714cfb6f2b
 ---
 
+<introEmbed
+  body={<>
 Good quality automated tests can help your development to continue more quickly and with more safety.
 
 Gating deployments on the successful outcomes of your automated test suites can prevent you from automatically pushing bad code into production.
 
 Depending on your automated tests to make deployment/release decisions means that your test code **must** be excellent quality.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Don't make excuses for writing poor quality test code",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/automated-test-code-first-class-citizen/important-find-a-way.jpg"
+/>
 
-![Figure: Don't make excuses for writing poor quality test code](important-find-a-way.jpg)
 
 You're writing (automated test) code because you, legitimately, have doubts about other (product) code, so this automated test code is as important as the production code - and maybe even more important!
 

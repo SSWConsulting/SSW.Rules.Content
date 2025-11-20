@@ -1,33 +1,46 @@
 ---
-type: rule
-title: On-page - Do you use meta tags?
-seoDescription: Use meta tags, including concise 150-160 character-long meta descriptions that includes primary keywords and reflects user intent.
-uri: html-meta-tags
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
-  - title: Caleb Williams
-    url: https://www.ssw.com.au/people/caleb-williams
-related: []
-redirects:
-  - do-you-use-meta-description-and-meta-keywords-tags
-  - use-meta-keywords-and-description-tags
-created: 2015-11-09T19:11:28.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Camilla Rosa Silva
+  url: https://ssw.com.au/people/camilla-rosa-silva
+- title: Caleb Williams
+  url: https://www.ssw.com.au/people/caleb-williams
+created: 2015-11-09 19:11:28+00:00
 guid: 3bcee6c3-13c6-45a7-8379-236a7cf44030
+redirects:
+- do-you-use-meta-description-and-meta-keywords-tags
+- use-meta-keywords-and-description-tags
+seoDescription: Use meta tags, including concise 150-160 character-long meta descriptions
+  that includes primary keywords and reflects user intent.
+title: On-page - Do you use meta tags?
+type: rule
+uri: html-meta-tags
 ---
 
+<introEmbed
+  body={<>
 One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML `<meta>` tags](https://www.w3schools.com/tags/tag_meta.asp).
 
 Years ago, many webmasters took this as an opportunity to abuse the `<meta>` tags and the search engines found that the quality of search results was suffering. Today, search engines don't give the &lt;meta&gt; tags weight - Google announced in September of 2009 that neither **meta descriptions** nor **meta keywords** affects Google's ranking algorithms for web searches.
 
 However, it's still beneficial to complete this quick and easy task.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "An SEO expert hard at work",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/html-meta-tags/seo_expert.jpg"
+/>
 
-![Figure: An SEO expert hard at work](seo_expert.jpg)
 
 There are a few `<meta>` tags you should use, and these are the most common:
 
@@ -43,13 +56,31 @@ There are a few `<meta>` tags you should use, and these are the most common:
 
 To ensure your meta tags are present and well formatted, we have a useful program called [SSW Code Auditor](https://codeauditor.com).
 
-::: bad
-![Figure: Bad example - Website with a missing meta description tag](dorybadmetadescription.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Website with a missing meta description tag",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/html-meta-tags/dorybadmetadescription.jpg"
+/>
 
-::: good
-![Figure: Good example - SSW Dory's website has a meta description tag](metadescriptionsswdory.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - SSW Dory's website has a meta description tag",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/html-meta-tags/metadescriptionsswdory.jpg"
+/>
+
 
 ## Rectifying the missing meta tags issue
 
@@ -57,8 +88,9 @@ This issue is common for users publishing content with a CMS. In this case we ge
 
 You could also get creative and pass the drafted content of your page into a custom GPT with instructions to create a summary of the content suitable for a meta title or meta description.
 
-`youtube: https://www.youtube.com/embed/PW65iMKp-hY`
-**Video: Improving SEO across thousands of pages in minutes | Caleb Williams (7 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/PW65iMKp-hY" description={"Video: Improving SEO across thousands of pages in minutes | Caleb Williams (7 min)"} />
+
 
 For more information about creating custom GPTs read the rule on [creating custom GPTs](/create-gpts/).
 
@@ -75,16 +107,18 @@ A snippet is an auto-generated summary of your web page. As the name would sugge
 
 <section data-nosnippet class="post-article">
     <p>
-    Did this article engage peak your interests as a dog lover? 
-    The University of Adelaide is conducting a study to investigate occurences of methemoglobinemia in Pomeranians. 
+    Did this article engage peak your interests as a dog lover?
+    The University of Adelaide is conducting a study to investigate occurences of methemoglobinemia in Pomeranians.
     To participate in the study click this <a>link</a>.
     </p>
 </section>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Using the nosnippet attribute to remove irrelevant content",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Using the nosnippet attribute to remove irrelevant content
-:::
 
 ## The duplicate content myth
 

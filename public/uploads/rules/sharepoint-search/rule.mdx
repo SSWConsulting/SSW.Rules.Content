@@ -1,37 +1,46 @@
 ---
-seoDescription: Learn how to optimize your SharePoint search experience with expert tips on using categories, filters, and advanced operators for better results
-type: rule
-title: Do you know how to use SharePoint search?
-uri: sharepoint-search
-authors:
-  - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jean Thirion
-    url: https://www.ssw.com.au/people/jean-thirion
-related:
-  - why-do-we-use-vm-for-sharepoint-development
-  - how-to-use-teams-search
-  - how-to-name-sharepoint-documents
-redirects:
-  - do-you-know-how-to-use-sharepoint-search
-created: 2015-01-20T12:18:03.000Z
 archivedreason: null
+authors:
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  title: Daniel Šmon
+  url: https://ssw.com.au/people/daniel-smon
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jean Thirion
+  url: https://www.ssw.com.au/people/jean-thirion
+created: 2015-09-10 23:18:51+00:00
+createdBy: William Yin
+createdByEmail: WilliamYin@ssw.com.au
 guid: 34637e83-ce1f-46db-896c-0a639ae0c28b
+isArchived: false
+lastUpdated: 2021-08-18 00:05:15.629000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-know-how-to-use-sharepoint-search
+related:
+- rule: public/uploads/rules/sharepoint-development-environment/rule.mdx
+- rule: public/uploads/rules/how-to-use-teams-search/rule.mdx
+- rule: public/uploads/rules/how-to-name-documents/rule.mdx
+seoDescription: Learn how to optimize your SharePoint search experience with expert
+  tips on using categories, filters, and advanced operators for better results
+title: Do you know how to use SharePoint search?
+type: rule
+uri: sharepoint-search
 ---
 
+<introEmbed
+  body={<>
 SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.
-
-<!--endintro-->
-
+  </>}
+/>
 Here are some tips for performing searches:
 
 ## How to navigate SharePoint search
 
-`youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
-**Video: Why SharePoint Search is Awesome! How to use SharePoint Search | Jean Thirion (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/Vh64ZEC0wcw" description={"Video: Why SharePoint Search is Awesome! How to use SharePoint Search | Jean Thirion (4 min)"} />
+
 
 * Use the categories (top)
 * Use the filters (right navigation / faceted search)
@@ -52,23 +61,55 @@ Example of properties you can use (common ones);
 
 **More:** [Keyword queries and search conditions for eDiscovery](https://learn.microsoft.com/en-us/purview/ediscovery-keyword-queries-and-search-conditions?WT.mc_id=M365-MVP-33518)
 
-![Figure: Example of using Filetype: filter](filter-sharepoint-example.png)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Example of using Filetype: filter",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/sharepoint-search/filter-sharepoint-example.png"
+/>
+
 
 ### Use Boolean OR and AND operators
 
 Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "sharepoint AND search".
 
-::: greybox
-**Note:** OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Use an [asterisk (\*)](http://en.wikipedia.org/wiki/Asterisk) wildcard for partial matches
 
 This can be useful if you know that certain words are used together, e.g. Fire\* will return results for FireBootCamp.
 
-::: greybox
-**Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*".
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*".
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Use double quotes to find specific phrases
 

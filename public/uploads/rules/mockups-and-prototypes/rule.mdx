@@ -1,35 +1,48 @@
 ---
-seoDescription: Learn when to use low-fidelity mockups vs high-fidelity prototypes in software design.
-type: rule
-title: Do you know when to create mockups and prototypes?
-uri: mockups-and-prototypes
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin
-  - title: Geordie Robinson
-    url: https://ssw.com.au/people/geordie-robinson
-related:
-  - storyboards
-  - generate-ui-mockups-with-ai
-redirects:
-  - visual-design-specifications
-created: 2023-09-04T07:37:31.732Z
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jayden Alchin
+  url: https://www.ssw.com.au/people/jayden-alchin
+- title: Geordie Robinson
+  url: https://ssw.com.au/people/geordie-robinson
+created: 2023-09-04 07:37:31.732000+00:00
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
+redirects:
+- visual-design-specifications
+related:
+- rule: public/uploads/rules/storyboards/rule.mdx
+- rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
+seoDescription: Learn when to use low-fidelity mockups vs high-fidelity prototypes
+  in software design.
+title: Do you know when to create mockups and prototypes?
+type: rule
+uri: mockups-and-prototypes
 ---
-:::  info
-**Note:** Some people might use the term storyboarding when they are actually talking about mockups or prototypes. For information on storyboarding, check [The Storyboarding Rule](/storyboards)
-:::
+
+<introEmbed
+  body={<>
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** Some people might use the term storyboarding when they are actually talking about mockups or prototypes. For information on storyboarding, check [The Storyboarding Rule](/storyboards)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Mockups and prototypes are both design artifacts used in the software development process, but they serve different purposes and have different levels of fidelity. Many user requirements can be best encapsulated in visual mockups/prototypes.
 
 A **design mockup** is typically created early in the design process to provide a rough visual overview of the user interface. They are static and do not include interactive elements or functionalities.
 
 Mockups can become interactive and functional representation, also know as **design prototype** over time. They are more advanced and closer to the final product, allowing for user testing, feedback, and iteration.
-
-<!--endintro-->
-
+  </>}
+/>
 There are 3 types of mockup or prototype, use depends on the specific goals and the stage of the project:
 
 1. **Low-fidelity Mockups (aka Wireframes)**
@@ -44,15 +57,33 @@ Creating a low-fidelity design mockup can be achieved through various methods in
 
 Start by identifying the key features and functionality that the product should have. This will help you focus your efforts and ensure that your mockup accurately represents your intended product.
 
-::: good
-![Figure: Good Example - A hand-drawn mockup. Nice and quick for early concept design](handdrawnui.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - A hand-drawn mockup. Nice and quick for early concept design",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/mockups-and-prototypes/handdrawnui.jpg"
+/>
+
 
 Then create a basic wireframe of your design. A wireframe is a visual representation of the layout and structure of your website or app. You can create digital wireframes using a variety of tools (see list below). Alternatively, you can use paper and pencil to sketch out a rough wireframe by hand. Add details to your wireframe by adding boxes and labels for different features and elements (e.g. buttons, input fields, and images).
 
-::: good
-![Figure: Good example – Example of wireframes (created in Figma)](figma_wireframe_app_screenshot.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – Example of wireframes (created in Figma)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/mockups-and-prototypes/figma_wireframe_app_screenshot.png"
+/>
+
 
 Once your low-fidelity design mockup has been approved, you can use it as a reference point for creating a high-fidelity mockup.
 
@@ -60,25 +91,55 @@ Once your low-fidelity design mockup has been approved, you can use it as a refe
 
 A high-fidelity mockup is a more detailed version of a design that includes visual design elements such as typography, colors, and images. It is created using specialized design tools and takes more time to create than a low-fidelity mockup.
 
-::: info
-**Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them.
-:::
 
-::: good
-![Figure: Good example – High fidelity mockup for SSW Rewards App - recommended as quick to update when changes are requested](high-fedelity-ui.png)
-:::
+<asideEmbed
+  variant="info"
+  body={<>
+    **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). This leads to too much mixing and matching when they see them.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – High fidelity mockup for SSW Rewards App - recommended as quick to update when changes are requested",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/mockups-and-prototypes/high-fedelity-ui.png"
+/>
+
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
-:::  info
-**Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## Interactive Prototypes
 
 To make a mockup more realistic and accurate to the end product, add interactivity to it. This includes consideration of how different elements will respond to user input, such as on-hover effects or the styling of visited links.
 
-`youtube: https://www.youtube.com/embed/-d6zNGeF59M`
+
+<youtubeEmbed url="https://www.youtube.com/embed/-d6zNGeF59M" description={""} />
+
 
 ## What are the best tools?
 
@@ -92,8 +153,11 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 
 ## Tips
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 Here are some more hot tips on using mockups for specification analysis:
 
 * It is best to have a designer, developer, and customer work together
@@ -102,4 +166,10 @@ Here are some more hot tips on using mockups for specification analysis:
 * If you can't get mockups initialed, then page by page approval over email is the 2nd best option
 * Write the related business rules at the bottom of each screen - to be turned into unit tests
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

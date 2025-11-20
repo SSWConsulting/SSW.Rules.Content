@@ -1,33 +1,44 @@
 ---
-seoDescription: Learn how to prioritize your tests using risk-based strategies to uncover critical issues early and reduce quality risks in software testing.
-type: rule
-title: Do you take a risk-based approach to test planning?
-uri: risk-based-testing
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - complete-testing-is-impossible
-created: 2022-10-13T23:36:34.812Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+created: 2022-10-13 23:36:34.812000+00:00
 guid: d252b9eb-0edc-40a1-80ca-b4eb13ad508a
-
+related:
+- rule: public/uploads/rules/complete-testing-is-impossible/rule.mdx
+seoDescription: Learn how to prioritize your tests using risk-based strategies to
+  uncover critical issues early and reduce quality risks in software testing.
+title: Do you take a risk-based approach to test planning?
+type: rule
+uri: risk-based-testing
 ---
 
+<introEmbed
+  body={<>
 We know that [complete testing is impossible](/complete-testing-is-impossible) so how do we decide which finite set of tests to perform out of the infinite cloud of possible tests for a story, feature or release?
 
 This problem can seem overwhelming, but focusing on risk is a good approach so let's look at risk-based testing.
-
-<!--endintro-->
-
+  </>}
+/>
 ## What is risk-based testing?
 
 Think of **risk** as the possibility of a negative or undesirable event or outcome; **a risk is a problem that *might* happen**.
 
 **Quality risk** is the possibility that the software might fail to deliver one or more of its key quality attributes, e.g. reliability, usability, performance, capability, etc.
 
-::: info
-**Risk-based testing** uses an **analysis of quality risks** to prioritize tests and allocate testing effort.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Risk-based testing** uses an **analysis of quality risks** to prioritize tests and allocate testing effort.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## How does a risk-based approach help with test planning?
 
@@ -54,12 +65,22 @@ Risk analysis workshops are a good way to involve different stakeholders in this
 * Begin with details about the situation and identify risks associated with them. With this approach, you study the software and repeatedly ask yourself "What could go wrong here?"
 * Begin with a set of potential risks and match them to the details of the situation. With this approach, you consult a predefined list of risks and determine whether they apply here and now. These risk lists could be in the form of a set of Quality Criteria categories, generic risk lists or risk catalogues.
 
-::: info
-**Tips:**
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tips:**
 
 * Start with a simple approach to your risk analysis, then become more advanced as your teams become more familiar with the risk-based approach
 * Try to gather diverse opinions about risk. Technical folks will likely identify different types of risk to business stakeholders, while testers will bring yet another perspective
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Order the risks
 

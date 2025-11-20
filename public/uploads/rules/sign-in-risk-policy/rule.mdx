@@ -1,21 +1,23 @@
 ---
-seoDescription: Azure AD's Sign-in risk policy protects users from malicious sign-ins by automatically blocking or requiring MFA based on determined risk levels.
-type: rule
-title: Do you have a Sign-in Risk Policy?
-uri: sign-in-risk-policy
 authors:
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related:
-  - user-risk-policy
-created: 2022-04-29T02:06:23.523Z
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+created: 2022-04-29 02:06:23.523000+00:00
 guid: 8faf35c0-b062-4223-9bd3-aec5373eafa6
+related:
+- rule: public/uploads/rules/user-risk-policy/rule.mdx
+seoDescription: Azure AD's Sign-in risk policy protects users from malicious sign-ins
+  by automatically blocking or requiring MFA based on determined risk levels.
+title: Do you have a Sign-in Risk Policy?
+type: rule
+uri: sign-in-risk-policy
 ---
 
+<introEmbed
+  body={<>
 Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.
-
-<!--endintro-->
-
+  </>}
+/>
 Azure AD has many built-in solutions to protect legitimate users from malicious actors trying to sign in to their accounts via Azure AD, one of them being Sign-in risk policy.
 
 This policy can either fully block access or require a multi-factor authentication (MFA) for the user to be able to login, depending on the the sign-in risk level (High, Medium and above or Low and above).
@@ -28,6 +30,6 @@ The level is determined automatically by a series of factors, including:
 
 When setting this up, you can also choose to apply this to all your users, selected individuals or groups, and exclude users.
 
-![Good Example - All users with a risk of Low and above will be prompted for MFA authentication](signinrisk.jpg)
+![Good Example - All users with a risk of Low and above will be prompted for MFA authentication](/uploads/rules/sign-in-risk-policy/signinrisk.jpg)
 
 You can read more on how to enable these policies on [Configure and enable risk policies](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies?WT.mc_id=ES-MVP-33518)

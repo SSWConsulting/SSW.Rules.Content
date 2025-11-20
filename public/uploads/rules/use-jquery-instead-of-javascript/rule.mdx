@@ -1,19 +1,27 @@
 ---
-seoDescription: Use jQuery's powerful and cross-browser compatible syntax to simplify your JavaScript coding and enhance user experience.
-type: rule
-title: Do you use jQuery instead of JavaScript?
-uri: use-jquery-instead-of-javascript
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-use-jquery-instead-of-javascript
-created: 2016-11-17T15:55:05.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2016-11-17 15:55:05+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 7ced5ecb-1893-4305-b85f-962c36a9c50b
+isArchived: false
+lastUpdated: 2016-11-17 15:58:31+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-use-jquery-instead-of-javascript
+seoDescription: Use jQuery's powerful and cross-browser compatible syntax to simplify
+  your JavaScript coding and enhance user experience.
+title: Do you use jQuery instead of JavaScript?
+type: rule
+uri: use-jquery-instead-of-javascript
 ---
 
+<introEmbed
+  body={<>
 jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why you should use jQuery.
 
 1. Cross Browsers (Edge, Firefox, Safari, Opera, Chrome)
@@ -22,25 +30,27 @@ jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why yo
    - Designer can learn it fast
    - More readable JavaScript code
 3. Plugins - Tons of useful plugins and functionalities
-
-<!--endintro-->
-
+  </>}
+/>
 ```js
 window.onload = function () {
   alert("Welcome");
 };
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Using JavaScript 'onload' event",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Using JavaScript 'onload' event
-:::
 
 ```js
 $(document).ready(function () {
   alert("Welcome!");
 });
 ```
-
-::: good
-Figure: Good example - Using jQuery document 'ready' event
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Using jQuery document 'ready' event",
+  shouldDisplay: true
+} } />

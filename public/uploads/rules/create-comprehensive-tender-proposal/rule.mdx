@@ -10,10 +10,11 @@ created: 2024-08-30T15:30:00.000Z
 guid: 8f7c4baf-91f7-4b5c-b8c4-8ed4bfe4f7d2
 ---
 
-Winning tenders often comes down to how well your proposal stands out against the competition. While content is king, the presentation can make a significant difference. A well-designed, visually appealing, and comprehensive proposal not only captures the attention of evaluators but also communicates professionalism and attention to detail. 
-
-<!--endintro-->
-
+<introEmbed
+  body={<>
+Winning tenders often comes down to how well your proposal stands out against the competition. While content is king, the presentation can make a significant difference. A well-designed, visually appealing, and comprehensive proposal not only captures the attention of evaluators but also communicates professionalism and attention to detail.
+  </>}
+/>
 ### 1. Design Matters: Make Your Proposal Visually Appealing
 
 When preparing a tender document, remember that first impressions count. A visually appealing document can:
@@ -36,13 +37,23 @@ Many tendering organizations, especially government and large corporations, want
 
 #### Example Section for Policy Inclusion:
 
-::: greybox
-**Policy and Governance**
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Policy and Governance**
 
 - Diversity and Inclusion Policy: SSW is committed to fostering a diverse and inclusive workplace.
 - Environmental Policy: SSW is ISO 14001 certified, ensuring sustainable practices in all projects.
 - Anti-Slavery Policy: We have a zero-tolerance approach to modern slavery and comply with Australian legislation.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 3. Detail Your Company’s Strengths, Methodologies, and Processes
 

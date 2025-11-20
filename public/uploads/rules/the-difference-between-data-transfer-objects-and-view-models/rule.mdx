@@ -1,28 +1,38 @@
 ---
-seoDescription: Data Transfer Objects (DTOs) and View Models (VMs) are often confused with one another. A DTO simply moves data between parts of an application, while a ViewModel provides functionality and state for a view, acting as glue between UI and service layers.
-type: rule
-archivedreason:
-title: Do you know the difference between data transfer objects and view models?
-guid: 3b46e163-56d5-43e5-a035-8dbbcaa40e48
-uri: the-difference-between-data-transfer-objects-and-view-models
-created: 2019-04-15T21:58:44.0000000Z
+archivedreason: null
 authors:
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related:
-  - use-mvvm-pattern
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+created: 2019-04-15 21:58:53+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 3b46e163-56d5-43e5-a035-8dbbcaa40e48
+isArchived: false
+lastUpdated: 2019-04-15 22:03:26+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-know-the-difference-between-data-transfer-objects-and-view-models
+- do-you-know-the-difference-between-data-transfer-objects-and-view-models
+related:
+- rule: public/uploads/rules/use-mvvm-pattern/rule.mdx
+seoDescription: Data Transfer Objects (DTOs) and View Models (VMs) are often confused
+  with one another. A DTO simply moves data between parts of an application, while
+  a ViewModel provides functionality and state for a view, acting as glue between
+  UI and service layers.
+title: Do you know the difference between data transfer objects and view models?
+type: rule
+uri: the-difference-between-data-transfer-objects-and-view-models
 ---
 
+<introEmbed
+  body={<>
 Data Transfer Objects (DTOs) and View Models (VMs) are similar concepts, but the terms are not interchangeable. To make matters more confusing the term `ViewModel` has a special meaning inside the [MVVM pattern](/use-mvvm-pattern).
 
 Do you understand the subtle difference between these terms?
-
-<!--endintro-->
-
+  </>}
+/>
 ## What is a DTO?
 
 A DTO is a type that is used to move data from one part of an application to another. This could be between a command and a service, or between an API and a UI. Typically, a DTO represents an entity or other resource.
@@ -48,10 +58,12 @@ public class CarDto
   }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)
-:::
 
 ```csharp
 public class CarDto
@@ -67,10 +79,12 @@ public class CarDto
   public int Year { get; set; }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - A DTO that encapsulates some data",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example - A DTO that encapsulates some data
-:::
 
 ## What is a view model?
 

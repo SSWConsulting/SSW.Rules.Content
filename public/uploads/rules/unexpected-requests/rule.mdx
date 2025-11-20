@@ -1,46 +1,47 @@
 ---
-type: rule
-title: Do you know how to handle unexpected requests in the middle of a Sprint?
-seoDescription: When unexpected requests arise during a Sprint, acknowledge the
-  request and prioritize it with the Product Owner. If it's not crucial, add the
-  new task to the backlog or remove an item of similar size from the current
-  Sprint.
-uri: unexpected-requests
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-related:
-  - give-emails-a-business-value
-redirects:
-  - are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)
-  - are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
-created: 2009-08-20T04:57:29.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+- title: Jonty Gardner
+  url: https://ssw.com.au/people/jonty-gardner
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+created: 2009-08-20 04:57:29+00:00
 guid: d98a0462-7682-4532-b440-5376d2d84a44
+redirects:
+- are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)
+- are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
+related:
+- rule: public/uploads/rules/give-emails-a-business-value/rule.mdx
+seoDescription: When unexpected requests arise during a Sprint, acknowledge the request
+  and prioritize it with the Product Owner. If it's not crucial, add the new task
+  to the backlog or remove an item of similar size from the current Sprint.
+title: Do you know how to handle unexpected requests in the middle of a Sprint?
+type: rule
+uri: unexpected-requests
 ---
 
+<introEmbed
+  body={<>
 To use Scrum correctly, all team members must understand the importance of Sprints, Sprint Planning, and capacity. Sprints are sacred - they give the team a clear goal, with a clear set of tasks and a timeframe to achieve it in.
 
 However, Product Owners or stakeholders can derail a Sprint by coming to the team with a new task that wasn't planned for. Maybe it's a new feature, or a critical bug, or just a time-sensitive item that appeared out of the blue.
 
 These interruptions may occur frequently - especially with clients or teams that aren't familiar with Scrum. Therefore it's important to teach the client how to treat the team.
+  </>}
+/>
 
-<!--endintro-->
+<youtubeEmbed url="https://www.youtube.com/embed/ua_y1TfdflM" description={"Video: The best way to handle requests from your boss (2 min 38 sec)"} />
 
-`youtube: https://www.youtube.com/embed/ua_y1TfdflM`  
-**Video: The best way to handle requests from your boss (2 min 38 sec)**
 
 If a Product Owner or stakeholder comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"). Then, you need to establish the priority.
 
@@ -56,36 +57,37 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 2. Add the new PBI to the current Sprint
 3. Remove another PBI of similar size from the Sprint and put it back in the backlog (with the team's consent)
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | {{ PRODUCT OWNER }} |
-| Subject: | SSW TV - Sprint 643 - PBI Substitutions |
-
-::: email-content
-
-### Hi {{ PRODUCT OWNER }}
+<emailEmbed
+  from=""
+  to="&#123;&#123; PRODUCT OWNER &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="SSW TV - Sprint 643 - PBI Substitutions"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
 
 As per our conversation, you have asked us to prioritise some urgent PBIs this Sprint:
 
 **Added:**
 
-* {{ PBI URL }}
-* {{ PBI URL }}
+* &#123;&#123; PBI URL &#125;&#125;
+* &#123;&#123; PBI URL &#125;&#125;
 
 **Removed:**
 
-* {{ PBI URL }}
+* &#123;&#123; PBI URL &#125;&#125;
 
 Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
 
-<This email is as per <https://www.ssw.com.au/rules/unexpected-requests> >
-
-:::
-:::
-::: good
-Figure: Good example - For urgent changes, you can substitute in some PBIs as long as you stay within capacity
-:::
+&lt;This email is as per [https://www.ssw.com.au/rules/unexpected-requests](https://www.ssw.com.au/rules/unexpected-requests) &gt;
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - For urgent changes, you can substitute in some PBIs as long as you stay within capacity",
+    shouldDisplay: true
+  }}
+/>
 
 ### Sprint Goal RIP?
 

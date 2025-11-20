@@ -1,22 +1,30 @@
 ---
-seoDescription: Optimize iOS test and release deployments by submitting your build to App Store Connect and Testflight simultaneously, ensuring a faster review cycle and minimizing delays.
-type: rule
-archivedreason:
-title: iOS - Do you know how to optimise your test and release deployments?
-guid: 528b9ccf-cb3e-4cf4-880b-1906c0c6694d
-uri: ios-do-you-know-how-to-optimise-your-test-and-release-deployments
-created: 2019-11-05T00:01:25.0000000Z
+archivedreason: null
 authors:
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related: []
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+created: 2019-11-05 00:01:29+00:00
+createdBy: Matt Goldman
+createdByEmail: MattGoldman@ssw.com.au
+guid: 528b9ccf-cb3e-4cf4-880b-1906c0c6694d
+isArchived: false
+lastUpdated: 2019-11-07 02:00:07+00:00
+lastUpdatedBy: Matt Goldman
+lastUpdatedByEmail: MattGoldman@ssw.com.au
 redirects: []
+seoDescription: Optimize iOS test and release deployments by submitting your build
+  to App Store Connect and Testflight simultaneously, ensuring a faster review cycle
+  and minimizing delays.
+title: iOS - Do you know how to optimise your test and release deployments?
+type: rule
+uri: ios-do-you-know-how-to-optimise-your-test-and-release-deployments
 ---
 
+<introEmbed
+  body={<>
 A common approach is to submit your app to Testflight, wait for user feedback, then submit for App Store release. The problem with this approach is that your release cycle can be significantly impacted by Apple's review schedule. App Store and Testflight reviews can be very quick, but can also take up to 3 weeks!
-
-<!--endintro-->
-
+  </>}
+/>
 A better process is to submit your build for Testflight and Release simultaneously.
 
 ### Steps:
@@ -32,16 +40,17 @@ A better process is to submit your build for Testflight and Release simultaneous
 **Tip for Mid-Sprint Releases** : If its an internal app, you can accelarate the Test Please process by asking someone with an iPhone to test straight away via Testflight.
 **Tip for End of Sprint Releases:** Get the Testflight and Release submissions approved in preparation for your Sprint Review. You can then demo your release to the Product Owner and be ready to release your Product Increment after the Sprint Review. 6. You can now release your app as soon as you are ready. In App Store Connect click Release to make your latest build publicly available in the App Store.
 
-![](bad-example-new.png)
+![](/uploads/rules/ios-do-you-know-how-to-optimise-your-test-and-release-deployments/bad-example-new.png)
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad Example - v1.7 is \"Waiting for Review\" in Testflight but only v1.6 is submitted to the App Store. This can introduce delays of 3 weeks.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad Example - v1.7 is "Waiting for Review" in Testflight but only v1.6 is submitted to the App Store. This can introduce delays of 3 weeks.
 
-:::
-
-![](good-example-new.png)
-
-::: good
-Figure: Good Example - v1.7 has been submitted to Testflight and App Store at the same time - also "Waiting for Review", but your build will be ready to release as soon as testing has passed
-
-:::
+![](/uploads/rules/ios-do-you-know-how-to-optimise-your-test-and-release-deployments/good-example-new.png)
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good Example - v1.7 has been submitted to Testflight and App Store at the same time - also \"Waiting for Review\", but your build will be ready to release as soon as testing has passed",
+  shouldDisplay: true
+} } />

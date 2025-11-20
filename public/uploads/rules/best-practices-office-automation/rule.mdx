@@ -10,10 +10,11 @@ created: 2024-12-18T15:00:00.000Z
 guid: d3ad5d9a-4b91-47de-80e5-3ff49cfd5996
 ---
 
+<introEmbed
+  body={<>
 When automating an office, it's essential to use the right tools and techniques for achieving seamless functionality and user satisfaction. The choice between drivers, programming, macros, or schedules depends on the task at hand, the level of flexibility required, and the system's complexity.
-
-<!--endintro-->
-
+  </>}
+/>
 ### Choose Drivers First for Core Functionality
 
 Drivers form the foundation of automation:
@@ -29,13 +30,20 @@ Control4's Composer programming allows intricate automation for advanced scenari
 - Use programing logic to personalize behaviors based on conditions, such as:
   - “If a security key is used to access the building, the alarm is deactivated, turn on reception lights and signage”
 
-::: greybox
-If-then programming scenario:
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    If-then programming scenario:
 - If there's no motion after 11 PM: Turn off all lights.
-:::
-::: good  
-Figure: Good example - Programming creates flexible automation for daily routines.
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Programming creates flexible automation for daily routines.",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Use Macros for Grouped Actions
 
@@ -71,4 +79,3 @@ For the best results:
 - **Using unsupported drivers:** These can break during Control4 OS updates, creating unanticipated downtime.
 
 By choosing the right combination of drivers, programming, macros, and schedules, you can design a robust and easily manageable automation system that enhances the office's usability and efficiency.
-

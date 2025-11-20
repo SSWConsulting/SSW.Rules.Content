@@ -11,17 +11,27 @@ guid: 97504e80-fe64-427b-9a66-2b6508689411
 
 ---
 
+<introEmbed
+  body={<>
 GitHub provides a way to link issues to PRs. This is useful to see what PRs are associated with what issues. However, when you make this link, the issue will close when the PR is merged.
 
 This is not a good idea because it can cause Issues to be closed prematurely. This can lead to confusion and lost work.
-
-<!--endintro-->
-
+  </>}
+/>
 Issues should not be closed until all the tasks are complete and have a done comment as per [closing PBIs with context](/close-pbis-with-context/).
 
-::: bad
-![Figure: Bad example - Linking Issues to PRs might cause premature closing](bad-link-issues-prs.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Linking Issues to PRs might cause premature closing",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-auto-closing-issues/bad-link-issues-prs.png"
+/>
+
 
 **Tip:** Avoid using closing keywords e.g. _"closes #123"_ or _"fixes #123"_ in PR descriptions. This will automatically link the issue to the PR and close it on PR merge.
 Instead, use terms like _"relates to #123"_ or _"addresses #123"_ to link the issue to the PR without closing it.

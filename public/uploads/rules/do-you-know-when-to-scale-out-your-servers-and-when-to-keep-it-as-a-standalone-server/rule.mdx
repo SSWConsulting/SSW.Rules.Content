@@ -1,18 +1,28 @@
 ---
-seoDescription: Scale servers effectively by using virtualized standalone servers for isolated performance and easy backup, or scale out for optimized processing and separate functionality.
-type: rule
-archivedreason:
-title: Do you know when to scale out your servers and when to keep it as a standalone server?
-guid: 0437a5be-2ea8-4d12-843f-b634706aee55
-uri: do-you-know-when-to-scale-out-your-servers-and-when-to-keep-it-as-a-standalone-server
-created: 2014-09-03T19:33:29.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2014-09-03 19:34:57+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 0437a5be-2ea8-4d12-843f-b634706aee55
+isArchived: false
+lastUpdated: 2014-09-03 19:34:57+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Scale servers effectively by using virtualized standalone servers
+  for isolated performance and easy backup, or scale out for optimized processing
+  and separate functionality.
+title: Do you know when to scale out your servers and when to keep it as a standalone
+  server?
+type: rule
+uri: do-you-know-when-to-scale-out-your-servers-and-when-to-keep-it-as-a-standalone-server
 ---
 
+<introEmbed
+  body={<>
 You should use virtualized standalone servers because:
 
 - If one server goes down it does not affect other servers (e.g. a centralized SQL server fails and brings down: CRM, TFS, Reports, Web Server)
@@ -22,5 +32,5 @@ You should use virtualized standalone servers because:
 However, you should scale out your servers if:
 
 - You want the best performance (e.g. A different server for SQL backend and Web frontend)
-
-<!--endintro-->
+  </>}
+/>

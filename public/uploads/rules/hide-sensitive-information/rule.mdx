@@ -1,26 +1,43 @@
 ---
-seoDescription: Professional documentation requires discretion. Hide sensitive information like client names from public view to maintain confidentiality and trust.
-type: rule
-archivedreason:
-title: Do you hide sensitive information?
-guid: 293e828e-4d75-46b8-aa95-54d97717c6f2
-uri: hide-sensitive-information
-created: 2021-05-21T19:30:38.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2021-05-21 00:04:23.507000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 293e828e-4d75-46b8-aa95-54d97717c6f2
+isArchived: false
+lastUpdated: 2021-05-26 22:22:43.981000+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 related:
-  - remove-confidential-information-from-github
+- rule: public/uploads/rules/remove-confidential-information-from-github/rule.mdx
+seoDescription: Professional documentation requires discretion. Hide sensitive information
+  like client names from public view to maintain confidentiality and trust.
+title: Do you hide sensitive information?
+type: rule
+uri: hide-sensitive-information
 ---
 
+<introEmbed
+  body={<>
 You should always use discretion in your public documentation. Hide any sensitive information, like your clients’ names, from screenshots and general documentation.
+  </>}
+/>
 
-<!--endintro-->
-
-::: good
-![Figure: Good example – Others can’t see the clients’ names](blurred-image1.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – Others can’t see the clients’ names",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/hide-sensitive-information/blurred-image1.jpg"
+/>

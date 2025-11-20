@@ -13,12 +13,13 @@ authors:
 created: 2025-02-17T14:49:00.000Z
 guid: 0fa64f9b-2d77-4762-946c-6afc21f6c6e8
 ---
+<introEmbed
+  body={<>
 \
 \
 Travel schedules can get complicated, especially when managing multiple trips or coordinating with team members. Relying solely on digital calendars can lead to missed details, especially when internet access is limited or when navigating multiple time zones. Having a printed version of your travel schedule can be a lifesaver in these situations.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Why It Matters
 
 Printed travel schedules provide several benefits:
@@ -36,20 +37,20 @@ Printed travel schedules provide several benefits:
 
 ## Step by Step
 
-![1. When you get an appointment, categorise it as "Travel"](pa-rule-1.png)
+![1. When you get an appointment, categorise it as "Travel"](/uploads/rules/do-you-print-your-travel-schedule/pa-rule-1.png)
 
-![2. Make a view that shows only your travel appointments](pa-rule-2.png)
+![2. Make a view that shows only your travel appointments](/uploads/rules/do-you-print-your-travel-schedule/pa-rule-2.png)
 
-![3. Set the date period to the end of year:  Print Options | Print Range| End Date](pa-rule-3.png)
+![3. Set the date period to the end of year:  Print Options | Print Range| End Date](/uploads/rules/do-you-print-your-travel-schedule/pa-rule-3.png)
 
-![4. Print from that view](pa-rule-4.png)
+![4. Print from that view](/uploads/rules/do-you-print-your-travel-schedule/pa-rule-4.png)
 
 ## Notes
 
 * If you want to view your boss's calendar to edit:
-  * To give somebody else permissions to your calendar - right click on calendar | sharing and permissions. From there you can select someone to give permissions to.  
-  * Alternatively, ask a SysAdmin - This had to be done in PowerShell – as per: <https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission?WT.mc_id=M365-MVP-33518>
+  * To give somebody else permissions to your calendar - right click on calendar | sharing and permissions. From there you can select someone to give permissions to.
+  * Alternatively, ask a SysAdmin - This had to be done in PowerShell – as per: [https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission?WT.mc_id=M365-MVP-33518](https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission?WT.mc_id=M365-MVP-33518)
   * The command is
-```Add-MailboxFolderPermission -Identity {{ BOSS'S EMAIL }}:\Calendar -User {{ YOUR EMAIL }} -AccessRights Editor```
+```Add-MailboxFolderPermission -Identity &#123;&#123; BOSS'S EMAIL &#125;&#125;:\Calendar -User &#123;&#123; YOUR EMAIL &#125;&#125; -AccessRights Editor```
 * In the new Outlook, you cannot print your boss's calendar
   * Even though you can add categories, you cannot filter based on the boss's categories (as you only see your own filters in the filters list). Therefore you need to print from your boss's Outlook.

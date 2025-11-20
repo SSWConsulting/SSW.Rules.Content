@@ -1,23 +1,30 @@
 ---
-seoDescription: Write your email correctly, not EMail or e- mail, but simply 'email'. Ensure your email address matches your confirmed email address.
-type: rule
-title: "Do you write the word 'email' in the correct format?"
-uri: do-you-write-the-word-email-in-the-correct-format
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - spelling-do-you-write-the-word-email-in-the-correct-format
-created: 2014-12-17T05:54:22.000Z
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2015-03-05 07:00:24+00:00
+createdBy: Michael Demarco
+createdByEmail: michaelDemarco@ssw.com.au
 guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
+isArchived: false
+lastUpdated: 2020-07-29 22:32:09+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- spelling-do-you-write-the-word-email-in-the-correct-format
+seoDescription: Write your email correctly, not EMail or e- mail, but simply 'email'.
+  Ensure your email address matches your confirmed email address.
+title: Do you write the word 'email' in the correct format?
+type: rule
+uri: do-you-write-the-word-email-in-the-correct-format
 ---
 
+<introEmbed
+  body={<>
 Do you spell 'email' correctly?
-
-<!--endintro-->
-
+  </>}
+/>
 There is one correct way to spell 'email' and many incorrect ones. The common incorrect ones are:
 
 - EMail
@@ -25,24 +32,45 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 
 Lower Case with dash (or hyphen):
 
-::: greybox
-&lt;p&gt;Your <mark>e-mail</mark> address must match your confirm <mark>e-mail</mark> address&lt;/p&gt;
 
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;p&gt;Your ==e-mail== address must match your confirm ==e-mail== address&lt;/p&gt;
 
-::: bad
-Bad example: Using 'e-mail' in your text  
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example: Using 'e-mail' in your text",
+  shouldDisplay: true
+} } />
 
-::: greybox
-&lt;p&gt;Your <mark>email</mark> address must match your confirm <mark>email</mark> address&lt;/p&gt;
 
-:::
 
-::: good
-Good example: Using 'email' instead
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;p&gt;Your ==email== address must match your confirm ==email== address&lt;/p&gt;
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example: Using 'email' instead",
+  shouldDisplay: true
+} } />
+
 
 Upper Case with capital M:
 
@@ -60,10 +88,12 @@ Upper Case with capital M:
   autocomplete="off"
 />
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example : 'EMail' used as a placeholder and in the validation message",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example : 'EMail' used as a placeholder and in the validation message  
-:::
 
 ```html
 <input
@@ -79,10 +109,11 @@ Bad example : 'EMail' used as a placeholder and in the validation message
   autocomplete="off"
 />
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example: Use 'Email' instead",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example: Use 'Email' instead
-
-:::
 
 We have a rule in [SSW Code Auditor](https://www.ssw.com.au/ssw/codeauditor/) and [SSW Link Auditor](https://sswlinkauditor.com/) to check for this.

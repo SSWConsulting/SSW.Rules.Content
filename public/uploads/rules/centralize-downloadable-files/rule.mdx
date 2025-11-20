@@ -1,25 +1,27 @@
 ---
-seoDescription: Centralize downloadable files to simplify organization, updating, and tracking of content while improving website performance and accessibility.
-type: rule
-title: Do you centralize downloadable files?
-uri: centralize-downloadable-files
 authors:
-  - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc/
-  - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin/
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo/
-related:
-  - structured-website
-created: 2024-01-04T05:00:00.000Z
+- title: Betty Bondoc
+  url: https://www.ssw.com.au/people/betty-bondoc/
+- title: Jayden Alchin
+  url: https://www.ssw.com.au/people/jayden-alchin/
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo/
+created: 2024-01-04 05:00:00+00:00
 guid: c1fd3db5-3138-40e3-9fdf-e67165717926
+related:
+- rule: public/uploads/rules/structured-website/rule.mdx
+seoDescription: Centralize downloadable files to simplify organization, updating,
+  and tracking of content while improving website performance and accessibility.
+title: Do you centralize downloadable files?
+type: rule
+uri: centralize-downloadable-files
 ---
 
+<introEmbed
+  body={<>
 Efficient management of downloadable content, like PDFs and documents, is a critical component of website maintenance. Simplify the process of making files public on your website by following these guidelines.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Centralized file storage
 
 * **Primary directory** - Use 'public/downloads' as the central directory for all downloadable files to simplify organization, updating, and tracking of content
@@ -36,13 +38,31 @@ Efficient management of downloadable content, like PDFs and documents, is a crit
 * **File compression** - Compress larger files to improve download speed and site performance
 * **Accessibility compliance** - Ensure that all files comply with [ADA](https://www.ada.gov/resources/web-guidance/) and [WCAG](https://www.w3.org/TR/WCAG21/) guidelines
 
-::: bad
-![Figure: Bad example - Saving the same file in multiple places (cumbersome to update)](bad-example-centralize-downloadable-files.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Saving the same file in multiple places (cumbersome to update)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/centralize-downloadable-files/bad-example-centralize-downloadable-files.png"
+/>
 
-::: good
-![Figure: Good example - Single URL for file, referenced across websites (simplifies updates and generates backlinks)](good-example-centralize-downloadable-files.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Single URL for file, referenced across websites (simplifies updates and generates backlinks)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/centralize-downloadable-files/good-example-centralize-downloadable-files.png"
+/>
+
 
 ## Step-by-step guide
 

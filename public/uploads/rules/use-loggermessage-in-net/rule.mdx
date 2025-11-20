@@ -1,23 +1,26 @@
 ---
-seoDescription: Learn how to optimize logging in .NET applications using the LoggerMessage class. Discover the performance benefits, such as reduced object allocations and efficient message parsing, and get practical tips on how to implement this pattern for better logging efficiency and structured logs in high-performance scenarios.
-type: rule
-title: Do you use LoggerMessage in .NET?
-uri: use-loggermessage-in-net
-authors:
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski
-related: []
-created: 2024-11-05T12:52:08.000Z
 archivedreason: null
+authors:
+- title: Tom Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski
+created: 2024-11-05 12:52:08+00:00
 guid: 2feb782f-0cee-4022-95d9-f44b9f739b90
+seoDescription: Learn how to optimize logging in .NET applications using the LoggerMessage
+  class. Discover the performance benefits, such as reduced object allocations and
+  efficient message parsing, and get practical tips on how to implement this pattern
+  for better logging efficiency and structured logs in high-performance scenarios.
+title: Do you use LoggerMessage in .NET?
+type: rule
+uri: use-loggermessage-in-net
 ---
 
+<introEmbed
+  body={<>
 Logging is a critical component in modern applications, but it can easily introduce performance overhead.
 
 .NET 6 introduced the `LoggerMessageAttribute`, a feature in the `Microsoft.Extensions.Logging` namespace that enables source-generated, highly performant logging APIs. This approach eliminates runtime overheads like boxing and temporary allocations, making it faster than traditional logging methods.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Key performance benefits of LoggerMessageAttribute
 
 * **Source Generation:** Automatically generates the implementation of partial methods with compile-time diagnostics.

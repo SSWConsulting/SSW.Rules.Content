@@ -1,24 +1,26 @@
 ---
-type: rule
-title: Do you use good custom instructions for ChatGPT?
-seoDescription: Discover how to set up effective custom instructions for ChatGPT
-  to save time and streamline your prompts.
-uri: custom-instructions
-authors:
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily
-  - title: Eli Kent
-    url: https://www.ssw.com.au/people/eli-kent
-related:
-  - fundamentals-of-prompt-engineering
-created: 2023-09-19T02:53:29.000Z
 archivedreason: null
+authors:
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily
+- title: Eli Kent
+  url: https://www.ssw.com.au/people/eli-kent
+created: 2023-09-19 02:53:29+00:00
 guid: b162b722-e7a8-42ed-b045-f8f2e4c7bd1b
+related:
+- rule: public/uploads/rules/fundamentals-of-prompt-engineering/rule.mdx
+seoDescription: Discover how to set up effective custom instructions for ChatGPT to
+  save time and streamline your prompts.
+title: Do you use good custom instructions for ChatGPT?
+type: rule
+uri: custom-instructions
 ---
+
+<introEmbed
+  body={<>
 Ever found yourself stuck in a loop of endless prompt refinement when using ChatGPT? Sometimes getting your style of answer is tricky. By setting up custom instructions correctly, you can save hours.
-
-<!--endintro-->
-
+  </>}
+/>
 Custom instructions let you specify your preferences only once instead of repeatedly providing the same directions. The model will remember your instructions for every new chat you start.
 
 ## Setup
@@ -30,36 +32,68 @@ To set up custom instructions:
 
 Once you save, the instructions will be applied as context for all new chats. You can always edit them later.
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - No custom instructions",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/custom-instructions/eli-custom-instructions-bad.png"
+/>
 
-![Figure: Bad example - No custom instructions](eli-custom-instructions-bad.png "Bad example - No custom instructions")
 
-:::
 
-::: greybox
-"Be helpful."
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Be helpful."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Too vague!",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Too vague!
-:::
 
-::: greybox
-"Never use the word 'utilize' when writing for me."
-:::
 
-::: ok
-Figure: OK example - Tells the bot to avoid a particular word
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Never use the word 'utilize' when writing for me."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "okExample",
+  figure: "Figure: OK example - Tells the bot to avoid a particular word",
+  shouldDisplay: true
+} } />
 
-::: greybox
-**What should ChatGPT call you?**
 
-"{{ NAME }}"
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **What should ChatGPT call you?**
+
+"&#123;&#123; NAME &#125;&#125;"
 
 **What do you do?**
 
-"I am a {{ JOB TITLE }}, and an AI tools enthusiast. I work with {{ TECHNOLOGIES }}."
+"I am a &#123;&#123; JOB TITLE &#125;&#125;, and an AI tools enthusiast. I work with &#123;&#123; TECHNOLOGIES &#125;&#125;."
 
 **What traits should ChatGPT have?**
 
@@ -72,7 +106,7 @@ You work requests out in a step by step way to be sure you have the right answer
 It is very important that you get this right.   \
 You also:
 
-* Make sure placeholders show as: {{ PLACEHOLDER }}
+* Make sure placeholders show as: &#123;&#123; PLACEHOLDER &#125;&#125;
 * If you speculate or predict something, inform me
 * Maintain neutrality in sensitive topics
 * Only discuss safety when it's vital and not clear
@@ -82,17 +116,31 @@ You also:
 
 **Anything else ChatGPT should know about you?**
 
-I live in {{ LOCATION }}, and I was born in {{ YEAR }}.   \
+I live in &#123;&#123; LOCATION &#125;&#125;, and I was born in &#123;&#123; YEAR &#125;&#125;.   \
 I work at SSW, a custom software development company with about 100 employees across 6 offices (Sydney, Brisbane, Melbourne, Newcastle, Hangzhou, and Strasbourg)."
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Start with these custom instructions. Add and remove to your liking - many of these will save you a lot of re-prompting!",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Start with these custom instructions. Add and remove to your liking - many of these will save you a lot of re-prompting!
-:::
 
-::: good
-
-![Figure: Good example - Specific and detailed custom instructions](eli-custom-instructions-good.png "Good example - Specific and detailed custom instructions")
-
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Specific and detailed custom instructions",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/custom-instructions/eli-custom-instructions-good.png"
+/>

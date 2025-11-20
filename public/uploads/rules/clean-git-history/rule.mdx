@@ -1,27 +1,29 @@
 ---
-seoDescription: Maintaining a clean and transparent Git history is crucial for codebase readability and understanding changes made over time.
-type: rule
-title: Do you have a clean git history?
-uri: clean-git-history
 authors:
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming/
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - use-squash-and-merge-for-open-source-projects
-  - write-a-good-pull-request
-redirects: []
-created: 2024-02-22T00:00:00.000Z
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming/
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+created: 2024-02-22 00:00:00+00:00
 guid: af3e6656-97b6-424c-b608-be3dd004ba89
+redirects: []
+related:
+- rule: public/uploads/rules/use-squash-and-merge-for-open-source-projects/rule.mdx
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+seoDescription: Maintaining a clean and transparent Git history is crucial for codebase
+  readability and understanding changes made over time.
+title: Do you have a clean git history?
+type: rule
+uri: clean-git-history
 ---
 
+<introEmbed
+  body={<>
 Maintaining a clean git history is important for readability and understanding the changes that have been made to a codebase. This is especially important when working in a team, as it allows you to see the changes that have been made to a file over time, and who made them. This can be useful for debugging, and for understanding why a particular change was made.
 
 Things that create a good git history include:
-
-<!--endintro-->
-
+  </>}
+/>
 - Granularity of commits
 - Descriptive commit messages
 - Easy to maintain (i.e. easily revert an entire feature)
@@ -29,8 +31,9 @@ Things that create a good git history include:
 
 ## Squashing Pull Requests
 
-`youtube: https://www.youtube.com/watch?v=0chZFIZLR_0`
-**Video: Git MERGE vs REBASE: Everything You Need to Know (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=0chZFIZLR_0" description={"Video: Git MERGE vs REBASE: Everything You Need to Know (4 min)"} />
+
 
 Squashing commits is the process of combining multiple commits into a single commit. This allows for the repository history to reflect changes to the application over time, rather than individual commits making up a feature which can be hard to follow as they give little context to the feature that the commit is being added for.
 
@@ -49,25 +52,39 @@ This can be avoided by using the `git mv` command to move files, or by breaking 
 
 Sometimes you have a system that was designed in multiple repositories, and you want to merge them back together. This can be a complex process, but it's important that you know what to do when this situation comes up in order to not lose history.
 
-:::greybox
-**Source tip**
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Source tip**
 
 The process of a source tip is to stop using source code from 1 repository as of certain date, and start using it from another repository.
 
 This process leads to a situation where you have a couple of projects/folders of code all being added to a repository as a new commit, and developers would need to look in an alternate place to see the history of that portion of the codebase.
-:::
-:::bad
-Figure: Bad example
-:::
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example",
+    shouldDisplay: true
+  }}
+/>
 
-:::greybox
-**Merge multiple repository histories into one**
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Merge multiple repository histories into one**
 
 It's important when combining git repositories that you bring all the history with you. This means that even if the files were added physically to a new repository today, developers will be able to see all the commits originally created in the original repository.
-:::
-:::good
-Figure: Good example
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example",
+    shouldDisplay: true
+  }}
+/>
+
 
 ## Writing descriptive commit messages
 

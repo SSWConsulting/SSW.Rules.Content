@@ -1,29 +1,55 @@
 ---
-seoDescription: Make selected rows stand out in a datagrid by subtly dimming unselected text.
-type: rule
-title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
-uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects: []
-created: 2012-11-27T09:19:10.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2012-11-27 09:19:57+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
 guid: ed08f7dd-7266-4961-9042-1023def979e6
+isArchived: false
+lastUpdated: 2017-02-23 14:35:28+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects: []
+seoDescription: Make selected rows stand out in a datagrid by subtly dimming unselected
+  text.
+title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
+type: rule
+uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
 ---
 
+<introEmbed
+  body={<>
 Many times you allow a multiple selection in a grid by using a checkbox. When you do this make it easy to see the distinction of a row that is selected and one that is not. Make it subtle by dimming the unselected text.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Selected rows are not separate from others",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid/interface-selected-rows-bad.jpg"
+/>
 
-::: bad  
-![Figure: Bad example - Selected rows are not separate from others](/interface-selected-rows-bad.jpg)  
-:::
 
-::: good  
-![Figure: Good example - Selected rows are separate from others](/interface-selected-rows-good.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Selected rows are separate from others",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid/interface-selected-rows-good.jpg"
+/>
+
 
 To make this effect in datagrid, you may need to edit the **cellcontentclick** event handler code. Example:
 

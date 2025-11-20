@@ -1,26 +1,29 @@
 ---
-type: rule
-title: Do you know the secret life of browser security patterns?
-seoDescription: Explore the evolution of browser security patterns, from cookies and OAuth flows to modern Backend-for-Frontend (BFF). Learn when to use each pattern, their pros and cons, and best practices for securing SPAs and web applications.
-uri: browser-security-patterns
 authors:
-  - title: Jeoffrey Fischer
-    url: https://www.ssw.com.au/people/jeoffrey-fischer
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani
-related:
-  - choosing-authentication
-  - modern-stateless-authentication
-created: 2025-10-03T22:40:45.273Z
+- title: Jeoffrey Fischer
+  url: https://www.ssw.com.au/people/jeoffrey-fischer
+- title: Hajir Lesani
+  url: https://www.ssw.com.au/people/hajir-lesani
+created: 2025-10-03 22:40:45.273000+00:00
 guid: 715aeb05-0530-49a8-a2ea-ef6f4a5271bb
+related:
+- rule: public/uploads/rules/choosing-authentication/rule.mdx
+- rule: public/uploads/rules/modern-stateless-authentication/rule.mdx
+seoDescription: Explore the evolution of browser security patterns, from cookies and
+  OAuth flows to modern Backend-for-Frontend (BFF). Learn when to use each pattern,
+  their pros and cons, and best practices for securing SPAs and web applications.
+title: Do you know the secret life of browser security patterns?
+type: rule
+uri: browser-security-patterns
 ---
 
+<introEmbed
+  body={<>
 Web security patterns are a lot like fashion trends. What looked sharp ten years ago now feels outdated, and the styles everyone thought would last forever sometimes vanish in a season. Cookies, tokens, proxies - they’ve all had their runway moment.
 
 Let’s take a lighthearted but practical tour of how browser security has evolved - from the early days of cookies, to the heyday of SPAs, to the modern approaches.
-
-<!-- endintro -->
-
+  </>}
+/>
 ## 1. Cookie-Based Authentication (Traditional Web Apps)
 
 The oldest and most battle-tested approach. Server-rendered apps relied heavily on cookies for session management, long before OAuth and SPAs came along. While simple and effective, cookies had to evolve with new browser features to keep up with modern threats.
@@ -47,15 +50,25 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
 * Classic monolithic apps.
 * Intranets or smaller web apps that don’t need OAuth/OIDC or cross-domain API calls.
 
-::: info
 
-* **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.  
-  → If a token is in localStorage and your app suffers an XSS, an attacker can simply read it. With HttpOnly cookies, the attacker can’t.  
-* **SameSite cookies** help prevent CSRF by controlling when cookies are sent with cross-site requests.  
-  * `Strict`: Only sent in first-party contexts.  
-  * `Lax`: Sent for top-level navigations (good balance).  
+<asideEmbed
+  variant="info"
+  body={<>
+    
+* **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.
+  → If a token is in localStorage and your app suffers an XSS, an attacker can simply read it. With HttpOnly cookies, the attacker can’t.
+* **SameSite cookies** help prevent CSRF by controlling when cookies are sent with cross-site requests.
+  * `Strict`: Only sent in first-party contexts.
+  * `Lax`: Sent for top-level navigations (good balance).
   * `None` + `Secure`: Required for third-party usage.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## 2. OAuth 2.0 Implicit Flow (SPAs v1)
 
@@ -170,31 +183,31 @@ The modern favorite. BFFs combine the simplicity of cookies with the security of
 
 Even with secure authentication, XSS remains one of the biggest threats to web apps. That’s where CSP comes in. It acts as a browser-enforced guardrail, letting you tightly control which scripts, styles, and resources are allowed to run. Think of it as a whitelist for your frontend - reducing the blast radius if malicious code ever sneaks in.
 
-📅 **Era:** Introduced in 2012, now a modern standard supported by all major browsers.  
+📅 **Era:** Introduced in 2012, now a modern standard supported by all major browsers.
 
 🤔 **How it works:**
 
-* Developers configure a `Content-Security-Policy` HTTP header.  
-* Browser enforces rules on what scripts, styles, iframes, fonts, and other resources can load and execute.  
-* Inline code can only run if explicitly whitelisted via **nonces** or **hashes**.  
+* Developers configure a `Content-Security-Policy` HTTP header.
+* Browser enforces rules on what scripts, styles, iframes, fonts, and other resources can load and execute.
+* Inline code can only run if explicitly whitelisted via **nonces** or **hashes**.
 
 ✅ **Pros:**
 
-* Strong protection against XSS and script injection.  
-* Forces developers to use safer script-loading practices.  
-* Can limit damage if an attacker injects malicious code.  
+* Strong protection against XSS and script injection.
+* Forces developers to use safer script-loading practices.
+* Can limit damage if an attacker injects malicious code.
 
 ❌ **Cons:**
 
-* Misconfiguration can easily break apps (e.g., when loading external resources).  
-* Allowing `unsafe-inline` or `unsafe-eval` weakens CSP significantly.  
-* Adds complexity when working with third-party libraries/CDNs.  
+* Misconfiguration can easily break apps (e.g., when loading external resources).
+* Allowing `unsafe-inline` or `unsafe-eval` weakens CSP significantly.
+* Adds complexity when working with third-party libraries/CDNs.
 
 💪 **Use Case:**
 
-* Any modern app handling sensitive data.  
-* Especially valuable for SPAs that are more exposed to XSS due to client-side rendering.  
-* Works best when paired with other defenses (e.g., HttpOnly cookies, BFF).  
+* Any modern app handling sensitive data.
+* Especially valuable for SPAs that are more exposed to XSS due to client-side rendering.
+* Works best when paired with other defenses (e.g., HttpOnly cookies, BFF).
 
 ## 📊 Summary Comparison Table
 
@@ -209,9 +222,9 @@ Even with secure authentication, XSS remains one of the biggest threats to web a
 
 ## Conclusion
 
-Each of these patterns reflects its time and context. Cookies kept things simple, Implicit Flow fueled the first wave of SPAs, PKCE added better protections, gateways helped large-scale systems, and newer approaches combine security with modern frontend needs.  
+Each of these patterns reflects its time and context. Cookies kept things simple, Implicit Flow fueled the first wave of SPAs, PKCE added better protections, gateways helped large-scale systems, and newer approaches combine security with modern frontend needs.
 
-**But don’t forget**: authentication is only half the story. Pairing modern auth patterns (like BFF with HttpOnly cookies) with **defensive browser features like CSP** is what makes the difference between “secure enough” and “battle-hardened.”  
+**But don’t forget**: authentication is only half the story. Pairing modern auth patterns (like BFF with HttpOnly cookies) with **defensive browser features like CSP** is what makes the difference between “secure enough” and “battle-hardened.”
 
 There’s no universal “best” - the right choice depends on your architecture, risk tolerance, and future plans. Understanding the trade-offs helps you pick a pattern that matches your app’s needs without getting stuck in yesterday’s trend.
 

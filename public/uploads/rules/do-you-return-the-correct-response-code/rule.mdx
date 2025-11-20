@@ -1,26 +1,33 @@
 ---
-seoDescription: Learn how to return correct response codes in ASP.NET Core WebAPI and improve debugging efficiency.
-type: rule
-archivedreason:
-title: Do you return the correct response code?
-guid: fa6f616b-ff7c-43c8-b7d9-4c80f22ac6d8
-uri: do-you-return-the-correct-response-code
-created: 2014-11-05T20:39:42.0000000Z
+archivedreason: null
 authors:
-  - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
-related: []
+- title: Chris Briggs
+  url: https://ssw.com.au/people/chris-briggs
+- title: Drew Robson
+  url: https://ssw.com.au/people/drew-robson
+created: 2014-11-05 20:43:23+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: fa6f616b-ff7c-43c8-b7d9-4c80f22ac6d8
+isArchived: false
+lastUpdated: 2020-10-23 02:48:23+00:00
+lastUpdatedBy: Matt Goldman
+lastUpdatedByEmail: MattGoldman@ssw.com.au
 redirects: []
+seoDescription: Learn how to return correct response codes in ASP.NET Core WebAPI
+  and improve debugging efficiency.
+title: Do you return the correct response code?
+type: rule
+uri: do-you-return-the-correct-response-code
 ---
 
+<introEmbed
+  body={<>
 The use of correct response codes is a simple yet crucial step towards building a better WebAPI. In ASP.NET Core, by default the WebAPI framework sets the response status code to 200 (OK), regardless of whether the task succeed or an error occurred.
 
 You can **save yourself countless hours of painful debugging** , by specifying the correct response code.
-
-<!--endintro-->
-
+  </>}
+/>
 For example: According to the HTTP/1.1 protocol, when a POST request results in the creation of a resource, the server should reply with status 201 (Created).
 
 ```csharp
@@ -30,10 +37,12 @@ public Product PostProduct(Product item)
  return item;
  }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad Example – By default a 200 status code is returned.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad Example – By default a 200 status code is returned.
-:::
 
 ```csharp
 [ResponseType(typeof(CreditSnapshot))]
@@ -46,10 +55,12 @@ Figure: Bad Example – By default a 200 status code is returned.
  return response;
  }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good Example – When creating objects the “Created” status code is returned.",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good Example – When creating objects the “Created” status code is returned.
-:::
 
 ```csharp
 public void PutProduct(int id, Product product)
@@ -67,7 +78,8 @@ public void PutProduct(int id, Product product)
 
 }
 ```
-
-::: good
-Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound",
+  shouldDisplay: true
+} } />

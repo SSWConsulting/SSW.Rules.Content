@@ -11,17 +11,20 @@ archivedreason: outdated
 guid: 6139e272-8fec-4fc4-9e0b-56a7bd3e28fd
 ---
 
+<introEmbed
+  body={<>
 Application updates don't have to be difficult to do for the user. Pointing the user to a website where he can download an update is not ideal. A better way is to take advantage of the `System.Deployment.Application` namespace. You can develop custom upgrade behaviours into your ClickOnce/Smart client application.
-
-<!--endintro-->
-
+  </>}
+/>
 ```cs
 System.Diagnostics.Process.Start(@"http://www.ssw.com.au/ssw/Download/ProdBasket.aspx?ID=15");
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Using web page to do the check for a new version",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Using web page to do the check for a new version
-:::
 
 ```cs
 long sizeOfUpdate = 0;
@@ -120,10 +123,12 @@ void ad_UpdateCompleted(object sender, AsyncCompletedEventArgs e)
     }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Using System.Deployment.Application classes to do the check for a new version",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Using System.Deployment.Application classes to do the check for a new version
-:::
 
 ## More Information
 

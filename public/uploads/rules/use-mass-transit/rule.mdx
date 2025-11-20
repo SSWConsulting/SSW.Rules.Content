@@ -1,24 +1,26 @@
 ---
-seoDescription: Use MassTransit to build reliable distributed applications and decouple your architecture from specific messaging technologies.
-type: rule
-title: Do you use MassTransit to build reliable distributed applications?
-uri: use-mass-transit
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-  - modular-monoliths
-  - microservices
-created: 2024-01-25T12:00:00.00Z
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+created: 2024-01-25 12:00:00+00:00
 guid: F0F621C0-D1BB-4882-B2E0-29E53868F0A7
+related:
+- rule: public/uploads/rules/modular-monolith-architecture/rule.mdx
+- rule: public/uploads/rules/microservices/rule.mdx
+seoDescription: Use MassTransit to build reliable distributed applications and decouple
+  your architecture from specific messaging technologies.
+title: Do you use MassTransit to build reliable distributed applications?
+type: rule
+uri: use-mass-transit
 ---
 
+<introEmbed
+  body={<>
 When building distributed applications messaging is a common pattern to use. Often we might take a hard dependency on a specific messaging technology, such as Azure Service Bus or RabbitMQ. This can make it difficult to change messaging technologies in the future. Good architecture is about making decisions that make things easy to change in future. This is where MassTransit comes in.
 
 [MassTransit](https://masstransit.io/) is a popular open-source .NET library that makes it easy to build distributed applications using messaging without tying you to one specific messaging technology.
-
-<!--endintro-->
-
+  </>}
+/>
 ## .NET Messaging Libraries
 
 There are several .NET messaging libraries that all abstract the underlying transport. These include:

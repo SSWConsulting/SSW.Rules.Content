@@ -1,31 +1,32 @@
 ---
-seoDescription: Make effective office meetings by ensuring clear agendas, punctual attendees, and productive discussions to achieve desired outcomes.
-type: rule
-title: Do you know what a great meeting feels like?
-uri: great-meetings
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related:
-  - share-the-agenda
-  - stick-to-the-agenda-and-complete-the-meetings-goal
-  - keep-track-of-a-parking-lot-for-topics
-redirects:
-  - meetings-do-you-know-the-way-meetings-should-work
-created: 2010-07-16T06:08:10.000Z
-archivedreason: 
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+created: 2010-07-16 06:08:10+00:00
 guid: a3e99985-98f5-40b5-95e9-c39a8e596886
-
+redirects:
+- meetings-do-you-know-the-way-meetings-should-work
+related:
+- rule: public/uploads/rules/share-the-agenda/rule.mdx
+- rule: public/uploads/rules/stick-to-the-agenda-and-complete-the-meetings-goal/rule.mdx
+- rule: public/uploads/rules/keep-track-of-a-parking-lot-for-topics/rule.mdx
+seoDescription: Make effective office meetings by ensuring clear agendas, punctual
+  attendees, and productive discussions to achieve desired outcomes.
+title: Do you know what a great meeting feels like?
+type: rule
+uri: great-meetings
 ---
 
+<introEmbed
+  body={<>
 Meetings don't have to be a drag. When they're done right, they actually help teams move faster and stay on the same page. Let's break down how to keep meetings focused, useful, and worth showing up for.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Why meetings often don't work well
 
 * There is a lot of discussion, but no resulting "action items"
@@ -53,43 +54,36 @@ Meetings don't have to be a drag. When they're done right, they actually help te
 * Remember to accept the meeting invitation
 * If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving
 
-::: email-template  
+<emailEmbed
+  from=""
+  to="Bob Northwind"
+  cc=""
+  bcc=""
+  subject="Let's have a meeting"
+  shouldDisplayBody={true}
+  body={<>
+    Meeting time at 8
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Meeting with bad subject, no agenda, and lack of information",
+    shouldDisplay: true
+  }}
+/>
 
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Subject: | Let's have a meeting |  
-| Location: | Sydney |  
-| Date: | 16th July 2025 |
-| Start time: | 8:00AM |
-| End time: | 8:30AM |
-::: email-content
-
-Meeting time at 8
-
-:::  
-:::  
-::: bad  
-Figure: Bad example - Meeting with bad subject, no agenda, and lack of information
-:::
-
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Subject: | Northwind App - React project |  
-| Location: | SSW Sydney - Level 1, 81 - 91 Military Road, Neutral Bay, Sydney, NSW 2089 |  
-| Date: | 16th July 2025 |
-| Start time: | 8:00AM |
-| End time: | 10:00AM |
-::: email-content
-
-### Hi Mr. Northwind
+<emailEmbed
+  from=""
+  to="Bob Northwind"
+  cc=""
+  bcc=""
+  subject="Northwind App - React project"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Mr. Northwind
 
 Looking forward to our meeting at 8AM.
 
-#### Agenda
+### Agenda
 
 1. Choose booking functionality name
 2. Approve the release plan
@@ -102,15 +96,16 @@ Looking forward to our meeting at 8AM.
 * See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
 * The account manager is not billable, the developers are billable
 
-Regards,  
-**David**  
+Regards,
+**David**
 SSW Software Developer | Sydney, Australia | Phone: +61 X XXX XXXX
-
-:::  
-:::  
-::: good
-Figure: Good example - Meeting appointment with a good subject, the agenda, and more useful information  
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Meeting appointment with a good subject, the agenda, and more useful information",
+    shouldDisplay: true
+  }}
+/>
 
 ## After the meeting
 

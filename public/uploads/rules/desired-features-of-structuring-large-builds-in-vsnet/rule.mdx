@@ -10,10 +10,11 @@ created: 2014-03-14T05:53:00.000Z
 guid: e576f1eb-076a-4371-a505-12cf0d4c38fb
 ---
 
+<introEmbed
+  body={<>
 The desired features of structuring large Builds in VS.NET:
-
-<!--endintro-->
-
+  </>}
+/>
 1. **Scalable** - The project should allow continuous additions to the structure
 
    - Developers should be able to keep adding to the structure
@@ -35,7 +36,19 @@ The desired features of structuring large Builds in VS.NET:
 
 The first attempt was the following method of adding project references to a large solution.
 
-![Figure: Adding a project reference](betterlargedotnet_projref.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Adding a project reference",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/desired-features-of-structuring-large-builds-in-vsnet/betterlargedotnet_projref.gif"
+/>
+
 
 Each project within a solution references other product's assemblies by the project's GUID.
 
@@ -51,7 +64,19 @@ The main disadvantage is that the project can only reference other projects with
 
 The following method of adding file references to a large solution was also attempted.
 
-![Figure: Adding a file reference](betterlargedotnet_fileref.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Adding a file reference",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/desired-features-of-structuring-large-builds-in-vsnet/betterlargedotnet_fileref.gif"
+/>
+
 
 This method involves projects referencing assemblies by looking into their reference path.
 

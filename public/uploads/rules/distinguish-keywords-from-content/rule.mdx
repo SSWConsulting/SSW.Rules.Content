@@ -1,11 +1,5 @@
 ---
-seoDescription: Learn how to effectively highlight and distinguish important keywords and referenced text in your documentation to ensure clarity and prevent misinterpretation.
-type: rule
-archivedreason: 
-title: Do you distinguish keywords from surrounding content?
-guid: 9e3cbde7-b8d0-4281-a916-bb224d5c72f4
-uri: distinguish-keywords-from-content
-created: 2016-03-22T04:57:28.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
@@ -13,49 +7,88 @@ authors:
   url: https://www.ssw.com.au/people/jayden-alchin
 - title: Tiago Araujo
   url: https://www.ssw.com.au/people/tiago-araujo
-related:
-- use-correct-symbols-when-documenting-instructions
-- do-you-make-numbers-more-readable
-- awesome-documentation
-- style-quotations
-- formatting-ui-elements
-- indent
+created: 2016-03-22 04:57:28+00:00
+guid: 9e3cbde7-b8d0-4281-a916-bb224d5c72f4
 redirects:
 - do-you-highlight-actions-correctly-in-your-document
 - highlight-items-in-your-document
-
+related:
+- rule: public/uploads/rules/use-correct-symbols-when-documenting-instructions/rule.mdx
+- rule: public/uploads/rules/make-numbers-more-readable/rule.mdx
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+- rule: public/uploads/rules/style-quotations/rule.mdx
+- rule: public/uploads/rules/formatting-ui-elements/rule.mdx
+- rule: public/uploads/rules/indent/rule.mdx
+seoDescription: Learn how to effectively highlight and distinguish important keywords
+  and referenced text in your documentation to ensure clarity and prevent misinterpretation.
+title: Do you distinguish keywords from surrounding content?
+type: rule
+uri: distinguish-keywords-from-content
 ---
 
+<introEmbed
+  body={<>
 We've all missed a piece of a message and found out later that we'd got it wrong. This can lead to miscommunication, mistakes, and lost time. Even worse, when finding out later that someone has misread something, there can be a lot of work to fix! But, there are ways to prevent this.
 
 It's important to clearly differentiate **keywords** and **referenced text** from your own content to help readers follow the message and avoid confusion.
+  </>}
+/>
 
-<!--endintro-->
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "We found that moving CodeAuditor's scan engine to be hosted on GitHub Action is not feasible."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - It's possible to miss the word 'not'",
+  shouldDisplay: true
+} } />
 
-::: greybox
-"We found that moving CodeAuditor's scan engine to be hosted on GitHub Action is not feasible."
-:::
 
-::: bad
-Figure: Bad example - It's possible to miss the word 'not'
-:::
 
-::: greybox
-"We found that moving CodeAuditor's scan engine to be hosted on GitHub Action is **not** feasible."
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "We found that moving CodeAuditor's scan engine to be hosted on GitHub Action is **not** feasible."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - The bolding draws attention to the main idea, which is 'No'!",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - The bolding draws attention to the main idea, which is 'No'!
-:::
 
 When highlighting items (file names, user commands etc.) be sure to:
 
 1. Distinguish the items from the rest of the surrounding text
 2. Be consistent
 
-::: info
-**Warning:** Never underline the text if it is **not** a link. More info on [Do you use underlines only on links?](/do-you-use-underlines-only-on-links)
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Warning:** Never underline the text if it is **not** a link. More info on [Do you use underlines only on links?](/do-you-use-underlines-only-on-links)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Use the following rules to highlight items in your document:
 
@@ -68,6 +101,15 @@ Use the following rules to highlight items in your document:
 | UPPER CASE | Code keywords and database elements | Use the INNER JOIN clause in SQL Server to join one table to another. |
 | `Monospace` (i.e. Courier New font) | Code samples, error messages | You will see the following error: `error opening database: database is currently in use.` |
 
-::: info
-**Note:** If you're quoting longer sentences, such as when replying in an email, it's best to [break the line and use clear visual indicators](/style-quotations) - like indentation, quotation marks, or a different text styles - so the quoted content is clearly separated from your own content.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** If you're quoting longer sentences, such as when replying in an email, it's best to [break the line and use clear visual indicators](/style-quotations) - like indentation, quotation marks, or a different text styles - so the quoted content is clearly separated from your own content.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

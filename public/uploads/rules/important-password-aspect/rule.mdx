@@ -10,10 +10,11 @@ created: 2022-03-17T04:59:44.169Z
 guid: e1bbd101-8e7b-48c0-a611-d4f61167516d
 ---
 
+<introEmbed
+  body={<>
 Passwords are a legacy technology that is not fit for the purpose that we use them today. We're working our way towards a post-password world, in particular the [FIDO alliance](https://fidoalliance.org), and many biometric technologies, including fingerprint and face recognition that you may have in your phone. But for now, passwords are something we all need to live with.
-
-<!--endintro-->
-
+  </>}
+/>
 We're used to seeing lists of password requirements, such as:
 
 - Minimum length
@@ -25,7 +26,19 @@ The most important of these is **length**.
 
 Look at this graphic:
 
-![Figure: The Hive Systems password table shows how long it takes to crack passwords of various lengths](bruteforce-times.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "The Hive Systems password table shows how long it takes to crack passwords of various lengths",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/important-password-aspect/bruteforce-times.png"
+/>
+
 
 This table clearly shows that adding complexity (mixing upper and lower case, adding numbers, adding symbols) **does** increase the time it takes an attacker to brute forces your password, but not by much, and **only** in conjunction with a password of sufficient length.
 

@@ -1,18 +1,21 @@
 ---
-seoDescription: Manage and report exploratory testing efforts effectively using Session-Based Test Management (SBTM).
-type: rule
-title: Do you know how to manage and report on exploratory testing?
-uri: manage-report-exploratory-testing
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - what-is-exploratory-testing
-  - why-testing-cannot-be-completely-automated
-created: 2022-12-01T23:32:41.976Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+created: 2022-12-01 23:32:41.976000+00:00
 guid: f4afbf05-4cb8-4e29-a965-0590a3ea1269
+related:
+- rule: public/uploads/rules/what-is-exploratory-testing/rule.mdx
+- rule: public/uploads/rules/why-testing-cannot-be-completely-automated/rule.mdx
+seoDescription: Manage and report exploratory testing efforts effectively using Session-Based
+  Test Management (SBTM).
+title: Do you know how to manage and report on exploratory testing?
+type: rule
+uri: manage-report-exploratory-testing
 ---
 
+<introEmbed
+  body={<>
 Exploratory Testing (ET) gives the tester much more freedom and responsibility in their testing than when following a more scripted approach.
 
 Putting some structure around ET helps to make the approach more credible and provides a way for managers to track and review testers' work.
@@ -20,18 +23,39 @@ Putting some structure around ET helps to make the approach more credible and pr
 Session-based test management (SBTM) is a lightweight approach to the management of exploratory testing effort that defines a set of expectations for what kind of work will be done and how it will be reported.
 
 > [SBTM is] a way for the testers to make orderly reports and organize their work without obstructing the flexibility and serendipity that makes exploratory testing useful - Jon Bach
-
-<!--endintro-->
-
+  </>}
+/>
 ### Testing in sessions
 
 The "session" is the basic unit of work in exploratory testing (and not, for example, a test case or bug report).
 
-::: greybox
-A "session" is an uninterrupted and timeboxed period of reviewable, chartered test effort
-:::
 
-![Figure: Deep testing requires focus and focus doesn't survive interruption](dont-interrupt.jpg)
+<asideEmbed
+  variant="greybox"
+  body={<>
+    A "session" is an uninterrupted and timeboxed period of reviewable, chartered test effort
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Deep testing requires focus and focus doesn't survive interruption",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/manage-report-exploratory-testing/dont-interrupt.jpg"
+/>
+
 
 Breaking this down:
 
@@ -44,19 +68,39 @@ Breaking this down:
 
 Charters are designed to set the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
 
-::: greybox
-Explore (target) with (resources) to discover (information)
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Explore (target) with (resources) to discover (information)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Some examples of charters using this template are:
 
-::: greybox
-Explore the payment flow with different sequences of events to discover problems with transactions
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Explore the payment flow with different sequences of events to discover problems with transactions
 
 Explore the chat state model with a random walk of events and transitions to discover surprises
 
 Explore the new security system with existing system capabilities to discover possible privilege escalation risks
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 The testing for a charter will be in sessions, possibly multiple sessions depending on the scope of the charter and what's discovered during the testing.
 
@@ -74,9 +118,19 @@ The **session sheet** is the output artifact from a session and this is designed
 
 An example of a session sheet template can be found in Michael Bolton's [An Exploratory Tester's Notebook](https://www.developsense.com/presentations/2007-10-PNSQC-AnExploratoryTestersNotebook.pdf).
 
-:::greybox
-**Tip:** Store your session sheets in the same place as your other project documentation. For example, if your user stories are in Azure DevOps, then add your session sheets to Azure DevOps and link them to the user story so that it's very easy to see the testing that was performed for a particular story.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** Store your session sheets in the same place as your other project documentation. For example, if your user stories are in Azure DevOps, then add your session sheets to Azure DevOps and link them to the user story so that it's very easy to see the testing that was performed for a particular story.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 A few simple metrics are captured in the session sheet, often referred to as the "TBS” metrics:
 
@@ -96,13 +150,37 @@ Apart from the task breakdown metrics, there are three other major parts of the 
 
 This mindmap is an example of how session notes could be recorded:
 
-![Figure: Notetaking in a mindmap from a session of exploratory testing](mindmap-session.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Notetaking in a mindmap from a session of exploratory testing",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/manage-report-exploratory-testing/mindmap-session.jpg"
+/>
+
 
 ### Debriefing
 
 A very important - and often overlooked - aspect of SBTM is the idea of session debriefing.
 
-![Figure: Debriefing is an opportunity to share your testing story](stories-matter.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Debriefing is an opportunity to share your testing story",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/manage-report-exploratory-testing/stories-matter.jpg"
+/>
+
 
 At the end of each session, the tester gets together with someone else (e.g. their manager or another stakeholder) to talk about the session. James Bach has a handy [debriefing checklist](https://www.satisfice.com/download/sbtm-session-report-checklist) to help you ask the right questions during debriefing.
 

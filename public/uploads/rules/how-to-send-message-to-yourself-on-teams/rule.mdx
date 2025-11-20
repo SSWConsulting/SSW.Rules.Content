@@ -10,10 +10,11 @@ created: 2022-04-26T01:20:41.257Z
 guid: dbc29b1b-7eae-4826-8d10-07b2a7ea4587
 ---
 
+<introEmbed
+  body={<>
 If often you see yourself trying to find an easy way to share an image or a note from your mobile to your laptop, this is a quick and easy tip to help you do this through Microsoft Teams.
-
-<!--endintro-->
-
+  </>}
+/>
 Here are the steps to send a message to yourself on Teams:
 
 1. Schedule a meeting with just yourself and give it a title like “Just me” or anything similar that is obvious to you
@@ -22,10 +23,27 @@ Here are the steps to send a message to yourself on Teams:
 4. You should see a new conversation next to all your other groups and private chats
 5. Pin it, and now you have a wall for your thoughts 💭 🧱
 
-::: bad
-![Figure: Bad example - Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-bad-example.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/how-to-send-message-to-yourself-on-teams/just-me-bad-example.png"
+/>
 
-::: good
-![Figure: Good example - Easily send photos or things you need to remember to yourself using your phone](just-me-example.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Easily send photos or things you need to remember to yourself using your phone",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/how-to-send-message-to-yourself-on-teams/just-me-example.png"
+/>

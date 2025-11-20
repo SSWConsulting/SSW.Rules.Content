@@ -1,34 +1,43 @@
 ---
-seoDescription: When writing tests to confirm bugfixes, it's essential to reference the issue ID in the test name and comments. This provides context for future developers, helping them understand why a particular test exists.
-type: rule
-title: Do you reference the issue ID when writing a test to confirm a bugfix?
-uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-reference-the-issue-id-when-writing-a-test-to-confirm-a-bugfix
-created: 2020-03-11T20:48:03.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2020-03-11 20:48:03+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 71a28a7c-3f3f-4cea-b0e4-4f1a5dc58f76
+isArchived: false
+lastUpdated: 2020-03-20 02:20:07+00:00
+lastUpdatedBy: Matthew Wicks
+lastUpdatedByEmail: MatthewWicks@ssw.com.au
+redirects:
+- do-you-reference-the-issue-id-when-writing-a-test-to-confirm-a-bugfix
+seoDescription: When writing tests to confirm bugfixes, it's essential to reference
+  the issue ID in the test name and comments. This provides context for future developers,
+  helping them understand why a particular test exists.
+title: Do you reference the issue ID when writing a test to confirm a bugfix?
+type: rule
+uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id
 ---
 
+<introEmbed
+  body={<>
 Some bugs have a whole history related to them and, when we fix them, we don't want to lose the rationale for the test. By adding a comment to the test that references the bug ID, future developers can see why a test is testing a particular behaviour.
-
-<!--endintro-->
-
+  </>}
+/>
 ```cs
 [Test]
 public void TestProj11()
 {
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - The test name is the bug ID and it's unclear what it is meant to test",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - The test name is the bug ID and it's unclear what it is meant to test
-
-:::
 
 ```cs
 ///
@@ -45,8 +54,8 @@ public void TestResavingAfterPressingBackShouldntBreak()
 {
 }
 ```
-
-::: good
-Figure: Good example - The test name is clearer, good comments for the unit test give a little context, and there is a link to the original bug report
-
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - The test name is clearer, good comments for the unit test give a little context, and there is a link to the original bug report",
+  shouldDisplay: true
+} } />

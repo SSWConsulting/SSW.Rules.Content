@@ -12,10 +12,11 @@ authors:
     url: https://www.ssw.com.au/people/chris-clement/
 ---
 
+<introEmbed
+  body={<>
 [Standalone components](https://angular.io/guide/standalone-components) were introduced in Angular 14 and should be used instead of modules for every new component you create.
-
-<!--endintro-->
-
+  </>}
+/>
 There is a number of advantages of using standalone components over modules as they:
 
 1. Reduce the amount of boilerplate code. They don't belong to a particular NgModule and don't have to be declared, so can be used in any part of the application

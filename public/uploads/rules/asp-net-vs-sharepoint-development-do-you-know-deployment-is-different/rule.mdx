@@ -1,28 +1,34 @@
 ---
-seoDescription: Deploying ASP.NET applications is straightforward with Xcopy or Visual Studio's "Publish website" feature. In contrast, SharePoint deployments require creating a solution package using tools like VSeWSS, updating and compiling files, testing on a staging server, and deploying to production.
-type: rule
-archivedreason:
-title: ASP.NET vs SharePoint development - Do you know deployment is different?
-guid: 5670dd01-3d85-4374-adfd-f9bbf0f2ebb8
-uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
-created: 2009-06-16T00:59:28.0000000Z
+archivedreason: null
 authors:
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-  - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
-related: []
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Jay Lin
+  url: https://ssw.com.au/people/jay-lin
+created: 2009-12-04 08:15:45+00:00
+createdBy: Jay Lin
+createdByEmail: JayLin@sydney.ssw.com.au
+guid: 5670dd01-3d85-4374-adfd-f9bbf0f2ebb8
+isArchived: false
+lastUpdated: 2012-12-12 03:49:12+00:00
+lastUpdatedBy: Rebecca Liu
+lastUpdatedByEmail: RebeccaLiu@ssw.com.au
 redirects: []
+seoDescription: Deploying ASP.NET applications is straightforward with Xcopy or Visual
+  Studio's "Publish website" feature. In contrast, SharePoint deployments require
+  creating a solution package using tools like VSeWSS, updating and compiling files,
+  testing on a staging server, and deploying to production.
+title: ASP.NET vs SharePoint development - Do you know deployment is different?
+type: rule
+uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 ---
 
+<introEmbed
+  body={<>
 In ASP.NET deployment is a simple xcopy. Or you can right click the website project and "Publish website" in Visual Studio.
-
-::: good  
-![Figure: Publish website in Visual Studio](PublishWebSite.png)  
-:::
-
-<!--endintro-->
-
+![Publish website in Visual Studio](/uploads/rules/asp-net-vs-sharepoint-development-do-you-know-deployment-is-different/PublishWebSite.png)
+  </>}
+/>
 In SharePoint the way to deploy a set of changes is via a solution package.
 
 SharePoint provides additional layer and infrastructure on top of ASP.NET - part of this layer is the support for administrators (who may not be developers) to quickly add, remove, activate and deactivate features across a SharePoint site farm.

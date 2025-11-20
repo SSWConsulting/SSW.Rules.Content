@@ -1,41 +1,61 @@
 ---
-seoDescription: Make it easy for your users to add events to their calendar with ICS links and icons.
-type: rule
-archivedreason:
-title: Calendar - Does your website make it easy for your users to add an event to their calendar?
-guid: 94201906-f458-4ec6-8a82-8258156f9df8
-uri: do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
-created: 2014-12-12T19:56:44.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2014-12-12 20:02:05+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 94201906-f458-4ec6-8a82-8258156f9df8
+isArchived: false
+lastUpdated: 2020-11-11 01:44:00+00:00
+lastUpdatedBy: Ulysses Maclaren
+lastUpdatedByEmail: ulyssesmaclaren@ssw.com.au
 redirects:
-  - calendar-does-your-website-make-it-easy-for-your-users-to-add-an-event-to-their-calendar
+- calendar-does-your-website-make-it-easy-for-your-users-to-add-an-event-to-their-calendar
+seoDescription: Make it easy for your users to add events to their calendar with ICS
+  links and icons.
+title: Calendar - Does your website make it easy for your users to add an event to
+  their calendar?
+type: rule
+uri: do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 ---
 
+<introEmbed
+  body={<>
 If you have a date for any event appearing on your website, you should make it as easy as possible for the user to add it to their Outlook calendar. This is why we use ICS links for all dates on our site.
+  </>}
+/>
 
-<!--endintro-->
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Next User Group Meeting:
 
-::: greybox
-Next User Group Meeting:
+Wednesday, 15 February 2024 5:45 PM
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - User cannot add a reminder",
+  shouldDisplay: true
+} } />
 
-Wednesday, 15 February 2024 5:45 PM  
-:::
-
-::: bad
-Figure: Bad example - User cannot add a reminder
-
-:::
 Next User Group Meeting:
 
 Wednesday, 15 February 2024 5:45 PM
 📅 [Add Outlook reminder](https://www.w3.org/2002/12/cal/rfc2445.html)
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - User can click and add a reminder",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - User can click and add a reminder
-:::
 
 By clicking the calendar link, users can easily add the event to their own calendars.
 

@@ -1,26 +1,29 @@
 ---
-type: rule
-seoDescription: Learn the best practices for generating API clients from OpenAPI specifications. Compare manual coding vs. NSwag, Refit, Kiota, and other tools for creating strongly-typed HTTP clients.
-uri: generate-api-clients
-title: Do you generate API clients?
 authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-related:
-  - the-best-way-to-generate-your-entities-from-swagger
-  - generate-interfaces-for-your-dtos
-  - decouple-api-from-blazor-components
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
 guid: a8f2e943-7c45-4e89-8f12-d3a7b6e8c9f2
+related:
+- rule: public/uploads/rules/the-best-way-to-generate-your-entities-from-swagger/rule.mdx
+- rule: public/uploads/rules/generate-interfaces-for-your-dtos/rule.mdx
+- rule: public/uploads/rules/decouple-api-from-blazor-components/rule.mdx
+seoDescription: Learn the best practices for generating API clients from OpenAPI specifications.
+  Compare manual coding vs. NSwag, Refit, Kiota, and other tools for creating strongly-typed
+  HTTP clients.
+title: Do you generate API clients?
+type: rule
+uri: generate-api-clients
 ---
 
+<introEmbed
+  body={<>
 When consuming APIs in your applications, you need to make HTTP requests and handle responses. You have several options for generating API clients, ranging from manual implementation to automated code generation from OpenAPI specifications.
-
-<!--endintro-->
-
+  </>}
+/>
 ### Why generate API clients?
 
 Generating API clients from OpenAPI specifications provides several key benefits:
@@ -42,7 +45,7 @@ Generating API clients from OpenAPI specifications provides several key benefits
 
 ### Kiota ⭐ (Recommended)
 
-<https://github.com/microsoft/kiota>
+[https://github.com/microsoft/kiota](https://github.com/microsoft/kiota)
 
 Kiota is Microsoft's next-generation API client generator designed for modern cloud APIs.
 
@@ -62,7 +65,7 @@ Kiota is Microsoft's next-generation API client generator designed for modern cl
 
 ### Orval ⭐ (Recommended for TypeScript/React projects)
 
-<https://orval.dev>
+[https://orval.dev](https://orval.dev)
 
 Orval is a TypeScript-first OpenAPI generator, popular for Next.js and React projects. It integrates cleanly with TanStack Query (React Query), making API consumption highly ergonomic.
 
@@ -84,7 +87,7 @@ Orval is a TypeScript-first OpenAPI generator, popular for Next.js and React pro
 
 ### NSwag
 
-<https://github.com/RicoSuter/NSwag>
+[https://github.com/RicoSuter/NSwag](https://github.com/RicoSuter/NSwag)
 
 NSwag generates strongly-typed C# and TypeScript clients from OpenAPI specifications.
 
@@ -105,7 +108,7 @@ NSwag generates strongly-typed C# and TypeScript clients from OpenAPI specificat
 
 ### Refit
 
-<https://github.com/reactiveui/refit>
+[https://github.com/reactiveui/refit](https://github.com/reactiveui/refit)
 
 Refit generates HTTP client implementations from interface definitions using attributes.
 

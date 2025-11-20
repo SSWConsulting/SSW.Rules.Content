@@ -1,39 +1,51 @@
 ---
-seoDescription: Discover how to create engaging presentations by limiting text on your slides
-type: rule
-title: Do you limit text on your slides?
-uri: limit-text-on-slides
-authors:
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-related:
-  - concise-writing
-redirects:
-  - no-text-slides
-  - less-is-more
-created: 2023-11-09T21:46:41.000Z
 archivedreason: null
+authors:
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+created: 2023-11-09 21:46:41+00:00
 guid: d761c649-3b52-4268-9275-5ecee1e9fd3b
+redirects:
+- no-text-slides
+- less-is-more
+related:
+- rule: public/uploads/rules/concise-writing/rule.mdx
+seoDescription: Discover how to create engaging presentations by limiting text on
+  your slides
+title: Do you limit text on your slides?
+type: rule
+uri: limit-text-on-slides
 ---
 
+<introEmbed
+  body={<>
 Presentations are hard to get right, it's easy to fall into the trap of putting too much text on your slides.
 
 [Science says people can't read and listen at the same time](https://www.linkedin.com/pulse/science-says-you-cant-read-listen-same-time-andrea-pacini). If they are looking at your slides, they are not listening to you. If they are listening to you, they are not reading your slides.
+  </>}
+/>
 
-<!-- endintro -->
+<youtubeEmbed url="https://www.youtube.com/watch?v=-NVXHOavBpA" description={"Video: PowerPoint Sucks and Why It Shouldn't (5 min)"} />
 
-`youtube: https://www.youtube.com/watch?v=-NVXHOavBpA`
-**Video: PowerPoint Sucks and Why It Shouldn't (5 min)**
 
 Your slides should illustrate your point. They should not describe your point.
 
 The slides are not there to convey all the information you plan to present, they are there to support the information you plan to present.
 
-::: bad img-medium
-![Figure: Bad example - Sentences on slides mean the audience isn't listening](my-day-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Sentences on slides mean the audience isn't listening",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-text-on-slides/my-day-bad.png"
+/>
+
 
 Now let's look at some strategies to present text nicely and make information more digestible.
 
@@ -41,9 +53,18 @@ Now let's look at some strategies to present text nicely and make information mo
 
 PowerPoint has a built in Designer tool that can help you make your slides look better. It suggests alternative layouts and even icons to make points more illustrative.
 
-::: good img-medium
-![Figure: Good example - Use the designer to make slides more interesting](design-ideas-ppt.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Use the designer to make slides more interesting",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-text-on-slides/design-ideas-ppt.gif"
+/>
+
 
 See [more info on the Designer](https://support.microsoft.com/en-us/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617).
 
@@ -51,13 +72,31 @@ See [more info on the Designer](https://support.microsoft.com/en-us/office/creat
 
 SmartArt is another tool that can help you present text in a more interesting way. It allows you to easily try different visuals to display your information. It even has a built-in icon library to make your content more beautiful.
 
-::: bad img-medium
-![Figure: Bad example - Bullet points make the intent unclear](ugly-timeline.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Bullet points make the intent unclear",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-text-on-slides/ugly-timeline.png"
+/>
 
-::: good img-medium
-![Figure: Good example - SmartArt easily converts bullets into a timeline](cool-timeline.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - SmartArt easily converts bullets into a timeline",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-text-on-slides/cool-timeline.png"
+/>
+
 
 ## Using animations
 
@@ -65,6 +104,14 @@ You can use animations to enhance your messaging, for example, reveal points one
 
 Animations help avoid a wall of text.
 
-::: good img-medium
-![Figure: Good example - Animations](animations-pros-cons.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Animations",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/limit-text-on-slides/animations-pros-cons.gif"
+/>

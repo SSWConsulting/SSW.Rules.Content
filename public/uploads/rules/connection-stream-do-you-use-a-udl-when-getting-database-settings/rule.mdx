@@ -1,33 +1,70 @@
 ---
-seoDescription: Connection stream do you use a UDL when getting database settings?
-type: rule
-archivedreason:
-title: Connection Stream - Do you use a UDL when getting database settings?
-guid: d35608be-bccb-495f-ac6c-22285b72b1e5
-uri: connection-stream-do-you-use-a-udl-when-getting-database-settings
-created: 2012-11-27T09:22:39.0000000Z
+archivedreason: null
 authors: []
-related: []
+created: 2012-11-27 09:23:25+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: d35608be-bccb-495f-ac6c-22285b72b1e5
+isArchived: false
+lastUpdated: 2017-03-16 16:22:58+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Connection stream do you use a UDL when getting database settings?
+title: Connection Stream - Do you use a UDL when getting database settings?
+type: rule
+uri: connection-stream-do-you-use-a-udl-when-getting-database-settings
 ---
 
+<introEmbed
+  body={<>
 Why do people always invent ways of getting the same old server name and a database name? Look at this image from [Speed Ferret](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/SQLservertools.aspx#SpeedFerret) - one of my favorite SQL Server utilities.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - Custom database connection screen in Speed Ferret",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/connection-stream-do-you-use-a-udl-when-getting-database-settings/CustomDatabaseConnectionScreen.jpg"
+/>
 
-::: bad  
-![Figure: Bad Example - Custom database connection screen in Speed Ferret](/CustomDatabaseConnectionScreen.jpg)  
-:::
 
 While a nice form, it would have taken quite some developer time to get it right. Not only that, it is a little bit different than what a user has seen before. Now look at this UDL from one of our utilities [SSW SQL Auditor](https://www.ssw.com.au/ssw/SQLAuditor/):
 
-::: good  
-![Figure: Good Example - Standard Microsoft UDL dialog](/StandardMSUDLDialog.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - Standard Microsoft UDL dialog",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/connection-stream-do-you-use-a-udl-when-getting-database-settings/StandardMSUDLDialog.jpg"
+/>
+
 
 Every developer has seen this before - so use it. Better still, it is only a few lines of code: [B-Open UDL Dialog-DH.txt](https://gist.github.com/SSWConsulting/60cce3f7a65665d7dae2#file-b-open-udl-dialog-dh)
 
-![Figure: Coming in Visual Studio .NET 2005 Microsoft are yet to release an API to do this](/ReleaseAPI.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Coming in Visual Studio .NET 2005 Microsoft are yet to release an API to do this",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/connection-stream-do-you-use-a-udl-when-getting-database-settings/ReleaseAPI.jpg"
+/>
+
 
 [Need extra information?](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSForm.aspx#InvokingOLEBDataLinkPropertiesDialog)
 
@@ -35,4 +72,15 @@ Every developer has seen this before - so use it. Better still, it is only a few
 
 The above cannot be used when you want the user to create a new database. Microsoft does not supply an out of the box UI and there is no third party solution. Only in this case you have to create your own form.
 
-![Figure: SQL Deploy uses its own custom form for "selecting" a database name](/SQLDeploy.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "SQL Deploy uses its own custom form for \"selecting\" a database name",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/connection-stream-do-you-use-a-udl-when-getting-database-settings/SQLDeploy.jpg"
+/>

@@ -1,24 +1,44 @@
 ---
-seoDescription: Do you use Fluent Validation? Client-side validation provides a great user experience but must always be backed up by server-side validation. .NET and .NET Core Web APIs provide built-in support for validation using Data Annotations.
-type: rule
-archivedreason:
-title: Do you use Fluent Validation?
-guid: 376bf9f4-c174-4582-936a-518899200084
-uri: use-fluent-validation
-created: 2019-01-07T18:39:08.0000000Z
+archivedreason: null
 authors:
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+created: 2019-01-07 18:39:14+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 376bf9f4-c174-4582-936a-518899200084
+isArchived: false
+lastUpdated: 2020-10-23 02:48:39+00:00
+lastUpdatedBy: Matt Goldman
+lastUpdatedByEmail: MattGoldman@ssw.com.au
 redirects:
-  - do-you-use-fluent-validation
+- do-you-use-fluent-validation
+seoDescription: Do you use Fluent Validation? Client-side validation provides a great
+  user experience but must always be backed up by server-side validation. .NET and
+  .NET Core Web APIs provide built-in support for validation using Data Annotations.
+title: Do you use Fluent Validation?
+type: rule
+uri: use-fluent-validation
 ---
 
+<introEmbed
+  body={<>
 Client-side validation provides a great user experience but this must always be backed up by server-side validation.
+  </>}
+/>
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Client-side validation does not provide effective data security for your Web API endpoints",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-fluent-validation/cartoon-client-side-validation.jpg"
+/>
 
-![Figure: Client-side validation does not provide effective data security for your Web API endpoints](cartoon-client-side-validation.jpg)
 
 **.NET** and **.NET Core Web APIs** provide built-in support for validation using Data Annotations:
 
@@ -51,20 +71,24 @@ public class CustomerValidator: AbstractValidator<Customer> {
   }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.  
-:::
 
 6. You can write conditional rules with the **.When** clause. This is great for complex form validation.
 
 ```cs
 RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good Example: Conditional validation with the .When() clause allows for complex logic such as “Discount number cannot be 0 if the HasDiscount boolean is true”",
+  shouldDisplay: true
+} } />
 
-::: good
-Good Example: Conditional validation with the .When() clause allows for complex logic such as “Discount number cannot be 0 if the HasDiscount boolean is true”  
-:::
 
 7. Fluent Validation provides a great entry-point for writing your own custom, complex rules. For most modern Web APIs the response type is usually JSON. The validation errors raised by Fluent Validation serialize easily to JSON making it fairly trivial to handle these errors from whatever client-side framework you are using.
 
@@ -73,7 +97,8 @@ Good Example: Conditional validation with the .When() clause allows for complex 
   "CompanyName": ["The CompanyName field is required."]
 }
 ```
-
-::: good
-Good Example: This is the JSON returned from Fluent Validation when a validation rule fails. This is exactly the same format as what would be returned by the built-in ModelState validation.  
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good Example: This is the JSON returned from Fluent Validation when a validation rule fails. This is exactly the same format as what would be returned by the built-in ModelState validation.",
+  shouldDisplay: true
+} } />

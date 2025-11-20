@@ -11,12 +11,13 @@ created: 2023-04-12T13:55:36.349Z
 guid: 5d53a8ed-35c1-43cd-8a1e-efc8fad352f6
 ---
 
+<introEmbed
+  body={<>
 You can give ChatGPT examples of the type of output you want, including the format. Each example you feed it is known as a “shot”.
 
 Understanding when to use 0-shot, 1-shot, or multi-shot prompts can help you get the most out of ChatGPT. These approaches allow the model to learn from different contexts, making it more likely to generate the desired output.
-
-<!--endintro-->
-
+  </>}
+/>
 Here are some guidelines for using 0-shot, 1-shot, and multi-shot prompts:
 Note: If you are a developer, also read this [guide to using shot prompts with the OpenAI API.](https://labelbox.com/guides/zero-shot-learning-few-shot-learning-fine-tuning/)
 
@@ -34,13 +35,22 @@ Use 1-shot prompts when you want to nudge the model in the right direction witho
 
 Example 1-shot prompt:
 
-:::greybox
-"Translate the following English sentences into French. Here's an example:  
-'I love playing soccer.' -> 'J'aime jouer au football.'
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Translate the following English sentences into French. Here's an example:
+'I love playing soccer.' -&gt; 'J'aime jouer au football.'
 
 Now translate: 'She enjoys reading books.'"
-:::
-**Figure: 1-shot example - providing a single example of translation**
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "1-shot example - providing a single example of translation",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Multi-shot prompts
 
@@ -50,14 +60,23 @@ Use multi-shot prompts when a single example might not be sufficient for guiding
 
 Example multi-shot prompt:
 
-::: greybox
-"Translate the following English sentences into French. Here are some examples:
 
-- 'I love playing soccer.' -> 'J'aime jouer au football.'
-- 'The weather is nice today.' -> 'Le temps est agréable aujourd'hui.'
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Translate the following English sentences into French. Here are some examples:
+
+- 'I love playing soccer.' -&gt; 'J'aime jouer au football.'
+- 'The weather is nice today.' -&gt; 'Le temps est agréable aujourd'hui.'
 
 Now translate: 'They are going to the park.'"
-:::
-**Figure: Multi-shot example - providing multiple examples of translations**
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "Multi-shot example - providing multiple examples of translations",
+    shouldDisplay: true
+  }}
+/>
+
 
 By knowing when to use 0-shot, 1-shot, or multi-shot prompts, you can optimize your interactions with ChatGPT and receive more accurate and tailored responses.

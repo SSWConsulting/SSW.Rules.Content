@@ -1,21 +1,22 @@
 ---
-seoDescription: Learn how to effectively use online regex tools like RegExr and Regex101 to simplify and improve your regular expression workflows.
-type: rule
-title: Do you use online regex tools to simplify your regular expression workflows?
-guid: 924de46a-270e-43c3-b4a7-d883554c457e
-uri: do-you-use-online-regex-tools
-created: 2025-07-25T00:00:00Z
 authors:
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related: []
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+created: 2025-07-25 00:00:00+00:00
+guid: 924de46a-270e-43c3-b4a7-d883554c457e
 redirects: []
+seoDescription: Learn how to effectively use online regex tools like RegExr and Regex101
+  to simplify and improve your regular expression workflows.
+title: Do you use online regex tools to simplify your regular expression workflows?
+type: rule
+uri: do-you-use-online-regex-tools
 ---
 
+<introEmbed
+  body={<>
 Regular expressions (regex) are powerful tools for pattern matching and text processing, but they can be challenging to write and debug. Online regex tools like [RegExr](https://regexr.com/) and [Regex101](https://regex101.com/) simplify this process by providing interactive environments to test, debug, and learn regex. These tools save time, reduce errors, and help you master regex faster.
-
-<!--endintro-->
-
+  </>}
+/>
 ## Why use online regex tools?
 
 * **Instant Feedback**: Test your regex patterns in real-time and see immediate results
@@ -36,7 +37,7 @@ passwordList = [
     "Pass!",
     "Password1",
     "password!1",
-    "A1b2C3d4!"   
+    "A1b2C3d4!"
 ]
 
 # Loop through the passwords and use re.search to validate them
@@ -55,14 +56,25 @@ Invalid: Password1
 Invalid: password!1
 Valid: A1b2C3d4!
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Writing and testing regex directly in your code without live validation",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Writing and testing regex directly in your code without live validation
-:::
 
-::: good
-![Figure: Using RegExr to debug and validate your pattern before implementation](regexr-password-validation.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Using RegExr to debug and validate your pattern before implementation",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-online-regex-tools/regexr-password-validation.png"
+/>
+
 
 ### Best Online Regex Tools
 
@@ -74,6 +86,15 @@ Figure: Writing and testing regex directly in your code without live validation
   * Code generator for multiple programming languages.
   * Extensive regex library and quick reference guide.
 
-::: info
-Avoid overcomplicating your regex patterns; use the tools to simplify and optimize them.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    Avoid overcomplicating your regex patterns; use the tools to simplify and optimize them.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

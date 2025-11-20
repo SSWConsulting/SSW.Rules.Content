@@ -1,39 +1,55 @@
 ---
-seoDescription: Use figures and images to enhance visual communication and reduce unnecessary text.
-type: rule
-archivedreason: 
-title: Figures - Do you use images to reduce the words?
-guid: 022e3d71-8c64-4063-9077-f20e539e5cce
-uri: use-images-to-replace-words
-created: 2014-12-04T20:21:31.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - screenshots-avoid-walls-of-text
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2014-12-04 20:21:31+00:00
+guid: 022e3d71-8c64-4063-9077-f20e539e5cce
 redirects:
-  - figures-do-you-use-images-to-reduce-the-words
-
+- figures-do-you-use-images-to-reduce-the-words
+related:
+- rule: public/uploads/rules/screenshots-avoid-walls-of-text/rule.mdx
+seoDescription: Use figures and images to enhance visual communication and reduce
+  unnecessary text.
+title: Figures - Do you use images to reduce the words?
+type: rule
+uri: use-images-to-replace-words
 ---
 
+<introEmbed
+  body={<>
 "An image is worth a thousand words" is a timeless saying that underscores the power of visual communication. Images can convey complex ideas, emotions, and information more efficiently and effectively than text alone. They capture attention, enhance understanding, and improve retention.
 
 Therefore, whenever possible, replace text with images to create more engaging and impactful content. By doing so, you can simplify your message, appeal to visual learners, and make your communication more memorable.
+  </>}
+/>
 
-<!--endintro-->
+<asideEmbed
+  variant="greybox"
+  body={<>
+    You then have this pretty white flower with a green stem standing on a water pond. It is beautiful.
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - A text describing a flower",
+    shouldDisplay: true
+  }}
+/>
 
-::: greybox
-You then have this pretty white flower with a green stem standing on a water pond. It is beautiful.  
-:::
-::: bad
-Figure: Bad example - A text describing a flower
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A picture of a flower is way better",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-images-to-replace-words/flower.jpg"
+/>
 
-::: good  
-![Figure: Good example - A picture of a flower is way better](flower.jpg)  
-:::
 
 #### What else can you do?
 
