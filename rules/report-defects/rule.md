@@ -25,10 +25,6 @@ When a defect occurs in an office (e.g. a broken coffee machine, faulty air cond
 
 <!--endintro-->
 
-::: info
-**Tip:** Make sure to [label broken equipment](/label-broken-equipment)
-:::
-
 ![Figure: What information should you include when reporting a defect](ssw-rules-best-way-to-report-an-office-defect-v3.jpg "Figure: What information should you include when reporting a defect")
 
 Good reporting not only helps the Property Manager resolve issues faster, it also improves **turnaround time (TAT)**, **feedback**, and **follow-up communication**.  
@@ -37,8 +33,9 @@ When reporting a defect, always make sure your message is **clear**, **complete*
 
 ## Create a PBI (YakShave it 🦬)
 
-* For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ Brief Description }}**  
-* Link the PBI in your note (e.g. sticky note) as per the rule: [Office environment - Do you label broken equipment?](https://www.ssw.com.au/label-broken-equipment)
+* For traceability, **create a PBI (Product Backlog Item)** in your maintenance backlog titled **“Defect –  {{ BRIEF DESCRIPTION }}**  
+* Make sure to [label broken equipment](/label-broken-equipment)
+* Link the PBI in your note (e.g. sticky note)
 
   This is so that others can track progress and updates.\
   **Example:** *“Created PBI: [Defect – Broken coffee machine in SSW France kitchen](https://github.com/SSWConsulting/SSW.Maintenance/issues/1)”*
