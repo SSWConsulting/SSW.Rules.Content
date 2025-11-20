@@ -72,7 +72,7 @@ Inform the people who is aware of the problem. Always include:
 * The **Property Manager**  
 
 ::: info
-**Tip:** Use @mentions int the PBI, or if you’re reporting via Teams or email, e.g. *“@John Smith @Sarah Jones”*.
+**Tip:** Use @mentions in the PBI, or if you’re reporting via Teams or email, e.g. *“@John Smith @Sarah Jones”*.
 :::
 
 #### 4. Historic information
