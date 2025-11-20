@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/luke-cook/
 related:
   - supervise-tradespeople
+  - watch-do-you-know-what-is-going-on
 redirects:
   - report-defects-to-property-manager
 created: 2025-10-07T11:34:00.000Z
