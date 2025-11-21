@@ -10,6 +10,8 @@ authors:
   - title: Lewis Toh
     url: https://ssw.com.au/people/lewis-toh
 guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
+related:
+  - ai-assisted-desktop-pr-preview
 
 ---
 
