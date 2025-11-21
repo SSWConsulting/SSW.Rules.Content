@@ -73,6 +73,7 @@ index:
   - tech-check
   - establish-the-world
   - recording-screen
+  - screen-recording-spotlight
   - use-autopod-for-editing-multi-camera-interviews
 ---
 
