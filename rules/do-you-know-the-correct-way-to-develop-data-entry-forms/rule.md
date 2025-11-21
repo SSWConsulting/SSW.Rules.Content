@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Learn the correct approach to developing data entry forms with proper multiple instance handling and user-friendly workflows for efficient data input.
 archivedreason: This rule has been replaced with [https://www.ssw.com.au/rules/data-entry-forms-for-web](/rules/data-entry-forms-for-web)
 title: Do you know the correct way to develop Data Entry Forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae

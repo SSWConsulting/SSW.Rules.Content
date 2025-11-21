@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Learn how to prepare, facilitate, and run a successful Event Storming workshop to discover domain knowledge and model business processes collaboratively.
 title: Do you know how to run an Event Storming workshop?
 uri: event-storming-workshop
 authors:

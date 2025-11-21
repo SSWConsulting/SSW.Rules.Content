@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Avoid using sp_rename to rename database objects like stored procedures, views, and triggers to prevent inconsistencies between object names and their scripts.
 archivedreason: 
 title: General - Do you know to not use "sp_rename" to rename objects?
 guid: 1aab9df8-5908-4540-8172-8a5bcf761ec4

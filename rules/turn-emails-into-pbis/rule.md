@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Convert emails into Product Backlog Items (PBIs) before starting work to ensure proper tracking, accountability, and workflow management in your development process.
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
 authors:

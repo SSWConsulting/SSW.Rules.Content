@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Create architecture diagrams to provide a clear overview of your project's structure, components, and data flow for better understanding and decision-making.
 title: Do you have an architecture diagram?
 uri: architecture-diagram
 authors:

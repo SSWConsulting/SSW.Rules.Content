@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Navigate China's unique social media landscape with platforms like WeChat, Weibo, and Baidu to effectively reach over 1 billion active users in the Chinese market.
 archivedreason: 
 title: China - Do you know how to use social media effectively in China?
 guid: 3c17b4cb-791f-4513-a402-549039328459
