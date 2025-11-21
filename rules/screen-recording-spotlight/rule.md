@@ -4,6 +4,7 @@ title: Do you spotlight key actions in your screen recordings
 seoDescription: Use on screen zoom and annotation tools to guide viewers during recordings and align with Done Video expectations.
 uri: screen-recording-spotlight
 created: 2024-06-08T00:00:00.000Z
+guid: e806b5d8-30ce-4f41-b768-eb4fc3b2f072
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
