@@ -33,6 +33,7 @@ Once they have been merged, you can [see them being built and deployed](https://
 * Rules are organised into categories
 * A rule can belong to multiple categories
 * Category pages link to rules via frontmatter data
+* Categories can group rules under headings for better organization - see [Category Grouping Documentation](./_docs/CATEGORY-GROUPING.md)
 
 ## The SSW Rules engine 🚗
 
