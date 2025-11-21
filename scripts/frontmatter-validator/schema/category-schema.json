@@ -11,7 +11,27 @@
     "index": {
       "type": "array",
       "items": {
-        "type": "string"
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "heading": {
+                "type": "string"
+              },
+              "rules": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": ["heading", "rules"],
+            "additionalProperties": false
+          }
+        ]
       }
     },
     "uri": {
