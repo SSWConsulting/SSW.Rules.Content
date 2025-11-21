@@ -27,10 +27,10 @@ Many desktop apps expose a Settings option to switch to PR pre-releases before t
 
 ## Why this matters
 
-- Faster feedback for AI-generated changes without compromising quality
-- Realistic testing inside the desktop runtime, not just mock environments
-- Reduced friction for reviewers and Product Owners
-- Encourages the professional Plan → Discuss → Implement → Review cadence
+* Faster feedback for AI-generated changes without compromising quality
+* Realistic testing inside the desktop runtime, not just mock environments
+* Reduced friction for reviewers and Product Owners
+* Encourages the professional Plan → Discuss → Implement → Review cadence
 
 ## The new workflow
 
@@ -55,15 +55,15 @@ Tip: Keep PRs small. Small PR pre-releases make investigation and rollback simpl
 
 ## Tips for professional AI-assisted development
 
-- Prefer small, focused steps that map one-to-one to PRs
-- Write down assumptions and risks in the PR description
-- Add lightweight checks to catch regressions early
-- Use screenshots or short videos for reviewers
-- Keep a changelog entry for user-visible behavior
+* Prefer small, focused steps that map one-to-one to PRs
+* Write down assumptions and risks in the PR description
+* Add lightweight checks to catch regressions early
+* Use screenshots or short videos for reviewers
+* Keep a changelog entry for user-visible behavior
 
 ## References
 
-- SSW Rules – Do you know the best workflow for AI assisted development? (/ai-assisted-development-workflow)
-- GitHub Action example – PR pre-release switching: https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml
-- Release channel handler example - https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts
-- Electron autoUpdater - https://www.electronjs.org/docs/latest/api/auto-updater
+* SSW Rules – Do you know the best workflow for AI assisted development? (/ai-assisted-development-workflow)
+* GitHub Action example – PR pre-release switching: <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml>
+* Release channel handler example - <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts>
+* Electron autoUpdater - <https://www.electronjs.org/docs/latest/api/auto-updater>
