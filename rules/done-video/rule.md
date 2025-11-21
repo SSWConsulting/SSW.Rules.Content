@@ -22,6 +22,7 @@ related:
   - craft-and-deliver-engaging-presentations
   - do-you-zz-old-files-rather-than-deleting-them
   - recording-screen
+  - screen-recording-spotlight
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
   - record-a-quick-and-dirty-done-video
@@ -186,7 +187,6 @@ This helps viewers follow your actions easily — especially on high-resolution 
 
 * **On Mac:** [Make the pointer easier to see on Mac](https://support.apple.com/en-jo/guide/mac-help/mchlp2920/mac)
 * **On Windows:** [Make Windows easier to see | Know where you're pointing](https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d#id0ebf)
-
 :::
 
 ::: bad
