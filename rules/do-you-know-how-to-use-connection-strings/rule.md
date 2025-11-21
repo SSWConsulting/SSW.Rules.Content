@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Learn best practices for using connection strings in .NET applications, including Azure Managed Identities and secure configuration management.
 title: Do you know how to use Connection Strings?
 uri: do-you-know-how-to-use-connection-strings
 authors:

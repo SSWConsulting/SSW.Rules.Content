@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Use ticks and crosses with subtle sound effects in video examples to effectively highlight good and bad practices without interfering with audience comprehension.
 title: Post-Production - Do you use ticks and crosses in video examples?
 uri: ticks-crosses
 authors:

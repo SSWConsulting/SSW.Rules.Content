@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Master essential video editing terminology to improve communication during post-production and ensure clear, concise feedback on your video projects.
 title: Production - Do you know the video editing terms?
 uri: video-editing-terms
 authors:

@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Add URL Access links to your SQL Server Reporting Services reports for easy sharing and reference with specific parameter values.
 archivedreason:
 title: Do you have URL Access link for your report?
 guid: e89dace2-00af-4f5a-b14d-91d69f9ee636

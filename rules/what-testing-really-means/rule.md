@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Understand the distinction between testing and checking to build shared knowledge and improve software quality in your development process.
 title: Do you understand what "testing" really means?
 uri: what-testing-really-means
 authors:
