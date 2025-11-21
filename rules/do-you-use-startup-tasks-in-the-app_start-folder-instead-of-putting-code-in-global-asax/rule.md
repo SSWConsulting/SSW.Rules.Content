@@ -34,6 +34,7 @@ public class MvcApplication : System.Web.HttpApplication
         );        }
 }
 ```
+
 ::: bad
 Figure: Bad example – Logic is implemented in the Application\_Start method which breaks the Single Responsibility Principle
 :::

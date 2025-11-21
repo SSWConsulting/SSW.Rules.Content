@@ -21,7 +21,6 @@ System stored procedures are created and stored in the master database and have 
 2. The stored procedure based on any qualifiers provided (database name or owner).
 3. The stored procedure using dbo as the owner, if one is not specified.
 
-
 <!--endintro-->
 
 Therefore, although the user-created stored procedure prefixed with sp\_ may exist in the current database, the master database is always checked first, even if the stored procedure is qualified with the database name.
