@@ -1,7 +1,7 @@
 ---
 type: category
 title: Example - Grouped Category Rules
-guid: 00000000-0000-0000-0000-000000000001
+guid: f47ac10b-58cc-4372-a567-0e02b2c3d479
 uri: example-grouped-category
 index:
   - heading: Communication

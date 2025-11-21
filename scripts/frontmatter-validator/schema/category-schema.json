@@ -57,7 +57,7 @@
     "properties": {
       "title": "'title' cannot be empty.",
       "type": "'type' must be set to 'category'.",
-      "index": "'index' must be a markdown list of URIs of the rules composing the category.",
+      "index": "'index' must be an array of rule URIs (strings) or grouped rules (objects with 'heading' and 'rules' properties).",
       "guid": "'guid' must be a valid GUID.",
       "uri": "'uri' must not be empty."
     }
