@@ -1,6 +1,6 @@
 ---
 type: rule
-seoDescription: Learn why you should use SCOPE_IDENTITY() instead of @@IDENTITY to safely get the most recent row identity in SQL Server stored procedures and avoid common trigger-related bugs.
+seoDescription: Use SCOPE_IDENTITY() instead of @@IDENTITY to safely get the most recent row identity in SQL Server and avoid trigger-related bugs.
 archivedreason: 
 title: Stored Procedures - Do you use SCOPE_IDENTITY() to get the most recent row identity?
 guid: ca492bae-b564-4446-9095-5bae88eecf66
