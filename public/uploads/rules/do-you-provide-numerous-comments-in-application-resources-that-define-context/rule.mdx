@@ -1,34 +1,37 @@
 ---
-archivedreason: null
-authors:
-- title: Martin Li
-  url: https://ssw.com.au/people/martin-li
+type: rule
+title: Do you provide numerous comments in application resources that define context?
+uri: do-you-provide-numerous-comments-in-application-resources-that-define-context
 categories:
-- category: categories/software-engineering/rules-to-better-internationalization.mdx
-created: 2015-10-21 09:57:28+00:00
+  - category: categories/software-engineering/rules-to-better-internationalization.mdx
+authors:
+  - title: Martin Li
+    url: 'https://ssw.com.au/people/martin-li'
+redirects: []
+guid: 85521cc2-bbbc-4902-a4a0-8b8cc4eb3f69
+seoDescription: >-
+  Knowing the context and use of certain strings helps translators choose the
+  right translation when localizing a web application.
+created: 2015-10-21T09:57:28.000Z
 createdBy: MartinLi
 createdByEmail: MartinLi@ssw.com.au
-guid: 85521cc2-bbbc-4902-a4a0-8b8cc4eb3f69
+lastUpdated: 2025-11-21T22:19:31.166Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
-lastUpdated: 2024-06-08 03:27:17+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
-redirects: []
-seoDescription: Knowing the context and use of certain strings helps translators choose
-  the right translation when localizing a web application.
-title: Do you provide numerous comments in application resources that define context?
-type: rule
-uri: do-you-provide-numerous-comments-in-application-resources-that-define-context
+archivedreason: null
 ---
 
 <introEmbed
   body={<>
-Knowing the context and use of certain strings will help translators choose the right translation from the beginning when you localize your web application to make it available in a variety of languages. Most translation tools will allow translators to see these comments as they translate the strings. To make your comments more friendly, it's better to list in the comment field where this text is used. e.g.
-
-- Text
-- Validation
-- Tooltip
-- Textbox Placeholder
+    Knowing the context and use of certain strings will help translators choose the right translation from the beginning when you localize your web application to make it available in a variety of languages. Most translation tools will allow translators to see these comments as they translate the strings.
+    
+    To make your comments more friendly, it's better to list in the comment field where this text is used. e.g.
+    
+    * Text
+    * Validation
+    * Tooltip
+    * Textbox Placeholder
   </>}
 />
 
@@ -36,10 +39,10 @@ Knowing the context and use of certain strings will help translators choose the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
+  figureEmbed={{
     preset: "default",
     figure: "Use the comment field in the resx to tell you where it is used",
     shouldDisplay: true
-  } }
+  }}
   src="/uploads/rules/do-you-provide-numerous-comments-in-application-resources-that-define-context/Localization_Commonts.jpg"
 />
