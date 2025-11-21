@@ -6,9 +6,7 @@ seoDescription: Learn the best practices for starting vibe coding to ensure your
 guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
 uri: start-vibe-coding-best-practices
 created: 2025-11-21T00:00:00.000Z
-authors:
-  - title: GitHub Copilot
-    url: https://github.com/features/copilot
+authors: []
 related:
   - ai-assisted-development-workflow
   - best-ai-powered-ide
