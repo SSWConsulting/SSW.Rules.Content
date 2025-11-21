@@ -14,6 +14,7 @@ related:
   - best-ai-powered-ide
   - clean-architecture
   - work-in-vertical-slices
+  - software-architecture-decision-tree
 ---
 
 Vibe coding empowers non-developers to build software using AI agents. However, without proper foundation and structure, vibe coding can result in unmaintainable code that fails "the bus test" – meaning if you were hit by a bus tomorrow, no one else could understand or maintain your code.
@@ -42,33 +43,44 @@ Starting your project in GitHub, specifically within your organization, ensures:
 
 ## Use architecture templates
 
-Don't start from scratch! Use one of these battle-tested templates that already include comprehensive AI guidance:
+Don't start from scratch! Use one of these battle-tested SSW templates that already include comprehensive AI guidance:
 
 ### Clean Architecture Template
 
-Use the [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture) which includes:
+Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture) which includes:
 
 * Proper separation of concerns (Domain, Application, Infrastructure, Presentation layers)
 * Built-in dependency injection
 * Comprehensive `agents.md` files guiding AI on architectural decisions
 * `.github/copilot-instructions.md` for GitHub Copilot integration
+* Pre-configured with best practices and patterns
 
 ::: info
-Learn more about [Clean Architecture principles](/clean-architecture)
+Learn more about [Clean Architecture principles](/clean-architecture) and [Rules to Better Clean Architecture](/rules-to-better-clean-architecture)
 :::
 
 ### Vertical Slice Architecture Template
 
-Alternatively, use a [Vertical Slice Architecture template](https://github.com/gothinkster/realworld) which offers:
+Alternatively, use the [SSW Vertical Slice Architecture template](https://github.com/SSWConsulting/SSW.VerticalSliceArchitecture) which offers:
 
 * Feature-focused organization (each slice is a complete vertical through all layers)
 * Easier to understand for non-developers
 * AI guidance files pre-configured
 * Less ceremony than Clean Architecture for simpler projects
+* Faster to get started with
 
 ::: info
-Learn more about [working in vertical slices](/work-in-vertical-slices)
+Learn more about [working in vertical slices](/work-in-vertical-slices) and [Rules to Better Vertical Slice Architecture](/rules-to-better-vertical-slice-architecture)
 :::
+
+::: greybox
+**Which template should I use?**
+
+* Choose **Clean Architecture** if you need more structure and guardrails
+* Choose **Vertical Slice Architecture** if you want to move fast and iterate quickly
+:::
+
+See the [software architecture decision tree](/software-architecture-decision-tree) for more guidance on choosing the right architecture.
 
 ## Drive development from GitHub Copilot Workspaces
 
