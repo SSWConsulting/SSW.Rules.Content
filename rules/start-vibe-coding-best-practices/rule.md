@@ -1,0 +1,110 @@
+---
+type: rule
+archivedreason:
+title: Do you know the best practices to start vibe coding?
+seoDescription: Learn the best practices for starting vibe coding to ensure your code is maintainable, passes the bus test, and follows professional standards using GitHub Copilot Workspaces and architecture templates.
+guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
+uri: start-vibe-coding-best-practices
+created: 2025-11-21T00:00:00.000Z
+authors:
+  - title: GitHub Copilot
+    url: https://github.com/features/copilot
+related:
+  - ai-assisted-development-workflow
+  - best-ai-powered-ide
+  - clean-architecture
+  - work-in-vertical-slices
+---
+
+Vibe coding empowers non-developers to build software using AI agents. However, without proper foundation and structure, vibe coding can result in unmaintainable code that fails "the bus test" – meaning if you were hit by a bus tomorrow, no one else could understand or maintain your code.
+
+<!--endintro-->
+
+The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, and leverages existing AI guidance.
+
+## Start in GitHub
+
+::: bad
+Starting with code on your local machine or in an unmanaged environment
+:::
+
+::: good
+Create your repository in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting) from the start
+:::
+
+Starting your project in GitHub, specifically within your organization, ensures:
+
+* **Version control** - Every change is tracked and can be reverted
+* **Collaboration** - Others can contribute and review your code
+* **Backup** - Your code is safely stored in the cloud
+* **Transparency** - Team members can see what you're building
+* **The bus test** - If you're unavailable, others can take over
+
+## Use architecture templates
+
+Don't start from scratch! Use one of these battle-tested templates that already include comprehensive AI guidance:
+
+### Clean Architecture Template
+
+Use the [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture) which includes:
+
+* Proper separation of concerns (Domain, Application, Infrastructure, Presentation layers)
+* Built-in dependency injection
+* Comprehensive `agents.md` files guiding AI on architectural decisions
+* `.github/copilot-instructions.md` for GitHub Copilot integration
+
+::: info
+Learn more about [Clean Architecture principles](/clean-architecture)
+:::
+
+### Vertical Slice Architecture Template
+
+Alternatively, use a [Vertical Slice Architecture template](https://github.com/gothinkster/realworld) which offers:
+
+* Feature-focused organization (each slice is a complete vertical through all layers)
+* Easier to understand for non-developers
+* AI guidance files pre-configured
+* Less ceremony than Clean Architecture for simpler projects
+
+::: info
+Learn more about [working in vertical slices](/work-in-vertical-slices)
+:::
+
+## Drive development from GitHub Copilot Workspaces
+
+Once your repository is set up with a template, use [GitHub Copilot Workspaces](https://githubnext.com/projects/copilot-workspace) to drive your development:
+
+1. **Open your repository in GitHub Copilot Workspace** - This gives the AI full context of your codebase
+2. **Describe what you want to build** - Use natural language to explain your feature or change
+3. **Review the AI's plan** - The AI will propose changes based on your architecture template and existing code patterns
+4. **Let the AI implement** - Copilot Workspace will make the changes directly in your repository
+5. **Create a Pull Request** - Review the changes before merging to main
+
+::: greybox
+"Add a user registration feature with email and password"
+:::
+::: good
+Figure: Good example - Clear requirement that the AI can implement following the template's patterns
+:::
+
+## Why this approach passes the bus test
+
+By following these practices, your vibe-coded project will be:
+
+✅ **Maintainable** - Following proven architecture patterns
+✅ **Understandable** - Using standard structures that developers recognize
+✅ **Documented** - Architecture decisions are encoded in the template
+✅ **Reviewable** - All changes go through pull requests
+✅ **Professional** - Indistinguishable from code written by experienced developers
+
+::: info
+**Remember:** The goal isn't just to make code work – it's to create code that others can understand, maintain, and extend. Starting with these best practices ensures your vibe coding produces professional-quality software.
+:::
+
+## Learn more
+
+* [AI Assisted Development Workflow](/ai-assisted-development-workflow)
+* [Best AI Powered IDE](/best-ai-powered-ide)
+* [Clean Architecture](/clean-architecture)
+* [Work in Vertical Slices](/work-in-vertical-slices)
+* [SSW Vibe Coding Consulting](https://www.ssw.com.au/consulting/vibe-coding)
