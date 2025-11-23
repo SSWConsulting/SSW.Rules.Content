@@ -42,7 +42,7 @@ There are many ways to record your screen. Here are some popular options:
 ## Advanced recordings
 
 * [OBS](https://obsproject.com/)
-* [Camtasia](https://www.techsmith.com/store/camtasia) (Windows only)
+* [Camtasia](https://www.techsmith.com/store/camtasia)
 
 ::: greybox
 **Tip #1:** If you are recording the steps to reproduce a bug, it might be better to use [Chrome Recorder](https://developer.chrome.com/docs/devtools/recorder) instead.
