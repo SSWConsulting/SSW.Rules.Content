@@ -21,7 +21,7 @@ redirects:
 
 Previously, testing desktop features created with AI agents meant checking out a PR branch locally, building the Electron app, and running it manually. That took time, slowed feedback loops, and encouraged "vibe coding" where changes ship without deep understanding.
 
-Many desktop apps expose a Settings option to switch to PR pre-releases before they merge to main. Point the app at a specific PR build, install it, and test immediately — no local branch juggling or manual builds.
+By exposing a settings option to switch to specific PR builds, they can be easily installed tested - no local branch juggling or manual builds required.
 
 <!--endintro-->
 
