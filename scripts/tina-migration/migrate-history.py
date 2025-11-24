@@ -53,6 +53,18 @@ def update_file(filepath, meta):
     with open(filepath, "r", encoding="utf-8") as f:
         lines = f.read().splitlines()
 
+    archived_reason_has_value = False
+    in_frontmatter = False
+    for line in lines:
+        if line.strip() == "---":
+            in_frontmatter = not in_frontmatter
+            continue
+        if in_frontmatter and line.strip().startswith("archivedreason:"):
+            value = line.split(":", 1)[1].strip()
+            if value != "null":
+                archived_reason_has_value = True
+            break
+
     updates = {
         "lastUpdated": to_utc(meta["lastUpdated"]),
         "lastUpdatedBy": meta["lastUpdatedBy"],
@@ -64,6 +76,8 @@ def update_file(filepath, meta):
     
     if "public/uploads/rules/" in filepath:
         updates["isArchived"] = "true" if meta.get("isArchived") is True else "false"
+        if archived_reason_has_value:
+            updates["isArchived"] = "true"
 
     new_lines = patch_frontmatter_lines(lines, updates)
 
