@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # Step 1: Check out the source code of the pull request.
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
