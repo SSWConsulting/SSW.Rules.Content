@@ -17,6 +17,8 @@ index:
 - do-you-consider-azuresearch-for-your-website
 - azure-resources-creating
 - bicep-user-defined-data-types
+- bicep-module-templates
+- do-you-use-azure-migrate-to-move-to-cloud
 - azure-naming-resources
 - azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups
