@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Avoid naming user stored procedures with sp_ or dt_ prefixes to prevent SQL Server performance issues and conflicts with system stored procedures.
 archivedreason: 
 title: Stored Procedures - Do you avoid starting user stored procedures with system prefix "sp_" or "dt_"?
 guid: 1512205e-fbd3-417e-b11c-3c07aca34ec6
@@ -19,7 +20,6 @@ System stored procedures are created and stored in the master database and have 
 1. The stored procedure in the master database.
 2. The stored procedure based on any qualifiers provided (database name or owner).
 3. The stored procedure using dbo as the owner, if one is not specified.
-
 
 <!--endintro-->
 

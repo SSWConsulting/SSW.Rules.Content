@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Learn how to prepare, facilitate, and run a successful Event Storming workshop to discover domain knowledge and model business processes collaboratively.
 title: Do you know how to run an Event Storming workshop?
 uri: event-storming-workshop
 authors:
@@ -155,6 +156,7 @@ Always spoken in terms of '**When-X Then-Y**' or '**Whenever**'.
 For example:
 
 ::: greybox
+
 * **When** a user logs > 8 hours work, **then** send a warning email and add to overtime
 * **Whenever** an invoice is updated with < 8 hours, **then** send a warning email
 :::
@@ -162,6 +164,7 @@ For example:
 ### End Result
 
 Lots of sticky notes arranged chronologically that shows:
+
 * <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg>Commands & <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg>Events grouped with <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg>Aggregates
 * Defined <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg>Read Models with data that <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> Users need to make decisions
 * Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg>External Systems / Dependencies
