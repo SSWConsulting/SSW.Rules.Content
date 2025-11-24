@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to set up GitHub notifications to fit your personal preferences and reduce unwanted emails about automated actions.
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/github-notifications
 title: Do you know how to setup GitHub notifications?
 guid: 8fbd8c87-7f81-4e1e-b788-5f0ea853442d
 uri: do-you-know-how-to-setup-github-notifications
@@ -19,7 +19,7 @@ GitHub notifications can be frustrating if they are not setup for your personal 
 1. From [GitHub](https://www.github.com) **Profile Dropdown | Settings | Notifications**
    ![Figure: First navigate to your notifications](https://user-images.githubusercontent.com/79821522/113793099-d8973000-978a-11eb-9ca4-3991ba25e7fd.png)
 
-2. Customise the settings as you see fit.
+2. Customise the settings as you see fit 
    ![Figure: The recommended notification setup for non-technical users](https://user-images.githubusercontent.com/79821522/113793107-ddf47a80-978a-11eb-91ea-f8bbce616a21.png)
 
 From the default remove:
