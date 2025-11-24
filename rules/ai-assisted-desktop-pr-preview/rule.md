@@ -19,7 +19,7 @@ redirects:
 
 ---
 
-Previously, testing desktop features created with AI agents meant checking out a PR branch locally, building the Electron app, and running it manually. That took time, slowed feedback loops, and encouraged "vibe coding" where changes ship without deep understanding.
+Previously, testing desktop features created with AI agents meant checking out a PR branch locally, building the app, and running it manually. Which took time, slowed feedback loops, and encouraged "vibe coding" where changes are shipped without a deep understanding of the code.
 
 By exposing a settings option to switch to specific PR builds, they can be easily installed tested - no local branch juggling or manual builds required.
 
