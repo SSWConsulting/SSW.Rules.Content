@@ -68,9 +68,7 @@ When you're in the office, it's easy to have a professionally branded background
 
 Ideally you should have a clean, professional background (like in an office).
 
-While not preferred, virtual/blur backgrounds can be used when your background has unavoidable clutter or distracting elements.
-
-The virtual/blur effect should be your last resort - only use it when your physical background is genuinely distracting or unprofessional.
+While **not** preferred, virtual/blur backgrounds can be used when your background has unavoidable clutter or distracting elements. The virtual/blur effect should be your last resort - only use it when your physical background is genuinely unprofessional.
 
 ::: bad
 ![Figure: Bad example – 1st screen - Blur was used in the office](bad-blur-example.png)
