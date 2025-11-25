@@ -109,15 +109,12 @@ Schedule Send is an alternative to followupthen that involves scheduling emails 
 
 **Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)**
 
-To use it:
+1. Write yourself an email in Outlook
+2. Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email
+3. The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).
+4. When you receive it in your inbox, action the task.
 
-Write yourself an email in Outlook.  
-Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
-
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
-When you receive it in your inbox, action the task.
-
-::: good
+::: good img-medium
 ![Figure: Good example - Schedule send option in Outlook](schedule-send-tab.jpg)
 ![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg)
 :::
@@ -134,7 +131,9 @@ To use it:
 
 2. Select an appropriate date from the drop-down or choose Custom to add additional reminders
 
+::: img-medium
 ![Figure: Add an additional reminder to follow up](followup2.jpg)
+:::
 
 You can even set a custom reminder for the recipient :)
 
@@ -176,7 +175,7 @@ Remind yourself or your team members of important meetings, to-do items or even 
 
 ### 7. Microsoft Teams | Hiding Chats
 
-Alternatively, to keep track of outstanding queries, after answering a question in chat, Right Click | Hide the conversation and now your Teams chats are like a todo list.
+Alternatively, to keep track of outstanding queries, after answering a question in IM chat, **Right Click | Hide** the conversation and now your Teams chats are like a todo list.
 
 ### 8. Phone | Reminders
 
