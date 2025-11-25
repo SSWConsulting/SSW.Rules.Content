@@ -129,7 +129,7 @@ To use it:
 
 ![Figure: Set a follow-up date](followup1.jpg)
 
-2. Select an appropriate date from the drop-down or choose Custom to add additional reminders
+1. Select an appropriate date from the drop-down or choose Custom to add additional reminders
 
 ::: img-medium
 ![Figure: Add an additional reminder to follow up](followup2.jpg)
@@ -137,13 +137,13 @@ To use it:
 
 You can even set a custom reminder for the recipient :)
 
-3. Outlook shows an info tip with the exact follow-up date you chose
-4. A To-Do item is also added to your Outlook To-Do list
+1. Outlook shows an info tip with the exact follow-up date you chose
+2. A To-Do item is also added to your Outlook To-Do list
 
    **Note:** To-Do list can be found in the Tasks pane.
 
-5. On the due date you will receive a Reminder popup from Outlook
-6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
+3. On the due date you will receive a Reminder popup from Outlook
+4. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 ::: ok
 ![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
