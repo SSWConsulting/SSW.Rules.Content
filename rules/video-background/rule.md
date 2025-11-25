@@ -64,22 +64,22 @@ When you're in the office, it's easy to have a professionally branded background
 ![Figure: Good example – Office background with nice lighting ☀️](good-office-background.png)
 :::
 
-### Virtual/Blur backgrounds
+### Virtual/Blur backgrounds (⚠️ not preferred)
 
-While not preferred, virtual/blur backgrounds can be used when you can't achieve a nice and clean real background. The virtual/blur effect should be your last resort - only use it when your physical background is genuinely distracting or unprofessional.
+Ideally you should have a clean, professional background (like in an office).
 
-**When to use virtual/blur:**
+While not preferred, virtual/blur backgrounds can be used when your background has unavoidable clutter or distracting elements. 
 
-* ✅ **Acceptable:** When your background has unavoidable clutter, distracting elements, or is genuinely unprofessional
-* ❌ **Not preferred:** When you already have a clean, professional background (like in an office)
+The virtual/blur effect should be your last resort - only use it when your physical background is genuinely distracting or unprofessional.
+
+::: bad
+![Figure: Bad example – 1st screen - Blur was used in the office](bad-blur-example.png)
+:::
+
+::: good
+![Figure: Good example – 1st screen - Without blur, the office background looks professional](good-without-blur-example.png)
+:::
 
 * **Teams** - [Custom backgrounds in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/?WT.mc_id=M365-MVP-33518) make video meetings more fun, comfortable, and personal
 * **Zoom** - [Virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) feature allows you to display an image or video as your background during a Zoom meeting
 
-::: bad
-![Figure: Bad example – Blur was used in the office while having professional background](bad-blur-example.png)
-:::
-
-::: good
-![Figure: Good example – Without blur, the office background looks professional](good-without-blur-example.png)
-:::
