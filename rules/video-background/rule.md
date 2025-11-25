@@ -64,9 +64,19 @@ When you're in the office, it's easy to have a professionally branded background
 ![Figure: Good example – Office background with nice lighting ☀️](good-office-background.png)
 :::
 
-### Virtual backgrounds
+### Virtual/Blur backgrounds (⚠️ not preferred)
 
-Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. blur OR a background image):
+Ideally you should have a clean, professional background (like in an office).
+
+While **not** preferred, virtual/blur backgrounds can be used when your background has unavoidable clutter or distracting elements. The virtual/blur effect should be your last resort - only use it when your physical background is genuinely unprofessional.
+
+::: bad
+![Figure: Bad example – 1st screen - Blur was used in the office](bad-blur-example.png)
+:::
+
+::: good
+![Figure: Good example – 1st screen - Without blur, the office background looks professional](good-without-blur-example.png)
+:::
 
 * **Teams** - [Custom backgrounds in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/?WT.mc_id=M365-MVP-33518) make video meetings more fun, comfortable, and personal
 * **Zoom** - [Virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) feature allows you to display an image or video as your background during a Zoom meeting
