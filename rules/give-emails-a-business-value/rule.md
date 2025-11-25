@@ -29,19 +29,22 @@ The problem with emailing a task, is that no one knows how important that email 
 People can send tasks in different ways:
 
 1. Send a simple email with no priority indication  
-   ::: bad
-   ![Figure: Bad example - An email with requirements does not indicate the priority](Email sign.jpg)
-   :::
+
+  ::: bad
+  ![Figure: Bad example - An email with requirements does not indicate the priority](Email sign.jpg)
+  :::
 
 1. Put the task straight into the backlog in the desired priority order, but send no email
-   ::: bad
-   ![Figure: Bad example - The developer does not get a chance to ask questions and refine it before it hits the backlog](straight to scrum.jpg)
-   :::
+
+  ::: bad
+  ![Figure: Bad example - The developer does not get a chance to ask questions and refine it before it hits the backlog](straight to scrum.jpg)
+  :::
 
 1. Send an email indicating its priority. The recipient reviews it and places it into the backlog, based off the specified Business Value
-   ::: good
-   ![Figure: Good example - Email tasks with a Business Value, allow the developer to review before putting it in the backlog](Developer entered.jpg)
-   :::
+
+  ::: good
+  ![Figure: Good example - Email tasks with a Business Value, allow the developer to review before putting it in the backlog](Developer entered.jpg)
+  :::
 
 ## The perfect email workflow
 
