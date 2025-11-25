@@ -33,3 +33,62 @@ The best ways to follow up a client are:
   Call them
 
 **Tip:** You can use [FollowUpThen.com](https://www.followupthen.com/) for your follow up emails.
+
+
+
+### Provide clear status updates when following up
+
+When giving a status update to any stakeholder, avoid sending long paragraphs of feedback.  
+Instead, summarise the points into short, clear, actionable items. This lets the recipient get the key information quickly without reading through extra details.
+
+::: email-template
+
+
+| | |
+| -------- | --- |
+| From: | Jake |
+| To: | Jean |
+::: email-content
+
+
+### Hi Jean
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. New Rule – Missing redirect  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creating a rule:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I created a new rule  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hit “save” and waited for the branch to be created  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then nothing happened
+
+I have created a PBI in the TinaCMS backlog, please check https://github.com/tinacms/tinacms/issues/6159
+
+Jake
+
+:::
+:::
+::: bad
+Figure: Bad example - long email with a lot of unnecessary information
+:::
+
+
+::: email-template
+
+| | |
+| -------- | --- |
+| From: | Jake |
+| To: | Jean |
+::: email-content
+
+### Hi Jean
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. New Rule – Missing redirect  
+
+🦙 TinaCMS – PBI Created: [No Redirect After Rule Creation](https://github.com/tinacms/tinacms/issues/6159)
+
+Jake
+
+:::
+:::
+::: good
+Figure: Good example – turning long "points" into short, clear action items
+:::
+
