@@ -23,21 +23,22 @@ The best ways to follow up a client are:
 
 * Use email  
   If there is no response, find the original email and resend.  
-  See our Rules To Better Email
+  See our Rules To Better Email    
   * [Do you know how to hurry someone up?](/do-you-know-how-to-follow-up-an-unanswered-email)
   * [Do you always follow up your clients?](/do-you-follow-up-emails-effectively)
   * [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
-* Use IM or Teams
+* Use IM or Teams   
   See our [Rules To Better Instant Messenger](/rules-to-better-im)
-* Use the phone  
+* Use the phone    
   Call them
 
 **Tip:** You can use [FollowUpThen.com](https://www.followupthen.com/) for your follow up emails.
 
-### Provide clear status updates when following up
+## Provide clear status summaries when following up
 
 When giving a status update to any stakeholder, avoid sending long paragraphs of feedback.  
-Instead, summarise the points into short, clear, actionable items. This lets the recipient get the key information quickly without reading through extra details.
+
+Instead, summarize the points into **short, clear, actionable items**. This lets the recipient get the key information quickly without reading through extra details.
 
 ::: email-template
 
@@ -62,7 +63,7 @@ Jake
 :::
 :::
 ::: bad
-Figure: Bad example - long email with a lot of unnecessary information
+Figure: Bad example - Long email with a lot of unnecessary information
 :::
 
 ::: email-template
@@ -84,5 +85,5 @@ Jake
 :::
 :::
 ::: good
-Figure: Good example – turning long "points" into short, clear action items
+Figure: Good example – Turning long "points" into short, clear action items
 :::
