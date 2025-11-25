@@ -25,6 +25,8 @@ index:
 - have-urls-to-your-main-services-on-linkedin
 - screenshots-add-branding
 - plastic-bags-branding
+- do-you-use-branded-laptop-skins
+
 
 ---
 
