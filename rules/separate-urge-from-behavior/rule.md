@@ -13,7 +13,6 @@ authors:
     url: https://ssw.com.au/people/brady-stroud
 related: 
   - accepting-unsolicited-feedback
-  - how-to-respond-to-criticism
 redirects: []
 ---
 
