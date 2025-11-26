@@ -62,6 +62,7 @@ index:
 - return-on-investment
 - lose-battle-keep-client
 - poc-vs-mvp
+- give-clear-status-updates
 ---
 
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.
