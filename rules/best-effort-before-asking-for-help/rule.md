@@ -23,8 +23,7 @@ When you are asked to improve a feature, your manager expects a recommendation, 
 
 * **Timebox your investigation** - Spend a few focused minutes digging into the problem so you can talk about it confidently instead of shrugging your shoulders
 * **Use modern helpers** - GPT, Copilot, and other LLMs can draft UI text, suggest color palettes, or list industry-standard statuses even if design is not your specialty
-
-  ![Figure: Paste your thoughts into ChatGPT for suggestions.](screenshot-2025-11-26-at-13.53.44.png)
+  ![Figure: Paste your thoughts into ChatGPT for suggestions](screenshot-2025-11-26-at-13.53.44.png)
 * **Share your reasoning** - Explain why your preferred option fits the product (e.g., aligns with Azure DevOps/GitHub statuses, uses existing colors, or matches product vocabulary)
 
 Once you have a draft, send it for review. Managers love to edit a thoughtful proposal; they hate being asked to start from scratch.
