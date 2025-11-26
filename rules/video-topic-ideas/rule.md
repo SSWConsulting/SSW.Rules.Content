@@ -13,15 +13,15 @@ To keep your video content relevant and aligned with your business goals, it's c
 
 <!--endintro-->
 
-### Why think about video topics?
+## Why think about video topics?
 
 Marketing priorities may shift over time due to changes in business focus, customer feedback, or industry trends. By holding a dedicated brainstorming sessions, you can:
 
-* **Stay aligned with your business goals:** Revisit your strategy and assess whether your video content is still on track.
-* **Respond to market changes:** Adapt to new industry trends and address emerging customer concerns.
-* **Ensure consistent content creation:** Avoid periods of stagnation by planning your content pipeline ahead of time.
+* **Stay aligned with your business goals:** Revisit your strategy and assess whether your video content is still on track
+* **Respond to market changes:** Adapt to new industry trends and address emerging customer concerns
+* **Ensure consistent content creation:** Avoid periods of stagnation by planning your content pipeline ahead of time
 
-### How to brainstorm effectively
+## How to brainstorm effectively
 
 Schedule a recurring meeting
 
@@ -51,14 +51,14 @@ Attendees: {{ PEOPLE }}
 :::
 :::
 
-::: good\
-Figure: Good example - Getting video topics aligned with the marketing strategy.\
+::: good
+Figure: Good example - Getting video topics aligned with the marketing strategy
 :::
 
-### How to tell if your topic interests people?
+## How to tell if your topic interests people?
 
 People tend to use YouTube like a search engine, so keyword search volume can show how interested people are in a topic.
 
-[Google Trends](< https://trends.google.com/trends/>) - A website that lets you check the search trend for a keyword or topic globally or by region.
+[Google Trends](https://trends.google.com/trends) lets you check the search trend for a keyword or topic globally or by region.
 
-![Figure: Search trend comparison between Gemini and GPT.](screenshot-2025-11-26-at-15.06.51.png)
+![Figure: Search trend comparison between Gemini and GPT](screenshot-2025-11-26-at-15.06.51.png)
