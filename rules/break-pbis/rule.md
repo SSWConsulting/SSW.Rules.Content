@@ -71,6 +71,7 @@ Say you are doing the Sprint Planning and you see a PBI that says _“Sync data 
 If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | Subject: | Sync data to Xero |
@@ -80,6 +81,7 @@ Figure: Bad example - This is a monolithic 8-day task
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | Subject: | Xero Sync #1 - Update UI to show sync status for invoices and receipts |
