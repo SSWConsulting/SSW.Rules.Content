@@ -1,140 +1,66 @@
 
 
 ---
-seoDescription: Learn how implementing an llms.txt file can enhance your website's accessibility and usability for large language models, ensuring accurate content interpretation and improved user interactions.
+seoDescription: Encourage staff to use branded laptop skins to improve marketing visibility and strengthen your company’s brand presence.
 type: rule
-title: Do you provide an llms.txt file to make your website LLM-friendly?
-uri: do-you-provide-an-llms.txt-file-to-make-your-website-llm-friendly
+title: Do you use branded laptop skins?
+uri: do-you-use-branded-laptop-skins
 authors:
-  - title: Stef Starcevic 
-    url: https://www.ssw.com.au/people/stef-starcevic/
-  - title: Louis Roa
-    url: https://www.ssw.com.au/people/louis-roa/
-created: 2025-03-20T14:00:00.000Z
-guid: 123e4567-e89b-12d3-a456-426614174000
+  - title: Stef Telecki
+    url: https://www.ssw.com.au/people/stef
+created: 2025-11-19T13:42:55.753Z
+guid: 7c7fb5e1-3c8e-4c1c-a4b5-9f9f7a8ad9d1
 ---
 
-
-As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information. Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content. 
-
+You’ve probably seen it before: a team member presents at a meetup, works in a café, or joins a client meeting—and their laptop looks completely generic. No logo, no colors, no hint of the company they represent. It’s a missed branding opportunity. A simple laptop skin turns every work session into subtle, free marketing for your organization.
 
 <!--endintro-->
 
+Branding matters, and consistency reinforces professionalism. Branded laptop skins give your team a unified look, increase brand visibility, and help clients quickly recognize who you are. They act as mini billboards and also protect laptops from scratches—practical *and* impactful.
 
-## What is an `llms.txt`?
+### Why use branded laptop skins?
 
+* **Instant brand recognition** – Whether in meetings, airports, coworking spaces, or conferences, your brand becomes part of the environment.  
+* **Consistent and professional appearance** – A team that looks coordinated builds trust.  
+* **Low-cost marketing** – Once applied, it promotes your company every time the laptop is opened.  
+* **Helps differentiate company devices** – Useful for security and identification.  
+* **Protects equipment** – Skins can reduce wear from daily use.
 
-An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and orgbanised information about your site, helping them understand and use your content better.
+### What makes a good branded laptop skin?
 
+A strong laptop skin design should:
 
-### Benefits of Implementing `llms.txt` 
+* Display your logo clearly and at the right scale  
+* Use your brand colors  
+* Maintain enough simplicity so it doesn’t feel distracting  
+* Fit correctly and be easy to apply  
+* Be durable enough to withstand daily use
 
 
-- **Easier to Read:** LLMs can directly access pertinent information without sifting through extraneous HTML elements.
-- **More Accurate Results:** By providing clear and concise content, you reduce the risk of misinterpretation by LLMs.
-- **Consistent Format:** The standardized format ensures consistency, making it easier for LLMs to process your site's data.
+### Rollout tips for your team
 
+* Provide skins during onboarding so every new team member starts branded  
+* Encourage staff to replace worn skins promptly  
+* Use one standard design for consistency  
+* Offer optional variations only when aligned with your brand guidelines  
+* Have extras available in the office for damaged or outdated laptops
 
-### Formatting your `llms.txt` 
+### Bonus: Great for events
 
+Laptop skins help your team stand out at:
 
-An effective `llms.txt` file includes:
+* Meetups  
+* Conferences  
+* Training sessions  
+* Client workshops  
 
+When your team opens their laptops, your brand becomes part of the room.
 
-1. **Project or Site Name:** An H1 header with the name of your project or site.
-2. **Summary:** A blockquote offering a brief overview of your project, highlighting essential aspects.
-3. **Detailed Information:** Additional sections providing in-depth insights, such as usage guidelines or key features.
-4. **Resource Links:** H2 headers followed by lists of URLs to relevant Markdown files or resources.
+### Final thought
 
+Branded laptop skins are a small investment with a big return. They keep your company visible, reinforce branding, and help your team present a unified professional identity wherever they work.
 
-
-
-### Examples
-Here is a mock example of the format:
-
-
-```
-# Title
-
-
-> Optional description goes here
-
-
-Optional details go here
-
-
-## Section name
-
-
-- [Link title](https://link_url): Optional link details
-
-
-## Optional
-
-
-- [Link title](https://link_url)
-```
-**Figure: Mock example of llms.txt format**
-
-Note that the "Optional" section has a special meaning - if it's included, the URLs provided there can be skipped if a shorter context is needed. Use it for secondary information which can often be skipped.
-
-
-Here is what a cut down version of a llm.txt looks like:
-
-
-```
-# FastHTML
-
-
-> FastHTML is a python library which brings together Starlette, Uvicorn, HTMX, and fastcore's `FT` "FastTags" into a library for creating server-rendered hypermedia applications.
-
-
-Important notes:
-
-
-- Although parts of its API are inspired by FastAPI, it is *not* compatible with FastAPI syntax and is not targeted at creating API services
-- FastHTML is compatible with JS-native web components and any vanilla JS library, but not with React, Vue, or Svelte.
-
-
-## Docs
-
-
-- [FastHTML quick start](https://answerdotai.github.io/fasthtml/tutorials/quickstart_for_web_devs.html.md): A brief overview of many FastHTML features
-- [HTMX reference](https://raw.githubusercontent.com/path/reference.md): Brief description of all HTMX attributes, CSS classes, headers, events, extensions, js lib methods, and config options
-
-
-## Examples
-
-
-- [Todo list application](https://raw.githubusercontent.com/path/adv_app.py): Detailed walk-thru of a complete CRUD app in FastHTML showing idiomatic use of FastHTML and HTMX patterns.
-
-
-## Optional
-
-
-- [Starlette full documentation](https://gist.githubusercontent.com/path/starlette-sml.md): A subset of the Starlette documentation useful for FastHTML development.
-``` 
-**Figure: Excerpt of an in-use llms.txt**
-
-### Directories 
-
-
-Here are a few directories that list the llms.txt files available on the web: 
-
-
-[llmstxt.site](dotcom)
-
-[directory.llmstxt.cloud](dotcom)
-
-### Integrations
-
-
-Various tools and plugins are available to help integrate the llms.txt specification into your workflow:
-
-- **llms_txt2ctx** - CLI and Python module for parsing llms.txt files and generating LLM context
-- **JavaScript Implementation** - Sample JavaScript implementation
-- **vite-plugin-llms** - Vite plugin that serves markdown files alongside your routes following the llms.txt specification
-
+```markdown
 
 
 
