@@ -71,7 +71,6 @@ Say you are doing the Sprint Planning and you see a PBI that says _“Sync data 
 If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
-
 |          |     |
 | -------- | --- |
 | Subject: | Sync data to Xero |
@@ -81,24 +80,11 @@ Figure: Bad example - This is a monolithic 8-day task
 :::
 
 ::: email-template  
-
 |          |     |
 | -------- | --- |
 | Subject: | Xero Sync #1 - Update UI to show sync status for invoices and receipts |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #2 - Update the "Save" option in "Invoice Details" page to push data to Xero |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #3 - Create endpoints for Xero web hooks to push data from Xero to client app  |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #4 - As a backup, add a manual option to re-sync data with Xero in case either system was down |
 :::
 ::: good
