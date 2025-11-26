@@ -14,7 +14,7 @@ related:
 created: 2025-11-18T18:34:35+00:00
 guid: afa830cb-573c-426b-9167-2587a302d883
 ---
-When you are asked to improve a feature, your manager expects a recommendation, not a blank question. Don't just trow things over the fence. Even if the request pushes you outside your comfort zone, make a best-effort attempt so the conversation stays focused on approving the right option.
+When you are asked to improve a feature, your manager expects a recommendation, not a blank question. Don't just throw things over the fence. Even if the request pushes you outside your comfort zone, make a best-effort attempt so the conversation stays focused on approving the right option.
 
 <!--endintro-->
 
