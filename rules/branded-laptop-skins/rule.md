@@ -7,7 +7,7 @@ title: Do you use branded laptop skins?
 uri: branded-laptop-skins
 authors:
   - title: Stef Telecki
-    url: https://www.ssw.com.au/people/stef
+    url: https://www.ssw.com.au/people/louis-roa/
 created: 2025-11-19T13:42:55.753Z
 guid: 7c7fb5e1-3c8e-4c1c-a4b5-9f9f7a8ad9d1
 ---
