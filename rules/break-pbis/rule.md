@@ -1,8 +1,8 @@
 ---
 seoDescription: Do you keep your Product Backlog Items (PBIs) smaller than 2 days' effort to avoid incomplete features at Sprint's end?
 type: rule
-title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
-uri: create-pbis-under-2-days
+title: Backlog - Do you break large PBIs into smaller than 2 days' PBIs?
+uri: break-pbis
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,6 +13,7 @@ authors:
   - title: Prem Radhakrishnan
     url: https://ssw.com.au/people/prem-radhakrishnan
 related:
+  - break-tasks
   - defining-pbis
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
@@ -21,6 +22,7 @@ redirects:
   - spec-do-you-create-tasks-under-4-hours
   - keep-PBIs-smaller-than-2-days
   - create-PBIs-under-2-days
+  - create-pbis-under-2-days
 created: 2009-09-15T09:20:55.000Z
 archivedreason: null
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
