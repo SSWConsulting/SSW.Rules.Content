@@ -45,8 +45,6 @@ Jake
 Figure: Bad example - The reply unnecessarily repeats the client’s full message and adds noise.
 :::
 
-
-
 ::: email-template
 
 | | |
