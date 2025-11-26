@@ -4,7 +4,7 @@
 seoDescription: Encourage staff to use branded laptop skins to improve marketing visibility and strengthen your company’s brand presence.
 type: rule
 title: Do you use branded laptop skins?
-uri: do-you-use-branded-laptop-skins
+uri: branded-laptop-skins
 authors:
   - title: Stef Telecki
     url: https://www.ssw.com.au/people/stef
@@ -18,15 +18,15 @@ You’ve probably seen it before: a team member presents at a meetup, works in a
 
 Branding matters, and consistency reinforces professionalism. Branded laptop skins give your team a unified look, increase brand visibility, and help clients quickly recognize who you are. They act as mini billboards and also protect laptops from scratches—practical *and* impactful.
 
-### Why use branded laptop skins?
+## Why use branded laptop skins?
 
-* **Instant brand recognition** – Whether in meetings, airports, coworking spaces, or conferences, your brand becomes part of the environment.  
-* **Consistent and professional appearance** – A team that looks coordinated builds trust.  
-* **Low-cost marketing** – Once applied, it promotes your company every time the laptop is opened.  
-* **Helps differentiate company devices** – Useful for security and identification.  
-* **Protects equipment** – Skins can reduce wear from daily use.
+* **Instant brand recognition** – Whether in meetings, airports, coworking spaces, or conferences, your brand becomes part of the environment  
+* **Consistent and professional appearance** – A team that looks coordinated builds trust  
+* **Low-cost marketing** – Once applied, it promotes your company every time the laptop is opened  
+* **Helps differentiate company devices** – Useful for security and identification  
+* **Protects equipment** – Skins can reduce wear from daily use
 
-### What makes a good branded laptop skin?
+## What makes a good branded laptop skin?
 
 A strong laptop skin design should:
 
@@ -36,8 +36,7 @@ A strong laptop skin design should:
 * Fit correctly and be easy to apply  
 * Be durable enough to withstand daily use
 
-
-### Rollout tips for your team
+## Rollout tips for your team
 
 * Provide skins during onboarding so every new team member starts branded  
 * Encourage staff to replace worn skins promptly  
@@ -45,7 +44,7 @@ A strong laptop skin design should:
 * Offer optional variations only when aligned with your brand guidelines  
 * Have extras available in the office for damaged or outdated laptops
 
-### Bonus: Great for events
+## Bonus: Great for events
 
 Laptop skins help your team stand out at:
 
@@ -56,14 +55,6 @@ Laptop skins help your team stand out at:
 
 When your team opens their laptops, your brand becomes part of the room.
 
-### Final thought
+---
 
 Branded laptop skins are a small investment with a big return. They keep your company visible, reinforce branding, and help your team present a unified professional identity wherever they work.
-
-```markdown
-
-
-
-
-
-
