@@ -13,8 +13,8 @@ related:
 ---
 
 When following up with a client or giving a status update, avoid repeating their entire message or quoting long blocks of text.
-A great status update is short, clear, and easy to act on.
-Your goal is to let the client understand the update in seconds, without needing to read through a long narrative. Provide just enough context and then give one clear, actionable status line.
+
+A great status update is short, clear, and easy to act on. Your goal is to let the client understand the update in seconds, without needing to read through a long narrative. Provide just enough context and then give one clear, actionable status line.
 
 <!--endintro-->
 
