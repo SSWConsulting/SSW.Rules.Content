@@ -3,14 +3,13 @@ seoDescription: Summarize client status updates into short, clear, actionable li
 type: rule
 title: Do you summarize updates clearly when communicating status?
 uri: give-clear-status-updates
+guid: eb928e65-e17b-41b8-8ff9-44e06728b5f4
 authors:
-  - title: Your Name
-created: 2025-xx-xxT00:00:00.000Z
+- title: Chloe Lin
+  url: https://ssw.com.au/people/chloe-lin
+created: 2025-11-26T14:06:33.0000000Z
 related:
-  - do-you-know-how-to-follow-up-an-unanswered-email
-  - do-you-follow-up-emails-effectively
-  - rules-to-better-email
-  - rules-to-better-im
+  - turn-emails-into-pbis
 ---
 
 When following up with a client or giving a status update, avoid repeating their entire message or quoting long blocks of text.
