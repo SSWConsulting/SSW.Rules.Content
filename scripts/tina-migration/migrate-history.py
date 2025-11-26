@@ -61,7 +61,7 @@ def update_file(filepath, meta):
             continue
         if in_frontmatter and line.strip().startswith("archivedreason:"):
             value = line.split(":", 1)[1].strip()
-            if value != "null":
+            if value and value != "null":
                 archived_reason_has_value = True
             break
 
