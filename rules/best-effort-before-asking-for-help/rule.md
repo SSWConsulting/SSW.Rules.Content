@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Do you give your best effort before asking for help?
-seoDescription: Before escalating a task, timebox a best-effort solution, use
-  tools like GPT, and share your recommended option so stakeholders can simply
-  approve or adjust it.
+seoDescription: Before escalating a task, timebox a best-effort solution, use tools like GPT, and share your recommended option so stakeholders can simply approve or adjust it.
 uri: best-effort-before-asking-for-help
 authors:
   - title: Adam Cogan
