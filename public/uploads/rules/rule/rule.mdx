@@ -23,7 +23,7 @@ seoDescription: "I'd be happy to help you generate an SEO description. Please pr
 created: 2021-02-22T03:20:26.000Z
 createdBy: 'Christian Morford-Waite [SSW]'
 createdByEmail: ChristianMWaite@ssw.com.au
-lastUpdated: 2025-11-27T13:49:01.413Z
+lastUpdated: 2025-11-27T14:03:13.266Z
 lastUpdatedBy: Chloe
 lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
@@ -437,7 +437,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={{
     preset: "badExample",
     figure: "Caption for bad images",
@@ -449,7 +449,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={{
     preset: "default",
     figure: "Caption for regular images",
@@ -461,7 +461,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={{
     preset: "okExample",
     figure: "Caption for OK images",
@@ -473,7 +473,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={{
     preset: "goodExample",
     figure: "Caption for good images",
@@ -544,7 +544,7 @@ This is [an external link](https://www.google.com).
 
 ```
 
-**Figure: Markdown to add videos and video captions**
+**Figure: MDX to add videos and video captions**
 
 #### Example
 
@@ -554,23 +554,11 @@ Check out this video - it's responsive!
 
 ***
 
-### 9. Twitter Cards Embed
+### 9. Code
 
-Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
+To include code block in MDX, start with 3 backticks \`\`\` on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
-```md
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-```
-
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
-***
-
-### 10. Code
-
-To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
-
-For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Do you set the language on code blocks?](/set-language-on-code-blocks)
 
 To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
@@ -614,7 +602,7 @@ ELSE
 
 **Figure: SQL code block**
 
-```cs
+```csharp
 public class MyClass
 {
     public string  myField = string.Empty;
