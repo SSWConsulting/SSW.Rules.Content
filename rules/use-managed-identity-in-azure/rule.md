@@ -1,7 +1,7 @@
 ---
-seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects and how it prevents security incidents caused by stored secrets.
+seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
 type: rule
-title: Do you know you should use Managed Identity in your Azure project?
+title: Do you use Managed Identities in your Azure projects?
 uri: use-managed-identity-in-azure
 authors:
   - title: Ben Neoh
@@ -10,10 +10,9 @@ created: 2025-11-27T10:15:55.753Z
 guid: 9a4f3b2d-8c3e-4f6f-9a5b-2d7b6c4e1f90
 ---
 
-::: greybox
-Teams often unknowingly create security risks by storing secrets in configuration files, DevOps variables, or—even worse—accidentally committing them to Git 😱. This leads to production outages, failed deployments, and painful key rotations that waste time and increase stress. Even when Key Vault is used, many rely on long-lived static secrets, which still require manual rotation and management.  
+Teams often unknowingly create security risks by storing secrets in configuration files, DevOps variables, or - even worse - accidentally committing them to Git 😱. This leads to production outages, broken deployments, and painful key rotations that waste time and cost money. Even when Key Vault is used, many rely on static secrets, which still require manual rotation and management. Thankfully Azure has a much safer way of solving this problem.
+
 <!--endintro-->
-:::
 
 ## What is a Managed Identity?
 
@@ -35,36 +34,14 @@ Using secrets (even when placed in Key Vault as static keys) creates manual work
 
 Benefits include:
 
-* ✔ Eliminates all secrets and keys  
-* ✔ More secure – nothing to leak  
-* ✔ Supported by all Azure SDKs  
-* ✔ Automatically rotates  
-* ✔ Free  
----
-
-## The problem — common mistakes
-
-::: greybox
-People store secrets in:
-* App Settings  
-* JSON configuration files  
-* DevOps variable groups  
-* Key Vault with static access keys  
-
-This leads to:
-* security incidents  
-* credential rotation work  
-* pipelines breaking  
-* production outages
-:::
-::: bad
-Figure: Bad example - Storing secrets in configuration or repos creates ongoing risk and maintenance.
-:::
-
+* ✅ Eliminates all secrets and keys  
+* ✅ More secure – nothing to leak  
+* ✅ Supported by all Azure SDKs  
+* ✅ Automatically rotates
+* ✅ Free
+  
 ---
 
 ## How to use Managed Identity in your project
 
 🎥 **Video coming soon:** *How to use Managed Identity in your Azure project*
-
-
