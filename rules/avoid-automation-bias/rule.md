@@ -50,7 +50,7 @@ There are two types of errors made due to automation bias:
 
 #### Task complexity + time pressure
 
-Under stress, cognition narrows and we rely more heavily on mental shortcuts. 
+Under stress, cognition narrows and we rely more heavily on mental shortcuts.
 
 AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
 
@@ -71,7 +71,7 @@ This isn't prescriptive, just a pattern to be aware of.
 ### What doesn't fix it (but seems like it should)
 
 * **Human-in-the-loop** - This only covers legal accountability. Just because a human is in the loop, doesn't mean they're immune to automation bias.
-* **Higher model accuracy** - Using a highly accurate model breeds complacency 
+* **Higher model accuracy** - Using a highly accurate model breeds complacency
 * **Training people that "software is often wrong"** - Makes people think they know more about the software than they do → false confidence
 
 ### What actually helps
