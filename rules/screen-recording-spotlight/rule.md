@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you spotlight key actions in your screen recordings
+title: Do you spotlight key actions in your screen recordings?
 seoDescription: Use on screen zoom and annotation tools to guide viewers during recordings and align with Done Video expectations.
 uri: screen-recording-spotlight
 created: 2024-06-08T00:00:00.000Z
@@ -19,7 +19,7 @@ Tools like ZoomIt from the Sysinternals suite let you **enlarge**, **pan**, and 
 
 <!--endintro-->
 
-## Windows
+## Getting started with ZoomIt  
 
 Follow these steps before you hit record:
 
@@ -28,7 +28,10 @@ Follow these steps before you hit record:
 * Use the tool to spotlight the key fields, buttons, or hotkeys you reference, especially when you are producing a [Done Video](/done-video)
 * Finish each segment by clearing annotations so the next step starts clean
 
-This habit keeps the audience engaged, reduces editing, and makes your recording align with the clarity expected in a video recording.
+Using this tool helps you keeping the audience engaged, reduces editing, and makes your recording align with the clarity expected in a video recording.
+
+`youtube: https://www.youtube.com/embed/Ap7y6VFL8xU`
+**Video: Zoomit FREE Tool Levels Up Tutorials - Live screen annotations (4 min)**
 
 ## What about Mac users
 
