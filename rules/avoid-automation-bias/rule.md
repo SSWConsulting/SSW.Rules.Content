@@ -19,7 +19,7 @@ guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
 
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
-Let's talk about what leads to creating AI slop: 
+Let's talk about what leads to creating AI slop:
 
 <!--endintro-->
 
@@ -29,11 +29,7 @@ youtube: https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z
 
 ***\*Video: How AI is making you dumber (3 min)\****
 
-
-
 Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a brain problem, not a model problem.
-
-
 
 ## Errors from automation bias
 
@@ -49,8 +45,6 @@ There are two types of errors made due to automation bias:
 * **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most relevant content, rather than the most correct content
 
 * **GPS Navigation** - Countless cases of people driving their car into water 'because the app told them to' (it's happened dozens of times!)
-
-  
 
 ### Why do we fall for it?
 
@@ -82,9 +76,9 @@ This isn't prescriptive, just a pattern to be aware of.
 
 #### Don't submit AI content that you don't fully understand
 
-If AI helps you create work, that's great. 
+If AI helps you create work, that's great.
 
-But what if someone asks you a technical question about the work, that you can't answer? 
+But what if someone asks you a technical question about the work, that you can't answer?
 
 It then becomes very obvious that this work is not your own - worse, it might even mean the solution is suboptimal.
 
