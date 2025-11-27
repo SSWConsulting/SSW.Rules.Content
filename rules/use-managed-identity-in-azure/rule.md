@@ -47,12 +47,14 @@ Benefits include:
 
 ::: greybox
 People store secrets in:
+
 * App Settings  
 * JSON configuration files  
 * DevOps variable groups  
 * Key Vault with static access keys  
 
 This leads to:
+
 * security incidents  
 * credential rotation work  
 * pipelines breaking  
@@ -67,5 +69,3 @@ Figure: Bad example - Storing secrets in configuration or repos creates ongoing 
 ## How to use Managed Identity in your project
 
 🎥 **Video coming soon:** *How to use Managed Identity in your Azure project*
-
-
