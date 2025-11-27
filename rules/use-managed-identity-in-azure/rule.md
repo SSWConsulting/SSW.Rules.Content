@@ -40,6 +40,7 @@ Benefits include:
 * ✔ Supported by all Azure SDKs  
 * ✔ Automatically rotates  
 * ✔ Free  
+
 ---
 
 ## The problem — common mistakes
