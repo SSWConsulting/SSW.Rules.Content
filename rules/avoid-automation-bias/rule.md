@@ -23,7 +23,7 @@ Let's talk about what leads to creating AI slop:
 
 <!--endintro-->
 
-youtube: https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z
+youtube: <https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z>
 **Video: How AI is making you dumber (3 min)**
 
 Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a brain problem, not a model problem.
