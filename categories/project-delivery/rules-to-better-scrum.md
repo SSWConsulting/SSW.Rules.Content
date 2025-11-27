@@ -17,7 +17,7 @@ index:
   - work-in-priority-order
   - how-to-create-a-sprint-backlog
   - build-the-backlog
-  - create-pbis-under-2-days
+  - break-pbis
   - definition-of-done
   - have-a-definition-of-ready
   - include-links-in-dones

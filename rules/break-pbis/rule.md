@@ -1,8 +1,8 @@
 ---
 seoDescription: Do you keep your Product Backlog Items (PBIs) smaller than 2 days' effort to avoid incomplete features at Sprint's end?
 type: rule
-title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
-uri: create-pbis-under-2-days
+title: Backlog - Do you break large PBIs into smaller than 2 days' PBIs?
+uri: break-pbis
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,6 +13,7 @@ authors:
   - title: Prem Radhakrishnan
     url: https://ssw.com.au/people/prem-radhakrishnan
 related:
+  - break-tasks
   - defining-pbis
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
@@ -21,6 +22,7 @@ redirects:
   - spec-do-you-create-tasks-under-4-hours
   - keep-PBIs-smaller-than-2-days
   - create-PBIs-under-2-days
+  - create-pbis-under-2-days
 created: 2009-09-15T09:20:55.000Z
 archivedreason: null
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
@@ -69,6 +71,7 @@ Say you are doing the Sprint Planning and you see a PBI that says _“Sync data 
 If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | Subject: | Sync data to Xero |
@@ -78,23 +81,12 @@ Figure: Bad example - This is a monolithic 8-day task
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | Subject: | Xero Sync #1 - Update UI to show sync status for invoices and receipts |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #2 - Update the "Save" option in "Invoice Details" page to push data to Xero |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #3 - Create endpoints for Xero web hooks to push data from Xero to client app  |
-:::
-::: email-template  
-|          |     |
-| -------- | --- |
 | Subject: | Xero Sync #4 - As a backup, add a manual option to re-sync data with Xero in case either system was down |
 :::
 ::: good
