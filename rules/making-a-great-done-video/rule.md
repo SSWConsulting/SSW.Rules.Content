@@ -51,7 +51,7 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*
 
    * **Note:** If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
-5. White Space
+5. **White Space** - When you click on something and it starts spinning, say what’s coming up next so you don’t end up in awkward silence.
 6. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
 
    * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
