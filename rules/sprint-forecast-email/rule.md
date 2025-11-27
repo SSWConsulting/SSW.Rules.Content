@@ -1,8 +1,8 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast/Planning email? (aka The functionality to be developed in the Sprint)
+title: Do you create a Sprint Forecast email? (aka Functionality to be developed per Sprint Planning)
 seoDescription: The functionality that will be developed during the Sprint confirms the relationship between the Product Owner and Development Team in Agile Project Management.
-uri: sprint-forecast
+uri: sprint-forecast-email
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,12 +14,13 @@ related:
   - github-sprint-templates
 redirects:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+  - sprint-forecast
 created: 2010-12-02T03:53:59.000Z
 archivedreason: null
 guid: f749bf03-8785-4433-a5c5-6c21cda9b782
 ---
 
-After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast email for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
 This is simply an agreement between the Development Team and the PO for one Sprint and should be confirmed via an email at the beginning of every Sprint.
 
