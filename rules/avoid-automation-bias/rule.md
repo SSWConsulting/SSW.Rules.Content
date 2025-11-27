@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you avoid Automation Bias?
+title: Do you avoid Automation Bias? (aka AI Slop)
 seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
 uri: avoid-automation-bias
 authors:
@@ -19,13 +19,21 @@ guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
 
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
-Automation bias describes the impairment of judgement due to a deferred sense of accountability: _"It was the AI's mistake!"_
+Let's talk about what leads to creating AI slop: 
 
 <!--endintro-->
 
-Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a **brain** problem, not a **model** problem (not to be mistaken with **model bias**).
+```
+youtube: https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z
+```
 
-Automation bias is not just an AI problem, it's an issue wherever a human has used a machine to automate a task.
+***\*Video: How AI is making you dumber (3 min)\****
+
+
+
+Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a brain problem, not a model problem.
+
+
 
 ## Errors from automation bias
 
@@ -37,8 +45,12 @@ There are two types of errors made due to automation bias:
 ### Where automation bias shows up
 
 * **Coding assistants (e.g. Copilot)** - They make you faster, not necessarily better. The more complex some generated code is, the more likely you'll be to click "Accept"
-* **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most **relevant** content, rather than the most **correct** content
-* **GPS Navigation** - Countless cases of people driving their car into water 'because the app told them to'
+
+* **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most relevant content, rather than the most correct content
+
+* **GPS Navigation** - Countless cases of people driving their car into water 'because the app told them to' (it's happened dozens of times!)
+
+  
 
 ### Why do we fall for it?
 
@@ -68,9 +80,19 @@ This isn't prescriptive, just a pattern to be aware of.
 
 ### What actually helps
 
+#### Don't submit AI content that you don't fully understand
+
+If AI helps you create work, that's great. 
+
+But what if someone asks you a technical question about the work, that you can't answer? 
+
+It then becomes very obvious that this work is not your own - worse, it might even mean the solution is suboptimal.
+
+Remember: own your work.
+
 #### Show error rates clearly
 
-Replace vague disclaimers with bold numbers where possible:  
+AI and automation tools that are prone to mistakes should include exact error rates:
 
 ::: greybox
 AI sometimes makes mistakes, ensure you check its output.
