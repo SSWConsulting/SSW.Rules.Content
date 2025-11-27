@@ -23,7 +23,7 @@ seoDescription: "I'd be happy to help you generate an SEO description. Please pr
 created: 2021-02-22T03:20:26.000Z
 createdBy: 'Christian Morford-Waite [SSW]'
 createdByEmail: ChristianMWaite@ssw.com.au
-lastUpdated: 2025-11-27T14:03:13.266Z
+lastUpdated: 2025-11-27T14:05:14.420Z
 lastUpdatedBy: Chloe
 lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
@@ -660,7 +660,7 @@ public class MyClass
 
 ***
 
-### 11. Email Templates
+### 10. Email Templates
 
 #### Code for email template
 
@@ -670,12 +670,12 @@ public class MyClass
   to="XXX"
   cc="YYY"
   bcc="ZZZ"
-  subject="&#123;&#123; EMAIL SUBJECT &#125;&#125;"
+  subject="{{ EMAIL SUBJECT }}"
   shouldDisplayBody={true}
   body={<>
     ## Hi XXX,
 
-&#123;&#123; EMAIL CONTENT &#125;&#125;
+{{ EMAIL CONTENT }}
   </>}
   figureEmbed={{
     preset: "goodExample",
@@ -708,13 +708,13 @@ public class MyClass
 
 ***
 
-### 12. Tables
+### 11. Tables
 
 #### Code for tables
 
 ```md
 | Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
+| ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
@@ -737,7 +737,7 @@ public class MyClass
 
 ***
 
-### 13. Thematic breaks (horizontal rules)
+### 12. Thematic breaks (horizontal rules)
 
 #### Code for hr
 
