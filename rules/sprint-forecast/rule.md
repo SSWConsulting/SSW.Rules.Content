@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality to be developed in the Sprint)
+title: Do you create a Sprint Forecast/Planning email? (aka The functionality to be developed in the Sprint)
 seoDescription: The functionality that will be developed during the Sprint confirms the relationship between the Product Owner and Development Team in Agile Project Management.
 uri: sprint-forecast
 authors:
@@ -9,10 +9,9 @@ authors:
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
 related:
-  - github-sprint-templates
   - what-happens-at-a-sprint-planning-meeting
-  - what-happens-at-retro-meetings
   - sprint-review-retro-email
+  - github-sprint-templates
 redirects:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 created: 2010-12-02T03:53:59.000Z
