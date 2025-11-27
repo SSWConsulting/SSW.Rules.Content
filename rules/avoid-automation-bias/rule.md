@@ -40,7 +40,7 @@ There are two types of errors made due to automation bias:
 
 ### Where automation bias shows up
 
-* **Coding assistants (e.g. Copilot)** - They make you faster, not necessarily better. The more complex some generated code is, the more likely you'll be to click "Accept"
+* **Coding assistants (e.g. Copilot)** - They make you faster, not better. The more complex some generated code is, the more likely you'll be to click "Accept"
 
 * **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most relevant content, rather than the most correct content
 
@@ -50,9 +50,11 @@ There are two types of errors made due to automation bias:
 
 #### Task complexity + time pressure
 
-Under stress, cognition narrows and we rely more heavily on mental shortcuts. AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
+Under stress, cognition narrows and we rely more heavily on mental shortcuts. 
 
-This creates a vicious cycle where increased time pressure makes us even more likely to accept AI outputs without proper scrutiny, amplifying our over-reliance on automation.
+AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
+
+This creates a vicious cycle: Increased time pressure → more likely to accept AI outputs without scrutiny.
 
 #### Social aspects & accountability
 
@@ -60,17 +62,17 @@ If there are two people within a company who don't know each other well, and rev
 
 #### Personality traits
 
-More extroverted people may move quickly and accept outputs more readily.
+More extroverted people want to move quickly → they accept AI outputs more readily.
 
-People high in neuroticism may doubt their own outputs, and thus doubt AI's outputs too.
+People high in neuroticism may doubt their own outputs → they doubt AI's outputs too.
 
 This isn't prescriptive, just a pattern to be aware of.
 
 ### What doesn't fix it (but seems like it should)
 
-* **Human-in-the-loop** - This only covers legal accountability. Just because a human is in the loop, doesn't mean they are critically evaluating the output
-* **Higher model accuracy** - Even a 99.9% accurate model can still be wrong, furthermore - a more accurate model can lead to more complacency
-* **Training people that "software is often wrong"** - Makes people think they know more about the software than they do, leading to overconfidence
+* **Human-in-the-loop** - This only covers legal accountability. Just because a human is in the loop, doesn't mean they're immune to automation bias.
+* **Higher model accuracy** - Using a highly accurate model breeds complacency 
+* **Training people that "software is often wrong"** - Makes people think they know more about the software than they do → false confidence
 
 ### What actually helps
 
@@ -82,11 +84,11 @@ But what if someone asks you a technical question about the work, that you can't
 
 It then becomes very obvious that this work is not your own - worse, it might even mean the solution is suboptimal.
 
-Remember: own your work.
+Remember: **own your work**.
 
-#### Show error rates clearly
+#### Show error rates clearly (for devs)
 
-AI and automation tools that are prone to mistakes should include exact error rates:
+When creating tools that are prone to mistakes, include exact error rates:
 
 ::: greybox
 AI sometimes makes mistakes, ensure you check its output.
@@ -107,7 +109,7 @@ More specific warning, people are more likely to take it seriously
 ::: greybox
 "Random Person: Hey, can you review this code I wrote with Copilot?"
 
-Bob: I don't know you well, and I have better things to do... approved.
+Bob: I don't know you well, and I have better things to do... approved ✅
 :::
 ::: bad
 Random pair reviews, people don't know each other well, so they won't feel accountable
@@ -116,7 +118,7 @@ Random pair reviews, people don't know each other well, so they won't feel accou
 ::: greybox
 Alice: Hey Bob, can you review this code I wrote with Copilot?
 
-Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look.
+Bob: Sure, I want to make sure I don't let Alice down, so I'll take a closer look 👀
 :::
 ::: good
 Pair reviews with people who know each other well, so they feel accountable
@@ -137,7 +139,7 @@ AI provides a summary, with not much context. People may take it at face value
 I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?
 :::
 ::: good
-AI has context, and is less likely to make stuff up. People are more likely to critically evaluate the output
+AI has context, and is less likely to hallucinate. You can more easily take ownership of the work.
 :::
 
 ##### Four directing questions (readiness gate before prompting)
@@ -151,4 +153,6 @@ Use these to decide if you know enough to prompt. If any answer is vague, pause 
 
 ## Why this matters now
 
-Big Tech is heavily pushing **agents**. We love agents, however, without proper guardrails, we'll let text generators quietly make business decisions. Recognise automation bias, design for it, and keep humans accountable for their work.
+Big Tech is heavily pushing **agents**. We love agents, however, without proper guardrails, we'll let text generators quietly make business decisions.
+
+Recognise automation bias, design for it, and keep people accountable for their work.
