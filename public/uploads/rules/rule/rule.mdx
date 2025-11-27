@@ -351,19 +351,6 @@ This is [an external link](https://www.google.com).
   figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
 />
 
-
-#### Hiding content
-
-Use the class "hidden" to hide content.
-
-```md
-::: hidden
-bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
-:::
-```
-
-**Figure: Nothing will show up from this Markdown**
-
 ---
 
 ### 6. Images
@@ -443,7 +430,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 <imageEmbed
   alt="Image"
-  size="large"
+  size="small"
   showBorder={false}
   figureEmbed={ {
     preset: "default",
@@ -457,7 +444,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 <imageEmbed
   alt="Image"
-  size="large"
+  size="small"
   showBorder={false}
   figureEmbed={ {
     preset: "default",
@@ -801,11 +788,11 @@ public class MyClass
 #### Code for tables
 
 ```md
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+ | Tables        |      Are      |   Cool |
+ | ------------- | :-----------: | -----: |
+ | col 3 is      | right-aligned | \$1600 |
+ | col 2 is      |   centered    |   \$12 |
+ | zebra stripes |   are neat    |    \$1 |
 ```
 
 **Figure: Markdown to generate tables**
@@ -829,20 +816,6 @@ public class MyClass
 
 #### Code for hr
 
-```md
----
-```
-
-#### Examples
-
----
-```md
----
-```
-
-#### Examples
-
----
 ```md
 ---
 ```
