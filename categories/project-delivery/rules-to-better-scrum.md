@@ -28,7 +28,7 @@ index:
   - technical-overview
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
   - summary-recording-sprint-reviews
-  - sprint-forecast
+  - sprint-forecast-email
   - sprint-review-retro-email
   - meeting-do-you-update-your-tasks-before-the-daily-scrum
   - meeting-do-you-know-what-to-prepare-for-each-meeting

@@ -62,8 +62,9 @@ Here's a suggested runsheet for what to cover in the video:
 
 1. Before the recording, inform participants that the session is being recorded and ask them if there's nothing sensitive in the Sprint Retrospective
 2. Start the recording by showing the Product website
-3. Run through Sprint Review Email - which should include the Sprint Retrospective
-4. Run through Sprint Planning Email
+3. Run through [Sprint Review Email](/sprint-review-retro-email) - which should include the Sprint Retrospective
+  **Tip:** The summary should be focused on the Dones and any special highlights. In the email template, bold the most important points so they stand out. These highlighted items should be called out in the summary
+4. Run through [Sprint Planning Email](/sprint-forecast)
 5. Finish the recording on the Product YouTube Channel, and mention that the current recording will be uploaded there
 
 See [useful tips on how to make great videos](/making-a-great-done-video).

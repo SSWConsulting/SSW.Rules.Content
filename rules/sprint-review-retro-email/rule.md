@@ -80,7 +80,7 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
 
-2. What got done?
+1. What got done?
 
 | **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
 | -------- | --------------- | -------------- | ----------- | ------------ |
@@ -89,19 +89,19 @@ Please see below for a more detailed breakdown of the Sprint:
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
-3. Sprint Burndown - A quick overview of the Sprint
+1. Sprint Burndown - A quick overview of the Sprint
 
 ![Figure: Sprint Burndown](burndown-V2.png)
 
-4. Code Coverage - Hopefully tests are increasing each Sprint
+1. Code Coverage - Hopefully tests are increasing each Sprint
 
 {{ CODE COVERAGE }}
 
-5. Velocity *(Optional)*
+1. Velocity *(Optional)*
 
 {{ VELOCITY }}
 
-6. Burnup - How are we tracking for the big picture? *
+1. Burnup - How are we tracking for the big picture? *
 
 ![Figure: Release Burnup](release-burnup.jpg)
 
@@ -114,17 +114,17 @@ Please see below for a more detailed breakdown of the Sprint:
 
 **Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
 
-7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
+1. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
 ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
 ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
 
-8. Application Health Overview Timeline - For the entire Sprint
+1. Application Health Overview Timeline - For the entire Sprint
 
 ![Figure: Application Health Overview Timeline](application-insights.jpg)
 
-9. Product Roadmap
+1. Product Roadmap
 
 {{ ROADMAP LINK }}
 
@@ -139,13 +139,13 @@ Progress:
 
 *Add this for each current epic in your backlog*
 
-10. R&D - Did we do any experimental work?
+1. R&D - Did we do any experimental work?
 
 {{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
-11. AI use - what tools did you use?
+1. AI use - what tools did you use?
 
 * {{ PERSON }} - {{ TOOLS }}
 
@@ -208,9 +208,15 @@ Figure: Good example - Template for Sprint Review/Retro email
 ![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::
 
-## Recording Review and Retrospective Meetings
+## Recording a Review and Retrospective Meetings Summary
 
-Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend.
+
+::: info
+**Tip:** The summary should be focused on the Dones and any special highlights. In the email template, bold the most important points so they stand out. These highlighted items should be called out in the summary.
+:::
+
+See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
 
 `youtube: https://www.youtube.com/watch?v=d1-5wziOH7o`
 **Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)**
