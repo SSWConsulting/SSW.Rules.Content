@@ -89,3 +89,7 @@ Figure: Good example - Copy this as email template and send to Product Owner
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
 :::
+
+::: info
+**Tip:** In the email template, bold the most important points so they stand out.
+:::
