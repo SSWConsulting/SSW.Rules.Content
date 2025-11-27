@@ -14,7 +14,6 @@ Teams often unknowingly create security risks by storing secrets in configuratio
 
 <!--endintro-->
 
-
 ## What is a Managed Identity?
 
 A **Managed Identity** is an identity that Azure creates and manages for your resource so it can authenticate securely **without storing any credentials**.
@@ -46,5 +45,3 @@ Benefits include:
 ## How to use Managed Identity in your project
 
 🎥 **Video coming soon:** *How to use Managed Identity in your Azure project*
-
-
