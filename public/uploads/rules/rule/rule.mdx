@@ -23,7 +23,7 @@ seoDescription: "I'd be happy to help you generate an SEO description. Please pr
 created: 2021-02-22T03:20:26.000Z
 createdBy: 'Christian Morford-Waite [SSW]'
 createdByEmail: ChristianMWaite@ssw.com.au
-lastUpdated: 2025-11-27T13:23:10.511Z
+lastUpdated: 2025-11-27T13:41:32.072Z
 lastUpdatedBy: Chloe
 lastUpdatedByEmail: chloelin@ssw.com.au
 isArchived: false
@@ -286,17 +286,21 @@ This is [an external link](https://www.google.com).
   figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
 />
 
-#### Hiding content
+<asideEmbed
+  variant="warning"
+  body={<>
+    This is a \<div> using the class "warning". Works the same as using a \<p> . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
+/>
 
-Use the class "hidden" to hide content.
-
-```md
-::: hidden
-bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
-:::
-```
-
-**Figure: Nothing will show up from this Markdown**
+<asideEmbed
+  variant="tips"
+  body={<>
+    This is a \<div> using the class "tips". Works the same as using a \<p> . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: true }}
+/>
 
 ***
 
