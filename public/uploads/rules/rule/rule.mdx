@@ -36,7 +36,7 @@ uri: rule
   body={<>
 SSW Rules are **technical documentation** presented as practical guidelines that help teams build better software and work more effectively. They capture best practices across coding, architecture, communication, design and project management, making them a living knowledge base that supports consistency, clarity and quality in every project.
 
-This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
+This is an **example rule + Markdown/MDX cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
   </>}
 />
 ## Concepts to write rules
@@ -76,7 +76,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 <asideEmbed
   variant="info"
   body={<>
-    Do **not** use Heading 1 (`&lt;h1&gt;`) in the content, even with the good intention of improving SEO. The page title already uses `&lt;h1&gt;`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `&lt;h1&gt;` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+    Do **not** use Heading 1 (&lt;h1&gt;) in the content, even with the good intention of improving SEO. The page title already uses &lt;h1&gt;, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple &lt;h1&gt; elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
   </>}
   figureEmbed={{
     preset: "default",
@@ -112,8 +112,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 ...and this is a blockquote:
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
->
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\
 > \- Someone famous
 
 ---
@@ -129,7 +128,7 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-==These words== are surrounded by a &lt;mark&gt; (HTML needed).
+And ==these words== will be highlighted.
 ```
 
 **Figure: Markdown to generate different text styles**
@@ -142,7 +141,7 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-==These words== are surrounded by a &lt;mark&gt; (HTML needed).
+And ==these words== will be highlighted.
 
 ---
 
@@ -251,7 +250,7 @@ This is [an external link](https://www.google.com).
 
 ```
 
-**Figure: Markdown to generate boxes**
+**Figure: MDX to generate boxes**
 
 
 <asideEmbed
@@ -336,6 +335,22 @@ This is [an external link](https://www.google.com).
   }}
 />
 
+<asideEmbed
+  variant="warning"
+  body={<>
+    This is a &lt;div&gt; using the class "warning". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
+/>
+
+<asideEmbed
+  variant="tips"
+  body={<>
+    This is a &lt;div&gt; using the class "tips". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
+/>
+
 
 #### Hiding content
 
@@ -377,7 +392,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: "Image using class \"img-small\"",
+    figure: 'Image rendered with size="small"',
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -390,7 +405,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: "Image using class \"img-medium\"",
+    figure: 'Image rendered with size="medium"',
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -403,7 +418,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: "Image using class \"img-large\"",
+    figure: 'Image rendered with size="large"',
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -416,7 +431,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   showBorder={false}
   figureEmbed={ {
     preset: "default",
-    figure: "Image using class \"no-border\"",
+    figure: 'Image rendered with showBorder="false"',
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -497,7 +512,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={ {
     preset: "badExample",
     figure: "Caption for bad images",
@@ -511,7 +526,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={ {
     preset: "default",
     figure: "Caption for regular images",
@@ -524,7 +539,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={ {
     preset: "okExample",
     figure: "Caption for OK images",
@@ -537,7 +552,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
+  showBorder={true}
   figureEmbed={ {
     preset: "goodExample",
     figure: "Caption for good images",
@@ -617,7 +632,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ```
 
-**Figure: Markdown to add videos and video captions**
+**Figure: MDX to add videos and video captions**
 
 #### Example
 
@@ -629,23 +644,12 @@ Check out this video - it's responsive!
 
 ---
 
-### 9. Twitter Cards Embed
 
-Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
-
-```md
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-```
-
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
----
-
-### 10. Code
+### 9. Code
 
 To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
-For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Do you set the language on code blocks?](/set-language-on-code-blocks)
 
 To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
@@ -686,7 +690,7 @@ ELSE
 
 **Figure: SQL code block**
 
-```cs
+```csharp
 public class MyClass
 {
     public string  myField = string.Empty;
@@ -744,7 +748,7 @@ public class MyClass
 
 ---
 
-### 11. Email Templates
+### 10. Email Templates
 
 #### Code for email template
 
@@ -754,12 +758,12 @@ public class MyClass
   to="XXX"
   cc="YYY"
   bcc="ZZZ"
-  subject="&#123;&#123; EMAIL SUBJECT &#125;&#125;"
+  subject="{{ EMAIL SUBJECT }}"
   shouldDisplayBody={true}
   body={<>
     ## Hi XXX,
 
-&#123;&#123; EMAIL CONTENT &#125;&#125;
+{{ EMAIL CONTENT }}
   </>}
   figureEmbed={{
     preset: "goodExample",
@@ -792,7 +796,7 @@ public class MyClass
 
 ---
 
-### 12. Tables
+### 11. Tables
 
 #### Code for tables
 
@@ -821,10 +825,24 @@ public class MyClass
 
 ---
 
-### 13. Thematic breaks (horizontal rules)
+### 12. Thematic breaks (horizontal rules)
 
 #### Code for hr
 
+```md
+---
+```
+
+#### Examples
+
+---
+```md
+---
+```
+
+#### Examples
+
+---
 ```md
 ---
 ```
