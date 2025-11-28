@@ -19,7 +19,7 @@ Developers often spend long hours at a desk, which can make it easy to fall into
 
 Encouraging healthier habits helps create a more productive and positive team.
 
-There are many ways to help keep your team healthy 🍎! 
+There are many ways to help keep your team healthy 🍎!
 
 * **Fresh snacks** - Provide fresh fruit and veggies every Monday. Set up a reminder or a delivery subscription so it happens automatically
 * **Better bonding:** Avoid encouraging drinking. There are plenty of healthier ways to connect and have fun at team events
