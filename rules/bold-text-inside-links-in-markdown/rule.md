@@ -14,15 +14,8 @@ guid: 57b13eef-aefb-44bf-a7cd-03074bffdcfa
 When making a link bold in Markdown, the position of the bold formatting matters. Even though both approaches render visually similar, only one preserves proper semantics, accessibility, and consistent styling.
 
 <!--endintro-->
-
-Avoid wrapping the link with bold formatting. Place the bold formatting inside the link syntax. 
-
-This ensures:
-
-* The entire link is both bold and clickable
-* Correct semantic HTML structure
-* Better accessibility for screen readers
-* Predictable styling across Markdown renderers
+  
+## ❌ Avoid wrapping the link with bold formatting
 
 ::: greybox
 Markdown example: 
@@ -39,6 +32,15 @@ This results in less ideal HTML:
 Figure: Bad example - While it may look the same, the bold is no longer part of the link element, which can cause inconsistencies and reduces semantic clarity
 :::
 
+## ✅ Place the bold formatting inside the link syntax
+
+This ensures:
+
+* The entire link is both bold and clickable
+* Correct semantic HTML structure
+* Better accessibility for screen readers
+* Predictable styling across Markdown renderers
+
 ::: greybox
 Markdown example: 
 ``` md
@@ -53,5 +55,7 @@ HTML output:
 ::: good
 Figure: Good example - Cleaner HTML, better accessibility, and more consistent styling across your design system
 :::
+
+---
 
 If text is both bold and a link, the bold should live inside the link syntax, not the other way around.
