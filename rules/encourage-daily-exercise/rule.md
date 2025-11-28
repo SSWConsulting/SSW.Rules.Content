@@ -13,6 +13,7 @@ authors:
 related:
   - do-you-know-the-dangers-of-sitting
   - stretch-at-work
+  - healthy-office-food
   - lasting-habits
 redirects:
   - do-you-encourage-daily-exercise-at-work
