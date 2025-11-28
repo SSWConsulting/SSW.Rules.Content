@@ -22,8 +22,8 @@ Developers are notoriously unhealthy people. They don't exercise enough, don't s
 * Encouraging them to do as much exercise as possible. E.g. doing push-ups every day
 * And instead of dinners for birthdays where you eat and drink all night, every few months we always do something fun for someone's birthday, like indoor climbing, ten-pin bowling or even a bush walk in the Blue Mountains
 
-> I also recommend a monthly weigh-in, with incentives to look after yourself. I don't encourage developers to stay up all night investigating new stuff, and I take them away for a two weeks every year to work by the beach and get some fresh air into their system, as well some early morning swims.
-> I find that encouraging a healthy life-style really helps my team be more productive and have more fun.
+> I don't encourage developers to stay up all night investigating new stuff, and I take them away for a two weeks every year to work by the beach and get some fresh air into their system, as well some early morning swims.
+> I find that encouraging a healthy life-style really helps my team be more productive and have more fun. I also suggest regular weigh-ins, with incentives to look after yourself.
 > \- Adam Cogan
 
 ![Figure: Promote healthy eating in the office](fruit.jpg)
