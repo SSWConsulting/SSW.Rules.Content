@@ -63,7 +63,6 @@ Tip: Keep PRs small. Small PR pre-releases make investigation and rollback simpl
 
 ## References
 
-* SSW Rules – Do you know the best workflow for AI assisted development? (/ai-assisted-development-workflow)
-* GitHub Action example – PR pre-release switching: <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml>
-* Release channel handler example - <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts>
-* Electron autoUpdater - <https://www.electronjs.org/docs/latest/api/auto-updater>
+* **GitHub Action example** – PR pre-release switching: <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml>
+* **Release channel handler example** - <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts>
+* **Electron autoUpdater** - <https://www.electronjs.org/docs/latest/api/auto-updater>
