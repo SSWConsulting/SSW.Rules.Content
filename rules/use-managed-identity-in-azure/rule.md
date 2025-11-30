@@ -28,38 +28,17 @@ This means **no more stored secrets**, ever.
 
 ---
 
-## The problem — common mistakes
-
-::: greybox
-People store secrets in:
-
-* App Settings
-* JSON configuration files
-* DevOps variable groups
-* Key Vault with static access keys
-
-This leads to:
-
-* Security incidents  
-* Credential rotation work  
-* Pipelines breaking  
-* Production outages
-:::
-::: bad
-Figure: Bad example - Storing secrets in configuration or repos creates ongoing risk and maintenance
-:::
-
 ## Why Managed Identity is always better
 
 Using secrets (even when placed in Key Vault as static keys) creates manual work and security gaps. Managed Identity removes that entire problem space.
 
-✅ Benefits include:
+Benefits include:
 
-* Eliminates all secrets and keys
-* More secure – nothing to leak
-* Supported by all Azure SDKs
-* Automatically rotates
-* Free
+* ✅ Eliminates all secrets and keys  
+* ✅ More secure – nothing to leak  
+* ✅ Supported by all Azure SDKs  
+* ✅ Automatically rotates
+* ✅ Free
   
 ---
 
