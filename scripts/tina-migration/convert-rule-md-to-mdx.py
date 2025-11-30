@@ -162,7 +162,7 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 def convert_mark_tags_to_md_highlight(text: str) -> str:
     return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -273,11 +273,8 @@ def replace_image_block(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="{preset}Example"
+  figureText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -317,11 +314,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: {should_display}
-  }} }}
+  figurePreset="default"
+  figureText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -338,11 +332,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="default"
+  figureText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -373,11 +364,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="{preset_kind}Example"
+  figureText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -416,11 +404,8 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
 />
 '''
 
@@ -452,23 +437,10 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
 />
 '''
-
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
 
 
 def process_custom_aside_blocks(content):
@@ -541,16 +513,13 @@ def process_custom_aside_blocks(content):
 
             figure_js = js_string(figure)
             embed = f'''
-<asideEmbed
+<boxEmbed
   variant="{box_type}"
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
 />
 '''
             output.append(embed)
@@ -668,11 +637,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {should_display_js}
-  }}}}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
 />'''
 
         out.append(embed)
@@ -708,7 +674,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
     content = re.sub(PRESET_AND_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_and_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
     content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
@@ -723,7 +689,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
     content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
 
     def _replace_simple_figure_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")):
             body = m.group(2)
             if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
                 return keep_simple_block_with_prefixed_images(m, src_prefix)
