@@ -64,6 +64,7 @@ feat: Complete authentication system
 ```
 
 **Issues:**
+
 * 47 files changed, 3,421 insertions(+), 892 deletions(-)
 * Impossible to review effectively
 * Can't revert specific changes
@@ -81,16 +82,19 @@ Git supports multiple authors via the `Co-authored-by` trailer in commit message
 ### The Benefits of This Approach
 
 **Proper Attribution:**
+
 * Both the AI implementer and the human verifier receive credit
 * Transparent collaboration history
 
 **Small, Vertical Commits:**
+
 * Each commit represents one logical change
 * Easy to review and understand
 * Can revert specific changes without affecting others
 * Clear progression of work
 
 **Connection to Task Documentation:**
+
 * Commits align with [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
 * Easy to cross-reference commit history with task docs
 * Provides complete context for future developers
@@ -119,6 +123,7 @@ Co-authored-by: Gordon Beeming <gordon@example.com>
 ```
 
 **Result:**
+
 * Focused commits instead of 1 giant commit
 * Each commit is reviewable independently
 * Clear relationship to task documentation
@@ -149,6 +154,7 @@ Co-authored-by: Gordon Beeming <me@gordonbeeming.com>"
 ```
 
 **Git History Shows:**
+
 * **Author:** GitHub Copilot (or AI Assistant)
 * **Co-author:** Gordon Beeming
 
@@ -294,6 +300,7 @@ feat: Add authentication module
 Author: GitHub Copilot
 Co-authored-by: Gordon Beeming <gordon@example.com>
 ```
+
 * Gordon's avatar appears on the commit
 * Commit counts toward Gordon's contributions
 * Links to Gordon's profile from the commit
