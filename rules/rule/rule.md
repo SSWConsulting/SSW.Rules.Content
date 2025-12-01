@@ -44,7 +44,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ### 1. Headings, paragraphs, and blockquotes
 
-```markdown
+```md
 ## This is a heading 2 
 
 ### This is a heading 3
