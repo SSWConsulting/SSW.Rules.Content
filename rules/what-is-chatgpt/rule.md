@@ -78,7 +78,7 @@ Instead of needing:
 
 **Make boring stuff less painful**
 
-* Summarising long documents.
+* Summarizing long documents.
 * Cleaning up wording.
 * Reformatting things (tables, checklists, JSON, slides outlines).
 * It's like having an enthusiastic intern who doesn't complain about grunt work.
