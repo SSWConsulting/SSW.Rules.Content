@@ -30,7 +30,7 @@ For this reason, we encourage you to choose only high quality photos and to avoi
 Every time you add an image to your content, make sure it:
 
 * Is readable if it has any text on it
-* Has been [optimized](optimize-your-images)
+* Has been [optimized](/optimize-your-images)
 * Looks consistent with others on the same page
 * Has at least 800px width (except for logos, icons, and profile images)
 * (optional) Is not in dark-mode - Light background images look better most of the times
