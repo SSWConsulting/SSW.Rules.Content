@@ -278,7 +278,7 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset}Example"
+  figurePreset="default"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -481,11 +481,8 @@ def process_custom_aside_blocks(content):
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  figurePreset="{preset}Example"
+  figureText={{{figure_js}}}
 />
 '''
             output.append(embed)
@@ -603,11 +600,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {should_display_js}
-  }}}}
+  figurePreset="{preset}Example"
+  figureText={{{figure_js}}}
 />'''
 
         out.append(embed)
