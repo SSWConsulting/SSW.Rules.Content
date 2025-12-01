@@ -32,7 +32,7 @@ It also saves your message history so that you can go back and look at your conv
 
 ![Figure: ChatGPT provides human like responses!](chatgptfindnorthwind.png)
 
-### Why is ChatGPT cool?
+## Why is ChatGPT cool?
 
 ::: greybox
 Because it's basically a really nerdy friend who never sleeps. 😄
