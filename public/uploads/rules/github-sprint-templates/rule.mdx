@@ -1,19 +1,30 @@
 ---
-seoDescription: Standardize your Scrum processes with GitHub issue templates for Sprint Reviews/Retros and Forecasts, streamlining data entry and preserving visibility.
-type: rule
-archivedreason: Moving to Email ([Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/)) due to GitHub Issues' shortcomings, cluttered backlogs, necessity for private repos in public projects, and limitations in scope management.
-title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
-uri: github-sprint-templates
+archivedreason: Moving to Email ([Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/))
+  due to GitHub Issues' shortcomings, cluttered backlogs, necessity for private repos
+  in public projects, and limitations in scope management.
 authors:
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-related:
-  - scrum-in-github
-  - github-issue-templates
-  - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
-  - sprint-review-retro-email
-created: 2021-10-28T03:49:07.455Z
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
+created: 2021-10-28 04:31:09+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: adbf96c6-1609-467f-8044-1173c874c3b5
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/scrum-in-github/rule.mdx
+- rule: public/uploads/rules/github-issue-templates/rule.mdx
+- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
+- rule: public/uploads/rules/sprint-review-retro-email/rule.mdx
+seoDescription: Standardize your Scrum processes with GitHub issue templates for Sprint
+  Reviews/Retros and Forecasts, streamlining data entry and preserving visibility.
+title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
+type: rule
+uri: github-sprint-templates
 ---
 
 Sprint emails can be painful because you need to copy and paste data. Moreover, you can easily lose visibility of all your past Sprints.
@@ -22,7 +33,7 @@ GitHub issue templates help solve this problem by standardizing the format and l
 
 Let's take a look at how...
 
-<!--endintro-->
+<endOfIntro />
 
 Creating an issue template for both your Sprint Review/Retro email and your Sprint Forecast email gives you several advantages.
 
@@ -36,14 +47,40 @@ Make your GitHub issue templates follow the format of the rules on [Sprint Forec
 
 Give your Sprint issues a special "Sprint" tag so they can be identified in the backlog. Alternatively, you could store them in a separate repo which keeps them apart from your others issues and lets you keep the Sprint emails private if you don't want them in your public repo.
 
-::: bad
-![Figure: Bad example - Sprint emails can easily become inconsistent and lost in your inbox](sprintemailtimepro.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Sprint emails can easily become inconsistent and lost in your inbox",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/github-sprint-templates/sprintemailtimepro.png"
+/>
 
-::: good
-![Figure: Good example - With GitHub issues it's easy to spin up a Sprint Review or Forecast template](sprinttemplateissues.png)
-:::
 
-::: good
-![Figure: Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with Markdown!](editsprintforecast.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - With GitHub issues it's easy to spin up a Sprint Review or Forecast template",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/github-sprint-templates/sprinttemplateissues.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with Markdown!",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/github-sprint-templates/editsprintforecast.png"
+/>

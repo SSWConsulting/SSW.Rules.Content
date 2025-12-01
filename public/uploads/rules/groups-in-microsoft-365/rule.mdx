@@ -1,25 +1,36 @@
 ---
-seoDescription: Discover how to choose the right group in Microsoft 365, including on-premises groups, distribution groups, security groups, and more. Learn about collaboration features and best practices for streamlining communication and improving productivity.
-type: rule
-title: Do you know how to choose the right group in Microsoft 365?
-uri: groups-in-microsoft-365
 authors:
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-  - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy
-related:
-  - do-you-standardise-ad-group-names
-  - following-microsoft-365-groups
-created: 2023-01-23T04:01:38.052Z
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+- title: Ash Anil
+  url: https://www.ssw.com.au/people/ash-anil
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-office-365.mdx
+created: 2023-01-23 23:53:50+00:00
+createdBy: Chris Schultz [SSW]
+createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
 guid: 918a685e-ff2e-4c82-b5df-06e8b932819a
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/do-you-standardise-ad-group-names/rule.mdx
+- rule: public/uploads/rules/following-microsoft-365-groups/rule.mdx
+seoDescription: Discover how to choose the right group in Microsoft 365, including
+  on-premises groups, distribution groups, security groups, and more. Learn about
+  collaboration features and best practices for streamlining communication and improving
+  productivity.
+title: Do you know how to choose the right group in Microsoft 365?
+type: rule
+uri: groups-in-microsoft-365
 ---
 
 Microsoft provides a collaboration tool called Microsoft 365 email groups on the cloud, which allows users to send emails to a group of people using a single email address. These groups can be created and managed from any location with an internet connection and can include both internal and external recipients. Microsoft 365 email groups on the cloud offer a wide range of collaboration features, making them an effective tool for streamlining communication and improving productivity.
 
-<!--endintro-->
+<endOfIntro />
 
 ## On-premises groups vs Microsoft 365 groups
 
@@ -31,7 +42,19 @@ These groups are created and managed within an organization's local network, usi
 
 **_NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD, unless you enable [Group Writeback](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-group-writeback-enable?WT.mc_id=M365-MVP-33518)._**
 
-![Figure: Choosing a group type in On-Premises Active Directory ](ad-group.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Choosing a group type in On-Premises Active Directory",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/groups-in-microsoft-365/ad-group.png"
+/>
+
 
 ### Groups in Microsoft 365 (Cloud)
 
@@ -51,7 +74,19 @@ The groups available in Microsoft 365 are:
 
 **\#6 Dynamic distribution groups**
 
-![Figure: Choosing a group type in Microsoft 365](m365-groups.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Choosing a group type in Microsoft 365",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/groups-in-microsoft-365/m365-groups.png"
+/>
+
 
 #### \#1 Microsoft 365 groups
 
@@ -81,7 +116,19 @@ Shared mailboxes are used when multiple people need to access the same mailbox. 
 
 Shared mailboxes are also useful as they give you a mailbox without taking up one of your Exchange online licences.
 
-![Figure: Shared mailboxes are created in their own section under the Teams & groups heading](shared-mailboxes.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Shared mailboxes are created in their own section under the Teams & groups heading",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/groups-in-microsoft-365/shared-mailboxes.png"
+/>
+
 
 #### \#6 Dynamic distribution groups
 

@@ -1,27 +1,46 @@
 ---
-seoDescription: Deploying ASP.NET applications is straightforward with Xcopy or Visual Studio's "Publish website" feature. In contrast, SharePoint deployments require creating a solution package using tools like VSeWSS, updating and compiling files, testing on a staging server, and deploying to production.
-type: rule
-archivedreason:
-title: ASP.NET vs SharePoint development - Do you know deployment is different?
-guid: 5670dd01-3d85-4374-adfd-f9bbf0f2ebb8
-uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
-created: 2009-06-16T00:59:28.0000000Z
+archivedreason: null
 authors:
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-  - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
-related: []
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Jay Lin
+  url: https://ssw.com.au/people/jay-lin
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2009-12-04 08:15:45+00:00
+createdBy: JayLin
+createdByEmail: JayLin@sydney.ssw.com.au
+guid: 5670dd01-3d85-4374-adfd-f9bbf0f2ebb8
+isArchived: false
+lastUpdated: 2024-06-11 00:27:00+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Deploying ASP.NET applications is straightforward with Xcopy or Visual
+  Studio's "Publish website" feature. In contrast, SharePoint deployments require
+  creating a solution package using tools like VSeWSS, updating and compiling files,
+  testing on a staging server, and deploying to production.
+title: ASP.NET vs SharePoint development - Do you know deployment is different?
+type: rule
+uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 ---
 
 In ASP.NET deployment is a simple xcopy. Or you can right click the website project and "Publish website" in Visual Studio.
 
-::: good  
-![Figure: Publish website in Visual Studio](PublishWebSite.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Publish website in Visual Studio",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/asp-net-vs-sharepoint-development-do-you-know-deployment-is-different/PublishWebSite.png"
+/>
 
-<!--endintro-->
+
+<endOfIntro />
 
 In SharePoint the way to deploy a set of changes is via a solution package.
 

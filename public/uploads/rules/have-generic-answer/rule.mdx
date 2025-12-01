@@ -2,6 +2,8 @@
 seoDescription: If we don't have a specific answer to your question, it's okay! You can try searching online for more information or asking someone with more expertise. Additionally, our bot can provide some relevant keywords and phrases to help you find what you're looking for.
 type: rule
 title: Do you have generic answers?
+categories:
+  - category: categories/software-engineering/rules-to-better-bots.mdx
 uri: have-generic-answer
 authors:
   - title: Luke Mao
@@ -12,18 +14,41 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-created: 2021-11-18T07:36:25.757Z
+created: 2021-11-18T08:06:12.000Z
 guid: 94595835-8953-433d-94c9-3cdd710edb43
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Luke
+createdByEmail: lukemao@ssw.com.au
+isArchived: false
 ---
 
 Sometimes when a user asks a question that the bot doesn't know the answer to, they get an unhelpful response and no further options. Instead, it should give them some further options for how to find the information...
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Just answer I don't know](bad-response.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Just answer I don't know",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/have-generic-answer/bad-response.png"
+/>
 
-::: good
-![Figure: Good example - Using generic answer with extra information](use-generic-answer.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Using generic answer with extra information",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/have-generic-answer/use-generic-answer.png"
+/>

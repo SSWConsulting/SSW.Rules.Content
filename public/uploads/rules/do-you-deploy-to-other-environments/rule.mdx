@@ -1,26 +1,54 @@
 ---
-seoDescription: Deploy to multiple environments with PowerShell and Infrastructure-As-Code, including staging and production.
-type: rule
-archivedreason: Deprecated - Currently we deploy with PowerShell and Infrastructure-As-Code via platforms like GitHub and AzureDevOps.
-title: Do you Deploy to other Environments?
-guid: ed2c4951-62af-4e56-8e98-67c53a5fb67d
-uri: do-you-deploy-to-other-environments
-created: 2013-02-06T18:56:41.0000000Z
+archivedreason: Deprecated - Currently we deploy with PowerShell and Infrastructure-As-Code
+  via platforms like GitHub and AzureDevOps.
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+created: 2013-02-06 18:57:43+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: ed2c4951-62af-4e56-8e98-67c53a5fb67d
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Deploy to multiple environments with PowerShell and Infrastructure-As-Code,
+  including staging and production.
+title: Do you Deploy to other Environments?
+type: rule
+uri: do-you-deploy-to-other-environments
 ---
 
 Once you have configured “Build Once, Deploy Many” you can open the folder for any build on the build server and deploy any build, to any environment.
 
-<!--endintro-->
+<endOfIntro />
 
 This means that if you deploy version 37, and then want to roll back to version 36 simply open the folder for 36 and re-run that batch file (assuming there has been no breaking DB schema changes).
 
-::: todo
-TODO: AdamS – Write a rule on non-breaking Schema changes
-:::
 
-![Figure: To deploy to staging and production, open the appropriate drops folder and execute the correct batch file from the drops folder](deploy-other-environments.jpg)
+<asideEmbed
+  variant="todo"
+  body={<>
+    TODO: AdamS – Write a rule on non-breaking Schema changes
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "To deploy to staging and production, open the appropriate drops folder and execute the correct batch file from the drops folder",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-deploy-to-other-environments/deploy-other-environments.jpg"
+/>

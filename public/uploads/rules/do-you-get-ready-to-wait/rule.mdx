@@ -1,23 +1,31 @@
 ---
-seoDescription: Optimize Sitefinity performance with essential tips to speed up initial load times, including module management, database maintenance, and reflection tool usage.
-type: rule
-archivedreason: 
-title: Do you get ready to wait?
-guid: eba9cd2e-ff83-48cc-9a8b-41ec9965031f
-uri: do-you-get-ready-to-wait
-created: 2013-04-10T21:16:31.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-sitefinity.mdx
+created: 2013-04-10 21:18:31+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: eba9cd2e-ff83-48cc-9a8b-41ec9965031f
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
-
+seoDescription: Optimize Sitefinity performance with essential tips to speed up initial
+  load times, including module management, database maintenance, and reflection tool
+  usage.
+title: Do you get ready to wait?
+type: rule
+uri: do-you-get-ready-to-wait
 ---
 
 Initial Sitefinity load times are quite bad.
 On a live site you can do things like keeping the site warm though IIS however for developers this process takes quite a bit of time.
 
-<!--endintro-->
+<endOfIntro />
 
 Sitefinity caches everything, checks licenses, creates in memory pages from the content in the DB, etc.
 There will be a lot of small quick query's against the Sitefinity SQL database and it is important that these remain quick.
@@ -27,7 +35,19 @@ There will be a lot of small quick query's against the Sitefinity SQL database a
 We recommend disabling all modules and only enabling items that you require.
     You can access the Module list via the Sitefinity backend.
 
-![Figure: Administration -&gt; System -&gt; Modules](sitefinity-admin-module.jpg)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Administration -&gt; System -&gt; Modules",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-get-ready-to-wait/sitefinity-admin-module.jpg"
+/>
+
 
 3. Ensure that the Sitefinity database is indexed and the Statistics are updated.
 This will ensure that the Sitefinity query's remain quick: [Sitefinity Database maintenance](http://knowledgebase.progress.com/articles/Article/Sitefinity-Database-maintenance)

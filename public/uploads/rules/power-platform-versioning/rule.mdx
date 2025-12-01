@@ -2,20 +2,28 @@
 seoDescription: Learn effective versioning strategies for Power Platform solutions to enhance tracking, deployment, and development lifecycle management.
 type: rule
 title: Do you version Power Platform solutions before deploying?
+categories:
+  - category: categories/software-engineering/rules-to-better-power-platform.mdx
 uri: power-platform-versioning
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-created: 2023-05-31T00:33:53.607Z
+created: 2023-05-31T21:46:16.000Z
 guid: 59161602-c554-4098-8fc2-b9adf4ee1228
 
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
+isArchived: false
 ---
 
 If you're not versioning Power Platform Apps before each deployment, you could be setting yourself up for a world of confusion. A lack of versioning can lead to difficulties in tracking changes, resolving issues, and managing the development lifecycle.
 
 The solution is straightforward: Add a version to your Power Platform Apps before every deploy. This way, you can keep track of what functionality is contained in a particular solution release.
 
-<!--endintro-->
+<endOfIntro />
 
 ## The Version Format
 
@@ -33,18 +41,32 @@ An example of a good description would be: **Version 2023.05.31.02 - John Doe - 
 
 Let's consider two scenarios - one following these rules, and one not.
 
-::: greybox
-Bob is a Power Platform developer. He makes changes to a Power App and deploys it without adding a version number or updating the description. A week later, a user reports an issue that emerged after Bob's changes. However, Bob can't remember exactly what changes he made, and without a version number or updated description, it's difficult for him and his team to trace back the changes and fix the issue.
-:::
-::: bad
-Figure: Bad example - Bob didn't use a version number and it came back to bite him
-:::
 
-::: greybox
-Alice also works as a Power Platform developer. When she makes changes to a Power App, she adds a version number following the Year.Month.Day.Iteration format before deploying. She also updates the description with the version number, her name, and a summary of the changes. When a user reports an issue related to her changes, Alice and her team can easily trace back to the version that caused the problem. They can quickly understand what changes were made and by whom, enabling them to efficiently resolve the issue.
-:::
-::: good
-Figure: Good example - Alice versioned her solution nicely and she was able to resolve reported issues quickly and easily
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Bob is a Power Platform developer. He makes changes to a Power App and deploys it without adding a version number or updating the description. A week later, a user reports an issue that emerged after Bob's changes. However, Bob can't remember exactly what changes he made, and without a version number or updated description, it's difficult for him and his team to trace back the changes and fix the issue.
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Bob didn't use a version number and it came back to bite him",
+    shouldDisplay: true
+  }}
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Alice also works as a Power Platform developer. When she makes changes to a Power App, she adds a version number following the Year.Month.Day.Iteration format before deploying. She also updates the description with the version number, her name, and a summary of the changes. When a user reports an issue related to her changes, Alice and her team can easily trace back to the version that caused the problem. They can quickly understand what changes were made and by whom, enabling them to efficiently resolve the issue.
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Alice versioned her solution nicely and she was able to resolve reported issues quickly and easily",
+    shouldDisplay: true
+  }}
+/>
+
 
 In conclusion, consistently versioning your Power Platform solutions before deploying, using a clear and informative format, and updating the description with relevant details will significantly improve your change management, issue resolution, and overall development process. Remember that good practices today save troubleshooting time tomorrow.

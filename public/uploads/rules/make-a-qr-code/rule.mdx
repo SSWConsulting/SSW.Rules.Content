@@ -1,25 +1,34 @@
 ---
-seoDescription: QR code creation simplified! Make a QR Code Today and Boost Your Marketing Efforts
-type: rule
-title: Do you know how to make a QR code?
-uri: make-a-qr-code
-authors:
-  - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/camilla-rosa-silva
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily/
-related:
-  - all-the-things-you-can-use-qr-code-for
-  - where-qr-code-scanner-should-be-on-a-ui
-  - track-qr-code-data-in-ga
-created: 2023-07-25T12:00:00.0000000Z
 archivedreason: null
+authors:
+- title: Camilla Rosa Silva
+  url: https://www.ssw.com.au/people/camilla-rosa-silva
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily/
+categories:
+- category: categories/marketing-and-video/rules-to-better-qr-code.mdx
+created: 2023-07-25 05:10:30+00:00
+createdBy: Seth Daily [SSW]
+createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 guid: 276386d0-c7f9-4214-bf54-983a7c8c4880
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/all-the-things-you-can-use-qr-code-for/rule.mdx
+- rule: public/uploads/rules/where-qr-code-scanner-should-be-on-a-ui/rule.mdx
+- rule: public/uploads/rules/track-qr-code-data-in-ga/rule.mdx
+seoDescription: QR code creation simplified! Make a QR Code Today and Boost Your Marketing
+  Efforts
+title: Do you know how to make a QR code?
+type: rule
+uri: make-a-qr-code
 ---
 
 You can create and share the best media, but if people cannot easily interact with your site, the hard work is wasted. Imagine you've set up a great campaign, but to get to your website users must manually type in the URL. This will handicap engagement for even the most exceptional marketing. The last thing you want is for a user's experience to be cumbersome.
 
-<!--endintro-->
+<endOfIntro />
 
 QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](/all-the-things-you-can-use-qr-code-for).
 
@@ -33,11 +42,33 @@ QR codes give a smooth transition from offline to online content, which simplifi
 
 4. **Download The QR Code:** Look for the download button (you might have to choose whether you want jpg, png, etc.).
 
-::: greybox
-⚠️ Note: You should never have to create an account to download a basic QR code. Many websites will try to fool you into making one. Don't fall for it!
-:::
 
-![Figure: The URL on the left, and customization options on the right](qr-code-generator.png)
+<asideEmbed
+  variant="greybox"
+  body={<>
+    ⚠️ Note: You should never have to create an account to download a basic QR code. Many websites will try to fool you into making one. Don't fall for it!
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "The URL on the left, and customization options on the right",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/make-a-qr-code/qr-code-generator.png"
+/>
+
 
 ### Tracking QR Code data through Google Analytics (GA)
 
@@ -46,10 +77,20 @@ If you want to track data through Google Analytics, it's very easy.
 1. First use the [Google Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) to create your link
 2. Use the new link to create your QR code
 
-::: greybox
-<https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing>
-:::
 
-::: good
-Figure: Good example - The link you use to make the QR code will have a '?utm_source' ending
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    [https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing](https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - The link you use to make the QR code will have a '?utm_source' ending",
+  shouldDisplay: true
+} } />

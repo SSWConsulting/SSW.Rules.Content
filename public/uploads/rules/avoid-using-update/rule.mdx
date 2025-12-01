@@ -2,52 +2,35 @@
 seoDescription: Avoid using update and instead opt for saving changes to minimize locking issues in the database when modifying entities with foreign key relationships.
 type: rule
 title: Do you avoid using update?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: avoid-using-update
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-created: 2021-12-13T17:12:04.161Z
+created: 2021-12-13T23:26:32.000Z
 guid: d6698781-f047-48bf-93b9-7be2add4318f
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 The Update method on an entity in EF Core marks all of its fields as dirty. This will result in all the fields being written back to the database.
 
-<!--endintro-->
+<endOfIntro />
 
 Writing the entire record to the database can cause locking issues in the database server if there are foreign key relationships involving the entity being modified.
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "```cs\nvar entity = context\n    .Products\n    .FirstOrDefault(item => item.ProductID == id);\n\nif (entity != null)\n{\n    entity.Name = \"New name\";\n    context.Products.Update(entity);\n\n    context.SaveChanges();\n}\n```\n\nFigure: Bad example - The whole record is written back to the database.",
+  shouldDisplay: true
+} } />
 
-::: bad
-
-```cs
-var entity = context
-    .Products
-    .FirstOrDefault(item => item.ProductID == id);
-
-if (entity != null)
-{
-    entity.Name = "New name";
-    context.Products.Update(entity);
-
-    context.SaveChanges();
-}
-```
-
-Figure: Bad example - The whole record is written back to the database.
-:::
-
-::: good
-
-```cs
-var entity = context
-    .Products
-    .FirstOrDefault(item => item.ProductID == id);
-
-if (entity != null)
-{
-    entity.Name = "New name";
-    context.SaveChanges();
-}
-```
-
-Figure: Good example - Only the modified fields are written back to the database.
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "```cs\nvar entity = context\n    .Products\n    .FirstOrDefault(item => item.ProductID == id);\n\nif (entity != null)\n{\n    entity.Name = \"New name\";\n    context.SaveChanges();\n}\n```\n\nFigure: Good example - Only the modified fields are written back to the database.",
+  shouldDisplay: true
+} } />

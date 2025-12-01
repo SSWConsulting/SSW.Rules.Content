@@ -1,34 +1,64 @@
 ---
-seoDescription: Learn how to securely run Remote Server Administration Tools (RSAT) from a non-domain joined computer and manage your Active Directory environment with ease.
-type: rule
-title: Do you know how to run RSAT from a non-domain computer?
-uri: run-rsat-from-non-domain-computer
-redirects:
-  - run-aduc-from-non-domain-computer
 authors:
-  - title: Chris Schultz
-    url: https://www.ssw.com.au/people/chris-schultz/
-related:
-  - windows-admin-center
-created: 2024-01-31T05:50:52.028Z
+- title: Chris Schultz
+  url: https://www.ssw.com.au/people/chris-schultz/
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-active-directory.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2024-02-05 01:20:25+00:00
+createdBy: Chris Schultz [SSW]
+createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
 guid: 46bf37e1-2f9d-4f08-9281-8e58e4ca9157
+isArchived: false
+lastUpdated: 2024-02-05 17:44:05+00:00
+lastUpdatedBy: Tom Bui [SSW]
+lastUpdatedByEmail: 67776356+tombui99@users.noreply.github.com
+redirects:
+- run-aduc-from-non-domain-computer
+related:
+- rule: public/uploads/rules/windows-admin-center/rule.mdx
+seoDescription: Learn how to securely run Remote Server Administration Tools (RSAT)
+  from a non-domain joined computer and manage your Active Directory environment with
+  ease.
+title: Do you know how to run RSAT from a non-domain computer?
+type: rule
+uri: run-rsat-from-non-domain-computer
 ---
 
 With more companies adopting BYOD policies, it is important for SysAdmins to be able to connect to Remote Server Administrative Tools (RSAT) like Active Directory Users and Computers (ADUC) in a secure way, even if their computer is not connected to the domain.
 
-<!--endintro-->
+<endOfIntro />
 
-:::info
-**Note:** You should make sure any personal devices connecting to your network are secure, with [Intune](/implementing-intune) or a similar solution.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** You should make sure any personal devices connecting to your network are secure, with [Intune](/implementing-intune) or a similar solution.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## RDP to the domain controller (don't do this!)
 
 The least secure way is to use Remote Desktop Connection to make changes directly on the domain controller. Domain controllers should be locked down to only accept log ins from domain admin accounts - and should only be used when changes require these credentials.
 
-:::bad
-![Figure: Bad example - RDP directly to the domain controller](rdp-dc.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - RDP directly to the domain controller",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png"
+/>
+
 
 Another option is to connect to a different computer or server that is on the domain, like a jump box. This is a more secure solution, but for many companies it adds infrastructure that is not necessary.
 
@@ -38,9 +68,18 @@ Microsoft have a browser-based server management tool called **Windows Admin Cen
 
 Since the tool is browser-based, you only need to allow access to one port for HTTPS communication.
 
-::: good
-![Figure: Managing AD in Windows Admin Center](admin-center-aduc.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Managing AD in Windows Admin Center",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-rsat-from-non-domain-computer/admin-center-aduc.png"
+/>
+
 
 Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/windows-admin-center)
 
@@ -48,9 +87,19 @@ Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/w
 
 While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of RSAT (Remote Server Administration Tools) in MMC (Microsoft Management Console) that you can easily run from a domain joined computer.
 
-:::info
-You can also use this if you have a domain-joined computer, but you need to use a different account to the one you log in with to access RSAT.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    You can also use this if you have a domain-joined computer, but you need to use a different account to the one you log in with to access RSAT.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 To get RSAT connected on a non-domain joined computer, there are some extra steps:
 
@@ -61,10 +110,34 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
    `runas.exe /netonly /noprofile /user:"admin@domain" mmc.exe`
 
 4. Go to **File | Add/Remove Snap-in...** to add the tools you need, e.g. ADUC, DHCP, DNS, GPO Management
-   ![Figure: MMC | Add or Remove Snap-ins](mmc-add-snapin.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "MMC | Add or Remove Snap-ins",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-rsat-from-non-domain-computer/mmc-add-snapin.png"
+/>
+
 5. For ADUC (and possibly other tools), you will need to specify the domain to connect to. Make sure you tick the box **Save this domain setting for the current console**.
 
-   ![Figure: ADUC | Change domain](aduc-domain.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "ADUC | Change domain",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/run-rsat-from-non-domain-computer/aduc-domain.png"
+/>
+
 
 6. Go to **File | Save As...** and save the console somewhere appropriate, e.g. C:\work\rsat.msc
 7. Create a batch file with this command - similar to the command above, but we specify the .msc file to use:

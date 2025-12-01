@@ -1,24 +1,32 @@
 ---
-seoDescription: Ensure consistent collation server-wide to simplify development and avoid errors when joining tables across databases.
-type: rule
-archivedreason:
-title: DBAs - Do you make sure you use a consistent Collation server-wide?
-guid: 4ef6c98b-e828-4e98-98b2-cf0249bdb172
-uri: make-sure-you-use-a-consistent-collation-server-wide
-created: 2019-11-22T20:49:31.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+created: 2019-11-22 20:49:31+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 4ef6c98b-e828-4e98-98b2-cf0249bdb172
+isArchived: false
+lastUpdated: 2024-08-02 21:52:38+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - dbas-do-you-make-sure-you-use-a-consistent-collation-server-wide
+- dbas-do-you-make-sure-you-use-a-consistent-collation-server-wide
+seoDescription: Ensure consistent collation server-wide to simplify development and
+  avoid errors when joining tables across databases.
+title: DBAs - Do you make sure you use a consistent Collation server-wide?
+type: rule
+uri: make-sure-you-use-a-consistent-collation-server-wide
 ---
 
 Collation is the combination of language and sort orders, and you typically don't notice it until you start running cross-database queries.
 
 It would make development simpler if the whole world spoke one language but even if you are using English, you will still encounter collation issues if you are not careful. The most common issue is the dreaded 'Cannot resolve collation conflict for equal to operation' error when joining on columns that have different collation orders. Collation is a great feature for international companies, but if you are not consciously using it then you should have ALL the objects in ALL the databases on ALL the servers using a consistent collation.
 
-<!--endintro-->
+<endOfIntro />
 
 Flexibility with collation orders has increased a lot since SQL 7.0:
 
@@ -36,4 +44,15 @@ See these Knowledge Base articles for more information about the issues you will
 * **How do I change the collation order in my SQL Server 2000 or 7.0 database?**
   There is no 'recommended' collation as different collations will be used in different countries but as a guideline, installations in the United States and installations that require compatibility with SQL Server 7 databases should use the SQL_Latin1_General_Cp1_CI_AS collation. Non-United States installations in English speaking countries should use the Latin1_General_CI_AS collation
 
-![Figure: Setting the collation in SQL 2019 Setup - Choose Case Insensitive(CI), Accent Sensitive (AS)](Sql2019_CollationSettingsAtSetup.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Setting the collation in SQL 2019 Setup - Choose Case Insensitive(CI), Accent Sensitive (AS)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/make-sure-you-use-a-consistent-collation-server-wide/Sql2019_CollationSettingsAtSetup.png"
+/>

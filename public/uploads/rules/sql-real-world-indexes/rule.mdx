@@ -1,43 +1,67 @@
 ---
-seoDescription: Understanding how SQL indexes work and common real world ways of visualising them
-type: rule
-archivedreason:
-title: Do you know how to visualize SQL indexes?
-guid: 668bb820-5ef4-4f8e-872f-04e1846ea982
-uri: sql-real-world-indexes
-created: 2024-07-24T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-indexing.mdx
+created: 2024-07-24 20:46:59+00:00
+createdBy: Bryden Oliver [SSW]
+createdByEmail: 77371877+brydeno@users.noreply.github.com
+guid: 668bb820-5ef4-4f8e-872f-04e1846ea982
+isArchived: false
+lastUpdated: 2024-08-02 17:24:04+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 related:
-  - sql-indexing-orderby
-  - sql-indexing-testing
-  - sql-indexing-joins
-  - sql-indexing-where
+- rule: public/uploads/rules/sql-indexing-orderby/rule.mdx
+- rule: public/uploads/rules/sql-indexing-testing/rule.mdx
+- rule: public/uploads/rules/sql-indexing-joins/rule.mdx
+- rule: public/uploads/rules/sql-indexing-where/rule.mdx
+seoDescription: Understanding how SQL indexes work and common real world ways of visualising
+  them
+title: Do you know how to visualize SQL indexes?
+type: rule
+uri: sql-real-world-indexes
 ---
 
 It's hard to understand what indexes are on SQL Databases. Find out how to visualize what's happening so you can easily follow what your database queries are doing.
 
 Database indexes get their name from book indexes because they work similarly. To grasp how they function, imagine the rows in your table as pages in a book. Then, consider what kind of index in the book would help you quickly find the information you need.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/watch?v=KkRpgtwBXvI`
-**Video: How to visualize SQL indexes? | Bryden Oliver | SSW Rules (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=KkRpgtwBXvI" description={"Video: How to visualize SQL indexes? | Bryden Oliver | SSW Rules (3 min)"} />
+
 
 For instance in a recipe book that contains many types of dishes, you might want an index of the type of recipe. You may also have an index based on the recipe name, or maybe by ingredient.
 
-![Figure: Typical book index](index.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Typical book index",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/sql-real-world-indexes/index.png"
+/>
+
 
 ```sql
 SELECT *
 FROM Badges
 WHERE Name = 'John Doe';
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example: Using a table scan - the DB needs to look at every row to find the result",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example: Using a table scan - the DB needs to look at every row to find the result
-:::
 
 ```sql
 CREATE INDEX IX_Name_Date
@@ -47,10 +71,12 @@ SELECT *
 FROM Badges
 WHERE Name = 'John Doe';
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example: Using an index - DB can quickly find the result",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example: Using an index - DB can quickly find the result
-:::
 
 By using the index, the database can quickly locate the rows where "Name" is 'John Doe' without scanning every row. This approach significantly improves query performance.
 

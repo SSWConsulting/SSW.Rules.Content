@@ -1,20 +1,30 @@
 ---
-seoDescription: Learn why creating unique DTOs for each API endpoint improves performance, reduces coupling, and leads to better maintainability in Clean Architecture.
-type: rule
-title: Do you use unique DTOs per use case?
-guid: 19a53ef8-5b5c-4e44-baef-1433d4a77e48
-uri: unique-dtos-per-endpoint
-authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-  - serialize-view-models-not-domain-entities
-  - the-difference-between-data-transfer-objects-and-view-models
-redirects: []
-created: 2025-05-15T00:00:00.000Z
 archivedreason: null
+authors:
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+created: 2025-05-15 04:01:09+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
+guid: 19a53ef8-5b5c-4e44-baef-1433d4a77e48
+isArchived: false
+lastUpdated: 2025-05-15 04:24:23+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+related:
+- rule: public/uploads/rules/serialize-view-models-not-domain-entities/rule.mdx
+- rule: public/uploads/rules/the-difference-between-data-transfer-objects-and-view-models/rule.mdx
+seoDescription: Learn why creating unique DTOs for each API endpoint improves performance,
+  reduces coupling, and leads to better maintainability in Clean Architecture.
+title: Do you use unique DTOs per use case?
+type: rule
+uri: unique-dtos-per-endpoint
 ---
 
 In Clean Architecture, it is normally better to have a unique Data Transfer Object (DTO) for each endpoint or use case.
@@ -25,7 +35,7 @@ While sharing DTOs across multiple endpoints might seem like a way to save some 
 * **Increased Coupling:** When multiple endpoints share the same DTO, a change required by one endpoint can inadvertently affect others.
 * **Developer Confusion:** Developers will find it hard to understand which properties are relevant for a specific endpoint, leading to potential misuse or misunderstanding of the data structure.
 
-<!--endintro-->
+<endOfIntro />
 
 By creating unique DTOs tailored to each endpoint's specific requirements, you ensure that:
 
@@ -38,7 +48,7 @@ namespace Northwind.Trading.Application.Contracts.Models;
 
 public class OrderItemModel
 {
-    public int OrderId { get; set; } 
+    public int OrderId { get; set; }
     public string CustomerId { get; set; }
     public DateTime OrderDate { get; set; }
     public decimal TotalAmount { get; set; }
@@ -50,7 +60,7 @@ public class OrderItemModel
     public string? ShipFromCountry { get; set; }
 
     /// <summary>
-    /// Used only for GetOrdersEndpoint. 
+    /// Used only for GetOrdersEndpoint.
     /// </summary>
     public DateTimeOffset ModifiedDateUtc { get; set; }
 
@@ -61,10 +71,12 @@ public class OrderItemModel
     public List<OrderItemViewModel> OrderItems { get; set; } = [];
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - `OrderViewModel` is used for multiple purposes (e.g., `GetOrderList`, `GetOrderDetails`, `CreateOrder`) and has accumulated many properties, making it hard to read and maintain.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - `OrderViewModel` is used for multiple purposes (e.g., `GetOrderList`, `GetOrderDetails`, `CreateOrder`) and has accumulated many properties, making it hard to read and maintain.
-:::
 
 ```csharp
 namespace Northwind.Trading.Application.Contracts.OrderQueries.Models;
@@ -78,7 +90,8 @@ public class GetOrderListItemDto
     public OrderStatus Status { get; set; }
 }
 ```
-
-::: good
-Figure: Good example - A simple `OrderSummaryDto` designed specifically for an endpoint that lists orders.
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - A simple `OrderSummaryDto` designed specifically for an endpoint that lists orders.",
+  shouldDisplay: true
+} } />

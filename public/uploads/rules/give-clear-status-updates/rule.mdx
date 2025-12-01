@@ -1,69 +1,73 @@
 ---
-seoDescription: Summarize client status updates into short, clear, actionable lines instead of repeating long messages. Improve clarity and professionalism when communicating status.
-type: rule
-title: Do you summarize updates clearly when communicating status?
-uri: give-clear-status-updates
-guid: eb928e65-e17b-41b8-8ff9-44e06728b5f4
 authors:
 - title: Chloe Lin
   url: https://ssw.com.au/people/chloe-lin
-created: 2025-11-26T14:06:33.0000000Z
+created: 2025-11-26 14:06:33+00:00
+guid: eb928e65-e17b-41b8-8ff9-44e06728b5f4
 related:
-  - turn-emails-into-pbis
+- rule: public/uploads/rules/turn-emails-into-pbis/rule.mdx
+seoDescription: Summarize client status updates into short, clear, actionable lines
+  instead of repeating long messages. Improve clarity and professionalism when communicating
+  status.
+title: Do you summarize updates clearly when communicating status?
+type: rule
+uri: give-clear-status-updates
 ---
 
 When following up with a client or giving a status update, avoid repeating their entire message or quoting long blocks of text.
 
 A great status update is short, clear, and easy to act on. Your goal is to let the client understand the update in seconds, without needing to read through a long narrative. Provide just enough context and then give one clear, actionable status line.
 
-<!--endintro-->
+<endOfIntro />
 
-::: email-template
+<emailEmbed
+  from="Jake"
+  to="Jean"
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Jean
 
-| | |
-| -------- | --- |
-| From: | Jake |
-| To: | Jean |
-::: email-content
-
-### Hi Jean
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Content update request  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We want to update the Services page  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace the banner image  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change the call-to-action text  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preferably by Friday  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; Content update request
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We want to update the Services page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace the banner image
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Change the call-to-action text
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preferably by Friday
 
 I've added a task for updating the Services page, replacing the banner, and changing the call-to-action text.
-You can see it here: <https://example.com/pbi/12345>
+You can see it here: [https://example.com/pbi/12345](https://example.com/pbi/12345)
 
 Jake
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - The reply unnecessarily repeats the client’s full message and adds noise.",
+    shouldDisplay: true
+  }}
+/>
 
-:::
-:::
-::: bad
-Figure: Bad example - The reply unnecessarily repeats the client’s full message and adds noise.
-:::
+<emailEmbed
+  from="Jake"
+  to="Jean"
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Jean
 
-::: email-template
-
-| | |
-| -------- | --- |
-| From: | Jake |
-| To: | Jean |
-::: email-content
-
-### Hi Jean
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Content update request  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; Content update request
 
 📝 PBI Created: [Services Page – Banner & CTA Update](https://example.com/pbi/12345)
 I’ll share a preview shortly.
 
 Jake
-
-:::
-:::
-::: good
-Figure: Good example – Only the essential context and a clear, concise action item
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – Only the essential context and a clear, concise action item",
+    shouldDisplay: true
+  }}
+/>

@@ -1,22 +1,32 @@
 ---
-seoDescription: Learn how to hand over a project smoothly and ensure continuity with our step-by-step guide. Know the responsibilities of the person transitioning away from the project and follow our comprehensive checklist.
-type: rule
-title: Do you know how to hand over a project?
-uri: hand-over-projects
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related:
-  - handover-best-practices
-  - hand-over-responsibilities
-redirects:
-  - do-you-know-how-to-handover-a-project
-  - hand-over
-created: 2010-03-15T06:22:03.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+created: 2024-03-08 05:51:40+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
+isArchived: false
+lastUpdated: 2025-07-22 23:29:46+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-know-how-to-handover-a-project
+- hand-over
+related:
+- rule: public/uploads/rules/handover-best-practices/rule.mdx
+- rule: public/uploads/rules/hand-over-responsibilities/rule.mdx
+seoDescription: Learn how to hand over a project smoothly and ensure continuity with
+  our step-by-step guide. Know the responsibilities of the person transitioning away
+  from the project and follow our comprehensive checklist.
+title: Do you know how to hand over a project?
+type: rule
+uri: hand-over-projects
 ---
 
 Transitioning a project smoothly is crucial, whether due to changing project assignments or planned absences. A [thorough handover process](/handover-best-practices) ensures continuity and minimizes disruption.
@@ -27,30 +37,39 @@ It's essential to initiate the handover planning as soon as a transition is know
 
 It's important to plan from the perspective of the person receiving the handover.
 
-<!--endintro-->
+<endOfIntro />
 
 **Tip:** If you are leaving a company, ideally your handover should be done **as soon as possible** so that the developer taking over can start working on them while you’re still available to answer any questions.
 
-![Figure: This is not how you hand over a project](handover-project.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "This is not how you hand over a project",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/hand-over-projects/handover-project.gif"
+/>
+
 
 ### Handover Checklist
 
 Send this checklist in an email before the handover meeting to guide the discussion:
 
-::: email-template
+<emailEmbed
+  from="&#123;&#123; YOUR NAME &#125;&#125;"
+  to="&#123;&#123; NEW TASK OWNER &#125;&#125;"
+  cc="&#123;&#123; TEAM MEMBERS, PRODUCT OWNER &#125;&#125;"
+  bcc=""
+  subject="🤝 Handover Checklist - &#123;&#123; PROJECT NAME &#125;&#125;"
+  shouldDisplayBody={true}
+  body={<>
+    Hi &#123;&#123; NEW TASK OWNER &#125;&#125;,
 
-| | |
-| -------- | --- |
-| From: | {{ YOUR NAME }} |
-| To: | {{ NEW TASK OWNER }} |
-| Cc: | {{ TEAM MEMBERS, PRODUCT OWNER }} |
-| Subject: | 🤝 Handover Checklist - {{ PROJECT NAME }} |
-
-::: email-content
-
-Hi {{ NEW TASK OWNER }},
-
-I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Please find below the checklist to go through:
+I am looking forward to our upcoming handover meeting for &#123;&#123; PROJECT NAME &#125;&#125;. Please find below the checklist to go through:
 
 1. [Record this meeting](/record-teams-meetings) - It could be useful later!
 2. Review the roadmap/backlog - What are the current and upcoming goals?
@@ -72,16 +91,30 @@ We will record the meeting for future reference and add it to the project docume
 
 Thanks!
 
-< as per SSW Rules: [Do you know how to hand over a project?](/hand-over)>
-:::
-:::
+&lt; as per SSW Rules: [Do you know how to hand over a project?](/hand-over)&gt;
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  }}
+/>
 
 Ensure you [reply done](/reply-done-and-delete-the-email) to this email after the handover meeting, with a checked by from the recipient.
 
 For individual task handovers, see [how to hand over email tasks to others](/how-to-hand-over-tasks-to-others).
 
-::: greybox  
-**Tip:** Recording the handover process via a Teams call can be beneficial for future reference.
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** Recording the handover process via a Teams call can be beneficial for future reference.
 
 Even better at the end of a long call record a quick summary so everybody knows what was agreed. And it's easier for other people to watch.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

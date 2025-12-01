@@ -1,24 +1,34 @@
 ---
-seoDescription: Clean Architecture - Separating concerns and building a lasting system. Discover how CA enables teams to build systems that can be easily extended and maintained. learn about its principles, layers, and benefits.
-type: rule
-archivedreason:
-title: Clean Architecture - Do you know the main principles?
-guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
-uri: clean-architecture
-created: 2019-04-14T21:34:38.0000000Z
+archivedreason: null
 authors:
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-  - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-related:
-  - software-architecture-decision-tree
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+categories:
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+created: 2025-06-05 17:31:40+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-know-the-main-principles-of-clean-architecture
-  - software-architecture-decision-tree
-  - the-main-principles-of-clean-architecture
+- do-you-know-the-main-principles-of-clean-architecture
+- software-architecture-decision-tree
+- the-main-principles-of-clean-architecture
+related:
+- rule: public/uploads/rules/software-architecture-decision-tree/rule.mdx
+seoDescription: Clean Architecture - Separating concerns and building a lasting system.
+  Discover how CA enables teams to build systems that can be easily extended and maintained.
+  learn about its principles, layers, and benefits.
+title: Clean Architecture - Do you know the main principles?
+type: rule
+uri: clean-architecture
 ---
 
 Clean Architecture is, at its core, about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).
@@ -27,11 +37,20 @@ This approach enables the development team to build a system in the same way tha
 
 This is the difference between a system that lasts 2 years, and a system that lasts 20 years.
 
-<!--endintro-->
+<endOfIntro />
 
-::: img-medium
-![Figure: Onion view of Clean Architecture](ca-diagram.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Onion view of Clean Architecture",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/clean-architecture/ca-diagram.png"
+/>
+
 
 **Note:** While the design in the above figure only includes 3 circles, you may need more - just think of this as a starting point.
 
@@ -101,19 +120,43 @@ To achieve the this layering and separation of concerns, we need to follow some 
 
 What this means is that the Application Core should not depend on anything outside of itself - and we use interfaces in the Application or Infrastructure layer to achieve this.
 
-::: greybox
-Using a specific database class instead of depending on an interface.
-:::
-::: bad
-Bad example - The application directly relies on the infrastructure. This makes the system harder to test and less flexible
-:::
 
-::: greybox
-Let the application depend on an interface, and have the infrastructure layer provide the implementation.
-:::
-::: good
-Good example - Use the Repository Pattern. This keeps things decoupled and easier to maintain
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Using a specific database class instead of depending on an interface.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - The application directly relies on the infrastructure. This makes the system harder to test and less flexible",
+  shouldDisplay: true
+} } />
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Let the application depend on an interface, and have the infrastructure layer provide the implementation.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Use the Repository Pattern. This keeps things decoupled and easier to maintain",
+  shouldDisplay: true
+} } />
+
 
 With this design, all dependencies must flow inwards. Core has no dependencies on any outside layers. Infrastructure, Persistence, and Presentation depend on Core, but not on one another.
 

@@ -2,56 +2,67 @@
 seoDescription: Learn how to properly tag external URLs with rel="nofollow" and understand its impact on SEO, ensuring compliant and effective backlink strategies.
 type: rule
 title: Technical - Do you tag external URLs with rel=”nofollow”?
+categories:
+  - category: categories/marketing-and-video/rules-to-better-blogging.mdx
+  - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
 uri: seo-nofollow
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Adriana Tavares
     url: https://www.ssw.com.au/people/adriana-tavares
-created: 2023-01-30T01:35:31.078Z
+created: 2023-01-30T05:40:46.000Z
 guid: b96b7400-8717-4c19-867f-5ad643ba8fd5
+lastUpdated: 2025-10-02T21:14:02.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Camilla Rosa Silva [SSW]
+createdByEmail: 53064613+camillars@users.noreply.github.com
+isArchived: false
 ---
 
 Dofollow and nofollow links look almost the same to the regular web user. The difference between the two is only noticeable when you dig into the HTML code – the addition of the `rel="nofollow”` tag is what differentiates both links. The `rel` attribute defines the relationship between a linked resource and the current document.
 
 Google sees the buying or selling of links that pass PageRank as a violation of their Webmaster Guidelines aiming to reward earned links, and not paid links. As this still plays an essential role when it comes to SEO, all paid links should be tagged as “nofollow”.
 
-<!--endintro-->
+<endOfIntro />
 
-According to [Google](https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify):  
+According to [Google](https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify):
 
-> rel="nofollow": Use this attribute for cases where you want to link to a page but don't want to imply any type of endorsement, including passing along ranking credit to another page.  
+> rel="nofollow": Use this attribute for cases where you want to link to a page but don't want to imply any type of endorsement, including passing along ranking credit to another page.
 
 Other link attributes that provide webmasters with additional ways to identify to Google Search the nature of particular links are:
 
-> rel="sponsored": Use the sponsored attribute to identify links on your site that were created as part of advertisements, sponsorships or other compensation agreements.  
+> rel="sponsored": Use the sponsored attribute to identify links on your site that were created as part of advertisements, sponsorships or other compensation agreements.
 
-> rel="ugc": UGC stands for User Generated Content, and the ugc attribute value is recommended for links within user generated content, such as comments and forum posts.  
+> rel="ugc": UGC stands for User Generated Content, and the ugc attribute value is recommended for links within user generated content, such as comments and forum posts.
 
-## When to use “nofollow”  
+## When to use “nofollow”
 
-As per [Search Engine Journal](https://www.searchenginejournal.com/when-to-use-nofollow-on-links/), you are supposed to tag URLs with nofollow when the other two rel attributes mentioned above, sponsored and UGC, aren’t relevant and you don’t want the link to pass PageRank.  
+As per [Search Engine Journal](https://www.searchenginejournal.com/when-to-use-nofollow-on-links/), you are supposed to tag URLs with nofollow when the other two rel attributes mentioned above, sponsored and UGC, aren’t relevant and you don’t want the link to pass PageRank.
 
-::: greybox
 
-**Tip:** It’s possible to automatically tag all links as “nofollow” on a webpage by placing a [robot’s meta tag with the value “nofollow”](https://developers.google.com/search/docs/crawling-indexing/special-tags) in the header. However, the nofollow tag is more usually favoured as it allows one to nofollow some links on the page while leaving others followed, as an example if you add links pointing to your own website.  
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
+**Tip:** It’s possible to automatically tag all links as “nofollow” on a webpage by placing a [robot’s meta tag with the value “nofollow”](https://developers.google.com/search/docs/crawling-indexing/special-tags) in the header. However, the nofollow tag is more usually favoured as it allows one to nofollow some links on the page while leaving others followed, as an example if you add links pointing to your own website.
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "```html\n<a href=\"https://www.microsoft.com/Azure\"?WT.mc_id=AZ-MVP-33518>Azure</a>\n```\n\nFigure: Bad example - Nofollow rel tag is not present on the link above",
+  shouldDisplay: true
+} } />
 
-::: bad
-
-```html
-<a href="https://www.microsoft.com/Azure"?WT.mc_id=AZ-MVP-33518>Azure</a> 
-```
-
-Figure: Bad example - Nofollow rel tag is not present on the link above
-:::
-
-::: good
-
-```html
-<a rel="nofollow" href="https://www.microsoft.com/Azure"?WT.mc_id=AZ-MVP-33518>Azure</a> 
-```
-
-Figure: Good example - Nofollow rel was added to the URL to make sure it does not impact the landing page
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "```html\n<a rel=\"nofollow\" href=\"https://www.microsoft.com/Azure\"?WT.mc_id=AZ-MVP-33518>Azure</a>\n```\n\nFigure: Good example - Nofollow rel was added to the URL to make sure it does not impact the landing page",
+  shouldDisplay: true
+} } />

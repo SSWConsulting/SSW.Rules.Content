@@ -1,26 +1,44 @@
 ---
-seoDescription: Data Layout - Show past 6 months of totals in a chart to facilitate easy comparison.
-type: rule
-archivedreason:
-title: Data Layout - Do you show the past 6 months of totals in a chart?
-guid: fd58a962-6abb-4b89-b147-06d5a9df26fa
-uri: show-past-six-months-in-chart
-created: 2023-12-13T10:38:33.0000000Z
+archivedreason: null
 authors:
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-03-25 05:59:16+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
+guid: fd58a962-6abb-4b89-b147-06d5a9df26fa
+isArchived: false
+lastUpdated: 2024-03-26 17:12:15+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects: []
+related:
+- rule: public/uploads/rules/customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using/rule.mdx
+seoDescription: Data Layout - Show past 6 months of totals in a chart to facilitate
+  easy comparison.
+title: Data Layout - Do you show the past 6 months of totals in a chart?
+type: rule
+uri: show-past-six-months-in-chart
 ---
 
 When you are working with reports that use time-based data (sales figures, employee productivity etc.), it is handy to see how you went this month compared to the past 6 months. The best way to show this is on a bar chart.
 
-<!--endintro-->
+<endOfIntro />
 
-::: good  
-![Figure: Good example - Use of bar chart to show the past 6 months of totals at the end of your report for easy comparison](RSRules6MonthChart.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Use of bar chart to show the past 6 months of totals at the end of your report for easy comparison",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/show-past-six-months-in-chart/RSRules6MonthChart.gif"
+/>
+
 
 To do this:
 
@@ -45,13 +63,37 @@ ORDER BY
 
 3. Configure the new added parameter 'pEndDate'
 
-![Figure: Change Data Type to DateTime and assign to the proper default values](RSRules6MonthChart_AddParameter.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Change Data Type to DateTime and assign to the proper default values",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/show-past-six-months-in-chart/RSRules6MonthChart_AddParameter.gif"
+/>
+
 
 4. Add a chart to your report in Layout view and change its type to "Simple Column".
 
 5. Drag the "Total" field from the Datasets window into the Data area on the chart, and the "Y" field into the Category area. Your chart will now look similar to the one below.
 
-![Figure: Build up the column chart in layout view](RSRules6MonthChart_Layout.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Build up the column chart in layout view",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/show-past-six-months-in-chart/RSRules6MonthChart_Layout.gif"
+/>
+
 
 6. Now you need to set the last column to be a different color so it stands out. Right-click the chart and click Properties.
 

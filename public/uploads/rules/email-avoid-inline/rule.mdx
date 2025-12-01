@@ -1,40 +1,50 @@
 ---
-seoDescription: Do you avoid using inline when replying to an email? Instead, copy and paste the entire email in your reply, commenting on each issue at a time, keeping the history intact.
-type: rule
-archivedreason:
-title: Do you avoid using inline when replying to an email?
-guid: 2f00e714-ef16-48cb-9da0-158b52a20fde
-uri: email-avoid-inline
-created: 2009-03-31T02:53:17.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny-walker
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Penny Walker
+  url: https://www.ssw.com.au/people/penny-walker
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2024-01-08 18:32:45+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 2f00e714-ef16-48cb-9da0-158b52a20fde
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-use-a-different-color-when-replying-an-email
-  - when-you-reply-inline-do-you-use-a-different-color
+- do-you-use-a-different-color-when-replying-an-email
+- when-you-reply-inline-do-you-use-a-different-color
+seoDescription: Do you avoid using inline when replying to an email? Instead, copy
+  and paste the entire email in your reply, commenting on each issue at a time, keeping
+  the history intact.
+title: Do you avoid using inline when replying to an email?
+type: rule
+uri: email-avoid-inline
 ---
 
 Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [reply 'Done' and delete the original email](/dones-do-you-reply-done-and-delete-the-original-email).
 
 In the rare cases where you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
 
-<!--endintro-->
+<endOfIntro />
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | Daniel - Morning Goals |  
-::: email-content
-
-### Hi Adam
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
 I have replied inline
 
@@ -42,37 +52,39 @@ Regards,
 Daniel
 
 -----Original Message-----
-**From:** Adam Cogan <www.ssw.com.au>
+**From:** Adam Cogan &lt;www.ssw.com.au&gt;
 **Sent:** Monday, 27 May 2022 8:00 AM
-**To:** Daniel Hyles <www.ssw.com.au>
+**To:** Daniel Hyles &lt;www.ssw.com.au&gt;
 **Subject:** Daniel - Morning Goals
 
-1. TimePro Online pages  
+1. TimePro Online pages
    Done
 
-2. Double check backups (get backup today on both drives, I configured the other drive last night)  
+2. Double check backups (get backup today on both drives, I configured the other drive last night)
    Done
 
-3. Make sure Exchange is backing itself up... Check Google on why not.  
+3. Make sure Exchange is backing itself up... Check Google on why not.
    Not done
 
 4. Access reporter
    Not done
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Replying inline can mess up the history. No indentation makes it harder to read",
+    shouldDisplay: true
+  }}
+/>
 
-:::  
-:::  
-::: bad
-Figure: Bad example - Replying inline can mess up the history. No indentation makes it harder to read
-:::
-
-::: email-template  
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | Daniel - Morning Goals |  
-::: email-content
-
-### Hi Adam
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
 I have replied inline
 
@@ -80,55 +92,57 @@ Regards,
 Daniel
 
 -----Original Message-----
-**From:** Adam Cogan <www.ssw.com.au>
+**From:** Adam Cogan &lt;www.ssw.com.au&gt;
 **Sent:** Monday, 27 May 2022 8:00 AM
-**To:** Daniel Hyles <www.ssw.com.au>
+**To:** Daniel Hyles &lt;www.ssw.com.au&gt;
 **Subject:** Daniel - Morning Goals
 
-<span style="color:green; padding-left:1rem;">1. TimePro Online pages </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;1. TimePro Online pages &lt;/span&gt;
 
 Done
 
-<span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night) </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;2. Double check backups (get backup today on both drives, I configured the other drive last night) &lt;/span&gt;
 
 Done
 
-<span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not. </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;3. Make sure Exchange is backing itself up... Check Google on why not. &lt;/span&gt;
 
 Not Done
 
-<span style="color:green; padding-left:1rem;">4. Access reporter </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;4. Access reporter &lt;/span&gt;
 
 Not Done
+  </>}
+  figureEmbed={{
+    preset: "okExample",
+    figure: "OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability",
+    shouldDisplay: true
+  }}
+/>
 
-:::  
-:::  
-::: ok
-Figure: OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability
-:::
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="Daniel - Morning Goals"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | Daniel - Morning Goals |  
-::: email-content
-
-### Hi Adam
-
-<span style="color:green; padding-left:1rem;">\> 1. TimePro Online pages </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;&gt; 1. TimePro Online pages &lt;/span&gt;
 
 Done
 
-<span style="color:green; padding-left:1rem;">\> 2. Double check backups (get backup today on both drives, I configured the other drive last night) </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;&gt; 2. Double check backups (get backup today on both drives, I configured the other drive last night) &lt;/span&gt;
 
 Done
 
-<span style="color:green; padding-left:1rem;">\> 3. Make sure Exchange is backing itself up... Check Google on why not. </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;&gt; 3. Make sure Exchange is backing itself up... Check Google on why not. &lt;/span&gt;
 
 Not Done
 
-<span style="color:green; padding-left:1rem;">\> 4. Access reporter </span>
+&lt;span style="color:green; padding-left:1rem;"&gt;&gt; 4. Access reporter &lt;/span&gt;
 
 Not Done
 
@@ -136,20 +150,21 @@ Regards,
 Daniel
 
 -----Original Message-----
-**From:** Adam Cogan <www.ssw.com.au>
+**From:** Adam Cogan &lt;www.ssw.com.au&gt;
 **Sent:** Monday, 27 May 2022 8:00 AM
-**To:** Daniel Hyles <www.ssw.com.au>
+**To:** Daniel Hyles &lt;www.ssw.com.au&gt;
 **Subject:** Daniel - Morning Goals
 
 1. TimePro Online pages
 2. Double check backups (get backup today on both drives, I configured the other drive last night)
 3. Make sure Exchange is backing itself up... Check Google on why not.
 4. Access reporter
-
-:::  
-:::  
-::: good
-Figure: Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability",
+    shouldDisplay: true
+  }}
+/>
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.

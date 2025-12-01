@@ -1,29 +1,38 @@
 ---
-type: rule
-tips: ""
-title: Do you use the best AI Powered IDE?
-seoDescription: how to use cursor, vscode, github copilot, the best AI powered IDE
-uri: best-ai-powered-ide
+archivedreason: ''
 authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz/
-  - title: Lewis Toh
-    url: https://www.ssw.com.au/people/lewis-toh/
-  - title: Calum Simpson
-    url: https://www.ssw.com.au/people/calum-simpson/
-related:
-  - ai-pair-programming
-created: 2025-01-02T12:40:00.000Z
-archivedreason: ""
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz/
+- title: Lewis Toh
+  url: https://www.ssw.com.au/people/lewis-toh/
+- title: Calum Simpson
+  url: https://www.ssw.com.au/people/calum-simpson/
+categories:
+- category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+created: 2025-01-02 04:46:37+00:00
+createdBy: Eddie Kranz [SSW]
+createdByEmail: ed@kranz.au
 guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
+isArchived: true
+lastUpdated: 2025-07-16 23:30:45+00:00
+lastUpdatedBy: Harkirat Singh [SSW]
+lastUpdatedByEmail: 65155920+0xharkirat@users.noreply.github.com
+related:
+- rule: public/uploads/rules/ai-pair-programming/rule.mdx
+seoDescription: how to use cursor, vscode, github copilot, the best AI powered IDE
+tips: ''
+title: Do you use the best AI Powered IDE?
+type: rule
+uri: best-ai-powered-ide
 ---
+
 Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. AI has now been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), embedding an even deeper level of AI Integration within a developer's workflow.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n`
 
-**Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)**
+<youtubeEmbed url="https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n" description={"Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)"} />
+
 
 ## Powerful features that AI-Powered IDEs provide
 
@@ -35,7 +44,19 @@ GitHub Copilot first popularized the 'code completion' feature for AI-powered ID
 
 In Cursor and Windsurf, you can hit ctrl-K (or command-K), to convert natural language to a bash command. This is very useful for when you have forgotten the exact syntax of a bash command.
 
-![Figure: Cursor Command Generation (ctrl-K)](cursor-command-generation.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Cursor Command Generation (ctrl-K)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-ai-powered-ide/cursor-command-generation.gif"
+/>
+
 
 ### Chat
 
@@ -45,7 +66,19 @@ Chat functionality within an AI-powered IDE adds an intelligent assistant that c
 
 Within the chat for Cursor, you can specify the level of context you would like to include with your prompt. By typing the `@` character, the following menu will appear.
 
-![Figure: Cursor Chat Context, opened by typing `@`](cursor-chat-context.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Cursor Chat Context, opened by typing `@`",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-ai-powered-ide/cursor-chat-context.png"
+/>
+
 
 In Cursor, the `@Web` function is very useful for any situations where recent information, or information that the model has not been trained on is needed! You can also use `@Git` to compare diffs with the main branch, to generate a nice PR summary.
 
@@ -53,13 +86,31 @@ In Cursor, the `@Web` function is very useful for any situations where recent in
 
 The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
 
-::: bad
-![Figure: Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE](bad-example-chatgpt.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-ai-powered-ide/bad-example-chatgpt.png"
+/>
 
-::: good
-![Figure: Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions](good-example-using-agent.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/best-ai-powered-ide/good-example-using-agent.png"
+/>
+
 
 ## AI-Powered IDE Comparison
 
@@ -78,11 +129,21 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 | Web Searching         | ✅                                                                                        | ❌                                                                                              | ✅                                                                               | ❌                                                                             |
 | Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported)                           | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported)                | • Browser based<br>• VSCode Support (GitHub CodeSpace)                        |
 
-::: info
-**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
 
 If you still have your student status, you can get **GitHub Copilot Pro for free** here: [Free GitHub Copilot Pro access](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer#about-free-github-copilot-pro-access)
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## A word of caution
 
@@ -92,10 +153,20 @@ You wouldn't send an email written by ChatGPT without first checking it for corr
 
 You are solely responsible for the code you commit!
 
-::: info
-**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
-See <https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code>
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
+See [https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code](https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ## Which is best?
 
@@ -105,8 +176,18 @@ Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype 
 
 Note: In some regions, such as China, tools like Cursor and Claude are restricted from access. In such cases, [Trae](https://www.trae.ai/) serves as a great alternative. Trae is developed by ByteDance, the parent company of TikTok.
 
-::: info
-**Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Share some details about your experience  with AI assisted development e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.

@@ -1,24 +1,31 @@
 ---
-seoDescription: Purge cache to ensure immediate changes on your WordPress site.
-type: rule
-archivedreason:
-title: Do you purge cache?
-guid: a6d2eee1-c25a-4ddc-a12b-6c150e7b0173
-uri: purge-server-caches
-created: 2020-07-30T20:02:15.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/software-engineering/rules-to-better-wordpress.mdx
+created: 2020-07-30 20:02:17+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a6d2eee1-c25a-4ddc-a12b-6c150e7b0173
+isArchived: false
+lastUpdated: 2020-07-30 20:12:01+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-purge-cache
+- do-you-purge-cache
+seoDescription: Purge cache to ensure immediate changes on your WordPress site.
+title: Do you purge cache?
+type: rule
+uri: purge-server-caches
 ---
 
 Extensive caching can complicate things if you’re working on your site and expecting to see changes immediately on the frontend. Purging cache is an essential part of the development process.
 
-<!--endintro-->
+<endOfIntro />
 
 WPEngine - After you make a change on any WordPress site:
 
@@ -26,6 +33,18 @@ WPEngine - After you make a change on any WordPress site:
 - Click on the WP Engine plugin tab
 - Scroll down, click Purge All Caches
 
-![Figure: Make sure you "Purge All Caches" after making changes - This will allow others to see the changes immediately](purge-cache-wpengine-wordpress.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Make sure you \"Purge All Caches\" after making changes - This will allow others to see the changes immediately",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/purge-server-caches/purge-cache-wpengine-wordpress.png"
+/>
+
 
 More information: [https://wpengine.com/support/cache/#Purge_Server_Caches](https://wpengine.com/support/cache/#Purge_Server_Caches)

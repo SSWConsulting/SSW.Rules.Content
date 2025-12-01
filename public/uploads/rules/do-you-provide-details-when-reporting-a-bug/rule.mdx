@@ -1,32 +1,50 @@
 ---
-seoDescription: Learn how to effectively report bugs by including detailed UX information and consider using screen recordings for clarity.
-type: rule
 archivedreason: Replaced by do-you-know-the-right-way-to-report-bugs
-title: Do you provide UX details when reporting a bug?
-guid: 2afe0327-d168-4150-9788-48a6ee58fc12
-uri: do-you-provide-details-when-reporting-a-bug
-created: 2012-03-27T18:17:10.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+created: 2012-03-27 19:44:46+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 2afe0327-d168-4150-9788-48a6ee58fc12
+isArchived: true
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
 - zzdo-you-provide-ux-details-when-reporting-a-bug
-
+seoDescription: Learn how to effectively report bugs by including detailed UX information
+  and consider using screen recordings for clarity.
+title: Do you provide UX details when reporting a bug?
+type: rule
+uri: do-you-provide-details-when-reporting-a-bug
 ---
 
 The better you describe the problem you had, the more effective will be the solution.
-<!--endintro-->
+<endOfIntro />
 
 Make sure you always explain and give as much details as you can of how you got an error or a bad experience.
 
-::: greybox
-Where is TV.SSW on the navigation?  
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Where is TV.SSW on the navigation?
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 Figure: Bad example - Lack of details
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 1. Navigated to ssw.com.au
 2. Scrolling down looking for a big graphic like "CHECK OUT SSW TV! CLICK HERE!"
 (Nothing)
@@ -47,9 +65,13 @@ Me, thinking… "Hmm… let's try the menu at the top..."
  Me, thinking... "Ctrl+F for TV? Nope."
 13. Me, gives up… types tv.ssw.com.au to try and get lucky. Huzzah!
 
-:::
-::: good
-Figure: Good example - We can easily identify more the one way to improve the UX  
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - We can easily identify more the one way to improve the UX",
+    shouldDisplay: true
+  }}
+/>
+
 
 Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use Snagit (preferred) or Jing to record your screen.

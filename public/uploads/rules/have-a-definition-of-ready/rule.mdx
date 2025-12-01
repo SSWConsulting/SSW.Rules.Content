@@ -1,32 +1,41 @@
 ---
-seoDescription: Define a clear "Definition of Ready" to ensure Product Backlog Items are actionable and ready for your team's sprint planning.
-type: rule
-title: Do you have a Definition of Ready?
-uri: have-a-definition-of-ready
-authors:
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - backlog-refinement-meeting
-  - 3-steps-to-a-pbi
-  - definition-of-done
-  - ask-clients-approval
-redirects:
-  - do-you-have-a-＂definition-of-ready＂
-  - do-you-have-a-＂-definition-of-ready-＂
-  - do-you-have-a-definition-of-ready
-created: 2013-08-23T18:42:58.000Z
 archivedreason: null
+authors:
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2013-08-23 18:45:20+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 38162fd3-f74a-4c7d-908d-59ed622965b9
+isArchived: false
+lastUpdated: 2024-09-09 22:21:47+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-have-a-＂definition-of-ready＂
+- do-you-have-a-＂-definition-of-ready-＂
+- do-you-have-a-definition-of-ready
+related:
+- rule: public/uploads/rules/backlog-refinement-meeting/rule.mdx
+- rule: public/uploads/rules/3-steps-to-a-pbi/rule.mdx
+- rule: public/uploads/rules/definition-of-done/rule.mdx
+- rule: public/uploads/rules/ask-clients-approval/rule.mdx
+seoDescription: Define a clear "Definition of Ready" to ensure Product Backlog Items
+  are actionable and ready for your team's sprint planning.
+title: Do you have a Definition of Ready?
+type: rule
+uri: have-a-definition-of-ready
 ---
 
-<!--endintro-->
+<endOfIntro />
 
 Just like how the team has a **[Definition of Done](/definition-of-done)** as a checklist for completing a PBI; the Product Owner needs a **Definition of Ready (DoR)** to get the PBI in a state that’s ready to be added to a Sprint. This should be done as part of the refinement (aka grooming) process and will greatly streamline the Sprint Planning meeting.
 
@@ -37,30 +46,59 @@ A recommended “Definition of Ready” would have:
 * **Effort** assigned
 * **Approved** state
 
-::: good
-![Figure: PBI that meet the DoR](PBI-with-DOR.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "PBI that meet the DoR",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/have-a-definition-of-ready/PBI-with-DOR.png"
+/>
+
 
 When the PBI is approved, [ask for a signature (or simply an initial) as a prove of approval](/ask-clients-approval).
 
-::: info
-**Warning:** PBIs might be accepted into a Sprint even if they do **not** meet the DoR. When that happens, there will be **more risk** and **uncertainty** around the PBI. It is highly discouraged for not-ready PBIs to be included in a Sprint, as they can hinder progress and disrupt the team's workflow.
-:::
-  
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Warning:** PBIs might be accepted into a Sprint even if they do **not** meet the DoR. When that happens, there will be **more risk** and **uncertainty** around the PBI. It is highly discouraged for not-ready PBIs to be included in a Sprint, as they can hinder progress and disrupt the team's workflow.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+
 ### INVEST principle
 
 The acronym INVEST serves as a helpful reminder of a widely accepted set of criteria, or checklist, used to evaluate the quality of a PBI. If a story does not meet one of these criteria, the team may need to revise or even rewrite it for better clarity and effectiveness.
 
-::: greybox
-PBIs should follow the INVEST principle:
 
-**"I" ndependent** (of all others)  
-**"N" egotiable** (not a specific contract for features)  
-**"V" aluable** (or vertical)  
-**"E" stimable** 👑 (to a good approximation)  
-**"S" mall** (so as to fit within an iteration)  
-**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)  
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    PBIs should follow the INVEST principle:
+
+**"I" ndependent** (of all others)
+**"N" egotiable** (not a specific contract for features)
+**"V" aluable** (or vertical)
+**"E" stimable** 👑 (to a good approximation)
+**"S" mall** (so as to fit within an iteration)
+**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 While acronyms like INVEST can seem over-elaborate, they offer a helpful framework to ensure consistency and clarity in evaluating PBIs.
 

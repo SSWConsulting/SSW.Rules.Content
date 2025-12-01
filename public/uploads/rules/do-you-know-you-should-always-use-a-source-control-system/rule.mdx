@@ -1,24 +1,33 @@
 ---
-seoDescription: Use a source control system to track and collaborate on code changes, reducing bug introduction and fixing time.
-type: rule
-title: Do you know you should always use a source control system?
-uri: do-you-know-you-should-always-use-a-source-control-system
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - spec-do-you-use-user-stories
-redirects: []
-created: 2009-03-17T07:15:10.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+created: 2009-12-04 07:57:51+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
 guid: 0490d3ad-83bc-481b-b611-97a6f001f056
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+related:
+- rule: public/uploads/rules/spec-do-you-use-user-stories/rule.mdx
+seoDescription: Use a source control system to track and collaborate on code changes,
+  reducing bug introduction and fixing time.
+title: Do you know you should always use a source control system?
+type: rule
+uri: do-you-know-you-should-always-use-a-source-control-system
 ---
 
 You should always use a source control system!
 
 It is not for a backup, it is because changing code can introduce new bugs. Often these bugs are non-obvious and appear in a part of the system, far removed from your changes. They are especially useful when another developer made the breaking change.
 
-<!--endintro-->
+<endOfIntro />
 
 So source code tracking allows you to see what changed recently to introduce a new bug. This dramatically reduces the time it takes to find and fix a newly introduced error.
 
@@ -30,18 +39,37 @@ Source control works best when integrated with a task tracking system. SSW uses 
 
 Whatever you use, your toolchain/process/IDE should fulfil the following user stories:
 
-::: greybox
-**As a developer** working on a code file
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **As a developer** working on a code file
 
 **I want to** easily view a file’s change history and navigate to the work items that were associated with the changes
 
 **So that I can** fix a recently introduced bug quickly
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-::: greybox
-**As a senior software developer**
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **As a senior software developer**
 
 **I want to** browse work items of junior developers, and have it linking/showing the code
 
 **So that I can** easily review their recent code
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

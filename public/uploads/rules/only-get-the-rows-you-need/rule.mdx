@@ -2,17 +2,25 @@
 seoDescription: Only retrieve database rows that match your criteria to save time and resources.
 type: rule
 title: Do you only get the rows you need?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: only-get-the-rows-you-need
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-created: 2021-12-13T16:59:04.256Z
+created: 2021-12-13T23:23:35.000Z
 guid: 654730c9-8678-4295-9168-e67049c96041
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 It's expensive retrieving data from a database, as such it's important to only ask for the rows you require when getting data.
 
-<!--endintro-->
+<endOfIntro />
 
 Entity Framework nicely translates the various filters like the Where method into SQL WHERE clauses. This makes it really easy to write nice readable code that is also very efficient.
 
@@ -26,10 +34,12 @@ foreach (var sale in sales)
     }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - Retrieved all the data instead of items that matched the product id.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - Retrieved all the data instead of items that matched the product id.
-:::
 
 ```csharp
 List<Sale> sales = context.Sales
@@ -41,7 +51,8 @@ foreach (var sale in sales)
     // Do stuff
 }
 ```
-
-::: good
-Good example - Only the data required was retrieved from the database
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Only the data required was retrieved from the database",
+  shouldDisplay: true
+} } />

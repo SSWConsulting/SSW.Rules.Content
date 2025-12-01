@@ -1,24 +1,34 @@
 ---
-seoDescription: Have a company-wide Word template that ensures consistency and branding across all documents. (Note - This SEO description is concise, includes primary keywords, and matches user intent.)
-type: rule
-title: Logon - Do you have a company-wide Word template?
-uri: have-a-companywide-word-template
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related:
-  - do-you-know-if-you-are-using-the-template
-  - great-email-signatures
-  - do-you-understand-the-value-of-consistency
-redirects:
-  - logon-do-you-have-a-company-wide-word-template
-created: 2017-07-11T17:42:29.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2017-07-11 17:42:30+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- logon-do-you-have-a-company-wide-word-template
+related:
+- rule: public/uploads/rules/do-you-know-if-you-are-using-the-template/rule.mdx
+- rule: public/uploads/rules/great-email-signatures/rule.mdx
+- rule: public/uploads/rules/the-value-of-consistency/rule.mdx
+seoDescription: Have a company-wide Word template that ensures consistency and branding
+  across all documents. (Note - This SEO description is concise, includes primary
+  keywords, and matches user intent.)
+title: Logon - Do you have a company-wide Word template?
+type: rule
+uri: have-a-companywide-word-template
 ---
 
 A company-wide Word template brings many benefits e.g.:
@@ -27,15 +37,33 @@ A company-wide Word template brings many benefits e.g.:
 * **Automatic footers and headers** - Showing the latest edit time and who the editor was, updating automatically on save
 * **Branding** - More and better branding and correct company colors
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Creating an email/document does not have the company templates](word-template-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Creating an email/document does not have the company templates",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/have-a-companywide-word-template/word-template-bad.jpg"
+/>
 
-::: good  
-![Figure: Good example - Creating an email/document with the company templates](word-template-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Creating an email/document with the company templates",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/have-a-companywide-word-template/word-template-good.jpg"
+/>
+
 
 How to have a company-wide Word template:
 
@@ -56,17 +84,31 @@ xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotm" "%AP
 xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotx" "%APPDATA%\Microsoft\QuickStyles\" >> %LogonLogFile%
 ECHO Templates Copied
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - This is a snippet of an old login script",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - This is a snippet of an old login script  
-:::
 
-::: greybox
-You can automatically have your SSW Word doc template on sign-in via a script. E.g. [PowerShell login script](https://github.com/SSWConsulting/SSWSysAdmins.LoginScript).
-:::
-::: good
-Good example - New Login script on Github  
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    You can automatically have your SSW Word doc template on sign-in via a script. E.g. [PowerShell login script](https://github.com/SSWConsulting/SSWSysAdmins.LoginScript).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - New Login script on Github",
+  shouldDisplay: true
+} } />
+
 
 **Note #1:** We don't want people using .RTF emails.
 

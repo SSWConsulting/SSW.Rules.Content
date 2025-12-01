@@ -1,28 +1,36 @@
 ---
-seoDescription: Microservice boundaries are hard. Keep your product healthy, scalable, and successful by reviewing your boundaries regularly.
-type: rule
-title: Do you regularly review your Microservice boundaries?
-uri: review-microservice-boundaries
-authors:
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-
-created: 2024-10-25T01:09:23.840Z
-guid: f10dba3f-e56a-4289-9127-9cb48e40a7f6
 archivedreason: null
+authors:
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-microservices.mdx
+created: 2024-10-29 06:05:47+00:00
+createdBy: Luke Cook [SSW]
+createdByEmail: 100659715+lukecookssw@users.noreply.github.com
+guid: f10dba3f-e56a-4289-9127-9cb48e40a7f6
+isArchived: false
+lastUpdated: 2024-10-29 06:05:47+00:00
+lastUpdatedBy: Luke Cook [SSW]
+lastUpdatedByEmail: 100659715+lukecookssw@users.noreply.github.com
+seoDescription: Microservice boundaries are hard. Keep your product healthy, scalable,
+  and successful by reviewing your boundaries regularly.
+title: Do you regularly review your Microservice boundaries?
+type: rule
+uri: review-microservice-boundaries
 ---
+
 Microservice architecture poses some unique challenges that can often trip up even the most experienced development teams. One of the hairiest problems is creating well-defined boundaries between your services, and the ideal Microservice architecture often differs from what was originally drawn on the whiteboard. So how do you tell if you got it right?
-<!-- endintro -->
+<endOfIntro />
 
 ## Map your Microservice architecture
 
 * Draw your Microservices on a whiteboard
 * Whenever one Microservice needs to communicate with another, draw a line between them. If there are several distinct integration points between the same 2 Microservices, add a "+1" or "+2" or "+N" to the line, indicating how many distinct calls those services share. For every paired Microservice, list all the integration points, with particular focus on *why* this integration exists, and the *frequency* in which it occurs (ie rarely, frequently, every time). For example: `OrdersService.Create(...)->Customers.GetCustomer(...). Frequency: every request.`.
 
-![Microservice maps can get intense](bad-example-microservice-map.png)
+![Microservice maps can get intense](/uploads/rules/review-microservice-boundaries/bad-example-microservice-map.png)
 **Figure: Incorrect boundaries result in spaghetti services**
 
 ### Identify hotspots

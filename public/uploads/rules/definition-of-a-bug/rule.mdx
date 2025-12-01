@@ -1,27 +1,38 @@
 ---
-seoDescription: Clear definition of a bug - Software issue causing application crashes, data inconsistencies, missing functionality, or page design/ layout issues that can be reproduced and reported within a specified timeframe.
-type: rule
-title: Do you have a clear definition of a bug?
-uri: definition-of-a-bug
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related:
-  - the-right-way-to-report-bugs-and-give-feedback-suggestions
-redirects:
-  - management-is-your-client-clear-on-the-definition-of-a-bug
-created: 2009-02-28T09:42:39.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
+created: 2022-04-18 21:52:13+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
+isArchived: false
+lastUpdated: 2024-12-30 04:43:45+00:00
+lastUpdatedBy: Ben Dunkerley [SSW]
+lastUpdatedByEmail: 141381253+BenDunkerleySSW@users.noreply.github.com
+redirects:
+- management-is-your-client-clear-on-the-definition-of-a-bug
+related:
+- rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+seoDescription: Clear definition of a bug - Software issue causing application crashes,
+  data inconsistencies, missing functionality, or page design/ layout issues that
+  can be reproduced and reported within a specified timeframe.
+title: Do you have a clear definition of a bug?
+type: rule
+uri: definition-of-a-bug
 ---
 
 The answer to this question can make or break contracts. We think that it's such a fundamental issue it has to be captured clearly. This is how we strictly define a bug.
 
-<!--endintro-->
+<endOfIntro />
 
-![](bug-feature.png)
+![](/uploads/rules/definition-of-a-bug/bug-feature.png)
 
 A software issue can be classed as a bug where:
 
@@ -30,23 +41,47 @@ A software issue can be classed as a bug where:
 3. The application is **missing functionality specified in the specification**; **or**
 4. The **page design/layout is substantially inconsistent** with the agreed mock-ups.
 
-As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.  
+As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.
 
 ## Examples of what **could** constitute a bug
 
 1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure
    **This is likely covered because it crashes to code**
 
-   ![Figure: Yellow screen of death](YellowScreenofDeath.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Yellow screen of death",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/definition-of-a-bug/YellowScreenofDeath.jpg"
+/>
+
 
 2. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance
    **This is likely covered because data is inconsistent with the specified business rules**
-   ![Figure: An incorrect sum is likely to be a bug](IncorrectSum.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "An incorrect sum is likely to be a bug",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/definition-of-a-bug/IncorrectSum.jpg"
+/>
 
-3. The application is missing the Monthly Sales report  
+
+3. The application is missing the Monthly Sales report
    **This is likely covered because the application is missing functionality specified in the specification**
 
-4. The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Safari)  
+4. The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Safari)
    **This is likely covered because it is substantially inconsistent with the agreed mockup**
 
 ## Examples of what is **not** a bug
@@ -62,7 +97,19 @@ Using a Work Tracking tool allows you to create work items such as user stories,
 
 For everything else, use other work item types.
 
-![Figure: Work item types](work-items-type-options.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Work item types",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/definition-of-a-bug/work-items-type-options.png"
+/>
+
 
 ### Handling additional work for fixed-price contracts
 
@@ -78,12 +125,34 @@ Any tasks which are bugs found **during** the current Sprint should be fixed wit
 
 Any tasks which are bugs found **outside** of the current Sprint should be added to the Product Backlog.
 
-![Figure: Adding a bug to the Product Backlog in Azure DevOps](adding-pbi-to-backlog.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Adding a bug to the Product Backlog in Azure DevOps",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/definition-of-a-bug/adding-pbi-to-backlog.png"
+/>
+
 
 See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
 
-::: info
-**Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 You can also use the Wiki definition of "Software Bug" as a reference to understand this concept: [Wikipedia Definition of Software Bug](https://en.wikipedia.org/wiki/Software_bug).

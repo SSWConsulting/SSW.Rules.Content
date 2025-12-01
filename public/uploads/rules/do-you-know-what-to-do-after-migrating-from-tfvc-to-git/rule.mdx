@@ -1,38 +1,48 @@
 ---
-seoDescription: After migrating from TFVC to Git, it's essential to clean up TFVC and lock down access to prevent accidental code commits.
-type: rule
-archivedreason:
-title: Do you know what to do after migrating from TFVC to Git?
-guid: 07aa6cb8-2115-4648-b308-56a110218a09
-uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
-created: 2017-04-05T00:34:51.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
+- category: categories/project-delivery/rules-to-better-version-control-with-tfs-aka-source-control.mdx
+created: 2017-04-05 00:34:53+00:00
+createdBy: ericphan
+createdByEmail: ericphan@ssw.com.au
+guid: 07aa6cb8-2115-4648-b308-56a110218a09
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: After migrating from TFVC to Git, it's essential to clean up TFVC
+  and lock down access to prevent accidental code commits.
+title: Do you know what to do after migrating from TFVC to Git?
+type: rule
+uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
 ---
 
 After you [use the right tool to migrate from TFVC to Git](/do-you-know-the-best-tool-to-migration-from-tfvc-to-git), there's a few more things you need to do to clean things up for a new user joining the project. By default, if there is a TFVC repository, that will become the default in the UI.
 
 Unfortunately, you can't kill the TFVC repository and make Git the default one, so there's a few steps you need to follow.
 
-<!--endintro-->
+<endOfIntro />
 
-![](2017-04-05_10-02-58.png)
+![](/uploads/rules/do-you-know-what-to-do-after-migrating-from-tfvc-to-git/2017-04-05_10-02-58.png)
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad Example - Can't delete the now deprecated TFVC repository",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad Example - Can't delete the now deprecated TFVC repository
-
-:::
 
 ### Delete files from TFVC
 
 Go into the repository, delete any existing files. Add a new document saying "\_Migrated_to_Git.md". This will stop people from getting the wrong code.
 
-![](2017-04-05_10-24-52.png)
+![](/uploads/rules/do-you-know-what-to-do-after-migrating-from-tfvc-to-git/2017-04-05_10-24-52.png)
 \*\*Figure: Clean up TFVC so developers can't accidentally get the wrong source code
 
 ---
@@ -44,7 +54,7 @@ Go into the repository, delete any existing files. Add a new document saying "\_
 
 In the TFVC repository, click Security
 
-![](2017-04-05_10-43-51.png)
+![](/uploads/rules/do-you-know-what-to-do-after-migrating-from-tfvc-to-git/2017-04-05_10-43-51.png)
 **Figure: Configure the security of the TFVC repository
 **
 Then deny check-ins to **Contributors** , P **roject Administrators** and **Project Collection Administrators** . This should stop anyone from committing new code to the repository.
@@ -53,12 +63,13 @@ Then deny check-ins to **Contributors** , P **roject Administrators** and **Proj
 
 Next step is to update the dashboard to let new developers know.
 
-![](2017-04-05_10-30-43.png)
+![](/uploads/rules/do-you-know-what-to-do-after-migrating-from-tfvc-to-git/2017-04-05_10-30-43.png)
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Let new users know that the source control is now on Git",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Let new users know that the source control is now on Git
-
-:::
 
 ### Suggestions for the VSTS team
 
@@ -68,9 +79,9 @@ Figure: Good example - Let new users know that the source control is now on Git
 
 Having any of these suggestions will avoid the confusion on this screen
 
-![](2017-04-05_10-06-12.png)
-
-::: bad
-Figure: Bad Exmaple - This is confusing for a new dev
-
-:::
+![](/uploads/rules/do-you-know-what-to-do-after-migrating-from-tfvc-to-git/2017-04-05_10-06-12.png)
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad Exmaple - This is confusing for a new dev",
+  shouldDisplay: true
+} } />

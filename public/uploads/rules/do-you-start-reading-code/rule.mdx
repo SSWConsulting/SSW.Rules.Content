@@ -1,29 +1,37 @@
 ---
-seoDescription: Discover how to write clean, readable code that anyone can understand and maintain.
-type: rule
-title: Do you start reading code?
-uri: do-you-start-reading-code
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related: []
-redirects: []
-created: 2012-03-20T03:46:01.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2012-03-20 08:15:56+00:00
+createdBy: LuZhang
+createdByEmail: LuZhang@ssw.com.au
 guid: 86eae955-ca88-429d-abde-70cc608f6ada
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects: []
+seoDescription: Discover how to write clean, readable code that anyone can understand
+  and maintain.
+title: Do you start reading code?
+type: rule
+uri: do-you-start-reading-code
 ---
 
 Great code isn't just about making computers do stuff; it's about making sure humans can understand and work with it too. Good code is like a well-written story - it's clear, easy to read, and everything has a name that makes sense. There's no unnecessary stuff thrown in, and it's all neatly organized. It's not just a set of instructions; it's a roadmap that explains not only "how" things work but also "why" they work that way when you read through it.
 
-<!--endintro-->
+<endOfIntro />
 
 > “Aim for simplicity. I want to code to read like poetry”*
 >
-> \* Terje Sandstrom  
+> \* Terje Sandstrom
 
 ### Good code characteristics
 
@@ -50,9 +58,19 @@ public IEnumerable<Customer> GetSupplierCustomersWithMoreThanZeroOrders(int supp
 
 **Figure: This code explains what it is doing as you read left to right, and why it is doing it when you read top to bottom**
 
-::: greybox
-**Tip:** Read the book [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com.au/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert. C. Martin.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** Read the book [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com.au/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert. C. Martin.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Good code is declarative
 
@@ -84,10 +102,12 @@ result.Sort(delegate(ProductGroup groupX, ProductGroup groupY) {
         0;
 });
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Not using LINQ",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Not using LINQ
-:::
 
 **Tip:** Resharper can automatically convert this code.
 
@@ -98,10 +118,12 @@ result = products
     .OrderByDescending(group => group.Count())
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - using LINQ",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - using LINQ
-:::
 
 **Tip:** For more information on why declarative programming (aka LINQ, SQL, HTML) is great, watch the TechDays 2010 Keynote by Anders Hejlsberg.Anders explains why it's better to have code "tell what, not how".
 

@@ -1,15 +1,24 @@
 ---
-seoDescription: Discover the importance of critical distance in testing and how diverse teams can foster increased skepticism to reduce the chances of being fooled.
-type: rule
-title: Do you recognize the importance of critical distance?
-uri: importance-critical-distance
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - conduct-a-test-please
-created: 2022-10-13T01:26:32.690Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-10-14 16:47:53+00:00
+createdBy: Lee Hawkins [SSW]
+createdByEmail: 106290015+leehawkinsssw@users.noreply.github.com
 guid: 15f0d643-4d70-4ea5-8376-451ea1c14d7e
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/conduct-a-test-please/rule.mdx
+seoDescription: Discover the importance of critical distance in testing and how diverse
+  teams can foster increased skepticism to reduce the chances of being fooled.
+title: Do you recognize the importance of critical distance?
+type: rule
+uri: importance-critical-distance
 ---
 
 "Critical distance" refers to the difference between one perspective and another, the difference between two ways of thinking about the same thing.
@@ -20,17 +29,39 @@ Developers naturally have a builder mindset focused on success, while testers ar
 
 The critical distance between the mindset of a developer and a tester is important for excellent testing.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Taking advantage of critical distance reduces the chances of being fooled](fool-yourself-feynman.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Taking advantage of critical distance reduces the chances of being fooled",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/importance-critical-distance/fool-yourself-feynman.jpg"
+/>
+
 
 ### Diverse teams foster increased critical distance
 
 Diversity in testing is an idea that has to be taken seriously, because it's essential to have different perspectives to foster critical distance between mindsets.
 
-::: greybox
-The more we're all alike, the greater the chance that we'll be fooled by missing something important.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    The more we're all alike, the greater the chance that we'll be fooled by missing something important.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Diversity is a powerful heuristic for addressing that problem, not only diversity of genders and identities, but also of cultures, ethnicities, experiences, temperaments, skills, approaches, etc.
 
@@ -50,7 +81,19 @@ While shallow testing is plausible at a close critical distance, deeper testing 
 
 Testers are always responding to something that has been created by someone else. This is actually a good thing: the tester must develop an independent mental model of the product that was **not** developed in parallel with the building of it. In doing so, they create valuable critical distance.
 
-![Figure: Testers bring skepticism to what we've built](skepticism.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Testers bring skepticism to what we've built",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/importance-critical-distance/skepticism.jpg"
+/>
+
 
 Testers act as agents between the world of technological solutions and the world of skepticism and doubt. Testers must remain professionally and responsibly uncertain that there are no problems, even when everyone around us is sure there are no problems.
 
@@ -62,9 +105,19 @@ Critical distance is essential for deeper testing; to find hidden, subtle, rare,
 
 Testing benefits from diverse perspectives which help cultivate critical distance, increasing the chances of identifying important problems in what we've built.
 
-::: greybox
-**Tip:** If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Tip:** If a developer is acting as the tester for another developer's work (e.g. performing a ["Test Please"](/conduct-a-test-please-internally-and-then-with-the-client)), they still benefit from the critical distance of not having built what they're testing.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### Learn more
 

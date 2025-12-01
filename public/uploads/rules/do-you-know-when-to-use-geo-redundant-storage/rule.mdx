@@ -1,23 +1,45 @@
 ---
-seoDescription: Azure Storage offers redundant storage options to balance safety and cost. Choose between Locally Redundant Storage (LRS), Geo-Redundant Storage (GRS), or Read Access Geo-Redundant Storage (RA-GRS) based on data importance, recovery requirements, and governance needs.
-type: rule
-title: Do you know when to use Geo Redundant Storage?
-uri: do-you-know-when-to-use-geo-redundant-storage
-authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
-redirects: []
-created: 2015-02-10T18:34:05.000Z
 archivedreason: null
+authors:
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-azure.mdx
+created: 2015-02-10 18:45:21+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 812032fc-e91b-4fa1-8aa3-7a10fc3d3cc1
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: Azure Storage offers redundant storage options to balance safety and
+  cost. Choose between Locally Redundant Storage (LRS), Geo-Redundant Storage (GRS),
+  or Read Access Geo-Redundant Storage (RA-GRS) based on data importance, recovery
+  requirements, and governance needs.
+title: Do you know when to use Geo Redundant Storage?
+type: rule
+uri: do-you-know-when-to-use-geo-redundant-storage
 ---
 
 Data in Azure Storage accounts is protected by replication. Deciding how far to replicate it is a balance between safety and cost.
 
-![Figure: It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts](azure-graphic.jpg)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-when-to-use-geo-redundant-storage/azure-graphic.jpg"
+/>
+
+
+<endOfIntro />
 
 ### Locally redundant storage (LRS)
 

@@ -1,27 +1,44 @@
 ---
-seoDescription: PowerBI data visualization tips - Avoid alphabetical sorting, which is limited and lacks insight into ranks, trends, or proportions.
-type: rule
-title: Do you know not to use Alphabetical Sorting?
-uri: do-you-know-not-to-use-alphabetical-sorting
-authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related: []
-redirects: []
-created: 2016-10-21T05:14:11.000Z
 archivedreason: null
+authors:
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+categories:
+- category: categories/company-operations/rules-to-better-power-bi.mdx
+created: 2016-10-21 05:14:11+00:00
+createdBy: ulyssesmaclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
 guid: 3d916e30-78b6-4bec-b3a8-394e227fa148
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: PowerBI data visualization tips - Avoid alphabetical sorting, which
+  is limited and lacks insight into ranks, trends, or proportions.
+title: Do you know not to use Alphabetical Sorting?
+type: rule
+uri: do-you-know-not-to-use-alphabetical-sorting
 ---
 
 The default sort order for most visualizations is alphabetical, but you should almost always change this.
 
-<!--endintro-->
+<endOfIntro />
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Alphabetical sorting is really only good if you're specifically looking for one item on the X axis, but it's terrible for seeing ranks, trends, or proportions.\n\n<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Bad Example: Alphabetical gives very little information\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/do-you-know-not-to-use-alphabetical-sorting/PowerBI-alphabetical.png\"\n/>",
+  shouldDisplay: true
+} } />
 
-::: bad
-Alphabetical sorting is really only good if you're specifically looking for one item on the X axis, but it's terrible for seeing ranks, trends, or proportions.
-![Figure: Bad Example: Alphabetical gives very little information](PowerBI-alphabetical.png)
-:::
 
-::: good
-![Figure - Good Example: Sorting by value shows rank and trends easily](PowerBI-non-aphabetical.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Figure - Good Example: Sorting by value shows rank and trends easily",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-not-to-use-alphabetical-sorting/PowerBI-non-aphabetical.png"
+/>
