@@ -35,7 +35,7 @@ A great status update is short, clear, and easy to act on. Your goal is to let t
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preferably by Friday  
 
 I've added a task for updating the Services page, replacing the banner, and changing the call-to-action text.
-You can see it here: <https://example.com/pbi/12345>
+You can see it here: {{ URL }}
 
 Jake
 
@@ -57,7 +57,7 @@ Figure: Bad example - The reply unnecessarily repeats the client’s full messag
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > Content update request  
 
-📝 PBI Created: [Services Page – Banner & CTA Update](https://example.com/pbi/12345)
+📝 PBI Created: {{ TITLE WITH A LINK }}
 I’ll share a preview shortly.
 
 Jake
