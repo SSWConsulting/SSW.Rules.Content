@@ -1,28 +1,49 @@
 ---
-seoDescription: Discover why "complete testing" is a myth and how to prioritize effective testing instead.
-type: rule
-title: Do you know that “complete testing” is impossible?
-uri: complete-testing-is-impossible
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - why-testing-is-important
-created: 2022-10-05T03:25:30.775Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-10-05 03:25:30.775000+00:00
 guid: a58ba6fa-1f34-40f5-afea-95e986f7e557
+related:
+- rule: public/uploads/rules/why-testing-is-important/rule.mdx
+seoDescription: Discover why "complete testing" is a myth and how to prioritize effective
+  testing instead.
+title: Do you know that “complete testing” is impossible?
+type: rule
+uri: complete-testing-is-impossible
 ---
 
 Without a good understanding of testing and its limitations, it's easy for clients and customers to believe that we "test everything" - but there's a problem with this belief:
 
 **Complete (or 100% or exhaustive) testing is impossible.**
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Bill Lumbergh might well ask someone to "test everything" (from the movie Office Space)](test-everything.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Bill Lumbergh might well ask someone to \"test everything\" (from the movie Office Space)"}
+  src="/uploads/rules/complete-testing-is-impossible/test-everything.jpg"
+/>
+
 
 ### Why is it impossible?
 
-![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Don't take on impossible missions!"}
+  src="/uploads/rules/complete-testing-is-impossible/100-is-impossible.jpg"
+/>
+
 Complete testing is impossible for several reasons:
 
 - We can’t test **all** the inputs to the program.
@@ -58,7 +79,16 @@ Since complete testing is impossible, choosing the tests to perform is essential
 
 The focus should be on doing "good enough testing". You can say you’re done when you have a testing story adequately covering the risks agreed with your stakeholders and you can make the case that additional tests will probably not significantly change your story. Depending on the situation, this might require months of testing, sometimes only hours.
 
-![Figure: Aim for "good enough" testing over complete testing](good-enough.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Aim for \"good enough\" testing over complete testing"}
+  src="/uploads/rules/complete-testing-is-impossible/good-enough.jpg"
+/>
+
 
 Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.
 

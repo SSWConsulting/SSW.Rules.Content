@@ -1,63 +1,99 @@
 ---
-seoDescription: Avoid using too many decimal places and keep numbers simple by rounding off values and omitting unnecessary zeros.
-type: rule
-title: Do you avoid using too many decimal places?
-uri: avoid-using-too-many-decimals
-authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao/
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
-related:
-  - less-is-more
-  - single-focus-number
-  - what-currency-to-quote
-  - include-annual-cost
-created: 2021-05-14T05:06:33.000Z
 archivedreason: null
+authors:
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Luke Mao
+  url: https://www.ssw.com.au/people/luke-mao/
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan/
+categories:
+- category: categories/client-engagement/rules-to-better-sales.mdx
+created: 2021-05-14 16:59:09.051000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 0b26e15a-ab05-4626-9736-2bf21eb452c9
+isArchived: false
+lastUpdated: 2021-05-17 17:11:26.284000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/less-is-more/rule.mdx
+- rule: public/uploads/rules/single-focus-number/rule.mdx
+- rule: public/uploads/rules/what-currency-to-quote/rule.mdx
+- rule: public/uploads/rules/include-annual-cost/rule.mdx
+seoDescription: Avoid using too many decimal places and keep numbers simple by rounding
+  off values and omitting unnecessary zeros.
+title: Do you avoid using too many decimal places?
+type: rule
+uri: avoid-using-too-many-decimals
 ---
 
 Numbers **without** decimal places offer a simpler and clearer way to present information. Embrace the [principle of "less is more"](/less-is-more) by rounding off values and leaving out zero cents in money values. This way you can make numbers easier to understand and avoid users getting lost in excessive precision. This approach promotes convenience, efficiency, and better communication, allowing users to focus on the main points without overwhelming detail or unnecessary complexity.
 
-<!--endintro-->
+<endOfIntro />
 
-::: info
-You should generally **only** include decimal places (especially more than 1) for accountants that will be used for reconciliations.
-:::
 
-::: greybox
-Hi Dave,
+<boxEmbed
+  variant="info"
+  body={<>
+    You should generally **only** include decimal places (especially more than 1) for accountants that will be used for reconciliations.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-The increase in price from  
- AUD $45,750.00 + GST  
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Hi Dave,
+
+The increase in price from
+ AUD $45,750.00 + GST
 to
-AUD $<mark>51,110.00</mark> + GST is approved by Bob
-:::
-::: bad
-Figure: Bad example - Having 0 cents is not necessary
-:::
+AUD $==51,110.00== + GST is approved by Bob
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - Having 0 cents is not necessary"}
+/>
 
-::: greybox
-Hi Dave,
 
-The increase in price from  
- AUD $45,750 + GST  
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Hi Dave,
+
+The increase in price from
+ AUD $45,750 + GST
 to
-AUD $<mark>51,110</mark> + GST is approved by Bob
-:::
-::: good
-Figure: Good example - Ditch the 0 cents and have a clear number
-:::
+AUD $==51,110== + GST is approved by Bob
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - Ditch the 0 cents and have a clear number"}
+/>
 
-::: greybox
-**Note:** The examples above are following the rule on [changing from "x" to "y"](/change-from-x-to-y).
-:::
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:** The examples above are following the rule on [changing from "x" to "y"](/change-from-x-to-y).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 Including decimal places is unnecessary when numbers are meant to provide a general indication. The purpose of such reports is to efficiently convey easily understandable overall information. Therefore, it is advisable to prioritize simplicity and focus on presenting a comprehensive overview without delving into intricate decimal numbers.
 
-::: good
-![Figure: Good example - Having $350.1k would not be useful information. $350k is sufficient](powerbi-no-decimals.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Having $350.1k would not be useful information. $350k is sufficient"}
+  src="/uploads/rules/avoid-using-too-many-decimals/powerbi-no-decimals.jpg"
+/>

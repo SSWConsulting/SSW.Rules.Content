@@ -1,32 +1,45 @@
 ---
-seoDescription: When reporting .NET applications errors, provide details by copying and pasting the top section of the error message within the 'Details' button, excluding the screenshot.
-type: rule
-title: Bug - Do you provide details when reporting .NET applications errors?
-uri: reporting-net-applications-errors
+archivedreason: Replaced by [https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details](https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-1-draft-your-bug-with-enough-details)
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - report-bugs-and-suggestions
-redirects:
-  - do-you-provide-details-when-reporting-net-applications-errors
-  - provide-details-when-reporting-net-applications-errors
-created: 2016-02-09T16:59:27.000Z
-archivedreason: Replaced by
-  [https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details](https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-1-draft-your-bug-with-enough-details)
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2016-02-09 16:59:27+00:00
 guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
+redirects:
+- do-you-provide-details-when-reporting-net-applications-errors
+- provide-details-when-reporting-net-applications-errors
+related:
+- rule: public/uploads/rules/report-bugs-and-suggestions/rule.mdx
+seoDescription: When reporting .NET applications errors, provide details by copying
+  and pasting the top section of the error message within the 'Details' button, excluding
+  the screenshot.
+title: Bug - Do you provide details when reporting .NET applications errors?
+type: rule
+uri: reporting-net-applications-errors
 ---
 
 .NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened. **Please do not send us this screenshot**, instead, select the top section of what's within this box and paste it in an email that you can send back to us.
 
-<!--endintro-->
+<endOfIntro />
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
-![Figure: Bug details window - Don't sent the screenshot ](/DotNetDebug2.gif)
 
-::: greybox
-See the end of this message for details on invoking
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Bug details window - Don't sent the screenshot"}
+  src="/uploads/rules/reporting-net-applications-errors/DotNetDebug2.gif"
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    See the end of this message for details on invoking
 just-in-time (JIT) debugging instead of this dialog box.
 
 We really want this part:
@@ -106,6 +119,10 @@ For example:
 When JIT debugging is enabled, any unhandled exception
 will be sent to the JIT debugger registered on the machine
 rather than being handled by this dialog.\
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 **Figure: This information is way more useful**

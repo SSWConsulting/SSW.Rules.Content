@@ -3,6 +3,8 @@ seoDescription: As a business coach, help entrepreneurs identify their unique va
 type: rule
 title: Do you give ChatGPT a role (e.g. a business coach, an expert
   nutritionist, etc.)?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 uri: give-chatgpt-a-role
 authors:
   - title: Ulysses Maclaren
@@ -13,7 +15,7 @@ guid: 7d89adfa-7090-4f9e-a3cc-7af7ac7f3a57
 
 Assigning a specific role to ChatGPT can help guide the model's responses and ensure they align with the desired expertise or perspective. By providing a clear role, you can focus the generated output on the specific knowledge area or viewpoint you require.
 
-<!--endintro-->
+<endOfIntro />
 
 Here are some tips for assigning roles to ChatGPT:
 
@@ -21,8 +23,11 @@ Here are some tips for assigning roles to ChatGPT:
 - Ensure the role is relevant to your question or request
 - Consider the level of expertise or perspective needed for your desired response
 
-::: greybox
 
+<boxEmbed
+  variant="greybox"
+  body={<>
+    
 1. "As a personal finance expert, explain how to create a monthly budget that prioritizes debt repayment and long-term savings goals."
 2. "As a nutritionist, provide a one-week meal plan for a vegetarian athlete that balances macronutrients for optimal performance."
 3. "As a career counselor, suggest five steps for a recent graduate to take when seeking their first job in a competitive market."
@@ -44,7 +49,11 @@ Here are some tips for assigning roles to ChatGPT:
 19. "As a gardening expert, explain how to create a thriving, low-maintenance container garden on a small balcony or patio."
 20. "As a personal stylist, demonstrate how to build a versatile and timeless capsule wardrobe with just 20 key pieces."
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ::: good
 Figure: Good examples - Giving ChatGPT the role of the expert that could help you most
@@ -52,7 +61,16 @@ Figure: Good examples - Giving ChatGPT the role of the expert that could help yo
 
 By assigning a specific role to ChatGPT, you can guide the model's responses to better address your needs and provide information or assistance tailored to the desired expertise or perspective."
 
-![Figure: Here's ChatGPT explaining how allocating it a role can help](role.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Here's ChatGPT explaining how allocating it a role can help"}
+  src="/uploads/rules/give-chatgpt-a-role/role.jpg"
+/>
+
 
 ### "Act as" vs "You are"
 
@@ -62,18 +80,32 @@ When assigning a role to ChatGPT, both "Act as..." and "You are..." can work eff
 
 "Act as...": This phrasing suggests that ChatGPT should pretend to be the specified role or character. It can yield more playful or creative responses, as the model might lean towards the idea of "acting" rather than genuinely being the character or expert.
 
-::: greybox
 
+<boxEmbed
+  variant="greybox"
+  body={<>
+    
 "Act as a historian and explain the causes of the French Revolution."
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 "You are...": This phrasing is more direct and instructs ChatGPT to take on the specified role or character more seriously. It can result in more focused and accurate responses, as the model assumes the identity of the specified role or expert.
 
-::: greybox
 
+<boxEmbed
+  variant="greybox"
+  body={<>
+    
 "You are a historian. Explain the causes of the French Revolution."
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 To find the best approach for your specific needs, it's a good idea to experiment with both phrasings and analyze the results. Each may work better in different contexts or for different types of questions, so trying both can help you determine which one is most effective for your particular use case.

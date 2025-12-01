@@ -1,19 +1,22 @@
 ---
-seoDescription: Validate each denormalized field to ensure reliable data integrity and prevent incorrect updates.
-type: rule
-title: Do you validate each "Denormalized Field"?
-uri: validate-each-denormalized-field
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-validate-each-denormalized-field-with-procvalidate
-  - schema-do-you-validate-each-denormalized-field-with-procvalidate
-  - validate-each-denormalized-field-with-procvalidate
-created: 2009-10-06T01:11:30.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
+created: 2009-10-06 01:11:30+00:00
 guid: f9056515-7c6c-4886-babd-a2af281c3a74
+redirects:
+- do-you-validate-each-denormalized-field-with-procvalidate
+- schema-do-you-validate-each-denormalized-field-with-procvalidate
+- validate-each-denormalized-field-with-procvalidate
+seoDescription: Validate each denormalized field to ensure reliable data integrity
+  and prevent incorrect updates.
+title: Do you validate each "Denormalized Field"?
+type: rule
+uri: validate-each-denormalized-field
 ---
 
 Ideally you should be using computed columns as per [Schema - Do you use computed columns rather than denormalized fields?](/use-computed-columns-rather-than-denormalized-fields)
@@ -22,7 +25,7 @@ Many of the databases that SSW works with make use of denormalized fields. We be
 
 With this example in mind, the main reasons we use denormalized fields are:
 
-<!--endintro-->
+<endOfIntro />
 
 ::: good
 Reducing development complexity
@@ -68,9 +71,16 @@ ORDER BY Customer.CustomerID
 
 **Figure: Queries are much simpler with denormalized fields**
 
-::: greybox
-**Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ::: good
 Performance is better for read-intensive reports

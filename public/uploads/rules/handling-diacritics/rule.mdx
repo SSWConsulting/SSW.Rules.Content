@@ -1,17 +1,19 @@
 ---
-seoDescription: Multilingual search features require handling diacritics to ensure accurate matches and a seamless user experience.
-type: rule
-archivedreason:
-title: Do you know how to handle diacritics?
-guid: 0d0c5084-5b42-45e0-afb5-c6f886d791ea
-uri: handling-diacritics
-created: 2024-03-13T14:38:37.0000000Z
+archivedreason: null
 authors:
-  - title: Chloe Lin
-    url: https://ssw.com.au/people/chloe-lin
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: []
+- title: Chloe Lin
+  url: https://ssw.com.au/people/chloe-lin
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+categories:
+- category: categories/software-engineering/rules-to-better-websites-deployment.mdx
+created: 2024-03-13 14:38:37+00:00
+guid: 0d0c5084-5b42-45e0-afb5-c6f886d791ea
+seoDescription: Multilingual search features require handling diacritics to ensure
+  accurate matches and a seamless user experience.
+title: Do you know how to handle diacritics?
+type: rule
+uri: handling-diacritics
 ---
 
 Imagine you're developing a search feature for a multilingual website. When a user searches for a term like "résumé", but the database contains variations like "resume" without accented characters, it leads to missed matches and incomplete search results. Furthermore, this lack of normalization can introduce inconsistencies in sorting and filtering, complicating data analysis and user navigation.
@@ -20,7 +22,7 @@ Implementing character normalization by converting accented and special characte
 
 This is especially important for internationalization and for sites to serve users worldwide effectively, regardless of linguistic differences.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Handling diacritics in JS
 
@@ -66,7 +68,13 @@ Console.WriteLine(normalizedString);    // Output: resume
 
 Voila! With just two line of code, we've transformed the accented "résumé" into its standard English form "resume". Now, the search functionality can accurately match user queries regardless of accents.
 
-::: greybox
-**Note:**
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:**
 While this method often ensures uniformity and handles characters with multiple representations, it may not function as expected for non-diacritic characters such as 'æ' or 'ø'. In such cases, it may be necessary to use a library or manually handle these characters.
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

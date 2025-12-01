@@ -1,37 +1,72 @@
 ---
-seoDescription: Windows Forms design best practices ensure consistent alignment and border protection with red lines serving as a visual guide for perfect spacing.
-type: rule
-title: Do your Windows Forms have border protection?
-uri: do-your-windows-forms-have-border-protection
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects: []
-created: 2014-12-01T01:03:09.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-windows-forms.mdx
+created: 2014-12-01 01:06:20+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
 guid: 51a95539-4424-4b7a-aa1e-4af0d72f5127
+isArchived: false
+lastUpdated: 2021-04-21 23:31:10.575000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+seoDescription: Windows Forms design best practices ensure consistent alignment and
+  border protection with red lines serving as a visual guide for perfect spacing.
+title: Do your Windows Forms have border protection?
+type: rule
+uri: do-your-windows-forms-have-border-protection
 ---
 
 Border protection helps us design Windows Forms properly without placing controls too near to the border. Maintain a consistent alignment makes the Windows Forms look better, especially on designing wizard forms where all forms have the same size.
 
-<!--endintro-->
+<endOfIntro />
 
-::: good  
-![Figure: Good example - Good border protection on a form at run time. The only problem is you would have to imagine these blue lines to get consistency](/BorderProtectionExample.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Good border protection on a form at run time. The only problem is you would have to imagine these blue lines to get consistency"}
+  src="/uploads/rules/do-your-windows-forms-have-border-protection/BorderProtectionExample.gif"
+/>
+
 
 **Border protection in action:**
 
-::: bad  
-![Figure: Bad example - Controls placed very near to the border and not aligned correctly](/BorderProtectionBad.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Controls placed very near to the border and not aligned correctly"}
+  src="/uploads/rules/do-your-windows-forms-have-border-protection/BorderProtectionBad.gif"
+/>
 
-::: good  
-![Figure: Good example - All controls are in the border protection area and aligned correctly](/BorderProtectionGood.gif)  
-:::
 
-![Figure: Design mode](/BorderProtectionDesign.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - All controls are in the border protection area and aligned correctly"}
+  src="/uploads/rules/do-your-windows-forms-have-border-protection/BorderProtectionGood.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Design mode"}
+  src="/uploads/rules/do-your-windows-forms-have-border-protection/BorderProtectionDesign.gif"
+/>
+
 
 The way to implement border protection (the 2 vertical red lines) is implement it in the base form or base user control, and all other forms and user controls inherit the base class to get consistent border protection lines.
 

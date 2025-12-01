@@ -1,35 +1,40 @@
 ---
-type: rule
-title: Do you include UAT in each Sprint?
-seoDescription: Embrace UAT in Scrum by incorporating your testing processes into the Sprint.
-uri: uat-in-sprint
 authors:
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-  - acceptance-criteria
-  - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
-  - do-you-have-separate-development-testing-and-production-environments
-redirects:
-  - no-uat-phase-in-scrum
-created: 2025-10-02T22:40:45.273Z
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+- category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.mdx
+created: 2025-10-02 22:40:45.273000+00:00
 guid: 091b9044-5067-4bfc-aa15-0fcd150eb94b
+redirects:
+- no-uat-phase-in-scrum
+related:
+- rule: public/uploads/rules/acceptance-criteria/rule.mdx
+- rule: public/uploads/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/rule.mdx
+- rule: public/uploads/rules/do-you-have-separate-development-testing-and-production-environments/rule.mdx
+seoDescription: Embrace UAT in Scrum by incorporating your testing processes into
+  the Sprint.
+title: Do you include UAT in each Sprint?
+type: rule
+uri: uat-in-sprint
 ---
 
 User Acceptance Testing (UAT) is common in software release cycles, but it can often be treated as a secondary backlog of work that's managed independently of the development Sprint. This separation adds friction, creates delays, and **costs more money** for every feature. UAT is incredibly valuable, so make sure you're doing it right.
 
-<!-- endintro -->
+<endOfIntro />
 
-`youtube: https://youtu.be/FnHAlRde0fk?t=67`
-**Video: YDS: When Does UAT Happen in Scrum? (6 min)**
+
+<youtubeEmbed url="https://youtu.be/FnHAlRde0fk?t=67" description={"Video: YDS: When Does UAT Happen in Scrum? (6 min)"} />
+
 
 ## What is UAT?
 
-Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of users (ideally real users, but sometimes stakeholders). 
+Developers build a feature, and before shipping that feature to the wider audience, you want to make sure it's doing exactly what you expect. This is the foundation of UAT. Depending on the size and scope of the project, UAT may be done by a single Product Owner, or a team of users (ideally real users, but sometimes stakeholders).
 
 Regardless, the concept remains the same. Once the development work has been signed off by the relevant testing authority, the work is approved for production and is ready to be shipped.
 
@@ -41,7 +46,16 @@ A PBI marked as "Ready for testing" means it cannot be marked as "Done" until te
 
 Additionally, there may be bugs found by testers, meaning those PBIs are thrown back onto the development backlog and have to be re-prioritized and scheduled for future Sprints (or, worse, disrupt the current Sprint). Not to mention that, after all this time, the developers themselves may have already context-switched to different problems and will have to reacquaint themselves with the feature once again.
 
-![Figure: Bad example - Walls between development and testing](dev-uat.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Bad example - Walls between development and testing"}
+  src="/uploads/rules/uat-in-sprint/dev-uat.png"
+/>
+
 
 As you can imagine, this disconnect between development and acceptance testing can result in a significant drop in delivery speed, and dramatically increase the business cost for many work items.
 
@@ -57,7 +71,16 @@ From the Scrum guide:
 >
 > [Scrum.org | What is a Developer in Scrum?](https://www.scrum.org/resources/what-is-a-scrum-developer)
 
-![Figure: Good example - Cross-functional teams deliver features faster](cooperative-devs.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Good example - Cross-functional teams deliver features faster"}
+  src="/uploads/rules/uat-in-sprint/cooperative-devs.png"
+/>
+
 
 ### Does that mean I should ditch my UAT environment?
 

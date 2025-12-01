@@ -1,23 +1,25 @@
 ---
-seoDescription: Ensure secure report access by avoiding anonymous authentication and using ReportViewer with proper credentials.
-type: rule
-archivedreason:
-title: Do you use the correct authentication for reports?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-09-16 09:06:00+00:00
 guid: e619bac7-d1f3-4549-949c-0113ddcfa6ca
-uri: use-correct-authentication-for-report
-created: 2024-09-16T09:06:00.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-- when-to-use-reporting-services
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Ensure secure report access by avoiding anonymous authentication and
+  using ReportViewer with proper credentials.
+title: Do you use the correct authentication for reports?
+type: rule
+uri: use-correct-authentication-for-report
 ---
 
 Using anonymous authentication is not recommended because of security reasons.
 
-<!--endintro-->
+<endOfIntro />
 
 * Anonymous accounts (the IUSER_*and IWAM_* accounts) are managed by windows security system. We do not want to use these accounts because we have to manually configure our report server security settings.
 * We do not want everyone on the Internet update or overwrite stuffs on the report server. Besides, anonymous authentication is no longer supported in RS 2008.
@@ -35,6 +37,12 @@ paramList.Add(New ReportParameter("ClientContactID", mintClientContactID, False)
 reportViewer.ServerReport.SetParameters(paramList)
 ```
 
-::: info
-**Warning:** This is only supported for .NET Full Framework because of the ReportViewer component.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Warning:** This is only supported for .NET Full Framework because of the ReportViewer component.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

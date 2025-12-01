@@ -1,22 +1,31 @@
 ---
-seoDescription: Stored Procedures - Set NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes.
-type: rule
-archivedreason:
-title: Stored Procedures - Do you SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes?
-guid: e54a2194-4ce5-4aa5-84c5-148559178215
-uri: set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
-created: 2019-11-12T22:25:59.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-12 22:25:59+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: e54a2194-4ce5-4aa5-84c5-148559178215
+isArchived: false
+lastUpdated: 2020-01-03 05:27:38+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - stored-procedures-do-you-set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
+- stored-procedures-do-you-set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
+seoDescription: Stored Procedures - Set NOCOUNT ON for production and NOCOUNT OFF
+  off for development/debugging purposes.
+title: Stored Procedures - Do you SET NOCOUNT ON for production and NOCOUNT OFF off
+  for development/debugging purposes?
+type: rule
+uri: set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
 ---
 
 You should use SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes (i.e. when you want the rowcounts to display as the messages from your T-SQL).
 
-<!--endintro-->
+<endOfIntro />
 
 According to SQL Server Books Online:
 "For stored procedures that contain several statements that do not return much actual data, this can provide a significant performance boost because network traffic is greatly reduced."

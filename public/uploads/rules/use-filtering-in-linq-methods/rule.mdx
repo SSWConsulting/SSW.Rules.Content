@@ -2,6 +2,8 @@
 seoDescription: Mastering LINQ methods by using filtering parameters for efficient and readable code.
 type: rule
 title: Do you use the filtering parameter in LINQ methods?
+categories:
+  - category: categories/software-engineering/rules-to-better-linq.mdx
 uri: use-filtering-in-linq-methods
 authors:
   - title: Bryden Oliver
@@ -12,7 +14,7 @@ guid: 214d106b-0c61-472f-bcfe-05f3860c24f3
 
 Many LINQ methods like Count, First and so on include an optional filter parameter. It's normally much more readable to use this than add an extra call to Where
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 .Where(x => x < 5).Count()

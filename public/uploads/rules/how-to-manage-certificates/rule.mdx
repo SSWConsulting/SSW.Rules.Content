@@ -1,17 +1,25 @@
 ---
-seoDescription: Automate certificate management with Certify The Web and Let's Encrypt, removing human error and manual handling for hassle-free expiration control.
-type: rule
-title: Certificate - Do you know how to manage certificates?
-uri: how-to-manage-certificates
-authors:
-  - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
-related: []
-redirects:
-  - do-you-know-how-to-manage-certificates
-created: 2020-09-09T21:26:04.000Z
 archivedreason: null
+authors:
+- title: Steven Andrews
+  url: https://ssw.com.au/people/steven-andrews
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2020-09-09 21:26:07+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 00ddce19-4692-4819-b535-ef4a90c640e5
+isArchived: false
+lastUpdated: 2020-09-11 01:24:52+00:00
+lastUpdatedBy: Steven Andrews
+lastUpdatedByEmail: StevenAndrews@ssw.com.au
+redirects:
+- do-you-know-how-to-manage-certificates
+seoDescription: Automate certificate management with Certify The Web and Let's Encrypt,
+  removing human error and manual handling for hassle-free expiration control.
+title: Certificate - Do you know how to manage certificates?
+type: rule
+uri: how-to-manage-certificates
 ---
 
 At SSW we have moved away from paid certificates for our websites and web apps. We now use [Let's Encrypt](https://letsencrypt.org/) managed by [Certify The Web](https://certifytheweb.com/).
@@ -22,12 +30,23 @@ With Certify the Web and Let's Encrypt, we remove this human error and manual ha
 
 You should use [Certify the Web](https://certifytheweb.com/).
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Keeping a database is unnecessary](manage-certificates-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Keeping a database is unnecessary"}
+  src="/uploads/rules/how-to-manage-certificates/manage-certificates-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Using Certify The Web](manage-certificates-good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Using Certify The Web"}
+  src="/uploads/rules/how-to-manage-certificates/manage-certificates-good.png"
+/>

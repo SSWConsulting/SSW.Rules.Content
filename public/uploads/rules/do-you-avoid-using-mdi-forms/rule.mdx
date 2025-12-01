@@ -2,6 +2,8 @@
 seoDescription: Avoid using MDI forms due to their limitations and outdated design, instead opting for SDI applications that provide a more intuitive and modern user experience.
 type: rule
 title: Do you avoid using MDI forms?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: do-you-avoid-using-mdi-forms
 authors:
   - title: Adam Cogan
@@ -17,18 +19,39 @@ MDI (Multiple Document Interface) forms should be avoided in most modern data-ce
 - Only show as one window on the taskbar
 - Have no multiple monitor support (the killer reason)
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - VS.NET with tabs is cool for developers, but not for the average knowledge worker](vs.net.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - VS.NET with tabs is cool for developers, but not for the average knowledge worker"}
+  src="/uploads/rules/do-you-avoid-using-mdi-forms/vs.net.jpg"
+/>
 
-::: bad
-![Figure: Bad example - Word 2003 in MDI mode](wordmdibad.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Word 2003 in MDI mode"}
+  src="/uploads/rules/do-you-avoid-using-mdi-forms/wordmdibad.gif"
+/>
+
 
 ::: good
-![Figure: Good example - Word 2003 with Default Settings](sdiexample.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Good example - Word 2003 with Default Settings"}
+  src="/uploads/rules/do-you-avoid-using-mdi-forms/sdiexample.jpg"
+/>
+
 
 ```cs
 Me.IsMdiContainer = true;

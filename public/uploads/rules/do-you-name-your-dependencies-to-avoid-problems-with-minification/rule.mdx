@@ -1,22 +1,31 @@
 ---
-seoDescription: Name dependencies to avoid problems with minification in Angular, ensuring correct injection of services even after code optimization.
-type: rule
-archivedreason:
-title: Do you name your dependencies to avoid problems with minification?
-guid: a234f979-bc20-4415-8e9a-caf2b9cfc4fc
-uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
-created: 2014-10-07T14:42:09.0000000Z
+archivedreason: null
 authors:
-  - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
-related:
-  - do-you-know-the-common-design-patterns-part-2-example
+- title: Ben Cull
+  url: https://ssw.com.au/people/ben-cull
+categories:
+- category: categories/software-engineering/rules-to-better-angularjs.mdx
+created: 2014-10-07 14:52:28+00:00
+createdBy: Ben Cull
+createdByEmail: BenCull@ssw.com.au
+guid: a234f979-bc20-4415-8e9a-caf2b9cfc4fc
+isArchived: false
+lastUpdated: 2015-09-10 23:18:48+00:00
+lastUpdatedBy: William Yin
+lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
+related:
+- rule: public/uploads/rules/common-design-patterns/rule.mdx
+seoDescription: Name dependencies to avoid problems with minification in Angular,
+  ensuring correct injection of services even after code optimization.
+title: Do you name your dependencies to avoid problems with minification?
+type: rule
+uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
 ---
 
 Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly.
 
-<!--endintro-->
+<endOfIntro />
 
 The standard way to inject your dependencies looks a little like the following. We're defining a controller in this case.
 
@@ -25,7 +34,7 @@ phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {...}
 ```
 
 ::: bad
-Code: Bad example - This code will break when minified  
+Code: Bad example - This code will break when minified
 :::
 
 When this code is minified the parameters are renamed. This means that the dependency injector no longer knows which services to inject.
@@ -39,7 +48,7 @@ phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
 ```
 
 ::: good
-Code: Good example - This code names the parameters using the $inject property  
+Code: Good example - This code names the parameters using the $inject property
 :::
 
 The second and **preferred** option is to pass an array containing the names, followed by the function itself. Take a look:

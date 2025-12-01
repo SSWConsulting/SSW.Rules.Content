@@ -2,6 +2,8 @@
 seoDescription: DNN updates database schema without warning, potentially altering data integrity.
 type: rule
 title: Do you know DNN can update the schema of your database without warning?
+categories:
+  - category: categories/software-engineering/rules-to-better-dotnetnuke.mdx
 uri: dnn-can-update-the-schema-of-your-database-without-warning
 authors:
   - title: Adam Cogan
@@ -13,6 +15,6 @@ guid: d0177cf4-52cf-4f05-876f-3ce029ef5121
 
 If you point your DNN application at another database on an earlier version of DNN, it will update the database to the latest version without warning.
 
-<!--endintro-->
+<endOfIntro />
 
 Suggestion to the DNN team: Don't do this without a warning. Even better, use SSW SQL Deploy

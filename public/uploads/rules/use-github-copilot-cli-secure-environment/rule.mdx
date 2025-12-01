@@ -2,6 +2,8 @@
 type: rule
 tips: ""
 title: Do you use GitHub Copilot CLI in a secure dockerised environment?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 seoDescription: Learn how to run GitHub Copilot CLI in a secure Docker sandbox
   that isolates AI operations to your current project directory. This approach
   provides powerful AI assistance while maintaining strict security boundaries.
@@ -19,21 +21,28 @@ GitHub Copilot CLI is incredibly powerful, but giving AI deep access to your ter
 
 Running Copilot CLI in a secure Docker container provides the best of both worlds: powerful AI assistance with strict security boundaries that limit the "blast radius" of any potential mistakes.
 
-<!--endintro-->
+<endOfIntro />
 
 ## The problem with unrestricted access
 
 When running Copilot CLI directly on your host machine:
 
-::: greybox
-**Copilot has access to:**
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Copilot has access to:**
 
 * Your entire file system
 * Your SSH keys in `~/.ssh/`
 * All your repositories
 * Your environment variables and secrets
 * System-wide configurations
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 ::: bad
 Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
 :::
@@ -62,9 +71,16 @@ If Copilot runs a dangerous command like `rm -rf .`:
 * Your other projects and system files are safe
 * If setup with git, it is easily recoverable
 
-::: info
-**Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ### Understanding the two modes
 
@@ -80,9 +96,16 @@ Both modes include security checks for proper GitHub token scopes and warn about
 
 The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
 
-:::info
-**Note:** The functions below provide cross-platform support for Linux/macOS and Windows. For the latest version, always check the GitHub repository.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Note:** The functions below provide cross-platform support for Linux/macOS and Windows. For the latest version, always check the GitHub repository.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 #### Option 1: Safe Mode (Recommended)
 
@@ -120,7 +143,7 @@ copilot_here() {
   (docker pull "$image_name" > /dev/null 2>&1) &
   local pull_pid=$!
   local spin='|/-\'
-  
+
   local i=0
   while ps -p $pull_pid > /dev/null; do
     i=$(( (i+1) % 4 ))
@@ -130,7 +153,7 @@ copilot_here() {
 
   wait $pull_pid
   local pull_status=$?
-  
+
   if [ $pull_status -eq 0 ]; then
     echo "✅"
   else
@@ -214,7 +237,7 @@ function Copilot-Here {
 
     Wait-Job $pullJob | Out-Null
     $pullOutput = Receive-Job $pullJob
-    
+
     if ($pullJob.State -eq 'Completed') {
         Write-Host "✅"
     } else {
@@ -331,7 +354,7 @@ copilot_yolo() {
   (docker pull "$image_name" > /dev/null 2>&1) &
   local pull_pid=$!
   local spin='|/-\'
-  
+
   local i=0
   while ps -p $pull_pid > /dev/null; do
     i=$(( (i+1) % 4 ))
@@ -341,7 +364,7 @@ copilot_yolo() {
 
   wait $pull_pid
   local pull_status=$?
-  
+
   if [ $pull_status -eq 0 ]; then
     echo "✅"
   else
@@ -425,7 +448,7 @@ function Copilot-Yolo {
 
     Wait-Job $pullJob | Out-Null
     $pullOutput = Receive-Job $pullJob
-    
+
     if ($pullJob.State -eq 'Completed') {
         Write-Host "✅"
     } else {
@@ -489,9 +512,16 @@ copilot_yolo "clean and reinstall dependencies"
 Good example - YOLO mode executes commands without asking for approval on both platforms
 :::
 
-::: info
-**Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ## How it works
 

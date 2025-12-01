@@ -1,38 +1,48 @@
 ---
-seoDescription: Include annual costs to provide a complete picture of expenses and facilitate informed budget planning.
-type: rule
-title: Do you include the annual cost for recurring expenses?
-uri: include-annual-cost
 authors:
-  - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - what-currency-to-quote
-  - avoid-using-too-many-decimals
-created: 2023-12-04T05:13:51.742Z
+- title: Luke Mao
+  url: https://www.ssw.com.au/people/luke-mao
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/client-engagement/rules-to-better-sales.mdx
+created: 2023-12-04 05:13:51.742000+00:00
 guid: 0e395d2d-d76c-45f4-b5fd-fc288600d133
+related:
+- rule: public/uploads/rules/what-currency-to-quote/rule.mdx
+- rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
+seoDescription: Include annual costs to provide a complete picture of expenses and
+  facilitate informed budget planning.
+title: Do you include the annual cost for recurring expenses?
+type: rule
+uri: include-annual-cost
 ---
 
 When quoting prices, it's common practice to state daily, weekly, or monthly costs; sometimes per person, per click, etc. It's crucial to provide a full picture by also including the annual cost. The reasons:
 
-<!--endintro-->
+<endOfIntro />
 
 - **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
 - **Comparison Ease**: Customers can more easily compare costs with other services or products
 - **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
-::: greybox
-AUD $150 + GST/month
-:::
-::: bad
-Figure: Bad example - Only include monthly cost
-:::
 
-::: greybox
-AUD $150 + GST/month (AUD $1,800 + GST/year)
-:::
-::: good
-Figure: Good example - Include both monthly and yearly cost
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    AUD $150 + GST/month
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - Only include monthly cost"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    AUD $150 + GST/month (AUD $1,800 + GST/year)
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - Include both monthly and yearly cost"}
+/>

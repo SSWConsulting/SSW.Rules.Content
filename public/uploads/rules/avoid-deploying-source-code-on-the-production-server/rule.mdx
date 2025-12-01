@@ -1,24 +1,34 @@
 ---
-seoDescription: Avoid deploying source code on production servers by using tools like Publish utility to precompile and deploy ASP.NET projects, removing source code and identifying potential errors.
-type: rule
-title: Do you avoid deploying source code on the production server?
-uri: avoid-deploying-source-code-on-the-production-server
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-created: 2016-11-17T13:15:08.0000000Z
-archivedreason:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2016-11-17 13:15:13+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: d8faf9ec-e8fb-4399-90fe-c01f818420f8
+isArchived: false
+lastUpdated: 2021-03-12 22:56:47.097000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-avoid-deploying-source-code-on-the-production-server
+- do-you-avoid-deploying-source-code-on-the-production-server
+seoDescription: Avoid deploying source code on production servers by using tools like
+  Publish utility to precompile and deploy ASP.NET projects, removing source code
+  and identifying potential errors.
+title: Do you avoid deploying source code on the production server?
+type: rule
+uri: avoid-deploying-source-code-on-the-production-server
 ---
 
 When you are deploying an ASP.NET project (no matter it's a website or a Web application), do not copy all files of this project to the production server because source code will be deployed during this simple copy and it makes easier for others to access or tamper the source code of your site.
 
 Instead, please use 'Publish' utility to deploy your website or Web application. This utility can remove the source code from the site.
 
-<!--endintro-->
+<endOfIntro />
 
 ### 1. Website Project
 
@@ -26,9 +36,27 @@ Instead, please use 'Publish' utility to deploy your website or Web application.
 
 To access this dialog box, please open a website that you want to deploy and click **Build** menu, then click **Publish Website** .
 
-![Figure: How to open Publish Website dialog box](publish-website.jpg)
 
-![Figure: Publish Website dialog box](publish-website-dialog.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"How to open Publish Website dialog box"}
+  src="/uploads/rules/avoid-deploying-source-code-on-the-production-server/publish-website.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Publish Website dialog box"}
+  src="/uploads/rules/avoid-deploying-source-code-on-the-production-server/publish-website-dialog.jpg"
+/>
+
 
 See more about [Publishing Websites](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd465337(v=vs.110)).
 
@@ -38,8 +66,26 @@ The **Publish Web** dialog box enables you to build and publish a Web applicatio
 
 To access this dialog box, open a Web application project that you want to publish and click **Publish** ApplicationName on the **Build** menu.
 
-![Figure: How to open Publish Web dialog ('WebApp' is the name of this application)](publish-web-app.jpg)
 
-![Figure: Publish Web dialog box](publish-web-app-dialog.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"How to open Publish Web dialog ('WebApp' is the name of this application)"}
+  src="/uploads/rules/avoid-deploying-source-code-on-the-production-server/publish-web-app.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Publish Web dialog box"}
+  src="/uploads/rules/avoid-deploying-source-code-on-the-production-server/publish-web-app-dialog.jpg"
+/>
+
 
 See more about [How to Publish Web Applications](https://learn.microsoft.com/en-us/visualstudio/deployment/quickstart-deploy-aspnet-web-app?view=vs-2022).

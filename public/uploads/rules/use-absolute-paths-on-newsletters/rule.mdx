@@ -1,22 +1,30 @@
 ---
-seoDescription: Using absolute paths for newsletter links and images ensures a seamless user experience by providing a reliable reference for external users.
-type: rule
-archivedreason:
-title: HTML - Do you use absolute paths for newsletter links and images?
-guid: f7d0ff4a-2f23-44b2-83ef-b34c251c08a8
-uri: use-absolute-paths-on-newsletters
-created: 2018-06-07T21:48:16.0000000Z
+archivedreason: null
 authors:
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related: []
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/marketing-and-video/rules-to-better-newsletters.mdx
+created: 2018-06-07 21:48:17+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: f7d0ff4a-2f23-44b2-83ef-b34c251c08a8
+isArchived: false
+lastUpdated: 2018-06-07 22:03:02+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - html-do-you-use-absolute-paths-for-newsletter-links-and-images
+- html-do-you-use-absolute-paths-for-newsletter-links-and-images
+seoDescription: Using absolute paths for newsletter links and images ensures a seamless
+  user experience by providing a reliable reference for external users.
+title: HTML - Do you use absolute paths for newsletter links and images?
+type: rule
+uri: use-absolute-paths-on-newsletters
 ---
 
 Newsletters should **always use absolute references** to all links and images within the HTML. Relative paths don't contain the server information so external users see a broken link/image - the outside email application won't find the where the file is.
 
-<!--endintro-->
+<endOfIntro />
 
 ```html
 <a href="/ssw/Company/ContactUs.aspx "><img src="/SSW/images/SSWLogo.png" /></a>

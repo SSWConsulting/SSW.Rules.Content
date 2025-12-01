@@ -1,20 +1,22 @@
 ---
-seoDescription: Phishing for Payments.
-type: rule
-title: Do you know how to prevent phishing for payments?
-uri: phishing-for-payments
-authors:
-  - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
-related:
-  - recognizing-phishing-urls
-  - using-mfa
-  - recognizing-scam-emails
-redirects:
-  - do-you-know-how-to-prevent-phishing-for-payments
-created: 2025-02-06T01:27:10.000Z
 archivedreason: null
+authors:
+- title: Jimmy Chen
+  url: https://ssw.com.au/people/jimmy-chen
+categories:
+- category: categories/company-operations/rules-to-better-accounting.mdx
+created: 2025-02-06 01:27:10+00:00
 guid: c72fa325-be7f-4490-afee-8374cf9ecc92
+redirects:
+- do-you-know-how-to-prevent-phishing-for-payments
+related:
+- rule: public/uploads/rules/recognizing-phishing-urls/rule.mdx
+- rule: public/uploads/rules/using-mfa/rule.mdx
+- rule: public/uploads/rules/recognizing-scam-emails/rule.mdx
+seoDescription: Phishing for Payments.
+title: Do you know how to prevent phishing for payments?
+type: rule
+uri: phishing-for-payments
 ---
 
 According to the Association of Certified Fraud Examiners' 2024 report, organizations lose an estimated 5% of their revenue to fraud each year.
@@ -24,7 +26,7 @@ In Australia, cybercriminals are increasingly targeting businesses, leading to g
 Accountants and accounts payable professionals are prime phishing targets due to their access to financial transactions, and some may lack cybersecurity awareness.
 Scammers exploit this through fake invoices, compromised emails, and fraudulent bank detail changes
 
-<!--endintro-->
+<endOfIntro />
 
 It always requires extra care and diligence on money, accountants can follow the suggestions below to mitigate these risks.
 
@@ -46,12 +48,16 @@ See SSW Rule - [Do you use MFA and avoid typing passwords?](https://www.ssw.com.
 
 • **Verify changes by phone** - Always call a known contact using a verified number before processing any changes. Never trust phone numbers from emails requesting updates.
 
-::: greybox  
-Paying a supplier - confirm the bank details by calling the creditor's verified number for the first payment (over $1,000) or if there is a change in bank details.
-:::  
-::: good  
-Figure: Good Examples  
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Paying a supplier - confirm the bank details by calling the creditor's verified number for the first payment (over $1,000) or if there is a change in bank details.
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good Examples"}
+/>
+
 
 • **Monitor email forwarding rules** - Hackers may set up auto-forwarding to steal sensitive information. Regularly review and disable unauthorized forwarding.
 
@@ -63,11 +69,18 @@ Including a disclaimer on invoices can help prevent phishing attacks that aim to
 
 • Changes only come from verified channels - Any changes in payment details will only be communicated through verified channels, such as a notification with the company seal or a direct phone call from an authorized representative
 
-::: greybox
-**Example:**
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Example:**
 
 To ensure the security of your payments, please be aware that SSW will never request changes to our bank details via email. All official communications regarding billing details will only come from emails originating from our authorized domain: @ssw.com.au.
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 **✅ Good Example**

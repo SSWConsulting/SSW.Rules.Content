@@ -2,6 +2,8 @@
 seoDescription: Do you use IApiMarker with WebApplicationFactory?
 type: rule
 title: Do you use IApiMarker with WebApplicationFactory?
+categories:
+  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
 uri: use-iapimarker-with-webapplicationfactory
 authors:
   - title: Gordon Beeming
@@ -16,15 +18,21 @@ The `WebApplicationFactory` class is used for bootstrapping an application in me
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.
 
-<!--endintro-->
+<endOfIntro />
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
 
 ### Option 1 - Using InternalsVisibleTo attribute
 
-::: bad
-![Figure: Bad example - Using an InternalsVisibleTo attribute in the csproj](Using-InternalsVisibleTo-attribute.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Using an InternalsVisibleTo attribute in the csproj"}
+  src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-InternalsVisibleTo-attribute.jpg"
+/>
+
 
 Adding the `InternalsVisibleTo` attribute to the csproj is a way that you'd be able to reference the `Program` class from your test project.
 
@@ -36,9 +44,15 @@ This small change leads to a long road of pain:
 
 ### Option 2 - public partial program class
 
-::: bad
-![Figure: Bad example - Using a public partial program class](Using-public-partial-program-class.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Using a public partial program class"}
+  src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-public-partial-program-class.jpg"
+/>
+
 
 A much quicker option to implement is to create a partial class of the `Program` class and make it public.
 

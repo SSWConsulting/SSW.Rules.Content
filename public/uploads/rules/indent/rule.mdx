@@ -1,32 +1,36 @@
 ---
-type: rule
-title: Do you use indentation for readability?
-seoDescription: Learn how to enhance your email communication by using indentation for readability. Discover tips and tricks to effectively reply to emails and improve understanding.
-uri: indent
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - when-you-reply-inline-do-you-use-a-different-color
-  - change-from-x-to-y
-  - style-quotations
-redirects:
-  - do-you-use-indentation-for-readability
-created: 2010-09-01T02:53:29.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Paul Neumeyer
+  url: https://ssw.com.au/people/paul-neumeyer
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
+created: 2010-09-01 02:53:29+00:00
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
-
+redirects:
+- do-you-use-indentation-for-readability
+related:
+- rule: public/uploads/rules/email-avoid-inline/rule.mdx
+- rule: public/uploads/rules/change-from-x-to-y/rule.mdx
+- rule: public/uploads/rules/style-quotations/rule.mdx
+seoDescription: Learn how to enhance your email communication by using indentation
+  for readability. Discover tips and tricks to effectively reply to emails and improve
+  understanding.
+title: Do you use indentation for readability?
+type: rule
+uri: indent
 ---
 
 Indentation is a simple but powerful way to make your content easier to scan. When used wisely, it helps readers quickly see structure, hierarchy, and relationships between elements like questions and answers, examples, or nested lists. Overdoing it, however, can make layouts feel uneven or cramped—especially on mobile.
 
-<!--endintro-->
+<endOfIntro />
 
 ## When indentation helps 👍
 
@@ -56,113 +60,130 @@ This way you won't forget any questions in the original email.
 
 **Note:** You do not need to use ">" and indentation, when you are replying to the task that is very clear, because in this case extra text reduces clarity.
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | RE: Change on Northwind app |
-::: email-content
-
-### Hi Adam
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
 Please change from X to Y\
 The program flow logic worries me a bit\
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - There's too much information with no reasonable order"}
+/>
 
-:::
-:::
-::: bad
-Figure: Bad example - There's too much information with no reasonable order
-:::
-
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | RE: Change on Northwind app |
-::: email-content
-
-### Hi Adam
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
 "Please change from X to Y"\
 Done - northwind365.com\
 "The program flow logic worries me a bit"\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks"}
+/>
 
-:::
-:::
-::: bad
-Figure: Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks
-:::
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | RE: Change on Northwind app |
-::: email-content
-
-### Hi Adam
-
-&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y\
+&nbsp;&nbsp;&nbsp; &gt; 1. Please change from X to Y\
 Done - northwind365.com\
-&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit\
+&nbsp;&nbsp;&nbsp; &gt; 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
+  </>}
+  figurePreset="okExampleExample"
+  figureText={"OK example - Even with \">\", indentation and numbers, without spacing the text becomes cramped and hard to read"}
+/>
 
-:::
-:::
-::: ok
-Figure: OK example - Even with ">", indentation and numbers, without spacing the text becomes cramped and hard to read
-:::
+<emailEmbed
+  from=""
+  to="Adam"
+  cc=""
+  bcc=""
+  subject="RE: Change on Northwind app"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Adam
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Adam |
-| Subject: | RE: Change on Northwind app |
-::: email-content
-
-### Hi Adam
-
-&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
+&nbsp;&nbsp;&nbsp; &gt; 1. Please change from X to Y
 
 Done - northwind365.com
 
-&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit
+&nbsp;&nbsp;&nbsp; &gt; 2. The program flow logic worries me a bit
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - You can clearly see the context of each part of the reply"}
+/>
 
-:::
-:::
-::: good
-Figure: Good example - You can clearly see the context of each part of the reply
-:::
 
-::: info
-
-**Tip #1:** When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
+<boxEmbed
+  variant="info"
+  body={<>
+    
+**Tip #1:** When using Outlook, the raw “&gt;” character may be automatically formatted to a “&gt;” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “&gt;” character.
 
 **Tip #2:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually
 
 **Tip #3:** Note the extra line break after each reply... this helps group each question with it's answer
 
-**Tip #4:** If you're quoting someone who already used >, you can use >>
+**Tip #4:** If you're quoting someone who already used &gt;, you can use &gt;&gt;
 
 **Tip #5:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ### Indentation with Markdown
 
 When using Markdown (usually on GitHub), use "&gt;" symbol (which means HTML `blockquote`) to achieve a similar result.
 
-![Figure: Indenting tasks in Markdown](markdown-indentation-editor.png)
 
-![Figure: How it looks](markdown-indentation-preview.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Indenting tasks in Markdown"}
+  src="/uploads/rules/indent/markdown-indentation-editor.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"How it looks"}
+  src="/uploads/rules/indent/markdown-indentation-preview.png"
+/>
+
 
 You can find more info about GitHub Markdown syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 

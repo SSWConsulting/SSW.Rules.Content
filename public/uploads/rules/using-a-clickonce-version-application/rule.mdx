@@ -2,6 +2,8 @@
 seoDescription: Learn how to implement a ClickOnce symbol to ensure your application deployment is clear and secure.
 type: rule
 title: Do you make a clear symbol to inform the users that you are using a ClickOnce version application?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications-clickonce.mdx
 uri: using-a-clickonce-version-application
 authors:
   - title: Adam Cogan
@@ -12,11 +14,23 @@ guid: 45671d5b-239a-46b2-abd2-66ffa4045179
 ---
 If you use ClickOnce to deploy your application, you should clearly show a symbol indicating this is a ClickOnce version application. ClickOnce makes applications enjoying convenient update, maximising to keep the safety of the users' system environment.
 
-<!--endintro-->
-::: good
-![Figure: Good example - Showed a symbol indicates this is a ClickOnce version of application](clickoncesymbol.jpg)
-:::
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - No any symbol indicates this is a ClickOnce version of application](nonclickonce.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Showed a symbol indicates this is a ClickOnce version of application"}
+  src="/uploads/rules/using-a-clickonce-version-application/clickoncesymbol.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - No any symbol indicates this is a ClickOnce version of application"}
+  src="/uploads/rules/using-a-clickonce-version-application/nonclickonce.jpg"
+/>

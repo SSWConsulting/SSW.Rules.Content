@@ -1,20 +1,29 @@
 ---
-seoDescription: Use correct symbols when documenting instructions to avoid user confusion and improve understanding by clearly listing steps in the correct order.
-type: rule
-title: Reference - Do you use the correct symbols when documenting instructions?
-uri: use-correct-symbols-when-documenting-instructions
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-highlight-actions-correctly-in-your-document
-  - do-you-make-numbers-more-readable
-  - awesome-documentation
-redirects:
-  - reference-do-you-use-the-correct-symbols-when-documenting-instructions
-created: 2016-03-22T04:45:05.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+created: 2016-03-22 04:45:05+00:00
+createdBy: Joanna Feely
+createdByEmail: JoannaFeely@ssw.com.au
 guid: ff9b08bd-f85d-41c8-883a-9d226b3b9fc5
+isArchived: false
+lastUpdated: 2021-11-11 18:42:40.144000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- reference-do-you-use-the-correct-symbols-when-documenting-instructions
+related:
+- rule: public/uploads/rules/distinguish-keywords-from-content/rule.mdx
+- rule: public/uploads/rules/make-numbers-more-readable/rule.mdx
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+seoDescription: Use correct symbols when documenting instructions to avoid user confusion
+  and improve understanding by clearly listing steps in the correct order.
+title: Reference - Do you use the correct symbols when documenting instructions?
+type: rule
+uri: use-correct-symbols-when-documenting-instructions
 ---
 
 An important area to apply strict standards to is documenting instructions. The way in which instructions are worded and arranged is very important in helping the user understand the instructions. Therefore, the instructions should be minimalistic, clear and concise.
@@ -23,41 +32,61 @@ We often see documentation like: _'...then you click on Select All Programs from
 
 Be sure you keep the operations clearly in the right order:
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-...then you click on All Apps from the Start menu
-:::
-::: bad
-Figure: Bad example - Wrong order and too many words  
-:::
 
-::: greybox
-Click Start, then All Apps, then Accessories, then Calculator.  
-:::
-::: bad
-Figure: Bad example - No visual cue is given for separate steps  
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    ...then you click on All Apps from the Start menu
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - Wrong order and too many words"}
+/>
 
-::: greybox
-Start - All Apps - Accessories - Calculator  
-:::
-::: bad
-Figure: Bad example - Dashes are easy to glance over  
-:::
 
-::: greybox
-Start --&gt; All Apps --&gt; Accessories --&gt; Calculator  
-:::
-::: bad
-Figure: Bad example - This is better but may be interpreted incorrectly
-:::
 
-::: greybox
-Start | All Apps | Accessories | Calculator  
-:::
-::: good
-Figure: Good example - Makes it easy to follow
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Click Start, then All Apps, then Accessories, then Calculator.
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - No visual cue is given for separate steps"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Start - All Apps - Accessories - Calculator
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - Dashes are easy to glance over"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Start --&gt; All Apps --&gt; Accessories --&gt; Calculator
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - This is better but may be interpreted incorrectly"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Start | All Apps | Accessories | Calculator
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - Makes it easy to follow"}
+/>
+
 
 If you follow this rule, users won't be confused.

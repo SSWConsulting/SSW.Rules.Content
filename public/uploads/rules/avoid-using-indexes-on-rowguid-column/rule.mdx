@@ -1,17 +1,25 @@
 ---
-seoDescription: Avoid using indexes on RowGuid columns due to their large size and lack of suitability for indexing, making searches slow and inefficient.
-type: rule
-archivedreason:
-title: Schema - Do you avoid using indexes on RowGuid column?
-guid: 49e77277-e4f8-44a0-bc2c-3d7d487714a0
-uri: avoid-using-indexes-on-rowguid-column
-created: 2019-11-06T01:32:42.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-06 01:32:42+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 49e77277-e4f8-44a0-bc2c-3d7d487714a0
+isArchived: false
+lastUpdated: 2020-05-21 05:40:55+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - schema-do-you-avoid-using-indexes-on-rowguid-column
+- schema-do-you-avoid-using-indexes-on-rowguid-column
+seoDescription: Avoid using indexes on RowGuid columns due to their large size and
+  lack of suitability for indexing, making searches slow and inefficient.
+title: Schema - Do you avoid using indexes on RowGuid column?
+type: rule
+uri: avoid-using-indexes-on-rowguid-column
 ---
 
 RowGuids (uniqueidentifier) are large fields (16 bytes) and are basically going to ALWAYS be unique.
@@ -20,7 +28,7 @@ SQL Server adds a RowGUID column to all tables if you are using Merge Replicatio
 
 RowGuids in general slow things down. Some people may consider using a RowGuid as their primary key. This is a bad idea because the index is going to be quite slow.... you are searching a large field. It goes without saying, NEVER have clustered index on a RowGuid column.
 
-<!--endintro-->
+<endOfIntro />
 
 Another little annoyance with RowGuids is when you are searching for one. You can't use &gt; or &lt; on a RowGuid column.
 

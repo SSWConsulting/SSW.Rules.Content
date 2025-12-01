@@ -1,25 +1,27 @@
 ---
-seoDescription: What to do about SQL Server database name?
-type: rule
-archivedreason:
-title: What to do about SQL Server IO Pressure?
-guid: 83475165-1eba-47bc-a243-b9d4706ae5d5
-uri: sql-server-io-pressure
-created: 2023-12-27T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+created: 2023-12-27 07:26:54+00:00
+guid: 83475165-1eba-47bc-a243-b9d4706ae5d5
 related:
-  - identify-sql-performance-sql-server
-  - identify-sql-performance-azure
-  - sql-server-cpu-pressure
-  - sql-server-memory-pressure
-  - sql-server-io-pressure
+- rule: public/uploads/rules/identify-sql-performance-sql-server/rule.mdx
+- rule: public/uploads/rules/identify-sql-performance-azure/rule.mdx
+- rule: public/uploads/rules/sql-server-cpu-pressure/rule.mdx
+- rule: public/uploads/rules/sql-server-memory-pressure/rule.mdx
+- rule: public/uploads/rules/sql-server-io-pressure/rule.mdx
+seoDescription: What to do about SQL Server database name?
+title: What to do about SQL Server IO Pressure?
+type: rule
+uri: sql-server-io-pressure
 ---
 
 So you've identified that your SQL Server is under IO pressure. What can you do about it?
 
-<!--endintro-->
+<endOfIntro />
 
 If disk is being used by SQL Server, try the following:
 
@@ -33,7 +35,9 @@ Use the Query Store view Top Resource Consuming Queries in SSMS. Look for high v
 
 Here's a simple in-depth presentation on techniques to optimize SQL queries and reduce the IO required.
 
-`youtube: https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L`
+
+<youtubeEmbed url="https://youtu.be/l18ltcOVN4I?si=Ejf0sGKECfuqFw2L" description={""} />
+
 
 ## Try adding more memory
 

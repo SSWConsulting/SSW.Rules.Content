@@ -50,6 +50,9 @@
     "best-ai-powered-ide": [
         "rules-to-better-ai-development"
     ],
+    "ai-for-frontend-development": [
+        "rules-to-better-ai-development"
+    ],
     "ai-for-prototype-development": [
         "rules-to-better-ai-development"
     ],
@@ -257,9 +260,6 @@
         "rules-to-better-chatgpt-prompt-engineering"
     ],
     "pros-and-cons-and-ratings": [
-        "rules-to-better-chatgpt-prompt-engineering"
-    ],
-    "ai-efficient-clarify-questions": [
         "rules-to-better-chatgpt-prompt-engineering"
     ],
     "examples-and-analogies-clarification": [
@@ -767,13 +767,6 @@
         "rules-to-better-software-consultants-working-in-a-team"
     ],
     "do-you-manage-up": [
-        "rules-to-better-software-consultants-working-in-a-team"
-    ],
-    "investigate-before-asking-someone-on-im": [
-        "rules-to-better-software-consultants-working-in-a-team",
-        "rules-to-better-im"
-    ],
-    "best-effort-before-asking-for-help": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
     "elephant-in-the-room": [
@@ -1672,6 +1665,9 @@
         "rules-to-better-im"
     ],
     "if-communication-is-not-simple-call-the-person-instead-of-im": [
+        "rules-to-better-im"
+    ],
+    "investigate-your-question-for-two-minutes-before-asking-someone-on-im": [
         "rules-to-better-im"
     ],
     "easy-questions": [

@@ -1,51 +1,91 @@
 ---
-seoDescription: Do you know when to branch in Git? This guide explains when to create a feature branch and how to merge it back to main, ensuring your project stays organized and deployable at all times.
-type: rule
-archivedreason:
-title: Do you know when to branch in git?
-guid: d023678e-aefe-45e8-a4f3-365d4c0f9c93
-uri: do-you-know-when-to-branch-in-git
-created: 2016-01-19T22:38:55.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
-  - title: Edgar Rocha
-    url: https://ssw.com.au/people/edgar-rocha
-  - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
-related:
-  - do-you-use-the-best-deployment-tool
-  - branch-naming
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Danijel Malik
+  url: https://ssw.com.au/people/danijel-malik
+- title: Edgar Rocha
+  url: https://ssw.com.au/people/edgar-rocha
+- title: Gabriel George
+  url: https://ssw.com.au/people/gabriel-george
+categories:
+- category: categories/project-delivery/rules-to-better-branching-and-builds.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
+created: 2016-04-05 19:04:31+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d023678e-aefe-45e8-a4f3-365d4c0f9c93
+isArchived: false
+lastUpdated: 2021-05-31 04:57:18.607000+00:00
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@me.com
 redirects: []
+related:
+- rule: public/uploads/rules/do-you-use-the-best-deployment-tool/rule.mdx
+- rule: public/uploads/rules/branch-naming/rule.mdx
+seoDescription: Do you know when to branch in Git? This guide explains when to create
+  a feature branch and how to merge it back to main, ensuring your project stays organized
+  and deployable at all times.
+title: Do you know when to branch in git?
+type: rule
+uri: do-you-know-when-to-branch-in-git
 ---
 
 The best way to handle continuous development and deployment is following [GitHub Flow](https://guides.github.com/introduction/flow/). The basic idea is to always deploy from **main** , and to create a feature branch for every feature. When the feature is complete, it is merged back to main via a pull request, which provides a trigger for other developers to build.
 
 Using this strategy, **main** is always production-ready and deployable.
 
-<!--endintro-->
+<endOfIntro />
 
-![Finishing a Feature with World Class Flow](finishing-a-feature-with-world-class-flow.jpg)
+![Finishing a Feature with World Class Flow](/uploads/rules/do-you-know-when-to-branch-in-git/finishing-a-feature-with-world-class-flow.jpg)
 
-::: greybox
-**Note:** This rule applies to git. For branching advice in TFVC, see [when to branch](/do-you-know-when-to-branch).
-:::
 
-`youtube: https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0`
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:** This rule applies to git. For branching advice in TFVC, see [when to branch](/do-you-know-when-to-branch).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: bad  
-![Figure: Bad example - Committing to main](commit-master-bad.jpg)  
-:::
 
-::: good  
-![Figure: Good example - Committing to a new branch](commit-branch-good.jpg)  
-:::
 
-![Figure: Great diagram from GitHub](github-flow.jpg)
+<youtubeEmbed url="https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0" description={""} />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Committing to main"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/commit-master-bad.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Committing to a new branch"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/commit-branch-good.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Great diagram from GitHub"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/github-flow.jpg"
+/>
+
 
 ### The process
 
@@ -53,7 +93,7 @@ Using this strategy, **main** is always production-ready and deployable.
 
 **Set up build system to deploy from the main branch**
 
-Your build systems should always deploy from main, and should automatically deploy on every commit to main.  
+Your build systems should always deploy from main, and should automatically deploy on every commit to main.
 Since main is always being deployed, it must always be in a deployable state.
 
 ### Step 1 - Create a branch
@@ -66,7 +106,7 @@ When starting a PBI from the task board, create a branch from **main** with a de
 git branch start-stuff
 ```
 
-::: bad  
+::: bad
 Figure: Bad example - Branch name is not descriptive
 :::
 
@@ -102,7 +142,7 @@ Figure: Bad example - Commit message does not describe what was changed
 git commit -m "Added a product category filter to the timesheet summary report UI"
 ```
 
-::: good  
+::: good
 Figure: Good example - Commit message describes exactly what was changed
 :::
 
@@ -114,9 +154,16 @@ When the change is complete, or when you want feedback on anything, open a pull 
 
 **Tip:** A best practice is to have another developer review your work and then approve.
 
-::: greybox
-It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy.
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 #### Assumption
 
@@ -128,26 +175,56 @@ Some prefer to move this step to after the merge, especially when using a releas
 
 Once everyone is happy and everything is tested, complete the pull request, which will merge back to **main**. Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in **main**. Being able to see the feature branches in the git log is very useful.
 
-::: good  
-![Figure: Good example - Each change is well described, small and in its own feature branch](GoodGitHistory.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Each change is well described, small and in its own feature branch"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/GoodGitHistory.png"
+/>
+
 
 After you completed the pull request, make sure you also delete the branch that you made the pull request of. Deleting your completed branch will not just help yourself in the long run, but also everyone else. Having too many branches especially a stale one will confuse developers on what "may" be in progress, moreover it would cause so much pain to the future developer when they have to do a clean-up and the branch author has left.
 
-::: bad
-![Figure: Bad example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging](bad-figure-stale-branches2.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/bad-figure-stale-branches2.png"
+/>
+
 
 Otherwise, you can do it before you complete the pull request by ticking delete branch option.
 
-::: good
-![Figure: Good example - Automatically delete the branch after the pull request completion in Azure Devops](delete-branch-in-devops.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Automatically delete the branch after the pull request completion in Azure Devops"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png"
+/>
 
-::: good
-![Figure: Good example - Set the whole project to auto-delete branch after merging in GitHub](github-settings.png)
-:::
 
-::: greybox
-Once merged, **main** should immediately and automatically be deployed (in a perfect world, to production).  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Set the whole project to auto-delete branch after merging in GitHub"}
+  src="/uploads/rules/do-you-know-when-to-branch-in-git/github-settings.png"
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Once merged, **main** should immediately and automatically be deployed (in a perfect world, to production).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

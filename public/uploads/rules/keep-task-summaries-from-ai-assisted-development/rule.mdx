@@ -1,21 +1,23 @@
 ---
-type: rule
-tips: ""
-title: Do you keep task summaries from AI-assisted development?
-seoDescription: Learn how to organize and preserve task summaries from GitHub
-  Copilot CLI sessions. This standard ensures AI-assisted development work is
-  properly documented and easily discoverable for future reference.
-uri: keep-task-summaries-from-ai-assisted-development
 authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-related:
-  - leave-explanatory-notes-for-non-standard-code
-  - use-a-project-portal-for-your-team-and-client
-created: 2025-10-16T16:49:00.000Z
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Lewis Toh
+  url: https://ssw.com.au/people/lewis-toh
+categories:
+- category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+created: 2025-10-16 16:49:00+00:00
 guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
+related:
+- rule: public/uploads/rules/leave-explanatory-notes-for-non-standard-code/rule.mdx
+- rule: public/uploads/rules/use-a-project-portal-for-your-team-and-client/rule.mdx
+seoDescription: Learn how to organize and preserve task summaries from GitHub Copilot
+  CLI sessions. This standard ensures AI-assisted development work is properly documented
+  and easily discoverable for future reference.
+tips: ''
+title: Do you keep task summaries from AI-assisted development?
+type: rule
+uri: keep-task-summaries-from-ai-assisted-development
 ---
 
 When using AI assistants (like GitHub Copilot, Claude, ChatGPT, or Cursor) for development tasks, they often generate valuable documentation summaries explaining the changes made, architectural decisions, and implementation details. Properly organizing these AI-generated documentation ensures that:
@@ -23,7 +25,7 @@ When using AI assistants (like GitHub Copilot, Claude, ChatGPT, or Cursor) for d
 - Documentation noise is minimized
 - Task summaries are easily discoverable
 
-<!--endintro-->
+<endOfIntro />
 
 ### The Problem with Unorganized Documentation
 
@@ -38,14 +40,21 @@ When AI tools generate documentation during development sessions, developers oft
 
 Creating documentation for every small change leads to:
 
-::: greybox
-**docs/**
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **docs/**
 - `fix-typo-in-readme.md`
 - `update-variable-name.md`
 - `correct-spacing.md`
 - `fix-null-check.md`
 - `add-missing-semicolon.md`
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 ::: bad
 Bad Example - Too many documentation files for trivial changes creates noise and makes important documentation harder to find
 :::
@@ -128,31 +137,45 @@ If you prefer to keep task summaries local and not commit them:
 docs/ai-tasks/
 ```
 
-::: info
-**Tip:** Most teams should commit this documentation to share context across the team. Only exclude it if your team uses a separate documentation system.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Tip:** Most teams should commit this documentation to share context across the team. Only exclude it if your team uses a separate documentation system.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ## Benefits
 
 This standardized approach provides:
 
-✅ **Clarity:** Clear guidelines on when documentation should be created  
-✅ **Discoverability:** Consistent naming makes finding relevant documentation easy  
-✅ **Organization:** All task summaries in one dedicated location  
-✅ **Traceability:** Date and author initials provide clear audit trail  
-✅ **Signal-to-noise ratio:** Only significant changes are documented  
-✅ **Chronological ordering:** Sequential numbering maintains task order  
+✅ **Clarity:** Clear guidelines on when documentation should be created
+✅ **Discoverability:** Consistent naming makes finding relevant documentation easy
+✅ **Organization:** All task summaries in one dedicated location
+✅ **Traceability:** Date and author initials provide clear audit trail
+✅ **Signal-to-noise ratio:** Only significant changes are documented
+✅ **Chronological ordering:** Sequential numbering maintains task order
 ✅ **Tool-agnostic:** Works with any AI assistant or development tool
 
 ### Example Result
 
-::: greybox
-**docs/ai-tasks/**
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **docs/ai-tasks/**
 - `20250102-GB-01-implement-authentication-module.md`
 - `20250102-GB-02-add-role-based-authorization.md`
 - `20250115-DM-01-refactor-database-layer-for-multi-tenancy.md`
 - `20250115-DM-02-add-tenant-isolation-integration-tests.md`
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 ::: good
 Good Example - Clear, organized, and meaningful documentation that's easy to navigate and understand
 :::

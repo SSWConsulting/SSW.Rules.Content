@@ -2,6 +2,8 @@
 seoDescription: Ensure your multiline text box is scrollable by setting the ScrollBars property to "Both" or "Vertical".
 type: rule
 title: Do you set the ScrollBars property if the TextBox is Multiline?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: set-the-scrollbars-property-if-the-textbox-is-multiline
 authors:
   - title: Adam Cogan
@@ -12,18 +14,36 @@ guid: e5c31a04-6a24-4b9d-a657-8c10a7e0bc8d
 
 If a TextBox has Multiline set to true, then the ScrollBars property should be set to "Both" or at least "Vertical".
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Multiline TextBox without "Vertical" scroll bar.](multiline_bad.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Multiline TextBox without \"Vertical\" scroll bar."}
+  src="/uploads/rules/set-the-scrollbars-property-if-the-textbox-is-multiline/multiline_bad.gif"
+/>
 
-:::good
-![Figure: Good example - Multiline TextBox with "Vertical" scroll bar](multiline_good.gif)
-:::
 
-:::good
-![Figure: Good example - Set the ScrollBars property to "Vertical" if the TextBox is Multiline](multilinetextbox.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Multiline TextBox with \"Vertical\" scroll bar"}
+  src="/uploads/rules/set-the-scrollbars-property-if-the-textbox-is-multiline/multiline_good.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Set the ScrollBars property to \"Vertical\" if the TextBox is Multiline"}
+  src="/uploads/rules/set-the-scrollbars-property-if-the-textbox-is-multiline/multilinetextbox.gif"
+/>
+
 
 We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/) to check for this rule.

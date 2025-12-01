@@ -1,24 +1,42 @@
 ---
-seoDescription: Create workflows in Dynamics by using the Common Data Service (Current Environment) connector, ensuring seamless connections and deployments across environments.
-type: rule
-archivedreason:
-title: Do you create a Solution and use "Current Environment" when creating Flow for Dynamics?
-guid: 1161e28b-130b-4401-947d-0037f61b877a
-uri: create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
-created: 2020-06-25T22:11:47.0000000Z
+archivedreason: null
 authors:
-  - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
-related:
-  - bundle-all-your-customizations-in-a-solution
+- title: Mehmet Ozdemir
+  url: https://ssw.com.au/people/mehmet-ozdemir
+categories:
+- category: categories/software-engineering/rules-to-better-power-platform.mdx
+created: 2020-06-25 22:11:47+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1161e28b-130b-4401-947d-0037f61b877a
+isArchived: false
+lastUpdated: 2021-04-23 16:46:04.248000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
+- do-you-create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
+related:
+- rule: public/uploads/rules/bundle-all-your-customizations-in-a-solution/rule.mdx
+seoDescription: Create workflows in Dynamics by using the Common Data Service (Current
+  Environment) connector, ensuring seamless connections and deployments across environments.
+title: Do you create a Solution and use "Current Environment" when creating Flow for
+  Dynamics?
+type: rule
+uri: create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 ---
 
 When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Common Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.
 
-<!--endintro-->
+<endOfIntro />
 
 **Tip:** When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one...
 
-![Figure: Use 'Common Data Services (Current Environment)' instead of 'Common Data Services'](common-data-services.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Use 'Common Data Services (Current Environment)' instead of 'Common Data Services'"}
+  src="/uploads/rules/create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics/common-data-services.png"
+/>

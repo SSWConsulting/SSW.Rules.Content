@@ -1,24 +1,32 @@
 ---
-seoDescription: Simplify code by using null-conditional operators to easily check for null values when retrieving object properties.
-type: rule
-archivedreason:
-title: Do you use null condition operators when getting values from objects
-guid: af72188f-fb7d-452b-a23e-348ecaca6093
-uri: use-null-condition-operators-when-getting-values-from-objects
-created: 2020-01-29T05:20:27.0000000Z
+archivedreason: null
 authors:
-  - title: Liam Elliott
-    url: https://ssw.com.au/people/liam-elliott
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related: []
+- title: Liam Elliott
+  url: https://ssw.com.au/people/liam-elliott
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2020-01-29 05:20:27+00:00
+createdBy: Liam Elliott
+createdByEmail: LiamElliott@ssw.com.au
+guid: af72188f-fb7d-452b-a23e-348ecaca6093
+isArchived: false
+lastUpdated: 2020-01-29 05:35:07+00:00
+lastUpdatedBy: Liam Elliott
+lastUpdatedByEmail: LiamElliott@ssw.com.au
 redirects:
-  - do-you-use-null-condition-operators-when-getting-values-from-objects
+- do-you-use-null-condition-operators-when-getting-values-from-objects
+seoDescription: Simplify code by using null-conditional operators to easily check
+  for null values when retrieving object properties.
+title: Do you use null condition operators when getting values from objects
+type: rule
+uri: use-null-condition-operators-when-getting-values-from-objects
 ---
 
 Null-conditional operators - makes checking for null as easy as inserting a single question mark. The Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 int length = customer != null && customer.name != null ? customer.name.length : 0;

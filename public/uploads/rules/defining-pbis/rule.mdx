@@ -1,31 +1,39 @@
 ---
-seoDescription: Do you know how to define a PBI? Learn how to ensure your Product Backlog Items (PBIs) have all necessary information for successful development.
-type: rule
-title: Do you know how to define a PBI?
-uri: defining-pbis
 authors:
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-related:
-  - backlog-refinement-meeting
-  - meaningful-pbi-titles
-  - explaining-pbis
-created: 2022-10-18T03:27:00.098Z
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/communication/rules-to-better-communication.mdx
+created: 2022-10-18 03:27:00.098000+00:00
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
+related:
+- rule: public/uploads/rules/backlog-refinement-meeting/rule.mdx
+- rule: public/uploads/rules/meaningful-pbi-titles/rule.mdx
+- rule: public/uploads/rules/explaining-pbis/rule.mdx
+seoDescription: Do you know how to define a PBI? Learn how to ensure your Product
+  Backlog Items (PBIs) have all necessary information for successful development.
+title: Do you know how to define a PBI?
+type: rule
+uri: defining-pbis
 ---
 
 It is very common that a developer looks at a PBI to work on, and finds out that it has limited or missing information. Usually, this is due to unclear requirements, ambiguous instructions or people simply don't understand the importance of getting the right information in the PBI.
 
 When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the [Definition of Ready](/have-a-definition-of-ready). Additionally, anyone working on the task who doesn't fully understand should raise the problem ASAP.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/embed/OWeK5G-s3Nc`
 
-::: info
+<youtubeEmbed url="https://www.youtube.com/embed/OWeK5G-s3Nc" description={""} />
 
+
+
+<boxEmbed
+  variant="info"
+  body={<>
+    
 Generally, there are a few pieces of information that every PBI should have:
 
 * [Title](/meaningful-pbi-titles) - Read the titles of PBIs should give an understanding of them
@@ -35,7 +43,11 @@ Generally, there are a few pieces of information that every PBI should have:
 * [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
 * [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
 
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 If the PBI is missing any of these things, make sure they are defined. Don't be afraid to push back, all developers should understand exactly what is expected.
 
@@ -52,10 +64,21 @@ Here are a few key checkpoints where these issues should be flagged:
 
 Ideally, you want to flag the missing information early, but it is better late than never.
 
-::: bad
-![Bad example - The PBI has no information beyond a title](r1rmwbe9ak.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - The PBI has no information beyond a title"}
+  src="/uploads/rules/defining-pbis/r1rmwbe9ak.png"
+/>
 
-::: good
-![Good example - The PBI has a description, acceptance criteria, and more](xlwwtinlrk.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - The PBI has a description, acceptance criteria, and more"}
+  src="/uploads/rules/defining-pbis/xlwwtinlrk.png"
+/>

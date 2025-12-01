@@ -1,31 +1,51 @@
 ---
-seoDescription: Indicate required fields and validate them to avoid user frustration and ensure data conformity to business requirements.
-type: rule
-archivedreason:
-title: Forms - Do you indicate which fields are required and validate them?
-guid: 85f4b24e-a56b-4601-acdc-aa24e56ec395
-uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
-created: 2014-12-04T19:32:54.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2014-12-04 19:35:25+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 85f4b24e-a56b-4601-acdc-aa24e56ec395
+isArchived: false
+lastUpdated: 2014-12-04 19:35:25+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Indicate required fields and validate them to avoid user frustration
+  and ensure data conformity to business requirements.
+title: Forms - Do you indicate which fields are required and validate them?
+type: rule
+uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
 ---
 
 Always indicate which fields are required. Users get frustrated when they experience a wasted trip to the server, just because they did not get an obvious indication of what was required first time around.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - No visual indication for required fields when a user first sees the form](Required-field_Bad-example.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - No visual indication for required fields when a user first sees the form"}
+  src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Required-field_Bad-example.jpg"
+/>
+
 
 A designer will know the best way to indicate required field depending on the layout. However if you are in doubt and don’t have a designer around, a red asterisk is definitely the best option.
 
-::: good  
-![Figure: Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)](Redstar_Good-example.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)"}
+  src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Redstar_Good-example.jpg"
+/>
+
 
 ### More information on ASP.NET implementation
 
@@ -51,6 +71,12 @@ ID="emailReqValidator" />
 Figure: Good example - An ASP.NET validator in use, to indicate the fields required
 :::
 
-::: greybox
-**Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

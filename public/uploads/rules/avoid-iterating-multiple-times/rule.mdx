@@ -2,6 +2,8 @@
 seoDescription: Avoid iterating multiple times to prevent unnecessary expense and potential enumeration errors in LINQ expressions.
 type: rule
 title: Do you avoid iterating multiple times?
+categories:
+  - category: categories/software-engineering/rules-to-better-linq.mdx
 uri: avoid-iterating-multiple-times
 authors:
   - title: Bryden Oliver
@@ -12,7 +14,7 @@ guid: 977d44f6-fc2a-4ead-ab01-910cbbfdefef
 
 Due to LINQ expressions being lazy executed, it is a important to avoid re-evaluating the expression. For LINQ extension methods, this is critically important.
 
-<!--endintro-->
+<endOfIntro />
 
 There are 2 problems with multiple evaluations:
 

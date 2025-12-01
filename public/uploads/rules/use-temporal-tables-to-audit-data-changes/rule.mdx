@@ -1,24 +1,32 @@
 ---
-seoDescription: Use temporal tables to audit data changes and easily restore deleted records by querying a history table.
-type: rule
-archivedreason:
-title: Data - Do you use temporal tables to audit data changes?
-guid: 94b69b2e-cb6e-482a-bc6a-f710a7079fec
-uri: use-temporal-tables-to-audit-data-changes
-created: 2019-11-25T22:35:48.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-25 22:35:49+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 94b69b2e-cb6e-482a-bc6a-f710a7079fec
+isArchived: false
+lastUpdated: 2020-01-08 03:27:30+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - data-do-you-use-temporal-tables-to-audit-data-changes
+- data-do-you-use-temporal-tables-to-audit-data-changes
+seoDescription: Use temporal tables to audit data changes and easily restore deleted
+  records by querying a history table.
+title: Data - Do you use temporal tables to audit data changes?
+type: rule
+uri: use-temporal-tables-to-audit-data-changes
 ---
 
 In many cases, there are legal requirements to audit all updates to financial records. In other cases, you will want to be able to track and undo deletes to your database. With the use of Temporal tables, this becomes much easier to manage.
 
-<!--endintro-->
+<endOfIntro />
 
 [Temporal tables](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?WT.mc_id=DP-MVP-33518) were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
 They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.
@@ -63,7 +71,16 @@ WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.ShippersHistory));
 
 **Figure: Shippers table from the Northwind schema converted to a temporal table.**
 
-![Figure: New temporal table shown in SQL Management Studio.](shippers-temporal-table.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"New temporal table shown in SQL Management Studio."}
+  src="/uploads/rules/use-temporal-tables-to-audit-data-changes/shippers-temporal-table.png"
+/>
+
 
 ```sql
 -- Update the tables history data retention

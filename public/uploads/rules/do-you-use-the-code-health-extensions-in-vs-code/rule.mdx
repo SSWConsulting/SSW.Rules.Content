@@ -1,23 +1,31 @@
 ---
-type: rule
-title: Do you use the Code Health Extensions in VS Code?
-seoDescription: Boost code quality and consistency for lightweight web projects
-  using CSSLint and ESLint extensions in VS Code.
-uri: do-you-use-the-code-health-extensions-in-vs-code
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
-related: []
-redirects: []
-created: 2017-03-09T22:12:04.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Danijel Malik
+  url: https://ssw.com.au/people/danijel-malik
+categories:
+- category: categories/software-engineering/rules-to-better-code-quality.mdx
+created: 2017-03-09 22:12:05+00:00
+createdBy: Andrew Lean
+createdByEmail: AndrewLean@ssw.com.au
 guid: ba1170f1-3d1a-4af1-b35e-b0c82b5b6ac2
+isArchived: false
+lastUpdated: 2017-03-19 22:44:42+00:00
+lastUpdatedBy: Andrew Lean
+lastUpdatedByEmail: AndrewLean@ssw.com.au
+redirects: []
+seoDescription: Boost code quality and consistency for lightweight web projects using
+  CSSLint and ESLint extensions in VS Code.
+title: Do you use the Code Health Extensions in VS Code?
+type: rule
+uri: do-you-use-the-code-health-extensions-in-vs-code
 ---
+
 For lightweight web projects such as Angular, often VS Code is more appropriate than Visual Studio. So make sure your code quality remains consistent with CSSLint and ESLint.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Related Steps to Code Health:
 
@@ -30,7 +38,16 @@ For web projects, we advocate the use of CSSLint for css files and Biome for typ
 Linters for these can be easily added to VS Code via extensions.
 Simply select the "Extensions" tab, search for "CSSLint" and "Biome" and click "Install" on each respectively.
 
-![Figure: Addition of CSSLint and ESLint to VS Code Project](biome-csslint.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Addition of CSSLint and ESLint to VS Code Project"}
+  src="/uploads/rules/do-you-use-the-code-health-extensions-in-vs-code/biome-csslint.png"
+/>
+
 
 If you prefer not to use the Extensions, you can install them using npm as normal.
 CSSLint ([CSSLint npm guide](https://www.npmjs.com/package/csslint))

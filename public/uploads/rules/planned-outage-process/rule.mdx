@@ -1,27 +1,29 @@
 ---
-type: rule
-title: Outage - Do you have a planned outage process?
-seoDescription: Do you have a planned outage process to ensure minimal
-  disruption and effective communication with users?
-uri: planned-outage-process
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-  - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
-related: []
-redirects:
-  - do-you-have-a-server-reboot-restart-policy
-  - have-a-server-reboot-restart-policy
-created: 2017-06-30T19:21:55.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+- title: Steven Andrews
+  url: https://ssw.com.au/people/steven-andrews
+- img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
+  title: Kiki Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2017-06-30 19:21:55+00:00
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
+redirects:
+- do-you-have-a-server-reboot-restart-policy
+- have-a-server-reboot-restart-policy
+seoDescription: Do you have a planned outage process to ensure minimal disruption
+  and effective communication with users?
+title: Outage - Do you have a planned outage process?
+type: rule
+uri: planned-outage-process
 ---
+
 For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
@@ -32,7 +34,7 @@ For short outages (under 15 minutes) that only affect only a few people (under 5
 
 For extended or planned outages, or if you have a larger number of users (50+), **email** is the suggested method.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Email
 
@@ -41,16 +43,15 @@ If you send an email it is a good idea to tell the user a way to monitor the net
 Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility to others who are interested in what needs to be done to fix the problem and makes
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | SSWAll |
-| Subject: | Planned Outage \| Date and time |
-
-::: email-content
-
-### Hi All
+<emailEmbed
+  from=""
+  to="SSWAll"
+  cc=""
+  bcc=""
+  subject="Planned Outage \\"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi All
 
 Here is the summary of the outage plan:
 
@@ -67,17 +68,17 @@ Here is the summary of the outage plan:
 
 **Risk Lookup Table by Probability and Impact:**
 
-![Figure: Clearly showing the potential risks](risk-table.jpg)
+![Figure: Clearly showing the potential risks](/uploads/rules/planned-outage-process/risk-table.jpg)
 
 **Note:** The following servers will be affected:
 
-![VMs Affected](rule-outage-1.jpg)
+![VMs Affected](/uploads/rules/planned-outage-process/rule-outage-1.jpg)
 
 and
 
-![WhatsUp Gold](rule-outage-2.jpg)
+![WhatsUp Gold](/uploads/rules/planned-outage-process/rule-outage-2.jpg)
 
-### To myself
+## To myself
 
 To show others who are interested in what needs to be done to fix the problem:
 
@@ -103,11 +104,10 @@ To show others who are interested in what needs to be done to fix the problem:
 1. Restore server from backup
 
 **Note:** &lt;This is as per rule [Outage - Do you have a planned outage process?](/planned-outage-process) &gt;
-
-:::
-:::
-
-**Figure: Example planned outage email**
+  </>}
+  figurePreset="defaultExample"
+  figureText={"Example planned outage email"}
+/>
 
 ### Pre-Outage Checklist
 
@@ -117,19 +117,46 @@ Immediately before the scheduled downtime, check for logged in users, file acces
 
 Run | Taskmgr | Users' tab | Check active connections | Request users to log off
 
-![Figure: Connected users can be viewed in Task Manager](rule-outage-3.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Connected users can be viewed in Task Manager"}
+  src="/uploads/rules/planned-outage-process/rule-outage-3.png"
+/>
+
 
 #### Files
 
 Run | compmgmt.msc | System Tools | Shared Folders' | Review 'Session' and 'Open Files' for user connections
 
-![Figure: Computer Management 'Open Files' View](rule-outage-4.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Computer Management 'Open Files' View"}
+  src="/uploads/rules/planned-outage-process/rule-outage-4.png"
+/>
+
 
 #### Database
 
 SQL Server Management Studio | SQL Server Connection | Activity Manager
 
-![Figure: SQL Management Studio 'Active Connections' View](rule-outage-5.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"SQL Management Studio 'Active Connections' View"}
+  src="/uploads/rules/planned-outage-process/rule-outage-5.gif"
+/>
+
 
 Once these have been checked for active users, and users have logged off, maintenance can be carried out.
 

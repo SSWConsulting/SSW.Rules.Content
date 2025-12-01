@@ -1,21 +1,28 @@
 ---
-seoDescription: Do you apply the ValidateModel attribute to all controllers?
-type: rule
-title: Do You Apply the ValidateModel Attribute to All Controllers?
-uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
+archivedreason: 'Requested by Matt G under RE: Update [SSW] Rules to Better WebAPI'
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
-redirects: []
-created: 2014-11-05T18:42:04.000Z
-archivedreason: "Requested by Matt G under RE: Update [SSW] Rules to Better WebAPI"
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-web-api.mdx
+created: 2014-11-05 18:46:47+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 56d03a4a-d4bb-40ee-b49e-1595a937b41f
+isArchived: false
+lastUpdated: 2020-10-22 17:01:31+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects: []
+seoDescription: Do you apply the ValidateModel attribute to all controllers?
+title: Do You Apply the ValidateModel Attribute to All Controllers?
+type: rule
+uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
 ---
 
 Web API does not automatically return an error to the client when validation fails. It is up to the controller action to check the model state and respond appropriately.
 
-<!--endintro-->
+<endOfIntro />
 
 You can also create an action filter to check the model state before the controller action is invoked.
 

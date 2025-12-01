@@ -1,23 +1,31 @@
 ---
-seoDescription: Do you use Code Health Extensions in Visual Studio to extend the standard and improve code quality?
-type: rule
-title: Do you use the Code Health Extensions in Visual Studio?
-uri: do-you-use-the-code-health-extensions-in-visual-studio
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
-related: []
-redirects: []
-created: 2017-03-09T22:11:25.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Danijel Malik
+  url: https://ssw.com.au/people/danijel-malik
+categories:
+- category: categories/software-engineering/rules-to-better-code-quality.mdx
+created: 2017-03-09 22:11:27+00:00
+createdBy: Andrew Lean
+createdByEmail: AndrewLean@ssw.com.au
 guid: b0048e8d-b6bb-4af3-9397-a9af6fac1a88
+isArchived: false
+lastUpdated: 2021-06-02 23:35:08.478000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+seoDescription: Do you use Code Health Extensions in Visual Studio to extend the standard
+  and improve code quality?
+title: Do you use the Code Health Extensions in Visual Studio?
+type: rule
+uri: do-you-use-the-code-health-extensions-in-visual-studio
 ---
 
 The code quality standard should extend the Visual Studio Analyzer. A wide variety of additional analyzers can be included via Nuget, the minimum standard should include Roslyn Security Guard.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Related Steps to Code Health
 
@@ -30,10 +38,28 @@ Search & Install the NuGet packages:
 
 - "Roslyn Security Guard" ([Nuget page for Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)) - Security audit on .NET Applications.
 
-![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Steps to install NuGet Packages"}
+  src="/uploads/rules/do-you-use-the-code-health-extensions-in-visual-studio/VS-InstallNuGetPackages.png"
+/>
+
 
 Issues from these will now be returned in the Visual Studio analyzer error list.
-![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"New Roslyn Rule issues raised in Visual Studio Analyzer"}
+  src="/uploads/rules/do-you-use-the-code-health-extensions-in-visual-studio/VS-RoslynRules.png"
+/>
+
 
 Your goal should be to get the issues in a solution down to zero.
 

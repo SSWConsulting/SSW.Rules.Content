@@ -1,41 +1,68 @@
 ---
-seoDescription: Change default link sharing behavior to improve security and permission inheritance in SharePoint sites by setting "People with existing access" as the default.
-type: rule
-title: Do you change link sharing default behaviour?
-uri: change-link-sharing-default-behaviour
 authors:
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy/
-  - title: Jean Thirion
-    url: https://www.ssw.com.au/people/jean-thirion/
-created: 2022-02-07T00:14:18.003Z
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy/
+- title: Jean Thirion
+  url: https://www.ssw.com.au/people/jean-thirion/
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-for-end-users.mdx
+created: 2022-02-07 00:14:18.003000+00:00
 guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
 related:
-  - avoid-using-share-functionality
-  - how-to-share-a-file-folder-in-sharepoint
+- rule: public/uploads/rules/avoid-using-share-functionality/rule.mdx
+- rule: public/uploads/rules/how-to-share-a-file-folder-in-sharepoint/rule.mdx
+seoDescription: Change default link sharing behavior to improve security and permission
+  inheritance in SharePoint sites by setting "People with existing access" as the
+  default.
+title: Do you change link sharing default behaviour?
+type: rule
+uri: change-link-sharing-default-behaviour
 ---
 
 If you are checking your sites permissions regularly you will probably notice a lot of unique permissions being applied.
 
-:::bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Some items may have unique permissions"}
+  src="/uploads/rules/change-link-sharing-default-behaviour/uniquepermissions.png"
+/>
 
-![Figure: Some items may have unique permissions](uniquepermissions.png)
-:::
 
 The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document". This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
 The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications. Links should instead be created with the "People with existing access" setting.
 
-<!--endintro-->
+<endOfIntro />
 
 To fix the issue you need to change the default sharing method. There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
 
 ## Method 1 - Manually via SharePoint Admin GUI
 
 1. In the SharePoint Admin site select the SharePoint site and click Sharing
-   ![Figure: Select Sharing](defaultsharinglinktype1.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Select Sharing"}
+  src="/uploads/rules/change-link-sharing-default-behaviour/defaultsharinglinktype1.png"
+/>
+
 
 2. Untick same as organization-level setting | Select People with existing access | Click Save
-   ![Figure: Select people with existing access](defaultsharinglinktype2.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Select people with existing access"}
+  src="/uploads/rules/change-link-sharing-default-behaviour/defaultsharinglinktype2.png"
+/>
+
 
 3. Repeat for each site
 

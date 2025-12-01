@@ -2,6 +2,8 @@
 seoDescription: Best place to put connection string - IOptions pattern over Web.config enables flexible and robust config in .NET.
 type: rule
 title: Do you know the best place to place the connection string?
+categories:
+  - category: categories/software-engineering/rules-to-better-connection-strings.mdx
 uri: best-place-to-place-the-connection-string
 authors:
   - title: Igor Goldobin
@@ -14,7 +16,7 @@ guid: 21370ad5-406f-4830-9b86-65db6ce19214
 
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 string cnnString = "data source=(local); integrated security=SSPI; persist security info=False; pooling=False; initial catalog=Northwind2";

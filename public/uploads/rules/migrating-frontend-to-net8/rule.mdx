@@ -1,24 +1,27 @@
 ---
-seoDescription: Migrate your frontend to .NET 8 effectively with hosting options that enhance performance and scalability.
-type: rule
-title: Do you know how to migrate frontend to .NET 8?
-uri: migrating-frontend-to-net8
 authors:
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement
-related:
-  - migration-plans
-  - modernize-your-app
-  - do-you-know-where-to-host-your-frontend-application
-created: 2024-05-29T00:54:42.810Z
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
+categories:
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+created: 2024-05-29 00:54:42.810000+00:00
 guid: d38c1c55-8f32-403c-86c5-c97760fd7d0a
+related:
+- rule: public/uploads/rules/migration-plans/rule.mdx
+- rule: public/uploads/rules/modernize-your-app/rule.mdx
+- rule: public/uploads/rules/do-you-know-where-to-host-your-frontend-application/rule.mdx
+seoDescription: Migrate your frontend to .NET 8 effectively with hosting options that
+  enhance performance and scalability.
+title: Do you know how to migrate frontend to .NET 8?
+type: rule
+uri: migrating-frontend-to-net8
 ---
 
 In the case where the legacy .NET Framework application is hosting the frontend, it is recommended to also think about the hosting method of the frontend in .NET 8.
 
 This issue is best considered before or during the migration so the team will not spend time implementing something that will be removed shortly in the future.
 
-<!--endintro-->
+<endOfIntro />
 
 Depending on the scenario and the situation of the projects, there are many options available to host the frontend with .NET 8. Here are a couple of the many options available.
 
@@ -70,12 +73,16 @@ This option still allows a clean separation of concerns, allowing for independen
 * Requires extra configuration and management effort
 * Increased ingress network load to the backend
 
-::: greybox
-Option 2 is typically preferred for future-proofing, but Option 3 can also be recommended for its balance of cost, build efficiency, and future flexibility. Remember to weigh these factors in the context of your project's specific needs and constraints.
-:::
-::: good
-Figure: Good example - Deciding on frontend hosting, considering its scalability and cost benefits
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    Option 2 is typically preferred for future-proofing, but Option 3 can also be recommended for its balance of cost, build efficiency, and future flexibility. Remember to weigh these factors in the context of your project's specific needs and constraints.
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - Deciding on frontend hosting, considering its scalability and cost benefits"}
+/>
+
 
 ### Best Practices
 

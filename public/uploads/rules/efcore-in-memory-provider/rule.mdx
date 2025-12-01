@@ -2,6 +2,9 @@
 seoDescription: Simplify your Entity Framework Core tests by leveraging the EF Core In-Memory provider, which eliminates database dependencies and improves test reliability.
 type: rule
 title: Do you use the EF Core In-Memory provider to simplify your tests?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
+  - category: categories/software-engineering/rules-to-better-testing.mdx
 uri: efcore-in-memory-provider
 authors:
   - title: Daniel Mackay
@@ -16,7 +19,7 @@ guid: 4e4a6ba5-9ddc-48c3-a7bd-ff3f83a710b7
 
 When testing code that depends on Entity Framework Core, the challenge often lies in how to effectively mock out the database access. This is crucial for focusing tests on the functionality surrounding the DB access rather than the database interactions themselves. The EF Core In-Memory provider is a tool designed to address this need.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Common Pitfalls in Mocking
 
@@ -76,6 +79,12 @@ While the EF Core In-Memory provider is useful for isolating unit tests, it's im
 - **Behavioral Differences:** It doesn't emulate all aspects of a SQL Server provider, such as certain constraints or transaction behaviors.
 - **Not Suitable for Query-focused Tests:** For tests that focus on EF queries, more realistic results can be achieved through integration tests with an actual database.
 
-::: info
-Checkout [JK's EF Core Testing Repository](https://github.com/jernejk/MixedEFCoreUnitTesting) for comprehensive examples and advanced scenarios in EF Core testing.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    Checkout [JK's EF Core Testing Repository](https://github.com/jernejk/MixedEFCoreUnitTesting) for comprehensive examples and advanced scenarios in EF Core testing.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

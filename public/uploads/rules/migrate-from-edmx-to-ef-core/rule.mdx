@@ -1,20 +1,23 @@
 ---
-seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting access to `ObjectContext` and scaffolding the DB.
-type: rule
-title: Do you know how to migrate from EDMX to EF Core
-guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
-uri: migrate-from-edmx-to-ef-core
-created: 2023-07-19T00:00:00.0000000Z
 authors:
-  - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jernej-kavka
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  title: Jernej Kavka (JK)
+  url: https://ssw.com.au/people/jernej-kavka
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+categories:
+- category: categories/software-engineering/rules-to-better-entity-framework.mdx
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+created: 2023-07-19 00:00:00+00:00
+guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
 related:
-  - dotnet-upgrade-for-complex-projects
-  - migrate-from-system-web-to-modern-alternatives
+- rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
+- rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting access
+  to `ObjectContext` and scaffolding the DB.
+title: Do you know how to migrate from EDMX to EF Core
+type: rule
+uri: migrate-from-edmx-to-ef-core
 ---
 
 Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
@@ -66,9 +69,16 @@ The strategy in this rules will include:
 
 Steps 6 and 7 are required when upgrading from .NET Framework to .NET 8 and the solution is too complex to do the migration in one go. For simple projects, if EDMX is the only major blocking issue, they should go straight to .NET 8 and EF Core 8.
 
-::: greybox
-NOTE: With some smart abstraction strategies, it is possible to do steps 3 - 5 while still having a working application. It is only recommended for experienced developers in architecture and how EF operates to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    NOTE: With some smart abstraction strategies, it is possible to do steps 3 - 5 while still having a working application. It is only recommended for experienced developers in architecture and how EF operates to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 In this rule, we'll only cover abstracting access to `ObjectContext` with a custom `IDbContext` and how to scaffold the DB. The rest of the steps require in-depth code review and may differ greatly between projects.
 
@@ -113,9 +123,16 @@ internal class TenantDbContext : ITenantDbContext
 Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.
 :::
 
-::: greybox
-NOTE: The changes made in this section are still compatible with .NET Framework, allowing us to deliver value to the clients while the above changes are made.
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    NOTE: The changes made in this section are still compatible with .NET Framework, allowing us to deliver value to the clients while the above changes are made.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ## 2. Scaffolding the DB
 
@@ -123,35 +140,89 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 1. Right click on the project | **EF Core power Tools** | **Reverse Engineer**
 
-![Figure: Select reverse engineer tool](project-reverse-engineer-tool-1.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Select reverse engineer tool"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-1.png"
+/>
+
 
 2. Choose your data connection and EF Core version
 
-![Figure: Data Connection](project-reverse-engineer-tool-2.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Data Connection"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-2.png"
+/>
+
 
 3. Choose your database objects (tables, views, stored procedures, etc.)
 
-![Figure: Database Objects](project-reverse-engineer-tool-3.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Database Objects"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-3.png"
+/>
+
 
 4. Choose the settings for your project
    1. Recommended: **Use DataAnnotation attributes to configure the model** to reduce a lot of lines of code in DbContext
    2. Optional: **Install the EF Core provider package in the project** if you have not yet done that
    3. Optional: **Use table and column names directly from the database** if your existing code relies on that naming scheme
 
-![Figure: Settings for project](project-reverse-engineer-tool-4.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Settings for project"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-4.png"
+/>
+
 
 5. Code will generate under the path we decided (**EntityTypes path**). In this case, it's `Persistence` folder
 
-![Figure: Settings for project](project-reverse-engineer-tool-5.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Settings for project"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-5.png"
+/>
+
 
 6. A `DbContext` class will be auto-generated by EF Core Power Tools
 
-![Figure: Settings for project](project-reverse-engineer-tool-6.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Settings for project"}
+  src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-6.png"
+/>
+
 
 # Resources
 
 * How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
-* Official porting docs to EF Core 3.1 - <https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518>
+* Official porting docs to EF Core 3.1 - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
 
 # Alternative
 

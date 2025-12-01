@@ -1,23 +1,32 @@
 ---
-seoDescription: Conducting an architecture review every few Sprints ensures internal code and architecture health, allowing for timely identification of technical debt and opportunities to improve scalability, maintainability, and reliability.
-type: rule
-archivedreason:
-title: Do you conduct an architecture review every few Sprints?
-guid: f1401eba-50d4-4c6e-bb16-3959b9c2920c
-uri: do-you-conduct-an-architecture-review-after-every-sprint
-created: 2009-02-26T02:02:17.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2009-09-01 23:44:36+00:00
+createdBy: SSW2000\cameronshaw
+createdByEmail: CameronShaw@ssw.com.au
+guid: f1401eba-50d4-4c6e-bb16-3959b9c2920c
+isArchived: false
+lastUpdated: 2021-06-24 23:54:46.788000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-conduct-an-architecture-review-every-few-sprints
+- do-you-conduct-an-architecture-review-every-few-sprints
+seoDescription: Conducting an architecture review every few Sprints ensures internal
+  code and architecture health, allowing for timely identification of technical debt
+  and opportunities to improve scalability, maintainability, and reliability.
+title: Do you conduct an architecture review every few Sprints?
+type: rule
+uri: do-you-conduct-an-architecture-review-after-every-sprint
 ---
 
 There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.
@@ -26,7 +35,7 @@ Therefore it is important to conduct a '[test please](/conduct-a-test-please-int
 
 Ideally conduct a small 'Code + Architecture Review' for every Sprint. Assuming a 2 week Sprint, schedule a 4 hour (2 architects x 2 hours) review.
 
-<!--endintro-->
+<endOfIntro />
 
 The following are items that are addressed in an architecture/code review:
 
@@ -80,9 +89,15 @@ The following are items that are addressed in an architecture/code review:
 - Reliability (failover servers?)
 - 'Sellability' i.e. is the solution appropriate for the client?
 
-::: info
-**Note:** If you are using Enterprise Architect, be aware of [technical debt](/technical-debt):
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Note:** If you are using Enterprise Architect, be aware of [technical debt](/technical-debt):
 
 - Add a datetime of the last time the diagram was modified so we have an indication of when it is out of date
 - On your diagrams, be aware that some parts are done and some are not.
-  :::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>

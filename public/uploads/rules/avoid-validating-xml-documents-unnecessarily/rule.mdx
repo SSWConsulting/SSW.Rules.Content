@@ -1,17 +1,25 @@
 ---
-seoDescription: Validate XML documents unnecessarily and improve performance by using XmlTextReader instead of XmlValidatingReader.
-type: rule
-archivedreason:
-title: Do you avoid validating XML documents unnecessarily?
-guid: d65b2247-f519-4257-b304-bb81be2581d6
-uri: avoid-validating-xml-documents-unnecessarily
-created: 2018-04-25T19:38:17.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-25 19:38:18+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d65b2247-f519-4257-b304-bb81be2581d6
+isArchived: false
+lastUpdated: 2018-04-25 19:41:18+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-avoid-validating-xml-documents-unnecessarily
+- do-you-avoid-validating-xml-documents-unnecessarily
+seoDescription: Validate XML documents unnecessarily and improve performance by using
+  XmlTextReader instead of XmlValidatingReader.
+title: Do you avoid validating XML documents unnecessarily?
+type: rule
+uri: avoid-validating-xml-documents-unnecessarily
 ---
 
 Validating an XML document against a schema is expensive, and should not be done where it is not absolutely necessary. Combined with weight the XML document object, validation can cause a significant performance hit:
@@ -23,7 +31,7 @@ Validating an XML document against a schema is expensive, and should not be done
 
 You can disable validation when using the XmlDocument object by passing an XmlTextReader instead of the XmlValidatingTextReader:
 
-<!--endintro-->
+<endOfIntro />
 
 ```js
 XmlDocument report = new XmlDocument();

@@ -1,12 +1,27 @@
 [
   {
-    "folderName": "bicep-module-templates",
+    "folderName": "bicep-use-module-templates",
     "uri": "bicep-module-templates",
-    "filePath": "public/uploads/rules/bicep-module-templates/rule.mdx"
+    "filePath": "public/uploads/rules/bicep-use-module-templates/rule.mdx"
   },
   {
     "folderName": "do-you-use-azure-migrate-to-move-to-cloud",
     "uri": "do-you-use-azure-migrate-to-move-to-cloud",
     "filePath": "public/uploads/rules/do-you-use-azure-migrate-to-move-to-cloud/rule.mdx"
+  },
+  {
+    "folderName": "use-figma-dev-mode",
+    "uri": "figma-dev-mode",
+    "filePath": "public/uploads/rules/use-figma-dev-mode/rule.mdx"
+  },
+  {
+    "folderName": "do-you-know-how-to-use-nextjs-caching-system",
+    "uri": "use-nextjs-caching-system",
+    "filePath": "public/uploads/rules/do-you-know-how-to-use-nextjs-caching-system/rule.mdx"
+  },
+  {
+    "folderName": "migrate-solution-to-slnx",
+    "uri": "use-slnx-format",
+    "filePath": "public/uploads/rules/migrate-solution-to-slnx/rule.mdx"
   }
 ]

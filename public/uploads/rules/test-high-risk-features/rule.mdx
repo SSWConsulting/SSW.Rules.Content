@@ -1,23 +1,26 @@
 ---
-type: rule
-tips: ""
-title: Do you test high-risk features with real users before launch?
-seoDescription: Don’t release critical features without testing them first.
-  Usability testing reduces risk, uncovers UX issues, and gives you confidence
-  before launch.
-uri: test-high-risk-features
 authors:
-  - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc/
-related:
-  - mix-user-research-methods
+- title: Betty Bondoc
+  url: https://www.ssw.com.au/people/betty-bondoc/
+categories:
+- category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
 guid: e3427c47-5871-476d-8aaf-e0968edd3cb5
+related:
+- rule: public/uploads/rules/mix-user-research-methods/rule.mdx
+seoDescription: Don’t release critical features without testing them first. Usability
+  testing reduces risk, uncovers UX issues, and gives you confidence before launch.
+tips: ''
+title: Do you test high-risk features with real users before launch?
+type: rule
+uri: test-high-risk-features
 ---
+
 Shipping a high-risk feature without testing it with users is a gamble. If your update affects sign-up flows, checkout processes, or dashboards, you can’t afford to guess. Usability issues that slip through can cost you revenue, reputation, and rework time.
 
 Even experienced designers and developers miss things. The only way to validate an interface is to observe real users attempting real tasks.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why test usability?
 
@@ -42,8 +45,9 @@ Prioritize usability testing when a feature is:
 
 When in doubt, test it. It’s always cheaper than fixing issues after the fact.
 
-`youtube: https://www.youtube.com/watch?v=n8MnoJyl3W4`
-**Video: Usability Testing 101 (2 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=n8MnoJyl3W4" description={"Video: Usability Testing 101 (2 min)"} />
+
 
 ## How to run a quick usability test
 
@@ -61,27 +65,35 @@ Usability testing doesn’t require a lab or a research degree. Anyone on the te
 
 Either works. Choose what suits your access to users:
 
-* **In-person** – Office, lab, or meeting room  
-* **Remote (moderated)** – Over Zoom or Teams with screensharing  
-* **Remote (unmoderated)** – Use tools like Maze or UserTesting to capture session recordings  
+* **In-person** – Office, lab, or meeting room
+* **Remote (moderated)** – Over Zoom or Teams with screensharing
+* **Remote (unmoderated)** – Use tools like Maze or UserTesting to capture session recordings
 
 You don’t need fancy tools. Sometimes, all you need is a few users and a fresh perspective.
 
 ## Example
 
-::: greybox
-You’ve redesigned the onboarding flow for your app. Before launch, you run usability tests with 5 new users. On screen 2, all participants misinterpret the CTA and hesitate. You tweak the language and spacing before release.
-:::
-::: good
-Figure: Good example – You fixed a usability blocker before it impacted users
-:::
 
-::: greybox
-You launch a major dashboard redesign without testing. Support tickets flood in. Users are confused by ambiguous icon labels and can’t find the filters.
-:::
-::: bad
-Figure: Bad example – Avoidable UX issues caused friction and hurt trust
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    You’ve redesigned the onboarding flow for your app. Before launch, you run usability tests with 5 new users. On screen 2, all participants misinterpret the CTA and hesitate. You tweak the language and spacing before release.
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example – You fixed a usability blocker before it impacted users"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    You launch a major dashboard redesign without testing. Support tickets flood in. Users are confused by ambiguous icon labels and can’t find the filters.
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example – Avoidable UX issues caused friction and hurt trust"}
+/>
+
 
 ## Bonus tip: Test before the code
 

@@ -1,36 +1,56 @@
 ---
-seoDescription: Learn how to consistently style your Xamarin app using Resource Dictionaries, CSS, or Visual for a cohesive branding experience.
-type: rule
-archivedreason:
-title: Do you use know how to consistently style your app?
-guid: 15901500-e40b-41c1-991d-59c70c892b4c
-uri: consistently-style-your-app
-created: 2020-10-08T22:50:48.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+categories:
+- category: categories/software-engineering/rules-to-better-maui.mdx
+created: 2020-10-08 22:50:50+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 15901500-e40b-41c1-991d-59c70c892b4c
+isArchived: false
+lastUpdated: 2020-10-08 23:22:39+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-know-how-to-consistently-style-your-app
+- do-you-use-know-how-to-consistently-style-your-app
+seoDescription: Learn how to consistently style your Xamarin app using Resource Dictionaries,
+  CSS, or Visual for a cohesive branding experience.
+title: Do you use know how to consistently style your app?
+type: rule
+uri: consistently-style-your-app
 ---
 
 Branding is important in any product, and especially a mobile app. Xamarin offers several ways to define and ensure consistent styling throughout your app:
 
-<!--endintro-->
+<endOfIntro />
 
 - Resource Dictionaries
 - CSS
 - Visual
 
-::: bad  
-![Figure: Bad Example - same styling defined and repeated multiple times](xamarin-style-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad Example - same styling defined and repeated multiple times"}
+  src="/uploads/rules/consistently-style-your-app/xamarin-style-bad.png"
+/>
 
-::: good  
-![Figure: Good Example - Styles defined once in resource dictionary and applied to controls](xamarin-style-good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good Example - Styles defined once in resource dictionary and applied to controls"}
+  src="/uploads/rules/consistently-style-your-app/xamarin-style-good.png"
+/>
+
 
 Resource Dictionaries and CSS provide similar capabilities, but Resource Dictionaries are the best way to style your Xamarin applications. CSS in Xamarin is not full, web-standards compliant CSS, but rather an alternative way to write Xamarin styles than Resource Dictionaries. CSS in Xamarin does not currently support the full range of properties available, but it may be more comfortable for those familiar with web development.
 

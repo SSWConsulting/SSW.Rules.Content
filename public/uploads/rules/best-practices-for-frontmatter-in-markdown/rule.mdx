@@ -2,6 +2,8 @@
 seoDescription: Learn effective Frontmatter practices in Markdown for better metadata management, seamless integration with static site generators, and improved content organization.
 type: rule
 title: Do you know the best practices for Frontmatter in markdown?
+categories:
+  - category: categories/software-engineering/rules-to-better-websites-development.mdx
 uri: best-practices-for-frontmatter-in-markdown
 authors:
   - title: Gert Marx
@@ -21,11 +23,18 @@ Frontmatter is a critical component in Markdown files, especially when generatin
 
 However, when not structured properly, it can lead to parsing errors, inconsistencies, and even disrupt the rendering of the entire page. To avoid these pitfalls and ensure a seamless integration of your Markdown files, it's essential to follow best practices when defining Frontmatter.
 
-<!--endintro-->
+<endOfIntro />
 
-::: info
-**Tip:** You can simplify the workflow for editors unfamiliar with Git or Markdown by utilizing [Tina](https://tina.io), a CMS with user-friendly interface integrated with your Git repository.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Tip:** You can simplify the workflow for editors unfamiliar with Git or Markdown by utilizing [Tina](https://tina.io), a CMS with user-friendly interface integrated with your Git repository.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ### Use Key-Value Pair Organization
 
@@ -84,7 +93,7 @@ Here's how you can effectively use arrays:
 
 ```md
 –––
-authors: 
+authors:
   - Bob Northwind
   - Jane Smith
   - Bob Johnson
@@ -186,16 +195,16 @@ Stick to plain Markdown:
 ``` md
 –––
 title: "My Article"
-author: 
+author:
   - name: "Bob Northwind"
     role: "Writer"
 published: true
 year: 2023
-tags: 
+tags:
   - Technology
   - Writing
   - Markdown
-metadata: 
+metadata:
   created_at: "2023-10-30"
   modified_at: "2023-11-06"
 –––

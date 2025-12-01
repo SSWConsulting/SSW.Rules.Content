@@ -1,27 +1,31 @@
 ---
-seoDescription: Discover how to effectively enforce standards by explaining their importance, fostering better teamwork and avoiding repeated mistakes
-type: rule
-title: Standards Watchdog - Do you provide the reason behind rules when enforcing them?
-uri: provide-the-reason-behind-rules
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-related:
-  - add-context-reasoning-to-emails
-  - the-value-of-consistency
-redirects:
-  - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
-  - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
-created: 2012-09-25T17:54:42.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+categories:
+- category: categories/client-engagement/rules-to-better-software-consultants-working-in-a-team.mdx
+created: 2012-09-25 17:54:42+00:00
 guid: b9a01f68-abe6-45aa-b1cd-aa4a68b02186
+redirects:
+- general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+- do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+related:
+- rule: public/uploads/rules/add-context-reasoning-to-emails/rule.mdx
+- rule: public/uploads/rules/the-value-of-consistency/rule.mdx
+seoDescription: Discover how to effectively enforce standards by explaining their
+  importance, fostering better teamwork and avoiding repeated mistakes
+title: Standards Watchdog - Do you provide the reason behind rules when enforcing
+  them?
+type: rule
+uri: provide-the-reason-behind-rules
 ---
 
 Learning lessons the hard way is a fact of life, but one of the great things about teamwork is that you can help others avoid making the same mistakes over and over again. This is the foundation of great standards! But what happens when a new (or old) team member misses a standard?
 
-<!--endintro-->
+<endOfIntro />
 
 > *"The floggings will continue until morale improves"*
 >
@@ -34,35 +38,31 @@ Everyone makes mistakes. If you run around wielding your authority as a cudgel, 
 
 For example, if one of your standards is for developers to send "test please" emails, there's likely a hard-earned lesson behind it - otherwise, that rule wouldn’t exist. Instead of simply enforcing the rule, take a couple of minutes to explain why it matters and the value it brings.
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| From:    | Adam |
-| To:      | Mark |
-| Subject: | No test please email |
-::: email-content  
-
-### Hi Mark
+<emailEmbed
+  from="Adam"
+  to="Mark"
+  cc=""
+  bcc=""
+  subject="No test please email"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Mark
 
 You didn't send a "test please" email. Please do that next time.
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - This email doesn't explain why this is so important"}
+/>
 
-:::
-:::
-::: bad
-Figure: Bad example - This email doesn't explain why this is so important
-:::
-
-::: email-template
-
-|          |     |
-| -------- | --- |
-| From:    | Adam |
-| To:      | Mark |
-| Subject: | Test Please emails standard |
-::: email-content  
-
-### Hi Mark
+<emailEmbed
+  from="Adam"
+  to="Mark"
+  cc=""
+  bcc=""
+  subject="Test Please emails standard"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Mark
 
 Regarding that PBI you worked on yesterday.
 
@@ -72,9 +72,7 @@ This saves time by getting early feedback, allowing bugs to be fixed while it's 
 The longer the feedback loop takes, the more expensive a PBI becomes to the client.
 
 Please make sure this is part of your workflow ;)
-
-:::
-:::
-::: good
-Figure: Good example - Provide a link to your standard and the main reason(s) why it is important
-:::
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - Provide a link to your standard and the main reason(s) why it is important"}
+/>

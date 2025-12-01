@@ -2,6 +2,8 @@
 seoDescription: Windows Forms applications can support URLs by adding registry keys and handling extra parameters in the main method. This allows users to jump directly to a specific record or "page" using a URL.
 type: rule
 title: Do you support URLs on Windows Forms applications?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: windows-forms-applications-support-urls
 authors:
   - title: Adam Cogan
@@ -14,11 +16,29 @@ Aside from ease of installation, what is the one thing a web browsers has over a
 
 With a Windows Forms application, you typically have to wade through layers of menus and options to find a particular record or "page". However, Outlook has a unique feature which allows you to jump to a folder or item directly from the command line.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Outlook can automatically jump to a specified folder or item from a command line](runshortcut.gif)
 
-![Figure: Outlook address bar (Web toolbar) shows you the URL for every folder](outlookaddressbar.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Outlook can automatically jump to a specified folder or item from a command line"}
+  src="/uploads/rules/windows-forms-applications-support-urls/runshortcut.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Outlook address bar (Web toolbar) shows you the URL for every folder"}
+  src="/uploads/rules/windows-forms-applications-support-urls/outlookaddressbar.gif"
+/>
+
 
 We believe that all applications should have this capability. You can add it to a Windows Application using the following procedure:
 

@@ -1,46 +1,78 @@
 ---
-seoDescription: Improve web page performance by loading media assets lazily, reducing initial load size and saving bandwidth for readers.
-type: rule
-title: Do you improve web page performance with lazy loading of media assets?
-uri: improve-performance-with-lazy-loading-of-media-assets
-authors:
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: []
-redirects:
-  - do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets
-created: 2019-06-21T22:41:38.000Z
 archivedreason: null
+authors:
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+categories:
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2019-06-21 22:41:39+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 3b77adac-4387-4ba1-8ece-0e4a32e75458
+isArchived: false
+lastUpdated: 2019-06-21 23:05:51+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets
+seoDescription: Improve web page performance by loading media assets lazily, reducing
+  initial load size and saving bandwidth for readers.
+title: Do you improve web page performance with lazy loading of media assets?
+type: rule
+uri: improve-performance-with-lazy-loading-of-media-assets
 ---
 
 If you are dealing with Content Management System (CMS), you are likely to play with pages with large amount of images and embedded videos. To improve the performance of those pages, and save bandwidth for the readers, loading content asynchronously (also called “lazy loading”) is recommended.
 
 It means the browsers will only load images and embedded videos in the visible area by default, then load the rest images and videos while users are scrolling down to them.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Real case scenario
 
 On our SSW Rules website, one of the pages’ initial loading size of images reduced from 4.8MB to 500KB after being applied “lazy loading” of images:
 
-::: bad  
-![Figure: Bad example - Load all images by default](load-images-1.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Load all images by default"}
+  src="/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/load-images-1.jpg"
+/>
 
-::: good  
-![Figure: Good example - Do not load all images by default, only load them when they are visible while scrolling down the browsers](load-images-2.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Do not load all images by default, only load them when they are visible while scrolling down the browsers"}
+  src="/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/load-images-2.jpg"
+/>
+
 
 The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after being applied “lazy loading” of embedded YouTube videos:
 
-::: bad  
-![Figure: Bad example – Load all embedded YouTube videos by default](load-images-3.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example – Load all embedded YouTube videos by default"}
+  src="/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/load-images-3.jpg"
+/>
 
-::: good  
-![Figure: Good example - Do not load all embedded YouTube videos by default, only load them when they are visible while scrolling down the browsers](load-images-4.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Do not load all embedded YouTube videos by default, only load them when they are visible while scrolling down the browsers"}
+  src="/uploads/rules/improve-performance-with-lazy-loading-of-media-assets/load-images-4.jpg"
+/>
+
 
 ### Implementing lazy loading for images
 
@@ -56,7 +88,7 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 
 **Note:** You can use a polyfill library to add **IntersectionObserver** support to older browsers.
 
-2. If the browser supports IntersectionObserver, in your page html, change the “src” of “&lt;img&gt;” to “data-src”  
+2. If the browser supports IntersectionObserver, in your page html, change the “src” of “&lt;img&gt;” to “data-src”
    From
 
   ```html

@@ -1,56 +1,80 @@
 ---
-seoDescription: Use prefixes to improve code review communication, ensuring clarity and collaboration among developers, and streamline the overall code review process.
-type: rule
-title: Do you use prefixes to improve code review communication?
-uri: use-prefixes-to-improve-code-review-communication
 authors:
-  - title: Thomas Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski/
-created: 2023-10-15T22:50:55.343Z
+- title: Thomas Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski/
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2023-10-15 22:50:55.343000+00:00
 guid: 0e1a4c32-1bd2-49a8-8421-53157195738c
 related:
-  - prefixes
+- rule: public/uploads/rules/prefixes/rule.mdx
+seoDescription: Use prefixes to improve code review communication, ensuring clarity
+  and collaboration among developers, and streamline the overall code review process.
+title: Do you use prefixes to improve code review communication?
+type: rule
+uri: use-prefixes-to-improve-code-review-communication
 ---
 
 In the world of code reviews, ambiguity can lead to confusion, misunderstandings, and wasted time. Utilizing prefixes for code review comments is like providing a map for navigating complex terrain, ensuring that everyone involved in the review process remains on the same page. Incorporating prefixes in code review communication can prevent potential challenges, enhancing collaboration, clarity, and code quality. With these small changes, you can streamline and improve the overall code review process and complete reviews quickly and efficiently.
 
-<!--endintro-->
+<endOfIntro />
 
 When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in comments, as suggested on [conventionalcomments.org](https://conventionalcomments.org), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
 
 Let's have a look at the following example from Bob Northwind:
 
-:::greybox
-@bob-northwind
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    @bob-northwind
 
 This code could be better optimized
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: bad  
+
+::: bad
 Figure: Without a prefix, this comment's intent is vague. It's not evident whether it's a suggestion, a question, or an issue.
 :::
 
-:::greybox
-@bob-northwind
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    @bob-northwind
 
 **suggestion**: This code could be better optimized.
 
 It is not critical but there are a few minor improvements that can be applied to increase performance.
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: good  
+
+::: good
 Figure: The prefix "suggestion" indicates that the comment is a suggestion for improvement
 :::
 
 Adding a prefix like "suggestion" clarifies the intent of the comment, making it actionable. The context provided helps the author see the potential impact of the suggested change.
 
-:::greybox
-@bob-northwind
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    @bob-northwind
 
 **issue**: We must address this security vulnerability before merging.
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ::: good
 Figure: The prefix "issue" and following context clearly define the comment's importance and category.
@@ -62,11 +86,18 @@ Using prefixes also helps categorize comments for tracking and reporting purpose
 
 By adhering to a consistent format such as:
 
-:::greybox
-**{{ prefix }}**: {{ subject }}
 
-{{ discussion }}
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **&#123;&#123; prefix &#125;&#125;**: &#123;&#123; subject &#125;&#125;
+
+&#123;&#123; discussion &#125;&#125;
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 You can create a standardized system that makes comments more parseable by machines, which can lead to valuable metrics and reports in the future.
 

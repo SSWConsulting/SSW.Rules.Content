@@ -1,24 +1,33 @@
 ---
-seoDescription: Learn how to create spaces in a web page using CSS and avoid using outdated methods like `<br />` or ASCII character codes.
-type: rule
-archivedreason:
-title: HTML/CSS - Do you know how to create spaces in a web page?
-guid: 4586408c-b6a1-40ab-81c4-55dc91d631b1
-uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
-created: 2012-07-02T14:19:41.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - format-new-lines
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2012-07-02 14:44:33+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 4586408c-b6a1-40ab-81c4-55dc91d631b1
+isArchived: false
+lastUpdated: 2012-07-02 14:51:39+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+related:
+- rule: public/uploads/rules/format-new-lines/rule.mdx
+seoDescription: Learn how to create spaces in a web page using CSS and avoid using
+  outdated methods like `<br />` or ASCII character codes.
+title: HTML/CSS - Do you know how to create spaces in a web page?
+type: rule
+uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
 ---
 
 There are many scenarios where you need some extra space in a web page (HTML or Markdown). No matter which one you are at, CSS is the answer.
 
-<!--endintro-->
+<endOfIntro />
 
 Sometimes the first thing that comes to the developer mind is to use the "break line" tag `<br />`, or the [ASCII character codes](https://en.wikipedia.org/wiki/ASCII) for "space" `&#160;` / `&nbsp;` to create these extra spaces. **It's wrong!**
 
@@ -47,9 +56,16 @@ Figure: Bad example - Using the "space" ASCII character to create a padding on t
 Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list
 :::
 
-::: info
-**Note:** If you **cannot** use CSS to create some breathing space, using `<br />` maybe acceptable as last resort for better readability.
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Note:** If you **cannot** use CSS to create some breathing space, using `&lt;br /&gt;` maybe acceptable as last resort for better readability.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ```css
 ul {

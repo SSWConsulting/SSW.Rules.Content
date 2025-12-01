@@ -2,6 +2,8 @@
 seoDescription: Use a Web Service to securely send emails from your Windows application without storing email server configurations.
 type: rule
 title: Do you use Web Service to send emails?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: use-web-service-to-send-emails
 authors:
   - title: Adam Cogan
@@ -12,7 +14,7 @@ guid: df81ed0a-c8a1-46bf-82ea-892929c7191f
 
 In a Windows application, if you need to send mail, please use a WebService to do this, because using WebService to send emails is safer.You don't need to store the email server configuration in your application.config file, which can be installed on the client and be exposed to someone who could take advantage of it.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 SmtpClient client = new SmtpClient();

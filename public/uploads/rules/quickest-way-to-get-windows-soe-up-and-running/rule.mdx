@@ -1,31 +1,33 @@
 ---
-seoDescription: Boost Windows SOE setup speed with package managers like Chocolatey and Winget for small to medium-sized companies or BYOD environments.
-type: rule
-title: Do you know the quickest way to get your Windows SOE up and running?
-uri: quickest-way-to-get-windows-soe-up-and-running
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-related: []
-redirects:
-  - do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
-  - do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
-created: 2016-06-20T04:57:19.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-pcs.mdx
+created: 2016-06-20 04:57:19+00:00
 guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
+redirects:
+- do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
+- do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
+seoDescription: Boost Windows SOE setup speed with package managers like Chocolatey
+  and Winget for small to medium-sized companies or BYOD environments.
+title: Do you know the quickest way to get your Windows SOE up and running?
+type: rule
+uri: quickest-way-to-get-windows-soe-up-and-running
 ---
 
 Your developers should be using the latest version of Windows for security, speed, and the latest features.
 
 The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
-<!--endintro-->
+<endOfIntro />
 
 * **Manually**
   * It can take over a day to install your favorite 20 or so apps
@@ -49,22 +51,50 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 8. In case you lose your laptop, it is a good idea to stick a business card to the underneath
 9. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](/brand-your-assets)
 
-![Figure: Example login/branding script](login-script.png)
 
-![Figure: Example package manager - using chocolatey to install required software](choco.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Example login/branding script"}
+  src="/uploads/rules/quickest-way-to-get-windows-soe-up-and-running/login-script.png"
+/>
 
-![Figure: Company branding on laptop](ssw-skin.jpeg)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Example package manager - using chocolatey to install required software"}
+  src="/uploads/rules/quickest-way-to-get-windows-soe-up-and-running/choco.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Company branding on laptop"}
+  src="/uploads/rules/quickest-way-to-get-windows-soe-up-and-running/ssw-skin.jpeg"
+/>
+
 
 10. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Subject: | Your new computer |
-::: email-content
-
-### Hey Bob
+<emailEmbed
+  from=""
+  to="Bob Northwind"
+  cc=""
+  bcc=""
+  subject="Your new computer"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hey Bob
 
 Your new computer is ready ⭐️
 
@@ -85,13 +115,14 @@ I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-g
 * Printer - Added the main office printers
 * Asset - Added the asset to our asset management tool (e.g. Snipe)
 * Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
-  
+
   Now I need you to do (we can do this together if you are stuck, just give me a call 🕺)
-  
+
   1. Now login and check Microsoft - Teams App, Outlook
   2. Check Google - Chrome will bring back your bookmarks
   3. Plugin external monitors - Configure your screens
   4. Run the templates script - Follow [Logon - Do you have a company-wide Word template?](/have-a-companywide-word-template)
-  
-:::
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"Example"}
+/>

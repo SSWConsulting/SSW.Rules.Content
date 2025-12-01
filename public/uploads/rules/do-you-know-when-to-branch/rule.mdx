@@ -1,19 +1,27 @@
 ---
-seoDescription: Do you know when to branch in TFS (aka TFVC)? Learn how to simplify your workflow and avoid merging hell by understanding when to create branches.
-type: rule
-title: Do you know when to branch in TFS (aka TFVC)?
-uri: do-you-know-when-to-branch
+archivedreason: See the rule for how to branch in Git as a more modern tool choice
+  than TFS [https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git](/rules/do-you-know-when-to-branch-in-git)
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
-redirects:
-  - do-you-know-when-to-branch-in-tfs-aka-tfvc
-  - do-you-know-when-to-branch-in-tfs-(aka-tfvc)
-created: 2013-12-06T17:54:34.000Z
-archivedreason: See the rule for how to branch in Git as a more modern tool
-  choice than TFS [https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git](/rules/do-you-know-when-to-branch-in-git)
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/project-delivery/rules-to-better-branching-and-builds.mdx
+created: 2013-12-06 18:14:08+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: aeeec9fa-6d78-4682-838d-091a3347ca28
+isArchived: false
+lastUpdated: 2021-06-17 17:11:38.408000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-know-when-to-branch-in-tfs-aka-tfvc
+- do-you-know-when-to-branch-in-tfs-(aka-tfvc)
+seoDescription: Do you know when to branch in TFS (aka TFVC)? Learn how to simplify
+  your workflow and avoid merging hell by understanding when to create branches.
+title: Do you know when to branch in TFS (aka TFVC)?
+type: rule
+uri: do-you-know-when-to-branch
 ---
 
 One of the most controversial issues developers discuss is when to create branches and how many you should have.
@@ -23,11 +31,18 @@ Keep things simple:
 1. Have the team develop on the one branch. It is fantastic as there is no more merging hell.
 2. Have that branch called "**main**" (or " **trunk** " when using **TFS** or **SVN**
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-**Note:** This rule only applies to TFVC. For git, see [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    **Note:** This rule only applies to TFVC. For git, see [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/resources/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
 
@@ -37,9 +52,15 @@ In that case you need to potentially update all of your branches and perform dep
 
 The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
 
-::: good  
-![Figure: Good example - Manage deployments to multiple environments, view deployed versions](2014-10-11_18-54-00.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Manage deployments to multiple environments, view deployed versions"}
+  src="/uploads/rules/do-you-know-when-to-branch/2014-10-11_18-54-00.png"
+/>
+
 
 ## Why you should avoid branching
 
@@ -59,17 +80,35 @@ This is **very** likely to happen on code bases that require tidying when you ha
 * For a disposable, investigatory spike
 * To perform hotfixes to production environment
 
-::: bad  
-![Figure: Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)](branch-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)"}
+  src="/uploads/rules/do-you-know-when-to-branch/branch-bad.jpg"
+/>
 
-::: bad  
-![Figure: Bad example – Creating a branch per Sprint has everyone working on the same code but requires at least one merge every Sprint](branch-bad-2.jpg)
-:::
 
-::: good  
-![Figure: Good example - Release Branching - always develop on the trunk, but create a new branch each time you release. This means that all developers are continually integrating all their code, branching is rare, but you always have access to your released version in case bug fixes or small mods are required. (Image from paulhammant.com)](branch-good.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example – Creating a branch per Sprint has everyone working on the same code but requires at least one merge every Sprint"}
+  src="/uploads/rules/do-you-know-when-to-branch/branch-bad-2.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Release Branching - always develop on the trunk, but create a new branch each time you release. This means that all developers are continually integrating all their code, branching is rare, but you always have access to your released version in case bug fixes or small mods are required. (Image from paulhammant.com)"}
+  src="/uploads/rules/do-you-know-when-to-branch/branch-good.jpg"
+/>
+
 
 ### Further reading
 

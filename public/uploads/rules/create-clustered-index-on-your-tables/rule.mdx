@@ -1,17 +1,25 @@
 ---
-seoDescription: Discover the benefits of creating clustered indexes on your tables and learn how to choose the right field for optimal performance.
-type: rule
-archivedreason:
-title: Schema - Do you create clustered index on your tables?
-guid: d541f2f6-a191-4b97-919d-55041b6b7a95
-uri: create-clustered-index-on-your-tables
-created: 2019-11-06T00:30:09.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-06 00:30:09+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d541f2f6-a191-4b97-919d-55041b6b7a95
+isArchived: false
+lastUpdated: 2020-01-03 05:15:35+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - schema-do-you-create-clustered-index-on-your-tables
+- schema-do-you-create-clustered-index-on-your-tables
+seoDescription: Discover the benefits of creating clustered indexes on your tables
+  and learn how to choose the right field for optimal performance.
+title: Schema - Do you create clustered index on your tables?
+type: rule
+uri: create-clustered-index-on-your-tables
 ---
 
 You're allowed one clustered index per table, so unless you are never going to query a table, you may as well choose a field to be part of a clustered index. Basically,
@@ -20,7 +28,7 @@ You're allowed one clustered index per table, so unless you are never going to q
 2. The clustered index should be a unique clustered index where possible;
 3. The clustered index should be on a single column where possible;
 
-<!--endintro-->
+<endOfIntro />
 
 So how do you choose the right field? Depending on the usage pattern of a table, clustered indices should be created. If sets of related records are regularly retrieved from a table in an application, a clustered index could dramatically improve performance.
 For example, in an Order to OrderDetails relationship with OrderID as the joining key, items in an order are regularly retrieved in a bundle. A clustered index on the OrderID column in the OrderDetails table will improve the performance of the application significantly.

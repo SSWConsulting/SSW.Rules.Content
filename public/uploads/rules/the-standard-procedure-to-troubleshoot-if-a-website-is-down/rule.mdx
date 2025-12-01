@@ -1,22 +1,32 @@
 ---
-seoDescription: When a website goes down, troubleshoot the issue by restarting IIS services, recycling application pools, and rebooting the web server machine. If problems persist, turn on maintenance mode and reproduce the issue on a testing site.
-type: rule
-archivedreason:
-title: Do you know the standard procedure to troubleshoot if a website is down?
-guid: 7eea433a-475a-4c01-a246-a882861d4ba4
-uri: the-standard-procedure-to-troubleshoot-if-a-website-is-down
-created: 2016-11-25T19:44:43.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-iis.mdx
+created: 2016-11-25 19:44:43+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 7eea433a-475a-4c01-a246-a882861d4ba4
+isArchived: false
+lastUpdated: 2021-04-21 05:52:40.276000+00:00
+lastUpdatedBy: Patrick Zhao [SSW]
+lastUpdatedByEmail: patrick.zhao1989@outlook.com
 redirects:
-  - do-you-know-the-standard-procedure-to-troubleshoot-if-a-website-is-down
+- do-you-know-the-standard-procedure-to-troubleshoot-if-a-website-is-down
+seoDescription: When a website goes down, troubleshoot the issue by restarting IIS
+  services, recycling application pools, and rebooting the web server machine. If
+  problems persist, turn on maintenance mode and reproduce the issue on a testing
+  site.
+title: Do you know the standard procedure to troubleshoot if a website is down?
+type: rule
+uri: the-standard-procedure-to-troubleshoot-if-a-website-is-down
 ---
 
 When a site is down, you have to troubleshoot the problem. During troubleshooting, you might need to restart the IIS services. Here're several steps you can follow.
 
-<!--endintro-->
+<endOfIntro />
 
 1. [Restart the website](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/f38a73eb-9e33-4f71-bcca-a913a125a50e.mspx?mfr=true&WT.mc_id=DP-MVP-33518)
 2. If step 1 doesn't work, try to [recycle the application pool](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/f11b8294-cc42-4e9c-8482-6257bf3b80f2.mspx?mfr=true&WT.mc_id=DP-MVP-33518)  of the site

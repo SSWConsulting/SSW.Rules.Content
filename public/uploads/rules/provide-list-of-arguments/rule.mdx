@@ -1,27 +1,41 @@
 ---
-seoDescription: When developing command-line applications, providing a list of arguments and help on usage is crucial for effective user interaction.
-type: rule
-title: Do you provide list of arguments?
-uri: provide-list-of-arguments
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
-created: 2014-03-14T03:41:00.000Z
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan/
+categories:
+- category: categories/software-engineering/rules-to-better-command-lines.mdx
+created: 2014-03-14 03:41:00+00:00
 guid: d0bd94cb-018e-4144-a1ad-492a1d499ea1
 related:
-  - cocona-command-line-tools
+- rule: public/uploads/rules/cocona-command-line-tools/rule.mdx
+seoDescription: When developing command-line applications, providing a list of arguments
+  and help on usage is crucial for effective user interaction.
+title: Do you provide list of arguments?
+type: rule
+uri: provide-list-of-arguments
 ---
 
 When you develop an application that supports command line, you must provide a list of arguments / help on how to use the application through command line.
 
 It can be as easy as typing: `\[ApplicationName].exe /?` for listing the arguments.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Do no provide supported argument through /?](nolistofarguments.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Do no provide supported argument through /?"}
+  src="/uploads/rules/provide-list-of-arguments/nolistofarguments.jpg"
+/>
 
-::: good
-![Figure: Good example - Provide supported argument through /?](listofarguments.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Provide supported argument through /?"}
+  src="/uploads/rules/provide-list-of-arguments/listofarguments.jpg"
+/>

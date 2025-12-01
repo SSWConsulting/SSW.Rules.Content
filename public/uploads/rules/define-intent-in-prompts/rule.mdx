@@ -2,6 +2,8 @@
 seoDescription: Define your intent clearly to help ChatGPT understand your goal and provide accurate responses.
 type: rule
 title: Do you always define your intent in prompts?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 uri: define-intent-in-prompts
 authors:
   - title: Ulysses Maclaren
@@ -12,7 +14,7 @@ guid: 24f4f16b-c7be-43bf-8571-c7e99774f46d
 
 Defining your intent clearly in a prompt is crucial for helping ChatGPT understand your goal and provide an appropriate response. When the model has a clear understanding of what you're asking, it's more likely to deliver the information or assistance you're seeking.
 
-<!--endintro-->
+<endOfIntro />
 
 Here are some tips for defining your intent in prompts:
 
@@ -20,24 +22,39 @@ Here are some tips for defining your intent in prompts:
 - If your request has multiple components, break them down into separate parts within the prompt
 - Ensure your intent is evident even to someone with minimal background knowledge
 
-::: greybox
-"Can you tell me something about climate change?"
-:::
-::: bad
-Figure: Bad example - The prompt is unclear and doesn't define the intent
-:::
 
-::: greybox
-"What are the primary human activities contributing to climate change and their impacts on the environment?"
-:::
-::: good
-Figure: Good example - the prompt clearly defines the intent by asking for specific information
-:::
+<boxEmbed
+  variant="greybox"
+  body={<>
+    "Can you tell me something about climate change?"
+  </>}
+  figurePreset="badExampleExample"
+  figureText={"Bad example - The prompt is unclear and doesn't define the intent"}
+/>
 
-::: greybox
-"My goal is to reduce my household's energy consumption. Can you suggest five practical steps I can take to achieve this while still maintaining a comfortable living environment?"
 
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    "What are the primary human activities contributing to climate change and their impacts on the environment?"
+  </>}
+  figurePreset="goodExampleExample"
+  figureText={"Good example - the prompt clearly defines the intent by asking for specific information"}
+/>
+
+
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    "My goal is to reduce my household's energy consumption. Can you suggest five practical steps I can take to achieve this while still maintaining a comfortable living environment?"
+
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ::: good
 Figure: Good example - the prompt clearly states the user's goal and asks for specific information to help achieve it, making it easier for ChatGPT to understand the desired outcome and provide relevant suggestions

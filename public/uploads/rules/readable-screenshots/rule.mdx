@@ -1,31 +1,35 @@
 ---
-seoDescription: Make sure your screenshots are readable by cropping them to relevant areas and ensuring text size is suitable for various screen sizes.
-type: rule
-title: Do you make sure your screenshots are readable?
-uri: readable-screenshots
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - screenshots-avoid-walls-of-text
-  - screenshots-tools
-  - hide-visual-clutter-in-screenshots
-redirects:
-  - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
-  - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
-created: 2015-10-13T00:30:14.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/software-engineering/rules-to-better-websites-graphics.mdx
+created: 2015-10-13 00:30:14+00:00
 guid: 6011c97c-6bb6-4ddc-a627-8f5238405baa
-
+redirects:
+- do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
+- do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
+related:
+- rule: public/uploads/rules/screenshots-avoid-walls-of-text/rule.mdx
+- rule: public/uploads/rules/screenshots-tools/rule.mdx
+- rule: public/uploads/rules/hide-visual-clutter-in-screenshots/rule.mdx
+seoDescription: Make sure your screenshots are readable by cropping them to relevant
+  areas and ensuring text size is suitable for various screen sizes.
+title: Do you make sure your screenshots are readable?
+type: rule
+uri: readable-screenshots
 ---
 
 Screenshots are a great way to explain instructions or share information, but if they’re blurry or too small, they quickly become useless. With so many different devices, screens, and resolutions, unreadable screenshots are a common mistake.
 
 Always check that your screenshots are clear, properly cropped, and readable. If people can’t see what you’re showing, your message gets lost.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Only keep what is relevant
 
@@ -33,29 +37,59 @@ Crop your image when you can, keeping only the relevant areas of the image.
 
 In the cases where you do need a full screenshot, it's a good idea to allow users to open the image in a bigger size, [using lightboxes](https://www.w3schools.com/howto/howto_js_lightbox.asp) for example.
 
-::: bad
-![Figure: Bad example - The contents of the screenshots are difficult to read](images-uncropped-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - The contents of the screenshots are difficult to read"}
+  src="/uploads/rules/readable-screenshots/images-uncropped-bad.png"
+/>
 
-::: good
-![Figure: Good example - The contents of the screenshots are readable, since the image was cropped to the relevant part](images-cropped-good.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - The contents of the screenshots are readable, since the image was cropped to the relevant part"}
+  src="/uploads/rules/readable-screenshots/images-cropped-good.png"
+/>
+
 
 ## Minimize white space
 
 To reduce white space and make screenshots easier better to capture, resize the browser to show the most relevant content.
 
-::: info
-**Tip:** In a PC, press `Windows + Left Arrow` to split your screen and snap your browser to one side.
-:::
 
-::: bad
-![Figure: Bad example - Too much white space](screenshot-whitespace-bad.png)
-:::
+<boxEmbed
+  variant="info"
+  body={<>
+    **Tip:** In a PC, press `Windows + Left Arrow` to split your screen and snap your browser to one side.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: good
-![Figure: Good example - Screen resized to the relevant part](screenshot-whitespace-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Too much white space"}
+  src="/uploads/rules/readable-screenshots/screenshot-whitespace-bad.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Screen resized to the relevant part"}
+  src="/uploads/rules/readable-screenshots/screenshot-whitespace-good.png"
+/>
+
 
 ## Mobile screenshots
 
@@ -65,14 +99,31 @@ Modern mobile devices have extraordinary screen resolution, which makes screensh
 
 When adding a mobile screenshot, make sure its width is about 50% of a desktop screen.
 
-::: info
-**Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp).
-:::
 
-::: bad
-![Figure: Bad Example - mobile screenshot is way too big](privacy-mode-ios-huge.png)
-:::
+<boxEmbed
+  variant="info"
+  body={<>
+    **Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: good img-medium
-![Figure: Good Example - mobile screenshot is smaller and easier to follow](privacy-mode-ios.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad Example - mobile screenshot is way too big"}
+  src="/uploads/rules/readable-screenshots/privacy-mode-ios-huge.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePreset="goodExample"
+  figureText={"Good Example - mobile screenshot is smaller and easier to follow"}
+  src="/uploads/rules/readable-screenshots/privacy-mode-ios.png"
+/>

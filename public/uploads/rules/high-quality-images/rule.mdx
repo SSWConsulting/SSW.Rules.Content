@@ -1,20 +1,24 @@
 ---
-seoDescription: Use high-quality images that accurately represent your product to avoid degrading its perceived value and to match user intent.
-type: rule
-archivedreason:
-title: Do you use high quality images?
-guid: 7aed503c-2531-4172-b2b3-9685173ae4f1
-uri: high-quality-images
-created: 2010-06-08T10:00:14.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - image-formats
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/communication/rules-to-better-powerpoint-presentations.mdx
+- category: categories/software-engineering/rules-to-better-websites-graphics.mdx
+created: 2010-06-08 10:00:14+00:00
+guid: 7aed503c-2531-4172-b2b3-9685173ae4f1
 redirects:
-  - do-you-use-high-quality-images
+- do-you-use-high-quality-images
+related:
+- rule: public/uploads/rules/image-formats/rule.mdx
+seoDescription: Use high-quality images that accurately represent your product to
+  avoid degrading its perceived value and to match user intent.
+title: Do you use high quality images?
+type: rule
+uri: high-quality-images
 ---
 
 The quality of your images is a subconscious message to your audience.
@@ -25,7 +29,7 @@ However, it's important to balance image quality with performance, ensuring fast
 
 For this reason, we encourage you to choose only high quality photos and to avoid unprofessional cartoons and clip-arts.
 
-<!--endintro-->
+<endOfIntro />
 
 Every time you add an image to your content, make sure it:
 
@@ -35,14 +39,31 @@ Every time you add an image to your content, make sure it:
 * Has at least 800px width (except for logos, icons, and profile images)
 * (optional) Is not in dark-mode - Light background images look better most of the times
 
-::: info
-**Warning:** Never stretch small, low-resolution photos to make it fill up the space. This degrades the resolution and the image will appear very coarse and granular on the projection screen.
-:::
 
-::: bad  
-![Figure: Bad example - Low quality image](low-quality.jpg)  
-:::
+<boxEmbed
+  variant="info"
+  body={<>
+    **Warning:** Never stretch small, low-resolution photos to make it fill up the space. This degrades the resolution and the image will appear very coarse and granular on the projection screen.
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
 
-::: good  
-![Figure: Good example - High quality image](high-quality.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Low quality image"}
+  src="/uploads/rules/high-quality-images/low-quality.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - High quality image"}
+  src="/uploads/rules/high-quality-images/high-quality.jpg"
+/>

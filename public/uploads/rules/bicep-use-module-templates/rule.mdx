@@ -12,18 +12,18 @@ created: 2025-10-02T10:00:00.000Z
 guid: 8e4a02af-87ad-4a65-8e6e-bf903ff87d90
 ---
 
-When teams start with Bicep, it’s tempting to keep everything in a single large `.bicep` file. While this works for small experiments, it quickly becomes unmanageable in real-world solutions. Changes become risky, duplication creeps in, and debugging is painful.  
+When teams start with Bicep, it’s tempting to keep everything in a single large `.bicep` file. While this works for small experiments, it quickly becomes unmanageable in real-world solutions. Changes become risky, duplication creeps in, and debugging is painful.
 
-That’s why **using Bicep modules**—small, reusable templates—is the recommended approach. Modules let you break down complex infrastructure into logical components, making your code easier to maintain, test, and share across projects.  
+That’s why **using Bicep modules**—small, reusable templates—is the recommended approach. Modules let you break down complex infrastructure into logical components, making your code easier to maintain, test, and share across projects.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why use module templates?
 
-* **Reusability** – Define resources once and reuse them across environments (e.g. dev, test, prod).  
-* **Maintainability** – Smaller files are easier to read and troubleshoot.  
-* **Consistency** – Teams can follow the same patterns, reducing misconfiguration.  
-* **Scalability** – Large deployments can be composed of well-tested building blocks.  
+* **Reusability** – Define resources once and reuse them across environments (e.g. dev, test, prod).
+* **Maintainability** – Smaller files are easier to read and troubleshoot.
+* **Consistency** – Teams can follow the same patterns, reducing misconfiguration.
+* **Scalability** – Large deployments can be composed of well-tested building blocks.
 
 ## Example: Without vs With Modules
 
@@ -103,9 +103,9 @@ Figure: Good Example - A clean main module calling smaller reusable modules for 
 
 ## Best practices for modules
 
-* **Keep modules small** – A module should represent a logical unit (e.g. a storage account, app service, or network).  
-* **Use parameters and outputs** – Define clear inputs and outputs so modules are flexible.  
-* **Version control** – Store commonly used modules in a shared repo or registry.  
-* **Validate early** – Test modules in isolation before plugging them into larger deployments.  
+* **Keep modules small** – A module should represent a logical unit (e.g. a storage account, app service, or network).
+* **Use parameters and outputs** – Define clear inputs and outputs so modules are flexible.
+* **Version control** – Store commonly used modules in a shared repo or registry.
+* **Validate early** – Test modules in isolation before plugging them into larger deployments.
 
 By treating your Bicep modules like building blocks, you create a clean, reusable infrastructure-as-code foundation that grows with your projects.

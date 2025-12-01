@@ -2,6 +2,8 @@
 seoDescription: Only retrieve database rows that match your criteria to save time and resources.
 type: rule
 title: Do you only get the rows you need?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: only-get-the-rows-you-need
 authors:
   - title: Bryden Oliver
@@ -12,7 +14,7 @@ guid: 654730c9-8678-4295-9168-e67049c96041
 
 It's expensive retrieving data from a database, as such it's important to only ask for the rows you require when getting data.
 
-<!--endintro-->
+<endOfIntro />
 
 Entity Framework nicely translates the various filters like the Where method into SQL WHERE clauses. This makes it really easy to write nice readable code that is also very efficient.
 

@@ -2,6 +2,8 @@
 seoDescription: Only include relationships you explicitly need to optimize database performance and reduce load.
 type: rule
 title: Do you only explicitly include relationships you need?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: only-explicitly-include-relationships-you-need
 authors:
   - title: Bryden Oliver
@@ -12,7 +14,7 @@ guid: eaa1b402-b6a0-40d4-9f1b-38befe73b8eb
 
 Often developers will include all the related entities in a query to help with debugging. Always remember to take these out. They cause excessive database load.
 
-<!--endintro-->
+<endOfIntro />
 
 If you need the related entities, then that is what Include is for.
 

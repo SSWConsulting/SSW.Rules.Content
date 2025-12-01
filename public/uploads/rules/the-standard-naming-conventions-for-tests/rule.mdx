@@ -1,29 +1,37 @@
 ---
-seoDescription: Follow established standard naming conventions for tests to ensure a consistent and organized approach to testing, allowing for efficient and clear testing procedures.
-type: rule
-title: Do you follow the standard naming conventions for tests?
-uri: the-standard-naming-conventions-for-tests
+archivedreason: The rule has been replaced by [https://ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects](/rules/follow-naming-conventions-for-tests-and-test-projects)
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-follow-the-standard-naming-conventions-for-tests
-created: 2020-03-11T20:18:31.000Z
-archivedreason: The rule has been replaced by
-  [https://ssw.com.au/rules/follow-naming-conventions-for-tests-and-test-projects](/rules/follow-naming-conventions-for-tests-and-test-projects)
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-11 20:18:32+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 5a6283ea-18d8-4586-a696-06ef05660ce5
+isArchived: false
+lastUpdated: 2020-03-24 00:20:55+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-follow-the-standard-naming-conventions-for-tests
+seoDescription: Follow established standard naming conventions for tests to ensure
+  a consistent and organized approach to testing, allowing for efficient and clear
+  testing procedures.
+title: Do you follow the standard naming conventions for tests?
+type: rule
+uri: the-standard-naming-conventions-for-tests
 ---
 
 Ensuring a consistent and organized approach to testing is pivotal in any development process. Do you adhere to the established standard naming conventions for tests? Let's explore the importance of this practice and its impact on the efficiency and clarity of your testing procedures.
 
 > As well as keeping your code tidy, using this naming convention also allows you to use TestDriven.Net's 'Go To Test/Code' command.
 > This navigates between your tests and code under test (and back). This is something that test-driven developers end up doing a lot.
-> Screen captures at <https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go>
+> Screen captures at [https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go](https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go)
 >
 > - Jamie Cansdale
 
-<!--endintro-->
+<endOfIntro />
 
 | **Test Object**                                           | **Recommended Style**         | **Example**                                                                                                 |
 | --------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -52,9 +60,15 @@ That means if any external resource is unavailable, the tests will fail.
 
 **Tests.Functional.SilverlightUI:** Tests the Silverlight UI from an end-user perspective by clicking around in the application
 
-::: good  
-![Figure: Good example - Naming for a Unit Test Project](UnitTestsProject.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Naming for a Unit Test Project"}
+  src="/uploads/rules/the-standard-naming-conventions-for-tests/UnitTestsProject.jpg"
+/>
+
 
 #### Samples Naming of test methods
 
@@ -73,7 +87,7 @@ Bad example: There is no way to guess what this test does; you have to read the 
 ```
 
 ::: good
-Good example: We are testing PubSubService.Connect under the scenario that the "Auction status is OK" with an expected behaviour that data is returned  
+Good example: We are testing PubSubService.Connect under the scenario that the "Auction status is OK" with an expected behaviour that data is returned
 :::
 
 #### Sample Code for Integration Tests
@@ -133,10 +147,36 @@ namespace SSW.NETToolkit.IntegrationTests
   }
 ```
 
-![Figure: This rule is consistent with the Visual Studio default](TestGenerationSettings.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"This rule is consistent with the Visual Studio default"}
+  src="/uploads/rules/the-standard-naming-conventions-for-tests/TestGenerationSettings.gif"
+/>
+
 
 **Tip:** You can create a test project using the Unit Test Wizard: Test &gt; Add New Test
 
-![Figure: Unit Test Wizard 1](AddNewTest.gif)
 
-![Figure: Unit Test Wizard 2](CreateUnitTests.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Unit Test Wizard 1"}
+  src="/uploads/rules/the-standard-naming-conventions-for-tests/AddNewTest.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="default"
+  figureText={"Unit Test Wizard 2"}
+  src="/uploads/rules/the-standard-naming-conventions-for-tests/CreateUnitTests.gif"
+/>

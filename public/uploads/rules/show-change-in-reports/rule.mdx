@@ -1,30 +1,45 @@
 ---
-seoDescription: Showcasing changes between previous and current data enhances reports by providing valuable insights into trends and progress.
-type: rule
-archivedreason:
-title: Data Layout - Do you show change in your reports?
-guid: 7a272cbc-bdb5-44f7-9877-7e8d38690d1c
-uri: show-change-in-reports
-created: 2023-12-11T14:38:33.0000000Z
+archivedreason: null
 authors:
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2023-12-11 14:38:33+00:00
+guid: 7a272cbc-bdb5-44f7-9877-7e8d38690d1c
 redirects: []
+related:
+- rule: public/uploads/rules/customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using/rule.mdx
+seoDescription: Showcasing changes between previous and current data enhances reports
+  by providing valuable insights into trends and progress.
+title: Data Layout - Do you show change in your reports?
+type: rule
+uri: show-change-in-reports
 ---
 
 It is important to show previous and current data, as well as the changes between the two.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Does not show the change between the previous and current data](badNoChange.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Does not show the change between the previous and current data"}
+  src="/uploads/rules/show-change-in-reports/badNoChange.jpg"
+/>
 
-::: good  
-![Figure: Good example - Shows the change between the previous and current data](goodChangeVisible.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Shows the change between the previous and current data"}
+  src="/uploads/rules/show-change-in-reports/goodChangeVisible.jpg"
+/>
+
 
 There will be cases in which the Change column has no meaning then you'd better to make this column invisible in your reports. In one of our reports we use an expression on Hidden property of this column to determine whether to show it based on the value of a parameter.
 

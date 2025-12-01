@@ -1,31 +1,43 @@
 ---
-seoDescription: Use emojis to give context and boost user adoption to Microsoft Teams by making channel names more memorable and engaging.
-type: rule
-title: Do you use emojis to help give context?
-uri: use-emojis
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
-related:
-  - use-emojis-in-your-commits
-  - which-emojis-to-use-in-scrum
-  - use-icons-webpages
-  - indicate-ai-helped
-  - write-a-good-pull-request
-redirects:
-  - team-names-do-you-use-emojis-in-your-teams-channel-names
-  - teams-emojis
-  - which-emojis-to-use-in-scrum
-created: 2019-09-05T06:29:11.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jean Thirion
+  url: https://ssw.com.au/people/jean-thirion
+categories:
+- category: categories/communication/rules-to-better-calendars.mdx
+- category: categories/communication/rules-to-better-microsoft-teams.mdx
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-control4.mdx
+created: 2021-05-24 23:22:25.067000+00:00
+createdBy: Brady Stroud
+createdByEmail: bradystroud@me.com
 guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523
+isArchived: false
+lastUpdated: 2021-05-24 23:22:25.067000+00:00
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@me.com
+redirects:
+- team-names-do-you-use-emojis-in-your-teams-channel-names
+- teams-emojis
+- which-emojis-to-use-in-scrum
+related:
+- rule: public/uploads/rules/use-emojis-in-your-commits/rule.mdx
+- rule: public/uploads/rules/which-emojis-to-use-in-scrum/rule.mdx
+- rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
+- rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+seoDescription: Use emojis to give context and boost user adoption to Microsoft Teams
+  by making channel names more memorable and engaging.
+title: Do you use emojis to help give context?
+type: rule
+uri: use-emojis
 ---
 
 It's usually easier for users to remember where given information is when it is associated with an image/icon. This is especially true for non-technical people or those who are not very familiar with digital workspaces.
 
-<!--endintro-->
+<endOfIntro />
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
 
@@ -45,50 +57,95 @@ You can use:
 
 An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names.
 
-::: bad  
-![Figure: Bad example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="badExample"
+  figureText={"Bad example - Teams Channel names without emojis"}
+  src="/uploads/rules/use-emojis/Teams_Emojis_Bad.png"
+/>
 
-::: good  
-![Figure: Good example - Teams Channel names with emojis](Teams_Emojis_Good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Teams Channel names with emojis"}
+  src="/uploads/rules/use-emojis/Teams_Emojis_Good.png"
+/>
+
 
 ## Control4
 
-::: good  
-![Figure: Good example - Control4 automation UI is more friendly with emojis](control4-emojis.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Control4 automation UI is more friendly with emojis"}
+  src="/uploads/rules/use-emojis/control4-emojis.png"
+/>
+
 
 ## Appointments
 
-::: good  
-![Figure: Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting](calendar-emoji.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePreset="goodExample"
+  figureText={"Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting"}
+  src="/uploads/rules/use-emojis/calendar-emoji.png"
+/>
+
 
 ## Lists
 
-::: greybox
 
+<boxEmbed
+  variant="greybox"
+  body={<>
+    
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
-:::
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 ::: bad
 Bad example - Regular list items
 :::
 
-::: greybox
-✅ Fast to load (lightweight as no image)  
-✅ UI - Consistent look  
-❌ Maintenance of needing to upload to server  
-:::
+
+<boxEmbed
+  variant="greybox"
+  body={<>
+    ✅ Fast to load (lightweight as no image)
+✅ UI - Consistent look
+❌ Maintenance of needing to upload to server
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 ::: good
 Good example - Emojis give context to each item
 :::
 
-::: info
-**Note:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
-:::
+
+<boxEmbed
+  variant="info"
+  body={<>
+    **Note:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+  </>}
+  figurePreset="defaultExample"
+  figureText={"XXX"}
+/>
+
 
 ## AI content
 
