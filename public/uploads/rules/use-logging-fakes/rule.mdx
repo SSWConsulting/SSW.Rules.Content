@@ -21,15 +21,14 @@ type: rule
 uri: use-logging-fakes
 ---
 
-<introEmbed
-  body={<>
 Unit tests are an essential part of ensuring .NET applications work correctly. However, when it comes to testing logging, things can get tricky. You don't want to rely on actual logging infrastructure like file writes or external logging systems during tests, as this could lead to unnecessary complexity and slow down your test suite.
 
 Microsoft provides a simple solution with `FakeLogger`. This logger allows you to capture and verify logging calls in unit tests without needing to integrate with a real logging framework.
 
 By incorporating `FakeLogger` into tests, you can ensure that the logging functionality is correct and meets your application's needs, all while maintaining fast and isolated tests.
-  </>}
-/>
+
+<endOfIntro />
+
 ## What is the FakeLogger?
 
 The FakeLogger is a mock logger provided by Microsoft for unit testing. It is part of the Microsoft.Extensions.Logging namespace and is used primarily in tests to verify that logging actions occur during the execution of the application, without sending log output to external destinations like the console or log files. Instead, it "fakes" the log output, allowing assertions to be made on the log entries.

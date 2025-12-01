@@ -18,8 +18,17 @@ type: rule
 uri: give-context-do-you-include-extra-information-e-g-screenshots
 ---
 
-<introEmbed
-  body={<>
-![Good Example - The screenshot provides more, useful information and gives the user context](/uploads/rules/give-context-do-you-include-extra-information-e-g-screenshots/GoodMoreInfo.png)
-  </>}
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - The screenshot provides more, useful information and gives the user context",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/give-context-do-you-include-extra-information-e-g-screenshots/GoodMoreInfo.png"
 />
+
+
+<endOfIntro />

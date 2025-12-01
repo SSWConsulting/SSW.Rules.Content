@@ -24,15 +24,14 @@ type: rule
 uri: avoid-height-width-in-img-tag
 ---
 
-<introEmbed
-  body={<>
 Specifying the width and height properties for an **&lt;img&gt;** tag of HTML can sometimes turn out to be more trouble than it's worth, particularly if the image is later updated with different dimensions. If the height / width ratio doesn't match that of original image, the image might be stretched.
 
 Adding fixed widths to your images may also disrupt the responsiveness of your content.
 
 In other words, you should not have the image dimensions specified in HTML unless you have a very specific reason to do so. Use CSS if you need to specify images dimensions.
-  </>}
-/>
+
+<endOfIntro />
+
 ```html
 <img
   src="images/codeauditor-logo.png"

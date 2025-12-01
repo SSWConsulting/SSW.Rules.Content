@@ -22,13 +22,12 @@ type: rule
 uri: avoid-using-if-else-instead-of-switch-block
 ---
 
-<introEmbed
-  body={<>
 The .NET framework and the C# language provide two methods for conditional handling where multiple distinct values can be selected from. The `switch` statement is less flexible than the `if-else-if` tree but is generally considered to be more efficient.
 
 The .NET compiler generates a jump list for switch blocks, resulting in far better performance than if/else for evaluating conditions. The performance gains are negligible when the number of conditions is trivial (i.e. fewer than 5), so if the code is clearer and more maintainable using if/else blocks, then you can use your discretion. But be prepared to refactor to a switch block if the number of conditions exceeds 5.
-  </>}
-/>
+
+<endOfIntro />
+
 ```dotnet
 int DepartmentId = GetDepartmentId()
 if(DepartmentId == 1)

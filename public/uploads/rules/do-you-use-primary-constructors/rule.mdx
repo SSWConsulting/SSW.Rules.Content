@@ -21,11 +21,10 @@ type: rule
 uri: do-you-use-primary-constructors
 ---
 
-<introEmbed
-  body={<>
 When following best practices and using dependency injection, you will often find yourself with a class that has a lot of properties that are only set once, in the constructor. This can lead to a lot of boilerplate code that is not needed. C#12 introduces Primary Constructors, which allow you to define the constructor and the properties in one place.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 public class Hero
 {

@@ -21,11 +21,10 @@ type: rule
 uri: do-you-return-a-resource-url
 ---
 
-<introEmbed
-  body={<>
 When the Web API creates a resource, it should include the URI of the new resource in the Location header of the response.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 public Product PostProduct(Product item)
  {

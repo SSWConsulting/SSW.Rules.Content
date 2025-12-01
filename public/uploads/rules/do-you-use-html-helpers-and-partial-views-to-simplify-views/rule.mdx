@@ -21,11 +21,10 @@ type: rule
 uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
 ---
 
-<introEmbed
-  body={<>
 Repeated sections of User Interface should be encapsulated in either Html Helpers or Partial Views to avoid repetition.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 <div class="featured">
     @if (ViewData.ContainsKey("FeaturedProduct"))

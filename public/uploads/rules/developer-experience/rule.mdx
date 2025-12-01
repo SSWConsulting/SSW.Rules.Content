@@ -30,15 +30,26 @@ type: rule
 uri: developer-experience
 ---
 
-<introEmbed
-  body={<>
 It's amazing how often you can't simply Clone a repository (aka "Get Latest") and compile it.
 
 A good developer makes it clear how to get a new project, compile it and run it.
 
-![Figure: In Visual Studio the project setup experience starts with the F5 key!](/uploads/rules/developer-experience/f5-key.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "In Visual Studio the project setup experience starts with the F5 key!",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/developer-experience/f5-key.jpg"
 />
+
+
+<endOfIntro />
+
 ### Sometimes the experience is more CLI based
 
 

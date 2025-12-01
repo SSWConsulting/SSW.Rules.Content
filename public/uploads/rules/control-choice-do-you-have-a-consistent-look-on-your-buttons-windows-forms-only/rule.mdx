@@ -21,13 +21,24 @@ type: rule
 uri: control-choice-do-you-have-a-consistent-look-on-your-buttons-windows-forms-only
 ---
 
-<introEmbed
-  body={<>
 **Question:** What is wrong with this Picture?
 
-![Figure: What is wrong?](/uploads/rules/control-choice-do-you-have-a-consistent-look-on-your-buttons-windows-forms-only/InconsistentButtonStyles.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "What is wrong?",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/control-choice-do-you-have-a-consistent-look-on-your-buttons-windows-forms-only/InconsistentButtonStyles.jpg"
 />
+
+
+<endOfIntro />
+
 **Answer:** There are three different types of buttons in the Application:
 
 * _Next &gt;_ - Default Window Style

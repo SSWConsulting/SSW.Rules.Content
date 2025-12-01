@@ -24,11 +24,10 @@ type: rule
 uri: make-sure-the-primary-field-is-always-the-first-column-in-a-view
 ---
 
-<introEmbed
-  body={<>
 When modifying existing or creating custom views in Dynamics (or Model-driven PowerApps) always pay special attention to the first column. The first column should always contain the **Primary Field** for the entity that the view is based on. For example, all views for **Opportunities** should use **Topic** (name), **Contacts** should use **Full Name** (fullname) as the first column.
-  </>}
-/>
+
+<endOfIntro />
+
 The reason for this is the Primary Field in a view displays as a hyperlink to the underlying record. It is very convenient and natural to click the first item in the view, as this will then take you to the record. If any other field is used the user will either need to double click the row to navigate to the record (non-lookup) or will be taken to a completely different entities record (lookup field).
 
 Some examples below:

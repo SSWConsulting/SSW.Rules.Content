@@ -23,13 +23,12 @@ type: rule
 uri: use-html-maxlength-to-limit-number-of-characters
 ---
 
-<introEmbed
-  body={<>
 **Rule 1:** Whenever you have a data entry page you should always use the HTML `maxlength` attribute to limit number of characters to the length of the field in the table (except for numbers).
 
 **Rule 2:** Whenever you have a situation where you are using the HTML `textarea` (does not have the `maxlength` property).
-  </>}
-/>
+
+<endOfIntro />
+
 Then you need to:
 
 - Add the JavaScript function. E.g. `ValidateLength(control)`

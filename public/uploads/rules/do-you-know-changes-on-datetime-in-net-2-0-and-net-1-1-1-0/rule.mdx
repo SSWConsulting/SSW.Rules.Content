@@ -25,13 +25,12 @@ type: rule
 uri: do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
 ---
 
-<introEmbed
-  body={<>
 In v1.0 and v1.1 of .NET framework when serializing DateTime values with the XmlSerializer, the local time zone of machine would always been appended. And when deserializing on the receiving machine, DateTime values would be automatically adjusted based on time zone offset relative to the sender time zone.
 
 See below example:
-  </>}
-/>
+
+<endOfIntro />
+
 ```dotnet
 DataSet returnedResult = webserviceObj.GetByDateCreatedAndEmpID(DateTime.
 Now,'JZ');

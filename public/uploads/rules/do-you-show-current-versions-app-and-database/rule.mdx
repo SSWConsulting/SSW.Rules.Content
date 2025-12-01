@@ -26,15 +26,26 @@ type: rule
 uri: do-you-show-current-versions-app-and-database
 ---
 
-<introEmbed
-  body={<>
 It is best practice to always include an applications version somewhere within the app, but do you also include the database version, its just as important!
 
-![Figure: Everyone shows the version number somewhere on their app](/uploads/rules/do-you-show-current-versions-app-and-database/LinkAuditor.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Everyone shows the version number somewhere on their app",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-show-current-versions-app-and-database/LinkAuditor.png"
+/>
+
 
 Let's see how to show the Database version:
-  </>}
-/>
+
+<endOfIntro />
+
 ### Modern Applications
 
 These days frameworks handle database versioning for us, using code first migrations we can tell the application to automatically update the database when it starts up so its always at the latest version.

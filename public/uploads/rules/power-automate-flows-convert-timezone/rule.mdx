@@ -19,13 +19,12 @@ type: rule
 uri: power-automate-flows-convert-timezone
 ---
 
-<introEmbed
-  body={<>
 When working with Power Automate flows, there are instances where you need to use or compare the time in your flow, by default, it is set to UTC.
 
 However, there are situations where using your local timezone might be more appropriate, especially for tasks or events that are specific to a particular region. It's important to choose the appropriate timezone based on the context and requirements of your task or system.
-  </>}
-/>
+
+<endOfIntro />
+
 ❌ **Complex time zone calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
 ❌ **Daylight saving time issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
 ❌ **Confusing user experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time

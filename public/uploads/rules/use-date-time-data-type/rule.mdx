@@ -25,11 +25,10 @@ type: rule
 uri: use-date-time-data-type
 ---
 
-<introEmbed
-  body={<>
 Use the DateTime data type for date parameters instead of using strings. There are 3 reasons to do this:
-  </>}
-/>
+
+<endOfIntro />
+
 1. Stop the bug "Cannot read the next data row for the data set"
 Although a hardcoded string will work, it will not work for all users regional date/time settings.
 E.g. a string data type parameter with a value of "26/01/2006" is correct for "dd/mm/yyyy", but it is wrong for "mm/dd/yyyy"

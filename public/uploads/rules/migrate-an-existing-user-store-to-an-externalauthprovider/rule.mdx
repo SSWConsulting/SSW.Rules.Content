@@ -23,11 +23,10 @@ createdByEmail: dhruvmat1998@gmail.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP.NET Core application which uses ASP.NET Core Identity, challenges arise due to different user identification systems.
-  </>}
-/>
+
+<endOfIntro />
+
 On the ExternalAuthProvider side, users are typically recognised by a unique Subject Id within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
 
 The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.

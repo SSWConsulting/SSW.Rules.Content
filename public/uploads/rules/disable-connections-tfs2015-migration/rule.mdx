@@ -22,13 +22,12 @@ type: rule
 uri: disable-connections-tfs2015-migration
 ---
 
-<introEmbed
-  body={<>
 It is important that while you're upgrading, nobody can check in. Any check-ins after you backup your database will be lost.
 
 To make sure that nobody can change anything during the upgrade, follow these steps.
-  </>}
-/>
+
+<endOfIntro />
+
 a. Send out an email notifying everyone TFS will be unavailable for the upgrade period
 
 b. Make sure nobody can check in files:

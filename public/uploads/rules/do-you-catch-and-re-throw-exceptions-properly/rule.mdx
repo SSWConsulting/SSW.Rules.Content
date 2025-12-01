@@ -25,13 +25,12 @@ type: rule
 uri: do-you-catch-and-re-throw-exceptions-properly
 ---
 
-<introEmbed
-  body={<>
 A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.
 
 Catch and rethrow where you can usefully add more information that would save a developer having to work through all the layers to understand the problem.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 catch {}
 

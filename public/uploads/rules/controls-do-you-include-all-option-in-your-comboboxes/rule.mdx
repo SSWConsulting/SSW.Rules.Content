@@ -21,8 +21,6 @@ type: rule
 uri: controls-do-you-include-all-option-in-your-comboboxes
 ---
 
-<introEmbed
-  body={<>
 ComboBoxes are often used for filtering data. It is best to have an '-All-' option to give your user chances to select all data.
 
 It is important to understand the idea of **visual text** . In a list you could see either:
@@ -31,8 +29,9 @@ It is important to understand the idea of **visual text** . In a list you could 
 * No activity assigned
 
 They both have the same meaning, but the first one is immediately visible whereas the second one must be read.
-  </>}
-/>
+
+<endOfIntro />
+
 If the ID column in your database is a string data type, it is useful to add a constraint to limit the types of characters that it can contain. Adding a constraint can make it simpler to build your front-end, as you won't need to worry about encoding or escaping to handle special characters.
 
 In SQL Server, you can add a check constraint that limits your column to alphanumeric characters, a hyphen, or underscore using the following T-SQL:

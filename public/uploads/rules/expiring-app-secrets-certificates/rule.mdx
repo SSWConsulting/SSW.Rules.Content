@@ -21,13 +21,12 @@ createdBy: Chris Schultz [SSW]
 createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
 isArchived: false
 ---
-<introEmbed
-  body={<>
 In Entra ID (formerly Azure AD), App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.
-  </>}
-/>
+
+<endOfIntro />
+
 ### Use a PowerShell script to check expiry dates
 
 An easy way to do this is to run a PowerShell script that checks the expiry date of all app registration secrets or certificates. This requires the Microsoft Graph PowerShell module, as the older AzureAD module is deprecated. The key cmdlets used is **Get-MgApplication**.

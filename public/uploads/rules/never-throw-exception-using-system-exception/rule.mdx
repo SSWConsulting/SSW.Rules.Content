@@ -27,13 +27,12 @@ type: rule
 uri: never-throw-exception-using-system-exception
 ---
 
-<introEmbed
-  body={<>
 While everyone knows that `catch (Exception ex)` is bad, no one has really noticed that `throw new Exception()` is worse.
 
 `System.Exception` is a very extensive class, and it is inherited by all other exception classes. If you throw an exception with the code `throw new Exception()`, what you need subsequently to handle the exception will be the infamous `catch (Exception ex)`.
-  </>}
-/>
+
+<endOfIntro />
+
 As a standard, you should use an exception class with the name that best describes the exception's detail. All exception classes in .NET Framework follow this standard very well. As a result, when you see exceptions like FileNotFoundException or DivideByZeroException, you know what's happening just by looking at the exception's name. The .NET Framework has provided us a comprehensive list of exception classes that we can use. If you really can't find one that is suitable for the situation, then create your own exception class with the name that best describes the exception (e.g.: EmployeeListNotFoundException).
 
 Also, System.ApplicationException should be avoided as well unless it's an exception related to the application. While it's acceptable and should be used in certain cases, be aware that using it broadly will be just as bad as 'throw new Exception()'.

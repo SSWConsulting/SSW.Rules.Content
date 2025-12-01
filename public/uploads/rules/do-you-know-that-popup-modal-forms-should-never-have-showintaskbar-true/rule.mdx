@@ -19,13 +19,24 @@ type: rule
 uri: do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true
 ---
 
-<introEmbed
-  body={<>
 **Question:** What is wrong with this Picture?
 
-![Figure: Can you tell what is wrong with this Picture?](/uploads/rules/do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true/ShowInTaskBar.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Can you tell what is wrong with this Picture?",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true/ShowInTaskBar.jpg"
 />
+
+
+<endOfIntro />
+
 **Answer:** The 2 SSW SQL Auditor windows are bad, because one is just a modal form.
 
 

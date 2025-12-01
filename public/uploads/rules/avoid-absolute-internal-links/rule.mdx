@@ -18,13 +18,12 @@ createdByEmail: tiagov8@gmail.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 It is generally advisable to avoid using absolute internal links whenever possible. Absolute links include the full URL, including the domain name, when linking to internal pages within the same website.
 
 Using absolute internal links can lead to challenges during website migration or domain name changes. If the website's domain or URL structure is modified, all absolute links within the website would require updating. This can be a time-consuming and error-prone process, potentially resulting in broken links and a negative user experience.
-  </>}
-/>
+
+<endOfIntro />
+
 Using relative internal links, which specify the path to the linked page relative to the current page, is often preferred as it offers more flexibility and can prevent issues when migrating or changing domain names. Relative links are less prone to breaking and make it easier to maintain the website's structure and navigation.
 
 When using absolute URLs for internal links, the browser needs to make additional requests to the server, even when navigating between pages within the same site. These requests involve fetching the entire HTML document specified in the absolute URL, including unnecessary data such as headers and footers.

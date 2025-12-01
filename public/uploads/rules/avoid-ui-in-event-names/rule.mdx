@@ -22,12 +22,11 @@ type: rule
 uri: avoid-ui-in-event-names
 ---
 
-<introEmbed
-  body={<>
 No "UI" in event names, the event raiser should be unaware of the UI in MVVM and user controls
 The handler of the event should then do something on the UI.
-  </>}
-/>
+
+<endOfIntro />
+
 ```csharp
 private void RaiseUIUpdateBidButtonsRed() {
   if (UIUpdateBidButtonsRed != null) {

@@ -27,15 +27,14 @@ type: rule
 uri: share-your-developer-secrets-securely
 ---
 
-<introEmbed
-  body={<>
 You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
 
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few. These secrets **must not** be stored in source control. It's not secure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.
 
 There are different ways to [store your secrets securely](/store-your-secrets-securely/). When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you **share** those secrets securely with other developers in your organization?
-  </>}
-/>
+
+<endOfIntro />
+
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=IwvCTwz0C7M" description={"Video: Do you share secrets securely | Jeoffrey Fischer (7min)"} />
 

@@ -19,11 +19,10 @@ type: rule
 uri: blazor-appstate-pattern-with-notifications
 ---
 
-<introEmbed
-  body={<>
 Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches to notify other components of changes to a shared state object.
-  </>}
-/>
+
+<endOfIntro />
+
 Implementing the `INotifyPropertyChanged` interface allows listeners (other pages / components / classes) to be notified when the `PropertyChanged` event is invoked.
 
 Listeners subscribe to the event by adding their own handling code to the `PropertyChanged` event.

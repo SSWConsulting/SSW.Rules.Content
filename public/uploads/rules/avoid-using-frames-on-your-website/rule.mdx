@@ -24,11 +24,10 @@ type: rule
 uri: avoid-using-frames-on-your-website
 ---
 
-<introEmbed
-  body={<>
 Websites that use frames often don't get crawled by search engine spiders. The web was designed in such a way that every URL is supposed to correspond to a web page, and with framed websites, this is not the case. We recommend that you avoid frames altogether.
-  </>}
-/>
+
+<endOfIntro />
+
 Here is [what Google says on "framed sites"](https://support.google.com/analytics/answer/1012049?hl=en):
 
 > "the Navigation Summary and Site Overlay reports for sites with frames is not likely to provide useful information, since every frame with tag on it will be recorded as a separate pageview. Additionally, the order of these pageviews will depend on the order in which the frames are loaded, instead of the actual navigation path taken by your users."

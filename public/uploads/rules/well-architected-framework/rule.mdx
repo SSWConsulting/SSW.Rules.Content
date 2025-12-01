@@ -31,13 +31,24 @@ type: rule
 uri: well-architected-framework
 ---
 
-<introEmbed
-  body={<>
 The Well-Architected Framework is a set of best practices which form a repeatable process for designing solution architecture, to help identify potential issues and optimize workloads.
 
-![Figure: The Well-Architected Framework includes the five pillars of architectural excellence. Surrounding the Well-Architected Framework are six supporting elements](/uploads/rules/well-architected-framework/waf-diagram-revised.png)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "The Well-Architected Framework includes the five pillars of architectural excellence. Surrounding the Well-Architected Framework are six supporting elements",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/well-architected-framework/waf-diagram-revised.png"
 />
+
+
+<endOfIntro />
+
 ### The 5 Pillars
 
 * **Reliability** – Handling and recovering from failures [https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles?WT.mc_id=AZ-MVP-33518](https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles?WT.mc_id=AZ-MVP-33518)

@@ -26,16 +26,15 @@ type: rule
 uri: do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
 ---
 
-<introEmbed
-  body={<>
 The MS Upsizing Wizard cannot upsize Microsoft Access queries containing:
 
 - EXISTS &lt;&gt; FALSE/TRUE or
 - EXISTS = FALSE/TRUE
 
 For example, the following query will not be upsized:
-  </>}
-/>
+
+<endOfIntro />
+
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );
 SELECT Orders.OrderID

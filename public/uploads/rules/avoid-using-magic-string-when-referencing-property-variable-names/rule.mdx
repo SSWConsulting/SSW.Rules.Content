@@ -24,11 +24,10 @@ type: rule
 uri: avoid-using-magic-string-when-referencing-property-variable-names
 ---
 
-<introEmbed
-  body={<>
 Hard coded strings when referencing property and variable names can be problematic as your codebase evolves, and can make your code brittle.
-  </>}
-/>
+
+<endOfIntro />
+
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```

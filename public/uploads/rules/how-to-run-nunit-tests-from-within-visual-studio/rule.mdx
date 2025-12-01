@@ -23,8 +23,6 @@ type: rule
 uri: how-to-run-nunit-tests-from-within-visual-studio
 ---
 
-<introEmbed
-  body={<>
 ### Option 1: External tool (not recommended)
 
 Using NUnit with Visual Studio: To make it easy to use, you need to add it as an external tool in Visual Studio.
@@ -39,8 +37,8 @@ In Visual Studio:
 - Command: Location of nUnit.exe file
 - Argument: /run (so that the tests run automatically when started)
 - Initial Directory: $(Target directory)
-  </>}
-/>
+
+<endOfIntro />
 
 <imageEmbed
   alt="Image"

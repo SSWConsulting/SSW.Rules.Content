@@ -22,13 +22,12 @@ type: rule
 uri: use-loggermessage-in-net
 ---
 
-<introEmbed
-  body={<>
 Logging is a critical component in modern applications, but it can easily introduce performance overhead.
 
 .NET 6 introduced the `LoggerMessageAttribute`, a feature in the `Microsoft.Extensions.Logging` namespace that enables source-generated, highly performant logging APIs. This approach eliminates runtime overheads like boxing and temporary allocations, making it faster than traditional logging methods.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Key performance benefits of LoggerMessageAttribute
 
 * **Source Generation:** Automatically generates the implementation of partial methods with compile-time diagnostics.

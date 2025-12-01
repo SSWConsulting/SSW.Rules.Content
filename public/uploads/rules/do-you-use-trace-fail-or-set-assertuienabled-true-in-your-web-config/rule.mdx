@@ -25,11 +25,10 @@ type: rule
 uri: do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
 ---
 
-<introEmbed
-  body={<>
 Have you ever seen dialogs raised on the server-side? These dialogs would hang the thread they were on, and hang IIS until they were dismissed. In this case, you might use Trace.Fail or set AssertUIEnabled="true" in your web.config.
-  </>}
-/>
+
+<endOfIntro />
+
 See Scott's blog [Preventing Dialogs on the Server-Side in ASP.NET or Trace.Fail considered Harmful](http://www.hanselman.com/blog/PreventingDialogsOnTheServerSideInASPNETOrTraceFailConsideredHarmful.aspx)
 
 ```csharp

@@ -21,11 +21,10 @@ type: rule
 uri: use-using-statement-instead-of-use-explicitly-dispose
 ---
 
-<introEmbed
-  body={<>
 Don't explicitly use "dispose" to close objects and dispose of them, the "using" statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues.
-  </>}
-/>
+
+<endOfIntro />
+
 ```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {

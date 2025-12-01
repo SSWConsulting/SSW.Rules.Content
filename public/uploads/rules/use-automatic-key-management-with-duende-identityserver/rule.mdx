@@ -26,11 +26,10 @@ type: rule
 uri: use-automatic-key-management-with-duende-identityserver
 ---
 
-<introEmbed
-  body={<>
 When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 services.AddIdentityServer()
     .AddInMemoryClients(new List<Client>())

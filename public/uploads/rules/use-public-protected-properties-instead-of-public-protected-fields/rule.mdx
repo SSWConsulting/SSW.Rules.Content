@@ -23,8 +23,6 @@ type: rule
 uri: use-public-protected-properties-instead-of-public-protected-fields
 ---
 
-<introEmbed
-  body={<>
 Public/Protected properties have a number of advantages over public/protected fields:
 
 - **Data validation**
@@ -35,8 +33,9 @@ Public/Protected properties have a number of advantages over public/protected fi
   You can only bind to a public property, not a field.
 - **Minimal performance overhead**
   The performance overhead for public properties is trivial. In some situations, public fields can actually have inferior performance to public properties.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 public int Count;
 ```

@@ -22,13 +22,12 @@ type: rule
 uri: submit-all-dates-to-sql-server-in-iso-format
 ---
 
-<introEmbed
-  body={<>
 All dates submitted to SQL Server must be in ISO format date. This ensures that language or database settings do not interfere with inserts and updates of data. You should NEVER need to change the default language of users or of the database in SQL Server.
 
 For example, any insert into a SQL Server database with Visual Basic should call `Format(ctlStartDate,"yyyy-mm-dd")` or VB.NET `Ctype(ctlStartDate.Text,Date).ToString("yyyy-MM-dd")` before attempting the insert or update. This will ensure consistency of treatment when dealing with dates in your SQL Server backend.
-  </>}
-/>
+
+<endOfIntro />
+
 ```sql
 SET DATEFORMAT mdy
 

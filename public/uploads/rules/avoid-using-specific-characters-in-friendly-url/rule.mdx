@@ -21,11 +21,10 @@ type: rule
 uri: avoid-using-specific-characters-in-friendly-url
 ---
 
-<introEmbed
-  body={<>
 When adding a friendly URL, please avoid using specific characters like ```+ : # & , ) ( ! \ } {  @ / = $``` (and so on) due to these reasons:
-  </>}
-/>
+
+<endOfIntro />
+
 1. When adding a friendly URL, we meant to make it **friendly** and **easy** for the user to read and remember, and these characters add complexity
 
 2. Some characters are unsafe characters, they will be encoded, which end up making the URL really messy and ugly. Example: **double quote (“)** will be encoded as **%22**.

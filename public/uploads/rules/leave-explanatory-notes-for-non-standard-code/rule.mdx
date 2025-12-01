@@ -25,13 +25,12 @@ type: rule
 uri: leave-explanatory-notes-for-non-standard-code
 ---
 
-<introEmbed
-  body={<>
 Sometimes, you need to write code that deviates from the standard pattern. It might be a workaround for a library bug, an optimization for a critical performance path, or a temporary solution pending a larger refactor. Without context, a future developer, or even you, months later, might see this "weird" code and refactor it back to the standard pattern, unknowingly reintroducing a bug.
 
 To prevent this, it's crucial to leave a clear, permanent note directly in the code. This ensures the "why" behind the decision is never lost.
-  </>}
-/>
+
+<endOfIntro />
+
 ### The Problem with Temporary Comments
 
 Developer comments are often temporary. We use them as personal reminders to fix something before a pull request is merged. These are often unstructured and can be confusing if left in the codebase permanently.

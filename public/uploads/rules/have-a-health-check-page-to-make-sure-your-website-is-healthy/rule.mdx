@@ -29,13 +29,12 @@ type: rule
 uri: have-a-health-check-page-to-make-sure-your-website-is-healthy
 ---
 
-<introEmbed
-  body={<>
 Websites can be complicated, and a very small mistake can take the whole site down. But there are two different kinds of errors, coding errors and deployment errors; coding errors should be picked up by compiling and debugging, while deployment errors should be picked up by the Health Check page.
 
 Whenever there is a deployment problem, instead of fixing it straight away, we find out what the cause of the problem is and create a Health Check test to prevent it from happening again. So next time, when the site is down or re-deployed to a new server, we can simply run the Health Check page and fix all red crosses then the site should be back online.
-  </>}
-/>
+
+<endOfIntro />
+
 .NET Core has the ability to add a health check to your application and can be configured for a variety of real-time monitoring scenarios:
 
 * Health probes can be used by container orchestrators and load balancers to check an app's status. For example, a container orchestrator may respond to a failing health check by halting a rolling deployment or restarting a container. A load balancer might react to an unhealthy app by routing traffic away from the failing instance to a healthy instance.

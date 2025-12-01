@@ -21,13 +21,12 @@ type: rule
 uri: use-sso-for-your-websites
 ---
 
-<introEmbed
-  body={<>
 Many companies have more than one web applications running under different versions of .NET framework in different subdomains, or even in different domains. They want to let the user sign in once and stay logged in when switching to a different website, and this is SSO (Single Sign-On).
 
 In ASP.NET the logged-in user status is persisted by storing the cookie on the client computer, base on this mechanism, they are two possible solutions:
-  </>}
-/>
+
+<endOfIntro />
+
 1. Share one cookie across the web applications.
    The Forms authentication cookie is nothing but the container for forms authentication ticket. The ticket is encrypted and signed using the &lt;machineKey&gt; configuration element of the server's Machine.config file. So if the web applications are hosted on the same machine, the point is to create a shared authentication cookie. Configure the web.config and create the cookie manually can achieve this.
    Following scenarios may suit this solution

@@ -20,11 +20,10 @@ type: rule
 uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
 ---
 
-<introEmbed
-  body={<>
 Web API does not automatically return an error to the client when validation fails. It is up to the controller action to check the model state and respond appropriately.
-  </>}
-/>
+
+<endOfIntro />
+
 You can also create an action filter to check the model state before the controller action is invoked.
 
 ```cs

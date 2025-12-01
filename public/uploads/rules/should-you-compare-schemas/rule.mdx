@@ -23,13 +23,12 @@ type: rule
 uri: should-you-compare-schemas
 ---
 
-<introEmbed
-  body={<>
 SQL Compare is a good tool to find out the differences between two databases. It can help you answer the question "Is your database the same as mine?".
 
 However, if you are doing this at the end of your release cycle, you have a problem. Your schema deployment process is broken...
-  </>}
-/>
+
+<endOfIntro />
+
 What you should be doing is seeing your [Schema Master](/have-a-schema-master "Database Schema Master") each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
 
 

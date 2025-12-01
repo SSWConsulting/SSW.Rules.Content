@@ -1661,6 +1661,9 @@
     "no-hello": [
         "rules-to-better-im"
     ],
+    "avoid-sending-unnecessary-messages": [
+        "rules-to-better-im"
+    ],
     "if-communication-is-not-simple-call-the-person-instead-of-im": [
         "rules-to-better-im"
     ],
@@ -1672,13 +1675,6 @@
     ],
     "separate-messages": [
         "rules-to-better-im"
-    ],
-    "avoid-sending-unnecessary-messages": [
-        "rules-to-better-im"
-    ],
-    "use-quiet-hours-in-teams": [
-        "rules-to-better-im",
-        "rules-to-better-microsoft-teams"
     ],
     "refer-to-email-subject": [
         "rules-to-better-im",
@@ -1709,9 +1705,6 @@
     "when-to-create-a-group-chat": [
         "rules-to-better-im"
     ],
-    "teams-meetings-vs-group-chats": [
-        "rules-to-better-im"
-    ],
     "close-off-thread": [
         "rules-to-better-im"
     ],
@@ -1733,11 +1726,12 @@
     "snipping-im-chats": [
         "rules-to-better-im"
     ],
-    "do-you-minimize-team-distractions": [
+    "mute-mic": [
         "rules-to-better-im"
     ],
-    "minimize-unrelated-interruptions": [
-        "rules-to-better-im"
+    "warn-when-leaving-a-call": [
+        "rules-to-better-im",
+        "rules-to-better-microsoft-teams"
     ],
     "minimize-skype-distractions": [
         "rules-to-better-im"
@@ -1797,6 +1791,9 @@
     "send-appointment-or-teams-meeting": [
         "rules-to-better-microsoft-teams"
     ],
+    "teams-meetings-vs-group-chats": [
+        "rules-to-better-microsoft-teams"
+    ],
     "start-meetings-with-energy": [
         "rules-to-better-microsoft-teams"
     ],
@@ -1804,6 +1801,12 @@
         "rules-to-better-microsoft-teams"
     ],
     "use-the-status-message-in-teams": [
+        "rules-to-better-microsoft-teams"
+    ],
+    "use-quiet-hours-in-teams": [
+        "rules-to-better-microsoft-teams"
+    ],
+    "minimize-teams-distractions": [
         "rules-to-better-microsoft-teams"
     ],
     "track-project-documents": [
@@ -3565,6 +3568,9 @@
         "rules-to-better-figma"
     ],
     "figma-dev-mode": [
+        "rules-to-better-figma"
+    ],
+    "outdated-figma": [
         "rules-to-better-figma"
     ],
     "how-to-align-your-form-labels": [

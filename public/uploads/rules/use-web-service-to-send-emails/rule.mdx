@@ -18,11 +18,10 @@ createdByEmail: igor.goldobin@gmail.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 In a Windows application, if you need to send mail, please use a WebService to do this, because using WebService to send emails is safer.You don't need to store the email server configuration in your application.config file, which can be installed on the client and be exposed to someone who could take advantage of it.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 SmtpClient client = new SmtpClient();
 try

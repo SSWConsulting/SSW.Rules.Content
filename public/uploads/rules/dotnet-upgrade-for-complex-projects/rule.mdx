@@ -31,8 +31,6 @@ type: rule
 uri: dotnet-upgrade-for-complex-projects
 ---
 
-<introEmbed
-  body={<>
 There's not 1 single thing that makes a .NET project complex to migrate to the latest .NET Framework. Generally though it's a combination of the following:
 
 * High complexity
@@ -49,8 +47,9 @@ The migration begins with an Evolutionary approach and then smoothly transitions
 This strategy results in a codebase that functions within the old .NET Framework while progressively moving towards .NET 8. The majority of changes bring benefits to both platforms, allowing seamless deployment of these improvements to production. You can get more information about different migration approaches at [Do you know the different ways to modernize your application?](/modernize-your-app/)
 
 Below you will find some tips and tricks to help you with your more complex migrations.
-  </>}
-/>
+
+<endOfIntro />
+
 # Preparation
 
 ### Upgrade the projects to use the sdk style csproj format
@@ -143,13 +142,13 @@ Right-click on the project in the Solution Explorer window, and select Upgrade.
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
-* In-place project upgrade ;
+* In-place project upgrade <br/>
   This option upgrades your project without making a copy.
 
-* Side-by-side project upgrade ;
+* Side-by-side project upgrade <br/>
   Copies your project and upgrades the copy, leaving your original project alone.
 
-* Side-by-side incremental ;
+* Side-by-side incremental <br/>
   A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
 
   This option lets you upgrade your ASP.NET app or class library project piece by piece.

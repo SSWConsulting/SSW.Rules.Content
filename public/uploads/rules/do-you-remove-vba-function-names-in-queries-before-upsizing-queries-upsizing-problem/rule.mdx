@@ -26,11 +26,10 @@ type: rule
 uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
 ---
 
-<introEmbed
-  body={<>
 The Upsizing Tools do not try to upsize Microsoft Access query that includes VBA function names that don't have their equivalent Transact-SQL functions. The upsizing result will depend on Microsoft Access version (2000/2002/2003) and SQL Server Version (2000/2005). The following varieties of queries will not upsize:
-  </>}
-/>
+
+<endOfIntro />
+
 - Queries referencing value in control, for example Forms![FormName]![ControlName] (Access 2000)
 - Select queries that take parameters (Access 2000)
 - Select queries where parameter used more than once (All versions of Access)

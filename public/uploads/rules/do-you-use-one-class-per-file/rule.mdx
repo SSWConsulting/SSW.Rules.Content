@@ -24,11 +24,10 @@ type: rule
 uri: do-you-use-one-class-per-file
 ---
 
-<introEmbed
-  body={<>
 Each class definition should live in its own file. This ensures it's easy to locate class definitions outside the Visual Studio IDE (e.g. SourceSafe, Windows Explorer)
-  </>}
-/>
+
+<endOfIntro />
+
 The **only** exception should be classes that collectively forms one atomic unit of reuse should live in one file.
 
 ```cs

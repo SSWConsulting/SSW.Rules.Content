@@ -23,8 +23,6 @@ type: rule
 uri: use-dynamic-viewport-units
 ---
 
-<introEmbed
-  body={<>
 In today's mobile-first era, ensuring your website looks great on all screen sizes is crucial.
 
 On mobile devices, viewport sizes fluctuate due to [dynamic toolbars](https://web.dev/blog/viewport-units#the-need-for-new-viewport-units) like address bars and tab bars, causing elements to potentially overflow beyond the viewport.
@@ -32,8 +30,9 @@ On mobile devices, viewport sizes fluctuate due to [dynamic toolbars](https://we
 To address this issue, the CSS Working Group introduced [dynamic viewport units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#dynamic) (like dvw, dvh, dvi, dvb, dvmin, dvmax).
 
 Implementing these units into your website allows it to be responsive across desktop and mobile platforms.
-  </>}
-/>
+
+<endOfIntro />
+
 Dynamic viewport units are [compatible with every browser](https://developer.mozilla.org/en-US/docs/Web/CSS/length#browser_compatibility) and is even supported in popular CSS frameworks like [Tailwind CSS (as of v3.4)](https://tailwindcss.com/blog/tailwindcss-v3-4#dynamic-viewport-units)
 
 <imageEmbed

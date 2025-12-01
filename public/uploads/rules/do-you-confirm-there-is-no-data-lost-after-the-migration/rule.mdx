@@ -21,8 +21,6 @@ type: rule
 uri: do-you-confirm-there-is-no-data-lost-after-the-migration
 ---
 
-<introEmbed
-  body={<>
 After you have finished migrating the database, it is extremely important to verify that no data has been lost in the move. The quickest way to do this is to compare the SharePoint 2007 and the SharePoint 2010 server **All Site Content** pages and confirm that the item numbers match:
 
 ![](/uploads/rules/do-you-confirm-there-is-no-data-lost-after-the-migration/AllSiteContentCount.png)
@@ -36,5 +34,5 @@ After you have finished migrating the database, it is extremely important to ver
 5. Compare item numbers with 2007
 
 Repeat this process for all sub-sites of the site collection you migrated.
-  </>}
-/>
+
+<endOfIntro />

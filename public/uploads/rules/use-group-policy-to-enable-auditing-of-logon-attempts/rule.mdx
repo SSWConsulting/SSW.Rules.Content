@@ -28,11 +28,10 @@ type: rule
 uri: use-group-policy-to-enable-auditing-of-logon-attempts
 ---
 
-<introEmbed
-  body={<>
 It is important as a Network Administrator to know when and where failed login attempts are coming from. Through Group Policy you can enable "Audit logon events".
-  </>}
-/>
+
+<endOfIntro />
+
 1. Create a group policy called 'Logon Auditing Policy'
 2. Right click on 'Logon Auditing Policy' and click on Edit to bring up Group Policy Management Editor
 3. Select 'Audit account logon events' from Computer Configuration | Policies | Windows Settings | Local Policies | Audit Policy and set to Success, Failure

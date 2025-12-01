@@ -30,11 +30,10 @@ type: rule
 uri: todo-tasks
 ---
 
-<introEmbed
-  body={<>
 It's common to add a `TODO` comment to some code you're working on, either because there's more work to be done here or because you've spotted a problem that will need to be fixed later. But how do you ensure these are tracked and followed up?
-  </>}
-/>
+
+<endOfIntro />
+
 We add a `TODO` comment to our code when we have either identified or introduced [technical debt](/technical-debt) as a way of showing other developers that there's work to be done here. It could be finishing the implementation of a feature, or it could be fixing a bug which (hypothetically) is limited in scope and therefore deprioritized. That's all well and good if another developer happens to be looking at that code and sees the comment, but if nobody looks at the code, then the problem could potentially never be fixed.
 
 ```cs

@@ -19,11 +19,10 @@ createdByEmail: igor.goldobin@gmail.com
 isArchived: true
 ---
 
-<introEmbed
-  body={<>
 Application updates don't have to be difficult to do for the user. Pointing the user to a website where he can download an update is not ideal. A better way is to take advantage of the `System.Deployment.Application` namespace. You can develop custom upgrade behaviours into your ClickOnce/Smart client application.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 System.Diagnostics.Process.Start(@"http://www.ssw.com.au/ssw/Download/ProdBasket.aspx?ID=15");
 ```

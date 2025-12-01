@@ -23,11 +23,10 @@ type: rule
 uri: get-email-list-of-report-subscription
 ---
 
-<introEmbed
-  body={<>
 You can get email list in ExtensionSettings, which is an XML column in Subscriptions table in database of reporting services. Subscriptions table has a FK with Catalog table, which contains report name and report path information. Then we can XQuery the ExtensionSettings to get TO and CC fields according to report name and report path.
-  </>}
-/>
+
+<endOfIntro />
+
 See the following example. You need to fill report name and report path parameters(@mReportName and @mReportPath). Then this example will return the email dataset of the report's subscriptions.
 
 

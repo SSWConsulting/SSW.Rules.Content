@@ -20,13 +20,12 @@ type: rule
 uri: ai-assistants-work-in-repository-directory
 ---
 
-<introEmbed
-  body={<>
 When AI assistants (e.g. GitHub Copilot, Claude, ChatGPT) perform development tasks, they sometimes create temporary files, scripts, or intermediate outputs. By default, they might use system temp directories like `/tmp`, `/var/tmp`, or the user's home directory. This creates several problems: files become hard to find, they're outside version control, and cleanup becomes unpredictable.
 
 Configuring AI assistants to work exclusively within the repository boundaries ensures all work is visible, properly managed, and easy to clean up.
-  </>}
-/>
+
+<endOfIntro />
+
 
 <asideEmbed
   variant="info"

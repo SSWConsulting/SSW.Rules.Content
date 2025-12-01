@@ -23,8 +23,6 @@ type: rule
 uri: do-you-know-how-to-track-down-permission-problems
 ---
 
-<introEmbed
-  body={<>
 You need [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx?WT.mc_id=DT-MVP-33518) to track down permissions problems.
 
 E.g. **Problem**
@@ -38,8 +36,32 @@ To hunt down a problem where say the IIS server couldn’t write to a directory,
 2. Apply filter
 3. Rejoice
 
-![Figure: Apply filter to only show "ACCESS DENIED" results](/uploads/rules/do-you-know-how-to-track-down-permission-problems/process-monitor-filter.jpg)
 
-![Figure: And here we have the offending account](/uploads/rules/do-you-know-how-to-track-down-permission-problems/event-properties.jpg)
-  </>}
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Apply filter to only show \"ACCESS DENIED\" results",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-track-down-permission-problems/process-monitor-filter.jpg"
 />
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "And here we have the offending account",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-track-down-permission-problems/event-properties.jpg"
+/>
+
+
+<endOfIntro />

@@ -30,11 +30,10 @@ type: rule
 uri: do-you-use-the-best-deployment-tool
 ---
 
-<introEmbed
-  body={<>
 Often, deployment is either done manually or as part of the build process. But deployment is a completely different step in your lifecycle. It's important that deployment is automated, but done separately from the build process.
-  </>}
-/>
+
+<endOfIntro />
+
 There are two main reasons you should separate your deployment from your build process:
 
 1. You're not dependent on your servers for your build to succeed. Similarly, if you need to change deployment locations, or add or remove servers, you don't have to edit your build definition and risk breaking your build.

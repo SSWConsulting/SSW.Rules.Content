@@ -25,13 +25,12 @@ type: rule
 uri: make-sure-that-the-test-can-be-failed
 ---
 
-<introEmbed
-  body={<>
 It's important that the unit tests you develop are capable of failing and that you have seen it fail. A test that can never fail isn't helpful for anyone.
 
 This is a fundamental principle in Test Driven Development (TDD) called Red/Green/Refactor.
-  </>}
-/>
+
+<endOfIntro />
+
 A common approach is by returning `NotImplementedException()` from the method you are writing tests for. For Example:
 
 ```cs

@@ -24,11 +24,10 @@ type: rule
 uri: use-null-condition-operators-when-getting-values-from-objects
 ---
 
-<introEmbed
-  body={<>
 Null-conditional operators - makes checking for null as easy as inserting a single question mark. The Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 int length = customer != null && customer.name != null ? customer.name.length : 0;
 ```

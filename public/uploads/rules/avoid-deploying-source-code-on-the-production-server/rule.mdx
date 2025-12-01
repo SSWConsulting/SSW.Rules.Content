@@ -24,13 +24,12 @@ type: rule
 uri: avoid-deploying-source-code-on-the-production-server
 ---
 
-<introEmbed
-  body={<>
 When you are deploying an ASP.NET project (no matter it's a website or a Web application), do not copy all files of this project to the production server because source code will be deployed during this simple copy and it makes easier for others to access or tamper the source code of your site.
 
 Instead, please use 'Publish' utility to deploy your website or Web application. This utility can remove the source code from the site.
-  </>}
-/>
+
+<endOfIntro />
+
 ### 1. Website Project
 
 **Publish Website** dialog box is designed to precompile and deploy your website to a new location (whatever it is, **ftp://**, **http://** or **drive:\path**). During the deployment, source code are removed automatically. Besides, the precompilation process finds any compilation errors and identifies the errors in the configuration file.j

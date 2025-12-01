@@ -21,11 +21,10 @@ type: rule
 uri: do-you-know-to-create-a-custom-library-provider
 ---
 
-<introEmbed
-  body={<>
 If you need to create a custom CDN library provider... Sitefinity manages images, videos, and content on a file system which the website uses. For larger sites, CDN providers are used for all content that doesn’t need to be on the servers.
-  </>}
-/>
+
+<endOfIntro />
+
 Make a new class that inherits from **Telerik.Sitefinity.Modules.Libraries.BlobStorage.CloudBlobStorageProvider** and override all the methods.
 
 You want to save the items to a local path but show an external URL on the actual page.

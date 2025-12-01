@@ -20,11 +20,10 @@ type: rule
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
 ---
 
-<introEmbed
-  body={<>
 Azure transactions are CHEAP. You get tens of thousands for just a few cents. What is dangerous though is that it is very easy to have your application generate hundreds of thousands of transactions a day.
-  </>}
-/>
+
+<endOfIntro />
+
 Every call to Windows Azure Blobs, Tables and Queues count as 1 transaction. Windows Azure diagnostic logs, performance counters, trace statements and IIS logs are written to Table Storage or Blob Storage.
 
 If you are unaware of this, it can quickly add up and either burn through your free trial account, or even create a large unexpected bill.

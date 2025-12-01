@@ -25,11 +25,10 @@ type: rule
 uri: have-a-rowversion-column
 ---
 
-<introEmbed
-  body={<>
 SQL Server rowversions are a data type available which are binary numbers that indicate the relative sequence in which data modifications took place in a database. See the MSDN article on rowversions here: [rowversion (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver15&WT.mc_id=DP-MVP-33518)
-  </>}
-/>
+
+<endOfIntro />
+
 All tables should have a rowversion column called "RecordVersion" to aid concurrency checking. A rowversion improves update performance because only one column needs to be checked when performing a concurrency check (instead of checking all columns in a table for changes).
 ![](/uploads/rules/have-a-rowversion-column/NoRowversionOnTable.png)
 <figureEmbed figureEmbed={ {

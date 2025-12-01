@@ -20,12 +20,10 @@ type: rule
 uri: do-you-make-sure-all-of-your-nodes-are-all-domain-controllers
 ---
 
-<introEmbed
-  body={<>
 When setting up Failover Cluster Manager it is important that each Physical Machine, also known as a host or node be setup in an identical manner. This means each machine should be configured the same, with the same networks and same workloads running.
 
 It is best practice to have your nodes only running the necessary features to run Failover Cluster Manager, leaving your VMs or other hosts not in the cluster to run everything else.
 
 For this reason SSW recommends only running Failover Cluster Manager and Hyper-V roles on your nodes. It is also recommended that each node in the cluster is identical hardware, this is not strictly required but will assist in the ease of management.
-  </>}
-/>
+
+<endOfIntro />

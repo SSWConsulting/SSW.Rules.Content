@@ -22,15 +22,14 @@ type: rule
 uri: handling-diacritics
 ---
 
-<introEmbed
-  body={<>
 Imagine you're developing a search feature for a multilingual website. When a user searches for a term like "résumé", but the database contains variations like "resume" without accented characters, it leads to missed matches and incomplete search results. Furthermore, this lack of normalization can introduce inconsistencies in sorting and filtering, complicating data analysis and user navigation.
 
 Implementing character normalization by converting accented and special characters to their closest unaccented equivalents allows terms like "résumé" to match "resume" enhancing search accuracy and overall user experience by addressing these multilingual nuances.
 
 This is especially important for internationalization and for sites to serve users worldwide effectively, regardless of linguistic differences.
-  </>}
-/>
+
+<endOfIntro />
+
 ### Handling diacritics in JS
 
 JavaScript provides us with a handy method called [normalize()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) that helps us tackle this problem effortlessly.

@@ -20,13 +20,12 @@ type: rule
 uri: c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications
 ---
 
-<introEmbed
-  body={<>
 Debug compilation considerably increases memory footprint since debug symbols are required to be loaded.
 
 Additionally it will hit the performance because that will include the optional debug and trace statements in the output IL code.
-  </>}
-/>
+
+<endOfIntro />
+
 In debug mode the compiler emits debug symbols for all variables and compiles the code as is. In release mode some optimizations are included:
 
 * unused variables do not get compiled at all

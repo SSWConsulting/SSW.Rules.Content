@@ -16,13 +16,12 @@ createdByEmail: 46954368+cvionnet@users.noreply.github.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 [Cross-site scripting (XSS) attacks](https://en.wikipedia.org/wiki/Cross-site_scripting) occur when untrusted data is rendered on the browser without proper sanitization, thus potentially exposing the system to malicious scripts. To prevent XSS attacks, HTML encoding is typically applied to prevent the browser from interpreting HTML strings as code.
 
 However, this approach can cause confusion when an application needs to output content that is already HTML encoded.
-  </>}
-/>
+
+<endOfIntro />
+
 To solve this problem, the [`IHtmlString`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihtmlstring?WT.mc_id=DT-MVP-33518) interface in .NET Core can be used to represent HTML content that is pre-encoded and should not be encoded again.
 This is to prevent double encoding, which can distort the original HTML content and cause it to display incorrectly on a web page.
 

@@ -26,12 +26,11 @@ type: rule
 uri: are-you-very-clear-your-source-control-is-not-a-backup-repository
 ---
 
-<introEmbed
-  body={<>
 Note: If you did not finish working:
 
 * TFS put changes into shelveset
 * SVN put changes into sandbox / branches
-  </>}
-/>
+
+<endOfIntro />
+
 **Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed.

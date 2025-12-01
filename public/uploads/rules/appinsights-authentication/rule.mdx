@@ -23,8 +23,6 @@ type: rule
 uri: appinsights-authentication
 ---
 
-<introEmbed
-  body={<>
 Azure Application Insights is your app's friendly doctor, keeping an eye on it to stay healthy and running smoothly. It uses an `Instrumentation Key` (IK) to allow your app to send telemetry data to its resource.
 
 While this IK isn't a secret and is often included in client-side code, if it IK falls into the wrong hands, they could spam your telemetry or incur extra costs on ApplicationInsights.
@@ -34,8 +32,9 @@ The IK **does not** grant users access to **read** your data. In order for an ap
 For client-side telemetry (e.g. Static Web Pages, Single Page Apps) the key will be visible in the browser via Dev Tools, but it is comforting to know that all the Application Insights telemetry is sent over HTTPS.
 
 To prevent unintended access, Local authentication (via Instrumentation Key or API Keys) can be **disabled** for authenticating data ingestion. Once disabled, a **stronger authentication** method known as Role **Based Access Control (RBAC)** can be used.
-  </>}
-/>
+
+<endOfIntro />
+
 With Role-Based Access Control (RBAC) we can define the specific applications and users that have the ability to send telemetry data, making unauthorized data injection harder.
 
 This method also allows for more accurate Monitoring and Auditing because it allows us to log who accessed our resources and what actions they performed, which is crucial for security.
