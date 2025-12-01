@@ -29,4 +29,3 @@ As per CRM Tip of the Day <https://crmtipoftheday.com/979/start-planning-farewel
 :::
 
 Learn more on [Connect Dynamics 365 to POP3/SMTP servers](https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622063(v=crm.8)?redirectedfrom=MSDN).
-
