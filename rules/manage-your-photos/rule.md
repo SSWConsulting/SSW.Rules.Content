@@ -45,13 +45,14 @@ Use SharePoint or a traditional file server to collect all of your photos. From 
 
 Using a file server as a staging area makes it easy to automate uploads to Google Photos. While the initial setup takes a little time, it saves a lot of effort in the long run. Once curated, photos can be stored in a designated folder on the file server, which then pushes them to Google Photos, no more manual transfers!
 
-[!Figure: First step is collecting the photos and storing them in a repository. It isn't clear at this stage what the photos are of, or who is in them, but they're all in a folder](images-in-folders.png)
+![Figure: First step is collecting the photos and storing them in a repository. It isn't clear at this stage what the photos are of, or who is in them, but they're all in a folder](images-in-folders.png)
 
-However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/). 
+However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more on [Updates to the Google Photos APIs: Picker API launch and Library API changes](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates). 
 
 Watch the video to learn more about Google Photos and how to set it up for your company:
 
 `youtube: https://www.youtube.com/embed/p8_siTdeeCg`
+**Video: SSW Google Photos - The awesome way to find any image (6 min)**
 
 ---
 
