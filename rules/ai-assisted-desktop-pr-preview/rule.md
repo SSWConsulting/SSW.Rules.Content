@@ -2,7 +2,7 @@
 type: rule
 seoDescription: Quickly test AI-built desktop features by switching to PR pre-releases in your desktop app. Avoid slow local branch builds and adopt a professional AI-assisted workflow for Electron apps.
 archivedreason:
-title: AI Assisted Development Workflow – Desktop PR Pre-releases
+title: Do you use PR pre-releases to rapidly test AI-built desktop features?
 guid: 7b9dbfbc-1b3b-4574-8c37-7d0a6a69931a
 uri: ai-assisted-desktop-pr-preview
 created: 2025-11-21T05:06:33.0000000Z
@@ -42,7 +42,7 @@ By exposing a settings option to switch to specific PR builds, they can be easil
 6. Iterate until the feature is complete, then merge
 
 ::: info
-Tip: Keep PRs small. Small PR pre-releases make investigation and rollback simpler.
+**Tip:** Keep PRs small. Small PR pre-releases make investigation and rollback simpler.
 :::
 
 ::: bad
@@ -63,7 +63,6 @@ Tip: Keep PRs small. Small PR pre-releases make investigation and rollback simpl
 
 ## References
 
-* SSW Rules – Do you know the best workflow for AI assisted development? (/ai-assisted-development-workflow)
-* GitHub Action example – PR pre-release switching: <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml>
-* Release channel handler example - <https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts>
-* Electron autoUpdater - <https://www.electronjs.org/docs/latest/api/auto-updater>
+* [**GitHub Action example** – PR pre-release switching](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/.github/workflows/pr-release.yml)
+* [**Release channel handler example**](https://github.com/SSWConsulting/SSW.YakShaver.Desktop/blob/main/src/backend/ipc/release-channel-handlers.ts)
+* [**Electron autoUpdater**](https://www.electronjs.org/docs/latest/api/auto-updater)
