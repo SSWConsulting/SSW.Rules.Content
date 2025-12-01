@@ -1,34 +1,37 @@
 ---
-type: rule
-tips: ""
-title: Do you know how to handle duplicate PBIs in your backlog?
-seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs
-  to keep your project clean, organized, and user-focused.
-uri: handle-duplicate-pbis
 authors:
-  - title: Zach Keeping
-    url: https://www.ssw.com.au/people/zach-keeping
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Tom Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski
-  - title: Jake Bayliss
-    url: https://www.ssw.com.au/people/jake-bayliss
-related:
-  - use-ai-manage-backlog
+- title: Zach Keeping
+  url: https://www.ssw.com.au/people/zach-keeping
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Tom Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski
+- title: Jake Bayliss
+  url: https://www.ssw.com.au/people/jake-bayliss
+categories:
+- category: categories/project-delivery/rules-to-better-github.mdx
 guid: 85612086-fd82-4d02-abd0-baf0b310004a
+related:
+- rule: public/uploads/rules/use-ai-manage-backlog/rule.mdx
+seoDescription: Learn the best way to handle duplicate PBIs in GitHub backlogs to
+  keep your project clean, organized, and user-focused.
+tips: ''
+title: Do you know how to handle duplicate PBIs in your backlog?
+type: rule
+uri: handle-duplicate-pbis
 ---
 
 When working on a GitHub backlog, it's common for multiple Product Backlog Items (PBIs) to be raised about the same issue, especially when several people encounter it independently.
 
 Duplicates clutter the backlog and can lead to wasted effort. A clean backlog is easier to maintain. But it's also important to make sure everyone stays informed on their reported issues.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/watch?v=ZlY_TrR3R-4`
-**Video: Keep your users in the loop when closing duplicate PBIs (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=ZlY_TrR3R-4" description={"Video: Keep your users in the loop when closing duplicate PBIs (4 min)"} />
+
 
 ## Why you should close duplicate PBIs
 
@@ -48,63 +51,108 @@ The easiest way to do this is to close the PBI with a friendly comment directing
 
 Choose the most complete or best-discussed PBI as the primary one to keep open. It should have the clearest description, relevant discussion, and active tracking.
 
-::: good
-![Figure: Good example - A clean and well-defined PBI is a good candidate for the main PBI to keep](good-pbi.png "Good bug report")
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A clean and well-defined PBI is a good candidate for the main PBI to keep",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/handle-duplicate-pbis/good-pbi.png"
+/>
+
 
 ### 2. Close and link the duplicate PBIs
 
 Once you've identified the main PBI, close the others as duplicates. In GitHub, there are two standard ways to do this:
 
-* Add a comment in the format of **"Duplicate of #101"**, then close the issue manually, or  
+* Add a comment in the format of **"Duplicate of #101"**, then close the issue manually, or
 * Use GitHub's **"Close as duplicate"** feature (available when referencing another issue in the comment)
 
 Both methods automatically link the issue to the active PBI and make the relationship clear to other users.
 
-::: greybox
-**Comment:** "Duplicate"
-:::
-::: bad
-Figure: Bad example - The issue is closed abruptly without context, which confuses the reporter
-:::
 
-::: greybox
-**Comment:** "Duplicate of #101 - follow here for further updates"
-:::
-::: good
-Figure: Good example - Using the built-in GitHub duplicate workflow keeps issues linked and easy to trace
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Comment:** "Duplicate"
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - The issue is closed abruptly without context, which confuses the reporter",
+    shouldDisplay: true
+  }}
+/>
 
-::: good
-![Figure: Good example - Using the built-in "Close as duplicate of..." button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context](close-as-duplicate-button.png "Close as duplicate button")
-:::
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Comment:** "Duplicate of #101 - follow here for further updates"
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Using the built-in GitHub duplicate workflow keeps issues linked and easy to trace",
+    shouldDisplay: true
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Using the built-in \"Close as duplicate of...\" button is an easy way to close an item while linking to the main PBI. It can be helpful to leave comment here for additional context",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/handle-duplicate-pbis/close-as-duplicate-button.png"
+/>
+
 
 ### 3. Notify users who created the duplicates
 
 Since closing their PBI means they won't receive future updates automatically, it's a good idea to invite the users to follow the main issue, if they're interested in tracking progress and adding to the discussion.
 
-::: greybox
-Comment on #101:  
-> "@jane thanks for reporting this! We've got a few open issues reporting this problem, so we're going to consolidate them into a single issue here - #103. Feel free to subscribe to it to follow along!"
-:::
-::: good
-Figure: Good example - All reporters are acknowledged and invited to join the discussion on the main issue
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Comment on #101:
+&gt; "@jane thanks for reporting this! We've got a few open issues reporting this problem, so we're going to consolidate them into a single issue here - #103. Feel free to subscribe to it to follow along!"
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - All reporters are acknowledged and invited to join the discussion on the main issue",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### 4. Gold plating - Notify users when the work is complete
 
 For an amazing user or customer experience, don't just rely on them subscribing to the main issue. Instead, get back to them when the work is done, letting them know their contribution has been heard and actioned.
 
-::: greybox
-Comment on #101:  
-> "Hi @jane 👋
-> Good news - this work has been completed! This issue was marked as a duplicate, and the work was tracked in #103.
->
-> Thanks for your contribution 🙏"
-:::
-::: good
-Figure: Best example - Users are kept informed that the work is done, even when they didn't subscribe to the main issue
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Comment on #101:
+&gt; "Hi @jane 👋
+&gt; Good news - this work has been completed! This issue was marked as a duplicate, and the work was tracked in #103.
+&gt;
+&gt; Thanks for your contribution 🙏"
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Best example - Users are kept informed that the work is done, even when they didn't subscribe to the main issue",
+    shouldDisplay: true
+  }}
+/>
+
 
 ## Automate where possible
 

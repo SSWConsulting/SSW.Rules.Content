@@ -1,28 +1,50 @@
 ---
-seoDescription: Developers can use various tools and techniques to create co-authored commits, a testament to teamwork and shared responsibility. From Visual Studio Live Share and Git Mob Extension to GitHub Desktop and the Git CLI, there are multiple ways to achieve this.
-type: rule
-title: Do you use Co-Authored Commits?
-uri: co-authored-commits
 authors:
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related:
-  - co-creation-patterns
-created: 2023-11-21T00:28:43.256Z
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+categories:
+- category: categories/project-delivery/rules-to-better-github.mdx
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2023-12-21 01:04:16+00:00
+createdBy: Daniel Mackay [SSW]
+createdByEmail: 2636640+danielmackay@users.noreply.github.com
 guid: C72D5A6C-53F5-456C-9AC8-8C85A2AFE7FA
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/co-creation-patterns/rule.mdx
+seoDescription: Developers can use various tools and techniques to create co-authored
+  commits, a testament to teamwork and shared responsibility. From Visual Studio Live
+  Share and Git Mob Extension to GitHub Desktop and the Git CLI, there are multiple
+  ways to achieve this.
+title: Do you use Co-Authored Commits?
+type: rule
+uri: co-authored-commits
 ---
 
 When using [co-creation patterns](/co-creation-patterns) such as pair-programming or mob-programming, you should make sure that all the developers get attribution. When done correctly co-authored commits stand out as a testament to teamwork and shared responsibility, reflecting the collaborative efforts and diverse expertise contributed to each change.
 
-:::img-large
-![Figure: GitHub - Co-Authored Commit](github.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "GitHub - Co-Authored Commit",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/co-authored-commits/github.png"
+/>
 
-<!--endintro-->
+
+<endOfIntro />
 
 There are several different ways to **create co-authored commits**, depending on the tools you are using.
 
@@ -38,17 +60,35 @@ Visual Studio Code the [Git Mob Extension](https://marketplace.visualstudio.com/
 
 Rider has a great UI that makes creating co-authored commits easy. It provides intellisense for the co-authored commit trailer, and will suggest the names of the people who have access to the git repository.
 
-:::img-medium
-![Figure: Rider - Co-Authored Commits](rider.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Rider - Co-Authored Commits",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/co-authored-commits/rider.png"
+/>
+
 
 ### GitHub Desktop
 
 [GitHub Desktop](https://githubdesktop.vercel.app/) supports co-authored commits out of the box.
 
-:::img-medium
-![Figure: GitHub Desktop - Co-Authored Commits](github-desktop.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figureEmbed={ {
+    preset: "default",
+    figure: "GitHub Desktop - Co-Authored Commits",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/co-authored-commits/github-desktop.png"
+/>
+
 
 ### Git CLI
 

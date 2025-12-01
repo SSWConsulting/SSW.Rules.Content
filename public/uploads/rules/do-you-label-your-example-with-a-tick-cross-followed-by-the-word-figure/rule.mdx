@@ -1,37 +1,69 @@
 ---
-seoDescription: Use a consistent labelling system for figures, including a green tick (✅) or red cross (❌) followed by "Figure -". This ensures clarity and readability in your examples.
-type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions](/rules/add-useful-and-concise-figure-captions)
-title: Do you label your example with a tick/cross followed by the word Figure:?
-guid: f7c03829-af7f-4425-b52a-70c4c3593580
-uri: do-you-label-your-example-with-a-tick-cross-followed-by-the-word-figure
-created: 2010-03-19T00:46:30.0000000Z
 authors: []
-related: []
+created: 2010-03-19 00:49:19+00:00
+createdBy: ulyssesmaclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
+guid: f7c03829-af7f-4425-b52a-70c4c3593580
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Use a consistent labelling system for figures, including a green tick
+  (✅) or red cross (❌) followed by "Figure -". This ensures clarity and readability
+  in your examples.
+title: Do you label your example with a tick/cross followed by the word Figure:?
+type: rule
+uri: do-you-label-your-example-with-a-tick-cross-followed-by-the-word-figure
 ---
 
 Always use a green tick for a good example and red cross for a bad example followed with a label “Figure&#58;”?
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-Bad example - background colour is manually added to &lt;tablegt; tag
-:::
-::: bad
-Bad example – example isn’t labelled with the X symbol followed by ‘Figure:’  
-:::
 
-::: greybox
-❌ Figure&#58; Bad example - background colour is manually added to &lt;tablegt; tag  
-:::
-::: good
-Figure: Good example – It is clear that this example is incorrect
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Bad example - background colour is manually added to &lt;tablegt; tag
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example – example isn’t labelled with the X symbol followed by ‘Figure:’",
+  shouldDisplay: true
+} } />
 
-::: greybox
-✅ Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag  
-:::
-::: good
-Figure: Good example – It is clear that this example is correct.
-:::
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    ❌ Figure&#58; Bad example - background colour is manually added to &lt;tablegt; tag
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – It is clear that this example is incorrect",
+    shouldDisplay: true
+  }}
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    ✅ Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example – It is clear that this example is correct.",
+    shouldDisplay: true
+  }}
+/>

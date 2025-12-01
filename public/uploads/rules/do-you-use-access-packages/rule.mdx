@@ -2,47 +2,55 @@
 seoDescription: Streamline access management and ensure robust security with Entra Access Packages.
 type: rule
 title: Do you use Entra Access Packages to give access to resources?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+  - category: categories/software-engineering/rules-to-better-azure.mdx
 uri: do-you-use-access-packages
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
-created: 2023-08-23T06:08:34.119Z
+created: 2023-08-23T23:06:42.000Z
 guid: 86623c40-7433-4723-82a0-9517b28e9079
+lastUpdated: 2024-12-30T04:03:36.000Z
+lastUpdatedBy: Rob Thomlinson [SSW]
+lastUpdatedByEmail: RobThomlinson@ssw.com.au
+createdBy: Warwick Leahy [SSW]
+createdByEmail: 58454534+leahy268@users.noreply.github.com
+isArchived: false
 ---
 
 In today's complex digital landscape, managing user access to resources can be a daunting task for organizations. Entra Access Packages emerge as a game-changer in this scenario, offering a streamlined and efficient approach to identity and access management.
 
 By bundling related resources into cohesive packages, they simplify the process of granting, reviewing, and revoking access. This not only reduces administrative overhead but also enhances security by ensuring that users have the right permissions at the right time. Furthermore, with built-in automation features like approval workflows and periodic access reviews, organizations can maintain a robust and compliant access governance structure. Adopting Azure Access Packages is a strategic move for businesses aiming to strike a balance between operational efficiency and stringent security.
 
-<!--endintro-->
+<endOfIntro />
 
 ## ❌ Bad Example - Manually Requesting Access via Email
 
 In the old-fashioned way, users would send an email to the SysAdmins requesting access to a specific resource. This method is prone to errors, lacks an audit trail, and can lead to security vulnerabilities.
 
-::: email-template
-
-|          |                                          |
-| -------- | ---------------------------------------- |
-| To:      | SysAdmins                                |
-| Cc:      |                                          |
-| Subject: | Request for Access to SugarLearning Prod |
-
-::: email-content
-
-### Dear SysAdmins
+<emailEmbed
+  from=""
+  to="SysAdmins"
+  cc=""
+  bcc=""
+  subject="Request for Access to SugarLearning Prod"
+  shouldDisplayBody={true}
+  body={<>
+    ## Dear SysAdmins
 
 I would like to request access to SugarLearning Prod as Contributor. Please grant me the necessary permissions.
 
 Thanks
 
 Warwick
-:::
-:::
-
-::: bad
-Figure: Bad example - This requires manual changes by a SysAdmin
-:::
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - This requires manual changes by a SysAdmin",
+    shouldDisplay: true
+  }}
+/>
 
 ## ✅ Good Example - Requesting Access via myaccess.microsoft.com
 
@@ -50,23 +58,54 @@ Instead of manually sending emails, users can request access through `myaccess.m
 
 1. **Navigate** to `myaccess.microsoft.com`
 
-   :::good
-   ![Navigate to myaccess.microsoft.com](screenshot-2023-08-23-214846.png)
-   :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Navigate to myaccess.microsoft.com",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-214846.png"
+/>
+
 
 2. **Search** for the desired resource or access package.
 
-   ![Figure: Search for the required resource](screenshot-2023-08-23-215159.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Search for the required resource",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215159.png"
+/>
+
 
 3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
-   ![Request Access](screenshot-2023-08-23-215532.png)
+   ![Request Access](/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215532.png)
 
 4. Wait for **approval** from the people responsible for the resource
 
-   :::greybox
-   **If you require immediate access ping them on Teams**
-   :::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **If you require immediate access ping them on Teams**
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ---
 
@@ -74,23 +113,94 @@ Instead of manually sending emails, users can request access through `myaccess.m
 
 1. **Open Azure Portal**: Navigate to Entra ID | Identity Governance | Access packages.
 
-   ![Figure: Navigate to Azure portal | Access packages | New Access package](screenshot-2023-08-23-220334.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Navigate to Azure portal | Access packages | New Access package",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-220334.png"
+/>
+
 
 2. **New Access Package**: Click on `+ New access package`.
 3. **Fill Details**: Provide a name, description, and select the catalog for the access package.
 
-   ![Figure: Fill out the details and choose a catalog](screenshot-2023-08-23-221623.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Fill out the details and choose a catalog",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-221623.png"
+/>
+
 
 4. **Define Resources**: Add the resources (applications, groups, SharePoint sites) that users will get access to when they request this package.
 
-   ![Figure: Add the required resources](screenshot-2023-08-23-222048.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Add the required resources",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222048.png"
+/>
+
 
 5. **Set Policies**: Define who can request the package, approval workflows, duration of access, and other settings.
 
-   ![Figure: Choose the types of users that can request access](screenshot-2023-08-23-222124.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Choose the types of users that can request access",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222124.png"
+/>
 
-   ![Figure: Choose policies that match the level of access](screenshot-2023-08-23-222210.png)
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Choose policies that match the level of access",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222210.png"
+/>
+
 
 6. **Review and Create**: Ensure all details are correct and then create the access package.
 
-   ![Figure: Review the settings and create the policy](screenshot-2023-08-23-222746.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Review the settings and create the policy",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222746.png"
+/>

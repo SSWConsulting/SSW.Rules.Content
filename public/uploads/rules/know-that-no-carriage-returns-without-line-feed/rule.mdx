@@ -1,27 +1,52 @@
 ---
-seoDescription: DOS and Unix files have different line endings, with DOS using carriage return and line feed, while Unix uses just line feed.
-type: rule
 archivedreason: It is superseded by [https://ssw.com.au/rules/use-environment-newline-to-make-a-new-line-in-your-string](/rules/use-environment-newline-to-make-a-new-line-in-your-string)
-title: Do you know that no carriage returns without line feed?
-guid: 3c62c8bf-eeab-4a87-9ee4-750be54e34eb
-uri: know-that-no-carriage-returns-without-line-feed
-created: 2018-04-30T22:26:48.0000000Z
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-30 22:26:48+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 3c62c8bf-eeab-4a87-9ee4-750be54e34eb
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-know-that-no-carriage-returns-without-line-feed
+- do-you-know-that-no-carriage-returns-without-line-feed
+seoDescription: DOS and Unix files have different line endings, with DOS using carriage
+  return and line feed, while Unix uses just line feed.
+title: Do you know that no carriage returns without line feed?
+type: rule
+uri: know-that-no-carriage-returns-without-line-feed
 ---
 
 Text files created on DOS/Windows machines have different line endings than files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n") as a line ending, which Unix uses just line feed ("\n").
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example](carriage-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/know-that-no-carriage-returns-without-line-feed/carriage-bad.jpg"
+/>
 
-::: good  
-![Figure: Good example](carriage-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/know-that-no-carriage-returns-without-line-feed/carriage-good.jpg"
+/>

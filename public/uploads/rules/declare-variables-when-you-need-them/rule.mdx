@@ -1,22 +1,31 @@
 ---
-seoDescription: Variables should be declared as needed to avoid orphaned declarations and improve code readability.
-type: rule
-title: Do you declare variables when you need them?
-uri: declare-variables-when-you-need-them
+archivedreason: Rule is outdated. Prefer shorter methods that eliminate the need for
+  this rule
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-declare-variables-when-you-need-them
-created: 2018-04-24T21:55:53.000Z
-archivedreason: Rule is outdated. Prefer shorter methods that eliminate the need for this rule
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-24 21:55:54+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 24d23856-bd1a-42c5-b883-793e6c84366a
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-declare-variables-when-you-need-them
+seoDescription: Variables should be declared as needed to avoid orphaned declarations
+  and improve code readability.
+title: Do you declare variables when you need them?
+type: rule
+uri: declare-variables-when-you-need-them
 ---
 
 Should you declare variables at the top of the function, or declare them when you need to use them? If you come back to your code after a few weeks and you no longer need a variable, you are quite likely to forget to delete the declaration at the top, leaving orphaned variables. Here at SSW, we believe that variables should be declared as they are needed.
 
-<!--endintro-->
+<endOfIntro />
 
 ```vbnet
 Private Sub Command0_Click()
@@ -31,11 +40,12 @@ dblWorkLoadToday = Date.Now()
 intRoutesPerDay = 2
 End Sub
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example
-
-:::
 
 ```vbnet
 Private Sub Command0_Click()
@@ -50,8 +60,8 @@ intRoutesPerDay = 2
 ....continuing code...
 .End Sub
 ```
-
-::: good
-Figure: Good example
-
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example",
+  shouldDisplay: true
+} } />

@@ -1,23 +1,32 @@
 ---
-seoDescription: Learn how to prevent email mistakes by delaying sends in Outlook for 15 minutes.
-type: rule
-title: Do you give yourself a second chance by not sending emails immediately?
-uri: avoid-sending-emails-immediately
-authors:
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Harkirat Singh
-    url: https://github.com/0xharkirat
-related:
-  - email-send-a-v2
-redirects:
-  - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
-  - do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
-created: 2013-04-01T14:19:27.000Z
 archivedreason: null
+authors:
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Harkirat Singh
+  url: https://github.com/0xharkirat
+categories:
+- category: categories/communication/rules-to-better-outlook.mdx
+created: 2013-04-01 14:49:30+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: ed5e714c-9f61-495f-a94d-02593d6c1be4
+isArchived: false
+lastUpdated: 2025-07-31 16:10:46+00:00
+lastUpdatedBy: Harkirat Singh [SSW]
+lastUpdatedByEmail: 65155920+0xharkirat@users.noreply.github.com
+redirects:
+- do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
+- do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
+related:
+- rule: public/uploads/rules/email-send-a-v2/rule.mdx
+seoDescription: Learn how to prevent email mistakes by delaying sends in Outlook for
+  15 minutes.
+title: Do you give yourself a second chance by not sending emails immediately?
+type: rule
+uri: avoid-sending-emails-immediately
 ---
 
 How many times have you clicked “Send” and within a minute or so realized you made a mistake and wished that email had not sent yet?
@@ -28,7 +37,7 @@ Also, it's not a good experience for the users who receive a recall, as it does 
 
 What you need to do is to set a rule to delay sending your emails in 15 minutes for example, which gives you time enough to correct it in most of the cases. If you only realize your mistake **after** this amount of time, just use "reply to all", mentioning your changes or [send a v2](/email-send-a-v2) when changes are too substantial.
 
-<!--endintro-->
+<endOfIntro />
 
 ### How you do it in Outlook
 
@@ -48,31 +57,96 @@ What you need to do is to set a rule to delay sending your emails in 15 minutes 
 
 Now when you click Send, each message remains in the Outbox folder for the time that you specified and you can make changes to it until then.
 
-::: bad  
-![Figure: Bad example - Recalling a message when you want to change an email after sending](recall-message_1726800492477.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Recalling a message when you want to change an email after sending",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/recall-message_1726800492477.jpg"
+/>
 
-::: good  
-![Figure: Good example - Delay sending in 15 minutes (make it less or more if necessary)](create-rule-to-delay-sending.jpg)  
-:::
 
-### For Mac 
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Delay sending in 15 minutes (make it less or more if necessary)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/create-rule-to-delay-sending.jpg"
+/>
+
+
+### For Mac
 
 Follow these steps to set a 120-second delay on all outgoing emails:
 
 1. Click **Outlook** in the menu bar
 
-   ![Figure: Outlook | Settings](outlook-settings.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Outlook | Settings",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/outlook-settings.png"
+/>
+
 
 2. Go to **Settings** or press **`cmd` + `,`**
 
 3. Under the **Email** group | Click **Composing**
 
-   ![Figure: Email | Composing](outlook-composing.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Email | Composing",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/outlook-composing.png"
+/>
+
 4. In the **Undo Send** | Set **Wait to send messages for:** to **120 seconds**
 
-   ![Figure: Undo Send | 120 Seconds](undo-send.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Undo Send | 120 Seconds",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/undo-send.png"
+/>
+
 
 5. Send a test email to yourself – you'll see it remain in Drafts with a scheduled send time
 
-   ![Figure: Test email to yourself. See the delayed email in drafts](test-delayed-email.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Test email to yourself. See the delayed email in drafts",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-sending-emails-immediately/test-delayed-email.png"
+/>

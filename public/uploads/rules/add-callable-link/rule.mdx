@@ -1,25 +1,34 @@
 ---
-type: rule
-tips: ""
-title: Do you add 'call-able' links to your website?
-seoDescription: Learn how to enhance customer experience on your website by
-  adding a 'call-able' link. This rule provides step-by-step instructions, best
-  practices, and examples to ensure your contact link is effective and
-  accessible, improving client communication and satisfaction.
-uri: add-callable-link
 authors:
-  - title: Betty Bondoc
-    url: https://ssw.com.au/people/betty-bondoc/
-  - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva/
-related:
-  - right-format-to-show-phone-numbers
-created: 2024-06-06T02:33:57.195Z
+- title: Betty Bondoc
+  url: https://ssw.com.au/people/betty-bondoc/
+- title: Camilla Rosa Silva
+  url: https://ssw.com.au/people/camilla-rosa-silva/
+categories:
+- category: categories/design/rules-to-better-websites-navigation.mdx
+created: 2024-06-06 07:53:14+00:00
+createdBy: Tanya Leahy [SSW]
+createdByEmail: tanyaleahy@ssw.com.au
 guid: 8c96a4b8-b2fb-47f4-a46e-a6e0461cd55c
+isArchived: false
+lastUpdated: 2024-06-07 01:54:01+00:00
+lastUpdatedBy: Camilla Rosa Silva [SSW]
+lastUpdatedByEmail: 53064613+camillars@users.noreply.github.com
+related:
+- rule: public/uploads/rules/right-format-to-show-phone-numbers/rule.mdx
+seoDescription: Learn how to enhance customer experience on your website by adding
+  a 'call-able' link. This rule provides step-by-step instructions, best practices,
+  and examples to ensure your contact link is effective and accessible, improving
+  client communication and satisfaction.
+tips: ''
+title: Do you add 'call-able' links to your website?
+type: rule
+uri: add-callable-link
 ---
+
 In today's fast-paced digital world, customers expect to reach you quickly and efficiently. Adding a 'call-able' link to your website enhances user experience by providing a direct and convenient way to contact you via phone. This small addition can significantly impact customer satisfaction and engagement by removing that extra step of having to copy the number in order to call.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Why add a 'call-able' link?
 
@@ -27,29 +36,47 @@ In today's fast-paced digital world, customers expect to reach you quickly and e
 * **Increased Accessibility**: Particularly beneficial for mobile users who make up a large percentage of web traffic
 * **Enhanced Professionalism**: Demonstrates a commitment to making communication easy for your clients
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 Call Us on 02 1234 5678
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Contact number is not a 'call-able' link",
+  shouldDisplay: true
+} } />
 
-::: bad
 
-Figure: Bad example - Contact number is not a 'call-able' link
 
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
+Call Us on &lt;a href="tel:+61212345678"&gt;+61 2 1234 5678&lt;/a&gt;
 
-::: greybox
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Contact number is a 'call-able' link",
+  shouldDisplay: true
+} } />
 
-Call Us on <a href="tel:+61212345678">+61 2 1234 5678</a>
-
-:::
-
-::: good
-
-Figure: Good example - Contact number is a 'call-able' link
-
-:::
 
 ### How to implement a 'call-able' link
 

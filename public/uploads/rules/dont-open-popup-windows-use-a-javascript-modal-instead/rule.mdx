@@ -1,46 +1,59 @@
 ---
-seoDescription: Avoid JavaScript popups—use modals for better user experience and compliance.
-type: rule
-archivedreason: 
-title: Do you know you should not open popup windows and use a javascript modal instead?
-guid: e240b831-4ab1-49e3-b6b6-22218f6ca97b
-uri: dont-open-popup-windows-use-a-javascript-modal-instead
-created: 2016-11-17T16:15:13.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
+created: 2016-11-17 16:15:14+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: e240b831-4ab1-49e3-b6b6-22218f6ca97b
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
 - do-you-know-you-should-not-open-popup-windows-and-use-a-javascript-modal-instead
-
+seoDescription: Avoid JavaScript popups—use modals for better user experience and
+  compliance.
+title: Do you know you should not open popup windows and use a javascript modal instead?
+type: rule
+uri: dont-open-popup-windows-use-a-javascript-modal-instead
 ---
 
 The popup blockers in several browsers prevent JavaScript from being used to open windows without user interaction (e.g. clicking a link). You should use an anchor tag instead.
 
-<!--endintro-->
+<endOfIntro />
 
 ```html
 <body onload="window.open('http://www.mydomain.com/document.html');return true;">
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Using JavaScrip in OnLoad event",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Using JavaScrip in OnLoad event
-:::
 
 ```html
 <a href="http://www.mydomain.com/document.html" target="_new">Document</a>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration
-:::
 
 ```html
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Using Javascript in an onclick event means you can force a popup window in preference to a new tab and also control the size and placement of the window",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Using Javascript in an onclick event means you can force a popup window in preference to a new tab and also control the size and placement of the window  
-:::
 
 We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

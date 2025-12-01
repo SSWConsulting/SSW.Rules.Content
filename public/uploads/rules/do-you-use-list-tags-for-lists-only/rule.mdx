@@ -1,35 +1,63 @@
 ---
-seoDescription: Use HTML list tags (&lt;ul&gt; and &lt;ol&gt;) for unordered and ordered lists only.
-type: rule
-archivedreason:
-title: Do you use "list" tags for lists only?
-guid: 8775ec15-6a54-4e29-9c2a-43aa1b85e1f5
-uri: do-you-use-list-tags-for-lists-only
-created: 2012-07-02T15:02:44.0000000Z
+archivedreason: null
 authors:
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related: []
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2012-07-02 16:58:48+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 8775ec15-6a54-4e29-9c2a-43aa1b85e1f5
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-use-＂list＂-tags-for-lists-only
+- do-you-use-＂list＂-tags-for-lists-only
+seoDescription: Use HTML list tags (&lt;ul&gt; and &lt;ol&gt;) for unordered and ordered
+  lists only.
+title: Do you use "list" tags for lists only?
+type: rule
+uri: do-you-use-list-tags-for-lists-only
 ---
 
 The HTML list tags &lt;ul&gt; and &lt;ol&gt; should be used for unordered and ordered lists **only** .
 
-<!--endintro-->
+<endOfIntro />
 
 **Tip:** If your list tag (&lt;ul&gt; or &lt;ol&gt;) doesn't have a list item (&lt;li&gt;) inside it, then it's not a list. Consider using another HTML tag (E.g. &lt;p&gt;).
 
-::: greybox
-&lt;ul&gt; A normal text &lt;/ul&gt;  
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;ul&gt; A normal text &lt;/ul&gt;
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 Figure: Bad Example - Using the &lt;ul&gt; for a text
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 &lt;ul&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ul&gt;
 
 &lt;ol&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ol&gt;
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 Figure: Good Example - Using the &lt;ul&gt; and &lt;ol&gt; for lists

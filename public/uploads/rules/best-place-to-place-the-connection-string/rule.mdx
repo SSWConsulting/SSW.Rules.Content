@@ -2,37 +2,49 @@
 seoDescription: Best place to put connection string - IOptions pattern over Web.config enables flexible and robust config in .NET.
 type: rule
 title: Do you know the best place to place the connection string?
+categories:
+  - category: categories/software-engineering/rules-to-better-connection-strings.mdx
 uri: best-place-to-place-the-connection-string
 authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin/
-created: 2024-03-09T06:48:10.371Z
+created: 2024-03-11T17:54:56.000Z
 archivedreason: |
   Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.
 guid: 21370ad5-406f-4830-9b86-65db6ce19214
+lastUpdated: 2025-09-15T12:18:01.000Z
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: true
 ---
 
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 string cnnString = "data source=(local); integrated security=SSPI; persist security info=False; pooling=False; initial catalog=Northwind2";
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad example - Using magic strings",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad example - Using magic strings
-:::
 
 and observe the following code which is simple and easy to read:
 
 ```cs
 string cnnString = LinqToNorthwind.Properties.Settings.Default.NorthwindEFConnectionString;
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Strongly typed connection string",
+  shouldDisplay: true
+} } />
 
-::: good
-Good example - Strongly typed connection string
-:::
 
 ```cs
 private void Form1_Load(object sender, System.EventArgs e)
@@ -46,7 +58,8 @@ private void Form1_Load(object sender, System.EventArgs e)
     cboCity.SelectedIndex = 0;
 }
 ```
-
-::: good
-Good example - Using strongly typed connection string
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good example - Using strongly typed connection string",
+  shouldDisplay: true
+} } />

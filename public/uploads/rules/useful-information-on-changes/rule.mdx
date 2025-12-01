@@ -1,63 +1,96 @@
 ---
-seoDescription: Include a clear and concise summary of your changes to help reviewers quickly understand what was done.
-type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/write-a-good-pull-request/](/rules/write-a-good-pull-request/)
-title: Do you include a useful description of your changes?
-uri: useful-information-on-changes
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - write-a-good-pull-request
-  - github-content-changes
-  - meaningful-pbi-titles
-created: 2023-02-08T19:59:31.616Z
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/communication/rules-to-better-communication.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2023-02-09 00:19:10+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: e126fb1b-8b28-4712-b928-6ba400274015
+isArchived: true
+lastUpdated: 2024-08-01 21:27:36+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+- rule: public/uploads/rules/github-content-changes/rule.mdx
+- rule: public/uploads/rules/meaningful-pbi-titles/rule.mdx
+seoDescription: Include a clear and concise summary of your changes to help reviewers
+  quickly understand what was done.
+title: Do you include a useful description of your changes?
+type: rule
+uri: useful-information-on-changes
 ---
 
 When creating a Pull Request with your changes, it is important to have a good description that will help the reviewer to understand what was done.
 
 Leaving the description blank is common and not helpful. There are also cases where people overexplain. **You should try to include just the right amount of information.**
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-**PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-**PR description:**  
-:::
-::: bad
-Figure: Bad example - Cannot tell what was done here
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-::: greybox
-**PR title:** Update Rule “meaningful-pbi-titles/rule”
+**PR description:**
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - Cannot tell what was done here",
+    shouldDisplay: true
+  }}
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:** Changes made:
 
 1. Added missing video figure to embedded YouTube video
-2. Removed the unecessary closing brackets from:  
-   Use emojis. See our rule on emojis in Scrum).  
-   To:  
+2. Removed the unecessary closing brackets from:
+   Use emojis. See our rule on emojis in Scrum).
+   To:
    Use emojis. See our rule on emojis in Scrum
 
-:::
-::: ok
-Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
-:::
+  </>}
+  figureEmbed={{
+    preset: "okExample",
+    figure: "OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes",
+    shouldDisplay: true
+  }}
+/>
+
 
 Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 
-::: greybox
-**PR title:** Update Rule “meaningful-pbi-titles/rule”
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:** Added missing video caption + removed unnecessary brackets
-:::
-::: good
-Figure: Clear and concise description
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Clear and concise description",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Many small changes
 

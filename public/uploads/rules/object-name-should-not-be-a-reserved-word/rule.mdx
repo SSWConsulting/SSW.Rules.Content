@@ -1,17 +1,25 @@
 ---
-seoDescription: SQL Server reserves certain keywords for its exclusive use, making it essential to avoid using them as object names and identifiers.
-type: rule
-archivedreason:
-title: General - Do you know object name should not be a reserved word?
-guid: e500aff1-de87-4cac-88b1-d86c943920eb
-uri: object-name-should-not-be-a-reserved-word
-created: 2019-11-14T21:07:23.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-14 21:07:26+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: e500aff1-de87-4cac-88b1-d86c943920eb
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - general-do-you-know-object-name-should-not-be-a-reserved-word
+- general-do-you-know-object-name-should-not-be-a-reserved-word
+seoDescription: SQL Server reserves certain keywords for its exclusive use, making
+  it essential to avoid using them as object names and identifiers.
+title: General - Do you know object name should not be a reserved word?
+type: rule
+uri: object-name-should-not-be-a-reserved-word
 ---
 
 SQL Server reserves certain keywords for its exclusive use.
@@ -22,7 +30,7 @@ SQL Server reserves certain keywords for its exclusive use.
 - Although this method does allow for objects whose names are reserved words, it is recommended that you do not name any database objects with a name that is the same as a reserved word.
 - In addition, the SQL-92 standard implemented by Microsoft SQL Server defines a list of reserved keywords.
 
-<!--endintro-->
+<endOfIntro />
 
 Avoid using SQL-92 reserved keywords for object names and identifiers, ie. User, Count, Group, etc. They can be used if joined with other words.
 

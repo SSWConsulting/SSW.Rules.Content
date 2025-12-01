@@ -1,32 +1,51 @@
 ---
-seoDescription: When to use GraphQL? Understand the limitations and advantages of using GraphQL in your application development.
-type: rule
-title: Do you know when to use GraphQL?
-uri: graphql-when-to-use
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Luke Mao
-    url: https://www.ssw.com.au/people/luke-mao
-related: []
-redirects:
-  - do-you-know-when-to-use-graphql
-created: 2020-10-21T18:35:01.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Luke Mao
+  url: https://www.ssw.com.au/people/luke-mao
+categories:
+- category: categories/software-engineering/rules-to-better-web-api-graphql.mdx
+- category: categories/software-engineering/rules-to-better-web-api.mdx
+created: 2020-10-21 18:35:08+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 543dd6a0-a206-4ffe-b2b4-bdf8061a1c5f
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-know-when-to-use-graphql
+seoDescription: When to use GraphQL? Understand the limitations and advantages of
+  using GraphQL in your application development.
+title: Do you know when to use GraphQL?
+type: rule
+uri: graphql-when-to-use
 ---
 
 GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of **types**, **queries,** and **mutations** and your client applications can define their own queries based on that schema. You can think of it as SQL for the web.
 
 GraphQL was developed by Facebook in 2012 to solve a problem with their mobile app, which was chewing users' data and battery and leading to negative reviews. This is because the Facebook newsfeed combines data from many entities and data sources, which required multiple API calls. GraphQL allowed them to retrieve all the data they need with 1 call.
 
-<!--endintro-->
+<endOfIntro />
 
-::: info
-[Facebook open-sourced the GraphQL specification in 2015](http://spec.graphql.org/June2018).
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    [Facebook open-sourced the GraphQL specification in 2015](http://spec.graphql.org/June2018).
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 GraphQL is a query language; it is agnostic of database, programming language, OS, and platforms. To enable GraphQL, you can use client and server libraries (see Resourced below).
 
@@ -45,21 +64,48 @@ GraphQL differs from REST in that REST is concerned with **resources** and Graph
 
 - **No under-fetching:** Sometimes a REST resource may only give you part of what you need. For example, if you need to know all the orders placed by a customer, what date they were ordered, and their current status, but the initial customer search resource only returns the details of the customer, this is called under-fetching. You then need to use the customer’s ID to query your orders resource for all orders matching that customer ID.
 
-::: bad
-![Figure: Bad example – REST API does not return order information with a customer query, so a second API call is needed](graphql-bad-example-underfetching.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – REST API does not return order information with a customer query, so a second API call is needed",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/graphql-bad-example-underfetching.png"
+/>
+
 
 - **No need for over-fetching:** Continuing the above example, you may decide a workaround is to return details of all orders with all customer queries. However, this overwhelms your client with data it doesn’t need most of the time, just to solve a problem in one scenario. This is called over-fetching (and is the specific problem Facebook set out to resolve with GraphQL).
 
-::: bad
-![Figure: Bad example – REST API returns a whole bunch of data the client doesn’t need – killing bandwidth (and, on mobile, battery)](graph-ql-bad-overfetching.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – REST API returns a whole bunch of data the client doesn’t need – killing bandwidth (and, on mobile, battery)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/graph-ql-bad-overfetching.png"
+/>
+
 
 - **Client Defined Queries:** In a REST API, the CRUD operations are defined by the API, and the client application is constrained by the operations available. This means that any changes required by your UI necessitate changes to your back end as well. With GraphQL you can change your client queries to meet changing UI needs without needing to update your back end.
 
-::: good
-![Figure: Good example – Clients can write queries and specify which fields they want the query to return](graphql-good-example-shaped-query.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – Clients can write queries and specify which fields they want the query to return",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/graphql-good-example-shaped-query.png"
+/>
+
 
 ### Disadvantages of GraphQL
 
@@ -68,9 +114,18 @@ Sounds great, right? Well, there are some limitations to be aware of before you 
 - **No caching:** With the exception of the POST HTTP verb, REST calls are idempotent. This means that for any REST call, if the parameters are the same, the result will always be the same. And as REST is built on top of HTTP, and most HTTP stacks have caching built-in, you get client-side caching for free with REST. With GraphQL, this is not possible. If you want to take advantage of caching, it needs to be server-side and requires effort on the part of the developer.
 - **Not suitable for rich content:** GraphQL is a query language, and is fundamentally meant for data. Rich content, like images and videos, is not best suited to GraphQL. GraphQL is a text-based specification, and while it is possible to (for example) encode images into Base64 strings and send them as a field in your GraphQL type, this is not the best way to do it. This is analogous to storing BLOBs in your SQL database – you can do it, but it’s not a good idea.
 
-::: bad
-![Figure: Bad example – Image encoded as Base64 string uses more bandwidth and processing power than necessary, resulting in poor UX](graphql-image-base64.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – Image encoded as Base64 string uses more bandwidth and processing power than necessary, resulting in poor UX",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/graphql-image-base64.png"
+/>
+
 
 ### When to use GraphQL
 
@@ -86,19 +141,46 @@ Some example use cases might include:
 
 GraphQL is not a replacement for REST; in fact, it’s often best to use them together. While GraphQL supports changing state on the server through migrations, the true power of GraphQL is in queries. Many create, update, and delete operations are relatively unchanging and can benefit from being maintained as REST resources – think sign-up forms for example. REST is also better for transferring rich content, like images and videos.
 
-::: good
-![Figure: Good example – GraphQL used to construct a complex query with embedded entities, and images are referenced with a URI that the client can use to retrieve from a REST endpoint](good-example-image-url.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – GraphQL used to construct a complex query with embedded entities, and images are referenced with a URI that the client can use to retrieve from a REST endpoint",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/good-example-image-url.png"
+/>
+
 
 Adam Cogan introducting SSW People [explains how GraphQL can be combined with other technologies to get the best results](https://adamcogan.com/2020/02/10/introducing-ssw-people).
 
-::: good
-![Figure: Good example - Use GraphQL to complement the rest of your tech stack](adam-blog-screenshot.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Use GraphQL to complement the rest of your tech stack",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/adam-blog-screenshot.png"
+/>
 
-::: good
-![Figure: Good example - GraphQL query in the SSW People static web app](people-graph-screenshot.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - GraphQL query in the SSW People static web app",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/graphql-when-to-use/people-graph-screenshot.png"
+/>
+
 
 ### The best GraphQL libraries
 

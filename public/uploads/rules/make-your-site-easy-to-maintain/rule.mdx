@@ -1,33 +1,75 @@
 ---
-seoDescription: Make your site easy to maintain by providing an 'Edit' link on each page for database-driven pages. This allows for quick and easy updates when needed.
-type: rule
-archivedreason:
-title: Do you make your site easy to maintain?
-guid: 2cc65b39-79f2-43bf-b232-4742fd172a0a
-uri: make-your-site-easy-to-maintain
-created: 2016-08-11T18:32:10.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - using-markdown-to-store-your-content
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2020-01-10 01:18:33+00:00
+createdBy: JeanThirion
+createdByEmail: JeanThirion@ssw.com.au
+guid: 2cc65b39-79f2-43bf-b232-4742fd172a0a
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-make-your-site-easy-to-maintain
+- do-you-make-your-site-easy-to-maintain
+related:
+- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+seoDescription: Make your site easy to maintain by providing an 'Edit' link on each
+  page for database-driven pages. This allows for quick and easy updates when needed.
+title: Do you make your site easy to maintain?
+type: rule
+uri: make-your-site-easy-to-maintain
 ---
 
 If you have database driven pages on your website, you need a way of updating the data quickly and easily. **Each page should have an 'Edit' link** - only visible when the site is running internally or in administrator mode - that takes you directly to the page for editing the content on that page.
 
 The exception to this is if you are using open-source data. [SSW.People](https://ssw.com.au/people/) is a good example of this.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: "New" and "Edit" links allow SSW Employees to maintain testimonial entries easily](MaintenanceDemo.gif)
 
-![Figure: "Edit" button on WordPress admin bar](wordpress-edit.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "\"New\" and \"Edit\" links allow SSW Employees to maintain testimonial entries easily",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/make-your-site-easy-to-maintain/MaintenanceDemo.gif"
+/>
 
-::: good  
-![Figure: Good Example - "Edit" button on an Open Source page](github-edit.png)  
-:::
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "\"Edit\" button on WordPress admin bar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/make-your-site-easy-to-maintain/wordpress-edit.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - \"Edit\" button on an Open Source page",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/make-your-site-easy-to-maintain/github-edit.png"
+/>
+
 
 From Github, you can edit and submit a pull request. See https://github.com/SSWConsulting/SSW.People.Profiles/wiki (SSW People) or https://github.com/SSWConsulting/SSW.Rules.Content/wiki (SSW Rules) for more details.
 

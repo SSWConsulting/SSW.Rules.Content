@@ -1,30 +1,40 @@
 ---
-seoDescription: Manage appointments efficiently in Microsoft Teams and Outlook by creating, joining, editing, and leaving meetings easily.
-type: rule
-title: Appointments - Do you make your Teams meetings easy to find?
-uri: do-you-make-your-team-meetings-easy-to-find
-authors:
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy
-related:
-  - methodology-daily-scrums
-  - do-you-know-what-happens-at-a-sprint-review-meeting
-  - entra-group-access-reviews
-redirects:
-  - appointments-do-you-make-your-team-meetings-easy-to-find
-created: 2020-04-02T06:07:17.000Z
 archivedreason: null
+authors:
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jean Thirion
+  url: https://ssw.com.au/people/jean-thirion
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy
+categories:
+- category: categories/communication/rules-to-better-calendars.mdx
+- category: categories/communication/rules-to-better-microsoft-teams.mdx
+created: 2020-04-02 06:07:17+00:00
+createdBy: MatthewWicks
+createdByEmail: MatthewWicks@ssw.com.au
 guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- appointments-do-you-make-your-team-meetings-easy-to-find
+related:
+- rule: public/uploads/rules/methodology-daily-scrums/rule.mdx
+- rule: public/uploads/rules/what-happens-at-a-sprint-review-meeting/rule.mdx
+- rule: public/uploads/rules/entra-group-access-reviews/rule.mdx
+seoDescription: Manage appointments efficiently in Microsoft Teams and Outlook by
+  creating, joining, editing, and leaving meetings easily.
+title: Appointments - Do you make your Teams meetings easy to find?
+type: rule
+uri: do-you-make-your-team-meetings-easy-to-find
 ---
 
 When a developer joins a team, they need to find important meetings like the Daily Scrum and the Sprint Review. Unfortunately, these meetings are often organized by a team member and there is no way to find them.
@@ -33,21 +43,48 @@ Ideally, a new team member would jump into Microsoft Teams and find the team the
 
 From then on, they would be able to see those appointments in Microsoft Outlook and edit them as needed.
 
-<!--endintro-->
+<endOfIntro />
 
 In the past, the best way to do this was to create a SharePoint page with a Group Calendar web part, and then add this as a tab in Teams. Microsoft Teams have since released Channel Calendars, which are better because they are built in.
 
-::: bad
-![Figure: Bad example - A team member searching for the Daily Scrum cannot find it if it is scheduled like a normal meeting](teams-meetings-bad-example.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - A team member searching for the Daily Scrum cannot find it if it is scheduled like a normal meeting",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-meetings-bad-example.png"
+/>
 
-::: ok
-![Figure: OK example - In the past, a SharePoint page was the best way to make meetings visible to the team](team-meetings-ok-example.jpg)
-:::
 
-::: good
-![Figure: Good example - A Microsoft Teams Channel Calendar allows team members to see the Team's meetings before being invited](teams-calendar-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - In the past, a SharePoint page was the best way to make meetings visible to the team",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/team-meetings-ok-example.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A Microsoft Teams Channel Calendar allows team members to see the Team's meetings before being invited",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-calendar-good.png"
+/>
+
 
 `youtube: MYIjVqD8AUo`
 **Video: An awesome introduction to Channel Calendars in Teams (7 min)**
@@ -71,11 +108,33 @@ B. Make the Channel Calendar visible in Microsoft Outlook
 5. Click "Add"
 6. All done, now the team can see all meetings relating to the team
 
-![Figure: Adding a Channel Calendar](adding-channel-calendar.png)
 
-::: greybox
-**Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Adding a Channel Calendar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/adding-channel-calendar.png"
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team, then this tab should be automatically created.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### B. Make the Channel Calendar visible in Microsoft Outlook
 
@@ -83,17 +142,27 @@ Channel Calendar meetings need to be editable by anyone in the Team and the only
 
 By default, group calendars do not show up in Microsoft Outlook, so they need to be made visible to the team with a PowerShell command:
 
-::: greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 ```bash
-Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$False
+Set-UnifiedGroup -identity &#123;&#123; GROUP NAME &#125;&#125; -HiddenFromExchangeClientsEnabled:$False
 ```
 
 **Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled&WT.mc_id=M365-MVP-33518) will also make the teams' group email address show in the global address list (GAL).
 
 More info on [removing a Meeting in a Teams Channel when the organizer is gone](https://techcommunity.microsoft.com/t5/microsoft-teams/removing-a-meeting-in-a-teams-channel-when-the-organizer-is-gone/m-p/2106354?WT.mc_id=M365-MVP-33518).
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 This can also be done from the Microsoft Admin Center:
 
@@ -101,9 +170,33 @@ This can also be done from the Microsoft Admin Center:
 2. Go to Teams & Groups | Active teams & groups
 3. Search for the Teams group | Settings | Uncheck "Don't show team email address in Outlook"
 
-![Figure: Admin portal - Show Teams email adress in Outlook ](2023-10-06_14-57-03.jpg)
 
-![Figure: Microsoft Outlook group calendars allow meetings to be edited](team-calendar.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Admin portal - Show Teams email adress in Outlook",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/2023-10-06_14-57-03.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Microsoft Outlook group calendars allow meetings to be edited",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/team-calendar.png"
+/>
+
 
 ## Manage Appointments - Team members create, join, edit, and leave meetings themselves
 
@@ -124,9 +217,19 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
 1. Follow the rule on [how to create recurring team meetings for a channel](/create-recurring-teams-meetings-for-a-channel)
 2. Add this text at the bottom - This will direct people to this rule when they go to edit it.
 
-::: greybox
-\< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} /\>
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    \&lt; Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: &#123;&#123; TEAM NAME &#125;&#125; /\&gt;
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### B. Join a meeting
 
@@ -137,7 +240,19 @@ To join a meeting do the following:
 3. Select "Add to calendar"
 4. Done! You are now one of the meeting attendees.
 
-![Figure: In Microsoft Teams add the event to your calendar](teams-add-to-calendar.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "In Microsoft Teams add the event to your calendar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/teams-add-to-calendar.png"
+/>
+
 
 ### C. Edit a meeting
 
@@ -148,7 +263,19 @@ To update a meeting, you must change the details from the Microsoft Outlook grou
 3. Open the appointment and select **The entire series**
 4. Make changes as needed
 
-![Figure: In Microsoft Outlook edit the appointment using the group calendar](EditSugarLearningDailyScrum.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "In Microsoft Outlook edit the appointment using the group calendar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/EditSugarLearningDailyScrum.png"
+/>
+
 
 ### D. Leave a meeting
 
@@ -162,16 +289,43 @@ To leave a meeting properly:
 4. Remove yourself as a participant
 5. Double-check that no other mailboxes have been added which include you e.g. the Team mailbox
 
-::: bad
-![Figure: Bad example - Hitting decline on a Microsoft Outlook calendar item only removes you from the meeting temporarily](declining-appointment.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Hitting decline on a Microsoft Outlook calendar item only removes you from the meeting temporarily",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/declining-appointment.png"
+/>
 
-::: good
-![Figure: Good example - Remove yourself from the meeting](edit-appointment.png)
-:::
 
-:::greybox
-Of course, another option - if appropriate - is to remove yourself from the Team completely.
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Remove yourself from the meeting",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-make-your-team-meetings-easy-to-find/edit-appointment.png"
+/>
+
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Of course, another option - if appropriate - is to remove yourself from the Team completely.
 
 To keep your Teams clean automatically, [use Entra Access Reviews](/entra-group-access-reviews/).
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>

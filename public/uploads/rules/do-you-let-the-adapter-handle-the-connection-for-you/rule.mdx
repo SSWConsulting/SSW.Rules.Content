@@ -1,26 +1,33 @@
 ---
-seoDescription: Do you let the adapter handle the connection for you?
-type: rule
-title: Do you let the adapter handle the connection for you?
-uri: do-you-let-the-adapter-handle-the-connection-for-you
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
-redirects: []
-created: 2009-04-29T07:35:13.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2009-12-04 08:39:32+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
 guid: 9b01cc5c-33b7-4f14-a1ed-9392b8d229df
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: Do you let the adapter handle the connection for you?
+title: Do you let the adapter handle the connection for you?
+type: rule
+uri: do-you-let-the-adapter-handle-the-connection-for-you
 ---
 
 Did you know if you are using DataSets throughout your application (not data readers) then you don't need to have any code about connection opening or closing.
 
 Some say it is better to be explicit. However the bottom line is less code is less bugs.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 try
@@ -38,10 +45,12 @@ finally
     cnn.Close();
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad code: The connection code is not needed",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad code: The connection code is not needed  
-:::
 
 ```cs
 try
@@ -53,10 +62,12 @@ catch (SQLException ex)
     MessageBox.Show(ex.Message);
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good code: Letting the adapter worry about the connection",
+  shouldDisplay: true
+} } />
 
-::: good
-Good code: Letting the adapter worry about the connection
-:::
 
 **Note:** A common comment for this rule is... _"Please tell users to explicitly open and close connection - even when the .NET Framework can do for them"_
 

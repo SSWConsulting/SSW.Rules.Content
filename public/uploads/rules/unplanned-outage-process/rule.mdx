@@ -1,30 +1,49 @@
 ---
-seoDescription: Unplanned outage process for SysAdmins to ensure minimal disruption to business operations while resolving hardware and service outages.
-type: rule
-title: Outage - Do you have an unplanned outage process?
-uri: unplanned-outage-process
-authors:
-  - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
-  - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kaique-biancatti
-    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
-related:
-  - planned-outage-process
-redirects:
-  - do-you-have-an-unplanned-outage-process
-created: 2021-01-07T13:16:27.000Z
 archivedreason: null
+authors:
+- title: Steven Andrews
+  url: https://ssw.com.au/people/steven-andrews
+- img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
+  title: Kiki Biancatti
+  url: https://www.ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2021-01-07 13:16:31+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: d96278bc-f927-4079-ba6c-c0b3c9a49b0d
+isArchived: false
+lastUpdated: 2024-02-08 19:04:32+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- do-you-have-an-unplanned-outage-process
+related:
+- rule: public/uploads/rules/planned-outage-process/rule.mdx
+seoDescription: Unplanned outage process for SysAdmins to ensure minimal disruption
+  to business operations while resolving hardware and service outages.
+title: Outage - Do you have an unplanned outage process?
+type: rule
+uri: unplanned-outage-process
 ---
 
 During your course of being a SysAdmin, you will come across many unplanned outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do in the event of these outages?
 
-<!--endintro-->
+<endOfIntro />
 
-::: info
-For planned outages, see [Outage - Do you have a planned outage process?](/planned-outage-process)
-:::
+
+<asideEmbed
+  variant="info"
+  body={<>
+    For planned outages, see [Outage - Do you have a planned outage process?](/planned-outage-process)
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Below is a process for these types of outages. Some amount of common sense is required here, an outage would be if services that would affect BAU work are disrupted and/or some hardware has failed.
 
@@ -70,14 +89,15 @@ If you cannot reach anyone move on to the Email section.
 
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | SSWAll |
-| Subject: | SysAdmins – Outage Notice |
-::: email-content
-
-### Hi All
+<emailEmbed
+  from=""
+  to="SSWAll"
+  cc=""
+  bcc=""
+  subject="SysAdmins – Outage Notice"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi All
 
 We are experiencing an outage and the following services have been affected:
 
@@ -89,20 +109,25 @@ We are working on restoring these services and will keep you updated.
 
 Thank you,
 SysAdmins
-
-:::  
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  }}
+/>
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | SysAdmins |
-| Subject: | SysAdmins – Outage Notice |
-::: email-content
-
-### Hi Team
+<emailEmbed
+  from=""
+  to="SysAdmins"
+  cc=""
+  bcc=""
+  subject="SysAdmins – Outage Notice"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Team
 
 As per our conversation,
 
@@ -120,7 +145,7 @@ The impact of these services disrupted are:
 
 We have decided that an email to ALL is/is not required.
 
-### To myself
+## To myself
 
 The next steps to resolving this are:
 
@@ -130,9 +155,13 @@ The next steps to resolving this are:
 
 Thank you,
 SysAdmin
-
-:::
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "Example",
+    shouldDisplay: false
+  }}
+/>
 
 ### Next steps did NOT resolve the issue
 

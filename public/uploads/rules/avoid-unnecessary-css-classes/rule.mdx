@@ -1,25 +1,34 @@
 ---
-seoDescription: Avoid unnecessary CSS classes and reuse existing ones to keep your code clean and maintainable.
-type: rule
-title: Do you avoid adding unnecessary CSS classes?
-uri: avoid-unnecessary-css-classes
 authors:
-  - title: Geordie Robinson
-    url: https://www.ssw.com.au/people/geordie-robinson
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-related:
-  - css-frameworks
-  - less-is-more
-created: 2022-07-28T06:06:37.551Z
+- title: Geordie Robinson
+  url: https://www.ssw.com.au/people/geordie-robinson
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2022-08-09 00:05:55+00:00
+createdBy: Geordie Robinson [SSW]
+createdByEmail: 97079655+Geordie88@users.noreply.github.com
 guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
+isArchived: false
+lastUpdated: 2025-09-18 12:04:17+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+related:
+- rule: public/uploads/rules/css-frameworks/rule.mdx
+- rule: public/uploads/rules/less-is-more/rule.mdx
+seoDescription: Avoid unnecessary CSS classes and reuse existing ones to keep your
+  code clean and maintainable.
+title: Do you avoid adding unnecessary CSS classes?
+type: rule
+uri: avoid-unnecessary-css-classes
 ---
 
 When creating or editing CSS or HTML, it's important to avoid adding unnecessary classes and IDs.
 
 It can be tempting to add classes to elements, as it's often the most obvious solution to CSS problems. However doing so can lead to cluttered code and overly specific solutions. When working with CSS, it's almost always better to reuse existing classes rather than adding new ones.
 
-<!--endintro-->
+<endOfIntro />
 
 You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/). The best front-end frameworks will include most of the clases you will need on a project. Basically you will only need new classes for **very specific** layout elements.
 
@@ -36,19 +45,27 @@ You should [use a front-end CSS framework](/css-frameworks), like [Bootstrap](ht
   margin-top: 0;
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - The \"view-all-link\" class was added unnecessarily",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - The "view-all-link" class was added unnecessarily
-:::
 
-::: greybox
-**HTML:**
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **HTML:**
 
 ```html
-<a class="mt-0" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
+&lt;a class="mt-0" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV"&gt;View All&lt;/a&gt;
 ```
 
-:::
-::: good
-Figure: Good example - Using a front-end framework class has the same effect without adding any extra CSS ruleset
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - Using a front-end framework class has the same effect without adding any extra CSS ruleset",
+    shouldDisplay: true
+  }}
+/>

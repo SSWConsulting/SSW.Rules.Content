@@ -1,19 +1,29 @@
 ---
-seoDescription: Power BI users can leverage DAX to create calculated columns or measures, with the former stored in the database and used for filtering/grouping data, while the latter computes numerical metrics on aggregates of values at query time.
-type: rule
-archivedreason:
-title: Do you know the difference between Calculated Columns and Measures in Power BI?
-guid: 0ea58893-e64e-42b4-81bb-be2a2612f046
-uri: do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
-created: 2016-10-24T06:02:07.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/company-operations/rules-to-better-power-bi.mdx
+created: 2016-10-24 06:02:10+00:00
+createdBy: ulyssesmaclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
+guid: 0ea58893-e64e-42b4-81bb-be2a2612f046
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Power BI users can leverage DAX to create calculated columns or measures,
+  with the former stored in the database and used for filtering/grouping data, while
+  the latter computes numerical metrics on aggregates of values at query time.
+title: Do you know the difference between Calculated Columns and Measures in Power
+  BI?
+type: rule
+uri: do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
 ---
 
 When you run into a wall in Power BI and feel like you've exhausted the out of the box functionality, that when it's time to investigate what a bit of DAX can do for you.
 
-<!--endintro-->
+<endOfIntro />
 
 There are 2 different things you can do with DAX, create a Measure or a Calculated Column.
 
@@ -31,8 +41,8 @@ Measures:
 ```dax
 GroupingColumn = if (value<x, small, if(value<y, medium, large))
 ```
-
-::: good
-Figure - Good Example: Nested if statements are a great way to split up your data into groups
-
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure - Good Example: Nested if statements are a great way to split up your data into groups",
+  shouldDisplay: true
+} } />

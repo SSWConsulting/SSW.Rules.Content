@@ -1,32 +1,51 @@
 ---
-seoDescription: Avoid displaying valid email addresses on your website to prevent spam and email harvesting.
-type: rule
-title: "Do you avoid using mailto: on your website?"
-uri: avoid-using-mailto-on-your-website
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-avoid-using-mailto-on-your-website
-created: 2016-11-16T17:15:31.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+created: 2016-11-16 17:15:32+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 527b3e90-652e-4832-bb18-17d39421ec0e
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-avoid-using-mailto-on-your-website
+seoDescription: Avoid displaying valid email addresses on your website to prevent
+  spam and email harvesting.
+title: 'Do you avoid using mailto: on your website?'
+type: rule
+uri: avoid-using-mailto-on-your-website
 ---
 
 Don't ever display valid individual email addresses or `mailto:` on a website. Nasty people on the web have created "Email Harvesting" tools. These programs search public areas on the Internet to compile, capture, or otherwise "harvest" lists of email addresses from web pages, newsgroups, and chat rooms. Any email address that is spelled out can be captured and therefore gets attacked with spam.
 
 The best way to avoid it is not to display valid individual email addresses in text format (especially in the form of "mailto:") on your website.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-<FirstnameSurname@ssw.com.au>
-:::
 
-::: bad
-Figure: Bad way - normal email address in text format
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    &lt;FirstnameSurname@ssw.com.au&gt;
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad way - normal email address in text format",
+  shouldDisplay: true
+} } />
+
 
 ###  Better way: encryption technique
 

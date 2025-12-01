@@ -1,25 +1,35 @@
 ---
-seoDescription: Do you use "Tree of Thought" prompts for complex reasoning? Improve ChatGPT's reasoning abilities with Tree of Thought (ToT) prompting! This technique enhances the model's ability to answer complex questions by exploring multiple branches of reasoning and self-correcting as it goes along.
-type: rule
-title: Do you use "Tree of Thought" prompts for complex reasoning?
-uri: tree-of-thought-prompts-for-complex-reasoning
-authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related: []
-redirects:
-  - do-you-know-tree-of-thought-prompts
-  - do-you-know-prompts-for-complex-reasoning
-created: 2023-11-26T23:10:50.651Z
 archivedreason: null
+authors:
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+categories:
+- category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
+created: 2023-09-20 16:40:49+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 0e84b5e3-cbe7-42cf-98b1-57fd0074b994
+isArchived: false
+lastUpdated: 2023-11-27 21:22:10+00:00
+lastUpdatedBy: Ulysses Maclaren [SSW]
+lastUpdatedByEmail: 45545178+UlyssesMaclaren@users.noreply.github.com
+redirects:
+- do-you-know-tree-of-thought-prompts
+- do-you-know-prompts-for-complex-reasoning
+seoDescription: Do you use "Tree of Thought" prompts for complex reasoning? Improve
+  ChatGPT's reasoning abilities with Tree of Thought (ToT) prompting! This technique
+  enhances the model's ability to answer complex questions by exploring multiple branches
+  of reasoning and self-correcting as it goes along.
+title: Do you use "Tree of Thought" prompts for complex reasoning?
+type: rule
+uri: tree-of-thought-prompts-for-complex-reasoning
 ---
 
 Imagine you're using ChatGPT and you find that the model's answers lack depth or reasoning. You're not alone. Many users experience this, especially when asking complex questions. Tree of Thought (ToT) prompting can be a game-changer in such scenarios.
 
 **Note:** If you're on GPT Plus, you can use this custom GPT: [Tree of Thought Problem Solver](https://chat.openai.com/g/g-CIFNL94KS-tree-of-thoughts-problem-solver).
 
-<!--endintro-->
+<endOfIntro />
 
 ### What is Tree of Thought Prompting?
 
@@ -39,38 +49,70 @@ Use ToT prompting when you need more reasoned and nuanced answers from ChatGPT, 
 
 The basic structure of a ToT prompt involves asking the model to imagine multiple experts debating the question. Each expert shares one step of their reasoning before moving on to the next.
 
-::: greybox
-“Imagine 3-6 different experts are answering this question. {{ YOUR QUESTION }}
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    “Imagine 3-6 different experts are answering this question. &#123;&#123; YOUR QUESTION &#125;&#125;
 
 All experts will write down 1 step of their thinking, then share it with the group. Then all experts will go on to the next step, etc. If any expert realizes they're wrong at any point, then they leave.
 
 Continue this process until we have a definitive answer.”
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - This structure allows the model to explore multiple reasoning paths and self-correct",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - This structure allows the model to explore multiple reasoning paths and self-correct
-:::
 
 ### Examples
 
-::: greybox
-"Should I vote 'yes' or 'no' on The Voice?"
-:::
 
-::: bad
-Figure: Bad example - This is a nuanced question and this simple prompt is unlikely to fully explore the options
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Should I vote 'yes' or 'no' on The Voice?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - This is a nuanced question and this simple prompt is unlikely to fully explore the options",
+  shouldDisplay: true
+} } />
 
-::: greybox
-"Read https://voice.gov.au
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    "Read https://voice.gov.au
 
 Imagine 3 different experts are answering this question: "Should we vote 'yes' or 'no' on The Voice?"
 
 All experts will write down 1 step of their thinking, then share it with the group. Then all experts will go on to the next step, etc. If any expert realizes they're wrong at any point, then they leave.
 
 Continue this process, until you have a definitive 'yes' or 'no' answer"
-:::
-
-::: good
-Figure: Good example - This is a complex question that benefits from ToT prompting
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - This is a complex question that benefits from ToT prompting",
+  shouldDisplay: true
+} } />

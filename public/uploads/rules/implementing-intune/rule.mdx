@@ -2,19 +2,27 @@
 seoDescription: Microsoft Intune is a mobile device management (MDM) and application management solution that enables organizations to control how devices are used, including setting policies for app access and data protection.
 type: rule
 title: Do you use Microsoft Intune?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 uri: implementing-intune
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
-created: 2022-05-13T05:08:59.614Z
+created: 2022-05-14T06:20:19.000Z
 guid: a8d119d1-50fa-4296-95db-84eceb65accd
+lastUpdated: 2025-07-31T00:46:18.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Ash Anil [SSW]
+createdByEmail: 100336252+AshAnil@users.noreply.github.com
+isArchived: false
 ---
 
 [Intune](https://www.ssw.com.au/consulting/intune) is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
 
-<!--endintro-->
+<endOfIntro />
 
 Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Entra ID to control who has access and what they can access.
 
@@ -30,28 +38,91 @@ With Intune, you can:
 
 When Intune is connected to Entra ID its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Entra ID.
 
-:::info
 
+<asideEmbed
+  variant="info"
+  body={<>
+    
 If you are using Conditional Access for MFA, you will need to add an exception for the **Microsoft Intune Enrollment** app for hybrid-joined devices to be able to enroll.
 
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-![Figure: Intune connected to Entra ID](intune_aad.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Intune connected to Entra ID",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/implementing-intune/intune_aad.png"
+/>
+
 
 * SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
 
-![Figure: Devices managed by Intune](devices_intunes.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Devices managed by Intune",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/implementing-intune/devices_intunes.png"
+/>
+
 
 * We can get reports on device compliance at any time.
 
-::: bad
-![Bad example - Errors in compliance check](bad_example_compliance.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Errors in compliance check",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/implementing-intune/bad_example_compliance.png"
+/>
 
-::: good
-![Good example - Compliant device](good_example_compliance.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Compliant device",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/implementing-intune/good_example_compliance.png"
+/>
+
 
 There are many other MDM solutions out there, but Intune is best if you're mostly managing Windows devices (and some iOS/Android as well). JAMF is a great option if you're only using iOS/MacOS devices.
 
-![Figure: Jamf architecture to monitor IOS devices](diagram5.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Jamf architecture to monitor IOS devices",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/implementing-intune/diagram5.png"
+/>

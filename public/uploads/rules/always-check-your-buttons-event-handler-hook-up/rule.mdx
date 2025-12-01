@@ -1,22 +1,30 @@
 ---
-seoDescription: Do you always check your button's event handler hook-up to ensure a responsive UI experience?
-type: rule
-archivedreason:
-title: Do you always check your button's event handler hook-up?
-guid: a2a5ba5a-ed9c-4640-974e-747af2860cf9
-uri: always-check-your-buttons-event-handler-hook-up
-created: 2018-04-26T21:27:02.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code-legacy.mdx
+created: 2018-04-26 21:27:02+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a2a5ba5a-ed9c-4640-974e-747af2860cf9
+isArchived: false
+lastUpdated: 2024-06-11 00:27:00+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-always-check-your-buttons-event-handler-hook-up
+- do-you-always-check-your-buttons-event-handler-hook-up
+seoDescription: Do you always check your button's event handler hook-up to ensure
+  a responsive UI experience?
+title: Do you always check your button's event handler hook-up?
+type: rule
+uri: always-check-your-buttons-event-handler-hook-up
 ---
 
 Sometimes the button's event handler hook-up could be lost by accident, but there will be no warning or error reported when you compile your applications.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 this.button1 = new System.Windows.Forms.Button();
@@ -27,11 +35,12 @@ this.button1.Size = new System.Drawing.Size(75, 23);
 this.button1.TabIndex = 60;
 this.button1.UseVisualStyleBackColor = true;
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Bad Example - the event handler hook-up is lost, so there will be no response after you click the button",
+  shouldDisplay: true
+} } />
 
-::: bad
-Bad Example - the event handler hook-up is lost, so there will be no response after you click the button
-
-:::
 
 ```cs
 this.btnResetAll = new System.Windows.Forms.Button();
@@ -44,8 +53,8 @@ this.btnResetAll.Text = "Reset &All";
 this.btnResetAll.UseVisualStyleBackColor = true;
 this.btnResetAll.Click += new System.EventHandler(this.btnResetAll_Click);
 ```
-
-::: good
-Good Example : keep the event handler hook-up together with the initialization of the button
-
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Good Example : keep the event handler hook-up together with the initialization of the button",
+  shouldDisplay: true
+} } />

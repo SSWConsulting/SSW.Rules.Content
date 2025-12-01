@@ -1,22 +1,30 @@
 ---
-seoDescription: Enable file auditing on your Windows server to monitor and track access to files and folders, ensuring enhanced security and compliance.
-type: rule
-archivedreason:
-title: Do you turn on file auditing for your file server?
-guid: f274fa44-ce17-4bde-981d-ef3329d3c8af
-uri: turn-on-file-auditing-for-your-file-server
-created: 2020-08-24T21:11:16.0000000Z
+archivedreason: null
 authors:
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related: []
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-windows-servers.mdx
+created: 2020-08-24 21:11:18+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: f274fa44-ce17-4bde-981d-ef3329d3c8af
+isArchived: false
+lastUpdated: 2020-08-24 21:27:04+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-turn-on-file-auditing-for-your-file-server
+- do-you-turn-on-file-auditing-for-your-file-server
+seoDescription: Enable file auditing on your Windows server to monitor and track access
+  to files and folders, ensuring enhanced security and compliance.
+title: Do you turn on file auditing for your file server?
+type: rule
+uri: turn-on-file-auditing-for-your-file-server
 ---
 
 Windows Server has a built-in solution for auditing who accessed your files in a file share or non-shared files in your file system, but it is turned off by default.
 
-<!--endintro-->
+<endOfIntro />
 
 "Advanced Audit Policy Configuration" is a Group Policy setting in Windows that enables several audit options for your files, e.g.:
 
@@ -30,9 +38,18 @@ To get to this setting, you need to:
 3. Choose the setting that applies to you e.g. Object Access
 4. Edit the subcategory | Check "Success" and "Failure" as best practices
 
-::: good  
-![Figure: Good Example - Auditing Successes and Failures in your file shares](auditing-success-and-fail.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - Auditing Successes and Failures in your file shares",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/turn-on-file-auditing-for-your-file-server/auditing-success-and-fail.png"
+/>
+
 
 After that, your server will start logging audit events in the Event Viewer. To filter relevant events, do the following:
 
@@ -43,9 +60,18 @@ After that, your server will start logging audit events in the Event Viewer. To 
    3. 5145 (A network share object was checked to see whether the client can be granted desired access.) - Event ID when a network user accesses a file share file
 3. The relevant logs will start popping up:
 
-::: good  
-![Figure: Good example - Filtered logs with file access information](filtered-logs.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Filtered logs with file access information",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/turn-on-file-auditing-for-your-file-server/filtered-logs.png"
+/>
+
 
 4. Click on each entry for a detailed explanation on which file was opened, which IP address was used and which user initiated the action
 

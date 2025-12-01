@@ -1,34 +1,43 @@
 ---
-seoDescription: Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a Spec Review for any one of the following possible cases
-type: rule
-archivedreason:
-title: Do you know how thorough your customer's specifications are?
-guid: 4e313ea3-4b70-41fd-b579-10f76f5ee919
-uri: specification-levels
-created: 2011-02-28T08:25:37.0000000Z
+archivedreason: null
 authors:
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+categories:
+- category: categories/client-engagement/rules-to-better-specification-reviews.mdx
+created: 2022-04-22 01:30:41+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
+guid: 4e313ea3-4b70-41fd-b579-10f76f5ee919
+isArchived: false
+lastUpdated: 2023-09-15 15:23:26+00:00
+lastUpdatedBy: Zach Keeping [SSW]
+lastUpdatedByEmail: 11418832+zacharykeeping@users.noreply.github.com
 redirects:
-  - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)
-  - spec-do-you-know-how-thorough-your-customers-specifications-are-there-are-5-levels
-  - spec-do-you-know-how-thorough-your-customers-specifications-are-(there-are-5-levels)
-  - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-there-are-5-levels
+- spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)
+- spec-do-you-know-how-thorough-your-customers-specifications-are-there-are-5-levels
+- spec-do-you-know-how-thorough-your-customers-specifications-are-(there-are-5-levels)
+- spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-there-are-5-levels
+seoDescription: Different clients will have different levels of documentation on what
+  they want to be built. You need to be ready to do a Spec Review for any one of the
+  following possible cases
+title: Do you know how thorough your customer's specifications are?
+type: rule
+uri: specification-levels
 ---
 
 Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a Spec Review for any one of the following possible cases:
 
-<!--endintro-->
+<endOfIntro />
 
 There are 5 levels/types of Specifications:
 
 ### 1. I have an idea
 
-Run from this  
-or  
+Run from this
+or
 Verify they have a really hefty bank account!
 
 ### 2. High-Level Requirements Document
@@ -45,7 +54,19 @@ The details have been fleshed out and allow developers to write Functional and T
 * Password should be at least 8 characters
 * .NET is already used for the existing site so that is what this should use of course
 
-![Figure: Detailed Requirements have more of the details you want](LoginInterface.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Detailed Requirements have more of the details you want",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/specification-levels/LoginInterface.jpg"
+/>
+
 
 ### 4. Functional Specification
 
@@ -72,8 +93,8 @@ This is the blueprint for the application. There should be no unanswered questio
   * For example Joe Jones -&gt; jjones
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
-* Define the data model explicitly  
-  ![](Table.jpg)
+* Define the data model explicitly
+  ![](/uploads/rules/specification-levels/Table.jpg)
 * Must work with IE7, IE8, IE9, and FF3
 * Must display correctly at 1024x768 resolution
 * Must support ANSI characters for Username and Password

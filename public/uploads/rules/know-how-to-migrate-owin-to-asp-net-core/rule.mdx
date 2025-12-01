@@ -1,16 +1,26 @@
 ---
-seoDescription: Learn how to migrate OWIN-based authentication to ASP.NET Core for modern web applications.
-type: rule
-title: Do you know how to migrate OWIN to ASP.NET Core?
-uri: know-how-to-migrate-owin-to-asp-net-core
 authors:
-  - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
-related:
-  - choosing-authentication
-created: 2023-07-31T23:22:58.333Z
+- title: Nick Curran
+  url: https://ssw.com.au/people/nick-curran
+categories:
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+created: 2023-08-01 00:19:10+00:00
+createdBy: Nick Curran [SSW]
+createdByEmail: 132531112+ncn-ssw@users.noreply.github.com
 guid: 004c52d9-30a5-4b9c-963a-e93988a31075
+isArchived: false
+lastUpdated: 2025-10-01 06:48:29+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/choosing-authentication/rule.mdx
+seoDescription: Learn how to migrate OWIN-based authentication to ASP.NET Core for
+  modern web applications.
+title: Do you know how to migrate OWIN to ASP.NET Core?
+type: rule
+uri: know-how-to-migrate-owin-to-asp-net-core
 ---
+
 OWIN is the [Open Web Interface for .NET](http://owin.org/), which was intended to provide a standard interface between .NET web servers and web applications for ASP.NET. It provided the ability to chain middleware together to form pipelines and to register modules.
 
 The [Katana libraries](https://github.com/aspnet/AspNetKatana/) provided a flexible set of popular components for OWIN-based web applications. These components were supplied through packages prefixed with `Microsoft.Owin`.
@@ -36,7 +46,7 @@ private static CorsOptions BuildCorsOptions() {
         SupportsCredentials = true
     };
     corsPolicy.Origins.Add("https://staging.northwind.com");
-    return new CorsOptions 
+    return new CorsOptions
     {
         PolicyProvider = new CorsPolicyProvider
         {
@@ -45,10 +55,12 @@ private static CorsOptions BuildCorsOptions() {
     };
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Basic OWIN CORS example.",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Basic OWIN CORS example.
-:::
 
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -61,10 +73,12 @@ app.UseCors(corsPolicyBuilder => {
                      .WithOrigins(new string[] { "https://staging.northwind.com" });
 })
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Basic OWIN CORS example ported to ASP.NET Core.",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Basic OWIN CORS example ported to ASP.NET Core.
-:::
 
 ## Third-Party Authentication
 

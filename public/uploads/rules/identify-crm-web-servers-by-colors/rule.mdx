@@ -1,31 +1,64 @@
 ---
-type: rule
-title: Do you identify Development, Test and Production web servers by colors?
-seoDescription: Identify Development, Test, and Production Web Servers by colors
-  to ensure a seamless transition between environments.
-uri: identify-crm-web-servers-by-colors
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
-related:
-  - do-you-have-separate-development-testing-and-production-environments
-redirects:
-  - do-you-identify-development-test-and-production-web-servers-by-colors
-  - do-you-identify-development-test-and-production-crm-web-servers-by-colors
-created: 2012-12-10T19:42:40.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jean Thirion
+  url: https://ssw.com.au/people/jean-thirion
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/software-engineering/rules-to-better-crm-for-developers.mdx
+created: 2024-09-11 04:45:47+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- do-you-identify-development-test-and-production-web-servers-by-colors
+- do-you-identify-development-test-and-production-crm-web-servers-by-colors
+related:
+- rule: public/uploads/rules/do-you-have-separate-development-testing-and-production-environments/rule.mdx
+seoDescription: Identify Development, Test, and Production Web Servers by colors to
+  ensure a seamless transition between environments.
+title: Do you identify Development, Test and Production web servers by colors?
+type: rule
+uri: identify-crm-web-servers-by-colors
 ---
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
 ### CRM
 
-![Figure: Staging uses blue background](ssw staging 2.png)
 
-![Figure: Production uses red background](ssw production 2.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Staging uses blue background",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/ssw staging 2.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Production uses red background",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/ssw production 2.png"
+/>
+
 
 The way to change the default background color is to edit the CRM CSS files. These changes aren't supported and may be overwritten when CRM Rollups are applied.
 
@@ -33,11 +66,23 @@ The way to change the default background color is to edit the CRM CSS files. The
 
 Using theme feature to change the environment color.
 
-![Figure: Changing CRM 2016 UI by using theme feature](CRM2015Theme.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Changing CRM 2016 UI by using theme feature",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM2015Theme.jpg"
+/>
+
 
 ### CRM 2013
 
-Edit `{{ CRM WEBSITE ROOT }}\_controls\navbar\navbar.css`:
+Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_controls\navbar\navbar.css`:
 
 ```css
 .navigationControl {
@@ -52,13 +97,25 @@ Edit `{{ CRM WEBSITE ROOT }}\_controls\navbar\navbar.css`:
 
 **Figure: Edit the background color to reflect the environment**
 
-![Figure: CRM 2013 with a green navigation bar](crm2013_greenbar.jpg)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "CRM 2013 with a green navigation bar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/crm2013_greenbar.jpg"
+/>
+
+
+<endOfIntro />
 
 ### CRM 2011
 
-Edit `{{ CRM WEBSITE ROOT }}\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
+Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
 
 ```css
 background-color: #ffffff;
@@ -70,11 +127,23 @@ Change color to a suitable color for the environment:
 background-color: #bbffaa;
 ```
 
-![Figure: CRM Ribbon color green to signify production environment](CRM2011_ColorCodedRibbon.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "CRM Ribbon color green to signify production environment",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM2011_ColorCodedRibbon.jpg"
+/>
+
 
 ### CRM 4
 
-Edit, `{{ CRM WEBSITE ROOT }}\_common\styles\global.css.aspx`
+Edit, `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_common\styles\global.css.aspx`
 
 ```css
 body.stage
@@ -99,11 +168,47 @@ body.stage
 
 **Figure: In `C:\Inetpub\wwwroot\\_common\styles\global.css.aspx` comment out and change the reference in yellow so the users know what server they are on**
 
-![Figure: Color of CRM Development Server - Red](CRM_DevelopmentColor.jpg)
 
-![Figure: Color of CRM Test Server - Yellow](CRM_TestColor.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Color of CRM Development Server - Red",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM_DevelopmentColor.jpg"
+/>
 
-![Figure: Color of CRM Production Server - Default](CRM_ProductionColor.jpg)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Color of CRM Test Server - Yellow",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM_TestColor.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Color of CRM Production Server - Default",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM_ProductionColor.jpg"
+/>
+
 
 ### SharePoint Online
 
@@ -111,14 +216,26 @@ In SharePoint Online, we use Theme colours to differentiate between Production a
 
 To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
-![](2024-09-16_18-10-35.jpg "Figure: To change the theme, navigate to Settings | Change the look | Theme")
+![](/uploads/rules/identify-crm-web-servers-by-colors/2024-09-16_18-10-35.jpg)
 
 ### Development - Default Microsoft Blue Theme
 
-![](2024-09-16_18-03-50.jpg "Figure: Selecting Blue default theme for Development")
+![](/uploads/rules/identify-crm-web-servers-by-colors/2024-09-16_18-03-50.jpg)
 
 ### Production - SSW Custom Theme
 
-![Figure: Selecting Red SSW Custom theme for Production ](2024-09-16_18-06-09.jpg)
 
-More about SharePoint Online custom themes: <https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint?WT.mc_id=DX-MVP-33518>
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Selecting Red SSW Custom theme for Production",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/2024-09-16_18-06-09.jpg"
+/>
+
+
+More about SharePoint Online custom themes: [https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint?WT.mc_id=DX-MVP-33518](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint?WT.mc_id=DX-MVP-33518)

@@ -1,20 +1,28 @@
 ---
-seoDescription: Learn when to implement IDisposable and ensure efficient memory management in .NET by understanding how to control unmanaged resources with this guide.
-type: rule
-title: Do you know when to implement IDisposable?
-uri: when-to-implement-idisposable
-authors: []
-related: []
-redirects:
-  - do-you-know-when-to-implement-idisposable
-created: 2019-01-11T23:59:37.000Z
 archivedreason: null
+authors: []
+categories:
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2019-01-11 23:59:37+00:00
+createdBy: CalumSimpson
+createdByEmail: CalumSimpson@ssw.com.au
 guid: 2543135e-771c-4536-a79d-391561e272ec
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-know-when-to-implement-idisposable
+seoDescription: Learn when to implement IDisposable and ensure efficient memory management
+  in .NET by understanding how to control unmanaged resources with this guide.
+title: Do you know when to implement IDisposable?
+type: rule
+uri: when-to-implement-idisposable
 ---
 
 If you access unmanaged resources (e.g. files, database connections etc.) in a class, you should implement `IDisposable` and overwrite the `Dispose` method to allow you to control when the memory is freed.  If not, this responsibility is left to the garbage collector to free the memory when the object containing the unmanaged resources is finalized. This means the memory will be unnecessarily consumed by resources which are no longer required, which can lead to inefficient performance and potentially running out of memory altogether.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 public class MyClass
@@ -31,11 +39,12 @@ private void useMyClass()
   */
  }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example - Using unmanaged resources without disposing of them when we are done",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example - Using unmanaged resources without disposing of them when we are done
-
-:::
 
 ```cs
 public class MyClass : IDisposable
@@ -49,11 +58,12 @@ public class MyClass : IDisposable
   }
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - Implementing `IDisposable` allows you to dispose of the unmanaged resources deterministically to maximize efficiency",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - Implementing `IDisposable` allows you to dispose of the unmanaged resources deterministically to maximize efficiency
-
-:::
 
 Now we can use the `using` statement to automatically dispose the class when you are finished with it.:
 
@@ -66,10 +76,11 @@ private void useClass()
   }  // myClass.Dispose() is automatically run at the end of the using block
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example - With the `using` statement, the unmanaged resources are disposed of as soon as we are finished with them",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example - With the `using` statement, the unmanaged resources are disposed of as soon as we are finished with them
-
-:::
 
 [See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx?WT.mc_id=DP-MVP-33518) for more details.

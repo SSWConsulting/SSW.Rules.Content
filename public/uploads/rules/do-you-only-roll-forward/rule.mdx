@@ -1,27 +1,36 @@
 ---
-type: rule
-title: Do you know you should only Roll Forward?
-seoDescription: Learn that you should only Roll Forward and not Roll Backward.
-uri: do-you-only-roll-forward
 authors:
-  - title: Ozair Ashfaque
-    url: https://www.ssw.com.au/people/ozair-ashfaque
-  - title: Tino Liu
-    url: https://ssw.com.au/people/tino-liu
-  - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
-  - title: Charles Vionnet
-    url: https://www.ssw.com.au/people/charles-vionnet
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-related: []
-created: 2024-07-10T05:56:48.707Z
+- title: Ozair Ashfaque
+  url: https://www.ssw.com.au/people/ozair-ashfaque
+- title: Tino Liu
+  url: https://ssw.com.au/people/tino-liu
+- title: Nick Curran
+  url: https://ssw.com.au/people/nick-curran
+- title: Charles Vionnet
+  url: https://www.ssw.com.au/people/charles-vionnet
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+categories:
+- category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
+- category: categories/software-engineering/rules-to-better-application-insights.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2024-07-29 16:43:52+00:00
+createdBy: Ozair Ashfaque [SSW]
+createdByEmail: 96504411+ozairashfaqueSSW@users.noreply.github.com
 guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - rolling-backward
-  - rolling-forward
+- rolling-backward
+- rolling-forward
+seoDescription: Learn that you should only Roll Forward and not Roll Backward.
+title: Do you know you should only Roll Forward?
+type: rule
+uri: do-you-only-roll-forward
 ---
 
 ### In the Face of Armageddon
@@ -30,7 +39,19 @@ When there's a major error during deployment or a catastrophic fault happens, wh
 
 It feels like reverting back to the previous stable version is the safest and quickest way to restore functionality.
 
-![Figure: Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Fixing Problems",
+    shouldDisplay: true
+  } }
+  src="https://imgs.xkcd.com/comics/fixing_problems.png"
+/>
+
 
 However, rolling back can have several negative consequences, making it crucial to consider the drawbacks:
 

@@ -1,42 +1,79 @@
 ---
-seoDescription: Develop cross-platform apps using C# and XAML with .NET MAUI, offering 96% code reuse across iOS, Android, and UWP platforms.
-type: rule
-title: |
-  Do you use .NET MAUI (was Xamarin)?
-uri: use-net-maui
+archivedreason: 'Replaced by [https://www.ssw.com.au/rules/build-cross-platform-apps](/rules/build-cross-platform-apps)
+
+  '
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related: []
-redirects:
-  - do-you-use-xamarin-forms
-  - use-xamarin-forms
-created: 2020-10-05T22:18:32.000Z
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+created: 2022-08-25 21:47:19+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 954d9b68-7185-472b-917c-407aa1a7df26
-archivedreason: |
-  Replaced by [https://www.ssw.com.au/rules/build-cross-platform-apps](/rules/build-cross-platform-apps)
+isArchived: true
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-use-xamarin-forms
+- use-xamarin-forms
+seoDescription: Develop cross-platform apps using C# and XAML with .NET MAUI, offering
+  96% code reuse across iOS, Android, and UWP platforms.
+title: 'Do you use .NET MAUI (was Xamarin)?
+
+  '
+type: rule
+uri: use-net-maui
 ---
 
 Xamarin has evolved beyond simply being an abstraction of the platform native APIs for iOS, Android, and UWP. It is now the .NET Multi-platform App UI (.NET MAUI).
 
 Where previously you could write shared business logic in C# but needed to write your UI in either Xamarin.Android or Xamarin.iOS, now you can write cross-platform UI code in a single .NET MAUI project.
 
-<!--endintro-->
+<endOfIntro />
 
-![](maui_blazor_mobile_desktop_web.png)
+![](/uploads/rules/use-net-maui/maui_blazor_mobile_desktop_web.png)
 
 Theoretically, it is possible to write your code only once and share 100% of the code you write across all target platforms - see [Adam Cogan's blog post](https://adamcogan.com/2015/01/14/getting-96-code-reuse-with-xamarin-forms/) for a case study of achieving 96% code reuse.
 
-::: bad
-![Figure: Bad example - Xamarin project targeting a single platform](xamarin-platform-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Xamarin project targeting a single platform",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-net-maui/xamarin-platform-bad.png"
+/>
+
 
 It is possible to implement beautiful and complex UI designs in .NET MAUI, especially given the rich ecosystem of plugins and templates available (see rule: [Do you know where to find the best Xamarin resources?](/the-best-xamarin-resources)). You can use drawing APIs like [Microsoft.Maui.Graphics](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/graphics/?WT.mc_id=DT-MVP-33518) or the [new .NET MAUI Community Toolkit](https://docs.microsoft.com/en-us/dotnet/communitytoolkit/maui/?WT.mc_id=DT-MVP-33518).
 
-::: good
-![Figure: Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase](single-project-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-net-maui/single-project-good.png"
+/>
 
-![Figure: .NET MAUI allows you to use C# and XAML to build your apps from a rich toolkit of more than 40 controls, layouts, and pages](controls_sample.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: ".NET MAUI allows you to use C# and XAML to build your apps from a rich toolkit of more than 40 controls, layouts, and pages",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-net-maui/controls_sample.png"
+/>

@@ -1,24 +1,32 @@
 ---
-seoDescription: Write end-to-end tests for critical happy-paths to ensure robust and reliable workflows in software applications.
-type: rule
-archivedreason:
-title: Do you write end-to-end tests for critical happy-paths?
-guid: ef140a92-97ef-4071-b5b2-2bd777ee5109
-uri: write-end-to-end-tests-for-critical-happy-paths
-created: 2016-05-02T18:13:41.0000000Z
+archivedreason: null
 authors:
-  - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
-related: []
+- title: Steve Leigh
+  url: https://ssw.com.au/people/steve-leigh
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+created: 2016-05-02 18:13:44+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: ef140a92-97ef-4071-b5b2-2bd777ee5109
+isArchived: false
+lastUpdated: 2016-05-02 18:20:54+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-write-end-to-end-tests-for-critical-happy-paths
+- do-you-write-end-to-end-tests-for-critical-happy-paths
+seoDescription: Write end-to-end tests for critical happy-paths to ensure robust and
+  reliable workflows in software applications.
+title: Do you write end-to-end tests for critical happy-paths?
+type: rule
+uri: write-end-to-end-tests-for-critical-happy-paths
 ---
 
 It’s not uncommon for critical workflows in projects to become flaky and brittle, and on occasion, this will not be caught until the product hits production. An example of a critical workflow is placing an order on a shopping cart, or adding a timesheet in a time tracking site.
 
 These are workflows that, if errors occur, the product becomes rather useless, and thus needs to be strongly tested.
 
-<!--endintro-->
+<endOfIntro />
 
 The best way to test this workflow is by performing the workflow against a real environment, using a real browser – of course, in a repeatable, consistent way.
 
@@ -26,10 +34,27 @@ A nice option is to use [Seleno](http://seleno.teststack.net/) with an appropria
 
 This isn’t free though. The nature of these tests mean that without proper care and maintenance, tests will fail intermittently. There are difficult-to-predict timings, DOM changes and browser compatibility issues and ongoing maintainability - so it is beneficial to limit these kinds of tests to critical happy-paths.
 
-::: bad  
-![Figure: Bad example - No end-to-end tests, no automatic feedback when things go catastrophically wrong](test-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - No end-to-end tests, no automatic feedback when things go catastrophically wrong",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/write-end-to-end-tests-for-critical-happy-paths/test-bad.png"
+/>
 
-::: good  
-![Figure: Good example - End-to-end Seleno tests run in Continuous-Integration, giving us very rapid feedback when the deployment breaks](test-good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - End-to-end Seleno tests run in Continuous-Integration, giving us very rapid feedback when the deployment breaks",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/write-end-to-end-tests-for-critical-happy-paths/test-good.png"
+/>

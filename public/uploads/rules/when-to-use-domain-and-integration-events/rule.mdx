@@ -1,23 +1,30 @@
 ---
-seoDescription: Domain and Integration Events improve decoupling and communication between application layers, enabling loose coupling and better maintainability.
-type: rule
-title: Do you know when to use Domain and Integration Events?
-guid: e91f22d2-d385-49b6-a27b-1195b4bb13f9
-uri: when-to-use-domain-and-integration-events
-created: 2023-07-25T11:01:35.0000000Z
+archivedreason: null
 authors:
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-archivedreason:
-related: []
-
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+created: 2023-07-26 12:43:02+00:00
+createdBy: William Liebenberg
+createdByEmail: awliebenberg@outlook.com
+guid: e91f22d2-d385-49b6-a27b-1195b4bb13f9
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+seoDescription: Domain and Integration Events improve decoupling and communication
+  between application layers, enabling loose coupling and better maintainability.
+title: Do you know when to use Domain and Integration Events?
+type: rule
+uri: when-to-use-domain-and-integration-events
 ---
 
 Domain Events and Integration Events are a concept primarily found in Domain-Driven Design (DDD) that can be applied in various other architectural patterns such as [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture).
 
 Domain Events and Integration Events are powerful patterns improve decoupling and facilitate communication between different components of an application. They serve as a means of **notification** for important domain concepts that have occurred.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Overview
 
@@ -55,9 +62,19 @@ Domain Events should not depend on external dependencies or external systems, ad
 
 When publishing a domain event, the entire Entity or Aggregate can be included since the event's scope is confined to the current bounded context.
 
-::: greybox
-It is important to remember that the definition and behavior of a `Product` in one bounded context might differ from another bounded context, like an e-commerce application product versus the product of a chemical reaction in a laboratory.
-:::
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    It is important to remember that the definition and behavior of a `Product` in one bounded context might differ from another bounded context, like an e-commerce application product versus the product of a chemical reaction in a laboratory.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 In the `Application` Layer, Domain Events are typically in-process of the application. Any database side-effects are tracked as part of the current transaction of the original request, ensuring strong consistency in the response sent back to the user once the transaction is committed.
 
@@ -66,10 +83,12 @@ In the `Application` Layer, Domain Events are typically in-process of the applic
 Integration Events are used for communication between different bounded contexts (or microservices in a distributed system) and enable potentially long-running asynchronous operations like sending a large number of emails, generating thumbnail images, or performing additional business logic.
 
 It is recommended that Integration Events should only be raised from the `Application` layer when the need for communication or coordination between different parts of the application arises. For example, after a specific use case (command / query) is handled successfully, the `Application` layer might raise an Integration Event to notify other microservices or external systems about the outcome of that use case.
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](/the-main-principles-of-clean-architecture/#principles))",
+  shouldDisplay: true
+} } />
 
-::: bad
-If there is a strict domain requirement for Integration Events to be raised from the `Domain` layer then you need to be aware that you may inadvertently introduce coupling between domain logic and infrastructure concerns which could lead to violating one of the core principles of Clean Architecture ([Dependency Inversion Principle](/the-main-principles-of-clean-architecture/#principles))
-:::
 
 Integration Events are published **after** the original transaction completes and are typically dispatched through a Message Broker or Event Bus (e.g., [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions?WT.mc_id=AZ-MVP-33518), [RabbitMQ](https://www.rabbitmq.com/), [Redis PubSub](https://redis.io/docs/latest/develop/pubsub/), [Dapr PubSub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)). To ensure reliability and consistency, systems often implement mechanisms like a [Transactional Outbox](https://learn.microsoft.com/en-us/azure/architecture/best-practices/transactional-outbox-cosmos#solution?WT.mc_id=AZ-MVP-33518).
 

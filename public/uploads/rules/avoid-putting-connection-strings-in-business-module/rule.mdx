@@ -2,18 +2,34 @@
 seoDescription: Avoid putting connection strings in business module and instead consolidate them into a single file for easier management and deployment.
 type: rule
 title: Do you avoid putting connection strings in Business module?
+categories:
+  - category: categories/software-engineering/rules-to-better-connection-strings.mdx
 uri: avoid-putting-connection-strings-in-business-module
 authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin/
-created: 2024-03-09T06:05:50.030Z
+created: 2024-03-10T00:17:39.000Z
 guid: f3141c85-0cc8-40da-a08b-68f01bf6595f
+lastUpdated: 2025-09-15T12:18:01.000Z
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 We strongly recommend that putting all connection strings together and saving them to one file, it is convenient for management and deployment.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Putting connection strings in Business module](2024-03-09_16-10-24.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Putting connection strings in Business module",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/avoid-putting-connection-strings-in-business-module/2024-03-09_16-10-24.png"
+/>

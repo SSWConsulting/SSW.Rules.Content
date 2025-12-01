@@ -1,36 +1,49 @@
 ---
-seoDescription: Do you have a product roadmap? A clear and defined product roadmap helps teams stay focused on long-term goals and priorities, while also preventing side-tracking on non-essential issues.
-type: rule
-title: Do you have a product roadmap?
-uri: roadmap
-authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-related:
-  - do-you-have-a-war-room-summary
-redirects:
-  - do-you-have-a-product-roadmap
-created: 2016-03-18T04:30:18.000Z
 archivedreason: null
+authors:
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/project-delivery/rules-to-better-scrum-using-azure-devops.mdx
+created: 2022-08-25 21:55:57+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-have-a-product-roadmap
+related:
+- rule: public/uploads/rules/do-you-have-a-war-room-summary/rule.mdx
+seoDescription: Do you have a product roadmap? A clear and defined product roadmap
+  helps teams stay focused on long-term goals and priorities, while also preventing
+  side-tracking on non-essential issues.
+title: Do you have a product roadmap?
+type: rule
+uri: roadmap
 ---
 
 A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the [Product Goal](/the-3-commitments-in-scrum/).
 
 To get a better **zoomed out** view, you should have a product roadmap.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/embed/FXMMZvE1lig`
 
-**Video: Do you have a product roadmap? (3 min)**
+<youtubeEmbed url="https://www.youtube.com/embed/FXMMZvE1lig" description={"Video: Do you have a product roadmap? (3 min)"} />
+
 
 You can think of it as a list of milestones to reach a goal.
 
-:::greybox
 
+<asideEmbed
+  variant="greybox"
+  body={<>
+    
 Here's a simple example about going on a trip to Beijing
 
 1. ✅ Visit the Great Wall of China
@@ -42,7 +55,14 @@ Here's a simple example about going on a trip to Beijing
 Here you can see that the goal was to visit various attractions in Beijing and each attraction is a milestone to be reached before returning home to Sydney.
 
 For software development, you simply replace the milestones with ✨features, 🐛fixes, etc.
-:::
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 Having this zoomed out view helps the team to stay focused on the overall goal of the project and the long term priorities. It also prevents the team from getting side-tracked on issues that are not really what the business wants.
 
@@ -74,21 +94,47 @@ The project wiki makes the concept much easier to understand and implement. Once
 
 Ideally, you want to make some progress on product roadmap items in every Sprint, so make sure to review your product roadmap during your regular Sprint Reviews.
 
-::: good
-![Figure: Good example - A small team might have something like the SophieBot product roadmap](sophiebotroadmap.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A small team might have something like the SophieBot product roadmap",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/roadmap/sophiebotroadmap.png"
+/>
+
 
 See [SophieBot product roadmap](https://github.com/SSWConsulting/SSW.SophieBot/wiki#roadmap).
 
-::: good
-![Figure: Good example - A large team might have something like the Microsoft365 product roadmap](microsoft365roadmap.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - A large team might have something like the Microsoft365 product roadmap",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/roadmap/microsoft365roadmap.png"
+/>
+
 
 See [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?WT.mc_id=M365-MVP-33518).
 
-::: good
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - GitHub maintains their product roadmap using GitHub Projects and GitHub Issues",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/roadmap/githubroadmap.png"
+/>
 
-![Figure: Good example - GitHub maintains their product roadmap using GitHub Projects and GitHub Issues](githubroadmap.png)
-:::
 
 See [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1).

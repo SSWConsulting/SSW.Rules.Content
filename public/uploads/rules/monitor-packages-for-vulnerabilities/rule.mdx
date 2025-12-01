@@ -1,20 +1,31 @@
 ---
-seoDescription: Monitor packages for vulnerabilities and ensure your applications stay secure by using modern package managers or third-party tools to automate scanning and alerting.
-type: rule
-title: Do you monitor your application for vulnerabilities?
-uri: monitor-packages-for-vulnerabilities
 authors:
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement
-  - title: William Liebenberg
-    url: https://www.ssw.com.au/people/william-liebenberg
-related:
-  - packages-up-to-date
-  - do-you-make-sure-you-get-brownie-points
-created: 2022-05-20T01:38:10.095Z
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2022-07-28 09:37:35+00:00
+createdBy: Chris Clement [SSW]
+createdByEmail: 35278147+christoment@users.noreply.github.com
 guid: b39cb829-e1b3-4e1d-b3c5-124c2e61720f
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - monitor-packages-for-vulnerability
+- monitor-packages-for-vulnerability
+related:
+- rule: public/uploads/rules/packages-up-to-date/rule.mdx
+- rule: public/uploads/rules/do-you-make-sure-you-get-brownie-points/rule.mdx
+seoDescription: Monitor packages for vulnerabilities and ensure your applications
+  stay secure by using modern package managers or third-party tools to automate scanning
+  and alerting.
+title: Do you monitor your application for vulnerabilities?
+type: rule
+uri: monitor-packages-for-vulnerabilities
 ---
 
 Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.
@@ -30,9 +41,18 @@ However, if you monitor the packages you have installed, and a vulnerability is 
 
 List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
 
-::: bad
-![Figure: Bad example - Tracking list of packages manually](screen-shot-2022-05-20-at-12.11.25.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - Tracking list of packages manually",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.11.25.png"
+/>
+
 
 ### Level 1 - Using tools to scan for vulnerabilities
 
@@ -46,13 +66,31 @@ Regularly running this command can give a summarised report on known vulnerabili
 
 This is an improvement over manual tracking but still requires a developer to check out the latest code and then run the command.
 
-::: ok
-![Figure: OK example - This npm audit command informs that there is 1 package with a high severity vulnerability](npm-audit-report.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - This npm audit command informs that there is 1 package with a high severity vulnerability",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/monitor-packages-for-vulnerabilities/npm-audit-report.png"
+/>
 
-::: ok
-![Figure: OK example - This dotnet command informs that there is 1 package with a high severity vulnerability](dotnet-audit-report.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "okExample",
+    figure: "OK example - This dotnet command informs that there is 1 package with a high severity vulnerability",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/monitor-packages-for-vulnerabilities/dotnet-audit-report.png"
+/>
+
 
 ### Level 2 - Automate vulnerability scanning (recommended)
 
@@ -67,10 +105,27 @@ Some of the available tools in the market:
 - [Snyk](https://snyk.io/) - $
 - [Sonatype](https://www.sonatype.com/) - $
 
-::: good
-![Figure: Good example - Dependabot produces a vulnerability report periodically (and can raise a PR for you)](screen-shot-2022-05-20-at-12.48.33.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Dependabot produces a vulnerability report periodically (and can raise a PR for you)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.48.33.png"
+/>
 
-::: good
-![Figure: Good example - Snyk produces a vulnerability detection alert email](screen-shot-2022-05-20-at-12.38.26.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - Snyk produces a vulnerability detection alert email",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/monitor-packages-for-vulnerabilities/screen-shot-2022-05-20-at-12.38.26.png"
+/>

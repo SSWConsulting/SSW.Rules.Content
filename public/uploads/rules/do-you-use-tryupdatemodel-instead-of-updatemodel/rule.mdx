@@ -1,23 +1,31 @@
 ---
-seoDescription: Do you use TryUpdateModel instead of UpdateModel to ensure validation and model binding succeed without throwing exceptions.
-type: rule
-title: Do you use TryUpdateModel instead of UpdateModel?
-uri: do-you-use-tryupdatemodel-instead-of-updatemodel
-authors:
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related: []
-redirects: []
-created: 2013-03-07T18:11:22.000Z
 archivedreason: null
+authors:
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/software-engineering/rules-to-better-mvc.mdx
+created: 2013-03-07 18:15:44+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 74fbd7d4-7391-494d-b855-44426f7170eb
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: Do you use TryUpdateModel instead of UpdateModel to ensure validation
+  and model binding succeed without throwing exceptions.
+title: Do you use TryUpdateModel instead of UpdateModel?
+type: rule
+uri: do-you-use-tryupdatemodel-instead-of-updatemodel
 ---
 
 UpdateModel will throw an exception if validation of the model fails. Instead of managing an exception, you should use TryUpdateModel as it adds the error to the ModelState dictionary. This lets you check the ModelState.IsValid property and decide how to handle the issue from there.
 
 This is an important distinction to be made because if we had used UpdateModel then our if (ModelState.IsValid) would not be hit in the event of a failure to bind.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 public ActionResult Create()
@@ -26,10 +34,12 @@ public ActionResult Create()
     UpdateModel(myEntity);
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – UpdateModel may throw an exception and the ModelState dictionary won’t be updated",
+  shouldDisplay: true
+} } />
 
-:::bad
-Figure: Bad example – UpdateModel may throw an exception and the ModelState dictionary won’t be updated
-:::
 
 ```cs
 public ActionResult Create()
@@ -43,7 +53,8 @@ public ActionResult Create()
     }
 }
 ```
-
-::: good
-Figure: Good example – TryUpdateModel will gracefully handle validation and will add to the ModelState dictionary so we can check for validity
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – TryUpdateModel will gracefully handle validation and will add to the ModelState dictionary so we can check for validity",
+  shouldDisplay: true
+} } />

@@ -1,23 +1,31 @@
 ---
-seoDescription: SharePoint calendar cleanup simplifies site organization by removing unused event lists and streamlining site maintenance.
-type: rule
-title: Do you clean useless calendars in SharePoint?
-uri: do-you-clean-useless-calendars-in-sharepoint
-authors:
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
-redirects: []
-created: 2013-09-05T23:49:53.000Z
 archivedreason: null
+authors:
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint.mdx
+created: 2013-09-06 00:00:25+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
 guid: 1e12b128-b34c-4435-af21-81bdef31f061
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: SharePoint calendar cleanup simplifies site organization by removing
+  unused event lists and streamlining site maintenance.
+title: Do you clean useless calendars in SharePoint?
+type: rule
+uri: do-you-clean-useless-calendars-in-sharepoint
 ---
 
 Most SharePoint site templates contain a calendar list, this will bring lots of useless calendars.
 
-<!--endintro-->
+<endOfIntro />
 
 Use the below PowerShell script to clean them:
 
@@ -41,4 +49,15 @@ foreach ($web in $site.AllWebs) {
 ```
 
 This script will put the calendars which do not have any events into **Site Settings** | **Recycle Bin**:
-![Figure: Empty Calendars in Recycle Bin folder](EmptyCalendarsInRecyckeBin.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Empty Calendars in Recycle Bin folder",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-clean-useless-calendars-in-sharepoint/EmptyCalendarsInRecyckeBin.png"
+/>

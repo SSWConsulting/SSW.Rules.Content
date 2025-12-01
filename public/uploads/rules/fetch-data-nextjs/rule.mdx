@@ -1,21 +1,31 @@
 ---
-seoDescription: Fetch data in Next.js - Leverage server-side rendering to optimize performance and SEO by using getServerSideProps, getStaticProps, or incremental static regeneration (ISR).
-type: rule
-title: Do you know how to fetch data in Next.js?
-uri: fetch-data-nextjs
-authors:
-  - title: Harry Ross
-    url: https://www.ssw.com.au/people/harry-ross
-related:
-  - use-nextjs
-created: 2023-07-28T06:34:51.000Z
 archivedreason: null
+authors:
+- title: Harry Ross
+  url: https://www.ssw.com.au/people/harry-ross
+categories:
+- category: categories/software-engineering/rules-to-better-nextjs.mdx
+created: 2023-08-01 03:05:09+00:00
+createdBy: Harry Ross [SSW]
+createdByEmail: harryross@ssw.com.au
 guid: df355ce6-47ab-461d-9ddc-d3216dc433b5
+isArchived: false
+lastUpdated: 2025-04-25 08:53:57+00:00
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+related:
+- rule: public/uploads/rules/why-nextjs-is-great/rule.mdx
+seoDescription: Fetch data in Next.js - Leverage server-side rendering to optimize
+  performance and SEO by using getServerSideProps, getStaticProps, or incremental
+  static regeneration (ISR).
+title: Do you know how to fetch data in Next.js?
+type: rule
+uri: fetch-data-nextjs
 ---
 
 Next.js is great, as it gives you the ability to run code on the server-side. This means there are now new ways to fetch data via the server to be passed to Next.js app. Next.js also handles the automatic splitting of code that runs on the server and the client, meaning you don't have to worry about bloating your JavaScript bundle when you add code that only runs on the server.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Server Side Fetching
 
@@ -59,7 +69,7 @@ This is great for dynamic data that may not be best suited for `getStaticProps` 
 
 The `context` parameter also has a lot of useful information about the request, including the request path, cookies sent from the client, and more that can be found on the [official Next.js documentation](https://nextjs.org/docs/pages/api-reference/functions/get-server-side-props#context-parameter).
 
-You can use <https://next-code-elimination.vercel.app/> to verify what code is sent to the client when using `getServerSideProps`.
+You can use [https://next-code-elimination.vercel.app/](https://next-code-elimination.vercel.app/) to verify what code is sent to the client when using `getServerSideProps`.
 
 ### getStaticProps
 
@@ -140,7 +150,7 @@ const Component = () => {
 };
 ```
 
-Then place a file in the /pages/api directory named with the required API route path (i.e. `pages/api/{{ API_ROUTE_HERE }}.ts`):
+Then place a file in the /pages/api directory named with the required API route path (i.e. `pages/api/&#123;&#123; API_ROUTE_HERE &#125;&#125;.ts`):
 
 ```ts
 // pages/api/your-api-route.ts

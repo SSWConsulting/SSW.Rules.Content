@@ -1,22 +1,47 @@
 ---
 type: rule
 title: Do you set PasswordChar to "*" on a TextBox on sensitive data?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: set-passwordchar-to-star-on-a-textbox-on-sensitive-data
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
-created: 2014-03-14T02:02:00.000Z
+created: 2024-03-25T21:11:30.000Z
 guid: a9d95e36-e677-4498-a2b6-dbf5262e675d
+lastUpdated: 2024-03-25T21:11:30.000Z
+lastUpdatedBy: Igor Goldobin
+lastUpdatedByEmail: igor.goldobin@gmail.com
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 If you want to work with sensitive data on textboxes is always good practice to set PasswordChar to "*".
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - The user doesn't set PasswordChar to "*"](passwordcharbad.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example - The user doesn't set PasswordChar to \"*\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/set-passwordchar-to-star-on-a-textbox-on-sensitive-data/passwordcharbad.gif"
+/>
 
-::: good
-![Figure: Good example - The user set PasswordChar to "*"](passwordchargood.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example - The user set PasswordChar to \"*\"",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/set-passwordchar-to-star-on-a-textbox-on-sensitive-data/passwordchargood.gif"
+/>

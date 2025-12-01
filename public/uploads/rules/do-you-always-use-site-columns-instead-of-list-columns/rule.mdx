@@ -1,26 +1,33 @@
 ---
-seoDescription: Discover when to use Site Columns over List Columns for better SharePoint customization and management
-type: rule
-archivedreason: 
-title: Do you always use Site Columns instead of List Columns?
-guid: 25745476-6892-4414-a8be-f3fa25c30f19
-uri: do-you-always-use-site-columns-instead-of-list-columns
-created: 2009-04-21T03:22:00.0000000Z
+archivedreason: null
 authors:
 - title: John Liu
   url: https://ssw.com.au/people/john-liu
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2009-12-04 08:13:58+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+guid: 25745476-6892-4414-a8be-f3fa25c30f19
+isArchived: false
+lastUpdated: 2010-10-20 08:56:56+00:00
+lastUpdatedBy: Unknown
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
-
+seoDescription: Discover when to use Site Columns over List Columns for better SharePoint
+  customization and management
+title: Do you always use Site Columns instead of List Columns?
+type: rule
+uri: do-you-always-use-site-columns-instead-of-list-columns
 ---
 
 A site column is created on a site level and visible to all lists and content types within that site (and subsites).
 
 You should always try to use Site Columns instead of List Columns
 
-<!--endintro-->
+<endOfIntro />
 
 * New in WSS v3 (SharePoint 2007)
 * The same column can be added to different Content Types, lists, list templates
@@ -28,17 +35,44 @@ You should always try to use Site Columns instead of List Columns
 * More visibility of the customization we are applying to the SharePoint website
 * Make sure the site column is added to our own group description such as "SSW Columns" - this is important for filtering and exporting site column customizations for deployment.  Also great because they are now grouped in the UI.
 
-::: bad  
-![Figure: Create column - Bad Example](ListColumn.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Create column - Bad Example",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-always-use-site-columns-instead-of-list-columns/ListColumn.png"
+/>
 
-::: good  
-![Figure: Add from existing site columns - Good Example](SiteColumn.png)  
-:::
 
-::: good  
-![Figure: Site Columns - Good Example](SSWColumns_small.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Add from existing site columns - Good Example",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-always-use-site-columns-instead-of-list-columns/SiteColumn.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Site Columns - Good Example",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-always-use-site-columns-instead-of-list-columns/SSWColumns_small.jpg"
+/>
+
 
 Sometimes you still may want to use a List Column.
 

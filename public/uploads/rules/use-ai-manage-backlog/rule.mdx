@@ -1,29 +1,39 @@
 ---
-type: rule
-title: Do you use AI to manage your backlog?
-seoDescription: Take the stress out of backlog management. With AI + GitHub or
-  DevOps MCP, you can quickly organize tasks and focus on the fun work.
-uri: use-ai-manage-backlog
 authors:
-  - title: Gert Marx
-    url: https://www.ssw.com.au/people/gert-marx/
-  - title: Eli Kent
-    url: https://www.ssw.com.au/people/eli-kent/
-related:
-  - backlog-refinement-meeting
-  - use-mcp-to-standardize-llm-connections
-  - handle-duplicate-pbis
-created: 2025-09-11T11:24:00.000Z
+- title: Gert Marx
+  url: https://www.ssw.com.au/people/gert-marx/
+- title: Eli Kent
+  url: https://www.ssw.com.au/people/eli-kent/
+categories:
+- category: categories/project-delivery/rules-to-better-product-owners.mdx
+created: 2025-09-11 02:45:12+00:00
+createdBy: Gert Marx [SSW]
+createdByEmail: gert.marx@marxoz.com
 guid: 5163b1fc-ff2c-4a99-8593-06d0e6666ecd
+isArchived: false
+lastUpdated: 2025-09-29 15:54:01+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/backlog-refinement-meeting/rule.mdx
+- rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
+- rule: public/uploads/rules/handle-duplicate-pbis/rule.mdx
+seoDescription: Take the stress out of backlog management. With AI + GitHub or DevOps
+  MCP, you can quickly organize tasks and focus on the fun work.
+title: Do you use AI to manage your backlog?
+type: rule
+uri: use-ai-manage-backlog
 ---
+
 Managing a backlog can quickly become overwhelming. It often grows into a long, messy list of user stories, bugs, and features. High-priority items get buried, duplicates sneak in, and new requests don't always come with clear next steps.
 
 **This is where AI can help.** By connecting the [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) MCP to a host (eg. Claude Code), you can use natural language to query, refine, and prioritize your backlog — saving hours of manual effort.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/watch?v=u_0WgkNn7dI`
-**Video: Managing 1000+ GitHub Issues with Claude AI – Eli & Gert Reveal the Secret Sauce | SSW Rules (8 mins)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=u_0WgkNn7dI" description={"Video: Managing 1000+ GitHub Issues with Claude AI – Eli & Gert Reveal the Secret Sauce | SSW Rules (8 mins)"} />
+
 
 ## Why AI is useful for backlog management
 
@@ -35,21 +45,58 @@ With AI managing your backlog, you can easily:
 * **Find an existing issue** - Finds an existing issue based on the description provided
 * **Detect duplicates** - Highlights backlog items that describe the same work, helping you merge and reduce clutter
 
-::: bad
-![Figure: Bad example — In this case, there are 4 topics that have duplicates](Big-Backlog.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example — In this case, there are 4 topics that have duplicates",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Big-Backlog.gif"
+/>
 
-::: greybox
-**Example Prompt:** "Find me duplicate issues."  
-:::
 
-::: good
-![Figure: Good example — AI automatically surfaces duplicates and overlaps](Duplicates-GitHub.png)
-:::
 
-::: info
-**Best practice**: When you find duplicate issues, make sure you [close the duplicate and link it to the primary one](/handle-duplicate-pbis) so your backlog stays clean and traceable.
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Find me duplicate issues."
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI automatically surfaces duplicates and overlaps",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Duplicates-GitHub.png"
+/>
+
+
+
+<asideEmbed
+  variant="info"
+  body={<>
+    **Best practice**: When you find duplicate issues, make sure you [close the duplicate and link it to the primary one](/handle-duplicate-pbis) so your backlog stays clean and traceable.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
 
 ### 2. Break down large items
 
@@ -58,13 +105,31 @@ Some backlog items (PBIs) are simply too big to complete in a Sprint. AI can:
 * **Suggest how to break a large user story into smaller, actionable issues** - Proposes logical sub-tasks with clear scope, making big items manageable within a Sprint
 * **Provide acceptance criteria for each smaller issue** - Drafts clear, testable conditions that define when each sub-task is complete.
 
-::: greybox
-**Example Prompt:** "Are there any issues in the backlog that can be broken down into smaller issues?"  
-:::
 
-::: good
-![Figure: Good example — AI shows large backlog items and breaks them down into smaller issues](Large-Items-GitHub.png)
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Are there any issues in the backlog that can be broken down into smaller issues?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI shows large backlog items and breaks them down into smaller issues",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Large-Items-GitHub.png"
+/>
+
 
 ### 3. Group-related work
 
@@ -74,13 +139,31 @@ Sprints are more effective when they focus on a single area or feature. AI can:
 * **Create epics from groups of issues** - Clusters related backlog items under a single epic, giving structure and focus to larger initiatives
 * **Suggest Sprint themes around common backlog areas** - Identifies patterns in the backlog and recommends focus areas that align related work into a cohesive Sprint
 
-::: greybox
-**Example Prompt:** "Can you group some issues that could be in a single epic?"  
-:::
 
-::: good
-![Figure: Good example — AI groups related works under epics](Grouping-GitHub.png)
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Can you group some issues that could be in a single epic?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI groups related works under epics",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Grouping-GitHub.png"
+/>
+
 
 ### 4. Estimate effort
 
@@ -89,13 +172,31 @@ AI can compare a new item against similar past issues and suggest an estimate. T
 * **Estimating bugs vs features** - AI compares similar past work to suggest effort ranges, factoring in hidden complexity for bugs and clearer scope for features
 * **Providing quick estimating (at SSW we use [double estimates](http://ssw.com.au/rules/size-pbis-effectively/)) before team refinement** - AI offers rough size estimates upfront, helping teams spot oversized items early and speed up refinement
 
-::: greybox
-**Example Prompt:** "Can you provide me an estimate on {{ ISSUE }}?"  
-:::
 
-::: good
-![Figure: Good example — AI estimates the effort for a given issue](Estimate-GitHub.png)
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Can you provide me an estimate on &#123;&#123; ISSUE &#125;&#125;?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI estimates the effort for a given issue",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Estimate-GitHub.png"
+/>
+
 
 ### 5. Propose dependencies
 
@@ -104,30 +205,66 @@ When a request comes in, it isn't easy to know what issues are required to compl
 * **Identifying existing issues** - Finds prerequisites that need to be completed first to ensure the delivery is not blocked
 * **Creating dependent issues** - Any dependencies that may have been missed can be identified and created
 
-::: greybox
-**Example Prompt:** "Does {{ ISSUE }} have any related issues that should be done before work is started?"
-:::
 
-::: good
-![Figure: Good example — AI finds related issues for a given issue](Dependencies-GitHub.png)
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Does &#123;&#123; ISSUE &#125;&#125; have any related issues that should be done before work is started?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI finds related issues for a given issue",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Dependencies-GitHub.png"
+/>
+
 
 ### 6. Prioritize smarter
 
-Not every backlog item has the same impact. AI can help prioritize by:  
+Not every backlog item has the same impact. AI can help prioritize by:
 
-* **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work  
-* **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first  
+* **Surfacing bugs that damage user experience as higher priority** - Flags issues with the biggest impact on users so they’re fixed before less critical work
+* **Recommending trade-offs (e.g., fixing a blocker vs shipping a nice-to-have feature)** - Helps balance effort and impact by suggesting which work delivers the most value first
 
-::: greybox
-**Example Prompt:** "Can you give me the highest priorities that would improve user experience?"
-:::
 
-::: good
-![Figure: Good example — AI reveals highest priority issues that improves user experience](Prioritize-GitHub.png)
-:::
+<asideEmbed
+  variant="greybox"
+  body={<>
+    **Example Prompt:** "Can you give me the highest priorities that would improve user experience?"
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: "XXX",
+    shouldDisplay: false
+  }}
+/>
 
-## How to connect an MCP Host to GitHub  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example — AI reveals highest priority issues that improves user experience",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-ai-manage-backlog/Prioritize-GitHub.png"
+/>
+
+
+## How to connect an MCP Host to GitHub
 
 You can connect any MCP-compatible host to [GitHub](https://github.com/github/github-mcp-server) or [DevOps](https://github.com/microsoft/azure-devops-mcp) and bring it into your backlog management workflow. Check out our rule on [using MCP to standardize connections between LLMs/Agents and external services](/use-mcp-to-standardize-llm-connections/) for more information.
 
@@ -135,8 +272,8 @@ You can connect any MCP-compatible host to [GitHub](https://github.com/github/gi
 
 Once connected, you can interact with your GitHub issues and pull requests in natural language.
 
-**Example queries:**  
+**Example queries:**
 
 * "Which issues are too big for a Sprint?"
-* "Group all issues related to payments into an epic"  
+* "Group all issues related to payments into an epic"
 * "Suggest estimates based on past completed issues"

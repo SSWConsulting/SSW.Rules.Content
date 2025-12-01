@@ -1,21 +1,30 @@
 ---
-seoDescription: Improve your email clarity by placing the main message upfront—avoid burying the headline for clearer communication and faster understanding.
-type: rule
-title: Do you know not to bury your headline?
-uri: do-not-bury-your-headline
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-related:
-  - f-shaped-pattern
-  - less-is-more
-created: 2024-06-03T13:42:55.753Z
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2024-06-04 00:38:01+00:00
+createdBy: Tanya Leahy [SSW]
+createdByEmail: tanyaleahy@ssw.com.au
 guid: 7e8b6d4e-9f5d-42f2-8c3a-71d73867a1b3
+isArchived: false
+lastUpdated: 2024-06-24 22:32:48+00:00
+lastUpdatedBy: Tanya Leahy [SSW]
+lastUpdatedByEmail: tanyaleahy@ssw.com.au
+related:
+- rule: public/uploads/rules/f-shaped-pattern/rule.mdx
+- rule: public/uploads/rules/less-is-more/rule.mdx
+seoDescription: Improve your email clarity by placing the main message upfront—avoid
+  burying the headline for clearer communication and faster understanding.
+title: Do you know not to bury your headline?
+type: rule
+uri: do-not-bury-your-headline
 ---
 
 When communicating important information via email, it's crucial to ensure that the main purpose of the email is immediately clear. Burying the headline - placing the primary message deep within the text - can lead to confusion and miscommunication.
 
-<!--endintro-->
+<endOfIntro />
 
 * **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient [skims the email](/f-shaped-pattern), they understand the primary message.
 
@@ -23,8 +32,11 @@ When communicating important information via email, it's crucial to ensure that 
 
 Here's how you can improve email clarity by not burying the headline:
 
-::: greybox
-Hi Bob,
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Hi Bob,
 
 Thanks for your help with the project.
 
@@ -33,24 +45,35 @@ The updates you made were mostly correct. I have reviewed the code and noticed a
 Thanks,
 John
 
-:::
-::: bad
-Figure: Bad example - The main point is buried and not immediately clear
-:::
+  </>}
+  figureEmbed={{
+    preset: "badExample",
+    figure: "Bad example - The main point is buried and not immediately clear",
+    shouldDisplay: true
+  }}
+/>
 
-::: greybox
-Hi Bob,
+
+
+<asideEmbed
+  variant="greybox"
+  body={<>
+    Hi Bob,
 
 I have reviewed the code and some sections need refactoring. Can we meet tomorrow to review before any changes are made?
 
 Thanks for your help with the project.
 
-Thanks,  
+Thanks,
 John
-:::
-::: good
-Figure: Good example - The main point is clear and immediately addressed
-:::
+  </>}
+  figureEmbed={{
+    preset: "goodExample",
+    figure: "Good example - The main point is clear and immediately addressed",
+    shouldDisplay: true
+  }}
+/>
+
 
 ### Tips for effective email communication
 

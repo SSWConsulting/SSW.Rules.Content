@@ -1,18 +1,26 @@
 ---
-seoDescription: Use viewModel instead of ViewData to pass data safely and efficiently in MVC applications.
-type: rule
-title: Do you use viewModel instead of ViewData?
-uri: do-you-use-view-models-instead-of-viewdata
-authors:
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Baba Kamyljanov
-    url: https://ssw.com.au/people/baba-kamyljanov
-related: []
-redirects: []
-created: 2013-03-07T18:23:38.000Z
 archivedreason: null
+authors:
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Baba Kamyljanov
+  url: https://ssw.com.au/people/baba-kamyljanov
+categories:
+- category: categories/software-engineering/rules-to-better-mvc.mdx
+created: 2013-03-07 18:27:19+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: ad2abb14-7013-4ab0-ac89-d362914640d5
+isArchived: false
+lastUpdated: 2025-02-28 12:59:07+00:00
+lastUpdatedBy: Baba Kamyljanov [SSW]
+lastUpdatedByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
+redirects: []
+seoDescription: Use viewModel instead of ViewData to pass data safely and efficiently
+  in MVC applications.
+title: Do you use viewModel instead of ViewData?
+type: rule
+uri: do-you-use-view-models-instead-of-viewdata
 ---
 
 ASP.NET CORE MVC provides several ways to pass data to views:
@@ -20,7 +28,7 @@ ASP.NET CORE MVC provides several ways to pass data to views:
 * **Weakly typed data:** ViewData and ViewBag
 * **Strongly typed data:** ViewModel
 
-<!--endintro-->
+<endOfIntro />
 
 Both ViewData and ViewBag are dynamically resolved at runtime, which can often lead to runtime errors because they aren't type-safe and rely on [Magic Strings](https://en.wikipedia.org/wiki/Magic_string).
 
@@ -40,10 +48,12 @@ public IActionResult About()
     return View();
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – ViewData is being used in Action which isn’t type-safe",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example – ViewData is being used in Action which isn’t type-safe
-:::
 
 Show data using ViewData in View:
 
@@ -59,10 +69,12 @@ Show data using ViewData in View:
     @user.Age<br>
 </div>
 ```
+<figureEmbed figureEmbed={ {
+  preset: "badExample",
+  figure: "Figure: Bad example – Displaying not-safe data in View",
+  shouldDisplay: true
+} } />
 
-::: bad
-Figure: Bad example – Displaying not-safe data in View
-:::
 
 So it is better to use ViewModel to pass data to views. Because it allows to take advantage of strong type checking, and the validity of types used in a view is checked at compile time.
 
@@ -80,10 +92,12 @@ public IActionResult About()
     return View(viewModel);
 }
 ```
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed",
+  shouldDisplay: true
+} } />
 
-::: good
-Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed
-:::
 
 Show data using ViewModel in View:
 
@@ -95,7 +109,8 @@ Show data using ViewModel in View:
     @Model.Age<br>
 </div>
 ```
-
-::: good
-Figure: Good example – Displaying safe data in View
-:::
+<figureEmbed figureEmbed={ {
+  preset: "goodExample",
+  figure: "Figure: Good example – Displaying safe data in View",
+  shouldDisplay: true
+} } />
