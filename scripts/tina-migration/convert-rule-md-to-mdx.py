@@ -296,7 +296,7 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="{preset}Example"
+  figurePreset="default"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -328,7 +328,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset}Example"
+  figurePreset="{preset_kind}Example"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -401,7 +401,7 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}Example"
+  figurePreset="{preset}"
   figureText={{{figure_js}}}
 />
 '''

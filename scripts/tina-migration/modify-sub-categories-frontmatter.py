@@ -167,7 +167,7 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset}"
+  figurePreset="default"
   figureText={{{figure_js}}}
   src="{src}"
 />'''
@@ -182,7 +182,7 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="{preset}"
+  figurePreset="default"
   figureText={{{figure_js}}}
   src="{src}"
 />'''
@@ -212,7 +212,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset}"
+  figurePreset="{preset_kind}Example"
   figureText={{{figure_js}}}
   src="{src}"
 />'''
