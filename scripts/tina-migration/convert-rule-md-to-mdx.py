@@ -79,10 +79,8 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
     r'(?:\*\*Figure:\s*(.*?)\*\*\s*)?'
 )
 # Allow leading whitespace for indented blocks
-SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
-INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
@@ -162,7 +160,7 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 def convert_mark_tags_to_md_highlight(text: str) -> str:
     return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -197,15 +195,6 @@ def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
 
-def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
-    body = m.group(2)
-    def _repl(md_img_m):
-        alt = md_img_m.group(1).strip()
-        raw_src = md_img_m.group(2).strip()
-        new_src = add_prefix_if_relative(raw_src, src_prefix)
-        return f'![{alt}]({new_src})'
-    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
-
 def replace_asset_link(m, src_prefix: str) -> str:
     text = m.group('text')
     href = m.group('href').strip()
@@ -230,31 +219,6 @@ def replace_youtube_block(m):
     desc = m.group(2).strip() if m.group(2) else ""
     desc_js = js_string(desc)
     return f'\n<youtubeEmbed url="{url}" description={{{desc_js}}} />\n'
-
-def replace_youtube_block_inside_intro(m):
-    url = m.group(1).strip()
-    desc = m.group(2).strip() if m.group(2) else ""
-    desc_js = js_string(desc)
-    return f'<introYoutube url="{url}" description={{{desc_js}}} />'
-
-def wrap_intro_embed(m):
-    fm = m.group('fm') or ''
-    intro = m.group('intro') or ''
-
-    intro_processed = intro.strip()
-    intro_processed = re.sub(
-        YOUTUBE_BLOCK_REGEX, replace_youtube_block_inside_intro,
-        intro_processed, flags=re.MULTILINE
-    )
-    intro_processed = convert_angle_bracket_links(intro_processed)
-    # intro_processed = escape_angle_brackets_except(intro_processed, allowed_tags=("mark",))
-
-    return f'''{fm}<introEmbed
-  body={{<>
-{intro_processed}
-  </>}}
-/>
-'''
 
 def replace_image_block(m, src_prefix):
     preset = m.group(1).strip()
@@ -314,7 +278,7 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="default"
+  figurePreset="{preset}Example"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -332,7 +296,7 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="default"
+  figurePreset="{preset}Example"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -364,7 +328,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset_kind}Example"
+  figurePreset="{preset}Example"
   figureText={{{figure_js}}}
   src="{src}"
 />
@@ -404,7 +368,7 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}"
+  figurePreset="{preset}Example"
   figureText={{{figure_js}}}
 />
 '''
@@ -437,11 +401,10 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}"
+  figurePreset="{preset}Example"
   figureText={{{figure_js}}}
 />
 '''
-
 
 def process_custom_aside_blocks(content):
     lines = content.splitlines()
@@ -518,8 +481,11 @@ def process_custom_aside_blocks(content):
   body={{<>
     {body}
   </>}}
-  figurePreset="{preset}"
-  figureText={{{figure_js}}}
+  figureEmbed={{{{
+    preset: "{preset}",
+    figure: {figure_js},
+    shouldDisplay: {"true" if show else "false"}
+  }}}}
 />
 '''
             output.append(embed)
@@ -637,8 +603,11 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}"
-  figureText={{{figure_js}}}
+  figureEmbed={{{{
+    preset: "{preset}",
+    figure: {figure_js},
+    shouldDisplay: {should_display_js}
+  }}}}
 />'''
 
         out.append(embed)
@@ -664,17 +633,17 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'<!--\s*endintro\s*-->', '<endOfIntro />', content, flags=re.IGNORECASE)
 
     content = convert_mark_tags_to_md_highlight(content)
     content = mdx_safe_template_vars(content)
-    content = re.sub(INTRO_WITH_FM_REGEX, wrap_intro_embed, content, flags=re.IGNORECASE | re.DOTALL)
 
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
     content = re.sub(PRESET_AND_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_and_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
     content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
@@ -687,16 +656,6 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
             return keep_markdown_figure_with_prefix(m, src_prefix)
         return replace_standalone_image(m, src_prefix)
     content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
-
-    def _replace_simple_figure_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed", "<introEmbed")):
-            body = m.group(2)
-            if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
-                return keep_simple_block_with_prefixed_images(m, src_prefix)
-            return m.group(0)
-        return replace_simple_figure_block(m)
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
-
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
     content = re.sub(ASSET_LINK_REGEX, lambda m: replace_asset_link(m, src_prefix), content)
