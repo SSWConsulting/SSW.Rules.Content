@@ -13,7 +13,6 @@ IMAGE_BLOCK_REGEX = r'^\s*:::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
-SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 SRC_PREFIX_BASE = '/uploads/categories'
 
@@ -130,11 +129,8 @@ def replace_image_block(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -171,11 +167,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: {should_display}
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -189,11 +182,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -222,23 +212,10 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePreset="{preset}"
+  figureText={{{figure_js}}}
   src="{src}"
 />'''
-
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
 
 def process_custom_aside_blocks(content):
     lines = content.splitlines()
@@ -311,11 +288,8 @@ def process_custom_aside_blocks(content):
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  figurePreset="default"
+  figureText={{{figure_js}}}
 />'''
             output.append(embed)
             in_box = False
@@ -479,16 +453,6 @@ def modify_category_files(categories_root=None):
                 return keep_markdown_figure_with_prefix(m, src_prefix)
             return replace_standalone_image(m, src_prefix)
         body = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, body)
-
-        # Handle simple figure blocks (e.g., "::: good\nSome text\n:::")
-        def _replace_simple_figure_block_conditional(m):
-            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
-                body_text = m.group(2)
-                if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body_text):
-                    return keep_simple_block_with_prefixed_images(m, src_prefix)
-                return m.group(0)
-            return replace_simple_figure_block(m)
-        body = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, body, flags=re.MULTILINE | re.DOTALL)
 
         # Handle raw images (prefix relative paths)
         body = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), body)
