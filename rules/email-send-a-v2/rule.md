@@ -107,6 +107,7 @@ For appointments, the procedure is different, see [do you explain why you've upd
 ---
 
 ### Avoid Outlook's 'Resend This Message'
+
 **Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
 
 ::: bad
