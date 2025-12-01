@@ -68,7 +68,7 @@ feat: Complete authentication system
 * Impossible to review effectively
 * Can't revert specific changes
 * Lost context about which changes relate to which sub-tasks
-* No connection to [task documentation](keep-task-summaries-from-ai-assisted-development) created during the session
+* No connection to [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
 :::
 ::: bad
 Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs
@@ -91,7 +91,7 @@ Git supports multiple authors via the `Co-authored-by` trailer in commit message
 * Clear progression of work
 
 **Connection to Task Documentation:**
-* Commits align with [task documentation](keep-task-summaries-from-ai-assisted-development) created during the session
+* Commits align with [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
 * Easy to cross-reference commit history with task docs
 * Provides complete context for future developers
 
@@ -198,23 +198,24 @@ Add the following section to your AI assistant configuration (e.g., `.github/cop
 ## Git Commit Guidelines
 
 ### Commit Frequently
+
 Commit changes incrementally as you complete logical units of work.
 
-**Why commit frequently:**
-- ✅ Creates small, focused commits that are easy to review and understand
-- ✅ Enables vertical slicing - each commit represents a single logical change
-- ✅ Avoids one giant commit at the end of a session with dozens of unrelated changes
-- ✅ Makes it easier to track progress and document work in task docs created
-- ✅ Allows reverting specific changes without losing other work
-- ✅ Provides clear checkpoints during development
+****Why** commit frequently:**
+- Creates small, focused commits that are easy to review and understand
+- Enables vertical slicing - each commit represents a single logical change
+- Avoids one giant commit at the end of a session with dozens of unrelated changes
+- Makes it easier to track progress and document work in task docs created
+- Allows reverting specific changes without losing other work
+- Provides clear checkpoints during development
 
-**When to commit:**
-- ✅ After adding a new feature or component
-- ✅ After fixing a bug
-- ✅ After updating documentation (including task documentation)
-- ✅ After refactoring code
-- ✅ Before making major changes (safety checkpoint)
-- ✅ After successful test runs
+****When** to commit:**
+- After adding a new feature or component
+- After fixing a bug
+- After updating documentation (including task documentation)
+- After refactoring code
+- Before making major changes (safety checkpoint)
+- After successful test runs
 
 **Exception:** Do not commit when working on the `gitbutler/workspace` branch - GitButler manages commits on this branch.
 
@@ -270,17 +271,17 @@ fi
 **Note:** Git hooks are local and not committed to the repository. Share this with your team via documentation.
 :::
 
-## Benefits
+## ✅ Benefits
 
-✅ **Proper Credit:** Both AI and human contributors receive recognition  
-✅ **Transparency:** Clear record of who verified the AI's work  
-✅ **Collaboration History:** Easy to trace AI-assisted changes  
-✅ **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
-✅ **Vertical Slicing:** Each commit represents one logical unit of work  
-✅ **Task Documentation Alignment:** Commits correspond to task docs created during the session  
-✅ **Team Visibility:** Team can see AI collaboration patterns  
-✅ **Future Context:** Helps understand how changes were created  
-✅ **Easy Reverting:** Can undo specific changes without affecting other work
+* **Proper Credit:** Both AI and human contributors receive recognition  
+* **Transparency:** Clear record of who verified the AI's work  
+* **Collaboration History:** Easy to trace AI-assisted changes  
+* **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
+* **Vertical Slicing:** Each commit represents one logical unit of work  
+* **Task Documentation Alignment:** Commits correspond to task docs created during the session  
+* **Team Visibility:** Team can see AI collaboration patterns  
+* **Future Context:** Helps understand how changes were created  
+* **Easy Reverting:** Can undo specific changes without affecting other work
 
 ### GitHub UI Benefits
 
