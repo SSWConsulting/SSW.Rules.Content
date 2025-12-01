@@ -26,7 +26,7 @@ ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) mod
 
 ![Figure: ChatGPT is built by OpenAI, which has Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
 
-ChatGPT is a conversational language model developed by OpenAI. It is available on both web and mobile platforms, making it easy to interact with Open AI’s GPT models. It also includes smart features that enhance the experience, making conversations feel more natural and intuitive. 
+ChatGPT is a conversational language model developed by OpenAI. It is available on both web and mobile platforms, making it easy to interact with Open AI’s GPT models. It also includes smart features that enhance the experience, making conversations feel more natural and intuitive.
 
 It also saves your message history so that you can go back and look at your conversations later!
 
@@ -41,47 +41,47 @@ More concretely, ChatGPT is cool because it can:
 
 **Turn vague ideas into something usable**
 
-- "I need an email to a client" → polished draft.
-- "I've got this half-baked strategy" → structured plan or document.
-- "I kind of want a sci-fi story about a cat on Mars" → full short story.
+* "I need an email to a client" → polished draft.
+* "I've got this half-baked strategy" → structured plan or document.
+* "I kind of want a sci-fi story about a cat on Mars" → full short story.
 
 **Bridge lots of different skills in one place**
 
 Instead of needing:
 
-- a copywriter
-- a tutor
-- a travel planner
-- a tech explainer
-- a brainstorming partner
+* a copywriter
+* a tutor
+* a travel planner
+* a tech explainer
+* a brainstorming partner
 
 … you can just talk to one system that can approximate all of those.
 
 **Speak 'human' and 'computer'**
 
-- You can ask in plain language: "Explain this like I'm 12" or "compare options in a table."
-- For devs, it can read and write code, explain errors, and outline architectures.
-- For non-devs, it can avoid jargon and just tell you what matters.
+* You can ask in plain language: "Explain this like I'm 12" or "compare options in a table."
+* For devs, it can read and write code, explain errors, and outline architectures.
+* For non-devs, it can avoid jargon and just tell you what matters.
 
 **Adapt to your style**
 
-- Formal vs casual.
-- Bullet points vs story.
-- Australian spelling vs US spelling.
-- It can remember preferences within a conversation and adjust tone and level of detail.
+* Formal vs casual.
+* Bullet points vs story.
+* Australian spelling vs US spelling.
+* It can remember preferences within a conversation and adjust tone and level of detail.
 
 **Help you think, not just answer**
 
-- It can play devil's advocate.
-- Break down big, messy problems into steps.
-- Offer multiple options with pros/cons so you can choose, instead of pretending there's only one "right" answer.
+* It can play devil's advocate.
+* Break down big, messy problems into steps.
+* Offer multiple options with pros/cons so you can choose, instead of pretending there's only one "right" answer.
 
 **Make boring stuff less painful**
 
-- Summarising long documents.
-- Cleaning up wording.
-- Reformatting things (tables, checklists, JSON, slides outlines).
-- It's like having an enthusiastic intern who doesn't complain about grunt work.
+* Summarising long documents.
+* Cleaning up wording.
+* Reformatting things (tables, checklists, JSON, slides outlines).
+* It's like having an enthusiastic intern who doesn't complain about grunt work.
 
 **Be instantly available**
 
