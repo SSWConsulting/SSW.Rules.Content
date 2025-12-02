@@ -256,7 +256,7 @@ def replace_custom_size_image_block(m, src_prefix):
     variants = variants_str.split()
 
     # Determine size
-    size = "small"  # default
+    size = "large"  # default
     for v in variants:
         if v in ("img-small", "small"):
             size = "small"
