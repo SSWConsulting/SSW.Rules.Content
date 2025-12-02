@@ -63,7 +63,8 @@ If there are additional stakeholders, make sure they get called in for the summa
 
 Hey {{ PROJECT NAME }} Stakeholders:
 
-I'm recording the current meeting so I can get the Copilot stats later.
+I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
+I'll stop the recording to do the Retro to give the recording time to save.
 
 I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
 
