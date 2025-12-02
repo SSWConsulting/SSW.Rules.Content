@@ -1,22 +1,28 @@
 ---
-seoDescription: Before scheduling Scrum meetings, create a meeting agenda and share it with attendees to ensure everyone stays on track.
-type: rule
-title: Before - Do you share the agenda?
-uri: share-the-agenda
-authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related: null
-created: 2021-07-20T06:35:55.000Z
 archivedreason: null
+authors:
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+created: 2021-07-29 17:52:55.541000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 37a80c11-43e4-4065-9ec3-1c3604b2640a
+isArchived: false
+lastUpdated: 2021-07-29 17:59:10.843000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+seoDescription: Before scheduling Scrum meetings, create a meeting agenda and share
+  it with attendees to ensure everyone stays on track.
+title: Before - Do you share the agenda?
+type: rule
+uri: share-the-agenda
 ---
 
 Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose or agenda. Calls or video meetings, without any clear agenda or purpose, are where your joy and energy go to die.
 
 Here’s how to ensure your meetings are effective and worthwhile. Before a meeting, to give it the best chance of success, you should make sure you have done the following:
 
-<!--endintro-->
+<endOfIntro />
 
 - Create a meeting agenda prior to the meeting
 
@@ -32,16 +38,15 @@ Here’s how to ensure your meetings are effective and worthwhile. Before a meet
   E.g. Have '[AV Setup meetings](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)'.
 - For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
 
-::: email-template
-| | |
-| -------- | --- |
-| Required Attendees: | Scrum Team |
-| Optional Attendees: | Interested Stakeholders |
-| Recurrence: | Every **{{ NUMBER OF WEEKS IN THE SPRINT }}** weeks |
-| Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
-::: email-content
-
-### Hi Team 👋
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; – Sprint Review, Retro and Planning"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Team 👋
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
 
@@ -59,13 +64,11 @@ We go through the backlog (aka to-do list), get more information, estimate and t
 We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.
 See the rule [What happens at a Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)?
 
-Regards,  
-{{ SCRUM MASTER }}
+Regards,
+&#123;&#123; SCRUM MASTER &#125;&#125;
 
-<This email is as per [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings)>
-
-:::
-:::
-::: good
-Figure: Good example - Appointment template for Scrum meetings
-:::
+&lt;This email is as per [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings)&gt;
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Appointment template for Scrum meetings"}
+/>

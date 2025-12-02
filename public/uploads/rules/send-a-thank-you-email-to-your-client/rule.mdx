@@ -1,25 +1,37 @@
 ---
-seoDescription: When finishing a client project, it's essential to send a "thank you" email to show appreciation and highlight potential improvements. This gesture demonstrates that you care about your clients and their projects, and it may lead to future collaborations or referrals.
-type: rule
-archivedreason:
-title: Do you send thank you email to your client when project is about to end?
-guid: 628760d0-501b-4bc2-9b1c-45f5767530bf
-uri: send-a-thank-you-email-to-your-client
-created: 2017-10-23T21:07:44.0000000Z
+archivedreason: null
 authors:
-  - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-realize-the-value-of-your-existing-clients
+- title: Anthony Nguyen
+  url: https://ssw.com.au/people/anthony-nguyen
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/client-engagement/rules-to-better-software-consultants-dealing-with-clients.mdx
+- category: categories/client-engagement/rules-to-better-software-consultants-happy-clients.mdx
+created: 2017-10-23 21:07:47+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 628760d0-501b-4bc2-9b1c-45f5767530bf
+isArchived: false
+lastUpdated: 2020-08-06 02:31:35+00:00
+lastUpdatedBy: Tom Bui
+lastUpdatedByEmail: TomBui@ssw.com.au
 redirects:
-  - do-you-send-thank-you-email-to-your-client-when-project-is-about-to-end
+- do-you-send-thank-you-email-to-your-client-when-project-is-about-to-end
+related:
+- rule: public/uploads/rules/value-of-existing-clients/rule.mdx
+seoDescription: When finishing a client project, it's essential to send a "thank you"
+  email to show appreciation and highlight potential improvements. This gesture demonstrates
+  that you care about your clients and their projects, and it may lead to future collaborations
+  or referrals.
+title: Do you send thank you email to your client when project is about to end?
+type: rule
+uri: send-a-thank-you-email-to-your-client
 ---
 
 When you are about to finish a client project, it is a good idea to prepare a "thank you" email, have it checked and send it to your customer (usually the Product Owner) on the last day. In this email include:
 
-<!--endintro-->
+<endOfIntro />
 
 1. Make sure you have completed all requirements
 2. Thank for the time and tell them the reasons why you enjoyed working on this project
@@ -35,15 +47,15 @@ Below is a template email you can use:
 
 ### Email Template
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Cc: | \[Account Manager\] |
-| Subject: | \[Project Name\] - Thank you |  
-::: email-content
-
-### Hi Bob,
+<emailEmbed
+  from=""
+  to="Bob Northwind"
+  cc="\\[Account Manager\\]"
+  bcc=""
+  subject="\\[Project Name\\] - Thank you"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Bob,
 
 Thank you very much for your time for the last xxx weeks. I think you must be the best Product Owner I have worked with at SSW (always available for me when needed). I really enjoyed this project.
 
@@ -65,9 +77,7 @@ Please feel free to contact us if you have any questions.
 
 Regards,
 &lt;yourExternalSignature&gt;
-
-:::  
-:::  
-::: good  
-Figure: Good Example - Nice 'thank you' email with a list of future improvements
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example - Nice 'thank you' email with a list of future improvements"}
+/>

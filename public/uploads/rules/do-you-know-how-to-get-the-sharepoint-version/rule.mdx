@@ -1,35 +1,34 @@
 ---
-seoDescription: Get the latest SharePoint version quickly and easily through a simple file check or URL query.
-type: rule
-archivedreason:
-title: Do you know how to get the SharePoint version?
-guid: 6083d824-bf33-47e2-9c88-6cbf86e00dec
-uri: do-you-know-how-to-get-the-sharepoint-version
-created: 2013-09-10T06:58:12.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint.mdx
+created: 2013-09-10 07:05:38+00:00
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
+guid: 6083d824-bf33-47e2-9c88-6cbf86e00dec
+isArchived: false
+lastUpdated: 2021-03-12 01:08:03.519000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Get the latest SharePoint version quickly and easily through a simple
+  file check or URL query.
+title: Do you know how to get the SharePoint version?
+type: rule
+uri: do-you-know-how-to-get-the-sharepoint-version
 ---
 
 You want to be on the latest version of SharePoint.
 
-<!--endintro-->
+<endOfIntro />
 
 There are multiple ways to get it:
-
-::: bad
-Check SharePoint DLL version
-:::
-
-::: bad
-Check `http://<CentralAdminSite>/\_admin/FarmServers.aspx`
-:::
-
-::: good
-Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`
-:::
+**❌ Check SharePoint DLL version**  
+**❌ Check `http://<CentralAdminSite>/\_admin/FarmServers.aspx`**  
+**✅ Check `http://<AnySiteCollection>/\_vti\_pvt/service.cnf`**  
 
 See [Get SharePoint version number of your platform quickly](https://jeremythake.com/get-sharepoint-version-number-of-your-platform-quickly-6d092d2d1aff) for details.
 

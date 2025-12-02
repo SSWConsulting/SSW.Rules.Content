@@ -1,43 +1,104 @@
 ---
-seoDescription: Improve user experience by adding a top "select all" checkbox for easy management of checkboxes in lists.
-type: rule
-archivedreason: 
-title: Controls - Do you include a "select all" checkBox on the top?
-guid: 98768e5a-930e-48db-bc05-11d6fe0d7a76
-uri: controls-do-you-include-a-select-all-checkbox-on-the-top
-created: 2012-11-27T08:42:03.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2012-11-27 08:43:03+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 98768e5a-930e-48db-bc05-11d6fe0d7a76
+isArchived: false
+lastUpdated: 2017-02-23 14:37:41+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
 - controls-do-you-include-a-＂select-all＂-checkbox-on-the-top
-
+seoDescription: Improve user experience by adding a top "select all" checkbox for
+  easy management of checkboxes in lists.
+title: Controls - Do you include a "select all" checkBox on the top?
+type: rule
+uri: controls-do-you-include-a-select-all-checkbox-on-the-top
 ---
 
 Do you have checkbox (on the top) that let users select or unselect all checkboxes underneath it? If you have a list of checkboxes, you are going to frustrate users unless you provide an easy way to select all. The best way to achieve this is to have a checkbox at the top.
 
-<!--endintro-->
+<endOfIntro />
 
-::: good  
-![Figure: Good Example - Hotmail does this](/HotmailSelectAll.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - Hotmail does this"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/HotmailSelectAll.gif"
+/>
 
-![Figure: Google have done it a different way to provide multiple methods (All, All Read, All Unread, All Starred, and All Unstarred)](/GmailSelectAll.gif)  
 
-::: bad  
-![Figure: Bad Example - SQL Auditor - No CheckBox for users to perform a "select all"](/SQLAuditorSelectAll_Bad.jpg)  
-:::
 
-::: good  
-![Figure: Good Example - SQL Auditor - CheckBox at the top of the column](/SQLAuditorSelectAll_good.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Google have done it a different way to provide multiple methods (All, All Read, All Unread, All Starred, and All Unstarred)"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/GmailSelectAll.gif"
+/>
 
-![Figure: Selecting all does this - selects all](/SQLAuditorSelectAll_All.jpg)  
 
-![Figure: Deselecting all does this - selects none](/SQLAuditorSelectAll_None.jpg)  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - SQL Auditor - No CheckBox for users to perform a \"select all\""}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_Bad.jpg"
+/>
 
-![Figure: Selecting some should show the Indeterminate check state - aka customized selection](/SQLAuditorSelectAll_Customize.jpg)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - SQL Auditor - CheckBox at the top of the column"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_good.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Selecting all does this - selects all"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_All.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Deselecting all does this - selects none"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_None.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Selecting some should show the Indeterminate check state - aka customized selection"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_Customize.jpg"
+/>
+
 
 ```
 Private Sub CheckBoxSelectAll\_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) \_
@@ -50,7 +111,16 @@ End Sub
 ```
 
 Code: Code for selecting all checkboxes in a windows form
-![Figure: Select all checkboxes in a web form](/SelectAllCheckBox_Web.jpg)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Select all checkboxes in a web form"}
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SelectAllCheckBox_Web.jpg"
+/>
+
 
 ```
 &lt;script type="text/javascript"&gt;

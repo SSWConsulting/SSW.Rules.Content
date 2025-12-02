@@ -2,6 +2,8 @@
 seoDescription: Improve performance and reduce memory usage by using AsNoTracking for readonly queries in EF Core.
 type: rule
 title: Do you use AsNoTracking for readonly queries?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: use-asnotracking-for-readonly-queries
 authors:
   - title: Bryden Oliver
@@ -14,7 +16,7 @@ One of EF Core's best features is the fact it tracks any changes you make to ent
 
 This results in fairly significant memory and CPU improvements on the client side.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 return context.Sales.AsNoTracking().Where(x => x.Id == 5).ToList();

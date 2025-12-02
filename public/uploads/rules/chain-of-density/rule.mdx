@@ -1,23 +1,26 @@
 ---
-seoDescription: Discover how Chain of Density prompts enhance text summarization accuracy efficiently.
-type: rule
-title: Do you use chain of density prompts for summarization?
-uri: chain-of-density
-authors:
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily
-related:
-  - summarize-long-conversations
-  - fundamentals-of-prompt-engineering
-  - critical-agent
-created: 2023-09-19T00:00:00Z
 archivedreason: null
+authors:
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily
+categories:
+- category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
+created: 2023-09-19 00:00:00+00:00
 guid: b962b722-e7a8-42ed-b045-f8f2e4c7bd1b
+related:
+- rule: public/uploads/rules/summarize-long-conversations/rule.mdx
+- rule: public/uploads/rules/fundamentals-of-prompt-engineering/rule.mdx
+- rule: public/uploads/rules/critical-agent/rule.mdx
+seoDescription: Discover how Chain of Density prompts enhance text summarization accuracy
+  efficiently.
+title: Do you use chain of density prompts for summarization?
+type: rule
+uri: chain-of-density
 ---
 
 If you have a lot of text to sum up, it can be time consuming to extract the most important parts. If you want a simple way to keep the important stuff, you should use chain of density (CoD).
 
-<!--endintro-->
+<endOfIntro />
 
 ## What is Chain of Density?
 
@@ -29,15 +32,18 @@ When you give it the prompt, it will:
 * Critique itself to check quality
 * Improve its own summary
 
-Here's an example prompt you can use to do CoD - the only thing you need to to is paste the text you want summarized into the {{ ARTICLE }} placeholder:
+Here's an example prompt you can use to do CoD - the only thing you need to to is paste the text you want summarized into the &#123;&#123; ARTICLE &#125;&#125; placeholder:
 
-::: greybox
-"Article: {{ ARTICLE }}  
-You will generate increasingly concise, entity-dense summaries of the above article.  
 
-Repeat the following 2 steps 5 times.  
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Article: &#123;&#123; ARTICLE &#125;&#125;
+You will generate increasingly concise, entity-dense summaries of the above article.
 
-Step 1. Identify 1-3 informative entities (";" delimited) from the article which are missing from the previously generated summary.  
+Repeat the following 2 steps 5 times.
+
+Step 1. Identify 1-3 informative entities (";" delimited) from the article which are missing from the previously generated summary.
 Step 2. Write a new, denser summary of identical length which covers every entity and detail from the previous summary plus the missing entities.
 
 A missing entity is:
@@ -58,6 +64,10 @@ Guidelines:
 * Never drop entities from the previous summary. If space cannot be made, add fewer new entities.
 
 Remember, use the exact same number of words for each summary."
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Depending on how dense of a summary you want, you may want to take the outputs from step 2, 3, or 4, instead of 5.

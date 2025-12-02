@@ -1,56 +1,70 @@
 ---
-seoDescription: Discover the power of AI-generated images and unlock new creative possibilities!
-type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/](/rules/rules-to-better-ai-image-generators)
-title: Do you know how and when to use AI generated images?
-guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
-uri: generate-ai-images
-created: 2023-06-06T05:06:33.0000000Z
 authors:
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily/
-  - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin
-  - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-related: []
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily/
+- title: Jayden Alchin
+  url: https://www.ssw.com.au/people/jayden-alchin
+- title: Jack Reimers
+  url: https://www.ssw.com.au/people/jack-reimers
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+created: 2023-06-06 05:06:33+00:00
+guid: 61b75416-bbae-4aac-a929-c51e46ac7fb3
 redirects: []
+seoDescription: Discover the power of AI-generated images and unlock new creative
+  possibilities!
+title: Do you know how and when to use AI generated images?
+type: rule
+uri: generate-ai-images
 ---
 
 AI image generation is a rapidly evolving field that offers a novel way to produce images. This rule discusses different AI image generators and what we can use AI images for.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Prompting basics
 
-Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}”.
+Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A &#123;&#123; TYPE OF PICTURE &#125;&#125; of a &#123;&#123; MAIN SUBJECT &#125;&#125;, &#123;&#123; STYLE CUES &#125;&#125;”.
 
-::: greybox
-“A brown dog on a skateboard”
-:::
-::: good  
-Figure: Good example - A basic prompt
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    “A brown dog on a skateboard”
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - A basic prompt"}
+/>
+
 
 You can add more detail to make a more effective prompt by following this template:
 
-::: greybox
-**{{ ADJECTIVE }}, {{ EMOTION }}, {{ SUBJECT }}, {{ STYLE }}, {{ COLOR }}**
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **&#123;&#123; ADJECTIVE &#125;&#125;, &#123;&#123; EMOTION &#125;&#125;, &#123;&#123; SUBJECT &#125;&#125;, &#123;&#123; STYLE &#125;&#125;, &#123;&#123; COLOR &#125;&#125;**
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ## Negative Prompting
 
 Negative prompting is specifying what you don't want in your image. It can be an effective way of guiding the AI away from certain features that you're not interested in. Some AI image generators (e.g. Midjourney and Dreamstudio) have this option. In others (e.g. DALLE-2), you can include it in your prompt.
 
-::: greybox
-“An open highway --no cars”
-:::
 
-::: good  
-Figure: Good example - A prompt with a negative element in Midjourney format
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    “An open highway --no cars”
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**✅ Figure: Good example - A prompt with a negative element in Midjourney format**  
 
 ## Parameters
 
@@ -66,29 +80,38 @@ Parameters allow you to control different aspects of the generated image via set
 
 - **Uploading:** Most AI image generators allow you to upload an existing image so that the AI will create different variations of it.
 
-::: greybox
-"A scene"
-:::
 
-::: bad  
-Figure: Bad example - A vague prompt like this gives an ambiguous image
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "A scene"
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**❌ Figure: Bad example - A vague prompt like this gives an ambiguous image**  
 
-::: greybox
-"A snowy mountain landscape at sunset... majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
-:::
 
-::: bad  
-Figure: Bad example - This prompt is too long
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "A snowy mountain landscape at sunset... majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**❌ Figure: Bad example - This prompt is too long**  
 
-::: greybox
-"A snowy mountain landscape at sunset with warm hues"
-:::
 
-::: good  
-Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "A snowy mountain landscape at sunset with warm hues"
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**✅ Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image**  
 
 ## Recommended Tools
 
@@ -101,9 +124,15 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 - Uses a credit system where users purchase credits to use the model
 - Some OpenAI users start with free credits
 
-::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle_1710232021939.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  captionStyle="default"
+  captionText={"\"A red tree in a valley. Hi res\" - by DALL-E2"}
+  src="/uploads/rules/generate-ai-images/red-tree-dalle_1710232021939.png"
+/>
+
 
 ### Midjourney
 
@@ -123,21 +152,27 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   - Basic - /imagine cat
 
-  - Specify an artistic medium – /imagine {{{ ANY ART STYLE }} style cat
+  - Specify an artistic medium – /imagine &#123;&#123;{ ANY ART STYLE &#125;&#125; style cat
 
-  - Get specific – /imagine {{ STYLE }} sketch of a cat
+  - Get specific – /imagine &#123;&#123; STYLE &#125;&#125; sketch of a cat
 
-  - Time travel – /imagine {{ DECADE }} cat illustration
+  - Time travel – /imagine &#123;&#123; DECADE &#125;&#125; cat illustration
 
-  - Emote – /imagine {{ EMOTION }} cat
+  - Emote – /imagine &#123;&#123; EMOTION &#125;&#125; cat
 
-  - Be colorful – /imagine {{ COLOR WORD }} colored cat
+  - Be colorful – /imagine &#123;&#123; COLOR WORD &#125;&#125; colored cat
 
-  - Explore environments – /imagine {{ LOCATION }} cat
+  - Explore environments – /imagine &#123;&#123; LOCATION &#125;&#125; cat
 
-::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2_1710232021940.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  captionStyle="default"
+  captionText={"\"A red tree in a valley. Hi res\" - by Midjourney"}
+  src="/uploads/rules/generate-ai-images/red-tree-midjourney2_1710232021940.png"
+/>
+
 
 ### DreamStudio
 
@@ -148,9 +183,15 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
 - You can use the web demo without signing up
 - Distinguishable because of the easy customization of parameters (e.g., style, aspect ratio) on the interface
 
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio_1710232021940.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  captionStyle="default"
+  captionText={"\"A red tree in a valley. Hi res\" - by DreamStudio"}
+  src="/uploads/rules/generate-ai-images/red-tree-dreamstudio_1710232021940.png"
+/>
+
 
 ## ✅ Where should you use AI-generated images?
 
@@ -164,11 +205,13 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
 
 ## Videos
 
-`youtube: https://www.youtube.com/embed/nYqeHIRKboM`
-**Video: Midjourney 5 must be stopped at all costs (3 min)**
 
-`youtube: https://www.youtube.com/embed/zf4z8A-OWBY`
-**Video: How To Generate INSANE AI Art For Beginners (2 min)**
+<youtubeEmbed url="https://www.youtube.com/embed/nYqeHIRKboM" description={"Video: Midjourney 5 must be stopped at all costs (3 min)"} />
 
-`youtube: https://www.youtube.com/embed/Ng_GmJy_F8c`
-**Video: Advanced Midjourney V5.1 Guide (11 min)**
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/zf4z8A-OWBY" description={"Video: How To Generate INSANE AI Art For Beginners (2 min)"} />
+
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/Ng_GmJy_F8c" description={"Video: Advanced Midjourney V5.1 Guide (11 min)"} />

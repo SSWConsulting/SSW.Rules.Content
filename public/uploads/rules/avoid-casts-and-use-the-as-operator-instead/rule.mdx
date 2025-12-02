@@ -1,24 +1,32 @@
 ---
-seoDescription: Avoid type casts and use the "as operator" instead to ensure safer and more efficient code.
-type: rule
-archivedreason:
-title: Do you avoid casts and use the "as operator" instead?
-guid: b44fe59b-11ab-4ec9-bd57-15c8b93c679e
-uri: avoid-casts-and-use-the-as-operator-instead
-created: 2018-04-30T18:40:09.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-30 18:40:13+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: b44fe59b-11ab-4ec9-bd57-15c8b93c679e
+isArchived: false
+lastUpdated: 2021-04-27 00:59:03.690000+00:00
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@me.com
 redirects:
-  - do-you-avoid-casts-and-use-the-as-operator-instead
+- do-you-avoid-casts-and-use-the-as-operator-instead
+seoDescription: Avoid type casts and use the "as operator" instead to ensure safer
+  and more efficient code.
+title: Do you avoid casts and use the "as operator" instead?
+type: rule
+uri: avoid-casts-and-use-the-as-operator-instead
 ---
 
 Use casts only if:
 a. You know 100% that you get that type back
 b. You want to perform a user-defined conversion
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -29,10 +37,7 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
  // snip snip snip
 }
 ```
-
-::: bad
-Bad example
-:::
+**❌ Bad example**  
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -47,9 +52,6 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
 
 }
 ```
-
-::: good
-Good example
-:::
+**✅ Good example**  
 
 More info here: [http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html](http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html)

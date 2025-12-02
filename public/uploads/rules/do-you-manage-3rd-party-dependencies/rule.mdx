@@ -1,26 +1,35 @@
 ---
-seoDescription: Chinafy - Effectively manage third-party dependencies to ensure seamless website performance in China by removing unnecessary dependencies, hosting required CSS and JavaScript content locally or through a CDN available from China.
-type: rule
-title: Chinafy - Do you manage 3rd party dependencies?
-uri: do-you-manage-3rd-party-dependencies
-authors:
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
-related: []
-redirects:
-  - chinafy-do-you-manage-3rd-party-dependencies
-created: 2018-12-10T03:38:44.000Z
 archivedreason: null
+authors:
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Barry Sanders
+  url: https://ssw.com.au/people/barry-sanders
+categories:
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2018-12-10 03:38:46+00:00
+createdBy: Brendan Richards
+createdByEmail: BrendanRichards@ssw.com.au
 guid: 8534cd2d-5d40-44ba-b9d3-a9ce18e97294
+isArchived: false
+lastUpdated: 2019-02-05 17:57:12+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- chinafy-do-you-manage-3rd-party-dependencies
+seoDescription: Chinafy - Effectively manage third-party dependencies to ensure seamless
+  website performance in China by removing unnecessary dependencies, hosting required
+  CSS and JavaScript content locally or through a CDN available from China.
+title: Chinafy - Do you manage 3rd party dependencies?
+type: rule
+uri: do-you-manage-3rd-party-dependencies
 ---
 
 Modern websites can use 3rd party dependencies from many different sources. This can include js and CSS libraries from CDNs, video providers such as YouTube and other 3rd party APIs.
 
-<!--endintro-->
+<endOfIntro />
 
 Many of these services are completely blocked inside other countries. China, in particular, currently blocks all the below:
 
@@ -37,7 +46,16 @@ Many of these services are completely blocked inside other countries. China, in 
 
 Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria), ChatGPT (e.g. Russia, Cuba, North Korea) and YouTube (e.g. Pakistan, Syria).
 
-![Figure: Blocked sites](social-media-blocked.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Blocked sites"}
+  src="/uploads/rules/do-you-manage-3rd-party-dependencies/social-media-blocked.png"
+/>
+
 
 If the runtime operation of your site depends upon these services, your website will either fail or perform poorly for users in China. Start by reviewing how many of these services are essential, what they do and whether there are China-based equivalents. The fewer external dependencies in your site, the easier it will be to Chinafy.
 
@@ -45,9 +63,15 @@ Every attempted request to a blocked service can add serious delays to your site
 
 To measure the impact of this, you need to be able to browse the website from inside China. From there you can open the site and collect performance measurements from the network tab of your browser's dev tools.
 
-::: bad
-![Figure: Bad example - This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube](BlockedDependencies.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - This browser in China was stalled attempting to load resources from Facebook, Google, and YouTube"}
+  src="/uploads/rules/do-you-manage-3rd-party-dependencies/BlockedDependencies.png"
+/>
+
 
 This situation can first be improved by finding and removing unnecessary dependencies. Next, ensure that all required CSS and JavaScript content can be loaded, by either hosting within your site or using a CDN that is available from China.
 

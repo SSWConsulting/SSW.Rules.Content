@@ -1,29 +1,32 @@
 ---
-type: rule
-title: Do you use a Content Delivery Network (CDN)?
-seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?
-uri: use-a-cdn
-authors:
-  - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
-  - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
-related: []
-redirects:
-  - do-you-use-a-content-delivery-network-cdn
-  - do-you-use-a-content-delivery-network-(cdn)
-  - do-you-use-cdn-for-js-files
-created: 2019-05-16T06:32:40.000Z
 archivedreason: null
+authors:
+- title: Barry Sanders
+  url: https://ssw.com.au/people/barry-sanders
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Shane Ye
+  url: https://ssw.com.au/people/shane-ye
+- title: Aman Kumar
+  url: https://ssw.com.au/people/aman-kumar
+categories:
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2019-05-16 06:32:40+00:00
 guid: 8312c849-88a5-4745-82e7-739127d6e9f8
+redirects:
+- do-you-use-a-content-delivery-network-cdn
+- do-you-use-a-content-delivery-network-(cdn)
+- do-you-use-cdn-for-js-files
+seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency
+  and improve page load times for your users?
+title: Do you use a Content Delivery Network (CDN)?
+type: rule
+uri: use-a-cdn
 ---
+
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
 
-<!--endintro-->
+<endOfIntro />
 
 ## What is a CDN?
 
@@ -81,24 +84,35 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 
 ### Which ones do **not** work well from China?
 
-1. <https://maxcdn.bootstrapcdn.com>
-2. <https://ajax.googleapis.com>
+1. [https://maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com)
+2. [https://ajax.googleapis.com](https://ajax.googleapis.com)
 
-::: bad
-![Figure: Bad example - jquery.min.js from GoogleAPIs failed to load](5-28.4.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - jquery.min.js from GoogleAPIs failed to load"}
+  src="/uploads/rules/use-a-cdn/5-28.4.png"
+/>
+
 
 ### Which CDNs work well from China?
 
 1. [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com) (recommended)
-2. <http://www.staticfile.org/>
-3. <http://www.bootcdn.cn/>
+2. [http://www.staticfile.org/](http://www.staticfile.org/)
+3. [http://www.bootcdn.cn/](http://www.bootcdn.cn/)
 4. [Baidu AI Cloud | Object Storage (BOS)](https://intl.cloud.baidu.com/en/product/bos.html)
-5. <http://lib.sinaapp.com/>
-6. <http://cdnjs.net/>
-7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
-8. <https://www.akamai.com>
+5. [http://lib.sinaapp.com/](http://lib.sinaapp.com/)
+6. [http://cdnjs.net/](http://cdnjs.net/)
+7. [https://www.cloudflare.com/network/china/](https://www.cloudflare.com/network/china/) (Cloudflare’s China Service)
+8. [https://www.akamai.com](https://www.akamai.com)
 
-::: good
-![Figure: Good example - jquery.min.js from CDNJS isn't blocked and is very fast](5-28.5.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - jquery.min.js from CDNJS isn't blocked and is very fast"}
+  src="/uploads/rules/use-a-cdn/5-28.5.png"
+/>

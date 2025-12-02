@@ -1,19 +1,27 @@
 ---
-seoDescription: Ensure a seamless migration by checking the audit log for modifications during the process to avoid losing important changes.
-type: rule
-archivedreason:
-title: Do you check the audit log for modification?
-guid: a29c71c3-b32b-45c6-8fbd-96da93042160
-uri: check-the-audit-log-for-modification
-created: 2018-05-04T23:38:45.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Jean Thirion
+  url: https://ssw.com.au/people/jean-thirion
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2016-to-online.mdx
+created: 2018-05-04 23:38:48+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a29c71c3-b32b-45c6-8fbd-96da93042160
+isArchived: false
+lastUpdated: 2021-07-06 17:56:13.647000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-check-the-audit-log-for-modification
+- do-you-check-the-audit-log-for-modification
+seoDescription: Ensure a seamless migration by checking the audit log for modifications
+  during the process to avoid losing important changes.
+title: Do you check the audit log for modification?
+type: rule
+uri: check-the-audit-log-for-modification
 ---
 
 During the migration the site can't be locked if you are [using Sharegate](https://sharegate.com/sharepoint-migration), there is a chance that employees will ignore the instructions in the ribbon and still make changes.
@@ -22,11 +30,20 @@ Furthermore, they might also be automated processes that are putting records in 
 
 So to ensure the migration process did not miss any items, ensure nobody modified documents on your old Intranet SharePoint Server. To do that:
 
-<!--endintro-->
+<endOfIntro />
 
 1. Navigate to "Site Settings" | "Audit log reports" which will take you there:
 
-![Figure: check nobody was modifying the intranet during the long migration](no-intranet-modifications.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"check nobody was modifying the intranet during the long migration"}
+  src="/uploads/rules/check-the-audit-log-for-modification/no-intranet-modifications.jpg"
+/>
+
 
 2. Click "Content Modifications"
 3. Order the generated Excel data by modification date ("Occurred" ) and look for modifications done by users.
@@ -34,15 +51,15 @@ So to ensure the migration process did not miss any items, ensure nobody modifie
    * Redo their modification in your new Cloud intranet (likely)
    * Confirm that the modification is not important and does not require manual migration (less likely)
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | John |
-| Cc: | YYY |
-| Subject: | Changes to yyy file |  
-::: email-content
-
-### Hey John
+<emailEmbed
+  from=""
+  to="John"
+  cc="YYY"
+  bcc=""
+  subject="Changes to yyy file"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hey John
 
 I have noticed that you changed the file “yyy” \[add link to the file\].
 
@@ -56,13 +73,23 @@ Please note that these changes will be lost as part of the old SharePoint server
 Regards,
 
 * SharePoint Admin Team
-
-:::  
-:::
+  </>}
+  captionStyle="default"
+  captionText={"Example"}
+/>
 
 After you export to Excel, follow this example:
 
-![Figure: Modifications are done on the old SharePoint intranet during the migration process (hence not migrated to the cloud)](old-sharepoint-modification.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Modifications are done on the old SharePoint intranet during the migration process (hence not migrated to the cloud)"}
+  src="/uploads/rules/check-the-audit-log-for-modification/old-sharepoint-modification.jpg"
+/>
+
 
 * **Green:** non-important data (automated logging info) - ignore
 * **Orange:** potentially important data (user made changes) – ask the user

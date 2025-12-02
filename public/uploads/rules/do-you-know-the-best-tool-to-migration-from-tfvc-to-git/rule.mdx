@@ -1,21 +1,31 @@
 ---
-seoDescription: Migrate from TFVC to Git using best tools like VisualStudio.com, Git-Tf, or recommended Git-Tfs.
-type: rule
-archivedreason:
-title: Do you know the best tool to migration from TFVC to Git?
-guid: 1e33e748-ca14-40fe-bd9e-36f992f9d2c2
-uri: do-you-know-the-best-tool-to-migration-from-tfvc-to-git
-created: 2017-04-03T23:23:08.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
-related:
-  - do-you-use-version-control-with-power-bi
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Danijel Malik
+  url: https://ssw.com.au/people/danijel-malik
+categories:
+- category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
+- category: categories/project-delivery/rules-to-better-version-control-with-tfs-aka-source-control.mdx
+created: 2017-04-03 23:23:11+00:00
+createdBy: Eric Phan
+createdByEmail: ericphan@ssw.com.au
+guid: 1e33e748-ca14-40fe-bd9e-36f992f9d2c2
+isArchived: false
+lastUpdated: 2018-06-21 05:08:09+00:00
+lastUpdatedBy: Kaique Biancatti
+lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
 redirects: []
+related:
+- rule: public/uploads/rules/do-you-use-version-control-with-power-bi/rule.mdx
+seoDescription: Migrate from TFVC to Git using best tools like VisualStudio.com, Git-Tf,
+  or recommended Git-Tfs.
+title: Do you know the best tool to migration from TFVC to Git?
+type: rule
+uri: do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 ---
 
 Git has become the defacto standard for version control systems. It's distributed and decentralized and promotes working disconnected as default. It also takes away the pain of branching and merging and has a built in code review system with pull requests. Everybody should be using Git, and if you're not, you should be migrating the Git using one of the below tools.
@@ -24,28 +34,31 @@ Git has become the defacto standard for version control systems. It's distribute
 * Git-Tf
 * Git-Tfs (recommended)
 
-<!--endintro-->
+<endOfIntro />
 
 ### VisualStudio.com - Import Repository
 
 VisualStudio.com gives you the ability to import from a TFVC repository into a new Git repository.
 
-![](03_29_08.png)
-
-::: bad
-Bad Example - Built in tool has several limitations
-
-:::
+![](/uploads/rules/do-you-know-the-best-tool-to-migration-from-tfvc-to-git/03_29_08.png)
+**❌ Bad Example - Built in tool has several limitations**  
 
 If you don't care about source control history, then this inbuilt tool is the easiest to use. It has the limitations of:
 
 * 180 days of history
 * No branches
 
-::: greybox
-**TIP -** Use this if you don't care about source control history
 
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **TIP -** Use this if you don't care about source control history
+
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ### Git -Tf
 
@@ -53,10 +66,17 @@ If you don't care about source control history, then this inbuilt tool is the ea
 
 To see how to use this to migrate see ["Migrate an existing project from TFS to Git with changeset history intact" from Chris Kirby](https://chriskirby.net/blog/migrate-an-existing-project-from-tfs-to-github-with-changeset-history-intact)
 
-::: greybox
-**TIP -** Use Git-Tf if you don't have a Windows environment
 
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **TIP -** Use Git-Tf if you don't have a Windows environment
+
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ### Git-Tfs ( Recommended)
 

@@ -1,18 +1,26 @@
 ---
-seoDescription: Microsoft TFS users no longer need to type "/tfs" upon login, streamlining their experience.
-type: rule
-archivedreason:
-title: Do you remove the need to type “/tfs” ?
-guid: 3d5efb3b-12ed-4d73-be25-23b214a0a7d8
-uri: do-you-remove-the-need-to-type-tfs
-created: 2015-05-05T19:49:26.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/project-delivery/rules-to-better-tfs-customization.mdx
+created: 2015-05-05 19:58:17+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 3d5efb3b-12ed-4d73-be25-23b214a0a7d8
+isArchived: false
+lastUpdated: 2021-03-12 20:28:05.438000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Microsoft TFS users no longer need to type "/tfs" upon login, streamlining
+  their experience.
+title: Do you remove the need to type “/tfs” ?
+type: rule
+uri: do-you-remove-the-need-to-type-tfs
 ---
 
 Many clients that complain when they type: **tfs.northwind.com**
@@ -20,14 +28,37 @@ Many clients that complain when they type: **tfs.northwind.com**
 
 It is not a nice experience that in 2015 the out-of-the-box requirement is still to type "/tfs".
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - A horrible first experience... did I get the URL wrong? Is the server down?](tfs-url-1.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - A horrible first experience... did I get the URL wrong? Is the server down?"}
+  src="/uploads/rules/do-you-remove-the-need-to-type-tfs/tfs-url-1.jpg"
+/>
+
 
 So fix the nasty out-of-the-box experience.
 
-![Figure: Option 1 – This is one way. Include some text to tell devs that they can remove the need for /tfs - on the Application Tier page specify port 80 and an empty Virtual Directory](tfs-url-2.png)
 
-![Figure: Option 2 – This is another way. In IIS add the redirect to remove the need to type “/tfs” (recommended)](tfs-url-3.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Option 1 – This is one way. Include some text to tell devs that they can remove the need for /tfs - on the Application Tier page specify port 80 and an empty Virtual Directory"}
+  src="/uploads/rules/do-you-remove-the-need-to-type-tfs/tfs-url-2.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Option 2 – This is another way. In IIS add the redirect to remove the need to type “/tfs” (recommended)"}
+  src="/uploads/rules/do-you-remove-the-need-to-type-tfs/tfs-url-3.png"
+/>

@@ -1,34 +1,48 @@
 ---
-seoDescription: Standardize virtual machine naming conventions to simplify identification and management across multiple hosts and environments.
-type: rule
-archivedreason:
-title: Do you name your Virtual Machines with a standardized naming convention?
-guid: 95d89bf5-a456-4ccf-b636-5bd7e56300f6
-uri: name-your-virtual-machines-with-a-standardized-naming-convention
-created: 2011-02-14T05:06:05.0000000Z
+archivedreason: null
 authors:
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-related: []
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v.mdx
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+created: 2011-02-14 05:06:05+00:00
+guid: 95d89bf5-a456-4ccf-b636-5bd7e56300f6
 redirects:
-  - do-you-name-your-virtual-machines-with-a-standadized-naming-convention
-  - do-you-name-your-virtual-machines-with-a-standardized-naming-convention
+- do-you-name-your-virtual-machines-with-a-standadized-naming-convention
+- do-you-name-your-virtual-machines-with-a-standardized-naming-convention
+seoDescription: Standardize virtual machine naming conventions to simplify identification
+  and management across multiple hosts and environments.
+title: Do you name your Virtual Machines with a standardized naming convention?
+type: rule
+uri: name-your-virtual-machines-with-a-standardized-naming-convention
 ---
 
 When your Hyper-V environment is spread across multiple hosts and contains many Virtual Servers, it can get very confusing to find the one you are looking for amongst them all. This is why you should use a standard naming convention for all your Virtual machines.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Bad Example - How do you know what machine is what?](naming-badexample.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - How do you know what machine is what?"}
+  src="/uploads/rules/name-your-virtual-machines-with-a-standardized-naming-convention/naming-badexample.jpg"
+/>
 
-The standard we use for Production Virtual Machine naming is as follows: **NetBIOSName-ServiceName**.  
+
+The standard we use for Production Virtual Machine naming is as follows: **NetBIOSName-ServiceName**.
 For example: **Falcon-SCVMM**.
 
-The standard we use for Development Virtual Machine naming is as follows: **DEV-NetBIOSName-ServiceName-DeveloperInitials**.  
+The standard we use for Development Virtual Machine naming is as follows: **DEV-NetBIOSName-ServiceName-DeveloperInitials**.
 For example: **DEV-demo2010a-SP2010MSInfoWorker-JL**.
 
-::: good
-![Good Example - It is easy to tell which VM is which when they are named to a standard](naming-goodexample.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - It is easy to tell which VM is which when they are named to a standard"}
+  src="/uploads/rules/name-your-virtual-machines-with-a-standardized-naming-convention/naming-goodexample.jpg"
+/>

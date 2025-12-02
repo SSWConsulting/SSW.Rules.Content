@@ -2,6 +2,8 @@
 seoDescription: Log all unhandled exceptions to provide developers with sufficient information to fix bugs when they occur, using a customized exception management block that logs to a database via a web service.
 type: rule
 title: Do you log all errors (with SSW Exception Manager)?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: do-you-log-all-errors-with-ssw-exception-manager
 authors:
   - title: Adam Cogan
@@ -12,11 +14,20 @@ guid: e34839fb-b482-4c4c-8e0d-e6a5565a6f31
 
 All unhandled exceptions should be logged to provide developers with sufficient information to fix bugs when they occur. There are two options we for logging exceptions:
 
-<!--endintro-->
+<endOfIntro />
 
 The Microsoft **Exception Management Application Block**Microsoft provides full source code for the EMAB, which is fully extensible with custom logging target extensions. We decided to customize the EMAB to produce the SSW Exception Management Block, which logs exceptions to a database using a web service, allowing us to keep a history of all exceptions.
 
-![Figure: Exception Reporting Web Service](exceptionreportingservice.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Exception Reporting Web Service"}
+  src="/uploads/rules/do-you-log-all-errors-with-ssw-exception-manager/exceptionreportingservice.gif"
+/>
+
 
 Your code should not contain any empty catch blocks as this can hamper exception handling and debugging.
 

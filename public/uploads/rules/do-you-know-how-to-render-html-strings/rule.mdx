@@ -14,7 +14,7 @@ guid: 521afe97-18c3-43bc-8ada-f3782960b10f
 
 However, this approach can cause confusion when an application needs to output content that is already HTML encoded.
 
-<!--endintro-->
+<endOfIntro />
 
 To solve this problem, the [`IHtmlString`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihtmlstring?WT.mc_id=DT-MVP-33518) interface in .NET Core can be used to represent HTML content that is pre-encoded and should not be encoded again.
 This is to prevent double encoding, which can distort the original HTML content and cause it to display incorrectly on a web page.
@@ -24,21 +24,21 @@ string message = "Hello, <b>world</b>!";
 
 Output: Hello, &lt;b&gt;world&lt;/b&gt;!
 ```
-
-::: bad  
-Figure: Bad example - A string containing HTML tags will be encoded
-:::
+**❌ Figure: Bad example - A string containing HTML tags will be encoded**  
 
 ```cs
 IHtmlContent message = new HtmlString("Hello, <b>world</b>!");
 
 Output: Hello, <b>world</b>!
 ```
+**✅ Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded**  
 
-::: good  
-Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML and not encoded
-:::
 
-::: info  
-You should only use IHtmlString when you are sure that the string doesn't contain any potentially harmful script tags. When dealing with user-provided content or content from an untrusted source, always sanitize or validate the HTML before rendering it.
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    You should only use IHtmlString when you are sure that the string doesn't contain any potentially harmful script tags. When dealing with user-provided content or content from an untrusted source, always sanitize or validate the HTML before rendering it.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>

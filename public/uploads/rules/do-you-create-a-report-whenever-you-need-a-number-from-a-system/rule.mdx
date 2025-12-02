@@ -1,55 +1,66 @@
 ---
-seoDescription: Don't create a report whenever you need a number from a system. Instead, use Power BI to build a reusable report and satisfy your own curiosity.
-type: rule
-archivedreason:
-title: Do you build reports to be reused?
-guid: 4ec2e94b-d3bf-44cd-a64e-0700048567d0
-uri: do-you-create-a-report-whenever-you-need-a-number-from-a-system
-created: 2012-09-25T18:04:31.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/company-operations/rules-to-better-business-intelligence.mdx
+created: 2015-03-19 05:28:14+00:00
+createdBy: Ulysses Maclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
+guid: 4ec2e94b-d3bf-44cd-a64e-0700048567d0
+isArchived: false
+lastUpdated: 2019-02-14 02:24:19+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - efficiency-reuse-do-you-create-a-report-whenever-you-need-a-number-from-a-system
+- efficiency-reuse-do-you-create-a-report-whenever-you-need-a-number-from-a-system
+seoDescription: Don't create a report whenever you need a number from a system. Instead,
+  use Power BI to build a reusable report and satisfy your own curiosity.
+title: Do you build reports to be reused?
+type: rule
+uri: do-you-create-a-report-whenever-you-need-a-number-from-a-system
 ---
 
 Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.
 
-<!--endintro-->
+<endOfIntro />
 
 If you found yourself doing ad-hoc reports, or random SQL queries, a few years ago, the best thing to do was to make sure the boss knows you could not find the data you needed, so he could commission a new report to be built.
 
 The best practice is to jump into Power BI and build the report yourself.
 
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | Mr. Northwind |
-| Subject: | Report needed |  
-::: email-content
-
-### Dear boss
+<emailEmbed
+  from=""
+  to="Mr. Northwind"
+  cc=""
+  bcc=""
+  subject="Report needed"
+  shouldDisplayBody={true}
+  body={<>
+    ## Dear boss
 
 Today I needed to find xxx and so I had to write a query to find it. You can find it at \\server\Reports_Adhoc\SalesByRegion.xlsx
 
 I suggest adding this into our Performance Point Cube so I could find it at a URL.
 
 Dave
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - Can't build it yourself, sending an email to your boss for a number"}
+/>
 
-:::  
-:::  
-::: bad
-Figure: Bad example - Can't build it yourself, sending an email to your boss for a number
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Sate your own curiosity with Power BI"}
+  src="/uploads/rules/do-you-create-a-report-whenever-you-need-a-number-from-a-system/Power BI.png"
+/>
 
-::: good
-![Figure: Good example - Sate your own curiosity with Power BI](Power BI.png)
-:::
 
 See Ulysses' video on how Power BI is the best tool for this:
 
-`youtube: https://www.youtube.com/watch?v=Y4tvF0DWEec`
 
-**Video: Power BI - Decisions based on facts: A Real World Look at Power BI (1 h 6 m)**
+<youtubeEmbed url="https://www.youtube.com/watch?v=Y4tvF0DWEec" description={"Video: Power BI - Decisions based on facts: A Real World Look at Power BI (1 h 6 m)"} />

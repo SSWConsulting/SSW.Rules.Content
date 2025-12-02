@@ -1,24 +1,26 @@
 ---
-seoDescription: Disable connections to TFS 2010 during migration by stopping file check-ins and confirming no latest updates are possible.
-type: rule
-archivedreason:
-title: Do you disable connections for TFS 2010 migration?
-guid: 320b6c73-b779-4bae-80f9-eb84235aeb1b
-uri: disable-connections-tfs2010-migration
-created: 2009-11-03T21:28:04.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/project-delivery/rules-to-better-tfs-2010-migration.mdx
+created: 2009-11-03 21:28:04+00:00
+guid: 320b6c73-b779-4bae-80f9-eb84235aeb1b
 redirects:
-  - do-you-disable-connections
+- do-you-disable-connections
+seoDescription: Disable connections to TFS 2010 during migration by stopping file
+  check-ins and confirming no latest updates are possible.
+title: Do you disable connections for TFS 2010 migration?
+type: rule
+uri: disable-connections-tfs2010-migration
 ---
 
 Once you are ready to start you need to make sure that no one can access the existing TFS 2008 server while you do the migration.
 
-<!--endintro-->
+<endOfIntro />
 
 1. You are ready to start
 2. Send out an email notifying all users that TFS2008 will be turned off.
@@ -28,6 +30,15 @@ Once you are ready to start you need to make sure that no one can access the exi
 
    B. Turning off TFS Service 1. Remote desktop into TFS 2008 2. Start IIS 3. Right click Team Foundation Server | Stop
 
-![Figure: You need to stop anyone checking in files](StopTFSServices.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"You need to stop anyone checking in files"}
+  src="/uploads/rules/disable-connections-tfs2010-migration/StopTFSServices.png"
+/>
+
 
 4. Confirm you can no longer get latest on the team project

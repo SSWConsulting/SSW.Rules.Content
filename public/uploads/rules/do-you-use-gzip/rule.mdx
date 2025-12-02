@@ -1,21 +1,30 @@
 ---
-seoDescription: Improve your website's performance by reducing file sizes and speeding up load times with Gzip compression.
-type: rule
-title: Do you use Gzip?
-uri: do-you-use-gzip
-authors:
-  - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
-related: []
-redirects: []
-created: 2019-05-17T03:05:06.000Z
 archivedreason: null
+authors:
+- title: Barry Sanders
+  url: https://ssw.com.au/people/barry-sanders
+categories:
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2019-05-17 03:05:23+00:00
+createdBy: Isaac Lu
+createdByEmail: IsaacLu@ssw.com.au
 guid: 90f6c345-3fee-4f69-bda3-d16b31447142
+isArchived: false
+lastUpdated: 2019-05-30 07:06:13+00:00
+lastUpdatedBy: barrysanders@ssw.com.au
+lastUpdatedByEmail: Unknown@ssw.com.au
+redirects: []
+seoDescription: Improve your website's performance by reducing file sizes and speeding
+  up load times with Gzip compression.
+title: Do you use Gzip?
+type: rule
+uri: do-you-use-gzip
 ---
+
 Gzip is a file format and a software application used for file compression and decompression.
 Gzip can reduce file size and storage space, and reduce transmission time when transferring files over the network. It runs on both Linux and Windows.
 
-<!--endintro-->
+<endOfIntro />
 
 Use PageSpeed Insights extension in Chrome to determine if your site will benefit from using Gzip.
 
@@ -27,24 +36,69 @@ Use one of the methods described below to add Gzip compression to your site ASP.
 
 ## Method 1: Turn on "Dynamic Content Compression" In IIS Server
 
-![Figure: Choose the website which you want to use Gzip and click on Compression](use-gzip-2.png)
 
-![Figure: Install "dynamic content compression" if you haven't installed it](use-gzip-3.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Choose the website which you want to use Gzip and click on Compression"}
+  src="/uploads/rules/do-you-use-gzip/use-gzip-2.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Install \"dynamic content compression\" if you haven't installed it"}
+  src="/uploads/rules/do-you-use-gzip/use-gzip-3.png"
+/>
+
 
 In **Control Panel** navigate to **All Control Panel Items | Programs and Features**, and click **Turn Windows features on or off**.
 Choose **Internet Information Services | Web Management Tools | World Wide Web Services | Performance Features | Dynamic Content Compression**.
 
-![Figure: Click "OK" to install it](use-gzip-4.png)
 
-![Figure: Enable dynamic content compression for your site](use-gzip-5.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Click \"OK\" to install it"}
+  src="/uploads/rules/do-you-use-gzip/use-gzip-4.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Enable dynamic content compression for your site"}
+  src="/uploads/rules/do-you-use-gzip/use-gzip-5.png"
+/>
+
 
 ## Method 2:  Using “Gzipper” in your Angular website
 
-Follow <https://www.npmjs.com/package/gzipper> (but it still need IIS Server enable static content compression). Using `npm i gzipper -g` to install "gzipper" first. Add to scripts in your package.json
+Follow [https://www.npmjs.com/package/gzipper](https://www.npmjs.com/package/gzipper) (but it still need IIS Server enable static content compression). Using `npm i gzipper -g` to install "gzipper" first. Add to scripts in your package.json
 
-![](use-gzip-7.png)
+![](/uploads/rules/do-you-use-gzip/use-gzip-7.png)
 
-![Figure: "Finish configuration like that](use-gzip-6.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"\"Finish configuration like that"}
+  src="/uploads/rules/do-you-use-gzip/use-gzip-6.png"
+/>
+
 
 ## Method 3: Using ASP.NET code in MVC
 
@@ -87,18 +141,20 @@ public class CompressAttribute : ActionFilterAttribute
 ```
 
 ```csharp
-[Compress] 
-public ActionResult About() 
-{ 
-   ViewBag.Message = "Your application description"; 
-   return View(); 
+[Compress]
+public ActionResult About()
+{
+   ViewBag.Message = "Your application description";
+   return View();
 }
 ```
+**❌ Figure: Bad example - Files with large size and slow load time**  
 
-::: bad
-Figure: Bad example - Files with large size and slow load time
-:::
-
-::: good
-![Figure: Good example - Gzipped files with smaller size and faster load time](5.28.7.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Gzipped files with smaller size and faster load time"}
+  src="/uploads/rules/do-you-use-gzip/5.28.7.png"
+/>

@@ -1,21 +1,38 @@
 ---
-seoDescription: Establishing relationships between tables by adding FOREIGN KEY constraints on columns ending with 'ID' ensures data integrity and prevents orphaned records.
-type: rule
-archivedreason:
-title: Relationships - Do you have FOREIGN KEY constraints on columns ending with ID?
-guid: d63b66e9-62f6-49b1-8a92-d3305d65089a
-uri: have-foreign-key-constraints-on-columns-ending-with-id
-created: 2019-11-13T18:23:27.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-13 18:23:30+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d63b66e9-62f6-49b1-8a92-d3305d65089a
+isArchived: false
+lastUpdated: 2019-11-13 18:26:39+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - relationships-do-you-have-foreign-key-constraints-on-columns-ending-with-id
+- relationships-do-you-have-foreign-key-constraints-on-columns-ending-with-id
+seoDescription: Establishing relationships between tables by adding FOREIGN KEY constraints
+  on columns ending with 'ID' ensures data integrity and prevents orphaned records.
+title: Relationships - Do you have FOREIGN KEY constraints on columns ending with
+  ID?
+type: rule
+uri: have-foreign-key-constraints-on-columns-ending-with-id
 ---
 
 Columns ending with 'ID' should have FOREIGN KEY constraints.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Missing relationships](NorthwindRelationships.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Missing relationships"}
+  src="/uploads/rules/have-foreign-key-constraints-on-columns-ending-with-id/NorthwindRelationships.jpg"
+/>

@@ -1,34 +1,54 @@
 ---
-seoDescription: Understand why testing cannot be completely automated, despite its potential value in using automation, human capabilities are still required for key testing skills.
-type: rule
-title: Do you understand why testing cannot be completely automated?
-uri: why-testing-cannot-be-completely-automated
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - what-testing-really-means
-created: 2022-10-06T23:22:00.911Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-10-06 23:22:00.911000+00:00
 guid: 88d14ac9-bbf0-4ba9-9301-66c47c6c902e
+related:
+- rule: public/uploads/rules/what-testing-really-means/rule.mdx
+seoDescription: Understand why testing cannot be completely automated, despite its
+  potential value in using automation, human capabilities are still required for key
+  testing skills.
+title: Do you understand why testing cannot be completely automated?
+type: rule
+uri: why-testing-cannot-be-completely-automated
 ---
 
 There is a common misconception that you can automate all the testing.
 
 While there can be great value in using automation in testing, human capabilities are still required for the key testing skills such as evaluation, experimentation, exploration, etc.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Bill Lumbergh might well ask someone to "automate all the testing" (from the movie Office Space)](automate-everything.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Bill Lumbergh might well ask someone to \"automate all the testing\" (from the movie Office Space)"}
+  src="/uploads/rules/why-testing-cannot-be-completely-automated/automate-everything.jpg"
+/>
+
 
 ### Remember the difference between testing and checking
 
 Recall the distinction between testing and checking (see [what "testing" really means](/what-testing-really-means)):
 
-::: info
-**Testing** is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting. This includes questioning, study, modeling, observation, inference, etc.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Testing** is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting. This includes questioning, study, modeling, observation, inference, etc.
 
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Looking at these definitions, **testing** is clearly a deeply human activity. Skills such as learning, exploring, questioning and inferring are not well suited to machines (even with the very best AI/ML). Humans may or may not _use_ tools or other automation while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
 
@@ -55,8 +75,11 @@ There is often value to be gained by automating checks and leveraging automation
 
 The next time someone suggests that you "automate all the testing", remind them this means you will need to:
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 "Automate the evaluation\
 and learning\
 and exploration\
@@ -95,11 +118,14 @@ and building the test team\
 and analyzing competitors\
 and resolving conflicting information\
 and benchmarking..."
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 (Kudos to Michael Bolton again for the above list)
 
 Check out Huib Schoots and Paul Holland talking about "Automation Addiction" in their Romanian Testing Conference 2022 keynote. They explain why testing can't be completely automated as well as discussing some common misconceptions and problems around automation.
 
-`youtube: https://www.youtube.com/watch?v=c1KKOyQUSWI&t=17s`
 
-**Video: Huib Schoots & Paul Holland - Automation Addiction (52 min)**
+<youtubeEmbed url="https://www.youtube.com/watch?v=c1KKOyQUSWI&t=17s" description={"Video: Huib Schoots & Paul Holland - Automation Addiction (52 min)"} />

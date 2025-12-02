@@ -1,22 +1,25 @@
 ---
-seoDescription: Learn why you should use Azure Migrate and the App Service Migration Assistant for assessing and migrating on-premise applications to Azure with a fast, clear, and repeatable process.
-type: rule
-title: Do you use Azure Migrate and App Service Migration Assistant before migrating your app to the cloud?
-uri: do-you-use-azure-migrate-to-move-to-cloud
 authors:
-  - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh
-  - title: Rick Su
-    url: https://www.ssw.com.au/people/rick-su
-related:
-  - choose-azure-services
-created: 2025-07-17T13:45:00.000Z
+- title: Ben Neoh
+  url: https://www.ssw.com.au/people/ben-neoh
+- title: Rick Su
+  url: https://www.ssw.com.au/people/rick-su
+created: 2025-07-17 13:45:00+00:00
 guid: 3d9644e5-1d2d-456f-a7b4-90b8923a1e4b
+related:
+- rule: public/uploads/rules/choose-azure-services/rule.mdx
+seoDescription: Learn why you should use Azure Migrate and the App Service Migration
+  Assistant for assessing and migrating on-premise applications to Azure with a fast,
+  clear, and repeatable process.
+title: Do you use Azure Migrate and App Service Migration Assistant before migrating
+  your app to the cloud?
+type: rule
+uri: do-you-use-azure-migrate-to-move-to-cloud
 ---
 
 Migrating legacy applications to Azure without first performing a readiness assessment can lead to unexpected failures or hidden blockers. Using Azure’s App Service Migration Assistant, an on-premises web application was assessed and packaged for migration efficiently through Microsoft’s PowerShell scripts.
 
-<!--endintro-->
+<endOfIntro />
 
 By following this structured, automated approach, migrations are faster, clearer, and more predictable.
 
@@ -28,8 +31,11 @@ By following this structured, automated approach, migrations are faster, clearer
 * **Clear, actionable reports** – Output is easy to interpret, helping teams resolve migration blockers quickly.
 * **Repeatable and scalable** – Scripts are well-documented, ideal for reuse across multiple migrations.
 
-::: greybox
-Scripts used:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Scripts used:
 
 1. `Get-SiteReadiness.ps1` – Assesses suitability for Azure App Service, checking:
    * Configuration errors
@@ -37,10 +43,11 @@ Scripts used:
    * HTTPS binding setup
 2. `Get-SitePackage.ps1` – Packages the site for migration.
 3. `Generate-MigrationSettings.ps1` – Generates deployment configuration files.
-:::
-::: good
-Figure: Good Example – A clear, script-driven process with consistent output.
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example – A clear, script-driven process with consistent output."}
+/>
+
 
 **⚠️ Cons**
 

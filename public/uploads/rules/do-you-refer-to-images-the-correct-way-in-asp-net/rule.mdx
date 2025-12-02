@@ -1,24 +1,32 @@
 ---
-seoDescription: Images should be referenced using root-relative paths or application-relative paths to simplify URLs and avoid issues with staging servers.
-type: rule
-title: Do you refer to images the correct way in ASP .NET?
-uri: do-you-refer-to-images-the-correct-way-in-asp-net
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
-redirects: []
-created: 2009-04-28T02:35:45.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2009-12-04 08:53:17+00:00
+createdBy: SSW2000\cindywang
+createdByEmail: CindyWang@ssw.com.au
 guid: a304e5ec-11c0-442b-9d8f-74a3f87b3593
+isArchived: false
+lastUpdated: 2021-03-12 20:49:14.048000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+seoDescription: Images should be referenced using root-relative paths or application-relative
+  paths to simplify URLs and avoid issues with staging servers.
+title: Do you refer to images the correct way in ASP .NET?
+type: rule
+uri: do-you-refer-to-images-the-correct-way-in-asp-net
 ---
 
 There are many ways to reference images in ASP.NET. There are 2 different situations commonly encountered by developers when working with images:
 
-<!--endintro-->
+<endOfIntro />
 
 - **Scenario #1:** Images that are part of the content of a specific page. E.g. A picture used only on 1 page
 - **Scenario #2:** Images that are shared across on user controls which are shared across different pages in a site. E.g. A shared logo used across the site (commonly in user controls, or master pages)
@@ -32,10 +40,7 @@ Often developers reference all images by using an root-relative path (prefixing 
 ```html
 <img src="/Images/spacer.jpg" />
 ```
-
-::: bad
-Bad example - Referencing images with absolute paths
-:::
+**❌ Bad example - Referencing images with absolute paths**  
 
 This has the advantage that &lt;img&gt; tags can easily be copied between pages, however it should not be used in either situation, because it requires that the website have its own site IIS and be placed in the root (not just an application), or that the entire site be in a subfolder on the production web server. For example, the following combinations of URLs are possible with this approach:
 
@@ -53,10 +58,7 @@ Images that are part of the content of a page should be referenced using relativ
 ```html
 <img src="../Images/spacer.jpg" />
 ```
-
-::: good
-Good example - Referencing images with relative paths
-:::
+**✅ Good example - Referencing images with relative paths**  
 
 However, this approach is not possible with images on user controls, because the relative paths will map to the wrong location if the user control is in a different folder to the page.
 
@@ -71,10 +73,7 @@ To use this feature, you need either use ASP.NET Server controls or HTML Server 
 <img id="spacerImage" src="~/Images/spacer.gif" originalAttribute="src"
 originalPath=""~/Images/spacer.gif"" runat="server">
 ```
-
-::: good
-Good example - Application-relative paths with an ASP.NET Server control
-:::
+**✅ Good example - Application-relative paths with an ASP.NET Server control**  
 
 Using an HTML Server control creates less overhead than an ASP.NET Server control, but the control does not dynamically adapt its rendering to the user's browser, or provide such a rich set of server-side features.
 
@@ -84,9 +83,6 @@ Using an HTML Server control creates less overhead than an ASP.NET Server contro
 <img src='<%# originalAttribute="src" originalPath="'<%#"
 Page.ResolveUrl("~/Images/spacer.gif") %>'>
 ```
-
-::: bad
-Bad example - Page.ResolveUrl method with a non-server tag
-:::
+**❌ Bad example - Page.ResolveUrl method with a non-server tag**  
 
 This approach is **not** recommended, because the data binding will create overhead and affect caching of the page. The inline code is also ugly and does not get compiled, making it easy to accidentally introduce syntax errors.

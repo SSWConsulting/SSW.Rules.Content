@@ -1,20 +1,28 @@
 ---
-seoDescription: Do you use interoperability mechanism for COM object? Use .NET's interoperability features to work with existing unmanaged code and improve performance.
-type: rule
-archivedreason:
-title: Do you use interoperability mechanism for COM object?
-guid: c9ef1559-48d1-43fc-b279-2bbc15d21f9d
-uri: use-interoperability-mechanism-for-com-object
-created: 2018-04-25T22:10:13.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-code-legacy.mdx
+created: 2018-04-25 22:10:13+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: c9ef1559-48d1-43fc-b279-2bbc15d21f9d
+isArchived: false
+lastUpdated: 2018-05-03 17:41:26+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-interoperability-mechanism-for-com-object
+- do-you-use-interoperability-mechanism-for-com-object
+seoDescription: Do you use interoperability mechanism for COM object? Use .NET's interoperability
+  features to work with existing unmanaged code and improve performance.
+title: Do you use interoperability mechanism for COM object?
+type: rule
+uri: use-interoperability-mechanism-for-com-object
 ---
 
 VB.NET includes the `CreateObject()` Method for creating the COM object. This is an old relationship between VB and COM.
 
-<!--endintro-->
+<endOfIntro />
 
 ```vbnet
 Sub CreateADODBConnection()
@@ -22,10 +30,7 @@ Dim adoApp As Object
 adoApp = CreateObject("ADODB.Connection")
 End Sub
 ```
-
-::: bad
-Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object  
-:::
+**❌ Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object**  
 
 Using the CreateObject() method affects the performance of your application. The variable adoApp is of type Object and this results in "late binding"
 
@@ -38,7 +43,7 @@ To add references to COM objects:
 - On the Project menu, select Add Reference and then click the COM tab.
 - Select the component you want to use from the list of COM objects.
 
-  ![](UserCOM.gif)
+  ![](/uploads/rules/use-interoperability-mechanism-for-com-object/UserCOM.gif)
 
 - To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
   use the COM object.

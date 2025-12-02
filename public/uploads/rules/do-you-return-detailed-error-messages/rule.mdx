@@ -1,23 +1,33 @@
 ---
-seoDescription: Do you return detailed error messages?
-type: rule
-title: Do you return detailed error messages?
-uri: do-you-return-detailed-error-messages
-authors:
-  - title: Jeremy Cade
-    url: https://ssw.com.au/people/jeremy-cade
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement
-related: []
-redirects: []
-created: 2015-08-27T01:00:17.000Z
 archivedreason: null
+authors:
+- title: Jeremy Cade
+  url: https://ssw.com.au/people/jeremy-cade
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
+categories:
+- category: categories/software-engineering/rules-to-better-web-api-graphql.mdx
+- category: categories/software-engineering/rules-to-better-web-api-grpc.mdx
+- category: categories/software-engineering/rules-to-better-web-api-rest.mdx
+- category: categories/software-engineering/rules-to-better-web-api.mdx
+created: 2015-08-27 01:00:17+00:00
+createdBy: Jeremy Cade
+createdByEmail: JeremyCade@ssw.com.au
 guid: 7af36676-1eed-48dd-854b-2a956ef10e50
+isArchived: false
+lastUpdated: 2020-10-23 02:48:36+00:00
+lastUpdatedBy: Matt Goldman
+lastUpdatedByEmail: MattGoldman@ssw.com.au
+redirects: []
+seoDescription: Do you return detailed error messages?
+title: Do you return detailed error messages?
+type: rule
+uri: do-you-return-detailed-error-messages
 ---
 
 Good error design is as important to the success of an API as the API design itself. A good error message provides context and visibility on how to troubleshoot and resolve issues at critical times.
 
-<!--endintro-->
+<endOfIntro />
 
 ## REST API
 
@@ -130,20 +140,14 @@ Error messages should contain sufficient information that a developer or consumi
   "errorMessage": "An error has occurred."
 }
 ```
-
-::: bad
-Figure: Bad example - The error message does not contain information that can be acted upon
-:::
+**❌ Figure: Bad example - The error message does not contain information that can be acted upon**  
 
 ```json
 {
   "errorMessage": "Client ID is a required field. Please provide a Client ID."
 }
 ```
-
-::: good
-Figure: Good example - The error message provides explicit detail and a short description on how to fix the issue
-:::
+**✅ Figure: Good example - The error message provides explicit detail and a short description on how to fix the issue**  
 
 ### Sanitize Response
 
@@ -178,10 +182,7 @@ Accept: */*
 Host: localhost:44312
 User-Agent: curl/7.55.1
 ```
-
-::: bad
-Figure: Bad example - this level of data should not be returned in a production environment
-:::
+**❌ Figure: Bad example - this level of data should not be returned in a production environment**  
 
 ### Provide a Tracking or Correlation ID
 
@@ -192,10 +193,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
   "errorMessage": "An error has occurred. Please contact technical support"
 }
 ```
-
-::: bad
-Figure: Bad example - No tracking or correlation ID is provided
-:::
+**❌ Figure: Bad example - No tracking or correlation ID is provided**  
 
 ```json
 {
@@ -203,10 +201,7 @@ Figure: Bad example - No tracking or correlation ID is provided
   "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
 }
 ```
-
-::: good
-Figure: Good exmaple - A error ID is provided as part of the reponse
-:::
+**✅ Figure: Good exmaple - A error ID is provided as part of the reponse**  
 
 ### Provide an additional Help Resource
 
@@ -220,10 +215,7 @@ Providing a URI to an additional help resources as part of your request will all
   "StatusCode": 404
 }
 ```
-
-::: bad
-Figure: Bad example - No help link provided
-:::
+**❌ Figure: Bad example - No help link provided**  
 
 ```json
 {
@@ -234,7 +226,4 @@ Figure: Bad example - No help link provided
   "StatusCode": 404
 }
 ```
-
-::: good
-Figure: Good example - A help link is provided as part of the response
-:::
+**✅ Figure: Good example - A help link is provided as part of the response**

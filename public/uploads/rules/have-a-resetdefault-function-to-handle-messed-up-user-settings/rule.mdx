@@ -2,6 +2,8 @@
 seoDescription: Resetting user settings to default values ensures a consistent application experience, even when debug configurations don't match production environments.
 type: rule
 title: Do you have a ResetDefault() function to handle messed up user settings?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: have-a-resetdefault-function-to-handle-messed-up-user-settings
 authors:
   - title: Adam Cogan
@@ -14,7 +16,7 @@ In development life cycle, developers always have different settings to the user
 
 In order to have settings.config, we also have a defaults.config. This is good because this gives a chance for the user to roll back bad settings without reinstalling the application. The application can also roll back the settings it automatically. Below is the code that what we do.
 
-<!--endintro-->
+<endOfIntro />
 
 VB.NET
 

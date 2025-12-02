@@ -2,6 +2,8 @@
 seoDescription: Make your add/delete buttons crystal clear by using red delete buttons with a count of affected items to empower users before making irreversible changes.
 type: rule
 title: Do you make your add/delete buttons crystal clear?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: make-your-add-delete-buttons-crystal-clear
 authors:
   - title: Adam Cogan
@@ -14,16 +16,33 @@ You don't want someone hitting a delete button by accident. You don't want a use
 
 Aim to make your delete button red and add the count into button text, so the user will be empowered before hitting that fateful delete button.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - The user wants to click 'OK' but there is not a 2nd check](itemscountbutton_bad.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - The user wants to click 'OK' but there is not a 2nd check"}
+  src="/uploads/rules/make-your-add-delete-buttons-crystal-clear/itemscountbutton_bad.jpg"
+/>
 
-::: good
-![Figure: Good example - Apple got the delete button perfecton the iPhone. It is red + the count of the selected items is clear](itemscountbutton_good-iphone-.jpg)
-:::
 
-::: good
-![Figure: Good example - When adding multiple records, do a quick count of the selected items in DataGridView](itemscountbutton_good.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Apple got the delete button perfecton the iPhone. It is red + the count of the selected items is clear"}
+  src="/uploads/rules/make-your-add-delete-buttons-crystal-clear/itemscountbutton_good-iphone-.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - When adding multiple records, do a quick count of the selected items in DataGridView"}
+  src="/uploads/rules/make-your-add-delete-buttons-crystal-clear/itemscountbutton_good.jpg"
+/>

@@ -1,33 +1,46 @@
 ---
-seoDescription: Do you use enterprise secrets in your DevOps pipelines? Learn how to manage and secure sensitive data across multiple repositories and workflows with ease.
-type: rule
-title: Do you use enterprise secrets in your DevOps pipelines?
-uri: enterprise-secrets-in-pipelines
-authors:
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-related:
-  - prevent-secrets-leaking-from-repo
-  - password-manager
-redirects:
-created: 2023-08-22T06:35:55.000Z
 archivedreason: null
+authors:
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+categories:
+- category: categories/project-delivery/rules-to-better-devops-using-azure-devops.mdx
+- category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+- category: categories/project-delivery/rules-to-better-devops.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
+created: 2023-08-22 06:35:55+00:00
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
+redirects: null
+related:
+- rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+- rule: public/uploads/rules/password-manager/rule.mdx
+seoDescription: Do you use enterprise secrets in your DevOps pipelines? Learn how
+  to manage and secure sensitive data across multiple repositories and workflows with
+  ease.
+title: Do you use enterprise secrets in your DevOps pipelines?
+type: rule
+uri: enterprise-secrets-in-pipelines
 ---
 
 Managing secrets is hard. It's not just about storing them securely, but also ensuring that the right people and systems have access to them in a controlled manner, with an auditable trail, while minimizing friction for the processes that legitimately need them, like DevOps pipelines. You wouldn't leave your front door key under the mat, but at the same time you don't want it to take 7 minutes and approval from 4 people to unlock your front door.
 
-<!--endintro-->
+<endOfIntro />
 
 In a development ecosystem, secrets are the lifeblood that makes many processes tick smoothly – but they're also a potential point of vulnerability. When multiple repositories and workflows require access to shared secrets, like an Azure Service Principal or credentials for a service account, the management overhead increases. Imagine the pain of secrets expiring or changing: the need to update each and every repository that uses them emerges. Beyond the inconvenience, doing this manually for each repository is not only tedious but fraught with risks. An erroneous secret entry might break a CI/CD pipeline or, even worse, pose a security risk. Let's explore ways to handle secrets more efficiently and securely.
 
 ## Scenario: Every time a new repository is set up, developers manually add secrets to it.
 
-:::bad
-![Figure: Secrets added to each repository](repo-secrets.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Secrets added to each repository"}
+  src="/uploads/rules/enterprise-secrets-in-pipelines/repo-secrets.png"
+/>
+
 
 ### Problems:
 
@@ -37,9 +50,15 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
 
-:::ok
-![Figure: Secrets added to the GitHub organization](org-secrets.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  captionText={"Secrets added to the GitHub organization"}
+  src="/uploads/rules/enterprise-secrets-in-pipelines/org-secrets.png"
+/>
+
 
 ### Advantages:
 
@@ -72,7 +91,7 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }} # Note you need this credential in GitHub
+          creds: $&#123;&#123; secrets.AZURE_CREDENTIALS &#125;&#125; # Note you need this credential in GitHub
 
       # Fetch the API key from Azure Key Vault
       - name: Get API key from Azure Key Vault
@@ -90,10 +109,7 @@ jobs:
       - name: Logout from Azure
         run: az logout
 ```
-
-:::ok
-Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization
-:::
+**😐 Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization**  
 
 ### Advantages:
 
@@ -105,9 +121,15 @@ Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows 
 
 ## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
 
-:::good
-![Figure: An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo](enterprise-secrets.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo"}
+  src="/uploads/rules/enterprise-secrets-in-pipelines/enterprise-secrets.jpg"
+/>
+
 
 <a href="https://vimeo.com/672797748">Watch the video</a>
 

@@ -1,30 +1,55 @@
 ---
-seoDescription: Develop a consistent .NET solution structure using dependency injection and the Onion Architecture, with well-named projects and folders, clear separation of concerns, and thorough testing.
-type: rule
-archivedreason:
-title: Do you have a consistent .NET solution structure?
-guid: 56a8a361-eca6-4a9f-be96-b300eca249ee
-uri: do-you-have-a-consistent-net-solution-structure
-created: 2009-04-24T03:31:54.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related:
-  - do-you-know-how-to-lay-out-your-solution
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2009-12-04 08:52:59+00:00
+createdBy: David Bian
+createdByEmail: DavidBian@ssw.com.au
+guid: 56a8a361-eca6-4a9f-be96-b300eca249ee
+isArchived: false
+lastUpdated: 2021-06-25 00:01:24.196000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+related:
+- rule: public/uploads/rules/do-you-know-how-to-lay-out-your-solution/rule.mdx
+seoDescription: Develop a consistent .NET solution structure using dependency injection
+  and the Onion Architecture, with well-named projects and folders, clear separation
+  of concerns, and thorough testing.
+title: Do you have a consistent .NET solution structure?
+type: rule
+uri: do-you-have-a-consistent-net-solution-structure
 ---
 
 When developing software, we implement a [dependency injection centric architecture](/do-you-use-a-dependency-injection-centric-architecture).
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: A Dependency Injection based architecture gives us great maintainability](dependency-injection-structure.png)
 
-::: good  
-![Figure: Good Example - The Solution and Projects are named consistently and the Solution Folders organize the projects so that they follow the Onion Architecture](solution-structure_1710232021934.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"A Dependency Injection based architecture gives us great maintainability"}
+  src="/uploads/rules/do-you-have-a-consistent-net-solution-structure/dependency-injection-structure.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - The Solution and Projects are named consistently and the Solution Folders organize the projects so that they follow the Onion Architecture"}
+  src="/uploads/rules/do-you-have-a-consistent-net-solution-structure/solution-structure_1710232021934.png"
+/>
+
 
 Dependencies and the application core are clearly separated as per the [Onion Architecture](/do-you-use-a-dependency-injection-centric-architecture).
 
@@ -35,10 +60,10 @@ In the above example you can clearly see:
 - The Documentation solution folder - see [Do you review the documentation?](/do-you-review-the-documentation)
 - The References solution folder - to hold any 3rd party assemblies that are not available via NuGet
 
-Common Library projects are named **[Company].[AssemblyName]**.  
+Common Library projects are named **[Company].[AssemblyName]**.
 E.g. **BCE.Logging** is a shared project between all solutions at company BCE.
 
-Other projects are named **[Company].[Solution Name].[AssemblyName]**.  
+Other projects are named **[Company].[Solution Name].[AssemblyName]**.
 E.g. **BCE.Sparrow.Business** is the Business layer assembly for company ‘BCE’, solution ‘Sparrow’.
 
 We have separated the unit tests, one for each project, for several reasons:

@@ -1,32 +1,51 @@
 ---
-seoDescription: Minimum builds necessary to prove project viability and success include CI and Nightly builds, with CI running unit tests and automated UI tests after successful check-ins, and Nightly building running all tests, including load and performance testing.
-type: rule
-title: Do you know the minimum builds to create for your project?
-uri: do-you-know-the-minimum-builds-to-create-for-your-project
-authors:
-  - title: David Klein
-    url: https://ssw.com.au/people/david-klein
-    noimage: true
-  - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related: []
-redirects: []
-created: 2011-11-18T03:52:49.000Z
 archivedreason: Outdated
+authors:
+- noimage: true
+  title: David Klein
+  url: https://ssw.com.au/people/david-klein
+- title: Tristan Kurniawan
+  url: https://ssw.com.au/people/tristan-kurniawan
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/project-delivery/rules-to-better-branching-and-builds.mdx
+created: 2011-11-18 03:52:49+00:00
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
 guid: 1314cede-0e06-4fd7-8668-e75ed103fcdb
+isArchived: false
+lastUpdated: 2021-03-31 22:00:00.901000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+seoDescription: Minimum builds necessary to prove project viability and success include
+  CI and Nightly builds, with CI running unit tests and automated UI tests after successful
+  check-ins, and Nightly building running all tests, including load and performance
+  testing.
+title: Do you know the minimum builds to create for your project?
+type: rule
+uri: do-you-know-the-minimum-builds-to-create-for-your-project
 ---
 
 When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.
 
 You should always have two builds on your team project. These should be setup and tested using an empty solution before you write any code at all.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Two builds named in the format [TeamProject].[Areapath]_[Branch].CI|Nightly for every branch](Builds.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Two builds named in the format [TeamProject].[Areapath]_[Branch].CI|Nightly for every branch"}
+  src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/Builds.jpg"
+/>
+
 
 These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build.
 
@@ -39,15 +58,35 @@ These builds should use the same XAML build workflow; however you may set them u
 
 **Important:** Gate Builds are bad! Some people believe in having a build that stops developers checking in code unless the build succeeds. See our rule on [Do You Know That Gated Checkins Mask Dysfunction?](/do-you-know-that-gated-checkins-mask-dysfunction)
 
-![Figure: You can control what tests are run and what data is collected while they are running](ControlTestAndData.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"You can control what tests are run and what data is collected while they are running"}
+  src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/ControlTestAndData.jpg"
+/>
+
 **Note:** We do not run all the tests every time because of the time consuming nature of running some tests, but ALL tests should be run overnight.
 
 **Note:** If you had a really large project with thousands of tests including long running Load tests you may need to add a Weekly build to the mix.
 
-::: bad
-![Figure: Bad example - you can't tell what these builds do if they are in a larger list](BuildStatus01.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - you can't tell what these builds do if they are in a larger list"}
+  src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/BuildStatus01.jpg"
+/>
 
-::: good
-![Figure: Good example - you know exactly what project, branch and type of build these are for](BuildStatus02.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - you know exactly what project, branch and type of build these are for"}
+  src="/uploads/rules/do-you-know-the-minimum-builds-to-create-for-your-project/BuildStatus02.jpg"
+/>

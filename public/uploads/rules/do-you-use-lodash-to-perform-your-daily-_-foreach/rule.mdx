@@ -1,25 +1,34 @@
 ---
-seoDescription: Lodash simplifies JavaScript development by providing a vast array of performant functions to avoid reinventing the wheel, making daily tasks more efficient.
-type: rule
-archivedreason:
-title: Do you use lodash to perform your daily _.foreach?
-guid: 02d5d6d1-3af7-40f8-8480-d532ce9b8040
-uri: do-you-use-lodash-to-perform-your-daily-_-foreach
-created: 2015-05-05T18:45:14.0000000Z
+archivedreason: null
 authors:
-  - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
-  - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
-related: []
+- title: Ben Cull
+  url: https://ssw.com.au/people/ben-cull
+- title: Duncan Hunter
+  url: https://ssw.com.au/people/duncan-hunter
+categories:
+- category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
+created: 2015-05-05 18:49:08+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 02d5d6d1-3af7-40f8-8480-d532ce9b8040
+isArchived: false
+lastUpdated: 2021-04-18 22:50:12.305000+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Lodash simplifies JavaScript development by providing a vast array
+  of performant functions to avoid reinventing the wheel, making daily tasks more
+  efficient.
+title: Do you use lodash to perform your daily _.foreach?
+type: rule
+uri: do-you-use-lodash-to-perform-your-daily-_-foreach
 ---
 
 In a nutshell, Lo-Dash is a super useful library that gives you access to over 100 extremely performant functions to help you avoid reinventing the wheel whilst writing JavaScript.
 
 You can get lodash from [GitHub repository](https://github.com/lodash/lodash), [cdnjs](https://cdnjs.com/libraries/lodash.js) or via [NPM](https://www.npmjs.com/package/lodash). Once done you can include a reference in your HTML.
 
-<!--endintro-->
+<endOfIntro />
 
 A simple example of the power of lodash is this snippet of code which is looping through a shared Kendo datasource that is being used in large Kendo grid. The shared datasource has many duplicates and this snippet does four things:
 
@@ -37,10 +46,7 @@ this.accountNumberDropDownData = _.chain(this.sharedDataSource)
   .sortBy()
   .value();
 ```
-
-::: good
-Good example - Simple one line of TypeScript which would take many line of code without lodash  
-:::
+**✅ Good example - Simple one line of TypeScript which would take many line of code without lodash**  
 
 If you have been into JavaScript development for a while you may of also heard about underscore.js which is very similar to Lo-Dash but has some fundamental differences.
 

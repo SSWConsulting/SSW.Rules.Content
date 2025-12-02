@@ -2,6 +2,8 @@
 seoDescription: Highlight deviations from email template standards to ensure important changes are clearly communicated and noticeable to recipients.
 type: rule
 title: Do you highlight text which is different from the template?
+categories:
+  - category: categories/communication/rules-to-better-email.mdx
 uri: highlight-template-differences
 authors:
   - title: Adam Cogan
@@ -15,27 +17,34 @@ When following a template for sending an email, sometimes you will make a major 
 
 In that case, highlight the text so that it is obvious there is a deviation.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 (checked by Bob)
 
 Hi Sophie,
 
 This email was completed a week later than normal because I didn't have a phone when she started work.
 
-&emsp;&emsp;&emsp;&emsp;> 1. Set a voice message
+&emsp;&emsp;&emsp;&emsp;&gt; 1. Set a voice message
 
 Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
 
-:::
-::: bad
-**Figure: Bad example - The deviation from the standard template isn't highlighted**
-:::
+  </>}
+  captionStyle="badExample"
+  captionText={"**Figure: Bad example - The deviation from the standard template isn't highlighted**"}
+/>
 
-::: greybox
 
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 (checked by Bob)
 
 Hi Sophie,
@@ -44,13 +53,15 @@ Hi Sophie,
 
 This email was completed a week later than normal because I didn't have a phone when she started work.
 
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 &emsp;&emsp;&emsp;&emsp;> 1. Set a voice message
 
 Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
 
 :::
-::: good
-**Figure: Good example - The deviation from the standard template is clearly highlighted**
-:::
+**✅ **Figure: Good example - The deviation from the standard template is clearly highlighted****  

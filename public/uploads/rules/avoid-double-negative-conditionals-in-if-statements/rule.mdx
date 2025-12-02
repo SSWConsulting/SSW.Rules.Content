@@ -1,22 +1,30 @@
 ---
-seoDescription: Avoid Double-Negative Conditionals in if-statements by using single positive conditions and simplify your code.
-type: rule
-archivedreason:
-title: Do you avoid Double-Negative Conditionals in if-statements?
-guid: 994524f4-cb01-4dbb-b2fa-0fea1642839f
-uri: avoid-double-negative-conditionals-in-if-statements
-created: 2018-04-24T22:03:21.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-24 22:03:22+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 994524f4-cb01-4dbb-b2fa-0fea1642839f
+isArchived: false
+lastUpdated: 2021-04-27 00:59:03.694000+00:00
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@me.com
 redirects:
-  - do-you-avoid-double-negative-conditionals-in-if-statements
+- do-you-avoid-double-negative-conditionals-in-if-statements
+seoDescription: Avoid Double-Negative Conditionals in if-statements by using single
+  positive conditions and simplify your code.
+title: Do you avoid Double-Negative Conditionals in if-statements?
+type: rule
+uri: avoid-double-negative-conditionals-in-if-statements
 ---
 
 Try to avoid Double-Negative Conditionals in if-statements. Double negative conditionals are difficult to read because developers have to evaluate which is the positive state of two negatives. So always try to make a single positive when you write if-statement.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 if (!IsValid)
@@ -28,11 +36,7 @@ else
        // handle success
 }
 ```
-
-::: bad
-Figure: Bad example
-
-:::
+**❌ Figure: Bad example**  
 
 ```cs
 if (IsValid)
@@ -44,11 +48,7 @@ else
        // handle error
 }
 ```
-
-::: good
-Figure: Good example
-
-:::
+**✅ Figure: Good example**  
 
 ```cs
 if (!IsValid)
@@ -56,10 +56,7 @@ if (!IsValid)
        // handle error
 }
 ```
-
-::: good
-Figure: Another good example
-:::
+**✅ Figure: Another good example**  
 
 Use pattern matching for boolean evaluations to make your code even more readable!
 
@@ -69,7 +66,4 @@ if (IsValid is false)
        // handle error
 }
 ```
-
-::: good
-Figure: Even better
-:::
+**✅ Figure: Even better**

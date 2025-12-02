@@ -1,39 +1,45 @@
 ---
-seoDescription: Use public/protected properties instead of public/protected fields to ensure data validation, increased flexibility, compatibility with data binding and minimal performance overhead.
-type: rule
-archivedreason:
-title: Do you use Public/Protected Properties instead of Public/Protected Fields?
-guid: 4c1a9b37-6a57-4c6f-81df-950f5d3afe12
-uri: use-public-protected-properties-instead-of-public-protected-fields
-created: 2018-04-25T21:45:02.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-25 21:45:02+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 4c1a9b37-6a57-4c6f-81df-950f5d3afe12
+isArchived: false
+lastUpdated: 2018-04-25 21:49:11+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-public-protected-properties-instead-of-public-protected-fields
+- do-you-use-public-protected-properties-instead-of-public-protected-fields
+seoDescription: Use public/protected properties instead of public/protected fields
+  to ensure data validation, increased flexibility, compatibility with data binding
+  and minimal performance overhead.
+title: Do you use Public/Protected Properties instead of Public/Protected Fields?
+type: rule
+uri: use-public-protected-properties-instead-of-public-protected-fields
 ---
 
 Public/Protected properties have a number of advantages over public/protected fields:
 
-- **Data validation**  
+- **Data validation**
   Data validation can be performed in the get/set accessors of a public property. This is especially important when working with the Visual Studio .NET Designer.
-- **Increased flexibility**  
+- **Increased flexibility**
   Properties conceal the data storage mechanism from the user, resulting in less broken code when the class is upgraded. Properties are a recommended object-oriented practice for this reason.
-- **Compatibility with data binding**  
+- **Compatibility with data binding**
   You can only bind to a public property, not a field.
-- **Minimal performance overhead**  
+- **Minimal performance overhead**
   The performance overhead for public properties is trivial. In some situations, public fields can actually have inferior performance to public properties.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 public int Count;
 ```
-
-::: bad
-Figure: Bad code - Variable declared as a Field
-:::
+**❌ Figure: Bad code - Variable declared as a Field**  
 
 ```cs
 public int Count
@@ -48,9 +54,6 @@ public int Count
  }
 }
 ```
-
-::: good
-Figure: Good code - Variable declared as a Property
-:::
+**✅ Figure: Good code - Variable declared as a Property**  
 
 We agree that the syntax is tedious and think [Microsoft should improve this](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/VisualStudio.aspx#PropertyShortcut).

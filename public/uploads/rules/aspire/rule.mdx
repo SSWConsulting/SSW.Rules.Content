@@ -2,6 +2,8 @@
 seoDescription: Learn how .NET Aspire simplifies cloud-native development with orchestration, integrations, and tooling.
 type: rule
 title: Do you use .NET Aspire to simplify cloud-native development?
+categories:
+  - category: categories/software-engineering/rules-to-better-azure.mdx
 uri: aspire
 authors:
   - title: Brady Stroud
@@ -16,18 +18,37 @@ Building cloud-native applications can be challenging due to their complexity an
 
 There are lots of ways to build cloud-native applications and the overwhelming number of choices can make it difficult to know where to start.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Too many lego pieces - Where do you start?](too-complex-aspire.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Too many lego pieces - Where do you start?"}
+  src="/uploads/rules/aspire/too-complex-aspire.png"
+/>
+
 
 Also, the complexity of modern cloud-native applications can make them difficult to manage and maintain.
 
 .NET Aspire is a powerful set of tools, templates, and integrations designed to streamline cloud-native app development with .NET. It offers a consistent approach to orchestration, standardized integrations, and developer-friendly tooling to help you build robust, production-ready applications.
 
-`youtube: https://www.youtube.com/watch?v=59G9Cd-rV9w`  
-**Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)**
 
-![Figure: Aspire makes common time-consuming developer chores a breeze](aspire-cool-stuff.png)
+<youtubeEmbed url="https://www.youtube.com/watch?v=59G9Cd-rV9w" description={"Video: Cloud Native Aspirations with .NET Aspire | Matt Wicks & Rob Pearson | SSW User Groups (1h 28 min)"} />
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Aspire makes common time-consuming developer chores a breeze"}
+  src="/uploads/rules/aspire/aspire-cool-stuff.png"
+/>
+
 
 .NET Aspire addresses common pain points in cloud-native development:
 
@@ -92,10 +113,7 @@ Leverage predefined templates and tooling to:
       options.InstanceName = "SampleInstance";
   });
 ```
-
-::: bad  
-Figure: Bad Example - Manually setting up Redis cache 🥱
-:::
+**❌ Figure: Bad Example - Manually setting up Redis cache 🥱**  
 
 ### The new way - with .NET Aspire
 
@@ -122,10 +140,7 @@ Aspire handles Redis setup and connection string injection for you:
       }
   }
   ```
-
-::: good
-**Figure: Good Example - Simple Redis setup with .NET Aspire 🚀**
-:::
+**✅ **Figure: Good Example - Simple Redis setup with .NET Aspire 🚀****  
 
 No need to write Docker Compose files.
 No need for yaml 🤮.
@@ -137,6 +152,12 @@ Connection string is automatically injected.
 
 [Check out Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
 
-::: greybox  
-You can test out Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template) - Let us know what you think!
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    You can test out Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template) - Let us know what you think!
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>

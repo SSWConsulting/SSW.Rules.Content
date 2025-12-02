@@ -1,27 +1,35 @@
 ---
-seoDescription: Separate your Angular components into presentational and container ones to simplify application development and improve maintainability.
-type: rule
-title: Practices - Do you know to separate your Angular components into
-  container and presentational?
-uri: separate-your-angular-components-into-container-and-presentational
-authors:
-  - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
-  - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement/
-related: []
-redirects:
-  - practices-do-you-know-to-separate-your-angular-components-into-container-and-presentational-components
-created: 2017-01-03T16:52:00.000Z
 archivedreason: null
+authors:
+- title: Duncan Hunter
+  url: https://ssw.com.au/people/duncan-hunter
+- title: Gabriel George
+  url: https://ssw.com.au/people/gabriel-george
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement/
+categories:
+- category: categories/software-engineering/rules-to-better-angular.mdx
+created: 2017-01-03 16:52:03+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 8beefebf-8aef-4821-b965-16c4a9923443
+isArchived: false
+lastUpdated: 2019-12-23 06:27:01+00:00
+lastUpdatedBy: Gabriel George
+lastUpdatedByEmail: gabe@ssw.com.au
+redirects:
+- practices-do-you-know-to-separate-your-angular-components-into-container-and-presentational-components
+seoDescription: Separate your Angular components into presentational and container
+  ones to simplify application development and improve maintainability.
+title: Practices - Do you know to separate your Angular components into container
+  and presentational?
+type: rule
+uri: separate-your-angular-components-into-container-and-presentational
 ---
 
 There are 2 general types of components according its complexity: presentational and smart components. Presentational component is a component that is purely driven by its input data. Smart component on the other hand, is more complex - it can have business logic, dependencies, and also store its own state.
 
-<!--endintro-->
+<endOfIntro />
 
 Aiming to have more presentational components makes building applications easier; it provides high reusability, and they are easier to debug since they have the same output for the same input.
 
@@ -47,18 +55,18 @@ Smart components are harder to debug since they now have dependencies and state 
       </thead>
       <tbody>
         <tr class="item" *ngFor="let company of companies">
-          <td>{{ company.name }}</td>
-          <td>{{ company.phone }}</td>
-          <td>{{ company.email }}</td>
+          <td>&#123;&#123; company.name &#125;&#125;</td>
+          <td>&#123;&#123; company.phone &#125;&#125;</td>
+          <td>&#123;&#123; company.email &#125;&#125;</td>
           <td class="button-column">
             <button
-              routerLink="/company/detail/{{ company.id }}"
+              routerLink="/company/detail/&#123;&#123; company.id &#125;&#125;"
               class="btn btn-default"
             >
               Details
             </button>
             <button
-              routerLink="/company/edit/{{ company.id }}"
+              routerLink="/company/edit/&#123;&#123; company.id &#125;&#125;"
               class="btn btn-default"
             >
               Edit
@@ -70,7 +78,7 @@ Smart components are harder to debug since they now have dependencies and state 
         </tr>
       </tbody>
     </table>
-     
+
   `,
 })
 export class CompanyListTableComponent {
@@ -82,7 +90,4 @@ export class CompanyListTableComponent {
   }
 }
 ```
-
-::: good
-Figure: Good example - A presentational component with no injected dependencies
-:::
+**✅ Figure: Good example - A presentational component with no injected dependencies**

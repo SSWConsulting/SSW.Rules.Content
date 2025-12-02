@@ -1,63 +1,93 @@
 ---
-seoDescription: When closing PBIs, tasks, and goals, provide valuable context to help teams understand the outcome and changes made.
-type: rule
-title: Do you close PBIs and tasks with context?
-uri: close-pbis-with-context
-authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related:
-  - write-a-good-pull-request
-  - reply-done-and-delete-the-email
-  - when-to-send-a-done-email-in-scrum
-  - done-email-for-bug-fixes
-redirects: []
-created: 2023-07-06T23:11:00.000Z
 archivedreason: null
+authors:
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+categories:
+- category: categories/project-delivery/rules-to-better-github.mdx
+- category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
+created: 2023-07-06 23:11:00+00:00
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
+redirects: []
+related:
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+- rule: public/uploads/rules/reply-done/rule.mdx
+- rule: public/uploads/rules/when-to-send-a-done-email-in-scrum/rule.mdx
+- rule: public/uploads/rules/done-email-for-bug-fixes/rule.mdx
+seoDescription: When closing PBIs, tasks, and goals, provide valuable context to help
+  teams understand the outcome and changes made.
+title: Do you close PBIs and tasks with context?
+type: rule
+uri: close-pbis-with-context
 ---
 
 PBIs/Issues, tasks, PRs and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. This allows others to understand the PBI was closed and what the outcome was.
 
-<!--endintro-->
+<endOfIntro />
 
 For example, if you have UI changes, a [Done video](/send-done-videos) or a couple of screenshots can go a long way to help the team understand what was completed. Similarly, if there are changes to architecture documents (e.g. the readme), providing a link to those artifacts helps others get across the change.
 
-::: info
-**Note:** A comment is critical when closing a PBI. It is valuable in all scenarios and should be the default approach.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** A comment is critical when closing a PBI. It is valuable in all scenarios and should be the default approach.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 When you look at a PBI, you can navigate through the commits or pull requests that were linked to the PBI. This is great for understanding the code changes, but that doesn't easily show you what the outcome was.
 
 These are sentences you should add to include context when closing a PBI / Issue:
 
-* "Done - For more details, see **{{ DONE VIDEO }}** / **{{ SCREENSHOT(S) }}**"
-* "Done - The document/page was updated: **{{ LINK }}**"
-* "Done - see email: **{{ EMAIL SUBJECT }}**"
+* "Done - For more details, see **&#123;&#123; DONE VIDEO &#125;&#125;** / **&#123;&#123; SCREENSHOT(S) &#125;&#125;**"
+* "Done - The document/page was updated: **&#123;&#123; LINK &#125;&#125;**"
+* "Done - see email: **&#123;&#123; EMAIL SUBJECT &#125;&#125;**"
 
 If you are closing a PBI as duplicate:
 
-* "Duplicate of **{{ LINK TO THE OTHER PBI }}**"
+* "Duplicate of **&#123;&#123; LINK TO THE OTHER PBI &#125;&#125;**"
 
 If you are closing a PBI as "Won't fix", mention the person who agreed and the reason why it is not being fixed:
 
-* "Not done - Won't fix [as per conversation with](/as-per-our-conversation-emails/) **{{ @NAME(S) }}**, we decided **{{ REASON FOR NOT DOING IT }}**"
+* "Not done - Won't fix [as per conversation with](/as-per-our-conversation-emails/) **&#123;&#123; @NAME(S) &#125;&#125;**, we decided **&#123;&#123; REASON FOR NOT DOING IT &#125;&#125;**"
 
-::: bad  
-![Figure: Bad example - This PBI is closed with no context around changes made](closing-pbis-without-context.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - This PBI is closed with no context around changes made"}
+  src="/uploads/rules/close-pbis-with-context/closing-pbis-without-context.jpg"
+/>
 
-::: good  
-![Figure: Good example - This PBI informs the team that the work is complete and contains some examples of what the changes look like](closing-pbis-with-context.jpg)  
-:::
 
-::: info
-**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - This PBI informs the team that the work is complete and contains some examples of what the changes look like"}
+  src="/uploads/rules/close-pbis-with-context/closing-pbis-with-context.jpg"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ## Be aware of auto-closing Issues in GitHub
 
@@ -73,4 +103,12 @@ If you are using GitHub projects you will want to make sure you've checked the w
 
 You can open the **Hamburger menu | Workflows** to view all the workflows
 
-![Figure: For Issues specifically, it's recommended you have workflows configured and enabled](project-workflows.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"For Issues specifically, it's recommended you have workflows configured and enabled"}
+  src="/uploads/rules/close-pbis-with-context/project-workflows.jpg"
+/>

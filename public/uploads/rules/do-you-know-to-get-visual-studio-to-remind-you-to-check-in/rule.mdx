@@ -1,49 +1,93 @@
 ---
-seoDescription: Automatically check in Visual Studio projects and avoid partial check-ins with these simple settings.
-type: rule
-archivedreason:
-title: Do you know to get Visual Studio to remind you to check in?
-guid: 4b340077-ef7d-4fe6-92d5-1fbb9b1f7dba
-uri: do-you-know-to-get-visual-studio-to-remind-you-to-check-in
-created: 2011-11-18T03:52:24.0000000Z
+archivedreason: null
 authors:
-  - title: David Klein
-    url: https://ssw.com.au/people/david-klein
-    noimage: true
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-  - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
-related: []
+- noimage: true
+  title: David Klein
+  url: https://ssw.com.au/people/david-klein
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+- title: Tristan Kurniawan
+  url: https://ssw.com.au/people/tristan-kurniawan
+categories:
+- category: categories/project-delivery/rules-to-better-version-control-with-tfs-aka-source-control.mdx
+created: 2011-11-18 03:52:24+00:00
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
+guid: 4b340077-ef7d-4fe6-92d5-1fbb9b1f7dba
+isArchived: false
+lastUpdated: 2014-05-07 04:01:12+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
+seoDescription: Automatically check in Visual Studio projects and avoid partial check-ins
+  with these simple settings.
+title: Do you know to get Visual Studio to remind you to check in?
+type: rule
+uri: do-you-know-to-get-visual-studio-to-remind-you-to-check-in
 ---
 
 When working on a task spanning multiple files, do not check-in only one or two of the files, this leads to the problem of partial check-ins where references to new classes or methods are unavailable because they are in the files that haven't been checked in. So either, check-in all the files you are working on or none at all if you aren't finished working on the task.
 
-<!--endintro-->
+<endOfIntro />
 
 You know how frustrating it is when you want to fix an application and all the files are checked out by some one else!
 
 Make Visual Studio remind you to check code in. In Microsoft Visual Studio. NET sharing project code can be configured by ticking the two checkboxes on top, in Options (from the Tools menu) as shows below.
 
-![Figure: Check-in files automatically the 2nd checkbox is very important so you get reminded to check-in your project when closing VS.NET. ](SourceControlVS.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Check-in files automatically the 2nd checkbox is very important so you get reminded to check-in your project when closing VS.NET."}
+  src="/uploads/rules/do-you-know-to-get-visual-studio-to-remind-you-to-check-in/SourceControlVS.jpg"
+/>
+
 
 ## What about VB6 applications?
 
 In Visual Basic 6 this is done by going through Tools -&gt; Source Safe -&gt; Options and setting it as shown in the diagram below.
 
-![Figure: You can also check-in automatically in VB6](SourceSafeVB6.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"You can also check-in automatically in VB6"}
+  src="/uploads/rules/do-you-know-to-get-visual-studio-to-remind-you-to-check-in/SourceSafeVB6.gif"
+/>
+
 
 ## What about Access applications?
 
 We also use VSS for Access projects. Access 2000 had problems with MDBs (not ADPs) but Access 2003 works fine with both. The only thing you have to be careful of is that if a form is not checked out, it still lets you modify the form, but when you close the form, it rolls back to the VSS version and you lose all of your changes.
 
-![Figure: You can also check-in automatically in Access](SourceSafeAccessOptions.gif)
 
-![Figure: All the basic functions are easily accessible](SourceSafeAccessMenu.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"You can also check-in automatically in Access"}
+  src="/uploads/rules/do-you-know-to-get-visual-studio-to-remind-you-to-check-in/SourceSafeAccessOptions.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"All the basic functions are easily accessible"}
+  src="/uploads/rules/do-you-know-to-get-visual-studio-to-remind-you-to-check-in/SourceSafeAccessMenu.gif"
+/>
+
 
 **Note:** Using VSS in Microsoft Access has a few limitations, most significant of which is the inability to reattach to VSS projects.  Once you have detached from a VSS project, you will need to create a new VSS project in order to place the Access application back into VSS.
 

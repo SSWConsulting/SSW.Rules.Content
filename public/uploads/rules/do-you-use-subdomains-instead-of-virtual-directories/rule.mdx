@@ -1,39 +1,54 @@
 ---
-seoDescription: Elevate your website's organization structure using subdomains instead of virtual directories, streamlining hosting and geographic location management.
-type: rule
-archivedreason:
-title: Do you use subdomains instead of virtual directories?
-guid: 768ddd4e-85d9-4433-aca8-f164381d515b
-uri: do-you-use-subdomains-instead-of-virtual-directories
-created: 2013-10-14T07:53:27.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2013-10-14 08:07:13+00:00
+createdBy: Daniel Smon
+createdByEmail: danielsmon@ssw.com.au
+guid: 768ddd4e-85d9-4433-aca8-f164381d515b
+isArchived: false
+lastUpdated: 2021-03-12 22:40:58.566000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Elevate your website's organization structure using subdomains instead
+  of virtual directories, streamlining hosting and geographic location management.
+title: Do you use subdomains instead of virtual directories?
+type: rule
+uri: do-you-use-subdomains-instead-of-virtual-directories
 ---
 
 Using subdomains over directories has 2 main benefits:
 
-<!--endintro-->
+<endOfIntro />
 
 1. it is easier to host different sections of your website on different platforms, and
 2. in different geographic locations
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 - myservice&#46;com/**ssw**/
-- myservice&#46;com/**northwind** /  
-  :::
-  ::: bad
-  Figure: Bad Example - Virtual directories used to distinguish organizations
-  :::
+- myservice&#46;com/**northwind** /
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad Example - Virtual directories used to distinguish organizations"}
+/>
 
-::: greybox
 
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 - **ssw**&#46;myservice.com/
 - **northwind**&#46;myservice.com/
-  :::
-  ::: good
-  Figure: Good Example - Subdomains used to distinguish organizations  
-  :::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example - Subdomains used to distinguish organizations"}
+/>

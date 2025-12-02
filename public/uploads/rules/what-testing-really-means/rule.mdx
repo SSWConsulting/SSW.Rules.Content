@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you understand what "testing" really means?
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
 uri: what-testing-really-means
 authors:
   - title: Lee Hawkins
@@ -12,7 +14,7 @@ Everyone thinks they know what "testing" is. Like most things, though, there isn
 
 Distinguishing "testing" and "checking" is a great way to help build this shared understanding when we're talking about this critical part of the software development process.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Common perceptions of "testing"
 
@@ -27,11 +29,18 @@ A commonly held view is that the purpose of testing is to detect non-conformance
 
 Let's dive into the definitions of ***testing*** and ***checking*** from James Bach and Michael Bolton (in [Testing and Checking Refined](https://www.satisfice.com/blog/archives/856)):
 
-::: info
-**Testing** is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting, which includes to some degree: questioning, study, modeling, observation, inference, etc.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Testing** is the process of evaluating a product by learning about it through experiencing, exploring, and experimenting, which includes to some degree: questioning, study, modeling, observation, inference, etc.
 
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Many people view "testing" as what is defined above as "checking". While checking particular facts about the product is important (e.g. checking that a  story meets its acceptance criteria), there is much more to good testing than just checking "known knowns" like this. (Notice how checking sounds like work that is amenable to automation).
 
@@ -51,5 +60,5 @@ Testing is an information service provider, helping stakeholders to make informe
 
 You might want to check out Michael Bolton’s "Testing Rap" (from which some of the above was inspired) as a fun way to remind people about all the awesome things involved in really good testing!
 
-`youtube: https://youtu.be/KePxuKpwqoI`
-**Video: Michael Bolton's Hamilton Inspired Rap From TestBash Manchester (2 min)**
+
+<youtubeEmbed url="https://youtu.be/KePxuKpwqoI" description={"Video: Michael Bolton's Hamilton Inspired Rap From TestBash Manchester (2 min)"} />

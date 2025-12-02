@@ -1,31 +1,39 @@
 ---
-type: rule
-title: Does your Enterprise password manager audit access data?
-seoDescription: Ensure security and compliance with your enterprise password
-  manager by auditing access data. Learn how to use Keeper, an
-  enterprise-focused password product, to track and report who accessed what
-  data, when, and from where. Discover the importance of auditing for security
-  oversight, compliance, and accountability.
-uri: enterprise-password-manager-auditing
 authors:
-  - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-related:
-  - choose-an-enterprise-password-manager
-created: 2023-10-11T23:12:41.583Z
+- title: Warwick Leahy
+  url: https://ssw.com.au/people/warwick-leahy
+- title: Kiki Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+created: 2023-10-11 23:12:41.583000+00:00
 guid: 16e0e77f-1f17-47ff-b98c-967cfec8c827
+related:
+- rule: public/uploads/rules/choose-an-enterprise-password-manager/rule.mdx
+seoDescription: Ensure security and compliance with your enterprise password manager
+  by auditing access data. Learn how to use Keeper, an enterprise-focused password
+  product, to track and report who accessed what data, when, and from where. Discover
+  the importance of auditing for security oversight, compliance, and accountability.
+title: Does your Enterprise password manager audit access data?
+type: rule
+uri: enterprise-password-manager-auditing
 ---
+
 Auditing access data is crucial for any enterprise to ensure security and compliance. Having an audit trail provides visibility into who accessed what data, when, and from where. An effective enterprise password manager should be able to offer this feature.
 
-<!--endintro-->
+<endOfIntro />
 
 For example, Keeper (an enterprise-focused password product) is a leading enterprise password manager that offers a comprehensive auditing feature. It provides administrators with detailed logs and reports on user access, ensuring transparency and accountability.
 
-::: good
-![Figure: Good example - Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport_1716517805958.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Keeper auditing shows exactly who opened what record"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-good-example-auditreport_1716517805958.png"
+/>
+
 
 ## Why is Auditing Access Data Important?
 
@@ -37,25 +45,77 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
 
 1. **Get the UID of the folder/item**: First get the UID of the folder or item that you want to audit.
 
-   ![Figure: First get the UID of the Folder/item for report](keeper-getinteresing-itemuuid.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"First get the UID of the Folder/item for report"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-getinteresing-itemuuid.png"
+/>
+
 
 2. **Login to the Keeper Admin Console**: Now switch to Keeper's admin console and login.
 3. **Navigate to the 'Reporting & Alerts' Section**: This allows an admin to create a custom report. Then add a new report.
 
-   ::: info
-   **Tip:** You can then create an alert from that report if required.
-   :::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** You can then create an alert from that report if required.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 5. **Apply Filters**: You can filter the audit logs by various criteria, including user, date range, or specific activities. To find audit data for a particular folder or record, input its name or related keyword in the search or filter option.
 
-   ![Figure: Filter by the Event Type](keeper-applyfilters2.png)
-   ![Figure: Filter by Attributes - Category first](keeper-applyfilters1.png)
-   ![Figure: Filter by Shared Folder / Item UID (Obtained from step 1)](keeper-filtering-the-report.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Filter by the Event Type"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-applyfilters2.png"
+/>
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Filter by Attributes - Category first"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-applyfilters1.png"
+/>
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Filter by Shared Folder / Item UID (Obtained from step 1)"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-filtering-the-report.png"
+/>
+
 
 6. **Filter Time/User**: Choose any other filters such as Time Period or User and click apply.
 7. **Review the Logs**: Once filtered, you'll see a list of actions related to the chosen folder or record. This will include details like who accessed it, when, and from which device or location.
 
-   ![Figure: View the audit log](keeper-good-example-auditreport_1716517805958.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"View the audit log"}
+  src="/uploads/rules/enterprise-password-manager-auditing/keeper-good-example-auditreport_1716517805958.png"
+/>
+
 
 8. **Export or Save**: If you wish to keep a record of the audit data outside of Keeper, you often have the option to export the data to various formats or save it for later review.
 

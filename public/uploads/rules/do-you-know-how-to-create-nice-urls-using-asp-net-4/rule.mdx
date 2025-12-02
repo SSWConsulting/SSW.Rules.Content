@@ -1,16 +1,24 @@
 ---
-seoDescription: Create nice URLs with ASP.NET 4 using routing features, improving user experience and search engine ranking.
-type: rule
-title: Do you know how to create nice URLs using ASP.NET 4?
-uri: do-you-know-how-to-create-nice-urls-using-asp-net-4
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects: []
-created: 2009-08-24T02:07:36.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+created: 2009-12-04 07:50:54+00:00
+createdBy: Jay Lin
+createdByEmail: JayLin@sydney.ssw.com.au
 guid: 43cdcd40-66f2-4111-843c-96dbdc1d8fc1
+isArchived: false
+lastUpdated: 2013-10-29 07:46:40+00:00
+lastUpdatedBy: Dorben Zhang
+lastUpdatedByEmail: DorbenZhang@ssw.com.au
+redirects: []
+seoDescription: Create nice URLs with ASP.NET 4 using routing features, improving
+  user experience and search engine ranking.
+title: Do you know how to create nice URLs using ASP.NET 4?
+type: rule
+uri: do-you-know-how-to-create-nice-urls-using-asp-net-4
 ---
 
 There are a lot of reasons to have nice URLs for your website:
@@ -19,15 +27,27 @@ There are a lot of reasons to have nice URLs for your website:
 * Easy to navigate
 * Better for search engines
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example – This URL is impossible to remember for your users, and even search don’t like these URLs](BadURL.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example – This URL is impossible to remember for your users, and even search don’t like these URLs"}
+  src="/uploads/rules/do-you-know-how-to-create-nice-urls-using-asp-net-4/BadURL.jpg"
+/>
 
-::: good  
-![Figure: Good example – Nice clean URL, easy to remember, easy to guess where I am and good for search engines](GoodURL.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example – Nice clean URL, easy to remember, easy to guess where I am and good for search engines"}
+  src="/uploads/rules/do-you-know-how-to-create-nice-urls-using-asp-net-4/GoodURL.jpg"
+/>
+
 
 With ASP.NET 4 it is easy to create this URLs. The ASP.NET team includes routing features, known from the MVC web framework.
 
@@ -45,5 +65,5 @@ protected void Application_Start(object sender, EventArgs e)
 
 **Figure: Example on how to route ssw.com.au/products/\{everything} to ssw.com.au/ssw/Products/ProdCategoryList.aspx page**
 
-**Note:** There is no dependency on the MVC framework in order to use this code.  
+**Note:** There is no dependency on the MVC framework in order to use this code.
 **Note:** IIS7 has a module called [URL rewrite module](http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module) that can do this functionality without changing any code. Just a configuration of a "Rule" in the IIS Manager.

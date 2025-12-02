@@ -1,36 +1,62 @@
 ---
-seoDescription: Use Visual Studio's Web Compiler extension to compile CSS files and find missing curly braces, but note that it may not catch all errors.
-type: rule
-archivedreason:
-title: Do you use Web Compiler extension?
-guid: bf5b98f8-6720-41da-9ee3-48ecf6d1e534
-uri: use-web-compiler
-created: 2018-06-19T01:38:21.0000000Z
+archivedreason: null
 authors:
-  - title: Eden Liang
-    url: https://ssw.com.au/people/eden-liang
-related: []
+- title: Eden Liang
+  url: https://ssw.com.au/people/eden-liang
+categories:
+- category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2018-06-19 01:38:21+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: bf5b98f8-6720-41da-9ee3-48ecf6d1e534
+isArchived: false
+lastUpdated: 2018-06-19 01:54:08+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-web-compiler-extension
+- do-you-use-web-compiler-extension
+seoDescription: Use Visual Studio's Web Compiler extension to compile CSS files and
+  find missing curly braces, but note that it may not catch all errors.
+title: Do you use Web Compiler extension?
+type: rule
+uri: use-web-compiler
 ---
 
 You can use Visual Studio's Web Compiler extension to create a bundle.css and test if CSS was compiled successfully.
 
-<!--endintro-->
+<endOfIntro />
 
 More information and download at [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler).
 
-::: good  
-![Figure: Web Compiler can find missing curly braces](web-compiler-find-error.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Web Compiler can find missing curly braces"}
+  src="/uploads/rules/use-web-compiler/web-compiler-find-error.png"
+/>
+
 Unfortunately different kinds of errors, like are not caught.
 
-::: bad  
-![Figure: Curly braces in the wrong place, but still compiled successfully](web-compiler-didnt-find-error.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Curly braces in the wrong place, but still compiled successfully"}
+  src="/uploads/rules/use-web-compiler/web-compiler-didnt-find-error.png"
+/>
+
 
 In addition, Gulp is wrongly successful too:
 
-::: bad  
-![Figure: Gulp couldn't find the curly braces error](gulp-didnt-find-error.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Gulp couldn't find the curly braces error"}
+  src="/uploads/rules/use-web-compiler/gulp-didnt-find-error.png"
+/>

@@ -1,18 +1,26 @@
 ---
-seoDescription: Learn how to structure a unit test with Adam Cogan's 3 A's - Arrange, Act, and Assert.
-type: rule
-title: Do you know how to structure a unit test (aka the 3 a's)?
-uri: how-to-structure-a-unit-test
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-know-how-to-structure-a-unit-test-aka-the-3-as
-  - do-you-know-how-to-structure-a-unit-test-(aka-the-3-as)
-created: 2020-03-11T16:51:15.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-11 16:51:15+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 5af6b8fd-5e65-4c68-8342-527090a61125
+isArchived: false
+lastUpdated: 2020-03-11 16:54:55+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-know-how-to-structure-a-unit-test-aka-the-3-as
+- do-you-know-how-to-structure-a-unit-test-(aka-the-3-as)
+seoDescription: Learn how to structure a unit test with Adam Cogan's 3 A's - Arrange,
+  Act, and Assert.
+title: Do you know how to structure a unit test (aka the 3 a's)?
+type: rule
+uri: how-to-structure-a-unit-test
 ---
 
 A test verifies expectations. Traditionally it has the form of 3 major steps:
@@ -21,7 +29,7 @@ A test verifies expectations. Traditionally it has the form of 3 major steps:
 2. Act
 3. Assert
 
-<!--endintro-->
+<endOfIntro />
 
 In the "Arrange" step we get everything ready and make sure we have all things handy for the "Act" step.
 
@@ -52,8 +60,4 @@ public void TestRegisterPost_ValidUser_ReturnsRedirect()
    Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
 }
 ```
-
-::: good
-Figure: A good structure for a unit test
-
-:::
+**✅ Figure: A good structure for a unit test**

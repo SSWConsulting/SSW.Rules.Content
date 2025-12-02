@@ -1,26 +1,35 @@
 ---
-seoDescription: Educate developers on permission granting processes and best practices to ensure secure and efficient resource access.
-type: rule
-title: Do you know how to educate your developers?
-uri: educate-your-developer
 authors:
-  - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil-anil/
-related:
-  - warn-then-call
-created: 2024-03-05T04:17:56.338Z
+- title: Ash Anil
+  url: https://www.ssw.com.au/people/ash-anil-anil/
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2024-03-05 04:17:56.338000+00:00
 guid: d0b5fc44-9396-4a93-9ab2-4c1111e6959c
+related:
+- rule: public/uploads/rules/warn-then-call/rule.mdx
+seoDescription: Educate developers on permission granting processes and best practices
+  to ensure secure and efficient resource access.
+title: Do you know how to educate your developers?
+type: rule
+uri: educate-your-developer
 ---
 
 To ensure that developers have a clear understanding of how permissions are granted, it's important to educate them on the process.
 
-<!--endintro-->
+<endOfIntro />
 
 User sends an email with a task to grant access to a resource and SysAdmins grant it. A developer wouldn't know how a SysAdmin granted the permission.
 
-::: bad
-![Bad Example - Issac wouldn't how he was added to GitHub](2024-03-05_16-34-15.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - Issac wouldn't how he was added to GitHub"}
+  src="/uploads/rules/educate-your-developer/2024-03-05_16-34-15.jpg"
+/>
+
 
 As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
 

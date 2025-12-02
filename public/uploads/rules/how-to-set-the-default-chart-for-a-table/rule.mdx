@@ -1,47 +1,66 @@
 ---
-seoDescription: Setting a default chart for a table in Dynamics 365 requires some additional work beyond creating multiple charts. Learn how to set a system-wide default chart using XRMToolBox and Advanced Chart Editor plugins.
-type: rule
-archivedreason:
-title: Do you know how to set the default chart for a table (previously known as an entity)?
-guid: a7a94278-db58-47f4-a809-9df55a4788c5
-uri: how-to-set-the-default-chart-for-a-table
-created: 2021-02-08T15:59:38.0000000Z
+archivedreason: null
 authors:
-  - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+- title: Mehmet Ozdemir
+  url: https://ssw.com.au/people/mehmet-ozdemir
+categories:
+- category: categories/software-engineering/rules-to-better-crm-for-developers.mdx
+created: 2021-02-08 15:59:40+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a7a94278-db58-47f4-a809-9df55a4788c5
+isArchived: false
+lastUpdated: 2021-02-08 19:34:58+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-know-how-to-set-the-default-chart-for-a-table-previously-known-as-an-entity
-  - do-you-know-how-to-set-the-default-chart-for-a-table-(previously-known-as-an-entity)
+- do-you-know-how-to-set-the-default-chart-for-a-table-previously-known-as-an-entity
+- do-you-know-how-to-set-the-default-chart-for-a-table-(previously-known-as-an-entity)
+seoDescription: Setting a default chart for a table in Dynamics 365 requires some
+  additional work beyond creating multiple charts. Learn how to set a system-wide
+  default chart using XRMToolBox and Advanced Chart Editor plugins.
+title: Do you know how to set the default chart for a table (previously known as an
+  entity)?
+type: rule
+uri: how-to-set-the-default-chart-for-a-table
 ---
 
 Model-driven apps allow you to create multiple charts per table, ordinarily, the first chart is the default chart when opening the charts pane. Setting a system-wide default chart takes a bit more work.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: The first chart in the list is the default](default-chart-1.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"The first chart in the list is the default"}
+  src="/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-1.png"
+/>
+
 
 In the example above “Leads by Rating" is the be the default system-level chart of the Lead table. Some additional work is required to change the default. The easiest way of doing this is with [XRMToolBox](https://www.xrmtoolbox.com/) and the [Advanced Chart Editor](https://crmchartguy.com/2017/06/10/edit-charts-in-the-xrmtoolbox-for-dynamics-365/) plugin.
 
 1. Open the Advanced Chart Editor, Load Entities, and Navigate to the table
 
-![](default-chart-2.png)
+![](/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-2.png)
 
 2. If changing the default chart to Leads by Source, select chart and export it
 
-![](default-chart-3.png)
+![](/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-3.png)
 
 3. Open the exported XML file in the text editor of your choice, and change the **isdefault** element to “true" and save the file
 
-![](default-chart-4.png)
+![](/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-4.png)
 
 4. Import the modified XML back into the Advanced Chart Editor and publish the changes
 
-![](default-chart-5.png)
+![](/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-5.png)
 
 5. Refresh the Table view, the updated chart should be the default chart in the list
 
-![](default-chart-6.png)
+![](/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-6.png)
 
 **Note:** If the chart that was modified to be the new default is not at the top of the list, check the first chart in the list by exporting it and confirming the **isdefault** element is set to false.
 
@@ -51,4 +70,12 @@ For example, if “Lead by Rating" and “Lead by Source" are both set as defaul
 
 This can be desirable in some instances.
 
-![Figure: Two sorts, first alphabetical sort for the defaults, second alphabetical sort for the remaining charts](default-chart-7.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Two sorts, first alphabetical sort for the defaults, second alphabetical sort for the remaining charts"}
+  src="/uploads/rules/how-to-set-the-default-chart-for-a-table/default-chart-7.png"
+/>

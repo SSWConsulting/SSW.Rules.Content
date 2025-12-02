@@ -1,20 +1,29 @@
 ---
-seoDescription: Do you clean your data before modelling? Learn how to filter out rows with missing values using Pandas and Numpy, and explore interpolation and mean-based filling techniques for handling incomplete data.
-type: rule
-title: Do you clean your data before modelling?
-uri: clean-your-data-before-modelling
-authors: []
-related: []
-redirects:
-  - do-you-clean-your-data-before-modelling
-created: 2017-04-18T01:26:52.000Z
 archivedreason: null
+authors: []
+categories:
+- category: categories/software-engineering/rules-to-better-data-analytics.mdx
+created: 2017-04-18 01:26:56+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: ae6c3d9b-598b-42af-aae1-6b83c1dc98f6
+isArchived: false
+lastUpdated: 2017-04-27 21:09:30+00:00
+lastUpdatedBy: Nick Wienholt
+lastUpdatedByEmail: NickWienholt@ssw.com.au
+redirects:
+- do-you-clean-your-data-before-modelling
+seoDescription: Do you clean your data before modelling? Learn how to filter out rows
+  with missing values using Pandas and Numpy, and explore interpolation and mean-based
+  filling techniques for handling incomplete data.
+title: Do you clean your data before modelling?
+type: rule
+uri: clean-your-data-before-modelling
 ---
 
 Without proper data cleansing, efforts spent in analysis and modelling are often wasted. This rule covers the important steps for getting your data in good shape before the hard work begins.
 
-<!--endintro-->
+<endOfIntro />
 
 Cleaning data is usually the first step in any data science project, and along with initially procuring the data, this step can take up a considerable amount of time. This rule will focus on techniques and steps required for data cleansing using Python in Azure Notebooks and using in-built functionality in the Azure Machine Learning Studio.
 
@@ -24,18 +33,18 @@ Once the data has been imported, the first step is to visually and graphically i
 
 Using Python, data can be inspected in a tabular form by using the head and tail methods of a Pandas dataframe. These methods will output the first and last five rows of a dataframe (respectively), with an optional parameter allowing the five row default to be modified. In this step, we are looking for missing data (such as columns with NaN values) and columns where the formatting looks problematic.
 
-![](DataScience1.png)
+![](/uploads/rules/clean-your-data-before-modelling/DataScience1.png)
 
 Once we have a general sense of the data and have identified columns that contain features that are of interest to the data analysis, the next step is to plot the data to get a feeling for its distribution and to check for any outliers. The 'plot' method of dataframes supports a rich variety of ways to graphically present data.
 
-![](DataScience2.png)
+![](/uploads/rules/clean-your-data-before-modelling/DataScience2.png)
 
 For Azure Machine Learning projects, the context menu of a dataset can be used to Visualize the data available for modelling.
 
-![](DataScience3.png)
+![](/uploads/rules/clean-your-data-before-modelling/DataScience3.png)
 Data is displayed in a tabular form, and by selecting a column, key statistics for that column can be inspected. Two graph types are available for the data - the default histogram view and a boxplot view. Using this screen, any problems with a dataset can be readily identified.
 
-![](DataScience4.png)
+![](/uploads/rules/clean-your-data-before-modelling/DataScience4.png)
 
 ### 2. Decide on a strategy for dealing with missing data
 
@@ -157,7 +166,7 @@ Azure ML has a specific step for cleaning missing data. The step allows the rele
 
 In addition to the simple cleaning methods such as removing the row or replacing it with the mean, much more complex methods such as Replace with MICE are available. MICE stands for Multivariate Imputation using Chained Equations, and is an inference technique that uses the distribution of values across all columns to calculate the best fitting substitution for missing values. For example, to fill in the missing values in a person's weight column, the information in other columns such as gender and age will be used to predict the best fit for the missing data. The academic paper [Multiple Imputation by Chained Equations: What is it and how does it work?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/) gives a great explanation of the workings of the MICE algorithm.
 
-![](DataScience5.png)
+![](/uploads/rules/clean-your-data-before-modelling/DataScience5.png)
 
 ### Next Steps
 

@@ -1,24 +1,28 @@
 ---
-seoDescription: Learn how to identify and resolve Azure SQL Database performance issues by diagnosing bottlenecks and optimizing query performance.
-type: rule
-archivedreason: 
-title: Identifying the cause of Azure SQL Database performance problems
-guid: 0c3cca32-b436-4e65-8d06-0263d35f283e
-uri: identify-sql-performance-azure
-created: 2023-12-27T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
-related: 
-  - identify-sql-performance-sql-server
-  - identify-sql-performance-azure
-  - sql-server-cpu-pressure
-  - sql-server-io-pressure
-  - sql-server-memory-pressure
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+created: 2023-12-27 07:26:54+00:00
+guid: 0c3cca32-b436-4e65-8d06-0263d35f283e
+related:
+- rule: public/uploads/rules/identify-sql-performance-sql-server/rule.mdx
+- rule: public/uploads/rules/identify-sql-performance-azure/rule.mdx
+- rule: public/uploads/rules/sql-server-cpu-pressure/rule.mdx
+- rule: public/uploads/rules/sql-server-io-pressure/rule.mdx
+- rule: public/uploads/rules/sql-server-memory-pressure/rule.mdx
+seoDescription: Learn how to identify and resolve Azure SQL Database performance issues
+  by diagnosing bottlenecks and optimizing query performance.
+title: Identifying the cause of Azure SQL Database performance problems
+type: rule
+uri: identify-sql-performance-azure
 ---
+
 When looking at Azure SQL Dataabase, you often get performance issues, but how can you figure out what might be the cause?
 
-<!--endintro-->
+<endOfIntro />
 
 The first step when working with Azure SQL is to identify whether the problem is a single poorly optimised query, or whether you are reaching a limit of the server. In Azure SQL Database you choose a level of performance expressed in DTUs (Database Transaction Units). These are just a way of expressing a fixed amount of available CPU, Disk IO and memory. If you are finding that you are hitting a bandwidth limit against only one of those, you can tune your queries to use more of the other parameters while reducing the one that is being throttled. For example, you can often choose a technique that uses less CPU, but requires more memory.
 

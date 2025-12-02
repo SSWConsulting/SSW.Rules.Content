@@ -1,24 +1,34 @@
 ---
-seoDescription: Never use On Error Resume Next in VB (and VB.NET) projects. If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
-type: rule
-title: Do you always avoid On Error Resume Next? (VB Only)
-uri: do-you-always-avoid-on-error-resume-next-vb-only
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-always-avoid-on-error-resume-next-(vb-only)
-created: 2013-09-11T22:01:01.000Z
 archivedreason: Archiving as this rule as VB isn't relevant anymore
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-for-error-handling.mdx
+created: 2013-09-11 22:03:55+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 44ff5d65-56bc-4b02-957d-378c8c0bfc5c
+isArchived: false
+lastUpdated: 2021-03-16 22:24:01.181000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-always-avoid-on-error-resume-next-(vb-only)
+seoDescription: Never use On Error Resume Next in VB (and VB.NET) projects. If an
+  error occurred, On Error Resume Next will hide the error and things can go very
+  haywire! In .NET, stop using the On Error syntax and use the try-catch exception
+  syntax for better structural exception handling.
+title: Do you always avoid On Error Resume Next? (VB Only)
+type: rule
+uri: do-you-always-avoid-on-error-resume-next-vb-only
 ---
 
 Never use On Error Resume Next in VB (and VB.NET) projects.
 
 If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
 
-<!--endintro-->
+<endOfIntro />
 
 In VB/VBA you should use On Error Resume Next with line of comment and after an offending line of code there should be statement On Error GoTo 0 to reset Errors collection.
 
@@ -33,10 +43,7 @@ Private Sub cmdSelect_Click()
     intRoutesPerDay = 2
     End Sub
 ```
-
-::: bad
-Bad Example – Bad code
-:::
+**❌ Bad Example – Bad code**  
 
 ```vb
 Private Sub cmdSelect_Click()
@@ -51,7 +58,4 @@ Private Sub cmdSelect_Click()
     .
     End Sub
 ```
-
-::: good
-Good Example – Good code
-:::
+**✅ Good Example – Good code**

@@ -1,27 +1,46 @@
 ---
-seoDescription: Create separate app.config files for different environments to simplify development and deployment processes.
-type: rule
-archivedreason:
-title: Do You Create Different App.Config for Different Environment?
-guid: 8c6e4f21-3c36-42bf-9246-f9da9b8c3c03
-uri: do-you-create-different-app-config-for-different-environment
-created: 2009-12-10T05:23:58.0000000Z
+archivedreason: null
 authors:
-  - title: Andy Taslim
-    url: https://ssw.com.au/people/andy-taslim
-related: []
+- title: Andy Taslim
+  url: https://ssw.com.au/people/andy-taslim
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2009-12-10 05:51:07+00:00
+createdBy: SSW2000\AndyTaslim
+createdByEmail: Unknown@ssw.com.au
+guid: 8c6e4f21-3c36-42bf-9246-f9da9b8c3c03
+isArchived: false
+lastUpdated: 2010-10-20 08:56:53+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
+seoDescription: Create separate app.config files for different environments to simplify
+  development and deployment processes.
+title: Do You Create Different App.Config for Different Environment?
+type: rule
+uri: do-you-create-different-app-config-for-different-environment
 ---
 
 Every application has different settings depending on the environment it is running on, e.g. production, testing or development environment.
 It is much easier and efficient if app.config is provided in several environment types, so then the developer can just copy and paste the required app.config.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad Example - Only 1 App.config provided](AppConfigBad.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - Only 1 App.config provided"}
+  src="/uploads/rules/do-you-create-different-app-config-for-different-environment/AppConfigBad.jpg"
+/>
 
-::: good
-![Figure : Good Example - Several App.config are provided](App.config.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Figure : Good Example - Several App.config are provided"}
+  src="/uploads/rules/do-you-create-different-app-config-for-different-environment/App.config.jpg"
+/>

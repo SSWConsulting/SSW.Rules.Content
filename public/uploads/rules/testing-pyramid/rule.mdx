@@ -1,29 +1,49 @@
 ---
-seoDescription: Understanding the testing pyramid models, such as Mike Cohn's automated testing pyramid, is crucial for developing effective test strategies and mitigating risks in software development.
-type: rule
-title: Do you understand the "testing pyramid" models?
-uri: testing-pyramid
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - automated-ui-testing-sparingly
-  - different-types-of-testing
-created: 2022-11-25T02:53:59.794Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-11-25 02:53:59.794000+00:00
 guid: ee5b40cf-cf8e-4b0c-a421-ab34f28d8b76
+related:
+- rule: public/uploads/rules/automated-ui-testing-sparingly/rule.mdx
+- rule: public/uploads/rules/different-types-of-testing/rule.mdx
+seoDescription: Understanding the testing pyramid models, such as Mike Cohn's automated
+  testing pyramid, is crucial for developing effective test strategies and mitigating
+  risks in software development.
+title: Do you understand the "testing pyramid" models?
+type: rule
+uri: testing-pyramid
 ---
 
 Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications.
 
-::: greybox
-Remember that different types and levels of tests help to mitigate different types of risk in your software.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Remember that different types and levels of tests help to mitigate different types of risk in your software.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 There are various models to help with this, most stemming from Mike Cohn's simple [automated testing pyramid](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid).
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Mike Cohn's automated testing pyramid (2009)](test-pyramid-cohn.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Mike Cohn's automated testing pyramid (2009)"}
+  src="/uploads/rules/testing-pyramid/test-pyramid-cohn.jpg"
+/>
+
 
 > "All models are wrong, but some are useful"
 >
@@ -69,7 +89,16 @@ Many different test pyramid models have been inspired by Cohn's simple original 
 
 An interesting take comes from [Noah Sussman](https://infiniteundo.com/post/158179632683/abandoning-the-pyramid-of-testing-in-favor-of-a) who re-imagined the test pyramid as a bug filter (turning the pyramid on its head in the process):
 
-![Figure: Noah Sussman's bug filter model (2017)](bug-filter.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Noah Sussman's bug filter model (2017)"}
+  src="/uploads/rules/testing-pyramid/bug-filter.jpg"
+/>
+
 
 Note that the area of the bug filter changes at each level. Unit tests focus solely on product code, but integration tests might include databases or external web services. End-to-end tests cover an even larger architecture. Bugs can appear from these new systems without having passed through a previous filter.
 

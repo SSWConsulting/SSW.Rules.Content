@@ -1,42 +1,56 @@
 ---
-seoDescription: Ensure accurate data collection by letting users opt out of questions they can't answer.
-type: rule
-archivedreason: 
-title: Validation - Do you avoid capturing incorrect data?
-guid: 8eaf2a1d-4167-4278-89e5-8ab1c4ba0b85
-uri: validation-do-you-avoid-capturing-incorrect-data
-created: 2012-11-27T09:03:27.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/design/rules-to-better-interfaces-forms.mdx
+created: 2012-11-27 09:05:29+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 8eaf2a1d-4167-4278-89e5-8ab1c4ba0b85
+isArchived: false
+lastUpdated: 2021-03-18 18:43:45.703000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
-
+seoDescription: Ensure accurate data collection by letting users opt out of questions
+  they can't answer.
+title: Validation - Do you avoid capturing incorrect data?
+type: rule
+uri: validation-do-you-avoid-capturing-incorrect-data
 ---
 
 When asking for an opinion do you give people the option of having no opinion at all? If you only provide "Yes" or "No" as answers to the question "Do you like apples?" then you force people to make a decision which may not be correct.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-Do you like apples?
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Do you like apples?
 ( ) Yes
-( ) No  
-:::  
-::: bad  
-Figure: Bad example - Only "Yes" and "No" options provided  
-:::  
+( ) No
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - Only \"Yes\" and \"No\" options provided"}
+/>
+
 
 Maybe they only like cooked apples not raw ones. When asking any question in which "Don't know." or "Don't care." is a valid response, always include an option to opt out of answering.
 
 Additionally, when the user don't answer the question at all, the response you would get would be determined by the browser the user was using. Give them an answer they can agree with and you'll reduce the chance of bogus responses.
 
-::: greybox
-Do you like apples?
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Do you like apples?
 ( ) Yes
 ( ) No
-( ) Cannot say  
-:::  
-::: good  
-Figure: Good example - Included the "Cannot say" option to opt out of answering  
-:::  
+( ) Cannot say
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Included the \"Cannot say\" option to opt out of answering"}
+/>

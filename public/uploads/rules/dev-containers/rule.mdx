@@ -1,19 +1,23 @@
 ---
-seoDescription: Developers can now achieve consistent and isolated dev environments using Dev Containers from Microsoft, eliminating the "works on my machine" problem.
-type: rule
-title: Project setup - Do you containerize your dev environment?
-uri: dev-containers
 authors:
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-related:
-  - project-setup
-  - developer-experience
-  - containerize-sql-server
-created: 2022-11-30T03:26:46.980Z
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2022-11-30 03:26:46.980000+00:00
 guid: 3c013217-0b18-40e2-bdad-0139242d9e3f
+related:
+- rule: public/uploads/rules/project-setup/rule.mdx
+- rule: public/uploads/rules/developer-experience/rule.mdx
+- rule: public/uploads/rules/containerize-sql-server/rule.mdx
+seoDescription: Developers can now achieve consistent and isolated dev environments
+  using Dev Containers from Microsoft, eliminating the "works on my machine" problem.
+title: Project setup - Do you containerize your dev environment?
+type: rule
+uri: dev-containers
 ---
 
 Developers love the feeling of getting a new project going for the first time. Unfortunately, the process of making things work is often a painful experience. Every developer has a different setup on their PC so it is common for a project to require slightly different steps.
@@ -22,7 +26,7 @@ The old proverb is _"Works on my machine!"_
 
 Luckily, there is a way to make all development environments 100% consistent.
 
-<!--endintro-->
+<endOfIntro />
 
 `youtube: Yhp37fPn6dQ`
 
@@ -68,12 +72,24 @@ The following tools are not supported yet
 * .NET Framework (because it is a linux container)
 * [Visual Studio](https://containers.dev/supporting)
 
-::: bad
-![Figure: Bad example - Before using Dev Containers you would be missing a lot of pre-requisites!](NervousDevs.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Before using Dev Containers you would be missing a lot of pre-requisites!"}
+  src="/uploads/rules/dev-containers/NervousDevs.png"
+/>
 
-::: good
-![Figure: Good example - After using Dev Containers you would be as happy as Larry!](HappyDevs_1710232021932.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - After using Dev Containers you would be as happy as Larry!"}
+  src="/uploads/rules/dev-containers/HappyDevs_1710232021932.png"
+/>
+
 
 If you have a reason for not doing all of this, you should at least [containerize your SQL Server environment](/containerize-sql-server).

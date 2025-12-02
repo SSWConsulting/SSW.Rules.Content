@@ -1,21 +1,29 @@
 ---
-seoDescription: Simplify repetitive UI sections by encapsulating them in HTML Helpers or Partial Views to reduce code duplication and improve maintainability.
-type: rule
-title: Do you use Html Helpers and Partial Views to simplify Views?
-uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
-authors:
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related: []
-redirects: []
-created: 2013-03-07T18:47:43.000Z
 archivedreason: null
+authors:
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/software-engineering/rules-to-better-mvc.mdx
+created: 2013-03-07 18:50:12+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 13fd4eb4-925e-47c1-b779-c54b9b869385
+isArchived: false
+lastUpdated: 2013-03-07 18:50:12+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects: []
+seoDescription: Simplify repetitive UI sections by encapsulating them in HTML Helpers
+  or Partial Views to reduce code duplication and improve maintainability.
+title: Do you use Html Helpers and Partial Views to simplify Views?
+type: rule
+uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
 ---
 
 Repeated sections of User Interface should be encapsulated in either Html Helpers or Partial Views to avoid repetition.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 <div class="featured">
@@ -26,10 +34,7 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
     }
 </div>
 ```
-
-::: bad
-Figure: Bad example – The above code could be encapsulated into a Partial View for reuse
-:::
+**❌ Figure: Bad example – The above code could be encapsulated into a Partial View for reuse**  
 
 ```cs
 public static class DateExtensions
@@ -41,15 +46,9 @@ public static class DateExtensions
 }
 @Html.GetTodayDate()
 ```
-
-::: good
-Figure: Good example – Using an HTML Helper extension method for reusable code
-:::
+**✅ Figure: Good example – Using an HTML Helper extension method for reusable code**  
 
 ```cs
 @Html.Partial("_FeaturedProduct")
 ```
-
-::: good
-Figure: Good example – Using a Partial View for reusable sections of UI
-:::
+**✅ Figure: Good example – Using a Partial View for reusable sections of UI**

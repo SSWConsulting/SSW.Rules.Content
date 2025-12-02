@@ -1,21 +1,29 @@
 ---
-seoDescription: Control choice dilemma - weighing pros and cons of using GridView over CheckedListBox in Windows Forms development.
-type: rule
-archivedreason:
-title: Control Choice - Do you use GridView over the CheckedListBox?
-guid: 4fe1955e-ea0f-47cb-a9c8-26219cb608ba
-uri: control-choice-do-you-use-gridview-over-the-checkedlistbox
-created: 2012-11-27T08:43:24.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-interfaces-winforms-controls.mdx
+created: 2012-11-27 08:43:58+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 4fe1955e-ea0f-47cb-a9c8-26219cb608ba
+isArchived: false
+lastUpdated: 2017-02-23 14:26:56+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Control choice dilemma - weighing pros and cons of using GridView
+  over CheckedListBox in Windows Forms development.
+title: Control Choice - Do you use GridView over the CheckedListBox?
+type: rule
+uri: control-choice-do-you-use-gridview-over-the-checkedlistbox
 ---
 
 In Web we have:
 
-* Grids E.g. <http://demos.kendoui.com/web/grid/selection.html>
+* Grids E.g. [http://demos.kendoui.com/web/grid/selection.html](http://demos.kendoui.com/web/grid/selection.html)
 
 In Windows Forms we have a CheckedListBox. With a CheckedListBox you cannot:
 
@@ -23,15 +31,27 @@ In Windows Forms we have a CheckedListBox. With a CheckedListBox you cannot:
 * Contain much information - can only show one field
 * DataBind - always costs heaps of code
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad Example - The CheckedListBox is limited](/UsingCheckedListBox.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - The CheckedListBox is limited"}
+  src="/uploads/rules/control-choice-do-you-use-gridview-over-the-checkedlistbox/UsingCheckedListBox.gif"
+/>
 
-::: good  
-![Figure: Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)](/UsingDataGrid.gif)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - The DataGrid can show much more information (and if you use a 3rd Party eg. Telerik, then it can be pretty too)"}
+  src="/uploads/rules/control-choice-do-you-use-gridview-over-the-checkedlistbox/UsingDataGrid.gif"
+/>
+
 
 In Windows Forms, the code of DataGrid databinding is easier than that of CheckedListBox.
 

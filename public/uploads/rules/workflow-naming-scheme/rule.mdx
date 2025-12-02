@@ -2,6 +2,8 @@
 seoDescription: Naming your CI workflows - Follow a clear and descriptive naming convention to improve developer experience, reduce confusion, and save time by reflecting the purpose and sequence of each workflow.
 type: rule
 title: Do you know how to name your CI workflows?
+categories:
+  - category: categories/project-delivery/rules-to-better-devops.mdx
 uri: workflow-naming-scheme
 authors:
   - title: Brady Stroud
@@ -18,21 +20,29 @@ A well-named workflow file can save time and reduce confusion. By following a cl
 
 Naming your workflows in a way that reflects their purpose and sequence will improve developers experience. Stick to a clear and descriptive naming convention, and you'll never have to guess what a workflow does again.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-ssw-rulesgpt-prod.yml
-:::
-::: bad
-Figure: Bad Example - It's unclear what the workflow does, the name doesn't reflect the sequence of actions.
-:::
 
-::: greybox
-main-build-deploy.yml
-:::
-::: good
-Figure: Bad Example - It's clear that changes to the main branch cause a build and deploy.
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    ssw-rulesgpt-prod.yml
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad Example - It's unclear what the workflow does, the name doesn't reflect the sequence of actions."}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    main-build-deploy.yml
+  </>}
+  captionStyle="goodExample"
+  captionText={"Bad Example - It's clear that changes to the main branch cause a build and deploy."}
+/>
+
 
 It's easy to understand, even for someone new to the project.
 
@@ -42,4 +52,4 @@ Steps to naming a workflow:
 2. Describe the main action: What's the primary task? (e.g., build, lint)
 3. Include additional details: Any secondary actions or specific details? (e.g., and-deploy, infra-check)
 
-Use this template to determine {{TRIGGER}}-{{ACTIONS}}-{{ADDITIONAL DETAILS}}.yml
+Use this template to determine &#123;&#123;TRIGGER&#125;&#125;-&#123;&#123;ACTIONS&#125;&#125;-&#123;&#123;ADDITIONAL DETAILS&#125;&#125;.yml

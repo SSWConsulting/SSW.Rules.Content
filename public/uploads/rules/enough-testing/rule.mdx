@@ -1,16 +1,20 @@
 ---
-seoDescription: When determining if enough testing has been done, consider stopping heuristics like time constraints, significant bug discovery, ethical concerns, or project objectives, while focusing on high-risk areas through risk-based testing to ensure critical issues are addressed.
-type: rule
-title: Do you know when you've done "enough" testing?
-uri: enough-testing
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - risk-based-testing
-created: 2022-10-14T03:38:04.007Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-10-14 03:38:04.007000+00:00
 guid: 0a3e4d17-303e-4658-a2a4-ebae8d08e784
-
+related:
+- rule: public/uploads/rules/risk-based-testing/rule.mdx
+seoDescription: When determining if enough testing has been done, consider stopping
+  heuristics like time constraints, significant bug discovery, ethical concerns, or
+  project objectives, while focusing on high-risk areas through risk-based testing
+  to ensure critical issues are addressed.
+title: Do you know when you've done "enough" testing?
+type: rule
+uri: enough-testing
 ---
 
 We know that [complete testing is impossible](/complete-testing-is-impossible), so we need ways to help us decide when to stop testing... aka when we've done "enough" testing.
@@ -18,7 +22,7 @@ We know that [complete testing is impossible](/complete-testing-is-impossible), 
 > "Genius sometimes consists of knowing when to stop."
 — Charles de Gaulle
 
-<!--endintro-->
+<endOfIntro />
 
 ### Risk-based testing
 
@@ -30,10 +34,17 @@ The focus should be on doing "good enough testing". You can say you're done when
 
 There are other ways to decide when to stop testing.
 
-::: greybox
-Heuristics are quick, inexpensive ways of solving a problem or making a decision. \
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Heuristics are quick, inexpensive ways of solving a problem or making a decision. \
 Heuristics are fallible: they might work and they might not work.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Michael Bolton has provided a dozen [stopping heuristics](https://www.developsense.com/blog/2009/09/when-do-we-stop-test/):
 

@@ -1,22 +1,29 @@
 ---
-seoDescription: Do you use "using" declaration instead of explicitly disposing?
-type: rule
-archivedreason:
-title: Do you use "using" declaration instead of use explicitly "dispose"?
-guid: 5307acc7-e011-4c7e-905d-ae604f32e5be
-uri: use-using-statement-instead-of-use-explicitly-dispose
-created: 2018-04-26T20:56:47.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-26 20:56:48+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 5307acc7-e011-4c7e-905d-ae604f32e5be
+isArchived: false
+lastUpdated: 2021-08-06 00:36:57.479000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-use-using-declaration-instead-of-use-explicitly-dispose
+- do-you-use-using-declaration-instead-of-use-explicitly-dispose
+seoDescription: Do you use "using" declaration instead of explicitly disposing?
+title: Do you use "using" declaration instead of use explicitly "dispose"?
+type: rule
+uri: use-using-statement-instead-of-use-explicitly-dispose
 ---
 
 Don't explicitly use "dispose" to close objects and dispose of them, the "using" statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues.
 
-<!--endintro-->
+<endOfIntro />
 
 ```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
@@ -40,10 +47,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
   return skippedLines;
 }
 ```
-
-::: bad
-Figure: Bad example of dispose of resources
-:::
+**❌ Figure: Bad example of dispose of resources**  
 
 ```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
@@ -68,10 +72,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
    return skippedLines;
 }
 ```
-
-::: bad
-Figure: Bad example of dispose of resources
-:::
+**❌ Figure: Bad example of dispose of resources**  
 
 ```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
@@ -95,13 +96,16 @@ static int WriteLinesToFile(IEnumerable<string> lines)
    // file is disposed here
 }
 ```
+**✅ Figure: Good example of dispose of resources, using c# 8.0 using declaration**  
 
-::: good
-Figure: Good example of dispose of resources, using c# 8.0 using declaration  
-:::
 
-::: greybox
-**Tip: Did you know it is not recommended to dispose HttpClient?**
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tip: Did you know it is not recommended to dispose HttpClient?**
 
 One last note is regarding disposing of HttpClient.  Yes, HTTPClient does implement IDisposable, however, I do not recommend creating a HttpClient inside a Using block to make a single request. When HttpClient is disposed it causes the underlying connection to be closed also.  This means the next request has to re-open that connection.  You should try and re-use your HttpClient instances.  If the server really does not want you holding open it’s connection then it will send a header to request the connection be closed.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>

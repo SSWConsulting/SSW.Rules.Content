@@ -1,30 +1,65 @@
 ---
-seoDescription: Use a single package manager and be cautious of versioning issues to simplify your development workflow.
-type: rule
-archivedreason:
-title: Do you use package managers appropriately?
-guid: d32858ed-12ed-4d69-9aa4-92a01c16665d
-uri: use-package-managers-appropriately
-created: 2016-04-28T21:33:33.0000000Z
+archivedreason: null
 authors:
-  - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
-related: []
+- title: Steve Leigh
+  url: https://ssw.com.au/people/steve-leigh
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2016-04-28 21:33:33+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d32858ed-12ed-4d69-9aa4-92a01c16665d
+isArchived: false
+lastUpdated: 2016-04-28 21:43:25+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-package-managers-appropriately
+- do-you-use-package-managers-appropriately
+seoDescription: Use a single package manager and be cautious of versioning issues
+  to simplify your development workflow.
+title: Do you use package managers appropriately?
+type: rule
+uri: use-package-managers-appropriately
 ---
 
 Advice like this can be a minefield, and is constantly in flux, but there are some rules-of-thumb that can make life simpler.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Default ASP.NET Core project is package management done wrong](package1.jpg)
 
-![Figure: Project using good package management](package2.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Default ASP.NET Core project is package management done wrong"}
+  src="/uploads/rules/use-package-managers-appropriately/package1.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Project using good package management"}
+  src="/uploads/rules/use-package-managers-appropriately/package2.jpg"
+/>
+
 
 ### Bower is dead
 
-![Figure: Bower is dead](package3.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Bower is dead"}
+  src="/uploads/rules/use-package-managers-appropriately/package3.jpg"
+/>
+
 
 File-New Project in Visual Studio comes with bower packages, and there are a lot of old blog posts that recommend bower for client side libraries, but bower is dead. Angular2 is discouraging its use, and npm has all the same packages, and more. Prefer npm over bower, even for client-side dependencies.
 

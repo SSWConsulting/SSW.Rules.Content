@@ -1,23 +1,32 @@
 ---
-seoDescription: Isolate your logic from your IO to increase testability. By separating concerns and minimizing dependencies, you can write more robust and maintainable code that's easier to test and debug.
-type: rule
-title: Do you isolate your logic from your IO to increase the testability?
-uri: isolate-your-logic-from-your-io-to-increase-the-testability
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-isolate-your-logic-from-your-io-to-increase-the-testability
-created: 2020-03-12T22:19:47.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-12 22:19:48+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
+isArchived: false
+lastUpdated: 2020-03-12 22:23:46+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-isolate-your-logic-from-your-io-to-increase-the-testability
+seoDescription: Isolate your logic from your IO to increase testability. By separating
+  concerns and minimizing dependencies, you can write more robust and maintainable
+  code that's easier to test and debug.
+title: Do you isolate your logic from your IO to increase the testability?
+type: rule
+uri: isolate-your-logic-from-your-io-to-increase-the-testability
 ---
 
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
 Take this for example (and see how we refactor it):
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
@@ -39,11 +48,7 @@ public static List<string> GetFilesInProject(string projectFile)
   return files;
 }
 ```
-
-::: bad
-Bad - The logic and the IO are coded in a same method
-
-:::
+**❌ Bad - The logic and the IO are coded in a same method**  
 
 While this is a small concise and fairly robust piece of code, it still isn't that easy to unit test. Writing a unit test for this would require us to create temporary files on the hard drive, and probably end up requiring more code than the method itself.
 
@@ -78,11 +83,7 @@ public static List<string> GetFilesInProjectByContents(string projectFileContent
   return files;
 }
 ```
-
-::: good
-Good - The logic is now isolated from the IO
-
-:::
+**✅ Good - The logic is now isolated from the IO**  
 
 The first method (GetFilesInProject) is simple enough that it can remain untested. We do however want to test the second method (GetFilesInProjectByContents). Testing the second method is now too easy:
 
@@ -109,8 +110,4 @@ public void TestVS2005CSProj()
   Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
-
-::: good
-Good - Different test cases and assertions are created to test the logic
-
-:::
+**✅ Good - Different test cases and assertions are created to test the logic**

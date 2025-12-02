@@ -2,6 +2,8 @@
 seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+categories:
+  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
@@ -13,7 +15,7 @@ Migrating your project to a new Target Framework Moniker (TFM) can be a complex 
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
 
-<!--endintro-->
+<endOfIntro />
 
 ### Using #if Pragma Statements
 
@@ -34,10 +36,7 @@ public static class WebClientFactory
   }
 }
 ```
-
-::: good
-Code: Good example - Using #if Pragma statements and factory pattern
-:::
+**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
 
 ### Using MSBuild conditions
 
@@ -50,7 +49,4 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-
-::: good
-Code: Good example - Using MSBuild conditions
-:::
+**✅ Code: Good example - Using MSBuild conditions**  

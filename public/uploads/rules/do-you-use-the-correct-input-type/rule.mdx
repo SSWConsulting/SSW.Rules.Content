@@ -1,46 +1,65 @@
 ---
-seoDescription: Discover how using the correct HTML5 input types enhances mobile usability with dedicated keyboards for tasks like email, phone numbers, and URLs.
-type: rule
-archivedreason:
-title: Do you use the correct HTML input type?
+archivedreason: null
+authors:
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2015-05-22 03:34:03+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
 guid: 00cffd59-b110-46db-ab2d-bb70c0dbe9cf
-uri: do-you-use-the-correct-input-type
-created: 2015-05-22T03:02:36.0000000Z
-authors: 
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+isArchived: false
+lastUpdated: 2015-05-22 03:38:11+00:00
+lastUpdatedBy: Rebecca Liu
+lastUpdatedByEmail: RebeccaLiu@ssw.com.au
 redirects: []
-
+seoDescription: Discover how using the correct HTML5 input types enhances mobile usability
+  with dedicated keyboards for tasks like email, phone numbers, and URLs.
+title: Do you use the correct HTML input type?
+type: rule
+uri: do-you-use-the-correct-input-type
 ---
 
 HTML 5 introduced a whole slew of new type properties for forms. Gone are the days of just using `type="text"` for every field in a form (barring buttons and checkboxes).
 
 Although most of these don't do anything on desktop, on mobile devices they bring up the correct keyboard. As we move into a more mobile digital age, small things like the proper numerical keyboard or a keyboard with a quick ".com" becomes increasingly important.
 
-<!--endintro-->
+<endOfIntro />
 
 ```html
 <label for="phone">Phone</label>:
 <input type="text" name="phone" />
 ```
 
-::: bad img-medium
-![Figure: Bad example – This field is using a "text" type and shows a standard keyboard on mobile](field-type-text.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  captionStyle="badExample"
+  captionText={"Bad example – This field is using a \"text\" type and shows a standard keyboard on mobile"}
+  src="/uploads/rules/do-you-use-the-correct-input-type/field-type-text.png"
+/>
+
 
 ```html
 <label for="phone">Phone</label>:
 <input type="tel" name="phone" />
 ```
 
-::: good img-medium
-![Figure: Good example – This field is using the correct field type and shows the keypad on mobile](field-type-tel.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  captionStyle="goodExample"
+  captionText={"Good example – This field is using the correct field type and shows the keypad on mobile"}
+  src="/uploads/rules/do-you-use-the-correct-input-type/field-type-tel.png"
+/>
+
 
 Here is a table of some useful input types and what they do:
 

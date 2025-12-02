@@ -2,6 +2,8 @@
 seoDescription: Microsoft's Group Managed Service Accounts (gMSAs) provide a secure and practical identity solution for services, automating password management and eliminating expired passwords.
 type: rule
 title: Do you use gMSAs (Group Managed Service Accounts)?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
 uri: group-managed-service-account-gmsa
 authors:
   - title: Kiki Biancatti
@@ -13,7 +15,7 @@ guid: 3a0225ad-a27f-4f72-b978-ab2580a82342
 
 gMSA (Group Managed Service Accounts) are a secure and practical identity solution from Microsoft where services can be configured to use the gMSA principal and password management is handled by Windows - you don't need to worry about expired passwords anymore.
 
-<!--endintro-->
+<endOfIntro />
 
 gMSAs are the superior option when it comes to security and flexibility. It should always be used, when possible, instead of user accounts, MSAs, security principals, service accounts (with manually managed passwords) and any other on-premises identity types.
 
@@ -78,4 +80,4 @@ The final command could look like this:
 
 If the command returns **True**, everything is configured correctly.
 
-You can read more about gMSAs here: <https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview?WT.mc_id=ES-MVP-33518>
+You can read more about gMSAs here: [https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview?WT.mc_id=ES-MVP-33518](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview?WT.mc_id=ES-MVP-33518)

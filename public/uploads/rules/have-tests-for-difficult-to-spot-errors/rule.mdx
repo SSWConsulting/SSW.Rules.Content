@@ -1,27 +1,36 @@
 ---
-seoDescription: Do you have tests for difficult-to-spot errors, such as arithmetic, rounding and regular expressions? Write unit tests to catch unexpected issues in your code.
-type: rule
-title: Do you have tests for difficult to spot errors (e.g. arithmetic,
-  rounding, regular expressions)?
-uri: have-tests-for-difficult-to-spot-errors
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-have-tests-for-difficult-to-spot-errors-e-g-arithmetic-rounding-regular-expressions
-created: 2020-03-12T19:51:40.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-12 19:51:41+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 8bb8ec43-680b-4610-8ffc-0cd9c559b03b
+isArchived: false
+lastUpdated: 2020-03-20 02:27:56+00:00
+lastUpdatedBy: Matthew Wicks
+lastUpdatedByEmail: MatthewWicks@ssw.com.au
+redirects:
+- do-you-have-tests-for-difficult-to-spot-errors-e-g-arithmetic-rounding-regular-expressions
+seoDescription: Do you have tests for difficult-to-spot errors, such as arithmetic,
+  rounding and regular expressions? Write unit tests to catch unexpected issues in
+  your code.
+title: Do you have tests for difficult to spot errors (e.g. arithmetic, rounding,
+  regular expressions)?
+type: rule
+uri: have-tests-for-difficult-to-spot-errors
 ---
 
 By difficult to spot errors, we mean errors that do not give the user a prompt that an error has occurred. These types of errors are common around arithmetic, rounding and regular expressions, so they should have unit tests written around them.
 
-<!--endintro-->
+<endOfIntro />
 
 **Sample Code:**
 
-![](unit test - arithmetic code.jpg)
+![](/uploads/rules/have-tests-for-difficult-to-spot-errors/unit test - arithmetic code.jpg)
 
 **Figure: Function to calculate a total for a list of items**
 
@@ -29,6 +38,6 @@ For a function like this, it might be simple to spot errors when there are one o
 
 **Sample Test:** (Note: it doesn't need a failure case because it isn't a regular expression.)
 
-![](unit test - arithmetic tests.jpg)
+![](/uploads/rules/have-tests-for-difficult-to-spot-errors/unit test - arithmetic tests.jpg)
 
 **Figure: Test calculates the total by checking something we know the result of.**

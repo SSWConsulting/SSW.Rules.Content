@@ -1,19 +1,22 @@
 ---
-seoDescription: Ensure customer support responses are effective by including relevant documentation links. 
-type: rule
-archivedreason:
-title: Do you send links when offering support?
-guid: 00879668-3bca-40bf-bdeb-7e4970062fc6
-uri: support-send-links
-created: 2024-09-02T02:45:54.0000000Z
+archivedreason: null
 authors:
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: 
-  - knowledge-base-kb
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/client-engagement/rules-to-better-support.mdx
+created: 2024-09-02 02:45:54+00:00
+guid: 00879668-3bca-40bf-bdeb-7e4970062fc6
 redirects: []
+related:
+- rule: public/uploads/rules/knowledge-base-kb/rule.mdx
+seoDescription: Ensure customer support responses are effective by including relevant
+  documentation links.
+title: Do you send links when offering support?
+type: rule
+uri: support-send-links
 ---
 
 When offering support to customers using your product, think about whether this problem has occurred before or could happen again. If it has, there should be documentation available. This not only helps customers resolve their issues faster but also reduces the repetitive workload for the support team.
@@ -27,35 +30,47 @@ When you get a new question e.g. "Can I have co-authoring in TinaCMS?" these are
 
 Every support message should include a link to the relevant documentation or, if applicable, to a Product Backlog Item (PBI).
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-Yes - you can do co-authoring in TinaCMS.\
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Yes - you can do co-authoring in TinaCMS.\
 You can do it by going to your TinaCloud account settings, filling out the Git co-author name and email, and then enabling it.
 
 Let me know if you have any issues with this!
-:::
-::: bad
-Figure: Bad Example - explaining how to solve the problem when there are already documentation
-:::
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad Example - explaining how to solve the problem when there are already documentation"}
+/>
 
-::: greybox
-Yes - you can do co-authoring in TinaCMS.\
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Yes - you can do co-authoring in TinaCMS.\
 Here is the link to the documentation: [How to enable co-author on Git commits?](https://tina.io/docs/introduction/faq#7-how-to-enable-co-author-on-git-commits).
-:::
-::: good
-Figure: Good Example - Replying with a link
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example - Replying with a link"}
+/>
+
 
 Sometimes, you might get questions about bugs, upcoming features, or other things that are not documented. In this case,
 
-::: greybox
-Not yet - We are still working on mermaid diagram support in TinaCMS. Check out this issue to see the status
-<https://github.com/tinacms/tinacms/issues/4733>
-:::
-::: good
-Figure: Good Example - Sending a link to a PBI is also acceptable
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Not yet - We are still working on mermaid diagram support in TinaCMS. Check out this issue to see the status
+[https://github.com/tinacms/tinacms/issues/4733](https://github.com/tinacms/tinacms/issues/4733)
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example - Sending a link to a PBI is also acceptable"}
+/>
+
 
 After a while, you will build a great library of documentation that customers will use to self-serve their questions. This practice will also get you to read your documentation and improve it more often.
 

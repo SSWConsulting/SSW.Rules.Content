@@ -1,18 +1,21 @@
 ---
-seoDescription: Migrate from System.Web to modern alternatives and upgrade .NET Framework applications to .NET or .NET Standard.
-type: rule
-title: Do you know how to migrate from System.Web to modern alternatives
-guid: 71755477-0a38-4402-a5c8-1347883df481
-uri: migrate-from-system-web-to-modern-alternatives
 authors:
-  - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jernej-kavka
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-created: 2023-06-06T22:07:00.000Z
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  title: Jernej Kavka (JK)
+  url: https://ssw.com.au/people/jernej-kavka
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+categories:
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+created: 2023-06-06 22:07:00+00:00
+guid: 71755477-0a38-4402-a5c8-1347883df481
 related:
-  - dotnet-upgrade-for-complex-projects
+- rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
+seoDescription: Migrate from System.Web to modern alternatives and upgrade .NET Framework
+  applications to .NET or .NET Standard.
+title: Do you know how to migrate from System.Web to modern alternatives
+type: rule
+uri: migrate-from-system-web-to-modern-alternatives
 ---
 
 When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address System.Web. On upgrade, the reference to System.Web is either removed or will cause compile-time errors.
@@ -35,10 +38,7 @@ public class SomeService
     }
 }
 ```
-
-::: bad
-Figure: Bad example - An example .NET Framework code snippet demonstrating use of HttpContext.Current in a method.
-:::
+**❌ Figure: Bad example - An example .NET Framework code snippet demonstrating use of HttpContext.Current in a method.**  
 
 ```csharp
 public class SomeService
@@ -57,10 +57,7 @@ public class SomeService
     }
 }
 ```
-
-::: good
-Figure: Good example - Code snippet showing the replacement of HttpContext.Current with IHttpContextAccessor in a .NET service class.
-:::
+**✅ Figure: Good example - Code snippet showing the replacement of HttpContext.Current with IHttpContextAccessor in a .NET service class.**  
 
 ## 2. Abstracting functionality
 
@@ -80,9 +77,16 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
 </ItemGroup>
 ```
 
-::: greybox
-Figure: Conditional inclusion of the "System.Web" reference in a .NET Framework 4.7.2 project.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Figure: Conditional inclusion of the "System.Web" reference in a .NET Framework 4.7.2 project.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Next step is to define an interface. For this case, we’ll only expose currently authenticated user. We are calling it IApplicationContext as it contains context for current request, whether it’s coming from an HttpContext or somewhere else if it’s a background job or console application.
 
@@ -93,9 +97,16 @@ public interface IRequestContext
 }
 ```
 
-::: greybox
-Figure: IRequestContext interface for retrieving the current user's username.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Figure: IRequestContext interface for retrieving the current user's username.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Below you can see multiple implementations of `IRequestContext` as an example. You may need to implement in the web application project of the respective platform.
 
@@ -141,13 +152,27 @@ public sealed class BackgroundJobRequestContext : IRequestContext
 }
 ```
 
-::: greybox
-Figure: Different implementations of the `IRequestContext` interface for various environments (.NET Framework, .NET Core, and non-web contexts).
-:::
 
-::: greybox
-NOTE: If the above code needs to be in a multi-target project, you can use the `#if NET472_OR_GREATER` pragma to target specifically .NET Framework code.
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    Figure: Different implementations of the `IRequestContext` interface for various environments (.NET Framework, .NET Core, and non-web contexts).
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    NOTE: If the above code needs to be in a multi-target project, you can use the `#if NET472_OR_GREATER` pragma to target specifically .NET Framework code.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ## 3. Abstract HttpContext Accessor (.NET Framework only)
 
@@ -173,26 +198,40 @@ namespace Microsoft.AspNetCore.Http
 }
 ```
 
-::: greybox
-Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.
-:::
 
-::: greybox
-NOTE: Make sure your .csproj is correctly configured. Don't use
+<boxEmbed
+  style="greybox"
+  body={<>
+    Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    NOTE: Make sure your .csproj is correctly configured. Don't use
 
 ```xml
-<!-- .NET Framework reference for HttpContext -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
-    <Reference Include="System.Web" />
-</ItemGroup>
+&lt;!-- .NET Framework reference for HttpContext --&gt;
+&lt;ItemGroup Condition="'$(TargetFramework)' == 'net472'"&gt;
+    &lt;Reference Include="System.Web" /&gt;
+&lt;/ItemGroup&gt;
 
-<!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-</ItemGroup>
+&lt;!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp --&gt;
+&lt;ItemGroup Condition="'$(TargetFramework)' == 'net8.0'"&gt;
+    &lt;FrameworkReference Include="Microsoft.AspNetCore.App" /&gt;
+&lt;/ItemGroup&gt;
 ```
 
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ## 4. ⚠️ Last resort: System.Web adapters
 

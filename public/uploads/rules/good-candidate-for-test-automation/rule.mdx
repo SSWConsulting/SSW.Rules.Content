@@ -1,41 +1,53 @@
 ---
-seoDescription: Automating tests effectively requires evaluating whether a test is a good candidate for automation. Consider factors such as scale, subjectivity, and value to determine if a test should be automated.
-type: rule
-title: Do you know whether a test is a good candidate for automation?
-uri: good-candidate-for-test-automation
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan/
-  - title: William Liebenberg
-    url: https://www.ssw.com.au/people/william-liebenberg/
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair/
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman/
-
-related:
-  - why-testing-cannot-be-completely-automated
-  - what-is-exploratory-testing
-  - different-types-of-testing
-  - why-unit-tests-are-important
-  - automated-ui-testing
-redirects:
-  - good-candidate-for-automation
-created: 2022-11-18T01:24:52.668Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan/
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg/
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair/
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman/
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-11-18 01:24:52.668000+00:00
 guid: 926270de-f1f2-4dad-8a0d-f076a431aba0
+redirects:
+- good-candidate-for-automation
+related:
+- rule: public/uploads/rules/why-testing-cannot-be-completely-automated/rule.mdx
+- rule: public/uploads/rules/what-is-exploratory-testing/rule.mdx
+- rule: public/uploads/rules/different-types-of-testing/rule.mdx
+- rule: public/uploads/rules/why-unit-tests-are-important/rule.mdx
+- rule: public/uploads/rules/automated-ui-testing/rule.mdx
+seoDescription: Automating tests effectively requires evaluating whether a test is
+  a good candidate for automation. Consider factors such as scale, subjectivity, and
+  value to determine if a test should be automated.
+title: Do you know whether a test is a good candidate for automation?
+type: rule
+uri: good-candidate-for-test-automation
 ---
 
 Automation can be an awesome part of a test strategy, but not all tests are good candidates to be automated.
 
 [Not all testing can be completely automated](/why-testing-cannot-be-completely-automated), due to the uniquely human skills that are required (e.g. exploration, learning, experimentation). But even for those tests that **can** be automated, not all of them **should** be.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests](to-automate-or-not-ssw.jpg)
 
-> If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Making wise decisions about what to automate can prevent you from wasting valuable time automating less valuable tests"}
+  src="/uploads/rules/good-candidate-for-test-automation/to-automate-or-not-ssw.jpg"
+/>
+
+
+> If you try to "automate" bad testing, you’ll find yourself doing bad testing faster and worse than you've ever done it before.
 > \- Michael Bolton
 
 ## Evaluating the value of automation
@@ -50,8 +62,9 @@ There are multiple attributes that make a test a good candidate for automation.
 * **Subjectivity** - How easy is it to evaluate the test outcome objectively?
 * **Value** - How much value does the test provide?
 
-`youtube: https://www.youtube.com/embed/pQPUs9uaKUM`
-**Video: What is automated testing? Beginner intro & automation demo (watch from 5:30 – 7:10)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/pQPUs9uaKUM" description={"Video: What is automated testing? Beginner intro & automation demo (watch from 5:30 – 7:10)"} />
+
 
 ### Repeatability
 
@@ -133,42 +146,57 @@ It's not always a black and white decision about whether to automate a test. Let
 
 Let's look at some tests and why we would choose to automate them or not.
 
-::: greybox
-**Test Scenario:** Collapse the sidebar and check that the main pane resizes and displays correctly
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Test Scenario:** Collapse the sidebar and check that the main pane resizes and displays correctly
 
 **Reason:** This test is a bad candidate for automation because checking the UI requires a human judgment call, it isn't a precise objective call that a computer can make.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**❌ Bad example - Testing a Sidebar**  
 
-::: bad
-Bad example - Testing a Sidebar
-:::
 
-::: greybox
-**Test Scenario:** during video playback, set the “Playback” speed to 1.25 and check that the audio is played faster than before but remains clear.
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Test Scenario:** during video playback, set the “Playback” speed to 1.25 and check that the audio is played faster than before but remains clear.
 
 **Reason:** In this case, the computer won't be able to easily judge whether the audio is clear or unclear.
-:::
-::: bad
-Bad example - Testing video playback
-:::
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - Testing video playback"}
+/>
 
-::: greybox
-**Test Scenario:** Enter 100 into the amount field and check that the total invoice amount is updated to 110 (GST is added)
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Test Scenario:** Enter 100 into the amount field and check that the total invoice amount is updated to 110 (GST is added)
 
 **Reason:** The test is a maths problem which is easy for a computer to evaluate.
-:::
-::: good
-Good example - Testing a GST calculation
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Testing a GST calculation"}
+/>
 
-::: greybox
-**Test Scenario:** Enter “abcdefgh” into the editor, press the “Save” button and save with filename “test”. Close the editor. Open the file “test” and check that it contains “abcdefgh” only.
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Test Scenario:** Enter “abcdefgh” into the editor, press the “Save” button and save with filename “test”. Close the editor. Open the file “test” and check that it contains “abcdefgh” only.
 
 **Reason:** It's easy to evaluate the expected output with objective criteria.
-:::
-::: good
-Good example - Testing a save button
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Testing a save button"}
+/>
+
 
 ### Further reading
 

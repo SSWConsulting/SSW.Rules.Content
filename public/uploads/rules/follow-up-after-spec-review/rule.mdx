@@ -2,6 +2,8 @@
 seoDescription: Scheduling a follow-up meeting after the Spec Review ensures alignment and smooth project kickoff.
 type: rule
 title: Do you schedule a follow-up meeting after the Spec Review?
+categories:
+  - category: categories/client-engagement/rules-to-better-specification-reviews.mdx
 uri: follow-up-after-spec-review
 authors:
   - title: Ulysses Maclaren
@@ -16,7 +18,7 @@ When a Spec Review concludes, the journey towards project kickoff is only partia
 
 At the end of the Spec Review presentation with the client, work out a good time for the follow-up meeting and book it into their calendar immediately.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Objectives of the follow-up meeting
 
@@ -26,14 +28,18 @@ The follow-up meeting is a crucial step in ensuring a smooth transition from the
 
 Revisit the MVP backlog to ensure there has been no shift in priorities. It's essential to keep the project aligned with the client's expectations and business objectives.
 
-::: greybox
-Client: _"We initially thought Feature A was crucial, but now we believe Feature B should take precedence."_
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Client: _"We initially thought Feature A was crucial, but now we believe Feature B should take precedence."_
 
 Account Manager: _"No problem, we can re-evaluate the backlog and adjust the estimates accordingly."_
-:::
-::: good
-Good example - Adapting to client’s evolving priorities maintains alignment and trust
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Adapting to client’s evolving priorities maintains alignment and trust"}
+/>
+
 
 #### 2. Encouraging new insights
 
@@ -59,15 +65,15 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 
 To facilitate the scheduling of the follow-up meeting, here's a template that Account Managers can use:
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up |
-| Required:| {{ CLIENT }}; {{ SPEC REVIEW DEVS }} |
-::: email-content  
-
-### Hi {{ CLIENT NAME }}
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
 Thank you for your time during the Spec Review.
 
@@ -87,7 +93,7 @@ Please let us know if the proposed date and time work for you, or suggest an alt
 Looking forward it.
 
 Regards,
-
-:::
-:::
-**Figure: Follow up appointment after a Spec Review**
+  </>}
+  captionStyle="default"
+  captionText={"Follow up appointment after a Spec Review"}
+/>

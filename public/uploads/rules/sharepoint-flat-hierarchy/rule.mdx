@@ -2,6 +2,8 @@
 seoDescription: Modern SharePoint architecture favors a flat hierarchy, abandoning subsites for greater flexibility and integration with Microsoft Teams and 365 Groups.
 type: rule
 title: Do you use a flat hierarchy in SharePoint?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-sharepoint.mdx
 uri: sharepoint-flat-hierarchy
 authors:
   - title: Chris Schultz
@@ -9,22 +11,34 @@ authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy 
+    url: https://ssw.com.au/people/warwick-leahy
 created: 2022-01-06T05:04:25.315Z
 guid: f9a14783-71e5-406b-8192-8675df717508
 ---
 
 In the days of classic SharePoint, subsites were a popular way of organising your intranet. Modern SharePoint architecture leans toward a flatter hierarchy, where sub-sites are generally not recommended.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Old SharePoint architecture](sharepoint-bad-architecture.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Old SharePoint architecture"}
+  src="/uploads/rules/sharepoint-flat-hierarchy/sharepoint-bad-architecture.gif"
+/>
 
-::: good
-![Figure: Good example - A flat hierarchy with Hub sites allows great flexibility (animated gif)](flat-hierarchy.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - A flat hierarchy with Hub sites allows great flexibility (animated gif)"}
+  src="/uploads/rules/sharepoint-flat-hierarchy/flat-hierarchy.gif"
+/>
+
 
 There are several reasons why sub-sites are no longer recommended. [Callum Crowley talks about some of the important benefits of a flat hierarchy](https://callum.foo/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture), including:
 

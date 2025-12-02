@@ -2,6 +2,8 @@
 seoDescription: Improve conversation quality by encouraging ChatGPT to ask questions when needed, providing more accurate and helpful responses.
 type: rule
 title: Do you tell ChatGPT to ask you questions to get more context?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 uri: tell-chatgpt-to-ask-questions
 authors:
   - title: Ulysses Maclaren
@@ -13,7 +15,7 @@ archivedreason: null
 
 Sometimes, ChatGPT may require more context or clarification to provide a helpful response. Encouraging the model to ask questions when it needs more information can improve the quality of its answers and prevent misunderstandings.
 
-<!--endintro-->
+<endOfIntro />
 
 Here are some tips for prompting ChatGPT to ask for more context:
 
@@ -23,25 +25,37 @@ Here are some tips for prompting ChatGPT to ask for more context:
 - Consider adding "On each prompt, let me know roughly how many questions are left", to gauge if you want to answer all questions
 - If you’re feeling lazy or short for time, you can even get it to only ask you multiple choice questions.
 
-::: greybox
-"Tell me what I should do with my money."
-:::
-::: bad
-Figure: Bad example - The prompt is vague and lacks context
-:::
 
-::: greybox
-"Can you give me advice on managing my finances? Feel free to ask any questions you need (1 at a time) for more information."
-:::
-::: good
-Figure: Good example - The prompt invites ChatGPT to ask for clarification if needed
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Tell me what I should do with my money."
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - The prompt is vague and lacks context"}
+/>
 
-::: greybox
-"Tell me how to renovate my house. Ask any questions you need for more information. Ask the questions in multiple choice form, one at a time, and let me know on each response how many questions are left"
-:::
-::: good
-Figure: Good example - using all the tips for a streamlined experience
-:::
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Can you give me advice on managing my finances? Feel free to ask any questions you need (1 at a time) for more information."
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - The prompt invites ChatGPT to ask for clarification if needed"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Tell me how to renovate my house. Ask any questions you need for more information. Ask the questions in multiple choice form, one at a time, and let me know on each response how many questions are left"
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - using all the tips for a streamlined experience"}
+/>
+
 
 By encouraging ChatGPT to request more context when necessary, you can ensure that the model generates more accurate and helpful responses tailored to your specific needs.

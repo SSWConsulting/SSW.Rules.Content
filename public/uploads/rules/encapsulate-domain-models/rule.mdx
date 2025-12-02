@@ -2,6 +2,8 @@
 seoDescription: Learn the importance of encapsulating domain models in domain-driven design and how it leads to better maintainability and scalability.
 type: rule
 title: Do you encapsulate domain models in Domain-Driven Design?
+categories:
+  - category: categories/software-engineering/rules-to-better-domain-driven-design.mdx
 uri: encapsulate-domain-models
 authors:
   - title: Daniel Mackay
@@ -12,7 +14,7 @@ guid: C490FD8A-EF45-46A8-BF91-14B24AA40AD3
 
 Encapsulating domain models is a critical aspect of domain-driven design (DDD) that helps maintain the integrity and consistency of your application's core logic. Without proper encapsulation, the domain logic can become scattered and difficult to manage, leading to increased complexity and maintenance challenges.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why encapsulate domain models?
 
@@ -50,32 +52,29 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
-
-::: bad
-Figure: Bad example - Public setters, exposed collections, no constructor
-:::
+**❌ Figure: Bad example - Public setters, exposed collections, no constructor**  
 
 ```csharp
     public class Order
     {
         public Guid Id { get; private set; }
-        
+
         public Guid CustomerId { get; private set; }
-    
+
         public OrderStatus OrderStatus { get; private set; }
-    
+
         public Customer Customer { get; private set; } = null!;
-    
+
         public decimal PaidTotal { get; private set; }
-    
+
         private readonly List<OrderItem> _items = [];
-    
+
         public IReadOnlyList<OrderItem> Items => _items.AsReadOnly();
-    
+
         public static Order Create(CustomerId customerId)
         {
             Guard.Against.Null(customerId);
-    
+
             var order = new Order()
             {
                 Id = new OrderId(Guid.NewGuid()),
@@ -83,12 +82,9 @@ Figure: Bad example - Public setters, exposed collections, no constructor
                 OrderStatus = OrderStatus.New,
                 PaidTotal = Money.Default
             };
-    
+
             return order;
         }
     }
 ```
-
-::: good
-Figure: Good example - Private setters, read-only collection, factory method
-:::
+**✅ Figure: Good example - Private setters, read-only collection, factory method**  

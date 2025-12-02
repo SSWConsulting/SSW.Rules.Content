@@ -1,25 +1,25 @@
 ---
-type: rule
-title: Do you know how to handle redirects?
-seoDescription: Upgrade your website seamlessly with efficient redirects using
-  Cloudflare Workers or Azure Front Door to preserve SEO and traffic during the
-  migration.
-uri: handle-redirects
-authors:
-  - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
-related:
-  - use-a-cdn
-  - use-301-redirect-on-renamed-or-moved-pages
-created: 2024-06-14T06:32:40.000Z
 archivedreason: null
+authors:
+- title: Aman Kumar
+  url: https://ssw.com.au/people/aman-kumar
+categories:
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2024-06-14 06:32:40+00:00
 guid: 746cfdd5-68d6-4080-b4c8-af73daa2769e
-
+related:
+- rule: public/uploads/rules/use-a-cdn/rule.mdx
+- rule: public/uploads/rules/use-301-redirect-on-renamed-or-moved-pages/rule.mdx
+seoDescription: Upgrade your website seamlessly with efficient redirects using Cloudflare
+  Workers or Azure Front Door to preserve SEO and traffic during the migration.
+title: Do you know how to handle redirects?
+type: rule
+uri: handle-redirects
 ---
 
 Whether you’re rebranding, migrating your website to a new technology stack, or simply retiring old content, understanding when and how to implement redirects is crucial to preserve your SEO and avoid potential 404 errors.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Choosing the right redirect method
 
@@ -44,10 +44,7 @@ A client side redirect involves responding to the client request with a payload 
 ``` html
 <meta http-equiv="refresh" content="0; url=https://www.northwind.com">
 ```
-
-::: bad
-Figure: Bad example - A client-side redirect achieved by returning a meta refresh
-:::
+**❌ Figure: Bad example - A client-side redirect achieved by returning a meta refresh**  
 
 ### 2. Server-side redirects
 
@@ -90,10 +87,7 @@ const redirects = {
   //you can add more redirects here if you need to
 }
 ```
-
-::: good
-Figure: Good example - Server-side redirects using middleware in Next JS
-:::
+**✅ Figure: Good example - Server-side redirects using middleware in Next JS**  
 
 ### 3. CDN level (global)
 
