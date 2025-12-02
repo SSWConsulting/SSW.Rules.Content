@@ -79,6 +79,7 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
     r'(?:\*\*Figure:\s*(.*?)\*\*\s*)?'
 )
 # Allow leading whitespace for indented blocks
+SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
@@ -303,6 +304,22 @@ def replace_standalone_image(m, src_prefix):
 />
 '''
 
+def replace_simple_figure_block(m):
+    kind = m.group(1).strip()
+    text = m.group(2).strip()
+
+    if re.search(r'!\[.*?\]\(.*?\)', text):
+        return m.group(0)
+
+    if kind == "bad":
+        icon = "❌"
+    elif kind == "good":
+        icon = "✅"
+    else:
+        icon = "😐"
+
+    return f"**{icon} {text}**  "
+
 def replace_preset_and_size_image_block(m, src_prefix):
     # Extract preset and size from either order
     preset_kind = m.group('preset1') or m.group('preset2')
@@ -460,6 +477,17 @@ def process_custom_aside_blocks(content):
                         preset = f"{match_l1.group(1)}Example"
                         figure = match_l2.group(1).strip()
                         show = True
+                        i += 3
+                    elif (
+                        i + 3 < len(lines)
+                        and (match_l1 := re.match(r"^\s*:::\s*(good|bad|ok)\s*$", lines[i + 1]))
+                        and re.match(r"^\s*:::\s*$", lines[i + 3])
+                    ):
+                        caption_line = lines[i + 2].strip()
+                        if caption_line:
+                            preset = f"{match_l1.group(1)}Example"
+                            figure = caption_line
+                            show = True
                         i += 3
 
             # Remove the indentation from buffer content
@@ -645,6 +673,19 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = transform_email_blocks(content)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
+
+    def _replace_simple_figure_block_conditional(m):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
+            return m.group(0)
+        return replace_simple_figure_block(m)
+
+    content = re.sub(
+        SIMPLE_FIGURE_BLOCK_REGEX,
+        _replace_simple_figure_block_conditional,
+        content,
+        flags=re.MULTILINE | re.DOTALL
+    )
+
 
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
