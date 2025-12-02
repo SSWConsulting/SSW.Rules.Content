@@ -1,30 +1,39 @@
 ---
-type: rule
-title: Do you use an analytics framework to help manage exceptions?
-seoDescription: Use an analytics framework to gain control over your
-  application's performance, exceptions, and usage, allowing you to identify and
-  address issues effectively.
-uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
-authors:
-  - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Brook Jeynes
-    url: https://www.ssw.com.au/people/brook-jeynes
-related:
-  - do-you-know-how-to-set-up-application-insights
-  - do-you-know-why-you-want-to-use-application-insights
-redirects: []
-created: 2014-02-19T06:47:08.000Z
 archivedreason: null
+authors:
+- title: Igor Goldobin
+  url: https://ssw.com.au/people/igor-goldobin
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+categories:
+- category: categories/software-engineering/rules-for-error-handling.mdx
+created: 2014-02-19 07:28:19+00:00
+createdBy: IgorGoldobin
+createdByEmail: IgorGoldobin@ssw.com.au
 guid: d811d7fc-8188-4fd9-a56f-015a4e954b05
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+related:
+- rule: public/uploads/rules/how-to-set-up-application-insights/rule.mdx
+- rule: public/uploads/rules/why-you-want-to-use-application-insights/rule.mdx
+seoDescription: Use an analytics framework to gain control over your application's
+  performance, exceptions, and usage, allowing you to identify and address issues
+  effectively.
+title: Do you use an analytics framework to help manage exceptions?
+type: rule
+uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
 ---
+
 The ability to see the overall health (performance counters, exceptions, data usages, page hit counts etc.) of your application ensures you are well in control of it and have all the necessary information at your hands to action any bugs or performance issues. An analytics framework allows you to do all of that in a consistent and centralised manner.
 
-<!--endintro-->
+<endOfIntro />
 
 An analytics framework puts you in control of your application and allows you to do the following:
 
@@ -59,16 +68,51 @@ Key benefits include:
 * **Exception reporting** - Capture and track errors with full context and stack traces
 * **Event logging** - Track custom events throughout your application for detailed analytic
 
-![Figure: PostHog dashboard showing key metrics at a glance](posthog-dashboard.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"PostHog dashboard showing key metrics at a glance"}
+  src="/uploads/rules/do-you-use-an-analytics-framework-to-help-manage-exceptions/posthog-dashboard.png"
+/>
+
 
 PostHog excels at answering questions like "Which features are users actually using?" and "Where do users drop off in our workflow?" The session replay feature is particularly valuable for debugging user-reported issues, while exception reporting ensures you're notified immediately when errors occur
 
-![Figure: Session replay in PostHog helps you see exactly what the user experienced](posthog-recordings.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Session replay in PostHog helps you see exactly what the user experienced"}
+  src="/uploads/rules/do-you-use-an-analytics-framework-to-help-manage-exceptions/posthog-recordings.png"
+/>
+
 
 Event logging allows you to track any custom action in your application - from button clicks to API calls - giving you complete visibility into user behavior. Combined with user surveys, you can correlate what users do with what they think.
 
-![Figure: Track feature adoption and performance in real-time with custom events](posthog-activity-metrics.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Track feature adoption and performance in real-time with custom events"}
+  src="/uploads/rules/do-you-use-an-analytics-framework-to-help-manage-exceptions/posthog-activity-metrics.png"
+/>
+
 
 The combination of analytics, feature flags, and exception reporting means you can safely roll out changes, immediately see their impact on user behavior and application performance, and catch any issues before they affect your entire user base.
 
-![Figure: Exception reporting with full context helps you fix issues faster](posthog-error-tracking.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Exception reporting with full context helps you fix issues faster"}
+  src="/uploads/rules/do-you-use-an-analytics-framework-to-help-manage-exceptions/posthog-error-tracking.png"
+/>

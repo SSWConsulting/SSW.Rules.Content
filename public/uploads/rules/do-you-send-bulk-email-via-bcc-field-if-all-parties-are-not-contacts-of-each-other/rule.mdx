@@ -1,45 +1,58 @@
 ---
-seoDescription: Send bulk emails via Bcc field to ensure privacy and protect recipients' email addresses from being shared.
-type: rule
-archivedreason:
-title: Do you send bulk email via 'Bcc' field if all parties are not contacts of each other?
-guid: a06057b7-d957-4df3-8794-a38d2be30a45
-uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
-created: 2009-03-26T02:58:23.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2009-04-15 03:03:50+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+guid: a06057b7-d957-4df3-8794-a38d2be30a45
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-send-bulk-email-via-bcc-field-(if-all-parties-are-not-contacts-of-each-other)
+- do-you-send-bulk-email-via-bcc-field-(if-all-parties-are-not-contacts-of-each-other)
+seoDescription: Send bulk emails via Bcc field to ensure privacy and protect recipients'
+  email addresses from being shared.
+title: Do you send bulk email via 'Bcc' field if all parties are not contacts of each
+  other?
+type: rule
+uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
 ---
 
 To ensure privacy, and not allow parties to get hold of each others' email addresses, emails to multiple parties should be entered in the 'Bcc' field (not the 'To' field).
 
-<!--endintro-->
+<endOfIntro />
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com |
-| Cc: | |
-| Bcc: | |
-| Subject: | Thank you for coming to Sydney .NET User Group |  
-:::  
-::: bad
-Figure: Good Example - Send bulk email via 'To' field
-:::
+<emailEmbed
+  from=""
+  to="alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com"
+  cc=""
+  bcc=""
+  subject="Thank you for coming to Sydney .NET User Group"
+  shouldDisplayBody={false}
+  body={<>
+    
+  </>}
+  captionStyle="badExample"
+  captionText={"Good Example - Send bulk email via 'To' field"}
+/>
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | |
-| Cc: | |
-| Bcc: | alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com |
-| Subject: | Thank you for coming to Sydney .NET User Group |  
-:::  
-::: good
-Figure: Good Example - Send bulk email via 'Bcc' field
-:::
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc="alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com"
+  subject="Thank you for coming to Sydney .NET User Group"
+  shouldDisplayBody={false}
+  body={<>
+    
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good Example - Send bulk email via 'Bcc' field"}
+/>

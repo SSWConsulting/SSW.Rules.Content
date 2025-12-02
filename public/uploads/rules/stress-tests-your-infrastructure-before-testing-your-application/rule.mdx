@@ -1,29 +1,46 @@
 ---
-seoDescription: Ensure maximum infrastructure performance before testing your application to avoid common issues caused by misconfiguration or resource contention.
-type: rule
-archivedreason:
-title: Do you stress tests your infrastructure before testing your application?
-guid: df761ab7-4a69-48a9-a4b7-d04d6b07636a
-uri: stress-tests-your-infrastructure-before-testing-your-application
-created: 2016-04-28T18:22:45.0000000Z
+archivedreason: null
 authors:
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2016-04-28 18:22:45+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: df761ab7-4a69-48a9-a4b7-d04d6b07636a
+isArchived: false
+lastUpdated: 2019-08-29 18:12:18+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-stress-tests-your-infrastructure-before-testing-your-application
+- do-you-stress-tests-your-infrastructure-before-testing-your-application
+seoDescription: Ensure maximum infrastructure performance before testing your application
+  to avoid common issues caused by misconfiguration or resource contention.
+title: Do you stress tests your infrastructure before testing your application?
+type: rule
+uri: stress-tests-your-infrastructure-before-testing-your-application
 ---
 
 The infrastructure that your application is deployed to is often never tested but can be the culprit for performance issues due to misconfiguration or virtual machine resource contention. We recommend setting up a simply load test on the infrastructure like setting up a web server that serves 1 image and having the load tests simply fetch that image.
 
 This simple test will highlight:
 
-<!--endintro-->
+<endOfIntro />
 
 - Maximum performance you can expect (are your goals realistic for the infrastructure)
 - Identify any network related issues
 - Uplink bandwidth, DDOS protection, firewall issues
 
-![Figure: Work out the maximum performance of the infrastructure before starting](infratests.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Work out the maximum performance of the infrastructure before starting"}
+  src="/uploads/rules/stress-tests-your-infrastructure-before-testing-your-application/infratests.jpg"
+/>
+
 
 **Note:** if you have other servers in the mix, then you can make another simple test to pull records from the database to check the DB server as well.

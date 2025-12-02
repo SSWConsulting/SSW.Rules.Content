@@ -1,21 +1,31 @@
 ---
-seoDescription: Discover why measuring Core Web Vitals is crucial for enhancing page performance and boosting your site's SEO rankings.
-type: rule
-title: Technical - Do you know the importance of measuring Core Web Vitals?
-uri: core-web-vitals
-authors:
-  - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
-related: 
-  - website-page-speed
-created: 2024-03-19T21:39:38.906Z
 archivedreason: null
+authors:
+- title: Harry Ross
+  url: https://ssw.com.au/people/harry-ross
+categories:
+- category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
+- category: categories/software-engineering/rules-to-better-nextjs.mdx
+created: 2024-03-26 21:51:49+00:00
+createdBy: Harry Ross [SSW]
+createdByEmail: harryross@ssw.com.au
 guid: a6e3dbae-27d8-4986-97da-003bc40ae963
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/website-page-speed/rule.mdx
+seoDescription: Discover why measuring Core Web Vitals is crucial for enhancing page
+  performance and boosting your site's SEO rankings.
+title: Technical - Do you know the importance of measuring Core Web Vitals?
+type: rule
+uri: core-web-vitals
 ---
 
 Core Web Vitals are super important metrics to measure how good your page's performance is. It's also incredibly important to how Google ranks page results.
 
-<!--endintro-->
+<endOfIntro />
 
 The most important Core Web Vitals at time of writing is [Largest Contentful Paint (LCP)](https://web.dev/lcp/), [Interaction To Next Paint (INP)](https://web.dev/inp) and [Cumulative Layout Shift (CLS)](https://web.dev/cls/).
 
@@ -37,7 +47,7 @@ CLS measures how much elements have shifted on the page from the first load. For
 
 ### Framework-Agnostic (web-vitals)
 
-To capture these metrics in most frontend environments, you would use the `web-vitals` npm package.  
+To capture these metrics in most frontend environments, you would use the `web-vitals` npm package.
 
 ```js
 import { onCLS, onFID, onLCP } from 'web-vitals';
@@ -66,7 +76,7 @@ function App {
       case "LCP":
       case "Next.js-hydration":
       case "Next.js-render":
-        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc. 
+        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc.
         break;
     }
   });
@@ -91,11 +101,16 @@ To track this data on App Insights you can use `trackMetric`:
 
 ```ts
 applicationInsights.trackMetric(
-  { name: "CLS", average: metric.value }, 
+  { name: "CLS", average: metric.value },
   { page: currentPagePath }
 );
 ```
 
-::: good
-![Figure: Good example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website](web-vitals-workbook.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website"}
+  src="/uploads/rules/core-web-vitals/web-vitals-workbook.png"
+/>

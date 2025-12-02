@@ -1,32 +1,58 @@
 ---
-seoDescription: Learn to rebase not merge and eliminate messy commits for a cleaner project history.
-type: rule
-archivedreason:
-title: Do you know to Rebase not Merge?
-guid: ed100451-91c0-4c38-8db8-b12d6b57b780
-uri: rebase-not-merge
-created: 2016-02-15T19:58:36.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/project-delivery/rules-to-better-version-control-with-git.mdx
+created: 2016-02-15 19:58:36+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: ed100451-91c0-4c38-8db8-b12d6b57b780
+isArchived: false
+lastUpdated: 2016-02-15 20:39:29+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-know-to-rebase-not-merge
+- do-you-know-to-rebase-not-merge
+seoDescription: Learn to rebase not merge and eliminate messy commits for a cleaner
+  project history.
+title: Do you know to Rebase not Merge?
+type: rule
+uri: rebase-not-merge
 ---
 
 When you merge a branch you end up with messy merge commits.
 
 Rebasing might take a bit to get your head around, but you get a much cleaner project history.
 
-<!--endintro-->
+<endOfIntro />
 
 - it eliminates the unnecessary merge commits required by git merge
 - rebasing also results in a perfectly linear project history - you can follow the tip of feature all the way to the beginning of the project without any forks.
 
 This makes it easier to navigate your project with commands like git log, git bisect, and gitk.
 
-![Figure: When merging: a messy merge commit is created any time you need to incorporate upstream changes from the master branch](rebase1.png)
 
-![Figure: Git Rebase moves your new commits to the end of the master branch. This ensure that you don't end up with messy merge commits and you have a clean linear project history](rebase2.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"When merging: a messy merge commit is created any time you need to incorporate upstream changes from the master branch"}
+  src="/uploads/rules/rebase-not-merge/rebase1.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Git Rebase moves your new commits to the end of the master branch. This ensure that you don't end up with messy merge commits and you have a clean linear project history"}
+  src="/uploads/rules/rebase-not-merge/rebase2.png"
+/>
+
 
 **Warning:** If you don’t follow [the Golden Rule of Rebasing](/the-golden-rule-of-rebasing), you could end up in a world of pain.

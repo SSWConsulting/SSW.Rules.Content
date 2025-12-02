@@ -1,23 +1,31 @@
 ---
-seoDescription: Easy NuGet package management simplifies third-party library installation and upgrading in Visual Studio projects.
-type: rule
-archivedreason:
-title: Do you use NuGet?
-guid: 1afcf9bd-d729-490e-8553-1c890ac88557
-uri: do-you-use-nuget
-created: 2012-07-23T14:35:54.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-mvc.mdx
+created: 2012-07-23 14:51:58+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1afcf9bd-d729-490e-8553-1c890ac88557
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Easy NuGet package management simplifies third-party library installation
+  and upgrading in Visual Studio projects.
+title: Do you use NuGet?
+type: rule
+uri: do-you-use-nuget
 ---
 
 NuGet allows you to search for, install, upgrade, configure and remove 3rd party libraries from Visual Studio projects in a consistent and easy to use manner.
 
-<!--endintro-->
+<endOfIntro />
 
 NuGet makes it easy to manage 3rd party libraries in your projects by keeping track of the library and the files needed to make it work with the concept of a package.
 
@@ -25,10 +33,37 @@ The package contains all the information needed for the 3rd party library to wor
 
 The concept of a package makes it very easy to upgrade and remove the libraries in the future with a single click.
 
-![Figure: Do you download a package, save it locally and then add it to your project manually?](NuGet-bad-1.jpg)
 
-![Figure: Step 1 - Right click on your project in visual studio and select Manage NuGet Packages](NuGet-good-1.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Do you download a package, save it locally and then add it to your project manually?"}
+  src="/uploads/rules/do-you-use-nuget/NuGet-bad-1.jpg"
+/>
 
-![Figure: Step 2 - Find the package you want and click install](NuGet-good-2.jpg)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Step 1 - Right click on your project in visual studio and select Manage NuGet Packages"}
+  src="/uploads/rules/do-you-use-nuget/NuGet-good-1.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Step 2 - Find the package you want and click install"}
+  src="/uploads/rules/do-you-use-nuget/NuGet-good-2.jpg"
+/>
+
 
 Now all you need to do when you want to remove or upgrade the package is go back to the NuGet package manager.

@@ -1,39 +1,72 @@
 ---
-seoDescription: Use a package manager like Chocolatey, Winget, or Homebrew to streamline software installation and management on Windows, macOS, and Linux.
-type: rule
-title: Do you use a package manager?
-uri: do-you-use-a-package-manager
-authors:
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-  - title: Daniel Mackay
-    url: https://github.com/danielmackay
-related: []
-redirects: []
-created: 2016-06-17T06:29:18.000Z
 archivedreason: null
+authors:
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+- title: Daniel Mackay
+  url: https://github.com/danielmackay
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-pcs.mdx
+created: 2016-06-17 06:29:19+00:00
+createdBy: StanleySidik
+createdByEmail: StanleySidik@ssw.com.au
 guid: 761d75b9-55e6-48bc-bc80-2e02149508a0
+isArchived: false
+lastUpdated: 2025-09-18 12:04:17+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects: []
+seoDescription: Use a package manager like Chocolatey, Winget, or Homebrew to streamline
+  software installation and management on Windows, macOS, and Linux.
+title: Do you use a package manager?
+type: rule
+uri: do-you-use-a-package-manager
 ---
 
 A package manager is a collection of software tools that automate the process of installing, upgrading, configuring, and uninstalling computer programs in a consistent manner.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Option 1: Chocolatey (Recommended)
 
 Chocolatey is a great package manager. It is an easy-to-use way to manage software on Windows.
 
-![Figure: installing Git with Chocolatey](chocolatey.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"installing Git with Chocolatey"}
+  src="/uploads/rules/do-you-use-a-package-manager/chocolatey.png"
+/>
+
 
 To get started, open PowerShell and [follow the instructions on the Chocolatey website](https://chocolatey.org/install#individual).
 
-::: info
 
+<boxEmbed
+  style="info"
+  body={<>
+    
 It is better to run Chocolatey in PowerShell - it may work in Command Prompt, but you're likely to have permission issues.
 
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
 
-![Figure: Chocolatey installation page](choco-install.jpg)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Chocolatey installation page"}
+  src="/uploads/rules/do-you-use-a-package-manager/choco-install.jpg"
+/>
+
 
 ## Option 2: Winget
 
@@ -44,23 +77,40 @@ Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/
 Once installed you can search for a tool with:
 
 ```bash
-winget search {{ APP NAME }}
+winget search &#123;&#123; APP NAME &#125;&#125;
 ```
 
 And then install the tool with:
 
 ```bash
-winget install {{ APP NAME }}
+winget install &#123;&#123; APP NAME &#125;&#125;
 ```
 
 For example:
 
-![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Installing powertoys via winget"}
+  src="https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png?WT.mc_id=WDIT-MVP-33518"
+/>
+
 
 For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/?WT.mc_id=WDIT-MVP-33518).
 
 ## Option 3: Homebrew
 
-[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: <https://brew.sh/>
+[Homebrew](https://brew.sh/) is the preferred option when on a Mac. Head to their website for installation instructions: [https://brew.sh/](https://brew.sh/)
 
-![Figure: Homebrew installed](homebrew.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Homebrew installed"}
+  src="/uploads/rules/do-you-use-a-package-manager/homebrew.png"
+/>

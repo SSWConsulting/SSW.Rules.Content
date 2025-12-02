@@ -1,24 +1,34 @@
 ---
-seoDescription: Follow naming conventions for tests and test projects to ensure clarity, consistency, and readability.
-type: rule
-title: Do you follow naming conventions for tests and test projects?
-uri: follow-naming-conventions-for-tests-and-test-projects
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
-related:
-  - how-to-structure-a-unit-test
-redirects:
-  - do-you-follow-naming-conventions-for-tests-and-test-projects
-created: 2020-03-24T00:04:10.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
+categories:
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-24 00:04:12+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 1aea50c6-b2cc-4e1e-a483-34b4776e0e1e
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-follow-naming-conventions-for-tests-and-test-projects
+related:
+- rule: public/uploads/rules/how-to-structure-a-unit-test/rule.mdx
+seoDescription: Follow naming conventions for tests and test projects to ensure clarity,
+  consistency, and readability.
+title: Do you follow naming conventions for tests and test projects?
+type: rule
+uri: follow-naming-conventions-for-tests-and-test-projects
 ---
 
 ### Test Projects
@@ -33,7 +43,7 @@ Integration and unit tests should be kept separate and should be named to clearl
 This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
 Integration tests require dependencies and often won't run as part of your build process. These should be automated later in the DevOps pipeline.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Test Project Location
 
@@ -42,7 +52,16 @@ Test projects can be located either:
 * Directly next to the project under test – which makes them easy to find, or
 * In a separate "tests" location – which makes it easier to deploy the application without tests included
 
-![Figure: In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project](clean-architecture-naming-2.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project"}
+  src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/clean-architecture-naming-2.png"
+/>
+
 
 Source: [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
 
@@ -60,9 +79,15 @@ Remember that descriptive names are useful – but the choice of name is not the
 * Remember that the F12 shortcut will navigate from the body of your test straight to the method you’re calling
 * The point of a naming convention is to make code more readable, not less - so use your judgement and call in others to verify your readability
 
-::: bad
-![Figure: Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name](bad-naming.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name"}
+  src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/bad-naming.png"
+/>
+
 
 ## Option 1: \[Method/Class]\_\[Condition]\_[ExpectedResult] (Recommended)
 
@@ -85,10 +110,7 @@ Withdraw_WithInvalidAccount_ThrowsException
 Checkout_WithCountryAsAustralia_ShouldAdd10PercentTax
 Purchase_WithBalanceWithinCreditLimit_ShouldSucceed
 ```
-
-::: good
-Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do
-:::
+**✅ Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do**  
 
 ## Option 2: \[Given]\_\[When]\_\[Then]
 

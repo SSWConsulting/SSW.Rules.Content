@@ -2,6 +2,8 @@
 seoDescription: Clarify complex concepts with ChatGPT by requesting examples or analogies that provide relatable and accessible explanations.
 type: rule
 title: Do you ask for examples or analogies to clarify complex concepts?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 uri: examples-and-analogies-clarification
 authors:
   - title: Ulysses Maclaren
@@ -9,13 +11,19 @@ authors:
   - url: https://www.ssw.com.au/people/jernej-kavka
     title: Jernej Kavka (JK)
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-created: 2023-05-04T00:21:24.999Z
+created: 2023-05-04T01:05:26.000Z
 guid: 58e2b930-9379-4d43-82e6-755b12b1632c
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 When seeking explanations for complex concepts with ChatGPT, it can be helpful to request examples or analogies. These can make difficult ideas more relatable and easier to understand, providing you with a clearer grasp of the subject matter.
 
-<!--endintro-->
+<endOfIntro />
 
 Here are some tips for asking for examples or analogies:
 
@@ -23,32 +31,47 @@ Here are some tips for asking for examples or analogies:
 - Specify the complex concept or topic you want to better understand
 - Encourage the model to use relatable, everyday scenarios or familiar comparisons when providing examples or analogies
 
-::: greybox
-“Explain neural networks.”
-:::
-::: bad
-Figure: Bad example - The prompt is vague and does not request an example or analogy to clarify the complex concept
-:::
 
-::: greybox
-“Explain the concept of neural networks using an analogy related to the human brain.”
+<boxEmbed
+  style="greybox"
+  body={<>
+    “Explain neural networks.”
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - The prompt is vague and does not request an example or analogy to clarify the complex concept"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    “Explain the concept of neural networks using an analogy related to the human brain.”
 
 “Provide an analogy to explain the concept of machine learning?”
 
 “Give me an example of a real-life application of blockchain technology.”
 
 “Provide an example of how the butterfly effect can be observed in real-life situations.”
-:::
-::: good
-Figure: Good examples - Asking for an example or analogy to illustrate a complex concept
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good examples - Asking for an example or analogy to illustrate a complex concept"}
+/>
 
-::: greybox
 
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 **Note:** If you don't know good criteria to compare by, ask ChatGPT:
 
 e.g. "What would defining criteria be when deciding between owning a cat or a dog? Make me a list where each point is up to 3 words."
 
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 By asking for examples or analogies, you can receive more relatable and accessible explanations for complex concepts, allowing you to better understand and engage with the subject matter.

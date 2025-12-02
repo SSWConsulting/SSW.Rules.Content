@@ -1,22 +1,32 @@
 ---
-type: rule
-title: Do you compare PR performance with Production before merging?
-seoDescription: Ensure that PR performance is compared with production to maintain web quality and prevent performance issues
-guid: 81eaceb6-a576-4f80-abb6-9682a2d7e6db
-uri: compare-pr-performance-with-production
-created: 2025-03-25T00:00:00.000Z
 authors:
-  - title: Baba Kamyljanov
-    url: https://www.ssw.com.au/people/baba-kamyljanov
-  - title: Aman Kumar
-    url: https://www.ssw.com.au/people/aman-kumar
+- title: Baba Kamyljanov
+  url: https://www.ssw.com.au/people/baba-kamyljanov
+- title: Aman Kumar
+  url: https://www.ssw.com.au/people/aman-kumar
+categories:
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2025-03-28 05:58:58+00:00
+createdBy: Baba Kamyljanov [SSW]
+createdByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
+guid: 81eaceb6-a576-4f80-abb6-9682a2d7e6db
+isArchived: false
+lastUpdated: 2025-03-28 05:58:58+00:00
+lastUpdatedBy: Baba Kamyljanov [SSW]
+lastUpdatedByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
 related:
-  - optimize-bundle-size
+- rule: public/uploads/rules/optimize-bundle-size/rule.mdx
+seoDescription: Ensure that PR performance is compared with production to maintain
+  web quality and prevent performance issues
+title: Do you compare PR performance with Production before merging?
+type: rule
+uri: compare-pr-performance-with-production
 ---
 
 Before merging any Pull Request (PR) that might affect your application's behavior or performance, you should run comparison tests between the production environment and the PR deployment slot to identify potential issues.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why compare PR performance with Production?
 
@@ -38,8 +48,14 @@ One of the best ways to measure performance is by using **Lighthouse**, a widely
 
 You can integrate Lighthouse into your GitHub Actions workflow using [Lighthouse CI Action](https://github.com/treosh/lighthouse-ci-action). This enables automated comparison of the PR deployment with the current Production site. A summary comment can be added to the PR, showing key performance differences.
 
-::: good  
-![Figure: Lighthouse comparison summary is added to PR comments](pr-comparison-with-prod.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Lighthouse comparison summary is added to PR comments"}
+  src="/uploads/rules/compare-pr-performance-with-production/pr-comparison-with-prod.png"
+/>
+
 
 By following this approach, teams can ensure that new code changes do not negatively impact performance. The comparison table allows developers to quickly identify performance drops and take action before merging, leading to a more consistent and reliable user experience.

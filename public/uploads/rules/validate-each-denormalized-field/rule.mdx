@@ -1,19 +1,28 @@
 ---
-seoDescription: Validate each denormalized field to ensure reliable data integrity and prevent incorrect updates.
-type: rule
-title: Do you validate each "Denormalized Field"?
-uri: validate-each-denormalized-field
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-validate-each-denormalized-field-with-procvalidate
-  - schema-do-you-validate-each-denormalized-field-with-procvalidate
-  - validate-each-denormalized-field-with-procvalidate
-created: 2009-10-06T01:11:30.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
+created: 2022-05-05 13:33:36+00:00
+createdBy: Jack Pettit [SSW]
+createdByEmail: 57518417+JackDevAU@users.noreply.github.com
 guid: f9056515-7c6c-4886-babd-a2af281c3a74
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+redirects:
+- do-you-validate-each-denormalized-field-with-procvalidate
+- schema-do-you-validate-each-denormalized-field-with-procvalidate
+- validate-each-denormalized-field-with-procvalidate
+seoDescription: Validate each denormalized field to ensure reliable data integrity
+  and prevent incorrect updates.
+title: Do you validate each "Denormalized Field"?
+type: rule
+uri: validate-each-denormalized-field
 ---
 
 Ideally you should be using computed columns as per [Schema - Do you use computed columns rather than denormalized fields?](/use-computed-columns-rather-than-denormalized-fields)
@@ -22,11 +31,8 @@ Many of the databases that SSW works with make use of denormalized fields. We be
 
 With this example in mind, the main reasons we use denormalized fields are:
 
-<!--endintro-->
-
-::: good
-Reducing development complexity
-:::
+<endOfIntro />
+**✅ Reducing development complexity**  
 
 A denormalized field can mean that all SELECT queries in the database are simpler. Power users find it easier to use for reporting purposes - without the need for a cube. In our example, we would not need a large view to retrieve the data (as below).
 
@@ -68,39 +74,30 @@ ORDER BY Customer.CustomerID
 
 **Figure: Queries are much simpler with denormalized fields**
 
-::: greybox
-**Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
-:::
 
-::: good
-Performance is better for read-intensive reports
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+**✅ Performance is better for read-intensive reports**  
 
 Particularly when reporting on data with a cube.
-
-::: good
-When there a multiple tables in a SQL Server view
-:::
+**✅ When there a multiple tables in a SQL Server view**  
 
 They cannot be updated in one hit - they must be updated one table at a time.
-
-::: good
-It is a built-in validation device
-:::
+**✅ It is a built-in validation device**  
 
 For example, if records are accidentally deleted directly in the database, there is still a validation check for the correct totals. The value of this is mitigated when there is a full audit log on the database
 
 However, there are reasons against using denormalized fields:
-
-::: bad
-They have to be maintained and can potentially get out of synch
-:::
+**❌ They have to be maintained and can potentially get out of synch**  
 
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
-
-::: bad
-They can be seen as an unnecessary waste of space
-:::
+**❌ They can be seen as an unnecessary waste of space**  
 
 All in all, we choose to still use denormalized fields because they can save development time. We do this with some provisos. In particular, they must be validated correctly to ensure the integrity of the data.
 

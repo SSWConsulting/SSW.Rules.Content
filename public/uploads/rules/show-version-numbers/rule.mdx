@@ -1,33 +1,48 @@
 ---
-seoDescription: Ensure clarity and easy updates by adding version numbers to your documents and design files.
-type: rule
-archivedreason: 
-title: Do you have version numbers in documents and design files?
-guid: 121f7d57-3ad5-4291-a7dc-95badbe2711b
-uri: show-version-numbers
-created: 2016-03-22T05:59:17.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related:
-- make-numbers-more-readable
-- awesome-documentation
-- how-to-name-documents
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/design/rules-to-better-designers.mdx
+created: 2023-05-15 01:14:27+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 121f7d57-3ad5-4291-a7dc-95badbe2711b
+isArchived: false
+lastUpdated: 2024-01-03 14:46:49+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-include-version-numbers-in-your-file
 - include-version-numbers-in-your-file
-
+related:
+- rule: public/uploads/rules/make-numbers-more-readable/rule.mdx
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+- rule: public/uploads/rules/how-to-name-documents/rule.mdx
+seoDescription: Ensure clarity and easy updates by adding version numbers to your
+  documents and design files.
+title: Do you have version numbers in documents and design files?
+type: rule
+uri: show-version-numbers
 ---
 
 It is very important to have your Word, PowerPoint, PDFs, and design documents up-to-date. You should also make it easy for anyone to identify which version they are looking at. The most effective way to achieve this is by **placing the version number on the right-hand side of the footer**.
 
-<!--endintro-->
+<endOfIntro />
 
-::: good
-![Figure: Good example - Version number on the RHS of a design document](scrum-image-version-number.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Version number on the RHS of a design document"}
+  src="/uploads/rules/show-version-numbers/scrum-image-version-number.png"
+/>
+
 
 See [how you increase the version number](/semantic-versioning):
 
@@ -39,24 +54,38 @@ See [how you increase the version number](/semantic-versioning):
 
 For internal use, it is also good practice to include the major version number in the name of the files. This helps navigating through the old and the new versions, and makes it easy to roll back any changes and use an older version. For public files you should **not** include version numbers.
 
-::: info
-**Warning:** This should only be changed on **major versions** and only on **internal documents**.
-:::
 
-::: greybox
-codeauditor\file.pdf
+<boxEmbed
+  style="info"
+  body={<>
+    **Warning:** This should only be changed on **major versions** and only on **internal documents**.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    codeauditor\file.pdf
 codeauditor\new\file.pdf
 codeauditor\file_latest.pdf
-:::
-::: bad
-Figure: Bad example - Internal file names do not show any version information
-:::
+  </>}
+  captionStyle="badExample"
+  captionText={"Bad example - Internal file names do not show any version information"}
+/>
 
-::: greybox
-codeauditor\file_v1.pdf
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    codeauditor\file_v1.pdf
 codeauditor\file_v2.pdf
 codeauditor\file_v3.pdf
-:::
-::: good
-Figure: Good example - Internal file names show the version information  
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Internal file names show the version information"}
+/>

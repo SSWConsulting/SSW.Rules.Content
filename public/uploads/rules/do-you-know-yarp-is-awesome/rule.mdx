@@ -2,6 +2,8 @@
 seoDescription: Yet Another Reverse Proxy (YARP) is a .NET toolkit for building fast and customizable proxy servers that seamlessly integrate with ASP.NET infrastructure.
 type: rule
 title: Do you know why YARP is awesome?
+categories:
+  - category: categories/software-engineering/rules-to-better-yarp.mdx
 uri: do-you-know-yarp-is-awesome
 authors:
   - title: Ozair Ashfaque
@@ -10,17 +12,32 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg/
   - title: Christian Morford-Waite
     url: https://www.ssw.com.au/people/christian-morford-waite/
-created: 2023-11-22T22:33:15.448Z
+created: 2024-05-11T08:32:28.000Z
 guid: c86ca5a3-a44a-441f-8804-8b67d0b589bc
+lastUpdated: 2025-07-31T00:46:18.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Chloe Lin [SSW]
+createdByEmail: chloelin@ssw.com.au
+isArchived: false
 ---
 
 YARP, or Yet Another Reverse Proxy, is a .NET toolkit designed for building fast proxy servers. It seamlessly integrates with ASP.NET and .NET infrastructure, offering easy customization to suit specific deployment needs. YARP operates within the ASP.NET pipeline, handling incoming requests and utilizing its sub-pipeline for proxying requests to backend servers. Users can extend functionality by adding or replacing modules as required.
 
 YARP uses the concept of **Routes** to represent request patterns for the proxy and **Clusters** to represent the services to forward those requests.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: YARP is a reverse proxy that acts as the public endpoint for a site or service and forwards calls to backend servers](reverse-proxy.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"YARP is a reverse proxy that acts as the public endpoint for a site or service and forwards calls to backend servers"}
+  src="/uploads/rules/do-you-know-yarp-is-awesome/reverse-proxy.png"
+/>
+
 
 **Source:** [Announcing YARP 1.0 Release](https://devblogs.microsoft.com/dotnet/announcing-yarp-1-0-release/?WT.mc_id=DT-MVP-33518)
 

@@ -1,17 +1,25 @@
 ---
-seoDescription: SharePoint 2010 developers use field and list item validation to ensure data accuracy, preventing incorrect information from being added or updated.
-type: rule
-title: Do you use field and list item validation (in 2010)
-uri: do-you-use-field-and-list-item-validation-in-2010
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-use-field-and-list-item-validation-(in-2010)
-created: 2009-12-10T02:23:00.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2009-12-10 03:46:49+00:00
+createdBy: BriteCheng
+createdByEmail: BriteCheng@ssw.com.au
 guid: 3d380832-e28b-46a4-bcb2-4d0b92fb866d
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- do-you-use-field-and-list-item-validation-(in-2010)
+seoDescription: SharePoint 2010 developers use field and list item validation to ensure
+  data accuracy, preventing incorrect information from being added or updated.
+title: Do you use field and list item validation (in 2010)
+type: rule
+uri: do-you-use-field-and-list-item-validation-in-2010
 ---
 
 ```csharp
@@ -36,8 +44,13 @@ class CreateShoppingListHandler : SPItemEventReceiver
 
 **Bad example: using custom code – creating a custom event receiver on the item (the item adding event or item updating event)**
 
-<!--endintro-->
+<endOfIntro />
 
-::: good
-![Good example: using no code – just using the field validation on a list. A demo of this from Andrew Connell on http://channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/](ListValidation.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example: using no code – just using the field validation on a list. A demo of this from Andrew Connell on http://channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/"}
+  src="/uploads/rules/do-you-use-field-and-list-item-validation-in-2010/ListValidation.jpg"
+/>

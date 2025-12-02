@@ -1,30 +1,60 @@
 ---
-seoDescription: Set row select mode to "FullRowSelect" for read-only DataGridViews to allow users to select entire rows instead of individual columns.
-type: rule
-archivedreason:
-title: Controls - Do you set row select mode as "FullRowSelect" for DataGridView if it is read only? (Windows Forms Only)
-guid: db148de9-b2ae-4cb0-a080-d167608ba90c
-uri: controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
-created: 2012-11-27T09:17:59.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/design/rules-to-better-interfaces-winforms-controls.mdx
+created: 2012-11-27 09:18:42+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: db148de9-b2ae-4cb0-a080-d167608ba90c
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
-  - controls-do-you-set-row-select-mode-as-＂fullrowselect＂-for-datagridview-if-it-is-read-only-(windows-forms-only)
-  - controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-(windows-forms-only)
+- controls-do-you-set-row-select-mode-as-＂fullrowselect＂-for-datagridview-if-it-is-read-only-(windows-forms-only)
+- controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-(windows-forms-only)
+seoDescription: Set row select mode to "FullRowSelect" for read-only DataGridViews
+  to allow users to select entire rows instead of individual columns.
+title: Controls - Do you set row select mode as "FullRowSelect" for DataGridView if
+  it is read only? (Windows Forms Only)
+type: rule
+uri: controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
 ---
 
 If you use the DataGridView control which is read only, you had better set row select mode as "FullRowSelect". If the data cannot be modified we can let users select the whole row instead of one column.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad Example - Row select mode is not "FullRowSelect".](/NoneFullRowSelect.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad Example - Row select mode is not \"FullRowSelect\"."}
+  src="/uploads/rules/controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only/NoneFullRowSelect.gif"
+/>
 
-::: good  
-![Figure: Good Example - Row select mode is "FullRowSelect".](/FullRowSelect.gif)  
-:::
 
-![Figure: Changed row select mode to FullRowSelect.](/setselectmodefull.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good Example - Row select mode is \"FullRowSelect\"."}
+  src="/uploads/rules/controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only/FullRowSelect.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Changed row select mode to FullRowSelect."}
+  src="/uploads/rules/controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only/setselectmodefull.gif"
+/>
+
 
 What's the next step? It's even better if you enable multiple row selection and copying, see [Do your List Views support multiple selection and copying](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ListView) on [Rules to Better Windows Forms Applications](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx).

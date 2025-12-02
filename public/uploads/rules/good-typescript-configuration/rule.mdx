@@ -1,28 +1,45 @@
 ---
-seoDescription: TypeScript configuration for developers seeking type-safety and IDE refactoring support, while minimizing compile time and reported errors.
-type: rule
-archivedreason:
-title: Do you have good TypeScript configuration?
-guid: 50191d0e-0e68-49ce-b324-53ee11aad6f7
-uri: good-typescript-configuration
-created: 2016-03-30T19:14:50.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-typescript.mdx
+created: 2016-03-30 19:14:50+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 50191d0e-0e68-49ce-b324-53ee11aad6f7
+isArchived: false
+lastUpdated: 2025-10-01 06:48:29+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-have-good-typescript-configuration
+- do-you-have-good-typescript-configuration
+seoDescription: TypeScript configuration for developers seeking type-safety and IDE
+  refactoring support, while minimizing compile time and reported errors.
+title: Do you have good TypeScript configuration?
+type: rule
+uri: good-typescript-configuration
 ---
 
 TypeScript is a powerful language that transpiles to JavaScript, and provides much desired type-safety and IDE refactoring support. But without good configuration, a lot of the benefits can be lost.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Use tsconfig.json
 
 Putting a “tsconfig.json” file in your project tells the typescript compiler where the root of your project is, and provides a centralized place to configure the compiler. This config is read by IDEs and the compiler and can be utilised by the build scripts to ensure configuration is consistent.
 
-![Figure: A tsconfig.json file with great configuration](goodtypescriptconfig1.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"A tsconfig.json file with great configuration"}
+  src="/uploads/rules/good-typescript-configuration/goodtypescriptconfig1.png"
+/>
+
 
 ## Disable implicit “any”
 
@@ -41,4 +58,12 @@ TypeScript should compile in-place, and a single file input should produce a sin
 Files generated from typescript get in the way – you don’t want to scroll through .d.ts, .js and .js.map files all the time. So hide them in the IDE.
 In VSCode this can be done via the “files.exclude” key in the settings.json file. For a shared experience across the team, check this file into source control.
 
-![Figure: VSCode settings.json file that hides generated files](goodtypescriptconfig2.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"VSCode settings.json file that hides generated files"}
+  src="/uploads/rules/good-typescript-configuration/goodtypescriptconfig2.png"
+/>

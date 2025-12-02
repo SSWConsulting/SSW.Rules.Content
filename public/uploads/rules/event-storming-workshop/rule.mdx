@@ -1,22 +1,29 @@
 ---
-type: rule
-title: Do you know how to run an Event Storming workshop?
-uri: event-storming-workshop
 authors:
-  - title: William Liebenberg
-    url: https://www.ssw.com.au/people/william-liebenberg
-related:
-  - event-storming
-created: 2022-08-03T05:42:33.397Z
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/client-engagement/rules-to-better-specification-reviews.mdx
+created: 2022-08-21 10:28:19+00:00
+createdBy: William Liebenberg
+createdByEmail: awliebenberg@outlook.com
 guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
-
+isArchived: false
+lastUpdated: 2024-07-30 23:21:28+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/event-storming/rule.mdx
+title: Do you know how to run an Event Storming workshop?
+type: rule
+uri: event-storming-workshop
 ---
 
 [Event storming](/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process.
 
 Every workshop has an Event Storming Master (aka Facilitator or Moderator) to guide participants through the workshop.
 
-<!--endintro-->
+<endOfIntro />
 
 ## What are the responsibilities of the Event Storming Master?
 
@@ -53,7 +60,7 @@ During a workshop, the Event Storming Master is responsible for helping particip
 * Ask the right questions when getting stuck
 * Timeboxing the discovery steps
 
-## Preparation - In person workshop  
+## Preparation - In person workshop
 
 * Different colored sticky notes
 * Marker pens
@@ -154,10 +161,17 @@ Always spoken in terms of '**When-X Then-Y**' or '**Whenever**'.
 
 For example:
 
-::: greybox
-* **When** a user logs > 8 hours work, **then** send a warning email and add to overtime
-* **Whenever** an invoice is updated with < 8 hours, **then** send a warning email
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    * **When** a user logs &gt; 8 hours work, **then** send a warning email and add to overtime
+* **Whenever** an invoice is updated with &lt; 8 hours, **then** send a warning email
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ### End Result
 

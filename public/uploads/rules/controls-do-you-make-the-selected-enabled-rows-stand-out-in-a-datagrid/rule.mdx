@@ -1,29 +1,49 @@
 ---
-seoDescription: Make selected rows stand out in a datagrid by subtly dimming unselected text.
-type: rule
-title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
-uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects: []
-created: 2012-11-27T09:19:10.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-interfaces-winforms-controls.mdx
+created: 2012-11-27 09:19:57+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
 guid: ed08f7dd-7266-4961-9042-1023def979e6
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects: []
+seoDescription: Make selected rows stand out in a datagrid by subtly dimming unselected
+  text.
+title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
+type: rule
+uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
 ---
 
 Many times you allow a multiple selection in a grid by using a checkbox. When you do this make it easy to see the distinction of a row that is selected and one that is not. Make it subtle by dimming the unselected text.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Selected rows are not separate from others](/interface-selected-rows-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Selected rows are not separate from others"}
+  src="/uploads/rules/controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid/interface-selected-rows-bad.jpg"
+/>
 
-::: good  
-![Figure: Good example - Selected rows are separate from others](/interface-selected-rows-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Selected rows are separate from others"}
+  src="/uploads/rules/controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid/interface-selected-rows-good.jpg"
+/>
+
 
 To make this effect in datagrid, you may need to edit the **cellcontentclick** event handler code. Example:
 

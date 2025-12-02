@@ -1,25 +1,43 @@
 ---
-seoDescription: Learn how to create custom reports in Microsoft Dynamics CRM using Filtered Views or Fetch XML. Discover the differences between these two query languages and when to use each for optimal results.
-type: rule
-archivedreason:
-title: Do you use Filtered Views or Fetch for CRM Custom Reports?
-guid: 1ae4c974-a66b-4578-8b2f-7e73ebf382c2
-uri: do-you-use-filtered-views-or-fetch-for-crm-custom-reports
-created: 2012-12-10T18:40:08.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Mehmet Ozdemir
+  url: https://ssw.com.au/people/mehmet-ozdemir
+categories:
+- category: categories/software-engineering/rules-to-better-crm-for-developers.mdx
+created: 2012-12-10 18:42:17+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1ae4c974-a66b-4578-8b2f-7e73ebf382c2
+isArchived: false
+lastUpdated: 2025-10-01 06:48:29+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Learn how to create custom reports in Microsoft Dynamics CRM using
+  Filtered Views or Fetch XML. Discover the differences between these two query languages
+  and when to use each for optimal results.
+title: Do you use Filtered Views or Fetch for CRM Custom Reports?
+type: rule
+uri: do-you-use-filtered-views-or-fetch-for-crm-custom-reports
 ---
 
 The built-in CRM report wizard is great for users to quickly and easily create reports in CRM.
 
-![Figure: The starting point](custom-reports-1.jpg)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"The starting point"}
+  src="/uploads/rules/do-you-use-filtered-views-or-fetch-for-crm-custom-reports/custom-reports-1.jpg"
+/>
+
+
+<endOfIntro />
 
 But when the user wants to create a report that needs additional totals, different formatting, summaries in the header etc. A custom report is required.
 
@@ -27,7 +45,16 @@ But when the user wants to create a report that needs additional totals, differe
 
 **Filtered Views** allows the report developer to query underlying SQL data directly. Filtered views are fully compliant with the Microsoft Dynamics CRM security model. When you run a report that obtains data from filtered views, the Microsoft Dynamics CRM security role determines what data you can view in the report.
 
-![Figure: Filtered Views in the CRM SQL Database](custom-reports-2.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Filtered Views in the CRM SQL Database"}
+  src="/uploads/rules/do-you-use-filtered-views-or-fetch-for-crm-custom-reports/custom-reports-2.jpg"
+/>
+
 
 **Fetch** is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
 
@@ -65,9 +92,27 @@ More advanced users will have a boilerplate(s) for the various CRM report styles
 
 Here's an example of a before (CRM Wizard) and after (Visual Studio) for an Activity Report:
 
-![Figure: Report created using CRM Wizard](custom-reports-3.jpg)
 
-![Figure: Report updated in Visual Studio](custom-reports-3.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Report created using CRM Wizard"}
+  src="/uploads/rules/do-you-use-filtered-views-or-fetch-for-crm-custom-reports/custom-reports-3.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Report updated in Visual Studio"}
+  src="/uploads/rules/do-you-use-filtered-views-or-fetch-for-crm-custom-reports/custom-reports-3.jpg"
+/>
+
 
 5 enhancements that required a custom report:
 

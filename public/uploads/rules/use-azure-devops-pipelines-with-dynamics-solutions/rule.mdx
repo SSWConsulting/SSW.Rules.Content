@@ -1,22 +1,30 @@
 ---
-seoDescription: Automate Dynamics solution management with Azure DevOps Pipelines, streamlining exports, deployments, and provisioning across environments.
-type: rule
-archivedreason:
-title: Do you use Azure DevOps Pipelines with your Dynamics solutions?
-guid: 3c8e8c89-81e3-4752-8a94-26ae330df83a
-uri: use-azure-devops-pipelines-with-dynamics-solutions
-created: 2021-02-19T18:15:27.0000000Z
+archivedreason: null
 authors:
-  - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+- title: Mehmet Ozdemir
+  url: https://ssw.com.au/people/mehmet-ozdemir
+categories:
+- category: categories/software-engineering/rules-to-better-crm-for-developers.mdx
+created: 2021-02-19 18:15:30+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 3c8e8c89-81e3-4752-8a94-26ae330df83a
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-use-azure-devops-pipelines-with-your-dynamics-solutions
+- do-you-use-azure-devops-pipelines-with-your-dynamics-solutions
+seoDescription: Automate Dynamics solution management with Azure DevOps Pipelines,
+  streamlining exports, deployments, and provisioning across environments.
+title: Do you use Azure DevOps Pipelines with your Dynamics solutions?
+type: rule
+uri: use-azure-devops-pipelines-with-dynamics-solutions
 ---
 
 Are you still managing your Dynamics solution changes manually? Manually exporting and importing solutions across environments? Manually exporting unmanaged solutions to commit to source control. If so, read on, because there is a better way!
 
-<!--endintro-->
+<endOfIntro />
 
 Dynamics (and model-driven Power Apps) use solution files to store and apply changes across environments. Using the [Power Platform Build Tools for Azure DevOps](https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools?WT.mc_id=DOP-MVP-33518) will let automate manual tasks like:
 
@@ -34,8 +42,34 @@ Check out the guide on [GitHub](https://github.com/microsoft/PowerApps-Samples/t
 3. Build the 'Build Pipeline' (Generate Build Artifact)
 4. Build the 'Release Pipeline' (Deploy to Production)
 
-![Figure: Sample Azure Pipeline to export solution and commit to source control](sample-azure-1.png)
 
-![Figure: Sample Azure Pipeline to create a managed solution from source](sample-azure-2.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Sample Azure Pipeline to export solution and commit to source control"}
+  src="/uploads/rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-1.png"
+/>
 
-![Figure: Sample Release Pipeline to deploy the managed solution to production](sample-azure-3.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Sample Azure Pipeline to create a managed solution from source"}
+  src="/uploads/rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-2.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Sample Release Pipeline to deploy the managed solution to production"}
+  src="/uploads/rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-3.png"
+/>

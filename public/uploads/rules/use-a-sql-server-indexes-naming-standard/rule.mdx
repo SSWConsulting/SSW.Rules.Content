@@ -1,26 +1,34 @@
 ---
-seoDescription: SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords - SQL Server, Indexes, Naming Standard
-type: rule
-archivedreason:
-title: General - Do you use a SQL Server Indexes Naming Standard?
-guid: 2448a989-ea55-4780-bfd8-aa8d0add8bde
-uri: use-a-sql-server-indexes-naming-standard
-created: 2019-12-31T04:47:26.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-12-31 04:47:26+00:00
+createdBy: ChristianMWaite
+createdByEmail: ChristianMWaite@ssw.com.au
+guid: 2448a989-ea55-4780-bfd8-aa8d0add8bde
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
-  - general-do-you-use-a-sql-server-indexes-naming-standard
+- general-do-you-use-a-sql-server-indexes-naming-standard
+seoDescription: SQL Server Indexes Naming Standard for Consistent and Organized Indexing
+  Primary keywords - SQL Server, Indexes, Naming Standard
+title: General - Do you use a SQL Server Indexes Naming Standard?
+type: rule
+uri: use-a-sql-server-indexes-naming-standard
 ---
 
 This standard outlines the procedure on naming Indexes at SSW for SQL Server. Use this standard when creating new Indexes or if you find an older Index that doesn't follow that standard.
 
-<!--endintro-->
+<endOfIntro />
 
 **Note:** There is not a lot of use naming Indexes - we only do it when we are printing out documentation or using the 'Index Tuning Wizard' - then it becomes really handy.
 
 Index names are to have this syntax:
 
-[pkc\_] [TableName] by [FieldName]  
+[pkc\_] [TableName] by [FieldName]
 [1] [2] [3]
 
 [1] All indexes must have a corresponding prefix.
@@ -42,16 +50,10 @@ Make unique index name if possible. Ie. ProductName
 Index 'BillingID'
 Primary Key 'aaaaaClient\_PK'
 ```
-
-::: bad
-Figure: Bad Example
-:::
+**❌ Figure: Bad Example**  
 
 ```sql
 'nc\_ClientDiary\_BillingID'
 'pknc\_ClientDiary\_ClientID'
 ```
-
-::: good
-Figure: Good Example
-:::
+**✅ Figure: Good Example**

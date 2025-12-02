@@ -1,17 +1,25 @@
 ---
-seoDescription: TypeScript infers types for you most of the time, except when initializing variables or function parameters.
-type: rule
-archivedreason:
-title: Do you describe types sparsely?
-guid: 8ee9d1a7-4f85-4548-83fa-13d702b45be4
-uri: describe-types-sparsely
-created: 2016-04-28T19:44:54.0000000Z
+archivedreason: null
 authors:
-  - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
-related: []
+- title: Steve Leigh
+  url: https://ssw.com.au/people/steve-leigh
+categories:
+- category: categories/software-engineering/rules-to-better-typescript.mdx
+created: 2016-04-28 19:44:54+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 8ee9d1a7-4f85-4548-83fa-13d702b45be4
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-describe-types-sparsely
+- do-you-describe-types-sparsely
+seoDescription: TypeScript infers types for you most of the time, except when initializing
+  variables or function parameters.
+title: Do you describe types sparsely?
+type: rule
+uri: describe-types-sparsely
 ---
 
 This comes down to personal preference, but there are only a few times when you must define a type in TypeScript, for example:
@@ -21,8 +29,16 @@ This comes down to personal preference, but there are only a few times when you 
 
 Of course, there are also times when you may want to be more explicit – you may want to have an interface as a function return value instead of the class, for example.
 
-<!--endintro-->
+<endOfIntro />
 
 The rest of the time, rely on TypeScript to infer the type for you.
 
-![Figure: Except for the input parameter, TypeScript can infer all the types for this function](describe.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Except for the input parameter, TypeScript can infer all the types for this function"}
+  src="/uploads/rules/describe-types-sparsely/describe.png"
+/>

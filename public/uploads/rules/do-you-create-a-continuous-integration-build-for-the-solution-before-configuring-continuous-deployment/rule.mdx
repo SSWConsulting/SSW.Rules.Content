@@ -1,33 +1,104 @@
 ---
-seoDescription: Before configuring continuous deployment, ensure your solution compiles by creating a continuous integration build that verifies code quality.
-type: rule
-archivedreason:
-title: Do you create a Continuous Integration Build for the Solution?
-guid: e4c12ecd-319c-4b6a-94ac-13fde8bdb0df
-uri: do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment
-created: 2013-02-06T18:49:06.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
+- category: categories/project-delivery/rules-to-better-devops.mdx
+created: 2013-02-06 18:49:58+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: e4c12ecd-319c-4b6a-94ac-13fde8bdb0df
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-create-a-continuous-integration-build-for-the-solution
+- do-you-create-a-continuous-integration-build-for-the-solution
+seoDescription: Before configuring continuous deployment, ensure your solution compiles
+  by creating a continuous integration build that verifies code quality.
+title: Do you create a Continuous Integration Build for the Solution?
+type: rule
+uri: do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment
 ---
 
 (Before you configure continuous deployment) You need to ensure that the code that you have on the server compiles. A successful CI build without deployment lets you know the solution will compile.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: The Build definition name should include the project name. The reason for this is that builds for all solutions are placed in the same folder, and including the build name makes the Build Drop folder organised](ci-build-1.jpg)
 
-![Figure: On the Trigger tab choose Continuous Integration. This ensures that each check-in results in a build](ci-build-2.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"The Build definition name should include the project name. The reason for this is that builds for all solutions are placed in the same folder, and including the build name makes the Build Drop folder organised"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-1.jpg"
+/>
 
-![Figure: On the Workspace tab you need to include all source control folders that are required for the build](ci-build-3.jpg)
 
-![Figure: Enter the path to your Drop Folder (where you drop your builds)](ci-build-4.jpg)
 
-![Figure: Choose the Default Build template and enter the DeployOnBuild argument to the MSBuild Arguments parameter of the build template](ci-build-5.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"On the Trigger tab choose Continuous Integration. This ensures that each check-in results in a build"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-2.jpg"
+/>
 
-![Figure: Queue a build, to ensure our CI build is working correctly](ci-build-6.jpg)
 
-![Figure: Before we setup continuous deployment it is important to get a successful basic CI build](ci-build-7.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"On the Workspace tab you need to include all source control folders that are required for the build"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-3.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Enter the path to your Drop Folder (where you drop your builds)"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-4.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Choose the Default Build template and enter the DeployOnBuild argument to the MSBuild Arguments parameter of the build template"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-5.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Queue a build, to ensure our CI build is working correctly"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-6.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Before we setup continuous deployment it is important to get a successful basic CI build"}
+  src="/uploads/rules/do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment/ci-build-7.jpg"
+/>

@@ -1,28 +1,43 @@
 ---
-seoDescription: Silverlight applications can be easily installed and launched from a user's desktop or start menu without additional downloads.
-type: rule
-archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
-title: Do you offer out-of-browser support?
-guid: e71ca2ee-5148-4381-9926-04caab1f4d18
-uri: do-you-offer-out-of-browser-support
-created: 2010-10-12T00:57:03.0000000Z
+archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated
+  for 10 years.
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+categories:
+- category: categories/software-engineering/rules-to-better-wpf-and-silverlight.mdx
+created: 2010-10-14 01:12:26+00:00
+createdBy: CameronShaw
+createdByEmail: CameronShaw@ssw.com.au
+guid: e71ca2ee-5148-4381-9926-04caab1f4d18
+isArchived: true
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Silverlight applications can be easily installed and launched from
+  a user's desktop or start menu without additional downloads.
+title: Do you offer out-of-browser support?
+type: rule
+uri: do-you-offer-out-of-browser-support
 ---
 
 Silverlight out of browser enables the application to be placed in a restricted store on the user’s machine; and then provide a link directly to it from the user’s desktop or start menu. This is all enabled within Silverlight without any additional download of runtime or the need to write applications in a different way.
 
-<!--endintro-->
+<endOfIntro />
 
 An application can now be easily found on the user’s desktop or start menu, and launched with a single click. However is not easy to do, the main difficulty, is that you do not have the HtmlPage object, so if you were relying on IFrame pop up or javascript, or if you are using Silverlight's navigation framework (e.g. silverlight.aspx#Contacts/JohnDoe).
 
-::: good
-![Figure: OOB demo](OOB.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"OOB demo"}
+  src="/uploads/rules/do-you-offer-out-of-browser-support/OOB.jpg"
+/>
+
 
 **Source:** [microsoft.com/silverlight/out-of-browser/demo](https://www.microsoft.com/silverlight/out-of-browser/demo?WT.mc_id=WDIT-MVP-33518)

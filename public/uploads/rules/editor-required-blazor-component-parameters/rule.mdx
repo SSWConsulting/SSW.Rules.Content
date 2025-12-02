@@ -1,23 +1,30 @@
 ---
-seoDescription: Use the EditorRequired attribute to mark required parameters in Blazor components and ensure developers are notified if they forget to pass in necessary variables.
-type: rule
-archivedreason:
-title: Do you use the EditorRequired attribute for required parameters in Blazor?
-guid: 125bf5aa-7b54-4aa3-8f71-8178af185afc
-uri: editor-required-blazor-component-parameters
-created: 2023-08-26T00:00:00.0000000Z
+archivedreason: null
 authors:
-  - title: Matt Parker
-    url: https://ssw.com.au/people/matt-parker
-related: []
+- title: Matt Parker
+  url: https://ssw.com.au/people/matt-parker
+created: 2023-08-26 05:34:30+00:00
+createdBy: Matthew Parker [SSW]
+createdByEmail: 61717342+MattParkerDev@users.noreply.github.com
+guid: 125bf5aa-7b54-4aa3-8f71-8178af185afc
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Use the EditorRequired attribute to mark required parameters in Blazor
+  components and ensure developers are notified if they forget to pass in necessary
+  variables.
+title: Do you use the EditorRequired attribute for required parameters in Blazor?
+type: rule
+uri: editor-required-blazor-component-parameters
 ---
 
 When you create a Blazor component, view parameters are marked with the `[Parameter]` attribute to indicate that they must be supplied by the parent component. By default, this is not enforced, which may lead to errors where you forget to pass in parameters where you use the component.
 
 You should use the `[EditorRequired]` attribute to mark parameters that are required in your Blazor component.
 
-<!--endintro-->
+<endOfIntro />
 
 <br>
 
@@ -43,11 +50,7 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 
 <TestComponent />
 ```
-
-::: bad  
-Figure: Bad example - Developers could forget to pass a variable to the Name property
-
-:::
+**❌ Figure: Bad example - Developers could forget to pass a variable to the Name property**  
 
 <br>
 
@@ -74,10 +77,15 @@ Figure: Bad example - Developers could forget to pass a variable to the Name pro
 <TestComponent />
 ```
 
-::: good  
-![Figure: Good example - The IDE warns developers if they forget the Name parameter](ide-warning.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - The IDE warns developers if they forget the Name parameter"}
+  src="/uploads/rules/editor-required-blazor-component-parameters/ide-warning.png"
+/>
 
-:::
 
 <br>
 
@@ -94,10 +102,15 @@ You should configure this warning (RZ2012) as an error so your IDE will fail to 
 </Project>
 ```
 
-::: good
-![Figure: Good example - Build fails with an error](build-error.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Build fails with an error"}
+  src="/uploads/rules/editor-required-blazor-component-parameters/build-error.png"
+/>
 
-:::
 
 ### References
 

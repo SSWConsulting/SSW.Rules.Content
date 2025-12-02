@@ -1,32 +1,52 @@
 ---
-seoDescription: Improve your report's clarity by avoiding unnecessary decimal places in data layouts—learn how to format currency values effectively.
-type: rule
-archivedreason:
-title: Data Layout - Do you avoid using too many decimal places?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-06-05 01:49:04+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: 1f1b3fc1-67ee-48ab-b3f6-9f84ea692d22
-uri: avoid-using-too-many-decimals-ssrs
-created: 2024-06-01T14:38:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - avoid-using-too-many-decimals
+isArchived: false
+lastUpdated: 2024-06-05 09:51:27+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
-
+related:
+- rule: public/uploads/rules/avoid-using-too-many-decimals/rule.mdx
+seoDescription: Improve your report's clarity by avoiding unnecessary decimal places
+  in data layouts—learn how to format currency values effectively.
+title: Data Layout - Do you avoid using too many decimal places?
+type: rule
+uri: avoid-using-too-many-decimals-ssrs
 ---
 
 Having decimal places is generally not required when the numbers are there to show a general indication.
-<!--endintro-->
+<endOfIntro />
 
 Only include decimal places on reports for accountants that will be used for reconcilations.
 
-::: bad  
-![Figure: Bad example - This does display decimal place](decimal.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - This does display decimal place"}
+  src="/uploads/rules/avoid-using-too-many-decimals-ssrs/decimal.jpg"
+/>
 
-::: good  
-![Figure: Good example - This avoid displaying decimal place](No_decimal.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - This avoid displaying decimal place"}
+  src="/uploads/rules/avoid-using-too-many-decimals-ssrs/No_decimal.jpg"
+/>
+
 
 Here's how to remove decimal place in your report:
 
@@ -46,6 +66,11 @@ For some users (usually accountants) the number is critical to accurate reportin
 
 This workaround should not be necessary. See the suggestion to Reporting Services ?Give users a runtime option to increase or decrease decimals places, so we don't need this workaround.
 
-::: good  
-![Figure: Good example - Add a parameter to set the decimal places format](DecimalParameter.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Add a parameter to set the decimal places format"}
+  src="/uploads/rules/avoid-using-too-many-decimals-ssrs/DecimalParameter.gif"
+/>

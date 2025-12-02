@@ -1,30 +1,43 @@
 ---
-seoDescription: Do you struggle to follow up on tasks effectively? Discover the best Microsoft tools and apps to help you stay organized and on track. From scheduling emails to setting reminders, we'll show you how to streamline your workflow and achieve more in less time.
-type: rule
-title: Do you follow up tasks effectively?
-uri: follow-up-effectively
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related:
-  - professional-integrity-tools
-  - creating-action-items
-  - tofu
-  - warn-then-call
-redirects:
-  - follow-up-emails-effectively
-  - do-you-follow-up-emails-effectively
-created: 2009-03-27T03:06:15.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+categories:
+- category: categories/client-engagement/rules-to-better-software-consultants-working-in-a-team.mdx
+- category: categories/communication/rules-to-better-communication.mdx
+- category: categories/communication/rules-to-better-email.mdx
+created: 2022-07-07 12:53:42+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
+isArchived: false
+lastUpdated: 2025-02-23 22:11:52+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- follow-up-emails-effectively
+- do-you-follow-up-emails-effectively
+related:
+- rule: public/uploads/rules/professional-integrity-tools/rule.mdx
+- rule: public/uploads/rules/creating-action-items/rule.mdx
+- rule: public/uploads/rules/tofu/rule.mdx
+- rule: public/uploads/rules/warn-then-call/rule.mdx
+seoDescription: Do you struggle to follow up on tasks effectively? Discover the best
+  Microsoft tools and apps to help you stay organized and on track. From scheduling
+  emails to setting reminders, we'll show you how to streamline your workflow and
+  achieve more in less time.
+title: Do you follow up tasks effectively?
+type: rule
+uri: follow-up-effectively
 ---
 
 Sometimes you can't complete a task right away or anytime soon. People might just say: _"I can't do it this week, but I should have it done by the end of next week"_.
@@ -35,11 +48,17 @@ If you leave it like that there is a high chance it gets forgotten as rememberin
 
 Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. Common ways are to make a note in a paper diary or stick a post-it note to a screen, but **there are better ways**.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Oldies use yellow sticky notes](adobe-firefly-screen-with-sticky-notes.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Oldies use yellow sticky notes"}
+  src="/uploads/rules/follow-up-effectively/adobe-firefly-screen-with-sticky-notes.jpg"
+/>
+
 
 To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later.
 
@@ -62,65 +81,80 @@ There are some OK tools like delayed send and follow up flags... but the our Top
 
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
-Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
-Include '(BCC'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
+Simply BCC or email **&#123;&#123; TIME &#125;&#125;@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+Include '(BCC'ing &#123;&#123; TIME &#125;&#125;@followupthen)' at the top so other email recipients know you will get the reminder.
 
-::: info
-**Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
-:::
 
-::: email-template  
+<boxEmbed
+  style="info"
+  body={<>
+    **Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
 
-| | |
-| -------- | --- |
-| To: | Bob Northwind, Brady Stroud |
-| Cc: | William Liebenberg |
-| Bcc: | <1week@followupthen.com> |
-| Subject: | Northwind.com - Errors in the logs |  
-::: email-content  
 
-(Cc'ing 1week@followupthen)
+<emailEmbed
+  from=""
+  to="Bob Northwind, Brady Stroud"
+  cc="William Liebenberg"
+  bcc="<1week@followupthen.com>"
+  subject="Northwind.com - Errors in the logs"
+  shouldDisplayBody={true}
+  body={<>
+    (Cc'ing 1week@followupthen)
 
-### Hi Bob
+## Hi Bob
 
 As per our conversation, I am confident the bugs causing the errors are fixed. To make sure, I am going to check the logs in a week.
 
-### To Myself
+## To Myself
 
 1. In one week, check the logs and ensure there are no errors
 
 Thanks,
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Use <1week@followupthen.com> to be reminded of this email in one week"}
+/>
 
-:::  
-:::  
-::: good  
-Figure: Good example - Use <1week@followupthen.com> to be reminded of this email in one week
-:::
 
-::: info
-**Note:** You should **BCC** when you are dealing with clients so they don't get the reminder. If you are work with colleagues that should also be reminded, then use **CC**. See more on [TO, CC and BCC methods](https://help.followupthen.com/knowledge-base/detailed-explanation-of-to-cc-and-bcc-methods/).
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** You should **BCC** when you are dealing with clients so they don't get the reminder. If you are work with colleagues that should also be reminded, then use **CC**. See more on [TO, CC and BCC methods](https://help.followupthen.com/knowledge-base/detailed-explanation-of-to-cc-and-bcc-methods/).
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ### 2. Outlook | Schedule Send
 
 Schedule Send is an alternative to followupthen that involves scheduling emails to be sent later. It is integrated directly into outlook but Outlook must be open for it to send, and if someone writes back before the scheduled time then it could become irrelevant.
 
-`youtube: https://www.youtube.com/embed/-x4_3iruBNY`
 
-**Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)**
+<youtubeEmbed url="https://www.youtube.com/embed/-x4_3iruBNY" description={"Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)"} />
+
 
 To use it:
 
-Write yourself an email in Outlook.  
+Write yourself an email in Outlook.
 Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
 
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).  
+The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).
 When you receive it in your inbox, action the task.
 
-::: good
-![Figure: Good example - Schedule send option in Outlook](schedule-send-tab.jpg)
-![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Schedule send option in Outlook"}
+  src="/uploads/rules/follow-up-effectively/schedule-send-tab.jpg"
+/>
+
 
 ### 3. Outlook | Follow Up flag
 
@@ -130,11 +164,29 @@ To use it:
 
 1. Click the Follow Up button
 
-![Figure: Set a follow-up date](followup1.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Set a follow-up date"}
+  src="/uploads/rules/follow-up-effectively/followup1.jpg"
+/>
+
 
 2. Select an appropriate date from the drop-down or choose Custom to add additional reminders
 
-![Figure: Add an additional reminder to follow up](followup2.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Add an additional reminder to follow up"}
+  src="/uploads/rules/follow-up-effectively/followup2.jpg"
+/>
+
 
 You can even set a custom reminder for the recipient :)
 
@@ -146,17 +198,29 @@ You can even set a custom reminder for the recipient :)
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
-::: ok
-![Figure: OK example - Using Follow Up Flags to set email reminders](followup3.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  captionText={"OK example - Using Follow Up Flags to set email reminders"}
+  src="/uploads/rules/follow-up-effectively/followup3.jpg"
+/>
+
 
 ### 4. Microsoft Todo
 
 This app works in tandem with Outlook to create todo lists and tasks. You can set reminders for daily tasks and even have flagged emails show up in you list as a work item.
 
-::: good
-![Figure: See your whole day of tasks on a single window including flagged emails](microsoft-todo-summary-page.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"See your whole day of tasks on a single window including flagged emails"}
+  src="/uploads/rules/follow-up-effectively/microsoft-todo-summary-page.jpg"
+/>
+
 
 ### 5. Microsoft Teams | Schedule Send
 
@@ -164,7 +228,16 @@ Here is a practical and useful feature in Teams. With Schedule send you can sche
 
 * Right click the send button to schedule all the important messages in advance.
 
-  ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
+  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Right click | schedule send"}
+  src="https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png"
+/>
+
 
 ### 6. Microsoft Teams | Remind App
 
@@ -172,7 +245,16 @@ Remind yourself or your team members of important meetings, to-do items or even 
 
 [Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
 
-![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Remind App in Teams"}
+  src="https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png"
+/>
+
 
 ### 7. Microsoft Teams | Hiding Chats
 
@@ -184,9 +266,15 @@ Phone reminders made via Siri or Google Assistant are awesome when there are thi
 
 For example, if Jane knows she wants to film a video at 8am tomorrow then she might ask Siri to remind her at 7:55am. Then when she gets the reminder she knows to film the video right then.
 
-::: good
-![Figure: Good example - Phone reminders are great for tasks that need to be actioned immediately](iphone-reminder.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Phone reminders are great for tasks that need to be actioned immediately"}
+  src="/uploads/rules/follow-up-effectively/iphone-reminder.png"
+/>
+
 
 ### 9. Calendar | Meetings
 
@@ -198,9 +286,15 @@ If someone doesn't show up to the meeting, just call them in. If you still don't
 
 Also make sure to send an email with an action point at the end of the meeting, you never want to end a meeting without action points. You can even use followupthen to make sure you follow up on it!
 
-::: good
-![Figure: Good example - Meetings are the best way to follow up on tasks that require multiple people's attention](calendarfollowup.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Meetings are the best way to follow up on tasks that require multiple people's attention"}
+  src="/uploads/rules/follow-up-effectively/calendarfollowup.png"
+/>
+
 
 ### 10. Sprints | Creating a PBI or Task
 
@@ -208,6 +302,11 @@ If working in an agile team it is important for everyone to have visibility of P
 
 Sprints also naturally act as a follow up since the tasks will be discussed in the Daily Scrum and Sprint meetings.
 
-::: good
-![Figure: Good example - Having a task or PBI in place makes sure a problem gets addressed](pbifollowup.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Having a task or PBI in place makes sure a problem gets addressed"}
+  src="/uploads/rules/follow-up-effectively/pbifollowup.png"
+/>

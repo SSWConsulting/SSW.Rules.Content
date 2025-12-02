@@ -6,17 +6,32 @@ uri: how-to-refresh-the-cube
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-created: 2021-09-20T21:11:46.406Z
+created: 2021-09-22T00:53:00.000Z
 archivedreason: "Piers: We don’t use TFS anymore and even if we did, this rule
   looks very outdated. "
 guid: b4fe89a4-32bd-4e31-b1f5-bf238dff24e2
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: true
 ---
 
 **Note:** These are instructions for TFS 2010 Beta 2
 
 If you enter data and then look at reports you will see stale data!!!
 
-![Figure: The report footer tells you that the TFS Warehouse is not up to date](refresh1.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"The report footer tells you that the TFS Warehouse is not up to date"}
+  src="/uploads/rules/how-to-refresh-the-cube/refresh1.jpg"
+/>
+
 
 The UI does not provide an easy option. However you have 2 \*hard\* ways of updating the TFS Data Warehouse.
 
@@ -33,17 +48,44 @@ Follow these instructions to reprocess the data warehouse using the web services
 4. "Enable"
 5. Back to "Team Foundation Server"
 6. "Browse website"
-7. Browse to <http://localhost:8080/tfs/TeamFoundation/Administration/v3.0/WarehouseControlService.asmx>
+7. Browse to [http://localhost:8080/tfs/TeamFoundation/Administration/v3.0/WarehouseControlService.asmx](http://localhost:8080/tfs/TeamFoundation/Administration/v3.0/WarehouseControlService.asmx)
 
-   ![Figure: You will need to call 2 of these web services](refresh2.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"You will need to call 2 of these web services"}
+  src="/uploads/rules/how-to-refresh-the-cube/refresh2.jpg"
+/>
+
 
 8. Invoke "ProcessWarehouse" with the parameter "DefaultCollection" (or whatever your collection is called)
 
-   ![Figure: Call "ProcessWarehouse" web service with parameter "DefaultCollection"](refresh3.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Call \"ProcessWarehouse\" web service with parameter \"DefaultCollection\""}
+  src="/uploads/rules/how-to-refresh-the-cube/refresh3.jpg"
+/>
+
 
 9. Invoke "ProcessAnalysisDatabase" with parameter "Full"
 
-   ![Figure: Call "ProcessAnalysisDatabase" with parameter "Full"](refresh4.jpg)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Call \"ProcessAnalysisDatabase\" with parameter \"Full\""}
+  src="/uploads/rules/how-to-refresh-the-cube/refresh4.jpg"
+/>
+
 
 10. Now once the the reprocess is completed, the reports are up to date
 

@@ -1,33 +1,51 @@
 ---
-seoDescription: Learn how to triage additional item requests effectively to keep your project on track.
-type: rule
-title: Triaging - Do you correctly triage additional item requests?
-uri: triaging-do-you-correctly-triage-additional-item-requests
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-related:
-  - work-in-order-of-importance-aka-priorities
-  - turn-emails-into-pbis
-redirects: []
-created: 2009-08-18T04:45:08.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+categories:
+- category: categories/project-delivery/rules-to-better-product-owners.mdx
+created: 2012-08-01 14:58:10+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 368379e7-2a52-439c-973f-e58de293d65b
+isArchived: false
+lastUpdated: 2025-02-18 22:13:41+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+related:
+- rule: public/uploads/rules/work-in-order-of-importance-aka-priorities/rule.mdx
+- rule: public/uploads/rules/turn-emails-into-pbis/rule.mdx
+seoDescription: Learn how to triage additional item requests effectively to keep your
+  project on track.
+title: Triaging - Do you correctly triage additional item requests?
+type: rule
+uri: triaging-do-you-correctly-triage-additional-item-requests
 ---
 
 "Triage" is a term originally used to describe the assessment of injured persons into a priority order based on the severity and urgency of their injuries. While developers don't often deal with real life and death situations, the ability to prioritise and action issues that arise can keep the heartbeat of a project steady and strong.
 
-<!--endintro-->
+<endOfIntro />
 
 Managing additional work requests can reduce the adverse impact on estimates and deadlines. These work requests can include new feature requests, non-critical bug fixes, modifications and undiscovered work (i.e. work you didn't initially anticipate).
 
-![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects_Triage.jpg)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Only if it's life and death does it get added \"in this Sprint\""}
+  src="/uploads/rules/triaging-do-you-correctly-triage-additional-item-requests/SuccessfulProjects_Triage.jpg"
+/>
+
 
 ## Prioritization
 
@@ -39,9 +57,16 @@ The first step is to prioritize the new work item.
      1. If the item is assessed as important, it should be placed immediately after the current Sprint items
      2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
 
-::: info
-**Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.  
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 ### Exception #1 - Critical bugs go into the current Sprint
 
@@ -60,24 +85,24 @@ For example: *"Hi Bill, this task you specified 'must be in this Sprint' will ta
 
 ### Exception #3 - A Developer can override
 
-A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.  
-  
+A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.
+
 If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/inform-clients-about-estimates-overrun).
 
-::: email-template  
-
-|          |     |
-| -------- | --- |
-| To:      | Dave |
-| Subject: | Northwind - Client List for Administrators  |  
-::: email-content  
-
-### Hi Dave  
+<emailEmbed
+  from=""
+  to="Dave"
+  cc=""
+  bcc=""
+  subject="Northwind - Client List for Administrators"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Dave
 
 1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization
 2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc
 3. Please use the text Ascending instead of "smallest to Largest" and Descending for "Largest to Smallest"
-
-:::  
-:::  
-**Figure: The above email sample from a customer will, by default, go into a future Sprint, not the current**
+  </>}
+  captionStyle="default"
+  captionText={"The above email sample from a customer will, by default, go into a future Sprint, not the current"}
+/>

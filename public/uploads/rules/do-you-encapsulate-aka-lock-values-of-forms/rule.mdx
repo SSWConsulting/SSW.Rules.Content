@@ -2,17 +2,25 @@
 seoDescription: Encapsulate form values using the Browsable attribute to maintain consistency and prevent unintended changes.
 type: rule
 title: Do you encapsulate (aka lock) values of forms?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: do-you-encapsulate-aka-lock-values-of-forms
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-created: 2014-03-14T02:44:00.000Z
+created: 2024-03-18T18:05:13.000Z
 guid: 295d928f-5ede-4e4c-91b5-26b6fff34eeb
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 One useful feature of inherited forms is the ability to lock the value of certain properties on the inherited copy. E.g.:
 
-<!--endintro-->
+<endOfIntro />
 
 - **Font** - we want to maintain a consistent font across all forms
 - **BackColor** - changing the background color prevents the form from being themed
@@ -58,6 +66,23 @@ Public Shadows Property Font() As Font
 End Property
 ```
 
-![Figure: Font Property Visible](fontpropertyvisible.gif)
 
-![Figure: Font Property Hidden](fontpropertyhidden.gif)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Font Property Visible"}
+  src="/uploads/rules/do-you-encapsulate-aka-lock-values-of-forms/fontpropertyvisible.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Font Property Hidden"}
+  src="/uploads/rules/do-you-encapsulate-aka-lock-values-of-forms/fontpropertyhidden.gif"
+/>

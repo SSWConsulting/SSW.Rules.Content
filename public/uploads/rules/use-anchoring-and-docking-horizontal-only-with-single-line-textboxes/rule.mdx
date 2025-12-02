@@ -3,31 +3,63 @@ seoDescription: Optimize form design by anchoring and docking single-line textbo
 type: rule
 title: Anchoring and Docking - Do you use Anchoring and Docking (horizontal
   only) with single line textboxes?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: use-anchoring-and-docking-horizontal-only-with-single-line-textboxes
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
-created: 2014-03-14T02:02:00.000Z
+created: 2024-03-25T21:56:30.000Z
 guid: 422365e9-ddc8-45a7-8428-cfb712c58c12
+lastUpdated: 2024-03-25T21:56:30.000Z
+lastUpdatedBy: Igor Goldobin
+lastUpdatedByEmail: igor.goldobin@gmail.com
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 If you add a text box in a form you should add anchoring and/or docking properties to allow it to grow as the form widens, but not as it increases in height.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad
-![Figure: Bad example - Wrong settings in the designer](wrongsettings01.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Wrong settings in the designer"}
+  src="/uploads/rules/use-anchoring-and-docking-horizontal-only-with-single-line-textboxes/wrongsettings01.jpg"
+/>
 
-::: good
-![Figure: Good example - Set Anchor property to Top, Bottom, Left, Right in the designer](setanchorproperty01.jpg)
-:::
 
-::: bad
-![Figure: Bad example - Textbox with the wrong anchoring and/or docking properties](wronganchoranddock01.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Set Anchor property to Top, Bottom, Left, Right in the designer"}
+  src="/uploads/rules/use-anchoring-and-docking-horizontal-only-with-single-line-textboxes/setanchorproperty01.jpg"
+/>
 
-::: good
-![Figure: Good example - Textbox with the correct anchoring and/or docking properties](correctanchoringanddocking01.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Textbox with the wrong anchoring and/or docking properties"}
+  src="/uploads/rules/use-anchoring-and-docking-horizontal-only-with-single-line-textboxes/wronganchoranddock01.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Textbox with the correct anchoring and/or docking properties"}
+  src="/uploads/rules/use-anchoring-and-docking-horizontal-only-with-single-line-textboxes/correctanchoringanddocking01.jpg"
+/>
+
 We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule

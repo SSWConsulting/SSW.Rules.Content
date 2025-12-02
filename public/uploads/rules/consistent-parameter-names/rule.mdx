@@ -1,33 +1,59 @@
 ---
-seoDescription: Ensure consistent parameter names across all report elements for clarity and functionality.
-type: rule
-archivedreason:
-title: Parameters - Do you have consistent parameter names?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-08-02 06:58:35+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: b4ee2b12-6686-4638-8b63-549e5c64b62d
-uri: consistent-parameter-names
-created: 2024-08-02T10:40:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-- when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2024-08-02 06:58:35+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Ensure consistent parameter names across all report elements for clarity
+  and functionality.
+title: Parameters - Do you have consistent parameter names?
+type: rule
+uri: consistent-parameter-names
 ---
 
 All display names referring to the same parameter should be consistent in everywhere of your reports. In addition, the parameter name and value should be in the same line if possible.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Inconsistent parameter names](ParameterName_Bad.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Inconsistent parameter names"}
+  src="/uploads/rules/consistent-parameter-names/ParameterName_Bad.gif"
+/>
 
-::: good  
-![Figure: Good example - Consistent parameter names](ParameterName_Good.gif)
-:::
 
-::: greybox
-**Note: If your data is not live, but based on ETL/SSIS**
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Consistent parameter names"}
+  src="/uploads/rules/consistent-parameter-names/ParameterName_Good.gif"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note: If your data is not live, but based on ETL/SSIS**
 Then each time log each import to a table Eg. Once a week. Then on the report parameters show this - so users know how old the data is.
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>

@@ -1,20 +1,29 @@
 ---
-seoDescription: Raw SQL updates large numbers of rows efficiently and effectively, minimizing risks with proper precautions.
-type: rule
-title: Do you know when to use raw sql?
-uri: when-to-use-raw-sql
 authors:
-  - title: Bryden Oliver
-    url: https://www.ssw.com.au/people/bryden-oliver
-related:
-  - implement-business-logic-in-middle-tier
-created: 2021-12-13T17:27:02.725Z
+- title: Bryden Oliver
+  url: https://www.ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-entity-framework.mdx
+created: 2021-12-14 01:43:56+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: b3f3734b-ef73-4f84-972a-efe7a5a0bc24
+isArchived: false
+lastUpdated: 2023-07-19 16:41:46+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+related:
+- rule: public/uploads/rules/implement-business-logic-in-middle-tier/rule.mdx
+seoDescription: Raw SQL updates large numbers of rows efficiently and effectively,
+  minimizing risks with proper precautions.
+title: Do you know when to use raw sql?
+type: rule
+uri: when-to-use-raw-sql
 ---
 
 Raw SQL comes with risks but sometimes it is the best solution.
 
-<!--endintro-->
+<endOfIntro />
 
 Using raw SQL involves taking care of SQL injection and other risks, however there are a number of situations where it may be the best solution.
 
@@ -23,7 +32,4 @@ The most obvious is a SQL UPDATE statement which updates a large number of rows.
 ```cs
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
-
-::: good
-Good example - Updating a large number of rows quickly with SQL
-:::
+**✅ Good example - Updating a large number of rows quickly with SQL**

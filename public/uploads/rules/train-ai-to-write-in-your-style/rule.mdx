@@ -1,21 +1,31 @@
 ---
-type: rule
-title: Do you know how to train an AI to write in your style?
-seoDescription: Learn how to train AI, like ChatGPT, to write in your unique style by providing writing samples, detailed analysis prompts, and content creation prompts to ensure
-  AI-generated content mirrors your authentic voice and tone.
-uri: train-ai-to-write-in-your-style
 authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren/
-related:
-  - humanise-ai-generated-content
-  - create-gpts
-created: 2024-06-04T00:14:55.700Z
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren/
+categories:
+- category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
+created: 2024-06-04 01:04:02+00:00
+createdBy: Ulysses Maclaren [SSW]
+createdByEmail: 162542237+uly1@users.noreply.github.com
 guid: b3342116-841f-4cc6-9439-1bd900f2e797
+isArchived: false
+lastUpdated: 2025-08-24 23:49:10+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/humanise-ai-generated-content/rule.mdx
+- rule: public/uploads/rules/create-gpts/rule.mdx
+seoDescription: Learn how to train AI, like ChatGPT, to write in your unique style
+  by providing writing samples, detailed analysis prompts, and content creation prompts
+  to ensure AI-generated content mirrors your authentic voice and tone.
+title: Do you know how to train an AI to write in your style?
+type: rule
+uri: train-ai-to-write-in-your-style
 ---
+
 Creating content that mirrors your unique writing style enhances authenticity and engagement. By training AI like ChatGPT to write in your specific style, you can ensure that the generated content aligns with your voice and tone.
 
-<!--endintro-->
+<endOfIntro />
 
 ## 1. Provide writing samples
 
@@ -39,26 +49,34 @@ Use a specific prompt to generate new content in your style.
 
 ## Prompt templates
 
-::: greybox
-"Analyze the following article(s) for tone, sentence structure, humor, readability level, vocabulary, and emotional conveyance.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Analyze the following article(s) for tone, sentence structure, humor, readability level, vocabulary, and emotional conveyance.
 
 Provide a 200-word summary of the writing style based on the analysis.
 
-{{ INSERT ARTICLE EXAMPLE(S) }}"
-:::
-::: good
-Figure: Good example - Detailed analysis prompt to understand writing style
-:::
+&#123;&#123; INSERT ARTICLE EXAMPLE(S) &#125;&#125;"
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Detailed analysis prompt to understand writing style"}
+/>
 
-::: greybox
-"Based on the writing style analyzed, create content titled {{ TITLE }} at {{ WORD COUNT }}.
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Based on the writing style analyzed, create content titled &#123;&#123; TITLE &#125;&#125; at &#123;&#123; WORD COUNT &#125;&#125;.
 
 Ensure that the new content strictly adheres to the author's writing style in terms of tone, structure, and approach as identified in the analysis."
 
-:::
-::: good
-Figure: Good example - Content creation prompt ensuring adherence to the identified style
-:::
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Content creation prompt ensuring adherence to the identified style"}
+/>
+
 
 Follow these steps to effectively train AI to produce content that reflects your unique writing style, making the output more personal and engaging.
 

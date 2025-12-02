@@ -1,49 +1,81 @@
 ---
-seoDescription: When a client or coworker asks you to do a task verbally, how can you ensure you remember it? Send yourself an email with a clear subject line and include the task details.
-type: rule
-title: Dones - Do you send yourself emails?
-uri: send-to-myself-emails
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Hark Singh
-    url: https://ssw.com.au/people/hark-singh
-related:
-  - do-you-send-as-per-our-conversation-emails
-  - do-you-include-the-name-of-the-person-you-address-on-the-first-line
-redirects:
-  - dones-do-you-send-yourself-emails
-created: 2009-03-26T02:29:14.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Hark Singh
+  url: https://ssw.com.au/people/hark-singh
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2022-11-07 05:43:44+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 603ce646-dca9-443f-91a4-ba09d3cbec3b
+isArchived: false
+lastUpdated: 2025-07-16 15:03:18+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- dones-do-you-send-yourself-emails
+related:
+- rule: public/uploads/rules/as-per-our-conversation-emails/rule.mdx
+- rule: public/uploads/rules/include-names-as-headings/rule.mdx
+seoDescription: When a client or coworker asks you to do a task verbally, how can
+  you ensure you remember it? Send yourself an email with a clear subject line and
+  include the task details.
+title: Dones - Do you send yourself emails?
+type: rule
+uri: send-to-myself-emails
 ---
 
 When a client or coworker **verbally** asks you to do a task... How do you make sure you will remember it?
 
-<!--endintro-->
+<endOfIntro />
 
 The best solution is to **send yourself an email**, Cc'ing the person who asked you, and including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a documented record of the requests for work. It also gives both parties an opportunity to leave feedback on the request for work.
 
-::: info
-**Tip:** Use [YakShaver](https://yakshaver.ai/) to send yourself an email. See this [How to send an email to yourself using YakShaver (10 sec) - on YouTube](https://www.youtube.com/watch?v=Hdwr0T1hChE)
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Use [YakShaver](https://yakshaver.ai/) to send yourself an email. See this [How to send an email to yourself using YakShaver (10 sec) - on YouTube](https://www.youtube.com/watch?v=Hdwr0T1hChE)
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
+
 
 Another scenario is when you've found something you should work on, but don't have time to do it immediately... you should also send a "To myself" email, Cc'ing someone who is also interested in that task (e.g. The Product Owner).
 
-::: info
-**Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per [using @ mentions in PBI](/when-you-use-mentions-in-a-pbi).
-:::
 
-::: bad
-![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](/postit-screen.png)
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** If the request is relevant to client work or an existing Product Backlog then it would be better to create or update a PBI and @mention the Product Owner and relevant people as per [using @ mentions in PBI](/when-you-use-mentions-in-a-pbi).
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
 
-::: greybox
-**Tips:**
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Writing yourself a \"Post-It Note\" is not the best method"}
+  src="/uploads/rules/send-to-myself-emails/postit-screen.png"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tips:**
 
 * Make it clearer to everyone else [by making "To myself" a heading or bold](/include-names-as-headings)\
   Always add "To myself" in the email body - not on the subject - so that other people Cc'd know what is going on
@@ -51,50 +83,46 @@ Another scenario is when you've found something you should work on, but don't ha
 * Include an estimate and priority too...so the expectations are set better. With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI
 * If there are other people addressed in the email, put the "To myself" at the top so the tasks aren't buried at the bottom of the email.
 
-:::
+  </>}
+  captionStyle="default"
+  captionText={""}
+/>
 
-::: email-template
 
-| | |
-| -------- | --- |
-| From: | John |
-| To: | John |
-| Cc: | Adam, Uly, Dave |
-| Subject: | Add a bad example to Rules to Better UI - Progress bar |
-::: email-content
+<emailEmbed
+  from="John"
+  to="John"
+  cc="Adam, Uly, Dave"
+  bcc=""
+  subject="Add a bad example to Rules to Better UI - Progress bar"
+  shouldDisplayBody={true}
+  body={<>
+    ## To myself
 
-### To myself
-
-As per my conversation with Lei, the rule on progress bars {{link}} is missing a bad example
+As per my conversation with Lei, the rule on progress bars &#123;&#123;link&#125;&#125; is missing a bad example
 
 1. Include a bad example to Rules to Better UI - progress bar
 
 It's estimated to take **2 hours** and I'll make it my #1 priority on the next Sprint, starting tomorrow
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Send yourself an email with estimate and prioritization"}
+/>
 
-:::
-:::
-::: good
-Figure: Good example - Send yourself an email with estimate and prioritization
-:::
+<emailEmbed
+  from="John"
+  to="Dave"
+  cc="Adam, Uly"
+  bcc=""
+  subject="RE: Add a bad example to Rules to Better UI - Progress bar"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Lei
 
-::: email-template
+&gt; 1. Include a bad example to Rules to Better UI - progress bar
 
-| | |
-| -------- | --- |
-| From: | John |
-| To: | Dave |
-| Cc: | Adam, Uly |
-| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |
-::: email-content
-
-### Hi Lei
-
-\> 1. Include a bad example to Rules to Better UI - progress bar
-
-Done - This change has been made and can be found at {{ URL }}
-
-:::
-:::
-::: good
-Figure: Good example - Replying to a 'To myself' email showing done evidence and correctly replying to the person who requested the task
-:::
+Done - This change has been made and can be found at &#123;&#123; URL &#125;&#125;
+  </>}
+  captionStyle="goodExample"
+  captionText={"Good example - Replying to a 'To myself' email showing done evidence and correctly replying to the person who requested the task"}
+/>

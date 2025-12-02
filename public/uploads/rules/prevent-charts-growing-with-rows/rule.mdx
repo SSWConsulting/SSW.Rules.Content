@@ -1,29 +1,48 @@
 ---
-seoDescription: Prevent charts from growing with rows using rectangle cells for consistent data layout
-type: rule
-archivedreason:
-title: Data Layout - Do you know how to prevent charts growing with rows?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-06-07 05:50:11+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: 585a667e-f5ef-4b1c-8911-5fe11a6cf153
-uri: prevent-charts-growing-with-rows
-created: 2024-06-05T18:38:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2024-06-07 05:50:11+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Prevent charts from growing with rows using rectangle cells for consistent
+  data layout
+title: Data Layout - Do you know how to prevent charts growing with rows?
+type: rule
+uri: prevent-charts-growing-with-rows
 ---
 
 By default charts in table grow with rows. This makes height of charts inconsistent and the report ugly.
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Inconsistent chart height](RS_ChartInRow_Bad.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Inconsistent chart height"}
+  src="/uploads/rules/prevent-charts-growing-with-rows/RS_ChartInRow_Bad.gif"
+/>
+
 
 Putting a rectangle in table cell and placing your chart in the rectangle fixes this problem.
 
-::: good  
-![Figure: Good example - Consistent chart height](RS_ChartInRow_Good.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Consistent chart height"}
+  src="/uploads/rules/prevent-charts-growing-with-rows/RS_ChartInRow_Good.gif"
+/>

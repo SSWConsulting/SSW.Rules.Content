@@ -1,26 +1,32 @@
 ---
-seoDescription: Data - Do you use Identities in SQL Server? Should you use identities in SQL Server? While they offer convenience and conflict-free replication, they also introduce limitations when importing data or manually updating primary keys.
-type: rule
-archivedreason:
-title: Data - Do you use Identities in SQL Server?
-guid: fdf8110f-4d46-4459-b97c-a825bab3efed
-uri: use-identities-in-sql-server
-created: 2019-11-25T19:08:06.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-25 19:08:06+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: fdf8110f-4d46-4459-b97c-a825bab3efed
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - data-do-you-use-identities-in-sql-server
+- data-do-you-use-identities-in-sql-server
+seoDescription: Data - Do you use Identities in SQL Server? Should you use identities
+  in SQL Server? While they offer convenience and conflict-free replication, they
+  also introduce limitations when importing data or manually updating primary keys.
+title: Data - Do you use Identities in SQL Server?
+type: rule
+uri: use-identities-in-sql-server
 ---
 
 This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:
 
-<!--endintro-->
-
-::: bad
-Cons
-:::
+<endOfIntro />
+**❌ Cons**  
 
 * You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
 * Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
@@ -31,10 +37,7 @@ But in SQL Server you have identities and we have these procs:
 
 * DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
 * SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
-
-::: good
-Pros
-:::
+**✅ Pros**  
 
 * Less programming - letting the database take care of it
 * Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
@@ -50,10 +53,28 @@ Using SQL Management Studio
 2. Navigate to **Tasks | Import Data…** to open the wizard
 3. When selecting Source Tables and Views click on **Edit Mappings…**
 
-![Figure: SQL Import Wizard - Edit Mappings](IdentityImportEditMappings.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"SQL Import Wizard - Edit Mappings"}
+  src="/uploads/rules/use-identities-in-sql-server/IdentityImportEditMappings.png"
+/>
+
 
 4. Ensure the Enable identity insert is checked
-   ![Figure: SQL Import Wizard – Ensure Enable identity insert is checked](EnableIdentityInsert.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"SQL Import Wizard – Ensure Enable identity insert is checked"}
+  src="/uploads/rules/use-identities-in-sql-server/EnableIdentityInsert.png"
+/>
+
 
 Alternatively, you can also enable and disable the identity insert through SQL with the following commands:
 

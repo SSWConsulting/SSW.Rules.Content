@@ -1,30 +1,55 @@
 ---
-seoDescription: Improve code readability and maintainability by replacing magic numbers with enum constants.
-type: rule
-archivedreason:
-title: Use Enum Constants instead of Magic numbers?
-guid: a1e84295-b2df-462d-9d05-7fe65e650b92
-uri: use-enum-constants-instead-of-magic-numbers
-created: 2018-04-26T16:48:28.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-26 16:48:28+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a1e84295-b2df-462d-9d05-7fe65e650b92
+isArchived: false
+lastUpdated: 2024-03-14 04:58:43+00:00
+lastUpdatedBy: Ben Neoh [SSW]
+lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
 redirects: []
+seoDescription: Improve code readability and maintainability by replacing magic numbers
+  with enum constants.
+title: Use Enum Constants instead of Magic numbers?
+type: rule
+uri: use-enum-constants-instead-of-magic-numbers
 ---
 
 Using "Magic numbers" in your code makes it confusing and really hard to maintain.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - "Magic Number" works, but is a bad idea](MagicNumberBad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - \"Magic Number\" works, but is a bad idea"}
+  src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/MagicNumberBad.png"
+/>
 
-::: good  
-![Figure: Good example - Add Enum](enumClass.png)  
-:::
 
-::: good  
-![Figure: Good example - No Magic Number, looks good and is easy to manage](MagicNumberGood.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Add Enum"}
+  src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/enumClass.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - No Magic Number, looks good and is easy to manage"}
+  src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/MagicNumberGood.png"
+/>

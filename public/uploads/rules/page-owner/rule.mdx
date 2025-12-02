@@ -1,24 +1,34 @@
 ---
-seoDescription: Designate a page owner to ensure accuracy and accountability for webpage content
-type: rule
-title: Do you have a page owner for each webpage?
-uri: page-owner
 authors:
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-related:
-  - using-markdown-to-store-your-content
-  - do-you-know-the-best-practices-for-frontmatter-in-markdown
-  - standard-set-of-pull-request-workflows
-created: 2023-11-28T00:00:00.000Z
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+categories:
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2023-11-29 01:29:59+00:00
+createdBy: Seth Daily [SSW]
+createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 guid: 4bdc5e9f-bdd9-4e8a-a5e2-3cfa637e4a56
+isArchived: false
+lastUpdated: 2023-11-29 05:14:34+00:00
+lastUpdatedBy: Seth Daily [SSW]
+lastUpdatedByEmail: 130118701+sethdailyssw@users.noreply.github.com
+related:
+- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+- rule: public/uploads/rules/best-practices-for-frontmatter-in-markdown/rule.mdx
+- rule: public/uploads/rules/standard-set-of-pull-request-workflows/rule.mdx
+seoDescription: Designate a page owner to ensure accuracy and accountability for webpage
+  content
+title: Do you have a page owner for each webpage?
+type: rule
+uri: page-owner
 ---
 
 Managing webpages can be challenging, especially in projects with many contributors. When editing a page, a common problem is not knowing who the original author was. This is bad, because it's important not to change something that was there for a reason!
 
-<!--endintro-->
+<endOfIntro />
 
 The best way to solve this is by having a page owner for each webpage.
 
@@ -42,10 +52,21 @@ A designated page owner ensures someone is responsible for the accuracy of the p
 
 ❌ When trying to work out who is the page owner, version history is not good enough - often the creator of a page is not the actual author e.g. a dev makes the page for a Marketing person
 
-::: bad
-![Figure: Bad example - No owner field. Impossible to see who wrote this page!](no-author-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - No owner field. Impossible to see who wrote this page!"}
+  src="/uploads/rules/page-owner/no-author-bad.png"
+/>
 
-::: good
-![Figure: Good example - Frontmatter with an 'author' field.](page-owner-good.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example - Frontmatter with an 'author' field."}
+  src="/uploads/rules/page-owner/page-owner-good.jpg"
+/>

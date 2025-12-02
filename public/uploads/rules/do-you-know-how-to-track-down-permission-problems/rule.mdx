@@ -1,18 +1,26 @@
 ---
-seoDescription: Track down permission problems using Process Monitor to troubleshoot issues with IIS servers and app pool accounts.
-type: rule
-archivedreason:
-title: Do you know how to track down permission problems?
-guid: 5ed0bbd5-58ea-41f5-8251-3247a6caf874
-uri: do-you-know-how-to-track-down-permission-problems
-created: 2013-10-08T15:22:15.0000000Z
+archivedreason: null
 authors:
-  - title: Gerard Beckerleg
-    url: https://ssw.com.au/people/gerard-beckerleg
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Gerard Beckerleg
+  url: https://ssw.com.au/people/gerard-beckerleg
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2013-10-08 15:50:37+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 5ed0bbd5-58ea-41f5-8251-3247a6caf874
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Track down permission problems using Process Monitor to troubleshoot
+  issues with IIS servers and app pool accounts.
+title: Do you know how to track down permission problems?
+type: rule
+uri: do-you-know-how-to-track-down-permission-problems
 ---
 
 You need [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx?WT.mc_id=DT-MVP-33518) to track down permissions problems.
@@ -28,8 +36,26 @@ To hunt down a problem where say the IIS server couldn’t write to a directory,
 2. Apply filter
 3. Rejoice
 
-![Figure: Apply filter to only show "ACCESS DENIED" results](process-monitor-filter.jpg)
 
-![Figure: And here we have the offending account](event-properties.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"Apply filter to only show \"ACCESS DENIED\" results"}
+  src="/uploads/rules/do-you-know-how-to-track-down-permission-problems/process-monitor-filter.jpg"
+/>
 
-<!--endintro-->
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  captionText={"And here we have the offending account"}
+  src="/uploads/rules/do-you-know-how-to-track-down-permission-problems/event-properties.jpg"
+/>
+
+
+<endOfIntro />

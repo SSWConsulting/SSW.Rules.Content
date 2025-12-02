@@ -1,18 +1,26 @@
 ---
-seoDescription: DBAs should utilize Database Mail instead of SQL Mail to send emails from SQL Server due to its enhanced features and improved security.
-type: rule
-archivedreason:
-title: DBAs - Do you use Database Mail (not SQL Mail)?
-guid: aae96599-6401-4eb3-af17-68640cdd0435
-uri: use-database-mail-not-sql-mail
-created: 2019-11-19T17:57:28.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+created: 2019-11-19 17:57:31+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: aae96599-6401-4eb3-af17-68640cdd0435
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
-  - dbas-do-you-use-database-mail-not-sql-mail
-  - dbas-do-you-use-database-mail-(not-sql-mail)
+- dbas-do-you-use-database-mail-not-sql-mail
+- dbas-do-you-use-database-mail-(not-sql-mail)
+seoDescription: DBAs should utilize Database Mail instead of SQL Mail to send emails
+  from SQL Server due to its enhanced features and improved security.
+title: DBAs - Do you use Database Mail (not SQL Mail)?
+type: rule
+uri: use-database-mail-not-sql-mail
 ---
 
 SQL Server includes Database Mail (it was a new feature released back in 2005 as a replacement for SQL Mail). Database Mail is a great feature as it allows:
@@ -25,11 +33,17 @@ SQL Server includes Database Mail (it was a new feature released back in 2005 as
 - Logging and auditing
 - Attachment size regulations and file extension requirements
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - Using SQL Mail](SQLDatabases_SQLMail.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  captionText={"Bad example - Using SQL Mail"}
+  src="/uploads/rules/use-database-mail-not-sql-mail/SQLDatabases_SQLMail.png"
+/>
+
 
 ```sql
 EXEC master.dbo.xp_smtp_sendmail
@@ -41,15 +55,17 @@ EXEC master.dbo.xp_smtp_sendmail
 @type = N'text/html',
 @server = N'mail.company.com.au'
 ```
+**❌ Figure: Bad example - Avoid using SQL Mail - you need to have Outlook on the server and there is no built-in logging**  
 
-::: bad
-Figure: Bad example - Avoid using SQL Mail - you need to have Outlook on the server and there is no built-in logging
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  captionText={"Good example -  Use Database Mail"}
+  src="/uploads/rules/use-database-mail-not-sql-mail/SqlDatabaseMail01.png"
+/>
 
-:::
-
-::: good  
-![Figure: Good example -  Use Database Mail](SqlDatabaseMail01.png)  
-:::
 
 ```sql
 USE msdb
@@ -61,8 +77,4 @@ Execute dbo.sp_send_dbmail
 @subject = 'Vendor List',
 @attach_query_result_as_file = 1
 ```
-
-::: good
-Figure: Good example - Use database mail for scalability, built-in logging and HTML capability
-
-:::
+**✅ Figure: Good example - Use database mail for scalability, built-in logging and HTML capability**
