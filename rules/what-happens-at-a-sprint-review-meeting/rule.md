@@ -48,7 +48,7 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing di
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-### Additional stakeholders
+## Additional stakeholders
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
@@ -95,7 +95,7 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 
 :::
 
-### What if you can't attend the Sprint Review
+## What if you can't attend the Sprint Review
 
 ![Figure: Playing golf](Golf-holiday.png)
 
