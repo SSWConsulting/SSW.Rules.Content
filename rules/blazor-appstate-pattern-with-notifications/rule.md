@@ -158,4 +158,4 @@ Whenever the `IncrementCount()` or `Reset()` methods are invoked, any listeners 
 
 The real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components.
 
-Although this mitigates an issue with the [AppState pattern](blazor-basic-appstate-pattern), it is still not a complete solution for all scenarios. For more complex scenarios, consider using a Redux state management pattern. [Fluxor](https://github.com/mrpmorris/Fluxor) is a NuGet package implementing the Redux pattern for Blazor.
+Although this mitigates an issue with the [AppState pattern](/blazor-basic-appstate-pattern), it is still not a complete solution for all scenarios. For more complex scenarios, consider using a Redux state management pattern. [Fluxor](https://github.com/mrpmorris/Fluxor) is a NuGet package implementing the Redux pattern for Blazor.

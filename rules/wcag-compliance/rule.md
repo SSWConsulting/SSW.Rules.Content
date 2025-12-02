@@ -8,11 +8,11 @@ uri: wcag-compliance
 created: 2023-12-22T05:06:33.0000000Z
 authors:
   - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin/
+    url: https://www.ssw.com.au/people/jayden-alchin
   - title: Josh Berman
-    url: https://www.ssw.com.au/people/josh-berman/
+    url: https://www.ssw.com.au/people/josh-berman
   - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook/
+    url: https://www.ssw.com.au/people/luke-cook
 related:
   - descriptive-links
   - color-contrast
@@ -33,9 +33,9 @@ Making your website accessible ensures equal access, better usability, and impro
 
 ## An overview of WCAG standards
 
-The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) are international standards developed by the WW3C's Web Accessibility Initiative (WAI). They define how to make web content more accessible to people with disabilities.
+The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag) are international standards developed by the WW3C's Web Accessibility Initiative (WAI). They define how to make web content more accessible to people with disabilities.
 
-These guidelines are constantly reviewed and updated to make the web a more accessible place. Each version release has its own focus, and moves with evolving technologies. The current latest set of guidelines is the [WCAG 2.2](https://www.w3.org/TR/WCAG22/), released in December 2024.
+These guidelines are constantly reviewed and updated to make the web a more accessible place. Each version release has its own focus, and moves with evolving technologies. The current latest set of guidelines is the [WCAG 2.2](https://www.w3.org/TR/WCAG22), released in December 2024.
 
 ## The 4 principles (POUR)
 
@@ -48,7 +48,7 @@ Information must be presented in a way users can perceive:
 * **Text Alternatives (1.1):** Provide text alternatives for non-text content
 * **Time-based Media (1.2):** Provide alternatives and captions for multimedia and time-based content
 * **Adaptable (1.3):** Present content in different ways without losing information or structure
-* **Distinguishable (1.4):** Making it easier for users to see and hear content, including separating foreground from background (E.g Color contrast - [Do you meet color contrast requirements for accessibility?](/rules/color-contrast/))
+* **Distinguishable (1.4):** Making it easier for users to see and hear content, including separating foreground from background (E.g Color contrast - [Do you meet color contrast requirements for accessibility?](/color-contrast))
 
 ### 2. Operable
 
@@ -79,7 +79,7 @@ Content must be robust enough that it can be interpreted by a wide variety of us
 Suppose we want to create a simple button on our site.
 
 ::: bad
-![Figure: Bad example - Lacks accessibility](./bad-example-accessibility.png)
+![Figure: Bad example - Lacks accessibility](bad-example-accessibility.png)
 :::
 
 This fails numerous guidelines:
@@ -89,7 +89,7 @@ This fails numerous guidelines:
 * **Criteria 1.3.1:** Using div for a button breaks semantic structure
 
 ::: good
-![Figure: Good example - Correct accessibility](./good-example-accessibility.png)
+![Figure: Good example - Correct accessibility](good-example-accessibility.png)
 :::
 
 Improving on the previous example, this button passes:
@@ -122,13 +122,13 @@ Lighthouse is an automated auditing tool by Google that runs inside Chrome Devto
 
 It is best used for performance and accessibility review before release. Although it only covers ~20-30% of accessibiltiy checks because many need manual testing.
 
-![Figure: Lighthouse in DevTools](./lighthouse-in-devtools.png)
+![Figure: Lighthouse in DevTools](lighthouse-in-devtools.png)
 
 ### axe DevTools
 
 Similarly, axe DevTools is a browser extension and testing toolkit powered by axe-core, using the same accessibility engine used in Lighthouse. It is used to find and fix accessibility issues during development. However, unlike lighthouse, it allows guided and manual testing for things automation can't fully check (e.g., meaningful ink text, focus order, screen reader experience).
 
-![axe DevTools Example](./axe-devtools-example.png)
+![Figure: axe DevTools Example](axe-devtools-example.png)
 
 ## Key terms
 

@@ -1,8 +1,7 @@
 ---
 seoDescription: Use Problem Steps Recorder to capture bug details and reproduce issues on your Windows PC with ease.
 type: rule
-archivedreason: |
-  Deprecated by Microsoft - It is recommended to use a [screen recorder instead](https://ssw.com.au/rules/recording-screen). See [the deprecation info](https://prod.support.services.microsoft.com/en-us/windows/steps-recorder-deprecation-a64888d7-8482-4965-8ce3-25fb004e975f).
+archivedreason: Deprecated by Microsoft - It is recommended to use a [screen recorder instead](https://ssw.com.au/rules/recording-screen). See [the deprecation info](https://prod.support.services.microsoft.com/en-us/windows/steps-recorder-deprecation-a64888d7-8482-4965-8ce3-25fb004e975f).
 title: Do you use Problem Steps Recorder?
 guid: 93e39bb8-3d60-4482-99c9-65361a1a4529
 uri: problem-steps-recorder

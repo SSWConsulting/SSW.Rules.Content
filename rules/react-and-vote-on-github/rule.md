@@ -26,7 +26,7 @@ These reactions allow teams to give and get quick feedback, gauge consensus, and
 
 <!--endintro-->
 
-For GitHUb Issues, [react with a 👍 (like) to show you have read and agree](react-to-reviewed-pbis). If you don’t agree with it, use a 👎 (dislike) with a quick comment to explain the reasons.
+For GitHUb Issues, [react with a 👍 (like) to show you have read and agree](/react-to-reviewed-pbis). If you don’t agree with it, use a 👎 (dislike) with a quick comment to explain the reasons.
 
 ![Figure: A simple reaction let others know you read and acknowledged some feedback](github-reaction.png)
 
