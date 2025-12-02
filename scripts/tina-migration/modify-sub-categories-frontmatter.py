@@ -96,7 +96,7 @@ def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -124,13 +124,14 @@ def replace_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
+    caption_style = preset if preset == "default" else f"{preset}Example"
 
     return f'''<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="{preset}"
-  figureText={{{figure_js}}}
+  captionStyle="{caption_style}"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -167,8 +168,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="default"
-  figureText={{{figure_js}}}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -182,8 +183,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="default"
-  figureText={{{figure_js}}}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -212,8 +213,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset_kind}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{preset_kind}Example"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -241,7 +242,7 @@ def process_custom_aside_blocks(content):
         if in_box and re.match(r"^\s*:::\s*$", line):
 
             preset = "default"
-            figure = "XXX"
+            figure = ""
             show = False
 
             if i + 1 < len(lines):
@@ -283,13 +284,13 @@ def process_custom_aside_blocks(content):
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
             figure_js = js_string(figure)
-            embed = f'''<asideEmbed
-  variant="{box_type}"
+            embed = f'''<boxEmbed
+  style="{box_type}"
   body={{<>
     {body}
   </>}}
-  figurePreset="default"
-  figureText={{{figure_js}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />'''
             output.append(embed)
             in_box = False
@@ -439,7 +440,7 @@ def modify_category_files(categories_root=None):
 
         # Handle image blocks with ratings (e.g., "::: good ![...] :::")
         def _replace_image_block_conditional(m):
-            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
                 return keep_image_block_with_prefixed_src(m, src_prefix)
             return replace_image_block(m, src_prefix)
         body = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, body, flags=re.MULTILINE | re.DOTALL)

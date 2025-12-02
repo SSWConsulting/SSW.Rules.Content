@@ -231,14 +231,15 @@ def replace_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
+    caption_style = preset if preset == "default" else f"{preset}Example"
 
     return f'''
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="{preset}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{caption_style}"
+  captionText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -254,7 +255,7 @@ def replace_custom_size_image_block(m, src_prefix):
     variants = variants_str.split()
 
     # Determine size
-    size = "large"  # default
+    size = "small"  # default
     for v in variants:
         if v in ("img-small", "small"):
             size = "small"
@@ -278,8 +279,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="default"
-  figureText={{{figure_js}}}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -296,8 +297,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figurePreset="default"
-  figureText={{{figure_js}}}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -328,8 +329,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figurePreset="{preset_kind}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{preset_kind}Example"
+  captionText={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -368,8 +369,8 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />
 '''
 
@@ -401,8 +402,8 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}"
-  figureText={{{figure_js}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />
 '''
 
@@ -433,7 +434,7 @@ def process_custom_aside_blocks(content):
         if in_box and re.match(r"^\s*:::\s*$", line):
 
             preset = "default"
-            figure = "XXX"
+            figure = ""
             show = False
 
             if i + 1 < len(lines):
@@ -477,12 +478,12 @@ def process_custom_aside_blocks(content):
             figure_js = js_string(figure)
             embed = f'''
 <boxEmbed
-  variant="{box_type}"
+  style="{box_type}"
   body={{<>
     {body}
   </>}}
-  figurePreset="{preset}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />
 '''
             output.append(embed)
@@ -600,8 +601,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figurePreset="{preset}Example"
-  figureText={{{figure_js}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />'''
 
         out.append(embed)
