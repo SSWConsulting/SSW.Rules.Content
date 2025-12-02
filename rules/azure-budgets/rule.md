@@ -125,7 +125,7 @@ Total:
 ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)  
 **Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](/azurecalcexample_1710232021930.jpg?WT.mc_id=AZ-MVP-33518)
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](/azurecalcexample_1710232021930.jpg)
 
 1. Please approve
 
@@ -133,7 +133,7 @@ ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)
 :::
 :::
 
-3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+1. If the request is approved, remember to add a cost-category tag to the new resource once it is created
 
 ::: info
 Make sure you include all resources you intend to create, even if they should be free. For example, you might create an App Service on an existing, shared App Service Plan. The Spend Master will still need to be aware of this, in case the App Service Plan needs to be scaled up.

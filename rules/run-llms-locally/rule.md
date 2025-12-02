@@ -60,7 +60,7 @@ Local LLMs ensure your data never leaves your machine, providing consistent perf
 
 ![Figure: Chat interfaces in LM Studio (left), and Ollama (right)](ollama-or-lmstudio-ui.png)
 
-Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
+Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/ai-assisted-development-workflow) without an internet connection.
 
 ### Coding with local LLMs
 

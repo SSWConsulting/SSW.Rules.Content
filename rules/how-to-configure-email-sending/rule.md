@@ -21,9 +21,11 @@ When configuring your email settings for Dynamics CRM, make sure you configure S
 As per CRM Tip of the Day <https://crmtipoftheday.com/979/start-planning-farewell-party-for-email-router/>, the CRM Email router is to be deprecated. You should use the Serverside Sync now instead.
 
 ::: bad  
-![Figure: Bad Example - Deprecated Mail routed Enabled](CRM Email Router.png)  
+![Figure: Bad example - Deprecated Mail routed Enabled](CRM Email Router.png)  
 :::
 
 ::: good  
-![Figure: Good Example - Serverside Sync configured as per https://technet.microsoft.com/en-us/library/mt622063.aspx](CRM?WT.mc_id=DX-MVP-33518 ServerSideSync.png)  
+![Figure: Good example - Serverside Sync configured as per Connect Dynamics 365 to POP3/SMTP servers](CRM ServerSideSync.png)  
 :::
+
+Learn more on [Connect Dynamics 365 to POP3/SMTP servers](https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622063(v=crm.8)?redirectedfrom=MSDN).
