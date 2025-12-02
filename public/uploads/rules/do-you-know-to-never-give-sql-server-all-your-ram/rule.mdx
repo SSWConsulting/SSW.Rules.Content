@@ -21,11 +21,10 @@ type: rule
 uri: do-you-know-to-never-give-sql-server-all-your-ram
 ---
 
-<introEmbed
-  body={<>
 Microsoft SQL Server is made to use all the available memory in a server for itself. It will eat all the memory you throw at it. This can be a problem because your other applications may suffer performance problems as all the system memory is gone. To limit this behaviour you can limit the maximum amount of memory SQL is allowed to use.
-  </>}
-/>
+
+<endOfIntro />
+
 1. Open SQL Server Management Studio
 
    

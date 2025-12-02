@@ -2,6 +2,8 @@
 seoDescription: Learn why using module templates in your Bicep code improves maintainability, reusability, and consistency across your infrastructure-as-code projects.
 type: rule
 title: Do you use module templates in your Bicep code?
+categories:
+  - category: categories/software-engineering/rules-to-better-azure.mdx
 uri: bicep-module-templates
 authors:
   - title: Ben Neoh
@@ -18,13 +20,12 @@ createdByEmail: 87377903+Ben0189@users.noreply.github.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 When teams start with Bicep, it’s tempting to keep everything in a single large `.bicep` file. While this works for small experiments, it quickly becomes unmanageable in real-world solutions. Changes become risky, duplication creeps in, and debugging is painful.
 
 That’s why **using Bicep modules**—small, reusable templates—is the recommended approach. Modules let you break down complex infrastructure into logical components, making your code easier to maintain, test, and share across projects.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Why use module templates?
 
 * **Reusability** – Define resources once and reuse them across environments (e.g. dev, test, prod).

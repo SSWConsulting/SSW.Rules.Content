@@ -25,11 +25,10 @@ type: rule
 uri: optimize-bundle-size
 ---
 
-<introEmbed
-  body={<>
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Checking the Lighthouse Treemap for bundle size
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.

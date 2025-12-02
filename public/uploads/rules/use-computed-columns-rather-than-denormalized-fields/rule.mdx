@@ -22,15 +22,38 @@ type: rule
 uri: use-computed-columns-rather-than-denormalized-fields
 ---
 
-<introEmbed
-  body={<>
 When you have a denormalized field, use a computed column. In SQL Server they can be persisted.
 
 Use the suffix "Computed" to clearly distinguish that this field is a computed field.
-![Bad Example - This field was manually updated from code in the middle tier.](/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg)
-![Good Example - There was no code in the middle tier to calculate this (and it has the correct name)](/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - This field was manually updated from code in the middle tier.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg"
 />
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good Example - There was no code in the middle tier to calculate this (and it has the correct name)",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
+/>
+
+
+<endOfIntro />
+
 Computed columns have some limitations - they cannot access fields in other tables, or other computed fields in the current table.
 
 You can use user-defined functions (UDF) from code in a reusable function, this allows one computed column to use a function to call another function. Here is an example:

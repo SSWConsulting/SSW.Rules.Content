@@ -20,15 +20,14 @@ type: rule
 uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 ---
 
-<introEmbed
-  body={<>
 It seems nearly all web developers are confused whether they should use hyperlinks or buttons on forms. The recommendation is that whenever data is being submitted (e.g. Save, Cancel, Apply) you should use a button, otherwise use a link.
 
 This is because hyperlinks indicate navigation - "If I click this link, I'll be taken somewhere else".
 
 Whereas a button indicates that something is being processed - "When I click this, I'm agreeing that something is being submitted"
-  </>}
-/>
+
+<endOfIntro />
+
 #### Note: If you are using an automated link checker
 
 It is important you use buttons for updating or deleting data on your website. The main reason is problems will occur when you run a link checker (e.g. [SSW CodeAuditor](https://codeauditor.com/)), and you have data driven pages with "Update" or "Delete" hyperlinks. The link checker will try to go to all associated links and potentially delete a lot of data from your website database.

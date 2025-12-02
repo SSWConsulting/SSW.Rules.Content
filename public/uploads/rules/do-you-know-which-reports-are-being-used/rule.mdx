@@ -21,8 +21,6 @@ type: rule
 uri: do-you-know-which-reports-are-being-used
 ---
 
-<introEmbed
-  body={<>
 SSRS keeps track of each report that gets executed and records useful information like:
 
 - How long did the report take to generate
@@ -31,8 +29,9 @@ SSRS keeps track of each report that gets executed and records useful informatio
 - Report Parameters used
 
 So it's quite simply a matter of querying the ReportServer database for information in the ExecutionLog table.
-  </>}
-/>
+
+<endOfIntro />
+
 ```sql
 WITH RankedReports
 AS

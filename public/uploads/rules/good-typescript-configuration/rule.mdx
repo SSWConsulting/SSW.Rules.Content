@@ -22,11 +22,10 @@ type: rule
 uri: good-typescript-configuration
 ---
 
-<introEmbed
-  body={<>
 TypeScript is a powerful language that transpiles to JavaScript, and provides much desired type-safety and IDE refactoring support. But without good configuration, a lot of the benefits can be lost.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Use tsconfig.json
 
 Putting a “tsconfig.json” file in your project tells the typescript compiler where the root of your project is, and provides a centralized place to configure the compiler. This config is read by IDEs and the compiler and can be utilised by the build scripts to ensure configuration is consistent.

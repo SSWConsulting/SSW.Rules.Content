@@ -19,11 +19,10 @@ type: rule
 uri: sitemap-xml-best-practices
 ---
 
-<introEmbed
-  body={<>
 When search engines or auditing platforms visit your site they expect a clean `sitemap.xml`. A broken or poorly formatted sitemap wastes crawl budget, hides new pages, and triggers avoidable health errors in reports.
-  </>}
-/>
+
+<endOfIntro />
+
 A minimal sitemap must follow the [Sitemaps XML protocol](https://www.sitemaps.org/protocol.html). Start by using UTF-8 encoding, include the XML declaration, and wrap every entry inside a `<urlset>` element with the official namespace. Here is a solid foundation:
 
 ```xml

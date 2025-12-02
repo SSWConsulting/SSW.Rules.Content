@@ -21,8 +21,6 @@ type: rule
 uri: do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
 ---
 
-<introEmbed
-  body={<>
 Each SharePoint packages contains features that can be targetted at various scopes. You need to pay special attention when you are targetting the Web Application scope.
 
 The feature XML looks like this.
@@ -42,8 +40,9 @@ The feature XML looks like this.
 ```
 
 But there is a problem...
-  </>}
-/>
+
+<endOfIntro />
+
 The problem with this web application feature is that it will activate by default on all new Web Applications created on that farm, regardless of what the web application or root site template is.
 
 The best practice is to make sure you use the additional attribute `ActivateOnDefault` and set it to False. Then SharePoint administrators can choose to activate the feature after a new web application is created.

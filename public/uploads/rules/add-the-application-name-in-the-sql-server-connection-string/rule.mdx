@@ -23,11 +23,10 @@ type: rule
 uri: add-the-application-name-in-the-sql-server-connection-string
 ---
 
-<introEmbed
-  body={<>
 You should always add the application name to the connection string so that SQL Server will know which application is connecting, and which database is used by that application. This will also allow SQL Profiler to trace individual applications which helps you monitor performance or resolve conflicts.
-  </>}
-/>
+
+<endOfIntro />
+
 ```xml
 <add key="Connection" value="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Biotrack01;Data Source=sheep;"/>
 ```

@@ -23,11 +23,10 @@ type: rule
 uri: do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container
 ---
 
-<introEmbed
-  body={<>
 A common practice we see when developers start to use IOC containers is that the IOC container becomes a central service and configuration repository that all the components across the project become dependent upon.
-  </>}
-/>
+
+<endOfIntro />
+
 Using an IOC container in this manner can bring advantages such as centralised configuration and dependency lifecycle and scope managment. If implemented correctly, however, your classes can benefit from the above without any direct dependency on the IOC container itself.
 
 ![](/uploads/rules/do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container/IOC_badexample.png)

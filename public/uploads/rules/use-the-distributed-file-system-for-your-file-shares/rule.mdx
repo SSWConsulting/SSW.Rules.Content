@@ -24,11 +24,10 @@ type: rule
 uri: use-the-distributed-file-system-for-your-file-shares
 ---
 
-<introEmbed
-  body={<>
 Occasionally, one server and its drives will not have sufficient space to store all related files in a network share. For example, you may have a "SetupFiles" directory that stores all Setup executables on your network e.g. \bee\SetupFiles. There are problems with this approach.
-  </>}
-/>
+
+<endOfIntro />
+
 1. You will run out of space - which means you will have to copy or move old (but still used) setup files around to other drives (\bee\d$\SetupOld\ ) or other machines e.g. \tuna\SetupFiles. This fragmentation of your setup files can cause confusion for your users.
 2. When you retire or rename the old server, links to the old server location will not work
 

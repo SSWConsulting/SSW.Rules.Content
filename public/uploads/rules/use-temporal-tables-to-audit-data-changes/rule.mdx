@@ -24,11 +24,10 @@ type: rule
 uri: use-temporal-tables-to-audit-data-changes
 ---
 
-<introEmbed
-  body={<>
 In many cases, there are legal requirements to audit all updates to financial records. In other cases, you will want to be able to track and undo deletes to your database. With the use of Temporal tables, this becomes much easier to manage.
-  </>}
-/>
+
+<endOfIntro />
+
 [Temporal tables](https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?WT.mc_id=DP-MVP-33518) were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
 They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.
 <figureEmbed figureEmbed={ {

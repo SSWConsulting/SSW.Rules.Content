@@ -21,11 +21,34 @@ type: rule
 uri: do-you-know-not-to-use-bold-tags-inside-headings
 ---
 
-<introEmbed
-  body={<>
 You should avoid any extra style tags in your heading text, because it is unnecessary and generates inconsistency.
-![Bad example – bold tags being used within header tags.](/uploads/rules/do-you-know-not-to-use-bold-tags-inside-headings/heading-with-bold-tags.png)
-![Good example – all styling is being done through CSS.](/uploads/rules/do-you-know-not-to-use-bold-tags-inside-headings/heading-styled-with-css.png)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad example – bold tags being used within header tags.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-not-to-use-bold-tags-inside-headings/heading-with-bold-tags.png"
 />
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "goodExample",
+    figure: "Good example – all styling is being done through CSS.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-not-to-use-bold-tags-inside-headings/heading-styled-with-css.png"
+/>
+
+
+<endOfIntro />
+
 **Tip:** You can do all the styling via CSS.

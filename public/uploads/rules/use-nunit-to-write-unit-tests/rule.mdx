@@ -21,11 +21,10 @@ type: rule
 uri: use-nunit-to-write-unit-tests
 ---
 
-<introEmbed
-  body={<>
 When anyone sends you a bug that happen in their environment do a unit test. Just because the code runs on your machine it doesnt mean it will work on the users machine. E.g permissions issues - you are an admin while the user is only a simple user, registry & io reads might fail, NUnit will test for this and let you know.
-  </>}
-/>
+
+<endOfIntro />
+
 Unit testing is a valuable tool when maintaining code, particularly in a team environment where you may have to fix a bug in someone else's code. Unit Tests ensure that you do not introduce new bugs in someone else's code, or code that you have not looked at for a while. We like [NUnit](https://nunit.org/) because it is free, we have found that it is easy for developers to learn and it integrates well with Visual Studio. Visual Studio .NET 2005 integrates Unit Testing with Visual Studio Team System.
 
 You should always try to write unit tests for:

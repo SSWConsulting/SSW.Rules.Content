@@ -22,11 +22,10 @@ type: rule
 uri: dont-open-popup-windows-use-a-javascript-modal-instead
 ---
 
-<introEmbed
-  body={<>
 The popup blockers in several browsers prevent JavaScript from being used to open windows without user interaction (e.g. clicking a link). You should use an anchor tag instead.
-  </>}
-/>
+
+<endOfIntro />
+
 ```html
 <body onload="window.open('http://www.mydomain.com/document.html');return true;">
 ```

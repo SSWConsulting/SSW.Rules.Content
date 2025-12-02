@@ -20,14 +20,25 @@ createdByEmail: chloelin@ssw.com.au
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 If an attacker gets into a computer on your network, they can dump hashed credentials of any user that has logged on to that computer from lsass.exe. This is easy to do if you know where to go - thankfully, it is also fairly easy to block!
 
 You can read more about credential dumping at [mitre.org](https://attack.mitre.org/techniques/T1003/001/), or in this [blog post from Microsoft](https://www.microsoft.com/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/?WT.mc_id=ES-MVP-33518).
-![Bad Example - Attackers can dump credentials from lsass.exe](/uploads/rules/block-lsass-credential-dumping/lsass-dump.png)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - Attackers can dump credentials from lsass.exe",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/block-lsass-credential-dumping/lsass-dump.png"
 />
+
+
+<endOfIntro />
+
 Credential Guard was introduced in Windows 10/Server 2016. It runs lsass.exe in an isolated virtualized environment without any device drivers, so that the memory cannot be dumped. Depending on your environment, there are a few ways you can implement Credential Guard.
 
 ### Group Policy

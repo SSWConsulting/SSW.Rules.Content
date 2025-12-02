@@ -32,13 +32,12 @@ type: rule
 uri: rule
 ---
 
-<introEmbed
-  body={<>
 SSW Rules are **technical documentation** presented as practical guidelines that help teams build better software and work more effectively. They capture best practices across coding, architecture, communication, design and project management, making them a living knowledge base that supports consistency, clarity and quality in every project.
 
-This is an **example rule + Markdown/MDX cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
-  </>}
-/>
+This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
+
+<endOfIntro />
+
 ## Concepts to write rules
 
 There are a few concepts that are applied to structure most SSW Rules:
@@ -76,7 +75,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 <asideEmbed
   variant="info"
   body={<>
-    Do **not** use Heading 1 (&lt;h1&gt;) in the content, even with the good intention of improving SEO. The page title already uses &lt;h1&gt;, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple &lt;h1&gt; elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+    Do **not** use Heading 1 (`&lt;h1&gt;`) in the content, even with the good intention of improving SEO. The page title already uses `&lt;h1&gt;`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `&lt;h1&gt;` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
   </>}
   figureEmbed={{
     preset: "default",
@@ -112,7 +111,8 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 ...and this is a blockquote:
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.\
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+>
 > \- Someone famous
 
 ---
@@ -128,7 +128,7 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-And ==these words== will be highlighted.
+==These words== are surrounded by a &lt;mark&gt; (HTML needed).
 ```
 
 **Figure: Markdown to generate different text styles**
@@ -141,7 +141,7 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-And ==these words== will be highlighted.
+==These words== are surrounded by a &lt;mark&gt; (HTML needed).
 
 ---
 
@@ -219,7 +219,7 @@ This is [an external link](https://www.google.com).
 
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
 * Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
-   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4.-links)
+   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
   </>}
   figureEmbed={{
@@ -250,7 +250,7 @@ This is [an external link](https://www.google.com).
 
 ```
 
-**Figure: MDX to generate boxes**
+**Figure: Markdown to generate boxes**
 
 
 <asideEmbed
@@ -335,21 +335,18 @@ This is [an external link](https://www.google.com).
   }}
 />
 
-<asideEmbed
-  variant="warning"
-  body={<>
-    This is a &lt;div&gt; using the class "warning". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </>}
-  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
-/>
 
-<asideEmbed
-  variant="tips"
-  body={<>
-    This is a &lt;div&gt; using the class "tips". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </>}
-  figureEmbed={{ preset: "default", figure: "XXX", shouldDisplay: false }}
-/>
+#### Hiding content
+
+Use the class "hidden" to hide content.
+
+```md
+::: hidden
+bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
+:::
+```
+
+**Figure: Nothing will show up from this Markdown**
 
 ---
 
@@ -379,7 +376,7 @@ This is [an external link](https://www.google.com).
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: 'Image rendered with size="small"',
+    figure: "Image using class \"img-small\"",
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -392,7 +389,7 @@ This is [an external link](https://www.google.com).
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: 'Image rendered with size="medium"',
+    figure: "Image using class \"img-medium\"",
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -405,7 +402,7 @@ This is [an external link](https://www.google.com).
   showBorder={true}
   figureEmbed={ {
     preset: "default",
-    figure: 'Image rendered with size="large"',
+    figure: "Image using class \"img-large\"",
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -418,7 +415,7 @@ This is [an external link](https://www.google.com).
   showBorder={false}
   figureEmbed={ {
     preset: "default",
-    figure: 'Image rendered with showBorder="false"',
+    figure: "Image using class \"no-border\"",
     shouldDisplay: true
   } }
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
@@ -430,7 +427,7 @@ This is [an external link](https://www.google.com).
 
 <imageEmbed
   alt="Image"
-  size="small"
+  size="large"
   showBorder={false}
   figureEmbed={ {
     preset: "default",
@@ -444,7 +441,7 @@ This is [an external link](https://www.google.com).
 
 <imageEmbed
   alt="Image"
-  size="small"
+  size="large"
   showBorder={false}
   figureEmbed={ {
     preset: "default",
@@ -499,7 +496,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={true}
+  showBorder={false}
   figureEmbed={ {
     preset: "badExample",
     figure: "Caption for bad images",
@@ -513,7 +510,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={true}
+  showBorder={false}
   figureEmbed={ {
     preset: "default",
     figure: "Caption for regular images",
@@ -526,7 +523,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={true}
+  showBorder={false}
   figureEmbed={ {
     preset: "okExample",
     figure: "Caption for OK images",
@@ -539,7 +536,7 @@ This is [an external link](https://www.google.com).
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={true}
+  showBorder={false}
   figureEmbed={ {
     preset: "goodExample",
     figure: "Caption for good images",
@@ -614,10 +611,12 @@ This is [an external link](https://www.google.com).
 #### Code for videos
 
 ```md
+
 <youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
+
 ```
 
-**Figure: MDX to add videos and video captions**
+**Figure: Markdown to add videos and video captions**
 
 #### Example
 
@@ -629,12 +628,23 @@ Check out this video - it's responsive!
 
 ---
 
+### 9. Twitter Cards Embed
 
-### 9. Code
+Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
 
-To include code block in Markdown, start with 3 backticks ``` on a new line, write or paste your code, and then end with 3 backticks on a new line.
+```md
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+```
 
-For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Do you set the language on code blocks?](/set-language-on-code-blocks)
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
+---
+
+### 10. Code
+
+To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
+
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
 
 To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
@@ -675,7 +685,7 @@ ELSE
 
 **Figure: SQL code block**
 
-```csharp
+```cs
 public class MyClass
 {
     public string  myField = string.Empty;
@@ -733,7 +743,7 @@ public class MyClass
 
 ---
 
-### 10. Email Templates
+### 11. Email Templates
 
 #### Code for email template
 
@@ -743,12 +753,12 @@ public class MyClass
   to="XXX"
   cc="YYY"
   bcc="ZZZ"
-  subject="{{ EMAIL SUBJECT }}"
+  subject="&#123;&#123; EMAIL SUBJECT &#125;&#125;"
   shouldDisplayBody={true}
   body={<>
     ## Hi XXX,
 
-{{ EMAIL CONTENT }}
+&#123;&#123; EMAIL CONTENT &#125;&#125;
   </>}
   figureEmbed={{
     preset: "goodExample",
@@ -781,16 +791,16 @@ public class MyClass
 
 ---
 
-### 11. Tables
+### 12. Tables
 
 #### Code for tables
 
 ```md
- | Tables        |      Are      |   Cool |
- | ------------- | :-----------: | -----: |
- | col 3 is      | right-aligned | \$1600 |
- | col 2 is      |   centered    |   \$12 |
- | zebra stripes |   are neat    |    \$1 |
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
 ```
 
 **Figure: Markdown to generate tables**
@@ -810,7 +820,7 @@ public class MyClass
 
 ---
 
-### 12. Thematic breaks (horizontal rules)
+### 13. Thematic breaks (horizontal rules)
 
 #### Code for hr
 

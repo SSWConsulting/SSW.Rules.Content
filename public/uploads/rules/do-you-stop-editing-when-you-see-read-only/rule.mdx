@@ -21,13 +21,24 @@ type: rule
 uri: do-you-stop-editing-when-you-see-read-only
 ---
 
-<introEmbed
-  body={<>
 When editing a .doc file in a SharePoint document library, you need to always “check Out” when you see “Read Only”. You need to “Check In” the document after editing to TFS.
 
-![Figure: Warning - If you see “Read-Only” in the title bar, then you need to “Check Out”](/uploads/rules/do-you-stop-editing-when-you-see-read-only/SharepointWord.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Warning - If you see “Read-Only” in the title bar, then you need to “Check Out”",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-stop-editing-when-you-see-read-only/SharepointWord.jpg"
 />
+
+
+<endOfIntro />
+
 
 <imageEmbed
   alt="Image"

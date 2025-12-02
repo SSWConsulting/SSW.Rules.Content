@@ -24,13 +24,11 @@ type: rule
 uri: keep-your-domain-layer-independent-of-the-data-access-concerns
 ---
 
-<introEmbed
-  body={<>
 The domain layer should be independent of data access concerns. The domain layer should only change when something within the domain changes, not when the data access technology changes. Doing so ensures that the system will be easier to maintain well into the future since changes to data access technologies won't impact the domain, and vice versa.
 
 This is often a problem when building systems that leverage Entity Framework, as it's common for data annotations to be added to the domain model. Data annotations, such as the Required or MinLength attributes, support validation and help Entity Framework to map objects into the relational model. In the next example, data annotations are used within the domain model:
-  </>}
-/>
+
+<endOfIntro />
 
 <imageEmbed
   alt="Image"

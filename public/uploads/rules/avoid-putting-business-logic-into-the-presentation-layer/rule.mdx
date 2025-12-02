@@ -22,11 +22,10 @@ type: rule
 uri: avoid-putting-business-logic-into-the-presentation-layer
 ---
 
-<introEmbed
-  body={<>
 Be sure you are aware of what is business logic and what isn't. Typically, looping code will be placed in the business layer. This ensures that no redundant code is written and other projects can reference this logic as well.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 private void btnOK_Click(object sender, EventArgs e)
 {

@@ -28,15 +28,14 @@ type: rule
 uri: remove-confidential-information-from-github
 ---
 
-<introEmbed
-  body={<>
 If you accidentally include confidential information in a GitHub Issue - whether it’s a password, API key, or private business details - the obvious thing to do is **edit the issue and delete the sensitive content**.
 
 But that’s **not enough**.
 
 GitHub retains a full revision history for issues and comments. This means others can still view older versions and recover the compromised data.
-  </>}
-/>
+
+<endOfIntro />
+
 To protect your company and users, you must **check and delete the specific revisions** that exposed the information.
 
 Finally, it's important to leave a **transparent comment in the issue** confirming that sensitive content was removed, and where it appeared (e.g. in a video, image, or text block).

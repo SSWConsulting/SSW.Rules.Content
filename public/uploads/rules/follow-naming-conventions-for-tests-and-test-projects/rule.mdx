@@ -31,8 +31,6 @@ type: rule
 uri: follow-naming-conventions-for-tests-and-test-projects
 ---
 
-<introEmbed
-  body={<>
 ### Test Projects
 
 Tests typically live in separate projects – and you usually create a project from a template for your chosen test framework.
@@ -44,8 +42,9 @@ A unit test project usually targets a single code project.
 Integration and unit tests should be kept separate and should be named to clearly distinguish the two.
 This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
 Integration tests require dependencies and often won't run as part of your build process. These should be automated later in the DevOps pipeline.
-  </>}
-/>
+
+<endOfIntro />
+
 ### Test Project Location
 
 Test projects can be located either:

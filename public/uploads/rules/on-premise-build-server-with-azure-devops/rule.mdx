@@ -26,11 +26,10 @@ type: rule
 uri: on-premise-build-server-with-azure-devops
 ---
 
-<introEmbed
-  body={<>
 If you are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops?WT.mc_id=DOP-MVP-33518), there's an awesome [Hosted Build Server](https://devblogs.microsoft.com/bharry/configuring-a-build-server-against-your-shiny-new-hosted-tfs-account/?WT.mc_id=DOP-MVP-33518) option you can use to perform your builds with little to no setup. But if you're working on a project that has continuous integration and a long build time, it's not long before those build minutes start to add up.
-  </>}
-/>
+
+<endOfIntro />
+
 To reduce your build costs, you could reduce the number of builds or try to reduce the build time. Continuous integration is very important so you don't want to turn that off, and [we encourage checking in early and often](/do-you-know-to-get-visual-studio-to-remind-you-to-check-in). Reducing the build time is a nice idea, but you can't always reduce it enough to make a difference.
 
 For large, expensive projects, the best option is to configure an on-premises build server rather than using hosted builds.

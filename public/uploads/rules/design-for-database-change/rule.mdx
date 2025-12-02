@@ -22,11 +22,10 @@ type: rule
 uri: design-for-database-change
 ---
 
-<introEmbed
-  body={<>
 Many developers are frightened of making a change to the existing database because they just don't know what applications are using it. This is especially a problem when you are dealing with databases that you did not create. Here are some approaches to this issue:
-  </>}
-/>
+
+<endOfIntro />
+
 1. You could run around the office and find some one and hope they know (unbelievably this seems this the most common method!)
 2. Trawl through source control, all network locations and all the source code around to check what connection strings are being used
 3. You can have a zsApplication table and manually populate with application it uses (Recommended). This can be populated with a run of a SQL profiler over a period of a week so all usage is captured.

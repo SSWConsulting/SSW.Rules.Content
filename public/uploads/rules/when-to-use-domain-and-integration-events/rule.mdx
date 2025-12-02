@@ -20,13 +20,12 @@ type: rule
 uri: when-to-use-domain-and-integration-events
 ---
 
-<introEmbed
-  body={<>
 Domain Events and Integration Events are a concept primarily found in Domain-Driven Design (DDD) that can be applied in various other architectural patterns such as [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture).
 
 Domain Events and Integration Events are powerful patterns improve decoupling and facilitate communication between different components of an application. They serve as a means of **notification** for important domain concepts that have occurred.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Overview
 
 In [Clean Architecture](https://github.com/sswconsulting/SSW.CleanArchitecture), Domain Events can be employed to enhance the communication between the `Domain` layer and other outer layers, such as the `Application` layer or `Infrastructure` layer. By raising Domain Events within the `Domain` layer, we achieve loose coupling between different parts of the application while ensuring that the domain layer remains independent of other concerns.

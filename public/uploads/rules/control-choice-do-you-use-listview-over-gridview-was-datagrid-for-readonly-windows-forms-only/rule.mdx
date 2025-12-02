@@ -23,15 +23,14 @@ type: rule
 uri: control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
 ---
 
-<introEmbed
-  body={<>
 Yes a ListView looks nicer than a DataGrid, but a Datagrid is better because it has more functionality (out of the box that is). With a ListView you cannot:
 
 * Copy and paste - although you can select a row of data in both controls, you can't copy and paste a whole row from the ListView
 * Sort data - always useful when there are more than about 20 rows
 * DataBind - always saves heaps of code
-  </>}
-/>
+
+<endOfIntro />
+
 So our old rule was to always use the ugly DataGrid (although we were never happy about that).
 
 <imageEmbed

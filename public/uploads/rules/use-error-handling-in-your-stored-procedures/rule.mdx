@@ -22,12 +22,11 @@ type: rule
 uri: use-error-handling-in-your-stored-procedures
 ---
 
-<introEmbed
-  body={<>
 You should always include error handling in your stored procedures, it allows you to catch errors and either log them or attempt to correct them.
 [THROW (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15) lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.
-  </>}
-/>
+
+<endOfIntro />
+
 Here’s an example of the syntax used when implementing THROW.
 
 ```sql

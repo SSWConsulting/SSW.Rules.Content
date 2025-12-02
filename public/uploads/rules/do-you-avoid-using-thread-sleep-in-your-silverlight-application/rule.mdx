@@ -23,13 +23,12 @@ type: rule
 uri: do-you-avoid-using-thread-sleep-in-your-silverlight-application
 ---
 
-<introEmbed
-  body={<>
 Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.
 
 If you want to delay something, you can use a [storyboard](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.animation.storyboard?view=windowsdesktop-7.0&redirectedfrom=MSDN&WT.mc_id=DT-MVP-33518).
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 Thread.Sleep(5000);
 

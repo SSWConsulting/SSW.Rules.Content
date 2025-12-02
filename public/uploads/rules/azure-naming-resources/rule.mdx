@@ -34,12 +34,23 @@ type: rule
 uri: azure-naming-resources
 ---
 
-<introEmbed
-  body={<>
-<introYoutube url="https://www.youtube.com/embed/sFpcaDicRlA" description={"Video: Hear from Luke Cook about how organizing your cloud assets starts with good names and consistency!"} />
+<youtubeEmbed url="https://www.youtube.com/embed/sFpcaDicRlA" description={"Video: Hear from Luke Cook about how organizing your cloud assets starts with good names and consistency!"} />
+
 
 ![](/uploads/rules/azure-naming-resources/icon-naming-azure.png)
-![The scariest resource name you can find](/uploads/rules/azure-naming-resources/kv-bad-name.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "The scariest resource name you can find",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/azure-naming-resources/kv-bad-name.jpg"
+/>
+
 
 Organizing your cloud assets starts with good names. It is best to be consistent and use:
 
@@ -48,8 +59,9 @@ Organizing your cloud assets starts with good names. It is best to be consistent
 * Include a [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations?WT.mc_id=AZ-MVP-33518) (so it's easy to find the resource in a script)
 * Include which environment the resource is intended for i.e. [dev, test, prod, etc.](/do-you-have-separate-development-testing-and-production-environments)
 * If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix _api_
-  </>}
-/>
+
+<endOfIntro />
+
 Azure defines [some best practices for naming and tagging your resource](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging?WT.mc_id=AZ-MVP-33518).
 
 Having inconsistent resource names across projects creates all sorts of pain

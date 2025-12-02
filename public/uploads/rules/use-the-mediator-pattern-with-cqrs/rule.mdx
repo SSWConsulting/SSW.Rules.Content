@@ -26,8 +26,6 @@ type: rule
 uri: use-the-mediator-pattern-with-cqrs
 ---
 
-<introEmbed
-  body={<>
 CQRS stands for Command Query Responsibility Segregation. It's a pattern that I first heard described by Greg Young. At its heart is the notion that you can use a different model to update information than the model you use to read information
 …
 There's room for considerable variation here. The in-memory models may share the same database, in which case the database acts as the communication between the two models. However they may also use separate databases, effectively making the query-side's database into a real-time ReportingDatabase.
@@ -37,8 +35,9 @@ There's room for considerable variation here. The in-memory models may share the
 CQRS means clear separation between Commands (Write operations) and Queries (Read operations).
 
 CQRS can be used with complex architectures such as Event Sourcing but the concepts can also be applied to simpler applications with a single database.
-  </>}
-/>
+
+<endOfIntro />
+
 MediatR is an open source .NET library by Jimmy Bogard that provides an elegant and powerful approach for writing CQRS, making it easier to write clean code.
 
 For every command or query, you create a specific request class that explicitly defines the “input” required to invoke the operation.

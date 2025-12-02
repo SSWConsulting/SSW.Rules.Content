@@ -23,11 +23,10 @@ type: rule
 uri: create-separate-virtual-directory-for-admin-access
 ---
 
-<introEmbed
-  body={<>
 To securely manage and provide public access to Reporting Services, configure separate ports for authenticated internal access and anonymous public access, following specific setup steps for both Windows Explorer and IIS Manager.
-  </>}
-/>
+
+<endOfIntro />
+
 When going public with Reporting Services, you should have 2 ports:
 
 1. **A public access port.** This allows your public users to access their reports normally on a port which has been configured for anonymous users.

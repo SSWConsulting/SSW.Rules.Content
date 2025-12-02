@@ -20,11 +20,10 @@ createdByEmail: 2636640+danielmackay@users.noreply.github.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 When working on large enterprise scale projects .NET Solutions can often become unwieldy and difficult to maintain. This is particularly true of `.csproj` files which end up repeating configuration across all projects. How can one file save you hours of maintenance by keeping project configuration DRY?
-  </>}
-/>
+
+<endOfIntro />
+
 ## What is a Directory.Build.props file?
 
 A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022&WT.mc_id=DT-MVP-33518) file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.

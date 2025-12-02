@@ -18,11 +18,10 @@ type: rule
 uri: do-you-encapsulate-your-scripts-to-avoid-cluttering-the-global-namespace-and-clashing-with-other-scripts
 ---
 
-<introEmbed
-  body={<>
 It's very common to see people creating variables and methods in the global namespace not worrying about how they will behave in conjunction with other libraries and custom codes. Once you have a handful of libraries and several people working on the same project you'll find that a lot of method and variable names will overlap, so if you don't take enough care, you will have your methods and variables overwritten and your page breaking for no apparent reason.
-  </>}
-/>
+
+<endOfIntro />
+
 ```
 var buttonClicked = false;
 function click()

@@ -23,17 +23,28 @@ type: rule
 uri: do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-2013
 ---
 
-<introEmbed
-  body={<>
 As a CMS system, it's obviously necessary to apply standard styles to all content, so the whole site looks consistent.
 
 This rule outlines how to use custom styles in the SharePoint  RichHTMLEditor.
 
 In SharePoint, we can use the below way to apply custom styles:
 
-![Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles](/uploads/rules/do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-2013/CustomStylesInSharePoint.png)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "custom RichHtmlEditor styles give your content editors a visual preview of your custom styles",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-2013/CustomStylesInSharePoint.png"
 />
+
+
+<endOfIntro />
+
 To do this:
 
 1. You can use "**PrefixStyleSheet**" property to apply the custom styles to a build-in **RichHtmlField** in page layout or master page. In my case, I applied them to a custom control "**ParsedRichHtmlField**" which inherited from the system build-in one.

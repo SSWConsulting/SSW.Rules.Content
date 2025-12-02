@@ -18,11 +18,10 @@ createdByEmail: tiagov8@gmail.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 The Update method on an entity in EF Core marks all of its fields as dirty. This will result in all the fields being written back to the database.
-  </>}
-/>
+
+<endOfIntro />
+
 Writing the entire record to the database can cause locking issues in the database server if there are foreign key relationships involving the entity being modified.
 <figureEmbed figureEmbed={ {
   preset: "badExample",

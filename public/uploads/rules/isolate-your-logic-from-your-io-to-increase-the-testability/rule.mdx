@@ -23,12 +23,11 @@ type: rule
 uri: isolate-your-logic-from-your-io-to-increase-the-testability
 ---
 
-<introEmbed
-  body={<>
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
 Take this for example (and see how we refactor it):
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
 {

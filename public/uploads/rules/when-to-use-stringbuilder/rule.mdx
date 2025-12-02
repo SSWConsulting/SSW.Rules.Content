@@ -22,13 +22,12 @@ type: rule
 uri: when-to-use-stringbuilder
 ---
 
-<introEmbed
-  body={<>
 A String object is immutable - this means if you append two Strings together, the result is an entirely new String, rather than the original String being modified in place. This is inefficient because creating new objects is slower than altering existing objects.
 
 Using StringBuilder to append Strings modifies the underlying Char array rather than creating a new String. Therefore, whenever you are performing multiple String appends or similar functions, you should always use a StringBuilder to improve performance.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 String s = "";
 

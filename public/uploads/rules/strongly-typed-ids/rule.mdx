@@ -24,13 +24,12 @@ type: rule
 uri: strongly-typed-ids
 ---
 
-<introEmbed
-  body={<>
 Developers often fall into the trap of using primitive types (`int`, `string`, `Guid`) for entity identifiers when using Entity Framework (EF) because it is straight forward to simply add a `string` or `int` or `Guid` as the `ID` field for an entity. The misuse of the primitive types lead to **Primitive Obsession**.
 
 Primitive Obsession refers to a code smell or anti-pattern where primitive data types (such as integers, strings, booleans, etc.) are excessively used to represent domain concepts, instead of creating dedicated classes to encapsulate those concepts.
-  </>}
-/>
+
+<endOfIntro />
+
 Consider this example of Primitive Obsession:
 
 ```cs

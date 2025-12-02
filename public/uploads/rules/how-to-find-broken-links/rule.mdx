@@ -22,11 +22,10 @@ type: rule
 uri: how-to-find-broken-links
 ---
 
-<introEmbed
-  body={<>
 Often times, web pages are dynamic. Most link scanners are not capable of submitting form information. The trick is to allow a "door" for link scanner go through to scan a dynamic section of a site. A common technique is to hard code hidden link with a query string at the bottom of the page that allows the link scanner to follow into the simulated user input. See the following code for example:
-  </>}
-/>
+
+<endOfIntro />
+
 ```html
 <a href="KB.aspx?KBID=Q1097707"
   >Q1097707 - How do I turn Option Strict on by default in VB.NET?</a

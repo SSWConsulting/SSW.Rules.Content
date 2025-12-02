@@ -20,11 +20,10 @@ type: rule
 uri: when-anchor-should-run-at-server
 ---
 
-<introEmbed
-  body={<>
 **&lt;a&gt;** tag should **runat=“server"** \*ONLY\* if you need to change the target at runtime.
 
 If you include **runat=“server"** for an HTML element that you do not need access to in code behind, you are introducing a whole lot of overhead you do not need.
-  </>}
-/>
+
+<endOfIntro />
+
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

@@ -18,11 +18,10 @@ createdByEmail: 11418832+zacharykeeping@users.noreply.github.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 GitHub Secrets and Variables are an invaluable way to store sensitive information such as API keys, tokens, and passwords for use in your GitHub Actions. However, it's important to understand how special characters are handled in order to avoid issues in your workflows.
-  </>}
-/>
+
+<endOfIntro />
+
 When storing Secrets and Variables in GitHub, it's common that these are stored with special characters (for example: "$", "&", "(", ")", "\<", ">"). We have a few ways to use these in our GitHub Actions:
 
 1. ❌ **Bad** - Referencing the raw text as-is

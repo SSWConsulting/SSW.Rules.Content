@@ -23,11 +23,10 @@ type: rule
 uri: never-dispose-objects-from-spcontext-current
 ---
 
-<introEmbed
-  body={<>
 Disposing objects in SharePoint is important, but never do it with objects from `SPContext.Current`. SharePoint will manage disposing these objects itself.
-  </>}
-/>
+
+<endOfIntro />
+
 ```csharp
 using (SPWeb web =  SPContext.Current.Site.RootWeb)
 {

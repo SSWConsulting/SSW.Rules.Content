@@ -23,14 +23,13 @@ type: rule
 uri: do-you-use-view-models-instead-of-viewdata
 ---
 
-<introEmbed
-  body={<>
 ASP.NET CORE MVC provides several ways to pass data to views:
 
 * **Weakly typed data:** ViewData and ViewBag
 * **Strongly typed data:** ViewModel
-  </>}
-/>
+
+<endOfIntro />
+
 Both ViewData and ViewBag are dynamically resolved at runtime, which can often lead to runtime errors because they aren't type-safe and rely on [Magic Strings](https://en.wikipedia.org/wiki/Magic_string).
 
 Pass data using ViewData from Action:
@@ -66,8 +65,8 @@ Show data using ViewData in View:
 <h2>ViewData["Message"]</h2>
 
 <div>
-    @user.Name
-    @user.Age
+    @user.Name<br>
+    @user.Age<br>
 </div>
 ```
 <figureEmbed figureEmbed={ {
@@ -106,8 +105,8 @@ Show data using ViewModel in View:
 @model YourNamespace.ViewModels.UserViewModel
 
 <div>
-    @Model.Name
-    @Model.Age
+    @Model.Name<br>
+    @Model.Age<br>
 </div>
 ```
 <figureEmbed figureEmbed={ {

@@ -24,11 +24,10 @@ type: rule
 uri: put-exit-sub-before-end-sub
 ---
 
-<introEmbed
-  body={<>
 Do not put "Exit Sub" statements before the "End Sub". The function will end on "End Sub". "Exit Sub" is serving no real purpose here.
-  </>}
-/>
+
+<endOfIntro />
+
 ```vbnet
 Private Sub SomeSubroutine()
 'Your code here....

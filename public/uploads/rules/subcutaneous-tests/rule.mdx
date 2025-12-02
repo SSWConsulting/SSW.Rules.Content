@@ -26,13 +26,12 @@ type: rule
 uri: subcutaneous-tests
 ---
 
-<introEmbed
-  body={<>
 Automated UI testing tools like [Playwright](https://playwright.dev/) and [Selenium](https://www.selenium.dev/) are great for testing the real experience of the users. Unfortunately, these tests can sometimes feel a bit too fragile as they are very sensitive to changes made to the UI.
 
 Subcutaneous ("just beneath the skin") tests look to solve this pain point by doing integration testing just below the UI.
-  </>}
-/>
+
+<endOfIntro />
+
 Martin Fowler was one of the first people to [introduce the concept of subcutaneous tests](https://martinfowler.com/bliki/SubcutaneousTest.html) into the mainstream, though it has failed to gather much momentum. Subcutaneous tests are great for solving problems where automated UI tests have difficulty interacting with the UI or struggle to manipulate the UI in the ways required for the tests we want to write.
 
 Some of the key qualities of these tests are:

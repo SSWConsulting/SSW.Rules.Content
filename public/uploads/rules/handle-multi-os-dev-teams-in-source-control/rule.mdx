@@ -24,13 +24,12 @@ type: rule
 uri: handle-multi-os-dev-teams-in-source-control
 ---
 
-<introEmbed
-  body={<>
 In today’s development world, teams often consist of developers working on different operating systems (OS), such as Windows, macOS, and Linux. While each OS has its own strengths, managing a cross-platform development environment can introduce challenges.
 
 Issues like inconsistent line endings, platform-specific setup scripts, and configuration mismatches can lead to headaches for both individual developers and the team as a whole.
-  </>}
-/>
+
+<endOfIntro />
+
 ## Addressing Line Ending differences (CRLF vs. LF)
 
 One of the most common issues faced by teams working with Git across different platforms is the handling of line endings. Windows uses **CRLF** (Carriage Return + Line Feed) for line endings, while macOS and Linux use **LF** (Line Feed) only. This can lead to unnecessary diffs in Git and potential merge conflicts.

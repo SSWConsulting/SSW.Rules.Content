@@ -21,8 +21,6 @@ type: rule
 uri: do-you-use-powershell-script-to-create-duplicated-work-item-types
 ---
 
-<introEmbed
-  body={<>
 Sometimes you will need to create duplicate work item types, e.g. a task work item may be clones as PlatformDepTask, SystemDepTask; both of these task work items are sharing the same fields, workflow or layouts, but they are configured to be accessible by different department or there is some other minor differences.
 
 You should create a WIT template and use a place holder for the difference, e.g.
@@ -34,8 +32,9 @@ You should create a WIT template and use a place holder for the difference, e.g.
 ```
 
 **Figure: WIT template with a placeholdera**
-  </>}
-/>
+
+<endOfIntro />
+
 Then use the following PowerShell script to automatically clone the work item and replace the placeholder with actual text.
 
 ```pwsh

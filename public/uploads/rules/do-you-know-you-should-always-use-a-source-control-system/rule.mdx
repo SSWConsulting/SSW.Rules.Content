@@ -23,13 +23,12 @@ type: rule
 uri: do-you-know-you-should-always-use-a-source-control-system
 ---
 
-<introEmbed
-  body={<>
 You should always use a source control system!
 
 It is not for a backup, it is because changing code can introduce new bugs. Often these bugs are non-obvious and appear in a part of the system, far removed from your changes. They are especially useful when another developer made the breaking change.
-  </>}
-/>
+
+<endOfIntro />
+
 So source code tracking allows you to see what changed recently to introduce a new bug. This dramatically reduces the time it takes to find and fix a newly introduced error.
 
 ### Integrate your source control with your bug tracking tool

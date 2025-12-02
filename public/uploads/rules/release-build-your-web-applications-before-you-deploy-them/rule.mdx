@@ -21,8 +21,6 @@ type: rule
 uri: release-build-your-web-applications-before-you-deploy-them
 ---
 
-<introEmbed
-  body={<>
 Reasons to release build your web applications before you deploy them with ASP.NET:
 
 * ASP.NET conducts a batch compilation on "release builds", which means it tries to compile all files in the current folder into one DLL
@@ -32,8 +30,9 @@ According to [MSDN web developer tips](https://blogs.msdn.microsoft.com?WT.mc_i
 
 * In web.config file, set &lt;compilation debug="false"/&gt;
 * Disable the &lt;compilation debug="true"/&gt; switch for all ASP.NET applications on the server by setting the following in Machine.config
-  </>}
-/>
+
+<endOfIntro />
+
 ```xml
 <system.web>
     <deployment retail="true"/>

@@ -22,11 +22,10 @@ type: rule
 uri: warn-users-before-starting-a-long-process
 ---
 
-<introEmbed
-  body={<>
 When your application is about to start a long process (more than 30 seconds) it should first show a warning message to let the user know approximately how long it will take.
-  </>}
-/>
+
+<endOfIntro />
+
 You will need to have 2 things:
 
 1. A table to record processes containing the following fields:

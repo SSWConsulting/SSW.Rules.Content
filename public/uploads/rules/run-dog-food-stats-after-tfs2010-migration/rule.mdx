@@ -21,11 +21,10 @@ type: rule
 uri: run-dog-food-stats-after-tfs2010-migration
 ---
 
-<introEmbed
-  body={<>
 Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values against the [stats you noted down from your TFS 2008 server](/do-you-run-your-dog-food-stats-before1).
-  </>}
-/>
+
+<endOfIntro />
+
 1. On TFS2010, run the DogFoodStats queries and save the results
 2. Compare the numbers are the same
    **Note:** Number will differ slightly (usually increases as TFS2010 checks in a few more items)

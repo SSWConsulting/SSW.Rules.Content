@@ -22,16 +22,15 @@ type: rule
 uri: avoid-empty-code-block
 ---
 
-<introEmbed
-  body={<>
 Empty Visual C# .NET methods consume program resources unnecessarily. Put a comment in code block if its stub for future application.
 Don’t add empty C# methods to your code. If you are adding one as a placeholder for future development, add a comment with a TODO.
 
 Also, to avoid unnecessary resource consumption, you should keep the entire method commented until it has been implemented.
 
 If the class implements an inherited interface method, ensure the method throws NotImplementedException.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 public class Example
  {

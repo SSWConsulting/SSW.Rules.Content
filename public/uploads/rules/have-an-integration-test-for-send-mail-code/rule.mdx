@@ -24,11 +24,10 @@ type: rule
 uri: have-an-integration-test-for-send-mail-code
 ---
 
-<introEmbed
-  body={<>
 The code below shows how you could use TestSmtpServer to test your send mail code:
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 DotNetOpenMailProvider provider = new DotNetOpenMailProvider();
 NameValueCollection configValue = new NameValueCollection();

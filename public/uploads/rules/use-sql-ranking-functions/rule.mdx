@@ -23,11 +23,10 @@ type: rule
 uri: use-sql-ranking-functions
 ---
 
-<introEmbed
-  body={<>
 SQL Ranking functions are introduced since SQL 2005. With these handy functions, you can easily rank your data.
-  </>}
-/>
+
+<endOfIntro />
+
 ```sql
  SQL Snippet
  SELECT Rank() Over(Order A.BillableTimeTotal Desc) As Rank

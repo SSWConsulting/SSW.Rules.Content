@@ -26,13 +26,12 @@ type: rule
 uri: do-you-catch-exceptions-precisely
 ---
 
-<introEmbed
-  body={<>
 In a try-catch block, avoid catching generic [Exception](https://learn.microsoft.com/en-us/dotnet/api/system.exception?redirectedfrom=MSDN&view=net-8.0&WT.mc_id=DT-MVP-33518) types as this masks the underlying problem. Instead, target only the specific exceptions you can manage, which helps in accurately identifying and rectifying the error.
 
 It is essential to foresee the exceptions that the code in the try block might raise. Catching these specific exceptions at the point of occurrence provides the most context for effectively addressing the issue.
-  </>}
-/>
+
+<endOfIntro />
+
 ```cs
 try
 {

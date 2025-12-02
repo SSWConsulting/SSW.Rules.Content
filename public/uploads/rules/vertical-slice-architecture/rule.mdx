@@ -28,13 +28,12 @@ type: rule
 uri: vertical-slice-architecture
 ---
 
-<introEmbed
-  body={<>
 VSA organises code by business feature rather than technical layer, meaning each change is confined to a single, self-contained slice.
 
 This design brings 3 clear advantages: predictable impact, quicker reviews, and safer releases with minimal ripple across the codebase.
-  </>}
-/>
+
+<endOfIntro />
+
 ## What is Vertical Slice Architecture?
 
 Vertical Slice Architecture is a feature-first structure where every user action lives in its own folder. Each slice starts with a request or command object that captures the intent, flows through a single handler that contains the domain logic, relies on slice-owned infrastructure like data access or external API wrappers, and includes tests stored alongside the code.

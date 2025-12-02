@@ -19,11 +19,10 @@ createdByEmail: matt.goldman@outlook.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 You should be using [branch protection](/use-branch-protection) rules to protect your main branch in your source repository. These can include minimum number of reviewers, specific required reviews, passing tests, or code quality checks. These help you maintain quality standards in your product, but you can override these checks with a privileged account and, sometimes, you should.
-  </>}
-/>
+
+<endOfIntro />
+
 Most source code repositories (including Azure DevOps and GitHub) allow you to set branch protection rules, meaning code must meet a set of conditions before it can be merged into the main branch. But administrators, or individuals with the appropriate delegated authority, can bypass these checks and merge code without these conditions being met.
 
 

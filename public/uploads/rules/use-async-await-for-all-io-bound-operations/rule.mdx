@@ -22,8 +22,6 @@ type: rule
 uri: use-async-await-for-all-io-bound-operations
 ---
 
-<introEmbed
-  body={<>
 IO-Bound operations are operations where the execution time is not determined by CPU speed but by the time taken for an input/output operation to complete.
 
 Examples include:
@@ -38,8 +36,9 @@ It's important to note that all these IO operations are usually several orders o
 Modern .NET applications provide a thread pool for handling many operations in parallel. Threads are pooled to mitigate the expense of thread creation and destruction.
 
 If an individual thread is waiting for IO to complete, it is IO blocked and cannot be used to handle any more work until that IO operation is finished.
-  </>}
-/>
+
+<endOfIntro />
+
 When using async, the thread is released back to the thread pool while waiting for IO, while the await keyword registers a callback that will be executed after IO completion.
 
 The async/await pattern is most effective when applied “all the way down”. For ASP.NET web applications this means that the Controller Action – which is usually the entry point for a request into your application – should be async.

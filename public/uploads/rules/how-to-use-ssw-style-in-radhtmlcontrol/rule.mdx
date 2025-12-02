@@ -20,13 +20,12 @@ type: rule
 uri: how-to-use-ssw-style-in-radhtmlcontrol
 ---
 
-<introEmbed
-  body={<>
 Do you know how to apply style to image, figure, etc?
 
 Let's take the "AvoidReplyToAllWhenBcc" page as example.
-  </>}
-/>
+
+<endOfIntro />
+
 First, the reason to cause the style issue is the style doesn’t apply to right place. Below is the html code after you adjust the figure manually (sorry, still not right). Please look at the highlight part...
 
 * The “ms-rteCustom-ImageArea” style doesn’t apply to &lt;img&gt; tag, but wrapped by &lt;span&gt; with “ms-rteCustom-ImageArea” style;

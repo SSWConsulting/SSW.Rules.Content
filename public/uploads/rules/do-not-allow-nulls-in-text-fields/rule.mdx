@@ -22,12 +22,11 @@ type: rule
 uri: do-not-allow-nulls-in-text-fields
 ---
 
-<introEmbed
-  body={<>
 NULLs complicate your life. To avoid having to constantly differentiate between empty strings and NULLs, you should avoid storing NULLS if you can.
 Why? Well, what is wrong with this?
-  </>}
-/>
+
+<endOfIntro />
+
 ```sql
 SELECT ContactName FROM Customer WHERE ContactName <> ''
 ```

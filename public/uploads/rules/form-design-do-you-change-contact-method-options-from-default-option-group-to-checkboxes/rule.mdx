@@ -22,12 +22,23 @@ type: rule
 uri: form-design-do-you-change-contact-method-options-from-default-option-group-to-checkboxes
 ---
 
-<introEmbed
-  body={<>
 As per our rule [Do you know when to use CheckBox?](/control-choice-do-you-know-when-to-use-checkboxes). Checkboxes should be used instead of the option group since the answer is a boolean type.
-![Bad Example - By default CRM uses option group for contact's and account's contact methods.](/uploads/rules/form-design-do-you-change-contact-method-options-from-default-option-group-to-checkboxes/CRMContactMethods.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "badExample",
+    figure: "Bad Example - By default CRM uses option group for contact's and account's contact methods.",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/form-design-do-you-change-contact-method-options-from-default-option-group-to-checkboxes/CRMContactMethods.jpg"
 />
+
+
+<endOfIntro />
+
 You can change the option group to checkboxes by:
 
 1. From CRM, go to Settings | Customizations | Customize Entities

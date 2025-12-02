@@ -22,11 +22,10 @@ type: rule
 uri: avoid-logic-errors-by-using-else-if
 ---
 
-<introEmbed
-  body={<>
 We see a lot of programmers doing this, they have two conditions - true and false - and they do not consider other possibilities - e.g. an empty string. Take a look at this example. We have an If statement that checks what backend database is being used.
-  </>}
-/>
+
+<endOfIntro />
+
 In the example the only expected values are "Development" and "Production".
 
 ```cs

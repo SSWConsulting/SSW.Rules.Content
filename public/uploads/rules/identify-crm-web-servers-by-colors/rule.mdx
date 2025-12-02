@@ -28,15 +28,37 @@ type: rule
 uri: identify-crm-web-servers-by-colors
 ---
 
-<introEmbed
-  body={<>
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
 ### CRM
 
-![Figure: Staging uses blue background](/uploads/rules/identify-crm-web-servers-by-colors/ssw staging 2.png)
 
-![Figure: Production uses red background](/uploads/rules/identify-crm-web-servers-by-colors/ssw production 2.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Staging uses blue background",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/ssw staging 2.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Production uses red background",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/ssw production 2.png"
+/>
+
 
 The way to change the default background color is to edit the CRM CSS files. These changes aren't supported and may be overwritten when CRM Rollups are applied.
 
@@ -44,7 +66,19 @@ The way to change the default background color is to edit the CRM CSS files. The
 
 Using theme feature to change the environment color.
 
-![Figure: Changing CRM 2016 UI by using theme feature](/uploads/rules/identify-crm-web-servers-by-colors/CRM2015Theme.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "Changing CRM 2016 UI by using theme feature",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/CRM2015Theme.jpg"
+/>
+
 
 ### CRM 2013
 
@@ -63,9 +97,22 @@ Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_controls\navbar\navbar.css`:
 
 **Figure: Edit the background color to reflect the environment**
 
-![Figure: CRM 2013 with a green navigation bar](/uploads/rules/identify-crm-web-servers-by-colors/crm2013_greenbar.jpg)
-  </>}
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figureEmbed={ {
+    preset: "default",
+    figure: "CRM 2013 with a green navigation bar",
+    shouldDisplay: true
+  } }
+  src="/uploads/rules/identify-crm-web-servers-by-colors/crm2013_greenbar.jpg"
 />
+
+
+<endOfIntro />
+
 ### CRM 2011
 
 Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:

@@ -23,13 +23,12 @@ type: rule
 uri: the-application-do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
 ---
 
-<introEmbed
-  body={<>
 Having many people in a company that are able to make schema changes, can only lead to big problems. This gets worse if the application is powerful (eg. enabled with [SSW SQL Deploy](https://sqldeploy.com/) that can make schema changes itself) can make schema changes.
 
 Let's see how to fix the issue:
-  </>}
-/>
+
+<endOfIntro />
+
 To avoid this problem, only one person (the "Schema Master") or the release pipeline should have permissions to upgrade the database.
 
 

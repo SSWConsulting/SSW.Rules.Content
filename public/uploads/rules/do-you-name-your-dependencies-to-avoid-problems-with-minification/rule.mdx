@@ -23,11 +23,10 @@ type: rule
 uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
 ---
 
-<introEmbed
-  body={<>
 Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly.
-  </>}
-/>
+
+<endOfIntro />
+
 The standard way to inject your dependencies looks a little like the following. We're defining a controller in this case.
 
 ```js

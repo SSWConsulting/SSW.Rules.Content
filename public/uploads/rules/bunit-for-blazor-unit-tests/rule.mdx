@@ -19,14 +19,13 @@ type: rule
 uri: bunit-for-blazor-unit-tests
 ---
 
-<introEmbed
-  body={<>
 [Unit testing](/rules-to-better-unit-tests) is an essential part of the software development process, especially for Blazor applications. [bUnit](https://bunit.dev/) is a testing library specifically designed for Blazor components, making it easier to write robust unit tests. It is installed via a [NuGet package](https://www.nuget.org/packages/bunit) and can be used with any testing framework such as xUnit.
 
 When you use bUnit, you can simulate user interactions and assert component behavior in a way that is close to how your users will interact with your application. This can significantly increase the reliability of your components.
-  </>}
-/>
 
+<endOfIntro />
+
+<br>
 Let's look at an example of a simple component that increments a counter when a button is clicked.
 
 **ExampleComponent.razor**
@@ -45,7 +44,7 @@ Let's look at an example of a simple component that increments a counter when a 
 }
 ```
 
-
+<br>
 
 Let's write a unit test for this component, asserting that the counter is incremented when the button is clicked.
 
@@ -78,7 +77,7 @@ public class ExampleComponentTests
   shouldDisplay: true
 } } />
 
-
+<br>
 
 This is a very simple example, but the same concepts apply to more complex components. bUnit also provides a number of other features that make it easier to write unit tests for Blazor components, such as the ability to mock services and inject them into components.
 

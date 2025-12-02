@@ -24,11 +24,10 @@ type: rule
 uri: only-use-unicode-datatypes-in-special-circumstances
 ---
 
-<introEmbed
-  body={<>
 Columns defined using the nchar and nvarchar datatypes can store any character defined by the Unicode Standard, which includes all of the characters defined in the various English and Non-English character sets. These datatypes take twice as much storage space per characters as non-Unicode data types.
-  </>}
-/>
+
+<endOfIntro />
+
 It is not the disk space costs that are the concern. It is the 8060 limit, please refer to [Maximum Capacity Specifications for SQL Server](https://docs.microsoft.com/en-us/sql/sql-server/maximum-capacity-specifications-for-sql-server?redirectedfrom=MSDN&view=sql-server-ver15&WT.mc_id=DP-MVP-33518) for details.
 
 If your database stores only English characters, this is a waste of space. Don't use Unicode double-byte datatypes such as nchar and nvarchar unless you are doing multilingual applications.

@@ -32,11 +32,10 @@ type: rule
 uri: azure-resources-creating
 ---
 
-<introEmbed
-  body={<>
 We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again: **Don't manually create Azure resources.**
-  </>}
-/>
+
+<endOfIntro />
+
 ### Manually Creating Resources
 
 This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration drift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency?WT.mc_id=AZ-MVP-33518), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.

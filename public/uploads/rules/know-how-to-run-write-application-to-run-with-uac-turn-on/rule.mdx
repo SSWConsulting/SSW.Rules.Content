@@ -18,11 +18,10 @@ createdByEmail: igor.goldobin@gmail.com
 isArchived: false
 ---
 
-<introEmbed
-  body={<>
 Some applications may need to have administrator right for running the application, e.g. create a file, access system library, etc. It will be an issue for the application to run if UAC is turned on. Below is the step to solve the issue:
-  </>}
-/>
+
+<endOfIntro />
+
 1. Add App.Manifest into WindowsUI project. It should contain the below code:
 
 ```xml
