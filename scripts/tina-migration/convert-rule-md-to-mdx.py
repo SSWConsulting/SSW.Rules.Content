@@ -656,7 +656,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
-    content = re.sub(r'<!--\s*endintro\s*-->', '<endOfIntro />', content, flags=re.IGNORECASE)
+    content = re.sub(r'<!--\s*endintro\s*-->', '<endIntro />', content, flags=re.IGNORECASE)
 
     content = convert_mark_tags_to_md_highlight(content)
     content = mdx_safe_template_vars(content)
