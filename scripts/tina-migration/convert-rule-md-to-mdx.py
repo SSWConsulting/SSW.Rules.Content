@@ -96,6 +96,10 @@ ASSET_LINK_REGEX = r'(?<!\!)\[(?P<text>[^\]]+)\]\((?P<href>[^)\s]+)(?:\s+"(?P<ti
 def js_string(text: str) -> str:
     return json.dumps(text, ensure_ascii=False)
 
+def js_string_unquoted(text: str) -> str:
+    dumped = json.dumps(text, ensure_ascii=False)
+    return dumped[1:-1]  # remove the surrounding double quotes
+
 def mdx_safe_template_vars(text):
     return text.replace("{{", "&#123;&#123;").replace("}}", "&#125;&#125;")
 
@@ -231,7 +235,7 @@ def replace_image_block(m, src_prefix):
     raw_src = alt_match.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
-    figure_js = js_string(figure)
+    figure_js = js_string_unquoted(figure)
     caption_style = preset if preset == "none" else f"{preset}"
 
     return f'''
@@ -273,7 +277,7 @@ def replace_custom_size_image_block(m, src_prefix):
 
     # If figure is empty, set shouldDisplay to false
     should_display = "true" if figure_raw else "false"
-    figure_js = js_string(figure_raw)
+    figure_js = js_string_unquoted(figure_raw)
 
     return f'''
 <imageEmbed
@@ -291,7 +295,7 @@ def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure)
+    figure_js = js_string_unquoted(figure)
 
     return f'''
 <imageEmbed
@@ -339,7 +343,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
 
     show_border = "false" if variant == "no-border" else "true"
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure_raw)
+    figure_js = js_string_unquoted(figure_raw)
 
     return f'''
 <imageEmbed
@@ -367,7 +371,7 @@ def replace_email_block(m):
     figure_match = re.search(r'Figure:\s*(.*)', figure_block)
     raw_figure = figure_match.group(1).strip() if figure_match else ""
 
-    figure_js = js_string(raw_figure)
+    figure_js = js_string_unquoted(raw_figure)
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -400,7 +404,7 @@ def replace_email_block_no_rating(m):
     cleaned_body = clean_email_body(body)
 
     preset = "none"
-    figure_js = js_string(figure_text if figure_text else "")
+    figure_js = js_string_unquoted(figure_text if figure_text else "")
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -503,7 +507,7 @@ def process_custom_aside_blocks(content):
             body = convert_angle_bracket_links(body)
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
-            figure_js = js_string(figure)
+            figure_js = js_string_unquoted(figure)
             embed = f'''
 <boxEmbed
   style="{box_type}"
@@ -614,7 +618,7 @@ def transform_email_blocks(content: str) -> str:
         cc_js      = js_string(email_data['cc'])
         bcc_js     = js_string(email_data['bcc'])
         subject_js = js_string(email_data['subject'])
-        figure_js  = js_string(figure_text if figure_text else "")
+        figure_js  = js_string_unquoted(figure_text if figure_text else "")
 
         should_display_body_js = "true" if should_display_body else "false"
         should_display_js = "true" if should_display else "false"
