@@ -131,7 +131,7 @@ def replace_image_block(m, src_prefix):
   size="large"
   showBorder={{false}}
   captionStyle="{caption_style}"
-  captionText={{{figure_js}}}
+  caption={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -169,7 +169,7 @@ def replace_custom_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   captionStyle="default"
-  captionText={{{figure_js}}}
+  caption={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -184,7 +184,7 @@ def replace_standalone_image(m, src_prefix):
   size="large"
   showBorder={{false}}
   captionStyle="default"
-  captionText={{{figure_js}}}
+  caption={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -214,7 +214,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   captionStyle="{preset_kind}Example"
-  captionText={{{figure_js}}}
+  caption={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -290,7 +290,7 @@ def process_custom_aside_blocks(content):
     {body}
   </>}}
   captionStyle="{preset}"
-  captionText={{{figure_js}}}
+  caption={{{figure_js}}}
 />'''
             output.append(embed)
             in_box = False

@@ -1,0 +1,48 @@
+---
+type: category
+title: Rules to Better ChatGPT Prompt Engineering
+guid: 91b60efc-2b8e-4ff1-a373-ac4cab576483
+uri: rules-to-better-chatgpt-prompt-engineering
+index:
+  - fundamentals-of-prompt-engineering
+  - ai-prompt-xml
+  - chatgpt-cheat-sheet
+  - chatgpt-security-risks
+  - custom-instructions
+  - give-chatgpt-a-role
+  - use-different-tones
+  - tell-chatgpt-to-ask-questions
+  - test-prompts-then-iterate
+  - chained-prompting
+  - shot-prompts
+  - critical-agent
+  - reflexion
+  - generating-multiple-responses-from-chatgpt
+  - get-chatgpt-to-answer-step-by-step
+  - tree-of-thought-prompts-for-complex-reasoning
+  - define-intent-in-prompts
+  - keep-prompts-concise-and-clear
+  - use-natural-language-with-chatgpt
+  - choose-the-right-verbs-in-prompts
+  - avoid-leading-prompt-questions
+  - gpt-tokens
+  - pros-and-cons-and-ratings
+  - ai-efficient-clarify-questions
+  - examples-and-analogies-clarification
+  - summarize-long-conversations
+  - chain-of-density
+  - chatgpt-plugins
+  - chatgpt-prompt-templates
+  - chatgpt-prompts-for-video-production
+  - chatgpt-for-powerpoint
+  - use-chatgpt-to-write-a-rule
+  - chatgpt-for-email
+  - humanise-ai-generated-content
+  - train-ai-to-write-in-your-style
+  - avoid-ai-hallucinations
+
+---
+
+ChatGPT Prompt Engineering helps you get the best out of AI.
+
+Good prompts lead to clearer, more accurate answers and smoother conversations. This set of SSW Rules shares simple best practices for writing prompts that unlock ChatGPT’s full potential.

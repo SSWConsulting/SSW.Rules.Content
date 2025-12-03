@@ -1,0 +1,19 @@
+---
+seoDescription: Office deliveries require your name in postal details to ensure correct identification when they arrive.
+type: rule
+archivedreason:
+title: Do you include your name on office deliveries?
+guid: d2b49c34-34f6-405e-90d4-52df21ba8409
+uri: identify-office-deliveries
+created: 2014-07-04T07:15:57.0000000Z
+authors:
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
+related: []
+redirects:
+  - do-you-identify-your-online-purchases
+---
+
+When making an online purchase using the company account, remember to include **your name** in the postal details so that the item is correctly identified and given to you. Having it sent to the company unidentified or under the boss's name can lead to confusion and the package may end up in limbo.
+
+<!--endintro-->
