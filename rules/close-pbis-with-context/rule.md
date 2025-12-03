@@ -61,9 +61,13 @@ If you are closing a PBI as "Won't fix", mention the person who agreed and the r
 
 ## Be aware of auto-closing Issues in GitHub
 
-In GitHub, there is a feature that allows PBIs to be automatically closed when a pull request (PR) is merged. Ideally, the PR contains all the context that would normally be included in a 'Done' reply to the PBI, streamlining the process. This feature is particularly useful as it ensures the issue is linked to the PR and eliminates the common 'I forgot to close the PBI' oversight. This feature is good for some teams.
+In GitHub, there is a feature that allows PBIs to be automatically closed when a pull request (PR) is merged. Ideally, the PR contains all the context that would normally be included in a 'Done' reply to the PBI, streamlining the process. This feature is particularly useful as it ensures the issue is linked to the PR and eliminates the common 'I forgot to close the PBI' oversight.
 
 Be aware, this auto-closes the issue and assumes merging the PR is the only work required. This is not always true depending on your [Definition of Done](/definition-of-done) and deployment process.
+
+::: info
+**Tip:** Repository administrators can disable auto-closing. See [GitHub's documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues) for details.
+:::
 
 See rule on [avoiding auto-closing Issues](/avoid-auto-closing-issues).
 
