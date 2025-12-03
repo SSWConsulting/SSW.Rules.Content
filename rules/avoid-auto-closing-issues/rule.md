@@ -17,8 +17,7 @@ GitHub provides a way to link issues to PRs. This is useful to see what PRs are 
 
 This is not a good idea because it can cause Issues to be closed prematurely. This can lead to confusion and lost work.
 
-Luckily, GitHub provides a way to avoid this auto-closing behavior by using alternative terms when linking issues to PRs.
-
+Luckily, GitHub provides a way to avoid this auto-closing behavior by disabling it in the repository settings.
 <!--endintro-->
 
 Issues should not be closed until all the tasks are complete and have a done comment as per [closing PBIs with context](/close-pbis-with-context/).
