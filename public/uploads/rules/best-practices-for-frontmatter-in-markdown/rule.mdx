@@ -21,11 +21,18 @@ Frontmatter is a critical component in Markdown files, especially when generatin
 
 However, when not structured properly, it can lead to parsing errors, inconsistencies, and even disrupt the rendering of the entire page. To avoid these pitfalls and ensure a seamless integration of your Markdown files, it's essential to follow best practices when defining Frontmatter.
 
-<!--endintro-->
+<endIntro />
 
-::: info
-**Tip:** You can simplify the workflow for editors unfamiliar with Git or Markdown by utilizing [Tina](https://tina.io), a CMS with user-friendly interface integrated with your Git repository.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** You can simplify the workflow for editors unfamiliar with Git or Markdown by utilizing [Tina](https://tina.io), a CMS with user-friendly interface integrated with your Git repository.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Use Key-Value Pair Organization
 
@@ -43,10 +50,7 @@ title+author: My Article by John
 2023-10-31
 –––
 ```
-
-::: bad
-Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies
-:::
+**❌ Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies**  
 
 ```md
 –––
@@ -55,10 +59,7 @@ author: Bob Northwind
 date: 2023-10-31
 –––
 ```
-
-::: good
-Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata
-:::
+**✅ Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata**  
 
 ### Use Arrays for Complex Data
 
@@ -75,25 +76,19 @@ However, avoid the common mistake of listing values in a continuous string. This
 authors: John Doe, Jane Smith, Bob Johnson
 –––
 ```
-
-::: bad
-Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging
-:::
+**❌ Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging**  
 
 Here's how you can effectively use arrays:
 
 ```md
 –––
-authors: 
+authors:
   - Bob Northwind
   - Jane Smith
   - Bob Johnson
 –––
 ```
-
-::: good
-Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently
-:::
+**✅ Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently**  
 
 ### Use Meaningful Keys
 
@@ -110,10 +105,7 @@ t: My Article
 auth: Bob Northwind
 –––
 ```
-
-::: bad
-Figure: Bad example - Shortened or unclear keys can lead to confusion
-:::
+**❌ Figure: Bad example - Shortened or unclear keys can lead to confusion**  
 
 Use clear, meaningful keys:
 
@@ -123,10 +115,7 @@ title: My Article
 author: Bob Northwind
 –––
 ```
-
-::: good
-Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with
-:::
+**✅ Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with**  
 
 ### Use Explicit Datatypes
 
@@ -143,10 +132,7 @@ year: '2023'
 published: "yes"
 –––
 ```
-
-::: bad
-Figure: Bad example - Ambiguous datatypes can lead to parsing errors
-:::
+**❌ Figure: Bad example - Ambiguous datatypes can lead to parsing errors**  
 
 Be explicit with your datatypes:
 
@@ -156,10 +142,7 @@ year: 2023
 published: true
 –––
 ```
-
-::: good
-Figure: Good example - Explicit datatypes ensure accurate data representation and extraction
-:::
+**✅ Figure: Good example - Explicit datatypes ensure accurate data representation and extraction**  
 
 ### Avoid Inline HTML
 
@@ -176,31 +159,25 @@ title: <em>My</em> Article
 author: <strong>Bob Northwind</strong>
 –––
 ```
-
-::: bad
-Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues
-:::
+**❌ Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues**  
 
 Stick to plain Markdown:
 
 ``` md
 –––
 title: "My Article"
-author: 
+author:
   - name: "Bob Northwind"
     role: "Writer"
 published: true
 year: 2023
-tags: 
+tags:
   - Technology
   - Writing
   - Markdown
-metadata: 
+metadata:
   created_at: "2023-10-30"
   modified_at: "2023-11-06"
 –––
 ```
-
-::: good
-Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering
-:::
+**✅ Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering**  

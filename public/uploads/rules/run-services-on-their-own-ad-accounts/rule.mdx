@@ -12,25 +12,53 @@ guid: 84d15d33-025c-45a8-97b4-7c4d35907722
 
 When [using service accounts](/do-you-use-service-accounts), you should have a specific AD account for each major service.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Using the default Administrator account"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/defaultadministrationaccount.jpeg"
+/>
 
-![Figure: Bad example - Using the default Administrator account](defaultadministrationaccount.jpeg)
-:::
 
-::: ok
-![Figure: Better example - At least don't use the Administrator account, create a new account](createnewaccount.jpeg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="Better example - At least don't use the Administrator account, create a new account"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/createnewaccount.jpeg"
+/>
 
-::: good
-![Figure: Best example - A specific AD account for each major server](specificadaccount.jpeg)
-:::
 
-::: bad
-![Figure: Bad example - Using the network admin's name](networkadminname.jpeg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Best example - A specific AD account for each major server"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/specificadaccount.jpeg"
+/>
 
-::: good
-![Figure: Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')](sqlserveraccount.jpeg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Using the network admin's name"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/networkadminname.jpeg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/sqlserveraccount.jpeg"
+/>

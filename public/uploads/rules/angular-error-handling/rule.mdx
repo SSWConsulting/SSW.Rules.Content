@@ -12,7 +12,7 @@ authors:
 
 Angular provides built-in error-handling mechanisms such as [ErrorHandler](https://angular.io/api/core/ErrorHandler) and [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor).
 
-<!--endintro-->
+<endIntro />
 
 ## Handling Uncaught Errors
 
@@ -70,7 +70,16 @@ For example, if we want to provide a global error handler as a fallback and a sp
 export class HomeModule { }
 ```
 
-![Figure: Scoping Error Handler in Angular](angular-scoping-error-handler.png)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Scoping Error Handler in Angular"
+  src="/uploads/rules/angular-error-handling/angular-scoping-error-handler.png"
+/>
+
 **Figure: Scoping Error Handler in Angular**
 
 ## Handling API Errors

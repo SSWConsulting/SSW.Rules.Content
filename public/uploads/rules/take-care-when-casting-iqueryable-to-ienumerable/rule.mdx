@@ -14,7 +14,7 @@ When you cast IQueryable to IEnumerable and then query the data from there, Enti
 
 **NOTE:** Using `.AsEnumerable()` achieves the same effect.
 
-<!--endintro-->
+<endIntro />
 
 ### Counting
 
@@ -43,10 +43,7 @@ public IEnumerable<Sale> GetSales() => context.Sales;
 // because it receives the query as `IEnumerable` before running `.Count()`.
 int count4 = GetSales().Count();
 ```
-
-::: bad
-Bad example - All these examples read the entire table instead of just returning the count from the database.
-:::
+**❌ Bad example - All these examples read the entire table instead of just returning the count from the database.**  
 
 ```cs
 // All of the examples below will result in SQL query:
@@ -59,10 +56,7 @@ int count2 = query.Count();
 public IQueryable<Sale> GetSales() => context.Sales;
 int count3 = GetSales().Count();
 ```
-
-::: good
-Good example - Only the count is returned by the query
-:::
+**✅ Good example - Only the count is returned by the query**  
 
 ### Where
 
@@ -80,10 +74,7 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
-
-::: bad
-Bad example - The whole table is returned from the database and then discarded in code.
-:::
+**❌ Bad example - The whole table is returned from the database and then discarded in code.**  
 
 ```cs
 // All Examples will result in a SQL query like:
@@ -98,7 +89,4 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
-
-::: good
-Good example - Filtering is done on the database before returning data.
-:::
+**✅ Good example - Filtering is done on the database before returning data.**  

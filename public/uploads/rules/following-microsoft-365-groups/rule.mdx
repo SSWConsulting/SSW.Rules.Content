@@ -20,15 +20,29 @@ However, emails can be noisy, and you may want to reduce the number of emails re
 
 Below are some use cases:
 
-<!--endintro-->
+<endIntro />
 
-::: greybox
-**A.** You have a group that receives a lot of emails that do not need to be actioned, but may need to be found at a later date. You can happily unfollow this group, remove the noise from your inbox, and check the group folder later if needed.
-:::
 
-::: greybox
-**B.** You have a team where one person is the main point of contact - but others need to help out occasionally. For example, if you own a lot of domains, you will receive many emails about their renewals. It is good practice to have one person managing this - but it is also good practice to have the emails going to a group (not just an individual). Other members of the team can unfollow the group, and only check the folder if the responsible person is unavailable.
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **A.** You have a group that receives a lot of emails that do not need to be actioned, but may need to be found at a later date. You can happily unfollow this group, remove the noise from your inbox, and check the group folder later if needed.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **B.** You have a team where one person is the main point of contact - but others need to help out occasionally. For example, if you own a lot of domains, you will receive many emails about their renewals. It is good practice to have one person managing this - but it is also good practice to have the emails going to a group (not just an individual). Other members of the team can unfollow the group, and only check the folder if the responsible person is unavailable.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Follow/unfollow settings
 
@@ -40,11 +54,27 @@ To follow or unfollow a group in Outlook:
 2. Go to **Group Settings** in the ribbon
 3. Choose which items you would like to receive in your inbox
 
-![Figure: Outlook | Group Settings | Follow in Inbox](group-follow.png)
 
-:::info
-Note: This functionality is not available on Outlook for Mac. If you want to change these settings, use the [OWA](https://outlook.office.com/mail)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Outlook | Group Settings | Follow in Inbox"
+  src="/uploads/rules/following-microsoft-365-groups/group-follow.png"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    Note: This functionality is not available on Outlook for Mac. If you want to change these settings, use the [OWA](https://outlook.office.com/mail)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 #### As an administrator (Microsoft 365 admin center)
 
@@ -54,11 +84,27 @@ When you set up a new Microsoft 365 group, you can choose the default behaviour 
 2. Go to **Settings**
 3. Check or uncheck **Send copies of team emails and events to the team members' inboxes**
 
-![Figure: Microsoft 365 admin center | Teams & groups | Settings](group-admin.png)
 
-:::info
-**Note:** This will not change the behaviour for existing members. For this, you will need to use PowerShell (see below).
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Microsoft 365 admin center | Teams & groups | Settings"
+  src="/uploads/rules/following-microsoft-365-groups/group-admin.png"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** This will not change the behaviour for existing members. For this, you will need to use PowerShell (see below).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 #### As an administrator (PowerShell)
 
@@ -69,19 +115,19 @@ For more granular options, you can use PowerShell to view and edit settings for 
 Connect-ExchangeOnline
 
 # View the group follow settings
-Get-UnifiedGroup -Identity {{ group }} | fl Identity, DisplayName, AutoSubscribeNewMembers
+Get-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; | fl Identity, DisplayName, AutoSubscribeNewMembers
 
 # Enable or disable the above
-Set-UnifiedGroup -Identity {{ group }} -AutoSubscribeNewMembers
-Set-UnifiedGroup -Identity {{ group }} -AutoSubscribeNewMembers:$false
+Set-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; -AutoSubscribeNewMembers
+Set-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; -AutoSubscribeNewMembers:$false
 
 # Get a list or group members
-Get-UnifiedGroupLinks -Identity {{ group }} -LinkType Members
+Get-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Members
 
 # Check who is following the group
-Get-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers
+Get-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers
 
 # Add or remove people from following the group
-Add-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers -Links {{ User }}
-Remove-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers -Links {{ User }}
+Add-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers -Links &#123;&#123; User &#125;&#125;
+Remove-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers -Links &#123;&#123; User &#125;&#125;
 ```

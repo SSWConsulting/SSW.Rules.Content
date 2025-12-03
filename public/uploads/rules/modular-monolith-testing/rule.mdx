@@ -13,7 +13,7 @@ guid: A3DF3BDF-C0FA-4615-8EC9-F42EA85755CD
 
 In modular monolith applications, establishing a strong testing strategy is essential to ensure robust functionality and maintainable code across multiple modules. Modular monoliths often centralize domain logic, require clear interactions across module boundaries, and should provide cohesive end-to-end workflows. Implementing a well-structured testing strategy will help catch errors early, validate integrations, and prevent issues from arising in production.
 
-<!--endintro-->
+<endIntro />
 
 There are 3 main testing strategies that can be used to effectively test modular monoliths:
 
@@ -28,12 +28,16 @@ Unit testing is critical in a modular monolith to validate the core business rul
 * **Verification of isolated business logic** within each module, such as validation rules or calculations.
 * **Maintenance of a clean, well-defined contract** for each module’s internal methods.
 
-::: greybox
-Ensure each module’s domain logic has comprehensive unit tests that cover typical and edge cases.
-:::
-::: good
-Figure: Good Example - Unit tests confirm the integrity of domain logic in isolation from external dependencies.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Ensure each module’s domain logic has comprehensive unit tests that cover typical and edge cases.
+  </>}
+  figurePrefix="good"
+  figure="Good Example - Unit tests confirm the integrity of domain logic in isolation from external dependencies."
+/>
+
 
 ## Integration Testing
 
@@ -61,11 +65,15 @@ Workflow (or end-to-end) tests are invaluable in modular monoliths as they cover
 
 While workflow tests are the most complex and resource-intensive, they provide confidence that major application processes are functioning correctly and as intended.
 
-::: greybox
-Design workflow tests that cover the main paths users take, ensuring all modules work together to deliver expected end results.
-:::
-::: good
-Figure: Good Example - Workflow tests simulate full user journeys, giving comprehensive validation of the application’s functionality.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Design workflow tests that cover the main paths users take, ensuring all modules work together to deliver expected end results.
+  </>}
+  figurePrefix="good"
+  figure="Good Example - Workflow tests simulate full user journeys, giving comprehensive validation of the application’s functionality."
+/>
+
 
 By incorporating unit, integration, and workflow tests, teams can ensure that modular monoliths remain reliable, maintainable, and scalable. An effective testing strategy with these layers will provide better insights into system functionality and facilitate easier troubleshooting and faster development cycles.

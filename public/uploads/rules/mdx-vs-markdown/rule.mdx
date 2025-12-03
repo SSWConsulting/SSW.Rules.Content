@@ -1,21 +1,23 @@
 ---
-type: rule
-title: Do you know when to use MDX over Markdown?
-seoDescription: " Learn when to use MDX for custom components and advanced functionality, regardless of the framework, versus sticking with Markdown for simplicity."
-uri: mdx-vs-markdown
 authors:
-  - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+- title: Jack Pettit
+  url: https://ssw.com.au/people/jack-pettit
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
-related:
-  - rule
 redirects: []
+related:
+- rule: public/uploads/rules/rule/rule.mdx
+seoDescription: ' Learn when to use MDX for custom components and advanced functionality,
+  regardless of the framework, versus sticking with Markdown for simplicity.'
+title: Do you know when to use MDX over Markdown?
+type: rule
+uri: mdx-vs-markdown
 ---
+
 Markdown and MDX are closely related — think of MDX as Markdown’s more powerful sibling. Markdown keeps things simple and readable, while MDX extends it to handle interactive and dynamic content using React (or other component frameworks).
 
 [TinaCMS](https://tina.io) is a great tool to build your site in MDX.
 
-<!--endintro-->
+<endIntro />
 
 [View MD & MDX examples](/rule).
 
@@ -28,9 +30,16 @@ Markdown is perfect for straightforward content. Think of it like writing a clea
 * You want your page to load quickly
 * You just need basic formatting like headings, lists, and images
 
-::: greybox
-**Example:** A recipe blog post with some text, headings, and a few pictures. Markdown handles this beautifully without any extra complexity.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Example:** A recipe blog post with some text, headings, and a few pictures. Markdown handles this beautifully without any extra complexity.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## When to use MDX (.mdx)
 
@@ -41,9 +50,16 @@ MDX builds on Markdown by letting you embed components and logic directly inside
 * Your content requires some programming logic
 * You're creating tutorial content with live examples
 
-::: greybox
-**Example:** A coding tutorial with an interactive chart showing performance metrics, or a documentation page with a live code editor where readers can try out code in real-time.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Example:** A coding tutorial with an interactive chart showing performance metrics, or a documentation page with a live code editor where readers can try out code in real-time.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## Things to consider
 
@@ -63,5 +79,5 @@ The key is to start simple. Use Markdown for most of your content, and only swit
 
 Want to migrate your website to a modern CMS like **[🦙 TinaCMS](https://tina.io/)**, and move from Markdown to MDX? Check out [Markdown to MDX migration guide](https://tina.io/docs/guides/converting-md-to-mdx).
 
-`youtube: https://www.youtube.com/watch?v=CyWH5wPJUC8`
-**Video: Case Study - SSW migrating from MD to MDX for SSW Rules (5 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=CyWH5wPJUC8" description={"Video: Case Study - SSW migrating from MD to MDX for SSW Rules (5 min)"} />

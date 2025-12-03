@@ -12,7 +12,7 @@ guid: df81ed0a-c8a1-46bf-82ea-892929c7191f
 
 In a Windows application, if you need to send mail, please use a WebService to do this, because using WebService to send emails is safer.You don't need to store the email server configuration in your application.config file, which can be installed on the client and be exposed to someone who could take advantage of it.
 
-<!--endintro-->
+<endIntro />
 
 ```cs
 SmtpClient client = new SmtpClient();
@@ -42,16 +42,10 @@ catch(Exception ex)
     MessageBox.Show(ex.ToString());
 }
 ```
-
-::: bad
-Bad example - Send mail without webservice
-:::
+**❌ Bad example - Send mail without webservice**  
 
 ```cs
 Emailer.PubicFunction pf = new EmailWebServices.Emailer.Publiction();
 pf.SendMail("Test", textBox3.Text, textBox1.Text, textBox2.Text, false, "", null);
 ```
-
-::: good
-Good example - Send mail use webservice
-:::
+**✅ Good example - Send mail use webservice**  

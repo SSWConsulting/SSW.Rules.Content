@@ -14,7 +14,7 @@ guid: E3F562C1-30FF-4982-B96F-2AA0A716E842
 
 When working on large enterprise scale projects .NET Solutions can often become unwieldy and difficult to maintain. This is particularly true of `.csproj` files which end up repeating configuration across all projects. How can one file save you hours of maintenance by keeping project configuration DRY?
 
-<!--endintro-->
+<endIntro />
 
 ## What is a Directory.Build.props file?
 
@@ -33,57 +33,58 @@ This can be used for:
 
 ### Examples
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 **Project1.csproj:**
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
+&lt;Project Sdk="Microsoft.NET.Sdk.Web"&gt;
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+  &lt;PropertyGroup&gt;
+    &lt;TargetFramework&gt;net8.0&lt;/TargetFramework&gt;
+    &lt;Nullable&gt;enable&lt;/Nullable&gt;
+    &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
 
-    <!-- Configure code analysis. -->
-    <AnalysisLevel>latest</AnalysisLevel>
-    <AnalysisMode>Recommended</AnalysisMode>
-    <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
-    <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
-    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-  </PropertyGroup>
+    &lt;!-- Configure code analysis. --&gt;
+    &lt;AnalysisLevel&gt;latest&lt;/AnalysisLevel&gt;
+    &lt;AnalysisMode&gt;Recommended&lt;/AnalysisMode&gt;
+    &lt;TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/TreatWarningsAsErrors&gt;
+    &lt;CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/CodeAnalysisTreatWarningsAsErrors&gt;
+    &lt;EnforceCodeStyleInBuild&gt;true&lt;/EnforceCodeStyleInBuild&gt;
+  &lt;/PropertyGroup&gt;
 
-</Project>
+&lt;/Project&gt;
 ```
 
 **Project2.csproj:**
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
+&lt;Project Sdk="Microsoft.NET.Sdk.Web"&gt;
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
+    &lt;PropertyGroup&gt;
+        &lt;TargetFramework&gt;net8.0&lt;/TargetFramework&gt;
+        &lt;Nullable&gt;enable&lt;/Nullable&gt;
+        &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
 
-        <!-- Configure code analysis. -->
-        <AnalysisLevel>latest</AnalysisLevel>
-        <AnalysisMode>Recommended</AnalysisMode>
-        <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
-        <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
-        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    </PropertyGroup>
+        &lt;!-- Configure code analysis. --&gt;
+        &lt;AnalysisLevel&gt;latest&lt;/AnalysisLevel&gt;
+        &lt;AnalysisMode&gt;Recommended&lt;/AnalysisMode&gt;
+        &lt;TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/TreatWarningsAsErrors&gt;
+        &lt;CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'"&gt;true&lt;/CodeAnalysisTreatWarningsAsErrors&gt;
+        &lt;EnforceCodeStyleInBuild&gt;true&lt;/EnforceCodeStyleInBuild&gt;
+    &lt;/PropertyGroup&gt;
 
-</Project>
+&lt;/Project&gt;
 ```
 
-:::
-::: bad
-Bad example - Redundant configuration
-:::
-
-::: good
-**Project1.csproj:**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Redundant configuration"
+/>
+**✅ **Project1.csproj:**
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -114,9 +115,5 @@ Bad example - Redundant configuration
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     </PropertyGroup>
 </Project>
-```
-
-:::
-::: good
-Good example - Centralized configuration
-:::
+```**  
+**✅ Good example - Centralized configuration**  

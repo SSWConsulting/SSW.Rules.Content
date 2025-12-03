@@ -14,11 +14,18 @@ Do you want to make your JavaScript code more efficient and easier to read? Loda
 
 JavaScript is a powerful language, but it can sometimes be tricky to write clean, efficient code. This is where Lodash shines. Lodash is a JavaScript utility library providing handy methods for manipulating and combining arrays, objects, numbers, strings, among other data types.
 
-<!--endintro-->
+<endIntro />
 
-::: info  
-For optimal bundle size and tree-shaking capabilities in modern JavaScript applications, we recommend using [lodash-es](https://www.npmjs.com/package/lodash-es) over the standard lodash library.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    For optimal bundle size and tree-shaking capabilities in modern JavaScript applications, we recommend using [lodash-es](https://www.npmjs.com/package/lodash-es) over the standard lodash library.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## The why and when to use lodash
 
@@ -31,10 +38,7 @@ Always consider the trade-off between adding an extra dependency to your project
 ### A simple misuse of Lodash
 
 Here's an example where using Lodash's `_.map` method is unnecessary:
-
-::: bad
-
-```js
+**❌ ```js
 const arr = [1, 2, 3];
 const newArr = _.map(arr, function (n) {
   return n * 3;
@@ -43,41 +47,29 @@ console.log(newArr);
 // output: [3, 6, 9]
 ```
 
-Figure: using Lodash's \_.map method
-:::
-
-::: good
-
-```js
+Figure: using Lodash's \_.map method**  
+**✅ ```js
 const arr = [1, 2, 3];
 const newArr = arr.map((n) => n * 3);
 console.log(newArr);
 // output: [3, 6, 9]
 ```
 
-Figure: using the native JavaScript Array.map() method
-:::
+Figure: using the native JavaScript Array.map() method**  
 
 In the above example it is more efficient to use the native implementation and would not require adding the Lodash dependency. Which adds bloat to the
 
 ### A good use of Lodash
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values.
-
-::: bad
-
-```js
+**❌ ```js
 const user = users.find((user) => user.age === 1 && user.active === true);
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 ```
 
-Figure: native JavaScript find method
-:::
-
-::: good
-
-```js
+Figure: native JavaScript find method**  
+**✅ ```js
 import { find } from "lodash-es";
 
 const users = [
@@ -91,5 +83,4 @@ console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 ```
 
-Figure: Lodash's \_.find method
-:::
+Figure: Lodash's \_.find method**  

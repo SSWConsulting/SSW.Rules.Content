@@ -12,7 +12,7 @@ guid: 14164594-be6a-4750-b445-94f6ba586d03
 
 Testing and iterating on your prompts is essential for achieving better results with ChatGPT. By evaluating the responses you receive and refining your prompts accordingly, you can fine-tune your questions and requests to elicit more accurate and useful answers.
 
-<!--endintro-->
+<endIntro />
 
 Here are some tips for testing and iterating on your prompts:
 
@@ -21,22 +21,48 @@ Here are some tips for testing and iterating on your prompts:
 - Experiment with different phrasings, keywords, or context to find the most effective prompt
 - Don't be afraid to try multiple iterations to achieve the desired outcome
 
-::: greybox
-"Tell me about the thing with the apple falling and the guy who discovered something important."
-:::
-::: bad
-Figure: Bad example - You might start with a prompt like this, get sub-optimal output, and then...
-:::
 
-::: greybox
-"Can you explain the story of Isaac Newton and the falling apple, and how it led to his discovery of the law of universal gravitation?"
-:::
-::: good
-Figure: Good example - The prompt has been iterated to be more specific and clear
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Tell me about the thing with the apple falling and the guy who discovered something important."
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - You might start with a prompt like this, get sub-optimal output, and then..."
+/>
 
-![Figure: Click this button to edit any prompt you've already submitted](edit-prompt.png)
 
-![Figure: You can still go back to look at previous versions of the prompt and response](post-edit-prompt.png)
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Can you explain the story of Isaac Newton and the falling apple, and how it led to his discovery of the law of universal gravitation?"
+  </>}
+  figurePrefix="good"
+  figure="Good example - The prompt has been iterated to be more specific and clear"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Click this button to edit any prompt you've already submitted"
+  src="/uploads/rules/test-prompts-then-iterate/edit-prompt.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="You can still go back to look at previous versions of the prompt and response"
+  src="/uploads/rules/test-prompts-then-iterate/post-edit-prompt.png"
+/>
+
 
 By testing and iterating on your prompts, you can improve the quality of ChatGPT's responses and ensure that you receive the information or assistance you're seeking.

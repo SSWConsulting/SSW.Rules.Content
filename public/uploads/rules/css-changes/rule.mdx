@@ -13,7 +13,7 @@ guid: 3a3f7ec5-8360-43db-ba6b-1dcdc7c633e6
 ---
 Making CSS changes can range from straightforward tweaks to complex adjustments that impact multiple elements or pages. Knowing when to handle changes yourself and when to seek a developer's input can save time and reduce risks.
 
-<!--endintro-->
+<endIntro />
 
 ## When to make CSS changes yourself
 
@@ -23,20 +23,23 @@ For small or simple adjustments, it’s often faster and more efficient to handl
 * **Minimal complexity**: Minor visual changes, such as color or spacing tweaks
 * **No significant dependencies**: No impact on other components or functionalities
 * **Low testing requirements**: The changes don’t need to be tested across multiple browsers or devices
-
-
-::: good  
-```css
+**✅ ```css
 .button {
   font-size: 1rem;
 }
 ```
-Figure: Good example – A simple CSS change handled without involving a developer
-:::
+Figure: Good example – A simple CSS change handled without involving a developer**  
 
-::: info
-Making the changes yourself still require someone else to check your work (e.g. [over the shoulder](https://www.ssw.com.au/rules/over-the-shoulder/))
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    Making the changes yourself still require someone else to check your work (e.g. [over the shoulder](https://www.ssw.com.au/rules/over-the-shoulder/))
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## When to involve a front-end developer
 
@@ -47,10 +50,7 @@ More extensive or unfamiliar CSS changes require careful handling to avoid unint
 - **Dependencies**: Modifying elements tied to JavaScript or backend code
 - **Testing requirements**: Requires thorough cross-browser testing
 - **High impact**: Changes that affect core UI components or interactions
-
-
-::: bad  
-```css
+**❌ ```css
 /* Original CSS: Grid-based dashboard layout */
 .dashboard-container {
   display: grid;
@@ -87,8 +87,7 @@ More extensive or unfamiliar CSS changes require careful handling to avoid unint
   overflow: visible; /* Removing critical overflow control */
 }
 ```
-Figure: Bad example – A complex layout change attempted without consulting a developer, risking broken functionality
-:::
+Figure: Bad example – A complex layout change attempted without consulting a developer, risking broken functionality**  
 
 
 ## Key Factors
@@ -105,4 +104,12 @@ When determining whether to proceed independently or engage a developer, conside
 
 By evaluating these factors, you can balance efficiency with caution, ensuring smooth updates without compromising quality. When in doubt, consulting a front-end developer who is familiar with the project is always the best approach.
 
-![Figure: Working with CSS](working-with-css.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Working with CSS"
+  src="/uploads/rules/css-changes/working-with-css.gif"
+/>
