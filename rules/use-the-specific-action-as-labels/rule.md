@@ -1,0 +1,44 @@
+---
+seoDescription: Improve user experience by avoiding "OK" buttons and using specific action labels instead.
+type: rule
+archivedreason:
+title: Do you replace ‘OK’ buttons with clear action labels?
+guid: 196073a0-6fe2-4c27-b4c8-7d54427b963d
+uri: use-the-specific-action-as-labels
+created: 2014-12-10T20:22:02.0000000Z
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - data-entry-forms-for-web
+  - label-buttons-consistently
+  - user-authentication-terms
+redirects:
+  - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
+---
+
+While "OK" buttons were the standard convention with operating systems of the past, web applications should use a more user-friendly approach to dialog boxes. Instead of "OK" buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that specific action.
+
+<!--endintro-->
+
+::: bad img-medium
+![Figure: Bad example - Web application button labeled as "OK"](OKBadExample.png)  
+:::
+
+::: good img-medium
+![Figure: Good example - Button is labeled with the specific action](OKGoodExample.png)  
+:::
+
+Examples of button names that are better than "OK":
+
+* Save
+* Move
+* Rename
+* Open
+* Select
+* Insert
+* Print
+* Process
+* Login
