@@ -1,28 +1,37 @@
 ---
-seoDescription: Do you only SELECT the columns you require?
-type: rule
-archivedreason:
-title: Do you only SELECT the columns you require?
-guid: db46290f-e1ab-4279-8833-f5a1d54c529f
-uri: sqlperf-select-required-columns
-created: 2024-07-23T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+created: 2024-07-24 20:46:35+00:00
+createdBy: Bryden Oliver [SSW]
+createdByEmail: 77371877+brydeno@users.noreply.github.com
+guid: db46290f-e1ab-4279-8833-f5a1d54c529f
+isArchived: false
+lastUpdated: 2024-09-17 03:25:14+00:00
+lastUpdatedBy: Bahjat Alaadel [SSW]
+lastUpdatedByEmail: bahjatalaadel@ssw.com.au
 related:
-  - sqlperf-reduce-table-size
-  - sqlperf-verify-indexes-used
-  - sqlperf-avoid-implicit-type-conversions
-  - sqlperf-avoid-looping
-  - sqlperf-use-and-instead-of-or
-  - sqlperf-minimise-large-writes
+- rule: public/uploads/rules/sqlperf-reduce-table-size/rule.mdx
+- rule: public/uploads/rules/sqlperf-verify-indexes-used/rule.mdx
+- rule: public/uploads/rules/sqlperf-avoid-implicit-type-conversions/rule.mdx
+- rule: public/uploads/rules/sqlperf-avoid-looping/rule.mdx
+- rule: public/uploads/rules/sqlperf-use-and-instead-of-or/rule.mdx
+- rule: public/uploads/rules/sqlperf-minimise-large-writes/rule.mdx
+seoDescription: Do you only SELECT the columns you require?
+title: Do you only SELECT the columns you require?
+type: rule
+uri: sqlperf-select-required-columns
 ---
 
 It can be expensive retrieving all the columns of a table. Find out why.
 
-<!--endintro-->
-`youtube: https://www.youtube.com/embed/K5L1Dc_nUL8`  
-**Video: SELECT only the columns you want ✨ | Bryden Oliver (4 min)**
+<endOfIntro />
+
+<youtubeEmbed url="https://www.youtube.com/embed/K5L1Dc_nUL8" description={"Video: SELECT only the columns you want ✨ | Bryden Oliver (4 min)"} />
+
 
 Retrieving all the columns in a table is a common pattern.
 

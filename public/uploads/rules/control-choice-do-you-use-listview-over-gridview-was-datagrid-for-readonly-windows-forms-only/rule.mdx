@@ -1,17 +1,26 @@
 ---
-seoDescription: Use a ListView over a GridView (was DataGrid) for read-only data display in Windows Forms applications to achieve a nicer look and improved functionality.
-type: rule
-archivedreason:
-title: Control Choice - Do you use ListView over GridView (was DataGrid) for ReadOnly? (Windows Forms only)
-guid: 6ce29e76-2f40-4d0d-8ff9-e156bcfbf5b5
-uri: control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
-created: 2012-11-27T08:50:09.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-interfaces-winforms-controls.mdx
+created: 2012-11-27 08:50:58+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 6ce29e76-2f40-4d0d-8ff9-e156bcfbf5b5
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
-  - control-choice-do-you-use-listview-over-gridview-(was-datagrid)-for-readonly-(windows-forms-only)
+- control-choice-do-you-use-listview-over-gridview-(was-datagrid)-for-readonly-(windows-forms-only)
+seoDescription: Use a ListView over a GridView (was DataGrid) for read-only data display
+  in Windows Forms applications to achieve a nicer look and improved functionality.
+title: Control Choice - Do you use ListView over GridView (was DataGrid) for ReadOnly?
+  (Windows Forms only)
+type: rule
+uri: control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
 ---
 
 Yes a ListView looks nicer than a DataGrid, but a Datagrid is better because it has more functionality (out of the box that is). With a ListView you cannot:
@@ -20,23 +29,41 @@ Yes a ListView looks nicer than a DataGrid, but a Datagrid is better because it 
 * Sort data - always useful when there are more than about 20 rows
 * DataBind - always saves heaps of code
 
-<!--endintro-->
+<endOfIntro />
 
 So our old rule was to always use the ugly DataGrid (although we were never happy about that).
 
-::: bad  
-![Figure: Bad Example - The DataGrid is ugly](/UsingDataGridWhenNotNeeded.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example - The DataGrid is ugly"}
+  src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/UsingDataGridWhenNotNeeded.gif"
+/>
 
-::: good  
-![Figure: Good Example - A beautiful ListView - a nicer look over the datagrid](/SortableListView.gif)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - A beautiful ListView - a nicer look over the datagrid"}
+  src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/SortableListView.gif"
+/>
+
 
 So the listview looks nicer? If you are not convinced here is another one:
 
-::: good  
-![Figure: Good Example - The appearance of DataGrid and ListView](/DatagridVSListview.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - The appearance of DataGrid and ListView"}
+  src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/DatagridVSListview.gif"
+/>
+
 
 But another issue is how much code to write... For ListView you will need to write a bit of code to fill the list view...
 
@@ -66,7 +93,16 @@ Exception: Use the DataGrid when:
 
 * When not read only - i.e. users will be editing data directly from the cells.
 * You need more than 1 column with checkboxes, or the column with checkboxes can't be the first column. E.g.:
-  ![Figure: One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields](/DataGrid2CheckBoxes.gif)
+  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields"}
+  src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/DataGrid2CheckBoxes.gif"
+/>
+
 
 So in summary, if you don't want users to edit the data directly from the cell, and only the first column need checkboxes, then the ListView is always the better choice.
 

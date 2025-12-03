@@ -1,36 +1,46 @@
 ---
-seoDescription: Maintaining a package audit log helps developers track why packages are added, who added them, and who approved them. By keeping track of package details, you can reduce technical debt and ensure transparency within your team.
-type: rule
-title: Do you keep a package audit log?
-uri: package-audit-log
 authors:
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-  - title: Brook Jeynes
-    url: https://www.ssw.com.au/people/brook-jeynes
-related:
-  - awesome-documentation
-  - installing-3rd-party-libraries
-  - technical-debt
-created: 2022-10-27T05:23:16.827Z
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2022-10-27 08:25:05+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: 0a63d71e-66f0-4583-8a9c-6252df92ea34
+isArchived: false
+lastUpdated: 2024-08-01 23:58:11+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+- rule: public/uploads/rules/installing-3rd-party-libraries/rule.mdx
+- rule: public/uploads/rules/technical-debt/rule.mdx
+seoDescription: Maintaining a package audit log helps developers track why packages
+  are added, who added them, and who approved them. By keeping track of package details,
+  you can reduce technical debt and ensure transparency within your team.
+title: Do you keep a package audit log?
+type: rule
+uri: package-audit-log
 ---
 
 Packages are the lifeblood of any software project. However, if the team is not careful, that lifeblood can turn into a heavy weight dragging the application down. It's too easy for 10 packages to turn into 1,000.
 
 That's why it's crucial to maintain a package audit log.
 
-<!--endintro-->
+<endOfIntro />
 
-![](3rd-party-check-logos.png)
+![](/uploads/rules/package-audit-log/3rd-party-check-logos.png)
 
 A package audit log helps developers track why packages are added, who added, and who approved them.
 
@@ -72,20 +82,23 @@ Markdown provides an easy way to format package log information, so one way of s
 
 Alternatively, you could keep track of this information in a different file for each project in the solution. e.g `\FrontendPackageAuditLog.md` or `\BackendPackageAuditLog.md`
 
-Pros and Cons:  
-✅ More descriptive notes about the package  
-❌ Hard to keep up-to-date  
+Pros and Cons:
+✅ More descriptive notes about the package
+❌ Hard to keep up-to-date
 ❌ Tech Debt
 
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week. That way, the team is aware of all changes, and any missed changes are caught.
 
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 ## Project Northwind Frontend (React)
 
-These are all the packages that have been added to the project (ordered by most recent).  
+These are all the packages that have been added to the project (ordered by most recent).
 **Note:** Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
 
 ### [font-awesome](https://www.npmjs.com/package/font-awesome)
@@ -116,11 +129,11 @@ These are all the packages that have been added to the project (ordered by most 
 * Approved by: Piers Sinclair
 * Why: For pretty styling on the application
 
-:::
-
-:::bad
-Figure: Bad example - Packages documented in Technologies-and-Architecture.md
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**❌ Figure: Bad example - Packages documented in Technologies-and-Architecture.md**  
 
 ### Option 2 - Make good commit messages
 
@@ -128,27 +141,39 @@ Commit messages are an easy way for devs to add information about package update
 
 So putting your package audit information into your commit messages is another option for storing it.
 
-Pros and Cons:  
-✅ Easy for the dev  
-❌ Message could be overwritten by a more recent commit  
+Pros and Cons:
+✅ Easy for the dev
+❌ Message could be overwritten by a more recent commit
 ❌ Not as easy to read (have to hover over it to read)
 
-:::ok
-![Figure: OK example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.33.31.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  caption={"OK example - Using the VS Code extension GitLens, can see commits on hover within the code"}
+  src="/uploads/rules/package-audit-log/screen-shot-2022-12-15-at-09.33.31.png"
+/>
+
 
 ### Option 3 - Leave comments in package.json
 
 Having comments in package.json is an efficient way of getting important package information across to other developers without the need for them to go to other files.
 
-Pros and Cons:  
-✅ More descriptive notes about the package  
-✅ Notes are documented together with the package  
+Pros and Cons:
+✅ More descriptive notes about the package
+✅ Notes are documented together with the package
 ❌ Can cause noise and clutter within package.json
 
-:::ok
-![Figure: OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  caption={"OK example - Packages documented within package.json"}
+  src="/uploads/rules/package-audit-log/screen-shot-2022-12-16-at-09.19.32.png"
+/>
+
 
 ### Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
 
@@ -156,12 +181,17 @@ Creating commit messages and leaving comments in package.json both have their ad
 
 Leave a good commit message for every package change so that a developer can investigate it further and if there's something abnormal about the package then leave a comment so it's immediately clear to other developers.
 
-Pros and Cons:  
-✅ Low Tech Debt  
-✅ Easy for the dev  
-✅ Descriptive for the packages that require it  
+Pros and Cons:
+✅ Low Tech Debt
+✅ Easy for the dev
+✅ Descriptive for the packages that require it
 ❌ Not as easy to read (sometimes required to read into the commits)
 
-:::good
-![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-16-at-09.21.30.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Both Git commits with GitLens and package.json comments"}
+  src="/uploads/rules/package-audit-log/screen-shot-2022-12-16-at-09.21.30.png"
+/>

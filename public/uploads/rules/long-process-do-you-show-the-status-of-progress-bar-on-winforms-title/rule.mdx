@@ -1,14 +1,22 @@
 ---
-seoDescription: Long processes displayed on Windows Forms titles enhance user experience by providing clear progress updates and taskbar visibility even when minimized.
-type: rule
-archivedreason:
-title: Long Process - Do you show the status of progress bar on winform's title?
-guid: c2741651-fcb9-402e-81ae-f38991c48037
-uri: long-process-do-you-show-the-status-of-progress-bar-on-winforms-title
-created: 2012-11-27T02:59:56.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/design/rules-to-better-interfaces-windows-applications.mdx
+created: 2012-11-27 03:00:41+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: c2741651-fcb9-402e-81ae-f38991c48037
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
+seoDescription: Long processes displayed on Windows Forms titles enhance user experience
+  by providing clear progress updates and taskbar visibility even when minimized.
+title: Long Process - Do you show the status of progress bar on winform's title?
+type: rule
+uri: long-process-do-you-show-the-status-of-progress-bar-on-winforms-title
 ---
 
 The importance of having the status of progress bar on winform's title:
@@ -16,24 +24,47 @@ The importance of having the status of progress bar on winform's title:
 - Users can clearly see the progress status
 - If the winform is minimized to taskbar, users still can see the progress status
 
-<!--endintro-->
+<endOfIntro />
 
 The form title should take the form of "[XX]% Completed - [Task Description] - [Product Name]".
 
 There is another relevant rule about the [winform title](/title-bar-do-you-put-the-current-document-project-name-as-the-first-word-of-your-title-bar).
 
-::: bad  
-![Figure: Bad Example - The winform's title does not contain the progress status](/BadProgressForm.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example - The winform's title does not contain the progress status"}
+  src="/uploads/rules/long-process-do-you-show-the-status-of-progress-bar-on-winforms-title/BadProgressForm.gif"
+/>
 
-::: good  
-![Figure: Good Example - The winform's title contains the status of progress bar](/GoodProgressForm.gif)  
-:::
 
-::: good  
-![Figure: Good Example - You can clearly see the progress status from taskbar when you have the windows minimized](/GoodProgressFormTaskbar.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - The winform's title contains the status of progress bar"}
+  src="/uploads/rules/long-process-do-you-show-the-status-of-progress-bar-on-winforms-title/GoodProgressForm.gif"
+/>
 
-::: good  
-![Figure: Good Example - Windows 7 shows the progress in the taskbar (which is visible even when the application is minimized)](/TaskBarProgress.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - You can clearly see the progress status from taskbar when you have the windows minimized"}
+  src="/uploads/rules/long-process-do-you-show-the-status-of-progress-bar-on-winforms-title/GoodProgressFormTaskbar.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - Windows 7 shows the progress in the taskbar (which is visible even when the application is minimized)"}
+  src="/uploads/rules/long-process-do-you-show-the-status-of-progress-bar-on-winforms-title/TaskBarProgress.png"
+/>

@@ -1,26 +1,35 @@
 ---
-seoDescription: .NET MVC provides a better alternative to ASP.NET Web Forms with its testability, instant pages, better HTML markup control, simpler debugging, and mobile support.
-type: rule
 archivedreason: Old. Was replaced by Angular, React, and Blazor.
-title: Do you use .NET MVC over ASP.NET Web Forms?
-guid: 0be6a53a-ca81-4cb6-885f-f5b38274a654
-uri: the-right-technology
-created: 2016-07-29T17:56:03.0000000Z
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2016-07-29 17:56:03+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 0be6a53a-ca81-4cb6-885f-f5b38274a654
+isArchived: true
+lastUpdated: 2023-04-13 14:50:05+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-know-the-right-technology
+- do-you-know-the-right-technology
+seoDescription: .NET MVC provides a better alternative to ASP.NET Web Forms with its
+  testability, instant pages, better HTML markup control, simpler debugging, and mobile
+  support.
+title: Do you use .NET MVC over ASP.NET Web Forms?
+type: rule
+uri: the-right-technology
 ---
 
 Use **.NET MVC** over **ASP.NET Web Forms** .
 
 Read the Top 5 reasons why you should **never** use Web Forms again:
 
-<!--endintro-->
+<endOfIntro />
 
 1. **Testability** - MVC provides true separation of concerns, and makes it easy to test the whole application from Unit Tests to Coded UI Tests
 2. **Instant Pages** - Get your admin pages up and running faster than ever with improved scaffolding. Don't get bogged down doing Create, Edit, Update, Delete
@@ -30,9 +39,9 @@ Read the Top 5 reasons why you should **never** use Web Forms again:
 
 Or watch the video:
 
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw?rel=0`
 
-**Top 5 Reasons Why .NET MVC is Great (3 min)**
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw?rel=0" description={"Top 5 Reasons Why .NET MVC is Great (3 min)"} />
+
 
 ```asp
 <asp:HyperLink
@@ -41,15 +50,9 @@ Or watch the video:
     NavigateUrl="http://www.example.com" CssClass="example"
     Text="Hello World"/>
 ```
-
-::: bad
-Figure: Bad example - Using Web Forms
-:::
+**❌ Figure: Bad example - Using Web Forms**  
 
 ```dotnet
 <a href="http://www.example.com" class="example" id="Example1_HyperLink1">Hello World</a>
 ```
-
-::: good
-Figure: Good example - Using MVC 5
-:::
+**✅ Figure: Good example - Using MVC 5**

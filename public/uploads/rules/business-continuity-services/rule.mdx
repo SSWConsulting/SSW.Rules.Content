@@ -1,21 +1,30 @@
 ---
-seoDescription: Ensure business continuity by implementing redundancy strategies to minimize downtime and ensure services remain available during outages.
-type: rule
-title: Redundancy - Do you ensure the business continuity of your services?
-uri: business-continuity-services
 authors:
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
-related:
-  - azure-site-recovery
-created: 2021-10-14T05:29:39.921Z
+- img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
+  title: Kiki Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-backups.mdx
+created: 2021-10-14 23:34:05+00:00
+createdBy: Kaique "Kiki" Biancatti [SSW]
+createdByEmail: kikibianc@hotmail.com
 guid: a93c7265-c1d1-43c0-9dc3-21ccd7532f4e
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/azure-site-recovery/rule.mdx
+seoDescription: Ensure business continuity by implementing redundancy strategies to
+  minimize downtime and ensure services remain available during outages.
+title: Redundancy - Do you ensure the business continuity of your services?
+type: rule
+uri: business-continuity-services
 ---
 
 Business continuity is present in any good disaster recovery plan and means that when your services (e.g. websites, hardware, software) fail or suffer an outage, you have measures in place to ensure downtime is minimal.
 
-<!--endintro-->
+<endOfIntro />
 
 Before diving further, some terms need to be understood to fully understand the concept of business continuity: **Redundancy**, **High Availability**, **Fault Tolerance** and **Disaster Recovery**. These are concepts used to ensure that a system has as little downtime as possible, by applying different strategies or actions in case of a fault.
 
@@ -67,9 +76,15 @@ Let's imagine the same scenario with the company Northwind, this is part of thei
 
 For HA, one of the key points is having a system that redirects workloads in case of a failure - without that, you might have a redundant system, but not necessarily high available. If you need to manually swap a cable in case of a power failure, that's just redundant but not high available.
 
-::: good
-![Figure: Good example - It's crucial to add a redundancy plan to your disaster recovery plan](redundancy2.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - It's crucial to add a redundancy plan to your disaster recovery plan"}
+  src="/uploads/rules/business-continuity-services/redundancy2.png"
+/>
+
 
 ### Step 3 - Disaster Recovery (DR)
 

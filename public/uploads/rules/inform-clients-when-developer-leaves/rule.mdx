@@ -2,31 +2,47 @@
 seoDescription: Always inform clients promptly and clearly when a developer leaves, ensuring transparency and maintaining trust.
 type: rule
 title: Do you inform clients when a developer is leaving?
+categories:
+  - category: categories/client-engagement/rules-to-better-account-management.mdx
 uri: inform-clients-when-developer-leaves
 authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley
-created: 2025-04-29T06:30:55.753Z
+created: 2025-05-02T04:29:40.000Z
 guid: a4f70c13-5280-47bc-9147-738fea2765fb
+lastUpdated: 2025-05-08T16:09:20.000Z
+lastUpdatedBy: Seth Daily [SSW]
+lastUpdatedByEmail: 130118701+sethdaily@users.noreply.github.com
+createdBy: Michael Smedley [SSW]
+createdByEmail: michaelsmedley@ssw.com.au
+isArchived: false
 ---
 
 It’s painful when a client finds out indirectly (e.g. via LinkedIn) that a developer they worked with has left your company. It makes them feel unimportant and may damage trust. Even worse is when the client discovers it by seeing someone else join a call without any explanation.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-A client shows up to a scheduled call and realizes someone new is attending without prior notice. They ask, _"Where is {{ DEVELOPER }}?"_ and find out then that he left a week ago.
-:::
-::: bad
-Figure: Bad example – The client finds out by surprise and feels left out of the loop
-:::
 
-::: greybox
-The client receives a phone call as soon as the developer resigns, and during the call, they discuss the plan moving forward. This is immediately followed by a professional confirmation email.
-:::
-::: good
-Figure: Good example – Client feels respected and part of the transition process
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    A client shows up to a scheduled call and realizes someone new is attending without prior notice. They ask, _"Where is &#123;&#123; DEVELOPER &#125;&#125;?"_ and find out then that he left a week ago.
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example – The client finds out by surprise and feels left out of the loop"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The client receives a phone call as soon as the developer resigns, and during the call, they discuss the plan moving forward. This is immediately followed by a professional confirmation email.
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example – Client feels respected and part of the transition process"}
+/>
+
 
 When a developer resigns, you must immediately inform the client. We believe in being transparent and professional, ensuring the client is included in the transition plan.
 
@@ -45,30 +61,31 @@ When a developer resigns, you must immediately inform the client. We believe in 
 
 Here's a good template for your follow-up email:
 
-::: email-template
+<emailEmbed
+  from=""
+  to="&#123;&#123; CLIENT NAME &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; EMPLOYEE &#125;&#125; has resigned - Project Transition Plan"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
-|          |     |
-| -------- | --- |
-| To:      | {{ CLIENT NAME }} |
-| Subject: | {{ EMPLOYEE }} has resigned - Project Transition Plan |
-::: email-content
+As per our conversation, I’m sorry to let you know that &#123;&#123; EMPLOYEE &#125;&#125; has resigned from SSW.
 
-### Hi {{ CLIENT NAME }}
-
-As per our conversation, I’m sorry to let you know that {{ EMPLOYEE }} has resigned from SSW.
-
-He is a strong developer and has assured me he will continue to give 100% on your project until his last day, which will be {{ DATE }}.
+He is a strong developer and has assured me he will continue to give 100% on your project until his last day, which will be &#123;&#123; DATE &#125;&#125;.
 
 We discussed the following plan:
-* {{ SUMMARY OF AGREED REPLACEMENT OR TRANSITION }}
+* &#123;&#123; SUMMARY OF AGREED REPLACEMENT OR TRANSITION &#125;&#125;
 
 If you have any further questions or concerns, feel free to reach out.
 
-Kind regards,  
-{{ YOUR NAME }}
-
-:::
-:::
+Kind regards,
+&#123;&#123; YOUR NAME &#125;&#125;
+  </>}
+  captionStyle="default"
+  caption={"Example"}
+/>
 
 ## Important points
 

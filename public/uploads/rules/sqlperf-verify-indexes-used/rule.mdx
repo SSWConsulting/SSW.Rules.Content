@@ -1,31 +1,40 @@
 ---
-seoDescription: Verify SQL indexes are being used
-type: rule
-archivedreason:
-title: Do you know how to verify SQL indexes are being used?
-guid: 0df7ba89-a104-4668-b6f0-4ac9e77bbb96
-uri: sqlperf-verify-indexes-used
-created: 2024-07-23T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+created: 2024-07-24 20:46:35+00:00
+createdBy: Bryden Oliver [SSW]
+createdByEmail: 77371877+brydeno@users.noreply.github.com
+guid: 0df7ba89-a104-4668-b6f0-4ac9e77bbb96
+isArchived: false
+lastUpdated: 2024-09-17 03:24:25+00:00
+lastUpdatedBy: Bahjat Alaadel [SSW]
+lastUpdatedByEmail: bahjatalaadel@ssw.com.au
 related:
-  - sqlperf-reduce-table-size
-  - sqlperf-select-required-columns
-  - sqlperf-avoid-implicit-type-conversions
-  - sqlperf-avoid-looping
-  - sqlperf-use-and-instead-of-or
-  - sqlperf-minimise-large-writes  
+- rule: public/uploads/rules/sqlperf-reduce-table-size/rule.mdx
+- rule: public/uploads/rules/sqlperf-select-required-columns/rule.mdx
+- rule: public/uploads/rules/sqlperf-avoid-implicit-type-conversions/rule.mdx
+- rule: public/uploads/rules/sqlperf-avoid-looping/rule.mdx
+- rule: public/uploads/rules/sqlperf-use-and-instead-of-or/rule.mdx
+- rule: public/uploads/rules/sqlperf-minimise-large-writes/rule.mdx
+seoDescription: Verify SQL indexes are being used
+title: Do you know how to verify SQL indexes are being used?
+type: rule
+uri: sqlperf-verify-indexes-used
 ---
 
 So you've created some indexes on your database tables. How can you tell if they are being used by your queries?
 
-<!--endintro-->
+<endOfIntro />
 
 You'd be surprised to find out how often the indexes that have been defined on a table are not being used. As such it's worth checking that your indexes are being used.
 
-`youtube: https://www.youtube.com/embed/Af-jvsphdhw`  
-**Video: Verify your indexes are used | Bryden Oliver (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/Af-jvsphdhw" description={"Video: Verify your indexes are used | Bryden Oliver (4 min)"} />
+
 
 ## Ways to verify
 
@@ -35,7 +44,7 @@ The second option is to use the query below. It retrieves the index usage stats.
 Then you can run this query, then perform the operations in your application that you think should use the index, and then rerun this query. If the index was used you should see the UserSeeks, UserScans or UserLookups increase between the 2 runs.
 
 ```sql
-SELECT 
+SELECT
     object_name(s.[object_id]) AS TableName,
     i.name AS IndexName,
     i.index_id AS IndexID,
@@ -43,17 +52,17 @@ SELECT
     us.user_scans AS UserScans,
     us.user_lookups AS UserLookups,
     us.user_updates AS UserUpdates
-FROM 
+FROM
     sys.dm_db_index_usage_stats us
-INNER JOIN 
+INNER JOIN
     sys.indexes i ON (us.object_id = i.object_id AND us.index_id = i.index_id)
-INNER JOIN 
+INNER JOIN
     sys.objects s ON us.object_id = s.object_id
-WHERE 
+WHERE
     s.type = 'U' -- Filter for user tables only
 --    AND i.type_desc = 'NONCLUSTERED' -- Filter for non-clustered indexes
 --    AND (us.user_seeks = 0 AND us.user_scans = 0) -- Filter for unused indexes
-ORDER BY 
+ORDER BY
     TableName, IndexName;
 ```
 

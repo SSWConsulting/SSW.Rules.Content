@@ -1,22 +1,30 @@
 ---
-seoDescription: Avoid mixing business logic into presentation layer code by separating concerns and placing business logic in a separate layer for reuse and maintainability.
-type: rule
-archivedreason:
-title: Do you avoid putting business logic into the presentation layer?
-guid: 4e3ec478-ea2b-4065-a0a6-4c3667c5b71a
-uri: avoid-putting-business-logic-into-the-presentation-layer
-created: 2018-04-26T22:25:39.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-26 22:25:40+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 4e3ec478-ea2b-4065-a0a6-4c3667c5b71a
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-avoid-putting-business-logic-into-the-presentation-layer
+- do-you-avoid-putting-business-logic-into-the-presentation-layer
+seoDescription: Avoid mixing business logic into presentation layer code by separating
+  concerns and placing business logic in a separate layer for reuse and maintainability.
+title: Do you avoid putting business logic into the presentation layer?
+type: rule
+uri: avoid-putting-business-logic-into-the-presentation-layer
 ---
 
 Be sure you are aware of what is business logic and what isn't. Typically, looping code will be placed in the business layer. This ensures that no redundant code is written and other projects can reference this logic as well.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 private void btnOK_Click(object sender, EventArgs e)
@@ -35,10 +43,7 @@ private void btnOK_Click(object sender, EventArgs e)
   }
 }
 ```
-
-::: bad
-Bad Example: A UI method mixed with business logics  
-:::
+**❌ Bad Example: A UI method mixed with business logics**  
 
 ```cs
 private void btnOK_Click(object sender, EventArgs e)
@@ -48,8 +53,4 @@ private void btnOK_Click(object sender, EventArgs e)
   rtbParaText.Add(paraText);
 }
 ```
-
-::: good
-Good Example : Putting business logics into the business project, just call the relevant method when needed
-
-:::
+**✅ Good Example : Putting business logics into the business project, just call the relevant method when needed**

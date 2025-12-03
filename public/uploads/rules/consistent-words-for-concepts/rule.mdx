@@ -1,35 +1,44 @@
 ---
-seoDescription: It's a common belief that consistency matters more than anything else in your code, and this is especially true of the names you use to represent concepts.
-type: rule
-archivedreason:
-title: Are you consistent with the words you use to represent concepts?
-uri: consistent-words-for-concepts
-created: 2024-11-05T00:00:00.0000000Z
+archivedreason: null
 authors:
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - clear-meaningful-names
-  - verbs-for-method-names
-  - nouns-for-class-names
-  - avoid-generic-names
-  - avoid-micro-jargon
-  - when-to-use-technical-names
-  - avoid-using-your-name-in-client-code
-  - use-meaningful-modifiers
-  - follow-naming-conventions-for-tests-and-test-projects
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+created: 2024-11-05 05:45:16+00:00
+createdBy: Matt Goldman [SSW]
+createdByEmail: mattgoldman@ssw.com.au
 guid: 782822da-92e3-4912-855b-cf1f2a05542b
+isArchived: false
+lastUpdated: 2024-11-28 18:30:58+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/clear-meaningful-names/rule.mdx
+- rule: public/uploads/rules/verbs-for-method-names/rule.mdx
+- rule: public/uploads/rules/nouns-for-class-names/rule.mdx
+- rule: public/uploads/rules/avoid-generic-names/rule.mdx
+- rule: public/uploads/rules/avoid-micro-jargon/rule.mdx
+- rule: public/uploads/rules/when-to-use-technical-names/rule.mdx
+- rule: public/uploads/rules/avoid-using-your-name-in-client-code/rule.mdx
+- rule: public/uploads/rules/use-meaningful-modifiers/rule.mdx
+- rule: public/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/rule.mdx
+seoDescription: It's a common belief that consistency matters more than anything else
+  in your code, and this is especially true of the names you use to represent concepts.
+title: Are you consistent with the words you use to represent concepts?
+type: rule
+uri: consistent-words-for-concepts
 ---
 
 There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere.
 
 Inconsistent language is one of the quickest ways to violate the [DRY principle](/avoid-repetition) and add unnecessary complexity to your codebase.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why consistency matters?
 
@@ -47,14 +56,11 @@ Later, you open a pull request, and a colleague calls, confused, asking why you�
 
 ```csharp
 public void SendOrder(NotificationType type)
-{ 
+{
     // existing implementation
 }
 ```
-
-:::bad
-bad example - The name used for this method is not consistent with the name used for the same concept everywhere else in the code base
-:::
+**❌ bad example - The name used for this method is not consistent with the name used for the same concept everywhere else in the code base**  
 
 What went wrong here? Was it a lack of diligence in searching for existing functionality, or the use of different terms - “order” and “consignment” - interchangeably? Likely a bit of both, but primarily, the issue is rooted in inconsistent terminology.
 
@@ -64,14 +70,11 @@ In this scenario, the `SendOrder` method should have been called `SendConsignmen
 
 ```csharp
 public void SendConsignment(NotificationType type)
-{ 
+{
     // new implementation
 }
 ```
-
-:::good
-Good example - The name used for this method is the same name used for this concept throughout the code base
-:::
+**✅ Good example - The name used for this method is the same name used for this concept throughout the code base**  
 
 To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is [ubiquitous](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code.
 

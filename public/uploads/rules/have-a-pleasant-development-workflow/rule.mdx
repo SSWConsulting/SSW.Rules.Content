@@ -1,35 +1,50 @@
 ---
-seoDescription: Do you have a pleasant development workflow? Tips and guidelines to ensure efficient coding and reduce waiting time.
-type: rule
 archivedreason: This has been properly fixed since Angular 4.
-title: Tips - Do you have a pleasant development workflow?
-guid: 8a51eaf0-0c2e-4fc5-8772-52c0082e772a
-uri: have-a-pleasant-development-workflow
-created: 2016-04-22T22:24:13.0000000Z
 authors:
-  - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
-  - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
-related: []
+- title: Steve Leigh
+  url: https://ssw.com.au/people/steve-leigh
+- title: Gabriel George
+  url: https://ssw.com.au/people/gabriel-george
+created: 2016-04-25 19:05:35+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 8a51eaf0-0c2e-4fc5-8772-52c0082e772a
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - tips-do-you-have-a-pleasant-development-workflow
+- tips-do-you-have-a-pleasant-development-workflow
+seoDescription: Do you have a pleasant development workflow? Tips and guidelines to
+  ensure efficient coding and reduce waiting time.
+title: Tips - Do you have a pleasant development workflow?
+type: rule
+uri: have-a-pleasant-development-workflow
 ---
 
-::: info
-**Update:** This has been properly fixed since Angular 4. So now, this rule is irrelevant as Angular CLI provides a pleasant development workflow. Using ng serve, TypeScript transpilation occurs automatically and quickly (almost instantly).
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Update:** This has been properly fixed since Angular 4. So now, this rule is irrelevant as Angular CLI provides a pleasant development workflow. Using ng serve, TypeScript transpilation occurs automatically and quickly (almost instantly).
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 When dealing with client-side development – especially when transpiling TypeScript – it is common to have to wait for several seconds between writing code, and seeing the results.
 
 This adds up quickly – if you have to wait for 5 seconds every 3 minutes, you've spent 13 minutes of your day just _waiting_. This is a conservative estimate - we change code much more frequently than every 3 minutes!
 
-<!--endintro-->
+<endOfIntro />
 
 A naive development experience is as follows:
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 1. Make a code change using a misconfigured IDE
    - See errors everywhere as you type (even though the code is perfectly fine)
    - Inaccurate IntelliSense information
@@ -42,15 +57,19 @@ A naive development experience is as follows:
 5. Click around until the app is in the right state to test the functionality
    - If there is too much built-up state, and no routes set up, this chews up time
 
-:::
-::: bad
-Bad example - Many hours each week are wasted just waiting for the code you wrote to run
-:::
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - Many hours each week are wasted just waiting for the code you wrote to run"}
+/>
+
 
 A more ideal workflow is:
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 1. Make the change using a properly configured IDE
    - One that only shows errors when they’re appropriate
    - Intellisense shows everything available, and nothing more
@@ -59,10 +78,11 @@ A more ideal workflow is:
    - With proper bundling, the initial page load is also fast in development environments.
 3. Already be at the component required, ready to check it works
 
-:::
-::: good
-Good example - No time is wasted doing repetitive and slow tasks
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - No time is wasted doing repetitive and slow tasks"}
+/>
+
 
 **Remember** : Spending 4 hours setting up a good dev experience will pay for itself within the week, and make your work like much happier.
 

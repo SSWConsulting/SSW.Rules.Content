@@ -1,22 +1,32 @@
 ---
-seoDescription: Master effective pull request reviews by categorizing feedback into ‘Change,’ ‘Consider,’ and ‘PBI’ for clear, actionable guidance. Improve collaboration and streamline approvals with structured, prioritized comments
-type: rule
-title: Do you know how to indicate mandatory vs suggested PR changes?
-uri: mandatory-vs-suggested-pr-changes
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/goldie
-related:
-  - todo-tasks
-created: 2024-10-28T17:00:00.000Z
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/goldie
+categories:
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+created: 2024-10-28 05:54:05+00:00
+createdBy: Daniel Mackay [SSW]
+createdByEmail: 2636640+danielmackay@users.noreply.github.com
 guid: 6F5AE6FC-F29A-4938-B012-FDE7F669998C
+isArchived: false
+lastUpdated: 2024-10-28 05:54:05+00:00
+lastUpdatedBy: Daniel Mackay [SSW]
+lastUpdatedByEmail: 2636640+danielmackay@users.noreply.github.com
+related:
+- rule: public/uploads/rules/todo-tasks/rule.mdx
+seoDescription: Master effective pull request reviews by categorizing feedback into
+  ‘Change,’ ‘Consider,’ and ‘PBI’ for clear, actionable guidance. Improve collaboration
+  and streamline approvals with structured, prioritized comments
+title: Do you know how to indicate mandatory vs suggested PR changes?
+type: rule
+uri: mandatory-vs-suggested-pr-changes
 ---
 
 When reviewing another developer's pull request, review comments can fall into a mix of categories. Some changes might be required, while others might be optional. Do you know the best way to tell the requester which is which?
 
-<!--endintro-->
+<endOfIntro />
 
 ## Types of Pull Request Feedback
 
@@ -32,30 +42,45 @@ When adding 'PBI' comments, a "good Samaritan" approach is to create the PBI and
 
 ## Pull Request Comment Examples
 
-::: greybox  
-This could be refactored to be better
-:::  
-::: bad  
-Figure: Bad example - not clear if the author should make the change or not
-:::
 
-::: greybox  
-Change – check for null reference and throw if found
-:::  
-::: good  
-Figure: Good example - clear that the change should be made before the PR will be approved
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    This could be refactored to be better
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - not clear if the author should make the change or not"}
+/>
 
-::: greybox  
-Consider – break long method into several smaller ones
-:::  
-::: good  
-Figure: Good example - the reviewer has left a suggestion, but it's up to the author do change or not
-:::
 
-::: greybox  
-PBI – Consolidate these xUnit ‘Fact’ tests to use ‘InlineData’
-:::  
-::: good  
-Figure: Good example - This change doesn't need to be done now, but should be added to the backlog with a comment in the code
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Change – check for null reference and throw if found
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - clear that the change should be made before the PR will be approved"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Consider – break long method into several smaller ones
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - the reviewer has left a suggestion, but it's up to the author do change or not"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    PBI – Consolidate these xUnit ‘Fact’ tests to use ‘InlineData’
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - This change doesn't need to be done now, but should be added to the backlog with a comment in the code"}
+/>

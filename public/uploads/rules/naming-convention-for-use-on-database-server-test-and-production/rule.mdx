@@ -1,28 +1,48 @@
 ---
-seoDescription: Database naming convention for test and production environments follows a standardized structure, with dev databases ending in "Dev" and test databases in "Test", while production databases remain name-only.
-type: rule
-title: Do you know the naming convention for use on database server test and
-  production?
-uri: naming-convention-for-use-on-database-server-test-and-production
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - general-do-you-know-the-naming-convention-for-use-on-database-server-test-and-production
-created: 2019-11-14T21:59:12.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-14 21:59:12+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 34ceccd7-b18b-4b55-a49e-df311676238e
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- general-do-you-know-the-naming-convention-for-use-on-database-server-test-and-production
+seoDescription: Database naming convention for test and production environments follows
+  a standardized structure, with dev databases ending in "Dev" and test databases
+  in "Test", while production databases remain name-only.
+title: Do you know the naming convention for use on database server test and production?
+type: rule
+uri: naming-convention-for-use-on-database-server-test-and-production
 ---
 
 Generally, every client should have a dev and a test database, so the dev database needs to have the postfix "Dev" and the test database need to have the postfix "Test"(E.g. SSWCRMDev, SSWCRMTest). However, you don't need any postfix for the production database.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad Example - Database with bad names](BadDBName.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example - Database with bad names"}
+  src="/uploads/rules/naming-convention-for-use-on-database-server-test-and-production/BadDBName.gif"
+/>
 
-::: good  
-![Figure: Good Example - Database with standard names](GoodDBName.gif)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - Database with standard names"}
+  src="/uploads/rules/naming-convention-for-use-on-database-server-test-and-production/GoodDBName.gif"
+/>

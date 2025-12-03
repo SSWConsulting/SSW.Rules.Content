@@ -2,30 +2,45 @@
 seoDescription: Migrating an existing user store to an ExternalAuthProvider, such as IdentityServer or Azure AD, requires mapping users and handling pre-existing company users and new registrants.
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: Dhruv Mathur
     url: https://www.ssw.com.au/people/dhruv-mathur/
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman/
-created: 2023-10-31T04:31:12.396Z
+created: 2023-12-01T09:15:03.000Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 redirects:
   - integrate-identityserver-with-an-existing-user-store
   - migrate-an-existing-user-store-to-an-externalauthprovider
+lastUpdated: 2025-07-31T00:46:18.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Dhruv Mathur [SSW]
+createdByEmail: dhruvmat1998@gmail.com
+isArchived: false
 ---
 
 When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP.NET Core application which uses ASP.NET Core Identity, challenges arise due to different user identification systems.
 
-<!--endintro-->
+<endOfIntro />
 
 On the ExternalAuthProvider side, users are typically recognised by a unique Subject Id within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
 
 The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.
 
-::: greybox
-**⚠️ Warning:** The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **⚠️ Warning:** The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 Two essential scenarios arise when integrating the ExternalAuthProvider:
 
@@ -48,10 +63,7 @@ If there's no associated SubId, check if the email (provided by the ExternalAuth
 ```csharp
 var userByUserName = await _userManager.FindByEmailAsync(emailFromIdentityServer);
 ```
-
-::: good
-Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class
-:::
+**✅ Figure: Retrieving existing user by using the Email claim from the JWT token utilising the FindByEmailAsync() from the UserManager class**  
 
 ### Users known to the application but not authenticated via ExternalAuthProvider
 
@@ -62,9 +74,16 @@ var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
 await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVIDER, subId));
 ```
 
-::: greybox
-**Note**: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note**: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ### Future Authentications
 
@@ -105,9 +124,16 @@ Register by creating a new user in your application's store using claims provide
  var createNewUserResult = await _userManager.CreateAsync(newUser);
 ```
 
-::: greybox
-**Note**: In the example above extraction of claims may vary based on how you access the token.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note**: In the example above extraction of claims may vary based on how you access the token.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 Extract the SubId from the JWT token (typically the "sub" claim) and use ASP .NET Core Identity's [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) method to associate this SubId as an external login with the newly created user record.
 

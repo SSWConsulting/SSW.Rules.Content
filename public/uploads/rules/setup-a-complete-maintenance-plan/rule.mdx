@@ -1,17 +1,27 @@
 ---
-seoDescription: Create a comprehensive SQL Server maintenance plan that includes database integrity checks, shrinking, reorganizing and rebuilding indexes, updating statistics, cleaning up old history, automatic backups, system database backups, and regular check-ins for successful execution.
-type: rule
-archivedreason:
-title: Backup - Do you set up a complete Maintenance Plan?
-guid: 74d963fc-ec96-4be6-84af-c0e12905d1b1
-uri: setup-a-complete-maintenance-plan
-created: 2019-11-20T18:33:22.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+created: 2019-11-20 18:33:26+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 74d963fc-ec96-4be6-84af-c0e12905d1b1
+isArchived: false
+lastUpdated: 2020-01-29 00:53:21+00:00
+lastUpdatedBy: ChristianMWaite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - backup-do-you-set-up-a-complete-maintenance-plan
+- backup-do-you-set-up-a-complete-maintenance-plan
+seoDescription: Create a comprehensive SQL Server maintenance plan that includes database
+  integrity checks, shrinking, reorganizing and rebuilding indexes, updating statistics,
+  cleaning up old history, automatic backups, system database backups, and regular
+  check-ins for successful execution.
+title: Backup - Do you set up a complete Maintenance Plan?
+type: rule
+uri: setup-a-complete-maintenance-plan
 ---
 
 It is surprising how many IT staff create backup plans and then leave it at that. To have a complete maintenance plan, you should also consider the following:
@@ -26,8 +36,16 @@ It is surprising how many IT staff create backup plans and then leave it at that
 8. Backing up System databases
 9. Last but not least - you should regularly check that the maintenance plans have been running successfully. Otherwise, all your backup and maintenance efforts are pointless
 
-<!--endintro-->
+<endOfIntro />
 
 This can be found under **Management | Maintenance Plans** within the database tee in SQL Server.
 
-![Figure: SQL Server - A Complete Weekly Maintenance Plan](SqlMaintenancePlan.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"SQL Server - A Complete Weekly Maintenance Plan"}
+  src="/uploads/rules/setup-a-complete-maintenance-plan/SqlMaintenancePlan.png"
+/>

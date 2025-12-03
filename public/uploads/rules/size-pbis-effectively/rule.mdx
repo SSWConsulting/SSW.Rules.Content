@@ -1,29 +1,38 @@
 ---
-seoDescription: Improve your team's velocity tracking by adopting effective PBI estimation techniques. Learn about various methods to size user stories appropriately.
-type: rule
-title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
-uri: size-pbis-effectively
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Prem Radhakrishnan
-    url: https://ssw.com.au/people/prem-radhakrishnan
-  - title: Christian Morford-Waite
-    url: https://www.ssw.com.au/people/christian-morford-waite
-  - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
-related:
-  - do-you-estimate-business-value
-  - break-tasks
-redirects:
-  - estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
-  - estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
-  - estimating-do-you-know-how-to-size-user-stories-effectively
-created: 2010-09-01T01:15:18.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Prem Radhakrishnan
+  url: https://ssw.com.au/people/prem-radhakrishnan
+- title: Christian Morford-Waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
+- title: Chris Briggs
+  url: https://ssw.com.au/people/chris-briggs
+categories:
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2025-05-29 17:53:10+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 033f1b77-a51d-4f52-894a-70d78efaecae
+isArchived: false
+lastUpdated: 2025-05-29 17:53:10+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
+- estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
+- estimating-do-you-know-how-to-size-user-stories-effectively
+related:
+- rule: public/uploads/rules/do-you-estimate-business-value/rule.mdx
+- rule: public/uploads/rules/break-tasks/rule.mdx
+seoDescription: Improve your team's velocity tracking by adopting effective PBI estimation
+  techniques. Learn about various methods to size user stories appropriately.
+title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
+type: rule
+uri: size-pbis-effectively
 ---
 
 A team knows how many PBIs they can commit to by measuring their velocity. The Team estimates the highest priority PBIs in the Product Backlog in Story Points. It is very important for teams to estimate tasks effectively. There are several methods for estimating:
@@ -34,7 +43,7 @@ A team knows how many PBIs they can commit to by measuring their velocity. The T
 * Doubling
 * Thrown
 
-<!--endintro-->
+<endOfIntro />
 
 Let's go through them:
 
@@ -42,29 +51,48 @@ Let's go through them:
 
 This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database.
 
-::: greybox
-1 = XS  
-2 = S  
-4 = M  
-8 = L  
-16 = XL  
-32 = XXL  
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    1 = XS
+2 = S
+4 = M
+8 = L
+16 = XL
+32 = XXL
 64 = XXXL
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 **Note:** In some teams which only use Small, Medium and Large the following numbering is applyed respectively 2, 4 and 8.
 
-::: bad  
-![Figure: Bad example - Estimation using t-shirt sizes](size-stories-bad-example.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Estimation using t-shirt sizes"}
+  src="/uploads/rules/size-pbis-effectively/size-stories-bad-example.jpg"
+/>
+
 
 ## Fibonacci extended (1-100)
 
 Planning Poker is a very effective Product Backlog estimation technique and the most common method is using Fibonacci numbers (1,2,3,5,8,13, etc.). This was made popular by Mike Cohn.
 
-::: ok  
-![Figure: OK example - Estimation using Planning Poker with large numbers](size-stories-ok-example.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  caption={"OK example - Estimation using Planning Poker with large numbers"}
+  src="/uploads/rules/size-pbis-effectively/size-stories-ok-example.jpg"
+/>
+
 
 ## Fibonacci (1-21)
 
@@ -72,9 +100,15 @@ Mike Cohn introduced changes to the original 7 cards, by changing the 21 to 20 a
 
 Ken Schwaber (the father of Scrum) says in his Scrum Certification course, that he is not a fan of the extra cards and says he prefers teams keep to the original 7 cards.
 
-::: ok  
-![Figure: OK example - Estimation using Planning Poker with only small numbers](size-stories-good-example.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  caption={"OK example - Estimation using Planning Poker with only small numbers"}
+  src="/uploads/rules/size-pbis-effectively/size-stories-good-example.jpg"
+/>
+
 
 ## Thrown
 
@@ -84,9 +118,15 @@ This is particularly useful if you don't have Planning Poker cards. Instead of F
 
 The action is done in the same method as the game 'Rock, Paper, Scissors'. The options the developer can estimate is 1,2,3,4,5.
 
-::: ok  
-![Figure: PBI estimates using the "Thrown method"](fist-method.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="okExample"
+  caption={"PBI estimates using the \"Thrown method\""}
+  src="/uploads/rules/size-pbis-effectively/fist-method.jpg"
+/>
+
 
 ## ⭐️ Doubling (recommended)
 
@@ -94,20 +134,23 @@ Estimating using doubling numbers makes relative sizing simple. An 8 point PBI s
 
 It has one other advantage over the Fibonacci sequence, it is easier for non-techies because the numbers aren't whacky and the name isn't bizarre.
 
-::: greybox
-**Estimate**  
-1  
-2  
-4  
-8  
-16  
-32  
-64  
-:::
 
-::: good
-Figure: Good example - Doubling simplifies relative sizing  
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Estimate**
+1
+2
+4
+8
+16
+32
+64
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**✅ Figure: Good example - Doubling simplifies relative sizing**  
 
 ---
 
@@ -130,10 +173,7 @@ Every team is different, but you can use the following guidelines for sizing PBI
 | 16                 | -                                                                                                                        |
 | 32                 | -                                                                                                                        |
 | 64                 | More than a month with a couple of developers (Don't include these in a Sprint because they're too risky - see #4 below) |
-
-::: good
-Figure: Good example - PBI estimating guidelines  
-:::
+**✅ Figure: Good example - PBI estimating guidelines**  
 
 ### 3. Using IM chats
 

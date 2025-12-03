@@ -1,45 +1,72 @@
 ---
-seoDescription: Configure GitHub notifications to reduce email spam and receive valuable updates, allowing you to prioritize important requests and reviews.
-type: rule
-title: Do you configure your GitHub Notifications?
-uri: github-notifications
-authors:
-  - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
-related: []
-created: 2022-03-03T12:25:15.000Z
 archivedreason: null
+authors:
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+categories:
+- category: categories/project-delivery/rules-to-better-github.mdx
+created: 2022-03-03 08:50:46+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 10489ca4-5e42-49af-b502-d3572d573e7f
+isArchived: false
+lastUpdated: 2025-10-02 21:14:02+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+seoDescription: Configure GitHub notifications to reduce email spam and receive valuable
+  updates, allowing you to prioritize important requests and reviews.
+title: Do you configure your GitHub Notifications?
+type: rule
+uri: github-notifications
 ---
 
 Notifications from GitHub can be quite a pain, as they send a lot of emails. This leads to many developers ignoring the important emails they receive.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/embed/Lb1slP9jSGk`
-**Video: Taming GitHub - Notification Hell 🔥 with Adam Cogan and Luke Parker (7 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/Lb1slP9jSGk" description={"Video: Taming GitHub - Notification Hell 🔥 with Adam Cogan and Luke Parker (7 min)"} />
+
 
 ## Github
 
-::: bad
-![Figure: Bad example - Lots of notifications](/notifications.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Lots of notifications"}
+  src="/uploads/rules/github-notifications/notifications.png"
+/>
+
 
 To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications).
 
-::: good
-![Figure: Good example - Turn off Watching settings](watching-notification.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Turn off Watching settings"}
+  src="/uploads/rules/github-notifications/watching-notification.png"
+/>
+
 
 Turning off Watching notifications significantly reduces the number of spam emails you receive. With this setting, you won't get notified about actions like PR approvals or comments that aren't related to you.
 
-::: good
-![Figure: Good example - Workflow notification settings](actions-notification.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Workflow notification settings"}
+  src="/uploads/rules/github-notifications/actions-notification.png"
+/>
+
 
 The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your deployments.
 
@@ -49,4 +76,12 @@ You often want to receive emails when you’re @mentioned or someone requests yo
 
 You can add a rule in Outlook to automatically delete these:
 
-![Figure: How to configure the rule in Outlook](outlook-configuration.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"How to configure the rule in Outlook"}
+  src="/uploads/rules/github-notifications/outlook-configuration.png"
+/>

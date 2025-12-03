@@ -1,36 +1,46 @@
 ---
-type: rule
-title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
-seoDescription: Improve daily scrum efficiency and collaboration with these
-  actionable tips on sending emails, using IM, and making meetings easy to find.
-uri: methodology-daily-scrums
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-related:
-  - participate-in-daily-scrum-meetings
-  - use-the-status-message-in-teams
-  - keep-track-of-a-parking-lot-for-topics
-  - do-you-make-your-team-meetings-easy-to-find
-  - the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
-  - ask-for-help
-  - when-to-email-chat-call-or-meet
-redirects:
-  - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
-  - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
-created: 2009-02-28T09:43:16.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2015-06-15 19:14:43+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: f15f834f-70dd-4f38-8597-9e561336caf2
+isArchived: false
+lastUpdated: 2025-07-25 21:36:07+00:00
+lastUpdatedBy: Christian Morford-Waite [SSW]
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+redirects:
+- methodology-do-you-do-daily-scrums-aka-stand-up-meetings
+- methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
+related:
+- rule: public/uploads/rules/participate-in-daily-scrum-meetings/rule.mdx
+- rule: public/uploads/rules/use-the-status-message-in-teams/rule.mdx
+- rule: public/uploads/rules/keep-track-of-a-parking-lot-for-topics/rule.mdx
+- rule: public/uploads/rules/do-you-make-your-team-meetings-easy-to-find/rule.mdx
+- rule: public/uploads/rules/task-board/rule.mdx
+- rule: public/uploads/rules/ask-for-help/rule.mdx
+- rule: public/uploads/rules/when-to-email-chat-call-or-meet/rule.mdx
+seoDescription: Improve daily scrum efficiency and collaboration with these actionable
+  tips on sending emails, using IM, and making meetings easy to find.
+title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
+type: rule
+uri: methodology-daily-scrums
 ---
+
 Tight project teams have a Daily 'Scrum' every day at the same time.
 
 It was once called a 'stand-up meeting' but that discriminates people in wheelchairs.
 
 It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.
 
-<!--endintro-->
+<endOfIntro />
 
 Everybody knows the 3 essential questions:
 
@@ -48,8 +58,9 @@ Asking these questions of every team member means no-one can hide and everyone r
 
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
-`youtube: https://www.youtube.com/embed/YR84qH6d7QE`
-**Video: Watch a Daily Scrum at Microsoft (short - 4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/YR84qH6d7QE" description={"Video: Watch a Daily Scrum at Microsoft (short - 4 min)"} />
+
 
 **Video: [Watch a Daily Scrum at Microsoft (long - 12 min)](https://youtube.com/watch?v=-UUrLxNBK_g)**
 
@@ -70,21 +81,28 @@ Then you’ll be able to say to your Scrum Master: “I've had a look at the Tea
 
 At the end of the Scrum, the Scrum Master should [review the current burn down](/burndown-and-stories-overview-reports-updates) to check on the progress of the team.
 
-![Figure: A burndown chart in visualstudio.com](burndowntfspreview_1710232021943.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"A burndown chart in visualstudio.com"}
+  src="/uploads/rules/methodology-daily-scrums/burndowntfspreview_1710232021943.png"
+/>
+
 
 ## Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
-::: email-template
-
-|             |                                  |
-| ----------- | -------------------------------- |
-| To:         | {{ TEAM }}                       |
-| Recurrence: | Everyday                         |
-| Subject:    | Daily Scrum – {{ PROJECT NAME }} |
-
-::: email-content
-
-### Hi {{ TEAM NAME }}
+<emailEmbed
+  from=""
+  to="&#123;&#123; TEAM &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="Daily Scrum – &#123;&#123; PROJECT NAME &#125;&#125;"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; TEAM NAME &#125;&#125;
 
 As per our conversation, the Daily Scrum will be held each day.
 
@@ -93,14 +111,21 @@ As per our conversation, the Daily Scrum will be held each day.
 * Task board: XXX
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
+  </>}
+  captionStyle="goodExample"
+  caption={"Schedule a recurring Daily Scrum meeting in Outlook using this template"}
+/>
 
-:::
-:::
-::: good
-Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
-:::
 
-![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Or you can use Microsoft Teams"}
+  src="/uploads/rules/methodology-daily-scrums/teams-meeting-daily-scrum.jpg"
+/>
+
 
 ## Tip #4: Keep to the schedule - Same place, same time
 
@@ -108,13 +133,20 @@ If a team member is missing at the beginning of the Daily Scrum, and they are no
 
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
-::: greybox
-**Notes:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Notes:**
 
 * The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
 
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## Tip #5: Update tasks before the Daily Scrum
 
@@ -136,7 +168,16 @@ Technology in the Daily Scrum causes people to lose focus on the goal. The goal 
 
 A task board allows people to visualize what the team is talking about.
 
-![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard_1710232021943.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"A Task Board from Azure DevOps"}
+  src="/uploads/rules/methodology-daily-scrums/tfspreviewtaskboard_1710232021943.png"
+/>
+
 
 ## Tip #9: Carry a pen and paper
 
@@ -146,26 +187,54 @@ Use a pen and paper to jot things down. A whiteboard is also great for "Parking 
 
 Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an impediment (aka roadblock). Communication with the Product Owner is essential and if you haven't touched base with them in the past few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
 
-![Figure: Call the Product Owner if you have an impediment](ProductOwnerTelephone_1710232021942.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Call the Product Owner if you have an impediment"}
+  src="/uploads/rules/methodology-daily-scrums/ProductOwnerTelephone_1710232021942.jpg"
+/>
+
 
 ## Tip #11: Store Daily Scrums in the Teams team so the PO can easily access it
 
 Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](/do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
-:::bad
-![Figure: Bad example - Too many Daily Scrum appointments](daily-scrum-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Too many Daily Scrum appointments"}
+  src="/uploads/rules/methodology-daily-scrums/daily-scrum-bad.png"
+/>
 
-:::good
-![Figure: Good example - Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
-:::
 
-::: info
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Make Daily Scrums easy to find via the Teams Channel Calendar"}
+  src="/uploads/rules/methodology-daily-scrums/daily-scrum-good.png"
+/>
 
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    
 ### What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## Tip #12: Enter Scrum meetings into your timesheets
 
@@ -177,37 +246,33 @@ To prevent misunderstandings or potential disagreements, send your Daily Scrum u
 
 **Note:** Be sure to include the project name in both the subject line and the email content, as people often read the message without referencing the subject.
 
-::: email-template
+<emailEmbed
+  from=""
+  to="Bob Northwind"
+  cc="&#123;&#123; ANYONE YOU'RE WORKING WITH &#125;&#125;"
+  bcc=""
+  subject="&#123;&#123; YOUR NAME / PROJECT NAME &#125;&#125; - Daily Scrum"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Bob
 
-|          |                                              |
-| -------- | -------------------------------------------- |
-| To:      | Bob Northwind                                |
-| Cc:      | {{ ANYONE YOU'RE WORKING WITH }}             |
-| Subject: | {{ YOUR NAME / PROJECT NAME }} - Daily Scrum |
-
-::: email-content
-
-### Hi Bob
-
-Yesterday I worked on {{ PROJECT NAME }}:
+Yesterday I worked on &#123;&#123; PROJECT NAME &#125;&#125;:
 
 * ✅ Done - XXX
 * ⏳ In Progress - XXX
 * ⬜ PBI - XXX
 * ❌ Blocked - XXX
 
-Today I'm working on {{ PROJECT NAME }}:
+Today I'm working on &#123;&#123; PROJECT NAME &#125;&#125;:
 
 * ⏳ In Progress - XXX
 * ⬜ PBI - XXX
 * ⬜ Email - XXX
 * ❌ Blocked - XXX
-
-:::
-:::
-::: good
-Figure: Good example - Always include what you previously worked on and what you plan on doing today
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Always include what you previously worked on and what you plan on doing today"}
+/>
 
 ## Tip #14: Use IM
 
@@ -223,8 +288,11 @@ Use Teams to bridge gaps in geography.
 
 When using email or IM try to be brief and as specific as possible:
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 #### Hi Bob
 
 I have XX days until my next client booking.
@@ -236,28 +304,33 @@ Today I am working on:
 * Timepro PBIs
 * Tidy inbox
 
-:::
-::: bad
-Figure: Bad example - Lack of details... For example, saying "Yesterday" - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working
-:::
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - Lack of details... For example, saying \"Yesterday\" - if it's Monday, you wouldn't say “Yesterday was Sunday\"... so if you were sick, it's more useful to go back to the prior day you were working"}
+/>
 
-::: greybox
 
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 #### Hi Bob
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
-<mark>Last Friday</mark> I was on sick leave.
+==Last Friday== I was on sick leave.
 
 Today I am working on:
 
-* TimePro - <mark>Adding new button to the next day</mark>
-* <mark>Getting my emails on "SSW.com" to zero</mark>
+* TimePro - ==Adding new button to the next day==
+* ==Getting my emails on "SSW.com" to zero==
 
-:::
-::: good
-Figure: Good example - Clear details
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Clear details"}
+/>
+
 
 ## Tip #15: Auto-generate your Daily Scrum with AutoScrum
 
@@ -286,12 +359,24 @@ The goal is to be productive for 8 hours of the day, so communicate with the res
 
 It is important that any major incidents are dealt with first. Start with any major incidents that occurred in the last 24 hours.
 
-![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage_1710232021942.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!"}
+  src="/uploads/rules/methodology-daily-scrums/NewStandUpImage_1710232021942.jpg"
+/>
+
 
 - - -
 
-::: greybox
-Learn more about the meetings in Scrum:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Learn more about the meetings in Scrum:
 
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
 * [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
@@ -299,4 +384,7 @@ Learn more about the meetings in Scrum:
 * Daily Scrum (Stand-up) Meeting (this rule)
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>

@@ -2,17 +2,25 @@
 seoDescription: Streamline cloud identity management and boost security by integrating SCIM with Entra ID.
 type: rule
 title: Do you integrate SCIM for Identity Management?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 uri: use-scim-for-identity-management
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy/
-created: 2023-12-08T06:07:07.533Z
+created: 2023-12-14T04:37:50.000Z
 guid: 214b9c9f-5a9e-4b47-9389-b02bdeb660c6
+lastUpdated: 2024-12-30T04:03:36.000Z
+lastUpdatedBy: Rob Thomlinson [SSW]
+lastUpdatedByEmail: RobThomlinson@ssw.com.au
+createdBy: Warwick Leahy [SSW]
+createdByEmail: 58454534+leahy268@users.noreply.github.com
+isArchived: false
 ---
 
 Leveraging SCIM (System for Cross-domain Identity Management) in conjunction with Entra ID (or whatever Identity provider you use) is crucial for efficient and secure identity synchronization across cloud-based applications and services.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why Integrate SCIM with Entra ID?
 
@@ -22,19 +30,27 @@ Integrating SCIM with Entra ID automates the process of managing user identities
 
 Relying solely on manual identity management processes in Entra ID without SCIM integration. This manual approach is inefficient, prone to errors, and can lead to security risks due to inconsistent identity data across applications.
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example - SysAdmins have to provision each user separately in 3rd party products"}
+  src="/uploads/rules/use-scim-for-identity-management/bad-example-no-scim.jpg"
+/>
 
-![Bad Example - SysAdmins have to provision each user separately in 3rd party products](bad-example-no-scim.jpg)
-
-:::
 
 ### Good Example
 
 Implementing SCIM to automate user provisioning and deprovisioning across various cloud services. This ensures consistent identity data, improves security, and reduces the administrative burden.
 
-::: good
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example: SysAdmins only provision into Entra ID the SCIM provisioning does all the work"}
+  src="/uploads/rules/use-scim-for-identity-management/good-example-scim.jpg"
+/>
 
-![Good Example: SysAdmins only provision into Entra ID the SCIM provisioning does all the work](good-example-scim.jpg)
-
-:::
 By integrating SCIM with Entra ID, organizations can achieve a more streamlined, secure, and efficient approach to identity management across their cloud ecosystem.

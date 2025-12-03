@@ -1,19 +1,29 @@
 ---
-seoDescription: Avoid using parameter queries with EXISTS keyword and comparison operators to prevent upsize issues.
-type: rule
-archivedreason:
-title: Do you avoid parameter queries with EXISTS keyword and comparison operators (<> or =)(Upsizing Problem)?
-guid: 1d25cc5a-91af-45c8-9b97-5ac6055364d1
-uri: do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
-created: 2010-07-23T03:28:36.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-have-complex-queries-upsizing-problem
-  - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
+created: 2010-07-23 03:34:36+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+guid: 1d25cc5a-91af-45c8-9b97-5ac6055364d1
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-(-or-)(upsizing-problem)
+- do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-(-or-)(upsizing-problem)
+related:
+- rule: public/uploads/rules/do-you-have-complex-queries-upsizing-problem/rule.mdx
+- rule: public/uploads/rules/do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem/rule.mdx
+seoDescription: Avoid using parameter queries with EXISTS keyword and comparison operators
+  to prevent upsize issues.
+title: Do you avoid parameter queries with EXISTS keyword and comparison operators
+  (<> or =)(Upsizing Problem)?
+type: rule
+uri: do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
 ---
 
 The MS Upsizing Wizard cannot upsize Microsoft Access queries containing:
@@ -23,7 +33,7 @@ The MS Upsizing Wizard cannot upsize Microsoft Access queries containing:
 
 For example, the following query will not be upsized:
 
-<!--endintro-->
+<endOfIntro />
 
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );
@@ -36,10 +46,7 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name]
  AND Employees.EmployeeID=Orders.EmployeeID) <> FALSE
 ```
-
-::: bad
-Figure: Bad example - Access query with EXISTS keyword and comparison operator  
-:::
+**❌ Figure: Bad example - Access query with EXISTS keyword and comparison operator**  
 
 ```sql
 PARAMETERS [@Employee Last Name] Text ( 20 );
@@ -55,9 +62,6 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name]
  AND Employees.EmployeeID=Orders.EmployeeID)
 ```
-
-::: good
-Figure: Good example - Access query with EXISTS keyword and without comparison operator  
-:::
+**✅ Figure: Good example - Access query with EXISTS keyword and without comparison operator**  
 
 In order to get the good example syntax you must switch from Design View window to SQL View in query designer window and save query definition.

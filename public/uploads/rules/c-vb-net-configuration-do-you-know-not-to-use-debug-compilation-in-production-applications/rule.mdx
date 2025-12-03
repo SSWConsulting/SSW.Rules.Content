@@ -1,21 +1,30 @@
 ---
-seoDescription: Optimize C# and VB.NET applications for production use by avoiding debug compilation to ensure efficient memory usage and performance.
-type: rule
-archivedreason:
-title: C#/VB.NET Configuration - Do you know not to use debug compilation in production applications?
-guid: b50ed5b1-e954-4b6c-bc92-f159228150dc
-uri: c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications
-created: 2013-01-11T18:25:53.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2013-01-11 18:40:42+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: b50ed5b1-e954-4b6c-bc92-f159228150dc
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Optimize C# and VB.NET applications for production use by avoiding
+  debug compilation to ensure efficient memory usage and performance.
+title: C#/VB.NET Configuration - Do you know not to use debug compilation in production
+  applications?
+type: rule
+uri: c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications
 ---
 
 Debug compilation considerably increases memory footprint since debug symbols are required to be loaded.
 
 Additionally it will hit the performance because that will include the optional debug and trace statements in the output IL code.
 
-<!--endintro-->
+<endOfIntro />
 
 In debug mode the compiler emits debug symbols for all variables and compiles the code as is. In release mode some optimizations are included:
 
@@ -27,12 +36,24 @@ The rest is up to the JIT.
 
 As per: [C# debug vs release performance](http://stackoverflow.com/questions/2446027/c-sharp-debug-vs-release-performance).
 
-::: bad  
-![Figure: Bad Example](debug-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example"}
+  src="/uploads/rules/c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications/debug-bad.jpg"
+/>
 
-::: good  
-![Figure: Good Example](debug-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example"}
+  src="/uploads/rules/c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications/debug-good.jpg"
+/>
+
 
 We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor) to check for this rule.

@@ -1,29 +1,40 @@
 ---
-type: rule
-tips: ""
-title: Do you know how to completely remove confidential information from a
-  GitHub Issue?
-seoDescription: How to fully remove confidential info from GitHub Issues,
-  including revision history and proper team notification.
-uri: remove-confidential-information-from-github
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Calum Simpson
-    url: https://www.ssw.com.au/people/calum-simpson
-related:
-  - react-to-github
-  - prevent-secrets-leaking-from-repo
-  - hide-sensitive-information
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Calum Simpson
+  url: https://www.ssw.com.au/people/calum-simpson
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
+created: 2025-07-02 23:51:27+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: c8fdf5dd-4e3d-42bc-95d2-7b940db3fbd0
+isArchived: false
+lastUpdated: 2025-07-09 00:55:42+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/react-and-vote-on-github/rule.mdx
+- rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
+- rule: public/uploads/rules/hide-sensitive-information/rule.mdx
+seoDescription: How to fully remove confidential info from GitHub Issues, including
+  revision history and proper team notification.
+tips: ''
+title: Do you know how to completely remove confidential information from a GitHub
+  Issue?
+type: rule
+uri: remove-confidential-information-from-github
 ---
+
 If you accidentally include confidential information in a GitHub Issue - whether it’s a password, API key, or private business details - the obvious thing to do is **edit the issue and delete the sensitive content**.
 
 But that’s **not enough**.
 
 GitHub retains a full revision history for issues and comments. This means others can still view older versions and recover the compromised data.
 
-<!--endintro-->
+<endOfIntro />
 
 To protect your company and users, you must **check and delete the specific revisions** that exposed the information.
 
@@ -39,7 +50,16 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
 3. **Delete the affected revision**
 
    * If you have permission, delete the comment or attachment that contained the data.
-   ![Figure: Delete revisions so compromised data is fully removed](/confidential-info-removed-revision-deletion.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Delete revisions so compromised data is fully removed"}
+  src="/uploads/rules/remove-confidential-information-from-github/confidential-info-removed-revision-deletion.png"
+/>
+
 
    * If you **can’t delete it yourself**, **contact your repository owners or admins** and ask them to remove it.
    * If the revision still can’t be deleted (e.g. issue body history), **contact [GitHub Support](https://support.github.com/contact)** and provide:
@@ -50,9 +70,18 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
      * A request to delete the specific revision(s)
 4. **Add a note for transparency**\
    In the issue description or a comment, add a message like:\
-   "**‼️ CONFIDENTIAL INFORMATION REMOVED** The affected content was in a: screenshot / comment / video / etc."  
+   "**‼️ CONFIDENTIAL INFORMATION REMOVED** The affected content was in a: screenshot / comment / video / etc."
 
-   ![Figure: Inform about deletions mentioned what it was](/confidential-info-removed-comment.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Inform about deletions mentioned what it was"}
+  src="/uploads/rules/remove-confidential-information-from-github/confidential-info-removed-comment.png"
+/>
+
 
 ## Tips to prevent future issues
 

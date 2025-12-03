@@ -1,18 +1,27 @@
 ---
-seoDescription: Web configuration essentials in SharePoint include ASP.NET library references, system.web/pages/controls additions, HTTP modules, and safe control tags for custom DLLs.
-type: rule
-archivedreason:
-title: Do you know common web configuration stuff you will need?
-guid: c0022eb0-3807-48a5-875d-5546c7ad4f8c
-uri: do-you-know-common-web-configuration-stuff-you-will-need
-created: 2009-06-16T01:41:30.0000000Z
+archivedreason: null
 authors:
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-  - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
-related: []
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Jay Lin
+  url: https://ssw.com.au/people/jay-lin
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2009-12-04 08:14:55+00:00
+createdBy: JayLin
+createdByEmail: JayLin@sydney.ssw.com.au
+guid: c0022eb0-3807-48a5-875d-5546c7ad4f8c
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Web configuration essentials in SharePoint include ASP.NET library
+  references, system.web/pages/controls additions, HTTP modules, and safe control
+  tags for custom DLLs.
+title: Do you know common web configuration stuff you will need?
+type: rule
+uri: do-you-know-common-web-configuration-stuff-you-will-need
 ---
 
 In SharePoint, web configuration includes:
@@ -22,7 +31,7 @@ In SharePoint, web configuration includes:
 3. Add HttpModule (for example – to clean up extra JavaScript from SharePoint)
 4. SafeControl tags for all custom dlls – in general these can be added via your solution package as well
 
-<!--endintro-->
+<endOfIntro />
 
 You should always use a SPConfigModification class to modify your web.config – never tell your user or administrator to make changes manually!  This also allows them to switch off a feature from SharePoint knowing that the changes had been reverted.
 For developers – you must test your SPConfigModification carefully, mismatched XPath will cause problems in your web.config and create duplicate entries!

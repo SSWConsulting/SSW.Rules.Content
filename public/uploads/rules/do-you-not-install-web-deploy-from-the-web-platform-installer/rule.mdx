@@ -1,30 +1,50 @@
 ---
-seoDescription: Don't install Web Deploy from the Web Platform Installer; instead, download the package from IIS to ensure all necessary components for continuous deployment are included.
-type: rule
-archivedreason:
-title: Do you not install Web Deploy from the Web Platform Installer?
-guid: 44ecb0e3-2e08-4fee-9eec-84e3cb192a84
-uri: do-you-not-install-web-deploy-from-the-web-platform-installer
-created: 2013-02-06T18:38:16.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/project-delivery/rules-to-better-continuous-deployment-with-tfs.mdx
+created: 2013-02-06 18:39:41+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 44ecb0e3-2e08-4fee-9eec-84e3cb192a84
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Don't install Web Deploy from the Web Platform Installer; instead,
+  download the package from IIS to ensure all necessary components for continuous
+  deployment are included.
+title: Do you not install Web Deploy from the Web Platform Installer?
+type: rule
+uri: do-you-not-install-web-deploy-from-the-web-platform-installer
 ---
 
 You should not Install Web Deploy from the Web Platform Installer, but instead download the installation from the IIS website (http://www.iis.net/downloads/microsoft/web-deploy).
 
 The reason for this is that the Web Platform Installer does not install all of the components required for continuous deployment, but the downloaded package does.
 
-<!--endintro-->
+<endOfIntro />
 
 More information on this issue here: [Don't Install Web Deployment Tool using the Web Platform Installer](http://nicksnettravels.builttoroam.com/post/2010/04/22/Done28099t-Install-Web-Deployment-Tool-using-the-Web-Platform-Installer.aspx)
 
-::: bad  
-![Figure: Bad Example - Installing Web Deploy from the Web Platform Installer does not install all the components required for continuous deployment](web-platform-installer.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad Example - Installing Web Deploy from the Web Platform Installer does not install all the components required for continuous deployment"}
+  src="/uploads/rules/do-you-not-install-web-deploy-from-the-web-platform-installer/web-platform-installer.jpg"
+/>
 
-::: good  
-![Figure: Good Example - Install Web Deploy 3.0 by downloading the package from        http://www.iis.net/downloads/microsoft/web-deploy](web-deploy-installer.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - Install Web Deploy 3.0 by downloading the package from        http://www.iis.net/downloads/microsoft/web-deploy"}
+  src="/uploads/rules/do-you-not-install-web-deploy-from-the-web-platform-installer/web-deploy-installer.jpg"
+/>

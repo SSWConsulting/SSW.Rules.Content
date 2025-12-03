@@ -1,27 +1,45 @@
 ---
-seoDescription: Do you know the common Design Principles? (Part 2 - Example) Learn how to identify and refactor code that violates Single Responsibility Principle (SRP), reducing Cyclomatic Complexity, High Coupling, and Number of Lines.
-type: rule
-title: Do you know the common Design Principles? (Part 2 - Example)
-uri: do-you-know-the-common-design-principles-part-2-example
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related: []
-redirects: []
-created: 2012-04-02T01:45:17.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2012-04-02 03:35:50+00:00
+createdBy: DamianBrady
+createdByEmail: DamianBrady@ssw.com.au
 guid: d5373992-0400-491f-b1aa-62dbf8499a28
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: Do you know the common Design Principles? (Part 2 - Example) Learn
+  how to identify and refactor code that violates Single Responsibility Principle
+  (SRP), reducing Cyclomatic Complexity, High Coupling, and Number of Lines.
+title: Do you know the common Design Principles? (Part 2 - Example)
+type: rule
+uri: do-you-know-the-common-design-principles-part-2-example
 ---
 
 The hot spots identified in your solution often indicate violations of common design principles.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities](CodeMetrics_3.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities"}
+  src="/uploads/rules/do-you-know-the-common-design-principles-part-2-example/CodeMetrics_3.png"
+/>
+
 
 The most common problem encountered will be code that violates the Single Responsibility Principle (SRP). Addressing SRP issues will see a reduction in the following 3 metrics:
 
@@ -56,10 +74,7 @@ public class PrintServer
     // ...
 }
 ```
-
-::: bad
-Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers
-:::
+**❌ Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers**  
 
 ```csharp
 public class Printers {
@@ -81,9 +96,6 @@ public class PrinterManager {
     }
 }
 ```
-
-::: good
-Figure: Good Example - Each class has a single responsibility Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change but can be resolved by implementing the Inversion of Control **\*and\*** Dependency Injection patterns.
-:::
+**✅ Figure: Good Example - Each class has a single responsibility Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change but can be resolved by implementing the Inversion of Control **\*and\*** Dependency Injection patterns.**  
 
 ### TODO: Piers - [GitHub Issue](https://github.com/SSWConsulting/SSW.Rules.Content/issues/1535)

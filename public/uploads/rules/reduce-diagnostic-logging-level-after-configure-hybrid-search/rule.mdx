@@ -1,27 +1,53 @@
 ---
-seoDescription: Reduce diagnostic logging level after configuring hybrid search to minimize log size and improve performance.
-type: rule
-archivedreason:
-title: Do you reduce diagnostic logging level after configure hybrid search?
-guid: 8e162448-9d9e-40e9-9483-3cb91a00b2d4
-uri: reduce-diagnostic-logging-level-after-configure-hybrid-search
-created: 2017-04-25T23:51:08.0000000Z
+archivedreason: null
 authors:
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: []
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2017-04-25 23:51:10+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 8e162448-9d9e-40e9-9483-3cb91a00b2d4
+isArchived: false
+lastUpdated: 2017-04-26 00:20:17+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-reduce-diagnostic-logging-level-after-configure-hybrid-search
+- do-you-reduce-diagnostic-logging-level-after-configure-hybrid-search
+seoDescription: Reduce diagnostic logging level after configuring hybrid search to
+  minimize log size and improve performance.
+title: Do you reduce diagnostic logging level after configure hybrid search?
+type: rule
+uri: reduce-diagnostic-logging-level-after-configure-hybrid-search
 ---
 
 By default, SharePoint diagnostic logging level was set to “Information” and “Medium”, which will log quite a big info, and it increased a log after configuring “hybrid search”:
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: default logging levels](sp-diagnostic-logging.jpg)
 
-![Figure: lots of "Medium" level search logs](sp-diagnostic-logging-2.jpg)  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"default logging levels"}
+  src="/uploads/rules/reduce-diagnostic-logging-level-after-configure-hybrid-search/sp-diagnostic-logging.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"lots of \"Medium\" level search logs"}
+  src="/uploads/rules/reduce-diagnostic-logging-level-after-configure-hybrid-search/sp-diagnostic-logging-2.jpg"
+/>
+
 This made us had 60GB logs for only 14 days.
 So the solution is to change to "diagnostic logging level" as below to reduce the log size:
 
-![](sp-diagnostic-logging-3.jpg)
+![](/uploads/rules/reduce-diagnostic-logging-level-after-configure-hybrid-search/sp-diagnostic-logging-3.jpg)

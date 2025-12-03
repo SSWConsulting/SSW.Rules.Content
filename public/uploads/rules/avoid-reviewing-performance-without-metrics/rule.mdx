@@ -1,30 +1,41 @@
 ---
-type: rule
-title: Do you avoid reviewing performance without metrics?
-seoDescription: Optimize your performance reviews by using metrics to measure
-  and track progress, ensuring you're meeting clients' expectations and making
-  informed improvements.
-uri: avoid-reviewing-performance-without-metrics
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related:
-  - website-page-speed
-  - keep-website-loading-time-acceptable
-  - steps-required-to-implement-a-performance-improvement
-redirects:
-  - do-you-avoid-reviewing-performance-without-metrics
-created: 2009-03-17T05:48:04.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2025-07-17 22:43:19+00:00
+createdBy: Caleb Williams [SSW]
+createdByEmail: 65635198+Calinator444@users.noreply.github.com
 guid: 6bdcdd2d-695a-46fa-93cc-cd761276586a
+isArchived: false
+lastUpdated: 2025-08-13 00:06:37+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-avoid-reviewing-performance-without-metrics
+related:
+- rule: public/uploads/rules/website-page-speed/rule.mdx
+- rule: public/uploads/rules/keep-website-loading-time-acceptable/rule.mdx
+- rule: public/uploads/rules/steps-required-to-implement-a-performance-improvement/rule.mdx
+seoDescription: Optimize your performance reviews by using metrics to measure and
+  track progress, ensuring you're meeting clients' expectations and making informed
+  improvements.
+title: Do you avoid reviewing performance without metrics?
+type: rule
+uri: avoid-reviewing-performance-without-metrics
 ---
+
 In every successful team or project, it is crucial to track meaningful progress rather than relying solely on gut feelings. Clear metrics transform vague opinions into data-driven insights. This approach leads to better decisions, more objective performance reviews, and continuous improvement over time.
 
 When a client raises concerns about performance, it is important not to immediately dive into the code to make blind fixes. Instead of guessing what might help, we should approach the issue methodically by starting with clear benchmarks, profiling, and data-driven decisions.
 
-<!--endintro-->
+<endOfIntro />
 
 For example, if a client says:
 
@@ -43,23 +54,41 @@ A better way is:
 * Reproduce the steps and record the time again
 * Reply with metrics. E.g. *"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."*
 
-::: good
-![Figure: Good example – Use metrics to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](code-auditor-performance-score.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example – Use metrics to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)"}
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/code-auditor-performance-score.png"
+/>
+
 
 Also, never forget to do incremental changes in your tests!
 
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
 
-::: bad
-![Figure: Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data"}
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/1to4.jpg"
+/>
+
 
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
 
-::: good
-![Figure: Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring..."}
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/1234.jpg"
+/>
+
 
 This gives you the most complete set of data to work from.
 
@@ -69,9 +98,27 @@ This is because performance is an emotional thing, sometimes it just \*feels\* s
 
 Depending on your tech stack, there are various tools available to measure performance. For frontends, Google Chrome's DevTools provides a performance measurement tool.
 
-![Figure: Google Chrome has a handy Performance tab in the DevTools](chrome-perf-tools.png)
 
-![Figure: Pingdom has advanced tools for diagnosing page performance issue](monitoring-performance-pingdom.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Google Chrome has a handy Performance tab in the DevTools"}
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/chrome-perf-tools.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Pingdom has advanced tools for diagnosing page performance issue"}
+  src="/uploads/rules/avoid-reviewing-performance-without-metrics/monitoring-performance-pingdom.png"
+/>
+
 
 Here are other performance tools worth considering:
 

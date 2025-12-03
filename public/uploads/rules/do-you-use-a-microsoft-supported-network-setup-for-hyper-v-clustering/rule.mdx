@@ -1,19 +1,28 @@
 ---
-seoDescription: Microsoft Hyper-V clustering requires a supported network setup to ensure optimal performance and prevent degradation.
-type: rule
-archivedreason:
-title: Do you use a Microsoft supported network setup for Hyper-V Clustering?
-guid: c24c1d6e-4750-469e-aa6e-8c46c9bda91f
-uri: do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
-created: 2012-03-02T18:23:04.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v-clustering.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v.mdx
+created: 2012-03-02 18:28:00+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: c24c1d6e-4750-469e-aa6e-8c46c9bda91f
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Microsoft Hyper-V clustering requires a supported network setup to
+  ensure optimal performance and prevent degradation.
+title: Do you use a Microsoft supported network setup for Hyper-V Clustering?
+type: rule
+uri: do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
 ---
 
 Microsoft lists several recommended and supported network configurations. It is very important that you configure your Hyper-V Cluster with one of the supported network types otherwise you will have performance issues once you load up the cluster.
 
-<!--endintro-->
+<endOfIntro />
 
-![Hyper-v configuration page](config-page.jpg)**Figure: Check you have one of the supported configurations listed on the [&gt;Microsoft Hyper-V Live Migration – Network Configuration](http://technet.microsoft.com/en-us/library/ff428137%28WS.10%29.aspx?WT.mc_id=DT-MVP-33518) page (this example has 3 networks)**
+![Hyper-v configuration page](/uploads/rules/do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering/config-page.jpg)**Figure: Check you have one of the supported configurations listed on the [&gt;Microsoft Hyper-V Live Migration – Network Configuration](http://technet.microsoft.com/en-us/library/ff428137%28WS.10%29.aspx?WT.mc_id=DT-MVP-33518) page (this example has 3 networks)**
 It may work fine initially on a non-supported configuration but when you start loading more Virtual Machines on to the cluster the performance will be degrade dramatically.

@@ -2,20 +2,28 @@
 seoDescription: Avoid using non-strongly-typed connection strings to improve code maintainability and reduce errors.
 type: rule
 title: Do you avoid using non strongly typed connection strings?
+categories:
+  - category: categories/software-engineering/rules-to-better-connection-strings.mdx
 uri: avoid-using-non-strongly-typed-connection-strings
 authors:
   - title: Igor Goldobin
     url: https://ssw.com.au/people/alumni/igor-goldobin/
-created: 2024-03-09T06:15:30.110Z
+created: 2024-03-11T17:54:44.000Z
 archivedreason: Update connection string management - favor IOptions pattern over Visual Studio's Application Settings. Offers robust, flexible config in .NET Core, aligning with modern development practices. Refer to Microsoft's IOptions pattern in .NET documentation for implementation guidance.
 guid: 65039e5e-cae8-4a07-b934-669eff984bc3
+lastUpdated: 2025-09-15T12:18:01.000Z
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: true
 ---
 
 Using non strongly typed connection strings means that you have to hard code at some point in your code. Once you change the name of your connection strings, you have to change the code that references them too.
 
 Visual Studio provides a convenient tool, called Application Settings, that allows you to manage all of your connection strings from only one location. You can use its wizard to compose connection strings quickly and correctly. Also, it provides a management class to read and write all of your connection strings.
 
-<!--endintro-->
+<endOfIntro />
 
 ```cs
 var connString = System.Configuration.ConfigurationManager.ConnectionStrings["MyProj.Properties.Settings.ConnectString"].ToString();
@@ -25,11 +33,13 @@ conn.Open();
 cmd.ExecuteNonQuery();
 conn.Close();
 ```
+**❌ Bad example - Using non strongly typed connection strings, the highlighted text is hard code actually**  
 
-::: bad
-Bad example - Using non strongly typed connection strings, the highlighted text is hard code actually
-:::
-
-::: good
-![Figure: Good example - Using Application Settings to configure connection strings](conn.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Using Application Settings to configure connection strings"}
+  src="/uploads/rules/avoid-using-non-strongly-typed-connection-strings/conn.gif"
+/>

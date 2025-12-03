@@ -2,17 +2,25 @@
 seoDescription: Learn how to set up a Vue.js project quickly and easily with create-vue, the official tool for scaffolding a Vue.js project, or use Vue CLI, although it's no longer recommended for new projects.
 type: rule
 title: Do you know how to set up a Vue.js project?
+categories:
+  - category: categories/software-engineering/rules-to-better-vue.mdx
 uri: set-up-vue-project
 authors:
   - title: Zach Keeping
     url: https://ssw.com.au/people/zach-keeping/
-created: 2023-07-13T04:20:50.584Z
+created: 2023-07-17T17:45:40.000Z
 guid: bcde10d8-9a57-40c6-af8f-fe594e48c8c2
+lastUpdated: 2025-09-17T13:55:02.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Zach Keeping [SSW]
+createdByEmail: 11418832+zacharykeeping@users.noreply.github.com
+isArchived: false
 ---
 
 Getting started with a Vue.js project is easy. Here's how you can quickly get up and running:
 
-<!--endintro-->
+<endOfIntro />
 
 ### create-vue (Recommended)
 
@@ -28,12 +36,21 @@ npm init vue@latest
 
 2. This will install and run create-vue. It will then prompt you for a project name and step you through a series of prompts for the features you wish to enable:
 
-   ![Figure: The options provided by create-vue for scaffolding a Vue.js project](create-vue.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"The options provided by create-vue for scaffolding a Vue.js project"}
+  src="/uploads/rules/set-up-vue-project/create-vue.png"
+/>
+
 
 3. When this completes, you're all done! You will now have a Vue.js project set up in a folder matching the project name you set. To get started running a dev server, execute the following:
 
 ```shell
-cd {{ PROJECT_NAME }}
+cd &#123;&#123; PROJECT_NAME &#125;&#125;
 npm install
 npm run dev
 ```
@@ -55,18 +72,36 @@ npm install -g @vue/cli
 2. Create a new project using "vue create":
 
 ```shell
-vue create {{ PROJECT_NAME }}
+vue create &#123;&#123; PROJECT_NAME &#125;&#125;
 ```
 
 3. You will then be presented with a few options. Here you can choose to get up and running using default presets, or you can manually choose what features you want for your project:
 
-   ![Figure: Top-level options when running "vue create" using Vue CLI](vue-cli-1.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Top-level options when running \"vue create\" using Vue CLI"}
+  src="/uploads/rules/set-up-vue-project/vue-cli-1.png"
+/>
 
-   ![Figure: Manual feature selection instead of using a preset in Vue CLI](vue-cli-2.png)
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Manual feature selection instead of using a preset in Vue CLI"}
+  src="/uploads/rules/set-up-vue-project/vue-cli-2.png"
+/>
+
 
 4. Once you've selected your options and allowed it to complete, you'll now have a basic Vue.js project set up in a folder matching the project name you entered. You can get a dev server running by executing the following:
 
 ```shell
-cd {{ PROJECT_NAME }}
+cd &#123;&#123; PROJECT_NAME &#125;&#125;
 npm run serve
 ```

@@ -1,59 +1,69 @@
 ---
-seoDescription: Design patterns separate complexity into manageable components, improving application maintainability and scalability.
-type: rule
-archivedreason:
-title: Do you know the common Design Patterns?
-guid: 7c617edd-b576-4c1c-8771-d2a5edec7b1f
-uri: common-design-patterns
-created: 2012-04-02T04:44:06.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Dhruv Mathur
-    url: https://ssw.com.au/people/dhruv-mathur
-related:
-  - dependency-injection
-  - code-against-interfaces
-  - use-specification-pattern
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Dhruv Mathur
+  url: https://ssw.com.au/people/dhruv-mathur
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2024-04-18 10:16:25+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
+guid: 7c617edd-b576-4c1c-8771-d2a5edec7b1f
+isArchived: false
+lastUpdated: 2025-10-02 21:14:02+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-know-the-common-design-patterns-(part-1)
-  - do-you-know-the-common-design-patterns-part-1
-  - do-you-know-the-common-design-patterns-(part-2-example)
-  - do-you-know-the-common-design-patterns-part-2-example
+- do-you-know-the-common-design-patterns-(part-1)
+- do-you-know-the-common-design-patterns-part-1
+- do-you-know-the-common-design-patterns-(part-2-example)
+- do-you-know-the-common-design-patterns-part-2-example
+related:
+- rule: public/uploads/rules/dependency-injection/rule.mdx
+- rule: public/uploads/rules/code-against-interfaces/rule.mdx
+- rule: public/uploads/rules/use-specification-pattern/rule.mdx
+seoDescription: Design patterns separate complexity into manageable components, improving
+  application maintainability and scalability.
+title: Do you know the common Design Patterns?
+type: rule
+uri: common-design-patterns
 ---
 
 Design patterns are useful for ensuring [common design principles](/do-you-know-the-common-design-principles-part-1) are being followed.  They help make your code consistent, predictable, and easy to maintain.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/watch?v=tv-_1er1mWI`
-**Video: 10 Design Patterns Explained in 10 Minutes (10 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=tv-_1er1mWI" description={"Video: 10 Design Patterns Explained in 10 Minutes (10 min)"} />
+
 
 ## Important design patterns
 
-* **IOC** | [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control)  
+* **IOC** | [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control)
   In this pattern, control over the instantiation and management of objects is inverted, meaning that these responsibilities are handed over to an external framework like a DI container instead of being managed by the classes themselves. This separation enhances flexibility and decouples all the classes in the system.
 
-* **DI** | [Dependency Injection](/dependency-injection)  
+* **DI** | [Dependency Injection](/dependency-injection)
   DI is a form of IoC where dependencies are provided to objects rather than created by them, one instance of the dependency can be used by many. This pattern also reduces dependency coupling between components since the instantiation is handled externally, making the system easier to manage and test.
 
-* **Factory** | [Factory Pattern](http://en.wikipedia.org/wiki/Factory_pattern)  
+* **Factory** | [Factory Pattern](http://en.wikipedia.org/wiki/Factory_pattern)
   It is a creational pattern that deals with the problem of creating objects without specifying the exact class of object that will be created. This is done by defining an interface or abstract class for creating an object, which subclasses decide how to implement. This pattern helps in managing and maintaining code by encapsulating how any object is created.
 
-* **Singleton** | [Singleton Pattern](http://en.wikipedia.org/wiki/Singleton_pattern)  
+* **Singleton** | [Singleton Pattern](http://en.wikipedia.org/wiki/Singleton_pattern)
   This ensures that a class has only one instance and provides a global point of access to it. This pattern is used to control access to resources that are shared throughout an application, like a configuration file or connection to a database. This ensures that only a single shared instance of a class is consumed by the application.
 
-* **Repository** | [Repository Pattern](http://msdn.microsoft.com/en-us/library/ff649690.aspx?WT.mc_id=AZ-MVP-33518)  
+* **Repository** | [Repository Pattern](http://msdn.microsoft.com/en-us/library/ff649690.aspx?WT.mc_id=AZ-MVP-33518)
   A repository abstracts the data layer, providing a collection-like interface for accessing domain objects. It centralizes common data access functionalities and promotes a more organized data access architecture. By isolating the data layer, this pattern ensures that changes to the database access code are minimized when changes to the business logic or database specifics occur.
 
-* **Unit of Work** | [Unit of Work Pattern](http://msdn.microsoft.com/en-us/magazine/dd882510.aspx?WT.mc_id=AZ-MVP-33518)  
+* **Unit of Work** | [Unit of Work Pattern](http://msdn.microsoft.com/en-us/magazine/dd882510.aspx?WT.mc_id=AZ-MVP-33518)
   It is a way to keep track of everything you do during a transaction that can affect the database. When it's time to commit the transaction, it figures out everything that needs to be done to alter the database as a result of your work. This pattern is crucial for maintaining the consistency of data within the boundaries of a transaction.
 
-* **MVC** | [Model View Controller](http://en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller)  
+* **MVC** | [Model View Controller](http://en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller)
   It is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller. Each of these components handles different aspects of the application's data, user interface, and control logic, respectively. This separation helps manage complexity in large applications.
 
 * **MVP** | [Model View Presenter](http://en.wikipedia.org/wiki/Model_View_Presenter)
@@ -62,7 +72,16 @@ Design patterns are useful for ensuring [common design principles](/do-you-know-
 * **Mediator** | [Mediator Pattern](http://en.wikipedia.org/wiki/Mediator_pattern)
   The mediator pattern uses a central object to handle communication between other objects in a system, promoting separation of concerns. This means each object doesn’t need to know about the details of how others operate, making the system easier to maintain and extend.
 
-![Figure: Developers use design patterns to build quality solutions](design-patterns.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Developers use design patterns to build quality solutions"}
+  src="/uploads/rules/common-design-patterns/design-patterns.png"
+/>
+
 
 ## Other design patterns
 

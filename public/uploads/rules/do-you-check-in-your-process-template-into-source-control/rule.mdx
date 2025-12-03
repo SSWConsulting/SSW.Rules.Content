@@ -1,37 +1,70 @@
 ---
-seoDescription: Check in your customized process template into source control to track changes and avoid mistakes, ensuring version control and collaboration with team members.
-type: rule
-archivedreason:
-title: Do you Check-in your process template into source control? (legacy)
-guid: 2c2ef28f-d706-4153-8107-791037a14190
-uri: do-you-check-in-your-process-template-into-source-control
-created: 2012-07-18T07:16:38.0000000Z
+archivedreason: null
 authors:
-  - title: Lei Xu
-    url: https://ssw.com.au/people/lei-xu
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related:
-  - do-you-control-the-drop-down-list-value-for-assigned-to-field
-  - do-you-have-a-witadmin-script-to-import-work-item-definitions
-  - do-you-start-from-a-built-in-process-template
-  - do-you-use-global-list
+- title: Lei Xu
+  url: https://ssw.com.au/people/lei-xu
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/project-delivery/rules-to-better-tfs-customization.mdx
+created: 2012-07-18 07:22:44+00:00
+createdBy: LuZhang
+createdByEmail: LuZhang@ssw.com.au
+guid: 2c2ef28f-d706-4153-8107-791037a14190
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-check-in-your-process-template-into-source-control-legacy
-  - do-you-check-in-your-process-template-into-source-control-(legacy)
+- do-you-check-in-your-process-template-into-source-control-legacy
+- do-you-check-in-your-process-template-into-source-control-(legacy)
+related:
+- rule: public/uploads/rules/do-you-control-the-drop-down-list-value-for-assigned-to-field/rule.mdx
+- rule: public/uploads/rules/do-you-have-a-witadmin-script-to-import-work-item-definitions/rule.mdx
+- rule: public/uploads/rules/do-you-start-from-a-built-in-process-template/rule.mdx
+- rule: public/uploads/rules/do-you-use-global-list/rule.mdx
+seoDescription: Check in your customized process template into source control to track
+  changes and avoid mistakes, ensuring version control and collaboration with team
+  members.
+title: Do you Check-in your process template into source control? (legacy)
+type: rule
+uri: do-you-check-in-your-process-template-into-source-control
 ---
 
-::: info
-**For Azure DevOps Server (and old TFS servers)**
+<boxEmbed
+  style="info"
+  body={<>
+    **For Azure DevOps Server (and old TFS servers)**
 **Note:** If using Azure DevOps (cloud) then you have no method of tracking changes to the Process Template.
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 The customized process template is a very important asset for your team, you should use Source Control to store the work-in-progress template so you can track the changes and avoid mistakes.
 
-![Figure: customized process template in source control](CheckInTemplateIntoSourceControl.png)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"customized process template in source control"}
+  src="/uploads/rules/do-you-check-in-your-process-template-into-source-control/CheckInTemplateIntoSourceControl.png"
+/>
+
+
+<endOfIntro />
 
 You should also keep a version history log in ProcessTemplate.xml so you can track the deployed version easily.
 
-![Figure: ProcessTemplate.xml with version history log](KeepHistoryForTemplate.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"ProcessTemplate.xml with version history log"}
+  src="/uploads/rules/do-you-check-in-your-process-template-into-source-control/KeepHistoryForTemplate.png"
+/>

@@ -1,21 +1,29 @@
 ---
-seoDescription: Proactively notify stakeholders about potential Azure resource cost spikes to manage budgets effectively.
-type: rule
-title: Do you proactively notify about expected spikes in Azure Resource costs?
-uri: spike-in-azure-resource-costs
 authors:
-  - title: Warwick Leahy
-    url: https://ssw.com.au/rules/warwick-leahy
-related:
-  - azure-budgets
-created: 2023-11-14T04:02:45.191Z
+- title: Warwick Leahy
+  url: https://ssw.com.au/rules/warwick-leahy
+categories:
+- category: categories/software-engineering/rules-to-better-azure.mdx
+created: 2023-11-15 14:05:59+00:00
+createdBy: Warwick Leahy [SSW]
+createdByEmail: 58454534+leahy268@users.noreply.github.com
 guid: 0f608bf3-d8b6-410f-8c9a-c4498f4eadad
-
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/azure-budgets/rule.mdx
+seoDescription: Proactively notify stakeholders about potential Azure resource cost
+  spikes to manage budgets effectively.
+title: Do you proactively notify about expected spikes in Azure Resource costs?
+type: rule
+uri: spike-in-azure-resource-costs
 ---
 
 Always inform stakeholders in advance if you anticipate a significant increase in Azure resource costs. This proactive communication is crucial for budget planning and avoiding unexpected expenses.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Why This Matters
 
@@ -30,43 +38,51 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 ### Scenarios
 
-::: greybox
-A team needs to perform a bulk update on millions of records in an Azure Cosmos DB instance, a task that requires scaling up the throughput units substantially. They proceed without notifying anyone, assuming the cost would be minimal as usual. However, the intensive usage for a week leads to an unexpectedly high bill, causing budgetary concerns and dissatisfaction among stakeholders.
-:::
 
-::: bad
-Figure: Bad example - Nobody likes a surprise bill
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    A team needs to perform a bulk update on millions of records in an Azure Cosmos DB instance, a task that requires scaling up the throughput units substantially. They proceed without notifying anyone, assuming the cost would be minimal as usual. However, the intensive usage for a week leads to an unexpectedly high bill, causing budgetary concerns and dissatisfaction among stakeholders.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**❌ Figure: Bad example - Nobody likes a surprise bill**  
 
-::: greybox
-Before running a large-scale data migration on Azure SQL Database, which is expected to significantly increase DTU (Database Transaction Unit) consumption for a week, the team calculates the expected cost increase. They inform the finance and management teams, providing a detailed report on the reasons for the spike, the benefits of the migration, and potential cost-saving measures.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Before running a large-scale data migration on Azure SQL Database, which is expected to significantly increase DTU (Database Transaction Unit) consumption for a week, the team calculates the expected cost increase. They inform the finance and management teams, providing a detailed report on the reasons for the spike, the benefits of the migration, and potential cost-saving measures.
 
 Then send an email (as per the template below)
-:::
-
-::: good
-Figure: Informing and emailing stakeholders before a spike makes everyone happy
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**✅ Figure: Informing and emailing stakeholders before a spike makes everyone happy**  
 
 #### Email template
 
-::: email-template  
+<emailEmbed
+  from=""
+  to="&#123;&#123; SpendMaster (aka SysAdmins) &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Cost spike due to data migration"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; SpendMaster aka SysAdmins &#125;&#125;
 
-|          |     |
-| -------- | --- |
-| To:      | {{ SpendMaster (aka SysAdmins) }} |
-| Subject: | {{ PROJECT NAME }} - Cost spike due to data migration  |  
-::: email-content  
+I need to perform &#123;&#123; TASK &#125;&#125; on &#123;&#123; PROJECT NAME &#125;&#125;. I know that this will cost more than our usual amount for Azure. I expect the process to run for &#123;&#123; X &#125;&#125; days.
 
-### Hi {{ SpendMaster aka SysAdmins }}  
-
-I need to perform {{ TASK }} on {{ PROJECT NAME }}. I know that this will cost more than our usual amount for Azure. I expect the process to run for {{ X }} days.
-
-I have calculated this cost to be {{ $$ }}.
+I have calculated this cost to be &#123;&#123; $$ &#125;&#125;.
 
 1. Please approve
-:::  
-:::
+  </>}
+  captionStyle="default"
+  caption={"Example"}
+/>
 
 ---
 

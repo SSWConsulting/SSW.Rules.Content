@@ -1,45 +1,83 @@
 ---
-seoDescription: Securely share passwords externally by utilizing your enterprise password manager's one-time secret sharing feature.
-type: rule
-title: Do you know the best way to share a password externally?
-uri: password-sharing-practices
 authors:
-  - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
-related:
-  - choose-an-enterprise-password-manager
-created: 2023-02-01T10:45:51.141Z
+- title: Warwick Leahy
+  url: https://ssw.com.au/people/warwick-leahy
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-security-end-users.mdx
+created: 2023-02-07 01:54:39+00:00
+createdBy: Warwick Leahy [SSW]
+createdByEmail: 58454534+leahy268@users.noreply.github.com
 guid: cc760fc0-de52-4019-9315-066c534c8625
+isArchived: false
+lastUpdated: 2023-07-16 23:32:06+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/choose-an-enterprise-password-manager/rule.mdx
+seoDescription: Securely share passwords externally by utilizing your enterprise password
+  manager's one-time secret sharing feature.
+title: Do you know the best way to share a password externally?
+type: rule
+uri: password-sharing-practices
 ---
 
 Often an organization needs to share a password to a 3rd party. Perhaps a client or a vendor require a password. There are a few ways that this could be achieved but some are less secure than others.
 
-<!--endintro-->
+<endOfIntro />
 
 - **Email** - sending an email containing the username and password for anything is the worst thing you can do. If that email falls into the wrong hands it is immediately compromised.
 
-  :::bad
-  ![Figure:Bad example - Never share secrets using email](passwordsharing1.png)
-  :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Never share secrets using email"}
+  src="/uploads/rules/password-sharing-practices/passwordsharing1.png"
+/>
+
 
 - **Email + SMS** - Sending a username via email and the password in SMS is slightly better but is still a little bit risky as both services could be compromised and often people sync their messages to their PC, so this is still too risky.
 
-  :::bad
-  ![Figure: Bad example - Email + SMS is better but still insecure](passwordsharing2.png)
-  :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Email + SMS is better but still insecure"}
+  src="/uploads/rules/password-sharing-practices/passwordsharing2.png"
+/>
+
 
 - **OneTime Sharing via a 3rd party** - You could use a service such as [OneTimeSecret](https://onetimesecret.com) to share the secret details. This is better but there is still a small risk that the 3rd party website could be compromised and your details are still leaked.
 
-  :::bad
-  ![Figure: Bad example - One Time Secret sharing via a 3rd party is better](passwordsharing3.png)
-  :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - One Time Secret sharing via a 3rd party is better"}
+  src="/uploads/rules/password-sharing-practices/passwordsharing3.png"
+/>
+
 
 - **Share via your Enterprise Password Manager** - This is the most secure way to share a secret with an external 3rd party. With products such as Keeper Enterprise all of your passwords remain safe inside your own vault and can generate a link or a QR code to send to your client.
 
-  :::good
-  ![Figure: Good example - Create a One Time Secret using Keeper Enterprise](passwordsharing4.png)
-  :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Create a One Time Secret using Keeper Enterprise"}
+  src="/uploads/rules/password-sharing-practices/passwordsharing4.png"
+/>
 
-  :::good
-  ![Figure: Good example - Generate an email, link or QR Code directly from Keeper Enterprise](passwordsharing5.png)
-  :::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Generate an email, link or QR Code directly from Keeper Enterprise"}
+  src="/uploads/rules/password-sharing-practices/passwordsharing5.png"
+/>
