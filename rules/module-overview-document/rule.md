@@ -40,13 +40,9 @@ Some modular monolith solutions have two types of modules:
 * **Web API** modules (external, exposed to the internet via rest APIs)
 * **Service** modules (internal, available via CQRS Mediatr queries and commands)
 
-### Example - Northwind 365 Module Overview
+### Example - Module Overview
 
 ::: greybox
-
-**Northwind 365** is a Modular Monolith Application.  
-Each Module is either a **Service** or **Web Module**.  
-Read more about [Modules](https://github.com/northwind365/Northwind365/blob/main/docs/modular-architecture/modular-architecture.md)
 
 #### Modules
 
