@@ -22,7 +22,7 @@ Clear, unambiguous dates and times prevent missed meetings, costly travel mistak
 “Catch up moved to 10/05 at 6. See you then”
 :::
 
-Think about this, is that 10th of May or 5th of October? Is it 6 AM or 6 PM?
+Think about this, is that 10th of May or 5th of October? Is it 6 am or 6 pm?
 
 <!--endintro-->
 
@@ -58,9 +58,9 @@ Use valid formats to avoid confusion - both 24-hour and 12-hour formats are univ
 
 ::: greybox
 
-* The user group will start at 6 (is this AM or PM?)
-* The user group will start at 18 PM (invalid format)
-* The user group will start at 6.00 PM (use of dot)
+* The user group will start at 6 (is this **am** or **pm**?)
+* The user group will start at 18 pm (invalid format)
+* The user group will start at 6.00 pm (use of dot)
 :::
 ::: bad
 Bad example - Incorrect or ambiguous times
@@ -69,13 +69,13 @@ Bad example - Incorrect or ambiguous times
 ::: greybox
 
 * The user group will start at 18:00 tomorrow (24-hour format)
-* The user group will start at 6 PM tomorrow (12-hour format)
+* The user group will start at 6 pm tomorrow (12-hour format)
 :::
 ::: good
 Good example - Correct formatting for time
 :::
 
-Avoid the 12 PM / 12 PM trap.
+Avoid the 12 am / 12 pm trap.
 
 * Use "noon" or "midnight" to the end of the time instead of just 12:00. E.g., 12:00 noon.
 * For boundaries (e.g., validity periods), avoid 00:00; use 00:01 for start and 23:59 for end (common airline practice) to remove doubt.
@@ -90,5 +90,6 @@ Always include a time zone for cross-location events: AEST (UTC+10), AEDT (UTC+1
 
 * Use leading zeros in 24-hour times: 09:05, not 9:5
 * Don’t mix separators: use “:” for time, not “. “or “h.”
+* Use “6 pm” with lowercase letters and a space for clear, modern, and style-guide-friendly time formatting
 * It is recommended to use the ISO standard (YYYY-MM-DD) for your filenames, so they can be sorted in descending or ascending order by time
   * e.g., 2025-08-15-sprint-review-notes.md
