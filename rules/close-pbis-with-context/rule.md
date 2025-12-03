@@ -66,7 +66,7 @@ In GitHub, there is a feature that allows PBIs to be automatically closed when a
 Be aware, this auto-closes the issue and assumes merging the PR is the only work required. This is not always true depending on your [Definition of Done](/definition-of-done) and deployment process.
 
 ::: info
-**Tip:** Repository administrators can disable auto-closing in **Settings** | **General** | **Issues** by deselecting "Auto-close issues with merged linked pull requests". See [GitHub's documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues) for details.
+**Tip:** Repository administrators can disable auto-closing. See [GitHub's documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues) for details.
 :::
 
 See rule on [avoiding auto-closing Issues](/avoid-auto-closing-issues).
