@@ -1,50 +1,66 @@
 ---
-type: rule
-tips: ""
-title: Do you attribute AI-assisted commits with co-authors?
-seoDescription: Learn how to properly attribute commits when using GitHub
-  Copilot CLI or other AI coding assistants. This standard ensures proper credit
-  and transparency in AI-human collaboration.
-uri: attribute-ai-assisted-commits-with-co-authors
 authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-related:
-  - keep-task-summaries-from-ai-assisted-development
-created: 2025-10-17T09:52:00.000Z
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Lewis Toh
+  url: https://ssw.com.au/people/lewis-toh
+categories:
+- category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+created: 2025-10-17 06:56:06+00:00
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
 guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
+isArchived: false
+lastUpdated: 2025-10-17 06:56:06+00:00
+lastUpdatedBy: Lewis Toh [SSW]
+lastUpdatedByEmail: 88498002+Lewkans@users.noreply.github.com
+related:
+- rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
+seoDescription: Learn how to properly attribute commits when using GitHub Copilot
+  CLI or other AI coding assistants. This standard ensures proper credit and transparency
+  in AI-human collaboration.
+tips: ''
+title: Do you attribute AI-assisted commits with co-authors?
+type: rule
+uri: attribute-ai-assisted-commits-with-co-authors
 ---
+
 When AI assistants make code changes on your behalf, proper attribution is essential. Adding yourself as a co-author when AI implements changes ensures transparency about who verified the work and maintains accurate contribution history.
 
 This practice is especially important in team environments where AI assists with implementing features, fixing bugs, or making changes.
 
-<!--endintro-->
+<endOfIntro />
 
 ### The Problem with Missing Attribution
 
 When AI makes changes without proper attribution, we don't know who checked the work of the AI:
 
-::: greybox
-**Git History:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Git History:**
 
 ```
 feat: Add authentication module
-Author: GitHub Copilot <noreply@github.com>
+Author: GitHub Copilot &lt;noreply@github.com&gt;
 ```
 
-:::
-::: bad
-Bad Example - No indication of who checked the AI's work
-:::
+  </>}
+  captionStyle="badExample"
+  caption={"Bad Example - No indication of who checked the AI's work"}
+/>
+
 
 ### The Problem with Giant End-of-Session Commits
 
 When you don't commit frequently during a Copilot session:
 
-::: greybox
-**Single massive commit at the end:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Single massive commit at the end:**
 
 ```
 feat: Complete authentication system
@@ -70,10 +86,11 @@ feat: Complete authentication system
 * Can't revert specific changes
 * Lost context about which changes relate to which sub-tasks
 * No connection to [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
-:::
-::: bad
-Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs
-:::
+  </>}
+  captionStyle="badExample"
+  caption={"Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs"}
+/>
+
 
 ## The Solution: Co-Author Attribution + Frequent Commits
 
@@ -99,27 +116,30 @@ Git supports multiple authors via the `Co-authored-by` trailer in commit message
 * Easy to cross-reference commit history with task docs
 * Provides complete context for future developers
 
-::: greybox
-**Better approach - Multiple focused commits:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Better approach - Multiple focused commits:**
 
 ```
 feat: Add login page with form validation
 
-Co-authored-by: Gordon Beeming <gordon@example.com>
+Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ---
 feat: Add user registration with email verification
 
-Co-authored-by: Gordon Beeming <gordon@example.com>
+Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ---
 feat: Add OAuth provider integration (Google, GitHub)
 
-Co-authored-by: Gordon Beeming <gordon@example.com>
+Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ---
 docs: Document authentication implementation
 
 Updates task doc with OAuth setup details
 
-Co-authored-by: Gordon Beeming <gordon@example.com>
+Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ```
 
 **Result:**
@@ -128,10 +148,11 @@ Co-authored-by: Gordon Beeming <gordon@example.com>
 * Each commit is reviewable independently
 * Clear relationship to task documentation
 * Easy to understand the implementation sequence
-:::
-::: good
-Good Example - Small, focused commits with proper attribution and documentation
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good Example - Small, focused commits with proper attribution and documentation"}
+/>
+
 
 ### How to Identify Yourself
 
@@ -145,12 +166,15 @@ Check these sources to determine your details for co-author attribution:
 
 The standard Git co-author format:
 
-::: greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 ```bash
 git commit -m "feat: Add recipe search functionality
 
-Co-authored-by: Gordon Beeming <me@gordonbeeming.com>"
+Co-authored-by: Gordon Beeming &lt;me@gordonbeeming.com&gt;"
 ```
 
 **Git History Shows:**
@@ -159,10 +183,11 @@ Co-authored-by: Gordon Beeming <me@gordonbeeming.com>"
 * **Co-author:** Gordon Beeming
 
 **Result:** Both the AI implementer and human verifier are visible in GitHub's UI and git log
-:::
-::: good
-Good Example - You get proper credit for verifying and approving the AI's work
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good Example - You get proper credit for verifying and approving the AI's work"}
+/>
+
 
 ### Multiple Co-Authors
 
@@ -174,10 +199,7 @@ git commit -m "feat: Implement user authentication system
 Co-authored-by: Gordon Beeming <gordon@example.com>
 Co-authored-by: Daniel Mackay <daniel@example.com>"
 ```
-
-::: good
-Good Example - All reviewers are properly credited
-:::
+**✅ Good Example - All reviewers are properly credited**  
 
 ## When to Add Yourself as Co-Author
 
@@ -264,7 +286,7 @@ COMMIT_SOURCE=$2
 if [ -z "$COMMIT_SOURCE" ]; then
   COAUTHOR_NAME=$(git config user.name)
   COAUTHOR_EMAIL=$(git config user.email)
-  
+
   # Add co-author if not already present
   if ! grep -q "Co-authored-by: $COAUTHOR_NAME" "$COMMIT_MSG_FILE"; then
     echo "" >> "$COMMIT_MSG_FILE"
@@ -273,41 +295,52 @@ if [ -z "$COMMIT_SOURCE" ]; then
 fi
 ```
 
-::: info
-**Note:** Git hooks are local and not committed to the repository. Share this with your team via documentation.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Git hooks are local and not committed to the repository. Share this with your team via documentation.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## ✅ Benefits
 
-* **Proper Credit:** Both AI and human contributors receive recognition  
-* **Transparency:** Clear record of who verified the AI's work  
-* **Collaboration History:** Easy to trace AI-assisted changes  
-* **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits  
-* **Vertical Slicing:** Each commit represents one logical unit of work  
-* **Task Documentation Alignment:** Commits correspond to task docs created during the session  
-* **Team Visibility:** Team can see AI collaboration patterns  
-* **Future Context:** Helps understand how changes were created  
+* **Proper Credit:** Both AI and human contributors receive recognition
+* **Transparency:** Clear record of who verified the AI's work
+* **Collaboration History:** Easy to trace AI-assisted changes
+* **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits
+* **Vertical Slicing:** Each commit represents one logical unit of work
+* **Task Documentation Alignment:** Commits correspond to task docs created during the session
+* **Team Visibility:** Team can see AI collaboration patterns
+* **Future Context:** Helps understand how changes were created
 * **Easy Reverting:** Can undo specific changes without affecting other work
 
 ### GitHub UI Benefits
 
-::: greybox
-**GitHub Commit View:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **GitHub Commit View:**
 
 ```
 feat: Add authentication module
 
 Author: GitHub Copilot
-Co-authored-by: Gordon Beeming <gordon@example.com>
+Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ```
 
 * Gordon's avatar appears on the commit
 * Commit counts toward Gordon's contributions
 * Links to Gordon's profile from the commit
-:::
-::: good
-Good Example - GitHub recognizes and displays all contributors
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good Example - GitHub recognizes and displays all contributors"}
+/>
+
 
 ## Conclusion
 

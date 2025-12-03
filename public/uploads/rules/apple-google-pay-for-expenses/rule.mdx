@@ -1,16 +1,24 @@
 ---
-seoDescription: Simplify expense management and improve financial processes by using Apple/Google Pay for company expenses
-type: rule
-title: Expenses - Do you use Apple/Google Pay for company expenses?
-uri: apple-google-pay-for-expenses
-authors:
-  - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
-related: null
-redirects: null
-created: 2023-05-26T15:08:44.000Z
 archivedreason: null
+authors:
+- title: Jimmy Chen
+  url: https://ssw.com.au/people/jimmy-chen
+categories:
+- category: categories/company-operations/rules-to-better-accounting.mdx
+created: 2023-05-30 21:04:47+00:00
+createdBy: Jimmy Chen [SSW]
+createdByEmail: 112846253+JimmyChenSSW@users.noreply.github.com
 guid: df30aae6-f8ba-4be8-8a7a-2b54447bb643
+isArchived: false
+lastUpdated: 2024-09-18 00:04:19+00:00
+lastUpdatedBy: Jimmy Chen [SSW]
+lastUpdatedByEmail: 112846253+JimmyChenSSW@users.noreply.github.com
+redirects: null
+seoDescription: Simplify expense management and improve financial processes by using
+  Apple/Google Pay for company expenses
+title: Expenses - Do you use Apple/Google Pay for company expenses?
+type: rule
+uri: apple-google-pay-for-expenses
 ---
 
 When a company manages its small expenses, it is common to let the employees use a company credit card to avoid staff being blocked by reasonable purchases after appropriate authorization.
@@ -19,7 +27,7 @@ Accountants are aware of the risks that come with sharing one credit card amongs
 
 To simplify expense management and improve financial processes, we encourage the use of Apple/Google Pay for company expenses. Adopting virtual wallets as the preferred payment method for in-store purchases streamlines expense management, increases accountability, and improves company expenditures management.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Efficient Expense Tracking
 
@@ -27,7 +35,16 @@ Each Apple Pay / Google Pay will have a unique card number and will always show 
 
 For example, here are 3 purchases from the same vendor at the same time. By referring to the unique card number from the statement, it can be determined that 2 payments were made by different staff members, while 1 of them was paid with a physical credit card.
 
-![Figure: By implementing virtual cards, purchasers’ information can be taken from the bank statements](purchasers-info-virtual-cards.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"By implementing virtual cards, purchasers’ information can be taken from the bank statements"}
+  src="/uploads/rules/apple-google-pay-for-expenses/purchasers-info-virtual-cards.jpg"
+/>
+
 
 Apple/Google Pay provides a centralized and easily accessible record of transactions. Each purchase generates a digital receipt, capturing important details such as the date, time, amount, and vendor information. This streamlined record-keeping simplifies expense tracking and reduces the administrative burden of manual expense reporting. Integrating Apple/Google Pay with expense management software allows for seamless synchronization of transaction data, providing real-time visibility into expenditure patterns
 
@@ -38,29 +55,38 @@ Apple/Google Pay provides a centralized and easily accessible record of transact
 
 Apple/Google Pay incorporates robust security measures to protect against fraud and unauthorized transactions. Tokenization and biometric authentication ensure that only authorized individuals can initiate and complete transactions. By encouraging staff to use Apple/Google Pay, we can mitigate potential financial risks and safeguard company resources.
 
-::: greybox
-**Scenario:** Everyone share the same credit card detail, hard to know who made the purchase.
-:::
 
-::: bad
-Bad example
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Scenario:** Everyone share the same credit card detail, hard to know who made the purchase.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**❌ Bad example**  
 
-::: greybox
-**Scenario:** Everyone receives a physical card, with each of them having independent card details (a risk multiplier). The accountants know who paid the money, but hard to manage them and easy to get hacked.
-:::
 
-::: ok
-OK example
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Scenario:** Everyone receives a physical card, with each of them having independent card details (a risk multiplier). The accountants know who paid the money, but hard to manage them and easy to get hacked.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**😐 OK example**  
 
-::: greybox
-**Scenario:** Everyone can access funds through Apple/Google Pay without creating separate credit cards, and the payment must be approved through the phone with biometric authentication.
-:::
 
-::: good
-Good example
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Scenario:** Everyone can access funds through Apple/Google Pay without creating separate credit cards, and the payment must be approved through the phone with biometric authentication.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**✅ Good example**  
 
 There is also an option that company can manage those expenses through third parties.
 

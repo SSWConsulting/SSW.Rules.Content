@@ -1,28 +1,36 @@
 ---
-seoDescription: Learn how to effectively describe your work on timesheets, including using standard terms, avoiding ambiguity, and providing specific details.
-type: rule
-title: Do you know how to describe the work you have done?
-uri: how-to-describe-the-work-you-have-done
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-related: []
-redirects:
-  - do-you-know-how-to-describe-the-work-you-have-done
-  - do-you-know-how-to-describe-the-work-you-have-done-(while-avoiding-the-word-bug)
-  - do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
-created: 2013-04-19T19:39:34.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+categories:
+- category: categories/company-operations/rules-to-better-timesheets.mdx
+created: 2024-01-11 14:40:12+00:00
+createdBy: Jernej Kavka (JK) [SSW]
+createdByEmail: jernejk@users.noreply.github.com
 guid: 2d085ee7-c9aa-4e5a-9754-082b1093ddf7
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-know-how-to-describe-the-work-you-have-done
+- do-you-know-how-to-describe-the-work-you-have-done-(while-avoiding-the-word-bug)
+- do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
+seoDescription: Learn how to effectively describe your work on timesheets, including
+  using standard terms, avoiding ambiguity, and providing specific details.
+title: Do you know how to describe the work you have done?
+type: rule
+uri: how-to-describe-the-work-you-have-done
 ---
 
 Clients want to know how you spend your time, and how you word it matters.
 
 On your timesheet entries, there are a few rules you should follow on how to best explain the value you have created for the client:
 
-<!--endintro-->
+<endOfIntro />
 
 - Use standard terms to describe the work you have done
   E.g. 'Build', 'Investigated', 'Resolved', 'Enhanced', 'Created', 'Optimized', 'Experimented with', 'Improved' or 'Fixed'.
@@ -30,19 +38,27 @@ On your timesheet entries, there are a few rules you should follow on how to bes
 - The term 'Investigated and changed' is better than 'Fixed bug'.
   The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
 
-::: greybox
-Fixed Bug on customer form
-:::
-::: bad
-Figure - Bad example
-:::
 
-::: greybox
-Investigated and improved the validation on customer form to enable saving when Customer name is \> 100 characters
-:::
-::: good
-Figure - Good example
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    Fixed Bug on customer form
+  </>}
+  captionStyle="badExample"
+  caption={"Figure - Bad example"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Investigated and improved the validation on customer form to enable saving when Customer name is \&gt; 100 characters
+  </>}
+  captionStyle="goodExample"
+  caption={"Figure - Good example"}
+/>
+
 
 - Be specific about what you did.
 
@@ -63,26 +79,40 @@ Figure - Good example
 - For customers from other states, travel time is usually billable and should be recorded separately on the timesheets so that the customer is fully aware of the exact time spent travelling to/from the client site
 - Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.
 
-::: greybox
-Apply changes as per Tony's request for FRDCAPP
-:::
-::: bad
-Figure: Bad example - This is an example of a bad timesheet note
-::::
 
-::: greybox
-**'CaterPRO! Version 8.3Fixed Sales Reports (Sales Dashboard).**
+<boxEmbed
+  style="greybox"
+  body={<>
+    Apply changes as per Tony's request for FRDCAPP
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+**❌ Figure: Bad example - This is an example of a bad timesheet note**  :
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **'CaterPRO! Version 8.3Fixed Sales Reports (Sales Dashboard).**
 
 It now reconciles correctly with Food Sales Summary.
 
 Fixed Function Counts (was double-counting)
 
 Fixed DiaryTemplate UpdatesAttempt to run CaterPRO! in the old Windows 7 with Alan
-:::
-::: good
-Figure: Good example - Informative timesheet note
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Informative timesheet note"}
+/>
 
-::: info
-**Tip:** Use TimePro to avoid doubling up by using Azure DevOps commit messages that flow through to timesheets.
-:::
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Use TimePro to avoid doubling up by using Azure DevOps commit messages that flow through to timesheets.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>

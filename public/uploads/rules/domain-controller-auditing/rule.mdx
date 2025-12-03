@@ -1,22 +1,31 @@
 ---
-seoDescription: Enabling advanced auditing on domain controllers with group policy settings for optimal security event detection and mitigation.
-type: rule
-title: Do you know what to audit on domain controllers?
-uri: domain-controller-auditing
 authors:
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
-  - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
-related:
-  - use-group-policy-to-enable-auditing-of-logon-attempts
-created: 2022-06-01T06:35:04.417Z
+- title: Chris Schultz
+  url: https://ssw.com.au/people/chris-schultz
+- title: Warwick Leahy
+  url: https://ssw.com.au/people/warwick-leahy
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-active-directory.mdx
+created: 2022-06-03 21:15:45+00:00
+createdBy: Chris Schultz [SSW]
+createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
 guid: f5f18def-d644-4e9c-a6f9-5e043315cf1f
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/use-group-policy-to-enable-auditing-of-logon-attempts/rule.mdx
+seoDescription: Enabling advanced auditing on domain controllers with group policy
+  settings for optimal security event detection and mitigation.
+title: Do you know what to audit on domain controllers?
+type: rule
+uri: domain-controller-auditing
 ---
 
 To detect and mitigate a cyber attack, the right set of events need to be collected from your domain controllers. The audit policy is a compromise between collecting too many and too few events. Logs are useful for detecting security events, but if there is too much noise, you'll miss the important information.
 
-<!--endintro-->
+<endOfIntro />
 
 To enable advanced auditing on your domain controllers, use group policy. The settings are in **Computer Configuration | Windows Settings | Security Settings | Advanced Audit Policy Configuration | Audit Policies.**
 
@@ -59,10 +68,14 @@ adsecurity.org has great recommendations for what you should be auditing on your
   - Audit Security System Extension: Success & Failure
   - Audit System Integrity : Success & Failure
 
-:::good
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Recommended auditing enabled"}
+  src="/uploads/rules/domain-controller-auditing/adv-audit-gpo.png"
+/>
 
-![Figure: Recommended auditing enabled](adv-audit-gpo.png)
-
-:::
 
 See the list in context, and more information here: https://adsecurity.org/?p=3377

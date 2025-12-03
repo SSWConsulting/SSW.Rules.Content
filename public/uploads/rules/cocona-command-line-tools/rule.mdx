@@ -1,18 +1,28 @@
 ---
-seoDescription: Build powerful .NET command line tools with Cocona - a lightweight framework that transforms C# methods into CLI commands with automatic help generation, validation, and dependency injection support.
-type: rule
-title: Do you use Cocona for building great command line tools in .NET?
-uri: cocona-command-line-tools
 authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-created: 2025-01-03T00:00:00.000Z
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+categories:
+- category: categories/software-engineering/rules-to-better-command-lines.mdx
+created: 2025-07-02 23:25:29+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 8a2f4e3d-1b5c-4e6f-8a9b-2c3d4e5f6a7b
+isArchived: false
+lastUpdated: 2025-07-02 23:25:29+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 related:
-    - provide-list-of-arguments
-    - do-you-use-a-dependency-injection-centric-architecture
-    - dependency-injection
-    - use-fluent-validation
+- rule: public/uploads/rules/provide-list-of-arguments/rule.mdx
+- rule: public/uploads/rules/do-you-use-a-dependency-injection-centric-architecture/rule.mdx
+- rule: public/uploads/rules/dependency-injection/rule.mdx
+- rule: public/uploads/rules/use-fluent-validation/rule.mdx
+seoDescription: Build powerful .NET command line tools with Cocona - a lightweight
+  framework that transforms C# methods into CLI commands with automatic help generation,
+  validation, and dependency injection support.
+title: Do you use Cocona for building great command line tools in .NET?
+type: rule
+uri: cocona-command-line-tools
 ---
 
 When building command line applications in .NET, you need a framework that makes argument parsing, validation, and help generation simple and intuitive. [Cocona](https://github.com/mayuki/Cocona) is a lightweight and powerful framework that turns your C# methods into fully-featured CLI commands with minimal boilerplate code.
@@ -31,7 +41,7 @@ Cocona offers several advantages over manual argument parsing or other CLI frame
 * **Async support**: First-class support for async/await patterns
 * **Multiple commands**: Easy support for sub-commands and complex CLI structures
 
-<!--endintro-->
+<endOfIntro />
 
 ## Basic Example
 
@@ -51,7 +61,7 @@ class Program
 
         string name = args[0];
         string greeting = "Hello";
-        
+
         for (int i = 1; i < args.Length; i++)
         {
             if (args[i] == "--greeting" && i + 1 < args.Length)
@@ -60,30 +70,24 @@ class Program
                 i++;
             }
         }
-        
+
         Console.WriteLine($"{greeting}, {name}!");
     }
 }
 ```
-
-::: bad
-Figure: Bad example - Manual argument parsing is error-prone and verbose.
-:::
+**❌ Figure: Bad example - Manual argument parsing is error-prone and verbose.**  
 
 ```csharp
 using Cocona;
 
 var app = CoconaApp.Create();
-app.AddCommand("greet", (string name, string greeting = "Hello") => 
+app.AddCommand("greet", (string name, string greeting = "Hello") =>
 {
     Console.WriteLine($"{greeting}, {name}!");
 });
 app.Run();
 ```
-
-::: good
-Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌
-:::
+**✅ Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌**  
 
 ## Validation
 
@@ -105,7 +109,7 @@ public class FileProcessor
     {
         if (verbose)
             Console.WriteLine($"Processing {inputPath} with {threads} threads...");
-            
+
         // Your file processing logic here
         Console.WriteLine($"Files processed and saved to {outputPath}");
     }
@@ -133,7 +137,7 @@ public class DatabaseCommands
         Console.WriteLine($"Migrating database (dry run: {dryRun})...");
         // Migration logic
     }
-    
+
     [Command("seed")]
     public async Task SeedDatabase(
         [Option] string connectionString,
@@ -162,12 +166,12 @@ Cocona works great with .NET's built-in dependency injection:
 public class EmailCommands
 {
     private readonly EmailService _emailService;
-    
+
     public EmailCommands(EmailService emailService)
     {
         _emailService = emailService;
     }
-    
+
     [Command]
     public void Send(string to, string subject, string body)
     {
@@ -186,6 +190,12 @@ app.Run();
 
 For more information, visit the [Cocona GitHub repository](https://github.com/mayuki/Cocona).
 
-::: info
-**Tip:** Improve your CLI tool's UI with tools like [Colorful.Console](https://github.com/khalidabuhakmeh/Colorful.Console) for colored output, or [Spectre.Console](https://spectreconsole.net/) for rich terminal applications.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Improve your CLI tool's UI with tools like [Colorful.Console](https://github.com/khalidabuhakmeh/Colorful.Console) for colored output, or [Spectre.Console](https://spectreconsole.net/) for rich terminal applications.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>

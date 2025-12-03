@@ -2,12 +2,20 @@
 seoDescription: Adding a clear and concise description to an Office 365 Group or Distribution List enhances communication, collaboration, and management within an organization by providing context about its purpose and scope.
 type: rule
 title: "Do you add a description to the group? "
+categories:
+  - category: categories/communication/rules-to-better-email.mdx
 uri: description-to-the-group
 authors:
   - title: Ash Anil
     url: https://ssw.com.au/people/ash-anil-anil/
-created: 2023-10-31T00:12:10.982Z
+created: 2023-10-31T05:02:09.000Z
 guid: f5018832-3b25-4d29-8e33-a23972318949
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Ash Anil [SSW]
+createdByEmail: 100336252+AshAnil@users.noreply.github.com
+isArchived: false
 ---
 
 Groups without descriptions lack context, making it difficult for users to understand their purpose.
@@ -15,26 +23,44 @@ Members may not know why they are part of the group, leading to confusion and mi
 
 Descriptions for Office 365 Groups and Distribution Lists (DL) play a crucial role in enhancing communication, collaboration, and management within an organization.
 
-<!--endintro-->
+<endOfIntro />
 
 A group description provides valuable information about the purpose, scope, or membership of the group. It helps users understand the group's function and decide whether to join or interact with it. It's like a group's identity card!
 
-::: bad
-![Figure: Bad example - Group with no description ](bad-example-no-description.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Group with no description"}
+  src="/uploads/rules/description-to-the-group/bad-example-no-description.jpg"
+/>
 
-::: good
-![Figure: Good example - Group with description](good-example-with-description.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Group with description"}
+  src="/uploads/rules/description-to-the-group/good-example-with-description.jpg"
+/>
+
 
 #### Adding MailTips for Internal Groups
 
 A mail tip is a brief message that appears when someone adds the group to an email. It can provide additional instructions, warnings, or important information about the group. It is better to add the group description as a mail tip.\
 This ensures that whenever someone adds a group to an email, they will see the description of the email as shown in the below figure.
 
-::: good
-![Figure: Good Example - Red Box shows the mail tip which is the group description](good-example-mail-tip.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good Example - Red Box shows the mail tip which is the group description"}
+  src="/uploads/rules/description-to-the-group/good-example-mail-tip.jpg"
+/>
+
 
 You can use PowerShell to add the mail tip to both distribution lists and Office 365 groups.
 
@@ -49,7 +75,7 @@ $Identity = "Distribution/office365 group name"
 
 
 # Set the mail tip for the group
-$Mailtip = "This group is a {{ NAME CLOSELY RELATED TO THE GROUP NAME }} group for {{ REASON FOR GROUP EXISTING }}. Goal: {{ WHAT IS THE GOAL/OBJECTIVE OF THE GROUP }}."
+$Mailtip = "This group is a &#123;&#123; NAME CLOSELY RELATED TO THE GROUP NAME &#125;&#125; group for &#123;&#123; REASON FOR GROUP EXISTING &#125;&#125;. Goal: &#123;&#123; WHAT IS THE GOAL/OBJECTIVE OF THE GROUP &#125;&#125;."
 
 
 # Add the mail tip to the distribution list

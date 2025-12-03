@@ -1,29 +1,47 @@
 ---
-type: rule
-tips: ""
-title: Do you turn your headings into anchor links?
-seoDescription: Make your headings linkable so people can jump straight to the
-  right section, share precise URLs, and keep links stable even if headings
-  change later (by setting a custom ID).
-uri: heading-to-anchor-targets
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-related:
-  - anchor-links
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-navigation.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2025-10-01 12:44:54+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: f5999763-c079-4ec2-aff4-fbdf675b92e2
+isArchived: false
+lastUpdated: 2025-10-01 12:44:54+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/anchor-links/rule.mdx
+seoDescription: Make your headings linkable so people can jump straight to the right
+  section, share precise URLs, and keep links stable even if headings change later
+  (by setting a custom ID).
+tips: ''
+title: Do you turn your headings into anchor links?
+type: rule
+uri: heading-to-anchor-targets
 ---
+
 Help readers get exactly where they need to go by making your headings linkable.
 
 This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID.
 
-<!--endintro-->
+<endOfIntro />
 
-::: info
-See the [Google Developer Style Guide on headings and anchor targets](https://developers.google.com/style/headings-targets) for clear examples and best practices.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    See the [Google Developer Style Guide on headings and anchor targets](https://developers.google.com/style/headings-targets) for clear examples and best practices.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## ✅ Benefits
 
@@ -56,9 +74,15 @@ This heading will auto-generate an anchor `#getting-started`.
 https://example.com/docs#getting-started
 ```
 
-::: good
-![Figure: Click the heading (or its link icon) to get a URL that takes you straight to that section of the page](heading-anchor-link-good-example.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Click the heading (or its link icon) to get a URL that takes you straight to that section of the page"}
+  src="/uploads/rules/heading-to-anchor-targets/heading-anchor-link-good-example.png"
+/>
+
 
 ## MDX / React implementation (auto-IDs + autolinks)
 

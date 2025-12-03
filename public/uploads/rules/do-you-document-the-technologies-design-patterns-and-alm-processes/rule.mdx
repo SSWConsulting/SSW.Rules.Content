@@ -1,16 +1,24 @@
 ---
-seoDescription: Documenting technologies, design patterns and ALM processes helps refine project architecture and work processes.
-type: rule
-archivedreason:
-title: Do you document the technologies, design patterns and ALM processes?
-guid: d9aaae27-b77a-4263-b5a8-4b8aeff51c81
-uri: do-you-document-the-technologies-design-patterns-and-alm-processes
-created: 2013-07-15T21:25:49.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2013-07-15 21:31:47+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d9aaae27-b77a-4263-b5a8-4b8aeff51c81
+isArchived: false
+lastUpdated: 2024-08-01 23:58:11+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Documenting technologies, design patterns and ALM processes helps
+  refine project architecture and work processes.
+title: Do you document the technologies, design patterns and ALM processes?
+type: rule
+uri: do-you-document-the-technologies-design-patterns-and-alm-processes
 ---
 
 The technologies and design patterns form the architecture that is usually the stuff that is hard to change.
@@ -19,26 +27,34 @@ A pattern allows using a few words to a dev and he knows exactly what coding pat
 
 ALM is about refining the work processes.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-We are doing this project using C#
-:::
-::: bad
-Bad example - you know nothing about how the project will be done
-:::
 
-::: greybox
+<boxEmbed
+  style="greybox"
+  body={<>
+    We are doing this project using C#
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - you know nothing about how the project will be done"}
+/>
 
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 * **Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular
 * **Patterns:** Repository and Unit of Work (tied to Entity Framework to remove additional abstraction), IOC
 * **ALM:** Scrum with 2-week Sprints and a Definition of Done including StyleCop to green
 * **ALM:** Continuous deployment to staging
 
-:::
-::: good
-Good example - this tells you a lot about the architecture and processes in a few words
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - this tells you a lot about the architecture and processes in a few words"}
+/>
+
 
 The important ones for most web projects:
 

@@ -1,33 +1,41 @@
 ---
-seoDescription: Learn how to explain problems clearly by starting broad (zoomed out) and then narrowing in
-type: rule
-title: Do you explain concepts by zooming out then zooming in?
-uri: zooming-in-and-out
 authors:
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Tylah Kapa
-    url: https://www.ssw.com.au/people/tylah-kapa
-related:
-  - catering-to-audience
-  - ask-for-help
-  - do-you-add-context-reasoning-to-your-emails
-created: 2022-09-07T05:07:32.797Z
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Tylah Kapa
+  url: https://www.ssw.com.au/people/tylah-kapa
+categories:
+- category: categories/communication/rules-to-better-communication.mdx
+created: 2022-09-07 07:07:51+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: 051d94bf-df31-47e0-b5aa-b19d949a9f6e
-
+isArchived: false
+lastUpdated: 2025-09-19 16:55:10+00:00
+lastUpdatedBy: Eddie Kranz [SSW]
+lastUpdatedByEmail: ed@kranz.au
+related:
+- rule: public/uploads/rules/catering-to-audience/rule.mdx
+- rule: public/uploads/rules/ask-for-help/rule.mdx
+- rule: public/uploads/rules/add-context-reasoning-to-emails/rule.mdx
+seoDescription: Learn how to explain problems clearly by starting broad (zoomed out)
+  and then narrowing in
+title: Do you explain concepts by zooming out then zooming in?
+type: rule
+uri: zooming-in-and-out
 ---
 
 Explaining problems can be really hard. Often, when you are trying to talk with someone about them, they get lost and frustrated because they don't fully understand the context.
 
 That's why it is crucial to start at a fully zoomed out level and slowly zoom in with your audience.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/embed/tKRozsNl_0c`
 
-**Video: Do you explain a problem by zooming in and out with Luke Cook (5 min)**
+<youtubeEmbed url="https://www.youtube.com/embed/tKRozsNl_0c" description={"Video: Do you explain a problem by zooming in and out with Luke Cook (5 min)"} />
+
 
 When trying to explain something, think about it in the context of 3 levels of zoom:
 
@@ -35,13 +43,29 @@ When trying to explain something, think about it in the context of 3 levels of z
 * Normal Zoom - Challenge
 * Micro Zoom - Core
 
-::: info
-**Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=DOP-MVP-33518) for easy recording and on screen notation, especially when using [YakShaver](https://yakshaver.ai).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit?WT.mc_id=DOP-MVP-33518) for easy recording and on screen notation, especially when using [YakShaver](https://yakshaver.ai).
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 Each level provides a little bit more context so that the listener can understand the next level down and eventually reach the core question.
 
-![Figure: Zoom and enhance!](ZoomAndEnhance.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Zoom and enhance!"}
+  src="/uploads/rules/zooming-in-and-out/ZoomAndEnhance.gif"
+/>
+
 
 ## Scenario - Problems interacting with the database for a new view
 
@@ -51,45 +75,61 @@ A developer has recently been asked to build a new table view. The view will sho
 
 What they shouldn't do is jump straight into the meat of the problem by saying something like:
 
-::: greybox
-How should I structure a class for a table?
-:::
-::: bad
-Figure: Bad example - The listener has no idea what screen or problem is being talked about
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    How should I structure a class for a table?
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - The listener has no idea what screen or problem is being talked about"}
+/>
+
 
 ### Macro Zoom - Context
 
 Explain the context first to give a big picture view of what’s being discussed.
 
-::: greybox
-I am working on a table view in TimePro, which needs to display information about how many hours our consultants worked on each client project.
-:::
-::: good
-Figure: Good example 1/3 - Now a baseline for what we are talking about has been established
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I am working on a table view in TimePro, which needs to display information about how many hours our consultants worked on each client project.
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example 1/3 - Now a baseline for what we are talking about has been established"}
+/>
+
 
 ### Normal Zoom - Challenge
 
 Next, zoom in a little to talk about your challenge with this task (why you’re having this conversation in the first place).
 
-::: greybox
-The challenge I’m facing is finding a suitable way of getting the relevant data, because of the flexibility between which clients are selected and which consultants may be present.
-:::
-::: good
-Figure: Good example 2/3 - This sentence helps the listener understand the specific difficulties being faced
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    The challenge I’m facing is finding a suitable way of getting the relevant data, because of the flexibility between which clients are selected and which consultants may be present.
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example 2/3 - This sentence helps the listener understand the specific difficulties being faced"}
+/>
+
 
 ### Micro Zoom - Core
 
 Now that the audience knows what you’re trying to achieve and the challenges, you can delve deep into the core question itself.
 
-::: greybox
-I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
-:::
-::: good
-Figure: Good example 3/3 - A baseline context and the challenge have been established, so the listener can understand the original question
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I’m not sure how best to query the database efficiently, or how I should be structuring the DTO in a way that doesn’t duplicate information unnecessarily
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example 3/3 - A baseline context and the challenge have been established, so the listener can understand the original question"}
+/>
+
 
 ---
 
@@ -105,25 +145,33 @@ They are editing a video about zooming in and out. However, there is a problem b
 
 What they shouldn't do is jump in with the question about re-recording straight away.
 
-::: greybox
-Should I re-record this video?
-:::
-::: bad
-Figure: Bad example - The context and challenge haven't been explained yet, making it confusing
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Should I re-record this video?
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - The context and challenge haven't been explained yet, making it confusing"}
+/>
+
 
 Instead they need to slowly zoom in by explaining the context, then the challenge, then the core question.
 
-::: greybox
-I'm editing the video on zooming in and out.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I'm editing the video on zooming in and out.
 
 I've run into an issue because I've noticed it was recorded with the wrong microphone.
 
 I think the audio is good enough, are you happy for me to run with it or do you want me to re-record?
-:::
-::: good
-Figure: Good example - The context was explained, then the challenge, then the core question
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - The context was explained, then the challenge, then the core question"}
+/>
+
 
 ## Scenario - Ordering a pinball machine
 
@@ -133,23 +181,31 @@ They have been asked to procure a pinball machine for the office. They've run in
 
 So, they should make sure they don't jump in with the first question about ordering a different model.
 
-::: greybox
-Should I order this other pinball machine?
-:::
-::: bad
-Figure: Bad example - The context and challenge haven't been explained yet, making it confusing
-:::
 
-::: greybox
-I'm ordering that pinball machine we talked about.
+<boxEmbed
+  style="greybox"
+  body={<>
+    Should I order this other pinball machine?
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - The context and challenge haven't been explained yet, making it confusing"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I'm ordering that pinball machine we talked about.
 
 Unfortunately, it's out of stock everywhere and won't be back in stock for 2 months.
 
 Should I order this other pinball machine instead?
-:::
-::: good
-Figure: Good example - The context was explained, then the challenge, then the core question
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - The context was explained, then the challenge, then the core question"}
+/>
+
 
 ## The outcome
 

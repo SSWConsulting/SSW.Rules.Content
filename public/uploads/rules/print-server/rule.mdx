@@ -1,28 +1,37 @@
 ---
-seoDescription: Setup a printer server on your Windows network and add printers for easy access and printing from anywhere.
-type: rule
-title: Do you know how to add a print server?
-uri: print-server
-authors:
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-  - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-know-how-to-add-a-printer
-created: 2015-05-21T17:25:55.000Z
 archivedreason: null
+authors:
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+- title: Ash Anil
+  url: https://www.ssw.com.au/people/ash-anil
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-internet-and-networks.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2022-03-05 01:02:51+00:00
+createdBy: Ashish Anil [SSW]
+createdByEmail: 100336252+AshAnil@users.noreply.github.com
 guid: 5b60b93d-f9af-467e-8d0c-41b1e37700ba
+isArchived: false
+lastUpdated: 2024-03-26 06:16:05+00:00
+lastUpdatedBy: Harry Ross [SSW]
+lastUpdatedByEmail: harryross@ssw.com.au
+redirects:
+- do-you-know-how-to-add-a-printer
+seoDescription: Setup a printer server on your Windows network and add printers for
+  easy access and printing from anywhere.
+title: Do you know how to add a print server?
+type: rule
+uri: print-server
 ---
 
 When you are connected to the company's network, you should complete the following procedure if you want to setup a printer server.
 
-<!--endintro-->
+<endOfIntro />
 
 ### For Windows Server
 
@@ -33,7 +42,16 @@ Steps to add a printer to Active Directory:
    or\
    Right click the 'Print Server' | Add printer | Choose the best option (e.g TCP/IP) | Put the IP address of the Printer | Finish
 
-![Figure: Add Print servers to AD ](46d5125c-b334-49f4-b1ee-45bc78b5dae1.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Add Print servers to AD"}
+  src="/uploads/rules/print-server/46d5125c-b334-49f4-b1ee-45bc78b5dae1.png"
+/>
+
 
 4. Add DNS entry for your print server (e.g **\\printer**) to make it friendly for the users to find
 
@@ -45,14 +63,24 @@ Now your users can find the printers by doing the following:
 
 1. In the File explorer | Type **\\printer** on the address bar to show all the printers connected to the server
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example – Windows 11 | Printers & scanners - Users won’t see all the printers by default"}
+  src="/uploads/rules/print-server/primt.jpg"
+/>
 
-![Figure: Bad example – Windows 11 | Printers & scanners - Users won’t see all the printers by default](primt.jpg)
 
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Printers listed in Printer Server"}
+  src="/uploads/rules/print-server/printers.jpg"
+/>
 
-::: good
-![Figure: Good example - Printers listed in Printer Server](printers.jpg)
-:::
 
 2. Double click on your printer name to connect/add it. Follow prompt to finish the printer driver installation

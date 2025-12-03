@@ -2,17 +2,25 @@
 seoDescription: Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors
 type: rule
 title: Do you know how to handle errors in Angular?
+categories:
+  - category: categories/software-engineering/rules-to-better-angular.mdx
 guid: e2db8815-a9ce-4f42-92ab-744e29e2b913
 uri: angular-error-handling
-created: 2023-10-03T23:18:38.515Z
+created: 2023-10-06T01:32:11.000Z
 authors:
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement/
+lastUpdated: 2025-09-17T13:55:02.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Chris Clement [SSW]
+createdByEmail: 35278147+christoment@users.noreply.github.com
+isArchived: false
 ---
 
 Angular provides built-in error-handling mechanisms such as [ErrorHandler](https://angular.io/api/core/ErrorHandler) and [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor).
 
-<!--endintro-->
+<endOfIntro />
 
 ## Handling Uncaught Errors
 
@@ -70,7 +78,16 @@ For example, if we want to provide a global error handler as a fallback and a sp
 export class HomeModule { }
 ```
 
-![Figure: Scoping Error Handler in Angular](angular-scoping-error-handler.png)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Scoping Error Handler in Angular"}
+  src="/uploads/rules/angular-error-handling/angular-scoping-error-handler.png"
+/>
+
 **Figure: Scoping Error Handler in Angular**
 
 ## Handling API Errors

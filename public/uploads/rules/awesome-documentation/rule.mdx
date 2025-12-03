@@ -1,52 +1,69 @@
 ---
-seoDescription: Do you make awesome documentation? Discover how to create a documentation strategy that empowers your team and stakeholders with clarity. Learn from examples of good and bad documentation practices, and get tips on how to make your documentation truly awesome!
-type: rule
-title: Do you make awesome documentation?
-uri: awesome-documentation
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-related:
-  - reference-do-you-use-the-correct-symbols-when-documenting-instructions
-  - use-correct-symbols-when-documenting-instructions
-  - do-you-highlight-actions-correctly-in-your-document
-  - do-you-make-numbers-more-readable
-  - do-you-include-version-numbers-in-your-file
-  - do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
-  - tiny-do-you-use-active-phrases-no-zombies-please
-  - user-journey-mapping
-  - package-audit-log
-  - technical-debt
-  - architectural-decision-records
-redirects:
-  - do-you-review-the-documentation
-  - do-you-make-awesome-documentation
-created: 2012-03-16T08:01:26.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2013-07-15 16:37:37+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: d9a17cdf-0f7c-43dc-91a1-7b8fcc29467d
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-review-the-documentation
+- do-you-make-awesome-documentation
+related:
+- rule: public/uploads/rules/use-correct-symbols-when-documenting-instructions/rule.mdx
+- rule: public/uploads/rules/use-correct-symbols-when-documenting-instructions/rule.mdx
+- rule: public/uploads/rules/distinguish-keywords-from-content/rule.mdx
+- rule: public/uploads/rules/make-numbers-more-readable/rule.mdx
+- rule: public/uploads/rules/show-version-numbers/rule.mdx
+- rule: public/uploads/rules/refer-consistently-throughout-your-document/rule.mdx
+- rule: public/uploads/rules/use-active-voice/rule.mdx
+- rule: public/uploads/rules/user-journey-mapping/rule.mdx
+- rule: public/uploads/rules/package-audit-log/rule.mdx
+- rule: public/uploads/rules/technical-debt/rule.mdx
+- rule: public/uploads/rules/architectural-decision-records/rule.mdx
+seoDescription: Do you make awesome documentation? Discover how to create a documentation
+  strategy that empowers your team and stakeholders with clarity. Learn from examples
+  of good and bad documentation practices, and get tips on how to make your documentation
+  truly awesome!
+title: Do you make awesome documentation?
+type: rule
+uri: awesome-documentation
 ---
 
 There are a few styles of documentation:
 
-<!--endintro-->
+<endOfIntro />
 
 ### ❌ Bad example – Old School
 
-::: bad  
-![Figure: Bad example - The dinosaur’s method of documentation](old-documentation.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - The dinosaur’s method of documentation"}
+  src="/uploads/rules/awesome-documentation/old-documentation.png"
+/>
+
 
 The old school way is document first – lots of planning and lots of heavy documentation created upfront before even a single line of code is written.
 
@@ -62,19 +79,38 @@ This is a well-established way to do documentation, but it has several problems:
 * High maintenance overhead
 * Needs a business analyst
 
-::: bad  
-![Figure: Bad example - Documentation can take the form of Sequence Diagrams](enterprisearchitect1.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Documentation can take the form of Sequence Diagrams"}
+  src="/uploads/rules/awesome-documentation/enterprisearchitect1.jpg"
+/>
 
-::: bad  
-![Figure: Bad example - Use Case Diagrams are even worse!](EnterpriseArchitectUseCases.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Use Case Diagrams are even worse!"}
+  src="/uploads/rules/awesome-documentation/EnterpriseArchitectUseCases.jpg"
+/>
+
 
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
-::: greybox
-**More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 **Tip:** Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.
 
@@ -137,37 +173,88 @@ GitHub wiki options:
 
 **Tip:** All of your documents (in your Wiki and your repository) should be [written in Markdown](/using-github-and-markdown-to-store-you-content).
 
-::: bad  
-![Figure: Bad example - Github project without any documentation or instructions](documentation__level2__bad-example-gh.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Github project without any documentation or instructions"}
+  src="/uploads/rules/awesome-documentation/documentation__level2__bad-example-gh.png"
+/>
 
-::: bad  
-![Figure: Bad example - Azure DevOps project without any documentation or instructions](azuredevops-bad.png)  
-:::
 
-![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Azure DevOps project without any documentation or instructions"}
+  src="/uploads/rules/awesome-documentation/azuredevops-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Azure DevOps project with README instructions on how to compile and run the project](azuredevops-good.png)  
-:::
 
-::: good  
-![Figure: Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
-:::
 
-::: good  
-![Figure: Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)"}
+  src="/uploads/rules/awesome-documentation/documentation__level2__good-example-1-gh.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Azure DevOps project with README instructions on how to compile and run the project"}
+  src="/uploads/rules/awesome-documentation/azuredevops-good.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)"}
+  src="/uploads/rules/awesome-documentation/documentation__level2__good-example-2-gh.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption"}
+  src="/uploads/rules/awesome-documentation/azuredevops-wiki-good.png"
+/>
+
 
 **Tip:** Use your documentation for onboarding developers
 
-::: bad  
-![Figure: Bad example - No documentation, go and sit with another developer](sit-dev-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - No documentation, go and sit with another developer"}
+  src="/uploads/rules/awesome-documentation/sit-dev-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues](documentation__level2__onboarding-pbi-3.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues"}
+  src="/uploads/rules/awesome-documentation/documentation__level2__onboarding-pbi-3.png"
+/>
+
 
 **Tip:** Keep your documentation as minimal as possible - automate the F5 experience and deployment process (documents 2 and 3) using PowerShell scripts. Then your documents can just say "run these scripts"
 
@@ -177,12 +264,19 @@ GitHub wiki options:
 
 When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance Criteria, and add the new ones. Get the PO to confirm your understanding.
 
-::: greybox
-Example:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Example:
 
 ~~Enter search text, click ‘Google’, and see the results populate below.~~
-[Updated] Enter search text and automatically see the results populate below.  
-:::
+[Updated] Enter search text and automatically see the results populate below.
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 This should be added to the [Definition of Done](/definition-of-done).
 
@@ -190,7 +284,7 @@ This should be added to the [Definition of Done](/definition-of-done).
 
 **What's "Technical Debt"?**
 
-![Technical Debt](Debt.jpg)
+![Technical Debt](/uploads/rules/awesome-documentation/Debt.jpg)
 
 During a project, when you add functionality, you have a choice:
 

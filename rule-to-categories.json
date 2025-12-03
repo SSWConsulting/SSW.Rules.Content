@@ -5752,6 +5752,7 @@
     ],
     "use-301-redirect-on-renamed-or-moved-pages": [
         "rules-to-better-google-rankings-and-seo",
+        "rules-to-better-website-development-asp-net",
         "rules-to-better-wordpress"
     ],
     "structured-data": [
@@ -7702,7 +7703,8 @@
     "the-best-sample-applications": [
         "rules-to-better-angular",
         "rules-to-better-mvc",
-        "rules-to-better-net-projects"
+        "rules-to-better-net-projects",
+        "rules-to-better-website-development-asp-net"
     ],
     "the-best-build-tool": [
         "rules-to-better-angular"
@@ -8008,7 +8010,8 @@
     ],
     "web-ui-libraries": [
         "rules-to-better-architecture-and-code-review",
-        "rules-to-better-javascript-and-jquery"
+        "rules-to-better-javascript-and-jquery",
+        "rules-to-better-website-development-asp-net"
     ],
     "do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container": [
         "rules-to-better-architecture-and-code-review"
@@ -8179,6 +8182,24 @@
         "rules-to-better-blazor"
     ],
     "share-common-types-and-logic": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-basic-appstate-pattern": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-appstate-pattern-with-notifications": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-use-bind-value-after-instead-of-valuechanged": [
+        "rules-to-better-blazor"
+    ],
+    "decouple-api-from-blazor-components": [
+        "rules-to-better-blazor"
+    ],
+    "editor-required-blazor-component-parameters": [
+        "rules-to-better-blazor"
+    ],
+    "bunit-for-blazor-unit-tests": [
         "rules-to-better-blazor"
     ],
     "bot-framework": [
@@ -9174,6 +9195,7 @@
     ],
     "why-choose-dot-net-core": [
         "rules-to-better-net-core",
+        "rules-to-better-website-development-asp-net",
         "rules-to-better-websites-development"
     ],
     "testing-tools": [
@@ -10573,6 +10595,56 @@
     "keep-your-databinder-eval-clean": [
         "rules-to-better-website-development-asp-net"
     ],
+    "how-to-generate-maintenance-pages": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-not-use-linkbutton": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "httphandlers-sections-in-webconfig-must-contain-a-clear-element": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "when-anchor-should-run-at-server": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "packages-to-add-to-your-mvc-project": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "release-build-your-web-applications-before-you-deploy-them": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "404-useful-error-page": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-css-validation-service-to-check-your-css-file": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-markup-validation-service-to-check-your-html-code": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-server-side-comments": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-sso-for-your-websites": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "use-windows-integrated-authentication": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-log-usage": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-know-how-to-render-html-strings": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-have-a-cookie-banner": [
+        "rules-to-better-website-development-asp-net"
+    ],
     "do-you-know-where-to-host-your-frontend-application": [
         "rules-to-better-websites-deployment"
     ],
@@ -10622,9 +10694,6 @@
     "streamline-development-with-npm-and-task-runners": [
         "rules-to-better-websites-development"
     ],
-    "404-useful-error-page": [
-        "rules-to-better-websites-development"
-    ],
     "404-error-avoid-changing-the-url": [
         "rules-to-better-websites-development"
     ],
@@ -10646,9 +10715,6 @@
     "use-right-site-search-for-your-website": [
         "rules-to-better-websites-development"
     ],
-    "do-not-use-linkbutton": [
-        "rules-to-better-websites-development"
-    ],
     "name-webpages-consistently-with-database-tables": [
         "rules-to-better-websites-development"
     ],
@@ -10659,9 +10725,6 @@
         "rules-to-better-websites-development"
     ],
     "run-load-tests-on-your-website": [
-        "rules-to-better-websites-development"
-    ],
-    "use-css-validation-service-to-check-your-css-file": [
         "rules-to-better-websites-development"
     ],
     "do-you-choose-the-best-way-to-send-emails-for-application": [
@@ -10679,9 +10742,6 @@
     "set-language-on-code-blocks": [
         "rules-to-better-websites-development"
     ],
-    "use-markup-validation-service-to-check-your-html-code": [
-        "rules-to-better-websites-development"
-    ],
     "html-unicode-hex-codes": [
         "rules-to-better-websites-development"
     ],
@@ -10692,9 +10752,6 @@
         "rules-to-better-websites-development"
     ],
     "use-open-graph": [
-        "rules-to-better-websites-development"
-    ],
-    "use-server-side-comments": [
         "rules-to-better-websites-development"
     ],
     "best-static-site-tech-stack": [

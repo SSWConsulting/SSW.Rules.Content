@@ -1,32 +1,47 @@
 ---
-type: rule
-title: Do you optimize the bundle size of your website?
-seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports, and minimized dependencies for better performance and faster load times.
-uri: optimize-bundle-size
 authors:
-  - title: Aman Kumar
-    url: https://www.ssw.com.au/people/aman-kumar
-related:
-  - compare-pr-performance-with-production
-  - prioritize-performance-optimization-for-maximum-business-value
-  - where-your-goal-posts-are
-  - do-you-avoid-reviewing-performance-without-metrics
-  - the-best-way-to-get-metrics-out-of-your-browser
-created: 2025-03-19T16:33:10.337Z
+- title: Aman Kumar
+  url: https://www.ssw.com.au/people/aman-kumar
+categories:
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2025-03-20 12:22:40+00:00
+createdBy: Aman Kumar [SSW]
+createdByEmail: 71385247+amankumarrr@users.noreply.github.com
 guid: bb223f3f-172f-4266-86fd-c13cf66e7d7e
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+related:
+- rule: public/uploads/rules/compare-pr-performance-with-production/rule.mdx
+- rule: public/uploads/rules/prioritize-performance-optimization-for-maximum-business-value/rule.mdx
+- rule: public/uploads/rules/where-your-goal-posts-are/rule.mdx
+- rule: public/uploads/rules/avoid-reviewing-performance-without-metrics/rule.mdx
+- rule: public/uploads/rules/the-best-way-to-get-metrics-out-of-your-browser/rule.mdx
+seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports,
+  and minimized dependencies for better performance and faster load times.
+title: Do you optimize the bundle size of your website?
+type: rule
+uri: optimize-bundle-size
 ---
 
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
 
-<!--endintro-->
+<endOfIntro />
 
 ## Checking the Lighthouse Treemap for bundle size
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
-::: bad  
-![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times"}
+  src="/uploads/rules/optimize-bundle-size/unoptimized-bundle-size.png"
+/>
+
 
 ## Find out the **First Load JS** Sizes for Routes
 
@@ -42,10 +57,7 @@ Route (app)                     Size        First Load JS
 ├ ├ /booknow
 ├ └ [+10 more paths]
 ```
-
-::: bad  
-Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes
-:::
+**❌ Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes**  
 
 ## Use Bundle Analyzers to identify Bundle sizes by each module
 
@@ -105,10 +117,7 @@ import * as utils from './utils';
 
 const result = utils.expensiveFunction();
 ```
-
-::: bad  
-Code: Bad example - Importing entire module  
-:::
+**❌ Code: Bad example - Importing entire module**  
 
 ```js
 // Importing only the required function
@@ -116,10 +125,7 @@ import { expensiveFunction } from './utils';
 
 const result = expensiveFunction();
 ```
-
-::: good  
-Code: Good example - Importing only the required function  
-:::
+**✅ Code: Good example - Importing only the required function**  
 
 ## Optimize Bundle Size with Dynamic Imports and Suspense
 
@@ -170,16 +176,19 @@ Route (app)                     Size        First Load JS
 ├ ├ /booknow
 ├ └ [+10 more paths]
 ```
-
-::: good  
-Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.  
-:::
+**✅ Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.**  
 
 ## Lighthouse Treemap
 
-::: good  
-![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - After optimization it is down to 2.5 unused megabytes"}
+  src="/uploads/rules/optimize-bundle-size/optimized-bundle-size.png"
+/>
+
 
 ## Monitor bundle size using Lighthouse on PR links
 

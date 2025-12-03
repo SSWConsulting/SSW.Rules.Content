@@ -1,32 +1,43 @@
 ---
-seoDescription: Avoiding Merge Debt and Ensuring Seamless Code Review with Over-the-Shoulder Reviews
-type: rule
-title: Pull Request - Do you do over the shoulder reviews?
-uri: over-the-shoulder
 authors:
-  - title: Brook Jeynes
-    url: https://www.ssw.com.au/people/brook-jeynes
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-related:
-  - do-you-know-the-3-steps-to-a-pbi
-  - do-you-use-co-creation-patterns
-  - merge-debt
-redirects:
-  - over-the-shoulder-prs
-created: 2023-05-15T21:36:54.519Z
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+categories:
+- category: categories/project-delivery/rules-to-better-github.mdx
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2023-10-12 06:24:38+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: f20af960-7a60-499c-980b-bd5bb6a0af91
+isArchived: false
+lastUpdated: 2024-10-17 03:13:23+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- over-the-shoulder-prs
+related:
+- rule: public/uploads/rules/3-steps-to-a-pbi/rule.mdx
+- rule: public/uploads/rules/co-creation-patterns/rule.mdx
+- rule: public/uploads/rules/merge-debt/rule.mdx
+seoDescription: Avoiding Merge Debt and Ensuring Seamless Code Review with Over-the-Shoulder
+  Reviews
+title: Pull Request - Do you do over the shoulder reviews?
+type: rule
+uri: over-the-shoulder
 ---
 
 The PR author is responsible to [follow up](/tofu) and get PRs merged as soon as possible. An "over-the-shoulder" review is one of the best ways to [avoid merge debt](/merge-debt).
 
 When a pull request (PR) is ready to be reviewed, get someone with you either in-person or on call, and go through the PR together. This not only allows you to demo the content of the PR but also talk with the person taking feedback when needed.
 
-<!--endintro-->
+<endOfIntro />
 
-> When you have finished coding, don't just create a PR and throw it over the fence. Part of finishing a PR is getting it approved.  
+> When you have finished coding, don't just create a PR and throw it over the fence. Part of finishing a PR is getting it approved.
 > The best way to get it approved is via an "over the shoulder" review.
 >
 > \- Adam Cogan
@@ -35,10 +46,21 @@ When a pull request (PR) is ready to be reviewed, get someone with you either in
 
 A good way to avoid someone merging your PR before you have done an over the shoulder review is to keep the Pull Request in draft mode until you are ready for it to be reviewed for merging.
 
-::: bad
-![Figure: Bad example - Pressing commit and forgetting about it. PR has been left open for a over 2 weeks](over-the-shoulder-old-PR.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Pressing commit and forgetting about it. PR has been left open for a over 2 weeks"}
+  src="/uploads/rules/over-the-shoulder/over-the-shoulder-old-PR.png"
+/>
 
-::: good
-![Figure: Good example - Devs reviewing a PR on a call - no merge debt!](over-the-shoulder-pr.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Devs reviewing a PR on a call - no merge debt!"}
+  src="/uploads/rules/over-the-shoulder/over-the-shoulder-pr.png"
+/>

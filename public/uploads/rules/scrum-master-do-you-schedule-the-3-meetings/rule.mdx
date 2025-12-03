@@ -1,31 +1,49 @@
 ---
-type: rule
-title: Scrum Master - Do you schedule the 3 Scrum meetings?
-seoDescription: As a Scrum Master, scheduling 3 crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints.
-uri: scrum-master-do-you-schedule-the-3-meetings
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related:
-  - 8-steps-to-scrum
-  - what-happens-at-a-sprint-planning-meeting
-  - what-happens-at-retro-meetings
-  - what-happens-at-a-sprint-review-meeting
-redirects: []
-created: 2010-05-06T05:41:54.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2016-01-06 23:06:50+00:00
+createdBy: SteveLeigh
+createdByEmail: SteveLeigh@ssw.com.au
 guid: 19441e59-3e96-4747-8bd9-e4607e422b81
+isArchived: false
+lastUpdated: 2025-03-29 03:28:14+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
+redirects: []
+related:
+- rule: public/uploads/rules/8-steps-to-scrum/rule.mdx
+- rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
+- rule: public/uploads/rules/what-happens-at-retro-meetings/rule.mdx
+- rule: public/uploads/rules/what-happens-at-a-sprint-review-meeting/rule.mdx
+seoDescription: As a Scrum Master, scheduling 3 crucial meetings - Sprint Review,
+  Retrospective, and Planning - ensures successful Sprints.
+title: Scrum Master - Do you schedule the 3 Scrum meetings?
+type: rule
+uri: scrum-master-do-you-schedule-the-3-meetings
 ---
 
 The Scrum Master plays a key role in the Scrum framework by scheduling and facilitating 3 crucial meetings: the Sprint **Review**, **Retrospective**, and **Planning**. These meetings are essential for reviewing progress, reflecting on performance, and planning future work, helping the team stay aligned and continuously improve.
 
-<!--endintro-->
+<endOfIntro />
 
-![Figure: The 3 meetings in the Scrum steps](8StepstoScrum-meetings.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"The 3 meetings in the Scrum steps"}
+  src="/uploads/rules/scrum-master-do-you-schedule-the-3-meetings/8StepstoScrum-meetings.png"
+/>
+
 
 The Scrum Master should schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
@@ -53,8 +71,11 @@ Sprint meetings don’t have to be held on specific days like Fridays or Mondays
 
 Since Sprint meetings occur regularly, it's best to set them up as recurring calendar events. This approach ensures that all team members have the necessary time blocked out in advance, helping with better planning and time management.
 
-::: greybox
-Learn more about the meetings in Scrum:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Learn more about the meetings in Scrum:
 
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
 * [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
@@ -62,28 +83,30 @@ Learn more about the meetings in Scrum:
 * [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## Scheduling the meetings
 
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
-::: email-template
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; – Sprint Review, Retro and Planning"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Team
 
-| | |
-| -------- | --- |
-| Required Attendees: | Scrum Team |
-| Optional Attendees: | Interested Stakeholders |
-| Recurrence: | Every **{{ NUMBER OF WEEKS }}** weeks |
-| Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
-::: email-content
-
-### Hi Team
-
-* Product Owner: {{ PRODUCT OWNER }}
-* Stakeholders: {{ LINK TO LIST OF STAKEHOLDERS }}
-* Scrum Master: {{ SCRUM MASTER }}
-* Sprint Length: {{ NUMBER OF WEEKS }} weeks
+* Product Owner: &#123;&#123; PRODUCT OWNER &#125;&#125;
+* Stakeholders: &#123;&#123; LINK TO LIST OF STAKEHOLDERS &#125;&#125;
+* Scrum Master: &#123;&#123; SCRUM MASTER &#125;&#125;
+* Sprint Length: &#123;&#123; NUMBER OF WEEKS &#125;&#125; weeks
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
 
@@ -94,7 +117,7 @@ See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at
 
 **Sprint Retrospective Meeting**
 
-Sprint closed and new Sprint starts.  
+Sprint closed and new Sprint starts.
 We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\
 See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
@@ -105,18 +128,22 @@ We then breakdown to tasks and commit to what we believe we can deliver for the 
 See the rule [What happens at a Sprint Planning Meeting?](/what-happens-at-a-sprint-planning-meeting)
 
 Regards,
-{{ SCRUM MASTER }}
+&#123;&#123; SCRUM MASTER &#125;&#125;
 
 &lt;This email is as per the rule [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings) /&gt;
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Copy this appointment template and send to the Scrum Team"}
+/>
 
-:::
-:::
-::: good
-Figure: Good example - Copy this appointment template and send to the Scrum Team
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"It is a great idea to run your Scrum meetings through Microsoft Teams, so that the whole team is invited and new developers can easily find the meetings"}
+  src="/uploads/rules/scrum-master-do-you-schedule-the-3-meetings/Screen Shot 2020-04-06 at 4.15.50 PM.png"
+/>
 
-::: good
-![It is a great idea to run your Scrum meetings through Microsoft Teams, so that the whole team is invited and new developers can easily find the meetings](Screen Shot 2020-04-06 at 4.15.50 PM.png)
-:::
 
 **Tip:** See more information on [when to send an Appointment or a Teams Meeting](/send-appointment-or-teams-meeting).

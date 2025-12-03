@@ -1,17 +1,25 @@
 ---
-seoDescription: IntelliTesting saves developers time and reduces code errors by intelligently generating unit tests for each scenario found.
-type: rule
-archivedreason:
-title: Do you use IntelliTesting to save you in testing?
-guid: 05992432-d61d-437a-8cdb-0d49752f6a4c
-uri: use-intellitesting-to-save-you-in-testing
-created: 2020-03-12T23:35:41.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2020-03-12 23:35:41+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 05992432-d61d-437a-8cdb-0d49752f6a4c
+isArchived: false
+lastUpdated: 2020-03-12 23:41:34+00:00
+lastUpdatedBy: TiagoAraujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-intellitesting-to-save-you-in-testing
+- do-you-use-intellitesting-to-save-you-in-testing
+seoDescription: IntelliTesting saves developers time and reduces code errors by intelligently
+  generating unit tests for each scenario found.
+title: Do you use IntelliTesting to save you in testing?
+type: rule
+uri: use-intellitesting-to-save-you-in-testing
 ---
 
 It is difficult to measure test quality as there are a number of different available metrics - for example, code coverage and number of assertions. Furthermore, when we write code to test, there are a number of questions that we must answer, such as, "is the code easily testable?" and "are we only testing the happy path or have we included the edge cases?"
@@ -20,14 +28,26 @@ However, the most important question a dev can ask themselves is, "What assertio
 
 This is where IntelliTesting comes into play. The feature, formerly known as Smart Unit Testing (and even more formerly known as PEX), will help you answer this question by intelligently analyzing your code. Then, based on the information gathered, it will generate a unit test for each scenario it finds.
 
-<!--endintro-->
+<endOfIntro />
 
-::: bad  
-![Figure: Bad example - What’s wrong with this code?](IntelliTest-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - What’s wrong with this code?"}
+  src="/uploads/rules/use-intellitesting-to-save-you-in-testing/IntelliTest-bad.png"
+/>
 
-::: good  
-![Figure: Good example - IntelliTest in action](IntelliTest-Good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - IntelliTest in action"}
+  src="/uploads/rules/use-intellitesting-to-save-you-in-testing/IntelliTest-Good.png"
+/>
+
 
 In short, by using IntelliTest, you will increase code coverage, greatly increase the number of assertions tested, and increase the number of edge cases tested. By adding automation to your testing, you save yourself time in the long run and reduce the risk of problems in your code caused by simple human error.

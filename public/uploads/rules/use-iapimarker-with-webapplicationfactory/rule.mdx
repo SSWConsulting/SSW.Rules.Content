@@ -2,29 +2,43 @@
 seoDescription: Do you use IApiMarker with WebApplicationFactory?
 type: rule
 title: Do you use IApiMarker with WebApplicationFactory?
+categories:
+  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
 uri: use-iapimarker-with-webapplicationfactory
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-created: 2022-11-25T07:17:00.000Z
+created: 2022-12-08T00:24:43.000Z
 guid: 81F456F4-689B-47CD-B4BF-883A7B423072
 redirects:
   - do-you-use-iapimarker-with-webapplicationfactory
+lastUpdated: 2024-03-11T23:39:56.000Z
+lastUpdatedBy: Nick Curran [SSW]
+lastUpdatedByEmail: 132531112+ncn-ssw@users.noreply.github.com
+createdBy: Gordon Beeming
+createdByEmail: gordonbeeming@ssw.com.au
+isArchived: false
 ---
 
 The `WebApplicationFactory` class is used for bootstrapping an application in memory for functional end to end tests. As part of the initialization of the factory you need to reference a type from the application project.
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.
 
-<!--endintro-->
+<endOfIntro />
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
 
 ### Option 1 - Using InternalsVisibleTo attribute
 
-::: bad
-![Figure: Bad example - Using an InternalsVisibleTo attribute in the csproj](Using-InternalsVisibleTo-attribute.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Using an InternalsVisibleTo attribute in the csproj"}
+  src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-InternalsVisibleTo-attribute.jpg"
+/>
+
 
 Adding the `InternalsVisibleTo` attribute to the csproj is a way that you'd be able to reference the `Program` class from your test project.
 
@@ -36,9 +50,15 @@ This small change leads to a long road of pain:
 
 ### Option 2 - public partial program class
 
-::: bad
-![Figure: Bad example - Using a public partial program class](Using-public-partial-program-class.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Using a public partial program class"}
+  src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-public-partial-program-class.jpg"
+/>
+
 
 A much quicker option to implement is to create a partial class of the `Program` class and make it public.
 
@@ -57,9 +77,6 @@ public interface IApiMarker
 {
 }
 ```
-
-::: good
-Figure: Good example - Using an `IApiMarker` interface
-:::
+**✅ Figure: Good example - Using an `IApiMarker` interface**  
 
 Using the `IApiMarker` interface allows you reference your application project in a consistent way, the approach is the same when you use top level statements or standard Program.Main entry points.

@@ -1,23 +1,31 @@
 ---
-seoDescription: Enhance report readability with alternating row colors using White and Gainsboro.
-type: rule
-archivedreason:
-title: Data Layout - Do you use alternating row colors?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-06-04 08:14:59+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: e0403fd3-ddbb-43e8-847b-4cb83e8180e7
-uri: use-alternating-row-colors
-created: 2023-12-11T14:38:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2024-06-04 08:14:59+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Enhance report readability with alternating row colors using White
+  and Gainsboro.
+title: Data Layout - Do you use alternating row colors?
+type: rule
+uri: use-alternating-row-colors
 ---
 
 For readability, always use alternating row colors.
 
-<!--endintro-->
+<endOfIntro />
 
 Use White and Gainsboro (a light shade of grey). Select the row, and enter this expression in the BackgroundColor property:
 
@@ -25,6 +33,11 @@ Use White and Gainsboro (a light shade of grey). Select the row, and enter this 
 = iif(RowNumber(Nothing) Mod 2, "White", "Gainsboro")
 ```
 
-::: good  
-![Figure: Good example - Alternating row colors greatly improve the readability of reports, and is very easy to do in Reporting Services](RSRules_alternatingcolors.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Alternating row colors greatly improve the readability of reports, and is very easy to do in Reporting Services"}
+  src="/uploads/rules/use-alternating-row-colors/RSRules_alternatingcolors.gif"
+/>

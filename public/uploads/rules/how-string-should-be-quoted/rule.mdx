@@ -1,42 +1,45 @@
 ---
-seoDescription: C# developers should use string literals effectively by choosing between quoted strings and raw string literals to avoid escape characters and improve code readability.
-type: rule
-archivedreason:
-title: C# Code - Do you use string literals?
-guid: 849c1ee3-a72d-4471-b7db-8c363b663e0e
-uri: how-string-should-be-quoted
-created: 2018-04-30T22:20:15.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-30 22:20:15+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 849c1ee3-a72d-4471-b7db-8c363b663e0e
+isArchived: false
+lastUpdated: 2025-10-30 12:08:42+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - c-code-do-you-use-string-literals
+- c-code-do-you-use-string-literals
+seoDescription: C# developers should use string literals effectively by choosing between
+  quoted strings and raw string literals to avoid escape characters and improve code
+  readability.
+title: C# Code - Do you use string literals?
+type: rule
+uri: how-string-should-be-quoted
 ---
 
 Strings should be @-quoted instead of using escape character for "\\". The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
 
-<!--endintro-->
+<endOfIntro />
 
 Source: [Verbatim text - @ in variables, attributes, and string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/verbatim)
 
 ```cs
 string p2 = "\\My Documents\\My Files\\";
 ```
-
-::: bad
-Figure: Bad example - Using "\\"  
-:::
+**❌ Figure: Bad example - Using "\\"**  
 
 ```cs
 string p2 = @"\My Documents\My Files\";
 ```
-
-::: good
-Figure: Good example - Using @
-:::
+**✅ Figure: Good example - Using @**  
 
 ## Raw String Literals
 
@@ -51,10 +54,7 @@ var bad = "<html>" +
            "</body>" +
            "</html>";
 ```
-
-::: bad
-Figure: Bad example - Single quotes  
-:::
+**❌ Figure: Bad example - Single quotes**  
 
 ```cs
 var good = """
@@ -65,9 +65,6 @@ var good = """
            </html>
            """;
 ```
-
-::: good
-Figure: Good example - Using raw string literals
-:::
+**✅ Figure: Good example - Using raw string literals**  
 
 For more information on Raw String literals see [Raw string literal text - """ in string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string?WT.mc_id=DT-MVP-33518).

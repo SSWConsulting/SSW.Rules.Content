@@ -1,24 +1,31 @@
 ---
-seoDescription: Learn how to implement effective error handling in your SQL stored procedures using THROW for reliable code and easier debugging.
-type: rule
-archivedreason: 
-title: Stored Procedures - Do you use error handling in your Stored Procedures?
-guid: fe0b081d-019e-4810-beca-1d8b71957403
-uri: use-error-handling-in-your-stored-procedures
-created: 2020-03-17T03:41:49.0000000Z
+archivedreason: null
 authors:
 - title: Christian Morford-Waite
   url: https://ssw.com.au/people/christian-morford-waite
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2020-03-17 03:41:51+00:00
+createdBy: ChristianMWaite
+createdByEmail: ChristianMWaite@ssw.com.au
+guid: fe0b081d-019e-4810-beca-1d8b71957403
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
 - stored-procedures-do-you-use-error-handling-in-your-stored-procedures
-
+seoDescription: Learn how to implement effective error handling in your SQL stored
+  procedures using THROW for reliable code and easier debugging.
+title: Stored Procedures - Do you use error handling in your Stored Procedures?
+type: rule
+uri: use-error-handling-in-your-stored-procedures
 ---
 
 You should always include error handling in your stored procedures, it allows you to catch errors and either log them or attempt to correct them.
 [THROW (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15) lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.
 
-<!--endintro-->
+<endOfIntro />
 
 Here’s an example of the syntax used when implementing THROW.
 
@@ -50,15 +57,11 @@ Here we are generating a divide-by-zero error to easily raise a SQL exception an
 
 ```sql
 DECLARE @inputNumber AS INT = 0;
- 
+
 -- Generate a divide-by-zero error
 SELECT 1 / @inputNumber AS Error;
 ```
-
-::: bad
-Figure: Bad Example - No error handling.
-
-:::
+**❌ Figure: Bad Example - No error handling.**  
 
 Below we have wrapped our stored procedure logic in a TRY block and added a CATCH block to handle the error. More information can be found here [TRY...CATCH (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15).
 
@@ -70,7 +73,7 @@ Finally, when we catch the error we are looking for we can log some information 
 ```sql
 DECLARE @errorCode AS INT;
 DECLARE @inputNumber AS INT;
- 
+
 BEGIN TRY
        -- Generate a divide-by-zero error
        SET @inputNumber = 0;
@@ -88,18 +91,14 @@ BEGIN CATCH
               THROW;
 END CATCH;
 ```
-
-::: good
-Figure: Good Example - Using error handling to catch an error and attempt to resolve it.
-
-:::
+**✅ Figure: Good Example - Using error handling to catch an error and attempt to resolve it.**  
 
 The example below shows how you can catch an error and retrieve all the details about it.
 This is very useful if you want to save these errors to another table or trigger a stored procedure.
 
 ```sql
 BEGIN TRY
-       -- Generate a divide-by-zero error. 
+       -- Generate a divide-by-zero error.
        SELECT 1 / 0 AS Error;
 END TRY
 BEGIN CATCH
@@ -110,14 +109,10 @@ BEGIN CATCH
              ERROR_PROCEDURE() AS ErrorProcedure,
              ERROR_LINE() AS ErrorLine,
              ERROR_MESSAGE() AS ErrorMessage;
-   
+
                -- Insert logic for persisting log information (Log to table or log to file)
- 
+
              THROW;
 END CATCH;
 ```
-
-::: good
-Figure: Good Example - Using error handling to catch an error and retrieving its details, allowing it to be logged.
-
-:::
+**✅ Figure: Good Example - Using error handling to catch an error and retrieving its details, allowing it to be logged.**

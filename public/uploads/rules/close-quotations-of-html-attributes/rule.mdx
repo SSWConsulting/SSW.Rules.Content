@@ -1,38 +1,41 @@
 ---
-seoDescription: Ensure accurate HTML coding by closing all opening quotations of attributes with equivalent closing quotations to maintain desired layout and avoid unexpected results.
-type: rule
-title: Do you close quotations of all HTML attributes?
-uri: close-quotations-of-html-attributes
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-remember-to-close-quotations-of-all-your-html-attributes
-created: 2016-08-12T20:46:20.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2016-08-12 20:46:23+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: f3618de2-2941-4967-a5ca-4a3cfa213330
+isArchived: false
+lastUpdated: 2024-10-16 21:42:09+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-remember-to-close-quotations-of-all-your-html-attributes
+seoDescription: Ensure accurate HTML coding by closing all opening quotations of attributes
+  with equivalent closing quotations to maintain desired layout and avoid unexpected
+  results.
+title: Do you close quotations of all HTML attributes?
+type: rule
+uri: close-quotations-of-html-attributes
 ---
 
 Make sure there are equivalent closing quotations for HTML attributes. A small mistake of missing a quotation could lead to undesired results on a web page.
 
-<!--endintro-->
+<endOfIntro />
 
 ```html
 <div class="info>
 ```
-
-::: bad
-Figure: Bad code - Can you spot the missing quote? Code Auditor can
-:::
+**❌ Figure: Bad code - Can you spot the missing quote? Code Auditor can**  
 
 ```html
 <div class="info">
 ```
-
-::: good
-Figure: Good code - All OK
-:::
+**✅ Figure: Good code - All OK**  
 
 As you can see from the above example, just missing a quotation makes the whole layout of the text different. So be very careful that you make sure you have closed all opening quotations of attributes with equivalent closing quotations.
 

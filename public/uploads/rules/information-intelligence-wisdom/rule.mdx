@@ -2,26 +2,43 @@
 seoDescription: Discover how information, intelligence, and wisdom differ when analyzing A/B test results to make informed decisions.
 type: rule
 title: Do you know the difference between information, intelligence, and wisdom?
+categories:
+  - category: categories/company-operations/rules-to-better-business-intelligence.mdx
 uri: information-intelligence-wisdom
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
-created: 2022-08-17T19:38:28.898Z
+created: 2022-08-18T10:48:04.000Z
 guid: 00cf768d-b9fd-49a3-9652-0ecd5e82a2f8
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 It’s easy to capture lots of telemetry from your software; everything from exceptions to usage statistics. But do you know what to do with it and how to interpret what this data is telling you? That’s the difference between information, intelligence, and wisdom.
 
-<!--endintro-->
+<endOfIntro />
 
 Your data is a potentially valuable asset and it should be working hard for you. Let's look at a hypothetical example involving adding a new feature to [SSW Rewards](https://www.ssw.com.au/products/rewards) that allows users to upload a custom profile pic. We want to know whether users are more likely to discover and adopt new features when using light mode vs dark mode. So we conduct some [A/B testing](/a-b-testing) to see which is working better.
 
-### Level 1: Information  
+### Level 1: Information
 
 Information tells you what happened. Lots of data is available and its easy to record it all now in a service like App Insights, but at this point it’s only information and you need to turn it into something useful for it to have value.
 
 In this hypothetical example, we can see the following information about how many people used the new profile pic feature in light mode and how many used it in dark mode.
 
-![Figure: The results of the A/B testing showing how many people activated the profile pic feature in light mode vs how many activated it in dark mode](rewards-abresults.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"The results of the A/B testing showing how many people activated the profile pic feature in light mode vs how many activated it in dark mode"}
+  src="/uploads/rules/information-intelligence-wisdom/rewards-abresults.png"
+/>
+
 
 ### Level 2: Intelligence
 
@@ -29,7 +46,16 @@ Intelligence tells you why something happened. Having lots of data is awesome, b
 
 A simple analysis of the above A/B results shows that significantly more people use the profile picture feature in dark mode than in light mode. However, we can add some context:
 
-![Figure: A hypothetical announcement from SSW Chief Architect Adam Cogan about the new profile picutre feature and the new dark mode feature](adamcogan-faketweet.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"A hypothetical announcement from SSW Chief Architect Adam Cogan about the new profile picutre feature and the new dark mode feature"}
+  src="/uploads/rules/information-intelligence-wisdom/adamcogan-faketweet.png"
+/>
+
 
 With this additional context, we can look at the figure above and see that the feature got a boost in both light mode AND dark mode after this tweet. So it seems like the tweet did more to bost adoption of this feature than discoverability in dark mode did.
 
@@ -37,9 +63,16 @@ With this additional context, we can look at the figure above and see that the f
 
 Wisdom tells you what you should do next. The information and intelligence that you are gathering should be usable to make informed decisions about how you should manage your system or business. A good business intelligence system should provide actionable recommendations rather than simply providing information and explanations.
 
-::: info
-**Note:** Your business intelligence system could be automated (awesome) but could also be a combination of automated reporting technology as well as human review processes (not as cool, but still better than not interpreting your data).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Your business intelligence system could be automated (awesome) but could also be a combination of automated reporting technology as well as human review processes (not as cool, but still better than not interpreting your data).
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 With the added intelligence above, we can see that social media engagement seems to drive adoption of new features, so we should use this to promote these features when we deliver them. However we _can_ still see that engagement with dark mode seems to be higher, so we shouldn't discount this either.
 

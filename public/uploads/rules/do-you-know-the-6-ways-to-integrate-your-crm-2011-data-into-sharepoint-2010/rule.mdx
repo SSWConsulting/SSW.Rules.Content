@@ -1,11 +1,6 @@
 ---
-seoDescription: This rule discusses outdated methods for integrating CRM 2011 data into SharePoint 2010, which are no longer relevant due to deprecated technologies and modern alternatives.
-type: rule
-archivedreason: Obsolete - CRM 2011 and SharePoint 2010 are deprecated technologies. See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
-title: Do you know the 6 ways to integrate your CRM 2011 data into SharePoint 2010?
-guid: c41308f6-7e9f-444a-85f4-20747adc0884
-uri: do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010
-created: 2011-08-24T03:52:23.0000000Z
+archivedreason: Obsolete - CRM 2011 and SharePoint 2010 are deprecated technologies.
+  See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
@@ -13,9 +8,24 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: William Yin
   url: https://ssw.com.au/people/william-yin
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-crm-for-developers.mdx
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2011-08-25 09:44:12+00:00
+createdBy: LuZhang
+createdByEmail: LuZhang@ssw.com.au
+guid: c41308f6-7e9f-444a-85f4-20747adc0884
+isArchived: true
+lastUpdated: 2025-10-01 06:48:29+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
-
+seoDescription: This rule discusses outdated methods for integrating CRM 2011 data
+  into SharePoint 2010, which are no longer relevant due to deprecated technologies
+  and modern alternatives.
+title: Do you know the 6 ways to integrate your CRM 2011 data into SharePoint 2010?
+type: rule
+uri: do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010
 ---
 
 You have data in CRM 2011, so how do you see it in SharePoint? The data that is stored in CRM entities should be available in SharePoint so users can find and use the data in areas such as:
@@ -25,7 +35,7 @@ You have data in CRM 2011, so how do you see it in SharePoint? The data that is 
 
 There are many ways to get to this data, let's go through them:
 
-<!--endintro-->
+<endOfIntro />
 
 ## Option 1: SharePoint BCS Adapter (provided by the CRM Team) RECOMMENDED
 
@@ -37,16 +47,23 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
 | --- | --- |
 | Read/Write. <br>Minimal coding. <br>Easiest to implement. <br>The likely way forward (Best Practice as Microsoft) | Needs to be deployed and published to the web server. <br> Less performance than SQL filter views directly. |
 
-![BCS Adapter for CRM 2011](figure5.jpg)  
+![BCS Adapter for CRM 2011](/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure5.jpg)
 
-::: greybox
-**More information:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More information:**
 
 * Download from Microsoft
 * Find and read "*Connecting to CRM Online 2011 with SharePoint 2010 Business Connectivity Services*"
 * Run tool to generate the XML mapping (.BDCM)
 * This solution uses a BCS Connector – a .NET Assembly responsible for mapping external data into a form usable by SharePoint. This component is loaded and hosted within SharePoint 2010 and communicates with CRM via the CRM Proxy Service.
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ## Option 2: SQL Server Filtered Views
 
@@ -60,13 +77,20 @@ CRM recommends that you \*don't\* read from the Tables, so they provide SQL View
 
 Filtered Views in Microsoft CRM provide access to the data available that supports providing picklist name and id values (lookup tables).
 
-::: greybox
-**More information:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More information:**
 
 If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database as per [Use SQL and Filtered Views to Retrieve Data for Reports](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/analytics/improve-report-performance-by-using-filters?view=op-9-1&tabs=without-prefiltering%2Cauto2-prefiltering%2Cauto3-prefiltering).
 
-![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](figure1.jpg)  
-:::
+![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure1.jpg)
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ### Option 3: Web Services
 
@@ -80,14 +104,21 @@ CRM provides web services.
 
 **Note:** Performance could be improved by making the reads from the views and the writes through the web service
 
-::: greybox
-**More information:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More information:**
 
 1. Use BCS in VS 2010
 2. Write code that calls the CRM web services (that access the CRM data)
 3. Test
 4. Deploy
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ### Option 4: Expose OData from CRM as RSS
 
@@ -101,21 +132,37 @@ The CRM 2011 OData Query Designer can be used to build queries to expose the dat
 i.e. you can't impersonate and call it like you can the standard WCF endpoints
 So it is really only suited to calling from Silverlight and JavaScript web resources that are delivered inside CRM (because they have the cookie)
 
-::: greybox
-**More information:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More information:**
 The first step is to expose the data:
 
 1. Install [http://crm2011odatatool.codeplex.com](https://archive.codeplex.com/?p=crm2011odatatool)
 2. Make a query
-![Figure: Designing a query](figure2.jpg)  
+![Figure: Designing a query](/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure2.jpg)
 
 3. See the data
-![Figure: See the data - RSS source for xtc_countrySet](figure3.jpg)  
-:::
+![Figure: See the data - RSS source for xtc_countrySet](/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure3.jpg)
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 The second step (and the problem) is consuming the data
 
-![Figure: BCS has no option to consume RSS data. Please Microsoft SharePoint Team, we need a new 'Data Source Type' = OData](figure4.jpg)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"BCS has no option to consume RSS data. Please Microsoft SharePoint Team, we need a new 'Data Source Type' = OData"}
+  src="/uploads/rules/do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010/figure4.jpg"
+/>
+
 
 In summary, CRM 2011 can expose OData, but SharePoint 2010 BCS doesn't consume OData.
 
@@ -128,7 +175,7 @@ You would need to be crazy to go down this route [Calling a Web Service from T-S
 
 * Consume the OData by a BCS adapter + code calling web services (same story as above).
   **Summary:** SharePoint BCS &gt; code calling OData &gt; CRM database
-  
+
 * Consume the RSS by "SharePoint RSS view web part" directly.
   **Summary:** SharePoint RSS view web part &gt; OData &gt; CRM database
   (not recommended as it could not be used in "SharePoint Search")

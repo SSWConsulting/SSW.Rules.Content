@@ -1,18 +1,27 @@
 ---
-seoDescription: Format your addresses consistently using the structure - Number, Street Name, City, State (abbreviation) Postal Code, Country
-type: rule
-archivedreason:
-title: Do you know how to format addresses?
-guid: db3afa6c-23e6-4b25-ac47-80e3945fb555
-uri: address-formatting
-created: 2021-07-14T06:08:10.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2021-07-14 22:51:30+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: db3afa6c-23e6-4b25-ac47-80e3945fb555
+isArchived: false
+lastUpdated: 2025-03-06 19:34:56+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
-  - right-format-to-show-phone-numbers
-  - the-value-of-consistency
-
+- rule: public/uploads/rules/right-format-to-show-phone-numbers/rule.mdx
+- rule: public/uploads/rules/the-value-of-consistency/rule.mdx
+seoDescription: Format your addresses consistently using the structure - Number, Street
+  Name, City, State (abbreviation) Postal Code, Country
+title: Do you know how to format addresses?
+type: rule
+uri: address-formatting
 ---
 
 Use a consistent format when writing addresses.
@@ -25,18 +34,25 @@ The structure should follow: **Number, Street Name, City, State (abbreviation) P
 * If you have enough space, it is OK to write it in 2 lines
 * We're in Australia and this should work for most countries' addresses, but some specific locations might have different address structures that won't allow following this rule
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-**Level 1, 81 - 91 Military Road | Neutral Bay - NSW, 2089 AUS**
-:::
-:::bad
-Figure: Bad example - SSW main office address not following the standard address formatting
-:::
 
-::: greybox
-**Level 1/81-91 Military Rd, Neutral Bay, NSW 2089, Australia**
-:::
-:::good
-Figure: Good example - SSW main office address following the standard address formatting
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Level 1, 81 - 91 Military Road | Neutral Bay - NSW, 2089 AUS**
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - SSW main office address not following the standard address formatting"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Level 1/81-91 Military Rd, Neutral Bay, NSW 2089, Australia**
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - SSW main office address following the standard address formatting"}
+/>

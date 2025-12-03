@@ -1,19 +1,28 @@
 ---
-seoDescription: Designing visual elements using a GUI designer tool is recommended for creating efficient and maintainable code.
-type: rule
-archivedreason:
-title: Do you use the designer for all visual elements?
-guid: d402bae6-c5e4-4e99-9287-bc33c14bb5ac
-uri: do-you-use-the-designer-for-all-visual-elements
-created: 2009-04-28T02:20:39.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://www.ssw.com.au/people/alumni/ryan-tee
-    noimage: true
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://www.ssw.com.au/people/alumni/ryan-tee
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+- category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
+created: 2009-12-04 08:53:35+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+guid: d402bae6-c5e4-4e99-9287-bc33c14bb5ac
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Designing visual elements using a GUI designer tool is recommended
+  for creating efficient and maintainable code.
+title: Do you use the designer for all visual elements?
+type: rule
+uri: do-you-use-the-designer-for-all-visual-elements
 ---
 
 The designer should be used for all GUI design. Controls will be dragged and dropped onto the form and all properties should be set in the designer, e.g.
@@ -22,7 +31,7 @@ The designer should be used for all GUI design. Controls will be dragged and dro
 - ErrorProviders
 - DataSets (to allow data binding in the designer)
 
-<!--endintro-->
+<endOfIntro />
 
 Things that do not belong in the designer:
 
@@ -32,10 +41,21 @@ Things that do not belong in the designer:
 
 However, and **DataAdapter** objects should not be dragged onto forms, as they belong in the business tier. Strongly typed **DataSet** objects should be in the designer as they are simply passed to the business layer. Avoid writing code for properties that can be set in the designer.
 
-::: bad
-![Figure: Bad example - Connection and Command objects in the Designer](BadDesigner.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - Connection and Command objects in the Designer"}
+  src="/uploads/rules/do-you-use-the-designer-for-all-visual-elements/BadDesigner.gif"
+/>
 
-::: good
-![Good example - Only visual elements in the designer](GoodDesigner.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - Only visual elements in the designer"}
+  src="/uploads/rules/do-you-use-the-designer-for-all-visual-elements/GoodDesigner.gif"
+/>

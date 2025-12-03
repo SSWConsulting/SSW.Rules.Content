@@ -1,29 +1,42 @@
 ---
-type: rule
-tips: ""
-title: Do you keep your images and content self-contained in your TinaCMS +  Next.js project?
-seoDescription: Best practices for keeping your content and images self-contained in TinaCMS + Next.js, with three options and a recommended setup.
-uri: self-contained-images-and-content
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Gilles Pothieu
-    url: https://www.ssw.com.au/people/gilles-pothieu
-  - title: Hugo Pernet
-    url: https://www.ssw.com.au/people/hugo-pernet
-related:
-  - using-markdown-to-store-your-content
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Gilles Pothieu
+  url: https://www.ssw.com.au/people/gilles-pothieu
+- title: Hugo Pernet
+  url: https://www.ssw.com.au/people/hugo-pernet
+categories:
+- category: categories/software-engineering/rules-to-better-tinacms.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2025-07-03 03:48:09+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
+isArchived: false
+lastUpdated: 2025-07-10 15:06:09+00:00
+lastUpdatedBy: Hugo Pernet [SSW]
+lastUpdatedByEmail: hugo.pernet@esial.net
+related:
+- rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
+seoDescription: Best practices for keeping your content and images self-contained
+  in TinaCMS + Next.js, with three options and a recommended setup.
+tips: ''
+title: Do you keep your images and content self-contained in your TinaCMS +  Next.js
+  project?
+type: rule
+uri: self-contained-images-and-content
 ---
 
 When building a website using TinaCMS and Next.js, not all images need to live next to your content. Shared assets like logos, icons, or other global visuals are best stored in a central media folder (e.g. /public/uploads). This keeps things simple and avoids duplication.
 
 However, for documents that embed images—like blog posts or rules like this one—it’s important to keep the content (Markdown/MDX files) and related media together in the same folder. This self-contained structure improves maintainability, makes GitHub editing clearer, and supports portability.
 
-<!--endintro-->
+<endOfIntro />
 
-`youtube: https://www.youtube.com/watch?v=JX90jbgAvRw`
-**Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=JX90jbgAvRw" description={"Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)"} />
+
 
 By default, Tina stores content in a `/content` folder and images in `/public`, which breaks self-containment and can cause confusion.
 
@@ -40,11 +53,11 @@ You have 3 options:
 
 **✅ Pros**
 
-* Works out of the box  
-  
+* Works out of the box
+
 **❌ Cons**
 
-* Not self-contained  
+* Not self-contained
 * Prone to errors when renaming/moving files
 * You must manually manage matching folder names and use frontmatter to point to images.
 
@@ -53,13 +66,22 @@ You have 3 options:
 * Each document gets a folder in `/content`
 * Images are stored alongside the MDX file
 
-![Figure: Option 2 - Folder structure - rules example](option-2-structure.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Option 2 - Folder structure - rules example"}
+  src="/uploads/rules/self-contained-images-and-content/option-2-structure.png"
+/>
+
 
 **✅ Pros**
 
-* Fully self-contained  
-* Tina Media Manager works  
-  
+* Fully self-contained
+* Tina Media Manager works
+
 **❌ Cons**
 
 * Requires extra setup: update config, collections, and add a middleware
@@ -91,10 +113,10 @@ export const config = {
   matcher: ['/rules/:path*'],
 };
 ```
-**Figure: Middleware to intercept media requests and call internal API**  
+**Figure: Middleware to intercept media requests and call internal API**
 
 
-   
+
 ```js
 import { NextApiRequest, NextApiResponse } from 'next';
 import fs from 'fs';
@@ -137,14 +159,23 @@ You can find more details on [this repository](https://github.com/tinacms/demo-s
 * Each document has a folder in `/public/uploads`
 * Images and MDX file live together
 
-![Figure: Option 3 - Folder structure - rules example](option-3-structure.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Option 3 - Folder structure - rules example"}
+  src="/uploads/rules/self-contained-images-and-content/option-3-structure.png"
+/>
+
 
 **✅ Pros**
 
-* Fully self-contained  
-* Tina Media Manager works  
+* Fully self-contained
+* Tina Media Manager works
 * No custom middleware needed
-  
+
 **❌ Cons**
 
 * MDX files live in `public`, which is unconventional—but works

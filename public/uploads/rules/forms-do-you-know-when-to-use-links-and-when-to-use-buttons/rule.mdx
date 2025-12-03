@@ -1,16 +1,23 @@
 ---
-seoDescription: Forms and navigation - Use buttons to submit data, links for navigation.
-type: rule
-archivedreason:
-title: Forms - Do you know when to use links and when to use buttons?
-guid: 04b05bb8-9727-47b0-ab21-63836ab2ed3d
-uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
-created: 2014-12-04T20:13:43.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2014-12-04 20:16:15+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 04b05bb8-9727-47b0-ab21-63836ab2ed3d
+isArchived: false
+lastUpdated: 2024-08-07 01:23:46+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
+seoDescription: Forms and navigation - Use buttons to submit data, links for navigation.
+title: Forms - Do you know when to use links and when to use buttons?
+type: rule
+uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 ---
 
 It seems nearly all web developers are confused whether they should use hyperlinks or buttons on forms. The recommendation is that whenever data is being submitted (e.g. Save, Cancel, Apply) you should use a button, otherwise use a link.
@@ -19,7 +26,7 @@ This is because hyperlinks indicate navigation - "If I click this link, I'll be 
 
 Whereas a button indicates that something is being processed - "When I click this, I'm agreeing that something is being submitted"
 
-<!--endintro-->
+<endOfIntro />
 
 #### Note: If you are using an automated link checker
 
@@ -37,12 +44,32 @@ That being said, there are a couple of exceptions to this rule.
 1. If you want the user to be able to right click and "Open in New Window"
 2. If you want a consistent design feel (and there is no confusion that the link is accepting data)
 
-![Figure: An exception to the rule - an "Update" button inside the datagrid would look inconsistent](LinksExample.gif)
 
-::: bad  
-![Figure: Bad example - The "sign in" hyperlink should be a button](LinkVsButton.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"An exception to the rule - an \"Update\" button inside the datagrid would look inconsistent"}
+  src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/LinksExample.gif"
+/>
 
-::: good  
-![Figure: Good example - This is a perfect example of how a good sign in screen should look](Logon.gif)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="badExample"
+  caption={"Bad example - The \"sign in\" hyperlink should be a button"}
+  src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/LinkVsButton.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="goodExample"
+  caption={"Good example - This is a perfect example of how a good sign in screen should look"}
+  src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/Logon.gif"
+/>

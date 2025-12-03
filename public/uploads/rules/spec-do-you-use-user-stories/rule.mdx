@@ -1,50 +1,90 @@
 ---
-seoDescription: As a Product Manager, I want to use User Stories format when appropriate, so that developers understand the context and requirements of a Product Backlog Item.
-type: rule
-title: Do you use User Stories format when appropriate?
-uri: spec-do-you-use-user-stories
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-related: []
-redirects:
-  - spec-do-you-use-user-stories-when-appropriate
-created: 2009-11-03T10:33:18.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+categories:
+- category: categories/client-engagement/rules-to-better-specification-reviews.mdx
+created: 2010-10-20 08:56:06+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
 guid: 0daa42ed-f103-4e4b-9d27-e9b77647b4b6
+isArchived: false
+lastUpdated: 2025-03-07 11:36:24+00:00
+lastUpdatedBy: Michelle "MishManners®™" Duke
+lastUpdatedByEmail: 36594527+mishmanners@users.noreply.github.com
+redirects:
+- spec-do-you-use-user-stories-when-appropriate
+seoDescription: As a Product Manager, I want to use User Stories format when appropriate,
+  so that developers understand the context and requirements of a Product Backlog
+  Item.
+title: Do you use User Stories format when appropriate?
+type: rule
+uri: spec-do-you-use-user-stories
 ---
 
 Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
 
-<!--endintro-->
+<endOfIntro />
 
-::: greybox
-As a **\[type of User]**\
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    As a **\[type of User]**\
 I want **\[some goal]**\
 So that **\[some reason]**
-:::
-**Figure: User Story - template for description**
+  </>}
+  captionStyle="default"
+  caption={"User Story - template for description"}
+/>
 
-![Figure: User Story example in an Azure DevOps PBI](user-story-azuredevops.png)
 
-![Figure: User Story example in a GitHub Issue](userstory-github.png)
 
-::: greybox
-"I want to be able to search for customers."
-:::
-::: bad
-Figure: Bad example - The user story is too vague and broad in scope
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"User Story example in an Azure DevOps PBI"}
+  src="/uploads/rules/spec-do-you-use-user-stories/user-story-azuredevops.png"
+/>
 
-::: greybox
-"As a **Marketing Manager**,  
-I want to **be able to search for customers by country and last name**,  
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"User Story example in a GitHub Issue"}
+  src="/uploads/rules/spec-do-you-use-user-stories/userstory-github.png"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "I want to be able to search for customers."
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - The user story is too vague and broad in scope"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "As a **Marketing Manager**,
+I want to **be able to search for customers by country and last name**,
 So that **I can find their numbers and call customers that are close to me**."
-:::
-::: good
-Figure: Good example - Clear user story following the [INVEST principle](<https://en.wikipedia.org/wiki/INVEST_(mnemonic)>)
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Clear user story following the [INVEST principle]([https://en.wikipedia.org/wiki/INVEST_(mnemonic)](https://en.wikipedia.org/wiki/INVEST_(mnemonic)))"}
+/>

@@ -1,29 +1,38 @@
 ---
-type: rule
-tips: ""
-title: Do you avoid Automation Bias? (aka AI Slop)
-seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
-uri: avoid-automation-bias
 authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
-related:
-  - manage-security-risks-when-adopting-ai-solutions
-  - manage-legal-implications-of-ai
-  - mitigate-brand-risks-ai
-  - use-ai-responsibly
-  - checked-by-xxx
-created: 2025-09-16T14:29:00.000Z
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz
+categories:
+- category: categories/artificial-intelligence/rules-to-better-ai.mdx
+created: 2025-10-17 05:12:37+00:00
+createdBy: Eddie Kranz [SSW]
+createdByEmail: ed@kranz.au
 guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
+isArchived: false
+lastUpdated: 2025-10-23 17:26:32+00:00
+lastUpdatedBy: Eddie Kranz [SSW]
+lastUpdatedByEmail: ed@kranz.au
+related:
+- rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+- rule: public/uploads/rules/manage-legal-implications-of-ai/rule.mdx
+- rule: public/uploads/rules/mitigate-brand-risks-ai/rule.mdx
+- rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+seoDescription: Did you know that AI has the potential to make your work worse? Learn
+  the common pitfalls so that AI can help, not hinder.
+tips: ''
+title: Do you avoid Automation Bias? (aka AI Slop)
+type: rule
+uri: avoid-automation-bias
 ---
 
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
 Let's talk about what leads to creating AI slop:
 
-<!--endintro-->
+<endOfIntro />
 
-youtube: <https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z>
+youtube: [https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z](https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z)
 **Video: How AI is making you dumber (3 min)**
 
 Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a brain problem, not a model problem.
@@ -85,66 +94,90 @@ Remember to always **own your work**.
 
 When creating tools that are prone to mistakes, include exact error rates:
 
-::: greybox
-AI sometimes makes mistakes, ensure you check its output.
-:::
-::: bad
-Bad example - Highly vague warning, most people will ignore it
-:::
 
-::: greybox
-Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
-:::
-::: good
-Good example - More specific warning, people are more likely to take it seriously
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    AI sometimes makes mistakes, ensure you check its output.
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - Highly vague warning, most people will ignore it"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - More specific warning, people are more likely to take it seriously"}
+/>
+
 
 ### Four Eyes Principle (with real relationships)
 
-::: greybox
-Random Person: _"Hey, can you review this code I wrote with Copilot?"_
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Random Person: _"Hey, can you review this code I wrote with Copilot?"_
 
 Bob: _"I don't know you well, and I have better things to do... approved ✅"_
-:::
-::: bad
-Bad example - Random pair reviews, people don't know each other well, so they won't feel accountable
-:::
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - Random pair reviews, people don't know each other well, so they won't feel accountable"}
+/>
 
-::: greybox
-Alice: _"Hey Bob, can you review this code I wrote with Copilot?"_
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Alice: _"Hey Bob, can you review this code I wrote with Copilot?"_
 
 Bob: _"Sure, I want to make sure I don't let Alice down, so I'll take a closer look 👀"_
-:::
-::: good
-Good example - Pair reviews with people who know each other well, so they feel accountable
-:::
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - Pair reviews with people who know each other well, so they feel accountable"}
+/>
+
 
 ### Information, not recommendation
 
 Ask AI to present information and sources before it asserts conclusions. Avoid instructive "do this" prompts.
 
-::: greybox
-_"Write a summary of diabetes treatments"_
-:::
-::: bad
-Bad example - AI provides a summary, with not much context. People may take it at face value
-:::
 
-::: greybox
-_"I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?"_
-:::
-::: good
-Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work.
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    _"Write a summary of diabetes treatments"_
+  </>}
+  captionStyle="badExample"
+  caption={"Bad example - AI provides a summary, with not much context. People may take it at face value"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    _"I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?"_
+  </>}
+  captionStyle="goodExample"
+  caption={"Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work."}
+/>
+
 
 #### Four directing questions (readiness gate before prompting)
 
 Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
-* **Who is this for?**  
-* **What problem are we solving right now?**  
-* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
-* **What information/context do you already have, and what’s missing?**  
+* **Who is this for?**
+* **What problem are we solving right now?**
+* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**
+* **What information/context do you already have, and what’s missing?**
 
 ---
 

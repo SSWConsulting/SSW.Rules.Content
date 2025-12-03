@@ -1,6 +1,9 @@
 ---
 type: rule
 title: Do you keep track of expiring app registration secrets and certificates?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+  - category: categories/software-engineering/rules-to-better-azure.mdx
 seoDescription: Keep track of expiring app registration secrets and certificates
   in Azure AD to avoid authentication issues.
 uri: expiring-app-secrets-certificates
@@ -9,14 +12,20 @@ authors:
     url: https://ssw.com.au/people/chris-schultz
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud/
-created: 2023-05-12T00:55:28.532Z
+created: 2023-05-12T02:23:30.000Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
+lastUpdated: 2025-05-29T04:50:22.000Z
+lastUpdatedBy: Chris Schultz [SSW]
+lastUpdatedByEmail: 94873295+chrisschultzssw@users.noreply.github.com
+createdBy: Chris Schultz [SSW]
+createdByEmail: 94873295+chrisschultzssw@users.noreply.github.com
+isArchived: false
 ---
 In Entra ID (formerly Azure AD), App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.
 
-<!--endintro-->
+<endOfIntro />
 
 ### Use a PowerShell script to check expiry dates
 
@@ -77,7 +86,7 @@ $SecretsToExpire = Get-MgApplication -All | ForEach-Object {
         }
     }
 }
- 
+
 #Gridview list
 #$SecretsToExpire | Out-GridView
 
@@ -131,11 +140,18 @@ Send-MgUserMail -UserId "noreply@northwind.com" -BodyParameter $emailParams
 
 ```
 
-:::greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 Note: To run this on a schedule, you should create an app registration to authenticate the script. The app registration will at least need **Application.Read.All** rights to be able to run this.
 
-:::
+  </>}
+  captionStyle="default"
+  caption={""}
+/>
+
 
 ### Use a Logic App to check expiry dates
 
@@ -143,4 +159,12 @@ If you prefer working with Logic Apps, there's an example of how it can be done 
 
 You will also need an App Registration to authenticate your Logic App. Notifications can then be sent to email or a Teams channel.
 
-![Figure: Example email, listing app registration secrets that are expiring soon](app-reg-email.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  captionStyle="default"
+  caption={"Example email, listing app registration secrets that are expiring soon"}
+  src="/uploads/rules/expiring-app-secrets-certificates/app-reg-email.png"
+/>
