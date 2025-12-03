@@ -13,9 +13,8 @@ IMAGE_BLOCK_REGEX = r'^\s*:::\s*(bad|ok|good)\s+(!\[(?:Figure:\s*)?.*?\]\(.*?\))
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
-SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
-SRC_PREFIX_BASE = '/categories/'
+SRC_PREFIX_BASE = '/uploads/categories'
 
 # ----------------------------- #
 # Utilities
@@ -97,7 +96,7 @@ def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -125,16 +124,14 @@ def replace_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
+    caption_style = preset if preset == "default" else f"{preset}Example"
 
     return f'''<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="{caption_style}"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -171,11 +168,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: {should_display}
-  }} }}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -189,11 +183,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="default"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -222,23 +213,10 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="{preset_kind}Example"
+  captionText={{{figure_js}}}
   src="{src}"
 />'''
-
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
 
 def process_custom_aside_blocks(content):
     lines = content.splitlines()
@@ -264,7 +242,7 @@ def process_custom_aside_blocks(content):
         if in_box and re.match(r"^\s*:::\s*$", line):
 
             preset = "default"
-            figure = "XXX"
+            figure = ""
             show = False
 
             if i + 1 < len(lines):
@@ -306,16 +284,13 @@ def process_custom_aside_blocks(content):
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
             figure_js = js_string(figure)
-            embed = f'''<asideEmbed
-  variant="{box_type}"
+            embed = f'''<boxEmbed
+  style="{box_type}"
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  captionStyle="{preset}"
+  captionText={{{figure_js}}}
 />'''
             output.append(embed)
             in_box = False
@@ -436,9 +411,25 @@ def modify_category_files(categories_root=None):
         # Process body content to convert aside blocks, images, and YouTube embeds
         original_body = body
 
+        # Ensure upload directory exists
+        upload_dir = project_root / "public/uploads/categories"
+        upload_dir.mkdir(parents=True, exist_ok=True)
+
+        # Move all images in the same folder as the MD file
+        current_dir = Path(file_path).parent
+
+        for img in current_dir.glob("*"):
+            if img.suffix.lower() in [".png", ".jpg", ".jpeg", ".gif"]:
+                target = upload_dir / img.name
+
+                # Avoid overwriting existing files
+                if not target.exists():
+                    print(f"Moving image: {img} → {target}")
+                    img.rename(target)
+
         # Get the category folder name for image src prefix
         category_folder = Path(file_path).parent.name
-        src_prefix = f"{SRC_PREFIX_BASE}{category_folder}"
+        src_prefix = SRC_PREFIX_BASE
 
         # Apply transformations in order
         body = process_custom_aside_blocks(body)
@@ -449,7 +440,7 @@ def modify_category_files(categories_root=None):
 
         # Handle image blocks with ratings (e.g., "::: good ![...] :::")
         def _replace_image_block_conditional(m):
-            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
                 return keep_image_block_with_prefixed_src(m, src_prefix)
             return replace_image_block(m, src_prefix)
         body = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, body, flags=re.MULTILINE | re.DOTALL)
@@ -463,16 +454,6 @@ def modify_category_files(categories_root=None):
                 return keep_markdown_figure_with_prefix(m, src_prefix)
             return replace_standalone_image(m, src_prefix)
         body = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, body)
-
-        # Handle simple figure blocks (e.g., "::: good\nSome text\n:::")
-        def _replace_simple_figure_block_conditional(m):
-            if is_inside_any_embed_body(body, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
-                body_text = m.group(2)
-                if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body_text):
-                    return keep_simple_block_with_prefixed_images(m, src_prefix)
-                return m.group(0)
-            return replace_simple_figure_block(m)
-        body = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, body, flags=re.MULTILINE | re.DOTALL)
 
         # Handle raw images (prefix relative paths)
         body = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), body)
@@ -488,18 +469,6 @@ def modify_category_files(categories_root=None):
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             print(f"Successfully updated: {file_path}")
-
-        # Always rename .md to .mdx (even if no content changes)
-        new_file_path = Path(file_path).with_suffix('.mdx')
-        if file_path.endswith('.md'):
-            # Delete existing .mdx file if it exists
-            if new_file_path.exists():
-                new_file_path.unlink()
-
-            os.rename(file_path, new_file_path)
-            print(f"Renamed to: {new_file_path}\n")
-        else:
-            print(f"Already .mdx: {file_path}\n")
 
 if __name__ == '__main__':
     modify_category_files()

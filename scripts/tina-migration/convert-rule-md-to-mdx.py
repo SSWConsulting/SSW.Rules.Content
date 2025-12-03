@@ -3,7 +3,7 @@
 Script: Markdown to MDX Transformer
 ------------------------------------------------------------
 
-This script transforms Markdown (.md) files (used in SSW Rules)
+This script transforms .md and .mdx files (used in SSW Rules)
 into MDX files with special components for images, videos,
 email templates, and aside blocks.
 
@@ -12,30 +12,33 @@ Usage:
     python convert-rule-md-to-mdx.py --update-categories [rules_dir]
 
 Parameters:
-    path        - Optional. Can be a Markdown file path or a directory path.
-                  - If it's a Markdown file: transforms just that file.
+    path        - Optional. Can be a .md/.mdx file path or a directory path.
+                  - If it's a file: transforms just that file.
                   - If it's a directory: processes subdirectories inside it.
-                    Looks for Markdown files to transform (default: rule.md).
+                    Looks for .md/.mdx files to transform (default: rule.mdx,
+                    falling back to rule.md).
 
     file_name   - Optional. Only used when 'path' is a directory.
-                  Specifies which .md file to process in each subfolder.
-                  If omitted, the first .md file in each subfolder is used.
+                  Specifies which .md/.mdx file to process in each subfolder.
+                  If omitted, the first .mdx file in each subfolder is used; 
+                  if none, the first .md file is used.
 
     --update-categories - Flag to update existing MDX files with categories
                           from rule-to-categories.json. If categories already
                           exist in the file, they are preserved.
 
 Examples:
-    python convert-rule-md-to-mdx.py                              # Transforms all rule.md files in ./rules/
+    python convert-rule-md-to-mdx.py                              # Transforms all rule.mdx files in ./public/uploads/rules/
     python convert-rule-md-to-mdx.py rules custom_rule.md         # Transforms custom_rule.md in each subfolder under ./rules/
     python convert-rule-md-to-mdx.py rules/someRule/rule.md       # Transforms only the specified file
     python convert-rule-md-to-mdx.py --update-categories public/uploads/rules  # Updates categories in all rule.mdx files
 
 Notes:
-    - The original .md file will be deleted after successful transformation.
+    - If the input is a .md file, the original .md file will be deleted after successful transformation.
     - The resulting .mdx file will be saved in the same directory.
     - Files listed in IGNORE_FILES will be skipped.
 """
+
 
 import os
 import re
@@ -49,8 +52,8 @@ import glob
 # Configuration
 # ----------------------------- #
 
-DEFAULT_BASE_DIR = 'rules'
-DEFAULT_FILE_NAME = 'rule.md'
+DEFAULT_BASE_DIR = 'public/uploads/rules'
+DEFAULT_FILE_NAME = 'rule.mdx'
 SRC_PREFIX_BASE = '/uploads/rules/'
 IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g., ['ignore_this.md', 'example.md'])
 
@@ -79,10 +82,12 @@ EMAIL_BLOCK_NO_RATING_REGEX = (
 SIMPLE_FIGURE_BLOCK_REGEX = r'^\s*:::\s*(good|bad|ok)\s*\n(.*?)\n\s*:::'
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*([^\n]+?)\s*\n\s*!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)\s*:::'
 RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
-INTRO_WITH_FM_REGEX = r'^(?P<fm>---\s*\n.*?\n---\s*\n)?(?P<intro>.*?)(?:\r?\n)?<!--\s*endintro\s*-->\s*'
 # Matches both orders: "good img-medium" OR "img-medium good" - allow leading whitespace
 PRESET_AND_SIZE_IMAGE_BLOCK_REGEX = r'^\s*:::\s*(?:(?P<preset1>good|bad|ok)\s+(?P<size1>img-small|img-medium|img-large|small|medium|large|no-border)|(?P<size2>img-small|img-medium|img-large|small|medium|large|no-border)\s+(?P<preset2>good|bad|ok))\s*\n\s*!\[Figure:\s*(?P<figure>.*?)\]\((?P<src>.*?)\)\s*:::'
 MARK_TAG_REGEX = r'<\s*mark\b[^>]*>(.*?)<\s*/\s*mark\s*>'
+# Matches Markdown inline links that are not images, capturing the link text, href, and optional title.
+ASSET_LINK_REGEX = r'(?<!\!)\[(?P<text>[^\]]+)\]\((?P<href>[^)\s]+)(?:\s+"(?P<title>[^"]*)")?\)'
+
 
 # ----------------------------- #
 # Utilities
@@ -121,12 +126,11 @@ def prefix_raw_image_src(m, src_prefix):
     alt_text = m.group(1).strip()
     raw_src = m.group(2).strip()
     clean_src = clean_image_src(raw_src)
-
-    if clean_src.startswith('/') or clean_src.startswith('http'):
+    if clean_src.lstrip('/').startswith(src_prefix.lstrip('/') + '/'):
         return m.group(0)
 
-    prefixed_src = f"{src_prefix}/{clean_src}"
-    return f'![{alt_text}]({prefixed_src})'
+    new_src = add_prefix_if_relative(raw_src, src_prefix)
+    return f'![{alt_text}]({new_src})'
 
 def convert_angle_bracket_links(text: str) -> str:
     return re.sub(
@@ -157,7 +161,7 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 def convert_mark_tags_to_md_highlight(text: str) -> str:
     return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -192,14 +196,19 @@ def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
 
-def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
-    body = m.group(2)
-    def _repl(md_img_m):
-        alt = md_img_m.group(1).strip()
-        raw_src = md_img_m.group(2).strip()
-        new_src = add_prefix_if_relative(raw_src, src_prefix)
-        return f'![{alt}]({new_src})'
-    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
+def replace_asset_link(m, src_prefix: str) -> str:
+    text = m.group('text')
+    href = m.group('href').strip()
+    title = m.group('title')
+
+    if re.match(r'^(https?:|mailto:|#|/)', href, flags=re.IGNORECASE):
+        return m.group(0)
+
+    if not re.search(r'\.(pdf|doc|docx|xls|xlsx|ppt|pptx|zip|mp4|mov|csv|txt)$', href, flags=re.IGNORECASE):
+        return m.group(0)
+
+    new_href = add_prefix_if_relative(href, src_prefix)
+    return f'[{text}]({new_href} "{title}")' if title else f'[{text}]({new_href})'
 
 
 # ----------------------------- #
@@ -212,31 +221,6 @@ def replace_youtube_block(m):
     desc_js = js_string(desc)
     return f'\n<youtubeEmbed url="{url}" description={{{desc_js}}} />\n'
 
-def replace_youtube_block_inside_intro(m):
-    url = m.group(1).strip()
-    desc = m.group(2).strip() if m.group(2) else ""
-    desc_js = js_string(desc)
-    return f'<introYoutube url="{url}" description={{{desc_js}}} />'
-
-def wrap_intro_embed(m):
-    fm = m.group('fm') or ''
-    intro = m.group('intro') or ''
-
-    intro_processed = intro.strip()
-    intro_processed = re.sub(
-        YOUTUBE_BLOCK_REGEX, replace_youtube_block_inside_intro,
-        intro_processed, flags=re.MULTILINE
-    )
-    intro_processed = convert_angle_bracket_links(intro_processed)
-    # intro_processed = escape_angle_brackets_except(intro_processed, allowed_tags=("mark",))
-
-    return f'''{fm}<introEmbed
-  body={{<>
-{intro_processed}
-  </>}}
-/>
-'''
-
 def replace_image_block(m, src_prefix):
     preset = m.group(1).strip()
     image_line = m.group(2).strip()
@@ -248,17 +232,15 @@ def replace_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
+    caption_style = preset if preset == "default" else f"{preset}Example"
 
     return f'''
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="{caption_style}"
+  caption="{figure_js}"
   src="{src}"
 />
 '''
@@ -298,11 +280,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: {should_display}
-  }} }}
+  captionStyle="default"
+  caption="{figure_js}"
   src="{src}"
 />
 '''
@@ -319,14 +298,27 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="default"
+  caption="{figure_js}"
   src="{src}"
 />
 '''
+
+def replace_simple_figure_block(m):
+    kind = m.group(1).strip()
+    text = m.group(2).strip()
+
+    if re.search(r'!\[.*?\]\(.*?\)', text):
+        return m.group(0)
+
+    if kind == "bad":
+        icon = "❌"
+    elif kind == "good":
+        icon = "✅"
+    else:
+        icon = "😐"
+
+    return f"**{icon} {text}**  "
 
 def replace_preset_and_size_image_block(m, src_prefix):
     # Extract preset and size from either order
@@ -354,11 +346,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  captionStyle="{preset_kind}Example"
+  caption="{figure_js}"
   src="{src}"
 />
 '''
@@ -397,11 +386,8 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  captionStyle="{preset}"
+  caption="{figure_js}"
 />
 '''
 
@@ -433,24 +419,10 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  captionStyle="{preset}"
+  caption="{figure_js}"
 />
 '''
-
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
-
 
 def process_custom_aside_blocks(content):
     lines = content.splitlines()
@@ -479,7 +451,7 @@ def process_custom_aside_blocks(content):
         if in_box and re.match(r"^\s*:::\s*$", line):
 
             preset = "default"
-            figure = "XXX"
+            figure = ""
             show = False
 
             if i + 1 < len(lines):
@@ -506,6 +478,17 @@ def process_custom_aside_blocks(content):
                         figure = match_l2.group(1).strip()
                         show = True
                         i += 3
+                    elif (
+                        i + 3 < len(lines)
+                        and (match_l1 := re.match(r"^\s*:::\s*(good|bad|ok)\s*$", lines[i + 1]))
+                        and re.match(r"^\s*:::\s*$", lines[i + 3])
+                    ):
+                        caption_line = lines[i + 2].strip()
+                        if caption_line:
+                            preset = f"{match_l1.group(1)}Example"
+                            figure = caption_line
+                            show = True
+                        i += 3
 
             # Remove the indentation from buffer content
             cleaned_buffer = []
@@ -522,16 +505,13 @@ def process_custom_aside_blocks(content):
 
             figure_js = js_string(figure)
             embed = f'''
-<asideEmbed
-  variant="{box_type}"
+<boxEmbed
+  style="{box_type}"
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  captionStyle="{preset}"
+  caption="{figure_js}"
 />
 '''
             output.append(embed)
@@ -649,11 +629,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {should_display_js}
-  }}}}
+  captionStyle="{preset}"
+  caption="{figure_js}"
 />'''
 
         out.append(embed)
@@ -679,17 +656,17 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
+    content = re.sub(r'<!--\s*endintro\s*-->', '<endOfIntro />', content, flags=re.IGNORECASE)
 
     content = convert_mark_tags_to_md_highlight(content)
     content = mdx_safe_template_vars(content)
-    content = re.sub(INTRO_WITH_FM_REGEX, wrap_intro_embed, content, flags=re.IGNORECASE | re.DOTALL)
 
     content = process_custom_aside_blocks(content)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
     content = re.sub(PRESET_AND_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_and_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
     content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
@@ -697,29 +674,36 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
     content = transform_email_blocks(content)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
+    def _replace_simple_figure_block_conditional(m):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
+            return m.group(0)
+        return replace_simple_figure_block(m)
+
+    content = re.sub(
+        SIMPLE_FIGURE_BLOCK_REGEX,
+        _replace_simple_figure_block_conditional,
+        content,
+        flags=re.MULTILINE | re.DOTALL
+    )
+
+
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
             return keep_markdown_figure_with_prefix(m, src_prefix)
         return replace_standalone_image(m, src_prefix)
     content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
 
-    def _replace_simple_figure_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
-            body = m.group(2)
-            if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
-                return keep_simple_block_with_prefixed_images(m, src_prefix)
-            return m.group(0)
-        return replace_simple_figure_block(m)
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
-
-
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
-
+    content = re.sub(ASSET_LINK_REGEX, lambda m: replace_asset_link(m, src_prefix), content)
     content = convert_angle_bracket_links(content)
 
-    output_path = path.with_suffix('.mdx')
-    output_path.write_text(content, encoding='utf-8')
 
+    if path.suffix.lower() == '.mdx':
+        output_path = path
+    else:
+        output_path = path.with_suffix('.mdx')
+
+    output_path.write_text(content, encoding='utf-8')
     print(f"Transformed content saved to: {output_path}")
     
     # Add categories to the newly converted MDX file
@@ -747,7 +731,9 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
         except Exception as e:
             print(f"[WARNING] Failed to add categories to {output_path}: {e}")
     
-    path.unlink()  # delete original .md file
+
+    if path.suffix.lower() == '.md':
+        path.unlink()  # delete original .md file
 
 def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, add_categories=True):
     """
@@ -790,9 +776,11 @@ def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ad
                     print(f"[WARNING] File not found or ignored: {rule_md}")
                     continue
             else:
-                md_files = [f for f in rule_dir.glob('*.md') if f.name not in IGNORE_FILES]
+                md_files = [f for f in rule_dir.glob('*.mdx') if f.name not in IGNORE_FILES]
                 if not md_files:
-                    print(f"[WARNING] No .md files found in: {rule_dir}")
+                    md_files = [f for f in rule_dir.glob('*.md') if f.name not in IGNORE_FILES]
+                if not md_files:
+                    print(f"[WARNING] No .md/mdx files found in: {rule_dir}")
                     continue
                 rule_md = md_files[0]  # Process the first .md file found
 
