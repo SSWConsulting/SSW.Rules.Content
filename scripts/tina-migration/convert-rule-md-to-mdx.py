@@ -240,7 +240,7 @@ def replace_image_block(m, src_prefix):
   size="large"
   showBorder={{false}}
   captionStyle="{caption_style}"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -281,7 +281,7 @@ def replace_custom_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   captionStyle="default"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -299,7 +299,7 @@ def replace_standalone_image(m, src_prefix):
   size="large"
   showBorder={{false}}
   captionStyle="default"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -347,7 +347,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   captionStyle="{preset_kind}Example"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
   src="{src}"
 />
 '''
@@ -387,7 +387,7 @@ def replace_email_block(m):
     {cleaned_body}
   </>}}
   captionStyle="{preset}"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
 />
 '''
 
@@ -420,7 +420,7 @@ def replace_email_block_no_rating(m):
     {cleaned_body}
   </>}}
   captionStyle="{preset}"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
 />
 '''
 
@@ -511,7 +511,7 @@ def process_custom_aside_blocks(content):
     {body}
   </>}}
   captionStyle="{preset}"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
 />
 '''
             output.append(embed)
@@ -630,7 +630,7 @@ def transform_email_blocks(content: str) -> str:
     {cleaned_body}
   </>}}
   captionStyle="{preset}"
-  caption="{figure_js}"
+  caption={{{figure_js}}}
 />'''
 
         out.append(embed)
