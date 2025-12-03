@@ -232,15 +232,15 @@ def replace_image_block(m, src_prefix):
     src = add_prefix_if_relative(raw_src, src_prefix)
 
     figure_js = js_string(figure)
-    caption_style = preset if preset == "default" else f"{preset}Example"
+    caption_style = preset if preset == "none" else f"{preset}"
 
     return f'''
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  captionStyle="{caption_style}"
-  caption={{{figure_js}}}
+  figurePrefix="{caption_style}"
+  figure="{figure_js}"
   src="{src}"
 />
 '''
@@ -280,8 +280,8 @@ def replace_custom_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  captionStyle="default"
-  caption={{{figure_js}}}
+  figurePrefix="none"
+  figure="{figure_js}"
   src="{src}"
 />
 '''
@@ -298,8 +298,8 @@ def replace_standalone_image(m, src_prefix):
   alt="Image"
   size="large"
   showBorder={{false}}
-  captionStyle="default"
-  caption={{{figure_js}}}
+  figurePrefix="none"
+  figure="{figure_js}"
   src="{src}"
 />
 '''
@@ -346,8 +346,8 @@ def replace_preset_and_size_image_block(m, src_prefix):
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  captionStyle="{preset_kind}Example"
-  caption={{{figure_js}}}
+  figurePrefix="{preset_kind}"
+  figure="{figure_js}"
   src="{src}"
 />
 '''
@@ -362,10 +362,10 @@ def replace_email_block(m):
     cleaned_body = clean_email_body(body)
 
     preset_match = re.match(r'::: (good|bad|ok)', figure_block.strip())
-    preset = f"{preset_match.group(1)}Example" if preset_match else "default"
+    preset = f"{preset_match.group(1)}" if preset_match else "none"
 
     figure_match = re.search(r'Figure:\s*(.*)', figure_block)
-    raw_figure = figure_match.group(1).strip() if figure_match else "Example"
+    raw_figure = figure_match.group(1).strip() if figure_match else ""
 
     figure_js = js_string(raw_figure)
     from_js = js_string(email_data['from'])
@@ -386,8 +386,8 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  captionStyle="{preset}"
-  caption={{{figure_js}}}
+  figurePrefix="{preset}"
+  figure="{figure_js}"
 />
 '''
 
@@ -399,8 +399,8 @@ def replace_email_block_no_rating(m):
     email_data = parse_email_table(table)
     cleaned_body = clean_email_body(body)
 
-    preset = "default"
-    figure_js = js_string(figure_text if figure_text else "Example")
+    preset = "none"
+    figure_js = js_string(figure_text if figure_text else "")
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -419,8 +419,8 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  captionStyle="{preset}"
-  caption={{{figure_js}}}
+  figurePrefix="{preset}"
+  figure="{figure_js}"
 />
 '''
 
@@ -450,7 +450,7 @@ def process_custom_aside_blocks(content):
 
         if in_box and re.match(r"^\s*:::\s*$", line):
 
-            preset = "default"
+            preset = "none"
             figure = ""
             show = False
 
@@ -458,7 +458,7 @@ def process_custom_aside_blocks(content):
                 next_line = lines[i + 1].strip()
                 single_line = re.match(r"^:::\s*(good|bad|ok)\s+Figure:\s*(.*?)\s+:::", next_line)
                 if single_line:
-                    preset = f"{single_line.group(1)}Example"
+                    preset = f"{single_line.group(1)}"
                     figure = single_line.group(2)
                     show = True
                     i += 1
@@ -474,7 +474,7 @@ def process_custom_aside_blocks(content):
                         and (match_l2 := re.match(r"^\s*Figure:\s*(.*?)\s*$", lines[i + 2]))
                         and re.match(r"^\s*:::\s*$", lines[i + 3])
                     ):
-                        preset = f"{match_l1.group(1)}Example"
+                        preset = f"{match_l1.group(1)}"
                         figure = match_l2.group(1).strip()
                         show = True
                         i += 3
@@ -485,7 +485,7 @@ def process_custom_aside_blocks(content):
                     ):
                         caption_line = lines[i + 2].strip()
                         if caption_line:
-                            preset = f"{match_l1.group(1)}Example"
+                            preset = f"{match_l1.group(1)}"
                             figure = caption_line
                             show = True
                         i += 3
@@ -510,8 +510,8 @@ def process_custom_aside_blocks(content):
   body={{<>
     {body}
   </>}}
-  captionStyle="{preset}"
-  caption={{{figure_js}}}
+  figurePrefix="{preset}"
+  figure="{figure_js}"
 />
 '''
             output.append(embed)
@@ -584,7 +584,7 @@ def transform_email_blocks(content: str) -> str:
         tail = content[m.end():]
 
         rating_m = re.match(r'\s*(:::\s*(good|bad|ok).*?:::)', tail, re.DOTALL)
-        preset = "default"
+        preset = "none"
         figure_text = ""
         consumed = 0
         should_display = False
@@ -592,7 +592,7 @@ def transform_email_blocks(content: str) -> str:
         if rating_m:
             rating_full = rating_m.group(1)
             rating_kind = rating_m.group(2)
-            preset = f"{rating_kind}Example"
+            preset = f"{rating_kind}"
 
             fig_in_rating = re.search(r'Figure:\s*(.*)', rating_full)
             if fig_in_rating:
@@ -614,7 +614,7 @@ def transform_email_blocks(content: str) -> str:
         cc_js      = js_string(email_data['cc'])
         bcc_js     = js_string(email_data['bcc'])
         subject_js = js_string(email_data['subject'])
-        figure_js  = js_string(figure_text if figure_text else "Example")
+        figure_js  = js_string(figure_text if figure_text else "")
 
         should_display_body_js = "true" if should_display_body else "false"
         should_display_js = "true" if should_display else "false"
@@ -629,8 +629,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  captionStyle="{preset}"
-  caption={{{figure_js}}}
+  figurePrefix="{preset}"
+  figure="{figure_js}"
 />'''
 
         out.append(embed)
