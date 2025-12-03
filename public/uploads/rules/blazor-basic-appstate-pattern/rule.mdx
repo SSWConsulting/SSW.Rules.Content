@@ -1,21 +1,25 @@
 ---
-seoDescription: Discover how to implement the AppState pattern in Blazor for simple yet effective state management across components.
-type: rule
-title: State Management - Do you use the AppState pattern?
-uri: blazor-basic-appstate-pattern
 authors:
-  - title: William Liebenberg
-    url: https://www.ssw.com.au/people/william-liebenberg
-related:
-  - blazor-appstate-pattern-with-notifications
-created: 2022-09-16T08:40:45.591Z
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+created: 2022-09-16 09:04:06+00:00
+createdBy: William Liebenberg
+createdByEmail: awliebenberg@outlook.com
 guid: 1dc53cdd-5c19-414b-8275-c6c8dcfc030e
-
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+seoDescription: Discover how to implement the AppState pattern in Blazor for simple
+  yet effective state management across components.
+title: State Management - Do you use the AppState pattern?
+type: rule
+uri: blazor-basic-appstate-pattern
 ---
 
 The **AppState** pattern is one of the simplest **State Management** patterns to implement with Blazor WebAssembly.
 
-<!--endintro-->
+<endOfIntro />
 
 To start implementing the pattern, declare a class that describes the collection of fields that represents the state of a page, a form, or a model.
 
@@ -99,9 +103,16 @@ Once registered, we can use the `@inject` directive to inject the object into a 
 
 Alternatively if we are using code-behind (separate .razor and .razor.cs files), then we can use the `[Inject]` attribute to inject the object as a parameter for the code-behind class.
 
-::: info
-**Note:** Constructor based injection is not supported for Blazor code-behind. Only Parameter based injection is supported.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Constructor based injection is not supported for Blazor code-behind. Only Parameter based injection is supported.
+  </>}
+  captionStyle="default"
+  caption=""""
+/>
+
 
 ```cs
 public partial class Counter : ComponentBase
@@ -130,4 +141,4 @@ public partial class Counter : ComponentBase
 ## ✅ Benefits of basic AppState pattern
 
 * Implementation is trivial - register, inject, consume
-* Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section  
+* Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section

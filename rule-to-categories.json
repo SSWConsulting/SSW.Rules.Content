@@ -1,86 +1,35 @@
 {
-    "ai-assisted-development-workflow": [
-        "rules-to-better-ai-development"
+    "create-azure-marketplace-offer": [
+        "rules-to-better-azure-marketplace"
     ],
-    "use-github-copilot-cli-secure-environment": [
-        "rules-to-better-ai-development"
+    "do-you-know-why-ssw-is-using-jira": [
+        "rules-to-better-jira"
     ],
-    "github-copilot-chat-modes": [
-        "rules-to-better-ai-development"
+    "do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira": [
+        "rules-to-better-jira"
     ],
-    "create-gpts": [
-        "rules-to-better-ai-development"
+    "do-you-know-how-to-create-issues-in-jira": [
+        "rules-to-better-jira"
     ],
-    "train-gpt": [
-        "rules-to-better-ai-development"
+    "choose-azure-services": [
+        "rules-to-better-azure"
     ],
-    "fundamentals-of-prompt-engineering": [
-        "rules-to-better-chatgpt-prompt-engineering"
+    "learn-azure": [
+        "rules-to-better-azure"
     ],
-    "ai-prompt-xml": [
-        "rules-to-better-chatgpt-prompt-engineering"
+    "why-blazor-is-great": [
+        "rules-to-better-blazor"
     ],
-    "chatgpt-cheat-sheet": [
-        "rules-to-better-chatgpt-prompt-engineering"
+    "share-common-types-and-logic": [
+        "rules-to-better-blazor"
     ],
-    "chatgpt-security-risks": [
-        "rules-to-better-chatgpt-prompt-engineering"
+    "blazor-basic-appstate-pattern": [
+        "rules-to-better-blazor"
     ],
-    "custom-instructions": [
-        "rules-to-better-chatgpt-prompt-engineering"
+    "decouple-api-from-blazor-components": [
+        "rules-to-better-blazor"
     ],
-    "do-you-inform-the-client-of-any-resource-or-rate-changes": [
-        "rules-to-better-account-management"
-    ],
-    "inform-clients-when-developer-leaves": [
-        "rules-to-better-account-management"
-    ],
-    "do-you-regularly-check-up-on-your-clients-to-make-sure-theyre-happy": [
-        "rules-to-better-account-management"
-    ],
-    "do-you-provide-a-high-level-project-progress-report-for-clients": [
-        "rules-to-better-account-management"
-    ],
-    "do-you-utilize-your-solution-architects": [
-        "rules-to-better-account-management"
-    ],
-    "do-you-book-in-a-minimum-of-1-days-work-at-a-time": [
-        "rules-to-better-account-management"
-    ],
-    "do-you-make-sure-your-developers-get-to-see-each-other-regularly": [
-        "rules-to-better-account-management"
-    ],
-    "set-maximum-periods-for-a-developer-to-work-at-a-particular-client": [
-        "rules-to-better-account-management"
-    ],
-    "framing-avoid-negative-terms": [
-        "rules-to-better-account-management"
-    ],
-    "meeting-bookings": [
-        "rules-to-better-account-management"
-    ],
-    "reward-your-developers": [
-        "rules-to-better-account-management"
-    ],
-    "have-a-cover-page": [
-        "rules-to-better-proposals"
-    ],
-    "have-a-strong-header-and-footer": [
-        "rules-to-better-proposals"
-    ],
-    "have-a-table-summarizing-the-major-features-and-options": [
-        "rules-to-better-proposals"
-    ],
-    "have-a-word-template": [
-        "rules-to-better-proposals"
-    ],
-    "include-commercial-in-confidence-in-your-proposal": [
-        "rules-to-better-proposals"
-    ],
-    "perform-a-thorough-check-on-documents-before-they-go-to-the-client": [
-        "rules-to-better-proposals"
-    ],
-    "talk-about-the-client-first-and-about-your-company-in-the-end": [
-        "rules-to-better-proposals"
+    "editor-required-blazor-component-parameters": [
+        "rules-to-better-blazor"
     ]
 }

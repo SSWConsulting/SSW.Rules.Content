@@ -1,8 +1,8 @@
 {
     "categories": {
-        "rules-to-better-ai-development": "Rules to Better AI Development",
-        "rules-to-better-chatgpt-prompt-engineering": "Rules to Better ChatGPT Prompt Engineering",
-        "rules-to-better-account-management": "Rules to Better Account Management",
-        "rules-to-better-proposals": "Rules to Better Proposals"
+        "rules-to-better-azure-marketplace": "Rules to Better Azure Marketplace",
+        "rules-to-better-jira": "Rules to Better Jira",
+        "rules-to-better-azure": "Rules to Better Azure",
+        "rules-to-better-blazor": "Rules to Better Blazor"
     }
 }
