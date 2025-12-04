@@ -23,10 +23,14 @@ Let's talk about what leads to creating AI slop:
 
 <!--endintro-->
 
-youtube: <https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z>
+`youtube: https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z`
 **Video: How AI is making you dumber (3 min)**
 
-Automation bias is a type of cognitive bias. A thinking shortcut, where we overly rely on machine-generated decisions and forego critical thinking. It’s a brain problem, not a model problem.
+Automation bias is a type of cognitive bias.
+
+Too many people use AI and give it as an answer, without taking 100% ownership of the content. If there's something you can't explain, then you're giving a person **AI slop**.
+
+
 
 ## Errors from automation bias
 
@@ -35,33 +39,12 @@ There are two types of errors made due to automation bias:
 * **Error of commission** - Doing the wrong thing because the system suggested it (e.g. accepting a flawed suggestion, getting ChatGPT to write your essay, etc.)
 * **Error of omission** - Failing to act because the system didn't flag a problem (e.g. shipping flawed code, because Copilot review approved it)
 
-## Where automation bias shows up
+## Where AI slop (aka automation bias) shows up
 
 * **Coding assistants (e.g. Copilot)** - They make you faster, not better. The more complex some generated code is, the more likely you'll be to click "Accept"
 * **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most relevant content, rather than the most correct content
-* **GPS Navigation** - Countless cases of people driving their car into water 'because the app told them to' (it's happened dozens of times!)
 
-## Why do we fall for it?
 
-### Task complexity + time pressure
-
-Under stress, cognition narrows and we rely more heavily on mental shortcuts.
-
-AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
-
-This creates a vicious cycle: Increased time pressure → more likely to accept AI outputs without scrutiny.
-
-### Social aspects & accountability
-
-If there are two people within a company who don't know each other well, and review each other's code, they are less likely to care about what each other thinks, and they'll put less effort into a review.
-
-### Personality traits
-
-More extroverted people want to move quickly → they accept AI outputs more readily.
-
-People high in neuroticism may doubt their own outputs → they doubt AI's outputs too.
-
-This isn't prescriptive, just a pattern to be aware of.
 
 ## What doesn't fix it (but seems like it should)
 
@@ -69,9 +52,11 @@ This isn't prescriptive, just a pattern to be aware of.
 * **Higher model accuracy** - Using a highly accurate model breeds complacency
 * **Training people that "software is often wrong"** - Makes people think they know more about the software than they do → false confidence
 
+
+
 ## What actually helps
 
-### Don't submit AI content that you don't fully understand
+### 1. Don't submit AI content that you don't fully understand
 
 If AI helps you create work, that's great.
 
@@ -81,7 +66,7 @@ It then becomes very obvious that this work is not your own - worse, it might ev
 
 Remember to always **own your work**.
 
-### Show error rates clearly (for devs)
+### 2. Show error rates clearly (for devs)
 
 When creating tools that are prone to mistakes, include exact error rates:
 
@@ -99,7 +84,13 @@ Studies have found that 25% of AI-generated code has security vulnerabilities. E
 Good example - More specific warning, people are more likely to take it seriously
 :::
 
-### Four Eyes Principle (with real relationships)
+::: good
+![Figure: Our AI products always show precise error rates](dr-docenstein-message.png)
+:::
+
+### 3. Four Eyes Principle (with real relationships)
+
+This is very similar to the ['Checked By' rule](/checked-by-xxx)
 
 ::: greybox
 Random Person: _"Hey, can you review this code I wrote with Copilot?"_
@@ -119,36 +110,72 @@ Bob: _"Sure, I want to make sure I don't let Alice down, so I'll take a closer l
 Good example - Pair reviews with people who know each other well, so they feel accountable
 :::
 
-### Information, not recommendation
+### 4. Prompting - Information, not recommendation
 
 Ask AI to present information and sources before it asserts conclusions. Avoid instructive "do this" prompts.
 
+Assume you want top marks for your university assignment.
+
 ::: greybox
-_"Write a summary of diabetes treatments"_
+_"Write me an essay about diabetes treatments"_
 :::
 ::: bad
 Bad example - AI provides a summary, with not much context. People may take it at face value
 :::
 
 ::: greybox
-_"I am writing a university essay on treatments for diabetes. The essay question is {xyz}, I have these sources {abc}, my thoughts are {123}, and I want to make sure I cover {these points}. Can you help me draft an outline?"_
+_"I am writing a university essay on treatments for diabetes. _
+
+_The essay question is {{ XXX }}, 
+
+_I have these sources {{ XXX }}, 
+
+_My thoughts are {{ XXX }}, 
+
+_and I want to make sure I cover {{ THESE POINTS }}. 
+
+_Can you help me draft an outline?"_
 :::
 ::: good
 Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work.
 :::
 
-#### Four directing questions (readiness gate before prompting)
+### 5. Prompting - Are you sure you are ready to prompt?
 
 Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
 * **Who is this for?**  
 * **What problem are we solving right now?**  
-* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
 * **What information/context do you already have, and what’s missing?**  
+* **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
+
+
+
+## Why do we fall for it?
+
+### 1. Stress - task complexity & time pressure
+
+Under stress, cognition narrows and we rely more heavily on mental shortcuts.
+
+AI tools initially promise to "do less work," but this productivity gain often shifts expectations, leading to "do more work in the same time".
+
+This creates a vicious cycle: Increased time pressure → more likely to accept AI outputs without scrutiny.
+
+### 2. Lack of accountability
+
+If there are two people within a company who don't know each other well, and review each other's code, they are less likely to care about what each other thinks, and they'll put less effort into a review.
+
+### 3. Personality traits
+
+More extroverted people want to move quickly → they accept AI outputs more readily.
+
+People high in neuroticism may doubt their own outputs → they doubt AI's outputs too.
+
+This isn't prescriptive, just a pattern to be aware of.
 
 ---
 
-## Why this matters now
+## Summary - Why this matters now
 
 Big Tech is heavily pushing **agents**. We love agents, however, without proper guardrails, we'll let text generators quietly make business decisions.
 
