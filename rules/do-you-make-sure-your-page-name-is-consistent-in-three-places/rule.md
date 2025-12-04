@@ -1,0 +1,27 @@
+---
+seoDescription: Ensure consistent page names across URLs, page titles, and navigation menus to optimize user experience and search engine rankings.
+type: rule
+archivedreason:
+title: Do you make sure page names are consistently reffered to?
+guid: edf68c17-b563-4376-be9b-8b859d43d23e
+uri: do-you-make-sure-your-page-name-is-consistent-in-three-places
+created: 2015-02-16T01:53:43.0000000Z
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects: []
+---
+
+It's a good idea to make sure your page names are consistent between:
+
+1. URL
+2. Title
+3. Navigation item
+4. Potential banners and ads
+
+<!--endintro-->
+
+::: good  
+![Figure: Good example - URL, Header, and Banner Title have the same text](GoodPageName.jpg)  
+:::
