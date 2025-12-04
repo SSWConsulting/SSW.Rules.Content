@@ -36,7 +36,7 @@ There are two types of errors made due to automation bias:
 
 * **Error of commission** - Doing the wrong thing because the system suggested it  
   E.g. Accepting a flawed suggestion, getting ChatGPT to write your essay, etc.
-* **Error of omission** - Failing to act because the system didn't flag a problem   
+* **Error of omission** - Failing to act because the system didn't flag a problem
   E.g. shipping flawed code, because Copilot review approved it)
 
 ## Where AI slop (aka automation bias) shows up
@@ -140,15 +140,15 @@ Bad example - AI provides a summary, with not much context. People may take it a
 :::
 
 ::: greybox
-_"I am writing a university essay on treatments for diabetes. _
+_"I am writing a university essay on treatments for diabetes._
 
-_The essay question is {{ XXX }}, 
+_The essay question is {{ XXX }},
 
-_I have these sources {{ XXX }}, 
+_I have these sources {{ XXX }},
 
-_My thoughts are {{ XXX }}, 
+_My thoughts are {{ XXX }},
 
-_and I want to make sure I cover {{ THESE POINTS }}. 
+_and I want to make sure I cover {{ THESE POINTS }}.
 
 _Can you help me draft an outline?"_
 :::
