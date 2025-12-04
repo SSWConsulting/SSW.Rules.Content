@@ -30,8 +30,6 @@ Automation bias is a type of cognitive bias.
 
 Too many people use AI and give it as an answer, without taking 100% ownership of the content. If there's something you can't explain, then you're giving a person **AI slop**.
 
-
-
 ## Errors from automation bias
 
 There are two types of errors made due to automation bias:
@@ -44,15 +42,11 @@ There are two types of errors made due to automation bias:
 * **Coding assistants (e.g. Copilot)** - They make you faster, not better. The more complex some generated code is, the more likely you'll be to click "Accept"
 * **Google Search (especially 'AI Overview')** - These search engines are incentivised to return the most relevant content, rather than the most correct content
 
-
-
 ## What doesn't fix it (but seems like it should)
 
 * **Human-in-the-loop** - This only covers legal accountability. Just because a human is in the loop, doesn't mean they're immune to automation bias
 * **Higher model accuracy** - Using a highly accurate model breeds complacency
 * **Training people that "software is often wrong"** - Makes people think they know more about the software than they do → false confidence
-
-
 
 ## What actually helps
 
@@ -124,15 +118,15 @@ Bad example - AI provides a summary, with not much context. People may take it a
 :::
 
 ::: greybox
-_"I am writing a university essay on treatments for diabetes. _
+_"I am writing a university essay on treatments for diabetes._
 
-_The essay question is {{ XXX }}, 
+_The essay question is {{ XXX }},
 
-_I have these sources {{ XXX }}, 
+_I have these sources {{ XXX }},
 
-_My thoughts are {{ XXX }}, 
+_My thoughts are {{ XXX }},
 
-_and I want to make sure I cover {{ THESE POINTS }}. 
+_and I want to make sure I cover {{ THESE POINTS }}.
 
 _Can you help me draft an outline?"_
 :::
@@ -148,8 +142,6 @@ Use these to decide if you know enough to prompt. If any answer is vague, pause 
 * **What problem are we solving right now?**  
 * **What information/context do you already have, and what’s missing?**  
 * **What does success look like ([acceptance criteria](/acceptance-criteria/))?**  
-
-
 
 ## Why do we fall for it?
 
