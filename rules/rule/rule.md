@@ -562,7 +562,6 @@ Figure: Good example - Nice email template
 
 ---
 
-
 ### 13. Thematic breaks (horizontal rules)
 
 A thematic break is used to separate sections of content or indicate a shift in topic. In Markdown, it renders as a horizontal line.
