@@ -218,7 +218,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   figurePrefix="{preset_kind}Example"
-  caption={{{figure_js}}}
+  figure={{{figure_js}}}
   src="{src}"
 />'''
 
@@ -294,7 +294,7 @@ def process_custom_aside_blocks(content):
     {body}
   </>}}
   figurePrefix="{preset}"
-  caption={{{figure_js}}}
+  figure={{{figure_js}}}
 />'''
             output.append(embed)
             in_box = False
