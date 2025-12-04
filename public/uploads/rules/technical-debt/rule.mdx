@@ -1,39 +1,50 @@
 ---
-type: rule
-title: Do you know the importance of paying back Technical Debt?
-seoDescription: Repaying technical debt (tech debt) is crucial to maintain software velocity
-  and avoid feature stagnation.
-uri: technical-debt
-authors:
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-  - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jernej-kavka
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-related:
-  - refactor-your-code-and-keep-methods-short
-  - well-architected-framework
-  - just-enough-refactoring
-  - do-you-show-current-versions-app-and-database
-  - todo-tasks
-redirects:
-  - do-you-know-the-importance-of-paying-back-technical-debt
-created: 2020-12-16T23:19:05.000Z
 archivedreason: null
+authors:
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  title: Jernej Kavka (JK)
+  url: https://ssw.com.au/people/jernej-kavka
+categories:
+- category: categories/project-delivery/rules-to-better-product-owners.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2020-12-16 23:19:08+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
+isArchived: false
+lastUpdated: 2025-05-15 03:38:14+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-know-the-importance-of-paying-back-technical-debt
+related:
+- rule: public/uploads/rules/refactor-your-code-and-keep-methods-short/rule.mdx
+- rule: public/uploads/rules/well-architected-framework/rule.mdx
+- rule: public/uploads/rules/just-enough-refactoring/rule.mdx
+- rule: public/uploads/rules/do-you-show-current-versions-app-and-database/rule.mdx
+- rule: public/uploads/rules/todo-tasks/rule.mdx
+seoDescription: Repaying technical debt (tech debt) is crucial to maintain software
+  velocity and avoid feature stagnation.
+title: Do you know the importance of paying back Technical Debt?
+type: rule
+uri: technical-debt
 ---
 
 ### What is Technical Debt?
 
 Technical Debt (or tech debt) is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/ASVD4YIOgpU`
+
+<youtubeEmbed url="https://www.youtube.com/embed/ASVD4YIOgpU" description={""} />
+
 
 Technical Debt can occur for all kinds of reasons, for example:
 
@@ -42,22 +53,35 @@ Technical Debt can occur for all kinds of reasons, for example:
 
 Systems need to have features added to them to continually remain useful (or competitive). As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it **will** accumulate Technical Debt.
 
-::: greybox
-**IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
 
 It also helps to add a TODO comment in the relevant code with a link to the PBI. This will help other developers understand that it is a known issue.
 See [Do you document "TODO" tasks?](/todo-tasks)
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
 * $100 - Full feature
 * $20 - Feature with shortcuts (no tests, dirty code, whatever it takes)
-* $80 - IOU via PBI in the backlog e.g. {{ FeatureName }} – Technical Debt - Planned
+* $80 - IOU via PBI in the backlog e.g. &#123;&#123; FeatureName &#125;&#125; – Technical Debt - Planned
 
-::: good
-![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind_1710232021944.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Technical Debt is very visible to the Product Owner"}
+  src="/uploads/rules/technical-debt/waf-tech-debt-backlog-northwind_1710232021944.png"
+/>
+
 
 ### What are the consequences of Technical Debt?
 
@@ -65,7 +89,16 @@ See [Do you document "TODO" tasks?](/todo-tasks)
 * More developer friction
 * More [developer frustration](https://survey.stackoverflow.co/2024/professional-developers#developer-experience-frustration)
 
-![Figure: Professional Developers survey](technical-debt-graph.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Professional Developers survey"}
+  src="/uploads/rules/technical-debt/technical-debt-graph.png"
+/>
+
 
 ### The 3 types of Technical Debt
 
@@ -73,9 +106,16 @@ See [Do you document "TODO" tasks?](/todo-tasks)
 
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
 
-::: greybox
-PBI: **{{ FeatureName }} – Technical Debt - Planned**
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    PBI: **&#123;&#123; FeatureName &#125;&#125; – Technical Debt - Planned**
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
 
@@ -83,9 +123,16 @@ PBI: **{{ FeatureName }} – Technical Debt - Planned**
 
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
-::: greybox
-PBI: **{{ FeatureName }} – Technical Debt - Discovered**
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    PBI: **&#123;&#123; FeatureName &#125;&#125; – Technical Debt - Discovered**
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
 
@@ -93,15 +140,24 @@ PBI: **{{ FeatureName }} – Technical Debt - Discovered**
 
 Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt cannot only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may have been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
 
-::: greybox
-PBI: **{{ FeatureName }} - Technical Debt - Unavoidable**
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    PBI: **&#123;&#123; FeatureName &#125;&#125; - Technical Debt - Unavoidable**
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 **Note:** Martin Fowler would also classify this as "Inadvertent Technical Debt".
 
 ### Get a Verifiably Stable Application
 
-`youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
+
+<youtubeEmbed url="https://www.youtube.com/embed/0FlLE8AdZgk" description={""} />
+
 
 ### How to repay Technical Debt
 
@@ -114,8 +170,34 @@ At the Sprint Planning:
 
 ### Screenshots
 
-![Figure: Screenshot of code with Technical Debt comment and link to GitHub Issue](techdebt-github.png)
 
-![Figure: Screenshot of Technical Debt on backlog](techdebt-backlog.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Screenshot of code with Technical Debt comment and link to GitHub Issue"}
+  src="/uploads/rules/technical-debt/techdebt-github.png"
+/>
 
-![Figure: SugarLearning architecture diagram](techdebt-architecture.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Screenshot of Technical Debt on backlog"}
+  src="/uploads/rules/technical-debt/techdebt-backlog.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"SugarLearning architecture diagram"}
+  src="/uploads/rules/technical-debt/techdebt-architecture.png"
+/>

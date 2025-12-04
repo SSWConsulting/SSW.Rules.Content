@@ -1,29 +1,49 @@
 ---
-seoDescription: Practicing small, modular and reusable components enhances code maintainability, testability and reusability.
-type: rule
-title: Practices - Do you write small components?
-uri: write-small-components
-authors:
-  - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
-related: []
-redirects:
-  - practices-do-you-write-small-components
-created: 2016-04-22T22:43:46.000Z
 archivedreason: null
+authors:
+- title: Steve Leigh
+  url: https://ssw.com.au/people/steve-leigh
+categories:
+- category: categories/software-engineering/rules-to-better-angular.mdx
+- category: categories/software-engineering/rules-to-better-react.mdx
+created: 2016-04-22 22:43:46+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 1c5fbef9-bfa1-4986-bc81-a1028bebfec3
+isArchived: false
+lastUpdated: 2024-03-14 00:38:13+00:00
+lastUpdatedBy: Caleb Williams [SSW]
+lastUpdatedByEmail: 65635198+Calinator444@users.noreply.github.com
+redirects:
+- practices-do-you-write-small-components
+seoDescription: Practicing small, modular and reusable components enhances code maintainability,
+  testability and reusability.
+title: Practices - Do you write small components?
+type: rule
+uri: write-small-components
 ---
 
 The Single Responsibility Principle is a well understood, and well-accepted tenet of good code design. It states that a class should do one thing, and do it well - The same applies to Components used with Frameworks such as Angular, React, Vue and Blazor.
 
 When designing components, keep them small, modular and reusable. For example, if you have a menu, put it into a menu component, don’t put it in your app component.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
-![Figure: Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test](comp-1.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test"}
+  src="/uploads/rules/write-small-components/comp-1.png"
+/>
 
-::: good
-![Figure: Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages](comp-2.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages"}
+  src="/uploads/rules/write-small-components/comp-2.png"
+/>

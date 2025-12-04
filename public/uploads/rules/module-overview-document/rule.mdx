@@ -1,21 +1,30 @@
 ---
-seoDescription: Ensure every modular monolith has a clear, up-to-date module overview document to help teams understand, maintain, and extend the system.
-type: rule
-title: Do you have a module overview document for your Modular Monolith?
-uri: module-overview-document
 authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-created: 2025-05-30T00:00:00.000Z
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+categories:
+- category: categories/software-engineering/rules-to-better-modular-monoliths.mdx
+created: 2025-06-02 16:28:55+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: b9ad75d5-0cc7-48fb-9a18-2e0d35c74e78
+isArchived: false
+lastUpdated: 2025-06-02 16:28:55+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 related:
-  - modular-monoliths
-  - modular-monolith-testing
+- rule: public/uploads/rules/modular-monolith-architecture/rule.mdx
+- rule: public/uploads/rules/modular-monolith-testing/rule.mdx
+seoDescription: Ensure every modular monolith has a clear, up-to-date module overview
+  document to help teams understand, maintain, and extend the system.
+title: Do you have a module overview document for your Modular Monolith?
+type: rule
+uri: module-overview-document
 ---
 
 A common pain in large modular monoliths (MoMo's) is new devs trying to work out what each module does, leading to confusion, slow onboarding and sometimes even accidentally duplicated code. Without an understanding of the module structure, teams waste time discovering module responsibilities.
 
-<!--endintro-->
+<endIntro />
 
 > "A well-maintained module overview is the map that keeps your monolith navigable as it grows."
 
@@ -42,10 +51,13 @@ Some modular monolith solutions have two types of modules:
 
 ### Example - Northwind 365 Module Overview
 
-::: greybox
 
-**Northwind 365** is a Modular Monolith Application.  
-Each Module is either a **Service** or **Web Module**.  
+<boxEmbed
+  style="greybox"
+  body={<>
+    
+**Northwind 365** is a Modular Monolith Application.
+Each Module is either a **Service** or **Web Module**.
 Read more about [Modules](https://github.com/northwind365/Northwind365/blob/main/docs/modular-architecture/modular-architecture.md)
 
 #### Modules
@@ -70,8 +82,18 @@ Read more about [Modules](https://github.com/northwind365/Northwind365/blob/main
 | LiveUpdates | **Web API** |
 | BusinessProcesses | **Web API** |
 
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
-::: info
-**Tip:** Keep the overview up to date as your application evolves. Assign responsibility for maintaining it.
-:::
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Keep the overview up to date as your application evolves. Assign responsibility for maintaining it.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

@@ -1,31 +1,37 @@
 ---
-seoDescription: Tech debt can arise from clever code that prioritizes showing off programming skills over simplicity and readability.
-type: rule
-title: Tech Debt - Do you avoid 'clever' code?
-uri: avoid-clever-code
-authors:
-  - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
-related:
-  - technical-debt
-created: 2022-05-13T10:19:05.000Z
 archivedreason: null
+authors:
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2022-05-17 07:01:11+00:00
+createdBy: Luke Parker [SSW]
+createdByEmail: 10430890+Hona@users.noreply.github.com
 guid: ec1a95c9-e313-4dcb-99e9-a7a02d93567e
+isArchived: false
+lastUpdated: 2024-06-11 00:27:00+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/technical-debt/rule.mdx
+seoDescription: Tech debt can arise from clever code that prioritizes showing off
+  programming skills over simplicity and readability.
+title: Tech Debt - Do you avoid 'clever' code?
+type: rule
+uri: avoid-clever-code
 ---
 
 ### What is Clever Code?
 
 Clever Code comes in several forms. The desired form is solving a complex problem, in a simple way. The Clever Code that causes tech debt, is when code is written in a way to use the language features to look 'smart', while making it difficult for developers to read.
 
-<!--endintro-->
+<endIntro />
 
 ```cs
 var totalMoved = sortedChannels.Where((channel, i) => channel.Position != i).Count();
 ```
-
-::: bad
-Bad example - Smart code, that could be even simpler! (Although, not bad by any means)
-:::
+**❌ Bad example - Smart code, that could be even simpler! (Although, not bad by any means)**  
 
 ```cs
 var totalMoved = 0;
@@ -40,10 +46,7 @@ for (var i = 0; i < sortedChannels.Count; i++)
     }
 }
 ```
-
-::: good
-Good example - Simple code, while it has more lines, it is easier to read!
-:::
+**✅ Good example - Simple code, while it has more lines, it is easier to read!**  
 
 ### When is Simple Code Bad?
 

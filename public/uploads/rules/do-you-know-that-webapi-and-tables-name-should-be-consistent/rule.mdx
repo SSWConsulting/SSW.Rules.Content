@@ -1,43 +1,57 @@
 ---
-seoDescription: WebAPIs and table names should be consistent to simplify development and maintenance of your API layer.
-type: rule
-archivedreason:
-title: Do you know that WebAPI and table names should be consistent?
-guid: d7511f71-d615-4f30-ab45-4f0b77ddb0b2
-uri: do-you-know-that-webapi-and-tables-name-should-be-consistent
-created: 2015-04-28T13:30:47.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+- category: categories/software-engineering/rules-to-better-web-api-rest.mdx
+created: 2015-04-28 14:21:41+00:00
+createdBy: danielsmon
+createdByEmail: danielsmon@ssw.com.au
+guid: d7511f71-d615-4f30-ab45-4f0b77ddb0b2
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-know-that-webapi-and-table-names-should-be-consistent
+- do-you-know-that-webapi-and-table-names-should-be-consistent
+seoDescription: WebAPIs and table names should be consistent to simplify development
+  and maintenance of your API layer.
+title: Do you know that WebAPI and table names should be consistent?
+type: rule
+uri: do-you-know-that-webapi-and-tables-name-should-be-consistent
 ---
 
 When creating WebAPIs for your applications, it is useful to keep the naming consistent all the way from the back-end to the front-end.
 
-<!--endintro-->
+<endIntro />
 
-::: greybox
-**Table name:** Employees
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Table name:** Employees
 **Endpoint:** /api/Users
 
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**❌ Bad Example: The endpoint is different to the table name**  
 
-::: bad
-Bad Example: The endpoint is different to the table name
 
-:::
-
-::: greybox
-**Table name:** Employees
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Table name:** Employees
 **Endpoint:** /api/Employees
 
-:::
-
-::: good
-Good Example: Table name is the same as the WebAPI endpoint  
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**✅ Good Example: Table name is the same as the WebAPI endpoint**  
 
 By making the endpoint name the same as the table name, you can simplify development and maintenance of the WebAPI layer.
 

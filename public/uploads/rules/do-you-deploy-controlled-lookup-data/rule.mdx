@@ -1,28 +1,36 @@
 ---
-seoDescription: Controlled Lookup Data deployment and testing ensure application functionality without relying on records being present in lookup tables.
-type: rule
-title: Do you deploy "Controlled Lookup Data" ?
-uri: do-you-deploy-controlled-lookup-data
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Jack Pettit
-    url: https://www.ssw.com.au/people/jack-pettit
-related: []
-redirects:
-  - do-you-deploy-＂controlled-lookup-data＂
-created: 2009-10-05T06:26:18.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Jack Pettit
+  url: https://www.ssw.com.au/people/jack-pettit
+categories:
+- category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
+created: 2009-10-09 06:06:24+00:00
+createdBy: JayLin
+createdByEmail: JayLin@sydney.ssw.com.au
 guid: d91e5bb1-e48d-4987-a1b2-c6c360c7b57a
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-deploy-＂controlled-lookup-data＂
+seoDescription: Controlled Lookup Data deployment and testing ensure application functionality
+  without relying on records being present in lookup tables.
+title: Do you deploy "Controlled Lookup Data" ?
+type: rule
+uri: do-you-deploy-controlled-lookup-data
 ---
 
 Lookup data is data that you usually see in combo boxes. It may be a Customer Category, a Product Color or the Order Status. Usually this is defined by the user and the programmer does not care what or how many records they have. When the programmer relies on records being in the lookup table, it is called 'Controlled Lookup Data'.
 
 So whenever you have special data, which is referenced in code you need to tread carefully by:
 
-<!--endintro-->
+<endIntro />
 
 1. First understanding that although most of the time there is a clear separation between data and schema, there is an exception for Controlled Lookup Data. This is when data (aka Controlled Lookup Data) is tightly coupled to the application, meaning that you have an application that cannot function correctly without that data.
 2. You need to deploy that 'Controlled Lookup Data'
@@ -30,9 +38,27 @@ So whenever you have special data, which is referenced in code you need to tread
 
 Let's look at an example:
 
-![Figure: This combo looks innocent. However if it is "Billable" then the calendar goes yellow](TimeProDropDown.png)
 
-![Figure: Billable days are shown in yellow](TimeProCalendar.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"This combo looks innocent. However if it is \"Billable\" then the calendar goes yellow"}
+  src="/uploads/rules/do-you-deploy-controlled-lookup-data/TimeProDropDown.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Billable days are shown in yellow"}
+  src="/uploads/rules/do-you-deploy-controlled-lookup-data/TimeProCalendar.png"
+/>
+
 
 ```cs
 if (drDay.NotBillableCount == 0 &&
@@ -130,8 +156,14 @@ GO
 
 **Figure: This data must be deployed, just like we deploy a schema**
 
-::: greybox
-**Note**: Now you need to add a test for your controlled data.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note**: Now you need to add a test for your controlled data.
 
 Check out [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?](/do-you-check-your-controlled-lookup-data)
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

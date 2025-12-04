@@ -1,23 +1,31 @@
 ---
-seoDescription: Simplify Outlook Web App (OWA) access by configuring automatic redirects from HTTP to HTTPS for mail.domain.com.
-type: rule
-archivedreason:
-title: Do you add a redirect from http to https for OWA?
-guid: df2d7b63-316f-4989-912e-09543657f80c
-uri: add-redirect-from-http-to-https-for-owa
-created: 2016-05-02T06:48:16.0000000Z
+archivedreason: null
 authors:
-  - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
-related: []
+- title: Stanley Sidik
+  url: https://ssw.com.au/people/stanley-sidik
+categories:
+- category: categories/software-engineering/rules-to-better-exchange-server.mdx
+created: 2024-04-29 05:20:30+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: df2d7b63-316f-4989-912e-09543657f80c
+isArchived: false
+lastUpdated: 2024-06-11 00:27:00+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-add-a-redirect-from-http-to-https-for-owa
-  - configure-redirection-to-https-owa
+- do-you-add-a-redirect-from-http-to-https-for-owa
+- configure-redirection-to-https-owa
+seoDescription: Simplify Outlook Web App (OWA) access by configuring automatic redirects
+  from HTTP to HTTPS for mail.domain.com.
+title: Do you add a redirect from http to https for OWA?
+type: rule
+uri: add-redirect-from-http-to-https-for-owa
 ---
 
 To simplify Outlook Web App (OWA) access for your users, you want to configure the Outlook Web App page to automatically redirect users to https. The HTTP redirect procedure in IIS Manager simplifies OWA URL and forces to SSL connection from **mail&#46;domain&#46;com** to **mail&#46;domain&#46;com/owa** .
 
-<!--endintro-->
+<endIntro />
 
 ### Step 1: Use IIS Manager to simplify OWA URL and force redirection to SSL
 
@@ -30,12 +38,12 @@ To simplify Outlook Web App (OWA) access for your users, you want to configure t
 7. Under **Redirect Behavior** , select the **Only redirect requests to content in this directory (not subdirectories)** check box
 8. In the **Status code** list, click **Found (302)**
 9. In the Actions pane, click **Apply**
-   ![](OWARedirect.jpg)
+   ![](/uploads/rules/add-redirect-from-http-to-https-for-owa/OWARedirect.jpg)
 
 10. Click **Default website**
 11. In the Default website Home pane, double-click **SSL Settings**
 12. In **SSL Settings**, clear **Require SSL**
-    ![](OWARedirect2.jpg)
+    ![](/uploads/rules/add-redirect-from-http-to-https-for-owa/OWARedirect2.jpg)
 
 ### Step 2: Remove redirection from virtual directories
 
@@ -71,10 +79,21 @@ iisreset/noforce.
 1. Open Internet Explorer and type in **mail&#46;domain&#46;com**
 2. Done - You are then redirected to **mail&#46;domain&#46;com/owa**
 
-::: bad  
-![Figure: Bad example - No redirect in place for OWA](iisnoredirect.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - No redirect in place for OWA"}
+  src="/uploads/rules/add-redirect-from-http-to-https-for-owa/iisnoredirect.jpg"
+/>
 
-::: good  
-![Figure: Good example - Redirect from HTTP to https for OWA](iisredirect.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Redirect from HTTP to https for OWA"}
+  src="/uploads/rules/add-redirect-from-http-to-https-for-owa/iisredirect.jpg"
+/>

@@ -1,16 +1,25 @@
 ---
-seoDescription: Configure your web applications to use application-specific accounts for database access to limit potential damage in case of a compromise.
-type: rule
-archivedreason:
-title: Security - Do you configure your web applications to use specific accounts for database access?
-guid: 7a886ddf-5a56-48cb-89bd-3b47fd90e329
-uri: do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
-created: 2015-02-18T23:55:56.0000000Z
+archivedreason: null
 authors:
-  - title: Michael Demarco
-    url: https://ssw.com.au/people/michael-demarco
-related: []
+- title: Michael Demarco
+  url: https://ssw.com.au/people/michael-demarco
+categories:
+- category: categories/software-engineering/rules-to-better-azure.mdx
+created: 2015-02-19 00:28:20+00:00
+createdBy: michaelDemarco
+createdByEmail: michaelDemarco@ssw.com.au
+guid: 7a886ddf-5a56-48cb-89bd-3b47fd90e329
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Configure your web applications to use application-specific accounts
+  for database access to limit potential damage in case of a compromise.
+title: Security - Do you configure your web applications to use specific accounts
+  for database access?
+type: rule
+uri: do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
 ---
 
 Do you configure your web applications to use application specific accounts for database access?
@@ -19,15 +28,27 @@ An application's database access profile should be as restricted as possible, so
 
 Application database access should be also be restricted to only the application's database, and none of the other databases on the server
 
-<!--endintro-->
+<endIntro />
 
-::: bad
-![Figure: Bad example – Contract Manager Web Application using the administrator login in its connection string](administratorlogininitsconnectionstring.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example – Contract Manager Web Application using the administrator login in its connection string"}
+  src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/administratorlogininitsconnectionstring.png"
+/>
 
-::: good
-![Figure: Good example – Application specific database user configured in the connection string](databaseuserconfiguredintheconnectionstring.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example – Application specific database user configured in the connection string"}
+  src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/databaseuserconfiguredintheconnectionstring.png"
+/>
+
 
 Most web applications need full read and write access to one database. In the case of EF Code first migrations, they might also need DDL admin rights. These roles are built in database roles:
 
@@ -69,7 +90,12 @@ EXEC sp_addrolemember 'db_ddladmin', myappstaging;
 GRANT EXECUTE TO myappstaging
 ```
 
-::: greybox
-Data Source=tcp:xyzsqlserver.database.windows.net,1433; Initial Catalog=myapp-staging-db; User ID=myappstaging@xyzsqlserver; Password='\*\*\*\*\*\*\*\*\*\*\*\*\*'  
-:::
-**Figure: Example connection string**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Data Source=tcp:xyzsqlserver.database.windows.net,1433; Initial Catalog=myapp-staging-db; User ID=myappstaging@xyzsqlserver; Password='\*\*\*\*\*\*\*\*\*\*\*\*\*'
+  </>}
+  figurePrefix="none"
+  figure={"Example connection string"}
+/>

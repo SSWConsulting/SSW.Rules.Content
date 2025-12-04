@@ -2,6 +2,8 @@
 type: rule
 tips: ""
 title: Do you do cold emailing right?
+categories:
+  - category: categories/client-engagement/rules-to-better-sales.mdx
 seoDescription: Cold emails don’t exist to book meetings, they exist to start
   conversations. Use this practical guide to personalize, keep it short, and
   run   a 3-email sequence that consistently earns replies.
@@ -9,16 +11,22 @@ uri: do-you-do-cold-emailing-right
 authors:
   - title: Louis Roa
     url: https://ssw.com.au/people/louis-roa
-created: 2025-09-29T15:20:00.000Z
+created: 2025-10-17T13:47:55.000Z
 guid: b8dfcdda-64a9-445b-a98d-cfae421b1a3e
+lastUpdated: 2025-10-17T13:47:55.000Z
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+createdBy: Gilles Pothieu [SSW]
+createdByEmail: gillespothieu@ssw.fr
+isArchived: false
 ---
 You write a “perfect” cold email, hit send… and get silence. So you push harder: longer copy, bigger claims, a calendar link. Still nothing.
 
 The problem isn’t that email “doesn’t work”, it’s that you aimed at the wrong target. The goal of a cold email is **not** to pitch, demo, or close. The goal is a **reply** that starts a buying conversation.
 
-Your subject lines, body, and CTAs should all be focussed on just getting a response.  
+Your subject lines, body, and CTAs should all be focussed on just getting a response.
 
-<!--endintro-->
+<endIntro />
 
 ## The mindset: replies over meetings
 
@@ -40,7 +48,16 @@ Not every prospect deserves the same effort. Tier your list and match your perso
 | **2** | Good-fit lead                   | Semi-automated   | Industry pain, recent triggers (funding, hiring, tech, location) |
 | **3** | Everyone else                   | Mostly automated | First name, company, role-based pains                            |
 
-![Figure: Prioritize effort. More 1:1 at the top, more segmentation at the bottom.](lead-pyramid.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Prioritize effort. More 1:1 at the top, more segmentation at the bottom."}
+  src="/uploads/rules/do-you-do-cold-emailing-right/lead-pyramid.png"
+/>
+
 
 Source: [Apollo.io](https://www.apollo.io/academy/guides/pipeline-generation/cold-emailing)
 
@@ -56,8 +73,11 @@ Source: [Apollo.io](https://www.apollo.io/academy/guides/pipeline-generation/col
 
 5. **Length:** Keep emails concise, ideally **between 50 and 125 words**, as this range sees the highest response rates. T1 (first email) can be longer if it’s truly personal.   Allocate your effort accordingly: spend the most time on hyper-personalized emails for your most valuable prospects and use smart automation with some personalization for lower-tier leads.
 
-::: greybox
-**SUBJECT:** Exploring Synergies with Coupons2Go
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **SUBJECT:** Exploring Synergies with Coupons2Go
 
 Hi [Contact Name],
 
@@ -71,13 +91,17 @@ We are reaching out to key players in the travel center space to introduce our c
 
 Best regards,
 Josh
-:::
-::: bad
-Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored
-:::
+  </>}
+  figurePrefix="bad"
+  figure={"Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored"}
+/>
 
-::: greybox
-**SUBJECT:** question about your loyalty program
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **SUBJECT:** question about your loyalty program
 
 Hi Jim,
 
@@ -92,42 +116,51 @@ We recently helped a similar multi-location brand, \[Lesser Competitor Name], bo
 Cheers,
 
 Josh
-:::
-::: good
-Good Example - Short, segmented template: pain → proof → small ask
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Good Example - Short, segmented template: pain → proof → small ask"}
+/>
+
 
 ## More examples
 
 ### Tier 1 (hyper-personalized 1:1)
 
-::: greybox
-Subject: Le Dip cheeseburger + {{Your Company}}
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Subject: Le Dip cheeseburger + &#123;&#123;Your Company&#125;&#125;
 
 Hi Sam,
 Your post on LinkedIn about the new Le Dip burger made me smile.
 I noticed you’re hiring 3 CSMs while launching in EU. Teams I help cut onboarding time ~30% by unifying playbooks and usage data.
 
 Worth a quick reply if “faster ramp before Q4” is on your list? If not, I’ll leave you in peace.
-:::
-::: good
-Figure: Personal detail + timely company priority + soft, single-question CTA
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Personal detail + timely company priority + soft, single-question CTA"}
+/>
+
 
 ### Tier 2/3 (short, segmented)
 
-::: greybox
-Subject: For {{Company}}’s printing leads
 
-Hi {{FirstName}},
+<boxEmbed
+  style="greybox"
+  body={<>
+    Subject: For &#123;&#123;Company&#125;&#125;’s printing leads
+
+Hi &#123;&#123;FirstName&#125;&#125;,
 Printing services often lose local search traffic to aggregators.
 We’ve helped peers lift inbound quotes 10–20% by fixing GMB + service pages.
 
 Open to a quick reply if local visibility is a 2025 focus for you?
-:::
-::: good
-Figure: Industry-specific pain + outcome + 1 easy question
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Industry-specific pain + outcome + 1 easy question"}
+/>
+
 
 ## The 3-email sequence that works
 
@@ -139,24 +172,32 @@ Use one of the templates above. End with a single question.
 
 Keep it to one line. No “just checking in.”
 
-::: greybox
-Hi {{FirstName}} — curious if “faster ramp before Q4” is on the list?
-:::
-::: good
-Figure: Short, direct restatement of the original question
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Hi &#123;&#123;FirstName&#125;&#125; — curious if “faster ramp before Q4” is on the list?
+  </>}
+  figurePrefix="good"
+  figure={"Short, direct restatement of the original question"}
+/>
+
 
 ### 3) The breakup (pattern interruption + give an out)
 
 Re-state value → playful P.S. → permission to say “no.”
 
-::: greybox
-If speeding up onboarding isn’t a priority this quarter, happy to close the loop.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    If speeding up onboarding isn’t a priority this quarter, happy to close the loop.
 P.S. If you’re already buried in onboarding fires, just reply with “no” and I’ll vanish faster than free snacks. No hard feelings. 🙂
-:::
-::: good
-Figure: ✅ Pattern interruption in the P.S. earns smiles and replies
-:::
+  </>}
+  figurePrefix="good"
+  figure={"✅ Pattern interruption in the P.S. earns smiles and replies"}
+/>
+
 
 ## Keep it human (AI is co-pilot, not autopilot)
 

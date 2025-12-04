@@ -1,34 +1,58 @@
 ---
-seoDescription: Highlighting incomplete work with red text makes it clear to testers and Product Owners which parts of your application are not yet ready for feedback.
-type: rule
 archivedreason: Covered by [https://www.ssw.com.au/rules/todo-tasks](/rules/todo-tasks)
-title: Do you highlight incomplete work with red text?
-guid: a45d8542-685d-4774-9f28-da9a5022c75f
-uri: do-you-highlight-incomplete-work-with-red-text
-created: 2014-06-11T05:40:53.0000000Z
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2014-06-11 05:43:21+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: a45d8542-685d-4774-9f28-da9a5022c75f
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Highlighting incomplete work with red text makes it clear to testers
+  and Product Owners which parts of your application are not yet ready for feedback.
+title: Do you highlight incomplete work with red text?
+type: rule
+uri: do-you-highlight-incomplete-work-with-red-text
 ---
 
 It is important that users of your application who provide feedback have very clear indications of work that is not yet complete, to avoid feedback on sections of your application that are still under development.
 
-<!--endintro-->
+<endIntro />
 
 Also, see our [rule on colour usage in Windows Forms](https://www.ssw.com.au/ssw/Standards/rules/rulestobetterwindowsforms.aspx#RedYellowDesigner).
 
-::: bad  
-![Figure: Bad example - A tester or a Product Owner who comes to this page may believe that it is broken, or that the developers have 'missed' it. Always be clear about what parts of your application are not yet ready for feedback](4e246f_bad-incomplete-work.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - A tester or a Product Owner who comes to this page may believe that it is broken, or that the developers have 'missed' it. Always be clear about what parts of your application are not yet ready for feedback"}
+  src="/uploads/rules/do-you-highlight-incomplete-work-with-red-text/4e246f_bad-incomplete-work.jpg"
+/>
 
-::: good  
-![Figure: Good example - It is clear to testers and to the Product Owner that this page is incomplete, but they can get more details from the Product Backlog](400e3f_good-incomplete-work.jpg)  
-:::
 
-::: good  
-![Figure: Best example - Use feature toggles to not show incomplete elements to testers or Product Owners](5b99bb_best-incomplete-work.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - It is clear to testers and to the Product Owner that this page is incomplete, but they can get more details from the Product Backlog"}
+  src="/uploads/rules/do-you-highlight-incomplete-work-with-red-text/400e3f_good-incomplete-work.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Best example - Use feature toggles to not show incomplete elements to testers or Product Owners"}
+  src="/uploads/rules/do-you-highlight-incomplete-work-with-red-text/5b99bb_best-incomplete-work.jpg"
+/>
+
 
 [See FeatureToggle by Martin Fowler](https://martinfowler.com/articles/feature-toggles.html). Feature Toggling can require a large amount of extra work and so is often only implemented by teams with a need to ship features while others are still in development

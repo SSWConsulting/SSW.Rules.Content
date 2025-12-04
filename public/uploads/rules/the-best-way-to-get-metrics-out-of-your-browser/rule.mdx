@@ -1,24 +1,32 @@
 ---
-seoDescription: Get metrics out of your browser with Lighthouse, an open-source tool built into Google Chrome that audits for performance, accessibility, and more.
-type: rule
-archivedreason:
-title: Do you know the best way to get metrics out of your browser?
-guid: 13f269d7-48a9-4fbb-9af8-1abf616feb8b
-uri: the-best-way-to-get-metrics-out-of-your-browser
-created: 2019-08-27T17:42:09.0000000Z
+archivedreason: null
 authors:
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+categories:
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2019-08-27 17:42:18+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 13f269d7-48a9-4fbb-9af8-1abf616feb8b
+isArchived: false
+lastUpdated: 2022-05-16 22:37:01+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-know-the-best-way-to-get-metrics-out-of-your-browser
+- do-you-know-the-best-way-to-get-metrics-out-of-your-browser
+seoDescription: Get metrics out of your browser with Lighthouse, an open-source tool
+  built into Google Chrome that audits for performance, accessibility, and more.
+title: Do you know the best way to get metrics out of your browser?
+type: rule
+uri: the-best-way-to-get-metrics-out-of-your-browser
 ---
 
 Lighthouse is an open-source tool built into Google Chrome that can audit for performance, accessibility, progressive web apps, and more. Allowing you to improve the quality of web pages.
 
-<!--endintro-->
+<endIntro />
 
 You can run Lighthouse:
 
@@ -28,9 +36,15 @@ You can run Lighthouse:
 
 It runs a series of audits against a URL and then it generates a report on how well the page did. From there, you can use the failing audits as indicators on how to improve the page. Each audit has a reference doc explaining why the audit is important, as well as how to fix it.
 
-::: good  
-![Figure: Good Example - Google Chrome Lighthouse is showing 100%](lighthouse-100.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good Example - Google Chrome Lighthouse is showing 100%"}
+  src="/uploads/rules/the-best-way-to-get-metrics-out-of-your-browser/lighthouse-100.png"
+/>
+
 
 ### Lighthouse Level 1: Throttling Off
 
@@ -40,9 +54,15 @@ For applications intended for use on a desktop and from within a well-connected 
 
 To see how well your website would perform on low-spec devices and with poor internet bandwidth, use the throttling features. This is most important for high volume, customer-facing apps.
 
-::: good
-![Figure: Good Example - Lighhouse can simulate slow netwrking and CPU when performing tests](lighthouse_throttling.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good Example - Lighhouse can simulate slow netwrking and CPU when performing tests"}
+  src="/uploads/rules/the-best-way-to-get-metrics-out-of-your-browser/lighthouse_throttling.png"
+/>
+
 
 ### Lighthouse Level 3: Automated testing
 

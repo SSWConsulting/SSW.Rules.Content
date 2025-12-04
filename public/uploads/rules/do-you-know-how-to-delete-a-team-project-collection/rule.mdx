@@ -1,23 +1,40 @@
 ---
-seoDescription: Delete a Team Project Collection in TFS and clean up SharePoint and Reporting Services sites to free up server resources.
-type: rule
 archivedreason: Deprecated
-title: Do you know how to delete a Team Project Collection?
-guid: 8b845614-283a-469e-91d6-cfc30b15f7ec
-uri: do-you-know-how-to-delete-a-team-project-collection
-created: 2011-02-01T04:35:31.0000000Z
 authors:
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-related: []
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+categories:
+- category: categories/project-delivery/rules-to-better-tfs-administration.mdx
+created: 2011-02-01 04:55:37+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+guid: 8b845614-283a-469e-91d6-cfc30b15f7ec
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Delete a Team Project Collection in TFS and clean up SharePoint and
+  Reporting Services sites to free up server resources.
+title: Do you know how to delete a Team Project Collection?
+type: rule
+uri: do-you-know-how-to-delete-a-team-project-collection
 ---
 
 When you initially set up a TFS server, you may add a Team Project Collection for testing purposes. After you have confirmed TFS, SharePoint, and Reporting services are all working, you want to remove the test collection you made, but alas, there is no Delete option for project collections.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: There is no way to delete the Team Project Collection from the TFS Administration console](tfs-admin-no-delete.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"There is no way to delete the Team Project Collection from the TFS Administration console"}
+  src="/uploads/rules/do-you-know-how-to-delete-a-team-project-collection/tfs-admin-no-delete.png"
+/>
+
 
 To delete the unwanted Team Project Collection:
 
@@ -35,7 +52,16 @@ cd "%programfiles%\microsoft team foundation server 2010\tools"
 TFSConfig Collection /delete /collectionName:[COLLECTION NAME]
 ```
 
-![Figure: Use the TFSConfig tool to delete a Team Project Collection (If you created a SharePoint Portal for your Team Project Collection, you should clean it up as well)](tfs-admin-delete-collection.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Use the TFSConfig tool to delete a Team Project Collection (If you created a SharePoint Portal for your Team Project Collection, you should clean it up as well)"}
+  src="/uploads/rules/do-you-know-how-to-delete-a-team-project-collection/tfs-admin-delete-collection.png"
+/>
+
 
 1. Open the URL of your Team Project Collections SharePoint portal (eg. northwind.com.au/tfs/TestProjectCollection)
 2. Select

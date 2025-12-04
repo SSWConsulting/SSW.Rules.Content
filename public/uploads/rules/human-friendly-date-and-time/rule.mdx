@@ -1,39 +1,66 @@
 ---
-seoDescription: Format time and date on your website in a human-friendly manner to ensure users can easily understand the information presented.
-type: rule
-archivedreason:
-title: Do you display the timestamp in a human-friendly format?
-guid: b7362721-7c5a-48de-96d2-15992644d79d
-uri: human-friendly-date-and-time
-created: 2015-03-17T04:47:35.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - add-days-to-dates
-  - date-and-time-of-change-as-tooltip
-  - sharepoint-format-dates-to-include-the-weekday
-  - use-correct-time-format
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2025-03-20 08:52:30+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: b7362721-7c5a-48de-96d2-15992644d79d
+isArchived: false
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
-  - human-friendly-date-and-time
+- human-friendly-date-and-time
+related:
+- rule: public/uploads/rules/add-days-to-dates/rule.mdx
+- rule: public/uploads/rules/date-and-time-of-change-as-tooltip/rule.mdx
+- rule: public/uploads/rules/weekdays-on-date-selectors/rule.mdx
+- rule: public/uploads/rules/use-correct-time-format/rule.mdx
+seoDescription: Format time and date on your website in a human-friendly manner to
+  ensure users can easily understand the information presented.
+title: Do you display the timestamp in a human-friendly format?
+type: rule
+uri: human-friendly-date-and-time
 ---
 
 Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_
 
 Instead of displaying timestamps as a rigid date like "2025-03-10 14:30", a more human-friendly format—like "last Sunday" or "3 weeks ago" makes it much easier to grasp at a glance. This is especially useful for past dates, helping users quickly understand when something happened without doing mental math.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
-![Figure: Bad example - Detailed date formatting is difficult to read](bad-timeformatting.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Detailed date formatting is difficult to read"}
+  src="/uploads/rules/human-friendly-date-and-time/bad-timeformatting.jpg"
+/>
 
-::: good
-![Figure: Good example - Humanized date formatting is easy to read](good-timeformatting.jpg)
-:::
 
-::: info
-**Note:** As per the good example, it's a good idea to [include a tooltip with extra information about the date](/date-and-time-of-change-as-tooltip), in case the user needs them.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Humanized date formatting is easy to read"}
+  src="/uploads/rules/human-friendly-date-and-time/good-timeformatting.jpg"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** As per the good example, it's a good idea to [include a tooltip with extra information about the date](/date-and-time-of-change-as-tooltip), in case the user needs them.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

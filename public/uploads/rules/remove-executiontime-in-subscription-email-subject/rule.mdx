@@ -1,30 +1,49 @@
 ---
-seoDescription: Remove @ExecutionTime from subscription email subjects to improve sorting and conversation threading in Outlook.
-type: rule
-archivedreason:
-title: Admin - Do you remove @ExecutionTime in subject of subscription email?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-08-02 06:58:35+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: 69500811-c6f2-4e36-9d12-4086244631ad
-uri: remove-executiontime-in-subscription-email-subject
-created: 2024-08-02T14:47:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-- when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Remove @ExecutionTime from subscription email subjects to improve
+  sorting and conversation threading in Outlook.
+title: Admin - Do you remove @ExecutionTime in subject of subscription email?
+type: rule
+uri: remove-executiontime-in-subscription-email-subject
 ---
 
 In subscription settings, @ExecutionTime should be removed from subject, because it ruins conversation threading in Outlook - You cannot sort them by subject.
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example - Keep @ExecutionTime in subject](RSRulesRemoveTimeOld.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Keep @ExecutionTime in subject"}
+  src="/uploads/rules/remove-executiontime-in-subscription-email-subject/RSRulesRemoveTimeOld.gif"
+/>
+
 
 So we always make subject of subscription exactly same as report name.
 
-::: good  
-![Figure: Good example - Subject same as report name](RSRulesRemoveTimeNew.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Subject same as report name"}
+  src="/uploads/rules/remove-executiontime-in-subscription-email-subject/RSRulesRemoveTimeNew.gif"
+/>

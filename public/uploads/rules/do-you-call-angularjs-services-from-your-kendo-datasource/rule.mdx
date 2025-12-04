@@ -1,17 +1,25 @@
 ---
-seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource for cleaner code and better maintainability.
-type: rule
-archivedreason: 
-title: Do you call AngularJS services from your Kendo datasource?
-guid: 1da148fe-4093-419d-b4b0-4cc50f50d36b
-uri: do-you-call-angularjs-services-from-your-kendo-datasource
-created: 2015-05-05T19:23:00.0000000Z
+archivedreason: null
 authors:
 - title: Duncan Hunter
   url: https://ssw.com.au/people/duncan-hunter
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-angularjs.mdx
+- category: categories/software-engineering/rules-to-better-kendo-ui.mdx
+created: 2015-05-05 19:33:05+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1da148fe-4093-419d-b4b0-4cc50f50d36b
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
-
+seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource
+  for cleaner code and better maintainability.
+title: Do you call AngularJS services from your Kendo datasource?
+type: rule
+uri: do-you-call-angularjs-services-from-your-kendo-datasource
 ---
 
 To keep a good separation of concerns between your AngularJS controllers and your data service layers you should always call an AngularJS service or factory from your Kendo datasource logic.
@@ -24,77 +32,70 @@ Many demonstrations show a hard coded string in your Angular controllers calling
 4. If you keep all your data calls in one place your code will be easier to read and you can share business logic for making the API calls within your Angular service or factory, like a common error handling message for failed API calls
 5. Finally you can perform actions while the promise is being resolved, like show a spinner animation or log out a message to the user
 
-<!--endintro-->
+<endIntro />
 
 The bad way to call your API from a Kendo datasource with AngularJS. Notice the hard coded url directly calling the API endpoint.
 
 ```ts
-read: { 
-    url: "../content/dataviz/js/spain-electricity.json", 
-    dataType: "json" 
+read: {
+    url: "../content/dataviz/js/spain-electricity.json",
+    dataType: "json"
 }
 ```
-
-::: bad
-Bad Example - This hard codes your url endpoint throughout your application
-
-:::
+**❌ Bad Example - This hard codes your url endpoint throughout your application**  
 
 This is example is in TypeScript and you can see the Kendo data source is calling the getFundAssetPositionChartData function and passing it a promise which when resolved will return the data. This function calls an AngularJS service which then calls the API endpoint. You can also see in the getFundAssetPositionChartData function the ‘this.isLoading = true’ code which is turning the pages spinner feature on and off when the call is resolved, to let the user know it is processing.
 
 ```ts
-module app.widgets {    
+module app.widgets {
     'use strict';
-    class AssetAllocationByAssetClassChartController {        
-         isLoading: any;        
-         static $inject = ['app.dataServices.InvestmentReportsService']  
-          
-         constructor(private investmentReportsService: dataServices.InvestmentReportsService) { }
-          
-         options = {            
-             series: [{                
-                 field: 'AssetStrategyOverallPercent',                
-                 categoryField: 'AssetClassName'            
-             }],            
-             seriesDefaults: {                
-                 type: 'pie'            
-             },            
-             legend: {                
-                 position: 'bottom',                
-                 labels: {                    
-                     visible: true,                    
-                     background: 'transparent',                    
-                     template: '#=text # #=value#% '               
-                 }            
-             },            
-             dataSource: new kendo.data.DataSource({                
-                 transport: {                    
-                     read: (promise: any) => {                        
-                         this.getFundAssetPositionChartData(promise);                    
-                     }                
-                 }            
-             })        
-         }        
-     
-         getFundAssetPositionChartData = (promise) => {            
-             this.isLoading = true;            
-             return this.investmentReportsService.fundAssetPosition()                
-                 .then((response) => {                    
-                     promise.success(                        
-                         response.Data.PortfolioAssetPositions[0].AssetClassDetailList                    
-                     );                    
-                     this.isLoading = false;                
-                 });        
-         }    
-    }    
+    class AssetAllocationByAssetClassChartController {
+         isLoading: any;
+         static $inject = ['app.dataServices.InvestmentReportsService']
 
-    Angular.module('app.widgets')        
-        .controller('app.widgets.assetAllocationByAssetClassChartController',        
-            AssetAllocationByAssetClassChartController        
+         constructor(private investmentReportsService: dataServices.InvestmentReportsService) { }
+
+         options = {
+             series: [{
+                 field: 'AssetStrategyOverallPercent',
+                 categoryField: 'AssetClassName'
+             }],
+             seriesDefaults: {
+                 type: 'pie'
+             },
+             legend: {
+                 position: 'bottom',
+                 labels: {
+                     visible: true,
+                     background: 'transparent',
+                     template: '#=text # #=value#% '
+                 }
+             },
+             dataSource: new kendo.data.DataSource({
+                 transport: {
+                     read: (promise: any) => {
+                         this.getFundAssetPositionChartData(promise);
+                     }
+                 }
+             })
+         }
+
+         getFundAssetPositionChartData = (promise) => {
+             this.isLoading = true;
+             return this.investmentReportsService.fundAssetPosition()
+                 .then((response) => {
+                     promise.success(
+                         response.Data.PortfolioAssetPositions[0].AssetClassDetailList
+                     );
+                     this.isLoading = false;
+                 });
+         }
+    }
+
+    Angular.module('app.widgets')
+        .controller('app.widgets.assetAllocationByAssetClassChartController',
+            AssetAllocationByAssetClassChartController
         )
 }
 ```
-
-::: good
-Good Example - This code passes a promise to a function which calls an AngularJS service to call the API endpoint.  
-:::
+**✅ Good Example - This code passes a promise to a function which calls an AngularJS service to call the API endpoint.**

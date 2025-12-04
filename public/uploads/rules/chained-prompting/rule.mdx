@@ -1,20 +1,28 @@
 ---
 type: rule
 title: Do you use prompt chaining?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 seoDescription: Guide conversations through a series of questions or tasks using
   chained prompting, yielding comprehensive and interconnected responses.
 uri: chained-prompting
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
-created: 2023-04-12T14:32:05.794Z
+created: 2023-04-12T22:25:47.000Z
 guid: 37000b4b-fe77-4be7-a41b-12ca9aadc97b
+lastUpdated: 2025-10-01T05:03:53.000Z
+lastUpdatedBy: Ivan Gaiduk [SSW]
+lastUpdatedByEmail: gaidukfb@gmail.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 Utilizing prompt chaining can help you guide ChatGPT through a series of questions or tasks, resulting in more comprehensive and interconnected responses. You do this by replying to ChatGPT's output each time to bring it closer and closer to your desired result.
 
 By creating a sequence of related prompts, you can explore a topic in-depth or complete a multi-step task more effectively.
 
-<!--endintro-->
+<endIntro />
 
 Here are some tips for using prompt chaining:
 
@@ -24,8 +32,11 @@ Here are some tips for using prompt chaining:
 
 Example chained prompts (think of it like having a conversation):
 
-::: greybox
-**User:** "ChatGPT, suggest 3 time management tips that can help improve productivity."
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **User:** "ChatGPT, suggest 3 time management tips that can help improve productivity."
 
 **ChatGPT:**
   \[Output]\
@@ -39,21 +50,29 @@ Example chained prompts (think of it like having a conversation):
 **User:** "Finally, write a short introductory paragraph for a blog post about these time management tips for improving productivity."
 
 **ChatGPT:** \[Output]
-:::
-::: good
-Figure: Prompt chaining for writing a blog post about time management tips
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Prompt chaining for writing a blog post about time management tips"}
+/>
+
 
 You can also use a chained prompt for refining responses or getting more details. If the initial answer isn't sufficient, ask ChatGPT to expand upon or clarify its response, such as:
 
-::: greybox
 
-"Could you provide more information about that solution?" 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
+"Could you provide more information about that solution?"
 
 or
 
 "Can you explain that in simpler terms?"
 
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 By using prompt chaining, you 'coach' ChatGPT to provide more comprehensive and interconnected responses that address your topic or task in a thorough and structured manner.

@@ -2,40 +2,81 @@
 seoDescription: When opening a web page from a Windows application, use a hyperlink unless taking specific action, then an image button illustrates the action taken.
 type: rule
 title: Do you use an image button for opening a web page taking action?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: do-you-use-an-image-button-for-opening-a-web-page-taking-action
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
-created: 2014-03-14T06:52:00.000Z
+created: 2024-03-18T21:58:54.000Z
 guid: c5bdadb2-075e-48da-bba7-229bc034ce4f
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 Opening a specific web page (that the user is aware of) from a windows application should always be in the form of a hyperlink. Below is a simple example of a hyperlink simply opening a web page containing just more information or help.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: Simple hyperlink not taking action](openningweboptions.gif)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Simple hyperlink not taking action"}
+  src="/uploads/rules/do-you-use-an-image-button-for-opening-a-web-page-taking-action/openningweboptions.gif"
+/>
+
 
 However if you are taking action then opening the page (e.g concatenating the URL, etc) then you must have an image button to illustrate the action which will be taken.
 
 Here is a compilation of a few bad examples for this:
 
-::: bad
-![Figure: Bad example - Hyperlink](openningweblink.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Hyperlink"}
+  src="/uploads/rules/do-you-use-an-image-button-for-opening-a-web-page-taking-action/openningweblink.gif"
+/>
 
-::: bad
-![Figure: Bad example - Hyperlink on a button](openningweblinkbtnblue.gif)
-:::
 
-::: bad
-![Figure: Bad example - Normal button](openningwebnormalbtn.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Hyperlink on a button"}
+  src="/uploads/rules/do-you-use-an-image-button-for-opening-a-web-page-taking-action/openningweblinkbtnblue.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Normal button"}
+  src="/uploads/rules/do-you-use-an-image-button-for-opening-a-web-page-taking-action/openningwebnormalbtn.gif"
+/>
+
 
 But when it requires some form of action (e.g. generating reports, passing and processing values), use a button with an image.
 
-::: good
-![Figure: Good example - XP button with image](openningwebxp.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - XP button with image"}
+  src="/uploads/rules/do-you-use-an-image-button-for-opening-a-web-page-taking-action/openningwebxp.gif"
+/>
+
 
 **Note:** Screenshot contains XP button because the .Net 1.1 button does not support images, however the default button in .NET 2.0 supports images. E.g. `EdwardForgacs.Components.WindowsUI.dll`

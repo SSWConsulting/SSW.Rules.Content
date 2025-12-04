@@ -1,26 +1,34 @@
 ---
-seoDescription: Conduct a specification review to provide clients with a clear understanding of project costs and timelines, ensuring realistic expectations and avoiding misunderstandings.
-type: rule
-title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
-uri: conduct-a-spec-review
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Edgar Rocha
-    url: https://ssw.com.au/people/edgar-rocha
-related: []
-redirects:
-  - spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)
-  - spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
-created: 2009-03-03T05:04:02.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Edgar Rocha
+  url: https://ssw.com.au/people/edgar-rocha
+categories:
+- category: categories/client-engagement/rules-to-better-specification-reviews.mdx
+created: 2023-10-31 00:44:48+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: fa87520c-c384-4372-855d-984c7600e5f9
+isArchived: false
+lastUpdated: 2025-03-07 11:36:24+00:00
+lastUpdatedBy: Michelle "MishManners®™" Duke
+lastUpdatedByEmail: 36594527+mishmanners@users.noreply.github.com
+redirects:
+- spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)
+- spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
+seoDescription: Conduct a specification review to provide clients with a clear understanding
+  of project costs and timelines, ensuring realistic expectations and avoiding misunderstandings.
+title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
+type: rule
+uri: conduct-a-spec-review
 ---
 
 A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review.
@@ -31,24 +39,41 @@ It is paid work conducted after the initial meeting to determine the overall sco
 
 E.g. Mr. Northwind learns that the idea he presented at the initial meeting will cost approximately $80K and he has to determine if that is feasible to his business or if he will trim the functionality to better manage the cost.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: A ballpark or proposal should start small and not be a big commitment](proposal.jpg)
 
-::: greybox
-"From this initial meeting, the ballpark is 6 months and $200k+GST"
-:::
-::: bad
-Bad example - Big scary figure
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"A ballpark or proposal should start small and not be a big commitment"}
+  src="/uploads/rules/conduct-a-spec-review/proposal.jpg"
+/>
 
-::: greybox
-"From this initial meeting, we will first need to conduct a Specification Review.
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "From this initial meeting, the ballpark is 6 months and $200k+GST"
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example - Big scary figure"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "From this initial meeting, we will first need to conduct a Specification Review.
 This first step is $8k - a 2-day Specification Review"
-:::
-::: good
-Good example - Work in small chunks of work with details about what you will do
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Work in small chunks of work with details about what you will do"}
+/>
+
 
 ### Spec Review length
 
@@ -78,19 +103,27 @@ Remember, no politician challenging for leadership ever calls a vote before he o
 
 Through the course of the Spec Review, the client will be aware that each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
-::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."
-:::
-::: bad
-Bad example - Far too firm a price when you don't know any of the detail
-:::
 
-::: greybox
-"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."
-:::
-::: good
-Good example - Leaves some wriggle room at these initial phases
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example - Far too firm a price when you don't know any of the detail"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Leaves some wriggle room at these initial phases"}
+/>
+
 
 Read [When do you use approximate values for project costs?](/spec-give-customers-a-ballpark)
 
@@ -111,11 +144,18 @@ The main things the Account Manager will be looking for will be:
 * Have you already had corridor conversations with the client so they're already expecting the ballpark estimate?
 * Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, bug fixing, etc.
 
-::: greybox
-**Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover.
 
 You can record your presentation using [Recording Studio in PowerPoint](https://aka.ms/recordingstudio) or [Camtasia's PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ### Example Schedule for a 1-day Specification Review
 
@@ -135,4 +175,12 @@ Always track timesheets against a separate Spec Review project.
 
 It makes project cost reporting difficult later if you don't, since the cost we're looking for is always the "post-Spec Review cost" that clients can compare to the estimate you gave in your Spec Review.
 
-![Figure: You wouldn't want these numbers combined, as it may look like a budget overrun](project-costs.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"You wouldn't want these numbers combined, as it may look like a budget overrun"}
+  src="/uploads/rules/conduct-a-spec-review/project-costs.png"
+/>

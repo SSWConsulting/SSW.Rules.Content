@@ -1,44 +1,71 @@
 ---
-seoDescription: Do you understand a data type change = "Data Motion Scripts"? Learn how to correctly update your schema and migrate existing data when changing a column's data type from Boolean to char(2) in this informative tutorial.
-type: rule
-title: Do you understand a data type change = "Data Motion Scripts"?
-uri: do-you-understand-a-data-type-change-data-motion-scripts
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
-  - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-  - title: Thiago Passos
-    url: https://ssw.com.au/people/thiago-passos
-  - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related: []
-redirects:
-  - do-you-understand-a-data-type-change-＂data-motion-scripts＂
-created: 2009-10-07T00:12:39.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Martin Hinshelwood
+  url: https://ssw.com.au/people/martin-hinshelwood
+- title: Duncan Hunter
+  url: https://ssw.com.au/people/duncan-hunter
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+- title: Thiago Passos
+  url: https://ssw.com.au/people/thiago-passos
+- title: Jack Pettit
+  url: https://ssw.com.au/people/jack-pettit
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+categories:
+- category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
+created: 2009-10-08 14:19:17+00:00
+createdBy: JayLin
+createdByEmail: JayLin@sydney.ssw.com.au
 guid: 72e85813-bbc1-4426-8108-4a5d7f559b7a
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-understand-a-data-type-change-＂data-motion-scripts＂
+seoDescription: Do you understand a data type change = "Data Motion Scripts"? Learn
+  how to correctly update your schema and migrate existing data when changing a column's
+  data type from Boolean to char(2) in this informative tutorial.
+title: Do you understand a data type change = "Data Motion Scripts"?
+type: rule
+uri: do-you-understand-a-data-type-change-data-motion-scripts
 ---
 
 Scripting out a schema change is easy, worrying about data is not. "'Data motion" refers to a change in the meaning of data, which will require scripts which touch data and schema.
 
 Let's look at an example:
 
-<!--endintro-->
+<endIntro />
 
 We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.
 
-![Figure: Anything wrong this Gender column?](TableBit.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Anything wrong this Gender column?"}
+  src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/TableBit.jpg"
+/>
+
 
 Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA'
 
-![Figure: Caster Semenya was the first to teach us a thing or two about the right data type for Gender](CasterSemenya.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Caster Semenya was the first to teach us a thing or two about the right data type for Gender"}
+  src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/CasterSemenya.jpg"
+/>
+
 
 The data then must be migrated to the new data type this way:
 
@@ -47,19 +74,51 @@ _Add a new column 'Gender' with type char(2)
 Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M')
 Delete the column ztGender_
 
-![Figure: Changing the data type and data required a "Data Motion Script"](TableChar.jpg)
 
-::: greybox
-**Note:** zt stands for Temporary.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Changing the data type and data required a \"Data Motion Script\""}
+  src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/TableChar.jpg"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note:** zt stands for Temporary.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
-![Figure: Don't use Visual Studio Schema Compare Tool (aka Data Dude)](microsoft-schema-compare_1710232021939.png)
 
-::: greybox
-**Note:** In order to achieve this you **must** use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Don't use Visual Studio Schema Compare Tool (aka Data Dude)"}
+  src="/uploads/rules/do-you-understand-a-data-type-change-data-motion-scripts/microsoft-schema-compare_1710232021939.png"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note:** In order to achieve this you **must** use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 There are few options available to perform data type change correctly:
 
@@ -91,10 +150,7 @@ public partial class GenderToString : DbMigration
    }
 }
 ```
-
-::: bad
-Bad Example - the default scaffolded migration will not perform any mapping of your data\
-:::
+**❌ Bad Example - the default scaffolded migration will not perform any mapping of your data\**  
 
 ```csharp
 public partial class GenderToString : DbMigration
@@ -111,7 +167,4 @@ public partial class GenderToString : DbMigration
    }
 }
 ```
-
-::: good
-Good Example - Data motion with EF Migrations
-:::
+**✅ Good Example - Data motion with EF Migrations**

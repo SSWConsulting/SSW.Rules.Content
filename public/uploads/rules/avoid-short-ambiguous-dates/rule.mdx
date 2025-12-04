@@ -1,28 +1,38 @@
 ---
-type: rule
-tips: ""
-title: Do you avoid short or ambiguous dates?
-seoDescription: Writing dates like 2/1/12 can cause misinterpretation or even fraud. Avoid short or ambiguous formats. Instead, use clear standards like ISO 8601 (2025-02-12) or 3-letter month formats (12 Feb 2025) to protect integrity and ensure global readability.
-uri: avoid-short-ambiguous-dates
 authors:
-  - title: Harkirat Singh
-    url: https://github.com/0xharkirat
-related:
-  - dates-do-you-keep-date-formats-consistent-across-your-application
-  - use-correct-time-format
-created: 2025-09-11T12:20:00.000Z
+- title: Harkirat Singh
+  url: https://github.com/0xharkirat
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+created: 2025-09-16 23:38:04+00:00
+createdBy: Harkirat Singh [SSW]
+createdByEmail: 65155920+0xharkirat@users.noreply.github.com
 guid: 050f797a-c163-45f2-bc5e-f6820688eb8e
-
+isArchived: false
+lastUpdated: 2025-09-17 02:41:02+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/rule.mdx
+- rule: public/uploads/rules/use-correct-time-format/rule.mdx
+seoDescription: Writing dates like 2/1/12 can cause misinterpretation or even fraud.
+  Avoid short or ambiguous formats. Instead, use clear standards like ISO 8601 (2025-02-12)
+  or 3-letter month formats (12 Feb 2025) to protect integrity and ensure global readability.
+tips: ''
+title: Do you avoid short or ambiguous dates?
+type: rule
+uri: avoid-short-ambiguous-dates
 ---
 
 If you sign a document and write a date like `2/1/12`, you’ve left the door open for trouble. That shorthand can be **misread** (is it January 2nd or February 1st?) or even **tampered with** (someone could easily change it to `12/11/2012`), and you’d never know.
 
 It's a small habit, but writing dates properly can prevent fraud, confusion, and embarrassment.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/shorts/3b3cVZtDMLo`
-**Video: Do you avoid short / ambiguous dates? SSW Rules (48 sec)**
+
+<youtubeEmbed url="https://www.youtube.com/shorts/3b3cVZtDMLo" description={"Video: Do you avoid short / ambiguous dates? SSW Rules (48 sec)"} />
+
 
 ## ❌ Avoid short formats
 
@@ -41,26 +51,38 @@ It's a small habit, but writing dates properly can prevent fraud, confusion, and
 * **Formal / technical docs** - `2025-02-12` ([ISO 8601 standard](https://en.wikipedia.org/wiki/ISO_8601))
 * **Readable docs / mixed audiences** - `12 Feb 2025` (use a 3-letter month to avoid confusion)
 
-::: greybox
-Signed on 2/1/25
-:::
-::: bad
-Figure: Bad example – Ambiguous and easy to tamper with
-:::
 
-::: greybox
-Signed on 2012-01-02
-:::
-::: good
-Figure: Good example – Clear, unchangeable, ISO standard
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    Signed on 2/1/25
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example – Ambiguous and easy to tamper with"}
+/>
 
-::: greybox
-Signed on 12 Feb 2025
-:::
-::: good
-Good example – Uses 3-letter month for clarity across regions
-:::
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Signed on 2012-01-02
+  </>}
+  figurePrefix="good"
+  figure={"Good example – Clear, unchangeable, ISO standard"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Signed on 12 Feb 2025
+  </>}
+  figurePrefix="good"
+  figure={"Good example – Uses 3-letter month for clarity across regions"}
+/>
+
 
 ### Format for clarity and integrity
 

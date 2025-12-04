@@ -1,24 +1,34 @@
 ---
-seoDescription: Avoid upsizing Microsoft Access queries that include VBA function names without equivalent Transact-SQL functions.
-type: rule
-archivedreason:
-title: Do you remove VBA function names in queries before upsizing queries (Upsizing problem)?
-guid: b3b5fa0d-ec69-4767-988b-f1001a42479d
-uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
-created: 2010-07-23T03:36:59.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
-  - do-you-have-complex-queries-upsizing-problem
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
+created: 2010-07-23 03:44:07+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+guid: b3b5fa0d-ec69-4767-988b-f1001a42479d
+isArchived: false
+lastUpdated: 2025-10-14 14:04:35+00:00
+lastUpdatedBy: Hugo Pernet [SSW]
+lastUpdatedByEmail: hugo.pernet@esial.net
 redirects:
-  - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-(upsizing-problem)
+- do-you-remove-vba-function-names-in-queries-before-upsizing-queries-(upsizing-problem)
+related:
+- rule: public/uploads/rules/do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem/rule.mdx
+- rule: public/uploads/rules/do-you-have-complex-queries-upsizing-problem/rule.mdx
+seoDescription: Avoid upsizing Microsoft Access queries that include VBA function
+  names without equivalent Transact-SQL functions.
+title: Do you remove VBA function names in queries before upsizing queries (Upsizing
+  problem)?
+type: rule
+uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
 ---
 
 The Upsizing Tools do not try to upsize Microsoft Access query that includes VBA function names that don't have their equivalent Transact-SQL functions. The upsizing result will depend on Microsoft Access version (2000/2002/2003) and SQL Server Version (2000/2005). The following varieties of queries will not upsize:
 
-<!--endintro-->
+<endIntro />
 
 - Queries referencing value in control, for example Forms![FormName]![ControlName] (Access 2000)
 - Select queries that take parameters (Access 2000)
@@ -35,10 +45,7 @@ FROM Orders
 INNER JOIN "Order Subtotals"
     ON (Orders.OrderID="Order Subtotals".OrderID);
 ```
-
-::: bad
-Figure: Bad example of Access query with FORMAT keyword  
-:::
+**❌ Figure: Bad example of Access query with FORMAT keyword**  
 
 ```sql
 SELECT Orders.OrderID,
@@ -48,13 +55,15 @@ FROM Orders
 INNER JOIN "Order Subtotals"
     ON (Orders.OrderID="Order Subtotals".OrderID)
 ```
+**✅ Figure: Good example of SQL Server view with YEAR keyword**  
 
-::: good
-Figure: Good example of SQL Server view with YEAR keyword
 
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    [Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule
 
-::: info
-[Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule
-
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

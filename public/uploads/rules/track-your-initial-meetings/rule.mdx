@@ -1,22 +1,31 @@
 ---
-seoDescription: Metrics track initial meetings to boost visibility and inform business decisions.
-type: rule
-archivedreason:
-title: Metrics - Do you track initial meetings?
-guid: 13a10a3d-7b18-4cd5-93c2-0bb8d8847b9f
-uri: track-your-initial-meetings
-created: 2018-04-05T17:41:02.0000000Z
+archivedreason: null
 authors:
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
-related:
-  - good-email-subject
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Mehmet Ozdemir
+  url: https://ssw.com.au/people/mehmet-ozdemir
+categories:
+- category: categories/communication/rules-to-better-calendars.mdx
+created: 2018-04-05 17:41:07+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 13a10a3d-7b18-4cd5-93c2-0bb8d8847b9f
+isArchived: false
+lastUpdated: 2025-06-23 23:47:28+00:00
+lastUpdatedBy: Lorraine Zhang [SSW]
+lastUpdatedByEmail: 160580592+ZhangRan8@users.noreply.github.com
 redirects:
-  - metrics-do-you-track-your-initial-meetings
+- metrics-do-you-track-your-initial-meetings
+related:
+- rule: public/uploads/rules/good-email-subject/rule.mdx
+seoDescription: Metrics track initial meetings to boost visibility and inform business
+  decisions.
+title: Metrics - Do you track initial meetings?
+type: rule
+uri: track-your-initial-meetings
 ---
 
 To ensure clarity and consistency in our calendar invites, please follow the naming conventions below when scheduling meetings:
@@ -26,32 +35,64 @@ To ensure clarity and consistency in our calendar invites, please follow the nam
 
 This helps everyone quickly identify the purpose of the meeting, improves calendar visibility, and supports accurate reporting.
 
-<!--endintro-->
+<endIntro />
 
-::: greybox
-**Subject:** Northwind project with SSW and Bob
-:::
 
-::: bad
-Figure: Bad example - Not clear it is an initial meeting
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Subject:** Northwind project with SSW and Bob
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**❌ Figure: Bad example - Not clear it is an initial meeting**  
 
-::: greybox
-**Subject:** <mark>Initial</mark> phone <mark>meeting</mark> with Adam from SSW and Bob from Northwind  
-:::
 
-::: good
-Figure: Good example - Includes the words "initial meeting" and the names of attendees
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Subject:** ==Initial== phone ==meeting== with Adam from SSW and Bob from Northwind
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**✅ Figure: Good example - Includes the words "initial meeting" and the names of attendees**  
 
 The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
 
 **Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an opportunity, not an account.**
 
-![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding](set-regarding-to-opportunity.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding"}
+  src="/uploads/rules/track-your-initial-meetings/set-regarding-to-opportunity.png"
+/>
+
 
 The idea behind it is that Power BI can then show the time elapsed between each sales milestone.
 
-![Figure: Time to win report](time-to-win-graph.png)
 
-![Figure: Initial meetings report](initial-meeting-graph.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Time to win report"}
+  src="/uploads/rules/track-your-initial-meetings/time-to-win-graph.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Initial meetings report"}
+  src="/uploads/rules/track-your-initial-meetings/initial-meeting-graph.png"
+/>

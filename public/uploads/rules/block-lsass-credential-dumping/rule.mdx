@@ -2,25 +2,39 @@
 seoDescription: Block credential dumping from lsass.exe and protect user credentials with Windows 10's Credential Guard, a feature that runs lsass.exe in an isolated virtualized environment without device drivers.
 type: rule
 title: Do you block credential dumping from lsass.exe?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
 uri: block-lsass-credential-dumping
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
-created: 2022-05-13T05:36:32.525Z
+created: 2024-04-30T09:46:52.000Z
 guid: 39c59fbc-5168-43f7-ae8f-5dd1b290b41f
 redirects:
   - block-lsass-credential-dump
+lastUpdated: 2025-07-31T00:46:18.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Chloe Lin [SSW]
+createdByEmail: chloelin@ssw.com.au
+isArchived: false
 ---
 
 If an attacker gets into a computer on your network, they can dump hashed credentials of any user that has logged on to that computer from lsass.exe. This is easy to do if you know where to go - thankfully, it is also fairly easy to block!
 
 You can read more about credential dumping at [mitre.org](https://attack.mitre.org/techniques/T1003/001/), or in this [blog post from Microsoft](https://www.microsoft.com/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/?WT.mc_id=ES-MVP-33518).
 
-::: bad
-![Figure: Bad Example - Attackers can dump credentials from lsass.exe](lsass-dump.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad Example - Attackers can dump credentials from lsass.exe"}
+  src="/uploads/rules/block-lsass-credential-dumping/lsass-dump.png"
+/>
 
-<!--endintro-->
+
+<endIntro />
 
 Credential Guard was introduced in Windows 10/Server 2016. It runs lsass.exe in an isolated virtualized environment without any device drivers, so that the memory cannot be dumped. Depending on your environment, there are a few ways you can implement Credential Guard.
 
@@ -33,7 +47,16 @@ In a Domain environment, you can roll out Credential Guard with a GPO.
 
 **Note:** **Enabled with UEFI lock** means that Credential Guard needs to be disabled in the GPO **and** on the device to be turned off. **Enabled without lock** allows Credential Guard to be disabled just with the GPO.
 
-![Figure: Credential Guard enabled in a Group Policy object](credential-guard-gpo.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Credential Guard enabled in a Group Policy object"}
+  src="/uploads/rules/block-lsass-credential-dumping/credential-guard-gpo.png"
+/>
+
 
 ### Microsoft Endpoint Manager / Intune
 
@@ -43,7 +66,16 @@ If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an
 2. Create a new policy, or edit an existing one
 3. Set **Block credential stealing from the Windows local security authority subsystem** to **Block**
 
-![Figure: Credential Guard setting in Microsoft Endpoint Manager](credential-guard-mem.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Credential Guard setting in Microsoft Endpoint Manager"}
+  src="/uploads/rules/block-lsass-credential-dumping/credential-guard-mem.png"
+/>
+
 
 ### More information & other options
 

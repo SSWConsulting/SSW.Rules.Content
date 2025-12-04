@@ -1,28 +1,46 @@
 ---
-seoDescription: Use Gravatar to simplify profile management and provide a consistent experience across applications, as it allows your Gravatar image to follow you from site to site.
-type: rule
-title: Do you implement Gravatar (or Cravatar for China) for profile management in applications?
-uri: gravatar-for-profile-management
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Baba Kamyljanov
-    url: https://www.ssw.com.au/people/baba-kamyljanov
-related: []
-redirects:
-  - do-you-use-gravatar-for-your-profile-pictures
-created: 2015-03-16T10:17:40.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Baba Kamyljanov
+  url: https://www.ssw.com.au/people/baba-kamyljanov
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+- category: categories/software-engineering/rules-to-better-internationalization.mdx
+created: 2025-02-05 12:13:55+00:00
+createdBy: Baba Kamyljanov [SSW]
+createdByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
 guid: b790dbfc-fe37-4a4a-992e-c9294620a06b
+isArchived: false
+lastUpdated: 2025-02-05 12:13:55+00:00
+lastUpdatedBy: Baba Kamyljanov [SSW]
+lastUpdatedByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
+redirects:
+- do-you-use-gravatar-for-your-profile-pictures
+seoDescription: Use Gravatar to simplify profile management and provide a consistent
+  experience across applications, as it allows your Gravatar image to follow you from
+  site to site.
+title: Do you implement Gravatar (or Cravatar for China) for profile management in
+  applications?
+type: rule
+uri: gravatar-for-profile-management
 ---
 
 To keep profile management simple and make it easier for users to have a consistent experience across applications, you should use [Gravatar](https://en.gravatar.com) for showing profile images in your application.
 
-<!--endintro-->
+<endIntro />
 
-::: china
-Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn).
-:::
+
+<boxEmbed
+  style="china"
+  body={<>
+    Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn).
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 Your Gravatar or Cravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog.
 
@@ -38,7 +56,9 @@ Also, check out the [Gravatar API documentation](https://docs.gravatar.com/api) 
 
 The below short video shows how to get up and running with Gravatar in your ASP.NET MVC application.
 
-`youtube: https://www.youtube.com/embed/rjFjVD9jPIk`
+
+<youtubeEmbed url="https://www.youtube.com/embed/rjFjVD9jPIk" description={""} />
+
 
 ## Setting up Cravatar in your application
 

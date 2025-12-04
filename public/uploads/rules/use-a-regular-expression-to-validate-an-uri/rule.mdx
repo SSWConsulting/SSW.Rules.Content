@@ -1,54 +1,54 @@
 ---
-seoDescription: Validate URLs effectively using a well-crafted regular expression.
-type: rule
-title: Do you use a regular expression to validate an URL?
-uri: use-a-regular-expression-to-validate-an-uri
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-use-a-regular-expression-to-validate-an-url
-created: 2018-04-26T17:31:11.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+- category: categories/software-engineering/rules-to-better-regular-expressions.mdx
+created: 2018-04-26 17:31:11+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 45e21c54-baae-4c39-a245-8ce58c49978a
+isArchived: false
+lastUpdated: 2023-08-15 17:19:45+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+redirects:
+- do-you-use-a-regular-expression-to-validate-an-url
+seoDescription: Validate URLs effectively using a well-crafted regular expression.
+title: Do you use a regular expression to validate an URL?
+type: rule
+uri: use-a-regular-expression-to-validate-an-uri
 ---
 
 A regex is the best way to verify an URI.
 
-<!--endintro-->
+<endIntro />
 
 ```csharp
 public bool IsValidUri(string uri)
 {
-try 
-{ 
-Uri testUri = new Uri(uri); 
-return true; 
-} 
+try
+{
+Uri testUri = new Uri(uri);
+return true;
+}
 catch (UriFormatException ex)
-{ 
-return false; 
-} 
+{
+return false;
+}
 }
 ```
-
-::: bad
-Figure: Bad example of verifying URI
-
-:::
+**❌ Figure: Bad example of verifying URI**  
 
 ```csharp
-public bool IsValidUri(string uri) 
-{ 
+public bool IsValidUri(string uri)
+{
 // Return true if it is in valid Uri format.
-return System.Text.RegularExpressions.Regex.IsMatch( uri,@"^(http|ftp|https)://([^\/][\w-/:]+\.?)+([\w- ./?/:/;/\%&=]+)?(/[\w- ./?/:/;/\%&=]*)?"); 
+return System.Text.RegularExpressions.Regex.IsMatch( uri,@"^(http|ftp|https)://([^\/][\w-/:]+\.?)+([\w- ./?/:/;/\%&=]+)?(/[\w- ./?/:/;/\%&=]*)?");
 }
 ```
-
-::: good
-Figure: Good example of verifying URI
-
-:::
+**✅ Figure: Good example of verifying URI**  
 
 You should have unit tests for it, see our [Rules to Better Unit Tests](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx) for more information.

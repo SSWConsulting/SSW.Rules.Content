@@ -1,44 +1,99 @@
 ---
-seoDescription: Ensure a seamless developer experience by providing clear project setup instructions, including "Get Latest" and compilation steps, to enable efficient development and debugging.
-type: rule
-archivedreason:
-title: Project setup - Do you know the importance of the initial developer experience?
-guid: be2d36fd-bd6e-4e50-8b05-b76591961d5f
-uri: developer-experience
-created: 2012-03-16T07:44:28.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related:
-  - project-setup
-  - dev-containers
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2022-12-01 07:15:11+00:00
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
+guid: be2d36fd-bd6e-4e50-8b05-b76591961d5f
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-make-sure-you-get-latest-and-compile
+- do-you-make-sure-you-get-latest-and-compile
+related:
+- rule: public/uploads/rules/project-setup/rule.mdx
+- rule: public/uploads/rules/dev-containers/rule.mdx
+seoDescription: Ensure a seamless developer experience by providing clear project
+  setup instructions, including "Get Latest" and compilation steps, to enable efficient
+  development and debugging.
+title: Project setup - Do you know the importance of the initial developer experience?
+type: rule
+uri: developer-experience
 ---
 
 It's amazing how often you can't simply Clone a repository (aka "Get Latest") and compile it.
 
 A good developer makes it clear how to get a new project, compile it and run it.
 
-![Figure: In Visual Studio the project setup experience starts with the F5 key!](f5-key.jpg)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"In Visual Studio the project setup experience starts with the F5 key!"}
+  src="/uploads/rules/developer-experience/f5-key.jpg"
+/>
+
+
+<endIntro />
 
 ### Sometimes the experience is more CLI based
 
-![Figure: Some consider this rule (Do you get latest and compile) to be more a “git clone” and then “dotnet run”](dotnet-run.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Some consider this rule (Do you get latest and compile) to be more a “git clone” and then “dotnet run”"}
+  src="/uploads/rules/developer-experience/dotnet-run.png"
+/>
+
 
 ### Sometimes the experience is more Mac-based
 
-![Figure: On a MacBook, if you hold down the Fn key, the touch bar will show F buttons](mac-f5-key.jpg)
 
-![Figure: On a MacBook, VSCode has a run button to launch the debugger (similar to F5)](macbook-vscode-run-button.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"On a MacBook, if you hold down the Fn key, the touch bar will show F buttons"}
+  src="/uploads/rules/developer-experience/mac-f5-key.jpg"
+/>
 
-![Figure: On a MacBook, Visual Studio for Mac is similar to VSCode but less obvious, since it looks more like XCode](macbook-visualstudio-run-button.png)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"On a MacBook, VSCode has a run button to launch the debugger (similar to F5)"}
+  src="/uploads/rules/developer-experience/macbook-vscode-run-button.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"On a MacBook, Visual Studio for Mac is similar to VSCode but less obvious, since it looks more like XCode"}
+  src="/uploads/rules/developer-experience/macbook-visualstudio-run-button.png"
+/>
+
 
 ### Project Setup - What you need to know?
 

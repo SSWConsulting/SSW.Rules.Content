@@ -1,60 +1,102 @@
 ---
-seoDescription: Forgetting passwords can be frustrating, but providing a 'Forgot my password' link on the sign-in page makes it easy to regain access.
-type: rule
-archivedreason:
-title: Authentication - Do you have a 'Forgot your password' link?
-guid: 07cac45a-80f4-4acb-a9df-7408987536c0
-uri: forgot-password
-created: 2014-12-11T20:10:16.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
-related:
-  - keep-your-websites-clean-and-simple
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Duncan Hunter
+  url: https://ssw.com.au/people/duncan-hunter
+categories:
+- category: categories/design/rules-to-better-interfaces-forms.mdx
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2025-08-13 22:17:46+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 07cac45a-80f4-4acb-a9df-7408987536c0
+isArchived: false
+lastUpdated: 2025-08-13 22:17:46+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - authentication-do-you-have-a-forgot-my-password-link
-
+- authentication-do-you-have-a-forgot-my-password-link
+related:
+- rule: public/uploads/rules/keep-your-websites-clean-and-simple/rule.mdx
+seoDescription: Forgetting passwords can be frustrating, but providing a 'Forgot my
+  password' link on the sign-in page makes it easy to regain access.
+title: Authentication - Do you have a 'Forgot your password' link?
+type: rule
+uri: forgot-password
 ---
 
 Users often forget their passwords — the key to accessing their accounts. To handle this, include a "Forgot your password?" link on the sign-in page.
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example - What will happen for the poor user that forgot their password?](forgot-password-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - What will happen for the poor user that forgot their password?"}
+  src="/uploads/rules/forgot-password/forgot-password-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Users have an option if they forget their password](forgot-password-good.png)  
-:::
 
-::: good  
-![Figure: Good example - Users enter their email to get a new password](reset-password-example.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Users have an option if they forget their password"}
+  src="/uploads/rules/forgot-password/forgot-password-good.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Users enter their email to get a new password"}
+  src="/uploads/rules/forgot-password/reset-password-example.png"
+/>
+
 
 ## Avoid extra wording
 
 For best UX, “Forgot your password?” should usually be a single clickable link — the question itself is enough to imply “Click here to reset.”
 
-::: greybox
-Forgot your password? [Click here to reset your password](#)
-:::
-::: bad
-Figure: Bad example - Unnecessary text for a common action
-:::
 
-::: greybox
-[Forgot your password?](#)
-:::
-::: good
-Figure: Good example - Short, clean, standard on most sites
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    Forgot your password? [Click here to reset your password](#)
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example - Unnecessary text for a common action"}
+/>
 
-::: info
-**Note:** In UI text, use "**your** password" rather than "**my** password" to speak directly to the user.
-:::
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    [Forgot your password?](#)
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Short, clean, standard on most sites"}
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** In UI text, use "**your** password" rather than "**my** password" to speak directly to the user.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ## Avoid username enumeration attacks
 
@@ -64,10 +106,21 @@ Read more on Troy Hunt's blog post ["Everything you ever wanted to know about bu
 
 You should always aim to not disclose if a user is registered with your site or not.
 
-::: bad  
-![Figure: Bad example - Displaying information whether a user exists or not](username-enumeration-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Displaying information whether a user exists or not"}
+  src="/uploads/rules/forgot-password/username-enumeration-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Do not disclose whether a user is registered with your site](username-enumeration-good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Do not disclose whether a user is registered with your site"}
+  src="/uploads/rules/forgot-password/username-enumeration-good.png"
+/>

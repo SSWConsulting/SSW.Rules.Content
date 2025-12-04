@@ -1,19 +1,29 @@
 ---
-seoDescription: Long-running processes should be user-friendly by playing a sound, hiding the progress bar, and displaying a message box with a detailed summary at the end.
-type: rule
-archivedreason:
-title: Long Process - Do you know that you should provide a detailed summary, play a sound and hide the progress bar at the end?
-guid: 4927ee44-1fde-4479-a356-c07a6798b804
-uri: long-process-do-you-know-that-you-should-provide-a-detailed-summary-play-a-sound-and-hide-the-progress-bar-at-the-end
-created: 2012-11-27T03:07:01.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/design/rules-to-better-interfaces-windows-applications.mdx
+created: 2012-11-27 03:07:45+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 4927ee44-1fde-4479-a356-c07a6798b804
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Long-running processes should be user-friendly by playing a sound,
+  hiding the progress bar, and displaying a message box with a detailed summary at
+  the end.
+title: Long Process - Do you know that you should provide a detailed summary, play
+  a sound and hide the progress bar at the end?
+type: rule
+uri: long-process-do-you-know-that-you-should-provide-a-detailed-summary-play-a-sound-and-hide-the-progress-bar-at-the-end
 ---
 
 Whenever a long process is churning away (e.g. about 10 seconds) users will usually do something else, either make a coffee or switch to another window.
 
-<!--endintro-->
+<endIntro />
 
 Your application should remind the user to go back and check on it by:
 
@@ -25,32 +35,43 @@ See rule on [Do you know how to make long-running processes user-friendly?](/lon
 
 When using Message Box to indicate user a process is done, always includes detailed summary of the process. Don't just say "Process completed."
 
-::: greybox
-Process completed.  
-:::
-::: bad
-Figure: Bad example – No detailed information
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Process completed.
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example – No detailed information"}
+/>
+
 
 This is just like standing at a set of traffic lights listening for the beep to know when to walk, rather than constantly looking at the red and green lights.
 
-::: greybox
-Process completed.  
-Time Taken: 15 seconds  
-:::
-::: good  
-Figure: OK Example - A completed progress form  
-:::
 
-::: greybox
-100%  
+<boxEmbed
+  style="greybox"
+  body={<>
+    Process completed.
+Time Taken: 15 seconds
+  </>}
+  figurePrefix="good"
+  figure={"OK Example - A completed progress form"}
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    100%
 Manual extraction process completed.
 
-Mailboxes scanned: 8  
-Mailboxes skipped: 2  
-Total mailboxes: 10  
-Time Taken: 10 minutes, 15 seconds  
-:::
-::: good
-Figure: Good example – The user can see what has been processed
-:::
+Mailboxes scanned: 8
+Mailboxes skipped: 2
+Total mailboxes: 10
+Time Taken: 10 minutes, 15 seconds
+  </>}
+  figurePrefix="good"
+  figure={"Good example – The user can see what has been processed"}
+/>

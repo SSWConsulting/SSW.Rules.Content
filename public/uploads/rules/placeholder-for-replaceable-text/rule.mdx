@@ -2,6 +2,8 @@
 seoDescription: Learn the best way to indicate replaceable text in email templates using clear placeholders.
 type: rule
 title: Do you use the right character for replaceable text placeholders?
+categories:
+  - category: categories/communication/rules-to-better-technical-documentation.mdx
 uri: placeholder-for-replaceable-text
 authors:
   - title: Aman Kumar
@@ -12,22 +14,28 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
-created: 2022-07-29T17:13:28.570Z
+created: 2022-12-15T10:55:03.000Z
 redirects:
   - how-to-indicate-replaceable-text
 guid: 3c146b39-4bb1-4da1-845a-2f4d936d19ec
 
+lastUpdated: 2025-09-18T12:04:17.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Piers Sinclair [SSW]
+createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
+isArchived: false
 ---
 
 Email templates are an awesome way to help people save time writing emails. Often the template needs to indicate a piece of text that should be replaced with custom content. When you need to identify text that should be replaced (e.g. in an email template), it's important to use a consistent way of indicating the replaceable text with a placeholder.
 
 Use a consistent character to make it clear which piece of text should be substituted.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://youtu.be/uFLnYo_z6Pw`
 
-**Video: Choose the Best Text Placeholders (3 min)**
+<youtubeEmbed url="https://youtu.be/uFLnYo_z6Pw" description={"Video: Choose the Best Text Placeholders (3 min)"} />
+
 
 However, everyone has their own preferences about which placeholder character to use 🥸
 
@@ -39,7 +47,7 @@ For example:
 * SQL developers are used to [ ]
 * Word Mail Merge users are used to « »
 * API and React developers are used to \{ }
-* Angular developers are used to {{ }}
+* Angular developers are used to &#123;&#123; &#125;&#125;
 * Visual Studio code reviewers are used to TODO:
 
 Let's see these in action:
@@ -50,8 +58,8 @@ Let's see these in action:
 * The quick brown fox [ action ] over the lazy dog
 * The quick brown fox « action » over the lazy dog
 * The quick brown fox \{ action } over the lazy dog
-* The quick brown fox {{ action }} over the lazy dog
-* The quick brown fox {{ ACTION }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
+* The quick brown fox &#123;&#123; action &#125;&#125; over the lazy dog
+* The quick brown fox &#123;&#123; ACTION &#125;&#125; over the lazy dog (currently the standard in SugarLearning and SSW Rules)
 * The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
@@ -62,7 +70,7 @@ Using `[]` for replaceable text can be confusing since there is already the comm
 
 \{ } are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
-[Angular interpolation uses {{ and }} as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
+[Angular interpolation uses &#123;&#123; and &#125;&#125; as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
 
 So, double curly brackets are recommended instead of square brackets to indicate replaceable text.
 
@@ -74,46 +82,44 @@ Another way to draw attention to text is to make the placeholder all caps.
 
 Replaceable text is often seen in email templates:
 
-::: email-template  
-
-|          |     |
-| -------- | --- |
-| To:      | \[Client email\] |
-| Subject: | \[Project name\] - Test please |  
-::: email-content  
-
-### Hi \[Client name\]  
+<emailEmbed
+  from=""
+  to="\\[Client email\\]"
+  cc=""
+  bcc=""
+  subject="\\[Project name\\] - Test please"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi \[Client name\]
 
 I've been working on \[Project name\] and just deployed version \[Version number\] with the latest requirements.
 
 1. Test please - \[Link\]
 
-Regards,  
+Regards,
 \[Your name\]
-:::  
-:::  
-::: bad  
-Figure: Bad example - Using square brackets for replaceable text
-:::
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example - Using square brackets for replaceable text"}
+/>
 
-::: email-template  
+<emailEmbed
+  from=""
+  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Test please"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
-|          |     |
-| -------- | --- |
-| To:      | {{ CLIENT EMAIL }} |
-| Subject: | {{ PROJECT NAME }} - Test please |  
-::: email-content  
+I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed version &#123;&#123; VERSION NUMBER &#125;&#125; with the latest requirements.
 
-### Hi {{ CLIENT NAME }}  
+1. Test please - &#123;&#123; LINK &#125;&#125;
 
-I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
-
-1. Test please - {{ LINK }}
-
-Regards,  
-{{ YOUR NAME }}
-:::  
-:::  
-::: good  
-Figure: Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE
-:::
+Regards,
+&#123;&#123; YOUR NAME &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE"}
+/>

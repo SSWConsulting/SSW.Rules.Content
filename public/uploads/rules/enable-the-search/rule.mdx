@@ -2,21 +2,36 @@
 seoDescription: Enable search functionality in Outlook Web App (OWA) by ensuring Microsoft Exchange Search service is running and configuring the IndexEnabled parameter for the mailbox database.
 type: rule
 title: Do you enable the search in OWA?
+categories:
+  - category: categories/software-engineering/rules-to-better-exchange-server.mdx
 uri: enable-the-search
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
-created: 2014-03-14T03:40:00.000Z
+created: 2024-04-23T17:07:41.000Z
 guid: 0e902951-0ab8-41e2-acfa-8230ddea5ac4
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 If search is not enabled you will get this message in OWA:
 
-::: greybox
-"Search results may take a long time to appear because Microsoft Exchange Search is unavailable. Results will not include matches in the email body."
-:::
 
-<!--endintro-->
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Search results may take a long time to appear because Microsoft Exchange Search is unavailable. Results will not include matches in the email body."
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
+
+<endIntro />
 
 This is how you fix it:
 
@@ -34,7 +49,7 @@ This is how you fix it:
 **To Rebuild the Full-Text Index Catalog Using the ResetSearchIndex.ps1 Script**
 
 1. Start the Exchange Management Shell.
-2. _ResetSearchIndex.ps1 -force -all_  
+2. _ResetSearchIndex.ps1 -force -all_
    Wait a couple of minutes to the index be created
-3. Run the command to verify if the index was created  
+3. Run the command to verify if the index was created
    _GetSearchIndexForDatabase -All_

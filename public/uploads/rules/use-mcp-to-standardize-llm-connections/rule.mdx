@@ -1,29 +1,49 @@
 ---
-type: rule
-title: Do you use MCP to standardize connections between your LLMs/Agents and external services?
-seoDescription: Learn why using the Model Context Protocol (MCP) is a game-changer for connecting LLMs and agents to external services in a standardized, scalable way.
-uri: use-mcp-to-standardize-llm-connections
-related: 
- - mcp-server
- - use-ai-manage-backlog
 authors:
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani/
-  - title: Louis Roa
-    url: https://www.ssw.com.au/people/louis-roa/
-  - title: Anton Polkanov
-    url: https://www.ssw.com.au/people/anton-polkanov/
-created: 2025-04-23T12:04:00.000Z
+- title: Hajir Lesani
+  url: https://www.ssw.com.au/people/hajir-lesani/
+- title: Louis Roa
+  url: https://www.ssw.com.au/people/louis-roa/
+- title: Anton Polkanov
+  url: https://www.ssw.com.au/people/anton-polkanov/
+categories:
+- category: categories/artificial-intelligence/rules-to-better-ai.mdx
+created: 2025-04-23 05:55:49+00:00
+createdBy: Louis Roa [SSW]
+createdByEmail: 149936952+louisroa8189@users.noreply.github.com
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
+isArchived: false
+lastUpdated: 2025-10-19 21:38:32+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/mcp-server/rule.mdx
+- rule: public/uploads/rules/use-ai-manage-backlog/rule.mdx
+seoDescription: Learn why using the Model Context Protocol (MCP) is a game-changer
+  for connecting LLMs and agents to external services in a standardized, scalable
+  way.
+title: Do you use MCP to standardize connections between your LLMs/Agents and external
+  services?
+type: rule
+uri: use-mcp-to-standardize-llm-connections
 ---
 
 Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice.
 
 Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: MCP Architecture ](mcp.png "MCP Architecture")
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"MCP Architecture"}
+  src="/uploads/rules/use-mcp-to-standardize-llm-connections/mcp.png"
+/>
+
 
 **Image credit:** [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/)
 
@@ -49,9 +69,16 @@ The main components:
 
 **4. Backend API** - The actual external service like Slack, GitHub, or your internal CRM
 
-::: greybox
-**Flow:** Host ⇨ MCP Client ⇨ MCP Server ⇨ External API
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Flow:** Host ⇨ MCP Client ⇨ MCP Server ⇨ External API
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ### ✅ Benefits of using MCP
 
@@ -61,9 +88,16 @@ The main components:
 * **Improved reliability** - Core logic lives in server code, not fragile prompt text
 * **Chaining tools** - Create powerful workflows by chaining steps (e.g. summarize a spreadsheet, post result to Slack) as a single tool
 
-::: greybox
-Your LLM needs to talk to Slack, GitHub, and your internal support ticketing system. Without MCP, you'd build 3 custom plugins. With MCP, you build 3 connectors into the MCP server, and **every agent instantly gets access**.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Your LLM needs to talk to Slack, GitHub, and your internal support ticketing system. Without MCP, you'd build 3 custom plugins. With MCP, you build 3 connectors into the MCP server, and **every agent instantly gets access**.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ### Tools, prompts, resources – all in one protocol
 
@@ -135,6 +169,6 @@ More servers can be found on [MCP Server Directory](https://www.pulsemcp.com/ser
 
 ---
 
-## Need help connecting your proprietary services?  
+## Need help connecting your proprietary services?
 
 📩 [Reach out to SSW](https://www.ssw.com.au/consulting/artificial-intelligence) – we'll help you build a robust, scalable MCP server.

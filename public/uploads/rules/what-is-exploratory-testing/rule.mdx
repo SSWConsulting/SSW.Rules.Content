@@ -1,16 +1,25 @@
 ---
-seoDescription: Exploratory testing is a systematic approach that combines learning, designing, and executing tests concurrently to uncover product issues.
-type: rule
-title: Do you know what “exploratory testing” is?
-uri: what-is-exploratory-testing
 authors:
-  - title: Lee Hawkins
-    url: https://www.ssw.com.au/people/lee-hawkins
-related:
-  - why-testing-cannot-be-completely-automated
-  - do-you-do-exploratory-testing
-created: 2022-10-20T23:14:34.486Z
+- title: Lee Hawkins
+  url: https://www.ssw.com.au/people/lee-hawkins
+categories:
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2022-10-21 18:51:19+00:00
+createdBy: Lee Hawkins [SSW]
+createdByEmail: 106290015+leehawkinsssw@users.noreply.github.com
 guid: b409cb23-a3d1-4cde-a9e4-a43c7d39cfe5
+isArchived: false
+lastUpdated: 2022-10-21 18:51:19+00:00
+lastUpdatedBy: Lee Hawkins [SSW]
+lastUpdatedByEmail: 106290015+leehawkinsssw@users.noreply.github.com
+related:
+- rule: public/uploads/rules/why-testing-cannot-be-completely-automated/rule.mdx
+- rule: public/uploads/rules/do-you-do-exploratory-testing/rule.mdx
+seoDescription: Exploratory testing is a systematic approach that combines learning,
+  designing, and executing tests concurrently to uncover product issues.
+title: Do you know what “exploratory testing” is?
+type: rule
+uri: what-is-exploratory-testing
 ---
 
 Exploratory testing is an approach to testing that fits very well into agile teams and maximises the time the tester spends interacting with the software in search of problems that threaten the value of the software.
@@ -19,7 +28,7 @@ Exploratory testing is often confused with random _ad hoc_ approaches, but it ha
 
 Let's dig deeper, look into why this approach is so important, and dispel some of the myths around this testing approach.
 
-<!--endintro-->
+<endIntro />
 
 ### Definition
 
@@ -33,7 +42,16 @@ Other definitions of exploratory testing focus on the idea of learning, test des
 
 Exploratory testing affords testers the opportunity to use their skills and experience to unearth deeper problems in the software under test.
 
-![Figure: Explore to learn about the "unknown unknowns"](unknowns.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Explore to learn about the \"unknown unknowns\""}
+  src="/uploads/rules/what-is-exploratory-testing/unknowns.png"
+/>
+
 
 Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed.
 
@@ -43,7 +61,16 @@ It is often the case that the most serious problems in the software reside in th
 
 No matter how you currently perform testing within your team, your approach will belong somewhere on a continuum from a purely scripted form of testing to a fully exploratory form of testing:
 
-![Figure: The continuum from pure scripted to full exploratory testing](continuum.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"The continuum from pure scripted to full exploratory testing"}
+  src="/uploads/rules/what-is-exploratory-testing/continuum.jpg"
+/>
+
 
 A purely scripted approach is favoured by the "factory" school of testing, where scripts are created in advance based on the requirements documentation and are then executed against the software later, potentially by someone different than the author. The idea here is that everything can be known in advance and coverage is known and guaranteed via the prescriptive steps in the test case. This approach is obviously very rigid and does not account well for when unexpected things happen during execution of the script or for the fact that different testers will execute the exact same steps differently (breaking the so-called benefit of "reproducibility" in purely scripted testing).
 

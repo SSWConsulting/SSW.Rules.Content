@@ -1,25 +1,32 @@
 ---
-seoDescription: Optimize your database by managing denormalized fields with triggers to enhance query performance.
-type: rule
-archivedreason: 
-title: Schema - Do you use triggers for denormalized fields?
-guid: 4385ff40-f78d-4d6d-8328-604927b807a8
-uri: use-triggers-for-denormalized-fields
-created: 2019-11-06T18:13:04.0000000Z
+archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-06 18:13:05+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 4385ff40-f78d-4d6d-8328-604927b807a8
+isArchived: false
+lastUpdated: 2023-12-13 23:00:00+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - schema-do-you-use-triggers-for-denormalized-fields
-
+seoDescription: Optimize your database by managing denormalized fields with triggers
+  to enhance query performance.
+title: Schema - Do you use triggers for denormalized fields?
+type: rule
+uri: use-triggers-for-denormalized-fields
 ---
 
 Ideally you should be using computed columns as per [Do you use computed columns rather than denormalized fields?](/use-computed-columns-rather-than-denormalized-fields)
 
 You can also have a denormalized field that is manually updated. This should be the exception and not the rule.  When used properly and sparingly, they can actually improve your application's performance.
 
-<!--endintro-->
+<endIntro />
 
 As an example:
 
@@ -51,7 +58,7 @@ AS
 DECLARE @OrderID varchar (5)
 SELECT @OrderID = OrderID from inserted
 UPDATE Orders
-SET Orders.SumOfOrderItems = Orders.SumOfOrderItems + 
+SET Orders.SumOfOrderItems = Orders.SumOfOrderItems +
 (SELECT isnull(SUM(ItemValue),0) FROM inserted WHERE inserted.OrderID = Orders.OrderID)
 WHERE Orders.OrderID = @OrderID
 ```
@@ -69,7 +76,7 @@ SELECT @OrderID = OrderID from deleted
 UPDATE Orders
 SET Orders.SumOfOrderItems = Orders.SumOfOrderItems
 + (SELECT isnull(SUM(ItemValue),0) FROM inserted WHERE inserted.OrderID = Orders.OrderID)
-- (SELECT isnull(SUM(ItemValue),0) FROM deleted WHERE deleted.OrderID = Orders.OrderID) 
+- (SELECT isnull(SUM(ItemValue),0) FROM deleted WHERE deleted.OrderID = Orders.OrderID)
 WHERE Orders.OrderID = @OrderID
 ```
 
@@ -83,7 +90,7 @@ AS
 DECLARE @OrderID varchar (5)
 SELECT @OrderID = OrderID FROM deleted
 UPDATE Orders
-SET Orders.SumOfOrderItems = Orders.SumOfOrderItems - 
+SET Orders.SumOfOrderItems = Orders.SumOfOrderItems -
 (SELECT isnull(SUM(ItemValue),0) FROM deleted WHERE deleted.OrderID = Orders.OrderID)
 WHERE Orders.OrderID = @OrderID
 ```

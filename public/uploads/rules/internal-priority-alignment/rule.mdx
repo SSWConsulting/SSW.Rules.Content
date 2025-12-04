@@ -1,24 +1,32 @@
 ---
-seoDescription: 
-type: rule
-archivedreason:
-title: Do you have a Priority Alignment meeting?
-guid: ea9036b3-649f-4555-8a4b-8ba7de56de50
-uri: internal-priority-alignment
-created: 2024-10-11T00:00:00.0000000Z
+archivedreason: null
 authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-related:
-  - know-where-your-staff-are
-  - bench-master
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+- title: Gordon Beeming
+  url: https://ssw.com.au/people/gordon-beeming
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+categories:
+- category: categories/company-operations/rules-to-better-bench-management.mdx
+created: 2024-10-14 23:28:46+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
+guid: ea9036b3-649f-4555-8a4b-8ba7de56de50
+isArchived: false
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
+related:
+- rule: public/uploads/rules/know-where-your-staff-are/rule.mdx
+- rule: public/uploads/rules/bench-master/rule.mdx
+seoDescription: null
+title: Do you have a Priority Alignment meeting?
+type: rule
+uri: internal-priority-alignment
 ---
 
 [Bench Masters](/bench-master) are responsible for ensuring that developers get put on projects that align with the companies goals and the developers' career goals. This means they need to stay aligned with the company' stakeholders and keep them informed of the developers' focus.
@@ -28,68 +36,69 @@ This alignment can be achieved through a weekly meeting with the Bench Masters a
 
 The following meeting structure should be followed
 
-::: email-template  
-
-|          |                                                      |
-| -------- | ---------------------------------------------------- |
-| To:      | {{ COMPANY STAKEHOLDERS }}                           |
-| Subject: | ⚖️ Bench Master Priority Alignment - {{ DATE }} |
-::: email-content  
-
-Hey {{ COMPANY STAKEHOLDERS }},
+<emailEmbed
+  from=""
+  to="&#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;"
+  cc=""
+  bcc=""
+  subject="⚖️ Bench Master Priority Alignment - &#123;&#123; DATE &#125;&#125;"
+  shouldDisplayBody={true}
+  body={<>
+    Hey &#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;,
 
 1. Watch the recording
-    {{ RECORDING URL }}
+    &#123;&#123; RECORDING URL &#125;&#125;
 
 The goal is to use our internal devs on the best project.
 
-### Attendees
+## Attendees
 
-{{ ATTENDEES }}
+&#123;&#123; ATTENDEES &#125;&#125;
 
-### Summary - Have there been any staffing changes for any of our internal projects in the past week?
+## Summary - Have there been any staffing changes for any of our internal projects in the past week?
 
-* {{ PROJECT 1 }} - {{ STATUS 1 }}
-* {{ PROJECT 2 }} - {{ STATUS 2 }}
-* {{ PROJECT 3 }} - {{ STATUS 3 }}
-* ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
-* {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
+* &#123;&#123; PROJECT 1 &#125;&#125; - &#123;&#123; STATUS 1 &#125;&#125;
+* &#123;&#123; PROJECT 2 &#125;&#125; - &#123;&#123; STATUS 2 &#125;&#125;
+* &#123;&#123; PROJECT 3 &#125;&#125; - &#123;&#123; STATUS 3 &#125;&#125;
+* ❓&#123;&#123; PERSON 1 &#125;&#125; - from &#123;&#123; PREVIOUS PROJECT &#125;&#125; to &#123;&#123; NEW PROJECT &#125;&#125; - &#123;&#123; NOTE &#125;&#125;
+* &#123;&#123; PERSON 2 &#125;&#125; - Back on &#123;&#123; PROJECT NAME &#125;&#125; next &#123;&#123; DATE &#125;&#125;
 
-### 🛑 Blocked people (times we proxied for {{ COMPANY STAKEHOLDER }})
+## 🛑 Blocked people (times we proxied for &#123;&#123; COMPANY STAKEHOLDER &#125;&#125;)
 
-* {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
-* {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
+* &#123;&#123; BLOCKED PERSON 1 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
+* &#123;&#123; BLOCKED PERSON 2 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
 
-### ✅ The highlights
+## ✅ The highlights
 
-* {{ PERSON }} - {{ DETAILS }}
+* &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
 
-### ❌ The lowlights – any issues or concerns?
+## ❌ The lowlights – any issues or concerns?
 
-* {{ PERSON }} - {{ DETAILS }}
+* &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
 
-### Ad hoc topics
+## Ad hoc topics
 
-* {{ TOPIC }}
+* &#123;&#123; TOPIC &#125;&#125;
 
-### Priorities - any new tasks that need to get done and who should do it?
+## Priorities - any new tasks that need to get done and who should do it?
 
-Copy from last week and make changes as needed  
-Legend:  
-✅ Done since last meeting, remove in next week's summary  
-⭐️ New/Status Change since last meeting  
-⚠️ Warning - Something might not be correct here  
+Copy from last week and make changes as needed
+Legend:
+✅ Done since last meeting, remove in next week's summary
+⭐️ New/Status Change since last meeting
+⚠️ Warning - Something might not be correct here
 ❌ Remove next meeting - Consider removing these as the team is not working on it
 
 | **Product**         | **Projects**         | **Team**           |
 | ------------------- | -------------------- | ------------------ |
-| **{{ PRODUCT 1 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
-| **{{ PRODUCT 2 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
+| **&#123;&#123; PRODUCT 1 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
+| **&#123;&#123; PRODUCT 2 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
 
-<This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)>
-
-:::  
-:::
+&lt;This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)&gt;
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
 After the meeting, the Bench Masters should record a [quick summary](/summary-recording-sprint-reviews) and send it out to the stakeholders. This is especially important for stakeholders who couldn't attend.
 

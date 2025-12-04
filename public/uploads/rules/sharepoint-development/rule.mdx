@@ -1,25 +1,37 @@
 ---
-type: rule
-tips: ""
-title: Do you follow SharePoint development best practices?
-seoDescription: Keep your SharePoint solutions maintainable, performant, and secure by following modern development best practices for both SharePoint Online and SharePoint Server (on-premises).
-uri: sharepoint-development
 authors:
-  - title: Jean Thirion
-    url: https://www.ssw.com.au/people/jean-thirion
-related:
-  - sharepoint-development-environment
+- title: Jean Thirion
+  url: https://www.ssw.com.au/people/jean-thirion
+categories:
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+created: 2025-07-25 06:40:57+00:00
+createdBy: Jean Thirion [SSW]
+createdByEmail: jeanthirion@ssw.com.au
 guid: a798aabe-e307-4c9b-9ded-74683b827cc7
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/sharepoint-development-environment/rule.mdx
+seoDescription: Keep your SharePoint solutions maintainable, performant, and secure
+  by following modern development best practices for both SharePoint Online and SharePoint
+  Server (on-premises).
+tips: ''
+title: Do you follow SharePoint development best practices?
+type: rule
+uri: sharepoint-development
 ---
+
 Rolling out SharePoint solutions without a disciplined approach quickly creates brittle customisations, blocked release pipelines, and unhappy users.
 
-<!--endintro-->
+<endIntro />
 
 ## 1. Use SharePoint Framework (SPFx)
 
 SPFx delivers modern client-side web parts and extensions that run natively in SharePoint Online and in SharePoint 2016/2019
 
-See []Overview of the SharePoint Framework(<https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518>).
+See []Overview of the SharePoint Framework([https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518)).
 
 For SharePoint Data, use [PnPjs](https://pnp.github.io/pnpjs). Use Graph APIs, custom graph connectors or even your own APIs to retrieve data as needed.
 
@@ -27,13 +39,15 @@ For SharePoint Data, use [PnPjs](https://pnp.github.io/pnpjs). Use Graph APIs, c
 
 Script Editor webparts are deprecated, avoid using "modern" replacements found online
 
-::: bad
-![Figure: Bad example – Injecting scripts bypasses governance and often breaks modern pages](2025-07-24_11-40-54.png)
-:::
-
-::: good
-Good example - Use out of the box replacements: [Where are the Content editor and Script editor web parts in SharePoint?](https://support.microsoft.com/en-us/office/where-are-the-content-editor-and-script-editor-web-parts-in-sharepoint-ed6cc9ce-8b2a-480c-a655-1b9d7615cdbd)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example – Injecting scripts bypasses governance and often breaks modern pages"}
+  src="/uploads/rules/sharepoint-development/2025-07-24_11-40-54.png"
+/>
+**✅ Good example - Use out of the box replacements: [Where are the Content editor and Script editor web parts in SharePoint?](https://support.microsoft.com/en-us/office/where-are-the-content-editor-and-script-editor-web-parts-in-sharepoint-ed6cc9ce-8b2a-480c-a655-1b9d7615cdbd)**  
 
 ## 3. Don't use add-ins (retirement planned for 2026)
 
@@ -63,7 +77,7 @@ If you want to customize SharePoint look and feel:
 
 ❌ Do not rely on undocumented DOM markup that can change without warning.
 
-✅ Use theme JSON, header/footer extensions, or the SharePoint Look Book.  
+✅ Use theme JSON, header/footer extensions, or the SharePoint Look Book.
 
 ## 6. Respect the service boundary
 

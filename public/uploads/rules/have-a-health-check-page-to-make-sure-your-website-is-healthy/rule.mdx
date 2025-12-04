@@ -1,30 +1,39 @@
 ---
-seoDescription: Ensure your website's health by having a Health Check page with /zsValidate to prevent deployment errors and identify coding mistakes.
-type: rule
-title: Do you have a Health Check page (from /zsValidate) to make sure your website is healthy?
-uri: have-a-health-check-page-to-make-sure-your-website-is-healthy
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-related: []
-redirects:
-  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
-  - do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
-  - do-you-have-a-healthcheck-page-(from-zsvalidate)-to-make-sure-your-website-is-healthy
-created: 2016-11-28T18:46:01.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+categories:
+- category: categories/software-engineering/rules-to-better-websites-tuning-and-maintenance.mdx
+created: 2025-05-22 01:13:57+00:00
+createdBy: Matt Wicks [SSW]
+createdByEmail: wicksipedia@users.noreply.github.com
 guid: d1d9fb82-25d3-43e8-98d7-2a4d5bee24e8
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+- do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
+- do-you-have-a-healthcheck-page-(from-zsvalidate)-to-make-sure-your-website-is-healthy
+seoDescription: Ensure your website's health by having a Health Check page with /zsValidate
+  to prevent deployment errors and identify coding mistakes.
+title: Do you have a Health Check page (from /zsValidate) to make sure your website
+  is healthy?
+type: rule
+uri: have-a-health-check-page-to-make-sure-your-website-is-healthy
 ---
 
 Websites can be complicated, and a very small mistake can take the whole site down. But there are two different kinds of errors, coding errors and deployment errors; coding errors should be picked up by compiling and debugging, while deployment errors should be picked up by the Health Check page.
 
 Whenever there is a deployment problem, instead of fixing it straight away, we find out what the cause of the problem is and create a Health Check test to prevent it from happening again. So next time, when the site is down or re-deployed to a new server, we can simply run the Health Check page and fix all red crosses then the site should be back online.
 
-<!--endintro-->
+<endIntro />
 
 .NET Core has the ability to add a health check to your application and can be configured for a variety of real-time monitoring scenarios:
 
@@ -43,20 +52,82 @@ It also includes UI (which is themable) and the UI supports automatic discovery 
 
 Best of all they have a [Release Gate available on the DevOps market place](https://marketplace.visualstudio.com/items?itemName=luisfraile.vss-services-aspnetcorehealthcheck-extensions) for the release pipelines.
 
-![Figure: Sample Health Checks page](ui-branding.png)
 
-![Figure: Sample Health of an endpoint being viewed in a timeline, so I can see when a resource was last healthy](timeline.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Sample Health Checks page"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/ui-branding.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Sample Health of an endpoint being viewed in a timeline, so I can see when a resource was last healthy"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/timeline.png"
+/>
+
 
 ### Other products using validation status
 
-![Figure: Microsoft Service Health - admin.microsoft.com/servicestatus](microsoft-service-health.jpg)
 
-![Figure: Google Workspace Status Dashboard - www.google.com/appsstatus/dashboard](google-workspace-status.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Microsoft Service Health - admin.microsoft.com/servicestatus"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/microsoft-service-health.jpg"
+/>
 
-![Figure: Apple System Status - www.apple.com/au/support/systemstatus](apple-system-status.jpg)
 
-![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Google Workspace Status Dashboard - www.google.com/appsstatus/dashboard"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/google-workspace-status.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Apple System Status - www.apple.com/au/support/systemstatus"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/apple-system-status.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"MailChimp status - status.mailchimp.com"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/mailchimp-status.jpg"
+/>
+
 
 See [Do you have a Health Check page to test your website dependencies?](/have-a-health-check-page-to-test-your-website-dependencies)
 
-![Figure: Check everything with care](check-everything.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Check everything with care"}
+  src="/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/check-everything.jpg"
+/>

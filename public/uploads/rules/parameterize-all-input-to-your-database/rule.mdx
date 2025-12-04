@@ -1,32 +1,37 @@
 ---
-seoDescription: Do you parameterize all input to your database? It's essential to safeguard against SQL injection attacks and improve query performance by reducing the number of query plans.
-type: rule
-archivedreason:
-title: Do you parameterize all input to your database?
-guid: 34c49f46-1057-42b1-8436-f8c0a05af103
-uri: parameterize-all-input-to-your-database
-created: 2020-03-18T23:01:46.0000000Z
+archivedreason: null
 authors:
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related: []
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2020-03-18 23:01:48+00:00
+createdBy: ChristianMWaite
+createdByEmail: ChristianMWaite@ssw.com.au
+guid: 34c49f46-1057-42b1-8436-f8c0a05af103
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-parameterize-all-input-to-your-database
+- do-you-parameterize-all-input-to-your-database
+seoDescription: Do you parameterize all input to your database? It's essential to
+  safeguard against SQL injection attacks and improve query performance by reducing
+  the number of query plans.
+title: Do you parameterize all input to your database?
+type: rule
+uri: parameterize-all-input-to-your-database
 ---
 
 It is important to parameterize all input to your database and it’s easy to implement.
 Doing so will also reduce a lot of headaches down the track.
 
-![](ParameterizeSqlInputsXKCD.png) **Figure: What can happen if you don’t parameterize your inputs
+![](/uploads/rules/parameterize-all-input-to-your-database/ParameterizeSqlInputsXKCD.png) **Figure: What can happen if you don’t parameterize your inputs
 Source: [xkcd.com](https://xkcd.com/327/)
 **
 
-<!--endintro-->
-
-::: good
-Advantages
-
-:::
+<endIntro />
+**✅ Advantages**  
 
 * Prevents SQL injection attacks
 * Preserves types being sent to the database
@@ -38,22 +43,14 @@ SELECT Id, CompanyName, ContactName, ContactTitle
 FROM dbo.Customers
 WHERE CompanyName = 'NorthWind';
 ```
-
-::: bad
-Figure: Bad Example - Using a dynamic SQL query
-
-:::
+**❌ Figure: Bad Example - Using a dynamic SQL query**  
 
 ```sql
 SELECT Id, CompanyName, ContactName, ContactTitle
 FROM dbo.Customers
 WHERE CompanyName = @companyName;
 ```
-
-::: good
-Figure: Good Example - Using a parameterized query
-
-:::
+**✅ Figure: Good Example - Using a parameterized query**  
 
 ### Should I use Parameters.AddWithValue()?
 
@@ -65,35 +62,19 @@ Implementing parameterized queries using Parameters.Add()
 ```sql
 cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = “Text”;
 ```
-
-::: good
-Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)
-
-:::
+**✅ Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)**  
 
 ```sql
 cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value = decimalValue;
 ```
-
-::: good
-Figure: Good Example – Using decimal(11,4) SQL Parameter
-
-:::
+**✅ Figure: Good Example – Using decimal(11,4) SQL Parameter**  
 
 ```sql
 cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = DateTime.UtcNow;
 ```
-
-::: good
-Figure: Good Example - C#, VB .NET SQL DateTime Parameter
-
-:::
+**✅ Figure: Good Example - C#, VB .NET SQL DateTime Parameter**  
 
 ```sql
 $SqlCmd.Parameters.Add("@dateTimeValue", [System.Data.SqlDbType]::DateTime2).Value = $dateTime2Value
 ```
-
-::: good
-Figure: Good Example - PowerShell SQL DateTime Parameter
-
-:::
+**✅ Figure: Good Example - PowerShell SQL DateTime Parameter**

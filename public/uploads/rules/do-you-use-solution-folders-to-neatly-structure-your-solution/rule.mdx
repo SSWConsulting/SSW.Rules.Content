@@ -1,38 +1,46 @@
 ---
-seoDescription: Use Solution Folders to neatly structure your .NET projects, making it easier to manage and locate solution items.
-type: rule
-archivedreason:
-title: Do you use Solution Folders to Neatly Structure your Solution?
-guid: 1196f685-2c8d-43ec-b2bd-108b722f4d1e
-uri: do-you-use-solution-folders-to-neatly-structure-your-solution
-created: 2009-04-27T08:57:42.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2009-12-04 08:53:23+00:00
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
+guid: 1196f685-2c8d-43ec-b2bd-108b722f4d1e
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Use Solution Folders to neatly structure your .NET projects, making
+  it easier to manage and locate solution items.
+title: Do you use Solution Folders to Neatly Structure your Solution?
+type: rule
+uri: do-you-use-solution-folders-to-neatly-structure-your-solution
 ---
 
 All the DLL references and files needed to create a setup.exe should be included in your solution. However, just including them as solution items is not enough, they will look very disordered (especially when you have a lot of solution items). And from the screenshot below, you might be wondering what the \_Instructions.docx is used for...
 
-<!--endintro-->
+<endIntro />
 
-![](SSW - Rules .NET Projects - Bad Solution.png)
+![](/uploads/rules/do-you-use-solution-folders-to-neatly-structure-your-solution/SSW - Rules .NET Projects - Bad Solution.png)
+**❌ Bad example - An unstructured solution folder
 
-::: bad
-Bad example - An unstructured solution folder  
-:::
-
-An ideal way is to create "sub-solution folders" for the solution items, the common ones are "References" and "Setup". This will make your solution items look neat and in order. Look at the screenshot below, now it makes sense, we know that the \_Instructions.docx contains the instructions of what to do when creating a setup.exe.
-![](SSW - Rules .NET Projects - Good Solution.png)
-
-::: good
-Good example - A well structured solution folder has 2 folders - "References" and "Setup"
-
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure={""}
+  src="/uploads/rules/do-you-use-solution-folders-to-neatly-structure-your-solution/SSW - Rules .NET Projects - Good Solution.png"
+/>
+ good
+Good example - A well structured solution folder has 2 folders - "References" and "Setup"**  
 
 | We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
 | ----------------------------------------------------------------------------------------------------------------------- |

@@ -1,53 +1,94 @@
 ---
-seoDescription: Ensure your reports respect users' language settings by setting 'Language' to "=User!Language" for automatic regional culture detection, enhancing accessibility across diverse regions.
-type: rule
-archivedreason:
-title: Internationalization - Do you make sure your language follows the user's regional settings?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-08-02 06:58:35+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: ea1e46de-369e-4b4b-bb41-18ee507f56ec
-uri: ensure-language-follows-user-regional-settings
-created: 2024-08-02T11:08:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-- when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2025-02-05 12:22:27+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Ensure your reports respect users' language settings by setting 'Language'
+  to "=User!Language" for automatic regional culture detection, enhancing accessibility
+  across diverse regions.
+title: Internationalization - Do you make sure your language follows the user's regional
+  settings?
+type: rule
+uri: ensure-language-follows-user-regional-settings
 ---
 
 Developers too often change the 'Language' settings on reports in order to make it look ok for how they want to see it. Without realizing that they are now not supporting multiple cultures.
 
-<!--endintro-->
+<endIntro />
 
 To do this, you need to set the 'Language' to **"=User!Language"**. Then the report will recognize user client's culture settings, e.g. IE's languages settings.
 
 Now you can specify this on either the culture sensitive controls or the whole report. Generally, is better specify this property on the whole report.
 
-::: bad  
-![Figure: Bad example - 'Language' setting is set to a specific culture](RSRulesLanguage4.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - 'Language' setting is set to a specific culture"}
+  src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage4.jpg"
+/>
 
-::: good  
-![Figure: Good example - 'Language' setting is set to '=User!Language' to detect user's culture automatically](RSRulesLanguage3.jpg)
-:::
 
-::: good  
-![Figure: Good example - The data respects user's Language preference of IE in this case English (Australia)](RSRulesLanguage1.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - 'Language' setting is set to '=User!Language' to detect user's culture automatically"}
+  src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage3.jpg"
+/>
 
-::: good  
-![Figure: Good example - Likewise the data also respects user's Language preference of IE in this case Chinese (China)](RSRulesLanguage2.jpg)
-:::
 
-::: info
-**Warning: Adding the 'User' who printed the report, stops all data-driven subscriptions**
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - The data respects user's Language preference of IE in this case English (Australia)"}
+  src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage1.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Likewise the data also respects user's Language preference of IE in this case Chinese (China)"}
+  src="/uploads/rules/ensure-language-follows-user-regional-settings/RSRulesLanguage2.jpg"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Warning: Adding the 'User' who printed the report, stops all data-driven subscriptions**
 
 When you try to add the 'User' your data-driven subscriptions fail with the following error:
 
-> 'The '/GroupHealth' report has user profile dependencies and cannot be run unattended. (rsHasUserProfileDependencies)'.
+&gt; 'The '/GroupHealth' report has user profile dependencies and cannot be run unattended. (rsHasUserProfileDependencies)'.
 
 The reason is the report doesn't know which language to choose. The workaround is to add a user function to fallback the error to a default language, like: "en-AU"
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ``` js
 Public Function Language()
@@ -56,9 +97,6 @@ Public Function Language()
     Catch
         Return "en-AU"
     End Try
-End Function   
+End Function
 ```
-
-::: good  
-Good example - Use above function to replace your reference to "Report.User!Language"/. It allows the subscription to work correctly
-:::
+**✅ Good example - Use above function to replace your reference to "Report.User!Language"/. It allows the subscription to work correctly**

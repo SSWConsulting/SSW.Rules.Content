@@ -1,60 +1,69 @@
 ---
-seoDescription: Do you send "As Per Our Conversation" emails to ensure important conversations are documented and decisions are confirmed?
-type: rule
-title: Do you send "As Per Our Conversation" emails?
-uri: as-per-our-conversation-emails
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-related:
-  - do-you-know-when-to-do-use-checked-by-xxx
-  - do-you-manage-up
-  - quality-do-you-know-how-to-request-a-test-please
-  - conduct-a-test-please
-  - do-you-seek-clarification-via-the-telephone-first
-  - warn-then-call
-  - do-you-prepare-then-confirm-conversations-decisions
-redirects:
-  - do-you-send-＂as-per-our-conversation＂-emails
-  - do-you-send-as-per-our-conversation-emails
-created: 2009-08-18T06:58:46.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2021-10-08 00:51:01+00:00
+createdBy: Jake Bayliss
+createdByEmail: 32888060+jakebayliss@users.noreply.github.com
 guid: f88e2745-24a0-4922-9bbe-ef831fd7fa64
+isArchived: false
+lastUpdated: 2024-06-11 00:27:00+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-send-＂as-per-our-conversation＂-emails
+- do-you-send-as-per-our-conversation-emails
+related:
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+- rule: public/uploads/rules/do-you-manage-up/rule.mdx
+- rule: public/uploads/rules/request-a-test-please/rule.mdx
+- rule: public/uploads/rules/conduct-a-test-please/rule.mdx
+- rule: public/uploads/rules/seek-clarification-via-phone/rule.mdx
+- rule: public/uploads/rules/warn-then-call/rule.mdx
+- rule: public/uploads/rules/do-you-prepare-then-confirm-conversations-decisions/rule.mdx
+seoDescription: Do you send "As Per Our Conversation" emails to ensure important conversations
+  are documented and decisions are confirmed?
+title: Do you send "As Per Our Conversation" emails?
+type: rule
+uri: as-per-our-conversation-emails
 ---
 
 Always follow up **important** conversations (usually via phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
 
-When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“<mark>checked by XXX</mark>”](/checked-by-xxx) at the top before sending.
+When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“==checked by XXX==”](/checked-by-xxx) at the top before sending.
 
-<!--endintro-->
+<endIntro />
 
 Watch the video below and see how a single email can make your job easier.
 
-`youtube: https://www.youtube.com/embed/falcO6smD_8`
-**Video: Do you send "As Per Our Conversation" emails? (2 min)**
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | John |
-| Subject: | Spec Review for Northwind |
-::: email-content
+<youtubeEmbed url="https://www.youtube.com/embed/falcO6smD_8" description={"Video: Do you send \"As Per Our Conversation\" emails? (2 min)"} />
 
-### Hi John
 
-<mark>As per our conversation,</mark> I am going to offer the client a Spec Review for {{ $ }}
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
 
-:::
-:::
-::: good
-Figure: Good example - Using "As per our conversation" email
-:::
+==As per our conversation,== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Using \"As per our conversation\" email"}
+/>
 
 This is not just a 'cover my ass' email. This is for several reasons:
 
@@ -69,14 +78,21 @@ Use this approach internally and with clients. As a result, expect to see "as pe
 * Include URLs that were referred to
 * Can be referred back to in the future
 
-::: info
-**Notes:**
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Notes:**
 
 * This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
 * Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
 * For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
 
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 It's easy to fall into the trap of sounding rather robotic if you start every email with "As per our conversation", or "As per the message I just left on your mobile", etc. Here's a list of nice email openers that have the same effect:
 
@@ -99,73 +115,76 @@ In most cases, you don't want to be blocked by not being able to have a conversa
 
 In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | John |
-| Subject: | Spec Review for Northwind |
-::: email-content
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
 
-### Hi John
-
-<mark>I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for {{ $ }}
-
-:::
-:::
-::: good
-Figure: Good example - Email when you can't reach the person by calling
-:::
+==I tried calling you but didn't get through.== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Email when you can't reach the person by calling"}
+/>
 
 You should also send a quick message on Microsoft Teams with a brief summary of the decision you made, referencing the email you sent about the decision.
 
-::: good
-![Figure: Good example - Using Microsoft Teams when you can't reach the person by calling](teams-example-confirmation.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Using Microsoft Teams when you can't reach the person by calling"}
+  src="/uploads/rules/as-per-our-conversation-emails/teams-example-confirmation.png"
+/>
+
 
 ### Location - include the reason at the top
 
 When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | John |
-| Subject: | RE: PowerBi error |
-::: email-content
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="RE: PowerBi error"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
 
-### Hi John
+![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
 
-![Figure: Screenshot of Power BI error](powerbi-error.png)
+==I couldn't call you as I’m still in the hospital.==
 
-<mark>I couldn't call you as I’m still in the hospital.</mark>
+1. ==Can you fix this?==
+  </>}
+  figurePrefix="bad"
+  figure={"Bad example - Reason at the bottom"}
+/>
 
-1. <mark>Can you fix this?</mark>
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="RE: PowerBi error"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
 
-:::
-:::
-::: bad
-Figure: Bad example - Reason at the bottom
-:::
+==I couldn't call you as I’m still in the hospital.==
 
-::: email-template
-| | |
-| -------- | --- |
-| To: | John |
-| Subject: | RE: PowerBi error |
-::: email-content
+1. ==Can you fix this?==
 
-### Hi John
-
-<mark>I couldn't call you as I’m still in the hospital.</mark>
-
-1. <mark>Can you fix this?</mark>
-
-![Figure: Screenshot of Power BI error](powerbi-error.png)
-
-:::
-:::
-::: good
-Figure: Good example - Reason at the top
-:::
+![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Reason at the top"}
+/>
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

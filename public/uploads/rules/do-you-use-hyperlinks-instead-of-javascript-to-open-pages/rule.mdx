@@ -1,24 +1,34 @@
 ---
-seoDescription: Use hyperlinks to open new pages on your site instead of JavaScript, maintaining clickable links and ensuring users can access them regardless of their browser settings.
-type: rule
-archivedreason:
-title: Do you use Hyperlinks instead of JavaScript to open pages?
-guid: b075ee50-fa00-4974-a0cb-71d2b157886f
-uri: do-you-use-hyperlinks-instead-of-javascript-to-open-pages
-created: 2013-07-28T03:04:16.0000000Z
+archivedreason: null
 authors:
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-related:
-  - do-you-use-bundling-and-or-amd
-  - do-you-treat-javascript-like-a-real-language
-  - do-you-know-which-version-of-jquery-to-use
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2013-07-28 03:13:51+00:00
+createdBy: DamianBrady
+createdByEmail: DamianBrady@ssw.com.au
+guid: b075ee50-fa00-4974-a0cb-71d2b157886f
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+related:
+- rule: public/uploads/rules/do-you-use-bundling-and-or-amd/rule.mdx
+- rule: public/uploads/rules/do-you-treat-javascript-like-a-real-language/rule.mdx
+- rule: public/uploads/rules/do-you-know-which-version-of-jquery-to-use/rule.mdx
+seoDescription: Use hyperlinks to open new pages on your site instead of JavaScript,
+  maintaining clickable links and ensuring users can access them regardless of their
+  browser settings.
+title: Do you use Hyperlinks instead of JavaScript to open pages?
+type: rule
+uri: do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 ---
 
 If possible you should always use hyperlinks to open new pages on your site instead of using JavaScript.
 
-<!--endintro-->
+<endIntro />
 
 There are two good reasons for avoiding JavaScript-powered links:
 
@@ -28,15 +38,9 @@ There are two good reasons for avoiding JavaScript-powered links:
 ```html
 <div onclick="window.open('mynewpage.html');">Open a new page</div>
 ```
-
-::: bad
-Figure: Bad Example - This link can't be clicked on if you paste it into an email or if JavaScript is off  
-:::
+**❌ Figure: Bad Example - This link can't be clicked on if you paste it into an email or if JavaScript is off**  
 
 ```html
 <a href="mynewpage.html">Open a new page</a>
 ```
-
-::: good
-Figure: Good Example - This link can still be clicked on when pasted and when JavaScript is turned off  
-:::
+**✅ Figure: Good Example - This link can still be clicked on when pasted and when JavaScript is turned off**

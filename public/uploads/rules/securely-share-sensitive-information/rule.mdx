@@ -1,22 +1,31 @@
 ---
-seoDescription: Learn best practices for securely sharing sensitive information, including hosting recommendations.
-type: rule
-title: Do you securely share sensitive information?
-uri: securely-share-sensitive-information
 authors:
-  - title: Rob Thomlinson
-    url: https://ssw.com.au/people/rob-thomlinson
-created: 2024-12-11T13:42:55.753
+- title: Rob Thomlinson
+  url: https://ssw.com.au/people/rob-thomlinson
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+created: 2024-12-23 03:12:17+00:00
+createdBy: Rob Thomlinson [SSW]
+createdByEmail: RobThomlinson@ssw.com.au
 guid: 4612ecc6-00dc-4591-a087-680c57197706
+isArchived: false
+lastUpdated: 2024-12-26 22:33:58+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
-  - change-link-sharing-default-behaviour
-  - secure-password-share
-  - password-sharing-practices
+- rule: public/uploads/rules/change-link-sharing-default-behaviour/rule.mdx
+- rule: public/uploads/rules/secure-password-share/rule.mdx
+- rule: public/uploads/rules/password-sharing-practices/rule.mdx
+seoDescription: Learn best practices for securely sharing sensitive information, including
+  hosting recommendations.
+title: Do you securely share sensitive information?
+type: rule
+uri: securely-share-sensitive-information
 ---
 
 Sharing sensitive information is an essential part of any business, however sharing information securely is equally important, especially when files, videos or images can contain sensitive information. Without proper precautions, sensitive data can inadvertently become accessible to unauthorised parties, creating significant risks.
 
-<!--endintro-->
+<endIntro />
 
 ## Best practices for sharing sensitive information
 
@@ -61,8 +70,11 @@ Platforms like SharePoint and Stream adhere to strict security standards, but re
 
 ## Example
 
-::: greybox
-**Scenario:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Scenario:**
 You need to share a Sprint summary video with your team, and it contains client-sensitive information.
 
 **Steps:**
@@ -70,12 +82,26 @@ You need to share a Sprint summary video with your team, and it contains client-
 1. Upload the video to Microsoft Stream or SharePoint
 2. Set permissions to allow viewing only for specific team members
 3. Use the platform's secure sharing link feature, ensuring it's time-limited
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
-:::bad
-![Figure: Bad example - Sensitive Sprint summary uploaded as a private YouTube video, however confidential information is exposed](SecureSprintReviewsBad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Sensitive Sprint summary uploaded as a private YouTube video, however confidential information is exposed"}
+  src="/uploads/rules/securely-share-sensitive-information/SecureSprintReviewsBad.png"
+/>
 
-:::good
-![Figure: Good example - Sensitive Sprint summary uploaded to Microsoft Stream with confidential information redacted](SecureSprintReviews.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Sensitive Sprint summary uploaded to Microsoft Stream with confidential information redacted"}
+  src="/uploads/rules/securely-share-sensitive-information/SecureSprintReviews.png"
+/>

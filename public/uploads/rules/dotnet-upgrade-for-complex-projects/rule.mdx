@@ -1,25 +1,34 @@
 ---
-seoDescription: Migrate legacy .NET Framework projects to modern ASP.NET Core with Yarp proxy and .NET Upgrade Assistant.
-type: rule
 archivedreason: merged with a duplicate rule [https://www.ssw.com.au/rules/migration-plans/](/rules/migration-plans)
-title: Do you know how to handle complex .NET migrations?
-uri: dotnet-upgrade-for-complex-projects
 authors:
-  - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jernej-kavka
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Yazhi Chen
-    url: https://www.ssw.com.au/people/yazhi-chen
-  - title: Thomas Iwainski
-    url: https://www.ssw.com.au/people/thomas-iwainski/
-related:
-  - dotnet-upgrade-assistant
-  - migrate-from-system-web-to-modern-alternatives
-  - do-you-check-your-api-serialisation-format
-created: 2023-07-16T23:08:53.979Z
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  title: Jernej Kavka (JK)
+  url: https://ssw.com.au/people/jernej-kavka
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Yazhi Chen
+  url: https://www.ssw.com.au/people/yazhi-chen
+- title: Thomas Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski/
+categories:
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+created: 2023-05-25 08:47:35+00:00
+createdBy: Gordon Beeming [SSW]
+createdByEmail: gordonbeeming@ssw.com.au
 guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
+isArchived: true
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/dotnet-upgrade-assistant/rule.mdx
+- rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+- rule: public/uploads/rules/do-you-check-your-api-serialisation-format/rule.mdx
+seoDescription: Migrate legacy .NET Framework projects to modern ASP.NET Core with
+  Yarp proxy and .NET Upgrade Assistant.
+title: Do you know how to handle complex .NET migrations?
+type: rule
+uri: dotnet-upgrade-for-complex-projects
 ---
 
 There's not 1 single thing that makes a .NET project complex to migrate to the latest .NET Framework. Generally though it's a combination of the following:
@@ -39,7 +48,7 @@ This strategy results in a codebase that functions within the old .NET Framework
 
 Below you will find some tips and tricks to help you with your more complex migrations.
 
-<!--endintro-->
+<endIntro />
 
 # Preparation
 
@@ -75,7 +84,16 @@ What this will allow you to do is add your target framework and compile the code
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
 ```
 
-![Figure: Git changes for targeting to multiple target frameworks](target-to-multiple-TFMs.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Git changes for targeting to multiple target frameworks"}
+  src="/uploads/rules/dotnet-upgrade-for-complex-projects/target-to-multiple-TFMs.png"
+/>
+
 
 # Upgrading
 
@@ -105,7 +123,16 @@ There are several ways to migrate projects from ASP.NET to ASP.NET Core. We stro
 After you've [installed the .NET Upgrade Assistant extension](https://learn.microsoft.com/en-au/dotnet/core/porting/upgrade-assistant-install#install-the-visual-studio-extension?WT.mc_id=DT-MVP-33518),
 Right-click on the project in the Solution Explorer window, and select Upgrade.
 
-![Figure: Visual Studio context menu.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Visual Studio context menu."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef"
+/>
+
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
@@ -128,13 +155,31 @@ Once your app has been upgraded, a status screen is displayed which shows all of
 * **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
 * **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
 * **Red X**: The artifact was to be upgraded, but the upgrade failed.
-  ![Figure: Example results from an Upgrade Assistant upgrade.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57)
+  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Example results from an Upgrade Assistant upgrade."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57"
+/>
+
 
 After the Upgrade Assistant completes the upgrade you will find a new project in the solution running .NET 8. Upgrade Assistant pre-configured the project and installed any necessary packages it required to run side-by-side using the Yarp proxy.
 
 ### Configure Yarp
 
-![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"The new project architecture and request flow."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432"
+/>
+
 
 As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
 
@@ -174,23 +219,68 @@ app.Run();
 
 Once you have created the side-by-side project, select the project that needs migration and `right click` | `Upgrade` on it.
 
-![Figure: Context menu on the project to be migrated.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Context menu on the project to be migrated."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/3303daaf-0dea-4b34-9f59-53fd55acf2ef"
+/>
+
 
 Upgrade Assistant will show you a Summary view and detect that the project is linked to your Yarp proxy.
 You can also see the migration progress of your endpoints from .NET Framework to .NET as a pie chart.
 
-![Figure: Upgrade Assistant's Summary page.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Upgrade Assistant's Summary page."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8564c9a7-b3a7-4b40-b002-be9c6fabcb16"
+/>
+
 
 From here you can explore your endpoints through the `Endpoint explorer`, which will also indicate what endpoints have already been migrated and which ones are still outstanding.
-The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. ![Figure: Chain Icon](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8)
+The chain icon indicates that this endpoint has been migrated and is linked between the controller in the old project and the controller in the Yarp proxy project. 
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Chain Icon"}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/d89d7150-e0b3-4947-abeb-0e1f865ab6f8"
+/>
 
-![Figure: Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87)
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Endpoint Explorer showing the endoints between the old .NET Framework project and the new .NET Core project."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/15377711-45a9-41dd-88b5-c555b64e6a87"
+/>
+
 
 Use the `Upgrade` functionality to apply automatic code transformations and speed up the migration process.
 In the best-case scenario, the controller has been fully ported across and does not require any manual work.
 In most scenarios, you will need to review the controller and update any custom code that the Upgrade Assistant could not automatically transform.
 
-![Figure: Upgrade Assistant progress upgrading a controller.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Upgrade Assistant progress upgrading a controller."}
+  src="https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/51fab5b1-eed3-48b9-8bd3-5a611e568b20"
+/>
+
 
 ### Create PBIs to identify the upcoming tasks
 

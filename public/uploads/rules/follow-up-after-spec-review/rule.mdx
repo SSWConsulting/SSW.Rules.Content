@@ -2,21 +2,29 @@
 seoDescription: Scheduling a follow-up meeting after the Spec Review ensures alignment and smooth project kickoff.
 type: rule
 title: Do you schedule a follow-up meeting after the Spec Review?
+categories:
+  - category: categories/client-engagement/rules-to-better-specification-reviews.mdx
 uri: follow-up-after-spec-review
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Gert Marx
     url: https://www.ssw.com.au/people/gert-marx
-created: 2023-10-09T23:29:17.157Z
+created: 2023-10-10T00:19:33.000Z
 guid: 3018ed4d-a776-44ed-ad16-9afe0cdfee40
+lastUpdated: 2024-02-08T19:04:32.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Ulysses Maclaren [SSW]
+createdByEmail: 45545178+UlyssesMaclaren@users.noreply.github.com
+isArchived: false
 ---
 
 When a Spec Review concludes, the journey towards project kickoff is only partially complete. For instance, imagine a scenario where the client had multiple questions and slight hesitations about the estimates provided during the Spec Review. Without a structured follow-up, these hesitations could evolve into concerns, possibly stalling the project before it even begins.
 
 At the end of the Spec Review presentation with the client, work out a good time for the follow-up meeting and book it into their calendar immediately.
 
-<!--endintro-->
+<endIntro />
 
 ### Objectives of the follow-up meeting
 
@@ -26,14 +34,18 @@ The follow-up meeting is a crucial step in ensuring a smooth transition from the
 
 Revisit the MVP backlog to ensure there has been no shift in priorities. It's essential to keep the project aligned with the client's expectations and business objectives.
 
-::: greybox
-Client: _"We initially thought Feature A was crucial, but now we believe Feature B should take precedence."_
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Client: _"We initially thought Feature A was crucial, but now we believe Feature B should take precedence."_
 
 Account Manager: _"No problem, we can re-evaluate the backlog and adjust the estimates accordingly."_
-:::
-::: good
-Good example - Adapting to client’s evolving priorities maintains alignment and trust
-:::
+  </>}
+  figurePrefix="good"
+  figure={"Good example - Adapting to client’s evolving priorities maintains alignment and trust"}
+/>
+
 
 #### 2. Encouraging new insights
 
@@ -59,15 +71,15 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 
 To facilitate the scheduling of the follow-up meeting, here's a template that Account Managers can use:
 
-::: email-template
-
-|          |     |
-| -------- | --- |
-| Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up |
-| Required:| {{ CLIENT }}; {{ SPEC REVIEW DEVS }} |
-::: email-content  
-
-### Hi {{ CLIENT NAME }}
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject=""
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
 
 Thank you for your time during the Spec Review.
 
@@ -87,7 +99,7 @@ Please let us know if the proposed date and time work for you, or suggest an alt
 Looking forward it.
 
 Regards,
-
-:::
-:::
-**Figure: Follow up appointment after a Spec Review**
+  </>}
+  figurePrefix="none"
+  figure={"Follow up appointment after a Spec Review"}
+/>

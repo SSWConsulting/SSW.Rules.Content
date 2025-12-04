@@ -1,24 +1,32 @@
 ---
-seoDescription: TFS migration rollback plan ensures minimal disruption with a tested disaster recovery strategy.
-type: rule
 archivedreason: Outdated - TFS 2010 is outdated and no longer relevant. See https://www.ssw.com.au/rules/rules-to-better-devops/
-title: Do you have a rollback plan for TFS 2010 migration?
-guid: f13a6fd0-9137-4981-a613-3408b36c0229
-uri: rollback-plan-tfs2010-migration
-created: 2009-11-02T22:38:45.0000000Z
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/project-delivery/rules-to-better-tfs-2010-migration.mdx
+created: 2021-12-07 03:01:45+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: f13a6fd0-9137-4981-a613-3408b36c0229
+isArchived: true
+lastUpdated: 2025-07-21 08:25:43+00:00
+lastUpdatedBy: Christian Morford-Waite [SSW]
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - do-you-have-a-rollback-plan
+- do-you-have-a-rollback-plan
+seoDescription: TFS migration rollback plan ensures minimal disruption with a tested
+  disaster recovery strategy.
+title: Do you have a rollback plan for TFS 2010 migration?
+type: rule
+uri: rollback-plan-tfs2010-migration
 ---
 
 Always [plan for a catastrophic disaster](/disaster-recovery-plan), in the event of errors when testing:
 
-<!--endintro-->
+<endIntro />
 
 1. Take the TFS2010 server offline
 2. Bring the TFS2008 server online
@@ -26,4 +34,12 @@ Always [plan for a catastrophic disaster](/disaster-recovery-plan), in the event
    1. Internal DNS Server
    2. External DNS Server
 
-![Figure: DNS Pointer for TFS can be easily changed](TFSDNS.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"DNS Pointer for TFS can be easily changed"}
+  src="/uploads/rules/rollback-plan-tfs2010-migration/TFSDNS.png"
+/>

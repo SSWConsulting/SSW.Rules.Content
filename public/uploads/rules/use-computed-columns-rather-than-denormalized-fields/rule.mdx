@@ -1,32 +1,52 @@
 ---
-seoDescription: Schema uses computed columns rather than denormalized fields to improve data integrity and reduce complexity.
-type: rule
-title: Schema - Do you use computed columns rather than denormalized fields?
-uri: use-computed-columns-rather-than-denormalized-fields
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - schema-do-you-use-computed-columns-rather-than-denormalized-fields
-created: 2019-11-07T20:29:18.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+created: 2019-11-07 20:29:18+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 6a71c411-854a-4425-a4e8-392e717bedec
+isArchived: false
+lastUpdated: 2023-08-21 22:38:18+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+redirects:
+- schema-do-you-use-computed-columns-rather-than-denormalized-fields
+seoDescription: Schema uses computed columns rather than denormalized fields to improve
+  data integrity and reduce complexity.
+title: Schema - Do you use computed columns rather than denormalized fields?
+type: rule
+uri: use-computed-columns-rather-than-denormalized-fields
 ---
 
 When you have a denormalized field, use a computed column. In SQL Server they can be persisted.
 
 Use the suffix "Computed" to clearly distinguish that this field is a computed field.
 
-::: bad
-![Figure: Bad Example - This field was manually updated from code in the middle tier.](NormalizedFields_Bad.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad Example - This field was manually updated from code in the middle tier."}
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg"
+/>
 
-::: good  
-![Figure: Good Example - There was no code in the middle tier to calculate this (and it has the correct name)](NormalizedFields_Good.jpg)  
-:::
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good Example - There was no code in the middle tier to calculate this (and it has the correct name)"}
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
+/>
+
+
+<endIntro />
 
 Computed columns have some limitations - they cannot access fields in other tables, or other computed fields in the current table.
 
@@ -50,4 +70,12 @@ RETURN (round(isnull(CONVERT([decimal](8,6),@TimeEnd - @TimeStart,(0))*(24),(0))
 
 **Figure: This is the user defined function**
 
-![Figure: Setting up a computed column in the table designer](NormalizedFieldsDefine.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Setting up a computed column in the table designer"}
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFieldsDefine.jpg"
+/>

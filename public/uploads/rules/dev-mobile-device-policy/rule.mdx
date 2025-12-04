@@ -1,28 +1,43 @@
 ---
-seoDescription: Mobile development teams require access to physical devices for testing to avoid issues and spiraling development costs.
-type: rule
-title: Do you have a device policy for your mobile dev teams?
-uri: dev-mobile-device-policy
-authors:
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-related: []
-created: 2023-04-21T04:57:29.000Z
 archivedreason: null
+authors:
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+categories:
+- category: categories/software-engineering/rules-to-better-apps-mobile.mdx
+created: 2023-04-21 07:29:21+00:00
+createdBy: Matt Goldman
+createdByEmail: matt.goldman@outlook.com
 guid: 08b5d785-9475-43ee-b4b7-d5f1fd6c0561
+isArchived: false
+lastUpdated: 2024-08-01 23:58:11+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+seoDescription: Mobile development teams require access to physical devices for testing
+  to avoid issues and spiraling development costs.
+title: Do you have a device policy for your mobile dev teams?
+type: rule
+uri: dev-mobile-device-policy
 ---
 
 Lack of access to physical devices for testing can significantly impact mobile development. Issues can arise that you don't know about until UAT. Do you know the best way to mitigate this and avoid spiraling development costs?
 
-<!--endintro-->
+<endIntro />
 
 Mobile development is acutely prone to the "works on my machine" problem. Features that work on an emulator or simulator may not work as expected when running on a physical device, or features that work on iOS may not work on Android, or vice versa.
 
 It's important to ensure that features and UI work as expected on the devices that your end users will be running the app on.
 
-:::info
-**Tip** Ensure that testing on at least one physical device on each OS you are targeting is part of your [definition of done](/definition-of-done).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip** Ensure that testing on at least one physical device on each OS you are targeting is part of your [definition of done](/definition-of-done).
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 You need to choose the right option to ensure that all team members have access to the required devices without incurring unnecessary expenses.
 
@@ -30,14 +45,21 @@ You need to choose the right option to ensure that all team members have access 
 
 The easiest approach is just to let your developers use their own devices for testing. This can work well at the start but leads to problems if you divide your work between devs with access to different devices.
 
-:::greybox
 
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 1. Developer A works on Feature 1. They test it on their Android phone, it works, so they open a PR and merge it.
 2. Developer B works on Feature 2. They test it on their iOS phone, it works, so they open a PR and merge it.
 3. At the end of the Sprint, a build is sent to testers for UAT.
 4. Feature 1 doesn't work on iOS, and Feature 2 doesn't work on Android.
 
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ## Option 2: Use a cloud based service
 
@@ -61,6 +83,12 @@ You will need to create your policy according to your organization's needs, but 
 4. Utilize device emulators and simulators to test apps on devices that are not physically available to the team.
 5. Regularly review and update the list of supported devices to reflect changes in the market.
 
-:::info
-**Important:** It's essential to register your devices in your company's [asset catalogue](/label-your-assets) and enrol them in your [MDM solution](/implementing-intune).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Important:** It's essential to register your devices in your company's [asset catalogue](/label-your-assets) and enrol them in your [MDM solution](/implementing-intune).
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

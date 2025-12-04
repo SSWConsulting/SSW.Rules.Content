@@ -2,12 +2,20 @@
 seoDescription: Migrate Global.asax to ASP.NET Core and refactor session management logic to leverage middleware.
 type: rule
 title: Do you know how to migrate Global.asax to ASP.NET Core?
+categories:
+  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 uri: migrate-global-asax-to-asp-net-core
 authors:
   - title: Nick Curran
     url: https://ssw.com.au/people/nick-curran
-created: 2023-07-31T23:29:08.804Z
+created: 2024-06-14T01:52:08.000Z
 guid: 06510ae9-8215-4227-97ae-711c8c35a948
+lastUpdated: 2025-10-01T06:48:29.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
+isArchived: false
 ---
 
 The [`Global.asax`](https://learn.microsoft.com/en-us/previous-versions/aspnet/118w0kzy(v=vs.100)#project-files-created-with-web-forms) is an optional file that dictates how an ASP.NET application handles application, session and request events. The code for handling those events is written in `Global.asax.cs`, and when migrating to ASP.NET Core this code will need to be restructured.
@@ -44,10 +52,7 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
-::: bad
-Figure: Basic example application code from a `Global.asax.cs` file.
-:::
+**❌ Figure: Basic example application code from a `Global.asax.cs` file.**  
 
 ```cs
 Console.WriteLine("Start");
@@ -59,10 +64,7 @@ app.Lifetime.ApplicationStarted.Register(() => Console.WriteLine("Init"));
 app.Lifetime.ApplicationStopping.Register(() => Console.WriteLine("Stopping"));
 app.Lifetime.ApplicationStopped.Register(() => Console.WriteLine("Stopped"));
 ```
-
-::: good
-Figure: The above code migrated to ASP.NET Core.
-:::
+**✅ Figure: The above code migrated to ASP.NET Core.**  
 
 ## Session Events
 
@@ -86,10 +88,7 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
-::: bad
-Figure: Basic example request lifecycle code from a `Global.asax.cs` file.
-:::
+**❌ Figure: Basic example request lifecycle code from a `Global.asax.cs` file.**  
 
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -102,10 +101,7 @@ app.Use(async (context, next) =>
     Console.WriteLine("End request");
 })
 ```
-
-::: good
-Figure: Using middleware to execute logic before and after a request.
-:::
+**✅ Figure: Using middleware to execute logic before and after a request.**  
 
 ## Error Handling
 
@@ -120,10 +116,7 @@ public class MvcApplication : HttpApplication
     }
 }
 ```
-
-::: bad
-Figure: Basic example error handling code from a `Global.asax.cs` file.
-:::
+**❌ Figure: Basic example error handling code from a `Global.asax.cs` file.**  
 
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -142,9 +135,6 @@ app.UseExceptionHandler(exceptionHandlerApp =>
     })
 });
 ```
-
-::: good
-Figure: Using exception handling middleware.
-:::
+**✅ Figure: Using exception handling middleware.**  
 
 See [here](https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) for more options for handling errors in ASP.NET Core.

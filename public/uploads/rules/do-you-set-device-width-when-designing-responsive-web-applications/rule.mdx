@@ -1,24 +1,34 @@
 ---
-seoDescription: Define the viewport meta tag to inform web browsers they need to behave responsively, setting the width equal to the device's screen size for proper rendering on any screen.
-type: rule
-title: Do you set device width when designing responsive web applications?
-uri: do-you-set-device-width-when-designing-responsive-web-applications
-authors:
-  - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
-  - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
-related:
-  - responsive-design
-redirects: []
-created: 2014-06-21T03:26:58.000Z
 archivedreason: null
+authors:
+- title: Ben Cull
+  url: https://ssw.com.au/people/ben-cull
+- title: Jayden Alchin
+  url: https://ssw.com.au/people/jayden-alchin
+categories:
+- category: categories/software-engineering/rules-to-better-ui-bootstrap.mdx
+created: 2014-06-21 03:37:48+00:00
+createdBy: BenCull
+createdByEmail: BenCull@ssw.com.au
 guid: 28fc4b70-6cd7-4106-947e-82f2452630a5
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+related:
+- rule: public/uploads/rules/responsive-design/rule.mdx
+seoDescription: Define the viewport meta tag to inform web browsers they need to behave
+  responsively, setting the width equal to the device's screen size for proper rendering
+  on any screen.
+title: Do you set device width when designing responsive web applications?
+type: rule
+uri: do-you-set-device-width-when-designing-responsive-web-applications
 ---
 
 Creating a responsive website? It's important to make sure the browser renders your content correctly on any screen size. Define the proper viewport meta tag to inform web browsers they need to behave responsively.
 
-<!--endintro-->
+<endIntro />
 
 ```html
 <meta name="viewport" content="width=device-width" />
@@ -26,13 +36,25 @@ Creating a responsive website? It's important to make sure the browser renders y
 
 Your website's viewport should be the same width as any given device's screen. Specify this with the content attribute `_device-width_`.
 
-::: bad  
-![Figure: Bad example - No viewport meta tag](viewport-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - No viewport meta tag"}
+  src="/uploads/rules/do-you-set-device-width-when-designing-responsive-web-applications/viewport-bad.png"
+/>
 
-::: good  
-![Figure: Good example - Correct viewport meta tag](viewport-good.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example - Correct viewport meta tag"}
+  src="/uploads/rules/do-you-set-device-width-when-designing-responsive-web-applications/viewport-good.png"
+/>
+
 
 ### Resize Text
 

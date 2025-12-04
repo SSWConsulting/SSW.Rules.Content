@@ -1,22 +1,30 @@
 ---
-seoDescription: Avoid logic errors by using Else If statements to handle unexpected values and provide a clear indication of incorrect inputs.
-type: rule
-archivedreason:
-title: Do you avoid logic errors by using Else If?
-guid: 1e259f2d-e97e-47cc-bbb7-1f449a258367
-uri: avoid-logic-errors-by-using-else-if
-created: 2018-04-25T17:44:41.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-25 17:44:45+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1e259f2d-e97e-47cc-bbb7-1f449a258367
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-avoid-logic-errors-by-using-else-if
+- do-you-avoid-logic-errors-by-using-else-if
+seoDescription: Avoid logic errors by using Else If statements to handle unexpected
+  values and provide a clear indication of incorrect inputs.
+title: Do you avoid logic errors by using Else If?
+type: rule
+uri: avoid-logic-errors-by-using-else-if
 ---
 
 We see a lot of programmers doing this, they have two conditions - true and false - and they do not consider other possibilities - e.g. an empty string. Take a look at this example. We have an If statement that checks what backend database is being used.
 
-<!--endintro-->
+<endIntro />
 
 In the example the only expected values are "Development" and "Production".
 
@@ -33,10 +41,7 @@ void Load(string environment)
   }
 }
 ```
-
-::: bad
-Figure: Bad example with If statement  
-:::
+**❌ Figure: Bad example with If statement**  
 
 Consider later that extra environments may be added: e.g. "Staging"
 
@@ -57,12 +62,8 @@ void Load(string environment)
   }
   else
   {
-    throw new InvalidArgumentException(environment); 
+    throw new InvalidArgumentException(environment);
   }
 }
 ```
-
-::: good
-Figure: Good example with If statement
-
-:::
+**✅ Figure: Good example with If statement**

@@ -1,26 +1,35 @@
 ---
-seoDescription: Stay updated on SugarLearning's product progress, roadmap changes, and metrics with our bi-weekly review email.
-type: rule
-title: Communication - Do you know how to communicate product progress?
-uri: communicate-your-product-status
-guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
-created: 2024-03-25T10:39:38.0000000Z
-authors:
-  - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair  
-related:
-  - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
-  - summary-recording-sprint-reviews
 archivedreason: null
+authors:
+- title: Nick Curran
+  url: https://ssw.com.au/people/nick-curran
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/project-delivery/rules-to-better-product-owners.mdx
+created: 2024-03-25 05:28:50+00:00
+createdBy: Nick Curran [SSW]
+createdByEmail: 132531112+ncn-ssw@users.noreply.github.com
+guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/send-sprint-forecast-and-sprint-review-retro-emails-to-the-client/rule.mdx
+- rule: public/uploads/rules/summary-recording-sprint-reviews/rule.mdx
+seoDescription: Stay updated on SugarLearning's product progress, roadmap changes,
+  and metrics with our bi-weekly review email.
+title: Communication - Do you know how to communicate product progress?
+type: rule
+uri: communicate-your-product-status
 ---
 
 As a Product Owner, you are representing the product's stakeholders on the Scrum Team. You will be a representative of the product to other people in your business, such as your manager. You will often be asked the question "How is your product going?"
 
-<!--endintro-->
+<endIntro />
 
 A good way of keeping stakeholders informed of progress is holding monthly meetings.
 
@@ -34,22 +43,54 @@ To prepare for meetings and maximise the chances of success for your project, en
    * A shortened user registration process
    * Support for a new business process
 
-   ::: info
-   **Tip:** If you [record your Sprint meetings](/summary-recording-sprint-reviews), you can ask the stakeholders if they would like to review them.
-   :::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** If you [record your Sprint meetings](/summary-recording-sprint-reviews), you can ask the stakeholders if they would like to review them.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 2. **Development - How has the Roadmap progressed?** Explain how the completion of certain PBIs contributed to achieving the aim of the Product Roadmap. For example:
 
    * Internationalization epic - Added Mandarin translations for an Angular component
    * Subscription epic - Added payment processing
 
-   ::: info
-   **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops?WT.mc_id=AZ-MVP-33518) can be used to graphically demonstrate progress.
-   :::
 
-   ![Figure: Progress for SSW.EagleEye epics in GitHub Projects](github-product-roadmap.png)
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip**: Software such as [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) and [Azure DevOps](https://azure.microsoft.com/en-au/products/devops?WT.mc_id=AZ-MVP-33518) can be used to graphically demonstrate progress.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
-   ![Figure: Progress for SugarLearning epics in Azure DevOps](product-roadmap.png)
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Progress for SSW.EagleEye epics in GitHub Projects"}
+  src="/uploads/rules/communicate-your-product-status/github-product-roadmap.png"
+/>
+
+
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Progress for SugarLearning epics in Azure DevOps"}
+  src="/uploads/rules/communicate-your-product-status/product-roadmap.png"
+/>
+
 
 3. **Development - What delays or blockers have been encountered while writing the software?** [Software development is painful and costly](/do-you-manage-clients-expectations/). Explain the difficulties that the project has encountered, and detail your plan to overcome those difficulties. For example:
 
@@ -60,7 +101,16 @@ To prepare for meetings and maximise the chances of success for your project, en
 
    * Have a graph demonstrating how the user count has changed over the last 6 months
 
-   ![Figure: A graph helps demonstrate trends affecting the Product](user-metrics.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"A graph helps demonstrate trends affecting the Product"}
+  src="/uploads/rules/communicate-your-product-status/user-metrics.png"
+/>
+
 
 5. **Health - What issues have been seen in Production?** [All errors should be logged](/do-you-log-every-error/), so you should be able to list:
 
@@ -94,18 +144,17 @@ To prepare for meetings and maximise the chances of success for your project, en
 
 You can use the following template when scheduling the meeting.
 
-::: email-template
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; – 🤠 Roadmap Rodeo"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Everyone
 
-| | |
-| -------- | --- |
-| Required Attendees: | {{ PRODUCT OWNER }}, Interested Stakeholders |
-| Recurrence: | Every {{ NUMBER OF MONTHS }} months |
-| Subject: | {{ PROJECT NAME }} – 🤠 Roadmap Rodeo |
-::: email-content
-
-### Hi Everyone
-
-This meeting is intended to keep you informed of {{ PRODUCT }}’s progress.
+This meeting is intended to keep you informed of &#123;&#123; PRODUCT &#125;&#125;’s progress.
 
 **Agenda**
 
@@ -119,26 +168,25 @@ This meeting is intended to keep you informed of {{ PRODUCT }}’s progress.
 * Planning - Should the Roadmap be changed to align with the Product Goal?
 * Resources - Do you have everything you need to complete the update Product Roadmap?
 
-&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
-
-:::
-:::
+&lt; Sent as per the rule [https://www.ssw.com.au/rules/communicate-your-product-status/](https://www.ssw.com.au/rules/communicate-your-product-status/) &gt;
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
 ## Good Example - Roadmap Rodeo for SugarLearning
 
 Here is a full example of how to record a Roadmap Rodeo in an email.
 
-::: email-template
-
-| | |
-| --- | --- |
-| To: | ✉️ SugarLearningStakeholders |
-| CC: | ✉️ SugarLearningDevelopers |
-| Subject: | SugarLearning - 17 April 2024 - 🤠 Roadmap Rodeo |
-
-::: email-content
-
-### Hi Everyone
+<emailEmbed
+  from=""
+  to="✉️ SugarLearningStakeholders"
+  cc="✉️ SugarLearningDevelopers"
+  bcc=""
+  subject="SugarLearning - 17 April 2024 - 🤠 Roadmap Rodeo"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Everyone
 
 Here is a summary of recent progress made for SugarLearning.
 
@@ -146,11 +194,11 @@ Here is a summary of recent progress made for SugarLearning.
 | ---------------------- | ----------------------------------- |
 | Sprints                | Sprint 137 - Sprint 141             |
 | Dates                  | 13 March 2024 - 17 April 2024       |
-| Production Environment | <https://my.sugarlearning.com>      |
-| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}      |
-| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }} |
+| Production Environment | [https://my.sugarlearning.com](https://my.sugarlearning.com)      |
+| Test Environment       | &#123;&#123; LINK TO TEST ENVIRONMENT &#125;&#125;      |
+| Development Dashboard  | &#123;&#123; LINK TO DEVELOPMENT DASHBOARD &#125;&#125; |
 
-#### Stakeholder Engagement
+### Stakeholder Engagement
 
 |                                                     | Adam | Nick C |
 | --------------------------------------------------- | ---- | ------ |
@@ -160,155 +208,154 @@ Here is a summary of recent progress made for SugarLearning.
 | Have you logged any features?                       | Yes  | Yes    |
 | Have you used the product?                          | Yes  | Yes    |
 
-#### Value - Significant Delivered Features
+### Value - Significant Delivered Features
 
 * Angular 17 upgrade completed - frontend now using most recent Angular version
 
-#### Development - Roadmap Progress
+### Development - Roadmap Progress
 
-![Figure: For Product Roadmap see {{ LINK TO ROADMAP IN AZURE DEVOPS }}](product-roadmap.png)
+![Figure: For Product Roadmap see &#123;&#123; LINK TO ROADMAP IN AZURE DEVOPS &#125;&#125;](/uploads/rules/communicate-your-product-status/product-roadmap.png)
 
-#### Development - Delays and Blockers
+### Development - Delays and Blockers
 
 * EF to EF Core migration
   * Test Containers - it has taken longer than expected to set up the integrated testing infrastructure.
     * This testing is required for the migration, and cannot be worked around
     * The intention is to add developers to the task
 
-#### Operations - Product Metrics
+### Operations - Product Metrics
 
-![Figure: Graph of user statistics - users increased from 168 in February to 175 in March](user-metrics.png)
+![Figure: Graph of user statistics - users increased from 168 in February to 175 in March](/uploads/rules/communicate-your-product-status/user-metrics.png)
 
-![Figure: Graph of availability - drop in availability due to outage on 10 April](sugarlearning-availability.png)
+![Figure: Graph of availability - drop in availability due to outage on 10 April](/uploads/rules/communicate-your-product-status/sugarlearning-availability.png)
 
-#### Health - Issues Seen in Production
+### Health - Issues Seen in Production
 
 * Outage Wednesday 10 April 2024 - Site taken offline for 2 hours due to a configuration error made when creating the new deployment pipeline. Retro done
 * Performance - Requests to retrieve a learner's backlog are averaging 20 seconds
   * Recommendation - Upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
-#### Planning - Decisions
+### Planning - Decisions
 
 * Permissions behaviour - Allow creators to retain access to items even if they are removed
   * Work to be conducted PBI 92491: "Amend contributor role in permissions system"
 
-#### Vision - Product Goal Change
+### Vision - Product Goal Change
 
-Copy of {{ LINK }}:
+Copy of &#123;&#123; LINK &#125;&#125;:
 
-> We currently have a nice onboarding system for SSW’s Employees. Next we need to make SugarLearning into a successful onboarding tool for other companies to train and onboard their new employees as quickly, cheaply and effectively as possible.
+&gt; We currently have a nice onboarding system for SSW’s Employees. Next we need to make SugarLearning into a successful onboarding tool for other companies to train and onboard their new employees as quickly, cheaply and effectively as possible.
 
 No Changes
 
-#### Planning - Roadmap Changes
+### Planning - Roadmap Changes
 
-* Change priority from  
-   Epic "Migrate the Chinafy branch into master"  
-  to  
+* Change priority from
+   Epic "Migrate the Chinafy branch into master"
+  to
    Epic "EF to EF Core migration"
 
-#### Resources - Requests
+### Resources - Requests
 
 * Approved for funding to upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
-&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
-:::
-:::
+&lt; Sent as per the rule [https://www.ssw.com.au/rules/communicate-your-product-status/](https://www.ssw.com.au/rules/communicate-your-product-status/) &gt;
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
 
 ## Email Template - Record the Roadmap Rodeo
 
 Use the email template below. Note that this template uses "epics", which are collections of PBIs.
 
-::: email-template
+<emailEmbed
+  from=""
+  to="&#123;&#123; STAKEHOLDERS &#125;&#125;"
+  cc="&#123;&#123; PROJECT GROUP EMAIL &#125;&#125;"
+  bcc=""
+  subject="&#123;&#123; PRODUCT NAME &#125;&#125; - &#123;&#123; DATE &#125;&#125; - 🤠 Roadmap Rodeo"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Everyone
 
-| | |
-| --- | --- |
-| To: | {{ STAKEHOLDERS }} |
-| CC: | {{ PROJECT GROUP EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - {{ DATE }} - 🤠 Roadmap Rodeo |
-
-::: email-content
-
-### Hi Everyone
-
-Here is a summary of recent progress made for {{ PROJECT NAME }}.
+Here is a summary of recent progress made for &#123;&#123; PROJECT NAME &#125;&#125;.
 
 |                        |                                           |
 | ---------------------- | ----------------------------------------- |
-| Sprints                | {{ START SPRINT }} - {{ CURRENT SPRINT }} |
-| Dates                  | {{ START DATE }} - {{ END DATE }}         |
-| Production Environment | {{ LINK TO PRODUCTION ENVIRONMENT }}      |
-| Test Environment       | {{ LINK TO TEST ENVIRONMENT }}            |
-| Development Dashboard  | {{ LINK TO DEVELOPMENT DASHBOARD }}       |
-| Attendees              | {{ LIST OF ATTENDEES }}                   |
+| Sprints                | &#123;&#123; START SPRINT &#125;&#125; - &#123;&#123; CURRENT SPRINT &#125;&#125; |
+| Dates                  | &#123;&#123; START DATE &#125;&#125; - &#123;&#123; END DATE &#125;&#125;         |
+| Production Environment | &#123;&#123; LINK TO PRODUCTION ENVIRONMENT &#125;&#125;      |
+| Test Environment       | &#123;&#123; LINK TO TEST ENVIRONMENT &#125;&#125;            |
+| Development Dashboard  | &#123;&#123; LINK TO DEVELOPMENT DASHBOARD &#125;&#125;       |
+| Attendees              | &#123;&#123; LIST OF ATTENDEES &#125;&#125;                   |
 
-#### Stakeholder Engagement
+### Stakeholder Engagement
 
-|                                                     | {{ ATTENDEE 1 }} | {{ ATTENDEE 2 }} |
+|                                                     | &#123;&#123; ATTENDEE 1 &#125;&#125; | &#123;&#123; ATTENDEE 2 &#125;&#125; |
 | --------------------------------------------------- | ---------------- | ---------------- |
-| How many Sprint Reviews did you attend?             | {{ ANSWER }}     | {{ ANSWER }}     |
-| Or how many summaries have you attended or watched? | {{ ANSWER }}     | {{ ANSWER }}     |
-| Have you logged any bugs?                           | {{ ANSWER }}     | {{ ANSWER }}     |
-| Have you logged any features?                       | {{ ANSWER }}     | {{ ANSWER }}     |
-| Have you used the product?                          | {{ ANSWER }}     | {{ ANSWER }}     |
+| How many Sprint Reviews did you attend?             | &#123;&#123; ANSWER &#125;&#125;     | &#123;&#123; ANSWER &#125;&#125;     |
+| Or how many summaries have you attended or watched? | &#123;&#123; ANSWER &#125;&#125;     | &#123;&#123; ANSWER &#125;&#125;     |
+| Have you logged any bugs?                           | &#123;&#123; ANSWER &#125;&#125;     | &#123;&#123; ANSWER &#125;&#125;     |
+| Have you logged any features?                       | &#123;&#123; ANSWER &#125;&#125;     | &#123;&#123; ANSWER &#125;&#125;     |
+| Have you used the product?                          | &#123;&#123; ANSWER &#125;&#125;     | &#123;&#123; ANSWER &#125;&#125;     |
 
-#### Value - Delivered Epics and Significant PBIs
+### Value - Delivered Epics and Significant PBIs
 
-* {{ FEATURE 1 }} - {{ BRIEF NOTE }}
-* {{ FEATURE 2 }} - {{ BRIEF NOTE }}
+* &#123;&#123; FEATURE 1 &#125;&#125; - &#123;&#123; BRIEF NOTE &#125;&#125;
+* &#123;&#123; FEATURE 2 &#125;&#125; - &#123;&#123; BRIEF NOTE &#125;&#125;
 
-#### Development - Roadmap Progress
+### Development - Roadmap Progress
 
-{{ SCREENSHOT OF THE ROADMAP }}  
-**Figure: For Product Roadmap see {{ LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) }}**
+&#123;&#123; SCREENSHOT OF THE ROADMAP &#125;&#125;
+**Figure: For Product Roadmap see &#123;&#123; LINK TO THE ROADMAP (E.G. GITHUB PROJECTS) &#125;&#125;**
 
-#### Development - Delays and Blockers
+### Development - Delays and Blockers
 
-* {{ EPIC 1 }}
-  * {{ BLOCKAGE 1 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
-* {{ EPIC 2 }}
-  * {{ BLOCKAGE 2 }} - {{ PLAN TO WORK AROUND BLOCKAGE }}
+* &#123;&#123; EPIC 1 &#125;&#125;
+  * &#123;&#123; BLOCKAGE 1 &#125;&#125; - &#123;&#123; PLAN TO WORK AROUND BLOCKAGE &#125;&#125;
+* &#123;&#123; EPIC 2 &#125;&#125;
+  * &#123;&#123; BLOCKAGE 2 &#125;&#125; - &#123;&#123; PLAN TO WORK AROUND BLOCKAGE &#125;&#125;
 
-#### Operations - Product Metrics
+### Operations - Product Metrics
 
-{{ GRAPH OF USER STATISTICS }}  
+&#123;&#123; GRAPH OF USER STATISTICS &#125;&#125;
 **Figure: Graph of user statistics**
 
-{{ GRAPH OF AVAILABILITY }}  
+&#123;&#123; GRAPH OF AVAILABILITY &#125;&#125;
 **Figure: Graph of availability**
 
-#### Health - Issues Seen in Production
+### Health - Issues Seen in Production
 
-* {{ OUTAGE 1 }} - {{ 1 PARAGRAPH DESCRIPTION OF FAILURE, INCLUDING TIMES THAT THE FAILURE OCCURED }}
-* {{ PERFORMANCE ISSUE }} - {{ 1 PARAGRAPH DESCRIPTION OF ISSUE }}
+* &#123;&#123; OUTAGE 1 &#125;&#125; - &#123;&#123; 1 PARAGRAPH DESCRIPTION OF FAILURE, INCLUDING TIMES THAT THE FAILURE OCCURED &#125;&#125;
+* &#123;&#123; PERFORMANCE ISSUE &#125;&#125; - &#123;&#123; 1 PARAGRAPH DESCRIPTION OF ISSUE &#125;&#125;
 
-#### Planning - Decisions
+### Planning - Decisions
 
-* {{ APPROVED MOCKUP 1 }} - {{ BRIEF DESCRIPTION }}
-* {{ APPROVED BEHAVIOUR CHANGE 1 }} - {{ BRIEF DESCRIPTION }}
+* &#123;&#123; APPROVED MOCKUP 1 &#125;&#125; - &#123;&#123; BRIEF DESCRIPTION &#125;&#125;
+* &#123;&#123; APPROVED BEHAVIOUR CHANGE 1 &#125;&#125; - &#123;&#123; BRIEF DESCRIPTION &#125;&#125;
 
-#### Vision - Product Goal Change
+### Vision - Product Goal Change
 
-Changed from {{ LINK }}:
+Changed from &#123;&#123; LINK &#125;&#125;:
 
-    {{ ORIGINAL GOAL }}
+    &#123;&#123; ORIGINAL GOAL &#125;&#125;
 
 To:
 
-    {{ NEW GOAL or "NO CHANGES" }}
+    &#123;&#123; NEW GOAL or "NO CHANGES" &#125;&#125;
 
-#### Planning - Roadmap Changes
+### Planning - Roadmap Changes
 
-* Add {{ EPIC }}
-* Deprioritize {{ EPIC }}
+* Add &#123;&#123; EPIC &#125;&#125;
+* Deprioritize &#123;&#123; EPIC &#125;&#125;
 
-#### Resources - Requests
+### Resources - Requests
 
-* Approved for {{ SERVICE EXPENSE }}
+* Approved for &#123;&#123; SERVICE EXPENSE &#125;&#125;
 
-&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
-
-:::
-:::
-
-**Figure: Template for Product Status Review email**
+&lt; Sent as per the rule [https://www.ssw.com.au/rules/communicate-your-product-status/](https://www.ssw.com.au/rules/communicate-your-product-status/) &gt;
+  </>}
+  figurePrefix="none"
+  figure={"Template for Product Status Review email"}
+/>

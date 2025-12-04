@@ -1,34 +1,43 @@
 ---
-seoDescription: Keep your npm and yarn packages up to date to ensure your application's security and functionality.
-type: rule
-title: Do you keep your npm and yarn packages up to date?
-uri: packages-up-to-date
-authors:
-  - title: Sebastien Boissiere
-    url: https://www.ssw.com.au/people/sebastien-boissiere
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Christian Morford-Waite
-    url: https://www.ssw.com.au/people/christian-morford-waite
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement
-  - title: Brook Jeynes
-    url: https://www.ssw.com.au/people/brook-jeynes
-  - title: Zach Keeping
-    url: https://www.ssw.com.au/people/zach-keeping
-related:
-  - best-package-manager-for-node
-  - monitor-packages-for-vulnerability
-redirects:
-  - do-you-keep-your-npm-packages-up-to-date
-created: 2020-09-30T00:17:47.000Z
 archivedreason: null
+authors:
+- title: Sebastien Boissiere
+  url: https://www.ssw.com.au/people/sebastien-boissiere
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Christian Morford-Waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+- title: Zach Keeping
+  url: https://www.ssw.com.au/people/zach-keeping
+categories:
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
+created: 2022-01-31 07:17:50+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
+isArchived: false
+lastUpdated: 2025-10-02 21:14:02+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-keep-your-npm-packages-up-to-date
+related:
+- rule: public/uploads/rules/best-package-manager-for-node/rule.mdx
+- rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
+seoDescription: Keep your npm and yarn packages up to date to ensure your application's
+  security and functionality.
+title: Do you keep your npm and yarn packages up to date?
+type: rule
+uri: packages-up-to-date
 ---
 
 NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
-<!--endintro-->
+<endIntro />
 
 ```shell
 # NPM
@@ -40,8 +49,9 @@ yarn outdated
 yarn audit
 ```
 
-`youtube: https://www.youtube.com/embed/LN2zsrLqljY`
-**Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/LN2zsrLqljY" description={"Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)"} />
+
 
 Running `npm outdated` returns an overview of your packages versions showing:
 
@@ -54,11 +64,29 @@ The packages output from this command will also show up in different colours:
 * **Red** indicates the package version is below the wanted version
 * **Yellow** indicates the package version is at the wanted version but below the latest version
 
-![Figure: Use 'npm outdated'](npm_outdated.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Use 'npm outdated'"}
+  src="/uploads/rules/packages-up-to-date/npm_outdated.png"
+/>
+
 
 `npm audit` returns an audit on your packages for vulnerabilities. It also provides information on how to resolve them.
 
-![Figure: Use 'npm audit' to discover vulnerabilities in your application](npm_audit.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Use 'npm audit' to discover vulnerabilities in your application"}
+  src="/uploads/rules/packages-up-to-date/npm_audit.png"
+/>
+
 
 To add a new package, use:
 
@@ -82,8 +110,23 @@ yarn upgrade package-name
 
 Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.
 
-![Figure: Using yarn upgrade-interactive](upgrade-interactive.png)
 
-::: info
-**Note:** Use `yarn upgrade-interactive --latest` to see outdated packages with breaking changes.
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Using yarn upgrade-interactive"}
+  src="/uploads/rules/packages-up-to-date/upgrade-interactive.png"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Use `yarn upgrade-interactive --latest` to see outdated packages with breaking changes.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

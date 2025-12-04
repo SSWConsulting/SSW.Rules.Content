@@ -1,22 +1,28 @@
 ---
-seoDescription: Write your email correctly, not EMail or e- mail, but simply 'email'. Ensure your email address matches your confirmed email address.
-type: rule
-title: "Do you write the word 'email' in the correct format?"
-uri: do-you-write-the-word-email-in-the-correct-format
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - spelling-do-you-write-the-word-email-in-the-correct-format
-created: 2014-12-17T05:54:22.000Z
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2015-03-05 07:00:24+00:00
+createdBy: michaelDemarco
+createdByEmail: michaelDemarco@ssw.com.au
 guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
+isArchived: true
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- spelling-do-you-write-the-word-email-in-the-correct-format
+seoDescription: Write your email correctly, not EMail or e- mail, but simply 'email'.
+  Ensure your email address matches your confirmed email address.
+title: Do you write the word 'email' in the correct format?
+type: rule
+uri: do-you-write-the-word-email-in-the-correct-format
 ---
 
 Do you spell 'email' correctly?
 
-<!--endintro-->
+<endIntro />
 
 There is one correct way to spell 'email' and many incorrect ones. The common incorrect ones are:
 
@@ -25,24 +31,29 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 
 Lower Case with dash (or hyphen):
 
-::: greybox
-&lt;p&gt;Your <mark>e-mail</mark> address must match your confirm <mark>e-mail</mark> address&lt;/p&gt;
 
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    &lt;p&gt;Your ==e-mail== address must match your confirm ==e-mail== address&lt;/p&gt;
 
-::: bad
-Bad example: Using 'e-mail' in your text  
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**❌ Bad example: Using 'e-mail' in your text**  
 
-::: greybox
-&lt;p&gt;Your <mark>email</mark> address must match your confirm <mark>email</mark> address&lt;/p&gt;
 
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    &lt;p&gt;Your ==email== address must match your confirm ==email== address&lt;/p&gt;
 
-::: good
-Good example: Using 'email' instead
-
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+**✅ Good example: Using 'email' instead**  
 
 Upper Case with capital M:
 
@@ -60,10 +71,7 @@ Upper Case with capital M:
   autocomplete="off"
 />
 ```
-
-::: bad
-Bad example : 'EMail' used as a placeholder and in the validation message  
-:::
+**❌ Bad example : 'EMail' used as a placeholder and in the validation message**  
 
 ```html
 <input
@@ -79,10 +87,6 @@ Bad example : 'EMail' used as a placeholder and in the validation message
   autocomplete="off"
 />
 ```
-
-::: good
-Good example: Use 'Email' instead
-
-:::
+**✅ Good example: Use 'Email' instead**  
 
 We have a rule in [SSW Code Auditor](https://www.ssw.com.au/ssw/codeauditor/) and [SSW Link Auditor](https://sswlinkauditor.com/) to check for this.

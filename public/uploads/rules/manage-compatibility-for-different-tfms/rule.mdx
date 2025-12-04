@@ -2,18 +2,26 @@
 seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+categories:
+  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
-created: 2023-09-01T01:39:10.755Z
+created: 2023-09-01T11:23:54.000Z
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
+lastUpdated: 2023-09-12T17:41:32.000Z
+lastUpdatedBy: Yazhi Chen [SSW]
+lastUpdatedByEmail: 62824904+YazhiChen@users.noreply.github.com
+createdBy: Yazhi Chen [SSW]
+createdByEmail: 62824904+YazhiChen@users.noreply.github.com
+isArchived: false
 ---
 Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
 
-<!--endintro-->
+<endIntro />
 
 ### Using #if Pragma Statements
 
@@ -34,10 +42,7 @@ public static class WebClientFactory
   }
 }
 ```
-
-::: good
-Code: Good example - Using #if Pragma statements and factory pattern
-:::
+**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
 
 ### Using MSBuild conditions
 
@@ -50,7 +55,4 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-
-::: good
-Code: Good example - Using MSBuild conditions
-:::
+**✅ Code: Good example - Using MSBuild conditions**  

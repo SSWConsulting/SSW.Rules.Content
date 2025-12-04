@@ -1,37 +1,43 @@
 ---
-seoDescription: Use the correct HTML and CSS code to add images and captions with semantic meaning, featuring figure tags and figcaptions.
-type: rule
-archivedreason:
-title: Figures - Do you use the right HTML/CSS code to add images and captions?
-guid: f7fc077b-13cc-49e2-a487-06824d5d30af
-uri: use-the-right-html-figure-caption
-created: 2014-12-04T20:38:45.0000000Z
+archivedreason: null
 authors:
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - add-useful-and-concise-figure-captions
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2014-12-04 20:40:29+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: f7fc077b-13cc-49e2-a487-06824d5d30af
+isArchived: false
+lastUpdated: 2022-05-19 10:23:52+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
-  - figures-do-you-use-the-right-html-css-code-to-add-images-and-captions
+- figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
+- figures-do-you-use-the-right-html-css-code-to-add-images-and-captions
+related:
+- rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
+seoDescription: Use the correct HTML and CSS code to add images and captions with
+  semantic meaning, featuring figure tags and figcaptions.
+title: Figures - Do you use the right HTML/CSS code to add images and captions?
+type: rule
+uri: use-the-right-html-figure-caption
 ---
 
 Most developers put the image and the caption in a DIV tag, where the figure is just a paragraph - this is not correct.
 
-<!--endintro-->
+<endIntro />
 
 ```html
 <div>
-    <img alt="" />  
+    <img alt="" />
   <p>Figure: Caption</p>
 </div>
 ```
-
-::: bad
-Figure: Bad example  
-:::
+**❌ Figure: Bad example**  
 
 Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [https://www.w3schools.com/TAGS/tag_figcaption.asp](https://www.w3schools.com/TAGS/tag_figcaption.asp). This structure gives semantic meaning to the image and figure:
 
@@ -41,10 +47,7 @@ Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [h
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
-
-::: good
-Figure: Good example
-:::
+**✅ Figure: Good example**  
 
 ### The old way
 
@@ -62,6 +65,12 @@ For some internal sites, we still use the old way to place images: Using  **&lt
 
 **Figure: Old way example**
 
-::: info
-**Note:** &lt;dl&gt; stands for "**definition list**"; &lt;dt&gt; for "**definition term**"; and &lt;dd&gt; for "**definition description**".
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** &lt;dl&gt; stands for "**definition list**"; &lt;dt&gt; for "**definition term**"; and &lt;dd&gt; for "**definition description**".
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

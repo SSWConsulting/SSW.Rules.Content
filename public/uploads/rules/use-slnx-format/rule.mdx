@@ -1,22 +1,26 @@
 ---
-seoDescription: Use the modern SLNX format for your Visual Studio solutions to reduce file size, minimize merge conflicts, and improve maintainability with a clean XML-based structure.
-type: rule
-title: Do you use SLNX format for your solutions?
-uri: use-slnx-format
 authors:
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - awesome-documentation
-created: 2025-11-13T00:00:00.000Z
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
+created: 2025-11-13 00:00:00+00:00
 guid: 32393c61-f1d7-47bd-983e-0b797e3f09c1
+related:
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+seoDescription: Use the modern SLNX format for your Visual Studio solutions to reduce
+  file size, minimize merge conflicts, and improve maintainability with a clean XML-based
+  structure.
+title: Do you use SLNX format for your solutions?
+type: rule
+uri: use-slnx-format
 ---
 
 The traditional `.sln` format has served developers well for years, but it comes with significant limitations that impact productivity and collaboration, especially as projects grow larger and teams expand. The modern SLNX format solves these problems with a clean XML-based structure.
 
-<!--endintro-->
+<endIntro />
 
 ## ❌ Problems with the traditional .sln format
 
@@ -38,20 +42,36 @@ The SLNX (XML-based) format addresses these core issues:
 5. **Future-proof** - Aligns with Microsoft's direction for solution files
 6. **Maintains functionality** - All existing project references, solution folders, and dependencies are preserved
 
-![Figure: Traditional .sln format vs SLNX comparison](sln-vs-slnx.png)
 
-Check out Microsoft's documentation on SLNX  
-<https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/>
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"Traditional .sln format vs SLNX comparison"}
+  src="/uploads/rules/use-slnx-format/sln-vs-slnx.png"
+/>
 
-::: info
-**Tip:** You can easily convert your existing `.sln` files to `.slnx` format using the .NET CLI:
+
+Check out Microsoft's documentation on SLNX
+[https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/](https://devblogs.microsoft.com/dotnet/introducing-slnx-support-dotnet-cli/)
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** You can easily convert your existing `.sln` files to `.slnx` format using the .NET CLI:
 
 ```bash
 dotnet sln migrate MySolution.sln
 ```
 
 This will create a new `.slnx` file alongside your existing `.sln` file.
-:::
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 ## ⚠️ Considerations
 

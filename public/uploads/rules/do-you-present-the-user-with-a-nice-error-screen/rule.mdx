@@ -1,43 +1,69 @@
 ---
-seoDescription: Do you present the user with a nice error screen when an unexpected situation occurs on your ASP.NET Core application?
-type: rule
-title: Do you present the user with a nice error screen?
-uri: do-you-present-the-user-with-a-nice-error-screen
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-  - title: Jake Bayliss
-    url: https://www.ssw.com.au/people/jake-bayliss
-related: []
-redirects:
-  - do-you-present-the-user-with-a-nice-error-screen-(web-only)
-  - do-you-present-the-user-with-a-nice-error-screen-web-only
-created: 2013-09-11T21:08:47.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Drew Robson
+  url: https://ssw.com.au/people/drew-robson
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+- title: Jake Bayliss
+  url: https://www.ssw.com.au/people/jake-bayliss
+categories:
+- category: categories/software-engineering/rules-for-error-handling.mdx
+created: 2021-09-29 00:32:01+00:00
+createdBy: Jake Bayliss
+createdByEmail: 32888060+jakebayliss@users.noreply.github.com
 guid: 4ee8ca41-78bb-40c1-94cc-cf44a3b47622
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-present-the-user-with-a-nice-error-screen-(web-only)
+- do-you-present-the-user-with-a-nice-error-screen-web-only
+seoDescription: Do you present the user with a nice error screen when an unexpected
+  situation occurs on your ASP.NET Core application?
+title: Do you present the user with a nice error screen?
+type: rule
+uri: do-you-present-the-user-with-a-nice-error-screen
 ---
 
 Your users should never see the “yellow screen of death”. Errors should be caught, logged and a user-friendly screen displayed to the user.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
-![Figure: Bad Example – ASP.NET Yellow Screen of Death](error-screen-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad Example – ASP.NET Yellow Screen of Death"}
+  src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-bad.png"
+/>
 
-::: bad
-![Figure: Bad Example - Default exception page](net-core-default.png)
-:::
 
-::: good  
-![Figure: Good Example - GitHub custom error page](error-screen-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad Example - Default exception page"}
+  src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-default.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good Example - GitHub custom error page"}
+  src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-good.png"
+/>
+
 
 However, as a developer you still want to be able to view the detail of the exception in your local development environment.
 
@@ -62,8 +88,14 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 }
 ```
 
-::: good  
-![Figure: This is how you set it up in .NET 5](net-core-development.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"This is how you set it up in .NET 5"}
+  src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-development.png"
+/>
+
 
 Find out more about exception handling in .NET Core 5 [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518).

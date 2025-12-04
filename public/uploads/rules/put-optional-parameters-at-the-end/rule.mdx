@@ -1,22 +1,31 @@
 ---
-seoDescription: When writing method signatures, it's best to place optional parameters at the end, as they tend to be less important and should follow more crucial parameters like first name and last name.
-type: rule
-title: Do you put optional parameters at the end?
-uri: put-optional-parameters-at-the-end
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-put-optional-parameters-at-the-end
-created: 2018-04-26T23:44:44.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2018-04-26 23:44:44+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 319aec53-73ec-4049-8d58-8d0bd84fc246
+isArchived: false
+lastUpdated: 2023-08-15 00:26:35+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+redirects:
+- do-you-put-optional-parameters-at-the-end
+seoDescription: When writing method signatures, it's best to place optional parameters
+  at the end, as they tend to be less important and should follow more crucial parameters
+  like first name and last name.
+title: Do you put optional parameters at the end?
+type: rule
+uri: put-optional-parameters-at-the-end
 ---
 
 Optional parameters should be placed at the end of the method signature as optional ones tend to be less important. You should put the important parameters first.
 
-<!--endintro-->
+<endIntro />
 
 ```csharp
 public void SaveUserProfile(
@@ -27,10 +36,7 @@ public void SaveUserProfile(
   [Optional] DateTime? birthDate
 ) {}
 ```
-
-::: bad
-Figure: Bad example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end
-:::
+**❌ Figure: Bad example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end**  
 
 ```csharp
 public void SaveUserProfile(
@@ -41,9 +47,6 @@ public void SaveUserProfile(
   [Optional] DateTime? birthDate
 ) {}
 ```
-
-::: good
-Figure: Good example - All the optional parameters are the end
-:::
+**✅ Figure: Good example - All the optional parameters are the end**  
 
 **Note:** When using optional parameters, please be sure to use [named para meters](/when-to-use-named-parameters)

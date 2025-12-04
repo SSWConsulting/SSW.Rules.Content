@@ -1,27 +1,39 @@
 ---
-seoDescription: Discover how to streamline code reviews and boost development efficiency by using Co-Creation Patterns, a game-changing approach that combines pair programming and mob programming techniques.
-type: rule
-title: Do you use Co-Creation Patterns?
-uri: co-creation-patterns
 authors:
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - over-the-shoulder
-  - write-a-good-pull-request
-  - co-authored-commits
-redirects:
-  - do-you-use-co-creation-patterns
-created: 2022-11-21T00:28:43.256Z
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/project-delivery/rules-to-better-pull-requests.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2023-12-20 23:29:22+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- do-you-use-co-creation-patterns
+related:
+- rule: public/uploads/rules/over-the-shoulder/rule.mdx
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+- rule: public/uploads/rules/co-authored-commits/rule.mdx
+seoDescription: Discover how to streamline code reviews and boost development efficiency
+  by using Co-Creation Patterns, a game-changing approach that combines pair programming
+  and mob programming techniques.
+title: Do you use Co-Creation Patterns?
+type: rule
+uri: co-creation-patterns
 ---
 
 These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task. This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/watch?v=E4cg5mmvpwo`
-**Video: Pair Programming best-practices (11 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=E4cg5mmvpwo" description={"Video: Pair Programming best-practices (11 min)"} />
+
 
 ## ❌ Problem - Inefficient Code Reviews
 
@@ -34,13 +46,25 @@ Inefficient code reviews can be caused by:
 * Too much work in progress
 * Unclear feedback
 
-::: bad
-![Figure: Bad example - Vicious cycle of being blocked and picking up yet another task](co-creation-1.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Vicious cycle of being blocked and picking up yet another task"}
+  src="/uploads/rules/co-creation-patterns/co-creation-1.png"
+/>
 
-::: bad
-![Figure: Bad example - Inefficiencies caused by asynchronous code reviews](co-creation-2.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Inefficiencies caused by asynchronous code reviews"}
+  src="/uploads/rules/co-creation-patterns/co-creation-2.png"
+/>
+
 
 **Source:** [From Async Code Reviews to Co-Creation Patterns](https://www.infoq.com/articles/co-creation-patterns-software-development)
 
@@ -78,16 +102,23 @@ We can avoid this by using co-creation patterns. As a general rule, Pull Request
 Co-creation patterns can take some different forms:
 
 1. **Pair-programming**: Two developers starting, reviewing and finishing a change together
-2. **Mob-programming**: Working in a small group, that collectively has all skills required. See <https://www.goretro.ai/post/mob-programming>
+2. **Mob-programming**: Working in a small group, that collectively has all skills required. See [https://www.goretro.ai/post/mob-programming](https://www.goretro.ai/post/mob-programming)
 
 For the patterns above, the similarities are that there is a driver and a navigator.
 
 **Driver** - Implements the solution/solves the problem at a granular level. They're the ones on the PC writting the code.
 **Navigator(s)** - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
 
-::: info
-**Note:** It is not the role of the navigator to micromanage the driver.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** It is not the role of the navigator to micromanage the driver.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
 
 These roles should swap often to keep a high level of focus and give everyone an equal chance to participate as a driver and navigator.
 

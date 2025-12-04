@@ -1,22 +1,32 @@
 ---
-seoDescription: Separate concerns in Angular components to maintainable and debuggable code, reducing complexity by grouping front-end logic into data fetching, processing, and display
-type: rule
-title: Do you properly separate concerns in components?
-guid: 77e033a8-1c84-431e-9ab8-53360a3968b0
-uri: angular-separate-component-concerns
-created: 2023-10-12T00:02:20.931Z
-authors:
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement/
-related:
-  - when-to-use-state-management-in-angular
-  - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 archivedreason: null
+authors:
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement/
+categories:
+- category: categories/software-engineering/rules-to-better-angular.mdx
+created: 2023-10-15 22:39:35+00:00
+createdBy: Chris Clement [SSW]
+createdByEmail: 35278147+christoment@users.noreply.github.com
+guid: 77e033a8-1c84-431e-9ab8-53360a3968b0
+isArchived: false
+lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+related:
+- rule: public/uploads/rules/when-to-use-state-management-in-angular/rule.mdx
+- rule: public/uploads/rules/isolate-your-logic-and-remove-dependencies-on-instances-of-objects/rule.mdx
+seoDescription: Separate concerns in Angular components to maintainable and debuggable
+  code, reducing complexity by grouping front-end logic into data fetching, processing,
+  and display
+title: Do you properly separate concerns in components?
+type: rule
+uri: angular-separate-component-concerns
 ---
 
 One common mistake in writing a front-end component is trying to fit everything in a single component. This can easily lead to unmaintainable code in the long run, especially for complex components.
 
-<!--endintro-->
+<endIntro />
 
 ## Why should you separate the logic?
 
@@ -65,10 +75,7 @@ private calculate(...): ComponentData {
   // Calculate implementation
 }
 ```
-
-::: bad
-Figure: Massive amount of code intermingling from API calls to calculation to UI binding
-:::
+**❌ Figure: Massive amount of code intermingling from API calls to calculation to UI binding**  
 
 Here are the steps to split the logic:
 
@@ -113,10 +120,7 @@ Here are the steps to split the logic:
     // Calculate implementation
   }
   ```
-
-  ::: good
-  Figure: Use declarative code to bind UI value
-  :::
+**✅ Figure: Use declarative code to bind UI value**  
 
 4. Split data display process.
 
@@ -165,10 +169,7 @@ Here are the steps to split the logic:
     });
   }
   ```
-
-  ::: good
-  Figure: UI logic is separated from Data Fetching and Data Processing logic
-  :::
+**✅ Figure: UI logic is separated from Data Fetching and Data Processing logic**  
 
 5. (Optional) If the component is complex enough, consider splitting the data fetching with the data processing step to another component.
 
@@ -208,7 +209,4 @@ Here are the steps to split the logic:
     });
   }
   ```
-
-  ::: good
-  Figure: All logics (data fetching, data processing, and data display) are now separated
-  :::
+**✅ Figure: All logics (data fetching, data processing, and data display) are now separated**

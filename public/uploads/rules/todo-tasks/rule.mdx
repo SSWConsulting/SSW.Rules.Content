@@ -1,27 +1,38 @@
 ---
-seoDescription: Documenting "TODO" tasks ensures ideas and missing content are tracked, making it easier to prioritize and complete tasks.
-type: rule
-title: Do you document "TODO" tasks?
-uri: todo-tasks
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-related:
-  - do-you-make-todo-items-in-red
-  - technical-debt
-created: 2021-08-09T23:00:41.371Z
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.mdx
+- category: categories/software-engineering/rules-to-better-code-commenting.mdx
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2021-08-10 22:05:05+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 1f5d6f06-e69f-4306-9601-df6640bd5caa
+isArchived: false
+lastUpdated: 2025-05-15 03:38:14+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/do-you-make-todo-items-in-red/rule.mdx
+- rule: public/uploads/rules/technical-debt/rule.mdx
+seoDescription: Documenting "TODO" tasks ensures ideas and missing content are tracked,
+  making it easier to prioritize and complete tasks.
+title: Do you document "TODO" tasks?
+type: rule
+uri: todo-tasks
 ---
 
 It's common to add a `TODO` comment to some code you're working on, either because there's more work to be done here or because you've spotted a problem that will need to be fixed later. But how do you ensure these are tracked and followed up?
 
-<!--endintro-->
+<endIntro />
 
 We add a `TODO` comment to our code when we have either identified or introduced [technical debt](/technical-debt) as a way of showing other developers that there's work to be done here. It could be finishing the implementation of a feature, or it could be fixing a bug which (hypothetically) is limited in scope and therefore deprioritized. That's all well and good if another developer happens to be looking at that code and sees the comment, but if nobody looks at the code, then the problem could potentially never be fixed.
 
@@ -45,10 +56,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
-
-::: bad
-Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere
-:::
+**❌ Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere**  
 
 Just like with any other technical debt, it's critical to ensure that it is captured on the backlog. When you add a `TODO` in your code, it should _always_ be accompanied by a link to the PBI.
 
@@ -61,7 +69,7 @@ public class UserService(ApplicationDbContext context) : IUserService
           .AsNoTracking()
           .FirstOrDefaultAsync(u => u.Email == emailAddress, cancellationToken);
 
-        // TODO: handle null user if not found. 
+        // TODO: handle null user if not found.
         // https://github.com/Northwind/Northwind.UserManagement/issues/324
         return new UserDto
         {
@@ -73,11 +81,14 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
+**✅ Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly**  
 
-::: good
-Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly
-:::
 
-::: info
-**Tip:** If you are reviewing a Pull Request and you spot a `TODO` without a link to a PBI, you should either create the PBI and update the code (Good Samaritan) or request the change before approving and merging the code.
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** If you are reviewing a Pull Request and you spot a `TODO` without a link to a PBI, you should either create the PBI and update the code (Good Samaritan) or request the change before approving and merging the code.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>

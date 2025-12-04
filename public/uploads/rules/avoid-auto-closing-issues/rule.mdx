@@ -2,26 +2,42 @@
 seoDescription: "Avoid closing GitHub Issues prematurely by not linking them to PRs—use alternative terms instead of 'closes' or 'fixes.'"
 type: rule
 title: Do you avoid linking issues to PRs in GitHub?
+categories:
+  - category: categories/project-delivery/rules-to-better-github.mdx
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+  - category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
 uri: avoid-auto-closing-issues
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
-created: 2023-07-17T08:40:45.591Z
+created: 2023-07-18T00:36:15.000Z
 guid: 97504e80-fe64-427b-9a66-2b6508689411
 
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
+isArchived: false
 ---
 
 GitHub provides a way to link issues to PRs. This is useful to see what PRs are associated with what issues. However, when you make this link, the issue will close when the PR is merged.
 
 This is not a good idea because it can cause Issues to be closed prematurely. This can lead to confusion and lost work.
 
-<!--endintro-->
+<endIntro />
 
 Issues should not be closed until all the tasks are complete and have a done comment as per [closing PBIs with context](/close-pbis-with-context/).
 
-::: bad
-![Figure: Bad example - Linking Issues to PRs might cause premature closing](bad-link-issues-prs.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example - Linking Issues to PRs might cause premature closing"}
+  src="/uploads/rules/avoid-auto-closing-issues/bad-link-issues-prs.png"
+/>
+
 
 **Tip:** Avoid using closing keywords e.g. _"closes #123"_ or _"fixes #123"_ in PR descriptions. This will automatically link the issue to the PR and close it on PR merge.
 Instead, use terms like _"relates to #123"_ or _"addresses #123"_ to link the issue to the PR without closing it.
