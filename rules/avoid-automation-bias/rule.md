@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you avoid Automation Bias? (aka AI Slop)
-seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
+seoDescription: Did you know that AI has the potential to make your work worse?
+  Learn the common pitfalls so that AI can help, not hinder.
 uri: avoid-automation-bias
 authors:
   - title: Eddie Kranz
@@ -69,6 +70,10 @@ More extroverted people want to move quickly → they accept AI outputs more rea
 People high in neuroticism may doubt their own outputs → they doubt AI's outputs too.
 
 This isn't prescriptive, just a pattern to be aware of.
+
+### 4. Cognitive Biases
+
+Artificial intelligence  has been engineered to appear more human in recent years. Endusers are more likely to place trust in systems they can engage with in human like interactions. As a side effect, we often afford more credence to AI models than warranted. This leads to AI generated outputs being less harshly scrutinised.
 
 ## How to avoid
 
