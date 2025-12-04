@@ -31,7 +31,7 @@ uri: do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3
 
 The more workspaces you have the more load the TFS server is under when users check in and out. TFS has to check all of the workspaces for other checkouts of the same files which can be intensive if you have a lot of workspaces.
 
-<endOfIntro />
+<endIntro />
 
 If a developer had code checked out to a workspace that they have not even looked at in months, what is the likelihood that they even remember what changes they were making?
 
@@ -56,11 +56,8 @@ If a developer had code checked out to a workspace that they have not even looke
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Rebecca has a workspace that has not been accessed in a while",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Rebecca has a workspace that has not been accessed in a while"}
   src="/uploads/rules/do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3/LongtimeWorkspaces.jpg"
 />
 
@@ -69,11 +66,8 @@ If a developer had code checked out to a workspace that they have not even looke
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - All of Julian's workspaces are current",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - All of Julian's workspaces are current"}
   src="/uploads/rules/do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3/CurrentWorkspaces.jpg"
 />
 
@@ -85,11 +79,8 @@ If a developer had code checked out to a workspace that they have not even looke
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Manage Workspaces",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Manage Workspaces"}
   src="/uploads/rules/do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3/ManageWorkspaces.jpg"
 />
 

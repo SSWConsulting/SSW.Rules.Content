@@ -27,18 +27,15 @@ In traditional Daily Scrums, each team member answers the same three questions: 
 
 To solve these pain points, use the **BREAD format** – a structured but flexible approach that scales better and prioritizes unblocking people.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "BREAD Daily Scrums",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"BREAD Daily Scrums"}
   src="/uploads/rules/bread-daily-scrums/bread-daily-scrums.png"
 />
 
@@ -89,8 +86,8 @@ To solve these pain points, use the **BREAD format** – a structured but flexib
 Each team member writes dot points for their update prior to the Daily Scrum.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Yesterday:** Finished API integration with Stripe.
 **Today:** Working on unit tests for payment service.
@@ -98,11 +95,8 @@ Each team member writes dot points for their update prior to the Daily Scrum.
 **Reviews:** PR #482 needs review
 **Notes:** Planning to deploy to staging today if tests pass.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – concise bullet points shared before the meeting allow the team to be informed without time-wasting status updates.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – concise bullet points shared before the meeting allow the team to be informed without time-wasting status updates."}
 />
 
 

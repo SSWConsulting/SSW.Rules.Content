@@ -9,9 +9,9 @@ createdBy: Jack Pettit [SSW]
 createdByEmail: 57518417+JackDevAU@users.noreply.github.com
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
 isArchived: false
-lastUpdated: 2024-12-13 00:30:47+00:00
-lastUpdatedBy: Jack Pettit [SSW]
-lastUpdatedByEmail: 57518417+JackDevAU@users.noreply.github.com
+lastUpdated: 2025-10-24 00:14:49+00:00
+lastUpdatedBy: Jake Bayliss [SSW]
+lastUpdatedByEmail: 32888060+jakebayliss@users.noreply.github.com
 redirects: []
 related:
 - rule: public/uploads/rules/rule/rule.mdx
@@ -26,7 +26,7 @@ Markdown and MDX are closely related — think of MDX as Markdown’s more power
 
 [TinaCMS](https://tina.io) is a great tool to build your site in MDX.
 
-<endOfIntro />
+<endIntro />
 
 [View MD & MDX examples](/rule).
 
@@ -40,16 +40,13 @@ Markdown is perfect for straightforward content. Think of it like writing a clea
 * You just need basic formatting like headings, lists, and images
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** A recipe blog post with some text, headings, and a few pictures. Markdown handles this beautifully without any extra complexity.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -63,16 +60,13 @@ MDX builds on Markdown by letting you embed components and logic directly inside
 * You're creating tutorial content with live examples
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** A coding tutorial with an interactive chart showing performance metrics, or a documentation page with a live code editor where readers can try out code in real-time.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

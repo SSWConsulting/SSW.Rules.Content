@@ -29,7 +29,7 @@ Words matter, especially in email. Spam filters are increasingly sensitive, and 
 
 Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of sensitive words. This list is not available to the public.
 
-<endOfIntro />
+<endIntro />
 
 Words like “free”, “urgent”, “guaranteed”, “click here”, or “buy now” (especially in uppercase or with exclamation marks) can cause your message to be marked as junk, even if it’s legitimate.
 
@@ -41,28 +41,22 @@ Words like “free”, “urgent”, “guaranteed”, “click here”, or “b
 * Check the tone with a colleague or a spam-filter tool
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "CLICK HERE to get your FREE trial!!!"
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Spammy wording in all caps with exclamation marks",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – Spammy wording in all caps with exclamation marks"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "See a quick overview of what’s included in your trial"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Clear and descriptive wording",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Clear and descriptive wording"}
 />

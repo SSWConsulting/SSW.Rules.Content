@@ -36,7 +36,7 @@ uri: verbs-for-method-names
 
 Code becomes easier to understand when names align closely with their meaning. Since classes represent things, they should use nouns. Methods, on the other hand, represent actions and should be named using verbs. A method named Person, for example, could easily confuse your team by suggesting an entity rather than an action.
 
-<endOfIntro />
+<endIntro />
 
 ## What is a verb?
 
@@ -47,76 +47,44 @@ A verb is a word that describes an action or process—something that’s done. 
 While your method names shouldn’t all be single verbs (since that’s often too vague), they should be verb-based, using a verb as the foundation of their meaning.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`Ship`** as a method to initiate shipping orders to customers.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - While 'ship' is a verb, it’s also a noun, making it ambiguous. Plus, it's not very descriptive!"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - While 'ship' is a verb, it’s also a noun, making it ambiguous. Plus, it's not very descriptive!",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`SendCustomerOrder`**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - A method that is named as a verb clearly tells you that it does something (sends), and what that thing is (a customer order)"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - A method that is named as a verb clearly tells you that it does something (sends), and what that thing is (a customer order)",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`Administration`** as a method name for nurses to document medications that have been administered to patients.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - It’s a noun, and it’s ambiguous. 'Administration' has multiple meanings, and the method name doesn’t make it clear what this action involves"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - It’s a noun, and it’s ambiguous. 'Administration' has multiple meanings, and the method name doesn’t make it clear what this action involves",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`AdministerMedication`** makes the action clear
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Method name describes the action"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Method name describes the action",
-  shouldDisplay: true
-} } />

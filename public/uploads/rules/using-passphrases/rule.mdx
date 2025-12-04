@@ -23,20 +23,17 @@ The available list of 10, 12, or 16 (or better yet in terms of length, 20) chara
 Possible combinations of words, or phrases as we call them, are almost infinite. While we still use the term ‘password’, you should use a short phrase rather than a word.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Ideally you should not need to **remember** any password, instead use a [password manager](/password-manager).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
-<endOfIntro />
+<endIntro />
 
 There’s a now famous web comic from XKCD that explains this:
 
@@ -45,11 +42,8 @@ There’s a now famous web comic from XKCD that explains this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "This XKCD comic shows why it’s important to use a passphrase, rather than a password",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"This XKCD comic shows why it’s important to use a passphrase, rather than a password"}
   src="/uploads/rules/using-passphrases/xkcd-passphrases.png"
 />
 
@@ -61,57 +55,33 @@ To choose a good passphrase, use a combination of words that are unique and memo
 You might think a favorite sentence from a book might be better, given that it’s longer. While this is true in the context of time taken to brute force a password with procedural character combinations, as attackers adapt to their techniques to longer passwords, it’s important to remember that **a combination of words known to anyone in the world other than you is bad to use as a password.**
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Guggenheim
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example – It's a word that other people know"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example – It's a word that other people know",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Mymistresseyesarenothinglikethesun
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example – It’s the opening to one of Shakespeare’s sonnets so is known to other people (and painful to type in)"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example – It’s the opening to one of Shakespeare’s sonnets so is known to other people (and painful to type in)",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     4yearicecreamcat
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure={"OK Example – It's 16 characters, composed of 5 words, is not a phrase that is known by anyone else, and is easy (for you) to remember"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK Example – It's 16 characters, composed of 5 words, is not a phrase that is known by anyone else, and is easy (for you) to remember",
-  shouldDisplay: true
-} } />

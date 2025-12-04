@@ -24,7 +24,7 @@ Is your price:
 - $100 per hour + GST (the $100 being the amount exclusive of GST)
 - $110 per hour (the $110 being the total amount)
 
-<endOfIntro />
+<endIntro />
 
 We say the first one. When providing quotes to prospects/clients, it is always better to display the net value + 10% GST rather than the total.
 
@@ -37,29 +37,23 @@ The reasons for this are:
 - The client will receive back this 10% GST from the Australian Tax Office when they do their quarterly BAS/GST Return.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     The total fixed price total is $AUD 66,000 - please find quote attached.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - GST is not mentioned",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - GST is not mentioned"}
 />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - net amount + GST",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - net amount + GST"}
 />
 
 

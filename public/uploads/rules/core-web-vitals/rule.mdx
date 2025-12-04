@@ -25,7 +25,7 @@ uri: core-web-vitals
 
 Core Web Vitals are super important metrics to measure how good your page's performance is. It's also incredibly important to how Google ranks page results.
 
-<endOfIntro />
+<endIntro />
 
 The most important Core Web Vitals at time of writing is [Largest Contentful Paint (LCP)](https://web.dev/lcp/), [Interaction To Next Paint (INP)](https://web.dev/inp) and [Cumulative Layout Shift (CLS)](https://web.dev/cls/).
 
@@ -110,10 +110,7 @@ applicationInsights.trackMetric(
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Azure Application Insights workbook we use to track Web Vitals on the SSW Website"}
   src="/uploads/rules/core-web-vitals/web-vitals-workbook.png"
 />

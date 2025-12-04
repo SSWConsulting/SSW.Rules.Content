@@ -31,7 +31,7 @@ uri: do-you-know-when-to-use-plus-one
 
 Usually, when someone makes a suggestion or a complaint... you only hear from the ones who disagree. If you agree with someone, it helps to let others on the thread know. Simply reply with "+1" and a quick sentence.
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -57,22 +57,16 @@ Hi, I saw two clients today that complained about CodeAuditor rule files being c
 
 Gary
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - using +1 to show you agree",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - using +1 to show you agree"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Outlook and most instant messaging apps now support “like” (👍) reactions, which are a quick way to show support or agreement. However, using +1 with a short comment is more powerful—it not only signals agreement but also adds your input, making the conversation clearer and more valuable to others.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

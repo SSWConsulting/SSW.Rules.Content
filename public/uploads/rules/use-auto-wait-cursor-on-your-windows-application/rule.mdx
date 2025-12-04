@@ -20,17 +20,14 @@ isArchived: false
 
 It can be extremely tiresome to have to continually remember to set and unset the wait cursor for an application. If an exception occurs you have to remember to add a try finally block to restore the cursor, or if you popup a message box you must remember to change the cursor first otherwise the user will just sit there thinking the application is busy.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Cursor set manually",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Cursor set manually"}
   src="/uploads/rules/use-auto-wait-cursor-on-your-windows-application/autowaitcursor_bad.jpg"
 />
 
@@ -39,11 +36,8 @@ It can be extremely tiresome to have to continually remember to set and unset th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Implemented AutoWaitCursor",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Implemented AutoWaitCursor"}
   src="/uploads/rules/use-auto-wait-cursor-on-your-windows-application/autowaitcursor_good.jpg"
 />
 

@@ -6,8 +6,14 @@ authors:
   url: https://ssw.com.au/people/lewis-toh
 categories:
 - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-created: 2025-10-16 17:01:00+00:00
+created: 2025-10-16 21:45:57+00:00
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
 guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
+isArchived: false
+lastUpdated: 2025-10-16 21:45:57+00:00
+lastUpdatedBy: Lewis Toh [SSW]
+lastUpdatedByEmail: 88498002+Lewkans@users.noreply.github.com
 related:
 - rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
 seoDescription: Learn how to configure AI coding assistants to keep all work within
@@ -24,19 +30,16 @@ When AI assistants (e.g. GitHub Copilot, Claude, ChatGPT) perform development ta
 
 Configuring AI assistants to work exclusively within the repository boundaries ensures all work is visible, properly managed, and easy to clean up.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Note: This rule applies to **temporary or working files** created during AI-assisted tasks. See [Do you keep task summaries from AI-assisted development?](/keep-task-summaries-from-ai-assisted-development) if you want to store files permanently from AI output (e.g. documentation)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -45,24 +48,16 @@ Configuring AI assistants to work exclusively within the repository boundaries e
 When AI assistants use **system temp directories**, you lose visibility:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     * `/tmp/ai-test-12345.sh`
 * `/var/tmp/analysis-output.json`
 * `~/ai-workspace/temp-queries.sql`
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - Files scattered across the system are hard to find, review, and clean up"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Files scattered across the system are hard to find, review, and clean up",
-  shouldDisplay: true
-} } />
 
 
 ### Issues with External Files
@@ -118,12 +113,7 @@ Ensure your `.gitignore` includes the temporary directory:
 # Temporary work files from AI assistants
 /tmp/
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Clear structure for temporary files that stays within the repository",
-  shouldDisplay: true
-} } />
-
+**✅ Good Example - Clear structure for temporary files that stays within the repository**  
 
 ## Benefits
 
@@ -138,8 +128,8 @@ This approach provides:
 ### Example Workflow
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Task:** Generate a database migration script
 ```bash
@@ -161,17 +151,9 @@ $ rm -rf tmp/*
 ```
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - All temporary files are in one predictable location within the repository"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - All temporary files are in one predictable location within the repository",
-  shouldDisplay: true
-} } />
 
 
 ## Conclusion

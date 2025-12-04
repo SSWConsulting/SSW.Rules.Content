@@ -29,21 +29,18 @@ uri: spec-do-you-use-user-stories
 
 Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     As a **\[type of User]**\
 I want **\[some goal]**\
 So that **\[some reason]**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "User Story - template for description",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"User Story - template for description"}
 />
 
 
@@ -52,11 +49,8 @@ So that **\[some reason]**
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "User Story example in an Azure DevOps PBI",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"User Story example in an Azure DevOps PBI"}
   src="/uploads/rules/spec-do-you-use-user-stories/user-story-azuredevops.png"
 />
 
@@ -66,40 +60,31 @@ So that **\[some reason]**
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "User Story example in a GitHub Issue",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"User Story example in a GitHub Issue"}
   src="/uploads/rules/spec-do-you-use-user-stories/userstory-github.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "I want to be able to search for customers."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The user story is too vague and broad in scope",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The user story is too vague and broad in scope"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "As a **Marketing Manager**,
 I want to **be able to search for customers by country and last name**,
 So that **I can find their numbers and call customers that are close to me**."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clear user story following the [INVEST principle]([https://en.wikipedia.org/wiki/INVEST_(mnemonic)](https://en.wikipedia.org/wiki/INVEST_(mnemonic)))",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Clear user story following the [INVEST principle]([https://en.wikipedia.org/wiki/INVEST_(mnemonic)](https://en.wikipedia.org/wiki/INVEST_(mnemonic)))"}
 />

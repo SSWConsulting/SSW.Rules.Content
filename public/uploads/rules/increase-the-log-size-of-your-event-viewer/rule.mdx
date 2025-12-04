@@ -24,17 +24,14 @@ uri: increase-the-log-size-of-your-event-viewer
 
 Change the defaults from 20480KB to 64000KB and Overwrite as needed. This will allow the users to view Security audits and errors much further into the past with a minimal increase in space - and it will never bloat your server.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Using a small log size",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Using a small log size"}
   src="/uploads/rules/increase-the-log-size-of-your-event-viewer/EventViewer_BadSmallLogSize.png"
 />
 
@@ -43,10 +40,7 @@ Change the defaults from 20480KB to 64000KB and Overwrite as needed. This will a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Using a reasonable log size",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Using a reasonable log size"}
   src="/uploads/rules/increase-the-log-size-of-your-event-viewer/EventViewer_GoodReasonableLogSize.png"
 />

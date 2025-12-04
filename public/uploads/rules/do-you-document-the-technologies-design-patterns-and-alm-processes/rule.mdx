@@ -27,30 +27,22 @@ A pattern allows using a few words to a dev and he knows exactly what coding pat
 
 ALM is about refining the work processes.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We are doing this project using C#
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - you know nothing about how the project will be done"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - you know nothing about how the project will be done",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * **Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular
@@ -59,17 +51,9 @@ ALM is about refining the work processes.
 * **ALM:** Continuous deployment to staging
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - this tells you a lot about the architecture and processes in a few words"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - this tells you a lot about the architecture and processes in a few words",
-  shouldDisplay: true
-} } />
 
 
 The important ones for most web projects:

@@ -27,35 +27,29 @@ uri: fix-ugly-urls
 
 Ugly URLs don't only make it difficult for users to browse your site, they can also impact Google rankings.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     northwind.com/MyInternalDB/UserDatabase/ProductList.aspx?productname=Access
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "A nasty URL...",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"A nasty URL..."}
 />
 
 
 You should fix it up to look more like this:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     northwind.com/products/access
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Users could even guess this nice URL",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Users could even guess this nice URL"}
 />
 
 
@@ -70,12 +64,7 @@ protected void Application_Start(object sender, EventArgs e)
 RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx")));
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "Figure: OK example - create a static route if you only have a few rewrites**",
-  shouldDisplay: true
-} } />
-
+**😐 Figure: OK example - create a static route if you only have a few rewrites****  
 
 2. Use the URL Rewriting Module for IIS7
 
@@ -83,10 +72,7 @@ RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new Pa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - An IIS7 Rewrite is much easier to manage",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - An IIS7 Rewrite is much easier to manage"}
   src="/uploads/rules/fix-ugly-urls/IIS7Rewrite.jpg"
 />

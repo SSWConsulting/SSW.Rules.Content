@@ -31,35 +31,29 @@ uri: do-you-always-rename-staging-url-on-azure
 
 If you use the default Azure staging website URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Default Azure URL:
 sugarlearning**-staging**&#46;azurewebsites&#46;net
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Site using the default URL (hard to remember!!)",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Site using the default URL (hard to remember!!)"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Customized URL:
 **staging**&#46;sugarlearning&#46;com
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Staging URL with \"staging&#46;\" prefix",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Staging URL with \"staging&#46;\" prefix"}
 />
 
 
@@ -72,11 +66,8 @@ sugarlearning**-staging**&#46;azurewebsites&#46;net
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "CName being added to DNS for the default URL",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"CName being added to DNS for the default URL"}
   src="/uploads/rules/do-you-always-rename-staging-url-on-azure/2015-03-10_17-13-55.png"
 />
 
@@ -88,10 +79,7 @@ sugarlearning**-staging**&#46;azurewebsites&#46;net
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Azure being configured to accept the CName",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Azure being configured to accept the CName"}
   src="/uploads/rules/do-you-always-rename-staging-url-on-azure/custom-domains.png"
 />

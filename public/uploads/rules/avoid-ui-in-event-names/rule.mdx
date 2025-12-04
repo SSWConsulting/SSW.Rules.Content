@@ -25,7 +25,7 @@ uri: avoid-ui-in-event-names
 No "UI" in event names, the event raiser should be unaware of the UI in MVVM and user controls
 The handler of the event should then do something on the UI.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 private void RaiseUIUpdateBidButtonsRed() {
@@ -34,12 +34,7 @@ private void RaiseUIUpdateBidButtonsRed() {
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Avoid \"UI\" in event names, an event is UI un-aware",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: Avoid "UI" in event names, an event is UI un-aware**  
 
 ```csharp
 private void RaiseSelectedLotUpdated() {
@@ -48,8 +43,4 @@ private void RaiseSelectedLotUpdated() {
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: When receiving an update on the currently selected item, change the UI correspondingly (or even better: use MVVM and data binding)",
-  shouldDisplay: true
-} } />
+**✅ Good example: When receiving an update on the currently selected item, change the UI correspondingly (or even better: use MVVM and data binding)**

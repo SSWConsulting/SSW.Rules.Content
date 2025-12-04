@@ -14,9 +14,9 @@ createdBy: Caleb Williams [SSW]
 createdByEmail: 65635198+Calinator444@users.noreply.github.com
 guid: 6bdcdd2d-695a-46fa-93cc-cd761276586a
 isArchived: false
-lastUpdated: 2025-08-13 00:06:37+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-06 05:46:47+00:00
+lastUpdatedBy: Caleb Williams [SSW]
+lastUpdatedByEmail: 65635198+Calinator444@users.noreply.github.com
 redirects:
 - do-you-avoid-reviewing-performance-without-metrics
 related:
@@ -35,7 +35,7 @@ In every successful team or project, it is crucial to track meaningful progress 
 
 When a client raises concerns about performance, it is important not to immediately dive into the code to make blind fixes. Instead of guessing what might help, we should approach the issue methodically by starting with clear benchmarks, profiling, and data-driven decisions.
 
-<endOfIntro />
+<endIntro />
 
 For example, if a client says:
 
@@ -58,11 +58,8 @@ A better way is:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Use metrics to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Use metrics to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)"}
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/code-auditor-performance-score.png"
 />
 
@@ -75,11 +72,8 @@ For example, if you are trying to measure the optimal number of processors for a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data"}
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/1to4.jpg"
 />
 
@@ -90,11 +84,8 @@ Do it incrementally, adding 1 processor each time, measuring the results, and th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring..."}
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/1234.jpg"
 />
 
@@ -112,11 +103,8 @@ Depending on your tech stack, there are various tools available to measure perfo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Google Chrome has a handy Performance tab in the DevTools",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Google Chrome has a handy Performance tab in the DevTools"}
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/chrome-perf-tools.png"
 />
 
@@ -126,11 +114,8 @@ Depending on your tech stack, there are various tools available to measure perfo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Pingdom has advanced tools for diagnosing page performance issue",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Pingdom has advanced tools for diagnosing page performance issue"}
   src="/uploads/rules/avoid-reviewing-performance-without-metrics/monitoring-performance-pingdom.png"
 />
 

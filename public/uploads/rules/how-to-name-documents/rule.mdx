@@ -37,7 +37,7 @@ uri: how-to-name-documents
 
 When naming documents and images, use **descriptive words** and **kebab-case** (where you separate words with hyphens) to make your files more easily discoverable.
 
-<endOfIntro />
+<endIntro />
 
 ## Naming files
 
@@ -60,16 +60,13 @@ Once you have chosen the best words, make it readable and consistent in formatti
 As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Monthly Report.docx
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - File name using spaces to separate words",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - File name using spaces to separate words"}
 />
 
 
@@ -80,46 +77,37 @@ Know more on [removing spaces from your folders and file names](/remove-spaces-f
 Avoid using dots within filenames, as they can lead to potential issues with system processing, file recognition, and software compatibility. Dots are typically used to separate the name from the file extension (e.g., "document.pdf"), so additional dots can confuse systems, causing misinterpretation of the file type or errors when accessing the file
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     monthly.report.docx
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - File name using dots to separate words",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - File name using dots to separate words"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** `.drawio.svg` and `.drawio.png` are valid svg/png images that contain an embedded **Draw.io** diagram. For these files, the extra dot is OK. More information on [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 ### ❌ Avoid CamelCase
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     MonthlyReport.docx
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - File name using CamelCase doesn't have spaces but also doesn't contain any separators between words",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - File name using CamelCase doesn't have spaces but also doesn't contain any separators between words"}
 />
 
 
@@ -128,16 +116,13 @@ This is a popular way to combine words as a convention in variable declarations 
 ### ❌ Avoid Snake_Case
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Monthly_Report.docx
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Underscored (Snake_Case) URLs have good readability but are not recommended by Google",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Underscored (Snake_Case) URLs have good readability but are not recommended by Google"}
 />
 
 
@@ -146,32 +131,26 @@ Underscores are not valid word separators for search in SharePoint, and not rec
 ### ✅ Use kebab-case
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     monthly-report.docx
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - File name uses kebab-case (dashes to separate words)",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example - File name uses kebab-case (dashes to separate words)"}
 />
 
 
 A hyphen (or dash) is the best choice, because it is understood both by humans and all versions of SharePoint search.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     You may use Uppercase in the first letter in Kebab-Case, however it's important to keep consistency.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

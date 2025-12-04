@@ -20,7 +20,7 @@ createdBy: Piers Sinclair [SSW]
 createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 isArchived: false
-lastUpdated: 2025-02-23 22:11:52+00:00
+lastUpdated: 2025-10-16 00:39:06+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -48,17 +48,14 @@ If you leave it like that there is a high chance it gets forgotten as rememberin
 
 Efficient people don't rely on their memory and instead, use some way to make sure they don't forget to do that task. Common ways are to make a note in a paper diary or stick a post-it note to a screen, but **there are better ways**.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Oldies use yellow sticky notes",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Oldies use yellow sticky notes"}
   src="/uploads/rules/follow-up-effectively/adobe-firefly-screen-with-sticky-notes.jpg"
 />
 
@@ -88,16 +85,13 @@ Simply BCC or email **&#123;&#123; TIME &#125;&#125;@followupthen.com** and it w
 Include '(BCC'ing &#123;&#123; TIME &#125;&#125;@followupthen)' at the top so other email recipients know you will get the reminder.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -121,24 +115,18 @@ As per our conversation, I am confident the bugs causing the errors are fixed. T
 
 Thanks,
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Use <1week@followupthen.com> to be reminded of this email in one week",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Use <1week@followupthen.com> to be reminded of this email in one week"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** You should **BCC** when you are dealing with clients so they don't get the reminder. If you are work with colleagues that should also be reminded, then use **CC**. See more on [TO, CC and BCC methods](https://help.followupthen.com/knowledge-base/detailed-explanation-of-to-cc-and-bcc-methods/).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -150,24 +138,19 @@ Schedule Send is an alternative to followupthen that involves scheduling emails 
 <youtubeEmbed url="https://www.youtube.com/embed/-x4_3iruBNY" description={"Video: Delayed Emails as Reminders in Microsoft Outlook (4 min)"} />
 
 
-To use it:
-
-Write yourself an email in Outlook.
-Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email.
-
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).
-When you receive it in your inbox, action the task.
+1. Write yourself an email in Outlook
+2. Before pressing send, click **Pull Down Arrow** | **Schedule Send**, and then specify on the calendar when you want to send the email
+3. The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case).
+4. When you receive it in your inbox, action the task.
 
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Schedule send option in Outlook",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/follow-up-effectively/schedule-send-tab.jpg"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure={"Good example - Schedule send option in Outlook"}
+  src="/uploads/rules/follow-up-effectively/schedule-send-tab.jpg)
+![Figure: Good example - Pick date and time for delivery](schedule-send-calendar.jpg"
 />
 
 
@@ -184,50 +167,40 @@ To use it:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set a follow-up date",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Set a follow-up date"}
   src="/uploads/rules/follow-up-effectively/followup1.jpg"
 />
 
 
-2. Select an appropriate date from the drop-down or choose Custom to add additional reminders
-
+1. Select an appropriate date from the drop-down or choose Custom to add additional reminders
 
 <imageEmbed
   alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add an additional reminder to follow up",
-    shouldDisplay: true
-  } }
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure={"Add an additional reminder to follow up"}
   src="/uploads/rules/follow-up-effectively/followup2.jpg"
 />
 
 
 You can even set a custom reminder for the recipient :)
 
-3. Outlook shows an info tip with the exact follow-up date you chose
-4. A To-Do item is also added to your Outlook To-Do list
+1. Outlook shows an info tip with the exact follow-up date you chose
+2. A To-Do item is also added to your Outlook To-Do list
 
    **Note:** To-Do list can be found in the Tasks pane.
 
-5. On the due date you will receive a Reminder popup from Outlook
-6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
+3. On the due date you will receive a Reminder popup from Outlook
+4. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Using Follow Up Flags to set email reminders",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"OK example - Using Follow Up Flags to set email reminders"}
   src="/uploads/rules/follow-up-effectively/followup3.jpg"
 />
 
@@ -240,11 +213,8 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "See your whole day of tasks on a single window including flagged emails",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"See your whole day of tasks on a single window including flagged emails"}
   src="/uploads/rules/follow-up-effectively/microsoft-todo-summary-page.jpg"
 />
 
@@ -260,11 +230,8 @@ Here is a practical and useful feature in Teams. With Schedule send you can sche
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Right click | schedule send",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Right click | schedule send"}
   src="https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png"
 />
 
@@ -280,18 +247,15 @@ Remind yourself or your team members of important meetings, to-do items or even 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Remind App in Teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Remind App in Teams"}
   src="https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png"
 />
 
 
 ### 7. Microsoft Teams | Hiding Chats
 
-Alternatively, to keep track of outstanding queries, after answering a question in chat, Right Click | Hide the conversation and now your Teams chats are like a todo list.
+Alternatively, to keep track of outstanding queries, after answering a question in IM chat, **Right Click | Hide** the conversation and now your Teams chats are like a todo list.
 
 ### 8. Phone | Reminders
 
@@ -303,11 +267,8 @@ For example, if Jane knows she wants to film a video at 8am tomorrow then she mi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Phone reminders are great for tasks that need to be actioned immediately",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Phone reminders are great for tasks that need to be actioned immediately"}
   src="/uploads/rules/follow-up-effectively/iphone-reminder.png"
 />
 
@@ -326,11 +287,8 @@ Also make sure to send an email with an action point at the end of the meeting, 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Meetings are the best way to follow up on tasks that require multiple people's attention",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Meetings are the best way to follow up on tasks that require multiple people's attention"}
   src="/uploads/rules/follow-up-effectively/calendarfollowup.png"
 />
 
@@ -345,10 +303,7 @@ Sprints also naturally act as a follow up since the tasks will be discussed in t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Having a task or PBI in place makes sure a problem gets addressed",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Having a task or PBI in place makes sure a problem gets addressed"}
   src="/uploads/rules/follow-up-effectively/pbifollowup.png"
 />

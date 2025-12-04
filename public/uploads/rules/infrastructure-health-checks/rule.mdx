@@ -37,18 +37,15 @@ uri: infrastructure-health-checks
 
 Most developers include [health checks for their own applications](/have-a-health-check-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. **Ensuring your infrastructure is healthy is just as important as your app.**
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Infrastructure Health Checks",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Infrastructure Health Checks"}
   src="/uploads/rules/infrastructure-health-checks/health-check-image.png"
 />
 
@@ -81,11 +78,8 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB"}
   src="https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png"
 />
 
@@ -94,11 +88,8 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - SSWTimePro has a Health Check page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - SSWTimePro has a Health Check page"}
   src="/uploads/rules/infrastructure-health-checks/timepro-health-check.png"
 />
 
@@ -107,11 +98,8 @@ Depending on your needs, you may want to bake in a health check UI directly into
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Tina.io has a Health Check page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Tina.io has a Health Check page"}
   src="/uploads/rules/infrastructure-health-checks/tina-health-check.png"
 />
 
@@ -128,11 +116,8 @@ When deploying apps in Azure it's good practice to enable health checks within t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Performing a health check on an azure app service",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Performing a health check on an azure app service"}
   src="/uploads/rules/infrastructure-health-checks/image-3-.png"
 />
 
@@ -159,11 +144,8 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – The user is given the chance to interact with a feature that is currently unavailable",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – The user is given the chance to interact with a feature that is currently unavailable"}
   src="/uploads/rules/infrastructure-health-checks/infra-bad-example.png"
 />
 
@@ -172,10 +154,7 @@ When using non-critical infrastructure like an LLM-powered chatbot, make sure to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable"}
   src="/uploads/rules/infrastructure-health-checks/infra-good-example.png"
 />

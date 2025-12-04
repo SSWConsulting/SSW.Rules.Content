@@ -23,7 +23,7 @@ uri: do-you-use-linq-instead-of-caml
 
 In SharePoint development, it is always a good practice to use LINQ, instead of CAML.
 
-<endOfIntro />
+<endIntro />
 
 Why CAML is bad?
 
@@ -62,12 +62,7 @@ query.Query= String.Format(“
 
 SPListItemCollectionlistItemsColl= resourceList.GetItems(query);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – using CAML",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – using CAML**  
 
 ```cs
 Var resourceListItems =
@@ -80,8 +75,4 @@ Where item.Tags.ToString().ToLower().Contains(_filter)
 
 OrderBy item.PostedOn Ascending
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – using LINQ",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – using LINQ**

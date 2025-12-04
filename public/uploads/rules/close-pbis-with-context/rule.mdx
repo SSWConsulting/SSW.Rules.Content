@@ -15,7 +15,7 @@ createdBy: Gordon Beeming [SSW]
 createdByEmail: gordonbeeming@ssw.com.au
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
 isArchived: false
-lastUpdated: 2025-02-04 14:06:04+00:00
+lastUpdated: 2025-10-23 19:02:20+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
@@ -33,21 +33,18 @@ uri: close-pbis-with-context
 
 PBIs/Issues, tasks, PRs and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. This allows others to understand the PBI was closed and what the outcome was.
 
-<endOfIntro />
+<endIntro />
 
 For example, if you have UI changes, a [Done video](/send-done-videos) or a couple of screenshots can go a long way to help the team understand what was completed. Similarly, if there are changes to architecture documents (e.g. the readme), providing a link to those artifacts helps others get across the change.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** A comment is critical when closing a PBI. It is valuable in all scenarios and should be the default approach.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -71,11 +68,8 @@ If you are closing a PBI as "Won't fix", mention the person who agreed and the r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This PBI is closed with no context around changes made",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This PBI is closed with no context around changes made"}
   src="/uploads/rules/close-pbis-with-context/closing-pbis-without-context.jpg"
 />
 
@@ -84,26 +78,20 @@ If you are closing a PBI as "Won't fix", mention the person who agreed and the r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This PBI informs the team that the work is complete and contains some examples of what the changes look like",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - This PBI informs the team that the work is complete and contains some examples of what the changes look like"}
   src="/uploads/rules/close-pbis-with-context/closing-pbis-with-context.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -126,10 +114,7 @@ You can open the **Hamburger menu | Workflows** to view all the workflows
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "For Issues specifically, it's recommended you have workflows configured and enabled",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"For Issues specifically, it's recommended you have workflows configured and enabled"}
   src="/uploads/rules/close-pbis-with-context/project-workflows.jpg"
 />

@@ -49,7 +49,7 @@ Including a little bit of context helps your reviewer understand changes quickly
 
 There are 2 essential things you should have when writing a Pull Request:
 
-<endOfIntro />
+<endIntro />
 
 ## 1. Concise and self-explanatory **title**
 
@@ -62,45 +62,29 @@ Good **PR titles** provide a clear, concise summary of the change, helping revie
 The key to writing a concise Pull Request is to base the PR itself on a PBI / Issue (assuming they are well written).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PBI title:** Product Backlog Item 100359: "Desktop App | Exporting occasionally failed"
 
 **Pull Request title:** Fix exporting
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Pull Request title does not tell what issues have been fixed and how"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Pull Request title does not tell what issues have been fixed and how",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PBI title:** Product Backlog Item 100359: "Desktop App | Exporting occasionally failed"
 
 **Pull Request title:** 🐛 BUG - Fix desktop app exporting - prevent database concurrent access while exporting
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Pull Request title briefly describes the fix that it has"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Pull Request title briefly describes the fix that it has",
-  shouldDisplay: true
-} } />
 
 
 Having the **"What"** information allows the reviewers to quickly understand what this is about while having the **"How"** can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR descriptions (see below) if it is too long or hard to explain in one sentence.
@@ -112,16 +96,13 @@ The Pull Request description is a medium for the developer to tell the reviewers
 Good **PR descriptions** provide context to help others quickly understand the problem, solution, and rationale. This minimizes confusion, accelerates reviews, and improves overall code quality.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** For rare straight-forward changes, the self-explanatory title might be enough. You should still make sure there is enough details so the reviewer knows what initiated the changes. E.g. "**PR Title:** Fixed broken LinkedIn link caught by CodeAuditor on footer"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -147,79 +128,64 @@ If the PR is closing an email task after merged, remember to refer back to it:
 * "Done - see email: **&#123;&#123; EMAIL SUBJECT &#125;&#125;**"
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Cannot tell what was done here",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Cannot tell what was done here"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:** Added missing video caption + removed unnecessary brackets
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Clear and concise description, however it's not clear what task triggered the change",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Clear and concise description, however it's not clear what task triggered the change"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:**
 From email subject by @bob: **SSW.Rules - Video caption missing**. Done - Added missing video caption + removed unnecessary brackets
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - It's clear what changes are being made and where the task came from",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - It's clear what changes are being made and where the task came from"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) on how to write a PR body, but we can still have a great PR without using such preciseness.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -242,14 +208,11 @@ E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, o
 **A:** CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Ensure devs follow these tips by using a template. [Learn more and check out a template example](/use-pull-request-templates-to-communicate-expectations).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -30,43 +30,37 @@ A common mistake for developers is to say _"See you later, call me sometime next
 
 If you don't create another appointment straight away, you and the client may forget. On your last day of consulting with a client, you should **always book in the next date**.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Be aware of the common blockage people get, which the client is saying _"How about I check my calendar and get back to you?"_
 
 Often this never happens.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 A better approach is to minimize risk by saying **you’re penciling it in**, with the option to cancel or reschedule if needed. It is also a good idea to add urgency by mentioning that your calendar fills up quickly.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     _"OK let catch up in say a month"_
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No appointment sent",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - No appointment sent"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     _"My calendar fills up really quick, how about I pencil you in... say in 2 weeks' time?"_
 
@@ -74,22 +68,16 @@ Then create the appointment rather than remembering it later.
 
 _"Don't forget you can cancel or reschedule it anytime."_
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Proactively sending an appointment, bringing up urgency and options",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Proactively sending an appointment, bringing up urgency and options"}
 />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Plan ahead at the end of your last day at the client",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Plan ahead at the end of your last day at the client"}
   src="/uploads/rules/pencil-in-the-next-booking/mobile-calendar.jpg"
 />
 

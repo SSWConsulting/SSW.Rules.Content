@@ -23,17 +23,14 @@ uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
 
 Always indicate which fields are required. Users get frustrated when they experience a wasted trip to the server, just because they did not get an obvious indication of what was required first time around.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No visual indication for required fields when a user first sees the form",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No visual indication for required fields when a user first sees the form"}
   src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Required-field_Bad-example.jpg"
 />
 
@@ -44,11 +41,8 @@ A designer will know the best way to indicate required field depending on the la
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - A visual indication of what fields are required (use a red asterisk if you are not a designer)"}
   src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Redstar_Good-example.jpg"
 />
 
@@ -60,12 +54,7 @@ You should combine these visual indicators with appropriate client and server si
 ```cshtml
 <asp:Textbox runat="Server" ID="email" />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - No validator used, so the user won't know the email is required",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - No validator used, so the user won't know the email is required**  
 
 ```cshtml
 <asp:Textbox runat="Server" ID="email"/>
@@ -74,22 +63,14 @@ You should combine these visual indicators with appropriate client and server si
 
 ID="emailReqValidator" />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - An ASP.NET validator in use, to indicate the fields required",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - An ASP.NET validator in use, to indicate the fields required**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -23,7 +23,7 @@ uri: when-to-use-raw-sql
 
 Raw SQL comes with risks but sometimes it is the best solution.
 
-<endOfIntro />
+<endIntro />
 
 Using raw SQL involves taking care of SQL injection and other risks, however there are a number of situations where it may be the best solution.
 
@@ -32,8 +32,4 @@ The most obvious is a SQL UPDATE statement which updates a large number of rows.
 ```cs
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Updating a large number of rows quickly with SQL",
-  shouldDisplay: true
-} } />
+**✅ Good example - Updating a large number of rows quickly with SQL**

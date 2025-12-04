@@ -29,7 +29,7 @@ uri: optimize-your-images
 
 A nice looking image can be harmful to your website if it's not optimized. It's important to optimize images for the web because the fewer bytes the browser has to download, the less bandwidth the client uses, and the faster the browser can download and render your content on the screen.
 
-<endOfIntro />
+<endIntro />
 
 The first thing is to [save your graphics in the right format](/image-formats) and size. After that, you should run an image optimizer.
 
@@ -44,11 +44,8 @@ Some tips and techniques to keep in mind as you work on optimizing your images:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Optimizilla reduced the image in 31%",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Optimizilla reduced the image in 31%"}
   src="/uploads/rules/optimize-your-images/optimizeexample.png"
 />
 
@@ -64,10 +61,7 @@ If your website is running on WordPress you should install and activate the plug
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "WP Smush plugin saved 9.4MB from one website",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"WP Smush plugin saved 9.4MB from one website"}
   src="/uploads/rules/optimize-your-images/wp-smush.jpg"
 />

@@ -25,31 +25,25 @@ For PCs that are not in the domain, the printers won’t be automatically instal
 
 So you should add a DNS alias which maps \\printer to your print server.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\\printer takes to this window, were you can \"Add\" the printer via Connect",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"\\printer takes to this window, were you can \"Add\" the printer via Connect"}
   src="/uploads/rules/printers-do-you-make-your-printers-easy-to-find/add-printer-via-connect.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Note: It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

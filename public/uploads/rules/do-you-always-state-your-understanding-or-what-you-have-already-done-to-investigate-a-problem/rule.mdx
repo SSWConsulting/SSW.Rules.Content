@@ -30,59 +30,45 @@ When you seek advice or help from another, firstly, you need to establish with t
 - Your understanding
 - Methods you have previously attempted in order to resolve the problem
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Be aware that you don't want them to reply with [LMGTFY](https://www.lmgtfy.com) 🙂
 
 ...or the bing version [letmebingthatforyou.com](https://letmebingthatforyou.com)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 By not stating what you have previously attempted to resolve the problem, the person you are seeking advice from may be wasting time if they suggest methods you have already done.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     How do you &#123;&#123;do this&#125;&#125;?
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Not stating what you have previously attempted to resolve the problem",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Not stating what you have previously attempted to resolve the problem"}
 />
 
 
 By stating what you have previously attempted to resolve the problem, the person you are seeking advice from will not suggest for you to do the same methods again, and will look for other ways to resolve the issue.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I have searched Google and Stack Overflow but no luck... How do you &#123;&#123;do this&#125;&#125;?
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Stating what you have previously attempted to resolve the problem",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Stating what you have previously attempted to resolve the problem**  
 
 Another rule that closely links to this can be found in [Interruptions - Do you investigate your question for 2 minutes before asking someone on IM?](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)

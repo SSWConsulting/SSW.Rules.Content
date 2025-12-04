@@ -20,7 +20,7 @@ isArchived: false
 
 Encapsulating domain models is a critical aspect of domain-driven design (DDD) that helps maintain the integrity and consistency of your application's core logic. Without proper encapsulation, the domain logic can become scattered and difficult to manage, leading to increased complexity and maintenance challenges.
 
-<endOfIntro />
+<endIntro />
 
 ## Why encapsulate domain models?
 
@@ -58,12 +58,7 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Public setters, exposed collections, no constructor",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Public setters, exposed collections, no constructor**  
 
 ```csharp
     public class Order
@@ -98,8 +93,4 @@ public class Order
         }
     }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Private setters, read-only collection, factory method",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Private setters, read-only collection, factory method**  

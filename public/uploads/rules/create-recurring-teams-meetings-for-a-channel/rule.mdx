@@ -34,11 +34,8 @@ Everyone in your organisation should be able to see meetings that are relevant t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Navigate to Microsoft Teams | Calendar | New Meeting",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Navigate to Microsoft Teams | Calendar | New Meeting"}
   src="/uploads/rules/create-recurring-teams-meetings-for-a-channel/Microsoft-Teams-New-Meeting.png"
 />
 
@@ -50,11 +47,8 @@ Everyone in your organisation should be able to see meetings that are relevant t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Enter the details of the meeting, make sure to add a channel to associate with it!",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Enter the details of the meeting, make sure to add a channel to associate with it!"}
   src="/uploads/rules/create-recurring-teams-meetings-for-a-channel/Microsoft-Teams-New-Meeting-Setup.png"
 />
 
@@ -62,8 +56,8 @@ Everyone in your organisation should be able to see meetings that are relevant t
 3. Hit save and you are done, your meeting is all setup.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 Members of the Team can edit the meeting (time, date, attendees, etc.) in Outlook - which is really useful, since the meeting does not get "orphaned" if the organizer leaves the company.
@@ -71,9 +65,6 @@ Members of the Team can edit the meeting (time, date, attendees, etc.) in Outloo
 Go to **Outlook | Calendar | All Group Calendars | &#123;&#123; group &#125;&#125; and open the meeting from there.**
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

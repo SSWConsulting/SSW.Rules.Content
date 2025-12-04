@@ -25,23 +25,14 @@ The property value “inherit” of style.display is not recognized by IE7 and I
 
 So to make your Javascript and CSS style more compatible and avoid using "inherit" value of style.display:
 
-<endOfIntro />
+<endIntro />
 
 ```js
 divLoading.style.display = "inherit";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad code - inherit property.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad code - inherit property.**  
 
 ```js
 divLoading.style.display = "block";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good code - block property.",
-  shouldDisplay: true
-} } />
+**✅ Good code - block property.**

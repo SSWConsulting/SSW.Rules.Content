@@ -22,7 +22,7 @@ Every form should have a StatusBar that shows the time taken to load the form.
 
 Developers can't catch and reproduce every performance issue in the testing environment, but when users complain about performance they can send a screenshot (which would including the time to load). Users themselves also would want to monitor the performance of the application. This is one of Microsoft Internet Explorer's most appalling missing feature, the status bar only says 'Done.' when the page is loaded - 'Done: Load Time 14 seconds'.
 
-<endOfIntro />
+<endIntro />
 
 In the figure below, the time taken to load the form over a dialup connection is 61.1 seconds, this proves to the developer that the form is not useable over a dialup connection. In this particular case, the developer has called a 'select \* from Employees' where it was not needed, only the name, password and ID is needed for this form.
 
@@ -32,11 +32,8 @@ In the figure below, the time taken to load the form over a dialup connection is
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Another form with the StatusBar that shows the time to load - very slow on dialup.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Another form with the StatusBar that shows the time to load - very slow on dialup."}
   src="/uploads/rules/do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load/doesntperformsowellwhenrunoveravpn2.jpg"
 />
 
@@ -48,11 +45,8 @@ Add a StatusBar to the form, and add a StatusBarPanel to the StatusBar, then set
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add StatusBarPanel to StatusBar",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Add StatusBarPanel to StatusBar"}
   src="/uploads/rules/do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load/statusbarpanel.gif"
 />
 

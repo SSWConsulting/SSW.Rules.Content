@@ -2,6 +2,8 @@
 authors:
 - title: William Liebenberg
   url: https://www.ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/software-engineering/rules-to-better-blazor.mdx
 created: 2022-09-16 09:04:06+00:00
 createdBy: William Liebenberg
 createdByEmail: awliebenberg@outlook.com
@@ -21,7 +23,7 @@ uri: blazor-basic-appstate-pattern
 
 The **AppState** pattern is one of the simplest **State Management** patterns to implement with Blazor WebAssembly.
 
-<endOfIntro />
+<endIntro />
 
 To start implementing the pattern, declare a class that describes the collection of fields that represents the state of a page, a form, or a model.
 
@@ -106,16 +108,13 @@ Once registered, we can use the `@inject` directive to inject the object into a 
 Alternatively if we are using code-behind (separate .razor and .razor.cs files), then we can use the `[Inject]` attribute to inject the object as a parameter for the code-behind class.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Constructor based injection is not supported for Blazor code-behind. Only Parameter based injection is supported.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

@@ -27,7 +27,7 @@ In the case where the legacy .NET Framework application is hosting the frontend,
 
 This issue is best considered before or during the migration so the team will not spend time implementing something that will be removed shortly in the future.
 
-<endOfIntro />
+<endIntro />
 
 Depending on the scenario and the situation of the projects, there are many options available to host the frontend with .NET 8. Here are a couple of the many options available.
 
@@ -80,16 +80,13 @@ This option still allows a clean separation of concerns, allowing for independen
 * Increased ingress network load to the backend
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Option 2 is typically preferred for future-proofing, but Option 3 can also be recommended for its balance of cost, build efficiency, and future flexibility. Remember to weigh these factors in the context of your project's specific needs and constraints.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Deciding on frontend hosting, considering its scalability and cost benefits",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Deciding on frontend hosting, considering its scalability and cost benefits"}
 />
 
 

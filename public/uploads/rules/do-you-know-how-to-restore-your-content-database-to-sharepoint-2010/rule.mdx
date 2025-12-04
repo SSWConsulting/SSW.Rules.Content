@@ -29,7 +29,7 @@ This is the meat of the migration process. First we need to detach the current c
 
 Now we need to attach the database backup we took of our SharePoint 2007 server:
 
-<endOfIntro />
+<endIntro />
 
 1. In **SQL Server Management Studio** right click on **Databases | Restore Database...**
 
@@ -38,11 +38,8 @@ Now we need to attach the database backup we took of our SharePoint 2007 server:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select “Restore Database",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Select “Restore Database"}
   src="/uploads/rules/do-you-know-how-to-restore-your-content-database-to-sharepoint-2010/RestoreDatabase.png"
 />
 

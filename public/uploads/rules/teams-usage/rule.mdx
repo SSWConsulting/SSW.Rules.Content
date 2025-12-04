@@ -9,9 +9,9 @@ createdBy: JeanThirion
 createdByEmail: jeanthirion@ssw.com.au
 guid: afceb7ff-03e5-4260-87b8-71d581c73ffd
 isArchived: false
-lastUpdated: 2025-07-31 00:46:18+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-17 12:01:24+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/sharepoint-usage/rule.mdx
 seoDescription: Microsoft Teams usage reports help identify popular and unused teams,
@@ -25,7 +25,7 @@ Usage analytics is quite important - it allows you to identify popular and unuse
 
 There are 2 places to check for usage reports in Teams:
 
-<endOfIntro />
+<endIntro />
 
 ### Team Usage
 
@@ -34,11 +34,8 @@ There are 2 places to check for usage reports in Teams:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Access team usage from \"Team Settings\" | \"Manage Team\" | \"Analytics\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Access team usage from \"Team Settings\" | \"Manage Team\" | \"Analytics\""}
   src="/uploads/rules/teams-usage/teams-team-usage.jpg"
 />
 
@@ -52,11 +49,8 @@ This is by far the most interesting and import report. You need special (tenant-
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Access tenant level usage via \"Office 365 Admin Center\" | \"Reports\" | \"Usage\" | \"View More\" (under Microsoft Teams activity section)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Access tenant level usage via \"Office 365 Admin Center\" | \"Reports\" | \"Usage\" | \"View More\" (under Microsoft Teams activity section)"}
   src="/uploads/rules/teams-usage/teams-tenant-usage.jpg"
 />
 
@@ -68,26 +62,20 @@ Now enjoy the full power of Teams usage analytics!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Click on column names to sort data (e.g. \"Chat Messages\")",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Click on column names to sort data (e.g. \"Chat Messages\")"}
   src="/uploads/rules/teams-usage/teams-tenant-usage-home.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important:** If you can't see users logins such but GUIDs instead, you will need some SysAdmin magic to make it happen. Simply follow these steps: [Show user details in the reports](https://docs.microsoft.com/en-AU/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide#show-user-details-in-the-reports&WT.mc_id=M365-MVP-33518)
 
 ...and unlock the power of full O365 reporting!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

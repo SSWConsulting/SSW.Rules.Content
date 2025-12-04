@@ -27,7 +27,7 @@ uri: use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-chan
 
 Dynamics uses a solution as a logical container to hold all customizations for a given function or sub-function. It is very important to have a versioning strategy around changes and when to increment versions.
 
-<endOfIntro />
+<endIntro />
 
 Increment the version \*every time\* a change is made and add a new line at the top of the description field containing:
 
@@ -41,11 +41,8 @@ This gives you a quick and easy reference for the changes that have happened in 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example: Version 1.0.0.0, No changelog",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example: Version 1.0.0.0, No changelog"}
   src="/uploads/rules/use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-changes/change-log-bad.png"
 />
 
@@ -54,10 +51,7 @@ This gives you a quick and easy reference for the changes that have happened in 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example: Solution has up to date versioning with detailed changelog",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example: Solution has up to date versioning with detailed changelog"}
   src="/uploads/rules/use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-changes/change-log-good.png"
 />

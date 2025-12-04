@@ -25,17 +25,14 @@ uri: remove-executiontime-in-subscription-email-subject
 
 In subscription settings, @ExecutionTime should be removed from subject, because it ruins conversation threading in Outlook - You cannot sort them by subject.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Keep @ExecutionTime in subject",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Keep @ExecutionTime in subject"}
   src="/uploads/rules/remove-executiontime-in-subscription-email-subject/RSRulesRemoveTimeOld.gif"
 />
 
@@ -46,10 +43,7 @@ So we always make subject of subscription exactly same as report name.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Subject same as report name",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Subject same as report name"}
   src="/uploads/rules/remove-executiontime-in-subscription-email-subject/RSRulesRemoveTimeNew.gif"
 />

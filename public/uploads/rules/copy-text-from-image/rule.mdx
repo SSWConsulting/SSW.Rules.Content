@@ -24,7 +24,7 @@ uri: copy-text-from-image
 
 Have you ever stumbled upon a useful chart, diagram, or infographic with embedded text, only to find that the text can't be copied? This is incredibly frustrating because the information is locked in an image format. The process of manually typing out the text can be time-consuming and prone to errors. There are a couple ways to solve this:
 
-<endOfIntro />
+<endIntro />
 
 ### Method 1: Using OneNote
 
@@ -34,11 +34,8 @@ Using OneNote is simple. All you do is paste your image into OneNote, right clic
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Paste image into OneNote and right click on it",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Paste image into OneNote and right click on it"}
   src="/uploads/rules/copy-text-from-image/one-note-1.png"
 />
 
@@ -47,11 +44,8 @@ Using OneNote is simple. All you do is paste your image into OneNote, right clic
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The text pastes below the image. Easy!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The text pastes below the image. Easy!"}
   src="/uploads/rules/copy-text-from-image/one-note-2.png"
 />
 
@@ -64,11 +58,8 @@ In Google Drive you need to upload your image as a new file. Then you need to ri
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Upload your image first",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Upload your image first"}
   src="/uploads/rules/copy-text-from-image/drive-1.png"
 />
 
@@ -77,11 +68,8 @@ In Google Drive you need to upload your image as a new file. Then you need to ri
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Open your image with Google Docs",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Open your image with Google Docs"}
   src="/uploads/rules/copy-text-from-image/drive-2.png"
 />
 
@@ -90,10 +78,7 @@ In Google Drive you need to upload your image as a new file. Then you need to ri
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The text is added to the new document!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The text is added to the new document!"}
   src="/uploads/rules/copy-text-from-image/drive-3.png"
 />

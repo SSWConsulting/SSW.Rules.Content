@@ -16,9 +16,9 @@ createdBy: Camilla Rosa Silva [SSW]
 createdByEmail: 53064613+camillars@users.noreply.github.com
 guid: fdd7cf8b-d165-4010-9e96-481d3bd406b9
 isArchived: false
-lastUpdated: 2025-07-17 21:19:14+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-have-a-good-page-speed
 related:
@@ -36,19 +36,16 @@ Page speed remains a critical element for the online user experience. The demand
 
 Users are less patient, and if a webpage takes too long to load, they are likely to abandon it in frustration. This not only results in a lost visitor but also poses a risk to potential conversions.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -62,8 +59,8 @@ This includes checking for improvements on:
 * Page responsiveness
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
 
@@ -71,22 +68,14 @@ Visitors may encounter delays, increasing the likelihood of frustration and aban
 
 This negatively impacts user experience and potential conversions.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Things that will negatively impact the website UX"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Things that will negatively impact the website UX",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
 
@@ -97,17 +86,9 @@ These optimizations contribute to:
 * Increasing the chances of retaining visitors and conversions
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Good performance will improve the website's UX"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Good performance will improve the website's UX",
-  shouldDisplay: true
-} } />
 
 
 
@@ -137,11 +118,8 @@ One of the best ways to identify and fix performance issues is by using the Perf
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Slow LCP, leading to a poor user experience",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Slow LCP, leading to a poor user experience"}
   src="/uploads/rules/website-page-speed/bad-performance.png"
 />
 
@@ -150,11 +128,8 @@ One of the best ways to identify and fix performance issues is by using the Perf
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Fast LCP shown in Chrome DevTools Performance tab",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Fast LCP shown in Chrome DevTools Performance tab"}
   src="/uploads/rules/website-page-speed/performance-tab.png"
 />
 
@@ -177,11 +152,8 @@ This tool gives you a performance score and actionable recommendations to improv
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights"}
   src="/uploads/rules/website-page-speed/lighthouse.png"
 />
 
@@ -197,16 +169,13 @@ For GitHub, the key aspects of implementing this are:
 * A Lighthouse configuration file (`.lighthouserc.json`) - this will configure what aspects of Lighthouse to report on, and allow for selective auditing
 * A report generator (`generate-lighthouse-report.py`) - this will be a Python script that processes Lighthouse results and generates markdown report to be commented
 
-[Do you compare PR performance with Production before merging?](/rules/compare-pr-performance-with-production/)
+Learn more on [Do you compare PR performance with Production before merging?](/compare-pr-performance-with-production/)
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Lighthouse Audit in GitHub pull-request",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Lighthouse Audit in GitHub pull-request"}
   src="/uploads/rules/website-page-speed/lighthouse-gh-action.png"
 />

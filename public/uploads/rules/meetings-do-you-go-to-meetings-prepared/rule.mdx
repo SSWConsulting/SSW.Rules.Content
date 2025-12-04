@@ -23,34 +23,26 @@ uri: meetings-do-you-go-to-meetings-prepared
 
 Before you attend a meeting you must come prepared with as much information as possible about the client; meaning **no unnecessary questions**. You should already have the answers to most generic questions. Extensive research is impressive to clients.
 
-<endOfIntro />
+<endIntro />
 
 For example, when talking to a client about their ice cream chain...
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     How many outlets do you have?
 
 Where is the main outlet?
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"**Figure: Bad example - You should already know the answers to these questions by visiting their website**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "**Figure: Bad example - You should already know the answers to these questions by visiting their website**",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I noticed you have x amount of outlets, are you planning to open up more, when and where?
 
@@ -62,17 +54,9 @@ Do you have a customer loyalty program? Is it working?
 
 Where are some of the biggest challenges / opportunities for you at the moment / in the future?
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"**Figure: Good example - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example - By asking questions, you show interest as well as initiating conversation - remember to get the customer talking**",
-  shouldDisplay: true
-} } />
 
 
 Look for points of pain and build on them - if there's no pain it's hard to fix the problem properly.

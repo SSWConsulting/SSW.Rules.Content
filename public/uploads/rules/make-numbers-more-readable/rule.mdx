@@ -28,53 +28,44 @@ uri: make-numbers-more-readable
 
 Remember to use dividers when referring to large sums or phone numbers.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Total: $27216
 * Phone: 14XXXXXXXXX
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - These numbers are unwieldy and difficult to read",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - These numbers are unwieldy and difficult to read"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Total: $2,721.65
 * Phone: +1 XXX XXX XXXX
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Symbols or some spaces make these large numbers easier to read",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Symbols or some spaces make these large numbers easier to read"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For currency references, different countries use periods in place of commas and vice-versa.
 
 E.g. In the United States and Australia: **$2,367.48** / In France and Brazil: **$2.367,48**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

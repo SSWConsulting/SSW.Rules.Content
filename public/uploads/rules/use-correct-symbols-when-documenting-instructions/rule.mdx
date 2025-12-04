@@ -32,75 +32,60 @@ We often see documentation like: _'...then you click on Select All Programs from
 
 Be sure you keep the operations clearly in the right order:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ...then you click on All Apps from the Start menu
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Wrong order and too many words",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Wrong order and too many words"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Click Start, then All Apps, then Accessories, then Calculator.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No visual cue is given for separate steps",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - No visual cue is given for separate steps"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Start - All Apps - Accessories - Calculator
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Dashes are easy to glance over",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Dashes are easy to glance over"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Start --&gt; All Apps --&gt; Accessories --&gt; Calculator
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - This is better but may be interpreted incorrectly",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - This is better but may be interpreted incorrectly"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Start | All Apps | Accessories | Calculator
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Makes it easy to follow",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Makes it easy to follow"}
 />
 
 

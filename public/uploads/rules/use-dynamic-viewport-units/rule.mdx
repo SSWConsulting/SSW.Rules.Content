@@ -31,7 +31,7 @@ To address this issue, the CSS Working Group introduced [dynamic viewport units]
 
 Implementing these units into your website allows it to be responsive across desktop and mobile platforms.
 
-<endOfIntro />
+<endIntro />
 
 Dynamic viewport units are [compatible with every browser](https://developer.mozilla.org/en-US/docs/Web/CSS/length#browser_compatibility) and is even supported in popular CSS frameworks like [Tailwind CSS (as of v3.4)](https://tailwindcss.com/blog/tailwindcss-v3-4#dynamic-viewport-units)
 
@@ -39,11 +39,8 @@ Dynamic viewport units are [compatible with every browser](https://developer.moz
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Browser compatibility list for dynamic viewport units",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Browser compatibility list for dynamic viewport units"}
   src="/uploads/rules/use-dynamic-viewport-units/dvu-browser-compatibility.png"
 />
 
@@ -52,11 +49,8 @@ Dynamic viewport units are [compatible with every browser](https://developer.moz
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - TinaCMS media manager window overflowing when open on iPadOS Safari when using view height",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - TinaCMS media manager window overflowing when open on iPadOS Safari when using view height"}
   src="/uploads/rules/use-dynamic-viewport-units/dvu-bad-example.png"
 />
 
@@ -65,10 +59,7 @@ Dynamic viewport units are [compatible with every browser](https://developer.moz
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - TinaCMS media manager window responding properly when open on iPadOS Safari when using dynamic view height",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - TinaCMS media manager window responding properly when open on iPadOS Safari when using dynamic view height"}
   src="/uploads/rules/use-dynamic-viewport-units/dvu-good-example.png"
 />

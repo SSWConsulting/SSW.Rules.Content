@@ -21,20 +21,17 @@ isArchived: false
 If search is not enabled you will get this message in OWA:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Search results may take a long time to appear because Microsoft Exchange Search is unavailable. Results will not include matches in the email body."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
-<endOfIntro />
+<endIntro />
 
 This is how you fix it:
 

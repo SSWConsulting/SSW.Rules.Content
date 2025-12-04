@@ -28,7 +28,7 @@ uri: make-a-qr-code
 
 You can create and share the best media, but if people cannot easily interact with your site, the hard work is wasted. Imagine you've set up a great campaign, but to get to your website users must manually type in the URL. This will handicap engagement for even the most exceptional marketing. The last thing you want is for a user's experience to be cumbersome.
 
-<endOfIntro />
+<endIntro />
 
 QR codes give a smooth transition from offline to online content, which simplifies user interaction. They are effective in [many different contexts](/all-the-things-you-can-use-qr-code-for).
 
@@ -43,16 +43,13 @@ QR codes give a smooth transition from offline to online content, which simplifi
 4. **Download The QR Code:** Look for the download button (you might have to choose whether you want jpg, png, etc.).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ⚠️ Note: You should never have to create an account to download a basic QR code. Many websites will try to fool you into making one. Don't fall for it!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -61,11 +58,8 @@ QR codes give a smooth transition from offline to online content, which simplifi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The URL on the left, and customization options on the right",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The URL on the left, and customization options on the right"}
   src="/uploads/rules/make-a-qr-code/qr-code-generator.png"
 />
 
@@ -78,19 +72,12 @@ If you want to track data through Google Analytics, it's very easy.
 2. Use the new link to create your QR code
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     [https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing](https://www.ssw.com.au/?utm_source=newsletter&utm_medium=qr+code&utm_campaign=marketing)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The link you use to make the QR code will have a '?utm_source' ending",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The link you use to make the QR code will have a '?utm_source' ending**

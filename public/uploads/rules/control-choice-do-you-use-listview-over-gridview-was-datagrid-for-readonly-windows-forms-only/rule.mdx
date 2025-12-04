@@ -29,7 +29,7 @@ Yes a ListView looks nicer than a DataGrid, but a Datagrid is better because it 
 * Sort data - always useful when there are more than about 20 rows
 * DataBind - always saves heaps of code
 
-<endOfIntro />
+<endIntro />
 
 So our old rule was to always use the ugly DataGrid (although we were never happy about that).
 
@@ -37,11 +37,8 @@ So our old rule was to always use the ugly DataGrid (although we were never happ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The DataGrid is ugly",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - The DataGrid is ugly"}
   src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/UsingDataGridWhenNotNeeded.gif"
 />
 
@@ -50,11 +47,8 @@ So our old rule was to always use the ugly DataGrid (although we were never happ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - A beautiful ListView - a nicer look over the datagrid",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - A beautiful ListView - a nicer look over the datagrid"}
   src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/SortableListView.gif"
 />
 
@@ -65,11 +59,8 @@ So the listview looks nicer? If you are not convinced here is another one:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The appearance of DataGrid and ListView",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - The appearance of DataGrid and ListView"}
   src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/DatagridVSListview.gif"
 />
 
@@ -107,11 +98,8 @@ Exception: Use the DataGrid when:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields"}
   src="/uploads/rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/DataGrid2CheckBoxes.gif"
 />
 

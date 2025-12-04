@@ -25,7 +25,7 @@ uri: declare-variables-when-you-need-them
 
 Should you declare variables at the top of the function, or declare them when you need to use them? If you come back to your code after a few weeks and you no longer need a variable, you are quite likely to forget to delete the declaration at the top, leaving orphaned variables. Here at SSW, we believe that variables should be declared as they are needed.
 
-<endOfIntro />
+<endIntro />
 
 ```vbnet
 Private Sub Command0_Click()
@@ -40,12 +40,7 @@ dblWorkLoadToday = Date.Now()
 intRoutesPerDay = 2
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example**  
 
 ```vbnet
 Private Sub Command0_Click()
@@ -60,8 +55,4 @@ intRoutesPerDay = 2
 ....continuing code...
 .End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example**

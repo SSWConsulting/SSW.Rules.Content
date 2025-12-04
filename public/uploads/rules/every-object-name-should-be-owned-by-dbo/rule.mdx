@@ -26,7 +26,7 @@ uri: every-object-name-should-be-owned-by-dbo
 
 The reason is that you avoid ownership chain problems. Where Mary owns an object, Fred can read the object and then he creates a proc and he gives permission to Tom to execute. But Tom cannot because there is a product chain of ownership.
 
-<endOfIntro />
+<endIntro />
 
 ```sql
 CREATE PROCEDURE [Adam Cogan].[Sales by Year]
@@ -51,12 +51,7 @@ ON Orders.OrderID = "vwOrderSubTotals".OrderID
 
 WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example**  
 
 ```sql
 CREATE PROCEDURE [dbo].[Sales by Year]
@@ -81,8 +76,4 @@ CREATE PROCEDURE [dbo].[Sales by Year]
 
  WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example**

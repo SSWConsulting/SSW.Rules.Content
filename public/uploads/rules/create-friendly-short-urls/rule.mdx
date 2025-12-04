@@ -31,75 +31,53 @@ uri: create-friendly-short-urls
 
 Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as **short** as possible - it should be **friendly**.
 
-<endOfIntro />
+<endIntro />
 
 If you use a unfriendly and long link people can't see what they are clicking through to. In fact, this is what most spammers rely on.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Link: blog2.northwind.com/archive/2022/10/25/now-available-visual-studio-2022-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The long URL makes it hard to clearly see what it will take you. People can’t easily type or remember it"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - The long URL makes it hard to clearly see what it will take you. People can’t easily type or remember it",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Link: northwind.com/blog/visual-studio-2022-sample-data
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - The nice and clean URL makes it easy to see what the link is about"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The nice and clean URL makes it easy to see what the link is about",
-  shouldDisplay: true
-} } />
 
 
 Sometimes even a nice URL can be improved by removing all the filler words and just keep the main keywords. This way your URL's are more friendly. Also, make sure your main keywords are relevant for searches.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     northwind.com/how-do-i-find-the-version-of-the-word-document.html
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The filler words remain",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The filler words remain"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     northwind.com/find-word-document-version
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The filler words removed and only 'juicy' words remain",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - The filler words removed and only 'juicy' words remain"}
 />
 
 
@@ -108,40 +86,24 @@ Sometimes even a nice URL can be improved by removing all the filler words and j
 Sometimes you are not in control of the link. In those cases, use [Bitly](https://bitly.com/) to transform any long URL into a shorter, more readable link.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Auto-shorten link: bit.ly/3zTHz8b
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Auto-generated shorten URL - It's short but hard to remember"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK example - Auto-generated shorten URL - It's short but hard to remember",
-  shouldDisplay: true
-} } />
 
 
 When have a Bitly account, you can customize links to a more readable option.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Custom shorten link: bit.ly/VS-2022-Sample
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Short URL, and easier to remember"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Short URL, and easier to remember",
-  shouldDisplay: true
-} } />

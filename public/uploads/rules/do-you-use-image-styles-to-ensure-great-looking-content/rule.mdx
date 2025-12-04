@@ -25,17 +25,14 @@ Many people will simply "plonk" an image onto a web page in between or next to a
 
 A good technique is to set a CSS style to images. This style will be consistent and easy to be used by any person who might edit the website content.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The image has no styles",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The image has no styles"}
   src="/uploads/rules/do-you-use-image-styles-to-ensure-great-looking-content/imageWithoutStyles.jpg"
 />
 
@@ -44,11 +41,8 @@ A good technique is to set a CSS style to images. This style will be consistent 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The image has CSS driven margin, padding, borders",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The image has CSS driven margin, padding, borders"}
   src="/uploads/rules/do-you-use-image-styles-to-ensure-great-looking-content/imageWithStyles.jpg"
 />
 

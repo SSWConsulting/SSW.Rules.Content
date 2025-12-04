@@ -25,7 +25,7 @@ In Entra ID (formerly Azure AD), App Registrations are used to establish a trust
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.
 
-<endOfIntro />
+<endIntro />
 
 ### Use a PowerShell script to check expiry dates
 
@@ -141,18 +141,15 @@ Send-MgUserMail -UserId "noreply@northwind.com" -BodyParameter $emailParams
 ```
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 Note: To run this on a schedule, you should create an app registration to authenticate the script. The app registration will at least need **Application.Read.All** rights to be able to run this.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -167,10 +164,7 @@ You will also need an App Registration to authenticate your Logic App. Notificat
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Example email, listing app registration secrets that are expiring soon",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Example email, listing app registration secrets that are expiring soon"}
   src="/uploads/rules/expiring-app-secrets-certificates/app-reg-email.png"
 />

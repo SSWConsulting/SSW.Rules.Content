@@ -26,7 +26,7 @@ If you find a mistake in a file hosted on GitHub, don’t just fix it blindly - 
 
 GitHub makes it easy to view a file's version history, compare changes, and even see discussions around each commit.
 
-<endOfIntro />
+<endIntro />
 
 ## Viewing changes to a file in GitHub
 
@@ -37,11 +37,8 @@ GitHub makes it easy to view a file's version history, compare changes, and even
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "File within GitHub UI",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"File within GitHub UI"}
   src="/uploads/rules/view-file-changes-in-github/github-file.png"
 />
 
@@ -52,11 +49,8 @@ GitHub makes it easy to view a file's version history, compare changes, and even
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "GitHub history button",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"GitHub history button"}
   src="/uploads/rules/view-file-changes-in-github/github-history-button.png"
 />
 
@@ -67,11 +61,8 @@ GitHub makes it easy to view a file's version history, compare changes, and even
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select a commit from the list",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Select a commit from the list"}
   src="/uploads/rules/view-file-changes-in-github/github-commit-viewer.png"
 />
 
@@ -80,19 +71,16 @@ GitHub makes it easy to view a file's version history, compare changes, and even
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "View the changes made",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"View the changes made"}
   src="/uploads/rules/view-file-changes-in-github/github-diff-view.png"
 />
 
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     If you're working locally, you can also run the following commands to view the exact changes within the terminal.
 
@@ -101,9 +89,6 @@ git log -- path/to/file
 git show &lt;commit-hash&gt;
 ```
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

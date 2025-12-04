@@ -43,11 +43,8 @@ uri: azure-naming-resources
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "The scariest resource name you can find",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"The scariest resource name you can find"}
   src="/uploads/rules/azure-naming-resources/kv-bad-name.jpg"
 />
 
@@ -60,7 +57,7 @@ Organizing your cloud assets starts with good names. It is best to be consistent
 * Include which environment the resource is intended for i.e. [dev, test, prod, etc.](/do-you-have-separate-development-testing-and-production-environments)
 * If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix _api_
 
-<endOfIntro />
+<endIntro />
 
 Azure defines [some best practices for naming and tagging your resource](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging?WT.mc_id=AZ-MVP-33518).
 
@@ -78,11 +75,8 @@ If you're looking for resources, it's much easier to have a pattern to search fo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Inconsistent resource names. Do these belong to the same product?",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Inconsistent resource names. Do these belong to the same product?"}
   src="/uploads/rules/azure-naming-resources/bad-azure-name-example-1.png"
 />
 
@@ -95,11 +89,8 @@ Resource names can impact things like resource addresses/URLs. It's always a goo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!"}
   src="/uploads/rules/azure-naming-resources/better-example.png"
 />
 

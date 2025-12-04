@@ -23,7 +23,7 @@ uri: do-you-ensure-your-application-pool-is-always-running
 
 Do users complain that at times their web application appears to be slow to run at times. The issue can be related to after IIS application pool recycles/reboots/crashes and the application pools are not automatically loaded back into into memory e.g. The first user in the morning complains about excessive load times for their web application.
 
-<endOfIntro />
+<endIntro />
 
 As per [What's New in IIS 8?](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/?WT.mc_id=DOP-MVP-33518) you can use the Application Initialization feature to alleviate this behaviour. If this setting is not enabled, then IIS has default settings to spin down the application and release it from memory when it has been idle for 20 minutes.
 
@@ -44,11 +44,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "IIS",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"IIS"}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis8-1.jpg"
 />
 
@@ -60,11 +57,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Start mode",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Start mode"}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis8-2.jpg"
 />
 
@@ -75,11 +69,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Preload setting",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Preload setting"}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis8-3.jpg"
 />
 
@@ -95,11 +86,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "IIS",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"IIS"}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis7-1.jpg"
 />
 
@@ -110,11 +98,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Configuration editor",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Configuration editor"}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis7-2.jpg"
 />
 
@@ -127,11 +112,8 @@ The feature is built-in to IIS 8
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set \"start Mode\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Set \"start Mode\""}
   src="/uploads/rules/do-you-ensure-your-application-pool-is-always-running/iis7-3.jpg"
 />
 

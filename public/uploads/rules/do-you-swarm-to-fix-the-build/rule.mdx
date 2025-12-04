@@ -23,7 +23,7 @@ uri: do-you-swarm-to-fix-the-build
 
 If you or someone on your team has broken the build, the whole team should swarm to fix the problem immediately.
 
-<endOfIntro />
+<endIntro />
 
 It is PERFECTLY ok to have the CI build go red, that is what is there for, but when the build goes red the team should go immediately into corrective action mode and make sure the build goes green again.
 
@@ -33,16 +33,7 @@ Two things should be done:
 2. Find out WHY it went green locally but red on build server. This may indicate something is brittle in the application structure, and that is the underlying cause – and should of course also be fixed.
 
 ![](/uploads/rules/do-you-swarm-to-fix-the-build/broken builds.png)
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example: Too many broken builds in a row.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example: Too many broken builds in a row.**  
 
 ![](/uploads/rules/do-you-swarm-to-fix-the-build/good builds.png)
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example: Broken build was fixed immediately.",
-  shouldDisplay: true
-} } />
+**✅ Good Example: Broken build was fixed immediately.**

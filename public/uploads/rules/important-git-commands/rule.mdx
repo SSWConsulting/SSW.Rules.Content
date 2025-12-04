@@ -28,17 +28,14 @@ uri: important-git-commands
 
 Learn the Git commands every developer should know to keep your history clean, your team in sync and your pull requests stress free.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Git Workflow",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Git Workflow"}
   src="/uploads/rules/important-git-commands/git-branches-merge.png"
 />
 
@@ -84,19 +81,16 @@ git clone https://github.com/test/hello-world.git
 This copies all the files, history, and branches from the remote repo.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     If configured, you can clone via SSH:
 ```git
 git clone git@github.com:test/hello-world
 ```
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -157,16 +151,13 @@ Each commit should describe why the changes were made—not just what was change
 Use clear, concise messages that help teammates (and your future self) understand the history.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     A commonly followed spec [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), serves as a way to keep commit messages consistent and easy to read. This involves prefixing commits with a `type` and optional `scope`, e.g. `feat(api): send an email to the customer when a product is shipped`
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -245,16 +236,13 @@ git checkout -b new-branch
 ```
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Due to the `checkout` command having multiple uses, the Git team decided to split its usage into two additional commands, `switch` and `restore`. It's recommended to use `git switch (-c | -C) &lt;new-branch&gt;` to switch/create branches now days.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

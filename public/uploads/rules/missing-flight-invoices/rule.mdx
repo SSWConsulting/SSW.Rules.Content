@@ -35,11 +35,8 @@ The traditional way of retrieving the invoice is for the person who took the fli
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Ask the individual for the tax invoice of a flight",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Ask the individual for the tax invoice of a flight"}
   src="/uploads/rules/missing-flight-invoices/2023-02-24_15-40-04.png"
 />
 
@@ -62,40 +59,31 @@ If an invoice is missing, you can access the document by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds"}
   src="/uploads/rules/missing-flight-invoices/qantas-tax-invoice-v3.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** You can also access this page as a guest via Qantas Manage booking (without Qantas Business), but a booking reference is required.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Simply retrieve the missed invoices from that portal without asking the passengers!
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Only bookings with the company name and ABN can be managed through Qantas Business Rewards.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

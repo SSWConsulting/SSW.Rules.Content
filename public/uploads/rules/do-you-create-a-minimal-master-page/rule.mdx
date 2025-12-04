@@ -28,7 +28,7 @@ To create a master page or reuse an existing master page is a time-consuming pr
 
 Another problem of Default.master is that it contains many tables that are difficult to style.
 
-<endOfIntro />
+<endIntro />
 
 ``` cs
 <%@Master language="C#">
@@ -43,12 +43,7 @@ Another problem of Default.master is that it contains many tables that are di
 </BODY>
 </HTML>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - using default master page",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - using default master page**  
 
 So we recommend using the minimal master page which includes the necessary placeholders.
 
@@ -90,11 +85,6 @@ Learn more on [creating a minimal master page in SharePoint](https://learn.micro
 </body>
 </html>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Using minimal master page",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Using minimal master page**  
 
 7. On the File menu, click Save As, provide a unique file name with the .master extension, and then save the file to the master page gallery (/\_catalogs/masterpage) in your site collection.

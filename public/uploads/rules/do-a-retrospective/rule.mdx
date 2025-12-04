@@ -36,7 +36,7 @@ Scrum processes are useful for more than just software development - it’s a 
 
 You should get into the practice of having a retro for most tasks. It’s a great way to get feedback while it’s still fresh in people’s minds, and it lets you know what you need to change to be even more successful next time. The guys at SSW jokingly say _"you can't eat dinner with Adam Cogan without a retro about the meal"_.
 
-<endOfIntro />
+<endIntro />
 
 ## Get it in their mind at the kick-off
 
@@ -52,52 +52,38 @@ Start with **“What went well?”** - everyone must say one thing.
 
 Then move onto **“What didn’t go so well?”** This part can be painful but it’s important - we need to know these things so that we can make improvements.
 
-Finally, we ask **“What could we do differently next time?”**
+Finally, ask **“What could we do differently next time?”**
 
-**Tip:** [Use emojis to give context](use-emojis) when documenting each of your questions.
+**Tip:** [Use emojis to give context](/use-emojis) when documenting each of your questions.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Adam:** How was the presentation?
 **Eddie:** Yeah, it was alright.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - This line of questioning doesn’t provide useful feedback"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - This line of questioning doesn’t provide useful feedback",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Adam:** ✅ What went well with your presentation?
 **Eddie:** People seemed to really relate to the case studies I presented.
+
 **Adam:** ❌ What didn’t go so well?
 **Eddie:** My demo didn’t work. That was really embarrassing.
+
 **Adam:** 💡 What would you do differently next time?
 **Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Constructive feedback leads to stronger outcomes in the future"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Constructive feedback leads to stronger outcomes in the future",
-  shouldDisplay: true
-} } />
 
 
 ## Make the retro actionable
@@ -109,8 +95,8 @@ Create a list of action points and send off an email or a PBI for each one. Then
 This process ensures that each person has a single task to action, and makes accountability clear.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Action Points** (email subjects):
 
@@ -120,9 +106,6 @@ This process ensures that each person has a single task to action, and makes acc
 4. Melbourne Brainstorming 2024 Retro - Adam Action Points
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Mentioning the email subjects for each action point decided on in a Retro",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Mentioning the email subjects for each action point decided on in a Retro"}
 />

@@ -37,7 +37,7 @@ People often overlook or miss items in long, carefully drafted emails. To improv
 
 Each email should focus on one task or multiple tasks that are directly related or interdependent. This helps recipients complete the tasks, reply with "Done," delete the email, and move on to the next without confusion. Additionally, ensure your requests are clear and concise to minimize misunderstandings.
 
-<endOfIntro />
+<endIntro />
 
 ## Group related tasks
 
@@ -63,11 +63,8 @@ If you have a list of things to be done, and find that your requests are **not**
 4. Make sure all the fonts are consistent
 5. Make the headings bold
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - One email for multiple unrelated tasks (domains vs styling)",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - One email for multiple unrelated tasks (domains vs styling)"}
 />
 
 <emailEmbed
@@ -84,11 +81,8 @@ If you have a list of things to be done, and find that your requests are **not**
 2. Migrate all the content from **Northwind.com.au** to **Northwind.com**
 3. Set up a 301 redirect from **Northwind.com.au** to **Northwind.com**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 <emailEmbed
   from=""
@@ -103,11 +97,8 @@ If you have a list of things to be done, and find that your requests are **not**
 1. Make sure all the fonts are consistent
 2. Make the headings bold
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Separate emails for unrelated tasks. A few related tasks in the same email",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Separate emails for unrelated tasks. A few related tasks in the same email"}
 />
 
 ## Break up monster tasks
@@ -121,16 +112,13 @@ If you have a very large task that requires days of work, it is also better to b
 The advantages are that you get an email history for specific parts, making it easier to include someone else and follow up.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Understand tasks sizes by reading [how to size user stories effectively](/estimating-do-you-know-how-to-size-user-stories-effectively).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

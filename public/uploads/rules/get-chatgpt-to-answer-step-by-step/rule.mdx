@@ -20,7 +20,7 @@ isArchived: false
 
 By getting ChatGPT to think through its answers step by step, you can receive more logical and coherent responses that break down complex topics or tasks into easily understandable components. This is especially useful for mathematical questions.
 
-<endOfIntro />
+<endIntro />
 
 Request that ChatGPT thinks through its answer with you. It's similar to telling a maths student to "show their working".
 
@@ -34,11 +34,8 @@ Request that ChatGPT thinks through its answer with you. It's similar to telling
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Bad Example - It got the answer wrong",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Bad Example - It got the answer wrong"}
   src="/uploads/rules/get-chatgpt-to-answer-step-by-step/don-t-think.png"
 />
 
@@ -48,24 +45,18 @@ Request that ChatGPT thinks through its answer with you. It's similar to telling
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Good Example - By getting it to think step by step, it got the answer right",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Good Example - By getting it to think step by step, it got the answer right"}
   src="/uploads/rules/get-chatgpt-to-answer-step-by-step/think.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** When you’re using any of the new “reasoning” or “thinking” models—such as OpenAI’s o-series (o1, o3, o4, etc), Google’s Gemini “thinking” variants, and similar - you generally don’t need to add “Let’s think step by step”. These models already run an internal chain-of-thought before replying. Use that phrase only when you actually want the reasoning printed, otherwise it just adds tokens and makes the answer wordier.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

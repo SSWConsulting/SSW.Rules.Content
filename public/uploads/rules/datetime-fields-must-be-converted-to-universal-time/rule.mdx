@@ -28,7 +28,7 @@ Any DateTime fields must be converted to universal time from the application to 
 
 We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https://nodatime.org).
 
-<endOfIntro />
+<endIntro />
 
 Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.
 An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).
@@ -83,12 +83,7 @@ else if(timespanCheck < 0)
     longestSpan = t2;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using .NET DateTime to manipulate dates and times",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using .NET DateTime to manipulate dates and times**  
 
 ```csharp
 //------    Noda Time Examples
@@ -116,12 +111,7 @@ Duration d2 = Duration.FromHours(1);
 Duration longestDuration = Duration.Max(d1, d2);
 Duration shortestDuration = Duration.Min(d1, d2);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using Noda Time to manipulate dates and times",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using Noda Time to manipulate dates and times**  
 
 When retrieving data from the database it must be converted back to the local time of the user.
 

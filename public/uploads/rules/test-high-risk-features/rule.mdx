@@ -27,7 +27,7 @@ Shipping a high-risk feature without testing it with users is a gamble. If your 
 
 Even experienced designers and developers miss things. The only way to validate an interface is to observe real users attempting real tasks.
 
-<endOfIntro />
+<endIntro />
 
 ## Why test usability?
 
@@ -81,30 +81,24 @@ You don’t need fancy tools. Sometimes, all you need is a few users and a fresh
 ## Example
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You’ve redesigned the onboarding flow for your app. Before launch, you run usability tests with 5 new users. On screen 2, all participants misinterpret the CTA and hesitate. You tweak the language and spacing before release.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – You fixed a usability blocker before it impacted users",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – You fixed a usability blocker before it impacted users"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You launch a major dashboard redesign without testing. Support tickets flood in. Users are confused by ambiguous icon labels and can’t find the filters.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Avoidable UX issues caused friction and hurt trust",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – Avoidable UX issues caused friction and hurt trust"}
 />
 
 

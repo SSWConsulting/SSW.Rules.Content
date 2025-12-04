@@ -29,7 +29,7 @@ When you are building functions in PowerShell, you can use Comment-Based Help sn
 
 If you do this, the Get-Help cmdlet will show the information contained in the code for your function (making it super easy for anyone to use and understand it!).
 
-<endOfIntro />
+<endIntro />
 
 You can use it like this (beginning of the Function body):
 
@@ -44,12 +44,7 @@ function Get-Function
   # function logic
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using Comment-Based Help for Functions",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using Comment-Based Help for Functions**  
 
 Or like this (before the function keyword):
 
@@ -60,12 +55,7 @@ Or like this (before the function keyword):
 #>
 function Get-Function { }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using Comment-Based Help for Function",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using Comment-Based Help for Function**  
 
 You can do the same with scripts, with a little difference - you need to place the snippet at the beginning or end of the script file:
 
@@ -83,12 +73,7 @@ param(
     [switch]$MFA
 )
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Script not using any Comment-Based Help snippet",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Script not using any Comment-Based Help snippet**  
 
 ```powershell
 <#
@@ -115,12 +100,7 @@ Param(
 [string] $LogFile
 ) ...
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using Comment-Based Help at the beginning of a script file",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using Comment-Based Help at the beginning of a script file**  
 
 You can check some good PowerShell examples in [SSW's GitHub](https://github.com/SSWConsulting):
 

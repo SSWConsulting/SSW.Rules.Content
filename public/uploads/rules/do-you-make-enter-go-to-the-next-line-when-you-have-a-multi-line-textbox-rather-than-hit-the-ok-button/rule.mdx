@@ -21,17 +21,14 @@ isArchived: false
 
 If you have a multi-line textbox in a form, you should make the "Enter" key go to the next line in the text box, rather than cause it to hit the OK button.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - \"Enter\" button causes OK button to be pressed instead of going to next line in the multi-line text box",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - \"Enter\" button causes OK button to be pressed instead of going to next line in the multi-line text box"}
   src="/uploads/rules/do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button/developernotesscreen1.gif"
 />
 
@@ -40,11 +37,8 @@ If you have a multi-line textbox in a form, you should make the "Enter" key go t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - \"Enter\" button goes to the next line in the text box",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - \"Enter\" button goes to the next line in the text box"}
   src="/uploads/rules/do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button/developernotesscreen2.gif"
 />
 
@@ -56,10 +50,7 @@ It can be done by assigning "True" value to AcceptsReturn and Multiline options 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Developer Notes properties details",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Developer Notes properties details"}
   src="/uploads/rules/do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button/setupformtxt2.gif"
 />

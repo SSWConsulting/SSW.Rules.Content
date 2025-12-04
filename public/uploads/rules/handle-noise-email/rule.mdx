@@ -21,7 +21,7 @@ type: rule
 uri: handle-noise-email
 ---
 
-<endOfIntro />
+<endIntro />
 
 Emails that are automatically generated can quickly overload your inbox with less important messages (e.g. notifications from Microsoft Teams, GitHub, Azure Devops, etc).
 
@@ -29,11 +29,8 @@ Emails that are automatically generated can quickly overload your inbox with les
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Inbox with noise from Azure Devops",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Inbox with noise from Azure Devops"}
   src="/uploads/rules/handle-noise-email/Inbox-with-noise-email.png"
 />
 
@@ -44,10 +41,7 @@ You can create a folder and rules in your Microsoft Outlook to move cluttered em
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Move Azure DevOps emails to a newly created \"Azure Devops\" folder",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Move Azure DevOps emails to a newly created \"Azure Devops\" folder"}
   src="/uploads/rules/handle-noise-email/Noise-email-in-individual-folder.png"
 />

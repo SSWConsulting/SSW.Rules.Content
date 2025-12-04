@@ -13,14 +13,15 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 categories:
 - category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/software-engineering/rules-to-better-markdown.mdx
 created: 2021-02-22 03:20:26+00:00
 createdBy: Christian Morford-Waite [SSW]
 createdByEmail: ChristianMWaite@ssw.com.au
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 isArchived: false
-lastUpdated: 2025-09-24 00:34:01+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-10-24 05:02:57+00:00
+lastUpdatedBy: Jake Bayliss [SSW]
+lastUpdatedByEmail: 32888060+jakebayliss@users.noreply.github.com
 related:
 - rule: public/uploads/rules/the-value-of-consistency/rule.mdx
 - rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
@@ -36,7 +37,7 @@ SSW Rules are **technical documentation** presented as practical guidelines that
 
 This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
 
-<endOfIntro />
+<endIntro />
 
 ## Concepts to write rules
 
@@ -54,7 +55,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ### 1. Headings, paragraphs, and blockquotes
 
-```markdown
+```md
 ## This is a heading 2
 
 ### This is a heading 3
@@ -72,16 +73,13 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 **Figure: Markdown to generate headings and blockquotes**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Do **not** use Heading 1 (`&lt;h1&gt;`) in the content, even with the good intention of improving SEO. The page title already uses `&lt;h1&gt;`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `&lt;h1&gt;` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -212,8 +210,8 @@ This is [an internal link with title](https://www.ssw.com.au "This is a link tit
 This is [an external link](https://www.google.com).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Cool link features:**
 
@@ -222,11 +220,8 @@ This is [an external link](https://www.google.com).
    E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -236,16 +231,13 @@ This is [an external link](https://www.google.com).
 
 ```md
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is a box using the class "greybox".
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 ```
@@ -253,86 +245,68 @@ This is [an external link](https://www.google.com).
 **Figure: Markdown to generate boxes**
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is a box using the class "greybox".
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="highlight"
+<boxEmbed
+  style="highlight"
   body={<>
     This is a box using the class "highlight".
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="china"
+<boxEmbed
+  style="china"
   body={<>
     This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="codeauditor"
+<boxEmbed
+  style="codeauditor"
   body={<>
     This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="todo"
+<boxEmbed
+  style="todo"
   body={<>
     This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -358,11 +332,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Caption text",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Caption text"}
   src="/uploads/rules/rule/image-file.jpg"
 />
 
@@ -374,11 +345,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="small"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Image using class \"img-small\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Image using class \"img-small\""}
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -387,11 +355,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Image using class \"img-medium\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Image using class \"img-medium\""}
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -400,11 +365,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Image using class \"img-large\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Image using class \"img-large\""}
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -413,11 +375,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Image using class \"no-border\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Image using class \"no-border\""}
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -429,11 +388,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens...",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..."}
   src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
 />
 
@@ -443,26 +399,20 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "...and with a short caption",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"...and with a short caption"}
   src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
 />
 
 
 
-<asideEmbed
-  variant="todo"
+<boxEmbed
+  style="todo"
   body={<>
     TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -471,24 +421,9 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 ### 7. Captions
 
 ```md
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Caption for bad examples",
-  shouldDisplay: true
-} } />
-
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "Figure: Caption for OK examples",
-  shouldDisplay: true
-} } />
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Caption for good examples",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Caption for bad examples**  
+**😐 Figure: Caption for OK examples**  
+**✅ Figure: Caption for good examples**  
 ```
 
 #### Captions on images
@@ -497,11 +432,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Caption for bad images",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Caption for bad images"}
   src="https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -511,11 +443,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Caption for regular images",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Caption for regular images"}
   src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -524,11 +453,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "Caption for OK images",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"Caption for OK images"}
   src="https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -537,11 +463,8 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Caption for good images",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Caption for good images"}
   src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
 />
 
@@ -549,58 +472,46 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 #### Captions on boxes
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is an example of a bad grey box.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Caption for bad examples",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Caption for bad examples"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is an example of a normal grey box.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Caption for normal examples",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"Caption for normal examples"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is an example of a OK grey box.
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "Caption for ok examples",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"Caption for ok examples"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This is an example of a good grey box.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Caption for good examples",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Caption for good examples"}
 />
 
 
@@ -651,12 +562,7 @@ To add inline code in Markdown, wrap the code snippet with single backticks. See
 ```md
 This is a piece of code in a code block
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Because this code doesn't include the language used",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Because this code doesn't include the language used**  
 
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
@@ -760,11 +666,8 @@ public class MyClass
 
 &#123;&#123; EMAIL CONTENT &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Nice email template",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Nice email template"}
 />
 ```
 
@@ -782,11 +685,8 @@ public class MyClass
 
 &#123;&#123; EMAIL CONTENT &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Nice email template",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Nice email template"}
 />
 
 ---

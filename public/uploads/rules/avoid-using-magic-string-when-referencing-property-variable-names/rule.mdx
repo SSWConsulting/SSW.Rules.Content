@@ -26,23 +26,14 @@ uri: avoid-using-magic-string-when-referencing-property-variable-names
 
 Hard coded strings when referencing property and variable names can be problematic as your codebase evolves, and can make your code brittle.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Hardcoding a reference to a property",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - Hardcoding a reference to a property**  
 
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Using nameof() operator to avoid hardcoded strings",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example - Using nameof() operator to avoid hardcoded strings**

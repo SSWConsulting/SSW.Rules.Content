@@ -34,7 +34,7 @@ Load testing places a simulated "load" or demand on your web application and mea
 
 Load testing tools are designed to help you perform load testing, by recording metrics about the application as the load is varied and allowing you to visualize where user load impacts performance and/or causes application errors.
 
-<endOfIntro />
+<endIntro />
 
 ## Choosing a load testing tool
 
@@ -64,16 +64,13 @@ There are many different load testing tools to choose from. Some of the most pop
 * [LoadView-testing.com](https://www.loadview-testing.com/) (Dotcom-Monitor)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing?WT.mc_id=AZ-MVP-33518) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -82,11 +79,8 @@ There are many different load testing tools to choose from. Some of the most pop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Loader.io load testing results",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Loader.io load testing results"}
   src="/uploads/rules/the-best-load-testing-tools-for-web-applications/loader-io.jpg"
 />
 
@@ -96,10 +90,7 @@ There are many different load testing tools to choose from. Some of the most pop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Azure Load Testing results",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Azure Load Testing results"}
   src="/uploads/rules/the-best-load-testing-tools-for-web-applications/azure-load-testing.jpg"
 />

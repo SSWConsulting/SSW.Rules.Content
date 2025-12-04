@@ -11,7 +11,7 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 51bc0f77-deab-436e-be51-ebc00b076009
 isArchived: false
-lastUpdated: 2025-09-29 15:59:56+00:00
+lastUpdated: 2025-10-24 16:38:30+00:00
 lastUpdatedBy: github-actions[bot]
 lastUpdatedByEmail: 41898282+github-actions[bot]@users.noreply.github.com
 redirects:
@@ -27,7 +27,7 @@ Have you ever wasted time searching through disorganized photo folders or lost i
 
 Google Photos offers a practical way to organize and find your images with ease. Using features like automatic sorting, facial recognition, and powerful search tools, it helps you quickly locate specific photos from your collection.
 
-<endOfIntro />
+<endIntro />
 
 Whether you're looking for a picture of a specific person, place, or event, Google Photos makes the process straightforward and efficient. This guide will explore how to make the most of Google Photos' capabilities for managing and finding your images.
 
@@ -35,11 +35,8 @@ Whether you're looking for a picture of a specific person, place, or event, Goog
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Add photos to Google Photos so you can organize your photos and search keywords or people's names to find things easily. It also displays thumbnails for greater visability",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Add photos to Google Photos so you can organize your photos and search keywords or people's names to find things easily. It also displays thumbnails for greater visability"}
   src="/uploads/rules/manage-your-photos/tesla-search.png"
 />
 
@@ -64,14 +61,23 @@ Use SharePoint or a traditional file server to collect all of your photos. From 
 
 Using a file server as a staging area makes it easy to automate uploads to Google Photos. While the initial setup takes a little time, it saves a lot of effort in the long run. Once curated, photos can be stored in a designated folder on the file server, which then pushes them to Google Photos, no more manual transfers!
 
-[!Figure: First step is collecting the photos and storing them in a repository. It isn't clear at this stage what the photos are of, or who is in them, but they're all in a folder](images-in-folders.png)
 
-However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more here: [https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates/).
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure={"First step is collecting the photos and storing them in a repository. It isn't clear at this stage what the photos are of, or who is in them, but they're all in a folder"}
+  src="/uploads/rules/manage-your-photos/images-in-folders.png"
+/>
+
+
+However, changes introduced in September 2024 brought new limitations to the Google Photos API, particularly around cloud-to-cloud integrations. You can read more on [Updates to the Google Photos APIs: Picker API launch and Library API changes](https://developers.googleblog.com/en/google-photos-picker-api-launch-and-library-api-updates).
 
 Watch the video to learn more about Google Photos and how to set it up for your company:
 
 
-<youtubeEmbed url="https://www.youtube.com/embed/p8_siTdeeCg" description={""} />
+<youtubeEmbed url="https://www.youtube.com/embed/p8_siTdeeCg" description={"Video: SSW Google Photos - The awesome way to find any image (6 min)"} />
 
 
 ---

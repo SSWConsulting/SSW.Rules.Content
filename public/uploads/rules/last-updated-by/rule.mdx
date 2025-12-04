@@ -23,17 +23,14 @@ uri: last-updated-by
 
 A website’s main purpose is to share information, promote products or services, and engage with its audience while building trust and credibility. Showing a “Last Updated By” label or a content history link adds transparency, assures visitors that content is maintained by real contributors, and reflects accountability and professionalism.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No clue who changed this page or when it was last updated",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No clue who changed this page or when it was last updated"}
   src="/uploads/rules/last-updated-by/how-tinacms-works-bad-example.png"
 />
 
@@ -44,11 +41,8 @@ The example page explains how TinaCMS works, but users can’t tell whether the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Showing the last updated by and a history link",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Showing the last updated by and a history link"}
   src="/uploads/rules/last-updated-by/how-tinacms-works-good-example.png"
 />
 

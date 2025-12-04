@@ -6,8 +6,14 @@ authors:
   url: https://ssw.com.au/people/lewis-toh
 categories:
 - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-created: 2025-10-17 09:52:00+00:00
+created: 2025-10-17 06:56:06+00:00
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
 guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
+isArchived: false
+lastUpdated: 2025-10-17 06:56:06+00:00
+lastUpdatedBy: Lewis Toh [SSW]
+lastUpdatedByEmail: 88498002+Lewkans@users.noreply.github.com
 related:
 - rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
 seoDescription: Learn how to properly attribute commits when using GitHub Copilot
@@ -23,15 +29,15 @@ When AI assistants make code changes on your behalf, proper attribution is essen
 
 This practice is especially important in team environments where AI assists with implementing features, fixing bugs, or making changes.
 
-<endOfIntro />
+<endIntro />
 
 ### The Problem with Missing Attribution
 
 When AI makes changes without proper attribution, we don't know who checked the work of the AI:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Git History:**
 
@@ -41,17 +47,9 @@ Author: GitHub Copilot &lt;noreply@github.com&gt;
 ```
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - No indication of who checked the AI's work"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - No indication of who checked the AI's work",
-  shouldDisplay: true
-} } />
 
 
 ### The Problem with Giant End-of-Session Commits
@@ -59,8 +57,8 @@ Author: GitHub Copilot &lt;noreply@github.com&gt;
 When you don't commit frequently during a Copilot session:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Single massive commit at the end:**
 
@@ -82,23 +80,16 @@ feat: Complete authentication system
 ```
 
 **Issues:**
+
 * 47 files changed, 3,421 insertions(+), 892 deletions(-)
 * Impossible to review effectively
 * Can't revert specific changes
 * Lost context about which changes relate to which sub-tasks
-* No connection to [task documentation](keep-task-summaries-from-ai-assisted-development) created during the session
+* No connection to [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - One giant commit makes it hard to understand the work progression and loses the relationship to task docs",
-  shouldDisplay: true
-} } />
 
 
 ## The Solution: Co-Author Attribution + Frequent Commits
@@ -108,23 +99,26 @@ Git supports multiple authors via the `Co-authored-by` trailer in commit message
 ### The Benefits of This Approach
 
 **Proper Attribution:**
+
 * Both the AI implementer and the human verifier receive credit
 * Transparent collaboration history
 
 **Small, Vertical Commits:**
+
 * Each commit represents one logical change
 * Easy to review and understand
 * Can revert specific changes without affecting others
 * Clear progression of work
 
 **Connection to Task Documentation:**
-* Commits align with [task documentation](keep-task-summaries-from-ai-assisted-development) created during the session
+
+* Commits align with [task documentation](/keep-task-summaries-from-ai-assisted-development) created during the session
 * Easy to cross-reference commit history with task docs
 * Provides complete context for future developers
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Better approach - Multiple focused commits:**
 
@@ -149,22 +143,15 @@ Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ```
 
 **Result:**
+
 * Focused commits instead of 1 giant commit
 * Each commit is reviewable independently
 * Clear relationship to task documentation
 * Easy to understand the implementation sequence
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Small, focused commits with proper attribution and documentation"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Small, focused commits with proper attribution and documentation",
-  shouldDisplay: true
-} } />
 
 
 ### How to Identify Yourself
@@ -180,8 +167,8 @@ Check these sources to determine your details for co-author attribution:
 The standard Git co-author format:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ```bash
@@ -191,22 +178,15 @@ Co-authored-by: Gordon Beeming &lt;me@gordonbeeming.com&gt;"
 ```
 
 **Git History Shows:**
+
 * **Author:** GitHub Copilot (or AI Assistant)
 * **Co-author:** Gordon Beeming
 
 **Result:** Both the AI implementer and human verifier are visible in GitHub's UI and git log
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - You get proper credit for verifying and approving the AI's work"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - You get proper credit for verifying and approving the AI's work",
-  shouldDisplay: true
-} } />
 
 
 ### Multiple Co-Authors
@@ -219,12 +199,7 @@ git commit -m "feat: Implement user authentication system
 Co-authored-by: Gordon Beeming <gordon@example.com>
 Co-authored-by: Daniel Mackay <daniel@example.com>"
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - All reviewers are properly credited",
-  shouldDisplay: true
-} } />
-
+**✅ Good Example - All reviewers are properly credited**  
 
 ## When to Add Yourself as Co-Author
 
@@ -251,23 +226,24 @@ Add the following section to your AI assistant configuration (e.g., `.github/cop
 ## Git Commit Guidelines
 
 ### Commit Frequently
+
 Commit changes incrementally as you complete logical units of work.
 
-**Why commit frequently:**
-- ✅ Creates small, focused commits that are easy to review and understand
-- ✅ Enables vertical slicing - each commit represents a single logical change
-- ✅ Avoids one giant commit at the end of a session with dozens of unrelated changes
-- ✅ Makes it easier to track progress and document work in task docs created
-- ✅ Allows reverting specific changes without losing other work
-- ✅ Provides clear checkpoints during development
+****Why** commit frequently:**
+- Creates small, focused commits that are easy to review and understand
+- Enables vertical slicing - each commit represents a single logical change
+- Avoids one giant commit at the end of a session with dozens of unrelated changes
+- Makes it easier to track progress and document work in task docs created
+- Allows reverting specific changes without losing other work
+- Provides clear checkpoints during development
 
-**When to commit:**
-- ✅ After adding a new feature or component
-- ✅ After fixing a bug
-- ✅ After updating documentation (including task documentation)
-- ✅ After refactoring code
-- ✅ Before making major changes (safety checkpoint)
-- ✅ After successful test runs
+****When** to commit:**
+- After adding a new feature or component
+- After fixing a bug
+- After updating documentation (including task documentation)
+- After refactoring code
+- Before making major changes (safety checkpoint)
+- After successful test runs
 
 **Exception:** Do not commit when working on the `gitbutler/workspace` branch - GitButler manages commits on this branch.
 
@@ -320,36 +296,33 @@ fi
 ```
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Git hooks are local and not committed to the repository. Share this with your team via documentation.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
-## Benefits
+## ✅ Benefits
 
-✅ **Proper Credit:** Both AI and human contributors receive recognition
-✅ **Transparency:** Clear record of who verified the AI's work
-✅ **Collaboration History:** Easy to trace AI-assisted changes
-✅ **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits
-✅ **Vertical Slicing:** Each commit represents one logical unit of work
-✅ **Task Documentation Alignment:** Commits correspond to task docs created during the session
-✅ **Team Visibility:** Team can see AI collaboration patterns
-✅ **Future Context:** Helps understand how changes were created
-✅ **Easy Reverting:** Can undo specific changes without affecting other work
+* **Proper Credit:** Both AI and human contributors receive recognition
+* **Transparency:** Clear record of who verified the AI's work
+* **Collaboration History:** Easy to trace AI-assisted changes
+* **Small, Reviewable Commits:** Focused changes instead of giant end-of-session commits
+* **Vertical Slicing:** Each commit represents one logical unit of work
+* **Task Documentation Alignment:** Commits correspond to task docs created during the session
+* **Team Visibility:** Team can see AI collaboration patterns
+* **Future Context:** Helps understand how changes were created
+* **Easy Reverting:** Can undo specific changes without affecting other work
 
 ### GitHub UI Benefits
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **GitHub Commit View:**
 
@@ -359,21 +332,14 @@ feat: Add authentication module
 Author: GitHub Copilot
 Co-authored-by: Gordon Beeming &lt;gordon@example.com&gt;
 ```
+
 * Gordon's avatar appears on the commit
 * Commit counts toward Gordon's contributions
 * Links to Gordon's profile from the commit
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - GitHub recognizes and displays all contributors"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - GitHub recognizes and displays all contributors",
-  shouldDisplay: true
-} } />
 
 
 ## Conclusion

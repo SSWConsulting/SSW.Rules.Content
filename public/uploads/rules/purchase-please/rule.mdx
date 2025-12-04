@@ -29,7 +29,7 @@ uri: purchase-please
 
 When you need to spend money, don't assume you will get authorization – make sure you have approval before spending the money.
 
-<endOfIntro />
+<endIntro />
 
 Let's have a look at the best way to get authorization:
 
@@ -68,11 +68,8 @@ When approving purchases, you might come across some exceptions depending on the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This expense will not be reimbursed",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This expense will not be reimbursed"}
   src="/uploads/rules/purchase-please/purchase-please-bad-example.jpg"
 />
 
@@ -81,10 +78,7 @@ When approving purchases, you might come across some exceptions depending on the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This expense will be reimbursed, if David gets an approval from Adam",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - This expense will be reimbursed, if David gets an approval from Adam"}
   src="/uploads/rules/purchase-please/purchase-please-good-example.jpg"
 />

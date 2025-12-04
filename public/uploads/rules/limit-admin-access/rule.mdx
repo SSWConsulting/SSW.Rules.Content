@@ -29,30 +29,24 @@ Increasing a member's permissions also increases the amount of damage they can d
 e.g. You do not want developers to have force-push permissions on the main branch, as they might accidentally delete branches and code by mistake!
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     💡 Tip: GitHub has a role called "Maintainer" which is like an Admin but without the destructive powers
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ⚠️ Note: If you are still using Azure DevOps, force-push permissions into a repo is only allowed for Project Administrators, so pick your administrators well.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -62,11 +56,8 @@ See GitHub docs [Repository permission levels for an organization](https://docs.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example: All members are Admins",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example: All members are Admins"}
   src="/uploads/rules/limit-admin-access/tooManyAdmins.png"
 />
 
@@ -75,10 +66,7 @@ See GitHub docs [Repository permission levels for an organization](https://docs.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example: Most users have push access, some can maintain the repo",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example: Most users have push access, some can maintain the repo"}
   src="/uploads/rules/limit-admin-access/notManyAdmins.png"
 />

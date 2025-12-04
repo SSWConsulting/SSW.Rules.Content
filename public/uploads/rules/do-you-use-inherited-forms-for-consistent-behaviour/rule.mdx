@@ -20,7 +20,7 @@ isArchived: false
 
 If you ask a new .NET developer (from the Access or VB6 world) what is the best thing about .NET Windows Forms, most of your answers will be "Form Inheritance" that allows them to keep a nice consistent look for all forms. If you ask them a couple of months later, they will probably tell you the worst thing about .NET Windows Forms is "Form Inheritance". This is because they have had too many problems with the bugs in the form designer regarding this feature. Many abandon them altogether and jump on the user control band wagon. Please don't... we have a solution to this...
 
-<endOfIntro />
+<endIntro />
 
 If you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.
 
@@ -40,11 +40,8 @@ Every form in your application should inherit from a base form which has code co
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Base Form for all SSW applications with SSW icon",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Base Form for all SSW applications with SSW icon"}
   src="/uploads/rules/do-you-use-inherited-forms-for-consistent-behaviour/baseform.gif"
 />
 
@@ -80,11 +77,8 @@ c) Sorting out a base data entry form:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Base data entry form with menu, toolbar and OK, Cancel & Apply buttons",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Base data entry form with menu, toolbar and OK, Cancel & Apply buttons"}
   src="/uploads/rules/do-you-use-inherited-forms-for-consistent-behaviour/dataentrybaseform.gif"
 />
 

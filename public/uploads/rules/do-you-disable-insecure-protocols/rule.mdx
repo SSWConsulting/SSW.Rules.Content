@@ -28,7 +28,7 @@ uri: do-you-disable-insecure-protocols
 
 For better server security (especially regarding public facing servers), certain security protocols and ciphers should be disabled.
 
-<endOfIntro />
+<endIntro />
 
 Using a tool called "IIS Crypto 3.2" by [Nartac](https://www.nartac.com/Products/IISCrypto), these protocols can be easily disabled instead of having to manually edit the Registry Keys.
 
@@ -40,11 +40,8 @@ Using a tool called "IIS Crypto 3.2" by [Nartac](https://www.nartac.com/Products
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – TLS should be enabled and SSL should be disabled",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – TLS should be enabled and SSL should be disabled"}
   src="/uploads/rules/do-you-disable-insecure-protocols/iis-crypto-3-2.png"
 />
 

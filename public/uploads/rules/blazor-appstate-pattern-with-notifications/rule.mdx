@@ -2,6 +2,8 @@
 authors:
 - title: William Liebenberg
   url: https://www.ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/software-engineering/rules-to-better-blazor.mdx
 created: 2022-09-16 09:04:21+00:00
 createdBy: William Liebenberg
 createdByEmail: awliebenberg@outlook.com
@@ -21,7 +23,7 @@ uri: blazor-appstate-pattern-with-notifications
 
 Implementing the `INotifyPropertyChanged` interface is one of the most popular and .NET native approaches to notify other components of changes to a shared state object.
 
-<endOfIntro />
+<endIntro />
 
 Implementing the `INotifyPropertyChanged` interface allows listeners (other pages / components / classes) to be notified when the `PropertyChanged` event is invoked.
 
@@ -165,4 +167,4 @@ Whenever the `IncrementCount()` or `Reset()` methods are invoked, any listeners 
 
 The real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components.
 
-Although this mitigates an issue with the [AppState pattern](blazor-basic-appstate-pattern), it is still not a complete solution for all scenarios. For more complex scenarios, consider using a Redux state management pattern. [Fluxor](https://github.com/mrpmorris/Fluxor) is a NuGet package implementing the Redux pattern for Blazor.
+Although this mitigates an issue with the [AppState pattern](/blazor-basic-appstate-pattern), it is still not a complete solution for all scenarios. For more complex scenarios, consider using a Redux state management pattern. [Fluxor](https://github.com/mrpmorris/Fluxor) is a NuGet package implementing the Redux pattern for Blazor.

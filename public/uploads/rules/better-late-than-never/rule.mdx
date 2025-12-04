@@ -31,7 +31,7 @@ You should always try and reply to emails and IM messages within a timely period
 
 Sometimes people see a 6-month old task/question, and just delete/ignore thinking it's "too old"... or because "the customer will think we're a joke taking this long to do something!" No matter how long it takes to do some tasks, it's always better to get it done.
 
-<endOfIntro />
+<endIntro />
 
 Of course, there are tasks that can be irrelevant with the passage of time. You should still reply and state that you don't believe it is needed anymore.
 
@@ -41,11 +41,8 @@ Always reply to emails and IM messages regardless of how long it takes to respon
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Hitting the 'Delete' button without replying",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Hitting the 'Delete' button without replying"}
   src="/uploads/rules/better-late-than-never/delete-outlook-message-button.png"
 />
 
@@ -54,18 +51,15 @@ Always reply to emails and IM messages regardless of how long it takes to respon
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A chat with no answer",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - A chat with no answer"}
   src="/uploads/rules/better-late-than-never/no-reply.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
@@ -73,17 +67,14 @@ Sorry for the late reply
 
 Done
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Getting an old task done",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Getting an old task done"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
@@ -92,42 +83,33 @@ This is an old one. I tried to call you but you were not available. This still l
 1. Please let me know if you don't want that
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Asking if an old task is still wanted",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Asking if an old task is still wanted"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
 I assume this is too late now. Sorry I missed this one
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Informing a task is not relevant anymore",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Informing a task is not relevant anymore"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
 Cleaning my inbox...
 Checked and this task was already done a few months ago
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Informing a task was already done",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Informing a task was already done"}
 />

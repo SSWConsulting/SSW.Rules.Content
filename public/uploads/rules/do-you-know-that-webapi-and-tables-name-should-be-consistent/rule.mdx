@@ -25,49 +25,33 @@ uri: do-you-know-that-webapi-and-tables-name-should-be-consistent
 
 When creating WebAPIs for your applications, it is useful to keep the naming consistent all the way from the back-end to the front-end.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Table name:** Employees
 **Endpoint:** /api/Users
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example: The endpoint is different to the table name",
-  shouldDisplay: true
-} } />
+**❌ Bad Example: The endpoint is different to the table name**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Table name:** Employees
 **Endpoint:** /api/Employees
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example: Table name is the same as the WebAPI endpoint",
-  shouldDisplay: true
-} } />
-
+**✅ Good Example: Table name is the same as the WebAPI endpoint**  
 
 By making the endpoint name the same as the table name, you can simplify development and maintenance of the WebAPI layer.
 

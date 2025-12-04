@@ -30,7 +30,7 @@ Single page applications (SPAs) are getting more and more popular, and for good 
 
 But have you ever visited a website, thought “I’ll refresh that” and then got taken back to the home screen? Or tried to copy or bookmark the URL, only to find it’s just “/Home”? This happens when client-side routing hasn’t been implemented properly and is a big hit to a site’s usability.
 
-<endOfIntro />
+<endIntro />
 
 This is easily fixed with Angular ’s routing capabilities, and implementing it in your SPA will confer several advantages:
 
@@ -43,11 +43,8 @@ This is easily fixed with Angular ’s routing capabilities, and implementing it
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The blog post component is choosing components based on the state of the component",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The blog post component is choosing components based on the state of the component"}
   src="/uploads/rules/use-client-side-routing/client-side-bad.png"
 />
 
@@ -58,10 +55,7 @@ A better way is to set up routes, and use a router (the first-party component ro
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good: Setting up declarative routes and outlets gives a good user experience, persistent URLs, and fewer moving parts",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good: Setting up declarative routes and outlets gives a good user experience, persistent URLs, and fewer moving parts"}
   src="/uploads/rules/use-client-side-routing/client-side-good.png"
 />

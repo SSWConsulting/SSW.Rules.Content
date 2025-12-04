@@ -26,17 +26,14 @@ Like other services, it is important that your company has a structured and secu
 
 First a little understanding of how Azure permissions work. For each subscription, there is an Access Control (IAM) section that will allow you to grant overall permissions to this Azure subscription. It is important to remember that any access that is given under Subscriptions | "Subscription Name" | Access Control (IAM), will apply to all Resource Groups within the Subscription.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Too many people have Owner permission on the subscription level",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Too many people have Owner permission on the subscription level"}
   src="/uploads/rules/give-users-least-privileges/azure-permissions-bad.jpg"
 />
 
@@ -45,11 +42,8 @@ First a little understanding of how Azure permissions work. For each subscriptio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Only Administrators that will be managing overall permissions and content have been given Owner/Co-administrator",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Only Administrators that will be managing overall permissions and content have been given Owner/Co-administrator"}
   src="/uploads/rules/give-users-least-privileges/azure-permissions-good.png"
 />
 

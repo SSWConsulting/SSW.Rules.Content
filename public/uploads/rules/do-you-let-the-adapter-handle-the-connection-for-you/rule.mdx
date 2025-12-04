@@ -27,7 +27,7 @@ Did you know if you are using DataSets throughout your application (not data rea
 
 Some say it is better to be explicit. However the bottom line is less code is less bugs.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 try
@@ -45,12 +45,7 @@ finally
     cnn.Close();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad code: The connection code is not needed",
-  shouldDisplay: true
-} } />
-
+**❌ Bad code: The connection code is not needed**  
 
 ```cs
 try
@@ -62,12 +57,7 @@ catch (SQLException ex)
     MessageBox.Show(ex.Message);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good code: Letting the adapter worry about the connection",
-  shouldDisplay: true
-} } />
-
+**✅ Good code: Letting the adapter worry about the connection**  
 
 **Note:** A common comment for this rule is... _"Please tell users to explicitly open and close connection - even when the .NET Framework can do for them"_
 

@@ -31,7 +31,7 @@ uri: using-mfa
 
 The best protection you can provide for your password is to not solely rely on it. Multi-factor authentication (MFA) lets you use a mix of techniques when logging into an account. Typically this is made up of something you know (your password) and something you have (your phone - older people will remember RSA tokens).
 
-<endOfIntro />
+<endIntro />
 
 Your phone can provide a second factor either through an installed authenticator app, or by receiving an SMS with a one-time password. Authenticator apps are recommended, as they are more secure than SMS.
 
@@ -43,11 +43,8 @@ Nearly any service you use now will support MFA, either through an authenticator
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - SMS is less secure than other methods",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"OK example - SMS is less secure than other methods"}
   src="/uploads/rules/using-mfa/mfa-sms.png"
 />
 
@@ -57,11 +54,8 @@ Nearly any service you use now will support MFA, either through an authenticator
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Microsoft's Authenticator app in action",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Microsoft's Authenticator app in action"}
   src="/uploads/rules/using-mfa/microsoft-authenticator-steps.gif"
 />
 
@@ -83,26 +77,20 @@ Now that it is enabled, you will need to change your default - next time you nee
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "MFA sign-in | Use an app instead",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"MFA sign-in | Use an app instead"}
   src="/uploads/rules/using-mfa/azure-mfa-useapp.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** The above option "Use an app instead" takes some time to reflect on your login prompt after you have made changes in your Authenticator App.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -112,11 +100,8 @@ See [detailed instructions from Microsoft](https://support.microsoft.com/en-us/a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Microsoft Authenticator app with Passwordless sign-in (recommended)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Microsoft Authenticator app with Passwordless sign-in (recommended)"}
   src="/uploads/rules/using-mfa/authenticator-app.gif"
 />
 
@@ -131,10 +116,7 @@ Keeper works as a password entry authenticator with support for Google Authentic
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Google authenticator 2FA enabled and saved in Keeper",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Google authenticator 2FA enabled and saved in Keeper"}
   src="/uploads/rules/using-mfa/2022-11-21_10-30-59.jpg"
 />

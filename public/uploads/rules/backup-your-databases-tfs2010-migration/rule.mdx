@@ -24,11 +24,11 @@ uri: backup-your-databases-tfs2010-migration
 
 Run your daily backups to provide a safety net should things go wrong.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 1. Confirm that the TFS2008 databases were backed up last night.
@@ -41,11 +41,8 @@ Run your daily backups to provide a safety net should things go wrong.
    g. TfsWorkItemTrackingAttachments
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "If you can’t see the physical .bak file for all these, chase up your DBA",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"If you can’t see the physical .bak file for all these, chase up your DBA"}
 />
 
 
@@ -55,10 +52,7 @@ Run your daily backups to provide a safety net should things go wrong.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Before starting, kick off the daily backups",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Before starting, kick off the daily backups"}
   src="/uploads/rules/backup-your-databases-tfs2010-migration/RunDailyBackup.png"
 />

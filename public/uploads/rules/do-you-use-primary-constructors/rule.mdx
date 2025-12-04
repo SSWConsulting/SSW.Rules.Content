@@ -23,7 +23,7 @@ uri: do-you-use-primary-constructors
 
 When following best practices and using dependency injection, you will often find yourself with a class that has a lot of properties that are only set once, in the constructor. This can lead to a lot of boilerplate code that is not needed. C#12 introduces Primary Constructors, which allow you to define the constructor and the properties in one place.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public class Hero
@@ -42,12 +42,7 @@ public class Hero
     public override string ToString() => $"{_name} has {_power} and lives in {_city}";
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - large amount of boiler plate code needed to store injected properties.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - large amount of boiler plate code needed to store injected properties.**  
 
 ```cs
 public class Hero(string name, string power, string city)
@@ -55,12 +50,7 @@ public class Hero(string name, string power, string city)
     public override string ToString() => $"{name} has {power} and lives in {city}";
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - using Primary Constructors to reduce boilerplate code.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - using Primary Constructors to reduce boilerplate code.**  
 
 In the example above we the `Hero` class has access to the parameters passed into the Primary Constructor so we don't need to store them in private fields. We can use them directly in the `ToString()` method.
 

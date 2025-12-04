@@ -24,7 +24,7 @@ Debug compilation considerably increases memory footprint since debug symbols ar
 
 Additionally it will hit the performance because that will include the optional debug and trace statements in the output IL code.
 
-<endOfIntro />
+<endIntro />
 
 In debug mode the compiler emits debug symbols for all variables and compiles the code as is. In release mode some optimizations are included:
 
@@ -40,11 +40,8 @@ As per: [C# debug vs release performance](http://stackoverflow.com/questions/244
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example"}
   src="/uploads/rules/c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications/debug-bad.jpg"
 />
 
@@ -53,11 +50,8 @@ As per: [C# debug vs release performance](http://stackoverflow.com/questions/244
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example"}
   src="/uploads/rules/c-vb-net-configuration-do-you-know-not-to-use-debug-compilation-in-production-applications/debug-good.jpg"
 />
 

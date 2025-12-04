@@ -24,19 +24,16 @@ Most people might be unconcerned, saying that there was little to panic about if
 
 Using the same password everywhere may seem like a convenience, but the impact of a compromised password can be orders of magnitude greater if you reuse it.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Before [have I been pwned?](https://haveibeenpwned.com), there was LeakedIn. LeakedIn was a website set up in 2011 following a high-profile breach at LinkedIn where passwords were leaked. The website operated like Haveibeenpwned, letting you check whether your account was in the breach, but only for LinkedIn.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -49,10 +46,7 @@ Send a message to someone who needs to understand the importance of password saf
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SugarLearning reinforces to never use the same password twice",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"SugarLearning reinforces to never use the same password twice"}
   src="/uploads/rules/never-use-password-twice/sugarlearning-unique-passwords.png"
 />

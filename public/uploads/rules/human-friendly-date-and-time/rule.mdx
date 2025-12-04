@@ -12,9 +12,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: b7362721-7c5a-48de-96d2-15992644d79d
 isArchived: false
-lastUpdated: 2025-08-14 21:02:38+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - human-friendly-date-and-time
 related:
@@ -33,17 +33,14 @@ Ever looked at a date on a website and had to stop and think, _"Wait, when was t
 
 Instead of displaying timestamps as a rigid date like "2025-03-10 14:30", a more human-friendly format—like "last Sunday" or "3 weeks ago" makes it much easier to grasp at a glance. This is especially useful for past dates, helping users quickly understand when something happened without doing mental math.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Detailed date formatting is difficult to read",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Detailed date formatting is difficult to read"}
   src="/uploads/rules/human-friendly-date-and-time/bad-timeformatting.jpg"
 />
 
@@ -52,24 +49,18 @@ Instead of displaying timestamps as a rigid date like "2025-03-10 14:30", a more
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Humanized date formatting is easy to read",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Humanized date formatting is easy to read"}
   src="/uploads/rules/human-friendly-date-and-time/good-timeformatting.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** As per the good example, it's a good idea to [include a tooltip with extra information about the date](/date-and-time-of-change-as-tooltip), in case the user needs them.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -30,7 +30,7 @@ uri: use-email-for-tasks-only
 
 Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips:
 
-<endOfIntro />
+<endIntro />
 
 * Send emails that contain clear tasks, not banter
 * Don't send emails for chatting
@@ -56,11 +56,8 @@ I am not 100% happy , maybe we should look into making the menu better...
 
 Tim
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other)",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other)"}
 />
 
 <emailEmbed
@@ -79,34 +76,28 @@ As per our conversation,
 
 Tim
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - A good email has a clear task to be done (decision was made in-person or via call)",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - A good email has a clear task to be done (decision was made in-person or via call)"}
 />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule. E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
 
 **Tip #2:** Make sure to [number your tasks/questions](/number-tasks-questions).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Use YakShaver and make it even easier
@@ -116,9 +107,6 @@ You can save time by not writing emails manually.
 With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete email (or PBIs/GitHub Issues for projects with a backlog) assigning tasks and notifying the right people through CC or @mentions.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

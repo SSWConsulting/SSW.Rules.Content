@@ -33,7 +33,7 @@ Putting all the field binding code AND the business rule in the control:
 ❌ **Bad:** No intellisense
 ❌ **Bad:** Compile errors are not picked up
 
-<endOfIntro />
+<endIntro />
 
 ```vbnet
 <asp:Label
@@ -42,12 +42,7 @@ Putting all the field binding code AND the business rule in the control:
     Text='<%# iif( Container.DataItem.Row.IsNull("TumorSize"), "N/A",DataBinder.Eval(Container, "DataItem.TumorSize", "0.00")) %>'
 />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad code**  
 
 Putting the code on the ItemDataBound Event:
 
@@ -79,11 +74,6 @@ End If
 End If
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good code",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good code**  
 
 We have a program called [SSW Code Auditor](https://codeauditor.com) to check for this rule.

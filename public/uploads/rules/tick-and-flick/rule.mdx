@@ -35,7 +35,7 @@ uri: tick-and-flick
 
 It's essential to keep Sprint Reviews as efficient as possible. Unfortunately, Sprint Reviews can be boring because they involve developers slowly demoing each Product Backlog Item (PBI) to the Product Owner. Better communication with the Product Owner can transform this into a swift "tick and flick experience", leading to more efficient reviews.
 
-<endOfIntro />
+<endIntro />
 
 ## Get PBIs into a "tick and flick" state
 
@@ -44,8 +44,8 @@ Getting a PBI into a "tick and flick" state involves ensuring that the Product O
 If the developer has shown the Product Owner the PBI prior to the Sprint Review, then in the Sprint Review, when the PBI is reached the developer can remind the Product Owner it's been reviewed and ask if they are happy to move on.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Developer:** This PBI is about making the new customer contact form. Let me show you what I've done:
@@ -55,36 +55,20 @@ If the developer has shown the Product Owner the PBI prior to the Sprint Review,
 **Developer:** Any questions?
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure={"**Figure: OK example - Showing the Product Owner the PBI for the first time during the Sprint Review**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "**Figure: OK example - Showing the Product Owner the PBI for the first time during the Sprint Review**",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Developer:** This is the PBI I showed you on Monday about creating the new customer contact form. Are you happy to move onto the next one?
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"**Figure: Good example - Confirming that the PBI has already been reviewed so you can move on**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example - Confirming that the PBI has already been reviewed so you can move on**",
-  shouldDisplay: true
-} } />
 
 
 ## Make a Sprint Review a "tick and flick" experience

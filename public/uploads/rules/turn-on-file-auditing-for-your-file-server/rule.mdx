@@ -24,7 +24,7 @@ uri: turn-on-file-auditing-for-your-file-server
 
 Windows Server has a built-in solution for auditing who accessed your files in a file share or non-shared files in your file system, but it is turned off by default.
 
-<endOfIntro />
+<endIntro />
 
 "Advanced Audit Policy Configuration" is a Group Policy setting in Windows that enables several audit options for your files, e.g.:
 
@@ -42,11 +42,8 @@ To get to this setting, you need to:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Auditing Successes and Failures in your file shares",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Auditing Successes and Failures in your file shares"}
   src="/uploads/rules/turn-on-file-auditing-for-your-file-server/auditing-success-and-fail.png"
 />
 
@@ -64,11 +61,8 @@ After that, your server will start logging audit events in the Event Viewer. To 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Filtered logs with file access information",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Filtered logs with file access information"}
   src="/uploads/rules/turn-on-file-auditing-for-your-file-server/filtered-logs.png"
 />
 

@@ -25,7 +25,7 @@ When hackers or security researchers find a vulnerability in your system, they n
 
 Your `security@` inbox is your first line of defense.
 
-<endOfIntro />
+<endIntro />
 
 It helps with:
 
@@ -40,42 +40,26 @@ Make sure it’s:
 * Monitored by trusted staff (not just one person)
 * Responded to quickly (aim for &lt; 48h)
 * Part of your incident response process
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: No security@ exists. The researcher tweets the exploit. The company finds out via media. Damage is done.",
-  shouldDisplay: true
-} } />
-
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: A security researcher finds a critical bug and emails security@. The team replies in 1 day, verifies the issue, patches it in a week, and thanks the reporter.",
-  shouldDisplay: true
-} } />
+**❌ Bad example: No security@ exists. The researcher tweets the exploit. The company finds out via media. Damage is done.**  
+**✅ Good example: A security researcher finds a critical bug and emails security@. The team replies in 1 day, verifies the issue, patches it in a week, and thanks the reporter.**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Be aware of ["beg bounties"](https://www.troyhunt.com/beg-bounties/) – people who send low-risk reports and demand money. You can politely thank them or ignore if it’s not a real issue.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Want ethical hackers to help you? Add a [security.txt](https://securitytxt.org) file with your security contact information. Check out how we setup ours - [https://github.com/SSWConsulting/securitytxt](https://github.com/SSWConsulting/securitytxt)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

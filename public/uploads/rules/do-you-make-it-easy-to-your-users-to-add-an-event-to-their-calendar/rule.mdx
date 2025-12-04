@@ -26,38 +26,25 @@ uri: do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 
 If you have a date for any event appearing on your website, you should make it as easy as possible for the user to add it to their Outlook calendar. This is why we use ICS links for all dates on our site.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Next User Group Meeting:
 
 Wednesday, 15 February 2024 5:45 PM
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - User cannot add a reminder",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - User cannot add a reminder**  
 Next User Group Meeting:
 
 Wednesday, 15 February 2024 5:45 PM
 📅 [Add Outlook reminder](https://www.w3.org/2002/12/cal/rfc2445.html)
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - User can click and add a reminder",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - User can click and add a reminder**  
 
 By clicking the calendar link, users can easily add the event to their own calendars.
 

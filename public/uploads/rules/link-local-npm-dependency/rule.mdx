@@ -21,7 +21,7 @@ isArchived: false
 
 When working on multiple related JavaScript projects, you may need to test changes in a local dependency without publishing it to npm. `npm link` provides a way to symlink a local package, allowing real-time updates without reinstalling the package manually. However, improper usage can lead to issues like dependency mismatches or unresolved modules.
 
-<endOfIntro />
+<endIntro />
 
 ## How `npm link` works
 
@@ -79,12 +79,7 @@ Instead of linking, you can install a local package directly:
 ```sh
 npm install ../my-local-package
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Simpler alternative that avoids symlink-related issues",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Simpler alternative that avoids symlink-related issues**  
 
 ### 2. Using `npm pack`
 
@@ -95,12 +90,7 @@ cd my-local-package
 npm pack
 npm install ../my-local-package/my-local-package-1.0.0.tgz
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Simulates a real npm package installation",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Simulates a real npm package installation**  
 
 ## Best practices
 

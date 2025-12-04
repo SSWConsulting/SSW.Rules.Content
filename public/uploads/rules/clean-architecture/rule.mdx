@@ -37,17 +37,14 @@ This approach enables the development team to build a system in the same way tha
 
 This is the difference between a system that lasts 2 years, and a system that lasts 20 years.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Onion view of Clean Architecture",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Onion view of Clean Architecture"}
   src="/uploads/rules/clean-architecture/ca-diagram.png"
 />
 
@@ -121,41 +118,25 @@ To achieve the this layering and separation of concerns, we need to follow some 
 What this means is that the Application Core should not depend on anything outside of itself - and we use interfaces in the Application or Infrastructure layer to achieve this.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using a specific database class instead of depending on an interface.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The application directly relies on the infrastructure. This makes the system harder to test and less flexible"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - The application directly relies on the infrastructure. This makes the system harder to test and less flexible",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Let the application depend on an interface, and have the infrastructure layer provide the implementation.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Use the Repository Pattern. This keeps things decoupled and easier to maintain"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Use the Repository Pattern. This keeps things decoupled and easier to maintain",
-  shouldDisplay: true
-} } />
 
 
 With this design, all dependencies must flow inwards. Core has no dependencies on any outside layers. Infrastructure, Persistence, and Presentation depend on Core, but not on one another.

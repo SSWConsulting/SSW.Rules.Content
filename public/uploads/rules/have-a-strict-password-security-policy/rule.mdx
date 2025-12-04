@@ -31,17 +31,14 @@ uri: have-a-strict-password-security-policy
 
 The standard is to enforce policies based on reputable regulatory organizations (e.g. NIST, ACSC) latest recommendations.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Active Directory settings based on latest security recommendations",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Active Directory settings based on latest security recommendations"}
   src="/uploads/rules/have-a-strict-password-security-policy/adnewpasspolicy.jpg"
 />
 
@@ -58,14 +55,11 @@ When passwords have to be changed they should meet the following complexity requ
 8. **Enforce a lockout policy** - E.g. If a user gets their password wrong 5 times, their account will be locked out for 15 minutes
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important:** Requiring users to change their passwords (e.g. every 180 days) **does not** improve security. If you already have a strong password (as above) and a second factor of authentication (e.g. MFA), changing it does very little to make you more secure. Generally, you should change your password only when you believe it has been compromised.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -25,7 +25,7 @@ uri: show-errors-in-red
 
 Errors on reports should not occur but when they do it is best to make it clear to the reader that they have just experienced an error.
 
-<endOfIntro />
+<endIntro />
 
 How evident are the error messages on the 1st report below?
 
@@ -33,11 +33,8 @@ How evident are the error messages on the 1st report below?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using the default NoRows property of the table control - error message is not clear enough",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Using the default NoRows property of the table control - error message is not clear enough"}
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT1.jpg"
 />
 
@@ -46,11 +43,8 @@ How evident are the error messages on the 1st report below?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Use a customized textbox and icon to show the error message in red",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Use a customized textbox and icon to show the error message in red"}
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT2.jpg"
 />
 
@@ -62,11 +56,8 @@ Reporting Services allows you to set the 'NoRows' property of a table control to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "NoRow property of Table control only allow simple string",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"NoRow property of Table control only allow simple string"}
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT3.jpg"
 />
 
@@ -84,11 +75,8 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Adding a custom error message to your report",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Adding a custom error message to your report"}
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT4.gif"
 />
 
@@ -106,11 +94,8 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The Hidden property of the rectangle",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The Hidden property of the rectangle"}
   src="/uploads/rules/show-errors-in-red/RSErrorMessageT5.gif"
 />
 

@@ -29,7 +29,7 @@ uri: avoid-acronyms
 
 Acronyms are a common way to shorten words or phrases, but using niche terms can lead to confusion and misunderstandings. It's important to avoid jargon, especially for those new to a particular field or industry. To ensure clear communication, avoid unfamiliar acronyms where possible and use the full term instead.
 
-<endOfIntro />
+<endIntro />
 
 1. Avoid niche acronyms to avoid confusion.
 2. Don't use acronyms in titles, headings, or other prominent places. This can make it hard for some readers to understand the content those headings describe.
@@ -37,106 +37,66 @@ Acronyms are a common way to shorten words or phrases, but using niche terms can
 4. Be consistent. If you use an acronym for a term or phrase, use it consistently throughout your content.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Ash:** I'm attending FBC next week.
 
 **Eddie:** What is FBC?
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example: This conversation is unclear as Eddie doesn't know FBC"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: This conversation is unclear as Eddie doesn't know FBC",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Ash:** I'm attending FireBootCamp next week
 
 **Eddie:** Awesome!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example: No acronyms, clear communication"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: No acronyms, clear communication",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Ash:** I'm attending FBC (FireBootCamp) next week. Would you like to come with me?
 
 **Eddie:** Yeah! FBC sounds great.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example: Defined acronyms can be used, but be careful to not assume the other person is aware of the term if you don't know for sure"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Defined acronyms can be used, but be careful to not assume the other person is aware of the term if you don't know for sure",
-  shouldDisplay: true
-} } />
 
 
 By avoiding unclear acronyms and using the full names of the terms or phrases, the message is easier to understand.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     NB: Track this.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example: NB is unclear and old-fashioned"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: NB is unclear and old-fashioned",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Note: Track this.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example: \"Note\" is more common and understandable"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: \"Note\" is more common and understandable",
-  shouldDisplay: true
-} } />
 
 
 Well-known acronyms that we commonly see (FYI, URL, HTTPS, GIF, etc.) are more acceptable and safe to use.

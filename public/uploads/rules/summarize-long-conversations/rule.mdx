@@ -23,7 +23,7 @@ isArchived: false
 
 For very long conversations, it's important to know that you only have a certain number tokens to play with, and if your inputs or outputs have been very long, in a long conversation GPT will start to forget some of the earlier context. To avoid this, you can ask ChatGPT to summarize the conversation and then use that summary as a prompt to refresh the context during future interactions.
 
-<endOfIntro />
+<endIntro />
 
 Here's how to implement this approach:
 
@@ -34,16 +34,13 @@ Here's how to implement this approach:
 Use the summary prompt on every chat or after several prompts, depending on the size and complexity of the conversation.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Summarise this conversation without losing important information. Then convert it into a prompt I can use on every chat to refresh the context of the conversation. Then remove any obvious context to shorten the prompt.”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example prompt - asking ChatGPT to summarize a conversation",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example prompt - asking ChatGPT to summarize a conversation"}
 />
 
 

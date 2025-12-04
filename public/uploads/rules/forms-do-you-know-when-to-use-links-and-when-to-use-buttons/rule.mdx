@@ -26,7 +26,7 @@ This is because hyperlinks indicate navigation - "If I click this link, I'll be 
 
 Whereas a button indicates that something is being processed - "When I click this, I'm agreeing that something is being submitted"
 
-<endOfIntro />
+<endIntro />
 
 #### Note: If you are using an automated link checker
 
@@ -49,11 +49,8 @@ That being said, there are a couple of exceptions to this rule.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "An exception to the rule - an \"Update\" button inside the datagrid would look inconsistent",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"An exception to the rule - an \"Update\" button inside the datagrid would look inconsistent"}
   src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/LinksExample.gif"
 />
 
@@ -62,11 +59,8 @@ That being said, there are a couple of exceptions to this rule.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The \"sign in\" hyperlink should be a button",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The \"sign in\" hyperlink should be a button"}
   src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/LinkVsButton.gif"
 />
 
@@ -75,10 +69,7 @@ That being said, there are a couple of exceptions to this rule.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This is a perfect example of how a good sign in screen should look",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - This is a perfect example of how a good sign in screen should look"}
   src="/uploads/rules/forms-do-you-know-when-to-use-links-and-when-to-use-buttons/Logon.gif"
 />

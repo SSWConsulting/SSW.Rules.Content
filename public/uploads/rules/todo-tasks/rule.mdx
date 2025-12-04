@@ -32,7 +32,7 @@ uri: todo-tasks
 
 It's common to add a `TODO` comment to some code you're working on, either because there's more work to be done here or because you've spotted a problem that will need to be fixed later. But how do you ensure these are tracked and followed up?
 
-<endOfIntro />
+<endIntro />
 
 We add a `TODO` comment to our code when we have either identified or introduced [technical debt](/technical-debt) as a way of showing other developers that there's work to be done here. It could be finishing the implementation of a feature, or it could be fixing a bug which (hypothetically) is limited in scope and therefore deprioritized. That's all well and good if another developer happens to be looking at that code and sees the comment, but if nobody looks at the code, then the problem could potentially never be fixed.
 
@@ -56,12 +56,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere**  
 
 Just like with any other technical debt, it's critical to ensure that it is captured on the backlog. When you add a `TODO` in your code, it should _always_ be accompanied by a link to the PBI.
 
@@ -86,22 +81,14 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly",
-  shouldDisplay: true
-} } />
+**✅ Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** If you are reviewing a Pull Request and you spot a `TODO` without a link to a PBI, you should either create the PBI and update the code (Good Samaritan) or request the change before approving and merging the code.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

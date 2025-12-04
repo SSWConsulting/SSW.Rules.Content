@@ -26,11 +26,11 @@ An Application upgrade might not only include the .exe and .dll but the database
 
 Let's see the bad and good examples:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Dear Mr Northwind,
 
@@ -48,22 +48,14 @@ I hope you’re happy with it.
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "**Figure: Bad example - run SQL scripts manually**",
-  shouldDisplay: true
-} } />
+**❌ **Figure: Bad example - run SQL scripts manually****  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Mr. Northwind,
 
@@ -74,22 +66,14 @@ Click Run when the prompt appears.
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure={"**Figure: Better example - run SQL scripts using another package**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "**Figure: Better example - run SQL scripts using another package**",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Dear Mr Northwind,
 
@@ -103,22 +87,14 @@ Let me know if you run into any issues.
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure={"**Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](https://sqldeploy.com/)**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "**Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](https://sqldeploy.com/)**",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Dear Mr Northwind,
 
@@ -129,14 +105,6 @@ If you have any questions please let me know.
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"**Figure: Good example - All done as part of the release pipeline**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example - All done as part of the release pipeline**",
-  shouldDisplay: true
-} } />

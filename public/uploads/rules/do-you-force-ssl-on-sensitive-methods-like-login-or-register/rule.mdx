@@ -23,7 +23,7 @@ uri: do-you-force-ssl-on-sensitive-methods-like-login-or-register
 
 Any sensitive data that is sent over the wire must be protected using a secure transport such as HTTPS. MVC (version 2, Preview 2 or higher) allows you to specify that HTTPS is required for an action. It’s important that the GET method is secure as well as the POST method to avoid people sending sensitive form data over the wire.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public ActionResult Register()
@@ -31,12 +31,7 @@ public ActionResult Register()
    return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – The Register method isn’t secure",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – The Register method isn’t secure**  
 
 ```cs
 [RequireHttps]
@@ -45,8 +40,4 @@ public ActionResult Login()
    return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – The Login method is protected by HTTPS",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – The Login method is protected by HTTPS**

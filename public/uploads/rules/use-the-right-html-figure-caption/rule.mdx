@@ -29,7 +29,7 @@ uri: use-the-right-html-figure-caption
 
 Most developers put the image and the caption in a DIV tag, where the figure is just a paragraph - this is not correct.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <div>
@@ -37,12 +37,7 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
   <p>Figure: Caption</p>
 </div>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example**  
 
 Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [https://www.w3schools.com/TAGS/tag_figcaption.asp](https://www.w3schools.com/TAGS/tag_figcaption.asp). This structure gives semantic meaning to the image and figure:
 
@@ -52,12 +47,7 @@ Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [h
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example**  
 
 ### The old way
 
@@ -76,14 +66,11 @@ For some internal sites, we still use the old way to place images: Using  **&lt
 **Figure: Old way example**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** &lt;dl&gt; stands for "**definition list**"; &lt;dt&gt; for "**definition term**"; and &lt;dd&gt; for "**definition description**".
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

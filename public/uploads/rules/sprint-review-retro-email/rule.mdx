@@ -22,16 +22,16 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 isArchived: false
-lastUpdated: 2025-09-22 22:21:29+00:00
-lastUpdatedBy: Brook Jeynes [SSW]
-lastUpdatedByEmail: brookjeynes@ssw.com.au
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-create-a-sprint-review-retro-email
 related:
 - rule: public/uploads/rules/roadmap/rule.mdx
 - rule: public/uploads/rules/what-happens-at-retro-meetings/rule.mdx
 - rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
-- rule: public/uploads/rules/sprint-forecast/rule.mdx
+- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
 - rule: public/uploads/rules/groups-in-microsoft-365/rule.mdx
 - rule: public/uploads/rules/following-microsoft-365-groups/rule.mdx
 seoDescription: Learn how to create a structured Sprint Review/Retro email template
@@ -44,7 +44,7 @@ uri: sprint-review-retro-email
 
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint.
 
-<endOfIntro />
+<endIntro />
 
 Learn more on [Do you know what happens at a Sprint Retrospective meeting?](/what-happens-at-retro-meetings)
 
@@ -87,7 +87,7 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ![Figure: Timesheet data for a Sprint](/uploads/rules/sprint-review-retro-email/sprint-timesheet-data.png)
 
-2. What got done?
+1. What got done?
 
 | **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
 | -------- | --------------- | -------------- | ----------- | ------------ |
@@ -96,19 +96,19 @@ Please see below for a more detailed breakdown of the Sprint:
 
 **Figure: Sprint Backlog from &#123;&#123; LINK TO SPRINT BACKLOG &#125;&#125;**
 
-3. Sprint Burndown - A quick overview of the Sprint
+1. Sprint Burndown - A quick overview of the Sprint
 
 ![Figure: Sprint Burndown](/uploads/rules/sprint-review-retro-email/burndown-V2.png)
 
-4. Code Coverage - Hopefully tests are increasing each Sprint
+1. Code Coverage - Hopefully tests are increasing each Sprint
 
 &#123;&#123; CODE COVERAGE &#125;&#125;
 
-5. Velocity *(Optional)*
+1. Velocity *(Optional)*
 
 &#123;&#123; VELOCITY &#125;&#125;
 
-6. Burnup - How are we tracking for the big picture? *
+1. Burnup - How are we tracking for the big picture? *
 
 ![Figure: Release Burnup](/uploads/rules/sprint-review-retro-email/release-burnup.jpg)
 
@@ -121,17 +121,17 @@ Please see below for a more detailed breakdown of the Sprint:
 
 **Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
 
-7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
+1. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
 ![Figure: Build Pipeline Health from DevOps](/uploads/rules/sprint-review-retro-email/thumbnail-image.png)
 
 ![Figure: Deployments from &#123;&#123; DEPLOYMENT SERVICE &#125;&#125;](/uploads/rules/sprint-review-retro-email/production-deploy.png)
 
-8. Application Health Overview Timeline - For the entire Sprint
+1. Application Health Overview Timeline - For the entire Sprint
 
 ![Figure: Application Health Overview Timeline](/uploads/rules/sprint-review-retro-email/application-insights.jpg)
 
-9. Product Roadmap
+1. Product Roadmap
 
 &#123;&#123; ROADMAP LINK &#125;&#125;
 
@@ -146,13 +146,13 @@ Progress:
 
 *Add this for each current epic in your backlog*
 
-10. R&D - Did we do any experimental work?
+1. R&D - Did we do any experimental work?
 
 &#123;&#123; INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) &#125;&#125;
 
 &#123;&#123; INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) &#125;&#125;
 
-11. AI use - what tools did you use?
+1. AI use - what tools did you use?
 
 * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; TOOLS &#125;&#125;
 
@@ -196,56 +196,57 @@ As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rul
 
 &lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Template for Sprint Review/Retro email",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Template for Sprint Review/Retro email"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Move all Dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - TinaCloud team Sprint Review email",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - TinaCloud team Sprint Review email"}
   src="/uploads/rules/sprint-review-retro-email/tina-sprint-email.png"
 />
 
 
-## Recording Review and Retrospective Meetings
+## Recording a Review and Retrospective Meetings Summary
 
-Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend.
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** The summary should be focused on the Dones and any special highlights. In the email template, bold the most important points so they stand out. These highlighted items should be called out in the summary.
+  </>}
+  figurePrefix="none"
+  figure={""}
+/>
+
+
+See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=d1-5wziOH7o" description={"Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)"} />

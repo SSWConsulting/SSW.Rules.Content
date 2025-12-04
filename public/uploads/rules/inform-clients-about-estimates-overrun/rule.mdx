@@ -36,7 +36,7 @@ An oversized invoice with no warning is never a good experience. A client will a
 
 Never keep the client in the dark when you exceed your estimates, it will only arouse suspicion and mistrust when they see the project deadline woosh past. It's best to tell the client as soon as the risk is identified to inform them of what's going on and ask _"Do you want us to continue?"_.
 
-<endOfIntro />
+<endIntro />
 
 For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surprise in the Sprint Review. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action.
 
@@ -58,24 +58,18 @@ The data migration of the Coverage Data is more complicated than originally anti
 
 We are $40k to go, which is $20k over the original estimate.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={""}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For Scrum projects, you should keep an eye on your burndown chart during your daily standups to see if you are on track to finish all the work in a Sprint.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -84,10 +78,7 @@ We are $40k to go, which is $20k over the original estimate.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "When communicating to clients - talk at 80% not 110%!",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"When communicating to clients - talk at 80% not 110%!"}
   src="/uploads/rules/inform-clients-about-estimates-overrun/AI-image-for-Adam.png"
 />

@@ -40,7 +40,7 @@ uri: when-to-email-chat-call-or-meet
 
 When deciding whether to send a chat message, call, or organize a meeting in Microsoft Teams, or send an email, there are a few factors to consider:
 
-<endOfIntro />
+<endIntro />
 
 * **Urgency and importance** - If the matter is urgent or time-sensitive, it may be best to [initiate a call](/warn-then-call), allowing faster response times than email. If you can’t get hold of them, send a chat message with the prefix “❌ Blocked” to ensure the other person knows that you can’t proceed without them. On the other hand, if the matter is not urgent, sending an email may be sufficient
 * **Complexity** - If the issue or topic is complex and requires a more in-depth discussion or collaboration, it may be better to call or organize a meeting in Teams rather than relying on chat or email
@@ -49,24 +49,21 @@ When deciding whether to send a chat message, call, or organize a meeting in Mic
 * **Task** - If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Dave,
 
 I tried to call you regarding the Northwind Traders Ltd project but you were unavailable - will try again soon.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No sign of urgency in the message",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - No sign of urgency in the message"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Dave,
 
@@ -74,25 +71,19 @@ I tried to call you regarding the Northwind Traders Ltd project but you were una
 
 1. Please call me ASAP
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – The \"❌ Blocked\" makes it clear that this is urgent",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – The \"❌ Blocked\" makes it clear that this is urgent"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     This is similar to saying "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

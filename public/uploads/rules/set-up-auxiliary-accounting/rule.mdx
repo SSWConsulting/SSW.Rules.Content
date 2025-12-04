@@ -26,8 +26,8 @@ Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to 
 ## Traditional method
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     1120 Accounts Receivable\
 1120.001 Accounts Receivable - Customer A\
@@ -36,24 +36,16 @@ Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to 
 
 ... (This list becomes unmanageable with hundreds of customers)...
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This causes your chart of accounts to become bloated, inefficient, and difficult to maintain",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - This causes your chart of accounts to become bloated, inefficient, and difficult to maintain**  
 
 ## The Auxiliary Accounting Solution
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Setup:** Use one main account (1120 Accounts Receivable) and enable the "Customer" dimension for it.
@@ -62,22 +54,16 @@ Auxiliary Accounting is a powerful tool that attaches "tags" or "dimensions" to 
 
 **Result:** Each transaction is automatically tagged (e.g., 1120 Receivable | Customer A).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good-Example - The Auxiliary Accounting Solution",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good-Example - The Auxiliary Accounting Solution"}
   src="/uploads/rules/set-up-auxiliary-accounting/Good-Example-The-Auxiliary-Accounting-Solution.jpg"
 />
 

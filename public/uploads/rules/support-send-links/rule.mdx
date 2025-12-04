@@ -36,54 +36,45 @@ When you get a new question e.g. "Can I have co-authoring in TinaCMS?" these are
 
 Every support message should include a link to the relevant documentation or, if applicable, to a Product Backlog Item (PBI).
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Yes - you can do co-authoring in TinaCMS.\
 You can do it by going to your TinaCloud account settings, filling out the Git co-author name and email, and then enabling it.
 
 Let me know if you have any issues with this!
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example - explaining how to solve the problem when there are already documentation",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - explaining how to solve the problem when there are already documentation"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Yes - you can do co-authoring in TinaCMS.\
 Here is the link to the documentation: [How to enable co-author on Git commits?](https://tina.io/docs/introduction/faq#7-how-to-enable-co-author-on-git-commits).
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Replying with a link",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Replying with a link"}
 />
 
 
 Sometimes, you might get questions about bugs, upcoming features, or other things that are not documented. In this case,
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Not yet - We are still working on mermaid diagram support in TinaCMS. Check out this issue to see the status
 [https://github.com/tinacms/tinacms/issues/4733](https://github.com/tinacms/tinacms/issues/4733)
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Sending a link to a PBI is also acceptable",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Sending a link to a PBI is also acceptable"}
 />
 
 

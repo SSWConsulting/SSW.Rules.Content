@@ -28,82 +28,50 @@ uri: avoid-using-unnecessary-words
 When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation.
 Your writing can be less wordy and still get the message across.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Click the "Select" button
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Unnecessary words",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad Example - Unnecessary words**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Click "Select"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Short and direct",
-  shouldDisplay: true
-} } />
+**✅ Good Example - Short and direct**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Building Software that People Understand"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Common filler word \"that\"",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad Example - Common filler word "that"**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Building Software People Understand"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Remove filler words for a clearer message",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - Remove filler words for a clearer message**  
 
 Improve your content and ask - how many words don't provide value or clarity?

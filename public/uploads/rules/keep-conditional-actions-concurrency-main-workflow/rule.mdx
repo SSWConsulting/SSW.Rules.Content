@@ -20,7 +20,7 @@ isArchived: false
 
 When designing CI/CD workflows, it's essential to maintain clarity and simplicity. This ensures that your pipelines are easy to understand, modify, and troubleshoot.
 
-<endOfIntro />
+<endIntro />
 
 Scattering conditional actions and concurrency controls across multiple sub-pipelines or jobs can lead to confusion. Tracking the flow becomes challenging, and potential bottlenecks or errors might be overlooked.
 
@@ -28,11 +28,8 @@ Scattering conditional actions and concurrency controls across multiple sub-pipe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Conditionals and concurrency in main workflow",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Conditionals and concurrency in main workflow"}
   src="/uploads/rules/keep-conditional-actions-concurrency-main-workflow/github-concurrency-main-pipeline.png"
 />
 
@@ -43,11 +40,8 @@ Adding further conditionals or concurrency controls to the workflows adds no val
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Conditionals and concurrency in called workflow",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Conditionals and concurrency in called workflow"}
   src="/uploads/rules/keep-conditional-actions-concurrency-main-workflow/github-concurrency-calledworkflow.png"
 />
 
@@ -58,11 +52,8 @@ Centralize all conditional actions and concurrency controls in the main pipeline
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Only the main workflow has conditional and concurrency",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Only the main workflow has conditional and concurrency"}
   src="/uploads/rules/keep-conditional-actions-concurrency-main-workflow/github-concurrency-main-pipeline.png"
 />
 
@@ -71,11 +62,8 @@ Centralize all conditional actions and concurrency controls in the main pipeline
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Called workflow doesn't contain conditionals or concurrency groups",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Called workflow doesn't contain conditionals or concurrency groups"}
   src="/uploads/rules/keep-conditional-actions-concurrency-main-workflow/github-concurrency-calledworkflow-good.png"
 />
 

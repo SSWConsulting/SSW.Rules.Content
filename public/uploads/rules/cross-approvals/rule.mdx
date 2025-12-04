@@ -41,7 +41,7 @@ uri: cross-approvals
 
 In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks - or "approval hell". One approach that addresses this is to have multiple people responsible for a specific approval. This ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=-Xfi9CbIK1Q" description={"Video: Cross-approvals - Do you know how to scale approvals? (4 min)"} />
@@ -60,11 +60,8 @@ Approvals can either be:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Approval hell!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Approval hell!"}
   src="/uploads/rules/cross-approvals/approval-hell.png"
 />
 
@@ -79,11 +76,8 @@ Approvals can either be:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Scaled approvals - The group of people in charge of a cross approval are called a XXX Master",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Scaled approvals - The group of people in charge of a cross approval are called a XXX Master"}
   src="/uploads/rules/cross-approvals/cross-approvals.png"
 />
 
@@ -103,16 +97,13 @@ There are 5 steps to developing the new system of approvals:
 Look for tasks which frequently take a long time to be approved.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** Delays in approval for induction completion because the assigned approver is often busy.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -123,42 +114,33 @@ Build a list of people who are experts on that subject - they will be responsibl
 Once the list is compiled, assign each person a priority. That determines the order to contact people.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Set the "original approver" as the lowest priority to minimize their involvement.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** When pinging the approvers in priority order, make sure to include the priority number as part of the message.
 **Example:** Calling you to review a code change - Code Master (2/5)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Adam approves the completion of everyone's induction",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Adam approves the completion of everyone's induction"}
   src="/uploads/rules/cross-approvals/induction-bad.png"
 />
 
@@ -167,11 +149,8 @@ Once the list is compiled, assign each person a priority. That determines the or
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady"}
   src="/uploads/rules/cross-approvals/induction-good.jpg"
 />
 
@@ -191,16 +170,13 @@ The gold standard is to look for a way to remove approvals entirely. This gold s
 In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party tool acts as the approver.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** Fixing a typo.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -209,16 +185,13 @@ In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party t
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** A routine leave request.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -241,16 +214,13 @@ In these cases, a 2nd approval is valuable because:
 ✅ The approvers hold each other accountable
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** A purchase for $500-$5,000 (relatively expensive).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -259,16 +229,13 @@ In these cases, a 2nd approval is valuable because:
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business. It's important that one of the approvers of these tasks is a senior in the relevant field. Any key stakeholders affected by the change should also be alerted.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Example:** Opening a new office (costly and risky).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -285,11 +252,8 @@ The final step is to record all the established decisions and induct the new app
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Read the employee instructions to see how to get it approved",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Read the employee instructions to see how to get it approved"}
   src="/uploads/rules/cross-approvals/v2-bench-masters-good.jpg"
 />
 
@@ -305,11 +269,8 @@ To prevent this issue, create reports tracking the number of approvals people do
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A report tracking how many approvals people do from the Teams Approvals app (structured data). Inside the form there are the right people to approve",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A report tracking how many approvals people do from the Teams Approvals app (structured data). Inside the form there are the right people to approve"}
   src="/uploads/rules/cross-approvals/teams-approvals-report.jpg"
 />
 
@@ -319,11 +280,8 @@ To prevent this issue, create reports tracking the number of approvals people do
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Instead of using an approvals app, this is a report tracking how many approvals people do from company emails (unstructured data). Each person needs to first manually look up who is the employee responsible for approving the email",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Instead of using an approvals app, this is a report tracking how many approvals people do from company emails (unstructured data). Each person needs to first manually look up who is the employee responsible for approving the email"}
   src="/uploads/rules/cross-approvals/eagle-eye-report.jpg"
 />
 

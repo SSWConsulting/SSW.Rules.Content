@@ -23,7 +23,7 @@ uri: scrum
 
 与会者每人要回答三个关键问题：
 
-<endOfIntro />
+<endIntro />
 
 1.  昨天做了什么？（你是否更新了 TFS/其它任务跟踪系统的工作项？）
 
@@ -51,11 +51,8 @@ uri: scrum
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Burdown preview",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Burdown preview"}
   src="/uploads/rules/scrum/burndowntfspreview.png"
 />
 
@@ -64,19 +61,16 @@ uri: scrum
 建议 2：在墙上贴一张每日 Scrum 会议的日程表(+ 在 OutLook 中设置一个预约)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi **团队名称&** ,根据我们的讨论， **项目名称** 的每日 Scrum 会议在每个工作日的 11:00AM(悉尼时间)在 **地点** 举行
 根据以下规则，它持续时间最长为 15 分钟[https://www.ssw.com.au/rules/methodology-daily-scrums](/methodology-daily-scrums)
 谢谢,
 **Scrum Master**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

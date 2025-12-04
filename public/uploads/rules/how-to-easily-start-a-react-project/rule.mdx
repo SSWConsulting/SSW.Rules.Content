@@ -24,7 +24,7 @@ uri: how-to-easily-start-a-react-project
 
 The old standard way to start a React project, create-react-app is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and has been removed from the official developer documentation ([https://react.dev/learn/start-a-new-react-project](https://react.dev/learn/start-a-new-react-project)). Therefore, it is not the best choice for starting a client-side rendered React app.
 
-<endOfIntro />
+<endIntro />
 
 ## Vite
 
@@ -36,11 +36,8 @@ Vite is much faster than using create-react-app, mainly because Vite does not us
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example: Using the create-react-app npm package",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example: Using the create-react-app npm package"}
   src="/uploads/rules/how-to-easily-start-a-react-project/new-create-react-app.png"
 />
 
@@ -49,11 +46,8 @@ Vite is much faster than using create-react-app, mainly because Vite does not us
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example: Use Vite to generate a react-ts project",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example: Use Vite to generate a react-ts project"}
   src="/uploads/rules/how-to-easily-start-a-react-project/vite.png"
 />
 
@@ -73,11 +67,8 @@ npm create vite@latest
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The framework options with Vite",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The framework options with Vite"}
   src="/uploads/rules/how-to-easily-start-a-react-project/vite-pick.png"
 />
 
@@ -89,11 +80,8 @@ npm create vite@latest
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The variant options with Vite",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The variant options with Vite"}
   src="/uploads/rules/how-to-easily-start-a-react-project/vite-pick-typescript.png"
 />
 

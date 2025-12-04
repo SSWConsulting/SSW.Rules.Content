@@ -29,19 +29,16 @@ Is your code DRY? Any logic that is used more than once, should be encapsulated 
 
 This will reduce redundancy, decrease maintenance effort, improve efficiency and reusability, and make the code more clear to read.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     DRY, which stands for ‘don’t repeat yourself,’ is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -83,12 +80,7 @@ public class ErrorEmail
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Write the same logic repeatedly",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Write the same logic repeatedly**  
 
 ```csharp
 public class WarningEmail
@@ -128,8 +120,4 @@ public class EmailHelper
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Put the same logic in a method and make it reusable",
-  shouldDisplay: true
-} } />
+**✅ Good example - Put the same logic in a method and make it reusable**

@@ -29,7 +29,7 @@ With the advent of Microsoft Flow and Logic Apps, automated emails are becoming 
 
 However, the end user should be able to tell that this was sent by a bot, and not a real person, both for transparency, and also to potentially trigger them to automate some of their own workflow.
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -55,9 +55,6 @@ Uly
 
 &lt;This email was sent as per the rule: [https://ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)&gt;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – You can clearly see this was sent by a bot",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – You can clearly see this was sent by a bot"}
 />

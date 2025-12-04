@@ -24,7 +24,7 @@ uri: good-typescript-configuration
 
 TypeScript is a powerful language that transpiles to JavaScript, and provides much desired type-safety and IDE refactoring support. But without good configuration, a lot of the benefits can be lost.
 
-<endOfIntro />
+<endIntro />
 
 ## Use tsconfig.json
 
@@ -35,11 +35,8 @@ Putting a “tsconfig.json” file in your project tells the typescript compiler
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A tsconfig.json file with great configuration",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A tsconfig.json file with great configuration"}
   src="/uploads/rules/good-typescript-configuration/goodtypescriptconfig1.png"
 />
 
@@ -66,10 +63,7 @@ In VSCode this can be done via the “files.exclude” key in the settings.json 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "VSCode settings.json file that hides generated files",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"VSCode settings.json file that hides generated files"}
   src="/uploads/rules/good-typescript-configuration/goodtypescriptconfig2.png"
 />

@@ -31,7 +31,7 @@ uri: include-names-as-headings
 
 If you have to address an email to one or multiple people (including [to yourself](/dones-do-you-send-yourself-emails)), include each person's name **as a heading**. This helps them quickly locate which part of the email that applies to them.
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -52,11 +52,8 @@ I've tried to replicate the behaviour but was unsuccessful.
 1. Can you make sure Northwind is using the latest version?
 2. When finished, please repackage with the new registration
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Names as normal text is not the best for readability",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Names as normal text is not the best for readability"}
 />
 
 <emailEmbed
@@ -78,38 +75,29 @@ I've tried to replicate the behaviour but was unsuccessful.
 1. Can you make sure Northwind is using the latest version?
 2. When finished, please repackage with the new registration
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - When addressing multiple people, include each addressee's name as a separate heading",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - When addressing multiple people, include each addressee's name as a separate heading"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** When sending from apps/devices that don't allow headings, at least make the names **bold**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can add a heading 3 in Outlook by typing **Control + Alt + 3** (for Windows) or **Command⌘ + Option + 3** (for Mac)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

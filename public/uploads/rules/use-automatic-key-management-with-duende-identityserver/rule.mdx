@@ -28,7 +28,7 @@ uri: use-automatic-key-management-with-duende-identityserver
 
 When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 services.AddIdentityServer()
@@ -39,12 +39,7 @@ services.AddIdentityServer()
     .AddTestUsers(new List<TestUser>())
     .AddDeveloperSigningCredential();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore**  
 
 When using version 5, instead of using `IdentityServer4.AccessTokenValidation()`, you should use the out of the box `AddAuthentication(("Bearer").AddJwtBearer("Bearer")` from .NET 5
 
@@ -56,12 +51,7 @@ services.AddAuthentication("Bearer")
         options.Authority = "https://localhost:5000";
     });
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.**  
 
 ```cs
 services.AddAuthentication("Bearer")
@@ -71,8 +61,4 @@ services.AddAuthentication("Bearer")
       options.Authority = "https://localhost:5000";
     });
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - use `AddJwtBearer(\"Bearer\")` instead",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - use `AddJwtBearer("Bearer")` instead**

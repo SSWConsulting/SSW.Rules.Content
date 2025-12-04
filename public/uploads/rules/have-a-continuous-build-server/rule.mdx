@@ -32,11 +32,11 @@ A Continuous Integration (CI) server monitors the Source Control repository and,
 
 If something goes wrong, notifications are sent out immediately (e.g. via email or Teams) so that the problems can be quickly remedied.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### It's all about managing the risk of change
@@ -47,23 +47,17 @@ The various levels of automated testing that may form part of the CI pipeline (e
 
 The small change deltas between builds in combination with continuous testing should result in a stable and "known good" state of the codebase at all times.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Azure DevOps and GitHub both provide online build agents with a free tier to get you started.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

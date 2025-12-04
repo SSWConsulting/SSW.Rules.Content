@@ -24,7 +24,7 @@ Do you know how to apply style to image, figure, etc?
 
 Let's take the "AvoidReplyToAllWhenBcc" page as example.
 
-<endOfIntro />
+<endIntro />
 
 First, the reason to cause the style issue is the style doesn’t apply to right place. Below is the html code after you adjust the figure manually (sorry, still not right). Please look at the highlight part...
 
@@ -50,11 +50,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Copy content in the notepad",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Copy content in the notepad"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/SaveContentInNotePad.jpg"
 />
 
@@ -68,11 +65,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Start copying content over",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Start copying content over"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/CopyFromNotePad.jpg"
 />
 
@@ -84,11 +78,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a link to text",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Add a link to text"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/InsertImage.jpg"
 />
 
@@ -100,11 +91,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Inser an image",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Inser an image"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleInsertImage.jpg"
 />
 
@@ -116,11 +104,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add figure",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Add figure"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleAddFigure.jpg"
 />
 
@@ -132,11 +117,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Apply style to the image",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Apply style to the image"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleImageArea.jpg"
 />
 
@@ -148,11 +130,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Apply style to the figure",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Apply style to the figure"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleImageArea.jpg"
 />
 
@@ -164,11 +143,8 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Apply yellow border box to the content",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Apply yellow border box to the content"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleFigure.jpg"
 />
 
@@ -180,10 +156,7 @@ Figure: SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Right style in use",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Right style in use"}
   src="/uploads/rules/how-to-use-ssw-style-in-radhtmlcontrol/ApplyStyleResult.jpg"
 />

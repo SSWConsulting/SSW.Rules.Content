@@ -6,8 +6,14 @@ authors:
   url: https://ssw.com.au/people/lewis-toh
 categories:
 - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-created: 2025-10-16 16:49:00+00:00
+created: 2025-10-16 21:45:36+00:00
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
 guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
+isArchived: false
+lastUpdated: 2025-10-16 21:45:36+00:00
+lastUpdatedBy: Lewis Toh [SSW]
+lastUpdatedByEmail: 88498002+Lewkans@users.noreply.github.com
 related:
 - rule: public/uploads/rules/leave-explanatory-notes-for-non-standard-code/rule.mdx
 - rule: public/uploads/rules/use-a-project-portal-for-your-team-and-client/rule.mdx
@@ -25,7 +31,7 @@ When using AI assistants (like GitHub Copilot, Claude, ChatGPT, or Cursor) for d
 - Documentation noise is minimized
 - Task summaries are easily discoverable
 
-<endOfIntro />
+<endIntro />
 
 ### The Problem with Unorganized Documentation
 
@@ -41,8 +47,8 @@ When AI tools generate documentation during development sessions, developers oft
 Creating documentation for every small change leads to:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **docs/**
 - `fix-typo-in-readme.md`
@@ -51,17 +57,9 @@ Creating documentation for every small change leads to:
 - `fix-null-check.md`
 - `add-missing-semicolon.md`
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - Too many documentation files for trivial changes creates noise and makes important documentation harder to find"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Too many documentation files for trivial changes creates noise and makes important documentation harder to find",
-  shouldDisplay: true
-} } />
 
 
 ## The Solution: Structured AI Task Documentation
@@ -143,16 +141,13 @@ docs/ai-tasks/
 ```
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Most teams should commit this documentation to share context across the team. Only exclude it if your team uses a separate documentation system.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -171,8 +166,8 @@ This standardized approach provides:
 ### Example Result
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **docs/ai-tasks/**
 - `20250102-GB-01-implement-authentication-module.md`
@@ -180,17 +175,9 @@ This standardized approach provides:
 - `20250115-DM-01-refactor-database-layer-for-multi-tenancy.md`
 - `20250115-DM-02-add-tenant-isolation-integration-tests.md`
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Clear, organized, and meaningful documentation that's easy to navigate and understand"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Clear, organized, and meaningful documentation that's easy to navigate and understand",
-  shouldDisplay: true
-} } />
 
 
 ## Conclusion

@@ -25,7 +25,7 @@ uri: do-you-use-the-code-health-extensions-in-visual-studio
 
 The code quality standard should extend the Visual Studio Analyzer. A wide variety of additional analyzers can be included via Nuget, the minimum standard should include Roslyn Security Guard.
 
-<endOfIntro />
+<endIntro />
 
 ### Related Steps to Code Health
 
@@ -43,11 +43,8 @@ Search & Install the NuGet packages:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Steps to install NuGet Packages",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Steps to install NuGet Packages"}
   src="/uploads/rules/do-you-use-the-code-health-extensions-in-visual-studio/VS-InstallNuGetPackages.png"
 />
 
@@ -58,11 +55,8 @@ Issues from these will now be returned in the Visual Studio analyzer error list.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "New Roslyn Rule issues raised in Visual Studio Analyzer",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"New Roslyn Rule issues raised in Visual Studio Analyzer"}
   src="/uploads/rules/do-you-use-the-code-health-extensions-in-visual-studio/VS-RoslynRules.png"
 />
 

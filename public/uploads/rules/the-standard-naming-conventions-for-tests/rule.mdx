@@ -31,7 +31,7 @@ Ensuring a consistent and organized approach to testing is pivotal in any develo
 >
 > - Jamie Cansdale
 
-<endOfIntro />
+<endIntro />
 
 | **Test Object**                                           | **Recommended Style**         | **Example**                                                                                                 |
 | --------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -64,11 +64,8 @@ That means if any external resource is unavailable, the tests will fail.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Naming for a Unit Test Project",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Naming for a Unit Test Project"}
   src="/uploads/rules/the-standard-naming-conventions-for-tests/UnitTestsProject.jpg"
 />
 
@@ -79,23 +76,13 @@ That means if any external resource is unavailable, the tests will fail.
 [TestMethod]
  public void Test_Client()
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: There is no way to guess what this test does; you have to read the source",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: There is no way to guess what this test does; you have to read the source**  
 
 ```cs
 [TestMethod]
  public void PubSubServiceConnectTest_AuctionOk_AuctionInfoReturned()
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: We are testing PubSubService.Connect under the scenario that the \"Auction status is OK\" with an expected behaviour that data is returned",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: We are testing PubSubService.Connect under the scenario that the "Auction status is OK" with an expected behaviour that data is returned**  
 
 #### Sample Code for Integration Tests
 
@@ -159,11 +146,8 @@ namespace SSW.NETToolkit.IntegrationTests
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "This rule is consistent with the Visual Studio default",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"This rule is consistent with the Visual Studio default"}
   src="/uploads/rules/the-standard-naming-conventions-for-tests/TestGenerationSettings.gif"
 />
 
@@ -175,11 +159,8 @@ namespace SSW.NETToolkit.IntegrationTests
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Unit Test Wizard 1",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Unit Test Wizard 1"}
   src="/uploads/rules/the-standard-naming-conventions-for-tests/AddNewTest.gif"
 />
 
@@ -189,10 +170,7 @@ namespace SSW.NETToolkit.IntegrationTests
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Unit Test Wizard 2",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Unit Test Wizard 2"}
   src="/uploads/rules/the-standard-naming-conventions-for-tests/CreateUnitTests.gif"
 />

@@ -20,7 +20,7 @@ isArchived: false
 
 Leveraging SCIM (System for Cross-domain Identity Management) in conjunction with Entra ID (or whatever Identity provider you use) is crucial for efficient and secure identity synchronization across cloud-based applications and services.
 
-<endOfIntro />
+<endIntro />
 
 ## Why Integrate SCIM with Entra ID?
 
@@ -34,11 +34,8 @@ Relying solely on manual identity management processes in Entra ID without SCIM 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - SysAdmins have to provision each user separately in 3rd party products",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - SysAdmins have to provision each user separately in 3rd party products"}
   src="/uploads/rules/use-scim-for-identity-management/bad-example-no-scim.jpg"
 />
 
@@ -51,11 +48,8 @@ Implementing SCIM to automate user provisioning and deprovisioning across variou
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example: SysAdmins only provision into Entra ID the SCIM provisioning does all the work",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example: SysAdmins only provision into Entra ID the SCIM provisioning does all the work"}
   src="/uploads/rules/use-scim-for-identity-management/good-example-scim.jpg"
 />
 

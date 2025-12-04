@@ -28,7 +28,7 @@ uri: have-a-strong-header-and-footer
 
 A strong header and footer will make the client sure that document is from your company in any page he is looking at.
 
-<endOfIntro />
+<endIntro />
 
 Make sure your document contains:
 
@@ -39,11 +39,8 @@ Make sure your document contains:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The link is too long and messy",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The link is too long and messy"}
   src="/uploads/rules/have-a-strong-header-and-footer/bad-footer.jpg"
 />
 
@@ -52,10 +49,7 @@ Make sure your document contains:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The header and footer are consistent, using the branding colours and all the useful information",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The header and footer are consistent, using the branding colours and all the useful information"}
   src="/uploads/rules/have-a-strong-header-and-footer/proposal-header-and-footer.jpg"
 />

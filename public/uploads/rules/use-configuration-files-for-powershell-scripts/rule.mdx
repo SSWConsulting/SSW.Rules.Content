@@ -12,9 +12,9 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 91fcf87e-5709-47fb-9ff1-997bd716cdda
 isArchived: false
-lastUpdated: 2022-06-16 00:27:47+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-use-configuration-files-for-powershell-scripts
 seoDescription: Use PowerShell scripts that separate configuration from code for improved
@@ -30,7 +30,7 @@ Instead of using XML, JSON, YAML, or TXT files, PowerShell "accidentally" create
 
 PSD1 us the filename extension for PowerShell module descriptions, and this file contains metadata for that module. You can, however, load any kind of data from a PSD1 file using a simple cmdlet.
 
-<endOfIntro />
+<endIntro />
 
 ```ps1
 Import-PowerShellDataFile.
@@ -51,11 +51,8 @@ Don't forget to add the configuration file to `.gitignore`!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Your script variables are in the script itself, making it insecure to share outside",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Your script variables are in the script itself, making it insecure to share outside"}
   src="/uploads/rules/use-configuration-files-for-powershell-scripts/bad-script-variables.png"
 />
 

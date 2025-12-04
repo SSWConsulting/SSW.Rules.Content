@@ -29,18 +29,15 @@ uri: dates-do-you-keep-date-formats-consistent-across-your-application
 
 Date formats should always be kept consistent across applications. More importantly, they should be kept consistent with the operating system's regional settings, otherwise this will cause significant confusion for users.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Operating System's Regional Settings",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Operating System's Regional Settings"}
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/operatingsystem-language-setting.png"
 />
 
@@ -49,11 +46,8 @@ Date formats should always be kept consistent across applications. More importan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Screens with inconsistent date formats",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Screens with inconsistent date formats"}
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/BadExampleDP.gif"
 />
 
@@ -62,11 +56,8 @@ Date formats should always be kept consistent across applications. More importan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Screens with consistent date formats",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Screens with consistent date formats"}
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/GoodExampleDP.gif"
 />
 
@@ -76,12 +67,7 @@ The best way to do this in your code is to grab the culture information from the
 ```dotnet
 startTimeTextBox.Text = resultResults.StartTime.ToString("dd/MM/yyyy hh:mm:ss");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using hard coded formatting string",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using hard coded formatting string**  
 
 ```dotnet
 'VB.NET
@@ -92,12 +78,7 @@ Public initialCulture As CultureInfo
 ...
 txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialCulture.DateTimeFormat)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using culture info to format datetime",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using culture info to format datetime**  
 
 ## Browser language settings
 
@@ -110,11 +91,8 @@ For example, Power BI is date format agnostic and will honor the setting in your
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Date format incorrect due to unmodified web page language settings",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Date format incorrect due to unmodified web page language settings"}
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/PowerBI-wrong-date-format.png"
 />
 
@@ -126,11 +104,8 @@ Go to **Browser Settings | Language | Select English (Australia)** as the top pr
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set English (Australia) as the top priority in the browser language settings",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Set English (Australia) as the top priority in the browser language settings"}
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/browser-language-setting.png"
 />
 

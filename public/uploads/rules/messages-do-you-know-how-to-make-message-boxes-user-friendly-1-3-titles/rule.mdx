@@ -22,7 +22,7 @@ uri: messages-do-you-know-how-to-make-message-boxes-user-friendly-1-3-titles
 
 Message boxes should have consistent and informative titles and descriptions, and icons should be used appropriately.
 
-<endOfIntro />
+<endIntro />
 
 #### Title
 
@@ -32,11 +32,8 @@ The title should contain the application name, so the user knows what applicatio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Title contains brief description of error, which is already contained in the message box",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Title contains brief description of error, which is already contained in the message box"}
   src="/uploads/rules/messages-do-you-know-how-to-make-message-boxes-user-friendly-1-3-titles/BadMsgTitle.jpg"
 />
 
@@ -45,11 +42,8 @@ The title should contain the application name, so the user knows what applicatio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Title contains Product Name (\"SSW eXtreme Emails!\") and Product Version (\"12.56\")",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Title contains Product Name (\"SSW eXtreme Emails!\") and Product Version (\"12.56\")"}
   src="/uploads/rules/messages-do-you-know-how-to-make-message-boxes-user-friendly-1-3-titles/GoodMsgTitle.jpg"
 />
 

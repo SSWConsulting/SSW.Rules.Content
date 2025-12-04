@@ -26,7 +26,7 @@ uri: reporting-net-applications-errors
 
 .NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened. **Please do not send us this screenshot**, instead, select the top section of what's within this box and paste it in an email that you can send back to us.
 
-<endOfIntro />
+<endIntro />
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
@@ -35,18 +35,15 @@ The text within the 'Details' button is more useful for debugging and locating t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Bug details window - Don't sent the screenshot",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Bug details window - Don't sent the screenshot"}
   src="/uploads/rules/reporting-net-applications-errors/DotNetDebug2.gif"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     See the end of this message for details on invoking
 just-in-time (JIT) debugging instead of this dialog box.
@@ -129,11 +126,8 @@ When JIT debugging is enabled, any unhandled exception
 will be sent to the JIT debugger registered on the machine
 rather than being handled by this dialog.\
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

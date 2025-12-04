@@ -34,7 +34,7 @@ They would normally need to get a CRM developer involved to write JavaScript cod
 
 Starting with CRM 2013 (and much improved in CRM 2015), users can now use Business Rules to automate these actions without getting a CRM developer involved.
 
-<endOfIntro />
+<endIntro />
 
 Take the following Example:
 
@@ -43,11 +43,8 @@ Take the following Example:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "‘Customer Type Other’ should be hidden and only displayed when Other is selected",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"‘Customer Type Other’ should be hidden and only displayed when Other is selected"}
   src="/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/crm-automated-forms-1.png"
 />
 
@@ -59,11 +56,8 @@ To make this work use the following Business Rules:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Show the ‘Customer Type Other’ field when Customer Type equals Other",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Show the ‘Customer Type Other’ field when Customer Type equals Other"}
   src="/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/crm-automated-forms-2.png"
 />
 
@@ -75,11 +69,8 @@ The flip side of the expression also needs to be set where Customer Type doesn�
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other"}
   src="/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/crm-automated-forms-3.png"
 />
 
@@ -93,11 +84,8 @@ Now the form will look like this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Great. Now ‘Customer Type Other’ is hidden",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Great. Now ‘Customer Type Other’ is hidden"}
   src="/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/crm-automated-forms-4.png"
 />
 
@@ -107,11 +95,8 @@ Now the form will look like this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "And on the other side ‘Customer Type Other’ is visible",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"And on the other side ‘Customer Type Other’ is visible"}
   src="/uploads/rules/crm2013-2015-do-you-use-crm-business-rules-to-automate-forms/crm-automated-forms-5.png"
 />
 

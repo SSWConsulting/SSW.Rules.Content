@@ -15,9 +15,9 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 guid: be630745-f956-4c85-a521-5c8b210f93fe
 isArchived: false
-lastUpdated: 2025-09-15 12:18:01+00:00
-lastUpdatedBy: Gilles Pothieu [SSW]
-lastUpdatedByEmail: gillespothieu@ssw.fr
+lastUpdated: 2025-10-17 05:07:23+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-have-a-knowledge-base-(kb)
 - do-you-have-a-knowledge-base-kb
@@ -41,7 +41,7 @@ Established projects typically include several layers of documentation, collecti
 * **Q&A Articles** - More detailed question/answer pairs for more specific use cases
 * **[Roadmap](/roadmap)** - Outlines upcoming goals, features, and milestones to show the project’s direction and priorities
 
-<endOfIntro />
+<endIntro />
 
 For example, one of the most useful feature on Microsoft website is their [knowledge base](https://support.microsoft.com/).
 
@@ -71,8 +71,8 @@ The basic rule is: don't send back the answer in your email - instead send back 
    * Ask the developer to “Please action?"
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -82,17 +82,14 @@ Thanks for reporting this issue to TinaCMS. I'm happy to let you know that this
 Thanks,
 Bob
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Responding to a known issue when the KB is already updated",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Responding to a known issue when the KB is already updated"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -104,17 +101,14 @@ Please let me know if this has resolved your issue.
 Thanks,
 Bob
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Responding to a known issue when you need to update to the KB",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Responding to a known issue when you need to update to the KB"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -127,17 +121,14 @@ Kind Regards,
 Bob
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Responding when you cannot reproduce the issue",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Responding when you cannot reproduce the issue"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -150,41 +141,32 @@ Kind Regards,
 Bob
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Informing user of a fix",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Informing user of a fix"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If the user is technical, you might want to include code changes.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 See how by just giving them the URL, these emails encourages them to use your documentation in the future. You need to make sure the support staff are aware they should send these types of emails to customers.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important:** Don't write a KB article if fixing the bug and making a new version solves the problem. You'll have to fix the problem anyway, so don't waste time writing a KB — just email the new version.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -203,8 +185,8 @@ This way our customers know of our exciting features coming in future versions o
 ## Responding to feature suggestions
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -217,17 +199,14 @@ Thanks,
 Bob
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Responding to a feature request",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Responding to a feature request"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Dear Harry,**
@@ -240,11 +219,8 @@ Kind Regards,
 Bob
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Responding to a feature request which is part of the roadmap",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Responding to a feature request which is part of the roadmap"}
 />
 
 
@@ -260,11 +236,8 @@ You don't need to be Microsoft to build a KB. A Knowledge Base does not need to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - TinaCMS Docs page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - TinaCMS Docs page"}
   src="/uploads/rules/knowledge-base-kb/tina-cms-docs.png"
 />
 

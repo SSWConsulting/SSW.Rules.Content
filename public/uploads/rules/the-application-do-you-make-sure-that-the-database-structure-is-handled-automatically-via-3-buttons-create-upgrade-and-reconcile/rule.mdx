@@ -32,11 +32,8 @@ You get an error message reported from a user like:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The developer thinks \"what could be wrong\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The developer thinks \"what could be wrong\""}
   src="/uploads/rules/the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile/ObamaThinking.jpg"
 />
 
@@ -46,11 +43,8 @@ You get an error message reported from a user like:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The developer tests then replies \"Works on my machine\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The developer tests then replies \"Works on my machine\""}
   src="/uploads/rules/the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile/WorksOnMyMachine.png"
 />
 
@@ -59,11 +53,11 @@ You try and reproduce it on your version and everything works perfectly.
 
 You suspect that the customer or someone, probably has changed the schema. So you start drafting an email to the user like:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Mary, I need you to send me your database schema as it might be different from what it should be. Can you:
 
@@ -79,11 +73,8 @@ You suspect that the customer or someone, probably has changed the schema. So yo
 10. Then when I get this I will compare and I will make a script file for you to run and fix the problem
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -101,8 +92,8 @@ It looks like this
 ![Reconcile](/uploads/rules/the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile/Reconcile.jpg) Figure: When weird errors are happening at a client, you need a "Reconcile" button in your application. This compares the current scripts, to the client's database and tells you if things are not right ![New database dialog](/uploads/rules/the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile/NewDatabaseDialog.jpg) Figure: First time your client opens the application, they will need to Creating a database. It should be as easy as clicking "Create"
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     As a developer, I promise to do these 3 things:
 
@@ -111,11 +102,8 @@ It looks like this
 3. Never ask a client to run a script
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -124,10 +112,7 @@ It looks like this
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Adam makes all his new developers swear in and repeat this",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Adam makes all his new developers swear in and repeat this"}
   src="/uploads/rules/the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile/ObamSwearing.jpg"
 />

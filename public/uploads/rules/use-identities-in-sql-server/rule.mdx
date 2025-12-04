@@ -25,13 +25,8 @@ uri: use-identities-in-sql-server
 
 This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:
 
-<endOfIntro />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Cons",
-  shouldDisplay: true
-} } />
-
+<endIntro />
+**❌ Cons**  
 
 * You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
 * Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
@@ -42,12 +37,7 @@ But in SQL Server you have identities and we have these procs:
 
 * DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
 * SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Pros",
-  shouldDisplay: true
-} } />
-
+**✅ Pros**  
 
 * Less programming - letting the database take care of it
 * Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
@@ -68,11 +58,8 @@ Using SQL Management Studio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SQL Import Wizard - Edit Mappings",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"SQL Import Wizard - Edit Mappings"}
   src="/uploads/rules/use-identities-in-sql-server/IdentityImportEditMappings.png"
 />
 
@@ -83,11 +70,8 @@ Using SQL Management Studio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SQL Import Wizard – Ensure Enable identity insert is checked",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"SQL Import Wizard – Ensure Enable identity insert is checked"}
   src="/uploads/rules/use-identities-in-sql-server/EnableIdentityInsert.png"
 />
 

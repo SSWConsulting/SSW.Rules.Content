@@ -24,18 +24,15 @@ uri: how-to-improve-the-discoverability-of-your-mediatr-requests
 
 When using MediatR within an ASP.NET Controller it is typical to see actions such as the following:
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A Typical ASP.NET Controller using Mediator",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A Typical ASP.NET Controller using Mediator"}
   src="/uploads/rules/how-to-improve-the-discoverability-of-your-mediatr-requests/improve-mediatr-typical.png"
 />
 
@@ -46,11 +43,8 @@ In the above example, the API contains a Create action that includes a CreatePro
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The request is contained within CreateProductCommand.cs",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - The request is contained within CreateProductCommand.cs"}
   src="/uploads/rules/how-to-improve-the-discoverability-of-your-mediatr-requests/improve-mediatr-bad.png"
 />
 
@@ -59,11 +53,8 @@ In the above example, the API contains a Create action that includes a CreatePro
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The request handler is contained within CreateProductCommandHandler.cs",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - The request handler is contained within CreateProductCommandHandler.cs"}
   src="/uploads/rules/how-to-improve-the-discoverability-of-your-mediatr-requests/improve-mediatr-bad-2.png"
 />
 
@@ -74,11 +65,8 @@ In the above implementation, the request handler is cleanly separated from the r
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Nesting the Request Handler within the Request Improves Discoverability of Command and Associated Command Logic",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Nesting the Request Handler within the Request Improves Discoverability of Command and Associated Command Logic"}
   src="/uploads/rules/how-to-improve-the-discoverability-of-your-mediatr-requests/improve-mediatr-good.png"
 />
 

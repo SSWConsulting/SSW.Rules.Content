@@ -27,21 +27,18 @@ Some people aim for 100% Unit Test Coverage but, in the real world, this is 100%
 
 Unit tests are created to validate and assert that public and protected methods of a class meet an expected outcome based on varying input. This includes both good and bad data being tested, to ensure the method behaves as expected and returns the correct result or traps any errors.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Don't focus on meeting a unit test coverage target. Focus on **quality over quantity**.
 
 Remember that unit tests are designed to be small in scope and help mitigate the risk of code changes. When deciding which unit tests to write, think about the risks you're mitigating by writing them. In other words, don't write unit tests for the sake of it, but write them where it makes sense and where they actually help to reduce the risk of unintended consequences of code changes.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -53,8 +50,8 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 - **When errors can be difficult to spot** - E.g. in rounding, arithmetic and other calculations
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Examples:**
 
@@ -62,11 +59,8 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 
 * Methods returning a Boolean value need to have test cases to cover both true and false.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

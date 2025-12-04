@@ -32,6 +32,9 @@ related:
 - rule: public/uploads/rules/when-you-use-mentions-in-a-pbi/rule.mdx
 - rule: public/uploads/rules/reply-done/rule.mdx
 - rule: public/uploads/rules/triage-support-tickets/rule.mdx
+seoDescription: Convert emails into Product Backlog Items (PBIs) before starting work
+  to ensure proper tracking, accountability, and workflow management in your development
+  process.
 title: Do you turn an email into a PBI before starting work?
 type: rule
 uri: turn-emails-into-pbis
@@ -43,7 +46,7 @@ That's why when a feedback email is received, it is important to turn it into a 
 
 If someone often sends email tasks rather than creating PBIs, kindly suggest they create PBIs directly to save time and keep workflows organized.
 
-<endOfIntro />
+<endIntro />
 
 ## ✅ Benefits of turning emails into PBIs
 
@@ -69,11 +72,8 @@ Use the following flow chart to determine if an urgent email should be turned in
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Should the email be turned into a PBI?",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Should the email be turned into a PBI?"}
   src="/uploads/rules/turn-emails-into-pbis/urgent-flowchart.png"
 />
 
@@ -93,8 +93,8 @@ It's important that you follow the right steps so that the PBI contains all the 
    For future issues, if you have access, please add your comments to items in that backlog 🙂"*
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Based on email chain:
 
@@ -104,17 +104,14 @@ It's important that you follow the right steps so that the PBI contains all the 
 **Cc:** John Davis "[JohnDavis@northwind.com](mailto:JohnDavis@northwind.com)"; Eliza Northwind "[ElizaNorthwind@northwind.com](mailto:ElizaNorthwind@northwind.com)"\
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Has the email header data but not @mentioning users",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Has the email header data but not @mentioning users"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Based on email chain:
 
@@ -124,25 +121,19 @@ It's important that you follow the right steps so that the PBI contains all the 
 **Cc:** @JohnDavis @ElizaNorthwind\
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Has the email header data and @mentions users",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Has the email header data and @mentions users"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -167,11 +158,8 @@ When there is a new update in emails do the following ASAP:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Don't work from your email inbox!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Don't work from your email inbox!"}
   src="/uploads/rules/turn-emails-into-pbis/email-example.png"
 />
 
@@ -180,11 +168,8 @@ When there is a new update in emails do the following ASAP:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Put it in a PBI!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Put it in a PBI!"}
   src="/uploads/rules/turn-emails-into-pbis/pbi-example.png"
 />
 
@@ -229,9 +214,6 @@ Thanks for sending this through. Please remember to send tasks to our Zendesk ad
 
 &dash; Chris
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - send it to Zendesk!",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - send it to Zendesk!"}
 />

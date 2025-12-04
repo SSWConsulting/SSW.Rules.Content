@@ -5,6 +5,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Danijel Malik
   url: https://ssw.com.au/people/danijel-malik
+categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
 created: 2013-02-06 13:10:01+00:00
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -30,7 +32,7 @@ If web.config contains a `<httpHandlers>` or `<httpModules>` section, that secti
 
 This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.
 
-<endOfIntro />
+<endIntro />
 
 ```aspnet
 <configuration>
@@ -46,12 +48,7 @@ This basically forces developers to explicitly enable inheritance in nested virt
    <system.web>
 </configuration>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example**  
 
 ```aspnet
 <configuration>
@@ -68,8 +65,4 @@ This basically forces developers to explicitly enable inheritance in nested virt
    <system.web>
 <configuration>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example**

@@ -29,7 +29,7 @@ When booking in client work, always make sure you ask the client to gather enoug
 
 There are always exceptions, such as emergencies or small fixes, but do your best to limit them.
 
-<endOfIntro />
+<endIntro />
 
 If a dev is asked to do a few hours' work on a day that he is not already booked, a good response is something like “I’m available tomorrow if you’d like to book a day. Let me know if that's ok and I'll work on this then.”
 
@@ -42,14 +42,11 @@ Some developers may take it upon themselves to only timesheet for 6 or 7 hours, 
 For example:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Hey &#123;&#123; DEVELOPER &#125;&#125;, I see you are putting down 6 hours for Northwind when I have booked you for the whole day. Please always timesheet the full 8 hours and let me know if you think something should be written off."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -20,25 +20,16 @@ isArchived: false
 
 Many LINQ methods like Count, First and so on include an optional filter parameter. It's normally much more readable to use this than add an extra call to Where
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 .Where(x => x < 5).Count()
 .Where(x => x < 5).FirstOrDefault()
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - More code that requires extra thought to understand.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - More code that requires extra thought to understand.**  
 
 ```cs
 .Count(x => x < 5)
 .FirstOrDefault(x => x < 5)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Shorter and easier to read.",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Shorter and easier to read.**  

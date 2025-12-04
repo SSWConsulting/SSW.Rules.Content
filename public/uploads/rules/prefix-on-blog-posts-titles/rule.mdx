@@ -26,48 +26,37 @@ uri: prefix-on-blog-posts-titles
 
 The prefix is used to give context to your blog posts (or other type of content), so users know what to expect.
 
-<endOfIntro />
+<endIntro />
 
 Example 1: Use "**CODE:**" when your blog post is about coding or "**VIDEO:**" when it has a video.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Northwind Traders with Entity Framework Core
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Post title with no prefix",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Post title with no prefix**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     CODE: Northwind Traders with Entity Framework Core
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using a prefix in the post title",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Using a prefix in the post title"}
 />
 
 
 You should also use prefixes (based on the content, like lists) for grouping and a better scanning:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Configure your work email on your mobile
@@ -83,22 +72,14 @@ You should also use prefixes (based on the content, like lists) for grouping an
 * Make a small code change on SugarLearning.com (Developers only)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Data list with no prefixes",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Data list with no prefixes**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Phone - Configure your work email on your mobile
@@ -114,9 +95,6 @@ You should also use prefixes (based on the content, like lists) for grouping an
 * Exercise - Make a small code change on SugarLearning.com (Developers only)
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using a prefix in data",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Using a prefix in data"}
 />

@@ -13,6 +13,7 @@ authors:
 categories:
 - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
 - category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
 created: 2025-01-15 22:30:04+00:00
 createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
@@ -33,19 +34,16 @@ uri: web-ui-libraries
 
 Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://ui.shadcn.com) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     When using Bootstrap it's best to opt for the framework specific integration of Bootstrap, for example Angular users would opt for [NgBootstrap](https://ng-bootstrap.github.io/#/home).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -58,16 +56,13 @@ The trade-off of this approach is that any updates made to the Shadcn code base 
 Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com), an industry standard framework that offers an opinionated approach to managing your css classes. This makes it even easier to manage customizations made to your components.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -85,16 +80,13 @@ In effect, these technologies together let you quickly build your own custom com
 Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -139,16 +131,13 @@ Bootstrap has been the go-to general-purpose component library for years.
 While Bootstrap is a safe and reliable choice, it does have drawbacks, such as limited customizability and heavy reliance on CSS overrides to achieve bespoke designs.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     You can see the popularity of various frameworks at [star-history.com](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Date).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

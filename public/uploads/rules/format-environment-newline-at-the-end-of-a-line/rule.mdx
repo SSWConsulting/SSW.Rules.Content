@@ -24,34 +24,20 @@ uri: format-environment-newline-at-the-end-of-a-line
 
 You should format "Environment.NewLine" at the end of a line.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 string message = "The database is not valid." + Environment.NewLine + "Do you want to upgrade it? ";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - \"Environment.NewLine\" isn't at the end of the line",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - "Environment.NewLine" isn't at the end of the line**  
 
 ```csharp
 string message = "The database is not valid." + Environment.NewLine;
 message += "Do you want to upgrade it? ";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example -  \"Environment.NewLine\" is at the end of the line",
-  shouldDisplay: true
-} } />
-
+**✅ Good example -  "Environment.NewLine" is at the end of the line**  
 
 ```csharp
 return string.Join(Environment.NewLine, paragraphs);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - \"Environment.NewLine\" is an exception for String.Join\\",
-  shouldDisplay: true
-} } />
+**✅ Good example - "Environment.NewLine" is an exception for String.Join\**

@@ -28,7 +28,7 @@ Have you ever looked at the list of branches in your repository and not know wha
 
 Consistent naming conventions in source control systems help improve collaboration, clarity, and organization across teams. Using meaningful branch names with PBI numbers enhances traceability and reduces [merge debt](/merge-debt).
 
-<endOfIntro />
+<endIntro />
 
 Always remember to:
 
@@ -39,24 +39,21 @@ Always remember to:
 - **Extra: Use categories for improved organization** - If your repository has many branches or you want to keep them organized, adding a prefix such as "feature", "bugfix", or "hotfix" is beneficial
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Release branches should always include a prefix (e.g., release/) to distinguish them from other branch types and keep them organized.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 ---
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     * SomeUser-patch-3
 * fix-styling-issue
@@ -64,58 +61,46 @@ Always remember to:
 * update-package-version
 * fix-stuff
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Poorly named branches missing PBI numbers",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Poorly named branches missing PBI numbers"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     * 1463-collection-categories
 * 1506-fix-storage-variable-yaml
 * 1299-update-third-party-dependencies
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Branches with PBI numbers and meaningful names",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Branches with PBI numbers and meaningful names"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     * feature/3421-add-search-functionality
 * bugfix/4578-fix-date-formatting-issue
 * hotfix/9845-patch-payment-api-timeout
 * release/2.3.1
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Branches with category prefixes",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Branches with category prefixes"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; CATEGORY &#125;&#125;/&#123;&#123; PBI NUMBER &#125;&#125;-&#123;&#123; DESCRIPTION &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Recommended naming format",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Recommended naming format"}
 />
 
 

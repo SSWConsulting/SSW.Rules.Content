@@ -18,7 +18,7 @@ lastUpdatedByEmail: bradystroud@ssw.com.au
 related:
 - rule: public/uploads/rules/scrum-in-github/rule.mdx
 - rule: public/uploads/rules/github-issue-templates/rule.mdx
-- rule: public/uploads/rules/sprint-forecast/rule.mdx
+- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
 - rule: public/uploads/rules/sprint-review-retro-email/rule.mdx
 seoDescription: Standardize your Scrum processes with GitHub issue templates for Sprint
   Reviews/Retros and Forecasts, streamlining data entry and preserving visibility.
@@ -33,7 +33,7 @@ GitHub issue templates help solve this problem by standardizing the format and l
 
 Let's take a look at how...
 
-<endOfIntro />
+<endIntro />
 
 Creating an issue template for both your Sprint Review/Retro email and your Sprint Forecast email gives you several advantages.
 
@@ -51,11 +51,8 @@ Give your Sprint issues a special "Sprint" tag so they can be identified in the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Sprint emails can easily become inconsistent and lost in your inbox",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Sprint emails can easily become inconsistent and lost in your inbox"}
   src="/uploads/rules/github-sprint-templates/sprintemailtimepro.png"
 />
 
@@ -64,11 +61,8 @@ Give your Sprint issues a special "Sprint" tag so they can be identified in the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - With GitHub issues it's easy to spin up a Sprint Review or Forecast template",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - With GitHub issues it's easy to spin up a Sprint Review or Forecast template"}
   src="/uploads/rules/github-sprint-templates/sprinttemplateissues.png"
 />
 
@@ -77,10 +71,7 @@ Give your Sprint issues a special "Sprint" tag so they can be identified in the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with Markdown!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Editing a Sprint Forecast or Review/Retro is super simple and enabled with Markdown!"}
   src="/uploads/rules/github-sprint-templates/editsprintforecast.png"
 />

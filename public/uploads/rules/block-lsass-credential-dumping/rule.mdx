@@ -28,16 +28,13 @@ You can read more about credential dumping at [mitre.org](https://attack.mitre.o
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Attackers can dump credentials from lsass.exe",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Attackers can dump credentials from lsass.exe"}
   src="/uploads/rules/block-lsass-credential-dumping/lsass-dump.png"
 />
 
 
-<endOfIntro />
+<endIntro />
 
 Credential Guard was introduced in Windows 10/Server 2016. It runs lsass.exe in an isolated virtualized environment without any device drivers, so that the memory cannot be dumped. Depending on your environment, there are a few ways you can implement Credential Guard.
 
@@ -55,11 +52,8 @@ In a Domain environment, you can roll out Credential Guard with a GPO.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Credential Guard enabled in a Group Policy object",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Credential Guard enabled in a Group Policy object"}
   src="/uploads/rules/block-lsass-credential-dumping/credential-guard-gpo.png"
 />
 
@@ -77,11 +71,8 @@ If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Credential Guard setting in Microsoft Endpoint Manager",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Credential Guard setting in Microsoft Endpoint Manager"}
   src="/uploads/rules/block-lsass-credential-dumping/credential-guard-mem.png"
 />
 

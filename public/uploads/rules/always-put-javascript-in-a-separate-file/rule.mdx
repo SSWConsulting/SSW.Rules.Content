@@ -25,17 +25,14 @@ uri: always-put-javascript-in-a-separate-file
 
 ASP.NET injects many lines during page rendering, so if you are using inline JavaScript, the line numbers will change during client side JavaScript debugging in VS.NET, FireBug or IE8 developer Tools.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Code - Using Inline JavaScript",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Code - Using Inline JavaScript"}
   src="/uploads/rules/always-put-javascript-in-a-separate-file/JavaScriptBad1.jpg"
 />
 
@@ -44,11 +41,8 @@ ASP.NET injects many lines during page rendering, so if you are using inline Jav
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Code - On PostBack Line numbers are changed for Inline JavaScript",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Code - On PostBack Line numbers are changed for Inline JavaScript"}
   src="/uploads/rules/always-put-javascript-in-a-separate-file/JavaScriptBad.jpg"
 />
 
@@ -57,11 +51,8 @@ ASP.NET injects many lines during page rendering, so if you are using inline Jav
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Code - Using JavaScript on Separate file",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Code - Using JavaScript on Separate file"}
   src="/uploads/rules/always-put-javascript-in-a-separate-file/JavaScriptGood.jpg"
 />
 

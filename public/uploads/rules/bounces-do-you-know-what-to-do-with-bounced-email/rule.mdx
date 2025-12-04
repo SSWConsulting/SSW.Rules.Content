@@ -25,18 +25,15 @@ uri: bounces-do-you-know-what-to-do-with-bounced-email
 
 Having people report bounce back emails is frustrating and time consuming. The first thing to try when you get a report is to check that your mail server isn’t on a spam blacklist. An easy way to check this is via [MX Toolbox](http://mxtoolbox.com/).
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Enter the domain to check",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Enter the domain to check"}
   src="/uploads/rules/bounces-do-you-know-what-to-do-with-bounced-email/MXToolbox-1.jpg"
 />
 
@@ -46,11 +43,8 @@ Having people report bounce back emails is frustrating and time consuming. The f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Then select \"Blacklist Check\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Then select \"Blacklist Check\""}
   src="/uploads/rules/bounces-do-you-know-what-to-do-with-bounced-email/MXToolbox-2.jpg"
 />
 
@@ -60,11 +54,8 @@ Having people report bounce back emails is frustrating and time consuming. The f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Getting a zero is good, so you know that you are not blacklisted... so Step 1 is good",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Getting a zero is good, so you know that you are not blacklisted... so Step 1 is good"}
   src="/uploads/rules/bounces-do-you-know-what-to-do-with-bounced-email/MXToolbox-3.jpg"
 />
 
@@ -76,11 +67,8 @@ Next step check that you have primary and secondary (and even better tertiary) M
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Seeing at least 2 MX records is good... Run an SMTP Test to test mail servers. So Step 2 is good",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Seeing at least 2 MX records is good... Run an SMTP Test to test mail servers. So Step 2 is good"}
   src="/uploads/rules/bounces-do-you-know-what-to-do-with-bounced-email/MXToolbox-4.jpg"
 />
 
@@ -88,8 +76,8 @@ Next step check that you have primary and secondary (and even better tertiary) M
 If success on both steps the error is most likely on the senders side. Send them the an email to check their mail settings.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 Dear xxx,
@@ -102,9 +90,6 @@ As per [this rule on bounced emails](/bounces-do-you-know-what-to-do-with-bounce
 The problem is likely your end
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "What to send the person",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"What to send the person"}
 />

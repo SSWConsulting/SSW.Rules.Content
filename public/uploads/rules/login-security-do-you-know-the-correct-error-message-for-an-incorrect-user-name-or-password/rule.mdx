@@ -28,16 +28,13 @@ However, this is not secure. It makes it easier for bad guys (hackers) to get ac
 
 A more secure and prudent approach involves delivering a message that simply states 'Invalid email or password.' This intentionally avoids disclosing which specific credential is incorrect, thereby enhancing security by limiting the information exposed to potential threats.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - For security reasons, leave it open if it was an invalid username or password",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - For security reasons, leave it open if it was an invalid username or password"}
   src="/uploads/rules/login-security-do-you-know-the-correct-error-message-for-an-incorrect-user-name-or-password/GoodLoginError.png"
 />

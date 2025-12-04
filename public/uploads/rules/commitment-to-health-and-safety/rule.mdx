@@ -20,7 +20,7 @@ isArchived: false
 
 Ensuring health and safety in the workplace is a fundamental responsibility for all businesses. A commitment to health and safety not only protects workers but also fosters a positive and productive work environment. This commitment should be evident in all aspects of business operations, from adhering to safety standards to promoting a culture of safe behavior.
 
-<endOfIntro />
+<endIntro />
 
 ### Key Principles for Health and Safety Commitment
 
@@ -73,19 +73,16 @@ In the event of a fire:
 Inform SSW of any medical conditions, illnesses, or diseases to protect other staff. Provide a current medical certificate if applicable.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     To: &lt;SSWAccounts@ssw.com.au&gt;
 Cc: Adam
 Subject: &#123;&#123; YOUR NAME &#125;&#125; - My medical conditions (Medical Certificate attached)
 Attached is my Medical Certificate.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Email to send if you have any medical condition we should be aware of",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"Email to send if you have any medical condition we should be aware of"}
 />
 
 
@@ -114,30 +111,24 @@ Know the location of the first aid kit in your office. For example:
 ### Good and Bad Examples
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     A company neglects to provide necessary safety training to its employees, leading to frequent workplace accidents.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example - Lack of safety training results in increased workplace accidents.",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - Lack of safety training results in increased workplace accidents."}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     A company conducts regular safety audits, provides comprehensive training, and rewards employees for reporting safety hazards and following safety protocols.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Proactive approach to safety ensures a safe working environment.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Proactive approach to safety ensures a safe working environment."}
 />
 
 

@@ -30,7 +30,7 @@ Lookup data is data that you usually see in combo boxes. It may be a Customer Ca
 
 So whenever you have special data, which is referenced in code you need to tread carefully by:
 
-<endOfIntro />
+<endIntro />
 
 1. First understanding that although most of the time there is a clear separation between data and schema, there is an exception for Controlled Lookup Data. This is when data (aka Controlled Lookup Data) is tightly coupled to the application, meaning that you have an application that cannot function correctly without that data.
 2. You need to deploy that 'Controlled Lookup Data'
@@ -43,11 +43,8 @@ Let's look at an example:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "This combo looks innocent. However if it is \"Billable\" then the calendar goes yellow",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"This combo looks innocent. However if it is \"Billable\" then the calendar goes yellow"}
   src="/uploads/rules/do-you-deploy-controlled-lookup-data/TimeProDropDown.png"
 />
 
@@ -57,11 +54,8 @@ Let's look at an example:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Billable days are shown in yellow",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Billable days are shown in yellow"}
   src="/uploads/rules/do-you-deploy-controlled-lookup-data/TimeProCalendar.png"
 />
 
@@ -163,16 +157,13 @@ GO
 **Figure: This data must be deployed, just like we deploy a schema**
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note**: Now you need to add a test for your controlled data.
 
 Check out [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?](/do-you-check-your-controlled-lookup-data)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -39,7 +39,7 @@ ASP.NET Core includes default dependency injection for new Web Apps in the Start
 
 **Steve Smith, ([ASP.NET Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518))**
 
-<endOfIntro />
+<endIntro />
 
 You can quickly flag this error and any more by using the [SSW Code Auditor](https://codeauditor.com/).
 
@@ -49,11 +49,8 @@ Here is an example of rewiring the default code to AutoFac with the [SSW's Music
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The default dependency injection for ASP.NET Core",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - The default dependency injection for ASP.NET Core"}
   src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Bad.png"
 />
 
@@ -62,10 +59,7 @@ Here is an example of rewiring the default code to AutoFac with the [SSW's Music
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code"}
   src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Good.png"
 />

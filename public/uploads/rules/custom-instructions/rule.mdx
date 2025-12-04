@@ -26,7 +26,7 @@ uri: custom-instructions
 
 Ever found yourself stuck in a loop of endless prompt refinement when using ChatGPT? Sometimes getting your style of answer is tricky. By setting up custom instructions correctly, you can save hours.
 
-<endOfIntro />
+<endIntro />
 
 Custom instructions let you specify your preferences only once instead of repeatedly providing the same directions. The model will remember your instructions for every new chat you start.
 
@@ -43,56 +43,37 @@ Once you save, the instructions will be applied as context for all new chats. Yo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No custom instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No custom instructions"}
   src="/uploads/rules/custom-instructions/eli-custom-instructions-bad.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Be helpful."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Too vague!",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Too vague!**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Never use the word 'utilize' when writing for me."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "Figure: OK example - Tells the bot to avoid a particular word",
-  shouldDisplay: true
-} } />
+**😐 Figure: OK example - Tells the bot to avoid a particular word**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **What should ChatGPT call you?**
 
@@ -127,27 +108,16 @@ I live in &#123;&#123; LOCATION &#125;&#125;, and I was born in &#123;&#123; YEA
 I work at SSW, a custom software development company with about 100 employees across 6 offices (Sydney, Brisbane, Melbourne, Newcastle, Hangzhou, and Strasbourg)."
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Start with these custom instructions. Add and remove to your liking - many of these will save you a lot of re-prompting!",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Start with these custom instructions. Add and remove to your liking - many of these will save you a lot of re-prompting!**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Specific and detailed custom instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Specific and detailed custom instructions"}
   src="/uploads/rules/custom-instructions/eli-custom-instructions-good.png"
 />

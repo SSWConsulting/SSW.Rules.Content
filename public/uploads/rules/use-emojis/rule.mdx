@@ -37,7 +37,7 @@ uri: use-emojis
 
 It's usually easier for users to remember where given information is when it is associated with an image/icon. This is especially true for non-technical people or those who are not very familiar with digital workspaces.
 
-<endOfIntro />
+<endIntro />
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
 
@@ -61,11 +61,8 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Teams Channel names without emojis",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Teams Channel names without emojis"}
   src="/uploads/rules/use-emojis/Teams_Emojis_Bad.png"
 />
 
@@ -74,11 +71,8 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Teams Channel names with emojis",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Teams Channel names with emojis"}
   src="/uploads/rules/use-emojis/Teams_Emojis_Good.png"
 />
 
@@ -89,11 +83,8 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Control4 automation UI is more friendly with emojis",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Control4 automation UI is more friendly with emojis"}
   src="/uploads/rules/use-emojis/control4-emojis.png"
 />
 
@@ -104,11 +95,8 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting"}
   src="/uploads/rules/use-emojis/calendar-emoji.png"
 />
 
@@ -116,59 +104,40 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 ## Lists
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Regular list items"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Regular list items",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ✅ Fast to load (lightweight as no image)
 ✅ UI - Consistent look
 ❌ Maintenance of needing to upload to server
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Emojis give context to each item"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Emojis give context to each item",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

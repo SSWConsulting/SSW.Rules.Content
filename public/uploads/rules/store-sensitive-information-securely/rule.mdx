@@ -9,9 +9,9 @@ createdBy: Warwick Leahy [SSW]
 createdByEmail: 58454534+leahy268@users.noreply.github.com
 guid: 75da57d7-3f2c-4e5c-b964-eb656f52dccc
 isArchived: false
-lastUpdated: 2024-03-19 03:57:30+00:00
-lastUpdatedBy: Caleb Williams [SSW]
-lastUpdatedByEmail: 65635198+Calinator444@users.noreply.github.com
+lastUpdated: 2025-10-28 23:25:28+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
 - rule: public/uploads/rules/password-sharing-practices/rule.mdx
 - rule: public/uploads/rules/choose-an-enterprise-password-manager/rule.mdx
@@ -27,7 +27,7 @@ Keeping sensitive details like credit card numbers and passport information in u
 
 Ideally, avoid storing this information altogether. However, that is not always practical. Managers and CEOs often need to share these details with admin staff to book flights or arrange travel, for example. When that happens, make sure the information is stored and shared securely. Use encrypted files, password managers, or secure portals instead of emails, spreadsheets, or notes.
 
-<endOfIntro />
+<endIntro />
 
 ## Risks of insecure storage
 
@@ -52,11 +52,8 @@ Storing credit card details, passport information, or any sensitive data in unse
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Storing sensitive data in Dynamics 365's  | Notes is insecure",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Storing sensitive data in Dynamics 365's  | Notes is insecure"}
   src="/uploads/rules/store-sensitive-information-securely/bad-example-crm-notesfield.png"
 />
 
@@ -75,11 +72,8 @@ Using **enterprise password managers** ensures that this data is stored securely
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Role based access to sensitive data",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Role based access to sensitive data"}
   src="/uploads/rules/store-sensitive-information-securely/keeper-goodexample-sharing.png"
 />
 
@@ -90,11 +84,8 @@ Using **enterprise password managers** ensures that this data is stored securely
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - One-Time Share sensitive data for an hour",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - One-Time Share sensitive data for an hour"}
   src="/uploads/rules/store-sensitive-information-securely/keeper-onetime-sharing.png"
 />
 
@@ -105,11 +96,8 @@ Using **enterprise password managers** ensures that this data is stored securely
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Keeper allows full auditing of all access",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Keeper allows full auditing of all access"}
   src="/uploads/rules/store-sensitive-information-securely/keeper-good-example-auditreport.png"
 />
 

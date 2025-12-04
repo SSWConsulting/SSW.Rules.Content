@@ -29,7 +29,7 @@ If your styles are going to be different, then make it obvious that they are dif
 
 Partial differences make people get confused and start asking things like "this looks a bit strange, but I don't know why. Is that intentional?"
 
-<endOfIntro />
+<endIntro />
 
 Compare the follow two examples:
 
@@ -37,11 +37,8 @@ Compare the follow two examples:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The heading and body text is very simlar, only 2px font-size difference.",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - The heading and body text is very simlar, only 2px font-size difference."}
   src="/uploads/rules/do-you-know-its-important-to-make-your-fonts-different/choosingFontsbad.png"
 />
 
@@ -50,11 +47,8 @@ Compare the follow two examples:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The heading as been bolded and the content font size decreased to make it more obvious that the two are different styles.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - The heading as been bolded and the content font size decreased to make it more obvious that the two are different styles."}
   src="/uploads/rules/do-you-know-its-important-to-make-your-fonts-different/choosingFontsgood.png"
 />
 

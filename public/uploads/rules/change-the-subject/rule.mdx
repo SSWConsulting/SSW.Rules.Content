@@ -32,7 +32,7 @@ Some email threads go on forever... sometimes the topic subtly changes... so whe
 
 The answer is "cautiously" and early on before there are many replies. The reason is email threading. It's easier to search and find an email when its subject is accurate.
 
-<endOfIntro />
+<endIntro />
 
 Remember the [importance of a good email subject](/good-email-subject) in improving communications.
 
@@ -43,8 +43,8 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
   This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     From\
 Subject: **📃 Invoice**
@@ -52,11 +52,8 @@ Subject: **📃 Invoice**
 To\
 Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice]**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - We still retain the origninal subject but now we know it's been changed.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - We still retain the origninal subject but now we know it's been changed."}
 />
 
 * When the original **email topic has been superseded** by new replies
@@ -64,8 +61,8 @@ Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice]**
   At that point change the email subject to a more relevant description of the content of the thread.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     From\
 Subject: **🧑‍🏫 Field of Study**
@@ -73,25 +70,19 @@ Subject: **🧑‍🏫 Field of Study**
 To\
 Subject: **🏫 Next Years Conference \[WAS: Field of Study]**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Email subject has been changed as the original topic is no longer relevant.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Email subject has been changed as the original topic is no longer relevant."}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If you are the one changing the topic, a whole new email thread is a better idea.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -104,10 +95,7 @@ When you change the subject of an email or an appointment add to the first line:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore"}
   src="/uploads/rules/change-the-subject/SarahPalin.jpg"
 />

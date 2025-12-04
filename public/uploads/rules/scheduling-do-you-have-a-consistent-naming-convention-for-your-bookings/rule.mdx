@@ -29,19 +29,16 @@ When you look at the Service Calendar, you want to be able to see, at a glance, 
 
 To do this, the subject field of appointments should be as follows:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Client [Project] - Name[s]**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -50,37 +47,27 @@ The project name (in parentheses) is optional and only used if there is more t
 You can have 1 or many names, depending on the booking.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Go to ACME Corp\
 Work onsite for ACME Corp\
 Mehmet working at ACME Corp
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - All inconsistent and hard to read",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - All inconsistent and hard to read"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ACME Corp - Mehmet\
 ACME Corp - Mehmet, Dan\
 ACME Corp (SharePoint) - Dan
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Consistent details",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Consistent details**

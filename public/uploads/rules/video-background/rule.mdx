@@ -39,7 +39,7 @@ uri: video-background
 
 You are likely to have constant Teams or Zoom video calls with clients or work colleagues. One of the first things you should think about should be how to have a nice background.
 
-<endOfIntro />
+<endIntro />
 
 ## Home offices
 
@@ -51,27 +51,21 @@ For home offices, follow "less is more" - A neutral background, good lighting, a
 * If you want to go the extra mile, designate one wall as your company wall and keep it consistent with the company branding
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Test your background** - Start by sitting at your desk and taking a selfie to check your background. Use this as a guide to tidy and organize your space for a more professional appearance.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – A messy background and bad lighting do not look professional",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – A messy background and bad lighting do not look professional"}
   src="/uploads/rules/video-background/bad-background.png"
 />
 
@@ -80,11 +74,8 @@ For home offices, follow "less is more" - A neutral background, good lighting, a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example – Clean home background with a branded monitor showing off the company website (unnecessarily hard to set up)",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"OK example – Clean home background with a branded monitor showing off the company website (unnecessarily hard to set up)"}
   src="/uploads/rules/video-background/good-background.png"
 />
 
@@ -93,11 +84,8 @@ For home offices, follow "less is more" - A neutral background, good lighting, a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Clean and simple home background with clear and good lighting",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Clean and simple home background with clear and good lighting"}
   src="/uploads/rules/video-background/good-background-seth.png"
 />
 
@@ -110,18 +98,37 @@ When you're in the office, it's easy to have a professionally branded background
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Office background with nice lighting ☀️",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Office background with nice lighting ☀️"}
   src="/uploads/rules/video-background/good-office-background.png"
 />
 
 
-### Virtual backgrounds
+### Virtual/Blur backgrounds (⚠️ not preferred)
 
-Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. blur OR a background image):
+Ideally you should have a clean, professional background (like in an office).
+
+While **not** preferred, virtual/blur backgrounds can be used when your background has unavoidable clutter or distracting elements. The virtual/blur effect should be your last resort - only use it when your physical background is genuinely unprofessional.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure={"Bad example – 1st screen - Blur was used in the office"}
+  src="/uploads/rules/video-background/bad-blur-example.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure={"Good example – 1st screen - Without blur, the office background looks professional"}
+  src="/uploads/rules/video-background/good-without-blur-example.png"
+/>
+
 
 * **Teams** - [Custom backgrounds in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/?WT.mc_id=M365-MVP-33518) make video meetings more fun, comfortable, and personal
 * **Zoom** - [Virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) feature allows you to display an image or video as your background during a Zoom meeting

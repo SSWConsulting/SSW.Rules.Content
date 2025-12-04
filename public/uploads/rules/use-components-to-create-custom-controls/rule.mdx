@@ -25,7 +25,7 @@ uri: use-components-to-create-custom-controls
 
 Canvas Apps have many controls out of the box that will work for most scenarios, for example, you would like to create a custom control that combines a text box and two buttons (+ and -) to create a spinner control. You could do this by placing two buttons next to a text box on the form. Problem solved, but what about next time that same control is needed?
 
-<endOfIntro />
+<endIntro />
 
 That's where Components come in. Components allow you to create a custom control once then re-use the control repeatedly in your App. It's great for consistency, and any time you edit the component definition those changes will be applied to every instance of the control.
 
@@ -38,10 +38,7 @@ Full documentation here: [https://docs.microsoft.com/en-us/powerapps/maker/canva
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Create a new Component",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Create a new Component"}
   src="/uploads/rules/use-components-to-create-custom-controls/newcomponent-powerapps.png"
 />

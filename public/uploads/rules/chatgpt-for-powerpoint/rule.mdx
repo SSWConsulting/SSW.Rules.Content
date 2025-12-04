@@ -22,15 +22,15 @@ By now, you’ve probably realised that you can ask ChatGPT to create content fo
 
 Here’s a great prompt template for doing both! Feel free to play around with things like the preferred format or title colours.
 
-<endOfIntro />
+<endIntro />
 
 ### If you're on GPT-4 with Plugins
 
 1. Select the [Smart Slides](https://www.whatplugin.ai/plugins/smart-slides) plugin from the plugin store
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You are an expert presentation writer and PowerPoint expert.
 Write a PowerPoint presentation on {TOPIC}.
@@ -47,24 +47,16 @@ End with a Q&A.
 Then, ask any relevant questions to get more context.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Prompt Template for creating a PowerPoint presentation",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Prompt Template for creating a PowerPoint presentation**  
 
 ### If you're on GPT3 (or you want to add more custom specs)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You are an expert presentation writer and PowerPoint expert.
 Write a PowerPoint presentation on {TOPIC}.
@@ -83,18 +75,10 @@ Do not save the PPT.
 1st, ask for the {TOPIC}
 Then, ask any relevant questions to get more context.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Prompt Template for creating a PowerPoint presentation",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Prompt Template for creating a PowerPoint presentation**  
 
 Then, follow these steps:
 

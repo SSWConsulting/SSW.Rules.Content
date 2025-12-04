@@ -34,23 +34,20 @@ Product Backlog Items (PBIs) are the cornerstone of a well-oiled project. They t
 
 So what separates a **good** PBI title from a **bad** one?
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/Wob4UgGmqdU" description={"Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules (5 min)"} />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Usually, we use the term PBI to encompass all types of backlog items, including those related to DevOps, Trello, GitHub, or any other platform.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -59,37 +56,26 @@ So what separates a **good** PBI title from a **bad** one?
 Without a meaningful title, you need to drill down into the details. If your backlog is substantial, it quickly becomes time-consuming and tedious to drill into each and every item to see what it's about. Even worse... next time you visit the backlog, chances are you won't remember the details and will have to re-read every PBI again!
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Fix menu bug
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – What bug? How important is this?",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – What bug? How important is this?"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ❗️ IMPORTANT 🐛 BUG | Menu disappears on mobile devices
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - \"Important\" emoji and text to bring attention to the PBI's importance, \"Bug\" emoji and text to indicate the PBI type, with a clear description of the issue",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - "Important" emoji and text to bring attention to the PBI's importance, "Bug" emoji and text to indicate the PBI type, with a clear description of the issue**  
 
 ### ❌ Don't
 
@@ -112,88 +98,73 @@ Using this structure: **&#123;&#123; EMOJI FOR PBI TYPE &#125;&#125; &#123;&#123
 Bugs:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     🐛 Newsletter form | returns HTTP 500
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Features:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ✨ Newsletter form | Validate email address
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 UI/Styling:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     💄 Header | Update site header with new logo
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 DevOps/Infra:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     👷‍♂️ DevOps | Add ephemeral deployment slots for PRs
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Urgent tasks:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ❗️ IMPORTANT 🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Other examples:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     🐛 Invoices | Invoice totals are rounded incorrectly
 
@@ -201,19 +172,16 @@ Other examples:
 
 ✨ Clients page | Add create/edit client fields
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Great titles are also important on [Pull Requests](/write-a-good-pull-request/#1-write-a-concise-and-self-explanatory-title), and [email subjects](/good-email-subject).
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Emojis**
 
@@ -223,9 +191,6 @@ Regardless of whether or not you choose to adopt the emoji language, you should 
 
 Always ask yourself: _"Can a developer (or Product Owner) interpret the task and its importance without needing to dive into the details?"_
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

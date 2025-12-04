@@ -21,15 +21,15 @@ isArchived: false
 ---
 When using ChatGPT, you will eventually find yourself typing in similar prompts over and over for common tasks. This can get annoying!
 
-<endOfIntro />
+<endIntro />
 
 Creating prompt templates can save time and improve the consistency of outputs. Templates should be a starting point with the necessary elements (role, result, intent, context, and constraint), that you tweak every time depending on your needs..
 
 Here are some examples:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Responses to clients**
    "As a &#123;&#123; ROLE &#125;&#125;, draft a response to a client's question regarding &#123;&#123; ISSUE &#125;&#125; with our &#123;&#123; PRODUCT/SERVICE &#125;&#125;.
@@ -63,11 +63,8 @@ Here are some examples:
    "You are a prompt generator for image generation diffusion models. Upon receiving a visual description, craft a detailed prompt that can be seamlessly integrated into a diffusion model. The prompt should be enriched with a range of photographic jargon, emphasizing lens specifications and lighting descriptions, and the shot type. It should be vivid and succinct. I want an image of &#123;&#123; GOAL &#125;&#125;"
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -75,8 +72,4 @@ Tips:
 
 * Adoption - Share the templates within your team or organization to ensure everyone benefits from the consistency and efficiency
 * Keep it up-to-date - Work with your team members on using ChatGPT, and modify templates as needed
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: SSW TV has [templates for video production](/chatgpt-prompts-for-video-production).",
-  shouldDisplay: true
-} } />
+**✅ Good example: SSW TV has [templates for video production](/chatgpt-prompts-for-video-production).**  

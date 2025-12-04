@@ -25,7 +25,7 @@ uri: how-to-format-your-messagebox-code
 
 You should always write each parameter of MessageBox in a separate line. So it will be more clear to read in the code. Format your message text in code as you want to see on the screen.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 Private Sub ShowMyMessage()
@@ -35,12 +35,7 @@ Private Sub ShowMyMessage()
  Deleting a team project cannot be undone.", strProductName + "
  " + strVersion(), MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example of MessageBox code format",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example of MessageBox code format**  
 
 ```cs
 Private Sub ShowMyMessage()
@@ -55,8 +50,4 @@ Private Sub ShowMyMessage()
  MessageBoxDefaultButton.Button2)
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example of MessageBox code format",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example of MessageBox code format**

@@ -19,9 +19,9 @@ createdBy: CindyWang
 createdByEmail: CindyWang@ssw.com.au
 guid: e2ac70fe-d0e4-4014-be14-464c6ab454ad
 isArchived: false
-lastUpdated: 2025-07-22 23:29:46+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-know-how-to-hand-over-tasks-aka-emails-to-others
 - do-you-know-how-to-hand-over-tasks-(aka-emails)-to-others
@@ -39,19 +39,16 @@ The most dangerous time in a task's life cycle is in a handover. This is the mos
 
 Always make sure you clearly reallocate a task with an email to the person who will complete the task.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** This rule is a variation of the popular ["as per our conversation"](/as-per-our-conversation-emails) rule.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -82,11 +79,8 @@ As per our conversation about Northwind app, it keeps crashing when I do a searc
 
 1. Please fix
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Task not directly reallocated",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Task not directly reallocated"}
 />
 
 <emailEmbed
@@ -118,11 +112,8 @@ As per our conversation about Northwind app, it keeps crashing when I do a searc
 
 1. Please fix
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clear reassignment from Andy to David",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Clear reassignment from Andy to David"}
 />
 
 ## Handing over employee's responsibilities
@@ -156,9 +147,6 @@ Andy
 
 \&lt;As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)&gt;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clear reassignment from Andy to Mary",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Clear reassignment from Andy to Mary"}
 />

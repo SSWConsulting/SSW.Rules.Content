@@ -12,7 +12,7 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 07a89050-2872-4263-9d2d-34c66ca767fc
 isArchived: false
-lastUpdated: 2025-09-25 16:14:51+00:00
+lastUpdated: 2025-10-10 17:27:56+00:00
 lastUpdatedBy: Jeoffrey Fischer [SSW]
 lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects:
@@ -29,7 +29,7 @@ uri: image-formats
 
 If you've ever wondered why the formats of graphics on the web differ from each other, you're not alone. With various options like SVG, PNG, and JPG, it can be challenging to know which format to use in a particular situation. Choosing the right format is crucial, not just for the aesthetics of your website, but also for its performance and optimization.
 
-<endOfIntro />
+<endIntro />
 
 ## SVG
 
@@ -61,11 +61,8 @@ SVG is best suited for scalable vector graphics, ideal for logos, icons, and ill
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This graphic is line art, but has mistakenly been saved as a JPEG. It loses resolution",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This graphic is line art, but has mistakenly been saved as a JPEG. It loses resolution"}
   src="/uploads/rules/image-formats/svg_bad.jpg"
 />
 
@@ -74,11 +71,8 @@ SVG is best suited for scalable vector graphics, ideal for logos, icons, and ill
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The same graphic saved as an SVG, no pixelation",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The same graphic saved as an SVG, no pixelation"}
   src="/uploads/rules/image-formats/svg-good.jpg"
 />
 
@@ -135,11 +129,8 @@ JPG is best suited for photographs and complex images where rich colors and grad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Low quality JPG (18k)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – Low quality JPG (18k)"}
   src="/uploads/rules/image-formats/image-formats-bad-low.jpg"
 />
 
@@ -148,11 +139,8 @@ JPG is best suited for photographs and complex images where rich colors and grad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Uncompressed JPG (100k)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – Uncompressed JPG (100k)"}
   src="/uploads/rules/image-formats/image-formats-bad-uncompressed.jpg"
 />
 
@@ -161,11 +149,8 @@ JPG is best suited for photographs and complex images where rich colors and grad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Compressed JPG (28k)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Compressed JPG (28k)"}
   src="/uploads/rules/image-formats/image-formats-good-compressed.jpg"
 />
 
@@ -253,16 +238,13 @@ If you decide to use GIFs on your website, here are some optimization tips to en
 * **Labeling GIF's when necessary** - When adding a GIF, remember to specify that it is a GIF to differentiate it from a static image
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For more complex animations, consider using CSS animations or other formats like WebM (see above) or MP4, which offer better compression and quality.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -291,14 +273,11 @@ Understanding the strengths and weaknesses of each format can help you make info
 | **High-quality still images (not for web)** | **BMP** | 🚫 | High quality but uncompressed | ❌ Avoid for web — very large file sizes and poor performance |
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

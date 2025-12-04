@@ -27,7 +27,7 @@ uri: web-users-dont-read
 
 People rarely read word by word. Instead they scan the page, picking out individual words and sentences that seem more relevant.
 
-<endOfIntro />
+<endIntro />
 
 Keep it simple! It is important to break up information, not show it all at once. The visual organization of information is vital to legibility. When displaying information or controls, designers need to visually convey:
 
@@ -39,11 +39,8 @@ Keep it simple! It is important to break up information, not show it all at once
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Can you find how to check in?",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Can you find how to check in?"}
   src="/uploads/rules/web-users-dont-read/bad_informationscan.png"
 />
 
@@ -52,10 +49,7 @@ Keep it simple! It is important to break up information, not show it all at once
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - What about here? Can you find how to check in?",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - What about here? Can you find how to check in?"}
   src="/uploads/rules/web-users-dont-read/delta-airline.png"
 />

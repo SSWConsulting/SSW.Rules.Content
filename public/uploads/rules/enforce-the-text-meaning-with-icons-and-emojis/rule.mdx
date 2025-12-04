@@ -36,7 +36,7 @@ People may not pay attention to some important words in your interface. Adding a
 
 For emails and web content, using an simple emoji is an easy and friendly way to achieve the same result 🙂.
 
-<endOfIntro />
+<endIntro />
 
 #### Using icons
 
@@ -44,11 +44,8 @@ For emails and web content, using an simple emoji is an easy and friendly way to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No icons to indicate the status",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No icons to indicate the status"}
   src="/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/validation-bad.jpg"
 />
 
@@ -57,11 +54,8 @@ For emails and web content, using an simple emoji is an easy and friendly way to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Green tick and red cross help the user to know what's going on",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Green tick and red cross help the user to know what's going on"}
   src="/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/validation-good.jpg"
 />
 
@@ -69,30 +63,24 @@ For emails and web content, using an simple emoji is an easy and friendly way to
 #### Using emojis
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements...
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No emojis to enforce the meaning",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - No emojis to enforce the meaning"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information 😥. Usually, this is due to unclear requirements...
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The emoji gives extra focus on what is important",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - The emoji gives extra focus on what is important"}
 />
 
 

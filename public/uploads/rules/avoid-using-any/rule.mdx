@@ -27,7 +27,7 @@ TypeScript’s any keyword is a blessing and a curse. It is a type that can be a
 
 However, it’s easy to use it as a crutch, and as a result, miss out on handy intellisense, refactoring support and compile-time safety – the main benefits of TypeScript!
 
-<endOfIntro />
+<endIntro />
 
 If you're trying to write more type-safe code, it's generally recommended to use "unknown" instead of "any" wherever possible, as it forces you to perform type checks and can help catch errors earlier in the development process.
 
@@ -63,11 +63,8 @@ console.log(person.name.first)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – You can pass anything into this method, so you get a bad output at run time (“undefined undefined”)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – You can pass anything into this method, so you get a bad output at run time (“undefined undefined”)"}
   src="/uploads/rules/avoid-using-any/any-bad.png"
 />
 
@@ -76,11 +73,8 @@ console.log(person.name.first)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Using types means you get errors and intellisense support",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Using types means you get errors and intellisense support"}
   src="/uploads/rules/avoid-using-any/any-good.png"
 />
 

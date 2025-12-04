@@ -24,17 +24,14 @@ uri: know-that-no-carriage-returns-without-line-feed
 
 Text files created on DOS/Windows machines have different line endings than files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n") as a line ending, which Unix uses just line feed ("\n").
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example"}
   src="/uploads/rules/know-that-no-carriage-returns-without-line-feed/carriage-bad.jpg"
 />
 
@@ -43,10 +40,7 @@ Text files created on DOS/Windows machines have different line endings than file
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example"}
   src="/uploads/rules/know-that-no-carriage-returns-without-line-feed/carriage-good.jpg"
 />

@@ -28,7 +28,7 @@ uri: copilot-lingo
 
 Sounds familiar? Chances you were using the **personal** Copilot, while the deck lives in your Office 365 tenant. In the Microsoft world, not all Copilots are equal. Add Agents and Connectors to the mix and you can easily get lost.
 
-<endOfIntro />
+<endIntro />
 
 ## Know your Copilots
 
@@ -112,28 +112,22 @@ Copilot Connectors (aka Graph Connectors) are gateways to access data from custo
 ## Use precise language
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Just get **Copilot** to pull the latest bug list.”
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Unclear which Copilot and where the bugs live",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – Unclear which Copilot and where the bugs live"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Ask **Microsoft 365 Copilot** to summarize the *Bugs* list in **SharePoint→Northwind→Dev**.”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Specifies the flavor and the data source",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Specifies the flavor and the data source"}
 />

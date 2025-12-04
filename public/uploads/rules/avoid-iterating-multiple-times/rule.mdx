@@ -20,7 +20,7 @@ isArchived: false
 
 Due to LINQ expressions being lazy executed, it is a important to avoid re-evaluating the expression. For LINQ extension methods, this is critically important.
 
-<endOfIntro />
+<endIntro />
 
 There are 2 problems with multiple evaluations:
 
@@ -43,12 +43,7 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluation",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluation**  
 
 ```cs
 public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
@@ -65,11 +60,6 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Only enumerates once",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Only enumerates once**  
 
 The worst part about this is that you may test it against an array, or some other input and it may seem fine. This is especially true with unit testing, as typically an incoming stream of objects is simulated by just providing a fixed array or list, but these will support re enumeration where the real input in your application may not.

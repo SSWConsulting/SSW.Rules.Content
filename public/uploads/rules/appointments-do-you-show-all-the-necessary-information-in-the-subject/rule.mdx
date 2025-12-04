@@ -31,39 +31,33 @@ uri: appointments-do-you-show-all-the-necessary-information-in-the-subject
 
 When sending an appointment, choose a clear and informative subject, so key details are visible at a glance. This helps people quickly understand the purpose without needing to open the appointment.
 
-<endOfIntro />
+<endIntro />
 
 ## Meeting request
 
 If the appointment is a meeting request you should include the **names of the persons attending** that appointment.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** Meeting with Adam\
 **Location:** Online
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Too vague, doesn't say who else is involved or what it’s about",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – Too vague, doesn't say who else is involved or what it’s about"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** Northwind Project Sync – John, Mary, and Adam\
 **Location:** Teams Meeting
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Clear topic and attendees included in the subject",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Clear topic and attendees included in the subject"}
 />
 
 
@@ -74,32 +68,26 @@ For hotel bookings, include the **hotel name**, **guest name**, and **duration**
 **Tip:** Use the emoji 🏨 for extra clarity.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** Accommodation\
 **Location:** Hotel
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Generic subject and location—unclear which hotel or where it is",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – Generic subject and location—unclear which hotel or where it is"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** 🏨 Hilton Downtown – 3 nights for Adam\
 **Location:** 123 Main St, New York, NY
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Provides clear hotel name, duration, and address",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Provides clear hotel name, duration, and address"}
 />
 
 
@@ -110,46 +98,37 @@ For flight bookings, include at least the **passenger name** and **flight number
 **Tip:** Use the emoji ✈️ for extra clarity.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** Flight\
 **Location:** Airport
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – No passenger name, flight number, or route — unclear and unhelpful",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – No passenger name, flight number, or route — unclear and unhelpful"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** ✈️ Adam – SYD &gt; MEL – QF409 - 10 May, 9:30 AM\
 **Location:** Terminal 3, Sydney Airport
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Includes all essential details for quick reference",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Includes all essential details for quick reference"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Attaching the airline booking confirmation PDF to the appointment is a great failsafe.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -158,14 +137,11 @@ To avoid missing details when booking flights, carefully read through [Do you cr
 ---
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** CRM users making bookings should [keep their naming standards consistent](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

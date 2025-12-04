@@ -21,7 +21,7 @@ Migrating your project to a new Target Framework Moniker (TFM) can be a complex 
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
 
-<endOfIntro />
+<endIntro />
 
 ### Using #if Pragma Statements
 
@@ -42,12 +42,7 @@ public static class WebClientFactory
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Code: Good example - Using #if Pragma statements and factory pattern",
-  shouldDisplay: true
-} } />
-
+**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
 
 ### Using MSBuild conditions
 
@@ -60,8 +55,4 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Code: Good example - Using MSBuild conditions",
-  shouldDisplay: true
-} } />
+**✅ Code: Good example - Using MSBuild conditions**  

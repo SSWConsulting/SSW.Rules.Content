@@ -26,7 +26,7 @@ uri: do-you-use-a-secure-remote-access-vpn
 
 If you have a Remote Access VPN, it is important to ensure that the VPN is secure. VPNs are a common point of attack in cyber security incidents - if a bad actor can get into your VPN, they're in your network.
 
-<endOfIntro />
+<endIntro />
 
 These days, the most important way to secure your VPN is to use MFA. The best way to set this up will depend on the VPN and current MFA solution you are using.
 
@@ -36,11 +36,8 @@ It is also important to make sure that your VPN uses a secure protocol. Previous
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example: PPTP should not be used, it is old and no longer secure",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example: PPTP should not be used, it is old and no longer secure"}
   src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/vpn-pptp.png"
 />
 
@@ -49,11 +46,8 @@ It is also important to make sure that your VPN uses a secure protocol. Previous
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example: Cisco AnyConnect configured with Azure AD SSO and MFA",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example: Cisco AnyConnect configured with Azure AD SSO and MFA"}
   src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/cisco-vpn.png"
 />
 
@@ -62,11 +56,8 @@ It is also important to make sure that your VPN uses a secure protocol. Previous
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example: Fortinet have their own MFA solution for VPN, FortiToken",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example: Fortinet have their own MFA solution for VPN, FortiToken"}
   src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/fortitoken-vpn.png"
 />
 
@@ -86,11 +77,8 @@ The basic steps are:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Adding Cisco AnyConnect as an Enterprise Application in Azure AD",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Adding Cisco AnyConnect as an Enterprise Application in Azure AD"}
   src="/uploads/rules/do-you-use-a-secure-remote-access-vpn/ciscosaml.jpg"
 />
 

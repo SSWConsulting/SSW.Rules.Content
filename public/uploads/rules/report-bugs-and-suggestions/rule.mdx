@@ -15,9 +15,9 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 isArchived: false
-lastUpdated: 2025-07-31 00:46:18+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-11-05 07:52:55+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-know-the-right-way-to-report-bugs
 - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
@@ -36,7 +36,7 @@ uri: report-bugs-and-suggestions
 
 When reporting bugs or providing product feedback, it’s important to include as much relevant detail as possible. Make sure it reaches the right people through the right channel - ideally the product backlog, or email if needed. A well-written report saves time and avoids frustration for both you and the developers.
 
-<endOfIntro />
+<endIntro />
 
 ## ✅ Use YakShaver
 
@@ -70,11 +70,8 @@ If you can’t use YakShaver for some reason, follow these 8 tips to do it right
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Making the Product Backlog the main source of tasks",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Making the Product Backlog the main source of tasks"}
   src="/uploads/rules/report-bugs-and-suggestions/report-bugs-and-suggestions.png"
 />
 
@@ -114,11 +111,8 @@ Can you tell how to fix this?
 
 Thanks
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error"}
 />
 
 <emailEmbed
@@ -151,11 +145,8 @@ Can you please investigate and let me know how to proceed?
 
 Thanks
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system"}
 />
 
 #### Functional Bug template
@@ -180,11 +171,8 @@ Where is SSW TV on the navigation?
 
 Adam
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Lack of details",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Lack of details"}
 />
 
 <emailEmbed
@@ -224,11 +212,8 @@ Couldn't find a link on the page.
 
 Adam
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action"}
 />
 
 #### Make it extra clear with videos
@@ -237,12 +222,7 @@ Better than a good textual description of a bug report is a screen recording. Th
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/y9vsGY1hYN0" description={""} />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)",
-  shouldDisplay: true
-} } />
-
+**✅ Video: Good example - Recording bug reports in a video can make the issue clearer to see (1 min)**  
 
 Recording a stepped user flow of actions that walk through through an issue is another excellent way of reporting a problem that is easily understood and reproducible. There are many tools you can use to make recording these steps easy, for example [Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) which is built in to Windows, or [Microsoft's Test & Feedback extension](https://learn.microsoft.com/en-us/azure/devops/test/perform-exploratory-tests?view=azure-devops#install-the-extension&WT.mc_id=AZ-MVP-33518) for Chrome, Edge and Firefox.
 
@@ -252,11 +232,8 @@ See our rules for setting up and using these tools at [Do you use Problem Steps 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce"}
   src="/uploads/rules/report-bugs-and-suggestions/psr3.png"
 />
 
@@ -269,12 +246,7 @@ Better than a good textual description of a suggestion request is a screen recor
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/VDZSfHJ7GNU" description={""} />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Video: Good example - Giving suggestion requests via video (5 min)",
-  shouldDisplay: true
-} } />
-
+**✅ Video: Good example - Giving suggestion requests via video (5 min)**  
 
 ### Tip #3: Should you send this to the Product Owner or the Tech Lead?
 
@@ -283,8 +255,8 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **For a bug email:**\
 &emsp;&emsp;**To:** Tech Lead\
@@ -296,11 +268,8 @@ If you are unclear use IM to ask, but remember [the golden rule to not send task
 &emsp;&emsp;**Cc:** Product Owner\
 &emsp;&emsp;**Subject:** Suggestion - &#123;&#123; SUMMARY OF SUGGESTION &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -309,16 +278,13 @@ If you are unclear use IM to ask, but remember [the golden rule to not send task
 Always go for backlog if you have access to a backlog management system, otherwise email relevant people.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Only Cc **group emails** when you need **extra visibility**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -331,11 +297,8 @@ It is recommended to keep track of active project backlogs on the company intran
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog."}
   src="/uploads/rules/report-bugs-and-suggestions/do-you-know-how-to-report-bugs-and-give-suggestions.png"
 />
 
@@ -366,14 +329,11 @@ Examples:
 Check out the rule on [which emojis to use in Scrum](/which-emojis-to-use-in-scrum).
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** [GitHub Issue Templates](/github-issue-templates) can help you with this.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

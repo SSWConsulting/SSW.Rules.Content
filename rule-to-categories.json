@@ -2,7 +2,13 @@
     "ai-assisted-development-workflow": [
         "rules-to-better-ai-development"
     ],
+    "start-vibe-coding-best-practices": [
+        "rules-to-better-ai-development"
+    ],
     "use-github-copilot-cli-secure-environment": [
+        "rules-to-better-ai-development"
+    ],
+    "ai-assisted-desktop-pr-preview": [
         "rules-to-better-ai-development"
     ],
     "github-copilot-chat-modes": [
@@ -48,9 +54,6 @@
         "rules-to-better-ai-development"
     ],
     "best-ai-powered-ide": [
-        "rules-to-better-ai-development"
-    ],
-    "ai-for-frontend-development": [
         "rules-to-better-ai-development"
     ],
     "ai-for-prototype-development": [
@@ -260,6 +263,9 @@
         "rules-to-better-chatgpt-prompt-engineering"
     ],
     "pros-and-cons-and-ratings": [
+        "rules-to-better-chatgpt-prompt-engineering"
+    ],
+    "ai-efficient-clarify-questions": [
         "rules-to-better-chatgpt-prompt-engineering"
     ],
     "examples-and-analogies-clarification": [
@@ -727,6 +733,9 @@
         "rules-to-better-research-and-development",
         "rules-to-successful-projects"
     ],
+    "give-clear-status-updates": [
+        "rules-to-better-software-consultants-dealing-with-clients"
+    ],
     "estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items": [
         "rules-to-better-software-consultants-happy-clients"
     ],
@@ -767,6 +776,13 @@
         "rules-to-better-software-consultants-working-in-a-team"
     ],
     "do-you-manage-up": [
+        "rules-to-better-software-consultants-working-in-a-team"
+    ],
+    "investigate-before-asking-someone-on-im": [
+        "rules-to-better-software-consultants-working-in-a-team",
+        "rules-to-better-im"
+    ],
+    "best-effort-before-asking-for-help": [
         "rules-to-better-software-consultants-working-in-a-team"
     ],
     "elephant-in-the-room": [
@@ -1087,7 +1103,7 @@
         "rules-to-better-specification-reviews",
         "rules-to-better-microsoft-teams"
     ],
-    "create-pbis-under-2-days": [
+    "break-pbis": [
         "rules-to-better-specification-reviews",
         "rules-to-better-scrum"
     ],
@@ -1667,9 +1683,6 @@
     "if-communication-is-not-simple-call-the-person-instead-of-im": [
         "rules-to-better-im"
     ],
-    "investigate-your-question-for-two-minutes-before-asking-someone-on-im": [
-        "rules-to-better-im"
-    ],
     "easy-questions": [
         "rules-to-better-im"
     ],
@@ -1870,6 +1883,9 @@
     "video-background": [
         "rules-to-better-microsoft-teams",
         "rules-to-better-remote-work"
+    ],
+    "teams-voice-isolation": [
+        "rules-to-better-microsoft-teams"
     ],
     "phone-as-webcam": [
         "rules-to-better-microsoft-teams",
@@ -2125,7 +2141,8 @@
         "rules-to-better-net-projects"
     ],
     "rule": [
-        "rules-to-better-technical-documentation"
+        "rules-to-better-technical-documentation",
+        "rules-to-better-markdown"
     ],
     "safety-step-when-deleting-content": [
         "rules-to-better-technical-documentation"
@@ -5483,6 +5500,9 @@
     "plastic-bags-branding": [
         "rules-to-better-branding"
     ],
+    "branded-laptop-skins": [
+        "rules-to-better-branding"
+    ],
     "venue-is-everything": [
         "rules-to-better-event-management"
     ],
@@ -5732,6 +5752,7 @@
     ],
     "use-301-redirect-on-renamed-or-moved-pages": [
         "rules-to-better-google-rankings-and-seo",
+        "rules-to-better-website-development-asp-net",
         "rules-to-better-wordpress"
     ],
     "structured-data": [
@@ -6389,6 +6410,9 @@
     "recording-screen": [
         "rules-to-better-video-recording",
         "rules-to-better-user-acceptance-tests-uat-for-bug-management"
+    ],
+    "screen-recording-spotlight": [
+        "rules-to-better-video-recording"
     ],
     "use-autopod-for-editing-multi-camera-interviews": [
         "rules-to-better-video-recording"
@@ -7219,7 +7243,7 @@
     "technical-overview": [
         "rules-to-better-scrum"
     ],
-    "sprint-forecast": [
+    "sprint-forecast-email": [
         "rules-to-better-scrum"
     ],
     "sprint-review-retro-email": [
@@ -7679,7 +7703,8 @@
     "the-best-sample-applications": [
         "rules-to-better-angular",
         "rules-to-better-mvc",
-        "rules-to-better-net-projects"
+        "rules-to-better-net-projects",
+        "rules-to-better-website-development-asp-net"
     ],
     "the-best-build-tool": [
         "rules-to-better-angular"
@@ -7985,7 +8010,8 @@
     ],
     "web-ui-libraries": [
         "rules-to-better-architecture-and-code-review",
-        "rules-to-better-javascript-and-jquery"
+        "rules-to-better-javascript-and-jquery",
+        "rules-to-better-website-development-asp-net"
     ],
     "do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container": [
         "rules-to-better-architecture-and-code-review"
@@ -8064,6 +8090,12 @@
     "bicep-user-defined-data-types": [
         "rules-to-better-azure"
     ],
+    "bicep-module-templates": [
+        "rules-to-better-azure"
+    ],
+    "do-you-use-azure-migrate-to-move-to-cloud": [
+        "rules-to-better-azure"
+    ],
     "azure-naming-resources": [
         "rules-to-better-azure",
         "rules-to-better-naming-conventions"
@@ -8112,6 +8144,9 @@
     "do-you-shutdown-vms-when-you-no-longer-need-them": [
         "rules-to-better-azure"
     ],
+    "use-managed-identity-in-azure": [
+        "rules-to-better-azure"
+    ],
     "use-azure-policies": [
         "rules-to-better-azure",
         "rules-to-better-naming-conventions"
@@ -8147,6 +8182,24 @@
         "rules-to-better-blazor"
     ],
     "share-common-types-and-logic": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-basic-appstate-pattern": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-appstate-pattern-with-notifications": [
+        "rules-to-better-blazor"
+    ],
+    "blazor-use-bind-value-after-instead-of-valuechanged": [
+        "rules-to-better-blazor"
+    ],
+    "decouple-api-from-blazor-components": [
+        "rules-to-better-blazor"
+    ],
+    "editor-required-blazor-component-parameters": [
+        "rules-to-better-blazor"
+    ],
+    "bunit-for-blazor-unit-tests": [
         "rules-to-better-blazor"
     ],
     "bot-framework": [
@@ -8947,6 +9000,13 @@
     "linq-performance": [
         "rules-to-better-linq"
     ],
+    "using-markdown-to-store-your-content": [
+        "rules-to-better-markdown",
+        "rules-to-better-websites-development"
+    ],
+    "bold-text-inside-links-in-markdown": [
+        "rules-to-better-markdown"
+    ],
     "how-to-build-for-the-right-platforms": [
         "rules-to-better-maui"
     ],
@@ -9135,6 +9195,7 @@
     ],
     "why-choose-dot-net-core": [
         "rules-to-better-net-core",
+        "rules-to-better-website-development-asp-net",
         "rules-to-better-websites-development"
     ],
     "testing-tools": [
@@ -10534,6 +10595,56 @@
     "keep-your-databinder-eval-clean": [
         "rules-to-better-website-development-asp-net"
     ],
+    "how-to-generate-maintenance-pages": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-not-use-linkbutton": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "httphandlers-sections-in-webconfig-must-contain-a-clear-element": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "when-anchor-should-run-at-server": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "packages-to-add-to-your-mvc-project": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "release-build-your-web-applications-before-you-deploy-them": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "404-useful-error-page": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-css-validation-service-to-check-your-css-file": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-markup-validation-service-to-check-your-html-code": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-server-side-comments": [
+        "rules-to-better-website-development-asp-net",
+        "rules-to-better-websites-development"
+    ],
+    "use-sso-for-your-websites": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "use-windows-integrated-authentication": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-log-usage": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-know-how-to-render-html-strings": [
+        "rules-to-better-website-development-asp-net"
+    ],
+    "do-you-have-a-cookie-banner": [
+        "rules-to-better-website-development-asp-net"
+    ],
     "do-you-know-where-to-host-your-frontend-application": [
         "rules-to-better-websites-deployment"
     ],
@@ -10583,9 +10694,6 @@
     "streamline-development-with-npm-and-task-runners": [
         "rules-to-better-websites-development"
     ],
-    "404-useful-error-page": [
-        "rules-to-better-websites-development"
-    ],
     "404-error-avoid-changing-the-url": [
         "rules-to-better-websites-development"
     ],
@@ -10607,9 +10715,6 @@
     "use-right-site-search-for-your-website": [
         "rules-to-better-websites-development"
     ],
-    "do-not-use-linkbutton": [
-        "rules-to-better-websites-development"
-    ],
     "name-webpages-consistently-with-database-tables": [
         "rules-to-better-websites-development"
     ],
@@ -10622,16 +10727,10 @@
     "run-load-tests-on-your-website": [
         "rules-to-better-websites-development"
     ],
-    "use-css-validation-service-to-check-your-css-file": [
-        "rules-to-better-websites-development"
-    ],
     "do-you-choose-the-best-way-to-send-emails-for-application": [
         "rules-to-better-websites-development"
     ],
     "use-link-auditor": [
-        "rules-to-better-websites-development"
-    ],
-    "using-markdown-to-store-your-content": [
         "rules-to-better-websites-development"
     ],
     "mdx-vs-markdown": [
@@ -10641,9 +10740,6 @@
         "rules-to-better-websites-development"
     ],
     "set-language-on-code-blocks": [
-        "rules-to-better-websites-development"
-    ],
-    "use-markup-validation-service-to-check-your-html-code": [
         "rules-to-better-websites-development"
     ],
     "html-unicode-hex-codes": [
@@ -10656,9 +10752,6 @@
         "rules-to-better-websites-development"
     ],
     "use-open-graph": [
-        "rules-to-better-websites-development"
-    ],
-    "use-server-side-comments": [
         "rules-to-better-websites-development"
     ],
     "best-static-site-tech-stack": [

@@ -37,7 +37,7 @@ Modern .NET applications provide a thread pool for handling many operations in p
 
 If an individual thread is waiting for IO to complete, it is IO blocked and cannot be used to handle any more work until that IO operation is finished.
 
-<endOfIntro />
+<endIntro />
 
 When using async, the thread is released back to the thread pool while waiting for IO, while the await keyword registers a callback that will be executed after IO completion.
 
@@ -50,12 +50,7 @@ public ActionResult Gizmos()
     return View("Gizmos", gizmoService.GetGizmos());
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request**  
 
 ```cs
 public async Task<ActionResult> GizmosAsync()
@@ -64,12 +59,7 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete**  
 
 Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4?WT.mc_id=DT-MVP-33518)
 

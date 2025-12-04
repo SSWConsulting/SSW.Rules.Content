@@ -9,9 +9,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 isArchived: false
-lastUpdated: 2025-10-07 07:04:34+00:00
-lastUpdatedBy: Steven Qiang [SSW]
-lastUpdatedByEmail: doublestrong@hotmail.com
+lastUpdated: 2025-11-07 00:32:11+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-know-what-happens-at-a-sprint-review-meeting
 related:
@@ -37,21 +37,18 @@ The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meetin
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the PBIs committed at the Sprint Planning meeting and the done PBIs being presented for acceptance. The Team seeks to have more PBIs accepted than originally committed. It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
-<endOfIntro />
+<endIntro />
 
 Each done PBI is then presented by the Team for acceptance. They aim to get the PBI accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -67,7 +64,7 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing di
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-### Additional stakeholders
+## Additional stakeholders
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
@@ -78,14 +75,15 @@ If there are additional stakeholders, make sure they get called in for the summa
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **When you ping stakeholders, include a message like this**:
 
 Hey &#123;&#123; PROJECT NAME &#125;&#125; Stakeholders:
 
-I'm recording the current meeting so I can get the Copilot stats later.
+I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
+I'll stop the recording to do the Retro to give the recording time to save.
 
 I'll call you and the stakeholders in &#123;&#123; XX &#125;&#125; mins, &#123;&#123; PRESENTER NAME &#125;&#125; will run the Sprint Summary.
 
@@ -101,58 +99,41 @@ Let me know if you want anyone else added.
 
 &#123;&#123; SCREENSHOT OF CURRENT ATTENDEE &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip**: (Optional) Ask stakeholders for Copilot AI images **before the summary meeting** to include in the summary email.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary"}
   src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-review-stakeholders.png"
 />
 
 
-### What if you can't attend the Sprint Review
+## What if you can't attend the Sprint Review
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Playing golf",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Playing golf"}
   src="/uploads/rules/what-happens-at-a-sprint-review-meeting/Golf-holiday.png"
 />
 
@@ -177,18 +158,15 @@ I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#12
 * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Blocked - Waiting on &#123;&#123; BLOCKER &#125;&#125;. Details in the PBI.
   ...
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 - - -
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Learn more about the meetings in Scrum:
 
@@ -199,28 +177,22 @@ I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#12
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 - - -
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
 E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

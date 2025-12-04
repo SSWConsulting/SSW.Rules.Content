@@ -26,7 +26,7 @@ uri: compare-pr-performance-with-production
 
 Before merging any Pull Request (PR) that might affect your application's behavior or performance, you should run comparison tests between the production environment and the PR deployment slot to identify potential issues.
 
-<endOfIntro />
+<endIntro />
 
 ## Why compare PR performance with Production?
 
@@ -52,11 +52,8 @@ You can integrate Lighthouse into your GitHub Actions workflow using [Lighthouse
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Lighthouse comparison summary is added to PR comments",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Lighthouse comparison summary is added to PR comments"}
   src="/uploads/rules/compare-pr-performance-with-production/pr-comparison-with-prod.png"
 />
 

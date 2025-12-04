@@ -22,7 +22,7 @@ isArchived: false
 
 When crafting prompts for ChatGPT, it's essential to make them concise and clear. A well-written prompt enables the model to understand your request more accurately and deliver a helpful response. Keeping your prompts brief and focused can help prevent confusion and ensure that you receive the information or assistance you're seeking.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for creating concise and clear prompts:
 
@@ -32,30 +32,24 @@ Here are some tips for creating concise and clear prompts:
 * Ensure your prompt is easily understandable, even to someone with minimal background knowledge
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tell me everything about the thing that happened a long time ago when there was a conflict between multiple groups of people in Europe that resulted in significant changes in the region's political landscape and had a lasting impact on global history."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The prompt is overly long, vague, and difficult to understand",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The prompt is overly long, vague, and difficult to understand"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Provide a brief overview of the major events and consequences of World War II in Europe."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Concise, clear, and directly asks for the desired information",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Concise, clear, and directly asks for the desired information"}
 />
 
 By using focused and easily understandable language, you're more likely to receive a relevant and useful response from ChatGPT.

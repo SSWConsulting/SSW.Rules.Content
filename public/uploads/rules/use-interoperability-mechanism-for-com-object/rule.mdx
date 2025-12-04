@@ -22,7 +22,7 @@ uri: use-interoperability-mechanism-for-com-object
 
 VB.NET includes the `CreateObject()` Method for creating the COM object. This is an old relationship between VB and COM.
 
-<endOfIntro />
+<endIntro />
 
 ```vbnet
 Sub CreateADODBConnection()
@@ -30,12 +30,7 @@ Dim adoApp As Object
 adoApp = CreateObject("ADODB.Connection")
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object**  
 
 Using the CreateObject() method affects the performance of your application. The variable adoApp is of type Object and this results in "late binding"
 

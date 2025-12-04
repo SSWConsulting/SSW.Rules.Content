@@ -24,25 +24,16 @@ uri: expose-events-as-events
 
 You should expose events as events.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 public Action
 < connectioninformation > ConnectionProblem;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad code",
-  shouldDisplay: true
-} } />
-
+**❌ Bad code**  
 
 ```csharp
 public event Action
 < connectioninformation > ConnectionProblem;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good code",
-  shouldDisplay: true
-} } />
+**✅ Good code**

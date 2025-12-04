@@ -33,7 +33,7 @@ Most systems will have variables that need to be stored securely; OpenId shared 
 
 There are different ways to [store your secrets securely](/store-your-secrets-securely/). When you use .NET User Secrets, you can store your secrets in a JSON file on your local machine. This is great for development, but how do you **share** those secrets securely with other developers in your organization?
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=IwvCTwz0C7M" description={"Video: Do you share secrets securely | Jeoffrey Fischer (7min)"} />
@@ -44,8 +44,8 @@ An encryption key or SQL connection string to a developer's local machine/contai
 ## ❌ Bad practices
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ❌ Do not store secrets in appsettings.Development.json
@@ -55,17 +55,14 @@ The `appsettings.Development.json` file is meant for storing development setting
 ![](/uploads/rules/share-your-developer-secrets-securely/development-json.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad practice - Overall rating: 1/10",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad practice - Overall rating: 1/10"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ❌ Do not share secrets via email/Microsoft Teams
@@ -77,19 +74,16 @@ Sending secrets over Microsoft Teams is a terrible idea, the messages can land u
 ![](/uploads/rules/share-your-developer-secrets-securely/using-microsoft-teams-for-secrets.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad practice - Overall rating: 3/10",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad practice - Overall rating: 3/10"}
 />
 
 
 ## ✅ Good practices
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ✅ Remind developers where the secrets are for a project
@@ -103,17 +97,14 @@ As a way of giving a heads up to other developers on the project, you can add a 
 ![](/uploads/rules/share-your-developer-secrets-securely/development-json-with-placeholder.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good practice - Remind developers where the secrets are for this project",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good practice - Remind developers where the secrets are for this project"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ✅ Use 1ty.me to share secrets securely
@@ -134,17 +125,14 @@ Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely
 ![](/uploads/rules/share-your-developer-secrets-securely/1ty-me.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good practice - Overall rating 8/10",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good practice - Overall rating 8/10"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ✅ Use Azure Key Vault
@@ -166,17 +154,14 @@ Azure Key Vault is a great way to store secrets securely. It is great for produc
 * Authentication into Key Vault requires Azure service authentication, which isn't supported in every IDE
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good practice - Overall rating 8/10",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good practice - Overall rating 8/10"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### ✅ (Recommended) Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc
@@ -197,25 +182,19 @@ Enterprise Secret Management tools have are great for storing secrets for variou
 ![](/uploads/rules/share-your-developer-secrets-securely/developer-secrets-in-keeper.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good practice - Overall rating 10/10",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good practice - Overall rating 10/10"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can store the full `secrets.json` file contents in the enterprise secrets management tool.
 
 Most enterprise secrets management tool have the ability to retrieve the secrets via an API, with this you could also store the `UserSecretId` in a field and create a script that updates the secrets easily into the correct `secrets.json` file on your development machine.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -51,7 +51,7 @@ uri: awesome-documentation
 
 There are a few styles of documentation:
 
-<endOfIntro />
+<endIntro />
 
 ### ❌ Bad example – Old School
 
@@ -59,11 +59,8 @@ There are a few styles of documentation:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The dinosaur’s method of documentation",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The dinosaur’s method of documentation"}
   src="/uploads/rules/awesome-documentation/old-documentation.png"
 />
 
@@ -86,11 +83,8 @@ This is a well-established way to do documentation, but it has several problems:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Documentation can take the form of Sequence Diagrams",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Documentation can take the form of Sequence Diagrams"}
   src="/uploads/rules/awesome-documentation/enterprisearchitect1.jpg"
 />
 
@@ -99,11 +93,8 @@ This is a well-established way to do documentation, but it has several problems:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Use Case Diagrams are even worse!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Use Case Diagrams are even worse!"}
   src="/uploads/rules/awesome-documentation/EnterpriseArchitectUseCases.jpg"
 />
 
@@ -111,16 +102,13 @@ This is a well-established way to do documentation, but it has several problems:
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -189,11 +177,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Github project without any documentation or instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Github project without any documentation or instructions"}
   src="/uploads/rules/awesome-documentation/documentation__level2__bad-example-gh.png"
 />
 
@@ -202,11 +187,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Azure DevOps project without any documentation or instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Azure DevOps project without any documentation or instructions"}
   src="/uploads/rules/awesome-documentation/azuredevops-bad.png"
 />
 
@@ -216,11 +198,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)"}
   src="/uploads/rules/awesome-documentation/documentation__level2__good-example-1-gh.png"
 />
 
@@ -229,11 +208,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Azure DevOps project with README instructions on how to compile and run the project",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Azure DevOps project with README instructions on how to compile and run the project"}
   src="/uploads/rules/awesome-documentation/azuredevops-good.png"
 />
 
@@ -242,11 +218,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Github project with Wiki instructions for Product Owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)"}
   src="/uploads/rules/awesome-documentation/documentation__level2__good-example-2-gh.png"
 />
 
@@ -255,11 +228,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Azure DevOps project with Wiki instructions for Product Owners, stakeholders, or public consumption"}
   src="/uploads/rules/awesome-documentation/azuredevops-wiki-good.png"
 />
 
@@ -270,11 +240,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No documentation, go and sit with another developer",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No documentation, go and sit with another developer"}
   src="/uploads/rules/awesome-documentation/sit-dev-bad.png"
 />
 
@@ -283,11 +250,8 @@ GitHub wiki options:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues"}
   src="/uploads/rules/awesome-documentation/documentation__level2__onboarding-pbi-3.png"
 />
 
@@ -301,19 +265,16 @@ GitHub wiki options:
 When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance Criteria, and add the new ones. Get the PO to confirm your understanding.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Example:
 
 ~~Enter search text, click ‘Google’, and see the results populate below.~~
 [Updated] Enter search text and automatically see the results populate below.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

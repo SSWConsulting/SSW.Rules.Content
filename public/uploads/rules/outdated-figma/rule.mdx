@@ -22,7 +22,7 @@ uri: outdated-figma
 
 When a Figma file falls out of sync with the product, new team members (or clients) can quickly build the wrong mental model of how the app works today. A fast visual cue that indicates the mock-up is stale saves hours of rework and prompts people to validate the real experience in production.
 
-<endOfIntro />
+<endIntro />
 
 ## Spot outdated designs fast
 
@@ -37,11 +37,8 @@ When a Figma design is no longer the source of truth, make it unmistakably clear
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Outdated screens in Figma prototype haven't been updated",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Outdated screens in Figma prototype haven't been updated"}
   src="/uploads/rules/outdated-figma/yakshaver-portal-figma.png"
 />
 
@@ -50,11 +47,8 @@ When a Figma design is no longer the source of truth, make it unmistakably clear
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Outdated screens from Figma prototype zz'd",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Outdated screens from Figma prototype zz'd"}
   src="/uploads/rules/outdated-figma/easy-leave-figma.png"
 />
 

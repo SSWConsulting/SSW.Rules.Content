@@ -28,18 +28,15 @@ Estimating time and complexity in software is hard. By its nature, almost all so
 
 When you're scoping out a piece of work, it's important to help the business understand and manage those risks, and help shine a light on areas where risk can quickly snowball.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Like an iceberg, PBIs might have extra work hidden beneath the surface",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Like an iceberg, PBIs might have extra work hidden beneath the surface"}
   src="/uploads/rules/risk-multipliers/iceberg.jpg"
 />
 
@@ -55,8 +52,8 @@ While this is probably the most obvious area of risk, it is still risk and there
 A typical conversation around something like "add a shopping cart" might play out like this:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I want a shopping cart on my website.\
 Oh, and it needs to process payments.\
@@ -65,11 +62,8 @@ Oh, that payment gateway is throttled - it won't be able to handle the expected 
 We need a new payment gateway!.\
 ...etc.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -149,8 +143,8 @@ If you're in the enterprise space, or working on projects that have many moving 
 6. Use the strategies above to identify high risk areas
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Bonus tip:** Try estimating your work on complexity, rather than time. For example:
 
@@ -162,11 +156,8 @@ If you're in the enterprise space, or working on projects that have many moving 
 
 Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it'll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

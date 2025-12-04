@@ -12,7 +12,7 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 isArchived: true
-lastUpdated: 2024-11-26 21:11:29+00:00
+lastUpdated: 2025-10-28 19:30:39+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -33,7 +33,7 @@ How you work with attachments should change depending on who you are emailing.
 
 For internal communications, linking to a document store on the intranet keeps files accessible, up-to-date, and minimizes the risk of broken links. When communicating externally, attaching the file directly is often more convenient for recipients who may not have access to internal systems.
 
-<endOfIntro />
+<endIntro />
 
 ## Internal documents - Use a link
 
@@ -45,11 +45,8 @@ When sharing documents internally it's best to keep the work alive in a link. Th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Attaching documents to emails when sending internally",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Attaching documents to emails when sending internally"}
   src="/uploads/rules/links-or-attachments-in-emails/bad-example-email-attachments.png"
 />
 
@@ -58,26 +55,20 @@ When sharing documents internally it's best to keep the work alive in a link. Th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Sharing documents in SharePoint so the team can access and work on the same document",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Sharing documents in SharePoint so the team can access and work on the same document"}
   src="/uploads/rules/links-or-attachments-in-emails/good-example-sharepoint.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Using SharePoint can help minimizing broken links.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -95,11 +86,8 @@ It's often easier to **attach the file** than share a link due to permission iss
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Added the file as a link for external users. This requires adding them as guests to Teams, or having to make the file an anonymous link",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – Added the file as a link for external users. This requires adding them as guests to Teams, or having to make the file an anonymous link"}
   src="/uploads/rules/links-or-attachments-in-emails/email-bad-example.png"
 />
 
@@ -108,10 +96,7 @@ It's often easier to **attach the file** than share a link due to permission iss
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Added file as an attachment for external users",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Added file as an attachment for external users"}
   src="/uploads/rules/links-or-attachments-in-emails/email-external-good-example.png"
 />

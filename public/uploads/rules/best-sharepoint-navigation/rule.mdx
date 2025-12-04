@@ -23,7 +23,7 @@ uri: best-sharepoint-navigation
 
 On intranets you always want a bunch of links easily accessible and customizable by the end users.
 
-<endOfIntro />
+<endIntro />
 
 In SharePoint your left navigation can be:
 
@@ -43,11 +43,8 @@ Bad points:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Viewing",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – Viewing"}
   src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-bad1.png"
 />
 
@@ -56,11 +53,8 @@ Bad points:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Editing (No customizations)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Editing (No customizations)"}
   src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-bad2.png"
 />
 
@@ -77,26 +71,20 @@ Good points:
 Good example:
 
 
-<asideEmbed
-  variant="todo"
+<boxEmbed
+  style="todo"
   body={<>
     TODO: Insert Warwick’s video when made
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Customizing is easy",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Customizing is easy"}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Custom icons and built-in icons that look nice",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Custom icons and built-in icons that look nice"}
   src="/uploads/rules/best-sharepoint-navigation/sharepoint-nav-good.png"
 />

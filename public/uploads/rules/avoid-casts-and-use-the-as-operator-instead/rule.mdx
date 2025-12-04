@@ -26,7 +26,7 @@ Use casts only if:
 a. You know 100% that you get that type back
 b. You want to perform a user-defined conversion
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -37,12 +37,7 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
  // snip snip snip
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example**  
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -57,11 +52,6 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Good example**  
 
 More info here: [http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html](http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html)

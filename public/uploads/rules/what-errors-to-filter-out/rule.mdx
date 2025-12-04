@@ -24,17 +24,14 @@ uri: what-errors-to-filter-out
 
 You should always keep on top of your RayGun crashreporting and not let the errors spiral out of control. If use RayGun with a web application, then you’ll frequently get a lot of errors with robots scanning the site and creating 404s.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example – Most of these errors are 404s cause by automated tools scanning for vulnerabilities",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example – Most of these errors are 404s cause by automated tools scanning for vulnerabilities"}
   src="/uploads/rules/what-errors-to-filter-out/raygun-fileter-bad.png"
 />
 
@@ -57,10 +54,7 @@ Now you should have a nice clean crash report page with actual errors.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Now that the noise is gone, we can see the actual errors",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Now that the noise is gone, we can see the actual errors"}
   src="/uploads/rules/what-errors-to-filter-out/raygun-filter-good.jpg"
 />

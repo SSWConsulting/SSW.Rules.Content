@@ -30,13 +30,13 @@ Best practice guidelines, or rules, can serve as a repository for knowledge on p
 
 Here's how ChatGPT can write your rules for you.
 
-<endOfIntro />
+<endIntro />
 
 There is 1 simple step. Paste this prompt into ChatGPT:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You are going to be my Rule writer. First you are going to ask me about the rule I want to write, and then you will write it. Here is some information for you:
 
@@ -59,41 +59,25 @@ If it makes sense to add examples, they should be formatted by having this forma
 &#123; put the example here &#125;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example {reason why it's bad}",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example {reason why it's bad}**  
 
 Good examples should have this formatting:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &#123; put the example here &#125;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example {reason why it's bad}",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example {reason why it's bad}**  
 
 Your first response should be: ‘What is the title of the rule and what are the main points to cover? When you give this information, I will write the rule.’ Then once you have the information, write the rule (don't copy my points word for word - improve on them).
 

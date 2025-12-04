@@ -29,7 +29,7 @@ uri: do-you-know-the-process-to-improve-the-health-of-your-web-application
 
 Application Insights can provide an overwhelming amount of errors in your web application, so use just-in-time bug processing to handle them.
 
-<endOfIntro />
+<endIntro />
 
 The goal is to each morning check your web application's dashboard and find zero errors. However, what happens if there are multiple errors? Don't panic, follow this process to improve your application's health.
 
@@ -38,11 +38,8 @@ The goal is to each morning check your web application's dashboard and find zero
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Every morning developers check Application Insights for errors",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Every morning developers check Application Insights for errors"}
   src="/uploads/rules/do-you-know-the-process-to-improve-the-health-of-your-web-application/App-Insights-Failures.png"
 />
 
@@ -54,11 +51,8 @@ Once you have found an exception you can drill down into it to discover more con
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Drilling down into an exception to discover more.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Drilling down into an exception to discover more."}
   src="/uploads/rules/do-you-know-the-process-to-improve-the-health-of-your-web-application/App-Insights-Failures-drilldown.png"
 />
 
@@ -69,11 +63,8 @@ It's easy to be overwhelmed by all these issues, so don't create a bug for each 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - creating all the bugs",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - creating all the bugs"}
   src="/uploads/rules/do-you-know-the-process-to-improve-the-health-of-your-web-application/20-08-2014-12-04-31-PM-compressor.png"
 />
 
@@ -82,10 +73,7 @@ It's easy to be overwhelmed by all these issues, so don't create a bug for each 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - create the first bug (unfortunately bug has to be created manually)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - create the first bug (unfortunately bug has to be created manually)"}
   src="/uploads/rules/do-you-know-the-process-to-improve-the-health-of-your-web-application/20-08-2014-12-06-16-PM-compressor.png"
 />

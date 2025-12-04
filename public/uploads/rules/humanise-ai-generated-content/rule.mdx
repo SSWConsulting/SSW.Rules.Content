@@ -27,7 +27,7 @@ Creating content that sounds human is essential for engaging readers and meeting
 
 We can use specific techniques to make ChatGPT's content more human-like, improving its readability and relatability.
 
-<endOfIntro />
+<endIntro />
 
 ## 1. Use personas
 
@@ -94,8 +94,8 @@ Too many em dashes make text feel mechanical and AI-generated. Instead, use comm
 ## Prompt template
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "As a &#123;&#123; ROLE &#125;&#125;, write an article about &#123;&#123; TOPIC &#125;&#125;.
 
@@ -117,17 +117,9 @@ Adjust the tone and vocabulary to match the reading level and interests of &#123
 
 Analyze the attached articles for tone, structure, and vocabulary, then use this style to write new content."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Incorporating current and relevant facts to add credibility",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Incorporating current and relevant facts to add credibility**  
 
 By applying these techniques, you can significantly improve the human-like quality of AI-generated content, making it more engaging, relatable, and valuable to your readers.

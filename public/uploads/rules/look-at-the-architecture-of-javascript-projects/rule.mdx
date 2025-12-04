@@ -26,7 +26,7 @@ uri: look-at-the-architecture-of-javascript-projects
 
 JavaScript projects (for example using Angular, React, or Vue) can have unnecessary libraries that take excessive size in the build bundle. It can cause huge impacts on the performance of the application.
 
-<endOfIntro />
+<endIntro />
 
 JavaScript bundle analyzers are tools that visualize the sizes and dependencies of libraries used in JavaScript projects. It helps to monitor the size of the compiled bundle in order to maintain the optimal performance of the final build.
 
@@ -40,11 +40,8 @@ This is a popular tool for Angular projects which analyses a webpack stats JSON 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – use webpack-bundle-analyzer for Angular applications",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – use webpack-bundle-analyzer for Angular applications"}
   src="/uploads/rules/look-at-the-architecture-of-javascript-projects/architecture-good-angular.png"
 />
 
@@ -57,11 +54,8 @@ Unfortunately, the create-react-app from version 3 has removed the “--stats" f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – webpack-bundle-analyzer is not user friendly for React applications",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – webpack-bundle-analyzer is not user friendly for React applications"}
   src="/uploads/rules/look-at-the-architecture-of-javascript-projects/architecture-bad-react.png"
 />
 
@@ -74,11 +68,8 @@ This tool uses a bundle's generated source map files to analyse the size and com
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – use source-map-explorer on React projects",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – use source-map-explorer on React projects"}
   src="/uploads/rules/look-at-the-architecture-of-javascript-projects/architecture-good-react.png"
 />
 

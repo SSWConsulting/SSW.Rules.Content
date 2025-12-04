@@ -17,7 +17,7 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
 isArchived: false
-lastUpdated: 2025-09-17 18:10:36+00:00
+lastUpdated: 2025-10-23 19:02:20+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -39,7 +39,7 @@ uri: reply-done
 
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "==Done==" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-<endOfIntro />
+<endIntro />
 
 Read the "[Definition of Done](/definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
@@ -88,11 +88,8 @@ Use this approach to prevent misunderstandings and to make sure the requester is
 
 Not done - as per our conversation, I've checked with Northwind and they're happy with the form as it is
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - \"Not done\" email",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - \"Not done\" email"}
 />
 
 ### Tip #1: Say "Done" first
@@ -124,11 +121,8 @@ As per our conversation,
 
 Bob
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Original email with the client request",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"Original email with the client request"}
 />
 
 <emailEmbed
@@ -145,11 +139,8 @@ I couldn't find a camera so I haven't taken the photo.
 
 Jason
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – It is not clear which tasks have been done and which haven't",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – It is not clear which tasks have been done and which haven't"}
 />
 
 <emailEmbed
@@ -179,11 +170,8 @@ Jason
 
 Bob
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history"}
 />
 
 <emailEmbed
@@ -214,11 +202,8 @@ Jason
 
 Bob
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – You can imply which tasks have been done by looking at the history, however it is painful, and [numbered lists are for tasks only](/number-tasks-questions)",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – You can imply which tasks have been done by looking at the history, however it is painful, and [numbered lists are for tasks only](/number-tasks-questions)"}
 />
 
 <emailEmbed
@@ -241,16 +226,13 @@ Not Done - I couldn't find a camera
 
 1. Action \#2 above once I get the camera from Peter tomorrow
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/indent)",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – It is very clear which tasks have been done and which haven't. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](/indent)"}
 />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Extra:**
 
@@ -263,11 +245,8 @@ b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others
 c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix
 d. Give a reason if it won't be done
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -291,11 +270,8 @@ All Done - see &#123;&#123; URL &#125;&#125;
 
 Jason
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – If multiple tasks are clearly 'done', then replying \"All done\" is a good way to simplify things",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – If multiple tasks are clearly 'done', then replying \"All done\" is a good way to simplify things"}
 />
 
 ### Tip #4: Replying "Done" to huge tasks
@@ -321,16 +297,13 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 When it fits, choose text over images or screenshots! This way, it's simpler to search, copy, paste, and tweak content as needed.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For formatting/layout problems with text, screenshots are the best choice since they are immutable, which is helpful for future comparison.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -369,11 +342,8 @@ ORDER By Downloads DESC
 
 Jason
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - This \"Done\" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - This \"Done\" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification"}
 />
 
 ### Tip #8: Handle an email once

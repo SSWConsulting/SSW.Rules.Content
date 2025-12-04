@@ -34,7 +34,7 @@ uri: azure-resources-creating
 
 We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again: **Don't manually create Azure resources.**
 
-<endOfIntro />
+<endIntro />
 
 ### Manually Creating Resources
 
@@ -46,11 +46,8 @@ This is the most common and the worst. This is bad because it requires manual ef
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Figure (animated gif): Bad example - Creating resources manually",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Figure (animated gif): Bad example - Creating resources manually"}
   src="/uploads/rules/azure-resources-creating/azure resources.gif"
 />
 
@@ -63,11 +60,8 @@ Some people half solve the problem by manually creating and saving the script. T
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Exporting your Resource Group as an ARM template defined in JSON",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – Exporting your Resource Group as an ARM template defined in JSON"}
   src="/uploads/rules/azure-resources-creating/azure-bad-1.png"
 />
 
@@ -76,26 +70,20 @@ Some people half solve the problem by manually creating and saving the script. T
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked"}
   src="/uploads/rules/azure-resources-creating/azure-bad-2.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Save infrastructure scripts/templates in a folder called 'infra'.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -131,16 +119,13 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * No need for deploy scripts! There's an [bicep-deploy](https://github.com/Azure/bicep-deploy) GitHub Action from Microsoft to make it easy add deployments to your workflows
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** If you are assigning any role assignment using bicep, make sure it doesn't exist before. (Using Azure Portal)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -152,11 +137,8 @@ So if you aren't manually creating your Azure resources, what options do you hav
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Author your own Bicep templates in Visual Studio Code using the Bicep Extension",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Author your own Bicep templates in Visual Studio Code using the Bicep Extension"}
   src="/uploads/rules/azure-resources-creating/Bicep.png"
 />
 
@@ -176,11 +158,8 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#"}
   src="/uploads/rules/azure-resources-creating/pulumi3.png"
 />
 
@@ -189,24 +168,18 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - From the console simply run 'pulumi up' to deploy your resources to Azure",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - From the console simply run 'pulumi up' to deploy your resources to Azure"}
   src="/uploads/rules/azure-resources-creating/pulumi2.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** After you’ve made your changes, don’t forget to [visualize your new resources](/azure-resources-visualizing).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

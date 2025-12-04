@@ -5,35 +5,31 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Christian Morford-Waite
   url: https://ssw.com.au/people/christian-morford-waite
-created: 2023-03-20 20:35:30+00:00
-createdBy: Tiago Araújo [SSW]
-createdByEmail: tiagov8@gmail.com
+categories:
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2010-12-02 03:53:59+00:00
 guid: f749bf03-8785-4433-a5c5-6c21cda9b782
-isArchived: false
-lastUpdated: 2025-06-05 17:33:29+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+- sprint-forecast
 related:
-- rule: public/uploads/rules/github-sprint-templates/rule.mdx
 - rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
-- rule: public/uploads/rules/what-happens-at-retro-meetings/rule.mdx
 - rule: public/uploads/rules/sprint-review-retro-email/rule.mdx
+- rule: public/uploads/rules/github-sprint-templates/rule.mdx
 seoDescription: The functionality that will be developed during the Sprint confirms
   the relationship between the Product Owner and Development Team in Agile Project
   Management.
-title: Do you create a Sprint Forecast? (aka The functionality to be developed in
-  the Sprint)
+title: Do you create a Sprint Forecast email? (aka Functionality to be developed per
+  Sprint Planning)
 type: rule
-uri: sprint-forecast
+uri: sprint-forecast-email
 ---
 
-After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast email for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
 This is simply an agreement between the Development Team and the PO for one Sprint and should be confirmed via an email at the beginning of every Sprint.
 
-<endOfIntro />
+<endIntro />
 
 > “The implementation team agrees to do its best to deliver an agreed on set of features (scope) to a defined quality standard by the end of the Sprint. (Ideally they deliver what they promised, or even a bit more). The Product Owner agrees not to change his instructions before the end of the Sprint.”
 
@@ -84,16 +80,13 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 
 &lt;This is as per rule: [Do you create a Sprint Forecast?](/sprint-forecast)&gt;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Copy this as email template and send to Product Owner",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Copy this as email template and send to Product Owner"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can copy and paste the Sprint Backlog as a table into the email body:
 
@@ -102,9 +95,17 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** In the email template, bold the most important points so they stand out.
+  </>}
+  figurePrefix="none"
+  figure={""}
 />

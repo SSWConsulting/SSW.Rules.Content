@@ -13,9 +13,9 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: df70361d-0a85-43cd-bd24-f6b08455330f
 isArchived: false
-lastUpdated: 2024-06-08 03:27:17+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-17 12:01:24+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-know-the-right-notification-for-backups
 related:
@@ -29,7 +29,7 @@ uri: know-the-right-notification-for-backups
 
 For any kind of backups, it is important to log a record on success so you can check for backups that have failed.
 
-<endOfIntro />
+<endIntro />
 
 Without some kind of logging e.g. on a SQL database, on a txt file, on a SharePoint list, it is impossible to tell which backups have been completed or not. This applies to backups of any kind e.g. servers, personal computers, emails.
 
@@ -45,11 +45,8 @@ Having entries logged in a database is better than having an email sent because 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - an email is sent on completion",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - an email is sent on completion"}
   src="/uploads/rules/know-the-right-notification-for-backups/backup_notification_bad.jpg"
 />
 
@@ -58,11 +55,8 @@ Having entries logged in a database is better than having an email sent because 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - a record is logged on completion",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - a record is logged on completion"}
   src="/uploads/rules/know-the-right-notification-for-backups/backup_notification_good.jpg"
 />
 
@@ -71,11 +65,8 @@ Having entries logged in a database is better than having an email sent because 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Best example - the latest completion is logged in a SharePoint list",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Best example - the latest completion is logged in a SharePoint list"}
   src="/uploads/rules/know-the-right-notification-for-backups/backups.jpg"
 />
 
@@ -91,10 +82,7 @@ If you need any help with your backups or disaster recovery process, check [http
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - No critical or warnings in your backups",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - No critical or warnings in your backups"}
   src="/uploads/rules/know-the-right-notification-for-backups/goodexamplebackups.jpg"
 />

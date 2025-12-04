@@ -21,7 +21,7 @@ isArchived: false
 
 Regular expressions are a very powerful tool for pattern matching, but a complicated regex can be very difficult for a human to read and to comprehend. That is why, like any good code, a good regular expression must be well formatted and documented.
 
-<endOfIntro />
+<endIntro />
 
 Here are some guidelines when formatting and documenting your regex:
 
@@ -40,12 +40,7 @@ Here are some guidelines when formatting and documenting your regex:
 # MATCH >
 >
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Comment that translates the regex into English",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: Comment that translates the regex into English**  
 
 ```regex
 # Match the BODY tag
@@ -55,23 +50,13 @@ Here are some guidelines when formatting and documenting your regex:
 # Match the end BODY tag
 >
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Comment that explains the purpose of the pattern",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: Comment that explains the purpose of the pattern**  
 
 ```regex
 (?six-mn:(Label|TextBox)\s+(?<Name>\w+).*(?<Result>\k<Name>\.TextAlign\s*=\s* ((System\.)?Drawing\.)?ContentAlignment\.(?! TopLeft|MiddleLeft|TopCenter|MiddleCenter)\w*)(?!(?<=\k<Name>\.Image.*)|(?
 =.*\k<Name>\.Image)))
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Pray you never have to modify this regex",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: Pray you never have to modify this regex**  
 
 ```regex
 (?six-mn:
@@ -106,8 +91,4 @@ Here are some guidelines when formatting and documenting your regex:
     )
 )
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Now it make sense!",
-  shouldDisplay: true
-} } />
+**✅ Good example: Now it make sense!**  

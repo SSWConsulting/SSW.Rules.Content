@@ -24,7 +24,7 @@ uri: the-golden-rule-of-rebasing
 
 Rebasing is great for ensuring a clean project history... but it can be dangerous in inexperienced hands.
 
-<endOfIntro />
+<endIntro />
 
 **The golden rule of git rebase is to never use it on public branches.** (ie. never rebase master).
 
@@ -36,11 +36,8 @@ Since rebasing results in brand new commits, Git will think that your master bra
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example: Rebasing master onto a feature branch can cause project history to become confused.",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example: Rebasing master onto a feature branch can cause project history to become confused."}
   src="/uploads/rules/the-golden-rule-of-rebasing/rebase3.png"
 />
 
@@ -50,11 +47,8 @@ Since rebasing results in brand new commits, Git will think that your master bra
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "To get it wrong in Visual Studio you would need to change the current branch to master and then choose rebase. While this is possible, the VS team have done a good job making it hard to do the wrong thing",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"To get it wrong in Visual Studio you would need to change the current branch to master and then choose rebase. While this is possible, the VS team have done a good job making it hard to do the wrong thing"}
   src="/uploads/rules/the-golden-rule-of-rebasing/rebase4.png"
 />
 
@@ -63,10 +57,7 @@ Since rebasing results in brand new commits, Git will think that your master bra
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Rebase your Feature branch onto Master",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Rebase your Feature branch onto Master"}
   src="/uploads/rules/the-golden-rule-of-rebasing/rebase5.png"
 />

@@ -22,7 +22,7 @@ uri: use-adaptive-cards-designer
 
 If you are using [Microsoft Bot Framework](https://dev.botframework.com/) and [Bot Framework Emulator](https://github.com/microsoft/BotFramework-Emulator), you can't preview what the card UI looks like in other platforms (e.g. Teams) until you deploy to production. [Adaptive Cards Designer](https://adaptivecards.io/designer/) helps you solve this problem by providing some awesome features...
 
-<endOfIntro />
+<endIntro />
 
 * Online editing
 * Multi-platform preview
@@ -36,11 +36,8 @@ There are two ways to use Adaptive Cards Designer:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using Bot Framework Emulator to design the card",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Using Bot Framework Emulator to design the card"}
   src="/uploads/rules/use-adaptive-cards-designer/design-cards-in-emulator.png"
 />
 
@@ -49,10 +46,7 @@ There are two ways to use Adaptive Cards Designer:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using Adaptive Cards Designer to design the card",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Using Adaptive Cards Designer to design the card"}
   src="/uploads/rules/use-adaptive-cards-designer/design-card-with-designer.png"
 />

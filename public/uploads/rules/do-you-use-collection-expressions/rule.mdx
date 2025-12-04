@@ -23,37 +23,22 @@ uri: do-you-use-collection-expressions
 
 Do you know collection expressions can make your code cleaner? They can be used to create arrays, lists, and other collections in a single line of code.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 var numbers1 = new List<int> {1, 2, 3, 4, 5};
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Verbose way of constructing a list",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Verbose way of constructing a list**  
 
 ```cs
 var numbers2 = new[] { 1, 2, 3, 4, 5 };
 ```
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "Figure: OK example - using implicit arrays",
-  shouldDisplay: true
-} } />
-
+**😐 Figure: OK example - using implicit arrays**  
 
 ```cs
 List<int> numbers3 = [1, 2, 3, 4, 5];
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - using collection expressions",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - using collection expressions**  
 
 Another advantage of collection expressions is that they can be passed into methods accepting different types of list collections. The compiler is smart enough to determine the correct underlying type.
 

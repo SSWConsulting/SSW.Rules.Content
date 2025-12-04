@@ -26,23 +26,14 @@ uri: use-null-condition-operators-when-getting-values-from-objects
 
 Null-conditional operators - makes checking for null as easy as inserting a single question mark. The Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 int length = customer != null && customer.name != null ? customer.name.length : 0;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Verbose and complex code checking for nulls",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Verbose and complex code checking for nulls**  
 
 ```cs
 int length = customers?.name?.length ?? 0;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Robust and easier to read code",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Robust and easier to read code**

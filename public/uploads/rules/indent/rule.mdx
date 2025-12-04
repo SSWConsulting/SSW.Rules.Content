@@ -17,7 +17,7 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
 isArchived: false
-lastUpdated: 2025-05-06 10:17:05+00:00
+lastUpdated: 2025-10-31 19:54:23+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -36,7 +36,7 @@ uri: indent
 
 Indentation is a simple but powerful way to make your content easier to scan. When used wisely, it helps readers quickly see structure, hierarchy, and relationships between elements like questions and answers, examples, or nested lists. Overdoing it, however, can make layouts feel uneven or cramped—especially on mobile.
 
-<endOfIntro />
+<endIntro />
 
 ## When indentation helps 👍
 
@@ -80,11 +80,8 @@ Please change from X to Y\
 The program flow logic worries me a bit\
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - There's too much information with no reasonable order",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - There's too much information with no reasonable order"}
 />
 
 <emailEmbed
@@ -102,11 +99,8 @@ Done - northwind365.com\
 "The program flow logic worries me a bit"\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks"}
 />
 
 <emailEmbed
@@ -124,11 +118,8 @@ Done - northwind365.com\
 &nbsp;&nbsp;&nbsp; &gt; 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Even with \">\", indentation and numbers, without spacing the text becomes cramped and hard to read",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure={"OK example - Even with \">\", indentation and numbers, without spacing the text becomes cramped and hard to read"}
 />
 
 <emailEmbed
@@ -149,16 +140,13 @@ Done - northwind365.com
 
 Sorry, this wasn't a final decision - I just put it there for testing purposes
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - You can clearly see the context of each part of the reply",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - You can clearly see the context of each part of the reply"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 **Tip #1:** When using Outlook, the raw “&gt;” character may be automatically formatted to a “&gt;” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “&gt;” character.
@@ -172,11 +160,8 @@ Sorry, this wasn't a final decision - I just put it there for testing purposes
 **Tip #5:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -189,11 +174,8 @@ When using Markdown (usually on GitHub), use "&gt;" symbol (which means HTML `bl
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Indenting tasks in Markdown",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Indenting tasks in Markdown"}
   src="/uploads/rules/indent/markdown-indentation-editor.png"
 />
 
@@ -203,11 +185,8 @@ When using Markdown (usually on GitHub), use "&gt;" symbol (which means HTML `bl
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "How it looks",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"How it looks"}
   src="/uploads/rules/indent/markdown-indentation-preview.png"
 />
 

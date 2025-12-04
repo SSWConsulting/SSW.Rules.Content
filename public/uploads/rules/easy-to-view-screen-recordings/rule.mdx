@@ -28,7 +28,7 @@ uri: easy-to-view-screen-recordings
 
 Most developers like to set up their screen efficiently – often that means small fonts, visible bookmark bars and a huge amount of browser tabs and taskbar items. While this is great for efficiency, it is not very good for recordings or presentations, and the clutter should be removed.
 
-<endOfIntro />
+<endIntro />
 
 Before recording your screen reduce visual noise by:
 
@@ -43,11 +43,8 @@ Before recording your screen reduce visual noise by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This video will be cluttered and unprofessional",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This video will be cluttered and unprofessional"}
   src="/uploads/rules/easy-to-view-screen-recordings/screen-recording-bad.png"
 />
 
@@ -56,10 +53,7 @@ Before recording your screen reduce visual noise by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This is easy to read, and doesn’t look cluttered",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - This is easy to read, and doesn’t look cluttered"}
   src="/uploads/rules/easy-to-view-screen-recordings/screen-recording-good.png"
 />

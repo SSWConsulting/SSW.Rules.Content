@@ -28,7 +28,7 @@ uri: reports-footer
 
 When designing custom applications you want to include branding on reports. You should always include a useful and informative footer at the bottom of your reports.
 
-<endOfIntro />
+<endIntro />
 
 Include:
 
@@ -41,11 +41,8 @@ Include:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This footer doesn't provide any useful information",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This footer doesn't provide any useful information"}
   src="/uploads/rules/reports-footer/RSRulesBadFooter.gif"
 />
 
@@ -54,11 +51,8 @@ Include:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Useful and informative information should be displayed in your report footer",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Useful and informative information should be displayed in your report footer"}
   src="/uploads/rules/reports-footer/RSRulesGoodFooter.gif"
 />
 
@@ -79,11 +73,8 @@ Use these handy report expressions to show the above information.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Footer in visual studio designer",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Footer in visual studio designer"}
   src="/uploads/rules/reports-footer/footerInDesigner.gif"
 />
 
@@ -99,8 +90,8 @@ Use these handy report expressions to show the above information.
 ```
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** Adding the User who printed it stops all data-driven subscriptions.
 
@@ -123,9 +114,6 @@ A quick workaround is to add a user function to fallback the error to a nice mes
 Use above function to replace your reference to `Report.User!UserID` will allow the subscription to work correctly.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -29,7 +29,7 @@ uri: best-trace-logging
 
 Did you know that writing your own logging infrastructure code wastes time? There are awesome logging abstractions in .NET Core and .NET 5+ that you should use instead!
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/pUMs8TkuMFk" description={""} />
@@ -51,11 +51,8 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using Debug or Trace for logging, or writing hard coded mechanisms for logging does not allow you to configure logging at runtime",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Using Debug or Trace for logging, or writing hard coded mechanisms for logging does not allow you to configure logging at runtime"}
   src="/uploads/rules/best-trace-logging/trace-logging-bad.jpg"
 />
 
@@ -64,11 +61,8 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net"}
   src="/uploads/rules/best-trace-logging/trace-logging-bad-2.jpg"
 />
 
@@ -76,21 +70,13 @@ Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/
 ```csharp
 _logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Using templates allows persisting structured log data (DateTime is a complex object)",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Using templates allows persisting structured log data (DateTime is a complex object)**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Seq provides a powerful UI for searching and viewing your structured logs",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Seq provides a powerful UI for searching and viewing your structured logs"}
   src="/uploads/rules/best-trace-logging/seq2.png"
 />

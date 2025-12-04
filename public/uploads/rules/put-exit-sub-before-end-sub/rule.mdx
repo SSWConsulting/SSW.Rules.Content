@@ -26,7 +26,7 @@ uri: put-exit-sub-before-end-sub
 
 Do not put "Exit Sub" statements before the "End Sub". The function will end on "End Sub". "Exit Sub" is serving no real purpose here.
 
-<endOfIntro />
+<endIntro />
 
 ```vbnet
 Private Sub SomeSubroutine()
@@ -34,23 +34,13 @@ Private Sub SomeSubroutine()
 Exit Sub ' Bad code - Writing Exit Sub before End Sub.
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example**  
 
 ```vbnet
 Private Sub SomeOtherSubroutine()
 'Your code here....
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Good example**  
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#ExitSub) to check for this rule.

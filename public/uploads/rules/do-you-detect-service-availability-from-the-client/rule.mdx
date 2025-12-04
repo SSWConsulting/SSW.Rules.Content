@@ -16,9 +16,9 @@ createdBy: BrendanRichards
 createdByEmail: BrendanRichards@ssw.com.au
 guid: b22a548e-76d1-4090-baae-0c58cca49cdb
 isArchived: false
-lastUpdated: 2025-02-04 12:34:58+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-17 04:04:03+00:00
+lastUpdatedBy: Alvin Shen [SSW]
+lastUpdatedByEmail: 68266870+AlvinShenSSW@users.noreply.github.com
 redirects: []
 seoDescription: Detect service availability issues and implement fallback strategies
   using our open-source library for seamless handling of blocked services in China
@@ -30,7 +30,7 @@ uri: do-you-detect-service-availability-from-the-client
 
 Some countries (especially China) strictly control access to various international web services. Meanwhile, as geopolitical tensions escalate, many service providers are actively restricting or blocking access to their services in specific regions like China, including Copilot, ChatGPT, Google Gemini and Claude, etc. You can use service detection to determine whether particular services are available, allowing you to fallback gracefully or use alternative providers.
 
-<endOfIntro />
+<endIntro />
 
 As well as from inside China, another common place where access to third-party services may be blocked is from behind corporate firewalls.
 
@@ -63,11 +63,8 @@ This Service Detector works by attempting to download the Favicon.ico file from 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Figure Bad Example: Attempted requests to Facebook, Google, and Youtube from China took a long time to timeout, adding significant delays to the rendering of this page"}
   src="/uploads/rules/do-you-detect-service-availability-from-the-client/BlockedDependencies_1710232021933.png"
 />
 
@@ -76,11 +73,8 @@ This Service Detector works by attempting to download the Favicon.ico file from 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Only 4 errors on F12 in China. Using SSW.ServiceDetector, there were only short, canceled requests raised to blocked services. The site was then able to fall-back gracefully for some services and load YouKu for videos",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Only 4 errors on F12 in China. Using SSW.ServiceDetector, there were only short, canceled requests raised to blocked services. The site was then able to fall-back gracefully for some services and load YouKu for videos"}
   src="/uploads/rules/do-you-detect-service-availability-from-the-client/SSW.ServiceDetector.png"
 />
 

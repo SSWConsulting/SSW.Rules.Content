@@ -24,7 +24,7 @@ uri: refer-to-form-controls-directly
 
 When programming in form based environments one thing to remember is not to refer to form controls directly. The correct way is to pass the controls values that you need through parameters.
 
-<endOfIntro />
+<endIntro />
 
 There are a number of benefits for doing this:
 
@@ -46,12 +46,7 @@ Sub CreateSchedule()
  .....processing code
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example**  
 
 ```vbnet
 Private Sub Command0_Click()
@@ -65,8 +60,4 @@ Sub CreateSchedule(pdteDateStart As Date, pdteDateEnd As Date)
  &....processing code
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
+**✅ Good example**

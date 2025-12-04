@@ -35,7 +35,7 @@ isArchived: false
 ---
 When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture will allow your software application will scale too meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
 
-<endOfIntro />
+<endIntro />
 
 ## Popular architectures
 
@@ -78,11 +78,8 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Architecture Decision Tree",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Architecture Decision Tree"}
   src="/uploads/rules/software-architecture-decision-tree/architecture-decision-tree-v3.jpg"
 />
 
@@ -115,8 +112,8 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 Here are some practical scenarios to illustrate the decision-making process:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Scenario 1: Startup with uncertain requirements
@@ -125,17 +122,14 @@ You are building an MVP with a small team and expect the requirements to evolve 
 
 ✅ **Choice: Clean Architecture or Vertical Slice Architecture** - These architectures offer flexibility and are easier to refactor as requirements change.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Scenario 2: Medium-sized business with limited DevOps maturity
@@ -144,17 +138,14 @@ You have a mid-sized team, and your organization is still developing its DevOps 
 
 ✅ **Choice: Modular Monolith** - A Modular Monolith provides some modularity benefits without the full complexity of Microservices, making it easier to manage with limited DevOps capabilities.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Scenario 3: Large enterprise with multiple domains and teams
@@ -163,11 +154,8 @@ You are developing a large-scale application with multiple business domains and 
 
 ✅ **Choice: Microservices** - Microservices allow independent development, deployment, and scaling, which suits large and complex applications.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

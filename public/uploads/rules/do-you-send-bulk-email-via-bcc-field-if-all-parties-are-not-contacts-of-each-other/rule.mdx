@@ -27,7 +27,7 @@ uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-eac
 
 To ensure privacy, and not allow parties to get hold of each others' email addresses, emails to multiple parties should be entered in the 'Bcc' field (not the 'To' field).
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -39,11 +39,8 @@ To ensure privacy, and not allow parties to get hold of each others' email addre
   body={<>
     
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Good Example - Send bulk email via 'To' field",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Good Example - Send bulk email via 'To' field"}
 />
 
 <emailEmbed
@@ -56,9 +53,6 @@ To ensure privacy, and not allow parties to get hold of each others' email addre
   body={<>
     
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Send bulk email via 'Bcc' field",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Send bulk email via 'Bcc' field"}
 />

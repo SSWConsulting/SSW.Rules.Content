@@ -48,7 +48,7 @@ Microsoft Teams is a great solution for organizing client files and conversation
 
 Once you have this set up, it is likely that you want to have a link between your Teams instances and the associated CRM record.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/3nkO8BxG8Sc" description={""} />
@@ -61,26 +61,20 @@ In the video, Adam Cogan describes how they connect Dynamics 365 and Teams with 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "CRM | Company/Account Form – added Teams URL field",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"CRM | Company/Account Form – added Teams URL field"}
   src="/uploads/rules/connect-crm-to-microsoft-teams/dynamics-and-teams.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Each client should have its own Team. You might have two associated clients - e.g. Northwind Australia and Northwind USA - but if they are separate legal entities and have separate accounts in CRM, they should have separate Teams.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -93,11 +87,8 @@ To get that URL, simply click the ellipsis next to your Team name and click "Get
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Get the Teams URL",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Get the Teams URL"}
   src="/uploads/rules/connect-crm-to-microsoft-teams/get-teams-url.jpg"
 />
 
@@ -116,11 +107,8 @@ Add a button to the Ribbon to provision a new team and link to it.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Use the Ribbon",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Use the Ribbon"}
   src="/uploads/rules/connect-crm-to-microsoft-teams/account_createteamssite.png"
 />
 
@@ -136,11 +124,8 @@ Click on this section on your CRM Dynamics to have a Team created:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "PCF control allows you to add a button to create a Team",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"PCF control allows you to add a button to create a Team"}
   src="/uploads/rules/connect-crm-to-microsoft-teams/click-to-create.png"
 />
 

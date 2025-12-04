@@ -33,61 +33,52 @@ The use of standardized group names is a simple yet crucial step towards easier 
 
 **You can save yourself countless confused conversations by standardizing AD Group Names.**
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Warning: Be very careful if you are renaming groups - permissions can break, especially if the group is sync'd to Entra ID (formerly Azure AD).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 For example, this is a list of AD groups associated with products:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     SSWSugarLearningAlerts\
  Alerts CodeAuditor\
  SEC_SSW-LinkAuditor-Devs\
  timepro-devs
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example – With no consistency, it is difficult to know the correct name for an AD group",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example – With no consistency, it is difficult to know the correct name for an AD group"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     SSWSugarLearningAlerts\
  SSWCodeAuditorAlerts\
  SEC_SSWLinkAuditorDevs\
  SEC_SSWTimeProDevs
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example – By standardizing the names of AD groups it saves confusion",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example – By standardizing the names of AD groups it saves confusion"}
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For large organizations, a better way is to use a type of group (eg. Local or Global)... then the entity it is associated to… then the resource (or service).
 
@@ -96,11 +87,8 @@ For example, this is a list of AD groups associated with products:
 - **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
 - **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

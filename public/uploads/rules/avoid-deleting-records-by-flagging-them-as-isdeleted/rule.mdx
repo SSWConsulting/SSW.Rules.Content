@@ -26,7 +26,7 @@ uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 
 When users are deleting a lot of records as part of normal operations - they can and do make mistakes. Instead of the painful process of having to go to a backup to get these records, why not simply flag the records as IsDeleted?
 
-<endOfIntro />
+<endIntro />
 
 ### ✅ Advantages
 
@@ -85,16 +85,13 @@ public class SoftDeleteInterceptor : SaveChangesInterceptor
 ```
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Make sure the entites that require soft delete has implemented the ISoftDeleteEntity interface for them to be captured into this interceptor.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -115,8 +112,8 @@ This integrates the interceptor with the EF Core context, this will ensure to ru
 Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for alternatives to this approach using 3rd party auditing tools.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 Watch William Liebenberg's SpendOps talk for more details about why soft deletes are advantageous in Azure:
@@ -125,9 +122,6 @@ Watch William Liebenberg's SpendOps talk for more details about why soft deletes
 * NDC: [Azure SpendOps – The Art of Effectively Managing Azure Costs](https://www.youtube.com/watch?v=zxSlKiWOOzw)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

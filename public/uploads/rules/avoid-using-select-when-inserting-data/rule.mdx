@@ -15,6 +15,8 @@ lastUpdatedBy: Brook Jeynes [SSW]
 lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
 - stored-procedures-do-you-avoid-using-select-when-inserting-data
+seoDescription: Avoid using SELECT * in INSERT statements to prevent stored procedure
+  failures when table structures change and ensure compatibility with identity columns.
 title: Stored Procedures - Do you avoid using SELECT * when inserting data?
 type: rule
 uri: avoid-using-select-when-inserting-data
@@ -22,8 +24,7 @@ uri: avoid-using-select-when-inserting-data
 
 Using a statement like "INSERT tableName SELECT \* FROM otherTable", makes your stored procedures vulnerable to failure. Once either of the two tables change, your stored procedure won't work. Not only that, when the inserting table has an identity column, such a statement will cause an error - "An explicit value for the identity column in table ParaRight can only be specified when a column list is used and IDENTITY\_INSERT is ON."
 
-
-<endOfIntro />
+<endIntro />
 
 ```sql
 USE [ParaGreg]
@@ -54,12 +55,7 @@ BEGIN
  WHERE ParaID = @id
 END
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Using SELECT \\* when inserting data. Besides, this stored procedure should have an Else section to raise error when no condition is satisfied",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - Using SELECT \* when inserting data. Besides, this stored procedure should have an Else section to raise error when no condition is satisfied**  
 
 ```sql
 USE [ParaGreg]
@@ -92,8 +88,4 @@ END
 ELSE BEGIN PRINT "Please use a correct direction"
  END
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Using concrete columns instead of \\* and provide an Else section to raise errors",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example - Using concrete columns instead of \* and provide an Else section to raise errors**

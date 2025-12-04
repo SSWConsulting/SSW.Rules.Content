@@ -22,7 +22,7 @@ isArchived: false
 
 Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 var query = context
@@ -37,12 +37,7 @@ result = result
     .Take(pageSize);
 return (count, result);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Reads all the data from the database, counts the records and filters down to the page",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Reads all the data from the database, counts the records and filters down to the page**  
 
 ```cs
 var query = context
@@ -58,8 +53,4 @@ query = query
 var result = await query.ToListAsync();
 return (count, result);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Reads only the count and 1 page of data from the database",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Reads only the count and 1 page of data from the database**  

@@ -25,21 +25,18 @@ uri: ask-open-ended-questions
 
 The goal of any outbound call is to get the person on the other end of the line involved. The way to do this is to employ a knockout combo. If you were a boxer, you'd follow up a jab with a cross hook and an uppercut! (the good ole one-two-three knockout!). If you're a telemarketer you follow the ["Yes Ladder"](/build-a-yes-ladder-to-your-outbound-script) up with open-ended questions.
 
-<endOfIntro />
+<endIntro />
 
 Here's an example of the kind of question you DON'T want to ask:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Question:** Do you know a lot about .NET?
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example"}
 />
 
 
@@ -49,16 +46,13 @@ For your jab and cross hook combo use questions one, two and three...
 Then your knockout is going to be something like:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Question:**  So where do you see yourself fitting in with the move towards .NET for the next few years?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example"}
 />
 
 

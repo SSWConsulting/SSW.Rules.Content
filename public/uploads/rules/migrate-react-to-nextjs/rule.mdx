@@ -23,7 +23,7 @@ uri: migrate-react-to-nextjs
 
 While React is great for developing high-quality web apps, Next.js offers a wide range of features that React doesn't have, like static site generation (SSG), server-side rendering (SSR) and API routes.
 
-<endOfIntro />
+<endIntro />
 
 ## Codemod
 
@@ -38,11 +38,8 @@ npx @next/codemod cra-to-next
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "example terminal output in converting CRA applications to Next.js",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"example terminal output in converting CRA applications to Next.js"}
   src="/uploads/rules/migrate-react-to-nextjs/migration-terminal.png"
 />
 
@@ -61,11 +58,8 @@ It is important to keep in mind that Next.js uses file-based routing, so there m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - keeping `react-router-dom` in the Next.js app",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - keeping `react-router-dom` in the Next.js app"}
   src="/uploads/rules/migrate-react-to-nextjs/react-router-dom.png"
 />
 
@@ -74,11 +68,8 @@ It is important to keep in mind that Next.js uses file-based routing, so there m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - adapting your project to use Next.js file-based routing",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - adapting your project to use Next.js file-based routing"}
   src="/uploads/rules/migrate-react-to-nextjs/next-routing.png"
 />
 

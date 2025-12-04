@@ -23,7 +23,7 @@ type: rule
 uri: reporting-services-version
 ---
 
-<endOfIntro />
+<endIntro />
 
 You can add the version number to the name of the reporting server by:
 
@@ -36,11 +36,8 @@ You can add the version number to the name of the reporting server by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Reporting Service version",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Reporting Service version"}
   src="/uploads/rules/reporting-services-version/ReportingServiceVersion.png"
 />
 
@@ -49,11 +46,8 @@ You can add the version number to the name of the reporting server by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - You can't tell what version of reporting services you are running",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - You can't tell what version of reporting services you are running"}
   src="/uploads/rules/reporting-services-version/VersionBad.png"
 />
 
@@ -62,10 +56,7 @@ You can add the version number to the name of the reporting server by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - We can clearly see that this is running Reporting Services 2019",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - We can clearly see that this is running Reporting Services 2019"}
   src="/uploads/rules/reporting-services-version/VersionGood.png"
 />

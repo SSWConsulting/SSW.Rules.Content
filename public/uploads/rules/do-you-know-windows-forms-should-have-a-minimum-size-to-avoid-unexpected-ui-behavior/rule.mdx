@@ -24,17 +24,14 @@ uri: do-you-know-windows-forms-should-have-a-minimum-size-to-avoid-unexpected-ui
 
 If windows form does not setup a minimum size, your users could have unpredictable form behaviour as seen below:
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Unexpected window form",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Unexpected window form"}
   src="/uploads/rules/do-you-know-windows-forms-should-have-a-minimum-size-to-avoid-unexpected-ui-behavior/Bugsize.gif"
 />
 
@@ -45,10 +42,7 @@ Therefore, a standard has been built to ensure Windows forms have a minimum size
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - User friendly window form",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - User friendly window form"}
   src="/uploads/rules/do-you-know-windows-forms-should-have-a-minimum-size-to-avoid-unexpected-ui-behavior/Minisize.gif"
 />

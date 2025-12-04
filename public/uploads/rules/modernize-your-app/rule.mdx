@@ -27,7 +27,7 @@ At some point, it becomes necessary to take the existing legacy system and updat
 
 Without focusing on the specific technology - there are 3 main approaches to modernizing applications:
 
-<endOfIntro />
+<endIntro />
 
 1. Big Bang (aka Rewrite)
 2. Evolutionary
@@ -57,11 +57,8 @@ Lock the developers into a room and shove some pizza under the door... and don't
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - big bang migration",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"OK example - big bang migration"}
   src="/uploads/rules/modernize-your-app/big-bang.png"
 />
 
@@ -86,11 +83,8 @@ The idea is to take the existing application and incrementally update it to a mo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - evolutionary migration (fitting a square peg in a round hole)",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"OK example - evolutionary migration (fitting a square peg in a round hole)"}
   src="/uploads/rules/modernize-your-app/evolutionary.png"
 />
 
@@ -103,11 +97,8 @@ The idea is to take the existing application and incrementally update it to a mo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "an actual strangler fig strangling a tree",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"an actual strangler fig strangling a tree"}
   src="/uploads/rules/modernize-your-app/strangler-fig.jpg"
 />
 
@@ -115,16 +106,13 @@ The idea is to take the existing application and incrementally update it to a mo
 The idea is to create a "new" application (with a modern architecture) that acts as a facade to the existing application - then port features bit by bit to the new/modern architecture. Once slices of functionality have been ported and are ready - re-point the facade to execute the new code. You can trigger this through feature flags and this also allows you to rollback to the old code if something goes wrong.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Looking to incrementally update an ASP.NET application? Read about using [YARP](https://microsoft.github.io/reverse-proxy/) and [Incremental ASP.NET to ASP.NET Core Migration](https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/?WT.mc_id=DT-MVP-33518)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -150,26 +138,20 @@ It works for AWS too - [Strangler Fig Application](https://docs.aws.amazon.com/p
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - strangler fig pattern in action during a migration",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - strangler fig pattern in action during a migration"}
   src="/uploads/rules/modernize-your-app/strangler-fig-pattern.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Tip: this pattern can be used when migrating websites to a new architecture. You can place Azure Front Door in front of the existing website. Once a page (or route) on the new website is ready - you can re-point that page in Front Door to the new website.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

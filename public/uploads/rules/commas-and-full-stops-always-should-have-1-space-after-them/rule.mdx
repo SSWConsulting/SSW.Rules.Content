@@ -30,60 +30,37 @@ uri: commas-and-full-stops-always-should-have-1-space-after-them
 
 When writing any documentation it is important to put **only one space** after commas or other punctuation. This makes the document easy to read and looks more professional.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Write clean code,and test it often.Together,they make better software.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - No space after comma and full stop",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - No space after comma and full stop**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Write clean code, &nbsp;and test it often. &nbsp;Together, &nbsp;they make better software.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Double space after comma and full stop",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Double space after comma and full stop**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Write clean code, and test it often. Together, they make better software.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - One space after full stop and comma",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - One space after full stop and comma**

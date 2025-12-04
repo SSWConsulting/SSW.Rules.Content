@@ -26,7 +26,7 @@ uri: angular-separate-component-concerns
 
 One common mistake in writing a front-end component is trying to fit everything in a single component. This can easily lead to unmaintainable code in the long run, especially for complex components.
 
-<endOfIntro />
+<endIntro />
 
 ## Why should you separate the logic?
 
@@ -75,12 +75,7 @@ private calculate(...): ComponentData {
   // Calculate implementation
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Massive amount of code intermingling from API calls to calculation to UI binding",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Massive amount of code intermingling from API calls to calculation to UI binding**  
 
 Here are the steps to split the logic:
 
@@ -125,12 +120,7 @@ Here are the steps to split the logic:
     // Calculate implementation
   }
   ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Use declarative code to bind UI value",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Use declarative code to bind UI value**  
 
 4. Split data display process.
 
@@ -179,12 +169,7 @@ Here are the steps to split the logic:
     });
   }
   ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: UI logic is separated from Data Fetching and Data Processing logic",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: UI logic is separated from Data Fetching and Data Processing logic**  
 
 5. (Optional) If the component is complex enough, consider splitting the data fetching with the data processing step to another component.
 
@@ -224,8 +209,4 @@ Here are the steps to split the logic:
     });
   }
   ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: All logics (data fetching, data processing, and data display) are now separated",
-  shouldDisplay: true
-} } />
+**✅ Figure: All logics (data fetching, data processing, and data display) are now separated**

@@ -21,7 +21,7 @@ isArchived: false
 
 Sometimes, ChatGPT may require more context or clarification to provide a helpful response. Encouraging the model to ask questions when it needs more information can improve the quality of its answers and prevent misunderstandings.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for prompting ChatGPT to ask for more context:
 
@@ -32,44 +32,35 @@ Here are some tips for prompting ChatGPT to ask for more context:
 - If you’re feeling lazy or short for time, you can even get it to only ask you multiple choice questions.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tell me what I should do with my money."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The prompt is vague and lacks context",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The prompt is vague and lacks context"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Can you give me advice on managing my finances? Feel free to ask any questions you need (1 at a time) for more information."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The prompt invites ChatGPT to ask for clarification if needed",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - The prompt invites ChatGPT to ask for clarification if needed"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tell me how to renovate my house. Ask any questions you need for more information. Ask the questions in multiple choice form, one at a time, and let me know on each response how many questions are left"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - using all the tips for a streamlined experience",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - using all the tips for a streamlined experience"}
 />
 
 

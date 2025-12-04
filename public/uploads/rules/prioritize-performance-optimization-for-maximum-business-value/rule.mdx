@@ -37,11 +37,11 @@ Include the following considerations:
 * What is the business impact of poor performance for this feature?
 * Are we planning to significantly change this feature in the near future?
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Adam,
 
@@ -52,22 +52,14 @@ Query 2: On the Home page is a query that currently takes 1 second that we can r
 
 We optimized the "Edit Item" page because that had the biggest measurable improvement.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer",
-  shouldDisplay: true
-} } />
+**❌ Bad example: Although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Adam,
 
@@ -83,14 +75,7 @@ Recommended actions:
 1. Please “reply all” with changes or your acceptance.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: There is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner",
-  shouldDisplay: true
-} } />
+**✅ Good example: There is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner**

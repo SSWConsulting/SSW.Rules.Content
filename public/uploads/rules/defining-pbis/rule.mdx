@@ -29,15 +29,15 @@ It is very common that a developer looks at a PBI to work on, and finds out that
 
 When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the [Definition of Ready](/have-a-definition-of-ready). Additionally, anyone working on the task who doesn't fully understand should raise the problem ASAP.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/OWeK5G-s3Nc" description={""} />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 Generally, there are a few pieces of information that every PBI should have:
@@ -50,11 +50,8 @@ Generally, there are a few pieces of information that every PBI should have:
 * [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -77,11 +74,8 @@ Ideally, you want to flag the missing information early, but it is better late t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The PBI has no information beyond a title",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The PBI has no information beyond a title"}
   src="/uploads/rules/defining-pbis/r1rmwbe9ak.png"
 />
 
@@ -90,10 +84,7 @@ Ideally, you want to flag the missing information early, but it is better late t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The PBI has a description, acceptance criteria, and more",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The PBI has a description, acceptance criteria, and more"}
   src="/uploads/rules/defining-pbis/xlwwtinlrk.png"
 />

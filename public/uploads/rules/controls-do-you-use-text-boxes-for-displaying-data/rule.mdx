@@ -22,7 +22,7 @@ uri: controls-do-you-use-text-boxes-for-displaying-data
 Use Label controls to display static text of the application. Eg. "Customer ID:"
 Use Text Box controls to display data (results of calculations, information, records from a database, etc.).
 
-<endOfIntro />
+<endIntro />
 
 The reasons are:
 
@@ -35,11 +35,8 @@ PS: One reason web UI's are nice, is that the information is always selectable/c
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Not only is the data cut off when you are using label, but you can't copy and paste the value",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Not only is the data cut off when you are using label, but you can't copy and paste the value"}
   src="/uploads/rules/controls-do-you-use-text-boxes-for-displaying-data/BetterInterface_LabelCutOff.jpg"
 />
 
@@ -48,11 +45,8 @@ PS: One reason web UI's are nice, is that the information is always selectable/c
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Using Textbox controls makes the data obvious to users",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Using Textbox controls makes the data obvious to users"}
   src="/uploads/rules/controls-do-you-use-text-boxes-for-displaying-data/GoodTextbox.gif"
 />
 
@@ -68,11 +62,8 @@ When using TextBox controls in Windows Forms, set them up like this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Having the 'BorderStyle' Property set to Fixed3D is the best choice visually",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Having the 'BorderStyle' Property set to Fixed3D is the best choice visually"}
   src="/uploads/rules/controls-do-you-use-text-boxes-for-displaying-data/BorderStyle_1.gif"
 />
 
@@ -82,10 +73,7 @@ When using TextBox controls in Windows Forms, set them up like this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Make the text box Read-Only (users copying data is OK, changing is silly)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Make the text box Read-Only (users copying data is OK, changing is silly)"}
   src="/uploads/rules/controls-do-you-use-text-boxes-for-displaying-data/ReadOnly_1.gif"
 />

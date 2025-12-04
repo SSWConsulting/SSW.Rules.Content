@@ -29,7 +29,7 @@ Also, to avoid unnecessary resource consumption, you should keep the entire meth
 
 If the class implements an inherited interface method, ensure the method throws NotImplementedException.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public class Example
@@ -40,12 +40,7 @@ public class Example
        }
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Method is empty",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - Method is empty**  
 
 ```cs
 public class Sample
@@ -56,12 +51,7 @@ public class Sample
         }
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Method implements some code",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - Method implements some code**  
 
 ```cs
 public interface IDemo
@@ -82,12 +72,7 @@ public class Demo : IDemo
       }
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - No Comment within empty code block",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - No Comment within empty code block**  
 
 ```cs
 public interface IDemo
@@ -109,8 +94,4 @@ public class Demo : IDemo
        }
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Added comment within Empty Code block method of interface class",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example - Added comment within Empty Code block method of interface class**

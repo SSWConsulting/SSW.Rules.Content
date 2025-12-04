@@ -27,7 +27,7 @@ uri: enterprise-password-manager-auditing
 
 Auditing access data is crucial for any enterprise to ensure security and compliance. Having an audit trail provides visibility into who accessed what data, when, and from where. An effective enterprise password manager should be able to offer this feature.
 
-<endOfIntro />
+<endIntro />
 
 For example, Keeper (an enterprise-focused password product) is a leading enterprise password manager that offers a comprehensive auditing feature. It provides administrators with detailed logs and reports on user access, ensuring transparency and accountability.
 
@@ -35,11 +35,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Keeper auditing shows exactly who opened what record",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Keeper auditing shows exactly who opened what record"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-good-example-auditreport_1716517805958.png"
 />
 
@@ -59,11 +56,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "First get the UID of the Folder/item for report",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"First get the UID of the Folder/item for report"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-getinteresing-itemuuid.png"
 />
 
@@ -72,16 +66,13 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
 3. **Navigate to the 'Reporting & Alerts' Section**: This allows an admin to create a custom report. Then add a new report.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can then create an alert from that report if required.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -92,11 +83,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Filter by the Event Type",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Filter by the Event Type"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-applyfilters2.png"
 />
 
@@ -105,11 +93,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Filter by Attributes - Category first",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Filter by Attributes - Category first"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-applyfilters1.png"
 />
 
@@ -118,11 +103,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Filter by Shared Folder / Item UID (Obtained from step 1)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Filter by Shared Folder / Item UID (Obtained from step 1)"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-filtering-the-report.png"
 />
 
@@ -135,11 +117,8 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "View the audit log",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"View the audit log"}
   src="/uploads/rules/enterprise-password-manager-auditing/keeper-good-example-auditreport_1716517805958.png"
 />
 

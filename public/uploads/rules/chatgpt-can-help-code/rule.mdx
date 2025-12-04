@@ -37,16 +37,13 @@ ChatGPT can be used for:
 * Helping perform code reviews
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** Ensure you double check code integrity before deploying to production!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -55,11 +52,8 @@ ChatGPT can be used for:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Asking ChatGPT to explain this code",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Asking ChatGPT to explain this code"}
   src="/uploads/rules/chatgpt-can-help-code/chatgpt-code-prompt.png"
 />
 
@@ -69,11 +63,8 @@ ChatGPT can be used for:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "ChatGPT explains the code",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"ChatGPT explains the code"}
   src="/uploads/rules/chatgpt-can-help-code/chatgpt-code-response.png"
 />
 

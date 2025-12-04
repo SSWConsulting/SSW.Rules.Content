@@ -30,7 +30,7 @@ Office 365 products eg. Teams, SharePoint, Exchange use User Profile Service as 
 
 The User Profile is simply a layer of information on top of Active Directory properties. As long as Azure AD is up to date (i.e. in sync with you On-Premises AD), the information in the User Profile Service will also be. You can then add new custom properties to store information such as extra phone numbers or skills coming from a predefined list. User Profile does not, however, allow complex custom scenarios.
 
-<endOfIntro />
+<endIntro />
 
 ### Where should the source of truth be?
 
@@ -43,11 +43,8 @@ Office 365 User Profile Service is a good tool at managing fields related to use
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "AD, UserProfile and O365 Services interactions",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"AD, UserProfile and O365 Services interactions"}
   src="/uploads/rules/the-right-place-to-store-employee-data/onpremisesad1.png"
 />
 
@@ -61,11 +58,8 @@ Companies want bots to answer more than just simple questions. If you have rich 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "CRM (Dynamics 365) used a source of truth",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"CRM (Dynamics 365) used a source of truth"}
   src="/uploads/rules/the-right-place-to-store-employee-data/onpremisesad2.png"
 />
 

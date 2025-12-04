@@ -26,7 +26,7 @@ The .NET framework and the C# language provide two methods for conditional handl
 
 The .NET compiler generates a jump list for switch blocks, resulting in far better performance than if/else for evaluating conditions. The performance gains are negligible when the number of conditions is trivial (i.e. fewer than 5), so if the code is clearer and more maintainable using if/else blocks, then you can use your discretion. But be prepared to refactor to a switch block if the number of conditions exceeds 5.
 
-<endOfIntro />
+<endIntro />
 
 ```dotnet
 int DepartmentId = GetDepartmentId()
@@ -55,12 +55,7 @@ else
 // do something #6
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example of coding practice",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example of coding practice**  
 
 ```dotnet
 int DepartmentId = GetDepartmentId()
@@ -89,11 +84,6 @@ default:
 break;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example of coding practice which will result better performance",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example of coding practice which will result better performance**  
 
 In situation where your inputs have a very skewed distribution, `if-else-if` could outperform `switch` statement by offering a fast path. Ordering your `if` statement with the most frequent condition first will give priority to tests upfront, whereas `switch` statement will test all cases with equal priority.

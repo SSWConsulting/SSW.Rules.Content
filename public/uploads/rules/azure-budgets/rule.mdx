@@ -17,9 +17,9 @@ createdBy: Piers Sinclair [SSW]
 createdByEmail: 79821522+pierssinclairssw@users.noreply.github.com
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 isArchived: false
-lastUpdated: 2025-07-31 00:46:18+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - monitor-azure-costs
 related:
@@ -37,7 +37,7 @@ Azure costs can be difficult to figure out and it is important to make sure ther
 
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/G7JEz8b-G24" description={"Video: Monitoring your Azure $ costs with Warwick Leahy (4 min)"} />
@@ -59,11 +59,8 @@ In addition to budgets, it's also a good idea to split costing between productio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No budget has been set up, disaster could be imminent and no one would know 🥶!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No budget has been set up, disaster could be imminent and no one would know 🥶!"}
   src="/uploads/rules/azure-budgets/viewbudgetbad.png"
 />
 
@@ -72,11 +69,8 @@ In addition to budgets, it's also a good idea to split costing between productio
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Budgets have been set up 😎",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Budgets have been set up 😎"}
   src="/uploads/rules/azure-budgets/viewbudget.png"
 />
 
@@ -93,11 +87,8 @@ If the company is really worried about costs, an Azure runbook could even be set
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No cost alerts, a recipe for disaster 😞!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No cost alerts, a recipe for disaster 😞!"}
   src="/uploads/rules/azure-budgets/budgetalertsbad.png"
 />
 
@@ -106,11 +97,8 @@ If the company is really worried about costs, an Azure runbook could even be set
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Cost alerts have been set up ✨",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Cost alerts have been set up ✨"}
   src="/uploads/rules/azure-budgets/budgetalerts.png"
 />
 
@@ -122,16 +110,13 @@ It can be scary when you get an alert. Luckily, Azure has a nice tool for managi
 Using this tool helps identify where the problem lies, and then you can build a plan of attack for handling it.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If your subscription is a Microsoft Sponsored account, you can't use the Cost Analysis tool to break down your costs, unfortunately. Microsoft has this planned for the future, but it's not here yet.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -146,11 +131,8 @@ Running a report every fortnight (grouped by the cost-category tab) will highlig
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Daily costs by category",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Daily costs by category"}
   src="/uploads/rules/azure-budgets/azurecostsbycategory_1710232021930.png"
 />
 
@@ -194,30 +176,24 @@ Total:
 $&#123;&#123; AMOUNT &#125;&#125; AUD + GST/month ($&#123;&#123; AMOUNT &#125;&#125; AUD + GST/year)
 **Tip:** Make sure you include the annual cost, as per: [Do you include the annual cost in quotes?](/include-annual-cost)
 
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](/uploads/rules/azure-budgets/azurecalcexample_1710232021930.jpg?WT.mc_id=AZ-MVP-33518)
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](/uploads/rules/azure-budgets/azurecalcexample_1710232021930.jpg)
 
 1. Please approve
 
 &lt; As per [https://ssw.com.au/rules/azure-budgets](https://ssw.com.au/rules/azure-budgets) &gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
-3. If the request is approved, remember to add a cost-category tag to the new resource once it is created
+1. If the request is approved, remember to add a cost-category tag to the new resource once it is created
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Make sure you include all resources you intend to create, even if they should be free. For example, you might create an App Service on an existing, shared App Service Plan. The Spend Master will still need to be aware of this, in case the App Service Plan needs to be scaled up.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

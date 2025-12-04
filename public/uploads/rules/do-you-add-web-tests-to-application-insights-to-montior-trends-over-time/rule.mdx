@@ -25,7 +25,7 @@ uri: do-you-add-web-tests-to-application-insights-to-montior-trends-over-time
 
 As soon as you have configured Application Insights, you should immediately add a Web Test to track general performance trends over time. You can configure test agents to access your application from different locations around the globe to give a general idea of what users will experience.
 
-<endOfIntro />
+<endIntro />
 
 Instructions on how to add Web Tests can be found on [Microsoft Learn - Application Insights availability tests
 (https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability?tabs=standard&WT.mc_id=AZ-MVP-33518).
@@ -36,11 +36,8 @@ Setting up a Web Test will allow you to query and see how the performance of you
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - You can clearly see the point where a fix to production improved the initial page load",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - You can clearly see the point where a fix to production improved the initial page load"}
   src="/uploads/rules/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time/App-Insights-Web-Test.png"
 />
 
@@ -51,10 +48,7 @@ You have the ability to drill down into web test results, to get an overview of 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Reviewing the Web test results that provides vital information",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Reviewing the Web test results that provides vital information"}
   src="/uploads/rules/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time/App-Insights-Web-Test-drilldown.png"
 />

@@ -27,7 +27,7 @@ Accountants are aware of the risks that come with sharing one credit card amongs
 
 To simplify expense management and improve financial processes, we encourage the use of Apple/Google Pay for company expenses. Adopting virtual wallets as the preferred payment method for in-store purchases streamlines expense management, increases accountability, and improves company expenditures management.
 
-<endOfIntro />
+<endIntro />
 
 ### Efficient Expense Tracking
 
@@ -40,11 +40,8 @@ For example, here are 3 purchases from the same vendor at the same time. By refe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "By implementing virtual cards, purchasers’ information can be taken from the bank statements",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"By implementing virtual cards, purchasers’ information can be taken from the bank statements"}
   src="/uploads/rules/apple-google-pay-for-expenses/purchasers-info-virtual-cards.jpg"
 />
 
@@ -59,61 +56,37 @@ Apple/Google Pay provides a centralized and easily accessible record of transact
 Apple/Google Pay incorporates robust security measures to protect against fraud and unauthorized transactions. Tokenization and biometric authentication ensure that only authorized individuals can initiate and complete transactions. By encouraging staff to use Apple/Google Pay, we can mitigate potential financial risks and safeguard company resources.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Scenario:** Everyone share the same credit card detail, hard to know who made the purchase.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
+**❌ Bad example**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Scenario:** Everyone receives a physical card, with each of them having independent card details (a risk multiplier). The accountants know who paid the money, but hard to manage them and easy to get hacked.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK example",
-  shouldDisplay: true
-} } />
+**😐 OK example**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Scenario:** Everyone can access funds through Apple/Google Pay without creating separate credit cards, and the payment must be approved through the phone with biometric authentication.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Good example**  
 
 There is also an option that company can manage those expenses through third parties.
 

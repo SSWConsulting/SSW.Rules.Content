@@ -27,17 +27,14 @@ The Single Responsibility Principle is a well understood, and well-accepted tene
 
 When designing components, keep them small, modular and reusable. For example, if you have a menu, put it into a menu component, don’t put it in your app component.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test"}
   src="/uploads/rules/write-small-components/comp-1.png"
 />
 
@@ -46,10 +43,7 @@ When designing components, keep them small, modular and reusable. For example, i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages"}
   src="/uploads/rules/write-small-components/comp-2.png"
 />

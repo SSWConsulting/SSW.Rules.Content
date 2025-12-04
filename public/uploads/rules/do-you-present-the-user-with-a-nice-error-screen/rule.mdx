@@ -33,17 +33,14 @@ uri: do-you-present-the-user-with-a-nice-error-screen
 
 Your users should never see the “yellow screen of death”. Errors should be caught, logged and a user-friendly screen displayed to the user.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example – ASP.NET Yellow Screen of Death",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example – ASP.NET Yellow Screen of Death"}
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-bad.png"
 />
 
@@ -52,11 +49,8 @@ Your users should never see the “yellow screen of death”. Errors should be c
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Default exception page",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Default exception page"}
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-default.png"
 />
 
@@ -65,11 +59,8 @@ Your users should never see the “yellow screen of death”. Errors should be c
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - GitHub custom error page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - GitHub custom error page"}
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/error-screen-good.png"
 />
 
@@ -101,11 +92,8 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "This is how you set it up in .NET 5",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"This is how you set it up in .NET 5"}
   src="/uploads/rules/do-you-present-the-user-with-a-nice-error-screen/net-core-development.png"
 />
 

@@ -26,7 +26,7 @@ uri: do-you-use-one-class-per-file
 
 Each class definition should live in its own file. This ensures it's easy to locate class definitions outside the Visual Studio IDE (e.g. SourceSafe, Windows Explorer)
 
-<endOfIntro />
+<endIntro />
 
 The **only** exception should be classes that collectively forms one atomic unit of reuse should live in one file.
 
@@ -56,8 +56,4 @@ class MyClassBException
     // ...
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - 1 project, 1 file",
-  shouldDisplay: true
-} } />
+**❌ Bad example - 1 project, 1 file**

@@ -26,7 +26,7 @@ uri: borders-around-white-images
 
 Imagine you're browsing a website. You come across an area on the page that seems oddly blank, only to realize it's a white image blending seamlessly into the white background. This disrupts the browsing experience. So how do you prevent that?
 
-<endOfIntro />
+<endIntro />
 
 ## The Importance of Image Borders
 
@@ -39,11 +39,8 @@ Making your images distinct is a key part of creating a user-friendly website. Y
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Can't tell where the image begins and ends!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Can't tell where the image begins and ends!"}
   src="/uploads/rules/borders-around-white-images/white-no-border.png"
 />
 
@@ -52,24 +49,18 @@ Making your images distinct is a key part of creating a user-friendly website. Y
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - This looks much better",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - This looks much better"}
   src="/uploads/rules/borders-around-white-images/white-border.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Note: You should also add a [useful caption to every image](/add-useful-and-concise-figure-captions/).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

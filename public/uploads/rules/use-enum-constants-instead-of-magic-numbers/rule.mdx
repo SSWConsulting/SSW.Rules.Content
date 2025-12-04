@@ -23,17 +23,14 @@ uri: use-enum-constants-instead-of-magic-numbers
 
 Using "Magic numbers" in your code makes it confusing and really hard to maintain.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - \"Magic Number\" works, but is a bad idea",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - \"Magic Number\" works, but is a bad idea"}
   src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/MagicNumberBad.png"
 />
 
@@ -42,11 +39,8 @@ Using "Magic numbers" in your code makes it confusing and really hard to maintai
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Add Enum",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Add Enum"}
   src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/enumClass.png"
 />
 
@@ -55,10 +49,7 @@ Using "Magic numbers" in your code makes it confusing and really hard to maintai
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - No Magic Number, looks good and is easy to manage",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - No Magic Number, looks good and is easy to manage"}
   src="/uploads/rules/use-enum-constants-instead-of-magic-numbers/MagicNumberGood.png"
 />

@@ -27,7 +27,7 @@ uri: do-you-use-these-useful-react-hooks
 
 React Hooks streamline state management and lifecycle processes in functional components, resulting in cleaner, more performant code. These are the most common and useful hooks that you should use in your React project:
 
-<endOfIntro />
+<endIntro />
 
 ## 1. **useState**: Managing Local State 🧠
 
@@ -50,17 +50,14 @@ export default function Counter() {
 **Figure: Using useState for a counter component**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     ***Naming Convention***:
 It's a common convention to name state variables using the pattern [**count**, **setCount**] with array destructuring.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -108,16 +105,13 @@ export default function Counter() {
 **Figure: useEffect Count example**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     It's similar in concept to **Angular's** **ngOnChanges** lifecycle hook. While **ngOnChanges** in Angular detects and reacts to changes in input-bound properties, React's useEffect serves a broader purpose.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

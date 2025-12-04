@@ -30,23 +30,20 @@ Session-based test management (SBTM) is a lightweight approach to the management
 
 > [SBTM is] a way for the testers to make orderly reports and organize their work without obstructing the flexibility and serendipity that makes exploratory testing useful - Jon Bach
 
-<endOfIntro />
+<endIntro />
 
 ### Testing in sessions
 
 The "session" is the basic unit of work in exploratory testing (and not, for example, a test case or bug report).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     A "session" is an uninterrupted and timeboxed period of reviewable, chartered test effort
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -55,11 +52,8 @@ The "session" is the basic unit of work in exploratory testing (and not, for exa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Deep testing requires focus and focus doesn't survive interruption",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Deep testing requires focus and focus doesn't survive interruption"}
   src="/uploads/rules/manage-report-exploratory-testing/dont-interrupt.jpg"
 />
 
@@ -76,24 +70,21 @@ Breaking this down:
 Charters are designed to set the mission for some testing. They should guide the tester without being prescriptive about what they should do. A good template for structuring charters comes from Elisabeth Hendrickson:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Explore (target) with (resources) to discover (information)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 Some examples of charters using this template are:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Explore the payment flow with different sequences of events to discover problems with transactions
 
@@ -101,11 +92,8 @@ Explore the chat state model with a random walk of events and transitions to dis
 
 Explore the new security system with existing system capabilities to discover possible privilege escalation risks
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -126,16 +114,13 @@ The **session sheet** is the output artifact from a session and this is designed
 An example of a session sheet template can be found in Michael Bolton's [An Exploratory Tester's Notebook](https://www.developsense.com/presentations/2007-10-PNSQC-AnExploratoryTestersNotebook.pdf).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Store your session sheets in the same place as your other project documentation. For example, if your user stories are in Azure DevOps, then add your session sheets to Azure DevOps and link them to the user story so that it's very easy to see the testing that was performed for a particular story.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -162,11 +147,8 @@ This mindmap is an example of how session notes could be recorded:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Notetaking in a mindmap from a session of exploratory testing",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Notetaking in a mindmap from a session of exploratory testing"}
   src="/uploads/rules/manage-report-exploratory-testing/mindmap-session.jpg"
 />
 
@@ -180,11 +162,8 @@ A very important - and often overlooked - aspect of SBTM is the idea of session 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Debriefing is an opportunity to share your testing story",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Debriefing is an opportunity to share your testing story"}
   src="/uploads/rules/manage-report-exploratory-testing/stories-matter.jpg"
 />
 

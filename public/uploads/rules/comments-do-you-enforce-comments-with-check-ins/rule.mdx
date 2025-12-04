@@ -30,30 +30,24 @@ uri: comments-do-you-enforce-comments-with-check-ins
 
 Team Foundation Server is great, and one of its neat features is enforcing comments when checking in code. Without comments, some of the other built in features like History become redundant without comments.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You should have good comments... if you are struggling use [Excuses For Lazy Coders](http://programmingexcuses.com/) :)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example: No Comments against the check-ins we don’t know what changes were made in each revision",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example: No Comments against the check-ins we don’t know what changes were made in each revision"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-21-04 AM.png"
 />
 
@@ -62,11 +56,8 @@ Team Foundation Server is great, and one of its neat features is enforcing comme
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example: Now we can pin point which revision a particular change has been made",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example: Now we can pin point which revision a particular change has been made"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-24-40 AM.png"
 />
 
@@ -78,11 +69,8 @@ In Visual Studio 2013, to enforce this behaviour, you will need to:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Go to Team Explorer | Source Control",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Go to Team Explorer | Source Control"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-41-30 AM.png"
 />
 
@@ -92,11 +80,8 @@ In Visual Studio 2013, to enforce this behaviour, you will need to:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Then Check-in Policy | Add",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Then Check-in Policy | Add"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-42-21 AM.png"
 />
 
@@ -106,11 +91,8 @@ In Visual Studio 2013, to enforce this behaviour, you will need to:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Then select Changeset Comments Policy and OK",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Then select Changeset Comments Policy and OK"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-42-43 AM.png"
 />
 
@@ -120,11 +102,8 @@ In Visual Studio 2013, to enforce this behaviour, you will need to:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Now you have the Changeset Comments Policy applied to your Team Project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Now you have the Changeset Comments Policy applied to your Team Project"}
   src="/uploads/rules/comments-do-you-enforce-comments-with-check-ins/15-07-2014 10-42-56 AM.png"
 />
 

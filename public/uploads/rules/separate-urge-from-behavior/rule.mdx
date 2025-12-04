@@ -19,7 +19,6 @@ lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
 related:
 - rule: public/uploads/rules/accepting-unsolicited-feedback/rule.mdx
-- rule: public/uploads/rules/how-to-respond-to-criticism/rule.mdx
 seoDescription: Struggling with negative reactions to feedback or bad news? Learn
   to manage your emotional responses by separating initial urges from behavior.
 title: Do you know how to separate the urge from the behavior?
@@ -33,7 +32,7 @@ These habits are not good as they lead to negative emotional responses.
 
 To get out of this habit, you can try to separate the initial emotional urge from the actual behavior and break the connection.
 
-<endOfIntro />
+<endIntro />
 
 Next time you are in a situation where you have the urge to respond negatively, instead of reacting immediately set a timer for 30 minutes.
 After this time, you can decide if you still want to proceed once your head is clear.
@@ -56,8 +55,8 @@ This concept applies at work and at home.
 Imagine John implemented a nav menu on a website, and he receives this email from the client.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi John,
 
@@ -65,35 +64,24 @@ The nav menu is on the wrong side of the page. It should be on the left, not the
 
 1. Please fix this
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 ### Option 1 - React immediately
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey Bob,
 
 How am I supposed to know that? I'm almost certain The PBIs Acceptance Criteria said put it on the right.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"**Figure: Bad example - reacting immediately can lead to a bad decision 😡**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "**Figure: Bad example - reacting immediately can lead to a bad decision 😡**",
-  shouldDisplay: true
-} } />
 
 
 ### Option 2 - Set a time for 30 min, then respond
@@ -101,22 +89,14 @@ How am I supposed to know that? I'm almost certain The PBIs Acceptance Criteria 
 You will be able to respond calmly and logically.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey Bob,
 
 Thanks for letting me know, I've taken some time to check the Acceptance Criteria and you're right - I must have misread it.
 This is quick to fix, so I'll do it now and send you a screenshot.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"**Figure: Good example - setting a timer disconnects the urge from the behavior (bad reaction)**"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example - setting a timer disconnects the urge from the behavior (bad reaction)**",
-  shouldDisplay: true
-} } />

@@ -29,13 +29,13 @@ It is a good idea to create a dummy company to represent all clients on interna
 
 For example, anytime you need to show a scenario of dealing with clients, use the made-up company called "Northwind" which is managed by the also made-up client "Mr. Bob Northwind", often referred to as just "Bob".
 
-<endOfIntro />
+<endIntro />
 
 Most of documentation starts from a real-world situation, but you don't want to expose real clients' names.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Hi Mark Zuckerberg,**
 
@@ -43,22 +43,14 @@ We need to make sure the project **Facebook app** will be approved before summer
 
 Regards,
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Using real people and real companies as examples"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Using real people and real companies as examples",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Hi Bob,**
 
@@ -66,14 +58,7 @@ We need to make sure the project **Northwind app** will be approved before summe
 
 Regards,
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Using dummy consistent names on examples",
-  shouldDisplay: true
-} } />
+**✅ Good example - Using dummy consistent names on examples**

@@ -27,19 +27,16 @@ uri: run-rsat-from-non-domain-computer
 
 With more companies adopting BYOD policies, it is important for SysAdmins to be able to connect to Remote Server Administrative Tools (RSAT) like Active Directory Users and Computers (ADUC) in a secure way, even if their computer is not connected to the domain.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** You should make sure any personal devices connecting to your network are secure, with [Intune](/implementing-intune) or a similar solution.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -51,11 +48,8 @@ The least secure way is to use Remote Desktop Connection to make changes directl
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - RDP directly to the domain controller",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - RDP directly to the domain controller"}
   src="/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png"
 />
 
@@ -72,11 +66,8 @@ Since the tool is browser-based, you only need to allow access to one port for H
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Managing AD in Windows Admin Center",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Managing AD in Windows Admin Center"}
   src="/uploads/rules/run-rsat-from-non-domain-computer/admin-center-aduc.png"
 />
 
@@ -88,16 +79,13 @@ Read more about Windows Admin Center here: [Do you use Windows Admin Center?](/w
 While Windows Admin Center is a great solution, many SysAdmins prefer the extra functionality and classic interface of RSAT (Remote Server Administration Tools) in MMC (Microsoft Management Console) that you can easily run from a domain joined computer.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     You can also use this if you have a domain-joined computer, but you need to use a different account to the one you log in with to access RSAT.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -115,11 +103,8 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "MMC | Add or Remove Snap-ins",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"MMC | Add or Remove Snap-ins"}
   src="/uploads/rules/run-rsat-from-non-domain-computer/mmc-add-snapin.png"
 />
 
@@ -130,11 +115,8 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "ADUC | Change domain",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"ADUC | Change domain"}
   src="/uploads/rules/run-rsat-from-non-domain-computer/aduc-domain.png"
 />
 

@@ -11,9 +11,9 @@ createdBy: Ben Neoh [SSW]
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
 guid: 3d9644e5-1d2d-456f-a7b4-90b8923a1e4b
 isArchived: false
-lastUpdated: 2025-09-19 01:17:38+00:00
-lastUpdatedBy: Ben Neoh [SSW]
-lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/choose-azure-services/rule.mdx
 seoDescription: Learn why you should use Azure Migrate and the App Service Migration
@@ -27,7 +27,7 @@ uri: do-you-use-azure-migrate-to-move-to-cloud
 
 Migrating legacy applications to Azure without first performing a readiness assessment can lead to unexpected failures or hidden blockers. Using Azure’s App Service Migration Assistant, an on-premises web application was assessed and packaged for migration efficiently through Microsoft’s PowerShell scripts.
 
-<endOfIntro />
+<endIntro />
 
 By following this structured, automated approach, migrations are faster, clearer, and more predictable.
 
@@ -40,8 +40,8 @@ By following this structured, automated approach, migrations are faster, clearer
 * **Repeatable and scalable** – Scripts are well-documented, ideal for reuse across multiple migrations.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Scripts used:
 
@@ -52,11 +52,8 @@ By following this structured, automated approach, migrations are faster, clearer
 2. `Get-SitePackage.ps1` – Packages the site for migration.
 3. `Generate-MigrationSettings.ps1` – Generates deployment configuration files.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example – A clear, script-driven process with consistent output.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good Example – A clear, script-driven process with consistent output."}
 />
 
 

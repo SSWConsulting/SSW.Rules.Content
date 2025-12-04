@@ -36,17 +36,14 @@ In the service properties window for these services, ensure that the Service Sta
 
 For security, you should not have this domain account in the Administrators group.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This service is using a built-in local service account",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This service is using a built-in local service account"}
   src="/uploads/rules/configure-all-your-sql-server-services-to-use-a-domain-account/SQLDatabases_RunAsAccount_Bad.png"
 />
 
@@ -55,10 +52,7 @@ For security, you should not have this domain account in the Administrators grou
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Run as Account should use a domain account rather than a built-in account",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Run as Account should use a domain account rather than a built-in account"}
   src="/uploads/rules/configure-all-your-sql-server-services-to-use-a-domain-account/SQLDatabases_RunAsAccount.png"
 />

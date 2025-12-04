@@ -16,9 +16,9 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
 created: 2021-10-19T23:57:00.000Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
-lastUpdated: 2024-07-28T23:56:47.000Z
-lastUpdatedBy: Gabby Ward [SSW]
-lastUpdatedByEmail: gabby.ward98@outlook.com
+lastUpdated: 2025-10-14T14:04:35.000Z
+lastUpdatedBy: Hugo Pernet [SSW]
+lastUpdatedByEmail: hugo.pernet@esial.net
 createdBy: Warwick Leahy [SSW]
 createdByEmail: 58454534+leahy268@users.noreply.github.com
 isArchived: false
@@ -29,7 +29,7 @@ At the time of a disaster, you should have a few objectives established and meas
 
 It's recommended to practice your disaster recovery at least once every 12 months. This way you make sure that you are investing in the minimum amount of required resources, and that your plan actually works.
 
-<endOfIntro />
+<endIntro />
 
 ### So what do these terms mean?
 
@@ -38,11 +38,8 @@ It's recommended to practice your disaster recovery at least once every 12 month
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "RTO's vs RPO's",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"RTO's vs RPO's"}
   src="/uploads/rules/disaster-recovery-plan/93c56eff-8d11-4123-a2d6-1305911f07b0.jpg"
 />
 
@@ -64,16 +61,13 @@ RPA or Recovery Point Actual, is the actual measurement of the amount of data lo
 RTA or Recovery Time Actual, is the actual measurement of downtime during a disaster recovery.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few minutes as even in that few minutes, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -95,18 +89,15 @@ In his Disaster Recovery Plan he had the following objectives:
 | North Sales       | 4 hours | 8 hours |
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 It is important that these objectives are signed off by the Product Owner as per [this rule](/do-you-ask-clients-to-initial-your-work)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

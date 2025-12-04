@@ -31,11 +31,8 @@ When working with clients, inevitably you'll find yourself in Teams calls, and i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The client feels like they are talking to a blank screen. Even with a profile picture, it feels impersonal",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The client feels like they are talking to a blank screen. Even with a profile picture, it feels impersonal"}
   src="/uploads/rules/camera-on-for-clients/untitled2.png"
 />
 
@@ -44,11 +41,8 @@ When working with clients, inevitably you'll find yourself in Teams calls, and i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The client can see your face, and the call feels much more relaxed and personal",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The client can see your face, and the call feels much more relaxed and personal"}
   src="/uploads/rules/camera-on-for-clients/untitled.png"
 />
 
@@ -59,14 +53,11 @@ Of course there are exceptions, and there are times when you should definitely n
 * If someone is having network problems, often turning off video helps
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** It's always a good idea to have one person screensharing when pair programming
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

@@ -26,7 +26,7 @@ Since .NET 5+, the choice between using String.Empty and "" is a stylistic decis
 
 From the team that worked on performance in .NET: [String.Empty vs "" in modern .NET language](https://youtube.com/clip/UgkxIv8HnqTApTo6VOuEvBkAx3VnjY6RioCh)
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 public string myString
@@ -39,12 +39,7 @@ public string myString
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad code if used in .NET Framework. Low performance",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad code if used in .NET Framework. Low performance**  
 
 ```csharp
 public string myString
@@ -60,11 +55,6 @@ public string myString
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good code if used in .NET Framework. Higher performance",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good code if used in .NET Framework. Higher performance**  
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#StringEmpty) to check for this rule.

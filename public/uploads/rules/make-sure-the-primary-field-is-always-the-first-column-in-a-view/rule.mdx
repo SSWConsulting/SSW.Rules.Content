@@ -26,7 +26,7 @@ uri: make-sure-the-primary-field-is-always-the-first-column-in-a-view
 
 When modifying existing or creating custom views in Dynamics (or Model-driven PowerApps) always pay special attention to the first column. The first column should always contain the **Primary Field** for the entity that the view is based on. For example, all views for **Opportunities** should use **Topic** (name), **Contacts** should use **Full Name** (fullname) as the first column.
 
-<endOfIntro />
+<endIntro />
 
 The reason for this is the Primary Field in a view displays as a hyperlink to the underlying record. It is very convenient and natural to click the first item in the view, as this will then take you to the record. If any other field is used the user will either need to double click the row to navigate to the record (non-lookup) or will be taken to a completely different entities record (lookup field).
 
@@ -36,11 +36,8 @@ Some examples below:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A lookup field is the first column",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - A lookup field is the first column"}
   src="/uploads/rules/make-sure-the-primary-field-is-always-the-first-column-in-a-view/bad-primary-field.png"
 />
 
@@ -51,11 +48,8 @@ In this example, **Account** is the first column in the view, the natural tenden
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A regular field is the first column",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - A regular field is the first column"}
   src="/uploads/rules/make-sure-the-primary-field-is-always-the-first-column-in-a-view/bad-primary-field-2.png"
 />
 
@@ -66,11 +60,8 @@ In this example **Probability** is the first column in the view, again users ten
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Primary Field is the first column",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Primary Field is the first column"}
   src="/uploads/rules/make-sure-the-primary-field-is-always-the-first-column-in-a-view/good-primary-field.png"
 />
 

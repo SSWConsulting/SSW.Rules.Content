@@ -31,7 +31,7 @@ Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET 
 
 Check out the Microsoft Docs for more information on [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?WT.mc_id=DT-MVP-33518).
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 [ApiController]
@@ -45,22 +45,12 @@ public class HelloWorldController : ControllerBase
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - 9 lines of code for a simple endpoint",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - 9 lines of code for a simple endpoint**  
 
 ```csharp
 app.MapGet("/", () => "Hello World!");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - 1 line of code for a simple endpoint",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - 1 line of code for a simple endpoint**  
 
 Minimal APIs are great for
 

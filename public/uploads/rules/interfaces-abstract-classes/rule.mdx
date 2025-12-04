@@ -28,7 +28,7 @@ uri: interfaces-abstract-classes
 
 When embarking on understanding a new codebase, it's crucial to identify the components that offer the most insight with the least effort. Interfaces and Abstract Classes stand out as the pillars that uphold the structure and behavior of the code, providing a clear overview without delving into the intricate details of implementation.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://youtu.be/9j-uECGrqSI" description={"Video: How to Read Source Code: Interfaces and abstract classes | Luke Mao | SSW Rules (6 min)"} />
@@ -127,12 +127,7 @@ interface Bulldog extends Dog {
   snore(): void;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - When you over abstract, it becomes harder to find the right place to add new methods",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - When you over abstract, it becomes harder to find the right place to add new methods**  
 
 The role of the interface is to reduce coupling. For example, if you need to change how the area is calculated for a rectangle but not for a circle, you can do so without affecting how the circle behaves. It also improves scalability. Every time a new shape is added, there is already a set of well-defined methods, making it easier to add the new class.​
 

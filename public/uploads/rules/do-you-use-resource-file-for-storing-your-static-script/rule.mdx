@@ -26,7 +26,7 @@ uri: do-you-use-resource-file-for-storing-your-static-script
 
 Resource files provide a structured and centralized approach to storing and retrieving static scripts, eliminating the need for scattered code snippets and enhancing your development workflow.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 StringBuilder sb = new StringBuilder();
@@ -37,12 +37,7 @@ sb.AppendLine(string.Format(@"{0}.Delete({0}.GetRowFromClientId(rowId));", Owner
 sb.AppendLine(@"}");
 sb.AppendLine(@"</script>");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Hard to read, the string is surrounded by rubbish + inefficient because you have an object and 6 strings",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Hard to read, the string is surrounded by rubbish + inefficient because you have an object and 6 strings**  
 
 ```cs
 string.Format(@"
@@ -54,12 +49,7 @@ string.Format(@"
 </script>
 ", OwnersGrid.ClientID);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example Slightly easier to read ?but it is 1 code statement across 10 lines",
-  shouldDisplay: true
-} } />
-
+**✅ Good example Slightly easier to read ?but it is 1 code statement across 10 lines**  
 
 ```cs
 string scriptTemplate = Resources.Scripts.DeleteJavascript;
@@ -82,11 +72,8 @@ string script = string.Format(scriptTemplate, OwnersGrid.ClientID);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a recourse file into your project in VS2005",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Add a recourse file into your project in VS2005"}
   src="/uploads/rules/do-you-use-resource-file-for-storing-your-static-script/CreateResource_small.jpg"
 />
 
@@ -96,10 +83,7 @@ string script = string.Format(scriptTemplate, OwnersGrid.ClientID);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Read value from the new added resource file",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Read value from the new added resource file"}
   src="/uploads/rules/do-you-use-resource-file-for-storing-your-static-script/ReadResource_small.jpg"
 />

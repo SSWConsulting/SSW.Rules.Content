@@ -26,17 +26,14 @@ uri: limit-mac-addresses-network-switches
 
 Have you ever faced a scenario where an unauthorized device is discreetly connected to an open port on your network switch, potentially intercepting sensitive data or disrupting critical services? This situation isn’t just theoretical - it can lead to serious security breaches, data theft, and system downtime if you do not restrict the MAC addresses allowed to connect.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - An access port with continuous learn mode, meaning any device can connect to it and no security traps will be raised",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - An access port with continuous learn mode, meaning any device can connect to it and no security traps will be raised"}
   src="/uploads/rules/limit-mac-addresses-network-switches/badexampleports.png"
 />
 
@@ -47,11 +44,8 @@ An open switch port accepts any device, allowing a malicious actor to connect an
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A switch port accepts only predefined MAC addresses, or is limited on the number of MAC addresses it can learn. Unauthorized devices are immediately blocked, safeguarding the network’s perimeter",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - A switch port accepts only predefined MAC addresses, or is limited on the number of MAC addresses it can learn. Unauthorized devices are immediately blocked, safeguarding the network’s perimeter"}
   src="/uploads/rules/limit-mac-addresses-network-switches/goodexampleports.png"
 />
 

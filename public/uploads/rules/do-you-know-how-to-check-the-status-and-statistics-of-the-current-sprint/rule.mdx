@@ -31,7 +31,7 @@ It's easy to forget about testing, but this will often result in rework or bug f
 
 Keeping an eye on the results of [acceptance testing](/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria) can help you understand where things are really at in the Sprint.
 
-<endOfIntro />
+<endIntro />
 
 Azure Test Plans provides two different ways to see testing status, a built-in [Progress Report](https://docs.microsoft.com/en-us/azure/devops/test/progress-report?view=azure-devops&WT.mc_id=AZ-MVP-33518) and customizable [Test Status](https://docs.microsoft.com/en-us/azure/devops/test/track-test-status?view=azure-devops&WT.mc_id=AZ-MVP-33518) charts.
 
@@ -44,11 +44,8 @@ Select the "Progress Report" item in the Azure Test Plans sidebar:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Progress Report showing that this Sprint currently has 2 'Failed' tests (red) and 2 'Passed' tests (green)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Progress Report showing that this Sprint currently has 2 'Failed' tests (red) and 2 'Passed' tests (green)"}
   src="/uploads/rules/do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint/progress-report.jpg"
 />
 
@@ -64,11 +61,8 @@ From the appropriate Test Plan for the Sprint, select "Chart" and then "New test
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Adding a test result chart to visualise test status in Azure Test Plans",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Adding a test result chart to visualise test status in Azure Test Plans"}
   src="/uploads/rules/do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint/test-status-charts.jpg"
 />
 
@@ -77,24 +71,18 @@ From the appropriate Test Plan for the Sprint, select "Chart" and then "New test
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Different charts visualise test status in different ways",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Different charts visualise test status in different ways"}
   src="/uploads/rules/do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint/test-status-charts-more.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Think of the red (representing failed tests) as work remaining for the developers and the blue (representing unfinished tests) as working remaining for the testers.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

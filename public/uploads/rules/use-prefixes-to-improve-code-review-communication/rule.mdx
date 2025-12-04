@@ -23,36 +23,28 @@ uri: use-prefixes-to-improve-code-review-communication
 
 In the world of code reviews, ambiguity can lead to confusion, misunderstandings, and wasted time. Utilizing prefixes for code review comments is like providing a map for navigating complex terrain, ensuring that everyone involved in the review process remains on the same page. Incorporating prefixes in code review communication can prevent potential challenges, enhancing collaboration, clarity, and code quality. With these small changes, you can streamline and improve the overall code review process and complete reviews quickly and efficiently.
 
-<endOfIntro />
+<endIntro />
 
 When conducting code reviews in a collaborative environment, it is essential to maintain effective communication. Utilizing prefixes in comments, as suggested on [conventionalcomments.org](https://conventionalcomments.org), can significantly enhance the code review process. Prefixes help convey the intent and impact of a comment, making it easier for the author and other team members to understand how to address it.
 
 Let's have a look at the following example from Bob Northwind:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     @bob-northwind
 
 This code could be better optimized
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Without a prefix, this comment's intent is vague. It's not evident whether it's a suggestion, a question, or an issue.",
-  shouldDisplay: true
-} } />
+**❌ Figure: Without a prefix, this comment's intent is vague. It's not evident whether it's a suggestion, a question, or an issue.**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     @bob-northwind
 
@@ -60,24 +52,16 @@ This code could be better optimized
 
 It is not critical but there are a few minor improvements that can be applied to increase performance.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: The prefix \"suggestion\" indicates that the comment is a suggestion for improvement",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: The prefix "suggestion" indicates that the comment is a suggestion for improvement**  
 
 Adding a prefix like "suggestion" clarifies the intent of the comment, making it actionable. The context provided helps the author see the potential impact of the suggested change.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     @bob-northwind
 
@@ -85,18 +69,10 @@ Adding a prefix like "suggestion" clarifies the intent of the comment, making it
 
 There is a potential for SQL Injection and this vulnerability could lead to a critical security breach if not fixed.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: The prefix \"issue\" and following context clearly define the comment's importance and category.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: The prefix "issue" and following context clearly define the comment's importance and category.**  
 
 In this example, the prefix "issue" conveys the urgency of the matter, helping the team prioritize and act accordingly.
 
@@ -105,18 +81,15 @@ Using prefixes also helps categorize comments for tracking and reporting purpose
 By adhering to a consistent format such as:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **&#123;&#123; prefix &#125;&#125;**: &#123;&#123; subject &#125;&#125;
 
 &#123;&#123; discussion &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

@@ -26,17 +26,12 @@ uri: avoid-clever-code
 
 Clever Code comes in several forms. The desired form is solving a complex problem, in a simple way. The Clever Code that causes tech debt, is when code is written in a way to use the language features to look 'smart', while making it difficult for developers to read.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 var totalMoved = sortedChannels.Where((channel, i) => channel.Position != i).Count();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Smart code, that could be even simpler! (Although, not bad by any means)",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Smart code, that could be even simpler! (Although, not bad by any means)**  
 
 ```cs
 var totalMoved = 0;
@@ -51,12 +46,7 @@ for (var i = 0; i < sortedChannels.Count; i++)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Simple code, while it has more lines, it is easier to read!",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Simple code, while it has more lines, it is easier to read!**  
 
 ### When is Simple Code Bad?
 

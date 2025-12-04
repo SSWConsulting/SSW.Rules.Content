@@ -25,29 +25,26 @@ uri: do-you-make-sure-that-all-your-tags-are-well-formed
 Do you know how to form HTML/XML tags on webpages?
 We need to make sure that all HTML/XML tags which open once, must be closed properly.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;div&gt;
  &lt;p&gt;Hello HTML&lt;/p&gt;
  &lt;/div&gt;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 Figure: Good Example
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;breakfast_menu&gt;
 
@@ -65,18 +62,15 @@ Figure: Good Example
 
 &lt;/breakfast_menu&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 Figure: Good Example
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;div&gt;
 
@@ -85,18 +79,15 @@ Figure: Good Example
 &lt;/div&gt;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 Figure: Bad Example
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;breakfast_menu&gt;
 
@@ -114,11 +105,8 @@ Figure: Bad Example
 
 &lt;/breakfast_menu&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 Figure: Bad Example

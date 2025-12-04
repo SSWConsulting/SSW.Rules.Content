@@ -29,7 +29,7 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 
 ![](/uploads/rules/pc-do-you-organize-your-hard-disk/data-backup.jpg)
 
-<endOfIntro />
+<endIntro />
 
 ### Domain-joined checklist
 
@@ -46,16 +46,13 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
  Which one? &#123;&#123; CLOUD APP &#125;&#125;
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Some good options include OneDrive for Business and Dropbox. You should [always keep important files in the cloud](/pc-do-you-use-the-best-backup-solution) for security reasons.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -63,8 +60,8 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 Location: &#123;&#123; LOCATION &#125;&#125; Size: &#123;&#123; USED &#125;&#125; GB of &#123;&#123; TOTAL &#125;&#125; GB Errors &#123;&#123; NUMBER OF ERRORS &#125;&#125;
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** For OneDrive the default is: C:\Users\[UserName]\OneDrive
 
@@ -72,11 +69,8 @@ Location: &#123;&#123; LOCATION &#125;&#125; Size: &#123;&#123; USED &#125;&#125
 
 **Warning:** If you are using OneDrive, it is not possible to change the root directory folder name. Normally, the root directory folder has a space in it ("OneDrive - SSW"), so keep that in mind when trying to run script or code from the OneDrive folder.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -87,11 +81,8 @@ E.g. Create a folder with your username in the root of C: prefix the folder with
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Location of Data&#123;&#123; YourUserName &#125;&#125; with OneDrive - &#123;&#123; YourOrganization &#125;&#125; folder in it",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Location of Data&#123;&#123; YourUserName &#125;&#125; with OneDrive - &#123;&#123; YourOrganization &#125;&#125; folder in it"}
   src="/uploads/rules/pc-do-you-organize-your-hard-disk/onedrive.png"
 />
 
@@ -100,11 +91,8 @@ E.g. Create a folder with your username in the root of C: prefix the folder with
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Backup is being done automatically",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Backup is being done automatically"}
   src="/uploads/rules/pc-do-you-organize-your-hard-disk/OneDrive.jpg"
 />
 
@@ -118,18 +106,15 @@ Delete anything that is not necessary from there and do not save things there by
 **4. Do you keep your Outlook PST/OST separated from your cloud backups?** &#123;&#123; YES/NO &#125;&#125;
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** You can check where your PST/OST is via Outlook | File | Account Settings | Data Files.
 
 **Note:** By Default it is in C:\Users\[UserName]\AppData so it is not backed up.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

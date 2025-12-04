@@ -24,7 +24,7 @@ uri: avoid-logic-errors-by-using-else-if
 
 We see a lot of programmers doing this, they have two conditions - true and false - and they do not consider other possibilities - e.g. an empty string. Take a look at this example. We have an If statement that checks what backend database is being used.
 
-<endOfIntro />
+<endIntro />
 
 In the example the only expected values are "Development" and "Production".
 
@@ -41,12 +41,7 @@ void Load(string environment)
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example with If statement",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example with If statement**  
 
 Consider later that extra environments may be added: e.g. "Staging"
 
@@ -71,8 +66,4 @@ void Load(string environment)
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example with If statement",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example with If statement**

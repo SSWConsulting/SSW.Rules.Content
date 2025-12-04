@@ -20,17 +20,14 @@ isArchived: false
 ---
 We all know that we should [Store Secrets Securely](/store-your-secrets-securely) using Key Vault, but did you know that rather than have developers having to deal with a combination of Key Vault and Configuration, you can abstract Key Vault out of your application code and leave developers to only have to deal with Configuration?
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Having to wire up Key Vault unnecessarily",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Having to wire up Key Vault unnecessarily"}
   src="/uploads/rules/config-over-keyvault/badkeyvault.png"
 />
 
@@ -43,11 +40,8 @@ So now rather than developers having to think about if a value is a secret or co
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Developers don't need to know anything about Key Vault",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Developers don't need to know anything about Key Vault"}
   src="/uploads/rules/config-over-keyvault/goodkeyvault.png"
 />
 
@@ -56,11 +50,8 @@ So now rather than developers having to think about if a value is a secret or co
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example -  Using Key Vault values in Azure App Service",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example -  Using Key Vault values in Azure App Service"}
   src="/uploads/rules/config-over-keyvault/screenshot-2024-09-05-183121.png"
 />
 

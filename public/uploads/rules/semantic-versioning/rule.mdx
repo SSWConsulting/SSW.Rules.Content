@@ -33,7 +33,7 @@ uri: semantic-versioning
 
 Semantic versioning (sometimes called SemVer) allows library developers to communicate with those who use the library. In the old days, people would choose version numbers on gut feel or they would auto generate them. With Semantic Versioning, the version number conveys the type of changes since the last release and if any changes break backwards compatibility. **That way any developer who looks at the version number immediately knows the risk level when they update...**
 
-<endOfIntro />
+<endIntro />
 
 The structure of Semantic Versioning includes:
 
@@ -84,11 +84,8 @@ Regardless, of what version you upgrade to, you still need to test your applicat
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes."}
   src="/uploads/rules/semantic-versioning/semver.png"
 />
 

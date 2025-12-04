@@ -26,35 +26,29 @@ uri: include-annual-cost
 
 When quoting prices, it's common practice to state daily, weekly, or monthly costs; sometimes per person, per click, etc. It's crucial to provide a full picture by also including the annual cost. The reasons:
 
-<endOfIntro />
+<endIntro />
 
 - **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
 - **Comparison Ease**: Customers can more easily compare costs with other services or products
 - **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     AUD $150 + GST/month
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Only include monthly cost",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Only include monthly cost"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     AUD $150 + GST/month (AUD $1,800 + GST/year)
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Include both monthly and yearly cost",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Include both monthly and yearly cost"}
 />

@@ -20,7 +20,7 @@ isArchived: false
 
 Always choose a GridView (over a ListBox) because it can have:
 
-<endOfIntro />
+<endIntro />
 
 1. Multiple columns
 2. Checkboxes in the header of the control, which enables users to easily check or uncheck all items
@@ -30,11 +30,8 @@ Always choose a GridView (over a ListBox) because it can have:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No header rows and no checkbox to check or uncheck all items. None of this can be done with the ListView",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - No header rows and no checkbox to check or uncheck all items. None of this can be done with the ListView"}
   src="/uploads/rules/always-use-gridview-instead-of-listbox/datagridviewbad.png"
 />
 
@@ -43,10 +40,7 @@ Always choose a GridView (over a ListBox) because it can have:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A header row and a checkbox to control all items, and multiple columns give users a richer experience. This can all be done using a GridView",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - A header row and a checkbox to control all items, and multiple columns give users a richer experience. This can all be done using a GridView"}
   src="/uploads/rules/always-use-gridview-instead-of-listbox/datagridviewgood.png"
 />

@@ -28,31 +28,25 @@ uri: positive-tone
 
 A sentence can be expressed in various ways, and it holds significance to utilize positive language when communicating with clients. Rather than stating _"I will NOT do X until you do Y"_, a more constructive approach would be to say _"When you do Y, I will be happy to proceed with X"_.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We will not be able to develop the report until you are happy with the mockup.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Negative tone",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Negative tone"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We will develop the report once you are happy with and have signed off the mockup.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Positive tone",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Positive tone"}
 />

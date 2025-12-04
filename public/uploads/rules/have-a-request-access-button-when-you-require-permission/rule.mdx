@@ -23,17 +23,14 @@ uri: have-a-request-access-button-when-you-require-permission
 
 If your page requires permission to be accessed it should provide a button for the user to request it.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example -  You just don't have access",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example -  You just don't have access"}
   src="/uploads/rules/have-a-request-access-button-when-you-require-permission/no-request-permission.png"
 />
 
@@ -42,10 +39,7 @@ If your page requires permission to be accessed it should provide a button for t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Office 365 has a \"Request Access\" button",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – Office 365 has a \"Request Access\" button"}
   src="/uploads/rules/have-a-request-access-button-when-you-require-permission/request-permission.png"
 />

@@ -40,7 +40,7 @@ uri: technical-debt
 
 Technical Debt (or tech debt) is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/ASVD4YIOgpU" description={""} />
@@ -54,19 +54,16 @@ Technical Debt can occur for all kinds of reasons, for example:
 Systems need to have features added to them to continually remain useful (or competitive). As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it **will** accumulate Technical Debt.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
 
 It also helps to add a TODO comment in the relevant code with a link to the PBI. This will help other developers understand that it is a known issue.
 See [Do you document "TODO" tasks?](/todo-tasks)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -80,11 +77,8 @@ See [Do you document "TODO" tasks?](/todo-tasks)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Technical Debt is very visible to the Product Owner",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Technical Debt is very visible to the Product Owner"}
   src="/uploads/rules/technical-debt/waf-tech-debt-backlog-northwind_1710232021944.png"
 />
 
@@ -100,11 +94,8 @@ See [Do you document "TODO" tasks?](/todo-tasks)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Professional Developers survey",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Professional Developers survey"}
   src="/uploads/rules/technical-debt/technical-debt-graph.png"
 />
 
@@ -116,16 +107,13 @@ See [Do you document "TODO" tasks?](/todo-tasks)
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     PBI: **&#123;&#123; FeatureName &#125;&#125; – Technical Debt - Planned**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -136,16 +124,13 @@ Sometimes you want to quickly implement a new feature to get it out and receive 
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     PBI: **&#123;&#123; FeatureName &#125;&#125; – Technical Debt - Discovered**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -156,16 +141,13 @@ During a code review, you or the team notice something as part of the system tha
 Every system will accumulate Technical Debt over time. For example, if you built an API with ASP.NET Core 2.0 (which is now out of support), you have Technical Debt because that version is no longer supported. This kind of Technical Debt cannot only negatively impact the productivity of the team, but it can also introduce a security risk. Another example is that the architecture you selected may have been right based on the original spec, but as requirements change or new requriements emerge, this may no longer be the case. The team can choose to refactor now, or accept the Technical Debt and continue to deliver features on the current architecture.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     PBI: **&#123;&#123; FeatureName &#125;&#125; - Technical Debt - Unavoidable**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -193,11 +175,8 @@ At the Sprint Planning:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Screenshot of code with Technical Debt comment and link to GitHub Issue",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Screenshot of code with Technical Debt comment and link to GitHub Issue"}
   src="/uploads/rules/technical-debt/techdebt-github.png"
 />
 
@@ -207,11 +186,8 @@ At the Sprint Planning:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Screenshot of Technical Debt on backlog",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Screenshot of Technical Debt on backlog"}
   src="/uploads/rules/technical-debt/techdebt-backlog.png"
 />
 
@@ -221,10 +197,7 @@ At the Sprint Planning:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SugarLearning architecture diagram",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"SugarLearning architecture diagram"}
   src="/uploads/rules/technical-debt/techdebt-architecture.png"
 />

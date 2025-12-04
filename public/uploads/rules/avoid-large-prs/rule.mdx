@@ -24,7 +24,7 @@ isArchived: false
 
 Nobody wants to review a PR with 100s of files, nor is it nice to have a lot of work that is committed (a PR may even be waiting), but not approved. This is merge debt. Part of getting work complete is getting the PR approved by another developer so you don’t have it sitting around for a long time.
 
-<endOfIntro />
+<endIntro />
 
 The default option is to use a feature branch strategy which is awesome for small chunks of work. However, if you know that your work involves 2+ devs working on different tasks and they cannot work in isolation, then it can be tricky. For example, if you need to migrate from Gatsby to Next.js or if you have to upgrade from Xamarin to .NET MAUI then a feature branch strategy might not be appropriate. In that case choose from the below options:
 
@@ -49,11 +49,8 @@ This is a good option if you are concerned with legacy technical decisions impac
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Good example – Developing the new application in a new repo",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Good example – Developing the new application in a new repo"}
   src="/uploads/rules/avoid-large-prs/avoid-large-prs-website.png"
 />
 
@@ -82,10 +79,7 @@ This is a good option if you are not worried about the legacy application influe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Good example – Developing your new application in a new folder",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Good example – Developing your new application in a new folder"}
   src="/uploads/rules/avoid-large-prs/avoid-large-prs-portal.png"
 />

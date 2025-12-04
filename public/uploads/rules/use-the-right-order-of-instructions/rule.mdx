@@ -28,31 +28,25 @@ When writing the instructions for a series of operations, be sure you keep the o
 
 At SSW, convention is to use the pipe character "|" to indicate a step in a navigation process.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Select Options from the Tools Menu.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - These instructions are in reverse and needs to be processed by the user.",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - These instructions are in reverse and needs to be processed by the user."}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Select Tools | Options
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - These instructions are in order and do not require any effort from the user.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - These instructions are in order and do not require any effort from the user."}
 />

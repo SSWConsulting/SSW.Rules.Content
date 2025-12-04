@@ -24,7 +24,7 @@ uri: menu-do-you-include-a-tools-validate-data
 
 A common oversight is applications don't check for invalid data. You should add "Tools | Validate Data" to your application.
 
-<endOfIntro />
+<endIntro />
 
 So when you add business rules to the middle tier, consider scenarios such as importing data and any other areas that side step business rules. Therefore we always make validate queries that if they return records, they must be fixed. Examples are:
 
@@ -35,10 +35,7 @@ So when you add business rules to the middle tier, consider scenarios such as im
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data"}
   src="/uploads/rules/menu-do-you-include-a-tools-validate-data/TimeProValidateData.png"
 />

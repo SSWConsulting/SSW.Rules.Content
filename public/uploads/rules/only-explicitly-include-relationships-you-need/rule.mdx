@@ -20,7 +20,7 @@ isArchived: false
 
 Often developers will include all the related entities in a query to help with debugging. Always remember to take these out. They cause excessive database load.
 
-<endOfIntro />
+<endIntro />
 
 If you need the related entities, then that is what Include is for.
 
@@ -29,19 +29,10 @@ var query = _dbContext
         .Sales
         .Include(x => x.SalesPerson);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Retrieved the sales records and the salesperson, even though we don't intend to use the salesperson record.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Retrieved the sales records and the salesperson, even though we don't intend to use the salesperson record.**  
 
 ```cs
 var query = _dbContext
         .Sales;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Retrieved only the sales records themselves",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Retrieved only the sales records themselves**  

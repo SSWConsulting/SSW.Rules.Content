@@ -11,8 +11,14 @@ uri: do-you-do-cold-emailing-right
 authors:
   - title: Louis Roa
     url: https://ssw.com.au/people/louis-roa
-created: 2025-09-29T15:20:00.000Z
+created: 2025-10-17T13:47:55.000Z
 guid: b8dfcdda-64a9-445b-a98d-cfae421b1a3e
+lastUpdated: 2025-10-17T13:47:55.000Z
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
+createdBy: Gilles Pothieu [SSW]
+createdByEmail: gillespothieu@ssw.fr
+isArchived: false
 ---
 You write a “perfect” cold email, hit send… and get silence. So you push harder: longer copy, bigger claims, a calendar link. Still nothing.
 
@@ -20,7 +26,7 @@ The problem isn’t that email “doesn’t work”, it’s that you aimed at th
 
 Your subject lines, body, and CTAs should all be focussed on just getting a response.
 
-<endOfIntro />
+<endIntro />
 
 ## The mindset: replies over meetings
 
@@ -47,11 +53,8 @@ Not every prospect deserves the same effort. Tier your list and match your perso
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Prioritize effort. More 1:1 at the top, more segmentation at the bottom.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Prioritize effort. More 1:1 at the top, more segmentation at the bottom."}
   src="/uploads/rules/do-you-do-cold-emailing-right/lead-pyramid.png"
 />
 
@@ -71,8 +74,8 @@ Source: [Apollo.io](https://www.apollo.io/academy/guides/pipeline-generation/col
 5. **Length:** Keep emails concise, ideally **between 50 and 125 words**, as this range sees the highest response rates. T1 (first email) can be longer if it’s truly personal.   Allocate your effort accordingly: spend the most time on hyper-personalized emails for your most valuable prospects and use smart automation with some personalization for lower-tier leads.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **SUBJECT:** Exploring Synergies with Coupons2Go
 
@@ -89,22 +92,14 @@ We are reaching out to key players in the travel center space to introduce our c
 Best regards,
 Josh
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Long, generic, self-focused “brochure email” gets skimmed and ignored",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **SUBJECT:** question about your loyalty program
 
@@ -122,17 +117,9 @@ Cheers,
 
 Josh
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - Short, segmented template: pain → proof → small ask"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Short, segmented template: pain → proof → small ask",
-  shouldDisplay: true
-} } />
 
 
 ## More examples
@@ -140,8 +127,8 @@ Josh
 ### Tier 1 (hyper-personalized 1:1)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: Le Dip cheeseburger + &#123;&#123;Your Company&#125;&#125;
 
@@ -151,19 +138,16 @@ I noticed you’re hiring 3 CSMs while launching in EU. Teams I help cut onboard
 
 Worth a quick reply if “faster ramp before Q4” is on your list? If not, I’ll leave you in peace.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Personal detail + timely company priority + soft, single-question CTA",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Personal detail + timely company priority + soft, single-question CTA"}
 />
 
 
 ### Tier 2/3 (short, segmented)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: For &#123;&#123;Company&#125;&#125;’s printing leads
 
@@ -173,11 +157,8 @@ We’ve helped peers lift inbound quotes 10–20% by fixing GMB + service pages.
 
 Open to a quick reply if local visibility is a 2025 focus for you?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Industry-specific pain + outcome + 1 easy question",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Industry-specific pain + outcome + 1 easy question"}
 />
 
 
@@ -192,16 +173,13 @@ Use one of the templates above. End with a single question.
 Keep it to one line. No “just checking in.”
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi &#123;&#123;FirstName&#125;&#125; — curious if “faster ramp before Q4” is on the list?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Short, direct restatement of the original question",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Short, direct restatement of the original question"}
 />
 
 
@@ -210,17 +188,14 @@ Keep it to one line. No “just checking in.”
 Re-state value → playful P.S. → permission to say “no.”
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     If speeding up onboarding isn’t a priority this quarter, happy to close the loop.
 P.S. If you’re already buried in onboarding fires, just reply with “no” and I’ll vanish faster than free snacks. No hard feelings. 🙂
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "✅ Pattern interruption in the P.S. earns smiles and replies",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"✅ Pattern interruption in the P.S. earns smiles and replies"}
 />
 
 

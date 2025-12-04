@@ -29,7 +29,7 @@ HTML 5 introduced a whole slew of new type properties for forms. Gone are the da
 
 Although most of these don't do anything on desktop, on mobile devices they bring up the correct keyboard. As we move into a more mobile digital age, small things like the proper numerical keyboard or a keyboard with a quick ".com" becomes increasingly important.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <label for="phone">Phone</label>:
@@ -40,11 +40,8 @@ Although most of these don't do anything on desktop, on mobile devices they brin
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – This field is using a \"text\" type and shows a standard keyboard on mobile",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – This field is using a \"text\" type and shows a standard keyboard on mobile"}
   src="/uploads/rules/do-you-use-the-correct-input-type/field-type-text.png"
 />
 
@@ -58,11 +55,8 @@ Although most of these don't do anything on desktop, on mobile devices they brin
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – This field is using the correct field type and shows the keypad on mobile",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – This field is using the correct field type and shows the keypad on mobile"}
   src="/uploads/rules/do-you-use-the-correct-input-type/field-type-tel.png"
 />
 

@@ -8,9 +8,9 @@ createdBy: RebeccaLiu
 createdByEmail: RebeccaLiu@ssw.com.au
 guid: b0118f1a-8750-456e-b82f-41f9464463d0
 isArchived: true
-lastUpdated: 2024-06-08 03:27:17+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
 seoDescription: When to use options group Radio Buttons instead of ComboBox? Use radio
   buttons when options are static, fit on screen, and require single-click selection.
@@ -22,7 +22,7 @@ uri: control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-
 
 When the options are static items (not database driven) and they can fit on the screen (about 2-5 items), they should be radio buttons.
 
-<endOfIntro />
+<endIntro />
 
 For a ComboBox, user needs 2 clicks to change the value:
 
@@ -35,11 +35,8 @@ For an options group, user can see all the available options without clicking, a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - ComboBox is used for \"Job Type\" where it contains only 2 options",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - ComboBox is used for \"Job Type\" where it contains only 2 options"}
   src="/uploads/rules/control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox/NotUsingRadioButtons.gif"
 />
 
@@ -48,10 +45,7 @@ For an options group, user can see all the available options without clicking, a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Radio Buttons are used and aligned vertically",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Radio Buttons are used and aligned vertically"}
   src="/uploads/rules/control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox/UsingRadioButtons.gif"
 />

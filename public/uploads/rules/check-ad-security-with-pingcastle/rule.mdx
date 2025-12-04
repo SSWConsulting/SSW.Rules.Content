@@ -24,7 +24,7 @@ isArchived: false
 
 [PingCastle](https://www.pingcastle.com/) is an Active Directory auditing tool. It checks your accounts, computers and configuration in AD and gives you a great report on things that should be addressed. It is a tool that should be run periodically - every 3-6 months - to keep AD secure.
 
-<endOfIntro />
+<endIntro />
 
 PingCastle is easy to install and run - see [their documentation](https://www.pingcastle.com/documentation/) for more information. It is free to use in your own environment, or there are paid versions for MSPs and larger enterprises.
 
@@ -32,11 +32,8 @@ PingCastle is easy to install and run - see [their documentation](https://www.pi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The PingCastle report shows there is a lot of work ahead",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The PingCastle report shows there is a lot of work ahead"}
   src="/uploads/rules/check-ad-security-with-pingcastle/pingcastle.png"
 />
 
@@ -48,10 +45,7 @@ Once you have run it, you get a great report on your Active Directory security h
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Example item from PingCastle, with detailed description and solution",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Example item from PingCastle, with detailed description and solution"}
   src="/uploads/rules/check-ad-security-with-pingcastle/pingcastle2.png"
 />

@@ -24,15 +24,10 @@ Reasons for avoiding checking Nuget or Npm packages
 1. Distributed version control systems, such as Git, include full copies of every version of every file within the repository. Binary files that are frequently updated lead to significant bloat and lengthens the time it takes to clone the repository.
 2. When packages are included in the repository, developers are liable to add references directly to package contents on disk rather than referencing packages through NuGet, which can lead to hard-coded path names in the project.
 
-<endOfIntro />
+<endIntro />
 
 ![](/uploads/rules/do-not-avoid-checking-in-nuget-or-npm-packages-into-source-control/nugetpackages.png)
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Do not have a folder called \"packages\" or \"Node_Modules\"",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Do not have a folder called "packages" or "Node_Modules"**  
 
 Read more about how to [omit NuGet packages in source control system](https://docs.microsoft.com/en-us/nuget/consume-packages/packages-and-source-control?WT.mc_id=DOP-MVP-33518)
 

@@ -22,7 +22,7 @@ uri: do-you-use-online-regex-tools
 
 Regular expressions (regex) are powerful tools for pattern matching and text processing, but they can be challenging to write and debug. Online regex tools like [RegExr](https://regexr.com/) and [Regex101](https://regex101.com/) simplify this process by providing interactive environments to test, debug, and learn regex. These tools save time, reduce errors, and help you master regex faster.
 
-<endOfIntro />
+<endIntro />
 
 ## Why use online regex tools?
 
@@ -63,22 +63,14 @@ Invalid: Password1
 Invalid: password!1
 Valid: A1b2C3d4!
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Writing and testing regex directly in your code without live validation",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Writing and testing regex directly in your code without live validation**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Using RegExr to debug and validate your pattern before implementation",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Using RegExr to debug and validate your pattern before implementation"}
   src="/uploads/rules/do-you-use-online-regex-tools/regexr-password-validation.png"
 />
 
@@ -94,14 +86,11 @@ Valid: A1b2C3d4!
   * Extensive regex library and quick reference guide.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Avoid overcomplicating your regex patterns; use the tools to simplify and optimize them.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

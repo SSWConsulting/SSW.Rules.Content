@@ -13,9 +13,9 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: f15f834f-70dd-4f38-8597-9e561336caf2
 isArchived: false
-lastUpdated: 2025-07-25 21:36:07+00:00
-lastUpdatedBy: Christian Morford-Waite [SSW]
-lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+lastUpdated: 2025-11-04 01:14:24+00:00
+lastUpdatedBy: Griffen Edge [SSW]
+lastUpdatedByEmail: griffen@griffenedge.com
 redirects:
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -40,7 +40,7 @@ It was once called a 'stand-up meeting' but that discriminates people in wheelch
 
 It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.
 
-<endOfIntro />
+<endIntro />
 
 Everybody knows the 3 essential questions:
 
@@ -86,11 +86,8 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A burndown chart in visualstudio.com",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A burndown chart in visualstudio.com"}
   src="/uploads/rules/methodology-daily-scrums/burndowntfspreview_1710232021943.png"
 />
 
@@ -115,11 +112,8 @@ As per our conversation, the Daily Scrum will be held each day.
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Schedule a recurring Daily Scrum meeting in Outlook using this template",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Schedule a recurring Daily Scrum meeting in Outlook using this template"}
 />
 
 
@@ -127,11 +121,8 @@ As per our conversation, the Daily Scrum will be held each day.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Or you can use Microsoft Teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Or you can use Microsoft Teams"}
   src="/uploads/rules/methodology-daily-scrums/teams-meeting-daily-scrum.jpg"
 />
 
@@ -143,8 +134,8 @@ If a team member is missing at the beginning of the Daily Scrum, and they are no
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Notes:**
 
@@ -152,11 +143,8 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 * If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -185,11 +173,8 @@ A task board allows people to visualize what the team is talking about.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A Task Board from Azure DevOps",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A Task Board from Azure DevOps"}
   src="/uploads/rules/methodology-daily-scrums/tfspreviewtaskboard_1710232021943.png"
 />
 
@@ -207,11 +192,8 @@ Often the Product Owner won’t be at the Scrum. However, call the Product Owner
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Call the Product Owner if you have an impediment",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Call the Product Owner if you have an impediment"}
   src="/uploads/rules/methodology-daily-scrums/ProductOwnerTelephone_1710232021942.jpg"
 />
 
@@ -224,11 +206,8 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Too many Daily Scrum appointments",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Too many Daily Scrum appointments"}
   src="/uploads/rules/methodology-daily-scrums/daily-scrum-bad.png"
 />
 
@@ -237,29 +216,23 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Make Daily Scrums easy to find via the Teams Channel Calendar",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Make Daily Scrums easy to find via the Teams Channel Calendar"}
   src="/uploads/rules/methodology-daily-scrums/daily-scrum-good.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 ### What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -297,11 +270,8 @@ Today I'm working on &#123;&#123; PROJECT NAME &#125;&#125;:
 * ⬜ Email - XXX
 * ❌ Blocked - XXX
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Always include what you previously worked on and what you plan on doing today",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Always include what you previously worked on and what you plan on doing today"}
 />
 
 ## Tip #14: Use IM
@@ -319,8 +289,8 @@ Use Teams to bridge gaps in geography.
 When using email or IM try to be brief and as specific as possible:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 #### Hi Bob
@@ -335,17 +305,14 @@ Today I am working on:
 * Tidy inbox
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Lack of details... For example, saying \"Yesterday\" - if it's Monday, you wouldn't say “Yesterday was Sunday\"... so if you were sick, it's more useful to go back to the prior day you were working",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Lack of details... For example, saying \"Yesterday\" - if it's Monday, you wouldn't say “Yesterday was Sunday\"... so if you were sick, it's more useful to go back to the prior day you were working"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 #### Hi Bob
@@ -360,11 +327,8 @@ Today I am working on:
 * ==Getting my emails on "SSW.com" to zero==
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clear details",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Clear details"}
 />
 
 
@@ -400,11 +364,8 @@ It is important that any major incidents are dealt with first. Start with any ma
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!"}
   src="/uploads/rules/methodology-daily-scrums/NewStandUpImage_1710232021942.jpg"
 />
 
@@ -412,8 +373,8 @@ It is important that any major incidents are dealt with first. Start with any ma
 - - -
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Learn more about the meetings in Scrum:
 
@@ -424,9 +385,6 @@ It is important that any major incidents are dealt with first. Start with any ma
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

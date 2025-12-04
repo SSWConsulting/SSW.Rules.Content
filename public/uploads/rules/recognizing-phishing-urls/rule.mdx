@@ -24,7 +24,7 @@ Phishing is a form of social engineering where an attacker tries to convince a v
 
 Attackers will often craft a website that looks like a legitimate one for the sole purpose of stealing your username and password (or some other sensitive information). They might, for example, build a website that looks exactly like LinkedIn, so that you think you are logging into LinkedIn, but are in fact giving an attacker your username and password.
 
-<endOfIntro />
+<endIntro />
 
 A URL is made up of a fully-qualified domain name (FQDN) and a path. The FQDN is the part between the **https://** and the next **/**. Anything after the **/** is part of the path and not the FQDN.
 
@@ -35,79 +35,47 @@ For the address [https://www.ssw.com.au/people/](https://www.ssw.com.au/people/)
 You should always check that the **domain** matches the service or website you are expecting.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     http&#58;//linkedin&#46;com&#46;sggr&#46;ru/someaddress
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – The address has LinkedIn in it, but it is a sub-domain, not the domain"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example – The address has LinkedIn in it, but it is a sub-domain, not the domain",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     http&#58;//linked-in-hq&#46;com/linkedin/myprofile
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     http&#58;//linkedinalerter&#46;com
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – The address has LinkedIn in it, but is not a legitimate LinkedIn site"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example – The address has LinkedIn in it, but is not a legitimate LinkedIn site",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     https&#58;//linkedin&#46;com/someaddress
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example – LinkedIn is a secure domain"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example – LinkedIn is a secure domain",
-  shouldDisplay: true
-} } />
 
 
 If you are curious about a URL, and think it might be legitimate, you can [check the Whois record](https://whois.domaintools.com) to see who owns the domain.
@@ -116,11 +84,8 @@ If you are curious about a URL, and think it might be legitimate, you can [check
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – ANZAlerter.com is NOT owned by ANZ",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example – ANZAlerter.com is NOT owned by ANZ"}
   src="/uploads/rules/recognizing-phishing-urls/bad-whois.png"
 />
 
@@ -129,10 +94,7 @@ If you are curious about a URL, and think it might be legitimate, you can [check
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – The domain ANZ.com.au is owned by ANZ",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example – The domain ANZ.com.au is owned by ANZ"}
   src="/uploads/rules/recognizing-phishing-urls/good-whois.png"
 />

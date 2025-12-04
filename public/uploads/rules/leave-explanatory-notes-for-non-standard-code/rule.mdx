@@ -29,15 +29,15 @@ Sometimes, you need to write code that deviates from the standard pattern. It mi
 
 To prevent this, it's crucial to leave a clear, permanent note directly in the code. This ensures the "why" behind the decision is never lost.
 
-<endOfIntro />
+<endIntro />
 
 ### The Problem with Temporary Comments
 
 Developer comments are often temporary. We use them as personal reminders to fix something before a pull request is merged. These are often unstructured and can be confusing if left in the codebase permanently.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ```csharp
@@ -48,17 +48,9 @@ var db = sqlServer
 ```
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - This format is ambiguous. Is it a permanent note or a temporary reminder for the author to fix later?"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - This format is ambiguous. Is it a permanent note or a temporary reminder for the author to fix later?",
-  shouldDisplay: true
-} } />
 
 
 ### The Problem with External Documentation
@@ -66,24 +58,16 @@ var db = sqlServer
 Another common approach is to document these decisions in a wiki, like Confluence. While great for detailed documentation, it has a major flaw.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Wiki Page: "Local Development & Testing Setup"**
 
 ...To ensure idempotent and reliable local test runs, the database for the 'clean-architecture' project must be dropped and recreated on each execution when running in `DEBUG` mode. This prevents data contamination between test sessions...
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - Documentation is disconnected from the code. A developer won't see this unless they know to look for it, making it easy to miss."}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Documentation is disconnected from the code. A developer won't see this unless they know to look for it, making it easy to miss.",
-  shouldDisplay: true
-} } />
 
 
 ## The Solution: A Standardized NOTE Format
@@ -98,8 +82,8 @@ The format is:
 This approach provides the best of both worlds: the explanation is right next to the code, but it can also link out to more detailed documentation if needed.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ```csharp
@@ -111,17 +95,9 @@ var db = sqlServer
 ```
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good Example - The `NOTE:` prefix makes the intent clear. The comment is permanent, explains the deviation, and provides a link for more context."}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - The `NOTE:` prefix makes the intent clear. The comment is permanent, explains the deviation, and provides a link for more context.",
-  shouldDisplay: true
-} } />
 
 
 This standardized format ensures:

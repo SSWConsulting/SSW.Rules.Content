@@ -29,7 +29,7 @@ uri: co-creation-patterns
 
 These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task. This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=E4cg5mmvpwo" description={"Video: Pair Programming best-practices (11 min)"} />
@@ -50,11 +50,8 @@ Inefficient code reviews can be caused by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Vicious cycle of being blocked and picking up yet another task",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Vicious cycle of being blocked and picking up yet another task"}
   src="/uploads/rules/co-creation-patterns/co-creation-1.png"
 />
 
@@ -63,11 +60,8 @@ Inefficient code reviews can be caused by:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Inefficiencies caused by asynchronous code reviews",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Inefficiencies caused by asynchronous code reviews"}
   src="/uploads/rules/co-creation-patterns/co-creation-2.png"
 />
 
@@ -116,16 +110,13 @@ For the patterns above, the similarities are that there is a driver and a naviga
 **Navigator(s)** - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** It is not the role of the navigator to micromanage the driver.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

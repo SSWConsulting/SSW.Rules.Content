@@ -23,26 +23,16 @@ uri: suffix-unit-test-classes-with-tests
 
 Unit test classes should be suffixed with the word "Tests" for better coding readability.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 [TestFixture] public class SqlValidatorReportTest { }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Unit test class is not suffixed with \"Tests\"",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Unit test class is not suffixed with "Tests"**  
 
 ```csharp
 [TestFixture] public class HtmlDocumentTests { }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Unit test class is suffixed with \"Tests\"",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Unit test class is suffixed with "Tests"**  
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

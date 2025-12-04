@@ -24,7 +24,7 @@ uri: use-logical-page-breaks
 ---
 
 Sometime you want your report to break at somewhere to separate different part of content into individual pages. A logical page break is what you need.
-<endOfIntro />
+<endIntro />
 
 Logical page breaks are defined in the report definition by using the PageBreakAtStart and PageBreakAtEnd properties in various report elements, including group, rectangle, list, table, matrix, and chart.
 
@@ -35,11 +35,8 @@ Here is an example of how we add logical page breaks in a report to make each su
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Insert a logical page break before a rectangle containing a subreport",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Insert a logical page break before a rectangle containing a subreport"}
   src="/uploads/rules/use-logical-page-breaks/RSLogicalPageBreak.jpg"
 />
 
@@ -49,10 +46,7 @@ Here is an example of how we add logical page breaks in a report to make each su
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The subreport started in a new page",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The subreport started in a new page"}
   src="/uploads/rules/use-logical-page-breaks/RSLogicalPageBreak_Preview.jpg"
 />

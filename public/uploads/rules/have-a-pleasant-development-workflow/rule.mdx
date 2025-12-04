@@ -22,16 +22,13 @@ type: rule
 uri: have-a-pleasant-development-workflow
 ---
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Update:** This has been properly fixed since Angular 4. So now, this rule is irrelevant as Angular CLI provides a pleasant development workflow. Using ng serve, TypeScript transpilation occurs automatically and quickly (almost instantly).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -39,13 +36,13 @@ When dealing with client-side development – especially when transpiling TypeSc
 
 This adds up quickly – if you have to wait for 5 seconds every 3 minutes, you've spent 13 minutes of your day just _waiting_. This is a conservative estimate - we change code much more frequently than every 3 minutes!
 
-<endOfIntro />
+<endIntro />
 
 A naive development experience is as follows:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 1. Make a code change using a misconfigured IDE
@@ -61,24 +58,16 @@ A naive development experience is as follows:
    - If there is too much built-up state, and no routes set up, this chews up time
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Many hours each week are wasted just waiting for the code you wrote to run"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Many hours each week are wasted just waiting for the code you wrote to run",
-  shouldDisplay: true
-} } />
 
 
 A more ideal workflow is:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 1. Make the change using a properly configured IDE
@@ -90,17 +79,9 @@ A more ideal workflow is:
 3. Already be at the component required, ready to check it works
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - No time is wasted doing repetitive and slow tasks"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - No time is wasted doing repetitive and slow tasks",
-  shouldDisplay: true
-} } />
 
 
 **Remember** : Spending 4 hours setting up a good dev experience will pay for itself within the week, and make your work like much happier.

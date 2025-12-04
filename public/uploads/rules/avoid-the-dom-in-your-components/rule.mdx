@@ -26,7 +26,7 @@ uri: avoid-the-dom-in-your-components
 
 Using DOM is fine, but manipulating DOM directly in your component is not. With the introduction of Angular, there has been a big push in ensuring the DOM stays out of your JavaScript code. It is designed in such a way that an existing Angular application can be ported to another target by simply replacing the template and template loader. Projects such as [Angular React Native Renderer](https://angular.github.io/react-native-renderer/) leverages this to allow native mobile app development in Angular.
 
-<endOfIntro />
+<endIntro />
 
 * Smaller component code making it easier to maintain
 * Faster running and easier to write unit tests
@@ -38,11 +38,8 @@ This means that the component's state must expose things that are useful to the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "This component manipulates the DOM directly to show and hide the menu",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"This component manipulates the DOM directly to show and hide the menu"}
   src="/uploads/rules/avoid-the-dom-in-your-components/dom1.png"
 />
 
@@ -51,10 +48,7 @@ This means that the component's state must expose things that are useful to the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test"}
   src="/uploads/rules/avoid-the-dom-in-your-components/dom2.png"
 />

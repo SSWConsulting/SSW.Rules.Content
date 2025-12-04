@@ -21,7 +21,7 @@ uri: do-you-keep-your-nuget-packages-small
 
 When creating NuGet packages, it is better to create few small packages instead of creating one monolithic package that combines several relatively independent features.
 
-<endOfIntro />
+<endIntro />
 
 When you are making a decision to package your reusable code and publish it to **NuGet** sometimes it is worths splitting your package into few smaller packages. This will improve maintainability and transparency of your package. It will also make it much easier to consume and contribute to.
 
@@ -33,11 +33,8 @@ A better approach would be to split your libraries into 3 separate packages: **Y
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - One big library with lots of features, where most of them are obsolete with a release of ASP.NET MVC 5",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - One big library with lots of features, where most of them are obsolete with a release of ASP.NET MVC 5"}
   src="/uploads/rules/do-you-keep-your-nuget-packages-small/package2_1710232021935.jpg"
 />
 
@@ -46,10 +43,7 @@ A better approach would be to split your libraries into 3 separate packages: **Y
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Lots of smaller self contained packaged with a single purpose",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Lots of smaller self contained packaged with a single purpose"}
   src="/uploads/rules/do-you-keep-your-nuget-packages-small/package.jpg"
 />

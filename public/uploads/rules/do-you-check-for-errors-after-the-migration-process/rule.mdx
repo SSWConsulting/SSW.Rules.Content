@@ -25,7 +25,7 @@ uri: do-you-check-for-errors-after-the-migration-process
 
 After the database has finished being attached to the web application you will get a log file with information about the import process.
 
-<endOfIntro />
+<endIntro />
 
 1. Open up this log fine and pay special attention to any lines with **[ERROR]** .
 
@@ -38,10 +38,7 @@ After the database has finished being attached to the web application you will g
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The event log should show 0 errors after fixing the errors",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - The event log should show 0 errors after fixing the errors"}
   src="/uploads/rules/do-you-check-for-errors-after-the-migration-process/FixEventLogs.png"
 />

@@ -29,7 +29,7 @@ Make sure that anyone tasked in emails is explicitly added to the "To:" line. Th
 
 A fair percentage of people open an email and don’t read who is on the "To:" or "Cc:" lines.
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -47,11 +47,8 @@ Can everyone make sure to update your work items as you work on them?
 
 1. At the end of the day, please double check the above was done
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Mark can’t search for tasks that have been assigned to him",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Mark can’t search for tasks that have been assigned to him"}
 />
 
 <emailEmbed
@@ -70,9 +67,6 @@ Can everyone make sure to update your work items as you work on them?
 
 1. At the end of the day, please double check the above was done
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Mark can filter his emails based on whether his name is on the \"To:\" field",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Mark can filter his emails based on whether his name is on the \"To:\" field"}
 />

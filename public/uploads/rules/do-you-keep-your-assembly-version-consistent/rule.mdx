@@ -27,19 +27,14 @@ uri: do-you-keep-your-assembly-version-consistent
 ![](/uploads/rules/do-you-keep-your-assembly-version-consistent/VersionConsistent1.jpg)
 **Figure: Keep these two versions consistent** If you are not using the GAC, it is important to keep AssemblyVersion, AssemblyFileVersion and AssemblyInformationalVersionAttribute the same, otherwise it can lead to support and maintenance nightmares. By default these version values are defined in the AssemblyInfo file. In the following examples, the first line is the version of the assembly and the second line is the actual version display in file properties.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 [assembly: AssemblyVersion("2.0.0.*")]
 [assembly: AssemblyFileVersion("2.0.0.*")]
 [assembly: AssemblyInformationalVersion("2.0.0.*")]
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\\*) character",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\*) character**  
 
 If you use an asterisk in the AssemblyVersion, the version will be generated as described in the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.reflection.assemblyversionattribute%28v=vs.110%29.aspx?WT.mc_id=DT-MVP-33518).
 
@@ -50,11 +45,8 @@ If you use an asterisk in the AssemblyFileVersion, you will see a warning, and t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Warning when you use an asterisk in the AssemblyFileVersion",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Warning when you use an asterisk in the AssemblyFileVersion"}
   src="/uploads/rules/do-you-keep-your-assembly-version-consistent/AssemblyFileVersion-Warning.png"
 />
 
@@ -64,12 +56,7 @@ If you use an asterisk in the AssemblyFileVersion, you will see a warning, and t
 [assembly: AssemblyFileVersion("2.0.1.1")]
 [assembly: AssemblyInformationalVersion("2.0")]
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - MSBuild will automatically set the Assembly version on build (when not using the GAC)",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - MSBuild will automatically set the Assembly version on build (when not using the GAC)**  
 
 Having MSBuild or Visual Studio automatically set the AssemblyVersion on build can be useful if you don't have a build server configured.
 
@@ -80,12 +67,7 @@ If you are using the GAC, you should adopt a single AssemblyVersion and Assembly
 [assembly: AssemblyFileVersion("2.0.0.1")]
 [assembly: AssemblyInformationalVersion("My Product 2015 Professional")]
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The best way for Assembly versioning (when using the GAC)",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - The best way for Assembly versioning (when using the GAC)**  
 
 If you're working with SharePoint farm solutions (2007, 2010, or 2013), in most circumstances the assemblies in your SharePoint WSPs will be deployed to the GAC. For this reason development is much easier if you don't change your AssemblyVersion, and increment your AssemblyFileVersion instead.
 

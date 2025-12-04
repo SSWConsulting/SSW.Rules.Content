@@ -19,11 +19,11 @@ uri: do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
 
 There are 2 types of bullet lists. The first type of bullet list is the most common, where each bullet point is a sentence fragment that will form a complete sentence if read together with the introductory line. For this type, place full stop at the end of the last point. For example:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 UI may refer to:
@@ -32,19 +32,16 @@ UI may refer to:
 * User interaction.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
 The second type is when each bullet point is a full sentence. It features a capital letter at the start and a full stop at the end of each bullet point. For example:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 User Interface Fundamentals:
@@ -54,9 +51,6 @@ User Interface Fundamentals:
 * Your design should keep users informed of actions or interpretations, changes of state or condition, and errors or exceptions that are relevant and of interest to the user through clear, concise, and unambiguous language familiar to users.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

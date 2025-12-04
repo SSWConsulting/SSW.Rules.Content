@@ -13,9 +13,9 @@ createdBy: Louis Roa [SSW]
 createdByEmail: 149936952+louisroa8189@users.noreply.github.com
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 isArchived: false
-lastUpdated: 2025-09-16 05:25:27+00:00
-lastUpdatedBy: Eli Kent [SSW]
-lastUpdatedByEmail: 69125238+kulesy@users.noreply.github.com
+lastUpdated: 2025-10-19 21:38:32+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
 - rule: public/uploads/rules/mcp-server/rule.mdx
 - rule: public/uploads/rules/use-ai-manage-backlog/rule.mdx
@@ -32,18 +32,15 @@ Connecting an LLM-driven agent to multiple external services might look simple i
 
 Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "MCP Architecture",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"MCP Architecture"}
   src="/uploads/rules/use-mcp-to-standardize-llm-connections/mcp.png"
 />
 
@@ -73,16 +70,13 @@ The main components:
 **4. Backend API** - The actual external service like Slack, GitHub, or your internal CRM
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Flow:** Host ⇨ MCP Client ⇨ MCP Server ⇨ External API
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -95,16 +89,13 @@ The main components:
 * **Chaining tools** - Create powerful workflows by chaining steps (e.g. summarize a spreadsheet, post result to Slack) as a single tool
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Your LLM needs to talk to Slack, GitHub, and your internal support ticketing system. Without MCP, you'd build 3 custom plugins. With MCP, you build 3 connectors into the MCP server, and **every agent instantly gets access**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 

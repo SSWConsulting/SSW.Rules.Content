@@ -31,7 +31,7 @@ uri: avoid-large-attachments-in-emails
 
 Using screen captures is a good practice - pictures do tell a thousand words - but don't include unnecessarily huge images or attachments in your email.
 
-<endOfIntro />
+<endIntro />
 
 When your attachment is too big, you should think twice.
 
@@ -40,18 +40,15 @@ When your attachment is too big, you should think twice.
 If you're sending an email with attachments or images over 1 MB, consider uploading the file to a server (e.g., Google Photos or Microsoft Teams) and [include the link in the email](/links-or-attachments-in-emails) instead.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Photos taken with modern smartphones 📱 are often quite large. A single high-resolution image can easily be 2–5 MB, and some mobile devices produce photos over 10 MB - far above the ideal size for email attachments.
 
 Some email clients may prompt you to resize images before sending, but if they don’t, consider resizing them yourself or sharing via a link instead.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -70,11 +67,8 @@ Thank you for spending time with us to come to a better understanding of your bu
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Sending a large attachment",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Sending a large attachment"}
 />
 
 <emailEmbed
@@ -94,24 +88,18 @@ PS: Sending the image as a link as it is too big to attach.
 Regards,
 Dave
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Sending a link instead of an attachment",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - Sending a link instead of an attachment"}
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** An added advantage is that the document stays alive. If the URL has been updated and a user takes a week to get around to this email, they will view the latest version.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -128,11 +116,8 @@ Dave
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SharePoint makes it easy to share or just copy the link",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"SharePoint makes it easy to share or just copy the link"}
   src="/uploads/rules/avoid-large-attachments-in-emails/sharepoint-file-share.png"
 />
 

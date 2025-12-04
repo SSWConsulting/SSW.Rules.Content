@@ -27,30 +27,24 @@ We are always disappointed when adding version information to a Word document. W
 
 It is possible to get the number into Word for the version of the document on the SharePoint document library.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** This also works in SharePoint 2010 and Office 2010.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example, you see the formatted SharePoint version number",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example, you see the formatted SharePoint version number"}
   src="/uploads/rules/do-you-know-how-to-get-the-sharepoint-document-version-in-word/VersionInWord.jpg"
 />
 
@@ -59,11 +53,8 @@ It is possible to get the number into Word for the version of the document on th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example"}
   src="/uploads/rules/do-you-know-how-to-get-the-sharepoint-document-version-in-word/BadVersioning.png"
 />
 
@@ -72,10 +63,7 @@ It is possible to get the number into Word for the version of the document on th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example"}
   src="/uploads/rules/do-you-know-how-to-get-the-sharepoint-document-version-in-word/GoodVersioning.png"
 />

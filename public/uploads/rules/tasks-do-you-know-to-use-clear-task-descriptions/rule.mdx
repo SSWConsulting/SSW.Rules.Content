@@ -24,7 +24,7 @@ uri: tasks-do-you-know-to-use-clear-task-descriptions
 
 When you create tasks in Scrum you are doing this within a time box and you tend to add only the information you need to remember what the task is. And the entire Team was at the meeting and were involved in the discussions around the task, so why do you need more?
 
-<endOfIntro />
+<endIntro />
 
 Once you have accepted a task you should then add as much information as possible so that anyone can work on that task.
 
@@ -34,11 +34,8 @@ You can use rich text and images to be extra clear, or even [attach an email to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - there is not enough information for anyone to complete this task",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - there is not enough information for anyone to complete this task"}
   src="/uploads/rules/tasks-do-you-know-to-use-clear-task-descriptions/screen-shot-2021-11-02-at-9.30.39-am.png"
 />
 
@@ -47,11 +44,8 @@ You can use rich text and images to be extra clear, or even [attach an email to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Azure DevOps - Lots of information so anyone can pick up that task",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Azure DevOps - Lots of information so anyone can pick up that task"}
   src="/uploads/rules/tasks-do-you-know-to-use-clear-task-descriptions/screen-shot-2021-11-02-at-9.30.14-am.png"
 />
 
@@ -60,24 +54,18 @@ You can use rich text and images to be extra clear, or even [attach an email to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - GitHub - Lots of information so anyone can pick up that task",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - GitHub - Lots of information so anyone can pick up that task"}
   src="/uploads/rules/tasks-do-you-know-to-use-clear-task-descriptions/screen-shot-2021-11-02-at-9.54.20-am.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If you are updating the details of a PBI then follow [the rule on using @ mentions](/when-you-use-mentions-in-a-pbi).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

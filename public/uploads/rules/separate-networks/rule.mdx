@@ -20,7 +20,7 @@ isArchived: false
 
 Keeping networks and VLANs separated is an essential aspect of a robust security strategy. This is particularly true for less secure networks such as automation and HVAC systems, which are often targeted by cybercriminals looking to gain unauthorized access to the network.
 
-<endOfIntro />
+<endIntro />
 
 The following guidelines can help system administrators maintain the separation of VLANs.
 
@@ -33,11 +33,8 @@ Assigning different VLANs for different client types and services provides a log
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Separate VLANs on an Aruba switch",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Separate VLANs on an Aruba switch"}
   src="/uploads/rules/separate-networks/vlan.png"
 />
 
@@ -51,11 +48,8 @@ VLANs should be separated using access control lists and firewalls. Ensure that 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Cisco ASA | Access Rules",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Cisco ASA | Access Rules"}
   src="/uploads/rules/separate-networks/configure-access-rules.jpg"
 />
 

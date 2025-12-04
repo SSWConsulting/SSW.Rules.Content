@@ -25,7 +25,7 @@ uri: do-not-allow-nulls-in-text-fields
 NULLs complicate your life. To avoid having to constantly differentiate between empty strings and NULLs, you should avoid storing NULLS if you can.
 Why? Well, what is wrong with this?
 
-<endOfIntro />
+<endIntro />
 
 ```sql
 SELECT ContactName FROM Customer WHERE ContactName <> ''
@@ -48,11 +48,8 @@ What about only allowing empty strings? Well, we choose to block Nulls because i
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Don't allow Nulls",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Don't allow Nulls"}
   src="/uploads/rules/do-not-allow-nulls-in-text-fields/sql-table-with-null-value.png"
 />
 
@@ -74,11 +71,8 @@ For example, you have Address1 and Address2 in your database, a Null value in Ad
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A check box is required if you want to allow user to use Null value on the UI",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"A check box is required if you want to allow user to use Null value on the UI"}
   src="/uploads/rules/do-not-allow-nulls-in-text-fields/null-value-on-ui.jpg"
 />
 

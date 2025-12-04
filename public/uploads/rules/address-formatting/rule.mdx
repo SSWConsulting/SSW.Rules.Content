@@ -34,31 +34,25 @@ The structure should follow: **Number, Street Name, City, State (abbreviation) P
 * If you have enough space, it is OK to write it in 2 lines
 * We're in Australia and this should work for most countries' addresses, but some specific locations might have different address structures that won't allow following this rule
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Level 1, 81 - 91 Military Road | Neutral Bay - NSW, 2089 AUS**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - SSW main office address not following the standard address formatting",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - SSW main office address not following the standard address formatting"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Level 1/81-91 Military Rd, Neutral Bay, NSW 2089, Australia**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - SSW main office address following the standard address formatting",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - SSW main office address following the standard address formatting"}
 />

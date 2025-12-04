@@ -20,7 +20,7 @@ isArchived: false
 
 User controls allow you to have groups of elements which can be placed on forms.
 
-<endOfIntro />
+<endIntro />
 
 ❌ **Bad**: User controls can be really misused and placed in forms where they shouldn't be. An example of that is shown below, under the components directory the user controls placed and used only _once_ at a time during the application flow. There is much more coding responsibility on the developer to load those controls correctly one at a time inside the main form.
 
@@ -28,11 +28,8 @@ User controls allow you to have groups of elements which can be placed on forms.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - All the forms in the application are user controls",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - All the forms in the application are user controls"}
   src="/uploads/rules/do-you-know-when-to-use-user-controls/badusercontrols.gif"
 />
 
@@ -41,11 +38,8 @@ User controls allow you to have groups of elements which can be placed on forms.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - All of the controls on this form are on a user control, but are only used once",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - All of the controls on this form are on a user control, but are only used once"}
   src="/uploads/rules/do-you-know-when-to-use-user-controls/badusercontrol.gif"
 />
 
@@ -56,11 +50,8 @@ User controls allow you to have groups of elements which can be placed on forms.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - User controls are only used for shared controls",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - User controls are only used for shared controls"}
   src="/uploads/rules/do-you-know-when-to-use-user-controls/goodusercontrol.gif"
 />
 
@@ -69,11 +60,8 @@ User controls allow you to have groups of elements which can be placed on forms.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The Address User Control is repeated",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - The Address User Control is repeated"}
   src="/uploads/rules/do-you-know-when-to-use-user-controls/usercontrol.gif"
 />
 
@@ -84,11 +72,8 @@ User controls allow you to have groups of elements which can be placed on forms.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "User controls are OK in tab pages (exception)",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure={"User controls are OK in tab pages (exception)"}
   src="/uploads/rules/do-you-know-when-to-use-user-controls/usercontrolintabform.jpg"
 />
 

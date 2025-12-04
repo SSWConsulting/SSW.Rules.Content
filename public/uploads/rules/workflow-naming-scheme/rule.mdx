@@ -26,33 +26,27 @@ A well-named workflow file can save time and reduce confusion. By following a cl
 
 Naming your workflows in a way that reflects their purpose and sequence will improve developers experience. Stick to a clear and descriptive naming convention, and you'll never have to guess what a workflow does again.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     ssw-rulesgpt-prod.yml
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example - It's unclear what the workflow does, the name doesn't reflect the sequence of actions.",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad Example - It's unclear what the workflow does, the name doesn't reflect the sequence of actions."}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     main-build-deploy.yml
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Bad Example - It's clear that changes to the main branch cause a build and deploy.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Bad Example - It's clear that changes to the main branch cause a build and deploy."}
 />
 
 

@@ -38,48 +38,32 @@ When building solutions for clients, it’s tempting to include personal or comp
 
 For consultants, the goal should be to name components in ways that make sense within the client’s business context.
 
-<endOfIntro />
+<endIntro />
 
 ## Why it matters
 
 Names that reflect the client’s brand or domain are clearer and more meaningful for the client’s internal teams and stakeholders. They also reduce the risk of naming conflicts and make it easier for future developers to understand the purpose of a component in context.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Naming a custom entry field **`GoldieEntry`** or **`SSWEntry`** might make sense in a personal or shared library but is out of place in a client project.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - Naming client IP after yourself or your company is not cool"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Naming client IP after yourself or your company is not cool",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Instead, using something like **`NorthwindStepper`** is more client-aligned and indicates that this is a customized variation of a standard control.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure={"Good example - Naming client IP with the client's branding is better"}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Naming client IP with the client's branding is better",
-  shouldDisplay: true
-} } />
 
 
 **Note:** This approach is OK to denote a branded version of something, but often it's better to indicate the customization itself in the name. See rule on [using meaningful modifiers for custom implementations](/use-meaningful-modifiers).

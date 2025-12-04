@@ -30,17 +30,14 @@ uri: use-design-time-data
 
 The XAML previewer in Visual Studio is a useful tool for designing your Xamarin UI. One limitation is that often your controls are bound to properties in your ViewModel (see rule [Do you use the MVVM pattern?](/use-mvvm-pattern)), meaning that you can't see what your UI will look like with the data loaded, without building and running your app.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Screenshot of XAML previewer with blank controls",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Screenshot of XAML previewer with blank controls"}
   src="/uploads/rules/use-design-time-data/design-time-bad.png"
 />
 
@@ -59,11 +56,8 @@ mc:Ignorable="d"
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Screenshot of XAML previewer with design-time data",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Screenshot of XAML previewer with design-time data"}
   src="/uploads/rules/use-design-time-data/design-time-good.png"
 />
 

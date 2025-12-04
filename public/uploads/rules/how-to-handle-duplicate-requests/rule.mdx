@@ -27,7 +27,7 @@ Sometimes you get the same task from 2 different people. Sometimes even the same
 
 Whether you keep a backlog or are just using your email inbox as a to-do list, you have a choice to make:
 
-<endOfIntro />
+<endIntro />
 
 **A:** Get rid of the duplicates and only keep one (you need to spend time informing everyone about the merge)
 
@@ -45,11 +45,8 @@ Whether you keep a backlog or are just using your email inbox as a to-do list, y
 
 Not done yet. Closing this, as it will be done in another email subject: **“Form options need refresh”** from Jason
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – This email will never get a ‘done’ when completed",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example – This email will never get a ‘done’ when completed"}
 />
 
 <emailEmbed
@@ -65,11 +62,8 @@ Not done yet. Closing this, as it will be done in another email subject: **“Fo
 Done
 FYI – This was also requested by Jason under subject: **“Form options need refresh”** from Jason
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 <emailEmbed
   from=""
@@ -84,9 +78,6 @@ FYI – This was also requested by Jason under subject: **“Form options need r
 Done
 FYI – This was also requested by Bob under subject: **“Update the form options”**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Both emails got a ‘done’ reply and were referenced to each other",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example – Both emails got a ‘done’ reply and were referenced to each other"}
 />

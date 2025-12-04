@@ -76,16 +76,13 @@ The strategy in this rules will include:
 Steps 6 and 7 are required when upgrading from .NET Framework to .NET 8 and the solution is too complex to do the migration in one go. For simple projects, if EDMX is the only major blocking issue, they should go straight to .NET 8 and EF Core 8.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     NOTE: With some smart abstraction strategies, it is possible to do steps 3 - 5 while still having a working application. It is only recommended for experienced developers in architecture and how EF operates to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -127,24 +124,16 @@ internal class TenantDbContext : ITenantDbContext
     public Task<int> SaveChangesAsync(CancellationToken ct = default) => _entities.SaveChangesAsync(ct);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.",
-  shouldDisplay: true
-} } />
+**✅ Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     NOTE: The changes made in this section are still compatible with .NET Framework, allowing us to deliver value to the clients while the above changes are made.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -159,11 +148,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select reverse engineer tool",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Select reverse engineer tool"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-1.png"
 />
 
@@ -175,11 +161,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Data Connection",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Data Connection"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-2.png"
 />
 
@@ -191,11 +174,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Database Objects",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Database Objects"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-3.png"
 />
 
@@ -210,11 +190,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Settings for project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Settings for project"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-4.png"
 />
 
@@ -226,11 +203,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Settings for project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Settings for project"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-5.png"
 />
 
@@ -242,11 +216,8 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Settings for project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Settings for project"}
   src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-6.png"
 />
 

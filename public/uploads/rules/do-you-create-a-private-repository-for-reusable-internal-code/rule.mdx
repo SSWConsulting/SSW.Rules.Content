@@ -23,18 +23,15 @@ uri: do-you-create-a-private-repository-for-reusable-internal-code
 
 Nuget is great for managing publicly available packages, but it’s also surprisingly easy to create and publish your own packages to your own nuget server for internal code reuse across multiple solutions.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "You can create your own nuget server by simply creating a new asp.net web project and adding the Nuget.Server package",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"You can create your own nuget server by simply creating a new asp.net web project and adding the Nuget.Server package"}
   src="/uploads/rules/do-you-create-a-private-repository-for-reusable-internal-code/private-nuget-1.png"
 />
 
@@ -44,10 +41,7 @@ Nuget is great for managing publicly available packages, but it’s also surpris
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add your new server as a package source under Tools | Options | Nuget Package Manager | Package Sources",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Add your new server as a package source under Tools | Options | Nuget Package Manager | Package Sources"}
   src="/uploads/rules/do-you-create-a-private-repository-for-reusable-internal-code/private-nuget-2.png"
 />

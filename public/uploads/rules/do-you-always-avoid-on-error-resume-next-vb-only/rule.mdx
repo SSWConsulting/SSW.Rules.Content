@@ -28,7 +28,7 @@ Never use On Error Resume Next in VB (and VB.NET) projects.
 
 If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
 
-<endOfIntro />
+<endIntro />
 
 In VB/VBA you should use On Error Resume Next with line of comment and after an offending line of code there should be statement On Error GoTo 0 to reset Errors collection.
 
@@ -43,12 +43,7 @@ Private Sub cmdSelect_Click()
     intRoutesPerDay = 2
     End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example – Bad code",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example – Bad code**  
 
 ```vb
 Private Sub cmdSelect_Click()
@@ -63,8 +58,4 @@ Private Sub cmdSelect_Click()
     .
     End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example – Good code",
-  shouldDisplay: true
-} } />
+**✅ Good Example – Good code**

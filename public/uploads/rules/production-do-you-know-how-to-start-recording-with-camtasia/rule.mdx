@@ -34,7 +34,7 @@ OR
 
 Follow these steps to start recording using Camtasia:
 
-<endOfIntro />
+<endIntro />
 
 ### Windows Display Settings
 
@@ -47,11 +47,8 @@ If your screen resolution is too low then it will be difficult for people to fol
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set your screen resolution as high as possible without exceeding 1920 x 1080",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Set your screen resolution as high as possible without exceeding 1920 x 1080"}
   src="/uploads/rules/production-do-you-know-how-to-start-recording-with-camtasia/screen resolution.png"
 />
 
@@ -60,11 +57,8 @@ If your screen resolution is too low then it will be difficult for people to fol
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Screen resolution is set to 800 x 600",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Screen resolution is set to 800 x 600"}
   src="/uploads/rules/production-do-you-know-how-to-start-recording-with-camtasia/poor resolution screenshot.jpg"
 />
 
@@ -73,11 +67,8 @@ If your screen resolution is too low then it will be difficult for people to fol
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Screen resolution set to 1920 x 1080",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Screen resolution set to 1920 x 1080"}
   src="/uploads/rules/production-do-you-know-how-to-start-recording-with-camtasia/good resolution screenshot.jpg"
 />
 
@@ -118,14 +109,11 @@ If your screen resolution is too low then it will be difficult for people to fol
 6. Copy the source files to the server, as per: [/post-production-do-you-know-how-to-structure-your-files](/post-production-do-you-know-how-to-structure-your-files)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Alternatively, you can use [Loom](https://www.useloom.com/), which works as a Google Chrome extension.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />

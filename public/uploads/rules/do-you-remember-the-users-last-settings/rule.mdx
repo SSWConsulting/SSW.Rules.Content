@@ -22,7 +22,7 @@ uri: do-you-remember-the-users-last-settings
 
 The user's last settings should be saved and should be selected as the Default the next time a form is opened in many instances. For example:
 
-<endOfIntro />
+<endIntro />
 
 * Login forms - the last login name should be the Default selected and the cursor should be in the password box.
 
@@ -30,11 +30,8 @@ The user's last settings should be saved and should be selected as the Default t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Last Username is not saved",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad Example - Last Username is not saved"}
   src="/uploads/rules/do-you-remember-the-users-last-settings/BadFormLogin.jpg"
 />
 
@@ -43,11 +40,8 @@ The user's last settings should be saved and should be selected as the Default t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Last Username is saved",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good Example - Last Username is saved"}
   src="/uploads/rules/do-you-remember-the-users-last-settings/GoodFormLogin.jpg"
 />
 

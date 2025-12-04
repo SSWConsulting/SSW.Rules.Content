@@ -27,7 +27,7 @@ uri: have-a-schema-master
 You have a website master right? This is the central point of contact if the site goes down.
 When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble...
 
-<endOfIntro />
+<endIntro />
 
 To avoid this problem, only one person (the "Schema Master") or the release pipeline should have permissions to upgrade the database.
 
@@ -36,11 +36,8 @@ To avoid this problem, only one person (the "Schema Master") or the release pipe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The db_owner role is granted for one person only – the \"Schema Master\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The db_owner role is granted for one person only – the \"Schema Master\""}
   src="/uploads/rules/have-a-schema-master/fullpermission.jpg"
 />
 
@@ -52,11 +49,8 @@ Who is the "Schema Master"? What do they do?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "One person should be the 'Schema Master', on an average sized project (of 5-10 devs)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"One person should be the 'Schema Master', on an average sized project (of 5-10 devs)"}
   src="/uploads/rules/have-a-schema-master/Nick.png"
 />
 
@@ -73,11 +67,8 @@ The "Schema Master" in a development shop is often the lead programmer on the te
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The Applications Database stores version info in a table called _zsVersion",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The Applications Database stores version info in a table called _zsVersion"}
   src="/uploads/rules/have-a-schema-master/zsVersionTable.png"
 />
 
@@ -87,10 +78,7 @@ The "Schema Master" in a development shop is often the lead programmer on the te
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Only a \"Schema Master\" checks in the .sql files",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Only a \"Schema Master\" checks in the .sql files"}
   src="/uploads/rules/have-a-schema-master/SQLScriptInTFS.png"
 />

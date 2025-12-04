@@ -28,7 +28,7 @@ The use of correct response codes is a simple yet crucial step towards building
 
 You can **save yourself countless hours of painful debugging** , by specifying the correct response code.
 
-<endOfIntro />
+<endIntro />
 
 For example: According to the HTTP/1.1 protocol, when a POST request results in the creation of a resource, the server should reply with status 201 (Created).
 
@@ -39,12 +39,7 @@ public Product PostProduct(Product item)
  return item;
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example – By default a 200 status code is returned.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example – By default a 200 status code is returned.**  
 
 ```csharp
 [ResponseType(typeof(CreditSnapshot))]
@@ -57,12 +52,7 @@ public Product PostProduct(Product item)
  return response;
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example – When creating objects the “Created” status code is returned.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example – When creating objects the “Created” status code is returned.**  
 
 ```csharp
 public void PutProduct(int id, Product product)
@@ -80,8 +70,4 @@ public void PutProduct(int id, Product product)
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example – When updating or deleting objects, if the object to be modified cannot be found throw exception with HttpStatusCode.NotFound**

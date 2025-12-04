@@ -43,7 +43,7 @@ Integration and unit tests should be kept separate and should be named to clearl
 This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
 Integration tests require dependencies and often won't run as part of your build process. These should be automated later in the DevOps pipeline.
 
-<endOfIntro />
+<endIntro />
 
 ### Test Project Location
 
@@ -57,11 +57,8 @@ Test projects can be located either:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"In the above project the tests are clearly placed in a separate location, making it easy to deploy to production without them. It’s easy to tell which project is under test and what style of tests will be found in each test project"}
   src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/clean-architecture-naming-2.png"
 />
 
@@ -86,11 +83,8 @@ Remember that descriptive names are useful – but the choice of name is not the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - From the Test Explorer view you cannot tell what a test is meant to test just from its name"}
   src="/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/bad-naming.png"
 />
 
@@ -116,12 +110,7 @@ Withdraw_WithInvalidAccount_ThrowsException
 Checkout_WithCountryAsAustralia_ShouldAdd10PercentTax
 Purchase_WithBalanceWithinCreditLimit_ShouldSucceed
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Without looking at code, it's clear what the unit tests are trying to do**  
 
 ## Option 2: \[Given]\_\[When]\_\[Then]
 

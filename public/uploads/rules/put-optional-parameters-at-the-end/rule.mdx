@@ -25,7 +25,7 @@ uri: put-optional-parameters-at-the-end
 
 Optional parameters should be placed at the end of the method signature as optional ones tend to be less important. You should put the important parameters first.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 public void SaveUserProfile(
@@ -36,12 +36,7 @@ public void SaveUserProfile(
   [Optional] DateTime? birthDate
 ) {}
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end**  
 
 ```csharp
 public void SaveUserProfile(
@@ -52,11 +47,6 @@ public void SaveUserProfile(
   [Optional] DateTime? birthDate
 ) {}
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - All the optional parameters are the end",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - All the optional parameters are the end**  
 
 **Note:** When using optional parameters, please be sure to use [named para meters](/when-to-use-named-parameters)

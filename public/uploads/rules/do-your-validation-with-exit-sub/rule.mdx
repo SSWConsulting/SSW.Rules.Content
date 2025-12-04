@@ -26,7 +26,7 @@ The return statement can be very useful when used for validation filtering.
 
 Instead of a deep nested If, use Return to provide a short execution path for conditions which are invalid.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 private void AssignRightToLeft()
@@ -45,12 +45,7 @@ private void AssignRightToLeft()
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using nested if for validation",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using nested if for validation**  
 
 ```csharp
 private void AssignRightToLeft()
@@ -73,8 +68,4 @@ private void AssignRightToLeft()
   RefreshData();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using Return to exit early if invalid",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Using Return to exit early if invalid**

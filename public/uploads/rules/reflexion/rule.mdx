@@ -20,23 +20,20 @@ isArchived: false
 
 Have you ever received an output from ChatGPT and wondered if it could be improved, but you don't have specific complaints? Reflexion (spelled with an 'x', not a 'ct') is way to improve the output from ChatGPT by having ChatGPT critique itself.
 
-<endOfIntro />
+<endIntro />
 
 ## What is Reflexion?
 
 Think of Reflexion like a self-check for your computer's "brain" (the Large Language Model or LLM). Just like you might double-check your work before submitting it, Reflexion lets the computer double-check its own answers. This helps make those answers better each time.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Just like self-reflection is used as a coding technique, the technique of getting an LLM to reflect on its answers is called 'Reflexion'
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Why 'Reflexion' is a proper noun as per the [MIT, Princeton, and Northeastern research](https://arxiv.org/pdf/2303.11366.pdf)",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure={"Why 'Reflexion' is a proper noun as per the [MIT, Princeton, and Northeastern research](https://arxiv.org/pdf/2303.11366.pdf)"}
 />
 
 
@@ -54,27 +51,19 @@ Reflexion takes an LLM into a more nuanced and iterative approach to problem-sol
 4. **Contextual Testing (optional)**: Once satisfied, test the improved prompt in a new chat to remove any lingering biases.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Write me a recipe for healthy cookies.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Prompt #1:** "Write me a recipe for healthy cookies."
@@ -84,18 +73,10 @@ Reflexion takes an LLM into a more nuanced and iterative approach to problem-sol
 **Prompt #3:** "Implement recommendations 1 and 3 then repeat."
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output**  
 
 ### Iteration - Manual Edits vs Automatic Edits
 
@@ -115,11 +96,8 @@ You can also use Reflexion to help make decisions by asking the LLM for multiple
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "GPT-4 was found to be 30% more accurate on coding tests when asked to critique itself in self-reflective loops",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"GPT-4 was found to be 30% more accurate on coding tests when asked to critique itself in self-reflective loops"}
   src="/uploads/rules/reflexion/reflexion-figure.png"
 />
 

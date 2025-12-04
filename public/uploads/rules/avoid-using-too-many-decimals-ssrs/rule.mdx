@@ -24,7 +24,7 @@ uri: avoid-using-too-many-decimals-ssrs
 ---
 
 Having decimal places is generally not required when the numbers are there to show a general indication.
-<endOfIntro />
+<endIntro />
 
 Only include decimal places on reports for accountants that will be used for reconcilations.
 
@@ -32,11 +32,8 @@ Only include decimal places on reports for accountants that will be used for rec
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This does display decimal place",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - This does display decimal place"}
   src="/uploads/rules/avoid-using-too-many-decimals-ssrs/decimal.jpg"
 />
 
@@ -45,11 +42,8 @@ Only include decimal places on reports for accountants that will be used for rec
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This avoid displaying decimal place",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - This avoid displaying decimal place"}
   src="/uploads/rules/avoid-using-too-many-decimals-ssrs/No_decimal.jpg"
 />
 
@@ -76,10 +70,7 @@ This workaround should not be necessary. See the suggestion to Reporting Service
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Add a parameter to set the decimal places format",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Add a parameter to set the decimal places format"}
   src="/uploads/rules/avoid-using-too-many-decimals-ssrs/DecimalParameter.gif"
 />

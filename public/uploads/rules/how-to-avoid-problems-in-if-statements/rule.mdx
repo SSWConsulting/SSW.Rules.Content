@@ -24,18 +24,13 @@ uri: how-to-avoid-problems-in-if-statements
 
 Try to avoid problems in if-statements without curly brackets and just one statement which is written one line below the if-statement. Use just one line for such if-statements. If you want to add more statements later on and you could forget to add the curly brackets which may cause problems later on.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 if (ProductName == null) ProductName = string.Empty; if (ProductVersion == null)
  ProductVersion = string.Empty; if (StackTrace == null) StackTrace = string.Empty;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example**  
 
 ```cs
 if (ProductName == null)
@@ -51,8 +46,4 @@ if (StackTrace == null)
  StackTrace = string.Empty;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example**

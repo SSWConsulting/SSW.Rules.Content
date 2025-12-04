@@ -25,17 +25,14 @@ uri: display-zero-number-as-blank
 
 It looks better to display zero numbers as blank than to leave lots of '0' in a report.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Bad zero number format",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Bad zero number format"}
   src="/uploads/rules/display-zero-number-as-blank/AvoidZeroNum_Bad.gif"
 />
 
@@ -44,11 +41,8 @@ It looks better to display zero numbers as blank than to leave lots of '0' in a 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Good zero number format",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Good zero number format"}
   src="/uploads/rules/display-zero-number-as-blank/AvoidZeroNum_good.gif"
 />
 
@@ -60,10 +54,7 @@ It's easy to do with a simple format code '#,#'.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Format code",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Format code"}
   src="/uploads/rules/display-zero-number-as-blank/AvoidZeroNum_format.gif"
 />

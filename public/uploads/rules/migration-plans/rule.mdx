@@ -37,7 +37,7 @@ uri: migration-plans
 
 Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app _before_ you start breaking things! So how do you ensure your migration is being done the right way?
 
-<endOfIntro />
+<endIntro />
 
 ## Preparation
 
@@ -58,11 +58,8 @@ If you host your app on premise, it's also worth checking your infrastructure to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Install necessary .NET 8 runtimes",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Install necessary .NET 8 runtimes"}
   src="/uploads/rules/migration-plans/related-runtimes.png"
 />
 
@@ -83,16 +80,13 @@ Finding usages of these legacy or obsolete APIs gives you a strong sense of the 
 Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -101,8 +95,8 @@ Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
 The first thing you want to do is update your projects' `csproj` files to the new SDK-style format. This greatly simplifies the contents of the file, and will allow you to easily target multiple versions of .NET framework monikors simultaneously (more on this below).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** You can use the [try-convert](https://github.com/dotnet/try-convert) dotnet tool to convert your projects to the new sdk style csproj format.
 
@@ -120,11 +114,8 @@ try-convert --keep-current-tfms
 
 **Note:** For Web applications, we'll update at a later stage based on [migrating Web Apps to .NET](/migrating-web-apps-to-dotnet/).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -133,11 +124,8 @@ try-convert --keep-current-tfms
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The differences between the legacy csproj file and the new SDK csproj file",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"The differences between the legacy csproj file and the new SDK csproj file"}
   src="/uploads/rules/migration-plans/legacy-vs-sdk.png"
 />
 
@@ -152,8 +140,8 @@ Targeting both your current .NET Framework version _and_ your future .NET versio
 * Expose any build errors you receive when trying to build for .NET Framework
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Why is this important?
 
@@ -172,11 +160,8 @@ Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .
 
 This allows you up to work on your migration PBIs **incrementally**, while still allowing you to deploy your app on the current .NET version - win/win!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure={""}
 />
 
 
@@ -191,11 +176,8 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Bad and good examples when targeting multiple target frameworks",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure={"Bad and good examples when targeting multiple target frameworks"}
   src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png"
 />
 

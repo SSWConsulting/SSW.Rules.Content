@@ -26,7 +26,7 @@ uri: use-by-rather-than-per-in-your-chart-titles
 
 When making reports, charts, and visualizations, it’s important to be consistent with your titles.
 
-<endOfIntro />
+<endIntro />
 
 Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per YYY" and so it’s best to stay with the default and use this throughout your charts.
 
@@ -34,11 +34,8 @@ Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using \"per\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure={"Bad example - Using \"per\""}
   src="/uploads/rules/use-by-rather-than-per-in-your-chart-titles/by-per-bad.jpg"
 />
 
@@ -47,10 +44,7 @@ Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using \"by\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure={"Good example - Using \"by\""}
   src="/uploads/rules/use-by-rather-than-per-in-your-chart-titles/by-per-good.jpg"
 />

@@ -25,7 +25,7 @@ uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-th
 
 Some bugs have a whole history related to them and, when we fix them, we don't want to lose the rationale for the test. By adding a comment to the test that references the bug ID, future developers can see why a test is testing a particular behaviour.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 [Test]
@@ -33,12 +33,7 @@ public void TestProj11()
 {
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - The test name is the bug ID and it's unclear what it is meant to test",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - The test name is the bug ID and it's unclear what it is meant to test**  
 
 ```cs
 ///
@@ -55,8 +50,4 @@ public void TestResavingAfterPressingBackShouldntBreak()
 {
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The test name is clearer, good comments for the unit test give a little context, and there is a link to the original bug report",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The test name is clearer, good comments for the unit test give a little context, and there is a link to the original bug report**

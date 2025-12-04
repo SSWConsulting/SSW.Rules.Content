@@ -24,7 +24,7 @@ uri: do-not-bury-your-headline
 
 When communicating important information via email, it's crucial to ensure that the main purpose of the email is immediately clear. Burying the headline - placing the primary message deep within the text - can lead to confusion and miscommunication.
 
-<endOfIntro />
+<endIntro />
 
 * **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient [skims the email](/f-shaped-pattern), they understand the primary message.
 
@@ -33,8 +33,8 @@ When communicating important information via email, it's crucial to ensure that 
 Here's how you can improve email clarity by not burying the headline:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
@@ -46,17 +46,14 @@ Thanks,
 John
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The main point is buried and not immediately clear",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure={"Bad example - The main point is buried and not immediately clear"}
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Bob,
 
@@ -67,11 +64,8 @@ Thanks for your help with the project.
 Thanks,
 John
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The main point is clear and immediately addressed",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure={"Good example - The main point is clear and immediately addressed"}
 />
 
 
