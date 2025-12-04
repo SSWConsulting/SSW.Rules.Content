@@ -37,7 +37,7 @@ There are two types of errors made due to automation bias:
 * **Error of commission** - Doing the wrong thing because the system suggested it  
   E.g. Accepting a flawed suggestion, getting ChatGPT to write your essay, etc.
 * **Error of omission** - Failing to act because the system didn't flag a problem
-  E.g. shipping flawed code, because Copilot review approved it)
+  E.g. shipping flawed code, because Copilot review approved it
 
 ## Where AI slop (aka automation bias) shows up
 
