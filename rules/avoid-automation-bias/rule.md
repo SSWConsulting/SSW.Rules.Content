@@ -73,7 +73,7 @@ This isn't prescriptive, just a pattern to be aware of.
 
 ### 4. Cognitive Biases
 
-Artificial intelligence  has been engineered to appear more human in recent years. Endusers are more likely to place trust in systems they can engage with in human like interactions. As a side effect, we often afford more credence to AI models than warranted. This leads to AI generated outputs being less harshly scrutinised.
+Artificial Intelligence has been engineered to appear more human in recent years. End-users are more likely to place trust in systems they can engage with in human like interactions. As a side effect, we often afford more credence to AI models than warranted. This leads to AI generated outputs being less harshly scrutinized.
 
 ## How to avoid
 
