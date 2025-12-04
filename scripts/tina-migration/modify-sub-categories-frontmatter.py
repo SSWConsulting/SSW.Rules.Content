@@ -28,9 +28,25 @@ def js_string_unquoted(text: str) -> str:
     return dumped[1:-1]  # remove the surrounding double quotes
 
 def format_figure_attr(text: str, attr_name: str = "figure") -> str:
+    has_double = '"' in text
+    has_single = "'" in text
+
+    # Case 1: Contains both " and ', convert internal " into &quot;
+    if has_double and has_single:
+        inner = (
+            text
+            .replace("&", "&amp;")
+            .replace('"', "&quot;")
+        )
+        return f'{attr_name}="{inner}"'
+
     inner = js_string_unquoted(text)
-    if '"' in text:
+
+    # Case 2: Contains " but not ', use single quotes
+    if has_double:
         return f"{attr_name}='{inner}'"
+
+    # Case 3: Contains no ", use double-quoted attribute
     return f'{attr_name}="{inner}"'
 
 def mdx_safe_template_vars(text):
