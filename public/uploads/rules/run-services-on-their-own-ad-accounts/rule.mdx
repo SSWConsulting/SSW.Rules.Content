@@ -2,35 +2,73 @@
 seoDescription: Run services on their own AD accounts to ensure secure and organized management of your network's identity.
 type: rule
 title: Do you run services on their own AD accounts?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-active-directory.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-windows-servers.mdx
 uri: run-services-on-their-own-ad-accounts
 authors:
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
-created: 2021-09-01T00:01:28.761Z
+created: 2021-09-01T00:17:24.000Z
 guid: 84d15d33-025c-45a8-97b4-7c4d35907722
+lastUpdated: 2024-03-01T19:35:06.000Z
+lastUpdatedBy: Tom Bui [SSW]
+lastUpdatedByEmail: 67776356+tombui99@users.noreply.github.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 When [using service accounts](/do-you-use-service-accounts), you should have a specific AD account for each major service.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Using the default Administrator account"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/defaultadministrationaccount.jpeg"
+/>
 
-![Figure: Bad example - Using the default Administrator account](defaultadministrationaccount.jpeg)
-:::
 
-::: ok
-![Figure: Better example - At least don't use the Administrator account, create a new account](createnewaccount.jpeg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="Better example - At least don't use the Administrator account, create a new account"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/createnewaccount.jpeg"
+/>
 
-::: good
-![Figure: Best example - A specific AD account for each major server](specificadaccount.jpeg)
-:::
 
-::: bad
-![Figure: Bad example - Using the network admin's name](networkadminname.jpeg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Best example - A specific AD account for each major server"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/specificadaccount.jpeg"
+/>
 
-::: good
-![Figure: Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')](sqlserveraccount.jpeg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Using the network admin's name"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/networkadminname.jpeg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')"
+  src="/uploads/rules/run-services-on-their-own-ad-accounts/sqlserveraccount.jpeg"
+/>

@@ -1,23 +1,32 @@
 ---
-seoDescription: Add borders around white images to enhance visibility and professionalism on your website.
-type: rule
-title: Do you put borders around white images?
-uri: borders-around-white-images
-authors:
-  - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-related:
-  - add-useful-and-concise-figure-captions
-created: 2023-07-27T05:06:33.000Z
 archivedreason: null
+authors:
+- title: Seth Daily
+  url: https://www.ssw.com.au/people/seth-daily
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+created: 2023-07-27 08:48:06+00:00
+createdBy: Seth Daily [SSW]
+createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 guid: 24a71b8d-9706-44c6-ad18-26eed05fd8d3
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+related:
+- rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
+seoDescription: Add borders around white images to enhance visibility and professionalism
+  on your website.
+title: Do you put borders around white images?
+type: rule
+uri: borders-around-white-images
 ---
 
 Imagine you're browsing a website. You come across an area on the page that seems oddly blank, only to realize it's a white image blending seamlessly into the white background. This disrupts the browsing experience. So how do you prevent that?
 
-<!--endintro-->
+<endIntro />
 
 ## The Importance of Image Borders
 
@@ -26,14 +35,32 @@ Making your images distinct is a key part of creating a user-friendly website. Y
 * **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
 * **Professionalism**: Borders can add a sense of completeness to your site's design.
 
-::: bad
-![Figure: Bad Example - Can't tell where the image begins and ends!](white-no-border.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad Example - Can't tell where the image begins and ends!"
+  src="/uploads/rules/borders-around-white-images/white-no-border.png"
+/>
 
-::: good
-![Figure: Good Example - This looks much better](white-border.png)
-:::
 
-::: greybox
-Note: You should also add a [useful caption to every image](/add-useful-and-concise-figure-captions/).
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - This looks much better"
+  src="/uploads/rules/borders-around-white-images/white-border.png"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Note: You should also add a [useful caption to every image](/add-useful-and-concise-figure-captions/).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

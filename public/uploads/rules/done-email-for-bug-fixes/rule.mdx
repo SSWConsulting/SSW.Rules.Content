@@ -1,69 +1,83 @@
 ---
-seoDescription: Perfectly fix bugs by including current status, investigation, and solution in your email replies, ensuring efficient communication with clients.
-type: rule
-archivedreason:
-title: Do you know how to reply 'Done' after fixing a bug?
-guid: b1304beb-f898-4ae3-a18f-a8bfbb1b7a45
-uri: done-email-for-bug-fixes
-created: 2009-04-08T09:05:06.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - reply-done
-  - close-pbis-with-context
-  - include-useful-details-in-emails
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2025-10-23 19:02:20+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: b1304beb-f898-4ae3-a18f-a8bfbb1b7a45
+isArchived: false
+lastUpdated: 2025-10-23 19:02:20+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
-  - dones-do-you-know-how-to-do-a-perfect-done-(replying-to-a-bug)
-  - how-to-do-a-perfect-done
-
+- dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
+- dones-do-you-know-how-to-do-a-perfect-done-(replying-to-a-bug)
+- how-to-do-a-perfect-done
+related:
+- rule: public/uploads/rules/reply-done/rule.mdx
+- rule: public/uploads/rules/close-pbis-with-context/rule.mdx
+- rule: public/uploads/rules/include-useful-details-in-emails/rule.mdx
+seoDescription: Perfectly fix bugs by including current status, investigation, and
+  solution in your email replies, ensuring efficient communication with clients.
+title: Do you know how to reply 'Done' after fixing a bug?
+type: rule
+uri: done-email-for-bug-fixes
 ---
-
 
 When replying to a bug in an email, make sure your response helps everyone understand the current state, what you found, and how it was resolved.
 
-<!--endintro-->
+<endIntro />
 
 ## 1. Investigation details
 
-Share what you discovered about the issue.  
+Share what you discovered about the issue.
 
 * If you already know the cause, describe it clearly
 * If you are still investigating, explain what you have checked and what possible causes you ruled out
 
 ## 2. Solution
 
-Describe how you fixed the problem.  
+Describe how you fixed the problem.
 
 Include a short code snippet or example if it helps others understand the change.
 
 ## 3. Current ctatus
 
-Explain the most up-to-date situation for the bug.  
+Explain the most up-to-date situation for the bug.
 
 * If the bug is **fixed**, [include a screenshot](/include-useful-details-in-emails) showing the working result
 * If it’s **not yet fixed**, ask the reporter for more details so you can continue investigating
 
-::: info
-**Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** For clarity, "Done" (or "Not done" / "Already done" / "Partially done") should be [the first word(s) of the email](/reply-done/#tip-1-say-done-first).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ---
 
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | John |
-| Subject: | RE: 🐛 SSW.Website - Can't access website |  
-::: email-content
-
-### Hi John
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="RE: 🐛 SSW.Website - Can't access website"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
 
 ✅ Done - Bug has been fixed
 
@@ -76,10 +90,8 @@ I have increased the timeout threshold in the connection string.
 **Current Status:**\
 The site is working now.
 
-![Figure: Website is up and running](bug-reply-screenshot.png)  
-
-:::  
-:::  
-::: good  
-Figure: Good example - Replying to a bug with the details  
-:::
+![Figure: Website is up and running](/uploads/rules/done-email-for-bug-fixes/bug-reply-screenshot.png)
+  </>}
+  figurePrefix="good"
+  figure="Good example - Replying to a bug with the details"
+/>

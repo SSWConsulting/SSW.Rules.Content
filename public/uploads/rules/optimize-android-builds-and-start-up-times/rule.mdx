@@ -1,26 +1,35 @@
 ---
-seoDescription: Optimize Android builds and start-up times by leveraging .NET MAUI's native layer optimizations, such as AAB, R8, and AAPT2, and .NET-specific optimizations like Concurrent GC, AOT, LLVM, and IL Stripping.
-type: rule
-archivedreason:
-title: Do you optimize your Android builds and start-up times?
-guid: fa142c74-97bb-4150-be0d-abb997ea9d30
-uri: optimize-android-builds-and-start-up-times
-created: 2020-10-08T23:04:23.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Anton Polkanov
-    url: https://ssw.com.au/people/anton-polkanov
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Anton Polkanov
+  url: https://ssw.com.au/people/anton-polkanov
+categories:
+- category: categories/software-engineering/rules-to-better-maui.mdx
+created: 2020-10-08 23:04:23+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: fa142c74-97bb-4150-be0d-abb997ea9d30
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-optimise-your-android-builds-and-start-up-times
+- do-you-optimise-your-android-builds-and-start-up-times
+seoDescription: Optimize Android builds and start-up times by leveraging .NET MAUI's
+  native layer optimizations, such as AAB, R8, and AAPT2, and .NET-specific optimizations
+  like Concurrent GC, AOT, LLVM, and IL Stripping.
+title: Do you optimize your Android builds and start-up times?
+type: rule
+uri: optimize-android-builds-and-start-up-times
 ---
 
 .NET MAUI provides several ways to optimize an Android application. Some of them complement each other while others can be mutually exclusive. It's important to understand what options you have at hands and how they affect your application.
 
-<!--endintro-->
+<endIntro />
 
 When it comes to app optimizations, developers usually try to strike the right balance between:
 
@@ -38,7 +47,7 @@ These optimizations are not specific to .NET MAUI and are used in other cross-pl
 
 #### Use AAB (Android App Bundle or just App Bundle)
 
-❌ Debug  
+❌ Debug
 ✅ Release
 
 .aab files are used only for publishing on Google Play and cannot be installed on Android devices. AAB allows smaller builds to be targeted to individual hardware specifications by packaging only required resources (e.g. icons, images). It also deligates app signing to Google Play.
@@ -56,7 +65,7 @@ As R8 increases build time it's only recommented for Release configuration.
 
 #### Use AAPT2 (instead of AAPT)
 
-✅ Debug  
+✅ Debug
 ✅ Release
 
 AAPT2 parses, indexes, and compiles the resources into a binary format that is optimized for the Android platform.
@@ -67,14 +76,14 @@ These optimizations are .NET MAUI specific.
 
 #### Concurrent GC
 
-✅ Debug  
+✅ Debug
 ✅ Release
 
 Concurrent GC improves app performance by collecting garbage alongside the running program. This approach prevents program from freeze which happen for non-concurrent GCs.
 
 #### AOT
 
-❌ Debug  
+❌ Debug
 ✅ Release
 
 Whereas iOS enforces AOT (ahead of time) compilation, Android supports (and uses by default) JIT (just in time) compilation which happens at runtime, but AOT can be enabled on Android to improve performance. As the code will be pre-compiled, it comes at a cost of significantly larger app size and longer build times.
@@ -92,7 +101,7 @@ AOT increases app size and build time (especially Full AOT). Recommended for Rel
 
 #### LLVM
 
-❌ Debug  
+❌ Debug
 ✅ Release
 
 Mono support 2 compilation engines, a fast, JIT-friendly compilation engine which does not generate very fast code, and a slower compilation engine based on the LLVM optimizing compiler that produces superior code.
@@ -103,7 +112,7 @@ Increases build time. Recommended for Release.
 
 #### IL Stripping
 
-❌ Debug  
+❌ Debug
 ✅ Release
 
 $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longer required.

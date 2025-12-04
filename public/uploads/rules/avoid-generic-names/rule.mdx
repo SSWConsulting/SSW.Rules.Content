@@ -1,33 +1,43 @@
 ---
-seoDescription: Generic names like "manager" are easy and can trick us into thinking they are good for consistency. But they can quickly undermine conveying the meaning of your code.
-type: rule
-archivedreason:
-title: Do you avoid generic names like “manager” or "helper"?
-uri: avoid-generic-names
-created: 2024-11-05T00:00:00.0000000Z
+archivedreason: null
 authors:
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-related:
-  - clear-meaningful-names
-  - verbs-for-method-names
-  - nouns-for-class-names
-  - avoid-micro-jargon
-  - consistent-words-for-concepts
-  - when-to-use-technical-names
-  - avoid-using-your-name-in-client-code
-  - use-meaningful-modifiers
-  - follow-naming-conventions-for-tests-and-test-projects
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+categories:
+- category: categories/software-engineering/rules-to-better-naming-conventions.mdx
+created: 2024-11-05 05:45:16+00:00
+createdBy: Matt Goldman [SSW]
+createdByEmail: mattgoldman@ssw.com.au
 guid: f0b473e1-c892-4a21-8319-68f56f713c0d
+isArchived: false
+lastUpdated: 2024-11-28 18:40:38+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/clear-meaningful-names/rule.mdx
+- rule: public/uploads/rules/verbs-for-method-names/rule.mdx
+- rule: public/uploads/rules/nouns-for-class-names/rule.mdx
+- rule: public/uploads/rules/avoid-micro-jargon/rule.mdx
+- rule: public/uploads/rules/consistent-words-for-concepts/rule.mdx
+- rule: public/uploads/rules/when-to-use-technical-names/rule.mdx
+- rule: public/uploads/rules/avoid-using-your-name-in-client-code/rule.mdx
+- rule: public/uploads/rules/use-meaningful-modifiers/rule.mdx
+- rule: public/uploads/rules/follow-naming-conventions-for-tests-and-test-projects/rule.mdx
+seoDescription: Generic names like "manager" are easy and can trick us into thinking
+  they are good for consistency. But they can quickly undermine conveying the meaning
+  of your code.
+title: Do you avoid generic names like “manager” or "helper"?
+type: rule
+uri: avoid-generic-names
 ---
 
 Generic names like “manager”, "helper", “processor”, “data”, and “info” are easy to reach for, but they tell us very little about a class or method’s true purpose. These words are catch-alls — they don’t communicate what the code actually does or what entity it represents. Avoiding these vague terms forces us to choose names that reflect a specific role or responsibility.
 
-<!--endintro-->
+<endIntro />
 
 ## Why generic names are problematic
 
@@ -35,32 +45,47 @@ Words like "manager" and "processor" imply something that handles various tasks,
 
 Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
 
-:::greybox
-Using **`OrderManager`** as a class to handle orders in an e-commerce system.
-:::
-:::bad
-Bad example - While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?
-:::
 
-:::greybox
-Using **`OrderCreator`** for specifically creating orders  
+<boxEmbed
+  style="greybox"
+  body={<>
+    Using **`OrderManager`** as a class to handle orders in an e-commerce system.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Using **`OrderCreator`** for specifically creating orders
 
 Using **`ShippingOrderHandler`** or **`OrderShipmentService`** specifically handles only one aspect of the order - sending for shipment
-:::
-:::good
-Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for
-:::  
+  </>}
+  figurePrefix="good"
+  figure="Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for"
+/>
 
-:::greybox
-Using **`UserData`** for tracking the data for each user account.
-:::
-:::bad
-Bad example - The name 'data' could mean just about anything
-:::
 
-:::greybox
-Using **`UserOrderHistory`** requires no explanation!
-:::
-:::good
-Good example - Immediately tells us the scope and purpose of the class
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Using **`UserData`** for tracking the data for each user account.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The name 'data' could mean just about anything"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Using **`UserOrderHistory`** requires no explanation!
+  </>}
+  figurePrefix="good"
+  figure="Good example - Immediately tells us the scope and purpose of the class"
+/>

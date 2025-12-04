@@ -1,29 +1,45 @@
 ---
-seoDescription: Know when to multiply your estimates, based on the main risk factors
-type: rule
-title: Do you consider risk multipliers in software estimates?
-uri: risk-multipliers
 authors:
-  - title: Andrew Harris
-    url: https://www.ssw.com.au/people/andrew-harris
-  - title: Luke Cook
-    url: https://www.ssw.com.au/people/luke-cook
-related:
-  - underpromise-overdeliver
-  - size-pbis-effectively
-  - break-tasks
-created: 2025-06-03T23:36:34.812Z
+- title: Andrew Harris
+  url: https://www.ssw.com.au/people/andrew-harris
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+categories:
+- category: categories/client-engagement/rules-to-better-software-consultants-happy-clients.mdx
+created: 2025-07-17 04:12:06+00:00
+createdBy: Luke Cook [SSW]
+createdByEmail: 100659715+lukecookssw@users.noreply.github.com
 guid: b2b5a30c-7023-47a8-ac07-f8059e7f303d
-
+isArchived: false
+lastUpdated: 2025-09-18 12:04:17+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+related:
+- rule: public/uploads/rules/underpromise-overdeliver/rule.mdx
+- rule: public/uploads/rules/size-pbis-effectively/rule.mdx
+- rule: public/uploads/rules/break-tasks/rule.mdx
+seoDescription: Know when to multiply your estimates, based on the main risk factors
+title: Do you consider risk multipliers in software estimates?
+type: rule
+uri: risk-multipliers
 ---
 
 Estimating time and complexity in software is hard. By its nature, almost all software development is attempting to solve problems no one else has done before. Industry veterans broadly agree that **up to 60% of time and effort in software development is consumed by resolving unanticipated issues**. Developers call these unanticipated issues "unknowns". Businesses call them "risks".
 
 When you're scoping out a piece of work, it's important to help the business understand and manage those risks, and help shine a light on areas where risk can quickly snowball.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: Like an iceberg, PBIs might have extra work hidden beneath the surface](iceberg.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Like an iceberg, PBIs might have extra work hidden beneath the surface"
+  src="/uploads/rules/risk-multipliers/iceberg.jpg"
+/>
+
 
 ## The initial estimate
 
@@ -35,14 +51,21 @@ While this is probably the most obvious area of risk, it is still risk and there
 
 A typical conversation around something like "add a shopping cart" might play out like this:
 
-::: greybox
-I want a shopping cart on my website.\
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I want a shopping cart on my website.\
 Oh, and it needs to process payments.\
 We already have a payment gateway! Talk to David about it.\
 Oh, that payment gateway is throttled - it won't be able to handle the expected transaction increase....\
 We need a new payment gateway!.\
 ...etc.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 One of the best ways to identify these complexities is to [run an "Event Storming" session](/event-storming). This approach is highly recommended for all medium to large projects, as it’s proven effective in identifying complexity and clearly demonstrating it to non-technical stakeholders.
 
@@ -119,8 +142,11 @@ If you're in the enterprise space, or working on projects that have many moving 
 5. Decompose the epics into PBIs
 6. Use the strategies above to identify high risk areas
 
-::: info
-**Bonus tip:** Try estimating your work on complexity, rather than time. For example:
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Bonus tip:** Try estimating your work on complexity, rather than time. For example:
 
 * Your estimated effort for a project is ~200 effort points
 * **Predicted** Sprint velocity for Sprint 1 is ~40 points
@@ -129,7 +155,11 @@ If you're in the enterprise space, or working on projects that have many moving 
 * Repeat
 
 Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it'll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-> "I love deadlines. I like the whooshing sound they make as they fly by."  
+
+> "I love deadlines. I like the whooshing sound they make as they fly by."
 > \* Douglas Adams

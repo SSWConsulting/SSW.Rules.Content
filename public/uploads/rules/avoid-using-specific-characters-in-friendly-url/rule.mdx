@@ -1,22 +1,29 @@
 ---
-seoDescription: Avoid using specific characters like +,  -, #, &, ,), (!, }, {, @, /, =, $ and others in friendly URLs to ensure they are readable, memorable and safe.
-type: rule
-archivedreason:
-title: Do you avoid using specific characters in friendly URL?
-guid: c03c757d-86dc-4f31-9aa3-f1c6670c7d63
-uri: avoid-using-specific-characters-in-friendly-url
-created: 2017-04-26T20:15:26.0000000Z
+archivedreason: null
 authors:
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: []
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-for-end-users.mdx
+created: 2017-04-26 20:15:29+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: c03c757d-86dc-4f31-9aa3-f1c6670c7d63
+isArchived: false
+lastUpdated: 2025-09-18 12:04:17+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
-  - do-you-avoid-using-specific-characters-in-friendly-url
+- do-you-avoid-using-specific-characters-in-friendly-url
+seoDescription: Avoid using specific characters like +,  -,
+title: Do you avoid using specific characters in friendly URL?
+type: rule
+uri: avoid-using-specific-characters-in-friendly-url
 ---
 
 When adding a friendly URL, please avoid using specific characters like ```+ : # & , ) ( ! \ } {  @ / = $``` (and so on) due to these reasons:
 
-<!--endintro-->
+<endIntro />
 
 1. When adding a friendly URL, we meant to make it **friendly** and **easy** for the user to read and remember, and these characters add complexity
 
@@ -26,16 +33,23 @@ When adding a friendly URL, please avoid using specific characters like ```+ : #
 
 Some characters are reserved characters, which may not be supported by some features, based on our experience, “+" is not supported in “canonical" to redirect from **http** to **https**.
 
-::: greybox
-`http://ssw.com.au/rules/when-to-use-+1`
-:::
-::: bad
-Figure: Bad example - This URL will throw a 404 error rather than redirecting to https://
-:::
 
-::: greybox
-`http://ssw.com.au/rules/when-to-use-plus-1`
-:::
-::: good
-Figure: Good example - Redirect works fine if the URL doesn't include “+"
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    `http://ssw.com.au/rules/when-to-use-+1`
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - This URL will throw a 404 error rather than redirecting to https://"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    `http://ssw.com.au/rules/when-to-use-plus-1`
+  </>}
+  figurePrefix="good"
+  figure="Good example - Redirect works fine if the URL doesn't include “+&quot;"
+/>

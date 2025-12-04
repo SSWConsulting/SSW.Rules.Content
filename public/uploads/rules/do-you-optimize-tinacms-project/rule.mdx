@@ -1,21 +1,29 @@
 ---
 type: rule
 title: Do you optimize your TinaCMS project for clarity, performance, and reliable builds?
+categories:
+  - category: categories/software-engineering/rules-to-better-tinacms.mdx
 seoDescription: Learn effective strategies to structure and optimize your
     TinaCMS project for clarity, performance, and successful builds.
 uri: do-you-optimize-tinacms-project
 authors:
     - title: Gilles Pothieu
       url: https://www.ssw.com.au/people/gilles-pothieu/
-created: 2024-08-28T16:15:00.000Z
+created: 2024-09-30T02:23:35.000Z
 guid: 3c59f56f-34b0-47a7-902a-718eb340d2e5
+lastUpdated: 2025-07-03T15:15:11.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Gilles Pothieu [SSW]
+createdByEmail: gillespothieu@ssw.fr
+isArchived: false
 ---
 
 Structuring and optimizing your TinaCMS project is essential to achieve clarity, enhance performance, and prevent build failures. Poorly optimized projects can lead to slow site performance, increased server load, and even failed builds due to excessive or inefficient data requests.
 
 Let’s explore how to structure your project effectively and apply best practices to boost performance both in runtime and during the build process.
 
-<!--endintro-->
+<endIntro />
 
 ## 1. Structuring your TinaCMS Architecture
 
@@ -33,10 +41,7 @@ When working with large datasets or generating multiple subcomponents, following
 * **Make a single request in a top-level server component and share data via React Context or a state library**
 
   * Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
-
-::: good
-
-```js
+**✅ ```js
 export default async function Home({ params }: HomePageProps) {
     const location = params.location;
 
@@ -65,8 +70,7 @@ export async function generateStaticParams() {
 }
 ```
 
-**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.**
-:::
+**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.****  
 
 * **Cache data at a top-level and access it when necessary**
 

@@ -1,41 +1,62 @@
 ---
-seoDescription: Discover how branches can provide a more reliable and immutable versioning system compared to labels, ensuring absolute certainty of changes and making it easier to track and manage source code.
-type: rule
-archivedreason:
-title: Do you know that branches are better than Labels?
-guid: 6acdf85a-d7d9-4030-b44f-fda34bdc2682
-uri: do-you-know-that-branches-are-better-than-labels
-created: 2011-11-18T03:52:47.0000000Z
+archivedreason: null
 authors:
-  - title: David Klein
-    url: https://ssw.com.au/people/david-klein
-    noimage: true
-  - title: Justin King
-    url: https://ssw.com.au/people/justin-king
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-  - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- noimage: true
+  title: David Klein
+  url: https://ssw.com.au/people/david-klein
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+- title: Tristan Kurniawan
+  url: https://ssw.com.au/people/tristan-kurniawan
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/project-delivery/rules-to-better-branching-and-builds.mdx
+created: 2011-11-18 03:52:47+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+guid: 6acdf85a-d7d9-4030-b44f-fda34bdc2682
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Discover how branches can provide a more reliable and immutable versioning
+  system compared to labels, ensuring absolute certainty of changes and making it
+  easier to track and manage source code.
+title: Do you know that branches are better than Labels?
+type: rule
+uri: do-you-know-that-branches-are-better-than-labels
 ---
 
 Although labels are useful they can be changed after they have been created with no way to tell that they have been changed.
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example, labels can be edited after the fact (they are mutable)](TFSLabel.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example, labels can be edited after the fact (they are mutable)"
+  src="/uploads/rules/do-you-know-that-branches-are-better-than-labels/TFSLabel.png"
+/>
 
-::: good  
-![Figure: Good example, branches give absolute certainty of versions (they are immutable)](tfslabe2.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example, branches give absolute certainty of versions (they are immutable)"
+  src="/uploads/rules/do-you-know-that-branches-are-better-than-labels/tfslabe2.jpg"
+/>
+
 
 **Fact #1** : Creating a branch of 1GB of source code does not increase the size of your database by 1GB. It just adds a bunch of pointers. Only the differences are actually stored.
 **Fact #2** : When you delete a branch it is not really “deleted”, you are just ending the history. You can undelete at a later time.

@@ -2,6 +2,8 @@
 seoDescription: Train your GPT model to unlock its full potential and generate accurate responses for complex or highly specific use cases.
 type: rule
 title: Do you know how to train GPT?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 uri: train-gpt
 authors:
   - title: Calum Simpson
@@ -10,17 +12,23 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Jack Reimers
     url: https://www.ssw.com.au/people/jack-reimers
-created: 2023-02-08T04:53:29.524Z
+created: 2023-07-11T05:29:16.000Z
 guid: c655297f-eeea-41ca-beda-b1f9c27c7cdd
 redirects:
   - train-gpt-3
+lastUpdated: 2024-09-04T03:55:39.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Seth Daily [SSW]
+createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
+isArchived: false
 ---
 
 GPT is an awesome product that can do a lot out-of-the-box. However, sometimes that out-of-the-box model doesn't do what you need it to do.
 
 In that case, you need to provide the model with more training data, which can be done in a couple of ways.
 
-<!--endintro-->
+<endIntro />
 
 Usually, for common scenarios GPT will already be adequate, but for more complex or highly specific use cases it will not have the required training to output what you need.
 
@@ -49,13 +57,25 @@ OpenAI provides a way for you to [train new data into the model so that it is al
 
 For example, if you want to build an app that outputs SSW rules based on a title, the untrained model probably won't know what SSW Rules are so you need to train it.
 
-::: bad
-![Figure: Bad example - The untrained GPT model doesn't know what format to create a rule in](untrainedgpt3badexample.png.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - The untrained GPT model doesn't know what format to create a rule in"
+  src="/uploads/rules/train-gpt/untrainedgpt3badexample.png.png"
+/>
 
-::: good
-![Figure: Good example - The trained GPT model knows how to format the rule, and the style rules are written in](trainedgpt3goodexample.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - The trained GPT model knows how to format the rule, and the style rules are written in"
+  src="/uploads/rules/train-gpt/trainedgpt3goodexample.png"
+/>
+
 
 #### ✅ Benefits
 

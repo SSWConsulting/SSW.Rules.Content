@@ -2,19 +2,27 @@
 seoDescription: When casting IQueryable to IEnumerable and querying data afterwards, Entity Framework must collect the data at that point, resulting in significant extra database load and processing on the client side. Use AsEnumerable() instead for more efficient queries.
 type: rule
 title: Do you take care when casting IQueryable to IEnumerable?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: take-care-when-casting-iqueryable-to-ienumerable
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-created: 2021-12-13T17:00:03.219Z
+created: 2021-12-13T23:24:44.000Z
 guid: ee5bfbb5-7743-462b-bc8a-f32b3fb015b0
+lastUpdated: 2021-12-21T06:30:45.000Z
+lastUpdatedBy: Bryden Oliver
+lastUpdatedByEmail: 77371877+brydeno@users.noreply.github.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast. This can result in very significant extra database load, and extra processing on the client side.
 
 **NOTE:** Using `.AsEnumerable()` achieves the same effect.
 
-<!--endintro-->
+<endIntro />
 
 ### Counting
 
@@ -43,10 +51,7 @@ public IEnumerable<Sale> GetSales() => context.Sales;
 // because it receives the query as `IEnumerable` before running `.Count()`.
 int count4 = GetSales().Count();
 ```
-
-::: bad
-Bad example - All these examples read the entire table instead of just returning the count from the database.
-:::
+**❌ Bad example - All these examples read the entire table instead of just returning the count from the database.**  
 
 ```cs
 // All of the examples below will result in SQL query:
@@ -59,10 +64,7 @@ int count2 = query.Count();
 public IQueryable<Sale> GetSales() => context.Sales;
 int count3 = GetSales().Count();
 ```
-
-::: good
-Good example - Only the count is returned by the query
-:::
+**✅ Good example - Only the count is returned by the query**  
 
 ### Where
 
@@ -80,10 +82,7 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
-
-::: bad
-Bad example - The whole table is returned from the database and then discarded in code.
-:::
+**❌ Bad example - The whole table is returned from the database and then discarded in code.**  
 
 ```cs
 // All Examples will result in a SQL query like:
@@ -98,7 +97,4 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
-
-::: good
-Good example - Filtering is done on the database before returning data.
-:::
+**✅ Good example - Filtering is done on the database before returning data.**  

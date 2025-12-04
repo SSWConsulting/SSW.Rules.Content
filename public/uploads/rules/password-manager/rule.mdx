@@ -1,50 +1,68 @@
 ---
-seoDescription: Use a password manager to securely store and generate strong, unique passwords, ensuring your online accounts are protected from breaches and cyber threats.
-type: rule
-title: Passwords - Do you use a password manager?
-uri: password-manager
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Warwick Leahy
-    url: https://www.ssw.com.au/people/warwick-leahy
-related:
-  - where-to-keep-your-files
-created: 2021-08-09T23:30:55.670Z
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Warwick Leahy
+  url: https://www.ssw.com.au/people/warwick-leahy
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-security-end-users.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+created: 2021-08-10 22:06:52+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
+isArchived: false
+lastUpdated: 2024-10-02 07:34:28+00:00
+lastUpdatedBy: Pravin Kumar [SSW]
+lastUpdatedByEmail: pravinkumar@ssw.com.au
+related:
+- rule: public/uploads/rules/where-to-keep-your-files/rule.mdx
+seoDescription: Use a password manager to securely store and generate strong, unique
+  passwords, ensuring your online accounts are protected from breaches and cyber threats.
+title: Passwords - Do you use a password manager?
+type: rule
+uri: password-manager
 ---
 
 If you need to remember the password then a passphrase is best. Preferably these should be made up of 4 random words with a length of at least 16 characters. These eliminate the requirement for special characters and are incredibly difficult for a computer to guess.
 
 A **strong password** would look something like this:
 
-:::greybox
-correcthorsebatterystaple
-:::
-::: ok
-OK example - A strong memorable password
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    correcthorsebatterystaple
+  </>}
+  figurePrefix="ok"
+  figure="OK example - A strong memorable password"
+/>
+
 
 However the best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. A **super strong password** looks something like this:
 
-:::greybox
-$Jun!ZW@gYS%bmy0($34hYj&8hsgfDF
-:::
-::: good
-Good example - A strong computer-generated password
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    $Jun!ZW@gYS%bmy0($34hYj&8hsgfDF
+  </>}
+  figurePrefix="good"
+  figure="Good example - A strong computer-generated password"
+/>
+
 
 This is obviously not something you can realistically type in every time you need to use it. Fortunately, the same tools that generate these for us also manage them, storing them securely and automatically entering them into websites and apps for us.
 
 With a password manager, you don't have to remember that strong, unique password for every website. The password manager stores them for you and even helps you generate new, random ones.
 
-<!--endintro-->
+<endIntro />
 
 It does not matter which one. There are many great tools out there:
 
-`youtube: https://youtu.be/xHSnHj-zKF4`
 
-**Figure: Why you should use a password manager**
+<youtubeEmbed url="https://youtu.be/xHSnHj-zKF4" description={"Figure: Why you should use a password manager"} />
+
 
 In an Enterprise you should use an Enterprise password manager
 
@@ -55,15 +73,42 @@ In an Enterprise you should use an Enterprise password manager
 
 The best enterprise password managers provide a security score for all your enterprise passwords - fix them if your score is low.
 
-![Figure: In Keeper you can see at a glance if insecure passwords are being used](screenshot_20221025_093417.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="In Keeper you can see at a glance if insecure passwords are being used"
+  src="/uploads/rules/password-manager/screenshot_20221025_093417.png"
+/>
+
 
 They monitor your accounts, regularly checking if they have been released in a breach and notifying you of any problems.
 
-![Figure: Keeper quickly shows you if any of your passwords have been released in a breach](keeper2.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Keeper quickly shows you if any of your passwords have been released in a breach"
+  src="/uploads/rules/password-manager/keeper2.png"
+/>
+
 
 They also allow administrative control of your accounts. In an enterprise you should be able to transfer any non-shared passwords if a staff member leaves (in case they forgot to share them). Lock their account and expire their master passwords. This is great when a staff member leaves but also super important if they lose a device.
 
-![Figure: In Keeper you can lock an account expire a master password or even transfer their passwords](keeper3.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="In Keeper you can lock an account expire a master password or even transfer their passwords"
+  src="/uploads/rules/password-manager/keeper3.png"
+/>
+
 
 ---
 

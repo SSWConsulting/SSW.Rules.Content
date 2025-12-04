@@ -1,40 +1,48 @@
 ---
-seoDescription: Add stsadm to environmental variables to run SharePoint tools from anywhere
-type: rule
-archivedreason:
-title: Do you add stsadm to environmental variables
-guid: 2a02a6a0-a3ff-40ce-abe3-40bace029c00
-uri: do-you-add-stsadm-to-environmental-variables
-created: 2010-12-23T01:48:27.0000000Z
+archivedreason: null
 authors:
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-related: []
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2007-to-2010.mdx
+created: 2010-12-23 02:18:20+00:00
+createdBy: johnliu
+createdByEmail: johnliu@ssw.com.au
+guid: 2a02a6a0-a3ff-40ce-abe3-40bace029c00
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Add stsadm to environmental variables to run SharePoint tools from
+  anywhere
+title: Do you add stsadm to environmental variables
+type: rule
+uri: do-you-add-stsadm-to-environmental-variables
 ---
 
 In SharePoint 2007, it is a good idea to add the path to stsadm.exe into the environment variables on a SharePoint server so you can open a command prompt and run the tool from anywhere.
 
-![](stsadm.png)
+![](/uploads/rules/do-you-add-stsadm-to-environmental-variables/stsadm.png)
 **Figure: you should be able to quickly type ‘stsadm’. Believe me you will be typing it enough!** In SharePoint 2010, you can skip quite a few steps by using the PowerShell Console.
 
-![](SP2010PowerShell.png)
+![](/uploads/rules/do-you-add-stsadm-to-environmental-variables/SP2010PowerShell.png)
 **Figure: Using SharePoint 2010 Management Shell**
 
-<!--endintro-->
+<endIntro />
 
 **More Information** for SharePoint 2007
 
-1.  In the start menu type **Edit the system environment variables** and run the tool![](EnvVariables.png)
+1.  In the start menu type **Edit the system environment variables** and run the tool![](/uploads/rules/do-you-add-stsadm-to-environmental-variables/EnvVariables.png)
 
     Figure 1 - Search for "Edit the system environment variables” in the Start Menu
 
 2.  In the **System variables** section, select **Path** and click **Edit
-    ** ![](EnvVariables2.png)
+    ** ![](/uploads/rules/do-you-add-stsadm-to-environmental-variables/EnvVariables2.png)
 
         Figure 2 - Under System Variables | Select Path | Click Edit
 

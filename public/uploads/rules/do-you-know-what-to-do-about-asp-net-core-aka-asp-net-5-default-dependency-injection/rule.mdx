@@ -1,25 +1,34 @@
 ---
-seoDescription: Learn how to customize ASP.NET Core's default dependency injection for a more robust and scalable architecture.
-type: rule
-archivedreason:
-title: Do you know what to do about ASP.NET Core default dependency injection?
-guid: a841c2c6-15bb-4f13-83a7-f8c201b0e937
-uri: do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
-created: 2016-02-05T00:28:15.0000000Z
+archivedreason: null
 authors:
-  - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related:
-  - do-you-use-a-dependency-injection-centric-architecture
-  - generate-dependency-graphs
-  - the-best-dependency-injection-container
+- title: Igor Goldobin
+  url: https://ssw.com.au/people/igor-goldobin
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2016-02-05 00:28:17+00:00
+createdBy: AndrewLean
+createdByEmail: AndrewLean@ssw.com.au
+guid: a841c2c6-15bb-4f13-83a7-f8c201b0e937
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-know-what-to-do-about-asp-net-core-(aka-asp-net-5)-default-dependency-injection
-  - do-you-know-what-to-do-about-asp-net-core-default-dependency-injection
+- do-you-know-what-to-do-about-asp-net-core-(aka-asp-net-5)-default-dependency-injection
+- do-you-know-what-to-do-about-asp-net-core-default-dependency-injection
+related:
+- rule: public/uploads/rules/do-you-use-a-dependency-injection-centric-architecture/rule.mdx
+- rule: public/uploads/rules/generate-dependency-graphs/rule.mdx
+- rule: public/uploads/rules/the-best-dependency-injection-container/rule.mdx
+seoDescription: Learn how to customize ASP.NET Core's default dependency injection
+  for a more robust and scalable architecture.
+title: Do you know what to do about ASP.NET Core default dependency injection?
+type: rule
+uri: do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
 ---
 
 We already know what the [best IOC container is](/the-best-dependency-injection-container), but how does ASP.NET core's default dependency injection compare?
@@ -30,16 +39,27 @@ ASP.NET Core includes default dependency injection for new Web Apps in the Start
 
 **Steve Smith, ([ASP.NET Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518))**
 
-<!--endintro-->
+<endIntro />
 
 You can quickly flag this error and any more by using the [SSW Code Auditor](https://codeauditor.com/).
 
 Here is an example of rewiring the default code to AutoFac with the [SSW's Music Store](https://github.com/SSWConsulting/enterprise-musicstore-ui-angular2) app:
 
-::: bad
-![Figure: Bad Example - The default dependency injection for ASP.NET Core](SSW-DependencyInjection-Example-Default-Bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad Example - The default dependency injection for ASP.NET Core"
+  src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Bad.png"
+/>
 
-::: good
-![Figure: Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code](SSW-DependencyInjection-Example-Default-Good.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - The bad example rewired to utilize AutoFac. Red boxes outline the modified code"
+  src="/uploads/rules/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection/SSW-DependencyInjection-Example-Default-Good.png"
+/>

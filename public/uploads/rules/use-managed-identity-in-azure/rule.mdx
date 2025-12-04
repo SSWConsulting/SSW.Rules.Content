@@ -2,6 +2,8 @@
 seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
 type: rule
 title: Do you use Managed Identities in your Azure projects?
+categories:
+  - category: categories/software-engineering/rules-to-better-azure.mdx
 uri: use-managed-identity-in-azure
 authors:
   - title: Ben Neoh
@@ -12,7 +14,7 @@ guid: 9a4f3b2d-8c3e-4f6f-9a5b-2d7b6c4e1f90
 
 Teams often unknowingly create security risks by storing secrets in configuration files, DevOps variables, or - even worse - accidentally committing them to Git 😱. This leads to production outages, broken deployments, and painful key rotations that waste time and cost money. Even when Key Vault is used, many rely on static secrets, which still require manual rotation and management. Thankfully Azure has a much safer way of solving this problem.
 
-<!--endintro-->
+<endIntro />
 
 ## What is a Managed Identity?
 
@@ -20,9 +22,9 @@ A **Managed Identity** is an identity that Azure creates and manages for your re
 
 Azure automatically handles:
 
-* password and secret rotation  
-* identity lifecycle  
-* secure authentication to Azure services  
+* password and secret rotation
+* identity lifecycle
+* secure authentication to Azure services
 
 This means **no more stored secrets**, ever.
 
@@ -34,12 +36,12 @@ Using secrets (even when placed in Key Vault as static keys) creates manual work
 
 Benefits include:
 
-* ✅ Eliminates all secrets and keys  
-* ✅ More secure – nothing to leak  
-* ✅ Supported by all Azure SDKs  
+* ✅ Eliminates all secrets and keys
+* ✅ More secure – nothing to leak
+* ✅ Supported by all Azure SDKs
 * ✅ Automatically rotates
 * ✅ Free
-  
+
 ---
 
 ## How to use Managed Identity in your project

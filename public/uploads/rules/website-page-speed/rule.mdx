@@ -1,38 +1,53 @@
 ---
-seoDescription: Fast-loading pages are essential for user experience and conversions—slow websites lead to frustration, higher bounce rates, and lost opportunities.
-type: rule
-title: Technical - Do you check your website’s performance regularly?
-uri: website-page-speed
-authors:
-  - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
-  - title: Gilles Pothieu
-    url: https://www.ssw.com.au/people/gilles-pothieu
-  - title: Chloe Lin
-    url: https://www.ssw.com.au/people/chloe-lin
-  - title: Josh Berman
-    url: https://www.ssw.com.au/people/josh-berman
-related:
-  - optimize-your-images
-  - do-you-avoid-reviewing-performance-without-metrics
-  - compare-pr-performance-with-production
-
-redirects:
-  - do-you-have-a-good-page-speed
-created: 2019-04-16T22:59:21.000Z
 archivedreason: null
+authors:
+- title: Camilla Rosa Silva
+  url: https://ssw.com.au/people/camilla-rosa-silva
+- title: Gilles Pothieu
+  url: https://www.ssw.com.au/people/gilles-pothieu
+- title: Chloe Lin
+  url: https://www.ssw.com.au/people/chloe-lin
+- title: Josh Berman
+  url: https://www.ssw.com.au/people/josh-berman
+categories:
+- category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
+created: 2024-01-25 20:24:40+00:00
+createdBy: Camilla Rosa Silva [SSW]
+createdByEmail: 53064613+camillars@users.noreply.github.com
 guid: fdd7cf8b-d165-4010-9e96-481d3bd406b9
+isArchived: false
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+redirects:
+- do-you-have-a-good-page-speed
+related:
+- rule: public/uploads/rules/optimize-your-images/rule.mdx
+- rule: public/uploads/rules/avoid-reviewing-performance-without-metrics/rule.mdx
+- rule: public/uploads/rules/compare-pr-performance-with-production/rule.mdx
+seoDescription: Fast-loading pages are essential for user experience and conversions—slow
+  websites lead to frustration, higher bounce rates, and lost opportunities.
+title: Technical - Do you check your website’s performance regularly?
+type: rule
+uri: website-page-speed
 ---
 
 Page speed remains a critical element for the online user experience. The demand for instant information has made faster loading times more crucial than ever.
 
 Users are less patient, and if a webpage takes too long to load, they are likely to abandon it in frustration. This not only results in a lost visitor but also poses a risk to potential conversions.
 
-<!--endintro-->
+<endIntro />
 
-::: info
-**Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 For a smooth and responsive user experience, your site needs to be checked for performance bottlenecks. These usually become noticeable sometime after deployment, as your user base and quantity of content grows.
 
@@ -43,19 +58,26 @@ This includes checking for improvements on:
 * Slow database queries
 * Page responsiveness
 
-::: greybox
-A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
 
 Visitors may encounter delays, increasing the likelihood of frustration and abandonment.
 
 This negatively impacts user experience and potential conversions.
-:::
-::: bad
-Bad example - Things that will negatively impact the website UX
-:::
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Things that will negatively impact the website UX"
+/>
 
-::: greybox
-On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
 
 These optimizations contribute to:
 
@@ -63,13 +85,15 @@ These optimizations contribute to:
 * Enhancing user satisfaction
 * Increasing the chances of retaining visitors and conversions
 
-:::
-::: good
-Good example - Good performance will improve the website's UX
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - Good performance will improve the website's UX"
+/>
 
-`youtube: https://www.youtube.com/watch?v=wM7pc8lJxvE`
-**Video: Performance - Speeding Up Websites e.g. TinaCMS⚡️ (4 min)**
+
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=wM7pc8lJxvE" description={"Video: Performance - Speeding Up Websites e.g. TinaCMS⚡️ (4 min)"} />
+
 
 ## Use the Performance Tab in Chrome DevTools
 
@@ -90,13 +114,25 @@ One of the best ways to identify and fix performance issues is by using the Perf
 4. Click Record, then reload the page to capture performance data
 5. After recording, you'll see metrics like Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and other key performance indicators
 
-::: bad img-large
-![Figure: Bad example - Slow LCP, leading to a poor user experience](/bad-performance.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Bad example - Slow LCP, leading to a poor user experience"
+  src="/uploads/rules/website-page-speed/bad-performance.png"
+/>
 
-::: good img-large
-![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](/performance-tab.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Fast LCP shown in Chrome DevTools Performance tab"
+  src="/uploads/rules/website-page-speed/performance-tab.png"
+/>
+
 
 ## Use Lighthouse for a Comprehensive Audit
 
@@ -112,9 +148,15 @@ Lighthouse is another powerful tool built into Chrome DevTools that provides a f
 
 This tool gives you a performance score and actionable recommendations to improve your site's speed and user experience.
 
-::: good img-large
-![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](/lighthouse.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights"
+  src="/uploads/rules/website-page-speed/lighthouse.png"
+/>
+
 
 ### Adding Lighthouse into your CI/CD Workflow
 
@@ -129,6 +171,11 @@ For GitHub, the key aspects of implementing this are:
 
 Learn more on [Do you compare PR performance with Production before merging?](/compare-pr-performance-with-production/)
 
-::: good img-large
-![Figure: Good example - Lighthouse Audit in GitHub pull-request](/lighthouse-gh-action.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Lighthouse Audit in GitHub pull-request"
+  src="/uploads/rules/website-page-speed/lighthouse-gh-action.png"
+/>

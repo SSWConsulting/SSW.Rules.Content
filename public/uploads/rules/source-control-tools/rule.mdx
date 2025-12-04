@@ -2,17 +2,25 @@
 seoDescription: Discover a balanced choice between simplicity and advanced features with Fork, or opt for SourceTree's user-friendly interface and seamless integration with Atlassian tools.
 type: rule
 title: Do you use Source Control tools?
+categories:
+  - category: categories/project-delivery/rules-to-better-version-control-with-tfs-aka-source-control.mdx
 uri: source-control-tools
 authors:
   - title: Gilles Pothieu
     url: https://ssw.com.au/people/gilles-pothieu/
-created: 2024-01-30T13:44:07.470Z
+created: 2024-02-06T17:50:53.000Z
 guid: 87b1677f-72c8-4b6f-9976-d3cfab075272
+lastUpdated: 2025-09-25T12:24:38.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Gilles Pothieu [SSW]
+createdByEmail: gillespothieu.pro@gmail.com
+isArchived: false
 ---
 
 Source control tools are essential for software developers. They enable the tracking of changes made to a project's source code, facilitate collaboration among developers, and ensure the project's consistency.
 
-<!--endintro-->
+<endIntro />
 
 ### ✅ Advantages of Version Control Software
 
@@ -30,11 +38,18 @@ Source control tools are essential for software developers. They enable the trac
 - **Performance:** Version control software can negatively impact the performance of the systems they are used on. This is particularly true for large projects
 - **Security:** Version control software can be vulnerable to attacks. It is important to take security measures to protect the data stored in a version control repository
 
-::: greybox
-**🧐 Did you know?**  
-One of the earliest version control systems, named **SCCS (Source Code Control System)**, was developed by Marc J. Rochkind at Bell Labs in 1972. At that time, the need to efficiently manage changes to source code was just beginning to emerge in the software industry.  
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **🧐 Did you know?**
+One of the earliest version control systems, named **SCCS (Source Code Control System)**, was developed by Marc J. Rochkind at Bell Labs in 1972. At that time, the need to efficiently manage changes to source code was just beginning to emerge in the software industry.
 This system enabled the tracking of revisions for individual files, a significant innovation for its time. It's from these early initiatives that modern version control tools like Git and Mercurial have evolved, offering far more advanced features and collaborative code management capabilities.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### GitKraken
 
@@ -66,13 +81,22 @@ The company behind GitKraken, Axosoft, has been recognized for its significant c
 - **UI Aesthetics vs. Performance Trade-Off:** The attractive UI may come at the cost of slower performance compared to some alternatives
 - **Limited Terminal and Workspaces Features:** GitKraken's terminal and workspaces might not meet the needs of users requiring advanced features
 
-![Figure: branchs management in Git Kraken](/gitkraken.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="branchs management in Git Kraken"
+  src="/uploads/rules/source-control-tools/gitkraken.png"
+/>
+
 
 GitKraken emerges as a visually appealing, user-friendly Git client, making it an excellent choice for those new to Git or preferring a GUI over command-line operations. Its graphical interface, ease of use, and integration capabilities are significant strengths. However, its performance with large repositories, the freemium model, and some missing features like GCM support are noteworthy drawbacks. For developers and teams considering a GUI for Git, GitKraken presents a compelling option, especially if the project scale and the need for advanced features align with what GitKraken offers.
 
 ### Fork
 
-[Fork](https://git-fork.com/) is a Git client software designed to provide an efficient and user-friendly experience for handling version control tasks.  
+[Fork](https://git-fork.com/) is a Git client software designed to provide an efficient and user-friendly experience for handling version control tasks.
 Fork's development is primarily the effort of Dan and Tanya Pristupov. They started it as a side project but eventually moved to working on it full-time. Their focus has been on making Fork an increasingly robust and user-friendly tool, constantly improving and updating its features. The software is available for both Mac OS X and Windows, with a straightforward pricing model that offers free evaluation and a standard price for professional use.
 
 #### ✅ Pros
@@ -104,7 +128,16 @@ Fork's development is primarily the effort of Dan and Tanya Pristupov. They star
 - **Learning Curve for Git Flow and Tagging**: Some users feel that Git flow and tagging features are less intuitive compared to other clients like SourceTree
 - **Potential Learning Curve**: For users accustomed to more complex tools, adapting to Fork's simplicity could initially be challenging
 
-![Figure: Staging in Fork](/fork.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Staging in Fork"
+  src="/uploads/rules/source-control-tools/fork.jpg"
+/>
+
 
 Fork represents a balanced choice in the Git client market, particularly appealing to individual developers and small teams due to its simplicity, efficiency, and cost-effectiveness. However, for larger projects or users in need of advanced features and integrations, it might fall short. The continuous updates and dedicated development by its creators keep it a competitive and evolving tool in the software development landscape.
 
@@ -135,6 +168,15 @@ Atlassian's commitment to the developer community is evident in the continuous u
 - **Complex for Advanced Operations**: While great for basic operations, it can be overwhelming for more complex Git tasks
 - **Lacks some Integration Features**: Compared to GitKraken, it may not integrate as smoothly with non-Atlassian platforms
 
-![Figure: Branchs management in SourceTree](/sourcetree.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Branchs management in SourceTree"
+  src="/uploads/rules/source-control-tools/sourcetree.png"
+/>
+
 
 SourceTree stands out as a robust and user-friendly Git client, particularly beneficial for those already within the Atlassian ecosystem. Its intuitive interface and integration with Jira and Bitbucket make it an excellent choice for teams looking for a seamless development workflow. While it shines in user-friendliness and basic Git operations, its performance with large repositories and lack of support for Linux are limitations. SourceTree is a strong contender for teams and developers who prioritize ease of use and are primarily working within the Atlassian suite of tools.

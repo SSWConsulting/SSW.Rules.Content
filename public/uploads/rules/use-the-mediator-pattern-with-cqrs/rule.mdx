@@ -1,44 +1,70 @@
 ---
-seoDescription: Do you use the Mediator pattern with CQRS to keep business logic out of your presentation layer and write clean code?
-type: rule
 archivedreason: Updated to [https://ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/rules/keep-business-logic-out-of-the-presentation-layer)
-title: Do you use the Mediator pattern with CQRS?
-guid: a71effc0-6b0c-4b1a-82c7-6effb0959ed4
-uri: use-the-mediator-pattern-with-cqrs
-created: 2019-03-05T16:37:03.0000000Z
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+categories:
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+created: 2019-03-05 16:37:05+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a71effc0-6b0c-4b1a-82c7-6effb0959ed4
+isArchived: true
+lastUpdated: 2023-12-19 01:03:26+00:00
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
 redirects:
-  - do-you-use-the-mediator-pattern-with-cqrs
+- do-you-use-the-mediator-pattern-with-cqrs
+seoDescription: Do you use the Mediator pattern with CQRS to keep business logic out
+  of your presentation layer and write clean code?
+title: Do you use the Mediator pattern with CQRS?
+type: rule
+uri: use-the-mediator-pattern-with-cqrs
 ---
 
 CQRS stands for Command Query Responsibility Segregation. It's a pattern that I first heard described by Greg Young. At its heart is the notion that you can use a different model to update information than the model you use to read information
 …
 There's room for considerable variation here. The in-memory models may share the same database, in which case the database acts as the communication between the two models. However they may also use separate databases, effectively making the query-side's database into a real-time ReportingDatabase.
 
-**Martin Fowle** - <https://martinfowler.com/bliki/CQRS.html>
+**Martin Fowle** - [https://martinfowler.com/bliki/CQRS.html](https://martinfowler.com/bliki/CQRS.html)
 
 CQRS means clear separation between Commands (Write operations) and Queries (Read operations).
 
 CQRS can be used with complex architectures such as Event Sourcing but the concepts can also be applied to simpler applications with a single database.
 
-<!--endintro-->
+<endIntro />
 
 MediatR is an open source .NET library by Jimmy Bogard that provides an elegant and powerful approach for writing CQRS, making it easier to write clean code.
 
 For every command or query, you create a specific request class that explicitly defines the “input” required to invoke the operation.
 
-![Figure: (from mediatr MediatR docs) A Simple Request class](mediator-cqrs-1.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="(from mediatr MediatR docs) A Simple Request class"
+  src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-1.png"
+/>
+
 
 Then the implementation of that command or query is implemented in a handler class. The handler class is instantiated by a Dependency Injection container – so can use any of the configured dependencies (Repoistories, Entity Framework, services etc)
 
-![Figure: A handler class](mediator-cqrs-2.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="A handler class"
+  src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-2.png"
+/>
+
 
 This approach brings many benefits:
 
@@ -53,10 +79,21 @@ This approach brings many benefits:
 - MediatR introduces a pipeline behaviour system allowing custom to be injected around handler invocation. This is useful for implementing cross-cutting concerns such as logging, validation or caching
 - For complex operations, it’s possible to compose from multiple smaller commands and queries. Each command or query is an atomic, potentially reusable operation. Such complexity should be adopted very carefully. The developer should be aware of two sometimes conflicting principles: DRY or Don't Repeat Yourself and SRP or the Single Responsibility Principle. In practice, any branching logic inside a handler to support use inside multiple contexts should be considered a violation of the Single Responsibility Principle and should be aggressively avoided
 
-::: bad  
-![Figure: Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse](clean-architecture-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
+  src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-bad.jpg"
+/>
 
-::: good  
-![Figure: Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class](clean-architecture-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
+  src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-good.jpg"
+/>

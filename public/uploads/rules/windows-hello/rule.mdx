@@ -1,23 +1,32 @@
 ---
-type: rule
-title: Do you use Windows Hello?
-seoDescription: Windows Hello provides a secure and convenient way to
-  authenticate to devices and accounts using biometric gestures.
-uri: windows-hello
 authors:
-  - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash-anil
-  - title: Chris Schultz
-    url: https://www.ssw.com.au/people/chris-schultz
-related:
-  - using-mfa
-  - multi-factor-authentication-enabled
-created: 2023-04-26T22:46:44.041Z
+- title: Ash Anil
+  url: https://www.ssw.com.au/people/ash-anil
+- title: Chris Schultz
+  url: https://www.ssw.com.au/people/chris-schultz
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+created: 2023-12-27 14:07:38+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: ded389f1-e6a9-417f-a36e-8a31f88a686a
+isArchived: false
+lastUpdated: 2024-10-16 04:50:06+00:00
+lastUpdatedBy: Chris Schultz [SSW]
+lastUpdatedByEmail: 94873295+chrisschultzssw@users.noreply.github.com
+related:
+- rule: public/uploads/rules/using-mfa/rule.mdx
+- rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
+seoDescription: Windows Hello provides a secure and convenient way to authenticate
+  to devices and accounts using biometric gestures.
+title: Do you use Windows Hello?
+type: rule
+uri: windows-hello
 ---
+
 Windows Hello allows users to sign into their devices using facial recognition, fingerprint, or a PIN, instead of traditional passwords to authenticate quickly, accurately, and securely.
 
-<!--endintro-->
+<endIntro />
 
 ## Windows Hello for Secure Authentication
 
@@ -42,22 +51,50 @@ Before using Windows Hello for Business, you must ensure that the following requ
 * The device must support the Windows Hello for Business feature.
 * The user must have an Azure AD account and be registered for Windows Hello for Business.
 
-:::bad
-![Figure: Bad example - Type in the Password to Login](win10-login-user-details-hidden.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Type in the Password to Login"
+  src="/uploads/rules/windows-hello/win10-login-user-details-hidden.jpg"
+/>
 
-:::good
-![Figure: Good example - Windows Hello for Business setup](windowshello.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Windows Hello for Business setup"
+  src="/uploads/rules/windows-hello/windowshello.jpg"
+/>
+
 
 ### Checking Usage
 
-You can check Windows Hello for Business usage in the Microsoft Entra admin center - go to **Microsoft Entra admin center | Identity | Monitoring & health | Workbooks | Authentication Prompts Analysis**. From there, you can filter the report to only show Windows Hello authentication. 
+You can check Windows Hello for Business usage in the Microsoft Entra admin center - go to **Microsoft Entra admin center | Identity | Monitoring & health | Workbooks | Authentication Prompts Analysis**. From there, you can filter the report to only show Windows Hello authentication.
 
-:::info
-Filter the report to **AuthMethod: Password** and **AppDisplayName: Windows Sign In** to see who is **not** using Windows Hello to sign in.
-:::
 
-![Figure: Example - Authentication Prompts Analysis filtered to Windows Hello](entra-windows-hello.png)
+<boxEmbed
+  style="info"
+  body={<>
+    Filter the report to **AuthMethod: Password** and **AppDisplayName: Windows Sign In** to see who is **not** using Windows Hello to sign in.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example - Authentication Prompts Analysis filtered to Windows Hello"
+  src="/uploads/rules/windows-hello/entra-windows-hello.png"
+/>
+
 
 You can also check Windows Hello Registration stats in Entra - go to **Microsoft Entra admin center | Identity | Monitoring & health | Usage & insights | [Authentication methods activity.](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity/menuId/AuthMethodsActivity)**

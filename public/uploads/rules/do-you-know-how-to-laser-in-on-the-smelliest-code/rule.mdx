@@ -1,40 +1,87 @@
 ---
-seoDescription: Identify and refactor "smelliest code" using Visual Studio's Code Metrics to pinpoint hotspots, then collaborate with responsible developers.
-type: rule
-archivedreason:
-title: Do you know how to laser in on the smelliest code?
-guid: c69ca2e5-0323-430e-ae26-62a753d4ace5
-uri: do-you-know-how-to-laser-in-on-the-smelliest-code
-created: 2012-03-16T08:36:31.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Adam Stephensen
+  url: https://ssw.com.au/people/adam-stephensen
+categories:
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2012-04-03 05:19:38+00:00
+createdBy: DamianBrady
+createdByEmail: DamianBrady@ssw.com.au
+guid: c69ca2e5-0323-430e-ae26-62a753d4ace5
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Identify and refactor "smelliest code" using Visual Studio's Code
+  Metrics to pinpoint hotspots, then collaborate with responsible developers.
+title: Do you know how to laser in on the smelliest code?
+type: rule
+uri: do-you-know-how-to-laser-in-on-the-smelliest-code
 ---
 
 Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics feature to identify "Hot Spots" that require investigation.
 
-::: bad  
-![Figure: The bad was is to browse the code](lotto-balls.jpeg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="The bad was is to browse the code"
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/lotto-balls.jpeg"
+/>
 
-<!--endintro-->
 
-![Figure: Run Code Metrics in Visual Studio](VS 11 Code Metrics.png)
+<endIntro />
 
-![Figure: Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()](CodeMetrics_3_1710232021935.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Run Code Metrics in Visual Studio"
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/VS 11 Code Metrics.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()"
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/CodeMetrics_3_1710232021935.png"
+/>
+
 
 Identifying the problem areas is only the start of the process. From here, you should speak to the developers responsible for this dodgy code. There might be good reasons why they haven't invested time on this.
 
-![Figure: Find out who the devs are by using CodeLens and start a conversation](codelens-start-conversation.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Find out who the devs are by using CodeLens and start a conversation"
+  src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/codelens-start-conversation.png"
+/>
+
 
 **Tip:** Learn [the benefits of Source Control](/do-you-know-the-benefits-of-using-source-control).
 
-::: greybox
-**Suggestion to Microsoft:** Allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Suggestion to Microsoft:** Allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

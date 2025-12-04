@@ -1,17 +1,25 @@
 ---
-seoDescription: Use async/await patterns to boost .NET application performance by releasing threads and improving scalability.
-type: rule
-title: Do you use async/await for all IO-bound operations?
-uri: use-async-await-for-all-io-bound-operations
-authors:
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
-redirects:
-  - do-you-use-async-await-for-all-io-bound-operations
-created: 2019-08-30T17:27:54.000Z
 archivedreason: null
+authors:
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+categories:
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
+created: 2019-08-30 17:28:00+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: eccb6764-2f5f-48b2-9e65-728f583f325d
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-use-async-await-for-all-io-bound-operations
+seoDescription: Use async/await patterns to boost .NET application performance by
+  releasing threads and improving scalability.
+title: Do you use async/await for all IO-bound operations?
+type: rule
+uri: use-async-await-for-all-io-bound-operations
 ---
 
 IO-Bound operations are operations where the execution time is not determined by CPU speed but by the time taken for an input/output operation to complete.
@@ -29,7 +37,7 @@ Modern .NET applications provide a thread pool for handling many operations in p
 
 If an individual thread is waiting for IO to complete, it is IO blocked and cannot be used to handle any more work until that IO operation is finished.
 
-<!--endintro-->
+<endIntro />
 
 When using async, the thread is released back to the thread pool while waiting for IO, while the await keyword registers a callback that will be executed after IO completion.
 
@@ -42,10 +50,7 @@ public ActionResult Gizmos()
     return View("Gizmos", gizmoService.GetGizmos());
 }
 ```
-
-::: bad
-Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request
-:::
+**❌ Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request**  
 
 ```cs
 public async Task<ActionResult> GizmosAsync()
@@ -54,10 +59,7 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
-
-::: good
-Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete
-:::
+**✅ Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete**  
 
 Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4?WT.mc_id=DT-MVP-33518)
 

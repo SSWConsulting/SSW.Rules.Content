@@ -1,28 +1,37 @@
 ---
-seoDescription: Following up on an unanswered email requires a gentle yet persistent approach. Use "(PING)" to initiate a response, and if needed, add context while still keeping the tone friendly.
-type: rule
-archivedreason:
-title: Do you know how to follow up an unanswered email?
-guid: 3d5690de-47c0-463f-aa80-4d3c38d81380
-uri: follow-up-unanswered-email
-created: 2009-03-24T05:32:41.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+categories:
+- category: categories/communication/rules-to-better-email.mdx
+created: 2023-05-05 03:19:35+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 3d5690de-47c0-463f-aa80-4d3c38d81380
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
-  - do-you-know-how-to-follow-up-an-unanswered-email
+- do-you-know-how-to-follow-up-an-unanswered-email
+seoDescription: Following up on an unanswered email requires a gentle yet persistent
+  approach. Use "(PING)" to initiate a response, and if needed, add context while
+  still keeping the tone friendly.
+title: Do you know how to follow up an unanswered email?
+type: rule
+uri: follow-up-unanswered-email
 ---
 
 Sometimes the person you have sent an email to may not reply promptly. They might be too busy or just have forgotten about it.
 
-<!--endintro-->
+<endIntro />
 
 If you need an answer, remind them by:
 
-1. Sending an IM with the words "**(PING) - {{ EMAIL SUBJECT }}**"
+1. Sending an IM with the words "**(PING) - &#123;&#123; EMAIL SUBJECT &#125;&#125;**"
 
 If you still get no response, then:
 
@@ -32,21 +41,28 @@ If you still get no response, then:
    - Remember to always reply to all
    - Make sure to **not** duplicate the task(s) - the person will see it in the history of the thread
 
-::: greybox
-**Tip:** Do **not** use "(RESEND)" to replace "(PING)"as it may sound aggressive.
-:::
 
-::: email-template  
-| | |
-| -------- | --- |
-| To: | Jason |
-| Cc: | Adam, John |
-| Subject: | RE: Northwind website - update tagline |  
-::: email-content
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Tip:** Do **not** use "(RESEND)" to replace "(PING)"as it may sound aggressive.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-(PING)
 
-### Hi Jason
+<emailEmbed
+  from=""
+  to="Jason"
+  cc="Adam, John"
+  bcc=""
+  subject="RE: Northwind website - update tagline"
+  shouldDisplayBody={true}
+  body={<>
+    (PING)
+
+## Hi Jason
 
 As per my conversation with Adam, we need this done by the end of the day
 
@@ -58,15 +74,13 @@ As per my conversation with Adam, we need this done by the end of the day
 **Cc:** Adam, John
 **Subject:** RE: Northwind website - update tagline
 
-### Hi Jason
+## Hi Jason
 
 1. Please update the tagline on northwind.com
-
-:::  
-:::  
-::: good  
-Figure: Good example - "(PING)" written at the top of the email, with some extra information that explains the urgency of the task
-:::
+  </>}
+  figurePrefix="good"
+  figure='Good example - \"(PING)\" written at the top of the email, with some extra information that explains the urgency of the task'
+/>
 
 Of course you should use a friendlier tone when following up a client or a third party compared with following up a colleague.
 

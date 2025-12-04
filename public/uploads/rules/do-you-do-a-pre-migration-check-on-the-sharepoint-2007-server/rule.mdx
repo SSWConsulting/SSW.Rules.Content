@@ -1,20 +1,29 @@
 ---
-seoDescription: SharePoint 2007 pre-migration check ensures a smooth transition to SharePoint 2010 by identifying potential issues and eliminating unnecessary site collections or content sources.
-type: rule
-archivedreason:
-title: Do you do a pre-migration check on the SharePoint 2007 Server
-guid: 07b8d204-ea81-4e1e-ab6b-5ff1295216d5
-uri: do-you-do-a-pre-migration-check-on-the-sharepoint-2007-server
-created: 2010-12-23T02:47:08.0000000Z
+archivedreason: null
 authors:
-  - title: John Liu
-    url: https://ssw.com.au/people/john-liu
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: []
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2007-to-2010.mdx
+created: 2010-12-23 02:52:32+00:00
+createdBy: johnliu
+createdByEmail: johnliu@ssw.com.au
+guid: 07b8d204-ea81-4e1e-ab6b-5ff1295216d5
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: SharePoint 2007 pre-migration check ensures a smooth transition to
+  SharePoint 2010 by identifying potential issues and eliminating unnecessary site
+  collections or content sources.
+title: Do you do a pre-migration check on the SharePoint 2007 Server
+type: rule
+uri: do-you-do-a-pre-migration-check-on-the-sharepoint-2007-server
 ---
 
 It is a good idea to run a pre-migration check on the SharePoint 2007 before starting the migration process.
@@ -23,7 +32,7 @@ It is a good idea to run a pre-migration check on the SharePoint 2007 before sta
 2. Open up **cmd** with Administrator privileges
 3. Run the following command: \*\*stsadm –o preupgradecheck
 
-** ![](preupgradecheck.png)**
+** ![](/uploads/rules/do-you-do-a-pre-migration-check-on-the-sharepoint-2007-server/preupgradecheck.png)**
 Figure 3 - Check the pre-migration report. The only thing that is allowed to fail is “FeatureInfo”. This is because a custom feature won’t migrate and developers need to create a build targeted for SharePoint 2010 \*\* 4. Save the HTML file that was generated and email it to your companies SharePoint Master. (Don’t print it as its very large) 5. Have the [SharePoint Master](/do-you-have-a-sharepoint-master) sign off on the pre-migration check and inform you if there are any site collections or content sources that are no longer needed and can be ignored for migration
 
-<!--endintro-->
+<endIntro />

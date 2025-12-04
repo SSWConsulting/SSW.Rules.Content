@@ -1,18 +1,26 @@
 ---
-seoDescription: Ensure your website's health by validating dependencies with a 'Health Check' page, verifying server, services, databases, and more.
-type: rule
-archivedreason:
-title: Do you have a Validation page (the /zsValidate) for your web server?
-guid: 73a982e8-dd89-4818-8fe1-e3d3d980d7e9
-uri: have-a-validation-page-for-your-web-server
-created: 2016-11-16T16:43:56.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+created: 2016-11-16 16:43:56+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 73a982e8-dd89-4818-8fe1-e3d3d980d7e9
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
-  - do-you-have-a-validation-page-the-zsvalidate-for-your-web-server
-  - do-you-have-a-validation-page-(the-zsvalidate)-for-your-web-server
+- do-you-have-a-validation-page-the-zsvalidate-for-your-web-server
+- do-you-have-a-validation-page-(the-zsvalidate)-for-your-web-server
+seoDescription: Ensure your website's health by validating dependencies with a 'Health
+  Check' page, verifying server, services, databases, and more.
+title: Do you have a Validation page (the /zsValidate) for your web server?
+type: rule
+uri: have-a-validation-page-for-your-web-server
 ---
 
 How can you know that all components are working correctly on your site? It is vitally important to have a 'Health Check' page to validate everything is working correctly. This page will check the server and make sure:
@@ -21,14 +29,41 @@ How can you know that all components are working correctly on your site? It is v
 - all the web services are working
 - all the databases are alive, etc.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: Link Auditor server info](/la-footer.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Link Auditor server info"
+  src="/uploads/rules/have-a-validation-page-for-your-web-server/la-footer.jpg"
+/>
+
 
 You would be surprised how many dependencies a large web page can have.The advantage of this page is if you ever need to redeploy your application on another server or you have some pages that are just not working as planned you can load up this page and get a quick diagnostics of your website.
 
-![Figure: One of the components on this website is down](/ValidateSetup.jpg)
 
-![Figure: Automatically validating our website](/ValidationTests.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="One of the components on this website is down"
+  src="/uploads/rules/have-a-validation-page-for-your-web-server/ValidateSetup.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Automatically validating our website"
+  src="/uploads/rules/have-a-validation-page-for-your-web-server/ValidationTests.jpg"
+/>
+
 
 See [SSW Rules - Do you have a zsValidate page to test your website dependencies?](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#zsValidatePage)

@@ -2,6 +2,8 @@
 seoDescription: Microsoft Entra Privileged Identity Management (PIM) secures and simplifies privileged access management for your organization.
 type: rule
 title: Security - Do you use Microsoft Entra Privileged Identity Management?
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
 uri: microsoft-entra-pim
 redirects:
   - azure-ad-pim
@@ -9,13 +11,19 @@ authors:
   - title: Kiki Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
-created: 2022-07-14T05:19:20.642Z
+created: 2024-09-12T06:14:10.000Z
 guid: c302c328-10b4-410c-ba99-0d9ebb19a95f
+lastUpdated: 2025-09-18T12:04:17.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
+createdBy: Rob Thomlinson [SSW]
+createdByEmail: RobThomlinson@ssw.com.au
+isArchived: false
 ---
 
 Microsoft Entra Privileged Identity Management (PIM) - formerly Azure Active Directory PIM enables a more secure, manageable and monitorable approach to assigning privileged permissions in your organization.
 
-<!--endintro-->
+<endIntro />
 
 PIM enables just-in-time privileged access for users that are eligible for it, reducing the chance of privileged actions being done by malicious (or unaware) actors.
 
@@ -37,12 +45,18 @@ As best practice, your company should use PIM to give access to new SysAdmins.
 
 Do the following:
 
-1. Go to PIM at <https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles>
+1. Go to PIM at [https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles](https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles)
 2. Go to Assignments | Add Assignment:
 
-   ::: good
-   ![Figure: Good example - Assigning roles in PIM](pim1.jpg)
-   :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Assigning roles in PIM"
+  src="/uploads/rules/microsoft-entra-pim/pim1.jpg"
+/>
+
 
 3. Select Role | Select members | Next
 4. Here, you have 2 options:
@@ -52,9 +66,15 @@ Do the following:
 
 5. Select the correct one | Add a justification | Assign:
 
-   ::: good
-   ![Figure: Good example - Having the option of Eligible and Active makes PIM flexible](pim2.jpg)
-   :::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Having the option of Eligible and Active makes PIM flexible"
+  src="/uploads/rules/microsoft-entra-pim/pim2.jpg"
+/>
+
 
    You are now assigned roles in PIM.
 
@@ -65,9 +85,16 @@ If you are eligible for assignments, you can activate them by doing the followin
 1. Go to [https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles](https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/ResourceMenuBlade/~/MyActions/resourceId//resourceType/tenant/provider/aadroles)
 
 2. Click on My Roles | Role | Activate:
-   ::: good
-   ![Figure: Good example - Activate just-in-time roles only when you need it](how-to-activate-pim.png)
-   :::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Activate just-in-time roles only when you need it"
+  src="/uploads/rules/microsoft-entra-pim/how-to-activate-pim.png"
+/>
+
 
 3. Go through the steps to add a justification and time you need that access for.
 
@@ -77,6 +104,11 @@ You now have that role active for you, for up to 8 hours.
 
 PIM has built-in alerts that will send an email when assignments are activated, together with its justification, who activated it, the role activated, and extra information:
 
-::: good
-![Figure: Good example - PIM emails you when assignments and roles are activated, you can see straight away if something's wrong!](pimalert.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - PIM emails you when assignments and roles are activated, you can see straight away if something's wrong!"
+  src="/uploads/rules/microsoft-entra-pim/pimalert.jpg"
+/>

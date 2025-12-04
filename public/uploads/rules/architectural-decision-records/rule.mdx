@@ -1,29 +1,41 @@
 ---
-seoDescription: Architectural Decision Records (ADRs) streamline decision-making by documenting key choices and rationale, helping teams avoid repetition and aid future developers.
-type: rule
-title: Do you use Architectural Decision Records (ADRs)?
-uri: architectural-decision-records
 authors:
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-related:
-  - checked-by-xxx
-  - conduct-a-test-please
-  - over-the-shoulder
-  - awesome-documentation
-  - document-discoveries
-redirects:
-  - do-you-use-architectural-decision-records
-created: 2023-06-26T06:03:20.995Z
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+categories:
+- category: categories/communication/rules-to-better-technical-documentation.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2024-07-04 04:11:29+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-use-architectural-decision-records
+related:
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+- rule: public/uploads/rules/conduct-a-test-please/rule.mdx
+- rule: public/uploads/rules/over-the-shoulder/rule.mdx
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+- rule: public/uploads/rules/document-discoveries/rule.mdx
+seoDescription: Architectural Decision Records (ADRs) streamline decision-making by
+  documenting key choices and rationale, helping teams avoid repetition and aid future
+  developers.
+title: Do you use Architectural Decision Records (ADRs)?
+type: rule
+uri: architectural-decision-records
 ---
+
 Architectural Decision Records (ADRs) are lightweight documents used to record important decisions in your project, and the reasons behind them.
 
 These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
 
-<!--endintro-->
+<endIntro />
 
 Typically, this is the data it will have:
 
@@ -34,8 +46,9 @@ Typically, this is the data it will have:
 * Decision Drivers
 * Options and Pros/Cons
 
-`youtube: https://youtu.be/9w5yApybZbY`
-**Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)**
+
+<youtubeEmbed url="https://youtu.be/9w5yApybZbY" description={"Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)"} />
+
 
 ## ⚠️ The dangers of not documenting important decisions
 
@@ -114,9 +127,27 @@ log4brains preview
 
 ## ADR examples
 
-![Figure: SSW.CleanArchitecture KB showing all ADRs](ssw-clean-architecture-template-adr.png)
 
-![Figure: Example of a single ADR from SSW.CleanArchitecture](adr.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="SSW.CleanArchitecture KB showing all ADRs"
+  src="/uploads/rules/architectural-decision-records/ssw-clean-architecture-template-adr.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example of a single ADR from SSW.CleanArchitecture"
+  src="/uploads/rules/architectural-decision-records/adr.png"
+/>
+
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 

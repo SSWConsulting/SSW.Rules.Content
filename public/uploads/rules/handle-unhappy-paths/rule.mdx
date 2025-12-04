@@ -1,22 +1,31 @@
 ---
-seoDescription: Ensure your code handles all possible scenarios, including edge cases, to improve robustness and reliability.
-type: rule
-title: Code - Do you handle all possible scenarios?
-uri: handle-unhappy-paths
-authors:
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-related:
- - validation-do-you-avoid-capturing-incorrect-data
-redirects: []
-created: 2024-07-22T00:00:00.0000000Z
 archivedreason: null
+authors:
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+categories:
+- category: categories/software-engineering/rules-to-better-code.mdx
+created: 2024-07-23 18:09:40+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 676c1916-78b1-4ae4-b22b-4585274a873d
+isArchived: false
+lastUpdated: 2024-07-23 18:09:40+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+related:
+- rule: public/uploads/rules/validation-do-you-avoid-capturing-incorrect-data/rule.mdx
+seoDescription: Ensure your code handles all possible scenarios, including edge cases,
+  to improve robustness and reliability.
+title: Code - Do you handle all possible scenarios?
+type: rule
+uri: handle-unhappy-paths
 ---
 
 When developers build software, they naturally become experts in using the software. This is problematic because with this expertise, they will tend to focus on the happy path of the user. However, it is important to consider all possible scenarios that could occur. This includes edge cases, such as invalid inputs, unexpected user behavior, and system failures. By handling all possible scenarios, you can ensure that your code is robust and reliable.
 
-<!--endintro-->
+<endIntro />
 
 Here are some tips to help you spot where you need to handle more scenarios:
 
@@ -26,10 +35,21 @@ Here are some tips to help you spot where you need to handle more scenarios:
 * Get a [test please](/conduct-a-test-please) on all your code
 * Do some [exploratory testing](/what-is-exploratory-testing)
 
-::: bad
-![Figure: Bad example - Users can enter invalid emails](bad-no-validaton.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Users can enter invalid emails"
+  src="/uploads/rules/handle-unhappy-paths/bad-no-validaton.png"
+/>
 
-::: good
-![Figure: Good example - Code checks the email is valid](good-validation-fields.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Code checks the email is valid"
+  src="/uploads/rules/handle-unhappy-paths/good-validation-fields.png"
+/>

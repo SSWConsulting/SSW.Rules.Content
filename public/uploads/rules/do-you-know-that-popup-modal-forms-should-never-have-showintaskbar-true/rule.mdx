@@ -1,50 +1,65 @@
 ---
-seoDescription: Popup/modal forms should never have ShowInTaskbar=True as it can cause issues and make the form appear as a separate window.
-type: rule
-archivedreason:
-title: Do you know that popup/modal forms should never have ShowInTaskbar=True?
-guid: c574b18d-c6a4-4dec-a60f-85a140d28713
-uri: do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true
-created: 2012-11-27T04:22:06.0000000Z
+archivedreason: null
 authors: []
-related: []
+categories:
+- category: categories/design/rules-to-better-interfaces-popups-and-messages.mdx
+created: 2012-11-27 04:22:51+00:00
+createdBy: RebeccaLiu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: c574b18d-c6a4-4dec-a60f-85a140d28713
+isArchived: false
+lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
+seoDescription: Popup/modal forms should never have ShowInTaskbar=True as it can cause
+  issues and make the form appear as a separate window.
+title: Do you know that popup/modal forms should never have ShowInTaskbar=True?
+type: rule
+uri: do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true
 ---
 
 **Question:** What is wrong with this Picture?
 
-![Figure: Can you tell what is wrong with this Picture?](/ShowInTaskBar.jpg)
 
-<!--endintro-->
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Can you tell what is wrong with this Picture?"
+  src="/uploads/rules/do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true/ShowInTaskBar.jpg"
+/>
+
+
+<endIntro />
 
 **Answer:** The 2 SSW SQL Auditor windows are bad, because one is just a modal form.
 
-::: info
-**Note:** We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-
-::: bad
-Figure: Bad Code
-:::
+**❌ Figure: Bad Code**  
 
 If your form is designed to be used modally (and thus be called using ShowDialog) then ShowInTaskbar should be set to false in the form designer.
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```
-
-::: bad
-Figure: Bad Code (because this should be set in the form designer)
-:::
+**❌ Figure: Bad Code (because this should be set in the form designer)**  
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-
-::: good
-Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)
-:::
+**✅ Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)**

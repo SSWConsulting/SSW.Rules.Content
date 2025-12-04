@@ -1,21 +1,29 @@
 ---
-seoDescription: Setup a Boot to VHD Image and boot into a virtualized Windows environment without partitioning your hard drive.
-type: rule
-archivedreason:
-title: Do you know how to setup a Boot to VHD Image?
-guid: 5612c6fe-9235-4e16-a01f-1c53f454faf2
-uri: do-you-know-how-to-setup-a-boot-to-vhd-image
-created: 2011-04-13T05:26:11.0000000Z
+archivedreason: null
 authors:
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-related: []
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+categories:
+- category: categories/infrastructure-and-networking/rules-to-better-presentation-pcs.mdx
+created: 2011-04-13 05:44:30+00:00
+createdBy: Unknown
+createdByEmail: Unknown@ssw.com.au
+guid: 5612c6fe-9235-4e16-a01f-1c53f454faf2
+isArchived: false
+lastUpdated: 2024-06-08 03:27:17+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Setup a Boot to VHD Image and boot into a virtualized Windows environment
+  without partitioning your hard drive.
+title: Do you know how to setup a Boot to VHD Image?
+type: rule
+uri: do-you-know-how-to-setup-a-boot-to-vhd-image
 ---
 
 Using Boot to VHD is very similar to dual-booting your machine, except that you do not have to partition your hard drive. It also has performance benefits over using a Hyper-V server for presentations.
 
-<!--endintro-->
+<endIntro />
 
 **Pre-Requisites**
 
@@ -30,7 +38,7 @@ Using Boot to VHD is very similar to dual-booting your machine, except that you 
 bcdedit /copy {default} /d “Demo-NameOfDemo”
 ```
 
-![Creating the entry using BCDEdit shows your GUID](fig1-creatingentry.png)
+![Creating the entry using BCDEdit shows your GUID](/uploads/rules/do-you-know-how-to-setup-a-boot-to-vhd-image/fig1-creatingentry.png)
 **Figure - Creating the entry using BCDEdit shows your GUID** 4. Type:
 
 ```bash
@@ -49,5 +57,5 @@ bcdedit /set <GUID>  osdevice vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
 bcdedit /set <GUID> detecthal on
 ```
 
-![Each time you run a BCDEdit command it should return ](fig2-addguids.png)
+![Each time you run a BCDEdit command it should return](/uploads/rules/do-you-know-how-to-setup-a-boot-to-vhd-image/fig2-addguids.png)
 **Figure - Each time you run a BCDEdit command it should return "The operation completed successfully"** 7. Reboot the computer and now you will have the option to choose between Windows 7 and the new Boot to VHD image.

@@ -2,69 +2,83 @@
 seoDescription: Discover how to create professional PowerPoint presentations using ChatGPT with VBA automation.
 type: rule
 title: Do you know how to make a PowerPoint presentation using ChatGPT?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
 uri: chatgpt-for-powerpoint
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
-created: 2023-07-31T16:29:02.708Z
+created: 2023-07-31T03:16:26.000Z
 guid: 87b105e9-98f7-467e-ad88-7861795bb1d5
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Ulysses Maclaren [SSW]
+createdByEmail: 45545178+UlyssesMaclaren@users.noreply.github.com
+isArchived: false
 ---
 
 By now, you’ve probably realised that you can ask ChatGPT to create content for a PPT, which you can then copy and paste into PowerPoint, but this is still time consuming. The next level is to get it to then create the VBA script that can be run to generate the whole PPT 😀
 
 Here’s a great prompt template for doing both! Feel free to play around with things like the preferred format or title colours.
 
-<!--endintro-->
+<endIntro />
 
 ### If you're on GPT-4 with Plugins
 
 1. Select the [Smart Slides](https://www.whatplugin.ai/plugins/smart-slides) plugin from the plugin store
 
-::: greybox
-You are an expert presentation writer and PowerPoint expert.  
-Write a PowerPoint presentation on {TOPIC}.  
-Each slide should have a title.  
-The content on each slide should be in bullet point format.  
-Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
 
-Target audience is business stakeholders with some technical background.  
-Make sure the objective or pain that is being worked on is clear.  
-Make sure the recommendations and next steps are clear.  
-End with a Q&A.  
+<boxEmbed
+  style="greybox"
+  body={<>
+    You are an expert presentation writer and PowerPoint expert.
+Write a PowerPoint presentation on {TOPIC}.
+Each slide should have a title.
+The content on each slide should be in bullet point format.
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.
+
+Target audience is business stakeholders with some technical background.
+Make sure the objective or pain that is being worked on is clear.
+Make sure the recommendations and next steps are clear.
+End with a Q&A.
 
 1st, ask for the {TOPIC}
-Then, ask any relevant questions to get more context.  
+Then, ask any relevant questions to get more context.
 
-:::
-
-::: good
-Figure: Prompt Template for creating a PowerPoint presentation
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**✅ Figure: Prompt Template for creating a PowerPoint presentation**  
 
 ### If you're on GPT3 (or you want to add more custom specs)
 
-::: greybox
-You are an expert presentation writer and PowerPoint expert.  
-Write a PowerPoint presentation on {TOPIC}.  
-Each slide should have a title that this is colour: RGB(204, 65, 65).  
-The content on each slide should be in bullet point format.  
-Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.  
 
-Target audience is business stakeholders with some technical background.  
-Make sure the objective or pain that is being worked on is clear.  
-Make sure the recommendations and next steps are clear.  
-End with a Q&A.  
+<boxEmbed
+  style="greybox"
+  body={<>
+    You are an expert presentation writer and PowerPoint expert.
+Write a PowerPoint presentation on {TOPIC}.
+Each slide should have a title that this is colour: RGB(204, 65, 65).
+The content on each slide should be in bullet point format.
+Don't give me advice on what to talk about on each slide, instead give me the actual content I can use.
 
-Then create a VBA script to create the PPT including slide titles and all content on each slide.  
-Do not save the PPT.  
+Target audience is business stakeholders with some technical background.
+Make sure the objective or pain that is being worked on is clear.
+Make sure the recommendations and next steps are clear.
+End with a Q&A.
+
+Then create a VBA script to create the PPT including slide titles and all content on each slide.
+Do not save the PPT.
 
 1st, ask for the {TOPIC}
-Then, ask any relevant questions to get more context.  
-:::
-
-::: good
-Figure: Prompt Template for creating a PowerPoint presentation
-:::
+Then, ask any relevant questions to get more context.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**✅ Figure: Prompt Template for creating a PowerPoint presentation**  
 
 Then, follow these steps:
 

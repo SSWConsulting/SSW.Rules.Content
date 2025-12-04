@@ -1,24 +1,33 @@
 ---
-type: rule
-title: Do you use these useful React Hooks?
-seoDescription: Useful React Hooks for managing state and DOM interactions,
-  including useContext, useRef, and useReducer.
-uri: do-you-use-these-useful-react-hooks
-authors:
-  - title: Tom Bui
-    url: https://ssw.com.au/people/tom-bui
-  - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
-related: []
-redirects:
-  - do-you-use-these-useful-react-hooks
-created: 2023-06-13T17:13:53.000Z
 archivedreason: null
+authors:
+- title: Tom Bui
+  url: https://ssw.com.au/people/tom-bui
+- title: Jack Pettit
+  url: https://ssw.com.au/people/jack-pettit
+categories:
+- category: categories/software-engineering/rules-to-better-nextjs.mdx
+- category: categories/software-engineering/rules-to-better-react.mdx
+created: 2023-06-13 15:22:17+00:00
+createdBy: Tom Bui [SSW]
+createdByEmail: 67776356+tombui99@users.noreply.github.com
 guid: e14a52b3-31f8-43e5-a6e7-b3f8f0de28ed
+isArchived: false
+lastUpdated: 2024-12-11 23:00:13+00:00
+lastUpdatedBy: Isaac Lombard [SSW]
+lastUpdatedByEmail: 152236421+isaaclombardssw@users.noreply.github.com
+redirects:
+- do-you-use-these-useful-react-hooks
+seoDescription: Useful React Hooks for managing state and DOM interactions, including
+  useContext, useRef, and useReducer.
+title: Do you use these useful React Hooks?
+type: rule
+uri: do-you-use-these-useful-react-hooks
 ---
+
 React Hooks streamline state management and lifecycle processes in functional components, resulting in cleaner, more performant code. These are the most common and useful hooks that you should use in your React project:
 
-<!--endintro-->
+<endIntro />
 
 ## 1. **useState**: Managing Local State 🧠
 
@@ -40,10 +49,17 @@ export default function Counter() {
 
 **Figure: Using useState for a counter component**
 
-::: info
-***Naming Convention***:
+
+<boxEmbed
+  style="info"
+  body={<>
+    ***Naming Convention***:
 It's a common convention to name state variables using the pattern [**count**, **setCount**] with array destructuring.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 `useState` returns an array with exactly two items:
 
@@ -88,9 +104,16 @@ export default function Counter() {
 
 **Figure: useEffect Count example**
 
-::: info
-It's similar in concept to **Angular's** **ngOnChanges** lifecycle hook. While **ngOnChanges** in Angular detects and reacts to changes in input-bound properties, React's useEffect serves a broader purpose.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    It's similar in concept to **Angular's** **ngOnChanges** lifecycle hook. While **ngOnChanges** in Angular detects and reacts to changes in input-bound properties, React's useEffect serves a broader purpose.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### ✅ Recommended Usage
 
@@ -130,7 +153,7 @@ const ThemeContext = createContext({
 function ThemedButton() {
   const theme = useContext(ThemeContext);
   return (
-    <button style={{ background: theme.background, color: theme.foreground }}>
+    <button style=&#123;&#123; background: theme.background, color: theme.foreground &#125;&#125;>
       I am styled by theme context!
     </button>
   );
@@ -138,7 +161,7 @@ function ThemedButton() {
 
 export default function App() {
   return (
-    <ThemeContext.Provider value={{ background: "black", foreground: "white" }}>
+    <ThemeContext.Provider value=&#123;&#123; background: "black", foreground: "white" &#125;&#125;>
       <ThemedButton />
     </ThemeContext.Provider>
   );

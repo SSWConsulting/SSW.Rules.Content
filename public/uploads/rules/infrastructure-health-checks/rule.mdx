@@ -1,36 +1,54 @@
 ---
-type: rule
-title: Do you Health Check your infrastructure?
-seoDescription: Website dependency and infrastructure health checks
-uri: infrastructure-health-checks
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  - title: Ben Neoh
-    url: https://ssw.com.au/people/ben-neoh
-  - title: Toby Churches
-    url: https://www.ssw.com.au/people/toby-churches/
-related:
-  - have-a-health-check-page-to-make-sure-your-website-is-healthy
-redirects:
-  - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
-  - do-you-have-a-healthcheck-(was-zsvalidate)
-  - page-to-test-your-website-dependencies
-  - have-a-healthcheck-page-to-test-your-website-dependencies
-  - infrastructure-healthchecks
-created: 2020-03-12T20:57:37.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Lewis Toh
+  url: https://ssw.com.au/people/lewis-toh
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+- title: Ben Neoh
+  url: https://ssw.com.au/people/ben-neoh
+- title: Toby Churches
+  url: https://www.ssw.com.au/people/toby-churches/
+categories:
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
+created: 2025-05-22 01:13:57+00:00
+createdBy: Matt Wicks [SSW]
+createdByEmail: wicksipedia@users.noreply.github.com
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
+- do-you-have-a-healthcheck-(was-zsvalidate)
+- page-to-test-your-website-dependencies
+- have-a-healthcheck-page-to-test-your-website-dependencies
+- infrastructure-healthchecks
+related:
+- rule: public/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/rule.mdx
+seoDescription: Website dependency and infrastructure health checks
+title: Do you Health Check your infrastructure?
+type: rule
+uri: infrastructure-health-checks
 ---
+
 Most developers include [health checks for their own applications](/have-a-health-check-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. **Ensuring your infrastructure is healthy is just as important as your app.**
 
-<!--endintro-->
+<endIntro />
 
-![Figure: Infrastructure Health Checks](health-check-image.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Infrastructure Health Checks"
+  src="/uploads/rules/infrastructure-health-checks/health-check-image.png"
+/>
+
 
 ## Your app is only as healthy as its infrastructure
 
@@ -38,8 +56,9 @@ Enterprise applications typically leverage a large number of cloud services; dat
 
 Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
-`youtube: https://www.youtube.com/watch?v=GdA5_8Chk2g`
-**Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=GdA5_8Chk2g" description={"Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)"} />
+
 
 ## Setting Up Health Checks for App & Infrastructure in .NET
 
@@ -55,17 +74,35 @@ Adding comprehensive health checks is great, but if no-one is told about it - wh
 
 Depending on your needs, you may want to bake in a health check UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
 
-::: good
-![Figure: Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB"
+  src="https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png"
+/>
 
-::: good
-![Figure: Good example - SSWTimePro has a Health Check page](timepro-health-check.png)
-:::
 
-::: good
-![Figure: Good example - Tina.io has a Health Check page](tina-health-check.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - SSWTimePro has a Health Check page"
+  src="/uploads/rules/infrastructure-health-checks/timepro-health-check.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Tina.io has a Health Check page"
+  src="/uploads/rules/infrastructure-health-checks/tina-health-check.png"
+/>
+
 
 ## Tips for Securing Your Health check Endpoints
 
@@ -75,9 +112,15 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 
 When deploying apps in Azure it's good practice to enable health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
 
-::: good
-![Figure: Good example - Performing a health check on an azure app service](image-3-.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Performing a health check on an azure app service"
+  src="/uploads/rules/infrastructure-health-checks/image-3-.png"
+/>
+
 
 ### Private Health Check – ✅ Best Practices
 
@@ -97,10 +140,21 @@ When deploying apps in Azure it's good practice to enable health checks within t
 
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
-::: bad
-![Figure: Bad example – The user is given the chance to interact with a feature that is currently unavailable](infra-bad-example.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example – The user is given the chance to interact with a feature that is currently unavailable"
+  src="/uploads/rules/infrastructure-health-checks/infra-bad-example.png"
+/>
 
-::: good
-![Figure: Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable](infra-good-example.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable"
+  src="/uploads/rules/infrastructure-health-checks/infra-good-example.png"
+/>

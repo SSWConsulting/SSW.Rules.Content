@@ -1,36 +1,40 @@
 ---
-seoDescription: Do you keep your Product Backlog Items (PBIs) smaller than 2 days' effort to avoid incomplete features at Sprint's end?
-type: rule
-title: Backlog - Do you break large PBIs into smaller than 2 days' PBIs?
-uri: break-pbis
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-  - title: Prem Radhakrishnan
-    url: https://ssw.com.au/people/prem-radhakrishnan
-related:
-  - break-tasks
-  - defining-pbis
-  - estimating-do-you-know-how-to-size-user-stories-effectively
-  - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
-redirects:
-  - spec-do-you-keep-your-pbis-smaller-than-2-days-effort
-  - spec-do-you-create-tasks-under-4-hours
-  - keep-PBIs-smaller-than-2-days
-  - create-PBIs-under-2-days
-  - create-pbis-under-2-days
-created: 2009-09-15T09:20:55.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Prem Radhakrishnan
+  url: https://ssw.com.au/people/prem-radhakrishnan
+categories:
+- category: categories/client-engagement/rules-to-better-specification-reviews.mdx
+- category: categories/project-delivery/rules-to-better-scrum.mdx
+created: 2009-09-15 09:20:55+00:00
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
+redirects:
+- spec-do-you-keep-your-pbis-smaller-than-2-days-effort
+- spec-do-you-create-tasks-under-4-hours
+- keep-PBIs-smaller-than-2-days
+- create-PBIs-under-2-days
+- create-pbis-under-2-days
+related:
+- rule: public/uploads/rules/break-tasks/rule.mdx
+- rule: public/uploads/rules/defining-pbis/rule.mdx
+- rule: public/uploads/rules/size-pbis-effectively/rule.mdx
+- rule: public/uploads/rules/encourage-spikes-when-a-story-is-inestimable/rule.mdx
+seoDescription: Do you keep your Product Backlog Items (PBIs) smaller than 2 days'
+  effort to avoid incomplete features at Sprint's end?
+title: Backlog - Do you break large PBIs into smaller than 2 days' PBIs?
+type: rule
+uri: break-pbis
 ---
 
 Very often you can come to the end of the Sprint and have incomplete features that either can’t be shipped or can be shipped but don't add any value to the end user or Product Owner. If you are given a feature that is going to take weeks, then split it by following this rule.
 
-<!--endintro-->
+<endIntro />
 
 > You are taking on **unnecessary** risk with a PBI that takes more than 2 days' effort.
 
@@ -70,25 +74,30 @@ Say you are doing the Sprint Planning and you see a PBI that says _“Sync data 
 
 If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
-::: email-template  
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject="Sync data to Xero"
+  shouldDisplayBody={false}
+  body={<>
+    
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - This is a monolithic 8-day task"
+/>
 
-|          |     |
-| -------- | --- |
-| Subject: | Sync data to Xero |
-:::
-::: bad
-Figure: Bad example - This is a monolithic 8-day task
-:::
-
-::: email-template  
-
-|          |     |
-| -------- | --- |
-| Subject: | Xero Sync #1 - Update UI to show sync status for invoices and receipts |
-| Subject: | Xero Sync #2 - Update the "Save" option in "Invoice Details" page to push data to Xero |
-| Subject: | Xero Sync #3 - Create endpoints for Xero web hooks to push data from Xero to client app  |
-| Subject: | Xero Sync #4 - As a backup, add a manual option to re-sync data with Xero in case either system was down |
-:::
-::: good
-Figure: Good example - The same monolithic task, broken down into 4 smaller tasks which can all be shipped incrementally
-:::
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc=""
+  subject="Xero Sync #4 - As a backup, add a manual option to re-sync data with Xero in case either system was down"
+  shouldDisplayBody={false}
+  body={<>
+    
+  </>}
+  figurePrefix="good"
+  figure="Good example - The same monolithic task, broken down into 4 smaller tasks which can all be shipped incrementally"
+/>

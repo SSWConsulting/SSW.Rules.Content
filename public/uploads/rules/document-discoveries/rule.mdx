@@ -1,19 +1,28 @@
 ---
-seoDescription: Documenting discoveries and decisions - A crucial step in effective Scrum team collaboration.
-type: rule
-title: Do you document discoveries and decisions?
-guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
-uri: document-discoveries
-created: 2022-09-15T14:07:00.000Z
+archivedreason: null
 authors:
-  - title: Tylah Kapa
-    url: https://www.ssw.com.au/people/tylah-kapa
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
+- title: Tylah Kapa
+  url: https://www.ssw.com.au/people/tylah-kapa
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+categories:
+- category: categories/communication/rules-to-better-communication.mdx
+created: 2022-09-15 17:16:42+00:00
+createdBy: Tylah Kapa [SSW]
+createdByEmail: tylahkapa@gmail.com
+guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
+isArchived: false
+lastUpdated: 2025-11-04 10:37:39+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
 related:
-  - architectural-decision-records
-archivedreason: null
+- rule: public/uploads/rules/architectural-decision-records/rule.mdx
+seoDescription: Documenting discoveries and decisions - A crucial step in effective
+  Scrum team collaboration.
+title: Do you document discoveries and decisions?
+type: rule
+uri: document-discoveries
 ---
 
 Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
@@ -22,7 +31,7 @@ If decisions and discoveries aren't in a central location, it can cause signific
 
 That's why the discussion section of a work item rocks!
 
-<!--endintro-->
+<endIntro />
 
 `youtube: 2Ff6NQrWMsY`
 **Video: Documenting decisions and discoveries with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (3 min)**
@@ -72,58 +81,63 @@ Sending an email is an OK approach, but the information will quickly be lost, bu
 The best method is for developers to **update the discussion thread of the Work Item** they're working on. Then, if an email is really needed, send a link to the Work Item.
 
 Using the Work Item discussion provides several benefits to developers on the team, including:
+**✅ Providing one source of truth**  
+**✅ Work Item hand-off doesn't need to be an involved process**  
+**✅ Providing a history of the Work Item**  
+**✅ Easily accessible by anyone in the team**  
+**✅ Provides proof of approval**  
 
-::: good
-Providing one source of truth
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Decision is recorded in notepad"
+  src="/uploads/rules/document-discoveries/RecordingInNotepad.png"
+/>
 
-::: good
-Work Item hand-off doesn't need to be an involved process
-:::
 
-::: good
-Providing a history of the Work Item
-:::
-
-::: good
-Easily accessible by anyone in the team
-:::
-
-::: good
-Provides proof of approval
-:::
-
-::: bad
-![Figure: Bad example - Decision is recorded in notepad](RecordingInNotepad.png "Recording in Notepad")
-:::
-
-::: email-template
-
-| | |
-| -------- | --- |
-| To: | Product Owner|
-| Cc: | Development Team|
-| Subject: | Project - Work Item Update |
-::: email-content
-
-### Hi Bob
+<emailEmbed
+  from=""
+  to="Product Owner"
+  cc="Development Team"
+  bcc=""
+  subject="Project - Work Item Update"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Bob
 
 As per our conversation, the primary button colour does not conform with the Northwind branding. The colour will be updated to #CC4141.
-:::
-:::
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Sending an email to confirm updates to the work item"
+/>
 
-::: bad
-Figure: Bad example - Sending an email to confirm updates to the work item
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Decision is documented in the work item"
+  src="/uploads/rules/document-discoveries/document-discoveries-good-example.png"
+/>
 
-::: good
-![Figure: Good example - Decision is documented in the work item](document-discoveries-good-example.png "Azure Work Item")
-:::
 
-::: bad
-![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Moving a PBI to the backlog without documenting the decision"
+  src="/uploads/rules/document-discoveries/Bad-example-Adding-and-Item-to-the-backlog.jpg"
+/>
 
-::: good
-![Figure: Good example - Moving a PBI to the backlog and documenting the decision](Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Moving a PBI to the backlog and documenting the decision"
+  src="/uploads/rules/document-discoveries/Good-example-Adding-and-Item-to-the-backlog.jpg"
+/>

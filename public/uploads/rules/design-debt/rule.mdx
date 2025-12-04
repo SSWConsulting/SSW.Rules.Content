@@ -1,28 +1,37 @@
 ---
-type: rule
-title: Do you know how to avoid design debt?
-seoDescription: Making ad-hoc UI changes without a designer leads to design debt. Learn how to prevent inconsistencies and poor UX by following a better workflow.
-uri: design-debt
-authors:
-  - title: Micaela Blank
-    url: https://www.ssw.com.au/people/micaela-blank
-  - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-created: 2025-04-23T11:45:00.000Z
-related:
-  - design-system
-  - less-is-more
-  - request-a-test-please
-  - technical-debt
 archivedreason: null
+authors:
+- title: Micaela Blank
+  url: https://www.ssw.com.au/people/micaela-blank
+- title: Betty Bondoc
+  url: https://www.ssw.com.au/people/betty-bondoc
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-designers.mdx
+created: 2025-04-30 23:52:58+00:00
+createdBy: Micaela Blank
+createdByEmail: 81748614+micsblank@users.noreply.github.com
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
+isArchived: false
+lastUpdated: 2025-07-29 23:23:41+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/design-system/rule.mdx
+- rule: public/uploads/rules/less-is-more/rule.mdx
+- rule: public/uploads/rules/request-a-test-please/rule.mdx
+- rule: public/uploads/rules/technical-debt/rule.mdx
+seoDescription: Making ad-hoc UI changes without a designer leads to design debt.
+  Learn how to prevent inconsistencies and poor UX by following a better workflow.
+title: Do you know how to avoid design debt?
+type: rule
+uri: design-debt
 ---
 
 It’s tempting to fix small UI issues on the fly - change a button size, adjust some spacing, or tweak a color. But those “quick wins” often turn into long-term losses, leading to a messy, inconsistent UI that confuses users and slows development.
 
-<!--endintro-->
+<endIntro />
 
 Design debt is like technical debt: shortcuts that seem efficient in the moment create chaos down the line. Without a shared system, visual inconsistencies multiply, developers second-guess design intent, and user experience suffers.
 
@@ -68,7 +77,7 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
    * **No** → You can proceed without design input
    * **Yes** → Go to Step 2
 
-2. **Is this UI component or pattern already in the [design system](https://www.ssw.com.au/rules/design-system/)?**  
+2. **Is this UI component or pattern already in the [design system](https://www.ssw.com.au/rules/design-system/)?**
 
    * **Yes** → Great! Use the existing pattern. You’re done — go ahead and code
    * **No** → This is a new or modified UI — proceed to Step 3
@@ -87,18 +96,30 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 * Ask for a quick "test please" from a designer 👀 on spacing, alignment, and component use
 * Loop in design early on bigger stuff (e.g. layout or feature changes)
 * After merge, let design know if you created something reusable
-  
+
 ### Example –  Picking a pretty colour
 
-::: bad img-medium
-![Figure: Bad example – The "Open" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility](design-debt-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="bad"
+  figure='Bad example – The \"Open\" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility'
+  src="/uploads/rules/design-debt/design-debt-bad.png"
+/>
+
 
 More info on [Do you use enough color contrast?](/color-contrast)
 
-::: good img-medium
-![Figure: Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component](design-debt-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component"
+  src="/uploads/rules/design-debt/design-debt-good.png"
+/>
+
 
 More info on [Do you have a Design System?](/design-system)
 

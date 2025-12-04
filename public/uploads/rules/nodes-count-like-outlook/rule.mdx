@@ -1,31 +1,51 @@
 ---
-seoDescription: Learn how to display nodes count in report textboxes like Outlook using SQL expressions and the CountRows() function.
-type: rule
-archivedreason:
-title: Data Layout - Do you have nodes count like Outlook?
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+categories:
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
+created: 2024-06-05 00:02:27+00:00
+createdBy: Jeoffrey Fischer [SSW]
+createdByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 guid: 8254b1a7-9a7c-4eee-85f0-6dddca76f804
-uri: nodes-count-like-outlook
-created: 2023-12-11T14:38:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - when-to-use-reporting-services
+isArchived: false
+lastUpdated: 2025-02-04 12:34:58+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
-
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Learn how to display nodes count in report textboxes like Outlook
+  using SQL expressions and the CountRows() function.
+title: Data Layout - Do you have nodes count like Outlook?
+type: rule
+uri: nodes-count-like-outlook
 ---
 
 A report with drill through like this should have the number in nodes like Outlook.
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example - This does not have the nodes count](No_number.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - This does not have the nodes count"
+  src="/uploads/rules/nodes-count-like-outlook/No_number.jpg"
+/>
 
-::: good  
-![Figure: Good example - This does have the nodes count](number.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - This does have the nodes count"
+  src="/uploads/rules/nodes-count-like-outlook/number.jpg"
+/>
+
 
 Here's how to add nodes count to the textbox with "collapsed(+)" in your report:
 
@@ -39,19 +59,13 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 
 = Fields!Number.Value
 ```
-
-::: bad  
-Bad example - Get the Outlook Node Count look by changing the SQL.
-:::
+**❌ Bad example - Get the Outlook Node Count look by changing the SQL.**  
 
 ```sql
 --Expression to show nodes count
 
 = Fields!Name.Value + "(" + CStr ( CountRows( ) ) + ")"
 ```
-
-::: good  
-Use the CountRows() function to get the Outlook Node Count look
-:::
+**✅ Use the CountRows() function to get the Outlook Node Count look**  
 
 **Note:** The **CountRows** function is one of the several native functions provided by Reporting Services and returns the count of rows within a specified scope. If no scope is specified, it defaults to the innermost scope, which in our case resolves to the static group that defines the values in the data cells.

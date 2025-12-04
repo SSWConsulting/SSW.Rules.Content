@@ -1,33 +1,43 @@
 ---
-seoDescription: Enhance your web content by adding useful figure captions to images and videos for better SEO and user engagement.
-type: rule
-title: Figures - Do you add useful text captions to images and videos?
-uri: add-useful-and-concise-figure-captions
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - screenshots-avoid-walls-of-text
-  - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
-  - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
-  - right-format-to-write-videos-time-length
-  - placeholder-for-replaceable-text
-redirects:
-  - figures-do-you-add-useful-and-concise-figure-text-(aka-a-caption)-to-avoid-a-lot-of-text-over-images
-  - add-a-useful-figure-caption-below-all-images
-  - show-a-bad-example-and-then-a-good-example
-  - figures-do-you-add-useful-and-concise-figure-text
-created: 2014-12-04T20:24:03.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+categories:
+- category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
+created: 2014-12-04 20:25:39+00:00
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
+isArchived: false
+lastUpdated: 2025-03-04 13:01:23+00:00
+lastUpdatedBy: Michelle "MishManners®™" Duke
+lastUpdatedByEmail: 36594527+mishmanners@users.noreply.github.com
+redirects:
+- figures-do-you-add-useful-and-concise-figure-text-(aka-a-caption)-to-avoid-a-lot-of-text-over-images
+- add-a-useful-figure-caption-below-all-images
+- show-a-bad-example-and-then-a-good-example
+- figures-do-you-add-useful-and-concise-figure-text
+related:
+- rule: public/uploads/rules/screenshots-avoid-walls-of-text/rule.mdx
+- rule: public/uploads/rules/use-bad-and-good-examples/rule.mdx
+- rule: public/uploads/rules/use-the-right-html-figure-caption/rule.mdx
+- rule: public/uploads/rules/right-format-to-write-videos-time-length/rule.mdx
+- rule: public/uploads/rules/placeholder-for-replaceable-text/rule.mdx
+seoDescription: Enhance your web content by adding useful figure captions to images
+  and videos for better SEO and user engagement.
+title: Figures - Do you add useful text captions to images and videos?
+type: rule
+uri: add-useful-and-concise-figure-captions
 ---
+
 When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
 
-<!--endintro-->
+<endIntro />
 
 To catch readers' attention, include a useful description - don't just describe what the image is... say what it's used for in the context of the document.
 
@@ -39,57 +49,87 @@ Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
-::: info
-**Note:** The first word after the dash should be capitalized, and the [caption should not include a full stop](/avoid-full-stops-in-bullet-point-lists/) at the end.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The first word after the dash should be capitalized, and the [caption should not include a full stop](/avoid-full-stops-in-bullet-point-lists/) at the end.
 
 E.g. **Figure: Good example - This is a caption**
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Tip #2: Give bad and good examples
 
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 
-::: info
-At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Tip #3: Bold your captions
 
-::: greybox
-{{ IMAGE }}\
-{{ CAPTION }}
-:::
-::: bad
-Figure: Bad example - Caption not bolded can be mixed up with regular content
-:::
 
-::: greybox
-{{ IMAGE }}\
-**{{ CAPTION }}**
-:::
-::: good
-Figure: Good example - Caption stands out when bolded
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
+&#123;&#123; CAPTION &#125;&#125;
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Caption not bolded can be mixed up with regular content"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
+**&#123;&#123; CAPTION &#125;&#125;**
+  </>}
+  figurePrefix="good"
+  figure="Good example - Caption stands out when bolded"
+/>
+
 
 ### Tip #4: Describe the actions in your captions
 
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
-::: greybox
-{{ IMAGE }}\
-**Figure: This is the screen**
-:::
-::: bad
-Figure: Bad example - Vague caption description
-:::
 
-::: greybox
-{{ IMAGE }}\
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
+**Figure: This is the screen**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Vague caption description"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
 **Figure: On the screen, choose the execution method**
-:::
-::: good
-Figure: Good example - Clear caption description
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear caption description"
+/>
+
 
 ### Tip #5: Video captions should be the title + length
 
@@ -97,21 +137,29 @@ When embedding videos, include a caption with **the video title** + **video leng
 
 **Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
-::: greybox
-{{ VIDEO }}\
-**Figure: Scrum video**
-:::
-::: bad
-Figure: Bad example - Using "Figure:" for a video caption + a vague text
-:::
 
-::: greybox
-{{ VIDEO }}\
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; VIDEO &#125;&#125;\
+**Figure: Scrum video**
+  </>}
+  figurePrefix="bad"
+  figure='Bad example - Using \"Figure:\" for a video caption + a vague text'
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; VIDEO &#125;&#125;\
 **Video: Intro to Scrum in Under 10 Minutes (9 min)**
-:::
-::: good
-Figure: Good example - Video caption following the standard "Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})"
-:::
+  </>}
+  figurePrefix="good"
+  figure='Good example - Video caption following the standard \"Video: &#123;&#123; VIDEO TITLE &#125;&#125; (&#123;&#123; VIDEO LENGTH&#125;&#125;)\"'
+/>
+
 
 This helps:
 
@@ -120,66 +168,96 @@ This helps:
 * Letting users know what to expect in terms of time required to watch
 * Serving as a reminder in case that video ever gets removed by its owner
 
-::: info
-**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Tip #6: AI images - include your prompt
 
 If you're sharing an AI generated image, show others how you made it.
 
-::: greybox
-{{ IMAGE }}\
-**Figure: An AI image of baseball player sliding**
-:::
-::: bad
-Figure: Bad example - Doesn't educate others about AI images
-:::
 
-::: greybox
-{{ IMAGE }}\
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
+**Figure: An AI image of baseball player sliding**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Doesn't educate others about AI images"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; IMAGE &#125;&#125;\
 **Figure: An AI image of baseball player sliding. Prompt: A realistic image of a baseball player sliding. The uniform is white and the crowd is cheering.**
-:::
-::: good
-Figure: Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption"
+/>
+
 
 ### Tip #7: Link people's names to their profiles
 
 When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
-::: greybox
-{{ VIDEO }}\
-**Video: In this video, Bob talks about Outlook**
-:::
-::: bad
-Figure: Bad example - A vague text with no link to Bob's profile. Also missing the video length
-:::
 
-::: greybox
-{{ VIDEO }}\
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; VIDEO &#125;&#125;\
+**Video: In this video, Bob talks about Outlook**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - A vague text with no link to Bob's profile. Also missing the video length"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; VIDEO &#125;&#125;\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
-:::
-::: good
-Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - A descriptive caption using the video title + profile link + video length at the end"
+/>
+
 
 ### Tip #8: GIFs - Label accordingly
 
 Using a GIF instead of a static image can be beneficial for illustrating multiple steps, as it saves page space. Be sure to specify that it is a GIF in the caption to distinguish it from a static image
 
-::: greybox
-{{ GIF }}\
-**Figure: Users | Summary | User Information | LinkedIn URL**
-:::
-::: bad
-Figure: Bad example - Does not specificy that it is a GIF
-:::
 
-::: greybox
-{{ GIF }}\
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; GIF &#125;&#125;\
+**Figure: Users | Summary | User Information | LinkedIn URL**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Does not specificy that it is a GIF"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &#123;&#123; GIF &#125;&#125;\
 **Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
-:::
-::: good
-Figure: Good example - Specificies that it is a GIF
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - Specificies that it is a GIF"
+/>

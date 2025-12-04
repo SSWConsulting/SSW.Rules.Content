@@ -1,27 +1,46 @@
 ---
-seoDescription: Learn why it's essential to separate development, testing, and production environments in software projects. Ensure reliable customer experiences by keeping the production environment stable and free from testing or coding disruptions.
-type: rule
-title: Do you know which environments you need to provision when starting a new project?
-uri: do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 authors:
-  - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay/
-related:
-  - ephemeral-environments
-  - do-you-have-separate-development-testing-and-production-environments
-created: 2023-11-20T05:48:37.152Z
+- title: Daniel Mackay
+  url: https://ssw.com.au/people/daniel-mackay/
+categories:
+- category: categories/company-operations/rules-to-successful-projects.mdx
+- category: categories/project-delivery/rules-to-better-devops.mdx
+- category: categories/software-engineering/rules-to-better-azure.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
+created: 2023-11-21 22:34:33+00:00
+createdBy: Daniel Mackay [SSW]
+createdByEmail: 2636640+danielmackay@users.noreply.github.com
 guid: 8d165756-d35e-4d1a-8924-3c4f59523db4
+isArchived: false
+lastUpdated: 2025-06-05 17:34:48+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+related:
+- rule: public/uploads/rules/ephemeral-environments/rule.mdx
+- rule: public/uploads/rules/do-you-have-separate-development-testing-and-production-environments/rule.mdx
+seoDescription: Learn why it's essential to separate development, testing, and production
+  environments in software projects. Ensure reliable customer experiences by keeping
+  the production environment stable and free from testing or coding disruptions.
+title: Do you know which environments you need to provision when starting a new project?
+type: rule
+uri: do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 ---
 
 Before any project can be used by a customer it must first be published to a production environment. However, in order to provide a robust and uninterrupted service to customers, it is important that the production environment is not used for development or testing purposes. To ensure this, we must setup a separate environment for each of these purposes.
 
-<!--endintro-->
+<endIntro />
 
 Skipping environments in a feeble attempt to save money will result in untested features breaking production.
 
-::: bad
-![Figure: Bad example - Skipping environments](bad-example-skipping-environments.jpg "Bad Example")
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Skipping environments"
+  src="/uploads/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/bad-example-skipping-environments.jpg"
+/>
+
 
 ## What is each environment for?
 
@@ -41,9 +60,15 @@ For smaller projects we can often get away without having a dedicated developmen
 * Staging
 * Local
 
-::: good
-![Figure: Good example - Internal or Small Projects have fewer environments](simple-environments.jpg "Internal or Small Projects")
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Internal or Small Projects have fewer environments"
+  src="/uploads/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/simple-environments.jpg"
+/>
+
 
 ### Large or multi-team projects
 
@@ -55,8 +80,14 @@ For large projects it's recommended to run 4 hosted environments + 1 local:
 * Ephemeral (if possible)
 * Local
 
-::: good
-![Figure: Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Large or Multi-Team Projects tend to have more environments"
+  src="/uploads/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/complex-environments.jpg"
+/>
+
 
 The above is a general recommendation. Depending on your project's needs you may need to add additional environments e.g. support, training, etc.

@@ -2,43 +2,81 @@
 seoDescription: When to use User Controls? Master recurring or shared logic and promote code reuse with these reusable UI elements.
 type: rule
 title: Do you know when to use User Controls?
+categories:
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.mdx
 uri: do-you-know-when-to-use-user-controls
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-created: 2014-03-14T02:45:00.000Z
+created: 2024-03-18T17:58:54.000Z
 guid: 38779435-f4d8-42eb-89e6-f8c24293a876
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: Igor Goldobin
+createdByEmail: igor.goldobin@gmail.com
+isArchived: false
 ---
 
 User controls allow you to have groups of elements which can be placed on forms.
 
-<!--endintro-->
+<endIntro />
 
 ❌ **Bad**: User controls can be really misused and placed in forms where they shouldn't be. An example of that is shown below, under the components directory the user controls placed and used only _once_ at a time during the application flow. There is much more coding responsibility on the developer to load those controls correctly one at a time inside the main form.
 
-::: bad
-![Figure: Bad example - All the forms in the application are user controls](badusercontrols.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - All the forms in the application are user controls"
+  src="/uploads/rules/do-you-know-when-to-use-user-controls/badusercontrols.gif"
+/>
 
-::: bad
-![Figure: Bad example - All of the controls on this form are on a user control, but are only used once](badusercontrol.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - All of the controls on this form are on a user control, but are only used once"
+  src="/uploads/rules/do-you-know-when-to-use-user-controls/badusercontrol.gif"
+/>
+
 
 ✅ **Good**: User Controls are best used for recurring or shared logic either on the same form or throughout the application. This encourages code reuse, resulting in less overall development time (especially in maintenance). Example, the figure below shows the good use of User Controls, the address control is repeated three times but coded once.
 
-::: good
-![Figure: Good example - User controls are only used for shared controls](goodusercontrol.gif)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - User controls are only used for shared controls"
+  src="/uploads/rules/do-you-know-when-to-use-user-controls/goodusercontrol.gif"
+/>
 
-::: good
-![Figure: Good example - The Address User Control is repeated](usercontrol.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - The Address User Control is repeated"
+  src="/uploads/rules/do-you-know-when-to-use-user-controls/usercontrol.gif"
+/>
+
 
 **Exception**: User controls can be made for tab pages (e.g Tools | Options) and search pages. This allows the breakdown of complex forms, and development by different developers.
 
-::: ok
-![Figure: User controls are OK in tab pages (exception)](usercontrolintabform.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="User controls are OK in tab pages (exception)"
+  src="/uploads/rules/do-you-know-when-to-use-user-controls/usercontrolintabform.jpg"
+/>
+
 
 ### Summary
 

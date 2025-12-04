@@ -1,31 +1,48 @@
 ---
-seoDescription: Code Analysis Tools to Improve Code Quality and Efficiency
-type: rule
-archivedreason:
-title: Do you use the best Code Analysis tools?
-guid: 48fb228d-a09e-4c52-9c6a-eddfff34f08f
-uri: do-you-use-the-best-code-analysis-tools
-created: 2012-03-16T08:43:44.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Damian Brady
+  url: https://ssw.com.au/people/damian-brady
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+categories:
+- category: categories/project-delivery/rules-to-better-devops.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+created: 2015-04-10 05:06:19+00:00
+createdBy: ulyssesmaclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
+guid: 48fb228d-a09e-4c52-9c6a-eddfff34f08f
+isArchived: false
+lastUpdated: 2025-07-31 00:46:18+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
+seoDescription: Code Analysis Tools to Improve Code Quality and Efficiency
+title: Do you use the best Code Analysis tools?
+type: rule
+uri: do-you-use-the-best-code-analysis-tools
 ---
 
 Whenever you are writing code, you should always make sure it conforms to your team's standards. If everyone is following the same set of rules; someone else’s code will look more familiar and more like your code - ultimately easier to work with.
 
 No matter how good a coder you are, you will always miss things from time to time, so it's a really good idea to have a tool that automatically scans your code and reports on what you need to change in order to improve it.
 
-<!--endintro-->
+<endIntro />
 
 Visual Studio has a great Code Analysis tool to help you look for problems in your code. Combine this with Jetbrains' ReSharper and your code will be smell free.
 
-![Figure: You wouldn't play cricket without protective gear and you shouldn't code without protective tools](CricketHelmet.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="You wouldn't play cricket without protective gear and you shouldn't code without protective tools"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/CricketHelmet.jpg"
+/>
+
 
 The levels of protection are:
 
@@ -38,15 +55,42 @@ You can run through a file and tidy it very quickly if you know 2 great keyboard
 * Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
 * Alt + Enter: Smart refactoring suggestions
 
-![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81_image001.png)
 
-![Figure: ReSharper will show green when all code is tidy](ReSharper-green.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="ReSharper will show Orange when it detects that there is code that could be improved"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/48bc81_image001.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="ReSharper will show green when all code is tidy"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/ReSharper-green.png"
+/>
+
 
 ### Level 2
 
 Use [SSW CodeAuditor](https://codeauditor.com).
 
-![Figure: CodeAuditor shows a lot of warnings in this test project](CodeAuditor.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="CodeAuditor shows a lot of warnings in this test project"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/CodeAuditor.png"
+/>
+
 
 **Note:** Document any rules you've turned off.
 
@@ -54,21 +98,57 @@ Use [SSW CodeAuditor](https://codeauditor.com).
 
 Use StyleCop to check that your code has consistent style and formatting.
 
-![Figure: StyleCop shows a lot of warnings in this test project](StyleCopInVS2010.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="StyleCop shows a lot of warnings in this test project"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/StyleCopInVS2010.png"
+/>
+
 
 ### Level 4
 
 Run Code Analysis (was FxCop) with the default settings or ReSharper with Code Analysis turned on.
 
-![Figure: Run Code Analysis in Visual Studio](CodeAnalysisVS11.png)
 
-![Figure: The Code Analysis results indicate there are 17 items that need fixing](codeanalysis.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Run Code Analysis in Visual Studio"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/CodeAnalysisVS11.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The Code Analysis results indicate there are 17 items that need fixing"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/codeanalysis.png"
+/>
+
 
 ### Level 5
 
 Ratchet up your Code Analysis Rules until you get to 'Microsoft All Rules'.
 
-![Figure: Start with the Minimum Recommended Rules, and then ratched up.](image003.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Start with the Minimum Recommended Rules, and then ratched up."
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/image003.png"
+/>
+
 
 ### Level 6
 
@@ -78,14 +158,40 @@ All of these rules allow you to disable rules that you're not concerned about. T
 
 Create a **GlobalSuppressions.cs** file in your project with the rules that have been turned off and why.
 
-![Figure: The suppressions file tells Code Analysis which rules it should disable for specific code blocks](suppressions-file.png)
 
-**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?WT.mc_id=DT-MVP-33518>
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The suppressions file tells Code Analysis which rules it should disable for specific code blocks"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/suppressions-file.png"
+/>
+
+
+**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and [https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?WT.mc_id=DT-MVP-33518](https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview?WT.mc_id=DT-MVP-33518)
 
 ### Level 7
 
 The gold standard is to use [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
 
-![Figure: SonarQube workflow with Visual Studio and Azure DevOps](2016-06-08_12-59-38.png)
 
-![Figure: SonarQube gives you the changes in code analysis results between each check-in](2016-06-08_12-59-53.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="SonarQube workflow with Visual Studio and Azure DevOps"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/2016-06-08_12-59-38.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="SonarQube gives you the changes in code analysis results between each check-in"
+  src="/uploads/rules/do-you-use-the-best-code-analysis-tools/2016-06-08_12-59-53.png"
+/>

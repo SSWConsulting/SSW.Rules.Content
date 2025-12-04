@@ -1,33 +1,60 @@
 ---
-seoDescription: Work smarter, not harder! Pair programming boosts productivity and code quality. 2 heads are better than one, especially when working on complex projects. Reduce problem-solving time, stay motivated, and learn from each other's expertise.
-type: rule
-title: Efficiency - Do you always try to work in pairs?
-uri: work-in-pairs
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - ai-pair-programming
-  - hand-over-projects
-redirects:
-  - efficiency-do-you-always-try-to-work-in-pairs-1
-  - efficiency-do-you-always-try-to-work-in-pairs
-created: 2009-03-17T07:35:05.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+categories:
+- category: categories/client-engagement/rules-to-better-software-consultants-working-in-a-team.mdx
+- category: categories/company-operations/rules-to-successful-projects.mdx
+created: 2024-09-08 21:58:26+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: e1ce40a6-7c15-4974-9e57-506b1bc7c337
+isArchived: false
+lastUpdated: 2024-10-18 23:49:04+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- efficiency-do-you-always-try-to-work-in-pairs-1
+- efficiency-do-you-always-try-to-work-in-pairs
+related:
+- rule: public/uploads/rules/ai-pair-programming/rule.mdx
+- rule: public/uploads/rules/hand-over-projects/rule.mdx
+seoDescription: Work smarter, not harder! Pair programming boosts productivity and
+  code quality. 2 heads are better than one, especially when working on complex projects.
+  Reduce problem-solving time, stay motivated, and learn from each other's expertise.
+title: Efficiency - Do you always try to work in pairs?
+type: rule
+uri: work-in-pairs
 ---
 
 There are many good reasons why it's better to work in pairs - enhance productivity, creativity, and problem-solving capabilities.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: Work in pairs](ProjectManagement_PairProgramming_Luge.jpg)
 
-::: info
-**Why use pair programming when you can use AI 😉?**
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Work in pairs"
+  src="/uploads/rules/work-in-pairs/ProjectManagement_PairProgramming_Luge.jpg"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Why use pair programming when you can use AI 😉?**
 
 [AI can work as your pair](/ai-pair-programming), handling repetitive tasks, give quick feedback, and help with decision-making, making it easier to work solo in certain situations. While AI can't fully match the creativity and interaction of working with someone else, it's a great tool for cutting down the need to team up for routine or technical tasks.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 Whether it's brainstorming, coding, or tackling complex tasks, working in pairs often leads to more efficient and high-quality results.
 
@@ -56,13 +83,25 @@ If you find yourself working alone, which we don't recommend, you should speak u
 
 1 dev plus 1 dev doesn't equal 2 devs worth of work. It equals 3! 🎉
 
-::: bad
-![Figure: Bad example - This is normal ‘pair programming’, two people working at one PC](PairProgramming01.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - This is normal ‘pair programming’, two people working at one PC"
+  src="/uploads/rules/work-in-pairs/PairProgramming01.jpg"
+/>
 
-::: good
-![Figure: Good example - This is ‘working in pairs’, two devs working on the same project, with their own laptops, but sitting very close to each other](PairProgramming02_Small.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - This is ‘working in pairs’, two devs working on the same project, with their own laptops, but sitting very close to each other"
+  src="/uploads/rules/work-in-pairs/PairProgramming02_Small.jpg"
+/>
+
 
 ## Is there an overhead?
 
@@ -78,7 +117,9 @@ If you are working with someone remote, you will be using an application like [T
 
 [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) - See Video (3 minutes):
 
-`youtube: https://www.youtube.com/watch?v=A2ceblXTBBc`
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=A2ceblXTBBc" description={""} />
+
 
 * VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 * Visual Studio 2022! It's built in!
@@ -89,9 +130,16 @@ If you are working with someone remote, you will be using an application like [T
 
 In situations where there isn't enough work for two people, or budget constraints limit resources, an alternative can be adopted. This approach involves a single developer handling the majority of development tasks, with a more senior developer contributing primarily on Sprint Review day. See below for an example:
 
-::: greybox
-If a client only has 1 developer working with them for 1 day a week, they must still keep regular Scrum cadence. In this case they would break the work down into 5-week (5 working days) Sprints. Every 5th booking, a senior developer or Solution Architect must be booked with them to ensure the project is running smoothly and to help them plan the next Sprint.
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    If a client only has 1 developer working with them for 1 day a week, they must still keep regular Scrum cadence. In this case they would break the work down into 5-week (5 working days) Sprints. Every 5th booking, a senior developer or Solution Architect must be booked with them to ensure the project is running smoothly and to help them plan the next Sprint.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 The primary developer progresses the project mostly autonomously, while the senior developer's weekly involvement primarily ensures strategic oversight and quality control, particularly during Sprint Reviews. While the primary developer has greater autonomy, the availability of the senior developer for occasional guidance is crucial. This ensures the project remains on track and the primary developer does not feel isolated.
 
