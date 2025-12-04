@@ -27,6 +27,28 @@ def js_string_unquoted(text: str) -> str:
     dumped = json.dumps(text, ensure_ascii=False)
     return dumped[1:-1]  # remove the surrounding double quotes
 
+def format_figure_attr(text: str, attr_name: str = "figure") -> str:
+    has_double = '"' in text
+    has_single = "'" in text
+
+    # Case 1: Contains both " and ', convert internal " into &quot;
+    if has_double and has_single:
+        inner = (
+            text
+            .replace("&", "&amp;")
+            .replace('"', "&quot;")
+        )
+        return f'{attr_name}="{inner}"'
+
+    inner = js_string_unquoted(text)
+
+    # Case 2: Contains " but not ', use single quotes
+    if has_double:
+        return f"{attr_name}='{inner}'"
+
+    # Case 3: Contains no ", use double-quoted attribute
+    return f'{attr_name}="{inner}"'
+
 def mdx_safe_template_vars(text):
     return text.replace("{{", "&#123;&#123;").replace("}}", "&#125;&#125;")
 
@@ -127,7 +149,6 @@ def replace_image_block(m, src_prefix):
     raw_src = alt_match.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
-    figure_js = js_string(figure)
     caption_style = preset if preset == "none" else f"{preset}Example"
 
     return f'''<imageEmbed
@@ -135,7 +156,7 @@ def replace_image_block(m, src_prefix):
   size="large"
   showBorder={{false}}
   figurePrefix="{caption_style}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />'''
 
@@ -164,16 +185,12 @@ def replace_custom_size_image_block(m, src_prefix):
     # Determine border
     show_border = "false" if "no-border" in variants else "true"
 
-    # If figure is empty, set shouldDisplay to false
-    should_display = "true" if figure_raw else "false"
-    figure_js = js_string(figure_raw)
-
     return f'''<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
   figurePrefix="none"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />'''
 
@@ -181,14 +198,13 @@ def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure)
 
     return '\n' + f'''<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
   figurePrefix="none"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />'''
 
@@ -211,14 +227,13 @@ def replace_preset_and_size_image_block(m, src_prefix):
 
     show_border = "false" if variant == "no-border" else "true"
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure_raw)
 
     return f'''<imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
   figurePrefix="{preset_kind}Example"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />'''
 
@@ -287,14 +302,13 @@ def process_custom_aside_blocks(content):
             body = convert_angle_bracket_links(body)
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
-            figure_js = js_string(figure)
             embed = f'''<boxEmbed
   style="{box_type}"
   body={{<>
     {body}
   </>}}
   figurePrefix="{preset}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
 />'''
             output.append(embed)
             in_box = False

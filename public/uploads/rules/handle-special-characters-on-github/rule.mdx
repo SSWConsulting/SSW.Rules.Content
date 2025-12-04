@@ -38,7 +38,7 @@ Storing text containing special characters Secret or Variable and referencing th
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"A Secret or Variable with special characters can cause issues if improperly handled"}
+  figure="A Secret or Variable with special characters can cause issues if improperly handled"
   src="/uploads/rules/handle-special-characters-on-github/secret-with-parentheses.png"
 />
 
@@ -48,7 +48,7 @@ Storing text containing special characters Secret or Variable and referencing th
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - Accessing this Secret as-is will lead to a syntax error in our Action"}
+  figure="Bad example - Accessing this Secret as-is will lead to a syntax error in our Action"
   src="/uploads/rules/handle-special-characters-on-github/action-no-quotes.png"
 />
 
@@ -59,7 +59,7 @@ Storing text containing special characters Secret or Variable and referencing th
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"A syntax error is thrown due to the special characters"}
+  figure="A syntax error is thrown due to the special characters"
   src="/uploads/rules/handle-special-characters-on-github/parentheses-error.png"
 />
 
@@ -73,7 +73,7 @@ One simple way to avoid this is to wrap your Secrets or Variables in single or d
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Good example - Wrapping our Secret in quotes means it will be correctly treated as text"}
+  figure="Good example - Wrapping our Secret in quotes means it will be correctly treated as text"
   src="/uploads/rules/handle-special-characters-on-github/action-with-quotes.png"
 />
 
@@ -84,7 +84,7 @@ One simple way to avoid this is to wrap your Secrets or Variables in single or d
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Our Secret is now handled correctly when wrapped in quotes"}
+  figure="Our Secret is now handled correctly when wrapped in quotes"
   src="/uploads/rules/handle-special-characters-on-github/output-with-quotes.png"
 />
 
@@ -96,7 +96,7 @@ However, it's important to note that this can still cause issues in certain scen
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - Trying to wrap this Secret in double quotes will lead to an error"}
+  figure="Bad example - Trying to wrap this Secret in double quotes will lead to an error"
   src="/uploads/rules/handle-special-characters-on-github/secret-with-quote.png"
 />
 
@@ -107,7 +107,7 @@ However, it's important to note that this can still cause issues in certain scen
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"The lone double quote character means this string cannot be interpreted correctly"}
+  figure="The lone double quote character means this string cannot be interpreted correctly"
   src="/uploads/rules/handle-special-characters-on-github/quote-error.png"
 />
 
@@ -121,7 +121,7 @@ A better way to handle this is to escape these special characters when storing y
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Good (best) example - Escaping the special characters mean this string will be interpreted correctly"}
+  figure="Good (best) example - Escaping the special characters mean this string will be interpreted correctly"
   src="/uploads/rules/handle-special-characters-on-github/escaped-secret.png"
 />
 
@@ -132,6 +132,6 @@ A better way to handle this is to escape these special characters when storing y
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"The escaped characters mean our string is now interpreted correctly without the need to wrap in quotes"}
+  figure="The escaped characters mean our string is now interpreted correctly without the need to wrap in quotes"
   src="/uploads/rules/handle-special-characters-on-github/output-escaped.png"
 />

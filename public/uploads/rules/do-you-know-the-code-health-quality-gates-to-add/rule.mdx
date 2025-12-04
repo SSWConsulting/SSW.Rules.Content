@@ -55,7 +55,7 @@ For Visual Studio development on web applications, [download Web Essentials](htt
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Steps to install NuGet Packages"}
+  figure="Steps to install NuGet Packages"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-InstallNuGetPackages_1710232021935.png"
 />
 
@@ -78,7 +78,7 @@ Issues from these will now be returned in the Visual Studio analyzer error list.
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"New Roslyn Rule issues raised in Visual Studio Analyzer"}
+  figure="New Roslyn Rule issues raised in Visual Studio Analyzer"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VS-RoslynRules_1710232021936.png"
 />
 
@@ -111,7 +111,7 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Addition of CSSLint and ESLint to VS Code Project"}
+  figure="Addition of CSSLint and ESLint to VS Code Project"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/vs-code-extensions_1710232021938.png"
 />
 
@@ -133,7 +133,7 @@ Edit the build definition
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Steps to edit an existing build definition on VisualStudio.com"}
+  figure="Steps to edit an existing build definition on VisualStudio.com"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EditBuild.png"
 />
 
@@ -145,7 +145,7 @@ Edit the build definition
     Everything below this point is out-of-date
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -157,7 +157,7 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Example completed build definition"}
+  figure="Example completed build definition"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildDefinition-V3_1710232021937.png"
 />
 
@@ -168,7 +168,7 @@ Select "Build & Release" &gt; Select "Builds" &gt; Click on your existing build 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Example directory for TSLint run commands"}
+  figure="Example directory for TSLint run commands"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-DirectoryExampleV2_1710232021937.png"
 />
 
@@ -208,7 +208,7 @@ If this is the case, just add a step to delete your config file after the scan i
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Command line step to remove the config file (tslint.json) after the linter has run"}
+  figure="Command line step to remove the config file (tslint.json) after the linter has run"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-RemoveConfig_1710232021938.png"
 />
 
@@ -232,7 +232,7 @@ Then check the build is successful.
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing"}
+  figure="Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-EnsureTSLintRuns.png"
 />
 
@@ -247,7 +247,7 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Steps to add PrimaryBuild variable to build definition"}
+  figure="Steps to add PrimaryBuild variable to build definition"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-AddVariableTag_1710232021936.png"
 />
 
@@ -257,7 +257,7 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - Build broke due to compile errors. Must fix to proceed"}
+  figure="Bad example - Build broke due to compile errors. Must fix to proceed"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResult-BadV3.png"
 />
 
@@ -267,7 +267,7 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - Successful build with warnings. Should be disabled or set as errors"}
+  figure="Bad example - Successful build with warnings. Should be disabled or set as errors"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResultV3.png"
 />
 
@@ -277,6 +277,6 @@ This is done with the addition of a variable `(Name = PrimaryBuild, Value = true
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Good example - Successful build with no warnings"}
+  figure="Good example - Successful build with no warnings"
   src="/uploads/rules/do-you-know-the-code-health-quality-gates-to-add/VSO-BuildResult-GoodV3.png"
 />

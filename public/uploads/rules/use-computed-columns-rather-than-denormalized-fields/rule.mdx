@@ -31,7 +31,7 @@ Use the suffix "Computed" to clearly distinguish that this field is a computed f
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad Example - This field was manually updated from code in the middle tier."}
+  figure="Bad Example - This field was manually updated from code in the middle tier."
   src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg"
 />
 
@@ -41,7 +41,7 @@ Use the suffix "Computed" to clearly distinguish that this field is a computed f
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Good Example - There was no code in the middle tier to calculate this (and it has the correct name)"}
+  figure="Good Example - There was no code in the middle tier to calculate this (and it has the correct name)"
   src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
 />
 
@@ -76,6 +76,6 @@ RETURN (round(isnull(CONVERT([decimal](8,6),@TimeEnd - @TimeStart,(0))*(24),(0))
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Setting up a computed column in the table designer"}
+  figure="Setting up a computed column in the table designer"
   src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFieldsDefine.jpg"
 />

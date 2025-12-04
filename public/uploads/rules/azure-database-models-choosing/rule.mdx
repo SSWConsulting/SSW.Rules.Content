@@ -45,7 +45,7 @@ Many developers struggle to choose the right database model for multi-tenant app
     **Tip:** Even before you choose a database model, consider if your application truly needs a multi-tenant architecture. Single-tenant architecture might be simpler for some use cases.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -60,7 +60,7 @@ Some developers apply the same database model regardless of tenant requirements,
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - Using a dedicated database for each of your 500 small tenants results in excessive costs and management overhead"}
+  figure="Bad example - Using a dedicated database for each of your 500 small tenants results in excessive costs and management overhead"
   src="/uploads/rules/azure-database-models-choosing/single-db-per-tenant-bad.png"
 />
 
@@ -120,7 +120,7 @@ Multiple single-tenant databases share resources within an elastic pool.
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Good example - Elastic Pool efficiently distributes resources among databases with variable workloads"}
+  figure="Good example - Elastic Pool efficiently distributes resources among databases with variable workloads"
   src="/uploads/rules/azure-database-models-choosing/elastic-pool-good.png"
 />
 
@@ -175,7 +175,7 @@ Azure SQL's serverless tier automatically scales compute resources based on work
     **Tip:** Serverless is perfect for development environments where the database is only used during working hours, automatically pausing outside of these times to save costs.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -246,7 +246,7 @@ When choosing the right Azure database model for your multi-tenant application, 
 * Are you optimizing for predictable costs or minimal costs?
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -283,5 +283,5 @@ By carefully evaluating your application's requirements and leveraging Azure's d
     **Note:** Always consider future growth patterns when selecting your database model. It's easier to start with a more isolated model and consolidate later than to separate tenants after they're combined.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />

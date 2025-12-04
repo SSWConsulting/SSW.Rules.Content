@@ -78,7 +78,7 @@ To build strong password security, the following components are essential:
     **Note:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -114,7 +114,7 @@ Another user with the same password:
     **Note:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -146,7 +146,7 @@ Another user with the same password:
     **Note:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -157,7 +157,7 @@ Another user with the same password:
     **Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 

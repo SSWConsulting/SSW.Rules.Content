@@ -36,7 +36,7 @@ With more companies adopting BYOD policies, it is important for SysAdmins to be 
     **Note:** You should make sure any personal devices connecting to your network are secure, with [Intune](/implementing-intune) or a similar solution.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -49,7 +49,7 @@ The least secure way is to use Remote Desktop Connection to make changes directl
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure={"Bad example - RDP directly to the domain controller"}
+  figure="Bad example - RDP directly to the domain controller"
   src="/uploads/rules/run-rsat-from-non-domain-computer/rdp-dc.png"
 />
 
@@ -67,7 +67,7 @@ Since the tool is browser-based, you only need to allow access to one port for H
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure={"Managing AD in Windows Admin Center"}
+  figure="Managing AD in Windows Admin Center"
   src="/uploads/rules/run-rsat-from-non-domain-computer/admin-center-aduc.png"
 />
 
@@ -85,7 +85,7 @@ While Windows Admin Center is a great solution, many SysAdmins prefer the extra 
     You can also use this if you have a domain-joined computer, but you need to use a different account to the one you log in with to access RSAT.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -104,7 +104,7 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"MMC | Add or Remove Snap-ins"}
+  figure="MMC | Add or Remove Snap-ins"
   src="/uploads/rules/run-rsat-from-non-domain-computer/mmc-add-snapin.png"
 />
 
@@ -116,7 +116,7 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"ADUC | Change domain"}
+  figure="ADUC | Change domain"
   src="/uploads/rules/run-rsat-from-non-domain-computer/aduc-domain.png"
 />
 

@@ -38,7 +38,7 @@ The above discrepancy creates the need to effectively map or correlate the the u
     **⚠️ Warning:** The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -81,7 +81,7 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
     **Note**: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -131,7 +131,7 @@ Register by creating a new user in your application's store using claims provide
     **Note**: In the example above extraction of claims may vary based on how you access the token.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 

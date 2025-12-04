@@ -59,7 +59,7 @@ If you host your app on premise, it's also worth checking your infrastructure to
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Install necessary .NET 8 runtimes"}
+  figure="Install necessary .NET 8 runtimes"
   src="/uploads/rules/migration-plans/related-runtimes.png"
 />
 
@@ -86,7 +86,7 @@ Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
     **Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -115,7 +115,7 @@ try-convert --keep-current-tfms
 **Note:** For Web applications, we'll update at a later stage based on [migrating Web Apps to .NET](/migrating-web-apps-to-dotnet/).
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -125,7 +125,7 @@ try-convert --keep-current-tfms
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"The differences between the legacy csproj file and the new SDK csproj file"}
+  figure="The differences between the legacy csproj file and the new SDK csproj file"
   src="/uploads/rules/migration-plans/legacy-vs-sdk.png"
 />
 
@@ -161,7 +161,7 @@ Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .
 This allows you up to work on your migration PBIs **incrementally**, while still allowing you to deploy your app on the current .NET version - win/win!
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -177,7 +177,7 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Bad and good examples when targeting multiple target frameworks"}
+  figure="Bad and good examples when targeting multiple target frameworks"
   src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png"
 />
 

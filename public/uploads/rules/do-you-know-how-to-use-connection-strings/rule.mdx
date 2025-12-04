@@ -95,7 +95,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
     **Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
   </>}
   figurePrefix="none"
-  figure={""}
+  figure=""
 />
 
 
@@ -122,7 +122,7 @@ Applications require at least the LIST and GET permissions, otherwise the Key Va
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Key Vault Access Policies - Setting permissions for Applications and/or Users"}
+  figure="Key Vault Access Policies - Setting permissions for Applications and/or Users"
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/access_policies.png"
 />
 
@@ -139,7 +139,7 @@ Once enabled, you can create a Key Vault Access policy to give your App Service 
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies"}
+  figure="Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies"
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/identity.png"
 />
 
@@ -157,7 +157,7 @@ Adding secrets into Key Vault is easy.
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Creating the SqlConnectionString secret in Key Vault."}
+  figure="Creating the SqlConnectionString secret in Key Vault."
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/add-a-secret.png"
 />
 
@@ -168,7 +168,7 @@ Adding secrets into Key Vault is easy.
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"SqlConnectionString stored in Key Vault"}
+  figure="SqlConnectionString stored in Key Vault"
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/secrets.png"
 />
 
@@ -183,7 +183,7 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access"}
+  figure="Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access"
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/configuration.png"
 />
 
@@ -224,7 +224,7 @@ In .NET 2.0 we used strongly typed settings classes:
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure={"Settings in Project Properties"}
+  figure="Settings in Project Properties"
   src="/uploads/rules/do-you-know-how-to-use-connection-strings/ConnStringNET2_Settings.jpg"
 />
 
