@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you avoid Automation Bias? (aka AI Slop)
-seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
+seoDescription: Did you know that AI has the potential to make your work worse?
+  Learn the common pitfalls so that AI can help, not hinder.
 uri: avoid-automation-bias
 authors:
   - title: Eddie Kranz
@@ -16,7 +17,6 @@ related:
 created: 2025-09-16T14:29:00.000Z
 guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
 ---
-
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
 Let's talk about what leads to creating AI slop:
@@ -28,13 +28,13 @@ Let's talk about what leads to creating AI slop:
 
 Automation bias is a type of cognitive bias.
 
-Too many people use AI and give it as an answer, without taking 100% ownership of the content. If there's something you can't explain, then you're giving a person **AI slop**.
+Too many people use AI and pass on its answers, without taking 100% ownership of the content. If there's something you can't explain, then you're publishing **AI slop**.
 
 ## Errors from automation bias
 
 There are two types of errors made due to automation bias:
 
-* **Error of commission** - Doing the wrong thing because the system suggested it  
+* **Error of commission** - Doing the wrong thing because the system suggested it\
   E.g. Accepting a flawed suggestion, getting ChatGPT to write your essay, etc.
 * **Error of omission** - Failing to act because the system didn't flag a problem
   E.g. shipping flawed code, because Copilot review approved it
@@ -109,18 +109,18 @@ The Four Eyes Principle (aka Two-Person Rule) is a common internal control pract
 This is similar to the ['Checked By' rule](/checked-by-xxx).
 
 ::: greybox
-Random Person: _"Hey, can you review this code I wrote with Copilot?"_
+Random Person: *"Hey, can you review this code I wrote with Copilot?"*
 
-Bob: _"I don't know you well, and I have better things to do... approved ✅"_
+Bob: *"I don't know you well, and I have better things to do... approved ✅"*
 :::
 ::: bad
 Bad example - Random pair reviews, people don't know each other well, so they won't feel accountable
 :::
 
 ::: greybox
-Alice: _"Hey Bob, can you review this code I wrote with Copilot?"_
+Alice: *"Hey Bob, can you review this code I wrote with Copilot?"*
 
-Bob: _"Sure, I want to make sure I don't let Alice down, so I'll take a closer look 👀"_
+Bob: *"Sure, I want to make sure I don't let Alice down, so I'll take a closer look 👀"*
 :::
 ::: good
 Good example - Pair reviews with people who know each other well, so they feel accountable
@@ -133,14 +133,14 @@ Ask AI to present information and sources before it asserts conclusions. Avoid i
 Assume you want top marks for your university assignment.
 
 ::: greybox
-_"Write me an essay about diabetes treatments"_
+*"Write me an essay about diabetes treatments"*
 :::
 ::: bad
 Bad example - AI provides a summary, with not much context. People may take it at face value
 :::
 
 ::: greybox
-_"I am writing a university essay on treatments for diabetes._
+*"I am writing a university essay on treatments for diabetes.*
 
 _The essay question is {{ XXX }},
 
@@ -150,7 +150,7 @@ _My thoughts are {{ XXX }},
 
 _and I want to make sure I cover {{ THESE POINTS }}.
 
-_Can you help me draft an outline?"_
+*Can you help me draft an outline?"*
 :::
 ::: good
 Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work.
@@ -165,7 +165,7 @@ Use these to decide if you know enough to prompt. If any answer is vague, pause 
 * **What information/context do you already have, and what’s missing?**  
 * **What is the ([acceptance criteria](/acceptance-criteria/))?**  
 
----
+- - -
 
 ## Summary - Why this matters now
 
