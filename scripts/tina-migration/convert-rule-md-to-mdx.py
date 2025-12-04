@@ -214,6 +214,12 @@ def replace_asset_link(m, src_prefix: str) -> str:
     new_href = add_prefix_if_relative(href, src_prefix)
     return f'[{text}]({new_href} "{title}")' if title else f'[{text}]({new_href})'
 
+def format_figure_attr(text: str, attr_name: str = "figure") -> str:
+    inner = js_string_unquoted(text)
+    if '"' in text:
+        return f"{attr_name}='{inner}'"
+    return f'{attr_name}="{inner}"'
+
 
 # ----------------------------- #
 # Replacements
@@ -235,7 +241,6 @@ def replace_image_block(m, src_prefix):
     raw_src = alt_match.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
-    figure_js = js_string(figure)
     caption_style = preset if preset == "none" else f"{preset}"
 
     return f'''
@@ -244,7 +249,7 @@ def replace_image_block(m, src_prefix):
   size="large"
   showBorder={{false}}
   figurePrefix="{caption_style}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />
 '''
@@ -275,17 +280,13 @@ def replace_custom_size_image_block(m, src_prefix):
     # Determine border
     show_border = "false" if "no-border" in variants else "true"
 
-    # If figure is empty, set shouldDisplay to false
-    should_display = "true" if figure_raw else "false"
-    figure_js = js_string(figure_raw)
-
     return f'''
 <imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
   figurePrefix="none"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />
 '''
@@ -295,7 +296,6 @@ def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure)
 
     return f'''
 <imageEmbed
@@ -303,7 +303,7 @@ def replace_standalone_image(m, src_prefix):
   size="large"
   showBorder={{false}}
   figurePrefix="none"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />
 '''
@@ -343,7 +343,6 @@ def replace_preset_and_size_image_block(m, src_prefix):
 
     show_border = "false" if variant == "no-border" else "true"
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure_raw)
 
     return f'''
 <imageEmbed
@@ -351,7 +350,7 @@ def replace_preset_and_size_image_block(m, src_prefix):
   size="{size}"
   showBorder={{{show_border}}}
   figurePrefix="{preset_kind}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />
 '''
@@ -371,7 +370,6 @@ def replace_email_block(m):
     figure_match = re.search(r'Figure:\s*(.*)', figure_block)
     raw_figure = figure_match.group(1).strip() if figure_match else ""
 
-    figure_js = js_string(raw_figure)
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -391,7 +389,7 @@ def replace_email_block(m):
     {cleaned_body}
   </>}}
   figurePrefix="{preset}"
-  figure={{{figure_js}}}
+  {format_figure_attr(raw_figure, "figure")}
 />
 '''
 
@@ -404,7 +402,6 @@ def replace_email_block_no_rating(m):
     cleaned_body = clean_email_body(body)
 
     preset = "none"
-    figure_js = js_string(figure_text if figure_text else "")
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -424,7 +421,7 @@ def replace_email_block_no_rating(m):
     {cleaned_body}
   </>}}
   figurePrefix="{preset}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_text, "figure")}
 />
 '''
 
@@ -507,7 +504,6 @@ def process_custom_aside_blocks(content):
             body = convert_angle_bracket_links(body)
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
-            figure_js = js_string(figure)
             embed = f'''
 <boxEmbed
   style="{box_type}"
@@ -515,7 +511,7 @@ def process_custom_aside_blocks(content):
     {body}
   </>}}
   figurePrefix="{preset}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure, "figure")}
 />
 '''
             output.append(embed)
@@ -618,7 +614,6 @@ def transform_email_blocks(content: str) -> str:
         cc_js      = js_string(email_data['cc'])
         bcc_js     = js_string(email_data['bcc'])
         subject_js = js_string(email_data['subject'])
-        figure_js  = js_string(figure_text if figure_text else "")
 
         should_display_body_js = "true" if should_display_body else "false"
         should_display_js = "true" if should_display else "false"
@@ -634,7 +629,7 @@ def transform_email_blocks(content: str) -> str:
     {cleaned_body}
   </>}}
   figurePrefix="{preset}"
-  figure={{{figure_js}}}
+  {format_figure_attr(figure_text, "figure")}
 />'''
 
         out.append(embed)
