@@ -142,13 +142,13 @@ Bad example - AI provides a summary, with not much context. People may take it a
 ::: greybox
 _"I am writing a university essay on treatments for diabetes._
 
-_The essay question is {{ XXX }},
+_The essay question is {{ XXX }},_
 
-_I have these sources {{ XXX }},
+_I have these sources {{ XXX }},_
 
-_My thoughts are {{ XXX }},
+_My thoughts are {{ XXX }},_
 
-_and I want to make sure I cover {{ THESE POINTS }}.
+_and I want to make sure I cover {{ THESE POINTS }}._
 
 _Can you help me draft an outline?"_
 :::
