@@ -1,5 +1,3 @@
-
-
 ---
 seoDescription: Encourage staff to use branded laptop skins to improve marketing visibility and strengthen your company’s brand presence.
 type: rule
