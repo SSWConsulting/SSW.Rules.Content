@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you avoid Automation Bias? (aka AI Slop)
-seoDescription: Did you know that AI has the potential to make your work worse?
+seoDescription: Did you know that AI has the potential to make your work worse? Learn the common pitfalls so that AI can help, not hinder.
   Learn the common pitfalls so that AI can help, not hinder.
 uri: avoid-automation-bias
 authors:
