@@ -86,13 +86,7 @@ Let me know if you want anyone else added.
 :::
 
 ::: good
-Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review
-:::
-
-::: good
-
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
-
 :::
 
 ## What if you can't attend the Sprint Review
