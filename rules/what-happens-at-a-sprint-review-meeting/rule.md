@@ -63,7 +63,7 @@ If there are additional stakeholders, make sure they get called in for the summa
 
 Hey {{ PROJECT NAME }} Stakeholders:
 
-I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.   
+I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
 I'll stop the recording to do the Retro to give the recording time to save.
 
 I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
@@ -86,13 +86,7 @@ Let me know if you want anyone else added.
 :::
 
 ::: good
-Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review
-:::
-
-::: good
-
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
-
 :::
 
 ## What if you can't attend the Sprint Review
