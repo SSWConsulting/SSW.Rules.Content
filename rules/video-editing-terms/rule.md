@@ -254,7 +254,7 @@ Is when a piece of footage is removed to give the effect of jumping forward in t
 Some YouTube channels don't use jump cuts, the SSW TV channel is one of them.
 
 ::: info
-SSW recomends using a punch in or tansition to disguise a jump cut.
+SSW recommends using a [punch-in](https://www.ssw.com.au/rules/video-editing-terms/#19-cut---punch-in)  or a transition to disguise a jump cut.
 :::
 
 ![](Jump-cut-Example.jpeg)
@@ -322,3 +322,4 @@ The video has been approved and the feedback loop is closed. It is the stage of 
 Here is a sample email that you can use to provide feedback to the video editor.
 
 ![Figure: Sample email when sending video feedback including timestamps](sample-feedback-email.jpg)
+
