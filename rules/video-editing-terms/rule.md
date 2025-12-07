@@ -322,4 +322,3 @@ The video has been approved and the feedback loop is closed. It is the stage of 
 Here is a sample email that you can use to provide feedback to the video editor.
 
 ![Figure: Sample email when sending video feedback including timestamps](sample-feedback-email.jpg)
-
