@@ -132,7 +132,27 @@ New elements don’t share the same light source, shadow direction, or color tem
 
 ✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."
 
-More to read:
+---
 
-If you would like more information on AI image Generators, check out Adam Cogan's blog post:\
-<https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/>
+If you would like more information on AI image generators, check out Adam Cogan’s blog post:
+
+* [My Top 3 AI Image Generators – Adam Cogan](https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/)
+
+---
+
+::: greybox
+
+## SSW’s AI Shorts
+
+Want to see what SSW thinks about the latest Generative AI tools?  
+Our SSWTV team has been exploring how AI is changing design workflows, boosting productivity, and raising the quality bar for everyone creating graphics today.
+
+### Nano Banana Pro
+
+`youtube: https://www.youtube.com/embed/rdnwqBMpiCY`  
+**Video: The AI powerhouse lifting the quality bar for all graphics… Nano Banana Pro (2 min)**
+
+* [Watch on YouTube](https://youtube.com/shorts/rdnwqBMpiCY?si=xpkBV9WK_4isnxfd)
+* [Explore more of our AI Shorts on SSWTV](https://www.youtube.com/@SSWTV/shorts)
+
+:::
