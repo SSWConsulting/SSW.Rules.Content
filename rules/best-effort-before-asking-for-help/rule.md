@@ -41,10 +41,11 @@ A developer updates a feature and needs new status labels. They wait for a desig
 
 > Can a designer define colors for the new statuses for me?
 > I haven't looked into it yet – design isn't my thing.
-> :::
-> ::: bad
-> Figure: Bad example – Throwing the task over the fence
-> :::
+:::
+
+::: bad
+Figure: Bad example – Throwing the task over the fence
+:::
 
 ::: greybox
 A developer updates a feature and needs new status labels. Instead of waiting for a designer, they give it their best shot.
@@ -53,9 +54,10 @@ A developer updates a feature and needs new status labels. Instead of waiting fo
 > 🟦 Open | 🟧 In Progress | 🟥 Blocked | 🟪 Review | 🟩 Closed
 >
 > Feel free to give me changes if necessary
-> :::
-> ::: good
-> Figure: Good example – A best-effort recommendation with context
-> :::
+:::
+
+::: good
+Figure: Good example – A best-effort recommendation with context
+:::
 
 By doing the legwork, you only need a quick thumbs up (or tweak) instead of a long back-and-forth. This keeps the team shipping faster and helps you grow new skills along the way.
