@@ -48,13 +48,17 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-![Figure: ❌ Bad Example: text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers...](comewith-me-messed-up.png "Example of bad AI image gen")
+::: bad
+![Figure: Bad example - Text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers...](comewith-me-messed-up.png "Example of bad AI image gen")
+:::
 
 ### Today's shift - Enter Nano Banana 🍌
 
 Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an image + instruction and applies localized edits. They preserve subjects and scene layout, follow prompts tightly, and support iterative workflows (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
-![Figure: ✅ Good Example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes](penny-nano-banana.png "Good exmaple Nano Banana")
+::: good
+![Figure: Good example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes](penny-nano-banana.png "Good exmaple Nano Banana")
+:::
 
 ### What makes editing-first models different?
 
@@ -73,7 +77,7 @@ MidJourney was one of the first quality image generators, but the most recent ve
 
 It is great for highly aesthetic, cinematic, and artistic output, making it ideal for detailed, professional-grade visuals. We recommend it for hero images, stylised key art with minimal edits.
 
-V7 offers two modes: Turbo, which is faster but more expensive, and Relax, which is slower but more affordable.
+V7 offers 2 modes: **Turbo**, which is faster but more expensive, and **Relax**, which is slower but more affordable.
 
 There’s also a new Draft Mode that generates images around 10x faster and at roughly half the cost of standard mode. Draft images are lower quality by default, but you can upscale them if you’re happy with the result.
 
@@ -89,7 +93,12 @@ It’s tightly integrated into ChatGPT, so it remembers your conversation and fo
 
 It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'.
 
-![Figure: ✅ Good Example - an example of OpenAI's image generation using the prompt "Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."](dark-mermaids.png "Dark Mermaids ")
+::: greybox
+**Prompt example:** *"Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."*
+:::
+::: good
+![Figure: Good example - An example of OpenAI's image generation](dark-mermaids.png "Dark Mermaids ")
+:::
 
 ## Origin & trust (label your edits)
 
@@ -102,35 +111,35 @@ As AI editing becomes standard, origin is essential. SynthID is an industry appr
 * **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted")
 * **Know the limits:** because very tiny edits may be too subtle to flag; keep manual logs regardless
 
-::: good\
-![Figure: ✅ Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata](origin-added-to-metadata.png)
+::: good
+![Figure: Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata](origin-added-to-metadata.png)
 :::  
 
 ## Common pitfalls and fixes
 
-### ❌ Identity drift
+### Identity drift
 
 The subject (face, object, or brand element) gradually morphs into something unrecognizable after repeated edits.  
 
-**✅ The fix:** Re-state constraints each turn ("keep the same face, same product texture"). If drift persists, roll back one step and re-edit in smaller increments.  
+**✅ The fix:** Re-state constraints each turn (*"keep the same face, same product texture"*). If drift persists, roll back one step and re-edit in smaller increments.  
 
-### ❌ Over-editing look
+### Over-editing look
 
 Edits pile up until the result looks artificial, plastic, or uncanny.  
 
-✅ **The fix:** Prefer subtle adjustments; specify "natural" or "minimal" in the prompt.  
+✅ **The fix:** Prefer subtle adjustments; specify *"natural"* or *"minimal"* in the prompt.  
 
-### ❌ Perspective mismatches
+### Perspective mismatches
 
 Inserted or modified objects appear at the wrong scale, angle, or depth compared to the base image.  
 
-✅ **The fix:** Add guidance like "match camera angle and lens feel."  
+✅ **The fix:** Add guidance like *"match camera angle and lens feel"*.  
 
-### ❌ Lighting inconsistency
+### Lighting inconsistency
 
 New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
 
-✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."
+✅ **The fix:** Include *"soft shadow matching light direction" and "keep global color balance"*.
 
 ---
 
@@ -142,15 +151,14 @@ If you would like more information on AI image generators, check out Adam Cogan�
 
 ::: greybox
 
-## SSW’s AI Shorts
+## AI Shorts - What SSW thinks about the latest Generative AI tools?  
 
-Want to see what SSW thinks about the latest Generative AI tools?  
-Our SSWTV team has been exploring how AI is changing design workflows, boosting productivity, and raising the quality bar for everyone creating graphics today.
+The SSW TV team has been exploring how AI is changing design workflows, boosting productivity, and raising the quality bar for everyone creating graphics today.
 
 ### Nano Banana Pro
 
 `youtube: https://www.youtube.com/embed/rdnwqBMpiCY`  
-**Video: The AI powerhouse lifting the quality bar for all graphics… Nano Banana Pro (2 min)**
+**Video: The AI powerhouse lifting the quality bar for all graphics... Nano Banana Pro (2 min)**
 
 * [Watch on YouTube](https://youtube.com/shorts/rdnwqBMpiCY?si=xpkBV9WK_4isnxfd)
 * [Explore more of our AI Shorts on SSWTV](https://www.youtube.com/@SSWTV/shorts)
