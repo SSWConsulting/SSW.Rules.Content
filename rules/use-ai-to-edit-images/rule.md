@@ -94,7 +94,7 @@ It’s tightly integrated into ChatGPT, so it remembers your conversation and fo
 It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'.
 
 ::: greybox
-**Prompt example:** _"Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."_
+**Prompt example:** *"Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."*
 :::
 ::: good
 ![Figure: Good example - An example of OpenAI's image generation](dark-mermaids.png "Dark Mermaids ")
@@ -121,25 +121,25 @@ As AI editing becomes standard, origin is essential. SynthID is an industry appr
 
 The subject (face, object, or brand element) gradually morphs into something unrecognizable after repeated edits.  
 
-**✅ The fix:** Re-state constraints each turn (_"keep the same face, same product texture"_). If drift persists, roll back one step and re-edit in smaller increments.  
+**✅ The fix:** Re-state constraints each turn (*"keep the same face, same product texture"*). If drift persists, roll back one step and re-edit in smaller increments.  
 
 ### Over-editing look
 
 Edits pile up until the result looks artificial, plastic, or uncanny.  
 
-✅ **The fix:** Prefer subtle adjustments; specify _"natural"_ or _"minimal"_ in the prompt.  
+✅ **The fix:** Prefer subtle adjustments; specify *"natural"* or *"minimal"* in the prompt.  
 
 ### Perspective mismatches
 
 Inserted or modified objects appear at the wrong scale, angle, or depth compared to the base image.  
 
-✅ **The fix:** Add guidance like _"match camera angle and lens feel"_.  
+✅ **The fix:** Add guidance like *"match camera angle and lens feel"*.  
 
 ### Lighting inconsistency
 
 New elements don’t share the same light source, shadow direction, or color temperature, breaking realism.  
 
-✅ **The fix:** Include _"soft shadow matching light direction" and "keep global color balance"_.
+✅ **The fix:** Include *"soft shadow matching light direction" and "keep global color balance"*.
 
 ---
 
