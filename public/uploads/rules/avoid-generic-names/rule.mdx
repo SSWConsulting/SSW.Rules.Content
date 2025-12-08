@@ -37,7 +37,7 @@ uri: avoid-generic-names
 
 Generic names like “manager”, "helper", “processor”, “data”, and “info” are easy to reach for, but they tell us very little about a class or method’s true purpose. These words are catch-alls — they don’t communicate what the code actually does or what entity it represents. Avoiding these vague terms forces us to choose names that reflect a specific role or responsibility.
 
-<endOfIntro />
+<endIntro />
 
 ## Why generic names are problematic
 
@@ -46,78 +46,46 @@ Words like "manager" and "processor" imply something that handles various tasks,
 Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`OrderManager`** as a class to handle orders in an e-commerce system.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`OrderCreator`** for specifically creating orders
 
 Using **`ShippingOrderHandler`** or **`OrderShipmentService`** specifically handles only one aspect of the order - sending for shipment
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`UserData`** for tracking the data for each user account.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The name 'data' could mean just about anything"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - The name 'data' could mean just about anything",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Using **`UserOrderHistory`** requires no explanation!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Immediately tells us the scope and purpose of the class"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Immediately tells us the scope and purpose of the class",
-  shouldDisplay: true
-} } />

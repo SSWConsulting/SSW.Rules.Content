@@ -28,7 +28,7 @@ One problem: **there is no Section 42**.
 
 That single hallucination triggered a regulator investigation and a six-figure penalty. In high-stakes domains like finance, healthcare, legal and compliance **zero-error tolerance** is the rule. Your assistant must _always_ ground its answers in real, verifiable evidence.
 
-<endOfIntro />
+<endIntro />
 
 ## 1 – Why high-stakes domains punish guesswork
 
@@ -62,8 +62,8 @@ When the error budget is effectively **0%**, traditional “chat style” LLMs a
 * **Risk** – Requires strong NLU to keep the chat natural.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Raw prompt
 &gt; “Is this drug safe for kids?”
@@ -71,11 +71,8 @@ When the error budget is effectively **0%**, traditional “chat style” LLMs a
 Sanitized prompt
 &gt; “According to current Therapeutic Goods Administration (Australia) guidelines, what is the approved dosage and contraindication list for **Drug X** in children aged **6–12 years**?”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Sanitization adds age range, official source, and specific drug name",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – Sanitization adds age range, official source, and specific drug name"
 />
 
 

@@ -30,7 +30,7 @@ Automated UI testing tools like [Playwright](https://playwright.dev/) and [Selen
 
 Subcutaneous ("just beneath the skin") tests look to solve this pain point by doing integration testing just below the UI.
 
-<endOfIntro />
+<endIntro />
 
 Martin Fowler was one of the first people to [introduce the concept of subcutaneous tests](https://martinfowler.com/bliki/SubcutaneousTest.html) into the mainstream, though it has failed to gather much momentum. Subcutaneous tests are great for solving problems where automated UI tests have difficulty interacting with the UI or struggle to manipulate the UI in the ways required for the tests we want to write.
 
@@ -53,11 +53,8 @@ Every test should reset the database so you always know your resources are in a 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Define your workflows in yml files and containerize your testing",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Define your workflows in yml files and containerize your testing"
   src="/uploads/rules/subcutaneous-tests/githubactionyml.png"
 />
 
@@ -66,11 +63,8 @@ Every test should reset the database so you always know your resources are in a 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Your tests can then run in your DevOps pipelines",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Your tests can then run in your DevOps pipelines"
   src="/uploads/rules/subcutaneous-tests/githubpipeline.png"
 />
 

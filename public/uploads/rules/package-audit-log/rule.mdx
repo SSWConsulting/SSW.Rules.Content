@@ -38,7 +38,7 @@ Packages are the lifeblood of any software project. However, if the team is not 
 
 That's why it's crucial to maintain a package audit log.
 
-<endOfIntro />
+<endIntro />
 
 ![](/uploads/rules/package-audit-log/3rd-party-check-logos.png)
 
@@ -92,8 +92,8 @@ It's imperative that the package audit log is updated every time a package is ad
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ## Project Northwind Frontend (React)
@@ -130,18 +130,10 @@ These are all the packages that have been added to the project (ordered by most 
 * Why: For pretty styling on the application
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Packages documented in Technologies-and-Architecture.md",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Packages documented in Technologies-and-Architecture.md**  
 
 ### Option 2 - Make good commit messages
 
@@ -158,11 +150,8 @@ Pros and Cons:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Using the VS Code extension GitLens, can see commits on hover within the code",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Using the VS Code extension GitLens, can see commits on hover within the code"
   src="/uploads/rules/package-audit-log/screen-shot-2022-12-15-at-09.33.31.png"
 />
 
@@ -180,11 +169,8 @@ Pros and Cons:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Packages documented within package.json",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Packages documented within package.json"
   src="/uploads/rules/package-audit-log/screen-shot-2022-12-16-at-09.19.32.png"
 />
 
@@ -205,10 +191,7 @@ Pros and Cons:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Both Git commits with GitLens and package.json comments",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Both Git commits with GitLens and package.json comments"
   src="/uploads/rules/package-audit-log/screen-shot-2022-12-16-at-09.21.30.png"
 />

@@ -25,7 +25,7 @@ uri: handle-unhappy-paths
 
 When developers build software, they naturally become experts in using the software. This is problematic because with this expertise, they will tend to focus on the happy path of the user. However, it is important to consider all possible scenarios that could occur. This includes edge cases, such as invalid inputs, unexpected user behavior, and system failures. By handling all possible scenarios, you can ensure that your code is robust and reliable.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips to help you spot where you need to handle more scenarios:
 
@@ -39,11 +39,8 @@ Here are some tips to help you spot where you need to handle more scenarios:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Users can enter invalid emails",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Users can enter invalid emails"
   src="/uploads/rules/handle-unhappy-paths/bad-no-validaton.png"
 />
 
@@ -52,10 +49,7 @@ Here are some tips to help you spot where you need to handle more scenarios:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Code checks the email is valid",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Code checks the email is valid"
   src="/uploads/rules/handle-unhappy-paths/good-validation-fields.png"
 />

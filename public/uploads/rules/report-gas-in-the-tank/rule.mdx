@@ -33,7 +33,7 @@ In the unfortunate event that all your customers suddenly stop trading (meaning 
 
 It is recommended to keep track of your "Gas in the Tank" report at least every month to determine the number of weeks your business will remain afloat in the unlikely event of the above scenario.
 
-<endOfIntro />
+<endIntro />
 
 For most businesses, a good amount of cash to hold should cover approximately **26 weeks of costs** .
 
@@ -41,11 +41,8 @@ For most businesses, a good amount of cash to hold should cover approximately **
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Only 13 weeks of cash reserves",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Only 13 weeks of cash reserves"
   src="/uploads/rules/report-gas-in-the-tank/2020-06-23_12-23-35.png"
 />
 
@@ -56,11 +53,8 @@ The length of time which the business can survive on cash reserves is not as hig
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - 26 weeks of cash reserves",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - 26 weeks of cash reserves"
   src="/uploads/rules/report-gas-in-the-tank/2020-06-23_12-22-06.png"
 />
 
@@ -74,8 +68,8 @@ As a result, some businesses become complacent and not realise their actual abil
 Maintaining a Gas in the Tank report will provide a visual indication and a prompt to revisit costs and additional measures in driving business activities, before it becomes a problem.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 **Tip:** Use Fathom - an extension for XERO Accounting.
@@ -87,9 +81,6 @@ You can make this report very easily with Fathom Reporting. Here is an example:
 ![Figure: Fathom has custom KPI builder which makes this easy](/uploads/rules/report-gas-in-the-tank/fathom-kpi-builder.jpg)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

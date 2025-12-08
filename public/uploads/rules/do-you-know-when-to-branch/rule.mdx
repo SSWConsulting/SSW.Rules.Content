@@ -31,19 +31,16 @@ Keep things simple:
 1. Have the team develop on the one branch. It is fantastic as there is no more merging hell.
 2. Have that branch called "**main**" (or " **trunk** " when using **TFS** or **SVN**
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** This rule only applies to TFVC. For git, see [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -59,11 +56,8 @@ The better way is to use OctopusDeploy which relieves developers from having mul
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Manage deployments to multiple environments, view deployed versions",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Manage deployments to multiple environments, view deployed versions"
   src="/uploads/rules/do-you-know-when-to-branch/2014-10-11_18-54-00.png"
 />
 
@@ -90,11 +84,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)"
   src="/uploads/rules/do-you-know-when-to-branch/branch-bad.jpg"
 />
 
@@ -103,11 +94,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Creating a branch per Sprint has everyone working on the same code but requires at least one merge every Sprint",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – Creating a branch per Sprint has everyone working on the same code but requires at least one merge every Sprint"
   src="/uploads/rules/do-you-know-when-to-branch/branch-bad-2.jpg"
 />
 
@@ -116,11 +104,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Release Branching - always develop on the trunk, but create a new branch each time you release. This means that all developers are continually integrating all their code, branching is rare, but you always have access to your released version in case bug fixes or small mods are required. (Image from paulhammant.com)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Release Branching - always develop on the trunk, but create a new branch each time you release. This means that all developers are continually integrating all their code, branching is rare, but you always have access to your released version in case bug fixes or small mods are required. (Image from paulhammant.com)"
   src="/uploads/rules/do-you-know-when-to-branch/branch-good.jpg"
 />
 

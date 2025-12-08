@@ -24,17 +24,14 @@ uri: prevent-charts-growing-with-rows
 ---
 
 By default charts in table grow with rows. This makes height of charts inconsistent and the report ugly.
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Inconsistent chart height",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Inconsistent chart height"
   src="/uploads/rules/prevent-charts-growing-with-rows/RS_ChartInRow_Bad.gif"
 />
 
@@ -45,10 +42,7 @@ Putting a rectangle in table cell and placing your chart in the rectangle fixes 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Consistent chart height",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Consistent chart height"
   src="/uploads/rules/prevent-charts-growing-with-rows/RS_ChartInRow_Good.gif"
 />

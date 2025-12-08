@@ -34,17 +34,12 @@ Public/Protected properties have a number of advantages over public/protected fi
 - **Minimal performance overhead**
   The performance overhead for public properties is trivial. In some situations, public fields can actually have inferior performance to public properties.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public int Count;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad code - Variable declared as a Field",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad code - Variable declared as a Field**  
 
 ```cs
 public int Count
@@ -59,11 +54,6 @@ public int Count
  }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good code - Variable declared as a Property",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good code - Variable declared as a Property**  
 
 We agree that the syntax is tedious and think [Microsoft should improve this](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/VisualStudio.aspx#PropertyShortcut).

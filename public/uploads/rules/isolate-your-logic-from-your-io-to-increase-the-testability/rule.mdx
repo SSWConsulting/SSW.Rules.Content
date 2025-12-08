@@ -26,7 +26,7 @@ uri: isolate-your-logic-from-your-io-to-increase-the-testability
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
 Take this for example (and see how we refactor it):
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
@@ -48,12 +48,7 @@ public static List<string> GetFilesInProject(string projectFile)
   return files;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad - The logic and the IO are coded in a same method",
-  shouldDisplay: true
-} } />
-
+**❌ Bad - The logic and the IO are coded in a same method**  
 
 While this is a small concise and fairly robust piece of code, it still isn't that easy to unit test. Writing a unit test for this would require us to create temporary files on the hard drive, and probably end up requiring more code than the method itself.
 
@@ -88,12 +83,7 @@ public static List<string> GetFilesInProjectByContents(string projectFileContent
   return files;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good - The logic is now isolated from the IO",
-  shouldDisplay: true
-} } />
-
+**✅ Good - The logic is now isolated from the IO**  
 
 The first method (GetFilesInProject) is simple enough that it can remain untested. We do however want to test the second method (GetFilesInProjectByContents). Testing the second method is now too easy:
 
@@ -120,8 +110,4 @@ public void TestVS2005CSProj()
   Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good - Different test cases and assertions are created to test the logic",
-  shouldDisplay: true
-} } />
+**✅ Good - Different test cases and assertions are created to test the logic**

@@ -25,27 +25,17 @@ uri: close-quotations-of-html-attributes
 
 Make sure there are equivalent closing quotations for HTML attributes. A small mistake of missing a quotation could lead to undesired results on a web page.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <div class="info>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad code - Can you spot the missing quote? Code Auditor can",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad code - Can you spot the missing quote? Code Auditor can**  
 
 ```html
 <div class="info">
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good code - All OK",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good code - All OK**  
 
 As you can see from the above example, just missing a quotation makes the whole layout of the text different. So be very careful that you make sure you have closed all opening quotations of attributes with equivalent closing quotations.
 

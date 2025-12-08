@@ -24,17 +24,14 @@ uri: keep-business-logic-out-of-the-presentation-layer
 
 It's common for business logic to be added directly to the presentation layer. When building ASP.NET MVC systems, this typically means that business logic is added to controllers as per the following example:
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-bad.png"
 />
 
@@ -58,11 +55,8 @@ For every command or query, you create a specific request class that explicitly 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "(from MediatR docs) A Simple Request class",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="(from MediatR docs) A Simple Request class"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-simple.png"
 />
 
@@ -74,11 +68,8 @@ Then the implementation of that command or query is implemented in a handler cla
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A handler class",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="A handler class"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-handler.png"
 />
 
@@ -99,10 +90,7 @@ This approach brings many benefits:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-good.png"
 />

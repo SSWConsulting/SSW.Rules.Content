@@ -24,7 +24,7 @@ uri: consistent-height-of-table-row
 ---
 
 Same height of table row across all reports gives users consistent and professional impression.
-<endOfIntro />
+<endIntro />
 
 We use the default height of table row (0.63492cm) as a standard to make sure all tables in our reports have consistent row height.
 
@@ -34,11 +34,8 @@ This rule also applies to height of Textbox in all reports.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Bad Height",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Bad Height"
   src="/uploads/rules/consistent-height-of-table-row/RowHeight_Bad.gif"
 />
 
@@ -47,11 +44,8 @@ This rule also applies to height of Textbox in all reports.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Good Height",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Good Height"
   src="/uploads/rules/consistent-height-of-table-row/RowHeight_Good.gif"
 />
 
@@ -60,11 +54,8 @@ This rule also applies to height of Textbox in all reports.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Bad Height In Design View",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Bad Height In Design View"
   src="/uploads/rules/consistent-height-of-table-row/RSRowHeight_NonStandard_design.jpg"
 />
 
@@ -73,24 +64,18 @@ This rule also applies to height of Textbox in all reports.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Good Height In Design View",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Good Height In Design View"
   src="/uploads/rules/consistent-height-of-table-row/RSRowHeight_Standard_design.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We have a program called [SSW Code Auditor](https://codeauditor.com) to check for this rule.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

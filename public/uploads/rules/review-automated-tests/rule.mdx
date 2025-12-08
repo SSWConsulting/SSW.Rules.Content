@@ -34,18 +34,15 @@ Your automated tests require periodic attention and review — or else they're l
 >
 > * Jerry Weinberg
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Keep your valuable tests and don't be afraid to throw away irrelevant tests of no value",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Keep your valuable tests and don't be afraid to throw away irrelevant tests of no value"
   src="/uploads/rules/review-automated-tests/keep-throw-away.jpg"
 />
 
@@ -55,16 +52,13 @@ Your automated tests require periodic attention and review — or else they're l
 Your automated tests are a valuable asset but only when they are relevant and valuable. So review each of your tests regularly with the following questions in mind.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Don't be afraid to delete tests!** - Aim for stability over (perceived) coverage and optimize your automated test suites for the value of the information they provide. It really is a case of quality over quantity, so regularly thinning out old, irrelevant, overly costly and flaky tests is a worthwhile exercise.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -94,18 +88,15 @@ So, the value of a test really needs to justify its cost. If a test is not mitig
 Teams can become very focused on achieving "green builds" where all of their automated tests pass during their build pipelines.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** "All green" doesn't necessarily mean "all good"!
 
 False negatives are the silent killers, the tests that show a pass but let a change slip by undetected.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

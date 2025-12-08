@@ -23,7 +23,7 @@ uri: do-you-limit-the-number-of-fonts
 
 Each font or style (italics or bold) should be used consistently throughout your presentation. While a different font face or color is a simple way of highlighting certain terms you want for focus, too much of it will do exactly the opposite and distract the audience.
 
-<endOfIntro />
+<endIntro />
 
 - Use one font and its variations in a presentation
 
@@ -35,11 +35,8 @@ Each font or style (italics or bold) should be used consistently throughout your
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Different fonts and styles of a flourished type face used. Makes your slide hard to read for the audience",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Different fonts and styles of a flourished type face used. Makes your slide hard to read for the audience"
   src="/uploads/rules/do-you-limit-the-number-of-fonts/badfont.jpg"
 />
 
@@ -48,10 +45,7 @@ Each font or style (italics or bold) should be used consistently throughout your
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Even though there are a lot of words, the important ones are clear because there is only one font used, with colors to emphasize",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Even though there are a lot of words, the important ones are clear because there is only one font used, with colors to emphasize"
   src="/uploads/rules/do-you-limit-the-number-of-fonts/goodfont.jpg"
 />

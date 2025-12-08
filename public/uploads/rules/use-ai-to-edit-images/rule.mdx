@@ -30,7 +30,7 @@ You've probably seen AI churn out gorgeous images from a sentence... then watche
 
 Teams waste time regenerating whole scenes, your subject look-alike drifts between edits, and brand consistency suffers. Modern **editing-first** AI models fix this by making **targeted, local edits** while preserving everything else, so you can remove a bin, change the background, or adjust a shirt color without re-generating the whole shot.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=8_GgeASwHwQ" description={"Video: Google’s nano banana just killed Photoshop... let’s run it (3 min)"} />
@@ -58,44 +58,37 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
+
 <imageEmbed
   alt="Image"
-  size="medium"
-  showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Text-to-image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/use-ai-to-edit-images/xen-create-image-blog-fail-1.webp"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="❌ Bad Example: text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers..."
+  src="/uploads/rules/use-ai-to-edit-images/comewith-me-messed-up.png"
 />
 
 
 ### Today's shift - Enter Nano Banana 🍌
 
-**Editing-first models** like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an **image + instruction** and apply **localized edits**. They preserve subjects and scene layout, follow prompts tightly, and support **iterative workflows** (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
+Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an image + instruction and applies localized edits. They preserve subjects and scene layout, follow prompts tightly, and support iterative workflows (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
+
 
 <imageEmbed
   alt="Image"
-  size="medium"
-  showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Modern AI editing models can now apply precise, localized changes while preserving subject identity, resulting in natural and consistent outputs.",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/use-ai-to-edit-images/generated-image-september-04-2025-12_19pm.jpeg"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="✅ Good Example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes"
+  src="/uploads/rules/use-ai-to-edit-images/penny-nano-banana.png"
 />
 
 
 ### What makes editing-first models different?
 
 1. **Targeted local edits** - They change only what you ask for and leave everything else untouched. This makes them practical for production assets where fidelity matters
-
 2. **Consistency & identity preservation** - They maintain the same person/product across edits (haircut, outfit, background changes) without subtle morphing
-
 3. **Strong prompt adherence** - They follow instructions literally (“make the shirt red” means *only* the shirt becomes red) and are less likely to hallucinate unrelated changes
-
 4. **Iterative & interactive** - You can chain edits (clean background → add shadow → tweak contrast) while keeping quality stable—mirroring designer workflows
 
 
@@ -103,25 +96,8 @@ Avoid or get explicit approval for:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Hyper-realistic blended environments across multiple images and people. Users can draw colored circles directly on existing images and guide edits with simple English prompts. The level of detail retention is exceptional",
-    shouldDisplay: true
-  } }
-  src="/uploads/rules/use-ai-to-edit-images/gz4kb-fbaaayj5n.jpg"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Changing the perspective of an image",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="✅ Good example - You can even ask it to change the perspective of an image"
   src="/uploads/rules/use-ai-to-edit-images/gzsnzhtwoaapceg.jpg"
 />
 
@@ -131,107 +107,59 @@ Avoid or get explicit approval for:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Isolating a character",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="✅ Good example - You can isolate a character from an image as seen in this example from Google"
   src="/uploads/rules/use-ai-to-edit-images/gzwtouzbyaamxak.jpg"
 />
 
 
-## Practical workflow
+## Today’s shift - Midjourney v7
 
-1. **Duplicate your source** - Keep originals under version control
-2. **Write a narrow prompt** - Describe the change + what to preserve
-3. **Call out constraints** - “keep pose, keep lighting, keep composition”
-4. **Iterate in small steps** - One change per pass
-5. **Compare A/B** - After each step; revert quickly if drift appears
-6. **Record provenance** - Tool, prompt, who approved?
-7. **Label the output** - According to your policy (more info below)
+MidJourney was one of the first quality image generators, but the most recent version is a real step up! The latest version, Midjourney V7, has been designed to better understand text prompts and produce images that are noticeably higher quality. This, as Midjourney CEO David Holz explained on the company Discord, can be seen in textures, bodies, and hands, as well as in objects.
 
-## Prompt patterns that work
+It is great for highly aesthetic, cinematic, and artistic output, making it ideal for detailed, professional-grade visuals. We recommend it for hero images, stylised key art with minimal edits.
 
-Use these templates and tweak the nouns:
+V7 offers two modes: Turbo, which is faster but more expensive, and Relax, which is slower but more affordable.
+
+There’s also a new Draft Mode that generates images around 10x faster and at roughly half the cost of standard mode. Draft images are lower quality by default, but you can upscale them if you’re happy with the result.
 
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    “**Remove** the \[unwanted object] in the \[location]. Keep subject identity, pose, and lighting unchanged.”
-
-“**Change** the \[attribute] of the \[object] to \[new value], **only** affecting that item. Keep everything else identical.”
-
-“**Replace background** with \[description]. Preserve subject edges, shadows, and color balance.”
-
-“**Add** a \[small object] to \[location] with consistent perspective and soft shadow matching the scene.”
-
-“**Extend canvas** to the \[direction] and continue the \[background pattern/scene] naturally.”
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="✅ Good example - from Midjourney's v7 release on X, the images are incredibly realistic"
+  src="/uploads/rules/use-ai-to-edit-images/midjourney-post.png"
 />
 
 
+## OpenAI Images (DALL·E 3 / GPT‑4o Images)
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
-![](/uploads/rules/use-ai-to-edit-images/gzyyduowiaa8x0l.jpg)
+Best known for prompt fidelity, legible typography, and chat‑first iteration in ChatGPT, Open AI images makes AI-generated images really accessible.
 
-**Prompt:** “A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.”
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Here we have 13 images merged into one using Gemini 2.5 Flash Image (“Nano Banana”). Even at 13 elements, consistency holds up impressively",
-    shouldDisplay: true
-  }}
-/>
+OpenAI's latest model can be used as a 'chat-driven design assistant'. It's intended to create precise, usable images rather than just pretty art.
+
+It’s tightly integrated into ChatGPT, so it remembers your conversation and follows detailed instructions. It is designed to handle text in images properly (great for posters, slides, UI mockups, and social tiles), it supports reference images so you can refine or restyle existing designs, and it’s strong at both photorealistic and illustrated styles, making it ideal for marketing assets, product and UI concepts, diagrams and explainers, and quick visual variations you can iterate on in a few conversational steps.
+
+It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'.
 
 
-
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
-![](/uploads/rules/use-ai-to-edit-images/gz1gbfmaoaavuob.jpg)
-
-**Prompt:** “Relighting Apply: RAW-ISO 100 - F28-1/200 24mm setting"
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Nano Banana relighting applied. Shot simulated as RAW",
-    shouldDisplay: true
-  }}
-/>
-
-
-
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
-![](/uploads/rules/use-ai-to-edit-images/gzsnxlyxcaasy2_.jpg)
-
-**Prompt:** “Create a Nike ad with this image with text copy"
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Image models used to butcher text. Now they can drop in clean, ad-ready copy like this Nike caption",
-    shouldDisplay: true
-  }}
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="✅ Good Example - an example of OpenAI's image generation using the prompt &quot;Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text.&quot;"
+  src="/uploads/rules/use-ai-to-edit-images/dark-mermaids.png"
 />
 
 
 ## Origin & trust (label your edits)
 
-As AI editing becomes standard, **origin** is essential. **SynthID** is an industry approach that embeds an **imperceptible, pixel-level watermark** at generation/edit time (in addition to any visible “AI” label). It’s designed to **survive common transforms** (compression, mild crops/brightness changes) and can be **verified** by compatible detectors.
+As AI editing becomes standard, origin is essential. SynthID is an industry approach that embeds an imperceptible, pixel-level watermark at generation/edit time (in addition to any visible “AI” label). It’s designed to survive common transforms (compression, mild crops/brightness changes) and can be verified by compatible detectors.
 
-**Team policy:**
+**Best Practices for AI image use:**
 
 * **Enable watermarking** where your stack supports it (e.g. tools that offer SynthID-style invisible marks plus visible "AI-edited" labels)
 * **Store proof** of detection alongside the final asset (export the verifier result or checksum)
@@ -241,12 +169,9 @@ As AI editing becomes standard, **origin** is essential. **SynthID** is an indus
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata",
-    shouldDisplay: true
-  } }
+  showBorder={true}
+  figurePrefix="none"
+  figure="✅ Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata"
   src="/uploads/rules/use-ai-to-edit-images/origin-added-to-metadata.png"
 />
 
@@ -277,17 +202,7 @@ New elements don’t share the same light source, shadow direction, or color tem
 
 ✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."
 
-## Try it yourself
+More to read:
 
-One quick way to experiment with AI image editing:
-
-1. Go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and select **gemini-2.5-flash-image-generation** as the model
-2. Upload a photo and give it a small edit prompt like: *"remove the tree in the background."*
-3. Try other models via [fal.ai](https://fal.ai) – including **FLUX.1 Kontext**, which is purpose-built for image editing
-4. Upload the same photo and prompt: *"replace the background with a sunset sky."*
-
-Comparing the results side by side will help you see how different models handle **precise edits** versus **full regeneration**.
-
----
-
-What do you think about using tools like Nano Banana to create varied poses and portraits of yourself, for use on social media posts/YouTube thumbnails, etc?
+If you would like more information on AI image Generators, check out Adam Cogan's blog post:\
+[https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/](https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/)

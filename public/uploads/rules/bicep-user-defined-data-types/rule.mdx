@@ -23,7 +23,7 @@ uri: bicep-user-defined-data-types
 
 [User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types?WT.mc_id=DP-MVP-33518) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects.
 
-<endOfIntro />
+<endIntro />
 
 When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
@@ -34,22 +34,12 @@ param skuName string = 'Basic'
 param skuCapacity int = 5
 param skuSizeInGB int = 2
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort**  
 
 ```bicep
 param sku object
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - When declaring a parameter as an untyped object, bicep cannot validate the object's properties and values at compile time, risking runtime errors.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - When declaring a parameter as an untyped object, bicep cannot validate the object's properties and values at compile time, risking runtime errors.**  
 
 ```bicep
 // User-defined data type
@@ -65,8 +55,4 @@ param sku skuConfig = {
   sizeInGB: 2
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier",
-  shouldDisplay: true
-} } />
+**✅ Good example - User-defined data type provides type safety, enhanced readability and making maintenance easier**

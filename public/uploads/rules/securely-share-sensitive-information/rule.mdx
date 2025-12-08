@@ -25,7 +25,7 @@ uri: securely-share-sensitive-information
 
 Sharing sensitive information is an essential part of any business, however sharing information securely is equally important, especially when files, videos or images can contain sensitive information. Without proper precautions, sensitive data can inadvertently become accessible to unauthorised parties, creating significant risks.
 
-<endOfIntro />
+<endIntro />
 
 ## Best practices for sharing sensitive information
 
@@ -71,8 +71,8 @@ Platforms like SharePoint and Stream adhere to strict security standards, but re
 ## Example
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Scenario:**
 You need to share a Sprint summary video with your team, and it contains client-sensitive information.
@@ -83,22 +83,16 @@ You need to share a Sprint summary video with your team, and it contains client-
 2. Set permissions to allow viewing only for specific team members
 3. Use the platform's secure sharing link feature, ensuring it's time-limited
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Sensitive Sprint summary uploaded as a private YouTube video, however confidential information is exposed",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Sensitive Sprint summary uploaded as a private YouTube video, however confidential information is exposed"
   src="/uploads/rules/securely-share-sensitive-information/SecureSprintReviewsBad.png"
 />
 
@@ -107,10 +101,7 @@ You need to share a Sprint summary video with your team, and it contains client-
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Sensitive Sprint summary uploaded to Microsoft Stream with confidential information redacted",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Sensitive Sprint summary uploaded to Microsoft Stream with confidential information redacted"
   src="/uploads/rules/securely-share-sensitive-information/SecureSprintReviews.png"
 />

@@ -26,30 +26,20 @@ uri: do-you-always-prefix-sql-stored-procedure-names-with-the-owner-in-ado-net-c
 
 Stored procedure names in code should always be prefixed with the owner (usually dbo). This is because if the owner is not specified, SQL Server will look for a procedure with that name for the currently logged on user first, creating a performance hit.
 
-<endOfIntro />
+<endIntro />
 
 ```dotnet
 SqlCommand sqlcmd = new SqlCommand(); sqlcmd.CommandText = "
                     proc_InsertCustomer" sqlcmd.CommandType
                     = CommandType.StoredProcedure; sqlcmd.Connection = sqlcon;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example**  
 
 ```dotnet
 SqlCommand sqlcmd = new SqlCommand(); sqlcmd.CommandText = "
                      dbo.proc_InsertCustomer"; sqlcmd.CommandType
                      = CommandType.StoredProcedure; sqlcmd.Connection = sqlcon;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Good example**  
 
 We have a program called [SSW Code Auditor](https://codeauditor.com/) to check for this rule.

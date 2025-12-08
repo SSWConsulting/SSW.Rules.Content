@@ -48,7 +48,7 @@ IoC containers are powerful tools that apply the IoC principle and automatically
 
 However, in larger applications, manually registering dependencies can become cumbersome and easy to forget. In those cases, we recommend using [Scrutor](https://github.com/khellang/Scrutor). While it isn't a DI container itself, it works on top of the .NET built-in Dependency Injection capabilities and adds assembly scanning to automatically register discovered types.
 
-<endOfIntro />
+<endIntro />
 
 ## .NET IoC containers
 
@@ -75,11 +75,8 @@ The top tools all contain comparable functionality. In practice which one you us
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Ninject and StructureMap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Ninject and StructureMap were top containers but are no longer actively developed. Together with Autofac, they do not support the latest version of .NET"
   src="/uploads/rules/the-best-dependency-injection-container/di-container-bad.png"
 />
 
@@ -96,12 +93,7 @@ public class Program
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Use the StructureMap IoC container but did not do the proper dependency injection",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Use the StructureMap IoC container but did not do the proper dependency injection**  
 
 ```csharp
 var builder = Host.CreateApplicationBuilder(args);
@@ -110,12 +102,7 @@ using IHost host = builder.Build();
 using var scope = host.Services.CreateScope();
 scope.ServiceProvider.GetRequiredService<BadgeTaskJob>().Run();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Use .NET built-in Dependency Injection for console app",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Use .NET built-in Dependency Injection for console app**  
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
@@ -124,8 +111,4 @@ builder.Services.AddSingleton<AssetDomain>();
 var app = builder.Build();
 app.Run();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Use ASP.Net Core built-in Dependency Injection for web app",
-  shouldDisplay: true
-} } />
+**✅ Good example - Use ASP.Net Core built-in Dependency Injection for web app**

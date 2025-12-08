@@ -27,64 +27,40 @@ When you create short URLs, it is worth considering exactly why you are shorteni
 
 Is it for space or readability? If it is for readability or you expect anyone to ever type it in, then consider making a friendly short URL.
 
-<endOfIntro />
+<endIntro />
 
 I want to be able to type this URL in, but it is VERY long:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     blogs&#46;msdn&#46;com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs&#46;aspx
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - People can’t easily type this URL in... it is too long"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - People can’t easily type this URL in... it is too long",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Thanks Rob, that is great.
 Made a bit.ly at http&#58;//bit&#46;ly/aC5Lb2
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure="OK example - Short URL, but how will people remember that?"
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK example - Short URL, but how will people remember that?",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Thanks Rob, that is great.
 Made a bit.ly at http&#58;//bit&#46;ly/VS2010VM
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Short URL, easier to remember"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Short URL, easier to remember",
-  shouldDisplay: true
-} } />

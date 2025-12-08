@@ -27,45 +27,36 @@ uri: use-digits-instead-of-words
 
 Whenever writing numbers, it's generally a good idea to use numerals, especially for complicated numbers. Numerals are more easily noticed when a page is scanned by a user's eye.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     There are seventy three good reasons to do this.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The number is spelled out",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The number is spelled out"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     There are 73 good reasons to do this.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - This is easier to read and more noticeable",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - This is easier to read and more noticeable"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Certain editorial guidelines suggest using numerals for numbers 10 and above, while numbers 9 and below should be written out. However, when it comes to web content, we generally prefer using numerals regardless.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

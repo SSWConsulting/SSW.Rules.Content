@@ -25,7 +25,7 @@ uri: when-to-use-value-objects
 
 When defining a domain, entities are created and consist of properties and methods. The properties represent the internal state of the entity and the methods are the actions that can be performed. The properties typically use primitive types such as strings, numbers, dates, and so on.
 
-<endOfIntro />
+<endIntro />
 
 As an example, consider an AD account. An AD Account consists of a domain name and username, e.g. SSW\Jason. It is a string so using the **string** type makes sense. Or does it?
 
@@ -33,11 +33,8 @@ As an example, consider an AD account. An AD Account consists of a domain name a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Storing an AD Account as a String (AD Account is a complex type)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Storing an AD Account as a String (AD Account is a complex type)"
   src="/uploads/rules/when-to-use-value-objects/when-use-value-bad.png"
 />
 
@@ -48,11 +45,8 @@ An AD Account is a complex type. Only certain strings are valid AD accounts. Som
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Storing an AD Account as a Value Object to Support Logic and Validation",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Storing an AD Account as a Value Object to Support Logic and Validation"
   src="/uploads/rules/when-to-use-value-objects/when-use-value-good.png"
 />
 
@@ -63,11 +57,8 @@ The underlying implementation for the **AdAccount** class is as follows:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Implementation of the AdAccount Value Object Supports Logic and Validation",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Implementation of the AdAccount Value Object Supports Logic and Validation"
   src="/uploads/rules/when-to-use-value-objects/when-use-value-good-2.png"
 />
 
@@ -81,11 +72,8 @@ Working with the AD accounts will now be easy. You can construct a new **AdAccou
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "When use value",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="When use value"
   src="/uploads/rules/when-to-use-value-objects/when-use-value-eg-1.png"
 />
 
@@ -119,11 +107,8 @@ If you're using Entity Framework Core, you should also configure the type as fol
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Using Entity Framework Core to Configure Value Objects as Owned Entity Types",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Using Entity Framework Core to Configure Value Objects as Owned Entity Types"
   src="/uploads/rules/when-to-use-value-objects/when-use-value-eg-2.png"
 />
 

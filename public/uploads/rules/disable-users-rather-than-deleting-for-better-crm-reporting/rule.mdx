@@ -29,18 +29,15 @@ uri: disable-users-rather-than-deleting-for-better-crm-reporting
 
 When a user is created in Active Directory (AD), a Global Unique Identifier (GUID) is also created. As the name suggests this is unique for each user and is never duplicated in a domain.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "GUID for User Steven Andrews",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="GUID for User Steven Andrews"
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/guid.png"
 />
 
@@ -52,11 +49,8 @@ When adding a user to CRM, they are assigned with an Employee ID that is linked 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "AD User StevenAndrews is tied to STA Employee ID through AD GUID",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="AD User StevenAndrews is tied to STA Employee ID through AD GUID"
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/aduser.png"
 />
 
@@ -71,11 +65,8 @@ This makes reporting on a user that has returned more difficult. To get around t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Don't delete users!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Don't delete users!"
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/delete-user.png"
 />
 
@@ -84,10 +75,7 @@ This makes reporting on a user that has returned more difficult. To get around t
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Disable users and move them to a disabled users OU",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Disable users and move them to a disabled users OU"
   src="/uploads/rules/disable-users-rather-than-deleting-for-better-crm-reporting/disabled-users.png"
 />

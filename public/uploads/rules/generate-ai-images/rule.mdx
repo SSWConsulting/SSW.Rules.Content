@@ -27,39 +27,33 @@ uri: generate-ai-images
 
 AI image generation is a rapidly evolving field that offers a novel way to produce images. This rule discusses different AI image generators and what we can use AI images for.
 
-<endOfIntro />
+<endIntro />
 
 ## Prompting basics
 
 Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A &#123;&#123; TYPE OF PICTURE &#125;&#125; of a &#123;&#123; MAIN SUBJECT &#125;&#125;, &#123;&#123; STYLE CUES &#125;&#125;”.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “A brown dog on a skateboard”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - A basic prompt",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - A basic prompt"
 />
 
 
 You can add more detail to make a more effective prompt by following this template:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **&#123;&#123; ADJECTIVE &#125;&#125;, &#123;&#123; EMOTION &#125;&#125;, &#123;&#123; SUBJECT &#125;&#125;, &#123;&#123; STYLE &#125;&#125;, &#123;&#123; COLOR &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -68,23 +62,15 @@ You can add more detail to make a more effective prompt by following this templa
 Negative prompting is specifying what you don't want in your image. It can be an effective way of guiding the AI away from certain features that you're not interested in. Some AI image generators (e.g. Midjourney and Dreamstudio) have this option. In others (e.g. DALLE-2), you can include it in your prompt.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “An open highway --no cars”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A prompt with a negative element in Midjourney format",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - A prompt with a negative element in Midjourney format**  
 
 ## Parameters
 
@@ -101,61 +87,37 @@ Parameters allow you to control different aspects of the generated image via set
 - **Uploading:** Most AI image generators allow you to upload an existing image so that the AI will create different variations of it.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A scene"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - A vague prompt like this gives an ambiguous image",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - A vague prompt like this gives an ambiguous image**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A snowy mountain landscape at sunset... majestic peaks adorned with glistening snow, bathed in warm hues, creating an ethereal and serene atmosphere. The scene evokes awe as untouched slopes and frozen trees blend with the fading light, leaving an indelible impression of nature's grandeur. Two travelers cross a footbridge over a small creek in the foreground."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This prompt is too long",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - This prompt is too long**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A snowy mountain landscape at sunset with warm hues"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - A detailed description will provide the AI with specific elements to incorporate, resulting in a more accurate image**  
 
 ## Recommended Tools
 
@@ -172,11 +134,8 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\"A red tree in a valley. Hi res\" - by DALL-E2",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='\"A red tree in a valley. Hi res\" - by DALL-E2'
   src="/uploads/rules/generate-ai-images/red-tree-dalle_1710232021939.png"
 />
 
@@ -215,11 +174,8 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\"A red tree in a valley. Hi res\" - by Midjourney",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='\"A red tree in a valley. Hi res\" - by Midjourney'
   src="/uploads/rules/generate-ai-images/red-tree-midjourney2_1710232021940.png"
 />
 
@@ -237,11 +193,8 @@ You can use the demo here for free [Stable Diffusion Web](https://stablediffusio
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\"A red tree in a valley. Hi res\" - by DreamStudio",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='\"A red tree in a valley. Hi res\" - by DreamStudio'
   src="/uploads/rules/generate-ai-images/red-tree-dreamstudio_1710232021940.png"
 />
 

@@ -28,7 +28,7 @@ uri: do-you-set-device-width-when-designing-responsive-web-applications
 
 Creating a responsive website? It's important to make sure the browser renders your content correctly on any screen size. Define the proper viewport meta tag to inform web browsers they need to behave responsively.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <meta name="viewport" content="width=device-width" />
@@ -40,11 +40,8 @@ Your website's viewport should be the same width as any given device's screen. S
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No viewport meta tag",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - No viewport meta tag"
   src="/uploads/rules/do-you-set-device-width-when-designing-responsive-web-applications/viewport-bad.png"
 />
 
@@ -53,11 +50,8 @@ Your website's viewport should be the same width as any given device's screen. S
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Correct viewport meta tag",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Correct viewport meta tag"
   src="/uploads/rules/do-you-set-device-width-when-designing-responsive-web-applications/viewport-good.png"
 />
 

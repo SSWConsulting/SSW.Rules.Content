@@ -24,7 +24,7 @@ uri: avoid-putting-business-logic-into-the-presentation-layer
 
 Be sure you are aware of what is business logic and what isn't. Typically, looping code will be placed in the business layer. This ensures that no redundant code is written and other projects can reference this logic as well.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 private void btnOK_Click(object sender, EventArgs e)
@@ -43,12 +43,7 @@ private void btnOK_Click(object sender, EventArgs e)
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example: A UI method mixed with business logics",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example: A UI method mixed with business logics**  
 
 ```cs
 private void btnOK_Click(object sender, EventArgs e)
@@ -58,8 +53,4 @@ private void btnOK_Click(object sender, EventArgs e)
   rtbParaText.Add(paraText);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example : Putting business logics into the business project, just call the relevant method when needed",
-  shouldDisplay: true
-} } />
+**✅ Good Example : Putting business logics into the business project, just call the relevant method when needed**

@@ -24,7 +24,7 @@ uri: turn-on-all-the-default-alerts
 
 SQL Alerts are valuable because they can alert administrators of imminent SQL Server failures. e.g. when the msdb log file is full. To enable, you should change the settings under SQL Server Agent.
 
-<endOfIntro />
+<endIntro />
 
 SQL has no default alerts. You will have to create them, and I recommend that you add all the fatal level exceptions to alerts.
 
@@ -33,10 +33,7 @@ SQL has no default alerts. You will have to create them, and I recommend that yo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SQL Alerts - We recommend that you add the fatal exceptions as alerts",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="SQL Alerts - We recommend that you add the fatal exceptions as alerts"
   src="/uploads/rules/turn-on-all-the-default-alerts/SQLDatabases_DefaultAlerts2005.png"
 />

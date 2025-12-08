@@ -27,7 +27,7 @@ You should always use a source control system!
 
 It is not for a backup, it is because changing code can introduce new bugs. Often these bugs are non-obvious and appear in a part of the system, far removed from your changes. They are especially useful when another developer made the breaking change.
 
-<endOfIntro />
+<endIntro />
 
 So source code tracking allows you to see what changed recently to introduce a new bug. This dramatically reduces the time it takes to find and fix a newly introduced error.
 
@@ -40,8 +40,8 @@ Source control works best when integrated with a task tracking system. SSW uses 
 Whatever you use, your toolchain/process/IDE should fulfil the following user stories:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **As a developer** working on a code file
 
@@ -49,17 +49,14 @@ Whatever you use, your toolchain/process/IDE should fulfil the following user st
 
 **So that I can** fix a recently introduced bug quickly
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **As a senior software developer**
 
@@ -67,9 +64,6 @@ Whatever you use, your toolchain/process/IDE should fulfil the following user st
 
 **So that I can** easily review their recent code
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

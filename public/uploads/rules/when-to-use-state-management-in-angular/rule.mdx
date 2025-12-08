@@ -30,13 +30,13 @@ uri: when-to-use-state-management-in-angular
 
 State management in Angular can quickly become unmaintainable if done incorrectly. It is important to fully understand why you are implementing state management and then decide how you are going to do it.
 
-<endOfIntro />
+<endIntro />
 
 There are many different options you can choose from, including the following:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### State managed in parent-child component hierarchies
@@ -55,17 +55,14 @@ Cons:
 * Testability - You cannot properly unit test parent-child components
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### State management in observable services
@@ -85,17 +82,14 @@ Cons:
 * Testability - It can be hard to test services due to the inherent dependency web
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Redux e.g. NgRx [(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](/use-ngrx-on-complex-applications)
@@ -117,9 +111,6 @@ Cons:
 * Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

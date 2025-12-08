@@ -27,7 +27,7 @@ uri: multiple-startup-projects
 It's common for .NET solutions to have multiple projects, for example an API and a UI.
 Did you know Microsoft Visual Studio and Jetbrains Rider allow you to start as many projects as you want with a single click?
 
-<endOfIntro />
+<endIntro />
 
 ### ❌ Split Terminals
 
@@ -37,11 +37,8 @@ You can run each project in a seperate terminal using `dotnet run`, but this wil
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Multiple Terminals",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Multiple Terminals"
   src="/uploads/rules/multiple-startup-projects/split-terminals.png"
 />
 
@@ -55,11 +52,8 @@ It can also be error prone as you may forget to launch a project.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Manually selecting and launching each project",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Manually selecting and launching each project"
   src="/uploads/rules/multiple-startup-projects/manual-launch.png"
 />
 
@@ -72,28 +66,22 @@ You can set multiple startup projects in Visual Studio and Rider, this will allo
 [Launch Multiple Projects in Jetbrains Rider](https://www.jetbrains.com/help/rider/Run_Debug_Multiple.html#compound-configs)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** If you change the launch profile Visual Studio **will not** save your configuration and you will have to follow the above steps again.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Rider **will** save the launch profile you just created, you can switch between launch profiles without losing your configuration.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

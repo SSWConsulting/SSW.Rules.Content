@@ -10,9 +10,9 @@ createdBy: Christian Morford-Waite [SSW]
 createdByEmail: ChristianMWaite@ssw.com.au
 guid: 3f7ec0d1-86f5-43c3-8b83-7a871bfcfe63
 isArchived: false
-lastUpdated: 2025-07-07 01:00:02+00:00
-lastUpdatedBy: Christian Morford-Waite [SSW]
-lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/migration-plans/rule.mdx
 seoDescription: Use BannedApiAnalyzers with a repo-wide bannedsymbols.txt to block
@@ -27,7 +27,7 @@ You finally dumped `BinaryFormatter`, replaced `WebClient` with `HttpClient`, an
 
 But in a big codebase (or with a rotating team) someone can unknowingly add the old API back in a new feature branch, **undoing days of migration work**. The same risk appears with *library preferences*: you want everybody using `FluentValidation`, yet the next pull request pulls in `DataAnnotations` again.
 
-<endOfIntro />
+<endIntro />
 
 ## Ban unwanted APIs at the compiler gate
 
@@ -37,11 +37,8 @@ But in a big codebase (or with a rotating team) someone can unknowingly add the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs"
   src="/uploads/rules/use-banned-api-analyzers/banned-api-project-building.png"
 />
 
@@ -50,11 +47,8 @@ But in a big codebase (or with a rotating team) someone can unknowingly add the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – The analyzer blocks the build and guides the developer towards the approved approach",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example – The analyzer blocks the build and guides the developer towards the approved approach"
   src="/uploads/rules/use-banned-api-analyzers/banned-api-lists-errors.png"
 />
 

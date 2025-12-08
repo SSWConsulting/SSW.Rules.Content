@@ -27,7 +27,7 @@ uri: booking-cancellations
 
 On occasion, you may be asked in the morning, or even halfway through the day, to pause your work by the client. This can create stress for developers, lost visibility for Bench Masters, and frustration for clients if it’s not handled properly.
 
-<endOfIntro />
+<endIntro />
 
 ### Scenario: Mid-day cancellations
 1. Developer X shows up in the morning and starts working on feature Y as per CRM Service Calendar.
@@ -61,30 +61,24 @@ When a booking is cancelled in advance, communication should be **clear, timely,
 ### Examples
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Developer John was booked for Project X, but the client postponed. The cancellation was processed in the booking system, which notified John and flagged his availability to Bench Masters. Within hours, John was reassigned to another project.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Both the developer and Bench Masters were notified and could act quickly.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – Both the developer and Bench Masters were notified and could act quickly."
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Developer Sarah’s project was cancelled, but no one informed her. She showed up ready to work, while Bench Masters were unaware she was free. Sarah ended up idle for days.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Lack of communication caused confusion and wasted available resources.",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example – Lack of communication caused confusion and wasted available resources."
 />
 
 

@@ -34,7 +34,7 @@ Replying inline can mess up the history of the email thread. What you should do 
 
 In the rare cases where you really need to reply inline for a special reason, it's important to write your comments in a different color. You might want to mention what color your comments are in (to make it extra clear). Make sure what you text should always be aligned left, not indented.
 
-<endOfIntro />
+<endIntro />
 
 <emailEmbed
   from=""
@@ -69,11 +69,8 @@ Daniel
 4. Access reporter
    Not done
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Replying inline can mess up the history. No indentation makes it harder to read",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Replying inline can mess up the history. No indentation makes it harder to read"
 />
 
 <emailEmbed
@@ -113,11 +110,8 @@ Not Done
 
 Not Done
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure="OK example - Replying inline should be avoided, but if you have a good reason to, use different colors and indentation for a better readability"
 />
 
 <emailEmbed
@@ -160,11 +154,8 @@ Daniel
 3. Make sure Exchange is backing itself up... Check Google on why not.
 4. Access reporter
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Copying questions and answering without altering the history. Include indentation and different colors for a better readability"
 />
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.

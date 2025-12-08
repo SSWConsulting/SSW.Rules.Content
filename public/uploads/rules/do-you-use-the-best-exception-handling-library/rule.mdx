@@ -34,7 +34,7 @@ When developing software, exceptions are a fact-of-life you will need to deal wi
 
 The best exception handling libraries are:
 
-<endOfIntro />
+<endIntro />
 
 * Application Insights (recommended)
 * Seq
@@ -46,11 +46,8 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - If you see this, you are doing something wrong!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - If you see this, you are doing something wrong!"
   src="/uploads/rules/do-you-use-the-best-exception-handling-library/default-asp-error-500_small.png"
 />
 
@@ -59,11 +56,8 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A nice custom error page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A nice custom error page"
   src="/uploads/rules/do-you-use-the-best-exception-handling-library/timepro-error.png"
 />
 
@@ -80,11 +74,8 @@ It gives you very useful graphs and analysis which give you a good overview of h
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well"
   src="/uploads/rules/do-you-use-the-best-exception-handling-library/overview.png"
 />
 
@@ -99,11 +90,8 @@ If Application Insights is not available, we use [**Seq**](https://datalust.co/s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse"
   src="/uploads/rules/do-you-use-the-best-exception-handling-library/xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png"
 />
 
@@ -116,10 +104,7 @@ If Application Insights is not available, we use [**Seq**](https://datalust.co/s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Raygun gives you lots of information about errors and the \"breadcrumbs\" that led the user to the error in order to help you find issues",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Good example - Raygun gives you lots of information about errors and the \"breadcrumbs\" that led the user to the error in order to help you find issues'
   src="/uploads/rules/do-you-use-the-best-exception-handling-library/raygun.gif"
 />

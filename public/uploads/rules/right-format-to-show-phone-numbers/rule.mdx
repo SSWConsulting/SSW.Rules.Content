@@ -29,87 +29,55 @@ uri: right-format-to-show-phone-numbers
 
 Every phone number should include the country code (with the + sign) so people in another country can call/text without having to look for the special numbers to go international. Make sure you always set your mobile number in the correct format.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     4XXXXXXXXX
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Hard to read"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Hard to read",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     (4XX) XXX-XXXX
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Readable but missing international format"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Readable but missing international format",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     +61 (4XX) XXX-XXX
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="OK example - International format and readable but brackets/dashes aren't necessary"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "OK example - International format and readable but brackets/dashes aren't necessary",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     +61 4XX XXX XXXX
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Nice and clean with spaces"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Nice and clean with spaces",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 **Note:**
@@ -119,9 +87,6 @@ In Australia, mobile numbers are in the format **+61 4XX XXX XXX**
 In China, mobile numbers are in the format **+86 1XX XXXX XXXX**
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

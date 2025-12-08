@@ -29,7 +29,7 @@ uri: avoid-using-documentgetelementbyid-and-documentall-to-get-a-single-element
 
 [jQuery](https://jquery.com/) is a fast and concise JavaScript Library that simplifies how you traverse HTML documents, handle events, perform animations, and add Ajax interactions to your web pages. jQuery is designed to change the way that you write JavaScript.
 
-<endOfIntro />
+<endIntro />
 
 With jQuery, you can write less code but do more work.
 
@@ -39,12 +39,7 @@ With jQuery, you can write less code but do more work.
   document.all("Head1").style.color = "red";
 </script>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure - Bad Code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure - Bad Code**  
 
 ```html
 <h1 id="Head1">Hello</h1>
@@ -52,12 +47,7 @@ With jQuery, you can write less code but do more work.
   document.getElementById("Head1").style.color = "red";
 </script>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Code**  
 
 ```html
 <h1 id="Head1">Hello</h1>
@@ -65,8 +55,4 @@ With jQuery, you can write less code but do more work.
   $("#Head1").css("color", "red");
 </script>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Code - Using $(\"#Head1\")",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Code - Using $("#Head1")**

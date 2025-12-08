@@ -40,11 +40,11 @@ Tips when answering IMs:
 
 * Avoid grouping your messages together [as per the rule](/separate-messages)
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **- Gary:**
 Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
@@ -53,17 +53,14 @@ Welcome back from your holiday. How many items in your inbox? Can you give me th
 Next Monday
 Will work for Northwind. I have 85 items and the link is [https://ssw.com.au/rules/rules-to-better-im](https://ssw.com.au/rules/rules-to-better-im)
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - We must try to find the answers one by one",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - We must try to find the answers one by one"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **- Gary:**
 Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
@@ -75,17 +72,14 @@ Welcome back from your holiday. How many items in your inbox? Can you give me t
 3. I start working for Northwind next Monday
 
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Each question answered in order",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure="OK example - Each question answered in order"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **- Gary:**
 Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
@@ -99,9 +93,6 @@ Here is the link: [https://ssw.com.au/rules/rules-to-better-im](https://ssw.com
 **- Dave:**
 I start working for Northwind next Monday.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Questions answered separately so that they can be responded to individually",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Questions answered separately so that they can be responded to individually"
 />

@@ -27,7 +27,7 @@ uri: power-automate-flows-service-accounts
 
 Using groups and service accounts is a common best practice in the Power Platform world.
 
-<endOfIntro />
+<endIntro />
 
 ### Groups
 
@@ -39,11 +39,8 @@ Always share your flows with a relevant group. This ensures that the flow is not
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – The red arrow shows the user as an owner. It is not shared to a group",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – The red arrow shows the user as an owner. It is not shared to a group"
   src="/uploads/rules/power-automate-flows-service-accounts/2023-07-17_17-16-51.jpg"
 />
 
@@ -58,10 +55,7 @@ Utilize service accounts (e.g., `info@northwind.com` instead of `BobNorthwind@no
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Groups and Service Accounts cleverly used to not lose any flows",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example – Groups and Service Accounts cleverly used to not lose any flows"
   src="/uploads/rules/power-automate-flows-service-accounts/powerautomateowner.png"
 />

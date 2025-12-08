@@ -28,17 +28,14 @@ An application's database access profile should be as restricted as possible, so
 
 Application database access should be also be restricted to only the application's database, and none of the other databases on the server
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Contract Manager Web Application using the administrator login in its connection string",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – Contract Manager Web Application using the administrator login in its connection string"
   src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/administratorlogininitsconnectionstring.png"
 />
 
@@ -47,11 +44,8 @@ Application database access should be also be restricted to only the application
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – Application specific database user configured in the connection string",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example – Application specific database user configured in the connection string"
   src="/uploads/rules/do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access/databaseuserconfiguredintheconnectionstring.png"
 />
 
@@ -97,14 +91,11 @@ GRANT EXECUTE TO myappstaging
 ```
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Data Source=tcp:xyzsqlserver.database.windows.net,1433; Initial Catalog=myapp-staging-db; User ID=myappstaging@xyzsqlserver; Password='\*\*\*\*\*\*\*\*\*\*\*\*\*'
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example connection string",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Example connection string"
 />

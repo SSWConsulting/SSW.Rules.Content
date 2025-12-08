@@ -28,7 +28,7 @@ uri: identify-sql-performance-azure
 
 When looking at Azure SQL Dataabase, you often get performance issues, but how can you figure out what might be the cause?
 
-<endOfIntro />
+<endIntro />
 
 The first step when working with Azure SQL is to identify whether the problem is a single poorly optimised query, or whether you are reaching a limit of the server. In Azure SQL Database you choose a level of performance expressed in DTUs (Database Transaction Units). These are just a way of expressing a fixed amount of available CPU, Disk IO and memory. If you are finding that you are hitting a bandwidth limit against only one of those, you can tune your queries to use more of the other parameters while reducing the one that is being throttled. For example, you can often choose a technique that uses less CPU, but requires more memory.
 

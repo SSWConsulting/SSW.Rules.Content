@@ -27,7 +27,7 @@ Having many people in a company that are able to make schema changes, can only l
 
 Let's see how to fix the issue:
 
-<endOfIntro />
+<endIntro />
 
 To avoid this problem, only one person (the "Schema Master") or the release pipeline should have permissions to upgrade the database.
 
@@ -36,11 +36,8 @@ To avoid this problem, only one person (the "Schema Master") or the release pipe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The db_owner role is granted for one person only – the \"Schema Master\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='The db_owner role is granted for one person only – the \"Schema Master\"'
   src="/uploads/rules/the-application-do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master/FullPermission.jpg"
 />
 
@@ -50,10 +47,7 @@ To avoid this problem, only one person (the "Schema Master") or the release pipe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "And here is the \"Schema Master\" at SSW",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='And here is the \"Schema Master\" at SSW'
   src="/uploads/rules/the-application-do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master/nick.png"
 />

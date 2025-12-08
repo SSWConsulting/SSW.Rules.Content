@@ -27,17 +27,14 @@ uri: consistent-fields-and-data
 
 Field width gives users a visual cue about the type and length of data expected. Avoid making a field excessively wide when the value will only be a few characters, and likewise avoid squeezing long values into fields that are too narrow. Size fields proportionally and keep them consistent so the UI sets the right expectation.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Fields are unnecessarily wide for their expected (short) values",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Fields are unnecessarily wide for their expected (short) values"
   src="/uploads/rules/consistent-fields-and-data/long-width-field.png"
 />
 
@@ -46,10 +43,7 @@ Field width gives users a visual cue about the type and length of data expected.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Fields are sized appropriately for their expected values",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Fields are sized appropriately for their expected values"
   src="/uploads/rules/consistent-fields-and-data/short-width-field.png"
 />

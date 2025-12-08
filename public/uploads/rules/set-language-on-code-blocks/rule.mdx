@@ -24,19 +24,16 @@ You should have a syntax highlighter to show pieces of code on your pages for a 
 
 Tools like [Prism](https://prismjs.com), [highlight.js](https://highlightjs.org), or [Code Prettify](https://github.com/googlearchive/code-prettify) automatically apply syntax highlighting, making it easier for users to read code by color-coding different elements (e.g., keywords, strings, and variables).
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases that can be used in SSW Rules.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -53,12 +50,7 @@ if (iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - No syntax highlighting",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - No syntax highlighting**  
 
 ```javascript
 let iceCream = 'chocolate';
@@ -69,22 +61,14 @@ if (iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - This JavaScript code block shows its syntax highlighted",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - This JavaScript code block shows its syntax highlighted**  
 
 
-
-<asideEmbed
-  variant="codeauditor"
+<boxEmbed
+  style="codeauditor"
   body={<>
     [SSW CodeAuditor enforces this rule](https://codeauditor.com/rules).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

@@ -24,7 +24,7 @@ uri: avoid-double-negative-conditionals-in-if-statements
 
 Try to avoid Double-Negative Conditionals in if-statements. Double negative conditionals are difficult to read because developers have to evaluate which is the positive state of two negatives. So always try to make a single positive when you write if-statement.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 if (!IsValid)
@@ -36,12 +36,7 @@ else
        // handle success
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example**  
 
 ```cs
 if (IsValid)
@@ -53,12 +48,7 @@ else
        // handle error
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example**  
 
 ```cs
 if (!IsValid)
@@ -66,12 +56,7 @@ if (!IsValid)
        // handle error
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Another good example",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Another good example**  
 
 Use pattern matching for boolean evaluations to make your code even more readable!
 
@@ -81,8 +66,4 @@ if (IsValid is false)
        // handle error
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Even better",
-  shouldDisplay: true
-} } />
+**✅ Figure: Even better**

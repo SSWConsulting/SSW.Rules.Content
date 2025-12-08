@@ -43,7 +43,7 @@ A team knows how many PBIs they can commit to by measuring their velocity. The T
 * Doubling
 * Thrown
 
-<endOfIntro />
+<endIntro />
 
 Let's go through them:
 
@@ -52,8 +52,8 @@ Let's go through them:
 This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     1 = XS
 2 = S
@@ -63,11 +63,8 @@ This method is popular with Microsoft teams, but it has the problem of not easil
 32 = XXL
 64 = XXXL
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -77,11 +74,8 @@ This method is popular with Microsoft teams, but it has the problem of not easil
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Estimation using t-shirt sizes",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Estimation using t-shirt sizes"
   src="/uploads/rules/size-pbis-effectively/size-stories-bad-example.jpg"
 />
 
@@ -94,11 +88,8 @@ Planning Poker is a very effective Product Backlog estimation technique and the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Estimation using Planning Poker with large numbers",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Estimation using Planning Poker with large numbers"
   src="/uploads/rules/size-pbis-effectively/size-stories-ok-example.jpg"
 />
 
@@ -113,11 +104,8 @@ Ken Schwaber (the father of Scrum) says in his Scrum Certification course, that 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Estimation using Planning Poker with only small numbers",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Estimation using Planning Poker with only small numbers"
   src="/uploads/rules/size-pbis-effectively/size-stories-good-example.jpg"
 />
 
@@ -134,11 +122,8 @@ The action is done in the same method as the game 'Rock, Paper, Scissors'. The o
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "PBI estimates using the \"Thrown method\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure='PBI estimates using the \"Thrown method\"'
   src="/uploads/rules/size-pbis-effectively/fist-method.jpg"
 />
 
@@ -150,8 +135,8 @@ Estimating using doubling numbers makes relative sizing simple. An 8 point PBI s
 It has one other advantage over the Fibonacci sequence, it is easier for non-techies because the numbers aren't whacky and the name isn't bizarre.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Estimate**
 1
@@ -162,18 +147,10 @@ It has one other advantage over the Fibonacci sequence, it is easier for non-tec
 32
 64
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Doubling simplifies relative sizing",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Doubling simplifies relative sizing**  
 
 ---
 
@@ -196,12 +173,7 @@ Every team is different, but you can use the following guidelines for sizing PBI
 | 16                 | -                                                                                                                        |
 | 32                 | -                                                                                                                        |
 | 64                 | More than a month with a couple of developers (Don't include these in a Sprint because they're too risky - see #4 below) |
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - PBI estimating guidelines",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - PBI estimating guidelines**  
 
 ### 3. Using IM chats
 

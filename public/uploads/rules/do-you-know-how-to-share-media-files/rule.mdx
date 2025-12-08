@@ -27,17 +27,14 @@ It is important to be able to easily share files between workers. It is also imp
 
 Ideally SharePoint would be used for all content storage but occasionally it is not ideal.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - SharePoint Explorer View requires waiting every time you save a file while it syncs back to the server",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - SharePoint Explorer View requires waiting every time you save a file while it syncs back to the server"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-1.jpg"
 />
 
@@ -46,63 +43,48 @@ Ideally SharePoint would be used for all content storage but occasionally it is 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - OneDrive (was SkyDrive) Pro enables offline access and saves locally and then syncs back to the SharePoint server asynchronously, but requires the whole document library to be brought to the local computer, even if you only need one folder in the document library",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - OneDrive (was SkyDrive) Pro enables offline access and saves locally and then syncs back to the SharePoint server asynchronously, but requires the whole document library to be brought to the local computer, even if you only need one folder in the document library"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-2.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Suggestion for OneDrive (was SkyDrive) Team #1 :** Enable OneDrive to have selective sync on folders within a document library.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Files shared via SkyDrive are hard to back up centrally. When you share folders through OneDrive (was SkyDrive) they are only made available through the web interface",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Files shared via SkyDrive are hard to back up centrally. When you share folders through OneDrive (was SkyDrive) they are only made available through the web interface"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-3.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Suggestion to OneDrive (was SkyDrive) Team #2:** When folders are shared with another OneDrive user, the shared folder should appear in the recipients OneDrive folder. This allows it to be backed up by a central user at HQ.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example -  DropBox allows offline access. When you share a DropBox folder with another Dropbox user, the shared folder appears in the DropBox folder on their machine with a different icon to indicate sharing",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example -  DropBox allows offline access. When you share a DropBox folder with another Dropbox user, the shared folder appears in the DropBox folder on their machine with a different icon to indicate sharing"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-4.jpg"
 />
 
@@ -115,11 +97,8 @@ The SSW sys-admin is responsible for backing up the SSW Dropbox account daily.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "To allow you to use Dropbox for work, first create a folder called SSW_[YourName] (e.g. SSW_AdamStephensen), right click on the folder and choose Share this folder...",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="To allow you to use Dropbox for work, first create a folder called SSW_[YourName] (e.g. SSW_AdamStephensen), right click on the folder and choose Share this folder..."
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-5.jpg"
 />
 
@@ -129,11 +108,8 @@ The SSW sys-admin is responsible for backing up the SSW Dropbox account daily.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add the email address of the company Dropbox account and click Send Invites. Once the Administrator accepts the share, your important work files will be available in the case that you leave or get hit by a bus",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add the email address of the company Dropbox account and click Send Invites. Once the Administrator accepts the share, your important work files will be available in the case that you leave or get hit by a bus"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-6.jpg"
 />
 
@@ -143,10 +119,7 @@ The SSW sys-admin is responsible for backing up the SSW Dropbox account daily.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The Administrator account must now accept the sharing invitation, and the folder will be added to the Administrators Dropbox folder. The Admin should configure a machine to pull the files locally and back them up",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The Administrator account must now accept the sharing invitation, and the folder will be added to the Administrators Dropbox folder. The Admin should configure a machine to pull the files locally and back them up"
   src="/uploads/rules/do-you-know-how-to-share-media-files/share-media-files-7.jpg"
 />

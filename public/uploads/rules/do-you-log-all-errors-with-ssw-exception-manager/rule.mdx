@@ -20,7 +20,7 @@ isArchived: false
 
 All unhandled exceptions should be logged to provide developers with sufficient information to fix bugs when they occur. There are two options we for logging exceptions:
 
-<endOfIntro />
+<endIntro />
 
 The Microsoft **Exception Management Application Block**Microsoft provides full source code for the EMAB, which is fully extensible with custom logging target extensions. We decided to customize the EMAB to produce the SSW Exception Management Block, which logs exceptions to a database using a web service, allowing us to keep a history of all exceptions.
 
@@ -29,11 +29,8 @@ The Microsoft **Exception Management Application Block**Microsoft provides full 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Exception Reporting Web Service",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Exception Reporting Web Service"
   src="/uploads/rules/do-you-log-all-errors-with-ssw-exception-manager/exceptionreportingservice.gif"
 />
 

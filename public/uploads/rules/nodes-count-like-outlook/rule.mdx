@@ -25,17 +25,14 @@ uri: nodes-count-like-outlook
 
 A report with drill through like this should have the number in nodes like Outlook.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This does not have the nodes count",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - This does not have the nodes count"
   src="/uploads/rules/nodes-count-like-outlook/No_number.jpg"
 />
 
@@ -44,11 +41,8 @@ A report with drill through like this should have the number in nodes like Outlo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This does have the nodes count",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - This does have the nodes count"
   src="/uploads/rules/nodes-count-like-outlook/number.jpg"
 />
 
@@ -65,23 +59,13 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 
 = Fields!Number.Value
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Get the Outlook Node Count look by changing the SQL.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Get the Outlook Node Count look by changing the SQL.**  
 
 ```sql
 --Expression to show nodes count
 
 = Fields!Name.Value + "(" + CStr ( CountRows( ) ) + ")"
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Use the CountRows() function to get the Outlook Node Count look",
-  shouldDisplay: true
-} } />
-
+**✅ Use the CountRows() function to get the Outlook Node Count look**  
 
 **Note:** The **CountRows** function is one of the several native functions provided by Reporting Services and returns the count of rows within a specified scope. If no scope is specified, it defaults to the innermost scope, which in our case resolves to the static group that defines the values in the data cells.

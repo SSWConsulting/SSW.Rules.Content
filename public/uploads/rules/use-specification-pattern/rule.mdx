@@ -26,7 +26,7 @@ uri: use-specification-pattern
 
 When developing software, ensuring that your code is maintainable, flexible, and readable is crucial. One effective way to achieve this is by implementing the Specification pattern. This pattern allows for clear and modular encapsulation of business rules and query criteria, promoting the separation of concerns and enhancing the overall quality of your code.
 
-<endOfIntro />
+<endIntro />
 
 ## What Problem are we Solving here?
 
@@ -61,12 +61,7 @@ public class OrderService(ApplicationDbContext dbContext)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Duplicated query logic to fetch the customer",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Duplicated query logic to fetch the customer**  
 
 ## What is the Specification Pattern?
 
@@ -150,8 +145,4 @@ public class OrderService(ApplicationDbContext dbContext)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Specification used to keep Order query logic DRY",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Specification used to keep Order query logic DRY**

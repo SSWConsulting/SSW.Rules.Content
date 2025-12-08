@@ -23,7 +23,7 @@ In today's complex digital landscape, managing user access to resources can be a
 
 By bundling related resources into cohesive packages, they simplify the process of granting, reviewing, and revoking access. This not only reduces administrative overhead but also enhances security by ensuring that users have the right permissions at the right time. Furthermore, with built-in automation features like approval workflows and periodic access reviews, organizations can maintain a robust and compliant access governance structure. Adopting Azure Access Packages is a strategic move for businesses aiming to strike a balance between operational efficiency and stringent security.
 
-<endOfIntro />
+<endIntro />
 
 ## ❌ Bad Example - Manually Requesting Access via Email
 
@@ -45,11 +45,8 @@ Thanks
 
 Warwick
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - This requires manual changes by a SysAdmin",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - This requires manual changes by a SysAdmin"
 />
 
 ## ✅ Good Example - Requesting Access via myaccess.microsoft.com
@@ -62,11 +59,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Navigate to myaccess.microsoft.com",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Navigate to myaccess.microsoft.com"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-214846.png"
 />
 
@@ -78,11 +72,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Search for the required resource",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Search for the required resource"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215159.png"
 />
 
@@ -94,16 +85,13 @@ Instead of manually sending emails, users can request access through `myaccess.m
 4. Wait for **approval** from the people responsible for the resource
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **If you require immediate access ping them on Teams**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -118,11 +106,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Navigate to Azure portal | Access packages | New Access package",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Navigate to Azure portal | Access packages | New Access package"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-220334.png"
 />
 
@@ -135,11 +120,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Fill out the details and choose a catalog",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Fill out the details and choose a catalog"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-221623.png"
 />
 
@@ -151,11 +133,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add the required resources",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add the required resources"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222048.png"
 />
 
@@ -167,11 +146,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Choose the types of users that can request access",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Choose the types of users that can request access"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222124.png"
 />
 
@@ -181,11 +157,8 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Choose policies that match the level of access",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Choose policies that match the level of access"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222210.png"
 />
 
@@ -197,10 +170,7 @@ Instead of manually sending emails, users can request access through `myaccess.m
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Review the settings and create the policy",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Review the settings and create the policy"
   src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222746.png"
 />

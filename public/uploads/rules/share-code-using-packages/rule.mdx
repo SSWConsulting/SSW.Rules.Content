@@ -29,100 +29,65 @@ Devs need a way of sharing and consuming the source code or binaries.
 
 VSTS is the best home to put it and share it across their organization because:
 
-<endOfIntro />
+<endIntro />
 
 - It caches your packages
 - It's a centralized place for your packages
 - It's constantly evolving (some really cool features check the video below)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Sharing source or binaries via File Shares or Version Control
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Sharing source or binaries via 3rd party tools like ProGet, MyGet
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="ok"
+  figure="OK example"
 />
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK example",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Sharing source or binaries via packages created using VSTS Team Build
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Good example**  
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Start from Visual Studio Marketplace",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Start from Visual Studio Marketplace"
   src="/uploads/rules/share-code-using-packages/package-management-site.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     VSTS is about to add benefits like Component Governance, which allows policies to be set over who can and cannot use the source or binaries E.g. Licensing (MIT might be ok and GPL not ok), security - in development
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Sharing source or binaries via packages created using Sonatype Nexus. Already supports Component Governance"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Sharing source or binaries via packages created using Sonatype Nexus. Already supports Component Governance",
-  shouldDisplay: true
-} } />
 
 
 ### Additional info

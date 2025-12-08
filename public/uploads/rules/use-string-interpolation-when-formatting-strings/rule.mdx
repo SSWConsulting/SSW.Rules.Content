@@ -27,23 +27,14 @@ uri: use-string-interpolation-when-formatting-strings
 String Interpolation - greatly reduces the amount of boilerplate code required when working with strings
 Formatting strings on the fly was previously a task which required a stack of boilerplate code
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Using String.Format() makes the code difficult to read",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - Using String.Format() makes the code difficult to read**  
 
 ```cs
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - String Interpolation is very human readable",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example - String Interpolation is very human readable**

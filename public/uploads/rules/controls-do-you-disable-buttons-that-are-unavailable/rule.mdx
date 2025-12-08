@@ -23,7 +23,7 @@ uri: controls-do-you-disable-buttons-that-are-unavailable
 
 A button should be disabled if it is unavailable, if clicking it would generate an error message, or if it would carry out no function. However, buttons should not be hidden from view simply because they are unavailable, as it confuses the user.
 
-<endOfIntro />
+<endIntro />
 
 Different button states must have clear and distinct styling that differentiates them from each other and emphasizes them through the creation of a visual hierarchy.
 
@@ -33,11 +33,8 @@ When buttons are in a disabled state the accepted standard is to â€œgrey it outâ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Low contrast between disabled and active button styles.",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Low contrast between disabled and active button styles."
   src="/uploads/rules/controls-do-you-disable-buttons-that-are-unavailable/disabled-button-bad.png"
 />
 
@@ -46,10 +43,7 @@ When buttons are in a disabled state the accepted standard is to â€œgrey it outâ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - High contrast creates distinct visual hierarchy",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - High contrast creates distinct visual hierarchy"
   src="/uploads/rules/controls-do-you-disable-buttons-that-are-unavailable/disabled-button-good.png"
 />

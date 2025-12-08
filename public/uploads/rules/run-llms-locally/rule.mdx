@@ -31,18 +31,15 @@ uri: run-llms-locally
 
 When you need AI assistance for development but find yourself offline (whether you're on a flight, gone camping, or facing the inevitable zombie apocalypse) you'll appreciate having local LLMs ready in your workflow!
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Will local LLMs catch up with cloud-based?",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Will local LLMs catch up with cloud-based?"
   src="/uploads/rules/run-llms-locally/coverphoto.png"
 />
 
@@ -84,16 +81,13 @@ Local LLMs ensure your data never leaves your machine, providing consistent perf
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Chat interfaces in LM Studio (left), and Ollama (right)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Chat interfaces in LM Studio (left), and Ollama (right)"
   src="/uploads/rules/run-llms-locally/ollama-or-lmstudio-ui.png"
 />
 
 
-Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/rules/ai-assisted-development-workflow/) without an internet connection.
+Local LLMs can be used for code completion and assistance. This is especially handy when you want to perform [AI Assisted Development](/ai-assisted-development-workflow) without an internet connection.
 
 ### Coding with local LLMs
 
@@ -104,11 +98,6 @@ We can link it up with LM Studio or Ollama without any complex configuration, si
 2. For Provider: Select either LM Studio or Ollama
 3. Select the model you would like to use
 4. Happy ~~vibe coding~~ AI-assisted developing!
-
-<video width="100%" height="auto" autoplay muted loop>
-  <source src="cline-local.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
 
 **Animated GIF: Using Cline locally with Qwen-3**
 
@@ -149,16 +138,13 @@ Model size (B = billion parameters) directly impacts hardware requirements:
 * **70B+** - God tier, requires high-end GPU and 64GB+ VRAM (~80+ GB)
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Without a powerful GPU, locally-run models may not produce code quality suitable for development work.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

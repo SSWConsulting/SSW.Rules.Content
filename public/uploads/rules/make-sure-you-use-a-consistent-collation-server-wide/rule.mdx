@@ -26,7 +26,7 @@ Collation is the combination of language and sort orders, and you typically don'
 
 It would make development simpler if the whole world spoke one language but even if you are using English, you will still encounter collation issues if you are not careful. The most common issue is the dreaded 'Cannot resolve collation conflict for equal to operation' error when joining on columns that have different collation orders. Collation is a great feature for international companies, but if you are not consciously using it then you should have ALL the objects in ALL the databases on ALL the servers using a consistent collation.
 
-<endOfIntro />
+<endIntro />
 
 Flexibility with collation orders has increased a lot since SQL 7.0:
 
@@ -49,10 +49,7 @@ See these Knowledge Base articles for more information about the issues you will
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Setting the collation in SQL 2019 Setup - Choose Case Insensitive(CI), Accent Sensitive (AS)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Setting the collation in SQL 2019 Setup - Choose Case Insensitive(CI), Accent Sensitive (AS)"
   src="/uploads/rules/make-sure-you-use-a-consistent-collation-server-wide/Sql2019_CollationSettingsAtSetup.png"
 />

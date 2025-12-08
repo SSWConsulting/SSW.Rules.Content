@@ -26,28 +26,18 @@ uri: use-environment-newline-to-make-a-new-line-in-your-string
 
 When you need to create a new line in your string, make sure you use Environment.NewLine, and then literally begin typing your code on a new line for readability purposes.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 string strExample = "This is a very long string that is \r\n not properly implementing a new line.";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - The string has implemented a manual carriage return line feed pair `\\r\\n`",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - The string has implemented a manual carriage return line feed pair `\r\n`**  
 
 ```csharp
 string strExample = "This is a very long string that is " + Environment.NewLine +
 		 " properly implementing a new line.";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "OK example - The new line is created with Enviroment.NewLine (but strings are immutable)",
-  shouldDisplay: true
-} } />
-
+**✅ OK example - The new line is created with Enviroment.NewLine (but strings are immutable)**  
 
 ```csharp
 var example = new StringBuilder();
@@ -56,8 +46,4 @@ example.AppendLine("This is a very long string that is ");
 
 example.Append(" properly implementing a new line.");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The new line is created by the StringBuilder and has better memory utilisation",
-  shouldDisplay: true
-} } />
+**✅ Good example - The new line is created by the StringBuilder and has better memory utilisation**

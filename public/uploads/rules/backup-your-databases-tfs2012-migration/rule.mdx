@@ -26,19 +26,16 @@ Before starting your upgrade, you should back up all your TFS databases.
 
 It's important that you backup TFS by using one of the supported methods, to ensure that you can reliably restore your data if needed.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** The Team Foundation Server Team Foundation Server 2012 Update 2 and above has a built in Scheduled Backup tool which helps you to easily backup all TFS Databases. For versions prior to TFS 2012 Update 2 you have to use Backups tool from the [TFS Power Tools](https://marketplace.visualstudio.com/items?itemName=TFSPowerToolsTeam.MicrosoftVisualStudioTeamFoundationServer2012Power) package.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -47,11 +44,8 @@ It's important that you backup TFS by using one of the supported methods, to ens
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "TFS Scheduled Backups Tool",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="TFS Scheduled Backups Tool"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/tfs scheduled.jpg"
 />
 
@@ -63,11 +57,8 @@ In some cases you won't be able to use this tool e.g. with TFS 2012 Power Tools 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "TFS Backup tool failed to restore the Tfs_Configuration DB – known bug in TFS 2012 Power Tools RTM",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="TFS Backup tool failed to restore the Tfs_Configuration DB – known bug in TFS 2012 Power Tools RTM"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/tfs backup.jpg"
 />
 
@@ -79,28 +70,22 @@ In such case you will have to manually backup databases. Make sure all relevant 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Backup all relevant databases",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Backup all relevant databases"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/backup all.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important:** Manual backup requires additional user steps which involve creation of additional tables and stored procedures. These tables has to be created to keep TFS databases in sync.
 
 Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops&WT.mc_id=DOP-MVP-33518).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -109,11 +94,8 @@ Follow this instructions to properly backup your databases: [Manually back up Te
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add tbl_TfsTransactionLogMark table to every Tfs_* Database",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add tbl_TfsTransactionLogMark table to every Tfs_* Database"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/add tbl.jpg"
 />
 
@@ -123,11 +105,8 @@ Follow this instructions to properly backup your databases: [Manually back up Te
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add sp_SetTransactionLogMark stored procedure to every Tfs_* Database",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add sp_SetTransactionLogMark stored procedure to every Tfs_* Database"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/add spset.jpg"
 />
 
@@ -139,11 +118,8 @@ If you manually backup the TFS Databases make sure you add additional jobs that 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add additional jobs to SQL Server Agent",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add additional jobs to SQL Server Agent"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/add additional.jpg"
 />
 
@@ -157,10 +133,7 @@ For Reporting Services make sure you have backed up the encryption key.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Backup Reporting Services encryption keys",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Backup Reporting Services encryption keys"
   src="/uploads/rules/backup-your-databases-tfs2012-migration/backup reporting.jpg"
 />

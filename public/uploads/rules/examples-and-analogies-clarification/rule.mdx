@@ -23,7 +23,7 @@ isArchived: false
 
 When seeking explanations for complex concepts with ChatGPT, it can be helpful to request examples or analogies. These can make difficult ideas more relatable and easier to understand, providing you with a clearer grasp of the subject matter.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for asking for examples or analogies:
 
@@ -32,22 +32,19 @@ Here are some tips for asking for examples or analogies:
 - Encourage the model to use relatable, everyday scenarios or familiar comparisons when providing examples or analogies
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Explain neural networks.”
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The prompt is vague and does not request an example or analogy to clarify the complex concept",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The prompt is vague and does not request an example or analogy to clarify the complex concept"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Explain the concept of neural networks using an analogy related to the human brain.”
 
@@ -57,17 +54,14 @@ Here are some tips for asking for examples or analogies:
 
 “Provide an example of how the butterfly effect can be observed in real-life situations.”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good examples - Asking for an example or analogy to illustrate a complex concept",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good examples - Asking for an example or analogy to illustrate a complex concept"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Note:** If you don't know good criteria to compare by, ask ChatGPT:
@@ -75,11 +69,8 @@ Here are some tips for asking for examples or analogies:
 e.g. "What would defining criteria be when deciding between owning a cat or a dog? Make me a list where each point is up to 3 words."
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

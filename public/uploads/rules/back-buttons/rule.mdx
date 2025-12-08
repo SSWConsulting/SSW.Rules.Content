@@ -15,9 +15,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: cd64ef97-75d9-4158-b732-f319de35069b
 isArchived: false
-lastUpdated: 2025-07-31 00:46:18+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-24 19:03:43+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-use-＂-back＂-instead-of-＂-previous＂-or-other-variations
 - do-you-use-back-instead-of-previous-or-other-variations
@@ -34,17 +34,14 @@ When building multi-step wizards (e.g. forms, onboarding flows, or setup process
 
 A "Back" button gives users confidence that they can safely navigate through the steps without fear of losing progress. It helps reduce frustration and increases completion rates, especially when users need to review or correct something in earlier steps.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - User hits \"Next\" and can't go back to change their answer",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - User hits &quot;Next&quot; and can't go back to change their answer"
   src="/uploads/rules/back-buttons/back-button-bad.png"
 />
 
@@ -53,11 +50,8 @@ A "Back" button gives users confidence that they can safely navigate through the
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - \"Back\" button is clearly visible",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Good example - \"Back\" button is clearly visible'
   src="/uploads/rules/back-buttons/back-button-good.png"
 />
 
@@ -69,16 +63,13 @@ A "Back" button gives users confidence that they can safely navigate through the
 * Use [icons to enforce the action meaning](/enforce-the-text-meaning-with-icons-and-emojis)
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     According to [Design Specifications and Guidelines - User Assistance](https://learn.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29#window-design?WT.mc_id=DT-MVP-33518), the commands for navigating through a wizard should be **"&lt; Back"** and **"Next &gt;"**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

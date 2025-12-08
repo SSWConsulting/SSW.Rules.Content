@@ -42,30 +42,24 @@ Of course, if you are dealing with somebody regularly, then you should know thei
 Use local currency. E.g. Australian company billing someone in Australia:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is $1,000
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The client doesn't know whether it's AUD or USD",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The client doesn't know whether it's AUD or USD"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is AUD $1,000
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - AUD makes it more clear",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - AUD makes it more clear"
 />
 
 
@@ -76,30 +70,24 @@ Use local currency. E.g. Australian company billing someone in Australia:
 Use their local currency. E.g. Chinese company billing someone in Australia:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is CNY ¥1,000
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The client will need to convert it",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The client will need to convert it"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is CNY ¥1,000 (about AUD $160)
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - AUD gives a clear understanding of the costs",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - AUD gives a clear understanding of the costs"
 />
 
 
@@ -108,28 +96,22 @@ Use their local currency. E.g. Chinese company billing someone in Australia:
 Use USD. E.g. Chinese company billing someone in Brazil.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is CNY ¥1,000
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The client will need to convert it",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The client will need to convert it"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Our price is CNY ¥1,000 (about USD $160)
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - USD gives a clear understanding of the costs",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - USD gives a clear understanding of the costs"
 />

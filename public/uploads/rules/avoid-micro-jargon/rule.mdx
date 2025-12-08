@@ -39,11 +39,11 @@ Code that relies on nicknames, abbreviations, or internal jokes can create unnec
 
 Instead, favor widely understandable names or domain-specific terms that reflect a shared understanding of the business or domain.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **How this differs from ubiquitous language?**
 
@@ -51,11 +51,8 @@ Using [ubiquitous language](/ubiquitous-language)) is about naming concepts in w
 
 Avoid in-grouped terms that don’t convey meaning to people outside the team, even if they seem descriptive to those who are “in the know.”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -68,12 +65,7 @@ enum ThresholdBreachState
   Mustafar
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - These names are cool but require specific knowledge as well as context about the person who wrote them",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - These names are cool but require specific knowledge as well as context about the person who wrote them**  
 
 Now, this is actually pretty awesome, and if I saw this in your code, I’d probably buy you a beer. But realistically, this is too niche a description, and the mental leap required to connect the dots is burdensome.
 
@@ -86,12 +78,7 @@ enum ThresholdBreachState
   MinExceeded
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - These names are _not_ cool, but they are meaningful and easy for any developer to understand",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - These names are _not_ cool, but they are meaningful and easy for any developer to understand**  
 
 Let’s say you have two developers on your team who are unusually tall and short, colloquially referred to as Big John and Little Dave. You’re working on code to compress and decompress messages entering and leaving a queue and name the methods `BigJohnify` and `LittleDavify`. Although the prefixes may hint at the methods’ functions, this requires a specific knowledge of the team dynamic and could easily lead to confusion.
 
@@ -106,12 +93,7 @@ public byte[] LittleDavify(Stream input)
     //
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - You might think this is fun - John and Dave might even think so too - but the meaning here is completely unclear",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - You might think this is fun - John and Dave might even think so too - but the meaning here is completely unclear**  
 
 For instance, if nicknames are used ironically (think of “Little John” from Robin Hood), it’s possible that `LittleDavify` actually decompresses messages while `BigJohnify` compresses them. Did you spot the word "respectively" at the end of the first sentence? Anyone “in the know” might understand this, but it demands unique insider knowledge and risks being both unprofessional and confusing.
 
@@ -128,8 +110,4 @@ public byte[] Decompress(Stream input)
     //
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - These method names are much better as they instantly convey to anyone what they do",
-  shouldDisplay: true
-} } />
+**✅ Good example - These method names are much better as they instantly convey to anyone what they do**

@@ -20,7 +20,7 @@ isArchived: false
 
 When you're building a custom AI application using a GPT API you'll probably want the model to respond in a way that fits your application or company. You can achieve this using the system prompt.
 
-<endOfIntro />
+<endIntro />
 
 ## What is the system prompt?
 
@@ -44,11 +44,8 @@ When we don't set a system prompt the user can tell the model to act however the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - GPT's responses without a system prompt",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - GPT's responses without a system prompt"
   src="/uploads/rules/use-system-prompt/without-system-prompt.png"
 />
 
@@ -57,26 +54,20 @@ When we don't set a system prompt the user can tell the model to act however the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Responses with a system prompt",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Responses with a system prompt"
   src="/uploads/rules/use-system-prompt/with-system-prompt.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Depending on the model you're using, you may need to be more firm with your system prompt for the model to listen. Test your prompt using [OpenAI's Playground](https://platform.openai.com/playground) before deploying.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

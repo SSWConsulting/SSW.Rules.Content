@@ -26,11 +26,11 @@ When an Account Manager and a client have made an agreement that a developer wil
 
 If the dev is booked in on the Service Calendar in CRM, they will be billing that full day to the respective client. Let's see 2 examples:
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 - Developer X comes in in the morning
@@ -40,24 +40,16 @@ If the dev is booked in on the Service Calendar in CRM, they will be billing tha
 - Then starts billing once they have started work on a specific task for a client
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example: Scenario where developer bills a partial day"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Scenario where developer bills a partial day",
-  shouldDisplay: true
-} } />
 
 
 The bad example scenario is not acceptable as the full day will be billed to the client as per the agreement, so it's up to them to make sure they're as productive as possible.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 - Developer checks their calendar or the CRM Service Calendar the day before and knows what client they are going to work on before they come in
@@ -67,17 +59,9 @@ The bad example scenario is not acceptable as the full day will be billed to the
 - The full 8 hours is billed to the client
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example: The developer knows ahead of time what they're working on and bills the full day"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: The developer knows ahead of time what they're working on and bills the full day",
-  shouldDisplay: true
-} } />
 
 
 The major benefits of the good example (working full days for the client) is that the Service Calendar will be an accurate representation of what will be worked on, and when a client thinks they have a resource booked for a day, they do in fact get the full day.
@@ -89,10 +73,7 @@ There will of course be exceptions, such as emergencies or urgent work coming up
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Your timesheets for next week should end up looking a lot like your original bookings (in our case this is shown in the CRM service calendar)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Your timesheets for next week should end up looking a lot like your original bookings (in our case this is shown in the CRM service calendar)"
   src="/uploads/rules/complete-your-booking/service-calendar.png"
 />

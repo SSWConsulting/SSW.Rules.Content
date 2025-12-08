@@ -19,7 +19,7 @@ uri: does-your-applications-interface-fit-in-a-small-screen-resolution
 
 One side effect of having busy forms is that it doesn't scale down.
 
-<endOfIntro />
+<endIntro />
 
 Each user prefers to have their own resolution. You must check if your controls will fit on the user's screen. Think about on which computers your application will run, and what devices will display it. To be on the safe side, it is advisable to fit your controls on a 1024 x 768px screen. Our projector has that resolution and it may well be used for presenting your application to the client.
 
@@ -27,11 +27,8 @@ Each user prefers to have their own resolution. You must check if your controls 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Form is too large to fit inside 1024x768px resolution",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Form is too large to fit inside 1024x768px resolution"
   src="/uploads/rules/does-your-applications-interface-fit-in-a-small-screen-resolution/InterfaceResBadExample.jpg"
 />
 
@@ -40,11 +37,8 @@ Each user prefers to have their own resolution. You must check if your controls 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Form fits inside any screen resolution",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Form fits inside any screen resolution"
   src="/uploads/rules/does-your-applications-interface-fit-in-a-small-screen-resolution/InterfaceResGoodExample.jpg"
 />
 
@@ -69,10 +63,7 @@ See [Adam Cogan - Microsoft is onto something here](http://www.adamcogan.com/201
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "The Surface screen allows you to place two apps side by side",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="The Surface screen allows you to place two apps side by side"
   src="/uploads/rules/does-your-applications-interface-fit-in-a-small-screen-resolution/SurfaceScreen.jpg"
 />

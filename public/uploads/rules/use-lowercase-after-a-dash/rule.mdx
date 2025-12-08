@@ -23,41 +23,26 @@ uri: use-lowercase-after-a-dash
 
 Use lowercase after "-" in a text.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Make a change to the content of the system you're currently looking at - ==I==f you don't know it is called SugarLearning, then we have a real problem :)”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Uppercase after \"-\"",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Uppercase after "-"**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “Make a change to the content of the system you're currently looking at - ==i==f you don't know it is called SugarLearning, then we have a real problem :)”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Bad example - lowercase after \"-\"",
-  shouldDisplay: true
-} } />
+**✅ Figure: Bad example - lowercase after "-"**

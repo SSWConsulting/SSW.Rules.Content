@@ -29,7 +29,7 @@ A test verifies expectations. Traditionally it has the form of 3 major steps:
 2. Act
 3. Assert
 
-<endOfIntro />
+<endIntro />
 
 In the "Arrange" step we get everything ready and make sure we have all things handy for the "Act" step.
 
@@ -60,8 +60,4 @@ public void TestRegisterPost_ValidUser_ReturnsRedirect()
    Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: A good structure for a unit test",
-  shouldDisplay: true
-} } />
+**✅ Figure: A good structure for a unit test**

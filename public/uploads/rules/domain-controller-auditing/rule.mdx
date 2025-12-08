@@ -25,7 +25,7 @@ uri: domain-controller-auditing
 
 To detect and mitigate a cyber attack, the right set of events need to be collected from your domain controllers. The audit policy is a compromise between collecting too many and too few events. Logs are useful for detecting security events, but if there is too much noise, you'll miss the important information.
 
-<endOfIntro />
+<endIntro />
 
 To enable advanced auditing on your domain controllers, use group policy. The settings are in **Computer Configuration | Windows Settings | Security Settings | Advanced Audit Policy Configuration | Audit Policies.**
 
@@ -72,11 +72,8 @@ adsecurity.org has great recommendations for what you should be auditing on your
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Recommended auditing enabled",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Recommended auditing enabled"
   src="/uploads/rules/domain-controller-auditing/adv-audit-gpo.png"
 />
 

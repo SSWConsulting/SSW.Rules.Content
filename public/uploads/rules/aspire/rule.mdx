@@ -24,18 +24,15 @@ Building cloud-native applications can be challenging due to their complexity an
 
 There are lots of ways to build cloud-native applications and the overwhelming number of choices can make it difficult to know where to start.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Too many lego pieces - Where do you start?",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Too many lego pieces - Where do you start?"
   src="/uploads/rules/aspire/too-complex-aspire.png"
 />
 
@@ -53,11 +50,8 @@ Also, the complexity of modern cloud-native applications can make them difficult
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Aspire makes common time-consuming developer chores a breeze",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Aspire makes common time-consuming developer chores a breeze"
   src="/uploads/rules/aspire/aspire-cool-stuff.png"
 />
 
@@ -125,12 +119,7 @@ Leverage predefined templates and tooling to:
       options.InstanceName = "SampleInstance";
   });
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - Manually setting up Redis cache 🥱",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - Manually setting up Redis cache 🥱**  
 
 ### The new way - with .NET Aspire
 
@@ -157,12 +146,7 @@ Aspire handles Redis setup and connection string injection for you:
       }
   }
   ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good Example - Simple Redis setup with .NET Aspire 🚀**",
-  shouldDisplay: true
-} } />
-
+**✅ **Figure: Good Example - Simple Redis setup with .NET Aspire 🚀****  
 
 No need to write Docker Compose files.
 No need for yaml 🤮.
@@ -175,14 +159,11 @@ Connection string is automatically injected.
 [Check out Microsoft's docs](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview?WT.mc_id=DT-MVP-33518).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You can test out Aspire by running the [SSW.CleanArchitecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template) - Let us know what you think!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

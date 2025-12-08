@@ -25,7 +25,7 @@ Model binding in the ASP.NET MVC framework is simple. Your action methods need d
 
 Model binders allow your controller code to remain cleanly separated from the dirtiness of interrogating the request and its associated environment.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public ActionResult Create(FormCollection values)
@@ -38,12 +38,7 @@ public ActionResult Create(FormCollection values)
     return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – Manually reading form values and assigning them to properties is tedious boiler-plate code!",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – Manually reading form values and assigning them to properties is tedious boiler-plate code!**  
 
 ```cs
 [AcceptVerbs(HttpVerbs.Post)]
@@ -54,8 +49,4 @@ public ActionResult Create(Recipe newRecipe)
     return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – Using MVC’s model binding allows you to work with an automatically-populated object instead",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – Using MVC’s model binding allows you to work with an automatically-populated object instead**

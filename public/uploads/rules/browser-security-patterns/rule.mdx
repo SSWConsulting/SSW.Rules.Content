@@ -29,7 +29,7 @@ Web security patterns are a lot like fashion trends. What looked sharp ten years
 
 Let’s take a lighthearted but practical tour of how browser security has evolved - from the early days of cookies, to the heyday of SPAs, to the modern approaches.
 
-<endOfIntro />
+<endIntro />
 
 ## 1. Cookie-Based Authentication (Traditional Web Apps)
 
@@ -58,8 +58,8 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
 * Intranets or smaller web apps that don’t need OAuth/OIDC or cross-domain API calls.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 * **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.
@@ -69,11 +69,8 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
   * `Lax`: Sent for top-level navigations (good balance).
   * `None` + `Secure`: Required for third-party usage.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

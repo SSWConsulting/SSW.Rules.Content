@@ -16,7 +16,7 @@ lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-know-what-happens-at-a-sprint-planning-meeting
 related:
-- rule: public/uploads/rules/sprint-forecast/rule.mdx
+- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
 - rule: public/uploads/rules/sprint-review-retro-email/rule.mdx
 - rule: public/uploads/rules/scrum-master-do-you-schedule-the-3-meetings/rule.mdx
 - rule: public/uploads/rules/do-you-conduct-an-architecture-review-after-every-sprint/rule.mdx
@@ -36,7 +36,7 @@ The work to be performed in the Sprint is planned at the Sprint Planning meeting
 * What can be delivered in the increment(s) resulting from the upcoming Sprint?
 * How will the work needed to deliver the increment(s) be achieved?
 
-<endOfIntro />
+<endIntro />
 
 ## Why is this Sprint valuable?
 
@@ -68,11 +68,8 @@ Once the differing votes are in, the Scrum Master asks the smallest and biggest 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A sample PBI in Azure DevOps",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="A sample PBI in Azure DevOps"
   src="/uploads/rules/what-happens-at-a-sprint-planning-meeting/PBI.png"
 />
 
@@ -108,8 +105,8 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 ---
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Learn more about the meetings in Scrum:
 
@@ -120,9 +117,6 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

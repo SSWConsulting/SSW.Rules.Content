@@ -25,7 +25,7 @@ uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-i
 
 MVC gives us great URLs, but you need to help users navigate via the URL. If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="http://www.youtube.com/embed/1j3m4A9Tlhc" description={"Video: Do you use the URL as a navigation aid (aka redirect to the correct url if it is incorrect)? (35 sec)"} />
@@ -46,27 +46,15 @@ public ActionResult Edit(string employeename, int id)
     return View(model);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The comment says it all Wordpress and Stack Overflow have URL formats that do this very well",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The comment says it all Wordpress and Stack Overflow have URL formats that do this very well**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     [http://stackoverflow.com/questions/729921/settimeout-or-setinterval](http://stackoverflow.com/questions/729921/settimeout-or-setinterval)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - If the \"settimeout-or-setinterval\" part of th eURL changes, the page will redirect to the correct location",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - If the "settimeout-or-setinterval" part of th eURL changes, the page will redirect to the correct location**

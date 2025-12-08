@@ -26,7 +26,7 @@ uri: do-you-look-for-duplicate-code
 
 Code duplication is a big "code smell" that harms maintainability. You should keep an eye out for repeated code and make sure you refactor it into a single place.
 
-<endOfIntro />
+<endIntro />
 
 For example, have a look at these two Action methods in an MVC 4 controller.
 
@@ -78,12 +78,7 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - The highlighted code is repeated and represents a potential maintenance issue.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example - The highlighted code is repeated and represents a potential maintenance issue.**  
 
 We can refactor this code to make sure the repeated lines are only in one place.
 
@@ -137,12 +132,7 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - The repeated code has been refactored into its own method.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - The repeated code has been refactored into its own method.**  
 
 **Tip:** The Refactor menu in Visual Studio 11 can do this refactoring for you.
 
@@ -150,10 +140,7 @@ public ActionResult Details(int id = 0)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The Extract Method function in Visual Studio's Refactor menu",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The Extract Method function in Visual Studio's Refactor menu"
   src="/uploads/rules/do-you-look-for-duplicate-code/vs_refactor_extract.png"
 />

@@ -33,7 +33,7 @@ uri: request-a-test-please
 
 Testing is a fundamental aspect of software development, serving as the quality assurance checkpoint that ensures a product functions as intended, meets user expectations, and operates reliably in various environments. This crucial phase helps identify and rectify issues, enhances user satisfaction, and ultimately safeguards a software's reputation and success.
 
-<endOfIntro />
+<endIntro />
 
 ## ✅ The ideal 'Test Please' workflow
 
@@ -110,16 +110,13 @@ Keep in mind that a "Test Please" is an urgent task and that it should start ASA
 
 Regards,
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
@@ -129,11 +126,8 @@ If current version is better than the last version you can release (even with a 
 * The changes in this version are fairly important to get out
 * You get to work on the failures ASAP
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -142,18 +136,15 @@ If current version is better than the last version you can release (even with a 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Ping!
 I need you to check my 'Test Please' email\
 See subject: Test Please - &#123;&#123; PRODUCT/DESIGN &#125;&#125; &#123;&#123; VERSION NUMBER &#125;&#125;"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -174,16 +165,13 @@ In this case, make sure you include the original thread subject in your email, s
 This way everyone will have the entire history of the task and its progress.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** A @ mention is all you need if you are following the ideal workflow 😉
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -216,14 +204,11 @@ For Windows Forms test you should include this info to the email:
 * If your test fails, please rename the executable to **Application_verX-XX_failed.exe**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For clients on fixed-price contracts, the 'Test Please' reply marks the start of the 30-day warranty period.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

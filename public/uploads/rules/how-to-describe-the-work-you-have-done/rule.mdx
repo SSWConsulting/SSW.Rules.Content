@@ -30,7 +30,7 @@ Clients want to know how you spend your time, and how you word it matters.
 
 On your timesheet entries, there are a few rules you should follow on how to best explain the value you have created for the client:
 
-<endOfIntro />
+<endIntro />
 
 - Use standard terms to describe the work you have done
   E.g. 'Build', 'Investigated', 'Resolved', 'Enhanced', 'Created', 'Optimized', 'Experimented with', 'Improved' or 'Fixed'.
@@ -39,41 +39,25 @@ On your timesheet entries, there are a few rules you should follow on how to bes
   The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Fixed Bug on customer form
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Figure - Bad example"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure - Bad example",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Investigated and improved the validation on customer form to enable saving when Customer name is \&gt; 100 characters
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Figure - Good example"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure - Good example",
-  shouldDisplay: true
-} } />
 
 
 - Be specific about what you did.
@@ -96,27 +80,19 @@ On your timesheet entries, there are a few rules you should follow on how to bes
 - Non-Billable time - If you do any work that is related to a client that you would not usually bill for (such as going to an initial meeting or travel within Sydney ), you should still enter it under that client - when it comes to invoicing time, this rate will be set to zero, but still show on the invoice, so the client has a record of all the time that was spent on their project.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Apply changes as per Tony's request for FRDCAPP
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This is an example of a bad timesheet note",
-  shouldDisplay: true
-} } />
-:
+**❌ Figure: Bad example - This is an example of a bad timesheet note**  :
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **'CaterPRO! Version 8.3Fixed Sales Reports (Sales Dashboard).**
 
@@ -126,23 +102,17 @@ Fixed Function Counts (was double-counting)
 
 Fixed DiaryTemplate UpdatesAttempt to run CaterPRO! in the old Windows 7 with Alan
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Informative timesheet note",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Informative timesheet note"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Use TimePro to avoid doubling up by using Azure DevOps commit messages that flow through to timesheets.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

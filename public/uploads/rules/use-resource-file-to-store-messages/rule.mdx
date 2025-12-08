@@ -10,9 +10,9 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: fce44252-62d0-45b3-b459-4e7014bef61e
 isArchived: false
-lastUpdated: 2023-08-15 03:09:57+00:00
-lastUpdatedBy: Brook Jeynes [SSW]
-lastUpdatedByEmail: jeynesbrook@gmail.com
+lastUpdated: 2025-10-16 06:54:07+00:00
+lastUpdatedBy: Hugo Pernet [SSW]
+lastUpdatedByEmail: hugo.pernet@esial.net
 redirects:
 - do-you-use-resource-file-to-store-messages
 seoDescription: Storing messages in a resource file allows for easy reusability and
@@ -25,27 +25,19 @@ uri: use-resource-file-to-store-messages
 
 All messages are stored in one central place so it's easy to reuse. Furthermore, it is strongly typed - easy to type with IntelliSense in Visual Studio.
 
-<endOfIntro />
+<endIntro />
 
 ```vbnet
 Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Write(HelloWorld)Console.Read() End Sub End Module
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example of a constant message",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example of a constant message**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Saving constant message in Resource",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Saving constant message in Resource"
   src="/uploads/rules/use-resource-file-to-store-messages/BetterCode_ConstantMessages.gif"
 />
 
@@ -53,8 +45,4 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 ```vbnet
 Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example of a constant message",
-  shouldDisplay: true
-} } />
+**✅ Good example of a constant message**

@@ -33,7 +33,7 @@ For client-side telemetry (e.g. Static Web Pages, Single Page Apps) the key will
 
 To prevent unintended access, Local authentication (via Instrumentation Key or API Keys) can be **disabled** for authenticating data ingestion. Once disabled, a **stronger authentication** method known as Role **Based Access Control (RBAC)** can be used.
 
-<endOfIntro />
+<endIntro />
 
 With Role-Based Access Control (RBAC) we can define the specific applications and users that have the ability to send telemetry data, making unauthorized data injection harder.
 
@@ -78,12 +78,7 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
   }
   // ... the rest of your app service configuration
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Enable System Assigned managed identity",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Enable System Assigned managed identity**  
 
 ### Enable Role Based Access Control for Application Insights using Bicep
 
@@ -104,12 +99,7 @@ resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Disable Local Authentication to enable Enhanced Security for Application Insights using Bicep",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Disable Local Authentication to enable Enhanced Security for Application Insights using Bicep**  
 
 Disabling the local authentication enables RBAC which means that only users and applications with the `Monitoring Metrics Publisher` role and the appropriate instrumentation key will be able to track telemetry with this instance of Application Insights.
 
@@ -159,23 +149,15 @@ resource monitoringMetricsPublisherRoleAssignment 'Microsoft.Authorization/roleA
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Assigning Monitoring Metrics Publisher role to AppService Managed Identity using Bicep**  
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="AppInsights shows the Monitoring Metrics Publisher role is assigned to AppService"
   src="/uploads/rules/appinsights-authentication/appinsights-assigned-role.png"
 />
 
@@ -223,12 +205,7 @@ builder.Services.AddApplicationInsightsTelemetry(builder.Configuration);
 // ---- the rest of Program.cs ----
 
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Using Managed Identities when authenticating with Application Insights",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Using Managed Identities when authenticating with Application Insights**  
 
 Once the application starts up, authenticates with Application Insights, then you can start observing telemetry in the Application Insights resource or Application Dashboards.
 

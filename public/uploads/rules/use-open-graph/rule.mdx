@@ -26,7 +26,7 @@ uri: use-open-graph
 
 Open Graph is a metadata tag that allows you to control what content shows up when a page is shared on social media networks.
 
-<endOfIntro />
+<endIntro />
 
 It should be placed on the &lt;head&gt; section of your page. The most used properties are:
 
@@ -40,11 +40,8 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Shared link has no image and the title was \"guessed\" by LinkedIn",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - Shared link has no image and the title was \"guessed\" by LinkedIn'
   src="/uploads/rules/use-open-graph/open-graph-bad.jpg"
 />
 
@@ -53,18 +50,15 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Shared link has a nice image and title, both defined via Open Graph tags",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Shared link has a nice image and title, both defined via Open Graph tags"
   src="/uploads/rules/use-open-graph/opengraph-good.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For LinkedIn you might need to add the prefix as following:
 
@@ -73,11 +67,8 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
 ```
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

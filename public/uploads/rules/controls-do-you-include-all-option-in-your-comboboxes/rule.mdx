@@ -30,7 +30,7 @@ It is important to understand the idea of **visual text** . In a list you could 
 
 They both have the same meaning, but the first one is immediately visible whereas the second one must be read.
 
-<endOfIntro />
+<endIntro />
 
 If the ID column in your database is a string data type, it is useful to add a constraint to limit the types of characters that it can contain. Adding a constraint can make it simpler to build your front-end, as you won't need to worry about encoding or escaping to handle special characters.
 
@@ -45,11 +45,8 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No '-All-' option so the user cannot select all data",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - No '-All-' option so the user cannot select all data"
   src="/uploads/rules/controls-do-you-include-all-option-in-your-comboboxes/Combo-ALL-1.jpg"
 />
 
@@ -58,11 +55,8 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Having an '-All-' option gives a user a chance to select all data",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Having an '-All-' option gives a user a chance to select all data"
   src="/uploads/rules/controls-do-you-include-all-option-in-your-comboboxes/Combo-ALL-2.jpg"
 />
 
@@ -73,11 +67,8 @@ Also, keep it simple!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - '-All Stores-' isn't needed",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - '-All Stores-' isn't needed"
   src="/uploads/rules/controls-do-you-include-all-option-in-your-comboboxes/SelectAllBad.jpg"
 />
 
@@ -86,11 +77,8 @@ Also, keep it simple!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Keep it as a simple '-All-'",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Keep it as a simple '-All-'"
   src="/uploads/rules/controls-do-you-include-all-option-in-your-comboboxes/SelectAllGood.jpg"
 />
 
@@ -99,11 +87,8 @@ Also, keep it simple!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields."
   src="/uploads/rules/controls-do-you-include-all-option-in-your-comboboxes/SelectAllVGood.gif"
 />
 

@@ -20,7 +20,7 @@ isArchived: false
 
 When making significant changes to your pipeline, it's crucial to test them in a separate repository first. This approach ensures that the main repository remains unaffected by potential errors or disruptions during the testing phase. Most importantly, it guarantees that unintended deployments, especially to production, are avoided.
 
-<endOfIntro />
+<endIntro />
 
 Examining a mistake directly in the GitHub YAML file can be error-prone and might not provide a clear understanding of the issue.
 
@@ -28,11 +28,8 @@ Examining a mistake directly in the GitHub YAML file can be error-prone and migh
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This should read \"needs: approval-gate\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - This should read \"needs: approval-gate\"'
   src="/uploads/rules/complete-major-changes-on-another-repo/2023-09-14_14-05-04.png"
 />
 
@@ -45,10 +42,7 @@ By executing the pipeline and examining its graphical representation, errors or 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order"
   src="/uploads/rules/complete-major-changes-on-another-repo/2023-09-14_14-11-09.png"
 />

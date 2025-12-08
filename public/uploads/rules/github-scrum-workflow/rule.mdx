@@ -16,7 +16,7 @@ lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
 - do-you-know-how-to-set-up-github-workflow
 related:
-- rule: public/uploads/rules/sprint-forecast/rule.mdx
+- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
 - rule: public/uploads/rules/size-pbis-effectively/rule.mdx
 seoDescription: Discover how to set up a GitHub Scrum workflow and streamline your
   agile development process with ease.
@@ -27,7 +27,7 @@ uri: github-scrum-workflow
 
 GitHub issues (classic) offers a great way to have an agile development process following a kanban process. Unfortunately it requires a bit of effort (or a 3rd party tool) to set it up for good Scrum.
 
-<endOfIntro />
+<endIntro />
 
 **Note:** Based on [GitHub Scrum workflow](https://github.com/jvandemo/github-scrum-workflow).
 
@@ -92,16 +92,13 @@ This process allows you to group PBIs in Sprints and track them by milestone in 
 The backlog then consists of all PBIs that have no `milestone` attached to them.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Use `no:milestone` in the search field on your issue dashboard to find PBIs.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

@@ -25,7 +25,7 @@ uri: avoid-showing-change-as-percentage
 
 When comparing two sets of data in a report (for example, sales this month compared to last), showing the change as a percentage is a bad idea.
 
-<endOfIntro />
+<endIntro />
 
 For example, if you made 1 sale last month and 2 this month, you have had a 100% increase. If for another product you made 1000 sales last month and 2000 this month, that is also a 100% increase, but you've sold 1000 of that product compared to 1 of the other product.
 
@@ -37,11 +37,8 @@ For this reason, show the difference as an actual value, so you can compare all 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The percentage change column in this Reporting Services product downloads report is misleading",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The percentage change column in this Reporting Services product downloads report is misleading"
   src="/uploads/rules/avoid-showing-change-as-percentage/productdownloadgraph_rs2005_bad.gif"
 />
 
@@ -52,10 +49,7 @@ For this reason, show the difference as an actual value, so you can compare all 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The column works better as just a difference between the current and previous download totals",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The column works better as just a difference between the current and previous download totals"
   src="/uploads/rules/avoid-showing-change-as-percentage/productdownloadgraph_rs2005_good.gif"
 />

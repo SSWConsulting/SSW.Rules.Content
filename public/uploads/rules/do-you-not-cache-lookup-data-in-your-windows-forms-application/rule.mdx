@@ -20,7 +20,7 @@ isArchived: false
 
 To avoid unnecessary database look-ups, many developers cache lookup tables when creating a windows application. There are issue  that can arise as a result, mainly to do with the synching of the lookup data. If the database administrator decides to change the lookup tables, there is bound to be a user online using a static old version of the lookup data. This may result in sql exception, and data corruption.
 
-<endOfIntro />
+<endIntro />
 
 **Exception #1:** If the application can be taken offline where the users will not access the database for a finite time, then it is recommended that you cache lookup data. However, we do not recommend caching of non-lookup data, i.e. products, clients or invoices.
 

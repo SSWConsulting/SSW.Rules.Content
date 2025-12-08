@@ -26,7 +26,7 @@ uri: catering-to-audience
 
 Often when you are talking with others, it is easy to forget they have a different background and experience to you. Then, once you start explaining something to them, they easily become lost. So, it is crucial to think about your audience before talking.
 
-<endOfIntro />
+<endIntro />
 
 Some examples of the differences in what different people on the team might care about include:
 
@@ -49,8 +49,8 @@ Let's say you've been asked to add a new field "Customer Name" to the Northwind 
 First, let's see what a bad example of explaining this PBI looks like:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey,
 
@@ -60,11 +60,8 @@ I'm also not sure about where to put the new field on the Projects page... I'm t
 
 Overall, I think the PBI is going to take a few more hours than we thought due to these roadblocks.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The message's audience is not targeted, making it hard for others to decipher",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The message's audience is not targeted, making it hard for others to decipher"
 />
 
 
@@ -77,8 +74,8 @@ They're probably not as concerned about the UX problem or the technical issues, 
 It's also a good idea to [give them the option](/do-you-manage-up) to hear more technical details incase they want to learn more.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey,
 
@@ -90,11 +87,8 @@ Once I've done that then it should be ready to deploy to dev :)
 
 Would you like to know more technical details, or should I get cracking?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Targeting the message towards the Product Owner",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Targeting the message towards the Product Owner"
 />
 
 
@@ -103,8 +97,8 @@ Would you like to know more technical details, or should I get cracking?
 They're probably not as concerned about the UX problem or the business impact, so you want to emphasize the technical side so they can help you out.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey,
 
@@ -112,11 +106,8 @@ I'm having trouble adding the "Customer Name" field to the Projects page because
 
 Do you think I should add it?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Targeting the message towards the Developer",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Targeting the message towards the Developer"
 />
 
 
@@ -125,8 +116,8 @@ Do you think I should add it?
 They're probably not as concerned about the technical issue or the business impact, so you want to emphasize the UX problem so they can help you out.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hey,
 
@@ -134,11 +125,8 @@ I'm adding a new field to the Projects page for customer name. I'm thinking of p
 
 Do you think that is the right place?
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Targeting the message towards the Designer",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Targeting the message towards the Designer"
 />
 
 

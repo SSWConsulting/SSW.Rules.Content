@@ -24,7 +24,7 @@ uri: use-a-regular-expression-to-validate-an-uri
 
 A regex is the best way to verify an URI.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 public bool IsValidUri(string uri)
@@ -40,12 +40,7 @@ return false;
 }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example of verifying URI",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example of verifying URI**  
 
 ```csharp
 public bool IsValidUri(string uri)
@@ -54,11 +49,6 @@ public bool IsValidUri(string uri)
 return System.Text.RegularExpressions.Regex.IsMatch( uri,@"^(http|ftp|https)://([^\/][\w-/:]+\.?)+([\w- ./?/:/;/\%&=]+)?(/[\w- ./?/:/;/\%&=]*)?");
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example of verifying URI",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example of verifying URI**  
 
 You should have unit tests for it, see our [Rules to Better Unit Tests](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx) for more information.

@@ -24,27 +24,17 @@ uri: create-a-consistent-primary-key-column-on-your-tables
 
 Make sure you created a consistent primary key column named **Id** on your tables.
 
-<endOfIntro />
+<endIntro />
 
 ```sql
 Employee.ID, Employee.EmployeeId, Employee.EmployeeID, Employee.Employee_Code, Employee.Employee
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example**  
 
 ```sql
 Employee.Id
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example**  
 
 ### Why?
 

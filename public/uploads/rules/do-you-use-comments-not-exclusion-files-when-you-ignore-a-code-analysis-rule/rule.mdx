@@ -23,17 +23,14 @@ uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rul
 
 When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example -",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example -"
   src="/uploads/rules/do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule/code-analysis-bad-example.jpg"
 />
 
@@ -42,11 +39,8 @@ When running code analysis you may need to ignore some rules that aren't relevan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The Solution and Projects are named consistently",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The Solution and Projects are named consistently"
   src="/uploads/rules/do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule/code-analysis-good-example.jpg"
 />
 
@@ -63,8 +57,4 @@ public partial class Account
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The Solution and Projects are named consistently",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The Solution and Projects are named consistently**

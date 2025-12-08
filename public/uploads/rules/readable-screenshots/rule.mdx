@@ -9,8 +9,14 @@ categories:
 - category: categories/communication/rules-to-better-email.mdx
 - category: categories/communication/rules-to-better-technical-documentation.mdx
 - category: categories/software-engineering/rules-to-better-websites-graphics.mdx
-created: 2015-10-13 00:30:14+00:00
+created: 2025-10-24 07:46:02+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: 6011c97c-6bb6-4ddc-a627-8f5238405baa
+isArchived: false
+lastUpdated: 2025-10-24 07:46:02+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
 - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
@@ -29,7 +35,7 @@ Screenshots are a great way to explain instructions or share information, but if
 
 Always check that your screenshots are clear, properly cropped, and readable. If people can’t see what you’re showing, your message gets lost.
 
-<endOfIntro />
+<endIntro />
 
 ## Only keep what is relevant
 
@@ -41,11 +47,8 @@ In the cases where you do need a full screenshot, it's a good idea to allow user
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The contents of the screenshots are difficult to read",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The contents of the screenshots are difficult to read"
   src="/uploads/rules/readable-screenshots/images-uncropped-bad.png"
 />
 
@@ -54,11 +57,8 @@ In the cases where you do need a full screenshot, it's a good idea to allow user
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The contents of the screenshots are readable, since the image was cropped to the relevant part",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The contents of the screenshots are readable, since the image was cropped to the relevant part"
   src="/uploads/rules/readable-screenshots/images-cropped-good.png"
 />
 
@@ -68,27 +68,21 @@ In the cases where you do need a full screenshot, it's a good idea to allow user
 To reduce white space and make screenshots easier better to capture, resize the browser to show the most relevant content.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** In a PC, press `Windows + Left Arrow` to split your screen and snap your browser to one side.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Too much white space",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Too much white space"
   src="/uploads/rules/readable-screenshots/screenshot-whitespace-bad.png"
 />
 
@@ -97,11 +91,8 @@ To reduce white space and make screenshots easier better to capture, resize the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Screen resized to the relevant part",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Screen resized to the relevant part"
   src="/uploads/rules/readable-screenshots/screenshot-whitespace-good.png"
 />
 
@@ -115,27 +106,21 @@ Modern mobile devices have extraordinary screen resolution, which makes screensh
 When adding a mobile screenshot, make sure its width is about 50% of a desktop screen.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can [use CSS to make large images show smaller](https://www.w3schools.com/css/css_rwd_images.asp).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - mobile screenshot is way too big",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - mobile screenshot is way too big"
   src="/uploads/rules/readable-screenshots/privacy-mode-ios-huge.png"
 />
 
@@ -144,10 +129,7 @@ When adding a mobile screenshot, make sure its width is about 50% of a desktop s
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - mobile screenshot is smaller and easier to follow",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - mobile screenshot is smaller and easier to follow"
   src="/uploads/rules/readable-screenshots/privacy-mode-ios.png"
 />

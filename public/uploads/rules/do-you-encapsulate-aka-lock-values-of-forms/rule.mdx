@@ -20,7 +20,7 @@ isArchived: false
 
 One useful feature of inherited forms is the ability to lock the value of certain properties on the inherited copy. E.g.:
 
-<endOfIntro />
+<endIntro />
 
 - **Font** - we want to maintain a consistent font across all forms
 - **BackColor** - changing the background color prevents the form from being themed
@@ -71,11 +71,8 @@ End Property
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Font Property Visible",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Font Property Visible"
   src="/uploads/rules/do-you-encapsulate-aka-lock-values-of-forms/fontpropertyvisible.gif"
 />
 
@@ -85,10 +82,7 @@ End Property
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Font Property Hidden",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Font Property Hidden"
   src="/uploads/rules/do-you-encapsulate-aka-lock-values-of-forms/fontpropertyhidden.gif"
 />

@@ -24,7 +24,7 @@ The `WebApplicationFactory` class is used for bootstrapping an application in me
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.
 
-<endOfIntro />
+<endIntro />
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
 
@@ -34,11 +34,8 @@ Top level statements allows for a cleaner `Program` class, but it also means you
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using an InternalsVisibleTo attribute in the csproj",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using an InternalsVisibleTo attribute in the csproj"
   src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-InternalsVisibleTo-attribute.jpg"
 />
 
@@ -57,11 +54,8 @@ This small change leads to a long road of pain:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using a public partial program class",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using a public partial program class"
   src="/uploads/rules/use-iapimarker-with-webapplicationfactory/Using-public-partial-program-class.jpg"
 />
 
@@ -83,11 +77,6 @@ public interface IApiMarker
 {
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using an `IApiMarker` interface",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using an `IApiMarker` interface**  
 
 Using the `IApiMarker` interface allows you reference your application project in a consistent way, the approach is the same when you use top level statements or standard Program.Main entry points.

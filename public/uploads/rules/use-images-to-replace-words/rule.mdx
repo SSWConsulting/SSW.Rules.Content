@@ -30,30 +30,24 @@ uri: use-images-to-replace-words
 
 Therefore, whenever possible, replace text with images to create more engaging and impactful content. By doing so, you can simplify your message, appeal to visual learners, and make your communication more memorable.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You then have this pretty white flower with a green stem standing on a water pond. It is beautiful.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - A text describing a flower",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - A text describing a flower"
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A picture of a flower is way better",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A picture of a flower is way better"
   src="/uploads/rules/use-images-to-replace-words/flower.jpg"
 />
 

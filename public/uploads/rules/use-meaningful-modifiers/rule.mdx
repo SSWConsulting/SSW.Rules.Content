@@ -36,45 +36,29 @@ uri: use-meaningful-modifiers
 
 When creating custom controls, avoid vague or generic names like CustomStepper or CustomDbContext. Generic terms like “custom” or “base” don’t communicate what makes the component unique, and they add little value for other developers. Instead, use meaningful modifiers that describe the component’s specific purpose or customization.
 
-<endOfIntro />
+<endIntro />
 
 ## Why it matters
 
 Meaningful modifiers make it clear what a class, module, or component does or how it differs from a standard version. This helps developers understand its role without digging through code and reduces the chance of naming conflicts with other libraries.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Naming a custom **`DbContext`** implementation **`CustomDbContext`** or a specialized input control **`CustomInput`** doesn’t provide any real information. It’s unclear what is customized, making it harder to understand and maintain.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - A modifier that doesn't tell you what has been modified is of no value"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - A modifier that doesn't tell you what has been modified is of no value",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     A more descriptive name, like **`WriteOnlyDbContext`** or **`BorderlessTextInput`**, indicates exactly what’s different about the component, making it easier to understand its function at a glance.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - A modifier that clearly conveys what is different from the original can save developers time reading through the code"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - A modifier that clearly conveys what is different from the original can save developers time reading through the code",
-  shouldDisplay: true
-} } />

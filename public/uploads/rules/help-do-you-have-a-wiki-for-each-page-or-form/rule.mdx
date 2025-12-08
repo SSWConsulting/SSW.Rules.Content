@@ -23,13 +23,13 @@ uri: help-do-you-have-a-wiki-for-each-page-or-form
 
 In agile development; updates, changes and bug fixes happen all the time and an issue that a user encounters today might already is fixed or have a workaround. That is why each page or form should link to a wiki page with any common problems that a user might encounter (and workarounds for them) and planned changes.
 
-<endOfIntro />
+<endIntro />
 
 This saves the end user from resorting to crawling the web for solutions.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **From:** Tech Support
 **Sent:** Wednesday, 27 January 2010 4:31 PM
@@ -67,21 +67,15 @@ I have no idea what this is telling me. Anyone have any ideas?
 Thanks!
 Mr Northwind
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The user encounters an issue and has to email someone about it",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The user encounters an issue and has to email someone about it"
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The 'Wiki...' link in the bottom left, takes the user to a wiki page with common issues and workarounds for this form (e.g. Creating a Project Portal)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The 'Wiki...' link in the bottom left, takes the user to a wiki page with common issues and workarounds for this form (e.g. Creating a Project Portal)"
   src="/uploads/rules/help-do-you-have-a-wiki-for-each-page-or-form/InterfacesWiki.png"
 />

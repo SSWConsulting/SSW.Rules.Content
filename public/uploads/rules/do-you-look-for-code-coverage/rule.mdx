@@ -33,7 +33,7 @@ uri: do-you-look-for-code-coverage
 
 Code Coverage shows how much of your code is covered by tests and can be a useful tool for showing how effective your unit testing strategy is. However, it should be looked at with caution.
 
-<endOfIntro />
+<endIntro />
 
 - You should focus more on the **quality** and less on the **quantity** of tests
 - You should write tests for fragile code first and not waste time testing trivial methods
@@ -47,24 +47,18 @@ Code Coverage shows how much of your code is covered by tests and can be a usefu
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Code Coverage metrics in Visual Studio. This solution has high code coverage (around 80% on average)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Code Coverage metrics in Visual Studio. This solution has high code coverage (around 80% on average)"
   src="/uploads/rules/do-you-look-for-code-coverage/CodeCoverage2010.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** To make sure your unit test coverage never decreases, make use of tools such as [SonarQube](https://www.sonarsource.com/products/sonarqube/) and [GitHub action checks](https://github.com/marketplace/actions/code-coverage-summary) to gate your deployment pipelines on non-decreasing test coverage.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

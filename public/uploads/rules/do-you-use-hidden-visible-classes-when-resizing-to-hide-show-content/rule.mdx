@@ -25,7 +25,7 @@ uri: do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content
 
 When designing responsive websites, it's important to consider what content is appropriate for each screen size. Desktops might have large navigation areas and extra content in a sidebar, whereas the phone might focus on other content.
 
-<endOfIntro />
+<endIntro />
 
 By default, Bootstrap will wrap the columns and make them full width on phones. If you want to hide content rather than let it wrap you can use the `.d-none` class or one of the `.d-{sm,md,lg,xl}-none` classes for any responsive screen variation.
 
@@ -35,11 +35,8 @@ More information on [Display property - Quickly and responsively toggle the disp
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The mobile view on the right has a large unnecessary title",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - The mobile view on the right has a large unnecessary title"
   src="/uploads/rules/do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content/RulesBootstrap - hidden.png"
 />
 
@@ -54,10 +51,7 @@ Remove the title by adding the `.hidden-xs` class.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The mobile view is now leaner and cleaner thanks to Bootstrap display classes",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The mobile view is now leaner and cleaner thanks to Bootstrap display classes"
   src="/uploads/rules/do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content/RulesBootstrap - hidden2.png"
 />

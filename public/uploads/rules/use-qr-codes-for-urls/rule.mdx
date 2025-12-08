@@ -24,7 +24,7 @@ uri: use-qr-codes-for-urls
 
 Have you ever watched an awesome presentation? The presenter promises to share some resources. You’re excited to see what they recommend. But then they start racing through their slides. The URLs flash past before you can even write them down. Frustrating, right? Don’t do that to your audience.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=gB0-1yoR8g4" description={"Video: What’s the difference between QR and barcode? (2 min)"} />
@@ -39,11 +39,8 @@ This reduces friction for interested people trying to view your website!
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - We use QR codes in our banners in conference, making attendees more likely to open the website on their phones",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - We use QR codes in our banners in conference, making attendees more likely to open the website on their phones"
   src="/uploads/rules/use-qr-codes-for-urls/qr-code-in-booth.png"
 />
 
@@ -56,11 +53,8 @@ Sometimes you need to show URLs on a slide. For example, you might be talking ab
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A long URL is impossible to note down",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - A long URL is impossible to note down"
   src="/uploads/rules/use-qr-codes-for-urls/url-in-presentation-bad.png"
 />
 
@@ -71,11 +65,8 @@ A better approach is to use QR codes in your slides. Your audience scans the cod
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A QR code is easier for the audience to quickly scan during a talk",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A QR code is easier for the audience to quickly scan during a talk"
   src="/uploads/rules/use-qr-codes-for-urls/url-in-presentation-good.png"
 />
 
@@ -83,8 +74,8 @@ A better approach is to use QR codes in your slides. Your audience scans the cod
 ---
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 **Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint.
@@ -95,9 +86,6 @@ Check out this video:
 <youtubeEmbed url="https://www.youtube.com/embed/XRveGL3nXUM" description={"Video: How to create QR code in PowerPoint (2 min)"} />
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

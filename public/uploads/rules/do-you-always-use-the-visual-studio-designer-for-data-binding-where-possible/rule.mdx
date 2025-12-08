@@ -23,18 +23,15 @@ uri: do-you-always-use-the-visual-studio-designer-for-data-binding-where-possibl
 
 Basic data binding should always be done in the designer because the syntax for data binding is complex, and confusing for other developers reading the code.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Simple data binding (binding to a single property) in the designer",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Simple data binding (binding to a single property) in the designer"
   src="/uploads/rules/do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible/simpledatabindingdesigner.gif"
 />
 
@@ -44,11 +41,8 @@ Basic data binding should always be done in the designer because the syntax for 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Complex data binding (binding to a list) in the designer",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Complex data binding (binding to a list) in the designer"
   src="/uploads/rules/do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible/complexdatabindingdesigner.gif"
 />
 
@@ -103,12 +97,7 @@ private void InitializeComponent()
     this.requiredValidator1.SetDisplayName(this.cmbTumorQuad, "");
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - DataBinding in Designer",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - DataBinding in Designer**  
 
 ```cs
 private void DataBind()
@@ -130,12 +119,7 @@ object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventH
     return b;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - DataBinding in Code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - DataBinding in Code**  
 
 ```cs
 private void DataBind()
@@ -160,8 +144,4 @@ private void DataBind()
     dateLastUpdatedTextBox.Text = rule.DateUpdated.ToString();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Set controls' values in Code",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Set controls' values in Code**

@@ -29,7 +29,7 @@ If you have to use a workaround you should always comment your code.
 
 In your code add comments with:
 
-<endOfIntro />
+<endIntro />
 
 1. The pain - In the code add a URL to the existing resource you are following
    e.g. a blog post
@@ -37,16 +37,13 @@ In your code add comments with:
    e.g. on [https://uservoice.com/](https://uservoice.com/) or [https://bettersoftwaresuggestions.com/](https://bettersoftwaresuggestions.com/)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "This is a workaround as per the suggestion \[URL]"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Always add a URL to the suggestion that you are compensating for",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Always add a URL to the suggestion that you are compensating for"
 />
 
 

@@ -12,9 +12,9 @@ createdBy: Unknown
 createdByEmail: Unknown@ssw.com.au
 guid: 0fc40d1a-ca9a-4c2d-be62-831fe962bfd5
 isArchived: false
-lastUpdated: 2025-02-04 12:34:58+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-22 07:02:06+00:00
+lastUpdatedBy: Willow Lyu [SSW]
+lastUpdatedByEmail: 121055451+yaqi-lyu@users.noreply.github.com
 redirects:
 - do-you-know-you-should-always-use-the-language-of-your-head-office-(usually-english)
 seoDescription: Always use English in communications involving your head office for
@@ -27,47 +27,32 @@ uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-
 
 Say your language is Chinese, of course, local Chinese customers would feel more comfortable communicating in Chinese. The disconnect happens when head office needs to get involved. They can't review emails, read the history of email threads etc.
 
-<endOfIntro />
+<endIntro />
 
 So make it easier to add English speakers into the loop at a moments notice.
 
 The most polite way of doing this is to mention in the email why you are using English.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Hi Joe, hope all is well. I wanted to confirm our conversation...
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     (This is in English since I have included a Sydney colleague... let me know if you need it in Chinese).
 
 Hi Joe, hope all is well. I wanted to confirm our conversation...
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example**

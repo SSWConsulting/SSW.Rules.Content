@@ -35,45 +35,29 @@ To ensure clarity and consistency in our calendar invites, please follow the nam
 
 This helps everyone quickly identify the purpose of the meeting, improves calendar visibility, and supports accurate reporting.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** Northwind project with SSW and Bob
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Not clear it is an initial meeting",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Not clear it is an initial meeting**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Subject:** ==Initial== phone ==meeting== with Adam from SSW and Bob from Northwind
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Includes the words \"initial meeting\" and the names of attendees",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Includes the words "initial meeting" and the names of attendees**  
 
 The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
 
@@ -84,11 +68,8 @@ The Appointment should also be tracked (without regarding) in Dynamics 365 so th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding"
   src="/uploads/rules/track-your-initial-meetings/set-regarding-to-opportunity.png"
 />
 
@@ -100,11 +81,8 @@ The idea behind it is that Power BI can then show the time elapsed between each 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Time to win report",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Time to win report"
   src="/uploads/rules/track-your-initial-meetings/time-to-win-graph.png"
 />
 
@@ -114,10 +92,7 @@ The idea behind it is that Power BI can then show the time elapsed between each 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Initial meetings report",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Initial meetings report"
   src="/uploads/rules/track-your-initial-meetings/initial-meeting-graph.png"
 />

@@ -30,7 +30,7 @@ Source control is the backup of your code, as well as your tool for tracking cha
 
 With source control, we can share project code and collaborate with other team members. Using it allows us to track changes, compare code, and even roll-back if required. Moreover, it keeps our code safe and that is the most important part.
 
-<endOfIntro />
+<endIntro />
 
 It also helps you to do root cause analysis by finding out who made the change. Then, you can chat with them and get aligned on what caused the problem and what is the best solution moving forward. Remember, the person who made the change might have important knowledge that you don't know!
 
@@ -38,8 +38,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
 > **- Adam Cogan**
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Using VS Code? There are 2 awesome extensions to see history:**
 
@@ -47,11 +47,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
 * [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -60,11 +57,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Right-click a file and select Git | View History to see the changes in source control",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Right-click a file and select Git | View History to see the changes in source control"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/FileChanges.jpg"
 />
 
@@ -74,11 +68,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "We can select different changesets and compare the changes",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="We can select different changesets and compare the changes"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/CompareFileChanges.jpg"
 />
 
@@ -88,11 +79,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "We can select different changesets and compare the changes. Blue = modified, Green = addition, Red = deletion",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="We can select different changesets and compare the changes. Blue = modified, Green = addition, Red = deletion"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/Changesets.jpg"
 />
 
@@ -102,11 +90,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Right click a file and select Git | Blame (Annotate) to view the history on a segment basis",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Right click a file and select Git | Blame (Annotate) to view the history on a segment basis"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/Annotate.jpg"
 />
 
@@ -116,11 +101,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Use annotate to understand (or find the guy) to understand his thoughts before deleting/changing someone elses code",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Use annotate to understand (or find the guy) to understand his thoughts before deleting/changing someone elses code"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/AnnotatedFile.jpg"
 />
 
@@ -130,10 +112,7 @@ It also helps you to do root cause analysis by finding out who made the change. 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Annotation is great, but it gets even better when clicking the commit code gives you full details",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Annotation is great, but it gets even better when clicking the commit code gives you full details"
   src="/uploads/rules/do-you-know-the-benefits-of-using-source-control/AnnotateDetails.jpg"
 />

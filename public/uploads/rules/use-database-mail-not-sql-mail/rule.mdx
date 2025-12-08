@@ -33,17 +33,14 @@ SQL Server includes Database Mail (it was a new feature released back in 2005 as
 - Logging and auditing
 - Attachment size regulations and file extension requirements
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using SQL Mail",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using SQL Mail"
   src="/uploads/rules/use-database-mail-not-sql-mail/SQLDatabases_SQLMail.png"
 />
 
@@ -58,22 +55,14 @@ EXEC master.dbo.xp_smtp_sendmail
 @type = N'text/html',
 @server = N'mail.company.com.au'
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Avoid using SQL Mail - you need to have Outlook on the server and there is no built-in logging",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Avoid using SQL Mail - you need to have Outlook on the server and there is no built-in logging**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example -  Use Database Mail",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example -  Use Database Mail"
   src="/uploads/rules/use-database-mail-not-sql-mail/SqlDatabaseMail01.png"
 />
 
@@ -88,8 +77,4 @@ Execute dbo.sp_send_dbmail
 @subject = 'Vendor List',
 @attach_query_result_as_file = 1
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Use database mail for scalability, built-in logging and HTML capability",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Use database mail for scalability, built-in logging and HTML capability**

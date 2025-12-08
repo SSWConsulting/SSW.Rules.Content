@@ -14,9 +14,9 @@ redirects:
   - microsoft-endpoint-use-conditional-access-policies
 created: 2022-05-02T17:00:19.000Z
 guid: deadd754-b7c5-4564-8e44-234642690769
-lastUpdated: 2024-06-08T03:27:17.000Z
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-28T18:33:02.000Z
+lastUpdatedBy: Rob Thomlinson [SSW]
+lastUpdatedByEmail: RobThomlinson@ssw.com.au
 createdBy: Kaique "Kiki" Biancatti [SSW]
 createdByEmail: kikibianc@hotmail.com
 isArchived: false
@@ -26,17 +26,14 @@ Did you know that you can stop your users from logging into any of your Azure or
 
 This seriously limits the attack surface and also helps to stop compromised devices and accounts from being used.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No locations setup",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - No locations setup"
   src="/uploads/rules/conditional-access-policies/locationsbadexample.png"
 />
 
@@ -53,11 +50,8 @@ First you need to add any locations that you require for your office.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a location",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add a location"
   src="/uploads/rules/conditional-access-policies/locations1.png"
 />
 
@@ -69,11 +63,8 @@ First you need to add any locations that you require for your office.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Every location that your users work from",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Every location that your users work from"
   src="/uploads/rules/conditional-access-policies/locationsadded.png"
 />
 
@@ -90,11 +81,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a conditional access policy",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add a conditional access policy"
   src="/uploads/rules/conditional-access-policies/conditionalaccess2.png"
 />
 
@@ -106,11 +94,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add all cloud apps",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add all cloud apps"
   src="/uploads/rules/conditional-access-policies/conditionalaccess3.png"
 />
 
@@ -123,11 +108,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Choose any location",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Choose any location"
   src="/uploads/rules/conditional-access-policies/conditionalaccess4.png"
 />
 
@@ -141,11 +123,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Exclude good locations",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Exclude good locations"
   src="/uploads/rules/conditional-access-policies/conditionalaccess5.png"
 />
 
@@ -157,11 +136,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Block access",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Block access"
   src="/uploads/rules/conditional-access-policies/conditionalaccess6.png"
 />
 
@@ -176,11 +152,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a grant with MFA",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add a grant with MFA"
   src="/uploads/rules/conditional-access-policies/conditionalaccess7.png"
 />
 
@@ -194,11 +167,8 @@ Now configure some policies to implement these rules
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Choose report only until you are sure that your rules work",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Choose report only until you are sure that your rules work"
   src="/uploads/rules/conditional-access-policies/conditionalaccess8.png"
 />
 
@@ -213,11 +183,8 @@ Traveling users should inform and request access prior to their departure. A g
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Inform of your travel using an easy form",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Inform of your travel using an easy form"
   src="/uploads/rules/conditional-access-policies/internationaltravel.png"
 />
 
@@ -228,11 +195,8 @@ Otherwise they will get this message:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - You get this error message: \"You cannot access this right now\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - You get this error message: \"You cannot access this right now\"'
   src="/uploads/rules/conditional-access-policies/conditionalaccess.jpg"
 />
 

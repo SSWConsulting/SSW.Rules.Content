@@ -96,6 +96,10 @@ ASSET_LINK_REGEX = r'(?<!\!)\[(?P<text>[^\]]+)\]\((?P<href>[^)\s]+)(?:\s+"(?P<ti
 def js_string(text: str) -> str:
     return json.dumps(text, ensure_ascii=False)
 
+def js_string_unquoted(text: str) -> str:
+    dumped = json.dumps(text, ensure_ascii=False)
+    return dumped[1:-1]  # remove the surrounding double quotes
+
 def mdx_safe_template_vars(text):
     return text.replace("{{", "&#123;&#123;").replace("}}", "&#125;&#125;")
 
@@ -161,7 +165,7 @@ def escape_angle_brackets_except(text: str, allowed_tags=("mark",)) -> str:
 def convert_mark_tags_to_md_highlight(text: str) -> str:
     return re.sub(MARK_TAG_REGEX, lambda m: f"=={m.group(1)}==", text, flags=re.IGNORECASE | re.DOTALL)
 
-def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")) -> bool:
+def is_inside_any_embed_body(s: str, pos: int, component_tags=("<emailEmbed", "<boxEmbed")) -> bool:
     body_start = s.rfind('body={<>', 0, pos)
     if body_start == -1:
         return False
@@ -196,15 +200,6 @@ def keep_image_block_with_prefixed_src(m, src_prefix: str) -> str:
         return f'![{alt}]({new_src})'
     return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, image_line)
 
-def keep_simple_block_with_prefixed_images(m, src_prefix: str) -> str:
-    body = m.group(2)
-    def _repl(md_img_m):
-        alt = md_img_m.group(1).strip()
-        raw_src = md_img_m.group(2).strip()
-        new_src = add_prefix_if_relative(raw_src, src_prefix)
-        return f'![{alt}]({new_src})'
-    return re.sub(r'!\[(?:Figure:\s*)?(.*?)\]\((.*?)\)', _repl, body)
-
 def replace_asset_link(m, src_prefix: str) -> str:
     text = m.group('text')
     href = m.group('href').strip()
@@ -218,6 +213,28 @@ def replace_asset_link(m, src_prefix: str) -> str:
 
     new_href = add_prefix_if_relative(href, src_prefix)
     return f'[{text}]({new_href} "{title}")' if title else f'[{text}]({new_href})'
+
+def format_figure_attr(text: str, attr_name: str = "figure") -> str:
+    has_double = '"' in text
+    has_single = "'" in text
+
+    # Case 1: Contains both " and ', convert internal " into &quot;
+    if has_double and has_single:
+        inner = (
+            text
+            .replace("&", "&amp;")
+            .replace('"', "&quot;")
+        )
+        return f'{attr_name}="{inner}"'
+
+    inner = js_string_unquoted(text)
+
+    # Case 2: Contains " but not ', use single quotes
+    if has_double:
+        return f"{attr_name}='{inner}'"
+
+    # Case 3: Contains no ", use double-quoted attribute
+    return f'{attr_name}="{inner}"'
 
 
 # ----------------------------- #
@@ -240,18 +257,15 @@ def replace_image_block(m, src_prefix):
     raw_src = alt_match.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
 
-    figure_js = js_string(figure)
+    caption_style = preset if preset == "none" else f"{preset}"
 
     return f'''
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "{preset}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePrefix="{caption_style}"
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />
 '''
@@ -282,20 +296,13 @@ def replace_custom_size_image_block(m, src_prefix):
     # Determine border
     show_border = "false" if "no-border" in variants else "true"
 
-    # If figure is empty, set shouldDisplay to false
-    should_display = "true" if figure_raw else "false"
-    figure_js = js_string(figure_raw)
-
     return f'''
 <imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: {should_display}
-  }} }}
+  figurePrefix="none"
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />
 '''
@@ -305,21 +312,33 @@ def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure)
 
     return f'''
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
-  figureEmbed={{ {{
-    preset: "default",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePrefix="none"
+  {format_figure_attr(figure, "figure")}
   src="{src}"
 />
 '''
+
+def replace_simple_figure_block(m):
+    kind = m.group(1).strip()
+    text = m.group(2).strip()
+
+    if re.search(r'!\[.*?\]\(.*?\)', text):
+        return m.group(0)
+
+    if kind == "bad":
+        icon = "❌"
+    elif kind == "good":
+        icon = "✅"
+    else:
+        icon = "😐"
+
+    return f"**{icon} {text}**  "
 
 def replace_preset_and_size_image_block(m, src_prefix):
     # Extract preset and size from either order
@@ -340,18 +359,14 @@ def replace_preset_and_size_image_block(m, src_prefix):
 
     show_border = "false" if variant == "no-border" else "true"
     src = add_prefix_if_relative(raw_src, src_prefix)
-    figure_js = js_string(figure_raw)
 
     return f'''
 <imageEmbed
   alt="Image"
   size="{size}"
   showBorder={{{show_border}}}
-  figureEmbed={{ {{
-    preset: "{preset_kind}Example",
-    figure: {figure_js},
-    shouldDisplay: true
-  }} }}
+  figurePrefix="{preset_kind}"
+  {format_figure_attr(figure_raw, "figure")}
   src="{src}"
 />
 '''
@@ -366,12 +381,11 @@ def replace_email_block(m):
     cleaned_body = clean_email_body(body)
 
     preset_match = re.match(r'::: (good|bad|ok)', figure_block.strip())
-    preset = f"{preset_match.group(1)}Example" if preset_match else "default"
+    preset = f"{preset_match.group(1)}" if preset_match else "none"
 
     figure_match = re.search(r'Figure:\s*(.*)', figure_block)
-    raw_figure = figure_match.group(1).strip() if figure_match else "Example"
+    raw_figure = figure_match.group(1).strip() if figure_match else ""
 
-    figure_js = js_string(raw_figure)
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -390,11 +404,8 @@ def replace_email_block(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  figurePrefix="{preset}"
+  {format_figure_attr(raw_figure, "figure")}
 />
 '''
 
@@ -406,8 +417,7 @@ def replace_email_block_no_rating(m):
     email_data = parse_email_table(table)
     cleaned_body = clean_email_body(body)
 
-    preset = "default"
-    figure_js = js_string(figure_text if figure_text else "Example")
+    preset = "none"
     from_js = js_string(email_data['from'])
     to_js = js_string(email_data['to'])
     cc_js = js_string(email_data['cc'])
@@ -426,24 +436,10 @@ def replace_email_block_no_rating(m):
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{ {{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if should_display else "false"}
-  }} }}
+  figurePrefix="{preset}"
+  {format_figure_attr(figure_text, "figure")}
 />
 '''
-
-def replace_simple_figure_block(m):
-    preset = m.group(1).strip()
-    figure = m.group(2).strip()
-    figure_js = js_string(figure)
-    return f'''<figureEmbed figureEmbed={{ {{
-  preset: "{preset}Example",
-  figure: {figure_js},
-  shouldDisplay: true
-}} }} />\n'''
-
 
 def process_custom_aside_blocks(content):
     lines = content.splitlines()
@@ -471,15 +467,15 @@ def process_custom_aside_blocks(content):
 
         if in_box and re.match(r"^\s*:::\s*$", line):
 
-            preset = "default"
-            figure = "XXX"
+            preset = "none"
+            figure = ""
             show = False
 
             if i + 1 < len(lines):
                 next_line = lines[i + 1].strip()
                 single_line = re.match(r"^:::\s*(good|bad|ok)\s+Figure:\s*(.*?)\s+:::", next_line)
                 if single_line:
-                    preset = f"{single_line.group(1)}Example"
+                    preset = f"{single_line.group(1)}"
                     figure = single_line.group(2)
                     show = True
                     i += 1
@@ -495,9 +491,20 @@ def process_custom_aside_blocks(content):
                         and (match_l2 := re.match(r"^\s*Figure:\s*(.*?)\s*$", lines[i + 2]))
                         and re.match(r"^\s*:::\s*$", lines[i + 3])
                     ):
-                        preset = f"{match_l1.group(1)}Example"
+                        preset = f"{match_l1.group(1)}"
                         figure = match_l2.group(1).strip()
                         show = True
+                        i += 3
+                    elif (
+                        i + 3 < len(lines)
+                        and (match_l1 := re.match(r"^\s*:::\s*(good|bad|ok)\s*$", lines[i + 1]))
+                        and re.match(r"^\s*:::\s*$", lines[i + 3])
+                    ):
+                        caption_line = lines[i + 2].strip()
+                        if caption_line:
+                            preset = f"{match_l1.group(1)}"
+                            figure = caption_line
+                            show = True
                         i += 3
 
             # Remove the indentation from buffer content
@@ -513,18 +520,14 @@ def process_custom_aside_blocks(content):
             body = convert_angle_bracket_links(body)
             body = escape_angle_brackets_except(body, allowed_tags=("mark",))
 
-            figure_js = js_string(figure)
             embed = f'''
-<asideEmbed
-  variant="{box_type}"
+<boxEmbed
+  style="{box_type}"
   body={{<>
     {body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {"true" if show else "false"}
-  }}}}
+  figurePrefix="{preset}"
+  {format_figure_attr(figure, "figure")}
 />
 '''
             output.append(embed)
@@ -597,7 +600,7 @@ def transform_email_blocks(content: str) -> str:
         tail = content[m.end():]
 
         rating_m = re.match(r'\s*(:::\s*(good|bad|ok).*?:::)', tail, re.DOTALL)
-        preset = "default"
+        preset = "none"
         figure_text = ""
         consumed = 0
         should_display = False
@@ -605,7 +608,7 @@ def transform_email_blocks(content: str) -> str:
         if rating_m:
             rating_full = rating_m.group(1)
             rating_kind = rating_m.group(2)
-            preset = f"{rating_kind}Example"
+            preset = f"{rating_kind}"
 
             fig_in_rating = re.search(r'Figure:\s*(.*)', rating_full)
             if fig_in_rating:
@@ -627,7 +630,6 @@ def transform_email_blocks(content: str) -> str:
         cc_js      = js_string(email_data['cc'])
         bcc_js     = js_string(email_data['bcc'])
         subject_js = js_string(email_data['subject'])
-        figure_js  = js_string(figure_text if figure_text else "Example")
 
         should_display_body_js = "true" if should_display_body else "false"
         should_display_js = "true" if should_display else "false"
@@ -642,11 +644,8 @@ def transform_email_blocks(content: str) -> str:
   body={{<>
     {cleaned_body}
   </>}}
-  figureEmbed={{{{
-    preset: "{preset}",
-    figure: {figure_js},
-    shouldDisplay: {should_display_js}
-  }}}}
+  figurePrefix="{preset}"
+  {format_figure_attr(figure_text, "figure")}
 />'''
 
         out.append(embed)
@@ -672,7 +671,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
 
     content = re.sub(r'<!--\s*StartFragment\s*-->', '', content, flags=re.IGNORECASE)
     content = re.sub(r'<!--\s*EndFragment\s*-->', '', content, flags=re.IGNORECASE)
-    content = re.sub(r'<!--\s*endintro\s*-->', '<endOfIntro />', content, flags=re.IGNORECASE)
+    content = re.sub(r'<!--\s*endintro\s*-->', '<endIntro />', content, flags=re.IGNORECASE)
 
     content = convert_mark_tags_to_md_highlight(content)
     content = mdx_safe_template_vars(content)
@@ -682,7 +681,7 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
     content = re.sub(PRESET_AND_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_preset_and_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
     def _replace_image_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
             return keep_image_block_with_prefixed_src(m, src_prefix)
         return replace_image_block(m, src_prefix)
     content = re.sub(IMAGE_BLOCK_REGEX, _replace_image_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
@@ -690,21 +689,24 @@ def transform_md_to_mdx(file_path, rule_to_categories=None, category_uri_to_path
     content = transform_email_blocks(content)
     content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.MULTILINE | re.DOTALL)
 
+    def _replace_simple_figure_block_conditional(m):
+        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<boxEmbed")):
+            return m.group(0)
+        return replace_simple_figure_block(m)
+
+    content = re.sub(
+        SIMPLE_FIGURE_BLOCK_REGEX,
+        _replace_simple_figure_block_conditional,
+        content,
+        flags=re.MULTILINE | re.DOTALL
+    )
+
+
     def _replace_standalone_image_conditional(m):
         if is_inside_any_embed_body(content, m.start()):
             return keep_markdown_figure_with_prefix(m, src_prefix)
         return replace_standalone_image(m, src_prefix)
     content = re.sub(STANDALONE_IMAGE_REGEX, _replace_standalone_image_conditional, content)
-
-    def _replace_simple_figure_block_conditional(m):
-        if is_inside_any_embed_body(content, m.start(), component_tags=("<emailEmbed", "<asideEmbed", "<introEmbed")):
-            body = m.group(2)
-            if re.search(r'!\[(?:Figure:\s*)?.*?\]\(.*?\)', body):
-                return keep_simple_block_with_prefixed_images(m, src_prefix)
-            return m.group(0)
-        return replace_simple_figure_block(m)
-    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, _replace_simple_figure_block_conditional, content, flags=re.MULTILINE | re.DOTALL)
-
 
     content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
     content = re.sub(ASSET_LINK_REGEX, lambda m: replace_asset_link(m, src_prefix), content)

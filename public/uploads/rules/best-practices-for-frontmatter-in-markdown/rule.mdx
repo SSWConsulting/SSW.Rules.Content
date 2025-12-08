@@ -29,19 +29,16 @@ Frontmatter is a critical component in Markdown files, especially when generatin
 
 However, when not structured properly, it can lead to parsing errors, inconsistencies, and even disrupt the rendering of the entire page. To avoid these pitfalls and ensure a seamless integration of your Markdown files, it's essential to follow best practices when defining Frontmatter.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can simplify the workflow for editors unfamiliar with Git or Markdown by utilizing [Tina](https://tina.io), a CMS with user-friendly interface integrated with your Git repository.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -61,12 +58,7 @@ title+author: My Article by John
 2023-10-31
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Non-standard practices can lead to parsing errors and inconsistencies**  
 
 ```md
 –––
@@ -75,12 +67,7 @@ author: Bob Northwind
 date: 2023-10-31
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Clear key-value pairs make it easy to understand and extract the metadata**  
 
 ### Use Arrays for Complex Data
 
@@ -97,12 +84,7 @@ However, avoid the common mistake of listing values in a continuous string. This
 authors: John Doe, Jane Smith, Bob Johnson
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Listing values in a string reduces clarity and makes data extraction challenging**  
 
 Here's how you can effectively use arrays:
 
@@ -114,12 +96,7 @@ authors:
   - Bob Johnson
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using arrays helps in listing multiple values under a single key efficiently**  
 
 ### Use Meaningful Keys
 
@@ -136,12 +113,7 @@ t: My Article
 auth: Bob Northwind
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Shortened or unclear keys can lead to confusion",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Shortened or unclear keys can lead to confusion**  
 
 Use clear, meaningful keys:
 
@@ -151,12 +123,7 @@ title: My Article
 author: Bob Northwind
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Descriptive keys make Frontmatter easy to understand and work with**  
 
 ### Use Explicit Datatypes
 
@@ -173,12 +140,7 @@ year: '2023'
 published: "yes"
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Ambiguous datatypes can lead to parsing errors",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Ambiguous datatypes can lead to parsing errors**  
 
 Be explicit with your datatypes:
 
@@ -188,12 +150,7 @@ year: 2023
 published: true
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Explicit datatypes ensure accurate data representation and extraction",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Explicit datatypes ensure accurate data representation and extraction**  
 
 ### Avoid Inline HTML
 
@@ -210,12 +167,7 @@ title: <em>My</em> Article
 author: <strong>Bob Northwind</strong>
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using inline HTML can cause unexpected rendering or parsing issues**  
 
 Stick to plain Markdown:
 
@@ -236,8 +188,4 @@ metadata:
   modified_at: "2023-11-06"
 –––
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Keeping Frontmatter free of HTML ensures consistent rendering**  

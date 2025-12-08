@@ -16,9 +16,9 @@ createdBy: Brady Stroud [SSW]
 createdByEmail: bradystroud@ssw.com.au
 guid: 8312c849-88a5-4745-82e7-739127d6e9f8
 isArchived: false
-lastUpdated: 2025-10-09 06:56:33+00:00
-lastUpdatedBy: Gilles Pothieu [SSW]
-lastUpdatedByEmail: gillespothieu@ssw.fr
+lastUpdated: 2025-10-30 12:08:42+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - do-you-use-a-content-delivery-network-cdn
 - do-you-use-a-content-delivery-network-(cdn)
@@ -32,7 +32,7 @@ uri: use-a-cdn
 
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
 
-<endOfIntro />
+<endIntro />
 
 ## What is a CDN?
 
@@ -84,7 +84,7 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 **❌ Cons:**
 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
-* **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
+* **Testing**: Staging environments are only available as part of the [enterprise plan](https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations), making it expensive to test changes to your CDN configuration
 
 ---
 
@@ -97,11 +97,8 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - jquery.min.js from GoogleAPIs failed to load",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - jquery.min.js from GoogleAPIs failed to load"
   src="/uploads/rules/use-a-cdn/5-28.4.png"
 />
 
@@ -109,22 +106,19 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 ### Which CDNs work well from China?
 
 1. [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com) (recommended)
-2. [http://www.staticfile.org/](http://www.staticfile.org/)
-3. [http://www.bootcdn.cn/](http://www.bootcdn.cn/)
+2. [http://www.staticfile.org](http://www.staticfile.org)
+3. [http://www.bootcdn.cn](http://www.bootcdn.cn)
 4. [Baidu AI Cloud | Object Storage (BOS)](https://intl.cloud.baidu.com/en/product/bos.html)
-5. [http://lib.sinaapp.com/](http://lib.sinaapp.com/)
-6. [http://cdnjs.net/](http://cdnjs.net/)
-7. [https://www.cloudflare.com/network/china/](https://www.cloudflare.com/network/china/) (Cloudflare’s China Service)
+5. [http://lib.sinaapp.com](http://lib.sinaapp.com)
+6. [http://cdnjs.net](http://cdnjs.net)
+7. [https://www.cloudflare.com/network/china](https://www.cloudflare.com/network/china) (Cloudflare’s China Service)
 8. [https://www.akamai.com](https://www.akamai.com)
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - jquery.min.js from CDNJS isn't blocked and is very fast",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - jquery.min.js from CDNJS isn't blocked and is very fast"
   src="/uploads/rules/use-a-cdn/5-28.5.png"
 />

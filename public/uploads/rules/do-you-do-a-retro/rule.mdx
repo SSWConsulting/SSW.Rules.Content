@@ -25,7 +25,7 @@ Scrum processes are useful for more than just software development - it’s a 
 
 You should get into the practice of having a retro for most tasks. It’s a great way to get feedback while it’s still fresh in people’s minds, and it lets you know what you need to change to be even more successful next time.
 
-<endOfIntro />
+<endIntro />
 
 ### Get it in their mind at the kick-off
 
@@ -39,28 +39,20 @@ Then move onto, “What didn’t go so well?” This part can be painful but it�
 Finally, we ask, “What could we do differently next time?”
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Adam:** How was the presentation?
 **Eddie:** Yeah, it was alright.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example: This line of questioning doesn’t provide useful feedback"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: This line of questioning doesn’t provide useful feedback",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Adam:** What went well with your presentation?
 **Eddie:** People seemed to really relate to the case studies I presented.
@@ -69,14 +61,6 @@ Finally, we ask, “What could we do differently next time?”
 **Adam:** What would you do differently next time?
 **Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example: The 3 magic questions got a lot more detail and the beginnings of a plan for next time"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: The 3 magic questions got a lot more detail and the beginnings of a plan for next time",
-  shouldDisplay: true
-} } />

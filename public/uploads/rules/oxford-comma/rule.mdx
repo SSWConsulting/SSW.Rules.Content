@@ -28,11 +28,8 @@ The "Oxford comma" (so-called because the Oxford University Press style guidelin
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Some people love Oxford commas, some hate them",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Some people love Oxford commas, some hate them"
   src="/uploads/rules/oxford-comma/oxford-comma-debate.jpg"
 />
 
@@ -41,18 +38,15 @@ Knowing when to use the Oxford comma helps to create more consistent and easier 
 
 Also referred to as a series comma or serial comma, an Oxford comma is placed in a series of three or more items before the conjunction. It can be used in both "and" and "or" lists as the last comma separating a series of items. It works to help order these items and provide a distinction between the items on the list, particularly the last two items. An Oxford comma is often unnecessary, though.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A sentence with quite different meaning depending on whether an Oxford comma is used or not",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="A sentence with quite different meaning depending on whether an Oxford comma is used or not"
   src="/uploads/rules/oxford-comma/oxford-comma.jpg"
 />
 
@@ -62,30 +56,24 @@ Also referred to as a series comma or serial comma, an Oxford comma is placed in
 Let's look at some examples to illustrate the rule in action.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Adam, Matt, and Lee got on a call to discuss the use of the Oxford comma
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - the extra comma after \"Matt\" is unnecessary and just adds clutter",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - the extra comma after \"Matt\" is unnecessary and just adds clutter'
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     The ice cream comes in an assortment of flavours including banana and strawberry, strawberry and mango, and blueberry.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - without the Oxford comma, it's not clear whether the flavour is strawberry and mango or mango and blueberry",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - without the Oxford comma, it's not clear whether the flavour is strawberry and mango or mango and blueberry"
 />
 
 

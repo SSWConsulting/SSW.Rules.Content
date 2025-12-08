@@ -35,7 +35,7 @@ SharePoint also has all your users, plus you can extend this information using t
 
 The beauty of this is that if everyone has updated their skills, it is wonderfully searchable.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=fhnatho4nSg" description={""} />
@@ -46,11 +46,8 @@ The beauty of this is that if everyone has updated their skills, it is wonderful
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SharePoint People Search – Notice the Skills coming from UserProfile Service (aka UPS)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="SharePoint People Search – Notice the Skills coming from UserProfile Service (aka UPS)"
   src="/uploads/rules/search-employee-skills/extending-ad-1.png"
 />
 
@@ -60,11 +57,8 @@ The beauty of this is that if everyone has updated their skills, it is wonderful
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Mockup - Improved SharePoint People Search Results",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Mockup - Improved SharePoint People Search Results"
   src="/uploads/rules/search-employee-skills/mockup-extending-ad-3.jpg"
 />
 
@@ -76,11 +70,8 @@ SharePoint has an Admin UI to manage User Profiles.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "User Profile UI in your SharePoint Admin Centre – generally this is not needed the Delve out of the box experience works for your organisation",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="User Profile UI in your SharePoint Admin Centre – generally this is not needed the Delve out of the box experience works for your organisation"
   src="/uploads/rules/search-employee-skills/extending-ad-2.png"
 />
 
@@ -92,11 +83,8 @@ SharePoint has an Admin UI to manage User Profiles.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Delve profile – Click on “Update Profile” to write data back to SharePoint User Profile Service",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Delve profile – Click on “Update Profile” to write data back to SharePoint User Profile Service"
   src="/uploads/rules/search-employee-skills/extending-ad-3.png"
 />
 
@@ -110,11 +98,8 @@ What if your people’s skills are stored in another system such as Dynamics 365
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "People’s skills are often stored in Dynamics 365 CRM or Salesforce",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="People’s skills are often stored in Dynamics 365 CRM or Salesforce"
   src="/uploads/rules/search-employee-skills/extending-ad-4.png"
 />
 
@@ -126,11 +111,8 @@ You can use PowerShell and SharePoint PNP libraries to programmatically interact
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Powershell - Reading skills from UserProfile",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Powershell - Reading skills from UserProfile"
   src="/uploads/rules/search-employee-skills/extending-ad-5.png"
 />
 
@@ -140,11 +122,8 @@ You can use PowerShell and SharePoint PNP libraries to programmatically interact
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Powershell - Adding “Blazor” to Jean’s skill list",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Powershell - Adding “Blazor” to Jean’s skill list"
   src="/uploads/rules/search-employee-skills/extending-ad-6.png"
 />
 
@@ -152,8 +131,8 @@ You can use PowerShell and SharePoint PNP libraries to programmatically interact
 OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search?WT.mc_id=M365-MVP-33518).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 #### Suggestions to Microsoft
@@ -181,9 +160,6 @@ There should be a global user search that goes across all entities in Dynamics 3
 
 ![Figure: Searching User + Skill doesn’t yield any result although this skill is associated to the user](/uploads/rules/search-employee-skills/extending-ad-7.png)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

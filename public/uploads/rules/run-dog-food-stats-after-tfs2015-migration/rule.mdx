@@ -27,7 +27,7 @@ Running the [DogFoodStats](https://devblogs.microsoft.com/bharry/team-foundatio
 
 You should check the new values against the [stats you recorded from your TFS 2015 Update 4 databases](/run-your-dog-food-stats-before-tfs2015-migration).
 
-<endOfIntro />
+<endIntro />
 
 * a. On your TFS 2015 databases, run the DogFoodStats queries and save the results.
 * b. Check that the numbers are the same or very close. Note any big differences.
@@ -35,8 +35,8 @@ You should check the new values against the [stats you recorded from your TFS 2
 **Note:** The numbers may not be identical due to schema changes.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Recent Users
 31
@@ -96,9 +96,6 @@ QueryWorkitems 601
 Update               240
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example DogFoodStats after the upgrade",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Example DogFoodStats after the upgrade"
 />

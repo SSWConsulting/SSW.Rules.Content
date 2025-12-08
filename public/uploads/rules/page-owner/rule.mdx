@@ -28,7 +28,7 @@ uri: page-owner
 
 Managing webpages can be challenging, especially in projects with many contributors. When editing a page, a common problem is not knowing who the original author was. This is bad, because it's important not to change something that was there for a reason!
 
-<endOfIntro />
+<endIntro />
 
 The best way to solve this is by having a page owner for each webpage.
 
@@ -56,11 +56,8 @@ A designated page owner ensures someone is responsible for the accuracy of the p
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No owner field. Impossible to see who wrote this page!",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - No owner field. Impossible to see who wrote this page!"
   src="/uploads/rules/page-owner/no-author-bad.png"
 />
 
@@ -69,10 +66,7 @@ A designated page owner ensures someone is responsible for the accuracy of the p
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Frontmatter with an 'author' field.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Frontmatter with an 'author' field."
   src="/uploads/rules/page-owner/page-owner-good.jpg"
 />

@@ -22,7 +22,7 @@ isArchived: false
 
 [Intune](https://www.ssw.com.au/consulting/intune) is a feature that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
 
-<endOfIntro />
+<endIntro />
 
 Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Entra ID to control who has access and what they can access.
 
@@ -39,18 +39,15 @@ With Intune, you can:
 When Intune is connected to Entra ID its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Entra ID.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     
 If you are using Conditional Access for MFA, you will need to add an exception for the **Microsoft Intune Enrollment** app for hybrid-joined devices to be able to enroll.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -59,11 +56,8 @@ If you are using Conditional Access for MFA, you will need to add an exception f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Intune connected to Entra ID",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Intune connected to Entra ID"
   src="/uploads/rules/implementing-intune/intune_aad.png"
 />
 
@@ -75,11 +69,8 @@ If you are using Conditional Access for MFA, you will need to add an exception f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Devices managed by Intune",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Devices managed by Intune"
   src="/uploads/rules/implementing-intune/devices_intunes.png"
 />
 
@@ -90,11 +81,8 @@ If you are using Conditional Access for MFA, you will need to add an exception f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Errors in compliance check",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Errors in compliance check"
   src="/uploads/rules/implementing-intune/bad_example_compliance.png"
 />
 
@@ -103,11 +91,8 @@ If you are using Conditional Access for MFA, you will need to add an exception f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Compliant device",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Compliant device"
   src="/uploads/rules/implementing-intune/good_example_compliance.png"
 />
 
@@ -119,10 +104,7 @@ There are many other MDM solutions out there, but Intune is best if you're mostl
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Jamf architecture to monitor IOS devices",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Jamf architecture to monitor IOS devices"
   src="/uploads/rules/implementing-intune/diagram5.png"
 />

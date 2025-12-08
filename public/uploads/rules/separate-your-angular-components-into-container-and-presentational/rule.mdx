@@ -29,7 +29,7 @@ uri: separate-your-angular-components-into-container-and-presentational
 
 There are 2 general types of components according its complexity: presentational and smart components. Presentational component is a component that is purely driven by its input data. Smart component on the other hand, is more complex - it can have business logic, dependencies, and also store its own state.
 
-<endOfIntro />
+<endIntro />
 
 Aiming to have more presentational components makes building applications easier; it provides high reusability, and they are easier to debug since they have the same output for the same input.
 
@@ -90,8 +90,4 @@ export class CompanyListTableComponent {
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A presentational component with no injected dependencies",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - A presentational component with no injected dependencies**

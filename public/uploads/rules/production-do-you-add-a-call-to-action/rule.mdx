@@ -32,7 +32,7 @@ Common objectives are to:
 - Get the viewer to provide info and request a service from the company
 - Get them to subscribe to the company's social media pages
 
-<endOfIntro />
+<endIntro />
 
 A good 'call to action' should:
 
@@ -44,40 +44,31 @@ A good 'call to action' should:
 6. If you are using YouTube or another service that provides the option to have annotations, use annotations that prompt the viewer to comment or subscribe. A 'subscribe' link in the annotation gets more subscribers
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Thanks, have a good one!
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – No call to action",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example – No call to action"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Please leave a comment, and go to our website, Facebook, YouTube, Twitter, and LinkedIn. Also please sign up for our newsletter.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Too many options breeds choice paralysis",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Too many options breeds choice paralysis"
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example (watch on YouTube) - Very clear 'call to action' that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a Twitter option to engage and uses live-action",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example (watch on YouTube) - Very clear 'call to action' that asks for an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a Twitter option to engage and uses live-action"
   src="/uploads/rules/production-do-you-add-a-call-to-action/Call-to-Action-Screenshot.jpg"
 />

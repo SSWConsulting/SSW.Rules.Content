@@ -27,7 +27,7 @@ uri: html-css-do-you-know-how-to-create-spaces-in-a-web-page
 
 There are many scenarios where you need some extra space in a web page (HTML or Markdown). No matter which one you are at, CSS is the answer.
 
-<endOfIntro />
+<endIntro />
 
 Sometimes the first thing that comes to the developer mind is to use the "break line" tag `<br />`, or the [ASCII character codes](https://en.wikipedia.org/wiki/ASCII) for "space" `&#160;` / `&nbsp;` to create these extra spaces. **It's wrong!**
 
@@ -38,12 +38,7 @@ CSS is the way to go. You can use both "margin" or "padding" CSS properties to g
   <li>&#160;&#160;&#160;List item</li>
 </ul>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using the \"space\" ASCII character to create a padding on that list",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using the "space" ASCII character to create a padding on that list**  
 
 ```html
 <ul>
@@ -53,24 +48,16 @@ CSS is the way to go. You can use both "margin" or "padding" CSS properties to g
 <br />
 <br />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Using the `<br />` tag to create a space at the bottom of that list**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If you **cannot** use CSS to create some breathing space, using `&lt;br /&gt;` maybe acceptable as last resort for better readability.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -82,11 +69,6 @@ ul li {
   padding-left: 10px;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item**  
 
 **Tip:** You might be not familiar with editing a CSS file... In this case, contact a designer, they will be more than happy to help you.

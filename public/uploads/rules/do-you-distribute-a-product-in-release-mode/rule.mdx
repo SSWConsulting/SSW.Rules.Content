@@ -27,7 +27,7 @@ We like to have debugging information in our application, so that we can view th
 
 If we want line numbers, we simply need **Debugging Information** . You can change an option in the project settings so these will be generated in when using Release build.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 #if DEBUG MessageBox.Show("Application started"); #endif
@@ -40,11 +40,8 @@ If we want line numbers, we simply need **Debugging Information** . You can chan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set \"Generate Debugging Information\" to True on the project properties page (VS 2003)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Set \"Generate Debugging Information\" to True on the project properties page (VS 2003)'
   src="/uploads/rules/do-you-distribute-a-product-in-release-mode/DebugConfiguration.gif"
 />
 
@@ -54,10 +51,7 @@ If we want line numbers, we simply need **Debugging Information** . You can chan
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set \"Debug Info\" to \"pdb-only\" on the Advanced Build Settings page (VS 2005)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Set \"Debug Info\" to \"pdb-only\" on the Advanced Build Settings page (VS 2005)'
   src="/uploads/rules/do-you-distribute-a-product-in-release-mode/VS2005AdvancedBuildSettings.gif"
 />

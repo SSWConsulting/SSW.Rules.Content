@@ -24,30 +24,24 @@ uri: when-to-use-meet-now
 
 Using the "Meet Now" button in Microsoft Teams can be an efficient way to start a quick meeting with your team. However, it's important to know when to use it to avoid disrupting your colleagues. Triggering an unplanned call can catch people off guard and disrupt their workflow, leading to frustration and decreased productivity.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     With [YakShaver](https://www.sswyakshaver.com), you can start recording a "shave" after selecting "Meet Now," without needing to call anyone in.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone"
   src="/uploads/rules/when-to-use-meet-now/video-call-no-notice.png"
 />
 
@@ -56,11 +50,8 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The user sends the group a message and then presses the \"Meet Now\" button which doesn't interupt the entire group",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The user sends the group a message and then presses the &quot;Meet Now&quot; button which doesn't interupt the entire group"
   src="/uploads/rules/when-to-use-meet-now/meet-now-in-teams.png"
 />
 

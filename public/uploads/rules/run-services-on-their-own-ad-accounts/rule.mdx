@@ -22,17 +22,14 @@ isArchived: false
 
 When [using service accounts](/do-you-use-service-accounts), you should have a specific AD account for each major service.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using the default Administrator account",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using the default Administrator account"
   src="/uploads/rules/run-services-on-their-own-ad-accounts/defaultadministrationaccount.jpeg"
 />
 
@@ -41,11 +38,8 @@ When [using service accounts](/do-you-use-service-accounts), you should have a s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "Better example - At least don't use the Administrator account, create a new account",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="Better example - At least don't use the Administrator account, create a new account"
   src="/uploads/rules/run-services-on-their-own-ad-accounts/createnewaccount.jpeg"
 />
 
@@ -54,11 +48,8 @@ When [using service accounts](/do-you-use-service-accounts), you should have a s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Best example - A specific AD account for each major server",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Best example - A specific AD account for each major server"
   src="/uploads/rules/run-services-on-their-own-ad-accounts/specificadaccount.jpeg"
 />
 
@@ -67,11 +58,8 @@ When [using service accounts](/do-you-use-service-accounts), you should have a s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using the network admin's name",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using the network admin's name"
   src="/uploads/rules/run-services-on-their-own-ad-accounts/networkadminname.jpeg"
 />
 
@@ -80,10 +68,7 @@ When [using service accounts](/do-you-use-service-accounts), you should have a s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A specific SQL Server account being used (Suggestion: Make the text box wider and link to the one in 'Services')"
   src="/uploads/rules/run-services-on-their-own-ad-accounts/sqlserveraccount.jpeg"
 />

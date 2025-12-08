@@ -12,8 +12,14 @@ authors:
 categories:
 - category: categories/communication/rules-to-better-email.mdx
 - category: categories/project-delivery/rules-to-better-scrum.mdx
-created: 2009-12-10 06:55:30+00:00
+created: 2025-10-14 20:58:13+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
+isArchived: false
+lastUpdated: 2025-10-14 20:58:13+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
 - dones-do-your-done’s-include-a-url
 - dones-do-your-dones-include-a-url
@@ -32,64 +38,52 @@ Always include the relevant URL to your emails, like when you want to request or
 
 If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/Issue/task/PR for extra information.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** It's [important to give context and reasoning](/do-you-add-context-reasoning-to-your-emails) to your emails.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - How can we check the task was done correctly?",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - How can we check the task was done correctly?"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - northwind&#46;com/about-us
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Easy to check what was done",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Easy to check what was done"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - northwind&#46;com/about-us/
 
 As requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Easy to check what was done + includes the context of the task within the Sprint",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Easy to check what was done + includes the context of the task within the Sprint"
 />
 
 
@@ -98,80 +92,65 @@ As requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001
 Before closing a PBI/Issue and declaring a task 'done' with a link, ensure that your changes are live and accessible for verification.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** It is the PR author's responsibility to [avoid merge debt](/merge-debt) by getting the PR reviewed ASAP.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Scenario: PR waiting for approval
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Link is included but changes are not live yet",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Link is included but changes are not live yet"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - github&#46;com/SSWConsulting/SSW.Rules&#46;Content/pull/0001
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Using the PR link instead of the final page link",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Using the PR link instead of the final page link"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     (PR waiting for approval - github&#46;com/SSWConsulting/SSW.Rules.Content/pull/0001)
 
 Done - Changes will be on ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - Changes are not live yet, but people are aware and have the links",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure="OK example - Changes are not live yet, but people are aware and have the links"
 />
 
 
 ### Scenario: PR is approved and merged
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Final link is included and changes are live to be checked",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Final link is included and changes are live to be checked"
 />
 
 
@@ -182,32 +161,26 @@ It is a common problem where someone CC'd will not have permissions to see a fil
 ### Scenario: Recipient doesn't have permissions
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Done - onedrive&#46;live.com/file-name.xls
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Link is included but recipient won't be able to open it, potentially generating more emails",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Link is included but recipient won't be able to open it, potentially generating more emails"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     (link for reference - you don't have permissions)
 
 Done - onedrive&#46;live.com/file-name.xls
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Link is included and people are aware of permission issues",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Link is included and people are aware of permission issues"
 />
 
 

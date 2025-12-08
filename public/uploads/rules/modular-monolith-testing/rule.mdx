@@ -21,7 +21,7 @@ isArchived: false
 
 In modular monolith applications, establishing a strong testing strategy is essential to ensure robust functionality and maintainable code across multiple modules. Modular monoliths often centralize domain logic, require clear interactions across module boundaries, and should provide cohesive end-to-end workflows. Implementing a well-structured testing strategy will help catch errors early, validate integrations, and prevent issues from arising in production.
 
-<endOfIntro />
+<endIntro />
 
 There are 3 main testing strategies that can be used to effectively test modular monoliths:
 
@@ -37,16 +37,13 @@ Unit testing is critical in a modular monolith to validate the core business rul
 * **Maintenance of a clean, well-defined contract** for each module’s internal methods.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Ensure each module’s domain logic has comprehensive unit tests that cover typical and edge cases.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Unit tests confirm the integrity of domain logic in isolation from external dependencies.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good Example - Unit tests confirm the integrity of domain logic in isolation from external dependencies."
 />
 
 
@@ -77,16 +74,13 @@ Workflow (or end-to-end) tests are invaluable in modular monoliths as they cover
 While workflow tests are the most complex and resource-intensive, they provide confidence that major application processes are functioning correctly and as intended.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Design workflow tests that cover the main paths users take, ensuring all modules work together to deliver expected end results.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Workflow tests simulate full user journeys, giving comprehensive validation of the application’s functionality.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good Example - Workflow tests simulate full user journeys, giving comprehensive validation of the application’s functionality."
 />
 
 

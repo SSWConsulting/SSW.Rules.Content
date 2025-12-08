@@ -23,43 +23,27 @@ uri: do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 
 It is important to refer to your standards when trying to explain a concept. This process ensures you always give the most up to date information and that the documentation gets updated when needed. They will then know where the standard is so they can refer to it later.
 
-<endOfIntro />
+<endIntro />
 
 When a new programmer on your team needs to get up and running on the SharePoint image you know the right and wrong way to say it.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Sit with John Liu and he will get you up on our SharePoint image
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad Example: Explain how to run the SharePoint image"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example: Explain how to run the SharePoint image",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Get the URL to the standard from our intranet, if the standard is unclear, check your changes with John Liu and then make them
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good Example: Refer to SharePoint rules"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example: Refer to SharePoint rules",
-  shouldDisplay: true
-} } />

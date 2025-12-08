@@ -23,7 +23,7 @@ You can give ChatGPT examples of the type of output you want, including the form
 
 Understanding when to use 0-shot, 1-shot, or multi-shot prompts can help you get the most out of ChatGPT. These approaches allow the model to learn from different contexts, making it more likely to generate the desired output.
 
-<endOfIntro />
+<endIntro />
 
 Here are some guidelines for using 0-shot, 1-shot, and multi-shot prompts:
 Note: If you are a developer, also read this [guide to using shot prompts with the OpenAI API.](https://labelbox.com/guides/zero-shot-learning-few-shot-learning-fine-tuning/)
@@ -43,19 +43,16 @@ Use 1-shot prompts when you want to nudge the model in the right direction witho
 Example 1-shot prompt:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Translate the following English sentences into French. Here's an example:
 'I love playing soccer.' -&gt; 'J'aime jouer au football.'
 
 Now translate: 'She enjoys reading books.'"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "1-shot example - providing a single example of translation",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="1-shot example - providing a single example of translation"
 />
 
 
@@ -68,8 +65,8 @@ Use multi-shot prompts when a single example might not be sufficient for guiding
 Example multi-shot prompt:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Translate the following English sentences into French. Here are some examples:
 
@@ -78,11 +75,8 @@ Example multi-shot prompt:
 
 Now translate: 'They are going to the park.'"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Multi-shot example - providing multiple examples of translations",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Multi-shot example - providing multiple examples of translations"
 />
 
 

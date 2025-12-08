@@ -20,7 +20,7 @@ isArchived: false
 
 Choosing the right verbs in your prompts can significantly impact the results you get from ChatGPT. Verbs convey the desired action or result, and using appropriate verbs can help the model understand your intent more clearly.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for selecting the right verbs in your prompts:
 
@@ -29,30 +29,24 @@ Here are some tips for selecting the right verbs in your prompts:
 - Consider the level of detail or depth you want in the response and choose verbs accordingly
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tell me about the French Revolution."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The verb \"tell\" is vague and could lead to a general or unfocused response",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - The verb \"tell\" is vague and could lead to a general or unfocused response'
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Summarize the key events and outcomes of the French Revolution."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The verbs \"summarize\" and \"key\" provide clearer instructions and set expectations for the response.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure='Good example - The verbs \"summarize\" and \"key\" provide clearer instructions and set expectations for the response.'
 />
 
 

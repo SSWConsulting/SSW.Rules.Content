@@ -24,7 +24,7 @@ isArchived: false
 
 When seeking advice or comparing options with ChatGPT, it can be helpful to ask for pros and cons as well as a rating. This approach can provide you with a more balanced and comprehensive understanding of your options, enabling you to make more informed decisions.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for asking for pros, cons, and ratings:
 
@@ -33,22 +33,19 @@ Here are some tips for asking for pros, cons, and ratings:
 * Encourage the model to consider multiple factors when evaluating options
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Which is better, working from home or in an office?"
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The prompt is vague and does not specify the criteria for comparison or ask for pros, cons, or a rating",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The prompt is vague and does not specify the criteria for comparison or ask for pros, cons, or a rating"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Compare working from home versus working in an office. List the pros and cons of each option and provide a rating out of 10 for work-life balance and productivity."
 
@@ -56,11 +53,8 @@ Here are some tips for asking for pros, cons, and ratings:
 
 "Compare the benefits and drawbacks of learning Python and JavaScript programming languages for a beginner. Provide a rating out of 10 for ease of learning and job market demand for each language."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Examples - Asking for pros, cons, and a rating when comparing options.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good Examples - Asking for pros, cons, and a rating when comparing options."
 />
 
 

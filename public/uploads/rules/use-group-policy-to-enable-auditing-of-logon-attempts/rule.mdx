@@ -30,7 +30,7 @@ uri: use-group-policy-to-enable-auditing-of-logon-attempts
 
 It is important as a Network Administrator to know when and where failed login attempts are coming from. Through Group Policy you can enable "Audit logon events".
 
-<endOfIntro />
+<endIntro />
 
 1. Create a group policy called 'Logon Auditing Policy'
 2. Right click on 'Logon Auditing Policy' and click on Edit to bring up Group Policy Management Editor
@@ -42,11 +42,8 @@ It is important as a Network Administrator to know when and where failed login a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select 'Audit logon events'",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Select 'Audit logon events'"
   src="/uploads/rules/use-group-policy-to-enable-auditing-of-logon-attempts/failed-login-1.png"
 />
 
@@ -58,11 +55,8 @@ It is important as a Network Administrator to know when and where failed login a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select 'Audit: Force audit policy...'",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Select 'Audit: Force audit policy...'"
   src="/uploads/rules/use-group-policy-to-enable-auditing-of-logon-attempts/failed-login-2.png"
 />
 
@@ -72,11 +66,8 @@ It is important as a Network Administrator to know when and where failed login a
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Successful and Failed login attempts will now appear in Event Viewer | Security",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Successful and Failed login attempts will now appear in Event Viewer | Security"
   src="/uploads/rules/use-group-policy-to-enable-auditing-of-logon-attempts/failed-login-3.png"
 />
 

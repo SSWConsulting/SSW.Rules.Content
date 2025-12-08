@@ -17,9 +17,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
 isArchived: false
-lastUpdated: 2025-09-24 01:48:23+00:00
-lastUpdatedBy: Andrew Waltos [SSW]
-lastUpdatedByEmail: 87786621+andrewwaltosssw@users.noreply.github.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-know-how-to-send-a-v2-of-an-email
 - how-to-send-a-v2-if-requested
@@ -39,7 +39,7 @@ Sometimes you will need to send a new version for an email. This often is due to
 * You **received substantial feedback** about the email you've sent that requires a new version
 * You realized you've **made a mistake** and want to send an updated version of an email
 
-<endOfIntro />
+<endIntro />
 
 Having an entire new version of an email is important as it:
 
@@ -47,19 +47,16 @@ Having an entire new version of an email is important as it:
 * Cleans up the email thread history to only have relevant content
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Not every feedback will need a v2. Some may be in the form of:
 
 * Hints for what could be better for next time, in which case all that's required is you take the feedback on board
 * Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -84,32 +81,15 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 **Tip:** If you receive a v2 email, the first thing you should do is go delete the prior email from your inbox. This avoids you accidentally replying to your original email later.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** Do not add "v2" to the subject as we want to keep the thread.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
-
-
-<asideEmbed
-  variant="greybox"
-  body={<>
-    **Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
-![Bad example - Outlook's 'Resend This Message' feature is no longer recommended](/uploads/rules/email-send-a-v2/uploads/rules/email-send-a-v2/resend-this-message.png)
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
-/>
 
 <emailEmbed
   from=""
@@ -130,24 +110,18 @@ Dave
 
 &#123;&#123; HISTORY OF THE THREAD, EXCEPT THE PREVIOUS VERSION WITH MISTAKE(S) &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Sending a 'v2' when you need to make an update",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Sending a 'v2' when you need to make an update"
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If all the feedback you received is incorporated into the new version, there is no need for an additional done email. However, if you've got other tasks in the feedback, it may be necessary to reply 'done' to those separated from the content of your v2.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -158,4 +132,20 @@ For appointments, the procedure is different, see [do you explain why you've upd
 ---
 
 
-<youtubeEmbed url="https://www.youtube.com/embed/2WoDQBhJCVQ" description={"Video: Some jobs give no chance for a v2"} />
+<youtubeEmbed url="https://www.youtube.com/embed/2WoDQBhJCVQ" description={"Video: Some jobs give no chance for a v2 (1 min)"} />
+
+
+---
+
+### Avoid Outlook's 'Resend This Message'
+
+**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Outlook's 'Resend This Message' feature is no longer recommended"
+  src="/uploads/rules/email-send-a-v2/resend-this-message.png"
+/>

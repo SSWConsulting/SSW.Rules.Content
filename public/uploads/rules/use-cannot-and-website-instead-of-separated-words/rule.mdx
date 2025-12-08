@@ -26,44 +26,28 @@ Grammatically, all of them are acceptable spellings, but in these specific cases
 
 Note: When there are two ways of doing something, we make a rule on it one way with the goal of having complete consistency.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You cannot change the world.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – two separated words",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example – two separated words**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You cannot change the world.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - using these terms in one word",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - using these terms in one word**  
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

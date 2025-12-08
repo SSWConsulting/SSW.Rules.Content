@@ -12,7 +12,7 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 356ef246-3c81-4f04-8d5e-bf10d98f0bb8
 isArchived: false
-lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdated: 2025-11-07 14:10:34+00:00
 lastUpdatedBy: Chloe Lin [SSW]
 lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
@@ -21,6 +21,8 @@ redirects:
 related:
 - rule: public/uploads/rules/awesome-documentation/rule.mdx
 - rule: public/uploads/rules/azure-resources-diagram/rule.mdx
+seoDescription: Create architecture diagrams to provide a clear overview of your project's
+  structure, components, and data flow for better understanding and decision-making.
 title: Do you have an architecture diagram?
 type: rule
 uri: architecture-diagram
@@ -30,7 +32,7 @@ A good **architecture diagram** (aka **cloud architecture diagram** or **system 
 
 This is useful for gaining an understanding of how the system fits together, how it flows, and what it does. It also helps to easily show which components can be improved due to updated or better components (or improved architectural guidelines).
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/ek8ArrOfJxA" description={"Video: Why you need an Architecture Diagram? (6 min)"} />
@@ -47,27 +49,21 @@ An architecture diagram is useful when:
 The architecture diagram is a technical diagram that demonstrates the technology in use. The purpose of the architecture diagram is to show how a solution has been built and what the technical dependencies are. It is not used for user journeys or business logic.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Check out the [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies"
   src="/uploads/rules/architecture-diagram/bad-azure-resource-screenshot.jpg"
 />
 
@@ -100,11 +96,8 @@ Learn more on [Do you generate dependency graphs?](/generate-dependency-graphs)
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture"
   src="/uploads/rules/architecture-diagram/dependency-validation-01.png"
 />
 
@@ -117,11 +110,8 @@ Your architecture diagram should show how the components of your solution fit to
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram"
   src="/uploads/rules/architecture-diagram/architecture-diagram-good1.png"
 />
 
@@ -136,11 +126,8 @@ It should be easy to tell at a glance which direction data flows in your diagram
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction"
   src="/uploads/rules/architecture-diagram/sugarlearning-architecture-diagram.png"
 />
 
@@ -155,11 +142,8 @@ Group components logically by enclosing them in a box. Components that operate i
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - SSW Rewards (Xamarin with Entra ID B2C) - Consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - SSW Rewards (Xamarin with Entra ID B2C) - Consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line"
   src="/uploads/rules/architecture-diagram/rewards-architecture-diagram.png"
 />
 
@@ -180,11 +164,8 @@ Putting something on a whiteboard is "low risk" for the participants as its real
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "SSW Rewards - Start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="SSW Rewards - Start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram"
   src="/uploads/rules/architecture-diagram/rewards-hand-drawn-sketch.jpg"
 />
 
@@ -195,11 +176,8 @@ Putting something on a whiteboard is "low risk" for the participants as its real
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Better example - SSW Rewards - The same sketch but captured with Office Lens. How much clearer and more vibrant is this!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Better example - SSW Rewards - The same sketch but captured with Office Lens. How much clearer and more vibrant is this!"
   src="/uploads/rules/architecture-diagram/reward-hand-drawn-sketch-office-lens.jpg"
 />
 
@@ -215,11 +193,8 @@ It is definitely the most popular diagram tool at SSW:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "When SSW developers were surveyed, draw.io was the clear winner (see green) for building architecture diagrams",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="When SSW developers were surveyed, draw.io was the clear winner (see green) for building architecture diagrams"
   src="/uploads/rules/architecture-diagram/FaveTool.png"
 />
 
@@ -228,11 +203,8 @@ It is definitely the most popular diagram tool at SSW:
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Better example - TimePro (an Angular &plus; .NET project with Hangfire) - You can create diagrams quickly and easily with draw.io that still look very professional. This one is in the style of a technical document",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Better example - TimePro (an Angular &plus; .NET project with Hangfire) - You can create diagrams quickly and easily with draw.io that still look very professional. This one is in the style of a technical document"
   src="/uploads/rules/architecture-diagram/TimePRO-Architecture-Diagram-v2.png"
 />
 
@@ -243,11 +215,8 @@ Draw.io is free, can be used in the browser, or can be downloaded as a desktop a
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Great example - Auctions (a Blazor + .NET + Cosmos DB project) - draw.io integrated directly into VS Code",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Great example - Auctions (a Blazor + .NET + Cosmos DB project) - draw.io integrated directly into VS Code"
   src="/uploads/rules/architecture-diagram/thumbnail_image003.jpg"
 />
 
@@ -258,11 +227,8 @@ There are multiple extensions available that let you do this, the best one is [V
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color"
   src="/uploads/rules/architecture-diagram/architecture-2.png"
 />
 
@@ -283,11 +249,8 @@ Maintain standards to keep your diagrams consistent:
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders"
   src="/uploads/rules/architecture-diagram/SSW.People-Architecture-Diagram.png"
 />
 
@@ -309,11 +272,8 @@ Another popular tool is [Eraser](https://app.eraser.io/) which provide many indu
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "An Azure Architecture Diagram created in Miro",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="An Azure Architecture Diagram created in Miro"
   src="/uploads/rules/architecture-diagram/miro-arch-diagram.jpg"
 />
 

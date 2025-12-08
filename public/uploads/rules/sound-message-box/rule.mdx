@@ -23,17 +23,14 @@ uri: sound-message-box
 
 A message box automatically provides this functionality so there is no need to manually put a beep right before a message box pops up.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Windows message boxes plays a sound... which cannot be captured in screenshot form.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Windows message boxes plays a sound... which cannot be captured in screenshot form."
   src="/uploads/rules/sound-message-box/Win7SoundError.png"
 />
 
@@ -45,12 +42,7 @@ MessageBoxButtons buttons = MessageBoxButtons.YesNo;
 System.Media.SystemSounds.Beep.Play();
 DialogResult result = MessageBox.Show(this, message, caption, buttons);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - The sound on the button is hardcoded in this code snippet",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - The sound on the button is hardcoded in this code snippet**  
 
 ```csharp
 string message = "You did not enter a server name. Cancel this operation?";
@@ -58,8 +50,4 @@ string caption = "No Server Name Specified";
 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
 DialogResult result = MessageBox.Show(this, message, caption, buttons);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The code is not present in this example as it is automatically done",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The code is not present in this example as it is automatically done**

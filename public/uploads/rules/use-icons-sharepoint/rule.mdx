@@ -26,7 +26,7 @@ uri: use-icons-sharepoint
 
 Out of the box, SharePoint provides widgets (aka webparts) to style your link with a consistent look and feel. Standard left-navigation also supports emojis 💖.
 
-<endOfIntro />
+<endIntro />
 
 If that's not enough and you want to customize your own links somewhere else on screen, use CSS to match the extension at the end of the `<a>` tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
 
@@ -39,11 +39,8 @@ If you want to style your navigation, using emojis is the simplest way to achiev
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Consistent look using emojis in the standard left-navigation",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Consistent look using emojis in the standard left-navigation"
   src="/uploads/rules/use-icons-sharepoint/standard-left-nav.png"
 />
 
@@ -64,11 +61,8 @@ Using webparts is the best way to achieve a consistent look and feel. Webparts c
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Consistent look using out of the box \"Quicklinks\" webpart",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Consistent look using out of the box \"Quicklinks\" webpart'
   src="/uploads/rules/use-icons-sharepoint/navigation-with-webpart.png"
 />
 

@@ -6,8 +6,14 @@ authors:
   url: https://www.ssw.com.au/people/hajir-lesani
 categories:
 - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
-created: 2025-10-10 22:40:45.273000+00:00
+created: 2025-10-21 12:37:42+00:00
+createdBy: Gilles Pothieu [SSW]
+createdByEmail: gillespothieu@ssw.fr
 guid: f89948bc-2338-4017-a915-bdcb1d15a036
+isArchived: false
+lastUpdated: 2025-10-21 12:37:42+00:00
+lastUpdatedBy: Gilles Pothieu [SSW]
+lastUpdatedByEmail: gillespothieu@ssw.fr
 related:
 - rule: public/uploads/rules/choosing-authentication/rule.mdx
 - rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
@@ -26,7 +32,7 @@ Here is a recipe to secure passwords using hash, salt, and pepper - the essentia
 <youtubeEmbed url="https://www.youtube.com/watch?v=--tnZMuoK3E" description={"Video: Password Hashing, Salts, Peppers | Explained! (4 min)"} />
 
 
-<endOfIntro />
+<endIntro />
 
 ## Why are Passwords not safe enough?
 
@@ -66,16 +72,13 @@ To build strong password security, the following components are essential:
 * Fast hash algorithms are vulnerable to modern cracking tools.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Use strong, adaptive hashing algorithms like [PBKDF2](https://cryptobook.nakov.com/mac-and-key-derivation/pbkdf2), [Argon2](https://argon2.online/), [bcrypt](https://bcrypt.online/) and [scrypt](https://www.browserling.com/tools/scrypt)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -105,16 +108,13 @@ Another user with the same password:
 * Salts must be random and unique for each user.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Store the salt with the hash in the database (usually in the same record). It does not need to be secret.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -140,30 +140,24 @@ Another user with the same password:
 * Weak passwords are still vulnerable to guessing attacks.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Keep the pepper secret and separate from the database (environment variables, secure vaults, etc.).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important:** Changing the pepper requires re-hashing all passwords, so it should be rarely changed and carefully managed.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

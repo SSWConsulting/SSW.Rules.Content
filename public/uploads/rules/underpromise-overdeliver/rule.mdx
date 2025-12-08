@@ -26,7 +26,7 @@ uri: underpromise-overdeliver
 
 We’ve all experienced that awkward silence in a Sprint Review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a "quick fix" exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust.
 
-<endOfIntro />
+<endIntro />
 
 When teams consistently overcommit and underdeliver, it breaks confidence with clients and stakeholders. Trust is hard-earned and easily lost, especially in high-budget, high-pressure environments.
 
@@ -45,30 +45,24 @@ Underpromising and overdelivering flips this dynamic. Instead of making excuses 
 * Give your team breathing room for the inevitable unknowns
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "I thought this would only take a day... but it turned into three days of debugging."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – Being overly optimistic leads to missed deadlines and client disappointment",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example – Being overly optimistic leads to missed deadlines and client disappointment"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "We scoped this task for three days to allow for potential issues – it only took two, so we also got a head start on the next item."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – A realistic buffer results in a pleasant overdelivery and increased client trust",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – A realistic buffer results in a pleasant overdelivery and increased client trust"
 />
 
 

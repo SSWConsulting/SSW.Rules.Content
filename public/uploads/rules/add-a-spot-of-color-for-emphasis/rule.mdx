@@ -24,32 +24,26 @@ isArchived: false
 
 When there are key words that you want people to notice, you can add a spot of color on the important word for emphasis.
 
-<endOfIntro />
+<endIntro />
 
 You should make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Use colors from your branding/[design system](/design-system) when you do this.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The TV signage has the important words in red",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The TV signage has the important words in red"
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/sswtv-signage.jpg"
 />
 
@@ -70,11 +64,8 @@ Stick to one accent colors per screen or section. Use them intentionally—only 
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "See bottom tagline - Don't make the important word “quality software” in red... because you already have red",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="See bottom tagline - Don't make the important word “quality software” in red... because you already have red"
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/quality-software-tagline.png"
 />
 
@@ -83,11 +74,8 @@ Stick to one accent colors per screen or section. Use them intentionally—only 
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "See bottom tagline - Make the important word “quality software” in red... because you do not have red",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="See bottom tagline - Make the important word “quality software” in red... because you do not have red"
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/quality-software-tagline-grey.png"
 />
 
@@ -97,29 +85,23 @@ Stick to one accent colors per screen or section. Use them intentionally—only 
 Color should be used to emphasize **keywords** or **short phrases** within a sentence — not to style entire statements.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Instead of coloring a sentence, add a colored icon (like ✅ or ❌). This keeps the message clear and accessible while still providing visual emphasis.
 
 Use color to guide, not to shout.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Text in green is too much",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Text in green is too much"
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/text-color-bad.png"
 />
 
@@ -128,10 +110,7 @@ Use color to guide, not to shout.
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Text in content color (white in this dark mode example) with a green tick",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Text in content color (white in this dark mode example) with a green tick"
   src="/uploads/rules/add-a-spot-of-color-for-emphasis/text-color-good.png"
 />

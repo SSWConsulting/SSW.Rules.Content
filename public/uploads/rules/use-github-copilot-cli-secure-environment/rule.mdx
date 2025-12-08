@@ -13,23 +13,29 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
   - title: Lewis Toh
     url: https://ssw.com.au/people/lewis-toh
-created: 2025-10-16T17:32:00.000Z
+created: 2025-10-16T23:19:03.000Z
 guid: babc794e-a638-4d05-b234-52d69ae4f432
+lastUpdated: 2025-10-30T12:08:42.000Z
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
+isArchived: false
 ---
 
 GitHub Copilot CLI is incredibly powerful, but giving AI deep access to your terminal and file system can be concerning. When you use features like `--allow-all-tools` - which approves all actions - Copilot can execute commands on your behalf, which means one wrong suggestion could have serious consequences.
 
 Running Copilot CLI in a secure Docker container provides the best of both worlds: powerful AI assistance with strict security boundaries that limit the "blast radius" of any potential mistakes.
 
-<endOfIntro />
+<endIntro />
 
 ## The problem with unrestricted access
 
 When running Copilot CLI directly on your host machine:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Copilot has access to:**
 
@@ -39,17 +45,9 @@ When running Copilot CLI directly on your host machine:
 * Your environment variables and secrets
 * System-wide configurations
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic",
-  shouldDisplay: true
-} } />
 
 
 ## The solution: Docker-based isolation
@@ -77,16 +75,13 @@ If Copilot runs a dangerous command like `rm -rf .`:
 * If setup with git, it is easily recoverable
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -105,16 +100,13 @@ Both modes include security checks for proper GitHub token scopes and warn about
 The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The functions below provide cross-platform support for Linux/macOS and Windows. For the latest version, always check the GitHub repository.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -324,12 +316,7 @@ copilot_here "clean and reinstall dependencies"
 Execute this command? [y/N]: y
 ✅ Executed safely in /work directory only
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Safe mode asks for confirmation before executing commands on both platforms",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Safe mode asks for confirmation before executing commands on both platforms**  
 
 #### Option 2: YOLO Mode (Auto-Approve)
 
@@ -520,24 +507,16 @@ copilot_yolo "clean and reinstall dependencies"
 > Copilot suggests: rm -rf node_modules package-lock.json && npm install
 ✅ Auto-executed in /work directory only
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - YOLO mode executes commands without asking for approval on both platforms",
-  shouldDisplay: true
-} } />
+**✅ Good example - YOLO mode executes commands without asking for approval on both platforms**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

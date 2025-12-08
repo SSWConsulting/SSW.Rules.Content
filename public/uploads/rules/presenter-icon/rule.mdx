@@ -30,7 +30,7 @@ When sharing the presentation content between a few speakers, it might be hard t
 
 That way you can passively remind each other who is meant to be presenting at the moment. An extra tip is to avoid displaying the name of the person, because when that presenter is unavailable, the replacement presenter feels untrustworthy to the audience.
 
-<endOfIntro />
+<endIntro />
 
 The icon allows you to determine whose turn it is to speak, without notifying the audience.
 
@@ -38,11 +38,8 @@ The icon allows you to determine whose turn it is to speak, without notifying th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Presenter name shown in a slide as a note",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Presenter name shown in a slide as a note"
   src="/uploads/rules/presenter-icon/presenter-icon-bad.png"
 />
 
@@ -51,24 +48,18 @@ The icon allows you to determine whose turn it is to speak, without notifying th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Use a subtle icon to indicate the presenter",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Use a subtle icon to indicate the presenter"
   src="/uploads/rules/presenter-icon/presenter-icon-good.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Put the person's icon in the top right corner of the slide. To make it easier to see at a glance who is meant to be speaking.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

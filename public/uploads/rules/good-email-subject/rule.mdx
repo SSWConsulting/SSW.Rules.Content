@@ -36,18 +36,15 @@ uri: good-email-subject
 
 If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid-based, or headline-grabbing subjects, to try and coerce you into opening that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Make your email stand out!",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Make your email stand out!"
   src="https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c"
 />
 
@@ -59,30 +56,24 @@ Choosing the right subject can give an email a sense of urgency or importance an
 This is especially important when trying to get your clients and suppliers to take notice of your email.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🕑 Reminder about event**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Easily missed, can't get the main information without reading the email",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Easily missed, can't get the main information without reading the email"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🕑 6:30PM Tonight! See you at the User Group**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Definitely going to read this email",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Definitely going to read this email"
 />
 
 
@@ -97,16 +88,13 @@ The best way of doing this is to ensure that your subject includes either a:
 You'll note from this that including the date and time in the subject gives immediacy to the email.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** Never leave the subject blank! It's like writing a book and failing to give it a name!
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -117,96 +105,78 @@ Always use a descriptive email subject to make it easier to find later. Use [emo
 ### Consulting
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🕑 Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Dinner
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🍴 Dinner Tonight, 6.30PM at The Oaks**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Bugs
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🐛 BUG - Northwind form - Button not working**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Call someone
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **📱 SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Feedback on a product
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🎨 Northwind app - User Interface feedback**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### [Test please](/request-a-test-please)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **🧪 Test Please - Product Name v1.11**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -217,48 +187,39 @@ Of course, we also use a structured approach for emails - especially when sendin
 We use the following format for the subject internally and encourage clients and external contacts to use this format as well.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **&#123;&#123; EMOJI &#125;&#125; &#123;&#123; PROJECT TOUCHED &#125;&#125; - &#123;&#123; BUSINESS AREA TOUCHED &#125;&#125; - &#123;&#123; SHORT DESCRIPTION &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 Example:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Subject: **📧 Northwind – IOP – Customer.aspx - Add email address validation**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 The advantage of this is that when you sort by the subject in Outlook, you get all of the emails grouped together, and it is easy to recognize the client/product, because the subject contains the relevant information.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** When referring to a website, it's a good idea to include the URL in the email subject.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -283,16 +244,13 @@ Other words to be used are:
 * Client name
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Remember:** For external emails, it is acceptable to [change an email subject](/do-you-know-when-you-should-change-a-subject) in certain circumstances.
 
 For internal emails, the subject should generally **not** be changed as it will break the threading of emails.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

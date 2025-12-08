@@ -19,9 +19,9 @@ createdBy: Sam Wagner [SSW]
 createdByEmail: 66365977+SamBWagner@users.noreply.github.com
 guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 isArchived: false
-lastUpdated: 2024-11-07 00:55:10+00:00
-lastUpdatedBy: Gabby Ward [SSW]
-lastUpdatedByEmail: gabby.ward98@outlook.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - im-your-contact-to-see-if-they’re-free-before-you-try-calling-them
 - calling-do-you-im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
@@ -48,21 +48,18 @@ Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
 A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Hot Calling**
 
 The only good reason not to give a warning before calling is when the person is already expecting your pre-arranged call..
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -74,17 +71,14 @@ The only good reason not to give a warning before calling is when the person is 
 * **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting. E.g. a Sprint Review
 ![Figure: Check their status first](/uploads/rules/warn-then-call/team-status-1.jpg)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -95,110 +89,70 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
 ### Option A: No context
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling in 1 minute.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The recipient has no idea what you are calling about"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - The recipient has no idea what you are calling about",
-  shouldDisplay: true
-} } />
 
 
 ### Option B: Generic context
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling in 1 minute about the SysAdmin candidate.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="OK example - Includes context although the other person can't easily find out more"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "OK example - Includes context although the other person can't easily find out more",
-  shouldDisplay: true
-} } />
 
 
 ### Option C: Specific context
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling in 1 minute. See the PBI/Issue:
 
 **&#123;&#123; URL &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting",
-  shouldDisplay: true
-} } />
 
 
 **Tip:** For the example above, PBIs often have long URLs. [Include a line break](/format-new-lines/#urls) for better readability.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling in 1 minute about this email thread:
 
 **&#123;&#123; EMAIL SUBJECT &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Includes email subject for reference"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Includes email subject for reference",
-  shouldDisplay: true
-} } />
 
 
 For [cross approvals](/cross-approvals), pinging the approvers with their priority order number shows how many you have attempted to contact before them, and how many are after if they can not take the call.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling you in 2 minutes to review a code change - Code Master (3/5)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Includes priority order numbers to share how many other approvers you have attempted to contact"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Includes priority order numbers to share how many other approvers you have attempted to contact",
-  shouldDisplay: true
-} } />
 
 
 ### Option D: Add a screenshot
@@ -209,11 +163,8 @@ If you need to give more context than just text, sending a screenshot is a good 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A screenshot and subject includes context and makes it easy to search a inbox",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A screenshot and subject includes context and makes it easy to search a inbox"
   src="/uploads/rules/warn-then-call/warn-with-screenshot.png"
 />
 
@@ -221,8 +172,8 @@ If you need to give more context than just text, sending a screenshot is a good 
 ### Option E: Include email header/content in text
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Calling in 5 minutes regarding:
 
@@ -238,17 +189,9 @@ As per our conversation,
 1. Please update [https://ssw.com.au/rules/warn-then-call](https://ssw.com.au/rules/warn-then-call) rule with a good example
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Forwarding then copying an email includes context by sharing the email and providing participant details"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Forwarding then copying an email includes context by sharing the email and providing participant details",
-  shouldDisplay: true
-} } />
 
 
 ### Option F: Use "Share to Teams" button
@@ -262,11 +205,8 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "In Outlook | Share to Teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="In Outlook | Share to Teams"
   src="/uploads/rules/warn-then-call/share-to-teams-outlook-button.png"
 />
 
@@ -275,11 +215,8 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams"
   src="/uploads/rules/warn-then-call/share-to-teams.png"
 />
 
@@ -289,22 +226,14 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tried to call - will try again in 1 hour"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Send them a message indicating you will try again later"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Send them a message indicating you will try again later",
-  shouldDisplay: true
-} } />
 
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
@@ -314,22 +243,14 @@ When a call is declined, it is important to follow up in order to ensure the tas
 If you still couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with &#123;&#123; THE RECOMMENDATION &#125;&#125; tomorrow.
 (checked by &#123;&#123; APPROVER &#125;&#125;).
 
 Please get back to me if you prefer another way."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - Send them a message explaining how the next steps will move forward"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Send them a message explaining how the next steps will move forward",
-  shouldDisplay: true
-} } />

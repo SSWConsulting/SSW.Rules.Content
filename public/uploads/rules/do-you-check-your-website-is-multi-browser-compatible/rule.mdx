@@ -30,7 +30,7 @@ You should design a website to look good when being viewed in **Google Chrome**,
 
 There are a lot of other browsers available, but it is important to consider that most other browsers are based on the most used browser nowadays.
 
-<endOfIntro />
+<endIntro />
 
 Note that readable is not perfect. There may be some page elements that are less than perfect, but it's just not worth of time to fix small bugs in every single browser, except for **Google Chrome**.
 
@@ -47,26 +47,20 @@ You should be able to fix all formatting and layout bugs by editing the CSS file
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Browsers statistics in 2020 – Know more in W3C Browser Stats",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Browsers statistics in 2020 – Know more in W3C Browser Stats"
   src="/uploads/rules/do-you-check-your-website-is-multi-browser-compatible/BrowserUsageStats2020.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** If a browser represents less than 2% of your website views in Analytics, then you shouldn't bother.
 
 E.g. Google archived this link - https://code.google.com/archive/p/html5-js/ - which was used as an HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries. Since IE represents a small percentage of views it can be removed instead of updated to a new working shim.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

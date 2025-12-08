@@ -33,27 +33,24 @@ When creating a Pull Request with your changes, it is important to have a good d
 
 Leaving the description blank is common and not helpful. There are also cases where people overexplain. **You should try to include just the right amount of information.**
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Cannot tell what was done here",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Cannot tell what was done here"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
@@ -66,29 +63,23 @@ Leaving the description blank is common and not helpful. There are also cases wh
    Use emojis. See our rule on emojis in Scrum
 
   </>}
-  figureEmbed={{
-    preset: "okExample",
-    figure: "OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes",
-    shouldDisplay: true
-  }}
+  figurePrefix="ok"
+  figure="OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes"
 />
 
 
 Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:** Added missing video caption + removed unnecessary brackets
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Clear and concise description",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Clear and concise description"
 />
 
 

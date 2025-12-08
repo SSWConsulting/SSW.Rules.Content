@@ -25,7 +25,7 @@ uri: train-ai-to-write-in-your-style
 
 Creating content that mirrors your unique writing style enhances authenticity and engagement. By training AI like ChatGPT to write in your specific style, you can ensure that the generated content aligns with your voice and tone.
 
-<endOfIntro />
+<endIntro />
 
 ## 1. Provide writing samples
 
@@ -50,8 +50,8 @@ Use a specific prompt to generate new content in your style.
 ## Prompt templates
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Analyze the following article(s) for tone, sentence structure, humor, readability level, vocabulary, and emotional conveyance.
 
@@ -59,28 +59,22 @@ Provide a 200-word summary of the writing style based on the analysis.
 
 &#123;&#123; INSERT ARTICLE EXAMPLE(S) &#125;&#125;"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Detailed analysis prompt to understand writing style",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Detailed analysis prompt to understand writing style"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Based on the writing style analyzed, create content titled &#123;&#123; TITLE &#125;&#125; at &#123;&#123; WORD COUNT &#125;&#125;.
 
 Ensure that the new content strictly adheres to the author's writing style in terms of tone, structure, and approach as identified in the analysis."
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Content creation prompt ensuring adherence to the identified style",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Content creation prompt ensuring adherence to the identified style"
 />
 
 

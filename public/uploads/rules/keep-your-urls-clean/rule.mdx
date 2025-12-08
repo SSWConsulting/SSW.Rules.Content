@@ -33,19 +33,16 @@ uri: keep-your-urls-clean
 
 When you’re sending emails, or pinging someone in Teams, your URLs should be as clean as possible. Having no extra noise ensures that they are easy to read, and it is more aesthetically pleasing.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** URLs have become increasingly cluttered with the introduction of CampaignIDs (used to track customer activities and other information). When you're sharing the URLs, it is better to make them as clean and readable as possible... so delete everything after the question mark (including the CampaignID suffix).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -71,11 +68,8 @@ Here is the link to the new hand dryer that you wanted to see:
 Best,
 Dave
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Dirty URL with superfluous information",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Dirty URL with superfluous information"
 />
 
 <emailEmbed
@@ -97,24 +91,18 @@ Here is the link to the new hand dryer that you wanted to see:
 Best,
 Dave
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – Clean URL on a new line is easy to read and looks much better",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – Clean URL on a new line is easy to read and looks much better"
 />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Make sure to [place the URL on a new line](/format-new-lines/#urls) to reduce clutter and improve readability.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -126,11 +114,8 @@ For **presentations** and **videos** (i.e. (lower thirds](/video-editing-terms/#
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Showing unnecessary extra noise \"https://www.\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - Showing unnecessary extra noise \"https://www.\"'
   src="/uploads/rules/keep-your-urls-clean/ppt-urls-bad.png"
 />
 
@@ -139,10 +124,7 @@ For **presentations** and **videos** (i.e. (lower thirds](/video-editing-terms/#
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Clean links in a presentation",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Clean links in a presentation"
   src="/uploads/rules/keep-your-urls-clean/ppt-urls-good.png"
 />

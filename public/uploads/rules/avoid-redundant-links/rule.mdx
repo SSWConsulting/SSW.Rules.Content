@@ -36,45 +36,36 @@ Often a page has duplicated links pointing to the same page - all fairly close t
 * Confuse users as they have to decide which link to click first (and then end up to the same place anyway)
 * Annoy users when they are repeatedly directed to the same page
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The exception is when you find useful to users to have a second link in a different section of the page (e.g. 1 in the content, 1 in the "Related" section).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     [SSW Web Hosting](https://www.ssw.com.au) offers competitive, high performance [hosting plans](https://www.ssw.com.au). We use Windows Servers with the latest security patches and SQL Server 2005 SP1. Our Data center has multiple connections to major backbones, and our support staff are Microsoft Certified. [View more about our hosting plans](https://www.ssw.com.au)
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Redundant links nearby pointing to the same page",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Redundant links nearby pointing to the same page"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     [SSW Web Hosting](https://www.ssw.com.au) offers competitive, high performance hosting plans. We use Windows 2003 Servers with the latest security patches and SQL Server 2005 SP1. Our Data center has multiple connections to major backbones, and our support staff are Microsoft Certified.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Single link makes text more clear and readable",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Single link makes text more clear and readable"
 />

@@ -23,7 +23,7 @@ uri: do-you-customize-group-header-style-in-list
 
 By default, the group header of a list shows bigger font size only on modern UI, this is fine for one level group. However, if you have two level groups, it could be better to show different header styles between level one and level two group headers.
 
-<endOfIntro />
+<endIntro />
 
 To implement this, you will need to inject a custom style to first level group header. e.g.
 
@@ -42,10 +42,7 @@ Once deployed, you should be able to see a header style like the below:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Level one group header is bold",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Level one group header is bold"
   src="/uploads/rules/do-you-customize-group-header-style-in-list/level one gorup header bold.png"
 />

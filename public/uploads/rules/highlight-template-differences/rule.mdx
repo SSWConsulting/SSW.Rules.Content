@@ -23,11 +23,11 @@ When following a template for sending an email, sometimes you will make a major 
 
 In that case, highlight the text so that it is obvious there is a deviation.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 (checked by Bob)
@@ -41,22 +41,14 @@ This email was completed a week later than normal because I didn't have a phone 
 Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="**Figure: Bad example - The deviation from the standard template isn't highlighted**"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "**Figure: Bad example - The deviation from the standard template isn't highlighted**",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 (checked by Bob)
@@ -68,11 +60,8 @@ Hi Sophie,
 This email was completed a week later than normal because I didn't have a phone when she started work.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -81,8 +70,4 @@ This email was completed a week later than normal because I didn't have a phone 
 Done - my voice message is "Hi, you've reached Jane Northwind from SSW. I don't use voice mail, so please send an SMS. Thanks!"
 
 :::
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example - The deviation from the standard template is clearly highlighted**",
-  shouldDisplay: true
-} } />
+**✅ **Figure: Good example - The deviation from the standard template is clearly highlighted****  

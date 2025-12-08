@@ -24,7 +24,7 @@ uri: do-you-avoid-publishing-from-visual-studio
 
 Publishing from Visual Studio is a convenient way to deploy a web application, but it relies on a single developer’s machine which can lead to problems. Deploying to production should be easily repeatable, and able to be performed from different machines.
 
-<endOfIntro />
+<endIntro />
 
 A better way to deploy is by using a defined Build in TFS.
 
@@ -32,11 +32,8 @@ A better way to deploy is by using a defined Build in TFS.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example – Using Publish to deploy",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example – Using Publish to deploy"
   src="/uploads/rules/do-you-avoid-publishing-from-visual-studio/test-publish.jpg"
 />
 
@@ -45,11 +42,8 @@ A better way to deploy is by using a defined Build in TFS.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example – Queuing a new build to deploy your application",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example – Queuing a new build to deploy your application"
   src="/uploads/rules/do-you-avoid-publishing-from-visual-studio/queuing-new-build.jpg"
 />
 
@@ -58,10 +52,7 @@ A better way to deploy is by using a defined Build in TFS.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Best example – Use continuous integration to trigger your Continuous Deployment build",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Best example – Use continuous integration to trigger your Continuous Deployment build"
   src="/uploads/rules/do-you-avoid-publishing-from-visual-studio/continuous-integration.jpg"
 />

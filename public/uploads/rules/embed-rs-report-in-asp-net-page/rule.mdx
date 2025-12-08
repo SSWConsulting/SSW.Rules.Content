@@ -25,22 +25,19 @@ type: rule
 uri: embed-rs-report-in-asp-net-page
 ---
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** This rule is obsolete and has been replaced with [Do you know the best way to do printable reports?](https://www.ssw.com.au/rules/do-you-know-the-best-way-to-do-printable-reports)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 Visual Studio provides a Report Viewer control for WebForms, so use it instead of the old IFrame method. The report viewer control is super easy to use - just drag the control into your page designer and select the properties you like.
 
-<endOfIntro />
+<endIntro />
 
 The bad old way was to use an IFrame and point it to the report's URL (including parameters). This is bad because you might encounter a typing error. If you want to disable vertical scrollbar, you need to adjust the height of IFrame manually. Furthermore, you can't configure the report's authentication separately.
 
@@ -50,12 +47,7 @@ The bad old way was to use an IFrame and point it to the report's URL (including
     &rs:Command=Render&ClientContactID=<%=mintClientContactID%>&ClientExInfo=<%=clientInfo%>&rc:Parameters=false">
 </IFRAME>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Embed report using IFrame",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example - Embed report using IFrame**  
 
 ```sql
 <rsweb:ReportViewer ID="ReportViewer1" runat="server" SizeToReportContent="True" ProcessingMode="Remote" Width="100%" AsyncRendering="false">
@@ -63,22 +55,14 @@ The bad old way was to use an IFrame and point it to the report's URL (including
     ReportPath="/TimeProOnlineReports/ClientRegisteredProductsByDate" />
 </rsweb:ReportViewer>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Embed report using Report Viewer",
-  shouldDisplay: true
-} } />
-
+**✅ Good Example - Embed report using Report Viewer**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - IFrame with vertical scrollbar",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - IFrame with vertical scrollbar"
   src="/uploads/rules/embed-rs-report-in-asp-net-page/IFrame.gif"
 />
 
@@ -87,10 +71,7 @@ The bad old way was to use an IFrame and point it to the report's URL (including
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Report Viewer without vertical scrollbar",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Report Viewer without vertical scrollbar"
   src="/uploads/rules/embed-rs-report-in-asp-net-page/ReportViewer.gif"
 />

@@ -25,7 +25,7 @@ uri: do-you-use-image-sprites-to-reduce-http-requests
 
 A sprite is an image that has all of your other images inside of it, so if your sprite has 5 images, you’d be getting rid of 4 HTTP requests and speeding your site’s loading time up by the time for each of those 4 requests latency. You will use CSS selectors for each link to display only a portion of the image sprite - effectively showing just the image you need.
 
-<endOfIntro />
+<endIntro />
 
 The benefits to use CSS image sprites are:
 
@@ -39,11 +39,8 @@ Ensure that the file size of your master image isn't greater than the sum of its
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - four images, one for each icon",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - four images, one for each icon"
   src="/uploads/rules/do-you-use-image-sprites-to-reduce-http-requests/ImageSprites_bad.gif"
 />
 
@@ -52,10 +49,7 @@ Ensure that the file size of your master image isn't greater than the sum of its
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - one image contains all the icons and CSS selectors make the browser display only the part you need",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - one image contains all the icons and CSS selectors make the browser display only the part you need"
   src="/uploads/rules/do-you-use-image-sprites-to-reduce-http-requests/ImageSprites_good.gif"
 />

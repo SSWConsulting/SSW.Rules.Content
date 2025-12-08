@@ -12,6 +12,8 @@ lastUpdated: 2025-09-25 12:24:38+00:00
 lastUpdatedBy: Chloe Lin [SSW]
 lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
+seoDescription: Learn the correct approach to developing data entry forms with proper
+  multiple instance handling and user-friendly workflows for efficient data input.
 title: Do you know the correct way to develop Data Entry Forms?
 type: rule
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
@@ -19,17 +21,14 @@ uri: do-you-know-the-correct-way-to-develop-data-entry-forms
 
 Data Entrees should be able to use your data entry form with ease. It should follow the flow that they are familiar with.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - New button should open another form, and Delete button should be on that new form",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - New button should open another form, and Delete button should be on that new form"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/BadAddDeleteSubForm.gif"
 />
 
@@ -44,11 +43,8 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Outlook opens multiple instances of the data entry form (email message)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Outlook opens multiple instances of the data entry form (email message)"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/Outlookemails.jpg"
 />
 
@@ -57,11 +53,8 @@ As we saw in the example above, Sally needs to open multiple instances of the sa
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Each form instance is shown in the taskbar, and easily opened again",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Each form instance is shown in the taskbar, and easily opened again"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/outlooktaskbar.jpg"
 />
 
@@ -76,11 +69,8 @@ The figure in Data Entry Drill Downs below illustrates this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - New and Delete buttons docked in the Toolbar providing easy data entry for new Timesheets",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - New and Delete buttons docked in the Toolbar providing easy data entry for new Timesheets"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/GoodAddDeleteSubForm.jpg"
 />
 
@@ -113,11 +103,8 @@ If Cancel, then return back to the dirty form.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Save Changes Dialog must appear when form is dirty",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Save Changes Dialog must appear when form is dirty"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/SaveChangesDialog.jpg"
 />
 
@@ -130,11 +117,8 @@ Do not add buttons for searching on the data entry form, create a new form for s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This implementation of a search utility is on the same form",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - This implementation of a search utility is on the same form"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/BadSearch.gif"
 />
 
@@ -143,11 +127,8 @@ Do not add buttons for searching on the data entry form, create a new form for s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This implementation of Search feature is on a separate form",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - This implementation of Search feature is on a separate form"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/SearchForm.gif"
 />
 
@@ -160,11 +141,8 @@ When including a sub form in your main form (as shown in figure below), the only
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - No Delete button for Sub forms",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - No Delete button for Sub forms"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/SubFormsExample.gif"
 />
 
@@ -197,11 +175,8 @@ The reason for the above validation placement is that these events run in the fo
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Error Provider Icon next to a required field",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Error Provider Icon next to a required field"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/ErrorProviderIconExample.jpg"
 />
 
@@ -216,11 +191,8 @@ Make sure that the menu items are relevant to the current form. The main idea is
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Action and Tools are irrelevant on this form",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Action and Tools are irrelevant on this form"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/MenuBadExample.jpg"
 />
 
@@ -229,11 +201,8 @@ Make sure that the menu items are relevant to the current form. The main idea is
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Menus are relevant",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Menus are relevant"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/MenuGoodExample.jpg"
 />
 
@@ -290,11 +259,8 @@ A common UI to use for these fields can be seen in the example below. What we do
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This form has no information to indicate who created this entry and who last modified it",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - This form has no information to indicate who created this entry and who last modified it"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/BadCreatedUpdated.jpg"
 />
 
@@ -303,11 +269,8 @@ A common UI to use for these fields can be seen in the example below. What we do
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This form contains Created by/Updated by fields used in a standard control which is put into all forms",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - This form contains Created by/Updated by fields used in a standard control which is put into all forms"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/GoodCreatedUpdated.jpg"
 />
 
@@ -330,11 +293,8 @@ Databinding is also available to be used with this user control.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Data Binding using the Designer",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Data Binding using the Designer"
   src="/uploads/rules/do-you-know-the-correct-way-to-develop-data-entry-forms/CommonFieldsDB.gif"
 />
 

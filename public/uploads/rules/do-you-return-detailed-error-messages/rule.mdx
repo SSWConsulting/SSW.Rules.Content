@@ -27,7 +27,7 @@ uri: do-you-return-detailed-error-messages
 
 Good error design is as important to the success of an API as the API design itself. A good error message provides context and visibility on how to troubleshoot and resolve issues at critical times.
 
-<endOfIntro />
+<endIntro />
 
 ## REST API
 
@@ -140,24 +140,14 @@ Error messages should contain sufficient information that a developer or consumi
   "errorMessage": "An error has occurred."
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - The error message does not contain information that can be acted upon",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - The error message does not contain information that can be acted upon**  
 
 ```json
 {
   "errorMessage": "Client ID is a required field. Please provide a Client ID."
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The error message provides explicit detail and a short description on how to fix the issue",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - The error message provides explicit detail and a short description on how to fix the issue**  
 
 ### Sanitize Response
 
@@ -192,12 +182,7 @@ Accept: */*
 Host: localhost:44312
 User-Agent: curl/7.55.1
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - this level of data should not be returned in a production environment",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - this level of data should not be returned in a production environment**  
 
 ### Provide a Tracking or Correlation ID
 
@@ -208,12 +193,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
   "errorMessage": "An error has occurred. Please contact technical support"
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - No tracking or correlation ID is provided",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - No tracking or correlation ID is provided**  
 
 ```json
 {
@@ -221,12 +201,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
   "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good exmaple - A error ID is provided as part of the reponse",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good exmaple - A error ID is provided as part of the reponse**  
 
 ### Provide an additional Help Resource
 
@@ -240,12 +215,7 @@ Providing a URI to an additional help resources as part of your request will all
   "StatusCode": 404
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - No help link provided",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - No help link provided**  
 
 ```json
 {
@@ -256,8 +226,4 @@ Providing a URI to an additional help resources as part of your request will all
   "StatusCode": 404
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A help link is provided as part of the response",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - A help link is provided as part of the response**

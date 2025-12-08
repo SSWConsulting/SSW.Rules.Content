@@ -31,27 +31,21 @@ Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "The bad was is to browse the code",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="The bad was is to browse the code"
   src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/lotto-balls.jpeg"
 />
 
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Run Code Metrics in Visual Studio",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Run Code Metrics in Visual Studio"
   src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/VS 11 Code Metrics.png"
 />
 
@@ -61,11 +55,8 @@ Rather than randomly browsing for dodgy code, use Visual Studio's Code Metrics f
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Red dots indicate the code that is hard to maintain. E.g. Save() and LoadCustomer()"
   src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/CodeMetrics_3_1710232021935.png"
 />
 
@@ -77,11 +68,8 @@ Identifying the problem areas is only the start of the process. From here, you s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Find out who the devs are by using CodeLens and start a conversation",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Find out who the devs are by using CodeLens and start a conversation"
   src="/uploads/rules/do-you-know-how-to-laser-in-on-the-smelliest-code/codelens-start-conversation.png"
 />
 
@@ -89,14 +77,11 @@ Identifying the problem areas is only the start of the process. From here, you s
 **Tip:** Learn [the benefits of Source Control](/do-you-know-the-benefits-of-using-source-control).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Suggestion to Microsoft:** Allow us to visualize the developers responsible for the bad code (currently and historically) using CodeLens.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

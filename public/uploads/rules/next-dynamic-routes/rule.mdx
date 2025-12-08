@@ -26,7 +26,7 @@ uri: next-dynamic-routes
 
 NextJS supports dynamic routes out of the box, meaning you can create routes from dynamic data at request or build time. This is especially useful for sites such as blogs that have large amounts of content.
 
-<endOfIntro />
+<endIntro />
 
 Dynamic routes allow developers to accommodate unpredictable URLs. Instead of defining a static path, segments of the path can be dynamic.
 
@@ -40,16 +40,13 @@ Dynamic routes allow developers to accommodate unpredictable URLs. Instead of de
 To tap into this feature, wrap your folder's name in square brackets, for instance, `[filename].tsx` or `[slug].tsx`.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     The directory structure should mirror the dynamic nature of the routes. Here's a standard representation:
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

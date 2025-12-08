@@ -23,7 +23,7 @@ When working with Power Automate flows, there are instances where you need to us
 
 However, there are situations where using your local timezone might be more appropriate, especially for tasks or events that are specific to a particular region. It's important to choose the appropriate timezone based on the context and requirements of your task or system.
 
-<endOfIntro />
+<endIntro />
 
 ❌ **Complex time zone calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
 ❌ **Daylight saving time issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
@@ -33,11 +33,8 @@ However, there are situations where using your local timezone might be more appr
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Comparing Datetime in default timezone: UTC with UTC",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Comparing Datetime in default timezone: UTC with UTC"
   src="/uploads/rules/power-automate-flows-convert-timezone/comparing-timedate-without-converting.png"
 />
 
@@ -52,11 +49,8 @@ convertTimeZone(&#123;&#123; array/object &#125;&#125;?[&#123;&#123; 'timedate v
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - You are comparing it in local timezone (i.e AEST with AEST)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - You are comparing it in local timezone (i.e AEST with AEST)"
   src="/uploads/rules/power-automate-flows-convert-timezone/convert-timezone-expression.gif"
 />
 

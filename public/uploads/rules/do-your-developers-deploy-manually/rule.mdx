@@ -33,16 +33,13 @@ We use TFS gated check-ins to do the deployment for us. When a developer checks 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\"Build\" screen",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='\"Build\" screen'
   src="/uploads/rules/do-your-developers-deploy-manually/deployment1.jpg"
 />
 
 
-<endOfIntro />
+<endIntro />
 
 The developer clicks the "Build changes" button and waits for the build to complete. This process needs to take no longer than 2 minutes as it just makes cranky developers if this takes too long.
 The code is put into a TFS shelf, compiled, had all the unit tests run against the code and then deployed to the internal webserver if successful.
@@ -53,11 +50,8 @@ Once this process has completed successfully, the developer will get presented w
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Click on the \"Reconcile\" button to update your local files",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Click on the \"Reconcile\" button to update your local files'
   src="/uploads/rules/do-your-developers-deploy-manually/deployment2.jpg"
 />
 
@@ -68,11 +62,8 @@ If the developer does not have Build notifications on there local computer then 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Right click on your last successful build and choose \"Reconcile Workspace\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Right click on your last successful build and choose \"Reconcile Workspace\"'
   src="/uploads/rules/do-your-developers-deploy-manually/deployment3.jpg"
 />
 
@@ -88,10 +79,7 @@ If the build fails then no changes would get pushed to staging and developers sh
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "See the build failing and who requested it",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="See the build failing and who requested it"
   src="/uploads/rules/do-your-developers-deploy-manually/2017-04-11_10-13-08.png"
 />

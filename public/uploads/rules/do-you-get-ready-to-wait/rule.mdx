@@ -25,7 +25,7 @@ uri: do-you-get-ready-to-wait
 Initial Sitefinity load times are quite bad.
 On a live site you can do things like keeping the site warm though IIS however for developers this process takes quite a bit of time.
 
-<endOfIntro />
+<endIntro />
 
 Sitefinity caches everything, checks licenses, creates in memory pages from the content in the DB, etc.
 There will be a lot of small quick query's against the Sitefinity SQL database and it is important that these remain quick.
@@ -40,11 +40,8 @@ We recommend disabling all modules and only enabling items that you require.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Administration -&gt; System -&gt; Modules",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Administration -&gt; System -&gt; Modules"
   src="/uploads/rules/do-you-get-ready-to-wait/sitefinity-admin-module.jpg"
 />
 

@@ -28,17 +28,14 @@ uri: escalate-key-updates
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications"
   src="/uploads/rules/escalate-key-updates/critical-update-bad-example.jpg"
 />
 
@@ -47,11 +44,8 @@ Key updates on projects may include Done Videos, critical text additions, or spe
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - For visibility and to ensure all stakeholders are in the loop, you should also send an email to the relevant people"
   src="/uploads/rules/escalate-key-updates/critical-update-good-example.jpg"
 />
 
@@ -82,11 +76,8 @@ If you have any feedback, please post it on the PBI.
 
 &lt;This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Example",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi).
@@ -96,15 +87,12 @@ Sometimes the [PBI work originated from an email](/turn-emails-into-pbis), in wh
 Additionally, giving the the Product Owner and/or Stakeholder(s) a call to show them the video is great - this ensures they watch it and you can get instant feedback.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:**
 Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

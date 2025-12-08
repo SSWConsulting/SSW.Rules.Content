@@ -12,7 +12,7 @@ createdBy: Chloe Lin [SSW]
 createdByEmail: chloelin@ssw.com.au
 guid: 0d0c5084-5b42-45e0-afb5-c6f886d791ea
 isArchived: false
-lastUpdated: 2025-09-17 13:55:02+00:00
+lastUpdated: 2025-11-07 14:10:34+00:00
 lastUpdatedBy: Chloe Lin [SSW]
 lastUpdatedByEmail: chloelin@ssw.com.au
 seoDescription: Multilingual search features require handling diacritics to ensure
@@ -28,7 +28,7 @@ Implementing character normalization by converting accented and special characte
 
 This is especially important for internationalization and for sites to serve users worldwide effectively, regardless of linguistic differences.
 
-<endOfIntro />
+<endIntro />
 
 ### Handling diacritics in JS
 
@@ -75,15 +75,12 @@ Console.WriteLine(normalizedString);    // Output: resume
 Voila! With just two line of code, we've transformed the accented "résumé" into its standard English form "resume". Now, the search functionality can accurately match user queries regardless of accents.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:**
 While this method often ensures uniformity and handles characters with multiple representations, it may not function as expected for non-diacritic characters such as 'æ' or 'ø'. In such cases, it may be necessary to use a library or manually handle these characters.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

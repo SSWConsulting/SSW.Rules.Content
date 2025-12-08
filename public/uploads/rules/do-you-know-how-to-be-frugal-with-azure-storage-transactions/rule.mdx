@@ -22,7 +22,7 @@ uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
 
 Azure transactions are CHEAP. You get tens of thousands for just a few cents. What is dangerous though is that it is very easy to have your application generate hundreds of thousands of transactions a day.
 
-<endOfIntro />
+<endIntro />
 
 Every call to Windows Azure Blobs, Tables and Queues count as 1 transaction. Windows Azure diagnostic logs, performance counters, trace statements and IIS logs are written to Table Storage or Blob Storage.
 
@@ -47,11 +47,8 @@ Question for Microsoft: Is this per Web Role?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Check the properties of your web and worker role configuration files",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Check the properties of your web and worker role configuration files"
   src="/uploads/rules/do-you-know-how-to-be-frugal-with-azure-storage-transactions/azure-check-properties.jpg"
 />
 
@@ -61,11 +58,8 @@ Question for Microsoft: Is this per Web Role?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Disable diagnostics",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Disable diagnostics"
   src="/uploads/rules/do-you-know-how-to-be-frugal-with-azure-storage-transactions/azure-disable-diagnostics.jpg"
 />
 
@@ -77,11 +71,8 @@ Question for Microsoft: Is this per Web Role?
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "When publishing, ensure that IntelliTrace and Profiling are both disabled",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="When publishing, ensure that IntelliTrace and Profiling are both disabled"
   src="/uploads/rules/do-you-know-how-to-be-frugal-with-azure-storage-transactions/azure-publishing-settings.jpg"
 />
 
@@ -94,11 +85,8 @@ Search bots crawling your site to index it will lead to a lot of transactions. E
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Place robots.txt in the root of your site to control search engine indexing",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Place robots.txt in the root of your site to control search engine indexing"
   src="/uploads/rules/do-you-know-how-to-be-frugal-with-azure-storage-transactions/azure-robots.jpg"
 />
 

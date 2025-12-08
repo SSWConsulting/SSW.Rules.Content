@@ -27,7 +27,7 @@ uri: use-date-time-data-type
 
 Use the DateTime data type for date parameters instead of using strings. There are 3 reasons to do this:
 
-<endOfIntro />
+<endIntro />
 
 1. Stop the bug "Cannot read the next data row for the data set"
 Although a hardcoded string will work, it will not work for all users regional date/time settings.
@@ -41,11 +41,8 @@ E.g. a string data type parameter with a value of "26/01/2006" is correct for "d
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using the String data type for date parameter",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using the String data type for date parameter"
   src="/uploads/rules/use-date-time-data-type/RSRulesUseDateTimeType1.jpg"
 />
 
@@ -54,24 +51,18 @@ E.g. a string data type parameter with a value of "26/01/2006" is correct for "d
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Use DateTime data type for the date parameter - you will not get internationalization bugs and it gives users a calendar control",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Use DateTime data type for the date parameter - you will not get internationalization bugs and it gives users a calendar control"
   src="/uploads/rules/use-date-time-data-type/RSRulesUseDateTimeType2.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We have a program called [SSW Code Auditor](https://codeauditor.com) to check for this rule.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

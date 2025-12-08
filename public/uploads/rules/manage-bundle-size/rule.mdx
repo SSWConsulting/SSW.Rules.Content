@@ -26,7 +26,7 @@ uri: manage-bundle-size
 
 Shipping a large JavaScript bundle can be catastrophic for your web app - resulting in longer load times and a poor user experience using a web app. It is very easy for this to be the case when using a web framework such as React or Angular, as adding packages to an already large amount of framework code can result in a bloated JavaScript bundle.
 
-<endOfIntro />
+<endIntro />
 
 Despite the efforts made by tools like [Webpack](https://webpack.js.org/), [Rollup](https://rollupjs.org/) or [Vite](https://vitejs.dev/) to optimize your JavaScript bundle, these may not be sufficient if your project has an excessive number of NPM packages. Each package introduces additional code to your bundle, and unnecessary or redundant packages can quickly inflate its size. Identifying and eliminating such packages can help keep your bundle lean and efficient. Here are some tools that can help with this process:
 
@@ -43,11 +43,8 @@ npx depcheck
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A list of the unused dependencies in a project",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="A list of the unused dependencies in a project"
   src="/uploads/rules/manage-bundle-size/depcheck.png"
 />
 
@@ -65,11 +62,8 @@ You can also upload a package.json file to display a list of packages in your pr
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The list of packages from the package.json file, sorted by size",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The list of packages from the package.json file, sorted by size"
   src="/uploads/rules/manage-bundle-size/bundlephobia_list.png"
 />
 
@@ -85,11 +79,8 @@ The Import Cost extension for VSCode, developed by Wix shows the size of each NP
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The extension in action - shows you how large each package is, as you import it",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The extension in action - shows you how large each package is, as you import it"
   src="/uploads/rules/manage-bundle-size/import-cost.png"
 />
 
@@ -105,10 +96,7 @@ If you are using NextJS, it is advised to use Next's custom implementation of th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The bundle map for the NextJS SSW Website",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The bundle map for the NextJS SSW Website"
   src="/uploads/rules/manage-bundle-size/webpack-bundle-analyzer.png"
 />

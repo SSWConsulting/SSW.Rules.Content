@@ -26,7 +26,7 @@ Most enterprise applications require a database to store data. Once you have a d
 
 Entity Framework Code First Migrations allow you to update a database schema rather than recreate it from scratch. This is useful when you have a production database that you want to keep, but you want to make changes to the schema.
 
-<endOfIntro />
+<endIntro />
 
 ## Database Schema Management Options
 
@@ -94,11 +94,8 @@ If you struggle to remember the commands above, Rider has a great UI that makes 
   alt="Image"
   size="large"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Rider - EF Core Migrations",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Rider - EF Core Migrations"
   src="/uploads/rules/use-code-migrations/rider-ef-core.png"
 />
 
@@ -111,12 +108,7 @@ Once you have some migration, you'll then need to decide when these get run. Nai
 var dbContext = scope.ServiceProvider.GetRequiredService<EagleEyeDbContext>();
 await dbContext.Database.MigrateAsync();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Running migrations manually during startup in `program.cs`",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Running migrations manually during startup in `program.cs`**  
 
 ### Entity Framework Migration Bundles
 
@@ -126,22 +118,14 @@ A place to run migrations is during your CICD deployment pipeline.
 dotnet ef migrations bundle --self-contained --force
 .\efbundle.exe --connection {$ENVVARWITHCONNECTION}
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Creating and executing a migration bundle during a CICD pipeline",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Creating and executing a migration bundle during a CICD pipeline**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     If an `appsettings.json` file can be found the connection string can be automatically picked up.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

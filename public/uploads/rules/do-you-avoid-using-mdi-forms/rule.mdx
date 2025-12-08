@@ -25,17 +25,14 @@ MDI (Multiple Document Interface) forms should be avoided in most modern data-ce
 - Only show as one window on the taskbar
 - Have no multiple monitor support (the killer reason)
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - VS.NET with tabs is cool for developers, but not for the average knowledge worker",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - VS.NET with tabs is cool for developers, but not for the average knowledge worker"
   src="/uploads/rules/do-you-avoid-using-mdi-forms/vs.net.jpg"
 />
 
@@ -44,31 +41,40 @@ MDI (Multiple Document Interface) forms should be avoided in most modern data-ce
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Word 2003 in MDI mode",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Word 2003 in MDI mode"
   src="/uploads/rules/do-you-avoid-using-mdi-forms/wordmdibad.gif"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={false}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"Good example - Word 2003 with Default Settings\",\n    shouldDisplay: true\n  } }\n  src=\"/uploads/rules/do-you-avoid-using-mdi-forms/sdiexample.jpg\"\n/>\n\n\n```cs\nMe.IsMdiContainer = true;\n\nClientForm frm = new ClientForm();\nfrm.MdiParent = this;\nfrm.Show();\n```",
-  shouldDisplay: true
-} } />
- bad
+
+
+::: good
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Good example - Word 2003 with Default Settings"
+  src="/uploads/rules/do-you-avoid-using-mdi-forms/sdiexample.jpg"
+/>
+
+
+```cs
+Me.IsMdiContainer = true;
+
+ClientForm frm = new ClientForm();
+frm.MdiParent = this;
+frm.Show();
+```
+
+::: bad
 Figure: Bad code example - using MDI forms
 :::
 
 ```cs
 ClientForm frm = new ClientForm(); frm.Show();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - not using MDI",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - not using MDI**  
 
 MDI forms have the advantage that the MDI parent form will have a collection **MdiChildren** which contains all of its child forms. This makes it very easy to find out which forms are already open, and to give these forms focus. Accomplishing this with an SDI application requires you to:
 

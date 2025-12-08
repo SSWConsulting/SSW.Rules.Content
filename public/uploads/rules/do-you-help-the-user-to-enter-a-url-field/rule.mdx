@@ -23,17 +23,14 @@ uri: do-you-help-the-user-to-enter-a-url-field
 
 Most developers seem to validate a URL and tell the user what they have done wrong only after the error happens. URL fields should show how the users must enter it.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using a validation message to tell the user to enter a correct                         URL",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using a validation message to tell the user to enter a correct                         URL"
   src="/uploads/rules/do-you-help-the-user-to-enter-a-url-field/url-field-bad.jpg"
 />
 
@@ -44,11 +41,8 @@ The better way is to have the user avoid the error with a good default.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The user has a good chance of entering the URL in the incorrect format",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The user has a good chance of entering the URL in the incorrect format"
   src="/uploads/rules/do-you-help-the-user-to-enter-a-url-field/url-field-bad2.jpg"
 />
 
@@ -57,10 +51,7 @@ The better way is to have the user avoid the error with a good default.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - User immediately knows the format expected",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - User immediately knows the format expected"
   src="/uploads/rules/do-you-help-the-user-to-enter-a-url-field/url-field-good.jpg"
 />

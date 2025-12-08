@@ -28,33 +28,27 @@ uri: refer-consistently-throughout-your-document
 
 When writing technical documentation, one of your primary objectives is to ensure the document is written consistently to ensure a flowing reading experience. Ensure the reader and author are correctly referenced throughout your document.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     When one wants to scan for viruses, you can open the antivirus software.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - The user is referred in two ways and flow is broken",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - The user is referred in two ways and flow is broken"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     When you want to scan for viruses, open the antivirus software.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - There is no noticeable break in the reading flow",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - There is no noticeable break in the reading flow"
 />
 
 
@@ -64,28 +58,22 @@ It is occasionally acceptable to use the first person, "we", "I", "us", "our" et
 An example of an acceptable use of first person is: "We recommend that you backup your database first." **However, you must never use the first person to refer to the reader.**
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     We will now open a web browser and go to the home page.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - It is unclear who the \"we\" is",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - It is unclear who the \"we\" is'
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You can now open a web browser and go to the home page.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - These instructions are clear and direct",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - These instructions are clear and direct"
 />

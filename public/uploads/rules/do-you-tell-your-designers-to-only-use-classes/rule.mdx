@@ -23,18 +23,15 @@ uri: do-you-tell-your-designers-to-only-use-classes
 
 In Sitefinity you can alter the appearance and content areas on your webpage using "Layouts". These layouts are basically just Divs with sizes applied.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "You have the ability to assign a Class to a Div only. No other customisations can be made",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="You have the ability to assign a Class to a Div only. No other customisations can be made"
   src="/uploads/rules/do-you-tell-your-designers-to-only-use-classes/sitefinity-class-only.jpg"
 />
 
@@ -43,16 +40,13 @@ Additionally, Sitefinity will hard code the widths of the layout and there is no
 The hack work around is to manually remove the widths via JQuery:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 $(".sf_colsOut").css("width", "");
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

@@ -23,7 +23,7 @@ uri: run-dog-food-stats-after-tfs2010-migration
 
 Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values against the [stats you noted down from your TFS 2008 server](/do-you-run-your-dog-food-stats-before1).
 
-<endOfIntro />
+<endIntro />
 
 1. On TFS2010, run the DogFoodStats queries and save the results
 2. Compare the numbers are the same
@@ -31,8 +31,8 @@ Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if
    **Note:** Grant Holliday has never published exactly why they are not the same.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### TFS2008
@@ -55,17 +55,14 @@ Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if
 
 ==1096==
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Have a look at the dogfoodstats you ran before",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Have a look at the dogfoodstats you ran before"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### TFS2010
@@ -86,9 +83,6 @@ Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if
 
 23723
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "You should get the same number or more for your TFS2010 server. We’re not worried unless it’s slightly less",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="You should get the same number or more for your TFS2010 server. We’re not worried unless it’s slightly less"
 />

@@ -35,7 +35,7 @@ uri: use-backchannels-effectively
 
 Often, when a manager is called in to help out with a conflict situation, they don’t have all the context or details, so backchannels can help to fill the gap.
 
-<endOfIntro />
+<endIntro />
 
 * **Prior backchannels** - Have a "[corridor conversation](/corridor-conversations)" with your manager or teammate before a client meeting. If your manager has no idea about an issue, when they’re put on the spot in a meeting, they then have to interrogate regarding processes followed, etc. It’s better to have them prepared before they go in. One way to do this is by asking good questions – see the video on how to ask good questions below.
 * **Live backchannels** - Assist in real-time with relevant information in an alternative private channel (e.g. SMS or Teams). This can help the conversation flow and help to verify what is being said, and limits the need for phrases such as *“William, is that true?”*
@@ -53,11 +53,8 @@ This makes it purpose of the chat obvious and reduces the risk of private messag
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Creating a back channel to discuss ideas in private during an initial meeting",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Creating a back channel to discuss ideas in private during an initial meeting"
   src="/uploads/rules/use-backchannels-effectively/northwind-backchannel.png"
 />
 
@@ -67,31 +64,25 @@ This makes it purpose of the chat obvious and reduces the risk of private messag
 Often, you might feel that a decision made by a colleague or manager is not quite right. In such cases, backchanneling can help clarify and resolve these situations. Here’s how you should handle it:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 In a meeting of 5 people, which includes the Product Owner, Solution Architect and 3 Software Engineers, the Software Engineers disagree with a decision made during the meeting. They start a backchannel to talk about it, without the Product Owner and Solution Architect involved, and reach a decision to not proceed.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Not all team members are involved in the backchannel",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Not all team members are involved in the backchannel"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     3 Software Engineers disagree with a decision made in a meeting. They open a group chat with the Product Owner and Solution Architect soon after to discuss the decision.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - All team members, including the Product Owner and Solution Architect, are involved in a group chat and are kept informed",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - All team members, including the Product Owner and Solution Architect, are involved in a group chat and are kept informed"
 />
 
 
@@ -102,53 +93,39 @@ If the Software Engineers still disagree after the group chat, then they should 
 ### Keep managers informed about important conversations with clients
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Client:** *"I told them we’d need &#123;&#123; SOLUTION &#125;&#125;"*
 **Manager:** *"Oh that does sound reasonable. Devs, why was that missed?"*
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Manager looks uninformed and is always on the back foot, and needing to ask questions that everyone else in the call on both sides already knows",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Manager looks uninformed and is always on the back foot, and needing to ask questions that everyone else in the call on both sides already knows"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Client:** *"I told them we’d need &#123;&#123; SOLUTION &#125;&#125;."*
 **Dev (on a private channel with Manager):** *"That’s true, but it only came up after the 1st Sprint was already done."*
 **Manager:** *"My understanding was that was only asked for after the 1st Sprint."*
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Manager is armed with relevant information as needed",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Manager is armed with relevant information as needed**  
 
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Dev:** *"Heads up, they might be sensitive about this part as they have been very clear with us about it from the start and I missed it. This part was really my fault."*
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Let the manager know what parts are reasonable to push, and what battles are better surrendered",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Let the manager know what parts are reasonable to push, and what battles are better surrendered"
 />
 
 

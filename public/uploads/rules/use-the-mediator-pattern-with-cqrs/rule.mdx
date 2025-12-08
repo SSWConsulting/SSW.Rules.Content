@@ -36,7 +36,7 @@ CQRS means clear separation between Commands (Write operations) and Queries (Rea
 
 CQRS can be used with complex architectures such as Event Sourcing but the concepts can also be applied to simpler applications with a single database.
 
-<endOfIntro />
+<endIntro />
 
 MediatR is an open source .NET library by Jimmy Bogard that provides an elegant and powerful approach for writing CQRS, making it easier to write clean code.
 
@@ -47,11 +47,8 @@ For every command or query, you create a specific request class that explicitly 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "(from mediatr MediatR docs) A Simple Request class",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="(from mediatr MediatR docs) A Simple Request class"
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-1.png"
 />
 
@@ -63,11 +60,8 @@ Then the implementation of that command or query is implemented in a handler cla
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "A handler class",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="A handler class"
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/mediator-cqrs-2.png"
 />
 
@@ -89,11 +83,8 @@ This approach brings many benefits:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-bad.jpg"
 />
 
@@ -102,10 +93,7 @@ This approach brings many benefits:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
   src="/uploads/rules/use-the-mediator-pattern-with-cqrs/clean-architecture-good.jpg"
 />

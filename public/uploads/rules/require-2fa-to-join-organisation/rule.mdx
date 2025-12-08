@@ -23,7 +23,7 @@ uri: require-2fa-to-join-organisation
 
 If all members use 2FA in your organisation, the risk of unauthorised access to your repositories is lower. GitHub organisations can be configured to require all members to use 2FA to join.
 
-<endOfIntro />
+<endIntro />
 
 1. Go to your organisation | Settings | Organization security
 2. Under 'Two-factor authentication', select 'Require two-factor authentication for everyone in your organization'
@@ -34,26 +34,20 @@ If all members use 2FA in your organisation, the risk of unauthorised access to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Require 2FA in your organisation",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Require 2FA in your organisation"
   src="/uploads/rules/require-2fa-to-join-organisation/github.jpg"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Enforcing 2FA in an existing organisation will remove members that are not using 2FA.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

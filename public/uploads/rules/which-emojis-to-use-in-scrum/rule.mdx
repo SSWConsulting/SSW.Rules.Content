@@ -29,7 +29,7 @@ uri: which-emojis-to-use-in-scrum
 
 Emojis make it easier for people to quickly workout what type of content is coming up and to highlight important stuff. It works nicely for meetings, backlogs, and more.
 
-<endOfIntro />
+<endIntro />
 
 An easy and fun way to have use emojis consistently in Scrum is to follow the list on [scrumoji - An emoji guide for your agile communication](https://www.scrumoji.org/).
 
@@ -42,8 +42,8 @@ If standard emojis aren't defined in the project documentation then new starters
 So creating documentation that outlines the standard set of emojis to use is crucial. Then developers can just pick the emoji that most closely fits their PBI. For example, you might have the following emojis defined:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     💄 UI
 
@@ -63,11 +63,8 @@ So creating documentation that outlines the standard set of emojis to use is cru
 
 ♻️ Refactor
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -77,11 +74,8 @@ Try not to go overboard, keeping it simple makes it easier for developers to pic
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - The Sprint Review is an important meeting but doesn't stand out in my calendar",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - The Sprint Review is an important meeting but doesn't stand out in my calendar"
   src="/uploads/rules/which-emojis-to-use-in-scrum/srumoji - bad example.jpg"
 />
 
@@ -90,10 +84,7 @@ Try not to go overboard, keeping it simple makes it easier for developers to pic
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The Daily Scrum and Sprint Review stand out and I will definitely not forget to attend",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - The Daily Scrum and Sprint Review stand out and I will definitely not forget to attend"
   src="/uploads/rules/which-emojis-to-use-in-scrum/scrumoji - good example.jpg"
 />

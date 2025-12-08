@@ -26,7 +26,7 @@ uri: chain-of-density
 
 If you have a lot of text to sum up, it can be time consuming to extract the most important parts. If you want a simple way to keep the important stuff, you should use chain of density (CoD).
 
-<endOfIntro />
+<endIntro />
 
 ## What is Chain of Density?
 
@@ -41,8 +41,8 @@ When you give it the prompt, it will:
 Here's an example prompt you can use to do CoD - the only thing you need to to is paste the text you want summarized into the &#123;&#123; ARTICLE &#125;&#125; placeholder:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Article: &#123;&#123; ARTICLE &#125;&#125;
 You will generate increasingly concise, entity-dense summaries of the above article.
@@ -71,11 +71,8 @@ Guidelines:
 
 Remember, use the exact same number of words for each summary."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

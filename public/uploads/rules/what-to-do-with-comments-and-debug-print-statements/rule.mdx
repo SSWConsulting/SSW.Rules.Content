@@ -24,7 +24,7 @@ uri: what-to-do-with-comments-and-debug-print-statements
 
 When you create comments in your code, it is better to document why you've done something a certain way than to document how you did it. The code itself should tell the reader what is happening, there's no need to create "how" comments that merely restate the obvious unless you're using some technique that won't be apparent to most readers.
 
-<endOfIntro />
+<endIntro />
 
 What do you do with your print statements? Sometimes a programmer will place print statements at critical points in the program to print out debug statements for either bug hunting or testing. After the testing is successful, often the print statements are removed from the code. This is a bad thing to do.
 
@@ -41,12 +41,7 @@ private void Command0_Click() {
     .....processing code
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Debug code has just been commented out",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Debug code has just been commented out**  
 
 ```cs
 private void Command0_Click() {
@@ -59,8 +54,4 @@ private void Command0_Click() {
     .....processing code
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The debug commands have been rafactored into meaningful comments for the next developer",
-  shouldDisplay: true
-} } />
+**✅ Good example - The debug commands have been rafactored into meaningful comments for the next developer**

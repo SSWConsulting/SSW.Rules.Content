@@ -24,7 +24,7 @@ uri: delete-computer-accounts-from-ad
 
 Keeping your Active Directory environment tidy is helpful to keep things running smoothly, but it is also important to improve your security posture.
 
-<endOfIntro />
+<endIntro />
 
 Computer accounts in AD are similar to user accounts - they can be used to access other systems and data in your domain. Since computer accounts do not hold any useful information, it is safe to delete them when a computer is decommissioned. It is also very easy to re-join a computer to the domain if needed, so there is no reason to leave computers in a "disabled" state.
 
@@ -32,11 +32,8 @@ Computer accounts in AD are similar to user accounts - they can be used to acces
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example: Disabled computers in AD",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example: Disabled computers in AD"
   src="/uploads/rules/delete-computer-accounts-from-ad/disabled-pcs.png"
 />
 
@@ -45,10 +42,7 @@ Computer accounts in AD are similar to user accounts - they can be used to acces
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example: Only enabled, current computers",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example: Only enabled, current computers"
   src="/uploads/rules/delete-computer-accounts-from-ad/enabled-pcs.png"
 />

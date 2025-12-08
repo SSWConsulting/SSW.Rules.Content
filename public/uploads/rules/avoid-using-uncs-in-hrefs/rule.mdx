@@ -26,23 +26,14 @@ Initially, errors of this nature would be picked up in the link checking utility
 
 The reason it won't see the problems is because the link checking utility does not check hard coded links to local servers (e.g. localserver/ssw/Default.aspx). Therefore, it is testing a page that will exist internally, but the page will not exist when uploaded to the web (e.g. ssw.com.au/ssw/Default.aspx).
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <a href="//ant/ssw/LookOut.htm"></a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example**  
 
 ```html
 <a href="/ssw/LookOut.htm"></a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
+**✅ Good example**

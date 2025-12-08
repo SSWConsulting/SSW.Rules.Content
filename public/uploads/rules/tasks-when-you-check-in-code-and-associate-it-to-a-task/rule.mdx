@@ -23,43 +23,27 @@ uri: tasks-when-you-check-in-code-and-associate-it-to-a-task
 
 In Scrum you work only on tasks in a Sprint, and the task must belong to a committed PBI. As such, when you commit code in Azure DevOps (was TFS), you should associate it with the task you are working on rather than the PBI.
 
-<endOfIntro />
+<endIntro />
 
 The reason behind this is that doing so provides a better way to track change sets in a Sprint and give full traceability for work done during the Sprint.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Change set 123 was associated to PBI 'As an end user I want to be able to lookup customers'
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad Example - The change set was associated to a User Story not a Task"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - The change set was associated to a User Story not a Task",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Change Set 123 was associated to Task 'Create database fields for customer' which is part of PBI 'As an end user I want to be able to lookup customers
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good Example - The change set was associated to a Task"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - The change set was associated to a Task",
-  shouldDisplay: true
-} } />

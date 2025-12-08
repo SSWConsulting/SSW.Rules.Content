@@ -24,38 +24,25 @@ uri: declare-member-accessibility-for-all-classes
 
 Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 Match MatchExpression(string input, string pattern)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad - Method without member accessibility declared",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad - Method without member accessibility declared**  
 
 ```csharp
 private Match MatchExpression(string input, string pattern)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good - Method with member accessibility declared",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good - Method with member accessibility declared**  
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Compiler warning given for not explicitly defining member access level",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Compiler warning given for not explicitly defining member access level"
   src="https://user-images.githubusercontent.com/40375803/126088173-2387748e-89df-4f05-bafd-cf293f0ce616.png"
 />
 

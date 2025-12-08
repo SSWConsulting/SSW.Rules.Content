@@ -30,7 +30,7 @@ uri: do-you-know-how-to-find-performance-problems-with-application-insights
 
 Once you have set up your Application Insights as per the rule 'Do you know how to set up Application Insights' and you have your daily failed requests down to zero, you can start looking for performance problems. You will discover that uncovering your performance related problems are relatively straightforward.
 
-<endOfIntro />
+<endIntro />
 
 The main focus of the first blade is the 'Overview timeline' chart, which gives you a birds eye view of the health of your application.
 
@@ -39,11 +39,8 @@ The main focus of the first blade is the 'Overview timeline' chart, which gives 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "There are 3 spikes to investigate (one on each graph), but which is the most important? Hint: look at the scales!",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="There are 3 spikes to investigate (one on each graph), but which is the most important? Hint: look at the scales!"
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-1.jpg"
 />
 
@@ -62,11 +59,8 @@ Always investigate the spikes first, notice how the two blue ones line up? That 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The 'Average of Browser page load time by URL base' graph will highlight the slowest page.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The 'Average of Browser page load time by URL base' graph will highlight the slowest page."
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance 2.png"
 />
 
@@ -80,11 +74,8 @@ It would be nice to see the prior week for comparison, however, we're unable to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "In this case, the user agent string gives away the cause, Baidu (a Chinese search engine) got stuck and failed to index the page.",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="In this case, the user agent string gives away the cause, Baidu (a Chinese search engine) got stuck and failed to index the page."
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-3.png"
 />
 
@@ -100,11 +91,8 @@ The other spike which requires investigation is in the server response times. To
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "In this case, the most important detail to action is the Get Healthcheck issue. Now you should be able to optimise the slowest pages",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="In this case, the most important detail to action is the Get Healthcheck issue. Now you should be able to optimise the slowest pages"
   src="/uploads/rules/do-you-know-how-to-find-performance-problems-with-application-insights/performance-4.jpg"
 />
 

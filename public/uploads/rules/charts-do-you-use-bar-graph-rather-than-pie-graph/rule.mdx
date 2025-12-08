@@ -31,7 +31,7 @@ uri: charts-do-you-use-bar-graph-rather-than-pie-graph
 
 This is a fancy way of saying use the right graph for the right purpose. Pie graphs fulfill a specific requirement, unlike a bar graph which is more multi-purpose.
 
-<endOfIntro />
+<endIntro />
 
 Pie graphs are used to show the general composition of an element. It's good for seeing at a glance what section is dominating, but it doesn't handle details very well.
 
@@ -39,11 +39,8 @@ Pie graphs are used to show the general composition of an element. It's good for
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - This Pie Graph is too complicated and difficult to understand.",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - This Pie Graph is too complicated and difficult to understand."
   src="/uploads/rules/charts-do-you-use-bar-graph-rather-than-pie-graph/PieGraph.gif"
 />
 
@@ -52,11 +49,8 @@ Pie graphs are used to show the general composition of an element. It's good for
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - This Pie Graph has been simplified and it is easy to see at a glance that Nike sold the most sneakers this month compared to others.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - This Pie Graph has been simplified and it is easy to see at a glance that Nike sold the most sneakers this month compared to others."
   src="/uploads/rules/charts-do-you-use-bar-graph-rather-than-pie-graph/PieGraph-Good.jpg"
 />
 
@@ -65,10 +59,7 @@ Pie graphs are used to show the general composition of an element. It's good for
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - This Bar Graph data hasn't even been processed but it's still readable.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - This Bar Graph data hasn't even been processed but it's still readable."
   src="/uploads/rules/charts-do-you-use-bar-graph-rather-than-pie-graph/BarGraph.gif"
 />

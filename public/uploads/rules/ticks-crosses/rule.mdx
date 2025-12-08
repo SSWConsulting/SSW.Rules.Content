@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Use ticks and crosses with subtle sound effects in video examples to effectively highlight good and bad practices without interfering with audience comprehension.
 title: Post-Production - Do you use ticks and crosses in video examples?
 categories:
   - category: categories/marketing-and-video/rules-to-better-video-recording.mdx
@@ -14,9 +15,9 @@ authors:
 created: 2022-12-21T01:54:19.000Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 archivedreason: null
-lastUpdated: 2024-04-12T03:33:15.000Z
-lastUpdatedBy: Jack Pettit [SSW]
-lastUpdatedByEmail: 57518417+JackDevAU@users.noreply.github.com
+lastUpdated: 2025-11-07T14:10:34.000Z
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 createdBy: Sofie Hong [SSW]
 createdByEmail: 108442257+SofieHong@users.noreply.github.com
 isArchived: false
@@ -24,7 +25,7 @@ isArchived: false
 
 Sometimes a video editor wants to communicate good and bad examples to the audience, but they aren't sure the best way to do that. Ticks (✅) and crosses (❌) with sound effects are a great way to highlight good and bad examples to the audience, but they only work if used correctly.
 
-<endOfIntro />
+<endIntro />
 
 Using ticks and crosses in the **will help you emphasize an example and aid comprehension of the content**. Including sound effects in the **wrong way may interfere with the audience's understanding of the example**
 
@@ -45,11 +46,8 @@ The video presents good and bad examples without using other visual elements or 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - No ticks and crosses + no sound - 0:38 - 0:48",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - No ticks and crosses + no sound - 0:38 - 0:48"
   src="/uploads/rules/ticks-crosses/bad-example-1-no-tick-and-cross-no-sound.png"
 />
 
@@ -69,11 +67,8 @@ Therefore, it is important to use an appropriately sized graphic left-aligned (s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Distracting tick + loud sound - 0:59 - 1:02",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Distracting tick + loud sound - 0:59 - 1:02"
   src="/uploads/rules/ticks-crosses/bad-example-2-distracting-tick-loud-sound.png"
 />
 
@@ -94,11 +89,8 @@ However...it would be an even better approach to standardise your ticks and cros
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Red cross with the right size + location + subtle sound - 1:54 - 2:02",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure="OK example - Red cross with the right size + location + subtle sound - 1:54 - 2:02"
   src="/uploads/rules/ticks-crosses/good-example-1-red-cross-with-the-right-size-subtle-sound.png"
 />
 
@@ -114,11 +106,8 @@ Standarding your ticks and crosses using a lower third helps the team have a con
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The red cross and bad example in the lower third + subtle sound - 0:58 - 1:07",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The red cross and bad example in the lower third + subtle sound - 0:58 - 1:07"
   src="/uploads/rules/ticks-crosses/ask-from-x-to-y.png"
 />
 
@@ -126,8 +115,8 @@ Standarding your ticks and crosses using a lower third helps the team have a con
 ----
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ### Extra - SSW TV Research: Feedback on videos using ticks and crosses
@@ -216,9 +205,6 @@ The final results (including Other) were:
 * 6% prefer to have subtle sound in video #2
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

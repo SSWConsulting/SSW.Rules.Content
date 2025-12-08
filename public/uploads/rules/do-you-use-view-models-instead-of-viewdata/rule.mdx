@@ -28,7 +28,7 @@ ASP.NET CORE MVC provides several ways to pass data to views:
 * **Weakly typed data:** ViewData and ViewBag
 * **Strongly typed data:** ViewModel
 
-<endOfIntro />
+<endIntro />
 
 Both ViewData and ViewBag are dynamically resolved at runtime, which can often lead to runtime errors because they aren't type-safe and rely on [Magic Strings](https://en.wikipedia.org/wiki/Magic_string).
 
@@ -48,12 +48,7 @@ public IActionResult About()
     return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – ViewData is being used in Action which isn’t type-safe",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – ViewData is being used in Action which isn’t type-safe**  
 
 Show data using ViewData in View:
 
@@ -69,12 +64,7 @@ Show data using ViewData in View:
     @user.Age<br>
 </div>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – Displaying not-safe data in View",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – Displaying not-safe data in View**  
 
 So it is better to use ViewModel to pass data to views. Because it allows to take advantage of strong type checking, and the validity of types used in a view is checked at compile time.
 
@@ -92,12 +82,7 @@ public IActionResult About()
     return View(viewModel);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example – ViewModel is being used in Action to pass data which is strongly-typed**  
 
 Show data using ViewModel in View:
 
@@ -109,8 +94,4 @@ Show data using ViewModel in View:
     @Model.Age<br>
 </div>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – Displaying safe data in View",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – Displaying safe data in View**

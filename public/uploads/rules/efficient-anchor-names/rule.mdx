@@ -32,7 +32,7 @@ uri: efficient-anchor-names
 
 It is often that developers find themselves using the incorrect/inefficient anchor names.
 
-<endOfIntro />
+<endIntro />
 
 According to [W3C](https://www.w3.org/TR/REC-html40/struct/links.html), anchor names must observe the following rules:
 
@@ -50,18 +50,9 @@ These are the things you should consider when creating an anchor link:
 ```html
 <a name="1st section"></a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Beginning with a number, spaces within, and meaningless anchor name",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Beginning with a number, spaces within, and meaningless anchor name**  
 
 ```html
 <a name="get-started"></a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Beginning with a letter, no spaces, and a meaningful anchor name",
-  shouldDisplay: true
-} } />
+**✅ Good example - Beginning with a letter, no spaces, and a meaningful anchor name**

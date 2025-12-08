@@ -32,7 +32,7 @@ Data Transfer Objects (DTOs) and View Models (VMs) are similar concepts, but the
 
 Do you understand the subtle difference between these terms?
 
-<endOfIntro />
+<endIntro />
 
 ## What is a DTO?
 
@@ -59,12 +59,7 @@ public class CarDto
   }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)**  
 
 ```csharp
 public class CarDto
@@ -80,12 +75,7 @@ public class CarDto
   public int Year { get; set; }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - A DTO that encapsulates some data",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - A DTO that encapsulates some data**  
 
 ## What is a view model?
 

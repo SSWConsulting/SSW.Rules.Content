@@ -11,9 +11,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
 isArchived: false
-lastUpdated: 2025-10-08 04:13:07+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-04 23:02:25+00:00
+lastUpdatedBy: Micaela Blank [SSW]
+lastUpdatedByEmail: 81748614+micsblank@users.noreply.github.com
 related:
 - rule: public/uploads/rules/hamburger-menu/rule.mdx
 - rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
@@ -31,7 +31,7 @@ Accidentally deleting important data can be a disaster for your users and your s
 
 These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
 
-<endOfIntro />
+<endIntro />
 
 ## Use red for danger consistently
 
@@ -44,11 +44,8 @@ Delete buttons should always stand out with a **red color**. This is a well-esta
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Wrong color for a delete button",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Wrong color for a delete button"
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-color.png"
 />
 
@@ -57,18 +54,15 @@ Delete buttons should always stand out with a **red color**. This is a well-esta
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Red is the right color for a delete button",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Red is the right color for a delete button"
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-color.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If red is your branding primary color, you may use red for positive or neutral actions, as long as:
 
@@ -76,11 +70,8 @@ Delete buttons should always stand out with a **red color**. This is a well-esta
 * Consistency is maintained across all UI elements
 * Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -96,11 +87,8 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Cross icon usually means \"Cancel\" and should be avoided for permanent deletion. The button is also missing a text label",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - Cross icon usually means \"Cancel\" and should be avoided for permanent deletion. The button is also missing a text label'
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-icon.png"
 />
 
@@ -109,11 +97,8 @@ Icons make buttons faster to recognize and reduce ambiguity. A trash can icon ne
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example -  Button has a Trash/Bin icon positioned to the left of the text labe",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example -  Button has a Trash/Bin icon positioned to the left of the text labe"
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-icon.png"
 />
 
@@ -130,11 +115,8 @@ Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is d
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - \"Delete\" and \"Save\" are too close together, which can lead to accidental clicks",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example - \"Delete\" and \"Save\" are too close together, which can lead to accidental clicks'
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-positioning.png"
 />
 
@@ -143,11 +125,8 @@ Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is d
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - \"Delete\" button in red, with the right icon, and visually isolated from safe actions",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Good example - \"Delete\" button in red, with the right icon, and visually isolated from safe actions'
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-positioning.png"
 />
 
@@ -165,26 +144,20 @@ Use confirmations when:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Confirming a deletion",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Confirming a deletion"
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-confirmation.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Avoid overusing confirmations as they lead to [alert fatigue](https://www.magicbell.com/blog/alert-fatigue).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -198,11 +171,8 @@ For **icon-only** delete buttons (for example, a red trash icon in a table row),
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Tooltip gives clarity to an icon-only delete button",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Tooltip gives clarity to an icon-only delete button"
   src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-tooltip.png"
 />
 
@@ -238,8 +208,8 @@ For more guidance on destructive actions in UI design:
 ---
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ## Bug reports examples
@@ -267,9 +237,6 @@ Check out how SSW manages UI bugs across our many products and teams using [YakS
 * [TinaCMS UX Issue \#6076](https://github.com/tinacms/tinacms/issues/6076)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

@@ -29,7 +29,7 @@ It's important that the unit tests you develop are capable of failing and that y
 
 This is a fundamental principle in Test Driven Development (TDD) called Red/Green/Refactor.
 
-<endOfIntro />
+<endIntro />
 
 A common approach is by returning `NotImplementedException()` from the method you are writing tests for. For Example:
 
@@ -50,12 +50,7 @@ public int Sum(int x, int y)
    throw new NotImplementedException();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: The test fails by throwing a `NotImplementedException`",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: The test fails by throwing a `NotImplementedException`**  
 
 This test fails for the wrong reasons, by throwing a `NotImplementedException`. In production, this is not a valid reason for this test to fail.
 A `NotImplementedException` is synonymous with "still in development", include a `//TODO:` marker with some notes about the steps to take to implement the test.
@@ -79,26 +74,18 @@ public int IsPositive(int x)
    return -1;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: The test fails by returning an invalid value",
-  shouldDisplay: true
-} } />
+**✅ Good example: The test fails by returning an invalid value**  
 
 
-
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Sometimes there is no clear definition of an invalid value, then it is acceptable to fail a test using `NotImplementedException`. Add additional remarks, notes or steps on what to test and how to implement with a `//TODO: ...` marker. This will assist you or other developers coming across this failed test.
 
 Make sure that this test will be implemented before a production release.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -117,12 +104,7 @@ public int Sum(int x, int y)
    throw NotImplementedException();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: The test fails by returning an invalid result or throwing a `NotImplementedException()` with a `//TODO:` item",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: The test fails by returning an invalid result or throwing a `NotImplementedException()` with a `//TODO:` item**  
 
 In this case, the test will fail because the `IsPositive` behavior is incorrect and `Sum` is missing its implementation.
 

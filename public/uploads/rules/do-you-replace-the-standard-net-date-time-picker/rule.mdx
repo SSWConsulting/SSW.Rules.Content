@@ -22,7 +22,7 @@ A good replacement for the standard Date Time picker is the UltraDatePicker by I
 
 The main reason for the use of the UltraDatePicker over the standard .NET one is because the .NET one does not take null for a date value.
 
-<endOfIntro />
+<endIntro />
 
 This is a lot of hassle for DataBinding. The Windows Form DataBinding will try to put null into the bound field, when:
 
@@ -37,11 +37,8 @@ If you set the property "Nullable" to false in UltraDatePicker, the same issues 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Set \"Nullable\" to true to allow DBNull values from bound DataRows",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Set \"Nullable\" to true to allow DBNull values from bound DataRows'
   src="/uploads/rules/do-you-replace-the-standard-net-date-time-picker/datetimepickerproperties.gif"
 />
 

@@ -25,26 +25,16 @@ uri: do-you-use-doctype-without-any-reference
 
 Since HTML5, DOCTYPE no longer requires a reference to a DTD. Back in HTML 4.01, The DTD links were used in to specify the rules for the markup language (Transitional, Strict, Frameset etc) so that the browsers render the content correctly. It's no longer necessary.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd">
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – Old reference in DOCTYPE",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – Old reference in DOCTYPE**  
 
 ```html
 <!DOCTYPE html>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – HTML 5 DOCTYPE declaration",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example – HTML 5 DOCTYPE declaration**  
 
 For more information, see [HTML !DOCTYPE Declaration on w3schools.com](https://www.w3schools.com/tags/tag_doctype.asp).

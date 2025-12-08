@@ -34,19 +34,16 @@ One of the great things about email is that as a conversation progresses, you al
 
 Calendar appointments, on the other hand, don’t have this. Therefore, if you make plans via email, and that email conversation includes details like times, agendas, locations, etc. It’s usually a good idea to **copy the email text into the body of the calendar appointment**. That way you’ve got the history and context right there, so the attendees don’t have to go searching for it in their inbox.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** With calendar appointments, there is a risk of people accepting the appointment without reading the content – it doesn't happen with emails. If you are initiating an appointment that has a task in it (when you expect a ‘done’) then **duplicate the content of the appointment into an email**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -71,9 +68,6 @@ Sophie
 
 &lt;This email was sent as per [https://www.ssw.com.au/rules/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment)&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "Calendar appointment with tasks should be copied from an email, so the items assigned get read via the email (better visibility), and also the email can get replied to with a ‘done’",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="Calendar appointment with tasks should be copied from an email, so the items assigned get read via the email (better visibility), and also the email can get replied to with a ‘done’"
 />

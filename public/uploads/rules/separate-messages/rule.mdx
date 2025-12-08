@@ -13,9 +13,9 @@ createdBy: Tylah Kapa [SSW]
 createdByEmail: tylahkapa@gmail.com
 guid: 01cc440f-7eff-49ca-a544-acbfd93e11f1
 isArchived: false
-lastUpdated: 2025-07-09 00:49:41+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/answer-im-questions-in-order/rule.mdx
 - rule: public/uploads/rules/easy-questions/rule.mdx
@@ -29,7 +29,7 @@ uri: separate-messages
 
 When messaging someone, it's often tempting to send a big block of text. This can make your thoughts difficult to respond to, especially if there are unrelated subjects. Instead, you should split your thoughts into several individual messages, separated by subject.
 
-<endOfIntro />
+<endIntro />
 
 ## Why separate messages?
 
@@ -39,11 +39,8 @@ Breaking messages ensures that each segment is clear and distinct, avoiding conf
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - This message contains many different subjects! It's informative, but hard to respond to",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - This message contains many different subjects! It's informative, but hard to respond to"
   src="/uploads/rules/separate-messages/separate-messages-bad.png"
 />
 
@@ -52,24 +49,18 @@ Breaking messages ensures that each segment is clear and distinct, avoiding conf
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Here, each message is separate, making them individually available for responses",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Here, each message is separate, making them individually available for responses"
   src="/uploads/rules/separate-messages/separate-messages-good.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** When responding to these messages, you should [respond to each point in order](/answer-im-questions-in-order).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

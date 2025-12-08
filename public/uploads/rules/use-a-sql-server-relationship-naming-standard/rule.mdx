@@ -25,7 +25,7 @@ uri: use-a-sql-server-relationship-naming-standard
 
 This standard outlines the procedure on naming Relationships at SSW for SQL Server. Use this standard when creating new Relationships or if you find an older Relationship that doesn't follow that standard.
 
-<endOfIntro />
+<endIntro />
 
 Do you agree with them all? Are we missing some? Let us know what you think.
 
@@ -43,11 +43,8 @@ Rather than accepting the default value i.e. ClientAccount_FK01 that is given fr
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - using the default relationship name",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - using the default relationship name"
   src="/uploads/rules/use-a-sql-server-relationship-naming-standard/imgRelationshipPic1.gif"
 />
 
@@ -58,11 +55,8 @@ We recommend using Prod-ClientAccount.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - using a more descriptive relationship name",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - using a more descriptive relationship name"
   src="/uploads/rules/use-a-sql-server-relationship-naming-standard/imgRelationshipPic2.gif"
 />
 
@@ -74,11 +68,8 @@ The good thing is when you look at the relationship from the other side it is th
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Relationship name shown on the other table",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Relationship name shown on the other table"
   src="/uploads/rules/use-a-sql-server-relationship-naming-standard/imgRelationshipPic3.gif"
 />
 

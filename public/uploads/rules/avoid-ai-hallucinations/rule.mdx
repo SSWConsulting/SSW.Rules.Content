@@ -12,9 +12,9 @@ createdBy: Eddie Kranz [SSW]
 createdByEmail: ed@kranz.au
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 isArchived: false
-lastUpdated: 2025-10-09 06:49:21+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-10-17 12:01:24+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/build-hallucination-proof-ai-assistants/rule.mdx
 seoDescription: AI hallucinations are inevitable, but with the right techniques, you
@@ -29,7 +29,7 @@ AI is a powerful tool, however, sometimes it simply makes things up, aka halluci
 
 AI hallucinations are inevitable, but with the right techniques, you can minimize their occurrence and impact. Learn how SSW tackles this challenge using proven methods like clean data tagging, multi-step prompting, and validation workflows.
 
-<endOfIntro />
+<endIntro />
 
 **Let's face it. AI will always hallucinate.**
 
@@ -44,17 +44,14 @@ documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]
 ```
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Query:** "What was the server uptime in Q2?"
 **Hallucination:** "Server uptime was 95%." (Wrong: No uptime data exists!)
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Untagged, messy data leads to garbage outputs",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Untagged, messy data leads to garbage outputs"
 />
 
 
@@ -66,17 +63,14 @@ documents = [
 ```
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Query:** "What was the server uptime in Q2?"
 **Output:** "No uptime data found. Available data: 5hrs downtime." ✅
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Properly tagged data reduces the risk of incorrect retrieval",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Properly tagged data reduces the risk of incorrect retrieval"
 />
 
 
@@ -85,33 +79,27 @@ documents = [
 Use a **chain-of-thought** approach to split tasks into smaller, validated steps
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **User:** "Write a blog about quantum computing benefits for SMEs."
 **AI:** (Hallucinates fictional case studies and stats)
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - A single-step prompt invites hallucinations",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - A single-step prompt invites hallucinations"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **User:** "Generate a blog draft about quantum computing for SMEs."\
 "Verify all claims in this draft against trusted sources."\
 "Compare the final draft to the original query. Did you answer the question?"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Multi-step validation reduces errors",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Multi-step validation reduces errors"
 />
 
 
@@ -120,33 +108,27 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
 Always prompt the AI to **cite sources** and **flag uncertainty**.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **User:** "Why should SMEs adopt quantum computing?"
 **AI:** "It boosts efficiency by 200%." (Source? None!)
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No justification = unchecked errors",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - No justification = unchecked errors"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **System Prompt:** "Answer the question and cite sources. If uncertain, say 'I don’t know'."
 **User:** "Why should SMEs adopt quantum computing?"
 **AI:** "Quantum computing can optimize logistics (Source: IBM, 2023). However, adoption costs may be prohibitive for SMEs."
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Require citations and self-reflection",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Require citations and self-reflection"
 />
 
 
@@ -155,32 +137,26 @@ Always prompt the AI to **cite sources** and **flag uncertainty**.
 Use a **validation layer** to ensure outputs align with the original query.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **User:** "How does Azure Kubernetes Service (AKS) simplify deployment?"
 **AI:** Explains Kubernetes basics (ignores AKS specifics).
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - No final check = off-topic answers",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - No final check = off-topic answers"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     System Prompt: "Compare your answer to the user’s question. Did you address AKS?"
 AI: "Revised answer: AKS simplifies deployment by integrating with Azure DevOps and..." ✅
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Add a final validation step",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Add a final validation step"
 />
 
 

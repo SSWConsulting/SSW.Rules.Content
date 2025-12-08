@@ -20,7 +20,7 @@ isArchived: false
 
 Using resource files to store regular expressions simplifies management and promotes consistency across the project, enhancing maintainability and development workflows.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public static Queue getFilesInProject(string projectFile)
@@ -43,12 +43,7 @@ public static Queue getFilesInProject(string projectFile)
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Regular expression is embedded in code",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: Regular expression is embedded in code**  
 
 The problem with this code is that the regular expression is embedded within the method and not easily testable without creating mock files on-the-fly, etc. Another issue with embedding regular expressions in-code is escaping issues - often people will forget to escape the special characters or escape them incorrectly and thus cause the regular expression to behave differently between the design and execution environments.
 
@@ -59,11 +54,8 @@ The way we deal with this is to put the regular expression in a resource file. U
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Good example - The regular expression (with comment) is stored in a resource file",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Good example - The regular expression (with comment) is stored in a resource file"
   src="/uploads/rules/use-resource-file-to-store-regular-expressions/resourceregularexpression.gif"
 />
 
@@ -80,8 +72,4 @@ public static Queue getFilesInProject(string projectFile)
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: We can easily get the regular expression from resource file",
-  shouldDisplay: true
-} } />
+**✅ Good example: We can easily get the regular expression from resource file**  

@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: Matt Parker
   url: https://ssw.com.au/people/matt-parker
+categories:
+- category: categories/software-engineering/rules-to-better-blazor.mdx
 created: 2023-08-26 05:34:30+00:00
 createdBy: Matthew Parker [SSW]
 createdByEmail: 61717342+MattParkerDev@users.noreply.github.com
@@ -24,9 +26,9 @@ When you create a Blazor component, view parameters are marked with the `[Parame
 
 You should use the `[EditorRequired]` attribute to mark parameters that are required in your Blazor component.
 
-<endOfIntro />
+<endIntro />
 
-<br>
+
 
 **TestComponent.razor**
 
@@ -39,7 +41,7 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 }
 ```
 
-<br>
+
 
 **Index.razor**
 
@@ -50,14 +52,9 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 
 <TestComponent />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Developers could forget to pass a variable to the Name property",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - Developers could forget to pass a variable to the Name property**  
 
 
-<br>
 
 **TestComponent.razor**
 
@@ -70,7 +67,7 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
 }
 ```
 
-<br>
+
 
 **Index.razor**
 
@@ -86,16 +83,13 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The IDE warns developers if they forget the Name parameter",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The IDE warns developers if they forget the Name parameter"
   src="/uploads/rules/editor-required-blazor-component-parameters/ide-warning.png"
 />
 
 
-<br>
+
 
 You should configure this warning (RZ2012) as an error so your IDE will fail to build if you are missing a required parameter. Add `<WarningsAsErrors>RZ2012</WarningsAsErrors>` to your Blazor .csproj file:
 
@@ -114,11 +108,8 @@ You should configure this warning (RZ2012) as an error so your IDE will fail to 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Build fails with an error",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Build fails with an error"
   src="/uploads/rules/editor-required-blazor-component-parameters/build-error.png"
 />
 

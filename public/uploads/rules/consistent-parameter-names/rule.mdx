@@ -25,17 +25,14 @@ uri: consistent-parameter-names
 
 All display names referring to the same parameter should be consistent in everywhere of your reports. In addition, the parameter name and value should be in the same line if possible.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Inconsistent parameter names",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Inconsistent parameter names"
   src="/uploads/rules/consistent-parameter-names/ParameterName_Bad.gif"
 />
 
@@ -44,25 +41,19 @@ All display names referring to the same parameter should be consistent in everyw
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Consistent parameter names",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Consistent parameter names"
   src="/uploads/rules/consistent-parameter-names/ParameterName_Good.gif"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note: If your data is not live, but based on ETL/SSIS**
 Then each time log each import to a table Eg. Once a week. Then on the report parameters show this - so users know how old the data is.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

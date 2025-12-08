@@ -37,7 +37,7 @@ uri: packages-up-to-date
 
 NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
-<endOfIntro />
+<endIntro />
 
 ```shell
 # NPM
@@ -69,11 +69,8 @@ The packages output from this command will also show up in different colours:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Use 'npm outdated'",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Use 'npm outdated'"
   src="/uploads/rules/packages-up-to-date/npm_outdated.png"
 />
 
@@ -85,11 +82,8 @@ The packages output from this command will also show up in different colours:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Use 'npm audit' to discover vulnerabilities in your application",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Use 'npm audit' to discover vulnerabilities in your application"
   src="/uploads/rules/packages-up-to-date/npm_audit.png"
 />
 
@@ -121,24 +115,18 @@ Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Using yarn upgrade-interactive",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Using yarn upgrade-interactive"
   src="/uploads/rules/packages-up-to-date/upgrade-interactive.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Use `yarn upgrade-interactive --latest` to see outdated packages with breaking changes.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

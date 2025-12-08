@@ -37,7 +37,7 @@ When you add images/videos to websites/applications, it is helpful to add a capt
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
 
-<endOfIntro />
+<endIntro />
 
 To catch readers' attention, include a useful description - don't just describe what the image is... say what it's used for in the context of the document.
 
@@ -50,18 +50,15 @@ Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The first word after the dash should be capitalized, and the [caption should not include a full stop](/avoid-full-stops-in-bullet-point-lists/) at the end.
 
 E.g. **Figure: Good example - This is a caption**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -70,48 +67,39 @@ E.g. **Figure: Good example - This is a caption**
 When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts**.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     At SSW we always show the bad example first, then the good example. You will see samples of this in the next tips below.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ### Tip #3: Bold your captions
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 &#123;&#123; CAPTION &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Caption not bolded can be mixed up with regular content",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Caption not bolded can be mixed up with regular content"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 **&#123;&#123; CAPTION &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Caption stands out when bolded",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Caption stands out when bolded"
 />
 
 
@@ -120,32 +108,26 @@ When possible, use "bad" and "good" examples to clearly explain **Dos and don'ts
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 **Figure: This is the screen**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Vague caption description",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Vague caption description"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 **Figure: On the screen, choose the execution method**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clear caption description",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Clear caption description"
 />
 
 
@@ -156,32 +138,26 @@ When embedding videos, include a caption with **the video title** + **video leng
 **Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; VIDEO &#125;&#125;\
 **Figure: Scrum video**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Using \"Figure:\" for a video caption + a vague text",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - Using \"Figure:\" for a video caption + a vague text'
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; VIDEO &#125;&#125;\
 **Video: Intro to Scrum in Under 10 Minutes (9 min)**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Video caption following the standard \"Video: &#123;&#123; VIDEO TITLE &#125;&#125; (&#123;&#123; VIDEO LENGTH&#125;&#125;)\"",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure='Good example - Video caption following the standard \"Video: &#123;&#123; VIDEO TITLE &#125;&#125; (&#123;&#123; VIDEO LENGTH&#125;&#125;)\"'
 />
 
 
@@ -193,16 +169,13 @@ This helps:
 * Serving as a reminder in case that video ever gets removed by its owner
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -211,32 +184,26 @@ This helps:
 If you're sharing an AI generated image, show others how you made it.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 **Figure: An AI image of baseball player sliding**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Doesn't educate others about AI images",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Doesn't educate others about AI images"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; IMAGE &#125;&#125;\
 **Figure: An AI image of baseball player sliding. Prompt: A realistic image of a baseball player sliding. The uniform is white and the crowd is cheering.**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption"
 />
 
 
@@ -245,32 +212,26 @@ If you're sharing an AI generated image, show others how you made it.
 When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; VIDEO &#125;&#125;\
 **Video: In this video, Bob talks about Outlook**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - A vague text with no link to Bob's profile. Also missing the video length",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - A vague text with no link to Bob's profile. Also missing the video length"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; VIDEO &#125;&#125;\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - A descriptive caption using the video title + profile link + video length at the end",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - A descriptive caption using the video title + profile link + video length at the end"
 />
 
 
@@ -279,30 +240,24 @@ When you have someone's name in your caption, link the name to their profiles (e
 Using a GIF instead of a static image can be beneficial for illustrating multiple steps, as it saves page space. Be sure to specify that it is a GIF in the caption to distinguish it from a static image
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; GIF &#125;&#125;\
 **Figure: Users | Summary | User Information | LinkedIn URL**
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Does not specificy that it is a GIF",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Does not specificy that it is a GIF"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &#123;&#123; GIF &#125;&#125;\
 **Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Specificies that it is a GIF",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Specificies that it is a GIF"
 />

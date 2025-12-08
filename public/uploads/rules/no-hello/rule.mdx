@@ -38,7 +38,7 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 
 When you do that, you're simply making the other person wait for you to phrase your question, which generates low productivity.
 
-<endOfIntro />
+<endIntro />
 
 Now that you've avoided just saying hello, if you're calling them, [just be sure to give them a warning](/warn-then-call)
 
@@ -47,99 +47,64 @@ Now that you've avoided just saying hello, if you're calling them, [just be sure
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Shorter Video (1 min):** [Adam Cogan talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context](https://www.youtube.com/watch?v=omuzBQaPQjw).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 The same goes for:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Hey, are you there?"
 
 --Waits for response before continuing--
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Left waiting for a response"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Left waiting for a response",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Hi Bob, do you have a sec?"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - No context"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - No context",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Ping"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure="Bad example - They're left waiting for you to ask a question"
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - They're left waiting for you to ask a question",
-  shouldDisplay: true
-} } />
 
 
 Instead of doing this, just ask the question!
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Hey, are you happy for me to publish the CTF Form?"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - You have given immediate context"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - You have given immediate context",
-  shouldDisplay: true
-} } />
 
 
 More info on [nohello.net](https://nohello.net/).

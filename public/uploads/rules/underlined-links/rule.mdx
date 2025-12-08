@@ -29,35 +29,29 @@ uri: underlined-links
 
 Ensure your links are easily distinguishable from the background and surrounding text by **always making them underlined**. Users expect underlined texts to be a link; and links to be underlined.
 
-<endOfIntro />
+<endIntro />
 
 **Note:** Underlines are **not** necessary on obvious links, like **menu/breadcrumb items** or **buttons**. On the other hand, hover effect (see more below) should always exist.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     For more information on this, please go to [SSW website](https://www.ssw.com.au).
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The link is nice and clear",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - The link is nice and clear"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You can [use a different color on underlines](https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp) as a nice touch.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -66,30 +60,24 @@ Ensure your links are easily distinguishable from the background and surrounding
 Use bold or another styling if you need emphasis.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     When you develop on SharePoint, you &lt;u&gt;do not&lt;/u&gt; have a full copy of web.config in your Visual Studio project.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Never underline the text when it isn't a link",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Never underline the text when it isn't a link"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     When you develop on SharePoint, you **do not** have a full copy of web.config in your Visual Studio project.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using bold for emphasis",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Using bold for emphasis"
 />
 
 
@@ -113,11 +101,8 @@ Effects like **bold**, **scaling**, **rotation**, or **background changes** can 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using bold on hovering may cause a text shift",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using bold on hovering may cause a text shift"
   src="/uploads/rules/underlined-links/bad-example-bold-hover.gif"
 />
 
@@ -134,11 +119,8 @@ Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The different border size pushes the content down",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The different border size pushes the content down"
   src="/uploads/rules/underlined-links/border-problem-1.gif"
 />
 
@@ -147,10 +129,7 @@ Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Borders going over the text area",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Borders going over the text area"
   src="/uploads/rules/underlined-links/border-problem-2.png"
 />

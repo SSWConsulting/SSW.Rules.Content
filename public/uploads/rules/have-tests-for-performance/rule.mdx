@@ -28,7 +28,7 @@ uri: have-tests-for-performance
 
 Typically, there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, forms should load in less than 4 seconds. This can be automated with your load testing framework.
 
-<endOfIntro />
+<endIntro />
 
 #### Sample Code
 
@@ -106,11 +106,8 @@ export default function () {
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Output the result of simulating traffic from West US to K6 Cloud",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Output the result of simulating traffic from West US to K6 Cloud"
   src="/uploads/rules/have-tests-for-performance/run-script-with-k6-cloud.png"
 />
 

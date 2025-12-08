@@ -28,7 +28,7 @@ Long Term Support (LTS) versions of .NET Core / .NET 6+ are officially supported
 So when considering which version to target for your application, the “Latest LTS when we first deploy to Production” is often the safest choice.
 Non-LTS versions have much shorter support lifetimes.
 
-<endOfIntro />
+<endIntro />
 
 Deciding which version to target is not always as simple as "always choose LTS".
 
@@ -43,11 +43,8 @@ To help in these decisions, the .NET Core team has released a roadmap for upcomi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "The .NET Schedule – from Introducing .NET 5",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="The .NET Schedule – from Introducing .NET 5"
   src="/uploads/rules/when-to-target-lts-versions/net-schedule.jpg"
 />
 
@@ -67,17 +64,14 @@ A few invented scenarios are presented below:
 ### Example 1
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "It’s November 2020 and we are planning to launch the final version of our ASP.NET Core 3.1 API next week. There is no further planned development work in the next 12 months. If we upgrade to .NET 5 in the final Sprint, we would get a performance boost."
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 **Recommendation:**
@@ -86,17 +80,14 @@ Although moving to .NET 5 could introduce a performance improvement, .NET 5 is n
 ### Example 2
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "It’s November 2020 and Build 4463 of our ASP.NET Core API has just been deployed to Azure via GitHub Actions. We plan to continually develop new feature requests over the next 15 months, Finishing in January 2022”
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 **Recommendation:**
@@ -105,17 +96,14 @@ When “continual development” is planned, it’s much easier to recommend wor
 ### Example 3
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Once finished, we have no plans for further features for the next 2 years. Our planned launch date is October 2021"
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 **Recommendation:**

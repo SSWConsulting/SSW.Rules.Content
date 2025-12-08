@@ -31,7 +31,7 @@ uri: design-debt
 
 It’s tempting to fix small UI issues on the fly - change a button size, adjust some spacing, or tweak a color. But those “quick wins” often turn into long-term losses, leading to a messy, inconsistent UI that confuses users and slows development.
 
-<endOfIntro />
+<endIntro />
 
 Design debt is like technical debt: shortcuts that seem efficient in the moment create chaos down the line. Without a shared system, visual inconsistencies multiply, developers second-guess design intent, and user experience suffers.
 
@@ -103,11 +103,8 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – The \"Open\" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure='Bad example – The \"Open\" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility'
   src="/uploads/rules/design-debt/design-debt-bad.png"
 />
 
@@ -118,11 +115,8 @@ More info on [Do you use enough color contrast?](/color-contrast)
   alt="Image"
   size="medium"
   showBorder={true}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component"
   src="/uploads/rules/design-debt/design-debt-good.png"
 />
 

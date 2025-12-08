@@ -26,7 +26,7 @@ uri: mandatory-vs-suggested-pr-changes
 
 When reviewing another developer's pull request, review comments can fall into a mix of categories. Some changes might be required, while others might be optional. Do you know the best way to tell the requester which is which?
 
-<endOfIntro />
+<endIntro />
 
 ## Types of Pull Request Feedback
 
@@ -43,56 +43,44 @@ When adding 'PBI' comments, a "good Samaritan" approach is to create the PBI and
 ## Pull Request Comment Examples
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This could be refactored to be better
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - not clear if the author should make the change or not",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - not clear if the author should make the change or not"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Change – check for null reference and throw if found
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - clear that the change should be made before the PR will be approved",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - clear that the change should be made before the PR will be approved"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Consider – break long method into several smaller ones
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - the reviewer has left a suggestion, but it's up to the author do change or not",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - the reviewer has left a suggestion, but it's up to the author do change or not"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     PBI – Consolidate these xUnit ‘Fact’ tests to use ‘InlineData’
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - This change doesn't need to be done now, but should be added to the backlog with a comment in the code",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - This change doesn't need to be done now, but should be added to the backlog with a comment in the code"
 />

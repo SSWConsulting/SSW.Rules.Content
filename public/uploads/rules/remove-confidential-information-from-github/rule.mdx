@@ -12,9 +12,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: c8fdf5dd-4e3d-42bc-95d2-7b940db3fbd0
 isArchived: false
-lastUpdated: 2025-07-09 00:55:42+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 related:
 - rule: public/uploads/rules/react-and-vote-on-github/rule.mdx
 - rule: public/uploads/rules/prevent-secrets-leaking-from-repo/rule.mdx
@@ -34,7 +34,7 @@ But that’s **not enough**.
 
 GitHub retains a full revision history for issues and comments. This means others can still view older versions and recover the compromised data.
 
-<endOfIntro />
+<endIntro />
 
 To protect your company and users, you must **check and delete the specific revisions** that exposed the information.
 
@@ -55,11 +55,8 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Delete revisions so compromised data is fully removed",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Delete revisions so compromised data is fully removed"
   src="/uploads/rules/remove-confidential-information-from-github/confidential-info-removed-revision-deletion.png"
 />
 
@@ -80,11 +77,8 @@ Finally, it's important to leave a **transparent comment in the issue** confirmi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Inform about deletions mentioned what it was",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Inform about deletions mentioned what it was"
   src="/uploads/rules/remove-confidential-information-from-github/confidential-info-removed-comment.png"
 />
 

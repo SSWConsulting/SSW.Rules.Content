@@ -26,40 +26,27 @@ Clear text email addresses in web pages are very dangerous because it gives spam
 
 Never put clear text email addresses on web pages.
 
-<endOfIntro />
+<endIntro />
 
 ```html
 <!--SSW Code Auditor - Ignore next line(HTML)-->
 <a href="mailto:test@ssw.com.au">Contact Us</a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad - Using a plain email address that it will be crawled and made use of easily",
-  shouldDisplay: true
-} } />
-
+**❌ Bad - Using a plain email address that it will be crawled and made use of easily**  
 
 ```html
 <a href="javascript:sendEmail('74657374407373772e636f6d2e6175')" onmouseover="javascript:displayStatus('74657374407373772e636f6d2e6175');return true;" onmouseout="javascript:clearStatus(); return true;">Contact Us</a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good - Using an encoded email address",
-  shouldDisplay: true
-} } />
-
+**✅ Good - Using an encoded email address**  
 
 **Tip:** If you use Wordpress, use the [Email Encoder Bundle plugin](https://wordpress.org/plugins/email-encoder-bundle) to help you encode email addresses easily.
 
 
-<asideEmbed
-  variant="codeauditor"
+<boxEmbed
+  style="codeauditor"
   body={<>
     We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

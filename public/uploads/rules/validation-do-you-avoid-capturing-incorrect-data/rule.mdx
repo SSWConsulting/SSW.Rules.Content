@@ -10,9 +10,9 @@ createdBy: RebeccaLiu
 createdByEmail: RebeccaLiu@ssw.com.au
 guid: 8eaf2a1d-4167-4278-89e5-8ab1c4ba0b85
 isArchived: false
-lastUpdated: 2021-03-18 23:58:30+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2025-10-27 00:59:09+00:00
+lastUpdatedBy: Jeoffrey Fischer [SSW]
+lastUpdatedByEmail: 106663901+jeoffreyfischer@users.noreply.github.com
 redirects: []
 seoDescription: Ensure accurate data collection by letting users opt out of questions
   they can't answer.
@@ -23,21 +23,18 @@ uri: validation-do-you-avoid-capturing-incorrect-data
 
 When asking for an opinion do you give people the option of having no opinion at all? If you only provide "Yes" or "No" as answers to the question "Do you like apples?" then you force people to make a decision which may not be correct.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Do you like apples?
 ( ) Yes
 ( ) No
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Only \"Yes\" and \"No\" options provided",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - Only \"Yes\" and \"No\" options provided'
 />
 
 
@@ -46,17 +43,14 @@ Maybe they only like cooked apples not raw ones. When asking any question in whi
 Additionally, when the user don't answer the question at all, the response you would get would be determined by the browser the user was using. Give them an answer they can agree with and you'll reduce the chance of bogus responses.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Do you like apples?
 ( ) Yes
 ( ) No
 ( ) Cannot say
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Included the \"Cannot say\" option to opt out of answering",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure='Good example - Included the \"Cannot say\" option to opt out of answering'
 />

@@ -31,7 +31,7 @@ uri: brainstorming-team-allocation
 
 Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance.  This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
 
-<endOfIntro />
+<endIntro />
 
 ## Form - Vote on ideas
 
@@ -54,11 +54,8 @@ Typically, the form responses exported to Excel will be in a format like this.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Data from the form responses",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Data from the form responses"
   src="/uploads/rules/brainstorming-team-allocation/raw-data-format.png"
 />
 
@@ -70,11 +67,8 @@ This data format makes it hard to assign teams, you can use ChatGPT Advanced Dat
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Transformed data makes it easy to allocate teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Transformed data makes it easy to allocate teams"
   src="/uploads/rules/brainstorming-team-allocation/transformed-voting-data.png"
 />
 
@@ -82,16 +76,13 @@ This data format makes it hard to assign teams, you can use ChatGPT Advanced Dat
 Upload the Excel file to ChatGPT and use this prompt
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     I need this data in a format to allocate teams, I want each idea as a row and then each person who voted for that idea as a column after it.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -116,11 +107,8 @@ To make the allocation process smoother, write down the team's specific requirem
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Pre-allocate teams's location",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Pre-allocate teams's location"
   src="/uploads/rules/brainstorming-team-allocation/brainstormingday-team-location-allocation.png"
 />
 
@@ -149,11 +137,8 @@ Putting the team allocations in a Discussion allows updates if attendees change 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "GitHub Discussion - Team allocations",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="GitHub Discussion - Team allocations"
   src="/uploads/rules/brainstorming-team-allocation/team-allocation-github-discussion.png"
 />
 

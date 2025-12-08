@@ -35,7 +35,7 @@ E.g. Average volume of spam received daily:
 | -------------------- | ----- | -------- | ------- | ---------- | ------ |
 | 50, 830                | 3257 | 1263       | 10      | 46, 300       | 11     |
 
-<endOfIntro />
+<endIntro />
 
 From a SysAdmin point of view, using anti-spam protection is the best way to go to protect your company against spam, and, if you are using Exchange or Exchange Online, one of the best options for you is to use Microsoft's answer to this: [Microsoft 365 Defender](https://security.microsoft.com)
 
@@ -57,11 +57,8 @@ When on the Outlook desktop client, you should actively mark items as Junk and b
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Report a message as \"Junk\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Good example - Report a message as \"Junk\"'
   src="/uploads/rules/do-you-know-how-to-reduce-spam/2023-05-23_8-57-28.png"
 />
 
@@ -74,37 +71,28 @@ From time to time you may also receive an email telling you about quarantined em
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Quarantine Email - 'Review Message', 'Release' or 'Block Sender'",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Quarantine Email - 'Review Message', 'Release' or 'Block Sender'"
   src="/uploads/rules/do-you-know-how-to-reduce-spam/quarantine-email3.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Important - check very carefully and make sure you know the sender before releasing an email. Otherwise you may end up releasing an email that you shouldn't. If in doubt call your friendly SysAdmin who will help you to determine if it's safe to release.**
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Release or delete quarantined emails",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Release or delete quarantined emails"
   src="/uploads/rules/do-you-know-how-to-reduce-spam/quarantine-email2.png"
 />
 

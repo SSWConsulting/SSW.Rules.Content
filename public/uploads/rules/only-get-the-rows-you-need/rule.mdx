@@ -20,7 +20,7 @@ isArchived: false
 
 It's expensive retrieving data from a database, as such it's important to only ask for the rows you require when getting data.
 
-<endOfIntro />
+<endIntro />
 
 Entity Framework nicely translates the various filters like the Where method into SQL WHERE clauses. This makes it really easy to write nice readable code that is also very efficient.
 
@@ -34,12 +34,7 @@ foreach (var sale in sales)
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Retrieved all the data instead of items that matched the product id.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Retrieved all the data instead of items that matched the product id.**  
 
 ```csharp
 List<Sale> sales = context.Sales
@@ -51,8 +46,4 @@ foreach (var sale in sales)
     // Do stuff
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Only the data required was retrieved from the database",
-  shouldDisplay: true
-} } />
+**✅ Good example - Only the data required was retrieved from the database**  

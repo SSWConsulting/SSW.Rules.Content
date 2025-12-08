@@ -31,7 +31,7 @@ Even if they are able to install SQL Server, developers have a better option wit
 
 Using Docker to run SQL Server in a container resolves common problems and provides numerous benefits:
 
-<endOfIntro />
+<endIntro />
 
 `youtube: fFpDf5si_Hw`
 **Video: Run SQL Server in Docker! (5 min)**
@@ -44,16 +44,13 @@ For SQL Server with Docker you have a couple of choices being:
 * **Microsoft SQL Server** - `mcr.microsoft.com/mssql/server`
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** If you have an ARM chip, the Docker image in the video is not for you. Instead use "Azure-Sql-Edge"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -75,11 +72,8 @@ For SQL Server with Docker you have a couple of choices being:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Running a SQL Server environment outside a container",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Running a SQL Server environment outside a container"
   src="/uploads/rules/containerize-sql-server/runningsqllocally.png"
 />
 
@@ -88,11 +82,8 @@ For SQL Server with Docker you have a couple of choices being:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using Docker to containerize a SQL Server environment",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Using Docker to containerize a SQL Server environment"
   src="/uploads/rules/containerize-sql-server/dockersql.png"
 />
 

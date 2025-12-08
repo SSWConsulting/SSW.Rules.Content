@@ -24,17 +24,14 @@ uri: have-a-general-contact-detail-table
 
 It is common to have a Contact Detail table to store your contact information such as phone numbers. Below is an example of a Contact Detail table and its related tables. This is bad because the PartyPhone table is too specific for a phone number and you have to add a new table to save an email or other contact information if this is needed in the future.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - A too specific Contact Detail table",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - A too specific Contact Detail table"
   src="/uploads/rules/have-a-general-contact-detail-table/ContactDetailTable_bad.png"
 />
 
@@ -45,11 +42,8 @@ We normally have a general Contact Detail table that includes all the different 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - A general Contact Detail table",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - A general Contact Detail table"
   src="/uploads/rules/have-a-general-contact-detail-table/ContactDetailTable_good.png"
 />
 
@@ -60,10 +54,7 @@ We use a Contact Detail Category table to store these categories.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Details of Contact Detail Category table",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Details of Contact Detail Category table"
   src="/uploads/rules/have-a-general-contact-detail-table/ContactDetailCategoryTable.png"
 />

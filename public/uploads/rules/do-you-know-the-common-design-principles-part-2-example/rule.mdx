@@ -28,18 +28,15 @@ uri: do-you-know-the-common-design-principles-part-2-example
 
 The hot spots identified in your solution often indicate violations of common design principles.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities"
   src="/uploads/rules/do-you-know-the-common-design-principles-part-2-example/CodeMetrics_3.png"
 />
 
@@ -77,12 +74,7 @@ public class PrintServer
     // ...
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers**  
 
 ```csharp
 public class Printers {
@@ -104,11 +96,6 @@ public class PrinterManager {
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - Each class has a single responsibility Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change but can be resolved by implementing the Inversion of Control **\\*and\\*** Dependency Injection patterns.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good Example - Each class has a single responsibility Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change but can be resolved by implementing the Inversion of Control **\*and\*** Dependency Injection patterns.**  
 
 ### TODO: Piers - [GitHub Issue](https://github.com/SSWConsulting/SSW.Rules.Content/issues/1535)

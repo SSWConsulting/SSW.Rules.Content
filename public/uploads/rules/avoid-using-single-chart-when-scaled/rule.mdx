@@ -23,17 +23,14 @@ type: rule
 uri: avoid-using-single-chart-when-scaled
 ---
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Just a chart - poor scaling for only 1 record",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Just a chart - poor scaling for only 1 record"
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToBetterBusinessIntelligence_ChartBad1.gif"
 />
 
@@ -42,11 +39,8 @@ uri: avoid-using-single-chart-when-scaled
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Just a chart - poorly scaling when many records",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Just a chart - poorly scaling when many records"
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToBetterBusinessIntelligence_ChartBad2.gif"
 />
 
@@ -60,11 +54,8 @@ The solution for this problem is to use an embedded chart within the table - thi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Size property of the chart control",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Size property of the chart control"
   src="/uploads/rules/avoid-using-single-chart-when-scaled/ChartProperties_size.jpg"
 />
 
@@ -73,11 +64,8 @@ The solution for this problem is to use an embedded chart within the table - thi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A table with chart",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A table with chart"
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesT12.gif"
 />
 
@@ -89,11 +77,8 @@ To do this, you need to create a table in your report and add a chart into each 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Embedded chart in a table will generate dynamic chart list",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Embedded chart in a table will generate dynamic chart list"
   src="/uploads/rules/avoid-using-single-chart-when-scaled/RulesToRS-chart-1.gif"
 />
 

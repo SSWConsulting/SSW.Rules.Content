@@ -31,19 +31,16 @@ uri: no-checked-out-files
 
 One of the annoying things with SharePoint document and page libraries is that users often accidentally leave [checked out files](https://support.microsoft.com/en-us/office/check-out-check-in-or-discard-changes-to-files-in-a-sharepoint-library-7e2c12a9-a874-4393-9511-1378a700f6de), that prevents others from modifying them.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Suggestion to Microsoft:** send an email to the user to remind them they have outstanding checkouts potentially blocking other users.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -52,11 +49,8 @@ One of the annoying things with SharePoint document and page libraries is that u
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Here Greg Harris has not checked in a file",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Here Greg Harris has not checked in a file"
   src="/uploads/rules/no-checked-out-files/sp-docs.jpg"
 />
 
@@ -142,9 +136,6 @@ You currently have the following pages **checked out in SharePoint**:
 
 *-- Powered by Power Automate, Job: SSW.Dory*
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "An example of the reminder email that all users receive",
-    shouldDisplay: true
-  }}
+  figurePrefix="none"
+  figure="An example of the reminder email that all users receive"
 />

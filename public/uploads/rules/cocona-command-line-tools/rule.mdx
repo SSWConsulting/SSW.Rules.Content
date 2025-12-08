@@ -41,7 +41,7 @@ Cocona offers several advantages over manual argument parsing or other CLI frame
 * **Async support**: First-class support for async/await patterns
 * **Multiple commands**: Easy support for sub-commands and complex CLI structures
 
-<endOfIntro />
+<endIntro />
 
 ## Basic Example
 
@@ -75,12 +75,7 @@ class Program
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Manual argument parsing is error-prone and verbose.",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Manual argument parsing is error-prone and verbose.**  
 
 ```csharp
 using Cocona;
@@ -92,12 +87,7 @@ app.AddCommand("greet", (string name, string greeting = "Hello") =>
 });
 app.Run();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌**  
 
 ## Validation
 
@@ -201,14 +191,11 @@ app.Run();
 For more information, visit the [Cocona GitHub repository](https://github.com/mayuki/Cocona).
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Improve your CLI tool's UI with tools like [Colorful.Console](https://github.com/khalidabuhakmeh/Colorful.Console) for colored output, or [Spectre.Console](https://spectreconsole.net/) for rich terminal applications.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

@@ -8,7 +8,7 @@ createdBy: RebeccaLiu
 createdByEmail: RebeccaLiu@ssw.com.au
 guid: e5395ebf-9ad0-46d0-9bb3-34448ea53d4b
 isArchived: false
-lastUpdated: 2025-09-25 12:24:38+00:00
+lastUpdated: 2025-11-07 14:10:34+00:00
 lastUpdatedBy: Chloe Lin [SSW]
 lastUpdatedByEmail: chloelin@ssw.com.au
 redirects: []
@@ -21,7 +21,7 @@ uri: messages-do-you-clearly-show-a-pass-fail-or-warning
 
 When a user looks at a test result, they want to be quickly informed. Therefore, you must make it clear weather the test has passed or failed, or is there any warning.
 
-<endOfIntro />
+<endIntro />
 
 * For a pass, the message should be green in color, and a tick next to the message.
 ![](/uploads/rules/messages-do-you-clearly-show-a-pass-fail-or-warning/Success-lg.gif)
@@ -34,11 +34,8 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Pass and fail are not clear",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Pass and fail are not clear"
   src="/uploads/rules/messages-do-you-clearly-show-a-pass-fail-or-warning/RulesT1.gif"
 />
 
@@ -48,11 +45,8 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Green text and tick for pass, red text and cross for fail (Better)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Green text and tick for pass, red text and cross for fail (Better)"
   src="/uploads/rules/messages-do-you-clearly-show-a-pass-fail-or-warning/RulesT2.gif"
 />
 
@@ -61,11 +55,8 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Status on windows forms",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Status on windows forms"
   src="/uploads/rules/messages-do-you-clearly-show-a-pass-fail-or-warning/RulesT4.gif"
 />
 
@@ -74,10 +65,7 @@ When a user looks at a test result, they want to be quickly informed. Therefore,
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - Microsoft Update uses 3 icons to indicate different status, and good quality of Images too",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - Microsoft Update uses 3 icons to indicate different status, and good quality of Images too"
   src="/uploads/rules/messages-do-you-clearly-show-a-pass-fail-or-warning/MicrosoftUpdate.gif"
 />

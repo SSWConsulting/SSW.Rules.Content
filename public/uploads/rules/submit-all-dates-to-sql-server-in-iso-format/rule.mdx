@@ -26,7 +26,7 @@ All dates submitted to SQL Server must be in ISO format date. This ensures that 
 
 For example, any insert into a SQL Server database with Visual Basic should call `Format(ctlStartDate,"yyyy-mm-dd")` or VB.NET `Ctype(ctlStartDate.Text,Date).ToString("yyyy-MM-dd")` before attempting the insert or update. This will ensure consistency of treatment when dealing with dates in your SQL Server backend.
 
-<endOfIntro />
+<endIntro />
 
 ```sql
 SET DATEFORMAT mdy
@@ -57,12 +57,7 @@ SET DATEFORMAT dmy
 
  -- returns Jul 1 2020 12:00AM, only one which is same as above
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Code - ISO format date is the best",
-  shouldDisplay: true
-} } />
-
+**✅ Code - ISO format date is the best**  
 
 The extended format can still mix up month & day in some circumstances, whereas the basic format is the only one that always works correctly.
 

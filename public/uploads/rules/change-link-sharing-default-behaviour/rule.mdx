@@ -31,11 +31,8 @@ If you are checking your sites permissions regularly you will probably notice a 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Some items may have unique permissions",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Some items may have unique permissions"
   src="/uploads/rules/change-link-sharing-default-behaviour/uniquepermissions.png"
 />
 
@@ -43,7 +40,7 @@ If you are checking your sites permissions regularly you will probably notice a 
 The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document". This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
 The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications. Links should instead be created with the "People with existing access" setting.
 
-<endOfIntro />
+<endIntro />
 
 To fix the issue you need to change the default sharing method. There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
 
@@ -55,11 +52,8 @@ To fix the issue you need to change the default sharing method. There are 2 ways
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select Sharing",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Select Sharing"
   src="/uploads/rules/change-link-sharing-default-behaviour/defaultsharinglinktype1.png"
 />
 
@@ -70,11 +64,8 @@ To fix the issue you need to change the default sharing method. There are 2 ways
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Select people with existing access",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Select people with existing access"
   src="/uploads/rules/change-link-sharing-default-behaviour/defaultsharinglinktype2.png"
 />
 

@@ -31,7 +31,7 @@ Xamarin has evolved beyond simply being an abstraction of the platform native AP
 
 Where previously you could write shared business logic in C# but needed to write your UI in either Xamarin.Android or Xamarin.iOS, now you can write cross-platform UI code in a single .NET MAUI project.
 
-<endOfIntro />
+<endIntro />
 
 ![](/uploads/rules/use-net-maui/maui_blazor_mobile_desktop_web.png)
 
@@ -41,11 +41,8 @@ Theoretically, it is possible to write your code only once and share 100% of the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Xamarin project targeting a single platform",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Xamarin project targeting a single platform"
   src="/uploads/rules/use-net-maui/xamarin-platform-bad.png"
 />
 
@@ -56,11 +53,8 @@ It is possible to implement beautiful and complex UI designs in .NET MAUI, espec
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase"
   src="/uploads/rules/use-net-maui/single-project-good.png"
 />
 
@@ -70,10 +64,7 @@ It is possible to implement beautiful and complex UI designs in .NET MAUI, espec
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: ".NET MAUI allows you to use C# and XAML to build your apps from a rich toolkit of more than 40 controls, layouts, and pages",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure=".NET MAUI allows you to use C# and XAML to build your apps from a rich toolkit of more than 40 controls, layouts, and pages"
   src="/uploads/rules/use-net-maui/controls_sample.png"
 />

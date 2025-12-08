@@ -29,7 +29,7 @@ The new C# 6 that comes with Visual Studio 2015 is a game changer that empowers 
 
 These 3 features will slash the amount of boilerplate code you have to write and improve code quality:
 
-<endOfIntro />
+<endIntro />
 
 1. **nameof expressions** - Allows us to get the name of the type of object. Now when we throw an exception, we can use the name of expressions feature to create robust code, which is more resistant to common mistakes when refactoring. This is achieved by reducing the amount of hard coding.
 
@@ -38,24 +38,14 @@ As you can see, when in the past you would have to write the following code:
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Amount of boiler plate code for a simple task",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Amount of boiler plate code for a simple task**  
 
 Now you only have write:
 
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The same functionality as the Bad Example in a single line of code",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - The same functionality as the Bad Example in a single line of code**  
 
 The benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.
 
@@ -68,24 +58,14 @@ For example, before C# 6, we would write:
 ```csharp
 var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Using the string format make the code difficult to read",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Using the string format make the code difficult to read**  
 
 Now we are able to:
 
 ```csharp
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Very human readable code",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Very human readable code**  
 
 As can be seen above by making use of the new String Interpolation feature, the understandability of your code is greatly improved.
 
@@ -96,23 +76,13 @@ For example, previously we would of had to write a chunk of code to achieve a si
 ```csharp
 if(customers.Length != null) { int length = customers.Length; } else { int length = 0; }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Fragile code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Fragile code**  
 
 Now we are able to replace that chunk of code with a single line
 
 ```csharp
 int length = customers?.Length ?? 0;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Robust code",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Robust code**  
 
 In short, these new features will save you time, and help you write cleaner, more robust code - what's not to love?

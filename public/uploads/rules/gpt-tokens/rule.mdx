@@ -24,7 +24,7 @@ GPT models utilize "tokens" as their smallest units of text. These tokens can be
 
 For instance, in GPT's perspective, the word "unhappiness" could be tokenized into three parts: "un," "happi," and "ness." Each of these parts is considered a separate token. This flexible understanding of tokens is what allows GPT models to efficiently break down text data for analysis.
 
-<endOfIntro />
+<endIntro />
 
 ### How GPT Models Utilize Tokens
 
@@ -45,68 +45,56 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 **1. Limit prompt length:** Since the number of input tokens affects the total token count, keep your prompts concise, especially if you expect a long answer. This leaves more room for ChatGPT's responses.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 **2. Control the length of responses:** If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
      Examples:
 
 * _"List the most important differences between Python and Java. **Be concise.**"_
 * _"Explain the principles of RESTful API design. **Give only 4 bullet points.**"_
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 **3. Use clear prompting:** Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Refining prompts can improve your ChatGPT efficiency. See the rule on [creating ChatGPT prompt templates for repeatable tasks](/chatgpt-prompt-templates).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 **4. Balance complex queries:** There are scenarios where complex queries or long explanations may require a large number of tokens (e.g. you are inputing a multi-page document for ChatGPT to summarize). In such cases, it's essential to be mindful of the token count. You can use techniques like summarization or abstraction to reduce the token count while keeping the important information. See rule [Do you summarize long conversations for better context retention?](/summarize-long-conversations)
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Examples:
 
 * _“**Summarize** your last reply while keeping all the important points”_
 * _“**Abstract** the main arguments in your last response”_
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

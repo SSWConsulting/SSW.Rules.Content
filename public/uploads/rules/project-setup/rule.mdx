@@ -36,17 +36,14 @@ Developers understand the [importance of the F5 experience](/developer-experienc
 
 Let's look at the ways to optimize the experience. There are 4 levels of experience that can be delivered to new developers on a project:
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="small"
   showBorder={true}
-  figureEmbed={ {
-    preset: "default",
-    figure: "",
-    shouldDisplay: false
-  } }
+  figurePrefix="none"
+  figure=""
   src="/uploads/rules/project-setup/f5-key.png"
 />
 
@@ -63,11 +60,8 @@ The **README.md** and **Instructions-Compile.md** are the core documents that ar
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - A project without instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - A project without instructions"
   src="/uploads/rules/project-setup/ProjectDocumentationBadExample.png"
 />
 
@@ -76,18 +70,15 @@ The **README.md** and **Instructions-Compile.md** are the core documents that ar
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - A project with instructions",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - A project with instructions"
   src="/uploads/rules/project-setup/ProjectDocumentationGoodExample.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** In addition to pre-requisites, make sure to mention what isn't supported and any other problems that might come up.
 
@@ -98,28 +89,22 @@ E.g. Problems to check for:
 * npm version
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** Don't forget about the database, your developers need to know how to work with the database
 
 ![Figure: Don't forget about the database!](/uploads/rules/project-setup/EFCoreMigrations.png)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -132,8 +117,8 @@ A perfect solution would need no static documentation. Perfect code would be so 
 All manual workstation setup steps should be scripted with PowerShell, as per the below example:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ```powershell
@@ -149,18 +134,10 @@ PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1**
 To try and automatically resolve the problems found, re-run the script with a `-Fix` flag.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed**  
 
 ### Level 3: Less maintenance using Docker containerization
 
@@ -169,11 +146,8 @@ To try and automatically resolve the problems found, re-run the script with a `-
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Docker Logo",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Docker Logo"
   src="/uploads/rules/project-setup/docker-logo.png"
 />
 
@@ -194,10 +168,7 @@ Learn more: [Project setup - Do you containerize your dev environment?](/dev-con
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - After using dev containers you would be as happy as Larry!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - After using dev containers you would be as happy as Larry!"
   src="/uploads/rules/project-setup/HappyDevs.png"
 />

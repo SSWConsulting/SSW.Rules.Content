@@ -28,7 +28,7 @@ uri: external-links-open-on-a-new-tab
 
 External links should **open in a new tab** (by using HTML's **target="\_blank"**). Since browsers implemented tabs (replacing new window), it's considered a good practice to open external links in a different tab.
 
-<endOfIntro />
+<endIntro />
 
 Main reasons are:
 
@@ -39,18 +39,9 @@ Main reasons are:
 ```html
 <a href="http://support.microsoft.com/support">Support</a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - External link opening on the same tab",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - External link opening on the same tab**  
 
 ```html
 <a href="http://support.microsoft.com/support" target="_blank">Support</a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - External link opening in a new tab",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - External link opening in a new tab**

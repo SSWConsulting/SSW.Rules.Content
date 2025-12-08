@@ -8,6 +8,7 @@ authors:
 - title: Christian Morford-Waite
   url: https://ssw.com.au/people/christian-morford-waite
 categories:
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
 - category: categories/software-engineering/rules-to-better-websites-development.mdx
 created: 2016-08-11 17:30:05+00:00
 createdBy: TiagoAraujo
@@ -36,17 +37,14 @@ A branded 404 (error) page also reinforces your identity and keeps the user expe
 
 Consider adding a button to your homepage here, or your site's search functionality if applicable.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Unhandled error",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Unhandled error"
   src="/uploads/rules/404-useful-error-page/404-bad.png"
 />
 
@@ -55,11 +53,8 @@ Consider adding a button to your homepage here, or your site's search functional
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Custom error page",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Custom error page"
   src="/uploads/rules/404-useful-error-page/404-good.png"
 />
 
@@ -68,11 +63,8 @@ Consider adding a button to your homepage here, or your site's search functional
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Playful branding turns an error case into a less negative experience",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Playful branding turns an error case into a less negative experience"
   src="/uploads/rules/404-useful-error-page/mailchimp-404.png"
 />
 
@@ -120,12 +112,7 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Wildcard routing of unrecognised paths",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Wildcard routing of unrecognised paths**  
 
 ## Angular (Client-Side)
 
@@ -149,12 +136,7 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Wildcard routing of unrecognised paths",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Wildcard routing of unrecognised paths**  
 
 ```html
 <!-- not-found.component.html -->
@@ -164,12 +146,7 @@ export class AppRoutingModule { }
   <a routerLink="/">Go back to Home</a>
 </div>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The custom 404 html page",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - The custom 404 html page**  
 
 ## React.js (Client-Side)
 
@@ -196,36 +173,21 @@ function App() {
 
 export default App;
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The custom 404 pages",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - The custom 404 pages**  
 
 ## ASP .NET
 
 ```xml
 <customErrors mode="Off"></customErrors>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - The default code on web.config",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - The default code on web.config**  
 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="/ssw/ErrorPage.aspx">
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The custom code in the web.config",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - The custom code in the web.config**  
 
 For ASP.NET website, the detailed information would be presented to the remote machines when an unhandled error occurs if the customErrors mode is off.
 
@@ -234,8 +196,4 @@ This error information is useful for the developer to do debugging. However, it 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Turning on \"customErrors\" protects sensitive information against Hacker",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker**

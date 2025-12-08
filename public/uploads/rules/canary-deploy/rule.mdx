@@ -25,18 +25,15 @@ uri: canary-deploy
 
 Canary deployments let you release new features or updates to a small group of users first, gather feedback, and reduce the risks of a global rollout. At SSW, we track all our canary testers, their onboarding dates, OS, test status, feedback, and environment in a single spreadsheet.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Example canary deployment spreadsheet – track who is testing, the environment, and their feedback",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Example canary deployment spreadsheet – track who is testing, the environment, and their feedback"
   src="/uploads/rules/canary-deploy/canary-deployment.png"
 />
 
@@ -48,24 +45,21 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
 **Scenario:** You’ve built a new feature and are eager to roll it out to everyone.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Execution:** You ask: _“Hi team, is anyone free to test the new feature?”_
 
 **Outcome:** It’s unclear who will test, when they’ll start, and how feedback is documented.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example – No clear plan, no single source of truth, no tracked outcomes",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example – No clear plan, no single source of truth, no tracked outcomes"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Execution:** You maintain a single spreadsheet detailing:
 
@@ -79,25 +73,19 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
 
 **Outcome:** Everyone knows who is next to test, what issues have been found, and what the next steps are.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – A single, consistently updated spreadsheet for your canary rollouts",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – A single, consistently updated spreadsheet for your canary rollouts"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Always include any special instructions or edge cases in the **Notes** column so they don’t get missed.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -141,16 +129,13 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
 * **❌ Test Failed** – Showstopper or critical bug prevents completion
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Keep your spreadsheet pinned in Teams or Slack channels for easy access.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

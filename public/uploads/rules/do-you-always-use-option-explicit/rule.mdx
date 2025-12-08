@@ -24,20 +24,17 @@ type: rule
 uri: do-you-always-use-option-explicit
 ---
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Option Explict should always only be used in VB.NET.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
-<endOfIntro />
+<endIntro />
 
 This will turn many of your potential runtime errors into compile time errors, thus saving you from potential time bombs!
 

@@ -26,7 +26,7 @@ You should generally be looking for ways to simplify your code (e.g. removing he
 
 In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
 
-<endOfIntro />
+<endIntro />
 
 1. Go to Analyze | Calculate Code Metrics | For Solution
 
@@ -35,11 +35,8 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Launching the Code Metrics tool within Visual Studio",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Launching the Code Metrics tool within Visual Studio"
   src="/uploads/rules/know-when-functions-are-too-complicated/calculate_code_metrics.jpg"
 />
 
@@ -51,25 +48,19 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are"
   src="/uploads/rules/know-when-functions-are-too-complicated/code_metrics_report.jpg"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 **Tip:** Aim for "green" against each function's Maintainability Index.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

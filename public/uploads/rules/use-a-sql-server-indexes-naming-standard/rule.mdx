@@ -22,7 +22,7 @@ uri: use-a-sql-server-indexes-naming-standard
 
 This standard outlines the procedure on naming Indexes at SSW for SQL Server. Use this standard when creating new Indexes or if you find an older Index that doesn't follow that standard.
 
-<endOfIntro />
+<endIntro />
 
 **Note:** There is not a lot of use naming Indexes - we only do it when we are printing out documentation or using the 'Index Tuning Wizard' - then it becomes really handy.
 
@@ -50,19 +50,10 @@ Make unique index name if possible. Ie. ProductName
 Index 'BillingID'
 Primary Key 'aaaaaClient\_PK'
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Example**  
 
 ```sql
 'nc\_ClientDiary\_BillingID'
 'pknc\_ClientDiary\_ClientID'
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example**

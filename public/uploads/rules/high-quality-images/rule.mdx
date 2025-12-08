@@ -35,38 +35,32 @@ However, it's important to balance image quality with performance, ensuring fast
 
 For this reason, we encourage you to choose only high quality photos and to avoid unprofessional cartoons and clip-arts.
 
-<endOfIntro />
+<endIntro />
 
 Every time you add an image to your content, make sure it:
 
 * Is readable if it has any text on it
-* Has been [optimized](optimize-your-images)
+* Has been [optimized](/optimize-your-images)
 * Looks consistent with others on the same page
 * Has at least 800px width (except for logos, icons, and profile images)
 * (optional) Is not in dark-mode - Light background images look better most of the times
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Warning:** Never stretch small, low-resolution photos to make it fill up the space. This degrades the resolution and the image will appear very coarse and granular on the projection screen.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Low quality image",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Low quality image"
   src="/uploads/rules/high-quality-images/low-quality.jpg"
 />
 
@@ -75,10 +69,7 @@ Every time you add an image to your content, make sure it:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - High quality image",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - High quality image"
   src="/uploads/rules/high-quality-images/high-quality.jpg"
 />

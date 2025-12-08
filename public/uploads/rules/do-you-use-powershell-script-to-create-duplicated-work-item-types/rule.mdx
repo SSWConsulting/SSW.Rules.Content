@@ -33,7 +33,7 @@ You should create a WIT template and use a place holder for the difference, e.g.
 
 **Figure: WIT template with a placeholdera**
 
-<endOfIntro />
+<endIntro />
 
 Then use the following PowerShell script to automatically clone the work item and replace the placeholder with actual text.
 
@@ -54,16 +54,13 @@ $destination\_file =  '..\WorkItem Tracking\TypeDefinitions\Task\_SystemDep.xml
 **Figure: PowerShell script to create duplicate WITs and replace the place holder with actual data**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Note: if you are using non-English characters in your
 template, make sure you add `–Encoding UTF8` otherwise you will have some
 encoding problems.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

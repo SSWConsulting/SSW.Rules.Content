@@ -26,25 +26,16 @@ uri: exclude-width-and-height-properties-from-images
 
 Specifying the width and height properties for images on your web pages can sometimes turn out to be more trouble than it's worth, particularly if the image is updated with different dimensions. Adding fixed widths to your images also disrupt your content on any responsive websites.
 
-<endOfIntro />
+<endIntro />
 
 In other words, you **should not** have the image dimensions specified in HTML unless you have a very specific reason to do so. Use CSS if you need to specify images dimensions.
 
 ```html
 <img src="image.png" width="93" height="25">
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Including the width and height properties for content images",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Including the width and height properties for content images**  
 
 ```html
 <img src="image.png">
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Exclude width and height properties for content images",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - Exclude width and height properties for content images**

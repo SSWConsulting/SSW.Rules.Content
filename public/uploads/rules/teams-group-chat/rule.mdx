@@ -41,11 +41,8 @@ Although you will also have a dedicated Team (as per [SSW.Rules | Do you know ho
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Teams | Posts in Teams channel",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Teams | Posts in Teams channel"
   src="/uploads/rules/teams-group-chat/post-in-chat.png"
 />
 
@@ -54,26 +51,20 @@ Although you will also have a dedicated Team (as per [SSW.Rules | Do you know ho
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Use normal chat group for Team members",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Use normal chat group for Team members"
   src="/uploads/rules/teams-group-chat/teams-group-chat.png"
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     💡 **Tip:** You often need to add someone to a chat, and sometimes it's a good idea to share all history with them to provide context. However, sometimes the contents of a chat can be sensitive and shouldn't be shared. In this cases you should think carefully before adding someone to a chat, and doubly so before sharing history with them.
 
 To make these sensitive chats easier to identify, rename them something appropriate (that doesn't give away the sensitivity in case you're sharing your screen), and **[use a padlock emoji (🔒) at the start of the chat name](/use-emojis) as a mental shortcut to indicate not to share it**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

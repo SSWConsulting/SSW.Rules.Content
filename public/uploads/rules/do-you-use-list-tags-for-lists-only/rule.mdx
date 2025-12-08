@@ -24,28 +24,25 @@ uri: do-you-use-list-tags-for-lists-only
 
 The HTML list tags &lt;ul&gt; and &lt;ol&gt; should be used for unordered and ordered lists **only** .
 
-<endOfIntro />
+<endIntro />
 
 **Tip:** If your list tag (&lt;ul&gt; or &lt;ol&gt;) doesn't have a list item (&lt;li&gt;) inside it, then it's not a list. Consider using another HTML tag (E.g. &lt;p&gt;).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;ul&gt; A normal text &lt;/ul&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 Figure: Bad Example - Using the &lt;ul&gt; for a text
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &lt;ul&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ul&gt;
@@ -53,11 +50,8 @@ Figure: Bad Example - Using the &lt;ul&gt; for a text
 &lt;ol&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ol&gt;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 Figure: Good Example - Using the &lt;ul&gt; and &lt;ol&gt; for lists

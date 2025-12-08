@@ -34,7 +34,7 @@ uri: sharepoint-search
 
 SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for performing searches:
 
@@ -68,11 +68,8 @@ Example of properties you can use (common ones);
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Example of using Filetype: filter",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Example of using Filetype: filter"
   src="/uploads/rules/sharepoint-search/filter-sharepoint-example.png"
 />
 
@@ -82,16 +79,13 @@ Example of properties you can use (common ones);
 Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "sharepoint AND search".
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -100,16 +94,13 @@ Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "shar
 This can be useful if you know that certain words are used together, e.g. Fire\* will return results for FireBootCamp.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*".
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

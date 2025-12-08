@@ -30,19 +30,16 @@ uri: formatting-ui-elements
 
 When writing technical instructions, it's important to distinguish UI controls, buttons, and labels from regular text to improve readability and maintain consistency.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Click Save to store your changes.
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example - It's not clear that \"Save\" is a control",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad Example - It's not clear that &quot;Save&quot; is a control"
 />
 
 
@@ -53,16 +50,13 @@ Best for UI elements like buttons, labels, or menu options.
 **Tip:** See [how to add bold in Markdown](/rule/#2-text-decorations).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Click **Save** to store your changes.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using bold for buttons and menu options",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Using bold for buttons and menu options"
 />
 
 
@@ -71,16 +65,13 @@ Best for UI elements like buttons, labels, or menu options.
 Best for exact texts users must enter/type; but can also used for UI elements like buttons, labels, or menu options.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Type "Admin" in the **Username** field.
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using quotes for exact text users should type",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Using quotes for exact text users should type"
 />
 
 
@@ -91,14 +82,11 @@ Ideal for commands, or file names.
 **Tip:** See [how to use code formatting in Markdown](/rule/#10-code).
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Enter the command `git clone https://github.com/user/repo.git`
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Using quotation marks for exact text users may type",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Using quotation marks for exact text users may type"
 />

@@ -35,15 +35,15 @@ uri: avoid-full-stops
 
 Excess punctuation without purpose can make a document or web content look unnecessarily busy. It adds unexpected visual clutter, especially in short or standalone text like **list items**, **captions**. For **URLs**, the reason is not just visual - adding a period at the end can break the link when it's copied or clicked.
 
-<endOfIntro />
+<endIntro />
 
 ## List items
 
 Bullet points should be short and sharp, and should generally **not** require full stops at all.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Sentence one.
@@ -51,17 +51,14 @@ Bullet points should be short and sharp, and should generally **not** require fu
 * Sentence three.
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Too much punctuation",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Too much punctuation"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 * Sentence one
@@ -69,11 +66,8 @@ Bullet points should be short and sharp, and should generally **not** require fu
 * Sentence three
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clean with no full stops",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Clean with no full stops"
 />
 
 
@@ -82,36 +76,30 @@ Bullet points should be short and sharp, and should generally **not** require fu
 Image captions should be short and sharp, and should generally **not** require full stops at all.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &#123;&#123; IMAGE &#125;&#125;\
 **Figure: A group of people in a meeting room.**
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Too much punctuation",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Too much punctuation"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &#123;&#123; IMAGE &#125;&#125;\
 **Figure: A group of people in a meeting room**
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Clean with no full stops",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Clean with no full stops"
 />
 
 
@@ -122,22 +110,19 @@ If your bullet point or caption has more than one sentence, consider rephrasing 
 However, if it **is necessary** to have more than one sentence in these items (should be rare) a full stop is needed. In this case, you should end with a full stop for consistency and completeness.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Reminder:** The rest of figure captions and the bullet points on content **should not have full stops**.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &#123;&#123; IMAGE &#125;&#125;\
@@ -149,17 +134,14 @@ However, if it **is necessary** to have more than one sentence in these items (s
 * Sentence seven
 
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - A multi-sentence item becomes a mini-paragraph - not ending it with a full stop looks inconsistent",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - A multi-sentence item becomes a mini-paragraph - not ending it with a full stop looks inconsistent"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 &#123;&#123; IMAGE &#125;&#125;\
@@ -171,11 +153,8 @@ However, if it **is necessary** to have more than one sentence in these items (s
 * Sentence seven
 
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Multi-sentence items should end with a full stop for consistency",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Multi-sentence items should end with a full stop for consistency"
 />
 
 
@@ -184,28 +163,22 @@ However, if it **is necessary** to have more than one sentence in these items (s
 [Descriptive links](/descriptive-links) are recommended whenever possible, but if you must display the raw URL, remember to avoid adding a full stop at the end, as it can break the link when copied or clicked.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     For more information, visit [https://ssw.com.au/employment](https://ssw.com.au/employment).
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - Full stop at the end can break the link",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - Full stop at the end can break the link"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     For more information, visit [https://ssw.com.au/employment](https://ssw.com.au/employment)
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - No full stop after the URL",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - No full stop after the URL"
 />

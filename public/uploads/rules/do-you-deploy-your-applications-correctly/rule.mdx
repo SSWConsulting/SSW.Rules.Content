@@ -27,7 +27,7 @@ uri: do-you-deploy-your-applications-correctly
 
 Many applications end up working perfectly on the developer's machine. However once the application is deployed into a setup package and ready for the public, the application could suddenly give the user the most horrible experience of his life. There are plenty of issues that developers don't take into consideration. Amongst the many issues, 3 can stand above the rest if the application isn't tested thoroughly:
 
-<endOfIntro />
+<endIntro />
 
 1. The SQL Server Database or the Server machine cannot be accessed by the user, and so developer settings are completely useless to the user.
 2. The user doesn't install the application in the default location. (i.e. instead of C:\Program Files\ApplicationName, the user could install it on D:\Temp\ApplicationName)
@@ -43,11 +43,8 @@ Wise has a Dialog that prompts the user for the installation directory:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Wise Prompts the user for the installation directory and sets the path to a property in wise called \"INSTALLDIR\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Wise Prompts the user for the installation directory and sets the path to a property in wise called \"INSTALLDIR\"'
   src="/uploads/rules/do-you-deploy-your-applications-correctly/INSTALLDIR.jpg"
 />
 
@@ -104,12 +101,7 @@ oFile.Close
 ```vbnet
 this.pictureReportSample.Image = Image.FromFile(@"Reports\Images\Blank.jpg");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut",
-  shouldDisplay: true
-} } />
-
+**❌ Bad code - FromFile() method (as well as Process.Start()) give the relative path of the running process. This could mean the path relative to the shortcut or the path relative to the .exe itself, and so an exception will be thrown if the image cannot be found when running from the shortcut**  
 
 ```vbnet
 string appFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
@@ -118,12 +110,7 @@ string appPath = Path.GetDirectoryName(appFilePath);
 
 this.pictureReportSample.Image = Image.FromFile(appPath + @"\Reports\Images\Blank.jpg");
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown",
-  shouldDisplay: true
-} } />
-
+**✅ Good code - GetExecutingAssembly().Location will get the pathname of the actual executable and no exception will be thrown**  
 
 This exception would never have been found if the developer didn't bother to test the actual installation package on his own machine.
 

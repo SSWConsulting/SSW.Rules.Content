@@ -20,7 +20,7 @@ isArchived: false
 
 Some applications may need to have administrator right for running the application, e.g. create a file, access system library, etc. It will be an issue for the application to run if UAC is turned on. Below is the step to solve the issue:
 
-<endOfIntro />
+<endIntro />
 
 1. Add App.Manifest into WindowsUI project. It should contain the below code:
 
@@ -48,10 +48,7 @@ Some applications may need to have administrator right for running the applicati
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Use the newly created App.Manifest",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Use the newly created App.Manifest"
   src="/uploads/rules/know-how-to-run-write-application-to-run-with-uac-turn-on/setmanifest.jpg"
 />

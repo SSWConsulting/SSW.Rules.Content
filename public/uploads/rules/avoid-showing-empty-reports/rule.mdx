@@ -25,17 +25,14 @@ uri: avoid-showing-empty-reports
 
 When a user opens a report, they expect to see something. It is the developer's job to get the default values for parameters right. Default parameters allow the user to see what they expect... a report, and they also show users the expected format for parameters and make it easier to run validation tests to see if all the reports on your server are working correctly And of course you don't get it right by hard coding defaults.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Making a user select the parameters before seeing the data",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Making a user select the parameters before seeing the data"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT07.jpg"
 />
 
@@ -46,11 +43,8 @@ The following report shows nothing, because the parameters are using meaningless
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Empty report caused by incorrect parameter default values (probably hard coded for when the developer wrote the report in 2006)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Empty report caused by incorrect parameter default values (probably hard coded for when the developer wrote the report in 2006)"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT7.jpg"
 />
 
@@ -59,11 +53,8 @@ The following report shows nothing, because the parameters are using meaningless
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - This report shows initial data as the developer configure useful parameters (in this case default values for the entire month of October Note: in US date format)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - This report shows initial data as the developer configure useful parameters (in this case default values for the entire month of October Note: in US date format)"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT8.gif"
 />
 
@@ -86,22 +77,14 @@ DateSerial(Year(DateTime.Now), Month(DateTime.Now),1)
 --Expression to get the 1st day of the next month
 DateSerial(iif( Month(DateTime.Now)=12, Year(DateTime.Now)+1, Year(DateTime.Now)), iif( Month(DateTime.Now)=12, 1, Month(DateTime.Now) + 1), 1)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Expressions to set the date range to the current month",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Expressions to set the date range to the current month**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Using an Expression to set the default values.(This will not be good enough if there is no data in the current month)",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Using an Expression to set the default values.(This will not be good enough if there is no data in the current month)"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT11.jpg"
 />
 
@@ -127,22 +110,14 @@ DATENAME(year, MAX(OrderDate))
 ) AS StartOfMonth
 FROM Orders
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - Using a query to retrieve the last month of available data",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - Using a query to retrieve the last month of available data**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using a query to set default values for report parameters",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Using a query to set default values for report parameters"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT10.jpg"
 />
 
@@ -154,10 +129,7 @@ The dataset 'ValidDates' looks similar to this:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Create a dataset to query the data and provide useful default parameter values for your report",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Create a dataset to query the data and provide useful default parameter values for your report"
   src="/uploads/rules/avoid-showing-empty-reports/RSRulesNoEmptyReportT9.jpg"
 />

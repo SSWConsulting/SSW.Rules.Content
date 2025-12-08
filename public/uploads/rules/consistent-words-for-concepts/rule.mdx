@@ -38,7 +38,7 @@ There’s more than one way to skin a cat (apparently—we don’t have any rule
 
 Inconsistent language is one of the quickest ways to violate the [DRY principle](/avoid-repetition) and add unnecessary complexity to your codebase.
 
-<endOfIntro />
+<endIntro />
 
 ## Why consistency matters?
 
@@ -60,12 +60,7 @@ public void SendOrder(NotificationType type)
     // existing implementation
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "bad example - The name used for this method is not consistent with the name used for the same concept everywhere else in the code base",
-  shouldDisplay: true
-} } />
-
+**❌ bad example - The name used for this method is not consistent with the name used for the same concept everywhere else in the code base**  
 
 What went wrong here? Was it a lack of diligence in searching for existing functionality, or the use of different terms - “order” and “consignment” - interchangeably? Likely a bit of both, but primarily, the issue is rooted in inconsistent terminology.
 
@@ -79,12 +74,7 @@ public void SendConsignment(NotificationType type)
     // new implementation
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - The name used for this method is the same name used for this concept throughout the code base",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - The name used for this method is the same name used for this concept throughout the code base**  
 
 To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is [ubiquitous](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code.
 

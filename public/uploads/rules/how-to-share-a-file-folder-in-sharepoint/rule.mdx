@@ -32,7 +32,7 @@ uri: how-to-share-a-file-folder-in-sharepoint
 
 You often need to share links to a file or folder in SharePoint.
 
-<endOfIntro />
+<endIntro />
 
 You may be tempted to share a link via the Share email invite. In doing so, the sharing permissions default to 'can view', which is fine if you are sharing the file externally. If you are sharing to someone who already has access to the file, it breaks permissions on the item you're sharing and creates a unique permission set for whoever you share it with. This means that a person who already had access to a file may find that using the shared link grants them different permissions. This makes it very difficult for SharePoint admins to maintain permissions!
 
@@ -40,11 +40,8 @@ You may be tempted to share a link via the Share email invite. In doing so, the 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Sharing URL via Share email invite",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Sharing URL via Share email invite"
   src="/uploads/rules/how-to-share-a-file-folder-in-sharepoint/sharepoint-share-email-invite.png"
 />
 
@@ -59,11 +56,8 @@ You can select the folder (or file) and click on "Copy link" at the top bar to g
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Get URL from SharePoint top bar",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Get URL from SharePoint top bar"
   src="/uploads/rules/how-to-share-a-file-folder-in-sharepoint/sharepoint-cloud-copy-folder.jpg"
 />
 
@@ -74,11 +68,8 @@ You can also right-click the folder/file to copy the link:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Get URL by right-clicking a file in SharePoint",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Get URL by right-clicking a file in SharePoint"
   src="/uploads/rules/how-to-share-a-file-folder-in-sharepoint/sharepoint-right-click-link.jpg"
 />
 
@@ -89,10 +80,7 @@ If your SharePoint admin has not set the default sharing link type to "People wi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "okExample",
-    figure: "OK example - Set file sharing permission to \"People with existing access\" each time you share",
-    shouldDisplay: true
-  } }
+  figurePrefix="ok"
+  figure='OK example - Set file sharing permission to \"People with existing access\" each time you share'
   src="/uploads/rules/how-to-share-a-file-folder-in-sharepoint/sharepoint-choose-existing-access.png"
 />

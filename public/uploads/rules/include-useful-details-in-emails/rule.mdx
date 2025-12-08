@@ -48,19 +48,16 @@ In any email you send, **include relevant information**. Improved visibility and
 * Pieces of code/text
 * Any more context or useful info
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     For screenshots of a **browser** window, include the top-left area - so others can see the URL and guess what browser was being used (e.g. Chrome or Edge).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -82,11 +79,8 @@ Finally, in the very unlikely case that the code repository and backup goes corr
 
 Done on the contact page
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - \"Done\" email lacks details",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure='Bad example - \"Done\" email lacks details'
 />
 
 <emailEmbed
@@ -111,11 +105,8 @@ To:
 
 &#123;&#123; NEW CODE &#125;&#125;
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - \"Done\" email has a link, a screenshot (showing the URL), and code changes",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure='Good example - \"Done\" email has a link, a screenshot (showing the URL), and code changes'
 />
 
 ### More useful details to include

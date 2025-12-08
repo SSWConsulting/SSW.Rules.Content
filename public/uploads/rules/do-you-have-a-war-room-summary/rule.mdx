@@ -12,9 +12,9 @@ createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: f35f796c-e7a6-4f6e-946c-f0cff67c09f2
 isArchived: false
-lastUpdated: 2024-11-14 21:06:17+00:00
-lastUpdatedBy: Babanazar Kamyljanov [SSW]
-lastUpdatedByEmail: 138548013+babakamyljanovssw@users.noreply.github.com
+lastUpdated: 2025-11-07 14:10:34+00:00
+lastUpdatedBy: Chloe Lin [SSW]
+lastUpdatedByEmail: chloelin@ssw.com.au
 redirects:
 - do-you-have-a-war-room-(summary)
 related:
@@ -29,16 +29,13 @@ uri: do-you-have-a-war-room-summary
 The Scrum team needs a place to gather for all the Scrum ceremonies. This room should have useful information on the wall to help the team work more efficiently. We recommend having the following:
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** For co-located teams only.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -48,17 +45,14 @@ The Scrum team needs a place to gather for all the Scrum ceremonies. This room s
 * [Product Roadmap](/do-you-have-a-product-roadmap) (to let everyone know the large future priorities)
 * [Definition of Done - aka Done Criteria or DoD](/definition-of-done) (the quality that is being adhered to)
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner"
   src="/uploads/rules/do-you-have-a-war-room-summary/war-room-bad-example.jpg"
 />
 
@@ -67,10 +61,7 @@ The Scrum team needs a place to gather for all the Scrum ceremonies. This room s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example – The Product Roadmap is visible at a glance",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example – The Product Roadmap is visible at a glance"
   src="/uploads/rules/do-you-have-a-war-room-summary/war-room-good-example.jpg"
 />

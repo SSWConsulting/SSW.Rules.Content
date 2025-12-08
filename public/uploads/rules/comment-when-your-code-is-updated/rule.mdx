@@ -27,7 +27,7 @@ uri: comment-when-your-code-is-updated
 
 It's important that you have consistent commenting for your code, which can be used by other developers to quickly determine the workings of the application. The comments should always represent the rationale of the current behaviour.
 
-<endOfIntro />
+<endIntro />
 
 Since applications evolve over time - don't add comments to your code with datetime stamps. If a developer needs to see why the code behaves the way it does right now - your commit history is the best place to tell the story of why the code has evolved.
 
@@ -50,21 +50,13 @@ MessageBoxIcon.Warning) = DialogResult.Yes) {
     }
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Timestamped comments add noise to the code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Timestamped comments add noise to the code**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - We can tell who added the comment using annotations",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - We can tell who added the comment using annotations"
   src="/uploads/rules/comment-when-your-code-is-updated/comment annotations.png"
 />

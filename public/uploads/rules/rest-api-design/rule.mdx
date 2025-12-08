@@ -32,7 +32,7 @@ uri: rest-api-design
 
 REST APIs are everywhere in our daily lives — from social media updates and online shopping to weather forecasts and GPS navigation. These interfaces allow different applications to connect seamlessly, providing the backbone for countless modern conveniences.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://youtu.be/_gQaygjm_hg" description={"Video: Good APIs Vs Bad APIs: 7 Tips for API Design (6 min)"} />
@@ -71,23 +71,15 @@ Design requests as idempotent operations, where repeating an action yields the s
 Typically, `GET`, `PUT` and `DELETE` are idempotent by default, but special handling needs to be added to make `POST` requests idempotent.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     If a `DELETE` request removes a record, re-sending it should not throw errors if the record is already deleted.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - This prevents accidental duplicate data processing",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - This prevents accidental duplicate data processing**  
 
 ### 4. Pagination
 
@@ -106,22 +98,12 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 ```js
 `?x=name&y=asc`
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - It's impossible to understand what those query string mean!",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - It's impossible to understand what those query string mean!**  
 
 ```jsox
 `?sortBy=name&order=asc`
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Query strings are meaningful",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Query strings are meaningful**  
 
 ### 6. Simple cross-resource references
 
@@ -132,32 +114,17 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 ```js
 `api/products?user_id=123&product_id=321`
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Messy query parameter",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Messy query parameter**  
 
 ```js
 `api/orders/123/items/456/products/789`
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Overly complicated endpoint",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Overly complicated endpoint**  
 
 ```js
 `api/products/789`
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Clearly defined endpoint",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Clearly defined endpoint**  
 
 ## Optional configurations
 

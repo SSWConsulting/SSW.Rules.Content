@@ -31,7 +31,7 @@ Using a precision mocking framework (such as [NSubstitute](https://nsubstitute.g
 Mocking frameworks allow you to replace a section of the code you are about to test, with an alternative piece of code.
 For example, this allows you to test a method that performs a calculation and saves to the database, without actually requiring a database.
 
-<endOfIntro />
+<endIntro />
 
 There are two types of mocking framework.
 
@@ -44,11 +44,8 @@ This is great for testing legacy code, tightly coupled code with lots of static 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example – Our class is tightly coupled to our authentication provider, and as we add each test we are adding *more* dependencies on this provider. This makes our codebase less and less maintainable. If we ever want to change our authentication provider “OAuthWebSecurity”, it will need to be changed in the controller, and every test that calls it",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example – Our class is tightly coupled to our authentication provider, and as we add each test we are adding *more* dependencies on this provider. This makes our codebase less and less maintainable. If we ever want to change our authentication provider “OAuthWebSecurity”, it will need to be changed in the controller, and every test that calls it"
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/monster-mocker.jpg"
 />
 
@@ -63,11 +60,8 @@ The mocking framework creates substitute items to inject into the code under tes
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - An interface describes the methods available on the provider",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - An interface describes the methods available on the provider"
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/nsubstitute-1.png"
 />
 
@@ -76,11 +70,8 @@ The mocking framework creates substitute items to inject into the code under tes
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The Product Repository is injected into the ProductService class (via constructor injection)",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - The Product Repository is injected into the ProductService class (via constructor injection)"
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/nsubstitute-2.png"
 />
 
@@ -89,10 +80,7 @@ The mocking framework creates substitute items to inject into the code under tes
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - The code is loosely coupled. The ProductService is dependent on an interface of the Product Repository, which is injected into the ProductService via its constructor. The unit test can easily create a mock object of the Product Repository and substitute it for the dependency. NSubstitute is one of the most popular mocking libraries.",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - The code is loosely coupled. The ProductService is dependent on an interface of the Product Repository, which is injected into the ProductService via its constructor. The unit test can easily create a mock object of the Product Repository and substitute it for the dependency. NSubstitute is one of the most popular mocking libraries."
   src="/uploads/rules/use-a-precision-mocker-instead-of-a-monster-mocker/nsubstitute-3.png"
 />

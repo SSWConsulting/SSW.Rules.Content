@@ -25,7 +25,7 @@ uri: handover-best-practices
 
 A poorly planned handover can result in wasted time, repeated work, and confusion for the person taking over. Imagine walking into a project with no context, outdated documentation, and a scattering of files across different systems. It’s frustrating and it’s preventable.
 
-<endOfIntro />
+<endIntro />
 
 There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always **plan from the perspective of the person receiving the handover**.
 
@@ -51,8 +51,8 @@ Don’t leave your successor scavenging for files. If your team doesn’t alread
 At the root level, add a `_instructions.md` or `README` to explain the folder structure and what each file contains.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 /Project-Handover
@@ -70,18 +70,10 @@ At the root level, add a `_instructions.md` or `README` to explain the folde
 └── Tasks (exported backlog, priority list)
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – A structured handover folder with an index file for guidance",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example – A structured handover folder with an index file for guidance**  
 
 If your team already has a defined location (like a client-managed drive or internal system), follow that instead and just make sure your files are up to date and easy to navigate.
 
@@ -149,11 +141,8 @@ Let me know if anything’s unclear or if you need help with access.
 
 Regards,
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example – A clear onboarding email helps reduce first-day confusion",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example – A clear onboarding email helps reduce first-day confusion"
 />
 
 ## Run a handover walkthrough
@@ -175,16 +164,13 @@ Introduce your successor to:
 * Key team members
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Bonus:** Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

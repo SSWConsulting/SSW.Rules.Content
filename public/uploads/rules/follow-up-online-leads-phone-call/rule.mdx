@@ -24,20 +24,17 @@ When users fill out a form to make an appointment or download an ebook, it's com
 
 By collecting phone numbers and following up with a phone call, you can significantly increase your chances of converting online leads into customers. Make sure your forms are designed to gather all necessary contact information, and prioritize personal, immediate follow-ups to build trust and engagement with your prospects.
 
-<endOfIntro />
+<endIntro />
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 ⚠️To comply with [privacy laws](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/consent-to-the-handling-of-personal-information), forms that collect personal information must include a distinct, unselected consent checkbox. This checkbox allows individuals to opt in for additional communications beyond the original purpose for which the data is being collected.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -57,11 +54,8 @@ Most forms only ask for an email address, leaving out the phone number. This lim
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The form misses the opportunity to collect a phone number, reducing follow-up options",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The form misses the opportunity to collect a phone number, reducing follow-up options"
   src="/uploads/rules/follow-up-online-leads-phone-call/online-form-without-phone-number-field.jpg"
 />
 
@@ -72,11 +66,8 @@ Even when forms include a phone number field, it's often optional. This results 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The phone number is not required, leading to many leads without a phone number",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The phone number is not required, leading to many leads without a phone number"
   src="/uploads/rules/follow-up-online-leads-phone-call/online-form-with-phone-number-not-mandatory.jpg"
 />
 
@@ -87,11 +78,8 @@ Include a phone number field in all your forms and make it a required field. Thi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The form collects all essential contact information, enabling multiple follow-up methods",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The form collects all essential contact information, enabling multiple follow-up methods"
   src="/uploads/rules/follow-up-online-leads-phone-call/online-form-with-phone-number-mandatory.jpg"
 />
 

@@ -27,7 +27,7 @@ Calling Thread.Sleep on your Silverlight application causes the UI thread to sle
 
 If you want to delay something, you can use a [storyboard](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.animation.storyboard?view=windowsdesktop-7.0&redirectedfrom=MSDN&WT.mc_id=DT-MVP-33518).
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 Thread.Sleep(5000);
@@ -38,12 +38,7 @@ this.Dispatcher.BeginInvoke(new Action(() =>
     Connect.Execute(null);
   }));
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze",
-  shouldDisplay: true
-} } />
-
+**❌ Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze**  
 
 ```cs
 Storyboard sb = new Storyboard() { Duration = TimeSpan.FromSeconds(5) };
@@ -54,8 +49,4 @@ sb.Completed += (ds, de) => this.Dispatcher.BeginInvoke(new Action(() =>
   }));
 sb.Begin();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Code: Good example - Use a Storyboard with a duration of the delay and once the Storyboard is finished running",
-  shouldDisplay: true
-} } />
+**✅ Code: Good example - Use a Storyboard with a duration of the delay and once the Storyboard is finished running**

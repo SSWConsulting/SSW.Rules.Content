@@ -9,9 +9,9 @@ createdBy: Tiago Araújo [SSW]
 createdByEmail: tiagov8@gmail.com
 guid: 9731b1c3-5c21-4e85-8bb4-cb43e1823867
 isArchived: false
-lastUpdated: 2024-03-14 22:13:34+00:00
-lastUpdatedBy: Ulysses Maclaren
-lastUpdatedByEmail: 162542237+uly1@users.noreply.github.com
+lastUpdated: 2025-10-14 23:39:20+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
 - rule: public/uploads/rules/chatgpt-cheat-sheet/rule.mdx
 seoDescription: Master the fundamentals of prompt engineering to unlock better results
@@ -25,7 +25,7 @@ The best way to get up and running with ChatGPT is by using a cheat sheet. Check
 
 In ChatGPT prompt engineering, various elements play a critical role in shaping the user's prompt and obtaining the desired output. These elements are role, result, intent, context, and constraint.
 
-<endOfIntro />
+<endIntro />
 
 Let's define each of them and provide an example that illustrates their use.
 
@@ -38,30 +38,24 @@ Let's define each of them and provide an example that illustrates their use.
 Suppose you're seeking advice on improving coding practices, specifically focusing on C#. Here's how each part can be framed:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Give me some C# coding tips"
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - prompt is vague and lacking context",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - prompt is vague and lacking context"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "As a senior software engineer, I need your guidance to improve my C# coding practices. I am working on a large-scale data processing project where readability and efficiency are critical. Can you provide me with some specific, actionable tips to enhance my code's performance while ensuring it remains clean and easy for others to understand?"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - prompt contains context, goal, and constraint",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - prompt contains context, goal, and constraint"
 />
 
 
@@ -79,18 +73,15 @@ By specifying the role, result, intent, context, and constraint in the prompt, y
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Another good example",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Another good example"
   src="/uploads/rules/fundamentals-of-prompt-engineering/new-prompt-engineering-only-prompt.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 "Welcome! Let's create a fantastic Prompt together. We will be defining a \[Role] for me, my \[Goal], the \[Context] in which I will operate, the \[Result] I aim to achieve, and the \[Constraints] within which I will work. We'll also decide on the writing \[Style] that best suits your preferences."
@@ -129,11 +120,8 @@ Instruction: Do not include any narrative introduction; only show the \[Result]
 Execute Prompt.
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

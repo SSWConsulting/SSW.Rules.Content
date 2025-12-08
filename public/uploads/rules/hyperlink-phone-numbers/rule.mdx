@@ -28,19 +28,16 @@ uri: hyperlink-phone-numbers
 
 Mobile device usage has been on the rise for years, driven by the increasing popularity and capabilities of smartphones and tablets. It's safe to say that, in the past years, the majority of internet users globally were accessing websites through **mobile** devices.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** The exact percentage of mobile device users can vary based on geographic regions and demographics.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -51,8 +48,4 @@ Devices and computers that don’t have phone functionality will either open a p
 ```html
 <a href="tel:+61299533000">+61 2 9953 3000</a>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – To make a telephone number clickable, use add a link with \"tel:\" inside the href attribute",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – To make a telephone number clickable, use add a link with "tel:" inside the href attribute**

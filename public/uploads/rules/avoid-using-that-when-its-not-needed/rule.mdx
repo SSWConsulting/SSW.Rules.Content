@@ -21,41 +21,25 @@ uri: avoid-using-that-when-its-not-needed
 'That' is occasionally an unnecessary addition to a sentence, especially if it's a title that would benefit from being short and punchy. As such, avoid using "that" in a title wherever possible.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Building Software that People Understand"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Example - unnecessary \"that\"",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad Example - unnecessary "that"**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Building Software People Understand"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Example - without the \"that\", the setence is concise and has more punch",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Example - without the "that", the setence is concise and has more punch**  
 
-
-<endOfIntro />
+<endIntro />

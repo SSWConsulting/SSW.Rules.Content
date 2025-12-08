@@ -22,7 +22,7 @@ uri: do-you-write-the-word-email-in-the-correct-format
 
 Do you spell 'email' correctly?
 
-<endOfIntro />
+<endIntro />
 
 There is one correct way to spell 'email' and many incorrect ones. The common incorrect ones are:
 
@@ -32,44 +32,28 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 Lower Case with dash (or hyphen):
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;p&gt;Your ==e-mail== address must match your confirm ==e-mail== address&lt;/p&gt;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Using 'e-mail' in your text",
-  shouldDisplay: true
-} } />
+**❌ Bad example: Using 'e-mail' in your text**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;p&gt;Your ==email== address must match your confirm ==email== address&lt;/p&gt;
 
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Using 'email' instead",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: Using 'email' instead**  
 
 Upper Case with capital M:
 
@@ -87,12 +71,7 @@ Upper Case with capital M:
   autocomplete="off"
 />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example : 'EMail' used as a placeholder and in the validation message",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example : 'EMail' used as a placeholder and in the validation message**  
 
 ```html
 <input
@@ -108,11 +87,6 @@ Upper Case with capital M:
   autocomplete="off"
 />
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Use 'Email' instead",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: Use 'Email' instead**  
 
 We have a rule in [SSW Code Auditor](https://www.ssw.com.au/ssw/codeauditor/) and [SSW Link Auditor](https://sswlinkauditor.com/) to check for this.

@@ -30,57 +30,38 @@ Historically, it’s been the convention to refer to users as ‘he’ in techni
 
 The best pronoun to use is "they". It’s simple and elegant and doesn't exclude anyone.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This new feature is important if the user runs long tasks. At the end of a process, ==he== will know the amount of time spent. Now that the status bar shows the time taken and progress percentage, ==he== can evaluate how long it will take beforehand. Then ==he== can go get a cup of coffee.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="bad"
+  figure='Bad example: User referred to as \"he\"'
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: User referred to as \"he\"",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     This new feature is important if the user runs long tasks. At the end of a process, ==they== will know the amount of time spent. Now that the status bar shows the time taken and progress percentage, ==they== can evaluate how long it will take beforehand. Then ==they== can go get a cup of coffee.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure='Good example: User referred to as \"they\"'
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: User referred to as \"they\"",
-  shouldDisplay: true
-} } />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     You can use tools like [Alex](https://alexjs.com) to get better at considerate writing finding potential occurrences with a tool that suggests helpful alternatives.
 
 This can be run as a pull request check as well - [Alex Recommends GitHub Action](https://github.com/marketplace/actions/alex-recommends)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

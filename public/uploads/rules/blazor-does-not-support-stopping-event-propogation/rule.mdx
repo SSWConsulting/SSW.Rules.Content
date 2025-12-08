@@ -22,7 +22,7 @@ Workaround - When you have two fields and you want to handle tabbing out of the 
 * If you handle onkeydown the value isn't set yet
 * If you handle onkeyup it triggers on the first field instead of the last one
 
-<endOfIntro />
+<endIntro />
 
 To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down.
 

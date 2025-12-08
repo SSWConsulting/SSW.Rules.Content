@@ -29,27 +29,28 @@ uri: done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sp
 
 What happens when you leave all the testing to the end of the Sprint? You find things that are not **_done_** and you have no time before the **Sprint Review** to fix them.
 
-<endOfIntro />
+<endIntro />
 
 ![](/uploads/rules/done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint/RuleBuildEverySprintBad.png)
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "**Figure: Bad example - if you don’t complete all the tasks the customer will not receive a build in the Sprint**\n\n<imageEmbed\n  alt=\"Image\"\n  size=\"large\"\n  showBorder={true}\n  figureEmbed={ {\n    preset: \"default\",\n    figure: \"\",\n    shouldDisplay: false\n  } }\n  src=\"/uploads/rules/done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint/RuleBuildEverySprintOK.png\"\n/>\n good\n**Figure: OK example – Send the “test please” before the end of the Sprint so you have time to finish everything**",
-  shouldDisplay: true
-} } />
+**❌ **Figure: Bad example - if you don’t complete all the tasks the customer will not receive a build in the Sprint**
 
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure=""
+  src="/uploads/rules/done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint/RuleBuildEverySprintOK.png"
+/>
+ good
+**Figure: OK example – Send the “test please” before the end of the Sprint so you have time to finish everything****  
 
 It is preferable to conduct a **Smoke Test** to make sure that you are comfortable demoing the unit of work you just finished to the customer. One way to do this is to create a Coded UI test for each of the Stories as part of your Definition of Done (DoD) that runs through the functionality you have built.
 
 In this scenario the “ **test please** ” with the customer happens outside of the current Sprint.
 
 ![](/uploads/rules/done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint/RuleBuildEverySprintGOOD.png)
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "**Figure: Good example – Create a coded UI test for each story to prove that it is complete**",
-  shouldDisplay: true
-} } />
-
+**✅ **Figure: Good example – Create a coded UI test for each story to prove that it is complete****  
 
 If you are doing **Scrum** then you should have a **User Story** fleshed out with a set of **Acceptance Criteria** . These **Acceptance Criteria** are agreed with the **Product Owner** before **The Team** committed to the story, and define what the **Product Owner** will accept as complete. This makes it relatively easy to create some automated tests that test for these **Acceptance Criteria** and help your **Sprint Review** go as smoothly as possible.
 

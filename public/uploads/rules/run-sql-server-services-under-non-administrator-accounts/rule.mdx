@@ -24,18 +24,15 @@ uri: run-sql-server-services-under-non-administrator-accounts
 
 You should always run all SQL Server services with the lowest possible privileges allowed in case the account is compromised. SQL Server setup makes the whole process of granting privileges a whole lot easier because it automatically creates groups with all the necessary permissions for you!
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SQL Server now creates groups for all the SQL Server services with the bare minimum permissions for you",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="SQL Server now creates groups for all the SQL Server services with the bare minimum permissions for you"
   src="/uploads/rules/run-sql-server-services-under-non-administrator-accounts/SQLDatabases_RunAsAccount_GroupsCreated.png"
 />
 

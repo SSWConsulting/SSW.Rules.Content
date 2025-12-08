@@ -23,7 +23,7 @@ uri: avoid-using-specific-characters-in-friendly-url
 
 When adding a friendly URL, please avoid using specific characters like ```+ : # & , ) ( ! \ } {  @ / = $``` (and so on) due to these reasons:
 
-<endOfIntro />
+<endIntro />
 
 1. When adding a friendly URL, we meant to make it **friendly** and **easy** for the user to read and remember, and these characters add complexity
 
@@ -34,28 +34,22 @@ When adding a friendly URL, please avoid using specific characters like ```+ : #
 Some characters are reserved characters, which may not be supported by some features, based on our experience, “+" is not supported in “canonical" to redirect from **http** to **https**.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     `http://ssw.com.au/rules/when-to-use-+1`
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - This URL will throw a 404 error rather than redirecting to https://",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - This URL will throw a 404 error rather than redirecting to https://"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     `http://ssw.com.au/rules/when-to-use-plus-1`
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Redirect works fine if the URL doesn't include “+\"",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Redirect works fine if the URL doesn't include “+&quot;"
 />

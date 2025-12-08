@@ -10,9 +10,9 @@ createdBy: IsaacLu
 createdByEmail: IsaacLu@ssw.com.au
 guid: 90f6c345-3fee-4f69-bda3-d16b31447142
 isArchived: false
-lastUpdated: 2025-02-04 12:34:58+00:00
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-10-30 12:08:42+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
 seoDescription: Improve your website's performance by reducing file sizes and speeding
   up load times with Gzip compression.
@@ -24,7 +24,7 @@ uri: do-you-use-gzip
 Gzip is a file format and a software application used for file compression and decompression.
 Gzip can reduce file size and storage space, and reduce transmission time when transferring files over the network. It runs on both Linux and Windows.
 
-<endOfIntro />
+<endIntro />
 
 Use PageSpeed Insights extension in Chrome to determine if your site will benefit from using Gzip.
 
@@ -41,11 +41,8 @@ Use one of the methods described below to add Gzip compression to your site ASP.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Choose the website which you want to use Gzip and click on Compression",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Choose the website which you want to use Gzip and click on Compression"
   src="/uploads/rules/do-you-use-gzip/use-gzip-2.png"
 />
 
@@ -55,11 +52,8 @@ Use one of the methods described below to add Gzip compression to your site ASP.
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Install \"dynamic content compression\" if you haven't installed it",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Install &quot;dynamic content compression&quot; if you haven't installed it"
   src="/uploads/rules/do-you-use-gzip/use-gzip-3.png"
 />
 
@@ -72,11 +66,8 @@ Choose **Internet Information Services | Web Management Tools | World Wide Web S
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Click \"OK\" to install it",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='Click \"OK\" to install it'
   src="/uploads/rules/do-you-use-gzip/use-gzip-4.png"
 />
 
@@ -86,11 +77,8 @@ Choose **Internet Information Services | Web Management Tools | World Wide Web S
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Enable dynamic content compression for your site",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Enable dynamic content compression for your site"
   src="/uploads/rules/do-you-use-gzip/use-gzip-5.png"
 />
 
@@ -106,11 +94,8 @@ Follow [https://www.npmjs.com/package/gzipper](https://www.npmjs.com/package/gzi
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "\"Finish configuration like that",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure='\"Finish configuration like that'
   src="/uploads/rules/do-you-use-gzip/use-gzip-6.png"
 />
 
@@ -163,21 +148,13 @@ public ActionResult About()
    return View();
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - Files with large size and slow load time",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - Files with large size and slow load time**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Gzipped files with smaller size and faster load time",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Gzipped files with smaller size and faster load time"
   src="/uploads/rules/do-you-use-gzip/5.28.7.png"
 />

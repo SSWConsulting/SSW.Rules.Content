@@ -27,21 +27,18 @@ SQL Compare is a good tool to find out the differences between two databases. It
 
 However, if you are doing this at the end of your release cycle, you have a problem. Your schema deployment process is broken...
 
-<endOfIntro />
+<endIntro />
 
 What you should be doing is seeing your [Schema Master](/have-a-schema-master "Database Schema Master") each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** If you are using modern methods such as Entity Framework code first migrations you will already be doing most of this.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -52,11 +49,8 @@ Tools like [Red Gates SQL Compare](https://www.red-gate.com/products/sql-develop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Using Red Gates SQL Compare",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Using Red Gates SQL Compare"
   src="/uploads/rules/should-you-compare-schemas/red-gate-sql-compare.png"
 />
 
@@ -66,10 +60,7 @@ Tools like [Red Gates SQL Compare](https://www.red-gate.com/products/sql-develop
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Using Visual Studio SQL Schema Compare",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Using Visual Studio SQL Schema Compare"
   src="/uploads/rules/should-you-compare-schemas/microsoft-schema-compare.png"
 />

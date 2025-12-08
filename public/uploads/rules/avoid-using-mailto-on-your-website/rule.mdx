@@ -26,26 +26,18 @@ Don't ever display valid individual email addresses or `mailto:` on a website. N
 
 The best way to avoid it is not to display valid individual email addresses in text format (especially in the form of "mailto:") on your website.
 
-<endOfIntro />
+<endIntro />
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     &lt;FirstnameSurname@ssw.com.au&gt;
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad way - normal email address in text format",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad way - normal email address in text format**  
 
 ###  Better way: encryption technique
 

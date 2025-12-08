@@ -20,7 +20,7 @@ isArchived: false
 
 Validation is extremely important on a data entry form. There are two ways to do validation:
 
-<endOfIntro />
+<endIntro />
 
 1. **ErrorProvider** control
    The **ErrorProvider** control is code intensive. You must manually handle the **Validating** event of each control you want to validate, in addition to manually running the validation methods when the OK or Apply button is clicked.
@@ -85,12 +85,7 @@ Private Sub okButton_Click(ByVal sender As Object, _
 
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - lots of code but no balloon tooltips",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - lots of code but no balloon tooltips**  
 
 ```vb
 Private Sub productNameTextBox_Validating(ByVal sender As Object, _
@@ -158,12 +153,7 @@ Private Sub okButton_Click(ByVal sender As Object, _
 
 End Sub
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - lots of code but balloon tooltips are used",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - lots of code but balloon tooltips are used**  
 
 **Note:** The component for balloon tooltips can be found in the SSW .NET Toolkit.
 
@@ -174,11 +164,8 @@ The error provider has the advantage over the extended provider that it can be u
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: ".NET ErrorProvider Control with a custom balloon tooltip",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure=".NET ErrorProvider Control with a custom balloon tooltip"
   src="/uploads/rules/do-you-use-validator-controls/errorprovider.gif"
 />
 
@@ -190,11 +177,8 @@ The error provider has the advantage over the extended provider that it can be u
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SSW Extended Provider controls and properties on a TextBox",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="SSW Extended Provider controls and properties on a TextBox"
   src="/uploads/rules/do-you-use-validator-controls/extendedprovider.gif"
 />
 

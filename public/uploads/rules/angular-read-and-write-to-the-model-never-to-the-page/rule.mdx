@@ -26,18 +26,15 @@ uri: angular-read-and-write-to-the-model-never-to-the-page
 
 The most common mistake that developers make when moving from jQuery to Angular is that they continue to think about updating the page.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "In jQuery, you design a page and then use jQuery to perform interactions with the page e.g. reading and setting the values of input boxes, updating the content of divs or handling button events",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="In jQuery, you design a page and then use jQuery to perform interactions with the page e.g. reading and setting the values of input boxes, updating the content of divs or handling button events"
   src="/uploads/rules/angular-read-and-write-to-the-model-never-to-the-page/understand-jquery.png"
 />
 
@@ -46,11 +43,8 @@ The most common mistake that developers make when moving from jQuery to Angular 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - using jQuery on Angular views will lead to worlds of pain",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - using jQuery on Angular views will lead to worlds of pain"
   src="/uploads/rules/angular-read-and-write-to-the-model-never-to-the-page/understand-badcode.png"
 />
 
@@ -63,11 +57,8 @@ A fundamental principal of Angular is that you build a Model in JavaScript (or T
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example - In both AngularJs & Angular 2.0 jQuery is not required on the view. The view binds to properties on a JavaScript model",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example - In both AngularJs & Angular 2.0 jQuery is not required on the view. The view binds to properties on a JavaScript model"
   src="/uploads/rules/angular-read-and-write-to-the-model-never-to-the-page/understand-goodcode.png"
 />
 

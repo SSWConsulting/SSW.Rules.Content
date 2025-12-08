@@ -37,17 +37,14 @@ A company-wide Word template brings many benefits e.g.:
 * **Automatic footers and headers** - Showing the latest edit time and who the editor was, updating automatically on save
 * **Branding** - More and better branding and correct company colors
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Creating an email/document does not have the company templates",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Creating an email/document does not have the company templates"
   src="/uploads/rules/have-a-companywide-word-template/word-template-bad.jpg"
 />
 
@@ -56,11 +53,8 @@ A company-wide Word template brings many benefits e.g.:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Creating an email/document with the company templates",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Creating an email/document with the company templates"
   src="/uploads/rules/have-a-companywide-word-template/word-template-good.jpg"
 />
 
@@ -84,30 +78,17 @@ xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotm" "%AP
 xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotx" "%APPDATA%\Microsoft\QuickStyles\" >> %LogonLogFile%
 ECHO Templates Copied
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This is a snippet of an old login script",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - This is a snippet of an old login script**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     You can automatically have your SSW Word doc template on sign-in via a script. E.g. [PowerShell login script](https://github.com/SSWConsulting/SSWSysAdmins.LoginScript).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good example - New Login script on Github"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - New Login script on Github",
-  shouldDisplay: true
-} } />
 
 
 **Note #1:** We don't want people using .RTF emails.

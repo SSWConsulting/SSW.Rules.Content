@@ -31,7 +31,7 @@ uri: write-an-image-prompt
 
 Prompts are the instructions that you input. They can be as simple or as complex as you like.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/embed/Ng_GmJy_F8c" description={"Video: Advanced Midjourney V5.1 Guide (11 min) - Prompting"} />
@@ -42,62 +42,50 @@ Prompts are the instructions that you input. They can be as simple or as complex
 A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     Tip: When sharing an AI image, [add the prompt to the image caption](/add-useful-and-concise-figure-captions) so others can see how you made it.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “A brown dog on a skateboard”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - A basic prompt",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - A basic prompt"
 />
 
 
 A well-structured prompt often has more details, in the format “A &#123;&#123; TYPE OF PICTURE &#125;&#125; of a &#123;&#123; MAIN SUBJECT &#125;&#125;, &#123;&#123; STYLE CUES &#125;&#125;”.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “A photograph of a robot, cartoon style”
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - A basic prompt with style cues.",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - A basic prompt with style cues."
 />
 
 
 You can add more even more detail to make a descriptive prompt by following this template:
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **&#123;&#123; ADJECTIVE &#125;&#125;, &#123;&#123; EMOTION &#125;&#125;, &#123;&#123; SUBJECT &#125;&#125;, &#123;&#123; STYLE &#125;&#125;, &#123;&#123; COLOR &#125;&#125;**
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - Use this prompt template!",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - Use this prompt template!"
 />
 
 
@@ -106,57 +94,34 @@ You can add more even more detail to make a descriptive prompt by following this
 Prompts that are too short do not give the AI enough information to create an image matching your idea. It is a good idea to be detailed with your prompts, but too much detail is equally likely to give the AI too many instructions, which "confuses" it and can reduce the acurracy.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A landscape"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - A vague prompt like this gives an ambiguous image",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - A vague prompt like this gives an ambiguous image**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A snowy mountain landscape at sunset with warm hues in the style of a photograph"
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - A detailed and concise description, but not too long. This will provide the AI with specific elements to incorporate, resulting in an accurate image.",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - A detailed and concise description, but not too long. This will provide the AI with specific elements to incorporate, resulting in an accurate image.**  
 
 
-
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "A snowy mountain landscape at sunset... Majestic peaks rise high into the sky, their rugged outlines etched against the fading golden light. Adorned with a pristine layer of glistening snow, they stand as silent sentinels, towering over the vast expanse below. The snow-covered slopes cascade down in gentle curves, inviting adventurers and nature lovers alike. In the foreground, a small creek meanders through the snow-covered landscape, flowing steadily beneath a delicate layer of ice. Over the creek, a footbridge stretches, connecting the two banks. Two travelers cross the bridge, their footprints leaving a mark on the pristine snow. The frozen trees, adorned with icicles, stand like witnesses to the passage of time."
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This prompt is too long. It will probably just look like the one above!",
-  shouldDisplay: true
-} } />
+**❌ Figure: Bad example - This prompt is too long. It will probably just look like the one above!**

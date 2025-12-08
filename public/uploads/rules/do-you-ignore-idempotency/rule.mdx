@@ -29,7 +29,7 @@ E.g. If this table exists, then don't create the table.
 
 Seems popular, seems like a good idea, right? Wrong! And here is why.
 
-<endOfIntro />
+<endIntro />
 
 Database scripts should be run in order (into separate sequential files), as per the rule [Do you script out all changes?](/script-out-all-changes)
 
@@ -46,35 +46,22 @@ IF EXISTS (SELECT 1 FROM
 ELSE
     CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created**  
 
 ```sql
 CREATE TABLE [dbo].[Employees](
     ……
 ) ON [PRIMARY]
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read",
-  shouldDisplay: true
-} } />
-
+**✅ Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read**  
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Viagra isn't the cure to your Idempotency problems",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Viagra isn't the cure to your Idempotency problems"
   src="/uploads/rules/do-you-ignore-idempotency/ViagraPill.jpg"
 />
 

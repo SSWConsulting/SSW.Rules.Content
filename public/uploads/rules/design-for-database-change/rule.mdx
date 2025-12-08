@@ -24,7 +24,7 @@ uri: design-for-database-change
 
 Many developers are frightened of making a change to the existing database because they just don't know what applications are using it. This is especially a problem when you are dealing with databases that you did not create. Here are some approaches to this issue:
 
-<endOfIntro />
+<endIntro />
 
 1. You could run around the office and find some one and hope they know (unbelievably this seems this the most common method!)
 2. Trawl through source control, all network locations and all the source code around to check what connection strings are being used
@@ -35,11 +35,8 @@ Many developers are frightened of making a change to the existing database becau
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Add a zsApplication table to make applications that use it visible to all developers",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Add a zsApplication table to make applications that use it visible to all developers"
   src="/uploads/rules/design-for-database-change/SQLDatabases_zsApplication.png"
 />
 
@@ -51,10 +48,7 @@ Many developers are frightened of making a change to the existing database becau
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "SQL Profiler can help you design for change with auditing of Login events by giving you a guide on what applications are connecting to your database",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="SQL Profiler can help you design for change with auditing of Login events by giving you a guide on what applications are connecting to your database"
   src="/uploads/rules/design-for-database-change/2020-01-09_18-55-46.png"
 />

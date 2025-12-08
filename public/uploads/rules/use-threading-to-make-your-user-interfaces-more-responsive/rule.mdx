@@ -10,9 +10,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2024-03-25T20:28:59.000Z
 guid: e32158bf-07a5-4039-bf77-13ff9983545b
-lastUpdated: 2024-03-25T20:28:59.000Z
-lastUpdatedBy: Igor Goldobin
-lastUpdatedByEmail: igor.goldobin@gmail.com
+lastUpdated: 2025-10-16T06:54:07.000Z
+lastUpdatedBy: Hugo Pernet [SSW]
+lastUpdatedByEmail: hugo.pernet@esial.net
 createdBy: Igor Goldobin
 createdByEmail: igor.goldobin@gmail.com
 isArchived: false
@@ -20,17 +20,14 @@ isArchived: false
 
 Threading is not only used to allow a server to process multiple client requests - it could make your user interfaces responsive when your application is performing a long-running process, allowing the user to keep interactive.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Unresponsive UI because no threading code",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Unresponsive UI because no threading code"
   src="/uploads/rules/use-threading-to-make-your-user-interfaces-more-responsive/nothreading.gif"
 />
 
@@ -48,11 +45,8 @@ private void Form1_Load(object sender, EventArgs e)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Responsive UI in progress",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Responsive UI in progress"
   src="/uploads/rules/use-threading-to-make-your-user-interfaces-more-responsive/threadingstart.gif"
 />
 
@@ -61,11 +55,8 @@ private void Form1_Load(object sender, EventArgs e)
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Responsive UI completed",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Responsive UI completed"
   src="/uploads/rules/use-threading-to-make-your-user-interfaces-more-responsive/threadingend.gif"
 />
 

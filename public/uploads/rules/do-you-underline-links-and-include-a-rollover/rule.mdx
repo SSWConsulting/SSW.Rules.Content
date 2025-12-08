@@ -26,29 +26,21 @@ uri: do-you-underline-links-and-include-a-rollover
 
 Always make links perfectly clear.
 
-<endOfIntro />
+<endIntro />
 
 It's very important that your links stand out from the background as well as the surrounding text. A solid underline and a contrasting color is the usually the best choice, but the exact method is not important as long as the end result stands out. A link should not only be discoverable upon accidental hovering.
 
 Rollovers are important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; you can't go wrong with an underline or border-bottom.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     For more information on this, please [go to SSW website](https://www.ssw.com.au/).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="good"
+  figure="Good Example: Obvious rollover. You can test it by hovering the links on the example above"
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example: Obvious rollover. You can test it by hovering the links on the example above",
-  shouldDisplay: true
-} } />
 
 
 Example CSS for rollover:

@@ -27,7 +27,7 @@ uri: demo-slides
 
 By placing a little visual cue on your slide, you can remind yourself to show a demo to the audience. Avoid displaying the word 'demo', because when out of time, presenters say _"Sorry, let's skip that demo since I am short of time"_ and leave the audience frustrated.
 
-<endOfIntro />
+<endIntro />
 
 The icon allows you to skip it when running short on time, without upsetting the audience.
 
@@ -35,11 +35,8 @@ The icon allows you to skip it when running short on time, without upsetting the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Demo text shown in a slide",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Demo text shown in a slide"
   src="/uploads/rules/demo-slides/demobad.jpg"
 />
 
@@ -48,11 +45,8 @@ The icon allows you to skip it when running short on time, without upsetting the
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Use a subtle icon to indicate a \"demo time\"",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure='Good example - Use a subtle icon to indicate a \"demo time\"'
   src="/uploads/rules/demo-slides/demogood.jpg"
 />
 

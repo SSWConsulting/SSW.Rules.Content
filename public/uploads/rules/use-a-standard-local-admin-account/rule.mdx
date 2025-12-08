@@ -24,23 +24,20 @@ uri: use-a-standard-local-admin-account
 
 Having a local admin account that is not the built-in admin account Windows creates at first is an important way to get access back to your system if any troubles arise.
 
-<endOfIntro />
+<endIntro />
 
 When first setting up, Windows creates a local administrator account that can change everything in the system – this account cannot be deleted, just disabled. It is good practice to disable this account and create a new one, following your own company password and naming standard, that is also a local administrator on the PC.
 
 It is also good practice to use a script (or Group Policy) to set that admin account, fewer errors than doing it manually.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Have a look at SSW SysAdmins' script for that: https://github.com/SSWConsulting/SSWSysAdmins.LocalAdminAccount
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

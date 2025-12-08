@@ -27,26 +27,16 @@ TimeSpan.Parse() constructs a Timespan from a time indicated by a specified stri
 
 This pre-parsing is done by the FormatTimeSpanString( ) function. This function will format the input string correctly. Therefore, a time string of value "45:30" will be converted to "1.21:30" (meaning 1 day, 21 hours and 30 minutes). This format is perfectly acceptable for TimeSpan.Parse() function and it will not crash.
 
-<endOfIntro />
+<endIntro />
 
 ```csharp
 ts = TimeSpan.Parse(cboMyComboBox.Text)
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - A value greater than 24hours will crash eg. 45:30",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - A value greater than 24hours will crash eg. 45:30**  
 
 ```csharp
 ts = TimeSpan.Parse(FormatTimeSpanString(cboMyComboBox.Text))
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - Using a wrapper method to pre-parse the string containing the TimeSpan value.",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - Using a wrapper method to pre-parse the string containing the TimeSpan value.**  
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#TimeSpan) to check for this rule.

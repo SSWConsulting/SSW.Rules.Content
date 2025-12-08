@@ -26,60 +26,40 @@ uri: do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Can you tell what is wrong with this Picture?",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Can you tell what is wrong with this Picture?"
   src="/uploads/rules/do-you-know-that-popup-modal-forms-should-never-have-showintaskbar-true/ShowInTaskBar.jpg"
 />
 
 
-<endOfIntro />
+<endIntro />
 
 **Answer:** The 2 SSW SQL Auditor windows are bad, because one is just a modal form.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Code",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Code**  
 
 If your form is designed to be used modally (and thus be called using ShowDialog) then ShowInTaskbar should be set to false in the form designer.
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad Code (because this should be set in the form designer)",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad Code (because this should be set in the form designer)**  
 
 ```vbnet
 Dim frm as new frmCustomer frm.ShowDialog
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)**

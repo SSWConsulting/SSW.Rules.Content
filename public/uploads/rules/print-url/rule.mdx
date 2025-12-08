@@ -26,7 +26,7 @@ uri: print-url
 
 We have a rule on [using relevant words on links](/relevant-words-on-links). How to make sure people will know which words are links and what the links are after printing a page?
 
-<endOfIntro />
+<endIntro />
 
 As a good practice, you should use CSS to print the URL's next to each link when printing:
 
@@ -51,10 +51,7 @@ In specific cases, like on breadcrumbs and logo, you don't want these URL's, so 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs"
   src="/uploads/rules/print-url/print-url.jpg"
 />

@@ -23,7 +23,7 @@ uri: restrict-repository-deletion
 
 When deleting GitHub repositories, it can be hard to tell if you are on a fork or the base repository as the interface is very similar. This can lead to accidental deletions of base repositories.
 
-<endOfIntro />
+<endIntro />
 
 To avoid this, the organisation owners should be the only members allowed to delete repositories. Follow these instructions:
 
@@ -39,10 +39,7 @@ This will ensure that even Admin users cannot accidentally delete or transfer re
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "'Allow members to delete or transfer repositories for this organization' is disabled",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="'Allow members to delete or transfer repositories for this organization' is disabled"
   src="/uploads/rules/restrict-repository-deletion/dontAllowDeletion.png"
 />

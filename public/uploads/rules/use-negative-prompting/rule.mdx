@@ -31,7 +31,7 @@ uri: use-negative-prompting
 
 Sometimes you might be trying to create a specific type of image, and the AI keeps including pieces that you don't want. A straightforward way to get around this problem is by including what you DON'T want in your prompt.
 
-<endOfIntro />
+<endIntro />
 
 ## What is negative prompting?
 
@@ -40,40 +40,25 @@ Negative prompting is specifying what you don't want in your image. It guides th
 Imagine you are using Midjourney to generate a photo of an emplty highway in the mountains.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “A highway in the mountains”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - When you use this prompt, Midjourney keeps putting cars on the highway!",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - When you use this prompt, Midjourney keeps putting cars on the highway!**  
 
 This is when it can be helpful to include a negative prompt. In Midjourney, this is done by using two dashes. (see [Midjourney parameter list](https://docs.midjourney.com/docs/parameter-list))
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     “A highway in the mountains --no cars”
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - The prompt with '--no cars' is more likely to eliminate cars in the picture.",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example - The prompt with '--no cars' is more likely to eliminate cars in the picture.**

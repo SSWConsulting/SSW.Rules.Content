@@ -28,18 +28,15 @@ This is a classic illustration of [the law of the instrument or Maslow's hammer]
 
 While automated UI testing has its place in an overall test strategy (involving both humans and automation), you need to exercise care about how much of your testing is performed at this level.
 
-<endOfIntro />
+<endIntro />
 
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Remember that sometimes you need a drill, not a hammer",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Remember that sometimes you need a drill, not a hammer"
   src="/uploads/rules/automated-ui-testing-sparingly/hammer-not-drill.jpg"
 />
 
@@ -51,11 +48,8 @@ It's worth looking at Mike Cohn's automated test pyramid:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Mike Cohn's automated test pyramid (2009)",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Mike Cohn's automated test pyramid (2009)"
   src="/uploads/rules/automated-ui-testing-sparingly/test-pyramid-cohn_1710232021929.jpg"
 />
 
@@ -75,16 +69,13 @@ The topmost layer of the pyramid is deliberately small and represents the relati
 ❌ **Hard to test business logic** - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.
 
 You can read more about best practices for automated UI testing at [Do you do automated UI testing?](/automated-ui-testing)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

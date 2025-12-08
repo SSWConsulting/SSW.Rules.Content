@@ -29,7 +29,7 @@ A good catch and re-throw will make life easier while debugging, a bad catch and
 
 Catch and rethrow where you can usefully add more information that would save a developer having to work through all the layers to understand the problem.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 catch {}
@@ -40,24 +40,14 @@ catch { throw; }
 
 catch (SomeException) { throw; }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Never use an empty catch block. Do something in the block or remove it.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example - Never use an empty catch block. Do something in the block or remove it.**  
 
 ```cs
 catch (SomeException ex) { throw ex; }
 
 catch (SomeException ex) { someMethod(); throw ex; }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.",
-  shouldDisplay: true
-} } />
-
+**❌ Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.**  
 
 Using `throw ex` resets the stack trace, obscuring the original the error and may hide highly valuable information to debug this exception.
 
@@ -68,12 +58,7 @@ catch (SomeException)
      throw;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - Calling throw",
-  shouldDisplay: true
-} } />
-
+**✅ Good Example - Calling throw**  
 
 If you are following the [Clean Architecture](https://github.com/jasontaylordev/CleanArchitecture) pattern - catching and rethrowing is useful for preventing your Infrastructure details from leaking into your Application e.g. we use a SQL server
 
@@ -83,8 +68,4 @@ catch (SqlException ex) when (ex.Number == 2601)
      throw new IdAlreadyTakenException(ex);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good Example - By rethrowing a specific exception, my application code now doesn't need to know that there is a SQL database or the magic numbers that SQL exceptions use",
-  shouldDisplay: true
-} } />
+**✅ Good Example - By rethrowing a specific exception, my application code now doesn't need to know that there is a SQL database or the magic numbers that SQL exceptions use**

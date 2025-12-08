@@ -36,7 +36,7 @@ uri: optimize-videos-for-youtube
 
 Having great content is important, but it’s not all. You must also consider writing a good title, description, and add relevant tags (not too many).
 
-<endOfIntro />
+<endIntro />
 
 ### 1. Write titles designed to maximize CTR (Click-Through Rate)
 
@@ -54,43 +54,34 @@ Try to stick to 55-60 characters for your title.
 Consider writing between 100 and 200 words. Explain what the video is about but don’t give all the details. People still need to see your video after reading the description. If you would like to insert external links (leading to a landing page, social media, etc), do not insert them at the beginning.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** When adding links to your video description, copy the **full URL** you want to link to, and then paste it into the YouTube video description box. You should include the "https://" so the links are clickable.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 Remember the first few words of your description also appear in Google results so don’t waste them: write about the main topic of your video. Add external links at the bottom of your description otherwise, you might look like a bit “clickbait”. Moreover, you want viewers to stay on YouTube and not leave to an external website (your video should make people stay on YouTube, ideally on your channel/watching your videos).
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** YouTube is strict on clickbait titles. If people click on your video but don’t watch it, they will bury it.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Short descriptions are not SEO-optimized",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Short descriptions are not SEO-optimized"
   src="/uploads/rules/optimize-videos-for-youtube/description_bad.png"
 />
 
@@ -99,11 +90,8 @@ Remember the first few words of your description also appear in Google results s
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Treat your video description as a blog post and give info but keep the details for your video!",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Treat your video description as a blog post and give info but keep the details for your video!"
   src="/uploads/rules/optimize-videos-for-youtube/description_good.png"
 />
 

@@ -25,15 +25,36 @@ uri: fetch-data-react
 
 While using a regular `useEffect` to run when a component is loaded to fetch data is super easy, it may result in unnecesary duplicate requests for data or unexpected errors when unmounting components. It is best to use a library that can provide hooks for fetching data, as not only does it solve the above issues, but also comes with useful features such as caching, background updates, and pre-fetching.
 
-<endOfIntro />
+<endIntro />
 
 Below is an example of a standard data fetch in React:
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "```tsx\n\nconst Component = () => {\n  const [data, setData] = useState({});\n  const [loading, setLoading] = useState(true);\n\n  useEffect(() => {\n    fetch(\"https://jsonplaceholder.typicode.com/todos/1\")\n      .then(res => res.json())\n      .then(json => {\n        setData(json);\n        setLoading(false);\n      })\n  }, [])\n\n  return (\n    {loading\n      ? <> {/* Display data here */} </>\n      : <p>Loading...</p>\n    }\n  )\n}\n\n\n```\n\n**Figure: The traditional way of fetching data in React**",
-  shouldDisplay: true
-} } />
+**❌ ```tsx
 
+const Component = () => {
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then(res => res.json())
+      .then(json => {
+        setData(json);
+        setLoading(false);
+      })
+  }, [])
+
+  return (
+    {loading
+      ? <> {/* Display data here */} </>
+      : <p>Loading...</p>
+    }
+  )
+}
+
+
+```
+
+**Figure: The traditional way of fetching data in React****  
 
 This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unnecessary request made instead of pulling the data from a cache.
 

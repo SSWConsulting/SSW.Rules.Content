@@ -23,38 +23,32 @@ uri: do-you-use-subdomains-instead-of-virtual-directories
 
 Using subdomains over directories has 2 main benefits:
 
-<endOfIntro />
+<endIntro />
 
 1. it is easier to host different sections of your website on different platforms, and
 2. in different geographic locations
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 - myservice&#46;com/**ssw**/
 - myservice&#46;com/**northwind** /
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad Example - Virtual directories used to distinguish organizations",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad Example - Virtual directories used to distinguish organizations"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     
 - **ssw**&#46;myservice.com/
 - **northwind**&#46;myservice.com/
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good Example - Subdomains used to distinguish organizations",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good Example - Subdomains used to distinguish organizations"
 />

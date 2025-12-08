@@ -28,7 +28,7 @@ GPT is an awesome product that can do a lot out-of-the-box. However, sometimes t
 
 In that case, you need to provide the model with more training data, which can be done in a couple of ways.
 
-<endOfIntro />
+<endIntro />
 
 Usually, for common scenarios GPT will already be adequate, but for more complex or highly specific use cases it will not have the required training to output what you need.
 
@@ -61,11 +61,8 @@ For example, if you want to build an app that outputs SSW rules based on a title
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - The untrained GPT model doesn't know what format to create a rule in",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - The untrained GPT model doesn't know what format to create a rule in"
   src="/uploads/rules/train-gpt/untrainedgpt3badexample.png.png"
 />
 
@@ -74,11 +71,8 @@ For example, if you want to build an app that outputs SSW rules based on a title
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - The trained GPT model knows how to format the rule, and the style rules are written in",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - The trained GPT model knows how to format the rule, and the style rules are written in"
   src="/uploads/rules/train-gpt/trainedgpt3goodexample.png"
 />
 

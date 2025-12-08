@@ -28,7 +28,7 @@ You don't want to see your company's website on the front page of the news after
 
 Load testing helps you to ensure that your apps can scale and stay up when peak traffic hits. Load testing is typically initiated for high-traffic seasonal events such as tax filing season, Black Friday, Christmas, summer sales, etc. but you should be regularly running load testing during development to catch any issues as early as possible.
 
-<endOfIntro />
+<endIntro />
 
 Once you have a website up and running, it is important to make sure that it keeps running under load. Local testing of the website will not always reveal the latent problems in the website when it is subjected to thousands of users.
 
@@ -48,14 +48,11 @@ Load testing tools are designed to help you perform load testing, by recording m
 Visual Studio 2019 Enterprise Edition is the last version of Visual Studio with built-in [load testing functionality](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-create-and-run-a-load-test?view=vs-2022&WT.mc_id=DP-MVP-33518). However, it only supports Internet Explorer so **Visual Studio is not a recommended load testing option** .
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing?WT.mc_id=AZ-MVP-33518) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

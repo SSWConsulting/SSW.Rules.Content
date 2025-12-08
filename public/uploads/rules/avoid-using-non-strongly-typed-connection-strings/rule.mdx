@@ -23,7 +23,7 @@ Using non strongly typed connection strings means that you have to hard code at 
 
 Visual Studio provides a convenient tool, called Application Settings, that allows you to manage all of your connection strings from only one location. You can use its wizard to compose connection strings quickly and correctly. Also, it provides a management class to read and write all of your connection strings.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 var connString = System.Configuration.ConfigurationManager.ConnectionStrings["MyProj.Properties.Settings.ConnectString"].ToString();
@@ -33,21 +33,13 @@ conn.Open();
 cmd.ExecuteNonQuery();
 conn.Close();
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - Using non strongly typed connection strings, the highlighted text is hard code actually",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - Using non strongly typed connection strings, the highlighted text is hard code actually**  
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Using Application Settings to configure connection strings",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Using Application Settings to configure connection strings"
   src="/uploads/rules/avoid-using-non-strongly-typed-connection-strings/conn.gif"
 />

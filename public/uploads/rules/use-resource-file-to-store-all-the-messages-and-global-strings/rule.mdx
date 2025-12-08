@@ -24,7 +24,7 @@ uri: use-resource-file-to-store-all-the-messages-and-global-strings
 
 Storing all the messages and global strings in one place will make it easy to manage them and to keep the applications in the same style.
 
-<endOfIntro />
+<endIntro />
 
 ![Store messages in the Message.resx](/uploads/rules/use-resource-file-to-store-all-the-messages-and-global-strings/Code_StoreMessage.jpg)
 
@@ -34,12 +34,7 @@ Catch(SqlNullValueException sqlex)
 Response.Write("The value cannot be null.");
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - If you want to change the message, it will cost you lots of time to investigate every try-catch block",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - If you want to change the message, it will cost you lots of time to investigate every try-catch block**  
 
 ```cs
 Catch(SqlNullValueException sqlex)
@@ -47,12 +42,7 @@ Catch(SqlNullValueException sqlex)
 Response.Write(GetGlobalResourceObject("Messages", "SqlValueNotNull"));
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "okExample",
-  figure: "OK example - Better than the hard code, but still wordy",
-  shouldDisplay: true
-} } />
-
+**😐 OK example - Better than the hard code, but still wordy**  
 
 ```cs
 Catch(SqlNullValueException sqlex)
@@ -60,8 +50,4 @@ Catch(SqlNullValueException sqlex)
 Response.Write(Resources.Messages.SqlValueNotNull); 'Good Code - storing message in resource file.
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example",
-  shouldDisplay: true
-} } />
+**✅ Good example**

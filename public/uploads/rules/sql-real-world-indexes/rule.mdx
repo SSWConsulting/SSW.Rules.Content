@@ -29,7 +29,7 @@ It's hard to understand what indexes are on SQL Databases. Find out how to visua
 
 Database indexes get their name from book indexes because they work similarly. To grasp how they function, imagine the rows in your table as pages in a book. Then, consider what kind of index in the book would help you quickly find the information you need.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=KkRpgtwBXvI" description={"Video: How to visualize SQL indexes? | Bryden Oliver | SSW Rules (3 min)"} />
@@ -42,11 +42,8 @@ For instance in a recipe book that contains many types of dishes, you might want
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Typical book index",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Typical book index"
   src="/uploads/rules/sql-real-world-indexes/index.png"
 />
 
@@ -56,12 +53,7 @@ SELECT *
 FROM Badges
 WHERE Name = 'John Doe';
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example: Using a table scan - the DB needs to look at every row to find the result",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example: Using a table scan - the DB needs to look at every row to find the result**  
 
 ```sql
 CREATE INDEX IX_Name_Date
@@ -71,12 +63,7 @@ SELECT *
 FROM Badges
 WHERE Name = 'John Doe';
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example: Using an index - DB can quickly find the result",
-  shouldDisplay: true
-} } />
-
+**✅ Good example: Using an index - DB can quickly find the result**  
 
 By using the index, the database can quickly locate the rows where "Name" is 'John Doe' without scanning every row. This approach significantly improves query performance.
 

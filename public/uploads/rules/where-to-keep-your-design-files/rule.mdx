@@ -32,17 +32,14 @@ uri: where-to-keep-your-design-files
 
 Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example – Azure DevOps (was VSTS/TFS) takes too long to set up and too slow to use",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example – Azure DevOps (was VSTS/TFS) takes too long to set up and too slow to use"
   src="/uploads/rules/where-to-keep-your-design-files/Designer-Source-Control-TFS.png"
 />
 
@@ -51,11 +48,8 @@ Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example – Dropbox or OneDrive",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example – Dropbox or OneDrive"
   src="/uploads/rules/where-to-keep-your-design-files/Designer-Source-Control-DropBox.png"
 />
 
@@ -64,26 +58,20 @@ Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good Example – OneDrive and Teams",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good Example – OneDrive and Teams"
   src="/uploads/rules/where-to-keep-your-design-files/Teamsfiles.png"
 />
 
 
 
-<asideEmbed
-  variant="china"
+<boxEmbed
+  style="china"
   body={<>
     Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

@@ -20,7 +20,7 @@ isArchived: false
 
 Testing and iterating on your prompts is essential for achieving better results with ChatGPT. By evaluating the responses you receive and refining your prompts accordingly, you can fine-tune your questions and requests to elicit more accurate and useful answers.
 
-<endOfIntro />
+<endIntro />
 
 Here are some tips for testing and iterating on your prompts:
 
@@ -30,30 +30,24 @@ Here are some tips for testing and iterating on your prompts:
 - Don't be afraid to try multiple iterations to achieve the desired outcome
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Tell me about the thing with the apple falling and the guy who discovered something important."
   </>}
-  figureEmbed={{
-    preset: "badExample",
-    figure: "Bad example - You might start with a prompt like this, get sub-optimal output, and then...",
-    shouldDisplay: true
-  }}
+  figurePrefix="bad"
+  figure="Bad example - You might start with a prompt like this, get sub-optimal output, and then..."
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     "Can you explain the story of Isaac Newton and the falling apple, and how it led to his discovery of the law of universal gravitation?"
   </>}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: "Good example - The prompt has been iterated to be more specific and clear",
-    shouldDisplay: true
-  }}
+  figurePrefix="good"
+  figure="Good example - The prompt has been iterated to be more specific and clear"
 />
 
 
@@ -62,11 +56,8 @@ Here are some tips for testing and iterating on your prompts:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Click this button to edit any prompt you've already submitted",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Click this button to edit any prompt you've already submitted"
   src="/uploads/rules/test-prompts-then-iterate/edit-prompt.png"
 />
 
@@ -76,11 +67,8 @@ Here are some tips for testing and iterating on your prompts:
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "You can still go back to look at previous versions of the prompt and response",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="You can still go back to look at previous versions of the prompt and response"
   src="/uploads/rules/test-prompts-then-iterate/post-edit-prompt.png"
 />
 

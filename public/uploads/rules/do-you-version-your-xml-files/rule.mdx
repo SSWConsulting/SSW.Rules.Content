@@ -28,7 +28,7 @@ It is good to store program settings in an .xml file. But developers rarely worr
 
 What is wrong with this?
 
-<endOfIntro />
+<endIntro />
 
 ```xml
 <?xml version="1.0" standalone="yes"?>
@@ -81,12 +81,7 @@ What is wrong with this?
     </Table1>
 </NewDataSet>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Bad example - XML file without version control",
-  shouldDisplay: true
-} } />
-
+**❌ Bad example - XML file without version control**  
 
 ```xml
 <?xml version="1.0" standalone="yes"?>
@@ -141,12 +136,7 @@ What is wrong with this?
     </Table1>
 </NewDataSet>
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Good example - XML file with version control",
-  shouldDisplay: true
-} } />
-
+**✅ Good example - XML file with version control**  
 
 The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.
 
@@ -207,14 +197,11 @@ End Function
 **Figure: Code to illustrate how to check if the xml file is valid**
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />

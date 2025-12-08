@@ -23,17 +23,14 @@ uri: linkedin-connect-your-microsoft-account
 
 Outlook (and other Microsoft 365 apps) has a great feature that shows users' LinkedIn profiles - but only if the user has connected their Microsoft account to LinkedIn.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - LinkedIn profile is not connected to a Microsoft account",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - LinkedIn profile is not connected to a Microsoft account"
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-bad.png"
 />
 
@@ -42,11 +39,8 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - LinkedIn profile is connected to a Microsoft account",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - LinkedIn profile is connected to a Microsoft account"
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-good.png"
 />
 
@@ -60,11 +54,8 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Click the blue LinkedIn logo",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Click the blue LinkedIn logo"
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-hover.png"
 />
 
@@ -76,26 +67,20 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Sign in to LinkedIn",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Sign in to LinkedIn"
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-signin.png"
 />
 
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -109,11 +94,8 @@ You can also check this within LinkedIn. Go to **LinkedIn | Settings | Account P
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Microsoft account connected",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Microsoft account connected"
   src="/uploads/rules/linkedin-connect-your-microsoft-account/linkedin-linked.png"
 />
 

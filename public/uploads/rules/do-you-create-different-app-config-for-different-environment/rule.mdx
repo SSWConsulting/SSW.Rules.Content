@@ -24,17 +24,14 @@ uri: do-you-create-different-app-config-for-different-environment
 Every application has different settings depending on the environment it is running on, e.g. production, testing or development environment.
 It is much easier and efficient if app.config is provided in several environment types, so then the developer can just copy and paste the required app.config.
 
-<endOfIntro />
+<endIntro />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad Example - Only 1 App.config provided",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad Example - Only 1 App.config provided"
   src="/uploads/rules/do-you-create-different-app-config-for-different-environment/AppConfigBad.jpg"
 />
 
@@ -43,10 +40,7 @@ It is much easier and efficient if app.config is provided in several environment
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Figure : Good Example - Several App.config are provided",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Figure : Good Example - Several App.config are provided"
   src="/uploads/rules/do-you-create-different-app-config-for-different-environment/App.config.jpg"
 />

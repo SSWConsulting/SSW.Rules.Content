@@ -23,7 +23,7 @@ uri: do-you-return-a-resource-url
 
 When the Web API creates a resource, it should include the URI of the new resource in the Location header of the response.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 public Product PostProduct(Product item)
@@ -32,12 +32,7 @@ public Product PostProduct(Product item)
  return item;
  }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example – The response does not contain a reference to the location of the new resource",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example – The response does not contain a reference to the location of the new resource**  
 
 ```cs
 public HttpResponseMessage PostProduct(Product item)
@@ -58,8 +53,4 @@ public HttpResponseMessage PostProduct(Product item)
 
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example – The response message contains a link in the header to the created resource (plus the “Created” status code is returned)",
-  shouldDisplay: true
-} } />
+**✅ Figure: Good example – The response message contains a link in the header to the created resource (plus the “Created” status code is returned)**

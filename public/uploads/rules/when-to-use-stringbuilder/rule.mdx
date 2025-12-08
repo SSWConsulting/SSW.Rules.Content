@@ -26,7 +26,7 @@ A String object is immutable - this means if you append two Strings together, th
 
 Using StringBuilder to append Strings modifies the underlying Char array rather than creating a new String. Therefore, whenever you are performing multiple String appends or similar functions, you should always use a StringBuilder to improve performance.
 
-<endOfIntro />
+<endIntro />
 
 ```cs
 String s = "";
@@ -35,12 +35,7 @@ for (int i = 0; i < 1000; i ++) {
   s += i;
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "badExample",
-  figure: "Figure: Bad example - This inefficient code results in 1000 new String objects being created unnecessarily",
-  shouldDisplay: true
-} } />
-
+**❌ Figure: Bad example - This inefficient code results in 1000 new String objects being created unnecessarily**  
 
 ```cs
 StringBuilder sb = new StringBuilder();
@@ -49,11 +44,6 @@ for (int i = 0; i < 1000; i ++) {
   sb.append(i);
 }
 ```
-<figureEmbed figureEmbed={ {
-  preset: "goodExample",
-  figure: "Figure: Good example - This efficient code only uses one StringBuilder object",
-  shouldDisplay: true
-} } />
-
+**✅ Figure: Good example - This efficient code only uses one StringBuilder object**  
 
 See [StringBuilder Class](https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-7.0&WT.mc_id=DT-MVP-33518) for more details.

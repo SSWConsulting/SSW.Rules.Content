@@ -25,7 +25,7 @@ uri: clean-failed-requests
 
 [Application Insights](/why-you-want-to-use-application-insights) provide crucial insights into the health and performance of the application. **Failed Requests** allow the DevOps specialists to identify the specific errors and exceptions occurring in the application. However, keeping Failed Requests clean is crucial to troubleshoot and pinpoint the root causes of the problems efficiently. A cluttered failed requests list filled with irrelevant entries can make it difficult to identify the critical issues that require immediate attention.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://youtu.be/ealr-_vrX3o" description={"Video: Do you keep Failed Requests clean? (5 min)"} />
@@ -48,43 +48,34 @@ When cleaning up Failed Requests, it is important to identify the patterns betwe
    Examples: 404 responses from missing images, 400 responses from API.
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Not everything you encounter can be matched to a pattern or fixed straight away.
 
 If that is the case, continue to other requests. As the logs become cleaner, it will get easier to understand the problems with the left-over requests.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** Splitting the chart based on response codes may make patterns clearer. For instance, 500 responses will almost always be fixable bugs worth investigating.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Default Chart - at least half of requests are irrelevant or spam",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Default Chart - at least half of requests are irrelevant or spam"
   src="/uploads/rules/clean-failed-requests/bad-example-chart.png"
 />
 
@@ -93,11 +84,8 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Custom Chart - most of these are real issues",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Custom Chart - most of these are real issues"
   src="/uploads/rules/clean-failed-requests/good-example-chart.png"
 />
 
@@ -106,11 +94,8 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Split Chart - the fixable 500 responses can be seen in purple",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Split Chart - the fixable 500 responses can be seen in purple"
   src="/uploads/rules/clean-failed-requests/good-example-split-chart.png"
 />
 
@@ -119,11 +104,8 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "badExample",
-    figure: "Bad example - Default Table - 5 out of top 8 failed requests are irrelevant or spam",
-    shouldDisplay: true
-  } }
+  figurePrefix="bad"
+  figure="Bad example - Default Table - 5 out of top 8 failed requests are irrelevant or spam"
   src="/uploads/rules/clean-failed-requests/bad-example-table.png"
 />
 
@@ -132,11 +114,8 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "goodExample",
-    figure: "Good example - Custom Table - all the top failed requests are real issues",
-    shouldDisplay: true
-  } }
+  figurePrefix="good"
+  figure="Good example - Custom Table - all the top failed requests are real issues"
   src="/uploads/rules/clean-failed-requests/good-example-table.png"
 />
 
@@ -152,8 +131,8 @@ You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azur
 **Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/?WT.mc_id=AZ-MVP-33518), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Tip:** You do not need to write your query from scratch!
 
@@ -165,11 +144,8 @@ This will provide you with the default query, that you can customize and test in
 
 ![Figure: Save Azure Logs Query in Workbooks - Pin to | Send to workbook](/uploads/rules/clean-failed-requests/send-to-workbook.png)
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 

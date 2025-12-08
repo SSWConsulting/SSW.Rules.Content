@@ -32,7 +32,7 @@ Cascading referential integrity constraints allow you to define the actions SQL 
 
 NO ACTION is the default if ON DELETE or ON UPDATE is not specified.
 
-<endOfIntro />
+<endIntro />
 
 Relationships should always have referential integrity turned on. If you turned it on after data has been added, you may have data in your database that violates your referential integrity rules.
 
@@ -41,10 +41,7 @@ Relationships should always have referential integrity turned on. If you turned 
   alt="Image"
   size="large"
   showBorder={false}
-  figureEmbed={ {
-    preset: "default",
-    figure: "Recommended referential integrity constraints",
-    shouldDisplay: true
-  } }
+  figurePrefix="none"
+  figure="Recommended referential integrity constraints"
   src="/uploads/rules/turn-on-referential-integrity-in-relationships/ReferentialIntegrityCheck.jpg"
 />

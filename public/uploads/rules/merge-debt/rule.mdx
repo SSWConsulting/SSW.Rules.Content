@@ -18,7 +18,7 @@ createdBy: Gordon Beeming [SSW]
 createdByEmail: gordonbeeming@ssw.com.au
 guid: aa0d5e6d-f08a-43cd-9bee-4f72df367b78
 isArchived: false
-lastUpdated: 2024-10-18 23:29:33+00:00
+lastUpdated: 2025-10-28 23:57:56+00:00
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects: []
@@ -34,7 +34,7 @@ uri: merge-debt
 
 When a pull request is left open for a long time, it becomes stale and accumulates merge debt. The longer it remains open, the more changes occur on the main branch, increasing the work needed to update and merge the PR. This can lead to conflicts, bugs, and unhappy developers.
 
-<endOfIntro />
+<endIntro />
 
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=SJdq7mLGdgA" description={"Video: Merge Debt | Matt Goldman & Luke Cook | Rules (16 min)"} />
@@ -52,30 +52,24 @@ Merge debt can be avoided by:
 If you are in a team (i.e. an internal contributor) it is the PR author's responsibility to get the PR **reviewed** and **merged** ASAP.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** For internal contributors, it's a good idea to have a call with the PR reviewers.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** If are a PR author and you don't have merge permissions, add a comment to the description, so Repo maintainers can action.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
@@ -84,30 +78,24 @@ If you are in a team (i.e. an internal contributor) it is the PR author's respon
 If you are **not** part of the team (i.e. an outside contributor), reviewing and merging the PR is the responsibility of the Repo maintainers. Actioning the feedback is still the responsibility of the PR author.
 
 
-<asideEmbed
-  variant="greybox"
+<boxEmbed
+  style="greybox"
   body={<>
     **Tip:** For outside contributors, it's a good idea to chase the reviewers by reaching out with a comment on GitHub, or through the repo's community (e.g. Discord channels).
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
 
 
 ---
 
 
-<asideEmbed
-  variant="info"
+<boxEmbed
+  style="info"
   body={<>
     **Note:** Remember that before declaring a task 'Done' with a link, your [changes should be live](/include-links-in-emails/#ensure-your-changes-are-live) for verification.
   </>}
-  figureEmbed={{
-    preset: "default",
-    figure: "XXX",
-    shouldDisplay: false
-  }}
+  figurePrefix="none"
+  figure=""
 />
