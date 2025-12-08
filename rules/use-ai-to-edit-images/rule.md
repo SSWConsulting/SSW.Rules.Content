@@ -81,13 +81,13 @@ There’s also a new Draft Mode that generates images around 10x faster and at r
 
 ## OpenAI Images (DALL·E 3 / GPT‑4o Images)
 
-Best known for prompt fidelity, legible typography, and chat‑first iteration in ChatGPT, Open AI images makes AI-generated images really accessible. 
+Best known for prompt fidelity, legible typography, and chat‑first iteration in ChatGPT, Open AI images makes AI-generated images really accessible.
 
 OpenAI's latest model can be used as a 'chat-driven design assistant'. It's intended to create precise, usable images rather than just pretty art.
 
 It’s tightly integrated into ChatGPT, so it remembers your conversation and follows detailed instructions. It is designed to handle text in images properly (great for posters, slides, UI mockups, and social tiles), it supports reference images so you can refine or restyle existing designs, and it’s strong at both photorealistic and illustrated styles, making it ideal for marketing assets, product and UI concepts, diagrams and explainers, and quick visual variations you can iterate on in a few conversational steps.
 
-It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'. 
+It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'.
 
 ![Figure: ✅ Good Example - an example of OpenAI's image generation using the prompt "Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."](dark-mermaids.png "Dark Mermaids ")
 
@@ -132,7 +132,27 @@ New elements don’t share the same light source, shadow direction, or color tem
 
 ✅ **The fix:** Include "soft shadow matching light direction" and "keep global color balance."
 
-More to read:
+---
 
-If you would like more information on AI image Generators, check out Adam Cogan's blog post:\
-<https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/>
+If you would like more information on AI image generators, check out Adam Cogan’s blog post:
+
+* [My Top 3 AI Image Generators – Adam Cogan](https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/)
+
+---
+
+::: greybox
+
+## SSW’s AI Shorts
+
+Want to see what SSW thinks about the latest Generative AI tools?  
+Our SSWTV team has been exploring how AI is changing design workflows, boosting productivity, and raising the quality bar for everyone creating graphics today.
+
+### Nano Banana Pro
+
+`youtube: https://www.youtube.com/embed/rdnwqBMpiCY`  
+**Video: The AI powerhouse lifting the quality bar for all graphics… Nano Banana Pro (2 min)**
+
+* [Watch on YouTube](https://youtube.com/shorts/rdnwqBMpiCY?si=xpkBV9WK_4isnxfd)
+* [Explore more of our AI Shorts on SSWTV](https://www.youtube.com/@SSWTV/shorts)
+
+:::
