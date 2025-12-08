@@ -44,7 +44,8 @@ A developer updates a feature and needs new status labels. They wait for a desig
 > :::
 > ::: bad
 > Figure: Bad example – Throwing the task over the fence
-> :::
+
+:::
 
 ::: greybox
 A developer updates a feature and needs new status labels. Instead of waiting for a designer, they give it their best shot.
@@ -56,6 +57,7 @@ A developer updates a feature and needs new status labels. Instead of waiting fo
 > :::
 > ::: good
 > Figure: Good example – A best-effort recommendation with context
-> :::
+
+:::
 
 By doing the legwork, you only need a quick thumbs up (or tweak) instead of a long back-and-forth. This keeps the team shipping faster and helps you grow new skills along the way.
