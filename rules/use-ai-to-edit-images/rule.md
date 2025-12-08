@@ -96,7 +96,7 @@ It does have its limitations; for example, if you were trying to create a poster
 ::: greybox
 **Prompt example:** *"Tall, vertical gothic-inspired movie poster for a fantasy film set in the Victorian era, featuring three powerful mermaids rising from a dark, stormy ocean near a foggy Victorian harbor. Their long, shimmering mermaid tails are clearly visible beneath Victorian gowns made of black and deep-blue lace and velvet, with corset bodices, high collars, and flowing sleeves that drift as if underwater. Gas lamps, iron railings, and silhouettes of Victorian buildings appear in the background, partially obscured by mist. The lighting is dramatic but not horror: silver moonlight, deep shadows, and glowing teal highlights on the water. Mood is mysterious, elegant, and adventurous. Color palette of deep blues, greens, greys, and inky blacks with silver and teal accents. At the top, the title text in ornate gothic lettering: “Dark Mermaids” and at the bottom a subtle tagline, in smaller elegant serif type. Highly detailed, cinematic, poster art, no studio logos, no extra text."*
 :::
-::: good
+::: good img-medium
 ![Figure: Good example - An example of OpenAI's image generation](dark-mermaids.png "Dark Mermaids ")
 :::
 
@@ -160,7 +160,6 @@ The SSW TV team has been exploring how AI is changing design workflows, boosting
 `youtube: https://www.youtube.com/embed/rdnwqBMpiCY`  
 **Video: The AI powerhouse lifting the quality bar for all graphics... Nano Banana Pro (2 min)**
 
-* [Watch on YouTube](https://youtube.com/shorts/rdnwqBMpiCY?si=xpkBV9WK_4isnxfd)
 * [Explore more of our AI Shorts on SSWTV](https://www.youtube.com/@SSWTV/shorts)
 
 :::
