@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Master essential video editing terminology to improve communication during post-production and ensure clear, concise feedback on your video projects.
 title: Production - Do you know the video editing terms?
 uri: video-editing-terms
 authors:
@@ -252,6 +253,10 @@ Is when a piece of footage is removed to give the effect of jumping forward in t
 
 Some YouTube channels don't use jump cuts, the SSW TV channel is one of them.
 
+::: info
+**Tip:** It is recommended to use a [punch-in](https://www.ssw.com.au/rules/video-editing-terms/#19-cut---punch-in) or a transition to disguise a jump cut.
+:::
+
 ![](Jump-cut-Example.jpeg)
 
 **Video: Jump Cut - [2:13 - 2:59](https://youtu.be/OAH0MoAv2CI?t=133)**
@@ -317,3 +322,4 @@ The video has been approved and the feedback loop is closed. It is the stage of 
 Here is a sample email that you can use to provide feedback to the video editor.
 
 ![Figure: Sample email when sending video feedback including timestamps](sample-feedback-email.jpg)
+

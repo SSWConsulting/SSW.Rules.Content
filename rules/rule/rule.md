@@ -44,7 +44,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ### 1. Headings, paragraphs, and blockquotes
 
-```markdown
+```md
 ## This is a heading 2 
 
 ### This is a heading 3
@@ -564,12 +564,20 @@ Figure: Good example - Nice email template
 
 ### 13. Thematic breaks (horizontal rules)
 
+A thematic break is used to separate sections of content or indicate a shift in topic. In Markdown, it renders as a horizontal line.
+
 #### Code for hr
 
 ```md
 ---
 ```
 
-#### Examples
+#### Example output
+
+Here’s what the --- version looks like in rendered Markdown
 
 ---
+
+#### Conclusion
+
+Markdown and SSW Rule conventions make your content clear, consistent, and easy to read. Use headings, lists, boxes, images, code, and thematic breaks to structure your rules effectively. This guide is your reference to create professional, maintainable documentation every time.

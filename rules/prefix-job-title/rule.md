@@ -37,11 +37,11 @@ On LinkedIn you might put your title in 2 places (bio and job experience) **In b
 
 This is to maintain consistency across the company - the companies with strong branding have [consistency](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Job title missing the company name](job-title-bad.jpg)
 :::
 
-::: good
+::: good img-medium
 ![Figure: Good example - Job title includes the company name and matches other employees](job-title-good.jpg)
 :::
 
@@ -50,7 +50,7 @@ This is to maintain consistency across the company - the companies with strong b
 
 Following the above tweet, you can get a result like this:
 
-::: good
+::: good img-medium
 ![Figure: Good example - See how much branding is on people's GitHub profiles](excel-result.png)
 :::
 

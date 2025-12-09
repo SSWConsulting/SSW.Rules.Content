@@ -8,19 +8,22 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related:
-  - record-a-quick-and-dirty-done-video
+  - done-video
+  - screen-recording-spotlight
 redirects: []
 created: 2024-06-18T01:26:35.000Z
 archivedreason: null
 guid: 522b4653-ef6e-4bb9-9444-f3df01e1cd62
+
 ---
+
 Recording your screen is a great way to demo a change for a client, show how reproduce a bug or sharing something cool you've been working on.
 
 There are many ways to record your screen. Here are some popular options:
 
 <!--endintro-->
 
-### Remote recordings
+## Remote recordings
 
 * [Zoom](https://zoom.us)
 * [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams?WT.mc_id=M365-MVP-33518)
@@ -28,7 +31,7 @@ There are many ways to record your screen. Here are some popular options:
   * Perfect if you are alreay on a call [see](/record-teams-meetings)
 * [StreamYard](https://streamyard.com) (advanced - good for live streaming)
 
-### Simple recordings
+## Simple recordings
 
 * [Loom](https://www.loom.com) (only 25 videos free)
 * [Snagit](https://www.techsmith.com/screen-capture.html)
@@ -36,10 +39,10 @@ There are many ways to record your screen. Here are some popular options:
 
   * Direct upload to Clipchamp
 
-### Advanced recordings
+## Advanced recordings
 
 * [OBS](https://obsproject.com/)
-* [Camtasia](https://www.techsmith.com/store/camtasia) (Windows only)
+* [Camtasia](https://www.techsmith.com/store/camtasia)
 
 ::: greybox
 **Tip #1:** If you are recording the steps to reproduce a bug, it might be better to use [Chrome Recorder](https://developer.chrome.com/docs/devtools/recorder) instead.

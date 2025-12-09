@@ -2,7 +2,7 @@
 seoDescription: Break large tasks into smaller ones to stay on track and ensure accurate burndown charts.
 type: rule
 archivedreason:
-title: Estimating - Do you break large tasks into smaller tasks?
+title: Backlog - Do you break large tasks into smaller tasks?
 guid: d1bdc591-10bd-43af-83a7-db403385e9ca
 uri: break-tasks
 created: 2010-04-07T01:52:01.0000000Z

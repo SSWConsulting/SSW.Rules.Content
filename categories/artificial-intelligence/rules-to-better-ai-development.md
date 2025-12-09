@@ -6,7 +6,9 @@ uri: rules-to-better-ai-development
 consulting: https://www.ssw.com.au/consulting/artificial-intelligence
 index:
 - ai-assisted-development-workflow
+- start-vibe-coding-best-practices
 - use-github-copilot-cli-secure-environment
+- ai-assisted-desktop-pr-preview
 - github-copilot-chat-modes
 - create-gpts
 - train-gpt

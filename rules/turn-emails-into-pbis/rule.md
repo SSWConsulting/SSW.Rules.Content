@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Convert emails into Product Backlog Items (PBIs) before starting work to ensure proper tracking, accountability, and workflow management in your development process.
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
 authors:
@@ -105,7 +106,7 @@ Figure: Good example - Has the email header data and @mentions users
 
 ## Existing PBI - Steps to update a PBI according to an email comment
 
-Sometimes you will receive feedback on an existing PBI within an email. It is important to inform the sender and keep them up to date.
+Sometimes you'll receive feedback on an existing PBI in an email or a Word document. Make sure those files are attached to the corresponding PBI, and let the sender know once it's done.
 
 1. Copy the **email header** into to a comment within the PBI, indent it and add the words "Based on email chain:"
 2. If possible, replace the users with @mentions, if you'd like to keep those users informed

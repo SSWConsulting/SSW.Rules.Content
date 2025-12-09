@@ -17,7 +17,7 @@ index:
   - work-in-priority-order
   - how-to-create-a-sprint-backlog
   - build-the-backlog
-  - create-pbis-under-2-days
+  - break-pbis
   - definition-of-done
   - have-a-definition-of-ready
   - include-links-in-dones
@@ -28,7 +28,7 @@ index:
   - technical-overview
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
   - summary-recording-sprint-reviews
-  - sprint-forecast
+  - sprint-forecast-email
   - sprint-review-retro-email
   - meeting-do-you-update-your-tasks-before-the-daily-scrum
   - meeting-do-you-know-what-to-prepare-for-each-meeting

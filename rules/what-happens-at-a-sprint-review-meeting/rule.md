@@ -48,7 +48,7 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing di
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-### Additional stakeholders
+## Additional stakeholders
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
@@ -63,7 +63,8 @@ If there are additional stakeholders, make sure they get called in for the summa
 
 Hey {{ PROJECT NAME }} Stakeholders:
 
-I'm recording the current meeting so I can get the Copilot stats later.
+I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
+I'll stop the recording to do the Retro to give the recording time to save.
 
 I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
 
@@ -85,16 +86,10 @@ Let me know if you want anyone else added.
 :::
 
 ::: good
-Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review
-:::
-
-::: good
-
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
-
 :::
 
-### What if you can't attend the Sprint Review
+## What if you can't attend the Sprint Review
 
 ![Figure: Playing golf](Golf-holiday.png)
 

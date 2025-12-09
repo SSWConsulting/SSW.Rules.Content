@@ -31,22 +31,22 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
-| Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
-| **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |
-| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/?WT.mc_id=M365-MVP-33518)                                     | ...                      |
-| **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
-| **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
-| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
-| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
-| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)       |
-| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)       |
-| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)       |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)  | ![](video-file.png)     |
-| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)    |
-| **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
-| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
-| **Google Maps**                                                           | [This is a Google Map link](https://www.google.com/maps/place/SSW+Sydney+-+Enterprise+Software+Development/@-33.8305685,151.2193249,15z/data=!4m6!3m5!1s0x6b12ae97d5dce3c1:0xae8cb5f05af0e28d!8m2!3d-33.8305685!4d151.2193249!16s%2Fg%2F1tdy4mhr?entry=ttu)                                             | ![](map-icon.png) |
+| Link/file type                                        | Examples                                                                                     |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Regular link**                                      | [This is a normal link](/)                                                                    |
+| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/?WT.mc_id=M365-MVP-33518)               |
+| **YouTube**                                           | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM)             |
+| **Email (mailto:)**                                   | [This link will send an email](mailto:example@mail.com)                                      |
+| **PDF**                                               | [This is a PDF file](Sample-PDF.pdf)                                                         |
+| **DOC**                                               | [This is a Word Document file](Sample-DOC.docx)                                              |
+| **XLS**                                               | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                                         |
+| **PPT**                                               | [This is a PowerPoint file](Sample-PPT.pptx)                                                 |
+| **TXT**                                               | [This is a text file](Sample-TXT.txt)                                                        |
+| **AVI, MOV, MPG, etc.**                               | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)              |
+| **WAV, WMA, MP3, etc.**                               | [This is an audio file](sample-AUDIO.mp3)                                                    |
+| **ICS or VCS**                                        | [This is a calendar file](Sample-ICS.ics)                                                    |
+| **ZIP**                                               | [This is a zip file](Sample-ZIP.zip)                                                         |
+| **Google Maps**                                       | [This is a Google Map link](https://www.google.com/maps/place/SSW+Sydney...)                 |
 
 ::: bad img-small
 ![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)

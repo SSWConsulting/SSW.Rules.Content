@@ -107,7 +107,7 @@ archivedreason: #empty if not archived
 title:  # e.g. "Do you ....?"
 seoDescription:  # A brief description of the rule
 guid:  # Unique identifier for the rule
-uri:  # e.g. "cocona-for-command-line-tools"
+uri:  # e.g. "cocona-for-command-line-tools", try keep this short, ensure there are no conflicts.
 created:  # e.g. 2025-01-03T00:00:00.000Z
 authors: 
   - title:  # e.g. "Brady Stroud"

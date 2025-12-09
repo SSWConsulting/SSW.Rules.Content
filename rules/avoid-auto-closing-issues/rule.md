@@ -6,6 +6,8 @@ uri: avoid-auto-closing-issues
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 created: 2023-07-17T08:40:45.591Z
 guid: 97504e80-fe64-427b-9a66-2b6508689411
 
@@ -15,6 +17,7 @@ GitHub provides a way to link issues to PRs. This is useful to see what PRs are 
 
 This is not a good idea because it can cause Issues to be closed prematurely. This can lead to confusion and lost work.
 
+Luckily, GitHub provides a way to avoid this auto-closing behavior by disabling it in the repository settings.
 <!--endintro-->
 
 Issues should not be closed until all the tasks are complete and have a done comment as per [closing PBIs with context](/close-pbis-with-context/).
@@ -23,7 +26,12 @@ Issues should not be closed until all the tasks are complete and have a done com
 ![Figure: Bad example - Linking Issues to PRs might cause premature closing](bad-link-issues-prs.png)
 :::
 
-**Tip:** Avoid using closing keywords e.g. _"closes #123"_ or _"fixes #123"_ in PR descriptions. This will automatically link the issue to the PR and close it on PR merge.
-Instead, use terms like _"relates to #123"_ or _"addresses #123"_ to link the issue to the PR without closing it.
+### Disabling auto-close at the repository level
 
-This was a feature GitHub added but it is not a good idea to use it, if you agree the behaviour should be changed, [upvote this discussion](https://github.com/orgs/community/discussions/17308).
+If your team prefers to keep the linking functionality but disable the auto-close behavior, repository administrators can now turn this off in the repository settings:
+
+1. Go to **Settings** | **General**
+2. Scroll down to the **Issues** section
+3. Deselect **Auto-close issues with merged linked pull requests**
+
+See [Managing the automatic closing of issues in your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-auto-closing-issues) for more details.

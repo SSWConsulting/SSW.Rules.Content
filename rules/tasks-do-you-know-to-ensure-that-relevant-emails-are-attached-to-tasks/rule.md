@@ -9,7 +9,7 @@ authors:
 related: []
 redirects: []
 created: 2010-04-28T14:41:54.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/turn-emails-into-pbis
 guid: d49fc7ef-dd61-4c72-addc-5ff3c4cb2d70
 ---
 

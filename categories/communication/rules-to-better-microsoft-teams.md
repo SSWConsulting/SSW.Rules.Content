@@ -39,6 +39,7 @@ index:
 - workstations-use-gpu
 - meeting-join-info-at-the-top
 - video-background
+- teams-voice-isolation
 - phone-as-webcam
 - how-to-send-message-to-yourself-on-teams
 - answer-im-questions-in-order

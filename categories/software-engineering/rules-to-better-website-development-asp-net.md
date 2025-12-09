@@ -22,9 +22,6 @@ index:
   - have-a-validation-page-for-your-web-server
   - have-generic-exception-handler-in-your-global-asax
   - keep-your-databinder-eval-clean
-  # TODO - https://github.com/SSWConsulting/SSW.Rules/issues/2037
-  # Commenting this rule as it doesn't exist anymore. We need to fix "redirect" feature first.
-  # - do-you-keep-your-website-loading-time-acceptable
   - how-to-generate-maintenance-pages
   - do-not-use-linkbutton
   - httphandlers-sections-in-webconfig-must-contain-a-clear-element

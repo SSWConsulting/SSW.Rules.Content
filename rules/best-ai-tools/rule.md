@@ -34,7 +34,7 @@ LMArena is a public, web-based platform that evaluates large language models thr
 **Note:** Most of the paid ones have a free trial, though you usually don't get full functionality.
 :::
 
-## Writing/coding
+## Writing/Coding
 
 * ⭐💲 **[ChatGPT](https://chat.openai.com)** - Excellent for generating content, drafting emails, or brainstorming ideas
 * 💲 **[Claude](https://www.claude.ai)** - Specializes in understanding long documents and generating well-structured responses

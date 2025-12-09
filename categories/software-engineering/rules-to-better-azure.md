@@ -17,6 +17,8 @@ index:
 - do-you-consider-azuresearch-for-your-website
 - azure-resources-creating
 - bicep-user-defined-data-types
+- bicep-module-templates
+- do-you-use-azure-migrate-to-move-to-cloud
 - azure-naming-resources
 - azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups
@@ -33,6 +35,7 @@ index:
 - do-you-know-to-pay-for-azure-wordpress-databases
 - do-you-know-when-to-use-geo-redundant-storage
 - do-you-shutdown-vms-when-you-no-longer-need-them
+- use-managed-identity-in-azure
 - use-azure-policies
 - use-azure-machine-learning-to-make-predictions-from-your-data
 - use-azure-notebooks-to-learn-your-data

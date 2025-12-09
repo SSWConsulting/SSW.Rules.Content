@@ -127,7 +127,7 @@ For GitHub, the key aspects of implementing this are:
 * A Lighthouse configuration file (`.lighthouserc.json`) - this will configure what aspects of Lighthouse to report on, and allow for selective auditing
 * A report generator (`generate-lighthouse-report.py`) - this will be a Python script that processes Lighthouse results and generates markdown report to be commented
 
-[Do you compare PR performance with Production before merging?](/rules/compare-pr-performance-with-production/)
+Learn more on [Do you compare PR performance with Production before merging?](/compare-pr-performance-with-production/)
 
 ::: good img-large
 ![Figure: Good example - Lighthouse Audit in GitHub pull-request](/lighthouse-gh-action.png)

@@ -75,7 +75,7 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 **❌ Cons:**
 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
-* **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
+* **Testing**: Staging environments are only available as part of the [enterprise plan](https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations), making it expensive to test changes to your CDN configuration
 
 ---
 
@@ -91,12 +91,12 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 ### Which CDNs work well from China?
 
 1. [cdnjs.cloudflare.com](https://cdnjs.cloudflare.com) (recommended)
-2. <http://www.staticfile.org/>
-3. <http://www.bootcdn.cn/>
+2. <http://www.staticfile.org>
+3. <http://www.bootcdn.cn>
 4. [Baidu AI Cloud | Object Storage (BOS)](https://intl.cloud.baidu.com/en/product/bos.html)
-5. <http://lib.sinaapp.com/>
-6. <http://cdnjs.net/>
-7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
+5. <http://lib.sinaapp.com>
+6. <http://cdnjs.net>
+7. <https://www.cloudflare.com/network/china> (Cloudflare’s China Service)
 8. <https://www.akamai.com>
 
 ::: good

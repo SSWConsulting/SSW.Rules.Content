@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Organize ASP.NET startup logic by using the App_Start folder instead of Global.asax to maintain cleaner code and follow Single Responsibility principles.
 archivedreason: 
 title: Do you use startup tasks in the ~/App_Start folder instead of putting code in Global.asax?
 guid: 627126fc-f401-4f79-875d-8cdc5b80b10b
@@ -33,6 +34,7 @@ public class MvcApplication : System.Web.HttpApplication
         );        }
 }
 ```
+
 ::: bad
 Figure: Bad example – Logic is implemented in the Application\_Start method which breaks the Single Responsibility Principle
 :::

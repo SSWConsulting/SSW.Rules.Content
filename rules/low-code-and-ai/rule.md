@@ -1,8 +1,7 @@
 ---
 type: rule
 title: Do you automate tasks with low-code tools and AI?
-seoDescription: Learn how to use low-code platforms with AI integration to
-  automate repetitive business tasks and save valuable time.
+seoDescription: Learn how to use low-code platforms with AI integration to automate repetitive business tasks and save valuable time.
 uri: low-code-and-ai
 authors:
   - title: Seth Daily
@@ -20,7 +19,7 @@ The goal is to move from humans doing and approving the work, to automation doin
 
 Low-code platforms with built-in or easy AI integration make automation more accessible than ever, even for non-developers. These tools empower staff to create powerful workflows that once required a full-stack developer to implement.
 
-## Benefits
+## ✅ Benefits
 
 Modern businesses run on digital processes. But without automation, these processes can become a drain on resources. By adopting low-code automation platforms, you can:
 
@@ -34,7 +33,7 @@ Modern businesses run on digital processes. But without automation, these proces
 
 1. **Identify** repetitive tasks that consume time
 2. **Choose** the right platform (see below)
-3. **Start simple** by making an [MVP](poc-vs-mvp) e.g. turning a form submission into a Teams message
+3. **Start simple** by making an [MVP](/poc-vs-mvp) e.g. turning a form submission into a Teams message
 4. **Add AI** if needed to generate content, analyze data, etc.
 5. **Test and iterate** once your tool is working
 

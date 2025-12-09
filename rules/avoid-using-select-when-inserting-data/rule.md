@@ -1,5 +1,6 @@
 ---
 type: rule
+seoDescription: Avoid using SELECT * in INSERT statements to prevent stored procedure failures when table structures change and ensure compatibility with identity columns.
 archivedreason: 
 title: Stored Procedures - Do you avoid using SELECT * when inserting data?
 guid: f4a72ca6-08bd-41a0-8138-83ab0adab728
@@ -15,7 +16,6 @@ redirects:
 ---
 
 Using a statement like "INSERT tableName SELECT \* FROM otherTable", makes your stored procedures vulnerable to failure. Once either of the two tables change, your stored procedure won't work. Not only that, when the inserting table has an identity column, such a statement will cause an error - "An explicit value for the identity column in table ParaRight can only be specified when a column list is used and IDENTITY\_INSERT is ON."
-
 
 <!--endintro-->
 

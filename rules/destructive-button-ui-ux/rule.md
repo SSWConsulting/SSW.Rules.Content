@@ -143,22 +143,20 @@ For more guidance on destructive actions in UI design:
 
 Check out how SSW manages UI bugs across our many products and teams using [YakShaver](https://yakshaver.ai/). Smarter workflows. Fewer distractions.
 
-### 1. For YakShaver - UI Bug
+### 1. UI Bug on YakShaver Project
 
 `youtube: https://www.youtube.com/embed/5uij0YJa4I4/`
 **Video: ✨ UI Update - Relocate Delete Project Button (1 min)**
 
-* [Watch on YouTube](https://www.youtube.com/watch?v=5uij0YJa4I4/) (1 min)  
-* [YakShaver UX Issue \#3034](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034)  
+* See [💄 UI/UX - Move "Delete Project" Button to follow destructive actions rule](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034) for details
 
 ---
 
-### 2. For TinaCMS - UI Bug
+### 2. UI Bug on TinaCMS Project
 
 `youtube: https://www.youtube.com/embed/9h0Lp69K3Pk`
 **Video: 🐛 Bug - UI Button Color and Behavior Consistency (1 min)**
 
-* [Watch on YouTube](https://www.youtube.com/watch?v=9h0Lp69K3Pk) (1 min)
-* [TinaCMS UX Issue \#6076](https://github.com/tinacms/tinacms/issues/6076)
+* See [💄 UI/UX - Fix non-destructive buttons colors - Only delete buttons should be red](https://github.com/tinacms/tinacms/issues/6076) for details
 
 :::

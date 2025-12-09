@@ -40,35 +40,31 @@ Some modular monolith solutions have two types of modules:
 * **Web API** modules (external, exposed to the internet via rest APIs)
 * **Service** modules (internal, available via CQRS Mediatr queries and commands)
 
-### Example - Northwind 365 Module Overview
+### Example - Module Overview
 
 ::: greybox
 
-**Northwind 365** is a Modular Monolith Application.  
-Each Module is either a **Service** or **Web Module**.  
-Read more about [Modules](https://github.com/northwind365/Northwind365/blob/main/docs/modular-architecture/modular-architecture.md)
-
 #### Modules
 
-| Module Name           | Type    | Link to Module README                                                          |
-|-----------------------|---------|--------------------------------------------------------------------------------|
-| IdentityAccess        | Web API | [IdentityAccess Module README](./IdentityAccess/README.md)                     |
-| AuditTrail            | Web API | [AuditTrail Module README](./AuditTrail/README.md)                             |
-| TaskRunner            | Service | [TaskRunner Module README](./TaskRunner/README.md)                             |
-| IntegrationBridge     | Service | [IntegrationBridge Module README](./IntegrationBridge/README.md)               |
-| Clients               | Web API | [Clients Module README](./Clients/README.md)                                   |
-| DataSync              | Service | [DataSync Module README](./DataSync/README.md)                                 |
-| Deployments           | Web API | [Deployments Module README](../Deployments/README.md)                          |
-| Diagnostics           | Web API | [Diagnostics Module README](../Diagnostics/README.md)                          |
-| Docs                  | Service | [Docs Module README](./Docs/README.md)                                         |
-| Notifications         | Service | [Notifications Module README](./Notifications/README.md)                       |
-| Storage               | Service | [Storage Module README](./Storage/README.md)                                   |
-| Reviews               | Web API | [Reviews Module README](./Reviews/README.md)                                   |
-| HealthStatus          | Service | [HealthStatus Module README](./HealthStatus/README.md)                         |
-| ReferenceData         | Service | [ReferenceData Module README](./ReferenceData/README.md)                       |
-| Surveys               | Web API | [Surveys Module README](./Surveys/README.md)                                   |
-| LiveUpdates           | Web API | [LiveUpdates Module README](./LiveUpdates/README.md)                           |
-| BusinessProcesses     | Web API | [BusinessProcesses Module README](./BusinessProcesses/README.md)               |
+| Module Name | Type |
+|---|---|
+| IdentityAccess | **Web API** |
+| AuditTrail | **Web API** |
+| TaskRunner | **Service** |
+| IntegrationBridge | **Service** |
+| Clients | **Web API** |
+| DataSync | **Service** |
+| Deployments | **Web API** |
+| Diagnostics | **Web API** |
+| Docs | **Service** |
+| Notifications | **Service** |
+| Storage | **Service** |
+| Reviews | **Web API** |
+| HealthStatus | **Service** |
+| ReferenceData | **Service** |
+| Surveys | **Web API** |
+| LiveUpdates | **Web API** |
+| BusinessProcesses | **Web API** |
 
 :::
 

@@ -9,9 +9,10 @@ authors:
     url: https://www.ssw.com.au/people/marina-gerber
   - title: Anastasia Cogan
     url: https://www.ssw.com.au/people/anastasia-cogan
+related:
+  - watch-do-you-know-what-is-going-on
 created: 2025-10-03T15:23:00.000Z
 guid: 83e6cbf2-7333-453e-931d-a6f8c3562e4f
-
 ---
 
 Tradespeople often carry out important maintenance or repair work in our offices and project sites. If they are left unsupervised, the result can be poor workmanship, incomplete jobs, or changes made without approval. This leads to frustration, wasted money, and extra time spent fixing mistakes.  
@@ -27,7 +28,7 @@ To prevent these issues, a staff person should always supervise the tradesperson
 * Tradespeople may not be familiar with our standards or priorities  
 * They may make assumptions about what needs to be done
 * Supervision ensures the job is completed to expectations the first time
-* Consistency matters - Having the same staff to supervise across multiple visits avoids confusion and miscommunication
+* Consistency matters — having the same person supervise across multiple visits avoids confusion and miscommunication
 
 ## Responsibilities of the supervising staff member
 
@@ -42,7 +43,7 @@ To prevent these issues, a staff person should always supervise the tradesperson
 ### Examples
 
 ::: greybox
-_“The plumber came in today.”_
+_“The plumber came in today.”_ 
 :::
 ::: bad
 Figure: Bad example – Too vague, no confirmation of quality, tidiness, or definition of done

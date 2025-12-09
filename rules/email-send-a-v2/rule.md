@@ -67,15 +67,6 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
 :::
 
-::: greybox
-**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
-
-::: bad
-![Figure: Bad example - Outlook's 'Resend This Message' feature is no longer recommended](resend-this-message.png)
-:::
-
-:::
-
 ::: email-template  
 
 |          |     |
@@ -111,4 +102,14 @@ For appointments, the procedure is different, see [do you explain why you've upd
 ---
 
 `youtube: https://www.youtube.com/embed/2WoDQBhJCVQ`
-**Video: Some jobs give no chance for a v2**
+**Video: Some jobs give no chance for a v2 (1 min)**
+
+---
+
+### Avoid Outlook's 'Resend This Message'
+
+**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
+
+::: bad
+![Figure: Bad example - Outlook's 'Resend This Message' feature is no longer recommended](resend-this-message.png)
+:::
