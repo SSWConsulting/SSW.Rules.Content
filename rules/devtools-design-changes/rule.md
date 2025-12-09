@@ -23,7 +23,7 @@ related:
 
 Designers often struggle to explain small UI tweaks to developers using just words or screenshots. A request like "make the button pop" or "this feels off" can be interpreted in many ways. Without clear direction, developers are forced to guess, which leads to delays, frustration, and wasted effort on both sides.
 
-Teams at SSW have found that sharing short DevTools recordings significantly reduces design–dev iteration time – sometimes cutting down a 30-minute meeting to a 2-minute video.
+Sharing short recordings of you live-editing a website in the browser’s DevTools significantly reduces design–dev iteration time.
 
 <!--endintro-->
 
