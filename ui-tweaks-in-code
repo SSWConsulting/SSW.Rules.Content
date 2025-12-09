@@ -1,0 +1,32 @@
+---
+
+  type: rule
+archivedreason:
+title: Do you use DevTools to communicate UI tweaks to developers?
+seoDescription: A brief summary of rule's content. It appears below the title in search engine results and should be both concise and include relevant keywords
+guid: 87bd4e47-869e-440f-a22c-2d7f51d33490
+uri: https://www.ssw.com.au/rules/ui-tweaks-in-code
+created: 09/12/2025
+authors:
+- title: Alex Blum (Required)
+  url: <Hyperlink when clicked> (Optional) 
+  img: <Profile Image to show> (Optional)
+- title: Tiago Araujo (Required)
+  url: <Hyperlink when clicked> (Optional) 
+  img: <Profile Image to show> (Optional)
+- title: Adam Cogan (Required)
+  url: <Hyperlink when clicked> (Optional) 
+  img: <Profile Image to show> (Optional)
+related:
+- do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views
+- css-changes
+- keep-developers-away-from-design-work
+- hand-over-mockups-to-developers
+
+---
+
+Markdown for the blurb. Outline the problem that the rule is solving.
+
+<!--endintro-->
+
+Markdown with the rest of the content (not shown in the blurb).
