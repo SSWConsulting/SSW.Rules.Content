@@ -8,6 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/clara-fang
 related:
   - chatgpt-skills-weaknesses
+  - avoid-automation-bias
 created: 2025-11-20T22:53:34.710Z
 guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
 ---
@@ -15,6 +16,14 @@ AI tools like ChatGPT are fantastic for speeding up your work, whether you're dr
 
 
 <!--endintro-->
+
+
+`youtube: https://www.youtube.com/shorts/34BmRpsDTh0`
+
+
+**Video: What to check before sending AI-written content (3 min)**  
+
+
 
 
 Before hitting send, take a minute to review the content ChatGPT gave you. It can save you from sounding robotic.
@@ -68,7 +77,7 @@ Stick to facts. If something is great, show *why* it’s great—don’t just sa
 ## Unnecessary Drama or Parallelisms
 
 
-AI loves to add contrast for dramatic effect, especially when it isn’t needed. These sentence structures often look polished but can feel exaggerated when overused.
+AI loves to add contrast for dramatic effect, even though it isn’t needed. 
 
 
 ::: greybox  
@@ -89,10 +98,11 @@ Bad Example – Overuse of dramatic structures makes writing feel artificial or 
 ## Fake or Vague Analysis
 
 
-ChatGPT can invent explanations that *sound* deep, but actually say nothing. Phrases like:
+ChatGPT can invent explanations that *sound* deep, but actually say nothing. 
 
 
 ::: greybox
+Phrases like:
 - “highlighting…”
 - “emphasizing…”
 - “underscoring…”
@@ -146,4 +156,4 @@ Bad Example – Too many em dashes make it feel unnatural
 🔍 **Ask yourself: “Would I say it this way?”** If not, rewrite it.
 
 
-By taking the time to edit and humanize ChatGPT's output, you'll sound more authentic, approachable, and clear.
+By taking the time to edit ChatGPT's output, you'll sound more authentic, approachable, and clear.
