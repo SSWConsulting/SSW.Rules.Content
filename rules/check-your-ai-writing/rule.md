@@ -2,7 +2,7 @@
 seoDescription: 
 type: rule
 title: Do You Know What to Watch Out for When Using ChatGPT for Writing?
-uri:check-your-ai-writing
+uri: check-your-ai-writing
 authors:
   - title: Clara Fang
     url: https://www.ssw.com.au/people/clara-fang
@@ -12,6 +12,8 @@ related:
 created: 2025-11-20T22:53:34.710Z
 guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
 ---
+
+
 AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. But while these tools are great at generating content quickly, they’re not always great at *sounding human*. Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
 
 
