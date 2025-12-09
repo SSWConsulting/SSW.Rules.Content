@@ -22,11 +22,11 @@ redirects:
 created: 2010-05-06T02:07:33.000Z
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
-The Sprint Review is one of the [3 main Scrum meetings](/scrum-master-do-you-schedule-the-3-meetings).
+The Sprint Review is one of the [3 main Scrum meetings](/rules/scrum-master-do-you-schedule-the-3-meetings).
 
-This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint. It is a second-to-last meeting in the Scrum cycle and is directly followed by the [Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting).
+This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint. It is a second-to-last meeting in the Scrum cycle and is directly followed by the [Retrospective](/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting).
 
-The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the PBIs to the Product Owner.
+The Team, having [prepared](/rules/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the PBIs to the Product Owner.
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the PBIs committed at the Sprint Planning meeting and the done PBIs being presented for acceptance. The Team seeks to have more PBIs accepted than originally committed. It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
@@ -47,7 +47,7 @@ It is essential to host the Retrospective after the Sprint Review and the Sprint
 :::
 
 1. **The Team prepares all of the PBIs for review**
-2. **Draft the [Sprint Review + Retrospective email](/sprint-review-retro-email)**
+2. **Draft the [Sprint Review + Retrospective email](/rules/sprint-review-retro-email)**
 3. **Host the Sprint Review meeting with the Team and the Product Owner**
 4. **Record the meeting to capture the discussion and gather insights**
 5. Ask Copilot to analyse the recording (Optional, recommended)
@@ -55,9 +55,9 @@ It is essential to host the Retrospective after the Sprint Review and the Sprint
 7. Include the Copilot insights into the email above (Optional, recommended)
 8. **Host a Sprint Summary meeting with the Team, Product Owner and relevant Stakeholders**
 9. **Send out an email with the results of the Sprint Review to the Stakeholders**
-10. **Draft a Sprint Planning Email**
-11. **Host a Sprint Planning meeting**
-12. **Send out a Sprint Planning meeting**
+10. **Draft a [Sprint Planning Email](/rules/sprint-forecast-email/)**
+11. **Host a [Sprint Planning meeting](/rules/what-happens-at-a-sprint-planning-meeting/)**
+12. **Send out a Sprint Planning email**
 
 Now, let's jump into the specifics of the Sprint Review meeting.
 
@@ -69,7 +69,7 @@ When the Team is ready, they start the recording. This is useful for process imp
 
 ### Presenting the PBIs for review
 
-Each done PBI is presented by the Team for acceptance. They aim to get the PBI accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+Each done PBI is presented by the Team for acceptance. They aim to get the PBI accepted as quickly as possible ([aka tick and flick](/rules/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
 `youtube: https://youtu.be/L94TEsTuLz4`
 
@@ -77,7 +77,7 @@ Each done PBI is presented by the Team for acceptance. They aim to get the PBI a
 
 ::: info
 
-To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
+To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/rules/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
 
 :::
 
@@ -97,13 +97,13 @@ If changes have been checked in to main, then it must be established that these 
 
 #### Timeboxing
 
-The Scrum Master keeps the meeting on track and to the Timebox by disallowing discussions not relevant to the acceptance or rejection of the PBI; this is often done by making a note to bring the subject up again in the [Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) Meeting.
+The Scrum Master keeps the meeting on track and to the Timebox by disallowing discussions not relevant to the acceptance or rejection of the PBI; this is often done by making a note to bring the subject up again in the [Retrospective](/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting) Meeting.
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
 #### Artifact preparation
 
-During the meeting, an email is drafted to be sent with the results of the Sprint and insights collected during the review and Retrospective. You can find out more about the suggested content of the email in the [Sprint Review + Retrospective email rule](/sprint-review-retro-email).
+During the meeting, an email is drafted to be sent with the results of the Sprint and insights collected during the review and Retrospective. You can find out more about the suggested content of the email in the [Sprint Review + Retrospective email rule](/rules/sprint-review-retro-email).
 
 ::: info
 
@@ -115,7 +115,7 @@ Copilot can take a while (approximately 15 minutes) to finish the processing of 
 
 Now that the Sprint Review email is drafted and filled in with the results of the Sprint Review. Host a Retrospective to check what went well and what did not.
 
-Rule link here
+[What happens at Retrospective meetings?](/rules/what-happens-at-retro-meetings/)
 
 ## Sprint summary
 
@@ -123,13 +123,13 @@ When the Review and Retrospective are done, it is a good idea to host a brief su
 
 ## Sprint Planning
 
-Having done the Sprint Review, Retrospective and Summary, you are now ready to plan out the next Sprint.
+Having finished the Sprint Review, Retrospective and Summary, you are now ready to plan out the next Sprint.
 
-Sprint planning link here
+[What happens at Sprint Planning meetings?](/rules/what-happens-at-a-sprint-planning-meeting/)
 
 ## Additional stakeholders
 
-If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and are [up to speed on the current Increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
+If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/rules/loop-someone-in) and are [up to speed on the current Increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
 * Ping them in a Teams chat when the meeting starts
 
@@ -137,7 +137,7 @@ If there are additional stakeholders, make sure they get called in for the summa
 **Note**: Stakeholders often have a lot on their plates. Make their life easier by creating a group chat with them so it's clear which project's review is about to start, and give it a meaningful name e.g. **"{{ TEAM NAME }} Sprint Review Stakeholders"**
 :::
 
-* [Warn again just before adding them for the summary](/warn-then-call)
+* [Warn again just before adding them for the summary](/rules/warn-then-call)
 
 ::: greybox
 
@@ -185,15 +185,11 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 ::: email-template
 
-| | | |
-
-| -------- | ------------------------------------------------------------------ | --- |
-
-| To: | {{ YOUR SCRUM MASTER }} | |
-
-| Cc: | {{ YOUR TEAM }} | |
-
-| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary | \ |
+|          |                                                                    |     
+| -------- | ------------------------------------------------------------------ |
+| To:      | {{ YOUR SCRUM MASTER }}                                            |     |
+| Cc:      | {{ YOUR TEAM }}                                                    |     |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |   
 
 ::: email-content
 
@@ -202,14 +198,26 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 
 * PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
-
 * PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
-
-...
-
-:::
+  ...
 
 :::
+:::
+
+- - -
+
+::: greybox
+Learn more about the meetings in Scrum:
+
+* [Sprint Planning Meeting](/rules/what-happens-at-a-sprint-planning-meeting)
+* Sprint Review Meeting (this rule)
+* [Sprint Retrospective Meeting](/rules/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Daily Scrum (Stand-up) Meeting](/rules/methodology-daily-scrums "Daily Scrum Meeting")
+
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
+:::
+
+- - -
 
 - - -
 
