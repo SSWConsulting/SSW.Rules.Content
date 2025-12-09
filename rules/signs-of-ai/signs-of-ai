@@ -2,7 +2,7 @@
 seoDescription: 
 type: rule
 title: Do You Know What to Watch Out for When Using ChatGPT for Writing?
-uri: Do-you-know-how-to-set-up-auxiliary-accounting?
+uri:check-your-ai-writing
 authors:
   - title: Clara Fang
     url: https://www.ssw.com.au/people/clara-fang
@@ -11,85 +11,139 @@ related:
 created: 2025-11-20T22:53:34.710Z
 guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
 ---
+AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. But while these tools are great at generating content quickly, they’re not always great at *sounding human*. Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
 
-ChatGPT can be extremely helpful for writing. It’s great for drafting emails, reports, and all kinds of documents. At SSW, we encourage everyone to use it as a practical tool to speed up their work.
-However, AI-generated text can sometimes sound too formal or unintentionally rude. So it’s worth checking the tone before sending it out.
-Here are a few common issues to look out for:
+
+<!--endintro-->
+
+
+Before hitting send, take a minute to review the content ChatGPT gave you. It can save you from sounding robotic.
+
+
+Here are the most common issues to watch out for:
+
 
 ## Overly Formal Tone
-AI often sounds more serious or “important” than necessary.
-It tends to turn simple ideas into something that feels big or grand, even when the topic is ordinary.
+
+
+AI often leans toward formality, making everyday points sound like a lawyer or English literature. This can feel unnatural, especially in a casual email or chat.
+
 
 ::: greybox 
 Common examples:
-•	“plays a vital role”
-•	“holds significant importance”
-•	“a crucial influence”
-•	“a profound heritage”
-These phrases make the writing feel heavier than it needs to be.
+- “plays a vital role”
+- “holds significant importance”
+- “a crucial influence”
+- “a profound heritage”
+:::
+::: bad  
+Bad Example – These phrases sound heavy-handed for most day-to-day writing  
 :::
 
 
-## Promotional Language
-AI sometimes slips into a style that sounds like advertising or tourism marketing.
-It adds emotional or positive wording without giving any evidence.
+Instead, use simpler alternatives that sound more like what you'd say in conversation.
+
+
+## Promotional or Marketing Language
+
+
+ChatGPT sometimes slips into writing that sounds like an ad, even when you’re not selling anything. This usually means lots of positive adjectives with no real facts.
+
 
 ::: greybox 
 Typical AI phrases include:
-•	continues to captivate
-•	boasts a…
-•	TTDC acts as the gateway to Tamil Nadu’s diverse attractions, seamlessly connecting the beginning and end of every traveller's journey. It offers dependable, value-driven experiences that showcase the state’s rich history, spiritual heritage, and natural beauty.
-   — From this revision to Tamil Nadu Tourism Development Corporation
-These phrases sound nice, but they’re basically opinions and can make the writing feel biased or overly dramatic.
+- “continues to captivate”
+- “boasts a…”
+- “seamlessly connecting…”
+- “value-driven experiences…”
 :::
-
-## Negative Parallelisms
-AI loves using patterns like:
-•	“not only … but …”
-•	“it’s not just … it’s …”
-•	big dramatic “however” statements
-These structures create a sense of drama or contrast that isn’t always needed. They can make the writing feel exaggerated or unnatural.
-
-
-## Superficial or Made-Up Analysis
-AI often adds sentences that sound analytical but don’t actually say anything meaningful.
-It may act like it’s explaining something, but the explanation is usually vague or completely invented.
-These statements usually don’t have real evidence behind them and often treat things (like buildings or events) as if they can “highlight” or “emphasize” something.
-
-::: greybox 
-You’ll often see phrases like:
-•	highlighting…
-•	emphasizing…
-•	reflecting…
-•	underscoring…
-•	contributing to…
-Douera enjoys close proximity to the capital city, Algiers, further enhancing its significance as a dynamic hub of activity and culture.
-— From this revision to Douéra
-The civil rights movement emerged as a powerful continuation of this struggle, emphasizing the importance of solidarity and collective action in the fight for justice.
-— From this revision to African-American culture
+::: bad  
+Bad Example – Sounds polished, but it’s just fluff with no substance  
 :::
 
 
-## Excessive Use of Emojis
-AI models sometimes add emojis to headings, lists, or responses to sound friendly.
-This can make the writing feel unprofessional or too casual, especially in work-related documents.
+Stick to facts. If something is great, show *why* it’s great—don’t just say it is.
 
-::: greybox 
-🚨 Underlying Motivation:
-Why would a human fight you on this?
 
+## Unnecessary Drama or Parallelisms
+
+
+AI loves to add contrast for dramatic effect, especially when it isn’t needed. These sentence structures often look polished but can feel exaggerated when overused.
+
+
+::: greybox  
+Common AI patterns include:  
+- “It’s not just X—it’s Y.”  
+- “Not only… but also…”  
+- “However…” (followed by a sweeping generalization)  
+:::
+::: bad  
+Bad Example – Overuse of dramatic structures makes writing feel artificial or emotionally loaded  
+:::
+
+
+
+
+
+
+## Fake or Vague Analysis
+
+
+ChatGPT can invent explanations that *sound* deep, but actually say nothing. Phrases like:
+
+
+::: greybox
+- “highlighting…”
+- “emphasizing…”
+- “underscoring…”
+- “contributing to…”
+:::
+::: bad  
+Bad Example – Sounds analytical, but adds no real value or evidence  
+:::
+
+
+If ChatGPT adds analysis, ask yourself: *Is this actually true? Do I have evidence for this?* If not, cut it.
+
+
+## Emojis in Professional Writing
+
+
+Emojis are fun, but they rarely belong in professional documents, reports, or client-facing communication.
+
+
+::: greybox
+🚨 Underlying Motivation:  
 🧭 What You’re Actually Dealing With:
-This is not a debate about rules.
 :::
-
-## Overuse of Em Dashes (—)
-AI uses em dashes much more than most humans do.
-It often puts them in places where a comma or parentheses would be clearer.
-Overusing them makes the writing feel dramatic or overly polished in a forced way.
-
-::: greybox 
-Elwandore is a virtual micronation for people with passion and skill — a place to build, to create, and to help each other grow while chasing wealth. But not wealth for greed — wealth to give, to help others, to donate.
-— From this version of Draft:United Digital Republic Of Elwandore
+::: bad  
+Bad Example – Emojis make the writing feel unprofessional  
 :::
 
 
+Use tone and structure—not emojis—to express nuance.
+
+
+## Too Many Em Dashes (—)
+
+
+AI uses em dashes excessively. Humans usually prefer commas or parentheses in most cases.
+
+
+::: greybox
+Elwandore is a place to build, to create, and to grow — but not for greed — for giving.
+:::
+::: bad  
+Bad Example – Too many em dashes make it feel unnatural 
+:::
+
+
+### Final Tips
+
+
+✅ **Keep the good stuff.** ChatGPT often produces solid drafts and saves time.  
+🚫 **Don't blindly copy and paste.** Review tone, phrasing, and accuracy first.  
+🔍 **Ask yourself: “Would I say it this way?”** If not, rewrite it.
+
+
+By taking the time to edit and humanize ChatGPT's output, you'll sound more authentic, approachable, and clear.
