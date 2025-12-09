@@ -68,7 +68,7 @@ Figure: Good example – The designer demonstrates and explains the change, givi
 * **Clarity** – The dev sees the exact change in place, eliminating guesswork
 * **Efficiency** – Avoids multiple rounds of clarification
 * **Precision** – CSS values and HTML structure are visible – no ambiguity
-* **Collaboration** – You're making the dev's life easier (and your own).
+* **Collaboration** – You're making the dev's life easier (and your own)
 
 ---
 
