@@ -29,7 +29,9 @@ Sharing short recordings of you live-editing a website in the browser’s DevToo
 
 ## Show, don't tell
 
-Instead of describing your design tweaks, demonstrate them. Use your browser's DevTools (e.g. Chrome or Edge) to live-edit the UI. Adjust padding, font size, colors, or layout styles directly in the browser. While doing this, record your screen and voice – so the developer can see exactly what you changed and why.
+Instead of describing your design tweaks, demonstrate them. Use your browser's DevTools (e.g. Chrome or Edge) to live-edit the UI. 
+
+You can adjust paddings, margins, font sizes, colors, and layout styles directly in the browser. While doing this, record your screen and voice so others can see exactly what you changed and why.
 
 This method gives the developer precise information in context – reducing ambiguity and miscommunication.
 
