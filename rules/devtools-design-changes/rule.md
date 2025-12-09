@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you use DevTools and recordings to show UI changes to developers?
+title: Do you walk through UI changes using DevTools and screen recordings?
 seoDescription: Designers often struggle to explain small UI tweaks to developers. Instead of vague messages or screenshots, use DevTools and a short recording to clearly demonstrate the changes.
 guid: a7201bd1-965d-4854-877b-25952fb94a74
 uri: devtools-design-changes
