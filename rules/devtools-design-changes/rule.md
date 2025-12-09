@@ -50,7 +50,7 @@ The designer opens DevTools, increases the button padding from 5px to 15px, and 
 :::
 
 ::: good
-Figure: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it.
+Figure: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it
 :::
 
 ### Tools that make this easy
