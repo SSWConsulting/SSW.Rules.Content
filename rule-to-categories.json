@@ -1,35 +1,26 @@
 {
-    "create-azure-marketplace-offer": [
-        "rules-to-better-azure-marketplace"
+    "ai-assisted-development-workflow": [
+        "rules-to-better-ai-development"
     ],
-    "do-you-know-why-ssw-is-using-jira": [
-        "rules-to-better-jira"
+    "start-vibe-coding-best-practices": [
+        "rules-to-better-ai-development"
     ],
-    "do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira": [
-        "rules-to-better-jira"
+    "use-github-copilot-cli-secure-environment": [
+        "rules-to-better-ai-development"
     ],
-    "do-you-know-how-to-create-issues-in-jira": [
-        "rules-to-better-jira"
+    "best-ai-tools": [
+        "rules-to-better-ai"
     ],
-    "choose-azure-services": [
-        "rules-to-better-azure"
+    "what-is-chatgpt": [
+        "rules-to-better-ai"
     ],
-    "learn-azure": [
-        "rules-to-better-azure"
+    "chatgpt-skills-weaknesses": [
+        "rules-to-better-ai"
     ],
-    "why-blazor-is-great": [
-        "rules-to-better-blazor"
+    "do-you-inform-the-client-of-any-resource-or-rate-changes": [
+        "rules-to-better-account-management"
     ],
-    "share-common-types-and-logic": [
-        "rules-to-better-blazor"
-    ],
-    "blazor-basic-appstate-pattern": [
-        "rules-to-better-blazor"
-    ],
-    "decouple-api-from-blazor-components": [
-        "rules-to-better-blazor"
-    ],
-    "editor-required-blazor-component-parameters": [
-        "rules-to-better-blazor"
+    "inform-clients-when-developer-leaves": [
+        "rules-to-better-account-management"
     ]
 }

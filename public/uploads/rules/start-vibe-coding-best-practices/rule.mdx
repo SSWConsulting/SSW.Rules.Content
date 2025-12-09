@@ -1,32 +1,27 @@
 ---
-type: rule
-archivedreason:
-title: Do you know the best practices to start vibe coding?
-seoDescription: Learn the best practices for starting vibe coding to ensure your code is maintainable, passes the bus test, and follows professional standards using GitHub Copilot Workspaces and architecture templates.
-guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
-uri: start-vibe-coding-best-practices
-created: 2025-11-21T00:00:00.000Z
+archivedreason: null
 authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz/
-related: []
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz/
+created: 2025-11-21 00:00:00+00:00
+guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
+seoDescription: Learn the best practices for starting vibe coding to ensure your code
+  is maintainable, passes the bus test, and follows professional standards using GitHub
+  Copilot Workspaces and architecture templates.
+title: Do you know the best practices to start vibe coding?
+type: rule
+uri: start-vibe-coding-best-practices
 ---
 
 Vibe coding empowers non-developers to build software using AI agents. However, without proper foundation and structure, vibe coding can result in unmaintainable code that fails "the bus test" – meaning if you were hit by a bus tomorrow, no one else could understand or maintain your code.
 
-<!--endintro-->
+<endIntro />
 
 The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, and leverages existing AI guidance.
 
 ## Start in GitHub
-
-::: bad
-Starting with code on your local machine or in an unmanaged environment
-:::
-
-::: good
-Create your repository in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting) from the start
-:::
+**❌ Starting with code on your local machine or in an unmanaged environment**  
+**✅ Create your repository in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting) from the start**  
 
 Starting your project in GitHub, specifically within your organization, ensures:
 
@@ -50,9 +45,16 @@ Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.C
 * `.github/copilot-instructions.md` for GitHub Copilot integration
 * Pre-configured with best practices and patterns
 
-::: info
-Learn more about [Clean Architecture principles](/clean-architecture) and [Rules to Better Clean Architecture](/rules-to-better-clean-architecture)
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    Learn more about [Clean Architecture principles](/clean-architecture) and [Rules to Better Clean Architecture](/rules-to-better-clean-architecture)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Vertical Slice Architecture Template
 
@@ -64,16 +66,30 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
 * Less ceremony than Clean Architecture for simpler projects
 * Faster to get started with
 
-::: info
-Learn more about [working in vertical slices](/work-in-vertical-slices) and [Rules to Better Vertical Slice Architecture](/rules-to-better-vertical-slice-architecture)
-:::
 
-::: greybox
-**Which template should I use?**
+<boxEmbed
+  style="info"
+  body={<>
+    Learn more about [working in vertical slices](/work-in-vertical-slices) and [Rules to Better Vertical Slice Architecture](/rules-to-better-vertical-slice-architecture)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Which template should I use?**
 
 * Choose **Clean Architecture** if you need more structure and guardrails
 * Choose **Vertical Slice Architecture** if you want to move fast and iterate quickly
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 See the [software architecture decision tree](/software-architecture-decision-tree) for more guidance on choosing the right architecture.
 
@@ -87,12 +103,16 @@ Once your repository is set up with a template, use [GitHub Copilot Workspaces](
 4. **Let the AI implement** - Copilot Workspace will make the changes directly in your repository
 5. **Create a Pull Request** - Review the changes before merging to main
 
-::: greybox
-"Add a user registration feature with email and password"
-:::
-::: good
-Figure: Good example - Clear requirement that the AI can implement following the template's patterns
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    "Add a user registration feature with email and password"
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear requirement that the AI can implement following the template's patterns"
+/>
+
 
 ## Why this approach passes the bus test
 
@@ -104,9 +124,16 @@ By following these practices, your vibe-coded project will be:
 ✅ **Reviewable** - All changes go through pull requests
 ✅ **Professional** - Indistinguishable from code written by experienced developers
 
-::: info
-**Remember:** The goal isn't just to make code work – it's to create code that others can understand, maintain, and extend. Starting with these best practices ensures your vibe coding produces professional-quality software.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Remember:** The goal isn't just to make code work – it's to create code that others can understand, maintain, and extend. Starting with these best practices ensures your vibe coding produces professional-quality software.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## Learn more
 
