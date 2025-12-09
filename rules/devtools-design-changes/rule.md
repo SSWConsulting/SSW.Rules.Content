@@ -33,7 +33,7 @@ Instead of describing your design tweaks, demonstrate them. Use your browser's D
 
 You can adjust paddings, margins, font sizes, colors, and layout styles directly in the browser. While doing this, record your screen and voice so others can see exactly what you changed and why.
 
-This method gives the developer precise information in context – reducing ambiguity and miscommunication.
+This method gives the developer precise information in context, reducing ambiguity and miscommunication.
 
 ::: greybox
 The designer sends a Teams message to the developer:\
