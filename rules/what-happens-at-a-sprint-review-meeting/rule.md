@@ -34,6 +34,25 @@ The Sprint Review is most effective when recorded and aided by the Copilot.
 
 <!--endintro-->
 
+## Overview
+
+There are a few main steps to the process. Some of them are optional, but they add significant value if you decide to commit. While some of the points below mention hosting a certain meeting, it can all be done in one to keep the context readily available.
+
+0. The Team prepares all of the PBIs for review (Optional, recommended)
+1. Draft the [Sprint Review + Retrospective email](/sprint-review-retro-email) (Optional, recommended)
+2. **Host a Sprint Review meeting with the Team and the Product Owner**
+3. Record the meeting to capture the discussion and gather insights (Optional, recommended)
+4. Ask Copilot to analyse the recording (Optional, recommended)
+5. **Host a Retrospective** (Required) and include the result in the email above (Optional, recommended)
+6. Include the Copilot insights into the email above (Optional, recommended)
+7. **Host a Sprint Summary meeting with the Team, Product Owner and relevant Stakeholders**
+8. **Send out an email with the results of the Sprint Review to the Stakeholders**
+9. **Host a Sprint Planning meeting**
+
+You might have noticed that the list above mentions all 3 of the important Scrum meetings. While Retrospective and Sprint Planning are not part of the Sprint Review, it is essential to maintain the order above to convey the useful context from the previous meeting into the next one.
+
+Now, let's jump into the specifics of the Sprint Review meeting.
+
 ## Main meeting flow
 
 When the Team is ready, they start the recording. This is useful for process improvement and allows external tools to analyse the meeting and extract additional value and insights.
