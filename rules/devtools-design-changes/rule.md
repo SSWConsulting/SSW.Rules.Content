@@ -57,7 +57,6 @@ Figure: Good example – The designer demonstrates and explains the change, givi
 
 * **Browser DevTools (F12)** – Use the "Elements" and "Styles" panels to adjust HTML and CSS on the fly
 * **[YakShaver](https://yakshaver.ai/)** – An AI tool that records your screen and voice (e.g. using Microsoft Teams), and generates a task automatically. Super useful for quick handovers
-* **Microsoft Teams** – Start a meeting with yourself and hit "Record" to capture your screen and voice.
 * **Loom / Zoom / OBS** – Any screen recorder works – just keep it short and clear.
 
 > Tip: Don't overcomplicate it – even a 2-minute video can save a lot of back-and-forth.
