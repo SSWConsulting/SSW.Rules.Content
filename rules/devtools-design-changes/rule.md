@@ -59,7 +59,9 @@ Figure: Good example – The designer demonstrates and explains the change, givi
 * **[YakShaver](https://yakshaver.ai/)** – An AI tool that records your screen and voice (e.g. using Microsoft Teams), and generates a task automatically. Super useful for quick handovers
 * **Loom / Zoom / OBS** – Any screen recorder works if you just need the recording file
 
-> Tip: Don't overcomplicate it – even a 2-minute video can save a lot of back-and-forth.
+::: info
+**Tip:** Don't overcomplicate it. A short and clear 2-minute video will save a lot of back-and-forth.
+:::
 
 ### Why this works
 
