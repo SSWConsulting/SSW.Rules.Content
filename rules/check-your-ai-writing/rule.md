@@ -141,7 +141,7 @@ While emojis are fine in casual chats, they don’t belong in emails, reports, o
 - 🎯 Don’t forget to submit your timesheets!
 :::
 ::: bad  
-Bad Example – Emojis make the writing feel unprofessional  
+Figure: Bad example - Emojis make the writing feel unprofessional  
 :::
 
 
