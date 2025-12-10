@@ -14,7 +14,9 @@ guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
 ---
 
 
-AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. But while these tools are great at generating content quickly, they’re not always great at *sounding human*. Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
+AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. While these tools are great at generating content quickly, they’re **not** always great at *sounding human*. 
+
+Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
 
 
 <!--endintro-->
