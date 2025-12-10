@@ -29,7 +29,7 @@ Sharing short recordings of you live-editing a website in the browser’s DevToo
 
 ## Show, don't tell
 
-Instead of describing your design tweaks, demonstrate them. Use your browser's DevTools (e.g. Chrome or Edge) to live-edit the UI. 
+Instead of describing your design tweaks, demonstrate them. Use your browser's DevTools (e.g. Chrome or Edge) to live-edit the UI.
 
 You can adjust paddings, margins, font sizes, colors, and layout styles directly in the browser. While doing this, record your screen and voice so others can see exactly what you changed and why.
 
@@ -40,6 +40,7 @@ This method gives the developer precise information in context, reducing ambigui
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Chloe |
@@ -48,19 +49,24 @@ This method gives the developer precise information in context, reducing ambigui
 | Subject: | ✨ Navigation and Header Layout Adjustment #2142 |  
 
 ::: email-content
-### Hi Chloe,
+
+### Hi Chloe
+
 Adjust the navigation and header layout by modifying margin and padding settings to improve alignment and spacing.
-1. The navigation bar should have a consistent top margin.
-2. The heading element should align with the breadcrumb and text inside the box.
+
+1. The navigation bar should have a consistent top margin
+2. The heading element should align with the breadcrumb and text inside the box
 :::
- 
+:::
+
 ::: bad
 Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
 :::
 
-`youtube: https://www.youtube.com/embed/rdnwqBMpiCY`
+`youtube: https://www.youtube.com/embed/W6yGj0t4BrM`
+
 ::: good
-Video: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it
+Video: Good example - The designer demonstrates and explains the change, giving the dev everything they need to implement it
 :::
 
 ### When to use DevTools recordings
@@ -81,7 +87,7 @@ This technique is best for **small, visual changes** like:
 
 ### Tips to record
 
-* **Narrate your intent** – Speak while recording: *“I’m increasing the font-size from 24px to 32px to improve readability.”* 
+* **Narrate your intent** – Speak while recording: *“I’m increasing the font-size from 24px to 32px to improve readability.”*
 * **Keep recordings short** – Aim for 1–3 minutes. Focus on one issue per video
 * **Speak their language** – Editing in DevTools doesn’t require deep coding knowledge, but learning the basics helps a lot
 * **Be direct** – Developers love it when designers provide specific, actionable feedback
