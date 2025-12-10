@@ -71,7 +71,7 @@ Typical AI phrases include:
 - “value-driven experiences…”
 :::
 ::: bad  
-Bad Example – Sounds polished, but it’s just fluff with no substance  
+Figure: Bad example - Sounds polished, but it’s just fluff with no substance  
 :::
 
 
