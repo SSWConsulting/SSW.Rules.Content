@@ -1,5 +1,5 @@
 ---
-seoDescription: 
+seoDescription: Learn how to edit AI-generated content to avoid sounding robotic, overly dramatic, or fake. Spot and fix common issues before hitting send.
 type: rule
 title: Do you know what to watch out for when using ChatGPT to write content?
 uri: check-your-ai-writing
@@ -108,8 +108,8 @@ AI can invent explanations that *sound* deep, but actually say nothing.
 Phrases like:
 - Douera enjoys close proximity to the capital city, Algiers, **further enhancing its significance as a dynamic hub of activity and culture.**
 - These citations, spanning more than six decades and appearing in recognized academic publications, **illustrate Blois' lasting influence in computational linguistics, grammar, and neology.**
-- Its bilingual monument sign, **underscores its role in bringing together Latter-day Saints from the United States and Mexico.**
-- The civil rights movement emerged as a powerful continuation of this struggle, **emphasizing the importance of solidarity and collective action in the fight for justice.**
+- The software update **marks a pivotal step forward in redefining user experience across digital platforms.**
+- The growing demand for sustainability **underscores an urgent need for action, collaboration, and thoughtful leadership.**
 :::
 ::: bad  
 Figure: Bad example - Sounds analytical, but adds no real value or evidence  
