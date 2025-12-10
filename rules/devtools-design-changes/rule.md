@@ -40,6 +40,7 @@ This method gives the developer precise information in context, reducing ambigui
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Chloe |
