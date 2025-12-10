@@ -63,7 +63,7 @@ Adjust the navigation and header layout by modifying margin and padding settings
 Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
 :::
 
-`youtube: https://www.youtube.com/embed/rdnwqBMpiCY`
+`youtube: https://www.youtube.com/embed/W6yGj0t4BrM`
 
 ::: good
 Video: Good example - The designer demonstrates and explains the change, giving the dev everything they need to implement it
