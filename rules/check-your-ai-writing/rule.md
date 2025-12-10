@@ -90,7 +90,7 @@ Common AI patterns include:
 - **It’s not just** about the beat riding under the vocals; **it’s** part of the aggression and atmosphere.
 :::
 ::: bad  
-Bad Example – Overuse of dramatic structures makes writing feel artificial or emotionally loaded  
+Figure: Bad example - Overuse of dramatic structures makes writing feel artificial or emotionally loaded  
 :::
 
 
