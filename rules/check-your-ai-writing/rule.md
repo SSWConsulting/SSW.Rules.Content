@@ -112,7 +112,7 @@ Phrases like:
 - The civil rights movement emerged as a powerful continuation of this struggle, **emphasizing the importance of solidarity and collective action in the fight for justice.**
 :::
 ::: bad  
-Bad Example – Sounds analytical, but adds no real value or evidence  
+Figure: Bad example - Sounds analytical, but adds no real value or evidence  
 :::
 
 
