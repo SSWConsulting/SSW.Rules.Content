@@ -167,7 +167,7 @@ Bad Example – Too many em dashes make it feel unnatural
 
 ✅ **Keep the good stuff.** AI often produces solid drafts and saves time.  
 * **Don't blindly copy and paste** - Review tone, phrasing, and accuracy first
-🔍 **Ask yourself: “Would I say it this way?”** If not, rewrite it.
+* **Ask yourself: _“Would I say it this way?”_** - If not, rewrite it
 
 
 By taking the time to edit AI's output, you'll sound more authentic, approachable, and clear.
