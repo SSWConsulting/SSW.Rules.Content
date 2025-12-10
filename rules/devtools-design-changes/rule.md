@@ -50,17 +50,19 @@ This method gives the developer precise information in context, reducing ambigui
 ::: email-content
 ### Hi Chloe,
 Adjust the navigation and header layout by modifying margin and padding settings to improve alignment and spacing.
-1. The navigation bar should have a consistent top margin.
-2. The heading element should align with the breadcrumb and text inside the box.
+1. The navigation bar should have a consistent top margin
+2. The heading element should align with the breadcrumb and text inside the box
 :::
- 
+:::
+
 ::: bad
 Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
 :::
 
 `youtube: https://www.youtube.com/embed/rdnwqBMpiCY`
+
 ::: good
-Video: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it
+Video: Good example - The designer demonstrates and explains the change, giving the dev everything they need to implement it
 :::
 
 ### When to use DevTools recordings
