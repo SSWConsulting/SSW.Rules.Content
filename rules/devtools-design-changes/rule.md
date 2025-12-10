@@ -8,9 +8,9 @@ uri: devtools-design-changes
 created: 2025-12-09T18:00:00.000Z
 authors:
   - title: Alex Blum
-    url: https://www.ssw.com.au/people/alex-blum/
+    url: https://www.ssw.com.au/people/alex-blum
   - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo/
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - change-from-x-to-y
   - do-you-cater-to-your-audience
@@ -36,7 +36,7 @@ You can adjust paddings, margins, font sizes, colors, and layout styles directly
 This method gives the developer precise information in context, reducing ambiguity and miscommunication.
 
 ::: info
-**Tip:** Emails are suitable for small content changes, see the Rule: [Do you ask for small content changes using from X to Y?](https://www.ssw.com.au/rules/change-from-x-to-y/)
+**Tip:** Emails are suitable for **small content changes**. Learn more on [Do you ask for small content changes using from X to Y?](/change-from-x-to-y/)
 :::
 
 ::: email-template  
@@ -55,33 +55,15 @@ Adjust the navigation and header layout by modifying margin and padding settings
 :::
  
 ::: bad
-Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means.
+Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
 :::
 
+`youtube: https://www.youtube.com/embed/rdnwqBMpiCY`
 ::: good
-![Figure: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it](https://www.youtube.com/embed/rdnwqBMpiCY)
+Video: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it
 :::
 
-### Tools that make this easy
-
-* **Browser DevTools (F12)** – Use the "Elements" and "Styles" panels to adjust HTML and CSS on the fly
-* **[YakShaver](https://yakshaver.ai/)** – An AI tool that records your screen and voice (e.g. using Microsoft Teams), and generates a task automatically. Super useful for quick handovers
-* **Loom / Zoom / OBS** – Any screen recorder works if you just need the recording file
-
-::: info
-**Tip:** Don't overcomplicate it. A short and clear 2-minute video will save a lot of back-and-forth.
-:::
-
-### Why this works
-
-* **Clarity** – The dev sees the exact change in place, eliminating guesswork
-* **Efficiency** – Avoids multiple rounds of clarification
-* **Precision** – CSS values and HTML structure are visible – no ambiguity
-* **Collaboration** – You're making the dev's life easier (and your own)
-
----
-
-### When to use this technique
+### When to use DevTools recordings
 
 This technique is best for **small, visual changes** like:
 
@@ -90,18 +72,29 @@ This technique is best for **small, visual changes** like:
 * Changing alignment or hierarchy
 * Proposing alternate layout ideas
 
-### What about complex changes?
+### Why this technique works
+
+* **Clarity** – The dev sees the exact change in place, eliminating guesswork
+* **Efficiency** – Avoids multiple rounds of clarification
+* **Precision** – CSS values and HTML structure are visible – no ambiguity
+* **Collaboration** – You're making the dev's life easier (and your own)
+
+### Tips to record
+
+* **Narrate your intent** – Speak while recording: *“I’m increasing the font-size from 24px to 32px to improve readability.”* 
+* **Keep recordings short** – Aim for 1–3 minutes. Focus on one issue per video
+* **Speak their language** – Editing in DevTools doesn’t require deep coding knowledge, but learning the basics helps a lot
+* **Be direct** – Developers love it when designers provide specific, actionable feedback
+
+### Tools for smooth recordings
+
+* **Browser DevTools (F12)** – Use the "Elements" and "Styles" panels to adjust HTML and CSS on the fly
+* **[YakShaver](https://yakshaver.ai)** – An AI tool that records your screen and voice (e.g. using Microsoft Teams), and generates a task automatically. Super useful for quick handovers
+* **Loom / Zoom / OBS** – Any screen recorder works if you just need the recording file
+
+## What about complex changes?
 
 If your changes are significant (e.g. new components or complex interactions), consider instead:
 
-* Creating a wireframe in Figma – see rule: [Handing over mockups to developers](https://www.ssw.com.au/rules/hand-over-mockups-to-developers/)
-* Prototyping the functionality with AI-assisted code – see rule: [Using AI for prototyping](https://www.ssw.com.au/rules/ai-for-prototype-development/)
-
----
-
-### Bonus tips for designers
-
-* **Narrate your intent** – Speak while recording: *“I’m increasing the font-size from 24px to 32px to improve readability.”* 
-* **Keep recordings short** – Aim for 1–3 minutes. Focus on one issue per video. 
-* **Speak their language** – Editing in DevTools doesn’t require deep coding knowledge, but learning the basics helps a lot. 
-* **Be direct** – Developers love it when designers provide specific, actionable feedback.
+* Creating a wireframe in Figma and [handing over mockups to developers](/hand-over-mockups-to-developers)
+* [Prototyping the functionality with AI-assisted code](/ai-for-prototype-development)
