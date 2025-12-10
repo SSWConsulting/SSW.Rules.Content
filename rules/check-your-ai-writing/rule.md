@@ -1,7 +1,7 @@
 ---
 seoDescription: 
 type: rule
-title: Do You Know What to Watch Out for When Using ChatGPT for Writing?
+title: Do you know what to watch out for when using ChatGPT to write content?
 uri: check-your-ai-writing
 authors:
   - title: Clara Fang
