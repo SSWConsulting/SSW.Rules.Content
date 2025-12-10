@@ -35,22 +35,31 @@ You can adjust paddings, margins, font sizes, colors, and layout styles directly
 
 This method gives the developer precise information in context, reducing ambiguity and miscommunication.
 
-::: greybox
-The designer sends a Teams message to the developer:\
-"Can you make this button look better?"
+::: info
+**Tip:** Emails are suitable for small content changes, see the Rule: [Do you ask for small content changes using from X to Y?](https://www.ssw.com.au/rules/change-from-x-to-y/)
 :::
 
+::: email-template  
+| | |
+| -------- | --- |
+| To: | Chloe |
+| Cc: | SSW YakShaver Team |
+| Bcc: |  |
+| Subject: | ✨ Navigation and Header Layout Adjustment #2142 |  
+
+::: email-content
+### Hi Chloe,
+Adjust the navigation and header layout by modifying margin and padding settings to improve alignment and spacing.
+1. The navigation bar should have a consistent top margin.
+2. The heading element should align with the breadcrumb and text inside the box.
+:::
+ 
 ::: bad
-Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what "better" means.
-:::
-
-::: greybox
-The designer opens DevTools, increases the button padding from 5px to 15px, and changes the background color. They record the change using YakShaver and explain:\
-"I'm adding more padding to make it easier to click, and darkening the color for contrast."
+Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means.
 :::
 
 ::: good
-Figure: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it
+![Figure: Good example – The designer demonstrates and explains the change, giving the dev everything they need to implement it](https://www.youtube.com/embed/rdnwqBMpiCY)
 :::
 
 ### Tools that make this easy
@@ -81,20 +90,18 @@ This technique is best for **small, visual changes** like:
 * Changing alignment or hierarchy
 * Proposing alternate layout ideas
 
-::: info
-**Note:** If your changes are significant (e.g. new components or complex interactions), consider instead:
+### What about complex changes?
 
-* Creating a wireframe in Figma
-* Prototyping the functionality with AI-assisted code
-:::
+If your changes are significant (e.g. new components or complex interactions), consider instead:
+
+* Creating a wireframe in Figma – see rule: [Handing over mockups to developers](https://www.ssw.com.au/rules/hand-over-mockups-to-developers/)
+* Prototyping the functionality with AI-assisted code – see rule: [Using AI for prototyping](https://www.ssw.com.au/rules/ai-for-prototype-development/)
 
 ---
 
 ### Bonus tips for designers
 
-| Tip                        | Description |
-|---------------------------|-------------|
-| **Narrate your intent**   | Speak while recording: *"I'm increasing the font-size from 24px to 32px to improve readability."* |
-| **Keep recordings short** | Aim for 1–3 minutes. Focus on one issue per video. |
-| **Speak their language**  | Editing in DevTools doesn't require deep coding knowledge, but learning the basics helps a lot. |
-| **Be direct**             | Developers love it when designers provide specific, actionable feedback. |
+* **Narrate your intent** – Speak while recording: *“I’m increasing the font-size from 24px to 32px to improve readability.”* 
+* **Keep recordings short** – Aim for 1–3 minutes. Focus on one issue per video. 
+* **Speak their language** – Editing in DevTools doesn’t require deep coding knowledge, but learning the basics helps a lot. 
+* **Be direct** – Developers love it when designers provide specific, actionable feedback.
