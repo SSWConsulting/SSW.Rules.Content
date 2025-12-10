@@ -22,7 +22,7 @@ index:
 - hand-over-mockups-to-developers
 - where-to-keep-your-design-files
 - show-version-numbers
-
+- devtools-design-changes
 ---
 
 Longing for remarkable design impact? Check [SSW's User Interface & User Experience Design showcase and consulting page](https://www.ssw.com.au/consulting/ui-ux-design).
