@@ -48,7 +48,7 @@ Common examples:
 - “a profound heritage”
 :::
 ::: bad  
-Bad Example – These phrases sound heavy-handed for most day-to-day writing  
+Figure: Bad example - These phrases sound heavy-handed for most day-to-day writing  
 :::
 
 
