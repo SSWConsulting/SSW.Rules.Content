@@ -40,14 +40,11 @@ This method gives the developer precise information in context, reducing ambigui
 :::
 
 ::: email-template  
-
 | | |
 | -------- | --- |
 | To: | Chloe |
 | Cc: | SSW YakShaver Team |
-| Bcc: |  |
-| Subject: | ✨ Navigation and Header Layout Adjustment #2142 |  
-
+| Subject: | ✨ Navigation and Header Layout Adjustment |  
 ::: email-content
 
 ### Hi Chloe
@@ -56,9 +53,9 @@ Adjust the navigation and header layout by modifying margin and padding settings
 
 1. The navigation bar should have a consistent top margin
 2. The heading element should align with the breadcrumb and text inside the box
-:::
-:::
 
+:::  
+:::  
 ::: bad
 Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
 :::
