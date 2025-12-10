@@ -160,7 +160,7 @@ AI uses em dashes excessively. Humans usually prefer commas or parentheses in mo
 - Given the article’s current state **— well-sourced, policy-compliant, and collaboratively improved — **the continued presence of the “LLM advisory” banner is unwarranted.
 :::
 ::: bad  
-Bad Example – Too many em dashes make it feel unnatural 
+Figure: Bad example - Too many em dashes make it feel unnatural 
 :::
 
 
