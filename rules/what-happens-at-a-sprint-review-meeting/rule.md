@@ -219,26 +219,6 @@ Learn more about the meetings in Scrum:
 
 - - -
 
-- - -
-
-::: greybox
-
-Learn more about the meetings in Scrum:
-
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-
-* Sprint Review Meeting (this rule)
-
-* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-
-* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
-
-**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
-
-:::
-
-- - -
-
 ::: info
 
 **Not doing Scrum?**
