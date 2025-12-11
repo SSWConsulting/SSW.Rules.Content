@@ -3,6 +3,10 @@ seoDescription: Learn how to choose safe, reliable, and well-maintained dependen
 type: rule
 title: Choosing your dependencies the right way
 uri: choose-dependencies-correctly
+related: 
+  - monitor-packages-for-vulnerability
+  - maintain-dependencies-correctly
+  - packages-up-to-date
 authors:
   - title: Josh Berman
     url: https://ssw.com.au/people/josh-berman

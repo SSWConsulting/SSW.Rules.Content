@@ -3,6 +3,10 @@ seoDescription: Outdated dependencies are a major source of security vulnerabili
 type: rule
 title: Maintaining your dependencies the right way
 uri: maintaining-dependencies-correctly
+related: 
+  - monitor-packages-for-vulnerability
+  - choose-dependencies-correctly
+  - packages-up-to-date
 authors:
   - title: Josh Berman
     url: https://ssw.com.au/people/josh-berman
@@ -131,6 +135,8 @@ pnpm audit
 1. Identify unused packages
 
 `npx depcheck` highlights packages no longer imported, missing dependencies and orphaned dev dependencies.
+
+See more about dependency checking Node.js environments - (Do you keep your npm and yarn packages up to date?)[/rules/packages-up-to-date/]
 
 ### .NET (NuGet)
 

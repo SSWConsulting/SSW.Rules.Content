@@ -11,6 +11,8 @@ authors:
 related:
   - packages-up-to-date
   - do-you-make-sure-you-get-brownie-points
+  - maintain-dependencies-correclty
+  - choosing-dependencies-correclty
 created: 2022-05-20T01:38:10.095Z
 guid: b39cb829-e1b3-4e1d-b3c5-124c2e61720f
 redirects:
