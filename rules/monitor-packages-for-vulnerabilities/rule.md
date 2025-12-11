@@ -20,15 +20,18 @@ redirects:
 ---
 
 Efficient software developers don't reinvent the wheel and know the right packages to use when monitoring vulnerabilities in both frontend and backend packages.
-🔐 Using a bunch of third-party libraries as the supporting building blocks to build modern, high-quality applications became a common practice since they save time and money in full-stack projects.
+
+Using a bunch of third-party libraries as the supporting building blocks to build modern, high-quality applications became a common practice since they save time and money in full-stack projects.
 
 But this comes with an unexpected side effect: out-of-date packages that must be updated and re-tested, and even worse, vulnerabilities can be introduced!
+
+<!--endintro-->
 
 One of the big challenges for developers to address is when a project has been delivered to a client and gone into maintenance mode. With no developer actively working on the project, if a vulnerability is discovered in a library referenced in the project, no one will be aware of it, and it will cause pain.
 
 However, if you monitor the packages you have installed, and a vulnerability is reported, then as developers, we have a duty of care to inform our clients.
 
-### Level 0 - Manual tracking
+### Level 0 - Manual tracking (not recommended)
 
 List all installed packages in a file and cross-check with the [advisory board](https://github.com/advisories) and Google it, and change each lines regularly. Not recommended because this consumes time.
 
@@ -38,7 +41,9 @@ List all installed packages in a file and cross-check with the [advisory board](
 
 ### Level 1 - Using tools to scan for vulnerabilities
 
-Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries. See [Do you keep your npm and yarn packages up to date?](/packages-up-to-date)
+Modern package managers such as npm or NuGet offers a way to check for vulnerabilities in the installed libraries.
+
+See [Do you keep your npm and Yarn packages up to date?](/packages-up-to-date)
 
 * npm: `npm audit`
 * yarn: `yarn audit`
