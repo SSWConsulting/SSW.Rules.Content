@@ -10,7 +10,10 @@ created: 2025-12-11T11:38:54.394Z
 guid: 873b8c90-7233-4e19-b044-a2096091c0af
 ---
 
-Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment. This means your application is only as **secure**, **stable**, and **trustworthy** as the dependencies you choose.
+`youtube: https://www.youtube.com/embed/lqZo4waMB3c?si=Ceoy1y1h9mNmU7PX`
+**Video: The NPM Worm of November 2025 (7 min)**
+
+Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment. This means your application is only as **secure**, **stable**, and **trustworthy** as the dependencies you choose. The recent NPM worm incident was a perfect example: a single compromised package rapidly infected thousands of downstream projects.
 
 Choosing the right dependencies, and maintaining them properly, is one of the most important things you can do before an exploit hits the ecosystem.
 
