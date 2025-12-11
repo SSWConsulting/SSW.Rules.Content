@@ -115,7 +115,6 @@ Licenses define what you can and cannot do with the code. Legal issues can emerg
 
 ## Maintaining dependencies the right way
 
-Choosing a good package is only half the job, maintaining them is an ongoing responsibility. Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift. 
+Choosing a good package is only half the job, maintaining them is an ongoing responsibility. Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift.
 
-Do you maintain dependencies the right way? 
-
+Do you maintain dependencies the right way?
