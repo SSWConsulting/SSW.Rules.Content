@@ -19,12 +19,16 @@ authors:
 related:
   - best-package-manager-for-node
   - monitor-packages-for-vulnerability
+  - maintain-dependencies-correclty
+  - choosing-dependencies-correclty
 redirects:
   - do-you-keep-your-npm-packages-up-to-date
 created: 2020-09-30T00:17:47.000Z
 archivedreason: null
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
 ---
+
+[Do you maintain your dependencies](/rules/maintain-dependencies-correctly)?
 
 NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
@@ -38,6 +42,10 @@ npm audit
 # Yarn
 yarn outdated
 yarn audit
+
+# PNPM 
+pnpm outdated
+pnpm audit
 ```
 
 `youtube: https://www.youtube.com/embed/LN2zsrLqljY`
@@ -68,6 +76,9 @@ npm install package-name
 
 # Yarn
 yarn add package-name
+
+# PNPM 
+pnpm add package-name
 ```
 
 To update your packages, use:
@@ -78,6 +89,9 @@ npm update package-name
 
 # Yarn
 yarn upgrade package-name
+
+# PNPM 
+pnpm update package-name
 ```
 
 Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.
