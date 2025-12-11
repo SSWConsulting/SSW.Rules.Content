@@ -74,7 +74,6 @@ When checking maintenance activity, look for:
 ![Figure: Good Example - More recent activity](activity-good-npm.png)
 :::
 
-
 ### Is it maintained by somebody credible?
 
 Packages produced by reputable individuals or organisations tend to follow better development practices, have formal processes for handling disclosures, and respond quickly to breaking issues.
@@ -123,7 +122,6 @@ Healthy packages ship predictable updates. Regular releases indicate active stew
 ![Figure: Good Example - More recent release](last-published-npm-good.png)
 :::
 
-
 ### Does it have good transparency?
 
 A good package should be open and reviewable, transparency allows for:
@@ -148,6 +146,7 @@ Most importantly, **risk compounds**. A package might look harmless but its depe
 #### JavaScript Projects
 
 Modern JavaScript applications are heavily influenced by dependency size. Tools like:
+
 * [BundlePhobia](https://bundlephobia.com) - shows minified and gzipped sizes
 * [BundleJs](https://bundlejs.com) - shows bundle size and tree-shaking behaviour in different bundlers
 
@@ -190,4 +189,4 @@ Licenses define what you can and cannot do with the code. Legal issues can emerg
 
 Choosing a good package is only half the job, maintaining them is an ongoing responsibility. Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift.
 
-[Do you correctly maintain your dependencies?](/rules/maintaining-dependencies-correctly/)
+[Do you correctly maintain your dependencies?](/maintain-dependencies-correctly)
