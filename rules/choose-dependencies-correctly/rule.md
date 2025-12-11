@@ -113,6 +113,14 @@ Most importantly, **risk compounds**. A package might look harmless but its depe
 
 Licenses define what you can and cannot do with the code. Legal issues can emerge years after the code is shipped. Using restrictive or unclear licenses can put your organisation at risk, especially in commercial or closed-source products. The safest time to avoid licensing issues is before you install the dependency.
 
+::: bad
+![Figure: Bad Example - Outdated, poor documentation](bad-example-npm.png)
+:::
+
+::: good
+![Figure: Good Example - More frequent releases, better documentation](good-example-npm.png)
+:::
+
 ## Maintaining dependencies the right way
 
 Choosing a good package is only half the job, maintaining them is an ongoing responsibility. Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift.
