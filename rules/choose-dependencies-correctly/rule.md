@@ -17,7 +17,7 @@ created: 2025-12-11T11:38:54.394Z
 guid: 873b8c90-7233-4e19-b044-a2096091c0af
 ---
 
-Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment. 
+Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment.
 
 This means your application is only as **secure**, **stable**, and **trustworthy** as the dependencies you choose. The recent NPM worm incident was a perfect example: a single compromised package rapidly infected thousands of downstream projects.
 
@@ -180,13 +180,13 @@ Licenses define what you can and cannot do with the code. Legal issues can emerg
 
 ## **Documenting** dependencies the right way
 
-### Have a 2nd pair of eyes 
+### Have a 2nd pair of eyes
 
 Lastly before deciding to install the library, check with another developer that is experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library
 
 ### Document the decision
 
-Always [keep track of the reasoning](/document-discoveries) when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. 
+Always [keep track of the reasoning](/document-discoveries) when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project.
 
 Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
 
