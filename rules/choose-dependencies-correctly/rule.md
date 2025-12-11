@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to choose safe, reliable, and well-maintained dependencies. Reduce security risks, avoid abandoned libraries, and protect your application from supply-chain attacks by following a proven checklist for evaluating third-party packages.
 type: rule
-title: Do you review quality, maintenance, and security before choosing a dependency?
+title: Do you choose the right dependencies?
 uri: choose-dependencies-correctly
 related: 
   - monitor-packages-for-vulnerability
