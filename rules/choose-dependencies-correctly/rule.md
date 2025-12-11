@@ -29,7 +29,7 @@ Developers rely on packages to:
 
 ## The risks of using external packages
 
-While packages help teams move faster, they also introduce real and often underestimated risks. Every dependency added to your projecti s a new entry point for bugs, vulnerabilities or supply-chain attacks.
+While packages help teams move faster, they also introduce real and often underestimated risks. Every dependency added to your project is a new entry point for bugs, vulnerabilities or supply-chain attacks.
 
 Some of these key risks include:
 
