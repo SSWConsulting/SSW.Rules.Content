@@ -48,8 +48,6 @@ pnpm outdated
 pnpm audit
 ```
 
-
-
 `youtube: https://www.youtube.com/embed/LN2zsrLqljY`
 **Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)**
 

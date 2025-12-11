@@ -136,7 +136,7 @@ pnpm audit
 
 `npx depcheck` highlights packages no longer imported, missing dependencies and orphaned dev dependencies.
 
-See more about dependency checking Node.js environments - (Do you keep your npm and yarn packages up to date?)[/rules/packages-up-to-date/]
+See more about dependency checking Node.js environments - [Do you keep your npm and yarn packages up to date?](/rules/packages-up-to-date/)
 
 ### .NET (NuGet)
 
