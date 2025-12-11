@@ -69,7 +69,7 @@ Look for:
 
 ### Documentation
 
-A well documented package is a strong indicator of maturity, professionalism and long-term maintanability. Good documentation shows that the maintainers care abotu the developer experience and understnad how their package is used in real-world applications.
+A well documented package is a strong indicator of maturity, professionalism and long-term maintanability. Good documentation shows that the maintainers care about the developer experience and understnad how their package is used in real-world applications.
 
 ### Package Popularity (with context)
 
