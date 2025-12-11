@@ -45,8 +45,7 @@ This method gives the developer precise information in context, reducing ambigui
 | -------- | --- |
 | To: | Chloe |
 | Cc: | SSW YakShaver Team |
-| Bcc: |  |
-| Subject: | ✨ Navigation and Header Layout Adjustment #2142 |  
+| Subject: | ✨ Navigation and Header Layout Adjustment |  
 
 ::: email-content
 
