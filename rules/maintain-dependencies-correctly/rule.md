@@ -2,7 +2,7 @@
 seoDescription: Outdated dependencies are a major source of security vulnerabilities. Discover best practices for updating and monitoring your packages safely using automated tools and regular audits.
 type: rule
 title: Do you correctly maintain your dependencies?
-uri: maintaining-dependencies-correctly
+uri: maintain-dependencies-correctly
 related: 
   - monitor-packages-for-vulnerability
   - choose-dependencies-correctly

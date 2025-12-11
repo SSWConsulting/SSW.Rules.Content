@@ -79,6 +79,8 @@ index:
   - consistent-code-style
   - read-source-code
   - installing-3rd-party-libraries
+  - maintain-dependencies-correctly
+  - choose-dependencies-correctly
   - package-audit-log
   - use-package-managers-appropriately
   - best-package-manager-for-node
@@ -90,6 +92,7 @@ index:
   - handle-unhappy-paths
   - get-code-line-metrics
   - single-codebase-for-multiple-domains-with-tinacm-nextjs
+
 ---
 
 What makes code "cleaner"? What makes the difference between readable code and very readable code?
