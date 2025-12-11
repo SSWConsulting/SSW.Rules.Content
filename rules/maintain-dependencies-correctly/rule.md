@@ -114,7 +114,7 @@ Periodic audits ensure stable systems.
 
 1. List outdated dependencies
 
-```
+```bash
 npm outdated
 yarn outdated
 pnpm outdated
@@ -122,7 +122,7 @@ pnpm outdated
 
 1. Check for known vulnerabilities
 
-```
+```bash
 npm audit
 yarn audit
 pnpm audit
