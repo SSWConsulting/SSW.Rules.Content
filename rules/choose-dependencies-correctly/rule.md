@@ -1,12 +1,15 @@
 ---
 seoDescription: Learn how to choose safe, reliable, and well-maintained dependencies. Reduce security risks, avoid abandoned libraries, and protect your application from supply-chain attacks by following a proven checklist for evaluating third-party packages.
 type: rule
-title: Choosing your dependencies the right way
+title: Do you correctly choose your dependencies?
 uri: choose-dependencies-correctly
 related: 
   - monitor-packages-for-vulnerability
   - maintain-dependencies-correctly
   - packages-up-to-date
+  - do-you-know-the-correct-license-to-use-for-open-source-software
+  - package-audit-log
+  - document-discoveries
 authors:
   - title: Josh Berman
     url: https://ssw.com.au/people/josh-berman
@@ -53,7 +56,7 @@ Choosing the correct package is about more than just finding the one that works,
 
 Before installing or adding a package to a project, developers should consider the following:
 
-### Maintenance Activity
+### Is it actively maintained?
 
 A package should be actively maintained, without this code quickly becomes incompatible, insecure and outdated. Packages that evolve with the greater ecosystem are more likely to curb security vulnerabilities and remain compatible with your solutions. The moment a security flaw is discovered and no-one is actively patching it, you inherit the maintenance burden.  
 
@@ -63,7 +66,16 @@ When checking maintenance activity, look for:
 * Recent releases
 * Responsiveness to issues and PRs
 
-### Maintenance Credibility
+::: bad
+![Figure: Bad Example - No recent activity](activity-bad-npm.png)
+:::
+
+::: good
+![Figure: Good Example - More recent activity](activity-good-npm.png)
+:::
+
+
+### Is it maintained by somebody credible?
 
 Packages produced by reputable individuals or organisations tend to follow better development practices, have formal processes for handling disclosures, and respond quickly to breaking issues.
 
@@ -74,11 +86,11 @@ Look for:
 * Governance you can rely on (Microsoft, Vercel, AWS)
 * A clear communication channel when issues arise
 
-### Documentation
+### Is it well documented?
 
 A well documented package is a strong indicator of maturity, professionalism and long-term maintanability. Good documentation shows that the maintainers care about the developer experience and understnad how their package is used in real-world applications.
 
-### Package Popularity (with context)
+### Is it popular? (with context)
 
 **Popularity isn't a guarantee of quality**, but it is a signal of real-world usage, maturity, and testing. A widely used package is more likely to be:
 
@@ -87,7 +99,15 @@ A well documented package is a strong indicator of maturity, professionalism and
 * Supported by community knowledge
 * Faster to resolve packages
 
-### Frequency of Releases
+::: bad
+![Figure: Bad Example - Decent amount of uses](popularity-npm-bad.png)
+:::
+
+::: good
+![Figure: Good Example - A lot more popular, battle-tested 💪](popularity-npm-good.png)
+:::
+
+### Is it frequently released?
 
 Healthy packages ship predictable updates. Regular releases indicate active stewardship and highlight:
 
@@ -95,7 +115,16 @@ Healthy packages ship predictable updates. Regular releases indicate active stew
 * Security patches are delivered quickly
 * Compatibility with new versions of core frameworks
 
-### Transparency and Visibility
+::: bad
+![Figure: Bad Example - Released ages ago!](last-published-npm-bad.png)
+:::
+
+::: good
+![Figure: Good Example - More recent release](last-published-npm-good.png)
+:::
+
+
+### Does it have good transparency?
 
 A good package should be open and reviewable, transparency allows for:
 
@@ -106,7 +135,7 @@ A good package should be open and reviewable, transparency allows for:
 
 Being able to review how a package works allows developers to evaluate its safety. Closed or opaque packages prevent verification, hide risky behaviour and make debugging significantly harder.
 
-### Size and dependency footprint
+### What are the bundle characteristics?
 
 A single tiny package might introduce dozens of transitive dependencies, each new dependency carries:
 
@@ -116,20 +145,49 @@ A single tiny package might introduce dozens of transitive dependencies, each ne
 
 Most importantly, **risk compounds**. A package might look harmless but its dependency chain may be spiraling and fragile.
 
+#### JavaScript Projects
+
+Modern JavaScript applications are heavily influenced by dependency size. Tools like:
+* [BundlePhobia](https://bundlephobia.com) - shows minified and gzipped sizes
+* [BundleJs](https://bundlejs.com) - shows bundle size and tree-shaking behaviour in different bundlers
+
+These tools help you estimate the cost of adding a new library to your bundle.
+
+Tree-shaking is another important factor. It removes unused exports from a package during build time, reducing shipped code. Unfortunately, there's still no universal way to know whether a library tree-shakes correctly, you generally need to:
+
+* Read the documentation to verify ESM support
+* Test the library in tools like BundleJS or your own build pipeline
+* Check whether the package has side effects that may prevent shaking
+
+Even today, the only reliable method is real-world experimentation.
+
+#### .NET Projects
+
+Unlike JavaScript, .NET doesn’t have ecosystem tools that report the “bundle size” impact of installing a NuGet package. You can inspect IL size or dependency graphs, but there is no direct BundlePhobia-style analyser.
+
+To reduce the final application size, .NET provides a built-in feature called the [Trimmer](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-6-0&WT.mc_id=DT-MVP-33518) (ILLink). Trimming removes unused code from your published output and can significantly shrink deployments. However, trimming must be used carefully—apps that rely on reflection, dynamic activation, or certain serializers may require additional annotations to avoid breaking behaviour.
+
+Trimmer support has improved in .NET 8 and .NET 9, but the same rule still applies - understand your dependencies before enabling trimming in production builds.
+
 ### License and legal considerations
 
 Licenses define what you can and cannot do with the code. Legal issues can emerge years after the code is shipped. Using restrictive or unclear licenses can put your organisation at risk, especially in commercial or closed-source products. The safest time to avoid licensing issues is before you install the dependency.
 
-::: bad
-![Figure: Bad Example - Outdated, poor documentation](bad-example-npm.png)
+::: good
+![Figure: Good Example - Licensing mentioned](licensing-good.png)
 :::
 
+## Documenting your Decision
+
+* **Have a 2nd pair of eyes** - Lastly before deciding to install the library, check with another developer that is experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
+* **[Document the decision](/document-discoveries)** - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
+
 ::: good
-![Figure: Good Example - More frequent releases, better documentation](good-example-npm.png)
+![Figure: Good example - A markdown file should include your reasons to assist future developers](md-reasons.png)
 :::
 
 ## Maintaining dependencies the right way
 
 Choosing a good package is only half the job, maintaining them is an ongoing responsibility. Dependencies evolve constantly; new features are added, security patches are released, breaking changes appear, and ecosystem standards shift.
 
-[Do you maintain dependencies the right way?](/rules/maintain-dependencies-correctly)
+[Do you correctly maintain your dependencies?](/rules/maintaining-dependencies-correctly/)

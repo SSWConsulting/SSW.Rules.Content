@@ -2,6 +2,7 @@
 seoDescription: Checking third-party libraries before installation is crucial for software development to ensure code quality, license compliance, and avoid potential bugs
 type: rule
 title: Do you check before installing 3rd party libraries?
+archivedreason: Outdated - This content has been refreshed in https://www.ssw.com.au/rules/choose-dependencies-correctly/
 uri: installing-3rd-party-libraries
 authors:
   - title: Chris Clement
@@ -11,6 +12,8 @@ related:
   - monitor-packages-for-vulnerabilities
   - package-audit-log
   - document-discoveries
+  - choose-dependencies-correctly
+  - maintain-dependencies-correctly
 created: 2022-09-29T06:41:32.765Z
 guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
 ---
