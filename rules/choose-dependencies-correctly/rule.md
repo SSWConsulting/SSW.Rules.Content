@@ -66,7 +66,7 @@ Look for:
 * A clear contributor history ( See [TinaCMS' Contributor Graph](https://github.com/tinacms/tinacms/graphs/contributors) )
 * Governance you can rely on (Microsoft, Vercel, AWS)
 * A clear communication channel when issues arise
-
+ 
 ### Documentation
 
 A well documented package is a strong indicator of maturity, professionalism and long-term maintanability. Good documentation shows that the maintainers care abotu the developer experience and understnad how their package is used in real-world applications.
