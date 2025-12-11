@@ -1,7 +1,7 @@
 ---
 seoDescription: Outdated dependencies are a major source of security vulnerabilities. Discover best practices for updating and monitoring your packages safely using automated tools and regular audits.
 type: rule
-title: Do you correctly maintain your dependencies?
+title: Do you properly maintain your dependencies?
 uri: maintain-dependencies-correctly
 related: 
   - monitor-packages-for-vulnerability
@@ -30,22 +30,22 @@ Dependencies underpin almost every part of a modern application. Keeping them up
 * Reduce exposure to supply-chain attacks
 * Prevent "dependency-rot", where the entire stack becomes stale and brittle
 
-## Automated Maintenance tools
+## Automated maintenance tools
 
 Modern applications use too many dependencies to track manually. Automated tools help identify vulnerabilities, outdated packages, code quality issues, and supply-chain risks long before they reach production.
 
 ### Dependabot (GitHub)
 
-[Dependabot](https://github.com/dependabot) automatically scans your repository and raises pull requests when dependencies become outdated or contain known security vulnerabilities
+[Dependabot](https://github.com/dependabot) automatically scans your repository and raises pull requests when dependencies become outdated or contain known security vulnerabilities.
 
-✅ **Pros**
+#### ✅ Pros
 
 * Integrated directly into GitHub
 * Automatically opens PRs with version bumps
 * Keeps lockfiles fresh
 * Easy to configure and maintain
 
-❌ **Cons**
+#### ❌ Cons
 
 * Can generate many PRs (noise for large repos)
 * Focuses on version bumps, not functionality
@@ -58,7 +58,7 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 [Renovate](https://github.com/renovatebot/renovate) is a highly configurable dependency management bot that automates updates, groups PRs intelligently, and integrates with multiple ecosystems.
 
-✅ **Pros**
+#### ✅ Pros
 
 * Extremely flexible and customizable
 * Can group related updates to reduce PR noise
@@ -66,7 +66,7 @@ Modern applications use too many dependencies to track manually. Automated tools
 * Actively maintained and open source
 * Strong policy controls (scheduling, automerge rules, etc.)
 
-❌ **Cons**
+#### ❌ Cons
 
 * More complex configuration
 * Overkill for small repos
@@ -76,13 +76,13 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 `npm audit` checks your installed dependencies against the [public vulnerability database](https://github.com/advisories).
 
-✅ **Pros**
+#### ✅ Pros
 
 * Already built into npm
 * Fast and simple to run locally or in CI
 * Good baseline for spotting known CVEs
 
-❌ **Cons**
+#### ❌ Cons
 
 * High false-positive rate
 * Can cause alert fatigue on large dependency trees
@@ -93,7 +93,7 @@ Modern applications use too many dependencies to track manually. Automated tools
 
 [SonarQube](https://www.sonarsource.com/products/sonarqube) is a static analysis platform that scans code for bugs, vulnerabilities, security hotspots, and maintainability issues. While not a dependency updater, it detects issues introduced by outdated or risky dependencies.
 
-✅ **Pros**
+#### ✅ Pros
 
 * Deep static analysis across multiple languages
 * Identifies vulnerabilities caused by dependencies (e.g., unsafe API usage, insecure patterns)
@@ -101,22 +101,22 @@ Modern applications use too many dependencies to track manually. Automated tools
 * Provides quality gates to block unsafe releases
 * Great dashboards and reporting
 
-❌ **Cons**
+#### ❌ Cons
 
 * Doesn’t update dependencies itself
 * Requires server setup (unless using SonarCloud)
 * Can be noisy if the codebase has many existing issues
 * Learning curve for tuning rules and quality profiles
 
-## Manual Maintenance Tools
+## Manual maintenance tools
 
-Automated tools are essential, but manual audits ensure your team understands the real state of your [dependency graph](/rules/generate-dependency-graphs/).
+Automated tools are essential, but manual audits ensure your team understands the real state of your [dependency graph](/rules/generate-dependency-graphs).
 
 Periodic audits ensure stable systems.
 
 ### Node.js (npm, Yarn, pnpm)
 
-1. List outdated dependencies
+**List outdated dependencies**:
 
 ```bash
 npm outdated
@@ -124,7 +124,7 @@ yarn outdated
 pnpm outdated
 ```
 
-1. Check for known vulnerabilities
+**Check for known vulnerabilities**:
 
 ```bash
 npm audit
@@ -132,29 +132,29 @@ yarn audit
 pnpm audit
 ```
 
-1. Identify unused packages
+**Identify unused packages**:
 
 `npx depcheck` highlights packages no longer imported, missing dependencies and orphaned dev dependencies.
 
-See more about dependency checking Node.js environments - [Do you keep your npm and yarn packages up to date?](/rules/packages-up-to-date/)
+See more about dependency checking Node.js environments - [Do you keep your npm and yarn packages up to date?](/packages-up-to-date)
 
 ### .NET (NuGet)
 
-1. List outdated NuGet packages
+**List outdated NuGet packages**:
 
 `dotnet list package --outdated` shows available updates for packages.
 
-1. Check for vulnerable packages
+**Check for vulnerable packages**:
 
 `dotnet list package --vulnerable` flags any known securities with libraries you're using.
 
-1. Generate a full dependency tree
+**Generate a full dependency tree**:
 
 `dotnet list package --include-transitive` is critical for spotting dangerous transitive dependencies.
 
 ## Commit and preserve lockfiles
 
-Lockfiles ensure reproducible builds by pinning exact dependency versions. Without them, every install may produce a different dependency tree
+Lockfiles ensure reproducible builds by pinning exact dependency versions. Without them, every install may produce a different dependency tree.
 
 Why does this matter?
 
@@ -166,7 +166,7 @@ Lockfiles are essential for stability and security.
 
 ## Removing unnecessary dependencies
 
-Fewer dependencies = fewer risks
+> Fewer dependencies = fewer risks
 
 Before adding or keeping a package, ask:
 
