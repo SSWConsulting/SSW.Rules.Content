@@ -191,7 +191,7 @@ Always [keep track of the reasoning](/document-discoveries) when developers deci
 Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
 
 ::: good
-![Figure: Good example - A markdown file should include your reasons to assist future developers](md-reasons_1765510010917.png)
+![Figure: Good example - A markdown file should include your reasons to assist future developers](md-decision-reasons.png)
 :::
 
 ## **Maintaining** dependencies the right way
