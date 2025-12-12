@@ -9,7 +9,7 @@ index:
 - how-do-i-create-my-own-sharepoint-vm-to-play-with
 - how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
 - what-are-the-different-images-available
-- use-the-right-sharepoint-development-environment
+- sharepoint-development-environment
 
 ---
 
