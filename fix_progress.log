@@ -1,0 +1,21 @@
+[0;34m[INFO][0m Creating branch: fix/nextjs-cve-20251216
+Switched to a new branch 'fix/nextjs-cve-20251216'
+[0;32m✅ [SUCCESS][0m Created branch: fix/nextjs-cve-20251216
+[0;34m[INFO][0m Running npx fix-react2shell-next --fix...
+
+[1mfix-react2shell-next[0m[2m - Next.js vulnerability scanner
+[0m
+[2mChecking for 4 known vulnerabilities:
+[0m
+[2m  - [0m[31mCVE-2025-66478[0m[2m (critical): Remote code execution via crafted RSC payload[0m
+[2m  - [0m[33mCVE-2025-55184[0m[2m (high): DoS via malicious HTTP request causing server to hang and consume CPU[0m
+[2m  - [0m[36mCVE-2025-55183[0m[2m (medium): Compiled Server Action source code can be exposed via malicious request[0m
+[2m  - [0m[33mCVE-2025-67779[0m[2m (high): Incomplete fix for CVE-2025-55184 DoS via malicious RSC payload causing infinite loop[0m
+
+[2mFound 2 package.json file(s)
+[0m
+[32mNo vulnerable packages found![0m
+[2m  Your project is not affected by any known vulnerabilities.
+[0m
+[0;32m✅ [SUCCESS][0m Fix command completed
+[0;34m[INFO][0m Changes detected, proceeding with commit...
