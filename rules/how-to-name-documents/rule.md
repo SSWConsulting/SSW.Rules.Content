@@ -125,7 +125,7 @@ Figure: Bad example - Files without leading zeros sort incorrectly
 10-summary.docx
 :::
 ::: good
-Figure: Good Example - Files with leading zeros sort correctly
+Figure: Good example - Files with leading zeros sort correctly
 :::
 
 If a file name begins with a number and it's used for ordering or organisation, pad it with leading zeros (e.g. 01, 02 instead of 1, 2). This ensures files sort in the correct logical order when ordered by name.
