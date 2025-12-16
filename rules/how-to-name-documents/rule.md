@@ -108,6 +108,17 @@ A hyphen (or dash) is the best choice, because it is understood both by humans
 You may use Uppercase in the first letter in Kebab-Case, however it's important to keep consistency.
 :::
 
+### ✅ Use leading zeros for numbered files
+
+::: greybox
+01-introduction.docx
+:::
+::: good
+Figure: Good Example - File name has leading zeroes for a numbered document
+:::
+
+If a file name begins with a number and it's used for organisation purposes, pad it with leading zeros (e.g. 01, 02 instead of 1, 2). This ensures files sort in the correct logical order when ordered by name.
+
 ## Extra
 
 * **Never use capitalized letters in file extensions** - It can lead to compatibility issues and potential confusion across different operating systems and platforms. For example, saving an image as "image.JPG" instead of "image.jpg" might result in it not displaying correctly on certain platforms or being misinterpreted by software that is case-sensitive. Always use lowercase for consistency and reliability.
