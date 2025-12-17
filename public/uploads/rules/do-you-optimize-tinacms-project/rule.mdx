@@ -33,7 +33,7 @@ When working with large datasets or generating multiple subcomponents, following
 * **Make a single request in a top-level server component and share data via React Context or a state library**
 
   * Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
-**✅ ```js
+```js
 export default async function Home({ params }: HomePageProps) {
     const location = params.location;
 
@@ -62,7 +62,7 @@ export async function generateStaticParams() {
 }
 ```
 
-**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.****  
+**✅ Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.****  
 
 * **Cache data at a top-level and access it when necessary**
 
