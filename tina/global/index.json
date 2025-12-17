@@ -1,0 +1,63 @@
+{
+  "blocks": [],
+  "header": {
+    "icon": {
+      "name": "Tina",
+      "color": "orange",
+      "style": "float"
+    },
+    "name": "Tina Starter - Rules V3 Migration",
+    "color": "default",
+    "nav": [
+      {
+        "href": "/",
+        "label": "Home"
+      }
+    ]
+  },
+  "footer": {
+    "social": [
+      {
+        "icon": {
+          "name": "FaLinkedin"
+        },
+        "url": "https://www.linkedin.com/company/tinacms"
+      },
+      {
+        "icon": {
+          "name": "FaGithub"
+        },
+        "url": "https://github.com/tinacms/tinacms"
+      },
+      {
+        "icon": {
+          "name": "FaYoutube"
+        },
+        "url": "https://www.youtube.com/@TinaCMS"
+      },
+      {
+        "icon": {
+          "name": "FaXTwitter"
+        },
+        "url": "https://x.com/TinaCMS"
+      }
+    ]
+  },
+  "theme": {
+    "color": "blue",
+    "font": "sans",
+    "darkMode": "light"
+  },
+  "quickLinks": {
+    "links": [
+      {
+        "linkText": "SSW Rules Wiki",
+        "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki"
+      },
+      {
+        "linkText": "SSW Rules Channel",
+        "uri": "https://www.youtube.com/@sswrules"
+      }
+    ]
+  }
+}
