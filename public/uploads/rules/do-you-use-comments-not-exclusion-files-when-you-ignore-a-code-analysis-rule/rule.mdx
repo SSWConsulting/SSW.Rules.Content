@@ -1,0 +1,58 @@
+---
+archivedreason: null
+authors:
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+created: 2012-06-12 15:01:07+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 2733b6f3-1374-41eb-ba4e-d8188eaa1098
+isArchived: false
+lastUpdated: 2012-06-12 15:07:11+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects: []
+seoDescription: When ignoring Code Analysis rules, use comments not exclusion files
+  to suppress unnecessary warnings and improve code maintainability.
+title: Do you use comments not exclusion files when you ignore a Code Analysis rule?
+type: rule
+uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule
+---
+
+When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing.
+
+<endIntro />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example -"
+  src="/uploads/rules/do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule/code-analysis-bad-example.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - The Solution and Projects are named consistently"
+  src="/uploads/rules/do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule/code-analysis-good-example.jpg"
+/>
+
+
+```cs
+public partial class Account
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors", Justification="Gold Plating")]
+    public Account()
+    {
+        this.Centres = new HashSet();
+        this.AccountUsers = new HashSet();
+        this.Campaigns = new HashSet();
+    }
+}
+```
+**✅ Figure: Good example - The Solution and Projects are named consistently**

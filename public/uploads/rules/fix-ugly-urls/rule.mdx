@@ -1,0 +1,76 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2015-11-10 21:02:11+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: df6b61c4-c808-4f80-bca9-7ea7eace8067
+isArchived: false
+lastUpdated: 2021-03-12 20:01:08.291000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-fix-your-ugly-urls
+related:
+- rule: public/uploads/rules/use-dashes-in-urls/rule.mdx
+- rule: public/uploads/rules/create-friendly-short-urls/rule.mdx
+seoDescription: Discover how to fix ugly URLs using IIS7 Rewrite for cleaner, SEO-friendly
+  links
+title: Do you use IIS7 Rewrite to fix ugly URLs?
+type: rule
+uri: fix-ugly-urls
+---
+
+Ugly URLs don't only make it difficult for users to browse your site, they can also impact Google rankings.
+
+<endIntro />
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind.com/MyInternalDB/UserDatabase/ProductList.aspx?productname=Access
+  </>}
+  figurePrefix="bad"
+  figure="A nasty URL..."
+/>
+
+
+You should fix it up to look more like this:
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind.com/products/access
+  </>}
+  figurePrefix="good"
+  figure="Users could even guess this nice URL"
+/>
+
+
+### How to fix
+
+1. Add in Global.asax a route
+
+``` aspnet
+protected void Application_Start(object sender, EventArgs e)
+{
+//RouteTable and PageRouteHandler are in System.Web.Routing
+RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx")));
+}
+```
+**😐 Figure: OK example - create a static route if you only have a few rewrites****  
+
+2. Use the URL Rewriting Module for IIS7
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - An IIS7 Rewrite is much easier to manage"
+  src="/uploads/rules/fix-ugly-urls/IIS7Rewrite.jpg"
+/>

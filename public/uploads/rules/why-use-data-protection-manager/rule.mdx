@@ -1,0 +1,90 @@
+---
+archivedreason: null
+authors:
+- title: Steven Andrews
+  url: https://ssw.com.au/people/steven-andrews
+- title: Kaique Biancatti
+  url: https://www.ssw.com.au/people/kaique-biancatti
+- title: Warwick Leahy
+  url: https://ssw.com.au/people/Warwick-Leahy
+created: 2019-07-24 21:37:08+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: d828541d-d6cb-4d99-a4c6-778c78e07259
+isArchived: false
+lastUpdated: 2019-07-25 04:24:34+00:00
+lastUpdatedBy: Kaique Biancatti
+lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
+redirects:
+- do-you-know-why-to-use-data-protection-manager-dpm
+- do-you-know-why-to-use-data-protection-manager-(dpm)
+related:
+- rule: public/uploads/rules/azure-site-recovery/rule.mdx
+seoDescription: Understand why to use Data Protection Manager (DPM) for robust on-premises
+  backups and peace of mind knowing your data is safe and easily restorable.
+title: Do you know why to use Data Protection Manager (DPM)?
+type: rule
+uri: why-use-data-protection-manager
+---
+
+Every company needs a business continuity and disaster recovery plan. DPM is a robust backup solution for on-premises backups. It can give you peace of mind knowing that your data is backed up, safe and easily restorable. It allows for backing up of:
+
+<endIntro />
+
+- Virtual Machines (Hyper-V and VMware)
+- Physical Machines
+- Application Aware Backups
+  - Exchange
+  - SQL
+  - SharePoint
+
+It also allows for storage over many platforms:
+
+- Disk
+- Tape
+- Cloud (Uses Azure Site Recovery and Backup)
+
+It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on.
+
+It is also important to keep DPM backups healthy by monitoring their status frequently.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - DPM - Healthy backups show green ticks"
+  src="/uploads/rules/why-use-data-protection-manager/ppaspsappic.png"
+/>
+
+
+### How do you get your on-premises backups off-site?
+
+DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so you have some options depending on your services:
+
+1. **Off-site** - On-premises DPM backup should always have a secondary location:
+
+- Another office, with another DPM server
+- The cloud, with Azure Site Recovery
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Best example - Different options for different budgets and services on your off-site and cloud backups"
+  src="/uploads/rules/why-use-data-protection-manager/dpmrule-3-.jpg"
+/>
+
+
+2. **Virtual Machines** - VMs generally need quick recovery and backup. The best (but more expensive) option is [Azure Site Recovery](/azure-site-recovery).
+3. **File Servers** - Generally, file servers need an auto-expanding, cheaper and simpler cloud backup. The best tool is MSP360 (was CloudBerry) which backs up to Backblaze (cloud storage)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - MSP360 (was CloudBerry) has 2 file servers being backed up to the cloud (using BackBlaze, the simplest cloud backup)"
+  src="/uploads/rules/why-use-data-protection-manager/cloudberry.jpg"
+/>

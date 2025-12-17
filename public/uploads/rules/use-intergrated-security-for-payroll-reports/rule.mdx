@@ -1,0 +1,55 @@
+---
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+created: 2024-08-02 14:42:33+00:00
+guid: 3a7d4544-16e8-46fe-aff4-b2161e216420
+redirects: []
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Secure your payroll reports with Integrated Security, ensuring each
+  user views only their relevant data.
+title: Admin - Do you take advantage of 'Integrated Security' to do Payroll reports?
+type: rule
+uri: use-intergrated-security-for-payroll-reports
+---
+
+<endIntro />
+
+Payroll report should only show the records of the current user, Reporting Services support "Integrated Security" which you can use to identify the user who is running the report and only return relevant result for the current user.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Everyone can see others' rate changing history (maybe useful for administrative, but not for your employees)"
+  src="/uploads/rules/use-intergrated-security-for-payroll-reports/RSRulesPayRollByUserIDT1.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - The current employee can only see his own record"
+  src="/uploads/rules/use-intergrated-security-for-payroll-reports/RSRulesPayRollByUserIDT2.jpg"
+/>
+
+
+To generate such a report, you need to use the filter on the data table:
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Specify the filters on your data table and select Globals->User!UserID"
+  src="/uploads/rules/use-intergrated-security-for-payroll-reports/RSRulesPayRollByUserIDT3.jpg"
+/>
+
+
+Note: 'Edit Expression' dialog is only available on RS 2005, but the UserID global variable is available on RS 2000.

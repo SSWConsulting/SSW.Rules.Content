@@ -1,0 +1,79 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-11-07 20:29:18+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 6a71c411-854a-4425-a4e8-392e717bedec
+isArchived: false
+lastUpdated: 2020-01-09 09:06:13+00:00
+lastUpdatedBy: Calum Simpson
+lastUpdatedByEmail: CalumSimpson@ssw.com.au
+redirects:
+- schema-do-you-use-computed-columns-rather-than-denormalized-fields
+seoDescription: Schema uses computed columns rather than denormalized fields to improve
+  data integrity and reduce complexity.
+title: Schema - Do you use computed columns rather than denormalized fields?
+type: rule
+uri: use-computed-columns-rather-than-denormalized-fields
+---
+
+When you have a denormalized field, use a computed column. In SQL Server they can be persisted.
+
+Use the suffix "Computed" to clearly distinguish that this field is a computed field.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad Example - This field was manually updated from code in the middle tier."
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Bad.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - There was no code in the middle tier to calculate this (and it has the correct name)"
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFields_Good.jpg"
+/>
+
+
+<endIntro />
+
+Computed columns have some limitations - they cannot access fields in other tables, or other computed fields in the current table.
+
+You can use user-defined functions (UDF) from code in a reusable function, this allows one computed column to use a function to call another function. Here is an example:
+
+```sql
+ALTER FUNCTION [dbo].[udfEmpTime_TimeTotalComputed]
+(
+@TimeStart as DateTime,
+@TimeEnd as DateTime
+
+)
+RETURNS DECIMAL(8,6)
+AS
+BEGIN
+-- This function returns the time difference in hours - decimal(8,6)
+RETURN (round(isnull(CONVERT([decimal](8,6),@TimeEnd - @TimeStart,(0))*(24),(0)),(2)))
+
+ END
+```
+
+**Figure: This is the user defined function**
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Setting up a computed column in the table designer"
+  src="/uploads/rules/use-computed-columns-rather-than-denormalized-fields/NormalizedFieldsDefine.jpg"
+/>

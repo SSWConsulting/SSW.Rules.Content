@@ -1,0 +1,32 @@
+---
+archivedreason: null
+authors:
+- title: Ben Cull
+  url: https://ssw.com.au/people/ben-cull
+created: 2015-11-02 10:45:00+00:00
+createdBy: Ben Cull
+createdByEmail: BenCull@ssw.com.au
+guid: c97f2177-c0d7-445e-bda7-fb4909db7710
+isArchived: false
+lastUpdated: 2015-11-02 10:55:32+00:00
+lastUpdatedBy: Ben Cull
+lastUpdatedByEmail: BenCull@ssw.com.au
+redirects: []
+seoDescription: Mastering build naming conventions ensures easy identification of
+  their purpose.
+title: Do you know how to name your builds?
+type: rule
+uri: do-you-know-how-to-name-your-builds
+---
+
+You should always follow a naming standard when naming your builds. This helps you identify their purpose at a glance.
+
+<endIntro />
+
+The build name should have the following suffixes, depending on their purpose:
+
+- **.CI** - For continuous integration builds. These are triggered automatically and do not deploy anywhere.
+- **.CD.[Environment]** - For continuous delivery builds. These are triggered automatically and deploy to an environment. You should specify which environment it deploys to as well.
+
+![](/uploads/rules/do-you-know-how-to-name-your-builds/buildnames.png)
+**✅ Good Example: We have two continuous delivery builds to our staging environment.**

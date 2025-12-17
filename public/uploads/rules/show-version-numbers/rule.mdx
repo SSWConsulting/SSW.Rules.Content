@@ -1,0 +1,82 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2016-03-22 05:59:17+00:00
+guid: 121f7d57-3ad5-4291-a7dc-95badbe2711b
+redirects:
+- do-you-include-version-numbers-in-your-file
+- include-version-numbers-in-your-file
+related:
+- rule: public/uploads/rules/make-numbers-more-readable/rule.mdx
+- rule: public/uploads/rules/awesome-documentation/rule.mdx
+- rule: public/uploads/rules/how-to-name-documents/rule.mdx
+seoDescription: Ensure clarity and easy updates by adding version numbers to your
+  documents and design files.
+title: Do you have version numbers in documents and design files?
+type: rule
+uri: show-version-numbers
+---
+
+It is very important to have your Word, PowerPoint, PDFs, and design documents up-to-date. You should also make it easy for anyone to identify which version they are looking at. The most effective way to achieve this is by **placing the version number on the right-hand side of the footer**.
+
+<endIntro />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Version number on the RHS of a design document"
+  src="/uploads/rules/show-version-numbers/scrum-image-version-number.png"
+/>
+
+
+See [how you increase the version number](/semantic-versioning):
+
+* Major **1.0** - Rarely change - only with major upgrades. E.g. Complete redesign
+* Minor **1.1** - New features / release (customer facing) E.g. Add/remove a heading or a section
+* Revision **1.11** - Emergency maintenance, spelling fixes
+
+### Add major version numbers in internal file names
+
+For internal use, it is also good practice to include the major version number in the name of the files. This helps navigating through the old and the new versions, and makes it easy to roll back any changes and use an older version. For public files you should **not** include version numbers.
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Warning:** This should only be changed on **major versions** and only on **internal documents**.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    codeauditor\file.pdf
+codeauditor\new\file.pdf
+codeauditor\file_latest.pdf
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Internal file names do not show any version information"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    codeauditor\file_v1.pdf
+codeauditor\file_v2.pdf
+codeauditor\file_v3.pdf
+  </>}
+  figurePrefix="good"
+  figure="Good example - Internal file names show the version information"
+/>

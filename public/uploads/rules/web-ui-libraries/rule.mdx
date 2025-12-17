@@ -1,0 +1,169 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  title: Daniel Šmon
+  url: https://ssw.com.au/people/daniel-smon
+- title: Isaac Lombard
+  url: https://ssw.com.au/people/isaac-lombard
+created: 2013-12-18 15:32:43+00:00
+guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
+redirects:
+- do-you-use-the-best-web-ui-libraries
+seoDescription: Discover the best Web UI libraries for your projects. Learn about
+  shadcn/ui for React and Bootstrap for general use, and explore other useful frameworks
+  to enhance your web applications.
+title: Do you use the best Web UI libraries?
+type: rule
+uri: web-ui-libraries
+---
+
+Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://ui.shadcn.com) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
+
+<endIntro />
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    When using Bootstrap it's best to opt for the framework specific integration of Bootstrap, for example Angular users would opt for [NgBootstrap](https://ng-bootstrap.github.io/#/home).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+## shadcn/ui – customized with V0 (Recommended)
+
+Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a separate library by utilising path aliases.
+
+The trade-off of this approach is that any updates made to the Shadcn code base won't automatically be reflected in your code base. You should consider this when electing to use Shadcn. If having a distinct look and feel for your UI is unimportant, and you don't want to maintain your UI, a conventional library such as [Material UI](https://mui.com/) may be better for your project.
+
+Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com), an industry standard framework that offers an opinionated approach to managing your css classes. This makes it even easier to manage customizations made to your components.
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+To install/[update](https://github.com/shadcn-ui/ui/discussions/790) all Shadcn/ui components at once, you can use the npx command: `npx shadcn@latest add -a -y -o`.
+
+* **Hybrid approach** - Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality
+* **Modern design system** - Comes with clean, accessible, and responsive components that follow modern design principles
+
+V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways.
+It's also integrated with the shadcn/ui path alias conventions.
+For more info, see the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
+
+In effect, these technologies together let you quickly build your own custom component library for any React application.
+
+Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+```jsx
+const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
+  {/*
+    Classes in the second argument of "cn"
+    will override classes in the first argument
+  */}
+  return <h1 className=cn("font-semibold text-xl", className)>{children}</h1>
+}
+
+
+const Layout = ({children}: {children: React.ReactNode})=>{
+
+  return <main>
+          {/* text-2xl will be applied here */}
+          <Heading1 className="text-2xl">
+            Hello world!
+          </Heading1>
+          {children}
+        </main>
+}
+```
+
+
+<youtubeEmbed url="https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u" description={"Video – Why Everyone Loves Shadcn UI Right Now (1 min)"} />
+
+
+For a more in depth look, see the video later on.
+
+---
+
+## Bootstrap
+
+Bootstrap has been the go-to general-purpose component library for years.
+
+* **Wide adoption** - It’s the most popular library, meaning more community support, tutorials, third-party plugins, and better integration
+* **Framework agnostic** - Works seamlessly with JS, Angular, React, Vue, or even pure HTML/CSS
+* **Optimized ports** - Specialized ports exist for frameworks like [React Bootstrap](https://react-bootstrap.netlify.app)
+
+While Bootstrap is a safe and reliable choice, it does have drawbacks, such as limited customizability and heavy reliance on CSS overrides to achieve bespoke designs.
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    You can see the popularity of various frameworks at [star-history.com](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Date).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+---
+
+## If you want to find a better fit
+
+First consider the import type – some component libraries, such as shadcn/ui, use a "copy and paste" style of code sharing, while others (Bootstrap) have typical import behaviour (hiding implementation details behind their APIs). The latter kind are typically easier to use, but harder to extend.
+
+There's also a divide in terms of maintenance responsibility – if you copy and modify code into your project, you'll have update code to newer versions yourself.
+
+Alternatively, package imports may be upgraded and maintained by the community, but you have to be conscious of any API changes.
+
+When evaluating a component library, also keep in mind:
+
+* **Community support** - Does it have an active user base, comprehensive documentation, and external resources like tutorials and plugins?
+* **Integration** - How well does it work with your current tech stack (e.g., React, Angular, Vue)?
+* **Performance** - Does it maintain fast load times and responsiveness, even with complex components?
+
+### Deep Dive: Front-End Development with shadcn/ui and Next.js
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/U8LyScigrcA?si=VE5qksK9YKgObQoX&amp;start=668" description={"Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library, from 11:08 (10 mins)"} />
+
+
+## Popular component libraries (ordered by stars)
+
+* **[Bootstrap](https://getbootstrap.com)** - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web
+* **[Material UI (MUI)](https://mui.com)** - A popular React UI framework following Google’s Material Design guidelines
+* **[Ant Design](https://ant.design)** - A comprehensive React-based UI framework with a strong focus on enterprise applications
+* **[shadcn/ui](https://ui.shadcn.com)** - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source
+* **[Chakra UI](https://chakra-ui.com)** - A modular and accessible component library for React with a focus on design flexibility
+* **[Mantine](https://mantine.dev)** - A flexible and fully accessible UI library with 100+ customizable components and hooks for React
+* **[PrimeReact](https://primereact.org)** - A comprehensive collection of components for React, part of the PrimeFaces family
+* **[NextUI](https://nextui.org)** - A modern React UI library optimized for dark mode by default with customizable components
+* **[React Suite](https://rsuitejs.com)** - A set of React components built for middle and back-office applications
+* **[KendoUI](https://www.telerik.com/kendo-ui)** - Offers advanced HTML and jQuery controls for data grids, charts, and more
+
+What's your favourite UI library?

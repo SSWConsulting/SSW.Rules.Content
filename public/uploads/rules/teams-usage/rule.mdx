@@ -1,0 +1,73 @@
+---
+authors:
+- title: Jean Thirion
+  url: https://www.ssw.com.au/people/jean-thirion
+created: 2021-11-17 06:17:05.753000+00:00
+guid: afceb7ff-03e5-4260-87b8-71d581c73ffd
+related:
+- rule: public/uploads/rules/sharepoint-usage/rule.mdx
+seoDescription: Microsoft Teams usage reports help identify popular and unused teams,
+  track adoption, and monitor meeting and chat activity.
+title: Do you review Microsoft Teams usage reports?
+type: rule
+uri: teams-usage
+---
+
+Usage analytics is quite important - it allows you to identify popular and unused teams, and helps figuring out Microsoft Teams adoption across your business (i.e. How many meetings? How many chats? etc...)
+
+There are 2 places to check for usage reports in Teams:
+
+<endIntro />
+
+### Team Usage
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='Access team usage from "Team Settings" | "Manage Team" | "Analytics"'
+  src="/uploads/rules/teams-usage/teams-team-usage.jpg"
+/>
+
+
+### Tenant Usage
+
+This is by far the most interesting and import report. You need special (tenant-level) permissions to access those [usage reports](https://admin.microsoft.com/?source=applauncher#/reportsUsage/TeamsUserActivityV1).
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='Access tenant level usage via "Office 365 Admin Center" | "Reports" | "Usage" | "View More" (under Microsoft Teams activity section)'
+  src="/uploads/rules/teams-usage/teams-tenant-usage.jpg"
+/>
+
+
+Now enjoy the full power of Teams usage analytics!
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='Click on column names to sort data (e.g. "Chat Messages")'
+  src="/uploads/rules/teams-usage/teams-tenant-usage-home.jpg"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Important:** If you can't see users logins such but GUIDs instead, you will need some SysAdmin magic to make it happen. Simply follow these steps: [Show user details in the reports](https://docs.microsoft.com/en-AU/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide#show-user-details-in-the-reports&WT.mc_id=M365-MVP-33518)
+
+...and unlock the power of full O365 reporting!
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

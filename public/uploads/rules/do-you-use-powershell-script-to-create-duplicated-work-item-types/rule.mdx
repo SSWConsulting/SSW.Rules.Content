@@ -1,0 +1,64 @@
+---
+archivedreason: null
+authors:
+- title: Lei Xu
+  url: https://ssw.com.au/people/lei-xu
+created: 2012-07-18 07:43:04+00:00
+createdBy: Lu Zhang
+createdByEmail: LuZhang@ssw.com.au
+guid: 966ffc8c-7734-4557-8511-75e80e9b67c8
+isArchived: false
+lastUpdated: 2021-03-26 05:06:40.515000+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects: []
+seoDescription: Do you create duplicated work item types using PowerShell scripts
+  to efficiently configure different department access and minor variations?
+title: Do you use PowerShell script to create duplicated work item types?
+type: rule
+uri: do-you-use-powershell-script-to-create-duplicated-work-item-types
+---
+
+Sometimes you will need to create duplicate work item types, e.g. a task work item may be clones as PlatformDepTask, SystemDepTask; both of these task work items are sharing the same fields, workflow or layouts, but they are configured to be accessible by different department or there is some other minor differences.
+
+You should create a WIT template and use a place holder for the difference, e.g.
+
+```xml
+<WORKITEMTYPE name="xxxxDepNamexxxxTask">
+  ...
+</WORKITEMTYPE>
+```
+
+**Figure: WIT template with a placeholdera**
+
+<endIntro />
+
+Then use the following PowerShell script to automatically clone the work item and replace the placeholder with actual text.
+
+```pwsh
+$original\_file = '..\WorkItem Tracking\TypeDefinitions\Task\_Template\_DONOTInstall.xml'
+
+$destination\_file =  '..\WorkItem Tracking\TypeDefinitions\Task\_ PlatformDep.xml'
+(Get-Content $original\_file) | Foreach-Object {
+    $\_ -replace "xxxxDepNamexxxx", "PlatformDep"
+    } | Set-Content $destination\_file -Encoding UTF8
+
+$destination\_file =  '..\WorkItem Tracking\TypeDefinitions\Task\_SystemDep.xml'
+(Get-Content $original\_file) | Foreach-Object {
+   $\_ -replace "xxxxDepNamexxxx", "SystemDep"
+   } | Set-Content $destination\_file -Encoding UTF8
+```
+
+**Figure: PowerShell script to create duplicate WITs and replace the place holder with actual data**
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    Note: if you are using non-English characters in your
+template, make sure you add `–Encoding UTF8` otherwise you will have some
+encoding problems.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

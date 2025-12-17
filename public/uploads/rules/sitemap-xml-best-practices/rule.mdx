@@ -1,0 +1,53 @@
+---
+authors:
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+created: 2024-05-01 00:00:00+00:00
+guid: 987059cf-0ec4-43d4-b9b8-ac8c83b8dfb3
+related:
+- rule: public/uploads/rules/page-indexed-by-google/rule.mdx
+- rule: public/uploads/rules/seo-checklist/rule.mdx
+seoDescription: Learn how to structure a sitemap.xml that search engines and auditing
+  tools like Semrush can crawl without issues.
+title: Do you have a crawler-friendly sitemap.xml?
+type: rule
+uri: sitemap-xml-best-practices
+---
+
+When search engines or auditing platforms visit your site they expect a clean `sitemap.xml`. A broken or poorly formatted sitemap wastes crawl budget, hides new pages, and triggers avoidable health errors in reports.
+
+<endIntro />
+
+A minimal sitemap must follow the [Sitemaps XML protocol](https://www.sitemaps.org/protocol.html). Start by using UTF-8 encoding, include the XML declaration, and wrap every entry inside a `<urlset>` element with the official namespace. Here is a solid foundation:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.example.com/</loc>
+    <lastmod>2024-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+```
+
+## Good format checklist
+
+1. Host the file at `https://example.com/sitemap.xml` with a `200` response, UTF-8 encoding, and `application/xml` content type
+2. Keep the file under 50 MB or 50 000 URLs; split into multiple sitemaps with an index file when you exceed either limit
+3. Use absolute canonical URLs that return `200` responses and avoid query-string duplicates
+4. Provide `<lastmod>` in `YYYY-MM-DD` (or full ISO 8601) so tools can prioritise recent content
+5. Only include pages you want indexed; omit `noindex`, `robots.txt`-blocked, or paginated duplicates
+6. Update the sitemap whenever you publish, move, or remove pages so crawlers detect changes quickly
+7. Reference the sitemap in `robots.txt` and submit it to Google Search Console and Bing Webmaster Tools for extra visibility
+8. Gzip large sitemaps and ensure the compressed version stays within limits before linking it in the sitemap index
+
+## Tips for Semrush crawls
+
+* Run the Semrush Site Audit after each release to confirm the sitemap is reachable and free of format errors
+* Use the Semrush Crawl Comparison report to ensure new sitemaps reduce warnings such as "Incorrect Page URL" or "Sitemap XML format error"
+* Monitor the Semrush Issues tab for "Submitted URL not found"; fix by removing stale URLs or redirecting them before the next crawl
+* Combine Semrush alerts with Search Console crawl stats so you can spot indexation drops early

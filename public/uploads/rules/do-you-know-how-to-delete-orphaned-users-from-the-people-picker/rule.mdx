@@ -1,0 +1,75 @@
+---
+archivedreason: null
+authors: []
+created: 2012-02-27 16:26:00+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: c31997cb-b93b-42a7-8c6c-41efeea1d0db
+isArchived: false
+lastUpdated: 2015-09-01 01:51:25+00:00
+lastUpdatedBy: William Yin
+lastUpdatedByEmail: WilliamYin@ssw.com.au
+redirects: []
+seoDescription: Delete orphaned users from SharePoint's People Picker and keep your
+  site organized with a simple URL and a few clicks.
+title: Do you know how to delete orphaned users from the People Picker?
+type: rule
+uri: do-you-know-how-to-delete-orphaned-users-from-the-people-picker
+---
+
+The SharePoint "People Picker" is a great tool for quickly selecting users of your SharePoint site. It allows you to quickly select users from your organization by browsing Active Directory.
+
+<endIntro />
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The People Picker"
+  src="/uploads/rules/do-you-know-how-to-delete-orphaned-users-from-the-people-picker/PeoplePicker.jpg"
+/>
+
+
+Unfortunately, if you have added users directly to your site collection, and later deleted or disabled them from Active Directory, you will notice that these orphaned users will still appear in your People Picker. This will eventually clutter up your People Picker.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="A user in the People Picker that was deleted from Active Directory"
+  src="/uploads/rules/do-you-know-how-to-delete-orphaned-users-from-the-people-picker/PeoplePicker-deleted.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Searching in Active Directory for the user shows the user is in fact deleted"
+  src="/uploads/rules/do-you-know-how-to-delete-orphaned-users-from-the-people-picker/PeoplePicker-searching.jpg"
+/>
+
+
+To remove these orphaned users, as a SharePoint Administrator, you can open the following URL (where "www.northwind.com" is your SharePoint URL):
+
+* `http://www.northwind.com/\_catalogs/users/sample.aspx`
+
+On this page you will find a list of all the users that are members of your site collection, including the orphaned users.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="We have found our orphaned user!"
+  src="/uploads/rules/do-you-know-how-to-delete-orphaned-users-from-the-people-picker/PeoplePicker-found.jpg"
+/>
+
+
+To remove the user simply click on the **Username** | Click **Delete User from Site Collection** . This will instantly remove the user from the People Picker.

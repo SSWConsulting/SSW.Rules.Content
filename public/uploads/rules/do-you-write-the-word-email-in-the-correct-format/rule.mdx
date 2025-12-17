@@ -1,0 +1,92 @@
+---
+archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2015-03-05 07:00:24+00:00
+createdBy: Michael Demarco
+createdByEmail: michaelDemarco@ssw.com.au
+guid: acb77e0d-7594-41d6-8dd9-37e687d25e49
+isArchived: true
+lastUpdated: 2020-07-29 22:32:09+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- spelling-do-you-write-the-word-email-in-the-correct-format
+seoDescription: Write your email correctly, not EMail or e- mail, but simply 'email'.
+  Ensure your email address matches your confirmed email address.
+title: Do you write the word 'email' in the correct format?
+type: rule
+uri: do-you-write-the-word-email-in-the-correct-format
+---
+
+Do you spell 'email' correctly?
+
+<endIntro />
+
+There is one correct way to spell 'email' and many incorrect ones. The common incorrect ones are:
+
+- EMail
+- e-mail
+
+Lower Case with dash (or hyphen):
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &lt;p&gt;Your ==e-mail== address must match your confirm ==e-mail== address&lt;/p&gt;
+
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**❌ Bad example: Using 'e-mail' in your text**  
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    &lt;p&gt;Your ==email== address must match your confirm ==email== address&lt;/p&gt;
+
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**✅ Good example: Using 'email' instead**  
+
+Upper Case with capital M:
+
+```html
+<input
+  class="form-control"
+  data-val="true"
+  data-val-required="The EMail field is required."
+  id="EMail"
+  name="EMail"
+  placeholder="EMail"
+  type="email"
+  value=""
+  data-cip-id="EMail"
+  autocomplete="off"
+/>
+```
+**❌ Bad example : 'EMail' used as a placeholder and in the validation message**  
+
+```html
+<input
+  class="form-control"
+  data-val="true"
+  data-val-required="The Email field is required."
+  id="Email"
+  name="Email"
+  placeholder="Email"
+  type="email"
+  value=""
+  data-cip-id="Email"
+  autocomplete="off"
+/>
+```
+**✅ Good example: Use 'Email' instead**  
+
+We have a rule in [SSW Code Auditor](https://www.ssw.com.au/ssw/codeauditor/) and [SSW Link Auditor](https://sswlinkauditor.com/) to check for this.

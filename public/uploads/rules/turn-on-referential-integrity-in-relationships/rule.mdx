@@ -1,0 +1,45 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-11-12 23:56:31+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: b90d91f8-46fb-45b7-947b-c8ce43621844
+isArchived: false
+lastUpdated: 2019-12-31 06:23:49+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+redirects:
+- relationships-do-you-turn-on-referential-integrity-in-relationships
+related:
+- rule: public/uploads/rules/avoid-using-cascade-delete/rule.mdx
+- rule: public/uploads/rules/use-update-cascade-when-creating-a-relationship/rule.mdx
+seoDescription: Ensure referential integrity in relationships by enabling cascading
+  constraints to maintain data consistency and prevent orphaned records.
+title: Relationships - Do you turn on referential integrity in relationships?
+type: rule
+uri: turn-on-referential-integrity-in-relationships
+---
+
+Cascading referential integrity constraints allow you to define the actions SQL Server takes when a user attempts to delete or update a key to which existing foreign keys point. The REFERENCES clauses of the CREATE TABLE and ALTER TABLE statements support ON DELETE and ON UPDATE clauses:
+
+- [ ON DELETE { CASCADE | NO ACTION } ]
+- [ ON UPDATE { CASCADE | NO ACTION } ]
+
+NO ACTION is the default if ON DELETE or ON UPDATE is not specified.
+
+<endIntro />
+
+Relationships should always have referential integrity turned on. If you turned it on after data has been added, you may have data in your database that violates your referential integrity rules.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Recommended referential integrity constraints"
+  src="/uploads/rules/turn-on-referential-integrity-in-relationships/ReferentialIntegrityCheck.jpg"
+/>

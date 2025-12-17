@@ -1,0 +1,16 @@
+{
+  "name": "algolia-indexer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Script to index MDX files into Algolia",
+  "main": "update_algolia_index.js",
+  "scripts": {
+    "start": "node update_algolia_index.js"
+  },
+  "dependencies": {
+   "algoliasearch": "^5.25.0",
+    "dotenv": "^16.5.0",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3"
+  }
+}

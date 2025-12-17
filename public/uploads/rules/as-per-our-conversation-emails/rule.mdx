@@ -1,0 +1,188 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/ulysses-maclaren
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Justin King
+  url: https://ssw.com.au/people/justin-king
+created: 2021-10-08 00:50:35.021000+00:00
+createdBy: Jake Bayliss
+createdByEmail: 32888060+jakebayliss@users.noreply.github.com
+guid: f88e2745-24a0-4922-9bbe-ef831fd7fa64
+isArchived: false
+lastUpdated: 2021-10-08 00:50:35.021000+00:00
+lastUpdatedBy: Jake Bayliss
+lastUpdatedByEmail: 32888060+jakebayliss@users.noreply.github.com
+redirects:
+- do-you-send-＂as-per-our-conversation＂-emails
+- do-you-send-as-per-our-conversation-emails
+related:
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+- rule: public/uploads/rules/do-you-manage-up/rule.mdx
+- rule: public/uploads/rules/request-a-test-please/rule.mdx
+- rule: public/uploads/rules/conduct-a-test-please/rule.mdx
+- rule: public/uploads/rules/seek-clarification-via-phone/rule.mdx
+- rule: public/uploads/rules/warn-then-call/rule.mdx
+- rule: public/uploads/rules/do-you-prepare-then-confirm-conversations-decisions/rule.mdx
+seoDescription: Do you send "As Per Our Conversation" emails to ensure important conversations
+  are documented and decisions are confirmed?
+title: Do you send "As Per Our Conversation" emails?
+type: rule
+uri: as-per-our-conversation-emails
+---
+
+Always follow up **important** conversations (usually via phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
+
+When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“==checked by XXX==”](/checked-by-xxx) at the top before sending.
+
+<endIntro />
+
+Watch the video below and see how a single email can make your job easier.
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/falcO6smD_8" description={"Video: Do you send \"As Per Our Conversation\" emails? (2 min)"} />
+
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
+
+==As per our conversation,== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure='Good example - Using "As per our conversation" email'
+/>
+
+This is not just a 'cover my ass' email. This is for several reasons:
+
+* To make sure that you did not get the message wrong
+* To keep an audit trail of agreed decisions
+* To keep people, who were not a party to the conversation, informed about the progress
+
+Use this approach internally and with clients. As a result, expect to see "as per our conversation" emails that:
+
+* **Require a task to be completed**
+* Explain the logic of the decision
+* Include URLs that were referred to
+* Can be referred back to in the future
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Notes:**
+
+* This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
+* Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
+* For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
+
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+It's easy to fall into the trap of sounding rather robotic if you start every email with "As per our conversation", or "As per the message I just left on your mobile", etc. Here's a list of nice email openers that have the same effect:
+
+"As per our conversation" alternatives:
+
+* Thanks for the chat
+* Good talking to you
+* As discussed...
+
+"As per the message I left on your mobile" alternatives:
+
+* I couldn't catch you on the phone today.
+* I just left you a quick voicemail.
+* I called earlier but couldn't get through.
+* Hey I just called earlier to say...
+
+### What if they don't answer?
+
+In most cases, you don't want to be blocked by not being able to have a conversation with the client or Product Owner. In the case where you can't reach them by calling them on the phone or Microsoft Teams, you will have to make a decision by yourself.
+
+In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="Spec Review for Northwind"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
+
+==I tried calling you but didn't get through.== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure="Good example - Email when you can't reach the person by calling"
+/>
+
+You should also send a quick message on Microsoft Teams with a brief summary of the decision you made, referencing the email you sent about the decision.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Using Microsoft Teams when you can't reach the person by calling"
+  src="/uploads/rules/as-per-our-conversation-emails/teams-example-confirmation.png"
+/>
+
+
+### Location - include the reason at the top
+
+When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="RE: PowerBi error"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
+
+![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
+
+==I couldn't call you as I’m still in the hospital.==
+
+1. ==Can you fix this?==
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Reason at the bottom"
+/>
+
+<emailEmbed
+  from=""
+  to="John"
+  cc=""
+  bcc=""
+  subject="RE: PowerBi error"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi John
+
+==I couldn't call you as I’m still in the hospital.==
+
+1. ==Can you fix this?==
+
+![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
+  </>}
+  figurePrefix="good"
+  figure="Good example - Reason at the top"
+/>
+
+**Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

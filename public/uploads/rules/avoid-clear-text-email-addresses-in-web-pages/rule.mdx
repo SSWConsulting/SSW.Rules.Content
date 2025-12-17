@@ -1,0 +1,50 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-23 20:39:14+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: ab0fc8a3-97b0-43ac-b944-9ac6ef9a65a8
+isArchived: false
+lastUpdated: 2021-04-27 00:59:03.693000+00:00
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@me.com
+redirects:
+- do-you-avoid-clear-text-email-addresses-in-web-pages
+seoDescription: Prevent spam and protect your email addresses from being scraped by
+  avoiding clear text emails on your website.
+title: Do you avoid clear text email addresses in web pages?
+type: rule
+uri: avoid-clear-text-email-addresses-in-web-pages
+---
+
+Clear text email addresses in web pages are very dangerous because it gives spam sender a chance to pick up your email address, which produces a lot of spam/traffic to your mail server, this will cost you money and time to fix.
+
+Never put clear text email addresses on web pages.
+
+<endIntro />
+
+```html
+<!--SSW Code Auditor - Ignore next line(HTML)-->
+<a href="mailto:test@ssw.com.au">Contact Us</a>
+```
+**❌ Bad - Using a plain email address that it will be crawled and made use of easily**  
+
+```html
+<a href="javascript:sendEmail('74657374407373772e636f6d2e6175')" onmouseover="javascript:displayStatus('74657374407373772e636f6d2e6175');return true;" onmouseout="javascript:clearStatus(); return true;">Contact Us</a>
+```
+**✅ Good - Using an encoded email address**  
+
+**Tip:** If you use Wordpress, use the [Email Encoder Bundle plugin](https://wordpress.org/plugins/email-encoder-bundle) to help you encode email addresses easily.
+
+
+<boxEmbed
+  style="codeauditor"
+  body={<>
+    We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

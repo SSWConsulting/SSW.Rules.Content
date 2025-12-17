@@ -1,0 +1,139 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2012-11-27 08:43:03+00:00
+createdBy: Rebecca Liu
+createdByEmail: RebeccaLiu@ssw.com.au
+guid: 98768e5a-930e-48db-bc05-11d6fe0d7a76
+isArchived: false
+lastUpdated: 2017-02-23 14:37:41+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- controls-do-you-include-a-＂select-all＂-checkbox-on-the-top
+seoDescription: Improve user experience by adding a top "select all" checkbox for
+  easy management of checkboxes in lists.
+title: Controls - Do you include a "select all" checkBox on the top?
+type: rule
+uri: controls-do-you-include-a-select-all-checkbox-on-the-top
+---
+
+Do you have checkbox (on the top) that let users select or unselect all checkboxes underneath it? If you have a list of checkboxes, you are going to frustrate users unless you provide an easy way to select all. The best way to achieve this is to have a checkbox at the top.
+
+<endIntro />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - Hotmail does this"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/HotmailSelectAll.gif"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Google have done it a different way to provide multiple methods (All, All Read, All Unread, All Starred, and All Unstarred)"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/GmailSelectAll.gif"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure='Bad Example - SQL Auditor - No CheckBox for users to perform a "select all"'
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_Bad.jpg"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - SQL Auditor - CheckBox at the top of the column"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_good.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Selecting all does this - selects all"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_All.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Deselecting all does this - selects none"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_None.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Selecting some should show the Indeterminate check state - aka customized selection"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SQLAuditorSelectAll_Customize.jpg"
+/>
+
+
+```
+Private Sub CheckBoxSelectAll\_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) \_
+Handles CheckBoxSelectAll.CheckedChanged
+'Select checkbox in each row
+For Each sDataGridViewRow As DataGridViewRow In Me.DataGridViewCustomer.Rows
+sDataGridViewRow.Cells(0).Value = Me.CheckBoxSelectAll.Checked
+Next
+End Sub
+```
+
+Code: Code for selecting all checkboxes in a windows form
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Select all checkboxes in a web form"
+  src="/uploads/rules/controls-do-you-include-a-select-all-checkbox-on-the-top/SelectAllCheckBox_Web.jpg"
+/>
+
+
+```
+&lt;script type="text/javascript"&gt;
+function SeleteCheckBox()
+{
+for (var n=0; n &lt; document.form1.elements.length; n++)
+{
+if (document.form1.elements[n].type == "checkbox" && document.form1.elements[n].name == "gridview")
+{
+document.form1.elements[n].checked = document.getElementById("CheckBoxAll").checked;
+}
+}
+}
+&lt;/script&gt;
+```
+
+Code: Code for selecting all checkboxes in a web form
+We have suggestions for Visual Studio .NET about this at [A top CheckBox to "select all" in windows forms](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSForm.aspx#SelectAllCheckWindows) and [A top CheckBox to "select all" in web forms.](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSAjax.aspx#SelectAllCheckWeb)

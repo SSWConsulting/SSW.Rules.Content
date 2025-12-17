@@ -1,0 +1,82 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2009-10-05 11:17:23+00:00
+createdBy: Eric Phan
+createdByEmail: ericphan@ssw.com.au
+guid: c40124b5-f5e9-4f6c-8085-e3b91e645379
+isArchived: false
+lastUpdated: 2021-02-26 05:05:12.901000+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+redirects:
+- do-you-have-a-＂schema-master＂
+- do-you-have-a-schema-master
+seoDescription: Do you have a "Schema Master"? To avoid database trouble when many
+  developers make schema changes, designate one person or the release pipeline to
+  upgrade the database, reviewing all modifications and scripts.
+title: Do you have a "Schema Master"?
+type: rule
+uri: have-a-schema-master
+---
+
+You have a website master right? This is the central point of contact if the site goes down.
+When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble...
+
+<endIntro />
+
+To avoid this problem, only one person (the "Schema Master") or the release pipeline should have permissions to upgrade the database.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='The db_owner role is granted for one person only – the "Schema Master"'
+  src="/uploads/rules/have-a-schema-master/fullpermission.jpg"
+/>
+
+
+Who is the "Schema Master"? What do they do?
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="One person should be the 'Schema Master', on an average sized project (of 5-10 devs)"
+  src="/uploads/rules/have-a-schema-master/Nick.png"
+/>
+
+
+If your project has a database, you need to select a "Schema Master". This is the one person who should review all modifications to the database. These include:
+
+- Creating, Modifying and Deleting tables and columns
+- Relationships
+- Modify [Controlled Lookup Data](/do-you-deploy-controlled-lookup-data)
+
+The "Schema Master" in a development shop is often the lead programmer on the team. They are in charge of all database changes and scripts. Team members should still feel free to make changes, just get them double checked by the Schema Master.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The Applications Database stores version info in a table called _zsVersion"
+  src="/uploads/rules/have-a-schema-master/zsVersionTable.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='Only a "Schema Master" checks in the .sql files'
+  src="/uploads/rules/have-a-schema-master/SQLScriptInTFS.png"
+/>

@@ -1,0 +1,38 @@
+---
+archivedreason: null
+authors:
+- title: Liam Elliott
+  url: https://ssw.com.au/people/liam-elliott
+- title: Matt Wicks
+  url: https://ssw.com.au/people/matt-wicks
+created: 2020-01-29 05:13:02+00:00
+createdBy: Liam Elliott
+createdByEmail: LiamElliott@ssw.com.au
+guid: b3edf18e-2d0e-456c-83a1-615761899bb9
+isArchived: false
+lastUpdated: 2020-01-29 05:36:48+00:00
+lastUpdatedBy: Liam Elliott
+lastUpdatedByEmail: LiamElliott@ssw.com.au
+redirects:
+- do-you-use-string-interpolation-when-formatting-strings
+seoDescription: Using string interpolation when formatting strings greatly reduces
+  boilerplate code and makes it more human-readable.
+title: Do you use string interpolation when formatting strings
+type: rule
+uri: use-string-interpolation-when-formatting-strings
+---
+
+String Interpolation - greatly reduces the amount of boilerplate code required when working with strings
+Formatting strings on the fly was previously a task which required a stack of boilerplate code
+
+<endIntro />
+
+```cs
+var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
+```
+**❌ Figure: Bad Example - Using String.Format() makes the code difficult to read**  
+
+```cs
+var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
+```
+**✅ Figure: Good Example - String Interpolation is very human readable**

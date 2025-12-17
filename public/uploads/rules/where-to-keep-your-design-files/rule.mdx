@@ -1,0 +1,70 @@
+---
+archivedreason: null
+authors:
+- title: Rebecca Liu
+  url: https://ssw.com.au/people/rebecca-liu
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ken Shi
+  url: https://ssw.com.au/people/ken-shi
+created: 2014-03-03 04:11:03+00:00
+guid: 77730639-c6a0-490a-8892-a96e56b25f7d
+redirects:
+- do-you-know-the-best-source-control-for-designers
+related:
+- rule: public/uploads/rules/software-for-ux-design/rule.mdx
+- rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
+- rule: public/uploads/rules/version-control-software-for-designers/rule.mdx
+seoDescription: Design files stored incorrectly can lead to version control issues
+  and collaboration challenges.
+title: Do you know where to keep your design files?
+type: rule
+uri: where-to-keep-your-design-files
+---
+
+Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.
+
+<endIntro />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example – Azure DevOps (was VSTS/TFS) takes too long to set up and too slow to use"
+  src="/uploads/rules/where-to-keep-your-design-files/Designer-Source-Control-TFS.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example – Dropbox or OneDrive"
+  src="/uploads/rules/where-to-keep-your-design-files/Designer-Source-Control-DropBox.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example – OneDrive and Teams"
+  src="/uploads/rules/where-to-keep-your-design-files/Teamsfiles.png"
+/>
+
+
+
+<boxEmbed
+  style="china"
+  body={<>
+    Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+For developers, see [Do you know where to keep your files?](/do-you-know-where-to-keep-your-files)

@@ -1,0 +1,58 @@
+---
+archivedreason: null
+authors:
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+created: 2016-10-25 16:49:59+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 76d190a7-1bb9-4085-9223-8c4615b50c7c
+isArchived: false
+lastUpdated: 2016-10-25 17:02:01+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- do-you-know-what-errors-to-filter-out
+seoDescription: What errors to filter out? Learn how to hide frequent exceptions with
+  RayGun's built-in filtering and improve your crash reporting experience.
+title: Do you know what errors to filter out?
+type: rule
+uri: what-errors-to-filter-out
+---
+
+You should always keep on top of your RayGun crashreporting and not let the errors spiral out of control. If use RayGun with a web application, then you’ll frequently get a lot of errors with robots scanning the site and creating 404s.
+
+<endIntro />
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad Example – Most of these errors are 404s cause by automated tools scanning for vulnerabilities"
+  src="/uploads/rules/what-errors-to-filter-out/raygun-fileter-bad.png"
+/>
+
+
+Luckily RayGun has built-in filtering to hide these frequent exceptions.
+
+![](/uploads/rules/what-errors-to-filter-out/raygun-filter.png)
+
+To enable filtering:
+
+1. Under **Crash Reporting** &gt; select **Filtering**
+2. SSW recommends you turn on the following rules
+   1. Discard any requesters where the user-agent is a known crawler bot
+   2. Discard any request for non-existent resources (404)
+   3. Discard any requests related to phpMyAdmin access attempts
+
+Now you should have a nice clean crash report page with actual errors.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example – Now that the noise is gone, we can see the actual errors"
+  src="/uploads/rules/what-errors-to-filter-out/raygun-filter-good.jpg"
+/>

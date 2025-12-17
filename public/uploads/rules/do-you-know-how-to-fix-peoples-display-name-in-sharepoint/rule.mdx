@@ -1,0 +1,45 @@
+---
+archivedreason: null
+authors:
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+created: 2011-05-20 02:28:02+00:00
+createdBy: SSW2000\cindywang
+createdByEmail: CindyWang@ssw.com.au
+guid: c0c9be24-8f8c-43cd-b16a-4f3cab26d2fc
+isArchived: false
+lastUpdated: 2011-05-20 02:28:02+00:00
+lastUpdatedBy: SSW2000\cindywang
+lastUpdatedByEmail: CindyWang@ssw.com.au
+redirects: []
+seoDescription: Fixing people's display name in SharePoint involves updating the Name
+  field in the User Profile Service Application or setting up User Profile Synchronization
+  to keep profiles up to date.
+title: Do you know how to fix people's display name in SharePoint ?
+type: rule
+uri: do-you-know-how-to-fix-peoples-display-name-in-sharepoint
+---
+
+When SharePoint encounters a new person, it takes people's display name and account name from Active Directory, but sometimes
+
+<endIntro />
+
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/MixUpNames.jpg)**Figure: Mixed up names - some are good Display Name, some are essentially just the Account Name** (More here)
+
+The easiest way to fix this requires someone with central administration access:1. Go to: SharePoint Central Administration | Application Management | Service Applications | Manage Service applications
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/ServiceApplication.jpg) 2. Go to User Profile Service Application
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/UserProfileServiceApplication.jpg) 3. Go to Manage User Profiles
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/ManageUserProfiles.jpg) 4. Find the user profile that you want to update
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/FindUserProfile.jpg) 5. Fix the Name field (Display name)
+![](/uploads/rules/do-you-know-how-to-fix-peoples-display-name-in-sharepoint/FixNameField.jpg) 6. Save
+
+Better way
+The better way is to set up User Profile Synchronization and have SharePoint communicate with Active Directory on a schedule and keep user's profile information up to date. Unfortunately, it can be tricky to set this up in SharePoint 2010.
+
+Technical
+When a user is entered (or using) a SharePoint site, the site will first check with Central Admin (the farm) to enquire about this user's profile details. The farm grabs the account name and display name from Active Directory, but does not keep this synchronized.
+
+Unless configured otherwise, end users in SharePoint do not have the ability to modify their own display name. And the best place to update this is to either:
+
+1. Modify the farm user information list cache (via steps above), or
+2. Set up User Profile Synchronization

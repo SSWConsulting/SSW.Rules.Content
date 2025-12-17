@@ -1,0 +1,31 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-11-14 22:30:36+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 66e5d862-74c1-440d-89df-3c27ab1d0485
+isArchived: false
+lastUpdated: 2019-12-31 01:48:26+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
+redirects:
+- middle-tier-do-you-implement-business-logic-in-middle-tier
+seoDescription: Implementing business logic in middle tier languages such as VB.NET
+  and C# increases adaptability, extensibility and maintainability of applications.
+title: Middle Tier - Do you implement business logic in middle tier?
+type: rule
+uri: implement-business-logic-in-middle-tier
+---
+
+Business logic/rules should be implemented in an object oriented language such as VB.NET and C#.  This dramatically increases the adaptability, extensibility and maintainability of the application.
+
+Implementing business logic in stored procedures have the disadvantage of being hard to test, debug and evolve, therefore, they should only implement basic data access logic.
+
+With the exception of some very heavy data oriented operations, it is excusable to use stored procedures to carry out some logic for performance reasons.
+
+Triggers are even more difficult as their behaviour is event based.  It is OK to use triggers for non-functional/infrastructural features such as logging changes or maintain more complex relational integrity which cannot be enforced by a simple relationship.
+
+<endIntro />

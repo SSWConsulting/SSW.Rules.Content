@@ -1,0 +1,238 @@
+---
+authors:
+- title: Micaela Blank
+  url: https://www.ssw.com.au/people/micaela-blank
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2025-10-07 00:00:19+00:00
+createdBy: Tiago Ara├║jo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 5108d3ab-432f-4dbf-8bbf-02065d8661de
+isArchived: false
+lastUpdated: 2025-12-08 23:23:02+00:00
+lastUpdatedBy: Alex Blum [SSW]
+lastUpdatedByEmail: alexblum@ssw.com.au
+related:
+- rule: public/uploads/rules/hamburger-menu/rule.mdx
+- rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
+- rule: public/uploads/rules/use-the-specific-action-as-labels/rule.mdx
+- rule: public/uploads/rules/do-you-make-users-intuitively-know-how-to-use-something/rule.mdx
+seoDescription: Learn the best UI/UX practices for designing delete buttons, including
+  placement, color, icons, confirmation steps, and accessibility.
+tips: ''
+title: Do you follow best UI practices for delete buttons?
+type: rule
+uri: destructive-button-ui-ux
+---
+
+Accidentally deleting important data can be a disaster for your users and your support team. A poorly placed or unclear destructive action can result in irreversible mistakes, lost data, and frustrated users.
+
+These actions need to be carefully designed with strong visual cues, clear labels, and proper safeguards.
+
+<endIntro />
+
+## Use red for danger consistently
+
+Delete buttons should always stand out with a **red color**. This is a well-established visual convention that immediately signals danger to users.
+
+* Use red **only** for destructive actions (not warnings or generic alerts)
+* Avoid using red buttons for neutral or positive actions
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Bad example - Wrong color for a delete button"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-color.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Red is the right color for a delete button"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-color.png"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** If red is your branding primary color, you may use red for positive or neutral actions, as long as:
+
+* The context clearly communicates a positive intent (e.g., “Submit”, “Continue”, “Book now”)
+* Consistency is maintained across all UI elements
+* Ensure destructive actions are visually differentiated through contrast and hierarchy. E.g. A different tone of red and an appropriate icon
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+## Use the right icon in the right position
+
+Icons make buttons faster to recognize and reduce ambiguity. A trash can icon next to the label reinforces the nature of the action.
+
+* Always use the trash can (`🗑️`) or appropriate destructive icon
+* Place the icon **to the left** of the button label
+* Avoid ambiguous or abstract icons (E.g. Broom icon (`🧹`) is used for “clear all” or “clean up", not "delete". Cross icon (`❌`) means “cancel” or "wrong", not "delete")
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure='Bad example - Cross icon usually means "Cancel" and should be avoided for permanent deletion. The button is also missing a text label'
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-icon.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example -  Button has a Trash/Bin icon positioned to the left of the text labe"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-icon.png"
+/>
+
+
+## Position delete buttons with care
+
+Placing a delete button next to a primary action (e.g. "Save" or "Confirm") is dangerous. Users may misclick due to proximity.
+
+* Place delete buttons away from primary actions
+* Use space or visual separation between them
+* Make destructive buttons less prominent (except when the primary purpose is deletion)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure='Bad example - "Delete" and "Save" are too close together, which can lead to accidental clicks'
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-bad-positioning.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure='Good example - "Delete" button in red, with the right icon, and visually isolated from safe actions'
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-positioning.png"
+/>
+
+
+## Ask for confirmation when necessary
+
+Not every destructive action needs a popup, but if the data is important or irreversible, you should ask the user to confirm.
+
+Use confirmations when:
+
+* Deleting data that can’t be recovered (e.g. a database record or user profile)
+* The user might not realize the consequences
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Confirming a deletion"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-confirmation.png"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Avoid overusing confirmations as they lead to [alert fatigue](https://www.magicbell.com/blog/alert-fatigue).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+## Use tooltips
+
+Sometimes you might have a UI with limited space that doesn’t allow text labels.
+
+For **icon-only** delete buttons (for example, a red trash icon in a table row), always provide a tooltip on hover or focus.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Tooltip gives clarity to an icon-only delete button"
+  src="/uploads/rules/destructive-button-ui-ux/destruction-button-good-tooltip.png"
+/>
+
+
+## Ensure accessibility and keyboard navigation
+
+Don't rely solely on color to convey meaning — red may be hard to distinguish for users with color blindness.
+
+* Include a label, not just an icon
+* Make sure buttons can be navigated and triggered via keyboard
+* Support screen readers with `aria-label="Delete project"` or similar
+
+---
+
+## Summary of best practices
+
+| **Element**        | **Best practice**                                                 |
+|--------------------|-------------------------------------------------------------------|
+| **Color**          | Use red for delete buttons                                   |
+| **Label**          | Always include a text label (e.g. "Delete", "Remove")             |
+| **Icon**           | Use a trash can or similar, to the left of label                  |
+| **Placement**      | Isolate from primary/positive actions                             |
+| **Confirmation**   | Use when deletion is permanent or high-risk                       |
+| **Accessibility**  | Don't rely on color; support keyboard and screen readers          |
+
+---
+
+For more guidance on destructive actions in UI design:
+
+* [NNG: Confirmation Dialogs Can Prevent User Errors — If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/)
+* [Microsoft Design: Commanding Destructive Actions](https://learn.microsoft.com/en-us/windows/apps/design/controls/buttons#destructive-commands)
+
+---
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
+## Bug reports examples
+
+Check out how SSW manages UI bugs across our many products and teams using [YakShaver](https://yakshaver.ai/). Smarter workflows. Fewer distractions.
+
+### 1. UI Bug on YakShaver Project
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/5uij0YJa4I4/" description={"Video: ✨ UI Update - Relocate Delete Project Button (1 min)"} />
+
+
+* See [💄 UI/UX - Move "Delete Project" Button to follow destructive actions rule](https://github.com/SSWConsulting/SSW.YakShaver/issues/3034) for details
+
+---
+
+### 2. UI Bug on TinaCMS Project
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/9h0Lp69K3Pk" description={"Video: 🐛 Bug - UI Button Color and Behavior Consistency (1 min)"} />
+
+
+* See [💄 UI/UX - Fix non-destructive buttons colors - Only delete buttons should be red](https://github.com/tinacms/tinacms/issues/6076) for details
+
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

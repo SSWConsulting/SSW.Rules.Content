@@ -1,0 +1,28 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2021-06-14 21:57:36.934000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 8f5ec0dc-6a1e-4317-aa59-140f98f45f56
+isArchived: false
+lastUpdated: 2021-06-14 21:57:36.934000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects: []
+seoDescription: Add new records to a large Microsoft Access table efficiently by using
+  ADO's AddNew method or SQL INSERT statement for improved performance and data conflict
+  protection.
+title: Microsoft Access - Do you know the fastest way to add a new record in a large
+  table?
+type: rule
+uri: fastest-way-to-add-a-new-record-in-a-large-table
+---
+
+When adding a new record should we use **ADO rst.AddNew** or a **SQL INSERT** statement?
+
+<endIntro />
+
+The **INSERT** statement will give you better performance because you don't have to create and pass around a recordset object. However the **Recordset** object gives you protection from data conflicts by raising an error if the user tries to update a record that has been modified by another user. Also on an error the **Recordset** object will crash out on the offending line, so you can find the problem easier. And when dealing with a memo field, which may contain single quotes or double quotes the **AddNew** method is easier to construct. But in general if you can do without the data conflict protection and want the performance then use the **ADO** connection object to execute a SQL statement.

@@ -1,0 +1,50 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-26 22:18:56+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 1f721330-54cd-4d93-93c8-a38ca5874026
+isArchived: false
+lastUpdated: 2020-12-15 00:13:16+00:00
+lastUpdatedBy: Matt Goldman
+lastUpdatedByEmail: MattGoldman@ssw.com.au
+redirects:
+- do-you-reference-websites-when-you-implement-something-you-found-on-google
+seoDescription: When implementing something you found on Google, it's essential to
+  reference the original website where you discovered the solution.
+title: Do you reference websites when you implement something you found on Google?
+type: rule
+uri: reference-websites-when-you-implement-something-you-found-on-google
+---
+
+If you end up using someone else's code, or even idea, that you found online, make sure you add a reference to this in your source code. There is a good chance that you or your team will revisit the website. And of course, it never hurts to tip your hat, to thank other coders.
+
+<endIntro />
+
+```csharp
+private void HideToSystemTray()
+{
+       // Hide the windows form in the system tray
+       if (FormWindowState.Minimized == WindowState)
+       {
+              Hide();
+       }
+}
+```
+**❌ Bad example - The website where the solution was found IS NOT referenced in the comments**  
+
+```csharp
+private void HideToSystemTray()
+{
+       // Hide the windows form in the system tray
+       // I found this solution at http://www.developer.com/net/csharp/article.php/3336751
+       if (FormWindowState.Minimized == WindowState)
+       {
+              Hide();
+       }
+}
+```
+**✅ Good example - The website where the solution was found is referenced in the comments**

@@ -1,0 +1,40 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2010-12-23 07:13:20+00:00
+createdBy: SSW2000\johnliu
+createdByEmail: johnliu@ssw.com.au
+guid: 4434740d-dcb7-47f0-9d02-6631d00def9d
+isArchived: false
+lastUpdated: 2016-05-19 00:31:59+00:00
+lastUpdatedBy: William Yin
+lastUpdatedByEmail: WilliamYin@ssw.com.au
+redirects: []
+seoDescription: Check database logs and event logs after migration to identify errors
+  and fix them promptly.
+title: Do you check for errors after the migration process?
+type: rule
+uri: do-you-check-for-errors-after-the-migration-process
+---
+
+After the database has finished being attached to the web application you will get a log file with information about the import process.
+
+<endIntro />
+
+1. Open up this log fine and pay special attention to any lines with **[ERROR]** .
+
+   * Note #1: The most common reason for errors is that you have forgotten to activate a feature.
+   * Note #2: If you have your own custom solutions, show this file to your developers to ensure it isn’t your custom solution causing the errors.
+
+2. Check your Application Event log after migration for errors related to your SharePoint Web Application, and fix these accordingly.
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - The event log should show 0 errors after fixing the errors"
+  src="/uploads/rules/do-you-check-for-errors-after-the-migration-process/FixEventLogs.png"
+/>

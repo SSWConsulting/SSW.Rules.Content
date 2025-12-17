@@ -1,0 +1,44 @@
+---
+archivedreason: null
+authors:
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+created: 2024-06-05 11:38:33+00:00
+guid: 2cdd195b-477e-4a8d-934d-b7605ce5dcd3
+redirects: []
+related:
+- rule: public/uploads/rules/when-to-use-reporting-services/rule.mdx
+seoDescription: Learn how to use logical page breaks in your reports to organize content
+  across pages effectively
+title: Data Layout - Do you know how to use logical page breaks?
+type: rule
+uri: use-logical-page-breaks
+---
+
+Sometime you want your report to break at somewhere to separate different part of content into individual pages. A logical page break is what you need.
+<endIntro />
+
+Logical page breaks are defined in the report definition by using the PageBreakAtStart and PageBreakAtEnd properties in various report elements, including group, rectangle, list, table, matrix, and chart.
+
+Here is an example of how we add logical page breaks in a report to make each subreport start showing at right beginning in a new page.
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Insert a logical page break before a rectangle containing a subreport"
+  src="/uploads/rules/use-logical-page-breaks/RSLogicalPageBreak.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The subreport started in a new page"
+  src="/uploads/rules/use-logical-page-breaks/RSLogicalPageBreak_Preview.jpg"
+/>

@@ -1,0 +1,72 @@
+---
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2021-03-24 00:46:50.564000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: 1f4e6b03-d6d3-45ca-9a8f-9595f3ff5fd5
+isArchived: false
+lastUpdated: 2021-03-30 22:45:24.079000+00:00
+lastUpdatedBy: Brad
+lastUpdatedByEmail: 52905336+bfabiny@users.noreply.github.com
+seoDescription: Enhance your markdown by adding syntax highlighting to code blocks
+  for improved readability and easier debugging.
+title: Do you set the language on code blocks?
+type: rule
+uri: set-language-on-code-blocks
+---
+
+You should have a syntax highlighter to show pieces of code on your pages for a better readability. By specifying the language within your code block, you can enable color coding similar to that in an IDE.
+
+Tools like [Prism](https://prismjs.com), [highlight.js](https://highlightjs.org), or [Code Prettify](https://github.com/googlearchive/code-prettify) automatically apply syntax highlighting, making it easier for users to read code by color-coding different elements (e.g., keywords, strings, and variables).
+
+<endIntro />
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases that can be used in SSW Rules.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+To activate this feature, add the language name right after the opening 3 backticks (used to [write a code in Markdown](https://www.ssw.com.au/rules/rule/#11-code)).
+
+For example, instead of starting a **JavaScript** code example with: **&#96;&#96;&#96;**, you should use **&#96;&#96;&#96;js** or **&#96;&#96;&#96;javascript** for syntax highlighting.
+
+```none
+let iceCream = 'chocolate';
+
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');
+} else {
+  alert('Awwww, but chocolate is my favorite...');
+}
+```
+**❌ Figure: Bad example - No syntax highlighting**  
+
+```javascript
+let iceCream = 'chocolate';
+
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');
+} else {
+  alert('Awwww, but chocolate is my favorite...');
+}
+```
+**✅ Figure: Good example - This JavaScript code block shows its syntax highlighted**  
+
+
+<boxEmbed
+  style="codeauditor"
+  body={<>
+    [SSW CodeAuditor enforces this rule](https://codeauditor.com/rules).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
