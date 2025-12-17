@@ -111,6 +111,7 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 ### ✅ Use leading zeros for numbered files
 
 ::: greybox
+
 * 1-introduction.docx
 * 10-summary.docx
 * 2-design.docx
@@ -120,6 +121,7 @@ Figure: Bad example - Files without leading zeros sort incorrectly
 :::
 
 ::: greybox
+
 * 01-introduction.docx
 * 02-design.docx
 * 10-summary.docx
