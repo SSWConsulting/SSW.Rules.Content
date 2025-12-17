@@ -19,7 +19,7 @@ While using a regular `useEffect` to run when a component is loaded to fetch dat
 <endIntro />
 
 Below is an example of a standard data fetch in React:
-**❌ ```tsx
+```tsx
 
 const Component = () => {
   const [data, setData] = useState({});
@@ -45,7 +45,7 @@ const Component = () => {
 
 ```
 
-**Figure: The traditional way of fetching data in React****  
+**❌Figure: The traditional way of fetching data in React**  
 
 This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unnecessary request made instead of pulling the data from a cache.
 
