@@ -23,12 +23,12 @@ For small or simple adjustments, it’s often faster and more efficient to handl
 * **Minimal complexity**: Minor visual changes, such as color or spacing tweaks
 * **No significant dependencies**: No impact on other components or functionalities
 * **Low testing requirements**: The changes don’t need to be tested across multiple browsers or devices
-**✅ ```css
+```css
 .button {
   font-size: 1rem;
 }
 ```
-Figure: Good example – A simple CSS change handled without involving a developer**  
+**✅Figure: Good example – A simple CSS change handled without involving a developer**  
 
 
 <boxEmbed
@@ -50,7 +50,7 @@ More extensive or unfamiliar CSS changes require careful handling to avoid unint
 - **Dependencies**: Modifying elements tied to JavaScript or backend code
 - **Testing requirements**: Requires thorough cross-browser testing
 - **High impact**: Changes that affect core UI components or interactions
-**❌ ```css
+```css
 /* Original CSS: Grid-based dashboard layout */
 .dashboard-container {
   display: grid;
@@ -87,7 +87,7 @@ More extensive or unfamiliar CSS changes require careful handling to avoid unint
   overflow: visible; /* Removing critical overflow control */
 }
 ```
-Figure: Bad example – A complex layout change attempted without consulting a developer, risking broken functionality**  
+**❌Figure: Bad example – A complex layout change attempted without consulting a developer, risking broken functionality**  
 
 
 ## Key Factors

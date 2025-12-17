@@ -38,38 +38,38 @@ Always consider the trade-off between adding an extra dependency to your project
 ### A simple misuse of Lodash
 
 Here's an example where using Lodash's `_.map` method is unnecessary:
-**❌ ```js
+```js
 const arr = [1, 2, 3];
 const newArr = _.map(arr, function (n) {
   return n * 3;
 });
 console.log(newArr);
 // output: [3, 6, 9]
-```
+```  
+**❌ Figure: Bad Example - using Lodash's \_.map method**
 
-Figure: using Lodash's \_.map method**  
-**✅ ```js
+ ```js
 const arr = [1, 2, 3];
 const newArr = arr.map((n) => n * 3);
 console.log(newArr);
 // output: [3, 6, 9]
 ```
 
-Figure: using the native JavaScript Array.map() method**  
+**✅ Figure: Good Example - using the native JavaScript Array.map() method**
 
 In the above example it is more efficient to use the native implementation and would not require adding the Lodash dependency. Which adds bloat to the
 
 ### A good use of Lodash
 
 Consider an example where you have an array of objects, and you need to find an object with specific property values.
-**❌ ```js
+```js
 const user = users.find((user) => user.age === 1 && user.active === true);
 console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
-```
+```  
+**❌ Figure: Bad Example - native JavaScript find method**
 
-Figure: native JavaScript find method**  
-**✅ ```js
+```js
 import { find } from "lodash-es";
 
 const users = [
@@ -83,4 +83,4 @@ console.log(user);
 // output: { 'user': 'pebbles', 'age': 1, 'active': true }
 ```
 
-Figure: Lodash's \_.find method**  
+**✅ Figure: Good Example - Lodash's \_.find method**
