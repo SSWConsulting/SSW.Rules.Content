@@ -1,25 +1,31 @@
 ---
-seoDescription: Add a version number to your setup package in Advanced Installer by modifying the MSI name configuration and adding [ProductVersion] or [ProductName].
-type: rule
-archivedreason:
-title: Do you know how to add a version number to setup package in Advanced Installer?
-guid: 6721c81e-a1da-474a-8b1a-22d2fb16710b
-uri: do-you-know-how-to-add-a-version-number-to-setup-package-in-advanced-installer
-created: 2014-09-18T20:02:53.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Danijel Malik
+  url: https://ssw.com.au/people/danijel-malik
+created: 2014-09-18 20:07:49+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 6721c81e-a1da-474a-8b1a-22d2fb16710b
+isArchived: false
+lastUpdated: 2015-02-18 17:05:45+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Add a version number to your setup package in Advanced Installer by
+  modifying the MSI name configuration and adding [ProductVersion] or [ProductName].
+title: Do you know how to add a version number to setup package in Advanced Installer?
+type: rule
+uri: do-you-know-how-to-add-a-version-number-to-setup-package-in-advanced-installer
 ---
 
-Developers should add a version number at the end of the out package. E.g. SSWCodeAuditor\_<mark>v14.0.0</mark>.exe
+Developers should add a version number at the end of the out package. E.g. SSWCodeAuditor\_==v14.0.0==.exe
 
 Here is how you do it in Advanced Installer:
 
-<!--endintro-->
+<endIntro />
 
 1. In the navigation pane look for
    **Media**
@@ -31,4 +37,12 @@ Here is how you do it in Advanced Installer:
    [|ProductVersion]. If the text-box is empty you may want to start it with
    [|ProductName]
 
-![Figure: Advanced Installer - Add version to output package](installer-add-version-number.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Advanced Installer - Add version to output package"
+  src="/uploads/rules/do-you-know-how-to-add-a-version-number-to-setup-package-in-advanced-installer/installer-add-version-number.jpg"
+/>

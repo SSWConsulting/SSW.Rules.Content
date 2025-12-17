@@ -1,13 +1,5 @@
 ---
-seoDescription: Automatically manage keys and simplify IdentityServer configuration with out-of-the-box features in version 5.
-type: rule
-archivedreason:
-title: Do you use Automatic Key management with Duende IdentityServer?
-guid: b045ffb9-254e-49e0-a971-31a4f6eb4ae7
-uri: use-automatic-key-management-with-duende-identityserver
-redirects:
-  - use-automatic-key-management-with-duende-identityServer
-created: 2021-03-17T09:45:07.0000000Z
+archivedreason: null
 authors:
 - title: Anthony Nguyen
   url: https://ssw.com.au/people/anthony-nguyen/
@@ -15,13 +7,26 @@ authors:
   url: https://ssw.com.au/people/william-liebenberg/
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
-related:
-
+created: 2021-03-16 18:20:03.432000+00:00
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
+guid: b045ffb9-254e-49e0-a971-31a4f6eb4ae7
+isArchived: false
+lastUpdated: 2021-03-17 06:08:18.722000+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- use-automatic-key-management-with-duende-identityServer
+seoDescription: Automatically manage keys and simplify IdentityServer configuration
+  with out-of-the-box features in version 5.
+title: Do you use Automatic Key management with Duende IdentityServer?
+type: rule
+uri: use-automatic-key-management-with-duende-identityserver
 ---
 
 When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
 
-<!--endintro-->
+<endIntro />
 
 ```cs
 services.AddIdentityServer()
@@ -32,10 +37,7 @@ services.AddIdentityServer()
     .AddTestUsers(new List<TestUser>())
     .AddDeveloperSigningCredential();
 ```
-
-::: bad
-Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore
-:::
+**❌ Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore**  
 
 When using version 5, instead of using `IdentityServer4.AccessTokenValidation()`, you should use the out of the box `AddAuthentication(("Bearer").AddJwtBearer("Bearer")` from .NET 5
 
@@ -47,20 +49,14 @@ services.AddAuthentication("Bearer")
         options.Authority = "https://localhost:5000";
     });
 ```
-
-::: bad
-Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.
-:::
+**❌ Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.**  
 
 ```cs
-services.AddAuthentication("Bearer") 
+services.AddAuthentication("Bearer")
   .AddJwtBearer("Bearer", options =>
     {
       options.Audience = "api1";
       options.Authority = "https://localhost:5000";
     });
 ```
-
-::: good
-Figure: Good example - use `AddJwtBearer("Bearer")` instead
-:::
+**✅ Figure: Good example - use `AddJwtBearer("Bearer")` instead**

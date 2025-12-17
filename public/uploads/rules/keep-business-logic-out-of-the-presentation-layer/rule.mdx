@@ -1,33 +1,45 @@
 ---
-seoDescription: Do you keep business logic out of the presentation layer? MediatR simplifies CQRS and keeps logic independent of UI.
-type: rule
-archivedreason:
-title: Do you keep business logic out of the presentation layer?
-guid: b4f7ebab-f54f-4f53-a384-1eccb39041c7
-uri: keep-business-logic-out-of-the-presentation-layer
-created: 2019-04-14T21:50:59.0000000Z
+archivedreason: null
 authors:
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
-related: []
+- title: Jason Taylor
+  url: https://ssw.com.au/people/jason-taylor
+created: 2019-04-14 21:51:09+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: b4f7ebab-f54f-4f53-a384-1eccb39041c7
+isArchived: false
+lastUpdated: 2020-06-01 04:29:23+00:00
+lastUpdatedBy: Jason Taylor
+lastUpdatedByEmail: JasonTaylor@ssw.com.au
 redirects:
-  - do-you-keep-business-logic-out-of-the-presentation-layer
+- do-you-keep-business-logic-out-of-the-presentation-layer
+seoDescription: Do you keep business logic out of the presentation layer? MediatR
+  simplifies CQRS and keeps logic independent of UI.
+title: Do you keep business logic out of the presentation layer?
+type: rule
+uri: keep-business-logic-out-of-the-presentation-layer
 ---
 
 It's common for business logic to be added directly to the presentation layer. When building ASP.NET MVC systems, this typically means that business logic is added to controllers as per the following example:
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse](business-logic-presentation-layer-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
+  src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-bad.png"
+/>
+
 
 The logic in the above controller cannot be reused, for example, by a new console application. This might be fine for trivial or small systems but would be a mistake for enterprise systems. It is important to ensure that logic such as this is independent of the UI so that the system will be easy to maintain now and well into the future. A great approach to solving this problem is to use the mediator pattern with CQRS.
 
 CQRS stands for Command Query Responsibility Segregation. It's a pattern that I first heard described by Greg Young. At its heart is the notion that you can use a different model to update information than the model you use to read information
 ...
 There's room for considerable variation here. The in-memory models may share the same database, in which case the database acts as the communication between the two models. However they may also use separate databases, effectively making the query-side's database into a real-time reporting database.
-**Martin Fowler** - <https://martinfowler.com/bliki/CQRS.html>
+**Martin Fowler** - [https://martinfowler.com/bliki/CQRS.html](https://martinfowler.com/bliki/CQRS.html)
 
 CQRS means clear separation between Commands (Write operations) and Queries (Read operations).
 CQRS can be used with complex architectures such as Event Sourcing but the concepts can also be applied to simpler applications with a single database.
@@ -36,11 +48,29 @@ MediatR is an open source .NET library by Jimmy Bogard that provides an elegant 
 
 For every command or query, you create a specific request class that explicitly defines the “input” required to invoke the operation.
 
-![Figure: (from MediatR docs) A Simple Request class](business-logic-presentation-layer-simple.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="(from MediatR docs) A Simple Request class"
+  src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-simple.png"
+/>
+
 
 Then the implementation of that command or query is implemented in a handler class. The handler class is instantiated by a Dependency Injection container – so can use any of the configured dependencies (Repositories, Entity Framework, services etc).
 
-![Figure: A handler class](business-logic-presentation-layer-handler.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="A handler class"
+  src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-handler.png"
+/>
+
 
 This approach brings many benefits:
 
@@ -54,6 +84,11 @@ This approach brings many benefits:
 * The interface for MediatR handlers encourages the implementation of best-practice async methods with cancellation token support.
 * MediatR introduces a pipeline behaviour system allowing custom to be injected around handler invocation. This is useful for implementing cross-cutting concerns such as logging, validation or caching
 
-::: good  
-![Figure: Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class](business-logic-presentation-layer-good.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
+  src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-good.png"
+/>

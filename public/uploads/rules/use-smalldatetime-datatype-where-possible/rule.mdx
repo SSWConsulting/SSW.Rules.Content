@@ -1,22 +1,30 @@
 ---
-seoDescription: Optimize database storage by using "smalldatetime" instead of "datetime" when possible.
-type: rule
-archivedreason: Rule no longer required - Information here is already covered in our other date time rules
-title: Schema - Do you use "smalldatetime datatype", where possible, instead of "datetime datatype"?
-guid: e08b8a5e-9ad1-4640-8b0e-d818e29296b3
-uri: use-smalldatetime-datatype-where-possible
-created: 2019-11-06T00:25:07.0000000Z
+archivedreason: Rule no longer required - Information here is already covered in our
+  other date time rules
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-11-06 00:25:07+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: e08b8a5e-9ad1-4640-8b0e-d818e29296b3
+isArchived: true
+lastUpdated: 2020-01-28 00:39:34+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - schema-do-you-use-smalldatetime-datatype-where-possible-instead-of-datetime-datatype
+- schema-do-you-use-smalldatetime-datatype-where-possible-instead-of-datetime-datatype
+seoDescription: Optimize database storage by using "smalldatetime" instead of "datetime"
+  when possible.
+title: Schema - Do you use "smalldatetime datatype", where possible, instead of "datetime
+  datatype"?
+type: rule
+uri: use-smalldatetime-datatype-where-possible
 ---
 
 Most applications do not require the range and precision offered by the DateTime data type. When was the last time you needed to enter an order past the year of 2079? So you end up with better data integrity. Most business applications never need dates outside the range of 1900-2079.
 
-<!--endintro-->
+<endIntro />
 
 **More Information:**
 In addition (I don't really care about this) but I get a smaller database.

@@ -14,23 +14,31 @@ guid: 515b1310-19a0-432e-9a13-82e167167696
 
 To keep your systems secure, it is important to make sure everything is kept up to date - the OS, and any installed apps.
 
-<!--endintro-->
+<endIntro />
 
 Updating everything manually is time consuming, and it can be easy to miss patches without an automated system.
 
-::: bad
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Manually checking for updates"
+  src="/uploads/rules/automate-patch-management/windows-update.png"
+/>
 
-![Figure: Bad example - Manually checking for updates](windows-update.png)
-
-:::
 
 [WSUS](https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus?WT.mc_id=WDIT-MVP-33518)is a great way to keep Microsoft operating systems and products up to date. It can be painful to manage, but with a bit of work it is a great tool. The only issue is that it cannot be used to manage any non-Microsoft apps. If your environment is big enough, you can use [Configuration Manager](https://docs.microsoft.com/en-us/mem/configmgr/core/understand/introduction?WT.mc_id=WDIT-MVP-33518) (formerly SCCM) for 3rd party apps - but it is not worth setting up for smaller environments.
 
-:::ok
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="OK example - WSUS is a good tool, but it only does Microsoft Updates"
+  src="/uploads/rules/automate-patch-management/01_wsus-console.png"
+/>
 
-![Figure: OK example - WSUS is a good tool, but it only does Microsoft Updates](01_wsus-console.png)
-
-:::
 
 This is where other Patch Management solutions come in. There are many options out there, including:
 
@@ -59,12 +67,14 @@ The main benefits of patch management solutions are:
 
 You should consider when to automatically install updates - of course, it needs to be a time that will cause minimal disruption, but it should also be a suitable amount of time after the updates are released in case there are any issues. Microsoft updates are released on the 2nd Tuesday of every month - known as Patch Tuesday - so you might choose to install the updates a week or two after this date.
 
-:::good
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - In Patch Manager Plus, you can set the deployment date based on Patch Tuesday"
+  src="/uploads/rules/automate-patch-management/patch-tuesday.png"
+/>
 
-![Figure: Good example - In Patch Manager Plus, you can set the deployment date based on Patch Tuesday](patch-tuesday.png)
-
-![Figure: Good example - A report of installed patches](patch-list.png)
-
-:::
 
 These patch management solutions also include a bunch of other useful features, such as the ability to deploy scripts or configure settings remotely.

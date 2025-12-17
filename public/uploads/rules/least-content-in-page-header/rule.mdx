@@ -1,27 +1,40 @@
 ---
-seoDescription: Report page headers should be concise and contain as little content as possible to avoid duplication on every page. This approach helps save paper when printing and keeps the report organized.
-type: rule
-archivedreason:
-title: Layout - Do you put as little content as possible in a report page header?
-guid: 03c32a52-f888-45b9-a6c3-9815f72ae9df
-uri: least-content-in-page-header
-created: 2023-12-11T14:38:33.0000000Z
+archivedreason: null
 authors:
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+- title: Jeoffrey Fischer
+  url: https://ssw.com.au/people/jeoffrey-fischer
+created: 2023-12-11 14:38:33+00:00
+guid: 03c32a52-f888-45b9-a6c3-9815f72ae9df
 redirects: []
+related:
+- rule: public/uploads/rules/customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using/rule.mdx
+seoDescription: Report page headers should be concise and contain as little content
+  as possible to avoid duplication on every page. This approach helps save paper when
+  printing and keeps the report organized.
+title: Layout - Do you put as little content as possible in a report page header?
+type: rule
+uri: least-content-in-page-header
 ---
 
 Things in a report page header repeat on every page. To avoid duplicate and save paper when printing, we put content as less as possible in the header.
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Figure: Bad example - 4 lines in the page header](RS_PageHeader_Bad.gif)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - 4 lines in the page header"
+  src="/uploads/rules/least-content-in-page-header/RS_PageHeader_Bad.gif"
+/>
 
-::: good  
-![Figure: Good example - One line in the page header](RS_PageHeader_Good.gif)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - One line in the page header"
+  src="/uploads/rules/least-content-in-page-header/RS_PageHeader_Good.gif"
+/>

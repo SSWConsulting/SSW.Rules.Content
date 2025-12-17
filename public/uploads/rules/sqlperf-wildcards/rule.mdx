@@ -1,29 +1,30 @@
 ---
-seoDescription:  Do you avoid avoid using wildcards at the start of a string?
-type: rule
-archivedreason:
-title: Do you avoid avoid using wildcards at the start of a string?
-guid: 55f74e51-c405-40a4-905a-f0f6163c79ee
-uri: sqlperf-wildcards
-created: 2024-07-25T07:26:54.0000000Z
+archivedreason: null
 authors:
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+created: 2024-07-25 07:26:54+00:00
+guid: 55f74e51-c405-40a4-905a-f0f6163c79ee
 related:
-  - sqlperf-reduce-table-size
-  - sqlperf-select-required-columns
-  - sqlperf-verify-indexes-used
-  - sqlperf-avoid-implicit-type-conversions
-  - sqlperf-use-and-instead-of-or
-  - sqlperf-minimise-large-writes
+- rule: public/uploads/rules/sqlperf-reduce-table-size/rule.mdx
+- rule: public/uploads/rules/sqlperf-select-required-columns/rule.mdx
+- rule: public/uploads/rules/sqlperf-verify-indexes-used/rule.mdx
+- rule: public/uploads/rules/sqlperf-avoid-implicit-type-conversions/rule.mdx
+- rule: public/uploads/rules/sqlperf-use-and-instead-of-or/rule.mdx
+- rule: public/uploads/rules/sqlperf-minimise-large-writes/rule.mdx
+seoDescription: Do you avoid avoid using wildcards at the start of a string?
+title: Do you avoid avoid using wildcards at the start of a string?
+type: rule
+uri: sqlperf-wildcards
 ---
 
 Using a wildcard at the start of a string match can cause performance problems with queries. Find out more.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/mDWsG3P947E`  
-**Video: Avoid wildcards at the start of filters for SQL performance | Bryden Oliver (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/mDWsG3P947E" description={"Video: Avoid wildcards at the start of filters for SQL performance | Bryden Oliver (4 min)"} />
+
 
 If you have a table that is indexed on a string column and then you use a query like:
 

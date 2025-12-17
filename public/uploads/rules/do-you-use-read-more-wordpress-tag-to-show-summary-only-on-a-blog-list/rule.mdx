@@ -1,24 +1,30 @@
 ---
-seoDescription: Do you use 'read more' WordPress tag to show summary only on a blog list?
-type: rule
-archivedreason:
-title: Do you use 'read more' WordPress tag to show summary only on a blog list?
-guid: 18e3c2af-0fc0-4e83-9afd-f8a6c1b60e56
-uri: do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
-created: 2014-06-09T15:12:04.0000000Z
+archivedreason: null
 authors:
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2014-06-09 16:16:58+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 18e3c2af-0fc0-4e83-9afd-f8a6c1b60e56
+isArchived: false
+lastUpdated: 2019-01-04 16:00:12+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-use-read-more’-wordpress-tag-to-show-summary-only-on-a-blog-list
+- do-you-use-read-more’-wordpress-tag-to-show-summary-only-on-a-blog-list
+seoDescription: Do you use 'read more' WordPress tag to show summary only on a blog
+  list?
+title: Do you use 'read more' WordPress tag to show summary only on a blog list?
+type: rule
+uri: do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
 ---
 
 By default, WordPress shows the whole article content on a post list. Knowing that some posts are quite long - taking a lot of real estate on the page - it's a good idea to summarize it and add a "read more" link.
 
-<!--endintro-->
+<endIntro />
 
 You can split your blog entries so that only the first part of certain posts is displayed on the home and archive pages. When you do this, a link will be placed after the intro, pointing the reader to the full post.
 To do so, you can either edit the source index.php (or similar) file; or just click the "Read More" tag button in the first row of the visual editor toolbar (or press **Alt+Shift+T** ):
@@ -26,14 +32,17 @@ To do so, you can either edit the source index.php (or similar) file; or just cl
 ```php
 replace <?php the_content(); ?> with <?php the_excerpt(); ?>
 ```
+**❌ Figure: Bad example - changing source PHP files is complicated and require developer skills**  
 
-::: bad
-Figure: Bad example - changing source PHP files is complicated and require developer skills
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure='Good example - click on the "Read More" tag on the post visual editor'
+  src="/uploads/rules/do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list/readmore-tag.png"
+/>
 
-::: good  
-![Figure: Good example - click on the "Read More" tag on the post visual editor](readmore-tag.png)  
-:::
 
 **Note:** This is out-of-the-box with WordPress. You won't need a plugin.
 
@@ -51,8 +60,14 @@ To customize the message, simply add a space after **&lt;!--more** and insert th
 
 Many WordPress themes will have an option to not show the full blog content on the homepage. E.g. in Avada (one of the most popular themes) it has this:
 
-::: good  
-![Figure: Many WordPress themes make it easier for you](excerpt.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Many WordPress themes make it easier for you"
+  src="/uploads/rules/do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list/excerpt.png"
+/>
+
 
 Always check theme options before going back through posts to add in the Read More tags manually.

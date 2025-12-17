@@ -18,10 +18,11 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 
 3rd party solutions have existed for awhile, but they need configuration and cost money. Now, Dev Tunnels is a new port forwarding feature in Visual Studio that can help developers do that for free.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/4Fvq_g8skHE`
-**Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ssw.com.au/people/daniel-mackay/) | SSW Rules (7 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/4Fvq_g8skHE" description={"Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ssw.com.au/people/daniel-mackay/) | SSW Rules (7 min)"} />
+
 
 ## Use Cases
 
@@ -43,9 +44,16 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 
 ## Dev Tunnels Setup
 
-::: info
-Dev Tunnels is currently only available via Visual Studio 2022 17.5+
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    Dev Tunnels is currently only available via Visual Studio 2022 17.5+
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Pre-Requisites
 
@@ -56,27 +64,69 @@ Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 
 1. Enable the Dev Tunnels via **Tools | Options | Environment | Preview Features**:
 
-   ![Figure: Enabling Dev Tunnels](screen1.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Enabling Dev Tunnels"
+  src="/uploads/rules/port-forwarding/screen1.png"
+/>
+
 
 2. Open the Dev Tunnels window via **View | Other Windows | Dev Tunnels**
 3. Create and configure a new Dev Tunnel:
 
-   ![Figure: Configuring a Dev Tunnel](screen2.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Configuring a Dev Tunnel"
+  src="/uploads/rules/port-forwarding/screen2.png"
+/>
+
 
 4. Run the website
 5. Get the public URL via **Dev Tunnels | Tunnel URL**:
 
-   ![Figure: Finding the Dev Tunnel URL](screen4.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Finding the Dev Tunnel URL"
+  src="/uploads/rules/port-forwarding/screen4.png"
+/>
+
 
 6. Confirm you can browse your site via the public URL:
 
-   ![Figure: Testing the Dev Tunnel on desktop](screen3.png)
+   
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Testing the Dev Tunnel on desktop"
+  src="/uploads/rules/port-forwarding/screen3.png"
+/>
+
 
 7. Confirm you can browse via a mobile:
 
-   ::: img-medium
-   ![Figure: Testing the Dev Tunnel on mobile](screen5.png)
-   :::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Testing the Dev Tunnel on mobile"
+  src="/uploads/rules/port-forwarding/screen5.png"
+/>
+
 
 ## Best Practices on Access Types
 

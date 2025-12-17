@@ -14,7 +14,7 @@ redirects:
 
 Code that looks perfectly fine in a single-threaded scenario could be vulnerable to race condition when some value is shared among multiple threads.
 
-<!--endintro-->
+<endIntro />
 
 Examine the following if-statement:
 
@@ -24,10 +24,7 @@ if (A is null || (A.PropertyA == SOME_CONSTANT && B))
    // some logic
 }
 ```
-
-::: bad
-Figure: Bad example - Vulnerable to race condition
-:::
+**❌ Figure: Bad example - Vulnerable to race condition**  
 
 When the above code is run single-threaded, the second part of the if-condition would never be reached when A is null. However, if A is shared among multiple threads, the value of A could change from not null to null after passing the first check of if-condition, resulting in a [NRE](https://learn.microsoft.com/en-us/dotnet/api/system.nullreferenceexception?view=net-7.0&WT.mc_id=DT-MVP-33518) in the second check of if-condition.
 
@@ -41,7 +38,4 @@ if (A is null || (copyA == SOME_CONSTANT && B))
    // some logic
 }
 ```
-
-::: good
-Figure: Good example - Local copy to resolve race condition
-:::
+**✅ Figure: Good example - Local copy to resolve race condition**  

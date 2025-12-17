@@ -1,23 +1,29 @@
 ---
-seoDescription: Disposing SharePoint objects efficiently by not using `SPContext.Current` objects that SharePoint manages itself.
-type: rule
-title: Do you know to never dispose objects from SPContext.Current?
-uri: never-dispose-objects-from-spcontext-current
-authors:
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
-redirects: []
-created: 2013-08-29T00:36:26.000Z
 archivedreason: null
+authors:
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+created: 2013-08-29 00:41:29+00:00
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
 guid: 4117b350-d8e9-47d3-95a0-f993cd7af6a2
+isArchived: false
+lastUpdated: 2013-08-29 03:42:41+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
+redirects: []
+seoDescription: Disposing SharePoint objects efficiently by not using `SPContext.Current`
+  objects that SharePoint manages itself.
+title: Do you know to never dispose objects from SPContext.Current?
+type: rule
+uri: never-dispose-objects-from-spcontext-current
 ---
 
 Disposing objects in SharePoint is important, but never do it with objects from `SPContext.Current`. SharePoint will manage disposing these objects itself.
 
-<!--endintro-->
+<endIntro />
 
 ```csharp
 using (SPWeb web =  SPContext.Current.Site.RootWeb)
@@ -25,10 +31,7 @@ using (SPWeb web =  SPContext.Current.Site.RootWeb)
     //do something here
 }
 ```
-
-::: bad
-Figure: Bad example - Using statement is trying to dispose current site object - it will cause exception  
-:::
+**❌ Figure: Bad example - Using statement is trying to dispose current site object - it will cause exception**  
 
 Just simply use "Current" object directly.
 
@@ -36,7 +39,4 @@ Just simply use "Current" object directly.
 SPWeb web =  SPContext.Current.Site.RootWeb;
 //do something here
 ```
-
-::: good
-Figure: Good example - Use Current objects directly - don't need to dispose them  
-:::
+**✅ Figure: Good example - Use Current objects directly - don't need to dispose them**

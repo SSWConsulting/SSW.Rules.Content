@@ -1,26 +1,47 @@
 ---
-seoDescription: Easily find and connect to printers from outside the domain with a simple DNS alias setup.
-type: rule
-archivedreason:
-title: Printers - Do you make your Printers easy to find?
-guid: 44c288e4-76da-4293-b738-a2bd1319dc44
-uri: printers-do-you-make-your-printers-easy-to-find
-created: 2012-03-05T15:41:28.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2012-03-05 15:44:33+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 44c288e4-76da-4293-b738-a2bd1319dc44
+isArchived: false
+lastUpdated: 2017-11-21 00:29:55+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Easily find and connect to printers from outside the domain with a
+  simple DNS alias setup.
+title: Printers - Do you make your Printers easy to find?
+type: rule
+uri: printers-do-you-make-your-printers-easy-to-find
 ---
 
 For PCs that are not in the domain, the printers won’t be automatically installed.
 
 So you should add a DNS alias which maps \\printer to your print server.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: \printer takes to this window, were you can "Add" the printer via Connect](add-printer-via-connect.jpg)
 
-::: greybox
-Note: It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='\\printer takes to this window, were you can "Add" the printer via Connect'
+  src="/uploads/rules/printers-do-you-make-your-printers-easy-to-find/add-printer-via-connect.jpg"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Note: It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

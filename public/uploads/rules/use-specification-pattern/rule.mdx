@@ -1,22 +1,23 @@
 ---
-seoDescription: Learn how using the Specification pattern can enhance maintainability, flexibility, and readability in software development.
-type: rule
-title: Do you use the Specification pattern in your software design?
-uri: use-specification-pattern
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman
-created: 2023-06-17T13:42:55.753Z
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
+created: 2023-06-17 13:42:55.753000+00:00
 guid: D81A5868-E316-4AC5-8C52-CBC3CE944908
 related:
-   - common-design-patterns
+- rule: public/uploads/rules/common-design-patterns/rule.mdx
+seoDescription: Learn how using the Specification pattern can enhance maintainability,
+  flexibility, and readability in software development.
+title: Do you use the Specification pattern in your software design?
+type: rule
+uri: use-specification-pattern
 ---
 
 When developing software, ensuring that your code is maintainable, flexible, and readable is crucial. One effective way to achieve this is by implementing the Specification pattern. This pattern allows for clear and modular encapsulation of business rules and query criteria, promoting the separation of concerns and enhancing the overall quality of your code.
 
-<!--endintro-->
+<endIntro />
 
 ## What Problem are we Solving here?
 
@@ -32,29 +33,26 @@ public class OrderService(ApplicationDbContext dbContext)
         var order = dbContext.Orders
             .Include(o => o.OrderItems)
             .FirstOrDefault(o => o.Id == orderId && o.Status != OrderStatus.Complete);
-        
+
         order.AddItem(item);
-        
+
         await dbContext.SaveChangesAsync();
     }
-    
+
     public void RemoveItem(int age)
     {
         // Duplicated logic and bug introduced by not checking OrderStatus
         var order = dbContext.Orders
             .Include(o => o.OrderItems)
             .FirstOrDefault(o => o.Id == orderId);
-        
+
         order.RemoveItem(item);
-        
+
         await dbContext.SaveChangesAsync();
     }
 }
 ```
-
-::: bad
-Figure: Bad example - Duplicated query logic to fetch the customer
-:::
+**❌ Figure: Bad example - Duplicated query logic to fetch the customer**  
 
 ## What is the Specification Pattern?
 
@@ -69,7 +67,7 @@ The Specification pattern is a design pattern used to define business rules in a
 
 ## Using the Specification Pattern
 
-Steve Smith (aka ["Ardalis"])(<https://github.com/ardalis>) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
+Steve Smith (aka ["Ardalis"])([https://github.com/ardalis](https://github.com/ardalis)) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
 
 To use the Specification pattern, follow these steps:
 
@@ -111,7 +109,7 @@ public sealed class OrderByIdSpec : SingleResultSpecification<Order>
             .Include(o => o.OrderItems)
             .Where(o => o.Id == orderId && o.Status != OrderStatus.Complete);
    }
-} 
+}
 
 public class OrderService(ApplicationDbContext dbContext)
 {
@@ -120,25 +118,22 @@ public class OrderService(ApplicationDbContext dbContext)
         var order = dbContext.Orders
             .WithSpecification(new OrderByIdSpec(orderIdorderId))
             .FirstOrDefaultAsync();
-        
+
         order.AddItem(item);
-        
+
         await dbContext.SaveChangesAsync();
     }
-    
+
     public void RemoveItem(int age)
     {
         var order = dbContext.Orders
             .WithSpecification(new IncompleteOrderByIdSpec(orderIdorderId))
             .FirstOrDefaultAsync();
-        
+
         order.RemoveItem(item);
-        
+
         await dbContext.SaveChangesAsync();
     }
 }
 ```
-
-::: good
-Figure: Good example - Specification used to keep Order query logic DRY
-:::
+**✅ Figure: Good example - Specification used to keep Order query logic DRY**

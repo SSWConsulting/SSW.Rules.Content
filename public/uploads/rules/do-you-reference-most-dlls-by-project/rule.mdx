@@ -1,20 +1,25 @@
 ---
-seoDescription: Do you reference most DLLs by project?
-type: rule
-archivedreason:
-title: Do you reference "most" .dlls by Project?
-guid: 322f527c-eb40-4820-abf2-3d8d614743c0
-uri: do-you-reference-most-dlls-by-project
-created: 2009-04-28T03:36:16.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
-    noimage: true
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- noimage: true
+  title: Ryan Tee
+  url: https://ssw.com.au/people/ryan-tee
+created: 2009-12-04 08:39:46+00:00
+createdBy: SSW2000\cindywang
+createdByEmail: CindyWang@ssw.com.au
+guid: 322f527c-eb40-4820-abf2-3d8d614743c0
+isArchived: false
+lastUpdated: 2010-10-20 08:56:46+00:00
+lastUpdatedBy: System Account
+lastUpdatedByEmail: Unknown@ssw.com.au
 redirects:
-  - do-you-reference-＂most＂-dlls-by-project
+- do-you-reference-＂most＂-dlls-by-project
+seoDescription: Do you reference most DLLs by project?
+title: Do you reference "most" .dlls by Project?
+type: rule
+uri: do-you-reference-most-dlls-by-project
 ---
 
 When you obtain a 3rd party .dll (in-house or external), you sometimes get the code too. So should you:
@@ -22,7 +27,7 @@ When you obtain a 3rd party .dll (in-house or external), you sometimes get the c
 - reference the Project (aka including the source) or
 - reference the assembly?
 
-<!--endintro-->
+<endIntro />
 
 When you face a bug, there are 2 types of emails you can send:
 
@@ -39,10 +44,10 @@ Since most applications have bugs, therefore most of the time you should be usin
 
 If it is a well tested component and it is not changing constantly, then use the first option.
 
-1. Add the project to solution (if it is not in the solution). ![Add existing project](ReferenceProject1.gif) Figure: Add existing project
+1. Add the project to solution (if it is not in the solution). ![Add existing project](/uploads/rules/do-you-reference-most-dlls-by-project/ReferenceProject1.gif) Figure: Add existing project
 2. Select the "References" folder of the project you want to add references to, right click and select "Add Reference...".
-   ![Add reference](ReferenceProject2.gif) Figure: Add reference
-3. Select the projects to add as references and click OK. ![Select projects to reference](ReferenceProject3.gif) Figure: Select the projects to add as references
+   ![Add reference](/uploads/rules/do-you-reference-most-dlls-by-project/ReferenceProject2.gif) Figure: Add reference
+3. Select the projects to add as references and click OK. ![Select projects to reference](/uploads/rules/do-you-reference-most-dlls-by-project/ReferenceProject3.gif) Figure: Select the projects to add as references
 
 Note: We have run into a situation where we reference a stable project A, and an unstable project B. Project A references project B. Each time project B is built, project A needs to be rebuilt.
 

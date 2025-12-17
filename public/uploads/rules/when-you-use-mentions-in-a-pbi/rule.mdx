@@ -1,30 +1,39 @@
 ---
-seoDescription: When you update a Product Backlog Item (PBI) to reflect a change verbally requested by the Product Owner, use the discussions feature and mention the user using "@username" instead of sending an email. This keeps track of the conversation and allows everyone involved to stay updated.
-type: rule
-title: Do you use comments with @mentions to track changes in a PBI?
-uri: when-you-use-mentions-in-a-pbi
-authors:
-  - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - know-that-im-interrupts
-  - do-you-reply-to-the-correct-zendesk-email
-redirects:
-  - when-you-use-@-mentions-in-a-pbi
-  - do-you-know-when-you-use-mentions-in-a-pbi
-  - do-you-know-when-you-use-@-mentions-in-a-pbi
-created: 2016-09-20T20:03:03.000Z
 archivedreason: null
+authors:
+- title: Eric Phan
+  url: https://ssw.com.au/people/eric-phan
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2016-09-20 20:03:06+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 8d36a3c3-47e0-4302-a609-a09080565847
+isArchived: false
+lastUpdated: 2020-11-23 17:44:21+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+redirects:
+- when-you-use-@-mentions-in-a-pbi
+- do-you-know-when-you-use-mentions-in-a-pbi
+- do-you-know-when-you-use-@-mentions-in-a-pbi
+related:
+- rule: public/uploads/rules/know-that-im-interrupts/rule.mdx
+- rule: public/uploads/rules/do-you-reply-to-the-correct-zendesk-email/rule.mdx
+seoDescription: When you update a Product Backlog Item (PBI) to reflect a change verbally
+  requested by the Product Owner, use the discussions feature and mention the user
+  using "@username" instead of sending an email. This keeps track of the conversation
+  and allows everyone involved to stay updated.
+title: Do you use comments with @mentions to track changes in a PBI?
+type: rule
+uri: when-you-use-mentions-in-a-pbi
 ---
 
 When the Product Owner makes a verbal change request or decision, you might consider sending an email and CCing others, but that limits visibility to only those on the thread.
 
 A better approach is to **update the PBI** to document the change, making the conversation visible to the entire team. Use **comments** with **tags/mentions (@username)** to notify the Product Owner and any relevant team members. This ensures they receive email notifications about the update.
 
-<!--endintro-->
+<endIntro />
 
 ## ✅ The benefits of using comments with @mentions on PBIs
 
@@ -36,42 +45,54 @@ A better approach is to **update the PBI** to document the change, making the co
 
 Say the Product Owner asks you to prioritize and update PBI 1234.
 
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | {{ TO MYSELF }} |
-| Cc: | {{ PRODUCT OWNER }}, {{ RELEVANT PEOPLE }} |
-| Subject: | SugarLearning - Use third party for quiz engine |  
-::: email-content
-
-### To myself
+<emailEmbed
+  from=""
+  to="&#123;&#123; TO MYSELF &#125;&#125;"
+  cc="&#123;&#123; PRODUCT OWNER &#125;&#125;, &#123;&#123; RELEVANT PEOPLE &#125;&#125;"
+  bcc=""
+  subject="SugarLearning - Use third party for quiz engine"
+  shouldDisplayBody={true}
+  body={<>
+    ## To myself
 
 As per my conversation with the PO, we want to use a third party quiz engine instead of building our own. This is a priority.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – Don't use emails for tasks updates"
+/>
 
-:::  
-:::  
-::: bad
-Figure: Bad example – Don't use emails for tasks updates
-:::
 
-::: info
-**Exception:** You may send a ["To Myself" email](/send-to-myself-emails) and CC relevant people **when there is no Product Backlog** related to the request.
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Exception:** You may send a ["To Myself" email](/send-to-myself-emails) and CC relevant people **when there is no Product Backlog** related to the request.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-::: greybox
-_"I have found and updated the PBI and moved it near the top of the backlog"_
-:::
-::: bad
-Bad example - Change documented in the backlog, but no @mention tag used
-:::
 
-::: greybox
-_"I have found and updated the PBI, prioritized it near the top of the backlog, and @mentioned you and relevant team members so you know when it is actioned"_
-:::
-::: good
-Good example - Change documented in the backlog and @mention tag included
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    _"I have found and updated the PBI and moved it near the top of the backlog"_
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Change documented in the backlog, but no @mention tag used"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    _"I have found and updated the PBI, prioritized it near the top of the backlog, and @mentioned you and relevant team members so you know when it is actioned"_
+  </>}
+  figurePrefix="good"
+  figure="Good example - Change documented in the backlog and @mention tag included"
+/>
+
 
 ### Format PBI comments like an email
 
@@ -79,18 +100,31 @@ Try formatting your mentions like an email to clarify both accountability and re
 
 **Note:** You can and should use @mention on **pull requests** as well.
 
-::: good
-![Figure: Good example – Using "Cc" and greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure='Good example – Using "Cc" and greetings as you would in an email. Emojis are helpful too! 😊'
+  src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-formatting-mentions.png"
+/>
 
-::: greybox
 
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    
 ### Use YakShaver and make it even easier
 
 You can save time by not writing change requests manually.
 
 With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning/tagging the right people and assigning it to the correct team.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### How @mentions work
 
@@ -98,19 +132,37 @@ Below are examples of how mentions work in different platforms.
 
 #### GitHub Issues
 
-::: good
-![Figure: Good example – Using @ mentions in GitHub](MicrosoftTeams-image.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example – Using @ mentions in GitHub"
+  src="/uploads/rules/when-you-use-mentions-in-a-pbi/MicrosoftTeams-image.png"
+/>
+
 
 #### Azure DevOps PBIs
 
-::: good
-![Figure: Good example – Using @mentions in Azure DevOps discussion](good-mention-pbi.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example – Using @mentions in Azure DevOps discussion"
+  src="/uploads/rules/when-you-use-mentions-in-a-pbi/good-mention-pbi.jpg"
+/>
 
-::: good
-![Figure: Good example – Emails are sent to the users who are mentioned in the discussion, so they can still chime in if any details are needed](pbi-mention-email.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example – Emails are sent to the users who are mentioned in the discussion, so they can still chime in if any details are needed"
+  src="/uploads/rules/when-you-use-mentions-in-a-pbi/pbi-mention-email.png"
+/>
+
 
 ---
 

@@ -1,34 +1,37 @@
 ---
-type: rule
-archivedreason:
-title: Authentication - Do you use Passkeys for stronger security?
-seoDescription: Learn why Passkeys provide stronger security than passwords and MFA, offering phishing-resistant authentication with biometric verification and eliminating password reuse vulnerabilities.
-guid: 76838a73-4219-4127-8033-f5f4edbf8091
-uri: use-passkeys
-created: 2024-09-17T00:00:00.000Z
+archivedreason: null
 authors:
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  - title: Baba Kamyljanov
-    url: https://ssw.com.au/people/baba-kamyljanov
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Luke Cook
+  url: https://ssw.com.au/people/luke-cook
+- title: Baba Kamyljanov
+  url: https://ssw.com.au/people/baba-kamyljanov
+created: 2024-09-17 00:00:00+00:00
+guid: 76838a73-4219-4127-8033-f5f4edbf8091
 related:
-  - using-mfa
-  - password-manager
-  - multi-factor-authentication-enabled
-  - choosing-authentication
-  - modern-stateless-authentication
+- rule: public/uploads/rules/using-mfa/rule.mdx
+- rule: public/uploads/rules/password-manager/rule.mdx
+- rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
+- rule: public/uploads/rules/choosing-authentication/rule.mdx
+- rule: public/uploads/rules/modern-stateless-authentication/rule.mdx
+seoDescription: Learn why Passkeys provide stronger security than passwords and MFA,
+  offering phishing-resistant authentication with biometric verification and eliminating
+  password reuse vulnerabilities.
+title: Authentication - Do you use Passkeys for stronger security?
+type: rule
+uri: use-passkeys
 ---
 
 Passwords are a traditional technology that create security vulnerabilities through reuse, breaches, and phishing attacks. Passwords remain a weak point in your security chain.
 
 Passkeys represent the next evolution in authentication, providing phishing-resistant, seamless integration with biometric technology, and passwordless security that's both more secure and more convenient than traditional methods.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/bdp8RdjV6PU`
-**Video: What are passkeys? Explained in under 4 minutes (4 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/bdp8RdjV6PU" description={"Video: What are passkeys? Explained in under 4 minutes (4 min)"} />
+
 
 Watch a more deep dive video about Passkeys: [Passkeys SUCK (here’s why + how I use them)](https://youtu.be/_tQbWop1P7o) (10 min).
 
@@ -47,13 +50,25 @@ Watch a more deep dive video about Passkeys: [Passkeys SUCK (here’s why + how 
 2. **Synced across devices** - Passkeys created with major providers like Google, Apple, or Microsoft automatically sync across your devices using their secure cloud services (e.g.: Google Password Manager, iCloud Keychain). This means a passkey you create on your phone will be available on your tablet and laptop, as long as you're signed into the same account.
 3. **No forgotten passwords** - Never forget a password again or get locked out of accounts
 
-::: bad img-medium
-![Figure: Bad example - Traditional password vulnerable to phishing, are often used across many accounts, and you may forget it over time](sign-in-with-password.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="bad"
+  figure="Bad example - Traditional password vulnerable to phishing, are often used across many accounts, and you may forget it over time"
+  src="/uploads/rules/use-passkeys/sign-in-with-password.png"
+/>
 
-::: good img-medium
-![Figure: Good example - Passkey authentication is phishing-resistant and convenient (in this example using Windows PIN)](sign-in-with-passkey.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="good"
+  figure="Good example - Passkey authentication is phishing-resistant and convenient (in this example using Windows PIN)"
+  src="/uploads/rules/use-passkeys/sign-in-with-passkey.png"
+/>
+
 
 ## Wider adoption and social pressure
 
@@ -61,7 +76,7 @@ While passkeys have been around for many years, it's taken longer than we'd like
 
 Some cybersecurity professionals are taking it upon themselves to drive an increase in the adoption rate of passkeys, by way of social pressure and public education on the topic.
 
-One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.troyhunt.com) - creator of [haveibeenpwned.com](https://haveibeenpwned.com/), publishes a "list of shame" of businesses and services that don't yet support passkeys as a form of authentication. This is the same tactic Troy used many years ago to pressure businesses to implement secure transport layer encryption (HTTPS) on their sites, to great effect. Go Troy!  
+One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.troyhunt.com) - creator of [haveibeenpwned.com](https://haveibeenpwned.com/), publishes a "list of shame" of businesses and services that don't yet support passkeys as a form of authentication. This is the same tactic Troy used many years ago to pressure businesses to implement secure transport layer encryption (HTTPS) on their sites, to great effect. Go Troy!
 
 ## How to set up passkeys for Microsoft Entra Account
 
@@ -97,9 +112,15 @@ One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.t
    * In Authenticator app select your Microsoft account
    * Then select **Create a passkey** and follow the instructions
 
-   ::: img-medium
-   ![Figure: Passkey created successfully](passkey-create-success.png)
-   :::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Passkey created successfully"
+  src="/uploads/rules/use-passkeys/passkey-create-success.png"
+/>
+
 
 5. **Test your passkey**
 
@@ -108,13 +129,27 @@ One of the most prolific cybersecurity professionals - [Troy Hunt](https://www.t
    * Choose **Face, fingerprint, PIN, or security key** option
    * Use your biometric authentication to complete sign-in
 
-::: info
-**Pro tip:** Set up passkeys on multiple devices (phone, laptop, tablet) to ensure you always have access to your accounts even if one device is unavailable.
-:::
 
-::: info
-**Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your [security dashboard](https://account.microsoft.com/security).
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Pro tip:** Set up passkeys on multiple devices (phone, laptop, tablet) to ensure you always have access to your accounts even if one device is unavailable.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** These steps are for a work or school Microsoft account (Microsoft Entra ID). For a personal Microsoft account, please visit your [security dashboard](https://account.microsoft.com/security).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Managing passkeys
 

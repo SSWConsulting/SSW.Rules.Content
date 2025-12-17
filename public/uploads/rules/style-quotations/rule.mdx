@@ -1,58 +1,70 @@
 ---
-type: rule
-title: Do you format quotations to stand out from the main text?
-seoDescription: Add quotation marks to make them easily identifiable and improve readability by starting a new line with indentation.
-uri: style-quotations
-authors:
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-related:
-  - format-new-lines
-  - commas-and-full-stops-always-should-have-1-space-after-them
-  - formatting-ui-elements
-  - indent
-  - distinguish-keywords-from-content
-redirects:
-  - do-you-know-how-to-make-quotations-easier-to-identify
-  - how-to-add-quotations
-created: 2016-04-21T04:15:15.000Z
 archivedreason: null
+authors:
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+created: 2016-04-21 04:15:15+00:00
 guid: 0212ab54-f936-4d72-a690-c9276ded3cc6
-
+redirects:
+- do-you-know-how-to-make-quotations-easier-to-identify
+- how-to-add-quotations
+related:
+- rule: public/uploads/rules/format-new-lines/rule.mdx
+- rule: public/uploads/rules/commas-and-full-stops-always-should-have-1-space-after-them/rule.mdx
+- rule: public/uploads/rules/formatting-ui-elements/rule.mdx
+- rule: public/uploads/rules/indent/rule.mdx
+- rule: public/uploads/rules/distinguish-keywords-from-content/rule.mdx
+seoDescription: Add quotation marks to make them easily identifiable and improve readability
+  by starting a new line with indentation.
+title: Do you format quotations to stand out from the main text?
+type: rule
+uri: style-quotations
 ---
 
 Quotations should not blend into the rest of your message. Whether you're responding to an emailm, IM message, or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content.
 
-<!--endintro-->
+<endIntro />
 
 Generally, the best practice is to **start a quote on a new line and indent it**, then use either quotes or the greater-than sign to make the text visually distinct and easy to follow.
 
-::: greybox
-Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"
-:::
-::: bad
-Figure: Bad example - The quotation is mixed up with main text
-:::
 
-::: greybox
-Software development can be painful and costly. Hang on, that should say:
+<boxEmbed
+  style="greybox"
+  body={<>
+    Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The quotation is mixed up with main text"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Software development can be painful and costly. Hang on, that should say:
 
 &nbsp;&nbsp;&nbsp;"Software development **is** painful and costly"
-:::
-::: good
-Figure: OK example - The quotation has quote marks, on a new line and indented
-:::
+  </>}
+  figurePrefix="good"
+  figure="OK example - The quotation has quote marks, on a new line and indented"
+/>
 
-::: greybox
-Software development can be painful and costly. Hang on, that should say:
 
-&nbsp;&nbsp;&nbsp;> Software development **is** painful and costly
-:::
-::: good
-Figure: Good example - The quotation has greater-than sign, on a new line and indented
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Software development can be painful and costly. Hang on, that should say:
+
+&nbsp;&nbsp;&nbsp;&gt; Software development **is** painful and costly
+  </>}
+  figurePrefix="good"
+  figure="Good example - The quotation has greater-than sign, on a new line and indented"
+/>
+
 
 ## 💬 For IMs
 
@@ -60,7 +72,16 @@ IMs are fast and casual, but things can get messy without context. Quoting prope
 
 The best way is to **use the platform’s native reply feature**. This keeps context visible and linked to the original message.
 
-![Figure: Replying feature in IM helps keeping the conversation organized](im-reply-example.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Replying feature in IM helps keeping the conversation organized"
+  src="/uploads/rules/style-quotations/im-reply-example.png"
+/>
+
 
 **Notes:**
 
@@ -68,9 +89,16 @@ The best way is to **use the platform’s native reply feature**. This keeps con
 
 * When quoting **older messages** OR **messages in group chats**, mention @username to clarify who said what
 
-::: info
-**Tip:** [Use reactions (e.g. ✅, 👍, 👀) when you don't need a quote](/easy-questions/#ask-for-reactions-for-multiple-options) — they're quicker and reduce message volume.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** [Use reactions (e.g. ✅, 👍, 👀) when you don't need a quote](/easy-questions/#ask-for-reactions-for-multiple-options) — they're quicker and reduce message volume.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## 📧 For emails
 
@@ -78,25 +106,23 @@ In email replies, quoting previous messages is essential for context. The standa
 
 ### Email reply example
 
-::: email-template  
+<emailEmbed
+  from=""
+  to="Bob"
+  cc=""
+  bcc=""
+  subject="Northwind - April report"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Bob
 
-| | |
-| -------- | --- |
-| To:      | Bob                      |
-| Subject: | Northwind - April report |
-::: email-content
-
-### Hi Bob
-
-&nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
+&nbsp;&nbsp;&nbsp; &gt; Can you send the report by Friday?
 
 Sure! I’ll send it over by end of day.
-
-:::
-:::  
-::: good
-Figure: Good example - This simple formatting makes conversations easier to follow, especially in long email threads
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - This simple formatting makes conversations easier to follow, especially in long email threads"
+/>
 
 ## 🖥️ For Web UI
 

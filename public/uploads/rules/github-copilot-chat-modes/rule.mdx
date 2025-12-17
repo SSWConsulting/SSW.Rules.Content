@@ -1,30 +1,31 @@
 ---
-type: rule
-title: Do you create reusable GitHub Copilot Chat Modes?
-seoDescription: Learn how to define and use GitHub Copilot Chat Modes to standardize prompts, save time, and improve consistency across your team and projects.
-uri: github-copilot-chat-modes
 authors:
-  - title: Daniel Mackay
-    url: https://www.ssw.com.au/people/daniel-mackay
-  - title: Gordon Beeming
-    url: https://www.ssw.com.au/people/gordon-beeming
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-created: 2025-10-23T10:00:00.000Z
+- title: Daniel Mackay
+  url: https://www.ssw.com.au/people/daniel-mackay
+- title: Gordon Beeming
+  url: https://www.ssw.com.au/people/gordon-beeming
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+created: 2025-10-23 10:00:00+00:00
 guid: 5a8f9d7c-9f4d-4fdc-9d2b-9c8c9a6d7e21
-related:
-  - ai-pair-programming
-  - copilot-lingo
-  - automatic-code-reviews-github
 redirects:
-  - use-github-copilot-chat-modes
+- use-github-copilot-chat-modes
+related:
+- rule: public/uploads/rules/ai-pair-programming/rule.mdx
+- rule: public/uploads/rules/copilot-lingo/rule.mdx
+- rule: public/uploads/rules/automatic-code-reviews-github/rule.mdx
+seoDescription: Learn how to define and use GitHub Copilot Chat Modes to standardize
+  prompts, save time, and improve consistency across your team and projects.
+title: Do you create reusable GitHub Copilot Chat Modes?
+type: rule
+uri: github-copilot-chat-modes
 ---
 
 GitHub Copilot Custom Chat Modes let you package the prompt and available tools for a given task (e.g. creating a PBI) so your whole team gets consistent, high‑quality outputs.
 
 Without a chat mode, individuals might copy/paste prompts . Important acceptance criteria or governance links get lost. New starters don't know the “standard way” and quality varies.
 
-<!--endintro-->
+<endIntro />
 
 ## The solution – Custom Chat Modes
 
@@ -34,14 +35,20 @@ Define a Chat Mode once (YAML front matter + system instructions) and save it in
 2. Answers any clarifying questions
 3. Executes consistent, reviewed guidance every time
 
-::: good
-![Figure: Good example - Chat Mode picker in VS Code](chat-mode-picker.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Chat Mode picker in VS Code"
+  src="/uploads/rules/github-copilot-chat-modes/chat-mode-picker.png"
+/>
+
 
 ## How to implement
 
 1. Identify repetitive high‑value conversations (e.g. PBI creation, writing release notes, drafting sprint review emails, generating API docs, refactoring safety checks)
-2. Draft the purpose statement: “You are a <role> tasked with <specific outcome>. Produce <clear deliverable>.” Keep it concise
+2. Draft the purpose statement: “You are a &lt;role&gt; tasked with &lt;specific outcome&gt;. Produce &lt;clear deliverable&gt;.” Keep it concise
 3. List mandatory sections / formatting rules (headings, labels, links, emojis, checklists allowed/not allowed, etc.)
 4. Add governance links (e.g. [Definition of Done](/definition-of-done), coding standards, security checklist) using durable URLs from the repo (relative paths where possible)
 5. Specify guardrails: what NOT to do (e.g. “Do not include the title in the body”, “Never guess requirements – ask clarifying questions first”)

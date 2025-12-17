@@ -1,25 +1,27 @@
 ---
-seoDescription: Discover the power of Entity Relationship Diagrams (ERDs) in visualizing your database architecture. Learn how to define cardinality, optionality, and many-to-many relationships for a deeper understanding of your data's structure.
-type: rule
-title: Do you visualize your database with an ERD?
-uri: erds
 authors:
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-related:
-  - relational-database-design
-  - database-normalization
-created: 2023-07-06T11:50:13.555Z
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+created: 2023-07-06 11:50:13.555000+00:00
 guid: 1c41b0f4-2cdf-4fad-8354-769ab02385ff
+related:
+- rule: public/uploads/rules/relational-database-design/rule.mdx
+- rule: public/uploads/rules/database-normalization/rule.mdx
+seoDescription: Discover the power of Entity Relationship Diagrams (ERDs) in visualizing
+  your database architecture. Learn how to define cardinality, optionality, and many-to-many
+  relationships for a deeper understanding of your data's structure.
+title: Do you visualize your database with an ERD?
+type: rule
+uri: erds
 ---
 
 Relational databases are complicated, and understanding the entire architecture of a database can be difficult when expressed solely in words. That's where Entity Relationship Diagrams (ERDs) come in. ERDs are a way of visualizing the relationships between different entities and their cardinality.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/watch?v=6uwuNRUUimY`
 
-**Video: ERDs explained**
+<youtubeEmbed url="https://www.youtube.com/watch?v=6uwuNRUUimY" description={"Video: ERDs explained"} />
+
 
 # Cardinality
 
@@ -109,7 +111,16 @@ Note how wordy it was to illustrate the many-to-many relationship in the Student
 
 An ERD helps quickly display all the relationships in a database at a glance. Let's see what it looks like for StudentCourses:
 
-![Figure: Student Courses ERD](studentcourseserd.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Student Courses ERD"
+  src="/uploads/rules/erds/studentcourseserd.png"
+/>
+
 
 In this example, Students, Courses and StudentCourses are represented via the rectangles. Meanwhile, their relationships are shown via the lines between the rectangles. You can see the cardinality indicated by what is called [Crow's foot notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation).
 

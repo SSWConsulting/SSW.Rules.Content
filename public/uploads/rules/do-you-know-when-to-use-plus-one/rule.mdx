@@ -1,41 +1,47 @@
 ---
-seoDescription: Use +1 when you agree or support someone's suggestion or idea on a thread to show your endorsement and encourage others to do the same.
-type: rule
-archivedreason:
-title: Do you add a "+1" to indicate you agree?
-guid: e708950c-6bf0-440f-9ee3-fd2099e86d6c
-uri: do-you-know-when-to-use-plus-one
-created: 2009-04-07T08:09:02.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
-related:
-  - the-happiness-equation
-  - separate-messages
-  - meaningful-chat-reactions
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+created: 2009-09-04 06:53:06+00:00
+createdBy: Ulysses Maclaren
+createdByEmail: ulyssesmaclaren@ssw.com.au
+guid: e708950c-6bf0-440f-9ee3-fd2099e86d6c
+isArchived: false
+lastUpdated: 2017-04-21 19:09:48+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-know-when-to-use-1
-  - do-you-know-when-to-use-+1
+- do-you-know-when-to-use-1
+- do-you-know-when-to-use-+1
+related:
+- rule: public/uploads/rules/the-happiness-equation/rule.mdx
+- rule: public/uploads/rules/separate-messages/rule.mdx
+- rule: public/uploads/rules/meaningful-chat-reactions/rule.mdx
+seoDescription: Use +1 when you agree or support someone's suggestion or idea on a
+  thread to show your endorsement and encourage others to do the same.
+title: Do you add a "+1" to indicate you agree?
+type: rule
+uri: do-you-know-when-to-use-plus-one
 ---
 
 Usually, when someone makes a suggestion or a complaint... you only hear from the ones who disagree. If you agree with someone, it helps to let others on the thread know. Simply reply with "+1" and a quick sentence.
 
-<!--endintro-->
+<endIntro />
 
-::: email-template  
+<emailEmbed
+  from=""
+  to="Gary"
+  cc="Code Auditor Team"
+  bcc=""
+  subject="RE: CodeAuditor rule files"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Gary
 
-| | |
-| -------- | --- |
-| To: | Gary |
-| Cc: | Code Auditor Team |
-| Subject: | RE: CodeAuditor rule files |  
-::: email-content
-
-### Hi Gary
-
-<mark>+1</mark> on this. Duplicates can be quite frustrating
+==+1== on this. Duplicates can be quite frustrating
 
 Dave
 
@@ -48,13 +54,17 @@ Dave
 Hi, I saw two clients today that complained about CodeAuditor rule files being created even though one had already existed. They were all named x.SSWCodeAuditor where x was a number from 1 to 13 in one of the cases. Why do these keep being created?
 
 Gary
+  </>}
+  figurePrefix="good"
+  figure="Good example - using +1 to show you agree"
+/>
 
-:::  
-:::  
-::: good  
-Figure: Good example - using +1 to show you agree  
-:::
 
-::: info
-**Note:** Outlook and most instant messaging apps now support “like” (👍) reactions, which are a quick way to show support or agreement. However, using +1 with a short comment is more powerful—it not only signals agreement but also adds your input, making the conversation clearer and more valuable to others.
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Outlook and most instant messaging apps now support “like” (👍) reactions, which are a quick way to show support or agreement. However, using +1 with a short comment is more powerful—it not only signals agreement but also adds your input, making the conversation clearer and more valuable to others.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

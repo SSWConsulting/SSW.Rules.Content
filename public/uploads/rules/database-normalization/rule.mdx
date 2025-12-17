@@ -1,21 +1,22 @@
 ---
-seoDescription: Database normalization ensures relational databases conform to good design principles, improving data integrity and reducing redundancy.
-type: rule
-title: Do you normalize your database?
-uri: database-normalization
 authors:
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-related:
-  - relational-database-design
-  - erds
-created: 2023-07-06T11:50:13.555Z
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+created: 2023-07-06 11:50:13.555000+00:00
 guid: a23003ee-765a-4abf-84e7-5a52df5e5e50
+related:
+- rule: public/uploads/rules/relational-database-design/rule.mdx
+- rule: public/uploads/rules/erds/rule.mdx
+seoDescription: Database normalization ensures relational databases conform to good
+  design principles, improving data integrity and reducing redundancy.
+title: Do you normalize your database?
+type: rule
+uri: database-normalization
 ---
 
 Database Normalization is a systematic approach to designing databases that reduces redundancy and avoids potential anomalies during data update, deletion, or insertion. This process involves organizing the columns (attributes) and tables (relations) of a database to ensure their dependencies are properly enforced by database integrity constraints.
 
-<!--endintro-->
+<endIntro />
 
 Normalization is typically carried out through a series of steps called normal forms, each with specific rules:
 
@@ -25,9 +26,9 @@ Normalization is typically carried out through a series of steps called normal f
 
 There are [further normal forms](https://en.wikipedia.org/wiki/Database_normalization), and the theory constantly evolves, but these 3 are the bare minimum required for database design.
 
-`youtube: https://youtu.be/J-drts33N8g`
 
-**Video: Database normalization explained**
+<youtubeEmbed url="https://youtu.be/J-drts33N8g" description={"Video: Database normalization explained"} />
+
 
 # Normal forms explained - the example of a library checkout system
 
@@ -194,4 +195,4 @@ The use of these tools helps improve data integrity and reduce data redundancy.
 
 # Further Study
 
-* Microsoft Office's Troubleshoot Access Database Normalization Description: <https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description?WT.mc_id=DP-MVP-33518>
+* Microsoft Office's Troubleshoot Access Database Normalization Description: [https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description?WT.mc_id=DP-MVP-33518)

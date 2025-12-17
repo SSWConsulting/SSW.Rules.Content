@@ -1,20 +1,29 @@
 ---
-seoDescription: Learn how to choose safe, reliable, and well-maintained dependencies. Reduce security risks, avoid abandoned libraries, and protect your application from supply-chain attacks by following a proven checklist for evaluating third-party packages.
-type: rule
-title: Do you choose the right dependencies?
-uri: choose-dependencies-correctly
-related: 
-  - monitor-packages-for-vulnerability
-  - maintain-dependencies-correctly
-  - packages-up-to-date
-  - do-you-know-the-correct-license-to-use-for-open-source-software
-  - package-audit-log
-  - document-discoveries
 authors:
-  - title: Josh Berman
-    url: https://ssw.com.au/people/josh-berman
-created: 2025-12-11T11:38:54.394Z
+- title: Josh Berman
+  url: https://ssw.com.au/people/josh-berman
+created: 2025-12-11 04:11:49+00:00
+createdBy: Josh Berman [SSW]
+createdByEmail: 137844305+joshbermanssw@users.noreply.github.com
 guid: 873b8c90-7233-4e19-b044-a2096091c0af
+isArchived: false
+lastUpdated: 2025-12-12 18:31:21+00:00
+lastUpdatedBy: Baba Kamyljanov [SSW]
+lastUpdatedByEmail: babakamyljanov@ssw.com.au
+related:
+- rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
+- rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
+- rule: public/uploads/rules/packages-up-to-date/rule.mdx
+- rule: public/uploads/rules/do-you-know-the-correct-license-to-use-for-open-source-software/rule.mdx
+- rule: public/uploads/rules/package-audit-log/rule.mdx
+- rule: public/uploads/rules/document-discoveries/rule.mdx
+seoDescription: Learn how to choose safe, reliable, and well-maintained dependencies.
+  Reduce security risks, avoid abandoned libraries, and protect your application from
+  supply-chain attacks by following a proven checklist for evaluating third-party
+  packages.
+title: Do you choose the right dependencies?
+type: rule
+uri: choose-dependencies-correctly
 ---
 
 Most modern applications are built on top of hundreds of third-party packages. Every time you run `npm install`, `yarn add` or `dotnet add package`, you're pulling someone else's code directly into your production environment.
@@ -23,7 +32,7 @@ This means your application is only as **secure**, **stable**, and **trustworthy
 
 Choosing the right dependencies, and maintaining them properly, is one of the most important things you can do before an exploit hits the ecosystem.
 
-<!--endintro-->
+<endIntro />
 
 ## Why do we need packages?
 
@@ -38,8 +47,9 @@ Developers rely on packages to:
 
 ## **Learning the risks** of using external packages
 
-`youtube: https://www.youtube.com/embed/lqZo4waMB3c?si=Ceoy1y1h9mNmU7PX`
-**Video: The NPM Worm of November 2025 (7 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/lqZo4waMB3c?si=Ceoy1y1h9mNmU7PX" description={"Video: The NPM Worm of November 2025 (7 min)"} />
+
 
 While packages help teams move faster, they also introduce real and often underestimated risks. Every dependency added to your project is a new entry point for bugs, vulnerabilities or supply-chain attacks.
 
@@ -60,7 +70,7 @@ Before installing or adding a package to a project, developers should consider t
 
 ### 1. Is it actively maintained?
 
-A package should be actively maintained, without this code quickly becomes incompatible, insecure and outdated. Packages that evolve with the greater ecosystem are more likely to curb security vulnerabilities and remain compatible with your solutions. The moment a security flaw is discovered and no-one is actively patching it, you inherit the maintenance burden.  
+A package should be actively maintained, without this code quickly becomes incompatible, insecure and outdated. Packages that evolve with the greater ecosystem are more likely to curb security vulnerabilities and remain compatible with your solutions. The moment a security flaw is discovered and no-one is actively patching it, you inherit the maintenance burden.
 
 When checking maintenance activity, look for:
 
@@ -68,13 +78,25 @@ When checking maintenance activity, look for:
 * Recent releases
 * Responsiveness to issues and PRs
 
-::: bad
-![Figure: Bad example - No recent activity](activity-bad-npm.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - No recent activity"
+  src="/uploads/rules/choose-dependencies-correctly/activity-bad-npm.png"
+/>
 
-::: good
-![Figure: Good example - More recent activity](activity-good-npm.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - More recent activity"
+  src="/uploads/rules/choose-dependencies-correctly/activity-good-npm.png"
+/>
+
 
 ### 2. Is it maintained by somebody credible?
 
@@ -100,13 +122,25 @@ A well documented package is a strong indicator of maturity, professionalism and
 * Supported by community knowledge
 * Faster to resolve packages
 
-::: bad
-![Figure: Bad example - Decent amount of uses](popularity-npm-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Decent amount of uses"
+  src="/uploads/rules/choose-dependencies-correctly/popularity-npm-bad.png"
+/>
 
-::: good
-![Figure: Good example - A lot more popular, battle-tested 💪](popularity-npm-good.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - A lot more popular, battle-tested 💪"
+  src="/uploads/rules/choose-dependencies-correctly/popularity-npm-good.png"
+/>
+
 
 ### 5. Is it frequently released?
 
@@ -116,13 +150,25 @@ Healthy packages ship predictable updates. Regular releases indicate active stew
 * Security patches are delivered quickly
 * Compatibility with new versions of core frameworks
 
-::: bad
-![Figure: Bad example - Released ages ago!](last-published-npm-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Released ages ago!"
+  src="/uploads/rules/choose-dependencies-correctly/last-published-npm-bad.png"
+/>
 
-::: good
-![Figure: Good example - More recent release](last-published-npm-good.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - More recent release"
+  src="/uploads/rules/choose-dependencies-correctly/last-published-npm-good.png"
+/>
+
 
 ### 6. Does it have good transparency?
 
@@ -174,9 +220,15 @@ Trimmer support has improved in .NET 8 and .NET 9, but the same rule still appli
 
 Licenses define what you can and cannot do with the code. Legal issues can emerge years after the code is shipped. Using restrictive or unclear licenses can put your organisation at risk, especially in commercial or closed-source products. The safest time to avoid licensing issues is before you install the dependency.
 
-::: good
-![Figure: Good example - Licensing mentioned](licensing-good.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Licensing mentioned"
+  src="/uploads/rules/choose-dependencies-correctly/licensing-good.png"
+/>
+
 
 ## **Documenting** dependencies the right way
 
@@ -190,9 +242,15 @@ Always [keep track of the reasoning](/document-discoveries) when developers deci
 
 Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
 
-::: good
-![Figure: Good example - A markdown file should include your reasons to assist future developers](md-decision-reasons.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - A markdown file should include your reasons to assist future developers"
+  src="/uploads/rules/choose-dependencies-correctly/md-decision-reasons.png"
+/>
+
 
 ## **Maintaining** dependencies the right way
 

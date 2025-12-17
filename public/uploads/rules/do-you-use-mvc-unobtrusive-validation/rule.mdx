@@ -1,41 +1,88 @@
 ---
-seoDescription: Do you use MVC Unobtrusive Validation to configure both client-side and server-side validation for data integrity and fast user feedback?
-type: rule
-archivedreason:
-title: Do you use MVC Unobtrusive Validation?
-guid: efafaf89-9d76-42b2-8808-5403a8db6299
-uri: do-you-use-mvc-unobtrusive-validation
-created: 2013-12-12T05:01:16.0000000Z
+archivedreason: null
 authors:
-  - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
-related: []
+- title: Brendan Richards
+  url: https://ssw.com.au/people/brendan-richards
+created: 2013-12-12 07:23:35+00:00
+createdBy: Brendan Richards
+createdByEmail: BrendanRichards@ssw.com.au
+guid: efafaf89-9d76-42b2-8808-5403a8db6299
+isArchived: false
+lastUpdated: 2019-01-07 19:23:21+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
+seoDescription: Do you use MVC Unobtrusive Validation to configure both client-side
+  and server-side validation for data integrity and fast user feedback?
+title: Do you use MVC Unobtrusive Validation?
+type: rule
+uri: do-you-use-mvc-unobtrusive-validation
 ---
 
 Validation is an important part of any data-driven web application. Client-Side validation provides fast user feedback and a better UI experience but cannot be relied on for data integrity - so client-side validation should always be backed by additional server-side validation.
 
 With MVC Unobtrusive Validation, you can configure both client-side and server-side in one place.
 
-<!--endintro-->
+<endIntro />
 
 Validation rules can be added to a model object via Data Annotations or using the Fluent Validation API.
 
 Fluent Validation is [available as a Nuget package](http://www.nuget.org/packages/FluentValidation/). See [Do you use Fluent Validation?](/use-fluent-validation)
 
-![Figure: OK Example - Data Annotation attributes decorate model properties to make them required](DataAttributes.png)
 
-![Figure: Better Example - Fluent Validation allows validation metadata to be added to a class without modifying the original class.  This provides much more flexibility for code reuse](FluentValidation.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="OK Example - Data Annotation attributes decorate model properties to make them required"
+  src="/uploads/rules/do-you-use-mvc-unobtrusive-validation/DataAttributes.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Better Example - Fluent Validation allows validation metadata to be added to a class without modifying the original class.  This provides much more flexibility for code reuse"
+  src="/uploads/rules/do-you-use-mvc-unobtrusive-validation/FluentValidation.png"
+/>
+
 
 If you create a new MVC web application in VisualStudio 2013, unobtrusive validation will be enabled by default. Otherwise, it's simple to [install from Nuget](http://www.nuget.org/packages/Microsoft.jQuery.Unobtrusive.Validation/). To use it simply:
 
 1. Bind your razor views to model objects
 2. Use Html Helpers to render the form UI
 
-::: good  
-![Figure: Good Example - this razor view binds to a strongly typed model object and uses HTML helpers.](view.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good Example - this razor view binds to a strongly typed model object and uses HTML helpers."
+  src="/uploads/rules/do-you-use-mvc-unobtrusive-validation/view.png"
+/>
 
-![Figure: the HTML UI rendered for this view now has data-validation attributes that are followed by JQuery validation to provide rich client-side validation.](Html.png)
 
-![Figure: On the server-side, the same validation rules will be checked when you call ModelState.IsValid](SaveAction.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="the HTML UI rendered for this view now has data-validation attributes that are followed by JQuery validation to provide rich client-side validation."
+  src="/uploads/rules/do-you-use-mvc-unobtrusive-validation/Html.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="On the server-side, the same validation rules will be checked when you call ModelState.IsValid"
+  src="/uploads/rules/do-you-use-mvc-unobtrusive-validation/SaveAction.png"
+/>

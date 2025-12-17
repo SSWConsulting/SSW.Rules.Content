@@ -1,44 +1,41 @@
 ---
-seoDescription: Properly format "Environment.NewLine" at the end of a line in C# code to ensure accurate text manipulation and rendering.
-type: rule
-title: Do you format "Environment.NewLine" at the end of a line?
-uri: format-environment-newline-at-the-end-of-a-line
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
-  - do-you-format-environment-newline-at-the-end-of-a-line
-created: 2018-04-26T21:46:51.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-26 21:46:51+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 283e068f-6fa7-4385-b022-b1a80dfe92bf
+isArchived: false
+lastUpdated: 2020-01-29 23:23:05+00:00
+lastUpdatedBy: Liam Elliott
+lastUpdatedByEmail: LiamElliott@ssw.com.au
+redirects:
+- do-you-format-environment-newline-at-the-end-of-a-line
+seoDescription: Properly format "Environment.NewLine" at the end of a line in C# code
+  to ensure accurate text manipulation and rendering.
+title: Do you format "Environment.NewLine" at the end of a line?
+type: rule
+uri: format-environment-newline-at-the-end-of-a-line
 ---
 
 You should format "Environment.NewLine" at the end of a line.
 
-<!--endintro-->
+<endIntro />
 
 ```csharp
 string message = "The database is not valid." + Environment.NewLine + "Do you want to upgrade it? ";
 ```
-
-::: bad
-Bad example - "Environment.NewLine" isn't at the end of the line
-:::
+**❌ Bad example - "Environment.NewLine" isn't at the end of the line**  
 
 ```csharp
 string message = "The database is not valid." + Environment.NewLine;
 message += "Do you want to upgrade it? ";
 ```
-
-::: good
-Good example -  "Environment.NewLine" is at the end of the line
-:::
+**✅ Good example -  "Environment.NewLine" is at the end of the line**  
 
 ```csharp
 return string.Join(Environment.NewLine, paragraphs);
 ```
-
-::: good
-Good example - "Environment.NewLine" is an exception for String.Join\
-:::
+**✅ Good example - "Environment.NewLine" is an exception for String.Join\**

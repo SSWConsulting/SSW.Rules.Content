@@ -1,31 +1,32 @@
 ---
-seoDescription: "Discover the power of Event Storming—a collaborative workshop method for gathering domain events and building effective software systems."
-type: rule
-title: Do you know the value of Event Storming?
-uri: event-storming
 authors:
-  - title: William Liebenberg
-    url: https://www.ssw.com.au/people/william-liebenberg
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
-related:
-  - user-journey-mapping
-  - event-storming-workshop
-created: 2022-07-04T07:46:30.373Z
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
+created: 2022-07-04 07:46:30.373000+00:00
 guid: 9d76ab58-ad71-4cb1-af08-68330f7e3a8e
+related:
+- rule: public/uploads/rules/user-journey-mapping/rule.mdx
+- rule: public/uploads/rules/event-storming-workshop/rule.mdx
+seoDescription: Discover the power of Event Storming—a collaborative workshop method
+  for gathering domain events and building effective software systems.
+title: Do you know the value of Event Storming?
+type: rule
+uri: event-storming
 ---
 
 Often when building systems it isn't super clear what all the nuts and bolts should be. The complexity of projects can vary quite a lot - and getting customers to tell us what they need is not easy. There might be several major stakeholders or domain experts each with slightly different ideas understanding that causes contention in how the system functions. Being a good consultant requires good listening and then good analytical skills to determine the customer's technical needs.
 
-[Event Storming](https://www.eventstorming.com) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes.  
+[Event Storming](https://www.eventstorming.com) is a fun collaborative modeling technique invented by [Alberto Brandolini](https://twitter.com/ziobrando) that enables members from different teams and disciplines to participate in workshops to learn how to break down complex business domains and processes.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://youtu.be/YeRfugbKuHk`
 
-**Video: Do you know the value of Event Storming? with William Liebenberg (6 min)**
+<youtubeEmbed url="https://youtu.be/YeRfugbKuHk" description={"Video: Do you know the value of Event Storming? with William Liebenberg (6 min)"} />
+
 
 ### The benefits of Event Storming
 
@@ -67,9 +68,18 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 * All relevant concepts are captured and documented
 * The software design phase can proceed using methods from Domain-Driven Design (DDD), [Clean Architecture](/rules-to-better-clean-architecture) and [CQRS](/use-the-mediator-pattern-with-cqrs). Each sticky note can potentially turn into a Product Backlog Item during the software development phase.
 
-![Figure: Levels of Event Storming](event-storming-levels.png)
 
-Notice as you traverse the levels from top to bottom that new concepts are introduced that help describe the domain or process which gets us closer to being able to build a concrete software solution.  
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Levels of Event Storming"
+  src="/uploads/rules/event-storming/event-storming-levels.png"
+/>
+
+
+Notice as you traverse the levels from top to bottom that new concepts are introduced that help describe the domain or process which gets us closer to being able to build a concrete software solution.
 
 ### How to start an Event Storming workshop
 
@@ -83,15 +93,15 @@ Check out [how to run an Event Storming workshop](/event-storming-workshop) for 
 
 Different colored sticky notes should be used to denote different concepts:
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg> **Domain Events** - Orange  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg> **Domain Events** - Orange
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> **Actors (aka Personas)** - Light Yellow  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> **Actors (aka Personas)** - Light Yellow
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg> **Policies (aka Business Process)** - Pink  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg> **Policies (aka Business Process)** - Pink
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> **Commands** - Blue  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> **Commands** - Blue
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg> **Aggregate** - Yellow  
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg> **Aggregate** - Yellow
 
 <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg> **External System** - Purple
 
@@ -99,6 +109,23 @@ Different colored sticky notes should be used to denote different concepts:
 
 You can use whatever colors you can find, as long as a legend is always visible to the team.
 
-![Figure: Example of Domain Events, Commands, Actors, etc. arranged underneath the Aggregate](event-storming-example-stickies.png)
 
-![Figure: Example events and timeline of a booking system](event-storming-03.jpeg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example of Domain Events, Commands, Actors, etc. arranged underneath the Aggregate"
+  src="/uploads/rules/event-storming/event-storming-example-stickies.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example events and timeline of a booking system"
+  src="/uploads/rules/event-storming/event-storming-03.jpeg"
+/>

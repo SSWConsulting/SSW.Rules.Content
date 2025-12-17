@@ -1,31 +1,39 @@
 ---
-type: rule
-archivedreason:
-title: Do you walk through UI changes using DevTools and screen recordings?
-seoDescription: Designers often struggle to explain small UI tweaks to developers. Instead of vague messages or screenshots, use DevTools and a short recording to clearly demonstrate the changes.
-guid: a7201bd1-965d-4854-877b-25952fb94a74
-uri: devtools-design-changes
-created: 2025-12-09T18:00:00.000Z
+archivedreason: null
 authors:
-  - title: Alex Blum
-    url: https://www.ssw.com.au/people/alex-blum
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
+- title: Alex Blum
+  url: https://www.ssw.com.au/people/alex-blum
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+created: 2025-12-10 19:25:02+00:00
+createdBy: Alex Blum [SSW]
+createdByEmail: alexblum@ssw.com.au
+guid: a7201bd1-965d-4854-877b-25952fb94a74
+isArchived: false
+lastUpdated: 2025-12-11 00:02:07+00:00
+lastUpdatedBy: Tiago Ara├║jo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 related:
-  - change-from-x-to-y
-  - do-you-cater-to-your-audience
-  - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
-  - do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views
-  - css-changes
-  - keep-developers-away-from-design-work
-  - hand-over-mockups-to-developers
+- rule: public/uploads/rules/change-from-x-to-y/rule.mdx
+- rule: public/uploads/rules/do-you-cater-to-your-audience/rule.mdx
+- rule: public/uploads/rules/go-beyond-just-using-chat/rule.mdx
+- rule: public/uploads/rules/do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views/rule.mdx
+- rule: public/uploads/rules/css-changes/rule.mdx
+- rule: public/uploads/rules/keep-developers-away-from-design-work/rule.mdx
+- rule: public/uploads/rules/hand-over-mockups-to-developers/rule.mdx
+seoDescription: Designers often struggle to explain small UI tweaks to developers.
+  Instead of vague messages or screenshots, use DevTools and a short recording to
+  clearly demonstrate the changes.
+title: Do you walk through UI changes using DevTools and screen recordings?
+type: rule
+uri: devtools-design-changes
 ---
 
 Designers often struggle to explain small UI tweaks to developers using just words or screenshots. A request like "make the button pop" or "this feels off" can be interpreted in many ways. Without clear direction, developers are forced to guess, which leads to delays, frustration, and wasted effort on both sides.
 
 Sharing short recordings of you live-editing a website in the browser’s DevTools significantly reduces design–dev iteration time.
 
-<!--endintro-->
+<endIntro />
 
 ## Show, don't tell
 
@@ -35,37 +43,39 @@ You can adjust paddings, margins, font sizes, colors, and layout styles directly
 
 This method gives the developer precise information in context, reducing ambiguity and miscommunication.
 
-::: info
-**Tip:** Emails are suitable for **small content changes**. Learn more on [Do you ask for small content changes using from X to Y?](/change-from-x-to-y/)
-:::
 
-::: email-template  
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Emails are suitable for **small content changes**. Learn more on [Do you ask for small content changes using from X to Y?](/change-from-x-to-y/)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-| | |
-| -------- | --- |
-| To: | Chloe |
-| Cc: | SSW YakShaver Team |
-| Subject: | ✨ Navigation and Header Layout Adjustment |  
-::: email-content
 
-### Hi Chloe
+<emailEmbed
+  from=""
+  to="Chloe"
+  cc="SSW YakShaver Team"
+  bcc=""
+  subject="✨ Navigation and Header Layout Adjustment"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi Chloe
 
 Adjust the navigation and header layout by modifying margin and padding settings to improve alignment and spacing.
 
 1. The navigation bar should have a consistent top margin
 2. The heading element should align with the breadcrumb and text inside the box
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means"
+/>
 
-:::  
-:::  
-::: bad
-Figure: Bad example – Vague request with no specific guidance. The developer is left guessing what the designer means
-:::
 
-`youtube: https://www.youtube.com/embed/W6yGj0t4BrM`
-
-::: good
-Video: Good example - The designer demonstrates and explains the change, giving the dev everything they need to implement it
-:::
+<youtubeEmbed url="https://www.youtube.com/embed/W6yGj0t4BrM" description={""} />
+**✅ Video: Good example - The designer demonstrates and explains the change, giving the dev everything they need to implement it**  
 
 ### When to use DevTools recordings
 

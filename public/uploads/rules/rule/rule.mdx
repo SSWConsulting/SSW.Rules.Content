@@ -1,32 +1,40 @@
 ---
-seoDescription: I'd be happy to help you generate an SEO description. Please provide the Markdown or MDX content, "and" I'll do my best to create a concise, keyword-rich, and user-intent-matching description. 😊
-type: rule
-title: Do you know all the cool stuff you can do on SSW Rules?
-uri: rule
-authors:
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-  - title: Sebastien Boissiere
-    url: https://ssw.com.au/people/sebastien-boissiere
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-understand-the-value-of-consistency
-  - add-useful-and-concise-figure-captions
-created: 2021-01-20T05:06:33.000Z
 archivedreason: null
+authors:
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+- title: Sebastien Boissiere
+  url: https://ssw.com.au/people/sebastien-boissiere
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2021-02-22 03:20:26+00:00
+createdBy: Christian Morford-Waite [SSW]
+createdByEmail: ChristianMWaite@ssw.com.au
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
+isArchived: false
+lastUpdated: 2025-12-04 00:53:15+00:00
+lastUpdatedBy: Jake Bayliss [SSW]
+lastUpdatedByEmail: 32888060+jakebayliss@users.noreply.github.com
+related:
+- rule: public/uploads/rules/the-value-of-consistency/rule.mdx
+- rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
+seoDescription: "I'd be happy to help you generate an SEO description. Please provide
+  the Markdown or MDX content, \"and\" I'll do my best to create a concise, keyword-rich,
+  and user-intent-matching description. \U0001F60A"
+title: Do you know all the cool stuff you can do on SSW Rules?
+type: rule
+uri: rule
 ---
 
 SSW Rules are **technical documentation** presented as practical guidelines that help teams build better software and work more effectively. They capture best practices across coding, architecture, communication, design and project management, making them a living knowledge base that supports consistency, clarity and quality in every project.
 
 This is an **example rule + Markdown cheatsheet** to give you some guidance around how to write rules and show you the things you can use to format an SSW Rule. For more info see our [GitHub Wiki page.](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown)
 
-<!--endintro-->
+<endIntro />
 
 ## Concepts to write rules
 
@@ -45,7 +53,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 ### 1. Headings, paragraphs, and blockquotes
 
 ```md
-## This is a heading 2 
+## This is a heading 2
 
 ### This is a heading 3
 
@@ -55,15 +63,22 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ###### This is a heading 6 and below is a blockquote
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
-> \- Someone famous
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+> -Someone famous
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
 
-::: info
-Do **not** use Heading 1 (`<h1>`) in the content, even with the good intention of improving SEO. The page title already uses `<h1>`, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple `<h1>` elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    Do **not** use Heading 1 (&lt;h1&gt;) in the content, even with the good intention of improving SEO. The page title already uses &lt;h1&gt;, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple &lt;h1&gt; elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## This is a heading 2
 
@@ -100,7 +115,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 ### 2. Text decorations
 
 ```markdown
-_This text will be italic._  
+_This text will be italic._
 
 **And this text will be bold.**
 
@@ -108,12 +123,12 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
+==These words== will be highlighted.
 ```
 
 **Figure: Markdown to generate different text styles**
 
-_This text will be italic._  
+_This text will be italic._
 
 **And this text will be bold.**
 
@@ -121,7 +136,7 @@ _This text will be italic._
 
 _You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
+==These words== will be highlighted.
 
 ---
 
@@ -191,162 +206,292 @@ This is [an internal link with title](https://www.ssw.com.au "This is a link tit
 
 This is [an external link](https://www.google.com).
 
-::: greybox
-**Cool link features:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Cool link features:**
 
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
 * Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
-   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
+   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4.-links)
 
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ---
 
 ### 5. Boxes
 
 ```md
-::: greybox  
-This is a box using the class "greybox".  
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is a box using the class "greybox".
+  </>}
+  figurePrefix="none"
+  figure="Figure Text"
+/>
+
 ```
 
 **Figure: Markdown to generate boxes**
 
-::: greybox  
-This is a box using the class "greybox".  
-:::
 
-::: highlight  
-This is a box using the class "highlight".
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is a box using the class "greybox".
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-::: info  
-This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
-:::
 
-::: china  
-This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-:::
 
-::: codeauditor
-This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-:::
+<boxEmbed
+  style="highlight"
+  body={<>
+    This is a box using the class "highlight".
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-::: todo  
-This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  
-:::
 
-#### Hiding content
 
-Use the class "hidden" to hide content.
+<boxEmbed
+  style="info"
+  body={<>
+    This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-```md
-::: hidden  
-bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
-:::
-```
 
-**Figure: Nothing will show up from this Markdown**
+
+<boxEmbed
+  style="china"
+  body={<>
+    This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="codeauditor"
+  body={<>
+    This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+
+
+<boxEmbed
+  style="todo"
+  body={<>
+    This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ---
 
 ### 6. Images
 
 ```md
-::: class
-![Figure: Caption text](image-file.jpg)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Caption text"
+  src="/uploads/rules/rule/image-file.jpg"
+/>
+
 ```
 
 #### Classes for images
 
-::: img-small  
-![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
+<imageEmbed
+  alt="Image"
+  size="small"
+  showBorder={true}
+  figurePrefix="none"
+  figure='Image with size set to "small"'
+  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
 
-::: img-medium  
-![Figure: Image using class "img-medium"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
 
-::: img-large  
-![Figure: Image using class "img-large"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure='Image with size set to "medium"'
+  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
 
-::: no-border
-![Figure: Image using class "no-border"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure='Image with size set to "large"'
+  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure='Image with showBorder set to "false"'
+  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
+
 
 #### Extra examples
 
-![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens...](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
-![Figure: ...and with a short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+<imageEmbed
+  alt="Image"
+  size="small"
+  showBorder={false}
+  figurePrefix="none"
+  figure="How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..."
+  src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
+/>
 
-::: todo  
-TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
-:::
+
+
+<imageEmbed
+  alt="Image"
+  size="small"
+  showBorder={false}
+  figurePrefix="none"
+  figure="...and with a short caption"
+  src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
+/>
+
+
+
+<boxEmbed
+  style="todo"
+  body={<>
+    TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ---
 
 ### 7. Captions
 
-```md
-::: bad  
-Figure: Caption for bad examples
-:::
-
-::: ok  
-Figure: Caption for OK examples
-:::
-
-::: good  
-Figure: Caption for good examples
-:::
-```
-
 #### Captions on images
 
-::: bad  
-![Figure: Caption for bad images](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Caption for bad images"
+  src="https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
 
-![Figure: Caption for regular images](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 
-::: ok  
-![Figure: Caption for OK images](https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
 
-::: good  
-![Figure: Caption for good images](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Caption for regular images"
+  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="ok"
+  figure="Caption for OK images"
+  src="https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Caption for good images"
+  src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+/>
+
 
 #### Captions on boxes
 
-::: greybox  
-This is an example of a bad grey box.  
-:::  
-::: bad  
-Figure: Caption for bad examples
-:::
 
-::: greybox  
-This is an example of a normal grey box.
-:::  
-**Figure: Caption for normal examples**
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is an example of a bad grey box.
+  </>}
+  figurePrefix="bad"
+  figure="Caption for bad examples"
+/>
 
-::: greybox  
-This is an example of a OK grey box.
-:::  
-::: ok  
-Figure: Caption for ok examples  
-:::
 
-::: greybox  
-This is an example of a good grey box.
-:::  
-::: good  
-Figure: Caption for good examples  
-:::
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is an example of a normal grey box.
+  </>}
+  figurePrefix="none"
+  figure="Caption for normal examples"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is an example of a OK grey box.
+  </>}
+  figurePrefix="ok"
+  figure="Caption for ok examples"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    This is an example of a good grey box.
+  </>}
+  figurePrefix="good"
+  figure="Caption for good examples"
+/>
+
 
 ---
 
@@ -355,36 +500,26 @@ Figure: Caption for good examples
 #### Code for videos
 
 ```md
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
-**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
+
 ```
 
-**Figure: Markdown to add videos and video captions**
+**Figure: MDX to add videos and video captions**
 
 #### Example
 
 Check out this video - it's responsive!
 
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
-**Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
+
 
 ---
 
-### 9. Twitter Cards Embed
+### 9. Code
 
-Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
-
-```md
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-```
-
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
----
-
-### 10. Code
-
-To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
+To include code block in Markdown, start with 3 backticks ``` on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
 For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
 
@@ -393,10 +528,7 @@ To add inline code in Markdown, wrap the code snippet with single backticks. See
 ```md
 This is a piece of code in a code block
 ```
-
-::: bad  
-Figure: Bad example - Because this code doesn't include the language used
-:::
+**❌ Figure: Bad example - Because this code doesn't include the language used**  
 
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
@@ -483,66 +615,58 @@ public class MyClass
 
 ---
 
-### 11. Email Templates
+### 10. Email Templates
 
 #### Code for email template
 
 ```md
-::: email-template  
-| | |
-| -------- | --- |
-| To: | XXX |
-| Cc: | YYY |
-| Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
-::: email-content
+<emailEmbed
+  from=""
+  to="XXX"
+  cc="YYY"
+  bcc="ZZZ"
+  subject="{{ EMAIL SUBJECT }}"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi XXX,
 
-### Hi XXX,
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
+    {{ EMAIL CONTENT }}
+  </>}
+  figurePrefix="good"
+  figure="Good example - Nice email template"
+/>
 ```
 
 **Figure: Markdown for email templates**
 
-::: email-template
+<emailEmbed
+  from=""
+  to="XXX"
+  cc="YYY"
+  bcc="ZZZ"
+  subject="&#123;&#123; EMAIL SUBJECT &#125;&#125;"
+  shouldDisplayBody={true}
+  body={<>
+    ## Hi XXX
 
-|          |                     |
-| -------- | ------------------- |
-| To:      | XXX                 |
-| Cc:      | YYY                 |
-| Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
-
-::: email-content
-
-### Hi XXX
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
+&#123;&#123; EMAIL CONTENT &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure="Good example - Nice email template"
+/>
 
 ---
 
-### 12. Tables
+### 11. Tables
 
 #### Code for tables
 
 ```md
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+ | Tables        |      Are      |   Cool |
+ | ------------- | :-----------: | -----: |
+ | col 3 is      | right-aligned | \$1600 |
+ | col 2 is      |   centered    |   \$12 |
+ | zebra stripes |   are neat    |    \$1 |
 ```
 
 **Figure: Markdown to generate tables**
@@ -562,9 +686,7 @@ Figure: Good example - Nice email template
 
 ---
 
-### 13. Thematic breaks (horizontal rules)
-
-A thematic break is used to separate sections of content or indicate a shift in topic. In Markdown, it renders as a horizontal line.
+### 12. Thematic breaks (horizontal rules)
 
 #### Code for hr
 
@@ -572,12 +694,6 @@ A thematic break is used to separate sections of content or indicate a shift in 
 ---
 ```
 
-#### Example output
-
-Here’s what the --- version looks like in rendered Markdown
+#### Examples
 
 ---
-
-#### Conclusion
-
-Markdown and SSW Rule conventions make your content clear, consistent, and easy to read. Use headings, lists, boxes, images, code, and thematic breaks to structure your rules effectively. This guide is your reference to create professional, maintainable documentation every time.

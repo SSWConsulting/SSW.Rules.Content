@@ -1,18 +1,20 @@
 ---
-seoDescription: Migrate to System.Text.Json for faster performance and lower memory usage, but check compatibility with Newtonsoft.Json features and default serialisation property name casing.
-type: rule
-title: Do you check your API serialisation format?
-uri: do-you-check-your-api-serialisation-format
 authors:
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement/
-related:
-  - dotnet-upgrade-assistant
-  - migrate-from-system-web-to-modern-alternatives
-  - migration-plans
-  - modernize-your-app
-created: 2024-05-13T05:45:10.297Z
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement/
+created: 2024-05-13 05:45:10.297000+00:00
 guid: 5d3f3d8d-161f-4fdd-9721-e4e9f37de9ac
+related:
+- rule: public/uploads/rules/dotnet-upgrade-assistant/rule.mdx
+- rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+- rule: public/uploads/rules/migration-plans/rule.mdx
+- rule: public/uploads/rules/modernize-your-app/rule.mdx
+seoDescription: Migrate to System.Text.Json for faster performance and lower memory
+  usage, but check compatibility with Newtonsoft.Json features and default serialisation
+  property name casing.
+title: Do you check your API serialisation format?
+type: rule
+uri: do-you-check-your-api-serialisation-format
 ---
 
 Most REST APIs serialise/deserialise to and from JSON format. To perform this serialisation, a .NET web application typically relies on either `Newtonsoft.Json` or `System.Text.Json`.
@@ -22,7 +24,7 @@ This, however, may break in certain usages.
 
 This issue needs to be addressed when migrating projects from .NET Framework to modern .NET.
 
-<!--endintro-->
+<endIntro />
 
 The primary reason for switching to `System.Text.Json` is its [faster performance and lower memory usage](https://devblogs.microsoft.com/dotnet/the-convenience-of-system-text-json/?WT.mc_id=DT-MVP-33518) compared to `Newtonsoft.Json`. However, it also breaks compatibility and lacks some features found in `Newtonsoft.Json`.
 

@@ -1,16 +1,22 @@
 ---
-seoDescription: SharePoint 2010 migration experts guide you through restoring your content database, ensuring a seamless transition from SharePoint 2007.
-type: rule
-title: Do you know how to restore your content database to SharePoint 2010?
-uri: do-you-know-how-to-restore-your-content-database-to-sharepoint-2010
-authors:
-  - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
-related: []
-redirects: []
-created: 2010-12-23T07:23:48.000Z
 archivedreason: null
+authors:
+- title: Matthew Hodgkins
+  url: https://ssw.com.au/people/matthew-hodgkins
+created: 2010-12-23 07:29:16+00:00
+createdBy: SSW2000\johnliu
+createdByEmail: johnliu@ssw.com.au
 guid: ae0f46a9-3029-4d8d-b206-e7841812cd78
+isArchived: false
+lastUpdated: 2010-12-23 07:29:42+00:00
+lastUpdatedBy: SSW2000\johnliu
+lastUpdatedByEmail: johnliu@ssw.com.au
+redirects: []
+seoDescription: SharePoint 2010 migration experts guide you through restoring your
+  content database, ensuring a seamless transition from SharePoint 2007.
+title: Do you know how to restore your content database to SharePoint 2010?
+type: rule
+uri: do-you-know-how-to-restore-your-content-database-to-sharepoint-2010
 ---
 
 This is the meat of the migration process. First we need to detach the current content database from the Web Application:
@@ -21,11 +27,20 @@ This is the meat of the migration process. First we need to detach the current c
 
 Now we need to attach the database backup we took of our SharePoint 2007 server:
 
-<!--endintro-->
+<endIntro />
 
 1. In **SQL Server Management Studio** right click on **Databases | Restore Database...**
 
-![Figure: Select “Restore Database](RestoreDatabase.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Select “Restore Database"
+  src="/uploads/rules/do-you-know-how-to-restore-your-content-database-to-sharepoint-2010/RestoreDatabase.png"
+/>
+
 
 - Follow the prompts to restore your database
 

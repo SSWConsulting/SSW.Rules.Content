@@ -1,29 +1,39 @@
 ---
-seoDescription: Showcasing application and database versions ensures transparency and facilitates updates, while modern frameworks handle versioning through code-first migrations.
-type: rule
-title: Do you show what version the App is, and what version the Database is?
-uri: do-you-show-current-versions-app-and-database
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
-  - title: Jack Pettit
-    url: https://www.ssw.com.au/people/jack-pettit
-related: []
-redirects: []
-created: 2009-10-05T05:26:57.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Matt Wicks
+  url: https://www.ssw.com.au/people/matt-wicks
+- title: Jack Pettit
+  url: https://www.ssw.com.au/people/jack-pettit
+created: 2009-10-05 05:26:57+00:00
 guid: f72682d0-f992-4021-ba50-16f394d0d2ec
+redirects: []
+seoDescription: Showcasing application and database versions ensures transparency
+  and facilitates updates, while modern frameworks handle versioning through code-first
+  migrations.
+title: Do you show what version the App is, and what version the Database is?
+type: rule
+uri: do-you-show-current-versions-app-and-database
 ---
 
 It is best practice to always include an applications version somewhere within the app, but do you also include the database version, its just as important!
 
-![Figure: Everyone shows the version number somewhere on their app](LinkAuditor.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Everyone shows the version number somewhere on their app"
+  src="/uploads/rules/do-you-show-current-versions-app-and-database/LinkAuditor.png"
+/>
+
 
 Let's see how to show the Database version:
 
-<!--endintro-->
+<endIntro />
 
 ### Modern Applications
 
@@ -34,9 +44,35 @@ These days frameworks handle database versioning for us, using code first migrat
 For legacy applications that aren't using Frameworks such as EF, keeping track of a databases version can be done in the following way.
 
 Create a new table that will store the version info, this table is often called **\_zsDataVersion**.
-![Figure: Example - SSW Link Auditor _zsDataVersion table](zsVersionTable_1710232021938.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example - SSW Link Auditor _zsDataVersion table"
+  src="/uploads/rules/do-you-show-current-versions-app-and-database/zsVersionTable_1710232021938.png"
+/>
+
 
 For SSW Link Auditor this can be seen in the table status section.
-![Figure: Example - SSW Link Auditor Database version is 62](LinkAuditorVersion.png)
 
-![Figure: The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality)](ChangeScripts.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Example - SSW Link Auditor Database version is 62"
+  src="/uploads/rules/do-you-show-current-versions-app-and-database/LinkAuditorVersion.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality)"
+  src="/uploads/rules/do-you-show-current-versions-app-and-database/ChangeScripts.jpg"
+/>

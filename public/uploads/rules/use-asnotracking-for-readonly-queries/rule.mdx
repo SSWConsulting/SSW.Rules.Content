@@ -14,7 +14,7 @@ One of EF Core's best features is the fact it tracks any changes you make to ent
 
 This results in fairly significant memory and CPU improvements on the client side.
 
-<!--endintro-->
+<endIntro />
 
 ```cs
 return context.Sales.AsNoTracking().Where(x => x.Id == 5).ToList();

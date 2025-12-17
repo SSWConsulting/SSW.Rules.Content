@@ -1,33 +1,33 @@
 ---
-seoDescription: Discover how Product Backlog Refinement meetings improve Scrum efficiency by ensuring clear, ready-to-go PBIs for streamlined Sprint Planning.
-type: rule
-title: Do you have a Product Backlog refinement meeting?
-uri: backlog-refinement-meeting
 authors:
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-  - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/ulysses-maclaren
-  - title: Brady Stroud
-    url: https://www.ssw.com.au/people/brady-stroud
-related:
-  - 8-steps-to-scrum
-  - defining-pbis
-  - have-a-definition-of-ready
-  - technical-debt
-  - do-you-conduct-an-architecture-review-after-every-sprint
-  - planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable
-  - tick-and-flick
-  - create-pbis-under-2-days
-  - use-ai-manage-backlog
-created: 2023-08-01T05:00:34.793Z
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+- title: Ulysses Maclaren
+  url: https://www.ssw.com.au/people/ulysses-maclaren
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
+created: 2023-08-01 05:00:34.793000+00:00
 guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
-
+related:
+- rule: public/uploads/rules/8-steps-to-scrum/rule.mdx
+- rule: public/uploads/rules/defining-pbis/rule.mdx
+- rule: public/uploads/rules/have-a-definition-of-ready/rule.mdx
+- rule: public/uploads/rules/technical-debt/rule.mdx
+- rule: public/uploads/rules/do-you-conduct-an-architecture-review-after-every-sprint/rule.mdx
+- rule: public/uploads/rules/encourage-spikes-when-a-story-is-inestimable/rule.mdx
+- rule: public/uploads/rules/tick-and-flick/rule.mdx
+- rule: public/uploads/rules/break-pbis/rule.mdx
+- rule: public/uploads/rules/use-ai-manage-backlog/rule.mdx
+seoDescription: Discover how Product Backlog Refinement meetings improve Scrum efficiency
+  by ensuring clear, ready-to-go PBIs for streamlined Sprint Planning.
+title: Do you have a Product Backlog refinement meeting?
+type: rule
+uri: backlog-refinement-meeting
 ---
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product.
 
-<!--endintro-->
+<endIntro />
 
 ## The Problem - Sparse PBIs
 
@@ -46,26 +46,25 @@ The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process
 
 This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready).
 
-`youtube: https://www.youtube.com/watch?v=lMpeffmoc0I`
-**Video: Backlog Refinement Meetings| Calum Simpson | Rules (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=lMpeffmoc0I" description={"Video: Backlog Refinement Meetings| Calum Simpson | Rules (3 min)"} />
+
 
 To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
-::: email-template
+<emailEmbed
+  from=""
+  to="&#123;&#123; TECH LEAD &#125;&#125;, &#123;&#123; CHOSEN DEVELOPER &#125;&#125;"
+  cc="&#123;&#123; REST OF THE SCRUM TEAM &#125;&#125;"
+  bcc=""
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Product Backlog Refinement"
+  shouldDisplayBody={true}
+  body={<>
+    This meeting is to perform Product Backlog Refinement.
 
-|          |     |
-| -------- | --- |
-| To:      | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }} |
-| Cc:      | {{ REST OF THE SCRUM TEAM }} |
-| Recurrence:      | {{ ONCE PER SPRINT }} |
-| Subject: | {{ PROJECT NAME }} - Product Backlog Refinement |
-::: email-content
+Product Backlog: &#123;&#123; LINK TO PRODUCT BACKLOG &#125;&#125;
 
-This meeting is to perform Product Backlog Refinement.
-
-Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
-
-#### Agenda
+### Agenda
 
 1. Skip all PBIs that are already marked as "Ready"
 2. Refine and estimate the top PBIs that are not marked as "Ready" or in the "Not Ready" state
@@ -77,11 +76,21 @@ Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
     * Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
 4. Check if any PBIs need to be deleted
     * Call in the Product Owner to double check
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-:::
-:::
 
-![Figure: PBI should be marked as “Ready” before pulling it into the Sprint](pbi-marked-as-done.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="PBI should be marked as “Ready” before pulling it into the Sprint"
+  src="/uploads/rules/backlog-refinement-meeting/pbi-marked-as-done.png"
+/>
+
 
 Sometimes, we may encounter urgent new requirements and priority changes that need to be pulled into the Sprint immediately. You can handle this by following the [unexpected PBI's rule](/unexpected-requests).
 

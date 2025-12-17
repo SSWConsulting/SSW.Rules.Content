@@ -1,22 +1,23 @@
 ---
-seoDescription: Migrate your Next.js application to modern App Router for more dynamic content and interactivity..
-type: rule
-title: Do you know how to migrate Page Router to App Router?
-uri: migrating-to-app-router
 authors:
-  - title: Aman Kumar
-    url: https://www.ssw.com.au/people/aman-kumar
-related:
-  - migrate-react-to-nextjs
-  - migration-plans
-  - modernize-your-app
-created: 2025-02-28T00:54:42.810Z
+- title: Aman Kumar
+  url: https://www.ssw.com.au/people/aman-kumar
+created: 2025-02-28 00:54:42.810000+00:00
 guid: ac979bc0-b37e-4611-9b30-b6c147ed2379
+related:
+- rule: public/uploads/rules/migrate-react-to-nextjs/rule.mdx
+- rule: public/uploads/rules/migration-plans/rule.mdx
+- rule: public/uploads/rules/modernize-your-app/rule.mdx
+seoDescription: Migrate your Next.js application to modern App Router for more dynamic
+  content and interactivity..
+title: Do you know how to migrate Page Router to App Router?
+type: rule
+uri: migrating-to-app-router
 ---
 
 Upgrade your Next.js app from **Page Routing** to **App Routing** for better performance, faster navigation, and improved flexibility. With features like React Server Components and optimized data fetching, App Routing enhances interactivity while reducing re-renders. Stay ahead with a more scalable, modern approach to web development. 🚀
 
-<!--endintro-->
+<endIntro />
 
 ### 1. Page Routing (Traditional Routing)
 
@@ -58,7 +59,7 @@ Here are the steps you can follow to migrate your app from Page Router to App Ro
 ```ts
 // pages/[slug].tsx
 
-// Page Router - Component 
+// Page Router - Component
 
 export const getStaticProps = async ({ params }) => {
   const id = params.slug;

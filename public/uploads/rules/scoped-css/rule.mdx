@@ -17,11 +17,20 @@ guid: 16300344-d1b7-4dbe-abfa-e8b18d8f0c8d
 On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting each other or conflicting.
 There are a few different ways to solve this.
 
-<!--endintro-->
+<endIntro />
 
 It can be very frustrating when CSS classes overwrite and behave differently to how we want them to.
 
-![Figure: Overwritten CSS can make our site styles break](overwritten-style.png)  
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Overwritten CSS can make our site styles break"
+  src="/uploads/rules/scoped-css/overwritten-style.png"
+/>
+
 
 Debugging this can be a nightmare on larger projects with huge amounts of styling as you need to comb through the entire file to find what's overwriting the style.
 
@@ -52,7 +61,7 @@ One solution to this problem is using a CSS framework such as [Tailwind](https:/
 
 Most frontend frameworks such as Blazor, Angular and React support scoped CSS, allowing you set CSS classes on a component level.
 
-When you create a scoped CSS file, those classes are only accessible to the component that the CSS file is associated with.  
+When you create a scoped CSS file, those classes are only accessible to the component that the CSS file is associated with.
 
 This is useful as you don't need to worry about class names or CSS values conflicting with eachother like you would if all the classes are set at the root level.
 It also makes it much easier to change styling on individual components without breaking the styling on other classes.
@@ -67,7 +76,7 @@ It also makes it much easier to change styling on individual components without 
 
 #### Blazor
 
-In Blazor scoped CSS files are associated with components with dot syntax.  
+In Blazor scoped CSS files are associated with components with dot syntax.
 For example, if we have a component called `MyComponent.razor`, we can create a file called `MyComponent.razor.css` and the classes set in that file will only apply to `MyComponent`.
 
 ##### Inheritance

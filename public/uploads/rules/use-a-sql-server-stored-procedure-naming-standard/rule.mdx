@@ -1,22 +1,30 @@
 ---
-seoDescription: Do you use a SQL Server Stored Procedure Naming Standard? A standard outlining naming conventions for stored procedures within SQL Server, including prefixing with 'proc', specifying table names and actions, and using consistent suffixes.
-type: rule
-archivedreason:
-title: General - Do you use a SQL Server Stored Procedure Naming Standard?
-guid: f158faaf-d3ac-4323-bde3-1a8d37b7fffb
-uri: use-a-sql-server-stored-procedure-naming-standard
-created: 2019-12-31T04:37:51.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2019-12-31 04:37:51+00:00
+createdBy: Christian Morford-Waite
+createdByEmail: ChristianMWaite@ssw.com.au
+guid: f158faaf-d3ac-4323-bde3-1a8d37b7fffb
+isArchived: false
+lastUpdated: 2020-01-03 05:32:30+00:00
+lastUpdatedBy: Christian Morford-Waite
+lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
-  - general-do-you-use-a-sql-server-stored-procedure-naming-standard
+- general-do-you-use-a-sql-server-stored-procedure-naming-standard
+seoDescription: Do you use a SQL Server Stored Procedure Naming Standard? A standard
+  outlining naming conventions for stored procedures within SQL Server, including
+  prefixing with 'proc', specifying table names and actions, and using consistent
+  suffixes.
+title: General - Do you use a SQL Server Stored Procedure Naming Standard?
+type: rule
+uri: use-a-sql-server-stored-procedure-naming-standard
 ---
 
 This standard outlines the standard on naming Stored Procedures within SQL Server. Use these standards when creating new Stored Procedures or if you find an older Stored Procedure that doesn't follow these standards within SSW.
 
-<!--endintro-->
+<endIntro />
 
 **Note:** Stored Procedures will run fractionally slower if they start with a prefix of sp_   This is because SQL Server will look for a system stored proc first. Therefore we never recommend starting stored procs with a prefix of sp\_
 Do you agree with them all? Are we missing some? Let us know what you think.
@@ -78,29 +86,29 @@ IF @curRate IS NULL
 
 RETURN
 ```
+**✅ Figure: Good Example - stored proc that returns only an output parameter**  
 
-::: good
-Figure: Good Example - stored proc that returns only an output parameter
 
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    Select 'procGetRate' or 'sp_GetRate'
+Insert 'procEmailMergeAdd'
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**❌ Figure: Bad Example**  
 
-::: greybox
-Select 'procGetRate' or 'sp_GetRate'
-Insert 'procEmailMergeAdd'  
-:::
 
-::: bad
-Figure: Bad Example
-
-:::
-
-::: greybox
-'procClientRateSelect'
+<boxEmbed
+  style="greybox"
+  body={<>
+    'procClientRateSelect'
 'procEmailMergeInsert'
 
-:::
-
-::: good
-Figure: Good Example
-
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+**✅ Figure: Good Example**

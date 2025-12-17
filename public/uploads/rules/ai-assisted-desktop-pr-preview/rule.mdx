@@ -1,29 +1,36 @@
 ---
-type: rule
-seoDescription: Quickly test AI-built desktop features by switching to PR pre-releases in your desktop app. Avoid slow local branch builds and adopt a professional AI-assisted workflow for Electron apps.
-archivedreason:
-title: Do you use PR pre-releases to rapidly test AI-built desktop features?
-guid: 7b9dbfbc-1b3b-4574-8c37-7d0a6a69931a
-uri: ai-assisted-desktop-pr-preview
-created: 2025-11-21T05:06:33.0000000Z
+archivedreason: null
 authors:
-  - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
-  - title: Baba Kamyljanov
-    url: https://ssw.com.au/people/baba-kamyljanov
+- title: Calum Simpson
+  url: https://ssw.com.au/people/calum-simpson
+- title: Baba Kamyljanov
+  url: https://ssw.com.au/people/baba-kamyljanov
+created: 2025-11-24 04:13:40+00:00
+createdBy: Baba Kamyljanov [SSW]
+createdByEmail: babakamyljanov@ssw.com.au
+guid: 7b9dbfbc-1b3b-4574-8c37-7d0a6a69931a
+isArchived: false
+lastUpdated: 2025-12-01 01:23:46+00:00
+lastUpdatedBy: Baba Kamyljanov [SSW]
+lastUpdatedByEmail: babakamyljanov@ssw.com.au
+redirects: null
 related:
-  - ai-assisted-development-workflow
-  - use-images-to-replace-words
-  - set-language-on-code-blocks
-redirects:
-
+- rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+- rule: public/uploads/rules/use-images-to-replace-words/rule.mdx
+- rule: public/uploads/rules/set-language-on-code-blocks/rule.mdx
+seoDescription: Quickly test AI-built desktop features by switching to PR pre-releases
+  in your desktop app. Avoid slow local branch builds and adopt a professional AI-assisted
+  workflow for Electron apps.
+title: Do you use PR pre-releases to rapidly test AI-built desktop features?
+type: rule
+uri: ai-assisted-desktop-pr-preview
 ---
 
 Previously, testing desktop features created with AI agents meant checking out a PR branch locally, building the app, and running it manually. Which took time, slowed feedback loops, and encouraged "vibe coding" where changes are shipped without a deep understanding of the code.
 
 By exposing a settings option to switch to specific PR builds, they can be easily installed tested - no local branch juggling or manual builds required.
 
-<!--endintro-->
+<endIntro />
 
 ## Why this matters
 
@@ -41,17 +48,35 @@ By exposing a settings option to switch to specific PR builds, they can be easil
 5. Review the behavior in-app, run tests, and capture findings
 6. Iterate until the feature is complete, then merge
 
-::: info
-**Tip:** Keep PRs small. Small PR pre-releases make investigation and rollback simpler.
-:::
 
-::: bad
-![Figure: Bad example - Manual local branch switching, building, and running every time you want to test a change](local-build.png)
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Keep PRs small. Small PR pre-releases make investigation and rollback simpler.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-::: good
-![Figure: Good example - Switch your desktop app to the PR pre-release channel in Settings, install, and test instantly in the real app environment](releases-dropdown.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Manual local branch switching, building, and running every time you want to test a change"
+  src="/uploads/rules/ai-assisted-desktop-pr-preview/local-build.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Switch your desktop app to the PR pre-release channel in Settings, install, and test instantly in the real app environment"
+  src="/uploads/rules/ai-assisted-desktop-pr-preview/releases-dropdown.png"
+/>
+
 
 ## Tips for professional AI-assisted development
 

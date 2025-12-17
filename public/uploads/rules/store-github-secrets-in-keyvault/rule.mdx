@@ -13,7 +13,7 @@ When creating pipelines for a company there is often secrets that need to be use
 
 Solution: Store them in Azure KeyVault.
 
-<!--endintro-->
+<endIntro />
 
 ### Create the KeyVaults
 
@@ -21,9 +21,15 @@ Solution: Store them in Azure KeyVault.
 2. Add 1 x shared KeyVault - These will store any values that would be the same no matter which environment you are deploying to.
 3. Add 1 KeyVault for each environment you will deploy to - These are to store any values that are specific to the development environment (i.e. dev, staging, prod)
 
-::: good
-![Figure: Resource Group with 4 Azure KeyVaults ready to go](sharedconfigurationkeyvaults.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Resource Group with 4 Azure KeyVaults ready to go"
+  src="/uploads/rules/store-github-secrets-in-keyvault/sharedconfigurationkeyvaults.png"
+/>
+
 
 ### Use the KeyVaults in your CICD pipeline
 
@@ -57,7 +63,7 @@ module azuredeployment 'environment-keyvault.bicep' ={
   scope: resourceGroup()
   params: {
     location: location
-  
+
     tags: tags
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }

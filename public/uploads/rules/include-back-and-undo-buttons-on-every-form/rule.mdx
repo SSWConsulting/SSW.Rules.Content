@@ -12,11 +12,17 @@ guid: 3fbae7db-7cec-4daa-8371-47261cd6117b
 
 Following on from including a URL, almost every form should have a Back and an Undo button which takes you back to the previous screen, or reverses the last action. This is just like Outlook (see figure below), it has a Back button to take you to the previous folder and an Undo button.
 
-<!--endintro-->
+<endIntro />
 
-::: good
-![Figure: Good example - Back & Undo buttons in Outlook Advanced toolbar](outlookviewbar.jpg)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Back & Undo buttons in Outlook Advanced toolbar"
+  src="/uploads/rules/include-back-and-undo-buttons-on-every-form/outlookviewbar.jpg"
+/>
+
 
 **Notes:**
 
@@ -29,7 +35,7 @@ For example:
 
 | **Menu**    | **Action**                                                       | **Undo**             | **Back**    |
 | ----------- | ---------------------------------------------------------------- | -------------------- | ----------- |
-| Cut         | Remember: Remember Text and Cursor Position <br>Cut To Clipboard | Return to Remember   | n/a         |
-| Save Record | Remember old values <br>Execute procCustomerSave <br>Close Form  | Return to Old values | Reopen form |
+| Cut         | Remember: Remember Text and Cursor Position Cut To Clipboard | Return to Remember   | n/a         |
+| Save Record | Remember old values Execute procCustomerSave Close Form  | Return to Old values | Reopen form |
 
 Sample code implementation in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit).

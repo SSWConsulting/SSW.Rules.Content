@@ -1,30 +1,51 @@
 ---
-type: rule
-title: Do you monitor failed login attempts?
-seoDescription: Monitor failed login attempts to detect external attacks or
-  internal mistakes with Passive Whats Up Gold Monitor.
-uri: monitor-failed-login-attempts
-authors:
-  - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
-related:
-  - monitor-the-uptimes-of-all-your-servers-daily
-redirects:
-  - do-you-monitor-failed-login-attempts
-created: 2019-07-24T20:54:14.000Z
 archivedreason: null
+authors:
+- title: Steven Andrews
+  url: https://ssw.com.au/people/steven-andrews
+created: 2019-07-24 20:54:19+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: 77c5c5ae-a0e6-4efe-8c90-c3818dbf1e4c
+isArchived: false
+lastUpdated: 2021-02-27 02:42:22.422000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-monitor-failed-login-attempts
+related:
+- rule: public/uploads/rules/monitor-the-uptimes-of-all-your-servers-daily/rule.mdx
+seoDescription: Monitor failed login attempts to detect external attacks or internal
+  mistakes with Passive Whats Up Gold Monitor.
+title: Do you monitor failed login attempts?
+type: rule
+uri: monitor-failed-login-attempts
 ---
 
 It is important to monitor failed login attempts to determine if you are being attacked from an external source or are having failed attempts from users within your organization. This can be achieved with **Passive Whats Up Gold Monitor**.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: This Passive Monitor can then be applied to your Servers](failed-login-whatsup-gold-1.png)
 
-::: good  
-![Figure: Good example - This Passive Monitor will then record failed login attempts](failed-login-whatsup-gold-2.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="This Passive Monitor can then be applied to your Servers"
+  src="/uploads/rules/monitor-failed-login-attempts/failed-login-whatsup-gold-1.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - This Passive Monitor will then record failed login attempts"
+  src="/uploads/rules/monitor-failed-login-attempts/failed-login-whatsup-gold-2.png"
+/>
+
 
 It is important to also ensure that you have "Audit logon events" Group Policy applied to servers for source information on the login.
 

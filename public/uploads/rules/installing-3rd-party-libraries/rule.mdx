@@ -1,33 +1,44 @@
 ---
-seoDescription: Checking third-party libraries before installation is crucial for software development to ensure code quality, license compliance, and avoid potential bugs
-type: rule
-title: Do you check before installing 3rd party libraries?
 archivedreason: Outdated - This content has been refreshed in https://www.ssw.com.au/rules/choose-dependencies-correctly/
-uri: installing-3rd-party-libraries
 authors:
-  - title: Chris Clement
-    url: https://www.ssw.com.au/people/chris-clement
-related:
-  - do-you-know-the-correct-license-to-use-for-open-source-software
-  - monitor-packages-for-vulnerabilities
-  - package-audit-log
-  - document-discoveries
-  - choose-dependencies-correctly
-  - maintain-dependencies-correctly
-created: 2022-09-29T06:41:32.765Z
+- title: Chris Clement
+  url: https://www.ssw.com.au/people/chris-clement
+created: 2022-09-30 07:08:57+00:00
+createdBy: Chris Clement [SSW]
+createdByEmail: 35278147+christoment@users.noreply.github.com
 guid: 5e456c50-2105-470d-9c2c-b744b1bd578a
+isArchived: true
+lastUpdated: 2025-12-11 06:27:58+00:00
+lastUpdatedBy: Josh Berman [SSW]
+lastUpdatedByEmail: 137844305+joshbermanssw@users.noreply.github.com
+related:
+- rule: public/uploads/rules/do-you-know-the-correct-license-to-use-for-open-source-software/rule.mdx
+- rule: public/uploads/rules/monitor-packages-for-vulnerabilities/rule.mdx
+- rule: public/uploads/rules/package-audit-log/rule.mdx
+- rule: public/uploads/rules/document-discoveries/rule.mdx
+- rule: public/uploads/rules/choose-dependencies-correctly/rule.mdx
+- rule: public/uploads/rules/maintain-dependencies-correctly/rule.mdx
+seoDescription: Checking third-party libraries before installation is crucial for
+  software development to ensure code quality, license compliance, and avoid potential
+  bugs
+title: Do you check before installing 3rd party libraries?
+type: rule
+uri: installing-3rd-party-libraries
 ---
+
 Efficient software developers don't reinvent the wheel and know the right libraries to use. Using an existing and well-tested library will speed up development time.
 
 However, there are scenarios where the libraries integrated in a project bring overhead in the future. For example, if a project is using a NuGet package that is no longer being maintained and does not support the latest .NET version. This incompatibility would force the development team to refactor the code to use another library if they wish to use the latest version of .NET.
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/1LPK3jgga_c`
+
+<youtubeEmbed url="https://www.youtube.com/embed/1LPK3jgga_c" description={""} />
+
 
 Looking for the right library can help to minimize the chances of a project hitting these scenarios. Here are some of the common things to check before installing a library:
 
-![](3rd-party-check-logos_1710232021941.png)
+![](/uploads/rules/installing-3rd-party-libraries/3rd-party-check-logos_1710232021941.png)
 
 ### 1. Is it valuable?
 
@@ -57,17 +68,35 @@ Couple of things to check:
 
 ✅ Low GitHub issues count – Many unresolved serious issues may be an indicator that the library is not actively maintained.
 
-::: bad
-![Figure: Bad example - Unmaintained library - little to no activity - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly](lib-not-maintained.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Unmaintained library - little to no activity - https://github.com/douglasgsouza/mat-row-keyboard-selection/pulse/monthly"
+  src="/uploads/rules/installing-3rd-party-libraries/lib-not-maintained.png"
+/>
 
-::: good
-![Figure: Good example #1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns](lib-well-maintained.png)
-:::
 
-::: good
-![Figure: Good example #2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly](lib-well-maintained-2.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example #1 - Popular npm library with lots of stars and recently updated- https://github.com/date-fns/date-fns"
+  src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example #2 - Well maintained and active library - https://github.com/date-fns/date-fns/pulse/monthly"
+  src="/uploads/rules/installing-3rd-party-libraries/lib-well-maintained-2.png"
+/>
+
 
 ### 3. Is it compatible?
 
@@ -97,21 +126,45 @@ Not all libraries available on [npmjs](https://npmjs.com) and [NuGet](https://nu
 
 Always check the license associated with the package before deciding to use it in production. You can check common available licenses on [choosealicense.com](https://choosealicense.com).
 
-::: bad
-![Figure: Bad example - npm - uncommon license, need to check for conditions and fees - https://npmjs.com/package/highcharts](npm-bad-license.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - npm - uncommon license, need to check for conditions and fees - https://npmjs.com/package/highcharts"
+  src="/uploads/rules/installing-3rd-party-libraries/npm-bad-license.png"
+/>
 
-::: bad
-![Figure: Bad example - NuGet – uncommon license, need to check for conditions and fees - https://nuget.org/packages/PDFTron.NET.x64](nuget-bad-license.png)
-:::
 
-::: good
-![Figure: Good example - npm - MIT License, free to use - https://npmjs.com/package/date-fns](npm-good-license.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - NuGet – uncommon license, need to check for conditions and fees - https://nuget.org/packages/PDFTron.NET.x64"
+  src="/uploads/rules/installing-3rd-party-libraries/nuget-bad-license.png"
+/>
 
-::: good
-![Figure: Good example - NuGet – MIT License, free to use - https://nuget.org/packages/Newtonsoft.Json/13.0.1](nuget-good-license.png)
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - npm - MIT License, free to use - https://npmjs.com/package/date-fns"
+  src="/uploads/rules/installing-3rd-party-libraries/npm-good-license.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - NuGet – MIT License, free to use - https://nuget.org/packages/Newtonsoft.Json/13.0.1"
+  src="/uploads/rules/installing-3rd-party-libraries/nuget-good-license.png"
+/>
+
 
 ### 6. What are the bundle characteristics?
 
@@ -139,6 +192,11 @@ To reduce the final build size, .NET provide a built in feature  [Trimmer](https
 * **Have a 2nd pair of eyes** - Lastly before deciding to install the library, check with another developer that is experienced in the scope of your project (e.g. look for a senior JavaScript developer's opinion if the project is an Angular project). Having a 2nd qualified person to agree with your decision is a good indicator that you are picking a good library.
 * **[Document the decision](/document-discoveries)** - Always keep track of the reasoning when developers decided to go with a particular library instead of another one. This helps future developers working on a project to maintain the project. Future developers will have better context and will be able to make a better decision should there be any situational or business requirement changes. A [package audit log](/package-audit-log) is a great way to record all the decisions.
 
-::: good
-![Figure: Good example - A markdown file should include your reasons to assist future developers](md-reasons.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - A markdown file should include your reasons to assist future developers"
+  src="/uploads/rules/installing-3rd-party-libraries/md-reasons.png"
+/>

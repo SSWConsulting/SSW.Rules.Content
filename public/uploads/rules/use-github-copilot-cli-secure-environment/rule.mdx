@@ -11,32 +11,42 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
   - title: Lewis Toh
     url: https://ssw.com.au/people/lewis-toh
-created: 2025-10-16T17:32:00.000Z
+created: 2025-10-16T23:19:03.000Z
 guid: babc794e-a638-4d05-b234-52d69ae4f432
+lastUpdated: 2025-12-11T01:37:38.000Z
+lastUpdatedBy: Gordon Beeming [SSW]
+lastUpdatedByEmail: gordonbeeming@ssw.com.au
+createdBy: Lewis Toh [SSW]
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
+isArchived: false
 ---
 
 GitHub Copilot CLI is incredibly powerful, but giving AI deep access to your terminal and file system can be concerning. When you use features like `--allow-all-tools` - which approves all actions - Copilot can execute commands on your behalf, which means one wrong suggestion could have serious consequences.
 
 Running Copilot CLI in a secure Docker container provides the best of both worlds: powerful AI assistance with strict security boundaries that limit the "blast radius" of any potential mistakes.
 
-<!--endintro-->
+<endIntro />
 
 ## The problem with unrestricted access
 
 When running Copilot CLI directly on your host machine:
 
-::: greybox
-**Copilot has access to:**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Copilot has access to:**
 
 * Your entire file system
 * Your SSH keys in `~/.ssh/`
 * All your repositories
 * Your environment variables and secrets
 * System-wide configurations
-:::
-::: bad
-Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic
-:::
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic"
+/>
+
 
 ## The solution: Docker-based isolation
 
@@ -62,9 +72,16 @@ If Copilot runs a dangerous command like `rm -rf .`:
 * Your other projects and system files are safe
 * If setup with git, it is easily recoverable
 
-::: info
-**Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The container shares your host's network, so it can access local resources and services. This is intentional for development workflows but means it's not a fully firewalled environment.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ### Understanding the two modes
 
@@ -80,9 +97,16 @@ Both modes include security checks for proper GitHub token scopes and warn about
 
 The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
 
-:::info
-**Note:** The setup below provides cross-platform support for Linux/macOS and Windows. For the latest version and additional features, always check the GitHub repository.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** The setup below provides cross-platform support for Linux/macOS and Windows. For the latest version and additional features, always check the GitHub repository.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 #### Install
 
@@ -161,10 +185,7 @@ copilot_yolo -p "generate README for this project"
 Execute this command? [y/N]: y
 ✅ Executed safely in current directory only
 ```
-
-::: good
-Good example - Use `-p` or `--prompt` flag to pass prompts directly to Copilot CLI
-:::
+**✅ Good example - Use `-p` or `--prompt` flag to pass prompts directly to Copilot CLI**  
 
 **With Image Variants:**
 
@@ -178,9 +199,16 @@ copilot_here --dotnet-playwright --prompt "run playwright tests"
 copilot_here -dp -p "write browser automation tests"
 ```
 
-::: info
-**Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
-:::
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** Install both functions so you can choose based on the situation. Use `copilot_here` by default and `copilot_yolo` only in trusted projects.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ## How it works
 

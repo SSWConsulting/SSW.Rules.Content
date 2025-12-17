@@ -1,22 +1,28 @@
 ---
-seoDescription: Format your message text in code as you want to see on the screen. Write each parameter of MessageBox in a separate line for clarity.
-type: rule
-archivedreason:
-title: Do you know how to format your MessageBox code?
-guid: 5993ec82-d9bc-4a99-bac1-de957f030ab0
-uri: how-to-format-your-messagebox-code
-created: 2018-04-25T23:10:49.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2018-04-25 23:10:49+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 5993ec82-d9bc-4a99-bac1-de957f030ab0
+isArchived: false
+lastUpdated: 2020-01-30 03:49:37+00:00
+lastUpdatedBy: Liam Elliott
+lastUpdatedByEmail: LiamElliott@ssw.com.au
 redirects:
-  - do-you-know-how-to-format-your-messagebox-code
+- do-you-know-how-to-format-your-messagebox-code
+seoDescription: Format your message text in code as you want to see on the screen.
+  Write each parameter of MessageBox in a separate line for clarity.
+title: Do you know how to format your MessageBox code?
+type: rule
+uri: how-to-format-your-messagebox-code
 ---
 
 You should always write each parameter of MessageBox in a separate line. So it will be more clear to read in the code. Format your message text in code as you want to see on the screen.
 
-<!--endintro-->
+<endIntro />
 
 ```cs
 Private Sub ShowMyMessage()
@@ -26,10 +32,7 @@ Private Sub ShowMyMessage()
  Deleting a team project cannot be undone.", strProductName + "
  " + strVersion(), MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2)
 ```
-
-::: bad
-Figure: Bad example of MessageBox code format
-:::
+**❌ Figure: Bad example of MessageBox code format**  
 
 ```cs
 Private Sub ShowMyMessage()
@@ -44,7 +47,4 @@ Private Sub ShowMyMessage()
  MessageBoxDefaultButton.Button2)
 End Sub
 ```
-
-::: good
-Figure: Good example of MessageBox code format
-:::
+**✅ Figure: Good example of MessageBox code format**

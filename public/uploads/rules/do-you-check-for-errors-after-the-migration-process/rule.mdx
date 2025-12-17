@@ -1,21 +1,27 @@
 ---
-seoDescription: Check database logs and event logs after migration to identify errors and fix them promptly.
-type: rule
-archivedreason:
-title: Do you check for errors after the migration process?
+archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2010-12-23 07:13:20+00:00
+createdBy: SSW2000\johnliu
+createdByEmail: johnliu@ssw.com.au
 guid: 4434740d-dcb7-47f0-9d02-6631d00def9d
-uri: do-you-check-for-errors-after-the-migration-process
-created: 2010-12-23T07:11:10.0000000Z
-authors: 
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: []
+isArchived: false
+lastUpdated: 2016-05-19 00:31:59+00:00
+lastUpdatedBy: William Yin
+lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects: []
+seoDescription: Check database logs and event logs after migration to identify errors
+  and fix them promptly.
+title: Do you check for errors after the migration process?
+type: rule
+uri: do-you-check-for-errors-after-the-migration-process
 ---
 
 After the database has finished being attached to the web application you will get a log file with information about the import process.
 
-<!--endintro-->
+<endIntro />
 
 1. Open up this log fine and pay special attention to any lines with **[ERROR]** .
 
@@ -24,6 +30,11 @@ After the database has finished being attached to the web application you will g
 
 2. Check your Application Event log after migration for errors related to your SharePoint Web Application, and fix these accordingly.
 
-::: bad
-![Figure: Bad example - The event log should show 0 errors after fixing the errors  ](FixEventLogs.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - The event log should show 0 errors after fixing the errors"
+  src="/uploads/rules/do-you-check-for-errors-after-the-migration-process/FixEventLogs.png"
+/>

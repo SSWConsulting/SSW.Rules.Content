@@ -1,29 +1,46 @@
 ---
-seoDescription: SharePoint databases organized in a separate SQL instance for efficient management and scalability.
-type: rule
-archivedreason:
-title: Do you keep SharePoint databases in a separate SQL instance?
-guid: 8b120644-476c-4b48-9bd0-acf1e37ff4aa
-uri: keep-sharepoint-databases-in-a-separate-sql-instance
-created: 2018-06-25T23:34:07.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: []
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: William Yin
+  url: https://ssw.com.au/people/william-yin
+created: 2018-06-25 23:34:11+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 8b120644-476c-4b48-9bd0-acf1e37ff4aa
+isArchived: false
+lastUpdated: 2018-06-25 23:41:53+00:00
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
-  - do-you-keep-sharepoint-databases-in-a-separate-sql-instance
+- do-you-keep-sharepoint-databases-in-a-separate-sql-instance
+seoDescription: SharePoint databases organized in a separate SQL instance for efficient
+  management and scalability.
+title: Do you keep SharePoint databases in a separate SQL instance?
+type: rule
+uri: keep-sharepoint-databases-in-a-separate-sql-instance
 ---
 
 Because SharePoint server will create quite a few databases, it’s easier to manage them in a separate SQL instance rather than mixing it with other system’s databases:
 
-<!--endintro-->
+<endIntro />
 
-::: bad  
-![Bad example - mixed with other systems' database](sharepoint-database-bad.png)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - mixed with other systems' database"
+  src="/uploads/rules/keep-sharepoint-databases-in-a-separate-sql-instance/sharepoint-database-bad.png"
+/>
 
-::: good  
-![Good example - SharePoint related databases are in a separate SQL instance from other systems' databases](sharepoint-database-good.png)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - SharePoint related databases are in a separate SQL instance from other systems' databases"
+  src="/uploads/rules/keep-sharepoint-databases-in-a-separate-sql-instance/sharepoint-database-good.png"
+/>

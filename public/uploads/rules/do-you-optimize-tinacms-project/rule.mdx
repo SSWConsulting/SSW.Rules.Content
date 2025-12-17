@@ -15,7 +15,7 @@ Structuring and optimizing your TinaCMS project is essential to achieve clarity,
 
 Let’s explore how to structure your project effectively and apply best practices to boost performance both in runtime and during the build process.
 
-<!--endintro-->
+<endIntro />
 
 ## 1. Structuring your TinaCMS Architecture
 
@@ -33,10 +33,7 @@ When working with large datasets or generating multiple subcomponents, following
 * **Make a single request in a top-level server component and share data via React Context or a state library**
 
   * Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
-
-::: good
-
-```js
+**✅ ```js
 export default async function Home({ params }: HomePageProps) {
     const location = params.location;
 
@@ -65,8 +62,7 @@ export async function generateStaticParams() {
 }
 ```
 
-**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.**
-:::
+**Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.****  
 
 * **Cache data at a top-level and access it when necessary**
 

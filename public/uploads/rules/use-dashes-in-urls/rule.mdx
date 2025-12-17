@@ -1,82 +1,122 @@
 ---
-seoDescription: Use kebab-case (dashes) in your URLs and make them short and friendly for maximum readability and SEO.
-type: rule
-archivedreason:
-title: On-page - Do you use dashes in your URLs?
-guid: 9eec1cdc-ff5f-47cf-b4a6-0936ec4c62d4
-uri: use-dashes-in-urls
-created: 2015-11-09T20:51:46.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - create-friendly-short-urls
-  - lowercase-urls
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2015-11-09 20:51:47+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: 9eec1cdc-ff5f-47cf-b4a6-0936ec4c62d4
+isArchived: false
+lastUpdated: 2021-03-24 17:17:59.312000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - do-you-use-dashes-in-your-urls
+- do-you-use-dashes-in-your-urls
+related:
+- rule: public/uploads/rules/create-friendly-short-urls/rule.mdx
+- rule: public/uploads/rules/lowercase-urls/rule.mdx
+seoDescription: Use kebab-case (dashes) in your URLs and make them short and friendly
+  for maximum readability and SEO.
+title: On-page - Do you use dashes in your URLs?
+type: rule
+uri: use-dashes-in-urls
 ---
 
 For maximum readability and SEO use kebab-case (dashes) in your URLs and [make them short and friendly](/create-friendly-short-urls).
 
 Learn more on [Best Practices for URL Structure](https://www.searchenginejournal.com/technical-seo/url-structure/#bestprac).
 
-<!--endintro-->
+<endIntro />
 
-::: greybox
-northwind&#46;com/**pageonworddocumentation**
-:::
-::: bad
-Figure: Bad example - No kebab-case in URL
-:::
 
-::: greybox
-northwind&#46;com/**PageOnWordDocumentation**
-:::
-::: bad
-Figure: Bad example - PascalCase (better readability and still works in small caps, but other people might share it without the MixedCase)
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind&#46;com/**pageonworddocumentation**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - No kebab-case in URL"
+/>
 
-::: greybox
-northwind&#46;com/**page on word documentation**
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind&#46;com/**PageOnWordDocumentation**
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - PascalCase (better readability and still works in small caps, but other people might share it without the MixedCase)"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind&#46;com/**page on word documentation**
 
 ...will become
 
 northwind&#46;com/**page20%on20%word20%documentation**
-:::
-::: bad
-Figure: Bad example - spaces it will show up in your URL structure as 20%, which is bad for readability and SEO
-:::
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - spaces it will show up in your URL structure as 20%, which is bad for readability and SEO"
+/>
 
-::: greybox
-northwind&#46;com/**page_on_word_documentation**
-:::
-::: ok
-Figure: OK example - underscored (snake_case) URLs have good readability but are not recommended by Google
-:::
 
-::: greybox
-northwind&#46;com/**page-on-word-documentation**
-:::
-::: good
-Figure: Good example - kebab-case is recommended by Google. Note: Don't use any uppercase
-:::
 
-::: info
-**Not for domains!** This is only for pages and documents. Domains are bad when they have dashes in them.
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind&#46;com/**page_on_word_documentation**
+  </>}
+  figurePrefix="ok"
+  figure="OK example - underscored (snake_case) URLs have good readability but are not recommended by Google"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    northwind&#46;com/**page-on-word-documentation**
+  </>}
+  figurePrefix="good"
+  figure="Good example - kebab-case is recommended by Google. Note: Don't use any uppercase"
+/>
+
+
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Not for domains!** This is only for pages and documents. Domains are bad when they have dashes in them.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.com/seo-101-hyphens-underscores-_-urls/).
 
 ---
 
-::: greybox
-**More info:** You can install the IIS [URL Rewrite Module](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module?WT.mc_id=DT-MVP-33518) for IIS7 you can make ugly URLs much more friendly.
 
-![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule.jpg)
+<boxEmbed
+  style="greybox"
+  body={<>
+    **More info:** You can install the IIS [URL Rewrite Module](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module?WT.mc_id=DT-MVP-33518) for IIS7 you can make ugly URLs much more friendly.
+
+![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](/uploads/rules/use-dashes-in-urls/friendly-url-rule.jpg)
 
 The caveat here is that it will only work if the URL is in the clear on the page.
 
 **Note:** This could only be done with certain links as others are postbacks as well.
-:::
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

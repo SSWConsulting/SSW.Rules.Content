@@ -1,24 +1,24 @@
 ---
-seoDescription: Learn how to structure a sitemap.xml that search engines and auditing tools like Semrush can crawl without issues.
-type: rule
-title: Do you have a crawler-friendly sitemap.xml?
-uri: sitemap-xml-best-practices
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo
-created: 2024-05-01T00:00:00.000Z
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+created: 2024-05-01 00:00:00+00:00
 guid: 987059cf-0ec4-43d4-b9b8-ac8c83b8dfb3
 related:
-  - page-indexed-by-google
-  - seo-checklist
-
+- rule: public/uploads/rules/page-indexed-by-google/rule.mdx
+- rule: public/uploads/rules/seo-checklist/rule.mdx
+seoDescription: Learn how to structure a sitemap.xml that search engines and auditing
+  tools like Semrush can crawl without issues.
+title: Do you have a crawler-friendly sitemap.xml?
+type: rule
+uri: sitemap-xml-best-practices
 ---
 
 When search engines or auditing platforms visit your site they expect a clean `sitemap.xml`. A broken or poorly formatted sitemap wastes crawl budget, hides new pages, and triggers avoidable health errors in reports.
 
-<!--endintro-->
+<endIntro />
 
 A minimal sitemap must follow the [Sitemaps XML protocol](https://www.sitemaps.org/protocol.html). Start by using UTF-8 encoding, include the XML declaration, and wrap every entry inside a `<urlset>` element with the official namespace. Here is a solid foundation:
 

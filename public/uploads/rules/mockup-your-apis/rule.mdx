@@ -1,27 +1,34 @@
 ---
-seoDescription: Learn when to mock up your API endpoints and how to create a mocked API endpoint using Azure API Management.
-type: rule
-archivedreason:
-title: Do you know when to mockup your API?
-guid: eee9e703-e6bd-40f8-9f65-8a12a3d92f8d
-uri: mockup-your-apis
-created: 2021-05-11T22:00:01.0000000Z
+archivedreason: null
 authors:
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
-related:
-  - brand-your-api-portal
-  - tools-to-manage-apis
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+created: 2021-06-17 03:08:31.376000+00:00
+createdBy: Brady Stroud
+createdByEmail: bradystroud@me.com
+guid: eee9e703-e6bd-40f8-9f65-8a12a3d92f8d
+isArchived: false
+lastUpdated: 2021-07-07 21:23:27.134000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
-  - comments-do-you-know-when-to-mockup-your-apis
-  - do-you-know-when-to-mockup-your-apis
+- comments-do-you-know-when-to-mockup-your-apis
+- do-you-know-when-to-mockup-your-apis
+related:
+- rule: public/uploads/rules/brand-your-api-portal/rule.mdx
+- rule: public/uploads/rules/tools-to-manage-apis/rule.mdx
+seoDescription: Learn when to mock up your API endpoints and how to create a mocked
+  API endpoint using Azure API Management.
+title: Do you know when to mockup your API?
+type: rule
+uri: mockup-your-apis
 ---
 
 Designing your API up front can be very useful where you have a significant amount of backend development to complete before there is sufficient functionality for front end development to easily commence.
 
-<!--endintro-->
+<endIntro />
 
 Rather than waiting for the backend to be complete, the APIs can be agreed on up front. Tools like Azure API Management then allow you to mock up the APIs with sample data, allowing the front end development to commence much sooner.
 
@@ -29,11 +36,15 @@ The key benefit of using mocked APIs is being able to present the frontend to st
 
 First, watch the first 5 minutes of this video for a general introduction:
 
-`youtube: https://youtu.be/4fPRxveXGXw`
+
+<youtubeEmbed url="https://youtu.be/4fPRxveXGXw" description={""} />
+
 
 Watch Adam Cogan and William Liebenberg discuss the benefits:
 
-`youtube: https://youtu.be/rNyOALskc_U`
+
+<youtubeEmbed url="https://youtu.be/rNyOALskc_U" description={""} />
+
 
 ## Steps to create and test a mocked API endpoint
 
@@ -45,11 +56,29 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 1. Select **Blank API**
 
-![Figure: Create a blank API](step1-create-blank-api.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Create a blank API"
+  src="/uploads/rules/mockup-your-apis/step1-create-blank-api.png"
+/>
+
 
 ### Step 2 - Describe your API
 
-![Figure: Describe your API](step2-describe-your-api.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Describe your API"
+  src="/uploads/rules/mockup-your-apis/step2-describe-your-api.png"
+/>
+
 
 1. Click **Create**
 
@@ -62,14 +91,32 @@ To complete the following steps, you need to create an instance of Azure API Man
 - **Display name** is a UI friendly display name that shows up in the Operations list
 - **Name** is the programatic name of the operation that can be referenced programatically in policies
 
-![Figure: Adding a new Operation](step3-add-operation.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Adding a new Operation"
+  src="/uploads/rules/mockup-your-apis/step3-add-operation.png"
+/>
+
 
 ### Step 4 - Add response
 
 1. Click **Add response**
 2. Select the appropriate response code (e.g 200 OK)
 
-![Figure: Add a response](step4-add-response.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Add a response"
+  src="/uploads/rules/mockup-your-apis/step4-add-response.png"
+/>
+
 
 ### Step 5 - Add representation
 
@@ -77,23 +124,59 @@ To complete the following steps, you need to create an instance of Azure API Man
 2. Specify the **Sample** as `{ "data": "fake" }`
 3. Click **Save**
 
-![Figure: Add a representation for your response with fake data](step5-add-represtntation.png)
 
-![Figure: Operation added successfully](step5-operation-done.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Add a representation for your response with fake data"
+  src="/uploads/rules/mockup-your-apis/step5-add-represtntation.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Operation added successfully"
+  src="/uploads/rules/mockup-your-apis/step5-operation-done.png"
+/>
+
 
 ### Step 6 - Add Mock Response Policy
 
 1. Click **Add policy**
 2. Select **Mock responses**
 
-![Figure: Add the Mock Response policy](step6-add-mock-response-policy.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Add the Mock Response policy"
+  src="/uploads/rules/mockup-your-apis/step6-add-mock-response-policy.png"
+/>
+
 
 ### Step 7 - Choose response
 
 1. Choose the response representation to return as a Mock (e.g. `200 OK, application/json`)
 2. Click **Save**
 
-![Figure: Choose the response representation](step7-choose-response-representation.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Choose the response representation"
+  src="/uploads/rules/mockup-your-apis/step7-choose-response-representation.png"
+/>
+
 
 ### Step 8 - Test your Mocked API
 
@@ -103,14 +186,32 @@ To complete the following steps, you need to create an instance of Azure API Man
 4. Note the "Mocking is enabled" notice
 5. Click **Send**
 
-![Figure: Testing the mocked api operation](step8-test-mock-api.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Testing the mocked api operation"
+  src="/uploads/rules/mockup-your-apis/step8-test-mock-api.png"
+/>
+
 
 ### Step 9 - Inspect Mocked API response
 
 1. Notice the 200 OK status code
 2. Notice the fake data response in the message body
 
-![Figure: Response from the mocked operation](step9-inspect-mocked-api-reponse.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Response from the mocked operation"
+  src="/uploads/rules/mockup-your-apis/step9-inspect-mocked-api-reponse.png"
+/>
+
 
 ### Step 10 - Call your API using a REST Client
 
@@ -122,7 +223,16 @@ To complete the following steps, you need to create an instance of Azure API Man
 4. **SEND** your request
 5. Verify the `200 OK` response and the mocked data
 
-![Figure: Calling our Data API from a REST Client](step10-call-from-rest-client.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Calling our Data API from a REST Client"
+  src="/uploads/rules/mockup-your-apis/step10-call-from-rest-client.png"
+/>
+
 
 ## Conclusion
 

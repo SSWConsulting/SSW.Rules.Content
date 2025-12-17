@@ -1,56 +1,78 @@
 ---
-seoDescription: Using icons and emojis to enforce text meaning can be a simple yet effective way to draw attention to important information, clarify unclear requirements, and enhance user understanding.
-type: rule
-archivedreason:
-title: Do you use icons/emojis to enforce the text meaning?
-guid: 5f5645eb-dda4-421b-84e7-c51b76887205
-uri: enforce-the-text-meaning-with-icons-and-emojis
-created: 2014-12-16T18:16:16.0000000Z
+archivedreason: null
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-related:
-  - best-libraries-for-icons
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+created: 2014-12-16 18:16:16+00:00
+guid: 5f5645eb-dda4-421b-84e7-c51b76887205
 redirects:
-  - do-you-use-icons-to-enforce-the-text-meaning
-  - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
-  - use-icons-webpages
-  - use-icons-to-enforce-the-text-meaning
+- do-you-use-icons-to-enforce-the-text-meaning
+- do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
+- use-icons-webpages
+- use-icons-to-enforce-the-text-meaning
+related:
+- rule: public/uploads/rules/best-libraries-for-icons/rule.mdx
+seoDescription: Using icons and emojis to enforce text meaning can be a simple yet
+  effective way to draw attention to important information, clarify unclear requirements,
+  and enhance user understanding.
+title: Do you use icons/emojis to enforce the text meaning?
+type: rule
+uri: enforce-the-text-meaning-with-icons-and-emojis
 ---
 
 People may not pay attention to some important words in your interface. Adding a simple and clear icon beside the words will make the difference.
 
 For emails and web content, using an simple emoji is an easy and friendly way to achieve the same result 🙂.
 
-<!--endintro-->
+<endIntro />
 
 #### Using icons
 
-::: bad  
-![Figure: Bad example - No icons to indicate the status](validation-bad.jpg)  
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - No icons to indicate the status"
+  src="/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/validation-bad.jpg"
+/>
 
-::: good  
-![Figure: Good example - Green tick and red cross help the user to know what's going on](validation-good.jpg)  
-:::
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Green tick and red cross help the user to know what's going on"
+  src="/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/validation-good.jpg"
+/>
+
 
 #### Using emojis
 
-::: greybox  
-I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements...
-:::  
-::: bad  
-Figure: Bad example - No emojis to enforce the meaning
-:::
 
-::: greybox  
-I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information 😥. Usually, this is due to unclear requirements...  
-:::  
-::: good  
-Figure: Good example - The emoji gives extra focus on what is important
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements...
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - No emojis to enforce the meaning"
+/>
+
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information 😥. Usually, this is due to unclear requirements...
+  </>}
+  figurePrefix="good"
+  figure="Good example - The emoji gives extra focus on what is important"
+/>
+
 
 ---
 

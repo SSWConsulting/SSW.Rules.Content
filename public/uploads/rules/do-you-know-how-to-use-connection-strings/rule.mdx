@@ -1,26 +1,31 @@
 ---
-type: rule
-seoDescription: Learn best practices for using connection strings in .NET applications, including Azure Managed Identities and secure configuration management.
-title: Do you know how to use Connection Strings?
-uri: do-you-know-how-to-use-connection-strings
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-  - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
-  - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
-related: []
-redirects:
-  - do-you-know-how-to-use-connection-string-in-net-2-0
-  - do-you-hard-code-your-connectionstring
-  - know-the-right-way-to-define-a-connection-string
-created: 2009-05-08T08:53:04.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+- title: Calum Simpson
+  url: https://ssw.com.au/people/calum-simpson
+created: 2021-05-09 23:41:49+00:00
+createdBy: Brady Stroud [SSW]
+createdByEmail: bradystroud@ssw.com.au
 guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
-
+isArchived: false
+lastUpdated: 2025-11-24 22:17:06+00:00
+lastUpdatedBy: Copilot
+lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
+redirects:
+- do-you-know-how-to-use-connection-string-in-net-2-0
+- do-you-hard-code-your-connectionstring
+- know-the-right-way-to-define-a-connection-string
+seoDescription: Learn best practices for using connection strings in .NET applications,
+  including Azure Managed Identities and secure configuration management.
+title: Do you know how to use Connection Strings?
+type: rule
+uri: do-you-know-how-to-use-connection-strings
 ---
 
 There are 2 type of connection strings. The first contains only address type information without authorization secrets. These can use all of the simpler methods of storing configuration as none of this data is secret.
@@ -78,14 +83,18 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
     });
   });
 ```
+**✅ Good example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)**  
 
-::: good
-Good example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
-:::
 
-::: info
-**Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
-:::
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 
 ``` cs
 public static class IWebHostEnvironmentExtensions
@@ -104,7 +113,16 @@ In order to access the secrets in Key Vault, you (as User) or an Application mus
 
 Applications require at least the LIST and GET permissions, otherwise the Key Vault integration will fail to retrieve secrets.
 
-![Figure: Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Key Vault Access Policies - Setting permissions for Applications and/or Users"
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/access_policies.png"
+/>
+
 
 Azure Key Vault and App Services can easily trust each other by making use of System assigned Managed Identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
 
@@ -112,7 +130,16 @@ So, make sure that your Azure App Service has the **System assigned identity** e
 
 Once enabled, you can create a Key Vault Access policy to give your App Service permission to retrieve secrets from the Key Vault.
 
-![Figure: Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies](identity.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies"
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/identity.png"
+/>
+
 
 Adding secrets into Key Vault is easy.
 
@@ -121,19 +148,46 @@ Adding secrets into Key Vault is easy.
 3. Provide the secret **value**
 4. Click **Create**
 
-![Figure: Creating the SqlConnectionString secret in Key Vault.](add-a-secret.png)
 
-![Figure: SqlConnectionString stored in Key Vault](secrets.png)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Creating the SqlConnectionString secret in Key Vault."
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/add-a-secret.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="SqlConnectionString stored in Key Vault"
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/secrets.png"
+/>
+
 
 **Note:** The ApplicationSecrets section is indicated by "ApplicationSecrets--" instead of "ApplicationSecrets:".
 
 As a result of storing secrets in Key Vault, your Azure App Service configuration (app settings) will be nice and clean. You should not see any fields that contain passwords or keys. Only basic configuration values.
 
-![Figure: Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
 
-`youtube: https://www.youtube.com/embed/ZG7IykWdlng`
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Your WebApp Configuration - No passwords or secrets, just a name of the Key vault that it needs to access"
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/configuration.png"
+/>
 
-**Video: Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail (8 min)**
+
+
+<youtubeEmbed url="https://www.youtube.com/embed/ZG7IykWdlng" description={"Video: Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail (8 min)"} />
+
 
 ### History of Connection Strings
 
@@ -151,20 +205,26 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 ...and access this connection string in code like this:
 
 ``` cs
-SqlConnection sqlConn = 
+SqlConnection sqlConn =
 new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
-
-::: bad
-Historical example - Old ASP.NET 1.1 way, untyped and prone to error
-:::
+**❌ Historical example - Old ASP.NET 1.1 way, untyped and prone to error**  
 
 In .NET 2.0 we used strongly typed settings classes:
 
 **Step 1:** Setup your settings in your common project. E.g. Northwind.Common
 
-![Figure: Settings in Project Properties](ConnStringNET2_Settings.jpg)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Settings in Project Properties"
+  src="/uploads/rules/do-you-know-how-to-use-connection-strings/ConnStringNET2_Settings.jpg"
+/>
+
 
 **Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 
@@ -187,7 +247,4 @@ In .NET 2.0 we used strongly typed settings classes:
 SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
-
-::: bad
-Historical example - Access our connection string by strongly typed generated settings class...this is no longer the best way to do it
-:::
+**❌ Historical example - Access our connection string by strongly typed generated settings class...this is no longer the best way to do it**

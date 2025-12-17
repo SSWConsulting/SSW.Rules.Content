@@ -1,30 +1,39 @@
 ---
-type: rule
-tips: ""
-title: Do you avoid Automation Bias? (aka AI Slop)
-seoDescription: AI has the potential to make your work worse. Learn the common pitfalls so that AI can help, not hinder.
-  Learn the common pitfalls so that AI can help, not hinder.
-uri: avoid-automation-bias
 authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
-related:
-  - manage-security-risks-when-adopting-ai-solutions
-  - manage-legal-implications-of-ai
-  - mitigate-brand-risks-ai
-  - use-ai-responsibly
-  - checked-by-xxx
-created: 2025-09-16T14:29:00.000Z
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz
+created: 2025-10-17 05:12:37+00:00
+createdBy: Eddie Kranz [SSW]
+createdByEmail: ed@kranz.au
 guid: 67B27A09-5546-4AD9-9DCC-732CE63D7183
+isArchived: false
+lastUpdated: 2025-12-05 03:50:05+00:00
+lastUpdatedBy: Caleb Williams [SSW]
+lastUpdatedByEmail: 65635198+Calinator444@users.noreply.github.com
+related:
+- rule: public/uploads/rules/manage-security-risks-when-adopting-ai-solutions/rule.mdx
+- rule: public/uploads/rules/manage-legal-implications-of-ai/rule.mdx
+- rule: public/uploads/rules/mitigate-brand-risks-ai/rule.mdx
+- rule: public/uploads/rules/use-ai-responsibly/rule.mdx
+- rule: public/uploads/rules/checked-by-xxx/rule.mdx
+seoDescription: AI has the potential to make your work worse. Learn the common pitfalls
+  so that AI can help, not hinder. Learn the common pitfalls so that AI can help,
+  not hinder.
+tips: ''
+title: Do you avoid Automation Bias? (aka AI Slop)
+type: rule
+uri: avoid-automation-bias
 ---
+
 AI has been championed as a huge productivity booster, which it is. However, people blindly trusting AI outputs, or preferring them over theirs, can lead to 'automation bias'.
 
 Let's talk about what leads to creating AI slop:
 
-<!--endintro-->
+<endIntro />
 
-`youtube: https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z`
-**Video: How AI is making you dumber (3 min)**
+
+<youtubeEmbed url="https://www.youtube.com/embed/kDS5pwelhNM?si=_nqw5XQWgpib5b8z" description={"Video: How AI is making you dumber (3 min)"} />
+
 
 Automation bias is a type of cognitive bias.
 
@@ -88,23 +97,36 @@ Remember to always **own your work**.
 
 When creating tools that are prone to mistakes, include exact error rates:
 
-::: greybox
-AI sometimes makes mistakes, ensure you check its output.
-:::
-::: bad
-Bad example - Highly vague warning, most people will ignore it
-:::
 
-::: greybox
-Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
-:::
-::: good
-Good example - More specific warning, people are more likely to take it seriously
-:::
+<boxEmbed
+  style="greybox"
+  body={<>
+    AI sometimes makes mistakes, ensure you check its output.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Highly vague warning, most people will ignore it"
+/>
 
-::: good
-![Figure: Our AI products always show precise error rates](dr-docenstein-message.png)
-:::
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Studies have found that 25% of AI-generated code has security vulnerabilities. Ensure you review it.
+  </>}
+  figurePrefix="good"
+  figure="Good example - More specific warning, people are more likely to take it seriously"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Our AI products always show precise error rates"
+  src="/uploads/rules/avoid-automation-bias/dr-docenstein-message.png"
+/>
+
 
 ### 3. Four Eyes Principle (with real relationships)
 
@@ -112,23 +134,31 @@ The Four Eyes Principle (aka Two-Person Rule) is a common internal control pract
 
 This is similar to the ['Checked By' rule](/checked-by-xxx).
 
-::: greybox
-Random Person: *"Hey, can you review this code I wrote with Copilot?"*
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Random Person: *"Hey, can you review this code I wrote with Copilot?"*
 
 Bob: *"I don't know you well, and I have better things to do... approved ✅"*
-:::
-::: bad
-Bad example - Random pair reviews, people don't know each other well, so they won't feel accountable
-:::
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Random pair reviews, people don't know each other well, so they won't feel accountable"
+/>
 
-::: greybox
-Alice: *"Hey Bob, can you review this code I wrote with Copilot?"*
+
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Alice: *"Hey Bob, can you review this code I wrote with Copilot?"*
 
 Bob: *"Sure, I want to make sure I don't let Alice down, so I'll take a closer look 👀"*
-:::
-::: good
-Good example - Pair reviews with people who know each other well, so they feel accountable
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - Pair reviews with people who know each other well, so they feel accountable"
+/>
+
 
 ### 4. Prompting - Provide information, not instructions
 
@@ -136,38 +166,46 @@ Ask AI to present information and sources before it asserts conclusions. Avoid i
 
 Assume you want top marks for your university assignment.
 
-::: greybox
-*"Write me an essay about diabetes treatments"*
-:::
-::: bad
-Bad example - AI provides a summary, with not much context. People may take it at face value
-:::
 
-::: greybox
-*"I am writing a university essay on treatments for diabetes.*
+<boxEmbed
+  style="greybox"
+  body={<>
+    *"Write me an essay about diabetes treatments"*
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - AI provides a summary, with not much context. People may take it at face value"
+/>
 
-_The essay question is {{ XXX }},
 
-_I have these sources {{ XXX }},
 
-_My thoughts are {{ XXX }},
+<boxEmbed
+  style="greybox"
+  body={<>
+    *"I am writing a university essay on treatments for diabetes.*
 
-_and I want to make sure I cover {{ THESE POINTS }}.
+_The essay question is &#123;&#123; XXX &#125;&#125;,
+
+_I have these sources &#123;&#123; XXX &#125;&#125;,
+
+_My thoughts are &#123;&#123; XXX &#125;&#125;,
+
+_and I want to make sure I cover &#123;&#123; THESE POINTS &#125;&#125;.
 
 *Can you help me draft an outline?"*
-:::
-::: good
-Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work.
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example - AI has context, and is less likely to hallucinate. You can more easily take ownership of the work."
+/>
+
 
 ### 5. Prompting - Are you sure you are ready to prompt?
 
 Use these to decide if you know enough to prompt. If any answer is vague, pause and gather info first.
 
-* **Who is this for?**  
-* **What problem are we solving right now?**  
-* **What information/context do you already have, and what’s missing?**  
-* **What is the ([acceptance criteria](/acceptance-criteria/))?**  
+* **Who is this for?**
+* **What problem are we solving right now?**
+* **What information/context do you already have, and what’s missing?**
+* **What is the ([acceptance criteria](/acceptance-criteria/))?**
 
 - - -
 

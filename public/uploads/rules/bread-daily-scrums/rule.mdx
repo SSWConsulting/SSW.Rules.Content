@@ -1,26 +1,36 @@
 ---
-type: rule
-seoDescription: BREAD Daily Scrums - a format that tackles blockers first, boosts engagement, and scales to large distributed teams.
-title: Do you get through blockers faster with BREAD Daily Scrums?
-uri: bread-daily-scrums
-authors:
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related:
-  - methodology-daily-scrums
-  - participate-in-daily-scrum-meetings
-created: 2025-06-23T10:32:00.000Z
 archivereason: null
+authors:
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+created: 2025-06-23 10:32:00+00:00
 guid: d1cf5789-4a64-437b-93d2-f8c08cc6bba3
+related:
+- rule: public/uploads/rules/methodology-daily-scrums/rule.mdx
+- rule: public/uploads/rules/participate-in-daily-scrum-meetings/rule.mdx
+seoDescription: BREAD Daily Scrums - a format that tackles blockers first, boosts
+  engagement, and scales to large distributed teams.
+title: Do you get through blockers faster with BREAD Daily Scrums?
+type: rule
+uri: bread-daily-scrums
 ---
 
 In traditional Daily Scrums, each team member answers the same three questions: "What did you do yesterday?", "What are you doing today?", and "Do you have any blockers?". While this format is fine for small teams, it quickly breaks down in larger ones. The meetings become long and repetitive, people zone out while waiting for their turn, and the most important topics often get rushed at the end.
 
 To solve these pain points, use the **BREAD format** – a structured but flexible approach that scales better and prioritizes unblocking people.
 
-<!--endintro-->
+<endIntro />
 
-![Figure: BREAD Daily Scrums](bread-daily-scrums.png)
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="BREAD Daily Scrums"
+  src="/uploads/rules/bread-daily-scrums/bread-daily-scrums.png"
+/>
+
 
 ### BREAD Meeting Format
 
@@ -56,10 +66,10 @@ To solve these pain points, use the **BREAD format** – a structured but flexib
 | Collaboration & input |   Limited |   Encourages full-team input |
 | Preparation required |   Minimal (spoken) |   Pre-written updates (shared doc) |
 
-✅ **It scales to larger teams** – since everyone pre-writes their updates in a shared doc, there's no need to listen to people read their notes.  
-✅ **Blockers are handled first** – the most valuable part of the scrum gets prioritized.  
-✅ **Keeps people engaged** – team members raise their hands only when relevant, so they stay more alert and collaborative.  
-✅ **Promotes organic discussion** – people contribute naturally based on topic, not turn order.  
+✅ **It scales to larger teams** – since everyone pre-writes their updates in a shared doc, there's no need to listen to people read their notes.
+✅ **Blockers are handled first** – the most valuable part of the scrum gets prioritized.
+✅ **Keeps people engaged** – team members raise their hands only when relevant, so they stay more alert and collaborative.
+✅ **Promotes organic discussion** – people contribute naturally based on topic, not turn order.
 
 ### Meeting Preparation
 
@@ -67,16 +77,20 @@ To solve these pain points, use the **BREAD format** – a structured but flexib
 
 Each team member writes dot points for their update prior to the Daily Scrum.
 
-::: greybox
-**Yesterday:** Finished API integration with Stripe.  
-**Today:** Working on unit tests for payment service.  
-**Blockers:** None  
-**Reviews:** PR #482 needs review  
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Yesterday:** Finished API integration with Stripe.
+**Today:** Working on unit tests for payment service.
+**Blockers:** None
+**Reviews:** PR #482 needs review
 **Notes:** Planning to deploy to staging today if tests pass.
-:::
-::: good
-Figure: Good example – concise bullet points shared before the meeting allow the team to be informed without time-wasting status updates.
-:::
+  </>}
+  figurePrefix="good"
+  figure="Good example – concise bullet points shared before the meeting allow the team to be informed without time-wasting status updates."
+/>
+
 
 #### During the meeting
 

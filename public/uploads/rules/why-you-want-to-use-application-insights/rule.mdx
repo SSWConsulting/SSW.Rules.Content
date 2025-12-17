@@ -1,21 +1,28 @@
 ---
-seoDescription: Get holistic insights into your application's performance, errors, and usage with Application Insights.
-type: rule
-title: Do you know why to use Application Insights?
-uri: why-you-want-to-use-application-insights
-authors:
-  - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related:
-  - do-you-use-an-analytics-framework-to-help-manage-exceptions
-  - how-to-set-up-application-insights
-redirects:
-  - do-you-know-why-you-want-to-use-application-insights
-created: 2015-07-24T04:40:05.000Z
 archivedreason: null
+authors:
+- title: Chris Briggs
+  url: https://ssw.com.au/people/chris-briggs
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+created: 2015-07-24 04:45:18+00:00
+createdBy: Christopher Briggs
+createdByEmail: ChrisBriggs@ssw.com.au
 guid: af36ac71-56ce-4879-bb04-0d3cb42b7beb
+isArchived: false
+lastUpdated: 2020-03-24 04:38:31+00:00
+lastUpdatedBy: Matthew Wicks
+lastUpdatedByEmail: MatthewWicks@ssw.com.au
+redirects:
+- do-you-know-why-you-want-to-use-application-insights
+related:
+- rule: public/uploads/rules/do-you-use-an-analytics-framework-to-help-manage-exceptions/rule.mdx
+- rule: public/uploads/rules/how-to-set-up-application-insights/rule.mdx
+seoDescription: Get holistic insights into your application's performance, errors,
+  and usage with Application Insights.
+title: Do you know why to use Application Insights?
+type: rule
+uri: why-you-want-to-use-application-insights
 ---
 
 Knowing the holistic health of your application is important once it has been deployed into production. Getting feedback on your Availability, errors, performance, and usage is an important part of DevOps.
@@ -23,11 +30,29 @@ We recommend using Application Insights, as getting it set up and running is qui
 
 Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you'll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
 
-<!--endintro-->
+<endIntro />
 
-![Figure:  When developing a public website, you wouldn't deploy without Google Analytics to track metrics about user activity.](Google-analytics.png)
 
-![Figure: For similar reasons, you shouldn't deploy a web application without metric tracking on performance and exceptions](2020-03-24_15-27-26.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="When developing a public website, you wouldn't deploy without Google Analytics to track metrics about user activity."
+  src="/uploads/rules/why-you-want-to-use-application-insights/Google-analytics.png"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="For similar reasons, you shouldn't deploy a web application without metric tracking on performance and exceptions"
+  src="/uploads/rules/why-you-want-to-use-application-insights/2020-03-24_15-27-26.jpg"
+/>
+
 
 1. You need a portal for your app
 2. You need to know spikes are dangerous
@@ -36,9 +61,27 @@ Application Insights will tell you if your application goes down or runs slowly 
    2. Performance
    3. Usage
 
-![Figure: Spikes on an Echidna are dangerous](/r437355_2104314.jpg)
 
-![Figure: Spikes on a graph are dangerous](/sockeye-daily-count.jpg)
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Spikes on an Echidna are dangerous"
+  src="/uploads/rules/why-you-want-to-use-application-insights/r437355_2104314.jpg"
+/>
+
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Spikes on a graph are dangerous"
+  src="/uploads/rules/why-you-want-to-use-application-insights/sockeye-daily-count.jpg"
+/>
+
 
 To add Application Insights to your application, make sure you follow the rule [Do you know how to set up Application Insights?](/how-to-set-up-application-insights)
 

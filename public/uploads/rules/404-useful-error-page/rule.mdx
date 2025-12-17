@@ -1,45 +1,70 @@
 ---
-type: rule
-title: Do you have a useful 404 error page?
-seoDescription: Enhance your ASP.NET site's user experience with a custom 404
-  error page that redirects visitors effectively.
-uri: 404-useful-error-page
-authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
-  - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
-related:
-  - 404-error-avoid-changing-the-url
-redirects:
-  - do-you-replace-the-404-error-with-a-useful-error-page
-created: 2016-08-11T17:30:01.000Z
 archivedreason: null
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Christian Morford-Waite
+  url: https://ssw.com.au/people/christian-morford-waite
+created: 2016-08-11 17:30:05+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
 guid: a006213a-e97b-46a7-a66b-beb52b205533
+isArchived: false
+lastUpdated: 2021-03-17 05:01:20.730000+00:00
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+redirects:
+- do-you-replace-the-404-error-with-a-useful-error-page
+related:
+- rule: public/uploads/rules/404-error-avoid-changing-the-url/rule.mdx
+seoDescription: Enhance your ASP.NET site's user experience with a custom 404 error
+  page that redirects visitors effectively.
+title: Do you have a useful 404 error page?
+type: rule
+uri: 404-useful-error-page
 ---
+
 Error page, you say? But you worked so hard to make sure everything runs perfectly! The thing is, even the best sites aren’t immune to the occasional misstep. Sometimes users just type a URL wrong. It happens.
 
-A well-designed custom error page encourages surfers to remain in your site and help them to the right page. Although it's possible to redirect error codes straight to your homepage, that doesn't tell visitors what's going on. 
+A well-designed custom error page encourages surfers to remain in your site and help them to the right page. Although it's possible to redirect error codes straight to your homepage, that doesn't tell visitors what's going on.
 
 A branded 404 (error) page also reinforces your identity and keeps the user experience consistent, even when things go wrong. It shows professionalism and helps maintain trust.
 
 Consider adding a button to your homepage here, or your site's search functionality if applicable.
 
-<!--endintro-->
+<endIntro />
 
-::: bad
-![Figure: Bad example - Unhandled error](404-bad.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="bad"
+  figure="Bad example - Unhandled error"
+  src="/uploads/rules/404-useful-error-page/404-bad.png"
+/>
 
-::: good
-![Figure: Good example - Custom error page](404-good.png)
-:::
 
-::: good
-![Figure: Good example - Playful branding turns an error case into a less negative experience](mailchimp-404.png)
-:::
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Custom error page"
+  src="/uploads/rules/404-useful-error-page/404-good.png"
+/>
+
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="good"
+  figure="Good example - Playful branding turns an error case into a less negative experience"
+  src="/uploads/rules/404-useful-error-page/mailchimp-404.png"
+/>
+
 
 ## .NET Core (Server-Side)
 
@@ -67,7 +92,7 @@ app.MapGet("/Error/{statusCode}", async (HttpContext httpContext, int statusCode
 
     if (statusCode == 404)
     {
-        // Return a custom "404 Not Found" response        
+        // Return a custom "404 Not Found" response
         httpContext.Response.ContentType = "text/html";
         await httpContext.Response.WriteAsync("<h1>Sorry, we couldn’t find that page.</h1>");
     }
@@ -84,10 +109,7 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 ```
-
-::: good
-Figure: Good example - Wildcard routing of unrecognised paths
-:::
+**✅ Figure: Good example - Wildcard routing of unrecognised paths**  
 
 ## Angular (Client-Side)
 
@@ -111,10 +133,7 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
-
-::: good
-Figure: Good example - Wildcard routing of unrecognised paths
-:::
+**✅ Figure: Good example - Wildcard routing of unrecognised paths**  
 
 ```html
 <!-- not-found.component.html -->
@@ -124,10 +143,7 @@ Figure: Good example - Wildcard routing of unrecognised paths
   <a routerLink="/">Go back to Home</a>
 </div>
 ```
-
-::: good
-Figure: Good example - The custom 404 html page
-:::
+**✅ Figure: Good example - The custom 404 html page**  
 
 ## React.js (Client-Side)
 
@@ -154,30 +170,21 @@ function App() {
 
 export default App;
 ```
-
-::: good
-Figure: Good example - The custom 404 pages
-:::
+**✅ Figure: Good example - The custom 404 pages**  
 
 ## ASP .NET
 
 ```xml
 <customErrors mode="Off"></customErrors>
 ```
-
-::: bad
-Figure: Bad example - The default code on web.config
-:::
+**❌ Figure: Bad example - The default code on web.config**  
 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="/ssw/ErrorPage.aspx">
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
 ```
-
-::: good
-Figure: Good example - The custom code in the web.config
-:::
+**✅ Figure: Good example - The custom code in the web.config**  
 
 For ASP.NET website, the detailed information would be presented to the remote machines when an unhandled error occurs if the customErrors mode is off.
 
@@ -186,7 +193,4 @@ This error information is useful for the developer to do debugging. However, it 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
-
-::: good
-Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker
-:::
+**✅ Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker**
