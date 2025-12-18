@@ -610,7 +610,8 @@
         "rules-to-better-software-consultants-dealing-with-clients"
     ],
     "great-meetings": [
-        "rules-to-better-software-consultants-dealing-with-clients"
+        "rules-to-better-software-consultants-dealing-with-clients",
+        "rules-to-better-meetings"
     ],
     "give-clients-a-warm-welcome": [
         "rules-to-better-software-consultants-dealing-with-clients"
@@ -622,10 +623,12 @@
         "rules-to-better-software-consultants-dealing-with-clients"
     ],
     "recognize-anchoring-effects": [
-        "rules-to-better-software-consultants-dealing-with-clients"
+        "rules-to-better-software-consultants-dealing-with-clients",
+        "rules-to-better-meetings"
     ],
     "uncover-hidden-anchor-client": [
-        "rules-to-better-software-consultants-dealing-with-clients"
+        "rules-to-better-software-consultants-dealing-with-clients",
+        "rules-to-better-meetings"
     ],
     "do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review": [
         "rules-to-better-software-consultants-dealing-with-clients"
@@ -1298,7 +1301,8 @@
         "rules-to-better-communication"
     ],
     "loop-someone-in": [
-        "rules-to-better-communication"
+        "rules-to-better-communication",
+        "rules-to-better-meetings"
     ],
     "match-tone-with-intent": [
         "rules-to-better-communication",
@@ -1791,6 +1795,54 @@
         "rules-to-better-inbox-management",
         "rules-to-better-system-administrators"
     ],
+    "make-sure-the-meeting-needs-to-exist": [
+        "rules-to-better-meetings"
+    ],
+    "only-invite-the-minimum-number-of-people-possible": [
+        "rules-to-better-meetings"
+    ],
+    "teams-meetings-vs-group-chats": [
+        "rules-to-better-meetings",
+        "rules-to-better-microsoft-teams"
+    ],
+    "the-3-criteria-that-make-a-good-meeting": [
+        "rules-to-better-meetings"
+    ],
+    "share-the-agenda": [
+        "rules-to-better-meetings"
+    ],
+    "start-meetings-with-energy": [
+        "rules-to-better-meetings",
+        "rules-to-better-microsoft-teams"
+    ],
+    "stick-to-the-agenda-and-complete-the-meetings-goal": [
+        "rules-to-better-meetings"
+    ],
+    "creating-action-items": [
+        "rules-to-better-meetings",
+        "rules-to-better-remote-work"
+    ],
+    "start-and-finish-on-time": [
+        "rules-to-better-meetings"
+    ],
+    "keep-track-of-a-parking-lot-for-topics": [
+        "rules-to-better-meetings"
+    ],
+    "getting-a-busy-person-into-the-meeting": [
+        "rules-to-better-meetings"
+    ],
+    "record-teams-meetings": [
+        "rules-to-better-meetings"
+    ],
+    "use-ai-for-meeting-notes": [
+        "rules-to-better-meetings"
+    ],
+    "speak-up-in-meetings": [
+        "rules-to-better-meetings"
+    ],
+    "meetings-in-english": [
+        "rules-to-better-meetings"
+    ],
     "create-a-team": [
         "rules-to-better-microsoft-teams"
     ],
@@ -1805,12 +1857,6 @@
         "rules-to-better-microsoft-teams"
     ],
     "send-appointment-or-teams-meeting": [
-        "rules-to-better-microsoft-teams"
-    ],
-    "teams-meetings-vs-group-chats": [
-        "rules-to-better-microsoft-teams"
-    ],
-    "start-meetings-with-energy": [
         "rules-to-better-microsoft-teams"
     ],
     "create-recurring-teams-meetings-for-a-channel": [
@@ -2909,9 +2955,6 @@
         "rules-to-better-remote-work"
     ],
     "do-you-give-remote-attendees-the-url-to-shared-videos": [
-        "rules-to-better-remote-work"
-    ],
-    "creating-action-items": [
         "rules-to-better-remote-work"
     ],
     "have-a-dedicated-working-space": [
