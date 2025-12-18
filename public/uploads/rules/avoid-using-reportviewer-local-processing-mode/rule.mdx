@@ -22,15 +22,15 @@ type: rule
 uri: avoid-using-reportviewer-local-processing-mode
 ---
 
-[ReportViewer control](https://www.ssw.com.au/ssw/redirect/msdn/ReportViewerControl.htm) is a powerful control designed for Windows application and Web application to process and display reports. This control can be configured to run in local processing mode and remote processing mode.
+[ReportViewer control](https://learn.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver17) is a powerful control designed for Windows application and Web application to process and display reports. This control can be configured to run in local processing mode and remote processing mode.
 
 <endIntro />
 
-* Local Processing Mode
-  This mode uses [client report definition (.rdlc) files](https://www.ssw.com.au/ssw/redirect/msdn/CreatingClientReportDefinition.htm), all report processing is performed on the computer that hosts the application. All data used by the report must be retrieved from data that the client application provides, so you have to configure the ReportViewer control's Data sources, Report parameters.
-  See [Configuring ReportViewer for Local Processing](https://www.ssw.com.au/ssw/redirect/msdn/ConfiguringReportViewer.htm) for more information.
-* Remote Processing Mode
-  This mode needs the Microsoft SQL Server 2005 Reporting Services report server, The report server processes the data and renders the report into an output format. The ReportViewer control retrieves the finished report from the report server and displays it on the screen, so you have to configure the ReportViewer control's report server information.
-  See [Configuring ReportViewer for Remote Processing](https://www.ssw.com.au/ssw/redirect/msdn/ConfiguringReportViewerforRemotProcessing.htm) for more information.
+* **Local Processing Mode**  
+  This mode uses client report definition (`.rdlc`) files, all report processing is performed on the computer that hosts the application. All data used by the report must be retrieved from data that the client application provides, so you have to configure the ReportViewer control's Data sources, Report parameters.  
+  See [View reports in local processing mode](https://learn.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver17#view-reports-in-local-processing-mode) for more information.
+* **Remote Processing Mode**  
+  This mode needs the Microsoft SQL Server 2005 Reporting Services report server, The report server processes the data and renders the report into an output format. The ReportViewer control retrieves the finished report from the report server and displays it on the screen, so you have to configure the ReportViewer control's report server information.  
+  See [Viewing reports in remote processing mode](https://learn.microsoft.com/en-us/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver17#viewing-reports-in-remote-processing-mode) for more information.
 
 If you use local processing mode in your Web application, there are more configuration to do for the ReportViewer control, report processing will also slow down the web server.
