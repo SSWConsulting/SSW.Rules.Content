@@ -1,126 +1,124 @@
 ---
-archivedreason: ''
-authors:
-- title: Eddie Kranz
-  url: https://www.ssw.com.au/people/eddie-kranz/
-- title: Lewis Toh
-  url: https://www.ssw.com.au/people/lewis-toh/
-- title: Calum Simpson
-  url: https://www.ssw.com.au/people/calum-simpson/
-created: 2025-01-02 12:40:00+00:00
-guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
-related:
-- rule: public/uploads/rules/ai-pair-programming/rule.mdx
-seoDescription: how to use cursor, vscode, github copilot, the best AI powered IDE
 tips: ''
-title: Do you use the best AI Powered IDE?
 type: rule
+title: Do you use the best AI Powered IDE?
 uri: best-ai-powered-ide
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+authors:
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz/'
+  - title: Lewis Toh
+    url: 'https://www.ssw.com.au/people/lewis-toh/'
+  - title: Calum Simpson
+    url: 'https://www.ssw.com.au/people/calum-simpson/'
+  - title: Steven Qiang
+    url: 'https://ssw.com.au/people/steven-qiang'
+related:
+  - rule: public/uploads/rules/ai-pair-programming/rule.mdx
+  - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+  - rule: public/uploads/rules/start-vibe-coding-best-practices/rule.mdx
+guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
+seoDescription: 'how to use cursor, vscode, github copilot, the best AI powered IDE'
+created: 2025-01-02T12:40:00.000Z
+createdBy: Lewis Toh
+createdByEmail: LewisToh@ssw.com.au
+lastUpdated: 2025-12-18T08:54:53.677Z
+lastUpdatedBy: Lewis Toh
+lastUpdatedByEmail: LewisToh@ssw.com.au
+archivedreason: ''
 ---
 
-Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. AI has now been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), embedding an even deeper level of AI Integration within a developer's workflow.
+Since the release of [GitHub Copilot](https://github.com/features/copilot), we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, then a chat function, and now we are in an agentic gold mine. AI has now been integrated deeply into IDEs with products like [Visual Studio Code](https://code.visualstudio.com/) and [Cursor](https://www.cursor.com/), embedding an even deeper level of AI integration within a developer's workflow.
 
 <endIntro />
 
-
-<youtubeEmbed url="https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n" description={"Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)"} />
-
+<youtubeEmbed url="https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n" description="Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)" />
 
 ## Powerful features that AI-Powered IDEs provide
 
 ### Code Completion
 
-GitHub Copilot first popularized the 'code completion' feature for AI-powered IDEs. Code completion will try to guess what you are going to write, and suggest how to complete this line – saving time and effort by simply pressing 'tab'.
+GitHub Copilot first popularized the 'code completion' feature for AI-powered IDEs. Code completion will try to guess what you are going to write, and suggest how to complete this line - saving time and effort by simply pressing 'tab'.
 
-### Command Generation
+### Code Generation
 
-In Cursor and Windsurf, you can hit ctrl-K (or command-K), to convert natural language to a bash command. This is very useful for when you have forgotten the exact syntax of a bash command.
+In Cursor (ctrl-K or command-K) and VSCode (ctrl-I or command-I), you are able to generate code at a given line or within the terminal with natural language. Useful when you want to change or add to a specific line, or you forgot the syntax of a bash command.
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Cursor Command Generation (ctrl-K)"
-  src="/uploads/rules/best-ai-powered-ide/cursor-command-generation.gif"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Cursor Command Generation (ctrl-K)" src="/uploads/rules/best-ai-powered-ide/cursor-command-generation.gif" />
 
 ### Chat
 
 Chat functionality within an AI-powered IDE adds an intelligent assistant that can offer answers and suggestions without needing to leave the IDE. Unlike generic AI tools, it allows you to add context to your question, such as a file or even codebase, which lets the AI provide more tailored solutions.
 
-#### Specify the level of context
-
-Within the chat for Cursor, you can specify the level of context you would like to include with your prompt. By typing the `@` character, the following menu will appear.
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Cursor Chat Context, opened by typing `@`"
-  src="/uploads/rules/best-ai-powered-ide/cursor-chat-context.png"
-/>
-
-
-In Cursor, the `@Web` function is very useful for any situations where recent information, or information that the model has not been trained on is needed! You can also use `@Git` to compare diffs with the main branch, to generate a nice PR summary.
-
 ### Agent
 
-The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
+The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands), and call any MCP tools that have been integrated with the IDE.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE"
-  src="/uploads/rules/best-ai-powered-ide/bad-example-chatgpt.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE" src="/uploads/rules/best-ai-powered-ide/bad-example-using-chatgpt.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions" src="/uploads/rules/best-ai-powered-ide/good-example-using-cursor-agent.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions"
-  src="/uploads/rules/best-ai-powered-ide/good-example-using-agent.png"
-/>
+## Using an AI-Powered IDE
 
+There are lots of AI-Powered IDEs on the market right now, and they are evolving constantly, introducing new features at a rapid pace. Despite this, they all have similar pros and cons:
 
-## AI-Powered IDE Comparison
+✅ Pros
 
-| Feature               | [Cursor](https://www.cursor.com/)                                                        | [IDE + GitHub Copilot](https://github.com/features/copilot)                                    | [Windsurf](https://codeium.com/windsurf)                                        | [GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) |
-| --------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Free Version          | • 2000 completions per month• 50 slow premium requests per month                     | • 2000 completions per month• 50 chat messages per month                                   | • 5 premium user prompts• 5 premium Flow Actions                            | ❌                                                                             |
-| Price (USD per month) | $20                                                                                      | $10                                                                                            | $15                                                                             | $10 (Bundled with Copilot Pro)                                                |
-| AI Model(s)           | • cursor-small (free)• Anthropic Claude (Sonnet, Haiku)• OpenAI (GPT 3.5, 4, 4o) | • Anthropic Claude (Sonnet, Haiku)• OpenAI (GPT 3.5, 4, 4o)                                | • Meta Llama• Anthropic Claude (Sonnet, Haiku)• OpenAI (GPT 3.5, 4, 4o) | OpenAI (GPT 3.5, 4, 4o)                                                       |
-| Custom Models         | ❌                                                                                        | ❌                                                                                              | ❌                                                                               | Enterprise Version                                                            |
-| Custom Rules          | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ❌                                                                             |
-| Auto-Completion       | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
-| Chat                  | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
-| Agent                 | ✅                                                                                        | ❌                                                                                              | ✅                                                                               | ✅                                                                             |
-| Privacy Mode          | ✅                                                                                        | ✅                                                                                              | ✅                                                                               | ✅                                                                             |
-| GitHub Integration    | ❌                                                                                        | • Copilot Chat• Auto-generate commit message                                               | ❌                                                                               | • Full Workflow is on GitHub• Generate PR Summary                         |
-| Web Searching         | ✅                                                                                        | ❌                                                                                              | ✅                                                                               | ❌                                                                             |
-| Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported)                           | • Azure Data Studio• JetBrains IDEs• VS Code• Visual Studio• Neovim• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported)                | • Browser based• VSCode Support (GitHub CodeSpace)                        |
+* Speed - Documentation, boilerplate can be written in seconds, prototyping done quick
+* Code quality - Catches bugs and edge cases, gives refactoring suggestions
+* Lower barrier of entry - Make programming more accessible, learn new frameworks faster
 
+❌ Cons
+
+* Code correctness - May actually introduce new bugs and security risks
+* Skill development - Short-term efficiency may hinder long-term skill growth
+* Maintenance - Reviewing and fixing AI-suggestions may exceed time saved
+
+Here are some options:
+
+* [GitHub Copilot in VSCode](https://code.visualstudio.com/docs/copilot/overview) (⭐ Recommended)
+* [Cursor](https://cursor.com/home) (⭐ Recommended)
+  * See Cursor's visual editor in action - [Is Cursor’s new visual editor a Figma killer? Tutorial](https://www.youtube.com/watch?v=sRd1ZwXoHb4) (7 min)
+* [Claude Code in VSCode](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code)
+* [Google Antigravity](https://antigravity.google/)
+* [Trae](https://www.trae.ai/)
+* [Amazon Kiro](https://kiro.dev/) - For spec driven development
+* [Windsurf](https://windsurf.com/)
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
-    **Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
-
-If you still have your student status, you can get **GitHub Copilot Pro for free** here: [Free GitHub Copilot Pro access](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer#about-free-github-copilot-pro-access)
+    **Tip:** Most of them have free trials, so try and see which IDE works best for you.
   </>}
   figurePrefix="none"
   figure=""
 />
 
+## Using the CLI for AI-assisted development
+
+Command line interfaces (CLIs) offer an alternative to AI-powered IDEs, for users who prefer terminal-based workflows or need specialised capabilities.
+
+✅ Pros
+
+* Much larger context windows - better understanding of large codebases
+* Can run longer sessions without timing out
+* Can be integrated into CI/CD pipelines
+
+❌ Cons
+
+* Steeper learning curve - comfort with terminal interfaces and command-line workflows
+* No graphical diff views or inline code highlighting
+* Manual setup required - configure authentication and permissions
+
+Here are some options:
+
+* [Claude Code](https://claude.com/product/claude-code)
+* [GitHub Copilot CLI](https://github.com/features/copilot/cli/)
+* [Gemini CLI](https://geminicli.com/)
+* [Codex CLI](https://developers.openai.com/codex/cli)
+
+However, a hybrid approach with an AI-Powered IDE allows you to achieve the benefits of both - completing small tasks easily and large tasks efficiently.
 
 ## A word of caution
 
@@ -130,35 +128,32 @@ You wouldn't send an email written by ChatGPT without first checking it for corr
 
 You are solely responsible for the code you commit!
 
-
 <boxEmbed
-  style="info"
+  style="warning"
   body={<>
-    **Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
-See [https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code](https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code)
+    **Warning:** Whilst other non-VSCode IDEs can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
+    
+    See [.NET Debugger's licensing](https://github.com/dotnet/vscode-csharp/blob/main/docs/debugger/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code.md)
   </>}
   figurePrefix="none"
   figure=""
 />
-
 
 ## Which is best?
 
-As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them.
+AI-Powered IDEs are evolving all the time, so you can't go wrong with any of them.
 
-Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=cursor%20ide,windsurf%20ide&hl=en). However, Windsurf is a formidable competitor in the battle for the best AI-powered IDE.
+Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=%2Fg%2F11ybxxhcls,Trae,Antigravity,Claude%20Code,VSCode\&hl=en). However, the ever-strong VSCode Copilot is also another great choice, with the introduction of agentic mode in April, now rivals other AI-Powered IDEs.
 
-Note: In some regions, such as China, tools like Cursor and Claude are restricted from access. In such cases, [Trae](https://www.trae.ai/) serves as a great alternative. Trae is developed by ByteDance, the parent company of TikTok.
-
+Note: In regions such as China, where tools like Cursor and Claude are restricted from access, [Trae](https://www.trae.ai/), developed by ByteDance, serves as a great option.
 
 <boxEmbed
   style="info"
   body={<>
-    **Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
+    **Tip:** Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
-Share some details about your experience  with AI assisted development e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.
+Share some details about your experience with AI assisted development e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.
