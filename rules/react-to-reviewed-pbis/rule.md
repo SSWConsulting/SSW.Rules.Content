@@ -19,6 +19,9 @@ When an Issue or Product Backlog Item (PBI) is created, it's important that team
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/NLlCrw3QU7E`
+**Video: Liking Github issues when they are read | Adam Cogan  (2 min)**
+
 Once you've done that, react with a 👍 (like) to show you have read and agree.
 
 If you **don’t** agree with a GitHub issue, please leave a quick comment to share why so everyone can understand your 👎 (dislike) and keep the discussion helpful.

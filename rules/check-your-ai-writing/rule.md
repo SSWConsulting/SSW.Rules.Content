@@ -1,0 +1,133 @@
+---
+seoDescription: Learn how to edit AI-generated content to avoid sounding robotic, overly dramatic, or fake. Spot and fix common issues before hitting send.
+type: rule
+title: Do you know what to watch out for when using ChatGPT to write content?
+uri: check-your-ai-writing
+authors:
+  - title: Clara Fang
+    url: https://www.ssw.com.au/people/clara-fang
+related:
+  - chatgpt-skills-weaknesses
+  - avoid-automation-bias
+created: 2025-11-20T22:53:34.710Z
+guid: b67586f8-fc37-44da-96d5-1e8bbfdd87af
+---
+
+AI tools like ChatGPT are fantastic for speeding up your work, whether you're drafting emails, reports, LinkedIn posts, or documentation. While these tools are great at generating content quickly, they’re **not** always great at *sounding human*. 
+
+Left unchecked, AI-generated text can come across as overly formal, overly dramatic, or just a bit fake.
+
+<!--endintro-->
+
+`youtube: https://www.youtube.com/shorts/34BmRpsDTh0`
+
+**Video: What to check before sending AI-written content (3 min)**  
+
+Before hitting send, take a minute to review the content ChatGPT gave you. It can save you from sounding robotic.
+
+Here are the most common issues to watch out for:
+
+## Overly Formal Tone
+
+AI often leans toward formality, making everyday points sound like a lawyer or English literature. This can feel unnatural, especially in a casual email or chat.
+
+::: greybox 
+Common examples:
+- “plays a vital role”
+- “holds significant importance”
+- “a crucial influence”
+- “a profound heritage”
+:::
+::: bad  
+Figure: Bad example - These phrases sound heavy-handed for most day-to-day writing  
+:::
+
+Instead, use simpler alternatives that sound more like what you'd say in conversation.
+
+## Too Many Adjectives and Adverbs
+
+AI sometimes slips into writing that sounds like an ad, even when you’re not selling anything. This usually means lots of positive adjectives with no real facts.
+
+::: greybox 
+Typical AI phrases include:
+- “continues to captivate”
+- “boasts a…”
+- “seamlessly connecting…”
+- “value-driven experiences…”
+:::
+::: bad  
+Figure: Bad example - Sounds polished, but it’s just fluff with no substance  
+:::
+
+Stick to facts. If something is great, show *why* it’s great, don’t just say it is.
+
+## Unnecessary Drama or Parallelisms
+
+AI loves to add contrast for dramatic effect, even though it isn’t needed. 
+
+::: greybox  
+Common AI patterns include:  
+- Then let’s stay on topic, and the topic **is not** who feels warm fuzzies from visibility, **it’s whether** this article meets the threshold for inclusion. It doesn’t. 
+- **It’s not just** about the beat riding under the vocals; **it’s** part of the aggression and atmosphere.
+:::
+::: bad  
+Figure: Bad example - Overuse of dramatic structures makes writing feel artificial or emotionally loaded  
+:::
+
+## Fake or Vague Analysis
+
+AI can invent explanations that *sound* deep, but actually say nothing. 
+
+::: greybox
+Phrases like:
+- Douera enjoys close proximity to the capital city, Algiers, **further enhancing its significance as a dynamic hub of activity and culture.**
+- These citations, spanning more than six decades and appearing in recognized academic publications, **illustrate Blois' lasting influence in computational linguistics, grammar, and neology.**
+- The software update **marks a pivotal step forward in redefining user experience across digital platforms.**
+- The growing demand for sustainability **underscores an urgent need for action, collaboration, and thoughtful leadership.**
+:::
+::: bad  
+Figure: Bad example - Sounds analytical, but adds no real value or evidence  
+:::
+
+If AI adds analysis, ask yourself: *Is this actually true? Do I have evidence for this?* If not, cut it.
+
+## Too Many Emojis (⭐ 🤖 😒)
+
+AI sometimes adds emojis to make text feel friendly or informal, but in professional writing, this can come across as unpolished or even inappropriate. 
+
+While emojis are fine in casual chats, they don’t belong in emails, reports, or documents intended for clients, managers, or stakeholders. They can reduce the credibility of your message and make serious topics seem trivial.
+
+::: greybox
+- 🚀 Let’s dive into the roadmap for Q1 2024!
+- 💡 Pro tip: Always test your code before deployment.
+- 🤖 AI is changing the game — are you ready?
+- 📈 Our KPIs are looking great this month!
+- 🔥 Things are heating up for our launch!
+- 🎯 Don’t forget to submit your timesheets!
+:::
+::: bad  
+Figure: Bad example - Emojis make the writing feel unprofessional  
+:::
+
+Don't overuse Emojis!
+
+## Too Many Em Dashes (—)
+
+AI uses em dashes excessively. Humans usually prefer commas or parentheses in most cases.
+
+::: greybox
+- And consensus doesn’t grow from silence **— it grows from critique, correction, and clarity**
+- However, to date, no editor **— including yourself —** has identified any specific passages in the current version that were generated by AI or that fail to meet Wikipedia's content standards
+- Given the article’s current state **— well-sourced, policy-compliant, and collaboratively improved — **the continued presence of the “LLM advisory” banner is unwarranted.
+:::
+::: bad  
+Figure: Bad example - Too many em dashes make it feel unnatural 
+:::
+
+### Final Tips
+
+* **Keep the good stuff** - AI often produces solid drafts and saves time
+* **Don't blindly copy and paste** - Review tone, phrasing, and accuracy first
+* **Ask yourself: _“Would I say it this way?”_** - If not, rewrite it
+
+By taking the time to edit AI's output, you'll sound more authentic, approachable, and clear.

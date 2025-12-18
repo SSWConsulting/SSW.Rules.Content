@@ -1,7 +1,7 @@
 ---
 seoDescription: Keep your npm and yarn packages up to date to ensure your application's security and functionality.
 type: rule
-title: Do you keep your npm and yarn packages up to date?
+title: Do you keep your npm and Yarn packages up to date?
 uri: packages-up-to-date
 authors:
   - title: Sebastien Boissiere
@@ -19,6 +19,8 @@ authors:
 related:
   - best-package-manager-for-node
   - monitor-packages-for-vulnerability
+  - maintain-dependencies-correclty
+  - choosing-dependencies-correclty
 redirects:
   - do-you-keep-your-npm-packages-up-to-date
 created: 2020-09-30T00:17:47.000Z
@@ -26,7 +28,9 @@ archivedreason: null
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
 ---
 
-NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
+NPM packages often get new releases (adding new functionalities, fixing bugs or vulnerabilities). It is important to keep the packages updated as much as possible during the development of your application. Learn more on [Do you maintain your dependencies?](/maintain-dependencies-correctly)
+
+The best way to do that is to update all the packages every time you add a new package to your application, and include the `npm outdated` and `npm audit` reports in the Sprint Review. These commands are also available with yarn with `yarn outdated` and `yarn audit`.
 
 <!--endintro-->
 
@@ -38,10 +42,18 @@ npm audit
 # Yarn
 yarn outdated
 yarn audit
+
+# PNPM 
+pnpm outdated
+pnpm audit
 ```
 
 `youtube: https://www.youtube.com/embed/LN2zsrLqljY`
 **Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)**
+
+---
+
+## Commands purposes
 
 Running `npm outdated` returns an overview of your packages versions showing:
 
@@ -51,8 +63,8 @@ Running `npm outdated` returns an overview of your packages versions showing:
 
 The packages output from this command will also show up in different colours:
 
-* **Red** indicates the package version is below the wanted version
-* **Yellow** indicates the package version is at the wanted version but below the latest version
+* **🟥 Red** indicates the package version is below the wanted version
+* **🟨 Yellow** indicates the package version is at the wanted version but below the latest version
 
 ![Figure: Use 'npm outdated'](npm_outdated.png)
 
@@ -60,7 +72,7 @@ The packages output from this command will also show up in different colours:
 
 ![Figure: Use 'npm audit' to discover vulnerabilities in your application](npm_audit.png)
 
-To add a new package, use:
+To **add a new package**, use:
 
 ```shell
 # NPM
@@ -68,9 +80,12 @@ npm install package-name
 
 # Yarn
 yarn add package-name
+
+# PNPM 
+pnpm add package-name
 ```
 
-To update your packages, use:
+To **update your packages**, use:
 
 ```shell
 # NPM
@@ -78,6 +93,9 @@ npm update package-name
 
 # Yarn
 yarn upgrade package-name
+
+# PNPM 
+pnpm update package-name
 ```
 
 Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.

@@ -17,8 +17,6 @@ The world of AI tools is a jungle - every company wants you to use their tool, b
 
 This rule aims to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams (visit their websites to learn more).
 
-This rule aims to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams (visit their websites to learn more).
-
 We also recommend using [LMArena.ai](https://lmarena.ai) to confirm the best AI models in the market.
 
 <!--endintro-->
