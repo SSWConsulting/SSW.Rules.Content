@@ -1,25 +1,27 @@
 ---
 type: rule
-tips: ""
+tips: ''
 title: Do you use GitHub Copilot CLI in a secure dockerised environment?
+uri: use-github-copilot-cli-secure-environment
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-seoDescription: Learn how to run GitHub Copilot CLI in a secure Docker sandbox
-  that isolates AI operations to your current project directory. This approach
-  provides powerful AI assistance while maintaining strict security boundaries.
-uri: use-github-copilot-cli-secure-environment
+sidebarVideo: 'https://www.youtube.com/watch?v=GWEDeCufLLE'
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: 'https://ssw.com.au/people/gordon-beeming'
   - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-created: 2025-10-16T23:19:03.000Z
+    url: 'https://ssw.com.au/people/lewis-toh'
 guid: babc794e-a638-4d05-b234-52d69ae4f432
-lastUpdated: 2025-12-11T01:37:38.000Z
-lastUpdatedBy: Gordon Beeming [SSW]
-lastUpdatedByEmail: gordonbeeming@ssw.com.au
-createdBy: Lewis Toh [SSW]
+seoDescription: >-
+  Learn how to run GitHub Copilot CLI in a secure Docker sandbox that isolates
+  AI operations to your current project directory. This approach provides
+  powerful AI assistance while maintaining strict security boundaries.
+created: 2025-10-16T23:19:03.000Z
+createdBy: 'Lewis Toh [SSW]'
 createdByEmail: 88498002+Lewkans@users.noreply.github.com
+lastUpdated: 2025-12-11T01:37:38.000Z
+lastUpdatedBy: 'Gordon Beeming [SSW]'
+lastUpdatedByEmail: gordonbeeming@ssw.com.au
 isArchived: false
 ---
 
@@ -33,22 +35,20 @@ Running Copilot CLI in a secure Docker container provides the best of both world
 
 When running Copilot CLI directly on your host machine:
 
-
 <boxEmbed
   style="greybox"
   body={<>
     **Copilot has access to:**
-
-* Your entire file system
-* Your SSH keys in `~/.ssh/`
-* All your repositories
-* Your environment variables and secrets
-* System-wide configurations
+    
+    * Your entire file system
+    * Your SSH keys in `~/.ssh/`
+    * All your repositories
+    * Your environment variables and secrets
+    * System-wide configurations
   </>}
   figurePrefix="bad"
   figure="Bad example - Copilot running with full system access creates unnecessary risk - a single mistake like `rm -rf ~` could be catastrophic"
 />
-
 
 ## The solution: Docker-based isolation
 
@@ -74,7 +74,6 @@ If Copilot runs a dangerous command like `rm -rf .`:
 * Your other projects and system files are safe
 * If setup with git, it is easily recoverable
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -83,7 +82,6 @@ If Copilot runs a dangerous command like `rm -rf .`:
   figurePrefix="none"
   figure=""
 />
-
 
 ### Understanding the two modes
 
@@ -95,10 +93,9 @@ Before diving into the setup, it's important to understand the two approaches av
 
 Both modes include security checks for proper GitHub token scopes and warn about overly privileged tokens. The YOLO mode adds the `--allow-all-tools` flag which bypasses execution confirmation.
 
-### Implementation: The copilot_here setup
+### Implementation: The copilot\_here setup
 
-The complete solution is available at [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here).
-
+The complete solution is available at [https://github.com/GordonBeeming/copilot\_here](https://github.com/GordonBeeming/copilot_here).
 
 <boxEmbed
   style="info"
@@ -108,7 +105,6 @@ The complete solution is available at [https://github.com/GordonBeeming/copilot_
   figurePrefix="none"
   figure=""
 />
-
 
 #### Install
 
@@ -154,9 +150,10 @@ copilot_here --update
 ```
 
 This will:
-- Download and install the latest version of the CLI binary
-- Show you the version change
-- Automatically reload the updated functions
+
+* Download and install the latest version of the CLI binary
+* Show you the version change
+* Automatically reload the updated functions
 
 ### Usage Examples
 
@@ -187,7 +184,8 @@ copilot_yolo -p "generate README for this project"
 Execute this command? [y/N]: y
 ✅ Executed safely in current directory only
 ```
-**✅ Good example - Use `-p` or `--prompt` flag to pass prompts directly to Copilot CLI**  
+
+**✅ Good example - Use `-p` or `--prompt` flag to pass prompts directly to Copilot CLI**
 
 **With Image Variants:**
 
@@ -201,7 +199,6 @@ copilot_here --dotnet-playwright --prompt "run playwright tests"
 copilot_here -dp -p "write browser automation tests"
 ```
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -211,7 +208,6 @@ copilot_here -dp -p "write browser automation tests"
   figure=""
 />
 
-
 ## How it works
 
 ### Security features
@@ -220,17 +216,14 @@ copilot_here -dp -p "write browser automation tests"
    * Only mounts your current project directory (to the same path as on your host)
    * Your home directory, SSH keys, and other projects are completely hidden
    * Configuration stored in isolated `~/.config/copilot-cli-docker`
-
 2. **Token Scope Validation**
    * Checks that your GitHub token has the required `copilot` scope
    * Warns if your token has dangerous elevated permissions
    * Requires explicit confirmation for high-privilege tokens
-
 3. **User Permission Mapping (Linux/macOS)**
    * Uses `PUID` and `PGID` to match your user ID inside the container
    * Files created by Copilot have correct ownership on your host
    * Windows Docker Desktop handles permissions automatically
-
 4. **Network Access**
    * Container shares host network for development workflows
    * Can access local services and APIs (by design)
@@ -241,15 +234,16 @@ copilot_here -dp -p "write browser automation tests"
 Different development scenarios call for different tools. The setup supports multiple image variants:
 
 **Available variants:**
-- **Base image (default)** - Node.js 20, Git, and essential tools
-- **`--dotnet` (`-d`)** - .NET 8, 9 & 10 SDKs
-- **`--dotnet8` (`-d8`)** - .NET 8 SDK only
-- **`--dotnet9` (`-d9`)** - .NET 9 SDK only
-- **`--dotnet10` (`-d10`)** - .NET 10 SDK only
-- **`--playwright` (`-pw`)** - Browser automation with Playwright
-- **`--dotnet-playwright` (`-dp`)** - .NET + Playwright combined
-- **`--rust` (`-rs`)** - Rust toolchain
-- **`--dotnet-rust` (`-dr`)** - .NET + Rust combined
+
+* **Base image (default)** - Node.js 20, Git, and essential tools
+* **`--dotnet` (`-d`)** - .NET 8, 9 & 10 SDKs
+* **`--dotnet8` (`-d8`)** - .NET 8 SDK only
+* **`--dotnet9` (`-d9`)** - .NET 9 SDK only
+* **`--dotnet10` (`-d10`)** - .NET 10 SDK only
+* **`--playwright` (`-pw`)** - Browser automation with Playwright
+* **`--dotnet-playwright` (`-dp`)** - .NET + Playwright combined
+* **`--rust` (`-rs`)** - Rust toolchain
+* **`--dotnet-rust` (`-dr`)** - .NET + Rust combined
 
 **Usage:**
 
@@ -269,9 +263,9 @@ copilot_yolo -d -p "scaffold a new web API"
 
 ### Additional Features
 
-- **`-h` or `--help`** - Show usage help and examples (Bash/Zsh) or `-Help` (PowerShell)
-- **`--no-cleanup`** - Skip cleanup of unused Docker images (Bash/Zsh) or `-NoCleanup` (PowerShell)
-- **`--no-pull`** - Skip pulling the latest image (Bash/Zsh) or `-NoPull` (PowerShell)
+* **`-h` or `--help`** - Show usage help and examples (Bash/Zsh) or `-Help` (PowerShell)
+* **`--no-cleanup`** - Skip cleanup of unused Docker images (Bash/Zsh) or `-NoCleanup` (PowerShell)
+* **`--no-pull`** - Skip pulling the latest image (Bash/Zsh) or `-NoPull` (PowerShell)
 
 The functions automatically clean up unused Docker images tagged with the project label, keeping your system tidy.
 
@@ -293,8 +287,7 @@ This approach provides:
 For detailed implementation, troubleshooting, and the complete source code:
 
 * **Blog post 📖:** [Taming the AI: My Paranoid Guide to Running Copilot CLI in a Secure Docker Sandbox](https://gordonbeeming.com/blog/2025-10-03/taming-the-ai-my-paranoid-guide-to-running-copilot-cli-in-a-secure-docker-sandbox)
-
-* **GitHub Repository:** [https://github.com/GordonBeeming/copilot_here](https://github.com/GordonBeeming/copilot_here)
+* **GitHub Repository:** [https://github.com/GordonBeeming/copilot\_here](https://github.com/GordonBeeming/copilot_here)
 
 ## Conclusion
 
