@@ -45,7 +45,7 @@ It is essential to host the Retrospective after the Sprint Review and the Sprint
 :::
 
 1. **The Team prepares all of the PBIs for review**
-2. **Draft the [Sprint Review + Retrospective email](/rules/sprint-review-retro-email)**
+2. **Draft the [Sprint Review + Retrospective email](/sprint-review-retro-email)**
 3. **Host the Sprint Review meeting with the Team and the Product Owner**
 4. **Record the meeting to capture the discussion and gather insights**
 5. Ask Copilot to analyse the recording (Optional, recommended)
@@ -53,8 +53,8 @@ It is essential to host the Retrospective after the Sprint Review and the Sprint
 7. Include the Copilot insights into the email above (Optional, recommended)
 8. **Host a Sprint Summary meeting with the Team, Product Owner and relevant Stakeholders**
 9. **Send out an email with the results of the Sprint Review to the Stakeholders**
-10. **Draft a [Sprint Planning Email](/rules/sprint-forecast-email/)**
-11. **Host a [Sprint Planning meeting](/rules/what-happens-at-a-sprint-planning-meeting/)**
+10. **Draft a [Sprint Planning Email](/sprint-forecast-email/)**
+11. **Host a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting/)**
 12. **Send out a Sprint Planning email**
 
 ## Main meeting flow
