@@ -1,14 +1,205 @@
 ---
+type: rule
 title: Do you use the result pattern?
 uri: do-you-use-the-result-pattern
 guid: 3a82ba69-87ec-4196-ae29-e155df92e083
 created: 2025-12-22T04:50:14.885Z
 createdBy: Daniel Mackay
 createdByEmail: DanielMackay@ssw.com.au
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+seoDescription: Learn how the Result pattern improves error handling in .NET by avoiding exceptions for control flow. Compare top libraries including ErrorOr, FluentResults, and Ardalis.Result.
+related: []
 ---
 
-Intro
+Using exceptions for control flow in .NET applications leads to poor performance, unclear code intent, and makes it difficult to distinguish between expected failures and truly exceptional circumstances. The Result pattern provides a clean, explicit way to handle errors without the overhead and complexity of exceptions.
 
 <endIntro />
 
-Body
+## The Problem with Exceptions
+
+Traditional error handling relies heavily on exceptions, even for expected failure scenarios like validation errors or "not found" cases. This approach has several drawbacks:
+
+- **Performance overhead** - Throwing and catching exceptions is expensive
+- **Unclear intent** - It's not obvious which exceptions a method might throw
+- **Control flow complexity** - Multiple catch blocks make code hard to follow
+- **Mixing concerns** - Expected failures are treated the same as unexpected errors
+
+::: bad
+Figure: Bad example - Using exceptions for expected failures leads to performance issues and unclear code
+
+```csharp
+public class UserService
+{
+    public User GetUserById(int id)
+    {
+        var user = _repository.FindById(id);
+        
+        if (user == null)
+            throw new NotFoundException($"User {id} not found");
+            
+        if (!user.IsActive)
+            throw new InvalidOperationException("User is not active");
+            
+        return user;
+    }
+}
+
+// Calling code
+try
+{
+    var user = userService.GetUserById(123);
+    // Process user
+}
+catch (NotFoundException ex)
+{
+    // Handle not found
+}
+catch (InvalidOperationException ex)
+{
+    // Handle invalid operation
+}
+catch (Exception ex)
+{
+    // Handle unexpected errors
+}
+```
+:::
+
+## The Result Pattern Solution
+
+The Result pattern represents the outcome of an operation as a return value, explicitly indicating success or failure with relevant error information. This makes error handling first-class, improves performance, and clarifies code intent.
+
+::: good
+Figure: Good example - Using the Result pattern makes error handling explicit and performant
+
+```csharp
+public class UserService
+{
+    public ErrorOr<User> GetUserById(int id)
+    {
+        var user = _repository.FindById(id);
+        
+        if (user == null)
+            return Error.NotFound(description: $"User {id} not found");
+            
+        if (!user.IsActive)
+            return Error.Validation(description: "User is not active");
+            
+        return user;
+    }
+}
+
+// Calling code
+var result = userService.GetUserById(123);
+
+return result.Match(
+    user => Ok(user),
+    errors => Problem(errors)
+);
+```
+:::
+
+**Benefits of the Result pattern:**
+
+- ✅ **Explicit error handling** - Return type clearly indicates the operation can fail
+- ✅ **Better performance** - No exception overhead for expected failures
+- ✅ **Type safety** - Compiler ensures errors are handled
+- ✅ **Clear intent** - Success and failure paths are obvious
+- ✅ **Composability** - Results can be chained and transformed easily
+
+## Comparing .NET Result Pattern Libraries
+
+Several excellent libraries implement the Result pattern in .NET. Here's a comparison of the most popular options:
+
+| Library | GitHub Stars | Key Features | Pros | Cons | Best For |
+|---------|-------------|--------------|------|------|----------|
+| **ErrorOr** | ~1.8k | Discriminated union, fluent API, pattern matching | Simple and intuitive, excellent pattern matching, minimal dependencies, great for Clean Architecture | Smaller ecosystem compared to FluentResults | ✅ **Recommended** - Modern .NET apps, Clean Architecture, DDD |
+| **FluentResults** | ~2.3k | Fluent API, logging support, rich metadata | Mature library, extensive features, good logging integration | More complex API, heavier dependency | Complex enterprise apps needing detailed error tracking |
+| **Ardalis.Result** | ~950+ | Status codes, ASP.NET Core integration, simple API | Great ASP.NET Core integration, clear status mappings, easy to learn | Less flexible error types, ASP.NET Core focused | ASP.NET Core MVC/API projects with straightforward needs |
+
+## Why ErrorOr is Recommended
+
+::: highlight
+**ErrorOr** is the recommended choice for most .NET projects
+:::
+
+ErrorOr, created by Amichai Mantinband, offers the best balance of simplicity, functionality, and modern C# patterns:
+
+- **Simple, fluent API** - Easy to learn and use with minimal boilerplate
+- **Excellent pattern matching** - Works beautifully with C# pattern matching
+- **Discriminated union approach** - Type-safe and compiler-enforced error handling
+- **Lightweight** - Minimal dependencies and overhead
+- **Well-maintained** - Active development and community support
+- **Perfect for Clean Architecture** - Ideal for CQRS, MediatR, and DDD patterns
+
+## Getting Started with ErrorOr
+
+::: greybox
+**Installation**
+
+```bash
+dotnet add package ErrorOr
+```
+
+**Basic Usage**
+
+```csharp
+using ErrorOr;
+
+public class ProductService
+{
+    public ErrorOr<Product> CreateProduct(string name, decimal price)
+    {
+        // Validation
+        if (string.IsNullOrWhiteSpace(name))
+            return Error.Validation(description: "Product name is required");
+            
+        if (price <= 0)
+            return Error.Validation(description: "Price must be greater than zero");
+            
+        // Business logic
+        var product = new Product { Name = name, Price = price };
+        _repository.Add(product);
+        
+        return product;
+    }
+}
+
+// In your controller/endpoint
+[HttpPost]
+public IActionResult CreateProduct(CreateProductRequest request)
+{
+    var result = _productService.CreateProduct(request.Name, request.Price);
+    
+    return result.Match(
+        product => Ok(product),
+        errors => Problem(errors)
+    );
+}
+```
+
+Figure: ErrorOr makes it easy to handle success and failure cases with pattern matching
+:::
+
+## When to Use Result Pattern vs Exceptions
+
+**Use the Result pattern for:**
+- ✅ Expected failures (validation, not found, business rule violations)
+- ✅ Control flow in business logic
+- ✅ Operations that commonly fail
+- ✅ Public API boundaries
+
+**Use exceptions for:**
+- ⚠️ Truly exceptional circumstances (out of memory, network failures)
+- ⚠️ Programming errors (null reference, index out of bounds)
+- ⚠️ Infrastructure failures
+- ⚠️ Unrecoverable errors
+
+---
+
+**Learn more:**
+- [ErrorOr on GitHub](https://github.com/amantinband/error-or)
+- [FluentResults on GitHub](https://github.com/altmann/FluentResults)
+- [Ardalis.Result on GitHub](https://github.com/ardalis/Result)
