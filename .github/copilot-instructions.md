@@ -135,10 +135,10 @@ The SSW Rules platform uses MDX `<boxEmbed>` components to create styled boxes f
 ```
 
 **Parameters:**
-- `style`: Box type (greybox, info, highlight, china, codeauditor, todo)
-- `body`: Content wrapped in `{<> ... </>}`
-- `figurePrefix`: Caption prefix (bad, ok, good, none)
-- `figure`: Caption text
+* `style`: Box type (greybox, info, highlight, china, codeauditor, todo)
+* `body`: Content wrapped in `{<> ... </>}`
+* `figurePrefix`: Caption prefix (bad, ok, good, none)
+* `figure`: Caption text
 
 ### Image Components (imageEmbed)
 
@@ -159,9 +159,9 @@ Use MDX `<imageEmbed>` components for all images in rules.
 
 #### Size Options
 
-- `small` - Small images (400px width, full screen on mobile)
-- `medium` - Medium images
-- `large` - Large images (default, full width)
+* `small` - Small images (400px width, full screen on mobile)
+* `medium` - Medium images
+* `large` - Large images (default, full width)
 
 #### Figure Prefix Options
 
@@ -221,12 +221,12 @@ Set `showBorder={false}` for images that don't need borders (e.g., screenshots w
 ```
 
 **Parameters:**
-- `alt`: Descriptive alt text (required for accessibility)
-- `size`: small, medium, or large
-- `showBorder`: true or false
-- `figurePrefix`: bad, ok, good, or none
-- `figure`: Caption text
-- `src`: Image path (relative to public folder)
+* `alt`: Descriptive alt text (required for accessibility)
+* `size`: small, medium, or large
+* `showBorder`: true or false
+* `figurePrefix`: bad, ok, good, or none
+* `figure`: Caption text
+* `src`: Image path (relative to public folder)
 
 ### Code Blocks
 
@@ -311,10 +311,10 @@ _You **can** combine them_.
 ==These words== will be highlighted.
 
 **Best practices:**
-- Use **bold** for emphasis and important terms
-- Use _italic_ for subtle emphasis or when introducing new terms
-- Use ~~strikethrough~~ to show deprecated or removed items
-- Use ==highlight== sparingly for critical information
+* Use **bold** for emphasis and important terms
+* Use _italic_ for subtle emphasis or when introducing new terms
+* Use ~~strikethrough~~ to show deprecated or removed items
+* Use ==highlight== sparingly for critical information
 
 ### Tables
 
@@ -334,9 +334,9 @@ Use Markdown table syntax with alignment options.
 
 #### Alignment
 
-- Left-aligned: `| ----- |` (default)
-- Center-aligned: `| :---: |`
-- Right-aligned: `| ----: |`
+* Left-aligned: `| ----- |` (default)
+* Center-aligned: `| :---: |`
+* Right-aligned: `| ----: |`
 
 #### Example Output
 
@@ -405,19 +405,20 @@ Use the MDX `<emailEmbed>` component to display email templates in rules.
 
 #### Parameters
 
-- `from`: Sender email (optional, leave empty if not needed)
-- `to`: Recipient(s)
-- `cc`: CC recipient(s) (optional)
-- `bcc`: BCC recipient(s) (optional)
-- `subject`: Email subject line
-- `shouldDisplayBody`: true to show body, false to hide
-- `body`: Email content wrapped in `{<> ... </>}`, supports Markdown
-- `figurePrefix`: bad, ok, good, or none
-- `figure`: Caption text
+* `from`: Sender email (optional, leave empty if not needed)
+* `to`: Recipient(s)
+* `cc`: CC recipient(s) (optional)
+* `bcc`: BCC recipient(s) (optional)
+* `subject`: Email subject line
+* `shouldDisplayBody`: true to show body, false to hide
+* `body`: Email content wrapped in `{<> ... </>}`, supports Markdown
+* `figurePrefix`: bad, ok, good, or none
+* `figure`: Caption text
 
 #### Example Use Cases
 
 **Good email example:**
+
 ```md
 <emailEmbed
   from=""
@@ -435,6 +436,7 @@ Use the MDX `<emailEmbed>` component to display email templates in rules.
 ```
 
 **Bad email example:**
+
 ```md
 <emailEmbed
   from=""
@@ -492,28 +494,28 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 #### Field Descriptions
 
 **Required fields:**
-- `type`: Always "rule"
-- `title`: Question format (e.g., "Do you use Cocona for building great command line tools in .NET?")
-- `guid`: Unique UUID identifier
-- `uri`: Short, kebab-case identifier for the URL
-- `created`: Creation timestamp in ISO 8601 format
-- `authors`: Array of author objects with title and url
+* `type`: Always "rule"
+* `title`: Question format (e.g., "Do you use Cocona for building great command line tools in .NET?")
+* `guid`: Unique UUID identifier
+* `uri`: Short, kebab-case identifier for the URL
+* `created`: Creation timestamp in ISO 8601 format
+* `authors`: Array of author objects with title and url
 
 **Optional fields:**
-- `archivedreason`: Reason for archiving (null or empty if not archived)
-- `seoDescription`: SEO meta description
-- `related`: Array of related rule URIs (not full paths)
-- `categories`: Array of category objects with full file paths (e.g., "categories/folder/file.mdx")
-- `sidebarVideo`: YouTube Shorts URL for sidebar video
+* `archivedreason`: Reason for archiving (null or empty if not archived)
+* `seoDescription`: SEO meta description
+* `related`: Array of related rule URIs (not full paths)
+* `categories`: Array of category objects with full file paths (e.g., "categories/folder/file.mdx")
+* `sidebarVideo`: YouTube Shorts URL for sidebar video
 
 **System-managed fields** (auto-updated by the system):
-- `createdBy`, `createdByEmail`: Original creator information
-- `isArchived`: Boolean archive status
-- `lastUpdated`, `lastUpdatedBy`, `lastUpdatedByEmail`: Last update metadata
+* `createdBy`, `createdByEmail`: Original creator information
+* `isArchived`: Boolean archive status
+* `lastUpdated`, `lastUpdatedBy`, `lastUpdatedByEmail`: Last update metadata
 
-**Note:** 
-- `related` uses rule URIs only (e.g., "rule-name")
-- `categories` uses full file paths (e.g., "categories/communication/rules-to-better-technical-documentation.mdx")
+**Note:**
+* `related` uses rule URIs only (e.g., "rule-name")
+* `categories` uses full file paths (e.g., "categories/communication/rules-to-better-technical-documentation.mdx")
 
 ## Best Practices for SSW Rules
 
@@ -530,6 +532,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 Always include descriptive captions on images and boxes using the `figure` parameter:
 
 **For images:**
+
 ```md
 <imageEmbed
   alt="Screenshot"
@@ -542,6 +545,7 @@ Always include descriptive captions on images and boxes using the `figure` param
 ```
 
 **For boxes:**
+
 ```md
 <boxEmbed
   style="greybox"
@@ -554,10 +558,10 @@ Always include descriptive captions on images and boxes using the `figure` param
 ```
 
 **Caption prefix options:**
-- `figurePrefix="bad"` - Adds ❌ for bad examples
-- `figurePrefix="ok"` - Adds 😐 for acceptable but not ideal examples  
-- `figurePrefix="good"` - Adds ✅ for recommended examples
-- `figurePrefix="none"` - Regular caption without prefix
+* `figurePrefix="bad"` - Adds ❌ for bad examples
+* `figurePrefix="ok"` - Adds 😐 for acceptable but not ideal examples  
+* `figurePrefix="good"` - Adds ✅ for recommended examples
+* `figurePrefix="none"` - Regular caption without prefix
 
 ### Links and References
 
