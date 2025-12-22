@@ -16,7 +16,7 @@ seoDescription: >-
 created: 2025-12-22T04:50:14.885Z
 createdBy: Daniel Mackay
 createdByEmail: DanielMackay@ssw.com.au
-lastUpdated: 2025-12-22T05:38:00.951Z
+lastUpdated: 2025-12-22T05:49:19.492Z
 lastUpdatedBy: Daniel Mackay
 lastUpdatedByEmail: DanielMackay@ssw.com.au
 ---
@@ -117,11 +117,11 @@ return result.Match(
 
 Several excellent libraries implement the Result pattern in .NET. Here's a comparison of the most popular options:
 
-| Library            | GitHub Stars | Key Features                                       | Pros                                                                                                 | Cons                                            | Best For                                                      |
-| ------------------ | ------------ | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------- |
-| **ErrorOr**        | \~1.8k       | Discriminated union, fluent API, pattern matching  | Simple and intuitive, excellent pattern matching, minimal dependencies, great for Clean Architecture | Smaller ecosystem compared to FluentResults     | ✅ **Recommended** - Modern .NET apps, Clean Architecture, DDD |
-| **FluentResults**  | \~2.3k       | Fluent API, logging support, rich metadata         | Mature library, extensive features, good logging integration                                         | More complex API, heavier dependency            | Complex enterprise apps needing detailed error tracking       |
-| **Ardalis.Result** | \~950+       | Status codes, ASP.NET Core integration, simple API | Great ASP.NET Core integration, clear status mappings, easy to learn                                 | Less flexible error types, ASP.NET Core focused | ASP.NET Core MVC/API projects with straightforward needs      |
+| Library            | GitHub Stars | Key Features                                       | Pros                                                                                                                                                                   | Cons                                                                                                     | Best For                                                            |
+| ------------------ | ------------ | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **ErrorOr**        | \~1.8k       | Discriminated union, fluent API, pattern matching  | Simple and intuitive, excellent pattern matching, minimal dependencies, great for Clean Architecture & VSA. Multiple built-in results such as NotFound, Conflict, etc. | Smaller ecosystem compared to FluentResults                                                              | ✅ **Recommended** - Modern .NET apps, Clean Architecture & VSA, DDD |
+| **FluentResults**  | \~2.3k       | Fluent API, logging support, rich metadata         | Mature library, extensive features, good logging integration                                                                                                           | More complex API, heavier dependency. Need to roll your own result types such as NotFound, Conflict, etc | Complex enterprise apps needing detailed error tracking             |
+| **Ardalis.Result** | \~950+       | Status codes, ASP.NET Core integration, simple API | Great ASP.NET Core integration, clear status mappings, easy to learn                                                                                                   | Less flexible error types, ASP.NET Core focused                                                          | ASP.NET Core MVC/API projects with straightforward needs            |
 
 ## Why ErrorOr is Recommended
 
@@ -135,7 +135,8 @@ ErrorOr, created by Amichai Mantinband, offers the best balance of simplicity, f
 * **Discriminated union approach** - Type-safe and compiler-enforced error handling
 * **Lightweight** - Minimal dependencies and overhead
 * **Well-maintained** - Active development and community support
-* **Perfect for Clean Architecture** - Ideal for CQRS, MediatR, and DDD patterns
+* **Perfect for Clean Architecture & VSA **- Ideal for CQRS, MediatR, and DDD patterns
+* **Built in result variations **- These help the domain communicate richer errors with calling layers (e.g. NotFound, Conflict, etc)
 
 ## Getting Started with ErrorOr
 
