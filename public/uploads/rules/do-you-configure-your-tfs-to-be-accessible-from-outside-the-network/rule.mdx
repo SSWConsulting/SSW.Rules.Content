@@ -31,15 +31,24 @@ uri: do-you-configure-your-tfs-to-be-accessible-from-outside-the-network
 ---
 
 - TFS SP1
-  This feature called "Extranet Support" was added way back in TFS 2005 SP1 as per [Stuff in the pipe for Team Foundation Server](http://www.ssw.com.au/ssw/Redirect/StandardsRules/MSDNBlog.htm)
-- A domain name or IP address forwarded to TFS (eg: tfs.your-domain.com)
+  This feature called "Extranet Support" was added way back in TFS 2005 SP1 as per [Stuff in the pipe for Team Foundation Server](https://devblogs.microsoft.com/bharry/stuff-in-the-pipe-for-team-foundation-server/)
+- A domain name or IP address forwarded to TFS (eg: `tfs.your-domain.com`)
 - Port 8080 (this is port that TFS uses for source control)
 - Firewall/Router rule (ideally)
 
 <endIntro />
 
-Tip: You can solve this with TFS Extranet Support:
+**Tip:** You can solve this with TFS Extranet Support:
 
 Yes Port 8080 will work in most cases but not on the strictest networks, where only Port 80 is allowed.
+
 Then you have to use port forwarding via a firewall/router rule (recommended) to forward port 80 to the TFS port, while in this way, you would lose the TFS SharePoint Portal and Reporting Services.
-![Rule to forward port 80 to the TFS port](/uploads/rules/do-you-configure-your-tfs-to-be-accessible-from-outside-the-network/tfs-firewall-rule-80.gif) Figure: Rule to forward port 80 to the TFS port
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Figure: Rule to forward port 80 to the TFS port"
+  src="/uploads/rules/do-you-configure-your-tfs-to-be-accessible-from-outside-the-network/tfs-firewall-rule-80.gif"
+/>
