@@ -1,29 +1,30 @@
 ---
-authors:
-- title: Louis Roa
-  url: https://www.ssw.com.au/people/louis-roa/
-- title: Luke Cook
-  url: https://www.ssw.com.au/people/luke-cook/
-created: 2025-09-04 04:35:12+00:00
-createdBy: Louis Roa
-createdByEmail: 149936952+louisroa8189@users.noreply.github.com
-guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
-isArchived: false
-lastUpdated: 2025-12-08 23:25:13+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-related:
-- rule: public/uploads/rules/the-best-ai-image-generators/rule.mdx
-- rule: public/uploads/rules/when-to-use-ai-generated-images/rule.mdx
-seoDescription: Learn when and how to use AI to edit images—what it’s good for, common
-  pitfalls, ethical labeling, and battle-tested prompt patterns that preserve identity
-  and make precise, localized changes
 tips: ''
+type: rule
 title: Do you use AI to edit images?
+uri: use-ai-to-edit-images
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-generated-media.mdx
-type: rule
-uri: use-ai-to-edit-images
+authors:
+  - title: Louis Roa
+    url: 'https://www.ssw.com.au/people/louis-roa/'
+  - title: Luke Cook
+    url: 'https://www.ssw.com.au/people/luke-cook/'
+related:
+  - rule: public/uploads/rules/the-best-ai-image-generators/rule.mdx
+  - rule: public/uploads/rules/when-to-use-ai-generated-images/rule.mdx
+guid: 7cfc7a26-778f-4159-a8fc-de0ea4c73d60
+seoDescription: >-
+  Learn when and how to use AI to edit images—what it’s good for, common
+  pitfalls, ethical labeling, and battle-tested prompt patterns that preserve
+  identity and make precise, localized changes
+created: 2025-09-04T04:35:12.000Z
+createdBy: Louis Roa
+createdByEmail: 149936952+louisroa8189@users.noreply.github.com
+lastUpdated: 2025-12-08T23:25:13.000Z
+lastUpdatedBy: 'Tiago Araújo [SSW]'
+lastUpdatedByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 You've probably seen AI churn out gorgeous images from a sentence... then watched it **ruin** a photo when you asked for a tiny tweak.
@@ -32,9 +33,7 @@ Teams waste time regenerating whole scenes, your subject look-alike drifts betwe
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=8_GgeASwHwQ" description={"Video: Google’s nano banana just killed Photoshop... let’s run it (3 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=8_GgeASwHwQ" description="Video: Google’s nano banana just killed Photoshop... let’s run it (3 min)" />
 
 ## When should you use AI to edit images?
 
@@ -58,29 +57,13 @@ Avoid or get explicit approval for:
 
 **Text-to-image models** like DALL·E 2, Imagen, and Midjourney popularized "prompt to picture" and introduced basic inpainting/outpainting. Great for creation, but edits often **regenerated the whole image**, causing drift and detail loss.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Bad example - Text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers..."
-  src="/uploads/rules/use-ai-to-edit-images/comewith-me-messed-up.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Bad example - Text to image models often struggle with accuracy, producing distorted anatomy and other artifacts when asked to edit an image, e.g. the terminator only has 3 fingers..." src="/uploads/rules/use-ai-to-edit-images/comewith-me-messed-up.png" />
 
 ### Today's shift - Enter Nano Banana 🍌
 
 Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image-preview) (aka Nano Banana) and [Flux.1 Kontext](https://bfl.ai/models/flux-kontext) take an image + instruction and applies localized edits. They preserve subjects and scene layout, follow prompts tightly, and support iterative workflows (step-by-step revisions without degradation). Like "Photoshop with natural-language brushes."
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Good example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes"
-  src="/uploads/rules/use-ai-to-edit-images/penny-nano-banana.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - You can take an existing image and ask Nano Banana to create new images using it as a reference, then refine them conversationally by asking for changes" src="/uploads/rules/use-ai-to-edit-images/penny-nano-banana.png" />
 
 ### What makes editing-first models different?
 
@@ -89,27 +72,9 @@ Editing-first models like [Google's gemini-2.5-flash-image-preview](https://aist
 3. **Strong prompt adherence** - They follow instructions literally (“make the shirt red” means *only* the shirt becomes red) and are less likely to hallucinate unrelated changes
 4. **Iterative & interactive** - You can chain edits (clean background → add shadow → tweak contrast) while keeping quality stable—mirroring designer workflows
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - You can even ask it to change the perspective of an image" src="/uploads/rules/use-ai-to-edit-images/gzsnzhtwoaapceg.jpg" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="✅ Good example - You can even ask it to change the perspective of an image"
-  src="/uploads/rules/use-ai-to-edit-images/gzsnzhtwoaapceg.jpg"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="✅ Good example - You can isolate a character from an image as seen in this example from Google"
-  src="/uploads/rules/use-ai-to-edit-images/gzwtouzbyaamxak.jpg"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - You can isolate a character from an image as seen in this example from Google" src="/uploads/rules/use-ai-to-edit-images/gzwtouzbyaamxak.jpg" />
 
 ## Today’s shift - Midjourney v7
 
@@ -121,16 +86,7 @@ V7 offers 2 modes: **Turbo**, which is faster but more expensive, and **Relax**,
 
 There’s also a new Draft Mode that generates images around 10x faster and at roughly half the cost of standard mode. Draft images are lower quality by default, but you can upscale them if you’re happy with the result.
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="✅ Good example - from Midjourney's v7 release on X, the images are incredibly realistic"
-  src="/uploads/rules/use-ai-to-edit-images/midjourney-post.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - Images are incredibly realistic with Midjourney's v7 on X, " src="/uploads/rules/use-ai-to-edit-images/midjourney-post.png" />
 
 ## OpenAI Images (DALL·E 3 / GPT‑4o Images)
 
@@ -142,7 +98,6 @@ It’s tightly integrated into ChatGPT, so it remembers your conversation and fo
 
 It does have its limitations; for example, if you were trying to create a poster for a horror-themed movie, you would likely be rejected by the automated safety system. To create the image below, many iterations were necessary to make it 'safe to render'.
 
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -152,15 +107,7 @@ It does have its limitations; for example, if you were trying to create a poster
   figure=""
 />
 
-<imageEmbed
-  alt="Image"
-  size="medium"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Good example - An example of OpenAI's image generation"
-  src="/uploads/rules/use-ai-to-edit-images/dark-mermaids.png"
-/>
-
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="good" figure="Good example - An example of OpenAI's image generation" src="/uploads/rules/use-ai-to-edit-images/dark-mermaids.png" />
 
 ## Origin & trust (label your edits)
 
@@ -173,15 +120,7 @@ As AI editing becomes standard, origin is essential. SynthID is an industry appr
 * **Disclose edits** in captions/metadata ("Edited with AI; objects removed; colors adjusted")
 * **Know the limits:** because very tiny edits may be too subtle to flag; keep manual logs regardless
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata"
-  src="/uploads/rules/use-ai-to-edit-images/origin-added-to-metadata.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - Clear disclosure aligned to asset management and brand guidelines that is added to the metadata" src="/uploads/rules/use-ai-to-edit-images/origin-added-to-metadata.png" />
 
 ## Common pitfalls and fixes
 
@@ -209,32 +148,20 @@ New elements don’t share the same light source, shadow direction, or color tem
 
 ✅ **The fix:** Include *"soft shadow matching light direction" and "keep global color balance"*.
 
----
+***
 
 If you would like more information on AI image generators, check out Adam Cogan’s blog post:
 
 * [My Top 3 AI Image Generators – Adam Cogan](https://adamcogan.com/2025/11/17/my-top-3-ai-image-generators/)
 
----
+***
 
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    
 ## AI Shorts - What SSW thinks about the latest Generative AI tools?
 
 The SSW TV team has been exploring how AI is changing design workflows, boosting productivity, and raising the quality bar for everyone creating graphics today.
 
 ### Nano Banana Pro
 
-
-<youtubeEmbed url="https://www.youtube.com/embed/rdnwqBMpiCY" description={"Video: The AI powerhouse lifting the quality bar for all graphics... Nano Banana Pro (2 min)"} />
-
+<youtubeEmbed url="https://youtu.be/rdnwqBMpiCY?si=vXN4uowYfIHfS-ZZ" description="Video: The AI powerhouse lifting the quality bar for all graphics... Nano Banana Pro (2 min)" />
 
 * [Explore more of our AI Shorts on SSWTV](https://www.youtube.com/@SSWTV/shorts)
-
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
