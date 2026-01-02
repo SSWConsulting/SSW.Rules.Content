@@ -1,16 +1,22 @@
 ---
-seoDescription: Streamline access management and ensure robust security with Entra Access Packages.
 type: rule
 title: Do you use Entra Access Packages to give access to resources?
+uri: do-you-use-access-packages
 categories:
   - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
   - category: categories/software-engineering/rules-to-better-azure.mdx
-uri: do-you-use-access-packages
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
-created: 2023-08-23T06:08:34.119Z
+    url: 'https://ssw.com.au/people/warwick-leahy'
+  - title: Rob Thomlinson
+    url: 'https://ssw.com.au/people/rob-thomlinson'
 guid: 86623c40-7433-4723-82a0-9517b28e9079
+seoDescription: >-
+  Streamline access management and ensure robust security with Entra Access
+  Packages.
+created: 2023-08-23T06:08:34.119Z
+createdBy: Rob Thomlinson
+createdByEmail: RobThomlinson@ssw.com.au
 ---
 
 In today's complex digital landscape, managing user access to resources can be a daunting task for organizations. Entra Access Packages emerge as a game-changer in this scenario, offering a streamlined and efficient approach to identity and access management.
@@ -32,12 +38,12 @@ In the old-fashioned way, users would send an email to the SysAdmins requesting 
   shouldDisplayBody={true}
   body={<>
     ## Dear SysAdmins
-
-I would like to request access to SugarLearning Prod as Contributor. Please grant me the necessary permissions.
-
-Thanks
-
-Warwick
+    
+    I would like to request access to SugarLearning Prod as Contributor. Please grant me the necessary permissions.
+    
+    Thanks
+    
+    Warwick
   </>}
   figurePrefix="bad"
   figure="Bad example - This requires manual changes by a SysAdmin"
@@ -49,35 +55,16 @@ Instead of manually sending emails, users can request access through `myaccess.m
 
 1. **Navigate** to `myaccess.microsoft.com`
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Navigate to myaccess.microsoft.com"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-214846.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Navigate to myaccess.microsoft.com" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-214846.png" />
 
+1. **Search** for the desired resource or access package.
 
-2. **Search** for the desired resource or access package.
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Search for the required resource" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215159.png" />
 
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Search for the required resource"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215159.png"
-/>
-
-
-3. **Request Access** by selecting the appropriate access package and filling out any necessary details.
+1. **Request Access** by selecting the appropriate access package and filling out any necessary details.
 
    ![Request Access](/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-215532.png)
-
-4. Wait for **approval** from the people responsible for the resource
-
+2. Wait for **approval** from the people responsible for the resource
 
 <boxEmbed
   style="greybox"
@@ -88,83 +75,29 @@ Instead of manually sending emails, users can request access through `myaccess.m
   figure=""
 />
 
-
----
+***
 
 ## Steps to Create an Access Package
 
 1. **Open Azure Portal**: Navigate to Entra ID | Identity Governance | Access packages.
 
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Navigate to Azure portal | Access packages | New Access package"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-220334.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Navigate to Azure portal | Access packages | New Access package" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-220334.png" />
 
+1. **New Access Package**: Click on `+ New access package`.
+2. **Fill Details**: Provide a name, description, and select the catalog for the access package.
 
-2. **New Access Package**: Click on `+ New access package`.
-3. **Fill Details**: Provide a name, description, and select the catalog for the access package.
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Fill out the details and choose a catalog" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-221623.png" />
 
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Fill out the details and choose a catalog"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-221623.png"
-/>
+1. **Define Resources**: Add the resources (applications, groups, SharePoint sites) that users will get access to when they request this package.
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Add the required resources" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222048.png" />
 
-4. **Define Resources**: Add the resources (applications, groups, SharePoint sites) that users will get access to when they request this package.
+1. **Set Policies**: Define who can request the package, approval workflows, duration of access, and other settings.
 
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Add the required resources"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222048.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Choose the types of users that can request access" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222124.png" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Choose policies that match the level of access" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222210.png" />
 
-5. **Set Policies**: Define who can request the package, approval workflows, duration of access, and other settings.
+1. **Review and Create**: Ensure all details are correct and then create the access package.
 
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Choose the types of users that can request access"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222124.png"
-/>
-
-
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Choose policies that match the level of access"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222210.png"
-/>
-
-
-6. **Review and Create**: Ensure all details are correct and then create the access package.
-
-   
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Review the settings and create the policy"
-  src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222746.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Review the settings and create the policy" src="/uploads/rules/do-you-use-access-packages/screenshot-2023-08-23-222746.png" />
