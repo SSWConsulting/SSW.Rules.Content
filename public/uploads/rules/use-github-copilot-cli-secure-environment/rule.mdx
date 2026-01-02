@@ -5,7 +5,7 @@ title: Do you use GitHub Copilot CLI in a secure dockerised environment?
 uri: use-github-copilot-cli-secure-environment
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-sidebarVideo: 'https://www.youtube.com/watch?v=GWEDeCufLLE'
+sidebarVideo: 'https://www.youtube.com/watch?v=fzNGxToprew'
 authors:
   - title: Gordon Beeming
     url: 'https://ssw.com.au/people/gordon-beeming'
@@ -111,33 +111,13 @@ The complete solution is available at [https://github.com/GordonBeeming/copilot\
 **For Linux/macOS (Bash/Zsh):**
 
 ```bash
-# Download the script
-curl -fsSL https://raw.githubusercontent.com/GordonBeeming/copilot_here/main/copilot_here.sh -o ~/.copilot_here.sh
-
-# Add to your shell profile (~/.zshrc or ~/.bashrc) - only if not already there
-if ! grep -q "source ~/.copilot_here.sh" ~/.zshrc 2>/dev/null; then
-  echo '' >> ~/.zshrc
-  echo 'source ~/.copilot_here.sh' >> ~/.zshrc
-fi
-
-# Reload your shell
-source ~/.zshrc  # or source ~/.bashrc
+curl -fsSL https://github.com/GordonBeeming/copilot_here/releases/download/cli-latest/install.sh | $SHELL
 ```
 
 **For Windows (PowerShell):**
 
 ```powershell
-# Download the script
-$scriptPath = "$env:USERPROFILE\Documents\PowerShell\copilot_here.ps1"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/GordonBeeming/copilot_here/main/copilot_here.ps1" -OutFile $scriptPath
-
-# Add to your PowerShell profile - only if not already there
-if (-not (Select-String -Path $PROFILE -Pattern "copilot_here.ps1" -Quiet -ErrorAction SilentlyContinue)) {
-    Add-Content $PROFILE "`n. $scriptPath"
-}
-
-# Reload your profile
-. $PROFILE
+iex ([System.Text.Encoding]::UTF8.GetString((iwr -UseBasicParsing 'https://github.com/GordonBeeming/copilot_here/releases/download/cli-latest/install.ps1').Content))
 ```
 
 ### Keeping Up-to-Date
