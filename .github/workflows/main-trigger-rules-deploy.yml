@@ -1,9 +1,9 @@
 name: Trigger-Rules-Build
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   trigger-event:
