@@ -4,6 +4,7 @@ uri: done-tasks-figma
 categories:
   - category: categories/design/rules-to-better-figma.mdx
   - category: categories/design/rules-to-better-designers.mdx
+  - {}
 authors:
   - title: Micaela Blank
     url: 'https://ssw.com.au/people/micaela-blank'
@@ -22,7 +23,7 @@ seoDescription: >-
 created: 2026-01-02T00:30:51.039Z
 createdBy: 'Micaela Blank [SSW]'
 createdByEmail: micaelablank@gmail.com
-lastUpdated: 2026-01-06T00:07:00.972Z
+lastUpdated: 2026-01-06T00:13:34.080Z
 lastUpdatedBy: 'Micaela Blank [SSW]'
 lastUpdatedByEmail: micaelablank@gmail.com
 ---
@@ -43,40 +44,26 @@ This doesn’t just mean “pixel perfect match”. It means the intent of the d
 
 ## Why this matters
 
-Designs evolve during development. Sometimes:
+Designs often change during development due to client feedback, technical constraints, global styles, or accessibility and performance needs. If these changes are not reflected in Figma, designs can appear out of date and cause unnecessary rework.
 
-\- A client requests a change during a call
+Using “✅ Done” (with optional context) confirms the design has been implemented, even if adjusted. This keeps Figma trustworthy and makes it clear what is live.ffer.
 
-\- A component needs to be adjusted for technical reasons
+## Avoid duplicate work
 
-\- A global styling rule affects layout
+Without a clear status:
 
-\- A11y or performance concerns cause deviation
+* Designers rework already implemented designs
+* PMs and QAs flag intentional differences as bugs
+* Developers are asked to fix things that were changed on purpose
 
-If these changes happen and aren’t recorded in Figma, the design appears out of sync, and the designer might redo work unnecessarily.
+Marking “✅ Done” shows:
 
-By confirming the status in Figma with "✅ Done"  and optionally noting the rationale, the file stays trustworthy. Everyone knows what’s live and why it may differ.
+* The design is implemented
+* Changes are intentional and known
+* No rework is needed unless requirements change
 
-## Don't create duplicate work – keep the status visible
+## Summary
 
-Without this habit:
+Use “✅ Done” in Figma to confirm implementation, even if there are small changes.
 
-\- Designers re-spec changes that have already been implemented
-
-\- PMs or QAs question mismatches and raise bugs
-
-\- Devs get frustrated being asked to "fix" things they intentionally changed
-
-By showing "✅ Done" in the comment thread, you signal:
-
-\- “This design was implemented”
-
-\- “We know about the change”
-
-\- “No need to re-implement unless there's a new reason”
-
-Summary
-
-Use "✅ Done" in Figma to show a design has been implemented, even if it changed slightly during development.
-
-This avoids confusion, stops designers from asking for unnecessary rework, and keeps the design file accurate and trustworthy.
+This prevents confusion, avoids duplicate work, and keeps designs accurate.
