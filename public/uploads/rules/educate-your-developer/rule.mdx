@@ -1,43 +1,39 @@
 ---
-authors:
-- title: Ash Anil
-  url: https://www.ssw.com.au/people/ash-anil-anil/
-created: 2024-03-05 04:17:56.338000+00:00
-guid: d0b5fc44-9396-4a93-9ab2-4c1111e6959c
-related:
-- rule: public/uploads/rules/warn-then-call/rule.mdx
-seoDescription: Educate developers on permission granting processes and best practices
-  to ensure secure and efficient resource access.
-title: Do you know how to educate your developers?
-categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
 type: rule
+title: Do you know how to educate your developers?
 uri: educate-your-developer
+categories:
+  - category: >-
+      categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
+authors:
+  - title: Ash Anil
+    url: 'https://www.ssw.com.au/people/ash-anil-anil/'
+related:
+  - rule: public/uploads/rules/warn-then-call/rule.mdx
+guid: d0b5fc44-9396-4a93-9ab2-4c1111e6959c
+seoDescription: >-
+  Educate developers on permission granting processes and best practices to
+  ensure secure and efficient resource access.
+created: 2024-03-05T04:17:56.338Z
+createdBy: Kiki Biancatti
+createdByEmail: kaiqueBiancatti@ssw.com.au
 ---
 
 To ensure that developers have a clear understanding of how permissions are granted, it's important to educate them on the process.
 
 <endIntro />
 
-User sends an email with a task to grant access to a resource and SysAdmins grant it. A developer wouldn't know how a SysAdmin granted the permission.
+A user might request access (or another change) and see the outcome, but they often won’t know where the change was made, what was updated, or why it was done that way - because many SysAdmin tools (e.g. Azure/Entra, AWS, SharePoint admin, GitHub org settings, TinaCMS) aren’t used every day by the rest of the company.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Bad Example - Issac wouldn't how he was added to GitHub"
-  src="/uploads/rules/educate-your-developer/2024-03-05_16-34-15.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Bad Example - Isaac wouldn't know how he was added to GitHub" src="/uploads/rules/educate-your-developer/2024-03-05_16-34-15.jpg" />
 
-
-As a SysAdmin, call a developer on Teams and share the screen to show how you would grant permission to a resource. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
+As a SysAdmin, call the developer on Teams (warn them first) and share your screen to show where you’re making the change, what it affects, and how it’s audited. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
 
 ## Steps to effectively educate your developers
 
-- Start by explaining the importance of granting permissions correctly and securely.
-- Show developers how to navigate to the appropriate access control section in the relevant platform (e.g., Azure, AWS, SharePoint).
-- Demonstrate how to select the specific resource or application for which permissions need to be granted.
-- Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
-- Provide examples of common scenarios where specific permissions are required and explain how to grant them.
-- Encourage developers to ask questions and seek clarification during the process.
+* Start by explaining the importance of granting permissions correctly and securely.
+* Show developers how to navigate to the appropriate access control section in the relevant platform (e.g., Azure, AWS, SharePoint).
+* Demonstrate how to select the specific resource or application for which permissions need to be granted.
+* Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
+* Provide examples of common scenarios where specific permissions are required and explain how to grant them.
+* Encourage developers to ask questions and seek clarification during the process.
