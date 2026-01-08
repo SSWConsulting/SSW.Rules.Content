@@ -41,23 +41,23 @@ You should list the remaining tasks and ask them to reply if they have completed
 
 <emailEmbed
   from=""
-  to="{{ COWORKER IN OTHER TIMEZONE }}"
+  to="&#123;&#123; COWORKER IN OTHER TIMEZONE &#125;&#125;"
   cc=""
   bcc=""
-  subject="{{ SUBJECT }}"
+  subject="&#123;&#123; SUBJECT &#125;&#125;"
   shouldDisplayBody={true}
   body={<>
-    ## Hi {{ COWORKER IN OTHER TIMEZONE }}
+    ## Hi &#123;&#123; COWORKER IN OTHER TIMEZONE &#125;&#125;
     
     Handing the baton back to you. Here is the progress I made today.
     
-    {{ KEY CHANGES (any decisions that were made or big changes that impact the rest of the work) }}
+    &#123;&#123; KEY CHANGES (any decisions that were made or big changes that impact the rest of the work) &#125;&#125;
     
-    {{ REMAINING TASKS }}
+    &#123;&#123; REMAINING TASKS &#125;&#125;
     
-    {{ REPLY DONE (or not done) TO PREVIOUS EMAIL'S TASKS }}
+    &#123;&#123; REPLY DONE (or not done) TO PREVIOUS EMAIL'S TASKS &#125;&#125;
     
-    \<This email was sent as per the rule: [https://ssw.com.au/rules/collaborate-across-timezones](/collaborate-across-timezones)>
+    &lt;This email was sent as per the rule: [https://ssw.com.au/rules/collaborate-across-timezones](/collaborate-across-timezones)&gt;
   </>}
   figurePrefix="good"
   figure="Good example – A nice handover email to your coworker in another timezone, repeat this process until the task is complete"
