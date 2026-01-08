@@ -7,13 +7,35 @@ guid: 97497343-e7fe-4510-a3bc-1f03c9773384
 created: 2026-01-08T13:31:28.244Z
 createdBy: Hugo Pernet
 createdByEmail: hugopernet@ssw.fr
-lastUpdated: 2026-01-08T13:33:32.909Z
+lastUpdated: 2026-01-08T13:36:55.017Z
 lastUpdatedBy: Hugo Pernet
 lastUpdatedByEmail: hugopernet@ssw.fr
 ---
 
-Intro
+This is a cool Intro
 
 <endIntro />
 
-Body
+Boooody
+
+<boxEmbed
+  body={<>
+    This is a graybox
+  </>}
+  figurePrefix="bad"
+  figure="Bad Example - sadge"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    Good info box
+  </>}
+  figurePrefix="good"
+  figure="Good example - allgud"
+  style="info"
+/>
+
+And now a super image
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="ok" figure="Jack Shaver" src="/uploads/rules/ctf-test-hugo/jackshaver.png" />
