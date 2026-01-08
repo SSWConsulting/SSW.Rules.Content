@@ -1,28 +1,33 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
-created: 2009-02-26 02:03:30+00:00
-guid: 3af8b6aa-2559-45aa-a7ab-6a30bebd0866
-redirects:
-- why-do-we-use-vm-for-sharepoint-development
-- do-you-use-the-right-sharepoint-development-environment
-related:
-- rule: public/uploads/rules/sharepoint-search/rule.mdx
-- rule: public/uploads/rules/sharepoint-development/rule.mdx
-seoDescription: Set up a suitable SharePoint development environment using virtual
-  machines or Visual Studio Code for efficient and flexible testing.
-title: Do you use the right SharePoint development environment?
-categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-sharepoint-virtualisation.mdx
-  - category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
 type: rule
+title: Do you use the right SharePoint development environment?
 uri: sharepoint-development-environment
+categories:
+  - category: >-
+      categories/infrastructure-and-networking/rules-to-better-sharepoint-virtualisation.mdx
+  - category: >-
+      categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+authors:
+  - title: Jean Thirion
+    url: 'https://ssw.com.au/people/jean-thirion'
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+  - title: John Liu
+    url: 'https://ssw.com.au/people/john-liu'
+related:
+  - rule: public/uploads/rules/sharepoint-search/rule.mdx
+  - rule: public/uploads/rules/sharepoint-development/rule.mdx
+redirects:
+  - why-do-we-use-vm-for-sharepoint-development
+  - do-you-use-the-right-sharepoint-development-environment
+guid: 3af8b6aa-2559-45aa-a7ab-6a30bebd0866
+seoDescription: >-
+  Set up a suitable SharePoint development environment using virtual machines or
+  Visual Studio Code for efficient and flexible testing.
+created: 2009-02-26T02:03:30.000Z
+createdBy: Jean Thirion
+createdByEmail: jeanthirion@ssw.com.au
+archivedreason: null
 ---
 
 Development for SharePoint is very different depending upon whether you are online or using On-Premises SharePoint.
@@ -32,6 +37,8 @@ Development for SharePoint is very different depending upon whether you are onli
 ## For SharePoint Online
 
 All you need is VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518).
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=-YAAziu0FKY" />
 
 💡 Best practice is to isolate your code as much as possible during development/staging. Unfortunately it's not easy to come up with a full-blown dedicated Test Tenant.\
 As a minimum, make sure you test all your custom code in a dedicated Site Collection to avoid as much side effects as possible.
