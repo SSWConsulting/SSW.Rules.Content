@@ -1,49 +1,42 @@
 ---
-archivedreason: null
+type: rule
+title: Security - Do you have a strict password security policy?
+uri: have-a-strict-password-security-policy
+categories:
+  - category: >-
+      categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
-- img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
-  title: Kiki Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2017-07-10 20:55:19+00:00
+  - title: Stanley Sidik
+    url: 'https://ssw.com.au/people/stanley-sidik'
+  - title: Kiki Biancatti
+    url: 'https://ssw.com.au/people/kaique-biancatti'
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+related:
+  - rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
+redirects:
+  - do-you-have-a-strict-password-security-policy
+guid: 4bc01f63-9631-4dec-ab28-aa17d89387d3
+seoDescription: >-
+  Enforce strong password security policies based on NIST and ACSC
+  recommendations to protect your digital identity.
+created: 2017-07-10T20:55:19.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-guid: 4bc01f63-9631-4dec-ab28-aa17d89387d3
-isArchived: false
-lastUpdated: 2019-10-01 07:53:59+00:00
+lastUpdated: 2019-10-01T07:53:59.000Z
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
-redirects:
-- do-you-have-a-strict-password-security-policy
-related:
-- rule: public/uploads/rules/multi-factor-authentication-enabled/rule.mdx
-seoDescription: Enforce strong password security policies based on NIST and ACSC recommendations
-  to protect your digital identity.
-title: Security - Do you have a strict password security policy?
-categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-system-administrators.mdx
-type: rule
-uri: have-a-strict-password-security-policy
+isArchived: false
+archivedreason: null
 ---
 
 The standard is to enforce policies based on reputable regulatory organizations (e.g. NIST, ACSC) latest recommendations.
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Good example - Active Directory settings based on latest security recommendations"
-  src="/uploads/rules/have-a-strict-password-security-policy/adnewpasspolicy.jpg"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Good example - Active Directory settings based on latest security recommendations" src="/uploads/rules/have-a-strict-password-security-policy/adnewpasspolicy.jpg" />
 
-
-When passwords have to be changed they should meet the following complexity requirements:
+When passwords have to be changed, they should meet the following complexity requirements:
 
 1. **Ignore password complexity (numbers, special characters, spaces) but require longer passwords** - E.g. Require 16 characters length minimum, without special characters or numbers
 2. **Longer passphrases are better than passwords** - They are even [more difficult to crack than complex passwords](https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity)
@@ -53,7 +46,6 @@ When passwords have to be changed they should meet the following complexity requ
 6. **Use a password manager**
 7. **Use different passwords for every service**
 8. **Enforce a lockout policy** - E.g. If a user gets their password wrong 5 times, their account will be locked out for 15 minutes
-
 
 <boxEmbed
   style="info"
