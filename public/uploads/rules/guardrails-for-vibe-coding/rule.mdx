@@ -17,7 +17,7 @@ seoDescription: >-
 created: 2026-01-09T02:12:09.009Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-01-09T06:26:34.002Z
+lastUpdated: 2026-01-09T06:28:21.801Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -107,13 +107,12 @@ AI-generated code must go through the same (or higher) scrutiny as any other cha
 
 ### Guardrail #4: Don’t create security or compliance debt
 
-\### Keep sensitive data out of prompts
+Keep sensitive data out of prompts
 
-\- Never paste secrets, credentials, private keys, or customer PII
+* Never paste secrets, credentials, private keys, or customer PII
+* If you need context, sanitize or anonymize
 
-\- If you need context, \*\*sanitize\*\* or \*\*anonymize\*\*
-
-\### Run security checks in CI
+Run security checks in CI
 
 Use your normal safety net (linters, static analysis, secret scanning). Treat AI output as “untrusted input” until checked.
 
