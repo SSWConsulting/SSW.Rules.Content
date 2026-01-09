@@ -17,7 +17,7 @@ seoDescription: >-
 created: 2026-01-09T02:12:09.009Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-01-09T06:19:49.451Z
+lastUpdated: 2026-01-09T06:22:32.937Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -57,17 +57,22 @@ Treat your prompt like instructions to a junior dev. Include:
   style="greybox"
 />
 
-\::: greybox
-
-“Build me an endpoint to update a user profile.”
-
-\:::
-
-\::: bad
-
-Figure: Bad Example - Vague prompt = unpredictable output (missing constraints, validation rules, and error handling expectations)
-
-\:::
+<boxEmbed
+  body={<>
+    You are a senior developer. Implement \`PUT /users/{id}\`.
+    
+    Requirements:
+    
+    * Validate: \`displayName\` (1-50 chars), \`email\` (valid format), reject unknown fields
+    * Use existing \`UserService.UpdateUserAsync(id, dto)\`
+    * Return: 200 with updated DTO, 400 with validation errors, 404 if not found
+    * No new dependencies
+    * Add unit tests for: happy path, invalid email, missing user, unknown fields
+  </>}
+  figurePrefix="good"
+  figure="Figure: Good Example - A micro-spec guides the AI toward code that fits your system and is easier to verify"
+  style="greybox"
+/>
 
 \::: greybox
 
