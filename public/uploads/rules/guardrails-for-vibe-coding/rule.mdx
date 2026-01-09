@@ -17,7 +17,7 @@ seoDescription: >-
 created: 2026-01-09T02:12:09.009Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-01-09T06:22:32.937Z
+lastUpdated: 2026-01-09T06:26:34.002Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -74,31 +74,7 @@ Treat your prompt like instructions to a junior dev. Include:
   style="greybox"
 />
 
-\::: greybox
-
-You are a senior developer. Implement \`PUT /users/{id}\`.
-
-Requirements:
-
-\- Validate: \`displayName\` (1-50 chars), \`email\` (valid format), reject unknown fields
-
-\- Use existing \`UserService.UpdateUserAsync(id, dto)\`
-
-\- Return: 200 with updated DTO, 400 with validation errors, 404 if not found
-
-\- No new dependencies
-
-\- Add unit tests for: happy path, invalid email, missing user, unknown fields
-
-\:::
-
-\::: good
-
-Figure: Good Example - A micro-spec guides the AI toward code that fits your system and is easier to verify
-
-\:::
-
-\## Guardrail #2: Keep changes small and iterative
+#### Guardrail #2: Keep changes small and iterative
 
 Avoid “generate the whole feature.” Instead:
 
@@ -112,29 +88,24 @@ Avoid “generate the whole feature.” Instead:
 
 This reduces hallucinations and makes review manageable.
 
-\## Guardrail #3: You own the code—prove it with tests and explanations
+#### Guardrail #3: You own the code—prove it with tests and explanations
 
-\### Always add (or generate) tests immediately
+Always add (or generate) tests immediately
 
-AI is great at drafting tests, but you still need to validate assumptions:
+* AI is great at drafting tests, but you still need to validate assumptions:
+* Add tests \*\*before\*\* trusting the implementation
+* Include edge cases and negative tests
+* Prefer deterministic tests over “it seems fine”
 
-\- Add tests \*\*before\*\* trusting the implementation
-
-\- Include edge cases and negative tests
-
-\- Prefer deterministic tests over “it seems fine”
-
-\### Code review is non-negotiable
+Code review is non-negotiable
 
 AI-generated code must go through the same (or higher) scrutiny as any other change:
 
-\- Peer review every meaningful chunk
+* Peer review every meaningful chunk
+* Ask the author to explain the logic during review
+* If the author can’t explain it, \*\*rewrite it\*\*
 
-\- Ask the author to explain the logic during review
-
-\- If the author can’t explain it, \*\*rewrite it\*\*
-
-\## Guardrail #4: Don’t create security or compliance debt
+### Guardrail #4: Don’t create security or compliance debt
 
 \### Keep sensitive data out of prompts
 
