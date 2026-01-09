@@ -17,7 +17,7 @@ seoDescription: >-
 created: 2026-01-09T02:12:09.009Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-01-09T06:28:21.801Z
+lastUpdated: 2026-01-09T06:30:52.544Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -116,43 +116,35 @@ Run security checks in CI
 
 Use your normal safety net (linters, static analysis, secret scanning). Treat AI output as “untrusted input” until checked.
 
-\### Watch licensing and “copy-like” code
+Watch licensing and “copy-like” code
 
 AI can sometimes produce code that resembles open-source snippets:
 
-\- Avoid prompts like “copy the implementation of X from Y”
+* Avoid prompts like “copy the implementation of X from Y”
+* Prefer “implement behavior” prompts
+* If a snippet looks suspiciously polished or familiar, replace it with your own implementation or verify licensing before use
 
-\- Prefer “implement behavior” prompts
-
-\- If a snippet looks suspiciously polished or familiar, replace it with your own implementation or verify licensing before use
-
-\## Guardrail #5: Leave breadcrumbs for maintainers
+### Guardrail #5: Leave breadcrumbs for maintainers
 
 Generated code becomes technical debt when nobody knows \*why\* it exists.
 
 Do this instead:
 
-\- Note AI assistance in the PR description (and link the prompt if helpful)
+* Note AI assistance in the PR description (and link the prompt if helpful)
+* Document non-obvious decisions and assumptions
+* Ensure code matches your team’s patterns and standards (refactor immediately if it doesn’t)
 
-\- Document non-obvious decisions and assumptions
-
-\- Ensure code matches your team’s patterns and standards (refactor immediately if it doesn’t)
-
-\### Bonus: Give the AI your standards
+Bonus: Give the AI your standards
 
 Create a lightweight repo guide (e.g. \`copilot-instructions.md\`) with:
 
-\- Architecture overview
+* Architecture overview
+* Naming conventions
+* Testing patterns
+* Logging/exception handling rules
+* Security requirements
 
-\- Naming conventions
-
-\- Testing patterns
-
-\- Logging/exception handling rules
-
-\- Security requirements
-
-\## Vibe coding checklist
+##### Vibe coding checklist
 
 Before merge, you should be able to say “yes” to all of these:
 
