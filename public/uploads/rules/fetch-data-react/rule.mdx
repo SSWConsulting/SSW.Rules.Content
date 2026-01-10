@@ -1,20 +1,23 @@
 ---
-archivedreason: null
-authors:
-- title: Harry Ross
-  url: https://www.ssw.com.au/people/harry-ross
-created: 2023-08-08 05:24:35+00:00
-guid: cae7be1d-2313-43e1-8cc5-cfc1e77b4bb4
-related:
-- rule: public/uploads/rules/fetch-data-nextjs/rule.mdx
-seoDescription: Discover powerful data fetching libraries for React - Tanstack Query,
-  SWR, and RTK Query.
+type: rule
 title: Do you know the best libraries to fetch data in React?
+uri: fetch-data-react
 categories:
   - category: categories/software-engineering/rules-to-better-nextjs.mdx
   - category: categories/software-engineering/rules-to-better-react.mdx
-type: rule
-uri: fetch-data-react
+authors:
+  - title: Harry Ross
+    url: 'https://www.ssw.com.au/people/harry-ross'
+related:
+  - rule: public/uploads/rules/fetch-data-nextjs/rule.mdx
+guid: cae7be1d-2313-43e1-8cc5-cfc1e77b4bb4
+seoDescription: >-
+  Discover powerful data fetching libraries for React - Tanstack Query, SWR, and
+  RTK Query.
+created: 2023-08-08T05:24:35.000Z
+createdBy: Luke Mao
+createdByEmail: LukeMao@ssw.com.au
+archivedreason: null
 ---
 
 While using a regular `useEffect` to run when a component is loaded to fetch data is super easy, it may result in unnecesary duplicate requests for data or unexpected errors when unmounting components. It is best to use a library that can provide hooks for fetching data, as not only does it solve the above issues, but also comes with useful features such as caching, background updates, and pre-fetching.
@@ -22,6 +25,7 @@ While using a regular `useEffect` to run when a component is loaded to fetch dat
 <endIntro />
 
 Below is an example of a standard data fetch in React:
+
 ```tsx
 
 const Component = () => {
@@ -48,7 +52,7 @@ const Component = () => {
 
 ```
 
-**❌Figure: The traditional way of fetching data in React**  
+**❌ Figure: The traditional way of fetching data in React**
 
 This example is not ideal, as it means every time we reload this page component, or if we make the same request on another page, there will be an unnecessary request made instead of pulling the data from a cache.
 
@@ -58,9 +62,7 @@ Below are the two recommended options that both serve effectively the same purpo
 
 TanStack Query is a feature-rich data fetching library developed by [Tanstack](https://tanstack.com/). It can be used with existing data fetching libraries such as [Axios](https://www.npmjs.com/package/axios), GraphQL packages such as [graphql-request](https://www.npmjs.com/package/graphql-request), or just plain fetch.
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=novnyCaa7To" description={"Video: React Query in 100 Seconds by Fireship (2 mins)"} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=novnyCaa7To" description="Video: React Query in 100 Seconds by Fireship (2 mins)" />
 
 Here's a basic example of how you can use Tanstack Query:
 
