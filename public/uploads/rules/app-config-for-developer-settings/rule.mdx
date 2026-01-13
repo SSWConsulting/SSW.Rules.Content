@@ -3,14 +3,88 @@ title: >-
   Do you use Azure App Configuration to manage configuration and secrets for
   local .NET development?
 uri: app-config-for-developer-settings
+authors:
+  - title: Andrew Waltos
+    url: 'https://ssw.com.au/people/andrew-waltos'
+related:
+  - rule: public/uploads/rules/store-your-secrets-securely/rule.mdx
+  - rule: >-
+      public/uploads/rules/add-local-configuration-file-for-developer-specific-settings/rule.mdx
+  - rule: public/uploads/rules/developer-experience/rule.mdx
 guid: 342736ef-849e-45c8-b5b1-fcca8ec99562
+seoDescription: >-
+  Centralize .NET configuration and secrets with Azure App Configuration to
+  remove local files and speed up developer onboarding
 created: 2026-01-13T03:28:24.831Z
 createdBy: Andrew Waltos
 createdByEmail: AndrewWaltos@ssw.com.au
+lastUpdated: 2026-01-13T03:49:53.376Z
+lastUpdatedBy: Andrew Waltos
+lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
 
-Intro
+Starting a new .NET project often means chasing down `local.settings.json` files, environment variables, and secrets shared via chat or password managers. These files quickly drift out of date, are hard to rotate, and create friction for new developers who just want to press **F5** and be productive.  
 
 <endIntro />
 
-Body
+## Use Azure App Configuration as the single source of truth
+
+Azure App Configuration provides a centralized, secure place to store application settings, feature flags, and references to secrets (via Azure Key Vault). By using it for local development as well as cloud environments, you eliminate the need to distribute configuration files.
+
+Key benefits include:
+
+* No shared config files – no more emailing or copying \`local.settings.json\`
+* Faster onboarding – developers sign in and run the app
+* Dynamic updates – configuration can change without restarting the app
+* Improved security – secrets are never stored on disk
+
+## How it works for local .NET development
+
+For local development, the .NET application loads configuration from Azure App Configuration at startup.
+
+* Configuration values are fetched from Azure
+* Values are held in memory while the application is running locally
+* Optional refresh mechanisms allow changes to flow through dynamically
+* Secrets are resolved securely via Azure Key Vault
+
+This creates a seamless local experience that closely mirrors production.
+
+## Authenticity via Azure CLI
+
+To access Azure App Configuration locally, developers authenticate using the Azure CLI.
+
+* The developer runs \`az login\`
+* The .NET app uses \`DefaultAzureCredential\`
+* Access is granted based on Azure RBAC
+
+This avoids local secrets entirely and ensures access is auditable and revocable.
+
+<boxEmbed
+  body={<>
+    A developer clones the repository, runs \`az login\`, presses F5, and the app starts with all required configuration automatically loaded from Azure App Configuration.
+  </>}
+  figurePrefix="good"
+  figure="Good Example - Configuration is centralized, secure, and requires no local files or manual setup"
+/>
+
+## Why this improves the F5 experience
+
+Using Azure App Configuration removes setup friction and configuration guesswork.
+
+* New developers are productive in minutes
+* Configuration stays consistent across the team
+* Updates can be made centrally without redeploying or reconfiguring machines
+* Local development behaves more like production
+
+## When to use this rule
+
+You should follow this rule when:
+
+* Building .NET applications (especially Azure-hosted workloads)
+* Onboarding multiple developers to the same project
+* Managing sensitive or frequently changing configuration
+* You want a clean, secure, and scalable local development experience
+
+## Summary
+
+If configuration is shared, sensitive, or frequently changing, it does not belong in local files. Azure App Configuration provides a secure, centralized, and developer-friendly approach that dramatically improves onboarding time and delivers an excellent F5 experience.
