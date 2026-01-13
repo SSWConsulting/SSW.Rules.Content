@@ -1,30 +1,31 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-created: 2017-01-24 13:26:12+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 72bf9d1b-9ca5-4333-9e16-9adbc1dc6904
-isArchived: false
-lastUpdated: 2017-01-24 13:42:28+00:00
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects:
-- do-you-make-sure-your-images-are-hosted-internally
-seoDescription: Host your website's images internally to maintain control and avoid
-  broken links caused by external image deletion.
+type: rule
 title: Do you make sure your images are hosted internally?
+uri: images-should-be-hosted-internally
 categories:
   - category: categories/software-engineering/rules-to-better-websites-graphics.mdx
-type: rule
-uri: images-should-be-hosted-internally
+authors:
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
+redirects:
+  - do-you-make-sure-your-images-are-hosted-internally
+guid: 72bf9d1b-9ca5-4333-9e16-9adbc1dc6904
+seoDescription: >-
+  Host your website's images internally to maintain control and avoid broken
+  links caused by external image deletion.
+created: 2017-01-24T13:26:12.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2017-01-24T13:42:28.000Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-When want to show an image from the web on your website, the easiest way is to just copy the image's path and add it. This is not a good idea as the original host of the image can delete it, which will cause a broken image in your website.
+When you want to show an image from the web on your website, the easiest way is to just copy the image's path and add it. This is not a good idea as the original host of the image can delete it, which will cause a broken image in your website.
 
 <endIntro />
 
@@ -37,12 +38,14 @@ The right way to do this is to copy the image locally and upload to your own ser
 />
 <dd>Figure: Open extension</dd>
 ```
-**❌ Figure: Bad example - Using an external URL as image source. The image can be edited or deleted and there is nothing you can do about it**  
+
+**❌ Figure: Bad example - Using an external URL as image source. The image can be edited or deleted and there is nothing you can do about it**
 
 ```html
 <img src="https://ssw.com.au/images/open-extension.png" alt="Open extension" />
 <dd>Figure: Open extension</dd>
 ```
-**✅ Figure: Good example - Image is hosted internally. You have control over the image**  
+
+**✅ Figure: Good example - Image is hosted internally. You have control over the image**
 
 **Note:** For copyrighted images, you should **always** mention the source.

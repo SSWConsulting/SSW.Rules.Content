@@ -1,37 +1,34 @@
 ---
-archivedreason: null
-authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Sebastien Boissiere
-  url: https://ssw.com.au/people/sebastien-boissiere
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-sidebarVideo: 'https://youtube.com/shorts/ak37CjgT_uM?si=Od8VIFMIHjycrygv'
-created: 2021-02-22 03:20:26+00:00
-createdBy: Christian Morford-Waite [SSW]
-createdByEmail: ChristianMWaite@ssw.com.au
-guid: 55db32aa-0718-4868-995c-673d8dd69f62
-isArchived: false
-lastUpdated: 2025-12-04 00:53:15+00:00
-lastUpdatedBy: Jake Bayliss [SSW]
-lastUpdatedByEmail: 32888060+jakebayliss@users.noreply.github.com
-related:
-- rule: public/uploads/rules/the-value-of-consistency/rule.mdx
-- rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
-seoDescription: "I'd be happy to help you generate an SEO description. Please provide
-  the Markdown or MDX content, \"and\" I'll do my best to create a concise, keyword-rich,
-  and user-intent-matching description. \U0001F60A"
 title: Do you know all the cool stuff you can do on SSW Rules?
+uri: rule
 categories:
   - category: categories/communication/rules-to-better-technical-documentation.mdx
   - category: categories/software-engineering/rules-to-better-markdown.mdx
-type: rule
-uri: rule
+sidebarVideo: 'https://youtube.com/shorts/ak37CjgT_uM?si=Od8VIFMIHjycrygv'
+authors:
+  - title: Christian Morford-Waite
+    url: 'https://ssw.com.au/people/christian-morford-waite'
+  - title: Sebastien Boissiere
+    url: 'https://ssw.com.au/people/sebastien-boissiere'
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
+  - title: Brady Stroud
+    url: 'https://ssw.com.au/people/brady-stroud'
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+related:
+  - rule: public/uploads/rules/the-value-of-consistency/rule.mdx
+  - rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
+guid: 55db32aa-0718-4868-995c-673d8dd69f62
+seoDescription: Learn how to write SSW Rules using Markdown and MDX. This cheatsheet covers headings, lists, images, videos, code blocks, tables, and more.
+created: 2021-02-22T03:20:26.000Z
+createdBy: 'Christian Morford-Waite [SSW]'
+createdByEmail: ChristianMWaite@ssw.com.au
+lastUpdated: 2025-12-23T06:33:38.971Z
+lastUpdatedBy: ''
+lastUpdatedByEmail: ''
+isArchived: false
+archivedreason: null
 ---
 
 SSW Rules are **technical documentation** presented as practical guidelines that help teams build better software and work more effectively. They capture best practices across coding, architecture, communication, design and project management, making them a living knowledge base that supports consistency, clarity and quality in every project.
@@ -42,7 +39,7 @@ This is an **example rule + Markdown cheatsheet** to give you some guidance arou
 
 ## Concepts to write rules
 
-There are a few concepts that are applied to structure most SSW Rules:
+Concepts that are applied to structure most SSW Rules:
 
 1. **Show the pain** - Usually in the intro, explain the problem and context around why that rule exists
 2. **Give good and bad examples** - Include practical examples for people to better understand the concepts. [Using images is usually the best way to go](/use-images-to-replace-words)
@@ -73,17 +70,6 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 **Figure: Markdown to generate headings and blockquotes**
 
-
-<boxEmbed
-  style="info"
-  body={<>
-    Do **not** use Heading 1 (&lt;h1&gt;) in the content, even with the good intention of improving SEO. The page title already uses &lt;h1&gt;, and adding more can harm accessibility and semantic structure. As per [MDN guidelines - avoid multiple &lt;h1&gt; elements on the same page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-
 ## This is a heading 2
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
@@ -110,11 +96,9 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 ...and this is a blockquote:
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
->
-> \- Someone famous
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.- Someone famous
 
----
+***
 
 ### 2. Text decorations
 
@@ -132,17 +116,17 @@ _You **can** combine them_.
 
 **Figure: Markdown to generate different text styles**
 
-_This text will be italic._
+*This text will be italic.*
 
 **And this text will be bold.**
 
 ~~strikethrough.~~
 
-_You **can** combine them_.
+*You **can** combine them*.
 
-==These words== will be highlighted.
+\==These words== will be highlighted.
 
----
+***
 
 ### 3. Lists
 
@@ -194,7 +178,7 @@ _You **can** combine them_.
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
 
----
+***
 
 ### 4. Links
 
@@ -210,23 +194,7 @@ This is [an internal link with title](https://www.ssw.com.au "This is a link tit
 
 This is [an external link](https://www.google.com).
 
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    **Cool link features:**
-
-* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
-   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4.-links)
-
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-
----
+***
 
 ### 5. Boxes
 
@@ -515,15 +483,13 @@ This is [an external link](https://www.google.com).
 
 Check out this video - it's responsive!
 
+<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description="Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)" />
 
-<youtubeEmbed url="https://www.youtube.com/embed/0ugMkda9IBw" description={"Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)"} />
-
-
----
+***
 
 ### 9. Code
 
-To include code block in Markdown, start with 3 backticks ``` on a new line, write or paste your code, and then end with 3 backticks on a new line.
+To include code block in Markdown, start with 3 backticks \`\`\` on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
 For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
 
@@ -532,7 +498,8 @@ To add inline code in Markdown, wrap the code snippet with single backticks. See
 ```md
 This is a piece of code in a code block
 ```
-**❌ Figure: Bad example - Because this code doesn't include the language used**  
+
+**❌ Figure: Bad example - Because this code doesn't include the language used**
 
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
@@ -617,13 +584,13 @@ public class MyClass
 
 **Figure: JSON code block**
 
----
+***
 
 ### 10. Email Templates
 
 #### Code for email template
 
-```md
+```markdown
 <emailEmbed
   from=""
   to="XXX"
@@ -643,23 +610,8 @@ public class MyClass
 
 **Figure: Markdown for email templates**
 
-<emailEmbed
-  from=""
-  to="XXX"
-  cc="YYY"
-  bcc="ZZZ"
-  subject="&#123;&#123; EMAIL SUBJECT &#125;&#125;"
-  shouldDisplayBody={true}
-  body={<>
-    ## Hi XXX
 
-&#123;&#123; EMAIL CONTENT &#125;&#125;
-  </>}
-  figurePrefix="good"
-  figure="Good example - Nice email template"
-/>
-
----
+***
 
 ### 11. Tables
 
@@ -677,18 +629,18 @@ public class MyClass
 
 #### Examples
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+|     Tables    |           Are | Cool  |
+| :-----------: | ------------: | ----- |
+|    col 3 is   | right-aligned | $1600 |
+|    col 2 is   |      centered | $12   |
+| zebra stripes |      are neat | $1    |
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
+| *Still*  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
----
+***
 
 ### 12. Thematic breaks (horizontal rules)
 
@@ -700,8 +652,12 @@ public class MyClass
 
 #### Example output
 
-Here’s what the --- version looks like in rendered Markdown
+Here is some text **before** a thematic break.
+
+***
+
+Some more content **after** it.
 
 #### Conclusion
 
-Markdown and SSW Rule conventions make your content clear, consistent, and easy to read. Use headings, lists, boxes, images, code, and thematic breaks to structure your rules effectively. This guide is your reference to create professional, maintainable documentation every time.
+Markdown and SSW Rules standards make your content clear, consistent, and easy to read. Use headings, lists, boxes, images, code, and thematic breaks to structure your rules effectively. This guide is your reference to create professional, maintainable documentation every time.
