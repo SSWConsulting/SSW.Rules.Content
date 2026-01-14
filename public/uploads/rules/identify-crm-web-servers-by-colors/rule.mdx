@@ -24,8 +24,9 @@ uri: identify-crm-web-servers-by-colors
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
-### CRM
+<endIntro />
 
+## CRM
 
 <imageEmbed
   alt="Image"
@@ -35,7 +36,6 @@ As per rule ["Do you have separate development, testing, and production environm
   figure="Staging uses blue background"
   src="/uploads/rules/identify-crm-web-servers-by-colors/ssw staging 2.png"
 />
-
 
 
 <imageEmbed
@@ -50,7 +50,7 @@ As per rule ["Do you have separate development, testing, and production environm
 
 The way to change the default background color is to edit the CRM CSS files. These changes aren't supported and may be overwritten when CRM Rollups are applied.
 
-### CRM 2015 and CRM 2016
+## CRM 2015 and CRM 2016
 
 Using theme feature to change the environment color.
 
@@ -65,7 +65,7 @@ Using theme feature to change the environment color.
 />
 
 
-### CRM 2013
+## CRM 2013
 
 Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_controls\navbar\navbar.css`:
 
@@ -95,7 +95,7 @@ Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_controls\navbar\navbar.css`:
 
 <endIntro />
 
-### CRM 2011
+## CRM 2011
 
 Edit `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_static\css\1033\cui.css`, locate and modify the section ms-cui-tabBody so that it reads:
 
@@ -120,7 +120,7 @@ background-color: #bbffaa;
 />
 
 
-### CRM 4
+## CRM 4
 
 Edit, `&#123;&#123; CRM WEBSITE ROOT &#125;&#125;\_common\styles\global.css.aspx`
 
@@ -180,7 +180,7 @@ body.stage
 />
 
 
-### SharePoint Online
+## SharePoint Online
 
 In SharePoint Online, we use Theme colours to differentiate between Production and Development environments.
 
@@ -188,12 +188,11 @@ To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
 ![](/uploads/rules/identify-crm-web-servers-by-colors/2024-09-16_18-10-35.jpg)
 
-### Development - Default Microsoft Blue Theme
+## Development - Default Microsoft Blue Theme
 
 ![](/uploads/rules/identify-crm-web-servers-by-colors/2024-09-16_18-03-50.jpg)
 
-### Production - SSW Custom Theme
-
+## Production - SSW Custom Theme
 
 <imageEmbed
   alt="Image"
