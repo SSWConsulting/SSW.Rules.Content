@@ -20,12 +20,12 @@ seoDescription: >-
 created: 2026-01-13T03:28:24.831Z
 createdBy: Andrew Waltos
 createdByEmail: AndrewWaltos@ssw.com.au
-lastUpdated: 2026-01-13T04:04:13.920Z
+lastUpdated: 2026-01-14T00:45:20.323Z
 lastUpdatedBy: Andrew Waltos
 lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
 
-Starting a new .NET project often means chasing down `local.settings.json` files, environment variables, and secrets shared via chat or password managers. These files quickly drift out of date, are hard to rotate, and create friction for new developers who just want to press **F5** and be productive.  
+Starting a new .NET project often means chasing down `local.settings.json` files, environment variables, and secrets shared via chat or password managers. These files quickly drift out of date, are hard to rotate, and create friction for new developers who just want to press **F5** and be productive.
 
 <endIntro />
 
@@ -48,6 +48,45 @@ For local development, the .NET application loads configuration from Azure App C
 * Values are held in memory while the application is running locally
 * Optional refresh mechanisms allow changes to flow through dynamically
 * Secrets are resolved securely via Azure Key Vault
+
+```csharp
+var configBuilder = new ConfigurationBuilder();
+
+var configuration = configBuilder
+  .AddJsonFile(path: "path-to-local.settings.json")
+  .AddEnvironmentVariables()
+  .Build();
+
+configBuilder.AddAzureAppConfiguration(acOptions =>
+{
+  var appConfig = configuration.GetRequiredSection("AppConfig");
+  var appConfigUri = appConfig.GetValue<string>("Uri");
+  var env = configuration.GetValue<string>("AppEnvironment");
+
+  Console.WriteLine($"Connecting to '{appConfigUri}' to get values for '{env}'");
+
+  acOptions
+    .UseFeatureFlags(featureFlagOptions =>
+    {
+      // Set the Label to use
+      featureFlagOptions.Label = env;
+
+      // All Feature Flags will be refreshed at this interval
+      featureFlagOptions.SetRefreshInterval(TimeSpan.FromMinutes(5));
+    })
+    // Get only key-values with label for the relevant environment
+    .Select(KeyFilter.Any, env)
+    .ConfigureRefresh(refreshOptions =>
+    {
+      refreshOptions.SetRefreshInterval(TimeSpan.FromMinutes(5));
+    })
+    .ConfigureKeyVault(kvOptions => { kvOptions.SetCredential(new DefaultAzureCredential()); });
+
+  acOptions.Connect(new Uri(appConfigUri), new DefaultAzureCredential());
+});
+```
+
+Figure: Sample App Configuration connection using Feature Flags and Key Vault
 
 This creates a seamless local experience that closely mirrors production.
 
