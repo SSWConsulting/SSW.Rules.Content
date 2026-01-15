@@ -1,0 +1,78 @@
+---
+title: ScreenCloud - Do you know when to use Channels and Playlists?
+uri: screencloud-channels-playlists
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-signage.mdx
+authors:
+  - title: Kiki Biancatti
+    url: 'https://ssw.com.au/people/kaique-biancatti'
+related:
+  - rule: public/uploads/rules/best-digital-signage/rule.mdx
+guid: 2d42e99c-47d8-48d7-85f7-214e0cd0c976
+created: 2026-01-15T01:05:34.803Z
+createdBy: Kiki Biancatti
+createdByEmail: kaiqueBiancatti@ssw.com.au
+lastUpdated: 2026-01-15T01:30:48.355Z
+lastUpdatedBy: Kiki Biancatti
+lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
+---
+
+ScreenCloud gives you two key building blocks for signage content: Playlists and Channels. If you pick the wrong one early, your signage becomes hard to scale, hard to update, and inconsistent across screens.
+
+A simple way to think about it:
+
+* Playlists are where you organize content into a reusable set (in a defined order).
+* Channels are where you schedule and publish content to screens (and keep it consistent).
+
+ScreenCloud even runs a webinar specifically to help clarify when/how to use each - you can find it on [Channels and Playlists: Best Practices](https://screencloud.com/webinars/productivity/channels-and-playlists-best-practices)
+
+<endIntro />
+
+## ❌ The Pain
+
+When content is added directly into Channels (e.g. individual product slides, individual pages, individual apps), it usually leads to:
+
+* Duplicate content across multiple Channels
+* Painful updates (you must fix the same thing in many places)
+* Inconsistent messaging between locations / screen groups
+* Fragile setups when ownership changes (“who maintains this Channel again?”)
+
+### ✅ Best Practice
+
+Use Playlists as your “unit of ownership”, and Channels as your “broadcast surface”
+
+In ScreenCloud Channels, the media picker lets you add different content types – including Playlists, media, links, and apps – into a Channel.
+
+That means you can structure things cleanly:
+
+* Playlists: reusable building blocks (owned by a team or topic)
+* Channels: where those building blocks are assembled + scheduled
+
+To do that:
+
+1. Create one Playlist per product (or topic / “content module”)
+2. Add the product content to the Playlist (not the Channel)
+3. Build Channels by combining Playlists
+4. When a product changes, update the Playlist once and all Channels that use it will inherit the change
+
+## How to create a Playlist and Channel
+
+<imageEmbed alt="ScreenCloud Playlist" size="large" showBorder={false} figurePrefix="good" figure="Good Example - Creating a new Playlist" src="/uploads/rules/screencloud-channels-playlists/screencloud-playlist.png" />
+
+#### ➕ [Playlist](https://help.screencloud.com/en/articles/10120006-screencloud-studio-playlists)
+
+1. In ScreenCloud | left bar | Playlists | New Playlist
+2. Standardize Playlist naming (so it's easier to understand later) e.g. 01-{{ProductName}} (04-SSW\.Rules)
+3. Add the content to your playlist e.g. Page Scroll, Dashboard, PowerBI
+4. Publish
+
+This will create a new playlist with your content.
+
+<imageEmbed alt="ScreenCloud Channel" size="large" showBorder={false} figurePrefix="good" figure="Good Example - Creating a new Channel" src="/uploads/rules/screencloud-channels-playlists/screencloud-channel.png" />
+
+#### ➕ [Channel](https://help.screencloud.com/en/articles/10110358-channels-setup-guide-scheduling-content-using-layouts-and-adding-music-to-your-screens)
+
+1. In ScreenCloud | left bar | Channels | New Channel
+2. Add the Playlists you just created to your channel
+3. Publish
+4. Add/assign/embed the channel somewhere to start showing it to your audience
