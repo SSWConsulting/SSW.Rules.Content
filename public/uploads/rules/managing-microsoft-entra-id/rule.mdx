@@ -1,18 +1,21 @@
 ---
-authors:
-- title: Rob Thomlinson
-  url: https://www.ssw.com.au/people/rob-thomlinson/
-created: 2025-01-03 10:58:08+00:00
-guid: 096b7e93-242d-4383-8978-f86c6cf0f2f3
-related:
-- rule: public/uploads/rules/how-to-name-documents/rule.mdx
-seoDescription: Learn best practices for managing Microsoft Entra ID to enhance security
-  and efficiency in your organization.
+type: rule
 title: Do you follow best practices for managing Microsoft Entra ID?
+uri: managing-microsoft-entra-id
 categories:
   - category: categories/infrastructure-and-networking/rules-to-better-whatsup-gold.mdx
-type: rule
-uri: managing-microsoft-entra-id
+authors:
+  - title: Rob Thomlinson
+    url: 'https://www.ssw.com.au/people/rob-thomlinson/'
+related:
+  - rule: public/uploads/rules/how-to-name-documents/rule.mdx
+guid: 096b7e93-242d-4383-8978-f86c6cf0f2f3
+seoDescription: >-
+  Learn best practices for managing Microsoft Entra ID to enhance security and
+  efficiency in your organization.
+created: 2025-01-03T10:58:08.000Z
+createdBy: Rob Thomlinson
+createdByEmail: RobThomlinson@ssw.com.au
 ---
 
 Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <endIntro />
@@ -90,11 +93,9 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 #### Best practices
 
 1. **Follow a Standard Structure:** Include key details in the group name, such as department, function, and access level
-
    * Example: `[Department]-[Resource]-[Level]`
    * `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group
-
    * `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. [Kebab-case is recommended](/how-to-name-documents).
@@ -110,8 +111,9 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 | DL-All-Company-Broadcast                           | Organization-wide communication group.                |
 | Intune-User-AccountingSoftware                     | Intune user policy to install accounting software.    |
 | Intune-Computer-ScreenTimeout                      | Intune computer screen timeout policy.                |
-**✅ Figure: Good example - Access group naming conventions that improve clarity and reduce errors in assignment**  
 
-- - -
+**✅ Figure: Good example - Access group naming conventions that improve clarity and reduce errors in assignment**
+
+***
 
 By adhering to these best practices, including clear naming conventions for access groups, you can strengthen your organization's security posture and streamline the management of Microsoft Entra ID.
