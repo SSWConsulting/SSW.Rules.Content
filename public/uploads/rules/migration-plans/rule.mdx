@@ -32,7 +32,7 @@ seoDescription: >-
 created: 2023-09-06T23:08:53.979Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
-lastUpdated: 2026-01-16T02:53:18.098Z
+lastUpdated: 2026-01-16T04:30:32.840Z
 lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
@@ -155,37 +155,37 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 
 ### Watch for SYSLIB diagnostic warnings
 
-As soon as you add .NET 5+ to your `targetFrameworks`, you'll likely encounter build warnings like:
+As soon as you add the new .NET to your `targetFrameworks`, you'll likely encounter build warnings like:
 `SYSLIB0011: BinaryFormatter serialization is obsolete and should not be used.`
 
-These warnings are part of Microsoft's structured obsolescence plan. Each `SYSLIBxxxx` code identifies an API that has beeen marked obsoltet due to security, performance or support issues.
+These warnings are part of Microsoft's structured obsolescence plan. Each `SYSLIBxxxx` code identifies an API that has been marked obsolete due to security, performance or support issues.
 Many of these APIs are **removed completely in .NET 8+**, so treating these as blockers early will save you from future runtime issues.
 
 [See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview?WT.mc_id=DT-MVP-33518)
 
 **Recommended:**
 
-* Fix them immediately or raise PBIs if he fix is non-trivial
+* Fix them immediately or raise PBIs if the fix is non-trivial or complex
 * Add `<WarningsAsErrors>SYSLIB*</WarningsAsErrors>` to your `.csproj` files to stop deprecated APIs creeping back in
-* For sticter enforcement, consider using [BannedApiAnalyzers](/use-banned-api-analyzers/)
+* For stricter enforcement, consider using [BannedApiAnalyzers](/use-banned-api-analyzers/)
 
 This makes sure progress isn't undone later by new usages of deprecated APIs.
 
 ### Creating the migration backlog
 
-At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work it might lies ahead.
+At this point, ensure your project can target both the .NET Framework and the new target .NET. Some of the projects might not support both platforms right away and you can follow these steps to fix the issues and have a better understanding of how much work might lie ahead.
 
 1. Add the target framework to your project
 2. Compile to see what breaks
 3. Fix what is easy to fix
-   1. Remember to commit after each fix to help your reviewers 😉
+   1. Remember to commit changes after each fix to help your reviewers 😉
 4. Anything that is not easy to fix, create a PBI with details of the issue
    1. This allows another developer on your team to work on that PBI independently
-5. If you have a project that is able to compile at this point you can leave the new TFM in your project and continue to the next project
-   1. If not, you can remove the new TFM and continue to the next project
-   2. Repeat these steps once the PBIs have been completed related to this project
+5. If you have a project that is able to compile at this point you can leave the new .NET TFM in your project and continue on to the next project
+   1. If it does not compile, remove the new .NET TFM from the `TargetFrameworks`, ensure it builds with the original .NET Framework TFM, and continue to the next project
+   2. Repeat these steps once the PBIs have been created for each project
 
-By the end of this process, you'll have a much clearer view (and backlog!) of your path to the latest .NET:
+By the end of this process, you'll have a much clearer view (and backlog!) of your path to the latest .NET version:
 
 * PBIs for technical debt
 * PBIs for architectural concerns
