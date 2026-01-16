@@ -34,7 +34,7 @@ seoDescription: >-
 created: 2023-09-06T23:08:53.979Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
-lastUpdated: 2026-01-16T04:40:53.843Z
+lastUpdated: 2026-01-16T04:52:49.559Z
 lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
@@ -128,16 +128,22 @@ Multi-targeting both your original .NET Framework version *and* your future .NET
   body={<>
     Why is this important?
     
-    Imagine you *don't* do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
+    Imagine you *don't* do this, and instead, you simply target the newer version of .NET only. You get a list of 100 build errors due to breaking changes - too many to handle for 1 Sprint (or 2 Sprints, or 3).
     
     You start fixing these build errors. You go from 100 errors to 50 - progress!
     Then you're told there's an urgent bug/feature/whatever that needs fixing ASAP. But you've still got 50 build errors when you're targeting .NET.
     
     "No problem", you say. "I'll just switch back to .NET Framework and do this fix, and push out a new deployment".
     
-    You switch to .NET Framework, build the project, and...25 build errors?!
+    You switch the target framework back to .NET Framework, build the project, and...25 build errors?!
     
-    While you were fixing those build errors, you wrote code that isn't compatible with .NET Framework. Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
+    Why did this happen…?
+    
+    While you were fixing those build errors, you wrote code that isn't compatible with .NET Framework.
+    
+    When you don't multi-target a project with both .NET Framework and .NET, you may miss any incompatibility issues preventing you from building your original project.
+    
+    Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
     
     Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, *without* introducing breaking changes in .NET Framework.
     
