@@ -32,6 +32,9 @@ seoDescription: >-
 created: 2023-09-06T23:08:53.979Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-01-16T02:53:18.098Z
+lastUpdatedBy: Kaha Mason
+lastUpdatedByEmail: kahamason@ssw.com.au
 ---
 
 Migrating from .NET Framework (4.x) to the latest .NET brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to migrating to the latest .NET will look like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way?
@@ -113,7 +116,7 @@ The first thing you want to do is update your projects' `csproj` files to the ne
 
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
-Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
+Multi-targeting both your original .NET Framework version *and* your future .NET version will help give you the following information:
 
 * Expose any build errors you receive when trying to build for .NET
 * Expose any build errors you receive when trying to build for .NET Framework
@@ -142,7 +145,7 @@ Targeting both your current .NET Framework version *and* your future .NET versio
   figure=""
 />
 
-In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to enable a smoother flow later to not need unload and reload projects or have to close and reopen Visual Studio.
+In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to allow for multiple target frameworks and enable a smoother flow later to avoid needing to reload projects or have to close and reopen Visual Studio.
 
 ```csharp
 <TargetFrameworks>net472;net8.0</TargetFrameworks>
