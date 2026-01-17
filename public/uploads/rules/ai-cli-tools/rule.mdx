@@ -27,7 +27,9 @@ lastUpdatedByEmail: LukeCook@ssw.com.au
 
 AI coding assistants have become essential tools for developers, but many rely solely on IDE extensions like GitHub Copilot or Cursor. While these are valuable, **AI CLI tools** offer unique advantages that can significantly boost your productivity and code quality.
 
-CLI-based AI tools provide a focused, distraction-free environment with full terminal context, making them ideal for complex tasks, debugging, and working with entire codebases. Anecdotally, developers at SSW have noticed that CLI tools often produce higher-quality, more accurate results than their IDE counterparts - possibly due to better context handling and fewer UI constraints.
+CLI-based AI tools provide a focused, distraction-free environment with full terminal context, making them ideal for complex tasks, debugging, and working with entire codebases. 
+
+Anecdotally, developers have noticed that CLI tools often produce higher-quality, more accurate results than their IDE counterparts - possibly due to better context handling and fewer UI constraints.
 
 <endIntro />
 
@@ -54,91 +56,96 @@ CLI-based AI tools provide a focused, distraction-free environment with full ter
 
 ## Popular AI CLI tools
 
-### 1. **GitHub Copilot CLI**
+### 1. GitHub Copilot CLI
 
 GitHub's official command-line tool for AI-assisted development. Unsurprisingly, Copilot CLI provides first-class integration with GitHub.
 
-* ✅✅ Delegation - One standout feature not available with other CLI tools is the `/delegate` command which pushes your existing local session to a GitHub coding agent (with context!).
-* ✅ Custom agents - You can define custom agents via markdown files with options to define agents at user, repository, and org level within GitHub.
-* ❌Flexibility - Copilot CLI locks you into one provider: Copilot. If you're all in on Team GitHub, this is fine. But if you're looking for more options and
-  less vendor lock-in, you're better off with something like OpenCode.
+**✅ Pros:**
+
+* **⭐️ Delegation** - One standout feature not available with other CLI tools is the `/delegate` command which pushes your existing local session to a GitHub coding agent (with context!)
+* **Custom agents** - You can define custom agents via markdown files with options to define agents at user, repository, and org level within GitHub
+
+**❌ Cons:**
+
+* **Flexibility** - Copilot CLI locks you into one provider: Copilot. If you're all in on Team GitHub, this is fine. But if you're looking for more options and
+  less vendor lock-in, you're better off with something like OpenCode
 
 **Learn more:** [GitHub Copilot CLI Documentation](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)
 
-#### Bonus: Sandboxed Copilot CLI
+<boxEmbed
+  body={<>
+    #### Bonus: Sandboxed Copilot CLI
 
-One of SSW's Solution Architects has created a sandboxed version of Copilot CLI, **[Copilot Here](https://github.com/gordonbeeming/copilot_here)**. If you're working
-in a high-sec environment or just want added protection around what AI can and cannot access during sessions, we highly recommend checking this out. It spins up within Docker,
-is wired to its own reverse-proxy, and provides external controls around the agent itself.
+    One of SSW's Solution Architects has created a sandboxed version of Copilot CLI, **[Copilot Here](https://github.com/gordonbeeming/copilot_here)**. If you're working
+    in a high-sec environment or just want added protection around what AI can and cannot access during sessions, we highly recommend checking this out. It spins up within Docker,
+    is wired to its own reverse-proxy, and provides external controls around the agent itself.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tip"
+/>
 
-### 2. **OpenCode**
+### 2. OpenCode
 
 OpenCode is an **open-source** agent that gives you the most options when it comes to models, providers, and extensibility. While it does provide some free models
 OOTB, you are expected to BYO model subscription.
 
-* ✅✅ Flexibility - OpenCode allows you to select from almost any model, as well as select your own **provider**. This kind of agnosticism is a huge win for users,
+**✅ Pros:**
+
+* **⭐️ Flexibility** - OpenCode allows you to select from almost any model, as well as select your own **provider**. This kind of agnosticism is a huge win for users,
   especially with the AI landscape being as volatile as it is. Being able to learn one CLI, define your own custom agents within it, and then and the models and providers
-  arbitrarily is a godsend.
-* ✅ Custom agents - Custom agents are again defined by markdown files, and while they can be defined and used at a repository level, the general principle of OpenCode is for agents
-  to be user-level definitions.
-* ✅ Subagent usage - OpenCode is better at reasoning about subagent usage automatically, rather than needing to be explicitly directed to do so. On a long enough agent session, context compacting is a real problem
-  and can degrade the quality of output, so having enthusiastic subagent usage is a big plus.
-* ❌ Integration - Being an independent open-source agent, OOTB integration may not be as robust (or available as quickly) as proprietary tools like Copilot CLI.
+  arbitrarily is a godsend
+* **Custom agents** - Custom agents are again defined by markdown files, and while they can be defined and used at a repository level, the general principle of OpenCode is for agents to be user-level definitions
+* **Subagent usage** - OpenCode is better at reasoning about subagent usage automatically, rather than needing to be explicitly directed to do so. On a long enough agent session, context compacting is a real problem and can degrade the quality of output, so having enthusiastic subagent usage is a big plus
+
+**❌ Cons:**
+
+* **Integration** - Being an independent open-source agent, OOTB integration may not be as robust (or available as quickly) as proprietary tools like Copilot CLI.
 
 **Learn more:** [OpenCode GitHub Repository](https://github.com/anomalyco/opencode)
 
-### 3. **Claude Code (via Anthropic CLI)**
+### 3. Claude Code (via Anthropic CLI)
 
 Claude Code is another fan favourite at SSW.
 
-* ✅✅ Custom agents - Claude Code's custom agents are the most configurable we've used. While they provide all the functionality of other offerings (e.g. personas, allowed tools/paths, etc.),
-  Claude's custom agents also provide dedicated pre and post-use hooks. This is excellent to help with deterministic tool execution, allowing you to guarantee that certain scripts or commands will be run before and after
-  the agent.
-* ✅ Integration - Claude has some interesting integrations that aren't available with other tools OOTB, such as Slack integration.
-* ❌Flexibility - Similar to GitHub Copilot, Claude Code locks you in to one provider - in Claude's case; Anthropic.
+**✅ Pros:**
+
+* **⭐️ Custom agents** - Claude Code's custom agents are the most configurable we've used. While they provide all the functionality of other offerings (e.g. personas, allowed tools/paths, etc.), Claude's custom agents also provide dedicated pre and post-use hooks. This is excellent to help with deterministic tool execution, allowing you to guarantee that certain scripts or commands will be run before and after the agent
+* ✅ Integration - Claude has some interesting integrations that aren't available with other tools OOTB, such as Slack integration
+
+**❌ Cons:**
+
+* **Flexibility** - Similar to GitHub Copilot, Claude Code locks you in to one provider - in Claude's case; Anthropic
 
 **Learn more:** [Anthropic CLI Documentation](https://github.com/anthropics/anthropic-cli)
 
-### 4. **Other notable tools**
+### 4. Other notable tools
 
-* **Warp AI** - Built into Warp terminal for command suggestions
-* **Fig AI** - Autocomplete with AI explanations (acquired by AWS)
-* **Shell GPT** - Simple GPT integration for shell commands
-* **Codex** - OpenAI's open source CLI tool
+* **[Warp AI](https://www.warp.dev/)** - Built into Warp terminal for command suggestions
+* **[Fig AI](https://hellofig.io/)** - Autocomplete with AI explanations (acquired by AWS)
+* **[Shell GPT](https://github.com/TheR1D/shell_gpt)** - Simple GPT integration for shell commands
+* **[Codex](https://openai.com/codex/)** - OpenAI's open source CLI tool
 
 ## When to use IDE vs CLI
 
-### CLI tools are great for…
+### ✅ Good use cases for **CLI tools**
 
-<boxEmbed
-  body={<>
-    * Complex debugging sessions
-    * Multi-file refactoring
-    * Git operations and history analysis
-    * Learning new commands or APIs
-    * Automation and scripting
-    * Working across different editors
-    * Deep code analysis requiring full project context
-  </>}
-  figurePrefix="good"
-  figure="Good use cases for CLI tools"
-  style="greybox"
-/>
+* Complex debugging sessions
+* Multi-file refactoring
+* Git operations and history analysis
+* Learning new commands or APIs
+* Automation and scripting
+* Working across different editors
+* Deep code analysis requiring full project context
 
-### IDE tools are great for…
 
-<boxEmbed
-  body={<>
-    * Real-time code completion while typing
-    * Quick inline suggestions
-    * Single-file editing
-    * Learning and exploration
-    * When you need visual feedback immediately
-  </>}
-  figurePrefix="good"
-  figure="Good use cases for IDE tools"
-  style="greybox"
-/>
+### ✅ Good use cases for **IDE tools**
+
+* Real-time code completion while typing
+* Quick inline suggestions
+* Single-file editing
+* Learning and exploration
+* When you need visual feedback immediately
 
 <boxEmbed
   body={<>
