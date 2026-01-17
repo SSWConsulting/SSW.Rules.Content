@@ -1,27 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-created: 2016-08-05 18:57:09+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: edf8e58b-33bb-42a9-aa9a-85c1ca6b74d1
-isArchived: false
-lastUpdated: 2016-08-05 19:02:50+00:00
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects:
-- do-you-know-the-best-way-to-display-code-on-your-website
-seoDescription: Best way to display code on your website using simple and effective
-  formatting.
+type: rule
 title: Do you know how to display code in HTML?
+uri: best-way-to-display-code-on-your-website
 categories:
   - category: categories/software-engineering/rules-to-better-websites-development.mdx
-type: rule
-uri: best-way-to-display-code-on-your-website
+authors:
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
+redirects:
+  - do-you-know-the-best-way-to-display-code-on-your-website
+guid: edf8e58b-33bb-42a9-aa9a-85c1ca6b74d1
+seoDescription: >-
+  Best way to display code on your website using simple and effective
+  formatting.
+created: 2016-08-05T18:57:09.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2016-08-05T19:02:50.000Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 Displaying code on a website is an important aspect of creating developer-friendly content, ensuring the code is clear, readable, and accessible. When done correctly, it enhances user experience and helps avoid confusion.
@@ -39,8 +40,9 @@ Use HTML `<code>` and `<pre>` tags:
 
 Code should be displayed using monospace fonts (e.g., Courier, Consolas) to ensure that each character takes up the same space, improving readability.
 
-Tools like Prism.js, Highlight.js, or Google Prettify automatically apply syntax highlighting, making it easier for users to read code by color-coding different elements (e.g., keywords, strings, and variables). Learn more on [Do you set the language on code blocks?](set-language-on-code-blocks)
+Tools like Prism.js, Highlight.js, or Google Prettify automatically apply syntax highlighting, making it easier for users to read code by color-coding different elements (e.g., keywords, strings, and variables). 
 
+Learn more on [Do you set the language on code blocks?](/set-language-on-code-blocks)
 
 <boxEmbed
   style="info"
@@ -51,18 +53,19 @@ Tools like Prism.js, Highlight.js, or Google Prettify automatically apply syntax
   figure=""
 />
 
-
 ```html
 <font face="Courier, Times, Arial, Verdana" size="3">
   public class Configuration { public static string MySetting { get; } }
 </font>
 ```
-**❌ Figure: Bad example - Using `<font>` with a bad inline styling to display some code**  
+
+**❌ Figure: Bad example - Using `<font>` with a bad inline styling to display some code**
 
 ```html
 <p>The function <code>console.log()</code> prints messages to the console.</p>
 ```
-**✅ Figure: Good example - Using `<code>` for inline code snippets**  
+
+**✅ Figure: Good example - Using `<code>` for inline code snippets**
 
 ```html
 <pre>
@@ -71,8 +74,8 @@ function greet() {
 }
 </pre>
 ```
-**✅ Figure: Good example - Using `<pre>` for code blocks**  
 
+**✅ Figure: Good example - Using `<pre>` for code blocks**
 
 <boxEmbed
   style="info"
