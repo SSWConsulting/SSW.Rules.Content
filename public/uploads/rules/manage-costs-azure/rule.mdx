@@ -28,7 +28,6 @@ Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets hard
 
 Azure has a nice tool for managing its own costs, called the [Cost Analysis](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis?WT.mc_id=AZ-MVP-33518). You can break down costs per resource group, resource type and many other aspects in Azure.
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -41,53 +40,51 @@ has this planned for the future, but it's not here yet.
   figure=""
 />
 
-
 Even with Cost Analysis, Developers with enough permissions (e.g. Contributor permissions to a Resource Group) are able to create resources without the Spend Master knowing, and this will lead to budget and spending problems at the end of the billing cycle.
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator?WT.mc_id=AZ-MVP-33518) - work out the monthly resource $ price
+1. Use the [Azure calculator](https://azure.microsoft.com/en-au/pricing/calculator) - work out the monthly resource $ price
 
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
-<emailEmbed
-  from=""
-  to="Spend Master"
-  cc=""
-  bcc=""
-  subject="Purchase Please - Azure Resource Request for &#123;&#123;product/service&#125;&#125;"
-  shouldDisplayBody={true}
-  body={<>
-    ## Hi Spend Master aka SysAdmins
+  <emailEmbed
+    from=""
+    to="Spend Master"
+    cc=""
+    bcc=""
+    subject="Purchase Please - Azure Resource Request for &#123;&#123;product/service&#125;&#125;"
+    shouldDisplayBody={true}
+    body={<>
+      ## Hi Spend Master aka SysAdmins
+  
+  I would like you to provision a new Azure Resource for xx
+  
+  * Azure Resource needed: I would like to create a new App Service Plan
+  * Azure Calculator link: &#123;&#123;add link&#125;&#125;
+  * Environment: &#123;&#123;add Dev/Staging/Prod&#125;&#125;
+  
+  Project details:
+  
+  * Project Name: A new project called &#123;&#123;add project name&#125;&#125;
+  * Project Description (The SysAdmin will copy this info to the Azure Tag): &#123;&#123;add description&#125;&#125;
+  * Project URL (e.g. Azure DevOps / Github): &#123;&#123;add URL&#125;&#125;
+  
+  Total: &#123;&#123;AUD$&#125;&#125; per month
+  
+  ![Figure: I generated the price from Azure Pricing calculator](/uploads/rules/manage-costs-azure/azurecalcexample.jpg)
+  
+  1. Please approve
+  
+  David
+  
+  &lt;As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)&gt;
+    </>}
+    figurePrefix="none"
+    figure=""
+  />
 
-I would like you to provision a new Azure Resource for xx
-
-* Azure Resource needed: I would like to create a new App Service Plan
-* Azure Calculator link: &#123;&#123;add link&#125;&#125;
-* Environment: &#123;&#123;add Dev/Staging/Prod&#125;&#125;
-
-Project details:
-
-* Project Name: A new project called &#123;&#123;add project name&#125;&#125;
-* Project Description (The SysAdmin will copy this info to the Azure Tag): &#123;&#123;add description&#125;&#125;
-* Project URL (e.g. Azure DevOps / Github): &#123;&#123;add URL&#125;&#125;
-
-Total: &#123;&#123;AUD$&#125;&#125; per month
-
-![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](/uploads/rules/manage-costs-azure/azurecalcexample.jpg?WT.mc_id=AZ-MVP-33518)
-
-1. Please approve
-
-David
-
-&lt;As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)&gt;
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing.
-
+3. Add a tag of cost-category to each of your resources. This will allow you to see the daily costs of your Azure resources based on whether they are Core, Value adding or Dev/Test. Then you can quickly turn off resources to save money if you require. It also helps you to see where money is disappearing
 
 <imageEmbed
   alt="Image"
