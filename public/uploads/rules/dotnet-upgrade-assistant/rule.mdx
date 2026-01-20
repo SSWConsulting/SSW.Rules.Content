@@ -1,60 +1,83 @@
 ---
-authors:
-- title: Tylah Kapa
-  url: https://www.ssw.com.au/people/tylah-kapa
-created: 2022-11-11 00:00:00+00:00
-guid: 1037b509-c22b-4244-84ac-0f5c709a090b
-related:
-- rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
-seoDescription: Modernize your .NET applications with the free and open-source .NET
-  Upgrade Assistant, a global tool that helps incrementally upgrade .NET Framework-based
-  Windows applications.
+type: rule
 title: Do you know how to modernize your .NET applications?
+uri: dotnet-upgrade-assistant
 categories:
   - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
-type: rule
-uri: dotnet-upgrade-assistant
+authors:
+  - title: Tylah Kapa
+    url: 'https://www.ssw.com.au/people/tylah-kapa'
+related:
+  - rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
+guid: 1037b509-c22b-4244-84ac-0f5c709a090b
+seoDescription: >-
+  Modernize your .NET applications with the free and open-source .NET Upgrade
+  Assistant, a global tool that helps incrementally upgrade .NET Framework-based
+  Windows applications.
+created: 2022-11-11T00:00:00.000Z
+createdBy: Kaha Mason
+createdByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-01-20T07:10:50.793Z
+lastUpdatedBy: Kaha Mason
+lastUpdatedByEmail: kahamason@ssw.com.au
 ---
 
-With outdated NuGet packages, C# stylings and architectures, keeping our .NET Framework applications up to date can be a pain. Especially when we want to make the leap from .NET Framework to .NET for that juicy performance and compatibility bump.
+With outdated NuGet packages, C# styling and architectures, keeping our .NET Framework applications up to date can be a pain. Especially when we want to make the leap from .NET Framework to .NET for that juicy performance and compatibility bump.
 
 Luckily Microsoft provides excellent tooling for supporting your great leap into .NET. The best part? It's free and open source!
 
 <endIntro />
 
-The [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant) is a .NET global tool that helps you incrementally upgrade your .NET Framework-based Windows applications. It's available on [GitHub](https://github.com/dotnet/upgrade-assistant) as a public repository.
+## .NET Modernization Tools
 
+### GitHub Copilot Modernization Agent
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Use the CLI version of Upgrade Assistant"
-  src="/uploads/rules/dotnet-upgrade-assistant/upgrade-assistant-CLI.png"
-/>
+[GitHub Copilot Modernization Agent](https://dotnet.microsoft.com/en-us/platform/modernize) is Microsoft's newest AI-powered agent for Visual Studio, that aims to assist developers in migrating projects to the latest versions of .NET.
 
+✅ Pros:
 
-## ✅ Benefits
+* Successor to the .NET Upgrade Assistant
+* Leverages AI-powered agent to assist in upgrading to the latest version of .NET with support that
+* Supports migrating from .NET Framework to modern .NET architecture
+* Analyzes projects and generates an assessment report with a list of migration tasks to perform.
+* Also provides migration recommendations, code refactors, code translations & test scaffolding post conversion
+* Provides a more interactive migration experience with AI assistance
 
-- **Stay agile** - Receive immediate feedback on your migration progress
-- **Guided steps** - Get the recommended steps for upgrading your application and action them as you see fit
-- **Multiple project types and languages** - Receive support for project types including:
-  - ASP.NET MVC
-  - Windows Forms
-  - Windows Presentation Foundation
-  - Console
-  - Libraries
-  - UWP to Windows App SDK (WinUI)
-  - Xamarin.Forms to .NET MAUI
-- **Extensible** - Customize the .NET Upgrade Assistant as you see fit
-- **Open source** - Contribute features and bugfixes to help others achieve the same goal
-- **Upgrading to modern .NET** - Provides more opportunity for the future of your application
+❌ Cons:
 
-## ❌ Downsides
+* Requires a GitHub Copilot subscription (free option is available)
+* Requests through the agent counts as Copilot requests and will deduct against your premium requests monthly quota.
+* Copilot Coding Agent & Copilot CLI support is only available on GitHub Copilot's paid tier subscriptions (GitHub Pro and above)
 
-- **Generic** - The .NET Upgrade Assistant tries its best to be generic, and therefore may not be able to identify and work with your proprietary NuGet packages. Those dependencies will need to be upgraded separately, or an alternative needs to be found.
-- **Time consuming** - While the .NET Upgrade Assistant does well to reduce the time and cost of upgrading your .NET applications, it will still take a significant amount of time, especially on live projects.
-- **Code modernization** - The tool will not upgrade the code style or use modern C# patterns. The bulk of code will remain identical which will still look distinctly .NET Framework-like code with some of the namespaces and minor refactors.
+### .NET Upgrade Assistant
 
-If your project is overly complex or encounters significant challenges with .NET 8 Upgrade Assistant, you may need to revert to the original project and then continue with the instructions on [how to handle complex .NET migrations](/dotnet-upgrade-for-complex-projects).
+The [.NET Upgrade Assistant](https://learn.microsoft.com/en-us/dotnet/core/porting/upgrade-assistant-overview) is a .NET global tool that can help you incrementally upgrade your .NET Framework-based Windows applications. It's available on [GitHub](https://github.com/dotnet/upgrade-assistant) as a public repository.
+
+✅ Pros:
+
+* Purpose-built modernization tool for upgrading .NET Framework applications to the modern .NET architecture
+* Automates the modernization process and handles converting to projects to SDK-style
+* **Stay agile** - Receive immediate feedback on your migration progress
+* **Guided steps** - Get the recommended steps for upgrading your application and action them as you see fit
+* **Multiple project types and languages** - Receive support for project types including:
+  * ASP.NET MVC
+  * Windows Forms
+  * Windows Presentation Foundation
+  * Console
+  * Libraries
+  * UWP to Windows App SDK (WinUI)
+  * Xamarin.Forms to .NET MAUI
+* **Extensible** - Customize the .NET Upgrade Assistant as you see fit
+* **Open source** - Contribute features and bugfixes to help others achieve the same goal
+* **Upgrading to modern .NET** - Provides more opportunity for the future of your application
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Use the CLI version of Upgrade Assistant" src="/uploads/rules/dotnet-upgrade-assistant/upgrade-assistant-CLI.png" />
+
+❌ Cons:
+
+* Complex applications may still require some manual adjustments post conversion
+* **Generic** - The .NET Upgrade Assistant tries its best to be generic, and therefore may not be able to identify and work with your proprietary NuGet packages. Those dependencies will need to be upgraded separately, or an alternative needs to be found
+* **Time consuming** - While the .NET Upgrade Assistant does well to reduce the time and cost of upgrading your .NET applications, it will still take a significant amount of time, especially on live projects
+* **Code modernization** - The tool will not upgrade the code style or use modern C# patterns. The bulk of code will remain identical which will still look distinctly .NET Framework-like code with some of the namespaces and minor refactors
+
+If your project is overly complex or encounters significant challenges with .NET 8 Upgrade Assistant, you may need to revert to the original project and then continue with the instructions on [how to handle complex .NET migrations](/migration-plans).
