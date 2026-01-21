@@ -1,0 +1,161 @@
+---
+title: Do you use guardrails when vibe coding with AI?
+uri: guardrails-for-vibe-coding
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+sidebarVideo: 'https://youtu.be/kDS5pwelhNM?si=vY4zRPByRWgTkfDz'
+authors:
+  - title: Michael Smedley
+    url: 'https://www.ssw.com.au/people/michael-smedley/'
+related:
+  - rule: public/uploads/rules/chatgpt-can-help-code/rule.mdx
+guid: b0020e91-f3ba-476c-9c60-8f41fb2f8c9b
+seoDescription: >-
+  Vibe coding can be fast, but risky. Use guardrails—clear prompts, small
+  iterations, tests, reviews, and security checks—to ship reliable AI-assisted
+  code.
+created: 2026-01-09T02:12:09.009Z
+createdBy: Mike
+createdByEmail: michaelsmedley@ssw.com.au
+lastUpdated: 2026-01-09T06:32:50.771Z
+lastUpdatedBy: Mike
+lastUpdatedByEmail: michaelsmedley@ssw.com.au
+---
+
+You’re in the zone: the AI is pumping out code, you’re copy-pasting at light speed, and everything \*seems\* to work… until a weird edge case hits production, a security scanner lights up, or your team can’t explain the “magic” function anyone merged last week.
+
+Vibe coding is awesome—\*\*as long as you add guardrails\*\*.
+
+<endIntro _hidden="" />
+
+### What “vibe coding” is (and what it is not)
+
+Vibe coding is using an LLM as a high-velocity pair programmer: drafting code, tests, docs, and refactors while you stay focused on the intent.
+
+It is not:
+
+* Shipping code you don’t understand
+* Bypassing reviews because “the AI wrote it”
+* Letting generated code set your architecture, security posture, or licensing risk
+
+#### Guardrail #1: Write a micro-spec before you generate code
+
+Treat your prompt like instructions to a junior dev. Include:
+
+* Goal (what success looks like)
+* Inputs/outputs
+* Constraints (libraries to use/avoid, performance needs, style rules)
+* Edge cases
+* Acceptance tests (even just a few bullets)
+
+<boxEmbed
+  body={<>
+    “Build me an endpoint to update a user profile.”
+  </>}
+  figurePrefix="bad"
+  figure="Figure: Bad Example - Vague prompt = unpredictable output (missing constraints, validation rules, and error handling expectations)"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    You are a senior developer. Implement \`PUT /users/{id}\`.
+    
+    Requirements:
+    
+    * Validate: \`displayName\` (1-50 chars), \`email\` (valid format), reject unknown fields
+    * Use existing \`UserService.UpdateUserAsync(id, dto)\`
+    * Return: 200 with updated DTO, 400 with validation errors, 404 if not found
+    * No new dependencies
+    * Add unit tests for: happy path, invalid email, missing user, unknown fields
+  </>}
+  figurePrefix="good"
+  figure="Figure: Good Example - A micro-spec guides the AI toward code that fits your system and is easier to verify"
+  style="greybox"
+/>
+
+#### Guardrail #2: Keep changes small and iterative
+
+Avoid “generate the whole feature.” Instead:
+
+1\. Generate a thin slice (a single function, class, or endpoint)
+
+2\. Compile/run tests
+
+3\. Ask for improvements (error handling, edge cases, performance)
+
+4\. Repeat
+
+This reduces hallucinations and makes review manageable.
+
+#### Guardrail #3: You own the code—prove it with tests and explanations
+
+Always add (or generate) tests immediately
+
+* AI is great at drafting tests, but you still need to validate assumptions:
+* Add tests \*\*before\*\* trusting the implementation
+* Include edge cases and negative tests
+* Prefer deterministic tests over “it seems fine”
+
+Code review is non-negotiable
+
+AI-generated code must go through the same (or higher) scrutiny as any other change:
+
+* Peer review every meaningful chunk
+* Ask the author to explain the logic during review
+* If the author can’t explain it, \*\*rewrite it\*\*
+
+### Guardrail #4: Don’t create security or compliance debt
+
+Keep sensitive data out of prompts
+
+* Never paste secrets, credentials, private keys, or customer PII
+* If you need context, sanitize or anonymize
+
+Run security checks in CI
+
+Use your normal safety net (linters, static analysis, secret scanning). Treat AI output as “untrusted input” until checked.
+
+Watch licensing and “copy-like” code
+
+AI can sometimes produce code that resembles open-source snippets:
+
+* Avoid prompts like “copy the implementation of X from Y”
+* Prefer “implement behavior” prompts
+* If a snippet looks suspiciously polished or familiar, replace it with your own implementation or verify licensing before use
+
+### Guardrail #5: Leave breadcrumbs for maintainers
+
+Generated code becomes technical debt when nobody knows \*why\* it exists.
+
+Do this instead:
+
+* Note AI assistance in the PR description (and link the prompt if helpful)
+* Document non-obvious decisions and assumptions
+* Ensure code matches your team’s patterns and standards (refactor immediately if it doesn’t)
+
+Bonus: Give the AI your standards
+
+Create a lightweight repo guide (e.g. \`copilot-instructions.md\`) with:
+
+* Architecture overview
+* Naming conventions
+* Testing patterns
+* Logging/exception handling rules
+* Security requirements
+
+##### Vibe coding checklist
+
+Before merge, you should be able to say “yes” to all of these:
+
+✅ I can explain the code without the AI
+
+✅ The change is small and easy to review
+
+✅ Tests exist and cover edge cases
+
+✅ Security checks pass (and no secrets were shared)
+
+✅ Licensing risk is considered for any “too-perfect” snippet
+
+✅ Documentation/PR notes capture the intent and constraints

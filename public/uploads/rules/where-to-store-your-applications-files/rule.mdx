@@ -16,6 +16,8 @@ redirects:
 seoDescription: Windows applications' file storage locations explained, ensuring consistent
   user experience.
 title: Do you know where to store your application's files?
+categories:
+  - category: categories/software-engineering/rules-to-better-code.mdx
 type: rule
 uri: where-to-store-your-applications-files
 ---
@@ -24,13 +26,20 @@ Although many have differing opinions on this matter, Windows applications have 
 
 The following grid shows where application files should be placed:
 
-![](/uploads/rules/where-to-store-your-applications-files/store-files.jpg)
-
 <endIntro />
 
-### Further Information
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Caption text"
+  src="/uploads/rules/where-to-store-your-applications-files/store-files.jpg"
+/>
+
+## Further Information
 
 - The System.Environment class provides the most general way of retrieving those paths
 - The Application class lives in the System.Windows.Form namespace, which indicates it should only be used for WinForm applications. Other types of applications such as Console and WebForm applications use their corresponding utility classes
 
-Microsoft's write-up on this subject can be found at [Microsoft API and reference catalog](https://www.ssw.com.au/ssw/Redirect/Microsoft/MSDNFileSystem.htm).
+Microsoft's write-up on this subject can be found at [Microsoft API and reference catalog](https://learn.microsoft.com/en-us/previous-versions/iis/microsoft.web/microsoft-api-and-reference-catalog).

@@ -1,29 +1,35 @@
 ---
-authors:
-- title: Jeoffrey Fischer
-  url: https://www.ssw.com.au/people/jeoffrey-fischer
-- title: Hajir Lesani
-  url: https://www.ssw.com.au/people/hajir-lesani
-created: 2025-10-03 22:40:45.273000+00:00
-guid: 715aeb05-0530-49a8-a2ea-ef6f4a5271bb
-related:
-- rule: public/uploads/rules/choosing-authentication/rule.mdx
-- rule: public/uploads/rules/modern-stateless-authentication/rule.mdx
-seoDescription: Explore the evolution of browser security patterns, from cookies and
-  OAuth flows to modern Backend-for-Frontend (BFF). Learn when to use each pattern,
-  their pros and cons, and best practices for securing SPAs and web applications.
-title: Do you know the secret life of browser security patterns?
 type: rule
+title: Do you know the secret life of browser security patterns?
 uri: browser-security-patterns
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-security.mdx
+authors:
+  - title: Jeoffrey Fischer
+    url: 'https://www.ssw.com.au/people/jeoffrey-fischer'
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani'
+related:
+  - rule: public/uploads/rules/choosing-authentication/rule.mdx
+  - rule: public/uploads/rules/modern-stateless-authentication/rule.mdx
+guid: 715aeb05-0530-49a8-a2ea-ef6f4a5271bb
+seoDescription: >-
+  Explore the evolution of browser security patterns, from cookies and OAuth
+  flows to modern Backend-for-Frontend (BFF). Learn when to use each pattern,
+  their pros and cons, and best practices for securing SPAs and web
+  applications.
+created: 2025-10-03T22:40:45.273Z
+createdBy: Jeoffrey Fischer
+createdByEmail: JeoffreyFischer@ssw.com.au
 ---
 
-Web security patterns are a lot like fashion trends. What looked sharp ten years ago now feels outdated, and the styles everyone thought would last forever sometimes vanish in a season. Cookies, tokens, proxies - they’ve all had their runway moment.
+Web security patterns are a lot like fashion trends. What looked sharp ten years ago now feels outdated, and the styles everyone thought would last forever sometimes vanish in a season. Cookies, tokens, proxies, they’ve all had their runway moment.
 
-Let’s take a lighthearted but practical tour of how browser security has evolved - from the early days of cookies, to the heyday of SPAs, to the modern approaches.
+Let’s take a light-hearted but practical tour of how browser security has evolved - from the early days of cookies, to the heyday of SPAs, to the modern approaches.
 
 <endIntro />
 
-## 1. Cookie-Based Authentication (Traditional Web Apps)
+## 1. Cookie-Based Authentication
 
 The oldest and most battle-tested approach. Server-rendered apps relied heavily on cookies for session management, long before OAuth and SPAs came along. While simple and effective, cookies had to evolve with new browser features to keep up with modern threats.
 
@@ -49,28 +55,25 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
 * Classic monolithic apps.
 * Intranets or smaller web apps that don’t need OAuth/OIDC or cross-domain API calls.
 
-
 <boxEmbed
   style="info"
   body={<>
-    
-* **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.
-  → If a token is in localStorage and your app suffers an XSS, an attacker can simply read it. With HttpOnly cookies, the attacker can’t.
-* **SameSite cookies** help prevent CSRF by controlling when cookies are sent with cross-site requests.
-  * `Strict`: Only sent in first-party contexts.
-  * `Lax`: Sent for top-level navigations (good balance).
-  * `None` + `Secure`: Required for third-party usage.
+    * **HttpOnly cookies** can’t be accessed by JavaScript. This makes them immune to theft via XSS, unlike tokens stored in `localStorage` or `sessionStorage`.
+    → If a token is in localStorage and your app suffers an XSS, an attacker can simply read it. With HttpOnly cookies, the attacker can’t.
+    * **SameSite cookies** help prevent CSRF by controlling when cookies are sent with cross-site requests.
+    * `Strict`: Only sent in first-party contexts.
+    * `Lax`: Sent for top-level navigations (good balance).
+    * `None` + `Secure`: Required for third-party usage.
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
-## 2. OAuth 2.0 Implicit Flow (SPAs v1)
+## 2. OAuth 2.0 Implicit Flow
 
 As SPAs emerged, developers needed a way to authenticate without a backend. The Implicit Flow was introduced to give client-side apps direct access to tokens - a clever hack for its time, but one that opened the door to serious security issues.
 
-📅 **Era:** Early SPAs (~2012).
+📅 **Era:** Early SPAs (\~2012).
 
 🤔 **How it works:**
 
@@ -93,11 +96,11 @@ As SPAs emerged, developers needed a way to authenticate without a backend. The 
 * Historically used for early Angular/React apps with no backend.
 * Rarely recommended today.
 
-## 3. OAuth 2.0 Authorization Code Flow with PKCE (SPAs v2)
+## 3. OAuth 2.0 Authorization Code Flow with PKCE
 
 To fix the flaws of the Implicit Flow, PKCE (Prook Key for Code Exchange) came into play. This was a big leap forward for SPAs, giving them a safer way to obtain tokens directly. But while more secure, it still left the browser holding sensitive tokens.
 
-📅 **Era:** Mid SPAs (~2016).
+📅 **Era:** Mid SPAs (\~2016).
 
 🤔 **How it works:**
 
@@ -145,11 +148,11 @@ When applications grew into ecosystems of microservices, authentication had to s
 * Enterprises with multiple frontends + microservices.
 * Teams already using API gateways (Kong, Apigee, AWS API Gateway).
 
-## 5. Backend-for-Frontend (BFF)
+## 5. Backend-for-Frontend
 
-The modern favorite. BFFs combine the simplicity of cookies with the security of OAuth. By keeping tokens server-side and giving the browser only safe cookies, BFFs drastically reduce the attack surface for SPAs.
+The modern favorite. Backend-For-Frontend (BFF) combine the simplicity of cookies with the security of OAuth. By keeping tokens server-side and giving the browser only safe cookies, BFFs drastically reduce the attack surface for SPAs.
 
-📅 **Era:** Modern standard (~2020+).
+📅 **Era:** Modern standard (\~2020+).
 
 🤔 **How it works:**
 
@@ -207,14 +210,14 @@ Even with secure authentication, XSS remains one of the biggest threats to web a
 
 ## 📊 Summary Comparison Table
 
-| Pattern                     | Era           | Tokens in Browser? | Security Strength | Use Case                                     |
-| --------------------------- | ------------- | ------------------ | ----------------- | -------------------------------------------- |
-| Cookie-Based Auth           | Oldest        | ❌ No               | ⭐⭐ Medium         | Monolithic/intranet apps, simple sessions    |
-| OAuth Implicit Flow         | Early SPAs    | ✅ Yes              | ⭐ Low             | Legacy SPAs with no backend                  |
-| Auth Code + PKCE (SPA)      | SPAs v2       | ✅ Yes              | ⭐⭐ Medium         | Serverless SPAs (Netlify, Vercel)            |
-| API Gateway / Reverse Proxy | Microservices | ❌ No               | ⭐⭐⭐ High          | Enterprise microservices, multiple frontends |
-| Backend-for-Frontend (BFF)  | Modern        | ❌ No               | ⭐⭐⭐⭐ Very High    | Secure modern SPAs needing OAuth/OIDC        |
-| Content Security Policy (CSP)| Always       | N/A                 | ⭐⭐⭐⭐ Very High    | All modern apps to mitigate XSS              |
+| Pattern                       | Era           | Tokens in Browser? | Security Strength | Use Case                                     |
+| ----------------------------- | ------------- | ------------------ | ----------------- | -------------------------------------------- |
+| Cookie-Based Auth             | Oldest        | ❌ No               | ⭐⭐ Medium         | Monolithic/intranet apps, simple sessions    |
+| OAuth Implicit Flow           | Early SPAs    | ✅ Yes              | ⭐ Low             | Legacy SPAs with no backend                  |
+| Auth Code + PKCE (SPA)        | SPAs v2       | ✅ Yes              | ⭐⭐ Medium         | Serverless SPAs (Netlify, Vercel)            |
+| API Gateway / Reverse Proxy   | Microservices | ❌ No               | ⭐⭐⭐ High          | Enterprise microservices, multiple frontends |
+| Backend-for-Frontend (BFF)    | Modern        | ❌ No               | ⭐⭐⭐⭐ Very High    | Secure modern SPAs needing OAuth/OIDC        |
+| Content Security Policy (CSP) | Always        | N/A                | ⭐⭐⭐⭐ Very High    | All modern apps to mitigate XSS              |
 
 ## Conclusion
 

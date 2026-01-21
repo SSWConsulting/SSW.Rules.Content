@@ -2,6 +2,8 @@
 seoDescription: When retrieving data, it's more efficient to only collect the necessary information, reducing computation, IO, memory usage, and CPU load on the calling side.
 type: rule
 title: Do you only project properties you need?
+categories:
+  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
 uri: only-project-properties-you-need
 authors:
   - title: Bryden Oliver
@@ -13,7 +15,7 @@ guid: 18e53b62-b8c0-4cbf-bd85-447c10950f70
 When retrieving data it's much more efficient to only collect the data you need. It saves computation and IO on the database and also saves memory and CPU on the calling side.
 
 <endIntro />
-**❌ ```cs
+```cs
 IEnumerable<string> GetProductGuids(string category)
 {
     IEnumerable<Product> products = context.Products
@@ -24,8 +26,8 @@ IEnumerable<string> GetProductGuids(string category)
 }
 ```
 
-Figure: Bad example - Retrieved the whole product record when we only needed 1 property**  
-**✅ ```cs
+**❌Figure: Bad example - Retrieved the whole product record when we only needed 1 property**  
+```cs
 IEnumerable<string> GetProductGuids(string category)
 {
     IEnumerable<string> productGuids = context.Products
@@ -37,4 +39,4 @@ IEnumerable<string> GetProductGuids(string category)
 }
 ```
 
-Figure: Good example - Retrieved only the required property.**  
+**✅Figure: Good example - Retrieved only the required property.**  

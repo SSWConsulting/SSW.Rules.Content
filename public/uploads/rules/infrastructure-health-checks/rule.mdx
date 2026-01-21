@@ -23,6 +23,8 @@ related:
 - rule: public/uploads/rules/have-a-health-check-page-to-make-sure-your-website-is-healthy/rule.mdx
 seoDescription: Website dependency and infrastructure health checks
 title: Do you Health Check your infrastructure?
+categories:
+  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
 type: rule
 uri: infrastructure-health-checks
 ---
@@ -121,7 +123,9 @@ When deploying apps in Azure it's good practice to enable health checks within t
 * Include detailed diagnostics (e.g., database, Redis, third-party services)
 * Integrate with internal observability tools like Azure Monitor
 * Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources
-* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/?WT.mc_id=AZ-MVP-33518)
+* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. 
+
+See more details on [Microsoft's documentation - Aspire | Fundamentals | Health checks](https://aspire.dev/fundamentals/health-checks/)
 
 ## Handle offline infrastructure gracefully
 
