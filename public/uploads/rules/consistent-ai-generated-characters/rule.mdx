@@ -4,13 +4,137 @@ title: >-
   videos?
 uri: 'consistent-ai-generated-characters '
 guid: 3e52acd7-f0b2-4400-99d2-b4800a87407a
+seoDescription: >-
+  Learn how to create consistent AI-generated characters by using a single base
+  image, clear prompts, and documented workflows so your brand visuals stay
+  recognizable across videos and scenarios.
 created: 2026-01-21T00:43:12.725Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
+lastUpdated: 2026-01-21T22:57:10.763Z
+lastUpdatedBy: Griffen Edge
+lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
 
-Intro
+You generate a great AI image for marketing, then the next one looks like a distant cousin of the original. Different face, different colors, different vibe. This inconsistency confuses users and weakens brand recognition—especially when you’re trying to build a recognizable character like a mascot or product hero.
 
-<endIntro />
+<endIntro _hidden="" />
 
-Body
+## Why consistency matters
+
+A consistent AI-generated character:
+
+* Builds brand recognition and trust
+* Feels intentional and professional
+* Can be reused across marketing, product demos, and social media
+* Saves time by avoiding repeated trial-and-error
+
+If users can’t immediately recognize your character, the AI has failed the brand. Not the other way around.
+
+## Start with a single “source of truth” image
+
+Always begin with **one approved base image** of the character.
+
+Use this same static image as the reference for:
+
+* Image generation
+* Video generation
+* Animation tools (e.g. Sora, Veo)
+
+Store it in a shared, versioned location (e.g. design assets folder).
+
+\::: greybox
+
+A single high-quality Yak image is used as the reference input for multiple tools (Sora and Gemini Veo) to generate different animations while preserving the same look.
+
+\:::
+
+\::: good
+
+Figure: Good example - One base image used consistently across multiple AI tools
+
+\:::
+
+## Be explicit in your prompts
+
+AI models will improvise unless you clearly tell them not to.
+
+Include:
+
+* Physical traits (species, colors, proportions)
+* Clothing or accessories (or explicitly say “no clothing”)
+* Mood and personality
+* Camera framing and lighting
+* Instruction to **preserve the original character design**
+
+\::: greybox
+
+"Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Animate the Yak standing and covering his eyes with his hooves."
+
+\:::
+
+\::: good
+
+Figure: Good example - Explicitly instructing the model to preserve the original character
+
+\:::
+
+## Reuse the same reference across tools
+
+Different AI tools can still produce consistent results if you:
+
+* Use the **same base image**
+* Reuse or lightly adapt the **same prompt**
+* Avoid letting the tool “reimagine” the character
+
+This allows teams to mix tools (e.g. Sora and Gemini) without visual drift.
+
+## Document the process
+
+If one person can do it, others should be able to repeat it.
+
+Document:
+
+* The base image used
+* The exact prompts
+* The tool and model (e.g. Sora, Gemini Veo)
+* Any settings or options selected
+* Known limitations or gotchas
+
+\::: greybox
+
+Base Image: yak-base-v1.png  
+
+Tool: Gemini Veo  
+
+Prompt: "Make a video of this Yak standing up and covering his eyes with his hooves."  
+
+Notes: Minor motion smoothing required after export.
+
+\:::
+
+\::: good
+
+Figure: Good example - A documented, repeatable workflow
+
+\:::
+
+## Use approvals for brand assets
+
+Before publishing AI-generated characters:
+
+* Get sign-off from design/brand owners
+* Confirm colors match official brand assets
+* Check motion quality (no choppy or awkward transitions)
+
+Once approved, lock the base image and treat changes as a new version.
+
+## Summary
+
+To keep AI-generated characters consistent:
+
+* Start with one approved base image
+* Be explicit in prompts about preserving design
+* Reuse the same reference across tools
+* Document the workflow so others can repeat it
+* Treat AI characters as brand assets, not experiments
