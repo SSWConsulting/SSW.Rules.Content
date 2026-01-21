@@ -29,7 +29,7 @@ Let’s take a light-hearted but practical tour of how browser security has evol
 
 <endIntro />
 
-## 1. Cookie-Based Authentication (Traditional Web Apps)
+## 1. Cookie-Based Authentication
 
 The oldest and most battle-tested approach. Server-rendered apps relied heavily on cookies for session management, long before OAuth and SPAs came along. While simple and effective, cookies had to evolve with new browser features to keep up with modern threats.
 
@@ -69,7 +69,7 @@ The oldest and most battle-tested approach. Server-rendered apps relied heavily 
   figure=""
 />
 
-## 2. OAuth 2.0 Implicit Flow (SPAs v1)
+## 2. OAuth 2.0 Implicit Flow
 
 As SPAs emerged, developers needed a way to authenticate without a backend. The Implicit Flow was introduced to give client-side apps direct access to tokens - a clever hack for its time, but one that opened the door to serious security issues.
 
@@ -96,7 +96,7 @@ As SPAs emerged, developers needed a way to authenticate without a backend. The 
 * Historically used for early Angular/React apps with no backend.
 * Rarely recommended today.
 
-## 3. OAuth 2.0 Authorization Code Flow with PKCE (SPAs v2)
+## 3. OAuth 2.0 Authorization Code Flow with PKCE
 
 To fix the flaws of the Implicit Flow, PKCE (Prook Key for Code Exchange) came into play. This was a big leap forward for SPAs, giving them a safer way to obtain tokens directly. But while more secure, it still left the browser holding sensitive tokens.
 
@@ -148,9 +148,9 @@ When applications grew into ecosystems of microservices, authentication had to s
 * Enterprises with multiple frontends + microservices.
 * Teams already using API gateways (Kong, Apigee, AWS API Gateway).
 
-## 5. Backend-for-Frontend (BFF)
+## 5. Backend-for-Frontend
 
-The modern favorite. BFFs combine the simplicity of cookies with the security of OAuth. By keeping tokens server-side and giving the browser only safe cookies, BFFs drastically reduce the attack surface for SPAs.
+The modern favorite. Backend-For-Frontend (BFF) combine the simplicity of cookies with the security of OAuth. By keeping tokens server-side and giving the browser only safe cookies, BFFs drastically reduce the attack surface for SPAs.
 
 📅 **Era:** Modern standard (\~2020+).
 
