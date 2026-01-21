@@ -582,14 +582,16 @@ Always include descriptive captions on images and boxes using the `figure` param
 
 ## File Organization
 
-* Rules go in `/rules/rule-name/rule.md`
+* Rules go in `/public/rules/{{ RULE_NAME }} /rule.md`
 * Categories go in `/categories/category-name.md`
-* Images go next to the rule markdown file
+* Images go next to the rule markdown file - `/public/rules/{{ RULE_NAME }}/image-file.jpg`
 * Use kebab-case for file and folder names
 
 ## Adding Rules to Categories
 
 Every rule should belong to at least one category to help users discover related content. Categories are organized in the `/categories` folder and structured by topic.
+
+There are top-categories and sub-categories. Each category file contains an index of rule URIs that belong to that category.
 
 ### Category Structure
 
