@@ -1,0 +1,252 @@
+---
+type: rule
+archivedreason: null
+title: Do you choose the right Blazor render mode?
+seoDescription: Learn how to choose the right Blazor render mode - Static SSR, Server, WebAssembly, or Auto - based on your application's requirements for performance, interactivity, and user experience.
+guid: 2f1e503c-f3b2-4437-923e-9db9fe4edb6b
+uri: blazor-render-mode
+created: 2026-01-22T00:00:00.000Z
+authors:
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
+related:
+  - why-blazor-is-great
+  - blazor-basic-appstate-pattern
+categories:
+  - category: categories/software-engineering/rules-to-better-blazor.mdx
+---
+
+Blazor (.NET 8+) offers multiple render modes, each with different performance characteristics and capabilities. Choosing the wrong render mode can lead to poor user experience, unnecessary server load, or missed opportunities for interactivity.
+
+Understanding the strengths and trade-offs of each render mode helps you make informed architectural decisions. For comprehensive details, see [Blazor render modes on Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
+
+<endIntro />
+
+<youtubeEmbed
+  url="https://www.youtube.com/embed/HZAdXx7-PnM"
+  description={"Video: Blazor Component Render Modes [Pt 8] | Front-end Web Development with .NET for Beginners"}
+/>
+
+## The Blazor Render Modes
+
+### Static Server-Side Rendering (Static SSR)
+
+Renders pages on the server and sends static HTML to the client. No interactivity after initial render.
+
+**Use when:**
+- Content is mostly static (blogs, documentation, marketing pages)
+- SEO is critical
+- You need the fastest initial page load
+- No client-side interactivity is needed
+
+**Benefits:**
+- ✅ Fastest initial load time
+- ✅ Best SEO
+- ✅ Minimal bandwidth usage
+- ✅ No JavaScript download required
+
+**Drawbacks:**
+- ❌ No interactivity without full page refresh
+- ❌ Every interaction requires server round-trip
+
+```razor
+@page "/about"
+@rendermode RenderMode.InteractiveServer
+
+<h1>About Us</h1>
+<p>This is a static page with no interactivity.</p>
+```
+
+**❌ Figure: Bad example - Using InteractiveServer for a static page wastes server resources**
+
+```razor
+@page "/about"
+
+<h1>About Us</h1>
+<p>This is a static page with no interactivity.</p>
+```
+
+**✅ Figure: Good example - Static SSR (default) is perfect for content-only pages**
+
+### Interactive Server
+
+Maintains a SignalR connection to the server. UI updates are sent over the connection in real-time.
+
+**Use when:**
+- You need interactivity
+- You want to avoid large client downloads
+- Your app needs server-side resources (database, files)
+- Users have reliable internet connections
+
+**Benefits:**
+- ✅ Small initial download
+- ✅ Fast time-to-interactive
+- ✅ Direct access to server resources
+- ✅ Code stays on the server (more secure)
+
+**Drawbacks:**
+- ❌ Requires persistent connection
+- ❌ Server memory used per user
+- ❌ Latency on every interaction
+- ❌ Doesn't work offline
+
+```razor
+@page "/counter"
+@rendermode InteractiveServer
+
+<h1>Counter</h1>
+<p>Current count: @currentCount</p>
+<button @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
+```
+
+**✅ Figure: Good example - Interactive Server for real-time features**
+
+### Interactive WebAssembly
+
+Runs entirely in the browser using WebAssembly. No server connection needed after initial load.
+
+**Use when:**
+- Users may have unreliable connections
+- You want offline capability
+- Minimizing server load is important
+- You don't need direct server resource access
+
+**Benefits:**
+- ✅ Works offline
+- ✅ No server load for interactivity
+- ✅ No latency after initial load
+- ✅ Rich client-side experience
+
+**Drawbacks:**
+- ❌ Large initial download (~2-3 MB)
+- ❌ Slower initial load
+- ❌ Limited to browser capabilities
+- ❌ Cannot directly access server resources
+
+```razor
+@page "/game"
+@rendermode InteractiveWebAssembly
+
+<h1>Browser-Based Game</h1>
+<p>Score: @score</p>
+<button @onclick="Play">Play</button>
+
+@code {
+    private int score = 0;
+
+    private void Play()
+    {
+        // Runs entirely in browser
+        score += Random.Shared.Next(1, 10);
+    }
+}
+```
+
+**✅ Figure: Good example - WebAssembly for offline-capable or compute-intensive UI**
+
+### Interactive Auto
+
+Starts with Interactive Server, then upgrades to WebAssembly on subsequent visits (after downloading).
+
+**Use when:**
+- You want the best of both worlds
+- First-time performance matters
+- Users will return to your app
+- You need both fast initial load AND offline capability
+
+**Benefits:**
+- ✅ Fast first visit (Server mode)
+- ✅ Offline on return visits (WASM mode)
+- ✅ Best overall user experience
+- ✅ Automatic optimization
+
+**Drawbacks:**
+- ❌ More complex deployment
+- ❌ Requires both server and WASM hosting
+- ❌ Background WASM download on first visit
+
+```razor
+@page "/dashboard"
+@rendermode InteractiveAuto
+
+<h1>Dashboard</h1>
+<Chart Data="@chartData" />
+
+@code {
+    private ChartData? chartData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        chartData = await LoadDataAsync();
+    }
+}
+```
+
+**✅ Figure: Good example - Auto mode for progressive web apps**
+
+## Decision Guide
+
+| Scenario | Recommended Mode | Why |
+|----------|-----------------|-----|
+| Marketing/landing pages | Static SSR | SEO + fast load |
+| Documentation | Static SSR | SEO + no interactivity needed |
+| Admin dashboards | Interactive Server | Complex UI + server access |
+| Real-time collaboration | Interactive Server | SignalR already needed |
+| Offline-first apps | Interactive WASM | Works without internet |
+| Games/calculators | Interactive WASM | No server needed |
+| Progressive web apps | Interactive Auto | Best of both worlds |
+| High-traffic public apps | Interactive WASM | Reduces server load |
+
+## Per-Component Configuration
+
+You can mix render modes within the same application:
+
+```razor
+@* Static page with interactive components *@
+@page "/products"
+
+<h1>Our Products</h1>
+
+@* Static product list *@
+<ProductList />
+
+@* Interactive search *@
+<ProductSearch @rendermode="InteractiveServer" />
+
+@* Interactive shopping cart *@
+<ShoppingCart @rendermode="InteractiveWebAssembly" />
+```
+
+**✅ Figure: Good example - Using the right render mode for each component**
+
+## Common Mistakes
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ❌ Using Interactive Server for everything "because it's easier"<br />
+    ❌ Using WebAssembly for pages that need server data access<br />
+    ❌ Not considering the user's network reliability<br />
+    ❌ Ignoring the ~2-3 MB initial download cost of WASM<br />
+    ❌ Using interactivity when static rendering would work
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Common render mode mistakes"
+/>
+
+## Performance Tips
+
+1. **Default to Static SSR** - Only add interactivity where needed
+2. **Pre-render interactive pages** - Improves perceived load time ([learn more about prerendering](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/prerender?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518))
+3. **Split large components** - Use WASM for UI-heavy components, Server for data-heavy
+4. **Cache WASM aggressively** - Use service workers for offline support
+5. **Monitor SignalR connections** - Server mode can be expensive at scale
