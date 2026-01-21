@@ -39,15 +39,15 @@ Renders pages on the server and sends static HTML to the client. No interactivit
 - You need the fastest initial page load
 - No client-side interactivity is needed
 
-**Benefits:**
-- ✅ Fastest initial load time
-- ✅ Best SEO
-- ✅ Minimal bandwidth usage
-- ✅ No JavaScript download required
+**✅ Benefits:**
+- Fastest initial load time
+- Best SEO
+- Minimal bandwidth usage
+- No JavaScript download required
 
-**Drawbacks:**
-- ❌ No interactivity without full page refresh
-- ❌ Every interaction requires server round-trip
+**❌ Drawbacks:**
+- No interactivity without full page refresh
+- Every interaction requires server round-trip
 
 ```razor
 @page "/about"
@@ -78,17 +78,17 @@ Maintains a SignalR connection to the server. UI updates are sent over the conne
 - Your app needs server-side resources (database, files)
 - Users have reliable internet connections
 
-**Benefits:**
-- ✅ Small initial download
-- ✅ Fast time-to-interactive
-- ✅ Direct access to server resources
-- ✅ Code stays on the server (more secure)
+**✅ Benefits:**
+- Small initial download
+- Fast time-to-interactive
+- Direct access to server resources
+- Code stays on the server (more secure)
 
-**Drawbacks:**
-- ❌ Requires persistent connection
-- ❌ Server memory used per user
-- ❌ Latency on every interaction
-- ❌ Doesn't work offline
+**❌ Drawbacks:**
+- Requires persistent connection
+- Server memory used per user
+- Latency on every interaction
+- Doesn't work offline
 
 ```razor
 @page "/counter"
@@ -120,17 +120,17 @@ Runs entirely in the browser using WebAssembly. No server connection needed afte
 - Minimizing server load is important
 - You don't need direct server resource access
 
-**Benefits:**
-- ✅ Works offline
-- ✅ No server load for interactivity
-- ✅ No latency after initial load
-- ✅ Rich client-side experience
+**✅ Benefits:**
+- Works offline
+- No server load for interactivity
+- No latency after initial load
+- Rich client-side experience
 
-**Drawbacks:**
-- ❌ Large initial download (~2-3 MB)
-- ❌ Slower initial load
-- ❌ Limited to browser capabilities
-- ❌ Cannot directly access server resources
+**❌ Drawbacks:**
+- Large initial download (~2-3 MB)
+- Slower initial load
+- Limited to browser capabilities
+- Cannot directly access server resources
 
 ```razor
 @page "/game"
@@ -163,16 +163,16 @@ Starts with Interactive Server, then upgrades to WebAssembly on subsequent visit
 - Users will return to your app
 - You need both fast initial load AND offline capability
 
-**Benefits:**
-- ✅ Fast first visit (Server mode)
-- ✅ Offline on return visits (WASM mode)
-- ✅ Best overall user experience
-- ✅ Automatic optimization
+**✅ Benefits:**
+- Fast first visit (Server mode)
+- Offline on return visits (WASM mode)
+- Best overall user experience
+- Automatic optimization
 
-**Drawbacks:**
-- ❌ More complex deployment
-- ❌ Requires both server and WASM hosting
-- ❌ Background WASM download on first visit
+**❌ Drawbacks:**
+- More complex deployment
+- Requires both server and WASM hosting
+- Background WASM download on first visit
 
 ```razor
 @page "/dashboard"
@@ -228,16 +228,16 @@ You can mix render modes within the same application:
 
 **✅ Figure: Good example - Using the right render mode for each component**
 
-## Common Mistakes
 
 <boxEmbed
   style="greybox"
   body={<>
-    ❌ Using Interactive Server for everything "because it's easier"<br />
-    ❌ Using WebAssembly for pages that need server data access<br />
-    ❌ Not considering the user's network reliability<br />
-    ❌ Ignoring the ~2-3 MB initial download cost of WASM<br />
-    ❌ Using interactivity when static rendering would work
+    ## ❌ Common Mistakes
+    - Using Interactive Server for everything "because it's easier"
+    - Using WebAssembly for pages that need server data access
+    - Not considering the user's network reliability
+    - Ignoring the ~2-3 MB initial download cost of WASM
+    - Using interactivity when static rendering would work
   </>}
   figurePrefix="bad"
   figure="Bad example - Common render mode mistakes"
