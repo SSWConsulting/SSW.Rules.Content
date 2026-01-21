@@ -75,6 +75,10 @@ function validateFrontmatter(filePath) {
   if (!fs.existsSync(filePath) || filePath.indexOf('.github') !== -1) {
     return; // Skip if file does not exist or is in .github directory
   }
+  const ruleType = determineCategory(filePath);
+  if (!ruleType) {
+    return; // Skip files that are not rules or categories
+  }
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatterContents = extractFrontMatter(fileContents);
   if (frontmatterContents === undefined) {
@@ -84,7 +88,6 @@ function validateFrontmatter(filePath) {
     });
     return;
   }
-  const ruleType = determineCategory(filePath);
   const missingSpaceErrors = getMissingSpaceErrors(
     frontmatterContents,
     schemas[ruleType]
