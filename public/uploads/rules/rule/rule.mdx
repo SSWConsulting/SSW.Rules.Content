@@ -20,13 +20,15 @@ related:
   - rule: public/uploads/rules/the-value-of-consistency/rule.mdx
   - rule: public/uploads/rules/add-useful-and-concise-figure-captions/rule.mdx
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
-seoDescription: Learn how to write SSW Rules using Markdown and MDX. This cheatsheet covers headings, lists, images, videos, code blocks, tables, and more.
+seoDescription: >-
+  Learn how to write SSW Rules using Markdown and MDX. This cheatsheet covers
+  headings, lists, images, videos, code blocks, tables, and more.
 created: 2021-02-22T03:20:26.000Z
 createdBy: 'Christian Morford-Waite [SSW]'
 createdByEmail: ChristianMWaite@ssw.com.au
-lastUpdated: 2025-12-23T06:33:38.971Z
-lastUpdatedBy: ''
-lastUpdatedByEmail: ''
+lastUpdated: 2026-01-13T22:26:47.533Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -112,6 +114,8 @@ _This text will be italic._
 _You **can** combine them_.
 
 ==These words== will be highlighted.
+
+==red:These words== will be highlighted in red.
 ```
 
 **Figure: Markdown to generate different text styles**
@@ -125,6 +129,8 @@ _You **can** combine them_.
 *You **can** combine them*.
 
 \==These words== will be highlighted.
+
+\==red:These words== will be highlighted in red.
 
 ***
 
@@ -213,17 +219,16 @@ This is [an external link](https://www.google.com).
 
 **Figure: Markdown to generate boxes**
 
-
 <boxEmbed
   style="greybox"
   body={<>
-    This is a box using the class "greybox".
+    This is a box using the class "greybox". Works the same as using a &lt;p&gt; .
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
   </>}
   figurePrefix="none"
   figure=""
 />
-
-
 
 <boxEmbed
   style="highlight"
@@ -234,51 +239,70 @@ This is [an external link](https://www.google.com).
   figure=""
 />
 
-
-
 <boxEmbed
   style="info"
   body={<>
-    This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+    This is a &lt;div&gt; using the class "info".
   </>}
   figurePrefix="none"
   figure=""
 />
 
+<boxEmbed
+  body={<>
+    This is a &lt;div&gt; using the class "warning".
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
+<boxEmbed
+  body={<>
+    This is a &lt;div&gt; using the class "tip".
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 <boxEmbed
   style="china"
   body={<>
-    This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    This is a &lt;div&gt; using the class "china".
   </>}
   figurePrefix="none"
   figure=""
 />
-
-
 
 <boxEmbed
   style="codeauditor"
   body={<>
-    This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    This is a &lt;div&gt; using the class "codeauditor".
   </>}
   figurePrefix="none"
   figure=""
 />
 
-
+<boxEmbed
+  body={<>
+    This is a &lt;div&gt; using the class "yakshaver".
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="yakshaver"
+/>
 
 <boxEmbed
   style="todo"
   body={<>
-    This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+    This is a &lt;div&gt; using the class "todo".
   </>}
   figurePrefix="none"
   figure=""
 />
 
----
+***
 
 ### 6. Images
 
@@ -297,70 +321,19 @@ This is [an external link](https://www.google.com).
 
 #### Classes for images
 
-<imageEmbed
-  alt="Image"
-  size="small"
-  showBorder={true}
-  figurePrefix="none"
-  figure='Image with size set to "small"'
-  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
+<imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;small&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;medium&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed
-  alt="Image"
-  size="medium"
-  showBorder={true}
-  figurePrefix="none"
-  figure='Image with size set to "medium"'
-  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Image with size set to &#x22;large&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={true}
-  figurePrefix="none"
-  figure='Image with size set to "large"'
-  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure='Image with showBorder set to "false"'
-  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Image with showBorder set to &#x22;false&#x22;" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
 #### Extra examples
 
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..." src="/uploadshttps://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
 
-<imageEmbed
-  alt="Image"
-  size="small"
-  showBorder={false}
-  figurePrefix="none"
-  figure="How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens..."
-  src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="small"
-  showBorder={false}
-  figurePrefix="none"
-  figure="...and with a short caption"
-  src="https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
-/>
-
-
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="...and with a short caption" src="/uploadshttps://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" />
 
 <boxEmbed
   style="todo"
@@ -371,56 +344,21 @@ This is [an external link](https://www.google.com).
   figure=""
 />
 
-
----
+***
 
 ### 7. Captions
 
 #### Captions on images
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Caption for bad images"
-  src="https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Caption for bad images" src="/uploadshttps://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Caption for regular images" src="/uploadshttps://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="ok" figure="Caption for OK images" src="/uploadshttps://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Caption for regular images"
-  src="https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="ok"
-  figure="Caption for OK images"
-  src="https://images.unsplash.com/photo-1478998674531-cb7d22e769df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-/>
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Caption for good images"
-  src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Caption for good images" src="/uploadshttps://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" />
 
 #### Captions on boxes
-
 
 <boxEmbed
   style="greybox"
@@ -431,8 +369,6 @@ This is [an external link](https://www.google.com).
   figure="Caption for bad examples"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -441,8 +377,6 @@ This is [an external link](https://www.google.com).
   figurePrefix="none"
   figure="Caption for normal examples"
 />
-
-
 
 <boxEmbed
   style="greybox"
@@ -453,8 +387,6 @@ This is [an external link](https://www.google.com).
   figure="Caption for ok examples"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -464,8 +396,7 @@ This is [an external link](https://www.google.com).
   figure="Caption for good examples"
 />
 
-
----
+***
 
 ### 8. Videos
 
@@ -609,7 +540,6 @@ public class MyClass
 ```
 
 **Figure: Markdown for email templates**
-
 
 ***
 
