@@ -7,11 +7,11 @@ This document provides essential information for AI coding agents working in the
 This is a **content-only repository** containing SSW's technical rules and best practices. It has no traditional build process - content is written in MDX (Markdown with JSX) and consumed by the [SSW.Rules engine](https://github.com/SSWConsulting/SSW.Rules) which builds it into a static site.
 
 **Structure:**
-- `public/uploads/rules/[rule-name]/rule.mdx` - Individual rules with frontmatter
-- Top category - `categories/[top-category-folder]/index.mdx`
-- `categories/[top-category-folder]/[category-name].mdx` - Category organization
-- `scripts/` - Validation and utility scripts (Node.js, Python, C#)
-- `.github/workflows/` - CI/CD automation
+* `public/uploads/rules/[rule-name]/rule.mdx` - Individual rules with frontmatter
+* Top category - `categories/[top-category-folder]/index.mdx`
+* `categories/[top-category-folder]/[category-name].mdx` - Category organization
+* `scripts/` - Validation and utility scripts (Node.js, Python, C#)
+* `.github/workflows/` - CI/CD automation
 
 ## Validation Commands
 
@@ -24,6 +24,7 @@ node frontmatter-validator.js '<comma-separated-files>'
 ```
 
 **Example:**
+
 ```bash
 node frontmatter-validator.js 'public/uploads/rules/my-rule/rule.mdx'
 ```
@@ -36,6 +37,7 @@ markdownlint <file-paths> --config .markdownlint/config.json
 ```
 
 **Auto-fix markdown:**
+
 ```bash
 markdownlint --fix <file-paths> --config .markdownlint/config.json
 ```
@@ -61,20 +63,21 @@ node rename-duplicate-images.js
 ### Frontmatter Structure (YAML)
 
 **Required fields:**
-- `type: rule` (always "rule")
-- `title:` Question format (e.g., "Do you use TypeScript?")
-- `uri:` Short kebab-case identifier for URL (e.g., "use-typescript")
-- `guid:` UUID identifier (generate with `uuidgen` or online tool)
-- `seoDescription:` Brief SEO-friendly description
-- `authors:` Array with `title` and `url` (SSW people URLs)
+* `type: rule` (always "rule")
+* `title:` Question format (e.g., "Do you use TypeScript?")
+* `uri:` Short kebab-case identifier for URL (e.g., "use-typescript")
+* `guid:` UUID identifier (generate with `uuidgen` or online tool)
+* `seoDescription:` Brief SEO-friendly description
+* `authors:` Array with `title` and `url` (SSW people URLs)
 
 **Optional fields:**
-- `archivedreason:` Reason for archiving (null if not archived)
-- `related:` Array of related rule objects with `rule:` key pointing to full path
-- `redirects:` Array of old URIs for redirect handling
-- `categories:` Array of category objects with full file paths
+* `archivedreason:` Reason for archiving (null if not archived)
+* `related:` Array of related rule objects with `rule:` key pointing to full path
+* `redirects:` Array of old URIs for redirect handling
+* `categories:` Array of category objects with full file paths
 
 **Example:**
+
 ```yaml
 ---
 type: rule
@@ -112,19 +115,21 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 ### Content Structure
 
 **For Rules (`public/uploads/rules/[rule-name]/rule.mdx`):**
+
 1. **Intro section** - Explain the problem/context
 2. **`<endIntro />`** - Marks end of introduction (REQUIRED for rules)
 3. **Main content** - Use good/bad examples with MDX components
 4. **Links to related rules** - Cross-reference other rules
 
 **For Categories (`categories/[folder]/[category-name].mdx`):**
-- Categories do NOT use `<endIntro />` tags
-- Only descriptive content in the body (after frontmatter)
-- No special intro/content separation needed
+* Categories do NOT use `<endIntro />` tags
+* Only descriptive content in the body (after frontmatter)
+* No special intro/content separation needed
 
 ### MDX Components
 
 **Box components:**
+
 ```md
 <boxEmbed
   style="greybox"
@@ -140,6 +145,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 **Prefixes:** `bad`, `ok`, `good`, `none`
 
 **Image components:**
+
 ```md
 <imageEmbed
   alt="Descriptive alt text"
@@ -152,6 +158,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 ```
 
 **Email templates:**
+
 ```md
 <emailEmbed
   from=""
@@ -167,6 +174,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 ```
 
 **YouTube videos:**
+
 ```md
 <youtubeEmbed
   url="https://www.youtube.com/embed/VIDEO_ID"
@@ -178,10 +186,10 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 
 ### File Organization
 
-- Rule files: `public/uploads/rules/[uri-name]/rule.mdx`
-- Images: Store next to rule file in the same folder
-- Use **kebab-case** for folder and file names
-- Folder name MUST match the `uri` field in frontmatter
+* Rule files: `public/uploads/rules/[uri-name]/rule.mdx`
+* Images: Store next to rule file in the same folder
+* Use **kebab-case** for folder and file names
+* Folder name MUST match the `uri` field in frontmatter
 
 ### Markdown Best Practices
 
@@ -195,14 +203,14 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 
 ### Writing Style
 
-- Present tense, active voice
-- Neutral/impersonal (third-person perspective)
-- Company-agnostic and objective
-- Concise but comprehensive
-- **Show the pain** - Explain WHY before HOW
-- **Good/bad examples** - Use `figurePrefix="bad"` and `figurePrefix="good"`
-- Focus on "why" not "how" - Link to external docs for implementation details
-- Rule titles are ALWAYS questions (e.g., "Do you...?")
+* Present tense, active voice
+* Neutral/impersonal (third-person perspective)
+* Company-agnostic and objective
+* Concise but comprehensive
+* **Show the pain** - Explain WHY before HOW
+* **Good/bad examples** - Use `figurePrefix="bad"` and `figurePrefix="good"`
+* Focus on "why" not "how" - Link to external docs for implementation details
+* Rule titles are ALWAYS questions (e.g., "Do you...?")
 
 ## Common Tasks
 
@@ -222,82 +230,83 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 4. Validate with frontmatter validator
 
 **Category folders:**
-- `communication/` - Documentation, presentations, meetings
-- `software-engineering/` - Development practices, code quality
-- `project-delivery/` - Project management, Scrum
-- `design/` - UX, UI guidelines
-- `marketing-and-video/` - Marketing content
-- `artificial-intelligence/` - AI/ML practices
-- `infrastructure-and-networking/` - DevOps, infrastructure
-- `client-engagement/` - Client relationships
-- `company-operations/` - Internal operations
-- `others/` - Miscellaneous
+* `communication/` - Documentation, presentations, meetings
+* `software-engineering/` - Development practices, code quality
+* `project-delivery/` - Project management, Scrum
+* `design/` - UX, UI guidelines
+* `marketing-and-video/` - Marketing content
+* `artificial-intelligence/` - AI/ML practices
+* `infrastructure-and-networking/` - DevOps, infrastructure
+* `client-engagement/` - Client relationships
+* `company-operations/` - Internal operations
+* `others/` - Miscellaneous
 
 **Choose the most relevant category file**: Browse the category files in the appropriate folder. For example:
-   * Documentation rules → `/categories/communication/rules-to-better-technical-documentation.md`
-   * Testing rules → `/categories/software-engineering/rules-to-better-unit-tests.md`
-   * Meeting rules → `/categories/communication/rules-to-better-meetings.md`
+
+* Documentation rules → `/categories/communication/rules-to-better-technical-documentation.md`
+* Testing rules → `/categories/software-engineering/rules-to-better-unit-tests.md`
+* Meeting rules → `/categories/communication/rules-to-better-meetings.md`
 
 ### Handling Images
 
-- Images go in the rule folder next to `rule.mdx`
-- Use descriptive filenames (kebab-case)
-- Extensions must be lowercase (`.jpg`, `.png`, `.gif`, `.svg`)
-- Always use `<imageEmbed>` component, never plain markdown images
-- Include descriptive `alt` text for accessibility
+* Images go in the rule folder next to `rule.mdx`
+* Use descriptive filenames (kebab-case)
+* Extensions must be lowercase (`.jpg`, `.png`, `.gif`, `.svg`)
+* Always use `<imageEmbed>` component, never plain markdown images
+* Include descriptive `alt` text for accessibility
 
 ## Validation Rules
 
 ### Frontmatter Schema Requirements
 
 **Rules must have:**
-- Valid `type: rule`
-- Non-empty `title`, `uri`, `guid`, `seoDescription`
-- At least one author with valid `title` and `url`
-- Valid UUID format for `guid`
-- Valid URI reference format for `uri`
-- Valid datetime for `created` field
+* Valid `type: rule`
+* Non-empty `title`, `uri`, `guid`, `seoDescription`
+* At least one author with valid `title` and `url`
+* Valid UUID format for `guid`
+* Valid URI reference format for `uri`
+* Valid datetime for `created` field
 
 ### Markdown Linting
 
 **Disabled rules:**
-- MD046 - Code block style (fenced blocks allowed)
-- MD013 - Line length (no limit)
-- MD033 - Inline HTML (needed for MDX)
-- MD036 - Emphasis instead of heading
-- MD055 - Table pipe style
-- MD024 - Duplicate headings (allowed)
+* MD046 - Code block style (fenced blocks allowed)
+* MD013 - Line length (no limit)
+* MD033 - Inline HTML (needed for MDX)
+* MD036 - Emphasis instead of heading
+* MD055 - Table pipe style
+* MD024 - Duplicate headings (allowed)
 
 **Enabled rules:**
-- MD003 - Heading style must be ATX (`##`)
-- MD004 - List style must use asterisks (`*`)
+* MD003 - Heading style must be ATX (`##`)
+* MD004 - List style must use asterisks (`*`)
 
 ## CI/CD Automation
 
 **On every PR:**
-- Frontmatter validation (changed files only)
-- Markdown linting with auto-fix
-- Image validation
-- Folder name consistency check
+* Frontmatter validation (changed files only)
+* Markdown linting with auto-fix
+* Image validation
+* Folder name consistency check
 
 **On push to main:**
-- Full frontmatter validation (all files)
-- Deployment trigger to SSW.Rules engine
+* Full frontmatter validation (all files)
+* Deployment trigger to SSW.Rules engine
 
 **Scheduled (weekly):**
-- Duplicate image detection and renaming
+* Duplicate image detection and renaming
 
 ## Important Notes
 
-- NO package.json in root - this is a content repo
-- NO traditional build/test commands - validation only
-- Content is consumed by separate build system (SSW.Rules)
-- Always run validation scripts before committing
-- Folder names auto-sync with `uri` field via GitHub Actions
-- Use TinaCMS for visual editing (optional)
-- Read `.github/copilot-instructions.md` for detailed MDX component usage
+* NO package.json in root - this is a content repo
+* NO traditional build/test commands - validation only
+* Content is consumed by separate build system (SSW.Rules)
+* Always run validation scripts before committing
+* Folder names auto-sync with `uri` field via GitHub Actions
+* Use TinaCMS for visual editing (optional)
+* Read `.github/copilot-instructions.md` for detailed MDX component usage
 
 ## Resources
 
-- [SSW.Rules Engine](https://github.com/SSWConsulting/SSW.Rules) - The build system
-- [Copilot Instructions](.github/copilot-instructions.md) - Detailed component usage
+* [SSW.Rules Engine](https://github.com/SSWConsulting/SSW.Rules) - The build system
+* [Copilot Instructions](.github/copilot-instructions.md) - Detailed component usage
