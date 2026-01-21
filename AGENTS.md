@@ -7,6 +7,7 @@ This document provides essential information for AI coding agents working in the
 This is a **content-only repository** containing SSW's technical rules and best practices. It has no traditional build process - content is written in MDX (Markdown with JSX) and consumed by the [SSW.Rules engine](https://github.com/SSWConsulting/SSW.Rules) which builds it into a static site.
 
 **Structure:**
+
 * `public/uploads/rules/[rule-name]/rule.mdx` - Individual rules with frontmatter
 * Top category - `categories/[top-category-folder]/index.mdx`
 * `categories/[top-category-folder]/[category-name].mdx` - Category organization
@@ -63,6 +64,7 @@ node rename-duplicate-images.js
 ### Frontmatter Structure (YAML)
 
 **Required fields:**
+
 * `type: rule` (always "rule")
 * `title:` Question format (e.g., "Do you use TypeScript?")
 * `uri:` Short kebab-case identifier for URL (e.g., "use-typescript")
@@ -71,6 +73,7 @@ node rename-duplicate-images.js
 * `authors:` Array with `title` and `url` (SSW people URLs)
 
 **Optional fields:**
+
 * `archivedreason:` Reason for archiving (null if not archived)
 * `related:` Array of related rule objects with `rule:` key pointing to full path
 * `redirects:` Array of old URIs for redirect handling
@@ -122,6 +125,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 4. **Links to related rules** - Cross-reference other rules
 
 **For Categories (`categories/[folder]/[category-name].mdx`):**
+
 * Categories do NOT use `<endIntro />` tags
 * Only descriptive content in the body (after frontmatter)
 * No special intro/content separation needed
@@ -230,6 +234,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 4. Validate with frontmatter validator
 
 **Category folders:**
+
 * `communication/` - Documentation, presentations, meetings
 * `software-engineering/` - Development practices, code quality
 * `project-delivery/` - Project management, Scrum
@@ -260,6 +265,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 ### Frontmatter Schema Requirements
 
 **Rules must have:**
+
 * Valid `type: rule`
 * Non-empty `title`, `uri`, `guid`, `seoDescription`
 * At least one author with valid `title` and `url`
@@ -270,6 +276,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 ### Markdown Linting
 
 **Disabled rules:**
+
 * MD046 - Code block style (fenced blocks allowed)
 * MD013 - Line length (no limit)
 * MD033 - Inline HTML (needed for MDX)
@@ -278,22 +285,26 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 * MD024 - Duplicate headings (allowed)
 
 **Enabled rules:**
+
 * MD003 - Heading style must be ATX (`##`)
 * MD004 - List style must use asterisks (`*`)
 
 ## CI/CD Automation
 
 **On every PR:**
+
 * Frontmatter validation (changed files only)
 * Markdown linting with auto-fix
 * Image validation
 * Folder name consistency check
 
 **On push to main:**
+
 * Full frontmatter validation (all files)
 * Deployment trigger to SSW.Rules engine
 
 **Scheduled (weekly):**
+
 * Duplicate image detection and renaming
 
 ## Important Notes
