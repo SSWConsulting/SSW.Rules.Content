@@ -135,6 +135,7 @@ The SSW Rules platform uses MDX `<boxEmbed>` components to create styled boxes f
 ```
 
 **Parameters:**
+
 * `style`: Box type (greybox, info, highlight, china, codeauditor, todo)
 * `body`: Content wrapped in `{<> ... </>}`
 * `figurePrefix`: Caption prefix (bad, ok, good, none)
@@ -221,6 +222,7 @@ Set `showBorder={false}` for images that don't need borders (e.g., screenshots w
 ```
 
 **Parameters:**
+
 * `alt`: Descriptive alt text (required for accessibility)
 * `size`: small, medium, or large
 * `showBorder`: true or false
@@ -311,6 +313,7 @@ _You **can** combine them_.
 ==These words== will be highlighted.
 
 **Best practices:**
+
 * Use **bold** for emphasis and important terms
 * Use _italic_ for subtle emphasis or when introducing new terms
 * Use ~~strikethrough~~ to show deprecated or removed items
@@ -494,6 +497,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 #### Field Descriptions
 
 **Required fields:**
+
 * `type`: Always "rule"
 * `title`: Question format (e.g., "Do you use Cocona for building great command line tools in .NET?")
 * `guid`: Unique UUID identifier
@@ -502,6 +506,7 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 * `authors`: Array of author objects with title and url
 
 **Optional fields:**
+
 * `archivedreason`: Reason for archiving (null or empty if not archived)
 * `seoDescription`: SEO meta description
 * `related`: Array of related rule URIs (not full paths)
@@ -509,11 +514,13 @@ lastUpdatedByEmail:  # System-managed: Last editor email
 * `sidebarVideo`: YouTube Shorts URL for sidebar video
 
 **System-managed fields** (auto-updated by the system):
+
 * `createdBy`, `createdByEmail`: Original creator information
 * `isArchived`: Boolean archive status
 * `lastUpdated`, `lastUpdatedBy`, `lastUpdatedByEmail`: Last update metadata
 
 **Note:**
+
 * `related` uses rule URIs only (e.g., "rule-name")
 * `categories` uses full file paths (e.g., "categories/communication/rules-to-better-technical-documentation.mdx")
 
@@ -558,6 +565,7 @@ Always include descriptive captions on images and boxes using the `figure` param
 ```
 
 **Caption prefix options:**
+
 * `figurePrefix="bad"` - Adds ❌ for bad examples
 * `figurePrefix="ok"` - Adds 😐 for acceptable but not ideal examples  
 * `figurePrefix="good"` - Adds ✅ for recommended examples
@@ -582,14 +590,16 @@ Always include descriptive captions on images and boxes using the `figure` param
 
 ## File Organization
 
-* Rules go in `/rules/rule-name/rule.md`
+* Rules go in `/public/rules/{{ RULE_NAME }} /rule.md`
 * Categories go in `/categories/category-name.md`
-* Images go next to the rule markdown file
+* Images go next to the rule markdown file - `/public/rules/{{ RULE_NAME }}/image-file.jpg`
 * Use kebab-case for file and folder names
 
 ## Adding Rules to Categories
 
 Every rule should belong to at least one category to help users discover related content. Categories are organized in the `/categories` folder and structured by topic.
+
+There are top-categories and sub-categories. Each category file contains an index of rule URIs that belong to that category.
 
 ### Category Structure
 
