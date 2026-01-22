@@ -10,7 +10,7 @@ guid: 853dc513-c181-4f83-8b5f-3ffe3d4d5383
 created: 2026-01-20T06:06:33.561Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-01-22T22:45:49.502Z
+lastUpdated: 2026-01-22T22:50:39.525Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -23,6 +23,17 @@ When your product owner asks for an architecture Diagram on you project choosing
 ## What is Mermaid?
 
 Mermaid is a Javascript, node based charting tool inspired by markdown. It's supported by a number of Markdown parsing engines like GitHub, and [TinaCMS](https://tina.io/blog/mermaid-tina-progress).
+
+
+```
+flowchart LR
+    A[Add Item to Cart] --> B[Go to Checkout]
+    B --> C[Enter Payment Details]
+    C --> D[Process Payment]
+    D --> E[Order Confirmed]
+```
+
+**Figure: Mermaid syntax for an online checkout flow**
 
 Why Mermaid excels for collaboration
 
