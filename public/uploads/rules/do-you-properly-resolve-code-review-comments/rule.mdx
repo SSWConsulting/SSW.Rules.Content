@@ -1,0 +1,159 @@
+---
+archivedreason: null
+authors:
+- title: Tom Iwainski
+  url: https://www.ssw.com.au/people/thomas-iwainski/
+created: 2025-01-22T00:00:00.000Z
+guid: 8f2b4c1e-7a9d-4e5f-9b8a-2c3d4e5f6a7b
+related:
+- rule: public/uploads/rules/reply-done/rule.mdx
+- rule: public/uploads/rules/use-prefixes-to-improve-code-review-communication/rule.mdx
+- rule: public/uploads/rules/mandatory-vs-suggested-pr-changes/rule.mdx
+- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+- rule: public/uploads/rules/pr-suggest-changes/rule.mdx
+seoDescription: Learn how to properly resolve code review comments in pull requests by leaving clear responses like "done" or explaining why not, helping other reviewers understand the resolution.
+title: Do you properly resolve code review comments?
+categories:
+  - category: categories/project-delivery/rules-to-better-pull-requests.mdx
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+type: rule
+uri: do-you-properly-resolve-code-review-comments
+---
+
+When someone leaves a comment or GitHub Copilot creates a comment on your pull request, it's tempting to simply mark it as resolved and move on. 
+However, this creates confusion for other reviewers who can't tell if the suggestion was implemented, why it wasn't implemented, or what the outcome was.
+
+Just like the "Reply Done" principle for emails, you should always provide a clear response to code review comments before resolving them. 
+This helps maintain transparency and ensures all reviewers understand the resolution.
+
+<endIntro />
+
+## Always respond before resolving
+
+When you address a comment in your pull request, you should:
+
+1. **For change requests**: Implement the change and reply "Done" or explain why it will not be implemented 
+2. **For questions**: Reply without resolving to allow conversation continuation
+
+
+## Bad examples
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    // Comment simply marked as resolved with no response
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - No indication of what happened to the suggestion"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @reviewer - Fixed it
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Vague response doesn't clearly confirm the resolution"
+/>
+
+
+## Good examples
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @reviewer - **Done** - Added null checking as suggested
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear confirmation that the change was implemented"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @reviewer - **Won't do** - This would break existing compatibility with the legacy API. We'll address this in v2.0 when we can make breaking changes.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Clear explanation why the suggestion wasn't implemented"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @reviewer - **Partially done** - Implemented the main optimization but left the logging as-is because it's needed for debugging in production.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Explains what was done and what wasn't"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @reviewer - The performance impact is minimal because this code only runs during initial app startup, not on each request.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Answers a question without resolving to continue conversation"
+/>
+
+
+
+## Why this matters
+
+### For other reviewers
+- **Clarity**: They can quickly see which suggestions were implemented and why others weren't
+- **Efficiency**: No need to manually compare code to understand what changed
+- **Learning**: Understanding why certain suggestions were rejected provides valuable context
+
+### For the PR author
+- **Documentation**: Creates a clear record of decisions made during the review
+- **Accountability**: Shows you've carefully considered all feedback
+- **Communication**: Demonstrates respect for the reviewer's time and input
+
+## Handling different types of comments
+
+### For **"Change"** comments
+These are typically blocking requests that must be addressed. Always respond with:
+- "**✅ Done**"
+- "**Won't do** - reason why the change isn't being made"
+
+### For **"Question"** comments
+Reply without resolving so the author can read it and continue the conversation:
+- "The reason for this approach is..."
+- "Yes, that's handled in the validation layer"
+- "Good point - let me clarify..."
+
+Only mark questions as resolved after the conversation is complete and both parties agree.
+
+## Responding to automated comments
+
+When GitHub Copilot or other automated tools leave comments:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @copilot - **Done** - Fixed the security vulnerability by adding input validation
+  </>}
+  figurePrefix="good"
+  figure="Good example - Responds to automated comments with same clarity"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    @copilot - **False positive** - This code is safe because the input is already sanitized in the data access layer
+  </>}
+  figurePrefix="good"
+  figure="Good example - Corrects automated analysis with explanation"
+/>
+
+## Best practices
+
+1. **Be specific**: Reference exactly what you did in response to the comment
+2. **Include context**: Provide brief reasoning for your decisions
+3. **Use consistent formatting**: Start with the status (Done, Won't do, etc.)
+4. **Address all comments**: Don't leave any comment unresolved without a response
+5. **Keep it concise**: Provide enough detail without being overly verbose
+
+
+By following these practices, you create a more transparent and efficient code review process that benefits everyone involved. 
+The small extra effort of writing clear responses saves significant time and confusion for the entire team.
