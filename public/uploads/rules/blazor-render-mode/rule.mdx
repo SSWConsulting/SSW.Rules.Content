@@ -1,31 +1,32 @@
 ---
 type: rule
-archivedreason: null
 title: Do you choose the right Blazor render mode?
-seoDescription: Learn how to choose the right Blazor render mode - Static SSR, Server, WebAssembly, or Auto - based on your application's requirements for performance, interactivity, and user experience.
-guid: 2f1e503c-f3b2-4437-923e-9db9fe4edb6b
 uri: blazor-render-mode
-created: 2026-01-22T00:00:00.000Z
-authors:
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related:
-  - why-blazor-is-great
-  - blazor-basic-appstate-pattern
 categories:
   - category: categories/software-engineering/rules-to-better-blazor.mdx
+authors:
+  - title: Brady Stroud
+    url: 'https://ssw.com.au/people/brady-stroud'
+related:
+  - {}
+guid: 2f1e503c-f3b2-4437-923e-9db9fe4edb6b
+seoDescription: >-
+  Learn how to choose the right Blazor render mode - Static SSR, Server,
+  WebAssembly, or Auto - based on your application's requirements for
+  performance, interactivity, and user experience.
+created: 2026-01-22T00:00:00.000Z
+createdBy: Capt. Brady Stroud
+createdByEmail: bradystroud@ssw.com.au
+archivedreason: null
 ---
 
 Blazor (.NET 8+) offers multiple render modes, each with different performance characteristics and capabilities. Choosing the wrong render mode can lead to poor user experience, unnecessary server load, or missed opportunities for interactivity.
 
-Understanding the strengths and trade-offs of each render mode helps you make informed architectural decisions. For comprehensive details, see [Blazor render modes on Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
+Understanding the strengths and trade-offs of each render mode helps you make informed architectural decisions. For comprehensive details, see [Blazor render modes on Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-10.0\&WT.mc_id=DT-MVP-33518).
 
 <endIntro />
 
-<youtubeEmbed
-  url="https://www.youtube.com/embed/HZAdXx7-PnM"
-  description={"Video: Blazor Component Render Modes [Pt 8] | Front-end Web Development with .NET for Beginners"}
-/>
+<youtubeEmbed url="https://www.youtube.com/embed/HZAdXx7-PnM" description="Video: Blazor Component Render Modes [Pt 8] | Front-end Web Development with .NET for Beginners" />
 
 ## The Blazor Render Modes
 
@@ -34,20 +35,23 @@ Understanding the strengths and trade-offs of each render mode helps you make in
 Renders pages on the server and sends static HTML to the client. No interactivity after initial render.
 
 **Use when:**
-- Content is mostly static (blogs, documentation, marketing pages)
-- SEO is critical
-- You need the fastest initial page load
-- No client-side interactivity is needed
+
+* Content is mostly static (blogs, documentation, marketing pages)
+* SEO is critical
+* You need the fastest initial page load
+* No client-side interactivity is needed
 
 **✅ Benefits:**
-- Fastest initial load time
-- Best SEO
-- Minimal bandwidth usage
-- No JavaScript download required
+
+* Fastest initial load time
+* Best SEO
+* Minimal bandwidth usage
+* No JavaScript download required
 
 **❌ Drawbacks:**
-- No interactivity without full page refresh
-- Every interaction requires server round-trip
+
+* No interactivity without full page refresh
+* Every interaction requires server round-trip
 
 ```razor
 @page "/about"
@@ -73,22 +77,25 @@ Renders pages on the server and sends static HTML to the client. No interactivit
 Maintains a SignalR connection to the server. UI updates are sent over the connection in real-time.
 
 **Use when:**
-- You need interactivity
-- You want to avoid large client downloads
-- Your app needs server-side resources (database, files)
-- Users have reliable internet connections
+
+* You need interactivity
+* You want to avoid large client downloads
+* Your app needs server-side resources (database, files)
+* Users have reliable internet connections
 
 **✅ Benefits:**
-- Small initial download
-- Fast time-to-interactive
-- Direct access to server resources
-- Code stays on the server (more secure)
+
+* Small initial download
+* Fast time-to-interactive
+* Direct access to server resources
+* Code stays on the server (more secure)
 
 **❌ Drawbacks:**
-- Requires persistent connection
-- Server memory used per user
-- Latency on every interaction
-- Doesn't work offline
+
+* Requires persistent connection
+* Server memory used per user
+* Latency on every interaction
+* Doesn't work offline
 
 ```razor
 @page "/counter"
@@ -115,22 +122,25 @@ Maintains a SignalR connection to the server. UI updates are sent over the conne
 Runs entirely in the browser using WebAssembly. No server connection needed after initial load.
 
 **Use when:**
-- Users may have unreliable connections
-- You want offline capability
-- Minimizing server load is important
-- You don't need direct server resource access
+
+* Users may have unreliable connections
+* You want offline capability
+* Minimizing server load is important
+* You don't need direct server resource access
 
 **✅ Benefits:**
-- Works offline
-- No server load for interactivity
-- No latency after initial load
-- Rich client-side experience
+
+* Works offline
+* No server load for interactivity
+* No latency after initial load
+* Rich client-side experience
 
 **❌ Drawbacks:**
-- Large initial download (~2-3 MB)
-- Slower initial load
-- Limited to browser capabilities
-- Cannot directly access server resources
+
+* Large initial download (\~2-3 MB)
+* Slower initial load
+* Limited to browser capabilities
+* Cannot directly access server resources
 
 ```razor
 @page "/game"
@@ -158,21 +168,24 @@ Runs entirely in the browser using WebAssembly. No server connection needed afte
 Starts with Interactive Server, then upgrades to WebAssembly on subsequent visits (after downloading).
 
 **Use when:**
-- You want the best of both worlds
-- First-time performance matters
-- Users will return to your app
-- You need both fast initial load AND offline capability
+
+* You want the best of both worlds
+* First-time performance matters
+* Users will return to your app
+* You need both fast initial load AND offline capability
 
 **✅ Benefits:**
-- Fast first visit (Server mode)
-- Offline on return visits (WASM mode)
-- Best overall user experience
-- Automatic optimization
+
+* Fast first visit (Server mode)
+* Offline on return visits (WASM mode)
+* Best overall user experience
+* Automatic optimization
 
 **❌ Drawbacks:**
-- More complex deployment
-- Requires both server and WASM hosting
-- Background WASM download on first visit
+
+* More complex deployment
+* Requires both server and WASM hosting
+* Background WASM download on first visit
 
 ```razor
 @page "/dashboard"
@@ -192,19 +205,6 @@ Starts with Interactive Server, then upgrades to WebAssembly on subsequent visit
 ```
 
 **✅ Figure: Good example - Auto mode for progressive web apps**
-
-## Decision Guide
-
-| Scenario | Recommended Mode | Why |
-|----------|-----------------|-----|
-| Marketing/landing pages | Static SSR | SEO + fast load |
-| Documentation | Static SSR | SEO + no interactivity needed |
-| Admin dashboards | Interactive Server | Complex UI + server access |
-| Real-time collaboration | Interactive Server | SignalR already needed |
-| Offline-first apps | Interactive WASM | Works without internet |
-| Games/calculators | Interactive WASM | No server needed |
-| Progressive web apps | Interactive Auto | Best of both worlds |
-| High-traffic public apps | Interactive WASM | Reduces server load |
 
 ## Per-Component Configuration
 
@@ -227,26 +227,3 @@ You can mix render modes within the same application:
 ```
 
 **✅ Figure: Good example - Using the right render mode for each component**
-
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    ## ❌ Common Mistakes
-    - Using Interactive Server for everything "because it's easier"
-    - Using WebAssembly for pages that need server data access
-    - Not considering the user's network reliability
-    - Ignoring the ~2-3 MB initial download cost of WASM
-    - Using interactivity when static rendering would work
-  </>}
-  figurePrefix="bad"
-  figure="Bad example - Common render mode mistakes"
-/>
-
-## Performance Tips
-
-1. **Default to Static SSR** - Only add interactivity where needed
-2. **Pre-render interactive pages** - Improves perceived load time ([learn more about prerendering](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/prerender?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518))
-3. **Split large components** - Use WASM for UI-heavy components, Server for data-heavy
-4. **Cache WASM aggressively** - Use service workers for offline support
-5. **Monitor SignalR connections** - Server mode can be expensive at scale
