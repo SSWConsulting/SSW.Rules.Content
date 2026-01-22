@@ -11,7 +11,7 @@ seoDescription: >-
 created: 2026-01-21T00:43:12.725Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-01-21T23:47:27.768Z
+lastUpdated: 2026-01-22T01:42:24.491Z
 lastUpdatedBy: Griffen Edge
 lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
@@ -47,21 +47,9 @@ Store it in a shared, versioned location (e.g. design assets folder).
   body={<>
     A single high-quality Yak image is used as the reference input for multiple tools (Sora and Gemini Veo) to generate different animations while preserving the same look.
   </>}
-  figurePrefix="none"
-  figure=""
+  figurePrefix="good"
+  figure="One base image used consistently across multiple AI tools"
 />
-
-\::: greybox
-
-A single high-quality Yak image is used as the reference input for multiple tools (Sora and Gemini Veo) to generate different animations while preserving the same look.
-
-\:::
-
-\::: good
-
-Figure: Good example - One base image used consistently across multiple AI tools
-
-\:::
 
 ## Be explicit in your prompts
 
@@ -75,17 +63,14 @@ Include:
 * Camera framing and lighting
 * Instruction to **preserve the original character design**
 
-\::: greybox
-
-"Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Animate the Yak standing and covering his eyes with his hooves."
-
-\:::
-
-\::: good
-
-Figure: Good example - Explicitly instructing the model to preserve the original character
-
-\:::
+<boxEmbed
+  body={<>
+    "Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Animate the Yak standing and covering his eyes with his hooves."
+  </>}
+  figurePrefix="good"
+  figure="Explicitly instructing the model to preserve the original character"
+  style="greybox"
+/>
 
 ## Reuse the same reference across tools
 
@@ -109,23 +94,19 @@ Document:
 * Any settings or options selected
 * Known limitations or gotchas
 
-\::: greybox
-
-Base Image: yak-base-v1.png
-
-Tool: Gemini Veo
-
-Prompt: "Make a video of this Yak standing up and covering his eyes with his hooves."
-
-Notes: Minor motion smoothing required after export.
-
-\:::
-
-\::: good
-
-Figure: Good example - A documented, repeatable workflow
-
-\:::
+<boxEmbed
+  body={<>
+    Base Image: yak-base-v1.png
+    
+    Tool: Gemini Veo
+    
+    Prompt: "Make a video of this Yak standing up and covering his eyes with his hooves."
+    
+    Notes: Minor motion smoothing required after export.
+  </>}
+  figurePrefix="good"
+  figure="A documented, repeatable workflow"
+/>
 
 ## Use approvals for brand assets
 
