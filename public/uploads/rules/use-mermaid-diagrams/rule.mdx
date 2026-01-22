@@ -1,0 +1,62 @@
+---
+title: Do you use Mermaid diagrams?
+uri: best-tools-technical-diagrams
+categories:
+  - category: categories/communication/rules-to-better-technical-documentation.mdx
+authors:
+  - title: Caleb Williams
+    url: 'https://www.ssw.com.au/people/caleb-williams/'
+guid: 853dc513-c181-4f83-8b5f-3ffe3d4d5383
+created: '2026-01-20T06:06:33.561Z'
+createdBy: Caleb Williams
+createdByEmail: CalebWilliams@ssw.com.au
+lastUpdated: '2026-01-22T22:53:56.356Z'
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
+---
+
+
+When your product owner asks for an architecture Diagram on your project choosing the right software can easily lead to decision paralysis. You've got the choice between Draw\.io, Excalidraw, Miro,  Diagrams.net, Visio, Lucid chart and many other options. Mermaid diagrams give you a convenient text based editing format and can easily be tweaked, changed, and maintained without using proprietary software.
+
+
+<endIntro />
+
+## What is Mermaid?
+
+Mermaid is a Javascript, node based charting tool inspired by markdown. It's supported by a number of Markdown parsing engines like [GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams), and [TinaCMS](https://tina.io/blog/mermaid-tina-progress).
+
+
+```
+flowchart LR
+    A[Add Item to Cart] --> B[Go to Checkout]
+    B --> C[Enter Payment Details]
+    C --> D[Process Payment]
+    D --> E[Order Confirmed]
+```
+
+**Figure: Mermaid syntax for an online checkout flow**
+
+Why Mermaid excels for collaboration
+
+
+
+Visual tools like Draw\.io or Excalidraw are excellent for white boarding and quick brainstorming. However, they start to fall down when diagrams need to be:
+
+* Maintained over time
+* Reviewed in pull requests
+* Kept in sync with code
+
+## When to use Mermaid
+
+* Documentation sites: Because Mermaid diagrams can be stored in markdown it's good to use them on for documentation pages that are updated frequently.
+* GitHub: Mermaid diagrams are supported by [GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams), meaning they can be embedded in Issues, Pull requests, comments and your documentation.
+
+For more information about tools for creating architecture diagrams see rule [Do you have an architecture diagram](https://www.ssw.com.au/rules/architecture-diagram).
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="bad" figure="Images embeds in GitHub issues are difficult to edit" src="/uploads/rules/best-tools-technical-diagrams/image-embed-github-issue.png" />
+
+<imageEmbed alt="Prototyping with Mermaid in a GitHub Issue" size="medium" showBorder={false} figurePrefix="good" figure="Mermaid diagrams are easier to edit for contributors" src="/uploads/rules/best-tools-technical-diagrams/mermaid-embed-github-issue.png" />
+
+## AI Friendly
+
+Because mermaid diagrams are text based, they can quickly be churned by AI tools like ChatGPT and Claude Desktop, making it quicker and easier to draft changes.
