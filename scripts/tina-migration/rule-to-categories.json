@@ -9063,7 +9063,7 @@
     ],
     "migrate-from-edmx-to-ef-core": [
         "rules-to-better-entity-framework",
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "bundle-all-your-customizations-in-a-solution": [
         "rules-to-better-power-apps"
@@ -9373,43 +9373,43 @@
         "rules-to-better-windows-forms-applications-clickonce"
     ],
     "why-upgrade-to-latest-dotnet": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "migration-plans": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "migrating-web-apps-to-dotnet": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "dotnet-upgrade-assistant": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "migrate-from-system-web-to-modern-alternatives": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "migrate-global-asax-to-asp-net-core": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "know-how-to-migrate-owin-to-asp-net-core": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "know-how-to-migrate-web-config-to-asp-net-core": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "manage-compatibility-for-different-tfms": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "dotnet-upgrade-for-complex-projects": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "do-you-check-your-api-serialisation-format": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "migrating-frontend-to-net8": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "use-banned-api-analyzers": [
-        "rules-to-better-net8-migrations"
+        "rules-to-better-net10-migrations"
     ],
     "do-you-use-ms-project-to-track-project-budget-usage": [
         "rules-to-better-microsoft-project-server"
