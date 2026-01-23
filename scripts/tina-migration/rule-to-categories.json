@@ -9405,7 +9405,7 @@
     "do-you-check-your-api-serialisation-format": [
         "rules-to-better-net10-migrations"
     ],
-    "migrating-frontend-to-net8": [
+    "migrating-frontend-to-net10": [
         "rules-to-better-net10-migrations"
     ],
     "use-banned-api-analyzers": [
