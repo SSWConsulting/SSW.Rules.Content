@@ -9381,7 +9381,7 @@
     "migrating-web-apps-to-dotnet": [
         "rules-to-better-net10-migrations"
     ],
-    "dotnet-upgrade-assistant": [
+    "dotnet-modernization-tools": [
         "rules-to-better-net10-migrations"
     ],
     "migrate-from-system-web-to-modern-alternatives": [
@@ -9405,7 +9405,7 @@
     "do-you-check-your-api-serialisation-format": [
         "rules-to-better-net10-migrations"
     ],
-    "migrating-frontend-to-net8": [
+    "migrating-frontend-to-net10": [
         "rules-to-better-net10-migrations"
     ],
     "use-banned-api-analyzers": [
