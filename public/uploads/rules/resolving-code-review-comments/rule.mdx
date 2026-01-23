@@ -35,12 +35,30 @@ This helps maintain transparency and ensures all reviewers understand the resolu
 
 <endIntro _hidden="" />
 
-## Always respond before resolving
+## How to respond to different types of comments
 
-When you address a comment in your pull request, you should:
+When you address a comment in your pull request, the response depends on the type of comment:
 
-* **For change requests** - Implement the change and reply "Done" or explain why it will not be implemented
-* **For questions** - Reply without resolving to allow conversation continuation
+### For **"Change"** comments
+
+These are typically blocking requests that must be addressed. Always respond with:
+
+* "**✅ Done**" - after implementing the change
+* "**❌ Won't do** - reason why the change isn't being made"
+
+### For **"Question"** comments
+
+Reply without resolving so the author can read it and continue the conversation:
+
+* "The reason for this approach is..."
+* "Yes, that's handled in the validation layer"
+* "Good point - let me clarify..."
+
+If there's a disagreement, it's generally best to discuss it in person (or offline) rather than through comments, when possible. Once aligned, summarize the outcome in the thread for visibility, e.g.:
+
+* "As per my conversation with @person, we agreed that …"
+
+Only mark questions as resolved after the conversation is complete and both parties agree.
 
 <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="bad" figure="AI Suggestion marked as resolved with no response" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20115911.png" />
 
@@ -64,28 +82,7 @@ When you address a comment in your pull request, you should:
 * **Accountability** - Shows you've carefully considered all feedback
 * **Communication** - Demonstrates respect for the reviewer's time and input
 
-## Handling different types of comments
 
-### For **"Change"** comments
-
-These are typically blocking requests that must be addressed. Always respond with:
-
-* "**✅ Done**"
-* "**❌ Won't do** - reason why the change isn't being made"
-
-### For **"Question"** comments
-
-Reply without resolving so the author can read it and continue the conversation:
-
-* "The reason for this approach is..."
-* "Yes, that's handled in the validation layer"
-* "Good point - let me clarify..."
-
-If there’s a disagreement, it’s generally best to discuss it in person (or offline) rather than through comments, when possible. Once aligned, summarize the outcome in the thread for visibility, e.g.:
-
-* "As per my conversation with @person, we agreed that …"
-
-Only mark questions as resolved after the conversation is complete and both parties agree.
 
 ## Best practices
 
