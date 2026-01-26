@@ -5,6 +5,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
 jobs:
   check-mdx:
     runs-on: ubuntu-latest
@@ -19,17 +24,75 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 24
 
-      - name: Get changed files
-        id: get_changed
+      - name: Get changed MDX files
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+          echo "changed=$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx')" | paste -sd "," - >> $GITHUB_ENV
+          echo "Changed MDX: ${{ env.changed }}"
 
-      - name: Run MDX check
+      - name: Install deps for MDX checker
         if: ${{ env.changed != '' }}
         run: |
           cd scripts/check-mdx
           npm install
+
+      - name: Run MDX check
+        id: mdx_check
+        if: ${{ env.changed != '' }}
+        continue-on-error: true
+        env:
+          MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
+        run: |
+          cd scripts/check-mdx
           node check-mdx.js '${{ env.changed }}'
+
+      # Only comment when:
+      # - MDX check failed
+      # - PR is NOT from a fork (same repository)
+      - name: Comment on PR (when failed, non-fork PR only)
+        if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        uses: actions/github-script@v8
+        env:
+          MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
+        with:
+          script: |
+            const fs = require('fs');
+
+            const reportPath = process.env.MDX_REPORT_PATH;
+            let body = '';
+            try {
+              body = fs.readFileSync(reportPath, 'utf8');
+            } catch (e) {
+              body = '<!-- mdx-check -->\n### ❌ MDX check failed\n\n(Report file missing)';
+            }
+
+            const marker = '<!-- mdx-check -->';
+            if (!body.includes(marker)) body = `${marker}\n` + body;
+
+            const prNumber = context.payload.pull_request.number;
+            const { owner, repo } = context.repo;
+
+            // Update existing bot comment with marker to avoid spam
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number: prNumber, per_page: 100
+            });
+
+            const existing = comments.find(c =>
+              c.user && c.user.type === 'Bot' && typeof c.body === 'string' && c.body.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: prNumber, body
+              });
+            }
+
+      - name: Fail job if MDX check failed
+        if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' }}
+        run: exit 1
