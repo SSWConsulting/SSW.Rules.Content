@@ -45,7 +45,7 @@ documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]
 **Hallucination:** "Server uptime was 95%." (Wrong: No uptime data exists!)
   </>}
   figurePrefix="bad"
-  figure="Bad example - Untagged, messy data leads to garbage outputs"
+  figure="Untagged, messy data leads to garbage outputs"
 />
 
 
@@ -64,7 +64,7 @@ documents = [
 **Output:** "No uptime data found. Available data: 5hrs downtime." ✅
   </>}
   figurePrefix="good"
-  figure="Good example - Properly tagged data reduces the risk of incorrect retrieval"
+  figure="Properly tagged data reduces the risk of incorrect retrieval"
 />
 
 
@@ -80,7 +80,7 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
 **AI:** (Hallucinates fictional case studies and stats)
   </>}
   figurePrefix="bad"
-  figure="Bad example - A single-step prompt invites hallucinations"
+  figure="A single-step prompt invites hallucinations"
 />
 
 
@@ -93,7 +93,7 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
 "Compare the final draft to the original query. Did you answer the question?"
   </>}
   figurePrefix="good"
-  figure="Good example - Multi-step validation reduces errors"
+  figure="Multi-step validation reduces errors"
 />
 
 
@@ -109,7 +109,7 @@ Always prompt the AI to **cite sources** and **flag uncertainty**.
 **AI:** "It boosts efficiency by 200%." (Source? None!)
   </>}
   figurePrefix="bad"
-  figure="Bad example - No justification = unchecked errors"
+  figure="No justification = unchecked errors"
 />
 
 
@@ -122,7 +122,7 @@ Always prompt the AI to **cite sources** and **flag uncertainty**.
 **AI:** "Quantum computing can optimize logistics (Source: IBM, 2023). However, adoption costs may be prohibitive for SMEs."
   </>}
   figurePrefix="good"
-  figure="Good example - Require citations and self-reflection"
+  figure="Require citations and self-reflection"
 />
 
 
@@ -138,7 +138,7 @@ Use a **validation layer** to ensure outputs align with the original query.
 **AI:** Explains Kubernetes basics (ignores AKS specifics).
   </>}
   figurePrefix="bad"
-  figure="Bad example - No final check = off-topic answers"
+  figure="No final check = off-topic answers"
 />
 
 
@@ -150,7 +150,7 @@ Use a **validation layer** to ensure outputs align with the original query.
 AI: "Revised answer: AKS simplifies deployment by integrating with Azure DevOps and..." ✅
   </>}
   figurePrefix="good"
-  figure="Good example - Add a final validation step"
+  figure="Add a final validation step"
 />
 
 
