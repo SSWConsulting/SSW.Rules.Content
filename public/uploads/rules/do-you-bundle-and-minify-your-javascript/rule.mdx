@@ -1,24 +1,27 @@
 ---
-archivedreason: Outdated - See our rule on managing bundle sizes https://www.ssw.com.au/rules/manage-bundle-size
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2012-07-18 17:43:09+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 86ecf1e2-49af-444b-9849-145f87f77ec0
-isArchived: true
-lastUpdated: 2012-11-02 07:10:26+00:00
-lastUpdatedBy: Adam Stephensen
-lastUpdatedByEmail: AdamStephensen@ssw.com.au
-redirects: []
-seoDescription: Bundling and minifying JavaScript in your MVC app improves performance
-  by reducing server calls.
+type: rule
 title: Do you bundle and minify your JavaScript?
+uri: do-you-bundle-and-minify-your-javascript
 categories:
   - category: categories/software-engineering/rules-to-better-mvc.mdx
-type: rule
-uri: do-you-bundle-and-minify-your-javascript
+authors:
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+redirects: []
+guid: 86ecf1e2-49af-444b-9849-145f87f77ec0
+seoDescription: >-
+  Bundling and minifying JavaScript in your MVC app improves performance by
+  reducing server calls.
+created: 2012-07-18T17:43:09.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-01-26T12:19:20.586Z
+lastUpdatedBy: ''
+lastUpdatedByEmail: ''
+isArchived: true
+archivedreason: >-
+  Outdated - See our rule on managing bundle sizes
+  https://www.ssw.com.au/rules/manage-bundle-size
 ---
 
 Did you know you can improve the speed of your MVC app by using a built in feature called bundling and minification.
@@ -35,15 +38,19 @@ All this adds up to a faster MVC app and a better user experience.
 
 Layout.cshtml
 
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
+```html
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+<script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content"></script>
+```
+
 Figure: Scripts are specified in the view
 BundleConfig.cs
 
+```csharp
 public static void RegisterBundles(BundleCollection bundles)
 {
 bundles.Add(new ScriptBundle("~/bundles/SSW").Include(
@@ -57,4 +64,7 @@ bundles.Add(new ScriptBundle("~/bundles/SSW").Include(
 
 Layout.cshtml
 
-@Scripts.Render("~/bundles/ssw") Figure: A bundle is created in the bundle config and then referenced in the view
+@Scripts.Render("~/bundles/ssw")
+```
+
+Figure: A bundle is created in the bundle config and then referenced in the view

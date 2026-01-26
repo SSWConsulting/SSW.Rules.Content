@@ -30,51 +30,20 @@ archivedreason: null
 When someone leaves a comment or GitHub Copilot creates a comment on your pull request, it's tempting to simply mark it as resolved and move on.
 However, this creates confusion for other reviewers who can't tell if the suggestion was implemented, why it wasn't implemented, or what the outcome was.
 
-Just like the "Reply Done" principle for emails, you should always provide a clear response to code review comments before resolving them.
+Just like the ["Reply Done"](https://www.ssw.com.au/rules/reply-done) principle for emails, you should always provide a clear response to code review comments before resolving them.
 This helps maintain transparency and ensures all reviewers understand the resolution.
 
 <endIntro _hidden="" />
 
-## Always respond before resolving
+## How to respond to different types of comments
 
-When you address a comment in your pull request, you should:
-
-1. **For change requests**: Implement the change and reply "Done" or explain why it will not be implemented
-2. **For questions**: Reply without resolving to allow conversation continuation
-
-## Bad examples
-
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="bad" figure="AI Suggestion marked as resolved with no response" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20115911.png" />
-
-<imageEmbed alt="Bad Example - Comment simply marked as resolved with no response" size="small" showBorder={false} figurePrefix="bad" figure="Comment simply marked as resolved with no response" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20165155.png" />
-
-## Good examples
-
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Clear confirmation that the change was implemented" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20172623.png" />
-
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Explained that the change will be addressed in a separate PBI" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20175826.png" />
-
-## Why this matters
-
-### For other reviewers
-
-* **Clarity**: They can quickly see which suggestions were implemented and why others weren't
-* **Efficiency**: No need to manually compare code to understand what changed
-* **Learning**: Understanding why certain suggestions were rejected provides valuable context
-
-### For the PR author
-
-* **Documentation**: Creates a clear record of decisions made during the review
-* **Accountability**: Shows you've carefully considered all feedback
-* **Communication**: Demonstrates respect for the reviewer's time and input
-
-## Handling different types of comments
+When you address a comment in your pull request, the response depends on the type of comment:
 
 ### For **"Change"** comments
 
 These are typically blocking requests that must be addressed. Always respond with:
 
-* "**✅ Done**"
+* "**✅ Done**" - after implementing the change
 * "**❌ Won't do** - reason why the change isn't being made"
 
 ### For **"Question"** comments
@@ -85,19 +54,42 @@ Reply without resolving so the author can read it and continue the conversation:
 * "Yes, that's handled in the validation layer"
 * "Good point - let me clarify..."
 
-If there’s a disagreement, it’s generally best to discuss it in person (or offline) rather than through comments, when possible. Once aligned, summarize the outcome in the thread for visibility, e.g.:
+If there's a disagreement, it's generally best to discuss it in person (or offline) rather than through comments, when possible. Once aligned, summarize the outcome in the thread for visibility, e.g.:
 
 * "As per my conversation with @person, we agreed that …"
 
 Only mark questions as resolved after the conversation is complete and both parties agree.
 
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="bad" figure="AI Suggestion marked as resolved with no response" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20115911.png" />
+
+<imageEmbed alt="Bad Example - Comment simply marked as resolved with no response" size="small" showBorder={false} figurePrefix="bad" figure="Comment simply marked as resolved with no response" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20165155.png" />
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Clear confirmation that the change was implemented" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20172623.png" />
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="Explained that the change will be addressed in a separate PBI" src="/uploads/rules/do-you-properly-resolve-code-review-comments/Screenshot%202026-01-22%20175826.png" />
+
+## Why this matters
+
+### For other reviewers
+
+* **Clarity** - They can quickly see which suggestions were implemented and why others weren't
+* **Efficiency** - No need to manually compare code to understand what changed
+* **Learning** - Understanding why certain suggestions were rejected provides valuable context
+
+### For the PR author
+
+* **Documentation** - Creates a clear record of decisions made during the review
+* **Accountability** - Shows you've carefully considered all feedback
+* **Communication** - Demonstrates respect for the reviewer's time and input
+
+
 ## Best practices
 
-1. **Be specific**: Reference exactly what you did in response to the comment
-2. **Include context**: Provide brief reasoning for your decisions
-3. **Use consistent formatting**: Start with the status (Done, Won't do, etc.)
-4. **Address all comments**: Don't leave any comment unresolved without a response
-5. **Keep it concise**: Provide enough detail without being overly verbose
+* **Be specific** - Reference exactly what you did in response to the comment
+* **Include context** - Provide brief reasoning for your decisions
+* **Use consistent formatting** - Start with the status (Done, Won't do, etc.)
+* **Address all comments** - Don't leave any comment unresolved without a response
+* **Keep it concise** - Provide enough detail without being overly verbose
 
 By following these practices, you create a more transparent and efficient code review process that benefits everyone involved.
 The small extra effort of writing clear responses saves significant time and confusion for the entire team.
