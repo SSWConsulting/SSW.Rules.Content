@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "folderName": "consistent-ai-generated-characters",
+    "uri": "consistent-ai-generated-characters",
+    "filePath": "public/uploads/rules/consistent-ai-generated-characters/rule.mdx"
+  },
+  {
+    "folderName": "resolving-code-review-comments",
+    "uri": "resolving-code-review-comments",
+    "filePath": "public/uploads/rules/resolving-code-review-comments/rule.mdx"
+  }
+]
