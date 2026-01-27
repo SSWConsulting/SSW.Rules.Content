@@ -1,7 +1,6 @@
 ---
 authors:
-- title: Gilles Pothieu
-  url: https://ssw.com.au/people/gilles-pothieu
+- author: gilles-pothieu
 guid: 27aa1f0a-3a29-4c3c-a8aa-1deccb4cd6c5
 related:
 - rule: public/uploads/rules/why-nextjs-is-great/rule.mdx
@@ -9,12 +8,11 @@ seoDescription: How to use NextJS caching system
 tips: ''
 title: Do you know how to use NextJS caching system?
 categories:
-  - category: categories/software-engineering/rules-to-better-nextjs.mdx
-  - category: categories/software-engineering/rules-to-better-websites-development.mdx
+- category: categories/software-engineering/rules-to-better-nextjs.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
 type: rule
 uri: use-nextjs-caching-system
 ---
-
 Next.js 15 introduced a more explicit and developer-friendly caching system.
 But it's not automatic—caching only activates when you *opt in* using three mechanisms: enabling two flags (`dynamicIO`, `useCache`) in your config and adding the `"use cache"` directive inside a file, a component or a function. This triple-lock prevents accidental caching and gives you fine-grained control over revalidation and tagging.
 

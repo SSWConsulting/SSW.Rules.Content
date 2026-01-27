@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-08 20:36:15+00:00
+- author: adam-cogan
+created: 2019-11-08 20:36:15
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: a5e09c0c-cb3b-4d36-a400-51d42fb5a94e
 isArchived: false
-lastUpdated: 2019-11-08 20:40:39+00:00
+lastUpdated: 2019-11-08 20:40:39
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
@@ -19,11 +18,10 @@ seoDescription: Check the global variable @@ERROR after executing a data manipul
 title: Stored Procedures - Do you check the global variable @@ERROR after executing
   a data manipulation statement?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: check-the-global-variable-error-after-executing-a-data-manipulation-statement
 ---
-
 Always check the global variable @@ERROR immediately after executing a data manipulation statement (like INSERT/UPDATE/DELETE), so that you can rollback the transaction in case of an error (@@ERROR will be greater than 0 in case of an error). This is important, because, by default, SQL Server will not rollback all the previous changes within a transaction if a particular statement fails. This behaviour can be changed by executing SET XACT_ABORT ON. The @@ROWCOUNT variable also plays an important role in determining how many rows were affected by a previous data manipulation (also, retrieval) statement, and based on that you could choose to commit or rollback a particular transaction.
 
 <endIntro />

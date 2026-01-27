@@ -1,18 +1,15 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Wicks
-  url: https://www.ssw.com.au/people/matt-wicks
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
-created: 2013-09-11 19:27:44+00:00
+- author: adam-cogan
+- author: matt-wicks
+- author: piers-sinclair
+created: 2013-09-11 19:27:44
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 1072907b-d837-45e1-9db5-2a9236bf362f
 isArchived: false
-lastUpdated: 2021-03-17 05:43:30.321000+00:00
+lastUpdated: 2021-03-17 05:43:30.321000
 lastUpdatedBy: Brady Stroud [SSW]
 lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects: []
@@ -21,11 +18,10 @@ seoDescription: Catching specific exceptions instead of generic ones helps ident
   and enhanced debugging capabilities.
 title: Do you catch exceptions precisely?
 categories:
-  - category: categories/software-engineering/rules-to-better-error-handling.mdx
+- category: categories/software-engineering/rules-to-better-error-handling.mdx
 type: rule
 uri: do-you-catch-exceptions-precisely
 ---
-
 In a try-catch block, avoid catching generic [Exception](https://learn.microsoft.com/en-us/dotnet/api/system.exception?redirectedfrom=MSDN&view=net-8.0&WT.mc_id=DT-MVP-33518) types as this masks the underlying problem. Instead, target only the specific exceptions you can manage, which helps in accurately identifying and rectifying the error.
 
 It is essential to foresee the exceptions that the code in the try block might raise. Catching these specific exceptions at the point of occurrence provides the most context for effectively addressing the issue.

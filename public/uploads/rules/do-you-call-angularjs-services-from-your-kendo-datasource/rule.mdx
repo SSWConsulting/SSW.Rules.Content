@@ -3,26 +3,23 @@ type: rule
 title: Do you call AngularJS services from your Kendo datasource?
 uri: do-you-call-angularjs-services-from-your-kendo-datasource
 categories:
-  - category: categories/software-engineering/rules-to-better-angularjs.mdx
-  - category: categories/software-engineering/rules-to-better-kendo-ui.mdx
+- category: categories/software-engineering/rules-to-better-angularjs.mdx
+- category: categories/software-engineering/rules-to-better-kendo-ui.mdx
 authors:
-  - title: Duncan Hunter
-    url: 'https://ssw.com.au/people/duncan-hunter'
+- author: duncan-hunter
 redirects: []
 guid: 1da148fe-4093-419d-b4b0-4cc50f50d36b
-seoDescription: >-
-  Learn how to properly integrate AngularJS services with Kendo DataSource for
-  cleaner code and better maintainability.
-created: 2015-05-05T19:33:05.000Z
+seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource
+  for cleaner code and better maintainability.
+created: 2015-05-05 19:33:05
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2021-03-17T05:22:32.290Z
+lastUpdated: 2021-03-17 05:22:32.290000
 lastUpdatedBy: Jack Leerson
 lastUpdatedByEmail: 77082983+JackLeerson@users.noreply.github.com
 isArchived: false
 archivedreason: null
 ---
-
 To keep a good separation of concerns between your AngularJS controllers and your data service layers you should always call an AngularJS service or factory from your Kendo datasource logic.
 
 Many demonstrations show a hard coded string in your Angular controllers calling your API but this means you will be making data API calls from your controllers, which is bad for several reasons:

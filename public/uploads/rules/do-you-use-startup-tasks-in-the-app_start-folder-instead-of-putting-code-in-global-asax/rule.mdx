@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-created: 2013-03-07 18:42:18+00:00
+- author: damian-brady
+created: 2013-03-07 18:42:18
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 627126fc-f401-4f79-875d-8cdc5b80b10b
 isArchived: false
-lastUpdated: 2025-11-24 22:17:06+00:00
+lastUpdated: 2025-11-24 22:17:06
 lastUpdatedBy: Copilot
 lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
 redirects: []
@@ -17,11 +16,10 @@ seoDescription: Organize ASP.NET startup logic by using the App_Start folder ins
 title: Do you use startup tasks in the ~/App_Start folder instead of putting code
   in Global.asax?
 categories:
-  - category: categories/software-engineering/rules-to-better-mvc.mdx
+- category: categories/software-engineering/rules-to-better-mvc.mdx
 type: rule
 uri: do-you-use-startup-tasks-in-the-app_start-folder-instead-of-putting-code-in-global-asax
 ---
-
 Adding code to the Application\_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however, this code should be encapsulated in static methods outside the Global.asax file. Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.
 
 <endIntro />

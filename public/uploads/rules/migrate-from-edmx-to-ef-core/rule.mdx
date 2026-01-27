@@ -1,11 +1,8 @@
 ---
 authors:
-- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jernej-kavka
-- title: Gordon Beeming
-  url: https://www.ssw.com.au/people/gordon-beeming
-created: 2023-07-19 00:00:00+00:00
+- author: jernej-kavka
+- author: gordon-beeming
+created: 2023-07-19 00:00:00
 guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244
 related:
 - rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
@@ -14,12 +11,11 @@ seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting
   to `ObjectContext` and scaffolding the DB.
 title: Do you know how to migrate from EDMX to EF Core
 categories:
-  - category: categories/software-engineering/rules-to-better-entity-framework.mdx
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+- category: categories/software-engineering/rules-to-better-entity-framework.mdx
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 type: rule
 uri: migrate-from-edmx-to-ef-core
 ---
-
 Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
 
 In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectContext is the base class that is used by the generated class, which will generally end with Entities (e.g. DataEntities).

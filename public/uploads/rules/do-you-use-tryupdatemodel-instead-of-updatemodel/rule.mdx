@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-created: 2013-03-07 18:15:44+00:00
+- author: damian-brady
+created: 2013-03-07 18:15:44
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 74fbd7d4-7391-494d-b855-44426f7170eb
 isArchived: false
-lastUpdated: 2013-03-07 18:20:32+00:00
+lastUpdated: 2013-03-07 18:20:32
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
@@ -16,11 +15,10 @@ seoDescription: Do you use TryUpdateModel instead of UpdateModel to ensure valid
   and model binding succeed without throwing exceptions.
 title: Do you use TryUpdateModel instead of UpdateModel?
 categories:
-  - category: categories/software-engineering/rules-to-better-mvc.mdx
+- category: categories/software-engineering/rules-to-better-mvc.mdx
 type: rule
 uri: do-you-use-tryupdatemodel-instead-of-updatemodel
 ---
-
 UpdateModel will throw an exception if validation of the model fails. Instead of managing an exception, you should use TryUpdateModel as it adds the error to the ModelState dictionary. This lets you check the ModelState.IsValid property and decide how to handle the issue from there.
 
 This is an important distinction to be made because if we had used UpdateModel then our if (ModelState.IsValid) would not be hit in the event of a failure to bind.

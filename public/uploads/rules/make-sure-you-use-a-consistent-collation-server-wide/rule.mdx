@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-22 20:49:31+00:00
+- author: adam-cogan
+created: 2019-11-22 20:49:31
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 4ef6c98b-e828-4e98-98b2-cf0249bdb172
 isArchived: false
-lastUpdated: 2020-01-28 23:14:40+00:00
+lastUpdated: 2020-01-28 23:14:40
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Ensure consistent collation server-wide to simplify development 
   avoid errors when joining tables across databases.
 title: DBAs - Do you make sure you use a consistent Collation server-wide?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
 type: rule
 uri: make-sure-you-use-a-consistent-collation-server-wide
 ---
-
 Collation is the combination of language and sort orders, and you typically don't notice it until you start running cross-database queries.
 
 It would make development simpler if the whole world spoke one language but even if you are using English, you will still encounter collation issues if you are not careful. The most common issue is the dreaded 'Cannot resolve collation conflict for equal to operation' error when joining on columns that have different collation orders. Collation is a great feature for international companies, but if you are not consciously using it then you should have ALL the objects in ALL the databases on ALL the servers using a consistent collation.

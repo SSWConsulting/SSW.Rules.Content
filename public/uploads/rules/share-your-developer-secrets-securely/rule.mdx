@@ -1,11 +1,9 @@
 ---
 archivedreason: null
 authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Jeoffrey Fischer
-  url: https://ssw.com.au/people/jeoffrey-fischer
-created: 2023-08-14 00:00:00+00:00
+- author: gordon-beeming
+- author: jeoffrey-fischer
+created: 2023-08-14 00:00:00
 guid: 6165deaa-a3b0-40b1-8659-482a34faf7c4
 redirects: []
 related:
@@ -15,12 +13,11 @@ seoDescription: Do you share your developer secrets securely? Learn how to store
   practices for secure development environments.
 title: Do you share your developer secrets securely?
 categories:
-  - category: categories/software-engineering/rules-to-better-code.mdx
-  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+- category: categories/software-engineering/rules-to-better-code.mdx
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
 type: rule
 uri: share-your-developer-secrets-securely
 ---
-
 You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
 
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few. These secrets **must not** be stored in source control. It's not secure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.

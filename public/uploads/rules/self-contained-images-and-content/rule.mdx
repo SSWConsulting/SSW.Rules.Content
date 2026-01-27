@@ -1,11 +1,8 @@
 ---
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Gilles Pothieu
-  url: https://www.ssw.com.au/people/gilles-pothieu
-- title: Hugo Pernet
-  url: https://www.ssw.com.au/people/hugo-pernet
+- author: adam-cogan
+- author: gilles-pothieu
+- author: hugo-pernet
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
 related:
 - rule: public/uploads/rules/using-markdown-to-store-your-content/rule.mdx
@@ -15,12 +12,11 @@ tips: ''
 title: Do you keep your images and content self-contained in your TinaCMS +  Next.js
   project?
 categories:
-  - category: categories/software-engineering/rules-to-better-tinacms.mdx
-  - category: categories/software-engineering/rules-to-better-websites-development.mdx
+- category: categories/software-engineering/rules-to-better-tinacms.mdx
+- category: categories/software-engineering/rules-to-better-websites-development.mdx
 type: rule
 uri: self-contained-images-and-content
 ---
-
 When building a website using TinaCMS and Next.js, not all images need to live next to your content. Shared assets like logos, icons, or other global visuals are best stored in a central media folder (e.g. /public/uploads). This keeps things simple and avoids duplication.
 
 However, for documents that embed images—like blog posts or rules like this one—it’s important to keep the content (Markdown/MDX files) and related media together in the same folder. This self-contained structure improves maintainability, makes GitHub editing clearer, and supports portability.

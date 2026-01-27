@@ -1,10 +1,8 @@
 ---
 authors:
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Aman Kumar
-  url: https://ssw.com.au/people/aman-kumar
-created: 2023-10-10 10:33:21+00:00
+- author: matt-wicks
+- author: aman-kumar
+created: 2023-10-10 10:33:21
 guid: bcb27bdf-9553-48e1-9a36-45ac327bdd06
 related:
 - rule: public/uploads/rules/enterprise-secrets-in-pipelines/rule.mdx
@@ -12,11 +10,10 @@ seoDescription: Mask secrets from GitHub Actions logs by using the add-mask work
   command to prevent accidental exposure.
 title: Do you know how to mask secrets from GitHub Actions logs?
 categories:
-  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+- category: categories/project-delivery/rules-to-better-devops-using-github.mdx
 type: rule
 uri: mask-secrets-in-github-actions
 ---
-
 When working with GitHub Actions, there are instances where we need to pull a secret value from a CLI tool and use it within our workflow.
 
 However, this practice can inadvertently expose the secret in the GitHub Actions logs if not handled securely. To prevent such exposure, it is crucial to redact the secret from the logs using the add-mask workflow command provided by GitHub.

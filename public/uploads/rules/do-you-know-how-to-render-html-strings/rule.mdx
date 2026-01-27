@@ -1,17 +1,16 @@
 ---
-seoDescription: Prevent cross-site scripting (XSS) attacks and double encoding issues by using .NET Core's `IHtmlString` interface to safely render HTML strings.
+seoDescription: Prevent cross-site scripting (XSS) attacks and double encoding issues
+  by using .NET Core's `IHtmlString` interface to safely render HTML strings.
 type: rule
 title: Do you know how to render HTML strings?
 categories:
-  - category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
 uri: do-you-know-how-to-render-html-strings
 authors:
-  - title: Charles Vionnet
-    url: https://ssw.com.au/people/charles-vionnet
-created: 2023-07-28T07:23:06.201Z
+- author: charles-vionnet
+created: 2023-07-28 07:23:06.201000
 guid: 521afe97-18c3-43bc-8ada-f3782960b10f
 ---
-
 [Cross-site scripting (XSS) attacks](https://en.wikipedia.org/wiki/Cross-site_scripting) occur when untrusted data is rendered on the browser without proper sanitization, thus potentially exposing the system to malicious scripts. To prevent XSS attacks, HTML encoding is typically applied to prevent the browser from interpreting HTML strings as code.
 
 However, this approach can cause confusion when an application needs to output content that is already HTML encoded.

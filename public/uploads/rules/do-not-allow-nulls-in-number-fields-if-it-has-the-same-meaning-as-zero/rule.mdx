@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-23 00:38:31+00:00
+- author: adam-cogan
+created: 2019-11-23 00:38:31
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 38603633-dab2-4677-8e72-58da2bfcb182
 isArchived: false
-lastUpdated: 2020-01-09 14:03:07+00:00
+lastUpdated: 2020-01-09 14:03:07
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
@@ -19,12 +18,11 @@ seoDescription: Avoid using NULL values where possible, especially when they can
 title: Data - Do you not allow NULLs in number fields if it has the same meaning as
   zero?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
-  - category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
 type: rule
 uri: do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
 ---
-
 NULLs create difficulty in the middle-tier because you need to add further handling. So avoid them where you can, eg. For a Discount field, make the default 0 and don't allow NULLs.
 
 <endIntro />

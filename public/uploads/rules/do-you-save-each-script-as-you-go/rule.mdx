@@ -1,16 +1,14 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Igor Goldobin
-  url: https://ssw.com.au/people/igor-goldobin
-created: 2009-10-09 06:06:26+00:00
+- author: adam-cogan
+- author: igor-goldobin
+created: 2009-10-09 06:06:26
 createdBy: Jay Lin
 createdByEmail: JayLin@sydney.ssw.com.au
 guid: 6d3155dc-6a2c-4215-8fa5-27e69a763987
 isArchived: false
-lastUpdated: 2016-10-20 11:39:09+00:00
+lastUpdated: 2016-10-20 11:39:09
 lastUpdatedBy: Igor Goldobin
 lastUpdatedByEmail: IgorGoldobin@ssw.com.au
 redirects: []
@@ -18,11 +16,10 @@ seoDescription: Save each script as you go, ensuring a stable database system th
   change control and versioning.
 title: Do you save each script as you go?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
+- category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.mdx
 type: rule
 uri: do-you-save-each-script-as-you-go
 ---
-
 Every time a change is made to your product's SQL Server Database, script out the change.
 Nowadays if you are using frameworks such as EF Core, this will most likely be handled for you with migrations. For older applications, you can use SQL Management Studio or Visual Studios, but every time you make changes you must save the change as a .sql script file so any alterations are scripted.
 

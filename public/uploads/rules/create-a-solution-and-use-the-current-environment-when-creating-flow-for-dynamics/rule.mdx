@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-created: 2020-06-25 22:11:47+00:00
+- author: mehmet-ozdemir
+created: 2020-06-25 22:11:47
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 1161e28b-130b-4401-947d-0037f61b877a
 isArchived: false
-lastUpdated: 2021-04-23 16:46:04.248000+00:00
+lastUpdated: 2021-04-23 16:46:04.248000
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -20,11 +19,10 @@ seoDescription: Create workflows in Dynamics by using the Common Data Service (C
 title: Do you create a Solution and use "Current Environment" when creating Flow for
   Dynamics?
 categories:
-  - category: categories/software-engineering/rules-to-better-power-platform.mdx
+- category: categories/software-engineering/rules-to-better-power-platform.mdx
 type: rule
 uri: create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 ---
-
 When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Common Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.
 
 <endIntro />

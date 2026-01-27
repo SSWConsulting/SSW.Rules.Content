@@ -1,10 +1,8 @@
 ---
 authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Lewis Toh
-  url: https://ssw.com.au/people/lewis-toh
-created: 2025-10-16 17:01:00+00:00
+- author: gordon-beeming
+- author: lewis-toh
+created: 2025-10-16 17:01:00
 guid: 86655840-0d01-4fb1-aba8-fabd54e1e916
 related:
 - rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
@@ -15,11 +13,10 @@ tips: ''
 title: Do you configure AI assistants to keep all working files inside the repository
   directory?
 categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+- category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 type: rule
 uri: ai-assistants-work-in-repository-directory
 ---
-
 When AI assistants (e.g. GitHub Copilot, Claude, ChatGPT) perform development tasks, they sometimes create temporary files, scripts, or intermediate outputs. By default, they might use system temp directories like `/tmp`, `/var/tmp`, or the user's home directory. This creates several problems: files become hard to find, they're outside version control, and cleanup becomes unpredictable.
 
 Configuring AI assistants to work exclusively within the repository boundaries ensures all work is visible, properly managed, and easy to clean up.

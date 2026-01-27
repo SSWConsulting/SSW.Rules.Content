@@ -1,17 +1,16 @@
 ---
-seoDescription: Avoid materializing large IEnumerables to prevent memory and CPU issues, instead iterate through them directly.
+seoDescription: Avoid materializing large IEnumerables to prevent memory and CPU issues,
+  instead iterate through them directly.
 type: rule
 title: Do you avoid materializing an IEnumerable?
 categories:
-  - category: categories/software-engineering/rules-to-better-linq.mdx
+- category: categories/software-engineering/rules-to-better-linq.mdx
 uri: avoid-materializing-an-ienumerable
 authors:
-  - title: Bryden Oliver
-    url: https://www.ssw.com.au/people/bryden-oliver
-created: 2021-12-22T05:11:19.642Z
+- author: bryden-oliver
+created: 2021-12-22 05:11:19.642000
 guid: 58a95e21-8c5e-4be6-b4e8-1f3689c7045b
 ---
-
 This is the golden rule of LINQ. You generally have no idea how big the IEnumerable might be, so where possible just iterate through, don't force it into an array or list before doing that.
 
 <endIntro />

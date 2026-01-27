@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-12 23:04:20+00:00
+- author: adam-cogan
+created: 2019-11-12 23:04:20
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: f4a72ca6-08bd-41a0-8138-83ab0adab728
 isArchived: false
-lastUpdated: 2025-11-24 22:17:06+00:00
+lastUpdated: 2025-11-24 22:17:06
 lastUpdatedBy: Copilot
 lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Avoid using SELECT * in INSERT statements to prevent stored proc
   failures when table structures change and ensure compatibility with identity columns.
 title: Stored Procedures - Do you avoid using SELECT * when inserting data?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: avoid-using-select-when-inserting-data
 ---
-
 Using a statement like "INSERT tableName SELECT \* FROM otherTable", makes your stored procedures vulnerable to failure. Once either of the two tables change, your stored procedure won't work. Not only that, when the inserting table has an identity column, such a statement will cause an error - "An explicit value for the identity column in table ParaRight can only be specified when a column list is used and IDENTITY\_INSERT is ON."
 
 <endIntro />

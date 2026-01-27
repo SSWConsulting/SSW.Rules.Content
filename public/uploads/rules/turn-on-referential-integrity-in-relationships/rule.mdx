@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-12 23:56:31+00:00
+- author: adam-cogan
+created: 2019-11-12 23:56:31
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: b90d91f8-46fb-45b7-947b-c8ce43621844
 isArchived: false
-lastUpdated: 2019-12-31 06:23:49+00:00
+lastUpdated: 2019-12-31 06:23:49
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -20,11 +19,10 @@ seoDescription: Ensure referential integrity in relationships by enabling cascad
   constraints to maintain data consistency and prevent orphaned records.
 title: Relationships - Do you turn on referential integrity in relationships?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: turn-on-referential-integrity-in-relationships
 ---
-
 Cascading referential integrity constraints allow you to define the actions SQL Server takes when a user attempts to delete or update a key to which existing foreign keys point. The REFERENCES clauses of the CREATE TABLE and ALTER TABLE statements support ON DELETE and ON UPDATE clauses:
 
 - [ ON DELETE \{ CASCADE | NO ACTION \} ]

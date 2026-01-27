@@ -1,18 +1,15 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Anton Polkanov
-  url: https://ssw.com.au/people/anton-polkanov
-created: 2020-10-07 23:21:12+00:00
+- author: adam-cogan
+- author: matt-goldman
+- author: anton-polkanov
+created: 2020-10-07 23:21:12
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: d6506511-92c5-4050-b048-a75505ff18b7
 isArchived: false
-lastUpdated: 2021-07-05 22:03:54.659000+00:00
+lastUpdated: 2021-07-05 22:03:54.659000
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -21,11 +18,10 @@ seoDescription: Xamarin developers use design-time data to preview UI controls b
   to ViewModels, ensuring a more accurate design experience.
 title: Debugging - Do you use design time data?
 categories:
-  - category: categories/software-engineering/rules-to-better-maui.mdx
+- category: categories/software-engineering/rules-to-better-maui.mdx
 type: rule
 uri: use-design-time-data
 ---
-
 **UPDATE:** XAML Previewer was [deprecated in Visual Studio 2019](https://learn.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-previewer/?pivots=windows&WT.mc_id=DT-MVP-33518). For .NET MAUI use [Hot Reload](/use-hot-reload)
 
 The XAML previewer in Visual Studio is a useful tool for designing your Xamarin UI. One limitation is that often your controls are bound to properties in your ViewModel (see rule [Do you use the MVVM pattern?](/use-mvvm-pattern)), meaning that you can't see what your UI will look like with the data loaded, without building and running your app.

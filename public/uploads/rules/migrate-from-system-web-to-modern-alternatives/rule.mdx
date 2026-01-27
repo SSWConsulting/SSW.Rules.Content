@@ -1,11 +1,8 @@
 ---
 authors:
-- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jernej-kavka
-- title: Gordon Beeming
-  url: https://www.ssw.com.au/people/gordon-beeming
-created: 2023-06-06 22:07:00+00:00
+- author: jernej-kavka
+- author: gordon-beeming
+created: 2023-06-06 22:07:00
 guid: 71755477-0a38-4402-a5c8-1347883df481
 related:
 - rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
@@ -13,11 +10,10 @@ seoDescription: Migrate from System.Web to modern alternatives and upgrade .NET 
   applications to .NET or .NET Standard.
 title: Do you know how to migrate from System.Web to modern alternatives
 categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 type: rule
 uri: migrate-from-system-web-to-modern-alternatives
 ---
-
 When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address System.Web. On upgrade, the reference to System.Web is either removed or will cause compile-time errors.
 
 When it’s removed, the most common compile time error will be HttpContext.Current.

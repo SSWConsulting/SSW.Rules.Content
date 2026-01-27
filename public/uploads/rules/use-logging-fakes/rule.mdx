@@ -1,20 +1,18 @@
 ---
 archivedreason: null
 authors:
-- title: Tom Iwainski
-  url: https://www.ssw.com.au/people/thomas-iwainski
-created: 2024-11-05 12:52:08+00:00
+- author: thomas-iwainski
+created: 2024-11-05 12:52:08
 guid: dc76970f-deea-4e92-9d55-731e83bee7b5
 seoDescription: Learn how to use Microsoft's `FakeLogger` in unit tests to verify
   logging behavior in .NET applications. This guide shows you how to capture log entries,
   check log levels, and ensure your logging works as expected during testing.
 title: Do you use Logging Fakes?
 categories:
-  - category: categories/software-engineering/rules-to-better-testing.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
 type: rule
 uri: use-logging-fakes
 ---
-
 Unit tests are an essential part of ensuring .NET applications work correctly. However, when it comes to testing logging, things can get tricky. You don't want to rely on actual logging infrastructure like file writes or external logging systems during tests, as this could lead to unnecessary complexity and slow down your test suite.
 
 Microsoft provides a simple solution with `FakeLogger`. This logger allows you to capture and verify logging calls in unit tests without needing to integrate with a real logging framework.

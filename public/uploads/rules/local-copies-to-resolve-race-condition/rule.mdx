@@ -1,19 +1,18 @@
 ---
-seoDescription: Do you use local copies to resolve race condition and avoid NullReferenceExceptions when shared values are accessed concurrently by multiple threads?
+seoDescription: Do you use local copies to resolve race condition and avoid NullReferenceExceptions
+  when shared values are accessed concurrently by multiple threads?
 type: rule
 title: Do you use local copies to resolve race condition?
 categories:
-  - category: categories/software-engineering/rules-to-better-code.mdx
+- category: categories/software-engineering/rules-to-better-code.mdx
 uri: local-copies-to-resolve-race-condition
 authors:
-  - title: Sylvia Huang
-    url: https://ssw.com.au/people/sylvia-huang
-created: 2023-07-31T01:19:28.222Z
+- author: sylvia-huang
+created: 2023-07-31 01:19:28.222000
 guid: f49d4f99-522e-433c-a7ab-0e59d78f03df
 redirects:
-  - local-copies-to-avoid-race-condition
+- local-copies-to-avoid-race-condition
 ---
-
 Code that looks perfectly fine in a single-threaded scenario could be vulnerable to race condition when some value is shared among multiple threads.
 
 <endIntro />

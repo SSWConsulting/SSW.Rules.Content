@@ -1,13 +1,10 @@
 ---
 archivedreason: null
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
-- title: William Liebenberg
-  url: https://www.ssw.com.au/people/william-liebenberg
-- title: Brady Stroud
-  url: https://www.ssw.com.au/people/brady-stroud
-created: 2021-09-07 00:00:00+00:00
+- author: jason-taylor
+- author: william-liebenberg
+- author: brady-stroud
+created: 2021-09-07 00:00:00
 guid: 64a1d676-a1bc-4f39-84a0-692592a688d8
 redirects:
 - do-you-decouple-your-API-implementation-from-your-blazor-components
@@ -16,11 +13,10 @@ seoDescription: Decouple your API implementation from your Blazor components to 
   better maintainability and testability.
 title: Do you decouple your API implementation from your Blazor components?
 categories:
-  - category: categories/software-engineering/rules-to-better-blazor.mdx
+- category: categories/software-engineering/rules-to-better-blazor.mdx
 type: rule
 uri: decouple-api-from-blazor-components
 ---
-
 When creating Blazor components that communicate with web APIs it is often tempting to inject the `HttpClient` and use it directly to send requests. While this is quick and easy to accomplish, this tightly couples the component to the `HttpClient` and the specific implementation of the web API. The downside of this tight coupling is that the component cannot be easily refactored for breaking changes (e.g. routes, payloads, querystrings, auth, etc) then the blast radius of changes can be quite substantial. The problem grows even further if accessing the API from multiple components. Another downside is that the component is no longer unit testable. Integration tests will be necessary which will require more effort to implement.
 
 <endIntro />

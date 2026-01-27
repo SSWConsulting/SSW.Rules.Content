@@ -1,22 +1,19 @@
 ---
 archivedreason: null
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Alex Rothwell
-  url: https://www.ssw.com.au/people/alex-rothwell/
-created: 2023-10-16 15:11:34+00:00
+- author: william-liebenberg
+- author: alex-rothwell
+created: 2023-10-16 15:11:34
 guid: f2155eb7-6ade-4757-b962-a1dc680cdbbf
 redirects: []
 seoDescription: Do you secure your AppInsights location and enable Enhanced Security
   with Bicep rules
 title: Do you secure your AppInsights Telemetry?
 categories:
-  - category: categories/software-engineering/rules-to-better-application-insights.mdx
+- category: categories/software-engineering/rules-to-better-application-insights.mdx
 type: rule
 uri: appinsights-authentication
 ---
-
 Azure Application Insights is your app's friendly doctor, keeping an eye on it to stay healthy and running smoothly. It uses an `Instrumentation Key` (IK) to allow your app to send telemetry data to its resource.
 
 While this IK isn't a secret and is often included in client-side code, if it IK falls into the wrong hands, they could spam your telemetry or incur extra costs on ApplicationInsights.

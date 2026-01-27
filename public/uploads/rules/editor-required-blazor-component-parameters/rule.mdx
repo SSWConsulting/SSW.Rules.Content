@@ -1,9 +1,8 @@
 ---
 archivedreason: null
 authors:
-- title: Matt Parker
-  url: https://ssw.com.au/people/matt-parker
-created: 2023-08-26 00:00:00+00:00
+- author: matt-parker
+created: 2023-08-26 00:00:00
 guid: 125bf5aa-7b54-4aa3-8f71-8178af185afc
 redirects: []
 seoDescription: Use the EditorRequired attribute to mark required parameters in Blazor
@@ -11,11 +10,10 @@ seoDescription: Use the EditorRequired attribute to mark required parameters in 
   variables.
 title: Do you use the EditorRequired attribute for required parameters in Blazor?
 categories:
-  - category: categories/software-engineering/rules-to-better-blazor.mdx
+- category: categories/software-engineering/rules-to-better-blazor.mdx
 type: rule
 uri: editor-required-blazor-component-parameters
 ---
-
 When you create a Blazor component, view parameters are marked with the `[Parameter]` attribute to indicate that they must be supplied by the parent component. By default, this is not enforced, which may lead to errors where you forget to pass in parameters where you use the component.
 
 You should use the `[EditorRequired]` attribute to mark parameters that are required in your Blazor component.

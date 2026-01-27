@@ -1,9 +1,8 @@
 ---
 archivedreason: null
 authors:
-- title: Jeoffrey Fischer
-  url: https://ssw.com.au/people/jeoffrey-fischer
-created: 2024-09-16 09:02:00+00:00
+- author: jeoffrey-fischer
+created: 2024-09-16 09:02:00
 guid: 2386ff76-4fee-43c0-a18f-4c32fca790ee
 redirects: []
 related:
@@ -12,11 +11,10 @@ seoDescription: Learn how to extract email lists from report subscriptions using
   queries for effective reporting management
 title: Do you know how to get email list of report subscription?
 categories:
-  - category: categories/company-operations/rules-to-better-reporting-services.mdx
+- category: categories/company-operations/rules-to-better-reporting-services.mdx
 type: rule
 uri: get-email-list-of-report-subscription
 ---
-
 You can get email list in ExtensionSettings, which is an XML column in Subscriptions table in database of reporting services. Subscriptions table has a FK with Catalog table, which contains report name and report path information. Then we can XQuery the ExtensionSettings to get TO and CC fields according to report name and report path.
 
 <endIntro />

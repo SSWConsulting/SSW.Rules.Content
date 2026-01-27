@@ -1,16 +1,14 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-created: 2019-01-11 19:45:17+00:00
+- author: adam-cogan
+- author: brendan-richards
+created: 2019-01-11 19:45:17
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 3687d1f8-1a96-476c-898e-a363fa4ae599
 isArchived: false
-lastUpdated: 2019-01-11 19:54:58+00:00
+lastUpdated: 2019-01-11 19:54:58
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
@@ -19,11 +17,10 @@ seoDescription: .NET developers can customize their project settings by adding a
   configuration file, isolating changes and preventing app breakage for team members.
 title: Do you add a local configuration file for developer-specific settings?
 categories:
-  - category: categories/software-engineering/rules-to-better-net-core.mdx
+- category: categories/software-engineering/rules-to-better-net-core.mdx
 type: rule
 uri: add-local-configuration-file-for-developer-specific-settings
 ---
-
 With .NET Core, we've got a new, extensible configuration system for our projects. This is easily extended and has out-of-the-box support for many configuration sources including JSON files, per-environment overrides, command-line parameters, and environment variables.
 
 A common source of pain when working in a team is when different team members require different connection strings in order to run the project locally. If the developer modifies settings and then accidentally pushes that change into source control, the app might break for other developers.

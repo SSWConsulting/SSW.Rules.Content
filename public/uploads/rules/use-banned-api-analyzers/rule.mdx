@@ -1,9 +1,8 @@
 ---
 archivereason: null
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-created: 2025-06-24 03:45:00+00:00
+- author: christian-morford-waite
+created: 2025-06-24 03:45:00
 guid: 3f7ec0d1-86f5-43c3-8b83-7a871bfcfe63
 related:
 - rule: public/uploads/rules/migration-plans/rule.mdx
@@ -12,11 +11,10 @@ seoDescription: Use BannedApiAnalyzers with a repo-wide bannedsymbols.txt to blo
   they hit main.
 title: Do you use BannedApiAnalyzers to prevent unwanted APIs creeping back in?
 categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 type: rule
 uri: use-banned-api-analyzers
 ---
-
 You finally dumped `BinaryFormatter`, replaced `WebClient` with `HttpClient`, and standardised on **System.Text.Json**!
 
 But in a big codebase (or with a rotating team) someone can unknowingly add the old API back in a new feature branch, **undoing days of migration work**. The same risk appears with *library preferences*: you want everybody using `FluentValidation`, yet the next pull request pulls in `DataAnnotations` again.

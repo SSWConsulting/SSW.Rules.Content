@@ -1,17 +1,16 @@
 ---
-seoDescription: Migrate Global.asax to ASP.NET Core and refactor session management logic to leverage middleware.
+seoDescription: Migrate Global.asax to ASP.NET Core and refactor session management
+  logic to leverage middleware.
 type: rule
 title: Do you know how to migrate Global.asax to ASP.NET Core?
 categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+- category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 uri: migrate-global-asax-to-asp-net-core
 authors:
-  - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
-created: 2023-07-31T23:29:08.804Z
+- author: nick-curran
+created: 2023-07-31 23:29:08.804000
 guid: 06510ae9-8215-4227-97ae-711c8c35a948
 ---
-
 The [`Global.asax`](https://learn.microsoft.com/en-us/previous-versions/aspnet/118w0kzy(v=vs.100)#project-files-created-with-web-forms) is an optional file that dictates how an ASP.NET application handles application, session and request events. The code for handling those events is written in `Global.asax.cs`, and when migrating to ASP.NET Core this code will need to be restructured.
 
 ## Application Events
