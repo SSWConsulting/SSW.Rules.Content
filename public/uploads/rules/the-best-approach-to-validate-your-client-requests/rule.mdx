@@ -32,7 +32,7 @@ When building Web APIs, it is important to validate each request to ensure that 
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure="Bad Example - Managing Request Validation within the Controller"
+  figure="Managing Request Validation within the Controller"
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-bad.png"
 />
 
@@ -46,8 +46,8 @@ One approach to solving this problem is to move validation to the Application la
   alt="Image"
   size="large"
   showBorder={false}
-  figurePrefix="none"
-  figure="OK Example - Validation Handled Manually within Request Handler Ensuring All Requests are Validated"
+  figurePrefix="ok"
+  figure="Validation Handled Manually within Request Handler Ensuring All Requests are Validated"
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-ok.png"
 />
 
@@ -61,7 +61,7 @@ Fortunately, if you are following our recommendations and combining CQRS with Me
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Good Example - Automatically Validate All Requests By Using a MediatR Pipeline Behaviour"
+  figure="Automatically Validate All Requests By Using a MediatR Pipeline Behaviour"
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-good.png"
 />
 
@@ -75,6 +75,6 @@ The only step that remains is handle any validation exceptions. Within the conso
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Good Example – Use an ExceptionFilterAttribute to Catch and Handle Exceptions within the Web API"
+  figure="Use an ExceptionFilterAttribute to Catch and Handle Exceptions within the Web API"
   src="/uploads/rules/the-best-approach-to-validate-your-client-requests/validate-client-requests-good-2.png"
 />
