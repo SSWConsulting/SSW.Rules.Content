@@ -7991,6 +7991,9 @@
     "data-lake": [
         "rules-to-better-data-analytics"
     ],
+    "digest-microsoft-form": [
+        "rules-to-better-data-analytics"
+    ],
     "encapsulate-domain-models": [
         "rules-to-better-domain-driven-design"
     ],
@@ -8683,10 +8686,10 @@
     "migration-plans": [
         "rules-to-better-net10-migrations"
     ],
-    "migrating-web-apps-to-dotnet": [
+    "dotnet-modernization-tools": [
         "rules-to-better-net10-migrations"
     ],
-    "dotnet-upgrade-assistant": [
+    "migrating-web-apps-to-dotnet": [
         "rules-to-better-net10-migrations"
     ],
     "migrate-from-system-web-to-modern-alternatives": [
@@ -8710,7 +8713,7 @@
     "do-you-check-your-api-serialisation-format": [
         "rules-to-better-net10-migrations"
     ],
-    "migrating-frontend-to-net8": [
+    "migrating-frontend-to-net10": [
         "rules-to-better-net10-migrations"
     ],
     "use-banned-api-analyzers": [

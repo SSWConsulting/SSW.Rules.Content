@@ -677,6 +677,7 @@
     "do-you-know-you-should-not-open-popup-windows-and-use-a-javascript-modal-instead": "dont-open-popup-windows-use-a-javascript-modal-instead",
     "do-you-know-to-not-push-your-pull-requests-a-k-a-discuss-then-build": "dont-push-your-pull-requests",
     "do-you-know-to-not-push-your-pull-requests-(a-k-a-discuss-then-build)": "dont-push-your-pull-requests",
+    "dotnet-upgrade-assistant": "dotnet-modernization-tools",
     "office-environment-do-you-follow-the-companys-dress-code": "dress-code",
     "do-you-have-a-dress-code": "dress-code",
     "appointments-do-you-know-to-copy-the-email-content-into-the-calendar-appointment": "duplicate-email-content-in-a-calendar-appointment",
@@ -2104,5 +2105,6 @@
     "rules-to-better-version-control-with-tfs-(aka-source-control)": "rules-to-better-version-control-with-tfs-aka-source-control",
     "rules-to-better-bug-management-and-feedback": "rules-to-better-bug-management-and-product-feedback",
     "rules-to-better-xamarin-mobile": "rules-to-better-maui",
+    "rules-to-better-net8-migrations": "rules-to-better-net10-migrations",
     "rules-to-better-ui-(bootstrap)": "rules-to-better-ui-bootstrap"
 }
