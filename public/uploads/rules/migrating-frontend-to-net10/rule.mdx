@@ -8,26 +8,26 @@ related:
 - rule: public/uploads/rules/migration-plans/rule.mdx
 - rule: public/uploads/rules/modernize-your-app/rule.mdx
 - rule: public/uploads/rules/do-you-know-where-to-host-your-frontend-application/rule.mdx
-seoDescription: Migrate your frontend to .NET 8 effectively with hosting options that
+seoDescription: Migrate your frontend to .NET 10 effectively with hosting options that
   enhance performance and scalability.
-title: Do you know how to migrate frontend to .NET 8?
+title: Do you know how to migrate frontend to .NET 10?
 categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
 type: rule
-uri: migrating-frontend-to-net8
+uri: migrating-frontend-to-net10
 ---
 
-In the case where the legacy .NET Framework application is hosting the frontend, it is recommended to also think about the hosting method of the frontend in .NET 8.
+In the case where the legacy .NET Framework application is hosting the frontend, it is recommended to also think about the hosting method of the frontend in .NET 10.
 
 This issue is best considered before or during the migration so the team will not spend time implementing something that will be removed shortly in the future.
 
 <endIntro />
 
-Depending on the scenario and the situation of the projects, there are many options available to host the frontend with .NET 8. Here are a couple of the many options available.
+Depending on the scenario and the situation of the projects, there are many options available to host the frontend with .NET 10. Here are a couple of the many options available.
 
-### Option 1: Keep hosting frontend integrated with .NET 8
+### Option 1: Keep hosting frontend integrated with .NET 10
 
-No changes to the flow, keep hosting the frontend the same way as before (e.g. bundling the frontend build artifacts as a static resource in .NET 8).
+No changes to the flow, keep hosting the frontend the same way as before (e.g. bundling the frontend build artifacts as a static resource in .NET 10).
 
 **✅ Pros:**
 
@@ -42,7 +42,7 @@ No changes to the flow, keep hosting the frontend the same way as before (e.g. b
 ### Option 2: Host frontend on its own
 
 This option fully separates the frontend from the backend. This requires serving the frontend on a separate hostname or using a gateway service to redirect API with frontend routes.
-e.g. Hosting frontend in Azure Static WebApp and use Azure Frontdoor to route requests to frontend on frontend routes and backend routes to the .NET 8 application.
+e.g. Hosting frontend in Azure Static Web Apps and use Azure Front Door to route requests to frontend on frontend routes and backend routes to the .NET 10 application.
 
 **✅ Pros:**
 
@@ -57,7 +57,7 @@ e.g. Hosting frontend in Azure Static WebApp and use Azure Frontdoor to route re
 * Higher infrastructure cost
 * Requires extra configuration and management effort
 
-### Option 3: Host frontend externally, serve it together with .NET 8
+### Option 3: Host frontend externally, serve it together with .NET 10
 
 Hosting your frontend application in a separate storage (e.g. in Azure Blob Storage) is the mixed transitionary approach where the frontend artifacts are hosted separately from the backend, and the backend will pass these artifacts to the frontend without statically embedding the resource in the backend.
 This option still allows a clean separation of concerns, allowing for independent scaling and deployment of the frontend and backend, while also sitting in a transition where we have the option to host the frontend standalone, similar to Option 2 setup.
@@ -91,4 +91,4 @@ This option still allows a clean separation of concerns, allowing for independen
 * **Performance:** Assess how each option affects the performance of your application. Decoupling the frontend can offer performance benefits through CDN caching
 * **Future-Proofing:** Think long-term. Option 2 and Option 3 provide more flexibility for future changes and scalability
 
-By carefully assessing your needs and understanding the trade-offs of each option, you can make an informed decision on how to serve your Angular applications in a .NET 8 environment.
+By carefully assessing your needs and understanding the trade-offs of each option, you can make an informed decision on how to serve your front-end applications in a .NET 10 environment.

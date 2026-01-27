@@ -37,7 +37,7 @@ Always code against an interface rather than a concrete implementation. Use depe
 
 By creating an interface for each service and programming against the interface, you can easily swap out the implementation of the service without changing the code that uses the service.
 
-It is important to also control the scope of the injection. For example, in ASP.NET 8 application you have the option to register the concrete implementation in the DI container either as a singleton, scoped, or transient service. Each of them will have a different lifetime in the application and should be set as per the requirement.
+It is important to also control the scope of the injection. For example, in ASP.NET 10 application you have the option to register the concrete implementation in the DI container either as a singleton, scoped, or transient service. Each of them will have a different lifetime in the application and should be set as per the requirement.
 
 ![](/uploads/rules/code-against-interfaces/Code against interfaces - bad.png)
 **❌ Figure: Bad Example - Referencing the concrete EF context**
