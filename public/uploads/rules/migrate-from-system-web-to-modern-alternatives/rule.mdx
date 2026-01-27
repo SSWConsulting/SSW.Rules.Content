@@ -20,7 +20,7 @@ seoDescription: >-
 created: 2023-06-06T22:07:00.000Z
 createdBy: Sylvia Huang
 createdByEmail: sylviahuang@ssw.com.au
-lastUpdated: 2026-01-27T09:12:02.261Z
+lastUpdated: 2026-01-27T09:12:55.860Z
 lastUpdatedBy: Sylvia Huang
 lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
@@ -87,7 +87,7 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
 </ItemGroup>
 
 <!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 </ItemGroup>
 ```
