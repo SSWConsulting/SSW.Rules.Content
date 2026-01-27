@@ -7270,7 +7270,8 @@
         "rules-to-better-architecture-and-code-review"
     ],
     "best-trace-logging": [
-        "rules-to-better-architecture-and-code-review"
+        "rules-to-better-architecture-and-code-review",
+        "rules-to-better-error-handling"
     ],
     "do-you-use-the-kent-beck-philosophy": [
         "rules-to-better-architecture-and-code-review"
@@ -8005,6 +8006,7 @@
     ],
     "do-you-use-the-result-pattern": [
         "rules-to-better-domain-driven-design",
+        "rules-to-better-error-handling",
         "rules-to-better-net-projects",
         "rules-to-better-vertical-slice-architecture"
     ],
@@ -8078,6 +8080,33 @@
     "migrate-from-edmx-to-ef-core": [
         "rules-to-better-entity-framework",
         "rules-to-better-net8-migrations"
+    ],
+    "do-you-use-the-best-exception-handling-library": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-present-the-user-with-a-nice-error-screen": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-use-ladylog": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-catch-and-re-throw-exceptions-properly": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-catch-exceptions-precisely": [
+        "rules-to-better-error-handling"
+    ],
+    "never-throw-exception-using-system-exception": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-use-an-analytics-framework-to-help-manage-exceptions": [
+        "rules-to-better-error-handling"
+    ],
+    "do-you-always-avoid-on-error-resume-next-vb-only": [
+        "rules-to-better-error-handling"
+    ],
+    "managing-errors-with-code-auditor": [
+        "rules-to-better-error-handling"
     ],
     "enable-the-search": [
         "rules-to-better-exchange-server"
