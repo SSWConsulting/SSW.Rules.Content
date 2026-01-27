@@ -24,6 +24,8 @@ When it’s removed, the most common compile time error will be HttpContext.Curr
 
 There are several options available depending on the scenario and stage of migration.
 
+<endIntro />
+
 ## 1. Replace with IHttpContextAccessor (.NET only)
 
 When moving to .NET, you’ll find `HttpContext.Current` no longer exists. You can use `IHttpContextAccessor` instead in constructor and access it via `httpContextAccessor.HttpContext`.

@@ -21,6 +21,8 @@ The [Katana libraries](https://github.com/aspnet/AspNetKatana/) provided a flexi
 
 Middleware and module registering functionality are now core features of ASP.NET Core. Microsoft provides adapters to and from the [OWIN interface for ASP.NET](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) that can be used to gradually migrate custom OWIN components. By contrast, ASP.NET Core has native ports for Katana components.
 
+<endIntro />
+
 ## CORS functionality
 
 CORS functionality was enabled in OWIN with the `UseCors(...)` extension method. For ASP.NET Core, it is provided by the [UseCors(...)](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-9.0) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
