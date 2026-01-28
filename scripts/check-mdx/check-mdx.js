@@ -51,6 +51,30 @@ function remarkCustomMdxRules() {
   };
 }
 
+function humanizeMdxError(err) {
+  const raw = cleanMsg(err);
+
+  // Common MDX JS-expression parse failure message
+  if (raw.toLowerCase().includes("could not parse expression with acorn")) {
+    return (
+      "Invalid MDX expression inside curly braces `{ ... }`.\n" +
+      "This usually happens when curly braces are used in normal text.\n" +
+      "If you meant literal braces, escape them as `\\{` and `\\}`, or wrap them in code: `` `{test}` ``."
+    );
+  }
+
+  // JSX fragment / tag related (optional extra polish)
+  if (raw.includes("Expected a closing tag for `<>`")) {
+    return (
+      'Found `<>` which MDX may treat as a JSX fragment.\n' +
+      'Write it as inline code: `` `<>` ``, or escape it.'
+    );
+  }
+
+  return raw;
+}
+
+
 function pickPos(err) {
   const line = err?.position?.start?.line ?? err?.line ?? 1;
   const col = err?.position?.start?.column ?? err?.column ?? 1;
@@ -64,7 +88,7 @@ function cleanMsg(err) {
 function toGhAnnotation(err, fallbackFile) {
   const file = err?.file || fallbackFile || "";
   const { line, col } = pickPos(err);
-  const msg = cleanMsg(err);
+  const msg = humanizeMdxError(err).replace(/\r?\n/g, " ");
   return `::error file=${file},line=${line},col=${col}::${msg}`;
 }
 
@@ -155,7 +179,7 @@ async function main() {
       console.error(toGhAnnotation(err, rel));
 
       const { line, col } = pickPos(err);
-      const msg = cleanMsg(err);
+      const msg = humanizeMdxError(err);
       errors.push({ file: rel, line, col, msg });
     }
   }
