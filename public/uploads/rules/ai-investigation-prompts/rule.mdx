@@ -14,7 +14,7 @@ guid: 75a805bb-35b0-419e-94e3-5bd0ba77d86d
 created: 2026-01-27T23:22:58.602Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-01-28T03:34:02.976Z
+lastUpdated: 2026-01-28T04:12:14.564Z
 lastUpdatedBy: Luke Cook
 lastUpdatedByEmail: LukeCook@ssw.com.au
 ---
@@ -65,6 +65,20 @@ Define your “dream documentation” for the specific area you are working on, 
 
 This is a great start, but you can get even better results with a bit more guidance.
 
+### Create a living document
+
+Most of the time, your investigative session isn't just a “one and done” prompt. You'll examine the output, make further inquiries, and narrow/broaden the scope based on what you learn. For these reasons, you should instruct your model to output its findings to a source-controlled document that it can read and write throughout the session.
+
+<boxEmbed
+  body={<>
+    I am working on the Xero integration. Give me a an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Output your findings to \~/investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
+  </>}
+  figurePrefix="good"
+  figure="Creating a source-controlled, living document for iterations"
+/>
+
 ### Ask clarifying questions
 
 While the above prompt is great for pointing AI at your desired outcome, you don't know what other context the model would benefit from. Instead of trying to guess anything and everything up-front, instruct the model to come back to you with the questions it wants answered.
@@ -72,6 +86,8 @@ While the above prompt is great for pointing AI at your desired outcome, you don
 <boxEmbed
   body={<>
     I am working on the Xero integration. Give me a an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Output your findings to \~/investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
     
     Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
   </>}
@@ -82,11 +98,25 @@ While the above prompt is great for pointing AI at your desired outcome, you don
 
 This small addition has huge pays-offs. Allowing the model to clarify your intent by asking questions you may not have thought of will drastically improve the outcome.
 
-These 2 strategies combined will produce exceptional results, and are used by SSW daily. 
+These 3 strategies combined will produce exceptional results, and are used by SSW daily. 
 
-But if you're looking for something specific, such as a bug, you can get even better results with an extra instruction…
+## Make your prompt re-usable
 
-### Look through previous commits
+Once you've defined your gold-standard investigation prompt, it pays to do a small refactor to make it re-usable. You'll be using it a lot!
+
+If we take the above example, a re-usable Investigation Prompt template would look like:
+
+## Add extra context
+
+In your problem statement, you can now add extra context specific to the request.
+
+Some examples that we've found to be useful are:
+
+### Vocalize your problem statement
+
+Typing is hard. You may miss out on details that you would otherwise explain if you were speaking to another person. Try using a dictation tool (or a speech-to-text app) to reduce the friction in getting your thoughts into the prompt. Don't worry too much on wordsmithing the perfect sentence - AI is good at working around word salads.
+
+### Include previous commits
 
 How many times have you heard something like “This bug only started happening a week ago. Everything was working fine until then”?
 
@@ -95,6 +125,8 @@ So you start diffing files, and poring over earlier commits to see what changed.
 <boxEmbed
   body={<>
     I am working on the Xero integration. Give me a an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Output your findings to /investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
     
     Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
     
@@ -105,25 +137,10 @@ So you start diffing files, and poring over earlier commits to see what changed.
   style="greybox"
 />
 
-### Create a living document
-
-Most of the time, your investigative session isn't just a “one and done” prompt. You'll examine the output, make further inquiries, and narrow/broaden the scope based on what you learn. For these reasons, you should instruct your model to output its findings to a source-controlled document that it can read and write throughout the session.
-
-<boxEmbed
-  body={<>
-    I am working on the Xero integration. Give me a an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
-    
-    Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
-    
-    Output your findings to /investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
-  </>}
-  figurePrefix="good"
-  figure="Creating a source-controlled, living document for iterations"
-/>
-
 ## Further reading
 
 If you're interested in learning how SSW's Investigation Prompts came about, and their effectiveness in real-world use cases, check out the following blog posts by a couple of SSW's Solution Architects:
 
-* Gordon Beeming: [My "Meta-Prompt" for Codebase Investigations](https://gordonbeeming.com/blog/2025-11-06/my-meta-prompt-for-codebase-investigations-with-copilot-cli-and-copilot-here)
 * Dan Mackay: [Efficient Vibe Coding: How clarifying questions make AI actually useful](https://www.dandoescode.com/blog/efficient-vibe-coding-with-clarifying-questions)
+* Gordon Beeming: [My "Meta-Prompt" for Codebase Investigations](https://gordonbeeming.com/blog/2025-11-06/my-meta-prompt-for-codebase-investigations-with-copilot-cli-and-copilot-here)
+* Gordon Beeming: [Deep Code Archaeology with GitHub Copilot CLI: Tracing a Bug Through 6 Months of Git History](https://gordonbeeming.com/blog/2025-10-27/deep-code-archaeology-with-github-copilot-cli-tracing-a-bug-through-6-months-of-git-history)
