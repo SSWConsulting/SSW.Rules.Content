@@ -5,7 +5,7 @@ guid: 75a805bb-35b0-419e-94e3-5bd0ba77d86d
 created: 2026-01-27T23:22:58.602Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-01-28T02:58:01.561Z
+lastUpdated: 2026-01-28T03:16:09.877Z
 lastUpdatedBy: Luke Cook
 lastUpdatedByEmail: LukeCook@ssw.com.au
 ---
@@ -97,3 +97,15 @@ So you start diffing files, and poring over earlier commits to see what changed.
 ### Create a living document
 
 Most of the time, your investigative session isn't just a “one and done” prompt. You'll examine the output, make further inquiries, and narrow/broaden the scope based on what you learn. For these reasons, you should instruct your model to output its findings to a source-controlled document that it can read and write throughout the session.
+
+<boxEmbed
+  body={<>
+    I am working on the Xero integration. Give me a an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
+    
+    Output your findings to /investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
+  </>}
+  figurePrefix="good"
+  figure="Creating a source-controlled, living document for iterations"
+/>
