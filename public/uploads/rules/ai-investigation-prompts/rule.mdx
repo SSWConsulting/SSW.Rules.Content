@@ -110,7 +110,7 @@ If we take the above example, a re-usable Investigation Prompt template might lo
 
 <boxEmbed
   body={<>
-    I need help with an investigation report. I need you to place a markdown file in \~/investigations/, the format of the name of the markdown file should be YYYYMMDD-{{ Current working directory name }}-{{ Summary of investigation }}.md where YYYY is the year, MM is the month, and DD is the day.
+    I need help with an investigation report. I need you to place a markdown file in \~/investigations/, the format of the name of the markdown file should be YYYYMMDD-[[ Current working directory name ]]-[[ Summary of investigation ]].md where YYYY is the year, MM is the month, and DD is the day.
     
     The important details is a summary of what the problem statement is. If I ask for further details, change the summary accordingly. Any new updates should change the summary to be bullet points so it's easy to digest.
     
@@ -118,7 +118,7 @@ If we take the above example, a re-usable Investigation Prompt template might lo
     
     Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
     
-    Problem statement: {{ Write your statement here. E.g., "I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations." }}
+    Problem statement: [[ Write your statement here. E.g., "I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations." ]]
   </>}
   figurePrefix="none"
   figure=""
