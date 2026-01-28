@@ -14,7 +14,7 @@ guid: 75a805bb-35b0-419e-94e3-5bd0ba77d86d
 created: 2026-01-27T23:22:58.602Z
 createdBy: Luke Cook
 createdByEmail: LukeCook@ssw.com.au
-lastUpdated: 2026-01-28T04:12:14.564Z
+lastUpdated: 2026-01-28T04:18:57.780Z
 lastUpdatedBy: Luke Cook
 lastUpdatedByEmail: LukeCook@ssw.com.au
 ---
@@ -104,7 +104,24 @@ These 3 strategies combined will produce exceptional results, and are used by SS
 
 Once you've defined your gold-standard investigation prompt, it pays to do a small refactor to make it re-usable. You'll be using it a lot!
 
-If we take the above example, a re-usable Investigation Prompt template would look like:
+If we take the above example, a re-usable Investigation Prompt template might look like:
+
+<boxEmbed
+  body={<>
+    I need help with an investigation report. I need you to place a markdown file in \~/investigations/, the format of the name of the markdown file should be YYYYMMDD-{{ Current working directory name }}-{{ Summary of investigation }}.md where YYYY is the year, MM is the month, and DD is the day.
+    
+    The important details is a summary of what the problem statement is. If I ask for further details, change the summary accordingly. Any new updates should change the summary to be bullet points so it's easy to digest.
+    
+    Next up I need a high level summary of the investigation, then followed by detailed findings, and finally any recommendations (if applicable)
+    
+    Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
+    
+    Problem statement: {{ Add your statement here. E.g., "" }}
+  </>}
+  figurePrefix="good"
+  figure="A re-usable Investigation Prompt template 👑"
+  style="greybox"
+/>
 
 ## Add extra context
 
