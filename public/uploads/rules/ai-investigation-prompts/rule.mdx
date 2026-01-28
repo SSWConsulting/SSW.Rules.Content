@@ -1,0 +1,174 @@
+---
+title: Do you use AI to explore unfamiliar code?
+uri: ai-investigation-prompts
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
+authors:
+  - title: Gordon Beeming
+    url: 'https://ssw.com.au/people/gordon-beeming'
+  - title: Dan Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay/'
+  - title: Luke Cook
+    url: 'https://ssw.com.au/people/luke-cook'
+guid: 75a805bb-35b0-419e-94e3-5bd0ba77d86d
+created: 2026-01-27T23:22:58.602Z
+createdBy: Luke Cook
+createdByEmail: LukeCook@ssw.com.au
+lastUpdated: 2026-01-28T05:45:25.186Z
+lastUpdatedBy: Luke Cook
+lastUpdatedByEmail: LukeCook@ssw.com.au
+---
+
+Starting on an unfamiliar project used to be a stressful experience - it could take developers months to learn the architecture, code patterns, and libraries that are used. And that's not even talking about the application's features and functionality.
+
+But with intelligent use of AI, this on-boarding time can be reduced to almost zero. You can now get on-demand analysis into projects, bugs, and features in minutes, and be operating at maximum velocity in your first Sprint. Learn how to do it right.
+
+<endIntro />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=IdMAGueSrI0" description="Video: Investigation Prompts | Gordon Beeming (7 min)" />
+
+## The old way - RTFM 👴
+
+Historically, when you were first put onto a new project, you'd immediately look for documentation. Architecture diagrams, specifications, class diagrams, etc. If you were lucky enough to find them, you'd pray they were up-to-date. And even in those best-case scenarios, you'd still have to translate that information into finding the code you were meant to be working on for any given feature.
+
+All of this took time, and would often send you down programming cul-de-sacs when you discovered features, requirements, or behaviour differed from the literature. The only way to know what was actually going on was to dig through the source code.
+
+## The new way - Investigation Prompts 🤖
+
+Whenever SSW developers start on a new project, we ask AI to give us an analysis of whatever feature or bug we're looking at. Instead of spending hours (or days) exploring an unfamiliar codebase, you can get on-demand documentation of exactly what, where, and how the feature is implemented.
+
+But producing a useful report without [AI slop](https://www.ssw.com.au/rules/avoid-automation-bias) takes some skill.
+
+<boxEmbed
+  body={<>
+    I am working on Xero integration. Tell me how it's implemented.
+  </>}
+  figurePrefix="bad"
+  figure="Vague prompt with no specific outcome or information"
+  style="greybox"
+/>
+
+Giving AI broad questions leaves the door open for the model to make any number of assumptions on what you're trying to learn. The results are of little value. Instead, be specific about what you want the model to tell you.
+
+### Provide specific objectives
+
+Define your “dream documentation” for the specific area you are working on, and be explicit with what information you want AI to produce for you. This gives more meaningful insights, and will show you exactly which areas of the codebase you should be focusing on.
+
+<boxEmbed
+  body={<>
+    I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+  </>}
+  figurePrefix="ok"
+  figure="Specific objectives and outcomes you want to know"
+  style="greybox"
+/>
+
+This is a great start, but you can get even better results with a bit more guidance.
+
+### Create a living document
+
+Most of the time, your investigative session isn't just a “one and done” prompt. You'll examine the output, make further inquiries, and narrow/broaden the scope based on what you learn. For these reasons, you should instruct your model to output its findings to a source-controlled document that it can read and write throughout the session.
+
+<boxEmbed
+  body={<>
+    I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Output your findings to \~/investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
+  </>}
+  figurePrefix="good"
+  figure="Creating a source-controlled, living document for iterations"
+/>
+
+### Ask clarifying questions
+
+While the above prompt is great for pointing AI at your desired outcome, you don't know what other context the model would benefit from. Instead of trying to guess anything and everything up-front, instruct the model to come back to you with the questions it wants answered.
+
+<boxEmbed
+  body={<>
+    I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations.
+    
+    Output your findings to \~/investigations/xero-integration.md If there are changes to the scope or findings, update the document accordingly. Give a high-level summary at the beginning, with detailed breakdowns of each finding below.
+    
+    Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+✅ Figure: Better example - Specific objectives, and behavioural instructions
+
+This small addition has huge pay-offs. Allowing the model to clarify your intent by asking questions you may not have thought of will drastically improve the outcome.
+
+These 3 strategies combined will produce exceptional results, and are used by SSW developers daily. 
+
+## Make your prompt re-usable
+
+Once you've defined your gold standard investigation prompt, it pays to do a small refactor to make it re-usable. You'll be using it a lot!
+
+If we take the above example, a re-usable Investigation Prompt template might look like:
+
+<boxEmbed
+  body={<>
+    I need help with an investigation report. I need you to place a markdown file in \~/investigations/, the format of the name of the markdown file should be YYYYMMDD-{{ Current working directory name }}-{{ Summary of investigation }}.md where YYYY is the year, MM is the month, and DD is the day.
+    
+    The important details is a summary of what the problem statement is. If I ask for further details, change the summary accordingly. Any new updates should change the summary to be bullet points so it's easy to digest.
+    
+    Next up I need a high level summary of the investigation, then followed by detailed findings, and finally any recommendations (if applicable)
+    
+    Ask me if you have any questions before you start. Ask each question one at a time. Wait for an answer before asking the next question. If there are several options, show these in a table with options labeled A, B, C, etc.
+    
+    Problem statement: {{ Write your statement here. E.g., "I am working on the Xero integration. Give me an architectural overview of how Xero integration is currently implemented, along with all configuration values that are used (and where to find them). Additionally, highlight the code paths that touch the Xero integrations." }}
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+✅✅ Figure: Best example - A re-usable Investigation Prompt template
+
+<boxEmbed
+  body={<>
+    Tip: Turn your template into a custom agent, or a slash command. This makes your UX a dream.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Add extra context
+
+In your problem statement, you can now add extra context specific to the request.
+
+Some examples that we've found to be useful are:
+
+### Vocalize your problem statement
+
+Typing is hard. You may miss out on details that you would otherwise explain if you were speaking to another person, especially if you aren't a fast typist. Use a speech-to-text tool to reduce the friction in getting your thoughts into the prompt. Don't worry too much on wordsmithing the perfect sentence - AI is good at dealing with word salads.
+
+### Include previous commits
+
+How many times have you heard something like “This bug only started happening a week ago. Everything was working fine until then”?
+
+So you start diffing files, and poring over earlier commits to see what changed. This is another area where AI can 10x your efficiency when investigating a problem.
+
+<boxEmbed
+  body={<>
+    …prompt template
+    
+    …problem statement
+    
+    Specifically, I am investigating a bug that was introduced within the last 2 weeks. Examine the commit history and highlight changes in these code areas that should be examined further.
+  </>}
+  figurePrefix="good"
+  figure="AI can analyse diffs much faster than you"
+  style="greybox"
+/>
+
+## Further reading
+
+If you're interested in learning how SSW's Investigation Prompts came about, and their effectiveness in real-world use cases, check out the following blog posts by a couple of SSW's Solution Architects:
+
+* Dan Mackay: [Efficient Vibe Coding: How clarifying questions make AI actually useful](https://www.dandoescode.com/blog/efficient-vibe-coding-with-clarifying-questions)
+* Gordon Beeming: [My "Meta-Prompt" for Codebase Investigations](https://gordonbeeming.com/blog/2025-11-06/my-meta-prompt-for-codebase-investigations-with-copilot-cli-and-copilot-here)
+* Gordon Beeming: [Deep Code Archaeology with GitHub Copilot CLI: Tracing a Bug Through 6 Months of Git History](https://gordonbeeming.com/blog/2025-10-27/deep-code-archaeology-with-github-copilot-cli-tracing-a-bug-through-6-months-of-git-history)
