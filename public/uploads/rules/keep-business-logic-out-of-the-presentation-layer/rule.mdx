@@ -31,7 +31,7 @@ It's common for business logic to be added directly to the presentation layer. W
   size="large"
   showBorder={false}
   figurePrefix="bad"
-  figure="Bad example - Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
+  figure="Although this application clearly has repository and business logic layers, the logic that orchestrates these dependencies is in the ASP.NET Controller and is difficult to reuse"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-bad.png"
 />
 
@@ -91,6 +91,6 @@ This approach brings many benefits:
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Good example - MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
+  figure="MediatR simplifies the dependencies injected into the controller. The incoming web request is simply mapped directly to a MediatR request that orchestrates all the logic for this operation. The implementation and dependencies needed to complete “GetItemForEdit” are free to change without needing to change the controller class"
   src="/uploads/rules/keep-business-logic-out-of-the-presentation-layer/business-logic-presentation-layer-good.png"
 />

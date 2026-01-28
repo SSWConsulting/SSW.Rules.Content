@@ -15,7 +15,7 @@ seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting
 title: Do you know how to migrate from EDMX to EF Core
 categories:
   - category: categories/software-engineering/rules-to-better-entity-framework.mdx
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
 type: rule
 uri: migrate-from-edmx-to-ef-core
 ---
@@ -25,6 +25,8 @@ Some older projects .NET Framework project will have EDMX instead of modern DbCo
 In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectContext is the base class that is used by the generated class, which will generally end with Entities (e.g. DataEntities).
 
 The rule is focusing on .NET 8+ as the support for .NET Framework projects and Nuget was added back, which makes a staged migration a lot more feasible. Most, if not all, are still applicable for .NET 7 as well.
+
+<endIntro />
 
 ## Strategies
 
