@@ -1,30 +1,28 @@
 ---
-archivedreason: null
-authors:
-- title: Eddie Kranz
-  url: https://www.ssw.com.au/people/eddie-kranz/
-created: 2025-11-21 04:05:21+00:00
-createdBy: Copilot
-createdByEmail: 198982749+Copilot@users.noreply.github.com
-guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
-isArchived: false
-lastUpdated: 2025-11-21 04:05:21+00:00
-lastUpdatedBy: Copilot
-lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
-related:
-- rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
-- rule: public/uploads/rules/best-ai-powered-ide/rule.mdx
-- rule: public/uploads/rules/clean-architecture/rule.mdx
-- rule: public/uploads/rules/work-in-vertical-slices/rule.mdx
-- rule: public/uploads/rules/software-architecture-decision-tree/rule.mdx
-seoDescription: Learn the best practices for starting vibe coding to ensure your code
-  is maintainable, passes the bus test, and follows professional standards using GitHub
-  Copilot Workspaces and architecture templates.
+type: rule
 title: Do you know the best practices to start vibe coding?
+uri: start-vibe-coding-best-practices
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
-type: rule
-uri: start-vibe-coding-best-practices
+authors:
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz/'
+related:
+  - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+  - rule: public/uploads/rules/best-ai-powered-ide/rule.mdx
+  - rule: public/uploads/rules/clean-architecture/rule.mdx
+  - rule: public/uploads/rules/work-in-vertical-slices/rule.mdx
+  - rule: public/uploads/rules/software-architecture-decision-tree/rule.mdx
+guid: 96cdaec6-cc01-4bae-b9fe-8a6d5be31c4d
+seoDescription: 'Learn the best practices for starting vibe coding to ensure your code is maintainable, passes the bus test, and follows professional standards using GitHub Copilot Workspaces and architecture templates.'
+created: 2025-11-21T04:05:21.000Z
+createdBy: Copilot
+createdByEmail: 198982749+Copilot@users.noreply.github.com
+lastUpdated: 2025-11-21T04:05:21.000Z
+lastUpdatedBy: Copilot
+lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
+isArchived: false
+archivedreason: null
 ---
 
 Vibe coding empowers non-developers to build software using AI agents. However, without proper foundation and structure, vibe coding can result in unmaintainable code that fails "the bus test" – meaning if you were hit by a bus tomorrow, no one else could understand or maintain your code.
@@ -34,8 +32,9 @@ Vibe coding empowers non-developers to build software using AI agents. However, 
 The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, and leverages existing AI guidance.
 
 ## Start in GitHub
-**❌ Starting with code on your local machine or in an unmanaged environment**  
-**✅ Create your repository in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting) from the start**  
+
+**❌ Starting with code on your local machine or in an unmanaged environment**\
+**✅ Create your repository in the [SSWConsulting GitHub organization](https://github.com/SSWConsulting) from the start**
 
 Starting your project in GitHub, specifically within your organization, ensures:
 
@@ -59,7 +58,6 @@ Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.C
 * `.github/copilot-instructions.md` for GitHub Copilot integration
 * Pre-configured with best practices and patterns
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -68,7 +66,6 @@ Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.C
   figurePrefix="none"
   figure=""
 />
-
 
 ### Vertical Slice Architecture Template
 
@@ -80,7 +77,6 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
 * Less ceremony than Clean Architecture for simpler projects
 * Faster to get started with
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -90,20 +86,17 @@ Alternatively, use the [SSW Vertical Slice Architecture template](https://github
   figure=""
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
     **Which template should I use?**
-
-* Choose **Clean Architecture** if you need more structure and guardrails
-* Choose **Vertical Slice Architecture** if you want to move fast and iterate quickly
+    
+    * Choose **Clean Architecture** if you need more structure and guardrails
+    * Choose **Vertical Slice Architecture** if you want to move fast and iterate quickly
   </>}
   figurePrefix="none"
   figure=""
 />
-
 
 See the [software architecture decision tree](/software-architecture-decision-tree) for more guidance on choosing the right architecture.
 
@@ -117,7 +110,6 @@ Once your repository is set up with a template, use [GitHub Copilot Workspaces](
 4. **Let the AI implement** - Copilot Workspace will make the changes directly in your repository
 5. **Create a Pull Request** - Review the changes before merging to main
 
-
 <boxEmbed
   style="greybox"
   body={<>
@@ -127,17 +119,19 @@ Once your repository is set up with a template, use [GitHub Copilot Workspaces](
   figure="Clear requirement that the AI can implement following the template's patterns"
 />
 
-
 ## Why this approach passes the bus test
 
 By following these practices, your vibe-coded project will be:
 
-✅ **Maintainable** - Following proven architecture patterns
-✅ **Understandable** - Using standard structures that developers recognize
-✅ **Documented** - Architecture decisions are encoded in the template
-✅ **Reviewable** - All changes go through pull requests
-✅ **Professional** - Indistinguishable from code written by experienced developers
-
+* ✅ **Maintainable** - Following proven architecture patterns
+*
+  ✅ **Understandable** - Using standard structures that developers recognize
+*
+  ✅ **Documented** - Architecture decisions are encoded in the template
+*
+  ✅ **Reviewable** - All changes go through pull requests
+*
+  ✅ **Professional** - Indistinguishable from code written by experienced developers
 
 <boxEmbed
   style="info"
@@ -147,7 +141,6 @@ By following these practices, your vibe-coded project will be:
   figurePrefix="none"
   figure=""
 />
-
 
 ## Learn more
 
