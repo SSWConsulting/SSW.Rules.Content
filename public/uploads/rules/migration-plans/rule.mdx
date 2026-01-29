@@ -30,7 +30,7 @@ seoDescription: Create a migration plan by targeting multiple target frameworks 
 created: 2023-09-06T23:08:53.979Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
-lastUpdated: 2026-01-29T06:33:47.541Z
+lastUpdated: 2026-01-29T03:10:33.748Z
 lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
@@ -53,7 +53,7 @@ If your app has 3rd party dependencies (e.g. with a financial system, reporting 
 
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Install necessary .NET 8 runtimes" src="/uploads/rules/migration-plans/related-runtimes.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Install necessary .NET 10 runtimes" src="/uploads/rules/migration-plans/related-runtimes-net10.png" />
 
 ## Breaking changes
 
@@ -108,7 +108,7 @@ The first thing you want to do is update your projects' `csproj` files to the ne
   figure=""
 />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="The differences between the legacy csproj file and the new SDK csproj file" src="/uploads/rules/migration-plans/legacy-vs-sdk.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="The differences when migrating from legacy csproj to the new SDK style" src="/uploads/rules/migration-plans/legacy-to-sdk.png" />
 
 ### Target multiple Target Framework Monikers (TFM)
 
@@ -152,10 +152,10 @@ Multi-targeting both your original .NET Framework version *and* your future .NET
 In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to allow for multiple target frameworks and enable a smoother flow later to avoid needing to reload projects or have to close and reopen Visual Studio.
 
 ```csharp
-<TargetFrameworks>net472;net8.0</TargetFrameworks>
+<TargetFrameworks>net48;net8.0</TargetFrameworks>
 ```
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Bad and good examples when targeting multiple target frameworks" src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Multi-targeting .NET Framework and .NET 10" src="/uploads/rules/migration-plans/multi-targeting-frameworks.png" />
 
 ### Watch for SYSLIB diagnostic warnings
 
