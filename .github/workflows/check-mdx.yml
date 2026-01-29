@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   issues: write
   pull-requests: write
 
@@ -38,7 +38,7 @@ jobs:
           cd scripts/check-mdx
           npm install
 
-      - name: Run MDX check
+      - name: Run MDX check (auto-fix)
         id: mdx_check
         if: ${{ env.changed != '' }}
         continue-on-error: true
@@ -46,42 +46,61 @@ jobs:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
         run: |
           cd scripts/check-mdx
-          node check-mdx.js '${{ env.changed }}'
-      
-      - name: Debug outcomes
-        if: ${{ env.changed != '' }}
-        run: |
-          echo "changed=${{ env.changed }}"
-          echo "mdx_check.outcome=${{ steps.mdx_check.outcome }}"
-          echo "same_repo=${{ github.event.pull_request.head.repo.full_name == github.repository }}"
+          node check-mdx.mjs --fix '${{ env.changed }}'
 
-      # Only comment when:
-      # - MDX check failed
-      # - PR is NOT from a fork (same repository)
-      - name: Comment on PR (when failed, non-fork PR only)
-        if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+      - name: Commit & push auto-fixes (same-repo PR only)
+        id: autofix
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        run: |
+          set -e
+
+          # If no changes, nothing to commit
+          if git diff --quiet; then
+            echo "did_commit=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "chore: auto-fix MDX issues"
+          git push
+
+          echo "did_commit=true" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Comment on PR (same-repo PR only)
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v8
         env:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
+          DID_COMMIT: ${{ steps.autofix.outputs.did_commit }}
+          COMMIT_SHA: ${{ steps.autofix.outputs.sha }}
         with:
           script: |
             const fs = require('fs');
 
+            const marker = '<!-- mdx-check -->';
             const reportPath = process.env.MDX_REPORT_PATH;
+
             let body = '';
             try {
               body = fs.readFileSync(reportPath, 'utf8');
             } catch (e) {
-              body = '<!-- mdx-check -->\n### ❌ MDX check failed\n\n(Report file missing)';
+              body = `${marker}\n### MDX check\n\n(Report file missing)`;
             }
 
-            const marker = '<!-- mdx-check -->';
+            // Append commit info if we pushed fixes
+            if (process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
+              body += `\n\n✅ Auto-fix commit pushed: \`${process.env.COMMIT_SHA}\``;
+            }
+
             if (!body.includes(marker)) body = `${marker}\n` + body;
 
             const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
-            
-            // Update existing bot comment with marker to avoid spam
+
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number: prNumber, per_page: 100
             });
