@@ -1,14 +1,161 @@
 ---
-title: Do you utilize back-pressure when running AI Agents?
-uri: utilize-back-pressure-for-agents
+type: rule
+title: Do you use back pressure to keep AI agents on track?
+seoDescription: Learn how to use back pressure (compilers, linters, tests, MCP servers) to improve AI agent reliability and reduce manual review time.
 guid: f63f04e9-36c1-4e06-b21c-217bae75811f
-created: 2026-01-29T01:34:08.512Z
+uri: utilize-back-pressure-for-agents
+created: 2026-01-29T00:00:00.000Z
+authors:
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz
+related: []
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai.mdx
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
 ---
 
-Intro
+When working with AI agents (like GitHub Copilot Workspace, Cursor, or autonomous agents), a common bottleneck is the human review loop. If you ask an agent to "refactor this class" and it introduces a syntax error, you have to spot it and tell the agent to fix it. This manual feedback loop is slow, unscalable, and wastes your time.
 
 <endIntro />
 
-Body
+"Back pressure" refers to the automated feedback provided by your environment (compilers, linters, test runners, type systems) that constrains the agent's output. By exposing these signals to the agent, you allow it to self-correct and learn from its mistakes without your intervention.
+
+## Why "Back Pressure" Matters
+
+Without back pressure, an AI agent relies entirely on you to validate its work. You become the compiler. This limits the complexity of tasks you can delegate because the cost of verifying the work increases linearly with the task size.
+
+With back pressure, the agent operates in a closed loop:
+
+Agent generates code
+
+Agent runs validation tools (Build/Test/Lint)
+
+System returns errors (Back Pressure)
+
+Agent analyzes errors and iterates
+
+Success -> Only then does it request human review
+
+## Examples of Back Pressure
+
+### 1. Compilation and Linting
+
+The most immediate form of back pressure comes from the build system.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+User: "Refactor the UserProfile component to use the new API."
+
+Agent: Generates code "Here you go."
+
+User: Pastes into IDE -> ❌ Error: 'UserAvatar' is not defined.
+
+User: "You missed the import for UserAvatar."
+
+Agent: "Apologies." Fixes it
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The human wastes time acting as the linter"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+User: "Refactor the UserProfile component to use the new API."
+
+Agent: Generates code
+
+Agent: Runs npm run lint -> ❌ Error: 'UserAvatar' is not defined.
+
+Agent: Reads error -> "I need to import UserAvatar."
+
+Agent: Fixes code -> Runs lint -> ✅ Success.
+
+Agent: "I have refactored the component and verified it passes linting."
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent uses the linter to self-correct before bothering the user"
+/>
+
+### 2. Automated Tests
+
+You can ask agents to write and run tests to verify logic, not just syntax.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+User: "Write a function to validate email addresses."
+
+Agent: Writes Regex "Here it is."
+
+User: "This accepts 'user@domain' without a TLD."
+
+Agent: "Let me fix that."
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Logic errors are caught manually by the human"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+User: "Write a function to validate email addresses. Create a test suite to verify it."
+
+Agent: Writes Function & Tests
+
+Agent: Runs Tests -> ❌ Failure: 'user@domain' should be invalid.
+
+Agent: Adjusts Regex -> Runs Tests -> ✅ Pass.
+
+Agent: "Function created and verified against 10 test cases."
+  </>}
+  figurePrefix="good"
+  figure="Good example - The agent uses tests as back pressure to ensure correctness"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+Tip: When asking an agent to write its own tests, be careful it doesn't write "lazy" tests that always pass. You might need to review the tests themselves or ask it to generate tests before the implementation (TDD).
+  </>}
+  figurePrefix="none"
+  figure="Tip: Verify the verifier"
+/>
+
+### 3. Type Systems
+
+Strongly typed languages (TypeScript, C#, Rust) provide excellent back pressure. The type checker creates a "guard rail" that prevents the agent from making invalid assumptions about data structures.
+
+### 4. MCP Servers & Runtime Tools
+
+Advanced agents can use Model Context Protocol (MCP) servers to interact with real runtime environments. This allows them to "spin things up" and verify they actually work.
+
+Playwright: The agent can write a web app, start a local server, and run Playwright tests against it to verify the UI works as expected.
+
+.NET Aspire: The agent can use Aspire to orchestrate a distributed application and verify service-to-service communication.
+
+### 5. Proof Assistants (Sub-agents)
+
+You can structure your workflow so that one agent generates code and a second "Reviewer" agent critiques it. The Reviewer acts as a proof assistant, rejecting code that doesn't meet specific guidelines or security standards, providing back pressure before the human ever sees it.
+
+### 6. The Human (Final Back Pressure)
+
+If all else fails, you are the final layer of back pressure.
+
+The Goal: You should only be rejecting work based on high-level architecture, business logic, or user experience issues.
+
+The Reality: If you are rejecting work because of syntax errors or failing tests, you are "wasting" your back pressure on things machines can solve.
+
+## How to Implement Back Pressure
+
+To leverage this, you must ensure your agents have access to run tools:
+
+Give Access to CLI: Use tools that allow agents to execute terminal commands (e.g., Cursor 'Agent' mode, Windsurf, or custom MCP servers).
+
+Spec-Driven Development: Provide the agent with an OpenAPI spec or schema. Ask it to validate its output against that schema.
+
+CI/CD Integration: If using autonomous PR agents, ensure build logs and test results are fed back into the agent's context so it can fix its own PRs.
+
+The goal is to stop treating agents as "text generators" and start treating them as "developers" that must prove their work compiles and runs before you see it.
