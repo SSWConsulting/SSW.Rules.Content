@@ -1,8 +1,8 @@
 ---
-title: Do you build Custom Agents for complex tasks?
+title: Do you build custom agents for complex tasks?
 uri: build-custom-agents
 categories:
-  - {}
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Michael Qiu
     url: 'https://ssw.com.au/people/michael-qiu'
@@ -13,14 +13,30 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T01:50:55.330Z
+lastUpdated: 2026-01-29T03:24:03.676Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-When standard prompts aren't enough, and you have a repetitive, complex task that requires specific context, it's time to build a Custom Agent (also known as a "Skill" or "Bot").
+When standard prompts are not enough, and you have a repetitive, complex task, that requires a specific context, it's time to consider building a **Custom Agent** (also known as a “Skill” or a “Bot”).
 
 <endIntro />
+
+### When should you build an agent?
+
+Before committing to building a custom agent, it's worthwhile to validate your use case meets these criteria clearly, otherwise, a more deterministic solution may suffice.
+
+1. Complex Decision-making: Workflows involving nuanced judgment, exceptions, or context-sensitive information
+2. Difficult-to-maintain rules: Systems that have become unwieldy due to extensive and intricate rulesets, making updates costly and error-prone
+3. Heavy reliance on unstructured data: Scenarios that involve interpreting natural language extracting meaning from documents, or interacting with users conversationally
+
+### Structure of custom agents
+
+At its most fundamental level, an agent consists of three core components:
+
+1. Model: The LLM powering the agent's reasoning and decision-making
+2. Tools: External functions or APIs the agent can use to take action
+3. Instructions: Explicit guidelines and guardrails defining how the agent behaves
 
 ### Understanding the Progression
 
@@ -45,7 +61,7 @@ A reusable set of instructions that define how the AI should behave. Think of th
 
 <boxEmbed
   body={<>
-    You are an expert .NET develoepr. Always suggest the latest C# syntax. Prefer dependency injection. Follow Clean Architecture principles.
+    You are an expert .NET developer. Always suggest the latest C# syntax. Prefer dependency injection. Follow Clean Architecture principles.
   </>}
   figurePrefix="good"
   figure="A system prompt provides consistent behaviour but has no tools or autonomy"
@@ -54,7 +70,7 @@ A reusable set of instructions that define how the AI should behave. Think of th
 
 Level 3: Custom Agents (Full Agents)
 
-Custom agents are fully autonomous entities that combines:
+Custom agents are fully autonomous entities that can combine:
 
 * System prompts (persona and rules)
 * Tools/Function calling (ability to take actions)
@@ -93,11 +109,3 @@ Custom agents are fully autonomous entities that combines:
   figure="A full agent has tools, memory, and can take autonomous actions"
   style="greybox"
 />
-
-Great Use Cases for Custom Agents
-
-1. The HR Bot - Answers employee questions, processes leave requests, explains policies
-2. The Support Bot - Triages tickets, looks up customer history, suggests solutions
-3. The Documentation Bot - Maintains docs, updates changelogs, ensures consistency
-4. The Code Review Bot - Checks PRs against company standards, runs linting, suggests improvements
-5. The Migration Bot - Handles database migrations, validates schemas, generates scripts
