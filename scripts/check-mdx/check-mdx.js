@@ -16,24 +16,28 @@ import matter from "gray-matter";
  */
 function remarkCustomMdxRules() {
   return (tree, file) => {
-    // 1) Disallow inline MDX expressions in prose: { ... }
-    visit(tree, "mdxTextExpression", (node) => {
+    const failOnExpression = (node) => {
       const expr = (node.value || "").trim();
 
-      // Empty expression: {} or {   }
       if (!expr) {
         file.fail(
-          `Empty MDX expression "{}" found in content. If you meant literal braces, escape them (e.g. \\{ \\}) or use code formatting.`,
+          'Empty MDX expression "{}" found in content. If you meant literal braces, escape them (e.g. \\{ \\}) or use code formatting.',
           node
         );
         return;
       }
 
       file.fail(
-        `MDX inline expression "{${expr}}" found in content. Avoid using { } in prose; escape or rephrase.`,
+        `MDX expression "{${expr}}" found in content. Avoid using { } in prose; escape them as \\{ and \\}, or wrap in code.`,
         node
       );
-    });
+    };
+
+    // 1) Disallow MDX expressions in prose:
+    // - Inline: {test} inside a paragraph -> mdxTextExpression
+    // - Block:  {test} on its own line     -> mdxFlowExpression
+    visit(tree, "mdxTextExpression", failOnExpression);
+    visit(tree, "mdxFlowExpression", failOnExpression);
 
     // 2) Disallow lists inside blockquotes
     visit(tree, "blockquote", (bq) => {
@@ -43,7 +47,7 @@ function remarkCustomMdxRules() {
       });
       if (hasList) {
         file.fail(
-          `Lists inside blockquotes are not allowed (often caused by using "*" bullets inside "> ...").`,
+          'Lists inside blockquotes are not allowed (often caused by using "*" bullets inside "> ...").',
           bq
         );
       }
