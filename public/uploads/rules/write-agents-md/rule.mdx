@@ -2,51 +2,71 @@
 type: rule
 title: Do you write an AGENTS.md?
 uri: write-agents-md
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
 guid: 320076a9-b7ab-49e4-97d7-b9c3308c352e
 seoDescription: Learn why SSW developers use AGENTS.md to provide context and instructions for AI coding assistants in every project.
 created: 2026-01-28T23:17:11.841Z
-authors:
-  - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+createdBy: Eddie Kranz
+createdByEmail: EddieKranz@ssw.com.au
+lastUpdated: 2026-01-29T00:36:36.766Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
 
 AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
 
-<endIntro />
+AGENTS.md is an agreed-upon standard between all the big AI players.
+
+<endIntro _hidden="" />
 
 ## Why use AGENTS.md?
 
-An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
+An AGENTS.md file acts as a "manual" for AI agents. It provides a centralized place to define:
 
-* **Architecture Overview:** Explain the tech stack and how different layers interact.
-* **Coding Standards:** Define naming conventions, preferred libraries, and patterns.
-* **Common Commands:** List frequently used scripts for building, testing, and linting.
-* **Key Patterns:** Provide code examples for common tasks (e.g., adding a new API endpoint).
+* Architecture Overview: Explain the tech stack and how different layers interact.
+* Coding Standards: Define naming conventions, preferred libraries, and patterns.
+* Common Commands: List frequently used scripts for building, testing, and linting.
+* Key Patterns: Provide code examples for common tasks (e.g., adding a new API endpoint).
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
 ## Example: SSW Clean Architecture
 
-A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its `AGENTS.md` file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
+A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its AGENTS.md file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
 
 <boxEmbed
-  style="greybox"
   body={<>
     The AGENTS.md in SSW Clean Architecture includes:
-    * **Architecture Overview:** Explaining the WebApi -> Application -> Domain flow.
-    * **Key Patterns:** Clear C# examples for Commands, Queries, and Domain Events.
-    * **EF Migrations:** The exact commands to use for database changes.
+    
+    * Architecture Overview: Explaining the WebApi -> Application -> Domain flow.
+    * Key Patterns: Clear C# examples for Commands, Queries, and Domain Events.
+    * EF Migrations: The exact commands to use for database changes.
   </>}
   figurePrefix="good"
-  figure="Good example - Providing clear, actionable context for AI agents"
+  figure="Providing clear, actionable context for AI agents"
 />
 
-For more details, you can view the full [AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md).
+For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md) 
 
 ## How to implement it
 
-1. **Create the file:** Add `AGENTS.md` to the root of your repository.
-2. **Keep it updated:** As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
-3. **Reference it:** If you're using Cursor, you can explicitly point the agent to this file for better results.
+1\. Create the file: Add \`AGENTS.md\` to the root of your repository.
+
+2\. Keep it updated: As your project evolves, ensure the instructions in \`AGENTS.md\` remain accurate.
+
+3\. ✅ Done! As AGENTS.md is a common standard, agents should automatically look for this if exists.
+
+<boxEmbed
+  body={<>
+    Tip: Treat AGENTS.md as the starting point for your agents.
+    
+    You can reference other relevant files from this, in order to better structure your documentation.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
