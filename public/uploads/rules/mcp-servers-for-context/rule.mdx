@@ -12,7 +12,7 @@ guid: 88c66f96-8b4d-45b1-bb2a-794629c28304
 created: 2026-01-29T03:54:26.321Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T04:25:33.464Z
+lastUpdated: 2026-01-29T04:32:31.231Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -23,4 +23,22 @@ AI coding assistants are incredibly powerful, but they're limited by the context
 
 ### What is MCP?
 
-The Model Context Protocol (MCP) is an open standard introduced by Anthropic in 2024
+The Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 that defines how AI systems integrate with external data sources and tools. With MCP, you build a server once, and it works for any MCP-compatible client - from Claude Desktop, to Cursor, Visual Studio Code with GitHub Copilot, and many others.
+
+#### Key Benefits
+
+* Open Standard - Not locked into any single vendor
+* Build once, use everywhere - One MCP server works across all compatible AI cleints
+* Standardized authentication - OAuth 2.0 support for secure connections
+* Two-way communication - AI can both read data and perform actions
+
+### MCP vs Proprietary Extensions
+
+<boxEmbed
+  body={<>
+    GitHub Copilot Extensions (Deprecated) - GitHub announced in September 2025 that they were sunsetting their proprietary Copilot Exntesions on November 10, 2025, in favor of MCP servers, adopting the universal standard.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
