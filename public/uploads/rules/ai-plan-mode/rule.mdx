@@ -1,0 +1,43 @@
+---
+type: rule
+title: Do you always use Plan mode before coding with AI?
+uri: ai-plan-mode
+guid: acf3fecd-2e60-448e-afde-627e6fc4b1d8
+seoDescription: Always use Plan mode in AI coding agents like Cursor or Claude Code to review and approve a spec before letting AI write code.
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz
+created: 2026-01-29T00:00:00.000Z
+---
+
+When working with AI coding assistants, it's tempting to jump straight into generating code. But this often leads to AI going down the wrong path, requiring significant rework or producing solutions that don't fit your architecture.
+
+The smarter approach is **spec-driven development** - always have AI plan first, then review the spec before any code is written.
+
+<endIntro />
+
+## Use Plan mode before coding
+
+Modern AI coding agents like Cursor and Claude Code have dedicated "Plan" modes that let the AI analyze and propose a solution without making changes. This gives you a chance to:
+
+* Validate the approach matches your architecture
+* Catch misunderstandings early
+* Steer the AI in the right direction before it writes potentially unusable code
+
+::: img-large  
+TODO: Add screenshot of Plan mode in Cursor
+:::
+
+**Figure: Always review the plan before letting AI write code**
+
+## The workflow
+
+1. **Describe your task** - Explain what you want to achieve
+2. **Switch to Plan mode** - Let AI analyze and propose a solution
+3. **Review the spec** - Check the approach, file changes, and implementation details
+4. **Approve or refine** - Either approve to proceed, or give feedback to adjust the plan
+5. **Execute** - Only then let AI write the code
+
+This simple workflow prevents wasted effort and ensures AI-generated code aligns with your expectations from the start.
