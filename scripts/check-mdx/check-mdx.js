@@ -36,8 +36,8 @@ function humanizeMdxError(err) {
 
   if (raw.includes("Expected a closing tag for `<>`")) {
     return (
-      'Found `<>` which MDX may treat as a JSX fragment.\n' +
-      'Write it as inline code: `` `<>` ``, or escape it.'
+      "Found `<>` which MDX may treat as a JSX fragment.\n" +
+      "Write it as inline code: `` `<>` ``, or escape it."
     );
   }
 
@@ -177,8 +177,6 @@ function convertDoubleBracesInJsxAttributeExpressions(source) {
  * - assumes {{...}} does not intentionally span huge ranges in prose (typical placeholders)
  */
 function convertDoubleBracesOutsideJsxSkippingFences(source) {
-  // Split into alternating: [nonFenceChunk, fenceChunk, nonFenceChunk, ...]
-  // Fence chunk includes its fence lines and content.
   const parts = [];
   let buf = "";
 
@@ -195,7 +193,6 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
       const marker = m[1];
 
       if (!inFence) {
-        // entering fence: flush buf as non-fence
         if (buf) {
           parts.push({ type: "text", value: buf });
           buf = "";
@@ -206,7 +203,6 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
         continue;
       }
 
-      // if already in fence, only close when marker matches the opener
       if (inFence && fenceMarker === marker) {
         parts.push({ type: "fence", value: fullLine });
         inFence = false;
@@ -224,8 +220,6 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
 
   if (buf) parts.push({ type: "text", value: buf });
 
-  // Apply replacement only to non-fence text chunks.
-  // NOTE: This runs after we convert JSX attribute regions, so raw {{...}} inside ={...} is already gone.
   const replaced = parts
     .map((p) => {
       if (p.type !== "text") return p.value;
@@ -245,13 +239,12 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
 function applyFixes({ source, exprFixes }) {
   let out = source;
 
-  // Apply expression fixes from end to start to avoid offset shifts.
   const fixes = exprFixes
     .filter((f) => Number.isFinite(f.start) && Number.isFinite(f.end) && f.end > f.start)
     .sort((a, b) => b.start - a.start);
 
   for (const f of fixes) {
-    const original = out.slice(f.start, f.end); // includes { ... }
+    const original = out.slice(f.start, f.end);
     if (original.startsWith("{") && original.endsWith("}")) {
       const inner = original.slice(1, -1);
       const replacement = `\\{${inner}\\}`;
@@ -259,7 +252,6 @@ function applyFixes({ source, exprFixes }) {
     }
   }
 
-  // Blockquote list markers -> plain bullets
   out = out.replace(
     /^(\s*>+\s*)([*+-])(\s+)/gm,
     (_m, prefix, _marker, space) => `${prefix}•${space}`
@@ -270,13 +262,7 @@ function applyFixes({ source, exprFixes }) {
 
 /* ----------------------------- remark plugin ------------------------------ */
 
-/**
- * remark plugin that:
- * - In check mode: fails on mdxTextExpression/mdxFlowExpression and lists in blockquotes
- * - In fix mode: collects offsets for auto-fix and records issues for report
- */
 function remarkCustomMdxRules(_opts = {}) {
-  // When passed as [plugin, options] in remarkPlugins, remark calls it with options.
   const { fixMode, collected } = _opts;
 
   return (tree, file) => {
@@ -343,7 +329,6 @@ function remarkCustomMdxRules(_opts = {}) {
 async function compileAndCollect({ source, relPath, fixMode }) {
   const collected = { issues: [] };
 
-  // Validate frontmatter YAML (throws if invalid)
   matter(source);
 
   await compile(source, {
@@ -371,15 +356,18 @@ async function main() {
 
   const reportPath = process.env.MDX_REPORT_PATH || "";
   const reportMarker = "<!-- mdx-check -->";
-  const reportLines = [
-    reportMarker,
-    fix ? "### 🛠️ MDX check (auto-fix enabled)" : "### ❌ MDX check failed",
-    "",
-  ];
 
+  // We build the report only if we actually detect issues (before/after fix).
+  // This lets the workflow skip commenting when everything is clean.
+  const fixedFiles = new Map(); // file -> Set(reasons)
+  const manualIssues = []; // { file, line, col, msg }
   let anyIssues = false;
   let failed = false;
-  let fixedSomething = false;
+
+  const addFixReason = (file, reason) => {
+    if (!fixedFiles.has(file)) fixedFiles.set(file, new Set());
+    fixedFiles.get(file).add(reason);
+  };
 
   for (const raw of files) {
     const rel = normalizeToRepoRelative(repoRoot, raw);
@@ -396,6 +384,7 @@ async function main() {
     try {
       collected = await compileAndCollect({ source, relPath: rel, fixMode: fix });
     } catch (err) {
+      // This means the MDX didn't even parse/compile (e.g. acorn error).
       anyIssues = true;
 
       const rawMsg = cleanMsg(err).toLowerCase();
@@ -404,6 +393,8 @@ async function main() {
       if (fix && rawMsg.includes("could not parse expression with acorn")) {
         let fixed = source;
 
+        const before = fixed;
+
         // 1) Convert any {{...}} within JSX attribute expressions into entities
         fixed = convertDoubleBracesInJsxAttributeExpressions(fixed);
 
@@ -411,24 +402,23 @@ async function main() {
         //    while skipping fenced code blocks
         fixed = convertDoubleBracesOutsideJsxSkippingFences(fixed);
 
-        if (fixed !== source) {
+        if (fixed !== before) {
           await fs.writeFile(abs, fixed, "utf8");
-          fixedSomething = true;
+          addFixReason(rel, "fixed `{{...}}` placeholder formatting");
           console.log(`FIXED (fallback {{...}}): ${rel}`);
+        }
 
-          // Re-check after fallback fix
-          try {
-            await compileAndCollect({ source: fixed, relPath: rel, fixMode: false });
-            console.log(`OK AFTER FALLBACK FIX: ${rel}`);
-            reportLines.push(`- \`${rel}\`: Auto-fixed double braces \`{{...}}\` (JSX -> entities, prose -> escaped).`);
-            continue;
-          } catch (err2) {
-            failed = true;
-            console.error(toGhAnnotation(err2, rel));
-            const { line, col } = pickPos(err2);
-            reportLines.push(`- \`${rel}\` (line ${line}, col ${col}): ${humanizeMdxError(err2)}`);
-            continue;
-          }
+        // Re-check after fallback fix
+        try {
+          await compileAndCollect({ source: fixed, relPath: rel, fixMode: false });
+          console.log(`OK AFTER FIX: ${rel}`);
+          continue;
+        } catch (err2) {
+          failed = true;
+          console.error(toGhAnnotation(err2, rel));
+          const { line, col } = pickPos(err2);
+          manualIssues.push({ file: rel, line, col, msg: humanizeMdxError(err2) });
+          continue;
         }
       }
 
@@ -436,11 +426,11 @@ async function main() {
       failed = true;
       console.error(toGhAnnotation(err, rel));
       const { line, col } = pickPos(err);
-      reportLines.push(`- \`${rel}\` (line ${line}, col ${col}): ${humanizeMdxError(err)}`);
+      manualIssues.push({ file: rel, line, col, msg: humanizeMdxError(err) });
       continue;
     }
 
-    // If we reach here, compile succeeded (in fix mode, the plugin did not throw)
+    // Compile succeeded. If there are collected issues, these are our custom-rule findings.
     if (collected.issues.length === 0) {
       console.log(`OK: ${rel}`);
       continue;
@@ -448,13 +438,11 @@ async function main() {
 
     anyIssues = true;
 
-    // Add collected issues to report
-    for (const it of collected.issues) {
-      reportLines.push(`- \`${rel}\` (line ${it.line}, col ${it.col}): ${it.message}`);
-    }
-
     if (!fix) {
-      // In check-only mode, collected issues should have thrown; but keep this for safety.
+      // Check-only mode: treat collected issues as manual issues
+      for (const it of collected.issues) {
+        manualIssues.push({ file: rel, line: it.line, col: it.col, msg: it.message });
+      }
       failed = true;
       continue;
     }
@@ -464,17 +452,27 @@ async function main() {
       .filter((i) => i.kind === "expression")
       .map((i) => ({ start: i.start, end: i.end }));
 
-    let fixed = applyFixes({ source, exprFixes });
+    let fixed = source;
 
-    // Convert double braces in JSX attribute expressions into entities
+    // Track what kinds of fixes we applied (non-dev friendly labels)
+    const beforeApply = fixed;
+    fixed = applyFixes({ source: fixed, exprFixes });
+    if (fixed !== beforeApply) {
+      // Could be either curly-brace expressions or blockquote bullets (or both)
+      if (exprFixes.length > 0) addFixReason(rel, "fixed curly braces used as plain text");
+      // Heuristic: if it matched blockquote bullet syntax, applyFixes likely changed it
+      if (/^(\s*>+\s*)([*+-])(\s+)/m.test(source)) addFixReason(rel, "fixed blockquote bullet formatting");
+    }
+
+    const beforeDouble = fixed;
     fixed = convertDoubleBracesInJsxAttributeExpressions(fixed);
-
-    // Convert remaining double braces in prose (skip fenced code blocks)
     fixed = convertDoubleBracesOutsideJsxSkippingFences(fixed);
+    if (fixed !== beforeDouble) {
+      addFixReason(rel, "fixed `{{...}}` placeholder formatting");
+    }
 
     if (fixed !== source) {
       await fs.writeFile(abs, fixed, "utf8");
-      fixedSomething = true;
       console.log(`FIXED: ${rel}`);
     } else {
       console.log(`NO AUTO-FIX CHANGES: ${rel}`);
@@ -488,23 +486,61 @@ async function main() {
       failed = true;
       console.error(toGhAnnotation(err2, rel));
       const { line, col } = pickPos(err2);
-      reportLines.push(`- \`${rel}\` (line ${line}, col ${col}): ${humanizeMdxError(err2)}`);
+      manualIssues.push({ file: rel, line, col, msg: humanizeMdxError(err2) });
     }
   }
 
-  if (!anyIssues) {
-    reportLines.push("✅ No MDX issues found.");
-  } else if (fix) {
-    reportLines.push("");
-    reportLines.push(
-      fixedSomething
-        ? "✅ Auto-fix applied. A commit may be pushed to this PR branch (same-repo PRs only)."
-        : "ℹ️ Issues found, but no auto-fix changes were applied."
-    );
-  }
+  // ---------------- report generation (only if issues were found) ----------------
 
   if (reportPath) {
-    await fs.writeFile(reportPath, reportLines.join("\n") + "\n", "utf8");
+    // If no issues at all, remove any stale report so the workflow can skip commenting.
+    if (!anyIssues) {
+      try {
+        await fs.unlink(reportPath);
+      } catch {
+        // ignore if missing
+      }
+    } else {
+      const lines = [reportMarker, "### 🛠️ MDX check", ""];
+
+      const fixedList = Array.from(fixedFiles.entries())
+        .map(([file, reasons]) => ({
+          file,
+          reasonText: Array.from(reasons).join("; "),
+        }))
+        .sort((a, b) => a.file.localeCompare(b.file));
+
+      const manualList = manualIssues.sort((a, b) => a.file.localeCompare(b.file));
+
+      if (fixedList.length > 0 && manualList.length === 0) {
+        // Scenario 2: issues found and resolved automatically
+        lines.push("Auto-fix was applied to resolve MDX issues in these files:", "");
+        for (const f of fixedList) {
+          lines.push(`- \`${f.file}\` — ${f.reasonText}`);
+        }
+        lines.push("", "✅ No MDX issues found.");
+      } else if (fixedList.length > 0 && manualList.length > 0) {
+        // Scenario 3: partial fix
+        lines.push("Auto-fix was applied where possible:", "");
+        for (const f of fixedList) {
+          lines.push(`- \`${f.file}\` — ${f.reasonText}`);
+        }
+        lines.push("", "⚠️ Some MDX issues still need manual fixes:", "");
+        for (const e of manualList) {
+          lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
+        }
+        lines.push("", "❌ MDX issues remain.");
+      } else {
+        // Scenario 4: manual fixes needed
+        lines.push("⚠️ MDX issues need manual fixes:", "");
+        for (const e of manualList) {
+          lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
+        }
+        lines.push("", "❌ MDX issues remain.");
+      }
+
+      await fs.writeFile(reportPath, lines.join("\n") + "\n", "utf8");
+    }
   }
 
   if (failed) process.exit(1);

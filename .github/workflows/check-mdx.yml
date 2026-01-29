@@ -27,10 +27,20 @@ jobs:
           node-version: 24
 
       - name: Get changed MDX files
-        if: ${{ github.event_name == 'pull_request' }}
+        id: changed_mdx
+        shell: bash
         run: |
-          echo "changed=$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx')" | paste -sd "," - >> $GITHUB_ENV
-          echo "Changed MDX: ${{ env.changed }}"
+          set -e
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | paste -sd "," -)"
+          else
+            # For manual runs, check all tracked .mdx files
+            changed="$(git ls-files '*.mdx' | paste -sd "," -)"
+          fi
+
+          echo "changed=$changed" >> $GITHUB_ENV
+          echo "Changed MDX: $changed"
 
       - name: Install deps for MDX checker
         if: ${{ env.changed != '' }}
@@ -47,6 +57,17 @@ jobs:
         run: |
           cd scripts/check-mdx
           node check-mdx.js --fix '${{ env.changed }}'
+
+      - name: Check MDX report exists
+        id: mdx_report
+        if: ${{ env.changed != '' }}
+        shell: bash
+        run: |
+          if [ -f "${{ runner.temp }}/mdx-check-report.md" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit & push auto-fixes (same-repo PR only)
         id: autofix
@@ -70,8 +91,8 @@ jobs:
           echo "did_commit=true" >> $GITHUB_OUTPUT
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
-      - name: Comment on PR (same-repo PR only)
-        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+      - name: Comment on PR (same-repo PR only, only when issues found)
+        if: ${{ env.changed != '' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         uses: actions/github-script@v8
         env:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
@@ -84,23 +105,20 @@ jobs:
             const marker = '<!-- mdx-check -->';
             const reportPath = process.env.MDX_REPORT_PATH;
 
-            let body = '';
-            try {
-              body = fs.readFileSync(reportPath, 'utf8');
-            } catch (e) {
-              body = `${marker}\n### MDX check\n\n(Report file missing)`;
-            }
-
-            // Append commit info if we pushed fixes
-            if (process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
-              body += `\n\n✅ Auto-fix commit pushed: \`${process.env.COMMIT_SHA}\``;
-            }
+            // Report must exist here (guarded by workflow `if`)
+            let body = fs.readFileSync(reportPath, 'utf8');
 
             if (!body.includes(marker)) body = `${marker}\n` + body;
+
+            // Append commit info if we pushed fixes (non-dev friendly)
+            if (process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
+              body += `\n\nA commit was pushed to this PR with the fixes: \`${process.env.COMMIT_SHA}\``;
+            }
 
             const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
 
+            // Update existing bot comment with marker to avoid spam
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number: prNumber, per_page: 100
             });
