@@ -13,7 +13,7 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T01:36:17.818Z
+lastUpdated: 2026-01-29T01:37:43.752Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -34,5 +34,18 @@ A one-off instruction to an AI model. Good for quick, ad-hoc tasks.
   </>}
   figurePrefix="bad"
   figure="A simple prompt has no persistence and requires re-explaining context every time"
+  style="greybox"
+/>
+
+Level 2: System Prompts/Custom Instructions
+
+A reusable set of instructions that define how the AI should behave. Think of this as giving the AI a “persona” or “role”
+
+<boxEmbed
+  body={<>
+    You are an expert .NET develoepr. Always suggest the latest C# syntax. Prefer dependency injection. Follow Clean Architecture principles.
+  </>}
+  figurePrefix="good"
+  figure="A system prompt provides consistent behaviour but has no tools or autonomy"
   style="greybox"
 />
