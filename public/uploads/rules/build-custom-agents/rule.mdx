@@ -13,7 +13,7 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T01:40:15.124Z
+lastUpdated: 2026-01-29T01:50:55.330Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -22,7 +22,9 @@ When standard prompts aren't enough, and you have a repetitive, complex task tha
 
 <endIntro />
 
-### Understanding the Spectrum: Prompts → Custom Instructions → Agents
+### Understanding the Progression
+
+#### Prompts → System Prompts → Custom Agents
 
 Level 1: Simple Prompts
 
@@ -60,57 +62,42 @@ Custom agents are fully autonomous entities that combines:
 * Domain knowledge (RAG, documentation, etc.)
 * Hooks (pre/post execution scripts)
 
-```yaml
-name: HR-Bot
-description: Handles employee onboarding queries and processes
-system_prompt: |
-  You are the HR Bot for {{company}}. You help with:
-  - Onboarding procedures
-  - Leave requests
-  - Policy questions
-  
-  Always be friendly and reference the Employee Handbook.
-  
-tools:
-  - lookup_employee_handbook
-  - check_leave_balance
-  - submit_leave_request
-  
-allowed_paths:
-  - /docs/hr/**
-  
-hooks:
-  pre: validate_employee_id.sh
-  post: log_interaction.sh
-```
-
 <boxEmbed
   body={<>
     ```yaml
-    name: HR-Bot
-    description: Handles employee onboarding queries and processes
-    system_prompt: |
-    You are the HR Bot for {{company}}. You help with:
-    - Onboarding procedures
-    - Leave requests
-    - Policy questions
+    ---
+    name: implementation-planner
+    description: Creates detailed implementation plans and technical
+    specifications in markdown format
+    tools: ["read", "search", "edit"]
+    ---
     
-    Always be friendly and reference the Employee Handbook.
+    You are a technical planning specialist focused on creating comprehensive
+    implementation plans. Your responsibilities:
     
-    tools:
-    - lookup_employee_handbook
-    - check_leave_balance
-    - submit_leave_request
+    - Analyze requirements and break them down into actionable tasks
+    - Create detailed technical specifications and architecture documentation
+    - Generate implementation plans with clear steps, dependencies, and timelines
+    - Document API designs, data models, and system interactions
+    - Create markdown files with structured plans that development teams can
+    follow
     
-    allowed_paths:
-    - /docs/hr/**
+    Always structure your plans with clear headings, task breakdowns,
+    and acceptance criteria. Include considerations for testing,
+    deployment, and potential risks. Focus on creating thorough documentation
+    rather than implementing code.
     
-    hooks:
-    pre: validate_employee_id.sh
-    post: log_interaction.sh
     ```
   </>}
   figurePrefix="good"
   figure="A full agent has tools, memory, and can take autonomous actions"
   style="greybox"
 />
+
+Great Use Cases for Custom Agents
+
+1. The HR Bot - Answers employee questions, processes leave requests, explains policies
+2. The Support Bot - Triages tickets, looks up customer history, suggests solutions
+3. The Documentation Bot - Maintains docs, updates changelogs, ensures consistency
+4. The Code Review Bot - Checks PRs against company standards, runs linting, suggests improvements
+5. The Migration Bot - Handles database migrations, validates schemas, generates scripts
