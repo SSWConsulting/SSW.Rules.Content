@@ -165,9 +165,8 @@ function convertDoubleBracesInJsxAttributeExpressions(source) {
 }
 
 /**
- * Replace raw {{...}} -> \{\{...\}\} BUT
+ * Convert {{...}} (and \{\{...\}\}) -> HTML entities, BUT
  * - skip fenced code blocks ```...``` or ~~~...~~~
- * - assumes {{...}} does not intentionally span huge ranges in prose (typical placeholders)
  */
 function convertDoubleBracesOutsideJsxSkippingFences(source) {
   const parts = [];
@@ -213,15 +212,29 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
 
   if (buf) parts.push({ type: "text", value: buf });
 
+  // Apply replacement only to non-fence chunks.
+  // Convert BOTH raw {{...}} and escaped \{\{...\}\} into entities.
   const replaced = parts
     .map((p) => {
       if (p.type !== "text") return p.value;
-      return p.value.replace(/\{\{([\s\S]*?)\}\}/g, (_m, inner) => `\\{\\{${inner}\\}\\}`);
+
+      // 1) Convert escaped double braces \{\{...\}\} -> entities
+      let v = p.value
+        .replace(/\\\{\\\{/g, "&#123;&#123;")
+        .replace(/\\\}\\\}/g, "&#125;&#125;");
+
+      // 2) Convert raw {{...}} -> entities
+      v = v
+        .replace(/\{\{/g, "&#123;&#123;")
+        .replace(/\}\}/g, "&#125;&#125;");
+
+      return v;
     })
     .join("");
 
   return replaced;
 }
+
 
 /**
  * Conservative fixes based on AST offsets:
