@@ -50,7 +50,7 @@ User: "Refactor the UserProfile component to use the new API."
 
 Agent: Generates code "Here you go."
 
-User: Pastes into IDE -> ❌ Error: 'UserAvatar' is not defined.
+User: Pastes into IDE → ❌ Error: 'UserAvatar' is not defined.
 
 User: "You missed the import for UserAvatar."
 
@@ -67,11 +67,11 @@ User: "Refactor the UserProfile component to use the new API."
 
 Agent: Generates code
 
-Agent: Runs npm run lint -> ❌ Error: 'UserAvatar' is not defined.
+Agent: Runs npm run lint → ❌ Error: 'UserAvatar' is not defined.
 
-Agent: Reads error -> "I need to import UserAvatar."
+Agent: Reads error → "I need to import UserAvatar."
 
-Agent: Fixes code -> Runs lint -> ✅ Success.
+Agent: Fixes code → Runs lint → ✅ Success.
 
 Agent: "I have refactored the component and verified it passes linting."
   </>}
@@ -105,9 +105,9 @@ User: "Write a function to validate email addresses. Create a test suite to veri
 
 Agent: Writes Function & Tests
 
-Agent: Runs Tests -> ❌ Failure: 'user@domain' should be invalid.
+Agent: Runs Tests → ❌ Failure: 'user@domain' should be invalid.
 
-Agent: Adjusts Regex -> Runs Tests -> ✅ Pass.
+Agent: Adjusts Regex → Runs Tests → ✅ Pass.
 
 Agent: "Function created and verified against 10 test cases."
   </>}
