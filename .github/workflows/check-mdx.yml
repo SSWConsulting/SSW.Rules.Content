@@ -46,7 +46,7 @@ jobs:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
         run: |
           cd scripts/check-mdx
-          node check-mdx.mjs --fix '${{ env.changed }}'
+          node check-mdx.js --fix '${{ env.changed }}'
 
       - name: Commit & push auto-fixes (same-repo PR only)
         id: autofix

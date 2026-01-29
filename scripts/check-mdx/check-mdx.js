@@ -91,6 +91,76 @@ function parseArgs(argv) {
   return { fix, files };
 }
 
+function escapeDoubleBracesInJsxAttributeExpressions(source) {
+  // We scan for patterns like: ={ ... }
+  // and within the balanced {...} region we replace \{\{ and \}\}
+  let out = source;
+  let i = 0;
+
+  while (i < out.length) {
+    const start = out.indexOf("={", i);
+    if (start === -1) break;
+
+    // position of the first "{" after "="
+    const braceStart = start + 1; // points to '{'
+    let j = braceStart + 1;
+    let depth = 1;
+
+    // Simple brace matcher with string handling to avoid counting braces inside strings.
+    let inSingle = false,
+      inDouble = false,
+      inTemplate = false,
+      escaped = false;
+
+    for (; j < out.length; j++) {
+      const ch = out[j];
+
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+      if (ch === "\\") {
+        escaped = true;
+        continue;
+      }
+
+      // toggle string states
+      if (!inDouble && !inTemplate && ch === "'") inSingle = !inSingle;
+      else if (!inSingle && !inTemplate && ch === '"') inDouble = !inDouble;
+      else if (!inSingle && !inDouble && ch === "`") inTemplate = !inTemplate;
+
+      if (inSingle || inDouble || inTemplate) continue;
+
+      if (ch === "{") depth++;
+      else if (ch === "}") depth--;
+
+      if (depth === 0) {
+        // balanced region is out.slice(braceStart, j+1)
+        const region = out.slice(braceStart, j + 1);
+
+        // Only replace escaped double braces inside this JSX expression region
+        const fixedRegion = region
+          .replace(/\\\{\\\{/g, "&#123;&#123;")
+          .replace(/\\\}\\\}/g, "&#125;&#125;");
+
+        if (fixedRegion !== region) {
+          out = out.slice(0, braceStart) + fixedRegion + out.slice(j + 1);
+          // update cursor after replacement
+          i = braceStart + fixedRegion.length;
+        } else {
+          i = j + 1;
+        }
+        break;
+      }
+    }
+
+    // If we didn't find a closing brace, stop scanning to avoid infinite loop
+    if (depth !== 0) break;
+  }
+
+  return out;
+}
+
 /**
  * Conservative auto-fixes (only when --fix):
  * 1) Escape curly braces for mdxTextExpression / mdxFlowExpression by using node offsets.
@@ -281,7 +351,9 @@ async function main() {
             .filter((i) => i.kind === "expression")
             .map((i) => ({ start: i.start, end: i.end }));
 
-          const fixed = applyFixes({ source, exprFixes });
+          let fixed = applyFixes({ source, exprFixes });
+
+          fixed = escapeDoubleBracesInJsxAttributeExpressions(fixed);
 
           if (fixed !== source) {
             await fs.writeFile(abs, fixed, "utf8");
