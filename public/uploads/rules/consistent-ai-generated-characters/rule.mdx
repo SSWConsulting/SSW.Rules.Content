@@ -1,20 +1,23 @@
 ---
 title: Do you generate AI characters that stay consistent across images and videos?
-uri: 'consistent-ai-generated-characters'
+uri: consistent-ai-generated-characters
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-generated-media.mdx
 authors:
   - title: Griffen Edge
     url: 'https://ssw.com.au/people/griffen-edge'
+  - title: Pravin Kumar
+    url: 'https://ssw.com.au/people/pravin-kumar'
+related:
+  - rule: public/uploads/rules/how-to-generate-an-ai-image/rule.mdx
+  - rule: public/uploads/rules/write-an-image-prompt/rule.mdx
 guid: 3e52acd7-f0b2-4400-99d2-b4800a87407a
-seoDescription: >-
-  Learn how to create consistent AI-generated characters by using a single base
-  image, clear prompts, and documented workflows so your brand visuals stay
-  recognizable across videos and scenarios.
+seoDescription: 'Learn how to create consistent AI-generated characters by using a single base image, clear prompts, and documented workflows so your brand visuals stay recognizable across videos and scenarios.'
+thumbnail: /uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Thumb-Up.jpg
 created: 2026-01-21T00:43:12.725Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-01-22T03:49:23.768Z
+lastUpdated: 2026-01-29T05:35:30.528Z
 lastUpdatedBy: Griffen Edge
 lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
@@ -23,20 +26,13 @@ You generate a great AI image for marketing, then the next one looks like a dist
 
 <endIntro _hidden="" />
 
-## Why consistency matters
+<imageEmbed alt="Three side-by-side illustrations of a yak character writing at a desk, each rendered in a different visual style." size="large" showBorder={false} figurePrefix="bad" figure="The same text prompt can produce varied results across different image generation models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Multiple-Base-Images.jpg" />
 
-A consistent AI-generated character:
+<imageEmbed alt="Three side-by-side images of the same 3D yak character wearing a red shirt, shown in different poses." size="large" showBorder={false} figurePrefix="good" figure="With some care, you can ensure character consistency across different scenarios and models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Consistent-v3.jpg" />
 
-* Builds brand recognition and trust
-* Feels intentional and professional
-* Can be reused across marketing, product demos, and social media
-* Saves time by avoiding repeated trial-and-error
+## 1. Start with a single “source of truth” image
 
-If users can’t immediately recognize your character, the AI has failed the brand. Not the other way around.
-
-## Start with a single “source of truth” image
-
-Always begin with **one approved base image** of the character.
+Always begin with **one approved base image** of the character. Ideally this image should be a character sheet, providing different views of the character so that models have more context to work with.
 
 Use this same static image as the reference for:
 
@@ -46,18 +42,11 @@ Use this same static image as the reference for:
 
 Store it in a shared, versioned location (e.g. design assets folder).
 
-<boxEmbed
-  body={<>
-    A single high-quality Yak image is used as the reference input for multiple tools (Sora and Gemini Veo) to generate different animations while preserving the same look.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="greybox"
-/>
+<imageEmbed alt="A smiling cartoon yak wearing a red t-shirt, sitting at a wooden desk and writing on a notepad with a pen." size="medium" showBorder={false} figurePrefix="ok" figure="A single high-quality image of the character." src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Writing-Table.png" />
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="One base image used consistently across multiple AI tools" src="/uploads/rules/consistent-ai-generated-characters%20/yak.png" />
+<imageEmbed alt="Character sheet of a stylized 3D cartoon yak with brown fur and curved horns, wearing a red T-shirt and black pants. The image shows multiple views: expressive facial close-ups with different emotions at the top, and full-body front, side, and back views labeled." size="medium" showBorder={false} figurePrefix="good" figure="A character sheet showing the different angles and emotions of the character." src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Base-Character-Sheet.png" />
 
-## Be explicit in your prompts
+## 2. Be explicit in your prompts
 
 AI models will improvise unless you clearly tell them not to.
 
@@ -71,14 +60,23 @@ Include:
 
 <boxEmbed
   body={<>
-    "Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Animate the Yak standing and covering his eyes with his hooves."
+    “Animate The Yak covering his eyes”
+  </>}
+  figurePrefix="bad"
+  figure="The prompt is vague and will lead to inconsistencies."
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    "Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Animate The Yak standing and covering his eyes with his hooves."
   </>}
   figurePrefix="good"
   figure="Explicitly instructing the model to preserve the original character"
   style="greybox"
 />
 
-## Reuse the same reference across tools
+## 3. Reuse the same reference across tools
 
 While it is better to use the same AI tool for character consistency, different AI tools can still produce consistent results if you:
 
@@ -88,7 +86,7 @@ While it is better to use the same AI tool for character consistency, different 
 
 This allows teams to mix tools (e.g. Sora and Gemini) without visual drift.
 
-## Document the process
+## 4. Document the process
 
 If one person can do it, others should be able to repeat it.
 
@@ -102,25 +100,27 @@ Document:
 
 <boxEmbed
   body={<>
-    Base Image: yak-base-v1.png
+    Base Image: yak-base-character-sheet-v1.png
     
     Tool: Gemini Veo
     
-    Prompt: "Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make a video of this Yak standing up and covering his eyes with his hooves."
+    Prompt: "Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make a video of The Yak standing up and covering his eyes with his hooves."
     
     Notes: Watch out for hooves turning into hands.
+    
+    Result: yak-covering-eyes-v1.png
   </>}
   figurePrefix="good"
   figure="A documented, repeatable workflow"
+  style="greybox"
 />
 
-## Use approvals for brand assets
+## 5. Get approvals for generated characters
 
 Before publishing AI-generated characters:
 
-* Get sign-off from design/brand owners
-* Confirm colors match official brand assets
-* Check motion quality with your video team (no choppy or awkward transitions)
+* Get a “[test pass](https://www.ssw.com.au/rules/request-a-test-please)” from design/brand owners
+* For animations, check quality with your video team (e.g. no choppy or awkward movements)
 
 Once approved, lock the base image and treat changes as a new version.
 
