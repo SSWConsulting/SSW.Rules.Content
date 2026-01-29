@@ -13,7 +13,7 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T01:37:43.752Z
+lastUpdated: 2026-01-29T01:40:15.124Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -47,5 +47,70 @@ A reusable set of instructions that define how the AI should behave. Think of th
   </>}
   figurePrefix="good"
   figure="A system prompt provides consistent behaviour but has no tools or autonomy"
+  style="greybox"
+/>
+
+Level 3: Custom Agents (Full Agents)
+
+Custom agents are fully autonomous entities that combines:
+
+* System prompts (persona and rules)
+* Tools/Function calling (ability to take actions)
+* Memory (context persistence)
+* Domain knowledge (RAG, documentation, etc.)
+* Hooks (pre/post execution scripts)
+
+```yaml
+name: HR-Bot
+description: Handles employee onboarding queries and processes
+system_prompt: |
+  You are the HR Bot for {{company}}. You help with:
+  - Onboarding procedures
+  - Leave requests
+  - Policy questions
+  
+  Always be friendly and reference the Employee Handbook.
+  
+tools:
+  - lookup_employee_handbook
+  - check_leave_balance
+  - submit_leave_request
+  
+allowed_paths:
+  - /docs/hr/**
+  
+hooks:
+  pre: validate_employee_id.sh
+  post: log_interaction.sh
+```
+
+<boxEmbed
+  body={<>
+    ```yaml
+    name: HR-Bot
+    description: Handles employee onboarding queries and processes
+    system_prompt: |
+    You are the HR Bot for {{company}}. You help with:
+    - Onboarding procedures
+    - Leave requests
+    - Policy questions
+    
+    Always be friendly and reference the Employee Handbook.
+    
+    tools:
+    - lookup_employee_handbook
+    - check_leave_balance
+    - submit_leave_request
+    
+    allowed_paths:
+    - /docs/hr/**
+    
+    hooks:
+    pre: validate_employee_id.sh
+    post: log_interaction.sh
+    ```
+  </>}
+  figurePrefix="good"
+  figure="A full agent has tools, memory, and can take autonomous actions"
   style="greybox"
 />
