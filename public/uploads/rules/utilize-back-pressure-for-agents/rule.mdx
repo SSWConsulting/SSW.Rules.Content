@@ -21,7 +21,7 @@ lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
 
-When working with AI agents (like Claude Code, Cursor, etc.), a common bottleneck is the human review loop. If you ask an agent to "refactor this class" and it introduces a syntax error, you have to spot it and tell the agent to fix it. This manual feedback loop is slow, unscalable, and wastes your time.
+When working with [AI agents](/ai-cli-tools), a common bottleneck is the human review loop. If you ask an agent to "refactor this class" and it introduces a syntax error, you have to spot it and tell the agent to fix it. This manual feedback loop is slow, unscalable, and wastes your time.
 
 <endIntro />
 
@@ -29,7 +29,24 @@ When working with AI agents (like Claude Code, Cursor, etc.), a common bottlenec
 
 ## Why use it?
 
-Without back pressure, an AI agent relies entirely on you to validate its work. You become the compiler. This limits the complexity of tasks you can delegate because the cost of verifying the work increases linearly with the task size.
+Without back pressure, an AI agent relies entirely on you to validate its work. You become the validator. This limits the complexity of tasks you can delegate because the cost of verifying the work increases linearly with the task size.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    User: "Refactor the UserProfile component to use the new API."
+    
+    Agent: Generates code "Here you go."
+    
+    User: Pastes into IDE → ❌ Error: 'UserAvatar' is not defined.
+    
+    User: "You missed the import for UserAvatar."
+    
+    Agent: "Apologies." Fixes it
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - The human wastes time acting as the validator"
+/>
 
 With back pressure, the agent operates in a closed loop:
 
@@ -46,23 +63,6 @@ With back pressure, the agent operates in a closed loop:
 The most immediate form of back pressure comes from the build system.
 
 This is already built into most coding agents.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    User: "Refactor the UserProfile component to use the new API."
-    
-    Agent: Generates code "Here you go."
-    
-    User: Pastes into IDE → ❌ Error: 'UserAvatar' is not defined.
-    
-    User: "You missed the import for UserAvatar."
-    
-    Agent: "Apologies." Fixes it
-  </>}
-  figurePrefix="bad"
-  figure="Bad example - The human wastes time acting as the linter"
-/>
 
 <boxEmbed
   style="greybox"
@@ -92,7 +92,7 @@ You can ask agents to write and run tests to verify logic, not just syntax.
   body={<>
     User: "Write a function to validate email addresses."
     
-    Agent: Writes Regex "Here it is."
+    Agent: Writes regex "Here it is."
     
     User: "This accepts 'user\@domain' without a TLD."
     
@@ -107,11 +107,11 @@ You can ask agents to write and run tests to verify logic, not just syntax.
   body={<>
     User: "Write a function to validate email addresses. Create a test suite to verify it."
     
-    Agent: Writes Function & Tests
+    Agent: Writes function & tests
     
-    Agent: Runs Tests → ❌ Failure: 'user\@domain' should be invalid.
+    Agent: Runs tests → ❌ Failure: 'user\@domain' should be invalid.
     
-    Agent: Adjusts Regex → Runs Tests → ✅ Pass.
+    Agent: Adjusts regex → Runs tests → ✅ Pass.
     
     Agent: "Function created and verified against 10 test cases."
   </>}
@@ -122,7 +122,7 @@ You can ask agents to write and run tests to verify logic, not just syntax.
 <boxEmbed
   style="info"
   body={<>
-    Tip: When asking an agent to write its own tests, be careful it doesn't write "lazy" tests that always pass. You might need to review the tests themselves or ask it to generate tests before the implementation (TDD).
+    Tip: When asking an agent to write its own tests, be careful it doesn't write "lazy" tests that always pass. You might need to review the tests themselves or ask it to generate tests before the implementation.
   </>}
   figurePrefix="none"
   figure="Tip: Verify the verifier"
@@ -138,7 +138,7 @@ This is already built into coding agents, so you don't need to worry about it.
 
 Advanced agents can use Model Context Protocol (MCP) servers to interact with real runtime environments. This allows them to "spin things up" and verify they actually work.
 
-Playwright: The agent can write a web app, start a local server, and run Playwright tests against it to verify the UI works as expected.
+Playwright: The agent can write a web app, start a local server, and run Playwright tests against it to verify the UI works as expected, it can even take screenshots of the UI and compare them to the expected state.
 
 .NET Aspire MCP: The agent can use Aspire to orchestrate a distributed application and verify service-to-service communication, by reading console logs etc.
 
@@ -148,7 +148,7 @@ You can structure your workflow so that one agent generates code and a second "R
 
 ### 6. The Human (Final Back Pressure)
 
-If all else fails, you are the final layer of back pressure.
+If all else fails, you are the final layer of back pressure. 🫵
 
 You should only be rejecting work based on high-level architecture, business logic, or user experience issues.
 
