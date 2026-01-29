@@ -24,14 +24,7 @@ function humanizeMdxError(err) {
   const raw = cleanMsg(err);
 
   if (raw.toLowerCase().includes("could not parse expression with acorn")) {
-    return (
-      "Invalid MDX expression inside curly braces `{ ... }`.\n" +
-      "This usually happens when curly braces are used in normal text.\n" +
-      "If you meant literal braces, escape them as `\\{` and `\\}`, or wrap them in code (e.g. `` `{test}` ``).\n" +
-      "If you meant double braces `{{ ... }}`:\n" +
-      "- Outside JSX: use `\\{\\{ ... \\}\\}` or code.\n" +
-      "- Inside JSX (e.g. body={<></>}): use `&#123;&#123; ... &#125;&#125;` or `{\"{{ ... }}\"}`."
-    );
+    return "Invalid MDX expression inside curly braces { ... }.";
   }
 
   if (raw.includes("Expected a closing tag for `<>`")) {
@@ -518,7 +511,6 @@ async function main() {
         for (const f of fixedList) {
           lines.push(`- \`${f.file}\` — ${f.reasonText}`);
         }
-        lines.push("", "✅ No MDX issues found.");
       } else if (fixedList.length > 0 && manualList.length > 0) {
         // Scenario 3: partial fix
         lines.push("Auto-fix was applied where possible:", "");
@@ -529,14 +521,12 @@ async function main() {
         for (const e of manualList) {
           lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
         }
-        lines.push("", "❌ MDX issues remain.");
       } else {
         // Scenario 4: manual fixes needed
         lines.push("⚠️ MDX issues need manual fixes:", "");
         for (const e of manualList) {
           lines.push(`- \`${e.file}\` (line ${e.line}, col ${e.col}): ${e.msg}`);
         }
-        lines.push("", "❌ MDX issues remain.");
       }
 
       await fs.writeFile(reportPath, lines.join("\n") + "\n", "utf8");
