@@ -1,5 +1,5 @@
 ---
-title: Do you build Custom Agents
+title: Do you build Custom Agents for complex tasks?
 uri: build-custom-agents
 categories:
   - {}
@@ -13,13 +13,26 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T01:17:29.306Z
+lastUpdated: 2026-01-29T01:36:17.818Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+When standard prompts aren't enough, and you have a repetitive, complex task that requires specific context, it's time to build a Custom Agent (also known as a "Skill" or "Bot").
 
 <endIntro />
 
-Body
+### Understanding the Spectrum: Prompts → Custom Instructions → Agents
+
+Level 1: Simple Prompts
+
+A one-off instruction to an AI model. Good for quick, ad-hoc tasks.
+
+<boxEmbed
+  body={<>
+    “Summarize this document”
+  </>}
+  figurePrefix="bad"
+  figure="A simple prompt has no persistence and requires re-explaining context every time"
+  style="greybox"
+/>
