@@ -13,7 +13,7 @@ guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T03:29:05.663Z
+lastUpdated: 2026-01-29T03:32:34.954Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -24,25 +24,25 @@ When standard prompts are not enough, and you have a repetitive, complex task, t
 
 ## When should you build an agent?
 
-Before commiting to building a custom agent, it's worthwhile to validate your use case meets these criteria clearly, otherwise, a more deterministic solution may suffice.
+Before commiting to building a custom agent, it's worthwhile to validate your use case meets these criteria:
 
-1. Complex Decision-making: Workflows involving nuanced judgment, exceptions, or context-sensitive information
-2. Difficult-to-maintain rules: Systems that have become unwieldy due to extensive and intricate rulesets, making updates costly and error-prone
-3. Heavy reliance on unstructured data: Scenarios that involve interpreting natural language extracting meaning from documents, or interacting with users conversationally
+1. **Complex Decision-making:** Workflows involving nuanced judgment, exceptions, or context-sensitive information
+2. **Difficult-to-maintain rules:** Systems that have become unwieldy due to extensive and intricate rulesets, making updates costly and error-prone
+3. **Heavy reliance on unstructured data:** Scenarios that involve interpreting natural language, extracting meaning from documents, or interacting with users conversationally
 
 ### Structure of custom agents
 
 At its most fundamental level, an agent consists of three core components:
 
-1. Model: The LLM powering the agent's reasoning and decision-making
-2. Tools: External functions or APIs the agent can use to take action
-3. Instructions: Explicit guidelines and guardrails defining how the agent behaves
+1. **Model:** The LLM powering the agent's reasoning and decision-making
+2. **Tools:** External functions or APIs the agent can use to take action
+3. **Instructions:** Explicit guidelines and guardrails defining how the agent behaves
 
 ### Understanding the Progression
 
 #### Prompts → System Prompts → Custom Agents
 
-Level 1: Simple Prompts
+**Level 1: Simple Prompts **
 
 A one-off instruction to an AI model. Good for quick, ad-hoc tasks.
 
@@ -55,7 +55,7 @@ A one-off instruction to an AI model. Good for quick, ad-hoc tasks.
   style="greybox"
 />
 
-Level 2: System Prompts/Custom Instructions
+**Level 2: System Prompts/Custom Instructions**
 
 A reusable set of instructions that define how the AI should behave. Think of this as giving the AI a “persona” or “role”
 
@@ -68,7 +68,7 @@ A reusable set of instructions that define how the AI should behave. Think of th
   style="greybox"
 />
 
-Level 3: Custom Agents (Full Agents)
+**Level 3: Custom Agents (Full Agents)**
 
 Custom agents are fully autonomous entities that can combine:
 
