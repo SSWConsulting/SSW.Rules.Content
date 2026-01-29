@@ -19,72 +19,40 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-{/* todo: choose/refine scope. DEFINE what an agent is.
-
-maybe this article should just be about subagents, e.g. look at claude code subagents. As "Agents" are too broad a term.
-*/}
-
-When standard prompts are not enough, and you have a repetitive, complex task, that requires a specific context, it's time to consider building a **Custom Agent**.
+When you find yourself repeating the same complex prompts, or need a reusable unit of work within an agentic workflow, it's time to consider building a **custom subagent**.
 
 <endIntro />
 
-## When should you build an agent?
+## What is a subagent?
 
-Before committing to building a custom agent, it's worthwhile to validate your use case meets these criteria:
+A **subagent** is a reusable, task-specific agent designed to be invoked by a parent agent or orchestrator within an agentic workflow. Think of subagents like functions in programming - they encapsulate specific capabilities that can be called when needed.
 
-1. **Complex Decision-making:** Workflows involving nuanced judgment, exceptions, or context-sensitive information
-2. **Difficult-to-maintain rules:** Systems that have become unwieldy due to extensive and intricate rulesets, making updates costly and error-prone
-3. **Heavy reliance on unstructured data:** Scenarios that involve interpreting natural language, extracting meaning from documents, or interacting with users conversationally
+Key characteristics of subagents:
 
-{/* do we need to be so prescriptive? An agent is like a function -> use it when you don't wanna repeat yourself. DRY! */}
+- **Specialized scope** - focused on a specific task or domain (e.g., code review, implementation planning, testing)
+- **Defined tools** - explicit access to only the tools needed for their purpose
+- **Clear instructions** - a system prompt that defines behaviour and guardrails
+- **Invoked programmatically** - called by a parent agent rather than directly by users
 
-### Structure of custom agents
+For example, Claude Code uses subagents like `Explore` (for codebase exploration), `Plan` (for designing implementation approaches), and `Bash` (for command execution). Each has a narrow focus and specific toolset.
 
-At its most fundamental level, an agent consists of three core components:
+## When should you build a subagent?
+
+Like functions in code, subagents help you avoid repeating yourself. Consider building one when:
+
+- **You're repeating the same prompts** - if you keep giving the same instructions for similar tasks, encapsulate them in a subagent
+- **You need consistent behaviour** - when a task requires specific guardrails, tools, or domain knowledge every time
+- **You want to delegate specialized work** - break complex workflows into focused subagents that a parent agent can orchestrate
+
+## Structure of subagents
+
+At its most fundamental level, a subagent consists of three core components:
 
 1. **Model:** The LLM powering the agent's reasoning and decision-making
 2. **Tools:** External functions or APIs the agent can use to take action
 3. **Instructions:** Explicit guidelines and guardrails defining how the agent behaves
 
-### Understanding the Progression
-
-#### Prompts → System Prompts → Custom Agents
-
-**Level 1: Simple Prompts**
-
-A one-off instruction to an AI model. Good for quick, ad-hoc tasks.
-
-<boxEmbed
-  body={<>
-    “Summarize this document”
-  </>}
-  figurePrefix="bad"
-  figure="A simple prompt has no persistence and requires re-explaining context every time"
-  style="greybox"
-/>
-
-**Level 2: System Prompts/Custom Instructions**
-
-A reusable set of instructions that define how the AI should behave. Think of this as giving the AI a “persona” or “role”. For an example of this: [AGENTS.md from SSW's Clean Architecture Template](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
-
-<boxEmbed
-  body={<>
-    You are an expert .NET developer. Always suggest the latest C# syntax. Prefer dependency injection. Follow Clean Architecture principles.
-  </>}
-  figurePrefix="good"
-  figure="A system prompt provides consistent behaviour but has no tools or autonomy"
-  style="greybox"
-/>
-
-**Level 3: Custom Agents**
-
-Custom agents are fully autonomous entities that can combine:
-
-* System prompts (persona and rules)
-* Tools/Function calling (ability to take actions)
-* Memory (context persistence)
-* Domain knowledge (RAG, documentation, etc.)
-* Hooks (pre/post execution scripts)
+## Example subagent
 
 <boxEmbed
   body={<>
@@ -114,7 +82,7 @@ Custom agents are fully autonomous entities that can combine:
     ```
   </>}
   figurePrefix="good"
-  figure="A full agent has tools, memory, and can take autonomous actions"
+  figure="A subagent definition with specialized scope, defined tools, and clear instructions"
   style="greybox"
 />
 
