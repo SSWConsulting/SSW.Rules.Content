@@ -47,6 +47,13 @@ jobs:
         run: |
           cd scripts/check-mdx
           node check-mdx.js '${{ env.changed }}'
+      
+      - name: Debug outcomes
+        if: ${{ env.changed != '' }}
+        run: |
+          echo "changed=${{ env.changed }}"
+          echo "mdx_check.outcome=${{ steps.mdx_check.outcome }}"
+          echo "same_repo=${{ github.event.pull_request.head.repo.full_name == github.repository }}"
 
       # Only comment when:
       # - MDX check failed
@@ -73,7 +80,7 @@ jobs:
 
             const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
-
+            
             // Update existing bot comment with marker to avoid spam
             const comments = await github.paginate(github.rest.issues.listComments, {
               owner, repo, issue_number: prNumber, per_page: 100
