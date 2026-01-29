@@ -152,7 +152,7 @@ Multi-targeting both your original .NET Framework version *and* your future .NET
 In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to allow for multiple target frameworks and enable a smoother flow later to avoid needing to reload projects or have to close and reopen Visual Studio.
 
 ```csharp
-<TargetFrameworks>net472;net8.0</TargetFrameworks>
+<TargetFrameworks>net48;net8.0</TargetFrameworks>
 ```
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Multi-targeting .NET Framework and .NET 10" src="/uploads/rules/migration-plans/multi-targeting-frameworks.png" />
