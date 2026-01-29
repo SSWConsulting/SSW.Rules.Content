@@ -72,7 +72,17 @@ Therefore the professional AI Assisted Developer should follow a proper workflow
 
 Before doing anything, plan what you are doing. Give the AI your requirements and as **much related context as possible**. If you are using an AI that can search the web, ask it to go have a look for any relevant documentation, best practices, potential pitfalls, code snippets or repos, etc.
 
-Ask it to produce a markdown file containing a detailed step-by-step plan to implement the feature - including which files will be added or created, and what high-level changes will be made in each, and reference URLs. Ask for each step of the plan to be a small self contained unit of work (or as small as possible) to make implementation easier later.
+**Use Spec-driven development**
+
+Modern AI coding agents like Cursor and Claude Code have dedicated "Plan" modes (aka Spec-driven development) that let the AI analyze and propose a solution without making changes. This gives you a chance to:
+
+* Validate the approach matches your architecture
+* Catch misunderstandings early
+* Steer the AI in the right direction before it writes potentially unusable code
+
+<imageEmbed alt="Select plan mode" size="medium" showBorder={false} figurePrefix="good" figure="Select plan mode, then make sure to review the result before building!" src="/uploads/rules/ai-assisted-development-workflow/plan-mode.png" />
+
+If your tool doesn't have a dedicated Plan mode, ask it to produce a markdown file containing a detailed step-by-step plan to implement the feature - including which files will be added or created, and what high-level changes will be made in each, and reference URLs. Ask for each step of the plan to be a small self contained unit of work (or as small as possible) to make implementation easier later.
 
 ### 2. Discuss
 
