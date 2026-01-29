@@ -66,34 +66,7 @@ Location:
 * macOS: \~/Library/Application Support/Claude/claude\_desktop\_config.json
 * Windows: %APPDATA%\Claude\claude\_desktop\_config.json
 
-<boxEmbed
-  body={<>
-    ```json
-    {
-    "mcpServers": {
-    "filesystem": {
-    "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
-    },
-    "github": {
-    "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-github"],
-    "env": {
-    "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-    }
-    },
-    "postgres": {
-    "command": "npx",
-    "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
-    }
-    }
-    }
-    
-    ```
-  </>}
-  figurePrefix="good"
-  figure="Example configuration for Claude Desktop with Filesystem, GitHub, and PostgreSQL servers"
-/>
+
 
 ### Further Reading
 
