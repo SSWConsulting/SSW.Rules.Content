@@ -55,11 +55,11 @@ There are a few main steps to the process. Some of them are optional, but they a
 
 **4. Record the meeting to capture the discussion and gather insights**
 
-5\. Ask Copilot to analyse the recording (Optional, recommended)
+5. Ask Copilot to analyse the recording (Optional, recommended)
 
 **6. Host a Retrospective and include the result in the email above**
 
-7\. Include the Copilot insights into the email above (Optional, recommended)
+7. Include the Copilot insights into the email above (Optional, recommended)
 
 **8. Host a Sprint Summary meeting with the Team, Product Owner and relevant Stakeholders**
 
@@ -160,7 +160,7 @@ Having finished the Sprint Review, Retrospective and Summary, you are now ready 
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
-* **Note:** Stakeholders often have a lot on their plate. Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"{{ TEAM NAME }} Sprint Review Stakeholders"**)
+* **Note:** Stakeholders often have a lot on their plate. Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"&#123;&#123; TEAM NAME &#125;&#125; Sprint Review Stakeholders"**)
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 <boxEmbed
@@ -168,24 +168,24 @@ If there are additional stakeholders, make sure they get called in for the summa
   body={<>
     **When you ping stakeholders, include a message like this**:
     
-    Hey {{ PROJECT NAME }} Stakeholders:
+    Hey &#123;&#123; PROJECT NAME &#125;&#125; Stakeholders:
     
     I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
     I'll stop the recording to do the Retro to give the recording time to save.
     
-    I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
+    I'll call you and the stakeholders in &#123;&#123; XX &#125;&#125; mins, &#123;&#123; PRESENTER NAME &#125;&#125; will run the Sprint Summary.
     
     The stakeholders are:
     
-    {{ STAKEHOLDER NAME }},
+    &#123;&#123; STAKEHOLDER NAME &#125;&#125;,
     
-    {{ STAKEHOLDER NAME }},
+    &#123;&#123; STAKEHOLDER NAME &#125;&#125;,
     
-    {{ STAKEHOLDER NAME }}
+    &#123;&#123; STAKEHOLDER NAME &#125;&#125;
     
     Let me know if you want anyone else added.
     
-    {{ SCREENSHOT OF CURRENT ATTENDEE }}
+    &#123;&#123; SCREENSHOT OF CURRENT ATTENDEE &#125;&#125;
   </>}
   figurePrefix="none"
   figure=""
@@ -210,18 +210,18 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 <emailEmbed
   from=""
-  to="{{ YOUR SCRUM MASTER }}"
-  cc="{{ YOUR TEAM }}"
+  to="&#123;&#123; YOUR SCRUM MASTER &#125;&#125;"
+  cc="&#123;&#123; YOUR TEAM &#125;&#125;"
   bcc=""
-  subject="{{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary"
+  subject="&#123;&#123; YOUR NAME &#125;&#125; - Sprint Review &#123;&#123; SPRINT REVIEW NUMBER &#125;&#125; Summary"
   shouldDisplayBody={true}
   body={<>
     ## Hi Team
     
-    I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
+    I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#125;. Here's an update on my PBIs:
     
-    * PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
-    * PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
+    * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Done - Done Video in the PBI ready to show the client.
+    * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Blocked - Waiting on &#123;&#123; BLOCKER &#125;&#125;. Details in the PBI.
     ...
   </>}
   figurePrefix="none"
