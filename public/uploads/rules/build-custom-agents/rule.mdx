@@ -44,6 +44,29 @@ Like functions in code, custom agents help you avoid repeating yourself. Conside
 * **You need consistent behaviour** - when a task requires specific guardrails, tools, or domain knowledge every time
 * **You want to delegate specialized work** - break complex workflows into focused custom agents that can be orchestrated together
 
+:::greybox
+
+**User:** Create an implementation plan for the user authentication feature. Break it down into actionable tasks with clear steps, dependencies, and acceptance criteria. Include considerations for testing and deployment. Output as a structured markdown document.
+
+**Agent:** ✅ Created authentication-implementation-plan.md
+
+---
+
+**User:** Create an implementation plan for the payment integration. Break it down into actionable tasks with clear steps, dependencies, and acceptance criteria. Include considerations for testing and deployment. Output as a structured markdown document.
+
+**Agent:** ✅ Created payment-implementation-plan.md
+
+---
+
+**User:** Create an implementation plan for the notification system. Break it down into actionable tasks with clear steps, dependencies, and acceptance criteria. Include considerations for testing and deployment. Output as a structured markdown document.
+
+**Agent:** ✅ Created notification-implementation-plan.md
+
+:::
+::: bad
+Figure: Bad example - The user repeats the same detailed instructions for every planning task, which is error-prone and tedious
+:::
+
 ## Example custom agent
 
 <boxEmbed
