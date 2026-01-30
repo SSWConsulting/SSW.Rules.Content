@@ -4,6 +4,7 @@ title: Do you write an AGENTS.md?
 uri: write-agents-md
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+sidebarVideo: 'https://www.youtube.com/shorts/_gOJGXhGqT8'
 authors:
   - title: Eddie Kranz
     url: 'https://www.ssw.com.au/people/eddie-kranz'
@@ -12,7 +13,7 @@ seoDescription: Learn why SSW developers use AGENTS.md to provide context and in
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-01-29T23:14:31.327Z
+lastUpdated: 2026-01-30T06:03:29.481Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -54,10 +55,8 @@ For more details, you can view the [full AGENTS.md file on GitHub](https://githu
 
 ## How to implement it
 
-1. Create the file: Add \`AGENTS.md\` to the root of your repository.
-
-2. Keep it updated: As your project evolves, ensure the instructions in \`AGENTS.md\` remain accurate.
-
+1. Create the file: Add `AGENTS.md` to the root of your repository.
+2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
 3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if exists.
 
 <boxEmbed
@@ -89,27 +88,22 @@ For more details, you can view the [full AGENTS.md file on GitHub](https://githu
   style="tips"
 />
 
-
 ## How will it handle my massive monorepo?
 
-Place another \`AGENTS.md\` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
+Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
 
-The "root" \`AGENTS.md\` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific \`AGENTS.md\` files.
+The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+
 <boxEmbed
   style="greybox"
   body={<>
-    <strong>Bad example – One MASSIVE <code>AGENTS.md</code> for a monorepo</strong>
-    <br /><br />
-    <code>
-      /<br />
-      ├── AGENTS.md <span style={{ color: 'red' }}>&larr; 5000 lines of instructions for every package</span><br />
-      ├── packages/<br />
-      │   ├── app1/<br />
-      │   └── app2/<br />
-      └── ...<br />
-    </code>
-    <br />
-    Agents must scroll through a giant document to find what applies to each subproject – making onboarding and updates difficult + overloading the context window of the agent.
+    ```
+    ├── AGENTS.md - 5000 lines of instructions for every package
+    ├── packages
+    │   ├── app1
+    │   └── app2
+    └── ...
+    ```
   </>}
   figurePrefix="bad"
   figure="Bad example – A single, overloaded AGENTS.md for the entire monorepo"
@@ -118,20 +112,15 @@ The "root" \`AGENTS.md\` file in this case should contain only high-level instru
 <boxEmbed
   style="greybox"
   body={<>
-    <strong>Good example – Separate <code>AGENTS.md</code> files for each package</strong>
-    <br /><br />
-    <code>
-      /<br />
-      ├── AGENTS.md <span style={{ color: 'green' }}>&larr; High-level architecture overview</span><br />
-      ├── packages/<br />
-      │   ├── app1/<br />
-      │   │   └── AGENTS.md <span style={{ color: 'green' }}>&larr; Instructions for app1 only</span><br />
-      │   ├── app2/<br />
-      │   │   └── AGENTS.md <span style={{ color: 'green' }}>&larr; Instructions for app2 only</span><br />
-      │   └── ...<br />
-    </code>
-    <br />
-    Each package contains its own <code>AGENTS.md</code>, so agents have clear, focused guidance relevant to that package.
+    ```plaintext
+    ├── AGENTS.md - High-level architecture overview
+    ├── packages
+    │   ├── app1
+    │   │   └── AGENTS.md - Instructions for app1 only
+    │   ├── app2
+    │   │   └── AGENTS.md - Instructions for app2 only
+    │   └── ...
+    ```
   </>}
   figurePrefix="good"
   figure="Good example – Scoped AGENTS.md files provide targeted agent instructions per subproject"
