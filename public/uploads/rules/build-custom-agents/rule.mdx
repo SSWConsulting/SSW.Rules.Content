@@ -14,7 +14,7 @@ seoDescription: 'Learn when to build custom AI agents vs. use simple prompts. Di
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-29T03:47:26.948Z
+lastUpdated: 2026-01-30T00:04:44.123Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -29,10 +29,10 @@ A **custom agent** is a reusable, task-specific agent designed to integrate into
 
 Key characteristics of custom agents:
 
-- **Specialized scope** - focused on a specific task or domain (e.g., code review, implementation planning, testing)
-- **Defined tools** - explicit access to only the tools needed for their purpose
-- **Clear instructions** - a system prompt that defines behaviour and guardrails
-- **Reusable** - can be invoked across different workflows or by other agents
+* **Specialized scope** - focused on a specific task or domain (e.g., code review, implementation planning, testing)
+* **Defined tools** - explicit access to only the tools needed for their purpose
+* **Clear instructions** - a system prompt that defines behaviour and guardrails
+* **Reusable** - can be invoked across different workflows or by other agents
 
 For example, Claude Code uses custom agents like `Explore` (for codebase exploration), `Plan` (for designing implementation approaches), and `Bash` (for command execution). Each has a narrow focus and specific toolset.
 
@@ -40,9 +40,9 @@ For example, Claude Code uses custom agents like `Explore` (for codebase explora
 
 Like functions in code, custom agents help you avoid repeating yourself. Consider building one when:
 
-- **You're repeating the same prompts** - if you keep giving the same instructions for similar tasks, encapsulate them in a custom agent
-- **You need consistent behaviour** - when a task requires specific guardrails, tools, or domain knowledge every time
-- **You want to delegate specialized work** - break complex workflows into focused custom agents that can be orchestrated together
+* **You're repeating the same prompts** - if you keep giving the same instructions for similar tasks, encapsulate them in a custom agent
+* **You need consistent behaviour** - when a task requires specific guardrails, tools, or domain knowledge every time
+* **You want to delegate specialized work** - break complex workflows into focused custom agents that can be orchestrated together
 
 ## Structure of custom agents
 
@@ -57,9 +57,11 @@ At its most fundamental level, a custom agent consists of three core components:
 <boxEmbed
   body={<>
     "You are a technical planning specialist. Analyze requirements and break them down into actionable tasks. Create detailed technical specifications. Always structure your plans with clear headings and task breakdowns. Now, create an implementation plan for the user authentication feature."
+    
+    AI: {{ RESPONSE }}
   </>}
-  figurePrefix="bad"
-  figure="Repeating the same instructions in every prompt - tedious and inconsistent"
+  figurePrefix="ok"
+  figure="Starting chats by repeating the same instructions in every prompt"
   style="greybox"
 />
 
