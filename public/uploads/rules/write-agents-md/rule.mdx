@@ -88,3 +88,51 @@ For more details, you can view the [full AGENTS.md file on GitHub](https://githu
   figure=""
   style="tips"
 />
+
+
+## How will it handle my massive monorepo?
+
+Place another \`AGENTS.md\` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
+
+The "root" \`AGENTS.md\` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific \`AGENTS.md\` files.
+<boxEmbed
+  style="greybox"
+  body={<>
+    <strong>Bad example – One MASSIVE <code>AGENTS.md</code> for a monorepo</strong>
+    <br /><br />
+    <code>
+      /<br />
+      ├── AGENTS.md <span style={{ color: 'red' }}>&larr; 5000 lines of instructions for every package</span><br />
+      ├── packages/<br />
+      │   ├── app1/<br />
+      │   └── app2/<br />
+      └── ...<br />
+    </code>
+    <br />
+    Agents must scroll through a giant document to find what applies to each subproject – making onboarding and updates difficult + overloading the context window of the agent.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example – A single, overloaded AGENTS.md for the entire monorepo"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    <strong>Good example – Separate <code>AGENTS.md</code> files for each package</strong>
+    <br /><br />
+    <code>
+      /<br />
+      ├── AGENTS.md <span style={{ color: 'green' }}>&larr; High-level architecture overview</span><br />
+      ├── packages/<br />
+      │   ├── app1/<br />
+      │   │   └── AGENTS.md <span style={{ color: 'green' }}>&larr; Instructions for app1 only</span><br />
+      │   ├── app2/<br />
+      │   │   └── AGENTS.md <span style={{ color: 'green' }}>&larr; Instructions for app2 only</span><br />
+      │   └── ...<br />
+    </code>
+    <br />
+    Each package contains its own <code>AGENTS.md</code>, so agents have clear, focused guidance relevant to that package.
+  </>}
+  figurePrefix="good"
+  figure="Good example – Scoped AGENTS.md files provide targeted agent instructions per subproject"
+/>
