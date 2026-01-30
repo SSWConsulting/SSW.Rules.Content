@@ -235,6 +235,145 @@ function convertDoubleBracesOutsideJsxSkippingFences(source) {
   return replaced;
 }
 
+/**
+ * Auto-fix for a common MDX pitfall inside <emailEmbed ... body={...} />:
+ *
+ * In MDX/JSX, angle-bracketed text like:
+ *   <This email is as per ...>
+ * can be interpreted as a JSX tag and cause parse/compile failures.
+ *
+ * This helper looks for the specific pattern:
+ *   <emailEmbed ... body={<> ... </>} ... />
+ *
+ * and converts *literal* angle-bracketed text inside that fragment into HTML entities:
+ *   <This email ...>  or  \<This email ...>
+ * becomes:
+ *   &lt;This email ...&gt;
+ *
+ * Safety rules:
+ * - Only runs within <emailEmbed ...> tags.
+ * - Only runs when the body value is a top-level fragment: body={<> ... </>}.
+ * - Only replaces <...> where the inner text contains at least one SPACE,
+ *   so it won't touch things like:
+ *   - </>, <> (JSX fragments)
+ *   - <https://...> (autolinks)
+ * - Skips fenced code blocks (``` or ~~~) inside the fragment content.
+ *
+ * Complexity:
+ * - Linear scan over the file content; advances the cursor on every iteration,
+ *   so it cannot loop forever.
+ */
+function fixAngleBracketsInEmailEmbedBody(source) {
+  const tagName = "emailEmbed";
+  let out = source;
+  let i = 0;
+
+  while (i < out.length) {
+    const tagStart = out.indexOf(`<${tagName}`, i);
+    if (tagStart === -1) break;
+
+    // From the start of <emailEmbed, search forward for `body` and the following `{`
+    const bodyKey = out.indexOf("body", tagStart);
+    if (bodyKey === -1) {
+      i = tagStart + 1;
+      continue;
+    }
+
+    const braceOpen = out.indexOf("{", bodyKey);
+    if (braceOpen === -1) {
+      i = tagStart + 1;
+      continue;
+    }
+
+    // Allow whitespace after `{` and require a fragment opener `<>`
+    let p = braceOpen + 1;
+    while (p < out.length && /\s/.test(out[p])) p++;
+
+    // Must be fragment start: <>
+    if (out.slice(p, p + 2) !== "<>") {
+      i = tagStart + 1;
+      continue;
+    }
+
+    const fragOpen = p; // points to "<>"
+    const contentStart = fragOpen + 2;
+
+    // Find the corresponding fragment close `</>`.
+    // Assumption: no nested fragments inside this body (matches your template).
+    const fragClose = out.indexOf("</>", contentStart);
+    if (fragClose === -1) {
+      i = tagStart + 1;
+      continue;
+    }
+
+    // After `</>` there should be the closing `}` (allow whitespace)
+    let q = fragClose + 3; // after "</>"
+    while (q < out.length && /\s/.test(out[q])) q++;
+
+    if (out[q] !== "}") {
+      // Not the expected body={<> ... </>} structure; skip to avoid false positives.
+      i = tagStart + 1;
+      continue;
+    }
+
+    const content = out.slice(contentStart, fragClose);
+    const fixedContent = escapeAngleBracketsInNonFenceText(content);
+
+    if (fixedContent !== content) {
+      // Replace only the fragment content; keep the surrounding JSX/MDX intact.
+      out = out.slice(0, contentStart) + fixedContent + out.slice(fragClose);
+      i = contentStart + fixedContent.length; // advance past the modified region
+    } else {
+      i = fragClose + 3; // advance past "</>"
+    }
+  }
+
+  return out;
+}
+
+/**
+ * Escapes literal angle-bracketed text in plain (non-fenced) lines:
+ *   <...> or \<...>  ->  &lt;...&gt;
+ *
+ * Only applies when the inner text contains at least one SPACE, to avoid touching:
+ * - JSX fragments: </>, <>
+ * - Autolinks: <https://...>
+ *
+ * Also skips fenced code blocks delimited by ``` or ~~~.
+ */
+function escapeAngleBracketsInNonFenceText(text) {
+  const lines = text.split(/\r?\n/);
+
+  let inFence = false;
+  let fenceMarker = null;
+
+  for (let idx = 0; idx < lines.length; idx++) {
+    const line = lines[idx];
+
+    const fence = line.match(/^\s*(```|~~~)/);
+    if (fence) {
+      const marker = fence[1];
+      if (!inFence) {
+        inFence = true;
+        fenceMarker = marker;
+      } else if (fenceMarker === marker) {
+        inFence = false;
+        fenceMarker = null;
+      }
+      continue;
+    }
+
+    if (inFence) continue;
+
+    lines[idx] = line.replace(/\\?<([^>\n]+)>/g, (m, inner) => {
+      if (!inner.includes(" ")) return m; // skip fragments/autolinks/etc.
+      return `&lt;${inner}&gt;`;
+    });
+  }
+
+  return lines.join("\n");
+}
+
 
 /**
  * Conservative fixes based on AST offsets:
@@ -396,25 +535,29 @@ async function main() {
       const rawMsg = cleanMsg(err).toLowerCase();
 
       // If --fix and MDX parsing failed early, try a fallback fixer for {{...}} patterns
-      if (fix && rawMsg.includes("could not parse expression with acorn")) {
+      const hasEmailEmbed = source.includes("<emailEmbed");
+      const isAcorn = rawMsg.includes("could not parse expression with acorn");
+
+      if (fix && (isAcorn || hasEmailEmbed)) {
         let fixed = source;
 
-        const before = fixed;
-
-        // 1) Convert any {{...}} within JSX attribute expressions into entities
-        fixed = convertDoubleBracesInJsxAttributeExpressions(fixed);
-
-        // 2) Convert remaining {{...}} outside JSX attribute expressions into escaped braces,
-        //    while skipping fenced code blocks
-        fixed = convertDoubleBracesOutsideJsxSkippingFences(fixed);
-
-        if (fixed !== before) {
-          await fs.writeFile(abs, fixed, "utf8");
-          addFixReason(rel, "fixed `{{...}}` placeholder formatting");
-          console.log(`FIXED (fallback {{...}}): ${rel}`);
+        const beforeAngles = fixed;
+        if (hasEmailEmbed) {
+          fixed = fixAngleBracketsInEmailEmbedBody(fixed);
+          if (fixed !== beforeAngles) addFixReason(rel, "fixed angle brackets in emailEmbed body");
         }
 
-        // Re-check after fallback fix
+        const beforeDouble = fixed;
+        fixed = convertDoubleBracesInJsxAttributeExpressions(fixed);
+        fixed = convertDoubleBracesOutsideJsxSkippingFences(fixed);
+        if (fixed !== beforeDouble) addFixReason(rel, "fixed `{{...}}` placeholder formatting");
+
+        if (fixed !== source) {
+          await fs.writeFile(abs, fixed, "utf8");
+          console.log(`FIXED (fallback fixes): ${rel}`);
+        }
+
+        // Re-check
         try {
           await compileAndCollect({ source: fixed, relPath: rel, fixMode: false });
           console.log(`OK AFTER FIX: ${rel}`);
@@ -426,7 +569,8 @@ async function main() {
           manualIssues.push({ file: rel, line, col, msg: humanizeMdxError(err2) });
           continue;
         }
-      }
+}
+
 
       // No fallback fix applied
       failed = true;
@@ -470,11 +614,19 @@ async function main() {
       if (/^(\s*>+\s*)([*+-])(\s+)/m.test(source)) addFixReason(rel, "fixed blockquote bullet formatting");
     }
 
+    // 1) Fix double braces
     const beforeDouble = fixed;
     fixed = convertDoubleBracesInJsxAttributeExpressions(fixed);
     fixed = convertDoubleBracesOutsideJsxSkippingFences(fixed);
     if (fixed !== beforeDouble) {
       addFixReason(rel, "fixed `{{...}}` placeholder formatting");
+    }
+
+    // 2) Fix angle brackets inside emailEmbed body
+    const beforeAngles = fixed;
+    fixed = fixAngleBracketsInEmailEmbedBody(fixed);
+    if (fixed !== beforeAngles) {
+      addFixReason(rel, "fixed angle brackets in emailEmbed body");
     }
 
     if (fixed !== source) {
