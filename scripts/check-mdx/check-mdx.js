@@ -534,7 +534,9 @@ async function main() {
 
       const rawMsg = cleanMsg(err).toLowerCase();
 
-      // If --fix and MDX parsing failed early, try a fallback fixer for {{...}} patterns
+      // If --fix and MDX parsing failed early (e.g. acorn errors) or the file contains <emailEmbed>,
+      // run a fallback fixer: escape angle-brackets inside emailEmbed body and convert `{{...}}`
+      // placeholders (inside JSX attribute expressions and outside, skipping fenced code). Then re-check.
       const hasEmailEmbed = source.includes("<emailEmbed");
       const isAcorn = rawMsg.includes("could not parse expression with acorn");
 
@@ -568,7 +570,7 @@ async function main() {
           const { line, col } = pickPos(err2);
           manualIssues.push({ file: rel, line, col, msg: humanizeMdxError(err2) });
           continue;
-        }
+  }
 }
 
 
