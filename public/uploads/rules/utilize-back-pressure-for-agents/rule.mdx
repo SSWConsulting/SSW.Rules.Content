@@ -17,9 +17,9 @@ seoDescription: 'Learn how to use back pressure (compilers, linters, tests, MCP 
 created: 2026-01-29T00:00:00.000Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-01-29T05:36:42.463Z
-lastUpdatedBy: Eddie Kranz
-lastUpdatedByEmail: EddieKranz@ssw.com.au
+lastUpdated: 2026-01-30T06:38:12.146Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
 When working with [AI agents](/ai-cli-tools), a common bottleneck is the human review loop. If you ask an agent to "refactor this class" and it introduces a syntax error, you have to spot it and tell the agent to fix it. This manual feedback loop is slow, unscalable, and wastes your time.
@@ -46,7 +46,7 @@ Without back pressure, an AI agent relies entirely on you to validate its work. 
     Agent: "Apologies." Fixes it
   </>}
   figurePrefix="bad"
-  figure="Bad example - The human wastes time acting as the validator"
+  figure="The human wastes time acting as the validator"
 />
 
 With back pressure, the agent operates in a closed loop:
@@ -81,7 +81,7 @@ This is already built into most coding agents.
     Agent: "I have refactored the component and verified it passes linting."
   </>}
   figurePrefix="good"
-  figure="Good example - The agent uses the linter to self-correct before bothering the user"
+  figure="The agent uses the linter to self-correct before bothering the user"
 />
 
 ### 2. Automated Tests
@@ -100,7 +100,7 @@ You can ask agents to write and run [tests](/the-different-types-of-test) to ver
     Agent: "Let me fix that."
   </>}
   figurePrefix="bad"
-  figure="Bad example - Logic errors are caught manually by the human"
+  figure="Logic errors are caught manually by the human"
 />
 
 <boxEmbed
@@ -117,7 +117,7 @@ You can ask agents to write and run [tests](/the-different-types-of-test) to ver
     Agent: "Function created and verified against 10 test cases."
   </>}
   figurePrefix="good"
-  figure="Good example - The agent uses tests as back pressure to ensure correctness"
+  figure="The agent uses tests as back pressure to ensure correctness"
 />
 
 <boxEmbed
@@ -126,7 +126,7 @@ You can ask agents to write and run [tests](/the-different-types-of-test) to ver
     Tip: When asking an agent to write its own tests, be careful it doesn't write "lazy" tests that always pass. You might need to review the tests themselves or ask it to generate tests before the implementation.
   </>}
   figurePrefix="none"
-  figure="Tip: Verify the verifier"
+  figure=""
 />
 
 ### 3. Type Systems
