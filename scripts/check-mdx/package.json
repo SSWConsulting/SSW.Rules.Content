@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@mdx-js/mdx": "^3.1.1",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx": "^3.1.1",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0"
+  }
+}
