@@ -16,26 +16,29 @@ seoDescription: Educate developers on permission granting processes and best pra
 created: 2024-03-05T04:17:56.338Z
 createdBy: Kiki Biancatti
 createdByEmail: kaiqueBiancatti@ssw.com.au
-lastUpdated: 2026-01-07T22:28:17.812Z
+lastUpdated: 2026-01-31T03:59:25.352Z
 lastUpdatedBy: Kiki Biancatti
 lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
 ---
 
-To ensure developers understand what’s happening behind the scenes, it’s important to educate them on the systems and processes that are often “hidden” when a SysAdmin does the task on their own and sends a "done".
+To ensure developers understand what’s happening behind the scenes, it’s important to educate them on the systems and processes that are often “hidden” if the SysAdmin does the task on their own and sends a "done".
 
 <endIntro />
 
-A user might request access (or another change) and see the outcome, but they often won’t know where the change was made, what was updated, or why it was done that way - because many SysAdmin tools (e.g. Azure/Entra, AWS, SharePoint admin, GitHub org settings, TinaCMS) aren’t used every day by the rest of the company.
+For example, a developer might request access  to a cloud resource and see the outcome via the "done", but they often won’t know where the change was made, what was updated, or why it was done that way - because many SysAdmin tools (e.g. Azure/Entra, AWS, SharePoint admin, GitHub org settings, TinaCMS) aren’t used by the developer.
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Isaac wouldn't know how he was added to GitHub" src="/uploads/rules/educate-your-developer/2024-03-05_16-34-15.jpg" />
 
-As a SysAdmin, call the developer on Teams (warn them first) and share your screen to show where you’re making the change, what it affects, and how it’s audited. Warn them before calling as per [Calling - Do you warn then call?](/warn-then-call/)
+To educate developers, the SysAdmin will read the ticket, then call the developer on Teams and share screens to show making the change. 
+
+Tip: Warn before calling as per [Calling - Do you warn then call?](/warn-then-call/)
 
 ## Steps to effectively educate your developers
 
-* Start by explaining the importance of granting permissions correctly and securely.
-* Show developers how to navigate to the appropriate access control section in the relevant platform (e.g., Azure, AWS, SharePoint).
-* Demonstrate how to select the specific resource or application for which permissions need to be granted.
+* 🗝️ Start by explaining the importance of granting permissions correctly and securely.
+* Show developers how to navigate in the relevant platform (e.g., Azure, AWS, SharePoint).
 * Emphasize the principle of least privilege and guide developers on granting only the necessary permissions.
-* Provide examples of common scenarios where specific permissions are required and explain how to grant them.
 * Encourage developers to ask questions and seek clarification during the process.
+* Finish off by asking the developer a question that establishes they learned the main point in the SysAdmin's mind.
+* Close the ticket mentioning that e.g.
+* ✅ Done - Adam understood that he didn't need Admin access, only Reader access, as he's not making changes.
