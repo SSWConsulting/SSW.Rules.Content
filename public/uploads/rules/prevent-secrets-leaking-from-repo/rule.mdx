@@ -1,15 +1,20 @@
 ---
-seoDescription: Prevent secrets from leaking from your code repository by utilizing GitHub's Secret Scanning feature for public repositories or GitHub Enterprise with Advanced Security.
 type: rule
 title: Do you know the best way to prevent secrets leaking from your code repository?
+uri: prevent-secrets-leaking-from-repo
 categories:
   - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
-uri: prevent-secrets-leaking-from-repo
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-created: 2022-07-08T03:17:54.935Z
+    url: 'https://ssw.com.au/people/matt-wicks'
 guid: 015572ca-3a3c-4e94-8d96-05a2c4a81e7b
+seoDescription: Prevent secrets from leaking from your code repository by utilizing GitHub's Secret Scanning feature for public repositories or GitHub Enterprise with Advanced Security.
+created: 2022-07-08T03:17:54.935Z
+createdBy: Chloe
+createdByEmail: chloelin@ssw.com.au
+lastUpdated: 2026-01-30T10:11:49.548Z
+lastUpdatedBy: Chloe
+lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
 Despite tooling coming a long way to prevent it, accidentally committing a config file with some secrets in it is far too easy to do.
@@ -18,9 +23,7 @@ Up to 2022, GitHub had detected more than 700,000 secrets across thousands of pr
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/embed/vAhngpUecMw" description={"Video: Github Secrets Leak Prevention (3 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/embed/vAhngpUecMw" description="Video: Github Secrets Leak Prevention (3 min)" />
 
 Once this occurs, amongst other things, you need to:
 
@@ -45,32 +48,13 @@ Nothing to configure! GitHub will always send alerts to partners for detected se
 
 ## Setting up on GitHub Enterprise (with Advanced Security)
 
-Follow the steps on [GitHub - Configuring secret scanning for your repositories](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/configuring-secret-scanning-for-your-repositories).
+Follow the steps on [GitHub - Configuring secret scanning for your repositories](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/detect-secret-leaks/enabling-secret-scanning-for-your-repository).
 
 As a bonus, you can shift this left a bit and block developers from pushing code to the repo if GitHub finds a secret in the push. This has the benefit of not requiring secret rotation (as no one else was able to pull the branch). See [GitHub - Protecting pushes with secret scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/protecting-pushes-with-secret-scanning).
 
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="GitHub found an AWS secret on this push and blocked it" src="/uploads/rules/prevent-secrets-leaking-from-repo/secret-scanning-push-protection-with-link.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="GitHub found an AWS secret on this push and blocked it"
-  src="/uploads/rules/prevent-secrets-leaking-from-repo/secret-scanning-push-protection-with-link.png"
-/>
-
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Sometimes there are false positives or test data, developers aren't blocked from doing their work. They just need to go out of their way to make sure it isn't a real secret"
-  src="/uploads/rules/prevent-secrets-leaking-from-repo/secret-scanning-unblock-form.png"
-/>
-
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Sometimes there are false positives or test data, developers aren't blocked from doing their work. They just need to go out of their way to make sure it isn't a real secret" src="/uploads/rules/prevent-secrets-leaking-from-repo/secret-scanning-unblock-form.png" />
 
 <boxEmbed
   style="info"
