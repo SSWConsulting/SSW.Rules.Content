@@ -1,52 +1,59 @@
 ---
-archivedreason: null
-authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
-- title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Seth Daily
-  url: https://ssw.com.au/people/seth-daily
-- title: Josh Berman
-  url: https://ssw.com.au/people/josh-berman
-created: 2023-08-11 01:23:01+00:00
-createdBy: Brady Stroud [SSW]
-createdByEmail: bradystroud@ssw.com.au
-guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
-isArchived: false
-lastUpdated: 2025-11-27 04:04:17+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-redirects:
-- do-you-create-a-sprint-review-retro-email
-related:
-- rule: public/uploads/rules/roadmap/rule.mdx
-- rule: public/uploads/rules/what-happens-at-retro-meetings/rule.mdx
-- rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
-- rule: public/uploads/rules/sprint-forecast-email/rule.mdx
-- rule: public/uploads/rules/groups-in-microsoft-365/rule.mdx
-- rule: public/uploads/rules/following-microsoft-365-groups/rule.mdx
-seoDescription: Learn how to create a structured Sprint Review/Retro email template
-  with best practices for clear communication and effective team collaboration in
-  Agile processes.
+type: rule
 title: Do you create a Sprint Review/Retro email?
+uri: sprint-review-retro-email
 categories:
   - category: categories/project-delivery/rules-to-better-scrum.mdx
-type: rule
-uri: sprint-review-retro-email
+authors:
+  - title: Ulysses Maclaren
+    url: 'https://ssw.com.au/people/ulysses-maclaren'
+  - title: Drew Robson
+    url: 'https://ssw.com.au/people/drew-robson'
+  - title: Chris Briggs
+    url: 'https://ssw.com.au/people/chris-briggs'
+  - title: Piers Sinclair
+    url: 'https://ssw.com.au/people/piers-sinclair'
+  - title: Christian Morford-Waite
+    url: 'https://ssw.com.au/people/christian-morford-waite'
+  - title: Seth Daily
+    url: 'https://ssw.com.au/people/seth-daily'
+  - title: Josh Berman
+    url: 'https://ssw.com.au/people/josh-berman'
+  - title: Ivan Gaiduk
+    url: 'https://ssw.com.au/people/ivan-gaiduk'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/roadmap/rule.mdx
+  - rule: public/uploads/rules/what-happens-at-retro-meetings/rule.mdx
+  - rule: public/uploads/rules/what-happens-at-a-sprint-planning-meeting/rule.mdx
+  - rule: public/uploads/rules/sprint-forecast-email/rule.mdx
+  - rule: public/uploads/rules/groups-in-microsoft-365/rule.mdx
+  - rule: public/uploads/rules/following-microsoft-365-groups/rule.mdx
+  - rule: public/uploads/rules/what-happens-at-a-sprint-review-meeting/rule.mdx
+redirects:
+  - do-you-create-a-sprint-review-retro-email
+guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
+seoDescription: Learn how to create a structured Sprint Review/Retro email template with best practices for clear communication and effective team collaboration in Agile processes.
+created: 2023-08-11T01:23:01.000Z
+createdBy: 'Brady Stroud [SSW]'
+createdByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-11-27T04:04:17.000Z
+lastUpdatedBy: 'Tiago Araújo [SSW]'
+lastUpdatedByEmail: tiagov8@gmail.com
+isArchived: false
+archivedreason: null
 ---
 
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint.
 
 <endIntro />
 
-Learn more on [Do you know what happens at a Sprint Retrospective meeting?](/what-happens-at-retro-meetings)
+More on [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting)
+
+More on [Do you know what happens at a Sprint Retrospective meeting?](/what-happens-at-retro-meetings)
 
 Firstly, create a new email copying the information from the previous Sprint Review/Retro.
 
@@ -59,147 +66,172 @@ Firstly, create a new email copying the information from the previous Sprint Rev
   shouldDisplayBody={true}
   body={<>
     ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
+    
+    Here are the Sprint Goals and their status at a glance:
+    
+    Sprint Goals (in priority order):
+    
+    * &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
+    * &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
+    
+    Please see below for a more detailed breakdown of the Sprint:
+    
+    |                                                                                                                                                  |                                |
+    | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
+    | Sprint in Review:                                                                                                                                | &#123;&#123; SPRINT NUMBER &#125;&#125;            |
+    | Summary Recording:                                                                                                                               | &#123;&#123; YOUTUBE PLAYLIST URL &#125;&#125;     |
+    | Sprint Duration:                                                                                                                                 | &#123;&#123; NUMBER OF WEEKS &#125;&#125;          |
+    | Project:                                                                                                                                         | &#123;&#123; PROJECT NAME &#125;&#125;             |
+    | Project Portal:                                                                                                                                  | &#123;&#123; LINK TO PROJECT PORTAL &#125;&#125;   |
+    | Test Environment:                                                                                                                                | &#123;&#123; LINK TO TEST ENVIRONMENT &#125;&#125; |
+    | Product Owner:                                                                                                                                   | &#123;&#123; PRODUCT OWNER NAME &#125;&#125;       |
+    | Attendees:                                                                                                                                       | &#123;&#123; NAMES OF THE ATTENDEES &#125;&#125;   |
+    | ✅ I have added the relevant stakeholders as per [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting) |                                |
+    
+    ## Sprint Review
+    
+    1\. Timesheet data - Who worked in the Sprint?
+    
+    ![Figure: Timesheet data for a Sprint](/uploads/rules/sprint-review-retro-email/sprint-timesheet-data.png)
+    
+    **Figure: Timesheet data for the SSW Website**
+    
+    2\. What got done?
+    
+    | **ID** | **Title**                           | **Assignee**  | **State**       | **Effort** |
+    | ------ | ----------------------------------- | ------------- | --------------- | ---------- |
+    | 24124  | UI Improvements                     | Bob Northwind | ✅ DONE         | 4          |
+    | 24112  | Integrate Business Logic to MVC app | Bob Northwind | ✅ DONE         | 8          |
+    | 24097  | **Styling**                         | Bob Northwind | 🏗️ In Progress  | 16         |
+    | 23120  | UX Improvements                     | Bob Northwind | 👀 In Review    | 4          |
+    
+    **Figure: Sprint Backlog from &#123;&#123; LINK TO SPRINT BACKLOG &#125;&#125; with the important items bolded**
+    
+    3\. Sprint Burndown - A quick overview of the Sprint
+    
+    ![Figure: Sprint Burndown](/uploads/rules/sprint-review-retro-email/burndown-V2.png)
+    
+    **Figure: The Sprint Burndown chart**
+    
+    4\. Code Coverage - Hopefully tests are increasing each Sprint
+    
+    &#123;&#123; CODE COVERAGE &#125;&#125;
+    
+    5\. Velocity *(Optional)*
+    
+    &#123;&#123; VELOCITY &#125;&#125;
+    
+    6\. Burnup - How are we tracking for the big picture? \*
+    
+    ![Figure: Release Burnup](/uploads/rules/sprint-review-retro-email/release-burnup.jpg)
+    
+    **Figure: The Burnup chart**
+    
+    | Metrics – last 30 days | Count                                                                     |
+    | ---------------------- | ------------------------------------------------------------------------- |
+    | New PBIs               | &#123;&#123; NEW PBIS &#125;&#125;                                                            |
+    | AI PBIS                | &#123;&#123; PBIS CREATED WITH AI &#125;&#125; ( &#123;&#123; PERCENT OF NEW PBIS CREATED WITH AI &#125;&#125; %) |
+    | Completed PBIs         | &#123;&#123; PBIS COMPLETED &#125;&#125;                                                      |
+    | Net Change in PBIs     | &#123;&#123; +/- OVERALL PBI COUNT CHANGE &#125;&#125;                                        |
+    
+    **Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
+    
+    **Note:** Yakshaver.ai has a feature on their [roadmap](https://yakshaver.ai/roadmap) that will do this automatically
+    
+    7\. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
+    
+    ![Figure: Build Pipeline Health from DevOps](/uploads/rules/sprint-review-retro-email/thumbnail-image.png)
+    
+    **Figure: Health metrics**
+    
+    ![Figure: Deployments from &#123;&#123; DEPLOYMENT SERVICE &#125;&#125;](/uploads/rules/sprint-review-retro-email/production-deploy.png)
+    
+    **Figure: Deployment health**
+    
+    8\. Application Health Overview Timeline - For the entire Sprint
+    
+    ![Figure: Application Health Overview Timeline](/uploads/rules/sprint-review-retro-email/application-insights.jpg)
+    
+    **Figure: Application Health Overview Timelines**
+    
+    9\. Product Roadmap
+    
+    e.g. [yakshaver.ai/roadmap](https://yakshaver.ai/roadmap)
+    
+    Progress:
+    
+    **Epic - UI/UX Improvements**
+    
+    * Currently &#123;&#123; TOTAL # OF PBIS COMPLETED &#125;&#125;/&#123;&#123; TOTAL # OF PBIS CREATED &#125;&#125; PBIs completed (there will be more)
+    * &#123;&#123; # OF PBIS COMPLETED THIS SPRINT &#125;&#125; Completed this Sprint
+    * &#123;&#123; # OF PBIS CREATED THIS SPRINT &#125;&#125; Newly created this Sprint
+    
+    *Add this for each current epic in your backlog*
+    
+    10\. R\&D - Did we do any experimental work?
+    
+    &#123;&#123; INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) &#125;&#125;
+    
+    &#123;&#123; INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) &#125;&#125;
+    
+    e.g. We tried to use Angular and found that it doesn't work for our particular workflow, because AI results are inconsistent.
+    
+    11\. AI use - what tools did you use?
+    
+    * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; TOOLS &#125;&#125;
+    * Bob Northwind - Claude, Copilot CLI
+    
+    ### Copilot Stats
+    
+    ![Figure: Copilot speaking summary was &#123;&#123; DURATION &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/meeting-length.png)
+    
+    **Figure: Copilot speaker breakdown of meeting**
+    
+    **Note:** People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
+    
+    ![Figure: Claude-created meeting overview - Image from Product Owner](/uploads/rules/sprint-review-retro-email/claude-stats.png)
 
-Here are the Sprint Goals and their status at a glance:
+    **Figure: Claude-created meeting overview**
 
-Sprint Goals (in priority order):
-
-* &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
-* &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
-
-Please see below for a more detailed breakdown of the Sprint:
-
-|                    |                                      |
-| ------------------ | ------------------------------------ |
-| Sprint in Review:  | &#123;&#123; SPRINT NUMBER &#125;&#125;                  |
-| Summary Recording: | &#123;&#123; YOUTUBE PLAYLIST URL &#125;&#125;           |
-| Sprint Duration:   | &#123;&#123; NUMBER OF WEEKS &#125;&#125;                |
-| Project:           | &#123;&#123; PROJECT NAME &#125;&#125;                   |
-| Project Portal:    | &#123;&#123; LINK TO PROJECT PORTAL &#125;&#125;         |
-| Test Environment:  | &#123;&#123; LINK TO TEST ENVIRONMENT &#125;&#125;       |
-| Product Owner:     | &#123;&#123; PRODUCT OWNER NAME &#125;&#125;             |
-| Attendees:         | &#123;&#123; NAMES OF THE ATTENDEES &#125;&#125;         |
-✅ I have added the relevant stakeholders as per [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting)
-
-## Sprint Review
-
-1. Timesheet data - Who worked in the Sprint?
-
-![Figure: Timesheet data for a Sprint](/uploads/rules/sprint-review-retro-email/sprint-timesheet-data.png)
-
-1. What got done?
-
-| **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
-| -------- | --------------- | -------------- | ----------- | ------------ |
-| &#123;&#123; ID &#125;&#125; | &#123;&#123; PBI TITLE &#125;&#125; | &#123;&#123; ASSIGNEE &#125;&#125; | &#123;&#123; STATE &#125;&#125; | &#123;&#123; EFFORT &#125;&#125; |
-| &#123;&#123; ID &#125;&#125; | &#123;&#123; PBI TITLE &#125;&#125; | &#123;&#123; ASSIGNEE &#125;&#125; | &#123;&#123; STATE &#125;&#125; | &#123;&#123; EFFORT &#125;&#125; |
-
-**Figure: Sprint Backlog from &#123;&#123; LINK TO SPRINT BACKLOG &#125;&#125;**
-
-1. Sprint Burndown - A quick overview of the Sprint
-
-![Figure: Sprint Burndown](/uploads/rules/sprint-review-retro-email/burndown-V2.png)
-
-1. Code Coverage - Hopefully tests are increasing each Sprint
-
-&#123;&#123; CODE COVERAGE &#125;&#125;
-
-1. Velocity *(Optional)*
-
-&#123;&#123; VELOCITY &#125;&#125;
-
-1. Burnup - How are we tracking for the big picture? *
-
-![Figure: Release Burnup](/uploads/rules/sprint-review-retro-email/release-burnup.jpg)
-
-| Metrics – last 30 days | Count |
-| --- | --- |
-| New PBIs | &#123;&#123; NEW PBIS &#125;&#125; |
-| AI PBIS | &#123;&#123; PBIS CREATED WITH AI &#125;&#125; ( &#123;&#123; PERCENT OF NEW PBIS CREATED WITH AI &#125;&#125; %) |
-| Completed PBIs | &#123;&#123; PBIS COMPLETED &#125;&#125; |
-| Net Change in PBIs | &#123;&#123; +/- OVERALL PBI COUNT CHANGE &#125;&#125; |
-
-**Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
-
-1. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
-
-![Figure: Build Pipeline Health from DevOps](/uploads/rules/sprint-review-retro-email/thumbnail-image.png)
-
-![Figure: Deployments from &#123;&#123; DEPLOYMENT SERVICE &#125;&#125;](/uploads/rules/sprint-review-retro-email/production-deploy.png)
-
-1. Application Health Overview Timeline - For the entire Sprint
-
-![Figure: Application Health Overview Timeline](/uploads/rules/sprint-review-retro-email/application-insights.jpg)
-
-1. Product Roadmap
-
-&#123;&#123; ROADMAP LINK &#125;&#125;
-
-Progress:
-
-**&#123;&#123; EPIC #1 &#125;&#125;**
-
-* Currently &#123;&#123; TOTAL # OF PBIS COMPLETED &#125;&#125;/&#123;&#123; TOTAL # OF PBIS CREATED &#125;&#125; PBIs completed (there will be more)
-
-  * &#123;&#123; # OF PBIS COMPLETED THIS SPRINT &#125;&#125; Completed this Sprint
-  * &#123;&#123; # OF PBIS CREATED THIS SPRINT &#125;&#125;  Newly created this Sprint
-
-*Add this for each current epic in your backlog*
-
-1. R&D - Did we do any experimental work?
-
-&#123;&#123; INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) &#125;&#125;
-
-&#123;&#123; INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) &#125;&#125;
-
-1. AI use - what tools did you use?
-
-* &#123;&#123; PERSON &#125;&#125; - &#123;&#123; TOOLS &#125;&#125;
-
-### Copilot Stats
-
-![Figure: Copilot speaking summary was &#123;&#123; DURATION &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/meeting-length.png)
-
-**Note:** People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
-
-![Figure: Copilot showed the main action point was &#123;&#123; MAIN ACTION POINT &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/main-action-point.png)
-
-## Sprint Retrospective
-
-As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
-
-✅ **What went well?**
-
-&#123;&#123; INSERT LIST OF WHAT WENT WELL from Retro &#125;&#125;
-
-❌ **What didn’t go so well?**
-
-&#123;&#123; INSERT LIST OF WHAT NOT WENT WELL from Retro &#125;&#125;
-
-💡 **What improvements will be made for the next Sprint?**
-
-&#123;&#123; INSERT LIST OF IMPROVEMENTS to be made for the next Sprint &#125;&#125;
-
-⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
-
-As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rules/for-the-record/)
-
-&#123;&#123; INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT &#125;&#125;
-
-**Definition of Ready** *(Optional)*
-
-&#123;&#123; INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) &#125;&#125;
-
-**Definition of Done** *(Optional)*
-
-&#123;&#123; INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) &#125;&#125;
-
-&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
+    ![Figure: Copilot showed the main action point was &#123;&#123; MAIN ACTION POINT &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/main-action-point.png)
+    
+    **Figure: Copilot generated main item completed**
+    
+    ## Sprint Retrospective
+    
+    As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
+    
+    ✅ **What went well?**
+    
+    &#123;&#123; INSERT LIST OF WHAT WENT WELL from Retro &#125;&#125;
+    
+    ❌ **What didn’t go so well?**
+    
+    &#123;&#123; INSERT LIST OF WHAT DIDN'T GO WELL from Retro &#125;&#125;
+    
+    💡 **What improvements will be made for the next Sprint?**
+    
+    &#123;&#123; INSERT LIST OF IMPROVEMENTS to be made for the next Sprint &#125;&#125;
+    
+    ⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
+    
+    As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rules/for-the-record/)
+    
+    &#123;&#123; INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT &#125;&#125;
+    
+    **Definition of Ready** *(Optional)*
+    
+    &#123;&#123; INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) &#125;&#125;
+    
+    **Definition of Done** *(Optional)*
+    
+    &#123;&#123; INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) &#125;&#125;
+    
+    &lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) &gt;
   </>}
   figurePrefix="good"
   figure="Template for Sprint Review/Retro email"
 />
-
 
 <boxEmbed
   style="info"
@@ -210,8 +242,6 @@ As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rul
   figure=""
 />
 
-
-
 <boxEmbed
   style="info"
   body={<>
@@ -221,7 +251,7 @@ As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rul
   figure=""
 />
 
-<imageEmbed
+<imageEmbed 
   alt="Image"
   size="large"
   showBorder={false}
@@ -230,11 +260,9 @@ As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rul
   src="/uploads/rules/sprint-review-retro-email/tina-sprint-email.png"
 />
 
-
 ## Recording a Review and Retrospective Meetings Summary
 
 Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend.
-
 
 <boxEmbed
   style="info"
@@ -245,12 +273,8 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
   figure=""
 />
 
-
 See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
 
+<youtubeEmbed url="https://www.youtube.com/watch?v=d1-5wziOH7o" description="Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)" />
 
-<youtubeEmbed url="https://www.youtube.com/watch?v=d1-5wziOH7o" description={"Video: ✅ Good Example: Nick C in TinaCMS - Sprint 55 Review + Retro and Sprint 56 Forecast (9 min)"} />
-
-
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=eqc_fKk2ZFo" description={"Video: ✅ Good Example: Josh B in Tina.io - Sprint Review 48 & Forecast 49 (13 min)"} />
+<youtubeEmbed url="https://www.youtube.com/watch?v=eqc_fKk2ZFo" description="Video: ✅ Good Example: Josh B in Tina.io - Sprint Review 48 & Forecast 49 (13 min)" />
