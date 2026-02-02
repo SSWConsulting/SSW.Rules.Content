@@ -1,33 +1,32 @@
 ---
-archivedreason: null
-authors:
-- title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
-- title: Aman Kumar
-  url: https://ssw.com.au/people/aman-kumar
-created: 2024-09-02 22:09:22+00:00
-createdBy: Brady Stroud [SSW]
-createdByEmail: bradystroud@ssw.com.au
-guid: 8312c849-88a5-4745-82e7-739127d6e9f8
-isArchived: false
-lastUpdated: 2025-12-01 22:45:08+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-redirects:
-- do-you-use-a-content-delivery-network-cdn
-- do-you-use-a-content-delivery-network-(cdn)
-- do-you-use-cdn-for-js-files
-seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency
-  and improve page load times for your users?
+type: rule
 title: Do you use a Content Delivery Network (CDN)?
+uri: use-a-cdn
 categories:
   - category: categories/software-engineering/rules-to-better-internationalization.mdx
-type: rule
-uri: use-a-cdn
+authors:
+  - title: Barry Sanders
+    url: 'https://ssw.com.au/people/barry-sanders'
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+  - title: Shane Ye
+    url: 'https://ssw.com.au/people/shane-ye'
+  - title: Aman Kumar
+    url: 'https://ssw.com.au/people/aman-kumar'
+redirects:
+  - do-you-use-a-content-delivery-network-cdn
+  - do-you-use-a-content-delivery-network-(cdn)
+  - do-you-use-cdn-for-js-files
+guid: 8312c849-88a5-4745-82e7-739127d6e9f8
+seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?
+created: 2024-09-02T22:09:22.000Z
+createdBy: 'Brady Stroud [SSW]'
+createdByEmail: bradystroud@ssw.com.au
+lastUpdated: 2026-02-02T00:04:48.132Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
@@ -86,22 +85,33 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 * **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
 * **Testing**: Staging environments are only available as part of the [enterprise plan](https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations), making it expensive to test changes to your CDN configuration
 
----
+***
+
+## Pricing
+
+### Cloudflare (Pro + Workers)
+
+| Service                                                                                        | Monthly Cost                | Annual Cost                 |
+| ---------------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
+| [CloudFlare workers standard plan](https://www.cloudflare.com/en-au/plans/developer-platform/) | $5                          | $60                         |
+| [CloudFlare Pro Plan (yearly)](https://www.cloudflare.com/en-au/plans/)                        | $20                         | $240                        |
+| 10,000,000 requests per month                                                                  | Free \< 10,000,000 requests | Free \< 10,000,000 requests |
+| Total                                                                                          | $25                         | $300                        |
+
+### Azure (Standard)
+
+| Service                                                                                                         | Monthly Cost | Annual Cost |
+| --------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
+| [Azure Front Door Premium](https://azure.microsoft.com/en-us/pricing/details/frontdoor/?utm_source=chatgpt.com) | $35          | $420        |
+| 10,000,000 requests per month                                                                                   | $9           | $108        |
+| Total                                                                                                           | $44          | $528        |
 
 ### Which ones do **not** work well from China?
 
 1. [https://maxcdn.bootstrapcdn.com](https://maxcdn.bootstrapcdn.com)
 2. [https://ajax.googleapis.com](https://ajax.googleapis.com)
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Jquery.min.js from GoogleAPIs failed to load"
-  src="/uploads/rules/use-a-cdn/5-28.4.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Jquery.min.js from GoogleAPIs failed to load" src="/uploads/rules/use-a-cdn/5-28.4.png" />
 
 ### Which CDNs work well from China?
 
@@ -114,11 +124,4 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 7. [https://www.cloudflare.com/network/china](https://www.cloudflare.com/network/china) (Cloudflare’s China Service)
 8. [https://www.akamai.com](https://www.akamai.com)
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="Jquery.min.js from CDNJS isn't blocked and is very fast"
-  src="/uploads/rules/use-a-cdn/5-28.5.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Jquery.min.js from CDNJS isn't blocked and is very fast" src="/uploads/rules/use-a-cdn/5-28.5.png" />
