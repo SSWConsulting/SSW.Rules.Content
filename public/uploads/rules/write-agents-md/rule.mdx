@@ -1,0 +1,127 @@
+---
+type: rule
+title: Do you write an AGENTS.md?
+uri: write-agents-md
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+sidebarVideo: 'https://www.youtube.com/shorts/_gOJGXhGqT8'
+authors:
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+guid: 320076a9-b7ab-49e4-97d7-b9c3308c352e
+seoDescription: Learn why SSW developers use AGENTS.md to provide context and instructions for AI coding assistants in every project.
+created: 2026-01-28T23:17:11.841Z
+createdBy: Eddie Kranz
+createdByEmail: EddieKranz@ssw.com.au
+lastUpdated: 2026-01-30T06:26:56.340Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+---
+
+AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
+
+`AGENTS.md`is an agreed-upon standard between all the big AI players, replacing things like `.cursorrules` and `copilot_instructions.md`.
+
+<endIntro _hidden="" />
+
+## Why use AGENTS.md?
+
+An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
+
+* **Architecture overview** - Explain the tech stack and how different layers interact
+* **Coding standards** - Define naming conventions, preferred libraries, and patterns
+* **Common commands** - List frequently used scripts for building, testing, and linting
+* **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
+
+By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
+
+## Example: SSW Clean Architecture
+
+A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its `AGENTS.md` file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
+
+<boxEmbed
+  body={<>
+    The `AGENTS.md` in SSW Clean Architecture includes:
+    
+    * **Architecture overview:** - Explaining the WebApi → Application → Domain flow
+    * **Key patterns** - Clear C# examples for Commands, Queries, and Domain Events
+    * **EF migrations** - The exact commands to use for database changes
+  </>}
+  figurePrefix="good"
+  figure="Providing clear, actionable context for AI agents"
+/>
+
+For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
+
+## How to implement it
+
+1. Create the file: Add `AGENTS.md` to the root of your repository.
+2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
+3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
+
+<boxEmbed
+  body={<>
+    **Tip:** If you're not sure where to start, get your agent to generate its own `AGENTS.md` file.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** Include in your `AGENTS.md`, "Ensure you keep `AGENTS.md` up to date if any changes to the codebase necessitates it."
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** Treat `AGENTS.md` as the starting point for your agents.
+    
+    You can reference other relevant files from this, in order to better structure your documentation.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## How will it handle my massive monorepo?
+
+Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
+
+The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```
+    ├── AGENTS.md - 5000 lines of instructions for every package
+    ├── packages
+    │   ├── app1
+    │   └── app2
+    └── ...
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="A single, overloaded AGENTS.md for the entire monorepo"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```plaintext
+    ├── AGENTS.md - High-level architecture overview
+    ├── packages
+    │   ├── app1
+    │   │   └── AGENTS.md - Instructions for app1 only
+    │   ├── app2
+    │   │   └── AGENTS.md - Instructions for app2 only
+    │   └── ...
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
+/>

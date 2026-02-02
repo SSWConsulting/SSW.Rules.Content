@@ -1,26 +1,28 @@
 ---
-authors:
-- title: Calum Simpson
-  url: https://ssw.com.au/people/calum-simpson
-- title: Lewis Toh
-  url: https://ssw.com.au/people/lewis-toh
-created: 2025-06-11 05:48:58+00:00
-createdBy: Calum Simpson [SSW]
-createdByEmail: calumjs@live.com
-guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
-isArchived: false
-lastUpdated: 2025-11-24 04:13:40+00:00
-lastUpdatedBy: Baba Kamyljanov [SSW]
-lastUpdatedByEmail: babakamyljanov@ssw.com.au
-related:
-- rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
-seoDescription: Learn the best workflow for professional AI-assisted development and
-  avoid the pitfalls of "vibe coding".
-title: Do you know the best workflow for AI assisted development?
-categories:
-  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
 type: rule
 uri: ai-assisted-development-workflow
+title: Do you know the best workflow for AI assisted development?
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Calum Simpson
+    url: 'https://ssw.com.au/people/calum-simpson'
+  - title: Lewis Toh
+    url: 'https://ssw.com.au/people/lewis-toh'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/ai-assisted-desktop-pr-preview/rule.mdx
+guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
+seoDescription: Learn the best workflow for professional AI-assisted development and avoid the pitfalls of "vibe coding".
+created: 2025-06-11T05:48:58.000Z
+createdBy: 'Calum Simpson [SSW]'
+createdByEmail: calumjs@live.com
+lastUpdated: 2026-01-30T06:55:19.540Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+isArchived: false
+
 ---
 
 "Vibe coding" is a trend that has taken the software development world by storm recently. It means developing via a coding agent, and never even looking at - let alone editing - the code. It has also become synonymous with low-quality code 👎.
@@ -29,8 +31,7 @@ When writing code as a professional developer, "vibe coding" may make it easy to
 
 <endIntro />
 
-Hence it can be tempting to just "vibe" your way through a few features, but if you do not understand **what it does and why**, you are going to get into trouble if bugs start popping up.
-
+It can be tempting to just "vibe" your way through a few features, but if you do not understand **what it does and why**, you are going to get into trouble if bugs start popping up.
 
 <boxEmbed
   style="info"
@@ -41,12 +42,9 @@ Hence it can be tempting to just "vibe" your way through a few features, but if 
   figure=""
 />
 
-
 There are some best practices to follow when doing AI assisted development to avoid problems down the track without missing out on the efficiency gains of AI tools.
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=-ke-TkGu9Ng" description={"Video - AI Assisted Development for Enterprise | Calum Simpson | SSW Rules (13 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=-ke-TkGu9Ng" description="Video - AI Assisted Development for Enterprise | Calum Simpson | SSW Rules (13 min)" />
 
 ## Workflow: Plan → Discuss → Implement → Review
 
@@ -54,25 +52,27 @@ There are likely millions of ways to implement any given feature in a software p
 
 There will probably be a handful of good solutions to pick from. Picking the right way to solve the problem given the whole context of the surrounding codebase, project architecture, Product Owner requirements, current or upcoming tech changes, etc. is usually what separates the best developers from the rest.
 
-Even an AI that writes perfect code is going to do a bad job if the code it is trying to write does something that makes no sense in the context of the project. And most AI agents (at least for now) have no way of accessing a lot of that contextual information - especially if it is outside the current repository.
+Even an AI that writes perfect code is going to do a bad job if the code it is trying to write does something that makes no sense in the context of the project.
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Bad example - Vibe coding overcooked the solution"
-  src="/uploads/rules/ai-assisted-development-workflow/goofy-ai-car.jpg"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Vibe coding overcooked the solution" src="/uploads/rules/ai-assisted-development-workflow/goofy-ai-car.jpg" />
 
 Therefore the professional AI Assisted Developer should follow a proper workflow with every feature implemented. Instead of just typing: "Implement my feature XXX", hitting enter, and walking off to brew a coffee, here's the recommended workflow:
 
 ### 1. Plan
 
-Before doing anything, plan what you are doing. Give the AI your requirements and as **much related context as possible**. If you are using an AI that can search the web, ask it to go have a look for any relevant documentation, best practices, potential pitfalls, code snippets or repos, etc.
+Before doing anything, plan what you are doing. Give the AI your requirements and as **much related context as possible**. If you are using an AI that can search the web, ask it to go have a look for any relevant documentation, best practices, potential pitfalls, code snippets, repos, etc.
 
-Ask it to produce a markdown file containing a detailed step-by-step plan to implement the feature - including which files will be added or created, and what high-level changes will be made in each, and reference URLs. Ask for each step of the plan to be a small self contained unit of work (or as small as possible) to make implementation easier later.
+**Use Spec-driven development**
+
+Modern AI coding agents like Cursor and Claude Code have dedicated "Plan" modes (aka Spec-driven development) that let the AI analyze and propose a solution without making changes. This gives you a chance to:
+
+* Validate the approach matches your architecture
+* Catch misunderstandings early
+* Steer the AI in the right direction before it writes potentially unusable code
+
+<imageEmbed alt="Select plan mode" size="medium" showBorder={false} figurePrefix="good" figure="Select &#x22;Plan mode&#x22;, then make sure to review the result before building!" src="/uploads/rules/ai-assisted-development-workflow/plan-mode.png" />
+
+If your tool doesn't have a dedicated “Plan mode”, ask it to produce a markdown file containing a detailed step-by-step plan to implement the feature - including which files will be created or edited, what high-level changes will be made in each, and reference URLs. Ask for each step of the plan to be a small self contained unit of work (or as small as possible) to make implementation easier later.
 
 ### 2. Discuss
 
@@ -94,19 +94,16 @@ If you have some unit tests, it probably makes sense to run them every time you 
 
 Once the review step is complete and you are happy with the code, you can commit it to your feature branch, update the step-by-step plan to say which steps are done (manually or via the agent), then optionally return to the Plan phase if things have changed, or to the Implement phase if you are ready to proceed straight to the next step.
 
-- - -
-
+***
 
 <boxEmbed
   style="info"
   body={<>
-    **Tip:** Use [Cursor Rules](https://docs.cursor.com/context/rules) to define this and other behavior without having to repeat it every time.
+    **Tip:** Use [AGENTS.md](/write-agents-md) to define this and other behavior without having to repeat it every time.
   </>}
   figurePrefix="none"
   figure=""
 />
-
-
 
 <boxEmbed
   style="info"

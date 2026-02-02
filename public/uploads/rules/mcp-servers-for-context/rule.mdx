@@ -1,0 +1,83 @@
+---
+type: rule
+title: Do you use MCP servers for context?
+uri: mcp-servers-for-context
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/mcp-server/rule.mdx
+  - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
+guid: 88c66f96-8b4d-45b1-bb2a-794629c28304
+seoDescription: Discover SSW's recommended MCP servers to enhance your AI coding assistants. Learn when to use MCP integrations vs. built-in agent capabilities for optimal development workflows.
+created: 2026-01-29T03:54:26.321Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-01-30T09:34:13.671Z
+lastUpdatedBy: Chloe
+lastUpdatedByEmail: chloelin@ssw.com.au
+---
+
+Here are SSW's recommended MCP servers for enhancing your AI coding assistants with additional context and capabilities.
+
+<endIntro />
+
+## When You Don't Need MCP
+
+Modern AI coding agents are excellent at generating impromptu code and CLI commands on the fly. For many common tasks, you don't need an MCP server because agents already have built-in tools that handle these operations natively:
+
+* **File operations** - Reading, writing, and searching files
+* **Git commands** - Commits, branches, diffs, and history
+* **Shell execution** - Running build commands, tests, and scripts
+* **Web requests** - Fetching documentation or API responses
+
+MCP servers become valuable when you need **persistent, specialized integrations** - such as connecting to databases, searching with specific APIs, or interacting with platforms like GitHub in a structured way.
+
+## Recommended MCP Servers
+
+* [GitHub MCP](https://github.com/github/github-mcp-server) - Allows AI tools to directly connect to GitHub's platform, giving them the ability to read repositories and code files, manage issues and PRs, analyze code, and automate workflows.
+* [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - An integration to the Brave Search API, providing comprehensive search capabilities, including web search, local business search, video search, news search, and AI-powered summarization.
+* [Filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Allows AI models to interact with a local or remote computer's file system, enabling it to read and write files, manage directories, search and organize files and retrieve metadata.
+* [Aspire MCP](https://aspire.dev/dashboard/mcp-server/) - Integrates Aspire into your development AI eco-system, allowing it to query resources, debug with real-time console logs, investigate development time telemetry, and execute resource commands.
+* [Playwright MCP](https://github.com/microsoft/playwright-mcp) - Enables AI tools to interact with web browsers through structured accessibility snapshots, allowing them to navigate pages, interact with elements, fill forms, and execute browser automation without requiring screenshots or vision models.
+* [PostgreSQL MCP](https://github.com/crystaldba/postgres-mcp) - Connects AI tools to PostgreSQL databases, enabling them to explore schemas, run read-only queries, and analyze data directly.
+* [MySQL MCP](https://github.com/benborla/mcp-server-mysql) - Provides AI tools with access to MySQL databases for schema exploration, query execution, and data analysis.
+
+## Configuring MCP Servers
+
+MCP servers are configured via JSON configuration files, with the location of them depending on your chosen client, for example, for Claude Desktop:
+
+Location:
+
+* macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+* Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+    }
+  }
+}
+```
+
+## Further Reading
+
+* [Official MCP Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
+* [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) - Official collection of reference MCP server implementations
+* [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-curated list of MCP servers

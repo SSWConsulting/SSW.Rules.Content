@@ -1,0 +1,142 @@
+name: Check-MDX
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  check-mdx:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Get changed MDX files
+        id: changed_mdx
+        shell: bash
+        run: |
+          set -e
+
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            changed="$(git diff --name-only --diff-filter=ACMRT $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | paste -sd "," -)"
+          else
+            # For manual runs, check all tracked .mdx files
+            changed="$(git ls-files '*.mdx' | paste -sd "," -)"
+          fi
+
+          echo "changed=$changed" >> $GITHUB_ENV
+          echo "Changed MDX: $changed"
+
+      - name: Install deps for MDX checker
+        if: ${{ env.changed != '' }}
+        run: |
+          cd scripts/check-mdx
+          npm install
+
+      - name: Run MDX check (auto-fix)
+        id: mdx_check
+        if: ${{ env.changed != '' }}
+        continue-on-error: true
+        env:
+          MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
+        run: |
+          cd scripts/check-mdx
+          node check-mdx.js --fix '${{ env.changed }}'
+
+      - name: Check MDX report exists
+        id: mdx_report
+        if: ${{ env.changed != '' }}
+        shell: bash
+        run: |
+          if [ -f "${{ runner.temp }}/mdx-check-report.md" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit & push auto-fixes (same-repo PR only)
+        id: autofix
+        if: ${{ env.changed != '' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        run: |
+          set -e
+
+          # If no changes, nothing to commit
+          if git diff --quiet; then
+            echo "did_commit=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "chore: auto-fix MDX issues"
+          git push
+
+          echo "did_commit=true" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Comment on PR (same-repo PR only, only when issues found)
+        if: ${{ env.changed != '' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        uses: actions/github-script@v8
+        env:
+          MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
+          DID_COMMIT: ${{ steps.autofix.outputs.did_commit }}
+          COMMIT_SHA: ${{ steps.autofix.outputs.sha }}
+        with:
+          script: |
+            const fs = require('fs');
+
+            const marker = '<!-- mdx-check -->';
+            const reportPath = process.env.MDX_REPORT_PATH;
+
+            // Report must exist here (guarded by workflow `if`)
+            let body = fs.readFileSync(reportPath, 'utf8');
+
+            if (!body.includes(marker)) body = `${marker}\n` + body;
+
+            // Append commit info if we pushed fixes (non-dev friendly)
+            if (process.env.DID_COMMIT === 'true' && process.env.COMMIT_SHA) {
+              body += `\n\nA commit was pushed to this PR with the fixes: \`${process.env.COMMIT_SHA}\``;
+            }
+
+            const prNumber = context.payload.pull_request.number;
+            const { owner, repo } = context.repo;
+
+            // Update existing bot comment with marker to avoid spam
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner, repo, issue_number: prNumber, per_page: 100
+            });
+
+            const existing = comments.find(c =>
+              c.user && c.user.type === 'Bot' && typeof c.body === 'string' && c.body.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: prNumber, body
+              });
+            }
+
+      - name: Fail job if MDX check failed
+        if: ${{ env.changed != '' && steps.mdx_check.outcome == 'failure' }}
+        run: exit 1
