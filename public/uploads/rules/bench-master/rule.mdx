@@ -27,7 +27,7 @@ seoDescription: Ensure a smooth transition between client projects by designatin
 created: 2023-08-03T13:00:00.000Z
 createdBy: Jeoffrey Fischer
 createdByEmail: JeoffreyFischer@ssw.com.au
-lastUpdated: 2026-02-03T01:10:25.027Z
+lastUpdated: 2026-02-03T01:31:30.128Z
 lastUpdatedBy: Sam Wagner
 lastUpdatedByEmail: SamWagner@ssw.com.au
 archivedreason: null
@@ -42,6 +42,7 @@ In any organization that juggles multiple internal projects, having clear coordi
 * **Transparency** - Business owners and employees work best when they know what's going on. Surprises are rarely a good thing.
 * **Negotiation** - Business owners and employees should feel that their needs are being catered to.
 * **Prioritisation** - Business owners and employees mutually benefit from high-value projects being work
+* **Availability **- To provide support, you have to be available.
 
 ## What does a Bench Master do?
 
@@ -70,26 +71,28 @@ A Bench Master's primary goal is to act as the bridge between the business and t
 ## Recommended Processes
 
 1. Get onto a project - Setup a simple pipeline for developers to follow to get them onto a project. This is typically a company-wide process. But, as your role is to facilitate this, you should take ownership over that process.
-2. Keep the business informed - Hold a weekly meeting with the Business Owner to keep them up to date. Sending a summary email to the business owner and any other stakeholders after the meeting is a great addition to this for later inspection on how things are tracking.
-3. Make your life easy - Set up a dashboard for the Bench Master to be able to see which projects people are on, and for how long they've been on it. (These dashboards can be really useful in the stakeholder meetings.)
+2. Weekly Bench Meeting - Hold a weekly Bench Master meeting with the Business Owner to keep them up to date. Sending a summary email to the business owner and any other stakeholders after the meeting is a great addition to this for later inspection on how things are tracking.
+3. Dashboard - Set up a dashboard for the Bench Master to be able to see which projects people are on, and for how long they've been on it. (These dashboards can be really useful in the Bench meetings.)
+
+Below is a simple email template that you could add to you company's process to kick-start your Bench Mastering journey.
 
 <emailEmbed
-  from="&#123;&#123; THE EMPLOYEE &#125;&#125;"
-  to="&#123;&#123; THE BENCHMASTER &#125;&#125;"
-  cc="&#123;&#123; THE BUSINESS OWNER &#125;&#125;"
+  from="{{ THE EMPLOYEE }}"
+  to="{{ THE BENCHMASTER }}"
+  cc="{{ THE BUSINESS OWNER }}"
   bcc=""
-  subject="&#123;&#123; THE EMPLOYEE &#125;&#125; - Joining a Team"
+  subject="{{ THE EMPLOYEE }} - Joining a Team"
   shouldDisplayBody={true}
   body={<>
     ## Hi Bench Master(s),
     
-    I'm proposing to join &#123;&#123; TEAM NAME &#125;&#125;. I want to join this team because:
+    I'm proposing to join {{ TEAM NAME }}. I want to join this team because:
     
-    *  &#123;&#123; REASON TO JOIN &#125;&#125;
+    *  {{ REASON TO JOIN }}
     
     Please help me to see if this fits in with the business's goals.
     
-    1. Approve my request to join &#123;&#123; TEAM NAME &#125;&#125;.
+    1. Approve my request to join {{ TEAM NAME }}.
   </>}
   figurePrefix="good"
   figure="Simple email template you can get your employees to use when joining/moving to a team"
@@ -101,8 +104,5 @@ As you can imagine there is a lot of information that would be required for a Be
 
 * **Employees and their skills** - Your CRM system likely has this information already.
   * see [https://www.ssw.com.au/rules/search-employee-skills/](/search-employee-skills/)
-* **Employee's client bookings** - You can get this information from your staffing report.
+* Projects - It's important to know all the company's projects, and their priorities as well as skills needed to work on them. If it's a big project, knowing which part is being actively worked on would be helpful.
   * see [https://www.ssw.com.au/rules/know-where-your-staff-are/](/know-where-your-staff-are/)
-* **Internal projects** - It's important to know their priorities as well as tech stacks, if it's a big project, knowing the actively developed portions tech stack would be helpful
-  * see [https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company](/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)
-* **Developer bench bookings** - Your staffing should be able to tell you which developers are working on which internal projects
