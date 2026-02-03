@@ -31,7 +31,9 @@ jobs:
           # Check if our reminder comment already exists
           $reminderExists = $false
           foreach ($comment in $commentsJson.comments) {
-            if ($comment.author.login -eq "github-actions[bot]" -and $comment.body -match "This PR is currently in Draft mode") {
+            # Check for both 'github-actions' and 'github-actions[bot]' to handle API variations
+            $isBot = $comment.author.login -eq "github-actions" -or $comment.author.login -eq "github-actions[bot]"
+            if ($isBot -and $comment.body -match "This PR is currently in Draft mode") {
               $reminderExists = $true
               Write-Output "Reminder comment already exists"
               break
