@@ -12,7 +12,7 @@ related:
 - rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
 seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting access
   to `ObjectContext` and scaffolding the DB.
-title: Do you know how to migrate from EDMX to EF Core
+title: Do you know how to migrate from EDMX to EF Core?
 categories:
   - category: categories/software-engineering/rules-to-better-entity-framework.mdx
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
@@ -20,17 +20,17 @@ type: rule
 uri: migrate-from-edmx-to-ef-core
 ---
 
-Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
+Some older .NET Framework projects will have EDMX instead of the modern `DbContext` introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518) back in 2012. EDMX projects typically use `ObjectContext` (or an EDMX-generated context that wraps it) for a Database-First approach.
 
 In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectContext is the base class that is used by the generated class, which will generally end with Entities (e.g. DataEntities).
 
-The rule is focusing on .NET 8+ as the support for .NET Framework projects and Nuget was added back, which makes a staged migration a lot more feasible. Most, if not all, are still applicable for .NET 7 as well.
+This rule is written with modern .NET in mind (today that typically means the current LTS, e.g. .NET 10). The steps are still applicable if you’re targeting earlier versions of .NET. The key point is: EDMX is not supported by EF Core, so moving to modern .NET generally requires replacing EDMX-based data access.
 
 <endIntro />
 
 ## Strategies
 
-There are a few strategies regarding the migration from a full rewrite with to a more in-place migration. Depending on the scale and complexity of the project. This rule will describe an approach that balances the code we need to rewrite and modernisation.
+There are a few migration strategies, ranging from a full rewrite to a more in-place / staged migration (depending on the scale and complexity of the project). This rule describes an approach that balances how much code you rewrite with the benefits of modernisation.
 
 The focus is to minimise the amount of time no deployments are made due to migration.
 
@@ -38,8 +38,8 @@ The strategy in this rules will include:
 
 1. Abstract existing `ObjectContext/Entities` class with a custom `IDbContext` interface (e.g. `ITenantDbContext`)
 2. Scaffold DB
-   1. [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
-      1. If the tool fails, use When to use EF Core 3.1 or EF Core 8+ CLI for scaffolding. EF Core 3.1 can better deal with older DB schemes than EF Core 8+
+  1. [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+    1. If the tool fails, use the `dotnet ef dbcontext scaffold` CLI as a fallback (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8).
 3. Implement interface from step 1 and refactor entities
    1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
    2. Replace `ObjectSet<T>` with `DbSet<T>`
@@ -47,29 +47,101 @@ The strategy in this rules will include:
       1. Nullables might be treated differently
       2. Some properties will be a different type and you'll need to fix the mapping
       3. Lazy loading can be an issue. Fix it with eager loading.
-      4. When upgrading to EF Core 3.1, group by and some other features are not supported
-         1. Use `.AsEnumerable()`, use raw SQL or change how the query works
+      4. Query translation and runtime behavior changes (compared to EF6/EDMX) can surface as runtime exceptions or performance regressions
+        1. Use `.AsEnumerable()` deliberately (and measure), use raw SQL, or change how the query works
          2. Add a **TechDebt** comment and PBI - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
 4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
-   1. Remove `System.Data.Entity` namespace in all files using EF Core 3.1 (otherwise, you'll get odd Linq exceptions)
-   2. Add `Microsoft.EntityFrameworkCore` namespace
+  1. Remove EF6 namespaces like `System.Data.Entity` from files that are now using EF Core (otherwise you can get confusing type clashes and LINQ/runtime issues)
+  2. Add `Microsoft.EntityFrameworkCore` namespace
 5. Update dependency injection
    1. Use modern `.AddDbContext()` or `.AddDbContextPool()`
 6. Update migration strategy (from DB-first to Code-first)
-   1. Use EF Core CLI instead of DbUp
+  1. Adopt EF Core Migrations (`dotnet ef migrations add` / `dotnet ef database update`) or your preferred migration approach; DbUp can still be useful, but it’s no longer “the default” once you’re Code-First
 7. Remove EDMX completely (can be done sooner if migration is done in 1 go rather than in steps)
-8. Optional: Upgrade to .NET 8+ (if on .NET Framework or .NET Core 3.1)
-9. Optional: Upgrade to EF Core 8+ (if EF Core 3.1 path was necessary)
+8. Optional: Upgrade to the current LTS .NET (e.g. .NET 10) if you’re on .NET Framework or older .NET
+9. Optional: Upgrade to the current LTS EF Core (e.g. EF Core 10) if you started on an older EF Core version
 10. Test, test, test...
-    1. Going from EDMX to EF Core 3.1 or later is a significant modernization with many under-the-hood changes
+    1. Going from EDMX/EF6 to EF Core is a significant modernization with many under-the-hood changes
     2. Common issues are:
        1. Lazy loading
-       2. Group by (if in EF Core 3.1)
+       2. Query translation differences (e.g. server-side vs client-side evaluation)
        3. Unsupported queries (code that was secretly running on .NET side instead of SQL Server)
        4. Performance issues because of highly complicated queries
        5. Incorrect results from EF Core query
 
-Steps 6 and 7 are required when upgrading from .NET Framework to .NET 8 and the solution is too complex to do the migration in one go. For simple projects, if EDMX is the only major blocking issue, they should go straight to .NET 8 and EF Core 8.
+### Optional: Namespace cleanup (EF6 → EF Core)
+
+When you start moving files over, make sure you’re not mixing EF6 and EF Core namespaces.
+
+```csharp
+// Remove EF6 namespaces from EF Core files
+// using System.Data.Entity;
+// using System.Data.Entity.Core.Objects;
+
+// Use EF Core namespaces
+using Microsoft.EntityFrameworkCore;
+```
+
+### Optional: Replace lazy loading with eager loading
+
+EF Core doesn’t do lazy-loading by default (it requires explicit setup). If you were relying on EF6 lazy loading, switch to explicit eager loading.
+
+```csharp
+// Example: load an Order with related entities up-front
+var order = await db.Orders
+  .Include(o => o.Customer)
+  .Include(o => o.Lines)
+    .ThenInclude(l => l.Product)
+  .SingleAsync(o => o.Id == orderId, ct);
+```
+
+### Optional: Query translation workaround (use client-side only where intentional)
+
+If EF Core can’t translate part of a query to SQL (often revealed as a runtime exception), keep as much filtering as possible on the server, then materialize and finish the rest in memory.
+
+```csharp
+// Server-side filtering first (fast)
+var rows = await db.Invoices
+  .Where(i => i.CreatedUtc >= from && i.CreatedUtc < to)
+  .Select(i => new { i.CustomerId, i.Total })
+  .ToListAsync(ct);
+
+// Client-side aggregation after materialization (intentional)
+var totalsByCustomer = rows
+  .GroupBy(x => x.CustomerId)
+  .ToDictionary(g => g.Key, g => g.Sum(x => x.Total));
+```
+
+If you do use `.AsEnumerable()`, ensure it happens **after** you’ve narrowed down the data set:
+
+```csharp
+var result = db.Orders
+  .Where(o => o.Status == OrderStatus.Open)
+  .Select(o => new { o.Id, o.Lines })
+  .AsEnumerable() // switches to client-side from here
+  .Select(x => new { x.Id, LineCount = x.Lines.Count })
+  .ToList();
+```
+
+### Optional: EF Core migrations (Code-First)
+
+Once you are Code-First, these are the common CLI commands:
+
+```powershell
+# Create a migration
+dotnet ef migrations add InitialCreate --context MyDbContext
+
+# Apply migrations to the database
+dotnet ef database update --context MyDbContext
+
+# If you’re starting from an existing database and want a "baseline" migration
+dotnet ef migrations add Baseline --context MyDbContext --ignore-changes
+
+# Generate an idempotent SQL script (useful for deployments)
+dotnet ef migrations script --context MyDbContext --idempotent --output migrations.sql
+```
+
+Steps 6 and 7 become unavoidable when you move to modern .NET and EF Core, and the solution is too complex to migrate in one go. For simpler projects, if EDMX is the only major blocking issue, go straight to the current LTS (.NET 10 + EF Core 10) or at least .NET 8 + EF Core 8.
 
 
 <boxEmbed
@@ -86,7 +158,7 @@ In this rule, we'll only cover abstracting access to `ObjectContext` with a cust
 
 ## 1. Abstracting access to ObjectContext/Entities
 
-Before starting, it’s important to note that ObjectContext and EDMX are no longer supported and we need to do a full rewrite of the data layer. You can wrap ObjectContext with an interface that looks like modern DbContext, as most commonly used methods are identical.
+Before starting, it’s important to note that EDMX isn't supported by EF Core, and `ObjectContext` is EF6-era API surface. If your goal is modern .NET + EF Core, you’ll ultimately need to replace EDMX-based data access. You can still wrap `ObjectContext` behind an interface to stage the migration, as many commonly used operations can still map cleanly to a `DbContext`-like API.
 
 The wrapper below not only allows us to use ObjectContext in a cleaner way (see [Rules to Better Clean Architecture](/rules-to-better-clean-architecture/)) but also allows us to better manage the differences between ObjectContext and DbContext without needing to refactor the business logic.
 
@@ -122,6 +194,45 @@ internal class TenantDbContext : ITenantDbContext
 ```
 **✅ Figure: Abstracting ObjectEntities behind an interface and using an interface to reduce the amount of issues while migrating.**  
 
+### Optional: Keep the idea, switch to an EF Core interface
+
+To avoid confusion, don’t reuse the exact same interface name for both EF6 (`ObjectSet<T>`) and EF Core (`DbSet<T>`). Treat the EF Core interface as the “next stage” of the migration.
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+
+public interface ITenantDbContextEfCore
+{
+  DbSet<Client> Clients { get; }
+
+  int SaveChanges();
+  Task<int> SaveChangesAsync(CancellationToken ct = default);
+}
+
+internal sealed class TenantDbContextEfCoreAdapter : ITenantDbContextEfCore
+{
+  private readonly MyDbContext _db;
+
+  public TenantDbContextEfCoreAdapter(MyDbContext db)
+  {
+    _db = db;
+  }
+
+  public DbSet<Client> Clients => _db.Clients;
+
+  public int SaveChanges() => _db.SaveChanges();
+  public Task<int> SaveChangesAsync(CancellationToken ct = default) => _db.SaveChangesAsync(ct);
+}
+```
+
+Then register the interface adapter (after you’ve registered `MyDbContext`):
+
+```csharp
+// Program.cs
+
+builder.Services.AddScoped<ITenantDbContextEfCore, TenantDbContextEfCoreAdapter>();
+```
+
 
 <boxEmbed
   style="greybox"
@@ -136,6 +247,66 @@ internal class TenantDbContext : ITenantDbContext
 ## 2. Scaffolding the DB
 
 Now that we abstracted access to the data, it's time to scaffold the DB. The easiest way to do this is by using [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools).
+
+### Scaffold using the EF Core CLI
+
+If you can’t use the UI tool (or you want something repeatable for CI), you can reverse-engineer your database using the EF Core CLI.
+
+1. Install/update the EF Core CLI tooling (once per dev machine)
+
+```powershell
+dotnet tool update --global dotnet-ef
+```
+
+2. Add the EF Core packages (project file)
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.*">
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+
+  <!-- Provider: choose the one you need (example: SQL Server) -->
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.*" />
+</ItemGroup>
+```
+
+3. Scaffold the context + entities
+
+```powershell
+dotnet ef dbcontext scaffold `
+  "Server=.;Database=MyDb;Trusted_Connection=True;TrustServerCertificate=True" `
+  Microsoft.EntityFrameworkCore.SqlServer `
+  --context MyDbContext `
+  --output-dir Persistence/EntityTypes `
+  --context-dir Persistence `
+  --data-annotations `
+  --use-database-names `
+  --no-onconfiguring `
+  --force
+```
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    NOTE: Prefer <code>--no-onconfiguring</code> so the generated <code>DbContext</code> does not hard-code a connection string.
+    Configure the connection string via configuration (e.g. appsettings, user secrets, Key Vault) and DI instead.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    NOTE: Reverse-engineering is great for tables/views, but EDMX often contains extras (e.g. stored procedure/function imports,
+    complex mappings, or custom partial classes). Expect some manual work to recreate those patterns in EF Core.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Using EF Core Power Tools (UI)
 
 1. Right click on the project | **EF Core power Tools** | **Reverse Engineer**
 
@@ -207,6 +378,24 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 6. A `DbContext` class will be auto-generated by EF Core Power Tools
 
+### Optional: Wire up dependency injection (EF Core)
+
+Once you have a generated `DbContext`, register it with DI (and keep the connection string out of source control).
+
+```csharp
+// Program.cs
+
+builder.Services.AddDbContext<MyDbContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("MyDb")));
+```
+
+If performance is a concern and your `DbContext` is short-lived per request, consider pooling:
+
+```csharp
+builder.Services.AddDbContextPool<MyDbContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("MyDb")));
+```
+
 
 <imageEmbed
   alt="Image"
@@ -220,20 +409,23 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 # Resources
 
-* How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
-* Official porting docs to EF Core 3.1 - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
+* EDMX porting walkthrough video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
+* Official porting docs (EDMX/EF6 → EF Core) - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
+* Scaffolding / reverse engineering (current) - [https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/](https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/)
+* EF Core tools reference (`dotnet ef`) - [https://learn.microsoft.com/en-us/ef/core/cli/dotnet](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)
+* Migrations overview (current) - [https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/)
+* Detailed EF6 vs EF Core differences - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-detailed-cases](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-detailed-cases)
 
 # Alternative
 
-EF Core 3.1 EDMX - [Walk-through: Using an Entity Framework 6 EDMX file with .NET Core | ErikEJ's blog](https://erikej.github.io/ef/dotnetcore/2020/06/15/ef6-use-edmx-dotnetcore.html)
+Legacy workaround (EF6 + EDMX with older .NET Core) - [Walk-through: Using an Entity Framework 6 EDMX file with .NET Core | ErikEJ's blog](https://erikej.github.io/ef/dotnetcore/2020/06/15/ef6-use-edmx-dotnetcore.html)
 
-While the above blog is supposedly working in EF Core 3.1, there is no information on whether that is true for .NET 8. It would still require a lot of migrations.
+The above approach is legacy and should be treated as a short-term workaround at best. It keeps you on EF6/EDMX (not EF Core), and is unlikely to be a good long-term fit for modern .NET. It would still require significant migration work.
 
 Limitations:
 
 * EDMX is not supported in .NET Standard or .NET or any other SDK-style projects (required for .NET migrations)
 * Requires a dedicated .NET Framework project that is not yet upgraded to an SDK-style project to generate and update EDMX, models and ObjectContext
-* EF6 and EDMX are out of support
-* Built for EF Core 3.1 which is out of support
-* Unknown if it works on .NET 8 even with legacy .NET Framework support
+* It keeps you on EF6/EDMX (not EF Core), which blocks many modernisation paths
+* Built around older .NET Core-era constraints; not a recommended path for modern .NET (8/10+)
 * ObjectContext (the core of EDMX) was slowly phasing out, being replaced by DbContext in 2012
