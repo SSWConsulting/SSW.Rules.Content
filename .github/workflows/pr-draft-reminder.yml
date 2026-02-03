@@ -29,7 +29,7 @@ jobs:
           Write-Output "Checking PR #$prNumber for existing reminder comment..."
           
           # Get all comments on the PR
-          $comments = gh pr view $prNumber --json comments --jq '.comments[] | select(.author.login == "github-actions") | .body'
+          $comments = gh pr view $prNumber --json comments --jq '.comments[] | select(.author.login == "github-actions[bot]") | .body'
           
           # Check if our reminder comment already exists
           $reminderExists = $false
