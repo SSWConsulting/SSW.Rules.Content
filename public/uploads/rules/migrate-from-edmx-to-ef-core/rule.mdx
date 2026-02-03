@@ -366,9 +366,9 @@ dotnet ef dbcontext scaffold `
 
 # Alternative
 
-Legacy workaround (EF6 + EDMX with older .NET Core) - [Walk-through: Using an Entity Framework 6 EDMX file with .NET Core | ErikEJ's blog](https://erikej.github.io/ef/dotnetcore/2020/06/15/ef6-use-edmx-dotnetcore.html)
+Community workaround (EF6 + EDMX on older .NET Core) - [Walk-through: Using an Entity Framework 6 EDMX file with .NET Core | ErikEJ's blog](https://erikej.github.io/ef/dotnetcore/2020/06/15/ef6-use-edmx-dotnetcore.html)
 
-The above approach is legacy and should be treated as a short-term workaround at best. It keeps you on EF6/EDMX (not EF Core), and is unlikely to be a good long-term fit for modern .NET. It would still require significant migration work.
+This post is a helpful reference if you need a temporary “bridge” to run existing EDMX-based code on .NET Core-era projects. That said, it keeps you on EF6/EDMX (not EF Core), so it’s generally not the direction you want for modern .NET long-term. Expect additional work to fully migrate to EF Core.
 
 Limitations:
 
