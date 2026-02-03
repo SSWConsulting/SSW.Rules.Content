@@ -1,0 +1,77 @@
+# Contributors: @copilot
+# Automatically adds a reminder comment to draft PRs to help reduce draft PRs without descriptions or reviewers
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
+
+name: "PR - Draft PR Reminder"
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  draft_reminder:
+    if: github.event.pull_request.draft == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Check if reminder comment already exists
+        id: check_comment
+        shell: pwsh
+        run: |
+          $prNumber = ${{ github.event.pull_request.number }}
+          Write-Output "Checking PR #$prNumber for existing reminder comment..."
+          
+          # Get all comments on the PR
+          $comments = gh pr view $prNumber --json comments --jq '.comments[] | select(.author.login == "github-actions") | .body'
+          
+          # Check if our reminder comment already exists
+          $reminderExists = $false
+          foreach ($comment in $comments) {
+            if ($comment -match "This PR is currently in Draft mode") {
+              $reminderExists = $true
+              Write-Output "Reminder comment already exists"
+              break
+            }
+          }
+          
+          if ($reminderExists) {
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+          } else {
+            echo "skip=false" >> $env:GITHUB_OUTPUT
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add draft PR reminder comment
+        if: steps.check_comment.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+          $prNumber = ${{ github.event.pull_request.number }}
+          $author = "${{ github.event.pull_request.user.login }}"
+          
+          Write-Output "Adding reminder comment to PR #$prNumber"
+          
+          $comment = @"
+          👋 Hi @$author,
+
+          This PR is currently in **Draft mode**. To help it get reviewed and merged:
+
+          1. ✍️ **Add a description** - Explain what changes you've made and why
+          2. ✅ **Mark as ready for review** - Click "Ready for review" when you're done
+          3. 👥 **Add reviewers** - Assign people to review your changes
+
+          Once you've completed these steps, your PR will be ready for approval!
+
+          _This is an automated reminder to help reduce draft PRs without descriptions or reviewers._
+          "@
+          
+          Set-Content -Path "comment.md" -Value $comment
+          gh pr comment $prNumber --body-file comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
