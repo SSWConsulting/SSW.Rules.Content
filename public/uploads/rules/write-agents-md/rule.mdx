@@ -13,9 +13,9 @@ seoDescription: Learn why SSW developers use AGENTS.md to provide context and in
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-01-30T06:26:56.340Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-03T23:52:12.797Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
 
 AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
@@ -35,7 +35,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
-## Example: SSW Clean Architecture
+## Creating an AGENTS.md
 
 A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its `AGENTS.md` file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
 
@@ -88,7 +88,16 @@ For more details, you can view the [full AGENTS.md file on GitHub](https://githu
   style="tips"
 />
 
-## How will it handle my massive monorepo?
+<boxEmbed
+  body={<>
+    Tip: If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Even better: multiple AGENTS.md
 
 Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
 
@@ -125,3 +134,8 @@ The "root" `AGENTS.md` file in this case should contain only high-level instruct
   figurePrefix="good"
   figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
 />
+
+## Further Reading
+
+* [https://www.builder.io/blog/agents-md](https://www.builder.io/blog/agents-md)
+* [https://www.agents.md/](https://www.agents.md/) 
