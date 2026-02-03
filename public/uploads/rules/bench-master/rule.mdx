@@ -27,7 +27,7 @@ seoDescription: Ensure a smooth transition between client projects by designatin
 created: 2023-08-03T13:00:00.000Z
 createdBy: Jeoffrey Fischer
 createdByEmail: JeoffreyFischer@ssw.com.au
-lastUpdated: 2026-02-03T00:39:49.774Z
+lastUpdated: 2026-02-03T01:10:25.027Z
 lastUpdatedBy: Sam Wagner
 lastUpdatedByEmail: SamWagner@ssw.com.au
 archivedreason: null
@@ -39,9 +39,9 @@ In any organization that juggles multiple internal projects, having clear coordi
 
 ## Bench Master principles
 
-* **Transparency**: Business owners and employees work best when they know what's going on. Surprises are rarely a good thing.
-* **Negotiation**: Business owners and employees should feel that their needs are being catered to.
-* **Prioritisation**: Business owners and employees mutually benefit from high-value projects being work
+* **Transparency** - Business owners and employees work best when they know what's going on. Surprises are rarely a good thing.
+* **Negotiation** - Business owners and employees should feel that their needs are being catered to.
+* **Prioritisation** - Business owners and employees mutually benefit from high-value projects being work
 
 ## What does a Bench Master do?
 
@@ -49,13 +49,13 @@ A Bench Master's primary goal is to act as the bridge between the business and t
 
 ### From the Business's Perspective
 
-* **Alignment**: Teams resourcing should be aligned with the business owner's priorities. Highest priority projects should get the most resourcing.
-* **Company Knowledge**: Employee's learning and professional development should align well with the company's business goals.
+* **Alignment** - Teams resourcing should be aligned with the business owner's priorities. Highest priority projects should get the most resourcing.
+* **Company Knowledge** - Employee's learning and professional development should align well with the company's business goals.
 
 ### From the Employee's Perspective
 
-* **Professional Development**: Team members should be working on projects that are in their field of interest and align well with their professional goals.
-* **Location**: Team members should work with the people in their office where possible to form strong social connections and cultivate a strong sense of camaraderie.
+* **Professional Development** - Team members should be working on projects that are in their field of interest and align well with their professional goals.
+* **Location** - Team members should work with the people in their office where possible to form strong social connections and cultivate a strong sense of camaraderie.
 * **Movement**: Team members should always feel comfortable asking to move off a project and move to another for whatever reason.
 
 <boxEmbed
@@ -67,40 +67,42 @@ A Bench Master's primary goal is to act as the bridge between the business and t
   style="tips"
 />
 
-1. Responsibility - This role is a Bench Masters number 1 responsibility
-2. Responsibility - Maintaining a list of internal projects in priority order
-3. Responsibility - Allocating new employees or employees finished on a project to a Scrum team. The Bench Master helps the employees to join the team that best fits them based on things like what they want to learn, the people in their office, etc.
-4. Process - Weekly [Priority Alignment](/internal-priority-alignment/) meeting with stakeholders
+## Recommended Processes
 
-<boxEmbed
+1. Get onto a project - Setup a simple pipeline for developers to follow to get them onto a project. This is typically a company-wide process. But, as your role is to facilitate this, you should take ownership over that process.
+2. Keep the business informed - Hold a weekly meeting with the Business Owner to keep them up to date. Sending a summary email to the business owner and any other stakeholders after the meeting is a great addition to this for later inspection on how things are tracking.
+3. Make your life easy - Set up a dashboard for the Bench Master to be able to see which projects people are on, and for how long they've been on it. (These dashboards can be really useful in the stakeholder meetings.)
+
+<emailEmbed
+  from="{{ THE EMPLOYEE }}"
+  to="{{ THE BENCHMASTER }}"
+  cc="{{ THE BUSINESS OWNER }}"
+  bcc=""
+  subject="{{ THE EMPLOYEE }} - Joining a Team"
+  shouldDisplayBody={true}
   body={<>
-    Starting on a new project is costly, try not move developers too frequently i.e. devs should try stay at least 10 Sprints in a Team
+    ## Hi Bench Master(s),
+    
+    I'm proposing to join {{ TEAM NAME }}. I want to join this team because:
+    
+    *  {{ REASON TO JOIN }}
+    
+    Please help me to see if this fits in with the business's goals.
+    
+    1. Approve my request to join {{ TEAM NAME }}.
   </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
+  figurePrefix="good"
+  figure="Simple email template you can get your employees to use when joining/moving to a team"
 />
 
-Some other terms that are commonly used for this type of role are:
-
-* Bench Coordinator
-* Resource Coordinator
-* Operations Manager
-* Allocation Manager
-* Capacity Manager
-* Scheduling Manager
-* Manager
-
-## Useful tools
+## Useful Information
 
 As you can imagine there is a lot of information that would be required for a Bench Master to be effective. The following would be useful for a Bench Master to have:
 
-* **Developers and their skills** - Your CRM likely has this information already
+* **Employees and their skills** - Your CRM system likely has this information already.
   * see [https://www.ssw.com.au/rules/search-employee-skills/](/search-employee-skills/)
-* **Developer client bookings** - You can get this information from your staffing report,
+* **Employee's client bookings** - You can get this information from your staffing report.
   * see [https://www.ssw.com.au/rules/know-where-your-staff-are/](/know-where-your-staff-are/)
 * **Internal projects** - It's important to know their priorities as well as tech stacks, if it's a big project, knowing the actively developed portions tech stack would be helpful
   * see [https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company](/report-bugs-and-suggestions/#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)
 * **Developer bench bookings** - Your staffing should be able to tell you which developers are working on which internal projects
-
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Developers can add Keen to Learn skills in CRM | Users | {{ User }} | Skills to inform the Bench Master" src="/uploads/rules/bench-master/keen-to-learn-skills.png" />
