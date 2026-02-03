@@ -26,7 +26,30 @@ You generate a great AI image for marketing, then the next one looks like a dist
 
 <endIntro _hidden="" />
 
-<imageEmbed alt="Three side-by-side illustrations of a yak character writing at a desk, each rendered in a different visual style." size="large" showBorder={false} figurePrefix="bad" figure="The same text prompt can produce varied results across different image generation models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Multiple-Base-Images.jpg" />
+<boxEmbed
+  body={<>
+    Prompt: “Generate a 3d stylized, cartoon-like yak covering his eyes with his hooves. The yak has small curved horns, shaggy light-brown hair on its head, large expressive eyes, and a friendly, slightly smiling expression. It is wearing a short-sleeved red shirt. The background is plain white, giving the image a clean, studio-like appearance. Make the yak {{ ACTION }}.”
+    
+    Image model used (left-to-right): Google Whisk, Open AI GPT Image, Google Nano Banana.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+<imageEmbed alt="Three side-by-side illustrations of a yak character writing at a desk, each rendered in a different visual style." size="large" showBorder={false} figurePrefix="bad" figure="The same text prompt can produce varied results across different image generation models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Inconsistent.jpg" />
+
+<boxEmbed
+  body={<>
+    Attached file: YakShaver-Jack-the-Yak-Character-Sheet-V1.png
+    
+    Prompt: “Use the provided character sheet as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak {{ ACTION }}.”
+    
+    Image model used (left-to-right): Open AI GPT Image, Google Whisk, Google Nano Banana.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
 
 <imageEmbed alt="Three side-by-side images of the same 3D yak character wearing a red shirt, shown in different poses." size="large" showBorder={false} figurePrefix="good" figure="With some care, you can ensure character consistency across different scenarios and models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Consistent-v3.jpg" />
 
