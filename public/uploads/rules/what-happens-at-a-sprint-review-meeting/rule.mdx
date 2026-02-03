@@ -32,7 +32,7 @@ seoDescription: 'Understand what happens in a Sprint Review meeting, including h
 created: 2024-10-09T00:02:42.000Z
 createdBy: 'Tiago Araújo [SSW]'
 createdByEmail: tiagov8@gmail.com
-lastUpdated: 2026-02-03T03:36:58.687Z
+lastUpdated: 2026-02-03T04:00:34.455Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
@@ -61,13 +61,13 @@ There are a few main steps to the process. Some of them are optional, but they a
 3. Draft the [Sprint Planning Email](/sprint-forecast-email)
 4. Host the Sprint Review meeting with the Team and the Product Owner (Should be around 1 hour, but for some teams it might take longer)
 5. Record the meeting to capture the discussion and gather AI-generated insights
-6. *Stop recording*
+6. Stop recording
 7. *Ask Claude or Copilot to analyse the recording (Optional, but recommended)*
 8. While waiting, host a Retrospective and include the result in the email above
 9. *Include the AI-generated insights into the email above (Optional,  but recommended)*
 10. Host a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting)
 11. Call relevant Stakeholders in. Host and record a Sprint Summary meeting with the Team and Product Owner (aim to spend 15 minutes or less)
-12. Post the Sprint Summary recording on an internal or public video hosting service (e.g. Tina)
+12. Post the Sprint Summary recording on an internal or public video hosting service
 13. Send out the email with the results of the Sprint Review to the Stakeholders
 14. Send out the Sprint Planning email
 
@@ -75,25 +75,11 @@ There are a few main steps to the process. Some of them are optional, but they a
   body={<>
     If it makes sense to share the video with the general public - upload it to the YouTube channel of your project/organisation. e.g. We have a playlist of our Sprint Summaries for our Open Source [TinaCMS](https://www.youtube.com/playlist?list=PLPar4H9PHKVrahKk4PzKtcEstFDDMlxzr).
     
-    <imageEmbed
-      alt="Image"
-      size="medium"
-      showBorder={false}
-      figurePrefix="good"
-      figure="YouTube playlist of our Open Source TinaCMS Sprint Summaries"
-      src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-youtube-playlist.png"
-    />
+    <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="YouTube playlist of our Open Source TinaCMS Sprint Summaries" src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-youtube-playlist.png" />
     
     Alternatively, you can post your video to an internal site. e.g. By posting to SharePoint or Microsoft Stream
     
-    <imageEmbed
-      alt="Image"
-      size="medium"
-      showBorder={false}
-      figurePrefix="good"
-      figure="Internal Sprint Summaries stored on SharePoint"
-      src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-internal.png"
-    />
+    <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Internal Sprint Summaries stored on SharePoint" src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-internal.png" />
   </>}
   figurePrefix="none"
   figure=""
@@ -164,6 +150,8 @@ The purpose of the meeting is to quickly summarise everything discussed in the r
 
 This provides an opportunity for those who could not make the entire meeting or missed important context to get up to speed. It is also a great connection point for the wider range of stakeholders.
 
+[What happens at Sprint Summary meetings?](/summary-recording-sprint-reviews)
+
 ## Sprint Planning
 
 Having finished the Sprint Review, Retrospective and Summary, you are now ready to plan out the next Sprint.
@@ -174,7 +162,7 @@ Having finished the Sprint Review, Retrospective and Summary, you are now ready 
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
-* **Note:** Stakeholders often have a lot on their plate. Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"&#123;&#123; TEAM NAME &#125;&#125; Sprint Review Stakeholders"**)
+* **Note:** Stakeholders often have a lot on their plate. Make their life easier by renaming the group chat so it's clear which project's review is about to start (e.g. **"{{ TEAM NAME }} Sprint Review Stakeholders"**)
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 <boxEmbed
@@ -182,24 +170,24 @@ If there are additional stakeholders, make sure they get called in for the summa
   body={<>
     **When you ping stakeholders, include a message like this**:
     
-    Hey &#123;&#123; PROJECT NAME &#125;&#125; Stakeholders:
+    Hey {{ PROJECT NAME }} Stakeholders:
     
     I'm recording the Sprint Review and Sprint Planning so I can get the Copilot stats.
     I'll stop the recording to do the Retro to give the recording time to save.
     
-    I'll call you and the stakeholders in &#123;&#123; XX &#125;&#125; mins, &#123;&#123; PRESENTER NAME &#125;&#125; will run the Sprint Summary.
+    I'll call you and the stakeholders in {{ XX }} mins, {{ PRESENTER NAME }} will run the Sprint Summary.
     
     The stakeholders are:
     
-    &#123;&#123; STAKEHOLDER NAME &#125;&#125;,
+    {{ STAKEHOLDER NAME }},
     
-    &#123;&#123; STAKEHOLDER NAME &#125;&#125;,
+    {{ STAKEHOLDER NAME }},
     
-    &#123;&#123; STAKEHOLDER NAME &#125;&#125;
+    {{ STAKEHOLDER NAME }}
     
     Let me know if you want anyone else added.
     
-    &#123;&#123; SCREENSHOT OF CURRENT ATTENDEE &#125;&#125;
+    {{ SCREENSHOT OF CURRENT ATTENDEE }}
   </>}
   figurePrefix="none"
   figure=""
@@ -224,18 +212,18 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 <emailEmbed
   from=""
-  to="&#123;&#123; YOUR SCRUM MASTER &#125;&#125;"
-  cc="&#123;&#123; YOUR TEAM &#125;&#125;"
+  to="{{ YOUR SCRUM MASTER }}"
+  cc="{{ YOUR TEAM }}"
   bcc=""
-  subject="&#123;&#123; YOUR NAME &#125;&#125; - Sprint Review &#123;&#123; SPRINT REVIEW NUMBER &#125;&#125; Summary"
+  subject="{{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary"
   shouldDisplayBody={true}
   body={<>
     ## Hi Team
     
-    I won't be able to make the Sprint Review because &#123;&#123; REASON &#125;&#125;. Here's an update on my PBIs:
+    I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
     
-    * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Done - Done Video in the PBI ready to show the client.
-    * PBI &#123;&#123; PBI NUMBER &#125;&#125; - Blocked - Waiting on &#123;&#123; BLOCKER &#125;&#125;. Details in the PBI.
+    * PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
+    * PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
     ...
   </>}
   figurePrefix="none"
