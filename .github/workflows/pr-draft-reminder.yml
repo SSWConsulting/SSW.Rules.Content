@@ -18,9 +18,6 @@ jobs:
     if: github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-
       - name: Check if reminder comment already exists
         id: check_comment
         shell: pwsh
