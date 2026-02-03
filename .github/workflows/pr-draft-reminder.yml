@@ -28,13 +28,13 @@ jobs:
           $prNumber = ${{ github.event.pull_request.number }}
           Write-Output "Checking PR #$prNumber for existing reminder comment..."
           
-          # Get all comments on the PR
-          $comments = gh pr view $prNumber --json comments --jq '.comments[] | select(.author.login == "github-actions[bot]") | .body'
+          # Get all comments on the PR and check if reminder exists
+          $commentsJson = gh pr view $prNumber --json comments | ConvertFrom-Json
           
           # Check if our reminder comment already exists
           $reminderExists = $false
-          foreach ($comment in $comments) {
-            if ($comment -match "This PR is currently in Draft mode") {
+          foreach ($comment in $commentsJson.comments) {
+            if ($comment.author.login -eq "github-actions[bot]" -and $comment.body -match "This PR is currently in Draft mode") {
               $reminderExists = $true
               Write-Output "Reminder comment already exists"
               break
