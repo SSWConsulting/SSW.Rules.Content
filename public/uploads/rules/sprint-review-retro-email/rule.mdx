@@ -59,33 +59,33 @@ Firstly, create a new email copying the information from the previous Sprint Rev
 
 <emailEmbed
   from=""
-  to="{{ PRODUCT OWNER }}"
-  cc="{{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }}"
+  to="&#123;&#123; PRODUCT OWNER &#125;&#125;"
+  cc="&#123;&#123; SPRINT REVIEW ATTENDEES &#125;&#125;, &#123;&#123; PROJECT GROUP EMAIL &#125;&#125;, &#123;&#123; SPRINT REVIEW REPORTING EMAIL &#125;&#125;"
   bcc=""
-  subject="{{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro"
+  subject="&#123;&#123; PRODUCT NAME &#125;&#125; - Sprint &#123;&#123; X &#125;&#125; Review + Retro"
   shouldDisplayBody={true}
   body={<>
-    ## Hi {{ PRODUCT OWNER }}
+    ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
     
     Here are the Sprint Goals and their status at a glance:
     
     Sprint Goals (in priority order):
     
-    * {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
-    * {{ ✅/❌ }} {{ DONE? }} - {{ GOAL }}
+    * &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
+    * &#123;&#123; ✅/❌ &#125;&#125; &#123;&#123; DONE? &#125;&#125; - &#123;&#123; GOAL &#125;&#125;
     
     Please see below for a more detailed breakdown of the Sprint:
     
     |                                                                                                                                                  |                                |
     | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------ |
-    | Sprint in Review:                                                                                                                                | {{ SPRINT NUMBER }}            |
-    | Summary Recording:                                                                                                                               | {{ YOUTUBE PLAYLIST URL }}     |
-    | Sprint Duration:                                                                                                                                 | {{ NUMBER OF WEEKS }}          |
-    | Project:                                                                                                                                         | {{ PROJECT NAME }}             |
-    | Project Portal:                                                                                                                                  | {{ LINK TO PROJECT PORTAL }}   |
-    | Test Environment:                                                                                                                                | {{ LINK TO TEST ENVIRONMENT }} |
-    | Product Owner:                                                                                                                                   | {{ PRODUCT OWNER NAME }}       |
-    | Attendees:                                                                                                                                       | {{ NAMES OF THE ATTENDEES }}   |
+    | Sprint in Review:                                                                                                                                | &#123;&#123; SPRINT NUMBER &#125;&#125;            |
+    | Summary Recording:                                                                                                                               | &#123;&#123; YOUTUBE PLAYLIST URL &#125;&#125;     |
+    | Sprint Duration:                                                                                                                                 | &#123;&#123; NUMBER OF WEEKS &#125;&#125;          |
+    | Project:                                                                                                                                         | &#123;&#123; PROJECT NAME &#125;&#125;             |
+    | Project Portal:                                                                                                                                  | &#123;&#123; LINK TO PROJECT PORTAL &#125;&#125;   |
+    | Test Environment:                                                                                                                                | &#123;&#123; LINK TO TEST ENVIRONMENT &#125;&#125; |
+    | Product Owner:                                                                                                                                   | &#123;&#123; PRODUCT OWNER NAME &#125;&#125;       |
+    | Attendees:                                                                                                                                       | &#123;&#123; NAMES OF THE ATTENDEES &#125;&#125;   |
     | ✅ I have added the relevant stakeholders as per [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting) |                                |
     
     ## Sprint Review
@@ -105,7 +105,7 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     | 24097  | **Styling**                         | Bob Northwind | 🏗️ In Progress | 16         |
     | 23120  | UX Improvements                     | Bob Northwind | 👀 In Review    | 4          |
     
-    **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }} with the important items bolded**
+    **Figure: Sprint Backlog from &#123;&#123; LINK TO SPRINT BACKLOG &#125;&#125; with the important items bolded**
     
     3\. Sprint Burndown - A quick overview of the Sprint
     
@@ -115,11 +115,11 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     4\. Code Coverage - Hopefully tests are increasing each Sprint
     
-    {{ CODE COVERAGE }}
+    &#123;&#123; CODE COVERAGE &#125;&#125;
     
     5\. Velocity *(Optional)*
     
-    {{ VELOCITY }}
+    &#123;&#123; VELOCITY &#125;&#125;
     
     6\. Burnup - How are we tracking for the big picture? \*
     
@@ -129,10 +129,10 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     | Metrics – last 30 days | Count                                                                     |
     | ---------------------- | ------------------------------------------------------------------------- |
-    | New PBIs               | {{ NEW PBIS }}                                                            |
-    | AI PBIS                | {{ PBIS CREATED WITH AI }} ( {{ PERCENT OF NEW PBIS CREATED WITH AI }} %) |
-    | Completed PBIs         | {{ PBIS COMPLETED }}                                                      |
-    | Net Change in PBIs     | {{ +/- OVERALL PBI COUNT CHANGE }}                                        |
+    | New PBIs               | &#123;&#123; NEW PBIS &#125;&#125;                                                            |
+    | AI PBIS                | &#123;&#123; PBIS CREATED WITH AI &#125;&#125; ( &#123;&#123; PERCENT OF NEW PBIS CREATED WITH AI &#125;&#125; %) |
+    | Completed PBIs         | &#123;&#123; PBIS COMPLETED &#125;&#125;                                                      |
+    | Net Change in PBIs     | &#123;&#123; +/- OVERALL PBI COUNT CHANGE &#125;&#125;                                        |
     
     **Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
     
@@ -144,7 +144,7 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     **Figure: Health metrics**
     
-    ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](/uploads/rules/sprint-review-retro-email/production-deploy.png)
+    ![Figure: Deployments from &#123;&#123; DEPLOYMENT SERVICE &#125;&#125;](/uploads/rules/sprint-review-retro-email/production-deploy.png)
     
     **Figure: Deployment health**
     
@@ -162,23 +162,23 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     **Epic - UI/UX Improvements**
     
-    * Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
-    * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-    * {{ # OF PBIS CREATED THIS SPRINT }} Newly created this Sprint
+    * Currently &#123;&#123; TOTAL # OF PBIS COMPLETED &#125;&#125;/&#123;&#123; TOTAL # OF PBIS CREATED &#125;&#125; PBIs completed (there will be more)
+    * &#123;&#123; # OF PBIS COMPLETED THIS SPRINT &#125;&#125; Completed this Sprint
+    * &#123;&#123; # OF PBIS CREATED THIS SPRINT &#125;&#125; Newly created this Sprint
     
     *Add this for each current epic in your backlog*
     
     10\. R\&D - Did we do any experimental work?
     
-    {{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
+    &#123;&#123; INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) &#125;&#125;
     
-    {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
+    &#123;&#123; INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) &#125;&#125;
     
     e.g. We tried to use Angular and found that it doesn't work for our particular workflow, because AI results are inconsistent.
     
     11\. AI use - what tools did you use?
     
-    * {{ PERSON }} - {{ TOOLS }}
+    * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; TOOLS &#125;&#125;
     * Bob Northwind - Claude, Copilot CLI
     
     ### AI Stats - Claude **🤖**![Figure: Claude-created meeting overview - Image from Product Owner](/uploads/rules/sprint-review-retro-email/claude-stats.png)
@@ -187,13 +187,13 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     ### AI Stats - Copilot **🤖**
     
-    ![Figure: Copilot speaking summary was {{ DURATION }} - Image from Product Owner](/uploads/rules/sprint-review-retro-email/meeting-length.png)
+    ![Figure: Copilot speaking summary was &#123;&#123; DURATION &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/meeting-length.png)
     
     **Figure: Copilot speaker breakdown of meeting 🤖**
     
     **Note:** People will show up as "Speaker X" if **Captions and transcripts | Automatically identify me in live captions and live transcripts** is not turned on.
     
-    ![Figure: Copilot showed the main action point was {{ MAIN ACTION POINT }} - Image from Product Owner](/uploads/rules/sprint-review-retro-email/main-action-point.png)
+    ![Figure: Copilot showed the main action point was &#123;&#123; MAIN ACTION POINT &#125;&#125; - Image from Product Owner](/uploads/rules/sprint-review-retro-email/main-action-point.png)
     
     **Figure: Copilot generated main item completed 🤖**
     
@@ -203,31 +203,31 @@ Firstly, create a new email copying the information from the previous Sprint Rev
     
     ✅ **What went well?**
     
-    {{ INSERT LIST OF WHAT WENT WELL from Retro }}
+    &#123;&#123; INSERT LIST OF WHAT WENT WELL from Retro &#125;&#125;
     
     ❌ **What didn’t go so well?**
     
-    {{ INSERT LIST OF WHAT DIDN'T GO WELL from Retro }}
+    &#123;&#123; INSERT LIST OF WHAT DIDN'T GO WELL from Retro &#125;&#125;
     
     💡 **What improvements will be made for the next Sprint?**
     
-    {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
+    &#123;&#123; INSERT LIST OF IMPROVEMENTS to be made for the next Sprint &#125;&#125;
     
     ⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
     
     As per [https://www.ssw.com.au/rules/for-the-record/](https://www.ssw.com.au/rules/for-the-record/)
     
-    {{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
+    &#123;&#123; INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT &#125;&#125;
     
     **Definition of Ready** *(Optional)*
     
-    {{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }}
+    &#123;&#123; INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) &#125;&#125;
     
     **Definition of Done** *(Optional)*
     
-    {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }}
+    &#123;&#123; INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) &#125;&#125;
     
-    \< This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) >
+    &lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) &gt;
   </>}
   figurePrefix="good"
   figure="Template for Sprint Review/Retro email 📩"
