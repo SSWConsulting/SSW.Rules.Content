@@ -27,7 +27,7 @@ seoDescription: Ensure a smooth transition between client projects by designatin
 created: 2023-08-03T13:00:00.000Z
 createdBy: Jeoffrey Fischer
 createdByEmail: JeoffreyFischer@ssw.com.au
-lastUpdated: 2026-02-03T04:17:55.029Z
+lastUpdated: 2026-02-03T04:19:21.482Z
 lastUpdatedBy: Sam Wagner
 lastUpdatedByEmail: SamWagner@ssw.com.au
 archivedreason: null
@@ -77,22 +77,22 @@ A Bench Master's primary goal is to act as the bridge between the business and t
 Below is a simple email template that you could add to you company's process to kick-start your Bench Mastering journey.
 
 <emailEmbed
-  from="&#123;&#123; THE EMPLOYEE &#125;&#125;"
-  to="&#123;&#123; THE BENCHMASTER &#125;&#125;"
-  cc="&#123;&#123; THE BUSINESS OWNER &#125;&#125;"
+  from="{{ THE EMPLOYEE }}"
+  to="{{ THE BENCHMASTER }}"
+  cc="{{ THE BUSINESS OWNER }}"
   bcc=""
-  subject="&#123;&#123; THE EMPLOYEE &#125;&#125; - Joining a Team"
+  subject="{{ THE EMPLOYEE }} - Joining a Team"
   shouldDisplayBody={true}
   body={<>
     ## Hi Bench Master(s),
     
-    I'm proposing to join &#123;&#123; TEAM NAME &#125;&#125;. I want to join this team because:
+    I'm proposing to join {{ TEAM NAME }}. I want to join this team because:
     
-    * &#123;&#123; REASON TO JOIN &#125;&#125;
+    * {{ REASON TO JOIN }}
     
     Please help me to see if this fits in with the business's goals.
     
-    1. Approve my request to join &#123;&#123; TEAM NAME &#125;&#125;.
+    1. Approve my request to join {{ TEAM NAME }}.
   </>}
   figurePrefix="good"
   figure="Simple email template you can get your employees to use when joining/moving to a team"
@@ -102,8 +102,10 @@ Below is a simple email template that you could add to you company's process to 
 
 When you are making a decision on whether to approve an employees suggested team, or to move them to something else. Here are the key questions to answer before making a decision.
 
-1. **Availability** - Will the employee be available for a while? Or, are they just stopping off to the bench for a few days before going back onto another piece of work?
-   1. This is important to understand as some project might have a long onboarding time and so achieving anything meaningful is not possible, given the time-frame.
+1. **Availability** 
+   1. Will the employee be available for a while? 
+   2. Or, are they just stopping off to the bench for a few days before going back onto another piece of work? 
+   3. This is important to understand as some project might have a long onboarding time and so achieving anything meaningful is not possible, given the time-frame.
 2. **Admin** - If the employee has accrued a lot of administrative tasks while they were on external work, then prior to allocating them to a team, have them prioritise getting that done so they can start on a fresher slate. see [https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/](https://www.ssw.com.au/rules/dones-is-your-inbox-a-task-list-only/)
 3. **Prioritization** - Is the team they're asking to work on high priority?
 4. **Resourcing** - Are there other teams that have asked for more resourcing?
