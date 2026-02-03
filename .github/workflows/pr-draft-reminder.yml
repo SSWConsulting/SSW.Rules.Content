@@ -72,7 +72,10 @@ jobs:
           _This is an automated reminder to help reduce draft PRs without descriptions or reviewers._
           "@
           
-          Set-Content -Path "comment.md" -Value $comment
-          gh pr comment $prNumber --body-file comment.md
+          # Create a unique temporary file
+          $tempFile = [System.IO.Path]::GetTempFileName()
+          Set-Content -Path $tempFile -Value $comment
+          gh pr comment $prNumber --body-file $tempFile
+          Remove-Item $tempFile -Force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
