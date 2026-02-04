@@ -1,16 +1,24 @@
 ---
-seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using multi-targeting, C# preprocessor directives, and MSBuild conditions.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+uri: manage-compatibility-for-different-tfms
 categories:
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
-uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
-    url: https://www.ssw.com.au/people/yazhi-chen
-created: 2023-09-01T01:39:10.755Z
+    url: 'https://www.ssw.com.au/people/yazhi-chen'
+  - title: Kaha Mason
+    url: 'https://ssw.com.au/people/kaha-mason'
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
+seoDescription: 'Learn how to manage compatibility between different Target Framework Monikers (TFMs) using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
+created: 2023-09-01T01:39:10.755Z
+createdBy: Kaha Mason
+createdByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-02-04T05:59:35.203Z
+lastUpdatedBy: Kaha Mason
+lastUpdatedByEmail: kahamason@ssw.com.au
 ---
+
 Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
@@ -50,7 +58,8 @@ public static class WebClientFactory
   }
 }
 ```
-**✅ Code: Good example - Using preprocessor directives and a factory pattern**  
+
+**✅ Code: Good example - Using preprocessor directives and a factory pattern**
 
 Tip: Prefer explicit version checks when possible, as they scale better than `#else`:
 
@@ -81,7 +90,8 @@ You can use MSBuild conditions to add references to different libraries that are
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-**✅ Code: Good example - Using MSBuild conditions**  
+
+**✅ Code: Good example - Using MSBuild conditions**
 
 #### Conditional NuGet packages per TFM
 
@@ -197,12 +207,12 @@ Notes: adjust the `version` in `UseDotNet@2`, add solution paths if needed, and 
 
 Once the main branch has fully moved to the new TFM:
 
-- Remove the old TFM from `TargetFrameworks`
-- Delete the old implementation paths (or per-TFM files)
-- Remove conditional MSBuild blocks and legacy package references
+* Remove the old TFM from `TargetFrameworks`
+* Delete the old implementation paths (or per-TFM files)
+* Remove conditional MSBuild blocks and legacy package references
 
 ### Definition of done
 
-- The project builds for all target TFMs
-- Tests run for each TFM in CI
-- Compatibility code is isolated (minimal `#if` in domain/business logic)
+* The project builds for all target TFMs
+* Tests run for each TFM in CI
+* Compatibility code is isolated (minimal `#if` in domain/business logic)
