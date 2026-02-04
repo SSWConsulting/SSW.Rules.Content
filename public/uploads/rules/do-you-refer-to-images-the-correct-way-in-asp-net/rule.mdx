@@ -33,7 +33,7 @@ There are many ways to reference images in ASP.NET. There are 2 different situat
 
 Each of these situations requires a different referencing method.
 
-### Option #1: Root-Relative Paths
+## Option #1: Root-Relative Paths
 
 Often developers reference all images by using an root-relative path (prefixing the path with a slash, which refers to the root of the site), as shown below.
 
@@ -42,16 +42,16 @@ Often developers reference all images by using an root-relative path (prefixing 
 ```
 **❌ Bad example - Referencing images with absolute paths**  
 
-This has the advantage that &lt;img&gt; tags can easily be copied between pages, however it should not be used in either situation, because it requires that the website have its own site IIS and be placed in the root (not just an application), or that the entire site be in a subfolder on the production web server. For example, the following combinations of URLs are possible with this approach:
+This has the advantage that `<img>` tags can easily be copied between pages, however it should not be used in either situation, because it requires that the website have its own site IIS and be placed in the root (not just an application), or that the entire site be in a subfolder on the production web server. For example, the following combinations of URLs are possible with this approach:
 
 | Staging Server URL | Production Server URL              |
 | ------------------ | ---------------------------------- |
-| bee:81/            | www.northwind&#46;com.au           |
-| bee/northwind/     | www.northwind&#46;com.au/northwind |
+| `bee:81/`            | `www.northwind.com.au`           |
+| `bee/northwind/`     | `www.northwind.com.au/northwind` |
 
 As shown above, this approach makes the URLs on the staging server hard to remember, or increases the length of URLs on the production web server.
 
-### Option #2: Relative Paths
+## Option #2: Relative Paths
 
 Images that are part of the content of a page should be referenced using relative paths.
 
@@ -77,12 +77,12 @@ originalPath=""~/Images/spacer.gif"" runat="server">
 
 Using an HTML Server control creates less overhead than an ASP.NET Server control, but the control does not dynamically adapt its rendering to the user's browser, or provide such a rich set of server-side features.
 
-**Note:** A variation on this approach involves calling the Page.ResolveUrl method with inline code to place the correct path in a non-server tag.
+**Note:** A variation on this approach involves calling the `Page.ResolveUrl` method with inline code to place the correct path in a non-server tag.
 
 ```html
 <img src='<%# originalAttribute="src" originalPath="'<%#"
 Page.ResolveUrl("~/Images/spacer.gif") %>'>
 ```
-**❌ Bad example - Page.ResolveUrl method with a non-server tag**  
+**❌ Bad example - `Page.ResolveUrl` method with a non-server tag**  
 
 This approach is **not** recommended, because the data binding will create overhead and affect caching of the page. The inline code is also ugly and does not get compiled, making it easy to accidentally introduce syntax errors.

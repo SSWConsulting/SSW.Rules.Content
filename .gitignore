@@ -1,3 +1,9 @@
 .DS_Store
 .vscode/settings.json
 .idea
+
+# Ignore generated mapping files
+scripts/tina-migration/category-uri-title-map.json
+scripts/tina-migration/orphaned_rules.json
+scripts/tina-migration/redirects.json
+scripts/tina-migration/rule-to-categories.json

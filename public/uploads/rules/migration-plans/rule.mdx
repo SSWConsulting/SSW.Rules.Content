@@ -3,7 +3,7 @@ type: rule
 title: Do you create a migration plan?
 uri: migration-plans
 categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
 authors:
   - title: Luke Cook
     url: 'https://ssw.com.au/people/luke-cook'
@@ -20,21 +20,17 @@ authors:
   - title: Kaha Mason
     url: 'https://ssw.com.au/people/kaha-mason'
 related:
-  - rule: public/uploads/rules/dotnet-upgrade-assistant/rule.mdx
-  - rule: >-
-      public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
+  - rule: public/uploads/rules/dotnet-modernization-tools/rule.mdx
+  - rule: public/uploads/rules/migrate-from-system-web-to-modern-alternatives/rule.mdx
   - rule: public/uploads/rules/use-banned-api-analyzers/rule.mdx
 redirects:
   - do-you-create-a-migration-plan
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
-seoDescription: >-
-  Create a migration plan by targeting multiple target frameworks (TFMs) to
-  avoid introducing breaking changes while migrating from .NET Framework to
-  .NET.
+seoDescription: Create a migration plan by targeting multiple target frameworks (TFMs) to avoid introducing breaking changes while migrating from .NET Framework to .NET.
 created: 2023-09-06T23:08:53.979Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
-lastUpdated: 2026-01-16T04:53:39.628Z
+lastUpdated: 2026-01-29T03:10:33.748Z
 lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
@@ -57,7 +53,7 @@ If your app has 3rd party dependencies (e.g. with a financial system, reporting 
 
 If you host your app on premise, it's also worth checking your infrastructure to ensure it has the necessary runtimes.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Install necessary .NET 8 runtimes" src="/uploads/rules/migration-plans/related-runtimes.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Install necessary .NET 10 runtimes" src="/uploads/rules/migration-plans/related-runtimes-net10.png" />
 
 ## Breaking changes
 
@@ -112,7 +108,7 @@ The first thing you want to do is update your projects' `csproj` files to the ne
   figure=""
 />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="The differences between the legacy csproj file and the new SDK csproj file" src="/uploads/rules/migration-plans/legacy-vs-sdk.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="The differences when migrating from legacy csproj to the new SDK style" src="/uploads/rules/migration-plans/legacy-to-sdk.png" />
 
 ### Target multiple Target Framework Monikers (TFM)
 
@@ -156,10 +152,10 @@ Multi-targeting both your original .NET Framework version *and* your future .NET
 In all your project files, change the `TargetFramework` tag to `TargetFrameworks`. You want to do this early on to allow for multiple target frameworks and enable a smoother flow later to avoid needing to reload projects or have to close and reopen Visual Studio.
 
 ```csharp
-<TargetFrameworks>net472;net8.0</TargetFrameworks>
+<TargetFrameworks>net48;net8.0</TargetFrameworks>
 ```
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Bad and good examples when targeting multiple target frameworks" src="/uploads/rules/migration-plans/good-example-vs-bad-example-tfms.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Multi-targeting .NET Framework and .NET 10" src="/uploads/rules/migration-plans/multi-targeting-frameworks.png" />
 
 ### Watch for SYSLIB diagnostic warnings
 
@@ -203,6 +199,7 @@ By the end of this process, you'll have a much clearer view (and backlog!) of yo
 
 While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
+* [Do you know the different ways to modernize your application?](https://www.ssw.com.au/rules/modernize-your-app)
 * [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
 * [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
 * [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)

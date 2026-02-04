@@ -21,6 +21,8 @@ seoDescription: >-
 created: 2023-07-19T00:00:00.000Z
 createdBy: Jernej Kavka (JK)
 createdByEmail: jk@ssw.com.au
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
+
 ---
 
 Some older projects .NET Framework project will have EDMX instead of modern DbContext first introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518), which first introduced DbContext and Code-First approach back in 2012, replacing the ObjectContext that EDMX used for Database-First approach.
@@ -30,6 +32,8 @@ In this rule, we’ll use ObjectContext and Entities interchangeably. ObjectCont
 <endIntro _hidden="" />
 
 The rule is focusing on .NET 8+ as the support for .NET Framework projects and Nuget was added back, which makes a staged migration a lot more feasible. Most, if not all, are still applicable for .NET 7 as well.
+
+<endIntro />
 
 ## Strategies
 
@@ -164,12 +168,12 @@ Now that we abstracted access to the data, it's time to scaffold the DB. The eas
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Settings for project" src="/uploads/rules/migrate-from-edmx-to-ef-core/project-reverse-engineer-tool-6.png" />
 
-# Resources
+## Resources
 
 * How to migrate to EF Core 3.1 video - [https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core](https://learn.microsoft.com/en-us/shows/on-net/migrating-edmx-projects-to-entity-framework-core#time=08m10s?WT.mc_id=DP-MVP-33518)
 * Official porting docs to EF Core 3.1 - [https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc\_id=DP-MVP-33518](https://learn.microsoft.com/en-us/ef/efcore-and-ef6/porting/port-edmx?WT.mc_id=DP-MVP-33518)
 
-# Alternative
+## Alternative
 
 EF Core 3.1 EDMX - [Walk-through: Using an Entity Framework 6 EDMX file with .NET Core | ErikEJ's blog](https://erikej.github.io/ef/dotnetcore/2020/06/15/ef6-use-edmx-dotnetcore.html)
 
