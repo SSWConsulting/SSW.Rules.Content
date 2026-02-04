@@ -8,13 +8,15 @@ sidebarVideo: 'https://www.youtube.com/watch?v=KEK_WcSTiuE'
 authors:
   - title: Eddie Kranz
     url: 'https://www.ssw.com.au/people/eddie-kranz'
+  - title: Daniel Mackay
+    url: 'https://ssw.com.au/people/daniel-mackay'
 guid: 320076a9-b7ab-49e4-97d7-b9c3308c352e
 seoDescription: Learn why SSW developers use AGENTS.md to provide context and instructions for AI coding assistants in every project.
 thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T03:15:29.350Z
+lastUpdated: 2026-02-04T03:50:26.231Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -34,7 +36,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **✅ Common commands** - List frequently used scripts for building, testing, and linting
 * **✅ Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 * **✅ Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
-* ❌ **Secrets **- Never put API keys, secrets, or sensitive internal information, it's committed to source control (if you must, keep a gitignored `SECRETS.md`, and reference from your `AGENTS.md`
+* ❌ **Secrets** Never put API keys, secrets, or sensitive internal information, it's committed to source control (if you must, keep a gitignored `SECRETS.md`, and reference from your `AGENTS.md`
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
@@ -88,9 +90,9 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
   body={<>
     ```
     ├── AGENTS.md - 5000 lines of instructions for API, API tests, Frontend, frontend tests, etc...
-    ├── packages
-    │   ├── app1
-    │   └── app2
+    ├── src
+    │   ├── frontend
+    │   └── backend
     └── ...
     ```
   </>}
@@ -114,6 +116,8 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
   figurePrefix="good"
   figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
 />
+
+You could also have a separate AGENTS.md for your tests
 
 ## Writing tips
 
