@@ -64,20 +64,17 @@ jobs:
                 if (-not $foundNonBotUser) {
                   Write-Output "No non-bot user found in commits. Skipping workflow."
                   echo "skip=true" >> $env:GITHUB_OUTPUT
-                  echo "target_user=" >> $env:GITHUB_OUTPUT
                   exit 0
                 }
               } else {
                 Write-Output "No commits found in PR. Skipping workflow."
                 echo "skip=true" >> $env:GITHUB_OUTPUT
-                echo "target_user=" >> $env:GITHUB_OUTPUT
                 exit 0
               }
             } catch {
               Write-Output "Failed to fetch PR commits: $_"
               Write-Output "Skipping workflow."
               echo "skip=true" >> $env:GITHUB_OUTPUT
-              echo "target_user=" >> $env:GITHUB_OUTPUT
               exit 0
             }
           }
