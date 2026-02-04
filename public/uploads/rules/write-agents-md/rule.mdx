@@ -4,7 +4,7 @@ title: Do you write an AGENTS.md?
 uri: write-agents-md
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-sidebarVideo: 'https://www.youtube.com/shorts/A4ZBEAnXDxQ'
+sidebarVideo: 'https://www.youtube.com/watch?v=KEK_WcSTiuE'
 authors:
   - title: Eddie Kranz
     url: 'https://www.ssw.com.au/people/eddie-kranz'
@@ -13,7 +13,7 @@ seoDescription: Learn why SSW developers use AGENTS.md to provide context and in
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-03T23:52:12.797Z
+lastUpdated: 2026-02-04T00:09:54.879Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -30,7 +30,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 
 * **Architecture overview** - Explain the tech stack and how different layers interact
 * **Coding standards** - Define naming conventions, preferred libraries, and patterns
-* **Common commands** - List frequently used scripts for building, testing, and linting
+* **Common commands** - List freque ntly used scripts for building, testing, and linting
 * **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
@@ -52,6 +52,61 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
 />
 
 For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
+
+<boxEmbed
+  body={<>
+    Tip: AI-enabled IDEs and CLI Agents can generate AGENTS.md for you. It's very easy!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+As your project grows, so will your AGENTS.md. Read on to learn how to tackle the scaling problem.
+
+## Even better: multiple AGENTS.md
+
+You might be thinking: “Wait.. I have a massive monorepo. There's no way it's efficient to capture all that information in one file, and feed it into the AI in one go…”
+
+Correct. It's unwise to just dump all of that context into the AI, if it is only going to find 5% of it useful.
+
+This is where hierarchy comes in. As per the standard, Agents will only read the nearest AGENTS.md file, meaning you can stratify your documentation.
+
+Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
+
+The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```
+    ├── AGENTS.md - 5000 lines of instructions for API, API tests, Frontend, frontend tests, etc...
+    ├── packages
+    │   ├── app1
+    │   └── app2
+    └── ...
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="A single, overloaded AGENTS.md for the entire monorepo"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```plaintext
+    ├── AGENTS.md - High-level architecture overview
+    ├── packages
+    │   ├── app1
+    │   │   └── AGENTS.md - Instructions for app1 only
+    │   ├── app2
+    │   │   └── AGENTS.md - Instructions for app2 only
+    │   └── ...
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
+/>
 
 ## How to implement it
 
@@ -95,44 +150,6 @@ For more details, you can view the [full AGENTS.md file on GitHub](https://githu
   figurePrefix="none"
   figure=""
   style="tips"
-/>
-
-## Even better: multiple AGENTS.md
-
-Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
-
-The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    ```
-    ├── AGENTS.md - 5000 lines of instructions for every package
-    ├── packages
-    │   ├── app1
-    │   └── app2
-    └── ...
-    ```
-  </>}
-  figurePrefix="bad"
-  figure="A single, overloaded AGENTS.md for the entire monorepo"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    ```plaintext
-    ├── AGENTS.md - High-level architecture overview
-    ├── packages
-    │   ├── app1
-    │   │   └── AGENTS.md - Instructions for app1 only
-    │   ├── app2
-    │   │   └── AGENTS.md - Instructions for app2 only
-    │   └── ...
-    ```
-  </>}
-  figurePrefix="good"
-  figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
 />
 
 ## Further Reading
