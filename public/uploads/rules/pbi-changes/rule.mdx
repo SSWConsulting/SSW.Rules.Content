@@ -1,6 +1,6 @@
 ---
 title: Do you make scope changes to a PBI visible?
-uri: scope-changes-to-pbis
+uri: pbi-changes
 categories:
   - category: categories/project-delivery/rules-to-better-scrum-using-github.mdx
   - category: categories/project-delivery/rules-to-better-scrum-using-azure-devops.mdx
@@ -9,11 +9,17 @@ authors:
     url: 'https://ssw.com.au/people/adam-cogan'
   - title: Tiago Araujo
     url: 'https://ssw.com.au/people/tiago-araujo'
+  - title: Sam Wagner
+    url: 'https://www.ssw.com.au/people/sam-wagner'
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
 related:
   - rule: public/uploads/rules/acceptance-criteria/rule.mdx
   - rule: public/uploads/rules/meaningful-pbi-titles/rule.mdx
   - rule: public/uploads/rules/react-to-reviewed-pbis/rule.mdx
 guid: 9127db6d-1f88-4f18-963a-b94d296b806d
+redirects:
+- scope-changes-to-pbis
 seoDescription: 'Best practices for clearly communicating PBI scope changes, updating acceptance criteria, and notifying impacted stakeholders.'
 created: 2026-02-04T01:14:05.520Z
 createdBy: Tiago Araujo
@@ -39,9 +45,9 @@ It’s common to discover extra work once implementation starts. That’s fine�
 If you realize an additional task should be part of an existing PBI:
 
 1. **Confirm alignment first** - Ideally, a scope change should be agreed with someone beforehand (e.g. *“as discussed with Dave in today’s stand-up”*)
-2. **Document by updating the Acceptance Criteria **- Make the scope change explicit by [editing the Issue description](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/editing-an-issue#editing-an-issue-description)
-3. **Leave a clear comment explaining the change **- Explain what was added or changed, the reason for the change, and who was involved in agreeing to it. The updated scope is clear, traceable, and visible to everyone
-4. **CC the right people **- Notify anyone impacted, including PBI creator, assignees, the Product Owner, reviewers, and stakeholders
+2. **Document by updating the Acceptance Criteria** - Make the scope change explicit by [editing the Issue description](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/editing-an-issue#editing-an-issue-description)
+3. **Leave a clear comment explaining the change** - Explain what was added or changed, the reason for the change, and who was involved in agreeing to it. The updated scope is clear, traceable, and visible to everyone
+4. **CC the right people** - Notify anyone impacted, including PBI creator, assignees, the Product Owner, reviewers, and stakeholders
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="New requirement has been added to the existing Acceptance Criteria" src="/uploads/rules/scope-changes-to-pbis/pbi-scope-acceptance-criteria-edited.png" />
 
@@ -49,7 +55,7 @@ If you realize an additional task should be part of an existing PBI:
 
 <boxEmbed
   body={<>
-    Tip: [GitHub makes changes easy to spot by showing an edit history](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment) for issues and comments, including a diff view, who made the change, and when.
+    **Tip:** [GitHub makes changes easy to spot by showing an edit history](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment) for issues and comments, including a diff view, who made the change, and when.
   </>}
   figurePrefix="none"
   figure=""
