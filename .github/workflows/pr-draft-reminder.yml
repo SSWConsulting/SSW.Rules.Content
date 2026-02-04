@@ -18,12 +18,46 @@ jobs:
     if: github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:
-      - name: Check if reminder comment already exists
+      - name: Determine target user and check for existing comment
         id: check_comment
         shell: pwsh
         run: |
           $prNumber = ${{ github.event.pull_request.number }}
-          Write-Output "Checking PR #$prNumber for existing reminder comment..."
+          $prAuthor = "${{ github.event.pull_request.user.login }}"
+          
+          Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
+          
+          # Check if PR author is a bot
+          $authorIsBot = $prAuthor -match '\[bot\]$' -or $prAuthor -eq 'dependabot' -or $prAuthor -eq 'renovate' -or $prAuthor -eq 'github-actions'
+          
+          $targetUser = $prAuthor
+          
+          if ($authorIsBot) {
+            Write-Output "PR author is a bot, looking for first non-bot commit author..."
+            
+            # Get commits from the PR
+            $commitsJson = gh pr view $prNumber --repo ${{ github.repository }} --json commits | ConvertFrom-Json
+            
+            $foundNonBotUser = $false
+            foreach ($commit in $commitsJson.commits) {
+              $commitAuthor = $commit.author.login
+              $commitAuthorIsBot = $commitAuthor -match '\[bot\]$' -or $commitAuthor -eq 'dependabot' -or $commitAuthor -eq 'renovate' -or $commitAuthor -eq 'github-actions'
+              
+              if (-not $commitAuthorIsBot -and $commitAuthor) {
+                $targetUser = $commitAuthor
+                $foundNonBotUser = $true
+                Write-Output "Found non-bot user: $targetUser"
+                break
+              }
+            }
+            
+            if (-not $foundNonBotUser) {
+              Write-Output "No non-bot user found in commits. Skipping workflow."
+              echo "skip=true" >> $env:GITHUB_OUTPUT
+              echo "target_user=" >> $env:GITHUB_OUTPUT
+              exit 0
+            }
+          }
           
           # Get all comments on the PR and check if reminder exists
           $commentsJson = gh pr view $prNumber --repo ${{ github.repository }} --json comments | ConvertFrom-Json
@@ -45,6 +79,8 @@ jobs:
           } else {
             echo "skip=false" >> $env:GITHUB_OUTPUT
           }
+          
+          echo "target_user=$targetUser" >> $env:GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -53,9 +89,9 @@ jobs:
         shell: pwsh
         run: |
           $prNumber = ${{ github.event.pull_request.number }}
-          $author = "${{ github.event.pull_request.user.login }}"
+          $author = "${{ steps.check_comment.outputs.target_user }}"
           
-          Write-Output "Adding reminder comment to PR #$prNumber"
+          Write-Output "Adding reminder comment to PR #$prNumber for @$author"
           
           $comment = @"
           👋 Hi @$author,
