@@ -1,0 +1,208 @@
+---
+type: rule
+title: Do you use API Versioning to avoid breaking changes?
+uri: use-api-versioning
+authors:
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+categories:
+  - category: categories/software-development/rules-to-better-web-api-rest.mdx
+guid: 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b
+seoDescription: Learn how to implement API versioning in ASP.NET Core to evolve your API without breaking existing clients, including URL, header, and query string strategies.
+created: 2026-02-05T00:00:00.000Z
+---
+
+APIs evolve over time - you need to rename fields, change data structures, or remove deprecated endpoints. Without versioning, any change can break existing clients. API versioning lets you introduce changes safely while giving clients time to migrate.
+
+<endIntro _hidden="" />
+
+## Why API versioning matters
+
+* **Don't break existing clients** - Mobile apps can't force users to update instantly
+* **Gradual migration** - Clients can migrate to new versions at their own pace
+* **Clear contracts** - Each version has a well-defined, stable interface
+* **Deprecation strategy** - Communicate when old versions will be retired
+
+## Setting up API Versioning
+
+```bash
+dotnet add package Asp.Versioning.Mvc
+```
+
+```csharp
+// Program.cs
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddApiVersioning(options =>
+{
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ReportApiVersions = true; // Adds api-supported-versions header
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new UrlSegmentApiVersionReader(),
+        new HeaderApiVersionReader("X-Api-Version")
+    );
+})
+.AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+});
+```
+
+**✅ Figure: Good example - Configure API versioning with URL and header support**
+
+## URL path versioning (Recommended)
+
+The most visible and commonly used approach:
+
+```csharp
+[ApiController]
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("1.0")]
+public class ProductsController : ControllerBase
+{
+    [HttpGet]
+    public IActionResult GetAll() => Ok(new[] { new { Id = 1, Name = "Product" } });
+}
+
+[ApiController]
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("2.0")]
+public class ProductsV2Controller : ControllerBase
+{
+    [HttpGet]
+    public IActionResult GetAll() => Ok(new[] { new { Id = 1, Title = "Product", Sku = "ABC123" } });
+}
+```
+
+```
+GET /api/v1/products  → Returns { Id, Name }
+GET /api/v2/products  → Returns { Id, Title, Sku }
+```
+
+**✅ Figure: Good example - URL versioning is clear and cacheable**
+
+## When to increment versions
+
+**Major version (v1 to v2) - Breaking changes:**
+
+* Removing or renaming fields
+* Changing field types
+* Removing endpoints
+* Changing authentication requirements
+
+**Don't require new version - Non-breaking changes:**
+
+* Adding new optional fields
+* Adding new endpoints
+* Adding new optional query parameters
+
+```csharp
+// v1 - Original response
+public class ProductV1
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
+// v2 - Breaking change: Name renamed to Title, new required field
+public class ProductV2
+{
+    public int Id { get; set; }
+    public string Title { get; set; }  // Renamed from Name
+    public string Sku { get; set; }    // New required field
+}
+```
+
+**✅ Figure: Good example - Breaking changes require a new version**
+
+## Deprecating old versions
+
+Signal to clients when versions will be retired:
+
+```csharp
+[ApiController]
+[Route("api/v{version:apiVersion}/products")]
+[ApiVersion("1.0", Deprecated = true)]  // Mark as deprecated
+[ApiVersion("2.0")]
+public class ProductsController : ControllerBase
+{
+    [HttpGet]
+    [MapToApiVersion("1.0")]
+    public IActionResult GetV1()
+    {
+        Response.Headers.Append("Sunset", "Sat, 01 Jan 2025 00:00:00 GMT");
+        Response.Headers.Append("Deprecation", "true");
+        return Ok(GetProductsV1());
+    }
+
+    [HttpGet]
+    [MapToApiVersion("2.0")]
+    public IActionResult GetV2() => Ok(GetProductsV2());
+}
+```
+
+**✅ Figure: Good example - Add Sunset header to communicate retirement date**
+
+## Versioning strategies comparison
+
+| Strategy | URL | Pros | Cons |
+|----------|-----|------|------|
+| **URL Path** | `/api/v1/products` | Clear, cacheable, easy to test | URLs change between versions |
+| **Query String** | `/api/products?api-version=1` | URLs stay same | Easy to forget, less visible |
+| **Header** | `X-Api-Version: 1` | Clean URLs | Not visible, harder to test |
+| **Media Type** | `Accept: application/vnd.api.v1+json` | RESTful purist approach | Complex, rarely used |
+
+**Recommendation:** Use URL path versioning as primary, with header as fallback for edge cases.
+
+## OpenAPI/Swagger support
+
+Generate separate Swagger docs for each version:
+
+```csharp
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+    options.SwaggerDoc("v2", new OpenApiInfo { Title = "My API", Version = "v2" });
+});
+
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    options.SwaggerEndpoint("/swagger/v2/swagger.json", "My API V2");
+});
+```
+
+**✅ Figure: Good example - Each API version gets its own Swagger documentation**
+
+## Version lifecycle best practices
+
+1. **Support at least 2 versions** - Current and previous
+2. **Announce deprecation early** - Give clients 6-12 months notice
+3. **Monitor version usage** - Track which versions clients use before retiring
+4. **Document migration guides** - Help clients upgrade to new versions
+5. **Use Sunset headers** - Standard way to communicate retirement dates
+
+```csharp
+// Track version usage for analytics
+app.Use(async (context, next) =>
+{
+    var version = context.GetRequestedApiVersion();
+    _telemetry.TrackEvent("ApiVersionUsed", new { Version = version?.ToString() });
+    await next();
+});
+```
+
+**✅ Figure: Good example - Monitor which versions are still in use before retiring**
+
+## Summary
+
+| Do | Avoid |
+|----|-------|
+| Version from day one | Adding versioning later is painful |
+| Use URL path versioning | Query string versioning (easy to forget) |
+| Add Sunset headers for deprecated versions | Removing versions without notice |
+| Support N and N-1 versions minimum | Supporting too many old versions |
+| Document breaking changes clearly | Assuming clients will figure it out |
