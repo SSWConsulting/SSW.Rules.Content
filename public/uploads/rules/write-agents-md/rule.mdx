@@ -16,7 +16,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T05:28:23.282Z
+lastUpdated: 2026-02-04T05:39:00.573Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -36,7 +36,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **✅ Common commands** - List frequently used scripts for building, testing, and linting
 * **✅ Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 * **✅ Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
-* ❌ **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
+* ❌ **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control 
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
@@ -49,7 +49,7 @@ By providing this information, you ensure that the AI's suggestions are consiste
   style="tips"
 />
 
-## Creating an AGENTS.md
+## Example
 
 A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its `AGENTS.md` file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
 
@@ -67,15 +67,6 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
 
 For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
 
-<boxEmbed
-  body={<>
-    Tip: AI-enabled IDEs and CLI Agents can generate AGENTS.md for you. It's very easy!
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
 As your project grows, so will your AGENTS.md. Read on to learn how to tackle the scaling problem.
 
 ## Even better: multiple AGENTS.md
@@ -90,7 +81,7 @@ This is where hierarchy comes in. As per the standard, Agents will prioritise th
 
 In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
 
-The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, what the overall architecture is, and how to run the whole application, as the detailed instructions will be in the package-specific `AGENTS.md` files.
 
 Multiple AGENTS.md is particularly useful for architectures like [Modular Monoliths](/modular-monolith-architecture), where you can place AGENTS.md inside each module.
 
@@ -141,53 +132,50 @@ You could also have a separate AGENTS.md for your tests!
 
 ## How to install
 
-### ⭐ AI Enabled (Recommended)
-
-In OpenCode, you can run
-
-```bash
-/init
-```
-
-Which will automatically setup AGENTS.md.
-
-If your AI-IDE or CLI tool doesn't support this yet, you can use this prompt to get started:
+### 🦕 Manually
 
 <boxEmbed
   body={<>
-    ```
-    Analyze this codebase to generate or update `AGENTS.md` for guiding AI coding agents.
-    
-    Focus on discovering the essential knowledge that would help an AI agents be immediately productive in this codebase. Consider aspects like:
-    - The "big picture" architecture that requires reading multiple files to understand - major components, service boundaries, data flows, and the "why" behind structural decisions
-    - Critical developer workflows (builds, tests, debugging) especially commands that aren't obvious from file inspection alone
-    - Project-specific conventions and patterns that differ from common practices
-    - Integration points, external dependencies, and cross-component communication patterns
-    
-    Source existing AI conventions from `**/.github/copilot-instructions.md,AGENT.md,AGENTS.md,CLAUDE.md,.cursorrules,.windsurfrules,.clinerules,.cursor/rules/**,.windsurf/rules/**,.clinerules/**,README.md` (do one glob search).
-    
-    Guidelines:
-    - If `AGENTS.md` exists, merge intelligently - preserve valuable content while updating outdated sections
-    - If this is a large repository with many modules, write an AGENTS.md for each module, with the root AGENTS.md only containing high-level architectural information, how to run the whole project, etc.
-    - The "submodule" AGENTS.md files should contain more specific information for the module they refer to, including how to run, and any important information only relevant to that submodule.
-    - Write concise, actionable instructions (~20-50 lines) using markdown structure
-    - Include specific examples from the codebase when describing patterns
-    - Avoid generic advice ("write tests", "handle errors") - focus on THIS project's specific approaches
-    - Document only discoverable patterns, not aspirational practices
-    - Reference key files/directories that exemplify important patterns
-    
-    Update `AGENTS.md` for the user, then ask for feedback on any unclear or incomplete sections to iterate.
-    ```
+    1. Create the file: Add `AGENTS.md` to the root of your repository.
+    2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
+    3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
   </>}
-  figurePrefix="none"
-  figure="Prompt for generating an AGENTS.md"
+  figurePrefix="bad"
+  figure="Creating it without AI assistance"
 />
 
-### 🦕 Manually
+❌ Bad Example - Creating it without AI assistance
 
-1. Create the file: Add `AGENTS.md` to the root of your repository.
-2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
-3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
+### ⭐ AI Enabled (Recommended)
+
+<boxEmbed
+  body={<>
+    In OpenCode, you can run
+    
+    ```bash
+    /init
+    ```
+    
+    Which will automatically setup AGENTS.md.
+    
+    If your AI-IDE or CLI tool doesn't support this yet, you can use the prompt from the GitHub docs (and rename “copilot-instructions.md” to “AGENTS.md”
+    
+    [https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions)
+  </>}
+  figurePrefix="good"
+  figure="Using AI to install"
+/>
+
+✅ Good Example - Using AI to Install
+
+<boxEmbed
+  body={<>
+
+  </>}
+  figurePrefix="bad"
+  figure="Creating it without AI assistance"
+  style=""
+/>
 
 <boxEmbed
   body={<>
