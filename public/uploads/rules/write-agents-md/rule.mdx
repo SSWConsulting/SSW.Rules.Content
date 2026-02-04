@@ -16,7 +16,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T04:17:18.228Z
+lastUpdated: 2026-02-04T04:21:51.221Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -127,7 +127,45 @@ You could also have a separate AGENTS.md for your tests
 * **Avoid duplication** - Don't repeat what's in linter configs or `.editorconfig`
 * **Keep it current** - Outdated instructions are worse than none
 
-## How to implement it
+## How to install
+
+### ⭐ AI Enabled (Recommended)
+
+In OpenCode, you can run 
+
+```bash
+/init
+```
+
+Which will automatically setup AGENTS.md.
+
+If your AI-IDE or CLI tool doesn't support this yet, you can use this prompt to get started:
+
+```
+Analyze this codebase to generate or update `AGENTS.md` for guiding AI coding agents.
+
+Focus on discovering the essential knowledge that would help an AI agents be immediately productive in this codebase. Consider aspects like:
+- The "big picture" architecture that requires reading multiple files to understand - major components, service boundaries, data flows, and the "why" behind structural decisions
+- Critical developer workflows (builds, tests, debugging) especially commands that aren't obvious from file inspection alone
+- Project-specific conventions and patterns that differ from common practices
+- Integration points, external dependencies, and cross-component communication patterns
+
+Source existing AI conventions from `**/{.github/copilot-instructions.md,AGENT.md,AGENTS.md,CLAUDE.md,.cursorrules,.windsurfrules,.clinerules,.cursor/rules/**,.windsurf/rules/**,.clinerules/**,README.md}` (do one glob search).
+
+Guidelines (read more at https://aka.ms/vscode-instructions-docs):
+- If `AGENTS.md` exists, merge intelligently - preserve valuable content while updating outdated sections
+- If this is a large repository with many modules, write an AGENTS.md for each module, with the root AGENTS.md only containing high-level architectural information, how to run the whole project, etc.
+- The "submodule" AGENTS.md files should contain more specific information for the module they refer to, including how to run, and any important information only relevant to that submodule.
+- Write concise, actionable instructions (~20-50 lines) using markdown structure
+- Include specific examples from the codebase when describing patterns
+- Avoid generic advice ("write tests", "handle errors") - focus on THIS project's specific approaches
+- Document only discoverable patterns, not aspirational practices
+- Reference key files/directories that exemplify important patterns
+
+Update `AGENTS.md` for the user, then ask for feedback on any unclear or incomplete sections to iterate.
+```
+
+### 🦕 Manually 
 
 1. Create the file: Add `AGENTS.md` to the root of your repository.
 2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
