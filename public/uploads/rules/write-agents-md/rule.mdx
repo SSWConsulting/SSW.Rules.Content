@@ -16,7 +16,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T05:40:11.898Z
+lastUpdated: 2026-02-04T05:44:14.466Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -144,23 +144,29 @@ You could also have a separate AGENTS.md for your tests!
   figure="Creating it without AI assistance"
 />
 
-###
+<boxEmbed
+  body={<>
+    ### Paste a prompt
+    
+    If your AI-IDE or CLI tool doesn't support this yet, you can use the prompt from the GitHub docs (and rename “copilot-instructions.md” to “AGENTS.md”
+    
+    [https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions)
+  </>}
+  figurePrefix="ok"
+  figure="Paste the prompt"
+/>
 
 <boxEmbed
   body={<>
     ### ⭐ AI Enabled (Recommended)
     
-    In OpenCode, you can run
+    Most AI IDE or CLI tools provide a way to generate this documentation, e.g. in OpenCode, you can run
     
     ```bash
     /init
     ```
     
     Which will automatically setup AGENTS.md.
-    
-    If your AI-IDE or CLI tool doesn't support this yet, you can use the prompt from the GitHub docs (and rename “copilot-instructions.md” to “AGENTS.md”
-    
-    [https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions)
   </>}
   figurePrefix="good"
   figure="Using AI to install"
@@ -178,5 +184,4 @@ You could also have a separate AGENTS.md for your tests!
 ## Further Reading
 
 * [https://www.agents.md/](https://www.agents.md/)
-* [https://www.builder.io/blog/agents-md](https://www.builder.io/blog/agents-md)
 * [https://opencode.ai/docs/rules/](https://opencode.ai/docs/rules/)
