@@ -30,7 +30,7 @@ jobs:
           # Function to check if a user is a bot
           function Test-IsBot {
             param($login)
-            return $login -match '\[bot\]$' -or $login -eq 'dependabot' -or $login -eq 'renovate' -or $login -eq 'github-actions'
+            return $login -match '\[bot\]$' -or $login -eq 'dependabot' -or $login -eq 'renovate' -or $login -eq 'github-actions' -or $login -eq 'copilot'
           }
           
           # Check if PR author is a bot
