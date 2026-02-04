@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
+seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using multi-targeting, C# preprocessor directives, and MSBuild conditions.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
 categories:
@@ -17,9 +17,23 @@ Here are some essential tips for managing changes that are not compatible with b
 
 <endIntro />
 
-### Using #if Pragma Statements
+### Multi-targeting your project
 
-You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
+If you need to support both the old and new TFMs for a period of time, multi-target the project so you can build/test both:
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>net48;net10.0</TargetFrameworks>
+</PropertyGroup>
+```
+
+This lets you keep one codebase while you migrate, and it makes compatibility issues visible in CI (because both TFMs compile).
+
+Once the migration is complete, you can remove the old TFM from `TargetFrameworks`.
+
+### Using C# preprocessor directives (`#if`, `#elif`, `#endif`)
+
+You can use C# preprocessor directives to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
 
 Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
 
@@ -28,7 +42,7 @@ public static class WebClientFactory
 {
   public static IWebClient GetWebClient()
   {
-#if NET472
+#if NET48
     return new CustomWebClient();
 #else
     return new CustomHttpClient();
@@ -36,17 +50,159 @@ public static class WebClientFactory
   }
 }
 ```
-**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
+**✅ Code: Good example - Using preprocessor directives and a factory pattern**  
+
+Tip: Prefer explicit version checks when possible, as they scale better than `#else`:
+
+```cs
+#if NET10_0_OR_GREATER
+// Use the .NET 10+ implementation
+#else
+// Use the .NET Framework implementation
+#endif
+```
+
+If you want `#if NET48` to work reliably, define it in your project file (so it’s available when compiling the `net48` target):
+
+```xml
+<PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+  <DefineConstants>$(DefineConstants);NET48</DefineConstants>
+</PropertyGroup>
+```
 
 ### Using MSBuild conditions
 
 You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM. This enables you to manage references dynamically based on the TFM in use.
 
-```cs
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
 **✅ Code: Good example - Using MSBuild conditions**  
+
+#### Conditional NuGet packages per TFM
+
+In SDK-style projects, you can use a similar approach to separate target-specific NuGet packages:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <PackageReference Include="Some.Legacy.Package" Version="1.*" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <PackageReference Include="Some.Modern.Package" Version="10.*" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Common.Package" Version="5.*" />
+</ItemGroup>
+```
+
+#### Optional: Include different source files per TFM
+
+If the implementation differs a lot, keep the code in separate files and include them conditionally:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <Compile Include="Compatibility\\WebClientFactory.net48.cs" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <Compile Include="Compatibility\\WebClientFactory.net10.cs" />
+</ItemGroup>
+```
+
+### CI: Build & Test matrix (GitHub Actions example)
+
+Use a small matrix job to build and test each TFM on an appropriate runner (Windows for `net48`, Linux for `net10.0`). Adjust the `dotnet-version` and steps for your repository layout.
+
+```yaml
+name: .NET Multi-TFM CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            tfm: net48
+          - os: ubuntu-latest
+            tfm: net10.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 10.0.x
+      - name: Restore
+        run: dotnet restore
+      - name: Build
+        run: dotnet build -c Release -f ${{ matrix.tfm }}
+      - name: Test
+        run: dotnet test -c Release -f ${{ matrix.tfm }} --no-build
+```
+
+Note: `net48` requires a Windows runner; the matrix `include` pairs each TFM with a compatible OS. If your repo has multiple projects or solution-level builds, adjust the `dotnet` commands accordingly and add caching or solution-specific restore steps.
+
+### Azure Pipelines example
+
+If you use Azure DevOps pipelines, a simple approach is two jobs: one on Windows for `net48` and one on Linux for `net10.0`.
+
+```yaml
+trigger:
+  branches:
+    include: [ main ]
+
+jobs:
+- job: Build_net48
+  displayName: Build & Test (net48) - Windows
+  pool:
+    vmImage: 'windows-latest'
+  steps:
+    - task: UseDotNet@2
+      inputs:
+        packageType: 'sdk'
+        version: '10.0.x'
+    - script: dotnet restore
+      displayName: Restore
+    - script: dotnet build -c Release -f net48
+      displayName: Build net48
+    - script: dotnet test -c Release -f net48 --no-build
+      displayName: Test net48
+
+- job: Build_net10
+  displayName: Build & Test (net10.0) - Linux
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+    - task: UseDotNet@2
+      inputs:
+        packageType: 'sdk'
+        version: '10.0.x'
+    - script: dotnet restore
+      displayName: Restore
+    - script: dotnet build -c Release -f net10.0
+      displayName: Build net10.0
+    - script: dotnet test -c Release -f net10.0 --no-build
+      displayName: Test net10.0
+```
+
+Notes: adjust the `version` in `UseDotNet@2`, add solution paths if needed, and include caching or artifact publishing as appropriate for your pipeline.
+
+### Post-migration cleanup
+
+Once the main branch has fully moved to the new TFM:
+
+- Remove the old TFM from `TargetFrameworks`
+- Delete the old implementation paths (or per-TFM files)
+- Remove conditional MSBuild blocks and legacy package references
+
+### Definition of done
+
+- The project builds for all target TFMs
+- Tests run for each TFM in CI
+- Compatibility code is isolated (minimal `#if` in domain/business logic)
