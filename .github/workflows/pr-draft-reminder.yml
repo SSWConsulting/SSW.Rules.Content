@@ -66,14 +66,15 @@ jobs:
                     
                     # Parse Co-authored-by: lines to extract GitHub usernames
                     # Matches two email formats used by GitHub:
-                    #   1. username@users.noreply.github.com (captures username in group 1)
-                    #   2. id+username@users.noreply.github.com (captures username in group 3)
-                    $coAuthorPattern = 'Co-authored-by:\s*[^<]+<(?:(\d+)\+)?([^@>]+)@users\.noreply\.github\.com>'
+                    #   1. username@users.noreply.github.com
+                    #   2. id+username@users.noreply.github.com
+                    # In both cases, username is captured in group 1
+                    $coAuthorPattern = 'Co-authored-by:\s*[^<]+<(?:\d+\+)?([^@>]+)@users\.noreply\.github\.com>'
                     $matches = [regex]::Matches($commitMessage, $coAuthorPattern)
                     
                     foreach ($match in $matches) {
-                      # Extract username from group 2 (works for both formats)
-                      $coAuthorLogin = $match.Groups[2].Value
+                      # Extract username from group 1 (works for both formats)
+                      $coAuthorLogin = $match.Groups[1].Value
                       
                       if ($coAuthorLogin -and -not (Test-IsBot $coAuthorLogin)) {
                         $targetUser = $coAuthorLogin
