@@ -14,7 +14,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T01:22:30.164Z
+lastUpdated: 2026-02-04T01:34:35.888Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -25,7 +25,7 @@ AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but
 
 <endIntro _hidden="" />
 
-## Why use AGENTS.md?
+## What goes into an AGENTS.md?
 
 An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
 
@@ -78,6 +78,9 @@ This is where hierarchy comes in. As per the standard, Agents will prioritise th
 In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
 
 The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+
+
+Multiple AGENTS.md is particularly useful for architectures like [Modular Monoliths](/modular-monolith-architecture), where you can place AGENTS.md inside each module.
 
 <boxEmbed
   style="greybox"
@@ -159,3 +162,4 @@ The "root" `AGENTS.md` file in this case should contain only high-level instruct
 
 * [https://www.builder.io/blog/agents-md](https://www.builder.io/blog/agents-md)
 * [https://www.agents.md/](https://www.agents.md/) 
+* [https://opencode.ai/docs/rules/](https://opencode.ai/docs/rules/)
