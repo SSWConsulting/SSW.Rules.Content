@@ -27,8 +27,14 @@ jobs:
           
           Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
           
+          # Function to check if a user is a bot
+          function Test-IsBot {
+            param($login)
+            return $login -match '\[bot\]$' -or $login -eq 'dependabot' -or $login -eq 'renovate' -or $login -eq 'github-actions'
+          }
+          
           # Check if PR author is a bot
-          $authorIsBot = $prAuthor -match '\[bot\]$' -or $prAuthor -eq 'dependabot' -or $prAuthor -eq 'renovate' -or $prAuthor -eq 'github-actions'
+          $authorIsBot = Test-IsBot $prAuthor
           
           $targetUser = $prAuthor
           
@@ -36,23 +42,40 @@ jobs:
             Write-Output "PR author is a bot, looking for first non-bot commit author..."
             
             # Get commits from the PR
-            $commitsJson = gh pr view $prNumber --repo '${{ github.repository }}' --json commits | ConvertFrom-Json
-            
-            $foundNonBotUser = $false
-            foreach ($commit in $commitsJson.commits) {
-              $commitAuthor = $commit.author.login
-              $commitAuthorIsBot = $commitAuthor -match '\[bot\]$' -or $commitAuthor -eq 'dependabot' -or $commitAuthor -eq 'renovate' -or $commitAuthor -eq 'github-actions'
+            try {
+              $commitsJson = gh pr view $prNumber --repo '${{ github.repository }}' --json commits | ConvertFrom-Json
               
-              if (-not $commitAuthorIsBot -and $commitAuthor) {
-                $targetUser = $commitAuthor
-                $foundNonBotUser = $true
-                Write-Output "Found non-bot user: $targetUser"
-                break
+              if ($commitsJson.commits -and $commitsJson.commits.Count -gt 0) {
+                $foundNonBotUser = $false
+                foreach ($commit in $commitsJson.commits) {
+                  # Check if commit author exists and has a login
+                  if ($commit.author -and $commit.author.login) {
+                    $commitAuthor = $commit.author.login
+                    
+                    if (-not (Test-IsBot $commitAuthor)) {
+                      $targetUser = $commitAuthor
+                      $foundNonBotUser = $true
+                      Write-Output "Found non-bot user: $targetUser"
+                      break
+                    }
+                  }
+                }
+                
+                if (-not $foundNonBotUser) {
+                  Write-Output "No non-bot user found in commits. Skipping workflow."
+                  echo "skip=true" >> $env:GITHUB_OUTPUT
+                  echo "target_user=" >> $env:GITHUB_OUTPUT
+                  exit 0
+                }
+              } else {
+                Write-Output "No commits found in PR. Skipping workflow."
+                echo "skip=true" >> $env:GITHUB_OUTPUT
+                echo "target_user=" >> $env:GITHUB_OUTPUT
+                exit 0
               }
-            }
-            
-            if (-not $foundNonBotUser) {
-              Write-Output "No non-bot user found in commits. Skipping workflow."
+            } catch {
+              Write-Output "Failed to fetch PR commits: $_"
+              Write-Output "Skipping workflow."
               echo "skip=true" >> $env:GITHUB_OUTPUT
               echo "target_user=" >> $env:GITHUB_OUTPUT
               exit 0
