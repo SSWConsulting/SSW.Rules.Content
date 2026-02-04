@@ -68,7 +68,8 @@ jobs:
                     # Matches two email formats used by GitHub:
                     #   1. username@users.noreply.github.com
                     #   2. id+username@users.noreply.github.com
-                    # In both cases, username is captured in group 1
+                    # The (?:\d+\+)? is a non-capturing group for the optional ID prefix
+                    # Username is captured in group 1 for both formats
                     $coAuthorPattern = 'Co-authored-by:\s*[^<]+<(?:\d+\+)?([^@>]+)@users\.noreply\.github\.com>'
                     $matches = [regex]::Matches($commitMessage, $coAuthorPattern)
                     
