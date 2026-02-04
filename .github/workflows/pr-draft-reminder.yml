@@ -39,30 +39,57 @@ jobs:
           $targetUser = $prAuthor
           
           if ($authorIsBot) {
-            Write-Output "PR author is a bot, looking for first non-bot commit author..."
+            Write-Output "PR author is a bot, looking for first non-bot commit author or co-author..."
             
-            # Get commits from the PR
+            # Get commits from the PR with their messages
             try {
               $commitsJson = gh pr view $prNumber --repo '${{ github.repository }}' --json commits | ConvertFrom-Json
               
               if ($commitsJson.commits -and $commitsJson.commits.Count -gt 0) {
                 $foundNonBotUser = $false
                 foreach ($commit in $commitsJson.commits) {
-                  # Check if commit author exists and has a login
+                  # First, check if commit author exists and is a non-bot
                   if ($commit.author -and $commit.author.login) {
                     $commitAuthor = $commit.author.login
                     
                     if (-not (Test-IsBot $commitAuthor)) {
                       $targetUser = $commitAuthor
                       $foundNonBotUser = $true
-                      Write-Output "Found non-bot user: $targetUser"
+                      Write-Output "Found non-bot commit author: $targetUser"
                       break
                     }
+                  }
+                  
+                  # If commit author is bot or null, check for co-authors in commit message
+                  if ($commit.messageBody -or $commit.messageHeadline) {
+                    $commitMessage = "$($commit.messageHeadline)`n$($commit.messageBody)"
+                    
+                    # Parse Co-authored-by: lines
+                    # Format: Co-authored-by: Name <email@example.com>
+                    # Or: Co-authored-by: Name <username@users.noreply.github.com>
+                    $coAuthorPattern = 'Co-authored-by:\s*[^<]+<([^@>]+)@users\.noreply\.github\.com>|Co-authored-by:\s*[^<]+<(\d+)\+([^@>]+)@users\.noreply\.github\.com>'
+                    $matches = [regex]::Matches($commitMessage, $coAuthorPattern)
+                    
+                    foreach ($match in $matches) {
+                      # Extract username from either capture group
+                      $coAuthorLogin = if ($match.Groups[1].Success) { $match.Groups[1].Value } elseif ($match.Groups[3].Success) { $match.Groups[3].Value } else { $null }
+                      
+                      if ($coAuthorLogin -and -not (Test-IsBot $coAuthorLogin)) {
+                        $targetUser = $coAuthorLogin
+                        $foundNonBotUser = $true
+                        Write-Output "Found non-bot co-author: $targetUser"
+                        break
+                      }
+                    }
+                  }
+                  
+                  if ($foundNonBotUser) {
+                    break
                   }
                 }
                 
                 if (-not $foundNonBotUser) {
-                  Write-Output "No non-bot user found in commits. Skipping workflow."
+                  Write-Output "No non-bot user found in commits or co-authors. Skipping workflow."
                   echo "skip=true" >> $env:GITHUB_OUTPUT
                   exit 0
                 }
