@@ -1,32 +1,45 @@
 ---
-authors:
-- img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-  title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jernej-kavka
-- title: Gordon Beeming
-  url: https://www.ssw.com.au/people/gordon-beeming
-created: 2023-06-06 22:07:00+00:00
-guid: 71755477-0a38-4402-a5c8-1347883df481
-related:
-- rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
-seoDescription: Migrate from System.Web to modern alternatives and upgrade .NET Framework
-  applications to .NET or .NET Standard.
-title: Do you know how to migrate from System.Web to modern alternatives
-categories:
-  - category: categories/software-engineering/rules-to-better-net8-migrations.mdx
 type: rule
+title: Do you know how to migrate from System.Web to modern alternatives
 uri: migrate-from-system-web-to-modern-alternatives
+categories:
+  - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
+authors:
+  - title: Jernej Kavka (JK)
+    url: 'https://ssw.com.au/people/jernej-kavka'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Sylvia Huang
+    url: 'https://ssw.com.au/people/sylvia-huang'
+related:
+  - rule: public/uploads/rules/dotnet-upgrade-for-complex-projects/rule.mdx
+guid: 71755477-0a38-4402-a5c8-1347883df481
+seoDescription: >-
+  Migrate from System.Web to modern alternatives and upgrade .NET Framework
+  applications to .NET or .NET Standard.
+created: 2023-06-06T22:07:00.000Z
+createdBy: Sylvia Huang
+createdByEmail: sylviahuang@ssw.com.au
+lastUpdated: 2026-01-27T09:12:55.860Z
+lastUpdatedBy: Sylvia Huang
+lastUpdatedByEmail: sylviahuang@ssw.com.au
 ---
 
-When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address System.Web. On upgrade, the reference to System.Web is either removed or will cause compile-time errors.
+When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address [System.Web](https://learn.microsoft.com/en-us/dotnet/api/system.web?view=netframework-4.8.1) dependencies. Many classes and interfaces in System.Web that enable browser-server communication are removed for .NET Core and .NET 5+, resulting in compile-time error.
 
-When it’s removed, the most common compile time error will be HttpContext.Current.
+There are two primary strategies for migration: a complete rewrite to utilize .NET’s native implementation or the use of System.Web adapters to minimize code changes during an incremental migration.
 
-There are several options available depending on the scenario and stage of migration.
+<endIntro _hidden="" />
 
-## 1. Replace with IHttpContextAccessor (.NET only)
+## 1. Complete rewrite
 
-When moving to .NET, you’ll find `HttpContext.Current` no longer exists. You can use `IHttpContextAccessor` instead in constructor and access it via `httpContextAccessor.HttpContext`.
+If performance is critical and you can afford extensive code changes, a complete rewrite is advisable.
+
+### 1. Replace with IHttpContextAccessor (.NET only)
+
+When moving to .NET, you’ll find `HttpContext.Current` no longer exists. This is because .NET uses [Microsoft.AspNetCore.Http.HttpContext](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.http.httpcontext?view=aspnetcore-10.0), which has fundamentally different implementation from [System.Web.HttpContext](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpcontext?view=netframework-4.8.1).
+
+You can rewrite the code with `IHttpContextAccessor` in constructor and access it via `httpContextAccessor.HttpContext`.
 
 ```csharp
 public class SomeService
@@ -38,7 +51,8 @@ public class SomeService
     }
 }
 ```
-**❌ Figure: Bad example - An example .NET Framework code snippet demonstrating use of HttpContext.Current in a method.**  
+
+**❌ Figure: Bad example - .NET Framework code snippet demonstrating use of HttpContext.Current**
 
 ```csharp
 public class SomeService
@@ -57,11 +71,12 @@ public class SomeService
     }
 }
 ```
-**✅ Figure: Good example - Code snippet showing the replacement of HttpContext.Current with IHttpContextAccessor in a .NET service class.**  
 
-## 2. Abstracting functionality
+**✅ Figure: Good example - .NET code snippet showing the replacement of HttpContext.Current with IHttpContextAccessor**
 
-You can also abstract what you need from HttpContext, which can be useful it you want to run the code in a non-web environment like a console app or if you want to keep dependency on .NET Framework.
+### 2. Abstracting functionality
+
+You can also abstract what you need from HttpContext, which can be useful if you want to run the code in a non-web environment like a console app or if you want to keep dependency on .NET Framework.
 
 If you multi-target .NET and .NET Framework, we need to add back System.Web reference for .NET Framework. We do that by updating the csproj file.
 
@@ -72,21 +87,12 @@ If you multi-target .NET and .NET Framework, we need to add back System.Web refe
 </ItemGroup>
 
 <!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp -->
-<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 </ItemGroup>
 ```
 
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Figure: Conditional inclusion of the "System.Web" reference in a .NET Framework 4.7.2 project.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
+**Figure: Conditional inclusion of the "System.Web" reference in a .NET Framework 4.7.2 project.**
 
 Next step is to define an interface. For this case, we’ll only expose currently authenticated user. We are calling it IApplicationContext as it contains context for current request, whether it’s coming from an HttpContext or somewhere else if it’s a background job or console application.
 
@@ -97,16 +103,7 @@ public interface IRequestContext
 }
 ```
 
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    Figure: IRequestContext interface for retrieving the current user's username.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
+**Figure: IRequestContext interface for retrieving the current user's username.**
 
 Below you can see multiple implementations of `IRequestContext` as an example. You may need to implement in the web application project of the respective platform.
 
@@ -152,29 +149,11 @@ public sealed class BackgroundJobRequestContext : IRequestContext
 }
 ```
 
+**Figure: Different implementations of the `IRequestContext` interface for various environments (.NET Framework, .NET Core, and non-web contexts).**
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    Figure: Different implementations of the `IRequestContext` interface for various environments (.NET Framework, .NET Core, and non-web contexts).
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+NOTE: If the above code needs to be in a multi-target project, you can use the `#if NET472_OR_GREATER` pragma to target specifically .NET Framework code.
 
-
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    NOTE: If the above code needs to be in a multi-target project, you can use the `#if NET472_OR_GREATER` pragma to target specifically .NET Framework code.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-
-## 3. Abstract HttpContext Accessor (.NET Framework only)
+### 3. Abstract HttpContext Accessor (.NET Framework only)
 
 For projects heavily dependent on **`HttpContext`** and where abstracting **`HttpContext`** is impractical, you can mimic the behavior of **`IHttpContextAccessor`** in .NET Framework. While **`IHttpContextAccessor`** is available to .NET applications, it’s not for .NET Framework applications.
 
@@ -198,44 +177,13 @@ namespace Microsoft.AspNetCore.Http
 }
 ```
 
+**Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.**
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    Figure: A .NET Framework specific implementation of the IHttpContextAccessor interface, only available when the target framework is .NET 4.7.2 or greater.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+## 2. Incremental migration: System.Web adapters
 
+For larger applications or those with significant shared libraries, you might want to employ  [**`System.Web`** adapters](https://github.com/dotnet/systemweb-adapters) for a smoother transition.
 
-
-<boxEmbed
-  style="greybox"
-  body={<>
-    NOTE: Make sure your .csproj is correctly configured. Don't use
-
-```xml
-&lt;!-- .NET Framework reference for HttpContext --&gt;
-&lt;ItemGroup Condition="'$(TargetFramework)' == 'net472'"&gt;
-    &lt;Reference Include="System.Web" /&gt;
-&lt;/ItemGroup&gt;
-
-&lt;!-- .NET reference for IHttpContextAccessor, already included if the project is WebApp --&gt;
-&lt;ItemGroup Condition="'$(TargetFramework)' == 'net8.0'"&gt;
-    &lt;FrameworkReference Include="Microsoft.AspNetCore.App" /&gt;
-&lt;/ItemGroup&gt;
-```
-
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-
-## 4. ⚠️ Last resort: System.Web adapters
-
-As a final resort, you can use **`System.Web`** adapters. These allow you to access **`HttpContext.Current`** without needing to port the code. Be aware that while this might seem like an easy solution, not all projects have been able to adopt this without issues. Therefore, it should only be used as a last resort if all other options fail.
+These adapters allow you to access **`HttpContext.Current`** without needing to port the code. Be aware that while this might seem like an easy solution, not all projects have been able to adopt this without issues. 
 
 Please refer to the official Microsoft documentation on [System.Web adapters | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/migration/fx-to-core/inc/systemweb-adapters?view=aspnetcore-9.0) for more details.
 
