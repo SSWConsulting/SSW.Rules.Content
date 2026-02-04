@@ -14,7 +14,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T01:34:35.888Z
+lastUpdated: 2026-02-04T03:15:29.350Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -29,21 +29,14 @@ AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but
 
 An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
 
-* **Architecture overview** - Explain the tech stack and how different layers interact
-* **Coding standards** - Define naming conventions, preferred libraries, and patterns
-* **Common commands** - List frequently used scripts for building, testing, and linting
-* **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
-* **Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
+* **✅ Architecture overview** - Explain the tech stack and how different layers interact
+* **✅ Coding standards** - Define naming conventions, preferred libraries, and patterns
+* **✅ Common commands** - List frequently used scripts for building, testing, and linting
+* **✅ Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
+* **✅ Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
+* ❌ **Secrets **- Never put API keys, secrets, or sensitive internal information, it's committed to source control (if you must, keep a gitignored `SECRETS.md`, and reference from your `AGENTS.md`
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
-
-<boxEmbed
-  body={<>
-    ⚠️ **Security:** Never put API keys, secrets, or sensitive internal URLs in AGENTS.md - it's committed to source control.
-  </>}
-  figurePrefix="bad"
-  figure="Exposing credentials in version-controlled files"
-/>
 
 ## Creating an AGENTS.md
 
@@ -87,7 +80,6 @@ This is where hierarchy comes in. As per the standard, Agents will prioritise th
 In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
 
 The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
-
 
 Multiple AGENTS.md is particularly useful for architectures like [Modular Monoliths](/modular-monolith-architecture), where you can place AGENTS.md inside each module.
 
@@ -139,15 +131,6 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
 
 <boxEmbed
   body={<>
-    **Tip:** If you're not sure where to start, get your agent to generate its own `AGENTS.md` file.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-<boxEmbed
-  body={<>
     **Tip:** Include in your `AGENTS.md`, "Ensure you keep `AGENTS.md` up to date if any changes to the codebase necessitates it."
   </>}
   figurePrefix="none"
@@ -168,7 +151,7 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
 
 <boxEmbed
   body={<>
-    Tip: If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
+    **Tip:** If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
   </>}
   figurePrefix="none"
   figure=""
@@ -178,5 +161,5 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
 ## Further Reading
 
 * [https://www.builder.io/blog/agents-md](https://www.builder.io/blog/agents-md)
-* [https://www.agents.md/](https://www.agents.md/) 
+* [https://www.agents.md/](https://www.agents.md/)
 * [https://opencode.ai/docs/rules/](https://opencode.ai/docs/rules/)
