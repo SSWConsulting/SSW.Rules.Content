@@ -217,7 +217,7 @@ ORDER BY Timestamp
 
 | Do | Avoid |
 |-----|-------|
-| Use message templates with named parameters | String interpolation ($"User {userId}") |
+| Use message templates with named parameters | String interpolation ($"User \{userId\}") |
 | Include correlation IDs | Logs without request context |
 | Use appropriate log levels | Logging everything as Information |
 | Mask sensitive data | Logging passwords, tokens, PII |
