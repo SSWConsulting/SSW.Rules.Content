@@ -25,7 +25,7 @@ lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
 
-Some older .NET Framework projects will have EDMX instead of the modern `DbContext` introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518) back in 2012. EDMX projects typically use `ObjectContext` (or an EDMX-generated context that wraps it) for a Database-First approach.
+Some older .NET Framework projects will have EDMX instead of the modern `DbContext` introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518) back in 2012. EDMX projects often use `ObjectContext` (or an EDMX-generated context that wraps it) for a Database-First approach.
 
 In this rule, we'll refer to `ObjectContext` (EF6-era API surface) and the EDMX-generated `*Entities` context (e.g. `DataEntities`). The generated context typically wraps `ObjectContext` and is what most application code interacts with.
 
@@ -52,20 +52,15 @@ When this approach is not a good fit:
 
 This rule’s strategy includes:
 
-1. Abstract existing `ObjectContext/Entities` class with a custom `IDbContext` interface (e.g. `ITenantDbContext`)
+1. Abstract existing `ObjectContext/Entities` class with a custom interface (e.g. `ITenantDbContext`)
 2. Reverse-engineer the database (scaffold)
   - UI (preferred): [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
   - CLI (fallback): `dotnet ef dbcontext scaffold` (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8)
 3. Implement the interface from step 1 and refactor entities
    1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
    2. Replace `ObjectSet<T>` with `DbSet<T>`
-   3. Make any other necessary refactors
-      1. Nullables might be treated differently
-      2. Some properties will be a different type and you'll need to fix the mapping
-      3. Lazy loading can be an issue. Fix it with eager loading.
-      4. Query translation and runtime behavior changes (compared to EF6/EDMX) can surface as runtime exceptions or performance regressions
-      5. Use `.AsEnumerable()` deliberately (and measure), use raw SQL, or change how the query works
-      6. Add a **TechDebt** comment and PBI - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
+  3. Address common refactor gotchas (see "Common gotchas" below): nullability differences, lazy loading, query translation, and performance
+  4. Add a **TechDebt** comment and PBI when you need to defer deeper refactors - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
 4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
 5. Remove EF6 namespaces like `System.Data.Entity` from files that are now using EF Core (otherwise you can get confusing type clashes and LINQ/runtime issues)
 6. Add `Microsoft.EntityFrameworkCore` namespace
@@ -248,6 +243,8 @@ If you can’t use the UI tool (or you want something repeatable for CI), you ca
 ```powershell
 dotnet tool update --global dotnet-ef
 ```
+
+Tip: Keep the `dotnet-ef` major version aligned with your EF Core major version (e.g. EF Core 10 → `dotnet-ef` 10.x).
 
 1. Add the EF Core packages (project file)
 
