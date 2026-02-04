@@ -14,7 +14,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T00:34:11.785Z
+lastUpdated: 2026-02-04T01:01:44.483Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -31,7 +31,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 
 * **Architecture overview** - Explain the tech stack and how different layers interact
 * **Coding standards** - Define naming conventions, preferred libraries, and patterns
-* **Common commands** - List freque ntly used scripts for building, testing, and linting
+* **Common commands** - List frequently used scripts for building, testing, and linting
 * **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
@@ -71,9 +71,9 @@ You might be thinking: “Wait.. I have a massive monorepo. There's no way it's 
 
 Correct. It's unwise to just dump all of that context into the AI, if it is only going to find 5% of it useful.
 
-This is where hierarchy comes in. As per the standard, Agents will only read the nearest `AGENTS.md` file, meaning you can stratify your documentation.
+This is where hierarchy comes in. As per the standard, Agents will prioritise the nearest `AGENTS.md` file, while also injecting all parent `AGENTS.md` in its path.
 
-Place another `AGENTS.md` file inside each package. Agents will find all `AGENTS.md` files in the current file path, which will all be used as context.
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="If working in `repo/apps/web-app/src`, the highlighted AGENTS.md are used" src="/uploads/rules/write-agents-md/filepathagentsmd.png" />
 
 In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
 
