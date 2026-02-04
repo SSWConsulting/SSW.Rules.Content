@@ -23,7 +23,9 @@ lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
 
-AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
+AI coding assistants like
+
+ Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
 
 `AGENTS.md`is an agreed-upon standard between all the big AI players, replacing things like `.cursorrules` and `copilot_instructions.md`.
 
@@ -38,7 +40,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **✅ Common commands** - List frequently used scripts for building, testing, and linting
 * **✅ Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
 * **✅ Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
-* ❌ **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control 
+* ❌ **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
