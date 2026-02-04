@@ -33,8 +33,17 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **Coding standards** - Define naming conventions, preferred libraries, and patterns
 * **Common commands** - List frequently used scripts for building, testing, and linting
 * **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
+* **Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
+
+<boxEmbed
+  body={<>
+    ⚠️ **Security:** Never put API keys, secrets, or sensitive internal URLs in AGENTS.md - it's committed to source control.
+  </>}
+  figurePrefix="bad"
+  figure="Exposing credentials in version-controlled files"
+/>
 
 ## Creating an AGENTS.md
 
@@ -113,6 +122,14 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
   figurePrefix="good"
   figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
 />
+
+## Writing tips
+
+* **Be concise** - Put the most important rules first; long files may be truncated
+* **Use imperative language** - "Use X" not "You should consider using X"
+* **Show, don't tell** - Specific code examples beat vague descriptions
+* **Avoid duplication** - Don't repeat what's in linter configs or `.editorconfig`
+* **Keep it current** - Outdated instructions are worse than none
 
 ## How to implement it
 
