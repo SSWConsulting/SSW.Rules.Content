@@ -5,8 +5,14 @@ guid: a578f4a5-4a3b-4b4e-b05c-f4ee8334db6a
 created: 2026-02-04T21:45:20.670Z
 createdBy: 'Hajir Lesani [SSW]'
 createdByEmail: hajir2005@gmail.com
+authors:
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+categories:
+  - category: categories/software-development/rules-to-better-web-api.mdx
+seoDescription: Learn why you should use live connections (SignalR, WebSockets, SSE) instead of polling for real-time data updates, and when simpler approaches are acceptable.
+type: rule
 ---
-
 
 When your application needs real-time data updates, you have several options: polling, webhooks, or live connections. Polling - where clients repeatedly request data at intervals - is often the first solution developers reach for, but it's usually the worst choice for real-time scenarios.
 
@@ -18,25 +24,21 @@ Studies show that **98.5% of polling requests are wasted** - they return no new 
 
 Imagine 10,000 users polling your API every 5 seconds. That's **10,000 requests per second** your server must handle - even when there's nothing new to report. With live connections, you'd only send data when something actually changes.
 
-<boxEmbed
-  body={<>
-    **❌ Polling problems:**
-    * Wastes server resources (98.5% of requests return nothing new)
-    * Creates artificial latency (users wait for the next poll interval)
-    * Scales poorly (more users = exponentially more requests)
-    * Drains mobile device batteries
-    * Increases infrastructure costs
+**Polling problems:**
 
-    **✅ Live connections benefits:**
-    * Push data only when changes occur
-    * True real-time updates (sub-second latency)
-    * Scales efficiently
-    * Better battery life for mobile apps
-    * Lower infrastructure costs
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+* Wastes server resources (98.5% of requests return nothing new)
+* Creates artificial latency (users wait for the next poll interval)
+* Scales poorly (more users = exponentially more requests)
+* Drains mobile device batteries
+* Increases infrastructure costs
+
+**Live connections benefits:**
+
+* Push data only when changes occur
+* True real-time updates (sub-second latency)
+* Scales efficiently
+* Better battery life for mobile apps
+* Lower infrastructure costs
 
 ## Choosing the right technology
 
@@ -44,23 +46,20 @@ Imagine 10,000 users polling your API every 5 seconds. That's **10,000 requests 
 |------------|-----------|----------|
 | **SignalR** | Bidirectional | .NET apps needing broad compatibility, automatic fallbacks, and easy scaling |
 | **WebSockets** | Bidirectional | Maximum performance, gaming, trading platforms, custom protocols |
-| **SSE** | Server → Client | Simple notifications, live feeds, dashboards (no binary data) |
-| **Webhooks** | Server → Server | Service-to-service communication, third-party integrations |
+| **SSE** | Server to Client | Simple notifications, live feeds, dashboards (no binary data) |
+| **Webhooks** | Server to Server | Service-to-service communication, third-party integrations |
 
 ### When to use SignalR
 
-SignalR is the recommended choice for .NET applications. It automatically selects the best transport (WebSockets → SSE → Long Polling) and provides:
+SignalR is the recommended choice for .NET applications. It automatically selects the best transport (WebSockets, SSE, or Long Polling) and provides:
 
 * Automatic reconnection handling
 * Built-in group messaging (broadcast to specific users/rooms)
 * Multiple scaling options (Redis, Azure Service Bus, SQL Server)
 * Cross-platform client SDKs
 
-<boxEmbed
-  style="greybox"
-  body={<>
 ```csharp
-// ❌ Bad - Polling for updates
+// Bad - Polling for updates
 public class DashboardController : Controller
 {
     [HttpGet("api/dashboard/stats")]
@@ -79,16 +78,11 @@ setInterval(async () => {
     updateDashboard(stats);
 }, 5000);
 ```
-  </>}
-  figurePrefix="bad"
-  figure="Polling wastes resources even when nothing has changed"
-/>
 
-<boxEmbed
-  style="greybox"
-  body={<>
+**❌ Figure: Bad example - Polling wastes resources even when nothing has changed**
+
 ```csharp
-// ✅ Good - SignalR Hub for real-time updates
+// Good - SignalR Hub for real-time updates
 public class DashboardHub : Hub
 {
     public async Task SubscribeToDashboard(string dashboardId)
@@ -110,10 +104,8 @@ public class StatsService
     }
 }
 ```
-  </>}
-  figurePrefix="good"
-  figure="SignalR pushes updates only when data actually changes"
-/>
+
+**✅ Figure: Good example - SignalR pushes updates only when data actually changes**
 
 ### When to use Server-Sent Events (SSE)
 
@@ -124,11 +116,8 @@ SSE is perfect when you only need **server-to-client** communication and want ze
 * Stock tickers
 * Log streaming
 
-<boxEmbed
-  style="greybox"
-  body={<>
 ```csharp
-// ✅ Good - SSE for simple server-to-client streaming
+// Good - SSE for simple server-to-client streaming
 [HttpGet("api/notifications/stream")]
 public async Task StreamNotifications(CancellationToken cancellationToken)
 {
@@ -143,10 +132,8 @@ public async Task StreamNotifications(CancellationToken cancellationToken)
     }
 }
 ```
-  </>}
-  figurePrefix="good"
-  figure="SSE provides a lightweight option for unidirectional streaming"
-/>
+
+**✅ Figure: Good example - SSE provides a lightweight option for unidirectional streaming**
 
 ### When to use raw WebSockets
 
@@ -163,7 +150,7 @@ Live connections add complexity. Sometimes they're not worth it.
 
 <boxEmbed
   body={<>
-    **Tip:** Don't over-engineer. If users only need updates every few minutes and real-time isn't critical, a simple refresh button or periodic polling with proper caching might be the right choice.
+    **Tip:** Do not over-engineer. If users only need updates every few minutes and real-time is not critical, a simple refresh button or periodic polling with proper caching might be the right choice.
   </>}
   figurePrefix="none"
   figure=""
@@ -173,13 +160,11 @@ Live connections add complexity. Sometimes they're not worth it.
 **Consider simpler alternatives when:**
 
 * **Updates are infrequent** - If data changes hourly or daily (e.g., daily reports, software update checks), scheduled polling or manual refresh is fine
-* **Near real-time is acceptable** - A 30-second delay doesn't impact the user experience (e.g., email inbox, social media feeds)
+* **Near real-time is acceptable** - A 30-second delay does not impact the user experience (e.g., email inbox, social media feeds)
 * **The app is internal with few users** - 5 users polling every 10 seconds is just 30 requests/minute - hardly a scaling concern
-* **You're building a prototype or MVP** - Get it working first, optimize later when you have real usage data
-* **Infrastructure doesn't support WebSockets** - Some corporate proxies, firewalls, or legacy systems block WebSocket connections
+* **You are building a prototype or MVP** - Get it working first, optimize later when you have real usage data
+* **Infrastructure does not support WebSockets** - Some corporate proxies, firewalls, or legacy systems block WebSocket connections
 
-<boxEmbed
-  body={<>
 | Scenario | Recommendation |
 |----------|----------------|
 | Chat application with instant messages | **SignalR** - Users expect instant delivery |
@@ -190,21 +175,17 @@ Live connections add complexity. Sometimes they're not worth it.
 | Blog comments | **Polling** - Updates are infrequent |
 | Collaborative document editing | **SignalR** - Multiple users editing simultaneously |
 | Background job status | **SSE** - Simple server-to-client push |
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
 
 ## Quick decision flowchart
 
 Ask yourself these questions:
 
-1. **Do users need updates instantly (< 1 second)?** → Use SignalR or WebSockets
-2. **Is it server-to-client only?** → Consider SSE for simplicity
-3. **Are you in the .NET ecosystem?** → SignalR is the default choice
-4. **Do you need maximum performance/binary data?** → Raw WebSockets
-5. **Is "near real-time" (30+ seconds) acceptable?** → Polling is fine
-6. **Is this an MVP or prototype?** → Start simple, optimize later
+1. **Do users need updates instantly (less than 1 second)?** - Use SignalR or WebSockets
+2. **Is it server-to-client only?** - Consider SSE for simplicity
+3. **Are you in the .NET ecosystem?** - SignalR is the default choice
+4. **Do you need maximum performance/binary data?** - Raw WebSockets
+5. **Is near real-time (30+ seconds) acceptable?** - Polling is fine
+6. **Is this an MVP or prototype?** - Start simple, optimize later
 
 ## Scaling considerations
 
@@ -214,9 +195,6 @@ Live connections maintain persistent server connections, which introduces state 
 * **Azure SignalR Service**: Managed service that handles scaling automatically
 * **WebSockets**: Configure load balancers for sticky sessions or use a message broker
 
-<boxEmbed
-  style="greybox"
-  body={<>
 ```csharp
 // Program.cs - Configuring SignalR with Redis backplane for scaling
 builder.Services.AddSignalR()
@@ -225,10 +203,8 @@ builder.Services.AddSignalR()
         options.Configuration.ChannelPrefix = RedisChannel.Literal("MyApp");
     });
 ```
-  </>}
-  figurePrefix="good"
-  figure="Configure a backplane when scaling SignalR horizontally"
-/>
+
+**✅ Figure: Good example - Configure a backplane when scaling SignalR horizontally**
 
 ## Summary
 
