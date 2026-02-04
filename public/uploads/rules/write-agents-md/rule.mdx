@@ -16,7 +16,7 @@ thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-02-04T04:21:51.221Z
+lastUpdated: 2026-02-04T04:22:18.094Z
 lastUpdatedBy: Eddie Kranz
 lastUpdatedByEmail: EddieKranz@ssw.com.au
 ---
@@ -39,6 +39,15 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * ❌ **Secrets** Never put API keys, secrets, or sensitive internal information, it's committed to source control (if you must, keep a gitignored `SECRETS.md`, and reference from your `AGENTS.md`
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
+
+<boxEmbed
+  body={<>
+    **Tip:** If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 ## Creating an AGENTS.md
 
@@ -174,26 +183,6 @@ Update `AGENTS.md` for the user, then ask for feedback on any unclear or incompl
 <boxEmbed
   body={<>
     **Tip:** Include in your `AGENTS.md`, "Ensure you keep `AGENTS.md` up to date if any changes to the codebase necessitates it."
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-<boxEmbed
-  body={<>
-    **Tip:** Treat `AGENTS.md` as the starting point for your agents.
-    
-    You can reference other relevant files from this, in order to better structure your documentation.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-<boxEmbed
-  body={<>
-    **Tip:** If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
   </>}
   figurePrefix="none"
   figure=""
