@@ -1,0 +1,224 @@
+---
+type: rule
+title: Do you use Structured Logging with correlation IDs?
+uri: use-structured-logging
+authors:
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+categories:
+  - category: categories/software-development/rules-to-better-architecture-and-code-review.mdx
+guid: 4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a
+seoDescription: Learn how to implement structured logging with Serilog, correlation IDs for distributed tracing, and best practices for queryable logs in production.
+created: 2026-02-05T00:00:00.000Z
+---
+
+Plain text logs are hard to search and analyze. When something goes wrong in production, you need to quickly find all logs related to a specific request, user, or order. Structured logging captures data as queryable fields, not just text strings.
+
+Always include correlation IDs to trace requests across multiple services in distributed systems.
+
+<endIntro _hidden="" />
+
+## Plain text vs Structured logging
+
+```csharp
+// Plain text - hard to query
+_logger.LogInformation($"User {userId} placed order {orderId} for ${amount}");
+// Output: "User 123 placed order 456 for $99.99"
+// How do you find all orders over $50? All orders for user 123? Impossible to query!
+```
+
+**❌ Figure: Bad example - Plain text logs cannot be queried or analyzed**
+
+```csharp
+// Structured - easily queryable
+_logger.LogInformation(
+    "User {UserId} placed order {OrderId} for {Amount:C}",
+    userId, orderId, amount);
+// Output: { "UserId": 123, "OrderId": 456, "Amount": 99.99, "Message": "User 123 placed order 456 for $99.99" }
+// Now you can query: WHERE Amount > 50 AND UserId = 123
+```
+
+**✅ Figure: Good example - Structured logs enable powerful queries**
+
+## Setting up Serilog
+
+```csharp
+// Program.cs
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration
+        .ReadFrom.Configuration(context.Configuration)
+        .Enrich.FromLogContext()
+        .Enrich.WithMachineName()
+        .Enrich.WithEnvironmentName()
+        .WriteTo.Console()
+        .WriteTo.Seq("http://localhost:5341"); // Or Application Insights
+});
+
+var app = builder.Build();
+
+// Add request logging
+app.UseSerilogRequestLogging();
+```
+
+```json
+// appsettings.json
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft.AspNetCore": "Warning",
+        "Microsoft.EntityFrameworkCore": "Warning"
+      }
+    }
+  }
+}
+```
+
+**✅ Figure: Good example - Configure Serilog with sensible defaults**
+
+## Correlation IDs for distributed tracing
+
+When a request spans multiple services, correlation IDs link all related logs together:
+
+```csharp
+// Middleware to add correlation ID
+public class CorrelationIdMiddleware
+{
+    private readonly RequestDelegate _next;
+    private const string CorrelationIdHeader = "X-Correlation-ID";
+
+    public CorrelationIdMiddleware(RequestDelegate next) => _next = next;
+
+    public async Task InvokeAsync(HttpContext context)
+    {
+        var correlationId = context.Request.Headers[CorrelationIdHeader].FirstOrDefault()
+            ?? Guid.NewGuid().ToString();
+
+        context.Response.Headers[CorrelationIdHeader] = correlationId;
+
+        using (LogContext.PushProperty("CorrelationId", correlationId))
+        {
+            await _next(context);
+        }
+    }
+}
+
+// Program.cs
+app.UseMiddleware<CorrelationIdMiddleware>();
+```
+
+**✅ Figure: Good example - Every log entry includes CorrelationId for tracing**
+
+## Propagating correlation IDs to downstream services
+
+```csharp
+// When calling other APIs, pass the correlation ID
+public class OrderService
+{
+    private readonly HttpClient _httpClient;
+    private readonly IHttpContextAccessor _httpContextAccessor;
+
+    public async Task<ShippingResult> CalculateShippingAsync(Order order)
+    {
+        var correlationId = _httpContextAccessor.HttpContext?
+            .Response.Headers["X-Correlation-ID"].FirstOrDefault();
+
+        var request = new HttpRequestMessage(HttpMethod.Post, "/api/shipping/calculate");
+        request.Headers.Add("X-Correlation-ID", correlationId);
+
+        var response = await _httpClient.SendAsync(request);
+        // Shipping service logs will have the same CorrelationId
+        return await response.Content.ReadFromJsonAsync<ShippingResult>();
+    }
+}
+```
+
+**✅ Figure: Good example - Pass correlation ID to downstream services**
+
+## Logging best practices
+
+### Use appropriate log levels
+
+```csharp
+_logger.LogDebug("Cache lookup for key {CacheKey}", key);           // Development only
+_logger.LogInformation("Order {OrderId} created", orderId);          // Normal operations
+_logger.LogWarning("Retry attempt {Attempt} for {Service}", n, svc); // Potential issues
+_logger.LogError(ex, "Failed to process order {OrderId}", orderId);  // Errors
+_logger.LogCritical("Database connection lost");                     // System failures
+```
+
+### Never log sensitive data
+
+```csharp
+// NEVER DO THIS
+_logger.LogInformation("User login: {Email} with password {Password}", email, password);
+_logger.LogInformation("Payment processed: {CreditCard}", cardNumber);
+
+// Instead, mask or exclude sensitive data
+_logger.LogInformation("User login: {Email}", email);
+_logger.LogInformation("Payment processed for card ending in {LastFour}", card[^4..]);
+```
+
+**❌ Figure: Bad example - Never log passwords, credit cards, or PII**
+
+### Add context with scopes
+
+```csharp
+public async Task ProcessOrderAsync(Order order)
+{
+    using (_logger.BeginScope(new Dictionary<string, object>
+    {
+        ["OrderId"] = order.Id,
+        ["CustomerId"] = order.CustomerId,
+        ["OrderTotal"] = order.Total
+    }))
+    {
+        _logger.LogInformation("Starting order processing");
+        await ValidateInventoryAsync(order);
+        _logger.LogInformation("Inventory validated");
+        await ProcessPaymentAsync(order);
+        _logger.LogInformation("Payment processed");
+        // All logs in this scope automatically include OrderId, CustomerId, OrderTotal
+    }
+}
+```
+
+**✅ Figure: Good example - Use scopes to add context to all logs in a block**
+
+## Querying structured logs
+
+With structured logs in Seq or Application Insights, you can run powerful queries:
+
+```sql
+-- Find all failed orders over $100
+SELECT * FROM logs
+WHERE OrderTotal > 100
+AND Level = 'Error'
+AND Message LIKE '%order%'
+
+-- Find slow requests for a specific user
+SELECT * FROM logs
+WHERE UserId = 'user123'
+AND Elapsed > 1000
+
+-- Trace a request across services
+SELECT * FROM logs
+WHERE CorrelationId = 'abc-123-def'
+ORDER BY Timestamp
+```
+
+**✅ Figure: Good example - Query logs like a database**
+
+## Summary
+
+| Do | Avoid |
+|-----|-------|
+| Use message templates with named parameters | String interpolation ($"User \{userId\}") |
+| Include correlation IDs | Logs without request context |
+| Use appropriate log levels | Logging everything as Information |
+| Mask sensitive data | Logging passwords, tokens, PII |
+| Add structured context with scopes | Repeating context in every log call |
