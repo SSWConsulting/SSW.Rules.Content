@@ -66,10 +66,12 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
     * **EF migrations** - The exact commands to use for database changes
   </>}
   figurePrefix="good"
-  figure="Providing clear, actionable context for AI agents"
+  figure="Providing clear, actionable context for AI agents - the full AGENTS.md file is here"
 />
 
 For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
+
+***
 
 As your project grows, so will your AGENTS.md. Read on to learn how to tackle the scaling problem.
 
@@ -93,7 +95,7 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
   style="greybox"
   body={<>
     ```
-    ├── AGENTS.md - 5000 lines of instructions for API, API tests, Frontend, frontend tests, etc...
+    ├── 🤖 AGENTS.md - 5000 lines of instructions for API, API tests, Frontend, frontend tests, etc...
     ├── src
     │   ├── frontend
     │   └── backend
@@ -101,27 +103,27 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
     ```
   </>}
   figurePrefix="bad"
-  figure="A single, overloaded AGENTS.md for the entire monorepo"
+  figure="A single, overloaded AGENTS.md 🤖  for the entire monorepo"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
     ```plaintext
-    ├── AGENTS.md - High-level architecture overview
+    ├── 🤖 AGENTS.md - High-level architecture overview
     ├── src
     │   ├── frontend
-    │   │   └── AGENTS.md - Instructions for frontend only
+    │   │   └── 🤖 AGENTS.md - Instructions for frontend only
     │   ├── backend
-    │   │   ├── AGENTS.md - Instructions for backend only
+    │   │   ├── 🤖 AGENTS.md - Instructions for backend only
     │   │   ├── tests
-    │   │   │   └── AGENTS.md - Instructions for backend testing only
+    │   │   │   └── 🤖 AGENTS.md - Instructions for backend testing only
     │   │   └── ...
     ...  ...
     ```
   </>}
   figurePrefix="good"
-  figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
+  figure="Scoped AGENTS.md 🤖 files provide targeted agent instructions per subproject"
 />
 
 You could also have a separate AGENTS.md for your tests!
@@ -135,6 +137,15 @@ You could also have a separate AGENTS.md for your tests!
 * **Keep it current** - Outdated instructions are worse than none
 
 ## How to install
+
+<boxEmbed
+  body={<>
+    **Note:** Anthropic is the only big AI player yet to adopt this, they are still using CLAUDE.md, but you can get around this by adding a line inside of your created CLAUDE.md saying to “Get instructions from AGENTS.md”
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 <boxEmbed
   body={<>
