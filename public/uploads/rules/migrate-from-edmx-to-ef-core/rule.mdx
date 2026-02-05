@@ -20,9 +20,9 @@ seoDescription: Migrate from EDMX to EF Core necessary steps involve abstracting
 created: 2023-07-19T00:00:00.000Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
-lastUpdated: 2026-02-03T06:29:24.623Z
-lastUpdatedBy: Kaha Mason
-lastUpdatedByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-02-05T05:56:06.145Z
+lastUpdatedBy: 'Kosta Madorsky [SSW]'
+lastUpdatedByEmail: kosta.madorsky@gmail.com
 ---
 
 Some older .NET Framework projects will have EDMX instead of the modern `DbContext` introduced in [Entity Framework 4.1](https://devblogs.microsoft.com/cesardelatorre/entity-framework-4-1-just-released/?WT.mc_id=DP-MVP-33518) back in 2012. EDMX projects often use `ObjectContext` (or an EDMX-generated context that wraps it) for a Database-First approach.
@@ -41,35 +41,35 @@ The focus is to minimise delivery downtime during the migration.
 
 When this approach is a good fit:
 
-- Your project is large enough that a "big bang" rewrite is risky
-- You want incremental releases while you modernise the data layer
-- You're moving from .NET Framework/EF6 to modern .NET + EF Core
+* Your project is large enough that a "big bang" rewrite is risky
+* You want incremental releases while you modernise the data layer
+* You're moving from .NET Framework/EF6 to modern .NET + EF Core
 
 When this approach is not a good fit:
 
-- The codebase is small and EDMX is the only blocker (go straight to modern .NET + EF Core)
-- Your EDMX heavily relies on stored procedure/function imports or complex mappings and you can't budget for rework
+* The codebase is small and EDMX is the only blocker (go straight to modern .NET + EF Core)
+* Your EDMX heavily relies on stored procedure/function imports or complex mappings and you can't budget for rework
 
 This rule’s strategy includes:
 
 1. Abstract existing `ObjectContext/Entities` class with a custom interface (e.g. `ITenantDbContext`)
 2. Reverse-engineer the database (scaffold)
-  - UI (preferred): [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
-  - CLI (fallback): `dotnet ef dbcontext scaffold` (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8)
+   * UI (preferred): [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+   * CLI (fallback): `dotnet ef dbcontext scaffold` (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8)
 3. Implement the interface from step 1 and refactor entities
    1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
    2. Replace `ObjectSet<T>` with `DbSet<T>`
-  3. Address common refactor gotchas (see "Common gotchas" below): nullability differences, lazy loading, query translation, and performance
-  4. Add a **TechDebt** comment and PBI when you need to defer deeper refactors - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
-4. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
-5. Remove EF6 namespaces like `System.Data.Entity` from files that are now using EF Core (otherwise you can get confusing type clashes and LINQ/runtime issues)
-6. Add `Microsoft.EntityFrameworkCore` namespace
-7. Update dependency injection
+4. Address common refactor gotchas (see "Common gotchas" below): nullability differences, lazy loading, query translation, and performance
+5. Add a **TechDebt** comment and PBI when you need to defer deeper refactors - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
+6. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
+7. Remove EF6 namespaces like `System.Data.Entity` from files that are now using EF Core (otherwise you can get confusing type clashes and LINQ/runtime issues)
+8. Add `Microsoft.EntityFrameworkCore` namespace
+9. Update dependency injection
    1. Use modern `.AddDbContext()` or `.AddDbContextPool()`
-8. Update migration strategy (from DB-first to Code-first)
-9. Adopt EF Core Migrations (`dotnet ef migrations add` / `dotnet ef database update`) or your preferred migration approach; DbUp can still be useful, but it’s no longer “the default” once you’re Code-First
-10. Remove EDMX completely (can be done sooner if migration is done in 1 go rather than in steps)
-11. Verify thoroughly (test, test, test...)
+10. Update migration strategy (from DB-first to Code-first)
+11. Adopt EF Core Migrations (`dotnet ef migrations add` / `dotnet ef database update`) or your preferred migration approach; DbUp can still be useful, but it’s no longer “the default” once you’re Code-First
+12. Remove EDMX completely (can be done sooner if migration is done in 1 go rather than in steps)
+13. Verify thoroughly (test, test, test...)
     1. Going from EDMX/EF6 to EF Core is a significant modernization with many under-the-hood changes
     2. Common issues are:
        1. Lazy loading
@@ -82,15 +82,15 @@ In this rule, we'll only cover abstracting access to `ObjectContext` with a cust
 
 Optional upgrades:
 
-- Upgrade to the current LTS .NET (e.g. .NET 10) if you’re on .NET Framework or older .NET
-- Upgrade to the current LTS EF Core (e.g. EF Core 10) if you started on an older EF Core version
+* Upgrade to the current LTS .NET (e.g. .NET 10) if you’re on .NET Framework or older .NET
+* Upgrade to the current LTS EF Core (e.g. EF Core 10) if you started on an older EF Core version
 
 The namespace cleanup becomes unavoidable when you move to modern .NET and EF Core, and the solution is too complex to migrate in one go. For simpler projects, if EDMX is the only major blocking issue, go straight to the current LTS (.NET 10 + EF Core 10) or at least .NET 8 + EF Core 8.
 
 <boxEmbed
   style="greybox"
   body={<>
-   NOTE: With some smart abstraction strategies, it is possible to refactor incrementally while still having a working application. This is only recommended for experienced developers in architecture and how EF operates to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
+    NOTE: With some smart abstraction strategies, it is possible to refactor incrementally while still having a working application. This is only recommended for experienced developers in architecture and how EF operates to avoid bugs related to running 2 EF tracking systems. This will impact EF internal caching and saving changes.
   </>}
   figurePrefix="none"
   figure=""
@@ -299,20 +299,20 @@ dotnet ef dbcontext scaffold `
 
 ### Common API mappings (EF6/EDMX → EF Core)
 
-| EF6 / EDMX | EF Core | Notes |
-| --- | --- | --- |
-| `ObjectContext` / EDMX-generated `*Entities` | `DbContext` | EDMX isn't supported by EF Core; you migrate to a `DbContext`. |
-| `ObjectSet<T>` | `DbSet<T>` | Common surface-area rename. |
-| Lazy loading (default in many EF6 setups) | Explicit eager loading (`Include`/`ThenInclude`) or configured proxies | EF Core does not lazy-load by default. |
-| String-based includes (e.g. `Include("Nav.Prop")`) | Strongly-typed `Include(x => x.Nav).ThenInclude(...)` | Safer refactors, compiler-checked. |
-| Canonical functions / `DbFunctions` | `EF.Functions` and provider-specific translations | Function support differs by provider/version. |
+| EF6 / EDMX                                         | EF Core                                                                | Notes                                                          |
+| -------------------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------- |
+| `ObjectContext` / EDMX-generated `*Entities`       | `DbContext`                                                            | EDMX isn't supported by EF Core; you migrate to a `DbContext`. |
+| `ObjectSet<T>`                                     | `DbSet<T>`                                                             | Common surface-area rename.                                    |
+| Lazy loading (default in many EF6 setups)          | Explicit eager loading (`Include`/`ThenInclude`) or configured proxies | EF Core does not lazy-load by default.                         |
+| String-based includes (e.g. `Include("Nav.Prop")`) | Strongly-typed `Include(x => x.Nav).ThenInclude(...)`                  | Safer refactors, compiler-checked.                             |
+| Canonical functions / `DbFunctions`                | `EF.Functions` and provider-specific translations                      | Function support differs by provider/version.                  |
 
 ### Common symptoms and fixes
 
-- **Runtime LINQ translation exception** → keep filtering/projection on the server, materialize (`ToListAsync`) then finish in-memory only where intentional
-- **Unexpected N+1 queries** (after removing lazy loading) → add `Include`/projection, or load related data explicitly
-- **Performance regression** → use `AsNoTracking()` for read-only queries, simplify projections, consider split queries where appropriate
-- **Different nullability/results** → re-check model nullability, defaults, and query semantics; add targeted tests around edge cases
+* **Runtime LINQ translation exception** → keep filtering/projection on the server, materialize (`ToListAsync`) then finish in-memory only where intentional
+* **Unexpected N+1 queries** (after removing lazy loading) → add `Include`/projection, or load related data explicitly
+* **Performance regression** → use `AsNoTracking()` for read-only queries, simplify projections, consider split queries where appropriate
+* **Different nullability/results** → re-check model nullability, defaults, and query semantics; add targeted tests around edge cases
 
 ### Namespace cleanup (EF6 → EF Core)
 
@@ -390,12 +390,12 @@ dotnet ef migrations script --context MyDbContext --idempotent --output migratio
 
 Use this as a quick sanity checklist after scaffolding/refactoring:
 
-- Verify key queries return the same results as before (especially edge cases)
-- Validate nullability and default values (EF Core may interpret these differently)
-- Check tracking behavior (read-only queries often want `AsNoTracking()`)
-- Review transaction boundaries and concurrency (e.g. rowversion/timestamps)
-- Baseline performance for critical pages/jobs (watch for N+1 and over-fetching)
-- If adopting migrations, validate create/update scripts in a non-prod environment first
+* Verify key queries return the same results as before (especially edge cases)
+* Validate nullability and default values (EF Core may interpret these differently)
+* Check tracking behavior (read-only queries often want `AsNoTracking()`)
+* Review transaction boundaries and concurrency (e.g. rowversion/timestamps)
+* Baseline performance for critical pages/jobs (watch for N+1 and over-fetching)
+* If adopting migrations, validate create/update scripts in a non-prod environment first
 
 ## Resources
 
