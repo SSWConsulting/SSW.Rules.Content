@@ -27,6 +27,14 @@ jobs:
           
           Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
           
+          # Check if this is a cross-repository PR (from a fork)
+          $thisPr = gh pr view $prNumber --repo '${{ github.repository }}' --json number,isCrossRepository | ConvertFrom-Json
+          if ($thisPr.isCrossRepository) {
+            Write-Output "Skipping cross repository PR"
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+          
           # Function to check if a user is a bot
           function Test-IsBot {
             param($login)
