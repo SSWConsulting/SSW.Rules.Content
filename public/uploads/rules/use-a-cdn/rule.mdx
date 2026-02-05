@@ -22,9 +22,9 @@ seoDescription: Do you use a Content Delivery Network (CDN) to reduce network la
 created: 2024-09-02T22:09:22.000Z
 createdBy: 'Brady Stroud [SSW]'
 createdByEmail: bradystroud@ssw.com.au
-lastUpdated: 2025-12-01T22:45:08.000Z
-lastUpdatedBy: 'Tiago Araújo [SSW]'
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2026-02-02T00:04:48.132Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -86,6 +86,34 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 * **Testing**: Staging environments are only available as part of the [enterprise plan](https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations), making it expensive to test changes to your CDN configuration
 
 ***
+
+## Pricing
+
+<boxEmbed
+  body={<>
+    The pricing below reflects standard rates as of January 2026. Actual costs may vary based on specific usage patterns and regional adjustments.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+### Cloudflare (Pro + Workers)
+
+| Service                                                                                        | Monthly Cost                | Annual Cost                 |
+| ---------------------------------------------------------------------------------------------- | --------------------------- | --------------------------- |
+| [CloudFlare workers standard plan](https://www.cloudflare.com/en-au/plans/developer-platform/) | $5                          | $60                         |
+| [CloudFlare Pro Plan (yearly)](https://www.cloudflare.com/en-au/plans/)                        | $20                         | $240                        |
+| 10,000,000 requests per month                                                                  | Free \< 10,000,000 requests | Free \< 10,000,000 requests |
+| Total                                                                                          | $25                         | $300                        |
+
+### Azure (Standard)
+
+| Service                                                                                                         | Monthly Cost | Annual Cost |
+| --------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
+| [Azure Front Door Premium](https://azure.microsoft.com/en-us/pricing/details/frontdoor/?utm_source=chatgpt.com) | $35          | $420        |
+| 10,000,000 requests per month                                                                                   | $9           | $108        |
+| Total                                                                                                           | $44          | $528        |
 
 ### Which ones do **not** work well from China?
 

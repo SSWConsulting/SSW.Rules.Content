@@ -7,6 +7,14 @@ categories:
 authors:
   - title: Adam Cogan
     url: 'https://ssw.com.au/people/adam-cogan'
+  - title: Ivan Gaiduk
+    url: 'https://ssw.com.au/people/ivan-gaiduk'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+  - title: Sam Wagner
+    url: 'https://ssw.com.au/people/sam-wagner'
 related:
   - rule: public/uploads/rules/monthly-stakeholder-video/rule.mdx
   - rule: public/uploads/rules/summary-recording-sprint-reviews/rule.mdx
@@ -24,9 +32,9 @@ seoDescription: 'Understand what happens in a Sprint Review meeting, including h
 created: 2024-10-09T00:02:42.000Z
 createdBy: 'Tiago Araújo [SSW]'
 createdByEmail: tiagov8@gmail.com
-lastUpdated: 2026-01-28T07:28:19.500Z
-lastUpdatedBy: Ivan Gaiduk
-lastUpdatedByEmail: IvanGaiduk@ssw.com.au
+lastUpdated: 2026-02-03T04:00:34.455Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
 ---
 
@@ -40,7 +48,7 @@ The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meetin
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the PBIs committed at the Sprint Planning meeting and the done PBIs being presented for acceptance. The Team seeks to have more PBIs accepted than originally committed. It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
-The Sprint Review can be aided by a great many things, like recording it or using AI tools to extract additional value.
+The Sprint Review can be aided by a great many things, like recording it or using AI tools 🤖 to extract additional value.
 
 ## Overview
 
@@ -49,21 +57,29 @@ You may notice that the recommendation below does not exactly follow the Scrum G
 There are a few main steps to the process. Some of them are optional, but they add significant value if you decide to commit. While some of the points below mention hosting a separate meeting, it can all be done in one to keep the context readily available.
 
 1. The Team prepares all of the PBIs for review according to the [Definition of Done](/definition-of-done)
-2. Draft the [Sprint Review + Retrospective email](/sprint-review-retro-email)
-3. Host the Sprint Review meeting with the Team and the Product Owner
-4. Record the meeting to capture the discussion and gather insights
-5. *Ask Copilot to analyse the recording (Optional, but recommended)*
-6. Host a Retrospective and include the result in the email above
-7. *Include the Copilot insights into the email above (Optional,  but recommended)*
-8. Host a Sprint Summary meeting with the Team, Product Owner and relevant Stakeholders 
-9. Send out an email with the results of the Sprint Review to the Stakeholders
-10. Draft a [Sprint Planning Email](/sprint-forecast-email)
-11. Host a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting)
-12. Send out a Sprint Planning email
+2. Draft the [Sprint Review + Retrospective email](/sprint-review-retro-email) 📩
+3. Draft the [Sprint Planning email](/sprint-forecast-email) 📩
+4. Host the Sprint Review meeting with the Team and the Product Owner (Should be around 1 hour, but for some teams it might take longer)
+5. Record the meeting to capture the discussion and gather AI-generated insights
+6. Stop recording
+7. *Ask Claude or Copilot to analyse the recording (Optional, but recommended)*
+8. While waiting, host a Retrospective and include the result in the email 📩 above
+9. *Include the AI-generated insights into the email* 📩 *above (Optional, but recommended)*
+10. Host a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting)
+11. Call relevant Stakeholders in. Host and record a Sprint Summary meeting with the Team and Product Owner (aim to spend 15 minutes or less)
+12. Post the Sprint Summary recording on an internal or public video hosting service
+13. Send out the email 📩 with the results of the Sprint Review to the Stakeholders
+14. Send out the Sprint Planning email 📩
 
 <boxEmbed
   body={<>
-    It is essential to host the Retrospective after the Sprint Review and the Sprint Planning after that to maintain the useful context throughout the meetings.
+    If it makes sense to share the video with the general public - upload it to the YouTube channel of your project/organisation. e.g. We have a playlist of our Sprint Summaries for our Open Source [TinaCMS](https://www.youtube.com/playlist?list=PLPar4H9PHKVrahKk4PzKtcEstFDDMlxzr).
+    
+    <imageEmbed alt="YouTube playlist listing Sprint Summary recordings for TinaCMS" size="medium" showBorder={false} figurePrefix="good" figure="YouTube playlist of our Open Source TinaCMS Sprint Summaries" src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-youtube-playlist.png" />
+    
+    Alternatively, you can post your video to an internal site. e.g. By posting to SharePoint or Microsoft Stream
+    
+    <imageEmbed alt="SharePoint page showing internal Sprint Summary videos" size="medium" showBorder={false} figurePrefix="good" figure="Internal Sprint Summaries stored on SharePoint" src="/uploads/rules/what-happens-at-a-sprint-review-meeting/sprint-summaries-internal.png" />
   </>}
   figurePrefix="none"
   figure=""
@@ -105,11 +121,11 @@ Similarly, if a bug is found during the review, it is a great time to create a P
 
 The Scrum Master keeps the meeting on track and to the Timebox by disallowing discussions not relevant to the acceptance or rejection of the PBI; this is often done by making a note to bring the subject up again in the [Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) Meeting.
 
-This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
+This meeting is normally timeboxed to as many hours as there are weeks in the Sprint. e.g. A meeting for a 1 week sprint would be approximately 1 hour long.
 
-#### Artifact Preparation
+#### Email Preparation 📩
 
-During the meeting, an email is drafted to be sent with the results of the Sprint and insights collected during the review and Retrospective. You can find out more about the suggested content of the email in the [Sprint Review + Retrospective email rule](/sprint-review-retro-email).
+During the meeting, an email is drafted to be sent with the results of the Sprint and insights collected during the review and Retrospective. You can find out more about the suggested content of the email in the [Sprint Review + Retrospective email rule](/sprint-review-retro-email) 📩.
 
 <boxEmbed
   body={<>
@@ -122,17 +138,19 @@ During the meeting, an email is drafted to be sent with the results of the Sprin
 
 #### Retrospective
 
-Now that the Sprint Review email is drafted and filled in with the results of the Sprint Review. Host a Retrospective to check what went well and what did not.
+Now that the Sprint Review email 📩 is drafted and filled in with the results of the Sprint Review. Host a Retrospective to check what went well and what did not.
 
 [What happens at Retrospective meetings?](/what-happens-at-retro-meetings)
 
-## Sprint summary
+## Sprint Summary 📩
 
 When the Review and Retrospective are done, it is a good idea to host a brief summary meeting.
 
-The purpose of the meeting is to quickly summarise everything discussed in the review and share the most important points. 
+The purpose of the meeting is to quickly summarise everything discussed in the review and share the most important points.
 
 This provides an opportunity for those who could not make the entire meeting or missed important context to get up to speed. It is also a great connection point for the wider range of stakeholders.
+
+[What happens at Sprint Summary meetings?](/summary-recording-sprint-reviews)
 
 ## Sprint Planning
 
@@ -178,7 +196,7 @@ If there are additional stakeholders, make sure they get called in for the summa
 <boxEmbed
   style="info"
   body={<>
-    **Tip**: (Optional) Ask stakeholders for Copilot AI images **before the summary meeting** to include in the summary email.
+    **Tip**: (Optional) Ask stakeholders for Copilot AI images 🤖 **before the Sprint Summary meeting** to include in the Sprint Summary email 📩.
   </>}
   figurePrefix="none"
   figure=""
@@ -190,7 +208,7 @@ If there are additional stakeholders, make sure they get called in for the summa
 
 If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
 
-* Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
+* Send a brief "Sprint Review" email 📩 to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
 
 <emailEmbed
   from=""

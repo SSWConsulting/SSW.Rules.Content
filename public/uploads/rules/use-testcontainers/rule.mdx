@@ -1,0 +1,247 @@
+---
+type: rule
+title: Do you use Testcontainers for integration testing?
+uri: use-testcontainers
+authors:
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+guid: 3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f
+seoDescription: Learn how to use Testcontainers to run integration tests against real databases and services in Docker containers, catching issues that mocks would miss.
+created: 2026-02-05T00:00:00.000Z
+---
+
+Mocking databases and external services in tests is fast but dangerous - your tests pass while production fails. Testcontainers spins up real Docker containers (SQL Server, PostgreSQL, Redis, RabbitMQ) for your tests, ensuring your code works against real infrastructure.
+
+Tests run in isolation with fresh containers, catching integration issues that mocks would never find.
+
+<endIntro _hidden="" />
+
+## The problem with mocking
+
+```csharp
+// Test passes but production fails
+[Fact]
+public async Task GetUser_ReturnsUser()
+{
+    var mockDb = new Mock<IUserRepository>();
+    mockDb.Setup(x => x.GetByIdAsync(1))
+          .ReturnsAsync(new User { Id = 1, Name = "Test" });
+
+    var service = new UserService(mockDb.Object);
+    var result = await service.GetUserAsync(1);
+
+    Assert.Equal("Test", result.Name);
+    // But what if your SQL query has a bug?
+    // What if the database collation is different?
+    // Mocks can't catch these issues!
+}
+```
+
+**❌ Figure: Bad example - Mocks hide real integration issues**
+
+## Setting up Testcontainers
+
+Install the package for your database:
+
+```bash
+dotnet add package Testcontainers.MsSql
+# Or: Testcontainers.PostgreSql, Testcontainers.Redis, etc.
+```
+
+## Integration test with real SQL Server
+
+```csharp
+public class UserRepositoryTests : IAsyncLifetime
+{
+    private readonly MsSqlContainer _sqlContainer = new MsSqlBuilder()
+        .WithImage("mcr.microsoft.com/mssql/server:2022-latest")
+        .Build();
+
+    private UserDbContext _dbContext = null!;
+
+    public async Task InitializeAsync()
+    {
+        await _sqlContainer.StartAsync();
+
+        var options = new DbContextOptionsBuilder<UserDbContext>()
+            .UseSqlServer(_sqlContainer.GetConnectionString())
+            .Options;
+
+        _dbContext = new UserDbContext(options);
+        await _dbContext.Database.MigrateAsync();
+    }
+
+    public async Task DisposeAsync()
+    {
+        await _dbContext.DisposeAsync();
+        await _sqlContainer.DisposeAsync();
+    }
+
+    [Fact]
+    public async Task GetUser_WithRealDatabase_ReturnsUser()
+    {
+        // Arrange - insert real data
+        var user = new User { Name = "John", Email = "john@example.com" };
+        _dbContext.Users.Add(user);
+        await _dbContext.SaveChangesAsync();
+
+        // Act - query real database
+        var repository = new UserRepository(_dbContext);
+        var result = await repository.GetByIdAsync(user.Id);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.Equal("John", result.Name);
+    }
+}
+```
+
+**✅ Figure: Good example - Test against real SQL Server, catching real SQL issues**
+
+## Reusable test fixture for faster tests
+
+Starting a container per test is slow. Share containers across tests in the same class:
+
+```csharp
+public class DatabaseFixture : IAsyncLifetime
+{
+    public MsSqlContainer SqlContainer { get; } = new MsSqlBuilder()
+        .WithImage("mcr.microsoft.com/mssql/server:2022-latest")
+        .Build();
+
+    public string ConnectionString => SqlContainer.GetConnectionString();
+
+    public async Task InitializeAsync() => await SqlContainer.StartAsync();
+    public async Task DisposeAsync() => await SqlContainer.DisposeAsync();
+}
+
+[CollectionDefinition("Database")]
+public class DatabaseCollection : ICollectionFixture<DatabaseFixture> { }
+
+[Collection("Database")]
+public class UserTests
+{
+    private readonly DatabaseFixture _fixture;
+
+    public UserTests(DatabaseFixture fixture) => _fixture = fixture;
+
+    [Fact]
+    public async Task Test1() { /* Uses shared container */ }
+
+    [Fact]
+    public async Task Test2() { /* Uses same container */ }
+}
+```
+
+**✅ Figure: Good example - Share container across tests for faster execution**
+
+## Testing with multiple services
+
+Real applications use multiple services - test them together:
+
+```csharp
+public class IntegrationFixture : IAsyncLifetime
+{
+    public MsSqlContainer SqlServer { get; } = new MsSqlBuilder().Build();
+    public RedisContainer Redis { get; } = new RedisBuilder().Build();
+    public RabbitMqContainer RabbitMq { get; } = new RabbitMqBuilder().Build();
+
+    public async Task InitializeAsync()
+    {
+        await Task.WhenAll(
+            SqlServer.StartAsync(),
+            Redis.StartAsync(),
+            RabbitMq.StartAsync()
+        );
+    }
+
+    public async Task DisposeAsync()
+    {
+        await Task.WhenAll(
+            SqlServer.DisposeAsync().AsTask(),
+            Redis.DisposeAsync().AsTask(),
+            RabbitMq.DisposeAsync().AsTask()
+        );
+    }
+}
+```
+
+**✅ Figure: Good example - Test with multiple real services simultaneously**
+
+## WebApplicationFactory with Testcontainers
+
+Test your entire API with real infrastructure:
+
+```csharp
+public class ApiTests : IClassFixture<CustomWebApplicationFactory>
+{
+    private readonly HttpClient _client;
+
+    public ApiTests(CustomWebApplicationFactory factory)
+    {
+        _client = factory.CreateClient();
+    }
+
+    [Fact]
+    public async Task GetProducts_ReturnsProducts()
+    {
+        var response = await _client.GetAsync("/api/products");
+
+        response.EnsureSuccessStatusCode();
+        var products = await response.Content.ReadFromJsonAsync<List<Product>>();
+        Assert.NotEmpty(products);
+    }
+}
+
+public class CustomWebApplicationFactory : WebApplicationFactory<Program>, IAsyncLifetime
+{
+    private readonly MsSqlContainer _sqlContainer = new MsSqlBuilder().Build();
+
+    public async Task InitializeAsync() => await _sqlContainer.StartAsync();
+    public async Task DisposeAsync() => await _sqlContainer.DisposeAsync();
+
+    protected override void ConfigureWebHost(IWebHostBuilder builder)
+    {
+        builder.ConfigureServices(services =>
+        {
+            // Replace the database connection with Testcontainers
+            services.RemoveAll<DbContextOptions<AppDbContext>>();
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(_sqlContainer.GetConnectionString()));
+        });
+    }
+}
+```
+
+**✅ Figure: Good example - Full API integration tests with real database**
+
+## CI/CD considerations
+
+Testcontainers requires Docker in CI:
+
+```yaml
+# GitHub Actions
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+      - name: Run tests
+        run: dotnet test
+        # Docker is pre-installed on GitHub runners
+```
+
+**✅ Figure: Good example - GitHub Actions supports Testcontainers out of the box**
+
+## When to use Testcontainers vs Mocks
+
+| Use Testcontainers | Use Mocks |
+|-------------------|-----------|
+| Database queries and migrations | Pure business logic |
+| Message queue integration | Unit testing services |
+| Cache behavior | Testing error handling |
+| Full API integration tests | Fast feedback during development |

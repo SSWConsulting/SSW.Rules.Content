@@ -1,25 +1,24 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2020-03-12 21:53:03+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 3198a586-9314-431d-8226-51dce77fac4f
-isArchived: false
-lastUpdated: 2020-03-20 01:23:45+00:00
-lastUpdatedBy: Matthew Wicks
-lastUpdatedByEmail: MatthewWicks@ssw.com.au
-redirects:
-- do-you-know-when-functions-are-too-complicated
-seoDescription: Learn when to refactor functions and simplify code using Visual Studio's
-  built-in Code Metrics tool and Cyclomatic Complexity analysis.
+type: rule
 title: Do you know when functions are too complicated?
+uri: know-when-functions-are-too-complicated
 categories:
   - category: categories/software-engineering/rules-to-better-code.mdx
-type: rule
-uri: know-when-functions-are-too-complicated
+authors:
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
+redirects:
+  - do-you-know-when-functions-are-too-complicated
+guid: 3198a586-9314-431d-8226-51dce77fac4f
+seoDescription: Learn when to refactor functions and simplify code using Visual Studio's built-in Code Metrics tool and Cyclomatic Complexity analysis.
+created: 2020-03-12T21:53:03.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2020-03-20T01:23:45.000Z
+lastUpdatedBy: Matthew Wicks
+lastUpdatedByEmail: MatthewWicks@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
 You should generally be looking for ways to simplify your code (e.g. removing heavily-nested case statements). As a minimum, look for the most complicated method you have and check whether it needs simplifying.
@@ -28,8 +27,7 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
 
 <endIntro />
 
-1. Go to Analyze | Calculate Code Metrics | For Solution
-
+1\. Go to Analyze | Calculate Code Metrics | For Solution
 
 <imageEmbed
   alt="Image"
@@ -40,9 +38,7 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
   src="/uploads/rules/know-when-functions-are-too-complicated/calculate_code_metrics.jpg"
 />
 
-
-2. Look at the function with the largest Cyclomatic Complexity number and consider refactoring to make it simpler.
-
+2\. Look at the function with the largest Cyclomatic Complexity number and consider refactoring to make it simpler.
 
 <imageEmbed
   alt="Image"
@@ -53,13 +49,10 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
   src="/uploads/rules/know-when-functions-are-too-complicated/code_metrics_report.jpg"
 />
 
-
-
 <boxEmbed
   style="greybox"
   body={<>
-    
-**Tip:** Aim for "green" against each function's Maintainability Index.
+    **Tip:** Aim for "green" against each function's Maintainability Index.
   </>}
   figurePrefix="none"
   figure=""

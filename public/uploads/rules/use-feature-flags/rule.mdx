@@ -1,0 +1,195 @@
+---
+type: rule
+title: Do you use Feature Flags for safer deployments?
+uri: use-feature-flags
+authors:
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent/
+categories:
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+guid: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+seoDescription: Learn how to use feature flags for safer deployments, trunk-based development, gradual rollouts, and instant rollbacks without redeploying.
+created: 2026-02-05T00:00:00.000Z
+---
+
+Deploying new features is risky - bugs can affect all users instantly. Feature flags let you deploy code to production but control who sees new features. You can gradually roll out to 1%, then 10%, then 100% of users, and instantly disable a feature if something goes wrong - no redeployment needed.
+
+Feature flags enable trunk-based development, where all developers commit to main and features are hidden behind flags until ready.
+
+<endIntro _hidden="" />
+
+## Why feature flags matter
+
+* **Safer deployments** - Deploy code without exposing unfinished features
+* **Instant rollback** - Disable problematic features in seconds, not minutes
+* **Gradual rollouts** - Test with 1% of users before full release
+* **A/B testing** - Show different experiences to different user groups
+* **Kill switches** - Disable expensive features during incidents
+
+## Setting up Feature Flags with Microsoft.FeatureManagement
+
+```csharp
+// Program.cs
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddFeatureManagement();
+
+var app = builder.Build();
+```
+
+```json
+// appsettings.json
+{
+  "FeatureManagement": {
+    "NewDashboard": true,
+    "BetaFeatures": false,
+    "ExperimentalSearch": {
+      "EnabledFor": [
+        {
+          "Name": "Percentage",
+          "Parameters": {
+            "Value": 10
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**✅ Figure: Good example - Configure feature flags in appsettings.json**
+
+## Using feature flags in code
+
+```csharp
+// Bad - code is always executed, no way to disable
+public async Task<IActionResult> GetDashboard()
+{
+    var data = await _newDashboardService.GetData(); // New untested code
+    return Ok(data);
+}
+```
+
+**❌ Figure: Bad example - No way to disable new code if issues arise**
+
+```csharp
+// Good - feature can be toggled without redeployment
+public async Task<IActionResult> GetDashboard(IFeatureManager featureManager)
+{
+    if (await featureManager.IsEnabledAsync("NewDashboard"))
+    {
+        var data = await _newDashboardService.GetData();
+        return Ok(data);
+    }
+
+    // Fallback to old dashboard
+    var legacyData = await _legacyDashboardService.GetData();
+    return Ok(legacyData);
+}
+```
+
+**✅ Figure: Good example - Feature can be disabled instantly if problems occur**
+
+## Feature flags in Razor/Blazor
+
+```html
+<feature name="NewDashboard">
+    <NewDashboardComponent />
+</feature>
+<feature name="NewDashboard" negate="true">
+    <LegacyDashboardComponent />
+</feature>
+```
+
+**✅ Figure: Good example - Use feature tag helper in views**
+
+## Percentage rollouts
+
+Roll out to a percentage of users to catch issues before they affect everyone:
+
+```json
+{
+  "FeatureManagement": {
+    "NewCheckout": {
+      "EnabledFor": [
+        {
+          "Name": "Percentage",
+          "Parameters": {
+            "Value": 5
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**✅ Figure: Good example - Roll out to 5% of users first, increase gradually**
+
+## User targeting
+
+Enable features for specific users or groups:
+
+```json
+{
+  "FeatureManagement": {
+    "BetaFeatures": {
+      "EnabledFor": [
+        {
+          "Name": "Targeting",
+          "Parameters": {
+            "Audience": {
+              "Users": ["user@example.com", "tester@example.com"],
+              "Groups": ["BetaTesters", "InternalUsers"],
+              "DefaultRolloutPercentage": 0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
+**✅ Figure: Good example - Enable beta features only for specific users or groups**
+
+## Feature flags as kill switches
+
+During incidents, disable expensive or problematic features instantly:
+
+```csharp
+app.MapGet("/api/recommendations", async (
+    IFeatureManager featureManager,
+    IRecommendationService recommendations) =>
+{
+    // Kill switch - disable expensive ML recommendations during high load
+    if (!await featureManager.IsEnabledAsync("MLRecommendations"))
+    {
+        return Results.Ok(new { items = Array.Empty<object>(), source = "disabled" });
+    }
+
+    var items = await recommendations.GetPersonalizedAsync();
+    return Results.Ok(new { items, source = "ml" });
+});
+```
+
+**✅ Figure: Good example - Disable expensive features during incidents without redeployment**
+
+## When to use feature flags vs configuration
+
+| Use Feature Flags | Use Configuration |
+|-------------------|-------------------|
+| New features being developed | Stable settings (connection strings, URLs) |
+| Gradual rollouts needed | Per-environment differences |
+| Quick enable/disable required | Rarely changed values |
+| A/B testing | Infrastructure settings |
+
+## Best practices
+
+1. **Clean up old flags** - Remove flags once features are fully rolled out
+2. **Name flags clearly** - Use descriptive names like `NewCheckoutFlow` not `Flag1`
+3. **Default to off** - New features should be disabled by default
+4. **Log flag evaluations** - Track which users see which features
+5. **Test both paths** - Ensure code works with flag on AND off
