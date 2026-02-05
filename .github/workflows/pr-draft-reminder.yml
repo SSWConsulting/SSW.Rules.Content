@@ -148,9 +148,10 @@ jobs:
 
           This PR is currently in **Draft mode**. To help it get reviewed and merged:
 
-          1. ✍️ **Add a description** - Explain what changes you've made and why
+          1. ✍️ **Update PR title & add a description** - Explain what changes you've made and why
           2. ✅ **Mark as ready for review** - Click "Ready for review" when you're done
           3. 👥 **Add reviewers** - Assign people to review your changes
+          4. 📣 **Notify reviewers** - Message or call them to let them know the PR is ready
 
           Once you've completed these steps, your PR will be ready for approval!
 
