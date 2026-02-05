@@ -1,25 +1,47 @@
 ---
-seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+uri: manage-compatibility-for-different-tfms
 categories:
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
-uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
-    url: https://www.ssw.com.au/people/yazhi-chen
-created: 2023-09-01T01:39:10.755Z
+    url: 'https://www.ssw.com.au/people/yazhi-chen'
+  - title: Kaha Mason
+    url: 'https://ssw.com.au/people/kaha-mason'
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
+seoDescription: 'Learn how to manage compatibility between different Target Framework Monikers (TFMs) using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
+created: 2023-09-01T01:39:10.755Z
+createdBy: Kaha Mason
+createdByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-02-04T05:59:35.203Z
+lastUpdatedBy: Kaha Mason
+lastUpdatedByEmail: kahamason@ssw.com.au
 ---
+
 Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
 Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
 
 <endIntro />
 
-### Using #if Pragma Statements
+### Multi-targeting your project
 
-You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
+If you need to support both the old and new TFMs for a period of time, multi-target the project so you can build/test both:
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>net48;net10.0</TargetFrameworks>
+</PropertyGroup>
+```
+
+This lets you keep one codebase while you migrate, and it makes compatibility issues visible in CI (because both TFMs compile).
+
+Once the migration is complete, you can remove the old TFM from `TargetFrameworks`.
+
+### Using C# preprocessor directives (`#if`, `#elif`, `#endif`)
+
+You can use C# preprocessor directives to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
 
 Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
 
@@ -28,7 +50,7 @@ public static class WebClientFactory
 {
   public static IWebClient GetWebClient()
   {
-#if NET472
+#if NET48
     return new CustomWebClient();
 #else
     return new CustomHttpClient();
@@ -36,17 +58,84 @@ public static class WebClientFactory
   }
 }
 ```
-**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
+**✅ Code: Good example - Using preprocessor directives and a factory pattern**
+
+Tip: Prefer explicit version checks when possible, as they scale better than `#else`:
+
+```cs
+#if NET10_0_OR_GREATER
+// Use the .NET 10+ implementation
+#else
+// Use the .NET Framework implementation
+#endif
+```
+
+If you want `#if NET48` to work reliably, define it in your project file (so it’s available when compiling the `net48` target):
+
+```xml
+<PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+  <DefineConstants>$(DefineConstants);NET48</DefineConstants>
+</PropertyGroup>
+```
+**✅ Code: Good example - Defining custom preprocessor symbols per TFM**
 
 ### Using MSBuild conditions
 
 You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM. This enables you to manage references dynamically based on the TFM in use.
 
-```cs
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-**✅ Code: Good example - Using MSBuild conditions**  
+**✅ Code: Good example - Using MSBuild conditions**
+
+#### Conditional NuGet packages per TFM
+
+In SDK-style projects, you can use a similar approach to separate target-specific NuGet packages:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <PackageReference Include="Some.Legacy.Package" Version="1.*" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <PackageReference Include="Some.Modern.Package" Version="10.*" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Common.Package" Version="5.*" />
+</ItemGroup>
+```
+**✅ Code: Good example - Conditional NuGet packages per TFM**
+
+#### Optional: Include different source files per TFM
+
+If the implementation differs a lot, keep the code in separate files and include them conditionally:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <Compile Include="Compatibility\\WebClientFactory.net48.cs" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <Compile Include="Compatibility\\WebClientFactory.net10.cs" />
+</ItemGroup>
+```
+**✅ Code: Good example - Conditional source files per TFM**
+
+### Post-migration cleanup
+
+Once the main branch has fully moved to the new TFM:
+
+* Remove the old TFM from `TargetFrameworks`
+* Delete the old implementation paths (or per-TFM files)
+* Remove conditional MSBuild blocks and legacy package references
+
+### Definition of done
+
+* The project builds for all target TFMs
+* Tests run for each TFM in CI
+* Compatibility code is isolated (minimal `#if` in domain/business logic)
