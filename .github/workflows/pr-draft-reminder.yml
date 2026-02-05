@@ -126,7 +126,7 @@ jobs:
             foreach ($comment in $commentsJson.comments) {
               # Check for both 'github-actions' and 'github-actions[bot]' to handle API variations
               $isBot = $comment.author.login -eq "github-actions" -or $comment.author.login -eq "github-actions[bot]"
-              if ($isBot -and $comment.body -match "This PR is currently in Draft mode") {
+              if ($isBot -and $comment.body -match 'This PR is currently in.*Draft mode') {
                 $reminderExists = $true
                 Write-Output "Reminder comment already exists"
                 break
