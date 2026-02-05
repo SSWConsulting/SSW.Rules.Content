@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2010-07-23 02:38:13+00:00
+- author: adam-cogan
+created: 2010-07-23 02:38:13
 createdBy: SSW2000\cindywang
 createdByEmail: CindyWang@ssw.com.au
 guid: c972c2ef-6c33-4420-b36c-e08c7fb2b914
 isArchived: false
-lastUpdated: 2015-09-10 23:18:49+00:00
+lastUpdated: 2015-09-10 23:18:49
 lastUpdatedBy: William Yin
 lastUpdatedByEmail: WilliamYin@ssw.com.au
 redirects:
@@ -24,11 +23,10 @@ seoDescription: Avoid using zero-length strings in fields by setting AllowZeroLe
   property correctly to ensure data integrity during upsizing.
 title: Do you use the AllowZeroLength property on a field (Upsizing Problem)?
 categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
 type: rule
 uri: do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
 ---
-
 - The value that you select for the AllowZeroLength property determines whether zero length strings ("") may be inserted into a field. Currently, the Upsizing Wizard does not create a constraint or trigger against an upsized table to enforce this rule. Instead, you must manually create a Check Constraint on the columns once the upsizing process is complete.
 - Still an issue in Access 2000 -2003
 

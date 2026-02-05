@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-06 01:32:42+00:00
+- author: adam-cogan
+created: 2019-11-06 01:32:42
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 49e77277-e4f8-44a0-bc2c-3d7d487714a0
 isArchived: false
-lastUpdated: 2020-05-21 05:40:55+00:00
+lastUpdated: 2020-05-21 05:40:55
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Avoid using indexes on RowGuid columns due to their large size a
   lack of suitability for indexing, making searches slow and inefficient.
 title: Schema - Do you avoid using indexes on RowGuid column?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: avoid-using-indexes-on-rowguid-column
 ---
-
 RowGuids (uniqueidentifier) are large fields (16 bytes) and are basically going to ALWAYS be unique.
 
 SQL Server adds a RowGUID column to all tables if you are using Merge Replication (but doesn't add an index).

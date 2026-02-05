@@ -1,9 +1,8 @@
 ---
 archivedreason: null
 authors:
-- title: Tom Iwainski
-  url: https://www.ssw.com.au/people/thomas-iwainski
-created: 2024-11-05 12:52:08+00:00
+- author: thomas-iwainski
+created: 2024-11-05 12:52:08
 guid: 2feb782f-0cee-4022-95d9-f44b9f739b90
 seoDescription: Learn how to optimize logging in .NET applications using the LoggerMessage
   class. Discover the performance benefits, such as reduced object allocations and
@@ -11,11 +10,10 @@ seoDescription: Learn how to optimize logging in .NET applications using the Log
   for better logging efficiency and structured logs in high-performance scenarios.
 title: Do you use LoggerMessage in .NET?
 categories:
-  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
 type: rule
 uri: use-loggermessage-in-net
 ---
-
 Logging is a critical component in modern applications, but it can easily introduce performance overhead.
 
 .NET 6 introduced the `LoggerMessageAttribute`, a feature in the `Microsoft.Extensions.Logging` namespace that enables source-generated, highly performant logging APIs. This approach eliminates runtime overheads like boxing and temporary allocations, making it faster than traditional logging methods.

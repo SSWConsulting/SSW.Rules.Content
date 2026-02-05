@@ -1,16 +1,14 @@
 ---
 archivedreason: null
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-created: 2013-08-29 00:41:29+00:00
+- author: william-yin
+- author: brendan-richards
+created: 2013-08-29 00:41:29
 createdBy: System Account
 createdByEmail: Unknown@ssw.com.au
 guid: 4117b350-d8e9-47d3-95a0-f993cd7af6a2
 isArchived: false
-lastUpdated: 2013-08-29 03:42:41+00:00
+lastUpdated: 2013-08-29 03:42:41
 lastUpdatedBy: System Account
 lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
@@ -18,11 +16,10 @@ seoDescription: Disposing SharePoint objects efficiently by not using `SPContext
   objects that SharePoint manages itself.
 title: Do you know to never dispose objects from SPContext.Current?
 categories:
-  - category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
+- category: categories/software-engineering/rules-to-better-sharepoint-for-developers.mdx
 type: rule
 uri: never-dispose-objects-from-spcontext-current
 ---
-
 Disposing objects in SharePoint is important, but never do it with objects from `SPContext.Current`. SharePoint will manage disposing these objects itself.
 
 <endIntro />

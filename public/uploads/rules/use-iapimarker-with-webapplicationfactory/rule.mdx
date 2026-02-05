@@ -3,17 +3,15 @@ seoDescription: Do you use IApiMarker with WebApplicationFactory?
 type: rule
 title: Do you use IApiMarker with WebApplicationFactory?
 categories:
-  - category: categories/software-engineering/rules-to-better-unit-tests.mdx
+- category: categories/software-engineering/rules-to-better-unit-tests.mdx
 uri: use-iapimarker-with-webapplicationfactory
 authors:
-  - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
-created: 2022-11-25T07:17:00.000Z
+- author: gordon-beeming
+created: 2022-11-25 07:17:00
 guid: 81F456F4-689B-47CD-B4BF-883A7B423072
 redirects:
-  - do-you-use-iapimarker-with-webapplicationfactory
+- do-you-use-iapimarker-with-webapplicationfactory
 ---
-
 The `WebApplicationFactory` class is used for bootstrapping an application in memory for functional end to end tests. As part of the initialization of the factory you need to reference a type from the application project.
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.

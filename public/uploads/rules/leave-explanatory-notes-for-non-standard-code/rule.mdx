@@ -1,11 +1,9 @@
 ---
 archivedreason: null
 authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Daniel Mackay
-  url: https://ssw.com.au/people/daniel-mackay
-created: 2025-09-09 00:00:00+00:00
+- author: gordon-beeming
+- author: daniel-mackay
+created: 2025-09-09 00:00:00
 guid: B60B8EC3-A44F-43C9-94F0-13E8ABCB9533
 related:
 - rule: public/uploads/rules/code-commenting/rule.mdx
@@ -14,11 +12,10 @@ seoDescription: Learn how to leave clear, permanent comments for non-standard co
   implementations, preventing accidental bugs.
 title: Do you leave explanatory notes for non-standard code?
 categories:
-  - category: categories/software-engineering/rules-to-better-code-commenting.mdx
+- category: categories/software-engineering/rules-to-better-code-commenting.mdx
 type: rule
 uri: leave-explanatory-notes-for-non-standard-code
 ---
-
 Sometimes, you need to write code that deviates from the standard pattern. It might be a workaround for a library bug, an optimization for a critical performance path, or a temporary solution pending a larger refactor. Without context, a future developer, or even you, months later, might see this "weird" code and refactor it back to the standard pattern, unknowingly reintroducing a bug.
 
 To prevent this, it's crucial to leave a clear, permanent note directly in the code. This ensures the "why" behind the decision is never lost.

@@ -1,14 +1,14 @@
 ---
-seoDescription: Securely manage GitHub secrets with Azure KeyVault for enhanced security and centralized control.
+seoDescription: Securely manage GitHub secrets with Azure KeyVault for enhanced security
+  and centralized control.
 type: rule
 title: Do you store your GitHub secrets in Azure KeyVault?
 categories:
-  - category: categories/project-delivery/rules-to-better-github.mdx
+- category: categories/project-delivery/rules-to-better-github.mdx
 uri: store-github-secrets-in-keyvault
 authors:
-  - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
-created: 2022-10-27T21:38:53.087Z
+- author: warwick-leahy
+created: 2022-10-27 21:38:53.087000
 guid: 6191828c-2049-46ef-93f8-d5eb90426d56
 ---
 When creating pipelines for a company there is often secrets that need to be used by more than 1 repository. This is something that GitHub can't do natively. A developer is also unable to read the secrets in GitHub once they are entered. Although this is for security a simple typo can't be found and instead the entire secret needs to be reentered. There is also no visible history for GitHub secrets and no ability to revert to an earlier version of a secret.

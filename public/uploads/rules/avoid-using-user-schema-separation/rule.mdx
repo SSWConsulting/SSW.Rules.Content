@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-06 17:57:17+00:00
+- author: adam-cogan
+created: 2019-11-06 17:57:17
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: bcc574f7-3dd5-45e1-8ec6-e37c434f5243
 isArchived: false
-lastUpdated: 2020-01-03 05:21:32+00:00
+lastUpdated: 2020-01-03 05:21:32
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Schema simplification boosts readability and maintainability, ma
   it unnecessary to use user-schema separation unless dealing with very large databases.
 title: Schema - Do you avoid using user-schema separation?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: avoid-using-user-schema-separation
 ---
-
 User-schema separation allows more flexibility by adding another level of naming and shifting ownership of database objects to the schema, not the user. So, is it worth doing? Unless you are working with a very large database (100+ tables), the answer is "no". Most smaller databases have all objects with owner "dbo", which is fine in most cases.
 
 <endIntro />

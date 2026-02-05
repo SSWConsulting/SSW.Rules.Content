@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-13 01:05:06+00:00
+- author: adam-cogan
+created: 2019-11-13 01:05:06
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: b22e716b-2afb-4932-9877-ff149005a1d7
 isArchived: false
-lastUpdated: 2019-12-31 01:22:21+00:00
+lastUpdated: 2019-12-31 01:22:21
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Set "Not For Replication" when creating a relationship to ensure
   integrity during replication operations.
 title: Relationships - Do you set Not For Replication when creating a relationship?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: set-not-for-replication-when-creating-a-relationship
 ---
-
 When NOT FOR REPLICATION is used with a Foreign Key relationship, the integrity of the relationship is not checked while the Replication Agent is logged in and performing replication operations. This allows changes to the data (such as cascading updates) be propagated correctly.
 
 <endIntro />

@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-05 22:48:11+00:00
+- author: adam-cogan
+created: 2019-11-05 22:48:11
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: aedc3260-9b29-4115-9536-43c57d1e13b1
 isArchived: false
-lastUpdated: 2021-03-04 00:47:25.057000+00:00
+lastUpdated: 2021-03-04 00:47:25.057000
 lastUpdatedBy: Brady Stroud [SSW]
 lastUpdatedByEmail: bradystroud@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Use VARCHAR instead of CHAR for most SQL Server applications to 
   storage space and query performance
 title: Schema - Do you always use Varchar?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: always-use-varchar
 ---
-
 Use `VARCHAR` instead of `CHAR`, unless your data is almost always of a fixed length, or is very short. For example, a Social Security/Tax File number which is always 9 characters. These situations are rare.
 
 SQL Server fits a whole row on a single page, and will never try to save space by splitting a row across two pages.

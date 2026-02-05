@@ -1,26 +1,19 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-- title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Andrew Lean
-  url: https://ssw.com.au/people/andrew-lean
-- title: William Liebenberg
-  url: https://www.ssw.com.au/people/william-liebenberg
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
-created: 2016-04-28 19:19:41+00:00
+- author: adam-cogan
+- author: mehmet-ozdemir
+- author: bryden-oliver
+- author: brendan-richards
+- author: andrew-lean
+- author: william-liebenberg
+- author: piers-sinclair
+created: 2016-04-28 19:19:41
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
 isArchived: false
-lastUpdated: 2021-09-27 16:44:21.502000+00:00
+lastUpdated: 2021-09-27 16:44:21.502000
 lastUpdatedBy: Tiago Araújo [SSW]
 lastUpdatedByEmail: tiagov8@gmail.com
 redirects:
@@ -30,12 +23,11 @@ related:
 seoDescription: Do you securely store your secrets and avoid common pitfalls?
 title: Do you store your secrets securely?
 categories:
-  - category: categories/software-engineering/rules-to-better-code.mdx
-  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+- category: categories/software-engineering/rules-to-better-code.mdx
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
 type: rule
 uri: store-your-secrets-securely
 ---
-
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
 These secrets **must not** be stored in source control. It is insecure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.

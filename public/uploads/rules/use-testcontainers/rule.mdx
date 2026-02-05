@@ -3,15 +3,14 @@ type: rule
 title: Do you use Testcontainers for integration testing?
 uri: use-testcontainers
 authors:
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani
+- author: hajir-lesani
 categories:
-  - category: categories/software-engineering/rules-to-better-testing.mdx
+- category: categories/software-engineering/rules-to-better-testing.mdx
 guid: 3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f
-seoDescription: Learn how to use Testcontainers to run integration tests against real databases and services in Docker containers, catching issues that mocks would miss.
-created: 2026-02-05T00:00:00.000Z
+seoDescription: Learn how to use Testcontainers to run integration tests against real
+  databases and services in Docker containers, catching issues that mocks would miss.
+created: 2026-02-05 00:00:00
 ---
-
 Mocking databases and external services in tests is fast but dangerous - your tests pass while production fails. Testcontainers spins up real Docker containers (SQL Server, PostgreSQL, Redis, RabbitMQ) for your tests, ensuring your code works against real infrastructure.
 
 Tests run in isolation with fresh containers, catching integration issues that mocks would never find.

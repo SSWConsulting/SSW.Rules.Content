@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
-created: 2011-02-14 03:38:17+00:00
+- author: matthew-hodgkins
+created: 2011-02-14 03:38:17
 createdBy: System Account
 createdByEmail: Unknown@ssw.com.au
 guid: 0c428023-a683-4a2c-98a7-71ba82f2432c
 isArchived: false
-lastUpdated: 2011-02-14 03:42:11+00:00
+lastUpdated: 2011-02-14 03:42:11
 lastUpdatedBy: System Account
 lastUpdatedByEmail: Unknown@ssw.com.au
 redirects: []
@@ -16,11 +15,10 @@ seoDescription: Use Basic Volumes inside VHDs to ensure Microsoft Data Protectio
   Manager can perform Child State Backups with Hyper-V Virtual Machines.
 title: Do you use Basic Volumes inside VHD's?
 categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-hyper-v.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v.mdx
 type: rule
 uri: do-you-use-basic-volumes-inside-vhds
 ---
-
 When formatting a new virtual disk you have attached to a Hyper-V Virtual Machine, you can choose to to format the disk as a **Basic disk** or **Dynamic** **disk** .
 
 A **Dynamic** **disk** might be useful in situations where you want to create a software RAID array, but when using Hyper-V this not a good idea because it prevents Microsoft Data Protection Manager (DPM) from doing Child State Backups (backups while the machine is running).

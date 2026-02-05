@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-12 22:20:33+00:00
+- author: adam-cogan
+created: 2019-11-12 22:20:33
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: ca492bae-b564-4446-9095-5bae88eecf66
 isArchived: false
-lastUpdated: 2025-11-24 22:17:06+00:00
+lastUpdated: 2025-11-24 22:17:06
 lastUpdatedBy: Copilot
 lastUpdatedByEmail: 198982749+Copilot@users.noreply.github.com
 redirects:
@@ -19,11 +18,10 @@ seoDescription: Use SCOPE_IDENTITY() instead of @@IDENTITY to safely get the mos
 title: Stored Procedures - Do you use SCOPE_IDENTITY() to get the most recent row
   identity?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: use-scope_identity-to-get-the-most-recent-row-identity
 ---
-
 When inserting a row in a stored procedure, always use SCOPE\_IDENTITY() if you want to get the ID of the row that was just inserted. A common error is to use @@IDENTITY, which returns the most recently created identity for your current connection, not necessarily the identity for the recently added row in a table. You could have a situation where there is a trigger that inserts a new record in a Logs Table, for example, when your Stored Procedure or INSERT SQL Statement inserts a record in the Orders Table. If you use @@IDENTITY to retrieve the identity of the new order, you will actually get the identity of the record added into the Log Table and not the Orders Table, which will create a nasty bug in your data access layer. To avoid the potential problems associated with someone adding a trigger later on, always use SCOPE\_IDENTITY() to return the identity of the recently added row in your INSERT SQL Statement or Stored Procedure.
 
 <endIntro />

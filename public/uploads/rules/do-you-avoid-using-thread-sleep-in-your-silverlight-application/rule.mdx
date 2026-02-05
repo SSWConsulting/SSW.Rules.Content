@@ -2,14 +2,13 @@
 archivedreason: Deprecated - Silverlight is no longer installable and has been deprecated
   for 10 years.
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2011-05-20 07:44:11+00:00
+- author: adam-cogan
+created: 2011-05-20 07:44:11
 createdBy: SSW2000\cindywang
 createdByEmail: CindyWang@ssw.com.au
 guid: 5ed4ab0e-4bac-4eba-ac0e-fc087efcd865
 isArchived: true
-lastUpdated: 2016-11-01 19:00:26+00:00
+lastUpdated: 2016-11-01 19:00:26
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects: []
@@ -18,11 +17,10 @@ seoDescription: Silverlight applications should avoid using Thread.Sleep as it c
   with a duration to delay execution of code.
 title: Do you avoid using Thread.Sleep in your Silverlight application?
 categories:
-  - category: categories/software-engineering/rules-to-better-wpf-and-silverlight.mdx
+- category: categories/software-engineering/rules-to-better-wpf-and-silverlight.mdx
 type: rule
 uri: do-you-avoid-using-thread-sleep-in-your-silverlight-application
 ---
-
 Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.
 
 If you want to delay something, you can use a [storyboard](https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.animation.storyboard?view=windowsdesktop-7.0&redirectedfrom=MSDN&WT.mc_id=DT-MVP-33518).

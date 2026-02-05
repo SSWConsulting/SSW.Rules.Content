@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-12 23:23:19+00:00
+- author: adam-cogan
+created: 2019-11-12 23:23:19
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 5d8fa649-2fb5-4345-b244-bc7572ec2766
 isArchived: false
-lastUpdated: 2019-12-31 00:53:10+00:00
+lastUpdated: 2019-12-31 00:53:10
 lastUpdatedBy: Christian Morford-Waite
 lastUpdatedByEmail: ChristianMWaite@ssw.com.au
 redirects:
@@ -17,11 +16,10 @@ seoDescription: Use transactions to ensure atomicity and prevent partial updates
   executing complicated stored procedures.
 title: Stored Procedures - Do you use transactions for complicated stored procedures?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: use-transactions-for-complicated-stored-procedures
 ---
-
 A transaction means an atomic operation, it assures that all operations within the transaction are successful, if not, the transaction will cancel all operations and roll back to the original state of the database, that means no dirty data and mess exists in the database, so if a stored procedure has many steps, and each step has relation with other steps, it is strongly recommended that you encapsulate the procedure in a transaction.
 
 <endIntro />

@@ -1,11 +1,9 @@
 ---
 archivedreason: null
 authors:
-- title: Brady Stroud
-  url: https://www.ssw.com.au/people/brady-stroud
-- title: Daniel Mackay
-  url: https://www.ssw.com.au/people/daniel-mackay
-created: 2025-05-15 00:00:00+00:00
+- author: brady-stroud
+- author: daniel-mackay
+created: 2025-05-15 00:00:00
 guid: 19a53ef8-5b5c-4e44-baef-1433d4a77e48
 redirects: []
 related:
@@ -15,12 +13,11 @@ seoDescription: Learn why creating unique DTOs for each API endpoint improves pe
   reduces coupling, and leads to better maintainability in Clean Architecture.
 title: Do you use unique DTOs per use case?
 categories:
-  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
-  - category: categories/software-engineering/rules-to-better-clean-architecture.mdx
+- category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+- category: categories/software-engineering/rules-to-better-clean-architecture.mdx
 type: rule
 uri: unique-dtos-per-endpoint
 ---
-
 In Clean Architecture, it is normally better to have a unique Data Transfer Object (DTO) for each endpoint or use case.
 
 While sharing DTOs across multiple endpoints might seem like a way to save some code, it often leads to several problems:

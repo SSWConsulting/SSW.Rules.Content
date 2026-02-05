@@ -1,17 +1,14 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- noimage: true
-  title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-created: 2009-08-28 05:22:37+00:00
+- author: adam-cogan
+- author: ryan-tee
+created: 2009-08-28 05:22:37
 createdBy: SSW2000\cindywang
 createdByEmail: CindyWang@ssw.com.au
 guid: a9c223c1-72e5-4f27-b69e-2f86660dac75
 isArchived: false
-lastUpdated: 2010-10-20 08:56:46+00:00
+lastUpdated: 2010-10-20 08:56:46
 lastUpdatedBy: System Account
 lastUpdatedByEmail: Unknown@ssw.com.au
 redirects:
@@ -19,11 +16,10 @@ redirects:
 seoDescription: Do you reference "very calm/stable" DLLs by Assembly?
 title: Do you reference "very calm/stable" .dlls by Assembly?
 categories:
-  - category: categories/software-engineering/rules-to-better-net-projects.mdx
+- category: categories/software-engineering/rules-to-better-net-projects.mdx
 type: rule
 uri: do-you-reference-very-calm-stable-dlls-by-assembly
 ---
-
 If we lived in a happy world with no bugs, I would be recommending this approach of using shared components from source safe. As per the prior rule, you can see we like to reference "most" .dlls by project.
 However if you do choose to reference a .dll without the source, then the important thing is that if the .dll gets updated by another developer, then there is **\*nothing\*** to do for all other developers ?they get the last version when they do your next build. Therefore you need to follow this:
 

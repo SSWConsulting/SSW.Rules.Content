@@ -1,14 +1,13 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2019-11-14 21:51:26+00:00
+- author: adam-cogan
+created: 2019-11-14 21:51:26
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 5b2a72df-2ed7-42d4-95be-eb996e12d845
 isArchived: false
-lastUpdated: 2020-10-11 23:20:47+00:00
+lastUpdated: 2020-10-11 23:20:47
 lastUpdatedBy: Sebastien Boissiere
 lastUpdatedByEmail: Unknown@ssw.com.au
 redirects:
@@ -19,11 +18,10 @@ seoDescription: Every object name should be owned by dbo to prevent ownership ch
   problems and maintain proper permissions.
 title: General - Do you know every object name should be owned by dbo?
 categories:
-  - category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
+- category: categories/software-engineering/rules-to-better-sql-databases-developers.mdx
 type: rule
 uri: every-object-name-should-be-owned-by-dbo
 ---
-
 The reason is that you avoid ownership chain problems. Where Mary owns an object, Fred can read the object and then he creates a proc and he gives permission to Tom to execute. But Tom cannot because there is a product chain of ownership.
 
 <endIntro />
