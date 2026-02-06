@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+title: Do you know how to multi-target your .NET projects?
 uri: manage-compatibility-for-different-tfms
 categories:
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
@@ -10,7 +10,7 @@ authors:
   - title: Kaha Mason
     url: 'https://ssw.com.au/people/kaha-mason'
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
-seoDescription: 'Learn how to manage compatibility between different Target Framework Monikers (TFMs) using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
+seoDescription: 'Learn how to manage compatibility between different Target Frameworks by using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
 created: 2023-09-01T01:39:10.755Z
 createdBy: Kaha Mason
 createdByEmail: kahamason@ssw.com.au
@@ -19,15 +19,19 @@ lastUpdatedBy: Kaha Mason
 lastUpdatedByEmail: kahamason@ssw.com.au
 ---
 
-Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
+Migrating your project to the latest version of .NET can be a difficult task, especially when you need to maintain compatibility with older versions of .NET during the transition. Ultimately, we want to get our projects to be running on the newest and latest .NET, but this process often requires careful planning and execution so as to not impact our existing application.
 
-Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
+Multi-targeting target framework allows you to build and test your project against multiple versions of .NET simultaneously, which can help you maintain your current application while progressively migrating to the latest .NET version. This will also allow you to identify and resolve compatibility issues early in the migration process, which will save time and effort overall.
+
+This rule provides guidance on how to manage compatibility when transitioning between target frameworks.
 
 <endIntro />
 
+Here are some strategies to help you manage compatibility between different frameworks:
+
 ### Multi-targeting your project
 
-If you need to support both the old and new TFMs for a period of time, multi-target the project so you can build/test both:
+You can specify multiple target frameworks in your project file using the `TargetFrameworks` property:
 
 ```xml
 <PropertyGroup>
@@ -35,15 +39,16 @@ If you need to support both the old and new TFMs for a period of time, multi-tar
 </PropertyGroup>
 ```
 
-This lets you keep one codebase while you migrate, and it makes compatibility issues visible in CI (because both TFMs compile).
+This approach lets you continue to maintain your current application while also building and testing for the desired target framework you aim to migrate to. Being able to build and test against both target frameworks makes compatibility issues more visible in CI (because both target frameworks will compiled).
 
-Once the migration is complete, you can remove the old TFM from `TargetFrameworks`.
+One big downside of this approach is that it increases build and test times, since each target framework will be built and tested separately. This can essentially multiply the build / test times by a multitude of each target framework specified in the project. 
+
+This is a temporary overhead during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
 
 ### Using C# preprocessor directives (`#if`, `#elif`, `#endif`)
 
-You can use C# preprocessor directives to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
-
-Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
+You can use C# preprocessor directives to compile code exclusively for a specific target framework. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
+Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the target framework you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away target framework-specific details.
 
 ```cs
 public static class WebClientFactory
@@ -63,8 +68,8 @@ public static class WebClientFactory
 Tip: Prefer explicit version checks when possible, as they scale better than `#else`:
 
 ```cs
-#if NET10_0_OR_GREATER
-// Use the .NET 10+ implementation
+#if NET
+// Use the modern .NET implementation
 #else
 // Use the .NET Framework implementation
 #endif
@@ -77,12 +82,11 @@ If you want `#if NET48` to work reliably, define it in your project file (so it�
   <DefineConstants>$(DefineConstants);NET48</DefineConstants>
 </PropertyGroup>
 ```
-**✅ Code: Good example - Defining custom preprocessor symbols per TFM**
+**✅ Code: Good example - Defining custom preprocessor symbols per target framework**
 
 ### Using MSBuild conditions
 
-You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM. This enables you to manage references dynamically based on the TFM in use.
-
+You can use MSBuild conditions to add references to different libraries that are only compatible with a specific target framework. This enables you to manage references dynamically based on the target framework in use.
 ```xml
 <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
     <Reference Include="System.Web" />
@@ -92,7 +96,7 @@ You can use MSBuild conditions to add references to different libraries that are
 ```
 **✅ Code: Good example - Using MSBuild conditions**
 
-#### Conditional NuGet packages per TFM
+#### Conditional NuGet packages per target framework
 
 In SDK-style projects, you can use a similar approach to separate target-specific NuGet packages:
 
@@ -109,9 +113,9 @@ In SDK-style projects, you can use a similar approach to separate target-specifi
   <PackageReference Include="Common.Package" Version="5.*" />
 </ItemGroup>
 ```
-**✅ Code: Good example - Conditional NuGet packages per TFM**
+**✅ Code: Good example - Conditional NuGet packages per target framework**
 
-#### Optional: Include different source files per TFM
+#### Optional: Include different source files per target framework
 
 If the implementation differs a lot, keep the code in separate files and include them conditionally:
 
@@ -124,18 +128,17 @@ If the implementation differs a lot, keep the code in separate files and include
   <Compile Include="Compatibility\\WebClientFactory.net10.cs" />
 </ItemGroup>
 ```
-**✅ Code: Good example - Conditional source files per TFM**
+**✅ Code: Good example - Conditional source files per target framework**
 
 ### Post-migration cleanup
 
-Once the main branch has fully moved to the new TFM:
-
-* Remove the old TFM from `TargetFrameworks`
-* Delete the old implementation paths (or per-TFM files)
+Once the main branch has fully moved to the new target framework:
+* Remove the old target framework from `TargetFrameworks`
+* Delete the old implementation paths (or per-target framework files)
 * Remove conditional MSBuild blocks and legacy package references
 
 ### Definition of done
 
-* The project builds for all target TFMs
-* Tests run for each TFM in CI
+* The project builds for all target frameworks
+* Tests run for each target framework in CI
 * Compatibility code is isolated (minimal `#if` in domain/business logic)
