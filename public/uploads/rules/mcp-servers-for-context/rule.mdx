@@ -22,11 +22,11 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Here are SSW's recommended MCP servers for enhancing your AI coding assistants with additional context and capabilities, plus guidance on when to use skills as a lighter-weight alternative.
+Here are the recommended MCP servers for enhancing AI coding assistants with additional context and capabilities, plus guidance on when to use skills as a lighter-weight alternative.
 
 <endIntro />
 
-## When You Don't Need MCP
+## When you don't need MCP
 
 Modern AI coding agents are excellent at generating impromptu code and CLI commands on the fly. For many common tasks, you don't need an MCP server because agents already have built-in tools that handle these operations natively:
 
@@ -37,13 +37,13 @@ Modern AI coding agents are excellent at generating impromptu code and CLI comma
 
 MCP servers become valuable when you need **persistent, specialized integrations** - such as connecting to databases, searching with specific APIs, or interacting with platforms like GitHub in a structured way.
 
-## Skills as an Alternative
+## Skills as an alternative
 
 Skills (also known as slash commands) are another way to extend AI coding assistants. Unlike MCP servers which provide tool access to external systems, skills inject specialized prompts and workflows that guide the AI's behavior for specific tasks.
 
-### When to Use Skills vs MCP Servers
+### When to use Skills vs MCP Servers
 
-**Use Skills** when you need to guide the AI's behavior without external access:
+Use **Skills** when you need to guide the AI's behavior without external access:
 
 * When programming in another language that is not in the AI's training data
 * Standardizing commit message formats
@@ -51,14 +51,14 @@ Skills (also known as slash commands) are another way to extend AI coding assist
 * Following team coding conventions
 * Generating boilerplate with specific patterns
 
-**Use MCP Servers** when you need to connect to external systems:
+Use **MCP Servers** when you need to connect to external systems:
 
 * Querying a live database
 * Interacting with GitHub Issues/PRs
 * Searching external APIs (e.g. Brave Search)
 * Running browser automation
 
-### Best Practices for Skills
+### Best practices for Skills
 
 * **Use skills for workflow standardization** - When you want consistent outputs like commit messages, PR descriptions, or code following specific patterns
 * **Keep skills focused** - Each skill should do one thing well rather than trying to handle multiple scenarios
@@ -128,7 +128,7 @@ Location:
 }
 ```
 
-## Further Reading
+## Further reading
 
 * [Official MCP Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
 * [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) - Official collection of reference MCP server implementations
