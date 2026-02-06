@@ -64,7 +64,7 @@ jobs:
                       oid
                       authors(first: 10) {
                         nodes {
-                          user { login, isBot }
+                          user { login __typename }
                           name
                           email
                         }
@@ -85,9 +85,13 @@ jobs:
                 foreach ($a in $node.commit.authors.nodes) {
                   if ($a.user -and $a.user.login) {
                     $login = $a.user.login
-                    $isBot = $a.user.isBot
+                    $typeName = $a.user.__typename  # "User" / "Bot" etc.
 
-                    if (($isBot -ne $true) -and -not (Test-IsBot $login)) {
+                    Write-Output "GraphQL author candidate: login=$login type=$typeName"
+
+                    $isBot = ($typeName -eq "Bot") -or (Test-IsBot $login)
+
+                    if (-not $isBot) {
                       $targetUser = $login
                       $foundNonBotUser = $true
                       Write-Output "Found non-bot author via GraphQL: $targetUser"
@@ -152,7 +156,7 @@ jobs:
           # - otherwise => generic greeting
           $greeting = "👋 Hi there,"
           if ($author) {
-            # GitHub username pattern (simple conservative check)
+            # GitHub username pattern (conservative check)
             if ($author -match '^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$') {
               $greeting = "👋 Hi @$author,"
             } else {
