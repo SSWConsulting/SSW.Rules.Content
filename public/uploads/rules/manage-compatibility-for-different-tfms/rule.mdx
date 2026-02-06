@@ -41,9 +41,26 @@ You can specify multiple target frameworks in your project file using the `Targe
 
 This approach lets you continue to maintain your current application while also building and testing for the desired target framework you aim to migrate to. Being able to build and test against both target frameworks makes compatibility issues more visible in CI (because both target frameworks will compiled).
 
-One big downside of this approach is that it increases build and test times, since each target framework will be built and tested separately. This can essentially multiply the build / test times by a multitude of each target framework specified in the project. 
+When multi-targeting to migrate to `net10`, teams should weigh the pros and cons in regards of performance, maintenance and CI.
 
-This is a temporary overhead during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
+✅ **Pros:**
+- Incremental migration: allows you to migrate one project at a time, reducing the scope and risk of changes.
+- Compatibility visibility: CI builds and tests both target frameworks, making it easier to identify and fix compatibility issues early in the migration process.
+- Parallel development: allows you to develop and test new features on `net10` while maintaining the existing codebase on `net48`, enabling a smoother transition for developers and users.
+- Risk mitigation / Rollback: if issues arise with the new target framework, you can quickly switch back to the legacy target framework to keep the application running while you address the problems.
+- User impact reduction: allows you to continue delivering value to users on the existing target framework while you work on the migration, minimizing disruption and maintaining user satisfaction.
+- Gradual API adoption: lets you adopt `net10` APIs in isolated files or projects without breaking existing consumers.
+- Lower immediate risk: reduces pressure to rewrite large UI/native codebases all at once.
+- Incremental cleanup: once the migration is complete, you can remove the old target framework and related compatibility code in a single step, simplifying the cleanup process.
+
+❌ **Cons:**
+- Increased complexity: maintaining multiple target frameworks can lead to more complex project files, build configurations, and code with conditional compilation.
+- Increased build / test time: each target framework builds and runs tests separately, which can significantly increase CI times and local development iteration speed.
+- Increased testing coverage: you need to test all code paths for each target framework, which can increase the testing effort and make it harder to ensure comprehensive test coverage.
+- Maintenance overhead: you need to maintain compatibility code, conditional references, and potentially duplicate code paths for each target framework until the migration is complete.
+- Longer migration timeline: maintaining multiple target frameworks can slow down the migration process, as you need to ensure compatibility and stability across all target frameworks until the old one can be removed.
+
+These are temporary overheads during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
 
 ### Windows-specific target frameworks
 
