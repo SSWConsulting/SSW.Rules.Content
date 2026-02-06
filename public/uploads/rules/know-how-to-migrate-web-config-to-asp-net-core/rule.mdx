@@ -30,19 +30,19 @@ The `Web.Config` file contains data about the package inclusions, module inclusi
 
 <endIntro />
 
-## **Understand configuration sources and precedence**
+## Understand configuration sources and precedence
 
 When moving settings out of `Web.config`, it helps to understand how ASP.NET Core loads configuration by default (and which source "wins"). Microsoft Learn documents the default providers and their precedence (for example: `appsettings.json`, `appsettings.{Environment}.json`, user secrets in Development, environment variables, then command-line arguments).
 
-See: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-10.0
+More on [Configuration in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-10.0).
 
 Also note that environment variables use `__` (double underscore) to represent `:` in hierarchical keys across platforms.
 
-## Package Inclusions
+## Package inclusions
 
 In ASP.NET Core, project inclusions are listed in the project's CSPROJ file. The dependencies of your application will need to be reviewed as to whether they are still required, and should be added as required using the NuGet Package Manager.
 
-## Server Configuration
+## Server configuration
 
 The server's configuration needs to be transferred to code within the `Program.cs` file.
 
@@ -70,7 +70,7 @@ For guidance on IIS hosting and the ASP.NET Core Module, see: https://learn.micr
 
 **Figure: Minimal `web.config` shape for the ASP.NET Core Module (publish typically generates this)**
 
-### Custom Error Pages
+### Custom error pages
 
 The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
 
@@ -96,15 +96,15 @@ Figure: The migrated configuration to ASP.NET Core
 
 The `<pages>/<namespaces>` element defines import directives to use during compilation. The same effect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
 
-### HTTP Handler Routes
+### HTTP handler routes
 
 The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398986(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
 
-### HTTP Modules
+### HTTP modules
 
 The [`<httpModules>`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/development/http-modules-handlers) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
 
-### URL Rewrite rules
+### URL rewrite rules
 
 The `<rewrite>` element under `<system.webServer>` is often used for redirects, URL rewriting, and SPA fallbacks.
 
@@ -176,7 +176,7 @@ app.Run();
 
 **Figure: The equivalent custom MIME type mapping in ASP.NET Core**
 
-## Custom Configuration Values
+## Custom configuration values
 
 Custom configuration values for the application are stored in the `<appSettings>` element. Where configuration values will be moved will depend on whether they should be secret or not.
 
@@ -230,7 +230,7 @@ public class TestService
 
 **Figure: The example code migrated to ASP.NET Core**
 
-## Connection Strings
+## Connection strings
 
 Connection strings are stored in the `<connectionStrings>` element, and may be directly transferred to the `appsettings.json` file so long as they do not contain any secrets.
 
