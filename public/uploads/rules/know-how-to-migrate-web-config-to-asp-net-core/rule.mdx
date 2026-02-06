@@ -46,6 +46,30 @@ In ASP.NET Core, project inclusions are listed in the project's CSPROJ file. The
 
 The server's configuration needs to be transferred to code within the `Program.cs` file.
 
+### **Minimal `web.config` on IIS (and what not to migrate)**
+
+When hosting ASP.NET Core on IIS, a `web.config` file is still used, but it is typically a minimal file for the **ASP.NET Core Module** (ANCM) and is normally generated during publish.
+
+What usually *doesn't* migrate:
+
+* `<system.web>` settings (classic ASP.NET pipeline configuration). ASP.NET Core does not run on `System.Web`, so these settings need to be replaced with configuration providers + middleware.
+
+What might remain in IIS:
+
+* `system.webServer` settings that are explicitly IIS concerns (for example, IIS-level rewrite rules, static content MIME types, or reverse-proxy behavior that must happen *before* the app runs).
+
+For guidance on IIS hosting and the ASP.NET Core Module, see: https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-10.0
+
+```xml
+<configuration>
+  <system.webServer>
+    <aspNetCore processPath="dotnet" arguments="MyApp.dll" hostingModel="OutOfProcess" />
+  </system.webServer>
+</configuration>
+```
+
+**Figure: Minimal `web.config` shape for the ASP.NET Core Module (publish typically generates this)**
+
 ### Custom Error Pages
 
 The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
@@ -79,6 +103,78 @@ The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/aspne
 ### HTTP Modules
 
 The [`<httpModules>`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/development/http-modules-handlers) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
+
+### URL Rewrite rules
+
+The `<rewrite>` element under `<system.webServer>` is often used for redirects, URL rewriting, and SPA fallbacks.
+
+In ASP.NET Core, prefer implementing these behaviors in the app so they work consistently across hosting (Kestrel, IIS, containers). Use the [URL Rewriting middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/url-rewriting?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) for rewrite/redirect rules and use middleware like `UseHttpsRedirection()` for HTTPS.
+
+```xml
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions>
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+        </conditions>
+        <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>
+```
+
+**Figure: Typical HTTPS redirect rule in Web.config**
+
+```cs
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.Run();
+```
+
+**Figure: The equivalent HTTPS redirect in ASP.NET Core**
+
+If the rewrite logic must live at the IIS layer (e.g., a reverse-proxy rule that should apply before the app runs), keep it in IIS configuration. Otherwise, treat rewrite rules in `Web.config` as application behavior that should move to middleware.
+
+### Static file MIME types
+
+`Web.config` commonly sets custom MIME types under `<staticContent>` (for non-standard file extensions). In ASP.NET Core, configure static files with a `FileExtensionContentTypeProvider`.
+
+```xml
+<system.webServer>
+  <staticContent>
+    <mimeMap fileExtension=".appinstaller" mimeType="application/appinstaller" />
+    <mimeMap fileExtension=".msix" mimeType="application/msix" />
+  </staticContent>
+</system.webServer>
+```
+
+**Figure: Custom static content MIME types in Web.config**
+
+```cs
+using Microsoft.AspNetCore.StaticFiles;
+
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+var contentTypeProvider = new FileExtensionContentTypeProvider();
+contentTypeProvider.Mappings[".appinstaller"] = "application/appinstaller";
+contentTypeProvider.Mappings[".msix"] = "application/msix";
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    ContentTypeProvider = contentTypeProvider
+});
+
+app.Run();
+```
+
+**Figure: The equivalent custom MIME type mapping in ASP.NET Core**
 
 ## Custom Configuration Values
 
