@@ -3,15 +3,15 @@ type: rule
 title: Do you use Output Caching for better API performance?
 uri: use-output-caching
 authors:
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani
+- author: hajir-lesani
 categories:
-  - category: categories/software-engineering/rules-to-better-web-api-rest.mdx
+- category: categories/software-engineering/rules-to-better-web-api-rest.mdx
 guid: 8f2a1b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-seoDescription: Learn how to use ASP.NET Core Output Caching middleware for better API performance, including cache policies, tag invalidation, and when to choose output caching over response caching.
-created: 2026-02-05T00:00:00.000Z
+seoDescription: Learn how to use ASP.NET Core Output Caching middleware for better
+  API performance, including cache policies, tag invalidation, and when to choose
+  output caching over response caching.
+created: 2026-02-05 00:00:00+00:00
 ---
-
 When your API serves the same data repeatedly, every request hits your database and business logic unnecessarily. Output Caching stores the complete HTTP response and serves it directly for subsequent requests, dramatically improving performance and reducing server load.
 
 ASP.NET Core 7+ includes built-in Output Caching middleware that's more powerful and flexible than the older Response Caching.

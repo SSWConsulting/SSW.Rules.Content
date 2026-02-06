@@ -1,8 +1,7 @@
 ---
 archivedreason: null
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+- author: stanley-sidik
 created: 2012-09-19 18:19:15+00:00
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -16,11 +15,10 @@ seoDescription: Add Windows Defender exception for Hosts file to prevent anti-vi
   software from detecting legitimate modifications.
 title: Do you add an exception for Hosts file on Windows Defender?
 categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-windows-defender.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-windows-defender.mdx
 type: rule
 uri: do-you-add-an-exception-for-hosts-file-on-windows-defender
 ---
-
 If you sometimes add entries into your Hosts file (C:\Windows\System32\Drivers\etc\Hosts) you will need to add an exception in Windows Defender as it assumes that malicious code has added an erroneous entry.
 
 Malware will in fact often create such erroneous entries in the HOSTS file in order to divert users to alternative servers when they attempt to access sites such as facebook.com. These servers may play host to phishing sites that send user data entered on them to internet fraudsters. The removal of entries for ad servers, which many users utilise as a simple but effective ad blocker, may be down to the fact that malware also makes use of the HOSTS file to divert queries from legitimate advertising servers to their own servers. This enables fraudsters to display their own malicious ads on third-party websites.

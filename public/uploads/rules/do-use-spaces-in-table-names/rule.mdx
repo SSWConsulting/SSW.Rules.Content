@@ -1,8 +1,7 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+- author: adam-cogan
 created: 2010-07-23 01:38:57+00:00
 createdBy: SSW2000\cindywang
 createdByEmail: CindyWang@ssw.com.au
@@ -20,11 +19,10 @@ seoDescription: Table names without spaces simplify code and prevent upsize issu
   to SQL Server, making it a better choice.
 title: Do use spaces in table names?
 categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
+- category: categories/infrastructure-and-networking/rules-to-better-access-databases.mdx
 type: rule
 uri: do-use-spaces-in-table-names
 ---
-
 Having spaces in table names necessitates the use of square brackets in all your code. e.g. [Order Details].[Order ID] instead of OrderDetail.OrderID. Spaces will also cause problems when you upsize to SQL Server later on... there is just no benefit.
 
 

@@ -2,18 +2,17 @@
 title: Do you use live connections instead of polling?
 uri: use-live-connections-instead-of-polling
 guid: a578f4a5-4a3b-4b4e-b05c-f4ee8334db6a
-created: 2026-02-04T21:45:20.670Z
-createdBy: 'Hajir Lesani [SSW]'
+created: 2026-02-04 21:45:20.670000+00:00
+createdBy: Hajir Lesani [SSW]
 createdByEmail: hajir2005@gmail.com
 authors:
-  - title: Hajir Lesani
-    url: https://www.ssw.com.au/people/hajir-lesani
+- author: hajir-lesani
 categories:
-  - category: categories/software-engineering/rules-to-better-web-api.mdx
-seoDescription: Learn why you should use live connections (SignalR, WebSockets, SSE) instead of polling for real-time data updates, and when simpler approaches are acceptable.
+- category: categories/software-engineering/rules-to-better-web-api.mdx
+seoDescription: Learn why you should use live connections (SignalR, WebSockets, SSE)
+  instead of polling for real-time data updates, and when simpler approaches are acceptable.
 type: rule
 ---
-
 When your application needs real-time data updates, you have several options: polling, webhooks, or live connections. Polling - where clients repeatedly request data at intervals - is often the first solution developers reach for, but it's usually the worst choice for real-time scenarios.
 
 Studies show that **98.5% of polling requests are wasted** - they return no new data. This "Polling Madness" wastes server resources, increases costs, and still doesn't provide true real-time updates.

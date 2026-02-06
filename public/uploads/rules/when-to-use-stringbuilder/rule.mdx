@@ -1,8 +1,7 @@
 ---
 archivedreason: null
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+- author: adam-cogan
 created: 2019-01-12 01:08:18+00:00
 createdBy: Calum Simpson
 createdByEmail: CalumSimpson@ssw.com.au
@@ -17,11 +16,10 @@ seoDescription: Learn when to use StringBuilder and improve performance by minim
   String object creation and modification.
 title: Do you know when to use StringBuilder?
 categories:
-  - category: categories/software-engineering/rules-to-better-application-performance.mdx
+- category: categories/software-engineering/rules-to-better-application-performance.mdx
 type: rule
 uri: when-to-use-stringbuilder
 ---
-
 A String object is immutable - this means if you append two Strings together, the result is an entirely new String, rather than the original String being modified in place. This is inefficient because creating new objects is slower than altering existing objects.
 
 Using StringBuilder to append Strings modifies the underlying Char array rather than creating a new String. Therefore, whenever you are performing multiple String appends or similar functions, you should always use a StringBuilder to improve performance.

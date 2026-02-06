@@ -1,8 +1,7 @@
 ---
 archivedreason: null
 authors:
-- title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
+- author: steve-leigh
 created: 2016-04-28 19:50:49+00:00
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -16,11 +15,10 @@ redirects:
 seoDescription: Reduce API surface by exporting only necessary TypeScript types.
 title: Do you only export what is necessary?
 categories:
-  - category: categories/software-engineering/rules-to-better-typescript.mdx
+- category: categories/software-engineering/rules-to-better-typescript.mdx
 type: rule
 uri: only-export-what-is-necessary
 ---
-
 Each file in TypeScript is a module, and each module can export whatever members it wants.  However, if you export everything, you run the risk of having to increment major versions (when using semantic versioning), or having your module used in unintended ways.
 
 <endIntro />
