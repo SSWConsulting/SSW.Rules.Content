@@ -7,8 +7,12 @@ categories:
 authors:
   - title: Yazhi Chen
     url: 'https://www.ssw.com.au/people/yazhi-chen'
+  - title: Kosta Madorsky
+    url: 'https://www.ssw.com.au/people/kosta-madorsky/'
   - title: Kaha Mason
-    url: 'https://ssw.com.au/people/kaha-mason'
+    url: 'https://www.ssw.com.au/people/kaha-mason/'
+  - title: Sylvia Huang
+    url: 'https://www.ssw.com.au/people/sylvia-huang/'
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
 seoDescription: 'Learn how to manage compatibility between different Target Frameworks by using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
 created: 2023-09-01T01:39:10.755Z
@@ -62,6 +66,59 @@ When multi-targeting to migrate to `net10`, teams should weigh the pros and cons
 
 These are temporary overheads during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
 
+### Centralise Target Frameworks in the Directory.Build.props file
+
+To keep `TargetFrameworks` and related project properties consistent across many projects, define shared properties in a `Directory.Build.props` (or a repo-level `.props`) and reference them from each project. This centralises updates and avoids copy/paste drift.
+
+Directory.Build.props:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <LegacyTargetFramework>net48</LegacyTargetFramework>
+    <ModernTargetFramework>net10.0</ModernTargetFramework>
+    <ModernWindowsTargetFramework>net10.0-windows</ModernWindowsTargetFramework>
+    <!-- Common groups for cross-platform and Windows-only scenarios -->
+    <CommonTargetFrameworks>$(LegacyTargetFramework);$(ModernTargetFramework)</CommonTargetFrameworks>
+    <CommonTargetFrameworksWindows>$(LegacyTargetFramework);$(ModernWindowsTargetFramework)</CommonTargetFrameworksWindows>
+
+    <!-- Helper flags (correct spelling) -->
+    <IsLegacyCompatibilityBuild Condition="'$(TargetFramework)' == '$(LegacyTargetFramework)'">true</IsLegacyCompatibilityBuild>
+    <IsModernCompatibilityBuild Condition="'$(TargetFramework)' == '$(ModernTargetFramework)'">true</IsModernCompatibilityBuild>
+    <IsModernWindowsCompatibilityBuild Condition="'$(TargetFramework)' == '$(ModernWindowsTargetFramework)'">true</IsModernWindowsCompatibilityBuild>
+  </PropertyGroup>
+</Project>
+```
+
+Project file usage:
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
+  <!-- or for Windows-only migrations: $(CommonTargetFrameworksWindows) -->
+</PropertyGroup>
+
+<!-- Define per target framework symbols using the helper flags -->
+<PropertyGroup Condition="'$(IsLegacyCompatibilityBuild)' == 'true'">
+  <DefineConstants>$(DefineConstants);LEGACY_COMPATIBILITY</DefineConstants>
+</PropertyGroup>
+
+<PropertyGroup Condition="'$(IsModernCompatibilityBuild)' == 'true'">
+  <DefineConstants>$(DefineConstants);MODERN_COMPATIBILITY</DefineConstants>
+</PropertyGroup>
+
+<!-- Example per target framework package references -->
+<ItemGroup Condition="'$(IsModernCompatibilityBuild)' == 'true'">
+  <PackageReference Include="Some.Modern.Package" Version="10.*" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(IsLegacyCompatibilityBuild)' == 'true'">
+  <PackageReference Include="Some.Legacy.Package" Version="1.*" />
+</ItemGroup>
+```
+
+This approach provides a single place to declare common project properties, reduces merge conflicts, and makes bulk migrations easier.
+
 ### Windows-specific target frameworks
 
 When targeting Windows-only APIs (WinForms, WPF), it is preferred to use explicit Windows target frameworks so you can opt into platform-specific tooling and runtime behavior.
@@ -96,7 +153,7 @@ When the Windows-specific codebase is small, you can isolate it with `#if` guard
 
 ❔**Decision guidance:**
 - **Windows Specific Framework** - Windows-first / heavy UI or native interop: prefer `net10.0-windows` (or a Windows-only project) to minimise rewrites, keep tooling and installers, and reduce short-term migration risk.
-- **Cross-platform Framework** - Need portability, cloud/containerisation or broader hosting: prefer migrating shared libraries to cross-platform TFMs (`net10`) and extract Windows UI/interop into a separate Windows-only project.
+- **Cross-platform Framework** - Need portability, cloud/containerisation or broader hosting: prefer migrating shared libraries to cross-platform target frameworks (`net10`) and extract Windows UI/interop into a separate Windows-only project.
 
 Ultimately, the decision to maintain Windows-specific target frameworks or migrate directly to cross-platform depends on the goals, timelines, and constraints of your migration project.
 
