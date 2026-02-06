@@ -7,6 +7,8 @@ categories:
 authors:
   - title: Michael Qiu
     url: 'https://ssw.com.au/people/michael-qiu'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
 related:
   - rule: public/uploads/rules/mcp-server/rule.mdx
   - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
@@ -15,9 +17,9 @@ seoDescription: Discover SSW's recommended MCP servers and skills to enhance you
 created: 2026-01-29T03:54:26.321Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-30T09:34:13.671Z
-lastUpdatedBy: Chloe
-lastUpdatedByEmail: chloelin@ssw.com.au
+lastUpdated: 2026-02-06T06:13:59.916Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
 Here are SSW's recommended MCP servers for enhancing your AI coding assistants with additional context and capabilities, plus guidance on when to use skills as a lighter-weight alternative.
@@ -41,38 +43,43 @@ Skills (also known as slash commands) are another way to extend AI coding assist
 
 ### When to Use Skills vs MCP Servers
 
-| Scenario | Use Skills | Use MCP Servers |
-| --- | --- | --- |
-| Standardizing commit message formats | ✅ | |
-| Enforcing code review checklists | ✅ | |
-| Querying a live database | | ✅ |
-| Following team coding conventions | ✅ | |
-| Interacting with GitHub Issues/PRs | | ✅ |
-| Generating boilerplate with specific patterns | ✅ | |
-| Searching external APIs (e.g., Brave Search) | | ✅ |
-| Running browser automation | | ✅ |
+| Scenario                                      | Use Skills | Use MCP |
+| --------------------------------------------- | ---------- | ------- |
+| Standardizing commit message formats          | ✅          |         |
+| Enforcing code review checklists              | ✅          |         |
+| Querying a live database                      |            | ✅       |
+| Following team coding conventions             | ✅          |         |
+| Interacting with GitHub Issues/PRs            |            | ✅       |
+| Generating boilerplate with specific patterns | ✅          |         |
+| Searching external APIs (e.g. Brave Search)   |            | ✅       |
+| Running browser automation                    |            | ✅       |
 
 ### Best Practices for Skills
 
 * **Use skills for workflow standardization** - When you want consistent outputs like commit messages, PR descriptions, or code following specific patterns
 * **Keep skills focused** - Each skill should do one thing well rather than trying to handle multiple scenarios
-* **Prefer skills for prompt injection** - If you just need to guide the AI's approach or provide context without external system access, skills are simpler to set up
+* **Prefer skills for prompt injection** - If you just need to guide the AI's approach or provide context without external system access, skills are simpler to set up than MCPs
 * **Combine with MCP when needed** - Skills and MCP servers work well together. Use skills to define the workflow and MCP servers to provide the data access
 
-### Example: Claude Code Custom Slash Commands
+### Example: Claude Code custom slash commands
 
 Claude Code allows you to create custom slash commands by adding markdown files to your project's `.claude/commands/` directory:
 
-```markdown
-// .claude/commands/review.md
-Review this code for:
-- Security vulnerabilities
-- Performance issues
-- Adherence to our team's coding standards
-- Test coverage gaps
-
-Provide actionable feedback with specific line references.
-```
+<boxEmbed
+  body={<>
+    ```markdown
+    Review this code for:
+    - Security vulnerabilities
+    - Performance issues
+    - Adherence to our team's coding standards
+    - Test coverage gaps
+    
+    Provide actionable feedback with specific line references.
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Review skill within Claude Code at `.claude/commands/review.md`"
+/>
 
 This can then be invoked with `/project:review` in Claude Code.
 
