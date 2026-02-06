@@ -11,7 +11,7 @@ related:
   - rule: public/uploads/rules/mcp-server/rule.mdx
   - rule: public/uploads/rules/utilize-back-pressure-for-agents/rule.mdx
 guid: 88c66f96-8b4d-45b1-bb2a-794629c28304
-seoDescription: Discover SSW's recommended MCP servers to enhance your AI coding assistants. Learn when to use MCP integrations vs. built-in agent capabilities for optimal development workflows.
+seoDescription: Discover SSW's recommended MCP servers and skills to enhance your AI coding assistants. Learn when to use MCP integrations vs. skills vs. built-in agent capabilities for optimal development workflows.
 created: 2026-01-29T03:54:26.321Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -20,7 +20,7 @@ lastUpdatedBy: Chloe
 lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
-Here are SSW's recommended MCP servers for enhancing your AI coding assistants with additional context and capabilities
+Here are SSW's recommended MCP servers for enhancing your AI coding assistants with additional context and capabilities, plus guidance on when to use skills as a lighter-weight alternative.
 
 <endIntro />
 
@@ -34,6 +34,47 @@ Modern AI coding agents are excellent at generating impromptu code and CLI comma
 * **Web requests** - Fetching documentation or API responses
 
 MCP servers become valuable when you need **persistent, specialized integrations** - such as connecting to databases, searching with specific APIs, or interacting with platforms like GitHub in a structured way.
+
+## Skills as an Alternative
+
+Skills (also known as slash commands) are another way to extend AI coding assistants. Unlike MCP servers which provide tool access to external systems, skills inject specialized prompts and workflows that guide the AI's behavior for specific tasks.
+
+### When to Use Skills vs MCP Servers
+
+| Scenario | Use Skills | Use MCP Servers |
+| --- | --- | --- |
+| Standardizing commit message formats | ✅ | |
+| Enforcing code review checklists | ✅ | |
+| Querying a live database | | ✅ |
+| Following team coding conventions | ✅ | |
+| Interacting with GitHub Issues/PRs | | ✅ |
+| Generating boilerplate with specific patterns | ✅ | |
+| Searching external APIs (e.g., Brave Search) | | ✅ |
+| Running browser automation | | ✅ |
+
+### Best Practices for Skills
+
+* **Use skills for workflow standardization** - When you want consistent outputs like commit messages, PR descriptions, or code following specific patterns
+* **Keep skills focused** - Each skill should do one thing well rather than trying to handle multiple scenarios
+* **Prefer skills for prompt injection** - If you just need to guide the AI's approach or provide context without external system access, skills are simpler to set up
+* **Combine with MCP when needed** - Skills and MCP servers work well together. Use skills to define the workflow and MCP servers to provide the data access
+
+### Example: Claude Code Custom Slash Commands
+
+Claude Code allows you to create custom slash commands by adding markdown files to your project's `.claude/commands/` directory:
+
+```markdown
+// .claude/commands/review.md
+Review this code for:
+- Security vulnerabilities
+- Performance issues
+- Adherence to our team's coding standards
+- Test coverage gaps
+
+Provide actionable feedback with specific line references.
+```
+
+This can then be invoked with `/project:review` in Claude Code.
 
 ## Recommended MCP Servers
 
