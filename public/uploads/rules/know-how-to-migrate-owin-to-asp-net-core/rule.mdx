@@ -1,37 +1,52 @@
 ---
-authors:
-- title: Nick Curran
-  url: https://ssw.com.au/people/nick-curran
-- title: Kosta Madorsky
-  url: https://ssw.com.au/people/kosta-madorsky
-- title: Kaha Mason
-  url: https://ssw.com.au/people/kaha-mason
-- title: Sylvia Huang
-  url: https://ssw.com.au/people/sylvia-huang
-created: 2023-07-31 23:22:58.333000+00:00
-guid: 004c52d9-30a5-4b9c-963a-e93988a31075
-related:
-- rule: public/uploads/rules/choosing-authentication/rule.mdx
-seoDescription: Learn how to migrate OWIN-based authentication to ASP.NET Core for
-  modern web applications.
+type: rule
 title: Do you know how to migrate OWIN to ASP.NET Core?
+uri: know-how-to-migrate-owin-to-asp-net-core
 categories:
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
-type: rule
-uri: know-how-to-migrate-owin-to-asp-net-core
+authors:
+  - title: Nick Curran
+    url: 'https://ssw.com.au/people/nick-curran'
+  - title: Kosta Madorsky
+    url: 'https://ssw.com.au/people/kosta-madorsky'
+  - title: Kaha Mason
+    url: 'https://ssw.com.au/people/kaha-mason'
+  - title: Sylvia Huang
+    url: 'https://ssw.com.au/people/sylvia-huang'
+related:
+  - rule: public/uploads/rules/choosing-authentication/rule.mdx
+guid: 004c52d9-30a5-4b9c-963a-e93988a31075
+seoDescription: Learn how to migrate OWIN-based authentication to ASP.NET Core for modern web applications.
+created: 2023-07-31T23:22:58.333Z
+createdBy: 'Kosta Madorsky [SSW]'
+createdByEmail: kosta.madorsky@gmail.com
+lastUpdated: 2026-02-05T04:44:37.312Z
+lastUpdatedBy: 'Kosta Madorsky [SSW]'
+lastUpdatedByEmail: kosta.madorsky@gmail.com
 ---
 
 OWIN is the [Open Web Interface for .NET](http://owin.org/), which was intended to provide a standard interface between .NET web servers and web applications for ASP.NET. It provided the ability to chain middleware together to form pipelines and to register modules.
 
 The [Katana libraries](https://github.com/aspnet/AspNetKatana/) provided a flexible set of popular components for OWIN-based web applications. These components were supplied through packages prefixed with `Microsoft.Owin`.
 
-Middleware and module registering functionality are now core features of ASP.NET Core. Microsoft provides adapters to and from the [OWIN interface for ASP.NET](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) that can be used to gradually migrate custom OWIN components. By contrast, ASP.NET Core has native ports for Katana components.
+Middleware and module registering functionality are now core features of ASP.NET Core. Microsoft provides adapters to and from the [OWIN interface for ASP.NET](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-10.0\&WT.mc_id=DT-MVP-33518) that can be used to gradually migrate custom OWIN components. By contrast, ASP.NET Core has native ports for Katana components.
 
 <endIntro />
 
+## Using adapters for incremental migration
+
+If you need to move gradually, ASP.NET Core can interoperate with OWIN using the `Microsoft.AspNetCore.Owin` adapters. This lets you run OWIN middleware inside the ASP.NET Core pipeline while you migrate pieces over.
+
+Important tradeoffs:
+
+* Adapters have a performance cost and should be treated as a **temporary** measure.
+* Group OWIN components together (multiple `UseOwin` calls are discouraged).
+
+See: [Running OWIN middleware in the ASP.NET Core pipeline](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-10.0)
+
 ## CORS functionality
 
-CORS functionality was enabled in OWIN with the `UseCors(...)` extension method. For ASP.NET Core, it is provided by the [UseCors(...)](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-9.0) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
+CORS functionality was enabled in OWIN with the `UseCors(...)` extension method. In ASP.NET Core, CORS is built-in (via `Microsoft.AspNetCore.Cors`) and is typically configured with `AddCors(...)` and applied with [UseCors(...)](https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-10.0).
 
 ```cs
 public void Configuration(Owin.IAppBuilder app) {
@@ -57,20 +72,30 @@ private static CorsOptions BuildCorsOptions() {
     };
 }
 ```
-**❌ Figure: Basic OWIN CORS example.**  
+
+**❌ Figure: Basic OWIN CORS example.**
 
 ```cs
+const string stagingCorsPolicyName = "StagingOnly";
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy(stagingCorsPolicyName, corsPolicyBuilder =>
+    corsPolicyBuilder.WithOrigins("https://staging.northwind.com")
+             .AllowAnyMethod()
+             .AllowAnyHeader()
+             .AllowCredentials());
+});
+
 var app = builder.Build();
 
-app.UseCors(corsPolicyBuilder => {
-    corsPolicyBuilder.AllowAnyMethod()
-                     .AllowAnyHeader()
-                     .AllowCredentials()
-                     .WithOrigins(new string[] { "https://staging.northwind.com" });
-})
+app.UseCors(stagingCorsPolicyName);
+
+app.Run();
 ```
-**✅ Figure: Basic OWIN CORS example ported to ASP.NET Core.**  
+
+**✅ Figure: Basic OWIN CORS example ported to ASP.NET Core.**
 
 ## Third-Party Authentication
 
