@@ -45,6 +45,44 @@ One big downside of this approach is that it increases build and test times, sin
 
 This is a temporary overhead during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
 
+### Windows-specific target frameworks
+
+When targeting Windows-only APIs (WinForms, WPF), it is preferred to use explicit Windows target frameworks so you can opt into platform-specific tooling and runtime behavior.
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>net48;net10.0-windows</TargetFrameworks>
+  <UseWPF>true</UseWPF>
+  <UseWindowsForms>true</UseWindowsForms>
+</PropertyGroup>
+```
+**✅ Good example - Using Windows-specific target frameworks**
+
+The main pros and cons of this approach are dependent on whether your goal is to migrate to a cross-platform framework (Linux/macOS) or to remain Windows-only.
+
+✅ **Pros:**
+- Minimal rewrite: UI and native interop require fewer changes and can continue to use Windows-specific APIs without needing to abstract them for cross-platform compatibility. 
+- Native interop preserved: existing COM/Win32 interop and native wrappers continue to work, reducing rewrite effort.
+- Access modern Windows-only APIs on `net10.0-windows` (App SDK, WinRT wrappers) without losing the old build.
+- Avoids the need to remove Windows-specific code immediately as both target frameworks are Windows-only.
+- Lower migration surface for Windows apps: fewer cross-platform abstractions required, making incremental migration faster for Windows-first apps.
+
+❌ **Cons:**
+- Migrating from windows-only to cross-platform frameworks (e.g `net48 or net10.0-windows -> net10.0`) 
+  - Project cannot share Windows-specific code, so you may need to refactor or isolate Windows-specific code into a separate project.
+  - Requires more condition code and MSBuild conditions to manage the differences between Windows and cross-platform target frameworks.
+  - Longer migration timeline as you may need to maintain the Windows-specific target framework until the full migration is complete.
+- Platform-compatibility analyzers and `SupportedOSPlatform` warnings may appear; developers must handle or suppress appropriately.
+- Artifacts built for Windows-only target frameworks are not portable to Linux/macOS.
+
+When the Windows-specific codebase is small, you can isolate it with `#if` guards or partial classes; when large, it is recommended to separate into Windows-only projects to keep the shared libraries clean.
+
+❔**Decision guidance:**
+- **Windows Specific Framework** - Windows-first / heavy UI or native interop: prefer `net10.0-windows` (or a Windows-only project) to minimise rewrites, keep tooling and installers, and reduce short-term migration risk.
+- **Cross-platform Framework** - Need portability, cloud/containerisation or broader hosting: prefer migrating shared libraries to cross-platform TFMs (`net10`) and extract Windows UI/interop into a separate Windows-only project.
+
+Ultimately, the decision to maintain Windows-specific target frameworks or migrate directly to cross-platform depends on the goals, timelines, and constraints of your migration project.
+
 ### Using C# preprocessor directives (`#if`, `#elif`, `#endif`)
 
 You can use C# preprocessor directives to compile code exclusively for a specific target framework. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
