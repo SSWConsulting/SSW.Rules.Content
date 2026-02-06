@@ -119,6 +119,26 @@ Project file usage:
 
 This approach provides a single place to declare common project properties, reduces merge conflicts, and makes bulk migrations easier.
 
+### Temporarily disable building the legacy target framework
+
+During a migration you may want to keep the legacy TFM (for reference) but stop building it in CI and reduce local build time once approaching the end of the migration process. You can use a small MSBuild flag to opt-in/opt-out the legacy target framework without the need to remove code.
+
+Directory.Build.props:
+
+```xml
+<PropertyGroup>
+  <LegacyTargetFramework>net48</LegacyTargetFramework>
+  <ModernTargetFramework>net10.0</ModernTargetFramework>
+  <IncludeLegacyTarget Condition="'$(IncludeLegacyTarget)'==''">true</IncludeLegacyTarget>
+
+  <!-- default: include legacy build -->
+  <TargetFrameworks Condition="'$(IncludeLegacyTarget)' == 'true'">$(LegacyTargetFramework);$(ModernTargetFramework)</TargetFrameworks>
+
+  <!-- exclude legacy only when the flag is false -->
+  <TargetFrameworks Condition="'$(IncludeLegacyTarget)' == 'false'">$(ModernTargetFramework)</TargetFrameworks>
+</PropertyGroup>
+```
+
 ### Windows-specific target frameworks
 
 When targeting Windows-only APIs (WinForms, WPF), it is preferred to use explicit Windows target frameworks so you can opt into platform-specific tooling and runtime behavior.
