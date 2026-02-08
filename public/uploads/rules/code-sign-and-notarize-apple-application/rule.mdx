@@ -5,7 +5,7 @@ guid: 0c2432a2-bbb6-4105-a735-f5f401dd0097
 created: 2026-02-08T22:39:08.600Z
 createdBy: Steven Qiang
 createdByEmail: StevenQiang@ssw.com.au
-lastUpdated: 2026-02-08T23:15:54.232Z
+lastUpdated: 2026-02-08T23:38:52.948Z
 lastUpdatedBy: Steven Qiang
 lastUpdatedByEmail: StevenQiang@ssw.com.au
 ---
@@ -27,4 +27,19 @@ As the title suggests, removing this system warning involves two main steps:
 
 ## Code-sign
 
-In order to code-sign your application, you need to get a Developer ID Application certificate from Apple. The process starts by creating a Certificate Signing Request (CSR) using Keychain Access. The CSR proves ownership of a local signing key without exposing the private key itself. Apple uses this request to issue the Developer ID Application certificate.
+To code-sign your application, you need to get a Developer ID Application certificate from Apple. The process starts by creating a Certificate Signing Request (CSR) using Keychain Access. The CSR proves ownership of a local signing key without exposing the private key itself. Apple uses this request to issue the Developer ID Application certificate.
+
+### Preparation
+
+Before you start, make sure you have:
+
+1. Asked a SysAdmin to invite your SSW account to the SSW Apple Developer Team
+2. A Mac with Keychain Access.app
+3. Access to the Apple Developer Portal with the Account Holder's Apple ID (The main Apple ID of your orgnaization)
+
+### Step 1: Create a Certificate Signing Request (CSR)
+
+1. Use Spotlight to search for Keychain Access.
+2. In the menu bar, select: Keychain Access → Certificate Assistant → Request a Certificate From a Certificate Authority…
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/Screenshot%202026-02-09%20at%2010.38.08%E2%80%AFam.png" />
