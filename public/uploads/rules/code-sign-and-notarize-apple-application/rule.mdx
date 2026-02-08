@@ -5,7 +5,7 @@ guid: 0c2432a2-bbb6-4105-a735-f5f401dd0097
 created: 2026-02-08T22:39:08.600Z
 createdBy: Steven Qiang
 createdByEmail: StevenQiang@ssw.com.au
-lastUpdated: 2026-02-08T23:13:16.178Z
+lastUpdated: 2026-02-08T23:15:54.232Z
 lastUpdatedBy: Steven Qiang
 lastUpdatedByEmail: StevenQiang@ssw.com.au
 ---
@@ -17,3 +17,14 @@ Intro
 When you develop a macOS application and distribute it outside the Mac App Store, users will often see a security warning the first time they try to open it. This happens because Gatekeeper cannot identify the application’s creator, so the app is treated as untrusted. While there are workarounds to bypass Gatekeeper, they require users to go through multiple manual and advanced steps, which is a poor user experience.
 
 <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/Screenshot%202026-02-03%20at%207.18.25%E2%80%AFpm.png" />
+
+As the title suggests, removing this system warning involves two main steps:
+
+1. Code signing (using a Developer ID Application certificate)
+2. Notarization (submitting the app to Apple for automated security checks)
+
+***
+
+## Code-sign
+
+In order to code-sign your application, you need to get a Developer ID Application certificate from Apple. The process starts by creating a Certificate Signing Request (CSR) using Keychain Access. The CSR proves ownership of a local signing key without exposing the private key itself. Apple uses this request to issue the Developer ID Application certificate.
