@@ -16,7 +16,7 @@ seoDescription: Check if your web page is indexed by Google using its exact link
 created: 2015-11-09T18:03:58.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-02-09T06:05:57.918Z
+lastUpdated: 2026-02-09T06:08:59.636Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
@@ -39,6 +39,12 @@ Try site\:yourdomain.com/blog/my-new-post to confirm this. Even better just usin
 
 If you can't find it, go to [Google's Search Console](https://search.google.com/search-console/welcome) and submit your URL.
 
+Benefits to using the Google Search Console:
+
+* **Shows exact crawl date **- is this out of date?
+* **Shows clear error message **- if your page didn't index, you'll know why
+* Let's you force a re-crawl
+
 <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="Using Google Search Console to Check Index Status" src="/uploads/rules/page-indexed-by-google/google-search-console.png" />
 
 <boxEmbed
@@ -50,7 +56,13 @@ If you can't find it, go to [Google's Search Console](https://search.google.com/
   style="info"
 />
 
-.
+### Common reasons pages don't get indexed
+
+* The noindex tag is present 
+* Blocked by robots.txt
+* Poor internal linking
+* Duplicate/ thin content 
+* Site/page is very new
 
 ### WordPress
 
