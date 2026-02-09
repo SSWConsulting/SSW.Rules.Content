@@ -35,7 +35,7 @@ isArchived: false
 archivedreason: null
 ---
 
-After a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it's useful for the Team to send the Stakeholders a Sprint Forecast email 📩. 
+After a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it's useful for the Team to send the Stakeholders a Sprint Forecast email 📩.
 
 This helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
@@ -51,13 +51,13 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
 
 <emailEmbed
   from=""
-  to="&#123;&#123; PRODUCT OWNER &#125;&#125;"
+  to="{{ PRODUCT OWNER }}"
   cc=""
   bcc=""
-  subject="&#123;&#123; CLIENT NAME &#125;&#125;: Sprint XXX Forecast"
+  subject="{{ CLIENT NAME }}: Sprint XXX Forecast"
   shouldDisplayBody={true}
   body={<>
-    ## Hi &#123;&#123; PRODUCT OWNER &#125;&#125;
+    ## Hi {{ PRODUCT OWNER }}
     
     Sprint Goals (in priority order):
     
@@ -70,14 +70,14 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
     
     |                        |                                      |
     | ---------------------- | ------------------------------------ |
-    | Summary Recording:     | &#123;&#123; VIDEO URL &#125;&#125; (&#123;&#123; VIDEO LENGTH &#125;&#125;) |
-    | This Sprint:           | &#123;&#123; SPRINT NUMBER &#125;&#125;                  |
-    | Sprint Duration:       | &#123;&#123; NUMBER OF WEEKS &#125;&#125;                |
-    | Project:               | &#123;&#123; PROJECT NAME &#125;&#125;                   |
-    | Project Portal:        | &#123;&#123; LINK TO PROJECT PORTAL &#125;&#125;         |
-    | Product Owner:         | &#123;&#123; PRODUCT OWNER NAME &#125;&#125;             |
-    | Sprint Review Meeting: | &#123;&#123; DATE AND TIME &#125;&#125;                  |
-    | Attendees:             | &#123;&#123; NAMES OF THE ATTENDEES &#125;&#125;         |
+    | Summary Recording:     | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+    | This Sprint:           | {{ SPRINT NUMBER }}                  |
+    | Sprint Duration:       | {{ NUMBER OF WEEKS }}                |
+    | Project:               | {{ PROJECT NAME }}                   |
+    | Project Portal:        | {{ LINK TO PROJECT PORTAL }}         |
+    | Product Owner:         | {{ PRODUCT OWNER NAME }}             |
+    | Sprint Review Meeting: | {{ DATE AND TIME }}                  |
+    | Attendees:             | {{ NAMES OF THE ATTENDEES }}         |
     
     As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current Sprint backlog.
     
@@ -92,11 +92,15 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
     
     **Figure: The Sprint Backlog with the important items bolded**
     
+    ### AI Stats - Claude 🤖
+    
     ![](/uploads/rules/sprint-forecast-email/claude-stats.png)**Figure: Claude AI Stats** 🤖
+    
+    ### AI Stats - Copilot 🤖
     
     ![](/uploads/rules/sprint-forecast-email/copilot-stats-new.png)**Figure: Copilot AI Stats - Main item to do next** 🤖
     
-    &lt;This is as per rule: [Do you create a Sprint Forecast?](/sprint-forecast)&gt;
+    \<This is as per rule: [Do you create a Sprint Forecast?](/sprint-forecast)>
   </>}
   figurePrefix="good"
   figure="Copy this as email template and send to Product Owner"
@@ -115,9 +119,9 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
     
     How to get to the Sprint Backlog view:
     
-    * **GitHub - **Navigate to the Sprint's Backlog view at
+    * \*\*GitHub - \*\*Navigate to the Sprint's Backlog view at
     **GitHub | Organisation | Repository | Projects | Project | Current Sprint**
-    * **Azure DevOps **-** **Navigate to the Sprint's Backlog view at **Azure DevOps | Project | Sprints | Backlog**
+    * \*\*Azure DevOps **-** \*\*Navigate to the Sprint's Backlog view at **Azure DevOps | Project | Sprints | Backlog**
   </>}
   figurePrefix="none"
   figure=""
