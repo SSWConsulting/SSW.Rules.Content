@@ -11,13 +11,25 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-09T23:32:56.044Z
+lastUpdated: 2026-02-09T23:50:20.979Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Intro
+Next.js is a popular and powerful framework built on top of React, designed to help teams build fast, scalable web applications. 
+
+Without a performance-first approach, applications can quickly become slow due to excessive client-side Javascript, inefficient data fetching or incorrect rendering strategies. Out of the box, Next.js gives you powerful performance tools.
 
 <endIntro />
 
-Body
+### Factors That Affect Web Performance
+
+Web performance in Next.js is commonly the result of multiple choices made throughout the application: 
+
+* Rendering Strategy - choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness 
+* JavaScript sent to the browser - Larger client bundles increase parse and execution time, delaying interactivity 
+* Data fetching patterns - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders 
+* Caching and revalidation - explicit caching reduces repeated work and improves response time 
+* Images, fonts, and media - unoptimized assets are frequently the largest contributor to slow page loads (Impacts Core Web Vitals such as Largest Contentful Paint)
+* Layout Stability - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics 
+* Hydration and Interactivity - Hydrating more UI than necessary increases CPU cost and delays interaction
