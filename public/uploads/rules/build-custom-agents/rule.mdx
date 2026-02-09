@@ -9,6 +9,7 @@ authors:
 related:
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/ai-investigation-prompts/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
 guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 seoDescription: 'Learn when to build custom AI agents vs. use simple prompts. Discover the 3 core components - model, tools, and instructions - plus criteria for complex decision-making tasks.'
 created: 2026-01-29T00:53:13.310Z
@@ -99,6 +100,12 @@ Like functions in code, custom agents help you avoid repeating yourself. Conside
   figure="A custom agent definition with specialized scope, defined tools, and clear instructions"
   style="greybox"
 />
+
+## Enhancing custom agents with skills
+
+Custom agents can also be equipped with **skills** (slash commands) to guide their behavior for specific tasks. While tools give agents the ability to interact with external systems, skills inject specialized prompts and workflows that standardize how agents approach their work. See [Do you use MCP servers for context?](/rules/mcp-servers-for-context) for more on skills vs MCP servers.
+
+For example, a code review agent could use a skill that enforces your team's review checklist, or an implementation planner agent could use a skill that ensures plans follow your organization's template.
 
 ### Further reading
 
