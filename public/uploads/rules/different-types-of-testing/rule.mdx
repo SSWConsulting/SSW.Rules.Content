@@ -10,6 +10,12 @@ authors:
 related:
   - rule: public/uploads/rules/what-is-exploratory-testing/rule.mdx
   - rule: public/uploads/rules/fix-bugs-first/rule.mdx
+  - rule: public/uploads/rules/good-candidate-for-test-automation/rule.mdx
+  - rule: public/uploads/rules/ai-pair-programming/rule.mdx
+  - rule: public/uploads/rules/azure-slots-deployment/rule.mdx
+  - rule: public/uploads/rules/ephemeral-environments/rule.mdx
+  - rule: public/uploads/rules/write-integration-tests-for-llm-prompts/rule.mdx
+  - rule: public/uploads/rules/automated-ui-testing/rule.mdx
 guid: 912111cb-ac1a-4414-8cb2-89cc310eb41f
 seoDescription: 'Discover the different types of testing to ensure your software meets user requirements, including smoke testing, unit testing, integration testing, consumer-driven contract testing, regression testing, end-to-end testing, acceptance testing, and performance testing.'
 created: 2022-11-04T01:39:46.642Z
@@ -93,7 +99,7 @@ Smoke tests can be useful right after a new build is made to decide whether or n
 
 Unit testing is designed to help mitigate the risk of code changes. Unit tests are designed to be small in scope and they typically consist of testing individual methods and functions of the classes, components or modules used by your software.
 
-Unit tests are generally quick to run and are executed in an automated manner as part of a CI pipeline.
+Unit tests are generally quick to run and are executed in an automated manner as part of a [CI pipeline](/have-a-continuous-build-server).
 
 Unit tests are usually written by developers and external dependencies are mocked so that the tests only test the method or function of interest and not anything the method or function might depend on.
 
@@ -159,7 +165,7 @@ This type of testing is often performed before a deployment or release of the so
 
 End-to-end testing is designed to replicate user behaviours with the software in a complete application environment. It is a type of system testing that follows a user's (or data's) journey through the system.
 
-While end-to-end tests can be very useful, they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few key end-to-end tests and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
+While end-to-end tests can be very useful, they're expensive to perform and can be hard to maintain when they're automated. It is recommended to have a few [key end-to-end tests for critical happy paths](/write-end-to-end-tests-for-critical-happy-paths) and rely more on lower level types of testing (unit and integration tests) to be able to quickly identify breaking changes.
 
 <boxEmbed
   style="greybox"
@@ -201,3 +207,14 @@ Within performance testing, **load testing** helps you to understand how the sys
   figurePrefix="none"
   figure=""
 />
+
+## Supercharging your testing with AI
+
+No matter which types of testing you use, [AI assisted development](/ai-assisted-development-workflow) can accelerate your testing efforts significantly. Here are a few practical tips:
+
+- **Generate tests faster** - AI assistants like GitHub Copilot and Claude Code can scaffold unit tests, integration tests, and even Playwright end-to-end tests from your existing code. This is especially useful for achieving good test coverage quickly on legacy codebases
+- **Playwright in your CI/CD pipeline** - Tools like [Playwright](https://playwright.dev) make it easy to automate browser-based end-to-end tests. Adding Playwright tests to your [CI pipeline](/have-a-continuous-build-server) means every PR gets validated against real user journeys before merging — catching regressions early
+- **Use deployment slots for safe testing** - [Azure deployment slots](/azure-slots-deployment) let you deploy to a staging slot and run your automated test suite against it before swapping to production. Combine this with [ephemeral environments](/ephemeral-environments) for clean, isolated test runs on every PR
+- **Test your AI features too** - If your app uses LLMs, don't forget to [write integration tests for your most common prompts](/write-integration-tests-for-llm-prompts) to catch regressions when models are updated
+
+AI won't replace your [test strategy decisions](/good-candidate-for-test-automation), but it can dramatically reduce the effort of writing and maintaining tests across the pyramid.
