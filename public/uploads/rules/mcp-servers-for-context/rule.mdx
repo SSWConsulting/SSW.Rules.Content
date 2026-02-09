@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use MCP servers for context?
+title: Do you give your AI agents context with MCP servers and skills?
 uri: mcp-servers-for-context
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -17,7 +17,7 @@ seoDescription: Discover SSW's recommended MCP servers and skills to enhance you
 created: 2026-01-29T03:54:26.321Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-06T06:44:06.469Z
+lastUpdated: 2026-02-09T06:40:59.505Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -40,6 +40,15 @@ MCP servers become valuable when you need **persistent, specialized integrations
 ## Skills as an alternative
 
 Skills (also known as slash commands) are another way to extend AI coding assistants. Unlike MCP servers which provide tool access to external systems, skills inject specialized prompts and workflows that guide the AI's behavior for specific tasks.
+
+<boxEmbed
+  body={<>
+    Skills can contain hidden prompt injections that may instruct the AI to run destructive commands or even leak sensitive data. Always make sure to read the full contents of the skill file before using it. Try to avoid skills from third-party marketplaces or untrusted sources.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 ### When to use Skills vs MCP Servers
 
