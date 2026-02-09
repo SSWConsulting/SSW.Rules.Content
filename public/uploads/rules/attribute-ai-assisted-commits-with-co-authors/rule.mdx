@@ -1,30 +1,28 @@
 ---
-authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Lewis Toh
-  url: https://ssw.com.au/people/lewis-toh
-- title: Eddie Kranz
-  url: https://www.ssw.com.au/people/eddie-kranz
-created: 2025-10-17 06:56:06+00:00
-createdBy: Lewis Toh [SSW]
-createdByEmail: 88498002+Lewkans@users.noreply.github.com
-guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
-isArchived: false
-lastUpdated: 2025-12-02 07:58:22+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-related:
-- rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
-seoDescription: Learn how to properly attribute commits when using AI coding assistants
-  like Claude Code, GitHub Copilot, Cursor, and OpenCode. This standard ensures proper
-  credit and transparency in AI-human collaboration.
 tips: ''
+type: rule
 title: Do you attribute AI-assisted commits with co-authors?
+uri: attribute-ai-assisted-commits-with-co-authors
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-type: rule
-uri: attribute-ai-assisted-commits-with-co-authors
+authors:
+  - title: Gordon Beeming
+    url: 'https://ssw.com.au/people/gordon-beeming'
+  - title: Lewis Toh
+    url: 'https://ssw.com.au/people/lewis-toh'
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
+guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
+seoDescription: 'Learn how to properly attribute commits when using AI coding assistants like Claude Code, GitHub Copilot, Cursor, and OpenCode. This standard ensures proper credit and transparency in AI-human collaboration.'
+created: 2025-10-17T06:56:06.000Z
+createdBy: 'Lewis Toh [SSW]'
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
+lastUpdated: 2025-12-02T07:58:22.000Z
+lastUpdatedBy: 'Tiago Araújo [SSW]'
+lastUpdatedByEmail: tiagov8@gmail.com
+isArchived: false
 ---
 
 When AI assistants make code changes on your behalf, proper attribution is essential. Modern AI coding agents like Claude Code and OpenCode now **automatically add themselves as co-authors** when they create commits - you don't need to configure anything.
@@ -35,31 +33,27 @@ However, you should still add yourself as a co-author to indicate that you revie
 
 ## Automatic Attribution in Modern AI Agents
 
-| Tool | Default Behavior | Co-Author Format |
-|------|-----------------|------------------|
-| **Claude Code** | ✅ Auto-adds co-author | `Co-Authored-By: Claude <model> <noreply@anthropic.com>` |
-| **OpenCode** | ✅ Auto-adds attribution | Adds model as co-author |
-| **GitHub Copilot** | ❌ No auto-attribution | Requires manual setup |
-| **Cursor** | ❌ No auto-attribution | Requires manual setup |
-
-`TODO: Add screenshot of GitHub commit showing Claude as co-author`
+| Tool               | Default Behavior        | Co-Author Format                                         |
+| ------------------ | ----------------------- | -------------------------------------------------------- |
+| **Claude Code**    | ✅ Auto-adds co-author   | `Co-Authored-By: Claude <model> <noreply@anthropic.com>` |
+| **OpenCode**       | ✅ Auto-adds attribution | Adds model as co-author                                  |
+| **GitHub Copilot** | ❌ No auto-attribution   | Requires manual setup                                    |
+| **Cursor**         | ❌ No auto-attribution   | Requires manual setup                                    |
 
 ## Commits That Tell a Story
 
 When working with AI agents on larger tasks, ask them to create commits in a logical order that "tells a story" of the implementation. This makes code reviews easier and helps future developers understand the evolution of a feature.
 
-
 <boxEmbed
   style="info"
   body={<>
     **Prompt tip:** When asking an AI agent to implement a feature with multiple components, include:
-
+    
     *"Please commit changes in a logical order that tells a story - for example, data models first, then business logic, then UI components, and finally tests."*
   </>}
   figurePrefix="none"
   figure=""
 />
-
 
 **Example story-driven commit sequence:**
 
@@ -84,8 +78,10 @@ To find your details, run: `git config user.name` and `git config user.email`
 ## When to Add Yourself as Co-Author
 
 **✅ DO** add yourself when:
+
 * AI implements features, fixes bugs, refactors code, or writes tests
 * You actively collaborate with AI on a solution
 
 **❌ DON'T** add yourself for:
+
 * Automated dependency updates or bot-generated changes
