@@ -22,19 +22,19 @@ Now let’s look at some of the best AI‑powered tools you can use for prototyp
 
 ## AI Tools for Prototyping
 
-- [Github Spark](https://github.com/features/spark) (Copilot Pro+)
+* [Github Spark](https://github.com/features/spark) (Copilot Pro+)
 
   GitHub Spark is an AI‑powered app builder that turns natural language instructions into full‑stack TypeScript/React apps, complete with live preview and GitHub repo integration. It’s tightly integrated with GitHub Copilot and Codespaces, making it easy to go from idea → prototype → hosted demo quickly. Spark is perfect for building end‑to‑end demos directly within the GitHub ecosystem.
 
-- [Base44](https://base44.com)
+* [Base44](https://base44.com)
 
   Base44 focuses on full‑stack scaffolding. By simply describing your app, it spins up CRUD operations, authentication, forms, and basic data flows. It’s particularly helpful when you need a working skeleton to show user journeys or data interactions during client presentations.
 
-- [v0](https://v0.dev)
+* [v0](https://v0.dev)
 
   v0 by Vercel is a UI‑focused generator that outputs production‑ready React and Tailwind components. It’s a great option when you need to iterate on design directions quickly or want to build out front‑end layouts that work seamlessly with Next.js projects.
 
-- [Firebase Studio](https://firebase.studio)
+* [Firebase Studio](https://firebase.studio)
 
   Firebase Studio leverages AI to help you scaffold backends, define Firestore data models, generate security rules, and create sample data. It’s ideal when your prototype needs authentication, cloud functions, and real‑time data syncing without heavy backend setup.
 
