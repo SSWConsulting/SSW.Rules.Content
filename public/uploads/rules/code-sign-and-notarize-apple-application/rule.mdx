@@ -5,74 +5,134 @@ guid: 0c2432a2-bbb6-4105-a735-f5f401dd0097
 created: 2026-02-08T22:39:08.600Z
 createdBy: Steven Qiang
 createdByEmail: StevenQiang@ssw.com.au
-lastUpdated: 2026-02-09T00:17:22.556Z
-lastUpdatedBy: Steven Qiang
-lastUpdatedByEmail: StevenQiang@ssw.com.au
 ---
 
 Intro
 
 <endIntro />
 
-When you develop a macOS application and distribute it outside the Mac App Store, users will often see a security warning the first time they try to open it. This happens because Gatekeeper cannot identify the application’s creator, so the app is treated as untrusted. While there are workarounds to bypass Gatekeeper, they require users to go through multiple manual and advanced steps, which is a poor user experience.
+# How to Code Sign and Notarize an Application for macOS
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/Screenshot%202026-02-03%20at%207.18.25%E2%80%AFpm.png" />
+When you develop a macOS application and distribute it outside the Mac App Store, users will often see a security warning the first time they try to open it. This happens because Gatekeeper cannot identify the application’s developer, so the app is treated as untrusted. While there are workarounds to bypass Gatekeeper, they require users to go through multiple manual and advanced steps, resulting in a poor user experience.
+
+![damaged-app](./damaged-app.png)
 
 As the title suggests, removing this system warning involves two main steps:
 
-1. Code signing (using a Developer ID Application certificate)
-2. Notarization (submitting the app to Apple for automated security checks)
+* **Code signing** (using a Developer ID Application certificate)
+* **Notarization** (submitting the app to Apple for automated security checks)
 
-***
+---
 
-## Code-sign
+## Code Signing
 
-To code-sign your application, you need to get a Developer ID Application certificate from Apple. The process starts by creating a Certificate Signing Request (CSR) using Keychain Access. The CSR proves ownership of a local signing key without exposing the private key itself. Apple uses this request to issue the Developer ID Application certificate.
+To code sign your application, you need to obtain a **Developer ID Application** certificate from Apple. The process starts by creating a **Certificate Signing Request (CSR)** using Keychain Access. The CSR proves ownership of a local signing key without exposing the private key itself. Apple uses this request to issue the **Developer ID Application** certificate.
 
 ### Preparation
 
 Before you start, make sure you have:
 
-1. Asked a SysAdmin to invite your SSW account to the SSW Apple Developer Team
-2. A Mac with Keychain Access.app
-3. Access to the Apple Developer Portal with the Account Holder's Apple ID (The main Apple ID of your orgnaization)
+* Asked a SysAdmin to invite your SSW account to the SSW Apple Developer Team
+* A Mac with **Keychain Access.app**
+* Access to the **Apple Developer Portal** using the **Account Holder’s** Apple ID (the primary Apple ID for your organization)
+
 
 ### Step 1: Create a Certificate Signing Request (CSR)
 
-1. Use Spotlight to search for Keychain Access.
-2. In the menu bar, select: Keychain Access → Certificate Assistant → Request a Certificate From a Certificate Authority…
+1. Use **Spotlight** to search for **Keychain Access**.
+
+2. In the menu bar, select:
+   **Keychain Access → Certificate Assistant → Request a Certificate From a Certificate Authority…**
+
+   ![keychain-create-csr-1](./keychain-create-csr-1.png)
+
 3. Fill in the form:
 
-   User Email Address — Can be any email address (it does not need to match the Account Holder’s email)
+   * **User Email Address** — Can be any email address (it does not need to match the Account Holder’s email)
+   * **Common Name** — A descriptive name, for example: `Your App Name`
+   * **CA Email Address** — Leave blank
+   * **Request is** — Save to disk
 
-   Common Name — A descriptive name, for example: Your App Name
+   ![keychain-create-csr-2](./keychain-create-csr-2.png)
 
-   CA Email Address — Leave blank
+4. Click **Continue** and save the file to your local disk.
 
-   Request is — Saved to disk
-4. Click Continue and save the file to your local disk.
 
 ### Step 2: Create a Developer ID Application Certificate
 
-1. Sign in to the Apple Developer Portal using the Account Holder’s Apple ID.
-2. Navigate to Certificates, Identifiers & Profiles, then select Certificates.
-3. Click the ➕ (Add) button to create a new certificate.
-4. Under Software, select Developer ID Application, then click Continue.
-5. When prompted, upload your CSR file: Select the .csr file you created earlier then click Continue
-6. Download the certificate (.cer) to your Mac.
+1. Sign in to the [Apple Developer Portal](https://developer.apple.com/account) using the **Account Holder’s** Apple ID.
+
+2. Navigate to **Certificates, Identifiers & Profiles**, then select **Certificates**.
+
+   ![portal-certificate](./portal-certificate.png)
+
+3. Click the **➕ (Add)** button to create a new certificate.
+
+   ![portal-add-button](./portal-add-button.png)
+
+4. Under **Software**, select **Developer ID Application**, then click **Continue**.
+
+   ![portal-developer-id-application](./portal-developer-id-application.png)
+
+5. When prompted, upload your CSR file:
+
+   * Select the `.csr` file you created earlier
+   * Click **Continue**
+
+   ![portal-choose-certificate](./portal-choose-certificate.png)
+
+6. Download the certificate (`.cer`) to your Mac.
+
 
 ### Step 3: Export the Private Key
 
-1. Double-click the downloaded .cer file on your Mac. This will automatically install the certificate into Keychain Access.
-2. Open Keychain Access again.
+1. Double-click the downloaded `.cer` file on your Mac.
 
-Keychain: login
+   * This will automatically install the certificate into **Keychain Access**.
 
-Category: My Certificates
+2. Open **Keychain Access** again.
+
+   * **Keychain:** `login`
+   * **Category:** `My Certificates`
 
 You should now see:
 
-* Developer ID Application: \<Your Name or Company>
-* The private key nested under it
+* **Developer ID Application: <Your Name or Company>**
+* The **private key** nested under it
 
-🎉 Congratulations! You now have a Developer ID Application certificate ready for code signing.
+![keychain-access-developer-id-application](./keychain-access-developer-id-application-certificate.png)
+
+🎉 **Congratulations!** You now have a **Developer ID Application** certificate ready for code signing.
+
+---
+
+
+## Notarization
+
+Notarization is the process where Apple reviews a signed macOS application before it is distributed. The app is submitted to Apple’s notarization service, where it is automatically scanned for malicious content and common security issues. Once approved, macOS can verify that Apple has reviewed the app, allowing Gatekeeper to open it without security warnings.
+
+### Setps:
+1. Sign in to [Apple Account](appleid.apple.com) (Your own work Apple Account. e.g YourName@ssw.com.au)
+2. In the Sign-In and Security section, select App-Specific Passwords.
+   ![appleid-app-specific-pw](./appleid-appp-specific-pw.png)
+
+3. Select Generate an app-specific password or select the Add button(+).
+   ![app-specific-1](./app-specific-1.png)
+4. Then give a name for the password and click `Create`.
+   ![app-specific-2](./app-specific-2.png)
+
+A new App-Specific Password will be generated. Save it in a safe place.
+
+🎉 **Congratulations!** Now you should have these information for notarizing your macOS application.
+   - Apple_Team_ID: [Apple Developer Portal](developer.apple.com) | Account | Membership
+   - Apple_ID: YourName@ssw.com.au
+   - Apple_APP_SPECIFIC_PASSWORD: the password you have just created
+
+
+
+
+
+
+
+
+
