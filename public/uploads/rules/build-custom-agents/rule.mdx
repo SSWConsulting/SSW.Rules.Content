@@ -1,4 +1,5 @@
 ---
+type: rule
 title: Do you build custom agents for complex tasks?
 uri: build-custom-agents
 categories:
@@ -6,15 +7,18 @@ categories:
 authors:
   - title: Michael Qiu
     url: 'https://ssw.com.au/people/michael-qiu'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
 related:
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/ai-investigation-prompts/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
 guid: aeb486ff-7b2c-47c5-88eb-78d1501d0156
 seoDescription: 'Learn when to build custom AI agents vs. use simple prompts. Discover the 3 core components - model, tools, and instructions - plus criteria for complex decision-making tasks.'
 created: 2026-01-29T00:53:13.310Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-01-30T00:23:12.427Z
+lastUpdated: 2026-02-09T22:11:56.576Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -41,7 +45,7 @@ For example, Claude Code uses custom agents like `Explore` (for codebase explora
 Like functions in code, custom agents help you avoid repeating yourself. Consider building one when:
 
 * **You're repeating the same prompts** - if you keep giving the same instructions for similar tasks, encapsulate them in a custom agent
-* **You need consistent behaviour** - when a task requires specific guardrails, tools, or domain knowledge every time
+* **You need consistent behavior** - when a task requires specific guardrails, tools, or domain knowledge every time
 * **You want to delegate specialized work** - break complex workflows into focused custom agents that can be orchestrated together
 
 <boxEmbed
@@ -99,6 +103,14 @@ Like functions in code, custom agents help you avoid repeating yourself. Conside
   figure="A custom agent definition with specialized scope, defined tools, and clear instructions"
   style="greybox"
 />
+
+## Enhancing custom agents with skills
+
+Custom agents can also be equipped with **skills** (slash commands) to guide their behavior for specific tasks. While tools give agents the ability to interact with external systems, skills inject specialized prompts and workflows that standardize how agents approach their work.
+
+For example, a code review agent could use a skill that enforces your team's review checklist, or an implementation planner agent could use a skill that ensures plans follow your organization's template.
+
+See [Do you use MCP servers for context?](/mcp-servers-for-context) for more on skills vs MCP servers.
 
 ### Further reading
 
