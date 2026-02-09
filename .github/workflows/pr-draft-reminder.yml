@@ -28,8 +28,16 @@ jobs:
 
           Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
 
+          try {
+            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository | ConvertFrom-Json
+          } catch {
+            Write-Output "Failed to view PR (isCrossRepository check): $_"
+            Write-Output "Skipping workflow."
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
           # Check if this is a cross-repository PR (from a fork)
-          $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository | ConvertFrom-Json
           if ($thisPr.isCrossRepository) {
             Write-Output "Skipping cross repository PR"
             echo "skip=true" >> $env:GITHUB_OUTPUT
@@ -103,12 +111,12 @@ jobs:
               }
 
               if (-not $foundNonBotUser) {
-                Write-Output "No non-bot user found via GraphQL. Will post reminder without @mention."
+                Write-Output "No non-bot user found via GraphQL. Skipping reminder."
                 $targetUser = ""
               }
             } catch {
               Write-Output "Failed to fetch PR commit authors via GraphQL: $_"
-              Write-Output "Will post reminder without @mention."
+              Write-Output "Skipping reminder."
               $targetUser = ""
             }
           }
@@ -144,7 +152,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Add draft PR reminder comment
-        if: steps.check_comment.outputs.skip == 'false'
+        if: steps.check_comment.outputs.skip == 'false' && steps.check_comment.outputs.target_user != ''
         shell: pwsh
         run: |
           $prNumber = ${{ github.event.pull_request.number }}
@@ -154,7 +162,7 @@ jobs:
           # Build greeting:
           # - if author looks like a GitHub username => @mention
           # - otherwise => generic greeting
-          $greeting = "👋 Hi there,"
+          $greeting = "👋 Hi,"
           if ($author) {
             # GitHub username pattern (conservative check)
             if ($author -match '^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$') {
