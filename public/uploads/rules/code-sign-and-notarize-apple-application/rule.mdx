@@ -5,7 +5,7 @@ guid: 0c2432a2-bbb6-4105-a735-f5f401dd0097
 created: 2026-02-08T22:39:08.600Z
 createdBy: Steven Qiang
 createdByEmail: StevenQiang@ssw.com.au
-lastUpdated: 2026-02-08T23:38:52.948Z
+lastUpdated: 2026-02-09T00:12:22.791Z
 lastUpdatedBy: Steven Qiang
 lastUpdatedByEmail: StevenQiang@ssw.com.au
 ---
@@ -41,5 +41,38 @@ Before you start, make sure you have:
 
 1. Use Spotlight to search for Keychain Access.
 2. In the menu bar, select: Keychain Access → Certificate Assistant → Request a Certificate From a Certificate Authority…
+3. Fill in the form:
 
-<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/Screenshot%202026-02-09%20at%2010.38.08%E2%80%AFam.png" />
+   User Email Address — Can be any email address (it does not need to match the Account Holder’s email)
+
+   Common Name — A descriptive name, for example: Your App Name
+
+   CA Email Address — Leave blank
+
+   Request is — Saved to disk
+4. Click Continue and save the file to your local disk.
+
+### Step 2: Create a Developer ID Application Certificate
+
+1. Sign in to the Apple Developer Portal using the Account Holder’s Apple ID.
+2. Navigate to Certificates, Identifiers & Profiles, then select Certificates.
+3. Click the ➕ (Add) button to create a new certificate.
+4. Under Software, select Developer ID Application, then click Continue.
+5. When prompted, upload your CSR file: Select the .csr file you created earlier then click Continue
+6. Download the certificate (.cer) to your Mac.
+
+### Step 3: Export the Private Key
+
+1. Double-click the downloaded .cer file on your Mac. This will automatically install the certificate into Keychain Access.
+2. Open Keychain Access again. 
+
+        Keychain: login
+
+        Category: My Certificates
+
+You should now see:
+
+* Developer ID Application: \<Your Name or Company>
+* The private key nested under it
+
+🎉 Congratulations! You now have a Developer ID Application certificate ready for code signing.
