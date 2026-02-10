@@ -33,7 +33,7 @@ A **skill** is a markdown file containing a prompt that gets injected into the A
   body={<>
     ```markdown
     ---
-    name: review
+    name: security-review
     description: Review code for security, performance, and standards compliance
     ---
     
@@ -53,7 +53,7 @@ A **skill** is a markdown file containing a prompt that gets injected into the A
   style="greybox"
 />
 
-To invoke this skill, type `/review` or `/project:review` &#123;&#123; TODO: CHECK THE SYNTAX ON THIS &#125;&#125; in Claude Code, `@review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
+To invoke this skill, type `/security-review` in Claude Code, `@security-review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
 
 For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
 
@@ -124,8 +124,8 @@ Create a `SKILL.md` file inside a named directory under `.claude/skills/`:
 ```
 .claude/
 └── skills/
-    ├── review/
-    │   └── SKILL.md       → invoked with /review
+    ├── security-review/
+    │   └── SKILL.md       → invoked with /security-review
     ├── commit/
     │   └── SKILL.md       → invoked with /commit
     └── plan/
@@ -141,7 +141,7 @@ Create markdown files in your project's `.github/copilot/` directory to define c
 ```
 .github/
 └── copilot/
-    ├── review.md        → invoked with @review
+    ├── review.md        → invoked with @security-review
     └── plan.md          → invoked with @plan
 ```
 
@@ -152,7 +152,7 @@ Create a `SKILL.md` file inside a named directory under `.opencode/skills/` (Ope
 ```
 .opencode/
 └── skills/
-    ├── review/
+    ├── security-review/
     │   └── SKILL.md       → invoked as a slash command or loaded by the agent
     └── plan/
         └── SKILL.md
@@ -179,7 +179,7 @@ A good skill is specific about what the agent should do, how it should structure
   body={<>
     ```markdown
     ---
-    name: review
+    name: code-review
     description: Review code for security, performance, standards, and test coverage
     allowed-tools: Read, Grep, Glob
     ---
@@ -229,10 +229,10 @@ Skills support optional YAML frontmatter fields that control their behavior:
 
 Where you store a skill determines who can use it:
 
-| Scope    | Location                                            | Applies to                             |
-| -------- | --------------------------------------------------- | -------------------------------------- |
-| Personal | `~/.claude/skills/` or `~/.config/opencode/skills/` | Only yourself and your projects        |
-| Project  | `.claude/skills/` in the repository                 | Everyone with access to the repository |
+| Scope    | Location                                            | Applies to                                             |
+| -------- | --------------------------------------------------- | ------------------------------------------------------ |
+| Personal | `~/.claude/skills/` or `~/.config/opencode/skills/` | Across all projects, only your machine                 |
+| Project  | `.claude/skills/` committed to the repository       | Project-scoped, everyone with access to the repository |
 
 **Personal skills** are great for your own preferences and workflows (e.g. your preferred commit message format). **Project skills** are committed to version control so the whole team benefits. When a personal and project skill share the same name, project-level skills take precedence.
 
@@ -242,7 +242,7 @@ Project-level skills (committed to the repo) are one of the most effective ways 
 
 * **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
 * **Review changes like code** - skill updates should go through the same PR review process as any other change
-* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/review` for a code review" or "Use `/deploy` to deploy to staging")
+* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
 * **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
 
 ## Further reading
