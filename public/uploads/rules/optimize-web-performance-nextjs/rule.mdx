@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-10T00:15:49.488Z
+lastUpdated: 2026-02-10T00:40:52.826Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -70,3 +70,29 @@ Several optional props can further enhance perceived performance and visual stab
 * placeholder - Displays a temporary image while the full asset loads (using blur provides a smoother experience for slower networks
 * quality - controls compression level to reduce file size 
 * priority - Marks critical above-the-fold images for preloading, improves LCP
+
+#### 2. Default to Server Components
+
+Next.js allows the user to control the environment where application code can be executed in: the server and the client. 
+
+The client refers to the browser on a user's device that sends a request to a server for your application code. Whereas the server refers to the computer in a data center that stores your application code.
+
+Rendering on the server reduces the amount of JavaScript sent to the browser, improves initial load performance and keeps sensitive logic and credentials out of the client bundle. 
+
+Client components ('use client') should only be introduced when the UI requires browser only functionality, such as:
+
+* Local states - useState
+* Effects- useEffect
+* Event Handlers - onClick , onChange
+* Direct access to browser APIs - window, document, localStorage
+
+When introducing a Client Component, ensure that you're keeping the client boundary as small as possible and isolate interactivity into focused components. 
+
+<boxEmbed
+  body={<>
+    The client boundary is the point in your React tree where rendering switches from Server → Browser
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
