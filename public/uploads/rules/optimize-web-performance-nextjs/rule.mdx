@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-09T23:58:35.054Z
+lastUpdated: 2026-02-10T00:03:37.103Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -39,3 +39,14 @@ Web performance in Next.js is commonly the result of multiple choices made throu
 #### 1. Display Images with the built in Next.js Component
 
 Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization. 
+
+Next.js automatically: detects browser support, converts to WebP or AVIF, and serves the most optimal format
+
+<boxEmbed
+  body={<>
+    For the same image (1920x1080), PNG file size is 800 KB and WebP is 200 KB!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
