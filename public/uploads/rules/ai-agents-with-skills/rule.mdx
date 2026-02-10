@@ -29,15 +29,15 @@ Skills (slash commands) let you package reusable prompts that standardize how AI
 
 A **skill** is a markdown file containing a prompt that gets injected into the AI agent's context when invoked. Think of skills like reusable prompt templates - they guide the agent's behavior for a specific task without needing access to external systems (unlike MCP servers).
 
-{{ TODO: EXAMPLE OF WHAT A SKILL LOOKS LIKE }}
+&#123;&#123; TODO: EXAMPLE OF WHAT A SKILL LOOKS LIKE &#125;&#125;
 
-{{ TODO: EXAMPLE OF INVOKING A SKILL }}
+&#123;&#123; TODO: EXAMPLE OF INVOKING A SKILL &#125;&#125;
 
 For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
 
 ## When to use skills
 
-{{ TODO: INCLUDE DETAILS ABOUT INSTALLING THIRD PARTY SKILLS - ANTHROPIC DESIGN TOOL SKILL }}
+&#123;&#123; TODO: INCLUDE DETAILS ABOUT INSTALLING THIRD PARTY SKILLS - ANTHROPIC DESIGN TOOL SKILL &#125;&#125;
 
 Consider creating a skill when:
 
@@ -94,7 +94,7 @@ Create markdown files in your project's `.github/copilot/` directory to define c
 
 ### OpenCode
 
-{{ TODO: INCLUDE A SECTION ON OPENCODE }}
+&#123;&#123; TODO: INCLUDE A SECTION ON OPENCODE &#125;&#125;
 
 ```
 .github/
@@ -136,7 +136,7 @@ A good skill is specific about what the agent should do, how it should structure
     list categories with "no issues found."
     ```
     
-    {{ TODO: FIX UP THE METADATA IN THIS EXAMPLE }}
+    &#123;&#123; TODO: FIX UP THE METADATA IN THIS EXAMPLE &#125;&#125;
   </>}
   figurePrefix="good"
   figure="Specific checks, clear output format, and explicit instructions on what to skip"
@@ -150,7 +150,7 @@ Tips for writing skills:
 * **Include constraints** — explicitly state what the agent should *not* do to prevent unwanted behavior
 * **Use variables where supported** — some tools support `$ARGUMENTS` or similar placeholders so users can pass context when invoking the skill
 
-{{ TODO: ADD THING VARIOUS PROPERTIES MATTER - e.g. TOOLS, MCP STUFF, ETC. }}
+&#123;&#123; TODO: ADD THING VARIOUS PROPERTIES MATTER - e.g. TOOLS, MCP STUFF, ETC. &#125;&#125;
 
 ## Using skills safely
 
@@ -168,7 +168,7 @@ Tips for writing skills:
 * **Review skill changes in PRs** — when a teammate updates a skill, review it like you would review code
 * **Be cautious of skills that run shell commands** — skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
 
-{{ TODO: INCLUDE A SECTION ABOUT SCOPE, SEPARATING PROJECT LEVEL AND PERSONAL LEVEL SKILLS }}
+&#123;&#123; TODO: INCLUDE A SECTION ABOUT SCOPE, SEPARATING PROJECT LEVEL AND PERSONAL LEVEL SKILLS &#125;&#125;
 
 ## Sharing skills across a team
 
@@ -176,7 +176,7 @@ Project-level skills (committed to the repo) are one of the most effective ways 
 
 * **Commit skills to version control** — store them in the project's commands directory so everyone on the team benefits
 * **Review changes like code** — skill updates should go through the same PR review process as any other change
-* **README - **{{ TODO: HIGHLIGHT USE CASES OF SKILLS INSIDE OF DOCUMENTS SUCH AS README.MD }}
+* **README - **&#123;&#123; TODO: HIGHLIGHT USE CASES OF SKILLS INSIDE OF DOCUMENTS SUCH AS README.MD &#125;&#125;
 * **Combine with MCP servers when needed** — use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
 
 ## Further reading
