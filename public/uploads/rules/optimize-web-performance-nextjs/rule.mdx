@@ -22,21 +22,21 @@ Without a performance-first approach, applications can quickly become slow due t
 
 <endIntro />
 
-### Factors That Affect Web Performance
+## Factors That Affect Web Performance
 
 Web performance in Next.js is commonly the result of multiple choices made throughout the application: 
 
-* Rendering Strategy - choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness 
-* JavaScript sent to the browser - Larger client bundles increase parse and execution time, delaying interactivity 
-* Data fetching patterns - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders 
-* Caching and revalidation - explicit caching reduces repeated work and improves response time 
-* Images, fonts, and media - unoptimized assets are frequently the largest contributor to slow page loads (Impacts Core Web Vitals such as Largest Contentful Paint)
-* Layout Stability - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics 
-* Hydration and Interactivity - Hydrating more UI than necessary increases CPU cost and delays interaction
+* **Rendering strategy** - Choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness 
+* **JavaScript sent to the browser** - Larger client bundles increase parse and execution time, delaying interactivity 
+* **Data fetching patterns** - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders 
+* **Caching and revalidation** - Explicit caching reduces repeated work and improves response time 
+* **Images, fonts, and media** - Unoptimized assets are frequently the largest contributor to slow page loads (Impacts Core Web Vitals such as Largest Contentful Paint)
+* **Layout stability** - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics 
+* **Hydration and interactivity** - Hydrating more UI than necessary increases CPU cost and delays interaction
 
-### Optimizing Web Performance
+## Optimizing Web Performance
 
-#### 1. Display Images with the built in Next.js Component
+### 1. Display Images with the built in Next.js Component
 
 Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization. 
 
@@ -71,7 +71,7 @@ Several optional props can further enhance perceived performance and visual stab
 * quality - controls compression level to reduce file size 
 * priority - Marks critical above-the-fold images for preloading, improves LCP
 
-#### 2. Default to Server Components
+### 2. Default to Server Components
 
 Next.js allows the user to control the environment where application code can be executed in: the server and the client. 
 
