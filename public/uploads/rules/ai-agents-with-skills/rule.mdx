@@ -8,7 +8,11 @@ authors:
     url: 'https://ssw.com.au/people/michael-qiu'
   - title: Eddie Kranz
     url: 'https://ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
 guid: 72a12f65-5f91-406a-8ab2-59e7efb39726
+seoDescription: 'Learn how to use skills (slash commands) to standardize AI coding workflows. Discover how to create, share, and safely use skills across tools like Claude Code and GitHub Copilot.'
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -17,8 +21,157 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+Skills (slash commands) let you package reusable prompts that standardize how AI agents approach recurring tasks. Instead of retyping the same detailed instructions every time, you define them once and invoke them with a command.
 
 <endIntro />
 
-Body
+## What is a skill?
+
+A **skill** is a markdown file containing a prompt that gets injected into the AI agent's context when invoked. Think of skills like reusable prompt templates — they guide the agent's behavior for a specific task without needing access to external systems.
+
+Key characteristics:
+
+* **Prompt-based** — skills are just text instructions, not code or API integrations
+* **Lightweight** — no servers, authentication, or infrastructure required
+* **Scoped** — each skill targets a specific task or workflow
+* **Shareable** — stored as files that can be committed to version control
+
+For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
+
+## When to use skills
+
+Consider creating a skill when:
+
+* **You're repeating the same instructions** — if you keep typing the same prompt for code reviews, commit messages, or planning tasks, package it as a skill
+* **You need consistent output** — when a task must follow a specific format or checklist every time (e.g. PR descriptions, architecture decision records)
+* **You're working with internal frameworks** — proprietary DSLs or internal tools that aren't well-represented in the AI's training data benefit from explicit guidance
+* **You're onboarding team members** — skills encode tribal knowledge so everyone gets consistent results from day one
+
+<boxEmbed
+  body={<>
+    **User:** Review this code for security vulnerabilities, performance issues, adherence to our team's coding standards, and test coverage gaps. Provide actionable feedback with specific line references.
+
+    **Agent:** ✅ Code review complete.
+
+    ***
+
+    **User:** Review this code for security vulnerabilities, performance issues, adherence to our team's coding standards, and test coverage gaps. Provide actionable feedback with specific line references.
+
+    **Agent:** ✅ Code review complete.
+  </>}
+  figurePrefix="bad"
+  figure="Repeating the same detailed review prompt every time is tedious and error-prone"
+/>
+
+<boxEmbed
+  body={<>
+    **User:** /project:review
+
+    **Agent:** ✅ Code review complete.
+  </>}
+  figurePrefix="good"
+  figure="A skill encapsulates the review instructions — one command, consistent results every time"
+/>
+
+## Setting up skills
+
+### Claude Code
+
+Create markdown files in your project's `.claude/commands/` directory:
+
+```
+.claude/
+  commands/
+    review.md        → invoked with /project:review
+    commit.md        → invoked with /project:commit
+    plan.md          → invoked with /project:plan
+```
+
+You can also create personal skills at `~/.claude/commands/` that are available across all projects.
+
+### GitHub Copilot
+
+Create markdown files in your project's `.github/copilot/` directory to define custom agents:
+
+```
+.github/
+  copilot/
+    review.md        → invoked with @review
+    plan.md          → invoked with @plan
+```
+
+## Writing effective skills
+
+A good skill is specific about what the agent should do, how it should structure its output, and what it should avoid.
+
+<boxEmbed
+  body={<>
+    ```markdown
+    Review the code and give feedback.
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Too vague — the agent has no guidance on what to check or how to structure its response"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ```markdown
+    Review the code changes in the current diff for:
+    - Security vulnerabilities (injection, auth issues, data exposure)
+    - Performance problems (N+1 queries, unnecessary allocations, missing indexes)
+    - Adherence to our team's coding standards
+    - Test coverage gaps
+
+    For each issue found:
+    1. Reference the specific file and line number
+    2. Explain why it's a problem
+    3. Suggest a concrete fix
+
+    If no issues are found in a category, skip it — do not
+    list categories with "no issues found."
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Specific checks, clear output format, and explicit instructions on what to skip"
+  style="greybox"
+/>
+
+Tips for writing skills:
+
+* **One task per skill** — a focused skill is easier to maintain and produces more consistent results than one that tries to handle multiple scenarios
+* **Specify the output format** — tell the agent exactly how to structure its response (bullet points, markdown headings, numbered steps, etc.)
+* **Include constraints** — explicitly state what the agent should *not* do to prevent unwanted behavior
+* **Use variables where supported** — some tools support `$ARGUMENTS` or similar placeholders so users can pass context when invoking the skill
+
+## Using skills safely
+
+<boxEmbed
+  body={<>
+    Skills are prompt injections by design — they instruct the AI to behave in a specific way. A malicious skill could instruct the agent to run destructive commands, exfiltrate data, or bypass safety checks.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+* **Always read the full contents of a skill before using it** — never blindly trust a skill file, even from a seemingly reputable source
+* **Avoid skills from third-party marketplaces or untrusted sources** — treat installing a skill with the same caution as running an unknown script
+* **Review skill changes in PRs** — when a teammate updates a skill, review it like you would review code
+* **Be cautious of skills that run shell commands** — skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
+
+## Sharing skills across a team
+
+Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
+
+* **Commit skills to version control** — store them in the project's commands directory so everyone on the team benefits
+* **Review changes like code** — skill updates should go through the same PR review process as any other change
+* **Keep a brief comment at the top** — a one-line description of what the skill does helps teammates discover and understand available skills
+* **Combine with MCP servers when needed** — use skills to define *how* the agent should work and MCP servers to provide *what data* it can access
+
+## Further reading
+
+* [Custom slash commands - Claude Code](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
+* [Custom agents - GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
+* [Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) — for guidance on when to use skills vs MCP servers
