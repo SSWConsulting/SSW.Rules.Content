@@ -52,20 +52,20 @@ When this approach is not a good fit:
 
 This rule’s strategy includes:
 
-1. Abstract existing `ObjectContext/Entities` class with a custom interface (e.g. `ITenantDbContext`)
-2. Reverse-engineer the database (scaffold)
-   * UI (preferred): [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
-   * CLI (fallback): `dotnet ef dbcontext scaffold` (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8)
+1. [Abstract existing `ObjectContext/Entities`](#abstracting-access-to-objectcontextentities) class with a custom interface (e.g. `ITenantDbContext`)
+2. [Reverse-engineer the database (scaffold)](#scaffolding-the-db)
+  * [UI (preferred)](#using-ef-core-power-tools-ui): [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools)
+  * [CLI (fallback)](#scaffold-using-the-ef-core-cli): `dotnet ef dbcontext scaffold` (prefer the current LTS EF Core, e.g. EF Core 10, or EF Core 8)
 3. Implement the interface from step 1 and refactor entities
    1. Review entities, adjust generated code and update `DbContext.OnConfiguring`
    2. Replace `ObjectSet<T>` with `DbSet<T>`
-4. Address common refactor gotchas (see "Common gotchas" below): nullability differences, lazy loading, query translation, and performance
+4. Address common refactor gotchas (see [Common gotchas](#common-gotchas) below): nullability differences, lazy loading, query translation, and performance
 5. Add a **TechDebt** comment and PBI when you need to defer deeper refactors - [Do you know the importance of paying back Technical Debt?](/technical-debt/)
-6. Update namespaces (for Entities, EF Core namespaces and removing legacy namespaces)
+6. [Update namespaces](#namespace-cleanup-ef6-ef-core) (for Entities, EF Core namespaces and removing legacy namespaces)
 7. Remove EF6 namespaces like `System.Data.Entity` from files that are now using EF Core (otherwise you can get confusing type clashes and LINQ/runtime issues)
 8. Add `Microsoft.EntityFrameworkCore` namespace
-9. Update dependency injection
-   1. Use modern `.AddDbContext()` or `.AddDbContextPool()`
+9. [Update dependency injection](#optional-wire-up-dependency-injection-ef-core)
+  1. Use modern `.AddDbContext()` or `.AddDbContextPool()`
 10. Update migration strategy (from DB-first to Code-first)
 11. Adopt EF Core Migrations (`dotnet ef migrations add` / `dotnet ef database update`) or your preferred migration approach; DbUp can still be useful, but it’s no longer “the default” once you’re Code-First
 12. Remove EDMX completely (can be done sooner if migration is done in 1 go rather than in steps)
@@ -96,7 +96,7 @@ The namespace cleanup becomes unavoidable when you move to modern .NET and EF Co
   figure=""
 />
 
-### 1. Abstracting access to ObjectContext/Entities
+### Abstracting access to ObjectContext/Entities
 
 Before starting, it’s important to note that EDMX isn't supported by EF Core, and `ObjectContext` is EF6-era API surface. If your goal is modern .NET + EF Core, you’ll ultimately need to replace EDMX-based data access. You can still wrap `ObjectContext` behind an interface to stage the migration, as many commonly used operations can still map cleanly to a `DbContext`-like API.
 
@@ -183,7 +183,7 @@ builder.Services.AddScoped<ITenantDbContextEfCore, TenantDbContextEfCoreAdapter>
   figure=""
 />
 
-### 2. Scaffolding the DB
+### Scaffolding the DB
 
 Now that we abstracted access to the data, it's time to scaffold the DB. The easiest way to do this is by using [EF Core Power Tools](https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools).
 
@@ -295,7 +295,7 @@ dotnet ef dbcontext scaffold `
   figure=""
 />
 
-## Common gotchas (EF6/EDMX → EF Core)
+## Common gotchas
 
 ### Common API mappings (EF6/EDMX → EF Core)
 
