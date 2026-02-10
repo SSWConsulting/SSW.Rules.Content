@@ -18,6 +18,10 @@ jobs:
     if: github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:
+      - name: Wait before commenting
+        shell: bash
+        run: sleep 600  # wait 10 mins
+
       - name: Determine target user and check for existing comment
         id: check_comment
         shell: pwsh
@@ -29,7 +33,7 @@ jobs:
           Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
 
           try {
-            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository | ConvertFrom-Json
+            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository,isDraft | ConvertFrom-Json
           } catch {
             Write-Output "Failed to view PR (isCrossRepository check): $_"
             Write-Output "Skipping workflow."
@@ -40,6 +44,13 @@ jobs:
           # Check if this is a cross-repository PR (from a fork)
           if ($thisPr.isCrossRepository) {
             Write-Output "Skipping cross repository PR"
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          # Re-check: PR may no longer be draft after the sleep
+          if (-not $thisPr.isDraft) {
+            Write-Output "PR is no longer draft. Skipping reminder."
             echo "skip=true" >> $env:GITHUB_OUTPUT
             exit 0
           }
