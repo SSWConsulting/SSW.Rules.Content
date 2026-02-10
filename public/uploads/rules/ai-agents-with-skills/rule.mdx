@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use skills (slash commands) to standardize AI codi
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-10T05:48:11.897Z
+lastUpdated: 2026-02-10T05:52:20.168Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -98,6 +98,22 @@ Consider creating a skill when:
   figurePrefix="good"
   figure="A skill encapsulates the review instructions - one command, consistent results every time"
 />
+
+## Using skills safely
+
+<boxEmbed
+  body={<>
+    Skills are prompt injections by design - they instruct the AI to behave in a specific way. A malicious skill could instruct the agent to run destructive commands, exfiltrate data, or bypass safety checks.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+* **Always read the full contents of a skill before using it** - never blindly trust a skill file, even from a seemingly reputable source
+* **Avoid skills from third-party marketplaces or untrusted sources** - treat installing a skill with the same caution as running an unknown script, we consider skills from sources such as Anthropic and OpenAI to be trusted sources
+* **Review skill changes in PRs** - when a teammate updates a skill, review it like you would review code
+* **Be cautious of skills that run shell commands** - skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
 
 ## Setting up skills
 
@@ -208,22 +224,6 @@ Skills support optional YAML frontmatter fields that control their behavior:
 | `user-invocable`           | Set to `false` to hide from the `/` menu (agent-only background knowledge)               |
 | `context`                  | Set to `fork` to run the skill in an isolated subagent                                   |
 | `argument-hint`            | Hint shown during autocomplete (e.g. `[issue-number]`)                                   |
-
-## Using skills safely
-
-<boxEmbed
-  body={<>
-    Skills are prompt injections by design - they instruct the AI to behave in a specific way. A malicious skill could instruct the agent to run destructive commands, exfiltrate data, or bypass safety checks.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-* **Always read the full contents of a skill before using it** - never blindly trust a skill file, even from a seemingly reputable source
-* **Avoid skills from third-party marketplaces or untrusted sources** - treat installing a skill with the same caution as running an unknown script, we consider skills from sources such as Anthropic and OpenAI to be trusted sources.
-* **Review skill changes in PRs** - when a teammate updates a skill, review it like you would review code
-* **Be cautious of skills that run shell commands** - skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
 
 ### Skill scope
 
