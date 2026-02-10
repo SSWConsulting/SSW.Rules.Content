@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-10T00:03:37.103Z
+lastUpdated: 2026-02-10T00:15:49.488Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -40,7 +40,7 @@ Web performance in Next.js is commonly the result of multiple choices made throu
 
 Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization. 
 
-Next.js automatically: detects browser support, converts to WebP or AVIF, and serves the most optimal format
+The next/image component automatically optimizes image size, format, and delivery, helping reduce page weight and improve load times. Offscreen images are deferred automatically (lazily loaded), reducing LCP.
 
 <boxEmbed
   body={<>
@@ -50,3 +50,23 @@ Next.js automatically: detects browser support, converts to WebP or AVIF, and se
   figure=""
   style="tips"
 />
+
+Out of the box, the \<Image/> component is pretty straight forward to use.
+
+```ts
+<Image
+  src="..."
+  alt="..."
+  width={x-Pixels}
+  height={y-Pixels}
+  
+  //or use fill
+  fill
+/>
+```
+
+Several optional props can further enhance perceived performance and visual stability:
+
+* placeholder - Displays a temporary image while the full asset loads (using blur provides a smoother experience for slower networks
+* quality - controls compression level to reduce file size 
+* priority - Marks critical above-the-fold images for preloading, improves LCP
