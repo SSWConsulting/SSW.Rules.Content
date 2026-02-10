@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use skills (slash commands) to standardize AI codi
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-10T05:52:20.168Z
+lastUpdated: 2026-02-10T06:22:18.783Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -53,13 +53,13 @@ A **skill** is a markdown file containing a prompt that gets injected into the A
   style="greybox"
 />
 
-To invoke this skill, type `/review` or `/project:review` in Claude Code, `@review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
+To invoke this skill, type `/review` or `/project:review` {{ TODO: CHECK THE SYNTAX ON THIS }} in Claude Code, `@review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
 
 For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
 
 ## When to use skills
 
-You don't always need to write skills from scratch. Trusted providers like [Anthropic](https://github.com/anthropics/skills) publish pre-built skills you can install. For example, Anthropic's official skills repository includes document skills (DOCX, PDF, PPTX, XLSX), creative and design skills, and development utilities. In Claude Code, you can install them via the plugin system:
+You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities. In Claude Code, you can install them via the plugin system:
 
 ```bash
 /plugin marketplace add anthropics/skills
@@ -79,7 +79,7 @@ Consider creating a skill when:
     
     **Agent:** ✅ Code review complete.
     
-    ***
+    *(1 day later)*
     
     **User:** Review this code for security vulnerabilities, performance issues, adherence to our team's coding standards, and test coverage gaps. Provide actionable feedback with specific line references.
     
@@ -91,7 +91,7 @@ Consider creating a skill when:
 
 <boxEmbed
   body={<>
-    **User:** /project\:review
+    **User:** /security-review
     
     **Agent:** ✅ Code review complete.
   </>}
@@ -119,7 +119,7 @@ Consider creating a skill when:
 
 ### Claude Code
 
-Create a `SKILL.md` file inside a named directory under `.claude/skills/` (or `.claude/commands/` which still works):
+Create a `SKILL.md` file inside a named directory under `.claude/skills/`:
 
 ```
 .claude/
