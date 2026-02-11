@@ -11,12 +11,12 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-10T00:40:52.826Z
+lastUpdated: 2026-02-11T05:26:24.218Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
 
-Next.js is a popular and powerful framework built on top of React, designed to help teams build fast, scalable web applications. 
+Next.js is a popular and powerful framework built on top of React, designed to help teams build fast, scalable web applications.
 
 Without a performance-first approach, applications can quickly become slow due to excessive client-side Javascript, inefficient data fetching or incorrect rendering strategies. Out of the box, Next.js gives you powerful performance tools.
 
@@ -24,21 +24,21 @@ Without a performance-first approach, applications can quickly become slow due t
 
 ## Factors That Affect Web Performance
 
-Web performance in Next.js is commonly the result of multiple choices made throughout the application: 
+Web performance in Next.js is commonly the result of multiple choices made throughout the application:
 
-* **Rendering strategy** - Choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness 
-* **JavaScript sent to the browser** - Larger client bundles increase parse and execution time, delaying interactivity 
-* **Data fetching patterns** - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders 
-* **Caching and revalidation** - Explicit caching reduces repeated work and improves response time 
+* **Rendering strategy** - Choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness
+* **JavaScript sent to the browser** - Larger client bundles increase parse and execution time, delaying interactivity
+* **Data fetching patterns** - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders
+* **Caching and revalidation** - Explicit caching reduces repeated work and improves response time
 * **Images, fonts, and media** - Unoptimized assets are frequently the largest contributor to slow page loads (Impacts Core Web Vitals such as Largest Contentful Paint)
-* **Layout stability** - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics 
+* **Layout stability** - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics
 * **Hydration and interactivity** - Hydrating more UI than necessary increases CPU cost and delays interaction
 
 ## Optimizing Web Performance
 
 ### 1. Display Images with the built in Next.js Component
 
-Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization. 
+Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization.
 
 The next/image component automatically optimizes image size, format, and delivery, helping reduce page weight and improve load times. Offscreen images are deferred automatically (lazily loaded), reducing LCP.
 
@@ -68,16 +68,16 @@ Out of the box, the \<Image/> component is pretty straight forward to use.
 Several optional props can further enhance perceived performance and visual stability:
 
 * placeholder - Displays a temporary image while the full asset loads (using blur provides a smoother experience for slower networks
-* quality - controls compression level to reduce file size 
+* quality - controls compression level to reduce file size
 * priority - Marks critical above-the-fold images for preloading, improves LCP
 
 ### 2. Default to Server Components
 
-Next.js allows the user to control the environment where application code can be executed in: the server and the client. 
+Next.js allows the user to control the environment where application code can be executed in: the server and the client.
 
 The client refers to the browser on a user's device that sends a request to a server for your application code. Whereas the server refers to the computer in a data center that stores your application code.
 
-Rendering on the server reduces the amount of JavaScript sent to the browser, improves initial load performance and keeps sensitive logic and credentials out of the client bundle. 
+Rendering on the server reduces the amount of JavaScript sent to the browser, improves initial load performance and keeps sensitive logic and credentials out of the client bundle.
 
 Client components ('use client') should only be introduced when the UI requires browser only functionality, such as:
 
@@ -86,7 +86,7 @@ Client components ('use client') should only be introduced when the UI requires 
 * Event Handlers - onClick , onChange
 * Direct access to browser APIs - window, document, localStorage
 
-When introducing a Client Component, ensure that you're keeping the client boundary as small as possible and isolate interactivity into focused components. 
+When introducing a Client Component, ensure that you're keeping the client boundary as small as possible and isolate interactivity into focused components.
 
 <boxEmbed
   body={<>
@@ -96,3 +96,18 @@ When introducing a Client Component, ensure that you're keeping the client bound
   figure=""
   style="info"
 />
+
+### 3. Minimize JavaScript shipped to the browser 
+
+The fastest JavaScript is the JavaScript you don't need to send. Large client bundles increase download size, parse time and execution cost. All of which delays interactivity and Core Web Vitals 
+
+1. Use the @next/bundle-analyzer to get a visual map of everything bundled in your project - this will help identify suspiciously large or necessarily installed dependencies
+2. Use dynamic imports - these let you load code only when it's needed 
+
+```
+import dynamic from "next/dynamic";
+
+const Chart = dynamic (() => import('../components/Chart'), {
+  ssr: false,
+ });
+```
