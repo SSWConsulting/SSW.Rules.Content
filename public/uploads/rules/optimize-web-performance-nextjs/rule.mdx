@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-11T05:41:58.908Z
+lastUpdated: 2026-02-11T05:49:17.442Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -110,6 +110,14 @@ The fastest JavaScript is the JavaScript you don't need to send. Large client bu
 
 Waterfalls are usually beautiful… but for React developers they can be quite scary. A fetch waterfall is a performance issue that occurs when multiple API calls or fetch requests are chained together, and executed one after another (as opposed to completing them concurrently. 
 
-Consequently, this delays page loads. 
+This generally will occur when the page loads first, then data fetching begins, then the UI updates. This effect can be compounded if there are many child components on one page fetching data.
+
+Consequently, this delays page loads 😓
 
 <imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Fetch Waterfall " src="/uploads/rules/optimize-web-performance-nextjs/fetch-waterfall.png" />
+
+So how do I avoid recreating Niagara Falls?
+
+1. Fetch data on the server - only fetch on the browser when data is truly user-specific
+2. Parallelize requests where possible - don't let independent requests block each other 
+3. Cache and revalidate intentionally - don't force per-request fetching unless its required
