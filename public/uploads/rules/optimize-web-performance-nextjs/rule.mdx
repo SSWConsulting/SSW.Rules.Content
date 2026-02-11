@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-11T05:33:44.581Z
+lastUpdated: 2026-02-11T05:41:58.908Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -105,3 +105,11 @@ The fastest JavaScript is the JavaScript you don't need to send. Large client bu
 2. Use dynamic imports - these let you load code only when it's needed (this is great for charts, maps, modals and rich-text editors)
 3. Avoid heavy dependencies - do you really need to bundle the entirety of lodash? or can it be replaced with one fn import? 
 4. Keep heavy code on the Server - tying in with our previous major point, reduce the usage of the client. 
+
+### 4. Fetch on the server side and prevent fetch waterfalls
+
+Waterfalls are usually beautiful… but for React developers they can be quite scary. A fetch waterfall is a performance issue that occurs when multiple API calls or fetch requests are chained together, and executed one after another (as opposed to completing them concurrently. 
+
+Consequently, this delays page loads. 
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Fetch Waterfall " src="/uploads/rules/optimize-web-performance-nextjs/fetch-waterfall.png" />
