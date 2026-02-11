@@ -1,33 +1,31 @@
 ---
-authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-- title: Lewis Toh
-  url: https://ssw.com.au/people/lewis-toh
-- title: Eddie Kranz
-  url: https://www.ssw.com.au/people/eddie-kranz
-created: 2025-10-17 06:56:06+00:00
-createdBy: Lewis Toh [SSW]
-createdByEmail: 88498002+Lewkans@users.noreply.github.com
-guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
-isArchived: false
-lastUpdated: 2025-12-02 07:58:22+00:00
-lastUpdatedBy: Tiago Araújo [SSW]
-lastUpdatedByEmail: tiagov8@gmail.com
-related:
-- rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
-seoDescription: Learn how to properly attribute commits when using AI coding assistants
-  like Claude Code, GitHub Copilot, Cursor, and OpenCode. This standard ensures proper
-  credit and transparency in AI-human collaboration.
 tips: ''
+type: rule
 title: Do you attribute AI-assisted commits with co-authors?
+uri: attribute-ai-assisted-commits-with-co-authors
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-type: rule
-uri: attribute-ai-assisted-commits-with-co-authors
+authors:
+  - title: Gordon Beeming
+    url: 'https://ssw.com.au/people/gordon-beeming'
+  - title: Lewis Toh
+    url: 'https://ssw.com.au/people/lewis-toh'
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/keep-task-summaries-from-ai-assisted-development/rule.mdx
+guid: 244a09ee-ca89-4998-9ebd-a432f7eb5d51
+seoDescription: 'Learn how to properly attribute commits when using AI coding assistants like Claude Code, GitHub Copilot, Cursor, and OpenCode. This standard ensures proper credit and transparency in AI-human collaboration.'
+created: 2025-10-17T06:56:06.000Z
+createdBy: 'Lewis Toh [SSW]'
+createdByEmail: 88498002+Lewkans@users.noreply.github.com
+lastUpdated: 2026-02-09T04:06:00.472Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
+isArchived: false
 ---
 
-When AI assistants make code changes on your behalf, proper attribution is essential. Modern AI coding agents like Claude Code and OpenCode now **automatically add themselves as co-authors** when they create commits - you don't need to configure anything.
+When AI assistants make code changes on your behalf, proper attribution is essential. Modern AI coding agents like Claude Code and OpenCode **automatically add themselves as co-authors** when they create commits.
 
 However, you should still add yourself as a co-author to indicate that you reviewed and approved the AI's work.
 
@@ -35,31 +33,29 @@ However, you should still add yourself as a co-author to indicate that you revie
 
 ## Automatic Attribution in Modern AI Agents
 
-| Tool | Default Behavior | Co-Author Format |
-|------|-----------------|------------------|
-| **Claude Code** | ✅ Auto-adds co-author | `Co-Authored-By: Claude <model> <noreply@anthropic.com>` |
-| **OpenCode** | ✅ Auto-adds attribution | Adds model as co-author |
-| **GitHub Copilot** | ❌ No auto-attribution | Requires manual setup |
-| **Cursor** | ❌ No auto-attribution | Requires manual setup |
+| Tool               | Default Behavior      | Notes                                                                                                                                         |
+| ------------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Claude Code**    | ✅ Auto (configurable) | Adds `Co-Authored-By: Claude <model> <noreply@anthropic.com>` - [see settings](https://code.claude.com/docs/en/settings#attribution-settings) |
+| **OpenCode**       | ✅ Auto                | Adds model as co-author                                                                                                                       |
+| **GitHub Copilot** | ❌ Manual setup        | [See setup below](#setup-for-github-copilot)                                                                                                  |
+| **Cursor**         | ❌ Manual setup        | [See setup below](#setup-for-github-copilot)                                                                                                  |
 
-`TODO: Add screenshot of GitHub commit showing Claude as co-author`
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Co-authoring lets you see if AI helped" src="/uploads/rules/attribute-ai-assisted-commits-with-co-authors/github_claude_coauthoring.png" />
 
 ## Commits That Tell a Story
 
 When working with AI agents on larger tasks, ask them to create commits in a logical order that "tells a story" of the implementation. This makes code reviews easier and helps future developers understand the evolution of a feature.
 
-
 <boxEmbed
   style="info"
   body={<>
     **Prompt tip:** When asking an AI agent to implement a feature with multiple components, include:
-
+    
     *"Please commit changes in a logical order that tells a story - for example, data models first, then business logic, then UI components, and finally tests."*
   </>}
   figurePrefix="none"
   figure=""
 />
-
 
 **Example story-driven commit sequence:**
 
@@ -84,8 +80,73 @@ To find your details, run: `git config user.name` and `git config user.email`
 ## When to Add Yourself as Co-Author
 
 **✅ DO** add yourself when:
+
 * AI implements features, fixes bugs, refactors code, or writes tests
 * You actively collaborate with AI on a solution
 
 **❌ DON'T** add yourself for:
+
 * Automated dependency updates or bot-generated changes
+
+***
+
+## Setup for GitHub Copilot
+
+For tools that don't auto-attribute, add the following to your AI assistant configuration (e.g., `.github/copilot-instructions.md`, `.cursorrules`, or [AGENTS.md](/write-agents-md)):
+
+````markdown
+## Git Commit Guidelines
+
+### Commit Frequently
+Commit changes incrementally as you complete logical units of work:
+- After adding a new feature or component
+- After fixing a bug
+- After refactoring code
+- Before making major changes (safety checkpoint)
+
+### Co-Author Attribution
+**ALWAYS add the user as a co-author on commits** to ensure proper attribution.
+
+**How to identify the user:**
+1. Check `git config user.name` and `git config user.email`
+2. If in GitHub Codespaces, use the logged-in GitHub user
+
+**Format:**
+```bash
+git commit -m "feat: Brief description
+
+Co-authored-by: User Name <user.email@example.com>"
+````
+
+````
+
+### Alternative: Git Hook
+
+Create a `prepare-commit-msg` hook to automatically add yourself as co-author:
+
+```bash
+#!/bin/bash
+# .git/hooks/prepare-commit-msg
+
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+
+if [ -z "$COMMIT_SOURCE" ]; then
+  COAUTHOR_NAME=$(git config user.name)
+  COAUTHOR_EMAIL=$(git config user.email)
+
+  if ! grep -q "Co-authored-by: $COAUTHOR_NAME" "$COMMIT_MSG_FILE"; then
+    echo "" >> "$COMMIT_MSG_FILE"
+    echo "Co-authored-by: $COAUTHOR_NAME <$COAUTHOR_EMAIL>" >> "$COMMIT_MSG_FILE"
+  fi
+fi
+````
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Git hooks are local and not committed to the repository. Share with your team via documentation.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
