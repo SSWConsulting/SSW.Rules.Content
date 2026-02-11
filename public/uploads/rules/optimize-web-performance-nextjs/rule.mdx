@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-11T05:26:24.218Z
+lastUpdated: 2026-02-11T05:29:59.016Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -102,12 +102,5 @@ When introducing a Client Component, ensure that you're keeping the client bound
 The fastest JavaScript is the JavaScript you don't need to send. Large client bundles increase download size, parse time and execution cost. All of which delays interactivity and Core Web Vitals 
 
 1. Use the @next/bundle-analyzer to get a visual map of everything bundled in your project - this will help identify suspiciously large or necessarily installed dependencies
-2. Use dynamic imports - these let you load code only when it's needed 
-
-```
-import dynamic from "next/dynamic";
-
-const Chart = dynamic (() => import('../components/Chart'), {
-  ssr: false,
- });
-```
+2. Use dynamic imports - these let you load code only when it's needed (this is great for charts, maps, modals and rich-text editors)
+3. Avoid heavy dependencies - do you really need to bundle the entirety of lodash? or can it be replaced with one fn import? 
