@@ -3,6 +3,8 @@ archivedreason: null
 authors:
 - title: Jayden Alchin
   url: https://ssw.com.au/people/jayden-alchin
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
 created: 2023-10-16 05:06:33+00:00
 guid: 2057dc3f-d424-4637-bfcd-3ef3809b5e75
 redirects: []
@@ -19,8 +21,7 @@ type: rule
 uri: hemmingway-editor
 ---
 
-The [Hemmingway Editor](https://hemingwayapp.com/) is a tool that analyzes content and highlights problematic areas.
-This process reveals common writing issues that impact readers. Lean on this tool to internalize good writing practices.
+The [Hemmingway Editor](https://hemingwayapp.com/) is a tool that analyzes content and highlights problematic areas. This process reveals common writing issues that impact readers. Use this tool regularly to improve clarity and readability.
 
 <endIntro />
 
@@ -30,32 +31,38 @@ This is a tool that analyzes text for readability. It's particularly useful for 
 
 It highlights:
 
-- Use of passive voice
-- Simple alternatives to complex phrases
-- Overuse of adverbs
-- Long and hard to read sentences
+- 🟡 Long or complex sentences
+- 🔵 Passive voice
+- 🟢 Adverbs
+- 🟣 Hard-to-read phrases
+- 🔴 Very hard-to-read sentences
 
-The editor also reports a grade-level readability score. Grade 9 reading level or below indicates the most understandable content.
+The editor also reports a **grade-level readability score**.
+
+| Grade Level | Readability        |
+|------------|-------------------|
+| Grade 12   | Harder to read     |
+| Grade 9    | Easier to read     |
+| Grade 7    | Even easier to read |
 
 ## How to use it
 
-Copy and paste content into the editor for immediate feedback. Action as many suggestions as possible, and try to achieve that grade 9 readability or better.
+Copy and paste your content into the editor to receive instant feedback. Address the highlighted issues and aim for a Grade 9 readability score or lower.
 
 <imageEmbed
   alt="Image"
   size="large"
-  showBorder={false}
-  figurePrefix="bad"
+  showBorder={true}
+  figurePrefix="none"
   figure="Hemmingway Editor highlighting readability issues"
   src="/uploads/rules/hemmingway-editor/hemmingway-bad.png"
 />
 
-
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
-  figurePrefix="good"
-  figure="Concise, direct, readable content"
+  figurePrefix="none"
+  figure="Concise, direct, and readable content following Hemingway suggestions"
   src="/uploads/rules/hemmingway-editor/hemmingway-good.png"
 />
