@@ -1,5 +1,5 @@
 ---
-title: Do you generate AI characters that stay consistent across images and videos?
+title: Do you generate consistent AI characters across images and videos?
 uri: consistent-ai-generated-characters
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-generated-media.mdx
@@ -17,7 +17,7 @@ thumbnail: /uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-T
 created: 2026-01-21T00:43:12.725Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-02-04T02:03:12.879Z
+lastUpdated: 2026-02-12T07:10:21.432Z
 lastUpdatedBy: Griffen Edge
 lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
@@ -30,7 +30,9 @@ You generate a great AI image for marketing, then the next one looks like a dist
   body={<>
     Prompt: “Generate a 3d stylized, cartoon-like yak covering his eyes with his hooves. The yak has small curved horns, shaggy light-brown hair on its head, large expressive eyes, and a friendly, slightly smiling expression. It is wearing a short-sleeved red shirt. The background is plain white, giving the image a clean, studio-like appearance. Make the yak {{ ACTION }}.”
     
-    Image model used (left-to-right): Google Whisk, Open AI GPT Image, Google Nano Banana.
+    Action (left to right): “cover his eyes with his hooves”, “sit at a table and write on a piece of paper with a pen”, “give a thumbs up”
+    
+    Image model (left-to-right): Google Whisk, Open AI GPT Image, Google Nano Banana.
   </>}
   figurePrefix="none"
   figure=""
@@ -41,11 +43,13 @@ You generate a great AI image for marketing, then the next one looks like a dist
 
 <boxEmbed
   body={<>
-    Prompt: “Use the provided character sheet as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak {{ ACTION }}.”
+    Prompt: “Use the provided character sheet as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak {{ ACTION }}.”
     
-    Attached file: Character-Sheet.png
+    Attached file: source-of-truth.png
     
-    Image model used (left-to-right): Open AI GPT Image, Google Whisk, Google Nano Banana.
+    Action (left to right): “cover his eyes with his hooves”, “sit at a table and write on a piece of paper with a pen”, “give a thumbs up”
+    
+    Image model (left-to-right): Open AI GPT Image, Google Whisk, Google Nano Banana.
   </>}
   figurePrefix="none"
   figure=""
@@ -54,7 +58,7 @@ You generate a great AI image for marketing, then the next one looks like a dist
 
 <imageEmbed alt="Three side-by-side images of the same 3D yak character wearing a red shirt, shown in different poses." size="large" showBorder={false} figurePrefix="good" figure="By using a &#x22;source of truth&#x22; image, you can ensure character consistency across different scenarios and models." src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Consistent-v3.jpg" />
 
-## 1. Start with a single “source of truth” image
+## Tip 1. Start with a single source-of-truth image
 
 Always begin with **one approved base image** of the character. Ideally this image should be a character sheet, providing different views of the character so that models have more context to work with.
 
@@ -67,28 +71,28 @@ Store it in a shared, versioned location (e.g. brand assets folder).
 
 <boxEmbed
   body={<>
-    For YakShaver, we store our “source of truth" character sheet at [yakshaver.ai/media](https://yakshaver.ai/media)
+    The YakShaver team stores their source-of-truth character sheet at [yakshaver.ai/media](https://yakshaver.ai/media)
   </>}
   figurePrefix="none"
   figure=""
   style="yakshaver"
 />
 
-<imageEmbed alt="A smiling cartoon yak wearing a red t-shirt, sitting at a wooden desk and writing on a notepad with a pen." size="medium" showBorder={false} figurePrefix="bad" figure="A single high-quality image of the character." src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Writing-Table.png" />
+<imageEmbed alt="Character sheet of a stylized 3D cartoon yak with brown fur and curved horns, wearing a red T-shirt and black pants. The image shows multiple views: expressive facial close-ups with different emotions at the top, and full-body front, side, and back views labeled." size="medium" showBorder={false} figurePrefix="good" figure="A character sheet showing the different angles and emotions of the YakShaver mascot, Jack the Yak." src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Base-Character-Sheet.png" />
 
-<imageEmbed alt="Character sheet of a stylized 3D cartoon yak with brown fur and curved horns, wearing a red T-shirt and black pants. The image shows multiple views: expressive facial close-ups with different emotions at the top, and full-body front, side, and back views labeled." size="medium" showBorder={false} figurePrefix="good" figure="A character sheet showing the different angles and emotions of our YakShaver mascot, Jack the Yak." src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Base-Character-Sheet.png" />
+While it is better to use the same AI tool for character consistency, different AI tools can still produce consistent results with a high quality source of truth image.
 
-## 2. Be explicit in your prompts
+## Tip 2. Be explicit in your prompts
 
 AI models will improvise unless you clearly tell them not to.
 
 Include:
 
+* Instruction to **preserve the original character design**
 * Physical traits (species, colors, proportions)
 * Clothing or accessories (or explicitly say “no clothing”)
 * Mood, personality or expressions
 * Camera framing and lighting
-* Instruction to **preserve the original character design**
 
 <boxEmbed
   body={<>
@@ -101,32 +105,16 @@ Include:
 
 <boxEmbed
   body={<>
-    Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak cover his eyes with his hooves.
+    Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak playfully cover his eyes with his hooves in a close-shot.
   </>}
   figurePrefix="good"
   figure="Explicitly instructing the model to preserve the original character."
   style="greybox"
 />
 
-## 3. Reuse the same reference across tools
-
-While it is better to use the same AI tool for character consistency, different AI tools can still produce consistent results if you:
-
-* Use the **same base image**
-* Reuse or lightly adapt the **same prompt**
-* Avoid letting the tool “reimagine” the character
-
-This allows teams to mix tools (e.g. OpenAI GPT Image and Google Nano Banana) without visual drift.
-
-## 4. Get approvals for generated characters
+## Tip 3. Get approvals for generated characters
 
 Before publishing AI-generated characters:
 
-* Get a “[test pass](https://www.ssw.com.au/rules/request-a-test-please)” from design/brand owners
+* Get a “[test pass](/request-a-test-please)” from design/brand owners
 * For videos/animations, check quality with your video team (e.g. no choppy or awkward movements)
-
-Once approved, lock the base image and treat changes as a new version.
-
-## Summary
-
-To ensure your AI characters are consistent, treat them like the brand asset they are. Use a single source-of-truth image, be explicit in your prompts, reuse the same references across tools, and get design sign-off before publishing.
