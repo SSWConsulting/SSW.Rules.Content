@@ -3,6 +3,7 @@ title: Do you use skills to standardize your AI workflows?
 uri: ai-agents-with-skills
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+sidebarVideo: 'https://www.youtube.com/watch?v=JepVi1tBNEE'
 authors:
   - title: Michael Qiu
     url: 'https://ssw.com.au/people/michael-qiu'
@@ -11,12 +12,13 @@ authors:
 related:
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
   - rule: public/uploads/rules/build-custom-agents/rule.mdx
+  - rule: public/uploads/rules/ai-investigation-prompts/rule.mdx
 guid: 72a12f65-5f91-406a-8ab2-59e7efb39726
 seoDescription: 'Learn how to use skills (slash commands) to standardize AI coding workflows. Discover how to create, share, and safely use skills across tools like Claude Code and GitHub Copilot.'
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-10T06:27:47.311Z
+lastUpdated: 2026-02-12T07:11:57.407Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -24,6 +26,8 @@ lastUpdatedByEmail: MichaelQiu@ssw.com.au
 Skills (slash commands) let you package reusable prompts that standardize how AI agents approach recurring tasks. Instead of retyping the same detailed instructions every time, you define them once and invoke them with a command.
 
 <endIntro />
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="... now I know Kung Fu 🥋" src="/uploads/rules/ai-agents-with-skills/C4360CDB-8650-4D5A-8D62-69B12D8BD9F7.png" />
 
 ## What is a skill?
 
@@ -57,7 +61,7 @@ To invoke this skill, type `/security-review` in Claude Code, `@security-review`
 
 For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
 
-## When to use skills
+## When to use public skills
 
 You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities. In Claude Code, you can install them via the plugin system:
 
@@ -98,6 +102,21 @@ Consider creating a skill when:
   figurePrefix="good"
   figure="A skill encapsulates the review instructions - one command, consistent results every time"
 />
+
+## Using company skills
+
+You should create a repository which acts as the source of truth for all general-purpose skills. Doing so allows developers to store and share skills safely and securely. Skills that are updated/introduced should go through a review process to ensure that no safety issues are being introduced.
+
+Project-specific skills should be stored within their project repositories.
+
+## Sharing skills across a team
+
+Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
+
+* **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
+* **Review changes like code** - skill updates should go through the same PR review process as any other change
+* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
+* **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/rules/mcp-servers-for-context) to provide *what data* it can access
 
 ## Using skills safely
 
@@ -213,7 +232,7 @@ Tips for writing skills:
 
 ### Frontmatter properties
 
-Skills support optional YAML frontmatter fields that control their behavior:
+Here are some common properties to include, you can view the full spec here: [https://agentskills.io/specification#frontmatter-required](https://agentskills.io/specification#frontmatter-required).
 
 | Property                   | Description                                                                              |
 | -------------------------- | ---------------------------------------------------------------------------------------- |
@@ -236,17 +255,9 @@ Where you store a skill determines who can use it:
 
 **Personal skills** are great for your own preferences and workflows (e.g. your preferred commit message format). **Project skills** are committed to version control so the whole team benefits. When a personal and project skill share the same name, project-level skills take precedence.
 
-## Sharing skills across a team
-
-Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
-
-* **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
-* **Review changes like code** - skill updates should go through the same PR review process as any other change
-* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
-* **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
-
 ## Further reading
 
+* [Specification - Agent Skills](https://agentskills.io/specification)
 * [Extend Claude with skills - Claude Code](https://code.claude.com/docs/en/skills)
 * [Agent Skills - OpenCode](https://opencode.ai/docs/skills/)
 * [Custom agents - GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
