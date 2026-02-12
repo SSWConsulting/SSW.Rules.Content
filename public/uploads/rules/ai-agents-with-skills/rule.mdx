@@ -18,7 +18,7 @@ seoDescription: 'Learn how to use skills (slash commands) to standardize AI codi
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-12T06:30:22.346Z
+lastUpdated: 2026-02-12T06:34:38.717Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -106,6 +106,15 @@ Consider creating a skill when:
 You should create a repository which acts as the source of truth for all general-purpose skills. Doing so allows developers to store and share skills safely and securely. Skills that are updated/introduced should go through a review process to ensure that no safety issues are being introduced.
 
 Project specific skills should be stored within their project repositories.
+
+## Sharing skills across a team
+
+Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
+
+* **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
+* **Review changes like code** - skill updates should go through the same PR review process as any other change
+* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
+* **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
 
 ## Using skills safely
 
@@ -243,15 +252,6 @@ Where you store a skill determines who can use it:
 | Project  | `.claude/skills/` committed to the repository       | Project-scoped, everyone with access to the repository |
 
 **Personal skills** are great for your own preferences and workflows (e.g. your preferred commit message format). **Project skills** are committed to version control so the whole team benefits. When a personal and project skill share the same name, project-level skills take precedence.
-
-## Sharing skills across a team
-
-Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
-
-* **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
-* **Review changes like code** - skill updates should go through the same PR review process as any other change
-* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
-* **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/mcp-servers-for-context) to provide *what data* it can access
 
 ## Further reading
 
