@@ -18,7 +18,7 @@ seoDescription: 'Learn how to use skills (slash commands) to standardize AI codi
 created: 2026-02-09T23:30:22.414Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-12T06:22:34.356Z
+lastUpdated: 2026-02-12T06:30:22.346Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -59,7 +59,7 @@ To invoke this skill, type `/security-review` in Claude Code, `@security-review`
 
 For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
 
-## When to use skills
+## When to use public skills
 
 You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities. In Claude Code, you can install them via the plugin system:
 
@@ -101,9 +101,11 @@ Consider creating a skill when:
   figure="A skill encapsulates the review instructions - one command, consistent results every time"
 />
 
-## Your company should have a repository
+## Using company skills
 
-&#123;&#123; TODO: WRITE ABOUT HAVING GENERAL SKILLS AND SKILLS SPECIFIC TO PROJECTS &#125;&#125;
+You should create a repository which acts as the source of truth for all general-purpose skills. Doing so allows developers to store and share skills safely and securely. Skills that are updated/introduced should go through a review process to ensure that no safety issues are being introduced.
+
+Project specific skills should be stored within their project repositories.
 
 ## Using skills safely
 
