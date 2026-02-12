@@ -33,16 +33,19 @@ AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but
 
 <imageEmbed alt="graphic with text &#x22;AGENTS.md&#x22;, showing various different programming language logos and images of documentation surrounding the text." size="large" showBorder={false} figurePrefix="none" figure="One set of instructions to rule them all 💍" src="/uploads/rules/write-agents-md/agentsmdbanner.png" />
 
-## What goes into an AGENTS.md?
+## 👍 What goes into an AGENTS.md?
 
 An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
 
-* **✅ Architecture overview** - Explain the tech stack and how different layers interact
-* **✅ Coding standards** - Define naming conventions, preferred libraries, and patterns
-* **✅ Common commands** - List frequently used scripts for building, testing, and linting
-* **✅ Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
-* **✅ Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
-* ❌ **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
+* **Architecture overview** - Explain the tech stack and how different layers interact
+* **Coding standards** - Define naming conventions, preferred libraries, and patterns
+* **Common commands** - List frequently used scripts for building, testing, and linting
+* **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
+* **Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
+
+## 👎 What does **not** go into an AGENTS.md?
+
+* **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
@@ -63,7 +66,7 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
   body={<>
     The `AGENTS.md` in SSW Clean Architecture includes:
     
-    * **Architecture overview:** - Explaining the WebApi → Application → Domain flow
+    * **Architecture overview** - Explaining the WebApi → Application → Domain flow
     * **Key patterns** - Clear C# examples for Commands, Queries, and Domain Events
     * **EF migrations** - The exact commands to use for database changes
   </>}
@@ -85,7 +88,7 @@ Correct. It's unwise to waste precious space in the context window, but dumping 
 
 This is where hierarchy comes in. As per the standard, Agents will prioritise the nearest `AGENTS.md` file, while also injecting all parent `AGENTS.md` in its path.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="If working in `repo/apps/web-app/src`, the highlighted AGENTS.md are used" src="/uploads/rules/write-agents-md/filepathagentsmd.png" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="If working in `repo/apps/web-app/src`, the highlighted AGENTS.md are used" src="/uploads/rules/write-agents-md/filepathagentsmd.png" />
 
 In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
 
@@ -155,7 +158,10 @@ You could also have a separate AGENTS.md for your tests!
     
     1. Create the file: Add `AGENTS.md` to the root of your repository.
     2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
-    3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
+    3. ✅ Done!
+    
+    
+    As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
   </>}
   figurePrefix="bad"
   figure="Creating it without AI assistance"
@@ -191,7 +197,9 @@ You could also have a separate AGENTS.md for your tests!
 
 <boxEmbed
   body={<>
-    **Tip:** To let your Agent maintain the documentation, add something like this to the `AGENTS.md`: "Ensure you keep `AGENTS.md` up to date if any changes to the codebase necessitates it."
+    **Tip:** To let your Agent maintain the documentation, add something like this to the `AGENTS.md`:
+    
+    *"Ensure AGENTS.md is kept up to date when codebase changes require it."*
   </>}
   figurePrefix="none"
   figure=""
