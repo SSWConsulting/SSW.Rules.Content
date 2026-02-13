@@ -12,7 +12,7 @@ guid: 8a9b545e-95ea-4c83-838b-9766825952b9
 created: 2026-02-13T01:16:05.645Z
 createdBy: Kiki Biancatti
 createdByEmail: kaiqueBiancatti@ssw.com.au
-lastUpdated: 2026-02-13T04:01:57.746Z
+lastUpdated: 2026-02-13T04:07:01.308Z
 lastUpdatedBy: Kiki Biancatti
 lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
 ---
@@ -91,6 +91,34 @@ If you mainly want quick access to dashboards (without sharing phone sensors), u
 <boxEmbed
   body={<>
     Tip: This is great when you want a “Home” icon and a “Work” icon, without mixing Companion App sensors/permissions across servers.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Option 3 - Android Work Profile (Test DPC) (best separation for Home vs Work)
+
+If you want true separation (different logins, different Google account, separate app data), create an Android Work Profile. This gives you a second “Work” copy of the Home Assistant app.
+
+###### Set up a Work Profile using Test DPC
+
+1. Install Test DPC from Google Play
+2. Open your app drawer and launch Set up Test DPC
+3. Follow the wizard to create a Work Profile
+4. You should now see a Work tab (or Work folder) in your apps list
+
+###### Install a second Home Assistant app inside Work Profile
+
+1. Switch to the Work tab in your apps
+2. Open Google Play (Work Play Store)
+3. Add a Google account that is not used in your personal profile (work-only account)
+4. Install Home Assistant (this will be a separate Work instance)
+5. Open the Work Home Assistant app and connect to your Work server (follow Option 1 steps)
+
+<boxEmbed
+  body={<>
+    Tip: You can toggle the Work Profile on/off from Android Quick Settings, which effectively pauses work apps.
   </>}
   figurePrefix="none"
   figure=""
