@@ -12,7 +12,7 @@ guid: 8a9b545e-95ea-4c83-838b-9766825952b9
 created: 2026-02-13T01:16:05.645Z
 createdBy: Kiki Biancatti
 createdByEmail: kaiqueBiancatti@ssw.com.au
-lastUpdated: 2026-02-13T03:56:36.643Z
+lastUpdated: 2026-02-13T04:01:57.746Z
 lastUpdatedBy: Kiki Biancatti
 lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
 ---
@@ -23,14 +23,14 @@ The Home Assistant Companion App supports multiple servers, and there are a coup
 
 <endIntro />
 
-#### Option 1 - Add another server in the Home Assistant Companion App (recommended)
+## Option 1 - Add another server in the Home Assistant Companion App (recommended)
 
 This is the simplest approach. One app, multiple servers.
 
 #### Add your second (or third) server:
 
 1. Open the **Home Assistant** app
-2. Go to **Settings **-> **Companion **app
+2. Go to **Settings |** **Companion **app
 3. Tap **Add Server**
 4. If your server is on the same network, it may appear automatically
 5. If not, tap **Enter address manually** and paste your Home Assistant URL
@@ -51,4 +51,48 @@ This is the simplest approach. One app, multiple servers.
   figurePrefix="none"
   figure=""
   style="warning"
+/>
+
+#### Important - privacy and sensor sharing
+
+When you use one Companion App for multiple servers, your phone can share data (like sensors and location) to more than one server.
+
+To reduce what gets shared with your work server:
+
+1. Open the Home Assistant app
+2. Go to Settings | Companion app
+3. Select your Work server
+4. Under Privacy, set Sensors Sent to None
+5. Review Companion App permissions (Location, Notifications) and disable anything you don’t want sent to Work
+
+## Option 2 - Use a PWA shortcut (separate “app” icons, no Companion App extras)
+
+If you mainly want quick access to dashboards (without sharing phone sensors), use a browser shortcut as a pseudo-app.
+
+###### iPhone (Safari)
+
+1. Open Safari and browse to your Home Assistant URL
+2. Tap Share
+3. Tap Add to Home Screen
+4. Name it Home Assistant - Home (repeat for Work)
+
+###### Android (Chrome)
+
+1\. Open Chrome and browse to your Home Assistant URL
+
+2\. Tap More (⋮)
+
+3\. Tap Add to home screen
+
+4\. Tap Create shortcut
+
+5\. Name it Home Assistant - Home (repeat for Work)
+
+<boxEmbed
+  body={<>
+    Tip: This is great when you want a “Home” icon and a “Work” icon, without mixing Companion App sensors/permissions across servers.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
 />
