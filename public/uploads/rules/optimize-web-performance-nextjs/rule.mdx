@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-13T01:56:40.792Z
+lastUpdated: 2026-02-13T02:00:41.367Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -130,11 +130,13 @@ The easiest way to think about these strategies is on an axis of when the HTML i
 
 ```
 Build -------- Request -------- Browser
+  |               |                |
+ SSG           SSR, ISR           CSR  
 ```
 
 Next.js supports multiple rendering approaches, each suited to a different use case:
 
-* Static-Site Generation (SSG) - HTML is generated at build time. Client is provided with static files. Beneficial to the loading speed of pages but restricts dynamic content.  
-* Server-Side Rendering (SSR) -  This involves rendering a web page on a server before sending the fully rendered HTML to the client. The server will generate HTML
+* Static-Site Generation (SSG) - HTML is generated at build time. Client is provided with static files. HTML is reused for every user. Beneficial to the loading speed of pages but restricts dynamic content.  
+* Server-Side Rendering (SSR) -   The server generates the HTML at the moment a user requests a page. Every request can produce different HTML. 
 * Incremental Static Regeneration (ISR) - 
 * Client Side Rendering (CSR) - 
