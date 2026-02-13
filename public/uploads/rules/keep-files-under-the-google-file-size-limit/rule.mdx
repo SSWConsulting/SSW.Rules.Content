@@ -19,25 +19,25 @@ redirects:
 - do-you-keep-your-files-under-the-google-file-size-limit
 seoDescription: Google's search appliance has a file size limit of 500kb and may ignore
   files larger than 30MB.
-title: Technical - Do you keep your files under the Google file size limit?
+title: Technical - Do you keep web pages under Google’s crawl size limits?
 categories:
   - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
 type: rule
 uri: keep-files-under-the-google-file-size-limit
 ---
 
-A maximum file size may be enforced per crawler. Content which is after the maximum file size may be ignored. Google currently enforces a size limit of 500kb.
+Google’s crawlers and fetchers don’t process unlimited content. By default, they only crawl the first 15MB of a file, and any content beyond that limit is ignored. Individual crawlers (such as Googlebot) may enforce smaller limits for specific file types. For example, an HTML page may effectively be limited to around 2MB, while a PDF might allow a larger size.
+
+If critical content appears after the crawl limit, it may **not** be indexed, meaning it won’t appear in search results.
 
 <endIntro />
 
-Regarding other files:
+## Why this matters
 
-* All files larger than 30MB will be completely ignored.
-* HTML, the search appliance indexes up to 2.5MB of the document, caches it, and discards the rest.
-* A non-HTML format, the search appliance:
+- **SEO impact** – Content beyond the crawl limit will not be indexed
+- **Structured data risk** – Schema markup placed too late in a large file may be ignored
+- **Hidden performance issues** – Oversized HTML often signals unnecessary scripts, inline styles, or duplicated markup
+- **Large CMS pages** – Rich editors, embedded components, and repeated sections can silently inflate file size
 
-1. Downloads the non-HTML file.
-2. Converts the non-HTML file to HTML.
-3. If the converted content is less than 4,000,000 bytes, indexes the first 2MB of the HTML file. (Take note that 4MB=4,194,304 bytes.) If the converted content exceeds 4,000,000 bytes, the document is not indexed. However, the document and a link to it do appear in search results.
-4. Caches the first 2MB of the HTML file.
-5. Discards the rest of the HTML file and the non-HTML file.
+More information on [Overview of Google crawlers and fetchers (user agents)](https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers#file-size-limits).
+
