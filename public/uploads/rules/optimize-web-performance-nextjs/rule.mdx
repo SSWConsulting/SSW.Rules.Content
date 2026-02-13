@@ -11,7 +11,7 @@ guid: 9761a722-05db-4b4c-9540-011d5e57a61a
 created: 2026-02-09T23:14:44.220Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-02-13T03:09:59.346Z
+lastUpdated: 2026-02-13T03:15:45.374Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -148,5 +148,5 @@ Next.js supports multiple rendering approaches, each suited to a different use c
   style="tips"
 />
 
-* Incremental Static Regeneration (ISR) - 
-* Client Side Rendering (CSR) - 
+* Incremental Static Regeneration (ISR) - A combination of SSR and SSG, ISR controls how long a page stays “fresh”, and when a stale page gets rebuilt. It allows static generation on a per-page basis without needing to rebuild the entire site (this is what we use for [SSW Rules](https://ssw.com.au/rules)!)
+* Client Side Rendering (CSR) - The browser takes the load of rendering a UI using JavaScript. After a request for a site is made, the browser will parse HTML, construct the DOM, and then download the JS to be executed.
