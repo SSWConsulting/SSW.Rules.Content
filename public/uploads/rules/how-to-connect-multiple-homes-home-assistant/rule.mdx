@@ -1,0 +1,126 @@
+---
+title: Do you know how to connect to multiple homes in Home Assistant?
+uri: how-to-connect-multiple-homes-home-assistant
+categories:
+  - category: categories/infrastructure-and-networking/rules-to-better-home-assistant.mdx
+authors:
+  - title: Kiki Biancatti
+    url: 'https://ssw.com.au/people/kaique-biancatti'
+related:
+  - rule: public/uploads/rules/home-assistant-app/rule.mdx
+guid: 8a9b545e-95ea-4c83-838b-9766825952b9
+created: 2026-02-13T01:16:05.645Z
+createdBy: Kiki Biancatti
+createdByEmail: kaiqueBiancatti@ssw.com.au
+lastUpdated: 2026-02-13T04:12:44.183Z
+lastUpdatedBy: Kiki Biancatti
+lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
+---
+
+If you manage more than one Home Assistant server (e.g. home + office, holiday house, or multiple client sites), you don’t need multiple phones.
+
+The Home Assistant Companion App supports multiple servers, and there are a couple of clean ways to keep things separated depending on your privacy needs.
+
+<endIntro />
+
+## Option 1 - Add another server in the Home Assistant Companion App (recommended)
+
+This is the simplest approach. One app, multiple servers.
+
+#### Add your second (or third) server:
+
+1. Open the **Home Assistant** app
+2. Go to **Settings |** **Companion **app (or App Settings if you're not an administrator)
+3. Tap **Add Server**
+4. If your server is on the same network, it may appear automatically
+5. If not, tap **Enter address manually** and paste your Home Assistant URL
+6. Log in with your user account for that server
+
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Journey through the Home Assistant app" src="/uploads/rules/how-to-connect-multiple-homes-home-assistant/HA-Add-New-Server.png" />
+
+#### Switch between servers (quickly):
+
+* 3-**finger swipe left/right**: switch to the previous/next server
+* **3-finger swipe up**: open the server selection list
+
+<boxEmbed
+  body={<>
+    Tip: If gestures don’t work (some phones intercept 3-finger gestures), you can always switch via Settings | Companion app, select the server, then Activate.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+#### Important - privacy and sensor sharing
+
+When you use one Companion App for multiple servers, your phone can share data (like sensors and location) to more than one server.
+
+To reduce what gets shared with your work server:
+
+1. Open the Home Assistant app
+2. Go to Settings | Companion app
+3. Select your Work server
+4. Under Privacy, set Sensors Sent to None
+5. Review Companion App permissions (Location, Notifications) and disable anything you don’t want sent to Work
+
+## Option 2 - Use a PWA shortcut (separate “app” icons, no Companion App extras)
+
+If you mainly want quick access to dashboards (without sharing phone sensors), use a browser shortcut as a pseudo-app.
+
+###### iPhone (Safari)
+
+1. Open Safari and browse to your Home Assistant URL
+2. Tap Share
+3. Tap Add to Home Screen
+4. Name it Home Assistant - Home (repeat for Work)
+
+###### Android (Chrome)
+
+1\. Open Chrome and browse to your Home Assistant URL
+
+2\. Tap More (⋮)
+
+3\. Tap Add to home screen
+
+4\. Tap Create shortcut
+
+5\. Name it Home Assistant - Home (repeat for Work)
+
+<boxEmbed
+  body={<>
+    Tip: This is great when you want a “Home” icon and a “Work” icon, without mixing Companion App sensors/permissions across servers.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Option 3 - Android Work Profile (Test DPC) (best separation for Home vs Work)
+
+If you want true separation (different logins, different Google account, separate app data), create an Android Work Profile. This gives you a second “Work” copy of the Home Assistant app.
+
+###### Set up a Work Profile using Test DPC
+
+1. Install Test DPC from Google Play
+2. Open your app drawer and launch Set up Test DPC
+3. Follow the wizard to create a Work Profile
+4. You should now see a Work tab (or Work folder) in your apps list
+
+###### Install a second Home Assistant app inside Work Profile
+
+1. Switch to the Work tab in your apps
+2. Open Google Play (Work Play Store)
+3. Add a Google account that is not used in your personal profile (work-only account)
+4. Install Home Assistant (this will be a separate Work instance)
+5. Open the Work Home Assistant app and connect to your Work server (follow Option 1 steps)
+
+<boxEmbed
+  body={<>
+    Tip: You can toggle the Work Profile on/off from Android Quick Settings, which effectively pauses work apps.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
