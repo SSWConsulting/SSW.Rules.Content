@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:09:41.652Z
+lastUpdated: 2026-02-17T06:12:12.993Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -60,38 +60,6 @@ AGENTS.md is a markdown file that is loaded at the start of every session, provi
   style="greybox"
 />
 
-### Skill
-
-Skills are reusable prompts that standardize how AI approach repeating tasks. Like AGENTS.md, skills are also markdown files, but their purpose is to be situationally invoked when relevant and be portable across codebases.
-
-<boxEmbed
-  body={<>
-    **Use Case:** A company has a specific way they like to perform security audits using AI. Rather than copy and pasting the promopt, we install the skill and instruct the agent to perform a security audit using the installed skill. The skill is injected into the agent's context, so the agent receives the same instruction every time.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="greybox"
-/>
-
-### MCP-Server
-
-MCP servers are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to retrieve and work with data.
-
-Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
-
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
-
-## The quick decision guide
-
-Before diving into the details, use this flowchart to find the right mechanism:
-
-* **Need live data from an external system?** ➡ MCP Server
-* **Need to teach the AI a workflow or procedure?** ➡ Skill
-* **Need project-wide conventions always in context?** ➡ AGENTS.md
-* **Need parallel or isolated task execution?** ➡ Subagent
-* **Need to package and share extensions with your team?** ➡ Plugin
-* **Need production automation or CI/CD integration?** ➡ Agent SDK
-
 <boxEmbed
   body={<>
     `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file
@@ -105,6 +73,25 @@ Before diving into the details, use this flowchart to find the right mechanism:
   figure=""
   style="tips"
 />
+
+### Skill
+
+Skills are reusable prompts that standardize how AI approach repeating tasks. Like AGENTS.md, skills are also markdown files, but their purpose is to be situationally invoked when relevant and be portable across codebases.
+
+<boxEmbed
+  body={<>
+    **Use Case:** A company has a specific way they like to perform security audits using AI. Rather than copy and pasting the promopt, we install the skill and instruct the agent to perform a security audit using the installed skill. The skill is injected into the agent's context, so the agent receives the same instruction every time.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+### MCP Server
+
+MCP servers are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to retrieve and work with data.
+
+Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
 ## Understanding the differences
 
