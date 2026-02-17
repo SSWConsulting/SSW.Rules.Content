@@ -7,8 +7,11 @@ The Cloudflare worker redirects ssw.com.au to www.ssw.com.au, so links
 without "www" can't be indexed properly.
 
 Usage:
-  python lint-ssw-urls.py "file1.mdx,file2.mdx"   # Check specific files
-  python lint-ssw-urls.py                          # Check all MDX files
+  # Read file list from stdin (one file per line) - recommended for large file lists
+  git diff --name-only ... -- '*.mdx' | python lint-ssw-urls.py
+
+  # Or check all MDX files in content directories
+  python lint-ssw-urls.py
 
 Output:
   - Prints markdown-formatted report to stdout
@@ -21,7 +24,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from typing import List, Dict
+from typing import List
 from dataclasses import dataclass
 
 # Pattern to match URLs missing www prefix
@@ -97,15 +100,17 @@ def set_github_output(name: str, value: str):
 
 
 def main():
-    # Get files to check from command line argument
-    if len(sys.argv) > 1 and sys.argv[1].strip():
-        # Comma-separated list of files
-        files_arg = sys.argv[1]
-        file_paths = [f.strip() for f in files_arg.split(',') if f.strip()]
-        # Filter to only MDX files
-        files_to_check = [Path(f) for f in file_paths if f.endswith('.mdx')]
+    files_to_check = []
+
+    # Check if stdin has data (piped input)
+    if not sys.stdin.isatty():
+        # Read file list from stdin (one file per line)
+        for line in sys.stdin:
+            file_path = line.strip()
+            if file_path and file_path.endswith('.mdx'):
+                files_to_check.append(Path(file_path))
     else:
-        # No files specified - check all MDX files in content directories
+        # No stdin - check all MDX files in content directories
         script_dir = Path(__file__).parent
         project_root = script_dir.parent.parent
 
@@ -115,7 +120,6 @@ def main():
             project_root / 'categories',
         ]
 
-        files_to_check = []
         for content_dir in content_dirs:
             if content_dir.exists():
                 files_to_check.extend(content_dir.rglob('*.mdx'))
