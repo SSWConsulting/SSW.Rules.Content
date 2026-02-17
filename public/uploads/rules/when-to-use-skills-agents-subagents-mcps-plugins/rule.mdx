@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:20:22.865Z
+lastUpdated: 2026-02-17T06:29:36.986Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -103,16 +103,22 @@ Skills are reusable prompts that standardize how AI approach repeating tasks. Li
 
 ## Understanding the differences
 
-With how quickly these tools were introduced and adopted, things quickly get out of hand and the names of the tools are commonly confused with one another. It is important to distinguish the differences between each of them, so here are the key differences between some commonly confusioned tools.
+With how rapidly AI-assisted development is evolving, we find these tools often overlap one another with the problem they're intended to solve. Here are the key differences between some seemingly similar tools.
 
 ### Skills vs MCP Servers
 
-High level difference:
+Similarities:
 
-* Skills tell the AI what to do - they inject prompts, workflows, and domain specific knowledge
-* MCP Servers give the AI access to data to help them do it - they connect AI agents to external systems
+* Both are designed to be shared and portable
+* Both inject situation-specific context into agents
+* Both are automatically invoked by agents based on the situation
 
-Structural difference:
+**High level difference:**
+
+* Skills tell the agents what to do - they inject prompts, workflows, and domain specific knowledge
+* MCP Servers give agents access to the tools - they connect agents to external systems
+
+**Structural difference:**
 
 * Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused.
 * MCP servers are code. They expose tools for agents and the instructions on how to use those tools.
