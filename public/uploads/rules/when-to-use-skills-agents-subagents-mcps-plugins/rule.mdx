@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:32:43.437Z
+lastUpdated: 2026-02-17T06:35:56.817Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -139,8 +139,6 @@ Skills and MCPs are complementary to one another: A skill can instruct the AI to
 
 ### Skills vs AGENTS.md
 
-This is the most common source of confusion.
-
 With Skills and AGENTS.md, both provide instructions to the AI, but they differntiate from one another in the way that they are loaded:
 
 * **AGENTS.md** is always loaded - every token counts against your context window from the start
@@ -152,7 +150,9 @@ Skills, on the other hand, define rules and insturctions on specific tasks, wher
 
 Whilst yes, you can just put all your “skills” in AGENTS.md, this introduces unnecessary token waste, not to mention leading to lower quality outputs as bloated AGENTS.md files can sometimes cause AI agents to ignore certain instructions.
 
-### Agents vs subagents
+### Subagents vs Skills
+
+### Agents vs Subagents
 
 Subagents (supported in Claude Code, Cursor, Open Code, etc.) run in their own context window. This means that:
 
