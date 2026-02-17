@@ -19,9 +19,9 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T04:15:33.545Z
-lastUpdatedBy: Josh Berman
-lastUpdatedByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-02-17T05:27:21.553Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
 AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities - skills, custom agents, subagents, MCP servers, and plugins. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
@@ -30,19 +30,29 @@ AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several way
 
 ## An AI Glossary
 
-### Single Agent
+### Agent
 
-\<Definition>
+An agent is what comes out of the box, whether that be Claude Code, Cursor, or Open Code, it is a powerful tool but can be specialised for specific scenarios and use cases to be even better.
 
-\<UseCase/>
+### Subagent
 
-\<Tip or push to another rule>
+Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent, reducing fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
 
-### Sub-Agent
+Use Case: You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then synthesizes the results into a single comparison. The win is speed and focus.
 
 ### Skill
 
+Skills are a folder with a markdown file defining the skill's name, description, and the prompt itself, with and optional supporting files following the Agent Skills [open standard](https://agentskills.io/home)
+
+Use Case: Every new API endpoint needs a route handler, input validation, tests, and an OpenAPI spec update. A skill encodes that pattern so you just say "create an endpoint for /users" or trigger it manully, and all four steps run consistently.
+
 ### MCP-Server
+
+MCP servers are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to retrieve and work with data.
+
+Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
+
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
@@ -54,6 +64,20 @@ Before diving into the details, use this flowchart to find the right mechanism:
 * **Need parallel or isolated task execution?** ➡ Subagent
 * **Need to package and share extensions with your team?** ➡ Plugin
 * **Need production automation or CI/CD integration?** ➡ Agent SDK
+
+<boxEmbed
+  body={<>
+    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file
+    
+    * Claude Code uses `CLAUDE.md`
+    * Cursor uses `.cursorrules`
+    
+    But the concept remains the same. This rule uses `AGENTS.md` as the general term.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 **Note:** `AGENTS.md` is the cross-platform convention for providing project context to AI coding tools. Some tools use their own file - Claude Code uses `CLAUDE.md`, Cursor uses `.cursorrules` - but the concept is the same. This rule uses `AGENTS.md` as the general term.
 
