@@ -4,18 +4,24 @@ title: Do you write an AGENTS.md?
 uri: write-agents-md
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
-sidebarVideo: 'https://www.youtube.com/shorts/_gOJGXhGqT8'
 authors:
   - title: Eddie Kranz
     url: 'https://www.ssw.com.au/people/eddie-kranz'
+  - title: Daniel Mackay
+    url: 'https://ssw.com.au/people/daniel-mackay'
+  - title: Gordon Beeming
+    url: 'https://ssw.com.au/people/gordon-beeming'
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
 guid: 320076a9-b7ab-49e4-97d7-b9c3308c352e
 seoDescription: Learn why SSW developers use AGENTS.md to provide context and instructions for AI coding assistants in every project.
+thumbnail: /uploads/rules/write-agents-md/agentsmdbanner.png
 created: 2026-01-28T23:17:11.841Z
 createdBy: Eddie Kranz
 createdByEmail: EddieKranz@ssw.com.au
-lastUpdated: 2026-01-30T06:26:56.340Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-13T05:12:43.063Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
 
 AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but they work best when they understand your project's specific architecture, coding standards, and common tasks. Without this context, they may suggest patterns that don't align with your codebase.
@@ -24,7 +30,11 @@ AI coding assistants like Cursor and GitHub Copilot are incredibly powerful, but
 
 <endIntro _hidden="" />
 
-## Why use AGENTS.md?
+<imageEmbed alt="graphic with text &#x22;AGENTS.md&#x22;, showing various different programming language logos and images of documentation surrounding the text." size="large" showBorder={false} figurePrefix="none" figure="One set of instructions to rule them all 💍" src="/uploads/rules/write-agents-md/agentsmdbanner.png" />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=KEK_WcSTiuE" description="Video: Improve your AI code output with Agents.md" />
+
+## 👍 What goes into an AGENTS.md?
 
 An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized place to define:
 
@@ -32,10 +42,24 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 * **Coding standards** - Define naming conventions, preferred libraries, and patterns
 * **Common commands** - List frequently used scripts for building, testing, and linting
 * **Key patterns** - Provide code examples for common tasks (e.g. adding a new API endpoint)
+* **Links to documentation** - Reference ADRs, design docs, or wikis rather than duplicating content (e.g. `See /docs/adr/001-authentication.md for auth patterns`)
+
+## 👎 What does **not** go into an AGENTS.md?
+
+* **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
-## Example: SSW Clean Architecture
+<boxEmbed
+  body={<>
+    **Tip:** If you find AI repeatedly doing the wrong thing, ask the AI to update the AGENTS.md with the preferred way to do something!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Example
 
 A great example of this in practice is the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture). Its `AGENTS.md` file provides clear instructions on everything from the dependency flow to specific MediatR patterns.
 
@@ -43,7 +67,7 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
   body={<>
     The `AGENTS.md` in SSW Clean Architecture includes:
     
-    * **Architecture overview:** - Explaining the WebApi → Application → Domain flow
+    * **Architecture overview** - Explaining the WebApi → Application → Domain flow
     * **Key patterns** - Clear C# examples for Commands, Queries, and Domain Events
     * **EF migrations** - The exact commands to use for database changes
   </>}
@@ -53,75 +77,136 @@ A great example of this in practice is the [SSW Clean Architecture template](htt
 
 For more details, you can view the [full AGENTS.md file on GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/AGENTS.md)
 
-## How to implement it
+***
 
-1. Create the file: Add `AGENTS.md` to the root of your repository.
-2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
-3. ✅ Done! As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
+As your project grows, so will your AGENTS.md. Read on to learn how to tackle the scaling problem.
 
-<boxEmbed
-  body={<>
-    **Tip:** If you're not sure where to start, get your agent to generate its own `AGENTS.md` file.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
+## Even better: multiple AGENTS.md
 
-<boxEmbed
-  body={<>
-    **Tip:** Include in your `AGENTS.md`, "Ensure you keep `AGENTS.md` up to date if any changes to the codebase necessitates it."
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
+You might be thinking: “Wait.. I have a massive monorepo. There's no way it's efficient to capture all that information in one file, and feed it into the AI in one go…”
 
-<boxEmbed
-  body={<>
-    **Tip:** Treat `AGENTS.md` as the starting point for your agents.
-    
-    You can reference other relevant files from this, in order to better structure your documentation.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
+Correct. It's unwise to waste precious space in the context window, but dumping in the entire AGENTS.md if only 5% of it is useful.
 
-## How will it handle my massive monorepo?
+This is where hierarchy comes in. As per the standard, Agents will prioritise the nearest `AGENTS.md` file, while also injecting all parent `AGENTS.md` in its path.
 
-Place another `AGENTS.md` file inside each package. Agents will automatically read the nearest file in the directory tree, so the closest one takes precedence and every subproject can have its own instructions.
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="If working in `repo/apps/web-app/src`, the highlighted AGENTS.md are used" src="/uploads/rules/write-agents-md/filepathagentsmd.png" />
 
-The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, and what the overall architecture is, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+In the case of conflicting or more specific instructions, the closest `AGENTS.md` file in whichever directory the Agent works in will take precedence. This means every subfolder can have its own instructions, without sacrificing detail.
+
+The "root" `AGENTS.md` file in this case should contain only high-level instructions for what each package is for, what the overall architecture is, and how to run the whole application, as the detailed instructions will be in the package-specific `AGENTS.md` files.
+
+Multiple AGENTS.md is particularly useful for architectures like [Modular Monoliths](/modular-monolith-architecture), where you can place AGENTS.md inside each module.
 
 <boxEmbed
   style="greybox"
   body={<>
     ```
-    ├── AGENTS.md - 5000 lines of instructions for every package
-    ├── packages
-    │   ├── app1
-    │   └── app2
+    ├── 🤖 AGENTS.md - 5000 lines of instructions for API, API tests, Frontend, frontend tests, etc...
+    ├── src
+    │   ├── frontend
+    │   └── backend
     └── ...
     ```
   </>}
   figurePrefix="bad"
-  figure="A single, overloaded AGENTS.md for the entire monorepo"
+  figure="A single, overloaded AGENTS.md 🤖  for the entire monorepo"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
     ```plaintext
-    ├── AGENTS.md - High-level architecture overview
-    ├── packages
-    │   ├── app1
-    │   │   └── AGENTS.md - Instructions for app1 only
-    │   ├── app2
-    │   │   └── AGENTS.md - Instructions for app2 only
-    │   └── ...
+    ├── 🤖 AGENTS.md - High-level architecture overview
+    ├── src
+    │   ├── frontend
+    │   │   └── 🤖 AGENTS.md - Instructions for frontend only
+    │   ├── backend
+    │   │   ├── 🤖 AGENTS.md - Instructions for backend only
+    │   │   ├── tests
+    │   │   │   └── 🤖 AGENTS.md - Instructions for backend testing only
+    │   │   └── ...
+    ...  ...
     ```
   </>}
   figurePrefix="good"
-  figure="Scoped AGENTS.md files provide targeted agent instructions per subproject"
+  figure="Scoped AGENTS.md 🤖 files provide targeted agent instructions per subproject"
 />
+
+You could also have a separate AGENTS.md for your tests!
+
+## Writing tips
+
+* **Be concise** - Put the most important rules first; long files may be truncated
+* **Use imperative language** - "Use X" not "You should consider using X"
+* **Show, don't tell** - Specific code examples beat vague descriptions
+* **Avoid duplication** - Don't repeat what's in linter configs or `.editorconfig`
+* **Keep it current** - Outdated instructions are worse than none
+
+## How to install
+
+<boxEmbed
+  body={<>
+    **Note:** Anthropic is the only big AI player yet to adopt this, they are still using CLAUDE.md, but you can get around this by adding a line inside of your created CLAUDE.md saying to “Get instructions from AGENTS.md”
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+<boxEmbed
+  body={<>
+    ### 🦕 Manually
+    
+    1. Create the file: Add `AGENTS.md` to the root of your repository.
+    2. Keep it updated: As your project evolves, ensure the instructions in `AGENTS.md` remain accurate.
+    3. ✅ Done!
+    
+    As `AGENTS.md` is a common standard, agents should automatically look for this if it exists.
+  </>}
+  figurePrefix="bad"
+  figure="Creating it without AI assistance"
+/>
+
+<boxEmbed
+  body={<>
+    ### 📝 Paste a prompt
+    
+    If your AI-IDE or CLI tool doesn't support this yet, you can use the prompt from the GitHub docs (and rename “copilot-instructions.md” to “AGENTS.md”)
+    
+    [https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions#creating-repository-wide-custom-instructions)
+  </>}
+  figurePrefix="ok"
+  figure="Paste the prompt"
+/>
+
+<boxEmbed
+  body={<>
+    ### ⭐ AI Enabled (Recommended)
+    
+    Most AI IDE or CLI tools provide a way to generate this documentation, e.g. in OpenCode, you can run
+    
+    ```bash
+    /init
+    ```
+    
+    Which will automatically setup AGENTS.md.
+  </>}
+  figurePrefix="good"
+  figure="Using AI to install"
+/>
+
+<boxEmbed
+  body={<>
+    **Tip:** To let your Agent maintain the documentation, add something like this to the `AGENTS.md`:
+    
+    *"Ensure AGENTS.md is kept up to date when codebase changes require it."*
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Further Reading
+
+* [https://www.agents.md/](https://www.agents.md/)
+* [https://opencode.ai/docs/rules/](https://opencode.ai/docs/rules/)

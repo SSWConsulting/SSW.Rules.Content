@@ -28,16 +28,18 @@ seoDescription: The functionality that will be developed during the Sprint confi
 created: 2025-11-27T04:04:17.000Z
 createdBy: 'Tiago Araújo [SSW]'
 createdByEmail: tiagov8@gmail.com
-lastUpdated: 2025-11-27T04:04:17.000Z
-lastUpdatedBy: 'Tiago Araújo [SSW]'
-lastUpdatedByEmail: tiagov8@gmail.com
+lastUpdated: 2026-02-10T04:45:35.041Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
-After the [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast email 📩 for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After a [Sprint Planning meeting](/what-happens-at-a-sprint-planning-meeting), it's useful for the Team to send the Stakeholders a Sprint Forecast email 📩.
 
-This is simply an agreement between the Development Team and the PO for one Sprint and should be confirmed via an email at the beginning of every Sprint.
+This helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+
+This is simply an agreement between the Team and the PO for that Sprint and should be confirmed via an email at the beginning of every Sprint.
 
 <endIntro />
 
@@ -81,18 +83,22 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
     
     The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the Sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
     
-    | ID    | Title                               | State            | Effort |
-    | ----- | ----------------------------------- | ---------------- | ------ |
-    | 24124 | UI Improvements                     | 👀 In Review     | 4      |
-    | 24112 | Integrate Business Logic to MVC app | 🤷‍♂️ In Triage     | 8      |
-    | 24097 | **Styling**                         | 🏗️ In Progress   | 16     |
-    | 24103 | **UX Improvements**                 | 🏗️ In Progress   | 8      |
+    | ID    | Title                               | State           | Effort |
+    | ----- | ----------------------------------- | --------------- | ------ |
+    | 24124 | UI Improvements                     | 👀 In Review    | 4      |
+    | 24112 | Integrate Business Logic to MVC app | 🤷‍♂️ In Triage | 8      |
+    | 24097 | **Styling**                         | 🏗️ In Progress | 16     |
+    | 24103 | **UX Improvements**                 | 🏗️ In Progress | 8      |
     
     **Figure: The Sprint Backlog with the important items bolded**
     
-    ![](/uploads/rules/sprint-forecast-email/claude-stats.png)**Figure: Claude AI Stats** 🤖
+    ### AI Stats - Claude 🤖
     
-    ![](/uploads/rules/sprint-forecast-email/copilot-stats-new.png)**Figure: Copilot AI Stats - Main item to do next** 🤖
+    ![Claude AI Sprint Meeting analytics dashboard showing 4 participants, 27 minute duration, 216 speaking turns, Sprint Goal of Search, and 4 done items](/uploads/rules/sprint-forecast-email/claude-stats.png)**Figure: Claude AI Stats** 🤖
+    
+    ### AI Stats - Copilot 🤖
+    
+    ![Copilot chat response identifying the next main item to focus on media management improvements and implement reliable telemetry for branch sync operations](/uploads/rules/sprint-forecast-email/copilot-stats.png)**Figure: Copilot AI Stats - Main item to do next** 🤖
     
     &lt;This is as per rule: [Do you create a Sprint Forecast?](/sprint-forecast)&gt;
   </>}
@@ -101,21 +107,21 @@ You can improve the forecast by using AI tools 🤖 like Claude and Copilot to e
 />
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
     **Tip:** You can copy and paste the Sprint Backlog as a table into the email body:
     
-    1\. **GitHub:** navigate to the Sprint's Backlog view at
+    1\. Remove the unnecessary columns so it looks clean
     
+    2\. Select all items, copy, then paste into the Sprint Forecast email 📩
+    
+    ***
+    
+    How to get to the Sprint Backlog view:
+    
+    * **GitHub** - Navigate to the Sprint's Backlog view at
     **GitHub | Organisation | Repository | Projects | Project | Current Sprint**
-    
-    **Azure DevOps:** navigate to the Sprint's Backlog view at
-    
-    **Azure DevOps | Project | Sprints | Backlog**
-    
-    2\. Remove the unnecessary columns so it looks clean
-    
-    3\. Select all items, copy, then paste into the Sprint Forecast email 📩
+    * **Azure DevOps** **-** Navigate to the Sprint's Backlog view at **Azure DevOps | Project | Sprints | Backlog**
   </>}
   figurePrefix="none"
   figure=""

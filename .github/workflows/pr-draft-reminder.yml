@@ -1,0 +1,208 @@
+# Contributors: @copilot
+# Automatically adds a reminder comment to draft PRs to help reduce draft PRs without descriptions or reviewers
+# < as per SSW.Rules: https://www.ssw.com.au/rules/standard-set-of-pull-request-workflows/ >
+
+name: "PR - Draft PR Reminder"
+
+on:
+  pull_request:
+    types: [opened, converted_to_draft]
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  draft_reminder:
+    if: github.event.pull_request.draft == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait before commenting
+        shell: bash
+        run: sleep 600  # wait 10 mins
+
+      - name: Determine target user and check for existing comment
+        id: check_comment
+        shell: pwsh
+        run: |
+          $prNumber = ${{ github.event.pull_request.number }}
+          $prAuthor = "${{ github.event.pull_request.user.login }}"
+          $repoFull = "${{ github.repository }}"
+
+          Write-Output "Checking PR #$prNumber (author: $prAuthor)..."
+
+          try {
+            $thisPr = gh pr view $prNumber --repo $repoFull --json number,isCrossRepository,isDraft | ConvertFrom-Json
+          } catch {
+            Write-Output "Failed to view PR (isCrossRepository check): $_"
+            Write-Output "Skipping workflow."
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          # Check if this is a cross-repository PR (from a fork)
+          if ($thisPr.isCrossRepository) {
+            Write-Output "Skipping cross repository PR"
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          # Re-check: PR may no longer be draft after the sleep
+          if (-not $thisPr.isDraft) {
+            Write-Output "PR is no longer draft. Skipping reminder."
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          function Test-IsBot {
+            param($login)
+            return $login -match '\[bot\]$' -or
+                   $login -eq 'dependabot' -or
+                   $login -eq 'renovate' -or
+                   $login -eq 'github-actions' -or
+                   $login -eq 'copilot'
+          }
+
+          $targetUser = $prAuthor
+          $authorIsBot = Test-IsBot $prAuthor
+
+          if ($authorIsBot) {
+            Write-Output "PR author is a bot, looking for first non-bot commit author/co-author via GraphQL commit.authors..."
+
+            try {
+              $owner, $name = $repoFull.Split('/')
+
+              $query = @'
+          query($owner:String!, $name:String!, $number:Int!) {
+            repository(owner:$owner, name:$name) {
+              pullRequest(number:$number) {
+                commits(first: 100) {
+                  nodes {
+                    commit {
+                      oid
+                      authors(first: 10) {
+                        nodes {
+                          user { login __typename }
+                          name
+                          email
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          '@
+
+              $result = gh api graphql -f query="$query" -F owner="$owner" -F name="$name" -F number=$prNumber | ConvertFrom-Json
+
+              $foundNonBotUser = $false
+
+              foreach ($node in $result.data.repository.pullRequest.commits.nodes) {
+                foreach ($a in $node.commit.authors.nodes) {
+                  if ($a.user -and $a.user.login) {
+                    $login = $a.user.login
+                    $typeName = $a.user.__typename  # "User" / "Bot" etc.
+
+                    Write-Output "GraphQL author candidate: login=$login type=$typeName"
+
+                    $isBot = ($typeName -eq "Bot") -or (Test-IsBot $login)
+
+                    if (-not $isBot) {
+                      $targetUser = $login
+                      $foundNonBotUser = $true
+                      Write-Output "Found non-bot author via GraphQL: $targetUser"
+                      break
+                    }
+                  }
+                }
+                if ($foundNonBotUser) { break }
+              }
+
+              if (-not $foundNonBotUser) {
+                Write-Output "No non-bot user found via GraphQL. Skipping reminder."
+                $targetUser = ""
+              }
+            } catch {
+              Write-Output "Failed to fetch PR commit authors via GraphQL: $_"
+              Write-Output "Skipping reminder."
+              $targetUser = ""
+            }
+          }
+
+          # Get all comments on the PR and check if reminder exists
+          try {
+            $commentsJson = gh pr view $prNumber --repo $repoFull --json comments | ConvertFrom-Json
+
+            $reminderExists = $false
+            foreach ($comment in $commentsJson.comments) {
+              $isBot = $comment.author.login -eq "github-actions" -or $comment.author.login -eq "github-actions[bot]"
+              if ($isBot -and $comment.body -match 'This PR is currently in.*Draft mode') {
+                $reminderExists = $true
+                Write-Output "Reminder comment already exists"
+                break
+              }
+            }
+
+            if ($reminderExists) {
+              echo "skip=true" >> $env:GITHUB_OUTPUT
+            } else {
+              echo "skip=false" >> $env:GITHUB_OUTPUT
+            }
+          } catch {
+            Write-Output "Failed to fetch PR comments: $_"
+            Write-Output "Skipping workflow."
+            echo "skip=true" >> $env:GITHUB_OUTPUT
+            exit 0
+          }
+
+          echo "target_user=$targetUser" >> $env:GITHUB_OUTPUT
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add draft PR reminder comment
+        if: steps.check_comment.outputs.skip == 'false' && steps.check_comment.outputs.target_user != ''
+        shell: pwsh
+        run: |
+          $prNumber = ${{ github.event.pull_request.number }}
+          $repoFull = "${{ github.repository }}"
+          $author = "${{ steps.check_comment.outputs.target_user }}"
+
+          # Build greeting:
+          # - if author looks like a GitHub username => @mention
+          # - otherwise => generic greeting
+          $greeting = "👋 Hi,"
+          if ($author) {
+            # GitHub username pattern (conservative check)
+            if ($author -match '^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$') {
+              $greeting = "👋 Hi @$author,"
+            } else {
+              $greeting = "👋 Hi $author,"
+            }
+          }
+
+          Write-Output "Adding reminder comment to PR #$prNumber (greeting: $greeting)"
+
+          $comment = @"
+          $greeting
+
+          This PR is currently in **Draft mode**. To help it get reviewed and merged:
+
+          1. ✍️ **Update PR title & add a description** - Explain what changes you've made and why
+          2. ✅ **Mark as ready for review** - Click "Ready for review" when you're done
+          3. 👥 **Add reviewers** - Assign people to review your changes
+          4. 📣 **Notify reviewers** - Message or call them to let them know the PR is ready
+
+          Once you've completed these steps, your PR will be ready for approval!
+
+          _This is an automated reminder to help reduce draft PRs without descriptions or reviewers._
+          "@
+
+          $tempFile = [System.IO.Path]::GetTempFileName()
+          Set-Content -Path $tempFile -Value $comment
+          gh pr comment $prNumber --repo $repoFull --body-file $tempFile
+          Remove-Item $tempFile -Force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

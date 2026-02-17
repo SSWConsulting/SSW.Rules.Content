@@ -1,0 +1,266 @@
+---
+title: Do you use skills to standardize your AI workflows?
+uri: ai-agents-with-skills
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
+  - rule: public/uploads/rules/ai-investigation-prompts/rule.mdx
+guid: 72a12f65-5f91-406a-8ab2-59e7efb39726
+seoDescription: 'Learn how to use skills (slash commands) to standardize AI coding workflows. Discover how to create, share, and safely use skills across tools like Claude Code and GitHub Copilot.'
+created: 2026-02-09T23:30:22.414Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-13T05:20:04.691Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
+---
+
+Skills (slash commands) let you package reusable prompts that standardize how AI agents approach recurring tasks. Instead of retyping the same detailed instructions every time, you define them once and invoke them with a command.
+
+<endIntro />
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="... now I know Kung Fu 🥋" src="/uploads/rules/ai-agents-with-skills/C4360CDB-8650-4D5A-8D62-69B12D8BD9F7.png" />
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=JepVi1tBNEE" description="Video: Agent Skills in Visual Studio Code" />
+
+## What is a skill?
+
+A **skill** is a markdown file containing a prompt that gets injected into the AI agent's context when invoked. Think of skills like reusable prompt templates - they guide the agent's behavior for a specific task without needing access to external systems (unlike MCP servers).
+
+<boxEmbed
+  body={<>
+    ```markdown
+    ---
+    name: security-review
+    description: Review code for security, performance, and standards compliance
+    ---
+    
+    Review the code changes in the current diff for:
+    - Security vulnerabilities (injection, auth issues, data exposure)
+    - Performance problems (N+1 queries, unnecessary allocations)
+    - Adherence to our team's coding standards
+    
+    For each issue found:
+    1. Reference the specific file and line number
+    2. Explain why it's a problem
+    3. Suggest a concrete fix
+    ```
+  </>}
+  figurePrefix="good"
+  figure="A SKILL.md file with YAML frontmatter (between --- markers) and markdown instructions"
+  style="greybox"
+/>
+
+To invoke this skill, type `/security-review` in Claude Code, `@security-review` in GitHub Copilot, or simply ask a question that matches the skill's description and the agent will load it automatically.
+
+For connecting to external systems like databases or APIs, use [MCP servers](/rules/mcp-servers-for-context) instead.
+
+## When to use public skills
+
+You don't always need to write skills from scratch. Trusted providers like [Anthropic publish pre-built skills you can install](https://github.com/anthropics/skills). For example, Anthropic's official skills repository includes document skills, creative design skills, and development utilities. In Claude Code, you can install them via the plugin system:
+
+```bash
+/plugin marketplace add anthropics/skills
+/plugin install document-skills@anthropic-agent-skills
+```
+
+Consider creating a skill when:
+
+* **You're repeating the same instructions** - if you keep typing the same prompt for code reviews, commit messages, or planning tasks, package it as a skill
+* **You need consistent output** - when a task must follow a specific format or checklist every time (e.g. PR descriptions, architecture decision records)
+* **You're working with internal frameworks** - domain specific language or internal tools that aren't well-represented in the AI's training data benefit from explicit guidance
+* **You're onboarding team members** - skills encode tribal knowledge so everyone gets consistent results from day one
+
+<boxEmbed
+  body={<>
+    **User:** Review this code for security vulnerabilities, performance issues, adherence to our team's coding standards, and test coverage gaps. Provide actionable feedback with specific line references.
+    
+    **Agent:** ✅ Code review complete.
+    
+    *(1 day later)*
+    
+    **User:** Review this code for security vulnerabilities, performance issues, adherence to our team's coding standards, and test coverage gaps. Provide actionable feedback with specific line references.
+    
+    **Agent:** ✅ Code review complete.
+  </>}
+  figurePrefix="bad"
+  figure="Repeating the same detailed review prompt every time is tedious and error-prone"
+/>
+
+<boxEmbed
+  body={<>
+    **User:** /security-review
+    
+    **Agent:** ✅ Code review complete.
+  </>}
+  figurePrefix="good"
+  figure="A skill encapsulates the review instructions - one command, consistent results every time"
+/>
+
+## Using company skills
+
+You should create a repository which acts as the source of truth for all general-purpose skills. Doing so allows developers to store and share skills safely and securely. Skills that are updated/introduced should go through a review process to ensure that no safety issues are being introduced.
+
+Project-specific skills should be stored within their project repositories.
+
+## Sharing skills across a team
+
+Project-level skills (committed to the repo) are one of the most effective ways to standardize workflows across a team:
+
+* **Commit skills to version control** - store them in the project's commands directory so everyone on the team benefits
+* **Review changes like code** - skill updates should go through the same PR review process as any other change
+* **Reference skills in your README** - mention available skills in your project's README so contributors know what's available (e.g. "Run `/code-review` for a code review" or "Use `/deploy` to deploy to staging")
+* **Combine with MCP servers when needed** - use skills to define *how* the agent should work and [MCP servers](/rules/mcp-servers-for-context) to provide *what data* it can access
+
+## Using skills safely
+
+<boxEmbed
+  body={<>
+    Skills are prompt injections by design - they instruct the AI to behave in a specific way. A malicious skill could instruct the agent to run destructive commands, exfiltrate data, or bypass safety checks.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+* **Always read the full contents of a skill before using it** - never blindly trust a skill file, even from a seemingly reputable source
+* **Avoid skills from third-party marketplaces or untrusted sources** - treat installing a skill with the same caution as running an unknown script, we consider skills from sources such as Anthropic and OpenAI to be trusted sources
+* **Review skill changes in PRs** - when a teammate updates a skill, review it like you would review code
+* **Be cautious of skills that run shell commands** - skills that instruct the agent to execute commands or access sensitive files deserve extra scrutiny
+
+## Setting up skills
+
+### Claude Code
+
+Create a `SKILL.md` file inside a named directory under `.claude/skills/`:
+
+```
+.claude/
+└── skills/
+    ├── security-review/
+    │   └── SKILL.md       → invoked with /security-review
+    ├── commit/
+    │   └── SKILL.md       → invoked with /commit
+    └── plan/
+        └── SKILL.md       → invoked with /plan
+```
+
+You can also create personal skills at `~/.claude/skills/` that are available across all projects.
+
+### GitHub Copilot
+
+Create markdown files in your project's `.github/copilot/` directory to define custom agents:
+
+```
+.github/
+└── copilot/
+    ├── review.md        → invoked with @security-review
+    └── plan.md          → invoked with @plan
+```
+
+### OpenCode
+
+Create a `SKILL.md` file inside a named directory under `.opencode/skills/` (OpenCode also discovers skills from `.claude/skills/`):
+
+```
+.opencode/
+└── skills/
+    ├── security-review/
+    │   └── SKILL.md       → invoked as a slash command or loaded by the agent
+    └── plan/
+        └── SKILL.md
+```
+
+You can also create personal skills at `~/.config/opencode/skills/` that are available across all projects.
+
+## Writing effective skills
+
+A good skill is specific about what the agent should do, how it should structure its output, and what it should avoid.
+
+<boxEmbed
+  body={<>
+    ```markdown
+    Review the code and give feedback.
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Too vague - the agent has no guidance on what to check or how to structure its response"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ```markdown
+    ---
+    name: code-review
+    description: Review code for security, performance, standards, and test coverage
+    allowed-tools: Read, Grep, Glob
+    ---
+    
+    Review the code changes in the current diff for:
+    - Security vulnerabilities (injection, auth issues, data exposure)
+    - Performance problems (N+1 queries, unnecessary allocations, missing indexes)
+    - Adherence to our team's coding standards (which can be found in STANDARDS.md)
+    - Test coverage gaps
+    
+    For each issue found:
+    1. Reference the specific file and line number
+    2. Explain why it's a problem
+    3. Suggest a concrete fix
+    
+    If no issues are found in a category, skip it — do not
+    list categories with "no issues found."
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Specific checks, clear output format, and explicit instructions on what to skip"
+  style="greybox"
+/>
+
+Tips for writing skills:
+
+* **One task per skill** - a focused skill is easier to maintain and produces more consistent results than one that tries to handle multiple scenarios
+* **Specify the output format** - tell the agent exactly how to structure its response (bullet points, markdown headings, numbered steps, etc.)
+* **Include constraints** - explicitly state what the agent should *not* do to prevent unwanted behavior
+* **Use variables where supported** - some tools support `$ARGUMENTS` or similar placeholders so users can pass context when invoking the skill
+
+### Frontmatter properties
+
+Here are some common properties to include, you can view the full spec here: [https://agentskills.io/specification#frontmatter-required](https://agentskills.io/specification#frontmatter-required).
+
+| Property                   | Description                                                                              |
+| -------------------------- | ---------------------------------------------------------------------------------------- |
+| `name`                     | Display name for the skill (defaults to the directory name)                              |
+| `description`              | What the skill does - the agent uses this to decide when to load the skill automatically |
+| `allowed-tools`            | Restricts which tools the agent can use (e.g. `Read, Grep, Glob` for a read-only skill)  |
+| `disable-model-invocation` | Set to `true` to prevent the agent from loading the skill automatically (manual-only)    |
+| `user-invocable`           | Set to `false` to hide from the `/` menu (agent-only background knowledge)               |
+| `context`                  | Set to `fork` to run the skill in an isolated subagent                                   |
+| `argument-hint`            | Hint shown during autocomplete (e.g. `[issue-number]`)                                   |
+
+### Skill scope
+
+Where you store a skill determines who can use it:
+
+| Scope    | Location                                            | Applies to                                             |
+| -------- | --------------------------------------------------- | ------------------------------------------------------ |
+| Personal | `~/.claude/skills/` or `~/.config/opencode/skills/` | Across all projects, only your machine                 |
+| Project  | `.claude/skills/` committed to the repository       | Project-scoped, everyone with access to the repository |
+
+**Personal skills** are great for your own preferences and workflows (e.g. your preferred commit message format). **Project skills** are committed to version control so the whole team benefits. When a personal and project skill share the same name, project-level skills take precedence.
+
+## Further reading
+
+* [Specification - Agent Skills](https://agentskills.io/specification)
+* [Extend Claude with skills - Claude Code](https://code.claude.com/docs/en/skills)
+* [Agent Skills - OpenCode](https://opencode.ai/docs/skills/)
+* [Custom agents - GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents)
+* [Anthropic Skills Repository](https://github.com/anthropics/skills) - pre-built skills for document creation, design, and development
+* [Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context) - for guidance on when to use skills vs MCP servers
