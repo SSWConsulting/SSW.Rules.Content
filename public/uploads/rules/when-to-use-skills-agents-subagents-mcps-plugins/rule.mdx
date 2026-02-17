@@ -139,37 +139,111 @@ Skills and MCPs are complementary to one another: A skill can instruct the AI to
 
 ### Skills vs AGENTS.md
 
-&#123;&#123; TODO: REFACTOR TO FOLLOW THE SAME FORMAT AS SKILLS VS MCP SERVERS &#125;&#125;
+&#123;&#123; START TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
 
-With Skills and AGENTS.md, both provide instructions to the AI, but they differntiate from one another in the way that they are loaded:
+Similarities:
 
-* **AGENTS.md** is always loaded - every token counts against your context window from the start
-* **Skills** load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
+* Both provide instructions to the AI agent
+* Both are markdown files
+* Both influence how the agent behaves on a task
 
-AGENTS.md defines rules and instructions to AI agents which are intended to be used for general agent tasks within a codebase.
+**High level difference:**
 
-Skills, on the other hand, define rules and insturctions on specific tasks, where agents might need more context and instructions. They save the user time by reducing the need for the rewrite the same prompts.
+* AGENTS.md defines general, always-present rules and conventions for a codebase
+* Skills define specific, on-demand instructions for particular tasks that are portable across codebases
 
-Whilst yes, you can just put all your “skills” in AGENTS.md, this introduces unnecessary token waste, not to mention leading to lower quality outputs as bloated AGENTS.md files can sometimes cause AI agents to ignore certain instructions.
+**Structural difference:**
+
+* AGENTS.md is always loaded - every token counts against your context window from the start
+* Skills load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
+
+Whilst you can put all your "skills" in AGENTS.md, this introduces unnecessary token waste and can lead to lower quality outputs as bloated AGENTS.md files can sometimes cause AI agents to ignore certain instructions.
+
+<boxEmbed
+  body={<>
+    **Scenario:** Your team has a standard way of performing code reviews and a set of project conventions.
+
+    * **AGENTS.md** defines the project conventions - "use pytest," "all API routes need auth middleware," "follow the repository's folder structure"
+    * **Skills** define the code review workflow - the checklist, the format of review comments, and the steps to follow. This only loads when a review is actually requested, keeping context clean for other tasks
+  </>}
+  figurePrefix="good"
+  figure="AGENTS.md for always-on project context, skills for on-demand task-specific workflows"
+  style="greybox"
+/>
+
+&#123;&#123; END TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
 
 ### Subagents vs Skills
 
-&#123;&#123; TODO: WRITE THIS SECTION &#125;&#125;
+&#123;&#123; START TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
+
+Similarities:
+
+* Both can be used to achieve similar end results for a given task
+* Both extend the capabilities of an AI agent beyond its defaults
+* Both reduce the need for repetitive manual prompting
+
+**High level difference:**
+
+* Skills define **what** the agent should do - they provide instructions and workflows
+* Subagents define **how** the agent executes - they provide isolated, parallel execution contexts
+
+**Structural difference:**
+
+* Skills run sequentially within the main agent's context - you need to finish one task before moving onto the next
+* Subagents run in their own isolated context windows in parallel - multiple tasks can be processed simultaneously, but they cannot interact with the user mid-execution
+
+Because subagents cannot have back-and-forth interaction with the user, they are best suited for self-contained tasks. Skills, on the other hand, run within the main agent and can still leverage user interaction when needed.
+
+<boxEmbed
+  body={<>
+    **Scenario:** You want to audit your codebase for security vulnerabilities across 4 microservices.
+
+    * **With a skill**, the agent follows the security audit workflow sequentially - auditing one service, reporting findings, then moving to the next. You can give feedback between each service
+    * **With subagents**, the agent spawns 4 subagents that each audit one service in parallel, then synthesizes all findings into a single report. Faster, but no mid-process feedback
+  </>}
+  figurePrefix="good"
+  figure="Use skills when you need step-by-step control, use subagents when you need speed and the task is self-contained"
+  style="greybox"
+/>
+
+&#123;&#123; END TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
 
 ### Agents vs Subagents
 
-&#123;&#123; TODO: REFACTOR TO FOLLOW THE SAME FORMAT AS SKILLS VS MCP SERVERS &#125;&#125;
+&#123;&#123; START TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
 
-Subagents (supported in Claude Code, Cursor, Open Code, etc.) run in their own context window. This means that:
+Similarities:
 
-* Heavy search results don't clutter your main conversation
-* Multiple subagents can work in parallel
-* You can restrict what tools a subagent has access to (e.g. read-only for reviewers)
-* The main conversation only receives a summary of the work
+* Both are AI instances that can execute tasks autonomously
+* Both have access to tools (file reading, code execution, etc.)
+* Both can reason about and act on a given task
 
-So, you should use subagents when the task is self-contained, and does not require a back-and-forth with the user.
+**High level difference:**
 
-In tools that don't yet support subagents directly, custom agents with restricted tool access can serve a similar purpose.
+* Agents are the primary process - they interact directly with the user and orchestrate work
+* Subagents are child processes - they are spawned by the primary agent to handle isolated, self-contained tasks
+
+**Structural difference:**
+
+* Agents run in the main context window and can have back-and-forth conversations with the user
+* Subagents run in their own isolated context window - heavy search results don't clutter the main conversation, and you can restrict what tools a subagent has access to (e.g. read-only for reviewers). The main conversation only receives a summary of the work
+
+Use subagents when the task is self-contained and does not require user interaction. In tools that don't yet support subagents directly, custom agents with restricted tool access can serve a similar purpose.
+
+<boxEmbed
+  body={<>
+    **Scenario:** You ask an agent to research five competitors and summarize the findings.
+
+    * **Without subagents**, the agent researches each competitor sequentially in the main context window, filling it with raw search results and intermediate notes
+    * **With subagents**, the agent spawns five subagents that each research one competitor in parallel. The main agent only receives the summaries and synthesizes a final comparison - keeping the main context clean and completing the task faster
+  </>}
+  figurePrefix="good"
+  figure="Use subagents for self-contained parallel tasks, keeping the main agent's context focused"
+  style="greybox"
+/>
+
+&#123;&#123; END TODO: THIS IS AI-GENERATED CHANGE, PLEASE REVIEW &#125;&#125;
 
 ## The extensibility spectrum
 
