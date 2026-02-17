@@ -14,12 +14,13 @@ related:
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
   - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
   - rule: public/uploads/rules/build-custom-agents/rule.mdx
+  - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
 guid: 8a2a5abd-103a-4f6f-8d0e-80dd596fbbae
 seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or plugins to extend AI coding tools. A decision framework for choosing the right extensibility mechanism.'
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:12:12.993Z
+lastUpdated: 2026-02-17T06:15:31.151Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -89,9 +90,16 @@ Skills are reusable prompts that standardize how AI approach repeating tasks. Li
 
 ### MCP Server
 
-MCP servers are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to retrieve and work with data.
+[MCP servers](/use-mcp-to-standardize-llm-connections) are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to use tools and access external data.
 
-Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
+<boxEmbed
+  body={<>
+    **Use Case:** You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
 
 ## Understanding the differences
 
