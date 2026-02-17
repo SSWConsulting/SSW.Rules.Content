@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:01:32.487Z
+lastUpdated: 2026-02-17T06:07:41.171Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -62,9 +62,16 @@ AGENTS.md is a markdown file that is loaded at the start of every session, provi
 
 ### Skill
 
-Skills are a folder with a markdown file defining the skill's name, description, and the prompt itself, with and optional supporting files following the Agent Skills [open standard](https://agentskills.io/home)
+Skills are reusable prompts that standardize how AI approach repeating tasks. Like AGENTS.md, skills are also markdown files, but their purpose is to be situationally invoked when relevant and be portable across codebases.
 
-Use Case: Every new API endpoint needs a route handler, input validation, tests, and an OpenAPI spec update. A skill encodes that pattern so you just say "create an endpoint for /users" or trigger it manully, and all four steps run consistently.
+<boxEmbed
+  body={<>
+    **Use Case:** A company has a specific way they like to perform security audits using AI. Rather than copy and pasting the promopt, we install the skill and instruct the agent to perform a security audit using the installed skill. The skill encodes that pattern so you just say "start the security audit" or trigger it manully, and all the specific steps run consistently.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
 
 ### MCP-Server
 
@@ -72,7 +79,7 @@ MCP servers are an external process that exposes tools and data via the open sta
 
 Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
