@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T05:27:21.553Z
+lastUpdated: 2026-02-17T05:42:44.417Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -52,7 +52,7 @@ MCP servers are an external process that exposes tools and data via the open sta
 
 Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
@@ -79,38 +79,30 @@ Before diving into the details, use this flowchart to find the right mechanism:
   style="tips"
 />
 
-**Note:** `AGENTS.md` is the cross-platform convention for providing project context to AI coding tools. Some tools use their own file - Claude Code uses `CLAUDE.md`, Cursor uses `.cursorrules` - but the concept is the same. This rule uses `AGENTS.md` as the general term.
-
-## What each mechanism does
-
-| Mechanism        | What it is                                                                                                                  | When to use it                                                                                | Supported by                                    |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| **AGENTS.md**    | A markdown file loaded at the start of every session providing project context                                              | Project conventions, coding standards, and context that should always be available            | Claude Code, Copilot, Cursor, OpenCode          |
-| **Skill**        | A folder with a skill file and optional supporting files following the [Agent Skills open standard](https://agentskills.io) | Reusable workflows, domain expertise, slash commands like `/deploy` or `/review`              | Claude Code, Copilot, OpenCode, Cursor          |
-| **Subagent**     | An isolated AI instance with its own context window                                                                         | Parallel research, heavy tasks you want out of your main context, enforcing tool restrictions | Claude Code, OpenCode                           |
-| **Custom agent** | A reusable, task-specific agent definition with defined tools and instructions                                              | Specialized roles like code reviewers or planners that get invoked across workflows           | Claude Code, Copilot, OpenCode                  |
-| **MCP Server**   | An external process that exposes tools and data via the [Model Context Protocol](https://modelcontextprotocol.io)           | Connecting to databases, APIs, and SaaS platforms (GitHub, Jira, Slack, etc.)                 | Claude Code, Copilot, Cursor, OpenCode, ChatGPT |
-| **Plugin**       | A distribution package that bundles skills, agents, MCP servers, and other extensions together                              | Sharing a collection of extensions with your team or the community                            | Claude Code                                     |
-
 ## Understanding the differences
 
-All of these things are new, and terms can be commonly confused with one another….
+With how quickly these tools were introduced and adopted, things quickly get out of hand and the names of the tools are commonly confused with one another. It is important to distinguish the differences between each of them, so here are the key differences between some commonly confusioned tools.
 
 ### Skills vs MCP Servers
 
-This is the most common source of confusion. The key distinction:
+High level difference:
 
-* **Skills teach the AI *what to do*** - they inject prompts, workflows, and domain knowledge
-* **MCP Servers give the AI *access to data*** - they connect to external systems
+* Skills tell the AI what to do - they inject prompts, workflows, and domain specific knowledge
+* MCP Servers give the AI access to data to help them do it - they connect AI agents to external systems
 
-They are complementary. A skill can instruct the AI to use tools exposed by an MCP server.
+Structural difference:
+
+* Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused.
+* MCP servers are code. They expose tools for agents and the instructions on how to use those tools.
+
+Skills and MCPs are complimentary to one another: A skill can instruct the AI to use tools exposed by an MCP server.
 
 <boxEmbed
   body={<>
     **Scenario:** You want the AI to create a GitHub issue with a specific format whenever it finds a bug.
     
-    * **Skill** = defines the issue template, the labeling conventions, and the workflow steps
-    * **MCP Server** = provides the connection to the GitHub API so the AI can actually create the issue
+    * **Skills **define the issue template, the labeling conventions, and the workflow steps
+    * An MCP Server provides the connection to the GitHub API so the AI can actually create the issue
   </>}
   figurePrefix="good"
   figure="Skills and MCP servers working together - the skill defines the workflow, the MCP server provides the integration"
@@ -119,41 +111,31 @@ They are complementary. A skill can instruct the AI to use tools exposed by an M
 
 ### Skills vs AGENTS.md
 
-Both provide instructions to the AI, but they load differently:
+This is the most common source of confusion.
+
+With Skills and AGENTS.md, both provide instructions to the AI, but they differntiate from one another in the way that they are loaded:
 
 * **AGENTS.md** is always loaded - every token counts against your context window from the start
 * **Skills** load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
 
-<boxEmbed
-  body={<>
-    An AGENTS.md with 5,000 tokens of instructions for code reviews, deployment procedures, commit message formats, and PR templates - all loaded even when you're just asking a quick question.
-  </>}
-  figurePrefix="bad"
-  figure="Putting everything in AGENTS.md wastes context tokens on instructions that aren't needed for every task"
-/>
+AGENTS.md defines rules and instructions to AI agents which are intended to be used for general agent tasks within a codebase.
 
-<boxEmbed
-  body={<>
-    A lean AGENTS.md with project conventions (500 tokens), plus separate skills for `/review`, `/deploy`, `/commit`, and `/pr-template` that only load when invoked.
-  </>}
-  figurePrefix="good"
-  figure="AGENTS.md for always-on context, skills for task-specific workflows"
-/>
+Skills, on the other hand, define rules and insturctions on specific tasks, where agents might need more context and instructions. They save the user time by reducing the need for the rewrite the same prompts.
 
-### Subagents vs doing everything in the main conversation
+Whilst yes, you can just put all your “skills” in AGENTS.md, this introduces unnecessary token waste, not to mention leading to lower quality outputs as bloated AGENTS.md files can sometimes cause AI agents to ignore certain instructions.
 
-Subagents (supported in Claude Code and OpenCode) run in their own context window. This means:
+### Agents vs subagents
+
+Subagents (supported in Claude Code, Cursor, Open Code, etc.) run in their own context window. This means that:
 
 * Heavy search results don't clutter your main conversation
-* Multiple subagents can work in parallel (up to 10 concurrently)
+* Multiple subagents can work in parallel
 * You can restrict what tools a subagent has access to (e.g. read-only for reviewers)
 * The main conversation only receives a summary of the work
 
-Use subagents when the task is self-contained and doesn't need back-and-forth with the user. In tools that don't support subagents directly, custom agents with restricted tool access can serve a similar purpose.
+So, you should use subagents when the task is self-contained, and does not require a back-and-forth with the user.
 
-### Plugins vs standalone configuration
-
-Plugins are a **packaging format**, not a capability. A plugin bundles skills, agents, MCP servers, and other extensions into a single installable package. Currently this is most mature in Claude Code, but the concept of packaging extensions for distribution applies broadly. If you're just customizing your own setup, configure each mechanism directly. Use plugins when you need to distribute a collection of extensions to others.
+In tools that don't yet support subagents directly, custom agents with restricted tool access can serve a similar purpose.
 
 ## The extensibility spectrum
 
@@ -163,18 +145,16 @@ These mechanisms form a spectrum from simple to complex. Start simple and only a
 2. **Skills** - Reusable, on-demand expertise with supporting files
 3. **MCP Servers** - External tool and data source integration
 4. **Custom agents / Subagents** - Isolated, specialized execution contexts
-5. **Plugins** - Shareable packages bundling all of the above
-6. **Agent SDK** - Full programmatic agents for production systems
+5. **Agent SDK** - Full programmatic agents for production systems
 
 <boxEmbed
   body={<>
-    Think of it like a software project:
+    You can think of it like a software project:
     
-    * **AGENTS.md** = your README and .env file - always-present configuration
-    * **Skills** = your utility library - reusable, modular, loaded when needed
-    * **Subagents** = your worker threads - isolated, parallel, focused execution
-    * **MCP Servers** = your API integrations - connecting to external services
-    * **Plugins** = your npm packages - distributable bundles for sharing
+    * **AGENTS.md** are your README and .env file - always-present configuration
+    * **Skills** are your utility library - reusable, modular, loaded when needed
+    * **Subagents** are your worker threads - isolated, parallel, focused execution
+    * **MCP Servers** are your API integrations - connecting to external services
   </>}
   figurePrefix="none"
   figure=""
@@ -183,13 +163,14 @@ These mechanisms form a spectrum from simple to complex. Start simple and only a
 
 ## Practical adoption strategy
 
-Don't try to adopt everything at once. Follow this progression:
+There is no need for stress over selecting the perfect tool every ttime, they're all just optimizations for specific use cases anad do not have drastic consequences for choosing the wrong tool. As you continue to use them, it will become clearer as you do when specific tools make your AI assisted workflow easier.
+
+Don't try to adopt everything at once. Instead, follow this progression to get comfortable with the tools available:
 
 1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
 2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
 3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
 4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
-5. **Package into plugins for team sharing** - When your setup is mature and others would benefit
 
 ## Further reading
 
