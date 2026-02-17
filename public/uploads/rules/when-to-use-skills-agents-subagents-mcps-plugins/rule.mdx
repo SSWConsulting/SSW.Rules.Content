@@ -15,6 +15,9 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-17T01:55:10.101Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
 AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities - skills, custom agents, subagents, MCP servers, and plugins. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
@@ -36,14 +39,14 @@ Before diving into the details, use this flowchart to find the right mechanism:
 
 ## What each mechanism does
 
-| Mechanism | What it is | When to use it | Supported by |
-|-----------|-----------|----------------|-------------|
-| **AGENTS.md** | A markdown file loaded at the start of every session providing project context | Project conventions, coding standards, and context that should always be available | Claude Code, Copilot, Cursor, OpenCode |
-| **Skill** | A folder with a skill file and optional supporting files following the [Agent Skills open standard](https://agentskills.io) | Reusable workflows, domain expertise, slash commands like `/deploy` or `/review` | Claude Code, Copilot, OpenCode, Cursor |
-| **Subagent** | An isolated AI instance with its own context window | Parallel research, heavy tasks you want out of your main context, enforcing tool restrictions | Claude Code, OpenCode |
-| **Custom agent** | A reusable, task-specific agent definition with defined tools and instructions | Specialized roles like code reviewers or planners that get invoked across workflows | Claude Code, Copilot, OpenCode |
-| **MCP Server** | An external process that exposes tools and data via the [Model Context Protocol](https://modelcontextprotocol.io) | Connecting to databases, APIs, and SaaS platforms (GitHub, Jira, Slack, etc.) | Claude Code, Copilot, Cursor, OpenCode, ChatGPT |
-| **Plugin** | A distribution package that bundles skills, agents, MCP servers, and other extensions together | Sharing a collection of extensions with your team or the community | Claude Code |
+| Mechanism        | What it is                                                                                                                  | When to use it                                                                                | Supported by                                    |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| **AGENTS.md**    | A markdown file loaded at the start of every session providing project context                                              | Project conventions, coding standards, and context that should always be available            | Claude Code, Copilot, Cursor, OpenCode          |
+| **Skill**        | A folder with a skill file and optional supporting files following the [Agent Skills open standard](https://agentskills.io) | Reusable workflows, domain expertise, slash commands like `/deploy` or `/review`              | Claude Code, Copilot, OpenCode, Cursor          |
+| **Subagent**     | An isolated AI instance with its own context window                                                                         | Parallel research, heavy tasks you want out of your main context, enforcing tool restrictions | Claude Code, OpenCode                           |
+| **Custom agent** | A reusable, task-specific agent definition with defined tools and instructions                                              | Specialized roles like code reviewers or planners that get invoked across workflows           | Claude Code, Copilot, OpenCode                  |
+| **MCP Server**   | An external process that exposes tools and data via the [Model Context Protocol](https://modelcontextprotocol.io)           | Connecting to databases, APIs, and SaaS platforms (GitHub, Jira, Slack, etc.)                 | Claude Code, Copilot, Cursor, OpenCode, ChatGPT |
+| **Plugin**       | A distribution package that bundles skills, agents, MCP servers, and other extensions together                              | Sharing a collection of extensions with your team or the community                            | Claude Code                                     |
 
 ## Understanding the differences
 
@@ -51,15 +54,15 @@ Before diving into the details, use this flowchart to find the right mechanism:
 
 This is the most common source of confusion. The key distinction:
 
-* **Skills teach the AI _what to do_** - they inject prompts, workflows, and domain knowledge
-* **MCP Servers give the AI _access to data_** - they connect to external systems
+* **Skills teach the AI *what to do*** - they inject prompts, workflows, and domain knowledge
+* **MCP Servers give the AI *access to data*** - they connect to external systems
 
 They are complementary. A skill can instruct the AI to use tools exposed by an MCP server.
 
 <boxEmbed
   body={<>
     **Scenario:** You want the AI to create a GitHub issue with a specific format whenever it finds a bug.
-
+    
     * **Skill** = defines the issue template, the labeling conventions, and the workflow steps
     * **MCP Server** = provides the connection to the GitHub API so the AI can actually create the issue
   </>}
@@ -73,7 +76,7 @@ They are complementary. A skill can instruct the AI to use tools exposed by an M
 Both provide instructions to the AI, but they load differently:
 
 * **AGENTS.md** is always loaded - every token counts against your context window from the start
-* **Skills** load on demand - only the name and description are loaded at startup (~30-50 tokens each), with full instructions loading only when the skill is relevant
+* **Skills** load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
 
 <boxEmbed
   body={<>
@@ -120,7 +123,7 @@ These mechanisms form a spectrum from simple to complex. Start simple and only a
 <boxEmbed
   body={<>
     Think of it like a software project:
-
+    
     * **AGENTS.md** = your README and .env file - always-present configuration
     * **Skills** = your utility library - reusable, modular, loaded when needed
     * **Subagents** = your worker threads - isolated, parallel, focused execution
@@ -129,7 +132,7 @@ These mechanisms form a spectrum from simple to complex. Start simple and only a
   </>}
   figurePrefix="none"
   figure=""
-  style="info"
+  style="tips"
 />
 
 ## Practical adoption strategy
