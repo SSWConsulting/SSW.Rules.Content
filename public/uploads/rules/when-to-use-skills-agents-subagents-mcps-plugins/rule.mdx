@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T06:30:02.277Z
+lastUpdated: 2026-02-17T06:32:43.437Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -127,10 +127,10 @@ Skills and MCPs are complementary to one another: A skill can instruct the AI to
 
 <boxEmbed
   body={<>
-    **Scenario:** You want the AI to create a GitHub issue with a specific format whenever it finds a bug.
+    **Scenario:** You want your agent to create a GitHub issue with a specific format whenever it finds a bug.
     
-    * \*\*Skills \*\*define the issue template, the labeling conventions, and the workflow steps
-    * An MCP Server provides the connection to the GitHub API so the AI can actually create the issue
+    * **Skills** define the issue template and tell it to use the GitHub MCP server, the labeling conventions, and the workflow steps
+    * The MCP server provides the connection to the GitHub API so the agent can actually create the issue
   </>}
   figurePrefix="good"
   figure="Skills and MCP servers working together - the skill defines the workflow, the MCP server provides the integration"
