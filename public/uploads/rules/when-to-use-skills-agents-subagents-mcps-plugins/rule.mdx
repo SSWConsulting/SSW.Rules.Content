@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T05:59:32.406Z
+lastUpdated: 2026-02-17T06:01:32.487Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -51,7 +51,14 @@ Subagents are isolated AI instances with their own context window, capable of ru
 
 AGENTS.md is a markdown file that is loaded at the start of every session, providing project context to the AI Agent.
 
-Use Case: In a monorepo with React frontend and Python backend. Each directory has an AGENTS.md tells agents the local rules: "use pytest," "all routes need auth middleware." This allows the context to be injected into every conversation, introducing consistency without requiring users to repeat themselves constantly.
+<boxEmbed
+  body={<>
+    **Use Case:** In a monorepo with React frontend and Python backend. Each directory has an AGENTS.md tells agents the local rules: "use pytest," "all routes need auth middleware." This allows the codebase-specific context to be injected into every conversation, improving consistency by eliminating the need for developers to repeat themselves.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
 
 ### Skill
 
@@ -65,7 +72,7 @@ MCP servers are an external process that exposes tools and data via the open sta
 
 Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
