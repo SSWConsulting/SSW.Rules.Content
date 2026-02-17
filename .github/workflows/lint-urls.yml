@@ -1,0 +1,58 @@
+name: Lint-URLs
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  lint-urls:
+    name: Check SSW URLs for www prefix
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Get changed MDX files
+        id: changed
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | paste -sd "," -)
+          else
+            # For manual runs, check all MDX files
+            changed=""
+          fi
+          echo "files=$changed" >> $GITHUB_OUTPUT
+          echo "Changed MDX files: $changed"
+
+      - name: Run URL linter
+        id: lint
+        env:
+          URL_LINT_REPORT_PATH: ${{ runner.temp }}/url-lint-report.md
+        run: |
+          python scripts/lint-urls/lint-ssw-urls.py '${{ steps.changed.outputs.files }}'
+
+      - name: Comment on PR (if issues found)
+        if: steps.lint.outputs.has_issues == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: ${{ runner.temp }}/url-lint-report.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: false
