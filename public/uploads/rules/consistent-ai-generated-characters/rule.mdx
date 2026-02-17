@@ -44,6 +44,8 @@ You generate a great AI image for marketing, then the next one looks like a dist
   style="greybox"
 />
 
+How to fix this?
+
 ## Step 1: Start with a single source-of-truth image
 
 Always begin with **one approved base image** of the character. Ideally this image should be a character sheet, providing different views of the character so that models have more context to work with.
@@ -52,6 +54,16 @@ Use this same static image as the reference for:
 
 * Image generation (e.g. OpenAI GPT Image, Google Nano Banana)
 * Video/animation generation (e.g. OpenAI Sora, Google Veo)
+
+<boxEmbed
+  body={<>
+    While it is better to use the same AI tool for character consistency, different AI tools can still produce consistent results with a high-quality source of truth image.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
 
 Store it in a shared, versioned location (e.g. brand assets folder).
 
@@ -77,32 +89,27 @@ Store it in a shared, versioned location (e.g. brand assets folder).
 
 <boxEmbed
   body={<>
-    <imageEmbed alt="Character sheet of a stylized 3D cartoon yak with brown fur and curved horns, wearing a red T-shirt and black pants. The image shows multiple views: expressive facial close-ups with different emotions at the top, and full-body front, side, and back views labeled." size="medium" showBorder={false} figurePrefix="none" figure="Character sheet showing various angles and emotions of the YakShaver mascot, Jack the Yak" src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Base-Character-Sheet.png" />
-
     The YakShaver team stores their source-of-truth character sheet at [yakshaver.ai/media](https://yakshaver.ai/media).
+
+    <imageEmbed alt="Character sheet of a stylized 3D cartoon yak with brown fur and curved horns, wearing a red T-shirt and black pants. The image shows multiple views: expressive facial close-ups with different emotions at the top, and full-body front, side, and back views labeled." size="medium" showBorder={false} figurePrefix="none" figure="Character sheet showing various angles and emotions of the YakShaver mascot, Jack the Yak" src="/uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-Base-Character-Sheet.png" />
   </>}
   figurePrefix="none"
   figure=""
-  style="yakshaver"
+  style="greybox"
 />
-
 
 <boxEmbed
   body={<>
-    <imageEmbed alt="Character sheet of a 3D llama in orange shirt showing multiple facial expressions and front, side, and back views." size="medium" showBorder={false} figurePrefix="none" figure="Character sheet showing various angles and emotions of the Tina mascot, Tina the Llama" src="/uploads/rules/consistent-ai-generated-characters/tina-character-sheet.png" />
-
     The TinaCMS team stores their source-of-truth character sheet at [tina.io/media](https://tina.io/media)
+    
+    <imageEmbed alt="Character sheet of a 3D llama in orange shirt showing multiple facial expressions and front, side, and back views." size="medium" showBorder={false} figurePrefix="none" figure="Character sheet showing various angles and emotions of the Tina mascot, Tina the Llama" src="/uploads/rules/consistent-ai-generated-characters/tina-character-sheet.png" />
   </>}
   figurePrefix="none"
   figure=""
-  style="info"
+  style="greybox"
 />
 
-
-
-While it is better to use the same AI tool for character consistency, different AI tools can still produce consistent results with a high-quality source of truth image.
-
-## Tip 2: Be explicit in your prompts
+## Step 2: Be explicit in your prompts
 
 AI models will improvise unless you clearly tell them not to. Include:
 
@@ -130,7 +137,7 @@ AI models will improvise unless you clearly tell them not to. Include:
   style="greybox"
 />
 
-## Tip 3: Get approvals for generated characters
+## Step 3: Get approvals for generated characters
 
 Before publishing AI-generated characters:
 
