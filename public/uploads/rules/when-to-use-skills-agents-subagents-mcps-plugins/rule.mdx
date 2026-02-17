@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T05:57:42.445Z
+lastUpdated: 2026-02-17T05:59:32.406Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -40,7 +40,7 @@ Subagents are isolated AI instances with their own context window, capable of ru
 
 <boxEmbed
   body={<>
-    Use Case: You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then the primary agent synthesizes the results into a single comparison. The win is speed and focus.
+    **Use Case:** You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then the primary agent synthesizes the results into a single comparison. The win is speed and focus.
   </>}
   figurePrefix="none"
   figure=""
@@ -65,7 +65,7 @@ MCP servers are an external process that exposes tools and data via the open sta
 
 Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
@@ -114,7 +114,7 @@ Skills and MCPs are complimentary to one another: A skill can instruct the AI to
   body={<>
     **Scenario:** You want the AI to create a GitHub issue with a specific format whenever it finds a bug.
     
-    * **Skills **define the issue template, the labeling conventions, and the workflow steps
+    * \*\*Skills \*\*define the issue template, the labeling conventions, and the workflow steps
     * An MCP Server provides the connection to the GitHub API so the AI can actually create the issue
   </>}
   figurePrefix="good"
