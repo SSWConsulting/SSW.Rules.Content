@@ -19,7 +19,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-17T05:48:18.417Z
+lastUpdated: 2026-02-17T05:57:42.445Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -32,13 +32,26 @@ AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several way
 
 ### Agent
 
-An agent is what comes out of the box, whether that be Claude Code, Cursor, or Open Code, it is a powerful tool but can be specialised for specific scenarios and use cases to be even better.
+Agents are what developers interact with, they take the necessary actions to achieve the users intended goal. By utilising the following tools, they can be enhanced for specific scenarios to be even more effective.
 
 ### Subagent
 
-Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent, reducing fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
+Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent. This reduces the fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
 
-Use Case: You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then synthesizes the results into a single comparison. The win is speed and focus.
+<boxEmbed
+  body={<>
+    Use Case: You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then the primary agent synthesizes the results into a single comparison. The win is speed and focus.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+### AGENTS.md
+
+AGENTS.md is a markdown file that is loaded at the start of every session, providing project context to the AI Agent.
+
+Use Case: In a monorepo with React frontend and Python backend. Each directory has an AGENTS.md tells agents the local rules: "use pytest," "all routes need auth middleware." This allows the context to be injected into every conversation, introducing consistency without requiring users to repeat themselves constantly.
 
 ### Skill
 
@@ -52,7 +65,7 @@ MCP servers are an external process that exposes tools and data via the open sta
 
 Use Case: You want Claude Code and Cursor to both query your internal Postgres database. One MCP server exposes the database, and any compatible agent can connect. Write once, use everywhere.
 
-&#123;&#123; TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? &#125;&#125;
+{{ TEST PLEASE: SHOULD WE REMOVE THE QUICK DECISION GUIDE? }}
 
 ## The quick decision guide
 
