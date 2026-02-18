@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T00:12:32.845Z
+lastUpdated: 2026-02-18T00:15:57.284Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -62,7 +62,9 @@ AGENTS.md is a markdown file that is loaded at the start of every session, provi
 
 <boxEmbed
   body={<>
-    **Use Case:** In a monorepo with React frontend and Python backend. Each directory has an AGENTS.md tells agents the local rules: "use pytest," "all routes need auth middleware." This allows the codebase-specific context to be injected into every conversation, improving consistency by eliminating the need for developers to repeat themselves.
+    **Use Case:** You're in a monorepo with React frontend and Python backend. Both the frontend and backend have their own AGENTS.md that tells the agents the local rules (e.g. "use pytest," "all routes need auth middleware.").
+    
+    This allows the codebase-specific context to be injected into every conversation, improving consistency by eliminating the need for developers to repeat themselves.
   </>}
   figurePrefix="none"
   figure=""
