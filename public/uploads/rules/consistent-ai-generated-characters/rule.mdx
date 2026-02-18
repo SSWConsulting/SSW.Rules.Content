@@ -8,6 +8,8 @@ authors:
     url: 'https://ssw.com.au/people/griffen-edge'
   - title: Pravin Kumar
     url: 'https://ssw.com.au/people/pravin-kumar'
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
 related:
   - rule: public/uploads/rules/how-to-generate-an-ai-image/rule.mdx
   - rule: public/uploads/rules/write-an-image-prompt/rule.mdx
@@ -17,7 +19,7 @@ thumbnail: /uploads/rules/consistent-ai-generated-characters/YakShaver-The-Yak-T
 created: 2026-01-21T00:43:12.725Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-02-18T00:03:04.734Z
+lastUpdated: 2026-02-18T00:15:36.004Z
 lastUpdatedBy: Griffen Edge
 lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
@@ -39,11 +41,11 @@ You generate a great AI image for marketing, then the next one looks like a dist
     <imageEmbed alt="Three side-by-side illustrations of a yak character writing at a desk, each rendered in a different visual style." size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/consistent-ai-generated-characters/Yak-Character-Inconsistent.jpg" />
   </>}
   figurePrefix="bad"
-  figure="The same text prompt can produce varied results across different image generation models"
+  figure="The same text prompt produces inconsistent results across different image models"
   style="greybox"
 />
 
-How to fix this?
+***
 
 ## Step 1: Start with a single source-of-truth image
 
@@ -125,7 +127,7 @@ AI models will improvise unless you clearly tell them not to. Include:
 
 <boxEmbed
   body={<>
-    Make Jack the Yak cover his eyes.
+    **Prompt: **Make Jack the Yak cover his eyes.
   </>}
   figurePrefix="bad"
   figure="The prompt is vague and will lead to inconsistencies"
@@ -134,7 +136,7 @@ AI models will improvise unless you clearly tell them not to. Include:
 
 <boxEmbed
   body={<>
-    Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak playfully cover his eyes with his hooves in a close-shot.
+    **Prompt:** Use the provided image as the exact character reference. Do not change colors, facial features, proportions, or style. Make Jack the Yak playfully cover his eyes with his hooves in a close-shot.
   </>}
   figurePrefix="good"
   figure="Explicitly instructing the model to preserve the original character"
@@ -145,5 +147,5 @@ AI models will improvise unless you clearly tell them not to. Include:
 
 Before publishing AI-generated characters:
 
-* Get a “[test pass](/request-a-test-please)” from design/brand owners
-* For videos/animations, check quality with your video team (e.g. no choppy or awkward movements)
+* **All assets** - Get a “[test pass](/request-a-test-please)” from design/brand owners
+* Vi**deos & animations** - Check quality with your video team to prevent choppy footage or awkward animations.
