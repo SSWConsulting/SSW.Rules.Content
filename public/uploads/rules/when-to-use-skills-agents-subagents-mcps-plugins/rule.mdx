@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T03:12:10.585Z
+lastUpdated: 2026-02-18T03:14:44.977Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -47,7 +47,7 @@ Agents are what developers interact with, they take the necessary actions to ach
 
 Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent.
 
-This reduces the fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
+This reduces the context pollution inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
 
 <boxEmbed
   body={<>
@@ -73,7 +73,7 @@ This reduces the fluff inside of the main conversation window, with the primary 
 
 ### AGENTS.md
 
-AGENTS.md is a markdown file that is loaded at the start of every session, providing project context to the AI Agent.
+AGENTS.md are markdown files that are loaded at the start of every session, providing project context to the AI Agent.
 
 <boxEmbed
   body={<>
