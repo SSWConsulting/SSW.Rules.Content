@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T00:15:57.284Z
+lastUpdated: 2026-02-18T00:18:08.272Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -49,7 +49,9 @@ Subagents are isolated AI instances with their own context window, capable of ru
 
 <boxEmbed
   body={<>
-    **Use Case:** You ask an agent to research five competitors. Instead of going through each competitor sequentially, it can spawn five subagents that each research one in parallel, then the primary agent synthesizes the results into a single comparison. The win is speed and focus.
+    **Use Case:** You have a workflow which has 5 independent steps. Sub-agents allow for independent tasks to be parallelized in order to complete the task faster.
+    
+    Spawning parallel workers will be more efficient than an individual worker.
   </>}
   figurePrefix="none"
   figure=""
