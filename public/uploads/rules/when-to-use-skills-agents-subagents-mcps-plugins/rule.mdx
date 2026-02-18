@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T00:21:05.409Z
+lastUpdated: 2026-02-18T00:25:58.634Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -127,6 +127,15 @@ Skills are reusable prompts that standardize how AI approach a repeatable proced
   figure=""
   style="greybox"
 />
+
+### In Summary
+
+You can think of it like a software project:
+
+* **AGENTS.md** are your README and .env file - always-present configuration
+* **Skills** are your utility library - reusable, modular, loaded when needed
+* **Subagents** are your worker threads - isolated, parallel, focused execution
+* **MCP Servers** are your API integrations - connecting to external services
 
 ## Understanding the differences
 
@@ -260,40 +269,24 @@ You should use subagents when the task is self-contained and does not require us
   style="greybox"
 />
 
-## The extensibility spectrum
+## Practical adoption strategy
 
-These mechanisms form a spectrum from simple to complex. Start simple and only add complexity when needed:
+There is no need for stress over selecting the perfect tool every time, they're all just optimizations for specific use cases.
 
-1. **AGENTS.md** - Static knowledge and conventions (start here)
-2. **Skills** - Reusable, on-demand expertise with supporting files
-3. **MCP Servers** - External tool and data source integration
-4. **Custom agents / Subagents** - Isolated, specialized execution contexts
-5. **Agent SDK** - Full programmatic agents for production systems
+* There are no consequences for choosing the wrong tool. There are many ways to achieve the same goal.
+* Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
 
 <boxEmbed
   body={<>
-    You can think of it like a software project:
-    
-    * **AGENTS.md** are your README and .env file - always-present configuration
-    * **Skills** are your utility library - reusable, modular, loaded when needed
-    * **Subagents** are your worker threads - isolated, parallel, focused execution
-    * **MCP Servers** are your API integrations - connecting to external services
+    1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
+    2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
+    3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
+    4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
-
-## Practical adoption strategy
-
-There is no need for stress over selecting the perfect tool every ttime, they're all just optimizations for specific use cases anad do not have drastic consequences for choosing the wrong tool. As you continue to use them, it will become clearer as you do when specific tools make your AI assisted workflow easier.
-
-Don't try to adopt everything at once. Instead, follow this progression to get comfortable with the tools available:
-
-1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
-2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
-3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
-4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
 
 ## Further reading
 
