@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, and MCP servers, t
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T03:21:55.253Z
+lastUpdated: 2026-02-18T04:02:04.678Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -209,7 +209,7 @@ Whilst you can put all your "skills" in AGENTS.md, this introduces unnecessary t
 
 **Similarities:**
 
-* Both can be used to achieve similar end results for a given task
+* Both contain specialised instructions and context on how to perform tasks
 * Both extend the capabilities of an agent beyond its defaults
 * Both reduce the need for repetitive manual prompting
 
@@ -223,7 +223,20 @@ Whilst you can put all your "skills" in AGENTS.md, this introduces unnecessary t
 * Skills run sequentially within the main agent's context - the agent needs to finish one task before moving onto the next
 * Subagents run in their own isolated context windows in parallel - multiple tasks can be processed simultaneously, but they cannot interact with the user mid-execution
 
-Because subagents cannot have back-and-forth interaction with the user, they are best suited for self-contained tasks. Skills, on the other hand, run within the main agent and can still leverage user interaction when needed.
+Because subagents cannot have back-and-forth interaction with the user, they are best suited for self-contained tasks.
+
+Skills can run within the main agent or subagents, and direct the actions taken by the agent.
+
+<boxEmbed
+  body={<>
+    Subagents can actually use skills to guide them on the process they should take when performing certain tasks.
+    
+    The same limitation remains though that subagents cannot have back-and-forth interaction with the user, and thus, are best suited for self-contained tasks.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 <boxEmbed
   body={<>
