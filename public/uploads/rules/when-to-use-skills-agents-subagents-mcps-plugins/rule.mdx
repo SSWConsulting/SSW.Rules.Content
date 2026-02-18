@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or pl
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-18T00:18:08.272Z
+lastUpdated: 2026-02-18T00:20:11.048Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -45,7 +45,9 @@ Agents are what developers interact with, they take the necessary actions to ach
 
 ### Subagent
 
-Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent. This reduces the fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
+Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent. 
+
+This reduces the fluff inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
 
 <boxEmbed
   body={<>
@@ -56,6 +58,17 @@ Subagents are isolated AI instances with their own context window, capable of ru
   figurePrefix="none"
   figure=""
   style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    Subagents are unable to interact back and forth with the user, or with each other.
+    
+    They also may cause conflicts if not scoped to independent work.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
 />
 
 ### AGENTS.md
