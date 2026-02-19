@@ -60,31 +60,68 @@ function getIndexFromCategory(frontmatter) {
 function appendRuleToCategoryFile(categoryPath, rulePath) {
   const fullPath = path.resolve(repoRoot, categoryPath);
   const contents = fs.readFileSync(fullPath, "utf8");
-  const newEntry = `  - rule: ${rulePath}`;
-
-  // Find the last "- rule:" line in the index section and insert after it
   const lines = contents.split("\n");
-  let lastRuleIndex = -1;
-  for (let i = 0; i < lines.length; i++) {
-    if (/^\s+-\s+rule:\s/.test(lines[i])) {
-      lastRuleIndex = i;
+
+  // Find frontmatter bounds (--- ... ---)
+  const fmStart = lines.findIndex((l) => l.trim() === "---");
+  if (fmStart === -1) {
+    throw new Error(`No frontmatter start '---' found in '${categoryPath}'.`);
+  }
+  const fmEnd = lines.findIndex((l, i) => i > fmStart && l.trim() === "---");
+  if (fmEnd === -1) {
+    throw new Error(`No frontmatter end '---' found in '${categoryPath}'.`);
+  }
+
+  // Locate the 'index:' line within frontmatter
+  const indexLineNo = lines.findIndex(
+    (l, i) => i > fmStart && i < fmEnd && /^\s*index:\s*$/.test(l)
+  );
+  if (indexLineNo === -1) {
+    throw new Error(`No 'index:' field found in frontmatter of '${categoryPath}'.`);
+  }
+
+  // Determine list item indent style by looking for existing "- rule:" lines
+  // between indexLineNo and fmEnd.
+  let itemIndent = ""; // default: no indent (matches your "before" example)
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    const m = /^(\s*)-\s+rule:\s+/.exec(lines[i]);
+    if (m) {
+      itemIndent = m[1]; // preserve existing style ("" or "  " etc.)
+      break;
+    }
+    // Stop if we hit another top-level key (e.g., lastUpdated:) before any list items
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(lines[i]) && !/^\s*-\s+/.test(lines[i])) {
+      break;
     }
   }
 
-  if (lastRuleIndex !== -1) {
-    lines.splice(lastRuleIndex + 1, 0, newEntry);
-  } else {
-    // No existing rule entries — append after "index:" line
-    for (let i = 0; i < lines.length; i++) {
-      if (/^index:\s*$/.test(lines[i])) {
-        lines.splice(i + 1, 0, newEntry);
-        break;
-      }
+  const newEntryLine = `${itemIndent}- rule: ${rulePath}`;
+
+  // Find the last "- rule:" line that belongs to index list (before next key or fmEnd)
+  let insertAt = indexLineNo + 1;
+
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    // If we reach another key (not a list item), index list has ended
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(lines[i]) && !/^\s*-\s+/.test(lines[i])) {
+      insertAt = i;
+      break;
+    }
+    // Track last list item position
+    if (/^\s*-\s+rule:\s+/.test(lines[i])) {
+      insertAt = i + 1;
     }
   }
+
+  // If we never hit another key, append before fmEnd
+  if (insertAt < indexLineNo + 1) insertAt = indexLineNo + 1;
+  if (insertAt > fmEnd) insertAt = fmEnd;
+
+  // Insert at end of index list
+  lines.splice(insertAt, 0, newEntryLine);
 
   fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
 }
+
 
 function fixCategorySync(changedFiles) {
   const errors = [];
@@ -130,8 +167,12 @@ function fixCategorySync(changedFiles) {
       );
 
       if (!isRuleInIndex) {
-        appendRuleToCategoryFile(categoryPath, rulePath);
-        fixed.push({ rulePath, categoryPath });
+        try {
+          appendRuleToCategoryFile(categoryPath, rulePath);
+          fixed.push({ rulePath, categoryPath });
+        } catch (e) {
+          errors.push(String(e.message || e));
+        }
       }
     }
   }
