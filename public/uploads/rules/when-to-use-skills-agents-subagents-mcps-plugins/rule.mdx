@@ -1,5 +1,5 @@
 ---
-title: 'Do you know when to use Skills, Agents, Subagents and MCPs?'
+title: 'Do you know when to use skills, custom agents, subagents, and MCPs?'
 uri: when-to-use-skills-agents-subagents-mcps-plugins
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -25,13 +25,13 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities - skills, custom agents, subagents, and MCP servers. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
+AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities: **skills**, **custom agents**, **subagents**, and **MCP servers**. Each solves a different problem, and choosing the wrong one can introduce unnecessary complexity or limitations. Knowing which mechanism to use saves time and keeps your setup maintainable.
 
 <endIntro />
 
 <imageEmbed alt="Retro instructional style command room diagram showing a central AGENT directing SUBAGENTS around a table of SKILLS, with an external MCP communications console connected by signal lines." size="large" showBorder={false} figurePrefix="none" figure="Think of your agentic workflow like this!" src="/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/when-to-use-agents-subagents-mcps-banner-image.png" />
 
-### Agent
+## Agent
 
 Agents are what developers interact with, they take the necessary actions to achieve the user's intended goal. By utilising the following tools, they can be enhanced for specific scenarios to be even more effective.
 
@@ -43,7 +43,7 @@ Agents are what developers interact with, they take the necessary actions to ach
   figure=""
 />
 
-### AGENTS.md
+## AGENTS.md
 
 AGENTS.md are markdown files that are loaded at the start of every session, providing project context to the AI Agent.
 
@@ -72,7 +72,7 @@ AGENTS.md are markdown files that are loaded at the start of every session, prov
   style="tips"
 />
 
-### Subagent
+## Subagent
 
 Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent.
 
@@ -100,7 +100,7 @@ This reduces the context pollution inside of the main conversation window, with 
   style="warning"
 />
 
-### Skill
+## Skill
 
 [Skills](/rules/ai-agents-with-skills) are folders that contain a SKILL.md file. This file includes metadata such as its name, description, and a set of instructions that tell an agent how to perform a specific task. Skills can also bundle together scripts, templates, and reference material.
 
@@ -124,7 +124,7 @@ This reduces the context pollution inside of the main conversation window, with 
   style="info"
 />
 
-### MCP Server
+## MCP Server
 
 [MCP servers](/use-mcp-to-standardize-llm-connections) are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to use tools and access external data.
 
@@ -137,11 +137,13 @@ This reduces the context pollution inside of the main conversation window, with 
   style="greybox"
 />
 
+***
+
 ## What if you choose the wrong tool?
 
 There are no consequences for choosing the wrong tool. There are many ways to achieve the same goal.
 
-* Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
+Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
 
 <boxEmbed
   body={<>
@@ -157,7 +159,9 @@ There are no consequences for choosing the wrong tool. There are many ways to ac
   style="tips"
 />
 
-## More information
+***
+
+## AI Tools Compared
 
 With how rapidly AI-assisted development is evolving, we find these tools often overlap one another with the problem they're intended to solve. Here are the key differences between some seemingly similar tools.
 
@@ -176,8 +180,8 @@ With how rapidly AI-assisted development is evolving, we find these tools often 
 
 **How they're different:**
 
-* Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused.
-* MCP servers are code. They expose tools for agents and the instructions on how to use those tools.
+* Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused
+* MCP servers are code. They expose tools for agents and the instructions on how to use those tools
 
 Skills and MCPs are complementary to one another: A skill can instruct the AI to use tools exposed by an MCP server.
 
