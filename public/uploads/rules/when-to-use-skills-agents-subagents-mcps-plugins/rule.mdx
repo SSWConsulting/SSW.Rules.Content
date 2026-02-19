@@ -20,9 +20,9 @@ seoDescription: 'Learn when to use Skills, Agents, subagents, and MCP servers, t
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-19T04:01:04.678Z
-lastUpdatedBy: Capt. Brady Stroud
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2026-02-19T06:46:45.341Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
 AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities - skills, custom agents, subagents, and MCP servers. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
@@ -41,34 +41,6 @@ Agents are what developers interact with, they take the necessary actions to ach
   </>}
   figurePrefix="none"
   figure=""
-/>
-
-### Subagent
-
-Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent.
-
-This reduces the context pollution inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
-
-<boxEmbed
-  body={<>
-    **Use Case:** You have a workflow which has 5 independent steps. Sub-agents allow for independent tasks to be parallelized in order to complete the task faster.
-    
-    Spawning parallel workers will be more efficient than an individual worker.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="greybox"
-/>
-
-<boxEmbed
-  body={<>
-    Subagents are unable to interact back and forth with the user, or with each other.
-    
-    They also may cause conflicts if not scoped to independent work.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
 />
 
 ### AGENTS.md
@@ -98,6 +70,34 @@ AGENTS.md are markdown files that are loaded at the start of every session, prov
   figurePrefix="none"
   figure=""
   style="tips"
+/>
+
+### Subagent
+
+Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent.
+
+This reduces the context pollution inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
+
+<boxEmbed
+  body={<>
+    **Use Case:** You have a workflow which has 5 independent steps. Sub-agents allow for independent tasks to be parallelized in order to complete the task faster.
+    
+    Spawning parallel workers will be more efficient than an individual worker.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    Subagents are unable to interact back and forth with the user, or with each other.
+    
+    They also may cause conflicts if not scoped to independent work.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
 />
 
 ### Skill
