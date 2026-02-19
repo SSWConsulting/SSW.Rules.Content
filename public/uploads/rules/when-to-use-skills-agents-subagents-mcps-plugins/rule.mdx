@@ -20,7 +20,7 @@ seoDescription: 'Learn when to use Skills, Agents, subagents, and MCP servers, t
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-19T06:46:45.341Z
+lastUpdated: 2026-02-19T06:49:33.639Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -137,7 +137,27 @@ This reduces the context pollution inside of the main conversation window, with 
   style="greybox"
 />
 
-## Understanding the differences
+## What if you choose the wrong tool?
+
+There are no consequences for choosing the wrong tool. There are many ways to achieve the same goal.
+
+* Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
+
+<boxEmbed
+  body={<>
+    A gradual progression to get started:
+    
+    1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
+    2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
+    3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
+    4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## More information
 
 With how rapidly AI-assisted development is evolving, we find these tools often overlap one another with the problem they're intended to solve. Here are the key differences between some seemingly similar tools.
 
@@ -280,25 +300,4 @@ You should use subagents when the task is self-contained and does not require us
   figurePrefix="good"
   figure="Use subagents for self-contained parallel tasks, keeping the main agent's context focused"
   style="greybox"
-/>
-
-## Practical adoption strategy
-
-There is no need for stress over selecting the perfect tool every time, they're all just optimizations for specific use cases.
-
-* There are no consequences for choosing the wrong tool. There are many ways to achieve the same goal.
-* Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
-
-<boxEmbed
-  body={<>
-    A gradual progression to get started:
-    
-    1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
-    2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
-    3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
-    4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
 />
