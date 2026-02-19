@@ -1,40 +1,193 @@
 ---
-seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
 type: rule
-title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
+title: Do you know how to multi-target your .NET projects?
+uri: manage-compatibility-for-different-tfms
 categories:
   - category: categories/software-engineering/rules-to-better-net10-migrations.mdx
-uri: manage-compatibility-for-different-tfms
 authors:
   - title: Yazhi Chen
-    url: https://www.ssw.com.au/people/yazhi-chen
+    url: 'https://www.ssw.com.au/people/yazhi-chen'
   - title: Kosta Madorsky
-    url: https://www.ssw.com.au/people/kosta-madorsky
+    url: 'https://www.ssw.com.au/people/kosta-madorsky/'
   - title: Kaha Mason
-    url: https://www.ssw.com.au/people/kaha-mason
+    url: 'https://www.ssw.com.au/people/kaha-mason/'
   - title: Sylvia Huang
-    url: https://www.ssw.com.au/people/sylvia-huang
-created: 2023-09-01T01:39:10.755Z
+    url: 'https://www.ssw.com.au/people/sylvia-huang/'
 guid: 05a2bdf2-d173-4c46-a700-b2b3b83408e2
+seoDescription: 'Learn how to manage compatibility between different Target Frameworks by using multi-targeting, C# preprocessor directives, and MSBuild conditions.'
+created: 2023-09-01T01:39:10.755Z
+createdBy: Kaha Mason
+createdByEmail: kahamason@ssw.com.au
+lastUpdated: 2026-02-04T05:59:35.203Z
+lastUpdatedBy: Kaha Mason
+lastUpdatedByEmail: kahamason@ssw.com.au
 ---
-Migrating your project to a new Target Framework Moniker (TFM) can be a complex task, especially when you're dealing with compatibility issues between different Target Framework Monikers (TFMs). It is suggested to handle your migration PBIs (Product Backlog Items) collectively and transition your main branch to the new TFM. Making this judgment call requires careful consideration of factors like the number of PBIs and their estimated completion time.
 
-Here are some essential tips for managing changes that are not compatible with both the old and new TFMs:
+Migrating your project to the latest version of .NET can be a difficult task, especially when you need to maintain compatibility with older versions of .NET during the transition. Ultimately, we want to get our projects to be running on the newest and latest .NET, but this process often requires careful planning and execution so as to not impact our existing application.
+
+Multi-targeting target framework allows you to build and test your project against multiple versions of .NET simultaneously, which can help you maintain your current application while progressively migrating to the latest .NET version. This will also allow you to identify and resolve compatibility issues early in the migration process, which will save time and effort overall.
+
+This rule provides guidance on how to manage compatibility when transitioning between target frameworks.
 
 <endIntro />
 
-### Using #if Pragma Statements
+Here are some strategies to help you manage compatibility between different frameworks:
 
-You can use #if pragma statements to compile code exclusively for a specific TFM. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
+### Multi-targeting your project
 
-Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the TFM you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away TFM-specific details.
+You can specify multiple target frameworks in your project file using the `TargetFrameworks` property:
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>net48;net10.0</TargetFrameworks>
+</PropertyGroup>
+```
+
+This approach lets you continue to maintain your current application while also building and testing for the desired target framework you aim to migrate to. Being able to build and test against both target frameworks makes compatibility issues more visible in CI (because both target frameworks will compiled).
+
+When multi-targeting to migrate to `net10`, teams should weigh the pros and cons in regards of performance, maintenance and CI.
+
+✅ **Pros:**
+- Incremental migration: allows you to migrate one project at a time, reducing the scope and risk of changes.
+- Compatibility visibility: CI builds and tests both target frameworks, making it easier to identify and fix compatibility issues early in the migration process.
+- Parallel development: allows you to develop and test new features on `net10` while maintaining the existing codebase on `net48`, enabling a smoother transition for developers and users.
+- Risk mitigation / Rollback: if issues arise with the new target framework, you can quickly switch back to the legacy target framework to keep the application running while you address the problems.
+- User impact reduction: allows you to continue delivering value to users on the existing target framework while you work on the migration, minimizing disruption and maintaining user satisfaction.
+- Gradual API adoption: lets you adopt `net10` APIs in isolated files or projects without breaking existing consumers.
+- Lower immediate risk: reduces pressure to rewrite large UI/native codebases all at once.
+- Incremental cleanup: once the migration is complete, you can remove the old target framework and related compatibility code in a single step, simplifying the cleanup process.
+
+❌ **Cons:**
+- Increased complexity: maintaining multiple target frameworks can lead to more complex project files, build configurations, and code with conditional compilation.
+- Increased build / test time: each target framework builds and runs tests separately, which can significantly increase CI times and local development iteration speed.
+- Increased testing coverage: you need to test all code paths for each target framework, which can increase the testing effort and make it harder to ensure comprehensive test coverage.
+- Maintenance overhead: you need to maintain compatibility code, conditional references, and potentially duplicate code paths for each target framework until the migration is complete.
+- Longer migration timeline: maintaining multiple target frameworks can slow down the migration process, as you need to ensure compatibility and stability across all target frameworks until the old one can be removed.
+
+These are temporary overheads during migration and will be fixed once the full migration is complete and you can remove the old target framework from `TargetFrameworks`.
+
+### Centralise Target Frameworks in the Directory.Build.props file
+
+To keep `TargetFrameworks` and related project properties consistent across many projects, define shared properties in a `Directory.Build.props` (or a repo-level `.props`) and reference them from each project. This centralises updates and avoids copy/paste drift.
+
+Directory.Build.props:
+
+```xml
+<Project>
+  <PropertyGroup>
+    <LegacyTargetFramework>net48</LegacyTargetFramework>
+    <ModernTargetFramework>net10.0</ModernTargetFramework>
+    <ModernWindowsTargetFramework>net10.0-windows</ModernWindowsTargetFramework>
+    <!-- Common groups for cross-platform and Windows-only scenarios -->
+    <CommonTargetFrameworks>$(LegacyTargetFramework);$(ModernTargetFramework)</CommonTargetFrameworks>
+    <CommonTargetFrameworksWindows>$(LegacyTargetFramework);$(ModernWindowsTargetFramework)</CommonTargetFrameworksWindows>
+
+    <!-- Helper flags (correct spelling) -->
+    <IsLegacyCompatibilityBuild Condition="'$(TargetFramework)' == '$(LegacyTargetFramework)'">true</IsLegacyCompatibilityBuild>
+    <IsModernCompatibilityBuild Condition="'$(TargetFramework)' == '$(ModernTargetFramework)'">true</IsModernCompatibilityBuild>
+    <IsModernWindowsCompatibilityBuild Condition="'$(TargetFramework)' == '$(ModernWindowsTargetFramework)'">true</IsModernWindowsCompatibilityBuild>
+  </PropertyGroup>
+</Project>
+```
+
+Project file usage:
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
+  <!-- or for Windows-only migrations: $(CommonTargetFrameworksWindows) -->
+</PropertyGroup>
+
+<!-- Define per target framework symbols using the helper flags -->
+<PropertyGroup Condition="'$(IsLegacyCompatibilityBuild)' == 'true'">
+  <DefineConstants>$(DefineConstants);LEGACY_COMPATIBILITY</DefineConstants>
+</PropertyGroup>
+
+<PropertyGroup Condition="'$(IsModernCompatibilityBuild)' == 'true'">
+  <DefineConstants>$(DefineConstants);MODERN_COMPATIBILITY</DefineConstants>
+</PropertyGroup>
+
+<!-- Example per target framework package references -->
+<ItemGroup Condition="'$(IsModernCompatibilityBuild)' == 'true'">
+  <PackageReference Include="Some.Modern.Package" Version="10.*" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(IsLegacyCompatibilityBuild)' == 'true'">
+  <PackageReference Include="Some.Legacy.Package" Version="1.*" />
+</ItemGroup>
+```
+
+This approach provides a single place to declare common project properties, reduces merge conflicts, and makes bulk migrations easier.
+
+### Temporarily disable building the legacy target framework
+
+During a migration you may want to keep the legacy TFM (for reference) but stop building it in CI and reduce local build time once approaching the end of the migration process. You can use a small MSBuild flag to opt-in/opt-out the legacy target framework without the need to remove code.
+
+Directory.Build.props:
+
+```xml
+<PropertyGroup>
+  <LegacyTargetFramework>net48</LegacyTargetFramework>
+  <ModernTargetFramework>net10.0</ModernTargetFramework>
+  <IncludeLegacyTarget Condition="'$(IncludeLegacyTarget)'==''">true</IncludeLegacyTarget>
+
+  <!-- default: include legacy build -->
+  <TargetFrameworks Condition="'$(IncludeLegacyTarget)' == 'true'">$(LegacyTargetFramework);$(ModernTargetFramework)</TargetFrameworks>
+
+  <!-- exclude legacy only when the flag is false -->
+  <TargetFrameworks Condition="'$(IncludeLegacyTarget)' == 'false'">$(ModernTargetFramework)</TargetFrameworks>
+</PropertyGroup>
+```
+
+### Windows-specific target frameworks
+
+When targeting Windows-only APIs (WinForms, WPF), it is preferred to use explicit Windows target frameworks so you can opt into platform-specific tooling and runtime behavior.
+
+```xml
+<PropertyGroup>
+  <TargetFrameworks>net48;net10.0-windows</TargetFrameworks>
+  <UseWPF>true</UseWPF>
+  <UseWindowsForms>true</UseWindowsForms>
+</PropertyGroup>
+```
+**✅ Good example - Using Windows-specific target frameworks**
+
+The main pros and cons of this approach are dependent on whether your goal is to migrate to a cross-platform framework (Linux/macOS) or to remain Windows-only.
+
+✅ **Pros:**
+- Minimal rewrite: UI and native interop require fewer changes and can continue to use Windows-specific APIs without needing to abstract them for cross-platform compatibility. 
+- Native interop preserved: existing COM/Win32 interop and native wrappers continue to work, reducing rewrite effort.
+- Access modern Windows-only APIs on `net10.0-windows` (App SDK, WinRT wrappers) without losing the old build.
+- Avoids the need to remove Windows-specific code immediately as both target frameworks are Windows-only.
+- Lower migration surface for Windows apps: fewer cross-platform abstractions required, making incremental migration faster for Windows-first apps.
+
+❌ **Cons:**
+- Migrating from windows-only to cross-platform frameworks (e.g `net48 or net10.0-windows -> net10.0`) 
+  - Project cannot share Windows-specific code, so you may need to refactor or isolate Windows-specific code into a separate project.
+  - Requires more condition code and MSBuild conditions to manage the differences between Windows and cross-platform target frameworks.
+  - Longer migration timeline as you may need to maintain the Windows-specific target framework until the full migration is complete.
+- Platform-compatibility analyzers and `SupportedOSPlatform` warnings may appear; developers must handle or suppress appropriately.
+- Artifacts built for Windows-only target frameworks are not portable to Linux/macOS.
+
+When the Windows-specific codebase is small, you can isolate it with `#if` guards or partial classes; when large, it is recommended to separate into Windows-only projects to keep the shared libraries clean.
+
+❔**Decision guidance:**
+- **Windows Specific Framework** - Windows-first / heavy UI or native interop: prefer `net10.0-windows` (or a Windows-only project) to minimise rewrites, keep tooling and installers, and reduce short-term migration risk.
+- **Cross-platform Framework** - Need portability, cloud/containerisation or broader hosting: prefer migrating shared libraries to cross-platform target frameworks (`net10`) and extract Windows UI/interop into a separate Windows-only project.
+
+Ultimately, the decision to maintain Windows-specific target frameworks or migrate directly to cross-platform depends on the goals, timelines, and constraints of your migration project.
+
+### Using C# preprocessor directives (`#if`, `#elif`, `#endif`)
+
+You can use C# preprocessor directives to compile code exclusively for a specific target framework. This technique also simplifies the removal process during post-migration cleanup, especially for incompatible code segments.
+Whenever possible, consider using dependency injection or factory patterns to inject the appropriate implementation based on the target framework you are targeting. This approach promotes code flexibility and maintainability, as it abstracts away target framework-specific details.
 
 ```cs
 public static class WebClientFactory
 {
   public static IWebClient GetWebClient()
   {
-#if NET472
+#if NET48
     return new CustomWebClient();
 #else
     return new CustomHttpClient();
@@ -42,17 +195,82 @@ public static class WebClientFactory
   }
 }
 ```
-**✅ Code: Good example - Using #if Pragma statements and factory pattern**  
+**✅ Code: Good example - Using preprocessor directives and a factory pattern**
+
+Tip: Prefer explicit version checks when possible, as they scale better than `#else`:
+
+```cs
+#if NET
+// Use the modern .NET implementation
+#else
+// Use the .NET Framework implementation
+#endif
+```
+
+If you want `#if NET48` to work reliably, define it in your project file (so it’s available when compiling the `net48` target):
+
+```xml
+<PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+  <DefineConstants>$(DefineConstants);NET48</DefineConstants>
+</PropertyGroup>
+```
+**✅ Code: Good example - Defining custom preprocessor symbols per target framework**
 
 ### Using MSBuild conditions
 
-You can use MSBuild conditions to add references to different libraries that are only compatible with a specific TFM. This enables you to manage references dynamically based on the TFM in use.
-
-```cs
-<ItemGroup Condition="'$(TargetFramework)' == 'net472'">
+You can use MSBuild conditions to add references to different libraries that are only compatible with a specific target framework. This enables you to manage references dynamically based on the target framework in use.
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.ApplicationServices" />
 </ItemGroup>
 ```
-**✅ Code: Good example - Using MSBuild conditions**  
+**✅ Code: Good example - Using MSBuild conditions**
+
+#### Conditional NuGet packages per target framework
+
+In SDK-style projects, you can use a similar approach to separate target-specific NuGet packages:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <PackageReference Include="Some.Legacy.Package" Version="1.*" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <PackageReference Include="Some.Modern.Package" Version="10.*" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="Common.Package" Version="5.*" />
+</ItemGroup>
+```
+**✅ Code: Good example - Conditional NuGet packages per target framework**
+
+#### Optional: Include different source files per target framework
+
+If the implementation differs a lot, keep the code in separate files and include them conditionally:
+
+```xml
+<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+  <Compile Include="Compatibility\\WebClientFactory.net48.cs" />
+</ItemGroup>
+
+<ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  <Compile Include="Compatibility\\WebClientFactory.net10.cs" />
+</ItemGroup>
+```
+**✅ Code: Good example - Conditional source files per target framework**
+
+### Post-migration cleanup
+
+Once the main branch has fully moved to the new target framework:
+* Remove the old target framework from `TargetFrameworks`
+* Delete the old implementation paths (or per-target framework files)
+* Remove conditional MSBuild blocks and legacy package references
+
+### Definition of done
+
+* The project builds for all target frameworks
+* Tests run for each target framework in CI
+* Compatibility code is isolated (minimal `#if` in domain/business logic)
