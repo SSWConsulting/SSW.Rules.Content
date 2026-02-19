@@ -40,7 +40,7 @@ Web performance in Next.js is commonly the result of multiple choices made throu
 
 Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization.
 
-The next/image component automatically optimizes image size, format, and delivery, helping reduce page weight and improve load times. Offscreen images are deferred automatically (lazily loaded), reducing LCP.
+The next/image component automatically optimizes image size, format, and delivery, helping reduce page weight and improve load times. Offscreen images are deferred automatically (lazily loaded), reducing LCP. The Next.js image component also constrains your image dimensions, preventing layout shifts from occurring when the image loads on the client.
 
 <boxEmbed
   body={<>
