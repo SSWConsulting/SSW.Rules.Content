@@ -102,7 +102,7 @@ AGENTS.md are markdown files that are loaded at the start of every session, prov
 
 ### Skill
 
-Skills are folders that contain a SKILL.md file. This file includes metadata such as its name, description, and a set of instructions that tell an agent how to perform a specific task. Skills can also bundle together scripts, templates, and reference material.
+[Skills](/rules/ai-agents-with-skills) are folders that contain a SKILL.md file. This file includes metadata such as its name, description, and a set of instructions that tell an agent how to perform a specific task. Skills can also bundle together scripts, templates, and reference material.
 
 [Do you use skills to standardize your AI workflows?](https://www.ssw.com.au/rules/ai-agents-with-skills)
 
@@ -149,12 +149,12 @@ With how rapidly AI-assisted development is evolving, we find these tools often 
 * Both inject situation-specific context into agents
 * Both are automatically invoked by agents based on the situation
 
-**High level difference:**
+**Differences:**
 
 * Skills tell the agents what to do - they inject prompts, scripts, workflows, and domain specific knowledge
 * MCP Servers give agents access to the tools - they connect agents to external systems
 
-**Structural difference:**
+**How they're different:**
 
 * Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused.
 * MCP servers are code. They expose tools for agents and the instructions on how to use those tools.
@@ -181,12 +181,12 @@ Skills and MCPs are complementary to one another: A skill can instruct the AI to
 * Both are stored within markdown files
 * Both influence how the agent behaves on a task
 
-**High level difference:**
+**Differences:**
 
 * AGENTS.md defines general, always-present rules and conventions for a codebase
 * Skills define specific, on-demand instructions for particular tasks that are portable across codebases
 
-**Structural difference:**
+**How they're different:**
 
 * AGENTS.md is always loaded - every token counts against your context window from the start
 * Skills load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
@@ -213,12 +213,12 @@ Whilst you can put all your "skills" in AGENTS.md, this introduces unnecessary t
 * Both extend the capabilities of an agent beyond its defaults
 * Both reduce the need for repetitive manual prompting
 
-**High level difference:**
+**Differences:**
 
 * Skills define **what** the agent should do - they provide instructions and workflows
 * Subagents define **how** the agent executes - they provide isolated, parallel execution contexts
 
-**Structural difference:**
+**How they're different:**
 
 * Skills run sequentially within the main agent's context - the agent needs to finish one task before moving onto the next
 * Subagents run in their own isolated context windows in parallel - multiple tasks can be processed simultaneously, but they cannot interact with the user mid-execution
@@ -258,12 +258,12 @@ Skills can run within the main agent or subagents, and direct the actions taken 
 * Both have access to tools (file reading, code execution, etc.)
 * Both can reason about and act on a given task
 
-**High level difference:**
+**Differences:**
 
 * Agents are the primary process - they interact directly with the user and orchestrate work
 * Subagents are child processes - they are spawned by the primary agent to handle isolated, self-contained tasks
 
-**Structural difference:**
+**How they're different:**
 
 * Agents run in the main context window and can have back-and-forth conversations with the user
 * Subagents run in their own isolated context window - heavy search results don't clutter the main conversation, and you can restrict what tools a subagent has access to (e.g. read-only for reviewers). The main conversation only receives a summary of the work done by subagents
