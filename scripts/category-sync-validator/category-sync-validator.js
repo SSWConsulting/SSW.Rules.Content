@@ -60,31 +60,130 @@ function getIndexFromCategory(frontmatter) {
 function appendRuleToCategoryFile(categoryPath, rulePath) {
   const fullPath = path.resolve(repoRoot, categoryPath);
   const contents = fs.readFileSync(fullPath, "utf8");
-  const newEntry = `  - rule: ${rulePath}`;
-
-  // Find the last "- rule:" line in the index section and insert after it
   const lines = contents.split("\n");
-  let lastRuleIndex = -1;
-  for (let i = 0; i < lines.length; i++) {
-    if (/^\s+-\s+rule:\s/.test(lines[i])) {
-      lastRuleIndex = i;
+
+  // Find frontmatter bounds (--- ... ---)
+  const fmStart = lines.findIndex((l) => l.trim() === "---");
+  if (fmStart === -1) {
+    throw new Error(`No frontmatter start '---' found in '${categoryPath}'.`);
+  }
+  const fmEnd = lines.findIndex((l, i) => i > fmStart && l.trim() === "---");
+  if (fmEnd === -1) {
+    throw new Error(`No frontmatter end '---' found in '${categoryPath}'.`);
+  }
+
+  // Locate the 'index:' line within frontmatter
+  const indexLineNo = lines.findIndex(
+    (l, i) => i > fmStart && i < fmEnd && /^\s*index:\s*$/.test(l)
+  );
+  if (indexLineNo === -1) {
+    throw new Error(`No 'index:' field found in frontmatter of '${categoryPath}'.`);
+  }
+
+  // Determine list item indent style by looking for existing "- rule:" lines
+  // between indexLineNo and fmEnd.
+  let itemIndent = ""; // default: no indent (matches your "before" example)
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    const m = /^(\s*)-\s+rule:\s+/.exec(lines[i]);
+    if (m) {
+      itemIndent = m[1]; // preserve existing style ("" or "  " etc.)
+      break;
+    }
+    // Stop if we hit another top-level key (e.g., lastUpdated:) before any list items
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(lines[i]) && !/^\s*-\s+/.test(lines[i])) {
+      break;
     }
   }
 
-  if (lastRuleIndex !== -1) {
-    lines.splice(lastRuleIndex + 1, 0, newEntry);
-  } else {
-    // No existing rule entries — append after "index:" line
-    for (let i = 0; i < lines.length; i++) {
-      if (/^index:\s*$/.test(lines[i])) {
-        lines.splice(i + 1, 0, newEntry);
-        break;
-      }
+  const newEntryLine = `${itemIndent}- rule: ${rulePath}`;
+
+  // Find the last "- rule:" line that belongs to index list (before next key or fmEnd)
+  let insertAt = indexLineNo + 1;
+
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    // If we reach another key (not a list item), index list has ended
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(lines[i]) && !/^\s*-\s+/.test(lines[i])) {
+      insertAt = i;
+      break;
+    }
+    // Track last list item position
+    if (/^\s*-\s+rule:\s+/.test(lines[i])) {
+      insertAt = i + 1;
     }
   }
+
+  // If we never hit another key, append before fmEnd
+  if (insertAt < indexLineNo + 1) insertAt = indexLineNo + 1;
+  if (insertAt > fmEnd) insertAt = fmEnd;
+
+  // Insert at end of index list
+  lines.splice(insertAt, 0, newEntryLine);
 
   fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
 }
+
+function listAllCategoryFiles(dir = path.resolve(repoRoot, "categories")) {
+  const out = [];
+  if (!fs.existsSync(dir)) return out;
+
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      out.push(...listAllCategoryFiles(full));
+    } else if (entry.isFile() && entry.name.endsWith(".mdx")) {
+      out.push(path.relative(repoRoot, full).replace(/\\/g, "/"));
+    }
+  }
+  return out;
+}
+
+/**
+ * Removes any "- rule: <rulePath>" entries that belong to the `index:` block
+ * in the category frontmatter.
+ *
+ * Returns true if the file was modified.
+ */
+function removeRuleFromCategoryFile(categoryPath, rulePath) {
+  const fullPath = path.resolve(repoRoot, categoryPath);
+  const contents = fs.readFileSync(fullPath, "utf8");
+  const lines = contents.split("\n");
+
+  // Find frontmatter bounds (--- ... ---)
+  const fmStart = lines.findIndex((l) => l.trim() === "---");
+  if (fmStart === -1) return false;
+
+  const fmEnd = lines.findIndex((l, i) => i > fmStart && l.trim() === "---");
+  if (fmEnd === -1) return false;
+
+  // Locate 'index:' within frontmatter
+  const indexLineNo = lines.findIndex(
+    (l, i) => i > fmStart && i < fmEnd && /^\s*index:\s*$/.test(l)
+  );
+  if (indexLineNo === -1) return false;
+
+  // Walk index block until next key (e.g., lastUpdated:) or fmEnd
+  let changed = false;
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    const line = lines[i];
+
+    // Index block ends at the next YAML key (not a list item)
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(line) && !/^\s*-\s+/.test(line)) break;
+
+    const m = /^\s*-\s+rule:\s*(.+?)\s*$/.exec(line);
+    if (!m) continue;
+
+    const entryRule = getRulePathFromFile(m[1]);
+    if (entryRule === rulePath) {
+      lines.splice(i, 1);
+      i--; // adjust index after removal
+      changed = true;
+    }
+  }
+
+  if (changed) fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
+  return changed;
+}
+
 
 function fixCategorySync(changedFiles) {
   const errors = [];
@@ -130,10 +229,46 @@ function fixCategorySync(changedFiles) {
       );
 
       if (!isRuleInIndex) {
-        appendRuleToCategoryFile(categoryPath, rulePath);
-        fixed.push({ rulePath, categoryPath });
+        try {
+          appendRuleToCategoryFile(categoryPath, rulePath);
+          fixed.push({ action: "added", rulePath, categoryPath });
+        } catch (e) {
+          errors.push(String(e.message || e));
+        }
       }
     }
+
+    // Remove stale index entries:
+    // If any category index references this rule but the rule no longer lists that category, remove it.
+    const desiredCategorySet = new Set(
+      categories.map((c) => getRulePathFromFile(c))
+    );
+
+    const allCategoryFiles = listAllCategoryFiles();
+    for (const catFile of allCategoryFiles) {
+      const normalizedCat = getRulePathFromFile(catFile);
+
+      // Only remove from categories that are NOT currently referenced by the rule
+      if (desiredCategorySet.has(normalizedCat)) continue;
+
+      const catFrontmatter = readFrontmatter(catFile);
+      if (!catFrontmatter) continue;
+
+      const indexEntries = getIndexFromCategory(catFrontmatter);
+      const hasRule = indexEntries.some(
+        (entry) => getRulePathFromFile(entry) === rulePath
+      );
+
+      if (hasRule) {
+        try {
+          const didRemove = removeRuleFromCategoryFile(catFile, rulePath);
+          if (didRemove) fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+        } catch (e) {
+          errors.push(String(e.message || e));
+        }
+      }
+    }
+
   }
 
   return { errors, fixed };
@@ -159,8 +294,13 @@ function main() {
 
   if (fixed.length > 0) {
     console.log("Auto-fixed category index entries:");
-    for (const { rulePath, categoryPath } of fixed) {
-      console.log(`  - Added '${rulePath}' to '${categoryPath}'`);
+    for (const { action, rulePath, categoryPath } of fixed) {
+      if (action === "removed") {
+        console.log(`  - Removed '${rulePath}' from '${categoryPath}'`);
+      } else {
+        // default to "added"
+        console.log(`  - Added '${rulePath}' to '${categoryPath}'`);
+      }
     }
   }
 
