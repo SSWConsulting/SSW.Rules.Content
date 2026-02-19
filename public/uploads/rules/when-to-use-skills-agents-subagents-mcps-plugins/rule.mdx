@@ -1,0 +1,304 @@
+---
+title: 'Do you know when to use skills, agents, subagents, MCPs?'
+uri: when-to-use-skills-agents-subagents-mcps-plugins
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+  - title: Eddie Kranz
+    url: 'https://ssw.com.au/people/eddie-kranz'
+  - title: Josh Berman
+    url: 'https://ssw.com.au/people/josh-berman'
+related:
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
+  - rule: public/uploads/rules/use-mcp-to-standardize-llm-connections/rule.mdx
+guid: 8a2a5abd-103a-4f6f-8d0e-80dd596fbbae
+seoDescription: 'Learn when to use skills, agents, subagents, and MCP servers, to extend AI coding tools. A decision framework for choosing the right extensibility mechanism.'
+created: 2026-02-16T22:31:05.841Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-18T06:34:56.721Z
+lastUpdatedBy: Michael Qiu
+lastUpdatedByEmail: MichaelQiu@ssw.com.au
+---
+
+AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities - skills, custom agents, subagents, and MCP servers. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
+
+<endIntro />
+
+## An AI Glossary
+
+### Agent
+
+Agents are what developers interact with, they take the necessary actions to achieve the user's intended goal. By utilising the following tools, they can be enhanced for specific scenarios to be even more effective.
+
+<boxEmbed
+  body={<>
+    **Use Case:** You need to implement a new feature on your website E2E. A single agent will allow for full context.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Subagent
+
+Subagents are isolated AI instances with their own context window, capable of running in parallel with other subagents from a primary agent.
+
+This reduces the context pollution inside of the main conversation window, with the primary process only receiving summaries of results of the subagents.
+
+<boxEmbed
+  body={<>
+    **Use Case:** You have a workflow which has 5 independent steps. Sub-agents allow for independent tasks to be parallelized in order to complete the task faster.
+    
+    Spawning parallel workers will be more efficient than an individual worker.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    Subagents are unable to interact back and forth with the user, or with each other.
+    
+    They also may cause conflicts if not scoped to independent work.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+### AGENTS.md
+
+AGENTS.md are markdown files that are loaded at the start of every session, providing project context to the AI Agent.
+
+<boxEmbed
+  body={<>
+    **Use Case:** You're in a monorepo with React frontend and Python backend. Both the frontend and backend have their own AGENTS.md that tells the agents the local rules (e.g. "use pytest," "all routes need auth middleware.").
+    
+    This allows the codebase-specific context to be injected into every conversation, improving consistency by eliminating the need for developers to repeat themselves.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file
+    
+    * Claude Code uses `CLAUDE.md`
+    * Cursor uses `.cursorrules`
+    
+    But the concept remains the same. This rule uses `AGENTS.md` as the general term.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Skill
+
+Skills are folders that contain a SKILL.md file. This file includes metadata such as its name, description, and a set of instructions that tell an agent how to perform a specific task. Skills can also bundle together scripts, templates, and reference material.
+
+[Do you use skills to standardize your AI workflows?](https://www.ssw.com.au/rules/ai-agents-with-skills)
+
+<boxEmbed
+  body={<>
+    **Use Case:** A company has a specific way they like to perform security audits using AI. Rather than copy and pasting the prompt, we install the skill and instruct the agent to perform a security audit using the installed skill. The skill is injected into the agent's context, so the agent receives the same instruction every time.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    Concepts/terms such as reusable prompts, and custom slash commands have since been superseded by skills, which acts as an open standard for achieving the same result.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+### MCP Server
+
+[MCP servers](/use-mcp-to-standardize-llm-connections) are an external process that exposes tools and data via the open standard of [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), allowing your AI agents to use tools and access external data.
+
+<boxEmbed
+  body={<>
+    **Use Case:** You want your agent to see if the changes it made are reflected in your SQL database. You install an SQL MCP server to your agent. It is then able to read from the database and inform its context.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+## Understanding the differences
+
+With how rapidly AI-assisted development is evolving, we find these tools often overlap one another with the problem they're intended to solve. Here are the key differences between some seemingly similar tools.
+
+### Skills vs MCP Servers
+
+**Similarities:**
+
+* Both are designed to be shared and portable
+* Both inject situation-specific context into agents
+* Both are automatically invoked by agents based on the situation
+
+**High level difference:**
+
+* Skills tell the agents what to do - they inject prompts, scripts, workflows, and domain specific knowledge
+* MCP Servers give agents access to the tools - they connect agents to external systems
+
+**Structural difference:**
+
+* Skills are simply markdown files with some frontmatter. This makes them easily shared and lightweight. It's effectively a "portable set of instructions", which is intended to be reused.
+* MCP servers are code. They expose tools for agents and the instructions on how to use those tools.
+
+Skills and MCPs are complementary to one another: A skill can instruct the AI to use tools exposed by an MCP server.
+
+<boxEmbed
+  body={<>
+    **Scenario:** You want your agent to create a GitHub issue with a specific format whenever it finds a bug.
+    
+    * **Skills** define the issue template and tell it to use the GitHub MCP server, the labeling conventions, and the workflow steps
+    * **The MCP server** provides the connection to the GitHub API so the agent can actually create the issue
+  </>}
+  figurePrefix="good"
+  figure="Skills and MCP servers working together - the skill defines the workflow, the MCP server provides the integration"
+  style="greybox"
+/>
+
+### Skills vs AGENTS.md
+
+**Similarities:**
+
+* Both provide instructions to agents via prompt injection
+* Both are stored within markdown files
+* Both influence how the agent behaves on a task
+
+**High level difference:**
+
+* AGENTS.md defines general, always-present rules and conventions for a codebase
+* Skills define specific, on-demand instructions for particular tasks that are portable across codebases
+
+**Structural difference:**
+
+* AGENTS.md is always loaded - every token counts against your context window from the start
+* Skills load on demand - only the name and description are loaded at startup (\~30-50 tokens each), with full instructions loading only when the skill is relevant
+
+Whilst you can put all your "skills" in AGENTS.md, this introduces unnecessary token waste and can lead to lower quality outputs as bloated AGENTS.md files can sometimes cause agents to ignore some instructions.
+
+<boxEmbed
+  body={<>
+    **Scenario:** Your team has a standard way of performing code reviews and a set of project conventions.
+    
+    * **AGENTS.md** defines the project conventions - "use pytest," "all API routes need auth middleware," "follow the repository's folder structure"
+    * **Skills** define the code review workflow - the checklist, the format of review comments, and the steps to follow. This only loads when a review is actually requested, keeping context clean for other tasks
+  </>}
+  figurePrefix="good"
+  figure="AGENTS.md for always-on project context, skills for on-demand task-specific workflows"
+  style="greybox"
+/>
+
+### Subagents vs Skills
+
+**Similarities:**
+
+* Both contain specialised instructions and context on how to perform tasks
+* Both extend the capabilities of an agent beyond its defaults
+* Both reduce the need for repetitive manual prompting
+
+**High level difference:**
+
+* Skills define **what** the agent should do - they provide instructions and workflows
+* Subagents define **how** the agent executes - they provide isolated, parallel execution contexts
+
+**Structural difference:**
+
+* Skills run sequentially within the main agent's context - the agent needs to finish one task before moving onto the next
+* Subagents run in their own isolated context windows in parallel - multiple tasks can be processed simultaneously, but they cannot interact with the user mid-execution
+
+Because subagents cannot have back-and-forth interaction with the user, they are best suited for self-contained tasks.
+
+Skills can run within the main agent or subagents, and direct the actions taken by the agent.
+
+<boxEmbed
+  body={<>
+    Subagents can actually use skills to guide them on the process they should take when performing certain tasks.
+    
+    The same limitation remains though that subagents cannot have back-and-forth interaction with the user, and thus, are best suited for self-contained tasks.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+<boxEmbed
+  body={<>
+    **Scenario:** You want to audit your codebase for security vulnerabilities across 4 microservices.
+    
+    * **With a skill**, the agent follows the security audit workflow sequentially - auditing one service, reporting findings, then moving to the next. You can give feedback between each service
+    * **With subagents**, the agent spawns 4 subagents that each audit one service in parallel, then synthesizes all findings into a single report. Faster, but no mid-process feedback
+  </>}
+  figurePrefix="good"
+  figure="Use skills when you need step-by-step control, use subagents when you need speed and the task is self-contained"
+  style="greybox"
+/>
+
+### Agents vs Subagents
+
+**Similarities:**
+
+* Both are AI instances that can execute tasks autonomously
+* Both have access to tools (file reading, code execution, etc.)
+* Both can reason about and act on a given task
+
+**High level difference:**
+
+* Agents are the primary process - they interact directly with the user and orchestrate work
+* Subagents are child processes - they are spawned by the primary agent to handle isolated, self-contained tasks
+
+**Structural difference:**
+
+* Agents run in the main context window and can have back-and-forth conversations with the user
+* Subagents run in their own isolated context window - heavy search results don't clutter the main conversation, and you can restrict what tools a subagent has access to (e.g. read-only for reviewers). The main conversation only receives a summary of the work done by subagents
+
+You should use subagents when the task is self-contained and does not require user interaction. In tools that don't yet support subagents directly, custom agents with restricted tool access can serve a similar purpose.
+
+<boxEmbed
+  body={<>
+    **Scenario:** You ask an agent to research five competitors and summarize the findings.
+    
+    * **Without subagents**, the agent researches each competitor sequentially in the main context window, filling it with raw search results and intermediate notes
+    * **With subagents**, the agent spawns five subagents that each research one competitor in parallel. The main agent only receives the summaries and synthesizes a final comparison - keeping the main context clean and completing the task faster
+  </>}
+  figurePrefix="good"
+  figure="Use subagents for self-contained parallel tasks, keeping the main agent's context focused"
+  style="greybox"
+/>
+
+## Practical adoption strategy
+
+There is no need for stress over selecting the perfect tool every time, they're all just optimizations for specific use cases.
+
+* There are no consequences for choosing the wrong tool. There are many ways to achieve the same goal.
+* Don't try to adopt everything at once. Instead, following a gradual progression to get comfortable with the tools available.
+
+<boxEmbed
+  body={<>
+    A gradual progression to get started:
+    
+    1. **Start with AGENTS.md** - Add your project conventions, build commands, and architecture overview
+    2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
+    3. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
+    4. **Build custom agents for specialized roles** - Read-only reviewers, parallel researchers, implementation planners
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
