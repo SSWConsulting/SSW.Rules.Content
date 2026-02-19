@@ -134,7 +134,7 @@ Build -------- Request -------- Browser
 
 Next.js supports multiple rendering approaches, each suited to a different use case:
 
-* Static-Site Generation (SSG) - HTML is generated at build time. Client is provided with static files. HTML is reused for every user. Beneficial to the loading speed of pages but restricts dynamic content.  
+* Recommended: Static-Site Generation (SSG) - HTML is generated at build time. Client is provided with static files. HTML is reused for every user. Does not have access to request information. 
 * Server-Side Rendering (SSR) -   The server generates the HTML at the moment a client requests a page. Every request can produce different HTML. 
 
 <boxEmbed
