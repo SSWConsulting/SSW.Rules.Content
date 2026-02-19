@@ -122,6 +122,68 @@ function appendRuleToCategoryFile(categoryPath, rulePath) {
   fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
 }
 
+function listAllCategoryFiles(dir = path.resolve(repoRoot, "categories")) {
+  const out = [];
+  if (!fs.existsSync(dir)) return out;
+
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      out.push(...listAllCategoryFiles(full));
+    } else if (entry.isFile() && entry.name.endsWith(".mdx")) {
+      out.push(path.relative(repoRoot, full).replace(/\\/g, "/"));
+    }
+  }
+  return out;
+}
+
+/**
+ * Removes any "- rule: <rulePath>" entries that belong to the `index:` block
+ * in the category frontmatter.
+ *
+ * Returns true if the file was modified.
+ */
+function removeRuleFromCategoryFile(categoryPath, rulePath) {
+  const fullPath = path.resolve(repoRoot, categoryPath);
+  const contents = fs.readFileSync(fullPath, "utf8");
+  const lines = contents.split("\n");
+
+  // Find frontmatter bounds (--- ... ---)
+  const fmStart = lines.findIndex((l) => l.trim() === "---");
+  if (fmStart === -1) return false;
+
+  const fmEnd = lines.findIndex((l, i) => i > fmStart && l.trim() === "---");
+  if (fmEnd === -1) return false;
+
+  // Locate 'index:' within frontmatter
+  const indexLineNo = lines.findIndex(
+    (l, i) => i > fmStart && i < fmEnd && /^\s*index:\s*$/.test(l)
+  );
+  if (indexLineNo === -1) return false;
+
+  // Walk index block until next key (e.g., lastUpdated:) or fmEnd
+  let changed = false;
+  for (let i = indexLineNo + 1; i < fmEnd; i++) {
+    const line = lines[i];
+
+    // Index block ends at the next YAML key (not a list item)
+    if (/^\s*[A-Za-z0-9_]+\s*:/.test(line) && !/^\s*-\s+/.test(line)) break;
+
+    const m = /^\s*-\s+rule:\s*(.+?)\s*$/.exec(line);
+    if (!m) continue;
+
+    const entryRule = getRulePathFromFile(m[1]);
+    if (entryRule === rulePath) {
+      lines.splice(i, 1);
+      i--; // adjust index after removal
+      changed = true;
+    }
+  }
+
+  if (changed) fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
+  return changed;
+}
+
 
 function fixCategorySync(changedFiles) {
   const errors = [];
@@ -169,12 +231,44 @@ function fixCategorySync(changedFiles) {
       if (!isRuleInIndex) {
         try {
           appendRuleToCategoryFile(categoryPath, rulePath);
-          fixed.push({ rulePath, categoryPath });
+          fixed.push({ action: "added", rulePath, categoryPath });
         } catch (e) {
           errors.push(String(e.message || e));
         }
       }
     }
+
+    // Remove stale index entries:
+    // If any category index references this rule but the rule no longer lists that category, remove it.
+    const desiredCategorySet = new Set(
+      categories.map((c) => getRulePathFromFile(c))
+    );
+
+    const allCategoryFiles = listAllCategoryFiles();
+    for (const catFile of allCategoryFiles) {
+      const normalizedCat = getRulePathFromFile(catFile);
+
+      // Only remove from categories that are NOT currently referenced by the rule
+      if (desiredCategorySet.has(normalizedCat)) continue;
+
+      const catFrontmatter = readFrontmatter(catFile);
+      if (!catFrontmatter) continue;
+
+      const indexEntries = getIndexFromCategory(catFrontmatter);
+      const hasRule = indexEntries.some(
+        (entry) => getRulePathFromFile(entry) === rulePath
+      );
+
+      if (hasRule) {
+        try {
+          const didRemove = removeRuleFromCategoryFile(catFile, rulePath);
+          if (didRemove) fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+        } catch (e) {
+          errors.push(String(e.message || e));
+        }
+      }
+    }
+
   }
 
   return { errors, fixed };
@@ -200,8 +294,13 @@ function main() {
 
   if (fixed.length > 0) {
     console.log("Auto-fixed category index entries:");
-    for (const { rulePath, categoryPath } of fixed) {
-      console.log(`  - Added '${rulePath}' to '${categoryPath}'`);
+    for (const { action, rulePath, categoryPath } of fixed) {
+      if (action === "removed") {
+        console.log(`  - Removed '${rulePath}' from '${categoryPath}'`);
+      } else {
+        // default to "added"
+        console.log(`  - Added '${rulePath}' to '${categoryPath}'`);
+      }
     }
   }
 
