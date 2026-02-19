@@ -40,7 +40,8 @@ jobs:
           node category-sync-validator.js '${{ env.changed }}'
 
       # Step 5: Commit and push any auto-fixed category index changes
-      - name: Commit and push fixes
+      - name: Co
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
