@@ -196,6 +196,8 @@ function fixCategorySync(changedFiles) {
       fs.existsSync(path.resolve(repoRoot, f))
   );
 
+  const allCategoryFiles = listAllCategoryFiles();
+
   for (const ruleFile of ruleFiles) {
     const ruleFrontmatter = readFrontmatter(ruleFile);
     if (!ruleFrontmatter) continue;
@@ -244,7 +246,6 @@ function fixCategorySync(changedFiles) {
       categories.map((c) => getRulePathFromFile(c))
     );
 
-    const allCategoryFiles = listAllCategoryFiles();
     for (const catFile of allCategoryFiles) {
       const normalizedCat = getRulePathFromFile(catFile);
 
