@@ -22,25 +22,59 @@ type: rule
 uri: know-how-to-migrate-web-config-to-asp-net-core
 ---
 
-The [`Web.Config`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/create-web-config?WT.mc_id=DT-MVP-33518) file was used in ASP.NET to control the behaviour of individual ASP.NET applications and configure IIS. By default, modern ASP.NET Core applications use the Kestrel web server which is [configured in code](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/options?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518). Unless you are deploying your application using IIS, you will need to migrate your `Web.Config` file.
+The [`Web.Config`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/create-web-config?WT.mc_id=DT-MVP-33518) file was used in ASP.NET to control the behaviour of individual ASP.NET applications and configure IIS. By default, modern ASP.NET Core applications use the Kestrel web server which is [configured in code](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/options?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
+
+If you are hosting on IIS, ASP.NET Core still uses a minimal `web.config` (for the ASP.NET Core Module), but you typically do not "migrate" the old `system.web` configuration; you move app/server settings to ASP.NET Core configuration + middleware, and keep only the required IIS integration settings.
 
 The `Web.Config` file contains data about the package inclusions, module inclusions and configuration values.
 
 <endIntro />
 
-## Package Inclusions
+## Understand configuration sources and precedence
+
+When moving settings out of `Web.config`, it helps to understand how ASP.NET Core loads configuration by default (and which source "wins"). Microsoft Learn documents the default providers and their precedence (for example: `appsettings.json`, `appsettings.{Environment}.json`, user secrets in Development, environment variables, then command-line arguments).
+
+More on [Configuration in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-10.0).
+
+Also note that environment variables use `__` (double underscore) to represent `:` in hierarchical keys across platforms.
+
+## Package inclusions
 
 In ASP.NET Core, project inclusions are listed in the project's CSPROJ file. The dependencies of your application will need to be reviewed as to whether they are still required, and should be added as required using the NuGet Package Manager.
 
-## Server Configuration
+## Server configuration
 
 The server's configuration needs to be transferred to code within the `Program.cs` file.
 
-### Custom Error Pages
+### **Minimal `web.config` on IIS (and what not to migrate)**
+
+When hosting ASP.NET Core on IIS, a `web.config` file is still used, but it is typically a minimal file for the **ASP.NET Core Module** (ANCM) and is normally generated during publish.
+
+What usually *doesn't* migrate:
+
+* `<system.web>` settings (classic ASP.NET pipeline configuration). ASP.NET Core does not run on `System.Web`, so these settings need to be replaced with configuration providers + middleware.
+
+What might remain in IIS:
+
+* `system.webServer` settings that are explicitly IIS concerns (for example, IIS-level rewrite rules, static content MIME types, or reverse-proxy behavior that must happen *before* the app runs).
+
+For guidance on IIS hosting and the ASP.NET Core Module, see: https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-10.0
+
+```xml
+<configuration>
+  <system.webServer>
+    <aspNetCore processPath="dotnet" arguments="MyApp.dll" hostingModel="OutOfProcess" />
+  </system.webServer>
+</configuration>
+```
+
+**Figure: Minimal `web.config` shape for the ASP.NET Core Module (publish typically generates this)**
+
+### Custom error pages
 
 The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
 
-The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#usestatuscodepageswithredirects&WT.mc_id=DT-MVP-33518).
+The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-10.0#usestatuscodepageswithredirects&WT.mc_id=DT-MVP-33518) (and typically [`UseExceptionHandler`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-10.0#exception-handler-page) for unhandled 500 errors).
 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="~/Error">
@@ -60,17 +94,89 @@ Figure: The migrated configuration to ASP.NET Core
 
 ### Namespaces
 
-The [`<pages>/<namespaces>`](https://learn.microsoft.com/en-us/windows/win32/wsdapi/namespace) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
+The `<pages>/<namespaces>` element defines import directives to use during compilation. The same effect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
 
-### HTTP Handler Routes
+### HTTP handler routes
 
-The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398986(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mapget(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate&WT.mc_id=DT-MVP-33518)) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mappost(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate&WT.mc_id=DT-MVP-33518)).
+The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/aspnet/bb398986(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518).
 
-### HTTP Modules
+### HTTP modules
 
 The [`<httpModules>`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/development/http-modules-handlers) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
 
-## Custom Configuration Values
+### URL rewrite rules
+
+The `<rewrite>` element under `<system.webServer>` is often used for redirects, URL rewriting, and SPA fallbacks.
+
+In ASP.NET Core, prefer implementing these behaviors in the app so they work consistently across hosting (Kestrel, IIS, containers). Use the [URL Rewriting middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/url-rewriting?view=aspnetcore-10.0&WT.mc_id=DT-MVP-33518) for rewrite/redirect rules and use middleware like `UseHttpsRedirection()` for HTTPS.
+
+```xml
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Redirect to HTTPS" stopProcessing="true">
+        <match url="(.*)" />
+        <conditions>
+          <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+        </conditions>
+        <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>
+```
+
+**Figure: Typical HTTPS redirect rule in Web.config**
+
+```cs
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.Run();
+```
+
+**Figure: The equivalent HTTPS redirect in ASP.NET Core**
+
+If the rewrite logic must live at the IIS layer (e.g., a reverse-proxy rule that should apply before the app runs), keep it in IIS configuration. Otherwise, treat rewrite rules in `Web.config` as application behavior that should move to middleware.
+
+### Static file MIME types
+
+`Web.config` commonly sets custom MIME types under `<staticContent>` (for non-standard file extensions). In ASP.NET Core, configure static files with a `FileExtensionContentTypeProvider`.
+
+```xml
+<system.webServer>
+  <staticContent>
+    <mimeMap fileExtension=".appinstaller" mimeType="application/appinstaller" />
+    <mimeMap fileExtension=".msix" mimeType="application/msix" />
+  </staticContent>
+</system.webServer>
+```
+
+**Figure: Custom static content MIME types in Web.config**
+
+```cs
+using Microsoft.AspNetCore.StaticFiles;
+
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+var contentTypeProvider = new FileExtensionContentTypeProvider();
+contentTypeProvider.Mappings[".appinstaller"] = "application/appinstaller";
+contentTypeProvider.Mappings[".msix"] = "application/msix";
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    ContentTypeProvider = contentTypeProvider
+});
+
+app.Run();
+```
+
+**Figure: The equivalent custom MIME type mapping in ASP.NET Core**
+
+## Custom configuration values
 
 Custom configuration values for the application are stored in the `<appSettings>` element. Where configuration values will be moved will depend on whether they should be secret or not.
 
@@ -94,11 +200,11 @@ In the case of non-secret values, they can be moved to an `appsettings.json` fil
 
 **Figure: The application settings example migrated to `appsettings.json`**
 
-The class used to access configuration values will also need to be changed if the program is using [System.Configuration.ConfigurationManager](https://learn.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager?WT.mc_id=DT-MVP-33518) as that class is not available under ASP.NET Core. Instead, use a dependency injected [`IConfiguration`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration?view=dotnet-plat-ext-7.0&WT.mc_id=DT-MVP-33518) implementation from the `Microsoft.Extensions.Configuration` package.
+The class used to access configuration values will also need to be changed if the program is using [System.Configuration.ConfigurationManager](https://learn.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager?WT.mc_id=DT-MVP-33518), as that API is not the modern configuration approach in ASP.NET Core. Instead, use a dependency injected [`IConfiguration`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration?view=dotnet-plat-ext-10.0&WT.mc_id=DT-MVP-33518) implementation from the `Microsoft.Extensions.Configuration` package.
 
 ```cs
-String visibility = ConfigurationManager.AppSettings["DefaultVisibility"];
-int clientCountStr = int.Parse(ConfigurationManager.AppSettings["DefaultClientCount"]);
+string visibility = ConfigurationManager.AppSettings["DefaultVisibility"];
+int clientCount = int.Parse(ConfigurationManager.AppSettings["DefaultClientCount"]);
 // Perform action with configuration values.
 ```
 
@@ -116,7 +222,7 @@ public class TestService
 
     public void Act() {
         var visibility = Configuration.GetValue<string>("DefaultVisibility");
-        var clientCountStr = Configuration.GetValue<int>("DefaultClientCount");
+      var clientCount = Configuration.GetValue<int>("DefaultClientCount");
         // Perform action with configuration values.
     }
 }
@@ -124,9 +230,9 @@ public class TestService
 
 **Figure: The example code migrated to ASP.NET Core**
 
-## Connection Strings
+## Connection strings
 
-Connections strings are stored in the `<connectionStrings>` element, and may be directly transferred to the `appsettings.json` file so long as they do not contain any secrets.
+Connection strings are stored in the `<connectionStrings>` element, and may be directly transferred to the `appsettings.json` file so long as they do not contain any secrets.
 
 ```xml
 <connectionStrings>
@@ -151,14 +257,14 @@ Connections strings are stored in the `<connectionStrings>` element, and may be 
 As discussed above, the `ConfigurationManager` class is no longer available and its usages need to be replaced with calls using `IConfiguration`.
 
 ```cs
-var connStr = ConfigurationManager.ConnectionsStrings["DefaultConnection"]
+var connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"]
                                   .ConnectionString;
 ```
 
 **Figure: A typical example of how to access a Connection string from Web.config**
 
 ```cs
-var build = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 var connStr = app.Configuration.GetConnectionString("DefaultConnection");
 ```
