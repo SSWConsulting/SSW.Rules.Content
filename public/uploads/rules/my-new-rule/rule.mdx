@@ -1,0 +1,154 @@
+---
+title: 'Do you know when to use skills, agents, subagents, MCPs, or plugins?'
+uri: my-new-rule
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/build-custom-agents/rule.mdx
+guid: 8a2a5abd-103a-4f6f-8d0e-80dd596fbbae
+seoDescription: 'Learn when to use skills, agents, subagents, MCP servers, or plugins to extend AI coding tools like Claude Code. A decision framework for choosing the right extensibility mechanism.'
+created: 2026-02-16T22:31:05.841Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+---
+
+AI coding tools like Claude Code offer several ways to extend their capabilities - skills, custom agents, subagents, MCP servers, and plugins. Each solves a different problem, and picking the wrong one leads to unnecessary complexity or limitations. Knowing which mechanism to reach for saves time and keeps your setup maintainable.
+
+<endIntro />
+
+## The quick decision guide
+
+Before diving into the details, use this flowchart to find the right mechanism:
+
+* **Need live data from an external system?** ➡ MCP Server
+* **Need to teach the AI a workflow or procedure?** ➡ Skill
+* **Need project-wide conventions always in context?** ➡ CLAUDE.md
+* **Need parallel or isolated task execution?** ➡ Subagent
+* **Need automatic reactions to lifecycle events?** ➡ Hook
+* **Need to package and share extensions with your team?** ➡ Plugin
+* **Need production automation or CI/CD integration?** ➡ Agent SDK
+
+## What each mechanism does
+
+| Mechanism | What it is | When to use it |
+|-----------|-----------|----------------|
+| **CLAUDE.md** | A markdown file loaded at the start of every session | Project conventions, coding standards, and context that should always be available |
+| **Skill** | A folder with a SKILL.md file and optional supporting files (templates, scripts, examples) | Reusable workflows, domain expertise, slash commands like `/deploy` or `/review` |
+| **Subagent** | An isolated AI instance with its own context window | Parallel research, heavy tasks you want out of your main context, enforcing tool restrictions |
+| **Custom agent** | A reusable, task-specific agent definition with defined tools and instructions | Specialized roles like code reviewers or planners that get invoked across workflows |
+| **MCP Server** | An external process that exposes tools and data via the Model Context Protocol | Connecting to databases, APIs, and SaaS platforms (GitHub, Jira, Slack, etc.) |
+| **Plugin** | A distribution package that bundles skills, agents, MCP servers, and hooks together | Sharing a collection of extensions with your team or the community |
+
+## Understanding the differences
+
+### Skills vs MCP Servers
+
+This is the most common source of confusion. The key distinction:
+
+* **Skills teach the AI _what to do_** - they inject prompts, workflows, and domain knowledge
+* **MCP Servers give the AI _access to data_** - they connect to external systems
+
+They are complementary. A skill can instruct the AI to use tools exposed by an MCP server.
+
+<boxEmbed
+  body={<>
+    **Scenario:** You want the AI to create a GitHub issue with a specific format whenever it finds a bug.
+
+    * **Skill** = defines the issue template, the labeling conventions, and the workflow steps
+    * **MCP Server** = provides the connection to the GitHub API so the AI can actually create the issue
+  </>}
+  figurePrefix="good"
+  figure="Skills and MCP servers working together - the skill defines the workflow, the MCP server provides the integration"
+  style="greybox"
+/>
+
+### Skills vs CLAUDE.md
+
+Both provide instructions to the AI, but they load differently:
+
+* **CLAUDE.md** is always loaded - every token counts against your context window from the start
+* **Skills** load on demand - only the name and description are loaded at startup (~30-50 tokens each), with full instructions loading only when the skill is relevant
+
+<boxEmbed
+  body={<>
+    A CLAUDE.md file with 5,000 tokens of instructions for code reviews, deployment procedures, commit message formats, and PR templates - all loaded even when you're just asking a quick question.
+  </>}
+  figurePrefix="bad"
+  figure="Putting everything in CLAUDE.md wastes context tokens on instructions that aren't needed for every task"
+/>
+
+<boxEmbed
+  body={<>
+    A lean CLAUDE.md with project conventions (500 tokens), plus separate skills for `/review`, `/deploy`, `/commit`, and `/pr-template` that only load when invoked.
+  </>}
+  figurePrefix="good"
+  figure="CLAUDE.md for always-on context, skills for task-specific workflows"
+/>
+
+### Subagents vs doing everything in the main conversation
+
+Subagents run in their own context window. This means:
+
+* Heavy search results don't clutter your main conversation
+* Multiple subagents can work in parallel (up to 10 concurrently)
+* You can restrict what tools a subagent has access to (e.g. read-only for reviewers)
+* The main conversation only receives a summary of the work
+
+Use subagents when the task is self-contained and doesn't need back-and-forth with the user.
+
+### Plugins vs standalone configuration
+
+Plugins are a **packaging format**, not a capability. A plugin bundles skills, agents, MCP servers, and hooks into a single installable package. If you're just customizing your own setup, configure each mechanism directly. Use plugins when you need to distribute a collection of extensions to others.
+
+## The extensibility spectrum
+
+These mechanisms form a spectrum from simple to complex. Start simple and only add complexity when needed:
+
+1. **CLAUDE.md** - Static knowledge and conventions (start here)
+2. **Skills** - Reusable, on-demand expertise with supporting files
+3. **Hooks** - Event-driven automation (e.g. auto-format after edits, block destructive commands)
+4. **MCP Servers** - External tool and data source integration
+5. **Subagents** - Isolated, specialized execution contexts
+6. **Plugins** - Shareable packages bundling all of the above
+7. **Agent SDK** - Full programmatic agents for production systems
+
+<boxEmbed
+  body={<>
+    Think of it like a software project:
+
+    * **CLAUDE.md** = your README and .env file - always-present configuration
+    * **Skills** = your utility library - reusable, modular, loaded when needed
+    * **Subagents** = your worker threads - isolated, parallel, focused execution
+    * **MCP Servers** = your API integrations - connecting to external services
+    * **Hooks** = your middleware - automatic processing at lifecycle boundaries
+    * **Plugins** = your npm packages - distributable bundles for sharing
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## Practical adoption strategy
+
+Don't try to adopt everything at once. Follow this progression:
+
+1. **Start with CLAUDE.md** - Add your project conventions, build commands, and architecture overview
+2. **Create skills for your top 3 repeated tasks** - Code reviews, commit messages, and planning are common first choices
+3. **Add hooks for quality gates** - Auto-formatting, blocking destructive commands, requiring tests before stopping
+4. **Configure MCP servers for external integrations** - Databases, GitHub, search APIs
+5. **Build custom subagents for specialized roles** - Read-only reviewers, parallel researchers
+6. **Package into plugins for team sharing** - When your setup is mature and others would benefit
+
+## Further reading
+
+* [Do you use skills to standardize your AI workflows?](/rules/ai-agents-with-skills)
+* [Do you give your AI agents context with MCP servers and skills?](/rules/mcp-servers-for-context)
+* [Do you build custom agents for complex tasks?](/rules/build-custom-agents)
+* [Extend Claude with skills](https://code.claude.com/docs/en/skills)
+* [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+* [Building Effective Agents - Anthropic](https://www.anthropic.com/research/building-effective-agents)
