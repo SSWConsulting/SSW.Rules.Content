@@ -29,7 +29,6 @@ function readFrontmatter(filePath) {
 }
 
 function getRulePathFromFile(filePath) {
-  // Normalize to forward slashes and make relative to repo root
   return filePath
     .replace(/\\/g, "/")
     .replace(/^\.\.\/\.\.\//, "")
@@ -58,10 +57,39 @@ function getIndexFromCategory(frontmatter) {
     .filter(Boolean);
 }
 
-function validateCategorySync(changedFiles) {
-  const errors = [];
+function appendRuleToCategoryFile(categoryPath, rulePath) {
+  const fullPath = path.resolve(repoRoot, categoryPath);
+  const contents = fs.readFileSync(fullPath, "utf8");
+  const newEntry = `  - rule: ${rulePath}`;
 
-  // Filter for rule .mdx files only
+  // Find the last "- rule:" line in the index section and insert after it
+  const lines = contents.split("\n");
+  let lastRuleIndex = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (/^\s+-\s+rule:\s/.test(lines[i])) {
+      lastRuleIndex = i;
+    }
+  }
+
+  if (lastRuleIndex !== -1) {
+    lines.splice(lastRuleIndex + 1, 0, newEntry);
+  } else {
+    // No existing rule entries — append after "index:" line
+    for (let i = 0; i < lines.length; i++) {
+      if (/^index:\s*$/.test(lines[i])) {
+        lines.splice(i + 1, 0, newEntry);
+        break;
+      }
+    }
+  }
+
+  fs.writeFileSync(fullPath, lines.join("\n"), "utf8");
+}
+
+function fixCategorySync(changedFiles) {
+  const errors = [];
+  const fixed = [];
+
   const ruleFiles = changedFiles.filter(
     (f) =>
       f.startsWith("public/uploads/rules/") &&
@@ -82,21 +110,17 @@ function validateCategorySync(changedFiles) {
       const categoryFullPath = path.resolve(repoRoot, categoryPath);
 
       if (!fs.existsSync(categoryFullPath)) {
-        errors.push({
-          ruleFile: rulePath,
-          categoryFile: categoryPath,
-          message: `Category file '${categoryPath}' referenced by rule does not exist.`,
-        });
+        errors.push(
+          `Category file '${categoryPath}' referenced by rule '${rulePath}' does not exist.`
+        );
         continue;
       }
 
       const categoryFrontmatter = readFrontmatter(categoryPath);
       if (!categoryFrontmatter) {
-        errors.push({
-          ruleFile: rulePath,
-          categoryFile: categoryPath,
-          message: `Category file '${categoryPath}' could not be parsed.`,
-        });
+        errors.push(
+          `Category file '${categoryPath}' referenced by rule '${rulePath}' could not be parsed.`
+        );
         continue;
       }
 
@@ -106,16 +130,13 @@ function validateCategorySync(changedFiles) {
       );
 
       if (!isRuleInIndex) {
-        errors.push({
-          ruleFile: rulePath,
-          categoryFile: categoryPath,
-          message: `Rule '${rulePath}' lists category '${categoryPath}', but the category's index does not include this rule. Please add '- rule: ${rulePath}' to the index in '${categoryPath}'.`,
-        });
+        appendRuleToCategoryFile(categoryPath, rulePath);
+        fixed.push({ rulePath, categoryPath });
       }
     }
   }
 
-  return errors;
+  return { errors, fixed };
 }
 
 function main() {
@@ -123,7 +144,9 @@ function main() {
   const filesArg = args[0];
 
   if (!filesArg) {
-    console.log("No files provided. Usage: node category-sync-validator.js '<comma-separated-files>'");
+    console.log(
+      "No files provided. Usage: node category-sync-validator.js '<comma-separated-files>'"
+    );
     return;
   }
 
@@ -132,29 +155,26 @@ function main() {
     .map((f) => f.trim())
     .filter((f) => f.length > 0);
 
-  const errors = validateCategorySync(changedFiles);
+  const { errors, fixed } = fixCategorySync(changedFiles);
 
-  if (errors.length === 0) {
+  if (fixed.length > 0) {
+    console.log("Auto-fixed category index entries:");
+    for (const { rulePath, categoryPath } of fixed) {
+      console.log(`  - Added '${rulePath}' to '${categoryPath}'`);
+    }
+  }
+
+  if (errors.length > 0) {
+    console.log("\nCategory sync errors (cannot auto-fix):\n");
+    for (const error of errors) {
+      console.log(`- **${error}**`);
+    }
+    process.exit(1);
+  }
+
+  if (fixed.length === 0) {
     console.log("No category sync issues found.");
-    return;
   }
-
-  console.log("## Category Sync Issues\n");
-  console.log(
-    "The following rules reference categories, but the category index files have not been updated:\n"
-  );
-
-  for (const error of errors) {
-    console.log(
-      `### Rule: [${error.ruleFile}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${error.ruleFile})\n`
-    );
-    console.log(`- **${error.message}**\n`);
-  }
-
-  console.log(
-    "\nPlease update the category index files to include the rules listed above."
-  );
-  process.exit(1);
 }
 
 main();

@@ -10,10 +10,8 @@ jobs:
   check-category-sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      issues: write
-      repository-projects: read
-      pull-requests: write
+      contents: write
+      pull-requests: read
 
     steps:
       # Step 1: Check out the source code of the pull request.
@@ -32,34 +30,24 @@ jobs:
         id: get_changed
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
-          echo "pr_owner=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
+          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD | paste -sd ",")" >> $GITHUB_ENV
 
-      # Step 4: Check that category index files are in sync with rule category fields
-      - name: Validate Category Sync
-        uses: mathiasvr/command-output@v1
-        id: check_sync
-        with:
-          run: |
-            cd scripts/category-sync-validator
-            npm install --silent
-            node category-sync-validator.js '${{ env.changed }}'
-
-      # Step 5: Write workflow job summary if the previous step failed
-      - name: Add Job Summary
-        if: failure()
+      # Step 4: Run the category sync fixer
+      - name: Fix Category Sync
         run: |
-          echo "Hi @$pr_owner," >> $GITHUB_STEP_SUMMARY
-          echo "${{ steps.check_sync.outputs.stdout }}" >> $GITHUB_STEP_SUMMARY
+          cd scripts/category-sync-validator
+          npm install --silent
+          node category-sync-validator.js '${{ env.changed }}'
 
-      # Step 6: Leave a comment if the validation has failed and if it's not a PR from a fork
-      - name: Comment on PR
-        if: failure() && github.event.pull_request.head.repo.fork == false
-        uses: mshick/add-pr-comment@v2
-        with:
-          message: |
-            Hi @${{ env.pr_owner }},
-            ${{ steps.check_sync.outputs.stdout }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repo-token-user-login: "github-actions[bot]"
-          allow-repeats: true
+      # Step 5: Commit and push any auto-fixed category index changes
+      - name: Commit and push fixes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add categories/
+          if git diff --cached --quiet; then
+            echo "No category sync changes to commit."
+          else
+            git commit -m "XS ◾ Auto-update category index list to include new rule"
+            git push
+          fi
