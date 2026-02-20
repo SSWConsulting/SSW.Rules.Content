@@ -22,9 +22,9 @@ seoDescription: 'Learn when to use Skills, Agents, subagents, and MCP servers, t
 created: 2026-02-16T22:31:05.841Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-19T06:49:33.639Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-02-20T01:27:58.962Z
+lastUpdatedBy: Sam Wagner
+lastUpdatedByEmail: SamWagner@ssw.com.au
 ---
 
 AI coding tools like Claude Code, GitHub Copilot, and OpenCode offer several ways to extend their capabilities: **skills**, **custom agents**, **subagents**, and **MCP servers**. Each solves a different problem, and choosing the wrong one can introduce unnecessary complexity or limitations. Knowing which mechanism to use saves time and keeps your setup maintainable.
@@ -39,7 +39,7 @@ Agents are what developers interact with, they take the necessary actions to ach
 
 <boxEmbed
   body={<>
-    **Use Case:** You need to implement a new feature on your website E2E. A single agent will allow for full context.
+    **Use Case:** You need to implement a new feature on your website that touches your whole tech stack. Using a single agent here is great, as it can hold all of the context needed to build that feature well.
   </>}
   figurePrefix="none"
   figure=""
@@ -62,7 +62,10 @@ AGENTS.md are markdown files that are loaded at the start of every session, prov
 
 <boxEmbed
   body={<>
-    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file e.g. Claude Code uses `CLAUDE.md`
+    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file:
+    
+    * Claude Code uses `CLAUDE.md`
+    * Cursor uses `.cursorrules`
     
     But the concept remains the same. This rule uses `AGENTS.md` as the general term.
   </>}
