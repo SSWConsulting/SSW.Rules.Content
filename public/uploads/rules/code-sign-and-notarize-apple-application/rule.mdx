@@ -45,13 +45,16 @@ Before you start, make sure you have:
 2. In the menu bar, select:
    **Keychain Access → Certificate Assistant → Request a Certificate From a Certificate Authority…**
 
-   ![keychain-create-csr-1](/uploads./keychain-create-csr-1.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/keychain-create-csr-1.png" />
+
 3. Fill in the form:
    * **User Email Address** — Can be any email address (it does not need to match the Account Holder’s email)
    * **Common Name** — A descriptive name, for example: `Your App Name`
    * **CA Email Address** — Leave blank
    * **Request is** — Save to disk
-   ![keychain-create-csr-2](/uploads./keychain-create-csr-2.png)
+
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/keychain-create-csr-2.png" />
+
 4. Click **Continue** and save the file to your local disk.
 
 ### Step 2: Create a Developer ID Application Certificate
@@ -59,17 +62,22 @@ Before you start, make sure you have:
 1. Sign in to the [Apple Developer Portal](https://developer.apple.com/account) using the **Account Holder’s** Apple ID.
 2. Navigate to **Certificates, Identifiers & Profiles**, then select **Certificates**.
 
-   ![portal-certificate](/uploads./portal-certificate.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/portal-certificate.png" />
+
 3. Click the **➕ (Add)** button to create a new certificate.
 
-   ![portal-add-button](/uploads./portal-add-button.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/portal-add-button.png" />
+
 4. Under **Software**, select **Developer ID Application**, then click **Continue**.
 
-   ![portal-developer-id-application](/uploads./portal-developer-id-application.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/portal-developer-id-application.png" />
+
 5. When prompted, upload your CSR file:
    * Select the `.csr` file you created earlier
    * Click **Continue**
-   ![portal-choose-certificate](/uploads./portal-choose-certificate.png)
+
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/portal-choose-certificate.png" />
+
 6. Download the certificate (`.cer`) to your Mac.
 
 ### Step 3: Export the Private Key
@@ -85,7 +93,7 @@ You should now see:
 * **Developer ID Application: Your Name or Company**
 * The **private key** nested under it
 
-![keychain-access-developer-id-application](/uploads./keychain-access-developer-id-application-certificate.png)
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/keychain-access-developer-id-application-certificate.png" />
 
 🎉 **Congratulations!** You now have a **Developer ID Application** certificate ready for code signing.
 
@@ -100,13 +108,15 @@ Notarization is the process where Apple reviews a signed macOS application befor
 1. Sign in to [Apple Account](appleid.apple.com) (Your own work Apple Account. e.g [YourName@ssw.com.au](mailto\:YourName@ssw.com.au))
 2. In the Sign-In and Security section, select App-Specific Passwords.
 
-   ![appleid-app-specific-pw](/uploads./appleid-appp-specific-pw.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/appleid-appp-specific-pw.png" />
+
 3. Select Generate an app-specific password or select the Add button(+).
 
-   ![app-specific-1](/uploads./app-specific-1.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/app-specific-1.png" />
+
 4. Then give a name for the password and click "Create".
 
-   ![app-specific-2](/uploads./app-specific-2.png)
+   <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/code-sign-and-notarize-apple-application/app-specific-2.png" />
 
 A new App-Specific Password will be generated. Save it in a safe place.
 
