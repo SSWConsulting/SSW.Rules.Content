@@ -13,7 +13,7 @@ seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflo
 created: 2026-02-19T23:48:44.539Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-02-20T04:19:35.311Z
+lastUpdated: 2026-02-20T04:25:05.436Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -158,4 +158,61 @@ Tool schemas are part of the cached prefix. Changing them breaks the cache.
   figurePrefix="none"
   figure=""
   style="info"
+/>
+
+## Prefer the correct API for reasoning workflows
+
+If you are using reasoning-style models that include hidden reasoning state, use the Responses API.
+
+Why? Switching endpoints can materially affect cache hit rates because missing reasoning context may reduce prefix reuse.
+
+## Engineer to pass the caching threshold
+
+Caching becomes meaningful once your prompt is long enough.
+
+If you're just under the threshold:
+
+* Consider slightly increasing reusable static content
+* Validate impact with usage metrics
+
+Always measure before optimizing.
+
+## Treat compaction as an architecture decision
+
+Caching has no inherent quality downside. The trade-off is how often you mutate context.
+
+### Prefer:
+
+* Larger compaction events, less frequently  
+* Compacting at \~70–85% of context window (validate with evals)
+
+Frequent small trims repeatedly invalidate the cache.
+
+Also remove:
+
+* Irrelevant tool outputs  
+* Giant logs  
+* Context pollution  
+
+## Breaking cache once may improve overall quality and reduce future cost.
+
+Use extended retention only when justified
+
+Default in-memory caching is short-lived.
+
+Use extended retention when:
+
+* Prompts are long and reused over hours
+* First-request latency is expensive
+* Workloads are latency-sensitive
+
+Do not enable it blindly.
+
+<boxEmbed
+  body={<>
+    Compliance note: Extended retention may change data-handling eligibility compared to ephemeral in-memory caching.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
 />
