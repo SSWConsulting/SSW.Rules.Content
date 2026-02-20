@@ -13,7 +13,7 @@ seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflo
 created: 2026-02-19T23:48:44.539Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-02-20T04:13:32.408Z
+lastUpdated: 2026-02-20T04:19:35.311Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -115,4 +115,47 @@ Once a conversation starts, avoid rewriting history.
   figurePrefix="none"
   figure=""
   style="greybox"
+/>
+
+Why? Editing earlier content invalidates the cache for everything after it — and you pay for recomputation.
+
+## Design \`prompt\_cache\_key\` like a shard key
+
+Implicit caching is best-effort and routing-dependent. A well-designed cache key increases reuse.
+
+### Choose the right scope:
+
+Conversation/task scoped key
+
+  Best for long-running agent loops (most common)
+
+User scoped key  
+
+  Useful when users repeatedly query the same large context
+
+Bucketed keys
+
+  Group low-volume users to reduce cache fragmentation
+
+Think of cache keys like database shard keys — they influence where and how efficiently traffic is routed.
+
+## Keep tool definitions stable
+
+Tool schemas are part of the cached prefix. Changing them breaks the cache.
+
+<boxEmbed
+  body={<>
+    ✅ Do
+    
+    Keep tool definitions stable across requests
+    
+    ### When you need flexibility
+    
+    Use an “allowed tools” pattern to restrict available tools per request without modifying the underlying schema.
+    
+    This preserves cache stability while still giving you control.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
 />
