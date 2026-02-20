@@ -13,7 +13,7 @@ seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflo
 created: 2026-02-19T23:48:44.539Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-02-20T04:03:56.895Z
+lastUpdated: 2026-02-20T04:05:31.158Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -53,6 +53,15 @@ Caching requires an identical, contiguous prefix. Even minor differences break r
   figurePrefix="none"
   figure=""
   style="highlight"
+/>
+
+<boxEmbed
+  body={<>
+    System: You are a helpful assistant. Timestamp: 2026-02-20T10:15:32Z
+  </>}
+  figurePrefix="bad"
+  figure="Bad Example - A dynamic timestamp changes the prefix every request and prevents cache reuse "
+  style="greybox"
 />
 
 <boxEmbed
