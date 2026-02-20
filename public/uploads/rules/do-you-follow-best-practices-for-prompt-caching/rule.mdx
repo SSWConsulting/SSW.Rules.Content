@@ -1,0 +1,271 @@
+---
+title: Do you follow best practices for prompt caching?
+uri: do-you-follow-best-practices-for-prompt-caching
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-development.mdx
+authors:
+  - title: Michael Smedley
+    url: 'https://www.ssw.com.au/people/michael-smedley/'
+related:
+  - {}
+guid: 59c83e62-5c27-4bd4-9d90-6f774983acac
+seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflows, including deterministic prefixes, cache key design, tool stability, and instrumentation for maximum performance and cost efficiency.'
+created: 2026-02-19T23:48:44.539Z
+createdBy: Mike
+createdByEmail: michaelsmedley@ssw.com.au
+lastUpdated: 2026-02-20T04:29:39.093Z
+lastUpdatedBy: Mike
+lastUpdatedByEmail: michaelsmedley@ssw.com.au
+---
+
+You ship a new AI feature and expect costs and latency to drop thanks to prompt caching — but nothing changes. After investigation, you discover that a timestamp in the system prompt or a small tool schema change invalidated the cache on every request. Small structural mistakes can completely eliminate caching benefits.
+
+<endIntro />
+
+Prompt caching (such as OpenAI-style implicit KV caching) can dramatically reduce latency and cost — but only if your prompts are structured deliberately. Follow these rules to maximize cache hit rates and keep your architecture efficient.
+
+## Treat the prompt like a deterministic artifact
+
+Caching requires an identical, contiguous prefix. Even minor differences break reuse.
+
+<boxEmbed
+  body={<>
+    ✅ Do
+    
+    * Keep your system prompt static
+    * Keep tool definitions and schemas stable
+    * Maintain identical ordering of messages
+    * Ensure consistent whitespace and formatting
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="highlight"
+/>
+
+<boxEmbed
+  body={<>
+    ❌ Don’t
+    
+    * Inject timestamps or random IDs near the beginning
+    * Reorder tools or messages
+    * Introduce small per-request formatting differences
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="highlight"
+/>
+
+<boxEmbed
+  body={<>
+    System: You are a helpful assistant. Timestamp: 2026-02-20T10:15:32Z
+  </>}
+  figurePrefix="bad"
+  figure="Bad Example - A dynamic timestamp changes the prefix every request and prevents cache reuse "
+  style="greybox"
+/>
+
+## Put dynamic content as late as possible
+
+Structure prompts as:
+
+1\. System prompt (static)
+
+2\. Tool definitions / schemas (static)
+
+3\. User/org configuration (semi-static)
+
+4\. Current user task (dynamic)
+
+5\. Tool outputs / new turns (dynamic)
+
+This “static-first, dynamic-last” layout maximizes reusable prefix length.
+
+<boxEmbed
+  body={<>
+    Keep globally reusable content first, then user-scoped context, then task-scoped data.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+## Never edit earlier turns — append instead
+
+Once a conversation starts, avoid rewriting history.
+
+<boxEmbed
+  body={<>
+    ❌ Don’t
+    
+    Rewrite an earlier message to “fix” intent.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ✅ Do
+    
+    Append a new message:
+    
+    \> “Update: User intent changed. Please do X instead.”
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+Why? Editing earlier content invalidates the cache for everything after it — and you pay for recomputation.
+
+## Design \`prompt\_cache\_key\` like a shard key
+
+Implicit caching is best-effort and routing-dependent. A well-designed cache key increases reuse.
+
+### Choose the right scope:
+
+Conversation/task scoped key
+
+  Best for long-running agent loops (most common)
+
+User scoped key  
+
+  Useful when users repeatedly query the same large context
+
+Bucketed keys
+
+  Group low-volume users to reduce cache fragmentation
+
+Think of cache keys like database shard keys — they influence where and how efficiently traffic is routed.
+
+## Keep tool definitions stable
+
+Tool schemas are part of the cached prefix. Changing them breaks the cache.
+
+<boxEmbed
+  body={<>
+    ✅ Do
+    
+    Keep tool definitions stable across requests
+    
+    ### When you need flexibility
+    
+    Use an “allowed tools” pattern to restrict available tools per request without modifying the underlying schema.
+    
+    This preserves cache stability while still giving you control.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## Prefer the correct API for reasoning workflows
+
+If you are using reasoning-style models that include hidden reasoning state, use the Responses API.
+
+Why? Switching endpoints can materially affect cache hit rates because missing reasoning context may reduce prefix reuse.
+
+## Engineer to pass the caching threshold
+
+Caching becomes meaningful once your prompt is long enough.
+
+If you're just under the threshold:
+
+* Consider slightly increasing reusable static content
+* Validate impact with usage metrics
+
+Always measure before optimizing.
+
+## Treat compaction as an architecture decision
+
+Caching has no inherent quality downside. The trade-off is how often you mutate context.
+
+### Prefer:
+
+* Larger compaction events, less frequently  
+* Compacting at \~70–85% of context window (validate with evals)
+
+Frequent small trims repeatedly invalidate the cache.
+
+Also remove:
+
+* Irrelevant tool outputs  
+* Giant logs  
+* Context pollution  
+
+## Breaking cache once may improve overall quality and reduce future cost.
+
+Use extended retention only when justified
+
+Default in-memory caching is short-lived.
+
+Use extended retention when:
+
+* Prompts are long and reused over hours
+* First-request latency is expensive
+* Workloads are latency-sensitive
+
+Do not enable it blindly.
+
+<boxEmbed
+  body={<>
+    Compliance note: Extended retention may change data-handling eligibility compared to ephemeral in-memory caching.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## Instrument caching like a first-class metric
+
+You cannot optimize what you do not measure.
+
+Log per request:
+
+* Prompt tokens  
+* Cached prompt tokens  
+* Cache hit rate (%)  
+* Time to first token (TTFT)  
+* Total latency  
+* Cost per request  
+
+Track effectiveness:
+
+* Per endpoint  
+* Per feature  
+* Per cache key scope  
+
+Most APIs expose usage fields that include cached token counts — use them.
+
+Quick Cache Miss Checklist
+
+If cache hits are lower than expected:
+
+1\. Prefix mismatch (timestamps, whitespace, tool schema changes, message reordering)  
+
+2\. Ephemeral cache expired  
+
+3\. High parallel throughput causing routing spillover  
+
+4\. Prompt too short to qualify meaningfully  
+
+5\. Incorrect endpoint for reasoning workflows 
+
+## Recommended Prompt Structure Template
+
+Use this mental template for every request:
+
+\[Static] System instructions (no user data)  
+
+\[Static] Tool definitions + schemas  
+
+\[Semi-static] User/org config (MCP servers, repo identity, feature flags)  
+
+\[Dynamic] Current user request  
+
+\[Dynamic] Tool calls + outputs  
+
+\[Dynamic] Assistant response  
+
+When designed correctly, prompt caching can significantly reduce cost and latency with no downside to quality. The key is intentional structure, stable prefixes, and disciplined instrumentation.
