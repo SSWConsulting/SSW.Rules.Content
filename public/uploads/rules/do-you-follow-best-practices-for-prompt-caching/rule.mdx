@@ -13,7 +13,7 @@ seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflo
 created: 2026-02-19T23:48:44.539Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-02-20T04:09:37.863Z
+lastUpdated: 2026-02-20T04:10:32.496Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -68,14 +68,23 @@ Caching requires an identical, contiguous prefix. Even minor differences break r
 
 Structure prompts as:
 
-1\. System prompt (static)  
+1\. System prompt (static)
 
-2\. Tool definitions / schemas (static)  
+2\. Tool definitions / schemas (static)
 
-3\. User/org configuration (semi-static)  
+3\. User/org configuration (semi-static)
 
-4\. Current user task (dynamic)  
+4\. Current user task (dynamic)
 
 5\. Tool outputs / new turns (dynamic)
 
 This “static-first, dynamic-last” layout maximizes reusable prefix length.
+
+<boxEmbed
+  body={<>
+    Keep globally reusable content first, then user-scoped context, then task-scoped data.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
