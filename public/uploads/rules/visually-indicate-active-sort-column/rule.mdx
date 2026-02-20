@@ -1,0 +1,55 @@
+---
+archivedreason: null
+authors:
+- title: Eli Kent
+  url: https://ssw.com.au/people/eli-kent
+created: 2026-02-20T00:00:00.000Z
+guid: f8a2c1d4-5e3b-4a9f-b7c6-2d1e8f4a3b5c
+isArchived: false
+redirects: []
+seoDescription: Make sorted table columns obvious to users by bolding the active column header and showing clear sort direction arrows.
+title: Do you visually indicate the active sort column?
+categories:
+  - category: categories/software-engineering/rules-to-better-interfaces-general-usability-practices.mdx
+type: rule
+uri: visually-indicate-active-sort-column
+---
+
+When users sort a table by clicking a column header, they need to immediately see which column is driving the sort order. Without clear visual indicators, users lose context - especially in data-heavy tables with many columns.
+
+<endIntro />
+
+There are 2 key visual cues to provide:
+
+1. **Bold the active column header** - The sorted column header text should be bold (and optionally a darker color) so it stands out from unsorted headers
+2. **Show sort direction** - Use an arrow icon (up/down) to indicate ascending or descending order. Unsorted columns can show a neutral up-down arrow to indicate they are sortable
+
+### Why this matters
+
+Users frequently sort tables and then scroll or scan the data. If the sorted column isn't visually distinct, they have to remember which column they clicked - or worse, they may not realize the data is sorted at all. Bold headers solve this with minimal visual noise.
+
+::: greybox
+
+| Name       | Email              | Role    | Created     |
+|------------|--------------------|---------|-------------|
+| Bob Smith  | bob@example.com    | Admin   | 2024-01-15  |
+| Alice Wong | alice@example.com  | Editor  | 2024-03-22  |
+| Charlie Lu | charlie@example.com| Viewer  | 2024-02-10  |
+
+:::
+::: bad
+Figure: Bad example - The table is sorted by "Name" but nothing visually indicates which column is sorted or in what direction
+:::
+
+::: greybox
+
+| **Name ↑** | Email              | Role    | Created     |
+|------------|--------------------|---------|-------------|
+| Alice Wong | alice@example.com  | Editor  | 2024-03-22  |
+| Bob Smith  | bob@example.com    | Admin   | 2024-01-15  |
+| Charlie Lu | charlie@example.com| Viewer  | 2024-02-10  |
+
+:::
+::: good
+Figure: Good example - "Name" is bold with an ascending arrow, making it obvious which column is sorted and in what direction
+:::
