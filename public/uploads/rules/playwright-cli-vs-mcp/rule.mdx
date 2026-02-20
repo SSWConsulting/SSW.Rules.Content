@@ -8,13 +8,15 @@ guid: 2abd689b-6b98-4e30-85a3-47162e040ae1
 created: 2026-02-20T06:31:18.192Z
 createdBy: Hark
 createdByEmail: harksingh@ssw.com.au
-lastUpdated: 2026-02-20T06:39:01.115Z
+lastUpdated: 2026-02-20T06:50:22.879Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
 
-Intro
+If you want your AI agent to test websites or read documentation, it needs a way to browse the internet. 
+
+Usually, developers connect their AI to an MCP server (like the [Playwright MCP](https://playwright.dev/community/mcp-videos)). However, MCP acts like a data firehose. It dumps the entire webpage's code and images directly into the AI's chat window. This creates Context Bloat, which clogs up the AI's memory, slows it down, and burns through expensive tokens. 
+
+[Playwright's new CLI ](https://github.com/microsoft/playwright-cli)solves this by saving files to your hard drive instead.
 
 <endIntro />
-
-Body
