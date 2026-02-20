@@ -49,9 +49,9 @@ You can take screen captures to the next level by visually guiding the user thro
 
 Apart from plain screenshots (when no emphasis is needed), you can use:
 
-* Balloons
 * Circles / boxes
 * Arrows
+* Balloons
 
 <boxEmbed
   body={<>
@@ -62,25 +62,6 @@ Apart from plain screenshots (when no emphasis is needed), you can use:
   figurePrefix="none"
   figure=""
   style="info"
-/>
-
-### Balloons (aka speech bubbles)
-
-Adding balloons is great because you can point to a specific part of the image and provide extra text information. It is much easier than reading the old ‘Wall of Text’.
-
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="No visual cue. Users may wonder what they’re supposed to focus on or do" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-no-balloon-bad.png" />
-
-<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="A balloon clearly highlights the intent, removing ambiguity and guiding attention immediately" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-balloon-good.png" />
-
-<boxEmbed
-  body={<>
-    **Warning:** Do **not** overuse balloons. Screenshots often provide enough context, and extra callouts can clutter the image and distract from the key message.
-    
-    <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Too many balloons competing for attention" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-balloon-overload-bad.png" />
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
 />
 
 ### Circles & rectangles
@@ -98,6 +79,25 @@ Use arrows to indicate direction or flow, especially when you need to show where
 <boxEmbed
   body={<>
     **Warning:** Pay attention to the arrow tail. When using an arrow in a screenshot, make sure it starts from a logical and unobtrusive position.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+### Balloons (aka speech bubbles)
+
+Adding balloons is great because you can point to a specific part of the image and provide extra text information. It is much easier than reading the old ‘Wall of Text’.
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="No visual cue. Users may wonder what they’re supposed to focus on or do" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-no-balloon-bad.png" />
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="A balloon clearly highlights the intent, removing ambiguity and guiding attention immediately" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-balloon-good.png" />
+
+<boxEmbed
+  body={<>
+    **Warning:** Do **not** overuse balloons. Screenshots often provide enough context, and extra callouts can clutter the image and distract from the key message.
+    
+    <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="Too many balloons competing for attention" src="/uploads/rules/screenshots-avoid-walls-of-text/Draft-PR-balloon-overload-bad.png" />
   </>}
   figurePrefix="none"
   figure=""
