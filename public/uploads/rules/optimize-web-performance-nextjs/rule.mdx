@@ -1,0 +1,150 @@
+---
+title: Do you optimize web performance in Next.js?
+uri: optimize-web-performance-nextjs
+categories:
+  - category: categories/software-engineering/rules-to-better-websites-development.mdx
+  - category: categories/software-engineering/rules-to-better-nextjs.mdx
+authors:
+  - title: Josh Berman
+    url: 'https://ssw.com.au/people/josh-berman'
+guid: 9761a722-05db-4b4c-9540-011d5e57a61a
+created: 2026-02-09T23:14:44.220Z
+createdBy: Josh Berman
+createdByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-02-13T03:15:45.374Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+---
+
+Next.js is a popular and powerful framework built on top of React, designed to help teams build fast, scalable web applications.
+
+Without a performance-first approach, applications can quickly become slow due to excessive client-side Javascript, inefficient data fetching or incorrect rendering strategies. Out of the box, Next.js gives you powerful performance tools.
+
+<endIntro />
+
+## Factors That Affect Web Performance
+
+Web performance in Next.js is commonly the result of multiple choices made throughout the application:
+
+* **Rendering strategy** - Choosing between static, server-rendered or dynamic pages directly impacts load time and responsiveness
+* **Client side scripts** - Larger client bundles increase parse and execution time, delaying interactivity
+* **Data fetching patterns** - Client-side fetching often causes request waterfalls, while server-side fetching enables faster initial renders
+* **Caching and revalidation** - Explicit caching reduces repeated work and improves response time
+* **Images, fonts, and media** - Unoptimized assets are frequently the largest contributor to slow page loads (Impacts Core Web Vitals such as Largest Contentful Paint)
+* **Layout stability** - Unexpected layout shifts degrade user experience and negatively impact Cumulative Layout Shift metrics
+* **Hydration and interactivity** - Hydrating more UI than necessary increases CPU cost and delays interaction
+
+## Optimizing Web Performance
+
+### 1. Display Images with the built in Next.js Component
+
+Next.js provides an inbuilt [\<Image/>](https://nextjs.org/docs/app/api-reference/components/image) component, which extends the native HTML \<img> element for optimization.
+
+The next/image component automatically optimizes image size, format, and delivery, helping reduce page weight and improve load times. Offscreen images are deferred automatically (lazily loaded), reducing LCP. The Next.js image component also constrains your image dimensions, preventing layout shifts from occurring when the image loads on the client.
+
+<boxEmbed
+  body={<>
+    For the same image (1920x1080), PNG file size is 800 KB and WebP is 200 KB!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+Out of the box, the \<Image/> component is pretty straight forward to use.
+
+```ts
+<Image
+  src="..."
+  alt="..."
+  width={x-Pixels}
+  height={y-Pixels}
+  
+  //or use fill
+  fill
+/>
+```
+
+Several optional props can further enhance perceived performance and visual stability:
+
+* placeholder - Displays a temporary image while the full asset loads (using blur provides a smoother experience for slower networks
+* quality - controls compression level to reduce file size
+* priority - Marks critical above-the-fold images for preloading, improves LCP
+
+### 2. Default to Server Components
+
+Next.js allows the user to control the environment where application code can be executed in: the server and the client.
+
+
+Server-side rendering reduces the amount of JavaScript sent to the browser, improves initial load performance and keeps sensitive logic and credentials out of the client bundle.
+
+Client components ('use client') should only be introduced when the UI requires browser only functionality, such as:
+
+* Hooks - useState, useEffect, useContext etc.
+* Event Handlers - onClick , onChange
+* Direct access to browser APIs - window, document, localStorage
+
+When introducing a Client Component, ensure that you're keeping the client boundary as small as possible and isolate interactivity into focused components.
+
+<boxEmbed
+  body={<>
+    The client boundary is the point in your React tree where rendering switches from Server → Browser
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+### 3. Minimize JavaScript shipped to the browser
+
+The fastest JavaScript is the JavaScript you don't need to send. Large client bundles increase download size, parse time and execution cost. All of which delays interactivity and Core Web Vitals
+
+1. Use the @next/bundle-analyzer to get a visual map of everything bundled in your project - this will help identify suspiciously large or necessarily installed dependencies
+2. Use dynamic imports - these let you load code only when it's needed. This is great for charts, maps, modals and rich-text editors
+3. Avoid heavy dependencies - do you really need to bundle the entirety of lodash? or can it be replaced with one fn import?
+4. Keep heavy code on the Server - tying in with our previous major point, reduce the usage of the client.
+
+### 4. Fetch on the server side and prevent fetch waterfalls
+
+Waterfalls are usually beautiful… but for React developers they can be quite scary. A fetch waterfall is a performance issue that occurs when multiple API calls or fetch requests are chained together, and executed one after another (as opposed to completing them concurrently.
+
+This generally will occur when the page loads first, then data fetching begins, then the UI updates. This effect can be compounded if there are many child components on one page fetching data.
+
+Consequently, this delays page loads 😓
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Fetch Waterfall " src="/uploads/rules/optimize-web-performance-nextjs/fetch-waterfall.png" />
+
+So how do I avoid recreating Niagara Falls?
+
+1. Fetch data on the server - only fetch on the browser when data is truly user-specific
+2. Parallelize requests where possible - don't let independent requests block each other
+3. [Cache](https://nextjs.org/docs/app/guides/caching) and revalidate intentionally - don't force per-request fetching unless its required
+
+### 5. Choose the correct rendering strategy
+
+Selecting the appropriate [rendering strategy](https://nextjs.org/learn/seo/rendering-strategies) is one of the biggest determinants of performance in Next.js. 
+
+The easiest way to think about these strategies is on an axis of when the HTML is created 
+
+```
+Build -------- Request -------- Browser
+  |               |                |
+ SSG           SSR, ISR           CSR  
+```
+
+Next.js supports multiple rendering approaches, each suited to a different use case:
+
+* Recommended: Static-Site Generation (SSG) - HTML is generated at build time. Client is provided with static files. HTML is reused for every user. Does not have access to request information. 
+* Server-Side Rendering (SSR) -   The server generates the HTML at the moment a client requests a page. Every request can produce different HTML. 
+
+<boxEmbed
+  body={<>
+    Most modern frameworks use [Streaming SSR](https://www.patterns.dev/react/streaming-ssr/) to bridge that gap between pure SSR and CSR
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+* Incremental Static Regeneration (ISR) - A combination of SSR and SSG, ISR controls how long a page stays “fresh”, and when a stale page gets rebuilt. It allows static generation on a per-page basis without needing to rebuild the entire site (this is what we use for [SSW Rules](https://ssw.com.au/rules)!)
+* Client Side Rendering (CSR) - The browser takes the load of rendering a UI using JavaScript. After a request for a site is made, the browser will parse HTML, construct the DOM, and then download the JS to be executed.
