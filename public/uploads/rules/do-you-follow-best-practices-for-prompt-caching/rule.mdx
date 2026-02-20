@@ -13,7 +13,7 @@ seoDescription: 'Learn best practices for prompt caching in OpenAI-style workflo
 created: 2026-02-19T23:48:44.539Z
 createdBy: Mike
 createdByEmail: michaelsmedley@ssw.com.au
-lastUpdated: 2026-02-20T04:12:29.596Z
+lastUpdated: 2026-02-20T04:13:32.408Z
 lastUpdatedBy: Mike
 lastUpdatedByEmail: michaelsmedley@ssw.com.au
 ---
@@ -98,6 +98,19 @@ Once a conversation starts, avoid rewriting history.
     ❌ Don’t
     
     Rewrite an earlier message to “fix” intent.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ✅ Do
+    
+    Append a new message:
+    
+    \> “Update: User intent changed. Please do X instead.”
   </>}
   figurePrefix="none"
   figure=""
