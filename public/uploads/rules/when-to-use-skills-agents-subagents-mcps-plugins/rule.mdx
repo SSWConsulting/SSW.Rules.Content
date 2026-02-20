@@ -1,5 +1,5 @@
 ---
-title: 'Do you know when to use agents, subagents, skills, and MCPs?'
+title: 'Do you know when to use skills, custom agents, subagents, and MCPs?'
 uri: when-to-use-skills-agents-subagents-mcps-plugins
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -39,7 +39,7 @@ Agents are what developers interact with, they take the necessary actions to ach
 
 <boxEmbed
   body={<>
-    **Use Case:** You need to implement a new feature on your website E2E. A single agent will allow for full context.
+    **Use Case:** You need to implement a new feature on your website that touches your whole tech stack. Using a single agent here is great, as it can hold all of the context needed to build that feature well.
   </>}
   figurePrefix="none"
   figure=""
@@ -62,7 +62,10 @@ AGENTS.md are markdown files that are loaded at the start of every session, prov
 
 <boxEmbed
   body={<>
-    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file e.g. Claude Code uses `CLAUDE.md`
+    `AGENTS.md` is the cross-platform convention for providing project context to most AI coding tools. However, some tools still use their own file
+    
+    * Claude Code uses `CLAUDE.md`
+    * Cursor uses `.cursorrules`
     
     But the concept remains the same. This rule uses `AGENTS.md` as the general term.
   </>}
