@@ -1,0 +1,65 @@
+---
+title: Do you know when to use CLI vs MCP for Playwright testing?
+uri: playwright-cli-vs-mcp
+categories:
+  - {}
+authors:
+  - title: Hark Singh
+    url: 'https://ssw.com.au/people/hark-singh'
+related:
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+  - {}
+guid: 2abd689b-6b98-4e30-85a3-47162e040ae1
+created: 2026-02-20T06:31:18.192Z
+createdBy: Hark
+createdByEmail: harksingh@ssw.com.au
+lastUpdated: 2026-02-20T07:08:39.894Z
+lastUpdatedBy: Hark
+lastUpdatedByEmail: harksingh@ssw.com.au
+---
+
+If you want your AI agent to test websites or read documentation, it needs a way to browse the internet.
+
+Usually, developers connect their AI to an MCP server (like the [Playwright MCP](https://playwright.dev/community/mcp-videos)). However, MCP acts like a data firehose. It dumps the entire webpage's code and images directly into the AI's chat window. This creates Context Bloat, which clogs up the AI's memory, slows it down, and burns through expensive tokens.
+
+[Playwright's new CLI ](https://github.com/microsoft/playwright-cli)solves this by saving files to your hard drive instead.
+
+<endIntro />
+
+<youtubeEmbed url="Be0ceKN81S8" description="Video: Playwright CLI vs MCP - a new tool for your coding agent | Playwright YouTube" />
+
+Here is how to choose between the 2:
+
+### 1. Playwright CLI (For Local Agents)
+
+The CLI saves heavy files (like screenshots or HTML) directly to your computer's hard drive. It only sends tiny summaries back to the AI's chat.
+
+* When to use it: When using a coding agent on your computer (like Claude Code or GitHub Copilot).
+* Why: It uses \~75% fewer tokens. It is much faster and keeps the AI's memory clean.
+
+### 2. Playwright MCP (For Cloud Agents)
+
+The MCP server grabs web data and forces all of it directly into the AI's chat window, assuming the AI has no local hard drive to save files to. 
+
+* When to use it: When building a custom, cloud-based AI agent from scratch that cannot access your local files. 
+* Why: It is universally compatible, but it is expensive and slow.
+
+### Examples
+
+<boxEmbed
+  body={<>
+    You ask the AI to screenshot 4 pages. MCP converts the images to giant blocks of text and dumps them into the chat. The AI gets overwhelmed and burns 100,000+ tokens.
+  </>}
+  figurePrefix="bad"
+  figure="MCP causes massive context bloat."
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    You ask the AI to screenshot 4 pages. The CLI saves the images to a local folder and simply replies, "Files saved." The AI stays fast and uses only 26,000 tokens.
+  </>}
+  figurePrefix="good"
+  figure="CLI saves tokens by keeping files on the disk."
+  style="greybox"
+/>
