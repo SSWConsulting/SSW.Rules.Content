@@ -28,28 +28,10 @@ There are 2 key visual cues to provide:
 
 Users frequently sort tables and then scroll or scan the data. If the sorted column isn't visually distinct, they have to remember which column they clicked - or worse, they may not realize the data is sorted at all. Bold headers solve this with minimal visual noise.
 
-::: greybox
-
-| Name       | Email              | Role    | Created     |
-|------------|--------------------|---------|-------------|
-| Bob Smith  | bob@example.com    | Admin   | 2024-01-15  |
-| Alice Wong | alice@example.com  | Editor  | 2024-03-22  |
-| Charlie Lu | charlie@example.com| Viewer  | 2024-02-10  |
-
-:::
 ::: bad
-Figure: Bad example - The table is sorted by "Name" but nothing visually indicates which column is sorted or in what direction
+![Figure: Bad example - The table is sorted but nothing visually indicates which column is sorted or in what direction](/uploads/rules/visually-indicate-active-sort-column/tina-grid-sorted-bad.png)
 :::
 
-::: greybox
-
-| **Name ↑** | Email              | Role    | Created     |
-|------------|--------------------|---------|-------------|
-| Alice Wong | alice@example.com  | Editor  | 2024-03-22  |
-| Bob Smith  | bob@example.com    | Admin   | 2024-01-15  |
-| Charlie Lu | charlie@example.com| Viewer  | 2024-02-10  |
-
-:::
 ::: good
-Figure: Good example - "Name" is bold with an ascending arrow, making it obvious which column is sorted and in what direction
+![Figure: Good example - The sorted column header is bold with a direction arrow, making the active sort obvious at a glance](/uploads/rules/visually-indicate-active-sort-column/tina-grid-sorted-good.png)
 :::
