@@ -23,7 +23,7 @@ related:
 redirects:
   - do-you-test-your-javascript
 guid: fa6c9020-0efd-4211-9c2c-ef4bcc98aab5
-seoDescription: 'Modern applications push significant business logic to the frontend. Whether you’re using React, Next.js, Angular, or another framework, your JavaScript or TypeScript code often handles validation, transformations, API calls, state management, and user flows.'
+seoDescription: 'Modern JavaScript/TypeScript applications contain complex frontend logic — from UI state management and user flows to API orchestration and client-side validation. While business logic should live on the backend, frontend code still warrants rigorous testing to ensure correctness and reliability.'
 created: 2020-03-11T22:56:26.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
@@ -34,7 +34,7 @@ isArchived: false
 archivedreason: null
 ---
 
-Modern applications push significant business logic to the frontend. Whether you’re using React, Next.js, Angular, or another framework, your JavaScript or TypeScript code often handles validation, transformations, API calls, state management, and user flows.
+Modern JavaScript/TypeScript applications contain complex frontend logic — from UI state management and user flows to API orchestration and client-side validation. While business logic should live on the backend, frontend code still warrants rigorous testing to ensure correctness and reliability.
 
 If you don't use testing suites to reinforce the functionality of your code, you're relying on QA and hope.
 
@@ -42,46 +42,44 @@ Testing JavaScript/TypeScript applications is not optional. It's a part of build
 
 <endIntro />
 
-## Why testing matters (even with typescript)
+## Why testing matters (even with TypeScript)
 
-TypeScript enforces type-safety, this improves safety but does not verify behaviour of logic.
+TypeScript enforces type-safety. This improves safety but does not verify behaviour of logic.
 
-Types check that your code compiles; it wont tell you:
+Types check that your code compiles. It won't tell you:
 
-* If a utility calculation function returns the wrong result 
-* If the interaction between a button and user is incorrect
+* If a utility calculation function returns the wrong result
+* If a UI component behaves incorrectly when a user interacts with it
 * If a state transition breaks a workflow
 
-A combination of unit, integration and end-to-end tests will.
+A combination of unit, integration, and end-to-end tests catches all of these.
 
-As AI driven development becomes more common in development workflows, it's essential that test suites are carefully crafted to ensure the developer's desired functionality. 
+As AI-driven development becomes more common, a well-maintained test suite is your safety net ensuring that generated or rapidly-written code still behaves as intended.
 
 ### Unit Tests
 
-Unit testing involves verifying individual functions or components in complete isolate to ensure code reliability. These isolated sections of code should be the **smallest** **units** of code (for said functionality/ feature).
+Unit testing involves verifying individual functions or components in complete isolation to ensure code reliability. These isolated sections of code should be the **smallest** **units** of code (for said functionality/ feature).
 
-It is best practice to follow the [AAA Pattern](https://www.ssw.com.au/rules/how-to-structure-a-unit-test): Arrange, Act, Assert.
+It is best practice to follow the [AAA Pattern](/how-to-structure-a-unit-test): Arrange, Act, Assert.
 
 Unit tests can be written using: 
 
-* 👑 [Vite](https://vite.dev/) (Recommended)
+* 👑 [Vitest](https://vitest.dev/) (Recommended)
 * [Jest](https://jestjs.io/)
 
 Some examples of what Unit tests can be used for:
 
 * Utility functions
-* Business rules
+* Client-side validation logic
 * Data transformations
 
 ### Integration Tests
 
-Stepping a level higher, integration involves testing that numerous components, functions and modules work together correctly to create a cohesive system. 
+Integration tests verify that multiple components or modules work together correctly, catching bugs at the boundaries between them. Such examples include:
 
-Testing behaviour rather than implementation - this helps find bugs between pieces of code, not inside them. Such examples include: 
-
-* State updates are user interaction
+* State updates triggered by user interaction
 * Form validation behaviour
-* React components rendering with props
+* A form component that validates input and submits data to an API
 
 Integration Tests can be written using: 
 
@@ -90,22 +88,23 @@ Integration Tests can be written using:
 
 ### End-to-End (E2E) Tests 
 
-E2E tests aim to simulates real user interactions to validate the an entire flow within an application from start to finish. They're used to ensure that all components, from the UI, to backend and databases all work together as designed. 
+E2E tests aim to simulate real user interactions to validate an entire flow within an application from start to finish. They're used to ensure that all components, from the UI, to backend and databases all work together as designed. 
 
 Popular JavaScript E2E testing frameworks: 
 
-* 👑 [Playwright](https://playwright.dev/) (recommended)
+* 👑 [Playwright](https://playwright.dev/) (Recommended)
 * [Cypress](https://www.cypress.io/#create)
 
-Both of these frameworks allow you to simulate a a browser environment on the developer server, clicking buttons, inputting forms, and working through real-world workflows from the user's perspective. 
+Both of these frameworks allow you to simulate a browser environment, clicking buttons, filling in forms, and working through real-world workflows from the user's perspective.
 
 ### Creating the correct test suite 
 
 A healthy testing strategy looks like a pyramid:
 
-* 🟨 A few E2E tests (high value, slow, flakey)
+* 🟨 A few E2E tests (high value, slow, flaky)
 * 🟩 More integration tests (gives more realistic coverage without browser overhead)
-* 🟦 A lot of unit tests (fast, cheap, stable but not holistic) 
+* 🟦 A lot of unit tests (fast, cheap, stable but not holistic)
+
 
 <imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="The ideal testing suite for your application" src="/uploads/rules/test-your-javascript/test-pyramid.png" />
 
