@@ -1,0 +1,54 @@
+name: Check-Category-Sync
+
+on:
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  check-category-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+
+    steps:
+      # Step 1: Check out the source code of the pull request.
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      # Step 2: Set up the Node.js environment.
+      - uses: actions/setup-node@v6
+
+      # Step 3: Get the list of changed files in the PR
+      - name: Get changed files
+        id: get_changed
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD | paste -sd ",")" >> $GITHUB_ENV
+
+      # Step 4: Run the category sync fixer
+      - name: Fix Category Sync
+        run: |
+          cd scripts/category-sync-validator
+          npm install --silent
+          node category-sync-validator.js '${{ env.changed }}'
+
+      # Step 5: Commit and push any auto-fixed category index changes
+      - name: Commit and push auto-fixed category index changes
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add categories/
+          if git diff --cached --quiet; then
+            echo "No category sync changes to commit."
+          else
+            git commit -m "XS ◾ Auto-update category index list to include new rule"
+            git push
+          fi
