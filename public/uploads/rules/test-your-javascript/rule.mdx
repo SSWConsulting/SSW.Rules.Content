@@ -25,7 +25,7 @@ seoDescription: 'Modern applications push significant business logic to the fron
 created: 2020-03-11T22:56:26.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-02-23T04:41:52.505Z
+lastUpdated: 2026-02-23T04:47:01.124Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 isArchived: false
@@ -96,5 +96,15 @@ Popular JavaScript E2E testing frameworks:
 * [Cypress](https://www.cypress.io/#create)
 
 Both of these frameworks allow you to simulate a a browser environment on the developer server, clicking buttons, inputting forms, and working through real-world workflows from the user's perspective. 
+
+### Creating the correct test suite 
+
+A healthy testing strategy looks like a pyramid:
+
+* 🟨 A few E2E tests (high value, slow, flakey)
+* 🟩 More integration tests (gives more realistic coverage without browser overhead)
+* 🟦 A lot of unit tests (fast, cheap, stable but not holistic) 
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="The ideal testing suite for your application" src="/uploads/rules/test-your-javascript/test-pyramid.png" />
 
  
