@@ -16,26 +16,26 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-24T05:50:05.216Z
+lastUpdated: 2026-02-24T06:12:08.604Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-GitHub Agentic Workflows let you automate repository tasks by writing natural language instructions in markdown, which compile into GitHub Actions workflows powered by AI coding agents. Instead of writing complex YAML, you describe what you want done and an AI agent handles it.
+GitHub Agentic Workflows let you automate repository tasks by writing natural language instructions in markdown. These markdown files then compile into GitHub Actions workflows powered by AI agents. Instead of writing complex YAML, you describe what you want done and an AI agent handles it.
 
 <endIntro />
 
 ## What are GitHub Agentic Workflows?
 
-GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a standard GitHub Actions workflow.
+GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a lock file, which is similar to a GitHub Actions YAML file.
 
-The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI coding agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.
+The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.
 
 A workflow file has four key parts:
 
 * **Triggers** (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
 * **Permissions** (`permissions:`) - Scoped access controls, read-only by default
-* **Safe outputs** (`safe-outputs:`) - Explicitly approved write operations (e.g. creating a PR or issue)
+* **Safe outputs** (`safe-outputs:`) - A way for the agent to delegate potentially dangerous tasks safely (e.g. creating a PR or issue, writing a comment, etc.)
 * **Tools** (`tools:`) - Operations the agent can use (e.g. edit, web-fetch)
 
 The instructions section is plain markdown where you describe the agent's role, goals, and steps.
@@ -47,6 +47,17 @@ The instructions section is plain markdown where you describe the agent's role, 
   figurePrefix="none"
   figure=""
   style="info"
+/>
+
+{{ TODO: WRITE A SECTION ON HOW IT DIFFERS FROM JUST GETTING AI TO WRITE A WORKFLOW }}
+
+<boxEmbed
+  body={<>
+    **Security by design:** Write operations require explicit approval via `safe-outputs`. The agent runs in a sandboxed container with minimal permissions, tool allowlisting, and network isolation.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
 />
 
 ## When should you use GitHub Agentic Workflows?
@@ -126,15 +137,6 @@ process before closing them.
 - Be contextual in comments — read the issue before writing
 - Respect the two-strike model strictly
 ```
-
-<boxEmbed
-  body={<>
-    **Security by design:** Write operations require explicit approval via `safe-outputs`. The agent runs in a sandboxed container with minimal permissions, tool allowlisting, and network isolation. You control exactly what the agent can do.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
 
 ## How do you set up GitHub Agentic Workflows?
 
