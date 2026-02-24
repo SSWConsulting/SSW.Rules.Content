@@ -1,7 +1,15 @@
 ---
 title: Do you use GitHub Agentic Workflows?
 uri: do-you-use-github-agentic-workflows
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
 guid: e33d6ccb-c24c-4f1b-bcd6-7af29f2caa1a
+seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repository tasks like issue triage, documentation updates, and test generation using AI coding agents.'
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -10,14 +18,120 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+GitHub Agentic Workflows let you automate repository tasks by writing natural language instructions in markdown, which compile into GitHub Actions workflows powered by AI coding agents. Instead of writing complex YAML, you describe what you want done and an AI agent handles it.
 
 <endIntro />
 
 ## What are GitHub Agentic Workflows?
 
-## When should you use GitHub Agentic Workflows
+GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a standard GitHub Actions workflow.
 
-&#123;&#123; EXAMPLE IMPLEMENTATION OF THE AGENTIC WORKFLOWS &#125;&#125;
+The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI coding agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.
 
-## How do you set up GitHub Agentic Workflows
+A workflow file has four key parts:
+
+* **Triggers** (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
+* **Permissions** (`permissions:`) - Scoped access controls, read-only by default
+* **Safe outputs** (`safe-outputs:`) - Explicitly approved write operations (e.g. creating a PR or issue)
+* **Tools** (`tools:`) - Operations the agent can use (e.g. edit, web-fetch)
+
+The instructions section is plain markdown where you describe the agent's role, goals, and steps.
+
+<boxEmbed
+  body={<>
+    Agentic Workflows compile to standard GitHub Actions YAML. This means they are repo-centric, team-visible, and auditable — no hidden prompts or secret behavior. You can inspect the generated `.lock.yml` file to see exactly what will execute.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## When should you use GitHub Agentic Workflows?
+
+Agentic Workflows are best suited for repetitive repository maintenance tasks that benefit from AI reasoning. They particularly shine for open-source maintainers dealing with high-volume repositories.
+
+Common use cases include:
+
+* **Issue triage** - Automatically label, summarize, and route incoming issues
+* **Documentation updates** - Keep READMEs and API docs in sync as code evolves
+* **Test generation** - Analyze coverage gaps and propose new test cases via PRs
+* **Daily reporting** - Generate status reports summarizing recent activity
+* **Code quality** - Suggest refactoring improvements and file PRs with fixes
+
+Here's an example workflow that automatically updates documentation when code changes:
+
+```markdown
+---
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+safe-outputs:
+  create-pull-request:
+
+tools:
+  edit:
+  web-fetch:
+---
+
+# Documentation Updater
+
+You are a technical writer. Your job is to make the documentation
+in the repository ${{ github.repository }} _excellent_.
+
+Steps:
+
+1. Analyze repository changes. On every push to the main branch,
+   examine the diff to identify changed/added/removed entities.
+2. Review existing documentation for accuracy and completeness.
+   Identify documentation gaps including missing or outdated sections.
+3. Update documentation as necessary.
+4. Create a pull request with a clear description of the changes.
+```
+
+<boxEmbed
+  body={<>
+    **Security by design:** Write operations require explicit approval via `safe-outputs`. The agent runs in a sandboxed container with minimal permissions, tool allowlisting, and network isolation. You control exactly what the agent can do.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## How do you set up GitHub Agentic Workflows?
+
+1. **Install the CLI extension** - Install the `gh aw` GitHub CLI extension
+2. **Create a workflow file** - Write a `.md` file with YAML frontmatter (triggers, permissions, safe-outputs, tools) followed by natural language instructions
+3. **Compile the workflow** - Run `gh aw` to generate the GitHub Actions `.lock.yml` file from your markdown
+4. **Commit and push** - Add both the `.md` source and the generated `.lock.yml` to your repository
+5. **Trigger** - The workflow runs on the events you specified, with the AI agent executing your instructions
+
+<boxEmbed
+  body={<>
+    You can also create workflows directly through the GitHub web interface using natural language prompts, without needing the CLI.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+<boxEmbed
+  body={<>
+    GitHub Agentic Workflows is currently a research project from GitHub Next and Microsoft Research. Specifications may change, and careful human supervision is recommended.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+***
+
+## Additional reading
+
+* [GitHub Next - Agentic Workflows](https://githubnext.com/projects/agentic-workflows/) - The introductory article explaining the vision and design philosophy
+* [gh-aw Documentation](https://github.github.com/gh-aw/) - Official documentation for the CLI extension and workflow format
+* [Example Workflows](https://github.com/githubnext/agentics) - A collection of demonstrator agentic workflows
