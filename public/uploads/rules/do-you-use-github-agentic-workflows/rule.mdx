@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-24T23:54:37.008Z
+lastUpdated: 2026-02-24T23:58:56.613Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -85,79 +85,72 @@ Common use cases include:
 
 Here's an example workflow that automatically detects and closes duplicate issues:
 
-<boxEmbed
-  body={<>
-    ```markdown
-    ---
-    description: >
-    Automatically detect duplicate issues and close them with a link
-    to the original, notifying relevant users.
-    on:
-    issues:
+```markdown
+---
+description: >
+  Automatically detect duplicate issues and close them with a link
+  to the original, notifying relevant users.
+on:
+  issues:
     types: [opened]
-    permissions:
-    contents: read
-    issues: read
-    pull-requests: read
-    tools:
-    github:
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+tools:
+  github:
     toolsets: [default]
-    safe-outputs:
-    add-comment:
+safe-outputs:
+  add-comment:
     max: 3
-    close-issue:
+  close-issue:
     max: 1
-    update-issue:
+  update-issue:
     max: 2
-    noop:
+  noop:
     max: 1
-    ---
-    
-    # Duplicate Issue Detector
-    
-    You are an AI agent that detects duplicate issues in this repository.
-    When a new issue is opened, you analyze the existing issue backlog to
-    find potential duplicates. If a duplicate is found, you close the new
-    issue with a reference to the original and notify relevant users.
-    
-    ## Your Task
-    
-    1. **Read the newly opened issue** — get the title, body, and any
-    mentioned users from the triggering issue.
-    
-    2. **Search the issue backlog** — use the GitHub tools to search for
-    existing open AND closed issues that may cover the same topic.
-    Try multiple search queries to cast a wide net (at least 2-3
-    different queries).
-    
-    3. **Evaluate similarity** — for each candidate, compare title
-    similarity, description overlap, and labels. Look for **semantic**
-    duplicates (same underlying problem described differently).
-    
-    4. **If a duplicate is found**:
-    - Comment on the NEW issue explaining it's a duplicate, linking
-    to the original with `#<number>`
-    - Close the NEW issue as "not planned"
-    - Comment on the ORIGINAL issue tagging the reporter and any
-    mentioned users for visibility
-    - Add the `duplicate` label to the new issue
-    
-    5. **If NO duplicate is found**:
-    - Call the `noop` safe output with a summary message.
-    
-    ## Guidelines
-    
-    - **Be conservative**: Only close if you are confident it is truly
-    a duplicate. When in doubt, leave it open.
-    - **Prefer the older issue**: Always close the newer one.
-    - **Be helpful**: Comments should be polite and explain why you
-    believe it's a duplicate.
-    ```
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="greybox"
-/>
+---
+
+# Duplicate Issue Detector
+
+You are an AI agent that detects duplicate issues in this repository.
+When a new issue is opened, you analyze the existing issue backlog to
+find potential duplicates. If a duplicate is found, you close the new
+issue with a reference to the original and notify relevant users.
+
+## Your Task
+
+1. **Read the newly opened issue** — get the title, body, and any
+   mentioned users from the triggering issue.
+
+2. **Search the issue backlog** — use the GitHub tools to search for
+   existing open AND closed issues that may cover the same topic.
+   Try multiple search queries to cast a wide net (at least 2-3
+   different queries).
+
+3. **Evaluate similarity** — for each candidate, compare title
+   similarity, description overlap, and labels. Look for **semantic**
+   duplicates (same underlying problem described differently).
+
+4. **If a duplicate is found**:
+   - Comment on the NEW issue explaining it's a duplicate, linking
+     to the original with `#<number>`
+   - Close the NEW issue as "not planned"
+   - Comment on the ORIGINAL issue tagging the reporter and any
+     mentioned users for visibility
+   - Add the `duplicate` label to the new issue
+
+5. **If NO duplicate is found**:
+   - Call the `noop` safe output with a summary message.
+
+## Guidelines
+
+- **Be conservative**: Only close if you are confident it is truly
+  a duplicate. When in doubt, leave it open.
+- **Prefer the older issue**: Always close the newer one.
+- **Be helpful**: Comments should be polite and explain why you
+  believe it's a duplicate.
+```
 
 ## How do you set up GitHub Agentic Workflows?
 
