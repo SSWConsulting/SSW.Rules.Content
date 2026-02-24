@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-24T06:12:08.604Z
+lastUpdated: 2026-02-24T06:31:23.911Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -49,7 +49,7 @@ The instructions section is plain markdown where you describe the agent's role, 
   style="info"
 />
 
-&#123;&#123; TODO: WRITE A SECTION ON HOW IT DIFFERS FROM JUST GETTING AI TO WRITE A WORKFLOW &#125;&#125;
+{{ TODO: WRITE A SECTION ON HOW IT DIFFERS FROM JUST GETTING AI TO WRITE A WORKFLOW }}
 
 <boxEmbed
   body={<>
@@ -73,6 +73,8 @@ Common use cases include:
 * **Code quality** - Suggest refactoring improvements and file PRs with fixes
 
 Here's an example workflow that marks and closes stale issues using a two-strike warning system:
+
+{{ TODO: REPLACE THIS WITH THE DUPLICATED ISSUES MD }}
 
 ```markdown
 ---
@@ -140,11 +142,25 @@ process before closing them.
 
 ## How do you set up GitHub Agentic Workflows?
 
-1. **Install the CLI extension** - Install the `gh aw` GitHub CLI extension
-2. **Create a workflow file** - Write a `.md` file with YAML frontmatter (triggers, permissions, safe-outputs, tools) followed by natural language instructions
-3. **Compile the workflow** - Run `gh aw` to generate the GitHub Actions `.lock.yml` file from your markdown
-4. **Commit and push** - Add both the `.md` source and the generated `.lock.yml` to your repository
-5. **Trigger** - The workflow runs on the events you specified, with the AI agent executing your instructions
+### Option 1: Agentic - Vibe it up! 🤙
+
+1. Prompt your AI Agent to write you an Agentic Workflow with the following prompt:
+
+```markdown
+Create a workflow for GitHub Agentic Workflows using https://raw.githubusercontent.com/github/gh-aw/main/create.md
+
+{{ YOUR WORKFLOW SPECIFICATION HERE }}
+```
+
+### Option 2: Handcraft your prompt 🤓
+
+If you prefer to manually create your Agentic Workflows, follow these instructions. Learn more at [GitHub Agentic Workflow Docs - Manual Editing](https://github.github.com/gh-aw/setup/creating-workflows/#manual-editing)
+
+1. Install the `gh aw` GitHub CLI extension
+2. Write a `.md` file with YAML frontmatter (triggers, permissions, safe-outputs, tools) followed by natural language instructions
+3. Run `gh aw` to generate the GitHub Actions `.lock.yml` file from your markdown
+4. Add both the `.md` source and the generated `.lock.yml` to your repository
+5. The workflow runs on the events you specified, with the AI agent executing your instructions
 
 <boxEmbed
   body={<>
