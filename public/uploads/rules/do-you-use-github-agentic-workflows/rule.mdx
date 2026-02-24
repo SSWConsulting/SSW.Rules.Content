@@ -61,39 +61,70 @@ Common use cases include:
 * **Daily reporting** - Generate status reports summarizing recent activity
 * **Code quality** - Suggest refactoring improvements and file PRs with fixes
 
-Here's an example workflow that automatically updates documentation when code changes:
+Here's an example workflow that marks and closes stale issues using a two-strike warning system:
 
 ```markdown
 ---
+description: >
+  Weekly stale issue checker. Scans open issues for 6+ months of inactivity,
+  pings assignee/author, uses a two-strike approach before closing.
 on:
-  push:
-    branches: [main]
-
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+timeout-minutes: 15
+engine: codex
 permissions:
+  issues: read
   contents: read
-  pull-requests: read
-
-safe-outputs:
-  create-pull-request:
-
 tools:
-  edit:
-  web-fetch:
+  github:
+    toolsets: [issues, labels]
+safe-outputs:
+  add-comment:
+    max: 15
+    target: "*"
+  add-labels:
+    max: 15
+    allowed: [awaiting-response, stale]
+  remove-labels:
+    max: 15
+    allowed: [awaiting-response, stale]
+  close-issue:
+    max: 10
+    required-labels: [stale]
 ---
 
-# Documentation Updater
+# Stale Issue Checker
 
-You are a technical writer. Your job is to make the documentation
-in the repository ${{ github.repository }} _excellent_.
+You are a repository maintenance assistant for `${{ github.repository }}`.
+Your job is to identify stale issues and follow a structured two-strike
+process before closing them.
 
-Steps:
+## Definitions
 
-1. Analyze repository changes. On every push to the main branch,
-   examine the diff to identify changed/added/removed entities.
-2. Review existing documentation for accuracy and completeness.
-   Identify documentation gaps including missing or outdated sections.
-3. Update documentation as necessary.
-4. Create a pull request with a clear description of the changes.
+- **Stale threshold**: No activity for 6 months (180 days).
+- **Warning threshold**: Issue has the `awaiting-response` label AND no
+  activity for 14 days since that label was added.
+- **Exempt labels**: Issues with `critical`, `security`, or `blocked`
+  must NEVER be pinged, warned, or closed.
+
+## Process
+
+1. Gather all open issues with their metadata
+2. Classify each issue:
+   - **Close** — already has `stale` label, no response for 14+ days
+   - **Closing warning** — has `awaiting-response`, no response for 14+ days
+   - **First ping** — no stale labels, inactive for 180+ days
+   - **Recovered** — has stale labels but recent activity; clean up labels
+3. Take action per category (contextual comments, label changes, closes)
+4. Output a summary of all actions taken
+
+## Important rules
+
+- NEVER count the bot's own comments as "activity"
+- Be contextual in comments — read the issue before writing
+- Respect the two-strike model strictly
 ```
 
 <boxEmbed
