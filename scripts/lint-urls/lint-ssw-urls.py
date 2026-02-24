@@ -66,27 +66,30 @@ def find_issues_in_file(file_path: Path) -> List[UrlIssue]:
 
 
 def generate_markdown_report(issues: List[UrlIssue], files_checked: int) -> str:
-    """Generate a markdown report of all issues found."""
+    """Generate a friendly markdown report of all issues found."""
     if not issues:
         return ""
 
+    count = len(issues)
+
     report = "## :warning: URL Linter Warning\n\n"
-    report += f"Found **{len(issues)} URL(s)** missing the `www` prefix in {files_checked} file(s) checked.\n\n"
-    report += "URLs using `ssw.com.au` should use `www.ssw.com.au` instead.\n"
-    report += "The Cloudflare worker redirects non-www to www, which means links without 'www' can't be indexed properly.\n\n"
-    report += "### Issues Found\n\n"
-    report += "| File | Line | Current | Should Be |\n"
-    report += "|------|------|---------|----------|\n"
+    report += f"We found **{count} link{'s' if count != 1 else ''}** using `ssw.com.au` without `www`.\n\n"
+    report += (
+        f"For consistency and SEO, please update "
+        f"{'it' if count == 1 else 'them'} to use `www.ssw.com.au`.\n\n"
+    )
+
+    report += "| File | Line | Current | Suggested |\n"
+    report += "|------|------|---------|-----------|\n"
 
     for issue in issues:
-        # Shorten file path for readability
         short_path = issue.file_path
         if len(short_path) > 50:
             short_path = "..." + short_path[-47:]
-        report += f"| `{short_path}` | {issue.line_num} | `{issue.original}` | `{issue.suggested}` |\n"
-
-    report += "\n---\n"
-    report += "<sub>This is a warning only and does not block the PR.</sub>\n"
+        report += (
+            f"| `{short_path}` | {issue.line_num} | "
+            f"`{issue.original}` | `{issue.suggested}` |\n"
+        )
 
     return report
 
