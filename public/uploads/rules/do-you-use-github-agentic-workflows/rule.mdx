@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-24T06:31:23.911Z
+lastUpdated: 2026-02-24T23:19:22.830Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -33,9 +33,9 @@ The key difference from traditional CI/CD is that instead of scripting every ste
 
 A workflow file has four key parts:
 
-* **Triggers** (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
-* **Permissions** (`permissions:`) - Scoped access controls, read-only by default
-* **Safe outputs** (`safe-outputs:`) - A way for the agent to delegate potentially dangerous tasks safely (e.g. creating a PR or issue, writing a comment, etc.)
+* Triggers (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
+* Permissions (`permissions:`) - Scoped access controls, read-only by default
+* Safe outputs (`safe-outputs:`) - A way for the agent to delegate potentially dangerous tasks safely (e.g. creating a PR or issue, writing a comment, etc.)
 * **Tools** (`tools:`) - Operations the agent can use (e.g. edit, web-fetch)
 
 The instructions section is plain markdown where you describe the agent's role, goals, and steps.
@@ -51,7 +51,7 @@ The instructions section is plain markdown where you describe the agent's role, 
 
 ## How is this different from AI-generated workflows?
 
-You might be thinking - "Why not just ask Copilot to write me a GitHub Actions YAML file?" The key difference is **when** the AI is involved.
+You might be thinking - "Why not just ask my AI agent to write me a GitHub Actions YAML file?" The key difference is **when** the AI is involved.
 
 With AI-generated YAML, the AI does its work at **authoring time**. It writes the workflow steps, you commit them, and from that point on, it runs like any other static workflow - the same steps execute in the same order, every time. It's a one-shot generation.
 
