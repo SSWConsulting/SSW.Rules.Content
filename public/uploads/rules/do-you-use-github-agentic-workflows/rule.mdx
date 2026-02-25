@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-25T00:47:14.834Z
+lastUpdated: 2026-02-25T00:59:51.714Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -35,29 +35,37 @@ You then use the gh aw CLI extension to compile this to generate the Actions wor
 
 <boxEmbed
   body={<>
-    This is the current process, but in the future, the development team envisions this to be integrated further into the Actions workflow, potentially being possible to just commit a markdown file to .github/workflows and “agentic things just happening” 🎉
+    This is the current process, but in the future, the development team envisions this to be integrated further into the Actions workflow, potentially being possible to just commit a markdown file to .github/workflows and “agentic things just happening”
   </>}
   figurePrefix="none"
   figure=""
   style="info"
 />
 
-GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a lock file, which is similar to a GitHub Actions YAML file.
+\[GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a lock file, which is similar to a GitHub Actions YAML file.
 
-The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.
+The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.]
 
-A workflow file has four key parts:
+An Agentic Workflow file is comprised of five key components:
+
+* Triggers (on:) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
+* Permissions (permissions:) - scoped access controls, defining what the agent has access to, this is read-only by default
+* Safe outputs (safe-outputs:) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
+* Tools (tools:) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
+* Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
+
+\[A workflow file has four key parts:
 
 * **Triggers** (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
 * **Permissions** (`permissions:`) - Scoped access controls, read-only by default
 * **Safe outputs** (`safe-outputs:`) - A way for the agent to delegate potentially dangerous tasks safely (e.g. creating a PR or issue, writing a comment, etc.)
 * **Tools** (`tools:`) - Operations the agent can use (e.g. edit, web-fetch)
 
-The instructions section is plain markdown where you describe the agent's role, goals, and steps.
+The instructions section is plain markdown where you describe the agent's role, goals, and steps.]
 
 <boxEmbed
   body={<>
-    Agentic Workflows compile to standard GitHub Actions YAML. This means they are repo-centric, team-visible, and auditable - no hidden prompts or secret behavior. You can inspect the generated `.lock.yml` file to see exactly what will execute.
+    Agentic Workflows compile to produce standard GitHub Actions YAML files. This means they are repo-centric, team-visible, and auditable. You can always inspect the generated `.lock.yml` file to see exactly what will execute.
   </>}
   figurePrefix="none"
   figure=""
@@ -70,7 +78,7 @@ You might be thinking - "Why not just ask my AI agent to write me a GitHub Actio
 
 With AI-generated YAML, the AI does its work at **authoring time**. It writes the workflow steps, you commit them, and from that point on, it runs like any other static workflow - the same steps execute in the same order, every time. It's a one-shot generation.
 
-&#123;&#123; TODO: WRITE ABOUT THE DIFFERENCES IN SECURITY, NOT THE KEY DIFFERENCE, INSTEAD TALK ABOUT HOW IT IS MORE SECURE WITH ITS LIMITATIONS IT CAN PUT ON AI AGENTS &#125;&#125;
+{{ TODO: WRITE ABOUT THE DIFFERENCES IN SECURITY, NOT THE KEY DIFFERENCE, INSTEAD TALK ABOUT HOW IT IS MORE SECURE WITH ITS LIMITATIONS IT CAN PUT ON AI AGENTS }}
 
 With agentic workflows, the AI reasons at **runtime**. It reads your instructions, evaluates the current state of the repository, and dynamically decides what actions to take. This means it can adapt - triaging different issues differently, writing contextual comments based on what it reads, or skipping steps that aren't relevant.
 
@@ -144,7 +152,7 @@ If you prefer to manually create your Agentic Workflows, follow these instructio
 
 ## Example
 
-Here's an example workflow that automatically detects and closes duplicate issues, &#123;&#123; TODO: DISCUSS HOW IT IS THEN CONVERTED INTO A GITHUB ACTION &#125;&#125;
+Here's an example workflow that automatically detects and closes duplicate issues, {{ TODO: DISCUSS HOW IT IS THEN CONVERTED INTO A GITHUB ACTION }}
 
 ```markdown
 ---
