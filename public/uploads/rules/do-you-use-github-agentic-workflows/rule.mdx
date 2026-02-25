@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-25T03:15:47.381Z
+lastUpdated: 2026-02-25T03:21:37.512Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -38,13 +38,13 @@ GitHub Agentic Workflows are a form of natural language programming over GitHub.
   style="warning"
 />
 
-Currently, you just write a markdown file with YAML frontmatter, describing the triggers, permissions, safe outputs, and tools that this workflow should have access to, followed by a set of natural language instructions on what should be done.
+GitHub Agentic Workflows consists of a markdown file with frontmatter, describing the triggers, permissions, safe outputs, allowed tools, and more. This is then followed by a set of natural language instructions on what the agent should do.
 
-You then use the gh aw CLI extension to compile this to generate the Actions workflow.
+Currently, you have to use the gh aw CLI extension to compile this to generate the Actions workflow.
 
 <boxEmbed
   body={<>
-    This is the current process, but in the future, the development team envisions this to be integrated further into the Actions workflow, potentially being possible to just commit a markdown file to .github/workflows and “agentic things just happening”
+    This is the current process, but in the future, the development team plans to simplify Agentic Workflows, requiring only a markdown file in .github/workflows to allow “agentic things to just happen”
   </>}
   figurePrefix="none"
   figure=""
