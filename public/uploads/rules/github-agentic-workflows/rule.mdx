@@ -38,13 +38,13 @@ GitHub Agentic Workflows are a form of natural language programming over GitHub.
   style="warning"
 />
 
-GitHub Agentic Workflows consists of a markdown file with frontmatter, describing the triggers, permissions, safe outputs, allowed tools, and more. This is then followed by a set of natural language instructions on what the agent should do.
+GitHub Agentic Workflows consists of a markdown file with frontmatter, describing the **triggers**, **permissions**, **safe outputs**, **allowed tools**, and more. This is then followed by a set of natural language instructions on what the agent should do.
 
-Currently, you have to use the gh aw CLI extension to compile this to generate the Actions workflow.
+Currently, you have to use the `gh aw` CLI extension to compile this to generate the Actions workflow.
 
 <boxEmbed
   body={<>
-    This is the current process, but in the future, the development team plans to simplify Agentic Workflows, requiring only a markdown file in .github/workflows to allow “agentic things to just happen”
+    This is the current process, but in the future, the development team plans to simplify Agentic Workflows, requiring only a markdown file in `.github/workflows` to allow “agentic things to just happen”
   </>}
   figurePrefix="none"
   figure=""
@@ -53,10 +53,10 @@ Currently, you have to use the gh aw CLI extension to compile this to generate t
 
 An Agentic Workflow file is comprised of five key components:
 
-* Triggers (on:) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
-* Permissions (permissions:) - scoped access controls, defining what the agent has access to. This is read-only by default
-* Safe outputs (safe-outputs:) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
-* Tools (tools:) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
+* Triggers (`on:`) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
+* Permissions (`permissions:`) - scoped access controls, defining what the agent has access to. This is read-only by default
+* Safe outputs (`safe-outputs:`) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
+* Tools (`tools:`) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
 * Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
 
 <boxEmbed
