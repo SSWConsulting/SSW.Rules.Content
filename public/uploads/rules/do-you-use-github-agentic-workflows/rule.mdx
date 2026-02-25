@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-25T01:22:19.622Z
+lastUpdated: 2026-02-25T03:15:47.381Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -28,6 +28,15 @@ GitHub Agentic Workflows let you automate repository tasks by writing natural la
 ## What are GitHub Agentic Workflows?
 
 GitHub Agentic Workflows are a form of natural language programming over GitHub.
+
+<boxEmbed
+  body={<>
+    GitHub Agentic Workflows is currently a research project from GitHub Next and Microsoft Research. Specifications may change, and human supervision is recommended.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 Currently, you just write a markdown file with YAML frontmatter, describing the triggers, permissions, safe outputs, and tools that this workflow should have access to, followed by a set of natural language instructions on what should be done.
 
@@ -42,10 +51,6 @@ You then use the gh aw CLI extension to compile this to generate the Actions wor
   style="info"
 />
 
-\[GitHub Agentic Workflows are a new automation layer built on top of GitHub Actions. You write a markdown file with YAML frontmatter describing **triggers**, **permissions**, **safe outputs**, and **tools**, followed by natural language instructions. The `gh aw` CLI extension then compiles this into a lock file, which is similar to a GitHub Actions YAML file.
-
-The key difference from traditional CI/CD is that instead of scripting every step, you describe the desired behavior in plain English and an AI agent (such as GitHub Copilot, Claude Code, or OpenAI Codex) interprets and executes it.]
-
 An Agentic Workflow file is comprised of five key components:
 
 * Triggers (on:) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
@@ -53,15 +58,6 @@ An Agentic Workflow file is comprised of five key components:
 * Safe outputs (safe-outputs:) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
 * Tools (tools:) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
 * Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
-
-\[A workflow file has four key parts:
-
-* **Triggers** (`on:`) - Standard GitHub Actions events (push, schedule, issue opened, etc.)
-* **Permissions** (`permissions:`) - Scoped access controls, read-only by default
-* **Safe outputs** (`safe-outputs:`) - A way for the agent to delegate potentially dangerous tasks safely (e.g. creating a PR or issue, writing a comment, etc.)
-* **Tools** (`tools:`) - Operations the agent can use (e.g. edit, web-fetch)
-
-The instructions section is plain markdown where you describe the agent's role, goals, and steps.]
 
 <boxEmbed
   body={<>
@@ -80,16 +76,6 @@ With AI-generated YAML, the AI does its work creating the GitHub Actions YAML fi
 
 Where Agentic Workflows really shines is where a bit of “productive ambiguity" helps. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.” Although this isn't a line-by-line instruction set that workflows can understand, **it is** something an AI agent can understand and execute.
 
-\[You might be thinking - "Why not just ask my AI agent to write me a GitHub Actions YAML file?".The key difference is **when** the AI is involved.
-
-With AI-generated YAML, the AI does its work at **authoring time**. It writes the workflow steps, you commit them, and from that point on, it runs like any other static workflow - the same steps execute in the same order, every time. It's a one-shot generation.
-
-&#123;&#123; TODO: WRITE ABOUT THE DIFFERENCES IN SECURITY, NOT THE KEY DIFFERENCE, INSTEAD TALK ABOUT HOW IT IS MORE SECURE WITH ITS LIMITATIONS IT CAN PUT ON AI AGENTS &#125;&#125;
-
-With agentic workflows, the AI reasons at **runtime**. It reads your instructions, evaluates the current state of the repository, and dynamically decides what actions to take. This means it can adapt - triaging different issues differently, writing contextual comments based on what it reads, or skipping steps that aren't relevant.
-
-This makes agentic workflows powerful for tasks that require judgment and adaptation rather than rigid step-by-step execution.
-
 ### Security by design
 
 Because an AI agent is making runtime decisions, security becomes critical. GitHub Agentic Workflows emphasises security by inheriting GitHub Actions' tsandboxing model, scoped permissions, and auditable execution, with the following attributes to further enforce this:
@@ -104,17 +90,17 @@ This is a fundamental difference from regular AI-generated YAML, where the resul
 
 ## When should you use GitHub Agentic Workflows?
 
-Agentic Workflows are best suited for repetitive repository maintenance tasks that benefit from AI reasoning, and do not require strict, deterministic outputs. They particularly shine for open-source maintainers dealing with high-volume repositories.
+Agentic Workflows are best suited for repetitive repository tasks that have a bit of ambiguity and would benefit from AI reasoning, not requiring strict, deterministic outputs.
 
 Common use cases include:
 
-* **Issue triage** - Automatically label, summarize, and route incoming issues
-* **Documentation updates** - Keep READMEs and API docs in sync as code evolves
-* **Test generation** - Analyze coverage gaps and propose new test cases via PRs
-* **Daily reporting** - Generate status reports summarizing recent activity
-* **Code quality** - Suggest refactoring improvements and file PRs with fixes
+* GitHub Issue triage - Automatically labelling, summarizing, and routing incoming issues
+* Documentation updates - Keeping README's and API docs in sync as the code changes with modifications
+* Test generation - Analyzing coverage gaps and create PRs proposing new test cases
+* Daily reporting - Generating status reports summarizing recent activity
+* Code quality - Suggesting refactoring improvements and file PRs with fixes
 
-How do you set up GitHub Agentic Workflows?
+## How do you set up GitHub Agentic Workflows?
 
 ### Option 1: Agentic - Vibe it up! 🤙
 
@@ -128,13 +114,14 @@ Create a workflow for GitHub Agentic Workflows using https://raw.githubuserconte
 
 ### Option 2: Handcraft your prompt 🤓
 
-If you prefer to manually create your Agentic Workflows, follow these instructions. Learn more at [GitHub Agentic Workflow Docs - Manual Editing](https://github.github.com/gh-aw/setup/creating-workflows/#manual-editing)
+If you'd prefer to manually create your Agentic Workflows, follow these instructions. Learn more at [GitHub Agentic Workflow Docs - Manual Editing](https://github.github.com/gh-aw/setup/creating-workflows/#manual-editing)
 
 1. Install the `gh aw` GitHub CLI extension
 2. Write a `.md` file with YAML frontmatter (triggers, permissions, safe-outputs, tools) followed by natural language instructions
 3. Run `gh aw` to generate the GitHub Actions `.lock.yml` file from your markdown
 4. Add both the `.md` source and the generated `.lock.yml` to your repository
-5. The workflow runs on the events you specified, with the AI agent executing your instructions
+
+The workflow runs on the events you specified, with the AI agent executing your instructions
 
 <boxEmbed
   body={<>
@@ -145,20 +132,11 @@ If you prefer to manually create your Agentic Workflows, follow these instructio
   style="tips"
 />
 
-<boxEmbed
-  body={<>
-    GitHub Agentic Workflows is currently a research project from GitHub Next and Microsoft Research. Specifications may change, and careful human supervision is recommended.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-***
-
 ## Example
 
-Here's an example workflow that automatically detects and closes duplicate issues, &#123;&#123; TODO: DISCUSS HOW IT IS THEN CONVERTED INTO A GITHUB ACTION &#125;&#125;
+Here's an example markdown file for an Agentic Workflow that automatically detects and closes duplicate issues.
+
+From there, all you would need to do is compile the workflow markdown into a YAML workflow file using: gh aw compile, producing the YAML file responsible for this workflow.
 
 ```markdown
 ---
