@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-25T03:21:37.512Z
+lastUpdated: 2026-02-25T03:23:14.875Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -54,14 +54,14 @@ Currently, you have to use the gh aw CLI extension to compile this to generate t
 An Agentic Workflow file is comprised of five key components:
 
 * Triggers (on:) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
-* Permissions (permissions:) - scoped access controls, defining what the agent has access to, this is read-only by default
+* Permissions (permissions:) - scoped access controls, defining what the agent has access to. This is read-only by default
 * Safe outputs (safe-outputs:) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
 * Tools (tools:) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
 * Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
 
 <boxEmbed
   body={<>
-    Agentic Workflows compile to produce standard GitHub Actions YAML files. This means they are repo-centric, team-visible, and auditable. You can always inspect the generated `.lock.yml` file to see exactly what will execute.
+    Agentic Workflows compile to produce standard GitHub Actions YAML files. This means they are repo-centric, team-visible, and version controlled. You can always inspect the generated `.lock.yml` file to see exactly what will execute.
   </>}
   figurePrefix="none"
   figure=""
