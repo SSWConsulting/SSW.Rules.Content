@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-25T03:23:14.875Z
+lastUpdated: 2026-02-25T03:32:57.155Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -70,15 +70,15 @@ An Agentic Workflow file is comprised of five key components:
 
 ## How is this different from regular AI-generated workflows?
 
-You may be thinking “Why shouldn't I just ask my AI agent to write me a GitHub Actions YAML?" The key difference between the two is the amount of control you have over your AI agents!
+You may be thinking “Why shouldn't I just ask my AI agent to write me a GitHub Action?" The key difference between the two is the amount of control you have over your AI agents!
 
-With AI-generated YAML, the AI does its work creating the GitHub Actions YAML file, it writes the workflow steps, you commit the file, and from then on, it's the same as any other static workflow.
+With AI-generated YAML, the agent writes the workflow steps, you commit the file, and from then on, it's the same as any other static workflow.
 
-Where Agentic Workflows really shines is where a bit of “productive ambiguity" helps. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.” Although this isn't a line-by-line instruction set that workflows can understand, **it is** something an AI agent can understand and execute.
+Where Agentic Workflows really shines is where a bit of “productive ambiguity" helps. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.” This isn't a programmatic instruction set that needs to be written with GitHub Actions syntax, instead, it's something an AI agent can interpret and execute.
 
 ### Security by design
 
-Because an AI agent is making runtime decisions, security becomes critical. GitHub Agentic Workflows emphasises security by inheriting GitHub Actions' tsandboxing model, scoped permissions, and auditable execution, with the following attributes to further enforce this:
+Because an AI agent is making runtime decisions, security becomes critical. GitHub Agentic Workflows emphasise security by inheriting GitHub Actions' sandboxing model, scoped permissions, and auditable execution, enforced by these attributes:
 
 * Read-only by default - the agent has no write access beyond what is explicitly granted through `safe-outputs`
 * Permission separation - write operations run in separate permission-controlled jobs, and never inside the agentic container itself, preventing AI agents from making write changes beyond what is allowed
@@ -86,7 +86,7 @@ Because an AI agent is making runtime decisions, security becomes critical. GitH
 * Network isolation - Egress traffic is restricted to a configurable domain allowlist via the Agent Workflow Firewall (AWF)
 * Tool allowlisting - Agents can only use pre-approved tools, preventing unauthorized actions
 
-This is a fundamental difference from regular AI-generated YAML, where the resulting Actions workflow runs with whatever permissions you give the job and has no built-in guardrails on what the AI suggested.
+This is a fundamental difference compared to if you invoked an AI agent in a normal GitHub Action, which runs with whatever permissions you give the job and has no built-in guardrails on what the agent chooses to do.
 
 ## When should you use GitHub Agentic Workflows?
 
@@ -96,9 +96,9 @@ Common use cases include:
 
 * GitHub Issue triage - Automatically labelling, summarizing, and routing incoming issues
 * Documentation updates - Keeping README's and API docs in sync as the code changes with modifications
-* Test generation - Analyzing coverage gaps and create PRs proposing new test cases
+* Test generation - Analyzing coverage gaps and creating PRs proposing new test cases
 * Daily reporting - Generating status reports summarizing recent activity
-* Code quality - Suggesting refactoring improvements and file PRs with fixes
+* Code quality - Suggesting refactoring improvements and filing PRs with fixes
 
 ## How do you set up GitHub Agentic Workflows?
 
@@ -114,7 +114,7 @@ Create a workflow for GitHub Agentic Workflows using https://raw.githubuserconte
 
 ### Option 2: Handcraft your prompt 🤓
 
-If you'd prefer to manually create your Agentic Workflows, follow these instructions. Learn more at [GitHub Agentic Workflow Docs - Manual Editing](https://github.github.com/gh-aw/setup/creating-workflows/#manual-editing)
+If you'd prefer to manually create your Agentic Workflows, follow these instructions.
 
 1. Install the `gh aw` GitHub CLI extension
 2. Write a `.md` file with YAML frontmatter (triggers, permissions, safe-outputs, tools) followed by natural language instructions
@@ -122,6 +122,8 @@ If you'd prefer to manually create your Agentic Workflows, follow these instruct
 4. Add both the `.md` source and the generated `.lock.yml` to your repository
 
 The workflow runs on the events you specified, with the AI agent executing your instructions
+
+Learn more at [GitHub Agentic Workflow Docs - Manual Editing](https://github.github.com/gh-aw/setup/creating-workflows/#manual-editing)
 
 <boxEmbed
   body={<>
