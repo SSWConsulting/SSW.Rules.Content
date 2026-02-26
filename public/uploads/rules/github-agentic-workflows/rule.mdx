@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-26T01:20:23.248Z
+lastUpdated: 2026-02-26T01:38:28.890Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -31,8 +31,6 @@ Agentic Workflows let you automate repository tasks by writing natural language 
 
 Agentic Workflows are a form a natural language programming, incorporating AI agents into actions workflows.
 
-\[GitHub Agentic Workflows are a form of natural language programming over GitHub.]
-
 <boxEmbed
   body={<>
     Agentic Workflows is currently a research project from GitHub Next and Microsoft Research and only available for GitHub Actions. Specifications may change, and human supervision is recommended.
@@ -42,13 +40,13 @@ Agentic Workflows are a form a natural language programming, incorporating AI ag
   style="warning"
 />
 
-GitHub Agentic Workflows consists of a markdown file with frontmatter, describing the **triggers**, **permissions**, **safe outputs**, **allowed tools**, and more. This is then followed by a set of natural language instructions on what the agent should do.
+Agentic Workflows are defined by a markdown file with specific frontmatter, specifying aspects such as the triggers, permissions, safe outputs, allowed tools, and more of the Agentic Workflow. This is then followed by a set of natural language instructions, which tell the agent what it's role is, what it's goals are, and what steps it should follow.
 
-Currently, you have to use the `gh aw` CLI extension to compile this to generate the Actions workflow.
+With GitHub Actions, this is compiled programmatically through its CLI extension, generating the YAML file responsible for the Actions workflow.
 
 <boxEmbed
   body={<>
-    This is the current process, but in the future, the development team plans to simplify Agentic Workflows, requiring only a markdown file in `.github/workflows` to allow “agentic things to just happen”.
+    This is the current process for GitHub Agentic Workflows, but the development team plans to simplify Agentic Workflows, aiming to only require a markdown file in `.github/workflows` to allow “agentic things to just happen” in the future.
   </>}
   figurePrefix="none"
   figure=""
@@ -57,10 +55,10 @@ Currently, you have to use the `gh aw` CLI extension to compile this to generate
 
 An Agentic Workflow file is comprised of five key components:
 
-* Triggers (`on:`) - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
-* Permissions (`permissions:`) - scoped access controls, defining what the agent has access to. This is read-only by default
-* Safe outputs (`safe-outputs:`) - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
-* Tools (`tools:`) - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
+* Triggers - the standard GitHub Actions events that would trigger the workflow (e.g. push, schedule, issue opened, etc.)
+* Permissions - scoped access controls, defining what the agent has access to. This is read-only by default
+* Safe outputs - definition of what an agent is allowed to produce as an output to the Actions workflow (e.g. creating an issue, writing a comment, etc.)
+* Tools - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
 * Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
 
 <boxEmbed
