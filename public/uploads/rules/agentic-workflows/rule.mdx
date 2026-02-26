@@ -75,7 +75,7 @@ Where Agentic Workflows really shines is where a bit of “productive ambiguity"
 
 Because an AI agent is making runtime decisions, security becomes critical.
 
-Looking at Github Agentic Workflows, it achieves this by inheriting GitHub Actions' sandboxing model, scoped permissions, and auditable execution, enforced by these attributes:
+GitHub Agentic Workflows achieve this by inheriting GitHub Actions' sandboxing model, scoped permissions, and auditable execution, enforced by these attributes:
 
 * Read-only by default - the agent has no write access beyond what is explicitly granted through `safe-outputs`
 * Permission separation - write operations run in separate permission-controlled jobs, and never inside the agentic container itself, preventing AI agents from making write changes beyond what is allowed
