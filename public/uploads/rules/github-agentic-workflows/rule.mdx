@@ -16,7 +16,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-26T01:38:28.890Z
+lastUpdated: 2026-02-26T01:48:09.914Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -61,26 +61,19 @@ An Agentic Workflow file is comprised of five key components:
 * Tools - the operations the agent can use within the process (e.g. edit, web-fetch, etc.)
 * Instructions - the natural language section in Markdown where you describe the agent's role, goals, and the steps that it should follow
 
-<boxEmbed
-  body={<>
-    Agentic Workflows compile to produce standard GitHub Actions YAML files. This means they are repo-centric, team-visible, and version controlled. You can always inspect the generated `.lock.yml` file to see exactly what will execute.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
-/>
-
 ## How is this different from regular AI-generated workflows?
 
 You may be thinking “Why shouldn't I just ask my AI agent to write me a GitHub Action?" The key difference between the two is the amount of control you have over your AI agents!
 
 With AI-generated YAML, the agent writes the workflow steps, you commit the file, and from then on, it's the same as any other static workflow.
 
-Where Agentic Workflows really shines is where a bit of “productive ambiguity" helps. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.” This isn't a programmatic instruction set that needs to be written with GitHub Actions syntax, instead, it's something an AI agent can interpret and execute.
+Where Agentic Workflows really shines is where a bit of “productive ambiguity" helps. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.” This isn't a programmatic instruction set that needs to be written with Actions workflow syntax, instead, it's something an AI agent can interpret and execute.
 
 ### Security by design
 
-Because an AI agent is making runtime decisions, security becomes critical. GitHub Agentic Workflows emphasise security by inheriting GitHub Actions' sandboxing model, scoped permissions, and auditable execution, enforced by these attributes:
+Because an AI agent is making runtime decisions, security becomes critical. This can be achieved through proper sandboxing, using scoped permission, and limiting what AI agents can and can't do.
+
+GitHub Agentic Workflows emphasise security by inheriting GitHub Actions' sandboxing model, scoped permissions, and auditable execution, enforced by these attributes:
 
 * Read-only by default - the agent has no write access beyond what is explicitly granted through `safe-outputs`
 * Permission separation - write operations run in separate permission-controlled jobs, and never inside the agentic container itself, preventing AI agents from making write changes beyond what is allowed
@@ -88,7 +81,7 @@ Because an AI agent is making runtime decisions, security becomes critical. GitH
 * Network isolation - Egress traffic is restricted to a configurable domain allowlist via the Agent Workflow Firewall (AWF)
 * Tool allowlisting - Agents can only use pre-approved tools, preventing unauthorized actions
 
-This is a fundamental difference compared to if you invoked an AI agent in a normal GitHub Action, which runs with whatever permissions you give the job and has no built-in guardrails on what the agent chooses to do.
+This is a fundamental difference from if you were to just invoke an AI agent inside of a normal Action Workflow, where agents run with whatever permissions you give the job, and have no built-in guardrails on what the agents chooses to do exactly.
 
 ## When should you use GitHub Agentic Workflows?
 
