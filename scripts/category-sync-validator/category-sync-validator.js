@@ -184,10 +184,49 @@ function removeRuleFromCategoryFile(categoryPath, rulePath) {
   return changed;
 }
 
+function getChangedCategoryFiles(changedFiles) {
+  return changedFiles
+    .filter(
+      (f) =>
+        f.startsWith("categories/") &&
+        f.endsWith(".mdx") &&
+        fs.existsSync(path.resolve(repoRoot, f))
+    )
+    .map((f) => getRulePathFromFile(f));
+}
+
+function removeMissingRuleReferencesFromCategoryFile(categoryPath) {
+  const categoryFrontmatter = readFrontmatter(categoryPath);
+  if (!categoryFrontmatter) {
+    return {
+      error: `Category file '${categoryPath}' could not be parsed.`,
+      removedRulePaths: [],
+    };
+  }
+
+  const indexEntries = getIndexFromCategory(categoryFrontmatter);
+  const removedRulePaths = [];
+
+  for (const entry of indexEntries) {
+    const rulePath = getRulePathFromFile(entry);
+    const ruleFullPath = path.resolve(repoRoot, rulePath);
+
+    if (!fs.existsSync(ruleFullPath)) {
+      const didRemove = removeRuleFromCategoryFile(categoryPath, rulePath);
+      if (didRemove) removedRulePaths.push(rulePath);
+    }
+  }
+
+  return { removedRulePaths };
+}
 
 function fixCategorySync(changedFiles) {
   const errors = [];
   const fixed = [];
+
+  // Only validate category files that were changed in the PR, plus any category
+  // files modified by this script during the run.
+  const categoryFilesToValidate = new Set(getChangedCategoryFiles(changedFiles));
 
   const ruleFiles = changedFiles.filter(
     (f) =>
@@ -234,6 +273,7 @@ function fixCategorySync(changedFiles) {
         try {
           appendRuleToCategoryFile(categoryPath, rulePath);
           fixed.push({ action: "added", rulePath, categoryPath });
+          categoryFilesToValidate.add(getRulePathFromFile(categoryPath));
         } catch (e) {
           errors.push(String(e.message || e));
         }
@@ -263,13 +303,32 @@ function fixCategorySync(changedFiles) {
       if (hasRule) {
         try {
           const didRemove = removeRuleFromCategoryFile(catFile, rulePath);
-          if (didRemove) fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+          if (didRemove) {
+            fixed.push({ action: "removed", rulePath, categoryPath: catFile });
+            categoryFilesToValidate.add(getRulePathFromFile(catFile));
+          }
         } catch (e) {
           errors.push(String(e.message || e));
         }
       }
     }
+  }
 
+  // Remove missing rule references from relevant category files.
+  for (const categoryPath of categoryFilesToValidate) {
+    if (!fs.existsSync(path.resolve(repoRoot, categoryPath))) continue;
+
+    const { error, removedRulePaths } =
+      removeMissingRuleReferencesFromCategoryFile(categoryPath);
+
+    if (error) {
+      errors.push(error);
+      continue;
+    }
+
+    for (const rulePath of removedRulePaths) {
+      fixed.push({ action: "removed_missing", rulePath, categoryPath });
+    }
   }
 
   return { errors, fixed };
@@ -296,7 +355,11 @@ function main() {
   if (fixed.length > 0) {
     console.log("Auto-fixed category index entries:");
     for (const { action, rulePath, categoryPath } of fixed) {
-      if (action === "removed") {
+      if (action === "removed_missing") {
+        console.log(
+          `  - Removed missing '${rulePath}' from '${categoryPath}'`
+        );
+      } else if (action === "removed") {
         console.log(`  - Removed '${rulePath}' from '${categoryPath}'`);
       } else {
         // default to "added"
