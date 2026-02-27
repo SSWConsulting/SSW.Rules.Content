@@ -305,7 +305,7 @@ function fixCategorySync(changedFiles) {
           const didRemove = removeRuleFromCategoryFile(catFile, rulePath);
           if (didRemove) {
             fixed.push({ action: "removed", rulePath, categoryPath: catFile });
-            categoryFilesToValidate.add(getRulePathFromFile(catFile));
+            categoryFilesToValidate.add(catFile);
           }
         } catch (e) {
           errors.push(String(e.message || e));
