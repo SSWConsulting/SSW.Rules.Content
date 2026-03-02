@@ -10,13 +10,109 @@ guid: 87c33a1d-a8ac-43d2-b9a9-bf434ab73a47
 created: 2026-03-02T04:23:17.193Z
 createdBy: Kiki Biancatti
 createdByEmail: kaiqueBiancatti@ssw.com.au
-lastUpdated: 2026-03-02T04:32:15.419Z
+lastUpdated: 2026-03-02T05:10:20.708Z
 lastUpdatedBy: Kiki Biancatti
 lastUpdatedByEmail: kaiqueBiancatti@ssw.com.au
 ---
 
-Intro
+Control4 can deliver a polished smart home or smart office experience, but over time many sites hit the same pain points: proprietary workflows, dealer dependency for some changes, and friction when you want to integrate newer systems or build richer automation logic.
+
+Home Assistant is a strong alternative when you want more flexibility, broader integration options, and better visibility into how your automations actually work. In many cases, KNX is used as a backbone protocol for sensors, lighting, and HVAC, and Node-RED to build and migrate automation logic visually inside Home Assistant.
+
+The best migrations are not “big bang” replacements. The best migrations run Home Assistant in parallel, move the backbone first, and cut over room by room with a rollback path. That is how you keep downtime low.
+
+Even if your site does not use KNX or Node-RED, the migration strategy is still the same: run both platforms in parallel, connect the backbone devices first, and move room by room with a rollback path.
 
 <endIntro />
 
-Body
+### Why migrate?
+
+A migration from Control4 to Home Assistant makes sense when you want:
+
+* more control over your own automation logic
+* easier integration with standards-based systems like KNX
+* a modern dashboard and mobile experience
+* a path to replace legacy or proprietary devices gradually instead of all at once
+
+### “Two brains” strategy
+
+The safest way to migrate from Control4 to Home Assistant is to run both systems side by side for a period of time.
+
+We spin up Home Assistant alongside the existing Control4 controller and connect as many systems as possible to both platforms at once. This lets Home Assistant take over gradually while Control4 continues to run the live environment.
+
+Where a device or subsystem can only talk to one controller directly, there are 2 common options:
+
+* Bridge through Control4 - keep the device connected to Control4 and let Home Assistant interact with it through the Control4 integration
+* Move the connection to Home Assistant - give Home Assistant its own path to the device so both platforms can coexist during the transition
+
+## Step 1 - Map the current system
+
+Before changing anything, document what Control4 is doing today.
+
+Create a migration checklist for each room:
+
+* lights and scenes
+* motion / presence sensors
+* climate / air conditioning
+* blinds or covers
+* alarms, doors, and notifications
+* schedules, macros, and special logic
+* user-facing touchpoints like wall panels and mobile dashboards
+
+This gives you 2 important things: a cutover plan and a test plan.
+
+If you cannot list what a room currently does, you are not ready to migrate it.
+
+## Step 2 - Create the second brain
+
+Spin up Home Assistant alongside the existing Control4 controller.
+
+Do not replace Control4 on day 1. The goal is to run both systems side by side so Home Assistant can take over gradually while Control4 keeps the site running.
+
+At this stage, connect Home Assistant to the systems that can safely be shared, such as KNX, lighting gateways, climate systems, and supported integrations.
+
+## Step 3 - Connect both systems where possible
+
+The safest migration approach is a two brains strategy.
+
+Where possible, connect the same system to both Control4 and Home Assistant at the same time. This lets you observe, test, and migrate with very little downtime.
+
+## Step 4 - Start with the backbone devices
+
+Do not start with the prettiest dashboard or the hardest room.
+
+Start with the backbone technologies first:
+
+1. KNX sensors and group addresses
+2. lighting circuits and status feedback
+3. climate devices and temperature feedback
+4. blinds, covers, and core room control
+
+This is where you prove that Home Assistant can see the real state of the room and control it reliably.
+
+## Step 5 - Migrate one room at a time
+
+Pick one room or one function and migrate it fully before moving on.
+
+Rebuild the logic in Home Assistant or Node-RED, test it properly, then disable the matching Control4 logic for that room. Boom! That room is now done.
+
+This creates a repeatable migration pattern and keeps risk low.
+
+## Step 6 - Use Control4 as a temporary bridge
+
+Some devices may need to stay on Control4 for a while.
+
+Use Control4 as a temporary bridge for devices or panels that still need it, while shifting the real automation logic into Home Assistant.
+
+This keeps the user experience stable while you finish the migration.
+
+## Step 7 - Keep a rollback path
+
+Before each cutover:
+
+1. back up the Control4 project
+2. document the old behaviour
+3. document the new Home Assistant mapping
+4. confirm how to roll the room back if needed
+
+A good migration is not just flexible - it is safe, controlled, and low downtime.
