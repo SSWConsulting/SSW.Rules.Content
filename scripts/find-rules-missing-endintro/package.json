@@ -1,0 +1,10 @@
+{
+  "description": "Check that every rule.mdx file contains an <endIntro /> tag",
+  "name": "find-rules-missing-endintro",
+  "private": true,
+  "scripts": {
+    "start": "node find-rules-missing-endintro.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
