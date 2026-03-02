@@ -24,21 +24,14 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 
 ## What the major design systems recommend
 
-| Design System              | Recommended Position   | Source                |
-| -------------------------- | ---------------------- | --------------------- |
-| Google — Material Design 3 | Bottom center          | Snackbar guidance     |
-| shadcn/ui + Sonner         | Bottom right (default) | Sonner docs           |
-| Bootstrap 5                | Top right (examples)   | Toast documentation   |
-| Apple HIG (iOS)            | Top center             | Notification guidance |
-| Windows OS                 | Bottom right           | OS convention         |
-| macOS                      | Top right              | OS convention         |
-
-Design systems differ.\
-Operating systems do not.
-
-That distinction matters.
-
-***
+| Design System | Recommended Position |
+|---------------|----------------------|
+| **[Google — Material Design 3](https://m3.material.io/components/snackbar/overview)** | Bottom center |
+| **[shadcn/ui + Sonner](https://ui.shadcn.com/docs/components/sonner)** | Bottom right (default) |
+| **[Bootstrap 5](https://getbootstrap.com/docs/5.3/components/toasts/)** | Top right (examples) |
+| **[Apple HIG (iOS)](https://developer.apple.com/design/human-interface-guidelines/notifications)** | Top center |
+| **[Microsoft Windows](https://learn.microsoft.com/windows/apps/design/shell/tiles-and-notifications/toast-notifications-overview)** | Bottom right |
+| **[Apple macOS](https://developer.apple.com/design/human-interface-guidelines/notifications)** | Top right |
 
 ## What real web apps actually do
 
@@ -55,10 +48,10 @@ That distinction matters.
 | LinkedIn      | Bottom left    | “Invitation sent”    |
 | Spotify (web) | Bottom left    | “Added to queue”     |
 
-**Pattern**
+### Pattern
 
-* Consumer apps: bottom left or bottom center
-* Enterprise and SaaS tools: bottom right
+* **Consumer apps** - Bottom left or bottom center
+* **Enterprise and SaaS tools** - Bottom right
 
 If you are building internal tools, admin portals, or SaaS dashboards, bottom right aligns with user expectation.
 
@@ -74,7 +67,7 @@ However:
 * In-app toasts in that location compete visually with the OS
 * Users may confuse app feedback with system alerts
 
-Do not fight the operating system.
+Do **not** fight the operating system.
 
 ***
 
@@ -119,9 +112,6 @@ Unless you are building a Windows-only enterprise system where bottom-right conf
 
 ***
 
-## Rule
-
 If you are building a modern SaaS or enterprise web application, default to **bottom right**.
 
-Small details build trust.\
-Predictability reduces friction.
+Small details build trust. Predictability reduces friction.
