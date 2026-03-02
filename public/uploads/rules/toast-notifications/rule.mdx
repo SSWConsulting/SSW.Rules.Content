@@ -37,18 +37,7 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 | Bottom Center       | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict           | Can overlap bottom navigation bars or floating action buttons on mobile                                  |
 | **Bottom Right ⭐️** | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Minor conflict with Windows taskbar notification area (OS notifications appear as overlays above apps)   |
 
-## What the major design systems recommend
-
-| Design System                                                                                                                   | Recommended Position   |
-| ------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| [Google — Material Design 3](https://m3.material.io/components/snackbar/overview)                                               | Bottom center          |
-| [shadcn/ui + Sonner](https://ui.shadcn.com/docs/components/sonner)                                                              | Bottom right (default) |
-| [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/toasts/)                                                             | Top right (examples)   |
-| [Apple HIG (iOS)](https://developer.apple.com/design/human-interface-guidelines/notifications)                                  | Top center             |
-| [Microsoft Windows](https://learn.microsoft.com/windows/apps/design/shell/tiles-and-notifications/toast-notifications-overview) | Bottom right           |
-| [Apple macOS](https://developer.apple.com/design/human-interface-guidelines/notifications)                                      | Top right              |
-
-## What real web apps actually do
+## What real web apps do
 
 | App           | Toast Position | Example              |
 | ------------- | -------------- | -------------------- |
@@ -63,46 +52,19 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 | LinkedIn      | Bottom left    | “Invitation sent”    |
 | Spotify (web) | Bottom left    | “Added to queue”     |
 
-### Pattern
 
-* **Consumer apps** - Bottom left or bottom center
-* **Enterprise and SaaS tools** - Bottom right
-
-If you are building internal tools, admin portals, or SaaS dashboards, bottom right aligns with user expectation.
-
-<boxEmbed
-  body={<>
-    **Warning:** Do **not** use top right for web applications.
-    
-    macOS Notification Centre sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone creates two compounding problems:
-    
-    * OS-level notifications can physically overlap and hide in-app toasts
-    * Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
-    
-    Do **not** fight the operating system!
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-## Accessibility matters
-
-Toast placement is not just visual. It is semantic.
-
-Follow WCAG guidance:
-
-* Use `role="status"` for success and informational toasts
-  * Polite ARIA live region
-  * Screen readers announce after the current task
-* Use `role="alert"` for errors
-  * Assertive
-  * Screen readers interrupt immediately
-* Minimum display time: 4 seconds (WCAG 2.2 guideline 2.2.1)
-* Never auto-dismiss error toasts
-* Do not cover primary CTAs or form fields
-
-***
+| Product | Position | Example Trigger |
+|----------|----------|----------------|
+| Notion | **Bottom right** | "Link copied", save confirmations |
+| Stripe Dashboard | **Bottom right** | Save confirmations, API key copied |
+| Vercel | **Bottom right** | Deploy triggered, link copied |
+| Linear | **Bottom right** | Issue created, status changed |
+| Slack (web) | **Bottom right** | Connection status, message sent |
+| GitHub | Bottom center | "Copied!" |
+| Figma | Bottom center | "Link copied", autosave |
+| Twitter / X | Bottom center | "Tweet sent", "Copied link" |
+| Gmail | Bottom left | "Message sent. Undo" |
+| YouTube | Bottom left | "Added to playlist" |
 
 ## Recommendation
 
@@ -123,9 +85,33 @@ If your web app targets both Windows and Mac users:
 
 ### ❌ Avoid top right
 
+macOS Notification Centre sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone creates two compounding problems:
+
+* OS-level notifications can physically overlap and hide in-app toasts
+* Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
+
 Unless you are building a Windows-only enterprise system where bottom-right conflicts with taskbar notifications.
 
+<boxEmbed
+
+## Accessibility requirements
+
+Toast placement is not just visual. It is semantic. Implementation must also satisfy WCAG 2.2 requirements:
+
+Follow WCAG guidance:
+
+* Use `role="status"` for success and informational toasts
+  * Polite ARIA live region
+  * Screen readers announce after the current task
+* Use `role="alert"` for errors
+  * Assertive
+  * Screen readers interrupt immediately
+* Minimum display time: 4 seconds (WCAG 2.2 guideline 2.2.1)
+* Never auto-dismiss error toasts
+* Do not cover primary CTAs or form fields
+
 ***
+
 
 If you are building a modern SaaS or enterprise web application, default to **bottom right**.
 
