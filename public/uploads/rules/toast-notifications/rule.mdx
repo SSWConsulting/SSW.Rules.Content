@@ -11,7 +11,7 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-03-02T22:24:58.783Z
+lastUpdated: 2026-03-02T22:31:57.216Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -26,19 +26,6 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 
 <endIntro />
 
-## Analysis of all six positions
-
-## 2. Analysis of All Six Positions
-
-| Position | ✅ Pros | ❌ Cons |
-|----------|------|------|
-| Top Left | Highly visible; matches Western reading start point | Interrupts primary content scan (F-pattern); conflicts with navigation and logo area |
-| Top Center | Very high visibility; matches iOS notification position; ideal for mobile-first apps | Blocks main heading and hero content; too disruptive for non-critical messages |
-| Top Right | Visible without blocking primary content; common in older Bootstrap examples; familiar from Windows 7–10 era | Conflicts with macOS Notification Center; largely superseded convention; interrupts natural reading flow |
-| Bottom Left | No OS conflict on any platform; familiar from Google products; does not interrupt reading | Opposite corner to most primary CTAs; slightly less prominent than bottom right in RTL layouts |
-| Bottom Center | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict | Can overlap bottom navigation bars or floating action buttons on mobile |
-| **Bottom Right ⭐️** | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Minor conflict with Windows taskbar notification area (OS notifications appear as overlays above apps) |
-
 ## What the major design systems recommend
 
 | Design System                                                                                                                       | Recommended Position   |
@@ -52,18 +39,18 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 
 ## What real web apps actually do
 
-| App | Toast Position | Example |
-|-----|---------------|----------|
-| **Notion** | **Bottom right** | “Link copied” |
-| **Slack** | **Bottom right** | Connection status |
-| **Stripe** | **Bottom right** | Save confirmations |
-| GitHub | Bottom center | “Copied!” |
-| Figma | Bottom center | “Link copied” |
-| X | Bottom center | “Tweet sent” |
-| Gmail | Bottom left | “Message sent. Undo” |
-| YouTube | Bottom left | “Added to playlist” |
-| LinkedIn | Bottom left | “Invitation sent” |
-| Spotify (web) | Bottom left | “Added to queue” |
+| App           | Toast Position | Example              |
+| ------------- | -------------- | -------------------- |
+| Gmail         | Bottom left    | “Message sent. Undo” |
+| YouTube       | Bottom left    | “Added to playlist”  |
+| X             | Bottom center  | “Tweet sent”         |
+| Notion        | Bottom right   | “Link copied”        |
+| Slack         | Bottom right   | Connection status    |
+| GitHub        | Bottom center  | “Copied!”            |
+| Figma         | Bottom center  | “Link copied”        |
+| Stripe        | Bottom right   | Save confirmations   |
+| LinkedIn      | Bottom left    | “Invitation sent”    |
+| Spotify (web) | Bottom left    | “Added to queue”     |
 
 ### Pattern
 
@@ -72,21 +59,21 @@ For most modern web applications, there is a clear default: **Bottom right** is 
 
 If you are building internal tools, admin portals, or SaaS dashboards, bottom right aligns with user expectation.
 
-***
-
-## Why top right is risky
-
-Bootstrap examples often show top-right toasts.
-
-However:
-
-* macOS system notifications appear in the top right
-* In-app toasts in that location compete visually with the OS
-* Users may confuse app feedback with system alerts
-
-Do **not** fight the operating system.
-
-***
+<boxEmbed
+  body={<>
+    Warning: Do not use top right for web applications.
+    
+    macOS Notification Centre sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone creates two compounding problems:
+    
+    * OS-level notifications can physically overlap and hide in-app toasts
+    * Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
+    
+    Do not fight the operating system!
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 ## Accessibility matters
 
