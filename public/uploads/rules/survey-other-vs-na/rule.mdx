@@ -1,0 +1,56 @@
+---
+type: rule
+archivedreason: null
+title: Do you know the difference between 'Other' and 'N/A' in surveys?
+seoDescription: Understand when to use 'Other' vs 'N/A' in survey answer options, and how specific N/A options like 'N/A - I'm a dev' improve data quality.
+guid: 862aa66f-e383-410f-9d40-d5dc8f0310df
+uri: survey-other-vs-na
+created: 2026-03-04T00:00:00.000Z
+authors:
+  - title: Edward Kranz
+    url: https://www.ssw.com.au/people/edward-kranz
+related: []
+categories:
+  - category: categories/design/rules-to-better-interfaces-forms.mdx
+redirects: []
+isArchived: false
+---
+
+When designing survey questions, 'Other' and 'N/A' serve very different purposes. Mixing them up leads to messy data and makes it harder to draw meaningful conclusions.
+
+<endIntro />
+
+**'Other'** means "my answer exists but isn't listed." The respondent has a valid answer - you just didn't include it as a predefined option. It's common to pair this with a free-text field so they can tell you what their answer actually is.
+
+**'N/A'** means "this question doesn't apply to me." The respondent isn't choosing a different answer - the entire question is irrelevant to them.
+
+### Add specificity to N/A options
+
+A plain 'N/A' tells you nothing about *why* the question doesn't apply. Adding context to N/A options gives you useful segmentation data for free.
+
+::: greybox
+**Survey question:** "How do you find the UX of our admin dashboard?"
+
+- Great
+- OK
+- Bad
+- N/A
+
+:::
+::: bad
+Figure: Bad example - You don't know why it's N/A. Are they a dev who doesn't care about UX? Or someone who has never used the dashboard?
+:::
+
+::: greybox
+**Survey question:** "How do you find the UX of our admin dashboard?"
+
+- Great
+- OK
+- Bad
+- N/A - I've never used the admin dashboard
+- N/A - I'm a dev (I use the API instead)
+
+:::
+::: good
+Figure: Good example - Specific N/A options tell you exactly why the question doesn't apply, giving you richer data without asking extra questions
+:::
