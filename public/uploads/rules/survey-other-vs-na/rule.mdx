@@ -27,28 +27,29 @@ When designing survey questions, 'Other' and 'N/A' serve very different purposes
 <boxEmbed
   style="greybox"
   body={<>
-    **Survey question:** "How do you find the UX of our admin dashboard?"
+    **Survey question:** "What is your favourite frontend framework?"
 
-    * Great
-    * OK
-    * Bad
-    * Other
+    * React
+    * Angular
+    * Vue
+    * Blazor
   </>}
   figurePrefix="bad"
-  figure="Missing 'N/A' - forces people who have never used the dashboard to pick a random answer or skip the question"
+  figure="Someone who loves Next.js has no option, and a backend dev who doesn't use frontend frameworks is forced to pick one or skip the question"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Survey question:** "How do you find the UX of our admin dashboard?"
+    **Survey question:** "What is your favourite frontend framework?"
 
-    * Great
-    * OK
-    * Bad
+    * React
+    * Angular
+    * Vue
+    * Blazor
     * Other (please specify)
-    * N/A
+    * N/A - I don't do frontend work
   </>}
   figurePrefix="good"
-  figure="'Other' captures unlisted answers, 'N/A' lets people opt out when the question doesn't apply to them"
+  figure="'Other' lets the Next.js fan tell you their answer, 'N/A' lets the backend dev opt out cleanly"
 />
