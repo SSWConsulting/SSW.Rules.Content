@@ -1,33 +1,29 @@
 ---
-authors:
-- title: Daniel Mackay
-  url: https://www.ssw.com.au/people/daniel-mackay
-created: 2022-11-21 00:28:43.256000+00:00
-guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
-redirects:
-- do-you-use-co-creation-patterns
-related:
-- rule: public/uploads/rules/over-the-shoulder/rule.mdx
-- rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
-- rule: public/uploads/rules/co-authored-commits/rule.mdx
-seoDescription: Discover how to streamline code reviews and boost development efficiency
-  by using Co-Creation Patterns, a game-changing approach that combines pair programming
-  and mob programming techniques.
+type: rule
 title: Do you use Co-Creation Patterns?
+uri: co-creation-patterns
 categories:
   - category: categories/project-delivery/rules-to-better-pull-requests.mdx
   - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
-type: rule
-uri: co-creation-patterns
+authors:
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+related:
+  - rule: public/uploads/rules/over-the-shoulder/rule.mdx
+  - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
+  - rule: public/uploads/rules/co-authored-commits/rule.mdx
+redirects:
+  - do-you-use-co-creation-patterns
+guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
+seoDescription: 'Discover how to streamline code reviews and boost development efficiency by using Co-Creation Patterns, a game-changing approach that combines pair programming and mob programming techniques.'
+created: 2022-11-21T00:28:43.256Z
 ---
 
 These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task. This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
 <endIntro />
 
-
-<youtubeEmbed url="https://www.youtube.com/watch?v=E4cg5mmvpwo" description={"Video: Pair Programming best-practices (11 min)"} />
-
+<youtubeEmbed url="https://www.youtube.com/watch?v=E4cg5mmvpwo" description="Video: Pair Programming best-practices (11 min)" />
 
 ## ❌ Problem - Inefficient Code Reviews
 
@@ -40,25 +36,9 @@ Inefficient code reviews can be caused by:
 * Too much work in progress
 * Unclear feedback
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Vicious cycle of being blocked and picking up yet another task"
-  src="/uploads/rules/co-creation-patterns/co-creation-1.png"
-/>
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Vicious cycle of being blocked and picking up yet another task" src="/uploads/rules/co-creation-patterns/co-creation-1.png" />
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="Inefficiencies caused by asynchronous code reviews"
-  src="/uploads/rules/co-creation-patterns/co-creation-2.png"
-/>
-
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Inefficiencies caused by asynchronous code reviews" src="/uploads/rules/co-creation-patterns/co-creation-2.png" />
 
 **Source:** [From Async Code Reviews to Co-Creation Patterns](https://www.infoq.com/articles/co-creation-patterns-software-development)
 
@@ -76,7 +56,7 @@ Inefficient code reviews can be caused by:
   * Create a [great Pull Request](/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
 * Reviewer - When reviewing asynchronously
   * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see [Incorporating feedback in your Pull Request
-](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
+    ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
   * Call the developer for more complicated changes
 
 ## The Ultimate Solution - Co-Creation Patterns
@@ -88,6 +68,7 @@ So, with the async way of working, we’re forced to make a trade-off between lo
 We can avoid this by using co-creation patterns. As a general rule, Pull Requests with less than 20 lines of code, and larger changes with a degree of complexity/risk, make good candidates for co-creation.
 
 > The idea is that you do small PR's but also limit WIP. If you create several small PR's quickly and are waiting for code reviews, you can become blocked very quickly. By co-creating, the small PR's get reviewed & merged instantly which avoids getting blocked and enables you to smash out loads of small PRs! 💪
+> \
 > \
 > Daniel Mackay - SSW Solution Architect
 
@@ -103,7 +84,6 @@ For the patterns above, the similarities are that there is a driver and a naviga
 **Driver** - Implements the solution/solves the problem at a granular level. They're the ones on the PC writting the code.
 **Navigator(s)** - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
 
-
 <boxEmbed
   style="info"
   body={<>
@@ -112,7 +92,6 @@ For the patterns above, the similarities are that there is a driver and a naviga
   figurePrefix="none"
   figure=""
 />
-
 
 These roles should swap often to keep a high level of focus and give everyone an equal chance to participate as a driver and navigator.
 
@@ -143,4 +122,4 @@ Here's a quick guide to getting started. Just note that these are just guideline
 \<!--
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
- -->
+\-->
