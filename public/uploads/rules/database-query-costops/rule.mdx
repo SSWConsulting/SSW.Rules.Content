@@ -10,13 +10,15 @@ authors:
 related:
   - rule: public/uploads/rules/reduce-azure-costs/rule.mdx
   - rule: public/uploads/rules/azure-budgets/rule.mdx
+  - rule: public/uploads/rules/sqlperf-verify-indexes-used/rule.mdx
+  - rule: public/uploads/rules/identify-sql-performance-azure/rule.mdx
 guid: d8a93e67-210e-45aa-819e-b551aa345b8c
 seoDescription: |
   Learn how to optimize Azure SQL and SQL Server costs by identifying expensive queries, prioritizing high-ROI fixes, and using FinOps tools to calculate potential savings.
 created: 2026-03-04T12:53:10.672Z
 createdBy: Andrew Waltos
 createdByEmail: AndrewWaltos@ssw.com.au
-lastUpdated: 2026-03-04T13:53:56.500Z
+lastUpdated: 2026-03-04T14:27:17.158Z
 lastUpdatedBy: Andrew Waltos
 lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
@@ -25,7 +27,9 @@ You open your Azure bill and see a large monthly spend on Azure SQL or SQL Serve
 
 <endIntro />
 
-Step 1: Get visibility into query-level costs
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Dashboard showing highest-cost SQL queries" src="/uploads/rules/database-query-costops/query-dashboard.jpeg" />
+
+Get visibility into query-level costs
 
 
 
@@ -58,7 +62,7 @@ Tools like **Fortified’s WISdom** allow you to drill into query-level spending
 />
 
 
-Step 2: Focus on “Best Bang for Buck” Queries
+Step 1: Focus on “Best Bang for Buck” Queries
 ---------------------------------------------
 
 
@@ -81,7 +85,7 @@ The SQL statement being executed
 Once identified, locate the source in your codebase and assess optimization options.
 
 
-Step 3: Optimize the Query
+Step 2: Optimize the Query
 --------------------------
 
 Common optimizations include:
@@ -89,7 +93,7 @@ Common optimizations include:
 * Adding the correct index  
 * Rewriting inefficient joins  
 * Reducing unnecessary columns  
-* Fixing parameter sniffing issues  
+* Analyze execution plans  
 * Eliminating redundant executions  
 
 
@@ -100,7 +104,7 @@ It’s not uncommon to achieve performance improvements of 80–90% for poorly o
 
 <boxEmbed
   body={<>
-    Check out our [Rules to better SQL - Performance](https://www.ssw.com.au/rules/rules-to-better-sql-databases-performance)
+    Check out our [Rules to better SQL Databases - Performance](https://www.ssw.com.au/rules/rules-to-better-sql-databases-performance)
   </>}
   figurePrefix="none"
   figure=""
@@ -108,7 +112,7 @@ It’s not uncommon to achieve performance improvements of 80–90% for poorly o
 />
 
 
-Step 4: Calculate and Communicate ROI
+Step 3: Calculate and Communicate ROI
 -------------------------------------
 
 
@@ -125,7 +129,7 @@ Use ROI planning features in FinOps tools to:
 For example:
 
 * Performance gain: 89%  
-* Estimated savings: $500+ from a single query change  
+* Estimated savings: $500/year from a single query change  
 
 
 Now you can clearly communicate value:
@@ -163,7 +167,7 @@ This turns performance tuning into measurable business value, not just technical
 
 
 
-Step 5: Make Query Cost Review Part of Your Process
+Step 4: Make Query Cost Review Part of Your Process
 ---------------------------------------------------
 
 
