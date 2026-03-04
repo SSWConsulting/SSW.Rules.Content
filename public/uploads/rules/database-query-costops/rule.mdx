@@ -1,14 +1,193 @@
 ---
 title: Do you know how to optimize database costs by query?
 uri: database-query-costops
+categories:
+  - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
+  - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
+authors:
+  - title: Andrew Waltos
+    url: 'https://ssw.com.au/people/andrew-waltos'
 guid: d8a93e67-210e-45aa-819e-b551aa345b8c
 created: 2026-03-04T12:53:10.672Z
 createdBy: Andrew Waltos
 createdByEmail: AndrewWaltos@ssw.com.au
+lastUpdated: 2026-03-04T13:22:18.960Z
+lastUpdatedBy: Andrew Waltos
+lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
 
-Intro
+You open your Azure bill and see a large monthly spend on Azure SQL or SQL Server—but no clear explanation of \*why\*. There are dozens (or hundreds) of databases, and you’re unsure which application, query, or piece of code is driving the cost. Without visibility at the query level, optimization becomes guesswork.
 
 <endIntro />
 
-Body
+Step 1: Get visibility into query-level costs
+
+
+
+
+When managing cloud databases, especially in Azure, cost is directly tied to resource consumption:
+
+*
+  CPU time
+* IO usage
+* Execution frequency
+* Query duration
+
+
+Instead of only looking at server-level metrics, use a FinOps-focused tool that shows:
+
+* Cost per database  
+* Cost per query/statement  
+* Top 10 most expensive statements  
+* Percentage of total spend by query  
+
+
+Tools like **Fortified’s Wisdom** (and similar platforms) allow you to drill into query-level spending and identify which SQL statements are responsible for the biggest share of your bill.
+
+
+
+
+<boxEmbed
+  body={<>
+    The top 10 statements might represent 30% or more of total database cost. That’s where you start.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+
+Step 2: Focus on “Best Bang for Buck” Queries
+---------------------------------------------
+
+*
+  Not every expensive query should be optimized first. Prioritize based on:
+
+  High hourly cost (e.g., $4/hour for a single query)
+* High CPU consumption
+* High execution count
+* High percentage of total environment cost
+
+
+Click into the query details and inspect:
+
+The SQL statement being executed
+
+* The application sending it  
+* Execution metrics (CPU, reads, duration)  
+
+
+Once identified, locate the source in your codebase and assess optimization options.
+
+
+Step 3: Optimize the Query
+--------------------------
+
+
+Common optimizations include:
+
+* Adding the correct index  
+* Rewriting inefficient joins  
+* Reducing unnecessary columns  
+* Fixing parameter sniffing issues  
+* Eliminating redundant executions  
+
+
+A single well-placed index can dramatically reduce CPU and execution time.
+
+
+For example:
+
+
+\::: greybox
+Original executions: 1,000,000  
+Optimized executions: 200,000  
+
+Original CPU time: 22,000,000  
+Optimized CPU time: 1,000,000  
+\:::
+\::: good  
+Figure: Good Example - A realistic optimization that significantly reduces executions and CPU time  
+\:::
+
+It’s not uncommon to achieve performance improvements of 80–90% for poorly optimized queries.
+
+
+Step 4: Calculate and Communicate ROI
+-------------------------------------
+
+
+The most powerful part of query-level cost analysis is demonstrating **real financial impact**.
+
+
+Use ROI planning features in FinOps tools to:
+
+1. Estimate expected performance improvements  
+2. Model reduced CPU or execution counts  
+3. Calculate projected savings  
+
+
+For example:
+
+* Performance gain: 89%  
+* Estimated savings: $500+ from a single query change  
+
+
+Now you can clearly communicate value:
+
+<boxEmbed
+  body={<>
+    “If I spend time adding this index and optimizing this query, we can save $500.”
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
+
+
+
+
+
+Or even better:
+
+
+\> “We implemented this fix and reduced costs by $500.”
+
+
+This turns performance tuning into measurable business value—not just technical improvement.
+
+
+
+
+Step 5: Make Query Cost Review Part of Your Process
+---------------------------------------------------
+
+
+To consistently control database costs:
+
+*
+  Review top costly queries monthly  
+* Include query cost analysis in performance testing  
+* Track cost impact after deployments  
+* Align DB optimization with FinOps practices  
+
+
+Database optimization is no longer just about speed—it’s about **cloud cost efficiency**.
+
+
+Summary
+-------
+
+
+If you’re running Azure SQL or SQL Server in the cloud and your costs are growing:
+
+* Drill down to the **query level**
+* Identify the **top cost-driving statements**
+* Optimize the highest ROI candidates
+* Quantify and report savings
+
+
+When you optimize by query—not just by server—you gain control over both performance and spend.
+
+
+That’s how you turn database tuning into measurable financial impact.
