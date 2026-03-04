@@ -30,7 +30,7 @@ archivedreason: null
 
 [Bench Masters](/bench-master) are responsible for ensuring that developers get put on projects that align with the companies goals and the developers' career goals. This means they need to stay aligned with the company' stakeholders and keep them informed of the developers' focus. Bench Masters also help employees blocked by a company stakeholder to get unblocked.
 
-This alignment can be achieved through a weekly meeting with the Bench Masters and stakeholders called the Priority Alignment meeting.
+This alignment can be achieved through a weekly meeting with the Bench Masters and ==stakeholders called the Priority Alignment meeting.==
 
 <endIntro />
 
@@ -38,47 +38,47 @@ Meeting structure to be followed:
 
 <emailEmbed
   from=""
-  to="&#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;"
+  to="{{ COMPANY STAKEHOLDERS }}"
   cc=""
   bcc=""
-  subject="⚖️ Bench Master Priority Alignment - &#123;&#123; DATE &#125;&#125;"
+  subject="⚖️ Bench Master Priority Alignment - {{ DATE }}"
   shouldDisplayBody={true}
   body={<>
-    ## Hey &#123;&#123; COMPANY STAKEHOLDERS &#125;&#125;,
+    ## Hey {{ COMPANY STAKEHOLDERS }},
     
     1. Watch the recording
-    &#123;&#123; RECORDING URL &#125;&#125;
+    {{ RECORDING URL }}
     
     The goal is to use our internal devs on the best project.
     
     ### Attendees
     
-    &#123;&#123; ATTENDEES &#125;&#125;
+    {{ ATTENDEES }}
     
     ### Summary - Have there been any staffing changes for any of our internal projects in the past week?
     
-    * &#123;&#123; PROJECT 1 &#125;&#125; - &#123;&#123; STATUS 1 &#125;&#125;
-    * &#123;&#123; PROJECT 2 &#125;&#125; - &#123;&#123; STATUS 2 &#125;&#125;
-    * &#123;&#123; PROJECT 3 &#125;&#125; - &#123;&#123; STATUS 3 &#125;&#125;
-    * ❓&#123;&#123; PERSON 1 &#125;&#125; - from &#123;&#123; PREVIOUS PROJECT &#125;&#125; to &#123;&#123; NEW PROJECT &#125;&#125; - &#123;&#123; NOTE &#125;&#125;
-    * &#123;&#123; PERSON 2 &#125;&#125; - Back on &#123;&#123; PROJECT NAME &#125;&#125; next &#123;&#123; DATE &#125;&#125;
+    * {{ PROJECT 1 }} - {{ STATUS 1 }}
+    * {{ PROJECT 2 }} - {{ STATUS 2 }}
+    * {{ PROJECT 3 }} - {{ STATUS 3 }}
+    * ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
+    * {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
     
-    ### 🛑 Blocked people (times we proxied for &#123;&#123; COMPANY STAKEHOLDER &#125;&#125;)
+    ### 🛑 Blocked people (times we proxied for {{ COMPANY STAKEHOLDER }})
     
-    * &#123;&#123; BLOCKED PERSON 1 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
-    * &#123;&#123; BLOCKED PERSON 2 &#125;&#125; - &#123;&#123; ISSUE DESCRIPTION &#125;&#125;
+    * {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
+    * {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
     
     ### ✅ The highlights
     
-    * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
+    * {{ PERSON }} - {{ DETAILS }}
     
     ### ❌ The lowlights – any issues or concerns?
     
-    * &#123;&#123; PERSON &#125;&#125; - &#123;&#123; DETAILS &#125;&#125;
+    * {{ PERSON }} - {{ DETAILS }}
     
     ### Ad hoc topics
     
-    * &#123;&#123; TOPIC &#125;&#125;
+    * {{ TOPIC }}
     
     ### Priorities - any new tasks that need to get done and who should do it?
     
@@ -91,10 +91,10 @@ Meeting structure to be followed:
     
     | **Product**         | **Projects**         | **Team**           |
     | ------------------- | -------------------- | ------------------ |
-    | **&#123;&#123; PRODUCT 1 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
-    | **&#123;&#123; PRODUCT 2 &#125;&#125;** | &#123;&#123; PROJECT DETAIL &#125;&#125; | &#123;&#123; TEAM MEMBERS &#125;&#125; |
+    | **{{ PRODUCT 1 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
+    | **{{ PRODUCT 2 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
     
-    &lt;This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)&gt;
+    \<This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)>
   </>}
   figurePrefix="none"
   figure=""
