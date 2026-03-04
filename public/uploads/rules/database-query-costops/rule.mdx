@@ -7,11 +7,16 @@ categories:
 authors:
   - title: Andrew Waltos
     url: 'https://ssw.com.au/people/andrew-waltos'
+related:
+  - rule: public/uploads/rules/reduce-azure-costs/rule.mdx
+  - rule: public/uploads/rules/azure-budgets/rule.mdx
 guid: d8a93e67-210e-45aa-819e-b551aa345b8c
+seoDescription: |
+  Learn how to optimize Azure SQL and SQL Server costs by identifying expensive queries, prioritizing high-ROI fixes, and using FinOps tools to calculate potential savings.
 created: 2026-03-04T12:53:10.672Z
 createdBy: Andrew Waltos
 createdByEmail: AndrewWaltos@ssw.com.au
-lastUpdated: 2026-03-04T13:22:18.960Z
+lastUpdated: 2026-03-04T13:27:20.541Z
 lastUpdatedBy: Andrew Waltos
 lastUpdatedByEmail: AndrewWaltos@ssw.com.au
 ---
@@ -27,8 +32,7 @@ Step 1: Get visibility into query-level costs
 
 When managing cloud databases, especially in Azure, cost is directly tied to resource consumption:
 
-*
-  CPU time
+* CPU time
 * IO usage
 * Execution frequency
 * Query duration
@@ -60,10 +64,12 @@ Tools like **Fortified’s Wisdom** (and similar platforms) allow you to drill i
 Step 2: Focus on “Best Bang for Buck” Queries
 ---------------------------------------------
 
-*
-  Not every expensive query should be optimized first. Prioritize based on:
 
-  High hourly cost (e.g., $4/hour for a single query)
+Not every expensive query should be optimized first. Prioritize based on:
+
+
+
+* High hourly cost (e.g., $4/hour for a single query)
 * High CPU consumption
 * High execution count
 * High percentage of total environment cost
@@ -151,7 +157,16 @@ Now you can clearly communicate value:
 Or even better:
 
 
-\> “We implemented this fix and reduced costs by $500.”
+
+
+<boxEmbed
+  body={<>
+    “We implemented this fix and reduced costs by $500.”
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="greybox"
+/>
 
 
 This turns performance tuning into measurable business value—not just technical improvement.
