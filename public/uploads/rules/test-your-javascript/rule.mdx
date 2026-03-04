@@ -1,39 +1,111 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Chris Clement
-  url: https://www.ssw.com.au/people/chris-clement/
-created: 2020-03-11 22:56:26+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: fa6c9020-0efd-4211-9c2c-ef4bcc98aab5
-isArchived: false
-lastUpdated: 2020-03-20 02:30:15+00:00
-lastUpdatedBy: Matthew Wicks
-lastUpdatedByEmail: MatthewWicks@ssw.com.au
-redirects:
-- do-you-test-your-javascript
-seoDescription: Test and validate your JavaScript code using Jest, Karma, or Jasmine
-  to ensure robust web applications.
-title: Do you test your JavaScript?
+type: rule
+title: Do you test your JavaScript/ TypeScript Applications?
+uri: test-your-javascript
 categories:
   - category: categories/software-engineering/rules-to-better-unit-tests.mdx
-type: rule
-uri: test-your-javascript
+  - category: categories/software-engineering/rules-to-better-typescript.mdx
+  - category: categories/software-engineering/rules-to-better-react.mdx
+  - category: categories/software-engineering/rules-to-better-nextjs.mdx
+  - category: categories/software-engineering/rules-to-better-angular.mdx
+  - category: categories/software-engineering/rules-to-better-vue.mdx
+authors:
+  - title: Josh Berman
+    url: 'https://www.ssw.com.au/people/josh-berman'
+  - title: Ivan Gaiduk
+    url: 'https://www.ssw.com.au/people/ivan-gaiduk'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Chris Clement
+    url: 'https://www.ssw.com.au/people/chris-clement/'
+related:
+  - rule: public/uploads/rules/how-to-structure-a-unit-test/rule.mdx
+redirects:
+  - do-you-test-your-javascript
+guid: fa6c9020-0efd-4211-9c2c-ef4bcc98aab5
+seoDescription: 'Modern JavaScript/TypeScript applications contain complex frontend logic — from UI state management and user flows to API orchestration and client-side validation. While business logic should live on the backend, frontend code still warrants rigorous testing to ensure correctness and reliability.'
+created: 2020-03-11T22:56:26.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-02-23T04:48:41.477Z
+lastUpdatedBy: Josh Berman
+lastUpdatedByEmail: JoshBerman@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-The need to build rich web user interfaces is resulting in more and more JavaScript in our applications.
+Modern JavaScript/TypeScript applications contain complex frontend logic — from UI state management and user flows to API orchestration and client-side validation. While business logic should live on the backend, frontend code still warrants rigorous testing to ensure correctness and reliability.
 
-Because JavaScript does not have the safeguards of strong typing and compile-time checking, it is just as important to unit test your JavaScript as your server-side code.
+If you don't use testing suites to reinforce the functionality of your code, you're relying on QA and hope.
+
+Testing JavaScript/TypeScript applications is not optional. It's a part of building production-ready software.
 
 <endIntro />
 
-You can write unit tests for JavaScript using:
+## Why testing matters (even with TypeScript)
 
-- [Jest](https://jestjs.io/) **(Recommended)**
-- [Karma](https://karma-runner.github.io/latest/index.html)
-- [Jasmine](https://jasmine.github.io/)
+TypeScript enforces type-safety. This improves safety but does not verify behaviour of logic.
 
-Jest is recommended since [it runs faster than Karma](https://charith-hettiarachchi.medium.com/why-use-jest-over-karma-for-angular-testing-b56ffa82f8) (due to the fact that Karma runs tests in a browser while Jest runs tests in Node).
+Types check that your code compiles. It won't tell you:
+
+* If a utility calculation function returns the wrong result
+* If a UI component behaves incorrectly when a user interacts with it
+* If a state transition breaks a workflow
+
+A combination of unit, integration, and end-to-end tests catches all of these.
+
+As AI-driven development becomes more common, a well-maintained test suite is your safety net ensuring that generated or rapidly-written code still behaves as intended.
+
+### Unit Tests
+
+Unit testing involves verifying individual functions or components in complete isolation to ensure code reliability. These isolated sections of code should be the **smallest** **units** of code (for said functionality/ feature).
+
+It is best practice to follow the [AAA Pattern](/how-to-structure-a-unit-test): Arrange, Act, Assert.
+
+Unit tests can be written using: 
+
+* 👑 [Vitest](https://vitest.dev/) (Recommended)
+* [Jest](https://jestjs.io/)
+
+Some examples of what Unit tests can be used for:
+
+* Utility functions
+* Client-side validation logic
+* Data transformations
+
+### Integration Tests
+
+Integration tests verify that multiple components or modules work together correctly, catching bugs at the boundaries between them. Such examples include:
+
+* State updates triggered by user interaction
+* Form validation behaviour
+* A form component that validates input and submits data to an API
+
+Integration Tests can be written using: 
+
+* Vitest + Testing Library (i.e React Testing Library)
+* Jest + Testing Library 
+
+### End-to-End (E2E) Tests 
+
+E2E tests aim to simulate real user interactions to validate an entire flow within an application from start to finish. They're used to ensure that all components, from the UI, to backend and databases all work together as designed. 
+
+Popular JavaScript E2E testing frameworks: 
+
+* 👑 [Playwright](https://playwright.dev/) (Recommended)
+* [Cypress](https://www.cypress.io/#create)
+
+Both of these frameworks allow you to simulate a browser environment, clicking buttons, filling in forms, and working through real-world workflows from the user's perspective.
+
+### Creating the correct test suite 
+
+A healthy testing strategy looks like a pyramid:
+
+* 🟨 A few E2E tests (high value, slow, flaky)
+* 🟩 More integration tests (gives more realistic coverage without browser overhead)
+* 🟦 A lot of unit tests (fast, cheap, stable but not holistic)
+
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="The ideal testing suite for your application" src="/uploads/rules/test-your-javascript/test-pyramid.png" />
+
+ 

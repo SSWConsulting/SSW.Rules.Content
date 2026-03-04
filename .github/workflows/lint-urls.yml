@@ -1,0 +1,66 @@
+name: Lint-URLs
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  lint-urls:
+    name: Check SSW URLs for www prefix
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Get changed MDX files count
+        id: changed
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            count=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | wc -l)
+          else
+            # For manual runs, will check all files
+            count="all"
+          fi
+          echo "count=$count" >> $GITHUB_OUTPUT
+          echo "Changed MDX files count: $count"
+
+      - name: Run URL linter
+        if: steps.changed.outputs.count != '0'
+        id: lint
+        env:
+          URL_LINT_REPORT_PATH: ${{ runner.temp }}/url-lint-report.md
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            # Pipe file list via stdin to avoid "Argument list too long" error
+            git diff --name-only $(git merge-base origin/main HEAD) HEAD -- '*.mdx' | python scripts/lint-urls/lint-ssw-urls.py
+          else
+            # Manual run - check all files
+            python scripts/lint-urls/lint-ssw-urls.py
+          fi
+
+      - name: Comment on PR (if issues found)
+        if: steps.lint.outputs.has_issues == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: ${{ runner.temp }}/url-lint-report.md
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token-user-login: "github-actions[bot]"
+          allow-repeats: false
