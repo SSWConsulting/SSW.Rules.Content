@@ -1,0 +1,101 @@
+---
+title: Do you place toast notifications where users expect them?
+uri: toast-notifications
+categories:
+  - category: categories/design/rules-to-better-interfaces-popups-and-messages.mdx
+authors:
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
+guid: 0e4ca919-2cd3-4247-a1b9-46a6a9a154a0
+seoDescription: 'Where should toast notifications appear in modern web apps? This guide compares Material Design, Bootstrap, Windows, macOS, and leading SaaS products to help you choose the best toast position for usability, accessibility, and OS compatibility.'
+created: 2026-03-02T22:07:37.937Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-03-03T19:12:46.024Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+---
+
+A toast notification is small. Its impact is not.
+
+Poor placement creates confusion. Good placement feels invisible and intentional.
+
+If users hesitate for even a second wondering “Was that my system or the app?”, you have introduced friction.
+
+For most modern web applications, there is a clear default: **Bottom right** is the safest and most predictable choice.
+
+<endIntro />
+
+## Analysis of all six positions
+
+| Position            | ✅ Pros                                                                                                           | ❌ Cons                                                                                                   |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Top Left            | Highly visible; matches Western reading start point                                                              | Interrupts primary content scan (F-pattern); conflicts with navigation and logo area                     |
+| Top Center          | Very high visibility; matches iOS notification position; ideal for mobile-first apps                             | Blocks main heading and hero content; too disruptive for non-critical messages                           |
+| Top Right           | Visible without blocking primary content; common in older Bootstrap examples; familiar from Windows 7–10 era     | Conflicts with macOS Notification Center; largely superseded convention; interrupts natural reading flow |
+| Bottom Left         | No OS conflict on any platform; familiar from Google products; does not interrupt reading                        | Opposite corner to most primary CTAs; slightly less prominent than bottom right in RTL layouts           |
+| Bottom Center       | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict           | Can overlap bottom navigation bars or floating action buttons on mobile                                  |
+| **Bottom Right ⭐️** | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Minor conflict with Windows taskbar notification area (OS notifications appear as overlays above apps)   |
+
+## What real web apps do
+
+| Product          | Toast position   | Notification examples              |
+| ---------------- | ---------------- | ---------------------------------- |
+| Notion           | **Bottom right** | Link copied, save confirmations    |
+| Stripe Dashboard | **Bottom right** | Save confirmations, API key copied |
+| Vercel           | **Bottom right** | Deploy triggered, link copied      |
+| Linear           | **Bottom right** | Issue created, status changed      |
+| Slack (web)      | **Bottom right** | Connection status, message sent    |
+| GitHub           | Bottom center    | Copied!                            |
+| Figma            | Bottom center    | Link copied, autosave              |
+| Twitter / X      | Bottom center    | Tweet sent, Copied link            |
+| Gmail            | Bottom left      | Message sent. Undo                 |
+| YouTube          | Bottom left      | Added to playlist                  |
+
+## Recommendation
+
+If your web app targets both Windows and Mac users:
+
+### ✅ Choose bottom right
+
+* Matches Windows convention
+* Avoids macOS notification area
+* Used by Notion, Slack, and Stripe
+* Default in shadcn/ui + Sonner
+
+### 👍 Bottom center is a strong alternative
+
+* Aligns with Material Design
+* Works well for consumer apps
+* Less likely to overlap navigation
+
+### ❌ Avoid top right
+
+macOS Notification Centre sits in the top-right corner of every Mac screen. Placing in-app toasts in the same zone creates two compounding problems:
+
+* OS-level notifications can physically overlap and hide in-app toasts
+* Users cannot reliably distinguish between a system notification and an app notification, breaking trust and clarity
+
+Unless you are building a Windows-only enterprise system where bottom-right conflicts with taskbar notifications.
+
+## Accessibility requirements
+
+Toast placement is not just visual. It is semantic. Implementation must also satisfy WCAG 2.2 requirements:
+
+Follow WCAG guidance:
+
+* Use `role="status"` for success and informational toasts
+  * Polite ARIA live region
+  * Screen readers announce after the current task
+* Use `role="alert"` for errors
+  * Assertive
+  * Screen readers interrupt immediately
+* Minimum display time: 4 seconds (WCAG 2.2 guideline 2.2.1)
+* Never auto-dismiss error toasts
+* Do not cover primary CTAs or form fields
+
+***
+
+If you are building a modern SaaS or enterprise web application, default to **bottom right**.
+
+Small details build trust. Predictability reduces friction.
