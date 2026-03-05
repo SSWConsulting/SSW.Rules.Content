@@ -1,5 +1,5 @@
 ---
-title: Do you make notifications easy to find?
+title: Do you make notification buttons easy to find?
 uri: consistent-notifications
 categories:
   - category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
@@ -13,22 +13,20 @@ seoDescription: Make notifications consistent and easy to find by using a bell i
 created: 2026-03-04T04:41:21.245Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-03-04T07:01:44.574Z
+lastUpdated: 2026-03-05T01:37:09.738Z
 lastUpdatedBy: Griffen Edge
 lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
 
-Users miss important updates when notification buttons are hidden, inconsistent, or unclear. A standard notification button pattern ensures users instantly recognize and access alerts.
+Users miss important updates when notification buttons are hidden, inconsistent, or unclear. A consistent placement, icon, and badge pattern helps users instantly recognize and access alerts.
 
 <endIntro />
 
-## Place notification buttons next to user avatars
+## Group notifications with account actions
 
-Position the notification button beside the user avatar. Websites that use a header should put them in top-right corner and those that use a sidebar should put them in the bottom-left corner.
+Always position the notification button beside the user avatar. In header layouts, place it in the top-right corner. In sidebar layouts, group it with the user/account section. This follows common UI conventions and makes notifications predictable to users.
 
-This follows common UI conventions and groups account-related actions logically.
-
-<imageEmbed alt="" size="small" showBorder={true} figurePrefix="bad" figure="Discord's notification button and user avatar are in opposite corners." src="/uploads/rules/consistent-notifications/discord-notification-user-separate-v2.png" />
+<imageEmbed alt="" size="small" showBorder={true} figurePrefix="bad" figure="Notifications are separated from account actions, making them harder to locate consistently." src="/uploads/rules/consistent-notifications/discord-notification-user-separate-v2.png" />
 
 <imageEmbed alt="" size="medium" showBorder={true} figurePrefix="good" figure="YouTube's notification button and user avatar are next to each other in the header." src="/uploads/rules/consistent-notifications/youtube-notification-user-together.png" />
 
@@ -38,20 +36,28 @@ This follows common UI conventions and groups account-related actions logically.
 
 The bell is universally recognized as the icon for notifications.
 
-Some platforms use other icons such as envelopes, inboxes, messages, or even text-only labels, but this should be avoided for regular notification buttons. 
+Avoid envelopes, inboxes, message icons, or text-only labels for general notifications.
 
 <imageEmbed alt="Image" size="small" showBorder={true} figurePrefix="bad" figure="Non-standard notification icons." src="/uploads/rules/consistent-notifications/notification-icons-bad-examples.png" />
 
+<imageEmbed alt="" size="small" showBorder={true} figurePrefix="good" figure="Recognisable bell notification icons." src="/uploads/rules/consistent-notifications/notification-icons-good-examples.png" />
+
 ## Show a notification count badge
 
-Display a small badge on the bell icon to show unread notifications.
+Display a small badge on the bell icon to show unread notifications:
 
-Best practices:
+* Use a red (or brand-colored) circular badge 
+* Ensure sufficient contrast with surrounding elements
+* Position it at the top-right of the bell
+* Show a number (e.g. `3`, or `99+` for large counts)
+* Remove the badge entirely when there are no unread notifications.
 
-* Use a red (or brand-colored) circular badge  
-* Position it at the top-right of the bell  
-* Show a number (e.g. ‘3’, or ‘99+’ for large counts)
+Using dot badges without numbers indicates activity, but does not help users prioritize or understand urgency. Showing a number ensures the UI does not rely on color alone to indicate state, improving accessibility.
 
-<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="ok" figure="GitHub displays a badge for notifications, but doesn't say how many there are." src="/uploads/rules/consistent-notifications/github-no-count-badge.png" />
+Clicking the bell should open a notification panel or dropdown, and the badge count should update immediately when notifications are read.
 
-A consistent bell icon next to the user avatar with a visible badge ensures users never miss important updates.
+<imageEmbed alt="" size="medium" showBorder={true} figurePrefix="ok" figure="GitHub displays a badge for notifications, but shows a dot instead of a count, which makes urgency unclear." src="/uploads/rules/consistent-notifications/github-no-count-badge.png" />
+
+<imageEmbed alt="" size="medium" showBorder={true} figurePrefix="good" figure="LinkedIn uses a red badge with a count of unread notifications." src="/uploads/rules/consistent-notifications/linkedin-notification-count-badge.png" />
+
+Grouping a consistent bell icon with account actions and pairing it with a visible badge makes notifications predictable, discoverable, and actionable.
