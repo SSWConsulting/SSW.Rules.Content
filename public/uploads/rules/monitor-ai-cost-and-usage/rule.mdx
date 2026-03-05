@@ -10,7 +10,7 @@ guid: 84a2ebf1-9591-4d94-b7b8-ab99c64c0235
 created: 2026-03-05T22:45:56.927Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-03-05T23:46:26.025Z
+lastUpdated: 2026-03-05T23:54:25.347Z
 lastUpdatedBy: Josh Berman
 lastUpdatedByEmail: JoshBerman@ssw.com.au
 ---
@@ -43,7 +43,7 @@ Claude Code currently is the leading tool for customisation of the status line, 
 
 * [gocc](https://github.com/backstabslash/goccc) - A fast, zero dependency CLI cost calculator and status line provider for Claude Code
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A simple, yet effective status line using gocc" src="/uploads/rules/monitor-ai-cost-and-usage/basic-cli-stauts-line.png" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="A simple, yet effective status line using gocc" src="/uploads/rules/monitor-ai-cost-and-usage/basic-cli-status-line-BETTER.png" />
 
 ## &#x20;Tools for monitoring AI cost and usage
 
@@ -51,6 +51,9 @@ There are many tools out there for monitoring AI cost and usage, highly dependen
 
 Some of the different ways: 
 
-* Native CLI tools commands - Most CLI tools provide their own native way of checking cost and usage stats (i.e /status for Claude Code and OpenAI Codex CLI or /stats for Gemini CLI o)
+* Native CLI tools commands - Most CLI tools provide their own native way of checking cost and usage stats (i.e /stat for Claude Code and Gemini CLI or /status for OpenAI Codex CLI)
 
 <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="none" figure="Running /stats in Claude Code" src="/uploads/rules/monitor-ai-cost-and-usage/cursor-status-command.png" />
+
+* Provider Dashboard - Most AI providers also offer dashboards that give a more comprehensive view of usage and billing. These dashboards are often the easiest way to observe usage for non-CLI tools (i.e Cursor, Windsurf)
+* AI Observability Platforms - For production AI systems, teams may use dedicated AI observabiltiy platforms to track usage, costs, and model performance across applications (i.e LangSmith, Helicone, Langfuse)
