@@ -5,6 +5,8 @@ categories:
   - category: categories/software-engineering/rules-to-better-sql-databases-admin.mdx
   - category: categories/software-engineering/rules-to-better-sql-databases-performance.mdx
 authors:
+  - title: Adam Cogan
+    url: 'https://ssw.com.au/people/adam-cogan'
   - title: Andrew Waltos
     url: 'https://www.ssw.com.au/people/andrew-waltos'
 related:
@@ -40,10 +42,10 @@ When managing cloud databases, especially in Azure, cost is directly tied to res
 
 Instead of only looking at server-level metrics, use a FinOps-focused tool that shows:
 
-* Cost per database  
-* Cost per query/statement  
-* Top 10 most expensive statements  
-* Percentage of total spend by query  
+* Cost per database
+* Cost per query/statement
+* Top 10 most expensive statements
+* Percentage of total spend by query
 
 Tools like [Fortified’s WISdom](https://fortified.com/fortified-wisdom/) allow you to drill into query-level spending and identify which SQL statements are responsible for the biggest share of your bill.
 
@@ -68,8 +70,8 @@ Not every expensive query should be optimized first. Prioritize based on:
 Click into the query details and inspect:
 
 * The SQL statement being executed
-* The application sending it  
-* Execution metrics (CPU, reads, duration)  
+* The application sending it
+* Execution metrics (CPU, reads, duration)
 
 Once identified, locate the source in your codebase and assess optimization options.
 
@@ -77,11 +79,11 @@ Once identified, locate the source in your codebase and assess optimization opti
 
 Common optimizations include:
 
-* Adding the correct index  
-* Rewriting inefficient joins  
-* Reducing unnecessary columns  
-* Analyze execution plans  
-* Eliminating redundant executions  
+* Adding the correct index
+* Rewriting inefficient joins
+* Reducing unnecessary columns
+* Analyze execution plans
+* Eliminating redundant executions
 
 A single well-placed index can dramatically reduce CPU and execution time.
 
@@ -102,14 +104,14 @@ The most powerful part of query-level cost analysis is demonstrating **real fina
 
 Use ROI planning features in FinOps tools to:
 
-1. Estimate expected performance improvements  
-2. Model reduced CPU or execution counts  
-3. Calculate projected savings  
+1. Estimate expected performance improvements
+2. Model reduced CPU or execution counts
+3. Calculate projected savings
 
 For example:
 
-* Performance gain: 89%  
-* Estimated savings: $500/year from a single query change  
+* Performance gain: 89%
+* Estimated savings: $500/year from a single query change
 
 Now you can clearly communicate value:
 
@@ -125,14 +127,14 @@ This turns performance tuning into measurable business value, not just technical
 
 To consistently control database costs:
 
-* Review top costly queries monthly  
-* Include query cost analysis in performance testing  
-* Track cost impact after deployments  
-* Align DB optimization with FinOps practices  
+* Review top costly queries monthly
+* Include query cost analysis in performance testing
+* Track cost impact after deployments
+* Align DB optimization with FinOps practices
 
 Database optimization is no longer just about speed, it’s about **cloud cost efficiency**.
 
----
+***
 
 ## Summary
 
