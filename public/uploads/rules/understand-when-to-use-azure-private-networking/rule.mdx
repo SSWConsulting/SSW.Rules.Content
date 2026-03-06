@@ -3,17 +3,61 @@ title: Do you understand when to use Azure Private Networking
 uri: understand-when-to-use-azure-private-networking
 categories:
   - category: categories/software-engineering/rules-to-better-azure.mdx
+  - {}
+authors:
+  - title: Ben Neoh
+    url: 'https://ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/cloud-architect/rule.mdx
+  - rule: public/uploads/rules/separate-networks/rule.mdx
 guid: f4d27316-c3d8-4900-a1b7-8634eafc130c
+seoDescription: 'Understand Azure Private Networking, including Private Endpoints and Private Link, and learn the security benefits, costs, and architectural trade-offs before implementing it.'
 created: 2026-03-05T23:12:00.032Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-03-06T00:41:43.613Z
+lastUpdated: 2026-03-06T01:18:22.426Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
 
-Intro
-
 <endIntro />
 
-Body
+## What is Azure Private Networking?
+
+Azure Private Networking allows Azure services to be accessed through private IP addresses inside a Virtual Network (VNet) instead of the public internet. It uses features such as Azure Private Link and Private Endpoints to create secure, private connections between your applications and Azure services.
+
+## ✅ Advantages
+
+* **Improved security **- Services are not exposed to the public internet and can only be accessed within a controlled network boundary.
+* **Better compliance and privacy alignment **- For systems handling sensitive data or regulated workloads, private networking helps organizations meet security and compliance requirements.
+* **Network isolation** - Applications communicate through internal Azure networking rather than public endpoints, reducing the attack surface and preventing accidental exposure of services
+
+## ⚠️ Considerations
+
+Private networking introduces additional operational complexity and cost, so it should be planned carefully.
+
+#### 🖥 Deployment agents must run inside the network
+
+Once resources are configured with private networking, they are no longer accessible from the public internet. This means deployment tools such as CI/CD agents, developer machines, and integration services must run inside the virtual network or connect through secure options like VPN or Private Link. In practice, this often requires additional infrastructure such as self-hosted DevOps agents, jump boxes, Bastion hosts, or VPN access to allow engineers and pipelines to interact with the private resources.
+
+#### 💰 Higher infrastructure cost
+
+Private networking can increase infrastructure costs because some Azure services require higher pricing tiers to support features such as Virtual Network integration or Private Endpoints.
+
+> For example, Azure Service Bus requires the Premium tier to support private networking features. The Standard tier costs about $0.0135/hour (\~$10/month), while the Premium tier starts at \~$0.928/hour (\~$670/month) for a single Messaging Unit. See [details](https://azure.microsoft.com/en-us/pricing/details/service-bus)
+
+#### ⚙ Additional networking infrastructure
+
+Implementing private networking typically requires additional infrastructure components such as virtual networks, subnets, private DNS zones, NAT gateways, and Bastion or VPN gateways. These components add complexity to the initial setup and ongoing maintenance, particularly when managing infrastructure through Infrastructure as Code (IaC) and CI/CD pipelines.
+
+## ✅ Recommendation – When should you use Azure Private Networking?
+
+Azure Private Networking is most appropriate for enterprise or high-security workloads where restricting public access is required.
+
+It is commonly used when:
+
+* Applications handle sensitive or regulated data
+* Security policies require removing public endpoints
+* The architecture requires strict network isolation between services
+
+However, for small internal tools, prototypes, or low-risk workloads, the additional networking complexity and cost may outweigh the benefits. In these scenarios, using public endpoints with proper authentication and firewall rules may be sufficient
