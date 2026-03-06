@@ -45,26 +45,26 @@ Small maintenance tasks that arise during the sprint, such as:
 * Updating a package
 * Small tweaks to `AGENTS.md` or other configuration files
 
-These should be tracked under a dedicated housekeeping PBI (e.g. "Sprint Housekeeping") so they remain visible on the board.
+These are typically small enough that they don't need an estimate or prior approval. In GitHub, they can be managed solely via a PR linked directly to the Scrum Board, giving the client visibility without the overhead of creating a PBI.
 
 ## Good and bad examples
 
 <boxEmbed
   style="greybox"
   body={<>
-    A developer fixes a broken CI pipeline and updates two NuGet packages. They open PRs directly from their local branch with no linked PBI. The work doesn't appear on the Scrum Board and the client has no visibility.
+    A developer fixes a broken CI pipeline and updates two NuGet packages. They open PRs from their local branch with no connection to the Scrum Board. The work is invisible to the client.
   </>}
   figurePrefix="bad"
-  figure="PRs created without any linked PBI — invisible to the client"
+  figure="Housekeeping PRs with no board visibility"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    The team has a recurring "Sprint Housekeeping" PBI. When the CI pipeline breaks, the developer creates a task under it, links their PR to that task, and the work appears on the Scrum Board. The client can see the effort involved in keeping the codebase healthy.
+    A developer fixes a broken CI pipeline and updates two NuGet packages. They open PRs and link them directly to the Scrum Board. No PBI or estimate is needed — the client can see the housekeeping work being done.
   </>}
   figurePrefix="good"
-  figure="Housekeeping work tracked under a dedicated PBI — fully visible on the Scrum Board"
+  figure="Housekeeping PRs linked to the Scrum Board — visible to the client without a dedicated PBI"
 />
 
 <boxEmbed
