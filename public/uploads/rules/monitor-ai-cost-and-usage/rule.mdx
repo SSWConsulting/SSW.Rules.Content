@@ -4,30 +4,32 @@ uri: monitor-ai-cost-and-usage
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Josh Berman
     url: 'https://ssw.com.au/people/josh-berman'
 guid: 84a2ebf1-9591-4d94-b7b8-ab99c64c0235
 created: 2026-03-05T22:45:56.927Z
 createdBy: Josh Berman
 createdByEmail: JoshBerman@ssw.com.au
-lastUpdated: 2026-03-05T23:57:29.131Z
-lastUpdatedBy: Josh Berman
-lastUpdatedByEmail: JoshBerman@ssw.com.au
+lastUpdated: 2026-03-09T00:19:18.790Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: GordonBeeming@ssw.com.au
 ---
 
-AI tools dramatically increase productivity, but they also introduce variable usage costs. Without visibility into token consumption, API calls, and agent activity, teams may unknowingly generate significant expenses 
+AI tools dramatically increase productivity, but they also introduce variable usage costs. Without visibility into token consumption, API calls, and agent activity, teams may unknowingly generate significant expenses
 
 <endIntro />
 
-## What should be monitored? 
+## What should be monitored?
 
-Teams should track key indicators such as: 
+Teams should track key indicators such as:
 
 * Monthly AI bills (OpenAI, Anthropic, etc.)
-* Token usage 
-* Number of agent runs 
+* Token usage
+* Number of agent runs
 * API request volume
-* High-cost workflows 
+* High-cost workflows
 
 This information helps teams optimise usage and ensure that AI remains a productivity multiplier rather than a financial burden.
 
@@ -35,7 +37,7 @@ This information helps teams optimise usage and ensure that AI remains a product
 
 Instead of constantly wondering “Wait, which model am I using?” or  “How much money did I just blow in the last 20 minutes?”, you can have those figures right there at the bottom of the screen - this is called the status line.
 
-When using CLI AI tools, one of the easiest ways to keep track of your AI usage and costing is through the status line. 
+When using CLI AI tools, one of the easiest ways to keep track of your AI usage and costing is through the status line.
 
 ### Customising the status line in Claude Code
 
@@ -49,7 +51,7 @@ Claude Code currently is the leading tool for customisation of the status line, 
 
 There are many tools out there for monitoring AI cost and usage, highly dependent on which tools you are utilising. However, knowing where and how to track your AI bills can save you from some unexpected costs!
 
-Some of the different ways: 
+Some of the different ways:
 
 * Native CLI tools commands - Most CLI tools provide their own native way of checking cost and usage stats (i.e /stat for Claude Code and Gemini CLI or /status for OpenAI Codex CLI)
 
@@ -57,6 +59,6 @@ Some of the different ways:
 
 * Provider Dashboard - Most AI providers also offer dashboards that give a more comprehensive view of usage and billing. These dashboards are often the easiest way to observe usage for non-CLI tools (i.e Cursor, Windsurf)
 * AI Observability Platforms - For production AI systems, teams may use dedicated AI observability platforms to track usage, costs, and model performance across applications (i.e LangSmith, Helicone, Langfuse)
-* Custom Developer Tools - Smaller scale command line tools created by developers, for developers. Often gives the user more control and flexibility over the function of the tool. 
+* Custom Developer Tools - Smaller scale command line tools created by developers, for developers. Often gives the user more control and flexibility over the function of the tool.
 
 <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Running goccc in the command line" src="/uploads/rules/monitor-ai-cost-and-usage/running-goccc.png" />
