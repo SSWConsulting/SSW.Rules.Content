@@ -21,7 +21,7 @@ seoDescription: 'Learn how to use GitHub Agentic Workflows to automate repositor
 created: 2026-02-24T04:24:59.348Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-03-09T23:23:54.054Z
+lastUpdated: 2026-03-09T23:56:44.514Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -74,7 +74,7 @@ With AI-generated workflows, the agent simply writes the workflow steps into a Y
 
 Meanwhile, with regular GitHub Actions that invoke an agent, the YAML file still needs to be written to incorporate AI agents as part of the workflow, which is a pattern that doesn't need to be repeated. Additionally, incorporating AI agents into standard GitHub Actions allow the agent to run with whatever permissions given to the job, without much control over how it achieves its goals, which creates risk.
 
-Agentic Workflows are **not meant** to **replace** your existing, deterministic workflows. Agentic Workflows really **shine** in situations where ambiguity exists, and agentic reasoning is required. For example, a human teammate can understand “read the coverage report and write tests to improve the coverage.”
+Agentic Workflows are **not meant** to **replace** your existing, deterministic workflows. Agentic Workflows really **shine**, in situations where ambiguity exists, and some common sense or reasoning is required. For example, you can instruct an Agentic Workflow to compare two GitHub Issues and determine if they are semantically duplicate - which coud not be achieved with a deterministic workflow.
 
 This isn't a programmatic instruction set that needs to be written with GitHub Actions syntax, instead, it's something an AI agent can interpret and execute.
 
