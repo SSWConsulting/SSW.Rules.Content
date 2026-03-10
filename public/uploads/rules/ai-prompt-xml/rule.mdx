@@ -1,17 +1,18 @@
 ---
-archivedreason: null
-authors:
-- title: Eddie Kranz
-  url: https://www.ssw.com.au/people/eddie-kranz
-created: 2025-05-13 16:42:19.624000+00:00
-guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
-seoDescription: Markdown or XML can both be used to structure large prompts for large
-  language models (LLMs)
+type: rule
 title: Do you use Markdown or XML tags to structure your AI prompts?
+uri: ai-prompt-xml
 categories:
   - category: categories/artificial-intelligence/rules-to-better-chatgpt-prompt-engineering.mdx
-type: rule
-uri: ai-prompt-xml
+authors:
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
+seoDescription: Markdown or XML can both be used to structure large prompts for large language models (LLMs)
+created: 2025-05-13T16:42:19.624Z
+createdBy: Gilles Pothieu
+createdByEmail: gillespothieu.pro@gmail.com
+archivedreason: null
 ---
 
 The bigger your prompts get, the more challenging they become for the AI to understand.
@@ -19,6 +20,7 @@ The bigger your prompts get, the more challenging they become for the AI to unde
 Using  Markdown or XML tags will help an LLM parse your prompts more accurately, leading to higher-quality outputs.
 
 The best part is that it doesn't need to follow any specific syntax. It just helps both humans and AI to have structured prompts.
+Test.
 
 <endIntro />
 
@@ -37,7 +39,8 @@ Use the latest performance metrics from: &#123;&#123;PERFORMANCE_DASHBOARD&#125;
 The review should be technical, actionable, and highlight key issues and opportunities.
 Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
-**❌ Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too**  
+
+**❌ Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too**
 
 ```xml
 ## Context
@@ -58,7 +61,8 @@ Make sure your tone is technical and solution-oriented
 # Follow this structure:
 &#123;&#123;PREVIOUS_ARCH_REVIEW_MD&#125;&#125;
 ```
-**✅ Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for**  
+
+**✅ Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for**
 
 ```xml
 <context>
@@ -86,4 +90,5 @@ Follow this structure:
     &#123;&#123;PREVIOUS_ARCH_REVIEW_MD&#125;&#125;
 </formatting-example>
 ```
+
 **✅ Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs**
