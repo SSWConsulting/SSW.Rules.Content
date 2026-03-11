@@ -86,6 +86,7 @@ flowchart
 
  Ecosystem --> Entra(["Entra ID"])
  Ecosystem --> Auth0(["Auth0"])
+ Ecosystem --> BetterAuth(["Better Auth"])
  Ecosystem --> OtherIDP(["Other Cloud IDP"])
 
  SingleApp -->|"Yes"| IdentityServer
@@ -244,7 +245,7 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 * Your users require access from off-site, and/or:
 * You **need** to enforce MFA
 
-## 6. Microsoft Entra External Id (previously Azure AD B2C) (simple Auth as a Service)
+## 6. Microsoft Entra External ID (previously Azure AD B2C) (simple Auth as a Service)
 
 [Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id?WT.mc_id=ES-MVP-33518) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable login flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
 **✅ Advantages:**  
@@ -334,7 +335,38 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 * Data sovereignty and multi-cloud deployments are priorities
 * You don't need enterprise level support
 
-## 10. Roll your own - a solution looking for a problem :-)
+## 10. Better Auth (TypeScript-first open-source auth)
+
+[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, the Auth.js team officially joined the Better Auth project, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. Better Auth is self-hosted, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
+
+Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks — Next.js, SvelteKit, Nuxt, Express, Hono, and more. It ships with email/password auth, social logins, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
+**✅ Advantages:**  
+
+* Free and open-source (MIT)
+* Native TypeScript with full end-to-end type safety and inferred types
+* Framework-agnostic — works with Next.js, SvelteKit, Nuxt, Express, Hono, and more
+* Built-in 2FA (TOTP/SMS), organisation management, passkeys, magic links, and social logins out of the box
+* Extensible plugin ecosystem (admin panel, API keys, multi-tenancy, etc.)
+* Auth.js/NextAuth.js team now maintains Better Auth — clear migration path from NextAuth
+* Native Drizzle/Prisma integration with automatic schema generation
+**❌ Disadvantages:**  
+
+* JavaScript/TypeScript ecosystem only — not suitable for .NET or other non-JS stacks
+* Self-hosted — you own infrastructure, scaling, and security patching
+* No managed/cloud-hosted option — unlike Auth0, there is no hosted SaaS tier
+* Relatively new (2024) — smaller community than Auth0, IdentityServer, or Entra
+* Some advanced enterprise features are still on the roadmap
+
+**Use this option if...**
+
+* You are building a TypeScript or JavaScript application (Next.js, SvelteKit, Nuxt, etc.), and:
+* You want a self-hosted, open-source solution with full control, and/or:
+* You are migrating from NextAuth.js and need a more feature-rich successor, and/or:
+* You need built-in 2FA or organisation management without additional configuration
+
+---
+
+## 11. Roll your own - a solution looking for a problem :-)
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 **✅ Advantages:**  
