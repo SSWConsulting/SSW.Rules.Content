@@ -75,7 +75,7 @@ flowchart
  AppType -->|"Internal (Intranet)"| Kerberos{"Need Kerberos/\nAD Integration?"}
  AppType -->|"External (B2B/B2C)"| Hosting{"Hosting?"}
 
- KerberosHosting{"Hosting?"} -->|"On-Permises"| SingleApp{"SSO?"}
+ KerberosHosting{"Hosting?"} -->|"On-Premises"| SingleApp{"SSO?"}
  KerberosHosting -->|"Cloud"| Ecosystem{"Existing Ecosystem/\nPreference?"}
 
  Kerberos -->|"No"| KerberosHosting
@@ -234,7 +234,7 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 
 ## 5. Microsoft Entra ID (previously Azure AD) (for Internal Enterprise Applications)
 
-[Microsoft Entra](https://www.microsoft.com/security/business/microsoft-entra?WT.mc_id=ES-MVP-33518) is Microsoft's cloud-based identity and network/access management platform and provides strong identity features such as MFA and self-service password recovery, as well as access policies and anomoly detection. Being cloud-based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
+[Microsoft Entra](https://www.microsoft.com/security/business/microsoft-entra?WT.mc_id=ES-MVP-33518) is Microsoft's cloud-based identity and network/access management platform and provides strong identity features such as MFA and self-service password recovery, as well as access policies and anomaly detection. Being cloud-based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
 
 **✅ Advantages:**  
 
@@ -264,7 +264,7 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 * Inexpensive and generous free tier
 * Native support for multiple external auth providers
 * MFA support included
-* Relatively straightforward to setup
+* Relatively straightforward to set up
 * Ongoing security maintained by Microsoft
 
 **❌ Disadvantages:**  
