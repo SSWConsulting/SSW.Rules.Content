@@ -1,0 +1,119 @@
+---
+type: rule
+title: Do you symlink your AGENTS.md and skills to .claude?
+uri: symlink-agents-to-claude
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
+guid: f7a3c1e2-8d45-4b91-a6e0-2c9f17d58b34
+seoDescription: Learn how to use symlinks so your AGENTS.md and skills work across both AGENTS.md-compatible tools and Claude Code without duplicating files.
+created: 2026-03-11T00:00:00.000Z
+createdBy: Gordon Beeming
+createdByEmail: gordonbeeming@ssw.com.au
+lastUpdated: 2026-03-11T00:00:00.000Z
+lastUpdatedBy: Gordon Beeming
+lastUpdatedByEmail: gordonbeeming@ssw.com.au
+---
+
+`AGENTS.md` is the cross-tool standard for AI coding instructions, but Claude Code still looks for `CLAUDE.md` and `.claude/skills/`. Instead of maintaining two copies, use symlinks so both conventions resolve to the same files.
+
+<endIntro />
+
+## The problem
+
+Most AI coding tools (Cursor, GitHub Copilot, OpenCode) read `AGENTS.md` and `.agents/skills/`. Claude Code reads `CLAUDE.md` and `.claude/skills/`. If you maintain separate files, they drift apart and your team gets inconsistent AI behavior depending on which tool they use.
+
+## The solution: symlinks
+
+Symlinks let you keep one source of truth while satisfying both conventions.
+
+### AGENTS.md → CLAUDE.md
+
+Keep your instructions in `AGENTS.md` (the cross-tool standard) and symlink `CLAUDE.md` to it:
+
+```bash
+ln -s AGENTS.md CLAUDE.md
+```
+
+### .agents/skills/ → .claude/skills/
+
+Keep your skills in `.agents/skills/` and symlink from `.claude/skills/`:
+
+```bash
+ln -s ../.agents/skills .claude/skills
+```
+
+<boxEmbed
+  body={<>
+    ```
+    ├── AGENTS.md
+    ├── CLAUDE.md               ← copy of AGENTS.md (manually maintained)
+    ├── .agents/
+    │   └── skills/
+    │       └── commit/
+    │           └── SKILL.md
+    └── .claude/
+        └── skills/
+            └── commit/
+                └── SKILL.md    ← copy of .agents/skills/commit/SKILL.md (manually maintained)
+    ```
+  </>}
+  figurePrefix="bad"
+  figure="Duplicated files will drift apart and cause inconsistent AI behavior"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    ```
+    ├── AGENTS.md                ← single source of truth
+    ├── CLAUDE.md → AGENTS.md   ← symlink
+    ├── .agents/
+    │   └── skills/              ← single source of truth
+    │       └── commit/
+    │           └── SKILL.md
+    └── .claude/
+        └── skills → ../.agents/skills   ← symlink
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Symlinks keep one source of truth — edit once, both tools pick it up"
+  style="greybox"
+/>
+
+### Committing symlinks to git
+
+Git tracks symlinks natively. When you commit and push, your teammates get the same symlinks when they clone or pull — no extra setup needed.
+
+```bash
+git add CLAUDE.md .claude/skills
+git commit -m "Add symlinks from .claude to .agents for Claude Code compatibility"
+```
+
+<boxEmbed
+  body={<>
+    **Note:** On Windows, git may need `core.symlinks=true` to properly handle symlinks. Most modern Git for Windows installations handle this by default, but if symlinks appear as plain text files, run:
+
+    ```bash
+    git config core.symlinks true
+    ```
+
+    and re-checkout the files.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## What about .claude/settings.json?
+
+The `.claude/` directory may also contain Claude Code-specific configuration files like `settings.json` and `settings.local.json`. These are unique to Claude Code and don't belong in `.agents/`, so don't symlink the entire `.claude/` directory — only symlink the shared items (skills).
