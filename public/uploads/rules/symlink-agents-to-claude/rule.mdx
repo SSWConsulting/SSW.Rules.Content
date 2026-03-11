@@ -49,6 +49,11 @@ ln -s AGENTS.md CLAUDE.md
 Keep your skills in `.agents/skills/` and symlink from `.claude/skills/`:
 
 ```bash
+# Ensure the source and target directories exist
+mkdir -p .agents/skills
+mkdir -p .claude
+
+# Create the symlink so Claude sees the same skills
 ln -s ../.agents/skills .claude/skills
 ```
 
