@@ -7,6 +7,8 @@ authors:
   url: https://www.ssw.com.au/people/matt-goldman
 - title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
+- title: Hajir Lesani
+  url: https://github.com/Hajir2005
 created: 2016-05-02 18:27:29+00:00
 guid: 985df34b-7af9-4f03-a48a-cf7391411656
 redirects:
@@ -355,26 +357,36 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 
 ## 10. Better Auth (TypeScript-first open-source auth)
 
-[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, the Auth.js team officially joined the Better Auth project, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. Better Auth is self-hosted, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
+[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, the Auth.js team officially joined the Better Auth project, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. It has quickly become the go-to authentication solution for Next.js and the broader TypeScript ecosystem. Better Auth is self-hosted, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
 
-Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks — Next.js, SvelteKit, Nuxt, Express, Hono, and more. It ships with email/password auth, social logins, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
+Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks, including Next.js, SvelteKit, Nuxt, Express, Hono, and more. As of v1.5, it also supports Electron for desktop application authentication. It ships with email/password auth, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
+
+Better Auth includes 40+ pre-configured social login providers out of the box, including Google, GitHub, Apple, Discord, Microsoft, Facebook, Twitter/X, GitLab, Spotify, Twitch, LinkedIn, Slack, Dropbox, and more. Any OAuth2 or OIDC-compliant provider can also be added through the Generic OAuth plugin.
+
+Better Auth follows the [Backend for Frontend (BFF)](https://auth0.com/blog/the-backend-for-frontend-pattern-bff/) security pattern. It uses traditional cookie-based server-side session management, where the session is stored on the server and a secure, httpOnly cookie is sent to the client. This means tokens are never exposed to the browser, reducing the attack surface for XSS and token theft compared to JWT-in-localStorage approaches. This architecture is well-suited for modern full-stack frameworks like Next.js, SvelteKit, and Nuxt where the server and client work closely together.
+
+The project is actively maintained with frequent releases (v1.5 shipped 600+ commits, 70 new features, and 200 bug fixes), a growing community, and backing from the original Auth.js team.
 
 **✅ Advantages:**  
 
 * Free and open-source (MIT)
 * Native TypeScript with full end-to-end type safety and inferred types
-* Framework-agnostic — works with Next.js, SvelteKit, Nuxt, Express, Hono, and more
-* Built-in 2FA (TOTP/SMS), organisation management, passkeys, magic links, and social logins out of the box
-* Extensible plugin ecosystem (admin panel, API keys, multi-tenancy, etc.)
-* Auth.js/NextAuth.js team now maintains Better Auth — clear migration path from NextAuth
+* Framework-agnostic: works with Next.js, SvelteKit, Nuxt, Express, Hono, Electron, and more
+* 40+ built-in social login providers (Google, GitHub, Apple, Discord, Microsoft, Facebook, Twitter/X, LinkedIn, Slack, and more) plus Generic OAuth for any custom provider
+* Built-in 2FA (TOTP/SMS), organisation management, passkeys, magic links, and session management out of the box
+* BFF-friendly architecture with secure, httpOnly cookie-based server-side sessions (no tokens exposed to the browser)
+* Extensible plugin ecosystem (admin panel, API keys, multi-tenancy, SAML SSO, seat-based billing, etc.)
+* Auth.js/NextAuth.js team now maintains Better Auth, providing a clear migration path from NextAuth
 * Native Drizzle/Prisma integration with automatic schema generation
+* Electron support for desktop apps (added in v1.5)
+* Actively maintained with frequent releases and a growing community
 
 **❌ Disadvantages:**  
 
-* JavaScript/TypeScript ecosystem only — not suitable for .NET or other non-JS stacks
-* Self-hosted — you own infrastructure, scaling, and security patching
-* No managed/cloud-hosted option — unlike Auth0, there is no hosted SaaS tier
-* Relatively new (2024) — smaller community than Auth0, IdentityServer, or Entra
+* JavaScript/TypeScript ecosystem only, not suitable for .NET or other non-JS stacks
+* Self-hosted: you own infrastructure, scaling, and security patching
+* No managed/cloud-hosted option (unlike Auth0, there is no hosted SaaS tier), though Better Auth Infrastructure is being developed
+* Newer project (2024) with a smaller community than Auth0, IdentityServer, or Entra, though growing rapidly
 * Some advanced enterprise features are still on the roadmap
 
 **Use this option if...**
@@ -382,7 +394,8 @@ Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScri
 * You are building a TypeScript or JavaScript application (Next.js, SvelteKit, Nuxt, etc.), and:
 * You want a self-hosted, open-source solution with full control, and/or:
 * You are migrating from NextAuth.js and need a more feature-rich successor, and/or:
-* You need built-in 2FA or organisation management without additional configuration
+* You need built-in 2FA or organisation management without additional configuration, and/or:
+* You want BFF-pattern security with server-side session management
 
 ---
 
