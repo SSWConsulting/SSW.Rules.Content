@@ -16,14 +16,14 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T03:39:05.383Z
+lastUpdated: 2026-03-13T03:44:09.790Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
 
-GitHub agentic workflows, allow you to instruct agents tempting to perform complex instructions using a variety of tooling, including natural language instructions, embedded CLI commands, and MCP tools. However, this approach is fragile, hard to test, and difficult to maintain. There's ultimately no guarantee the agent will execute the code you expect it to.
+GitHub agentic workflows, allow you to instruct agents tempting to perform complex instructions using a variety of tooling, including natural language instructions, embedded CLI commands, and MCP tools. However there are some caveats as to when and where your agent should run code to solve problems.
 
-The reliable and safe approach is to structured outputs, deterministic data emitted by the agent that downstream workflow steps can reliably parse and act upon.
+In particular, when your tooling performs destructive actions, such as creating Issues, or even using MCP to perform actions elsewhere, you should restrict these actions to your Safe Outputs specification.
 
 <endIntro />
 
