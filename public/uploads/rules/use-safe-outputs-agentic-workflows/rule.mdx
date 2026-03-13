@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T01:14:31.882Z
+lastUpdated: 2026-03-13T01:15:36.904Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -37,7 +37,7 @@ Safe outputs are structured values produced by an agent step. typically JSON, YA
 
 ## Why not use MCP scripts?
 
-MCP (Model Context Protocol) tooling allows agents to make function calls directly to external services. While MCP is powerful for giving agents rich context, using MCP scripts to *drive workflow decisions* introduces unnecessary coupling between your workflow logic and the agent's tool availability. If the MCP server changes, goes down, or is unavailable in a restricted environment (e.g. ephemeral runners), the workflow silently breaks.
+MCP scripts are useful for supplying reliable repeatable instrucitons, but they are not recommended for operations.
 
 Custom safe outputs decouple the agent's reasoning from the workflow's execution — the agent writes a structured result, and the workflow acts on it independently.
 
