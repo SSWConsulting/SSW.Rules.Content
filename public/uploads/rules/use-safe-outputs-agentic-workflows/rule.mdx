@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Safe Outputs over worded instructions in GitHub Agentic workflows?
+title: Do you use Safe Outputs in your GitHub Agentic workflows?
 uri: github-agentic-workflows-use-safe-outputs
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T01:17:06.551Z
+lastUpdated: 2026-03-13T01:20:16.906Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -31,13 +31,13 @@ The reliable and safe approach is to structured outputs, deterministic data emit
 
 Safe outputs are structured values produced by an agent step. typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
 
-* **Deterministic** — the same input produces the same output format
-* **Parseable** — downstream steps use `fromJSON()` or step output references, not string matching on natural language
+* **Deterministic: **the same input produces the same output format
+* **Parseable:** downstream steps use `fromJSON()` or step output references, not string matching on natural language
 * **Auditable** — clearly visible in workflow logs and job summaries
 
 ## Why not use MCP scripts?
 
-MCP scripts are useful for supplying reliable repeatable instrucitons, but they are not recommended for write operations.
+MCP scripts are useful for supplying reliable repeatable instructions to your agent, but they are not recommended for write operations in GitHub Agentic Worfkflows. The reason for this is they bypass the audit trail that runs implicitly whenever your agent runs.
 
 Custom safe outputs decouple the agent's reasoning from the workflow's execution — the agent writes a structured result, and the workflow acts on it independently.
 
