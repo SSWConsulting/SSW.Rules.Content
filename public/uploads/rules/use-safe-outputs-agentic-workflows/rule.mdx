@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you restrict write operations to Safe Outputs in your GitHub Agentic workflows?
+title: Do you avoid write operations in the body of your GitHub Agentic workflows?
 uri: github-agentic-workflows-use-safe-outputs
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T03:50:20.154Z
+lastUpdated: 2026-03-13T03:52:29.365Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -31,7 +31,7 @@ In particular, when your tooling performs destructive actions, such as creating 
 
 Safe outputs are a how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privelege principle.
 
-* Controllable: The same input produces the same output format
+* Controllable: They provide a clear specification for what your workflow will produce, preventing unintentional side effects
 * **Auditable:** Clearly visible in workflow logs and job summaries
 * **Secure:** Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository.
 
