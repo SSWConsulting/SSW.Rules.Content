@@ -11,9 +11,9 @@ seoDescription: 'Where should toast notifications appear in modern web apps? Thi
 created: 2026-03-02T22:07:37.937Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-03-03T19:12:46.024Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-03-13T06:58:23.054Z
+lastUpdatedBy: Griffen Edge
+lastUpdatedByEmail: GriffenEdge@ssw.com.au
 ---
 
 A toast notification is small. Its impact is not.
@@ -28,36 +28,41 @@ For most modern web applications, there is a clear default: **Bottom center** is
 
 ## Analysis of all six positions
 
-| Position            | ✅ Pros                                                                                                           | ❌ Cons                                                                                                   |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Top Left            | Highly visible; matches Western reading start point                                                              | Interrupts primary content scan (F-pattern); conflicts with navigation and logo area                     |
-| Top Center          | Very high visibility; matches iOS notification position; ideal for mobile-first apps                             | Blocks main heading and hero content; too disruptive for non-critical messages                           |
-| Top Right           | Visible without blocking primary content; common in older Bootstrap examples; familiar from Windows 7–10 era     | Conflicts with macOS Notification Center; largely superseded convention; interrupts natural reading flow |
-| Bottom Left         | No OS conflict on any platform; familiar from Google products; does not interrupt reading                        | Opposite corner to most primary CTAs; slightly less prominent than bottom right in RTL layouts           |
-| Bottom Right        | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Conflicts with Windows OS notifications, which also appear in the bottom-right corner                      |
+| Position             | ✅ Pros                                                                                                           | ❌ Cons                                                                                                   |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Top Left             | Highly visible; matches Western reading start point                                                              | Interrupts primary content scan (F-pattern); conflicts with navigation and logo area                     |
+| Top Center           | Very high visibility; matches iOS notification position; ideal for mobile-first apps                             | Blocks main heading and hero content; too disruptive for non-critical messages                           |
+| Top Right            | Visible without blocking primary content; common in older Bootstrap examples; familiar from Windows 7–10 era     | Conflicts with macOS Notification Center; largely superseded convention; interrupts natural reading flow |
+| Bottom Left          | No OS conflict on any platform; familiar from Google products; does not interrupt reading                        | Opposite corner to most primary CTAs; slightly less prominent than bottom right in RTL layouts           |
+| Bottom Right         | Matches Windows convention; enterprise SaaS standard; avoids macOS top-right conflict; peripheral but noticeable | Conflicts with Windows OS notifications, which also appear in the bottom-right corner                    |
 | **Bottom Center ⭐️** | Material Design 3 standard; balanced and symmetrical; works well on mobile and desktop; no OS conflict           | Can overlap bottom navigation bars or floating action buttons on mobile                                  |
 
 ## What real web apps do
 
 There is no universal convention. Different products optimize for different layouts, platforms, and interaction patterns.
 
-| Product      | Toast position   | Notification examples           |
-| ------------ | ---------------- | ------------------------------- |
-| GitHub       | **Bottom center** | Copied!                         |
-| Figma        | **Bottom center** | Link copied, autosave           |
-| Twitter / X  | **Bottom center** | Tweet sent, Copied link         |
-| Gmail        | Bottom left      | Message sent. Undo              |
-| YouTube      | Bottom left      | Added to playlist               |
-| Notion       | Bottom right     | Link copied, save confirmations |
-| Slack (web)  | Bottom right     | Connection status, message sent |
+| Product     | Toast position    | Notification examples           |
+| ----------- | ----------------- | ------------------------------- |
+| GitHub      | **Bottom center** | Copied!                         |
+| Figma       | **Bottom center** | Link copied, autosave           |
+| Twitter / X | **Bottom center** | Tweet sent, Copied link         |
+| Gmail       | Bottom left       | Message sent. Undo              |
+| YouTube     | Bottom left       | Added to playlist               |
+| Notion      | Bottom right      | Link copied, save confirmations |
+| Slack (web) | Bottom right      | Connection status, message sent |
 
-Note: GitHub's design system guidance has shifted. Primer now recommends avoiding toasts and using more accessible notification patterns where possible. See [GitHub Primer - Accessible notifications and messages: Toasts](https://primer.style/accessibility/patterns/accessible-notifications-and-messages/#toasts).
+<boxEmbed
+  body={<>
+    Note: GitHub's design system guidance has shifted. Primer now recommends avoiding toasts and using more accessible notification patterns where possible. See [GitHub Primer - Accessible notifications and messages: Toasts](https://primer.style/accessibility/patterns/accessible-notifications-and-messages/#toasts).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
 
 The important takeaway is consistency, not imitation. At SSW, the default is **bottom center** because it gives a stronger cross-platform baseline and avoids the primary OS notification zones on both platforms (macOS top right, Windows bottom right).
 
-## Recommendation
-
-If your web app targets both Windows and Mac users:
+## Recommendations
 
 ### ✅ Choose bottom center
 
@@ -99,11 +104,8 @@ Follow WCAG guidance:
 * Never auto-dismiss error toasts
 * Do not cover primary CTAs or form fields
 
-
-
 ***
 
 If you are building a modern SaaS or enterprise web application, default to **bottom center**.
 
 Small details build trust. Predictability reduces friction.
-
