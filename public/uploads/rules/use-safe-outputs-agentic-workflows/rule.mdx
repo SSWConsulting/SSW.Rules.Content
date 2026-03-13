@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T01:14:13.102Z
+lastUpdated: 2026-03-13T01:14:31.882Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -29,7 +29,7 @@ The reliable and safe approach is to structured outputs, deterministic data emit
 
 ## What are safe outputs?
 
-Safe outputs are structured values produced by an agent step — typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
+Safe outputs are structured values produced by an agent step. typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
 
 * **Deterministic** — the same input produces the same output format
 * **Parseable** — downstream steps use `fromJSON()` or step output references, not string matching on natural language
