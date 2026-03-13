@@ -4,6 +4,8 @@ authors:
   url: https://www.ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://www.ssw.com.au/people/tiago-araujo
+- title: Hajir Lesani
+  url: https://www.ssw.com.au/people/hajir-lesani
 guid: f5999763-c079-4ec2-aff4-fbdf675b92e2
 related:
 - rule: public/uploads/rules/anchor-links/rule.mdx
@@ -19,9 +21,9 @@ type: rule
 uri: heading-to-anchor-targets
 ---
 
-Help readers get exactly where they need to go by making your headings linkable.
+Making headings linkable helps readers navigate directly to specific sections, share precise URLs, and maintain stable links even when heading text changes.
 
-This enables quick jumps to sections, easy sharing of precise URLs, and stable links even if the wording changes by assigning a custom ID.
+Anchor links improve user experience by enabling quick navigation within long pages and provide shareable URLs that point to exact content locations.
 
 <endIntro />
 
@@ -36,16 +38,17 @@ This enables quick jumps to sections, easy sharing of precise URLs, and stable l
 />
 
 
-## ✅ Benefits
+## Benefits
 
-* Faster navigation within long pages
-* Easy sharing of specific sections
-* Stable links via custom IDs
-* Consistent style using lowercase with hyphens
+* **Faster navigation** - Users can jump directly to specific sections within long pages
+* **Easy sharing** - Share precise URLs pointing to exact content locations
+* **Stable links** - Custom IDs preserve links even when heading text changes
+* **SEO improvements** - Search engines can link directly to relevant sections
+* **Better accessibility** - Screen readers can navigate page structure more effectively
 
-## Example: From heading to anchor link
+## How anchor links work
 
-Say you have a documentation page with many sections.
+When you create a heading, it can automatically generate an anchor link, or you can assign a custom ID.
 
 **Markdown heading:**
 
@@ -53,46 +56,52 @@ Say you have a documentation page with many sections.
 ## Getting started
 ```
 
-This heading will auto-generate an anchor `#getting-started`.
+This heading auto-generates an anchor: `#getting-started`
 
-**HTML heading with an explicit ID:**
+**HTML heading with explicit ID:**
 
 ```html
 <h2 id="getting-started">Getting started</h2>
 ```
 
-**Link to access that section of the page:**
+**Linking to the section:**
 
 ```html
 https://example.com/docs#getting-started
 ```
 
+Users can click the heading or its link icon to get a URL that navigates directly to that section.
+
 <imageEmbed
-  alt="Image"
+  alt="Heading with anchor link icon showing clickable navigation"
   size="large"
   showBorder={false}
   figurePrefix="good"
-  figure="Click the heading (or its link icon) to get a URL that takes you straight to that section of the page"
+  figure="Good example - Click the heading (or its link icon) to get a URL that takes you straight to that section of the page"
   src="/uploads/rules/heading-to-anchor-targets/heading-anchor-link-good-example.png"
 />
 
 
-## MDX / React implementation (auto-IDs + autolinks)
+## Implementation in MDX/React applications
 
-If you render Markdown/MDX in a React app, add slug and autolink plugins so headings get IDs and clickable anchors automatically. Example (Next.js + MDX):
+For React applications using Markdown/MDX, use rehype plugins to automatically generate IDs and anchor links for headings.
+
+**Example configuration (Next.js with MDX):**
 
 ```js
 // next.config.mjs
 import createMDX from '@next/mdx';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSanitize from 'rehype-sanitize';
 
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
     rehypePlugins: [
-      rehypeSlug,
-      [rehypeAutolinkHeadings, { behavior: 'wrap' }],
+      rehypeSlug,  // Generates IDs for headings
+      [rehypeAutolinkHeadings, { behavior: 'wrap' }],  // Adds clickable anchor links
+      rehypeSanitize,  // Prevents XSS attacks from user-generated content
     ],
   },
 });
@@ -101,3 +110,5 @@ export default withMDX({
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 });
 ```
+
+**Security note:** Always include `rehype-sanitize` when processing user-generated content to prevent XSS (cross-site scripting) attacks through DOM clobbering.
