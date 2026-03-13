@@ -150,7 +150,7 @@ However, the most important consideration is that this approach is intended for 
 
 ## 2. IdentityServer (full control)
 
-[Identity Server](https://duendesoftware.com/products/identityserver) is an open-source, OIDC compliant solution from [Duende](https://duendesoftware.com/) that is built on top of ASP.NET Core. It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
+[Identity Server](https://duendesoftware.com/products/identityserver) is a source-available, OIDC compliant solution from [Duende](https://duendesoftware.com/) that is built on top of ASP.NET Core. It is dual-licensed under the RPL (free for open-source projects) and a commercial license (required for production use). It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
 
 IdentityServer provides unmatched flexibility and control over your authentication process. While some other options provide ways to execute custom logic as part of a login process, for anything beyond the most basic of scenarios, IdentityServer will be orders of magnitude easier to implement.
 
@@ -317,9 +317,8 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 
 **❌ Disadvantages:**  
 
-* Expensive
-* No free tier
-* Not suited to consumer-facing scenarios
+* Expensive for production use (Integrator Free Plan available for development/testing)
+* Primarily suited to workforce/enterprise identity (for consumer-facing scenarios, Okta offers [Customer Identity Cloud](https://www.okta.com/products/customer-identity/), powered by Auth0)
 
 **Use this option if...**
 
@@ -336,15 +335,14 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 * CNCF ecosystem integration with native Kubernetes Operator support and Prometheus monitoring
 * Persistent user sessions in v26 ensure seamless authentication during migrations/restarts
 * Multi-site deployment optimizations for global enterprise configurations
-* Red Hat downstream support with commercial SLAs available through Red Hat SSO
+* Red Hat downstream support with commercial SLAs available through [Red Hat build of Keycloak](https://access.redhat.com/products/red-hat-build-of-keycloak/)
 * Extensible architecture supporting LDAP/Active Directory federation and third-party integrations
 
 **❌ Disadvantages:**  
 
 * Complex clustering requiring Kubernetes/OpenShift operational expertise
 * Limited mobile SDKs necessitating third-party libraries like AppAuth
-* Community-driven support without guaranteed 24/7 incident response
-* Experimental status for emerging features like quantum-resistant cryptography
+* Community-driven support without guaranteed 24/7 incident response (commercial support available via Red Hat)
 
 **Use this option if...**
 
