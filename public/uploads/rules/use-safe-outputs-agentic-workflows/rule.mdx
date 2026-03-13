@@ -1,20 +1,24 @@
 ---
 type: rule
-title: Do you use safe outputs over worded instructions in GitHub agentic workflows?
-seoDescription: Learn why GitHub agentic workflows should use structured safe outputs instead of natural language instructions or MCP scripts for reliable, idiomatic automation.
-guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
+title: Do you use Safe Outputs over worded instructions in GitHub Agentic workflows?
 uri: github-agentic-workflows-use-safe-outputs
-created: 2026-03-13T00:00:00.000Z
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Caleb Williams
-    url: https://www.ssw.com.au/people/caleb-williams
-categories:
-  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
-  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+    url: 'https://www.ssw.com.au/people/caleb-williams'
 related:
-  - utilize-back-pressure-for-agents
-  - mcp-servers-for-context
-  - use-job-summaries
+  - {}
+  - {}
+  - {}
+guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
+seoDescription: 'Learn why GitHub agentic workflows should use structured safe outputs instead of natural language instructions or MCP scripts for reliable, idiomatic automation.'
+created: 2026-03-13T00:00:00.000Z
+createdBy: Caleb Williams
+createdByEmail: CalebWilliams@ssw.com.au
+lastUpdated: 2026-03-13T01:11:14.546Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
 
 When building GitHub agentic workflows, it is tempting to have the agent communicate decisions and actions through natural language — writing out instructions in prose or calling external tooling via MCP scripts. However, this approach is fragile, hard to test, and difficult to maintain.
@@ -27,9 +31,9 @@ The idiomatic approach is to use **safe outputs**: structured, deterministic dat
 
 Safe outputs are structured values produced by an agent step — typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
 
-- **Deterministic** — the same input produces the same output format
-- **Parseable** — downstream steps use `fromJSON()` or step output references, not string matching on natural language
-- **Auditable** — clearly visible in workflow logs and job summaries
+* **Deterministic** — the same input produces the same output format
+* **Parseable** — downstream steps use `fromJSON()` or step output references, not string matching on natural language
+* **Auditable** — clearly visible in workflow logs and job summaries
 
 ## Why not use MCP scripts?
 
@@ -58,9 +62,7 @@ Custom safe outputs decouple the agent's reasoning from the workflow's execution
     fi
 ```
 
-**Figure: Bad example - relying on prose output and MCP function calls makes the workflow fragile and hard to test**
-
-### ✅ Good example — using structured safe outputs
+**Figure: ❌ Bad example - relying on prose output and MCP function calls makes the**
 
 ```yaml
 # .github/workflows/agentic-review.yml
@@ -88,7 +90,7 @@ Custom safe outputs decouple the agent's reasoning from the workflow's execution
     echo "- **Summary:** ${{ steps.agent_review.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
 ```
 
-**Figure: Good example - structured safe outputs make the workflow deterministic, testable, and easy to extend**
+**Figure: ✅ Good example - structured safe outputs make the workflow deterministic, testable, and easy to extend**
 
 ## Key principles
 
