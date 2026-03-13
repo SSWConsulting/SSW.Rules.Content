@@ -88,6 +88,7 @@ flowchart
 
  Ecosystem --> Entra(["Entra ID"])
  Ecosystem --> Auth0(["Auth0"])
+ Ecosystem --> WorkOS(["WorkOS"])
  Ecosystem --> BetterAuth(["Better Auth"])
  Ecosystem --> OtherIDP(["Other Cloud IDP"])
 
@@ -397,7 +398,40 @@ The project is actively maintained with frequent releases (v1.5 shipped 600+ com
 
 ---
 
-## 11. Roll your own - a solution looking for a problem :-)
+## 11. WorkOS (B2B SaaS Auth as a Service)
+
+[WorkOS](https://workos.com) is a commercial, cloud-hosted identity platform designed primarily for B2B SaaS applications that need enterprise-grade authentication. Its flagship product, [AuthKit](https://workos.com/docs/authkit/overview), provides a hosted authentication UI and API covering the full range of modern auth needs — from simple email/password to Enterprise SSO — with a developer-first approach and one of the most generous free tiers available.
+
+WorkOS is particularly well-suited to SaaS products that need to support enterprise customers with SSO requirements. It offers per-connection SSO pricing and a built-in Admin Portal that lets customers self-serve their own identity configuration, removing support burden from your team.
+
+**✅ Advantages:**  
+
+* Very generous free tier: first 1 million MAUs free
+* Supports Email/Password, Social Auth (Google, Microsoft, Apple, GitHub, and more), Magic Auth (passwordless), MFA (TOTP + SMS), and Passkeys out of the box
+* Enterprise SSO (SAML/OIDC) and Directory Sync (SCIM) for B2B enterprise customers
+* Built-in Admin Portal for self-serve enterprise identity configuration
+* Role-Based Access Control (RBAC) and Just-in-Time (JIT) user provisioning included
+* SDKs for many platforms including .NET, Node.js, Python, Ruby, Go, PHP, and more
+* Pre-built hosted UI (AuthKit) — fast to integrate, no auth UI to build yourself
+* Organization-based model maps naturally to multi-tenant B2B SaaS
+
+**❌ Disadvantages:**  
+
+* Fully managed cloud only — no self-hosting option
+* Enterprise SSO is priced per connection per month, which can become expensive at scale
+* Primarily designed for B2B/workforce scenarios — less optimised for pure B2C/consumer apps
+* Commercial product with proprietary licensing — not open source
+
+**Use this option if...**
+
+* You are building a B2B SaaS product that needs Enterprise SSO for enterprise customers, and/or:
+* You want a cloud-managed solution with a generous free tier (up to 1 million users), and/or:
+* You need a self-serve Admin Portal so enterprise customers can configure their own SSO/SCIM, and/or:
+* You want minimal operational overhead with SDKs across multiple languages including .NET
+
+---
+
+## 12. Roll your own - a solution looking for a problem :-)
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 
