@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T01:22:57.107Z
+lastUpdated: 2026-03-13T01:24:32.230Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -29,7 +29,7 @@ The reliable and safe approach is to structured outputs, deterministic data emit
 
 ## What are safe outputs?
 
-Safe outputs are structured values produced by an agent step. typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
+Safe outputs are structured values produced by an agent step. typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary, that subsequent steps consume directly. They are:
 
 * **Controllable: **The same input produces the same output format
 * **Parseable:** Downstream steps use `fromJSON()` or step output references, not string matching on natural language
@@ -92,7 +92,7 @@ Custom safe outputs decouple the agent's reasoning from the workflow's execution
 
 ## Key principles
 
-1. **Emit structured data, not prose** — use `$GITHUB_OUTPUT`, JSON files, or job summaries
-2. **Avoid MCP calls for workflow control** — MCP is great for giving agents *context*, not for *driving* workflow steps
-3. **Reference outputs explicitly** — use `steps.<id>.outputs.<key>` so the relationship is visible in the workflow definition
-4. **Keep agent logic separate from workflow logic** — the agent decides, the workflow acts
+1. **Emit structured data, not prose:** use `$GITHUB_OUTPUT`, JSON files, or job summaries
+2. **Avoid MCP calls for workflow control:** MCP is great for giving agents *context*, not for *driving* workflow steps
+3. **Reference outputs explicitly:** use `steps.<id>.outputs.<key>` so the relationship is visible in the workflow definition
+4. **Keep agent logic separate from workflow logic:** the agent decides, the workflow acts
