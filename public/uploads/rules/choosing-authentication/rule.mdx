@@ -88,6 +88,7 @@ flowchart
 
  Ecosystem --> Entra(["Entra ID"])
  Ecosystem --> Auth0(["Auth0"])
+ Ecosystem --> WorkOS(["WorkOS"])
  Ecosystem --> BetterAuth(["Better Auth"])
  Ecosystem --> OtherIDP(["Other Cloud IDP"])
 
@@ -124,7 +125,7 @@ While there are too many options to cover them all, this chart will help you nar
 
 ASP.NET Core has some built-in identity functionality that allows you to create users and roles, and manage the security of your web applications. It is extremely capable and can be used to support a broad number of scenarios. However, it is intended for use in simple web applications, and while it can be extended to support other clients, you will need to build and wire up a lot of the UI for these scenarios yourself.
 
-[With the new Identity endpoints in .NET 8](https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/?WT.mc_id=ES-MVP-33518), you can now support even more scenarios (like using API endpoints to exchange a username and password for an access token).
+[Identity Endpoints were introduced in .NET 8](https://devblogs.microsoft.com/dotnet/improvements-auth-identity-aspnetcore-8/?WT.mc_id=ES-MVP-33518) and have continued to evolve in .NET 9 and .NET 10, allowing you to support even more scenarios (like using API endpoints to exchange a username and password for an access token).
 
 However, the most important consideration is that this approach is intended for use in a single, standalone application.
 
@@ -150,7 +151,7 @@ However, the most important consideration is that this approach is intended for 
 
 ## 2. IdentityServer (full control)
 
-[Identity Server](https://duendesoftware.com/products/identityserver) is a source-available, OIDC compliant solution from [Duende](https://duendesoftware.com/) that is built on top of ASP.NET Core. It is dual-licensed under the RPL (free for open-source projects) and a commercial license (required for production use). It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
+[Identity Server](https://duendesoftware.com/products/identityserver) is a source-available, OIDC compliant solution from [Duende](https://duendesoftware.com/) that is built on top of ASP.NET Core. It is licensed under the [Duende Software License](https://duendesoftware.com/license), which is free via the [Community Edition](https://duendesoftware.com/products/communityedition) for qualifying small companies (less than $1M projected annual revenue and less than $3M in capital). Production use by larger organizations requires a paid license (Starter at $1,500/year, Business at $9,000/year, or Enterprise at $20,000/year). It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
 
 IdentityServer provides unmatched flexibility and control over your authentication process. While some other options provide ways to execute custom logic as part of a login process, for anything beyond the most basic of scenarios, IdentityServer will be orders of magnitude easier to implement.
 
@@ -158,7 +159,7 @@ By running your own IdentityServer, you can provide and manage your own SSO IDP 
 
 **✅ Advantages:**  
 
-* Inexpensive
+* Free via Community Edition for small companies (under $1M revenue / $3M capital); paid tiers from $1,500/year
 * Allows you to define custom authentication logic (see ['Complexity' in authentication](#complexity-in-authentication) above)
 * Supports multiple applications/identity consumers
 * Supports multiple clients and client types
@@ -170,7 +171,7 @@ By running your own IdentityServer, you can provide and manage your own SSO IDP 
 * Requires additional hosting resources
 * Requires additional skill set
 * Requires ongoing maintenance
-* Annual license fee
+* Annual license fee for larger organizations ($1,500-$20,000+/year depending on tier)
 
 **Use this option if...**
 
@@ -355,7 +356,7 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 
 ## 10. Better Auth (TypeScript-first open-source auth)
 
-[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, Auth.js (formerly NextAuth.js) was handed over to the Better Auth team for ongoing maintenance, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. Better Auth has become one of the most widely adopted authentication solutions in the TypeScript ecosystem, backed by [Y Combinator (S25)](https://www.ycombinator.com/companies/better-auth) and a $5M seed round. It is self-hosted by default, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
+[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, Auth.js (formerly NextAuth.js) was handed over to the Better Auth team for ongoing maintenance, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. Better Auth has become one of the most widely adopted authentication solutions in the TypeScript ecosystem, backed by [Y Combinator](https://www.ycombinator.com/companies/better-auth), Peak XV (formerly Sequoia), and a $5M seed round. It is self-hosted by default, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
 
 Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks, including Next.js, SvelteKit, Nuxt, Astro, Express, Hono, and more. It also provides plug-and-play integrations for mobile and desktop: the official [@better-auth/expo](https://www.npmjs.com/package/@better-auth/expo) plugin adds authentication to Expo (React Native) apps for both iOS and Android, while the [@better-auth/electron](https://better-auth.com/docs/integrations/electron) plugin (added in v1.5) handles the full OAuth flow for Electron desktop apps, including opening the system browser, exchanging authorization codes via custom protocol, and managing cookies securely. It ships with email/password auth, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
 
@@ -397,7 +398,40 @@ The project is actively maintained with frequent releases (v1.5 shipped 600+ com
 
 ---
 
-## 11. Roll your own - a solution looking for a problem :-)
+## 11. WorkOS (B2B SaaS Auth as a Service)
+
+[WorkOS](https://workos.com) is a commercial, cloud-hosted identity platform designed primarily for B2B SaaS applications that need enterprise-grade authentication. Its flagship product, [AuthKit](https://workos.com/docs/authkit/overview), provides a hosted authentication UI and API covering the full range of modern auth needs — from simple email/password to Enterprise SSO — with a developer-first approach and one of the most generous free tiers available.
+
+WorkOS is particularly well-suited to SaaS products that need to support enterprise customers with SSO requirements. It offers per-connection SSO pricing and a built-in Admin Portal that lets customers self-serve their own identity configuration, removing support burden from your team.
+
+**✅ Advantages:**  
+
+* Very generous free tier: first 1 million MAUs free
+* Supports Email/Password, Social Auth (Google, Microsoft, Apple, GitHub, and more), Magic Auth (passwordless), MFA (TOTP + SMS), and Passkeys out of the box
+* Enterprise SSO (SAML/OIDC) and Directory Sync (SCIM) for B2B enterprise customers
+* Built-in Admin Portal for self-serve enterprise identity configuration
+* Role-Based Access Control (RBAC) and Just-in-Time (JIT) user provisioning included
+* SDKs for many platforms including .NET, Node.js, Python, Ruby, Go, PHP, and more
+* Pre-built hosted UI (AuthKit) — fast to integrate, no auth UI to build yourself
+* Organization-based model maps naturally to multi-tenant B2B SaaS
+
+**❌ Disadvantages:**  
+
+* Fully managed cloud only — no self-hosting option
+* Enterprise SSO is priced per connection per month, which can become expensive at scale
+* Primarily designed for B2B/workforce scenarios — less optimised for pure B2C/consumer apps
+* Commercial product with proprietary licensing — not open source
+
+**Use this option if...**
+
+* You are building a B2B SaaS product that needs Enterprise SSO for enterprise customers, and/or:
+* You want a cloud-managed solution with a generous free tier (up to 1 million users), and/or:
+* You need a self-serve Admin Portal so enterprise customers can configure their own SSO/SCIM, and/or:
+* You want minimal operational overhead with SDKs across multiple languages including .NET
+
+---
+
+## 12. Roll your own - a solution looking for a problem :-)
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 
