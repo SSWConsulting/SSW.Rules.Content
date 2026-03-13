@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T01:38:35.022Z
+lastUpdated: 2026-03-13T02:58:11.377Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -39,9 +39,7 @@ Safe outputs are structured values produced by an agent step. typically JSON, YA
 
 MCP scripts are very useful for reliable read operations on your repo, for example fetching data from an external API that requires authentication. repeatable instructions to your agent, but they are not recommended for write operations in GitHub Agentic Workflows. The reason for this is they bypass the audit trail that runs implicitly whenever your agent runs the alternatives are:
 
-**Post Steps:**
-
-Post steps run after the exection of your workflow, however these are primarily designed for cleanup instructions after your agent execute, not specifying tools. 
+If you need to clean up after an execution there are primarily designed for cleanup instructions after your agent execute, not specifying tools. 
 
 Custom safe outputs keep the audit tail   the agent's reasoning from the workflow's execution — the agent writes a structured result, and the workflow acts on it independently.
 
