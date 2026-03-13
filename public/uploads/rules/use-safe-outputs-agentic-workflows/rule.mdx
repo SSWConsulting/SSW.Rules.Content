@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T03:53:50.080Z
+lastUpdated: 2026-03-13T03:58:35.299Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -29,28 +29,26 @@ In particular, when your tooling performs destructive actions, such as creating 
 
 ## What are Safe Outputs?
 
-Safe outputs are a how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privelege principle.
+Safe outputs are a how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
 
 * Controllable: They provide a clear specification for what your workflow will produce, preventing unintentional side effects
 * **Auditable:** Clearly visible in workflow logs and job summaries
 * **Secure:** Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository.
 
-## Why not use MCP scripts?
+## Why not use MCP tools?
 
-MCP scripts are very useful for reliable read operations on your repo, for example fetching data from an external API that requires authentication. repeatable instructions to your agent, but they are not recommended for write operations in GitHub Agentic Workflows. The reason for this is they bypass the audit trail that runs implicitly whenever your agent runs the alternatives are:
+MCP scripts are very useful for allowing your workflow to perform read operations reliably. For example your workflow may need to use a search engine to collect more information before performing an action. However they are not recommended for write operations in GitHub Agentic Workflows. The reason for this is they bypass the audit trail that runs implicitly whenever your agent runs.
 
 If you need to clean up after your workflow, or synchronise with an external system you also have the option of using post steps, but these aren't designed to be used by your Agent.
 
 <boxEmbed
   body={<>
-    If your workflow needs an MCP to write to an external system, you probably need a Custom Safe Output. See [documentation](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
+    If you need to clean up after your workflow, or synchronise with an external system you also have the option of using post steps, but these aren't designed to be used by your Agent.
   </>}
   figurePrefix="none"
   figure=""
   style="info"
 />
-
-## Examples
 
 ````yaml
 ---
@@ -122,10 +120,3 @@ Use the `create_issue` safe-output tool to create the issue.
 ```
 
 **Figure: ✅ Good example - Defining Issue creation as a safe output and using the built in toolset**
-
-## Key principles
-
-1. **Emit structured data, not prose:** use `$GITHUB_OUTPUT`, JSON files, or job summaries
-2. **Avoid MCP calls for workflow control:** MCP is great for giving agents *context*, not for *driving* workflow steps
-3. **Reference outputs explicitly:** use `steps.<id>.outputs.<key>` so the relationship is visible in the workflow definition
-4. **Keep agent logic separate from workflow logic:** the agent decides, the workflow acts
