@@ -16,7 +16,7 @@ seoDescription: 'Learn why GitHub agentic workflows should use structured safe o
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T03:44:09.790Z
+lastUpdated: 2026-03-13T03:49:53.663Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -29,10 +29,9 @@ In particular, when your tooling performs destructive actions, such as creating 
 
 ## What are Safe Outputs?
 
-Safe outputs are structured values produced by an agent step. typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary, that subsequent steps consume directly. They are:
+Safe outputs are a how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privelege principle.
 
-* **Controllable: **The same input produces the same output format
-* **Parseable:** Downstream steps use `fromJSON()` or step output references, not string matching on natural language
+* Controllable: The same input produces the same output format
 * **Auditable:** Clearly visible in workflow logs and job summaries
 * **Secure:** Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository.
 
