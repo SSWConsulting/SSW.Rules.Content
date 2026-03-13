@@ -1,0 +1,98 @@
+---
+type: rule
+title: Do you use safe outputs over worded instructions in GitHub agentic workflows?
+seoDescription: Learn why GitHub agentic workflows should use structured safe outputs instead of natural language instructions or MCP scripts for reliable, idiomatic automation.
+guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
+uri: github-agentic-workflows-use-safe-outputs
+created: 2026-03-13T00:00:00.000Z
+authors:
+  - title: Caleb Williams
+    url: https://www.ssw.com.au/people/caleb-williams
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+related:
+  - utilize-back-pressure-for-agents
+  - mcp-servers-for-context
+  - use-job-summaries
+---
+
+When building GitHub agentic workflows, it is tempting to have the agent communicate decisions and actions through natural language — writing out instructions in prose or calling external tooling via MCP scripts. However, this approach is fragile, hard to test, and difficult to maintain.
+
+The idiomatic approach is to use **safe outputs**: structured, deterministic data emitted by the agent that downstream workflow steps can reliably parse and act upon.
+
+<endIntro />
+
+## What are safe outputs?
+
+Safe outputs are structured values produced by an agent step — typically JSON, YAML, or key-value pairs written to `$GITHUB_OUTPUT` or a job summary — that subsequent steps consume directly. They are:
+
+- **Deterministic** — the same input produces the same output format
+- **Parseable** — downstream steps use `fromJSON()` or step output references, not string matching on natural language
+- **Auditable** — clearly visible in workflow logs and job summaries
+
+## Why not use MCP scripts?
+
+MCP (Model Context Protocol) tooling allows agents to make function calls directly to external services. While MCP is powerful for giving agents rich context, using MCP scripts to *drive workflow decisions* introduces unnecessary coupling between your workflow logic and the agent's tool availability. If the MCP server changes, goes down, or is unavailable in a restricted environment (e.g. ephemeral runners), the workflow silently breaks.
+
+Custom safe outputs decouple the agent's reasoning from the workflow's execution — the agent writes a structured result, and the workflow acts on it independently.
+
+## Examples
+
+### ❌ Bad example — using worded instructions and MCP calls
+
+```yaml
+# .github/workflows/agentic-review.yml
+- name: Run AI agent review
+  run: |
+    npx my-agent review --pr ${{ github.event.pull_request.number }}
+  # Agent output (in logs):
+  # "Please merge this PR. It looks good to me."
+  # Agent also calls MCP tool: mcp_github_merge_pull_request(pr=123)
+
+- name: Parse agent decision
+  run: |
+    # 🚫 Fragile string matching on natural language
+    if echo "$AGENT_OUTPUT" | grep -q "Please merge"; then
+      gh pr merge ${{ github.event.pull_request.number }} --squash
+    fi
+```
+
+**Figure: Bad example - relying on prose output and MCP function calls makes the workflow fragile and hard to test**
+
+### ✅ Good example — using structured safe outputs
+
+```yaml
+# .github/workflows/agentic-review.yml
+- name: Run AI agent review
+  id: agent_review
+  run: |
+    # Agent writes structured output to $GITHUB_OUTPUT
+    npx my-agent review --pr ${{ github.event.pull_request.number }} --output github
+
+    # Agent emits safe outputs, e.g.:
+    # echo "decision=approve" >> $GITHUB_OUTPUT
+    # echo "confidence=0.95" >> $GITHUB_OUTPUT
+    # echo "summary=All checks passed, code quality is high." >> $GITHUB_OUTPUT
+
+- name: Act on agent decision
+  if: steps.agent_review.outputs.decision == 'approve'
+  run: |
+    gh pr merge ${{ github.event.pull_request.number }} --squash
+
+- name: Post summary
+  run: |
+    echo "### Agent Review Result" >> $GITHUB_STEP_SUMMARY
+    echo "- **Decision:** ${{ steps.agent_review.outputs.decision }}" >> $GITHUB_STEP_SUMMARY
+    echo "- **Confidence:** ${{ steps.agent_review.outputs.confidence }}" >> $GITHUB_STEP_SUMMARY
+    echo "- **Summary:** ${{ steps.agent_review.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
+```
+
+**Figure: Good example - structured safe outputs make the workflow deterministic, testable, and easy to extend**
+
+## Key principles
+
+1. **Emit structured data, not prose** — use `$GITHUB_OUTPUT`, JSON files, or job summaries
+2. **Avoid MCP calls for workflow control** — MCP is great for giving agents *context*, not for *driving* workflow steps
+3. **Reference outputs explicitly** — use `steps.<id>.outputs.<key>` so the relationship is visible in the workflow definition
+4. **Keep agent logic separate from workflow logic** — the agent decides, the workflow acts
