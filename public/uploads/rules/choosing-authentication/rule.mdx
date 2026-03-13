@@ -357,26 +357,26 @@ Because of this, it provides even more flexibility than IdentityServer; but this
 
 ## 10. Better Auth (TypeScript-first open-source auth)
 
-[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, the Auth.js team officially joined the Better Auth project, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. It has quickly become the go-to authentication solution for Next.js and the broader TypeScript ecosystem. Better Auth is self-hosted, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
+[Better Auth](https://better-auth.com) is a comprehensive, framework-agnostic authentication framework for TypeScript that emerged in 2024 as the spiritual successor to [NextAuth.js / Auth.js](https://authjs.dev). In 2025, Auth.js (formerly NextAuth.js) was handed over to the Better Auth team for ongoing maintenance, consolidating the JavaScript/TypeScript open-source auth ecosystem under one roof. Better Auth has become one of the most widely adopted authentication solutions in the TypeScript ecosystem, backed by [Y Combinator (S25)](https://www.ycombinator.com/companies/better-auth) and a $5M seed round. It is self-hosted by default, fully open-source (MIT), and built from the ground up with end-to-end TypeScript type safety in mind.
 
-Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks, including Next.js, SvelteKit, Nuxt, Express, Hono, and more. It also provides plug-and-play integrations for mobile and desktop: the official [@better-auth/expo](https://www.npmjs.com/package/@better-auth/expo) plugin adds authentication to Expo (React Native) apps for both iOS and Android, while the [@better-auth/electron](https://better-auth.com/docs/integrations/electron) plugin (added in v1.5) handles the full OAuth flow for Electron desktop apps, including opening the system browser, exchanging authorization codes via custom protocol, and managing cookies securely. It ships with email/password auth, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
+Unlike IdentityServer (which targets .NET), Better Auth is designed for JavaScript and TypeScript stacks, including Next.js, SvelteKit, Nuxt, Astro, Express, Hono, and more. It also provides plug-and-play integrations for mobile and desktop: the official [@better-auth/expo](https://www.npmjs.com/package/@better-auth/expo) plugin adds authentication to Expo (React Native) apps for both iOS and Android, while the [@better-auth/electron](https://better-auth.com/docs/integrations/electron) plugin (added in v1.5) handles the full OAuth flow for Electron desktop apps, including opening the system browser, exchanging authorization codes via custom protocol, and managing cookies securely. It ships with email/password auth, 2FA (TOTP/SMS), organisation/team management, and an extensible plugin system out of the box, without requiring third-party packages for common scenarios. If you are coming from NextAuth.js, an official migration guide is provided.
 
 Better Auth includes 40+ pre-configured social login providers out of the box, including Google, GitHub, Apple, Discord, Microsoft, Facebook, Twitter/X, GitLab, Spotify, Twitch, LinkedIn, Slack, Dropbox, and more. Any OAuth2 or OIDC-compliant provider can also be added through the Generic OAuth plugin.
 
-Better Auth follows the [Backend for Frontend (BFF)](https://auth0.com/blog/the-backend-for-frontend-pattern-bff/) security pattern. It uses traditional cookie-based server-side session management, where the session is stored on the server and a secure, httpOnly cookie is sent to the client. This means tokens are never exposed to the browser, reducing the attack surface for XSS and token theft compared to JWT-in-localStorage approaches. This architecture is well-suited for modern full-stack frameworks like Next.js, SvelteKit, and Nuxt where the server and client work closely together.
+Better Auth uses traditional cookie-based server-side session management, where the session is stored in the database and a secure, httpOnly cookie is sent to the client. This means tokens are never exposed to the browser, reducing the attack surface for XSS and token theft compared to JWT-in-localStorage approaches. This architecture aligns well with the [Backend for Frontend (BFF)](https://auth0.com/blog/the-backend-for-frontend-pattern-bff/) security pattern and is well-suited for modern full-stack frameworks like Next.js, SvelteKit, and Nuxt where the server and client work closely together.
 
-The project is actively maintained with frequent releases (v1.5 shipped 600+ commits, 70 new features, and 200 bug fixes), a growing community, and backing from the original Auth.js team.
+The project is actively maintained with frequent releases (v1.5 shipped 600+ commits, 70 new features, and 200 bug fixes), a growing community, and stewardship of the Auth.js project.
 
 **✅ Advantages:**  
 
 * Free and open-source (MIT)
 * Native TypeScript with full end-to-end type safety and inferred types
-* Framework-agnostic: works with Next.js, SvelteKit, Nuxt, Express, Hono, and more
+* Framework-agnostic: works with Next.js, SvelteKit, Nuxt, Astro, Express, Hono, and more
 * 40+ built-in social login providers (Google, GitHub, Apple, Discord, Microsoft, Facebook, Twitter/X, LinkedIn, Slack, and more) plus Generic OAuth for any custom provider
 * Built-in 2FA (TOTP/SMS), organisation management, passkeys, magic links, and session management out of the box
-* BFF-friendly architecture with secure, httpOnly cookie-based server-side sessions (no tokens exposed to the browser)
+* Server-side session management with secure, httpOnly cookies (no tokens exposed to the browser), aligning with BFF security principles
 * Extensible plugin ecosystem (admin panel, API keys, multi-tenancy, SAML SSO, seat-based billing, etc.)
-* Auth.js/NextAuth.js team now maintains Better Auth, providing a clear migration path from NextAuth
+* Better Auth team now maintains Auth.js/NextAuth.js, providing a clear migration path from NextAuth
 * Native Drizzle/Prisma integration with automatic schema generation
 * Plug-and-play mobile and desktop support: official Expo (React Native) plugin for iOS/Android and Electron plugin for desktop apps
 * Actively maintained with frequent releases and a growing community
@@ -384,10 +384,10 @@ The project is actively maintained with frequent releases (v1.5 shipped 600+ com
 **❌ Disadvantages:**  
 
 * JavaScript/TypeScript ecosystem only, not suitable for .NET or other non-JS stacks
-* Self-hosted: you own infrastructure, scaling, and security patching
-* No managed/cloud-hosted option yet (unlike Auth0, there is no hosted SaaS tier)
+* Self-hosted by default: you manage your own deployment, scaling, and updates
+* No fully hosted tier yet (you still run your own server), though paid [Infrastructure](https://better-auth.com/docs/infrastructure/introduction) add-ons provide a dashboard, abuse protection, and enterprise features
 * Newer project (2024) with a smaller community than Auth0, IdentityServer, or Entra, though growing rapidly
-* Some advanced enterprise features are still on the roadmap
+* SCIM directory sync requires the paid Infrastructure tier; stateless sessions without a database are not yet supported
 
 **Use this option if...**
 
@@ -395,7 +395,7 @@ The project is actively maintained with frequent releases (v1.5 shipped 600+ com
 * You want a self-hosted, open-source solution with full control, and/or:
 * You are migrating from NextAuth.js and need a more feature-rich successor, and/or:
 * You need built-in 2FA or organisation management without additional configuration, and/or:
-* You want BFF-pattern security with server-side session management
+* You want server-side session management with secure httpOnly cookies
 
 ---
 
