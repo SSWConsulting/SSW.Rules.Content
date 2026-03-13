@@ -2,6 +2,8 @@
 authors:
 - title: Gilles Pothieu
   url: https://www.ssw.com.au/people/gilles-pothieu
+- title: Hajir Lesani
+  url: https://www.ssw.com.au/people/hajir-lesani
 guid: 1ac8db6a-d9c3-48a0-aac2-e2204b14a160
 redirects: []
 related:
@@ -16,27 +18,24 @@ type: rule
 uri: canary-deploy
 ---
 
-Canary deployments let you release new features or updates to a small group of users first, gather feedback, and reduce the risks of a global rollout. At SSW, we track all our canary testers, their onboarding dates, OS, test status, feedback, and environment in a single spreadsheet.
+Canary deployments allow you to release new features or updates to a small group of users first, gather feedback, and reduce the risks of a full rollout. A structured spreadsheet tracking your canary testers, their onboarding dates, OS, test status, feedback, and environment provides a single source of truth for your deployment process.
 
 <endIntro />
 
-
 <imageEmbed
-  alt="Image"
+  alt="Canary deployment tracking spreadsheet"
   size="large"
   showBorder={false}
   figurePrefix="none"
-  figure="Example canary deployment spreadsheet – track who is testing, the environment, and their feedback"
+  figure="Example canary deployment spreadsheet - track who is testing, the environment, and their feedback"
   src="/uploads/rules/canary-deploy/canary-deployment.png"
 />
-
 
 Using a structured spreadsheet ensures transparency and consistency, so no one is missed and feedback can be actioned quickly.
 
 ## Practical use case
 
 **Scenario:** You’ve built a new feature and are eager to roll it out to everyone.
-
 
 <boxEmbed
   style="greybox"
@@ -48,8 +47,6 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
   figurePrefix="bad"
   figure="No clear plan, no single source of truth, no tracked outcomes"
 />
-
-
 
 <boxEmbed
   style="greybox"
@@ -70,8 +67,6 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
   figure="A single, consistently updated spreadsheet for your canary rollouts"
 />
 
-
-
 <boxEmbed
   style="info"
   body={<>
@@ -81,46 +76,49 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
   figure=""
 />
 
-
 ## Steps to implement a canary spreadsheet
 
 1. **Create your spreadsheet**
 
    * Include columns for _User_, _Date Onboarded_, _Status_, _Mark /10_, _OS_, _Environment_, and _Notes_
-   * Store it in a central location (e.g. Microsoft 365, Google Sheets) accessible to all stakeholders, testers and developers
-   * If relevant, feel free to add as many columns as needed
+   * Store it in a central location (e.g., Microsoft 365, Google Sheets) accessible to all stakeholders, testers, and developers
+   * Add additional columns as needed for your specific deployment tracking requirements
 
 2. **Identify your canary testers**
 
-   * Start with a small, diverse set of users
-   * Include at least one “power user” who knows the system deeply and one “fresh perspective” user
+   * Start with a small, diverse set of users (typically 5-10% of your user base)
+   * Include at least one "power user" who knows the system deeply and one "fresh perspective" user
+   * Ensure diversity in operating systems, browsers, and usage patterns
 
 3. **Onboard each tester**
 
-   * Give them clear instructions (including any known limitations or the environment’s URLs)
+   * Give them clear instructions, including any known limitations or environment URLs
    * Direct them to fill in or confirm their details in the spreadsheet
+   * Set clear expectations for testing timelines and feedback format
 
 4. **Record feedback**
 
    * Ask each tester for a rating (Mark /10) and to log outcomes under Status (Test Passed, Test Failed, etc.)
    * Document any showstoppers or usability issues in **Notes**
+   * Track key metrics like error rates, response times, and user satisfaction
 
 5. **Iterate quickly**
 
-   * If someone logs a “Test Failed,” address the issue before inviting more testers
+   * If someone logs a "Test Failed," address the issue before inviting more testers
    * If changes are requested, update the environment or instructions, then retest
+   * Maintain clear communication with your testers about fixes and updates
 
 6. **Go wider**
 
-   * After successful canary feedback, roll out your feature to all users
+   * After successful canary feedback, gradually roll out your feature to all users
    * Keep the spreadsheet as a living record of the rollout process
+   * Monitor production metrics closely during the full rollout
 
 ## Possible statuses
 
-* **N/A** – Not started or not applicable yet
-* **✅ Test Pass (with changes requested)** – Feedback is positive, with small tweaks needed
-* **❌ Test Failed** – Showstopper or critical bug prevents completion
-
+* **N/A** - Not started or not applicable yet
+* **✅ Test Pass (with changes requested)** - Feedback is positive, with small tweaks needed
+* **❌ Test Failed** - Showstopper or critical bug prevents completion
 
 <boxEmbed
   style="info"
@@ -130,7 +128,6 @@ Using a structured spreadsheet ensures transparency and consistency, so no one i
   figurePrefix="none"
   figure=""
 />
-
 
 ## Avoid confusion
 
