@@ -1,0 +1,163 @@
+---
+type: rule
+title: Do you use Zod for runtime validation?
+uri: use-zod-for-runtime-validation
+authors:
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani/'
+related: []
+redirects: []
+created: 2026-03-15T00:00:00.000Z
+archivedreason: null
+guid: f960a0cc-533c-46b5-9685-57db48eb0536
+seoDescription: Learn why Zod is essential for runtime validation in TypeScript applications and how it prevents runtime errors from invalid data.
+---
+
+TypeScript provides excellent compile-time type safety, but it cannot protect you from invalid data at runtime. API responses, form inputs, and external data sources can contain unexpected values that bypass TypeScript's type checking. This leads to runtime errors, data corruption, and security vulnerabilities.
+
+Zod is a TypeScript-first schema validation library that validates data at runtime and automatically infers TypeScript types from your schemas. This ensures your data matches your types not just during development, but also when your application is running in production.
+
+<endIntro />
+
+## Why Zod?
+
+* **Type inference** - Define your schema once, get both runtime validation and TypeScript types automatically
+* **Developer experience** - Clear, composable API with excellent error messages
+* **Zero dependencies** - Small bundle size (8kb minified + gzipped)
+* **Framework integration** - First-class support in Next.js, React Hook Form, tRPC, and more
+* **Transformations** - Parse and transform data (e.g., coerce strings to numbers, trim whitespace)
+
+## Common use cases
+
+1. **API responses** - Validate external API data before using it
+2. **Form validation** - Validate user input in forms (especially with React Hook Form)
+3. **Environment variables** - Ensure required configuration is present and valid
+4. **Query parameters** - Validate and parse URL parameters
+5. **Server actions** - Validate input to Next.js server actions and API routes
+
+## ❌ Bad example - No runtime validation
+
+```typescript
+// TypeScript can't protect you here
+interface User {
+  id: number;
+  email: string;
+  age: number;
+}
+
+async function getUser(id: string): Promise<User> {
+  const response = await fetch(`/api/users/${id}`);
+  const data = await response.json();
+  // ⚠️ What if the API returns { id: "abc", email: null, age: "25" }?
+  // TypeScript won't catch this - it only checks compile time!
+  return data; // Runtime error waiting to happen
+}
+
+// Later in your code...
+const user = await getUser("123");
+console.log(user.age.toFixed(2)); // 💥 Crashes if age is a string
+```
+
+## ✅ Good example - Zod validation
+
+```typescript
+import { z } from 'zod';
+
+// Define schema and infer type
+const UserSchema = z.object({
+  id: z.number(),
+  email: z.string().email(),
+  age: z.number().min(0).max(150),
+});
+
+type User = z.infer<typeof UserSchema>;
+
+async function getUser(id: string): Promise<User> {
+  const response = await fetch(`/api/users/${id}`);
+  const data = await response.json();
+
+  // Validate at runtime - throws if data is invalid
+  const user = UserSchema.parse(data);
+  return user; // Guaranteed to be a valid User
+}
+
+// Your code is now safe
+const user = await getUser("123");
+console.log(user.age.toFixed(2)); // ✅ Safe - age is guaranteed to be a number
+```
+
+## ✅ Good example - Form validation with React Hook Form
+
+```typescript
+import { z } from 'zod';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+
+const FormSchema = z.object({
+  email: z.string().email('Invalid email address'),
+  password: z.string().min(8, 'Password must be at least 8 characters'),
+  age: z.number().min(18, 'Must be 18 or older'),
+});
+
+type FormData = z.infer<typeof FormSchema>;
+
+function MyForm() {
+  const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
+    resolver: zodResolver(FormSchema),
+  });
+
+  const onSubmit = (data: FormData) => {
+    // data is guaranteed to be valid
+    console.log(data);
+  };
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <input {...register('email')} />
+      {errors.email && <span>{errors.email.message}</span>}
+
+      <input type="password" {...register('password')} />
+      {errors.password && <span>{errors.password.message}</span>}
+
+      <input type="number" {...register('age', { valueAsNumber: true })} />
+      {errors.age && <span>{errors.age.message}</span>}
+
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+
+## ✅ Good example - Validate environment variables
+
+```typescript
+import { z } from 'zod';
+
+const EnvSchema = z.object({
+  DATABASE_URL: z.string().url(),
+  API_KEY: z.string().min(1),
+  PORT: z.string().transform(Number).pipe(z.number().min(1000)),
+  NODE_ENV: z.enum(['development', 'production', 'test']),
+});
+
+// Parse environment variables at startup
+const env = EnvSchema.parse(process.env);
+
+// Now you have type-safe, validated environment variables
+export { env };
+```
+
+## Alternatives
+
+While other validation libraries exist (Yup, Joi, io-ts), Zod is the current recommendation because:
+
+* **Best TypeScript integration** - Inference works seamlessly
+* **Modern API** - Designed for TypeScript, not JavaScript with TypeScript added
+* **Active development** - Regular updates and strong community support
+* **Framework adoption** - Preferred by Next.js, tRPC, and other modern frameworks
+
+## Resources
+
+* [Zod documentation](https://zod.dev/)
+* [Zod with React Hook Form](https://react-hook-form.com/get-started#SchemaValidation)
+* [tRPC with Zod](https://trpc.io/docs/server/validators)
