@@ -17,7 +17,7 @@ seoDescription: 'Learn why each github agentic workflow should perform only one 
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-16T23:03:09.749Z
+lastUpdated: 2026-03-16T23:15:01.951Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -44,6 +44,53 @@ If your workflow needs more than one action, for example, creating GitHub issues
 * **Listen for events:** From other agents or workflows
 
 That way each workflow still performs a single action, and you orchestrate the overall behaviour by how sub-workflows invoke or react to one another.
+
+```
+---
+description: >
+  This workflow logs issues to update outdated documentation on the site.
+
+on:
+  workflow_dispatch:
+    inputs:
+      label_name:
+        description: "GitHub label slug that ties this pipeline together (e.g. 'update-react-docs')."
+        required: true
+
+permissions: read-all
+
+safe-outputs:
+  create-issue:
+    labels: ["${{ inputs.label_name }}"]
+    title-prefix: "Content Audit:"
+    max: 30
+
+tools:
+  github:
+    lockdown: false
+    toolsets: [issues, repos, labels]
+
+post-steps:
+  - name: Trigger Agent B (PR Creator)
+    if: success()
+    env:
+      INPUT_LABEL_NAME: ${{ inputs.label_name }}
+    # A second agentic workflow is triggered to action the recently created issues.
+    run: |
+      gh workflow run action-outdated-content-issues.lock.yml \
+        -f label_name="$INPUT_LABEL_NAME" \
+---
+
+I want you to to create an issue in this repository after finding outdated content in the documentation.
+
+Use the `create_issue` safe-output tool to create the issue.
+
+- `<TITLE>` — a concise issue title describing the request
+- `<BODY>` — the full body in markdown
+
+```
+
+Figure: ✅ Good Example - This flow handles the responsibility of creating GitHub issues, but delegates the work to another agentic workflow.
 
 ## Use safe outputs for that single action
 
