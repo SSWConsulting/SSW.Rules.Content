@@ -13,7 +13,7 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T01:15:00.613Z
+lastUpdated: 2026-03-16T01:18:30.799Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 archivedreason: null
@@ -51,3 +51,19 @@ Figure: ✅ Good Example - Limiting line length improves readability and reduces
 ### 2. Avoid justified text
 
 Fully justified text aligns content on both the left and right edges, which can create **irregular spacing between words**. This uneven spacing makes reading more difficult, especially for users with dyslexia.
+
+```css
+.article-content {
+  text-align: justify;
+}
+```
+
+Figure: ❌ Bad Example - Justified text creates uneven spacing between words
+
+```css
+.article-content {
+  text-align: left;
+}
+```
+
+Figure: ✅ Good Example - Left-aligned text provides consistent spacing between words
