@@ -3,7 +3,7 @@ name: "PR - Assign TinaBot PR to Real Author"
 on:
   pull_request:
     types: [opened]
-    branches: [main, 2406-Automatically_Assign_PR, public/uploads/rules/consistent-notifications/rule]
+    branches: [main, 2406-Automatically_Assign_PR, tina/public/uploads/rules/consistent-notifications/rule]
 
 permissions:
   contents: read
