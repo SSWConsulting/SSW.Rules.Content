@@ -4,16 +4,6 @@ on:
   pull_request:
     types: [opened]
     branches: [main]
-  workflow_dispatch:
-    inputs:
-      pr_number:
-        description: "PR number to assign (for manual testing)"
-        required: true
-        type: number
-      pr_author:
-        description: "PR author login (leave blank to auto-detect from commits)"
-        required: false
-        default: "tina-cloud-app[bot]"
 
 permissions:
   contents: read
@@ -28,8 +18,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          $prNumber = ${{ github.event.inputs.pr_number || github.event.pull_request.number }}
-          $prAuthor = "${{ github.event.inputs.pr_author || github.event.pull_request.user.login }}"
+          $prNumber = ${{ github.event.pull_request.number }}
+          $prAuthor = "${{ github.event.pull_request.user.login }}"
           $repoFull = "${{ github.repository }}"
 
           Write-Output "PR #$prNumber opened by: $prAuthor"
