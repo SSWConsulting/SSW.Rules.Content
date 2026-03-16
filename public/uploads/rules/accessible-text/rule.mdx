@@ -13,7 +13,7 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T02:07:51.787Z
+lastUpdated: 2026-03-16T04:35:30.076Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 archivedreason: null
@@ -84,5 +84,21 @@ Crowded text blocks are harder to read. Increasing spacing between lines and par
 
 WCAG recommends:
 
-* Line spacing at least 1.5× within paragraphs
-* Paragraph spacing at least 1.5× the line spacing
+* **Line spacing at least 1.5× within paragraphs**
+* **Paragraph spacing at least 1.5× the line spacing**
+
+### How does this look in code?
+
+By using a custom class, you can ensure all text containers are consistently styled.
+
+```css
+.article-content {
+  line-height: 1.5;
+}
+
+.article-content p {
+  margin-bottom: 2.25rem; /* 1.5 × line height */
+}
+```
+
+Figure: ✅ Good Example - Adequate spacing improves readability and content scanning
