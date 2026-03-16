@@ -9,20 +9,20 @@ authors:
     url: 'https://www.ssw.com.au/people/caleb-williams'
 related:
   - rule: public/uploads/rules/agentic-workflows/rule.mdx
+redirects:
+  - perform-single-task-agentic-workflows
+  - github-agentic-workflows-use-safe-outputs
 guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
 seoDescription: 'Learn why each github agentic workflow should perform only one action, and how to decompose into sub-workflows that call each other or listen for events when you need more.'
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-13T05:16:41.915Z
+lastUpdated: 2026-03-16T22:54:09.868Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
-redirects:
-  - perform-single-task-agentic-workflows
-  - github-agentic-workflows-use-safe-outputs
 ---
 
-Agentic workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. Each workflow should perform **only one action**—for example, creating a pull request, creating an issue, or modifying a database record via a custom safe output. You don't get the artifacts of a create action until the workflow has finished running, and a single action keeps runs predictable, auditable, and safe. For any destructive or write operation, express that action via safe outputs so the workflow's one outcome is explicit and bounded.
+GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. Each workflow should perform **only one action. **For example, creating a pull request, creating an issue, or modifying a database record via a custom safe output. You don't get the artifacts of a create action until the workflow has finished running, and a single action keeps runs predictable, auditable, and safe. For any destructive or write operation, express that action via safe outputs so the workflow's one outcome is explicit and bounded.
 
 <endIntro />
 
