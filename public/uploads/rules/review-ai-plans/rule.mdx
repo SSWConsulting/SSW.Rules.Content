@@ -13,7 +13,7 @@ related:
   - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: b68085e1-499d-4849-828e-1541c0defd46
-seoDescription: Learn how to review AI-generated coding plans effectively before implementation using the terminal, your editor, or Planotator for inline PR-style feedback.
+seoDescription: Learn how to review AI-generated coding plans effectively before implementation using the terminal, your editor, or Plannotator for inline PR-style feedback.
 created: 2026-03-16T00:00:00.000Z
 isArchived: false
 ---
@@ -83,9 +83,9 @@ Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the termi
   figure=""
 />
 
-## Option 3: Planotator ✅ Recommended
+## Option 3: Plannotator ✅ Recommended
 
-Planotator provides a browser-based pull-request-style review UI — think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
+[Plannotator](https://plannotator.ai/) provides a browser-based pull-request-style review UI — think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
 
 Key features:
 
@@ -96,24 +96,24 @@ Key features:
 * **Multi-round iteration** — deny with annotations → AI refines → re-review → approve
 * Once approved, the AI builds based on the agreed, refined plan
 
-**How to trigger:** Use `/plannotator-annotate <file>` or `/plannotator-review` in Claude Code, or it runs natively in Cursor and Pi agents.
+Plannotator triggers automatically when the plan tool is used. See [plannotator.ai](https://plannotator.ai/) for installation details.
 
 <imageEmbed
-  alt="Planotator showing a plan diff with the Versions panel open, comparing version 2 against version 1 with red deletions and green additions highlighted"
+  alt="Plannotator showing a plan diff with the Versions panel open, comparing version 2 against version 1 with red deletions and green additions highlighted"
   size="large"
   showBorder={true}
   figurePrefix="good"
-  figure="Good example - Planotator's diff view shows exactly what changed between plan versions after an AI revision"
+  figure="Good example - Plannotator's diff view shows exactly what changed between plan versions after an AI revision"
   src="/uploads/rules/review-ai-plans/plannotator.png"
 />
 
 <boxEmbed
   style="greybox"
   body={<>
-    **Review workflow with Planotator:**
+    **Review workflow with Plannotator:**
 
     1. AI generates `PLAN.md`
-    2. Open Planotator — the plan renders as an annotatable document
+    2. Open Plannotator — the plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries — use batch loading instead"*
     4. Submit as **denial** with overall comment: *"Address the N+1 issue before proceeding"*
     5. AI updates the plan based on annotations
@@ -121,12 +121,12 @@ Key features:
     7. **Approve** — AI begins implementation
   </>}
   figurePrefix="good"
-  figure="Good example - Planotator enables precise, structured feedback with multi-round iteration until the plan is right"
+  figure="Good example - Plannotator enables precise, structured feedback with multi-round iteration until the plan is right"
 />
 
 ## Comparison
 
-| | Terminal | Editor (VS Code/Cursor) | Planotator |
+| | Terminal | Editor (VS Code/Cursor) | Plannotator |
 | --- | --- | --- | --- |
 | Targeted line feedback | ❌ | Partial | ✅ |
 | Multi-round iteration | ❌ | ❌ | ✅ |
