@@ -17,7 +17,7 @@ seoDescription: 'Learn why each github agentic workflow should perform only one 
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-16T22:59:26.842Z
+lastUpdated: 2026-03-16T23:00:42.126Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -53,7 +53,7 @@ Safe outputs are how you model the desired behaviour of your agentic workflow. T
 * **Auditable** - Clearly visible in workflow logs and job summaries
 * **Secure** - Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository
 
-MCP scripts are useful for **read** operations (e.g. using a search engine to gather information before performing an action). They are not recommended for write operations in GitHub Agentic Workflows because they bypass the audit trail that runs implicitly when your agent runs. If your workflow's single action is not covered by the default tool sets, define it using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
+MCP scripts are useful for **read** operations, such as using a search engine to gather information before performing an action. They are not recommended for write operations in GitHub Agentic Workflows because they bypass the audit trail that runs implicitly when your agent runs. If your workflow's single action is not covered by the default tool sets, define it using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
 
 <boxEmbed
   body={<>
