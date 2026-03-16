@@ -13,7 +13,7 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T05:39:45.582Z
+lastUpdated: 2026-03-16T05:49:29.531Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 archivedreason: null
@@ -39,8 +39,6 @@ WCAG recommends:
 <imageEmbed alt="A bad example of line length and justification" size="large" showBorder={true} figurePrefix="bad" figure="An article with full-width line length (~139 characters)" src="/uploads/rules/accessible-text/line-length_bad.png" />
 
 <imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="The same article with a line length of 80 characters " src="/uploads/rules/accessible-text/line-length_good.png" />
-
-* Article source: [https://www.smh.com.au/](https://www.smh.com.au/)
 
 ### How does this look in code?
 
@@ -141,9 +139,13 @@ When text is enlarged:
 * Layout should not break
 * Users should not need to scroll horizontally to read a line of text in a full-screen window
 
+<imageEmbed alt="A bad example of text resizing" size="medium" showBorder={true} figurePrefix="bad" figure="When text is resized to 200%, the layout breaks and users must scroll horizontally to read the content" src="/uploads/rules/accessible-text/text-resize_bad.png" />
+
+<imageEmbed alt="A good example of text resizing" size="medium" showBorder={true} figurePrefix="good" figure="Text can be resized up to 200% without breaking the layout or requiring horizontal scrolling" src="/uploads/rules/accessible-text/text-resize_good.png" />
+
 ### How does this look in code?
 
-By using a custom class, you can ensure all text containers are consistently styled.
+A responsive layout allows text to scale to 200% while keeping content readable and fully accessible.
 
 ```css
 
@@ -183,4 +185,3 @@ Better visual presentation also improves usability for everyone by making conten
 ### References:
 
 * [WCAG 2.1 – Understanding Success Criterion 1.4.8 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
-* [Optimal Line Length for Readability](https://www.uxpin.com/studio/blog/optimal-line-length-for-readability/)
