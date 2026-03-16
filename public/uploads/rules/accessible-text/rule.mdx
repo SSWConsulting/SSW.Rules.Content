@@ -1,21 +1,60 @@
 ---
-archivedreason: null
-authors:
-- title: Alex Blum
-  url: https://www.ssw.com.au/people/alex-blum/
-created: 2026-03-16T00:00:00.000Z
-guid: 4c69f511-d6b3-490e-8a2f-1e545c1afac0
-redirects: []
-seoDescription: Ensure your website text is easy to read by following WCAG 2.1 Visual Presentation guidelines, including line length, spacing, alignment, and text resizing.
+type: rule
+title: Do you meet text presentation requirements for accessibility?
+uri: accessible-text
 categories:
   - category: categories/design/rules-to-better-accessibility.mdx
-title: Do you meet text presentation requirements for accessibility?
-type: rule
-uri: accessible-text
+authors:
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum/'
+redirects: []
+guid: 4c69f511-d6b3-490e-8a2f-1e545c1afac0
+seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 Visual Presentation guidelines, including line length, spacing, alignment, and text resizing.'
+created: 2026-03-16T00:00:00.000Z
+createdBy: AlexBlum-SSW
+createdByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-03-16T00:50:44.631Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
+archivedreason: null
 ---
 
-Add your rule introduction here.
+Poorly formatted text can make otherwise great content difficult to read. Long lines, tight spacing, and justified text often create barriers for people with cognitive disabilities, dyslexia, or low vision. Even users without disabilities may struggle with dense blocks of text that are visually hard to scan.
+
+Following the [WCAG 2.1 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html) recommendations ensures that text remains readable and adaptable to user preferences.
 
 <endIntro />
 
-Add your rule content here.
+## WCAG visual presentation recommendations
+
+WCAG recommends several formatting practices that improve readability and reduce cognitive load.
+
+### 1. Limit line length
+
+Long lines of text make it harder for readers to track where the next line begins. This is particularly challenging for users with dyslexia or cognitive impairments.
+
+WCAG recommends:
+
+* Maximum 80 characters per line
+* Maximum 40 characters for CJK languages (Chinese, Japanese, Korean)
+
+A common way to implement this is by constraining the width of text containers.
+
+<boxEmbed
+  body={<>
+    ```css
+    .article-content {
+    max-width: 80ch;
+    }
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Limiting line length improves readability and reduces eye strain"
+  style="greybox"
+/>
+
+### 2. Avoid justified text
+
+Fully justified text aligns content on both the left and right edges, which can create irregular spacing between words. This uneven spacing makes reading more difficult, especially for users with dyslexia.
+
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="good" figure="" />
