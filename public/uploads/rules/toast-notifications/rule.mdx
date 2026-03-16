@@ -108,6 +108,26 @@ Follow WCAG guidance:
 * Never auto-dismiss error toasts
 * Do not cover primary CTAs or form fields
 
+## Text content structure
+
+Position is only half the UX. The wording inside a toast determines whether users understand what happened and what to do next.
+
+Use these text structure components:
+
+* **Message / Body (Mandatory):** A concise, usually single-sentence message that explains the outcome, such as success, failure, or a status update.
+* **Headline / Title (Optional):** A brief summary like "Success" or "Error" shown before the message when extra emphasis is helpful.
+* **Action Label (Optional):** Short button text like "Undo" or "Retry" for a directly related next step.
+
+Keep all toast text in sentence case, and keep titles concise and to the point.
+
+Examples:
+
+* Good body message: "File uploaded."
+* Good title + message: "Error. Could not save changes."
+* Good action label: "Retry"
+
+Reference: [Carbon Design System - Notification style](https://v10.carbondesignsystem.com/components/notification/style/)
+
 ***
 
 If you are building a modern SaaS or enterprise web application, default to **bottom center**.
