@@ -1,0 +1,116 @@
+name: "PR - Assign TinaBot PR to Real Author"
+
+on:
+  pull_request:
+    types: [opened]
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  assign_author:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign PR to real author if created by a bot
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $prNumber = ${{ github.event.pull_request.number }}
+          $prAuthor = "${{ github.event.pull_request.user.login }}"
+          $repoFull = "${{ github.repository }}"
+
+          Write-Output "PR #$prNumber opened by: $prAuthor"
+
+          function Test-IsBot {
+            param($login)
+            return $login -match '\[bot\]$' -or
+                   $login -eq 'dependabot' -or
+                   $login -eq 'renovate' -or
+                   $login -eq 'github-actions' -or
+                   $login -eq 'copilot'
+          }
+
+          # Only act when the PR author is a bot
+          if (-not (Test-IsBot $prAuthor)) {
+            Write-Output "PR author '$prAuthor' is not a bot. Nothing to do."
+            exit 0
+          }
+
+          Write-Output "Bot PR detected. Resolving real author via GraphQL commit authors..."
+
+          $owner, $name = $repoFull.Split('/')
+
+          $query = @'
+          query($owner:String!, $name:String!, $number:Int!) {
+            repository(owner:$owner, name:$name) {
+              pullRequest(number:$number) {
+                commits(first: 100) {
+                  nodes {
+                    commit {
+                      oid
+                      authors(first: 10) {
+                        nodes {
+                          user { login __typename }
+                          name
+                          email
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          '@
+
+          try {
+            $result = gh api graphql -f query="$query" -F owner="$owner" -F name="$name" -F number=$prNumber | ConvertFrom-Json
+          } catch {
+            Write-Output "GraphQL query failed: $_"
+            exit 1
+          }
+
+          $realLogin = $null
+
+          foreach ($node in $result.data.repository.pullRequest.commits.nodes) {
+            foreach ($a in $node.commit.authors.nodes) {
+              if ($a.user -and $a.user.login) {
+                $login = $a.user.login
+                $typeName = $a.user.__typename  # "User" or "Bot"
+
+                Write-Output "Commit author candidate: login=$login type=$typeName"
+
+                $isBot = ($typeName -eq "Bot") -or (Test-IsBot $login)
+
+                if (-not $isBot) {
+                  $realLogin = $login
+                  Write-Output "Found real author: $realLogin"
+                  break
+                }
+              }
+            }
+            if ($realLogin) { break }
+          }
+
+          if (-not $realLogin) {
+            Write-Output "No real (non-bot) GitHub user found in commit authors. Skipping assignment."
+            exit 0
+          }
+
+          Write-Output "Assigning PR #$prNumber to @$realLogin..."
+
+          try {
+            gh api `
+              --method PATCH `
+              -H "Accept: application/vnd.github+json" `
+              /repos/$repoFull/issues/$prNumber `
+              -f "assignees[]=$realLogin" | Out-Null
+
+            Write-Output "Successfully assigned PR #$prNumber to @$realLogin"
+          } catch {
+            Write-Output "Failed to assign PR: $_"
+            exit 1
+          }
