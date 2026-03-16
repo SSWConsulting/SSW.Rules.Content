@@ -13,7 +13,7 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T01:57:19.283Z
+lastUpdated: 2026-03-16T02:03:04.647Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 archivedreason: null
@@ -25,11 +25,7 @@ Following the \*\*[WCAG 2.1 Visual Presentation](https://www.w3.org/WAI/WCAG21/U
 
 <endIntro />
 
-## WCAG visual presentation recommendations
-
-WCAG recommends several formatting practices that improve readability and reduce cognitive load.
-
-### 1. Limit line length
+## 1. Limit line length
 
 Long lines of text make it harder for readers to track where the next line begins. This is particularly challenging for users with dyslexia or cognitive impairments.
 
@@ -44,14 +40,9 @@ WCAG recommends:
 
 * Article source: [https://www.smh.com.au/](https://www.smh.com.au/)
 
-<boxEmbed
-  body={<>
-    **Tip:** A common way to implement this is by constraining the width of text containers.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
+### How does this look in code?
+
+A common way to implement this is by constraining the width of text containers.
 
 ```css
 .article-content {
@@ -59,9 +50,9 @@ WCAG recommends:
 }
 ```
 
-Figure: ✅ Good Example - Limiting line length improves readability and reduces eye strain
+**Figure: ✅ Good Example - Limiting line length improves readability and reduces eye strain**
 
-### 2. Avoid justified text
+## 2. Avoid justified text
 
 Fully justified text aligns content on both the left and right edges, which can create **irregular spacing between words**. This uneven spacing makes reading more difficult, especially for users with dyslexia.
 
@@ -69,13 +60,9 @@ Fully justified text aligns content on both the left and right edges, which can 
 
 <imageEmbed alt="A good example of text justification" size="medium" showBorder={true} figurePrefix="good" figure="The same content with left-aligned text keeps spacing predicatable" src="/uploads/rules/accessible-text/text-justification_good.png" />
 
-```css
-.article-content {
-  text-align: justify;
-}
-```
+### How does this look in code?
 
-Figure: ❌ Bad Example - Justified text creates uneven spacing between words
+Adding styling is an easy way to ensure text containers are compliant.
 
 ```css
 .article-content {
@@ -83,4 +70,4 @@ Figure: ❌ Bad Example - Justified text creates uneven spacing between words
 }
 ```
 
-Figure: ✅ Good Example - Left-aligned text provides consistent spacing between words
+**Figure: ✅ Good Example - Left-aligned text provides consistent spacing between words**
