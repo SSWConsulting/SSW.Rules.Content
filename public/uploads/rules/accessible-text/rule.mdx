@@ -15,9 +15,9 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T05:56:43.786Z
-lastUpdatedBy: AlexBlum-SSW
-lastUpdatedByEmail: alexblum@ssw.com.au
+lastUpdated: 2026-03-16T06:39:07.291Z
+lastUpdatedBy: Griffen Edge
+lastUpdatedByEmail: GriffenEdge@ssw.com.au
 archivedreason: null
 ---
 
@@ -49,7 +49,9 @@ A common way to implement this is by setting the `max-width` of text containers.
 ```css
 /* The div width is set in rems in the stylesheet: */
 
-#main_content {max-width: 70ch}
+#main_content {
+  max-width: 80ch;
+}
 
 
 /* And the text block would be placed inside the div in the content. */
@@ -78,7 +80,9 @@ Align blocks of text either left or right by setting the CSS `text-align` proper
 ```css
 /* In the style sheet, define the class: */
 
-p.left {text-align: left}
+p.left {
+  text-align: left;
+}
 
 
 /* In the content call up the class. */
@@ -160,7 +164,7 @@ h1 {
    and add padding so content has breathing room at larger zoom levels */
 
 .text-container {
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 1rem;
 }
 ```
