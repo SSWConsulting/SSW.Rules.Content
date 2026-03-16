@@ -47,10 +47,9 @@ WCAG recommends:
 A common way to implement this is by setting the `max-width` of text containers.
 
 ```css
-
 /* The div width is set in rems in the stylesheet: */
 
-#main_content {max-width: 70rem}
+#main_content {max-width: 70ch}
 
 
 /* And the text block would be placed inside the div in the content. */
@@ -58,7 +57,6 @@ A common way to implement this is by setting the `max-width` of text containers.
 <div id="main_content"> 
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing ...</p>
 </div>
-
 ```
 
 **Figure: ✅ Good Example - Limiting line length improves readability and reduces eye strain**
@@ -78,7 +76,6 @@ Fully justified text aligns content on both the left and right edges, which can 
 Align blocks of text either left or right by setting the CSS `text-align` property.
 
 ```css
-
 /* In the style sheet, define the class: */
 
 p.left {text-align: left}
@@ -87,7 +84,6 @@ p.left {text-align: left}
 /* In the content call up the class. */
 
 <p class="left"> Lorem ipsum dolor sit …</p>
-
 ```
 
 **Figure: ✅ Good Example - Left-aligned text provides consistent spacing between words**
@@ -109,15 +105,14 @@ WCAG recommends:
 
 ### How does this look in code?
 
-Help users track lines of text more easily by setting the line-heightbetween 1.5 to 2.
+Help users track lines of text more easily by setting the `line-height` between 1.5 to 2.
 
 ```css
-
 /* In the style sheet set the characteristics of the element. */
 
 p {
-  line-height: 150%;
-  margin-bottom: 2.25rem;
+  line-height: 1.5;
+  margin-bottom: 1.5lh;
 }
 
 /* In the content the paragraphs will now have increased line spacing 
@@ -126,7 +121,6 @@ p {
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
 
 <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
-
 ```
 
 **Figure: ✅ Good Example - Adequate spacing improves readability and content scanning**
@@ -152,7 +146,6 @@ When text is enlarged:
 A responsive layout allows text to scale to 200% while keeping content readable and fully accessible.
 
 ```css
-
 /* Font size uses relative units so text can scale when users zoom */
 
 body {
@@ -167,10 +160,9 @@ h1 {
    and add padding so content has breathing room at larger zoom levels */
 
 .text-container {
-  max-width: 70rem;
+  max-width: 70ch;
   padding: 1rem;
 }
-
 ```
 
 **Figure: ✅ Good Example - Using relative units allows text to scale properly when users zoom**
