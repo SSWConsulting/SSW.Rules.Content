@@ -1,18 +1,16 @@
 ---
 type: rule
-title: Do you follow the Single Responsibility Principle in GitHub agentic workflows?
-uri: github-agentic-workflows-use-safe-outputs
+title: Do you limit each GitHub Agentic Workflow to a single action?
+uri: keep-agentic-workflows-granular
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
 authors:
   - title: Caleb Williams
     url: 'https://www.ssw.com.au/people/caleb-williams'
 related:
-  - {}
-  - {}
-  - {}
+  - rule: public/uploads/rules/agentic-workflows/rule.mdx
 guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
-seoDescription: 'Learn why GitHub agentic workflows should use structured safe outputs instead of natural language instructions or MCP scripts for reliable, idiomatic automation.'
+seoDescription: 'Learn why each github agentic workflow should perform only one action, and how to decompose into sub-workflows that call each other or listen for events when you need more.'
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
@@ -20,36 +18,40 @@ lastUpdated: 2026-03-13T05:16:41.915Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 redirects:
- - perform-single-task-agentic-workflows
+  - perform-single-task-agentic-workflows
+  - github-agentic-workflows-use-safe-outputs
 ---
 
-GitHub agentic workflows, allow you to instruct agents tempting to perform complex instructions using a variety of tooling, including natural language instructions, embedded CLI commands, and MCP tools. However there's a major caveat to performing work with Agentic Workflows. You don't get the artifacts of a create action until the workflow has finished running.
-
-In particular, when your tooling performs destructive actions, such as creating issues, or even using MCP to perform create, update, or delete actions elsewhere, you should restrict these actions to your Safe Outputs specification.
+Agentic workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. Each workflow should perform **only one action**—for example, creating a pull request, creating an issue, or modifying a database record via a custom safe output. You don't get the artifacts of a create action until the workflow has finished running, and a single action keeps runs predictable, auditable, and safe. For any destructive or write operation, express that action via safe outputs so the workflow's one outcome is explicit and bounded.
 
 <endIntro />
 
-## What are Safe Outputs?
+## What counts as one action?
 
-Safe outputs are a how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
+One action is a single, well-defined outcome: creating one (or a bounded set of) issue(s), creating a PR, or performing one update via a custom safe output (e.g. a database record). Avoid workflows that use free-form curl or CLI instructions to perform multiple or unbounded operations—define the single action using safe outputs instead.
+
+## Decompose into sub-workflows when you need multiple actions
+
+If your workflow needs more than one action—for example, creating GitHub issues and then acting on them—decompose into **sub-workflows** that:
+
+* **Call each other** (e.g. workflow A creates issues; workflow B is triggered or invoked to process issues by label)
+* **Listen for events** from other agents or workflows
+
+That way each workflow still performs a single action, and you orchestrate the overall behaviour by how sub-workflows invoke or react to one another.
+
+## Use safe outputs for that single action
+
+Safe outputs are how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
 
 * **Controllable** - They provide a clear specification for what your workflow will produce, preventing unintentional side effects
 * **Auditable** - Clearly visible in workflow logs and job summaries
 * **Secure** - Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository
 
-## What if my Workflow performs multiple actions?
-
-If your workflow needs to perform multiple actions, such as creating GitHub issues and then actioning them, you should chain your Agentic workflows together. For example, after your agent finishes creating GitHub issues you could have a sub-agent that searches the new issues by label to perform the work.
-
-## Why not use MCP tools?
-
-MCP scripts are very useful for allowing your workflow to perform read operations reliably. For example your workflow may need to use a search engine to collect more information before performing an action. However they are not recommended for write operations in GitHub Agentic Workflows. The reason for this is they bypass the audit trail that runs implicitly whenever your agent runs.
-
-If your workflow run needs to result in an action that is not specified by the default tool sets you should define the tooling for performing that action using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
+MCP scripts are useful for **read** operations (e.g. using a search engine to gather information before performing an action). They are not recommended for write operations in GitHub Agentic Workflows because they bypass the audit trail that runs implicitly when your agent runs. If your workflow's single action is not covered by the default tool sets, define it using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
 
 <boxEmbed
   body={<>
-    If you need to clean up after your workflow, or synchronise with an external system you also have the option of using [post steps,](https://github.github.com/gh-aw/reference/custom-safe-outputs/) but these aren't designed to be used by your Agent.
+    If you need to clean up after your workflow, or synchronise with an external system you also have the option of using [post steps](https://github.github.com/gh-aw/reference/custom-safe-outputs/), but these aren't designed to be used by your Agent.
   </>}
   figurePrefix="none"
   figure=""
@@ -93,7 +95,7 @@ Where the agent fills in:
 
 ````
 
-**Figure: ❌ Bad example - Creating GitHub issues using curl in the body of a flow**
+**Figure: ❌ Bad example - Using inline curl to create issues instead of a single, bounded safe output**
 
 ```yaml
 ---
@@ -125,4 +127,4 @@ Use the `create_issue` safe-output tool to create the issue.
 - `<BODY>` — the full issue body in markdown
 ```
 
-**Figure: ✅ Good example - Defining Issue creation as a safe output and using the built in toolset**
+**Figure: ✅ Good example - One action (create one issue) defined as a safe output using the built-in toolset**
