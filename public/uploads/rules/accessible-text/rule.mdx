@@ -13,7 +13,7 @@ seoDescription: 'Ensure your website text is easy to read by following WCAG 2.1 
 created: 2026-03-16T00:00:00.000Z
 createdBy: AlexBlum-SSW
 createdByEmail: alexblum@ssw.com.au
-lastUpdated: 2026-03-16T04:54:28.504Z
+lastUpdated: 2026-03-16T05:34:26.733Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 archivedreason: null
@@ -21,7 +21,7 @@ archivedreason: null
 
 Poorly formatted text can make otherwise great content difficult to read. Long lines, tight spacing, and justified text often create barriers for people with cognitive disabilities, dyslexia, or low vision. Even users without disabilities may struggle with dense blocks of text that are visually hard to scan.
 
-Following the \*\*[WCAG 2.1 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html) \*\*recommendations ensures that text remains readable and adaptable to user preferences.
+Following the **[WCAG 2.1 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)** recommendations ensures that text remains readable and adaptable to user preferences.
 
 <endIntro />
 
@@ -44,12 +44,21 @@ WCAG recommends:
 
 ### How does this look in code?
 
-A common way to implement this is by constraining the width of text containers.
+A common way to implement this is by setting the `max-width` of text containers.
 
 ```css
-.article-content {
-  max-width: 80ch;
-}
+
+/* The div width is set in rems in the stylesheet: */
+
+#main_content {max-width: 70rem}
+
+
+/* And the text block would be placed inside the div in the content. */
+
+<div id="main_content"> 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing ...</p>
+</div>
+
 ```
 
 **Figure: ✅ Good Example - Limiting line length improves readability and reduces eye strain**
@@ -66,12 +75,19 @@ Fully justified text aligns content on both the left and right edges, which can 
 
 ### How does this look in code?
 
-Adding styling is an easy way to ensure text containers are compliant.
+Align blocks of text either left or right by setting the CSS `text-align` property.
 
 ```css
-.article-content {
-  text-align: left;
-}
+
+/* In the style sheet, define the class: */
+
+p.left {text-align: left}
+
+
+/* In the content call up the class. */
+
+<p class="left"> Lorem ipsum dolor sit …</p>
+
 ```
 
 **Figure: ✅ Good Example - Left-aligned text provides consistent spacing between words**
@@ -93,16 +109,71 @@ WCAG recommends:
 
 ### How does this look in code?
 
-By using a custom class, you can ensure all text containers are consistently styled.
+Help users track lines of text more easily by setting the line-heightbetween 1.5 to 2.
 
 ```css
-.article-content {
-  line-height: 1.5;
+
+/* In the style sheet set the characteristics of the element. */
+
+p {
+  line-height: 150%;
+  margin-bottom: 2.25em;
 }
 
-.article-content p {
-  margin-bottom: 2.25rem; /* 1.5 × line height */
-}
+/* In the content the paragraphs will now have increased line spacing 
+   and clear spacing between paragraphs throughout the document. */
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae...</p>
+
 ```
 
 **Figure: ✅ Good Example - Adequate spacing improves readability and content scanning**
+
+## 4. Allow text resizing up to 200%
+
+Users should be able to increase text size up to 200% without assistive technology and without losing content or functionality.
+
+When text is enlarged:
+
+* Content should not overlap
+* Layout should not break
+* Users should not need to scroll horizontally to read a line of text in a full-screen window
+
+### How does this look in code?
+
+By using a custom class, you can ensure all text containers are consistently styled.
+
+```css
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.text-container {
+  max-width: 80ch;
+  padding: 1rem;
+}
+```
+
+**Figure: ✅ Good Example - Using relative units allows text to scale properly when users zoom**
+
+## So why does this matter?
+
+Improving text presentation benefits many users, including:
+
+* People with **dyslexia**
+* Users with **cognitive disabilities**
+* People with **low vision**
+* Anyone reading large amounts of text
+
+Better visual presentation also improves usability for everyone by making content easier to scan and digest.
+
+### References:
+
+* [WCAG 2.1 – Understanding Success Criterion 1.4.8 Visual Presentation](https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html)
+* [Optimal Line Length for Readability](https://www.uxpin.com/studio/blog/optimal-line-length-for-readability/)
