@@ -17,7 +17,7 @@ seoDescription: 'Learn why each github agentic workflow should perform only one 
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-16T22:57:34.158Z
+lastUpdated: 2026-03-16T22:59:26.842Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -34,14 +34,14 @@ One action is a single, well-defined outcome some examples include:
 * Creating a Pull Request
 * Database updates via a custom safe output (e.g. a database record). 
 
-You should avoid workflows that use free-form instructions, or CLI commands in the workflow body to perform multiple write operations. define the single action using safe outputs instead.
+You should avoid workflows that use free-form instructions, or CLI commands in the workflow body to perform multiple write operations. Instead, define the single action using safe outputs instead.
 
 ## Decompose into sub-workflows when you need multiple actions
 
 If your workflow needs more than one action—for example, creating GitHub issues and then acting on them—decompose into **sub-workflows** that:
 
-* **Call each other** (e.g. workflow A creates issues; workflow B is triggered or invoked to process issues by label)
-* **Listen for events** from other agents or workflows
+* **Call each other:** For example, workflow A creates issues; workflow B is triggered or invoked to process issues by label
+* **Listen for events:** From other agents or workflows
 
 That way each workflow still performs a single action, and you orchestrate the overall behaviour by how sub-workflows invoke or react to one another.
 
