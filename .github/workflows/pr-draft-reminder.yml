@@ -7,7 +7,7 @@ name: "PR - Draft PR Reminder"
 on:
   pull_request:
     types: [opened, converted_to_draft]
-    branches: [main, 2406-Automatically_Assign_PR, public/uploads/rules/consistent-notifications/rule]
+    branches: [main]
 
 permissions:
   contents: read
