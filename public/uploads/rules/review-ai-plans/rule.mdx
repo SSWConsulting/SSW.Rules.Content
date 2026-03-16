@@ -1,0 +1,125 @@
+---
+type: rule
+title: Do you review your AI coding plans?
+uri: review-ai-plans
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+related:
+  - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
+guid: b68085e1-499d-4849-828e-1541c0defd46
+seoDescription: Learn how to review AI-generated coding plans effectively before implementation using the terminal, your editor, or Planotator for inline PR-style feedback.
+created: 2026-03-16T00:00:00.000Z
+isArchived: false
+---
+
+Before any non-trivial change, always create **and review** a plan with AI. An AI plan is only as good as the human review it receives — an unreviewed plan is a liability waiting to be executed.
+
+Reviewing the plan is what separates professional AI-assisted development from vibe coding. The Discuss step in the [Plan → Discuss → Implement → Review](/ai-assisted-development-workflow) workflow is where your domain knowledge and judgment provide the most value.
+
+<endIntro />
+
+## Why plan review matters
+
+Catching problems at the plan stage is dramatically cheaper than catching them after implementation:
+
+* **Wrong assumptions** — the AI may have misunderstood requirements or made incorrect assumptions about your architecture
+* **Scope creep** — the plan may include unnecessary changes that increase risk
+* **Better alternatives** — you may know of a simpler approach that the AI didn't consider
+* **Multiple iterations** — reviewing and refining the plan several times leads to much better outcomes than approving the first draft
+
+A changed plan costs nothing. A re-implemented feature costs a lot.
+
+## Option 1: Terminal (Basic)
+
+The simplest approach is reviewing the plan directly in the chat interface and describing the changes you want.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Can you change the database part?
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Vague feedback with no context forces the AI to guess which part you mean"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    In the 'Data Access Layer' section, where you suggest adding a new repository class — instead, use the existing `IUserRepository` we already have. It already supports the query pattern you need.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Quoting the exact section and describing precisely what to change gives the AI enough context to act"
+/>
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Limitation:** Hard to give targeted feedback on specific sections without copying and pasting chunks of text. Suitable for small plans only.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Option 2: Editor — VS Code or Cursor
+
+Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the terminal. This gives you a visual overview of the whole plan at once. Options available:
+
+* **Edit manually** — revise the plan directly in the markdown file, then ask the AI to implement from the updated version
+* **VS Code with Claude Code** — select a section, right-click and use "Ask Claude Code" to revise that specific part in context
+* **Cursor** — built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Limitation:** Still somewhat clunky — you describe what to change rather than clicking directly on a section to annotate it. Works best if you're comfortable editing the markdown file directly.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+## Option 3: Planotator ✅ Recommended
+
+Planotator provides a browser-based pull-request-style review UI — think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
+
+Key features:
+
+* **Inline comments** on specific lines or sections (like GitHub PR review)
+* **Delete** unwanted sections
+* **Replace** or insert content
+* **Global comments** for overall feedback
+* **Multi-round iteration** — deny with annotations → AI refines → re-review → approve
+* Once approved, the AI builds based on the agreed, refined plan
+
+**How to trigger:** Use `/plannotator-annotate <file>` or `/plannotator-review` in Claude Code, or it runs natively in Cursor and Pi agents.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Review workflow with Planotator:**
+
+    1. AI generates `PLAN.md`
+    2. Open Planotator — the plan renders as an annotatable document
+    3. Add an inline comment on the data access section: *"This approach will cause N+1 queries — use batch loading instead"*
+    4. Submit as **denial** with overall comment: *"Address the N+1 issue before proceeding"*
+    5. AI updates the plan based on annotations
+    6. Re-review the revised plan
+    7. **Approve** — AI begins implementation
+  </>}
+  figurePrefix="good"
+  figure="Good example - Planotator enables precise, structured feedback with multi-round iteration until the plan is right"
+/>
+
+## Comparison
+
+| | Terminal | Editor (VS Code/Cursor) | Planotator |
+| --- | --- | --- | --- |
+| Targeted line feedback | ❌ | Partial | ✅ |
+| Multi-round iteration | ❌ | ❌ | ✅ |
+| No copy-pasting needed | ❌ | ✅ | ✅ |
+| Structured feedback to AI | ❌ | Partial | ✅ |
