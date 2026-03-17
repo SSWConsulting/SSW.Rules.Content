@@ -35,7 +35,7 @@ Because artefacts are only available after a workflow run completes, dependent s
 
 When you have a step that depends on the output of the previous step, put it in a separate workflow that either:
 
-* **Call each other:** For example, workflow A creates issues and in a post step runs workflow B, workflow B is triggered and processes the newly created issues.
+* **Calls the next workflow: For example, Workflow A creates issues, then in a post step, runs workflow B. Workflow B is triggered and processes the newly created issues.
 * **Listen for events:** One workflow emits or updates something that another workflow is triggered on in safe outputs or post steps.
 
 Chain workflows so that the workflow that produces the artefacts runs first, then the workflow that consumes them runs after.
