@@ -25,6 +25,13 @@ GitHub Agentic Workflows let you instruct agents using natural language, embedde
 
 <endIntro />
 
+
+### Why do we need to Chain workflows together?
+
+When defining the desired outcome of a flow we need to use Safe Outputs. Safe Outputs are where GitHub Agentic Workflows runs its' built in guards against prompt injection. As a result we can't do write operations without first defining them as Safe Outputs.
+
+A problem occurs when we try to create something within our workflow and then use it further on in the same flow because Safe Outputs is evaluated at the end of the workflow. This means the artefact doesn't exist until the workflow finishes.
+
 ## When are workflows dependent?
 
 Workflows are dependent when a later workflow needs the output or artefacts of an earlier workflow. For example, you might create a number of GitHub issues, then have a separate step in your flow that performs the work outlined in those issues.
@@ -37,6 +44,8 @@ When you have a step that depends on the output of the previous step, put it in 
 
 * **Calls the next workflow: For example, Workflow A creates issues, then in a post step, runs workflow B. Workflow B is triggered and processes the newly created issues.
 * **Listens for events:** Workflow B is triggered by outputs of Workflow A
+
+ 
 
 ```
 ---
@@ -131,91 +140,3 @@ Use the create issues safe-output tool to create the issue.
 ```
 
 **Figure: ✅ Good example - This workflows creates a list of issues, then delegates the work to a separate agent.**
-
-## Use safe outputs for each workflow's actions
-
-Safe outputs are how you model the desired behaviour of each agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
-
-* **Controllable:** They provide a clear specification for what your workflow will produce, preventing unintentional side effects
-* **Auditable:** Clearly visible in workflow logs and job summaries
-* **Secure:** Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository
-
-<boxEmbed
-  body={<>
-    If you need to clean up after your workflow, or synchronise with an external system you also have the option of using [post steps](https://github.github.com/gh-aw/reference/custom-safe-outputs/), but these aren't designed to be used by your Agent.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
-/>
-
-````yaml
----
-description: >
-  Create an example an issue for adding telemetry to the site.
-
-on:
-  workflow_dispatch:
-
-engine:
-  id: copilot
-  model: gpt-5-mini
-
-permissions: read-all
-
----
-I want you to create an issue in this repository for adding telemetry to the site. 
-
-Use the command below to create an issue via the GitHub REST API:
-
-```bash
-curl -s -X POST \
-  -H "Authorization: Bearer $GITHUB_TOKEN" \
-  -H "Accept: application/vnd.github+json" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  "https://api.github.com/repos/${{ github.repository }}/issues" \
-  -d '{
-    "title": "<TITLE>",
-    "body": "<BODY>"
-  }'
-```
-
-Where the agent fills in:
-- `<TITLE>` — a concise issue title describing the request
-- `<BODY>` — the full issue body in markdown (JSON-escaped)
-
-````
-
-**Figure: ❌ Bad example - Using inline curl to create issues instead of a single, bounded safe output**
-
-```yaml
----
-description: >
-  Create an example issue for adding telemetry to the site using
-  safe-outputs instead of curl.
-
-on:
-  workflow_dispatch:
-
-
-permissions: read-all
-
-safe-outputs:
-  create-issue:
-    title-prefix: "[Example] "
-    max: 1
-
-tools:
-  github:
-    lockdown: false
-    toolsets: [issues]
----
-I want you to create an issue in this repository for adding telemetry to the site.
-
-Use the `create_issue` safe-output tool to create the issue.
-
-- `<TITLE>` — a concise issue title describing the request
-- `<BODY>` — the full issue body in markdown
-```
-
-**Figure: ✅ Good example - The workflow's action is defined within the safe outputs**
