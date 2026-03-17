@@ -38,8 +38,6 @@ When you have steps that depend on one another, put them in separate workflows t
 * **Call each other:** For example, workflow A creates issues and in a post step runs workflow B, workflow B is triggered and processes the newly created issues.
 * **Listen for events:** One workflow emits or updates something that another workflow is triggered on in safe outputs or post steps.
 
-Chain workflows so that the workflow that produces the artefacts runs first, then the workflow that consumes them runs after.
-
 ```
 ---
 description: >
