@@ -47,6 +47,54 @@ That way each workflow still performs a single action, and you orchestrate the o
 ```
 ---
 description: >
+  This workflow logs issues to update outdated documentation on the site then performs the work to fix them.
+
+on:
+  workflow_dispatch:
+    inputs:
+      label_name:
+        description: "GitHub label slug that ties this pipeline together (e.g. 'update-react-docs')."
+        required: true
+
+safe-outputs:
+  create-pull-request:
+    title-prefix: "[Content Fixer] "
+    max: 5
+  create-issue:
+    title-prefix: "[Content Audit] "
+    max: 5
+
+permissions: read-all
+
+tools:
+  github:
+    lockdown: false
+    toolsets: [issues, repos, labels, pull_requests]
+
+---
+
+### Step 1
+
+I want you to to create an issues in this repository after finding outdated content in the documentation.
+
+Use the create issue safe-output tool to create the issues.
+
+- `<TITLE>` — a concise issue title describing the request
+- `<BODY>` — the full body in markdown
+
+### Step 2
+
+After you've finished creating the issues in step 1 I want you to create pull requests using the pull requests safe-output tool to implement the changes.
+Link to each issue by ID in each pull request respectively.
+
+```
+
+Figure: ❌ Bad Example - this flow tries to create issues then link to them in PRs, but the issues are not created yet until the flow finishes
+
+
+```
+---
+description: >
   This workflow logs issues to update outdated documentation on the site.
 
 on:
@@ -80,9 +128,9 @@ post-steps:
         -f label_name="$INPUT_LABEL_NAME" \
 ---
 
-I want you to to create an issue in this repository after finding outdated content in the documentation.
+I want you to to create issues in this repository after finding outdated content in the documentation.
 
-Use the `create_issue` safe-output tool to create the issue.
+Use the create issues safe-output tool to create the issue.
 
 - `<TITLE>` — a concise issue title describing the request
 - `<BODY>` — the full body in markdown
