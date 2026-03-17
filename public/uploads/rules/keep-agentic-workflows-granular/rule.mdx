@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you keep your GitHub Agentic Workflow granular?
+title: Do you create new workflows when steps depend on one another?
 uri: keep-agentic-workflows-granular
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -12,7 +12,7 @@ related:
 redirects:
   - perform-single-task-agentic-workflows
 guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
-seoDescription: 'Learn why each github agentic workflow should perform only one action, and how to decompose into sub-workflows that call each other or listen for events when you need more.'
+seoDescription: 'Learn why you should create new agentic workflows when you have steps that depend on one another, and how to chain workflows that call each other or listen for events.'
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
@@ -21,28 +21,28 @@ lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
 
-GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. Each workflow should perform **only one action. **For example, creating a pull request, creating an issue, or modifying a database record via a custom safe output. You don't get the artifacts of a create action until the workflow has finished running, and a single action keeps runs predictable, auditable, and safe. For any destructive or write operation, express that action via safe outputs so the workflow's one outcome is explicit and bounded.
+GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. You don't get the artifacts of a create action until the workflow has **finished** running. So when you have steps that **depend on one another**—for example, Step 2 needs the issues or PRs that Step 1 creates—those steps cannot run in the same workflow. Create **new workflows** for dependent steps: let the first workflow complete and produce its artifacts, then trigger or invoke a second workflow that can use them. For any destructive or write operation, express it via safe outputs so each workflow's outcome is explicit and bounded.
 
 <endIntro />
 
-## What counts as one action?
+## When do steps depend on one another?
 
-One action is a single, well-defined outcome some examples include: 
+Steps depend on one another when a later step needs the **output or artifacts** of an earlier step. Examples:
 
-* Creating an issue, 
-* Creating a pull request
-* Database updates via a custom safe output (e.g. a database record). 
+* Creating issues, then creating pull requests that link to those issues (the PR step depends on the issues existing)
+* Creating a record in one system, then updating another system using that record's ID
+* Any step that must "wait for" or "use the result of" a previous step
 
-You should avoid workflows that use free-form instructions, or CLI commands in the workflow body to perform multiple write operations. Instead, define the single action using safe outputs instead.
+Because artifacts are only available after a workflow run completes, dependent steps must run in **separate workflows**. Keep steps that depend on one another out of the same workflow body.
 
-## Decompose into sub-workflows when you need multiple actions
+## Create new workflows for dependent steps
 
-If your workflow needs more than one action, for example, creating GitHub issues and then acting on them, decompose into **sub-workflows** that:
+When you have steps that depend on one another, put them in **separate workflows** that:
 
-* **Call each other:** For example, workflow A creates issues; workflow B is triggered or invoked to process issues by label
-* **Listen for events:** From other agents or workflows
+* **Call each other:** For example, workflow A creates issues and in a post step runs workflow B; workflow B is triggered with a label name and processes the newly created issues
+* **Listen for events:** One workflow emits or updates something that another workflow is triggered on
 
-That way each workflow still performs a single action, and you orchestrate the overall behaviour by how sub-workflows invoke or react to one another.
+Chain workflows so that the workflow that produces the artifacts runs first, then the workflow that consumes them runs after.
 
 ```
 ---
@@ -89,7 +89,7 @@ Link to each issue by ID in each pull request respectively.
 
 ```
 
-Figure: ❌ Bad Example - this flow tries to create issues then link to them in PRs, but the issues are not created yet until the flow finishes
+Figure: ❌ Bad example - Steps that depend on one another (create issues, then PRs linking to them) in a single workflow; issues are not available until the workflow finishes, so the second step cannot use them
 
 
 ```
@@ -137,17 +137,17 @@ Use the create issues safe-output tool to create the issue.
 
 ```
 
-Figure: ✅ Good Example - This flow handles the responsibility of creating GitHub issues, but delegates the work to another agentic workflow.
+Figure: ✅ Good example - Dependent steps split into separate workflows: this workflow creates issues, then triggers another workflow that can use those issues
 
-## Use safe outputs for that single action
+## Use safe outputs for each workflow's actions
 
-Safe outputs are how you model the desired behaviour of your agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
+Safe outputs are how you model the desired behaviour of each agentic workflow. They provide safety against prompt injection and secure your workflow using the least privilege principle.
 
 * **Controllable** - They provide a clear specification for what your workflow will produce, preventing unintentional side effects
 * **Auditable** - Clearly visible in workflow logs and job summaries
 * **Secure** - Using safe outputs for tool calls avoids giving the agent access to potentially dangerous secrets in your repository
 
-MCP scripts are useful for **read** operations, such as using a search engine to gather information before performing an action. They are not recommended for write operations in GitHub Agentic Workflows because they bypass the audit trail that runs implicitly when your agent runs. If your workflow's single action is not covered by the default tool sets, define it using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
+MCP scripts are useful for **read** operations, such as using a search engine to gather information before performing an action. They are not recommended for write operations in GitHub Agentic Workflows because they bypass the audit trail that runs implicitly when your agent runs. If a workflow's action is not covered by the default tool sets, define it using [Custom Safe Outputs](https://github.github.com/gh-aw/reference/custom-safe-outputs/).
 
 <boxEmbed
   body={<>
@@ -227,4 +227,4 @@ Use the `create_issue` safe-output tool to create the issue.
 - `<BODY>` — the full issue body in markdown
 ```
 
-**Figure: ✅ Good example - The intended action of this workflow is defined within the safe outputs**
+**Figure: ✅ Good example - The workflow's action is defined within the safe outputs**
