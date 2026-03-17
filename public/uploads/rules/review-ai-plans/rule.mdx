@@ -13,8 +13,10 @@ related:
   - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: b68085e1-499d-4849-828e-1541c0defd46
-seoDescription: Learn how to review AI-generated coding plans effectively before implementation using the terminal, your editor, or Plannotator for inline PR-style feedback.
+seoDescription: 'Learn how to review AI-generated coding plans effectively before implementation using the terminal, your editor, or Plannotator for inline PR-style feedback.'
 created: 2026-03-16T00:00:00.000Z
+createdBy: Gordon Beeming
+createdByEmail: GordonBeeming@ssw.com.au
 isArchived: false
 ---
 
@@ -45,7 +47,7 @@ The simplest approach is reviewing the plan directly in the chat interface and d
     Can you change the database part?
   </>}
   figurePrefix="bad"
-  figure="Bad example - Vague feedback with no context forces the AI to guess which part you mean"
+  figure="Vague feedback with no context forces the AI to guess which part you mean"
 />
 
 <boxEmbed
@@ -54,7 +56,7 @@ The simplest approach is reviewing the plan directly in the chat interface and d
     In the 'Data Access Layer' section, where you suggest adding a new repository class — instead, use the existing `IUserRepository` we already have. It already supports the query pattern you need.
   </>}
   figurePrefix="good"
-  figure="Good example - Quoting the exact section and describing precisely what to change gives the AI enough context to act"
+  figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
 <boxEmbed
@@ -98,20 +100,13 @@ Key features:
 
 Plannotator triggers automatically when the plan tool is used. See [plannotator.ai](https://plannotator.ai/) for installation details.
 
-<imageEmbed
-  alt="Plannotator showing a plan diff with the Versions panel open, comparing version 2 against version 1 with red deletions and green additions highlighted"
-  size="large"
-  showBorder={true}
-  figurePrefix="good"
-  figure="Good example - Plannotator's diff view shows exactly what changed between plan versions after an AI revision"
-  src="/uploads/rules/review-ai-plans/plannotator.png"
-/>
+<imageEmbed alt="Plannotator showing a plan diff with the Versions panel open, comparing version 2 against version 1 with red deletions and green additions highlighted" size="large" showBorder={true} figurePrefix="good" figure="Good example - Plannotator's diff view shows exactly what changed between plan versions after an AI revision" src="/uploads/rules/review-ai-plans/plannotator.png" />
 
 <boxEmbed
   style="greybox"
   body={<>
     **Review workflow with Plannotator:**
-
+    
     1. AI generates `PLAN.md`
     2. Plannotator opens automatically — the plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries — use batch loading instead"*
@@ -126,9 +121,9 @@ Plannotator triggers automatically when the plan tool is used. See [plannotator.
 
 ## Comparison
 
-| | Terminal | Editor (VS Code/Cursor) | Plannotator |
-| --- | --- | --- | --- |
-| Targeted line feedback | ❌ | Partial | ✅ |
-| Multi-round iteration | ❌ | ❌ | ✅ |
-| No copy-pasting needed | ❌ | ✅ | ✅ |
-| Structured feedback to AI | ❌ | Partial | ✅ |
+|                           | Terminal | Editor (VS Code/Cursor) | Plannotator |
+| ------------------------- | -------- | ----------------------- | ----------- |
+| Targeted line feedback    | ❌        | Partial                 | ✅           |
+| Multi-round iteration     | ❌        | ❌                       | ✅           |
+| No copy-pasting needed    | ❌        | ✅                       | ✅           |
+| Structured feedback to AI | ❌        | Partial                 | ✅           |
