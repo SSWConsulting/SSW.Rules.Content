@@ -16,7 +16,7 @@ seoDescription: 'Learn why you should create new agentic workflows when you have
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-17T02:09:36.515Z
+lastUpdated: 2026-03-17T02:11:38.952Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -35,8 +35,8 @@ Because artefacts are only available after a workflow run completes, dependent s
 
 When you have steps that depend on one another, put them in separate workflows that:
 
-* **Call each other:** For example, workflow A creates issues and in a post step runs workflow B; workflow B is triggered with a label name and processes the newly created issues
-* **Listen for events:** One workflow emits or updates something that another workflow is triggered on
+* **Call each other:** For example, workflow A creates issues and in a post step runs workflow B, workflow B is triggered and processes the newly created issues.
+* **Listen for events:** One workflow emits or updates something that another workflow is triggered on in safe outputs or post steps.
 
 Chain workflows so that the workflow that produces the artefacts runs first, then the workflow that consumes them runs after.
 
