@@ -16,7 +16,7 @@ seoDescription: 'Learn why you should create new agentic workflows when you have
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-17T02:00:07.115Z
+lastUpdated: 2026-03-17T02:01:54.551Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
@@ -27,11 +27,7 @@ GitHub Agentic Workflows let you instruct agents using natural language, embedde
 
 ## When do steps depend on one another?
 
-Steps depend on one another when a later step needs the **output or artifacts** of an earlier step. Examples:
-
-* Creating issues, then creating pull requests that link to those issues (the PR step depends on the issues existing)
-* Creating a record in one system, then updating another system using that record's ID
-* Any step that must "wait for" or "use the result of" a previous step
+Steps depend on one another when a later step needs the **output or artefacts** of an earlier step. For example, you might create a number of GitHub issues, then have a separate step in your flow that performs the work outlined in those isses.
 
 Because artifacts are only available after a workflow run completes, dependent steps must run in **separate workflows**. Keep steps that depend on one another out of the same workflow body.
 
