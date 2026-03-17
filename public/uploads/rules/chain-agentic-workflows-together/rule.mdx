@@ -16,12 +16,12 @@ seoDescription: 'Learn why you should create new agentic workflows when you have
 created: 2026-03-13T00:00:00.000Z
 createdBy: Caleb Williams
 createdByEmail: CalebWilliams@ssw.com.au
-lastUpdated: 2026-03-16T23:20:41.563Z
+lastUpdated: 2026-03-17T02:00:07.115Z
 lastUpdatedBy: Caleb Williams
 lastUpdatedByEmail: CalebWilliams@ssw.com.au
 ---
 
-GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. You don't get the artifacts of a create action until the workflow has **finished** running. So when you have steps that **depend on one another**—for example, Step 2 needs the issues or PRs that Step 1 creates—those steps cannot run in the same workflow. Create **new workflows** for dependent steps: let the first workflow complete and produce its artifacts, then trigger or invoke a second workflow that can use them. For any destructive or write operation, express it via safe outputs so each workflow's outcome is explicit and bounded.
+GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. You don't get the artefacts of a create action until the workflow has **finished** running. So when you have steps that **depend on one another**—for example, Step 2 needs the issues or PRs that Step 1 creates—those steps cannot run in the same workflow. Create **new workflows** for dependent steps: let the first workflow complete and produce its artifacts, then trigger or invoke a second workflow that can use them. For any destructive or write operation, express it via safe outputs so each workflow's outcome is explicit and bounded.
 
 <endIntro />
 
@@ -90,7 +90,6 @@ Link to each issue by ID in each pull request respectively.
 ```
 
 Figure: ❌ Bad example - Steps that depend on one another (create issues, then PRs linking to them) in a single workflow; issues are not available until the workflow finishes, so the second step cannot use them
-
 
 ```
 ---
