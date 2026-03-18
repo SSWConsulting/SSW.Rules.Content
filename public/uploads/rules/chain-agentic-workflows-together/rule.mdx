@@ -30,7 +30,8 @@ GitHub Agentic Workflows let you instruct agents using natural language, embedde
 
 When defining the desired outcome of a flow we need to use Safe Outputs. Safe Outputs are where GitHub Agentic Workflows runs its' built in guards against prompt injection. As a result we can't do write operations without first defining them as Safe Outputs.
 
-A problem occurs when we try to create something within our workflow and then use it further on in the same flow because Safe Outputs is evaluated at the end of the workflow. This means the artefact doesn't exist until the workflow finishes.
+Safe Outputs are only executed at the end of a workflow. This means, if you have a subsequent step that relies on the result of a Safe Output, it's not possible to house that subsequent step in the same workflow. 
+In this situation, you might need to think about splitting a workflow up into multiple, dependent workflows.
 
 ## When are workflows dependent?
 
