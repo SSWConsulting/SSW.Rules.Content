@@ -58,7 +58,7 @@ jobs:
 
       - name: Comment on PR (if issues found)
         if: steps.lint.outputs.has_issues == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false
-        uses: mshick/add-pr-comment@v2
+        uses: mshick/add-pr-comment@v3
         with:
           message-path: ${{ runner.temp }}/url-lint-report.md
           repo-token: ${{ secrets.GITHUB_TOKEN }}

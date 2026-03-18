@@ -55,7 +55,7 @@ jobs:
       # Step 6: Leave a comment if the validation has failed and if it's not a PR from a fork
       - name: Comment on PR
         if: failure() && github.event.pull_request.head.repo.fork == false
-        uses: mshick/add-pr-comment@v2
+        uses: mshick/add-pr-comment@v3
         with:
           message: |
             Hi @${{ env.pr_owner }},
