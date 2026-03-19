@@ -1,26 +1,32 @@
 ---
-seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
 type: rule
 title: Do you use Managed Identities in your Azure projects?
+uri: use-managed-identity-in-azure
 categories:
   - category: categories/software-engineering/rules-to-better-azure.mdx
-uri: use-managed-identity-in-azure
 authors:
   - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh
-created: 2025-11-27T05:54:17.000Z
+    url: 'https://www.ssw.com.au/people/ben-neoh'
 guid: 9a4f3b2d-8c3e-4f6f-9a5b-2d7b6c4e1f90
-lastUpdated: 2025-11-30T22:14:01.000Z
-lastUpdatedBy: Ben Neoh [SSW]
-lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
-createdBy: Ben Neoh [SSW]
+seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
+created: 2025-11-27T05:54:17.000Z
+createdBy: 'Ben Neoh [SSW]'
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
+lastUpdated: 2025-11-30T22:14:01.000Z
+lastUpdatedBy: 'Ben Neoh [SSW]'
+lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
 isArchived: false
 ---
 
 Teams often unknowingly create security risks by storing secrets in configuration files, DevOps variables, or - even worse - accidentally committing them to Git 😱. This leads to production outages, broken deployments, and painful key rotations that waste time and cost money. Even when Key Vault is used, many rely on static secrets, which still require manual rotation and management. Thankfully Azure has a much safer way of solving this problem.
 
 <endIntro />
+
+## How to use Managed Identity in your project
+
+<youtubeEmbed url="https://www.youtube.com/watch?v=McCSE9b3Lpg" description="Azure Managed Identities | Ben Neoh | SSW Rules" />
+
+***
 
 ## What is a Managed Identity?
 
@@ -34,7 +40,7 @@ Azure automatically handles:
 
 This means **no more stored secrets**, ever.
 
----
+***
 
 ## Why Managed Identity is always better
 
@@ -47,9 +53,3 @@ Benefits include:
 * ✅ Supported by all Azure SDKs
 * ✅ Automatically rotates
 * ✅ Free
-
----
-
-## How to use Managed Identity in your project
-
-🎥 **Video coming soon:** *How to use Managed Identity in your Azure project*
