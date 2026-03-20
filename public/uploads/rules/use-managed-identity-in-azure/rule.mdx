@@ -59,3 +59,35 @@ Benefits include:
 ✅ Automatically rotates
 
 ✅ Free
+
+***
+
+## System-assigned vs User-assigned Managed Identity
+
+### System-assigned
+
+A system-assigned managed identity belongs to a single Azure resource. It is created with that resource and deleted when the resource is deleted. 
+
+Example:
+
+* App Service A needs to read secrets from Key Vault A
+* Grant App Service A’s managed identity the Key Vault Secrets User role on Key Vault A
+
+#### When to use it
+
+Use this for the simplest case: one app, one identity, one target resource
+
+### &#xA;User-assigned
+
+A user-assigned managed identity is a separate Azure resource. It can be attached to multiple Azure resources and reused across them. 
+
+Example: 
+
+* App Service A and App Service B both need to read secrets from Key Vault A
+* Create User-assigned Managed Identity A
+* Attach it to App Service A and App Service B
+* Grant User-assigned Managed Identity A the Key Vault Secrets User role on Key Vault A
+
+#### When to use it
+
+Use this when multiple apps need the same identity and the same permissions
