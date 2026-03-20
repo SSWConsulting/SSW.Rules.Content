@@ -12,9 +12,9 @@ seoDescription: Learn why Managed Identity should be your default authentication
 created: 2025-11-27T05:54:17.000Z
 createdBy: 'Ben Neoh [SSW]'
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
-lastUpdated: 2025-11-30T22:14:01.000Z
-lastUpdatedBy: 'Ben Neoh [SSW]'
-lastUpdatedByEmail: 87377903+Ben0189@users.noreply.github.com
+lastUpdated: 2026-03-20T05:43:00.843Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
 ---
 
@@ -91,3 +91,30 @@ Example:
 #### When to use it
 
 Use this when multiple apps need the same identity and the same permissions
+
+***
+
+## Code example – Connect to Azure App Configuration using Managed Identity
+
+Example from the video:
+
+```csharp
+var appConfigEndpoint =
+    builder.Configuration["AppConfig:Endpoint"]
+    ?? throw new InvalidOperationException("App Configuration endpoint not set");
+
+var clientId =
+    builder.Configuration["ManagedIdentity:ClientId"]
+    ?? throw new InvalidOperationException("Managed Identity client ID not set");
+
+builder.Configuration.AddAzureAppConfiguration(options =>
+{
+    options.Connect(
+        new Uri(appConfigEndpoint),
+        new DefaultAzureCredential(
+            new DefaultAzureCredentialOptions
+            {
+                ManagedIdentityClientId = clientId
+            }));
+});
+```
