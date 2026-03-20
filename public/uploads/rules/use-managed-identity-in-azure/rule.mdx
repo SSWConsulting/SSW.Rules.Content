@@ -34,9 +34,9 @@ A **Managed Identity** is an identity that Azure creates and manages for your re
 
 Azure automatically handles:
 
-* password and secret rotation
-* identity lifecycle
-* secure authentication to Azure services
+* Password and secret rotation
+* Identity lifecycle
+* Secure authentication to Azure services
 
 This means **no more stored secrets**, ever.
 
@@ -48,25 +48,21 @@ This means **no more stored secrets**, ever.
 
 Using secrets (even when placed in Key Vault as static keys) creates manual work and security gaps. Managed Identity removes that entire problem space.
 
-Benefits include:
+### ✅ Benefits
 
-✅ Eliminates all secrets and keys
-
-✅ More secure – nothing to leak
-
-✅ Supported by all Azure SDKs
-
-✅ Automatically rotates
-
-✅ Free
+* Eliminates all secrets and keys
+* More secure – nothing to leak
+* Supported by all Azure SDKs
+* Automatically rotates
+* Free
 
 ***
 
-## System-assigned vs User-assigned Managed Identity
+## System-assigned vs user-assigned Managed Identity
 
 ### System-assigned
 
-A system-assigned managed identity belongs to a single Azure resource. It is created with that resource and deleted when the resource is deleted. 
+A system-assigned managed identity belongs to a single Azure resource. It is created with that resource and deleted when the resource is deleted.
 
 Example:
 
@@ -75,13 +71,13 @@ Example:
 
 #### When to use it
 
-✅ Use this for the simplest case: one app, one identity, one target resource
+👉 Use this for the **simplest case**: one app, one identity, one target resource.
 
 ### User-assigned
 
-A user-assigned managed identity is a separate Azure resource. It can be attached to multiple Azure resources and reused across them. 
+A user-assigned managed identity is a separate Azure resource. It can be attached to multiple Azure resources and reused across them.
 
-Example: 
+Example:
 
 * App Service A and App Service B both need to read secrets from Key Vault A
 * Create User-assigned Managed Identity A
@@ -90,7 +86,7 @@ Example:
 
 #### When to use it
 
-✅ Use this when multiple apps need the same identity and the same permissions
+👉 Use this when **multiple apps** need the same identity and the same permissions.
 
 ***
 
