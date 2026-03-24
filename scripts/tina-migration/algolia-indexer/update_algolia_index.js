@@ -100,74 +100,22 @@ const currentObjects = files.map(fp => {
     plainContent = plainContent.substring(0, MAX_CONTENT_LENGTH) + '…';
   }
 
+  // Only patch the content field — preserve all other fields managed by TinaCMS
   return {
     objectID: slug,
-    slug,
-    ...frontmatter,
     content: plainContent,
   };
 });
-const currentObjectIDs = new Set(currentObjects.map(obj => obj.objectID));
 
-// Get existing objects from Algolia
-console.log('🔍 Fetching existing objects from Algolia...');
-const existingObjects = [];
+console.log(`📊 Rules to update: ${currentObjects.length}`);
 
-// Use searchForHits with empty query to get all objects
-let page = 0;
-const hitsPerPage = 1000; // Maximum allowed
-let hasMore = true;
-
-while (hasMore) {
-  try {
-    const { results } = await client.search({
-      requests: [{
-        indexName: INDEX_NAME,
-        query: '', // Empty query returns all results
-        page,
-        hitsPerPage,
-        attributesToRetrieve: ['objectID'] // Only need objectID for comparison
-      }]
-    });
-    
-    const hits = results[0].hits;
-    existingObjects.push(...hits);
-    
-    hasMore = hits.length === hitsPerPage;
-    page++;
-    
-    console.log(`📄 Fetched page ${page}, total objects: ${existingObjects.length}`);
-  } catch (error) {
-    console.error('Error fetching existing objects:', error);
-    break;
-  }
-}
-
-const existingObjectIDs = new Set(existingObjects.map(obj => obj.objectID));
-
-// Find objects to delete (exist in Algolia but not in current files)
-const objectsToDelete = [...existingObjectIDs].filter(id => !currentObjectIDs.has(id));
-
-console.log(`📊 Current files: ${currentObjects.length}`);
-console.log(`📊 Existing in index: ${existingObjects.length}`);
-console.log(`🗑️  Objects to delete: ${objectsToDelete.length}`);
-
-// Delete removed objects
-if (objectsToDelete.length > 0) {
-  console.log(`🗑️  Deleting ${objectsToDelete.length} objects...`);
-  await client.deleteObjects({
-    indexName: INDEX_NAME,
-    objectIDs: objectsToDelete,
-    waitForTasks: true,
-  });
-}
-
-// Update/add current objects
+// Patch content field on existing Algolia records without overwriting other fields
 if (currentObjects.length > 0) {
-  console.log(`🔄 Updating ${currentObjects.length} objects...`);
-  await client.saveObjects({
+  console.log(`🔄 Patching content field on ${currentObjects.length} records...`);
+  await client.partialUpdateObjects({
     indexName: INDEX_NAME,
     objects: currentObjects,
+    createIfNotExists: false,
     waitForTasks: true,
   });
 }
