@@ -247,7 +247,7 @@ For example: `.github/ContentHawk/TODO/2026-03-05_Snapshot_archive-legacy-rules.
 The file must follow this **exact** structure:
 
 ```markdown
-# Content Catalog Snapshot
+# Content Campaign
 
 ## Agent Configuration
 
