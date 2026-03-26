@@ -1,0 +1,122 @@
+# ContentHawk snapshot-to-DONE. On push to main affecting .github/ContentHawk/TODO/,
+# parses each changed snapshot with Remark, checks the last table's CheckResult column.
+# If no row is "pending", moves the file to .github/ContentHawk/DONE/ and pushes.
+
+name: Content Snapshot Done
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/ContentHawk/TODO/**'
+
+concurrency:
+  group: contenthawk-snapshot-done
+  cancel-in-progress: false
+
+jobs:
+  move-completed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          sparse-checkout: |
+            .github/ContentHawk/TODO
+            .github/ContentHawk/DONE
+          sparse-checkout-cone-mode: false
+
+      - name: Get first changed snapshot path
+        id: changed
+        run: |
+          FIRST=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- .github/ContentHawk/TODO/ \
+            | grep -E '_Snapshot_.*\.md$' | head -1 || true)
+          echo "snapshot_path=$FIRST" >> "$GITHUB_OUTPUT"
+          echo "First changed snapshot: ${FIRST:-(none)}"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check last table for pending (Remark)
+        id: check
+        env:
+          SNAPSHOT_PATH: ${{ steps.changed.outputs.snapshot_path }}
+        run: |
+          npm init -y
+          npm install unified remark-parse remark-gfm unist-util-visit mdast-util-to-string
+          node -e "
+          import fs from 'fs';
+          import { unified } from 'unified';
+          import remarkParse from 'remark-parse';
+          import remarkGfm from 'remark-gfm';
+          import { visit } from 'unist-util-visit';
+          import { toString } from 'mdast-util-to-string';
+          const filePath = (process.env.SNAPSHOT_PATH || '').trim();
+          const toMove = [];
+          if (filePath) {
+            let content;
+            try { content = fs.readFileSync(filePath, 'utf8'); } catch (_) {}
+            if (content) {
+              const tree = unified().use(remarkParse).use(remarkGfm).parse(content);
+              const tables = [];
+              visit(tree, 'table', (node) => tables.push(node));
+              const lastTable = tables[tables.length - 1];
+              if (lastTable && lastTable.children && lastTable.children.length >= 2) {
+                const rows = lastTable.children;
+                const headerCells = rows[0].children.map((c) => toString(c).trim().toLowerCase().replace(/\s+/g, ''));
+                const checkResultIndex = headerCells.findIndex((h) => h === 'checkresult');
+                if (checkResultIndex !== -1) {
+                  let hasPending = false;
+                  for (let i = 2; i < rows.length; i++) {
+                    const cell = rows[i].children[checkResultIndex];
+                    const value = (cell ? toString(cell).trim().toLowerCase() : '');
+                    if (value === 'pending') { hasPending = true; break; }
+                  }
+                  if (!hasPending) toMove.push(filePath);
+                }
+              }
+            }
+          }
+          const out = process.env.GITHUB_OUTPUT;
+          if (out) {
+            fs.appendFileSync(out, 'paths<<EOF\n' + toMove.join('\n') + (toMove.length ? '\n' : '') + 'EOF\n');
+          }
+          console.log('Path to move:', toMove.length ? toMove[0] : '(none)');
+          "
+
+      - name: Move to DONE and push
+        if: steps.check.outputs.paths != ''
+        env:
+          GH_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+        run: |
+          set -euo pipefail
+          git config user.name "content-hawk"
+          git config user.email "content-hawk@users.noreply.github.com"
+          mkdir -p .github/ContentHawk/DONE
+          echo "${{ steps.check.outputs.paths }}" | while IFS= read -r p; do
+            [ -z "$p" ] && continue
+            b=$(basename "$p")
+            [ -f "$p" ] && git mv "$p" ".github/ContentHawk/DONE/$b"
+          done
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "content-hawk: move completed snapshot(s) to DONE"
+            git remote set-url origin "https://x-access-token:${GH_TOKEN}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.git"
+            git push origin main
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## ContentHawk — Snapshot to DONE" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "${{ steps.check.outputs.paths }}" ]; then
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "### Moved to DONE" >> "$GITHUB_STEP_SUMMARY"
+            echo "${{ steps.check.outputs.paths }}" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "_No snapshots moved (all had pending rows or no snapshot files changed)._" >> "$GITHUB_STEP_SUMMARY"
+          fi
