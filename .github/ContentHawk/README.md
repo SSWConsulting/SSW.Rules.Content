@@ -6,36 +6,40 @@ ContentHawk is a multi-agent pipeline that automatically scans, judges, and fixe
 
 ```mermaid
 flowchart TD
-    A["Agent 1 (Detective)
-content-campaign
-Manual: workflow_dispatch or Claude Code slash command
-Scans files, creates a snapshot"]
+    A["**Agent 1 (Detective)**<br/>
+    content-campaign.md<br/>
+    • Manual: workflow_dispatch<br/>
+    • Claude Code slash command<br/>
+    • Scans files, creates snapshot"]
 
     B["Snapshot PR merged to main"]
 
-    C["Agent 2a (Judge)
-content-judge.md
-Cron / manual workflow_dispatch
-Reads snapshot, judges files, opens issues"]
+    C["**Agent 2a (Judge)**<br/>
+    content-judge.md<br/>
+    • Cron / manual workflow_dispatch<br/>
+    • Reads snapshot<br/>
+    • Judges files, opens issues"]
 
-    D["Agent 2b (PR Creator)
-content-judge-pr.md
-Triggered by Agent 2a post-step
-Updates snapshot with issue numbers, opens PR"]
+    D["**Agent 2b (PR Creator)**<br/>
+    content-judge-pr.md<br/>
+    • Triggered by Agent 2a<br/>
+    • Updates snapshot with issues<br/>
+    • Opens PR"]
 
     E["PR merged to main"]
 
-    F["Agent 3a (Fixer)
-content-fixer.md
-Cron / manual workflow_dispatch
-Reads issues, applies fixes, opens PRs"]
+    F["**Agent 3a (Fixer)**<br/>
+    content-fixer.md<br/>
+    • Cron / manual workflow_dispatch<br/>
+    • Reads issues<br/>
+    • Applies fixes, opens PRs"]
 
     G["Fixer PRs merged to main"]
 
-    H["Agent 3b (Snapshot Done)
-content-snapshot-done.md
-Triggered on ContentHawk issue close
-Moves completed snapshots to DONE/"]
+    H["**Agent 3b (Snapshot Done)**<br/>
+    content-snapshot-done.md<br/>
+    • Triggered on issue close<br/>
+    • Moves snapshots to DONE/"]
 
     A --> B --> C --> D --> E --> F --> G --> H
 ```
