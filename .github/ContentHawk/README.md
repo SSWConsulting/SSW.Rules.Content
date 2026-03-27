@@ -40,7 +40,7 @@ flowchart TD
 
     G["Fixer PRs merged to main"]
 
-    I{"All snapshot.md items checked?"}
+    I{"All snapshot.md <br/> items checked?"}
 
     H["Agent 3b (Snapshot Done)<br/>
     ─────────────<br/>
