@@ -42,6 +42,4 @@ This is built into a static site by the code at [SSW Rules](https://github.com/S
 
 ## Agentic Workflows (ContentHawk 🦅)
 
-This reposiory uses Agentic Workflows to automate the creation and maintenance of rules using content campaigns.
-
-For more information about how to run content campaigns refer to the [ContentHawk Documentation](.github/ContentHawk/README.md).
+This reposiory uses GitHub Agentic Workflows to assist in the ongoing maintenance of of content. Using campaigns. For more informaton about these campaigns, and how to create them, refer to the [ContentHawk Documentation](.github/ContentHawk/README.md).
