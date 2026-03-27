@@ -13,7 +13,7 @@ flowchart TD
     Claude Code command<br/>
     Scans files → snapshot.md"]
 
-    B["Snapshot PR merged to main"]
+    B["Snapshot PR <br/> merged to main"]
 
     C["Agent 2a (Judge)<br/>
     ─────────────<br/>
