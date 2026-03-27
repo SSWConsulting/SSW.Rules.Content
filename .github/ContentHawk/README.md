@@ -43,8 +43,8 @@ flowchart TD
     H["Agent 3b (Snapshot Done)<br/>
     ─────────────<br/>
     content-snapshot-done.md<br/>
-    On issue close<br/>
-    Moves to DONE/"]
+    On matching close<br/>
+    Moves to /DONE"]
 
     A --> B --> C --> D --> E --> F --> G --> H
 ```
