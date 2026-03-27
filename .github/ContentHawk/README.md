@@ -9,9 +9,9 @@ flowchart TD
     A["Agent 1 (Detective)<br/>
     ─────────────<br/>
     content-campaign.md<br/>
-    Manual: workflow_dispatch<br/>
+    Manual Trigger<br/>
     Claude Code command<br/>
-    Scans files → snapshot"]
+    Scans files → snapshot.md"]
 
     B["Snapshot PR merged to main"]
 
@@ -40,13 +40,17 @@ flowchart TD
 
     G["Fixer PRs merged to main"]
 
+    I{"All snapshot.md items checked?"}
+
     H["Agent 3b (Snapshot Done)<br/>
     ─────────────<br/>
     content-snapshot-done.md<br/>
-    On matching close<br/>
+    On issue closed<br/>
     Moves to /DONE"]
 
-    A --> B --> C --> D --> E --> F --> G --> H
+    A --> B --> C --> D --> E --> F --> G --> I
+    I -- Yes --> H
+    I -- No --> F
 ```
 
 ## Agents
