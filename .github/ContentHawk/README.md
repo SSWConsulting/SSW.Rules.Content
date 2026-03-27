@@ -10,7 +10,6 @@ flowchart TD
     ─────────────<br/>
     content-campaign.md<br/>
     Manual Trigger<br/>
-    Claude Code command<br/>
     Scans files → snapshot.md"]
 
     B["Snapshot PR <br/> merged to main"]
