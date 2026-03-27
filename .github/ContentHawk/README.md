@@ -6,22 +6,47 @@ ContentHawk is a multi-agent pipeline that automatically scans, judges, and fixe
 
 ```mermaid
 flowchart TD
-    A["Agent 1 (Detective)\n─────────────\ncontent-campaign.md\nManual Trigger\nClaude Code command\nScans files → snapshot.md"]
+    A["Agent 1 (Detective)<br/>
+    ─────────────<br/>
+    content-campaign.md<br/>
+    Manual: workflow_dispatch<br/>
+    Claude Code command<br/>
+    Scans files → snapshot"]
 
     B["Snapshot PR merged to main"]
 
-    C["Agent 2a (Judge)\n─────────────\ncontent-judge.md\nCron / manual trigger\nReads snapshot\nOpens issues"]
+    C["Agent 2a (Judge)<br/>
+    ─────────────<br/>
+    content-judge.md<br/>
+    Cron / manual trigger<br/>
+    Reads snapshot<br/>
+    Opens issues"]
 
-    D["Agent 2b (PR Creator)\n─────────────\ncontent-judge-pr.md\nTriggered by Agent 2a\nUpdates snapshot\nOpens PR"]
+    D["Agent 2b (PR Creator)<br/>
+    ─────────────<br/>
+    content-judge-pr.md<br/>
+    Triggered by Agent 2a<br/>
+    Updates snapshot<br/>
+    Opens PR"]
 
     E["PR merged to main"]
 
-    F["Agent 3a (Fixer)\n─────────────\ncontent-fixer.md\nCron / manual trigger\nReads issues\nOpens PRs"]
+    F["Agent 3a (Fixer)<br/>
+    ─────────────<br/>
+    content-fixer.md<br/>
+    Cron / manual trigger<br/>
+    Reads issues<br/>
+    Opens PRs"]
 
     G["Fixer PRs merged to main"]
 
-    H["Agent 3b (Snapshot Done)\n─────────────\ncontent-snapshot-done.md\nOn issue closed\nMoves to /DONE"]
+    H["Agent 3b (Snapshot Done)<br/>
+    ─────────────<br/>
+    content-snapshot-done.md<br/>
+    On matching close<br/>
+    Moves to /DONE"]
 
+    A --> B --> C --> D --> E --> F --> G --> H
 ```
 
 ## Agents
