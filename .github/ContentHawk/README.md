@@ -38,19 +38,21 @@ flowchart TD
     Reads issues<br/>
     Opens PRs"]
 
-    G["Fixer PRs merged to main"]
-
-    I{"All snapshot.md <br/> items checked?"}
-
     H["Agent 3b (Snapshot Done)<br/>
     ─────────────<br/>
     content-snapshot-done.md<br/>
     On issue closed<br/>
     Moves to /DONE"]
 
-    A --> B --> C --> D --> E --> F --> G --> I
-    I -- Yes --> H
-    I -- No --> F
+    I{"All snapshot.md <br/> items checked?"}
+
+    J["Move to /DONE"]
+
+    K["End]
+
+    A --> B --> C --> D --> E --> F --> H --> I
+    I -- Yes --> J
+    I -- No --> K
 ```
 
 ## Agents
