@@ -23,9 +23,9 @@
 #
 # Agent 1 (Detective) of the ContentHawk pipeline. Scans content files based on user-provided search scope, extracts category and date metadata from each file, sorts them by the user's processing priority, and commits a markdown snapshot tracking file to a new branch, then opens a pull request. The snapshot is a markdown table listing every file with its metadata so Agent 2 can iterate over rows to find issues and Agent 3 can raise PRs grouped by the intent label. Also creates a custom GitHub label derived from the user's intent for Agent 2 to inject into issues and Agent 3 to bundle PRs. Stops immediately if an open catalog-tracking PR already exists for this intent to avoid duplicates.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"69b14db71f7fb3614142b59e276d469c5c992450ce50e11112d7f08df135add3","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"4745055f72ae7f8c11dbfa22d60d79f5f4c9e21aa2748ad12280ac0ce74ce667","compiler_version":"v0.59.0","strict":true}
 
-name: "Content Campaign"
+name: "Content Campaign (Agent 1)"
 "on":
   workflow_dispatch:
     inputs:
@@ -53,7 +53,7 @@ permissions: {}
 concurrency:
   group: "gh-aw-${{ github.workflow }}-${{ github.event.issue.number || github.run_id }}"
 
-run-name: "Content Campaign"
+run-name: "Content Campaign (Agent 1)"
 
 jobs:
   activation:
@@ -79,7 +79,7 @@ jobs:
           GH_AW_INFO_VERSION: ""
           GH_AW_INFO_AGENT_VERSION: "latest"
           GH_AW_INFO_CLI_VERSION: "v0.59.0"
-          GH_AW_INFO_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_INFO_WORKFLOW_NAME: "Content Campaign (Agent 1)"
           GH_AW_INFO_EXPERIMENTAL: "false"
           GH_AW_INFO_SUPPORTS_TOOLS_ALLOWLIST: "true"
           GH_AW_INFO_STAGED: "false"
@@ -350,7 +350,7 @@ jobs:
         env:
           GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
           GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
-          CUSTOM_GITHUB_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+          CUSTOM_GITHUB_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
         with:
           script: |
             const determineAutomaticLockdown = require('/opt/gh-aw/actions/determine_automatic_lockdown.cjs');
@@ -703,7 +703,7 @@ jobs:
           GH_AW_SAFE_OUTPUTS_API_KEY: ${{ steps.safe-outputs-start.outputs.api_key }}
           GH_AW_SAFE_OUTPUTS_PORT: ${{ steps.safe-outputs-start.outputs.port }}
           GITHUB_MCP_LOCKDOWN: ${{ steps.determine-automatic-lockdown.outputs.lockdown == 'true' && '1' || '0' }}
-          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
           set -eo pipefail
@@ -799,7 +799,7 @@ jobs:
           GITHUB_API_URL: ${{ github.api_url }}
           GITHUB_AW: true
           GITHUB_HEAD_REF: ${{ github.head_ref }}
-          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
           GITHUB_SERVER_URL: ${{ github.server_url }}
           GITHUB_STEP_SUMMARY: /tmp/gh-aw/agent-step-summary.md
@@ -862,13 +862,13 @@ jobs:
             const { main } = require('/opt/gh-aw/actions/redact_secrets.cjs');
             await main();
         env:
-          GH_AW_SECRET_NAMES: 'COPILOT_GITHUB_TOKEN,GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN,TAVILY_API_KEY,TINA_GITHUB_PAT'
+          GH_AW_SECRET_NAMES: 'CONTENTHAWK_GITHUB_PAT,COPILOT_GITHUB_TOKEN,GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN,TAVILY_API_KEY'
+          SECRET_CONTENTHAWK_GITHUB_PAT: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
           SECRET_COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
           SECRET_GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
           SECRET_GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
           SECRET_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SECRET_TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          SECRET_TINA_GITHUB_PAT: ${{ secrets.TINA_GITHUB_PAT }}
       - name: Append agent step summary
         if: always()
         run: bash /opt/gh-aw/actions/append_agent_step_summary.sh
@@ -997,7 +997,7 @@ jobs:
         if: always() && steps.detection_guard.outputs.run_detection == 'true'
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
-          WORKFLOW_NAME: "Content Campaign"
+          WORKFLOW_NAME: "Content Campaign (Agent 1)"
           WORKFLOW_DESCRIPTION: "Agent 1 (Detective) of the ContentHawk pipeline. Scans content files based on user-provided search scope, extracts category and date metadata from each file, sorts them by the user's processing priority, and commits a markdown snapshot tracking file to a new branch, then opens a pull request. The snapshot is a markdown table listing every file with its metadata so Agent 2 can iterate over rows to find issues and Agent 3 can raise PRs grouped by the intent label. Also creates a custom GitHub label derived from the user's intent for Agent 2 to inject into issues and Agent 3 to bundle PRs. Stops immediately if an open catalog-tracking PR already exists for this intent to avoid duplicates."
           HAS_PATCH: ${{ steps.collect_output.outputs.has_patch }}
         with:
@@ -1128,7 +1128,7 @@ jobs:
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
           GH_AW_NOOP_MAX: "1"
-          GH_AW_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1141,7 +1141,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1154,7 +1154,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
           GH_AW_WORKFLOW_ID: "content-campaign"
@@ -1178,7 +1178,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
           GH_AW_NOOP_MESSAGE: ${{ steps.noop.outputs.noop_message }}
@@ -1195,7 +1195,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Campaign"
+          GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -1221,7 +1221,7 @@ jobs:
       GH_AW_ENGINE_ID: "copilot"
       GH_AW_ENGINE_MODEL: "gpt-5-mini"
       GH_AW_WORKFLOW_ID: "content-campaign"
-      GH_AW_WORKFLOW_NAME: "Content Campaign"
+      GH_AW_WORKFLOW_NAME: "Content Campaign (Agent 1)"
     outputs:
       code_push_failure_count: ${{ steps.process_safe_outputs.outputs.code_push_failure_count }}
       code_push_failure_errors: ${{ steps.process_safe_outputs.outputs.code_push_failure_errors }}

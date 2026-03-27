@@ -1,24 +1,20 @@
 ---
 description: >
   Agent 3 (Fixer) of the ContentHawk pipeline.
-  Searches for open issues with the intent label, reads the snapshot to
-  obtain PR Preferences and Intent, then bundles eligible issues into
-  groups and creates one PR per bundle that applies the content fixes and
-  closes the linked issues.
+  Runs on a cron schedule (or manually) and picks up the first available
+  snapshot from the TODO folder. Reads the snapshot to obtain the Label,
+  PR Preferences, and Intent, then bundles eligible issues into groups and
+  creates one PR per bundle that applies the content fixes and closes the
+  linked issues.
   Skips issues already referenced in existing open fixer PRs to avoid
-  duplicate work. Stops immediately if the number of eligible issues is
-  below the configured minimum threshold.
+  duplicate work. Exits gracefully if no snapshot file is found in the
+  TODO folder.
+name: Content Fixer (Agent 3a)
 
 on:
+  schedule:
+    - cron: "0 * * * */7"
   workflow_dispatch:
-    inputs:
-      label_name:
-        description: "GitHub label slug that ties this pipeline together (e.g. 'archive-legacy-rules'). Must match the Label field in the snapshot."
-        required: true
-      min_issues_to_bundle:
-        description: "Minimum number of eligible open issues required before Agent 3 will create PRs. Defaults to 10."
-        required: false
-        default: "10"
 
 engine:
   id: copilot
@@ -34,12 +30,11 @@ mcp-servers:
 
 mcp-scripts:
   list-snapshots:
-    env:
-      INPUT_LABEL_NAME: ${{ inputs.label_name }}
     description: >
-      Lists all snapshot files produced by Agent 1
+      Lists all snapshot files in the TODO folder, sorted oldest-first
+      so the first line is the next snapshot to process.
     run: |
-      ls .github/ContentHawk/TODO/*_Snapshot_${INPUT_LABEL_NAME}.md 2>/dev/null | sort -r
+      ls .github/ContentHawk/TODO/*_Snapshot_*.md 2>/dev/null | sort
 
 permissions: read-all
 
@@ -49,39 +44,34 @@ network:
     - "*.tavily.com"
 
 concurrency:
-  group: "contenthawk-fixer-${{ inputs.label_name }}"
+  group: "contenthawk-fixer"
   cancel-in-progress: false
 
 safe-outputs:
   create-pull-request:
     title-prefix: "[Content Fixer] "
-    labels: ["${{ inputs.label_name }}"]
     max: 5
 
 tools:
   github:
     lockdown: false
     toolsets: [issues, repos, pull_requests, search, labels]
-    github-token: "${{ secrets.TINA_GITHUB_PAT }}"
+    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
   tavily:
     tools: [search, search_news]
 
 post-steps:
   - name: Workflow Summary
     if: always()
-    env:
-      INPUT_LABEL_NAME: ${{ inputs.label_name }}
-      INPUT_MIN_ISSUES: ${{ inputs.min_issues_to_bundle }}
     run: |
       echo "## ContentHawk — Agent 3 (Fixer)" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
 
-      echo "### Inputs" >> "$GITHUB_STEP_SUMMARY"
+      echo "### Trigger" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
       echo "| Field              | Value |" >> "$GITHUB_STEP_SUMMARY"
       echo "|--------------------|-------|" >> "$GITHUB_STEP_SUMMARY"
-      echo "| Label              | \`$INPUT_LABEL_NAME\` |" >> "$GITHUB_STEP_SUMMARY"
-      echo "| Min Issues         | $INPUT_MIN_ISSUES |" >> "$GITHUB_STEP_SUMMARY"
+      echo "| Event              | \`${{ github.event_name }}\` |" >> "$GITHUB_STEP_SUMMARY"
       echo "" >> "$GITHUB_STEP_SUMMARY"
 
       echo "### Agent Output" >> "$GITHUB_STEP_SUMMARY"
@@ -110,41 +100,29 @@ This workflow is **Agent 3 (Fixer)** in a multi-agent pipeline called **ContentH
 - **Agent 1 (Detective)**: Catalogs content files, creates a snapshot tracking file on a branch, and opens a PR. That PR is reviewed and merged into `main` before Agent 2a runs.
 - **Agent 2a (Judge)**: Reads the merged snapshot, judges each pending file against the intent, and opens issues for files that need fixing. Triggers Agent 2b via a post-step when it completes.
 - **Agent 2b (PR Creator)**: Reads the issues created by Agent 2a, updates the snapshot with issue numbers, and opens a PR.
-- **Agent 3 (this workflow)**: Reads open issues with the intent label, bundles them according to PR Preferences from the snapshot, applies content fixes to the actual files, and opens PRs that close the bundled issues.
+- **Agent 3 (this workflow)**: Runs on a schedule, picks up the first available snapshot from the TODO folder, reads open issues for that snapshot's label, bundles them according to PR Preferences, applies content fixes, and opens PRs that close the bundled issues.
 
 The snapshot file is **self-contained** — it stores every configuration value Agent 1 received, including the PR Preferences that control how Agent 3 bundles and creates PRs.
 
-## Inputs provided by the user
+## How this workflow is triggered
 
-| Input              | Value                                    | Used for                                           |
-|--------------------|------------------------------------------|----------------------------------------------------|
-| Label Name         | `${{ inputs.label_name }}`               | Finding issues, labelling PRs, concurrency guard    |
-| Min Issues         | `${{ inputs.min_issues_to_bundle }}`     | Threshold before creating PRs                       |
+This workflow runs on a **cron schedule** (every 6 hours) and can also be triggered manually via `workflow_dispatch`. It does **not** accept any inputs — instead, it discovers the next snapshot to process from the TODO folder automatically.
 
 ---
 
-### Step 0 — Guard: check eligible issue count
+### Step 0 — Guard: find the first available snapshot
 
-Before doing any work, use the GitHub toolset to list all open issues that carry the label `${{ inputs.label_name }}`. Count the results to get `open_count`. Let `min_issues` = `${{ inputs.min_issues_to_bundle }}` (parsed as an integer).
+Use the MCP script `list-snapshots` to list all snapshot files in `.github/ContentHawk/TODO/`.
 
-If `open_count < min_issues`, **stop immediately**. Output a message like:
+If the result is **empty** (no snapshot files found), **stop immediately** with a message:
 
-> Not enough issues to bundle: $open_count open issues with label '${{ inputs.label_name }}' (minimum: $min_issues). Waiting for more issues before creating fix PRs.
+> No snapshot files found in `.github/ContentHawk/TODO/`. Nothing to process. Exiting.
 
-Do **not** read the snapshot or create any PRs. End the workflow here.
+Do **not** create any PRs. End the workflow here.
 
-### Step 1 — Discover, then read and parse the snapshot
+If files are found, **choose `snapshot_path`** — use the **first line** of the result (the oldest snapshot, i.e. the one that has been waiting longest). Read the full content of that file from `main`.
 
-#### 1.0 — Resolve the snapshot file on `main`
-
-Use the MCP script `list-snapshots` to find snapshot files on `main` that match the label naming convention.
-
-1. If the result is empty (no snapshot files found), **stop immediately** with an error:
-
-   > No snapshot file on main for label '${{ inputs.label_name }}'. Expected path pattern: `.github/ContentHawk/TODO/<date>_Snapshot_${{ inputs.label_name }}.md`. Aborting.
-
-2. **Choose `snapshot_path`** — use the **first line** of the result (the latest date). If there are multiple lines, the first is already the correct one (latest date).
-3. Call that path **`snapshot_path`**. Read the full content of that file from `main`.
+### Step 1 — Read and parse the snapshot
 
 #### 1a. Parse the Agent Configuration table
 
@@ -154,43 +132,35 @@ Extract the following fields from the `## Agent Configuration` table:
 - **PR Preferences** — how to bundle and create PRs (e.g. "bundle up to 5 related issues per PR")
 - **Label** — the label slug stored in the snapshot
 
-**Validation**: Assert that the `Label` value extracted from the snapshot matches `${{ inputs.label_name }}` exactly (ignoring surrounding backticks). If they do not match, **stop immediately** with an error:
-
-> Snapshot label '<snapshot_label>' does not match the input label '${{ inputs.label_name }}'. Aborting.
+Call the extracted label value **`label_name`**. This is the label that will be used throughout the rest of the workflow to find issues, label PRs, and guard concurrency.
 
 #### 1b. Parse the Files to Review table
 
 Read the `## Files to Review` table. You do **not** need to process this table directly — Agent 3 works from issues, not from snapshot rows. However, the table is useful context: rows with a `CheckResult` of `Issue #<number>` are the ones Agent 2a flagged, and their issues are what Agent 3 will fix.
 
-### Step 2 — Collect eligible issues (deduplication)
+### Step 2 — Collect eligible issues
 
-#### 2a. Fetch all open issues with the label
+#### 2a. Extract issue numbers from the snapshot
 
-List every open issue that carries the label `${{ inputs.label_name }}`. For each issue, record:
+Parse the `## Files to Review` table (read in Step 1b). For each row where the `CheckResult` column matches `Issue #<number>`, extract the issue number. Collect all extracted issue numbers into a list called `snapshot_issue_numbers`.
+
+If `snapshot_issue_numbers` is empty, **stop immediately** with a message:
+
+> No issues found in the snapshot file. Nothing to fix. Exiting.
+
+#### 2b. Fetch issue details and filter to open issues
+
+For each issue number in `snapshot_issue_numbers`, fetch the issue from GitHub. Only include issues that are **open** — closed issues have already been resolved and should be skipped. For each open issue, record:
 
 - `number` — the issue number
 - `title` — the issue title
 - `body` — the full issue body
 
-Call this list `all_open_issues`.
-
-#### 2b. Fetch existing fixer PRs and build claimed-issues set
-
-Search for all **open** pull requests that carry the label `${{ inputs.label_name }}` and whose title contains `[Content Fixer]`:
-
-For each such PR, parse the PR body to find every reference of the form `Closes #<number>` or `Fixes #<number>`. Collect all referenced issue numbers into a `claimed_issues` set. These issues are already being handled by an existing fixer PR and must be excluded.
-
-#### 2c. Filter to eligible issues
-
-Build `eligible_issues` = issues from `all_open_issues` whose `number` is **not** in `claimed_issues`.
+Call this list `eligible_issues`.
 
 If `eligible_issues` is empty, **stop immediately** with a message:
 
-> All open issues with label '${{ inputs.label_name }}' are already claimed by existing fixer PRs. Nothing to do.
-
-If `eligible_issues` count is less than `min_issues`, **stop immediately** with a message:
-
-> Only <count> eligible issues remain after deduplication (minimum: $min_issues). Waiting for more issues.
+> All issues listed in the snapshot are already closed. Nothing to fix. Exiting.
 
 ### Step 3 — Bundle issues
 
@@ -217,10 +187,10 @@ Work through `bundles` one at a time. For each bundle:
 Create a new branch from `main` named:
 
 ```
-ContentHawk/fixer/${{ inputs.label_name }}/<bundle-index>
+ContentHawk/fixer/<label_name>/<bundle-index>
 ```
 
-Where `<bundle-index>` is a 1-based index (e.g. `1`, `2`, `3`).
+Where `<label_name>` is the label extracted from the snapshot and `<bundle-index>` is a 1-based index (e.g. `1`, `2`, `3`).
 
 #### 4b. Apply fixes to each file in the bundle
 
@@ -244,18 +214,18 @@ For each issue in the bundle:
 Commit all modified files to the branch with the message:
 
 ```
-content-hawk[fixer]: fix <N> issues for ${{ inputs.label_name }}
+content-hawk[fixer]: fix <N> issues for <label_name>
 ```
 
 Where `<N>` is the number of files actually modified in this bundle.
 
 #### 4d. Open a pull request
 
-Open a PR using the `create-pull-request` safe-output tool:
+Open a PR using the `create-pull-request` safe-output tool. Add the label `<label_name>` to the PR.
 
-**Title**: `${{ inputs.label_name }} — fix <N> issues (<brief-description>)`
+**Title**: `<label_name> — fix <N> issues (<brief-description>)`
 
-> Note: the `title-prefix` safe-output setting will prepend `[Content Fixer] ` automatically — so only pass `${{ inputs.label_name }} — fix <N> issues (<brief-description>)` as the title value. The `<brief-description>` should summarise the bundle (e.g. "outdated .NET references", "deprecated API mentions").
+> Note: the `title-prefix` safe-output setting will prepend `[Content Fixer] ` automatically — so only pass `<label_name> — fix <N> issues (<brief-description>)` as the title value. The `<brief-description>` should summarise the bundle (e.g. "outdated .NET references", "deprecated API mentions").
 
 **Base branch**: `main`
 
@@ -277,11 +247,11 @@ Open a PR using the `create-pull-request` safe-output tool:
 
 ### Label
 
-`${{ inputs.label_name }}`
+`<label_name>`
 
 ### Snapshot
 
-`<snapshot_path resolved in Step 1.0>`
+`<snapshot_path resolved in Step 0>`
 
 ### Issues resolved
 
@@ -310,8 +280,9 @@ The `Closes #<number>` lines in the body will automatically link and close the i
 
 After all bundles have been processed, output a summary of the entire run:
 
+- Snapshot processed: `<snapshot_path>`
+- Label: `<label_name>`
 - Total PRs created
 - Total issues fixed across all PRs
 - Total issues skipped (could not be fixed)
 - Total issues still open (not included in any bundle, e.g. because of bundle-size limits)
-- Total issues already claimed by existing fixer PRs (from Step 2b)

@@ -23,9 +23,9 @@
 #
 # Agent 2b (PR Creator) of the ContentHawk pipeline. Triggered by Agent 2a after it finishes creating issues. Reads the snapshot file from main, searches for all issues created by Agent 2a in the given judge run, matches them to rows in the Files to Review table, and updates each matched row with the issue number and checked date. Commits the updated snapshot to a new branch and opens a pull request back to main. Stops immediately if a judge PR already exists for this label to avoid duplicates.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"237d4b09388a3595bcf6b52610b547d9664c8e4880a1c9212684315fcb788fe8","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"9fc1b145300fff1f0863abdb94bdf58382826fd3618a5e54edb49708abfdfec8","compiler_version":"v0.59.0","strict":true}
 
-name: "Content Judge Pr"
+name: "Content Judge PR (Agent 2b)"
 "on":
   workflow_dispatch:
     inputs:
@@ -45,7 +45,7 @@ concurrency:
   cancel-in-progress: false
   group: contenthawk-judge-pr-${{ inputs.label_name }}
 
-run-name: "Content Judge Pr"
+run-name: "Content Judge PR (Agent 2b)"
 
 jobs:
   activation:
@@ -71,7 +71,7 @@ jobs:
           GH_AW_INFO_VERSION: ""
           GH_AW_INFO_AGENT_VERSION: "latest"
           GH_AW_INFO_CLI_VERSION: "v0.59.0"
-          GH_AW_INFO_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_INFO_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
           GH_AW_INFO_EXPERIMENTAL: "false"
           GH_AW_INFO_SUPPORTS_TOOLS_ALLOWLIST: "true"
           GH_AW_INFO_STAGED: "false"
@@ -629,7 +629,7 @@ jobs:
           GH_AW_SAFE_OUTPUTS: ${{ env.GH_AW_SAFE_OUTPUTS }}
           GH_AW_SAFE_OUTPUTS_API_KEY: ${{ steps.safe-outputs-start.outputs.api_key }}
           GH_AW_SAFE_OUTPUTS_PORT: ${{ steps.safe-outputs-start.outputs.port }}
-          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
         run: |
           set -eo pipefail
           mkdir -p /tmp/gh-aw/mcp-config
@@ -707,7 +707,7 @@ jobs:
           GITHUB_API_URL: ${{ github.api_url }}
           GITHUB_AW: true
           GITHUB_HEAD_REF: ${{ github.head_ref }}
-          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.TINA_GITHUB_PAT }}
+          GITHUB_MCP_SERVER_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
           GITHUB_SERVER_URL: ${{ github.server_url }}
           GITHUB_STEP_SUMMARY: /tmp/gh-aw/agent-step-summary.md
@@ -770,12 +770,12 @@ jobs:
             const { main } = require('/opt/gh-aw/actions/redact_secrets.cjs');
             await main();
         env:
-          GH_AW_SECRET_NAMES: 'COPILOT_GITHUB_TOKEN,GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN,TINA_GITHUB_PAT'
+          GH_AW_SECRET_NAMES: 'CONTENTHAWK_GITHUB_PAT,COPILOT_GITHUB_TOKEN,GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN'
+          SECRET_CONTENTHAWK_GITHUB_PAT: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
           SECRET_COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
           SECRET_GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
           SECRET_GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
           SECRET_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SECRET_TINA_GITHUB_PAT: ${{ secrets.TINA_GITHUB_PAT }}
       - name: Append agent step summary
         if: always()
         run: bash /opt/gh-aw/actions/append_agent_step_summary.sh
@@ -903,7 +903,7 @@ jobs:
         if: always() && steps.detection_guard.outputs.run_detection == 'true'
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
-          WORKFLOW_NAME: "Content Judge Pr"
+          WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
           WORKFLOW_DESCRIPTION: "Agent 2b (PR Creator) of the ContentHawk pipeline. Triggered by Agent 2a after it finishes creating issues. Reads the snapshot file from main, searches for all issues created by Agent 2a in the given judge run, matches them to rows in the Files to Review table, and updates each matched row with the issue number and checked date. Commits the updated snapshot to a new branch and opens a pull request back to main. Stops immediately if a judge PR already exists for this label to avoid duplicates."
           HAS_PATCH: ${{ steps.collect_output.outputs.has_patch }}
         with:
@@ -1034,7 +1034,7 @@ jobs:
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
           GH_AW_NOOP_MAX: "1"
-          GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1047,7 +1047,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1060,7 +1060,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
           GH_AW_WORKFLOW_ID: "content-judge-pr"
@@ -1084,7 +1084,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
           GH_AW_NOOP_MESSAGE: ${{ steps.noop.outputs.noop_message }}
@@ -1101,7 +1101,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           GH_AW_AGENT_OUTPUT: ${{ env.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+          GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -1127,7 +1127,7 @@ jobs:
       GH_AW_ENGINE_ID: "copilot"
       GH_AW_ENGINE_MODEL: "gpt-5-mini"
       GH_AW_WORKFLOW_ID: "content-judge-pr"
-      GH_AW_WORKFLOW_NAME: "Content Judge Pr"
+      GH_AW_WORKFLOW_NAME: "Content Judge PR (Agent 2b)"
     outputs:
       code_push_failure_count: ${{ steps.process_safe_outputs.outputs.code_push_failure_count }}
       code_push_failure_errors: ${{ steps.process_safe_outputs.outputs.code_push_failure_errors }}

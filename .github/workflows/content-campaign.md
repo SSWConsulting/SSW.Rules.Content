@@ -12,6 +12,7 @@ description: >
   Agent 2 to inject into issues and Agent 3 to bundle PRs.
   Stops immediately if an open catalog-tracking PR already exists for this
   intent to avoid duplicates.
+name: Content Campaign (Agent 1)
 
 on:
   workflow_dispatch:
@@ -90,7 +91,7 @@ steps:
 tools:
   github:
     toolsets: [default]
-    github-token: "${{ secrets.TINA_GITHUB_PAT }}"
+    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
   tavily:
     tools: [search, search_news]
 

@@ -9,7 +9,7 @@ description: >
   to main.
   Stops immediately if a judge PR already exists for this label to avoid
   duplicates.
-
+name: Content Judge PR (Agent 2b)
 on:
   workflow_dispatch:
     inputs:
@@ -60,7 +60,7 @@ tools:
   github:
     lockdown: false
     toolsets: [issues, repos, pull_requests, search, labels]
-    github-token: "${{ secrets.TINA_GITHUB_PAT }}"
+    github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
 
 post-steps:
   - name: Workflow Summary
