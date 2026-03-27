@@ -55,13 +55,11 @@ flowchart TD
 
 ## Agents
 
-### Agent 1 - Detective
+### Agent 1 - Detective 🕵️
 
 **Files:** `/.github/workflows/content-campaign.md` (GitHub Actions) and `/.claude/commands/content-campaign.md` (Claude Code slash command)
 
 **Trigger:** Manual via GitHub Actions `workflow_dispatch` or Claude Code slash command `/content-campaign`
-
-**Engine:** GitHub Copilot (gpt-5-mini) with Tavily MCP for web search (workflow), or Claude Code (slash command)
 
 The entry point of the pipeline. A human operator provides:
 
@@ -86,15 +84,11 @@ The entry point of the pipeline. A human operator provides:
 
 **Output:** A snapshot file containing an Agent Configuration table and a Files to Review table with every matched file marked as `pending`.
 
-**Lock file:** `content-campaign.lock.yml` wraps the workflow to ensure it runs sequentially.
-
 ---
 
-### Agent 2a - Judge (`/.github/workflows/content-judge.md`)
+### Agent 2a - Judge 🧑‍⚖️ (`/.github/workflows/content-judge.md`)
 
 **Trigger:** Cron or manual `workflow_dispatch`
-
-**Engine:** GitHub Copilot (gpt-5-mini) with Tavily MCP for web search
 
 Picks up the oldest snapshot from the TODO folder and evaluates each pending file against the intent.
 
@@ -102,30 +96,26 @@ Picks up the oldest snapshot from the TODO folder and evaluates each pending fil
 
 1. Discovers the oldest snapshot in `.github/ContentHawk/TODO/`
 2. Parses the snapshot for intent, label, issue preferences, and pending files
-3. Guards against duplicate work — exits if an open PR with `gh-aw-workflow-id: content-judge-pr` exists for the label
-4. Checks issue headroom — exits if 30+ open issues already exist for the label
-5. For each pending file:
+3. Checks issue headroom — exits if 30+ open issues already exist for the label
+4. For each pending file:
    - Reads the file content
    - Judges whether it needs action based on the intent (uses Tavily web search for external context)
    - Opens a labeled GitHub issue if action is needed, or logs it as skipped
-6. Triggers Agent 2b via `workflow_dispatch` in its post-step
+5. Triggers Agent 2b via wo in its post-step
 
 **Guards:**
-- In-flight Judge PR check (avoids duplicate snapshot updates)
+- Will not run if an open PR already already exists for Agent 2b with the same label
 - Open issue limit (max 30 per label)
 - Concurrency group `contenthawk-judge` (no parallel runs)
 
-**Lock file:** `content-judge.lock.yml` wraps this workflow to ensure it runs sequentially.
 
 ---
 
 ### Agent 2b - PR Creator (`/.github/workflows/content-judge-pr.md`)
 
-**Trigger:** `workflow_dispatch` from Agent 2a's post-step
+**Trigger:** Triggered by Agent 2a's post-step
 
-**Engine:** GitHub Copilot (gpt-5-mini)
-
-Updates the snapshot file with the results of Agent 2a's judging.
+Updates the snapshot.md file with the results of Agent 2a's judging.
 
 **Inputs (from Agent 2a):**
 
@@ -144,15 +134,12 @@ Updates the snapshot file with the results of Agent 2a's judging.
 5. Updates snapshot rows: `pending` -> `Issue #<number>` or `skipped`
 6. Opens a PR on branch `ContentHawk/judge/<label>` with the updated snapshot
 
-**Lock file:** `content-judge-pr.lock.yml` wraps this workflow to ensure it runs sequentially.
-
 ---
 
 ### Agent 3a - Fixer (`/.github/workflows/content-fixer.md`)
 
-**Trigger:** Cron or manual `workflow_dispatch`
+**Trigger:** `cron` or manual `workflow_dispatch`
 
-**Engine:** GitHub Copilot (gpt-5-mini) with Tavily MCP for web search
 
 Reads open issues for a snapshot's label and applies content fixes.
 
@@ -174,15 +161,11 @@ Reads open issues for a snapshot's label and applies content fixes.
 - Concurrency group `contenthawk-fixer` (no parallel runs)
 - Max 5 PRs per run (safe-output limit)
 
-**Lock file:** `content-fixer.lock.yml` wraps this workflow to ensure it runs sequentially.
-
 ---
 
 ### Agent 3b - Snapshot Done (`/.github/workflows/content-snapshot-done.md`)
 
 **Trigger:** Issue closed with `gh-aw-workflow-id: content-judge` in the body
-
-**Engine:** GitHub Copilot (gpt-5-mini)
 
 Checks whether a snapshot is fully complete when a ContentHawk judge issue is closed.
 
@@ -198,8 +181,6 @@ Checks whether a snapshot is fully complete when a ContentHawk judge issue is cl
 - Pre-step checks for `gh-aw-workflow-id: content-judge` in the issue body
 - Exits early if pending rows remain or any referenced issue is still open
 - Concurrency group `contenthawk-snapshot-done` (no parallel runs)
-
-**Lock file:** `content-snapshot-done.lock.yml` wraps this workflow to ensure it runs sequentially.
 
 ---
 
@@ -265,34 +246,3 @@ Each agentic workflow has a corresponding `.lock.yml` wrapper that ensures seque
 |------|---------|---------|
 | Tavily Search | Agents 1, 2a, 3a | Web search for external context during scanning/judging/fixing |
 | `list-snapshots` MCP script | Agents 2a, 3a | Lists snapshot files in TODO folder, sorted oldest-first |
-
-## File Structure
-
-```
-.github/
-├── ContentHawk/
-│   ├── TODO/                              # Active snapshots
-│   │   └── YYYY-MM-DD_Snapshot_<label>.md
-│   ├── DONE/                              # Completed snapshots
-│   │   └── YYYY-MM-DD_Snapshot_<label>.md
-│   └── README.md                          # This file
-├── actions/
-│   └── guard-open-pr/
-│       └── action.yml                     # Reusable duplicate-PR guard
-└── workflows/
-    ├── content-campaign.md                # Agent 1 (Detective)
-    ├── content-campaign.lock.yml          # Lock wrapper for Agent 1
-    ├── content-judge.md                   # Agent 2a (Judge)
-    ├── content-judge.lock.yml             # Lock wrapper for Agent 2a
-    ├── content-judge-pr.md                # Agent 2b (PR Creator)
-    ├── content-judge-pr.lock.yml          # Lock wrapper for Agent 2b
-    ├── content-fixer.md                   # Agent 3a (Fixer)
-    ├── content-fixer.lock.yml             # Lock wrapper for Agent 3a
-    ├── content-snapshot-done.md           # Agent 3b (Snapshot Done)
-    ├── content-snapshot-done.lock.yml     # Lock wrapper for Agent 3b
-    ├── mcp-scripts/                       # MCP script definitions
-    └── mcp-config/                        # MCP server configuration
-.claude/
-└── commands/
-    └── content-campaign.md                # Agent 1 (Detective) slash command
-```
