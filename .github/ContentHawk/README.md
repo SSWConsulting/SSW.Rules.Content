@@ -41,8 +41,7 @@ flowchart TD
     H["Agent 3b (Snapshot Done)<br/>
     ─────────────<br/>
     content-snapshot-done.md<br/>
-    On issue closed<br/>
-    Moves to /DONE"]
+    "]
 
     I{"All snapshot.md <br/> items checked?"}
 
