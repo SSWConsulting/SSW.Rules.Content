@@ -1,30 +1,66 @@
 {
   "type": "object",
   "properties": {
-    "seoDescription": {
-      "type": "string"
+    "type": {
+      "type": "string",
+      "const": "rule"
     },
     "title": {
       "type": "string"
     },
     "uri": {
-      "type": "string",
-      "format": "uri-reference"
-    },
-    "type": {
-      "type": "string",
-      "const": "rule"
-    },
-    "archivedreason": {
-      "type": ["string", "null"]
+      "type": "string"
     },
     "guid": {
       "type": "string",
       "format": "uuid"
     },
+    "seoDescription": {
+      "type": "string"
+    },
+    "sidebarVideo": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
     "created": {
       "type": "string",
       "format": "date-time"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "createdByEmail": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastUpdatedBy": {
+      "type": "string"
+    },
+    "lastUpdatedByEmail": {
+      "type": "string"
+    },
+    "isArchived": {
+      "type": "boolean"
+    },
+    "archivedreason": {
+      "type": ["string", "null"]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          }
+        },
+        "required": ["category"]
+      }
     },
     "authors": {
       "type": "array",
@@ -45,8 +81,13 @@
     "related": {
       "type": ["array", "null"],
       "items": {
-        "type": "string",
-        "format": "uri-reference"
+        "type": "object",
+        "properties": {
+          "rule": {
+            "type": "string"
+          }
+        },
+        "required": ["rule"]
       }
     },
     "redirects": {
@@ -56,16 +97,19 @@
       }
     }
   },
-  "required": ["seoDescription", "type", "title", "guid", "uri", "authors"],
+  "required": ["type", "title", "guid", "uri", "seoDescription", "authors"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
-      "title": "'title' cannot be empty.",
       "type": "'type' must be set to 'rule'.",
-      "archivedreason": "'archivedreason' must be deleted or left empty.",
+      "title": "'title' cannot be empty.",
       "guid": "'guid' must be a valid GUID.",
       "uri": "'uri' must not be empty.",
-      "authors": "'authors' must be valid content."
+      "seoDescription": "'seoDescription' cannot be empty.",
+      "authors": "'authors' must be valid content with 'title' and 'url' for each entry.",
+      "related": "'related' must be a list of objects each with a 'rule' file path.",
+      "categories": "'categories' must be a list of objects each with a 'category' file path.",
+      "archivedreason": "'archivedreason' must be a string or null."
     }
   }
 }
