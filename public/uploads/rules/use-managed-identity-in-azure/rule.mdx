@@ -12,9 +12,9 @@ seoDescription: Learn why Managed Identity should be your default authentication
 created: 2025-11-27T05:54:17.000Z
 createdBy: 'Ben Neoh [SSW]'
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
-lastUpdated: 2026-03-20T05:45:55.437Z
-lastUpdatedBy: Ben Neoh
-lastUpdatedByEmail: benneoh@ssw.com.au
+lastUpdated: 2026-03-30T06:08:48.073Z
+lastUpdatedBy: Matt Wicks
+lastUpdatedByEmail: MattWicks@ssw.com.au
 isArchived: false
 ---
 
@@ -52,9 +52,22 @@ Using secrets (even when placed in Key Vault as static keys) creates manual work
 
 * Eliminates all secrets and keys
 * More secure – nothing to leak
+* Integrates with Azure RBAC
 * Supported by all Azure SDKs
 * Automatically rotates
 * Free
+
+***
+
+## RBAC – fine-grained, auditable access control
+
+Managed Identities work hand-in-hand with **Azure Role-Based Access Control (RBAC)**. Instead of sharing a connection string or secret, you assign a specific role to the identity on the target resource (e.g. `Key Vault Secrets User`, `Storage Blob Data Reader`).
+
+This means:
+
+* **Least privilege** – each identity gets only the permissions it needs
+* **Auditability** – access grants are visible in Azure IAM, not buried in config files or DevOps variables
+* **Easy revocation** – remove a role assignment and access is gone instantly, no key rotation needed
 
 ***
 
