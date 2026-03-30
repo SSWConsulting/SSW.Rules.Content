@@ -20,7 +20,7 @@ seoDescription: Do you link emails to the rule or template they follow?
 created: 2012-03-20T15:13:20.000Z
 createdBy: Griffen Edge
 createdByEmail: GriffenEdge@ssw.com.au
-lastUpdated: 2026-03-29T22:58:21.314Z
+lastUpdated: 2026-03-30T03:39:50.436Z
 lastUpdatedBy: 'Jake Bayliss [SSW]'
 lastUpdatedByEmail: jakebayliss@ssw.com.au
 archivedreason: null
@@ -41,7 +41,7 @@ It also saves time if another employee needs to send one of these out later, as 
   figure=""
 />
 
-In order for other people to recognize emails following **rules** and **standards**, it's a good idea to include something like "**\<This email was sent as per &#123;&#123; LINK &#125;&#125;>**" at the end of your email.
+In order for other people to recognize emails following **rules** and **standards**, it's a good idea to include something like "**\<This email was sent as per {{ LINK }}>**" at the end of your email.
 
 Even when the rule or standard doesn't include an actual email template, but you want to empathize you are following it, it is still valid to include that link at the bottom, so the other person can get easily get more information.
 
@@ -59,7 +59,9 @@ Even when the rule or standard doesn't include an actual email template, but you
     
     Need an answer on this ASAP, please
     
-    &lt;This email was sent as per [Do you know how to follow up an unanswered email?](/do-you-know-how-to-follow-up-an-unanswered-email)&gt;
+    \<This email was sent as per [Do you know how to follow up an unanswered email?](/do-you-know-how-to-follow-up-an-unanswered-email)>
+    
+    \<This email was sent as per {{ LINK }}>
     
     ...
   </>}
