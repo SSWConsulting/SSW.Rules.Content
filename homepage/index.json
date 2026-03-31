@@ -28,5 +28,17 @@
   "joinConversation": {
     "hashtag": "SSWRules",
     "platformUrl": "https://twitter.com/intent/tweet?hashtags=SSWRules%2C&original_referer=https%3A%2F%2Fwww.ssw.com.au%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Ehashtag%7Ctwgr%5ESSWRules"
+  },
+  "quickLinks": {
+    "links": [
+      {
+        "linkText": "SSW Rules Wiki",
+        "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki"
+      },
+      {
+        "linkText": "SSW Rules Channel",
+        "uri": "https://www.youtube.com/@sswrules"
+      }
+    ]
   }
 }
