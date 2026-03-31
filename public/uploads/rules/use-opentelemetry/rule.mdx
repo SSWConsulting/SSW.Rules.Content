@@ -1,0 +1,204 @@
+---
+type: rule
+title: Do you use OpenTelemetry for observability?
+uri: use-opentelemetry
+authors:
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani/'
+related:
+  - rule: public/uploads/rules/use-structured-logging/rule.mdx
+  - rule: public/uploads/rules/how-to-set-up-application-insights/rule.mdx
+  - rule: public/uploads/rules/avoid-reviewing-performance-without-metrics/rule.mdx
+  - rule: public/uploads/rules/infrastructure-health-checks/rule.mdx
+redirects: []
+created: 2026-03-22T00:00:00.000Z
+archivedreason: null
+guid: 6c2951c3-b636-49a0-96c2-39896ee1a2af
+seoDescription: Learn why you should use OpenTelemetry for vendor-neutral observability in modern cloud applications with distributed tracing, metrics, and logs.
+categories:
+  - category: categories/software-engineering/rules-to-better-application-insights.mdx
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.mdx
+---
+
+Modern cloud applications are complex distributed systems where a single user request might touch dozens of services. When something breaks, you need comprehensive observability to understand what happened. Traditional monitoring tools often lock you into a specific vendor or don't provide the full picture across your entire stack.
+
+OpenTelemetry is the industry-standard, vendor-neutral framework for collecting telemetry data (traces, metrics, and logs) from your applications. It's backed by the Cloud Native Computing Foundation and has become the dominant observability framework in 2026.
+
+<endIntro />
+
+## Why OpenTelemetry?
+
+### ✅ Benefits
+
+* **Vendor neutrality** - No lock-in. Send telemetry to Application Insights, Datadog, Grafana, or any other backend
+* **Industry standard** - Single set of APIs and conventions across languages and platforms
+* **Comprehensive coverage** - Distributed tracing, metrics, and logs in one framework
+* **Future-proof** - Microsoft, Google, AWS, and other major vendors have adopted OpenTelemetry
+* **Rich instrumentation** - Automatic instrumentation for popular libraries (ASP.NET Core, HttpClient, Entity Framework, etc.)
+
+### ❌ Problems without OpenTelemetry
+
+* Vendor lock-in with proprietary SDKs
+* Inconsistent telemetry across different services
+* Difficult to correlate traces across service boundaries
+* Hard to switch observability backends when requirements change
+* Missing distributed tracing context in complex workflows
+
+## OpenTelemetry vs Application Insights
+
+Azure Application Insights has moved to OpenTelemetry-based implementations. Since 2023, the Azure Monitor OpenTelemetry Distro is now the recommended approach for new .NET applications.
+
+**Key point:** You can use OpenTelemetry APIs and still send data to Application Insights - you get the best of both worlds.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Recommended approach (2026):** Use OpenTelemetry instrumentation with Azure Monitor OpenTelemetry Distro. This gives you standard APIs with full Application Insights integration.
+  </>}
+  figurePrefix="none"
+/>
+
+## Getting started with OpenTelemetry in .NET
+
+### 1. Install the package
+
+For ASP.NET Core applications sending to Azure Monitor:
+
+```bash
+dotnet add package Azure.Monitor.OpenTelemetry.AspNetCore
+```
+
+For other scenarios:
+
+```bash
+dotnet add package OpenTelemetry.Extensions.Hosting
+dotnet add package OpenTelemetry.Instrumentation.AspNetCore
+dotnet add package OpenTelemetry.Instrumentation.Http
+```
+
+### 2. Configure in Program.cs
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+// Add OpenTelemetry with Azure Monitor
+builder.Services.AddOpenTelemetry()
+    .UseAzureMonitor(options =>
+    {
+        options.ConnectionString = builder.Configuration["ApplicationInsights:ConnectionString"];
+    });
+
+var app = builder.Build();
+```
+
+### 3. Add custom instrumentation
+
+```csharp
+using System.Diagnostics;
+
+public class OrderService
+{
+    private static readonly ActivitySource ActivitySource = new("MyApp.OrderService");
+
+    public async Task<Order> ProcessOrder(string orderId)
+    {
+        using var activity = ActivitySource.StartActivity("ProcessOrder");
+        activity?.SetTag("order.id", orderId);
+
+        // Your business logic here
+        await Task.Delay(100);
+
+        activity?.SetTag("order.status", "completed");
+        return new Order { Id = orderId };
+    }
+}
+
+// Register the activity source in Program.cs
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracing => tracing
+        .AddSource("MyApp.OrderService"));
+```
+
+## Best practices
+
+### Manage cardinality
+
+High-cardinality data (e.g., user IDs in metric tags) can explode costs and impact performance.
+
+**❌ Bad example - High cardinality**
+
+```csharp
+// Don't use unique IDs as metric dimensions
+meter.CreateCounter<int>("orders.processed")
+    .Add(1, new KeyValuePair<string, object?>("user.id", userId)); // ❌ High cardinality!
+```
+
+**✅ Good example - Low cardinality**
+
+```csharp
+// Use categories instead
+meter.CreateCounter<int>("orders.processed")
+    .Add(1, new KeyValuePair<string, object?>("user.tier", "premium")); // ✅ Low cardinality
+```
+
+### Use semantic conventions
+
+Follow [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/) for consistent naming.
+
+**❌ Bad example - Custom naming**
+
+```csharp
+activity?.SetTag("userId", userId); // ❌ Non-standard
+activity?.SetTag("dbQuery", query); // ❌ Non-standard
+```
+
+**✅ Good example - Semantic conventions**
+
+```csharp
+activity?.SetTag("enduser.id", userId); // ✅ Standard convention
+activity?.SetTag("db.statement", query); // ✅ Standard convention
+```
+
+### Proper lifecycle management
+
+In .NET applications with dependency injection, let DI manage the lifecycle to ensure proper flushing.
+
+**❌ Bad example - Manual disposal**
+
+```csharp
+// Don't manually create and dispose
+var tracerProvider = Sdk.CreateTracerProviderBuilder()
+    .AddSource("MyApp")
+    .Build();
+// May not flush properly! ❌
+```
+
+**✅ Good example - DI-managed**
+
+```csharp
+// Let DI handle lifecycle
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracing => tracing
+        .AddSource("MyApp")); // ✅ Properly managed
+```
+
+## Hybrid approach
+
+You can send different telemetry to different backends:
+
+```csharp
+builder.Services.AddOpenTelemetry()
+    .WithTracing(tracing => tracing
+        .AddSource("MyApp")
+        .AddAzureMonitorTraceExporter() // Critical traces to App Insights
+        .AddOtlpExporter()) // High-volume to self-hosted backend
+    .WithMetrics(metrics => metrics
+        .AddMeter("MyApp")
+        .AddAzureMonitorMetricExporter());
+```
+
+## Resources
+
+* [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
+* [Azure Monitor OpenTelemetry](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opentelemetry-enable)
+* [OpenTelemetry .NET Best Practices](https://opentelemetry.io/docs/languages/dotnet/metrics/best-practices/)
