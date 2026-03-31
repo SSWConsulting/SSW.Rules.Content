@@ -40,7 +40,7 @@
       "type": ["string", "null"]
     }
   },
-  "required": ["type", "title", "index", "uri"],
+  "required": ["title", "index", "uri"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {

@@ -69,7 +69,7 @@
       "type": ["string", "null"]
     }
   },
-  "required": ["type", "title", "index", "uri", "guid"],
+  "required": ["title", "index", "uri", "guid"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {

@@ -97,7 +97,7 @@
       }
     }
   },
-  "required": ["type", "title", "guid", "uri", "seoDescription", "authors"],
+  "required": ["title", "guid", "uri", "seoDescription", "authors"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
