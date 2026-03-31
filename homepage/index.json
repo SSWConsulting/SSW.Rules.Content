@@ -1,0 +1,44 @@
+{
+  "tagline": "Best Practices for Better Software & Better Teams",
+  "aboutSsw": {
+    "title": "About SSW",
+    "body": "SSW Consulting has over 30 years of experience developing awesome Microsoft solutions that today build on top of Angular, React, Azure, Azure DevOps, SharePoint, Office 365, .NET Core, WebAPI, Dynamics 365, and SQL Server. With 40+ consultants in 5 countries, we have delivered the best in the business to more than 1,000 clients in 15 countries."
+  },
+  "needHelp": {
+    "title": "Need help?",
+    "description": "SSW Consulting has over 30 years of experience developing awesome software solutions.",
+    "buttonText": "Book a free initial meeting",
+    "jotFormId": "233468468973070"
+  },
+  "helpImprove": {
+    "title": "Help Improve Our Rules",
+    "quote": "The SSW Rules website works just like Wikipedia. If you think something should be changed, hit the pencil icon and make an edit! Or if you are cool",
+    "tweetUrl": "https://twitter.com/adamcogan",
+    "personName": "Adam Cogan",
+    "personTitle": "Chief Software Architect at SSW",
+    "personImage": "https://adamcogan.com/wp-content/uploads/2018/07/adam-bw.jpg",
+    "personProfileUrl": "https://www.ssw.com.au/people/adam-cogan"
+  },
+  "whyRules": {
+    "title": "Why All These Rules?",
+    "linkText": "History of SSW Rules",
+    "linkUrl": "https://www.codemag.com/article/0605091",
+    "description": ", published in CoDe Magazine."
+  },
+  "joinConversation": {
+    "hashtag": "SSWRules",
+    "platformUrl": "https://twitter.com/intent/tweet?hashtags=SSWRules%2C&original_referer=https%3A%2F%2Fwww.ssw.com.au%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Ehashtag%7Ctwgr%5ESSWRules"
+  },
+  "quickLinks": {
+    "links": [
+      {
+        "linkText": "SSW Rules Wiki",
+        "uri": "https://github.com/SSWConsulting/SSW.Rules.Content/wiki"
+      },
+      {
+        "linkText": "SSW Rules Channel",
+        "uri": "https://www.youtube.com/@sswrules"
+      }
+    ]
+  }
+}
