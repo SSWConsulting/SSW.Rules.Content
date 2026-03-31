@@ -12,8 +12,7 @@
   },
   "helpImprove": {
     "title": "Help Improve Our Rules",
-    "quote": "The SSW Rules website works just like Wikipedia. If you think something should be changed, hit the pencil icon and make an edit! Or if you are cool",
-    "tweetUrl": "https://twitter.com/adamcogan",
+    "quote": "The SSW Rules website works just like Wikipedia. If you think something should be changed, hit the pencil icon and make an edit! Or if you are cool [tweet me](https://twitter.com/adamcogan)\n",
     "personName": "Adam Cogan",
     "personTitle": "Chief Software Architect at SSW",
     "personImage": "https://adamcogan.com/wp-content/uploads/2018/07/adam-bw.jpg",
@@ -21,9 +20,7 @@
   },
   "whyRules": {
     "title": "Why All These Rules?",
-    "linkText": "History of SSW Rules",
-    "linkUrl": "https://www.codemag.com/article/0605091",
-    "description": ", published in CoDe Magazine."
+    "body": "Read about the [History of SSW Rules](https://www.codemag.com/article/0605091), published in CoDe Magazine.\n"
   },
   "joinConversation": {
     "hashtag": "SSWRules",
