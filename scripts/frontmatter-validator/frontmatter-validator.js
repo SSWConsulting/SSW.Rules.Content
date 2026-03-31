@@ -38,6 +38,80 @@ function loadSchema(schemaPath) {
   return json;
 }
 
+/**
+ * Checks whether a file path matches one of the three recognized content-type patterns.
+ * Returns null if the path is valid (or not a content file), or an error string if misplaced.
+ *
+ * Valid patterns:
+ *   Rule:         public/uploads/rules/<rule-name>/rule.mdx
+ *   Category:     categories/<top-category-name>/<category-name>.mdx
+ *   Top Category: categories/<top-category-name>/index.mdx
+ */
+function getFilePathError(filePath) {
+  // Normalize: convert backslashes, strip the ../../ prefix added when processing diffs
+  const normalized = filePath.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '');
+
+  // Valid patterns — no error
+  if (/^public\/uploads\/rules\/[^/]+\/rule\.mdx$/.test(normalized)) return null;
+  if (/^categories\/index\.mdx$/.test(normalized)) return null;         // main (skipped elsewhere)
+  if (/^categories\/[^/]+\/[^/]+\.mdx$/.test(normalized)) return null; // category or top-category
+
+  // Only flag files that appear to be attempting to be content
+  const inPublicUploads = normalized.startsWith('public/');
+  const inCategories = normalized.startsWith('categories/');
+  const inOldRulesDir = normalized.startsWith('rules/'); // legacy Gatsby location
+
+  if (!inPublicUploads && !inCategories && !inOldRulesDir) return null;
+
+  // --- public/uploads/rules/... ---
+  if (inPublicUploads && normalized.includes('/rules/')) {
+    const afterRules = normalized.split('/rules/')[1] || '';
+    const parts = afterRules.split('/').filter(Boolean);
+
+    if (parts.length === 1) {
+      return (
+        `Rule file is missing its named subfolder.\n` +
+        `  Expected: \`public/uploads/rules/<rule-name>/rule.mdx\``
+      );
+    }
+
+    if (parts.length === 2 && parts[1] !== 'rule.mdx') {
+      return (
+        `Rule file must be named \`rule.mdx\`, not \`${parts[1]}\`.\n` +
+        `  Expected: \`public/uploads/rules/${parts[0]}/rule.mdx\``
+      );
+    }
+  }
+
+  // --- categories/... ---
+  if (inCategories) {
+    const parts = normalized.slice('categories/'.length).split('/').filter(Boolean);
+
+    if (parts.length === 1 && parts[0] !== 'index.mdx') {
+      return (
+        `Category file \`${parts[0]}\` is missing the top-category subfolder.\n` +
+        `  For a subcategory:  \`categories/<top-category-name>/<category-name>.mdx\`\n` +
+        `  For a top category: \`categories/<top-category-name>/index.mdx\``
+      );
+    }
+  }
+
+  // --- rules/... (legacy Gatsby location) ---
+  if (inOldRulesDir) {
+    return (
+      `File is in the legacy \`rules/\` directory. Rule files have moved.\n` +
+      `  Expected: \`public/uploads/rules/<rule-name>/rule.mdx\``
+    );
+  }
+
+  return (
+    `File does not match any recognized content type.\n` +
+    `  Rule:         \`public/uploads/rules/<rule-name>/rule.mdx\`\n` +
+    `  Category:     \`categories/<top-category-name>/<category-name>.mdx\`\n` +
+    `  Top Category: \`categories/<top-category-name>/index.mdx\``
+  );
+}
+
 function determineCategory(filePath) {
   const isRule = filePath.endsWith('rule.mdx');
   const isInCategories =
@@ -75,9 +149,17 @@ function validateFrontmatter(filePath) {
   if (!fs.existsSync(filePath) || filePath.indexOf('.github') !== -1) {
     return; // Skip if file does not exist or is in .github directory
   }
+
+  // Check the file is in a recognized content-type location
+  const pathError = getFilePathError(filePath);
+  if (pathError) {
+    allErrors.push({ filePath, fileErrors: [pathError] });
+    return;
+  }
+
   const ruleType = determineCategory(filePath);
   if (!ruleType) {
-    return; // Skip files that are not rules or categories
+    return; // Valid non-content file — nothing to validate
   }
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const frontmatterContents = extractFrontMatter(fileContents);
