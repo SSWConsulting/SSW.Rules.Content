@@ -8,38 +8,76 @@
     "title": {
       "type": "string"
     },
-    "index": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "uri": {
-      "type": "string",
-      "format": "uri-reference"
+      "type": "string"
     },
     "guid": {
       "type": "string",
       "format": "uuid"
     },
-    "experts": {
-      "type": "string",
-      "format": "uri-reference"
+    "seoDescription": {
+      "type": "string"
     },
     "consulting": {
+      "type": "string"
+    },
+    "experts": {
+      "type": "string"
+    },
+    "redirects": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string"
+      }
+    },
+    "index": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule": {
+            "type": "string"
+          }
+        },
+        "required": ["rule"]
+      }
+    },
+    "created": {
       "type": "string",
-      "format": "uri-reference"
+      "format": "date-time"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "createdByEmail": {
+      "type": "string"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "lastUpdatedBy": {
+      "type": "string"
+    },
+    "lastUpdatedByEmail": {
+      "type": "string"
+    },
+    "isArchived": {
+      "type": "boolean"
+    },
+    "archivedreason": {
+      "type": ["string", "null"]
     }
   },
   "required": ["type", "title", "index", "uri", "guid"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
-      "title": "'title' cannot be empty.",
       "type": "'type' must be set to 'category'.",
-      "index": "'index' must be a markdown list of URIs of the rules composing the category.",
+      "title": "'title' cannot be empty.",
       "guid": "'guid' must be a valid GUID.",
-      "uri": "'uri' must not be empty."
+      "uri": "'uri' must not be empty.",
+      "index": "'index' must be a list of objects each with a 'rule' file path."
     }
   }
 }
