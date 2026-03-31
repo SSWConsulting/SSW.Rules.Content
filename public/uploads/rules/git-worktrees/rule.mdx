@@ -14,7 +14,7 @@ seoDescription: 'Learn how to use Git worktrees to run parallel AI coding agent 
 created: 2026-03-30T05:33:05.620Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-03-31T06:04:36.131Z
+lastUpdated: 2026-03-31T06:06:59.778Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -100,6 +100,18 @@ cd ../my-project-feature
 git worktree remove ../my-project-feature
 ```
 
+## Handling environment files
+
+Git worktrees are fresh checkouts - they don't include files that have been added to `.gitignore` such as `.env` or `node_modules/`. For AI coding tools with built-in worktree support (like Claude Code), you can create a `.worktreeinclude` file in your project root to specify which git ignored files should be copied into new worktrees:
+
+```text
+.env
+.env.local
+config/secrets.json
+```
+
+For manual worktrees, remember to copy over necessary environment files and run your dependency installation (e.g. `npm install`, `pip install`) before starting your agent session.
+
 ## Why do git worktrees work so well for AI-assisted development?
 
 AI Agents such as Claude Code and OpenAI Codex work by reading, editing, and creating files inside of your repository as they work. When you run a single session, this works without issue. However, in modern AI-assisted workflows increasingly involve parallel sessions with multiple agents working on independent tasks simultaneously.
@@ -127,18 +139,6 @@ Without the isolation that git worktrees provides, parallel sessions will most l
   figure="Isolated worktrees let parallel sessions work without conflicts"
   style="greybox"
 />
-
-## Handling environment files
-
-Git worktrees are fresh checkouts - they don't include files that have been added to `.gitignore` such as `.env` or `node_modules/`. For AI coding tools with built-in worktree support (like Claude Code), you can create a `.worktreeinclude` file in your project root to specify which git ignored files should be copied into new worktrees:
-
-```text
-.env
-.env.local
-config/secrets.json
-```
-
-For manual worktrees, remember to copy over necessary environment files and run your dependency installation (e.g. `npm install`, `pip install`) before starting your agent session.
 
 <boxEmbed
   body={<>
