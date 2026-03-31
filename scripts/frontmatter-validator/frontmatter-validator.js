@@ -33,20 +33,11 @@ function loadSchema(schemaPath) {
     ? `scripts/frontmatter-validator/${schemaPath}`
     : schemaPath;
 
-  // todo fix for non file input
   const json = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
   return json;
 }
 
-/**
- * Checks whether a file path matches one of the three recognized content-type patterns.
- * Returns null if the path is valid (or not a content file), or an error string if misplaced.
- *
- * Valid patterns:
- *   Rule:         public/uploads/rules/<rule-name>/rule.mdx
- *   Category:     categories/<top-category-name>/<category-name>.mdx
- *   Top Category: categories/<top-category-name>/index.mdx
- */
+// Returns null if the path is valid or not a content file, or an error string if misplaced.
 function getFilePathError(filePath) {
   // Normalize: convert backslashes, strip the ../../ prefix added when processing diffs
   const normalized = filePath.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '');
@@ -147,7 +138,7 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
 function validateFrontmatter(filePath) {
   if (filePath && filePath.endsWith('/categories/index.mdx')) return;
   if (!fs.existsSync(filePath) || filePath.indexOf('.github') !== -1) {
-    return; // Skip if file does not exist or is in .github directory
+    return;
   }
 
   // Check the file is in a recognized content-type location
