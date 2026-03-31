@@ -33,7 +33,7 @@ Unlike cloning a repository multiple times, worktrees share the same `.git` data
 
 <boxEmbed
   body={<>
-    Fun Fact: Git worktrees has been around as a built-in feature of Git since 2015, however, before AI assisted developments, developers primarily worked on one branch at a time, switching branches when needing to work on something else, making it a niche feature few used.
+    **Fun fact:** Git worktrees has been around as a built-in feature of Git since 2015, however, before AI assisted developments, developers primarily worked on one branch at a time, switching branches when needing to work on something else, making it a niche feature few used.
     
     But with the advent of AI assisted development and improvements in AI tools such as Claude Code and Codex, worktrees are a necessary tool to achieve maximum efficiency during AI-assisted development.
   </>}
@@ -73,8 +73,8 @@ Git worktrees in Claude Code are created at:
 
 and branch from the default remote branch. When you exit a session, it does one of two things:
 
-1. If no changes were made: the worktree and branch are cleaned up automatically
-2. If changes or commits exist - Claude Code will prompt you to decide whether to keep or remove the worktree
+1. If no changes were made... the worktree and branch are cleaned up automatically
+2. If changes or commits exist... Claude Code will prompt you to decide whether to keep or remove the worktree
 
 Claude Code's Subagents can also use Git worktree isolation by setting `isolation:worktree` inside of the agent's frontmatter. This gives each Subagent generated its own copy of the codebase to work in parallel without conflicts.
 
@@ -149,7 +149,9 @@ Without the isolation that Git worktrees provides, parallel sessions will most l
   style="tips"
 />
 
-## Learn More
+---
+
+### Learn more
 
 * [Git worktree Documentation](https://git-scm.com/docs/git-worktree) - Official Git documentation for worktrees
 * [Claude Code - Parallel Sessions with Git worktrees](https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees) - Claude Code's built-in worktree support
