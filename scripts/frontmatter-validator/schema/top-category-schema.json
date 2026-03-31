@@ -1,10 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "type": {
-      "type": "string",
-      "const": "top-category"
-    },
     "title": {
       "type": "string"
     },
@@ -44,7 +40,6 @@
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
-      "type": "'type' must be set to 'top-category'.",
       "title": "'title' cannot be empty.",
       "uri": "'uri' must not be empty.",
       "index": "'index' must be a list of objects each with a 'category' file path."
