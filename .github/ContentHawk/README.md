@@ -61,6 +61,8 @@ flowchart TD
 
 **Trigger:** Manual via GitHub Actions `workflow_dispatch` or Claude Code slash command `/content-campaign`
 
+> **Note**: The /content-campaign command in Claude Code only currently works on `MacOS` due to the `cat` command not being available in the windows command prompt. To trigger the pipeline on Windows, please use the GitHub Actions manual trigger.
+
 The entry point of the pipeline. A human operator provides:
 
 | Input | Description |
