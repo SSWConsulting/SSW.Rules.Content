@@ -34,6 +34,12 @@ Once they have been merged, you can [see them being built and deployed](https://
 * A rule can belong to multiple categories
 * Category pages link to rules via frontmatter data
 
+
+
 ## The SSW Rules engine 🚗
 
 This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
+
+## Agentic Workflows (ContentHawk 🦅)
+
+This reposiory uses GitHub Agentic Workflows to assist in the ongoing maintenance of of content. Using campaigns. For more informaton about these campaigns, and how to create them, refer to the [ContentHawk Documentation](.github/ContentHawk/README.md).
