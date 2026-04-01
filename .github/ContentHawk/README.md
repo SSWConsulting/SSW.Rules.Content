@@ -59,7 +59,7 @@ flowchart TD
 |-------|---------------|-------|
 | Agent 1 (Detective) | Run `/content-campaign` in Claude Code **or** dispatch `content-campaign.lock.yml` from GitHub Actions with all 6 inputs | This agent generates the snapshot file used for the content campaign. The Snapshot file is the source of truth for the campaign, it defines what needs to be reviewed and updated and the progress for the current content campaign. Deleting the snapshot file or moving it from `.github/ContentHawk/TODO` will stop the campaign. |
 | Agent 2a (Judge) | Runs automatically once a week on cron, or manually by triggering `content-judge.lock.yml` | `Agent 2a` is responsible for creating work items to update the content based on the snapshot file. It uses the snapshot files as the source of truth for which kind of content changes need to be made and which files need to be checked. |
-| Agent 2b (PR Creator) | Triggered automatically by `Agent 2a` after it's workflow run completes.   | This agent simply updates the content lock/snapshot file to indicate which issues have been generated to fix each content file and which files have been skipped. |
+| Agent 2b (PR Creator) | Triggered automatically by `Agent 2a` after it's workflow run completes.   | This agent simply updates the content lock/snapshot file to indicate which issues have been generated to fix each content file and which files have been skipped. This action determines which files have issues by searching for issues with a matching label and downloads the list of skipped files from an artifact uploaded by `Agent 2a`. |
 | Agent 3a (Fixer) | Runs automatically on cron once a week, or dispatched manually using `Actions` \| `content-fixer.lock.yml` | Picks up the oldest TODO snapshot, checks for open issues in the snapshot file, and creates PRs with the work necessary to close the issue. |
 | Agent 3b (Snapshot Done) | Triggered either when a ContentHawk issue is closed, or when a change is made to a snapshot file under `.github/ContentHawk/TODO/` | `Agent 3b` is responsible for marking snapshot items as done once all items have been checked and all issues generated have been resolved. If this is the case the agent will move the snapshot corresponding snapshot file to `.github/ContentHawk/DONE/`, ending the campaign. |
 
@@ -87,20 +87,19 @@ The entry point of the pipeline. A human operator provides:
 **What it does:**
 
 1. Guards that the label does not already exist (avoids duplicate pipelines)
-2. Creates the GitHub label with the intent as its description
-3. Scans content files matching the search scope
-4. Filters by relevance to the intent (uses web search if needed)
-5. Extracts metadata (categories, created/updated dates) and sorts by priority
-6. Writes a snapshot tracking file to `.github/ContentHawk/TODO/<date>_Snapshot_<label>.md`
-7. Opens a PR with the snapshot on a `ContentHawk/TODO/<label>` branch
+2. Creates the GitHub label provided by the user
+3. Scans content files matching the user provided search scope
+4. Sorts in the order specified by the user and filters by relevance to the intent (uses web search if needed)
+5. Writes a snapshot tracking file to `.github/ContentHawk/TODO/<date>_Snapshot_<label>.md`
+6. Opens a PR with the snapshot on a `ContentHawk/TODO/<label>` branch
 
-**Output:** A snapshot file containing an Agent Configuration table and a Files to Review table with every matched file marked as `pending`.
+**Output:** A snapshot file containing an Agent Configuration table and a Files to Review table with every matched file marked as `pending` or `skipped`.
 
 ---
 
 ### Agent 2a - Judge 🧑‍⚖️ (`/.github/workflows/content-judge.md`)
 
-**Trigger:** Cron or manual `workflow_dispatch`
+**Trigger:** `cron` (weekly) or manual `workflow_dispatch`
 
 Picks up the oldest snapshot from the TODO folder and evaluates each pending file against the intent.
 
@@ -113,10 +112,10 @@ Picks up the oldest snapshot from the TODO folder and evaluates each pending fil
    - Reads the file content
    - Judges whether it needs action based on the intent (uses Tavily web search for external context)
    - Opens a labeled GitHub issue if action is needed, or logs it as skipped
-5. Triggers Agent 2b via wo in its post-step
+5. Triggers `Agent 2b` via `workflow_dispatch` in its post-step
 
 **Guards:**
-- Will not run if an open PR already already exists for Agent 2b with the same label
+- Will not run if an open PR already already exists for `Agent 2b` with the same label
 - Open issue limit (max 30 per label)
 - Concurrency group `contenthawk-judge` (no parallel runs)
 
@@ -125,9 +124,9 @@ Picks up the oldest snapshot from the TODO folder and evaluates each pending fil
 
 ### Agent 2b - PR Creator (`/.github/workflows/content-judge-pr.md`)
 
-**Trigger:** Triggered by Agent 2a's post-step
+**Trigger:** Triggered by `Agent 2a`'s post-step
 
-Updates the snapshot.md file with the results of Agent 2a's judging.
+Updates the snapshot.md file with the results of `Agent 2a`'s judging.
 
 **Inputs (from Agent 2a):**
 
@@ -159,14 +158,13 @@ Reads open issues for a snapshot's label and applies content fixes.
 
 1. Discovers the oldest snapshot in `.github/ContentHawk/TODO/`
 2. Parses the snapshot for intent, PR preferences, and label
-3. Fetches all open issues with the label
-4. Deduplicates — excludes issues already claimed by existing open fixer PRs
-5. Bundles eligible issues according to PR Preferences (default: 5 per PR, grouped by file path similarity)
+3. Fetches all open in the snapshot file table
+4. Bundles eligible issues according to user specified PR Preferences
 6. For each bundle:
    - Creates a branch `ContentHawk/fixer/<label>/<index>`
    - Reads each file, applies the fix based on the intent and issue suggestions
    - Uses Tavily web search when external context is needed
-   - Commits changes and opens a labeled PR with `Closes #<number>` references
+   - Creates a pull request with the changes and includes the issue number in the PR description as `Closes #<number>`
 
 **Guards:**
 - Deduplication against existing open fixer PRs
@@ -179,11 +177,12 @@ Reads open issues for a snapshot's label and applies content fixes.
 
 **Trigger:** Issue closed with `gh-aw-workflow-id: content-judge` in the body
 
-Checks whether a snapshot is fully complete when a ContentHawk judge issue is closed.
+Checks whether a snapshot is fully complete whenever it is updated or a relevant issue is closed.
 
 **What it does:**
 
 1. Fires when any ContentHawk judge issue is closed (guarded by body marker check)
+or when a snapshot file in TODO is updated (e.g. by `Agent 2b`)
 2. Reads the closed issue's labels to find the matching snapshot in `TODO/`
 3. Parses the Files to Review table — checks no rows are `pending`
 4. Uses GitHub tools to verify all referenced `Issue #N` entries are closed
