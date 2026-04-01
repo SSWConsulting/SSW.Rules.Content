@@ -53,6 +53,16 @@ flowchart TD
     I -- No --> K
 ```
 
+## How to Run
+
+| Agent | How to trigger | Notes |
+|-------|---------------|-------|
+| Agent 1 (Detective) | Run `/content-campaign` in Claude Code **or** dispatch `content-campaign.lock.yml` from GitHub Actions with all 6 inputs | This agent generates the snapshot file used for the content campaign. The Snapshot file is the source of truth for the campaign, it defines what needs to be reviewed and updated and the progress for the current content campaign. Deleting the snapshot file or moving it from `.github/ContentHawk/TODO` will stop the campaign. |
+| Agent 2a (Judge) | Runs automatically once a week on cron, or manually by triggering `content-judge.lock.yml` | `Agent 2a` is responsible for creating work items to update the content based on the snapshot file. It uses the snapshot files as the source of truth for which kind of content changes need to be made and which files need to be checked. |
+| Agent 2b (PR Creator) | Triggered automatically by `Agent 2a` after it's workflow run completes.   | This agent simply updates the content lock/snapshot file to indicate which issues have been generated to fix each content file and which files have been skipped. |
+| Agent 3a (Fixer) | Runs automatically on cron once a week, or dispatched manually using `Actions` \| `content-fixer.lock.yml` | Picks up the oldest TODO snapshot, checks for open issues in the snapshot file, and creates PRs with the work necessary to close the issue. |
+| Agent 3b (Snapshot Done) | Triggered either when a ContentHawk issue is closed, or when a change is made to a snapshot file under `.github/ContentHawk/TODO/` | `Agent 3b` is responsible for marking snapshot items as done once all items have been checked and all issues generated have been resolved. If this is the case the agent will move the snapshot corresponding snapshot file to `.github/ContentHawk/DONE/`, ending the campaign. |
+
 ## Agents
 
 ### Agent 1 - Detective 🕵️
@@ -186,15 +196,7 @@ Checks whether a snapshot is fully complete when a ContentHawk judge issue is cl
 
 ---
 
-## How to Trigger
 
-| Agent | How to trigger | Notes |
-|-------|---------------|-------|
-| Agent 1 (Detective) | Run `/content-campaign` in Claude Code **or** dispatch `content-campaign.lock.yml` from GitHub Actions with all 6 inputs | Requires a unique label name that doesn't already exist |
-| Agent 2a (Judge) | Runs automatically on cron, or dispatch `content-judge.lock.yml` manually | Picks up the oldest TODO snapshot automatically |
-| Agent 2b (PR Creator) | Triggered automatically by Agent 2a's post-step | Do not trigger manually — requires artifacts from Agent 2a |
-| Agent 3a (Fixer) | Runs automatically on cron, or dispatch `content-fixer.lock.yml` manually | Picks up the oldest TODO snapshot automatically |
-| Agent 3b (Snapshot Done) | Triggered automatically when a ContentHawk issue is closed | No manual trigger needed |
 
 ## Snapshot Lifecycle
 
