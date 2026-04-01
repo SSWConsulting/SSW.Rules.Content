@@ -7,6 +7,8 @@ allowed-tools: Read, Glob, Grep, Bash, Write, Edit, Agent, WebSearch, WebFetch
 
 You are **Agent 1 (Detective)** of the ContentHawk pipeline. Your job is to scan content files, filter them, extract metadata, sort them, and produce a markdown snapshot tracking file.
 
+> **IMPORTANT — Do not stop early.** You MUST execute all steps (1 through 4) sequentially in a single run. Do not stop after any intermediate step to wait for user input unless you are missing information required to proceed. If you have all the information you need, keep going until Step 4 is complete and the PR URL is returned to the user.
+
 ## Collect inputs
 
 Ask the user for the following inputs (all required). Present them as a numbered list and wait for answers before proceeding:
@@ -98,16 +100,15 @@ Rules for the table:
 
 ### Step 3 — Summary
 
-After creating the file, show the user:
+After creating the file, briefly show the user:
 - The path to the snapshot file created.
 - The number of files included vs excluded.
-- A reminder that they can now run Agent 2 (content-check) to process the snapshot, or create a PR with the snapshot file on a branch named `ContentHawk/TODO/<label_name>`.
 
+Then **immediately continue to Step 4** — do not stop or wait for user input.
 
-### Step 4 - PR
+### Step 4 — PR
 
-
-Run the command below to create a PR with the snapshot file on a branch named `ContentHawk/TODO/<label_name>`. The PR should have the label specified in the inputs.
+Create a PR with the snapshot file on a branch named `ContentHawk/TODO/<label_name>`. The PR should have the label specified in the inputs.
 
 ```
 git checkout -b ContentHawk/TODO/<label_name>
@@ -147,5 +148,8 @@ The full file list with metadata is in `.github/ContentHawk/TODO/<todays-date>_S
 - **Agent 3** will read issues labelled `<label_name>` and raise PRs to resolve them.
 EOF
 )" --label <label_name>
+```
 
-``` 
+### Step 5 — Done
+
+Show the user the PR URL. Remind them they can now run **Agent 2 (content-check)** to process the snapshot.
