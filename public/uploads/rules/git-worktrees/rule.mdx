@@ -14,7 +14,7 @@ seoDescription: 'Learn how to use Git worktrees to run parallel AI coding agent 
 created: 2026-03-30T05:33:05.620Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-03-31T06:06:59.778Z
+lastUpdated: 2026-04-01T05:30:51.234Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -54,6 +54,15 @@ Git worktrees are most valuable when you need parallel, independent work streams
 ## How do you use Git worktrees with AI?
 
 Often, AI tools such as Claude Code and OpenAI Codex have built-in worktree support, however, because Git worktrees are a built-in feature of Git itself, you can set it up manually for any AI tool, even if there is no support built into your AI tool of choice.
+
+<boxEmbed
+  body={<>
+    With AI Agents with auto memory, such as Claude Code, as each worktree is a “separate working directory”, any memories gained will not be applied to the parent repository.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
 
 ### Claude Code (Recommended)
 
@@ -149,7 +158,7 @@ Without the isolation that Git worktrees provides, parallel sessions will most l
   style="tips"
 />
 
----
+***
 
 ### Learn more
 
