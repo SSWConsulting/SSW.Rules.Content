@@ -56,6 +56,7 @@ network:
     - "*.tavily.com"
 
 safe-outputs:
+  report-failure-as-issue: false
   create-pull-request:
     protected-files: allowed
     allowed-files:
@@ -128,14 +129,6 @@ post-steps:
       else
         echo "_No agent output directory found._" >> "$GITHUB_STEP_SUMMARY"
       fi
-
-  - name: Upload Agent Artifacts
-    if: always()
-    uses: actions/upload-artifact@v4
-    with:
-      name: contenthawk-agent1-results
-      path: /tmp/gh-aw/
-      retention-days: 7
 ---
 
 ## Important context

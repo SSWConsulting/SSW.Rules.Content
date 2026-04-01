@@ -45,9 +45,10 @@ network:
 
 concurrency:
   group: "contenthawk-fixer"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 safe-outputs:
+  report-failure-as-issue: false
   create-pull-request:
     title-prefix: "[Content Fixer] "
     max: 5
@@ -57,8 +58,6 @@ tools:
     lockdown: false
     toolsets: [issues, repos, pull_requests, search, labels]
     github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
-  tavily:
-    tools: [search, search_news]
 
 post-steps:
   - name: Workflow Summary
@@ -83,14 +82,6 @@ post-steps:
       else
         echo "_No agent output directory found._" >> "$GITHUB_STEP_SUMMARY"
       fi
-
-  - name: Upload Agent Artifacts
-    if: always()
-    uses: actions/upload-artifact@v4
-    with:
-      name: contenthawk-agent3-results
-      path: /tmp/gh-aw/
-      retention-days: 7
 ---
 
 ## Important context

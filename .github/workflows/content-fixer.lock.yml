@@ -23,7 +23,7 @@
 #
 # Agent 3 (Fixer) of the ContentHawk pipeline. Runs on a cron schedule (or manually) and picks up the first available snapshot from the TODO folder. Reads the snapshot to obtain the Label, PR Preferences, and Intent, then bundles eligible issues into groups and creates one PR per bundle that applies the content fixes and closes the linked issues. Skips issues already referenced in existing open fixer PRs to avoid duplicate work. Exits gracefully if no snapshot file is found in the TODO folder.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"08a872e0044d8a5b11d9e89f416617d2b7a2d846d06330522903ffe41523d351","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"37ef392177ddaf2488831140da591b7c66b6498ecebe959d572b4588277e5355","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Fixer (Agent 3a)"
 "on":
@@ -34,7 +34,7 @@ name: "Content Fixer (Agent 3a)"
 permissions: {}
 
 concurrency:
-  cancel-in-progress: false
+  cancel-in-progress: true
   group: contenthawk-fixer
 
 run-name: "Content Fixer (Agent 3a)"
@@ -930,14 +930,7 @@ jobs:
           fi
       - if: always()
         name: Workflow Summary
-        run: "echo \"## ContentHawk — Agent 3 (Fixer)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Trigger\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field              | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|--------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Event              | \\`${{ github.event_name }}\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi\n"
-      - if: always()
-        name: Upload Agent Artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: contenthawk-agent3-results
-          path: /tmp/gh-aw/
-          retention-days: 7
+        run: "echo \"## ContentHawk — Agent 3 (Fixer)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Trigger\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field              | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|--------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Event              | \\`${{ github.event_name }}\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi"
 
       - name: Upload agent artifacts
         if: always()
@@ -1161,7 +1154,7 @@ jobs:
           GH_AW_CODE_PUSH_FAILURE_ERRORS: ${{ needs.safe_outputs.outputs.code_push_failure_errors }}
           GH_AW_CODE_PUSH_FAILURE_COUNT: ${{ needs.safe_outputs.outputs.code_push_failure_count }}
           GH_AW_GROUP_REPORTS: "false"
-          GH_AW_FAILURE_REPORT_AS_ISSUE: "true"
+          GH_AW_FAILURE_REPORT_AS_ISSUE: "false"
           GH_AW_TIMEOUT_MINUTES: "20"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}

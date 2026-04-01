@@ -21,15 +21,20 @@
 #
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
-# Agent 4 (Snapshot Done) of the ContentHawk pipeline. Triggered when a ContentHawk judge issue is closed. Reads the labels from the closed issue, finds the matching snapshot in the TODO folder, parses the Files to Review table, and checks whether all rows are non-pending and all referenced issues are closed. If the snapshot is fully complete, moves it from TODO/ to DONE/ via the commit-files safe-output.
+# Agent 4 (Snapshot Done) of the ContentHawk pipeline. Triggered when a ContentHawk judge issue is closed or when a snapshot file is pushed to TODO/. Parses the Files to Review table and checks whether all rows are non-pending and all referenced issues are closed (or all rows are skipped). If the snapshot is fully complete, moves it from TODO/ to DONE/ via the commit-files safe-output.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"68df9f70682fe3796fd7f8f5f0da2dd5548a95e6d307f7446af334cf353d886f","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"83ac3ff993c4a524a2b736266c7bf6ffb8c3330e3233b6b4ea79bf4f9e19d384","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Snapshot Cleanup (Agent 3b)"
 "on":
   issues:
     types:
     - closed
+  push:
+    branches:
+    - main
+    paths:
+    - .github/ContentHawk/TODO/*.md
 
 permissions: {}
 
@@ -281,6 +286,7 @@ jobs:
         run: bash /opt/gh-aw/actions/create_gh_aw_tmp_dir.sh
       - env:
           BODY: ${{ github.event.issue.body }}
+        if: github.event_name == 'issues'
         name: Guard — only ContentHawk judge issues
         run: "if echo \"$BODY\" | grep -qF \"gh-aw-workflow-id: content-judge\"; then\n  echo \"ContentHawk judge issue detected. Proceeding.\"\nelse\n  echo \"Not a ContentHawk judge issue. Exiting.\"\n  exit 1\nfi\n"
 
@@ -645,7 +651,7 @@ jobs:
                   "GITHUB_HOST": "\${GITHUB_SERVER_URL}",
                   "GITHUB_PERSONAL_ACCESS_TOKEN": "\${GITHUB_MCP_SERVER_TOKEN}",
                   "GITHUB_READ_ONLY": "1",
-                  "GITHUB_TOOLSETS": "issues,repos,search,labels,pull_requests"
+                  "GITHUB_TOOLSETS": "issues,search,labels,pull_requests"
                 }
               },
               "safeoutputs": {
@@ -821,10 +827,11 @@ jobs:
             echo 'AWF binary not installed, skipping firewall log summary'
           fi
       - env:
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || '' }}
         if: always()
         name: Workflow Summary
-        run: "echo \"## ContentHawk — Agent 4 (Snapshot Done)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Trigger\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field   | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|---------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Event   | Issue #${ISSUE_NUMBER} closed |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\""
+        run: "echo \"## ContentHawk — Agent 4 (Snapshot Done)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Trigger\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field   | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|---------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ \"$EVENT_NAME\" = \"issues\" ]; then\n  echo \"| Event   | Issue #${ISSUE_NUMBER} closed |\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"| Event   | Push to TODO/ |\" >> \"$GITHUB_STEP_SUMMARY\"\nfi\necho \"\" >> \"$GITHUB_STEP_SUMMARY\""
 
       - name: Upload agent artifacts
         if: always()
@@ -881,7 +888,7 @@ jobs:
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
         env:
           WORKFLOW_NAME: "Content Snapshot Cleanup (Agent 3b)"
-          WORKFLOW_DESCRIPTION: "Agent 4 (Snapshot Done) of the ContentHawk pipeline. Triggered when a ContentHawk judge issue is closed. Reads the labels from the closed issue, finds the matching snapshot in the TODO folder, parses the Files to Review table, and checks whether all rows are non-pending and all referenced issues are closed. If the snapshot is fully complete, moves it from TODO/ to DONE/ via the commit-files safe-output."
+          WORKFLOW_DESCRIPTION: "Agent 4 (Snapshot Done) of the ContentHawk pipeline. Triggered when a ContentHawk judge issue is closed or when a snapshot file is pushed to TODO/. Parses the Files to Review table and checks whether all rows are non-pending and all referenced issues are closed (or all rows are skipped). If the snapshot is fully complete, moves it from TODO/ to DONE/ via the commit-files safe-output."
           HAS_PATCH: ${{ steps.collect_output.outputs.has_patch }}
         with:
           script: |
@@ -1047,7 +1054,7 @@ jobs:
           GH_AW_CODE_PUSH_FAILURE_ERRORS: ${{ needs.safe_outputs.outputs.code_push_failure_errors }}
           GH_AW_CODE_PUSH_FAILURE_COUNT: ${{ needs.safe_outputs.outputs.code_push_failure_count }}
           GH_AW_GROUP_REPORTS: "false"
-          GH_AW_FAILURE_REPORT_AS_ISSUE: "true"
+          GH_AW_FAILURE_REPORT_AS_ISSUE: "false"
           GH_AW_TIMEOUT_MINUTES: "20"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}

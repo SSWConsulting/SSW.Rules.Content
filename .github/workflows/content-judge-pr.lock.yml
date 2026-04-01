@@ -23,7 +23,7 @@
 #
 # Agent 2b (PR Creator) of the ContentHawk pipeline. Triggered by Agent 2a after it finishes creating issues. Reads the snapshot file from main, searches for all issues created by Agent 2a in the given judge run, matches them to rows in the Files to Review table, and updates each matched row with the issue number and checked date. Commits the updated snapshot to a new branch and opens a pull request back to main. Stops immediately if a judge PR already exists for this label to avoid duplicates.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"9fc1b145300fff1f0863abdb94bdf58382826fd3618a5e54edb49708abfdfec8","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"4b4d913deb666fe412ff6f418ba98a503cc432e9bc58527a4550e011ac881617","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Judge PR (Agent 2b)"
 "on":
@@ -42,7 +42,7 @@ name: "Content Judge PR (Agent 2b)"
 permissions: {}
 
 concurrency:
-  cancel-in-progress: false
+  cancel-in-progress: true
   group: contenthawk-judge-pr-${{ inputs.label_name }}
 
 run-name: "Content Judge PR (Agent 2b)"
@@ -840,14 +840,7 @@ jobs:
           INPUT_SNAPSHOT_PATH: ${{ inputs.snapshot_path }}
         if: always()
         name: Workflow Summary
-        run: "echo \"## ContentHawk — Agent 2b (PR Creator)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Inputs\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field            | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Snapshot Path    | $INPUT_SNAPSHOT_PATH |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Label            | \\`$INPUT_LABEL_NAME\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Judge Run ID     | $INPUT_JUDGE_RUN_ID |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi\n"
-      - if: always()
-        name: Upload Agent Artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: contenthawk-agent2b-results
-          path: /tmp/gh-aw/
-          retention-days: 7
+        run: "echo \"## ContentHawk — Agent 2b (PR Creator)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Inputs\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field            | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Snapshot Path    | $INPUT_SNAPSHOT_PATH |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Label            | \\`$INPUT_LABEL_NAME\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Judge Run ID     | $INPUT_JUDGE_RUN_ID |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi"
 
       - name: Upload agent artifacts
         if: always()
@@ -1070,7 +1063,7 @@ jobs:
           GH_AW_CODE_PUSH_FAILURE_ERRORS: ${{ needs.safe_outputs.outputs.code_push_failure_errors }}
           GH_AW_CODE_PUSH_FAILURE_COUNT: ${{ needs.safe_outputs.outputs.code_push_failure_count }}
           GH_AW_GROUP_REPORTS: "false"
-          GH_AW_FAILURE_REPORT_AS_ISSUE: "true"
+          GH_AW_FAILURE_REPORT_AS_ISSUE: "false"
           GH_AW_TIMEOUT_MINUTES: "20"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}

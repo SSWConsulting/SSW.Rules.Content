@@ -48,9 +48,10 @@ network:
 
 concurrency:
   group: "contenthawk-judge"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 safe-outputs:
+  report-failure-as-issue: false
   create-issue:
     title-prefix: "🦅 ContentHawk - Content Audit: "
     max: 30
@@ -62,8 +63,6 @@ tools:
     lockdown: false
     toolsets: [issues, repos, search, labels, pull_requests]
     github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
-  tavily:
-    tools: [search, search_news]
 
 post-steps:
   - name: Check if work was done

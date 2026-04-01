@@ -23,7 +23,7 @@
 #
 # Agent 1 (Detective) of the ContentHawk pipeline. Scans content files based on user-provided search scope, extracts category and date metadata from each file, sorts them by the user's processing priority, and commits a markdown snapshot tracking file to a new branch, then opens a pull request. The snapshot is a markdown table listing every file with its metadata so Agent 2 can iterate over rows to find issues and Agent 3 can raise PRs grouped by the intent label. Also creates a custom GitHub label derived from the user's intent for Agent 2 to inject into issues and Agent 3 to bundle PRs. Stops immediately if an open catalog-tracking PR already exists for this intent to avoid duplicates.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"4745055f72ae7f8c11dbfa22d60d79f5f4c9e21aa2748ad12280ac0ce74ce667","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"8023fbc6c2cdb52fdac64efa5de8438340b1ea450dbc39bc8853fbe2c6d7f58a","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Campaign (Agent 1)"
 "on":
@@ -934,14 +934,7 @@ jobs:
           INPUT_SEARCH_SCOPE: ${{ inputs.search_scope }}
         if: always()
         name: Workflow Summary
-        run: "echo \"## ContentHawk — Agent 1 (Detective)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\n# Show the inputs that were provided\necho \"### Inputs\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field               | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|---------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Search Scope        | $INPUT_SEARCH_SCOPE |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Processing Priority | $INPUT_PROCESSING_PRIORITY |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Intent              | $INPUT_INTENT |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Label               | \\`$INPUT_LABEL_NAME\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\n# List any files the agent created or modified\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi\n"
-      - if: always()
-        name: Upload Agent Artifacts
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: contenthawk-agent1-results
-          path: /tmp/gh-aw/
-          retention-days: 7
+        run: "echo \"## ContentHawk — Agent 1 (Detective)\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\n# Show the inputs that were provided\necho \"### Inputs\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Field               | Value |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"|---------------------|-------|\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Search Scope        | $INPUT_SEARCH_SCOPE |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Processing Priority | $INPUT_PROCESSING_PRIORITY |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Intent              | $INPUT_INTENT |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"| Label               | \\`$INPUT_LABEL_NAME\\` |\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\n\n# List any files the agent created or modified\necho \"### Agent Output\" >> \"$GITHUB_STEP_SUMMARY\"\necho \"\" >> \"$GITHUB_STEP_SUMMARY\"\nif [ -d /tmp/gh-aw ]; then\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\n  find /tmp/gh-aw -type f | head -30 >> \"$GITHUB_STEP_SUMMARY\"\n  echo \"\\`\\`\\`\" >> \"$GITHUB_STEP_SUMMARY\"\nelse\n  echo \"_No agent output directory found._\" >> \"$GITHUB_STEP_SUMMARY\"\nfi"
 
       - name: Upload agent artifacts
         if: always()
@@ -1164,7 +1157,7 @@ jobs:
           GH_AW_CODE_PUSH_FAILURE_ERRORS: ${{ needs.safe_outputs.outputs.code_push_failure_errors }}
           GH_AW_CODE_PUSH_FAILURE_COUNT: ${{ needs.safe_outputs.outputs.code_push_failure_count }}
           GH_AW_GROUP_REPORTS: "false"
-          GH_AW_FAILURE_REPORT_AS_ISSUE: "true"
+          GH_AW_FAILURE_REPORT_AS_ISSUE: "false"
           GH_AW_TIMEOUT_MINUTES: "20"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}

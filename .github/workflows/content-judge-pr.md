@@ -43,13 +43,13 @@ permissions: read-all
 
 concurrency:
   group: "contenthawk-judge-pr-${{ inputs.label_name }}"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 safe-outputs:
+  report-failure-as-issue: false
   create-pull-request:
     title-prefix: "[Content Judge] "
     labels: ["${{ inputs.label_name }}"]
-    # .github/ is protected; allow only ContentHawk snapshots. Use *.md + **/*.md (** alone + .md does not match TODO/2026-03-16_Snapshot_foo.md reliably).
     protected-files: allowed
     allowed-files:
       - .github/ContentHawk/TODO/*.md
@@ -91,14 +91,6 @@ post-steps:
       else
         echo "_No agent output directory found._" >> "$GITHUB_STEP_SUMMARY"
       fi
-
-  - name: Upload Agent Artifacts
-    if: always()
-    uses: actions/upload-artifact@v4
-    with:
-      name: contenthawk-agent2b-results
-      path: /tmp/gh-aw/
-      retention-days: 7
 ---
 
 
@@ -112,14 +104,6 @@ This workflow is **Agent 2b (PR Creator)** in a multi-agent pipeline called **Co
 - **Agent 3 (Fixer)**: Reads issues with the intent label and raises PRs to resolve them.
 
 The snapshot file is **self-contained** — it stores every configuration value Agent 1 received.
-
-## Inputs provided by the caller
-
-| Input            | Value                                  | Used for                                      |
-|------------------|----------------------------------------|-----------------------------------------------|
-| Snapshot Path    | `${{ inputs.snapshot_path }}`          | Locating the snapshot file on main             |
-| Label Name       | `${{ inputs.label_name }}`             | PR label, issue search filter                  |
-| Judge Run ID     | `${{ inputs.judge_run_id }}`           | Filtering issues to the specific Agent 2a run  |
 
 ---
 
