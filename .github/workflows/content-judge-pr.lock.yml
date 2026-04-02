@@ -184,6 +184,7 @@ jobs:
         env:
           GH_AW_PROMPT: /tmp/gh-aw/aw-prompts/prompt.txt
           GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
+          GH_AW_GITHUB_RUN_ID: ${{ github.run_id }}
           GH_AW_GITHUB_SERVER_URL: ${{ github.server_url }}
           GH_AW_INPUTS_JUDGE_RUN_ID: ${{ inputs.judge_run_id }}
           GH_AW_INPUTS_LABEL_NAME: ${{ inputs.label_name }}
