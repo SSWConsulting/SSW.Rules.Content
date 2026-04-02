@@ -18,3 +18,4 @@
 |-------------|----------------|------------|---------------|-------------|-------------|
 | public/uploads/rules/do-you-have-a-dash-cam/rule.mdx | categories/others/rules-to-better-cars.mdx | 2013-03-13 | 2016-11-04 | -           | pending     |
 | public/uploads/rules/do-you-have-an-usb-adaptor-in-your-car/rule.mdx | categories/others/rules-to-better-cars.mdx | 2012-09-27 | 2017-11-24 | -           | pending     |
+<!-- ContentHawk: no-op commit to record check results -->
