@@ -54,11 +54,15 @@ This will stream live status updates until the workflow completes or fails.
 ## After the workflow completes
 
 1. If the workflow **succeeded**, find the PR it created and show the user the link:
+
    ```bash
    gh pr list --label '<label_name>' --json url --jq '.[0].url'
    ```
+
 2. If the workflow **failed**, show the user the failure logs:
+
    ```bash
    gh run view "$RUN_ID" --log-failed
    ```
+
 3. Remind them that once the PR is merged or ready, **Agent 2 (content-check)** can be run to process the snapshot.
