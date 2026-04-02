@@ -1,6 +1,6 @@
 # SSW Rules Content - Copilot Instructions
 
-This repository contains SSW's technical rules and best practices. When working with markdown files in this repository, you have access to several custom markdown extensions and features beyond standard markdown.
+This repository dsadadsa contains SSW's technical rules and best practices. When working with markdown files in this repository, you have access to several custom markdown extensions and features beyond standard markdown.
 
 ## Concepts for Writing Rules
 
