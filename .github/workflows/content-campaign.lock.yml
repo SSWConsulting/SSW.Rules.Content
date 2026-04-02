@@ -308,7 +308,7 @@ jobs:
       - name: Create gh-aw temp directory
         run: bash /opt/gh-aw/actions/create_gh_aw_tmp_dir.sh
       - name: Guard — label must not already exist
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
         with:
           script: "try {\n  await github.rest.issues.getLabel({\n    owner: context.repo.owner,\n    repo: context.repo.repo,\n    name: '${{ inputs.label_name }}'\n  });\n  core.setFailed(\n    `Label '${{ inputs.label_name }}' already exists in this repository. ` +\n    `Choose a different label_name or delete the existing label first.`\n  );\n} catch (error) {\n  if (error.status === 404) {\n    core.info(`Label '${{ inputs.label_name }}' does not exist yet. Proceeding.`);\n  } else {\n    core.setFailed(`Failed to check label: ${error.message}`);\n  }\n}\n"
 
