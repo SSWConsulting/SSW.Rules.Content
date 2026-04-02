@@ -21,7 +21,7 @@ seoDescription: 'Learn how to use Git worktrees to run parallel AI coding agent 
 created: 2026-03-30T05:33:05.620Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-04-02T03:37:46.064Z
+lastUpdated: 2026-04-02T04:00:09.761Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -56,13 +56,30 @@ Unlike cloning a repository multiple times, worktrees share the same `.git` data
 Git worktrees are most valuable when you need parallel, independent work streams on the same repository, as they allow for:
 
 * **Parallel AI Agent sessions** - running multiple AI Agents on separate tasks simultaneously
-* **Subagent isolation** - allowing Agents to spin up Subagents work on independent parts of a codebase without stepping on one another
 * **Review whilst developing** - allows for you to review a PR on one worktree whilst continuing feature work in another
-* **Long-running experiments** - Testing an approach in an isolated worktree without disrupting your primary working directory
+* **Quickly address an urgent bug while developing** - switching over to fix an urgent bug whilst working on a feature without having to stash your changes
+
+<boxEmbed
+  body={<>
+    **Without worktrees** - Two Claude Code sessions share the same directory. Agent A is refactoring the auth module while Agent B is fixing a payment bug. Agent B's test run fails because Agent A just renamed a shared utility function mid-refactor.
+  </>}
+  figurePrefix="bad"
+  figure="Parallel sessions in the same directory cause unpredictable conflicts"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **With worktrees** - Each session gets its own isolated copy of the code. Agent A refactors auth in `worktrees/auth-refactor/`, Agent B fixes payments in `worktrees/payment-fix/`. Both work independently and merge cleanly when done.
+  </>}
+  figurePrefix="good"
+  figure="Isolated worktrees let parallel sessions work without conflicts"
+  style="greybox"
+/>
 
 ## How do you use Git worktrees with AI?
 
-Often, AI tools such as Claude Code and OpenAI Codex have built-in worktree support, however, because Git worktrees are a built-in feature of Git itself, you can set it up manually for any AI tool, even if there is no support built into your AI tool of choice.
+Often, AI tools such as Claude Code and OpenAI Codex have built-in worktree support, however, because Git worktrees are a built-in feature of Git itself, you can set it up manually for any AI tool.
 
 <boxEmbed
   body={<>
@@ -71,6 +88,15 @@ Often, AI tools such as Claude Code and OpenAI Codex have built-in worktree supp
   figurePrefix="none"
   figure=""
   style="warning"
+/>
+
+<boxEmbed
+  body={<>
+    When inside of an instance of your AI Agent (e.g. Claude Code), you can usually ask for work to be done in parallel using worktrees and your AI Agent will be able to do that for you, and then merge the changes back into your current working branch.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
 />
 
 ### Claude Code (Recommended)
@@ -100,11 +126,11 @@ Claude Code's Subagents can also use Git worktree isolation by setting `isolatio
 
 OpenAI Codex offers Git worktrees directly inside of its interface. When creating a new thread, you can select “Worktree” to start in an isolated environment.
 
-Codex then creates the Git worktree in a deteached HEAD state that lets you either continue working in the worktree or hand off the changes to your local checkout when you're ready to inspect them.
+Codex then creates the Git worktree in a deteached HEAD state that lets you either continue working in the worktree or hand off the changes to your development environment when you're ready to inspect them.
 
 ### Manual setup (any tool)
 
-For AI tools without built-in support for Git worktrees, you can still create worktrees manually and start your agent inside of them! You can do so by creating a worktree, and then starting your AI Agent inside of the worktree.
+For tools without built-in support for Git worktrees, you can still create worktrees manually and start your agent inside of them!
 
 ```
 # Create a worktree for the task
@@ -128,43 +154,16 @@ Git worktrees are fresh checkouts - they don't include files that have been adde
 config/secrets.json
 ```
 
-For manual worktrees, remember to copy over necessary environment files and run your dependency installation (e.g. `npm install`, `pip install`) before starting your agent session.
-
-## Why do Git worktrees work so well for AI-assisted development?
-
-AI Agents such as Claude Code and OpenAI Codex work by reading, editing, and creating files inside of your repository as they work. When you run a single session, this works without issue. However, in modern AI-assisted workflows increasingly involve parallel sessions with multiple agents working on independent tasks simultaneously.
-
 <boxEmbed
   body={<>
-    When inside of an instance of your AI Agent (e.g. Claude Code), you can usually ask for work to be done in parallel using worktrees and your AI Agent will be able to do that for you, and then merge the changes back into your current working branch.
+    Aspire makes this really easy because it can use .NET User Secrets and inject them as environment variables into your projects, so you don't need to use `.env` files
   </>}
   figurePrefix="none"
   figure=""
   style="tips"
 />
 
-Without the isolation that Git worktrees provides, parallel sessions will most likely:
-
-* **Overwrite each other's changes** - Two agents editing the same file creates race conditions
-* **Break each other's builds** - One agent's half-finished refactor can cause another's tests to fail
-
-<boxEmbed
-  body={<>
-    **Without worktrees** - Two Claude Code sessions share the same directory. Agent A is refactoring the auth module while Agent B is fixing a payment bug. Agent B's test run fails because Agent A just renamed a shared utility function mid-refactor.
-  </>}
-  figurePrefix="bad"
-  figure="Parallel sessions in the same directory cause unpredictable conflicts"
-  style="greybox"
-/>
-
-<boxEmbed
-  body={<>
-    **With worktrees** - Each session gets its own isolated copy of the code. Agent A refactors auth in `worktrees/auth-refactor/`, Agent B fixes payments in `worktrees/payment-fix/`. Both work independently and merge cleanly when done.
-  </>}
-  figurePrefix="good"
-  figure="Isolated worktrees let parallel sessions work without conflicts"
-  style="greybox"
-/>
+For manual worktrees, remember to copy over necessary environment files and run your dependency installation (e.g. `npm install`, `pip install`) before starting your agent session.
 
 <boxEmbed
   body={<>
