@@ -3,8 +3,8 @@ name: Validate-Frontmatter
 on:
   pull_request:
     branches: [ main ]
-    paths-ignore:
-      - ".github/**"
+    paths: 
+      - "!.github/**"
 
   workflow_dispatch:
 
