@@ -5,8 +5,7 @@ on:
     branches: [ fix-actions-running-aw ]
     paths:
       - '**.md'
-    paths-ignore:
-      - .github/**
+      - '!.github/**'
 
   workflow_dispatch:
 
