@@ -17,7 +17,7 @@ seoDescription: Discover SSW's recommended MCP servers and skills to enhance you
 created: 2026-01-29T03:54:26.321Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-02-09T22:47:20.536Z
+lastUpdated: 2026-04-06T23:02:43.099Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -115,27 +115,34 @@ Location:
 * macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
 * Windows: `%APPDATA%\Claude\claude_desktop_config.json`
 
-```json
-{
-  "mcpServers": {
+<boxEmbed
+  body={<>
+    ```json
+    {
+    "mcpServers": {
     "filesystem": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/allowed/files"]
     },
     "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-      }
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-github"],
+    "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+    }
     },
     "postgres": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
     }
-  }
-}
-```
+    }
+    }
+    
+    ```
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ## Further reading
 
