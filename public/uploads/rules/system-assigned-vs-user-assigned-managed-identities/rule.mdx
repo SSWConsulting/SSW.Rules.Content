@@ -13,7 +13,7 @@ seoDescription: 'Learn when to use system-assigned vs user-assigned managed iden
 created: 2026-04-02T05:51:33.985Z
 createdBy: Ben Neoh
 createdByEmail: benneoh@ssw.com.au
-lastUpdated: 2026-04-07T01:59:13.484Z
+lastUpdated: 2026-04-07T04:38:46.164Z
 lastUpdatedBy: Ben Neoh
 lastUpdatedByEmail: benneoh@ssw.com.au
 ---
@@ -28,7 +28,7 @@ When using managed identities in Azure, it is important to choose the right type
 
 ## System-assigned
 
-A system-assigned managed identity belongs to a single Azure resource. It is created with that resource and deleted when the resource is deleted.
+A system-assigned managed identity belongs to a single Azure resource. It has a **1:1 relationship **with that resource — one resource, one identity.
 
 **Example**
 
@@ -47,7 +47,7 @@ In this setup, the identity belongs only to App Service A. If App Service A is d
 
 ## User assigned
 
-A user-assigned managed identity is a separate Azure resource. It can be attached to multiple Azure resources and reused across them.
+A user-assigned managed identity is a separate Azure resource that can be attached to multiple Azure resources. It supports a **many-to-many relationship** — one identity can be used by many resources, and one resource can also have multiple user-assigned identities.
 
 **Example**
 
@@ -66,3 +66,8 @@ In this setup, both apps share the same identity and the same permissions. If on
 #### When to use it
 
 👉 Use this when multiple apps need the same identity and the same permissions.
+
+**Common use cases**
+
+* Multiple App Services accessing the same Key Vault
+* Several Function Apps sharing the same Storage or Service Bus permissions
