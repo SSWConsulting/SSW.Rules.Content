@@ -1,13 +1,13 @@
 ---
-description: "Scan content files based on a search scope, extract metadata, sort by priority, and create a ContentHawk snapshot tracking file."
-allowed-tools: Read, Glob, Grep, Bash, Write, Edit, Agent, WebSearch, WebFetch
+description: "Collect inputs and trigger the ContentHawk Content Campaign GitHub Actions workflow."
+allowed-tools: Bash
 ---
 
-# ContentHawk — Content Catalog Snapshot Generator
+# ContentHawk — Trigger Content Campaign Workflow
 
-You are **Agent 1 (Detective)** of the ContentHawk pipeline. Your job is to scan content files, filter them, extract metadata, sort them, and produce a markdown snapshot tracking file.
+Your job is to collect the required inputs from the user and then trigger the `content-campaign.md` GitHub Actions workflow via `gh workflow run`.
 
-> **IMPORTANT — Do not stop early.** You MUST execute all steps (1 through 4) sequentially in a single run. Do not stop after any intermediate step to wait for user input unless you are missing information required to proceed. If you have all the information you need, keep going until Step 4 is complete and the PR URL is returned to the user.
+> **IMPORTANT — Do not stop early.** Collect all inputs, then trigger the workflow in a single run. Do not stop after collecting inputs to wait for further confirmation unless you are missing required information.
 
 ## Collect inputs
 
@@ -22,134 +22,47 @@ Ask the user for the following inputs (all required). Present them as a numbered
 
 If the user provides all inputs in their initial message (e.g. as a description of what they want), extract them. For any missing inputs, ask before proceeding.
 
-## Procedure
+## Trigger the workflow
 
-Once you have all inputs, follow these steps exactly:
+Once you have all six inputs, trigger the workflow:
 
-### Step 1 — Discover, filter, and sort content files
-
-Parse the **Search Scope** to determine which directories/files to scan.
-
-#### 1a. List candidate files
-
-List the candidate files matchign the user's search scope. Use Glob and Grep as needed to find files matching the directory/file-type scope.
-
-#### 1b. Read and filter each candidate
-
-For **every** candidate file:
-
-1. Read the file's full content (at minimum the frontmatter).
-2. Evaluate it against **every** content-level criterion in the search scope (e.g. "not archived" means exclude files where `archivedreason` is populated or `isArchived: true`).
-3. If the file **fails any criterion**, exclude it.
-
-Also confirm each file is relevant to the user's **Intent**. If a file passes scope criteria but is clearly unrelated to the intent, exclude it.
-
-If you need to verify relevance (e.g. checking if a technology is deprecated), use web search.
-
-Build a `passed_files` list of files that satisfy all criteria.
-
-#### 1c. Extract metadata from passed files
-
-For each file in `passed_files`, extract from frontmatter:
-
-- **CategoryList** — categories from the `categories` frontmatter field as comma-separated paths. If absent, use `uncategorized`.
-- **Created** — the `created` field, formatted as `YYYY-MM-DD`. If absent, use `-`.
-- **LastUpdated** — the `lastUpdated` field, formatted as `YYYY-MM-DD`. If absent, use `-`.
-
-#### 1d. Sort
-
-Sort `passed_files` according to the **Processing Priority**. Interpret it as a sort specification. Apply ascending order unless the user explicitly says descending. Rows with `-` dates sort last.
-
-### Step 2 — Write the snapshot tracking file
-
-Determine today's date in `YYYY-MM-DD` format. Create the file at:
-
-```
-.github/ContentHawk/TODO/<todays-date>_Snapshot_<label_name>.md
+```bash
+gh workflow run content-campaign.md \
+  -f search_scope='<search_scope>' \
+  -f processing_priority='<processing_priority>' \
+  -f intent='<intent>' \
+  -f issue_preferences='<issue_preferences>' \
+  -f pr_preferences='<pr_preferences>' \
+  -f label_name='<label_name>'
 ```
 
-The file must follow this **exact** structure:
+Replace each `<placeholder>` with the user's actual input. Make sure to properly escape any single quotes in the values.
 
-```markdown
-# Content Catalog Snapshot
+## Watch the workflow run
 
-## Agent Configuration
+After triggering, immediately get the run ID and watch it:
 
-| Field               | Value                                           |
-|---------------------|-------------------------------------------------|
-| Intent              | <intent>                                        |
-| Search Scope        | <search_scope>                                  |
-| Processing Priority | <processing_priority>                           |
-| Issue Preferences   | <issue_preferences>                             |
-| PR Preferences      | <pr_preferences>                                |
-| Label               | `<label_name>`                                  |
-| Created             | <todays-date>                                   |
-
-## Files to Review
-
-| Path        | CategoryList   | Created    | LastUpdated   | CheckedDate | CheckResult |
-|-------------|----------------|------------|---------------|-------------|-------------|
-| <file-path> | <CategoryList> | <Created>  | <LastUpdated> | -           | pending     |
+```bash
+# Wait a few seconds for the run to register, then get the latest run ID
+sleep 5
+RUN_ID=$(gh run list --workflow=content-campaign.md --limit=1 --json databaseId --jq '.[0].databaseId')
+gh run watch "$RUN_ID"
 ```
 
-Rules for the table:
-- One row per file from `passed_files`.
-- Rows are in the sort order from Step 1d.
-- `CheckedDate` is always `-`.
-- `CheckResult` is always `pending`.
+This will stream live status updates until the workflow completes or fails.
 
-### Step 3 — Summary
+## After the workflow completes
 
-After creating the file, briefly show the user:
-- The path to the snapshot file created.
-- The number of files included vs excluded.
+1. If the workflow **succeeded**, find the PR it created and show the user the link:
 
-Then **immediately continue to Step 4** — do not stop or wait for user input.
+   ```bash
+   gh pr list --label '<label_name>' --json url --jq '.[0].url'
+   ```
 
-### Step 4 — PR
+2. If the workflow **failed**, show the user the failure logs:
 
-Create a PR with the snapshot file on a branch named `ContentHawk/TODO/<label_name>`. The PR should have the label specified in the inputs.
+   ```bash
+   gh run view "$RUN_ID" --log-failed
+   ```
 
-```
-git checkout -b ContentHawk/TODO/<label_name>
-git add .github/ContentHawk/TODO/<todays-date>_Snapshot_<label_name>.md
-git commit -m "ContentHawk Snapshot: <label_name>"
-git push origin ContentHawk/TODO/<label_name>
-gh pr create --title "ContentHawk Snapshot: <label_name>" --body "$(cat <<'EOF'
-## Intent
-
-<intent>
-
-## Search Scope
-
-<search_scope>
-
-## Processing Priority
-
-<processing_priority>
-
-## Label for flagged issues
-
-<label_name>
-
-## Issue Preferences (for Agent 2)
-
-<issue_preferences>
-
-## PR Preferences (for Agent 3)
-
-<pr_preferences>
-
-## Snapshot file
-
-The full file list with metadata is in `.github/ContentHawk/TODO/<todays-date>_Snapshot_<label_name>.md` on this branch.
-
-- **Agent 2** will iterate over the table rows in order, check each file against the intent, update `CheckedDate` and `CheckResult`, and open issues with the `<label_name>` label.
-- **Agent 3** will read issues labelled `<label_name>` and raise PRs to resolve them.
-EOF
-)" --label <label_name>
-```
-
-### Step 5 — Done
-
-Show the user the PR URL. Remind them they can now run **Agent 2 (content-check)** to process the snapshot.
+3. Remind them that once the PR is merged or ready, **Agent 2 (content-check)** can be run to process the snapshot.
