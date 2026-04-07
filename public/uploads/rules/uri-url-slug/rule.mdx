@@ -16,7 +16,7 @@ guid: 97b95b8a-88dc-4165-8e27-2604c211a7a6
 created: 2026-04-07T16:59:24.334Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-07T17:44:10.140Z
+lastUpdated: 2026-04-07T18:01:27.463Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
@@ -84,49 +84,56 @@ Example - the slug is at the end of a full URL (see bold):
 
 <boxEmbed
   body={<>
-    Slugs are commonly used in CMS tools like TinaCMS and WordPress
+    Slugs are commonly used in CMS tools like [TinaCMS](https://tina.io) and WordPress.
   </>}
   figurePrefix="none"
   figure=""
   style="info"
 />
 
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="The slug field in TinaCMS defines the human-friendly part of the URL" src="/uploads/rules/uri-url-slug/tinacms-slug-example.png" />
 
+***
 
+## When should you use each term?
 
+Use **URI **when speaking technically about identifiers. E.g. APIs, specifications.
 
-When should you use each term?
-Use URI
-When speaking technically about identifiers
-e.g. APIs, specifications
-Use URL
-When referring to a full web address
-e.g. links in pages, emails, or documentation
-Use slug
-When referring to the editable part of a page path
-e.g. in CMS, routing, or SEO
-Why this matters
+Use **URL** when referring to a full web address. E.g. links in pages, emails, or documentation.
+
+Use **slug** when referring to the editable part of a page path. E.g. in CMS, routing, or SEO.
+
+### Why this matters
 
 Using the correct term:
 
+* Improves communication between devs, designers, and content editors
+* Avoids confusion in requirements and documentation
+* Aligns with how tools like TinaCMS and WordPress work
 
+<boxEmbed
+  body={<>
+    > “Change the **URL**” (when you only mean the slug)
+    
+    > “Paste the URI **here**” (when you mean a normal link)
+  </>}
+  figurePrefix="bad"
+  figure="Using the wrong terms"
+  style="greybox"
+/>
 
-Improves communication between devs, designers, and content editors
-Avoids confusion in requirements and documentation
-Aligns with how tools like TinaCMS and WordPress work
-Good examples
-“Update the slug to make it more SEO-friendly”
-“Send me the URL to the page”
-“This API returns a URI”
-Bad examples
-“Change the URL” (when you only mean the slug)
-“Paste the URI here” (when you mean a normal link)
-Recommendation
+<boxEmbed
+  body={<>
+    > “Update the **slug** to make it more SEO-friendly”
+    
+    > “Send me the **URL** to the page”
+    
+    > “This API returns a **URI**”
+  </>}
+  figurePrefix="good"
+  figure="Using the correct terms"
+/>
 
-Prefer slug when working with content.
+***
 
-It is the most user-friendly term and matches how editors interact with pages in TinaCMS and WordPress.
-
-
-
-Figure: URI is the umbrella term, URL is the full address, and slug is the readable end of the path
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure=" Figure: URI is the umbrella term, URL is the full address, and slug is the readable end of the path" src="/uploads/rules/uri-url-slug/uri-url-slug-diagram.png" />
