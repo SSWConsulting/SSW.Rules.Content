@@ -168,6 +168,16 @@ function validateFrontmatter(filePath) {
   const frontmatter = parseFrontmatterToJson(frontmatterContents);
   const validate = validator.getSchema(ruleType);
   const isValid = validate(frontmatter);
+  const uriMismatchErrors = [];
+  if (ruleType === 'rule' && frontmatter && frontmatter.uri) {
+    const normalized = filePath.replace(/\\/g, '/').replace(/^(\.\.\/)+/, '');
+    const match = normalized.match(/\/rules\/([^/]+)\/rule\.mdx$/);
+    if (match && match[1] !== frontmatter.uri) {
+      uriMismatchErrors.push(
+        `'uri' value \`${frontmatter.uri}\` does not match the folder name \`${match[1]}\`. They must be identical.`
+      );
+    }
+  }
   if (!isValid && validate.errors) {
     let fileErrors = validate.errors
       .filter(
@@ -175,12 +185,14 @@ function validateFrontmatter(filePath) {
           error.keyword === 'errorMessage' || error.keyword === 'required'
       )
       .map((error) => error.message);
-    if (fileErrors.length > 0 || missingSpaceErrors.length) {
+    if (fileErrors.length > 0 || missingSpaceErrors.length || uriMismatchErrors.length) {
       allErrors.push({
         filePath,
-        fileErrors: [...fileErrors, ...missingSpaceErrors],
+        fileErrors: [...fileErrors, ...missingSpaceErrors, ...uriMismatchErrors],
       });
     }
+  } else if (uriMismatchErrors.length) {
+    allErrors.push({ filePath, fileErrors: uriMismatchErrors });
   }
 }
 
