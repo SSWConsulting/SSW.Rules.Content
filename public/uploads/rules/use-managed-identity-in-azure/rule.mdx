@@ -7,14 +7,17 @@ categories:
 authors:
   - title: Ben Neoh
     url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/system-assigned-vs-user-assigned-managed-identities/rule.mdx
+  - {}
 guid: 9a4f3b2d-8c3e-4f6f-9a5b-2d7b6c4e1f90
 seoDescription: Learn why Managed Identity should be your default authentication method in Azure projects.
 created: 2025-11-27T05:54:17.000Z
 createdBy: 'Ben Neoh [SSW]'
 createdByEmail: 87377903+Ben0189@users.noreply.github.com
-lastUpdated: 2026-03-30T06:08:48.073Z
-lastUpdatedBy: Matt Wicks
-lastUpdatedByEmail: MattWicks@ssw.com.au
+lastUpdated: 2026-04-08T00:57:39.327Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
 isArchived: false
 ---
 
@@ -73,33 +76,9 @@ This means:
 
 ## System-assigned vs user-assigned Managed Identity
 
-### System-assigned
+Use **system-assigned** identities for **simple 1:1 scenarios**, where one Azure resource has its own identity. Use **user-assigned** identities when the same identity needs to be shared, reused, or managed **separately across multiple resources**.
 
-A system-assigned managed identity belongs to a single Azure resource. It is created with that resource and deleted when the resource is deleted.
-
-Example:
-
-* App Service A needs to read secrets from Key Vault A
-* Grant App Service A’s managed identity the Key Vault Secrets User role on Key Vault A
-
-#### When to use it
-
-👉 Use this for the **simplest case**: one app, one identity, one target resource.
-
-### User-assigned
-
-A user-assigned managed identity is a separate Azure resource. It can be attached to multiple Azure resources and reused across them.
-
-Example:
-
-* App Service A and App Service B both need to read secrets from Key Vault A
-* Create User-assigned Managed Identity A
-* Attach it to App Service A and App Service B
-* Grant User-assigned Managed Identity A the Key Vault Secrets User role on Key Vault A
-
-#### When to use it
-
-👉 Use this when **multiple apps** need the same identity and the same permissions.
+More details: [Do you know when to use system-assigned vs user-assigned managed identities?](https://www.ssw.com.au/rules/system-assigned-vs-user-assigned-managed-identities)
 
 ***
 
