@@ -11,15 +11,17 @@ authors:
     url: 'https://www.ssw.com.au/people/gordon-beeming'
   - title: Michael Qiu
     url: 'https://www.ssw.com.au/people/michael-qiu'
+  - title: Thomas Sepanosian
+    url: 'https://www.ssw.com.au/people/thomas-sepanosian'
 related:
   - rule: public/uploads/rules/ai-assisted-development-workflow/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: b68085e1-499d-4849-828e-1541c0defd46
-seoDescription: 'Learn how to review AI-generated coding plans effectively before implementation - from terminal chat to visual tools like Plannotator and UltraPlan.'
+seoDescription: Learn how to review AI-generated coding plans effectively before implementation - from terminal chat to visual tools like Plannotator and UltraPlan.
 created: 2026-03-16T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: GordonBeeming@ssw.com.au
-lastUpdated: 2026-04-08T23:32:36.767Z
+lastUpdated: 2026-04-08T23:57:07.510Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
@@ -88,7 +90,7 @@ These methods work, but they have clear drawbacks:
 
 A new wave of tools has emerged that give you a proper visual interface for reviewing and annotating AI plans - similar to how you would review a pull request on GitHub.
 
-### Plannotator ✅ Recommended
+### Plannotator (Recommended)
 
 [Plannotator](https://plannotator.ai/) provides a browser-based pull-request-style review UI - think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
 
@@ -110,7 +112,7 @@ Plannotator triggers automatically when the plan tool is used. See [plannotator.
   style="greybox"
   body={<>
     **Review workflow with Plannotator:**
-
+    
     1. AI generates `PLAN.md`
     2. Plannotator opens automatically - the plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries - use batch loading instead"*
@@ -166,11 +168,11 @@ Key features:
 
 ## Comparison
 
-|                           | Terminal | Editor | Plannotator | UltraPlan | Claude Code VSCode |
-| ------------------------- | -------- | ------ | ----------- | --------- | ------------------ |
+|                           | Terminal | Editor  | Plannotator | UltraPlan | Claude Code VSCode |
+| ------------------------- | -------- | ------- | ----------- | --------- | ------------------ |
 | Targeted line feedback    | ❌        | Partial | ✅           | ✅         | ✅                  |
-| Multi-round iteration     | ❌        | ❌      | ✅           | ✅         | ✅                  |
-| No copy-pasting needed    | ❌        | ✅      | ✅           | ✅         | ✅                  |
+| Multi-round iteration     | ❌        | ❌       | ✅           | ✅         | ✅                  |
+| No copy-pasting needed    | ❌        | ✅       | ✅           | ✅         | ✅                  |
 | Structured feedback to AI | ❌        | Partial | ✅           | ✅         | ✅                  |
-| Works with any AI agent   | ✅        | ✅      | ✅           | ❌         | ❌                  |
-| Terminal stays free        | ❌        | ❌      | ❌           | ✅         | N/A                |
+| Works with any AI agent   | ✅        | ✅       | ✅           | ❌         | ❌                  |
+| Terminal stays free       | ❌        | ❌       | ❌           | ✅         | N/A                |
