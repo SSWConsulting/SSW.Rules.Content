@@ -42,7 +42,11 @@ Catching problems at the plan stage is dramatically cheaper than catching them a
 
 A changed plan costs nothing. A re-implemented feature costs a lot.
 
-## Option 1: Terminal (Basic)
+## The basic approach
+
+The original way to review AI plans is to discuss back and forth with your AI agent directly - either in the terminal or in your editor.
+
+### Terminal
 
 The simplest approach is reviewing the plan directly in the chat interface and describing the changes you want.
 
@@ -64,51 +68,27 @@ The simplest approach is reviewing the plan directly in the chat interface and d
   figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
-<boxEmbed
-  style="info"
-  body={<>
-    **Limitation:** Hard to give targeted feedback on specific sections without copying and pasting chunks of text. Suitable for small plans only.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-## Option 2: Editor - Edit the plan file directly
+### Editor
 
 Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the terminal. This gives you a visual overview of the whole plan at once.
 
 * **Edit manually** - revise the plan directly in the markdown file, then ask the AI to implement from the updated version
 * **Cursor** - built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
 
-<boxEmbed
-  style="info"
-  body={<>
-    **Limitation:** Still somewhat clunky - you describe what to change rather than clicking directly on a section to annotate it. Works best if you're comfortable editing the markdown file directly.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
+### Limitations of the basic approach
 
-## Option 3: Claude Code VSCode Extension - Inline plan review
+These methods work, but they have clear drawbacks:
 
-The [Claude Code VSCode extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) has built-in plan review features. When Claude generates a plan in VS Code, it automatically opens as a full markdown document in an editor tab - not just a chat message.
+* Hard to give targeted feedback on specific sections without copying and pasting chunks of text
+* No structured way to annotate, comment on, or reject parts of the plan
+* Difficult to track what changed between plan iterations
+* Suitable for small plans only - larger plans become unwieldy
 
-Key features:
+## Tools that improve plan review
 
-* **Full document view** - the plan opens in a dedicated editor tab for easy reading
-* **Inline comments** - add comments directly on specific sections of the plan to give Claude targeted feedback
-* **Approval workflow** - once reviewed, choose to execute in auto mode, review each edit manually, or keep planning with feedback
+A new wave of tools has emerged that give you a proper visual interface for reviewing and annotating AI plans - similar to how you would review a pull request on GitHub.
 
-<boxEmbed
-  style="info"
-  body={<>
-    **Limitation:** Inline comments are freeform text feedback to Claude - there is no tracked resolution workflow like a GitHub PR review.
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-
-## Option 4: Plannotator ✅ Recommended
+### Plannotator ✅ Recommended
 
 [Plannotator](https://plannotator.ai/) provides a browser-based pull-request-style review UI - think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
 
@@ -119,6 +99,7 @@ Key features:
 * **Replace** or insert content
 * **Global comments** for overall feedback
 * **Multi-round iteration** - deny with annotations → AI refines → re-review → approve
+* **Works with any AI agent** - Claude Code, Codex, Copilot CLI, Gemini CLI, OpenCode, and VS Code
 * Once approved, the AI builds based on the agreed, refined plan
 
 Plannotator triggers automatically when the plan tool is used. See [plannotator.ai](https://plannotator.ai/) for installation details.
@@ -129,7 +110,7 @@ Plannotator triggers automatically when the plan tool is used. See [plannotator.
   style="greybox"
   body={<>
     **Review workflow with Plannotator:**
-    
+
     1. AI generates `PLAN.md`
     2. Plannotator opens automatically - the plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries - use batch loading instead"*
@@ -142,7 +123,7 @@ Plannotator triggers automatically when the plan tool is used. See [plannotator.
   figure="Good example - Plannotator enables precise, structured feedback with multi-round iteration until the plan is right"
 />
 
-## Option 5: UltraPlan - Cloud-based plan review
+### UltraPlan
 
 [UltraPlan](https://code.claude.com/docs/en/ultraplan) bridges your local Claude Code CLI with Claude Code on the web. You kick off a planning task from your terminal, and it drafts the plan in the cloud while your terminal stays free. Once ready, you review, comment on, and revise the plan in a rich browser-based UI.
 
@@ -164,13 +145,32 @@ Key features:
   figure=""
 />
 
+### Claude Code VSCode Extension
+
+The [Claude Code VSCode extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) has built-in plan review features. When Claude generates a plan in VS Code, it automatically opens as a full markdown document in an editor tab - not just a chat message.
+
+Key features:
+
+* **Full document view** - the plan opens in a dedicated editor tab for easy reading
+* **Inline comments** - add comments directly on specific sections of the plan to give Claude targeted feedback
+* **Approval workflow** - once reviewed, choose to execute in auto mode, review each edit manually, or keep planning with feedback
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Limitation:** Inline comments are freeform text feedback to Claude - there is no tracked resolution workflow like a GitHub PR review.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 ## Comparison
 
-|                           | Terminal | Editor | Claude Code VSCode | Plannotator | UltraPlan |
-| ------------------------- | -------- | ------ | ------------------ | ----------- | --------- |
-| Targeted line feedback    | ❌        | Partial | ✅                  | ✅           | ✅         |
-| Multi-round iteration     | ❌        | ❌      | ✅                  | ✅           | ✅         |
-| No copy-pasting needed    | ❌        | ✅      | ✅                  | ✅           | ✅         |
-| Structured feedback to AI | ❌        | Partial | ✅                  | ✅           | ✅         |
-| Works with any AI agent   | ✅        | ✅      | ❌                  | ✅           | ❌         |
-| Terminal stays free        | ❌        | ❌      | N/A                | ❌           | ✅         |
+|                           | Terminal | Editor | Plannotator | UltraPlan | Claude Code VSCode |
+| ------------------------- | -------- | ------ | ----------- | --------- | ------------------ |
+| Targeted line feedback    | ❌        | Partial | ✅           | ✅         | ✅                  |
+| Multi-round iteration     | ❌        | ❌      | ✅           | ✅         | ✅                  |
+| No copy-pasting needed    | ❌        | ✅      | ✅           | ✅         | ✅                  |
+| Structured feedback to AI | ❌        | Partial | ✅           | ✅         | ✅                  |
+| Works with any AI agent   | ✅        | ✅      | ✅           | ❌         | ❌                  |
+| Terminal stays free        | ❌        | ❌      | ❌           | ✅         | N/A                |
