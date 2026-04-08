@@ -12,7 +12,7 @@ related:
   - rule: public/uploads/rules/ai-cli-tools/rule.mdx
   - rule: public/uploads/rules/review-ai-plans/rule.mdx
 guid: 68591c10-c8ee-47dc-8eb4-9d1d0a67d684
-seoDescription: 'Discover add-on tools that enhance your AI coding workflow with voice input, visual plan review, and interactive decision-making.'
+seoDescription: Discover add-on tools and community skills that enhance your AI workflow with voice input, visual plan review, polished UI generation, and more.
 created: 2026-04-08T05:36:56.055Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -23,7 +23,7 @@ lastUpdatedByEmail: MichaelQiu@ssw.com.au
 
 AI Agents such as Claude Code, Cursor, and GitHub Copilot are all powerful on their own. But with the right add-on tools, the experience of working with them can be significantly improved. From enabling voice input to allowing you to visual plan review, these tools help you communicate with AI more effectively and maintain better control over its output.
 
-We aim to cut through all of the noise with AI tools that claim to “revolutionise” your workflow and recommend the ones that we are actually using within day-to-day work to improve our AI usage experience.
+We aim to cut through all of the noise with AI tools that claim to "revolutionise" your workflow and recommend the ones that we are actually using within day-to-day work to improve our AI usage experience.
 
 <endIntro />
 
@@ -39,6 +39,28 @@ We aim to cut through all of the noise with AI tools that claim to “revolution
 * Runs locally - your audio never leaves your machine
 * Cross-platform (macOS, Windows, Linux)
 * Free and open source
+
+## UltraPlan - Rich plan review in the browser
+
+[UltraPlan](https://code.claude.com/docs/en/ultraplan) bridges your local Claude Code CLI with Claude Code on the web. You kick off a planning task from your terminal, and it drafts the plan in the cloud while your terminal stays free. Once ready, you review, comment on, and revise the plan in a rich browser-based UI, then choose to execute it in the cloud (auto-PR) or send it back to your terminal.
+
+**Why it matters:** Complex plans with many steps are hard to review in a terminal. UltraPlan gives you inline comments, reactions, and a proper visual layout — making it much easier to iterate on a plan before any code is written.
+
+**Key benefits:**
+
+* Inline comments and reactions on individual plan sections
+* Terminal stays unblocked while the plan drafts remotely
+* Flexible execution — approve to run on the web or send back to your terminal
+* Launch via `/ultraplan` command, the keyword "ultraplan" in a prompt, or by promoting a local plan
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** UltraPlan is currently in research preview (requires Claude Code v2.1.91+ and a Claude Code on the web account).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
 ## Plannotator - Visualising the plan and code review for AI Agents
 
@@ -57,11 +79,11 @@ We aim to cut through all of the noise with AI tools that claim to “revolution
 
 ## Community skills - Extend your AI agent's capabilities
 
-The AI coding community has built reusable skills that extend what agents can do out of the box. These are typically markdown-based instruction files that you install into your project or user-level config.
+The AI community has built reusable skills that extend what agents can do out of the box. These are typically markdown-based instruction files that you install into your project or user-level config.
 
 ### better-plan-mode
 
-[better-plan-mode](https://github.com/jnemargut/better-plan-mode) is a skill that transforms AI project planning from text-based Q\&A into a visual, interactive decision-making experience. Instead of quick yes/no prompts, it generates rich HTML pages for each decision point.
+[better-plan-mode](https://github.com/jnemargut/better-plan-mode) is a skill that transforms AI project planning from text-based Q&A into a visual, interactive decision-making experience. Instead of quick yes/no prompts, it generates rich HTML pages for each decision point.
 
 **Key benefits:**
 
@@ -70,6 +92,28 @@ The AI coding community has built reusable skills that extend what agents can do
 * Comparison tables showing trade-offs across dimensions
 * All decisions saved as browsable HTML files with an index page
 * Works with Claude Code, Codex, Gemini CLI, and Cursor
+
+### taste-skill
+
+[taste-skill](https://github.com/Leonxlnx/taste-skill) is a set of portable design instruction files that guide AI coding agents to produce modern, polished frontend interfaces instead of the default bland UI output.
+
+**Key benefits:**
+
+* 7 design variants — default, soft, minimalist, brutalist, redesign, output, and stitch
+* 3-dial parameterization (1-10 scales) for design variance, motion intensity, and visual density
+* Framework-agnostic — works with React, Vue, Svelte, etc.
+* Auto-detected by major AI coding agents (Cursor, Claude Code, Copilot, etc.)
+
+### humanizer
+
+[humanizer](https://github.com/blader/humanizer) is a skill that detects and removes telltale AI-writing patterns from text, making it sound more naturally human. Useful for cleaning up AI-drafted blog posts, documentation, emails, or any written content.
+
+**Key benefits:**
+
+* 29 AI-pattern detection categories covering content, language, style, and hedging patterns
+* Voice calibration mode — provide samples of your own writing and it matches your personal style
+* Multi-pass refinement — initial humanization pass, then an audit with a second-pass rewrite
+* Works with Claude Code and OpenCode
 
 <boxEmbed
   style="info"
