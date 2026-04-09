@@ -23,12 +23,12 @@
 #
 # Agent 3 (Fixer) of the ContentHawk pipeline. Runs on a cron schedule (or manually) and picks up the first available snapshot from the TODO folder. Reads the snapshot to obtain the Label, PR Preferences, and Intent, then bundles eligible issues into groups and creates one PR per bundle that applies the content fixes and closes the linked issues. Skips issues already referenced in existing open fixer PRs to avoid duplicate work. Exits gracefully if no snapshot file is found in the TODO folder.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"37ef392177ddaf2488831140da591b7c66b6498ecebe959d572b4588277e5355","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"363b9b4dd2c152e828a62dfb50bfc1ccdc3062b2516256b66a5e0cf1aee1dcb3","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Fixer (Agent 3a)"
 "on":
   schedule:
-  - cron: "0 * * * */7"
+  - cron: "0 0 * * */7"
   workflow_dispatch:
 
 permissions: {}

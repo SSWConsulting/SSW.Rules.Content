@@ -13,7 +13,7 @@ name: Content Fixer (Agent 3a)
 
 on:
   schedule:
-    - cron: "0 * * * */7"
+    - cron: "0 0 * * */7"
   workflow_dispatch:
 
 engine:
