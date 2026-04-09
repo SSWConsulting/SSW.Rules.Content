@@ -139,7 +139,17 @@ If `snapshot_issue_numbers` is empty, **stop immediately** with a message:
 
 > No issues found in the snapshot file. Nothing to fix. Exiting.
 
-#### 2b. Fetch issue details and filter to open issues
+#### 2b. Filter out issues already referenced in open pull requests
+
+For each issue number in `snapshot_issue_numbers`, use the GitHub `pull_requests` toolset to search for **open** pull requests in this repository whose body contains `#<number>` (e.g. `#42` for issue 42).
+
+If **any** open PR is found that references the issue number in its body, **remove that issue number** from `snapshot_issue_numbers` — it is already being addressed by an in-flight PR.
+
+If `snapshot_issue_numbers` is empty after filtering, **stop immediately** with a message:
+
+> All issues in the snapshot are already referenced in open pull requests. Nothing to fix. Exiting.
+
+#### 2c. Fetch issue details and filter to open issues
 
 For each issue number in `snapshot_issue_numbers`, fetch the issue from GitHub. Only include issues that are **open** — closed issues have already been resolved and should be skipped. For each open issue, record:
 
