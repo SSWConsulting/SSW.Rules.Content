@@ -44,11 +44,7 @@ Catching problems at the plan stage is dramatically cheaper than catching them a
 
 A changed plan costs nothing. A re-implemented feature costs a lot.
 
-## The basic approach
-
-The original way to review AI plans is to discuss back and forth with your AI agent directly - either in the terminal or in your editor.
-
-### Terminal
+## Option 1: Terminal (Basic)
 
 The simplest approach is reviewing the plan directly in the chat interface and describing the changes you want.
 
@@ -70,27 +66,23 @@ The simplest approach is reviewing the plan directly in the chat interface and d
   figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
-### Editor
+## Option 2: Editor - Edit the plan file directly
 
 Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the terminal. This gives you a visual overview of the whole plan at once.
 
 * **Edit manually** - revise the plan directly in the markdown file, then ask the AI to implement from the updated version
 * **Cursor** - built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
 
-### Limitations of the basic approach
+<boxEmbed
+  style="info"
+  body={<>
+    **Limitation:** Still somewhat clunky - you describe what to change rather than clicking directly on a section to annotate it. Works best if you're comfortable editing the markdown file directly.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
 
-These methods work, but they have clear drawbacks:
-
-* Hard to give targeted feedback on specific sections without copying and pasting chunks of text
-* No structured way to annotate, comment on, or reject parts of the plan
-* Difficult to track what changed between plan iterations
-* Suitable for small plans only - larger plans become unwieldy
-
-## Tools that improve plan review
-
-A new wave of tools has emerged that give you a proper visual interface for reviewing and annotating AI plans - similar to how you would review a pull request on GitHub.
-
-### Plannotator (Recommended)
+## Option 3: Plannotator ✅ Recommended
 
 [Plannotator](https://plannotator.ai/) provides a browser-based pull-request-style review UI - think GitHub PR review, but for AI plans. It makes structured, multi-round plan review practical for any plan size.
 
@@ -125,7 +117,7 @@ Plannotator triggers automatically when the plan tool is used. See [plannotator.
   figure="Good example - Plannotator enables precise, structured feedback with multi-round iteration until the plan is right"
 />
 
-### UltraPlan
+## Option 4: UltraPlan - Cloud-based plan review
 
 [UltraPlan](https://code.claude.com/docs/en/ultraplan) bridges your local Claude Code CLI with Claude Code on the web. You kick off a planning task from your terminal, and it drafts the plan in the cloud while your terminal stays free. Once ready, you review, comment on, and revise the plan in a rich browser-based UI.
 
@@ -147,7 +139,7 @@ Key features:
   figure=""
 />
 
-### Claude Code VSCode Extension
+## Option 5: Claude Code VSCode Extension - Inline plan review
 
 The [Claude Code VSCode extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code) has built-in plan review features. When Claude generates a plan in VS Code, it automatically opens as a full markdown document in an editor tab - not just a chat message.
 
