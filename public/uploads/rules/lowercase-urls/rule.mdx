@@ -1,34 +1,55 @@
 ---
-archivedreason: null
-authors:
-- title: Brady Stroud
-  url: https://www.ssw.com.au/people/brady-stroud
-created: 2023-06-27 23:53:39+00:00
-guid: 187df11b-b302-4f41-849b-8682c7b8085b
-redirects: []
-related:
-- rule: public/uploads/rules/create-friendly-short-urls/rule.mdx
-- rule: public/uploads/rules/use-dashes-in-urls/rule.mdx
-- rule: public/uploads/rules/how-to-name-documents/rule.mdx
-seoDescription: Create consistent and user-friendly URLs by sticking to lowercase
-  letters and avoiding mixed case. This helps search engines and servers understand
-  your website's structure and improves search ranking.
-title: Do you avoid uppercase characters in URLs?
+type: rule
+title: Do you use lowercase URLs?
+uri: lowercase-urls
 categories:
   - category: categories/marketing-and-video/rules-to-better-google-rankings-and-seo.mdx
-type: rule
-uri: lowercase-urls
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/create-friendly-short-urls/rule.mdx
+  - rule: public/uploads/rules/use-dashes-in-urls/rule.mdx
+  - rule: public/uploads/rules/how-to-name-documents/rule.mdx
+redirects: []
+guid: 187df11b-b302-4f41-849b-8682c7b8085b
+seoDescription: Create consistent and user-friendly URLs by sticking to lowercase letters and avoiding mixed case. This helps search engines and servers understand your website's structure and improves search ranking.
+created: 2023-06-27T23:53:39.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-09T22:08:25.436Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+archivedreason: null
 ---
 
-When creating URLs, it's important to **stick to lowercase** letters. Some search engines and servers see URLs as case-sensitive, which means you cant use uppercase and lowercase URLs interchangably.
+When creating URLs, **stick to lowercase letters**. Some servers and search engines treat URLs as case-sensitive, so uppercase and lowercase URLs are not interchangeable
 
 <endIntro />
 
+## Why uppercase in URLs is a bad idea
 
-This is especially problematic when URLs that only differ in case lead to the same page, this can hurt your site's search ranking as search engines often penalize duplicate content.
+* **Case sensitivity** - Many servers (e.g., Linux) treat `/About` and `/about` as different URLs. Uppercases can cause duplicates or broken links
+* **SEO risks** - Search engines like Google may treat them as separate pages, splitting ranking signals
+* **User confusion** - People don’t remember casing, so mixed case makes URLs harder to share and type
+* **Inconsistency** - Mixed casing looks messy and harder to scan
 
-Using mixed case URLs can also add confusion for users.
-**❌ northwind.com/Flights/AustraliaToNZ**  
-**✅ northwind.com/flights/australia-to-nz**  
+<boxEmbed
+  body={<>
+    Northwind.com/Flights/AustraliaToNZ
+  </>}
+  figurePrefix="bad"
+  figure="Uppercase used in the URL and slug"
+  style="greybox"
+/>
 
-If you need to use uppercase letters, make sure they're used consistently across your site to reduce potential issues.
+<boxEmbed
+  body={<>
+    northwind.com/flights/australia-to-nz
+  </>}
+  figurePrefix="good"
+  figure="The URL is entirely lowercase"
+  style="greybox"
+/>
