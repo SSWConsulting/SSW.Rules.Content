@@ -66,12 +66,22 @@ The simplest approach is reviewing the plan directly in the chat interface and d
   figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
+<boxEmbed
+  style="info"
+  body={<>
+    **Limitation:** Hard to give targeted feedback on specific sections without copying and pasting chunks of text. Suitable for small plans only.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
 ## Option 2: Editor - Edit the plan file directly
 
 Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the terminal. This gives you a visual overview of the whole plan at once.
 
 * **Edit manually** - revise the plan directly in the markdown file, then ask the AI to implement from the updated version
 * **Cursor** - built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
+* **GitHub Copilot Workspace** - offers a plan-then-implement flow with a visual UI in the browser, where you can review and edit proposed changes before the AI implements them
 
 <boxEmbed
   style="info"
