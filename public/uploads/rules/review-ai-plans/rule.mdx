@@ -41,10 +41,10 @@ Reviewing the plan is what separates professional AI-assisted development from v
 
 Catching problems at the plan stage is dramatically cheaper than catching them after implementation (both in development costs as well as tokens):
 
-* **Wrong assumptions** - the AI may have misunderstood requirements or made incorrect assumptions about your architecture
-* **Scope creep** - the plan may include unnecessary changes that increase the scope of the change without you intending it to
-* **Better alternatives** - you may have more domain specific knowledge and know of a more effective approach that the AI didn't consider
-* **Multiple iterations** - reviewing and refining the plan leads to much better outcomes than approving the first draft
+* **Wrong assumptions** - The AI may have misunderstood requirements or made incorrect assumptions about your architecture
+* **Scope creep** - The plan may include unnecessary changes that increase the scope of the change without you intending it to
+* **Better alternatives** - You may have more domain specific knowledge and know of a more effective approach that the AI didn't consider
+* **Multiple iterations** - Reviewing and refining the plan leads to much better outcomes than approving the first draft
 
 Modifying a plan is cheap, re-implementing a feature is expensive.
 
@@ -69,9 +69,9 @@ The simplest approach to reviewing the plan is directly inside of the chat inter
 
 For more direct control over just reading summaries inside of the terminal, you can open the generated plan file (e.g. `PLAN.md`) inside your editor alongside the chat session with your agent. This gives you a visual overview of the whole plan at once.
 
-* **Edit manually** - revise the plan directly in the markdown file, then ask the AI to implement from the updated version
-* **Cursor** - built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
-* **GitHub Copilot Workspace** - offers a plan-then-implement flow with a visual UI in the browser, where you can review and edit proposed changes before the AI implements them
+* **Edit manually** - Revise the plan directly in the markdown file, then ask the AI to implement from the updated version
+* **Cursor** - Built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
+* **GitHub Copilot Workspace** - Offers a plan-then-implement flow with a visual UI in the browser, where you can review and edit proposed changes before the AI implements them
 
 ### Limitations
 
@@ -96,7 +96,7 @@ Key features:
 * **Delete** unwanted sections
 * **Replace** or insert content
 * **Global comments** for overall feedback
-* **Multi-round iteration** - deny with annotations → AI refines → re-review → approve
+* **Multi-round iteration** - Deny with annotations → AI refines → re-review → approve
 * **Works with any AI agent** - Claude Code, Codex, Copilot CLI, etc.
 * Once approved, the AI builds based on the agreed, refined plan
 
@@ -117,7 +117,7 @@ Key features:
     **Review workflow with Plannotator:**
     
     1. AI generates `PLAN.md`
-    2. Plannotator opens automatically - the plan renders as an annotatable document
+    2. Plannotator opens automatically. The plan renders as an annotatable document
     3. Add an inline comment on the data access section: *"This approach will cause N+1 queries - use batch loading instead"*
     4. Submit as **Send Feedback** with overall comment: *"Address the N+1 issue before proceeding"*
     5. AI updates the plan based on annotations
@@ -134,11 +134,11 @@ Key features:
 
 Key features:
 
-* **Inline comments** - highlight any passage in the plan and leave a comment
-* **Emoji reactions** - react to sections to signal approval or concern
-* **Outline sidebar** - navigate between plan sections easily
-* **Terminal stays free** - the plan drafts remotely so you can keep working
-* **Flexible execution** - approve to run on the web (auto-PR) or send the plan back to your terminal
+* **Inline comments** - Highlight any passage in the plan and leave a comment
+* **Emoji reactions** - React to sections to signal approval or concern
+* **Outline sidebar** - Navigate between plan sections easily
+* **Terminal stays free** - The plan drafts remotely so you can keep working
+* **Flexible execution** - Approve to run on the web (auto-PR) or send the plan back to your terminal
 * Launch via `/ultraplan` command, the keyword "ultraplan" in a prompt, or by promoting a local plan
 
 <boxEmbed
@@ -156,9 +156,9 @@ The [Claude Code VSCode extension](https://marketplace.visualstudio.com/items?it
 
 Key features:
 
-* **Full document view** - the plan opens in a dedicated editor tab for easy reading
-* **Inline comments** - add comments directly on specific sections of the plan to give Claude targeted feedback
-* **Approval workflow** - once reviewed, choose to execute in auto mode, review each edit manually, or keep planning with feedback
+* **Full document view** - The plan opens in a dedicated editor tab for easy reading
+* **Inline comments** - Add comments directly on specific sections of the plan to give Claude targeted feedback
+* **Approval workflow** - Once reviewed, choose to execute in auto mode, review each edit manually, or keep planning with feedback
 
 <boxEmbed
   style="info"
