@@ -23,12 +23,12 @@
 #
 # Agent 2a (Judge) of the ContentHawk pipeline. Runs on a cron schedule (or manually) and picks up the first available snapshot from the TODO folder. Reads the snapshot to obtain the Label, Intent, and Issue Preferences, then iterates over every pending row in order. For each file it reads the content, judges whether the file needs action based on the Intent captured by Agent 1, and opens a labelled GitHub issue for files that need fixing. After all affordable rows have been processed a post-step dispatches Agent 2b (content-judge-pr) which reads the created issues and opens a pull request to update the snapshot. Stops immediately if the number of open labelled issues already meets or exceeds max_open_issues without making any changes.
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"c448c3f542bbbd78620fb78e50cb5e6e61c56e32cfe8132493ec352b194013af","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"1cb34d5a4ac029342debf3fc8006feba8793768c4c329dc07a117e34a588bffc","compiler_version":"v0.59.0","strict":true}
 
 name: "Content Judge (Agent 2a)"
 "on":
   schedule:
-  - cron: "0 * * * */7"
+  - cron: "0 0 * * */7"
   workflow_dispatch:
 
 permissions: {}
