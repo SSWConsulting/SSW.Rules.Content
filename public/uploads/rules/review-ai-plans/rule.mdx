@@ -23,15 +23,15 @@ seoDescription: Learn how to review AI-generated coding plans effectively before
 created: 2026-03-16T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: GordonBeeming@ssw.com.au
-lastUpdated: 2026-04-09T04:17:51.767Z
+lastUpdated: 2026-04-09T04:55:24.727Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
 ---
 
-Measure twice, cut once. Before any non-trivial change, always create **and review** a plan with AI. An AI plan is only as good as the human review it receives. An unreviewed plan is a liability waiting to be executed.
+Measure twice, cut once. Before any non-trivial change, always create **and review** a plan with AI. An AI plan is only as good as the human review it receives.
 
-Reviewing the plan is what separates professional AI-assisted development from vibe coding. The Discuss step in the [Plan → Discuss → Implement → Review](/ai-assisted-development-workflow) workflow is where your domain knowledge and judgment provide the most value.
+Reviewing the plan is what separates professional AI-assisted development from vibe coding. The Discuss step in the Plan → Discuss → Implement → Review workflow is where your domain knowledge and judgment provide the most value. See the rule on [AI-assisted development](https://www.ssw.com.au/rules/ai-assisted-development-workflow).
 
 <endIntro />
 
@@ -46,7 +46,7 @@ Catching problems at the plan stage is dramatically cheaper than catching them a
 * **Better alternatives** - you may have more domain specific knowledge and know of a more effective approach that the AI didn't consider
 * **Multiple iterations** - reviewing and refining the plan leads to much better outcomes than approving the first draft
 
-A modified plan costs little to nothing. A re-implemented feature costs a lot.
+Modifying a plan is cheap, re-implementing a feature is expensive.
 
 ## The traditional approach
 
@@ -59,18 +59,9 @@ The simplest approach to reviewing the plan is directly inside of the chat inter
 <boxEmbed
   style="greybox"
   body={<>
-    Can you change the database part?
-  </>}
-  figurePrefix="bad"
-  figure="Vague feedback with no context forces the AI to guess which part you mean"
-/>
-
-<boxEmbed
-  style="greybox"
-  body={<>
     In the 'Data Access Layer' section, where you suggest adding a new repository class - instead, use the existing `IUserRepository` we already have. It already supports the query pattern you need.
   </>}
-  figurePrefix="good"
+  figurePrefix="none"
   figure="Quoting the exact section and describing precisely what to change gives the AI enough context to act"
 />
 
