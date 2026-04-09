@@ -21,7 +21,7 @@ seoDescription: Learn how to review AI-generated coding plans effectively before
 created: 2026-03-16T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: GordonBeeming@ssw.com.au
-lastUpdated: 2026-04-09T02:14:17.552Z
+lastUpdated: 2026-04-09T02:19:30.275Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 isArchived: false
@@ -37,22 +37,22 @@ Reviewing the plan is what separates professional AI-assisted development from v
 
 ## Why plan review matters
 
-Catching problems at the plan stage is dramatically cheaper than catching them after implementation:
+Catching problems at the plan stage is dramatically cheaper than catching them after implementation (both in development costs as well as tokens):
 
 * **Wrong assumptions** - the AI may have misunderstood requirements or made incorrect assumptions about your architecture
-* **Scope creep** - the plan may include unnecessary changes that increase risk
-* **Better alternatives** - you may know of a simpler approach that the AI didn't consider
+* **Scope creep** - the plan may include unnecessary changes that increase the scope of the change without you intending it to
+* **Better alternatives** - you may have more domain specific knowledge and know of a simpler approach that the AI didn't consider
 * **Multiple iterations** - reviewing and refining the plan several times leads to much better outcomes than approving the first draft
 
-A changed plan costs nothing. A re-implemented feature costs a lot.
+A modified plan costs little to nothing. A re-implemented feature costs a lot.
 
 ## The traditional approach
 
-The original way to review AI plans is to discuss back and forth with your AI agent directly - either in the terminal or in your editor.
+The original way to review AI plans is to discuss back and forth with your AI agent directly - either in the terminal, or inside of your editor if you wanted to have more control by reading the raw PLAN.md file yourself.
 
 ### Terminal - Discussing and iterating with your AI Agent
 
-The simplest approach is reviewing the plan directly in the chat interface and describing the changes you want.
+The simplest approach to reviewing the plan is directly inside of the chat interface with your AI Agent, describing the modifications to your plan that you want.
 
 <boxEmbed
   style="greybox"
@@ -74,7 +74,7 @@ The simplest approach is reviewing the plan directly in the chat interface and d
 
 ### Editor - Overview of the actual plan file itself
 
-Open the generated plan file (e.g. `PLAN.md`) in your editor alongside the terminal. This gives you a visual overview of the whole plan at once.
+For more direct control over just reading summaries inside of the terminal, you can open the generated plan file (e.g. `PLAN.md`) inside your editor alongside the chat session with your agent. This gives you a visual overview of the whole plan at once.
 
 * **Edit manually** - revise the plan directly in the markdown file, then ask the AI to implement from the updated version
 * **Cursor** - built-in plan mode shows the plan inline; you can chat about specific sections directly without leaving the editor
