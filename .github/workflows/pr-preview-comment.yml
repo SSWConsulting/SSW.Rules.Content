@@ -47,10 +47,12 @@ jobs:
 
                 const content = Buffer.from(blob.content, 'base64').toString('utf8');
                 const uriMatch = content.match(/^uri:\s*(\S+)/m);
+                const titleMatch = content.match(/^title:\s*(.+)/m);
                 if (uriMatch) {
                   const uri = uriMatch[1].trim();
+                  const title = titleMatch ? titleMatch[1].trim() : uri;
                   const previewUrl = `${baseUrl}?branch=${encodedBranch}&uri=${encodeURIComponent(uri)}`;
-                  links.push(`- [${uri}](${previewUrl})`);
+                  links.push(`- [${title}](${previewUrl})`);
                 }
               } catch (e) {
                 console.warn(`Could not read ${file.filename}:`, e.message);
@@ -60,7 +62,16 @@ jobs:
             // No relevant files changed — nothing to comment
             if (links.length === 0) return;
 
-            const body = `${COMMENT_MARKER}\n### TinaCMS Preview\n\nClick a link to open the staging site with this PR's branch and the specific page pre-selected:\n\n${links.join('\n')}\n\n> Branch: \`${branch}\``;
+            const body = [
+              COMMENT_MARKER,
+              '## 🔍 Preview Changes',
+              '',
+              'Preview the changes from this PR:',
+              '',
+              links.join('\n'),
+              '',
+              `> **Branch:** \`${branch}\``,
+            ].join('\n');
 
             // Find existing preview comment to update
             const { data: comments } = await github.rest.issues.listComments({
