@@ -64,9 +64,9 @@ jobs:
 
             const body = [
               COMMENT_MARKER,
-              '## 🔍 Preview Changes',
+              '## 🔍 Preview PR Changes',
               '',
-              'Preview the changes from this PR:',
+              'View updated pages in edit mode:',
               '',
               links.join('\n'),
               '',
