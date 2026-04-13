@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T02:39:20.796Z
+lastUpdated: 2026-04-13T02:40:42.457Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -34,11 +34,11 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 <a href="mailto:hello@example.com">Contact us</a>
 ```
 
-**❌ Figure: Bad Example - a raw mailto: link in a CTA**
+**❌ Figure: Bad Example - a raw `mailto:` link in a CTA**
 
 ### Why `mailto:` fails most users
 
-The core UX problem is unexpected application switching. When a user clicks a mailto: link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
+The core UX problem is unexpected application switching. When a user clicks a `mailto:` link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
 Desktop email clients account for **only 16.2%** of email opens (Litmus, 2026). The remaining **83.8% of users are on webmail or mobile**. On a machine without a configured client - clicking `mailto:` produces one of three outcomes:
 
@@ -116,7 +116,7 @@ When a form is overkill - a personal portfolio, a static site, a README - show t
   style="tips"
 />
 
-## ⚠️ If mailto: must be used
+## ⚠️ If `mailto:` must be used
 
 When `mailto:` is genuinely appropriate, build it correctly:
 
