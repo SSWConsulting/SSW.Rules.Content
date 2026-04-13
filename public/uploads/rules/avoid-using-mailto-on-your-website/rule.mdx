@@ -17,7 +17,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T01:59:15.004Z
+lastUpdated: 2026-04-13T02:17:04.497Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -62,6 +62,18 @@ A contact form keeps users on the page, requires no configured mail client, work
 * Gives users a consistent, guided experience
 * Enables server-side validation, spam filtering (e.g. reCAPTCHA, honeypot fields), and structured data collection
 * Can trigger an auto-reply confirmation, improving perceived responsiveness
+
+```htmlbars
+<form action="/api/contact" method="POST">
+  <label for="email">Your email</label>
+  <input type="email" id="email" name="email" required />
+  <label for="message">Message</label>
+  <textarea id="message" name="message" required></textarea>
+  <button type="submit">Send message</button>
+</form>
+```
+
+**✅ Figure: Good Example – a minimal contact form**
 
 <boxEmbed
   body={<>
