@@ -17,7 +17,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T01:52:44.299Z
+lastUpdated: 2026-04-13T01:55:13.139Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -28,7 +28,7 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 
 <endIntro />
 
-## Why `mailto:` fails most users
+### Why `mailto:` fails most users
 
 The core UX problem is unexpected application switching. When a user clicks a mailto: link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
@@ -40,12 +40,12 @@ Desktop email clients account for **only 16.2%** of email opens (Litmus, 2026). 
 
 Each outcome is a dead end. A user who has decided to get in touch and hits that friction may not try again.
 
-## `Mailto:` is an analytics black hole
+### `Mailto:` is an analytics black hole
 
 GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
 Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable. Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
-## Exposed email addresses attract spam
+### Exposed email addresses attract spam
 
 HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was harvested by 100% of tested bots **(**[**Spencer Mortensen, 2026**](https://spencermortensen.com/articles/email-obfuscation/)**).** An unprotected address can accumulate tens of megabytes of spam over months.
 
@@ -53,13 +53,21 @@ HTML-based `mailto:` links are trivially easy for harvesters to extract. A study
 <a href="mailto:hello@example.com">Contact us</a>
 ```
 
-**❌ Figure: Bad Example - a raw mailto: link in a CTA**
+**❌ Figure: Bad Example - a raw `mailto:` link in a CTA**
+
+***
 
 ## ✅ Recommended approach
 
-### 1. Use a contact form (preferred)
+### 1. Use a contact form (best option)
 
 A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics. 
+
+* Works on every device and every browser, regardless of email client configuration
+* Keeps the email address off the front end entirely, eliminating harvesting risk
+* Gives users a consistent, guided experience
+* Enables server-side validation, spam filtering (e.g. reCAPTCHA, honeypot fields), and structured data collection
+* Can trigger an auto-reply confirmation, improving perceived responsiveness
 
 <boxEmbed
   body={<>
