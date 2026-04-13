@@ -17,7 +17,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T02:17:04.497Z
+lastUpdated: 2026-04-13T02:25:04.333Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -116,29 +116,33 @@ When a form is overkill - a personal portfolio, a static site, a README - show t
 
 ***
 
-### When mailto: is acceptable
+## ⚠️ If mailto: must be used
 
-Mailto: is appropriate in the following contexts:
-
-* **Mobile** - native apps handle the handoff reliably
-* **Developer documentation and B2B tools** - developers are far more likely to have a configured client or a browser protocol handler set to Gmail
-* **Corporate intranets** - when IT standardises every machine on Outlook, the "no client configured" problem doesn't exist
-* **Share via Email flows** - RFC 6068 explicitly supports `mailto:?subject=...&body=...` for sharing
-* **Minimal-infrastructure static sites** - where maintaining a form backend isn't feasible
-
-***
-
-### If mailto: must be used
-
-When mailto: is genuinely appropriate, build it correctly:
+When `mailto:` is genuinely appropriate, build it correctly:
 
 * Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
 * Use the actual email address as the visible link text, not "click here" or "Contact Us"
 * Add an `aria-label` and a visible cue that the link opens an email client
-* Obfuscate the address using JavaScript concatenation (blocks 100% of bots in testing) or CSS `display:none` decoys
-* Track clicks via GTM (preferred) or a `gtag.js` click listener - see the tracking setup below
+* Obfuscate the address using one of many **[documented methods](https://spencermortensen.com/articles/email-obfuscation/)**
+* Track clicks via GTM (preferred) or a `gtag.js` click listener
 
-**JavaScript obfuscation example:**
+<boxEmbed
+  body={<>
+    **Note: **GA4's native custom event UI no longer reliably captures `mailto:` clicks as of November 2024. GTM is the recommended method.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+```htmlbars
+<span id="email"></span>
+<script>
+  const u = "support"; const d = "example.com";
+  const el = document.getElementById("email");
+  el.innerHTML = `<a href="mailto:${u}@${d}" aria-label="Email support (opens email client)">${u}@${d}</a>`;
+</script>
+```
 
 Figure: Good example - address assembled at runtime, invisible to harvesters, accessible
 
@@ -148,8 +152,6 @@ Figure: Good example - address assembled at runtime, invisible to harvesters, ac
 2. Create a trigger: Click - Just Links → `Click URL starts with mailto:`
 3. Create a GA4 Event tag: event name `mailto_click`, parameters `link_url` and `link_text`
 4. Mark `mailto_click` as a Key Event in GA4 Admin
-
-Note: GA4's native custom event UI no longer reliably captures mailto: clicks as of November 2024. GTM is the recommended method.
 
 ***
 
