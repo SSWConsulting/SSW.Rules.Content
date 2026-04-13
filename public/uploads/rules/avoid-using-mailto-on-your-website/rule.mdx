@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T05:42:46.992Z
+lastUpdated: 2026-04-13T05:53:22.828Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -34,7 +34,7 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 <a href="mailto:hello@example.com">Contact Us</a>
 ```
 
-**❌ Figure: Bad Example - a raw `mailto:` link in a CTA**
+**❌ Figure: Bad example - a raw `mailto:` link in a CTA**
 
 ### Why `mailto:` fails most users
 
@@ -71,6 +71,8 @@ A contact form keeps users on the page, requires no configured mail client, work
 * Enables server-side validation, spam filtering (e.g. reCAPTCHA, honeypot fields), and structured data collection
 * Can trigger an auto-reply confirmation, improving perceived responsiveness
 
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="improve the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
+
 ```htmlbars
 <form action="/api/contact" method="POST">
   <label for="email">Your email</label>
@@ -81,7 +83,7 @@ A contact form keeps users on the page, requires no configured mail client, work
 </form>
 ```
 
-**✅ Figure: Good Example – a minimal contact form**
+**✅ Figure: Good example - a minimal contact form**
 
 <boxEmbed
   body={<>
@@ -105,7 +107,7 @@ When a form is overkill - a personal portfolio, a static site, a README - show t
 </button>
 ```
 
-**✅ Figure: Good Example -  address is visible and copyable, no application switch**
+**✅ Figure: Good example - address is visible and copyable, no application switch**
 
 <boxEmbed
   body={<>
