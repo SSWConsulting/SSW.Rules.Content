@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T05:53:22.828Z
+lastUpdated: 2026-04-13T05:56:05.845Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -71,7 +71,7 @@ A contact form keeps users on the page, requires no configured mail client, work
 * Enables server-side validation, spam filtering (e.g. reCAPTCHA, honeypot fields), and structured data collection
 * Can trigger an auto-reply confirmation, improving perceived responsiveness
 
-<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="improve the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="improves the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
 
 ```htmlbars
 <form action="/api/contact" method="POST">
@@ -97,6 +97,8 @@ A contact form keeps users on the page, requires no configured mail client, work
 ### 2. Display email as selectable text with a copy-to-clipboard button
 
 When a form is overkill - a personal portfolio, a static site, a README - show the email as visible text and let users copy it with one click.
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="showing the email as visible text" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
 
 ```htmlbars
 <span id="email-text">hello@example.com</span>
