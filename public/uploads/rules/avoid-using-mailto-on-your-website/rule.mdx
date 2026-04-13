@@ -17,7 +17,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T01:41:26.848Z
+lastUpdated: 2026-04-13T01:52:44.299Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -47,13 +47,28 @@ Even with tracking added via GTM or `gtag.js`, all that can be captured is inten
 
 ## Exposed email addresses attract spam
 
-HTML-based `mailto:` links are trivially easy for harvesters to extract. Bots read raw HTML, match a regex against anything resembling an email address, and move on - no JavaScript execution required. Spencer Mortensen's honeypot study (25+ obfuscation methods, 426 spammers) found an unprotected plain-text address was harvested by 100% of tested bots. An unprotected address can accumulate tens of megabytes of spam over months.
+HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was harvested by 100% of tested bots **(**[**Spencer Mortensen, 2026**](https://spencermortensen.com/articles/email-obfuscation/)**).** An unprotected address can accumulate tens of megabytes of spam over months.
+
+```htmlbars
+<a href="mailto:hello@example.com">Contact us</a>
+```
+
+**❌ Figure: Bad Example - a raw mailto: link in a CTA**
 
 ## ✅ Recommended approach
 
 ### 1. Use a contact form (preferred)
 
-A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics. Display a visible email address alongside the form for users who prefer direct email.
+A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics. 
+
+<boxEmbed
+  body={<>
+    **Tip: **Display a visible email address alongside the form for users who prefer direct email.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
 
 ### 2. Display email as selectable text with a copy-to-clipboard button
 
