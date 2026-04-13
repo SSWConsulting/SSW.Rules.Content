@@ -86,14 +86,6 @@ When mailto: is genuinely appropriate, build it correctly:
 
 **JavaScript obfuscation example:**
 
-```html
-<span id="email"></span>
-<script>
-  const u = "support"; const d = "example.com";
-  const el = document.getElementById("email");
-  el.innerHTML = `<a href="mailto:${u}@${d}" aria-label="Email support (opens email client)">${u}@${d}</a>`;
-</script>
-```
 
 Figure: Good example - address assembled at runtime, invisible to harvesters, accessible
 
