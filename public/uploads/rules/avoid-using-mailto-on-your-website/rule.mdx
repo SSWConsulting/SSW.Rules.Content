@@ -17,33 +17,37 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-13T00:50:54.350Z
+lastUpdated: 2026-04-13T01:41:26.848Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
 
-Using mailto: links is a quick way to add contact functionality to a website, but in most cases it creates more problems than it solves - for both users and developers. Clicking a "Contact Us" link should connect a user with your team - not strand them in an unconfigured email client. Yet mailto: links do exactly that for the majority of desktop users, and the problem goes beyond bad UX. They expose email addresses to spam harvesters, break analytics and create false confidence that contact attempts are being tracked.
+Using `mailto:` links is a quick way to add contact functionality to a website, but in most cases it creates more problems than it solves - for both users and developers. Clicking a "Contact Us" link should connect a user with your team - not strand them in an unconfigured email client. Yet `mailto:` links do exactly that for the majority of users, and the problem goes beyond bad UX. They expose email addresses to spam harvesters, break analytics and create false confidence that contact attempts are being tracked.
 
 <endIntro />
 
-## Why mailto: fails most users
+## Why `mailto:` fails most users
+
 The core UX problem is unexpected application switching. When a user clicks a mailto: link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
-Desktop email clients account for only 16.2% of email opens (Litmus, 2026). The remaining 83.8% of users are on webmail or mobile. On a machine without a configured client - clicking mailto: produces one of three outcomes: 
+Desktop email clients account for **only 16.2%** of email opens (Litmus, 2026). The remaining **83.8% of users are on webmail or mobile**. On a machine without a configured client - clicking `mailto:` produces one of three outcomes:
+
 1. An unconfigured Mail app launches and prompts account setup
 2. The browser shows a "how do you want to open this?" dialog
 3. Nothing visible happens at all
 
 Each outcome is a dead end. A user who has decided to get in touch and hits that friction may not try again.
 
-## Mailto: is an analytics black hole
-GA4's Enhanced Measurement deliberately excludes mailto: from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
-Even with tracking added via GTM or gtag.js, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable. Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
+## `Mailto:` is an analytics black hole
+
+GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
+Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable. Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
 ## Exposed email addresses attract spam
-HTML-based mailto: links are trivially easy for harvesters to extract. Bots read raw HTML, match a regex against anything resembling an email address, and move on - no JavaScript execution required. Spencer Mortensen's honeypot study (25+ obfuscation methods, 426 spammers) found an unprotected plain-text address was harvested by 100% of tested bots. An unprotected address can accumulate tens of megabytes of spam over months.
+
+HTML-based `mailto:` links are trivially easy for harvesters to extract. Bots read raw HTML, match a regex against anything resembling an email address, and move on - no JavaScript execution required. Spencer Mortensen's honeypot study (25+ obfuscation methods, 426 spammers) found an unprotected plain-text address was harvested by 100% of tested bots. An unprotected address can accumulate tens of megabytes of spam over months.
 
 ## ✅ Recommended approach
 
@@ -52,6 +56,7 @@ HTML-based mailto: links are trivially easy for harvesters to extract. Bots read
 A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics. Display a visible email address alongside the form for users who prefer direct email.
 
 ### 2. Display email as selectable text with a copy-to-clipboard button
+
 When a form is overkill - a personal portfolio, a static site, a README - show the email as visible text and let users copy it with one click.
 
 **Bad Example**
@@ -60,29 +65,29 @@ When a form is overkill - a personal portfolio, a static site, a README - show t
 
 **Tip: On mobile, fall back to a mailto: link - native email apps handle it well and over 41% of email opens are on mobile.**
 
----
+***
 
 ### When mailto: is acceptable
 
 Mailto: is appropriate in the following contexts:
 
-- **Mobile** - native apps handle the handoff reliably
-- **Developer documentation and B2B tools** - developers are far more likely to have a configured client or a browser protocol handler set to Gmail
-- **Corporate intranets** - when IT standardises every machine on Outlook, the "no client configured" problem doesn't exist
-- **Share via Email flows** - RFC 6068 explicitly supports `mailto:?subject=...&body=...` for sharing
-- **Minimal-infrastructure static sites** - where maintaining a form backend isn't feasible
+* **Mobile** - native apps handle the handoff reliably
+* **Developer documentation and B2B tools** - developers are far more likely to have a configured client or a browser protocol handler set to Gmail
+* **Corporate intranets** - when IT standardises every machine on Outlook, the "no client configured" problem doesn't exist
+* **Share via Email flows** - RFC 6068 explicitly supports `mailto:?subject=...&body=...` for sharing
+* **Minimal-infrastructure static sites** - where maintaining a form backend isn't feasible
 
----
+***
 
 ### If mailto: must be used
 
 When mailto: is genuinely appropriate, build it correctly:
 
-- Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
-- Use the actual email address as the visible link text, not "click here" or "Contact Us"
-- Add an `aria-label` and a visible cue that the link opens an email client
-- Obfuscate the address using JavaScript concatenation (blocks 100% of bots in testing) or CSS `display:none` decoys
-- Track clicks via GTM (preferred) or a `gtag.js` click listener - see the tracking setup below
+* Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
+* Use the actual email address as the visible link text, not "click here" or "Contact Us"
+* Add an `aria-label` and a visible cue that the link opens an email client
+* Obfuscate the address using JavaScript concatenation (blocks 100% of bots in testing) or CSS `display:none` decoys
+* Track clicks via GTM (preferred) or a `gtag.js` click listener - see the tracking setup below
 
 **JavaScript obfuscation example:**
 
@@ -97,12 +102,10 @@ Figure: Good example - address assembled at runtime, invisible to harvesters, ac
 
 Note: GA4's native custom event UI no longer reliably captures mailto: clicks as of November 2024. GTM is the recommended method.
 
----
+***
 
 ### More information
 
-- [Do you avoid clear text email addresses in web pages?](https://www.ssw.com.au/rules/avoid-clear-text-email-addresses-in-web-pages/)
-- [RFC 6068 - The mailto URI Scheme](https://www.rfc-editor.org/rfc/rfc6068)
-- [Litmus Email Client Market Share (2026)](https://www.litmus.com/email-client-market-share)
-
-
+* [Do you avoid clear text email addresses in web pages?](https://www.ssw.com.au/rules/avoid-clear-text-email-addresses-in-web-pages/)
+* [RFC 6068 - The mailto URI Scheme](https://www.rfc-editor.org/rfc/rfc6068)
+* [Litmus Email Client Market Share (2026)](https://www.litmus.com/email-client-market-share)
