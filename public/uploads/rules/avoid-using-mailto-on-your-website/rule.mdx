@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-15T23:47:59.690Z
+lastUpdated: 2026-04-15T23:57:01.921Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -38,21 +38,28 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 
 **❌ Figure: Bad example - `mailto:` being used in a button and in a regular link**
 
-### Why `mailto:` fails most users
+### Exposed email addresses attract spam
+
+HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was [harvested by 100% of tested bots](https://spencermortensen.com/articles/email-obfuscation/). An unprotected address can accumulate tens of megabytes of spam over months.
+
+### `mailto:` fails most users
 
 The core UX problem is unexpected application switching. When a user clicks a `mailto:` link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
-Desktop email clients account for **only 16.2%** of email opens [(Litmus, 2026)](https://www.litmus.com/email-client-market-share). The remaining **83.8% of users are on webmail or mobile**. On a machine without a configured client - clicking `mailto:` produces one of three outcomes:
+[Desktop email clients account for only 16.2%](https://www.litmus.com/email-client-market-share) of email opens. The remaining 83.8% of users are on webmail or mobile. 
 
-1. An unconfigured Mail app launches and prompts account setup
+Without a configured client, clicking on a `mailto:` link produces one of three outcomes:
+
+1. App launches and prompts account setup
 2. The browser shows a "how do you want to open this?" dialog
 3. Nothing visible happens at all
 
 Each outcome is a dead end. A user who has decided to get in touch and hits that friction may not try again.
 
-### `Mailto:` is an analytics black hole
+### `mailto:` is an analytics black hole
 
 GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
+
 Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
 
 Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
