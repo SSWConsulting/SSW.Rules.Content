@@ -19,9 +19,9 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-14T00:42:08.639Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-15T23:47:59.690Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -36,7 +36,7 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 <a href="mailto:hello@example.com">Contact Us</a>
 ```
 
-**❌ Figure: Bad example - A raw `mailto:` link in a CTA button**
+**❌ Figure: Bad example - `mailto:` being used in a button and in a regular link**
 
 ### Why `mailto:` fails most users
 
@@ -53,7 +53,7 @@ Each outcome is a dead end. A user who has decided to get in touch and hits that
 ### `Mailto:` is an analytics black hole
 
 GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
-Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable. 
+Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
 
 Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
