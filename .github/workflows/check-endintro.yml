@@ -67,7 +67,7 @@ jobs:
 
       - name: Comment on PR
         if: ${{ env.changed != '' && steps.endintro_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ENDINTRO_REPORT_PATH: ${{ runner.temp }}/endintro-report.md
         with:

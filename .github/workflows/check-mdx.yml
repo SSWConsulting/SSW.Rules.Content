@@ -95,7 +95,7 @@ jobs:
 
       - name: Comment on PR (same-repo PR only, only when issues found)
         if: ${{ env.changed != '' && steps.mdx_report.outputs.exists == 'true' && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           MDX_REPORT_PATH: ${{ runner.temp }}/mdx-check-report.md
           DID_COMMIT: ${{ steps.autofix.outputs.did_commit }}
