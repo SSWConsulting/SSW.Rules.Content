@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T00:13:54.928Z
+lastUpdated: 2026-04-16T00:52:06.508Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -34,6 +34,8 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 
 ```htmlbars
 <a href="mailto:hello@example.com">Contact Us</a>
+
+<a href="mailto:support@example.com">Report a Bug</a>
 ```
 
 **❌ Figure: Bad example - `mailto:` being used in a button and in a regular link**
@@ -46,7 +48,7 @@ HTML-based `mailto:` links are trivially easy for harvesters to extract. A study
 
 The core UX problem is unexpected application switching. When a user clicks a `mailto:` link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
-[Desktop email clients account for only 16.2%](https://www.litmus.com/email-client-market-share) of email opens. The remaining 83.8% of users are on webmail or mobile. 
+[Desktop email clients account for only 16.2%](https://www.litmus.com/email-client-market-share) of email opens. The remaining 83.8% of users are on webmail or mobile.
 
 Without a configured client, clicking on a `mailto:` link produces one of three outcomes:
 
