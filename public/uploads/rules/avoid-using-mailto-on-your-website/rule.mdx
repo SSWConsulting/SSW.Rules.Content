@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T01:35:55.710Z
+lastUpdated: 2026-04-16T05:20:22.239Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -62,7 +62,7 @@ Each outcome is a dead end. A user who has decided to get in touch and hits that
 
 [GA4's Enhanced Measurement excludes](https://support.google.com/analytics/answer/9216061?sjid=201540904795521130-NC) `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
 
-Even with [tracking added via GTM](https://measureu.com/track-mailto-email-links-google-analytics-4/) or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
+Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
 
 Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
@@ -116,16 +116,7 @@ When `mailto:` is genuinely needed, build it correctly:
 * Use the actual email address as the visible link text, not "click here" or "Contact Us"
 * Add an `aria-label` and a visible cue that the link opens an email client
 * Obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
-* Track clicks via GTM (preferred) or a `gtag.js` click listener
-
-<boxEmbed
-  body={<>
-    **Note:** GA4's native custom event UI no longer reliably captures `mailto:` clicks as of November 2024. GTM is the recommended method.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="info"
-/>
+* [Track clicks via GTM](https://measureu.com/track-mailto-email-links-google-analytics-4/) (preferred) or a `gtag.js` click listener
 
 ***
 
