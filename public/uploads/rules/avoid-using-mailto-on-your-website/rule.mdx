@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T00:03:17.275Z
+lastUpdated: 2026-04-16T00:06:46.888Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -84,7 +84,7 @@ A contact form keeps users on the page, requires no configured mail client, work
 
 When a form is overkill, show the email as visible text and let users copy it with one click.
 
-<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="good" figure="Showing the address as visible text" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
+<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="none" figure="Showing the address as visible text generally should be avoided" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
 
 ```htmlbars
 <span id="email-text">hello@example.com</span>
@@ -95,15 +95,15 @@ When a form is overkill, show the email as visible text and let users copy it wi
 </button>
 ```
 
-**✅ Figure: Good example - address is visible and copyable, no application switch**
+**Code: Address is copyable, no `mailto:` used**
 
 <boxEmbed
   body={<>
-    **Tip:** On mobile, fall back to a `mailto:` link - native email apps handle it well and **over 41%** of email opens are on mobile.
+    **Note:** On mobile, fall back to a `mailto:` link - native email apps handle it well and **over 41%** of email opens are on mobile.
   </>}
   figurePrefix="none"
   figure=""
-  style="tips"
+  style="info"
 />
 
 ## ⚠️ If `mailto:` must be used
