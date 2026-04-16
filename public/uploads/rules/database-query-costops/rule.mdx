@@ -146,21 +146,41 @@ Key features:
 
 WISdom is the tool referenced throughout this rule for query-level cost analysis and ROI calculations.
 
-### New Relic
+### Azure Query Performance Insight
 
-[New Relic](https://newrelic.com/) is a full-stack observability platform that includes database monitoring capabilities. While it is not a dedicated FinOps tool, its APM (Application Performance Monitoring) features give you visibility into slow and resource-heavy queries.
+[Azure Query Performance Insight](https://learn.microsoft.com/en-us/azure/azure-sql/database/query-performance-insight-use) is a free, built-in tool in the Azure Portal for Azure SQL Database. It visualizes your top resource-consuming queries using data from Query Store, which is enabled by default on all Azure SQL databases.
 
 Key features:
 
-* **Database query analysis** - View slow queries, throughput, and response times across your application
-* **Transaction tracing** - Trace individual requests end-to-end, including all database calls
-* **Alerting** - Set up alerts when query performance degrades beyond thresholds
-* **Cross-application correlation** - See which services and endpoints are generating the most database load
+* **Top resource-consuming queries** - Identify the queries using the most CPU, with the longest duration, or the highest execution count
+* **DTU consumption breakdown** - See how individual queries contribute to your overall DTU usage
+* **Historical analysis** - View query performance trends over the past 24 hours, week, or month
+* **Performance recommendations** - Get automatic tuning suggestions from Azure Database Advisor
 
 <boxEmbed
   style="info"
   body={<>
-    **Note:** New Relic focuses on performance observability rather than direct cost-per-query analysis. It helps you find slow and frequent queries, but you will need to map that to cost yourself.
+    **Note:** Query Performance Insight is free and already available in your Azure Portal. It shows resource consumption but does not translate that into dollar amounts — you will need to calculate the cost impact yourself.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Datadog Database Monitoring
+
+[Datadog Database Monitoring](https://www.datadoghq.com/product/database-monitoring/) provides dedicated database-level observability with query-level metrics, explain plans, and cost analysis. It supports SQL Server, Azure SQL, PostgreSQL, MySQL, and more.
+
+Key features:
+
+* **Query metrics and samples** - View historical performance for normalized queries, filter by infrastructure tags, and get alerted on anomalies
+* **Explain plan cost analysis** - Automatically collects explain plans and lets you sort queries by execution cost to find expensive operations
+* **Query cost comparison** - Filter, sort, and compare explain plan costs across multiple queries to identify the most expensive ones
+* **Stored procedure insights** - View which stored procedures contribute the most to database load and drill into their component queries
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Datadog's "cost" refers to query execution cost from explain plans (CPU, IO, reads), not dollar amounts. It helps you find the most resource-heavy queries, but does not map directly to your cloud bill like WISdom does.
   </>}
   figurePrefix="none"
   figure=""
@@ -188,15 +208,15 @@ Key features:
 
 ### Comparison
 
-|                              | WISdom (Recommended) | New Relic | Azure Application Insights |
-| ---------------------------- | -------------------- | --------- | -------------------------- |
-| Cost per query               | ✅                    | ❌         | ❌                          |
-| ROI planning                 | ✅                    | ❌         | ❌                          |
-| Query performance monitoring | ✅                    | ✅         | ✅                          |
-| Transaction tracing          | ❌                    | ✅         | ✅                          |
-| Native Azure integration     | ❌                    | ❌         | ✅                          |
-| Pre-production cost detection| ✅                    | ❌         | ❌                          |
-| Alerting                     | ❌                    | ✅         | ✅                          |
+|                              | WISdom (Recommended) | Azure Query Performance Insight | Datadog DBM | Azure Application Insights |
+| ---------------------------- | -------------------- | ------------------------------- | ----------- | -------------------------- |
+| Cost per query ($)           | ✅                    | ❌                               | ❌           | ❌                          |
+| ROI planning                 | ✅                    | ❌                               | ❌           | ❌                          |
+| Query performance monitoring | ✅                    | ✅                               | ✅           | ✅                          |
+| Explain plan cost analysis   | ❌                    | ❌                               | ✅           | ❌                          |
+| Native Azure integration     | ❌                    | ✅                               | ❌           | ✅                          |
+| Pre-production cost detection| ✅                    | ❌                               | ❌           | ❌                          |
+| Free / built-in              | ❌                    | ✅                               | ❌           | ❌                          |
 
 ***
 
