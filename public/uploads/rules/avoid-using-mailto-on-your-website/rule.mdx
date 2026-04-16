@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T00:52:06.508Z
+lastUpdated: 2026-04-16T01:35:55.710Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -60,9 +60,9 @@ Each outcome is a dead end. A user who has decided to get in touch and hits that
 
 ### `mailto:` is an analytics black hole
 
-GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
+[GA4's Enhanced Measurement excludes](https://support.google.com/analytics/answer/9216061?sjid=201540904795521130-NC) `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
 
-Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
+Even with [tracking added via GTM](https://measureu.com/track-mailto-email-links-google-analytics-4/) or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
 
 Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
@@ -72,7 +72,7 @@ Form submissions, by contrast, are confirmed actions with full funnel visibility
 
 ### 1. ✅ Contact form (recommended)
 
-A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics.
+A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides [structured data with full analytics](https://www.campaignmonitor.com/blog/email-marketing/should-i-use-a-mailto-or-link-to-a-contact-form/).
 
 * Works on every device and every browser, regardless of email client configuration
 * Keeps the email address off the front end entirely, eliminating harvesting risk
