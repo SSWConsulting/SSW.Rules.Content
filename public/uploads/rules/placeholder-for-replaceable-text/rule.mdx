@@ -23,9 +23,9 @@ seoDescription: Learn the best way to indicate replaceable text in email templat
 created: 2022-07-29T17:13:28.570Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-15T22:47:01.845Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-16T08:08:26.590Z
+lastUpdatedBy: ''
+lastUpdatedByEmail: ''
 ---
 
 Email templates are a great way to save time and keep communication consistent. Many templates include parts that must be updated for each message, so it’s important to clearly show what needs to be replaced.
@@ -66,12 +66,12 @@ For example:
 
 > The quick brown fox `{ action }` over the lazy dog
 
-* Angular developers are used to `&#123;&#123;  &#125;&#125;`   
+* Angular developers are used to `&#123;&#123;  &#125;&#125;`\
   (currently the standard in SugarLearning and SSW Rules)
 
 > The quick brown fox `&#123;&#123; action &#125;&#125;` over the lazy dog
 
-> The quick brown fox `&#123;&#123; ACTION &#125;&#125;` over the lazy dog 
+> The quick brown fox `&#123;&#123; ACTION &#125;&#125;` over the lazy dog
 
 * Visual Studio code reviewers are used to `TODO:`
 
@@ -81,21 +81,26 @@ So, double **curly brackets** are recommended instead of square brackets to indi
 
 **In certain places such as Sales templates, you cannot afford to miss a single placeholder**
 
-Of course, if you want to make it even more obvious then highlight the text in yellow... however you can't do it in many places like Microsoft Forms... so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌.
+Of course, if you want to make it even more obvious then highlight the text in yellow\... however you can't do it in many places like Microsoft Forms... so another option is to use an emoji like the ✏️ or to make it super obvious the three ❌❌❌.
 
 To draw even more attention to text you should make the placeholder all caps.
 
-  subject="\\[Project name\\] - Test please"
+<emailEmbed
+  from=""
+  to="{{ CLIENT EMAIL }}"
+  cc=""
+  bcc=""
+  subject="[Project name] - Test please"
   shouldDisplayBody={true}
   body={<>
-    ## Hi \[Client name\]
-
-I've been working on \[Project name\] and just deployed version \[Version number\] with the latest requirements.
-
-1. Test please - \[Link\]
-
-Regards,
-\[Your name\]
+    ## Hi \[Client name]
+    
+    I've been working on \[Project name] and just deployed version \[Version number] with the latest requirements.
+    
+    1. Test please - \[Link]
+    
+    Regards,\
+    \[Your name]
   </>}
   figurePrefix="bad"
   figure="Using square brackets for replaceable text"
@@ -103,26 +108,26 @@ Regards,
 
 <emailEmbed
   from=""
-  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
+  to="{{ CLIENT EMAIL }}"
   cc=""
   bcc=""
-  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Test please"
+  subject="{{ PROJECT NAME }} - Test please"
   shouldDisplayBody={true}
   body={<>
-    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
-
-I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed version &#123;&#123; VERSION NUMBER &#125;&#125; with the latest requirements.
-
-1. Test please - &#123;&#123; LINK &#125;&#125;
-
-Regards,
-&#123;&#123; YOUR NAME &#125;&#125;
+    ## Hi {{ CLIENT NAME }}
+    
+    I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
+    
+    1. Test please - {{ LINK }}
+    
+    Regards,
+    {{ YOUR NAME }}
   </>}
   figurePrefix="good"
   figure="Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE"
 />
 
----
+***
 
 ## More info on the origins
 
@@ -130,6 +135,6 @@ Regards,
 
 Using `[]` for replaceable text can be confusing since there is already the common usage for labelling.
 
-`{ }` are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
+`{ }` are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta\&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
 [Angular interpolation uses `&#123;&#123;` and `&#125;&#125;` as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
