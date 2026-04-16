@@ -87,7 +87,7 @@ To draw even more attention to text you should make the placeholder all caps.
 
 <emailEmbed
   from=""
-  to="{{ CLIENT EMAIL }}"
+  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
   cc=""
   bcc=""
   subject="[Project name] - Test please"
@@ -108,20 +108,20 @@ To draw even more attention to text you should make the placeholder all caps.
 
 <emailEmbed
   from=""
-  to="{{ CLIENT EMAIL }}"
+  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
   cc=""
   bcc=""
-  subject="{{ PROJECT NAME }} - Test please"
+  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Test please"
   shouldDisplayBody={true}
   body={<>
-    ## Hi {{ CLIENT NAME }}
+    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
     
-    I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
+    I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed version &#123;&#123; VERSION NUMBER &#125;&#125; with the latest requirements.
     
-    1. Test please - {{ LINK }}
+    1. Test please - &#123;&#123; LINK &#125;&#125;
     
     Regards,
-    {{ YOUR NAME }}
+    &#123;&#123; YOUR NAME &#125;&#125;
   </>}
   figurePrefix="good"
   figure="Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE"
