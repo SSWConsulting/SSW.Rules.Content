@@ -23,9 +23,9 @@ seoDescription: Learn the best way to indicate replaceable text in email templat
 created: 2022-07-29T17:13:28.570Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-15T22:47:01.845Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-16T08:23:05.733Z
+lastUpdatedBy: Chloe Lin
+lastUpdatedByEmail: chloelin@ssw.com.au
 ---
 
 Email templates are a great way to save time and keep communication consistent. Many templates include parts that must be updated for each message, so it’s important to clearly show what needs to be replaced.
@@ -87,7 +87,7 @@ To draw even more attention to text you should make the placeholder all caps.
 
 <emailEmbed
   from=""
-  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
+  to="{{ CLIENT EMAIL }}"
   cc=""
   bcc=""
   subject="[Project name] - Test please"
@@ -108,20 +108,20 @@ To draw even more attention to text you should make the placeholder all caps.
 
 <emailEmbed
   from=""
-  to="&#123;&#123; CLIENT EMAIL &#125;&#125;"
+  to="{{ CLIENT EMAIL }}"
   cc=""
   bcc=""
-  subject="&#123;&#123; PROJECT NAME &#125;&#125; - Test please"
+  subject="{{ PROJECT NAME }} - Test please"
   shouldDisplayBody={true}
   body={<>
-    ## Hi &#123;&#123; CLIENT NAME &#125;&#125;
+    ## Hi {{ CLIENT NAME }}
     
-    I've been working on &#123;&#123; PROJECT NAME &#125;&#125; and just deployed version &#123;&#123; VERSION NUMBER &#125;&#125; with the latest requirements.
+    I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
     
-    1. Test please - &#123;&#123; LINK &#125;&#125;
+    1. Test please - {{ LINK }}
     
     Regards,
-    &#123;&#123; YOUR NAME &#125;&#125;
+    {{ YOUR NAME }}
   </>}
   figurePrefix="good"
   figure="Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE"
@@ -137,4 +137,4 @@ Using `[]` for replaceable text can be confusing since there is already the comm
 
 `{ }` are used frequently in popular APIs like [Microsoft Graph](https://learn.microsoft.com/en-au/graph/api/resources/users?view=graph-rest-beta\&WT.mc_id=DT-MVP-33518), [Microsoft PowerPlatform](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/samples/webapiservice-query-data?WT.mc_id=DP-MVP-33518) [Facebook](https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api), [Riot](https://developer.riotgames.com/apis), [Amazon](https://developer-docs.amazon.com/sp-api/docs/product-pricing-api-v0-reference) and also in [React](https://reactjs.org/docs/introducing-jsx.html)
 
-[Angular interpolation uses `&#123;&#123;` and `&#125;&#125;` as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
+[Angular interpolation uses `{{` and `}}` as a delimiter](https://angular.io/guide/interpolation). They indicate a variable and we think this is a very clear way to indicate that something needs to be replaced because it is very uncommon to see this syntax outside of Angular code.
