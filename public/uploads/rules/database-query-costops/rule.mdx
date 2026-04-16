@@ -132,6 +132,72 @@ Database optimization is no longer just about speed, it’s about **cloud cost e
 
 ## Tools to help optimize database costs by query
 
+### WISdom by Fortified (Recommended)
+
+[WISdom](https://fortified.com/fortified-wisdom/) is a FinOps platform purpose-built for database cost optimization. It gives you query-level cost visibility across your SQL Server and Azure SQL environments, linking individual queries directly to dollar amounts.
+
+Key features:
+
+* **Cost per query** - See exactly how much each SQL statement costs in real-time
+* **Top cost-driving statements** - Identify the queries responsible for the biggest share of your bill
+* **ROI planning** - Model expected savings before committing to optimization work
+* **Total Cost of Code analysis** - Link queries back to the application code driving them
+* **Pre-production cost detection** - Identify expensive code before it hits production
+
+WISdom is the tool referenced throughout this rule for query-level cost analysis and ROI calculations.
+
+### New Relic
+
+[New Relic](https://newrelic.com/) is a full-stack observability platform that includes database monitoring capabilities. While it is not a dedicated FinOps tool, its APM (Application Performance Monitoring) features give you visibility into slow and resource-heavy queries.
+
+Key features:
+
+* **Database query analysis** - View slow queries, throughput, and response times across your application
+* **Transaction tracing** - Trace individual requests end-to-end, including all database calls
+* **Alerting** - Set up alerts when query performance degrades beyond thresholds
+* **Cross-application correlation** - See which services and endpoints are generating the most database load
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** New Relic focuses on performance observability rather than direct cost-per-query analysis. It helps you find slow and frequent queries, but you will need to map that to cost yourself.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Azure Application Insights
+
+[Azure Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) is Microsoft's APM service within Azure Monitor. If you're already running on Azure, it integrates natively with your SQL databases and provides dependency tracking out of the box.
+
+Key features:
+
+* **Dependency tracking** - Automatically captures SQL queries as dependencies with duration and failure rates
+* **Application Map** - Visualize how your application interacts with databases and spot bottlenecks
+* **Log Analytics (KQL)** - Write custom queries to analyze database call patterns, frequency, and duration trends
+* **Smart detection** - Automatically detects performance anomalies in database calls
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Note:** Like New Relic, Application Insights is a performance monitoring tool rather than a FinOps tool. It shows you *what* is slow and *how often*, but does not calculate cost per query.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
+
+### Comparison
+
+|                              | WISdom (Recommended) | New Relic | Azure Application Insights |
+| ---------------------------- | -------------------- | --------- | -------------------------- |
+| Cost per query               | ✅                    | ❌         | ❌                          |
+| ROI planning                 | ✅                    | ❌         | ❌                          |
+| Query performance monitoring | ✅                    | ✅         | ✅                          |
+| Transaction tracing          | ❌                    | ✅         | ✅                          |
+| Native Azure integration     | ❌                    | ❌         | ✅                          |
+| Pre-production cost detection| ✅                    | ❌         | ❌                          |
+| Alerting                     | ❌                    | ✅         | ✅                          |
+
 ***
 
 ## Summary
