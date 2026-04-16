@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T00:06:46.888Z
+lastUpdated: 2026-04-16T00:12:04.237Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -108,12 +108,12 @@ When a form is overkill, show the email as visible text and let users copy it wi
 
 ## ⚠️ If `mailto:` must be used
 
-When `mailto:` is genuinely appropriate, build it correctly:
+When `mailto:` is genuinely needed, build it correctly:
 
 * Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
 * Use the actual email address as the visible link text, not "click here" or "Contact Us"
 * Add an `aria-label` and a visible cue that the link opens an email client
-* Obfuscate the address using one of many **[documented methods](https://spencermortensen.com/articles/email-obfuscation/)**
+* Obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
 * Track clicks via GTM (preferred) or a `gtag.js` click listener
 
 <boxEmbed
@@ -125,20 +125,9 @@ When `mailto:` is genuinely appropriate, build it correctly:
   style="info"
 />
 
-### JavaScript obfuscation
+***
 
-```htmlbars
-<span id="email"></span>
-<script>
-  const u = "support"; const d = "example.com";
-  const el = document.getElementById("email");
-  el.innerHTML = `<a href="mailto:${u}@${d}" aria-label="Email support (opens email client)">${u}@${d}</a>`;
-</script>
-```
-
-**✅ Figure: Good example - Address assembled at runtime, invisible to harvesters, accessible**
-
-### Encryption technique
+## Encryption technique (legacy)
 
 #### 1. Store email addresses in the web.config file
 
