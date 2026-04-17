@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-16T05:20:22.239Z
+lastUpdated: 2026-04-17T04:26:46.715Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -86,7 +86,7 @@ A contact form keeps users on the page, requires no configured mail client, work
 
 When a form is overkill, show the email as visible text and let users copy it with one click.
 
-<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="none" figure="Showing the address as visible text generally should be avoided" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
+<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="ok" figure="Show the email as visible text and let users copy it with one click" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
 
 ```htmlbars
 <span id="email-text">hello@example.com</span>
@@ -97,11 +97,11 @@ When a form is overkill, show the email as visible text and let users copy it wi
 </button>
 ```
 
-**Code: Address is copyable, no `mailto:` used**
+**🙂 Figure: OK example – Address is copyable, no `mailto:` used**
 
 <boxEmbed
   body={<>
-    **Note:** On mobile, fall back to a `mailto:` link - native email apps handle it well and **over 41%** of email opens are on mobile.
+    **Note:** On a mobile-first website, if not using a form, a `mailto:` link is acceptable. Mobile email apps handle `mailto:` well, and **over 41%** of email opens are on mobile. Be sure to obfuscate the email address to avoid spam.
   </>}
   figurePrefix="none"
   figure=""
@@ -133,7 +133,7 @@ When `mailto:` is genuinely needed, build it correctly:
 </configuration>
 ```
 
-2. Encode them on the server using the BitConverter class
+1. Encode them on the server using the BitConverter class
 
 ```vbnet
 Dim email As String = ConfigurationSettings
@@ -144,7 +144,7 @@ Application("SampleEncodedEmailAddress") = BitConverter
         .Replace("-", "")
 ```
 
-3. Decode on the client with a JavaScript function in the JavaScript
+1. Decode on the client with a JavaScript function in the JavaScript
 
 ```htmlbars
 <a
