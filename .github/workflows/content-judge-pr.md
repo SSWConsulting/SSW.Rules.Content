@@ -38,6 +38,7 @@ steps:
 engine:
   id: copilot
   model: gpt-5-mini
+  version: v1.0.20
 
 permissions: read-all
 
