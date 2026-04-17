@@ -50,18 +50,24 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 
 Here’s a table of common HTML input types and what they do:
 
-| Type           | What                                                                                                                               |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Color          | This is a color picker. This is not supported on mobile or in all browsers.                                                        |
-| Date           | This brings up the date picker on mobile                                                                                           |
-| Datetime-local | This brings up a date-time picker on mobile                                                                                        |
-| Email          | This adds ".com" and "@" to the keyboard on mobile                                                                                 |
-| File           | Use then when you want a button to upload files. This will also allow users to upload from their mobile device’s photo library.    |
-| Month          | This brings up a month and year picker on mobile                                                                                   |
-| Number         | This displays as a number selector on desktop and can be set with upper and lower limits. However, it does not work on mobile yet. |
-| Password       | This masks the characters and should be used for any privacy sensitive information                                                 |
-| Range          | This will show a slider control and works on mobile                                                                                |
-| Search         | This should be used to define search fields                                                                                        |
-| Tel            | This brings up the number pad on mobile                                                                                            |
-| Time           | This brings up the time picker on mobile                                                                                           |
-| URL            | This adds ".com" to the keyboard on mobile                                                                                         |
+| Input Type     | What it does |
+|----------------|-------------|
+| **text**           | Standard single-line text input |
+| **email**          | Validates that the input is a properly formatted email address |
+| **password**       | Masks the entered text for privacy |
+| **number**         | Allows only numeric input and shows increment controls |
+| **tel**            | Optimized for phone numbers (mobile keyboards adapt) |
+| **url**            | Validates that the input is a properly formatted URL |
+| **search**         | Styled for search fields and may include clear functionality |
+| **date**           | Provides a date picker for selecting a date |
+| **time**           | Allows users to select a time |
+| **datetime-local** | Lets users pick both date and time (no timezone) |
+| **checkbox**       | Allows selection of one or more options |
+| **radio**          | Allows selection of a single option from a group |
+| **file**           | Lets users upload files |
+| **range**          | Displays a slider for selecting a value within a range |
+| **color**          | Opens a color picker |
+| **hidden**         | Stores data without displaying it to the user |
+| **submit**         | Submits the form |
+| **reset**          | Resets all form fields to their default values |
+| **button**         | A generic clickable button with no default behavior |
