@@ -1,60 +1,54 @@
 ---
-archivedreason: null
+type: rule
+title: Do you make required fields clear and validate inputs?
+uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
+categories:
+  - category: categories/design/rules-to-better-interfaces-forms.mdx
 authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-created: 2014-12-04 19:35:25+00:00
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+redirects: []
+guid: 85f4b24e-a56b-4601-acdc-aa24e56ec395
+seoDescription: 'Clearly mark required form fields and provide helpful validation to reduce errors, improve usability, and increase successful form submissions.'
+created: 2014-12-04T19:35:25.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-guid: 85f4b24e-a56b-4601-acdc-aa24e56ec395
-isArchived: false
-lastUpdated: 2014-12-04 19:35:25+00:00
+lastUpdated: 2026-04-17T22:17:31.451Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects: []
-seoDescription: Indicate required fields and validate them to avoid user frustration
-  and ensure data conformity to business requirements.
-title: Forms - Do you indicate which fields are required and validate them?
-categories:
-  - category: categories/design/rules-to-better-websites-layout-and-formatting.mdx
-type: rule
-uri: forms-do-you-indicate-which-fields-are-required-and-validate-them
+isArchived: false
+archivedreason: null
 ---
 
 Always indicate which fields are required. Users get frustrated when they experience a wasted trip to the server, just because they did not get an obvious indication of what was required first time around.
 
 <endIntro />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="bad"
-  figure="No visual indication for required fields when a user first sees the form"
-  src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Required-field_Bad-example.jpg"
-/>
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="bad" figure="No required indicators. Users must guess which fields are mandatory" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/01-bad-no-required-indicators.png" />
 
+A designer can choose the most appropriate way to indicate required fields based on the layout and context. If that guidance isn’t available, use a red asterisk as a clear and widely understood default.
 
-A designer will know the best way to indicate required field depending on the layout. However if you are in doubt and don’t have a designer around, a red asterisk is definitely the best option.
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Required fields marked with a red asterisk. Unmarked fields are optional" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/02-good-with-required-indicators.png" />
 
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="good"
-  figure="A visual indication of what fields are required (use a red asterisk if you are not a designer)"
-  src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/Redstar_Good-example.jpg"
-/>
+## Make validation feedback explicit
 
+Clearly show when a field fails (with a helpful message and visual cue) and confirm when it passes, so users know they can move forward with confidence.
 
-### More information on ASP.NET implementation
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Invalid field is highlighted with a message explaining the issue" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/03-field-validation-error.png" />
 
-You should combine these visual indicators with appropriate client and server side validators to make sure that your data conforms to business requirements. Adding a RequiredFieldValidator to the above textboxes gives you data validity check with minimal coding.
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Once the input is valid, the error styling clears and a subtle check confirms success" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/04-fields-validation-passed.png" />
+
+***
+
+## More information on ASP.NET implementation
+
+You should combine these visual indicators with appropriate client and server side validators to make sure that your data conforms to business requirements. Adding a `RequiredFieldValidator` to the above textboxes gives you data validity check with minimal coding.
 
 ```cshtml
 <asp:Textbox runat="Server" ID="email" />
 ```
-**❌ Figure: Bad example - No validator used, so the user won't know the email is required**  
+
+**❌ Figure: Bad example - No validator used, so the user won't know the email is required**
 
 ```cshtml
 <asp:Textbox runat="Server" ID="email"/>
@@ -63,8 +57,8 @@ You should combine these visual indicators with appropriate client and server si
 
 ID="emailReqValidator" />
 ```
-**✅ Figure: Good example - An ASP.NET validator in use, to indicate the fields required**  
 
+**✅ Figure: Good example - An ASP.NET validator in use, to indicate the fields required**
 
 <boxEmbed
   style="greybox"
