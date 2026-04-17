@@ -6,9 +6,10 @@ authors:
   - title: Hajir Lesani
     url: 'https://www.ssw.com.au/people/hajir-lesani/'
 related:
-  - automated-ui-testing
-  - write-end-to-end-tests-for-critical-happy-paths
-  - how-to-structure-a-unit-test
+  - rule: public/uploads/rules/automated-ui-testing/rule.mdx
+  - rule: public/uploads/rules/microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing/rule.mdx
+  - rule: public/uploads/rules/write-end-to-end-tests-for-critical-happy-paths/rule.mdx
+  - rule: public/uploads/rules/automated-ui-testing-sparingly/rule.mdx
 redirects: []
 created: 2026-04-12T00:00:00.000Z
 archivedreason: null
@@ -127,3 +128,7 @@ export const test = base.extend<{ loginPage: LoginPage }>({
 ```
 
 This keeps tests concise and ensures the page object is always constructed consistently.
+
+## Further reading
+
+* [Playwright's official Page Object Model guide](https://playwright.dev/docs/pom)
