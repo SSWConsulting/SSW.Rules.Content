@@ -27,7 +27,7 @@ If the user provides all inputs in their initial message (e.g. as a description 
 Once you have all six inputs, trigger the workflow:
 
 ```bash
-gh workflow run content-campaign.md \
+gh workflow run content-campaign.lock.yml \
   -f search_scope='<search_scope>' \
   -f processing_priority='<processing_priority>' \
   -f intent='<intent>' \
