@@ -19,7 +19,7 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-17T06:58:19.768Z
+lastUpdated: 2026-04-17T07:23:41.914Z
 lastUpdatedBy: AlexBlum-SSW
 lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
@@ -70,15 +70,35 @@ Form submissions, by contrast, are confirmed actions with full funnel visibility
 
 ## The alternatives
 
-### 1. `mailto:` done correctly
+### 1. `mailto:` done correctly (rare cases)
 
 When `mailto:` is genuinely needed, build it correctly:
 
 * Pre-populate `subject`, `body` and `cc` parameters to reduce friction
-* Use the actual email address as the visible link text, not "click here" or "Contact Us"
 * Add an `aria-label` and a visible cue that the link opens an email client
-* Obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
+* Encrypyt or obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
 * [Track clicks via GTM](https://hallam.agency/blog/mailto-link-analytics-tag-manager/) (preferred) or a `gtag.js` click listener
+
+### 2. Contact form (⭐ recommended)
+
+A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides [structured data with full analytics](https://support.google.com/analytics/answer/9216061?sjid=1750661119632285480-NC)
+
+* Works on every device and every browser, regardless of email client configuration
+* Keeps the email address off the front end entirely, eliminating harvesting risk
+* Gives users a consistent, guided experience
+* Enables server-side validation, spam filtering (e.g. reCAPTCHA), and structured data collection
+* Can trigger an auto-reply confirmation, improving perceived responsiveness
+
+<imageEmbed alt="An example contact form" size="medium" showBorder={false} figurePrefix="good" figure="improves the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
+
+<boxEmbed
+  body={<>
+    **Note:** On a mobile-first platform, if not using a form, a `mailto:` link is acceptable. Mobile email apps handle `mailto:` well, and **over 41%** of email opens are on mobile. Be sure to obfuscate the email address to avoid spam.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
 
 ***
 
