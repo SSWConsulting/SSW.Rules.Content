@@ -1,0 +1,134 @@
+---
+type: rule
+title: Do you use the Page Object Model pattern in Playwright tests?
+uri: playwright-page-object-model
+authors:
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani/'
+related:
+  - rule: public/uploads/rules/automated-ui-testing/rule.mdx
+  - rule: public/uploads/rules/microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing/rule.mdx
+  - rule: public/uploads/rules/write-end-to-end-tests-for-critical-happy-paths/rule.mdx
+  - rule: public/uploads/rules/automated-ui-testing-sparingly/rule.mdx
+redirects: []
+created: 2026-04-12T00:00:00.000Z
+archivedreason: null
+guid: 488eb1dc-233c-4a5d-85f5-d37356c2050b
+seoDescription: Use the Page Object Model (POM) pattern in Playwright to keep end-to-end tests maintainable, readable, and DRY.
+categories:
+  - category: categories/software-engineering/rules-to-better-testing.mdx
+---
+
+End-to-end tests that directly interact with the browser using raw selectors and inline actions quickly become hard to maintain. When the UI changes, the same selector may need to be updated in dozens of test files.
+
+The **Page Object Model (POM)** pattern solves this by encapsulating page interactions in dedicated classes. Each class represents a page or component, exposing methods that describe user actions rather than low-level DOM queries. Playwright has first-class support for this pattern via its `page` fixture.
+
+<endIntro />
+
+## Why use the Page Object Model?
+
+* **DRY** - selectors and interactions are defined once and reused across many tests
+* **Readable** - tests read like user stories, not a list of CSS selectors
+* **Maintainable** - a UI change only requires updating the Page Object, not every test
+* **Composable** - complex flows are built from smaller, focused page objects
+
+## How to structure a Page Object
+
+A Page Object is a TypeScript class that takes a Playwright `Page` instance and exposes higher-level methods. Locators should be defined as class properties rather than inline strings.
+
+### ❌ Bad example - Raw selectors scattered across tests
+
+```typescript
+// login.spec.ts
+test('user can log in', async ({ page }) => {
+  await page.goto('/login');
+  await page.locator('input[name="email"]').fill('user@example.com');
+  await page.locator('input[name="password"]').fill('secret');
+  await page.locator('button[type="submit"]').click();
+  await expect(page.locator('h1')).toHaveText('Dashboard');
+});
+
+// another-test.spec.ts
+test('redirects to dashboard after login', async ({ page }) => {
+  await page.goto('/login');
+  await page.locator('input[name="email"]').fill('admin@example.com');
+  await page.locator('input[name="password"]').fill('secret');
+  await page.locator('button[type="submit"]').click();
+  // ... duplicated selectors
+});
+```
+
+**Figure: Bad example - Selectors are duplicated; a rename of `name="email"` breaks every test**
+
+### ✅ Good example - Page Object encapsulates interactions
+
+```typescript
+// pages/login-page.ts
+import { type Locator, type Page } from '@playwright/test';
+
+export class LoginPage {
+  readonly emailInput: Locator;
+  readonly passwordInput: Locator;
+  readonly submitButton: Locator;
+
+  constructor(private readonly page: Page) {
+    this.emailInput = page.getByLabel('Email');
+    this.passwordInput = page.getByLabel('Password');
+    this.submitButton = page.getByRole('button', { name: 'Sign in' });
+  }
+
+  async goto() {
+    await this.page.goto('/login');
+  }
+
+  async login(email: string, password: string) {
+    await this.emailInput.fill(email);
+    await this.passwordInput.fill(password);
+    await this.submitButton.click();
+  }
+}
+```
+
+```typescript
+// login.spec.ts
+import { test, expect } from '@playwright/test';
+import { LoginPage } from '../pages/login-page';
+
+test('user can log in', async ({ page }) => {
+  const loginPage = new LoginPage(page);
+  await loginPage.goto();
+  await loginPage.login('user@example.com', 'secret');
+  await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
+});
+```
+
+**Figure: Good example - Tests are readable; selector changes only need to be made in one place**
+
+## Use role-based locators inside Page Objects
+
+Playwright recommends using [role-based locators](https://playwright.dev/docs/locators) (`getByRole`, `getByLabel`, `getByText`) over CSS selectors. They are more resilient to DOM changes and better reflect how users perceive the UI.
+
+* Prefer `page.getByRole('button', { name: 'Submit' })` over `page.locator('button.submit-btn')`
+* Prefer `page.getByLabel('Email')` over `page.locator('input[name="email"]')`
+
+## Share Page Objects via fixtures
+
+For tests that share the same setup, use [Playwright fixtures](https://playwright.dev/docs/test-fixtures) to inject page objects automatically instead of constructing them in every test.
+
+```typescript
+// fixtures.ts
+import { test as base } from '@playwright/test';
+import { LoginPage } from './pages/login-page';
+
+export const test = base.extend<{ loginPage: LoginPage }>({
+  loginPage: async ({ page }, use) => {
+    await use(new LoginPage(page));
+  },
+});
+```
+
+This keeps tests concise and ensures the page object is always constructed consistently.
+
+## Further reading
+
+* [Playwright's official Page Object Model guide](https://playwright.dev/docs/pom)
