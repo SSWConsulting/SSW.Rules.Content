@@ -1,0 +1,85 @@
+---
+authors:
+- title: Brook Jeynes
+  url: https://www.ssw.com.au/people/brook-jeynes
+created: 2026-04-17T11:30:39+10:00
+guid: 3ca27ddf-9bfa-4353-b1e5-5d521af86ea9
+related:
+- rule: public/uploads/rules/maui-cross-platform/rule.mdx
+- rule: public/uploads/rules/react-native-platform-specific-code/rule.mdx
+- rule: public/uploads/rules/react-native-test-on-real-devices/rule.mdx
+seoDescription: Choose Expo by default for React Native unless you have a concrete reason to go bare, such as custom native requirements or unsupported integrations.
+title: React Native - Do you choose Expo or bare React Native for the right reasons?
+categories:
+  - category: categories/software-engineering/rules-to-better-apps-mobile.mdx
+type: rule
+uri: react-native-expo-vs-bare
+---
+
+Choosing between bare React Native and Expo is a bit like choosing between
+React and React plus Next.js. You can absolutely build everything yourself, but
+once routing, native APIs, upgrades, build tooling, app configuration, and
+deployment enter the picture, you quickly realise you are not just building an
+app anymore. You are also building and maintaining your own framework.
+
+That is now the official direction from React Native as well. The docs
+recommend using a framework, and Expo is the recommended community framework
+for new apps.
+
+<endIntro />
+
+Start with Expo unless you have a concrete reason not to.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Choose bare React Native on day one because it feels more "serious" or because you might need native customisation later. A few months in, the team is re-implementing tooling, upgrade paths, configuration, and app workflows that Expo already solves.
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Starting bare React Native without a real need"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Start with Expo, move quickly with the standard tooling, and only drop down to lower-level native work when the app has a real requirement that Expo does not cover cleanly.
+  </>}
+  figurePrefix="good"
+  figure="Good example - Use Expo by default and go lower-level only when required"
+/>
+
+Expo is not a toy layer on top of React Native. It is the recommended framework
+because it solves the common problems most teams run into anyway. The React
+Native team puts it plainly: you are either using a framework or building your
+own framework.
+
+That is why Expo is usually the better default. It gives you a stronger
+starting point for project setup, native API access, upgrades, routing,
+development tooling, and deployment workflows.
+
+If you are starting a new project, the quickest way to get going is:
+
+```shell
+npx create-expo-app@latest my-app
+cd my-app
+npx expo start
+```
+
+For the full setup guide, see
+[create-expo-app](https://docs.expo.dev/more/create-expo/).
+
+Go bare React Native when you have an actual need for it, for example:
+
+* a native integration that Expo does not support cleanly
+* deep customisation of the iOS or Android projects
+* brownfield integration into an existing native app
+* team constraints that require owning the full native setup directly
+
+Even then, it is worth remembering that Expo tools can still be adopted
+incrementally in an existing React Native app.
+
+See the React Native blog post [Use a framework to build React Native
+apps](https://reactnative.dev/blog/2024/06/25/use-a-framework-to-build-react-native-apps),
+the Expo guide [Overview of using Expo with existing React Native
+apps](https://docs.expo.dev/bare/overview/), and the Expo workflow docs
+[Develop an app with Expo](https://docs.expo.dev/workflow/overview/).
