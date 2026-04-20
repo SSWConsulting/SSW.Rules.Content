@@ -28,34 +28,29 @@ You get an error message reported from a user like:
 
 > _When I click the Save button on the product form it gives an error message about a missing field._
 
-
 <imageEmbed
   alt="Image"
-  size="large"
+  size="small"
   showBorder={false}
   figurePrefix="none"
   figure='The developer thinks "what could be wrong"'
   src="/uploads/rules/database-create-upgrade-reconcile/ObamaThinking.jpg"
 />
 
-
-
 <imageEmbed
   alt="Image"
-  size="large"
+  size="small"
   showBorder={false}
   figurePrefix="none"
   figure='The developer tests then replies "Works on my machine"'
   src="/uploads/rules/database-create-upgrade-reconcile/WorksOnMyMachine.png"
 />
 
-
 You try and reproduce it on your version and everything works perfectly.
 
 You suspect that the customer or someone, probably has changed the schema. So you start drafting an email to the user like:
 
 <endIntro />
-
 
 <boxEmbed
   style="greybox"
@@ -78,19 +73,38 @@ You suspect that the customer or someone, probably has changed the schema. So yo
   figure=""
 />
 
-
 STOP! STOP! STOP!
+
 It would be much better to just say:
 
 > _Mary, click the "Reconcile" button and it will tell us what is wrong_
 
 Bottom line is the customers' database schema should always be correct, should be managed automatically by the app and if it is not, it is their problem.
 
-Therefore, you should deliver an application with the buttons "Create", Upgrade" and "Reconcile", accessible via "Tools - Options" and a "Database" tab. We do this by using SSW SQL Deploy and throwing on the inherited user-control from the SSW.SQLDeploy.Options project.
+Therefore, you should deliver an application with the buttons "Create", Upgrade" and "Reconcile", accessible via "Tools - Options" and a "Database" tab. We do this by using SSW SQL Deploy and throwing on the inherited user-control from the `SSW.SQLDeploy.Options` project.
 
-For more information see [Best Tools for SQL Server](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/SQLservertools.aspx#SQLDeploy)
-It looks like this
-![Reconcile](/uploads/rules/database-create-upgrade-reconcile/Reconcile.jpg) Figure: When weird errors are happening at a client, you need a "Reconcile" button in your application. This compares the current scripts, to the client's database and tells you if things are not right ![New database dialog](/uploads/rules/database-create-upgrade-reconcile/NewDatabaseDialog.jpg) Figure: First time your client opens the application, they will need to Creating a database. It should be as easy as clicking "Create"
+It looks like this:
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Figure: When weird errors are happening at a client, you need a Reconcile button in your application. This compares the current scripts, to the client's database and tells you if things are not right"
+  src="/uploads/rules/database-create-upgrade-reconcile/Reconcile.jpg"
+/>
+
+<imageEmbed
+  alt="Image"
+  size="medium"
+  showBorder={true}
+  figurePrefix="none"
+  figure="Figure: First time your client opens the application, they will need to Create a database. It should be as easy as clicking Create"
+  src="/uploads/rules/database-create-upgrade-reconcile/NewDatabaseDialog.jpg"
+/>
+
+![Reconcile](/uploads/rules/database-create-upgrade-reconcile/Reconcile.jpg) 
+![New database dialog](/uploads/rules/database-create-upgrade-reconcile/NewDatabaseDialog.jpg) 
 
 
 <boxEmbed
@@ -108,12 +122,11 @@ It looks like this
 />
 
 
-
 <imageEmbed
   alt="Image"
-  size="large"
+  size="medium"
   showBorder={false}
   figurePrefix="none"
-  figure="Adam makes all his new developers swear in and repeat this"
+  figure="Developers swear in and repeat this"
   src="/uploads/rules/database-create-upgrade-reconcile/ObamSwearing.jpg"
 />
