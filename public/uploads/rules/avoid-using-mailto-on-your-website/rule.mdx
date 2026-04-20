@@ -19,9 +19,9 @@ seoDescription: Avoid displaying valid email addresses on your website to preven
 created: 2016-11-16T17:15:32.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-14T00:42:08.639Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-16T05:20:22.239Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -30,44 +30,49 @@ Using `mailto:` links is a quick way to add contact functionality to a website, 
 
 <endIntro />
 
-<imageEmbed alt="a mailto link button labeled 'Contact Us'" size="large" showBorder={false} figurePrefix="none" figure="" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_bad-button.jpg" />
+<imageEmbed alt="a mailto link button labeled 'Contact Us'" size="large" showBorder={true} figurePrefix="none" figure="" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_bad-button.jpg" />
 
 ```htmlbars
 <a href="mailto:hello@example.com">Contact Us</a>
+
+<a href="mailto:support@example.com">Report a Bug</a>
 ```
 
-**❌ Figure: Bad example - A raw `mailto:` link in a CTA button**
+**❌ Figure: Bad example - `mailto:` being used in a button and/or in a regular link**
 
-### Why `mailto:` fails most users
+## Exposed email addresses attract spam
+
+HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was [harvested by 100% of tested bots](https://spencermortensen.com/articles/email-obfuscation/). An unprotected address can accumulate tens of megabytes of spam over months.
+
+## `mailto:` fails most users
 
 The core UX problem is unexpected application switching. When a user clicks a `mailto:` link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
 
-Desktop email clients account for **only 16.2%** of email opens [(Litmus, 2026)](https://www.litmus.com/email-client-market-share). The remaining **83.8% of users are on webmail or mobile**. On a machine without a configured client - clicking `mailto:` produces one of three outcomes:
+[Desktop email clients account for only 16.2%](https://www.litmus.com/email-client-market-share) of email opens. The remaining 83.8% of users are on webmail or mobile.
 
-1. An unconfigured Mail app launches and prompts account setup
+Without a configured client, clicking on a `mailto:` link produces one of three outcomes:
+
+1. App launches and prompts account setup
 2. The browser shows a "how do you want to open this?" dialog
 3. Nothing visible happens at all
 
 Each outcome is a dead end. A user who has decided to get in touch and hits that friction may not try again.
 
-### `Mailto:` is an analytics black hole
+## `mailto:` is an analytics black hole
 
-GA4's Enhanced Measurement deliberately excludes `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
-Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable. 
+[GA4's Enhanced Measurement excludes](https://support.google.com/analytics/answer/9216061?sjid=201540904795521130-NC) `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
+
+Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
 
 Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
 
-### Exposed email addresses attract spam
-
-HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was harvested by 100% of tested bots [(Spencer Mortensen, 2026)](https://spencermortensen.com/articles/email-obfuscation/). An unprotected address can accumulate tens of megabytes of spam over months.
-
 ***
 
-## ✅ Recommended approach
+## User contact methods
 
-### 1. Use a contact form (best option)
+### 1. Contact form (⭐️ recommended)
 
-A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides structured data with full analytics.
+A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides [structured data with full analytics](https://www.campaignmonitor.com/blog/email-marketing/should-i-use-a-mailto-or-link-to-a-contact-form/).
 
 * Works on every device and every browser, regardless of email client configuration
 * Keeps the email address off the front end entirely, eliminating harvesting risk
@@ -75,34 +80,13 @@ A contact form keeps users on the page, requires no configured mail client, work
 * Enables server-side validation, spam filtering (e.g. reCAPTCHA, honeypot fields), and structured data collection
 * Can trigger an auto-reply confirmation, improving perceived responsiveness
 
-<imageEmbed alt="a contact form with email input, message text area, and send button" size="medium" showBorder={false} figurePrefix="good" figure="improves the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
+<imageEmbed alt="a contact form with email input, message text area, and send button" size="medium" showBorder={true} figurePrefix="good" figure="improves the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
 
-```htmlbars
-<form action="/api/contact" method="POST">
-  <label for="email">Your email</label>
-  <input type="email" id="email" name="email" required />
-  <label for="message">Message</label>
-  <textarea id="message" name="message" required></textarea>
-  <button type="submit">Send message</button>
-</form>
-```
+### 2. Display email as selectable text with a copy-to-clipboard button (rare cases)
 
-**✅ Figure: Good example - a minimal contact form**
+When a form is overkill, show the email as visible text and let users copy it with one click.
 
-<boxEmbed
-  body={<>
-    **Tip:** Display a visible email address alongside the form for users who prefer direct email.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-### 2. Display email as selectable text with a copy-to-clipboard button
-
-When a form is overkill - a personal portfolio, a static site, a README - show the email as visible text and let users copy it with one click.
-
-<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="good" figure="Showing the address as visible text" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
+<imageEmbed alt="email address displayed as selectable text with a Copy button" size="medium" showBorder={false} figurePrefix="none" figure="Showing the address as visible text generally should be avoided" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-button.jpg" />
 
 ```htmlbars
 <span id="email-text">hello@example.com</span>
@@ -113,52 +97,32 @@ When a form is overkill - a personal portfolio, a static site, a README - show t
 </button>
 ```
 
-**✅ Figure: Good example - address is visible and copyable, no application switch**
+**Code: Address is copyable, no `mailto:` used**
 
 <boxEmbed
   body={<>
-    **Tip:** On mobile, fall back to a `mailto:` link - native email apps handle it well and **over 41%** of email opens are on mobile.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-## ⚠️ If `mailto:` must be used
-
-When `mailto:` is genuinely appropriate, build it correctly:
-
-* Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
-* Use the actual email address as the visible link text, not "click here" or "Contact Us"
-* Add an `aria-label` and a visible cue that the link opens an email client
-* Obfuscate the address using one of many **[documented methods](https://spencermortensen.com/articles/email-obfuscation/)**
-* Track clicks via GTM (preferred) or a `gtag.js` click listener
-
-<boxEmbed
-  body={<>
-    **Note:** GA4's native custom event UI no longer reliably captures `mailto:` clicks as of November 2024. GTM is the recommended method.
+    **Note:** On mobile, fall back to a `mailto:` link - native email apps handle it well and **over 41%** of email opens are on mobile.
   </>}
   figurePrefix="none"
   figure=""
   style="info"
 />
 
-### JavaScript obfuscation
+### 3. If `mailto:` must be used (rare cases)
 
-```htmlbars
-<span id="email"></span>
-<script>
-  const u = "support"; const d = "example.com";
-  const el = document.getElementById("email");
-  el.innerHTML = `<a href="mailto:${u}@${d}" aria-label="Email support (opens email client)">${u}@${d}</a>`;
-</script>
-```
+When `mailto:` is genuinely needed, build it correctly:
 
-**✅ Figure: Good example - Address assembled at runtime, invisible to harvesters, accessible**
+* Pre-populate `subject`, `body`, and `cc` parameters to reduce friction
+* Use the actual email address as the visible link text, not "click here" or "Contact Us"
+* Add an `aria-label` and a visible cue that the link opens an email client
+* Obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
+* [Track clicks via GTM](https://measureu.com/track-mailto-email-links-google-analytics-4/) (preferred) or a `gtag.js` click listener
 
-### Encryption technique
+***
 
-#### 1. Store email addresses in the web.config file
+## 🪦 Encryption technique (legacy)
+
+1. Store email addresses in the web.config file
 
 ```xml
 <configuration>
@@ -169,7 +133,7 @@ When `mailto:` is genuinely appropriate, build it correctly:
 </configuration>
 ```
 
-#### 2. Encode them on the server using the BitConverter class
+2. Encode them on the server using the BitConverter class
 
 ```vbnet
 Dim email As String = ConfigurationSettings
@@ -180,7 +144,7 @@ Application("SampleEncodedEmailAddress") = BitConverter
         .Replace("-", "")
 ```
 
-#### 3. Decode on the client with a JavaScript function in the JavaScript
+3. Decode on the client with a JavaScript function in the JavaScript
 
 ```htmlbars
 <a
@@ -193,7 +157,7 @@ Application("SampleEncodedEmailAddress") = BitConverter
 
 <boxEmbed
   body={<>
-    **Tip:** We have a program called **[SSW CodeAuditor](https://codeauditor.com/)** to check for this rule.
+    **Tip:** We have a program called [SSW CodeAuditor](https://codeauditor.com/) to check for this rule.
   </>}
   figurePrefix="none"
   figure=""
