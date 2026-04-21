@@ -15,6 +15,9 @@ lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 redirects:
 - do-you-cc-the-client-whenever-possible
+related:
+- rule: public/uploads/rules/cc-and-reply-to-all/rule.mdx
+- rule: public/uploads/rules/email-add-or-remove-someone-from-conversation/rule.mdx
 seoDescription: CC the client from the beginning to ensure transparency and accuracy
   in communication.
 title: Do you CC the client whenever possible?
@@ -24,6 +27,101 @@ type: rule
 uri: cc-the-client-whenever-possible
 ---
 
-CC the client from the beginning (unless it’s obvious internal communication). This allows the client to see progress towards speaking with the right person and also gives them an opportunity to correct any details we might have got wrong.
+CC the client from the beginning (unless it's obvious internal communication). This allows the client to see progress towards speaking with the right person and also gives them an opportunity to correct any details we might have got wrong.
 
 <endIntro />
+
+## When you **should** CC the client
+
+Keeping the client in the loop builds trust and avoids surprises. CC the client when:
+
+* **Short bookings (1 week or less)** - The client should see the scheduling emails so they know who is coming and when
+* **Scope or requirement discussions** - Any conversation that could affect what gets delivered
+* **Decisions that impact the project** - Budget changes, timeline shifts, or priority changes
+* **Progress updates and status reports** - Keep the client informed on milestones
+* **Escalations or blockers** - If something is going wrong, the client should know early
+* **Initial introductions** - When connecting the client with a new team member or specialist
+
+<emailEmbed
+  from=""
+  to="Bob Northwind (Developer)"
+  cc="David (Client)"
+  bcc=""
+  subject="Northwind - Sprint 3 booking confirmation"
+  shouldDisplayBody={true}
+  body={<>
+
+## Hi Bob
+
+You are booked for the Northwind project for 3 days next week (Mon-Wed).
+
+Please reach out to David if you have any questions about the project scope before you start.
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - Short booking (3 days), so the client is CC'd and can see who's working and when"
+/>
+
+## When you **should not** CC the client
+
+Not every internal email needs client visibility. Avoid CC'ing the client when:
+
+* **Long bookings (more than 1 week)** - For ongoing engagements, the client doesn't need to see every scheduling email. They already know the team is working on their project
+* **Internal technical discussions** - Code reviews, architecture debates, or tooling decisions
+* **Internal HR or admin matters** - Leave requests, internal resourcing shuffles
+* **Conversations that have moved to purely internal topics** - Once a thread shifts away from client-relevant content, [remove the client from the loop](/email-add-or-remove-someone-from-conversation)
+
+<emailEmbed
+  from=""
+  to="Bob Northwind (Developer)"
+  cc="David (Client)"
+  bcc=""
+  subject="Northwind - Sprint 12 booking confirmation"
+  shouldDisplayBody={true}
+  body={<>
+
+## Hi Bob
+
+You are booked for the Northwind project for the next 4 weeks (March 3 - March 28).
+
+Let me know if you have any questions.
+
+  </>}
+  figurePrefix="bad"
+  figure="Bad example - Long booking (4 weeks) where the client is CC'd unnecessarily, adding noise to their inbox"
+/>
+
+<emailEmbed
+  from=""
+  to="Bob Northwind (Developer)"
+  cc=""
+  bcc=""
+  subject="Northwind - Sprint 12 booking confirmation"
+  shouldDisplayBody={true}
+  body={<>
+
+## Hi Bob
+
+You are booked for the Northwind project for the next 4 weeks (March 3 - March 28).
+
+Let me know if you have any questions.
+
+  </>}
+  figurePrefix="good"
+  figure="Good example - Long booking (4 weeks), so no need to CC the client"
+/>
+
+### Why long bookings are different
+
+When a developer is booked for a short engagement (e.g., a few days), the client benefits from seeing the booking email — it confirms who is working, when they start, and gives them a chance to flag any issues.
+
+For long bookings (more than 1 week), the client is already aware of the ongoing engagement. CC'ing them on every internal scheduling email adds unnecessary noise and doesn't provide value. Instead, keep them informed through regular status updates and Sprint Reviews.
+
+<boxEmbed
+  style="info"
+  body={<>
+    **Tip:** When in doubt, ask yourself: _"Does the client need to act on or be aware of this email?"_ If the answer is no, don't CC them.
+  </>}
+  figurePrefix="none"
+  figure=""
+/>
