@@ -3,25 +3,25 @@ type: rule
 title: Do you follow best practices for managing Microsoft Entra ID?
 uri: managing-microsoft-entra-id
 categories:
-  - category: categories/infrastructure-and-networking/rules-to-better-whatsup-gold.mdx
+  - category: categories/infrastructure-and-networking/rules-to-better-office-365.mdx
 authors:
   - title: Rob Thomlinson
     url: 'https://www.ssw.com.au/people/rob-thomlinson/'
 related:
   - rule: public/uploads/rules/how-to-name-documents/rule.mdx
 guid: 096b7e93-242d-4383-8978-f86c6cf0f2f3
-seoDescription: >-
-  Learn best practices for managing Microsoft Entra ID to enhance security and
-  efficiency in your organization.
+seoDescription: Learn best practices for managing Microsoft Entra ID to enhance security and efficiency in your organization.
 created: 2025-01-03T10:58:08.000Z
 createdBy: Rob Thomlinson
 createdByEmail: RobThomlinson@ssw.com.au
-lastUpdated: 2026-01-15T00:12:15.665Z
+lastUpdated: 2026-03-17T06:36:31.785Z
 lastUpdatedBy: Rob Thomlinson
 lastUpdatedByEmail: RobThomlinson@ssw.com.au
 ---
 
-Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <endIntro />
+Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions.
+
+<endIntro />
 
 ## 1. Enforce Strong Authentication
 
@@ -85,7 +85,13 @@ $Output | Export-Csv -Path C:\temp\password-use.csv -NoTypeInformation
 * **Create Break Glass Accounts:** Establish at least two emergency access accounts that are not protected by MFA to ensure access during critical situations
 * **Monitor and Secure Emergency Accounts:** Regularly audit these accounts to ensure they are not misused and are only accessed during emergencies
 
-## 7. Use Clear Access Group Naming Conventions
+## 7. Use Company Branding
+
+* Security: Adding a branded login screen assists users with correctly identifying the correct login page for their tenant. It also adds polish to the portal.
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="SSW Branding added to the sign in portal" src="/uploads/rules/managing-microsoft-entra-id/Branded Login Screen.png" />
+
+## 8. Use Clear Access Group Naming Conventions
 
 Clear and consistent naming conventions for access groups make management simpler and ensure clarity across the organization
 

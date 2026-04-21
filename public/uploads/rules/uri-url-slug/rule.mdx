@@ -1,0 +1,140 @@
+---
+title: 'Do you know the difference between a URI, URL, and slug?'
+uri: uri-url-slug
+categories:
+  - category: categories/communication/rules-to-better-technical-documentation.mdx
+  - category: categories/software-engineering/rules-to-better-websites-development.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/create-friendly-short-urls/rule.mdx
+  - rule: public/uploads/rules/use-dashes-in-urls/rule.mdx
+guid: 97b95b8a-88dc-4165-8e27-2604c211a7a6
+seoDescription: 'Understand the difference between URI, URL, and slug, and when to use each for clearer communication and better SEO.'
+created: 2026-04-07T16:59:24.334Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-07T18:14:15.151Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+---
+
+The terms URI, URL, and slug are often mixed up, but they have distinct meanings. Using the correct one makes communication clearer when working with links, routing, and CMS content.
+
+<endIntro />
+
+## What is a URI?
+
+A URI (Uniform Resource Identifier) is the broadest concept.
+
+It identifies a resource, either by its location or by name.
+
+Examples:
+
+* **https\://www\.ssw\.com.au/rules/seo-checklist**
+* **mailto\:info\@ssw\.com.au**
+
+<boxEmbed
+  body={<>
+    A URI does **not** have to be a web link.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## What is a URL?
+
+A URL (Uniform Resource Locator) is a type of URI that tells you where a resource is and how to access it.
+
+It includes:
+
+* Protocol
+* Domain
+* Path
+
+Example:
+
+* **https\://www\.ssw\.com.au/rules/seo-checklist**
+
+<boxEmbed
+  body={<>
+    Most links you share are URLs.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## What is a slug?
+
+A slug is the human-friendly part of the URL that identifies a specific page.
+
+Slugs should be:
+
+* Short
+* Readable
+* SEO-friendly
+
+Example - the slug is at the end of a full URL (see bold): 
+
+* https\://www\.ssw\.com.au/rules/**seo-checklist**
+
+<boxEmbed
+  body={<>
+    Slugs are commonly used in CMS tools like [TinaCMS](https://tina.io) and WordPress.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="The slug field in TinaCMS defines the human-friendly part of the URL" src="/uploads/rules/uri-url-slug/tinacms-slug-example.png" />
+
+***
+
+## When should you use each term?
+
+Use **URI **when speaking technically about identifiers. E.g. APIs, specifications.
+
+Use **URL** when referring to a full web address. E.g. links in pages, emails, or documentation.
+
+Use **slug** when referring to the editable part of a page path. E.g. in CMS, routing, or SEO.
+
+### Why this matters
+
+Using the correct term:
+
+* Improves communication between devs, designers, and content editors
+* Avoids confusion in requirements and documentation
+* Aligns with how tools like TinaCMS and WordPress work
+
+<boxEmbed
+  body={<>
+    *“Change the **URL**.”* (when you only mean the slug)
+    
+    *“Paste the **URI** here.”* (when you mean a normal link)
+  </>}
+  figurePrefix="bad"
+  figure="Using the wrong terms"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    *“Update the **slug** to make it more SEO-friendly.”*
+    
+    *“Send me the **URL** to the page.”*
+    
+    *“This API returns a **URI**.”*
+  </>}
+  figurePrefix="good"
+  figure="Using the correct terms"
+/>
+
+***
+
+<imageEmbed alt="Image" size="medium" showBorder={true} figurePrefix="none" figure=" Figure: URI is the umbrella term, URL is the full address, and slug is the readable end of the path" src="/uploads/rules/uri-url-slug/uri-url-slug-diagram.png" />

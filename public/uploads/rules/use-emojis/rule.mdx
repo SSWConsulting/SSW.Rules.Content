@@ -6,18 +6,19 @@ categories:
   - category: categories/communication/rules-to-better-calendars.mdx
   - category: categories/communication/rules-to-better-microsoft-teams.mdx
   - category: categories/communication/rules-to-better-technical-documentation.mdx
-  - category: categories/infrastructure-and-networking/rules-to-better-control4.mdx
+  - category: categories/office-automation/rules-to-better-control4.mdx
 authors:
   - title: Adam Cogan
-    url: 'https://ssw.com.au/people/adam-cogan'
+    url: 'https://www.ssw.com.au/people/adam-cogan'
   - title: Jean Thirion
-    url: 'https://ssw.com.au/people/jean-thirion'
+    url: 'https://www.ssw.com.au/people/jean-thirion'
 related:
   - rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
   - rule: public/uploads/rules/which-emojis-to-use-in-scrum/rule.mdx
   - rule: public/uploads/rules/use-emojis-in-your-commits/rule.mdx
   - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
   - rule: public/uploads/rules/indicate-ai-helped/rule.mdx
+  - rule: public/uploads/rules/have-good-and-bad-bullet-points/rule.mdx
 redirects:
   - team-names-do-you-use-emojis-in-your-teams-channel-names
   - teams-emojis
@@ -27,9 +28,9 @@ seoDescription: Use emojis to give context and boost user adoption to Microsoft 
 created: 2021-05-24T23:22:25.067Z
 createdBy: Brady Stroud
 createdByEmail: bradystroud@me.com
-lastUpdated: 2021-05-24T23:22:25.067Z
-lastUpdatedBy: Brady Stroud
-lastUpdatedByEmail: bradystroud@me.com
+lastUpdated: 2026-03-20T23:30:27.720Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -49,7 +50,7 @@ It's usually easier for users to remember where given information is when it is 
 
 ## Easily understood actions
 
-An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action. 
+An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action.
 
 You can also update those emojis afterwards to show your progression from "understood", "in action", or "done". That way, when the sender checks back, they won't chase you thinking you haven't seen it.
 
@@ -87,7 +88,18 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
     * Maintenance of needing to upload to server
   </>}
   figurePrefix="bad"
-  figure="Regular list items"
+  figure="Regular list bulltet points don't help understanding the context"
+/>
+
+<boxEmbed
+  body={<>
+    * ✅ Fast to load (lightweight as no image)
+    * ✅ UI - Consistent look
+    * ❌ Maintenance of needing to upload to server
+  </>}
+  figurePrefix="bad"
+  figure="Using emojis alongside regular bullet points can make content feel visually cluttered and harder to scan."
+  style="greybox"
 />
 
 <boxEmbed
@@ -100,13 +112,13 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
     ❌ Maintenance of needing to upload to server
   </>}
   figurePrefix="good"
-  figure="Emojis give context to each item"
+  figure="Emojis add context and make content more engaging"
 />
 
 <boxEmbed
-  style="warning"
+  style="info"
   body={<>
-    **Warning:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+    **Note:** When you have more than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis) and place the emoji in a heading.
   </>}
   figurePrefix="none"
   figure=""

@@ -1,0 +1,184 @@
+---
+title: Do you use Git worktrees?
+uri: git-worktrees
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Michael Qiu
+    url: 'https://www.ssw.com.au/people/michael-qiu'
+  - title: Matt Wicks
+    url: 'https://www.ssw.com.au/people/matt-wicks'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+  - title: Eddie Kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
+related:
+  - rule: public/uploads/rules/when-to-use-skills-agents-subagents-mcps-plugins/rule.mdx
+guid: 32b5178e-cea3-4795-8d0d-3aeece57910b
+seoDescription: 'Learn how to use Git worktrees to run parallel AI coding agent sessions without file conflicts, enabling faster development with tools like Claude Code and OpenAI Codex.'
+created: 2026-03-30T05:33:05.620Z
+createdBy: Michael Qiu
+createdByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-04-02T09:28:45.402Z
+lastUpdatedBy: Andrew Waltos
+lastUpdatedByEmail: AndrewWaltos@ssw.com.au
+---
+
+When working on a repository with AI Agents, you often want multiple sessions running in parallel. One fixing a bug, another adding a new feature, and perhaps a third one refactoring tests.
+
+But sharing the same working directory would be a nightmare. File changes from one session will collide with the changes from others, creating merge conflicts, and breaking things. Git worktrees solve this issue by giving each session its own isolated copy of the codebase, while sharing the same repository history.
+
+<endIntro />
+
+<youtubeEmbed url="https://youtube.com/shorts/XrsoFQhn1HA" description="Video: Git Worktrees Explained: Fix Production Bugs Without Losing Focus (1 min)" />
+
+## What are Git worktrees?
+
+Git worktrees is a built-in feature of Git which allows users to checkout multiple branches of the same repository simultaneously, each in its own separate directory.
+
+Unlike cloning a repository multiple times, worktrees share the same `.git` data, which means they share commit history, remotes, and configuration - all without needing to store duplicates of the repository. This makes them both lightweight, and fast to create compared to full clones of the repository.
+
+<boxEmbed
+  body={<>
+    **Fun fact:** Git worktrees has been around as a built-in feature of Git since 2015, however, before AI assisted developments, developers primarily worked on one branch at a time, switching branches when needing to work on something else, making it a niche feature few used.
+    
+    But with the advent of AI assisted development and improvements in AI tools such as Claude Code and Codex, worktrees are a necessary tool to achieve maximum efficiency during AI-assisted development.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
+
+## When should you use Git worktrees?
+
+Git worktrees are most valuable when you need parallel, independent work streams on the same repository, as they allow for:
+
+* **Parallel AI Agent sessions** - running multiple AI Agents on separate tasks simultaneously
+* **Review whilst developing** - allows for you to review a PR on one worktree whilst continuing feature work in another
+* **Quickly address an urgent bug while developing** - switching over to fix an urgent bug whilst working on a feature without having to stash your changes
+
+<boxEmbed
+  body={<>
+    **Without worktrees** - Two Claude Code sessions share the same directory. Agent A is refactoring the auth module while Agent B is fixing a payment bug. Agent B's test run fails because Agent A just renamed a shared utility function mid-refactor.
+  </>}
+  figurePrefix="bad"
+  figure="Parallel sessions in the same directory cause unpredictable conflicts"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    **With worktrees** - Each session gets its own isolated copy of the code. Agent A refactors auth in `worktrees/auth-refactor/`, Agent B fixes payments in `worktrees/payment-fix/`. Both work independently and merge cleanly when done.
+  </>}
+  figurePrefix="good"
+  figure="Isolated worktrees let parallel sessions work without conflicts"
+  style="greybox"
+/>
+
+## How do you use Git worktrees with AI?
+
+Often, AI tools such as Claude Code and OpenAI Codex have built-in worktree support, however, because Git worktrees are a built-in feature of Git itself, you can set it up manually for any AI tool.
+
+<boxEmbed
+  body={<>
+    With AI Agents with auto memory, such as Claude Code, as each worktree is a “separate working directory”, any memories gained will not be applied to the parent repository.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+<boxEmbed
+  body={<>
+    When inside of an instance of your AI Agent (e.g. Claude Code), you can usually ask for work to be done in parallel using worktrees and your AI Agent will be able to do that for you, and then merge the changes back into your current working branch.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Claude Code (Recommended)
+
+Claude Code has built-in worktree support via the `--worktree` flag (can also use `-w`). This creates an isolated worktree and starts a Claude session inside of that worktree automatically. The value that you pass in the command becomes the worktree directory and branch name, or if you leave it blank, generates one automatically for you.
+
+```bash
+# Start Claude in a worktree named "feature-auth"
+claude --worktree feature-auth
+
+# Start Claude in a worktree and auto-generate a name
+claude --worktree
+```
+
+Git worktrees in Claude Code are created at:
+
+`{{ REPO NAME }}/.claude/worktrees/{{ WORKTREE NAME }}`
+
+and branch from the default remote branch. When you exit a session, it does one of two things:
+
+1. If no changes were made... the worktree and branch are cleaned up automatically
+2. If changes or commits exist... Claude Code will prompt you to decide whether to keep or remove the worktree
+
+Claude Code's Subagents can also use Git worktree isolation by setting `isolation:worktree` inside of the agent's frontmatter. This gives each Subagent generated its own copy of the codebase to work in parallel without conflicts.
+
+### OpenAI Codex
+
+OpenAI Codex offers Git worktrees directly inside of its interface. When creating a new thread, you can select “Worktree” to start in an isolated environment.
+
+Codex then creates the Git worktree in a detached HEAD state that lets you either continue working in the worktree or hand off the changes to your development environment when you're ready to inspect them.
+
+### Manual setup (any tool)
+
+For tools without built-in support for Git worktrees, you can still create worktrees manually and start your agent inside of them!
+
+```
+# Create a worktree for the task
+git worktree add ../my-project-feature -b feature-branch
+
+# Navigate and start your agent
+cd ../my-project-feature
+#Start your AI coding agent here (e.g. aider, copilot, cursor, etc...)
+
+# When done, clean up
+git worktree remove ../my-project-feature
+```
+
+## Handling environment files
+
+Git worktrees are fresh checkouts - they don't include files that have been added to `.gitignore` such as `.env` or `node_modules/`. For AI coding tools with built-in worktree support (like Claude Code), you can create a `.worktreeinclude` file in your project root to specify which Git ignored files should be copied into new worktrees:
+
+```text
+.env
+.env.local
+config/secrets.json
+```
+
+<boxEmbed
+  body={<>
+    Aspire makes this really easy because it can use .NET User Secrets and inject them as environment variables into your projects, so you don't need to use `.env` files
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+For manual worktrees, remember to copy over necessary environment files and run your dependency installation (e.g. `npm install`, `pip install`) before starting your agent session.
+
+<boxEmbed
+  body={<>
+    Add `.claude/worktrees/` (or your tool's worktree directory) to your `.gitignore` to prevent worktree contents from appearing as untracked files.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+***
+
+### Learn more
+
+* Dan Mackay: [Parallel Vibe Coding: Using Git Worktrees with Claude Code](https://www.dandoescode.com/blog/parallel-vibe-coding-with-git-worktrees)
+* [Git worktree Documentation](https://git-scm.com/docs/git-worktree) - Official Git documentation for worktrees
+* [Claude Code - Parallel Sessions with Git worktrees](https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees) - Claude Code's built-in worktree support
+* [OpenAI Codex - Worktrees](https://developers.openai.com/codex/app/worktrees) - How Codex uses worktrees for parallel task execution

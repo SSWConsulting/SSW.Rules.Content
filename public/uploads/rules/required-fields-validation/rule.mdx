@@ -1,0 +1,75 @@
+---
+type: rule
+title: Do you make required fields clear and validate inputs?
+uri: required-fields-validation
+categories:
+  - category: categories/design/rules-to-better-interfaces-forms.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+redirects:
+  - forms-do-you-indicate-which-fields-are-required-and-validate-them
+guid: 85f4b24e-a56b-4601-acdc-aa24e56ec395
+seoDescription: 'Clearly mark required form fields and provide helpful validation to reduce errors, improve usability, and increase successful form submissions.'
+created: 2014-12-04T19:35:25.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-20T17:53:54.120Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+Always indicate which fields are required. Users get frustrated when they experience a wasted trip to the server, just because they did not get an obvious indication of what was required first time around.
+
+<endIntro />
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="bad" figure="No required indicators. Users must guess which fields are mandatory" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/001-bad-no-required-indicators.png" />
+
+A designer can choose the most appropriate way to indicate required fields based on the layout and context. If that guidance isn’t available, use a red asterisk as a clear and widely understood default.
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Required fields marked with a red asterisk. Unmarked fields are optional" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/002-good-with-required-indicators.png" />
+
+## Make validation feedback explicit
+
+Clearly communicate validation states in real time. When a field fails, show a helpful message next to the field along with a clear visual cue such as red color and an error icon explaining what needs to be fixed.
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Invalid field is highlighted with a message explaining the issue" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/003-validation-error.png" />
+
+When it passes, provide positive confirmation so users know their input is valid and they can continue with confidence.
+
+<imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Once the input is valid, the error styling clears and a subtle check confirms success" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/004-validation-passed.png" />
+
+***
+
+## More information on ASP.NET implementation
+
+You should combine these visual indicators with appropriate client and server side validators to make sure that your data conforms to business requirements. Adding a `RequiredFieldValidator` to the above textboxes gives you data validity check with minimal coding.
+
+```cshtml
+<asp:Textbox runat="Server" ID="email" />
+```
+
+**❌ Figure: Bad example - No validator used, so the user won't know the email is required**
+
+```cshtml
+<asp:Textbox runat="Server" ID="email"/>
+
+<asp:RequiredFieldValidator runat="Server" ControlToValidate="email" ErrorMessage="Please enter an email address"
+
+ID="emailReqValidator" />
+```
+
+**✅ Figure: Good example - An ASP.NET validator in use, to indicate the fields required**
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).
+  </>}
+  figurePrefix="none"
+  figure=""
+/>

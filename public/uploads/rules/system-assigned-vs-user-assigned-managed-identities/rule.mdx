@@ -1,0 +1,73 @@
+---
+title: Do you know when to use system-assigned vs user-assigned managed identities?
+uri: system-assigned-vs-user-assigned-managed-identities
+categories:
+  - category: categories/software-engineering/rules-to-better-azure.mdx
+authors:
+  - title: Ben Neoh
+    url: 'https://www.ssw.com.au/people/ben-neoh'
+related:
+  - rule: public/uploads/rules/use-managed-identity-in-azure/rule.mdx
+guid: a0d08a68-c5b6-4917-af4c-dfd17239c89d
+seoDescription: 'Learn when to use system-assigned vs user-assigned managed identities in Azure, and how to choose the right type for your solution.'
+created: 2026-04-02T05:51:33.985Z
+createdBy: Ben Neoh
+createdByEmail: benneoh@ssw.com.au
+lastUpdated: 2026-04-07T04:38:46.164Z
+lastUpdatedBy: Ben Neoh
+lastUpdatedByEmail: benneoh@ssw.com.au
+---
+
+When using managed identities in Azure, it is important to choose the right type. Use system-assigned identities for simple, single-resource scenarios, and user-assigned identities when the identity needs to be shared, reused, or managed separately.
+
+<endIntro />
+
+<youtubeEmbed description="Video: System-assigned vs user-assigned managed identities in Azure (from 13:34)" url="https://www.youtube.com/watch?v=rC1TV0_sIrM&t=807s" />
+
+<imageEmbed alt="Type of managed identities in Azure" size="large" showBorder={true} figurePrefix="none" figure="Select the managed identity type in the Azure portal" src="/uploads/rules/system-assigned-vs-user-assigned-managed-identities/user-assigned-vs-system-assigned.png" />
+
+## System-assigned
+
+A system-assigned managed identity belongs to a single Azure resource. It has a **1:1 relationship** with that resource — one resource, one identity.
+
+**Example:**
+
+You have a App Service A, and it needs to read a database connection string stored in Key Vault A.
+
+### To set this up
+
+* Enable system-assigned managed identity on App Service A
+* Grant App Service A’s managed identity the Key Vault Secrets User role on Key Vault A
+
+In this setup, the identity belongs only to App Service A. If App Service A is deleted, the identity is also removed.
+
+### When to use it
+
+Use this for the simplest case: one app, one identity, one target resource.
+
+## User assigned
+
+A user-assigned managed identity is a separate Azure resource that can be attached to multiple Azure resources. It supports a **many-to-many relationship** — one identity can be used by many resources, and one resource can also have multiple user-assigned identities.
+
+**Example:**
+
+You have 2 applications, App Service A and App Service B, and both need to read the same set of secrets from Key Vault A.
+
+### To set this up
+
+* Create User-assigned Managed Identity A
+* Attach it to App Service A
+* Attach it to App Service B
+* Grant User-assigned Managed Identity A the Key Vault Secrets User role on Key Vault A
+* Both applications use the same managed identity when accessing Key Vault
+
+In this setup, both apps share the same identity and the same permissions. If one app is deleted, the identity can still be reused by the other app or attached to a new resource later.
+
+### When to use it
+
+Use this when multiple apps need the same identity and the same permissions.
+
+**Common use cases**
+
+* Multiple App Services accessing the same Key Vault
+* Several Function Apps sharing the same Storage or Service Bus permissions

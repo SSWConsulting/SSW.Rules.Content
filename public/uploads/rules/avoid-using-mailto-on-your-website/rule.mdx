@@ -1,58 +1,98 @@
 ---
-archivedreason: null
-authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-created: 2016-11-16 17:15:32+00:00
-createdBy: Tiago Araujo
-createdByEmail: TiagoAraujo@ssw.com.au
-guid: 527b3e90-652e-4832-bb18-17d39421ec0e
-isArchived: false
-lastUpdated: 2016-11-16 17:27:16+00:00
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
-redirects:
-- do-you-avoid-using-mailto-on-your-website
-seoDescription: Avoid displaying valid email addresses on your website to prevent
-  spam and email harvesting.
+type: rule
 title: 'Do you avoid using mailto: on your website?'
+uri: avoid-using-mailto-on-your-website
 categories:
   - category: categories/software-engineering/rules-to-better-website-development-asp-net.mdx
-type: rule
-uri: avoid-using-mailto-on-your-website
+  - category: categories/design/rules-to-better-interfaces-forms.mdx
+  - category: categories/design/rules-to-better-accessibility.mdx
+  - category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
+authors:
+  - title: Alex Blum
+    url: 'https://www.ssw.com.au/people/alex-blum'
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+redirects:
+  - do-you-avoid-using-mailto-on-your-website
+guid: 527b3e90-652e-4832-bb18-17d39421ec0e
+seoDescription: Avoid displaying valid email addresses on your website to prevent spam and email harvesting.
+created: 2016-11-16T17:15:32.000Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-20T00:02:20.778Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
+isArchived: false
+archivedreason: null
 ---
 
-Don't ever display valid individual email addresses or `mailto:` on a website. Nasty people on the web have created "Email Harvesting" tools. These programs search public areas on the Internet to compile, capture, or otherwise "harvest" lists of email addresses from web pages, newsgroups, and chat rooms. Any email address that is spelled out can be captured and therefore gets attacked with spam.
-
-The best way to avoid it is not to display valid individual email addresses in text format (especially in the form of "mailto:") on your website.
+Using `mailto:` links is a quick way to add contact functionality to a website, but in most cases it creates more problems than it solves - for both users and developers. Clicking a "Contact Us" link should connect a user with your team - not strand them in an unconfigured email client. Yet `mailto:` links do exactly that for the majority of users, and the problem goes beyond bad UX. They expose email addresses to spam harvesters, break analytics and create false confidence that contact attempts are being tracked.
 
 <endIntro />
 
+<imageEmbed alt="a mailto link button labeled 'Contact Us'" size="large" showBorder={true} figurePrefix="none" figure="" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_bad-button.jpg" />
 
-<boxEmbed
-  style="greybox"
-  body={<>
-    &lt;FirstnameSurname@ssw.com.au&gt;
-  </>}
-  figurePrefix="none"
-  figure=""
-/>
-**❌ Figure: Bad way - normal email address in text format**  
+```htmlbars
+<a href="mailto:hello@example.com">Contact Us</a>
 
-###  Better way: encryption technique
+<a href="mailto:support@example.com">Report a Bug</a>
+```
 
-1. Store email addresses in the web.config file
+**❌ Figure: Bad example - `mailto:` being used in a button and/or in a regular link**
+
+## Exposed email addresses attract spam
+
+HTML-based `mailto:` links are trivially easy for harvesters to extract. A study found an unprotected plain-text address was [harvested by 100% of tested bots](https://spencermortensen.com/articles/email-obfuscation/). An unprotected address can accumulate tens of megabytes of spam over months.
+
+## `mailto:` fails most users
+
+The core UX problem is unexpected application switching. When a user clicks a `mailto:` link, the browser delegates to whatever the OS has registered as the default email handler. For the shrinking minority who use desktop email clients, this works. For everyone else, it's a dead end or an annoyance.
+
+[Desktop email clients account for only 16.2%](https://www.litmus.com/email-client-market-share) of email opens. The remaining 83.8% of users are on webmail or mobile.
+
+Without a configured client, clicking on a `mailto:` link produces one of three outcomes:
+
+1. App launches and prompts account setup
+2. The browser shows a "how do you want to open this?" dialog
+3. Nothing visible happens at all
+
+Each outcome is a dead end. A user who has decided to get in touch and hits that friction may not try again.
+
+## `mailto:` is an analytics black hole
+
+[GA4's Enhanced Measurement excludes](https://support.google.com/analytics/answer/9216061?sjid=201540904795521130-NC) `mailto:` from outbound click tracking. Without custom implementation, clicks register no data at all - no attribution, no funnel analysis, no conversion counts.
+
+Even with tracking added via GTM or `gtag.js`, all that can be captured is intent. Whether the user actually composed and sent the email is unknowable.
+
+Form submissions, by contrast, are confirmed actions with full funnel visibility, field-level data, and CRM integration.
+
+***
+
+## The alternatives
+
+### `mailto:` done correctly (used in rare cases)
+
+When `mailto:` is genuinely needed, build it correctly:
+
+* Pre-populate `subject`, `body` and `cc` parameters to reduce friction
+* Add an `aria-label` and a visible cue that the link opens an email client
+* [Track clicks via GTM](https://hallam.agency/blog/mailto-link-analytics-tag-manager/) (preferred) or a `gtag.js` click listener
+* Encrypyt or obfuscate the address using one of many [documented methods](https://spencermortensen.com/articles/email-obfuscation/)
+
+#### Example encryption method:
+
+##### Step 1 - Store email addresses in the web.config file
 
 ```xml
 <configuration>
     <appSettings>
-        <add key="SampleEncodedEmailAddress" value="David@sample.com.au" />
+        <add key="SampleEncodedEmailAddress" value="hello@example.com.au" />
         ...
     </appSettings>
 </configuration>
 ```
 
-2. Encode them on the server using the BitConverter class
+##### Step 2 - Encode them on the server using the BitConverter class
 
 ```vbnet
 Dim email As String = ConfigurationSettings
@@ -63,15 +103,36 @@ Application("SampleEncodedEmailAddress") = BitConverter
         .Replace("-", "")
 ```
 
-3. Decode on the client with a JavaScript function in the JavaScript
+##### Step 3 - Decode on the client with a JavaScript function in the JavaScript
 
-```html
+```htmlbars
 <a
   id="linkContact"
   href="javascript:sendEmail('44617669644073616D706C652E636F6D2E6175')"
 >
-  CONTACT David
+  Contact Us
 </a>
 ```
 
-We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
+**🙂 Figure: OK example - hides the email address from spam bots**
+
+### 2. Contact form (⭐ recommended)
+
+A contact form keeps users on the page, requires no configured mail client, works identically on every device, and provides [structured data with full analytics](https://support.google.com/analytics/answer/9216061?sjid=1750661119632285480-NC)
+
+* Works on every device and every browser, regardless of email client configuration
+* Keeps the email address off the front end entirely, eliminating harvesting risk
+* Gives users a consistent, guided experience
+* Enables server-side validation, spam filtering (e.g. reCAPTCHA), and structured data collection
+* Can trigger an auto-reply confirmation, improving perceived responsiveness
+
+<imageEmbed alt="An example contact form" size="medium" showBorder={false} figurePrefix="good" figure="improves the user experience across all mediums" src="/uploads/rules/avoid-using-mailto-on-your-website/mailto_good-form.jpg" />
+
+<boxEmbed
+  body={<>
+    **Note:** On a mobile-first platform, if not using a form, a `mailto:` link is acceptable. Mobile email apps handle `mailto:` well, and **over 41%** of email opens are on mobile. Be sure to obfuscate the email address to avoid spam.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>

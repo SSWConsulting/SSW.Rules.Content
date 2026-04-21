@@ -1,0 +1,102 @@
+---
+type: rule
+title: Do you use hotspot analysis to prioritize tech debt?
+seoDescription: Learn how to use hotspot analysis and git history to focus tech debt efforts on the code that actually matters — the files your team changes most often.
+guid: 9f0babd7-53cb-430c-9787-21fa89fb2d15
+uri: prioritize-tech-debt
+created: 2026-03-19T00:00:00.000Z
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov
+related:
+  - rule: public/uploads/rules/get-code-line-metrics/rule.mdx
+  - rule: public/uploads/rules/technical-debt/rule.mdx
+categories:
+  - category: categories/software-engineering/rules-to-better-code-quality.mdx
+archivedreason:
+---
+
+Not all bad code is equally bad. A messy module that hasn't been touched in three years poses far less risk than a slightly messy module your team changes every week. Yet most teams either try to fix everything (impossible) or ignore everything (dangerous).
+
+The key insight: **bad code only hurts you when you need to change it.**
+
+<endIntro />
+
+## The hotspot principle
+
+In most codebases, roughly 5% of files receive around 90% of all changes. These high-churn files are your **hotspots** — and they're where code quality problems translate directly into bugs, slow delivery, and developer frustration.
+
+Stable code that is rarely or never modified is largely harmless, regardless of how it looks. Refactoring it consumes time and introduces regression risk with little return. Refactoring a hotspot, on the other hand, pays dividends every time your team touches that file.
+
+## How to find hotspots
+
+Git history is your best source of truth. Run this command to rank files by change frequency:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    {`git log --format=format: --name-only | sort | uniq -c | sort -rg | head -20`}
+  </>}
+  figurePrefix="none"
+  figure="Find the 20 most frequently changed files in your repository"
+/>
+
+This outputs a ranked list of files by number of commits that touched them. The top results are your hotspots — prioritize these for cleanup.
+
+Alternatively, you can use AI to work this out for you.
+
+## Bad example — refactoring the wrong code
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Sprint goal: "Refactor legacy billing module"
+
+    Last commit to billing module: 847 days ago
+    Test coverage: 94%
+    Open bugs related to billing: 0
+
+    Result: 2 weeks spent, no user-facing improvement, one regression introduced
+  </>}
+  figurePrefix="bad"
+  figure="Refactoring stable, rarely-changed code wastes effort and introduces risk"
+/>
+
+## Good example — targeting hotspots
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    Hotspot analysis results (top 5 files by commit frequency):
+
+    487  src/api/orders/orderService.ts
+    312  src/components/checkout/CheckoutForm.tsx
+    298  src/api/users/userService.ts
+    201  src/utils/validation.ts
+    189  src/api/orders/orderRepository.ts
+
+    Sprint goal: "Improve code quality in orderService.ts and CheckoutForm.tsx"
+
+    Result: Reduced average PR review time by 30%, 3 bugs caught during refactor
+  </>}
+  figurePrefix="good"
+  figure="Targeting the most-changed files delivers the highest return on refactoring effort"
+/>
+
+## Watch out for survivorship bias
+
+Hotspot analysis has one important blind spot: teams sometimes **avoid** touching genuinely problematic code, making it invisible in change frequency metrics. A file with zero commits might be well-designed stable code — or it might be a fragile landmine everyone is too afraid to touch.
+
+Combine hotspot data with:
+
+* **Team intuition** — ask developers which areas of the codebase they dread
+* **Code review findings** — note recurring complaints in PR comments
+* **Bug reports** — trace bugs back to their source files
+
+## Tools
+
+* **[CodeScene](https://codescene.com)** — provides automated hotspot analysis with visualisations, team coupling metrics, and trend data
+* **[git-quick-stats](https://github.com/arzzen/git-quick-stats)** — lightweight CLI for commit frequency analysis
+* **[Your Code as a Crime Scene](https://pragprog.com/titles/atcrime/your-code-as-a-crime-scene/)** by Adam Tornhill — the definitive book on this technique, applying forensic analysis methods to software archaeology

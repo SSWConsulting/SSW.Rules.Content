@@ -1,0 +1,55 @@
+---
+type: rule
+archivedreason: null
+title: Do you know the difference between 'Other' and 'N/A' in surveys?
+seoDescription: Understand when to use 'Other' vs 'N/A' in survey answer options to collect cleaner data.
+guid: 862aa66f-e383-410f-9d40-d5dc8f0310df
+uri: survey-other-vs-na
+created: 2026-03-04T00:00:00.000Z
+authors:
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz
+related: []
+categories:
+  - category: categories/design/rules-to-better-interfaces-forms.mdx
+redirects: []
+isArchived: false
+---
+
+When designing survey questions, 'Other' and 'N/A' serve very different purposes. Mixing them up leads to messy data.
+
+<endIntro />
+
+**'Other'** means "my answer exists but isn't listed." The respondent has a valid answer - you just didn't include it as a predefined option. It's common to pair this with a free-text field.
+
+**'N/A'** means "this question doesn't apply to me." The respondent isn't choosing a different answer - the entire question is irrelevant to them.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Survey question:** "What is your favourite frontend framework?"
+
+    * React
+    * Angular
+    * Vue
+    * Blazor
+  </>}
+  figurePrefix="bad"
+  figure="Someone who loves Next.js has no option, and a backend dev who doesn't use frontend frameworks is forced to pick one or skip the question"
+/>
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    **Survey question:** "What is your favourite frontend framework?"
+
+    * React
+    * Angular
+    * Vue
+    * Blazor
+    * Other (please specify)
+    * N/A
+  </>}
+  figurePrefix="good"
+  figure="'Other' lets the Next.js fan tell you their answer, 'N/A' lets the backend dev opt out cleanly"
+/>

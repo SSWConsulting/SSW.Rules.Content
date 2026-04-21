@@ -1,0 +1,81 @@
+---
+type: rule
+title: Do you know when to use Bcc in emails?
+uri: bcc
+categories:
+  - category: categories/communication/rules-to-better-email.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Cameron Shaw
+    url: 'https://www.ssw.com.au/people/cameron-shaw'
+related:
+  - rule: public/uploads/rules/avoid-replying-to-all-when-bcced/rule.mdx
+redirects:
+  - do-you-send-bulk-email-via-bcc-field-(if-all-parties-are-not-contacts-of-each-other)
+  - do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
+guid: a06057b7-d957-4df3-8794-a38d2be30a45
+seoDescription: Send bulk emails via Bcc field to ensure privacy and protect recipients' email addresses from being shared.
+created: 2009-04-15T03:03:50.000Z
+createdBy: System Account
+createdByEmail: Unknown@ssw.com.au
+lastUpdated: 2026-03-29T18:09:42.318Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+isArchived: false
+archivedreason: null
+---
+
+The Bcc field allows you to send an email to recipients without revealing their addresses to others. It is commonly used to protect privacy and limit unnecessary replies.
+
+<endIntro />
+
+When you send bulk emails, use the Bcc field instead of the To field.
+
+<emailEmbed
+  from=""
+  to="alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com"
+  cc=""
+  bcc=""
+  subject="Thank you for coming to Sydney .NET User Group"
+  shouldDisplayBody={false}
+  body={<>
+
+  </>}
+  figurePrefix="bad"
+  figure="Send bulk email via 'To' field"
+/>
+
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc="alex@aaa.com, @brandon@bbb.com, charlie@ccc.com, debora@ddd.com"
+  subject="Thank you for coming to Sydney .NET User Group"
+  shouldDisplayBody={false}
+  body={<>
+
+  </>}
+  figurePrefix="good"
+  figure="Send bulk email via 'Bcc' field"
+/>
+
+You can also use Bcc to avoid unwanted “Reply All” responses. Be transparent and state the reason clearly at the top of the email.
+
+<emailEmbed
+  from=""
+  to=""
+  cc=""
+  bcc="SSWAll"
+  subject="🧠⚡ Brisbane Brainstorming 2026 - Retro - Chewing the Fat 📈 "
+  shouldDisplayBody={true}
+  body={<>
+    (BCCing SSWAll to avoid any accidental Reply Alls)
+    
+    ## Hey SSW'ers,
+    
+    &#123;&#123; EMAIL CONTENT &#125;&#125;
+  </>}
+  figurePrefix="good"
+  figure="When recipients are Bcc’d and the reason is clearly explained at the top of the email"
+/>

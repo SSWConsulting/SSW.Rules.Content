@@ -392,6 +392,15 @@ function applyFixes({ source, exprFixes }) {
     const original = out.slice(f.start, f.end);
     if (original.startsWith("{") && original.endsWith("}")) {
       const inner = original.slice(1, -1);
+
+      // Skip double-brace expressions like {{ LINK }} — these will be
+      // converted to HTML entities by convertDoubleBraces* functions that
+      // run after applyFixes. Backslash-escaping the outer braces here
+      // would break the regex patterns those functions rely on.
+      if (inner.startsWith("{") && inner.endsWith("}")) {
+        continue;
+      }
+
       const replacement = `\\{${inner}\\}`;
       out = out.slice(0, f.start) + replacement + out.slice(f.end);
     }

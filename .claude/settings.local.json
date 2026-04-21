@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e:*)"
+      "Bash(node -e:*)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(uuidgen)",
+      "Bash(npm install:*)",
+      "Bash(node frontmatter-validator.js 'public/uploads/rules/prioritize-tech-debt/rule.mdx')"
     ]
   }
 }

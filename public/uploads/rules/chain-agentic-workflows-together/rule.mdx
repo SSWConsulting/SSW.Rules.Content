@@ -1,0 +1,142 @@
+---
+type: rule
+title: Do you know when to Chain GitHub Agentic Workflows together?
+uri: keep-agentic-workflows-granular
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+authors:
+  - title: Caleb Williams
+    url: 'https://www.ssw.com.au/people/caleb-williams'
+related:
+  - rule: public/uploads/rules/agentic-workflows/rule.mdx
+redirects:
+  - perform-single-task-agentic-workflows
+guid: 7c431def-6fbc-4296-8769-d9d4d082d2ad
+seoDescription: 'Learn why you should create new GitHub Agentic Workflows when you have steps that depend on one another, and how to chain workflows together.'
+created: 2026-03-13T00:00:00.000Z
+createdBy: Caleb Williams
+createdByEmail: CalebWilliams@ssw.com.au
+lastUpdated: 2026-03-17T02:17:34.806Z
+lastUpdatedBy: Caleb Williams
+lastUpdatedByEmail: CalebWilliams@ssw.com.au
+---
+
+GitHub Agentic Workflows let you instruct agents using natural language, embedded CLI commands, and MCP tools. You don't get the artefacts of a create action until the workflow has finished running. So when you have steps that depend on one another those steps cannot run in the same workflow. Instead you break the work done for the dependent steps into separate workflows.
+
+<endIntro />
+
+
+### Why do we need to Chain workflows together?
+
+When defining the desired outcome of a flow we need to use Safe Outputs. Safe Outputs are where GitHub Agentic Workflows runs its' built in guards against prompt injection. As a result we can't do write operations without first defining them as Safe Outputs.
+
+Safe Outputs are only executed at the end of a workflow. This means, if you have a subsequent step that relies on the result of a Safe Output, it's not possible to house that subsequent step in the same workflow. 
+In this situation, you might need to think about splitting a workflow up into multiple, dependent workflows.
+
+## When are workflows dependent?
+
+Workflows are dependent when a later workflow needs the output or artifacts of an earlier workflow. For example, you might create a number of GitHub issues, then have a separate step in your flow that performs the work outlined in those issues.
+
+
+## Create new workflows for dependent steps
+
+When you have a step that depends on the output of the previous step, put it in a separate workflow that either:
+
+* **Calls the next workflow: For example, Workflow A creates issues, then in a post step, runs workflow B. Workflow B is triggered and processes the newly created issues.
+* **Listens for events:** Workflow B is triggered by outputs of Workflow A
+
+ 
+
+```
+---
+description: >
+  This workflow logs issues to update outdated documentation on the site then performs the work to fix them.
+
+on:
+  workflow_dispatch:
+    inputs:
+      label_name:
+        description: "GitHub label slug that ties this pipeline together (e.g. 'update-react-docs')."
+        required: true
+
+safe-outputs:
+  create-pull-request:
+    title-prefix: "[Content Fixer] "
+    max: 5
+  create-issue:
+    title-prefix: "[Content Audit] "
+    max: 5
+
+permissions: read-all
+
+tools:
+  github:
+    lockdown: false
+    toolsets: [issues, repos, labels, pull_requests]
+
+---
+
+### Step 1
+
+I want you to to create an issues in this repository after finding outdated content in the documentation.
+
+Use the create issue safe-output tool to create the issues.
+
+- `<TITLE>` — a concise issue title describing the request
+- `<BODY>` — the full body in markdown
+
+### Step 2
+
+After you've finished creating the issues in step 1 I want you to create pull requests using the pull requests safe-output tool to implement the changes.
+Link to each issue by ID in each pull request respectively.
+
+```
+
+**Figure: ❌ Bad example - Step 2 involves linking to issues created in Step 1, but the issues have not been generated until safe outputs runs**
+
+```
+---
+description: >
+  This workflow logs issues to update outdated documentation on the site.
+
+on:
+  workflow_dispatch:
+    inputs:
+      label_name:
+        description: "GitHub label slug that ties this pipeline together (e.g. 'update-react-docs')."
+        required: true
+
+permissions: read-all
+
+safe-outputs:
+  create-issue:
+    labels: ["${{ inputs.label_name }}"]
+    title-prefix: "Content Audit:"
+    max: 30
+
+tools:
+  github:
+    lockdown: false
+    toolsets: [issues, repos, labels]
+
+post-steps:
+  - name: Trigger Agent B (PR Creator)
+    if: success()
+    env:
+      INPUT_LABEL_NAME: ${{ inputs.label_name }}
+    # A second agentic workflow is triggered to action the recently created issues.
+    run: |
+      gh workflow run action-outdated-content-issues.lock.yml \
+        -f label_name="$INPUT_LABEL_NAME" \
+---
+
+I want you to to create issues in this repository after finding outdated content in the documentation.
+
+Use the create issues safe-output tool to create the issue.
+
+- `<TITLE>` — a concise issue title describing the request
+- `<BODY>` — the full body in markdown
+
+```
+
+**Figure: ✅ Good example - This workflows creates a list of issues, then delegates the work to a separate agent.**
