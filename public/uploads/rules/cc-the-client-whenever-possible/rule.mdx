@@ -33,7 +33,7 @@ CC the client from the beginning (unless it's obvious internal communication). T
 
 ## When you **should** CC the client
 
-Keeping the client in the loop builds trust and avoids surprises. CC the client when:
+Keeping the client in the loop builds trust and avoids surprises. CC the client on:
 
 * **Short bookings (1 week or less)** - The client should see the scheduling emails so they know who is coming and when
 * **Scope or requirement discussions** - Any conversation that could affect what gets delivered
@@ -44,14 +44,14 @@ Keeping the client in the loop builds trust and avoids surprises. CC the client 
 
 <emailEmbed
   from=""
-  to="Bob Northwind (Developer)"
-  cc="David (Client)"
+  to="Dave"
+  cc="Bob Northwind"
   bcc=""
   subject="Northwind - Sprint 3 booking confirmation"
   shouldDisplayBody={true}
   body={<>
 
-## Hi Bob
+## Hi Dave
 
 You are booked for the Northwind project for 3 days next week (Mon-Wed).
 
@@ -73,14 +73,14 @@ Not every internal email needs client visibility. Avoid CC'ing the client when:
 
 <emailEmbed
   from=""
-  to="Bob Northwind (Developer)"
-  cc="David (Client)"
+  to="Dave"
+  cc="Bob Northwind"
   bcc=""
   subject="Northwind - Sprint 12 booking confirmation"
   shouldDisplayBody={true}
   body={<>
 
-## Hi Bob
+## Hi Dave
 
 You are booked for the Northwind project for the next 4 weeks (March 3 - March 28).
 
@@ -93,7 +93,7 @@ Let me know if you have any questions.
 
 <emailEmbed
   from=""
-  to="Bob Northwind (Developer)"
+  to="Dave"
   cc=""
   bcc=""
   subject="Northwind - Sprint 12 booking confirmation"
@@ -118,7 +118,7 @@ When a developer is booked for a short engagement (e.g., a few days), the client
 For long bookings (more than 1 week), the client is already aware of the ongoing engagement. CC'ing them on every internal scheduling email adds unnecessary noise and doesn't provide value. Instead, keep them informed through regular status updates and Sprint Reviews.
 
 <boxEmbed
-  style="info"
+  style="tips"
   body={<>
     **Tip:** When in doubt, ask yourself: _"Does the client need to act on or be aware of this email?"_ If the answer is no, don't CC them.
   </>}
