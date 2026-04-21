@@ -18,9 +18,9 @@ seoDescription: 'Learn the best practices for starting vibe coding to ensure you
 created: 2025-11-21T04:05:21.000Z
 createdBy: Copilot
 createdByEmail: 198982749+Copilot@users.noreply.github.com
-lastUpdated: 2026-04-01T01:11:51.359Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-02-12T23:31:46.481Z
+lastUpdatedBy: Eddie Kranz
+lastUpdatedByEmail: EddieKranz@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -28,6 +28,15 @@ archivedreason: null
 Vibe coding empowers non-developers to build software using AI agents. However, without proper foundation and structure, vibe coding can result in unmaintainable code that fails "the bus test" – meaning if you were hit by a bus tomorrow, no one else could understand or maintain your code.
 
 <endIntro />
+
+<boxEmbed
+  body={<>
+    This rule was written with non-devs in mind, who are interested in getting on the tools. If you are a dev, check out [the best workflow for AI assisted development](/ai-assisted-development-workflow).
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="info"
+/>
 
 The key to successful vibe coding is starting with the right foundation. This means ensuring your code lives in a proper repository, uses proven architectural patterns, and leverages existing AI guidance.
 
@@ -53,14 +62,13 @@ Starting your project in GitHub, specifically within your organization, ensures:
 
 Don't start from scratch! Use one of these battle-tested SSW templates that already include comprehensive AI guidance.
 
-### Clean Architecture Template
+### Clean Architecture template
 
 Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.CleanArchitecture) which includes:
 
 * Proper separation of concerns (Domain, Application, Infrastructure, Presentation layers)
 * Built-in dependency injection
-* Comprehensive `agents.md` files guiding AI on architectural decisions
-* `.github/copilot-instructions.md` for GitHub Copilot integration
+* Comprehensive `AGENTS.md` files guiding AI on architectural decisions (See more on [writing an AGENTS.md file](/write-agents-md))
 * Pre-configured with best practices and patterns
 
 <boxEmbed
@@ -72,7 +80,7 @@ Use the [SSW Clean Architecture template](https://github.com/SSWConsulting/SSW.C
   figure=""
 />
 
-### Vertical Slice Architecture Template
+### Vertical Slice Architecture template
 
 Alternatively, use the [SSW Vertical Slice Architecture template](https://github.com/SSWConsulting/SSW.VerticalSliceArchitecture) which offers:
 
