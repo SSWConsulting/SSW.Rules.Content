@@ -1,6 +1,8 @@
 name: SEMrush - Fix Duplicate Meta Descriptions
 
 on:
+  push:
+    branches: [2607-auto-workflow-for-semrush-errors] # TODO: remove before merging to main
   schedule:
     - cron: "0 9 * * 1" # Every Monday at 9:00 AM UTC
   workflow_dispatch: # Allow manual runs from the Actions tab
