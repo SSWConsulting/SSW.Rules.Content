@@ -42,7 +42,7 @@ gh auth login
 ```
 
 The `gh` CLI must be installed and authenticated before running the full workflow.
-Install it from https://cli.github.com/
+Install it from <https://cli.github.com/>
 
 ## How to run
 
@@ -86,10 +86,10 @@ python scripts/semrush/run_duplicate_meta_fix.py --dry-run --limit 5
 4. **Maps** each URL to `public/uploads/rules/{slug}/rule.mdx` on disk.
 5. **Reads** the current `title` and `seoDescription` from the file's frontmatter.
 6. **Generates** a replacement description using the OpenAI API (`gpt-4o-mini`, Responses API), using the page title, current description, and a body excerpt as context. Enforces:
-   - Under 160 characters
-   - No filler phrases
-   - Unique within the current batch
-   - Automatic retry with the over-length draft if the first attempt is too long
+   * Under 160 characters
+   * No filler phrases
+   * Unique within the current batch
+   * Automatic retry with the over-length draft if the first attempt is too long
 7. **Writes** only the `seoDescription` frontmatter line. Everything else (title, body, other fields) is unchanged.
 8. **Creates** a branch (`semrush/fix-duplicate-meta`), commits only the changed files, pushes, and opens a GitHub pull request for human review.
 
@@ -97,10 +97,10 @@ python scripts/semrush/run_duplicate_meta_fix.py --dry-run --limit 5
 
 The full run (`python run_duplicate_meta_fix.py`) will:
 
-- Create or reset the branch `semrush/fix-duplicate-meta` from `main`
-- Stage and commit only the files that were actually updated
-- Push to `origin`
-- Open a PR titled `[SEMrush] Fix duplicate meta descriptions for /rules`
+* Create or reset the branch `semrush/fix-duplicate-meta` from `main`
+* Stage and commit only the files that were actually updated
+* Push to `origin`
+* Open a PR titled `[SEMrush] Fix duplicate meta descriptions for /rules`
 
 The PR body lists every changed file, explains how descriptions were generated, and includes a checklist for reviewers.
 
@@ -108,11 +108,11 @@ The PR body lists every changed file, explains how descriptions were generated, 
 
 ## What it does NOT do
 
-- Does not change `title` or any other frontmatter field
-- Does not modify page body content
-- Does not commit or push to Git
-- Does not create a PR (that step is manual or handled by a separate pipeline)
-- Does not handle issue types other than `duplicate_meta_descriptions`
+* Does not change `title` or any other frontmatter field
+* Does not modify page body content
+* Does not commit or push to Git
+* Does not create a PR (that step is manual or handled by a separate pipeline)
+* Does not handle issue types other than `duplicate_meta_descriptions`
 
 ## After running
 
@@ -130,12 +130,12 @@ Review each description in the PR diff, edit anything that looks off directly on
 
 ### Current limitations
 
-- Only handles `seoDescription` field; does not detect or fix other SEO issues.
-- Does not deduplicate against descriptions already present on *other* pages (only within the current batch).
-- No retry logic on transient SEMrush/OpenAI API failures.
-- Does not integrate with ContentHawk or the existing PR automation pipeline.
-- Python only; no npm script alias (there is no root `package.json` in this content repo).
-- `semrush/fix-duplicate-meta` is a single shared branch — running the script twice in a row without merging the first PR will be caught by the duplicate guard and exit cleanly.
+* Only handles `seoDescription` field; does not detect or fix other SEO issues.
+* Does not deduplicate against descriptions already present on *other* pages (only within the current batch).
+* No retry logic on transient SEMrush/OpenAI API failures.
+* Does not integrate with ContentHawk or the existing PR automation pipeline.
+* Python only; no npm script alias (there is no root `package.json` in this content repo).
+* `semrush/fix-duplicate-meta` is a single shared branch — running the script twice in a row without merging the first PR will be caught by the duplicate guard and exit cleanly.
 
 ### For GitHub Actions / recurring runs
 
