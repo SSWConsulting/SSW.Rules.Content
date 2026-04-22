@@ -16,9 +16,9 @@ seoDescription: 'Clearly mark required form fields and provide helpful validatio
 created: 2014-12-04T19:35:25.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-04-20T17:53:54.120Z
-lastUpdatedBy: Tiago Araujo
-lastUpdatedByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-04-22T06:31:51.437Z
+lastUpdatedBy: Ivan Gaiduk
+lastUpdatedByEmail: IvanGaiduk@ssw.com.au
 isArchived: false
 archivedreason: null
 ---
@@ -35,7 +35,7 @@ A designer can choose the most appropriate way to indicate required fields based
 
 ## Make validation feedback explicit
 
-Clearly communicate validation states in real time. When a field fails, show a helpful message next to the field along with a clear visual cue such as red color and an error icon explaining what needs to be fixed.
+Clearly communicate validation states in real time. When a field fails, show a helpful message next to the field along with a clear visual cue, such as red color and an error icon, explaining what needs to be fixed.
 
 <imageEmbed alt="Image" size="medium" showBorder={false} figurePrefix="good" figure="Invalid field is highlighted with a message explaining the issue" src="/uploads/rules/forms-do-you-indicate-which-fields-are-required-and-validate-them/003-validation-error.png" />
 
@@ -45,31 +45,81 @@ When it passes, provide positive confirmation so users know their input is valid
 
 ***
 
-## More information on ASP.NET implementation
 
-You should combine these visual indicators with appropriate client and server side validators to make sure that your data conforms to business requirements. Adding a `RequiredFieldValidator` to the above textboxes gives you data validity check with minimal coding.
+Validate on blur, not just on submit
+------------------------------------
 
-```cshtml
-<asp:Textbox runat="Server" ID="email" />
+
+Validating only on submit means users don't discover errors until after they've filled in the whole form. Validate when the user **leaves a field** so they get feedback while the context is still fresh.
+
+```ts
+// ❌ Bad - default mode only fires on submit
+const form = useForm({
+  resolver: zodResolver(schema),
+})
 ```
 
-**❌ Figure: Bad example - No validator used, so the user won't know the email is required**
+**❌ Figure: Bad example - Errors only appear after the user submits, creating a frustrating "wasted trip"**
 
-```cshtml
-<asp:Textbox runat="Server" ID="email"/>
-
-<asp:RequiredFieldValidator runat="Server" ControlToValidate="email" ErrorMessage="Please enter an email address"
-
-ID="emailReqValidator" />
+```ts
+// ✅ Good - fires when the user leaves each field
+const form = useForm({
+  resolver: zodResolver(schema),
+  mode: "onBlur",
+})
 ```
 
-**✅ Figure: Good example - An ASP.NET validator in use, to indicate the fields required**
+**✅ Figure: Good example - Errors appear as soon as the user moves away from an invalid field**
+
+## Define validation rules in a typed schema
+
+Keep all validation rules in a single schema co-located with the form. This provides type safety, readable error messages, and a single source of truth for both client and server validation.
+
+```ts
+// ✅ Good - Zod schema defines all rules in one place
+const contactSchema = z.object({
+  fullName: z.string().min(1, "Name is required"),
+  email: z.string().email("Please enter a valid email address"),
+  password: z
+    .string()
+    .min(8)
+    .regex(new RegExp('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$'), {
+        message:
+            'Password must be at least 8 characters and contain an uppercase letter, lowercase letter, and number'
+    })
+  company: z.string().min(1, "Company name is required"),
+})
+```
+
+**✅ Figure: Good example - Zod schema with clear, user-facing error messages**
+
+## Show errors inline, adjacent to the field
+
+Errors must appear in the vicinity of the field that failed, not in a summary banner at the top of the form. Using a component like `<FormMessage />` (from shadcn/ui or a similar library) handles this automatically.
+
+```ts
+<FormItem>
+  <FormLabel>
+    Email <span aria-hidden="true" className="text-red-500">*</span>
+  </FormLabel>
+  <FormControl>
+    <Input type="email" placeholder="Enter your email" {...field} />
+  </FormControl>
+  <FormMessage /> {/* renders the Zod error message inline */}
+</FormItem>
+```
+
+**✅ Figure: Good example - FormMessage renders the error directly below its field with appropriate styling**
+
+## Always validate on the server too
+
+Client-side validation improves UX; server-side validation enforces correctness. Both are required. Surface API validation errors as inline messages or toast notifications, never silently discard them.
 
 <boxEmbed
-  style="greybox"
   body={<>
-    **Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).
+    **Tip:** The same Zod schema can be shared between your frontend and a Node.js/tRPC backend, ensuring client and server rules never drift apart.
   </>}
   figurePrefix="none"
   figure=""
+  style="info"
 />
