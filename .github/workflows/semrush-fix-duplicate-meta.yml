@@ -1,0 +1,45 @@
+name: SEMrush - Fix Duplicate Meta Descriptions
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Every Monday at 9:00 AM UTC
+  workflow_dispatch: # Allow manual runs from the Actions tab
+
+jobs:
+  fix-duplicate-meta:
+    name: Fix duplicate meta descriptions for /rules
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          # Use PAT so the job can push branches and open PRs
+          token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install -r scripts/semrush/requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run SEMrush duplicate meta fixer
+        env:
+          SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
+          SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # gh CLI uses GH_TOKEN for non-interactive authentication
+          GH_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+        run: python scripts/semrush/run_duplicate_meta_fix.py

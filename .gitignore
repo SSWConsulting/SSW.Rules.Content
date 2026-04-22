@@ -2,6 +2,13 @@
 .vscode/settings.json
 .idea
 
+# Claude Code local config
+.claude/settings.local.json
+
+# Python cache
+__pycache__/
+*.pyc
+
 # Ignore generated mapping files
 scripts/tina-migration/category-uri-title-map.json
 scripts/tina-migration/orphaned_rules.json
