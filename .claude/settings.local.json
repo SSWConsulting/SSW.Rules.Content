@@ -5,7 +5,20 @@
       "WebFetch(domain:www.linkedin.com)",
       "Bash(uuidgen)",
       "Bash(npm install:*)",
-      "Bash(node frontmatter-validator.js 'public/uploads/rules/prioritize-tech-debt/rule.mdx')"
+      "Bash(node frontmatter-validator.js 'public/uploads/rules/prioritize-tech-debt/rule.mdx')",
+      "Bash(grep -r \"semrush\\\\|ahrefs\\\\|moz\\\\|AI.*generat\\\\|LLM\\\\|claude\\\\|gpt\" /d/DataChloeLin/ProjectsGitHub/SSW.Rules.Content/.github/workflows/*.md)",
+      "Bash(xargs grep *)",
+      "Bash(grep -E \"\\(scripts/[^/]+/\\(package\\\\.json|README|index|[^/]+\\\\.\\(js|py|ts|cs|md\\)$\\)\\)\")",
+      "Bash(xargs ls *)",
+      "Bash(python3 -m py_compile semrush_client.py map_urls_to_files.py generate_seo_description.py fix_duplicate_meta.py run_duplicate_meta_fix.py)",
+      "Bash(python -m py_compile semrush_client.py map_urls_to_files.py generate_seo_description.py fix_duplicate_meta.py run_duplicate_meta_fix.py)",
+      "Bash(python -)",
+      "Bash(python -m py_compile run_duplicate_meta_fix.py)",
+      "Bash(python -m py_compile run_duplicate_meta_fix.py semrush_client.py)",
+      "Bash(python -m py_compile semrush_client.py run_duplicate_meta_fix.py)",
+      "Bash(python -m py_compile generate_seo_description.py)",
+      "Bash(python -m py_compile generate_seo_description.py run_duplicate_meta_fix.py)",
+      "Bash(python -m py_compile github_pr.py run_duplicate_meta_fix.py)"
     ]
   }
 }

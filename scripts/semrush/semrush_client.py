@@ -30,11 +30,11 @@ _EP_AUDIT_INFO   = "/reports/v1/projects/{project_id}/siteaudit/"
 _EP_AUDIT_PAGES  = "/reports/v1/projects/{project_id}/siteaudit/pages"
 _EP_AUDIT_ISSUES = "/reports/v1/projects/{project_id}/siteaudit/issues"
 
-# SEMrush numeric issue ID for duplicate meta descriptions.
+# SEMrush numeric issue IDs.
 # SEMrush uses integers, not strings, for issue IDs.
-# 15 = "Duplicate meta description" per SEMrush documentation.
 # Run --list-issues to see all IDs present in your snapshot.
-ISSUE_DUPLICATE_META = 15
+ISSUE_DUPLICATE_META  = 15   # "Duplicate meta description"
+ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag"
 
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -115,6 +115,48 @@ class SEMrushClient:
         )
         return urls
 
+
+    def get_duplicate_title_pages(self, snapshot_id: str = None) -> list[str]:
+        """
+        Return source_urls of all pages flagged for duplicate title tags.
+
+        Mirrors get_duplicate_meta_pages() but uses ISSUE_DUPLICATE_TITLE (13).
+        """
+        if snapshot_id is None:
+            print("[semrush] Fetching latest snapshot ID...")
+            snapshot_id = self.get_latest_snapshot_id()
+            print(f"[semrush] Using snapshot: {snapshot_id}")
+
+        all_issues = self._get_all_issues(snapshot_id)
+
+        issue_entry = next(
+            (i for i in all_issues if i.get("issue_id") == ISSUE_DUPLICATE_TITLE),
+            None,
+        )
+        if issue_entry is None:
+            available = [i.get("issue_id") for i in all_issues]
+            print(
+                f"[semrush] Issue {ISSUE_DUPLICATE_TITLE} not found in snapshot.\n"
+                f"          Available issue IDs: {available}"
+            )
+            return []
+
+        total = issue_entry.get("total", 0)
+        limit = issue_entry.get("limit", 100)
+        items = issue_entry.get("data", [])
+
+        if total > limit:
+            print(
+                f"[semrush] WARNING: {total} pages found but only {limit} returned "
+                f"(pagination not yet implemented — processing {limit})."
+            )
+
+        urls = [item["source_url"] for item in items if item.get("source_url")]
+        print(
+            f"[semrush] Found {len(urls)} pages with duplicate title tags "
+            f"(issue {ISSUE_DUPLICATE_TITLE}, total reported: {total})"
+        )
+        return urls
 
     def _get_all_issues(self, snapshot_id: str) -> list[dict]:
         """Fetch the full issues list for a snapshot."""

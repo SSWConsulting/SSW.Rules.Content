@@ -1,4 +1,4 @@
-name: SEMrush - Fix Duplicate Meta Descriptions
+name: SEMrush - Fix Duplicate SEO Issues
 
 on:
   push:
@@ -20,7 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          # GITHUB_TOKEN has write access to this repo for pushing branches
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
@@ -42,6 +41,41 @@ jobs:
           SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
           SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # gh CLI uses GH_TOKEN for non-interactive authentication
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/semrush/run_duplicate_meta_fix.py
+
+  fix-duplicate-titles:
+    name: Fix duplicate title tags for /rules
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install -r scripts/semrush/requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run SEMrush duplicate title fixer
+        env:
+          SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
+          SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/semrush/run_duplicate_title_fix.py
