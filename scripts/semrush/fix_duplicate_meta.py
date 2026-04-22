@@ -91,6 +91,50 @@ def update_seo_description(file_path: str, new_desc: str) -> bool:
     return True
 
 
+def update_title(file_path: str, new_title: str) -> bool:
+    """
+    Replace the title value in the file's frontmatter.
+
+    Writes in-place. Only the title line is changed.
+    Returns True on success, False on any failure.
+    """
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except OSError as exc:
+        print(f"  [fix] Cannot read file: {exc}")
+        return False
+
+    fm_match = re.match(r"^(---[\s\S]*?---)", content)
+    if not fm_match:
+        print(f"  [fix] No frontmatter block found in: {file_path}")
+        return False
+
+    fm_block = fm_match.group(1)
+    safe_value = _yaml_scalar(new_title)
+    new_fm_block, n = re.subn(
+        r"^title:.*$",
+        f"title: {safe_value}",
+        fm_block,
+        flags=re.MULTILINE,
+    )
+
+    if n == 0:
+        print(f"  [fix] title field not found in frontmatter: {file_path}")
+        return False
+
+    new_content = content.replace(fm_block, new_fm_block, 1)
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+    except OSError as exc:
+        print(f"  [fix] Cannot write file: {exc}")
+        return False
+
+    return True
+
+
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 def _extract_scalar(frontmatter: str, field: str) -> str | None:

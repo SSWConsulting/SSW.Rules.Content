@@ -1,22 +1,27 @@
 #!/usr/bin/env python3
 """
-GitHub PR automation for the SEMrush duplicate meta description fixer.
+GitHub PR automation for SEMrush duplicate-field fixers.
 
 Uses the `gh` CLI and standard `git` commands (both must be available on PATH).
 All operations are run with cwd=repo_root so this module is location-independent.
 
-Constants at the top of the file control branch name and PR title — change them
-here if the repo's naming conventions require something different.
+Constants at the top define the defaults for the meta-description flow.
+Pass branch_name / pr_title / pr_body explicitly for other flows (e.g. title fix).
 """
 
 import os
 import subprocess
 import sys
 
-# ── Naming constants (edit here to change branch / PR title) ─────────────────
+# ── Meta-description flow defaults ───────────────────────────────────────────
 BRANCH_NAME = "semrush/fix-duplicate-meta"
 PR_TITLE    = "[SEMrush] Fix duplicate meta descriptions for /rules"
 BASE_BRANCH = "main"
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Title-tag flow constants ──────────────────────────────────────────────────
+TITLE_BRANCH_NAME = "semrush/fix-duplicate-titles"
+TITLE_PR_TITLE    = "[SEMrush] Fix duplicate title tags for /rules"
 # ─────────────────────────────────────────────────────────────────────────────
 
 _PR_BODY_TEMPLATE = """\
@@ -70,7 +75,6 @@ def check_gh_available() -> bool:
     In GitHub Actions, authentication is via the GH_TOKEN env var (no interactive
     login needed). Locally, `gh auth login` is required.
     """
-    # First check gh is on PATH at all
     which = subprocess.run(
         ["gh", "--version"],
         capture_output=True,
@@ -85,11 +89,9 @@ def check_gh_available() -> bool:
         )
         return False
 
-    # In CI, GH_TOKEN is enough — skip auth status check to avoid false failures
     if os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN"):
         return True
 
-    # Local: verify interactive auth
     result = subprocess.run(
         ["gh", "auth", "status"],
         capture_output=True,
@@ -106,16 +108,14 @@ def check_gh_available() -> bool:
     return True
 
 
-def check_open_pr(repo_root: str) -> str | None:
+def check_open_pr(repo_root: str, branch_name: str = BRANCH_NAME) -> str | None:
     """
-    Return the URL of an already-open PR for BRANCH_NAME, or None if there is none.
-
-    Uses `gh pr list` filtered to the fix branch and open state.
+    Return the URL of an already-open PR for branch_name, or None if there is none.
     """
     result = _run(
         [
             "gh", "pr", "list",
-            "--head", BRANCH_NAME,
+            "--head", branch_name,
             "--state", "open",
             "--json", "url,title",
             "--jq", ".[0].url // empty",
@@ -127,9 +127,9 @@ def check_open_pr(repo_root: str) -> str | None:
     return url if url else None
 
 
-def _branch_exists_locally(repo_root: str) -> bool:
+def _branch_exists_locally(repo_root: str, branch_name: str) -> bool:
     result = _run(
-        ["git", "show-ref", "--verify", "--quiet", f"refs/heads/{BRANCH_NAME}"],
+        ["git", "show-ref", "--verify", "--quiet", f"refs/heads/{branch_name}"],
         repo_root,
         check=False,
     )
@@ -141,7 +141,7 @@ def get_current_branch(repo_root: str) -> str:
     return result.stdout.strip()
 
 
-def create_branch(repo_root: str) -> bool:
+def create_branch(repo_root: str, branch_name: str = BRANCH_NAME) -> bool:
     """
     Create the fix branch from BASE_BRANCH.
 
@@ -151,22 +151,20 @@ def create_branch(repo_root: str) -> bool:
     current = get_current_branch(repo_root)
     print(f"[pr] Current branch: {current}")
 
-    if current == BRANCH_NAME:
-        print(f"[pr] Already on {BRANCH_NAME} — nothing to do for branch creation")
+    if current == branch_name:
+        print(f"[pr] Already on {branch_name} — nothing to do for branch creation")
         return True
 
-    # Delete stale local branch if it exists (no open PR, confirmed by caller)
-    if _branch_exists_locally(repo_root):
-        print(f"[pr] Deleting stale local branch: {BRANCH_NAME}")
-        result = _run(["git", "branch", "-D", BRANCH_NAME], repo_root, check=False)
+    if _branch_exists_locally(repo_root, branch_name):
+        print(f"[pr] Deleting stale local branch: {branch_name}")
+        result = _run(["git", "branch", "-D", branch_name], repo_root, check=False)
         if result.returncode != 0:
             print(f"[pr] ERROR: Could not delete branch: {result.stderr.strip()}", file=sys.stderr)
             return False
 
-    # Create branch from BASE_BRANCH
-    print(f"[pr] Creating branch {BRANCH_NAME!r} from {BASE_BRANCH!r}...")
+    print(f"[pr] Creating branch {branch_name!r} from {BASE_BRANCH!r}...")
     result = _run(
-        ["git", "checkout", "-b", BRANCH_NAME],
+        ["git", "checkout", "-b", branch_name],
         repo_root,
         check=False,
     )
@@ -177,7 +175,7 @@ def create_branch(repo_root: str) -> bool:
     return True
 
 
-def commit_changes(repo_root: str, changed_files: list[str]) -> bool:
+def commit_changes(repo_root: str, changed_files: list[str], commit_msg: str = None) -> bool:
     """
     Stage only the changed rule files and create a commit.
 
@@ -192,17 +190,17 @@ def commit_changes(repo_root: str, changed_files: list[str]) -> bool:
         print(f"[pr] ERROR: git add failed: {result.stderr.strip()}", file=sys.stderr)
         return False
 
-    # Confirm there is something to commit
     status = _run(["git", "diff", "--cached", "--quiet"], repo_root, check=False)
     if status.returncode == 0:
         print("[pr] Nothing staged — files may already be up to date. Skipping commit.")
         return False
 
-    commit_msg = (
-        f"fix(seo): replace duplicate meta descriptions [SEMrush audit]\n\n"
-        f"Automatically generated by scripts/semrush/run_duplicate_meta_fix.py.\n"
-        f"{len(rel_files)} file(s) updated."
-    )
+    if commit_msg is None:
+        commit_msg = (
+            f"fix(seo): replace duplicate meta descriptions [SEMrush audit]\n\n"
+            f"Automatically generated by scripts/semrush/run_duplicate_meta_fix.py.\n"
+            f"{len(rel_files)} file(s) updated."
+        )
     print("[pr] Committing...")
     result = _run(["git", "commit", "-m", commit_msg], repo_root, check=False)
     if result.returncode != 0:
@@ -213,11 +211,11 @@ def commit_changes(repo_root: str, changed_files: list[str]) -> bool:
     return True
 
 
-def push_branch(repo_root: str) -> bool:
+def push_branch(repo_root: str, branch_name: str = BRANCH_NAME) -> bool:
     """Push the fix branch to origin."""
-    print(f"[pr] Pushing {BRANCH_NAME!r} to origin...")
+    print(f"[pr] Pushing {branch_name!r} to origin...")
     result = _run(
-        ["git", "push", "--force-with-lease", "origin", BRANCH_NAME],
+        ["git", "push", "--force-with-lease", "origin", branch_name],
         repo_root,
         check=False,
     )
@@ -227,33 +225,37 @@ def push_branch(repo_root: str) -> bool:
     return True
 
 
-def open_pr(repo_root: str, changed_files: list[str]) -> str | None:
+def open_pr(
+    repo_root: str,
+    changed_files: list[str],
+    branch_name: str = BRANCH_NAME,
+    pr_title: str = PR_TITLE,
+    pr_body: str = None,
+) -> str | None:
     """
     Create a GitHub pull request and return its URL.
     Returns None on failure.
     """
-    rel_files = [os.path.relpath(f, repo_root) for f in changed_files]
+    if pr_body is None:
+        rel_files = [os.path.relpath(f, repo_root) for f in changed_files]
+        if len(rel_files) <= 20:
+            file_list = ", ".join(f"`{f}`" for f in rel_files)
+        else:
+            shown = ", ".join(f"`{f}`" for f in rel_files[:20])
+            file_list = f"{shown}, and {len(rel_files) - 20} more"
+        pr_body = _PR_BODY_TEMPLATE.format(
+            file_count=len(rel_files),
+            file_list=file_list,
+        )
 
-    # Build a readable file list for the PR body (cap at 20 to keep body short)
-    if len(rel_files) <= 20:
-        file_list = ", ".join(f"`{f}`" for f in rel_files)
-    else:
-        shown = ", ".join(f"`{f}`" for f in rel_files[:20])
-        file_list = f"{shown}, and {len(rel_files) - 20} more"
-
-    body = _PR_BODY_TEMPLATE.format(
-        file_count=len(rel_files),
-        file_list=file_list,
-    )
-
-    print(f"[pr] Creating pull request: {PR_TITLE!r}...")
+    print(f"[pr] Creating pull request: {pr_title!r}...")
     result = _run(
         [
             "gh", "pr", "create",
             "--base", BASE_BRANCH,
-            "--head", BRANCH_NAME,
-            "--title", PR_TITLE,
-            "--body", body,
+            "--head", branch_name,
+            "--title", pr_title,
+            "--body", pr_body,
         ],
         repo_root,
         check=False,
@@ -267,9 +269,16 @@ def open_pr(repo_root: str, changed_files: list[str]) -> str | None:
     return pr_url
 
 
-def run_pr_flow(repo_root: str, changed_files: list[str]) -> bool:
+def run_pr_flow(
+    repo_root: str,
+    changed_files: list[str],
+    branch_name: str = BRANCH_NAME,
+    pr_title: str = PR_TITLE,
+    pr_body: str = None,
+    commit_msg: str = None,
+) -> bool:
     """
-    Orchestrate the full branch → commit → push → PR flow.
+    Orchestrate the full branch -> commit -> push -> PR flow.
 
     Returns True if a PR was successfully created, False otherwise.
     Safe to call even if something goes wrong — errors are logged, not raised.
@@ -281,24 +290,23 @@ def run_pr_flow(repo_root: str, changed_files: list[str]) -> bool:
     if not check_gh_available():
         return False
 
-    # Duplicate PR guard
-    existing_pr = check_open_pr(repo_root)
+    existing_pr = check_open_pr(repo_root, branch_name)
     if existing_pr:
         print(
-            f"[pr] An open PR for branch {BRANCH_NAME!r} already exists: {existing_pr}\n"
+            f"[pr] An open PR for branch {branch_name!r} already exists: {existing_pr}\n"
             f"[pr] Skipping PR creation to avoid duplicates.\n"
             f"[pr] Close or merge that PR first, then re-run."
         )
         return False
 
-    if not create_branch(repo_root):
+    if not create_branch(repo_root, branch_name):
         return False
 
-    if not commit_changes(repo_root, changed_files):
+    if not commit_changes(repo_root, changed_files, commit_msg):
         return False
 
-    if not push_branch(repo_root):
+    if not push_branch(repo_root, branch_name):
         return False
 
-    pr_url = open_pr(repo_root, changed_files)
+    pr_url = open_pr(repo_root, changed_files, branch_name, pr_title, pr_body)
     return pr_url is not None
