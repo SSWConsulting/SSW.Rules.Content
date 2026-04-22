@@ -20,8 +20,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          # Use PAT so the job can push branches and open PRs
-          token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+          # GITHUB_TOKEN has write access to this repo for pushing branches
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Setup Python
@@ -43,5 +43,5 @@ jobs:
           SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           # gh CLI uses GH_TOKEN for non-interactive authentication
-          GH_TOKEN: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/semrush/run_duplicate_meta_fix.py
