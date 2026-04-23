@@ -45,7 +45,7 @@ AI tools can now generate full frontend UI from a natural language prompt. But w
   style="info"
 />
 
-[Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
+[Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic, powered by Claude Opus 4.7, that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
 
 ### How it ingests your design system
 
@@ -56,7 +56,7 @@ During setup, Claude Design builds a custom UI kit for your organization by read
 * **Documents** - Presentations, PDFs reflecting brand identity
 * **Individual assets** - Logos, color palettes, typography specimens
 
-Once published, this design system is automatically applied to every project created within the organization - so every generated screen uses your actual brand, not generic defaults.
+Once published, this design system is applied to projects within your organization - so every generated screen uses your actual brand, not generic defaults. Teams can maintain more than one design system if needed (e.g. for different products or brands).
 
 <boxEmbed
   body={<>
@@ -69,15 +69,20 @@ Once published, this design system is automatically applied to every project cre
 
 ### Key features
 
-* **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, and even 3D elements
+* **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, shaders, 3D, and built-in AI elements
 * **Live refinement controls** - Claude creates custom sliders and knobs on the fly for real-time adjustments to spacing, color, and layout
-* **Collaboration** - Organization-scoped sharing with private, view-only, or edit access, and group conversations with Claude on the same design
-* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, point to a codebase, or use the web capture tool to grab elements from live websites
-* **Export options** - Export to Canva, PDF, PPTX, standalone HTML files, or share via internal URLs
+* **Inline commenting and direct editing** - Click directly on any element to request a targeted change via inline comments, or edit text on the canvas without prompting
+* **Web capture** - Grab elements from live production websites so prototypes look like the real product - unusual among AI design tools and great for matching existing UI
+* **Collaboration** - Organization-scoped sharing with view-only, comment, or edit access via shareable links
+* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, or point to a codebase
+* **Export options** - Export to Canva, PDF, PPTX, standalone HTML, .zip download, or share via internal URLs
 
 ### Claude Design to Claude Code handoff
 
-The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration - that you pass to Claude Code for implementation in your local repo.
+The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration. There are two handoff modes:
+
+* **Send to local coding agent** - Pass the bundle to Claude Code on your machine for implementation in your local repo
+* **Send to Claude Code Web** - Hand off to the cloud-based Claude Code for implementation without a local setup
 
 This eliminates the traditional "mockup to code" translation gap where details get lost between design and development.
 
