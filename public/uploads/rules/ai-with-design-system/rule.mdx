@@ -19,15 +19,13 @@ related:
   - rule: public/uploads/rules/ai-for-ux/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: a2a5886a-208b-4c38-b857-7fee9abf6994
-seoDescription: >-
-  Learn how to use AI design tools like Claude Design to generate on-brand
-  frontend UI - from interactive prototypes to production code handoff.
+seoDescription: Learn how to use AI design tools like Claude Design to generate on-brand frontend UI - from interactive prototypes to production code handoff.
 created: 2026-04-23T01:20:57.129Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-04-23T04:25:14.867Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-04-23T05:26:55.977Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
 ---
 
 AI tools can now generate full frontend UI from a natural language prompt. But without your design system, the output is generic - wrong colors, wrong fonts, wrong component patterns. Feed it your design system and every screen is on-brand from the start.
@@ -40,20 +38,20 @@ AI tools can now generate full frontend UI from a natural language prompt. But w
 
 [Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
 
-### How it ingests your design system
+### How AI ingests your design system
 
 During setup, Claude Design builds a custom UI kit for your organization by reading your existing assets:
 
-* **Codebases** - React component libraries, CSS variables, Tailwind configs
-* **Prototypes** - Screenshots, web flows, existing design files
+* **Codebases** - Component libraries, CSS tokens and variables, Tailwind configs
+* **Prototypes** - Existing Figma files, wireframes and screenshots
 * **Documents** - Presentations, PDFs reflecting brand identity
-* **Individual assets** - Logos, color palettes, typography specimens
+* **Individual assets** - Logos, color palettes, typography systems
 
-Once published, this design system is automatically applied to every project created within the organization - so every generated screen uses your actual brand, not generic defaults.
+Once published, your design system can be referenced in every project created within the organization - so every generated screen uses your actual brand, not generic defaults.
 
 <boxEmbed
   body={<>
-    **Tip:** Upload finished examples (real landing pages, production screenshots) rather than just specifications. They communicate brand feel more effectively than raw tokens alone.
+    **Tip:** Upload examples (real landing pages, production screenshots) rather than just specifications. They communicate brand feel more effectively than raw tokens alone.
   </>}
   figurePrefix="none"
   figure=""
@@ -64,8 +62,8 @@ Once published, this design system is automatically applied to every project cre
 
 * **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, and even 3D elements
 * **Live refinement controls** - Claude creates custom sliders and knobs on the fly for real-time adjustments to spacing, color, and layout
-* **Collaboration** - Organization-scoped sharing with private, view-only, or edit access, and group conversations with Claude on the same design
-* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, point to a codebase, or use the web capture tool to grab elements from live websites
+* **Collaboration** - Organization-scoped read and write access, and group conversations with Claude in the same session
+* **Flexible input** - Start from text prompts and screenshots, or upload documents, point to a codebase, or upload a Figma file
 * **Export options** - Export to Canva, PDF, PPTX, standalone HTML files, or share via internal URLs
 
 ### Claude Design to Claude Code handoff
@@ -97,6 +95,8 @@ Without that foundation, every AI-generated screen is a one-off that needs manua
   style="tips"
 />
 
+<imageEmbed alt="Image" size="small" showBorder={false} figurePrefix="none" figure="" />
+
 <boxEmbed
   body={<>
     A developer asks an AI tool to "build a dashboard page for our app." The AI generates a clean-looking page using default Material Design styles - but the app uses a custom design system with specific brand colors, component patterns, and spacing tokens. The developer now has to manually restyle everything.
@@ -119,7 +119,7 @@ Without that foundation, every AI-generated screen is a one-off that needs manua
 
 These tools aren't AI design tools themselves, but they play an important role in the workflow alongside tools like Claude Design.
 
-* **[Storybook](https://storybook.js.org/)** - A component development environment where your coded UI components live with documentation and visual examples. If your team has components in Storybook, you can feed them into Claude Design as part of your design system setup, ensuring AI-generated designs match your existing component library
+* **[Storybook](https://storybook.js.org/)** - A component development environment where your coded UI components live with documentation and visual examples. If your team has components in Storybook, you can feed them into Claude Design, or any AI agent, ensuring AI-generated designs match your existing component library
 * **[Builder.io](https://www.builder.io/)** - Offers Figma-to-code conversion and AI-assisted design, useful for teams working within the Figma ecosystem who want a bridge to production code
 * **[Figma MCP](https://github.com/nicholasgriffintn/figma-mcp-server)** - An MCP server that connects your AI coding agent directly to Figma, allowing it to read your design files, inspect components, and extract design tokens without manual copy-pasting
 * **AI coding agents (Claude Code, Codex, etc.)** - When paired with a design tool, AI coding agents handle the implementation side. Claude Code in particular has a direct handoff from Claude Design, but any agent can implement UI from design specs if given the right context
