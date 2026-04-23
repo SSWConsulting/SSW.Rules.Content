@@ -39,6 +39,12 @@ The best approach is to feed your design system directly into your AI design too
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=jeA-KBv0b68" description={"Video: Claude just got another superpower... (Fireship, 5 min)"} />
 
+## What is a design system?
+
+A design system is a shared collection of reusable components, design tokens (colors, spacing, typography), and guidelines that keep your product's UI consistent. It's the single source of truth that designers and developers work from so that every screen looks and feels like it belongs to the same product.
+
+For a deeper dive, see the rule: [Do you have a design system?](/rules/design-system)
+
 ## Why design systems matter more than ever
 
 Design systems are more important than ever now that AI is generating our UI. With a solid design system as the foundation, getting AI to build new screens or entirely new products based on it becomes easy - the AI already knows your brand, your components, and your patterns.
@@ -47,14 +53,11 @@ Think of it the same way as code architecture. A good solution architecture is m
 
 Without that foundation, every AI-generated screen is a one-off that needs manual rework to fit your product.
 
-## The problem - AI-generated UI without a design system
+## Why AI + design systems work so well
 
-When you use AI tools to generate UI without giving them your design system, you get output that looks like a template - not your product. This means:
+When you give an AI tool your design system, it can enforce consistency across every piece of UI it generates - automatically using the right colors, spacing, typography, and component patterns. This is something that's hard to do manually at scale, especially across multiple developers and projects.
 
-* Colors, typography, and spacing don't match your brand
-* Generated components are inconsistent with your existing UI
-* Developers spend time reworking AI output to match the design system manually
-* The gap between "AI prototype" and "production-ready UI" stays wide
+The result is that AI-generated UI goes from "looks like a generic template" to "looks like it belongs in our product" - dramatically reducing the rework needed to get from prototype to production.
 
 <boxEmbed
   body={<>
@@ -74,11 +77,15 @@ When you use AI tools to generate UI without giving them your design system, you
   style="greybox"
 />
 
-## Claude Design (Recommended)
+## AI tools for designing frontends
+
+Several AI tools can now generate frontend UI from natural language prompts. The key differentiator is how well they integrate with your existing design system - some require you to manually prompt with your tokens every time, while others can ingest your design system and apply it automatically.
+
+### Claude Design (Recommended)
 
 [Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
 
-### How it works with your design system
+#### How it works with your design system
 
 During setup, Claude Design builds a custom design system for your organization by reading your existing assets:
 
@@ -98,27 +105,34 @@ It then generates a UI kit containing your color palettes, typography rules, UI 
   style="tips"
 />
 
-### Claude Design to Claude Code handoff
+#### Key features
+
+* **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, and even 3D elements
+* **Live refinement controls** - Claude creates custom sliders and knobs on the fly for real-time adjustments to spacing, color, and layout
+* **Collaboration** - Organization-scoped sharing with private, view-only, or edit access, and group conversations with Claude on the same design
+* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, point to a codebase, or use the web capture tool to grab elements from live websites
+* **Export options** - Export to Canva, PDF, PPTX, standalone HTML files, or share via internal URLs
+
+#### Claude Design to Claude Code handoff
 
 The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration - that you pass to Claude Code for implementation in your local repo.
 
 This eliminates the traditional "mockup to code" translation gap where details get lost between design and development.
 
-## Other tools
+### v0
 
-While Claude Design is the recommended option for design system-aware AI generation, other tools exist for specific use cases:
+[v0.dev](https://v0.dev) by Vercel generates React + Tailwind components from natural language prompts. It's fast for generating individual components or pages, and the output is production-ready code you can drop straight into a Next.js project.
 
-* **[v0.dev](https://v0.dev)** - Generates React + Tailwind components from prompts. Useful for quick one-off components, but has no automatic design system integration - you need to manually prompt with your design tokens each time
-* **[Storybook](https://storybook.js.org/)** - Not an AI tool, but an important part of the design system workflow. If your team already has coded components in Storybook, you can feed these into Claude Design as part of your design system setup, ensuring AI-generated designs match your existing component library
-* **[Builder.io](https://www.builder.io/)** - Offers Figma-to-code and AI-assisted design, useful for teams already in the Figma ecosystem
+The main limitation is that v0 has no automatic design system integration. You need to manually include your design tokens, color palette, and component conventions in your prompt each time. This works for one-off components, but doesn't scale well when you need consistent output across an entire product.
 
-## Best practices
+## Tools that work alongside AI design
 
-* **Start with your design system, not from scratch** - Always upload your design tokens, component library, and brand assets before generating UI
-* **Iterate in the AI tool, implement in code** - Use Claude Design for rapid prototyping and iteration, then hand off to Claude Code for production implementation
-* **Keep your design system up to date** - When your design system evolves, update it in your AI tools so generated output stays current
-* **Validate against your component library** - Cross-check AI-generated components against your existing library to avoid creating duplicates or inconsistent variants
-* **Use guardrails** - AI-generated designs still need human review. Treat them as a strong starting point, not a finished product
+These tools aren't AI design tools themselves, but they play an important role in the design system workflow alongside tools like Claude Design.
+
+* **[Storybook](https://storybook.js.org/)** - A component development environment where your coded UI components live with documentation and visual examples. If your team has components in Storybook, you can feed them into Claude Design as part of your design system setup, ensuring AI-generated designs match your existing component library
+* **[Builder.io](https://www.builder.io/)** - Offers Figma-to-code conversion and AI-assisted design, useful for teams working within the Figma ecosystem who want a bridge to production code
+* **[Figma MCP](https://github.com/nicholasgriffintn/figma-mcp-server)** - An MCP server that connects your AI coding agent directly to Figma, allowing it to read your design files, inspect components, and extract design tokens without manual copy-pasting
+* **AI coding agents (Claude Code, Codex, etc.)** - When paired with a design tool, AI coding agents handle the implementation side. Claude Code in particular has a direct handoff from Claude Design, but any agent can implement UI from design specs if given the right context
 
 ***
 
