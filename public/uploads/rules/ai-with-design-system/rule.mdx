@@ -1,5 +1,5 @@
 ---
-title: Do you use AI with your design system?
+title: Do you use AI to design your frontends?
 uri: ai-with-design-system
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -19,7 +19,9 @@ related:
   - rule: public/uploads/rules/ai-for-ux/rule.mdx
   - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: a2a5886a-208b-4c38-b857-7fee9abf6994
-seoDescription: Learn how to use AI tools like Claude Design to generate UI that follows your design system - keeping your brand consistent while moving faster from prototype to production code.
+seoDescription: >-
+  Learn how to use AI design tools like Claude Design to generate on-brand
+  frontend UI - from interactive prototypes to production code handoff.
 created: 2026-04-23T01:20:57.129Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -28,17 +30,63 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Having a design system is great, but if your AI tools don't know about it, every generated UI will look generic - wrong colors, wrong fonts, wrong spacing. You end up manually fixing every component to match your brand, defeating the speed benefits of AI-assisted development.
-
-The best approach is to feed your design system directly into your AI design tool so that every generated UI is on-brand from the start.
+AI tools can now generate full frontend UI from a natural language prompt. But without your design system, the output is generic - wrong colors, wrong fonts, wrong component patterns. Feed it your design system and every screen is on-brand from the start.
 
 <endIntro />
 
 <youtubeEmbed url="https://www.youtube.com/watch?v=jeA-KBv0b68" description="Video: Claude just got another superpower... (Fireship, 5 min)" />
 
-## What is a design system?
+## Claude Design (Recommended)
 
-A design system is a shared collection of reusable components, design tokens (colors, spacing, typography), and guidelines that keep your product's UI consistent. It's the single source of truth that designers and developers work from so that every screen looks and feels like it belongs to the same product.
+[Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
+
+### How it ingests your design system
+
+During setup, Claude Design builds a custom UI kit for your organization by reading your existing assets:
+
+* **Codebases** - React component libraries, CSS variables, Tailwind configs
+* **Prototypes** - Screenshots, web flows, existing design files
+* **Documents** - Presentations, PDFs reflecting brand identity
+* **Individual assets** - Logos, color palettes, typography specimens
+
+Once published, this design system is automatically applied to every project created within the organization - so every generated screen uses your actual brand, not generic defaults.
+
+<boxEmbed
+  body={<>
+    **Tip:** Upload finished examples (real landing pages, production screenshots) rather than just specifications. They communicate brand feel more effectively than raw tokens alone.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Key features
+
+* **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, and even 3D elements
+* **Live refinement controls** - Claude creates custom sliders and knobs on the fly for real-time adjustments to spacing, color, and layout
+* **Collaboration** - Organization-scoped sharing with private, view-only, or edit access, and group conversations with Claude on the same design
+* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, point to a codebase, or use the web capture tool to grab elements from live websites
+* **Export options** - Export to Canva, PDF, PPTX, standalone HTML files, or share via internal URLs
+
+### Claude Design to Claude Code handoff
+
+The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration - that you pass to Claude Code for implementation in your local repo.
+
+This eliminates the traditional "mockup to code" translation gap where details get lost between design and development.
+
+## v0
+
+[v0.dev](https://v0.dev) by Vercel generates React + Tailwind components from natural language prompts. It's fast for generating individual components or pages, and the output is production-ready code you can drop straight into a Next.js project.
+
+The main limitation is that v0 has no automatic design system integration. You need to manually include your design tokens, color palette, and component conventions in your prompt each time. This works for one-off components, but doesn't scale well when you need consistent output across an entire product.
+
+## Why this works - the design system foundation
+
+Design systems are more important than ever now that AI is generating our UI. With a solid design system as the foundation, getting AI to build new screens or entirely new products based on it becomes easy - the AI already knows your brand, your components, and your patterns.
+
+Think of it the same way as code architecture. A good solution architecture is more important than ever now that AI generates code - with the right foundation in place, building new features is straightforward. Design systems are the same principle applied to UI.
+
+Without that foundation, every AI-generated screen is a one-off that needs manual rework to fit your product.
 
 <boxEmbed
   body={<>
@@ -48,20 +96,6 @@ A design system is a shared collection of reusable components, design tokens (co
   figure=""
   style="tips"
 />
-
-## Why design systems matter more than ever
-
-Design systems are more important than ever now that AI is generating our UI. With a solid design system as the foundation, getting AI to build new screens or entirely new products based on it becomes easy - the AI already knows your brand, your components, and your patterns.
-
-Think of it the same way as code architecture. A good solution architecture is more important than ever now that AI generates code - with the right foundation in place, building new features is straightforward. Design systems are the same principle applied to UI.
-
-Without that foundation, every AI-generated screen is a one-off that needs manual rework to fit your product.
-
-## Why AI + design systems work so well
-
-When you give an AI tool your design system, it can enforce consistency across every piece of UI it generates - automatically using the right colors, spacing, typography, and component patterns. This is something that's hard to do manually at scale, especially across multiple developers and projects.
-
-The result is that AI-generated UI goes from "looks like a generic template" to "looks like it belongs in our product" - dramatically reducing the rework needed to get from prototype to production.
 
 <boxEmbed
   body={<>
@@ -81,57 +115,9 @@ The result is that AI-generated UI goes from "looks like a generic template" to 
   style="greybox"
 />
 
-## AI tools for designing frontends
-
-Several AI tools can now generate frontend UI from natural language prompts. The key differentiator is how well they integrate with your existing design system - some require you to manually prompt with your tokens every time, while others can ingest your design system and apply it automatically.
-
-### Claude Design (Recommended)
-
-[Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
-
-#### How it works with your design system
-
-During setup, Claude Design builds a custom design system for your organization by reading your existing assets:
-
-* **Codebases** - React component libraries, CSS variables, Tailwind configs
-* **Prototypes** - Screenshots, web flows, existing design files
-* **Documents** - Presentations, PDFs reflecting brand identity
-* **Individual assets** - Logos, color palettes, typography specimens
-
-It then generates a UI kit containing your color palettes, typography rules, UI components (buttons, cards, nav elements), and layout patterns. Once published, this design system is automatically applied to every project created within the organization.
-
-<boxEmbed
-  body={<>
-    **Tip:** Upload finished examples (real landing pages, production screenshots) rather than just specifications. They communicate brand feel more effectively than raw tokens alone.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="tips"
-/>
-
-#### Key features
-
-* **Interactive prototypes** - Generates working, interactive UI rather than static mockups - supports voice, video, and even 3D elements
-* **Live refinement controls** - Claude creates custom sliders and knobs on the fly for real-time adjustments to spacing, color, and layout
-* **Collaboration** - Organization-scoped sharing with private, view-only, or edit access, and group conversations with Claude on the same design
-* **Flexible input** - Start from text prompts, upload DOCX/PPTX/XLSX files, point to a codebase, or use the web capture tool to grab elements from live websites
-* **Export options** - Export to Canva, PDF, PPTX, standalone HTML files, or share via internal URLs
-
-#### Claude Design to Claude Code handoff
-
-The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration - that you pass to Claude Code for implementation in your local repo.
-
-This eliminates the traditional "mockup to code" translation gap where details get lost between design and development.
-
-### v0
-
-[v0.dev](https://v0.dev) by Vercel generates React + Tailwind components from natural language prompts. It's fast for generating individual components or pages, and the output is production-ready code you can drop straight into a Next.js project.
-
-The main limitation is that v0 has no automatic design system integration. You need to manually include your design tokens, color palette, and component conventions in your prompt each time. This works for one-off components, but doesn't scale well when you need consistent output across an entire product.
-
 ## Tools that work alongside AI design
 
-These tools aren't AI design tools themselves, but they play an important role in the design system workflow alongside tools like Claude Design.
+These tools aren't AI design tools themselves, but they play an important role in the workflow alongside tools like Claude Design.
 
 * **[Storybook](https://storybook.js.org/)** - A component development environment where your coded UI components live with documentation and visual examples. If your team has components in Storybook, you can feed them into Claude Design as part of your design system setup, ensuring AI-generated designs match your existing component library
 * **[Builder.io](https://www.builder.io/)** - Offers Figma-to-code conversion and AI-assisted design, useful for teams working within the Figma ecosystem who want a bridge to production code
