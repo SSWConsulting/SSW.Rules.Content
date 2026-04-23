@@ -13,7 +13,16 @@ authors:
     url: 'https://www.ssw.com.au/people/brady-stroud'
   - title: Gordon Beeming
     url: 'https://www.ssw.com.au/people/gordon-beeming'
+related:
+  - rule: public/uploads/rules/design-system/rule.mdx
+  - rule: public/uploads/rules/generate-ui-mockups-with-ai/rule.mdx
+  - rule: public/uploads/rules/ai-for-ux/rule.mdx
+  - rule: public/uploads/rules/guardrails-for-vibe-coding/rule.mdx
 guid: a2a5886a-208b-4c38-b857-7fee9abf6994
+seoDescription: >-
+  Learn how to use AI tools like Claude Design to generate UI that follows your
+  design system - keeping your brand consistent while moving faster from
+  prototype to production code.
 created: 2026-04-23T01:20:57.129Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -22,8 +31,90 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+Having a design system is great, but if your AI tools don't know about it, every generated UI will look generic - wrong colors, wrong fonts, wrong spacing. You end up manually fixing every component to match your brand, defeating the speed benefits of AI-assisted development.
+
+The best approach is to feed your design system directly into your AI design tool so that every generated UI is on-brand from the start.
 
 <endIntro />
 
-Body
+<youtubeEmbed url="https://www.youtube.com/watch?v=jeA-KBv0b68" description={"Video: Claude just got another superpower... (Fireship, 5 min)"} />
+
+## The problem - AI-generated UI without a design system
+
+When you use AI tools to generate UI without giving them your design system, you get output that looks like a template - not your product. This means:
+
+* Colors, typography, and spacing don't match your brand
+* Generated components are inconsistent with your existing UI
+* Developers spend time reworking AI output to match the design system manually
+* The gap between "AI prototype" and "production-ready UI" stays wide
+
+<boxEmbed
+  body={<>
+    A developer asks an AI tool to "build a dashboard page for our app." The AI generates a clean-looking page using default Material Design styles - but the app uses a custom design system with specific brand colors, component patterns, and spacing tokens. The developer now has to manually restyle everything.
+  </>}
+  figurePrefix="bad"
+  figure="AI-generated UI without a design system creates rework"
+  style="greybox"
+/>
+
+<boxEmbed
+  body={<>
+    A developer uploads their design system (component library, brand assets, and Tailwind config) into Claude Design. When they ask for a dashboard page, it generates one using their actual brand colors, typography, and component patterns - ready for handoff to code.
+  </>}
+  figurePrefix="good"
+  figure="AI-generated UI with a design system is on-brand from the start"
+  style="greybox"
+/>
+
+## Claude Design (Recommended)
+
+[Claude Design](https://claude.ai/design) is a collaborative design tool from Anthropic that generates interactive prototypes - not static images - from natural language prompts. What sets it apart is its ability to ingest your design system and apply it automatically to everything it generates.
+
+### How it works with your design system
+
+During setup, Claude Design builds a custom design system for your organization by reading your existing assets:
+
+* **Codebases** - React component libraries, CSS variables, Tailwind configs
+* **Prototypes** - Screenshots, web flows, existing design files
+* **Documents** - Presentations, PDFs reflecting brand identity
+* **Individual assets** - Logos, color palettes, typography specimens
+
+It then generates a UI kit containing your color palettes, typography rules, UI components (buttons, cards, nav elements), and layout patterns. Once published, this design system is automatically applied to every project created within the organization.
+
+<boxEmbed
+  body={<>
+    **Tip:** Upload finished examples (real landing pages, production screenshots) rather than just specifications. They communicate brand feel more effectively than raw tokens alone.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="tips"
+/>
+
+### Claude Design to Claude Code handoff
+
+The standout feature is the direct handoff to Claude Code. When a design is ready, Claude packages everything into a handoff bundle - design specs, component structures, and Tailwind configuration - that you pass to Claude Code for implementation in your local repo.
+
+This eliminates the traditional "mockup to code" translation gap where details get lost between design and development.
+
+## Other tools
+
+While Claude Design is the recommended option for design system-aware AI generation, other tools exist for specific use cases:
+
+* **[v0.dev](https://v0.dev)** - Generates React + Tailwind components from prompts. Useful for quick one-off components, but has no automatic design system integration - you need to manually prompt with your design tokens each time
+* **[Storybook](https://storybook.js.org/)** - Not an AI tool, but an important part of the design system workflow. If your team already has coded components in Storybook, you can feed these into Claude Design as part of your design system setup, ensuring AI-generated designs match your existing component library
+* **[Builder.io](https://www.builder.io/)** - Offers Figma-to-code and AI-assisted design, useful for teams already in the Figma ecosystem
+
+## Best practices
+
+* **Start with your design system, not from scratch** - Always upload your design tokens, component library, and brand assets before generating UI
+* **Iterate in the AI tool, implement in code** - Use Claude Design for rapid prototyping and iteration, then hand off to Claude Code for production implementation
+* **Keep your design system up to date** - When your design system evolves, update it in your AI tools so generated output stays current
+* **Validate against your component library** - Cross-check AI-generated components against your existing library to avoid creating duplicates or inconsistent variants
+* **Use guardrails** - AI-generated designs still need human review. Treat them as a strong starting point, not a finished product
+
+***
+
+### Learn more
+
+* [Get started with Claude Design](https://support.claude.com/en/articles/14604416-get-started-with-claude-design) - Official setup guide
+* [Set up your design system in Claude Design](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design) - How to configure your brand and tokens
