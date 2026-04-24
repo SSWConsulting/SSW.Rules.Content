@@ -8,9 +8,9 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 68d543a0-b55d-4d09-a3e0-107664a9e3cc
 isArchived: false
-lastUpdated: 2015-08-24 01:08:15+00:00
-lastUpdatedBy: William Yin
-lastUpdatedByEmail: WilliamYin@ssw.com.au
+lastUpdated: 2026-04-24 02:31:39+00:00
+lastUpdatedBy: ContentHawk
+lastUpdatedByEmail: 
 redirects:
 - do-you-know-not-to-use-the-＂eval＂-function
 seoDescription: Avoid using inefficient "eval" functions in JavaScript, instead refer
@@ -22,18 +22,57 @@ type: rule
 uri: do-you-know-not-to-use-the-eval-function
 ---
 
-The Javascript command "eval" evaluates the content of a text string and then runs it as Javascript code. It's common to see it around, however "eval" is one of the most inefficient constructs that JavaScript has. There are always more efficient ways to code and get a direct reference.
+The Javascript command `eval` evaluates the content of a text string and then runs it as JavaScript code. It's common to see it around, however `eval` is one of the most inefficient and dangerous constructs that JavaScript has. There are always more efficient and safer ways to code and get a direct reference.
 
 <endIntro />
 
-Most of people that use "eval" want part of a variable name to be variable.
+Most of people that use `eval` want part of a variable name to be variable.
 
-Once you realize that all global variables are held in the window array it becomes rather obvious that you can refer to that same field name without needing to use "eval" by referring to it.
+Once you realize that all global variables are held in the `window` object it becomes rather obvious that you can refer to that same field name without needing to use `eval` by referring to it.
 
+```javascript
+// Bad example - creates the variable name by concatenating constant and variable parts
 eval('somevar' + num)
+```
 
-Figure: Bad example - The developer creates the variable name by concatenating the constant and variable parts together
-
+```javascript
+// Good example - referencing the same field is simpler and more efficient
 window['somevar' + num]
+```
 
-Figure: Good example - Referencing the same field is as simple to code and more efficient than using "eval"
+## Security risks
+
+Beyond performance, `eval` is a significant **security vulnerability**. It can execute arbitrary code, making your application susceptible to **Cross-Site Scripting (XSS)** attacks if any part of the evaluated string can be influenced by user input or external data.
+
+```javascript
+// Dangerous - if userInput comes from an untrusted source, this is an XSS vector
+eval('processOrder("' + userInput + '")')
+```
+
+For a deeper understanding of the risks, see the [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html).
+
+## Content Security Policy (CSP)
+
+**Content Security Policy** is a browser security mechanism that can restrict what scripts can run on your page. A strict CSP will include `'unsafe-eval'` in its blocked list, which prevents `eval`, `new Function()`, `setTimeout` with string arguments, and similar constructs from executing.
+
+If your codebase relies on `eval`, it will break under a strict CSP — an additional reason to eliminate it.
+
+## Safe alternatives
+
+Instead of `eval`, prefer:
+
+- **`window[key]`** — for dynamic property access on global objects
+- **`JSON.parse()`** — for safely parsing JSON strings (never `eval` JSON)
+- **`new Function()`** — slightly less dangerous than `eval` (runs in global scope, not local), but still avoid unless absolutely necessary
+- **Lookup tables / Maps** — map string keys to functions or values explicitly
+
+```javascript
+// Instead of eval for dynamic dispatch, use a lookup table
+const actions = {
+  save: () => saveDocument(),
+  print: () => printDocument(),
+  export: () => exportDocument(),
+};
+
+actions[userAction]?.();
+```

@@ -8,9 +8,9 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: 441da8f7-be6f-43f9-b83a-d4f59f9bc57e
 isArchived: false
-lastUpdated: 2015-08-24 01:08:15+00:00
-lastUpdatedBy: William Yin
-lastUpdatedByEmail: WilliamYin@ssw.com.au
+lastUpdated: 2026-04-24 02:31:39+00:00
+lastUpdatedBy: ContentHawk
+lastUpdatedByEmail: 
 redirects: []
 seoDescription: Do you comment your JavaScript code? Learn how to write clear and
   concise comments that describe your code's functionality.
@@ -21,23 +21,60 @@ type: rule
 uri: do-you-comment-your-javascript-code
 ---
 
-Comments are used to add extra information pertaining to your code. They not only make you understand your code when you look at it after a period of time, but it also help other people who might be working with you on the same project.
+Comments are used to add extra information pertaining to your code. They not only make you understand your code when you look at it after a period of time, but also help other people who might be working with you on the same project.
 
 <endIntro />
 
 The goal is to write clear, concise and meaningful comments. They should describe your code in a way you or others understand what that particular piece of code does.
 
-In other words, let your code speak for itself.
+In modern JavaScript/TypeScript projects, **prefer self-documenting code** — well-named variables, functions, and types reduce the need for inline comments. Comments should explain *why* something is done, not *what* the code does when it is already obvious.
 
-## How to comment in JavaScript?
+## How to comment in JavaScript
 
-- **Single-line comments** - begin with a double forward slash (//)
-- **Multiline comments** - start with slash-asterisk (/\*) and end with asterisk-slash (\*/) pair.
+- **Single-line comments** — begin with a double forward slash (`//`)
+- **Multiline comments** — start with `/*` and end with `*/`
 
 Generally use line comments. Use multiline comments for formal documentation and for commenting out.
 
-Comments are ignored (not processed as coding) by the browser, however it makes you code heavier, so always try to keep your comments short by writing only what's needed to convey the idea.
+Comments are ignored by the JavaScript engine, but they make your bundle heavier — keep them short and meaningful.
 
-document.write ("Example!"); // prints a message
+```javascript
+// Bad example - comment that just repeats the code
+let x = x + 1; // increment x by 1
 
-Figure: Although this example sounds unnecessary for a developer, it shows clearly how comment should be kept simple and informative
+// Good example - comment that explains the why
+let x = x + 1; // compensate for off-by-one in the legacy API response
+```
+
+## JSDoc for public APIs
+
+For functions, classes, and modules that others will consume, use **JSDoc** to document parameters, return types, and behaviour. This enables editor autocompletion (IntelliSense) and powers documentation generators.
+
+```javascript
+/**
+ * Calculates the total price including tax.
+ * @param {number} basePrice - The pre-tax price in dollars.
+ * @param {number} taxRate - The tax rate as a decimal (e.g. 0.1 for 10%).
+ * @returns {number} The total price after tax.
+ */
+function calculateTotal(basePrice, taxRate) {
+  return basePrice * (1 + taxRate);
+}
+```
+
+## TypeScript types reduce the need for comments
+
+If your project uses TypeScript, strong typing makes many JSDoc annotations redundant. The compiler enforces contracts directly:
+
+```typescript
+// Good example (TypeScript) - types replace most JSDoc
+function calculateTotal(basePrice: number, taxRate: number): number {
+  return basePrice * (1 + taxRate);
+}
+```
+
+## Tooling recommendations
+
+- **[ESLint](https://eslint.org/)** — use rules like [`valid-jsdoc`](https://eslint.org/docs/rules/valid-jsdoc) or plugins like `eslint-plugin-jsdoc` to enforce consistent documentation
+- **[TypeDoc](https://typedoc.org/)** — generates API documentation from TypeScript types and JSDoc comments
+- **[JSDoc](https://jsdoc.app/)** — generates HTML documentation from annotated JavaScript source files

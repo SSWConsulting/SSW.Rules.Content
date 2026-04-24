@@ -8,9 +8,9 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: ff37d2f9-2e58-4dc6-aed8-e0ea65bfe544
 isArchived: false
-lastUpdated: 2015-08-24 01:08:16+00:00
-lastUpdatedBy: William Yin
-lastUpdatedByEmail: WilliamYin@ssw.com.au
+lastUpdated: 2026-04-24 02:31:39+00:00
+lastUpdatedBy: ContentHawk
+lastUpdatedByEmail: 
 redirects: []
 seoDescription: Master JavaScript file formatting by consistently using semicolons
   to avoid syntax errors and maintain code consistency.
@@ -25,4 +25,62 @@ For most of the cases, it quite rare to have problems when omitting semicolons, 
 
 <endIntro />
 
-To save yourself time and troubles, it's highly recommended that you just place them all the time. More than avoiding you to have some headaches, your code will also look a lot more consistent.
+To save yourself time and troubles, it's highly recommended that you place semicolons consistently throughout your project. More than avoiding headaches, your code will also look a lot more consistent.
+
+## Automatic Semicolon Insertion (ASI) pitfalls
+
+JavaScript's ASI rules can silently change the meaning of code in subtle ways. A classic example:
+
+```javascript
+// Looks like it returns an object — but ASI inserts a semicolon after `return`
+function getConfig() {
+  return
+  {
+    debug: true
+  }
+}
+// Returns `undefined`, not the object!
+```
+
+```javascript
+// Fix: opening brace on the same line as return
+function getConfig() {
+  return {
+    debug: true
+  }
+}
+```
+
+Another pitfall: lines starting with `(` or `[` can be interpreted as continuations of the previous expression:
+
+```javascript
+const a = 1
+const b = 2
+;[a, b].forEach(console.log) // The leading semicolon is a defensive technique
+```
+
+## Use tooling to enforce consistency
+
+Rather than relying on personal discipline, configure your project to enforce a consistent style automatically:
+
+- **[ESLint](https://eslint.org/)** — use the [`semi`](https://eslint.org/docs/rules/semi) rule to require or disallow semicolons project-wide
+- **[Prettier](https://prettier.io/)** — auto-formats code consistently; configure `semi: true` or `semi: false` in `.prettierrc`
+- Both tools integrate with most editors (VS Code, WebStorm) and CI pipelines
+
+The key principle is **consistency within a project**. Pick a style (semicolons always, or rely on ASI with known caveats) and enforce it with tooling — not through manual convention.
+
+```json
+// .prettierrc — enforce semicolons
+{
+  "semi": true
+}
+```
+
+```json
+// .eslintrc.json — require semicolons
+{
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
+```

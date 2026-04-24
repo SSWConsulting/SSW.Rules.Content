@@ -8,9 +8,9 @@ createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
 guid: f93855fc-baa6-4e3a-9e97-3c466d614e98
 isArchived: false
-lastUpdated: 2015-08-24 01:08:16+00:00
-lastUpdatedBy: William Yin
-lastUpdatedByEmail: WilliamYin@ssw.com.au
+lastUpdated: 2026-04-24 02:31:39+00:00
+lastUpdatedBy: ContentHawk
+lastUpdatedByEmail: 
 redirects: []
 seoDescription: Don't rely on JavaScript for crucial actions, ensuring your website
   remains accessible and usable without it, as an estimated 2% of users may have JavaScript
@@ -28,16 +28,47 @@ JavaScript should be used to enhance the overall user experience and not as a de
 
 <endIntro />
 
-JavaScript is very useful for improving user-interaction, along with reducing the number of requests made on the server; but it can be disabled - an estimated 2% of web users do not have JavaScript enabled
+JavaScript is very useful for improving user-interaction, along with reducing the number of requests made on the server; but it can be disabled — and even when enabled, it may fail to load or execute due to network errors, browser extensions, or corporate firewalls.
 
 Depending on your audience you may choose to disregard this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as **validation** or **business-logic** purposes. Do a server-side validation instead.
 
+## Progressive enhancement
+
+The modern approach is **progressive enhancement**: build a functional, accessible baseline experience in HTML/CSS, then layer JavaScript on top to improve the experience. This means:
+
+- Forms should submit and validate server-side without requiring JavaScript
+- Navigation links should work as plain `<a>` tags before JS hydrates them into client-side routing
+- Critical content should be rendered in the initial HTML response (e.g. via SSR or SSG), not injected purely by JavaScript
+
+## Modern architecture considerations
+
+Modern frameworks like Next.js, Remix, Nuxt, and Astro support **Server-Side Rendering (SSR)** and **Static Site Generation (SSG)**, which render HTML on the server and send it to the client before JavaScript loads. This provides:
+
+- Faster First Contentful Paint (FCP)
+- Better SEO — search engines can index server-rendered content reliably
+- Resilience — core content remains visible even if JavaScript fails to load
+
+In **Single Page Applications (SPAs)**, plan for the "flash before hydration" window where HTML exists but interactivity isn't yet attached. Avoid placing critical functionality in event handlers that haven't been registered yet.
+
+## Accessibility (ARIA and focus management)
+
+Accessibility depends on stable, predictable HTML structure. When using JavaScript for UI components (modals, accordions, tabs), ensure:
+
+- Use appropriate ARIA roles, states, and properties (e.g. `aria-expanded`, `aria-controls`, `role="dialog"`)
+- Manage focus correctly — when a modal opens, move focus into it; when it closes, return focus to the trigger
+- Don't rely solely on mouse/touch events; ensure keyboard navigation works
+
+## Testing for no-JS scenarios
+
+- Use browser DevTools to disable JavaScript and verify core content and forms still work
+- Automated tests should cover server-side form submission paths
+- Tools like [Pa11y](https://pa11y.org/) or [axe](https://www.deque.com/axe/) can help verify accessibility in various states
 
 <boxEmbed
   style="greybox"
   body={<>
-    
-**Note:** This rule can be applied to any other third-party technology, such as Flash or Java. If it's not built into every web browser/device or if it can be disabled, then make sure the page is still accessible and usable without it.
+
+**Note:** This rule can be applied to any other third-party technology. If it's not built into every web browser/device or if it can be disabled, then make sure the page is still accessible and usable without it.
 
   </>}
   figurePrefix="none"
