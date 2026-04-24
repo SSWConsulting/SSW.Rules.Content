@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
+      pull-requests: read
 
     steps:
       # Step 1: Check out the source code of the pull request.
@@ -55,29 +55,33 @@ jobs:
             git push
           fi
 
-      # Step 6: Comment on fork PR when auto-fix cannot be pushed
-      - name: Comment on fork PR if category sync is needed
+      # Step 6: For fork PRs, save PR number + affected files as an artifact so the
+      # companion workflow_run workflow can post a comment with a write token safely.
+      - name: Upload category sync artifact for fork PR
         if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
-        uses: actions/github-script@v7
+        run: |
+          diff=$(git diff --name-only categories/)
+          if [ -z "$diff" ]; then
+            echo "No category sync changes needed."
+            exit 0
+          fi
+          mkdir -p /tmp/category-sync-artifact
+          echo "${{ github.event.pull_request.number }}" > /tmp/category-sync-artifact/pr-number.txt
+          echo "$diff" > /tmp/category-sync-artifact/files.txt
+
+      - name: Upload artifact
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        uses: actions/upload-artifact@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { execSync } = require('child_process');
+          name: category-sync-needed
+          path: /tmp/category-sync-artifact/
+          retention-days: 1
+          if-no-files-found: ignore
 
-            const diff = execSync('git diff --name-only categories/').toString().trim();
-            if (!diff) {
-              console.log('No category sync changes needed.');
-              return;
-            }
-
-            const files = diff.split('\n').filter(Boolean);
-            const fileList = files.map(f => `- \`${f}\``).join('\n');
-
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: `### ⚠️ Category Index Sync Required\n\nThis PR adds a rule with a \`categories\` field, but the corresponding category file \`index\` list was not updated.\n\nBecause this PR is from a fork, the bot cannot push the fix automatically. Please update the following file(s) by adding the new rule to the \`index\` list in the frontmatter:\n\n${fileList}`
-            });
-
-            core.setFailed('Category index sync required — see PR comment for which files to update.');
+      - name: Fail if category sync needed on fork PR
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        run: |
+          if [ -f /tmp/category-sync-artifact/files.txt ]; then
+            echo "Category sync required. See the PR comment posted by the companion workflow."
+            exit 1
+          fi
