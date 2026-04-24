@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: read
+      pull-requests: write
 
     steps:
       # Step 1: Check out the source code of the pull request.
@@ -54,3 +54,30 @@ jobs:
             git commit -m "XS ◾ Auto-update category index list to include new rule"
             git push
           fi
+
+      # Step 6: Comment on fork PR when auto-fix cannot be pushed
+      - name: Comment on fork PR if category sync is needed
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { execSync } = require('child_process');
+
+            const diff = execSync('git diff --name-only categories/').toString().trim();
+            if (!diff) {
+              console.log('No category sync changes needed.');
+              return;
+            }
+
+            const files = diff.split('\n').filter(Boolean);
+            const fileList = files.map(f => `- \`${f}\``).join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `### ⚠️ Category Index Sync Required\n\nThis PR adds a rule with a \`categories\` field, but the corresponding category file \`index\` list was not updated.\n\nBecause this PR is from a fork, the bot cannot push the fix automatically. Please update the following file(s) by adding the new rule to the \`index\` list in the frontmatter:\n\n${fileList}`
+            });
+
+            core.setFailed('Category index sync required — see PR comment for which files to update.');
