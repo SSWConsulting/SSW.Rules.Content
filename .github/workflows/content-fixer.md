@@ -12,13 +12,46 @@ description: >
 name: Content Fixer (Agent 3a)
 
 on:
+
   schedule:
     - cron: "0 0 * * */7"
+  skip-if-no-match: 'is:issue is:open in:body "gh-aw-workflow-id: content-judge"'
   workflow_dispatch:
+  steps:
+    - name: Find first snapshot
+      id: snapshot_check
+      uses: actions/github-script@v7
+      with:
+        github-token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+        script: |
+          let files = [];
+          try {
+            const { data } = await github.rest.repos.getContent({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: '.github/ContentHawk/TODO',
+            });
+            files = data;
+          } catch (e) {
+            core.setOutput('snapshot_exists', 'false');
+            return;
+          }
+          if (files.length === 0) {
+            core.setOutput('snapshot_exists', 'false');
+            return;
+          }
+          core.setOutput('snapshot_exists', 'true');
+
+jobs:
+  pre-activation:
+    outputs:
+      snapshot_exists: ${{ steps.snapshot_check.outputs.snapshot_exists }}
+
+if: needs.pre_activation.outputs.snapshot_exists == 'true'
 
 engine:
   id: copilot
-  model: gpt-5-mini
+  model: claude-sonnet-4.6
 
 mcp-servers:
   tavily:
@@ -100,14 +133,6 @@ The snapshot file is **self-contained** — it stores every configuration value 
 This workflow runs on a **cron schedule** (every 6 hours) and can also be triggered manually via `workflow_dispatch`. It does **not** accept any inputs — instead, it discovers the next snapshot to process from the TODO folder automatically.
 
 ---
-
-### Step 0 — Guard: find the first available snapshot
-
-Use the MCP script `list-snapshots` to list all snapshot files in `.github/ContentHawk/TODO/`.
-
-If the result is **empty** (no snapshot files found), **stop immediately** with a message:
-
-> No snapshot files found in `.github/ContentHawk/TODO/`. Nothing to process. Exiting.
 
 Do **not** create any PRs. End the workflow here.
 

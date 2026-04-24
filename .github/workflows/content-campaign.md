@@ -62,9 +62,7 @@ safe-outputs:
     allowed-files:
       - .github/ContentHawk/TODO/*.md
     title-prefix: "[Content Catalog] "
-    max: 1
-  add-labels:
-    target: "*"
+    labels: ["${{ inputs.label_name }}"]
     max: 1
 
 steps:
@@ -89,12 +87,26 @@ steps:
             core.setFailed(`Failed to check label: ${error.message}`);
           }
         }
+  - name: Create intent label
+    uses: actions/github-script@v7
+    env:
+      LABEL_NAME: ${{ inputs.label_name }}
+      LABEL_DESCRIPTION: ${{ inputs.intent }}
+    with:
+      github-token: ${{ secrets.CONTENTHAWK_GITHUB_PAT }}
+      script: |
+        const name = process.env.LABEL_NAME;
+        await github.rest.issues.createLabel({
+          owner: context.repo.owner,
+          repo: context.repo.repo,
+          name,
+          color: 'D93F0B',
+        });
+        core.info(`Created label '${name}'`);
 tools:
   github:
     toolsets: [default]
     github-token: "${{ secrets.CONTENTHAWK_GITHUB_PAT }}"
-  tavily:
-    tools: [search, search_news]
 
 post-steps:
   - name: Workflow Summary
@@ -157,15 +169,7 @@ All six prompts are captured and must be written into the snapshot file:
 ---
 
 
-### Step 1 — Create the intent label
-
-Create a GitHub label named exactly `${{ inputs.label_name }}` with a distinguishing color and the intent as its description. Use the `--force` flag so re-runs update rather than fail:
-
-```bash
-gh label create "${{ inputs.label_name }}" --color "D93F0B" --description "${{ inputs.intent }}" --force
-```
-
-### Step 2 — Discover, filter, and sort content files
+### Step 1 — Discover, filter, and sort content files
 
 The user's search scope is:
 
@@ -175,15 +179,15 @@ ${{ inputs.search_scope }}
 
 Follow this procedure exactly:
 
-#### 2a. List candidate files
+#### 1a. List candidate files
 
 Parse the search scope to identify the **directory/file-type scope** (which directories and extensions to scan). List every file that matches.
 
-#### 2b. Read and filter each candidate — MANDATORY
+#### 1b. Read and filter each candidate — MANDATORY
 
 The search scope may also contain **content-level criteria** (conditions about a file's contents, front-matter values, or metadata — e.g. "files that contain lorem ipsum", "non-archived files", "files tagged with X").
 
-For **every** candidate file from 2a you **must**:
+For **every** candidate file from 1a you **must**:
 
 1. Read the file's full content.
 2. Evaluate it against **every** content-level criterion in the search scope.
@@ -208,7 +212,7 @@ Search results should inform your decision about whether the file is relevant to
 
 Build a `passed_files` list containing only files that satisfy **all** criteria. Files that fail go into an internal `excluded_files` list (you do not need to write this list anywhere, but you must track it to ensure they are not in the snapshot).
 
-#### 2c. Extract metadata from passed files
+#### 1c. Extract metadata from passed files
 
 For each file in `passed_files`:
 
@@ -216,7 +220,7 @@ For each file in `passed_files`:
 2. **Created** — a date field representing original creation/publication (e.g. `date`, `created`, `publishedAt`). Format `YYYY-MM-DD`. If absent, use `-`.
 3. **LastUpdated** — a date field representing last modification (e.g. `lastUpdated`, `updatedAt`, `modified`, `lastChecked`). If absent, use `-`.
 
-#### 2d. Sort
+#### 1d. Sort
 
 Sort `passed_files` according to the user's processing priority:
 
@@ -228,7 +232,7 @@ Interpret this as a sort specification. For example, "first sort by created then
 
 **The snapshot table must contain ONLY the files in `passed_files` after this step. No other files.**
 
-### Step 3 — Write the snapshot tracking file
+### Step 2 — Write the snapshot tracking file
 
 Determine today's date in `YYYY-MM-DD` format. Create the file:
 
@@ -264,12 +268,12 @@ The file must follow this **exact** structure:
 
 Rules for the table:
 
-- One row per non-skipped file from Step 2.
+- One row per non-skipped file from Step 1.
 - Rows are in the sort order determined by the processing priority (NOT alphabetical unless that is what the user requested).
 - `CheckedDate` is always `-` (Agent 2 fills this in later).
 - `CheckResult` is always `pending` (Agent 2 updates this later).
 
-### Step 4 — Open the pull request
+### Step 3 — Open the pull request
 
 Create a pull request with the title `[Content Catalog] {description}` where {description} is a very brief description of the intent from a branch named `ContentHawk/TODO/${{ inputs.label_name }}` into `main`.
 
@@ -308,4 +312,4 @@ The full file list with metadata is in `.github/ContentHawk/TODO/<todays-date>_S
 - **Agent 3** will read issues labelled `${{ inputs.label_name }}` and raise PRs to resolve them.
 ```
 
-After the PR is created, **add the label** `${{ inputs.label_name }}` to the PR. This is the user's custom intent label (created in Step 1) and is separate from the `catalog-tracking` label that is applied automatically. Use the add-labels tool to apply it to the PR.
+The `${{ inputs.label_name }}` label is applied to the PR automatically at creation time (configured in `safe-outputs.create-pull-request.labels`). You do not need to apply it separately.
