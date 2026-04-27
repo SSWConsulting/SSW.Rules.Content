@@ -1,0 +1,102 @@
+---
+type: rule
+title: Do you cache dependencies in GitHub Actions to speed up your builds?
+uri: cache-dependencies-in-github-actions
+authors:
+  - title: Hajir Lesani
+    url: 'https://www.ssw.com.au/people/hajir-lesani/'
+related: []
+redirects: []
+created: 2026-04-27T00:00:00.000Z
+archivedreason: null
+guid: bb6d023e-10a4-4b70-8a85-f9373c30f924
+seoDescription: Speed up GitHub Actions workflows by caching dependencies like npm packages, NuGet, and pip to avoid redundant downloads on every run.
+categories:
+  - category: categories/project-delivery/rules-to-better-devops-using-github.mdx
+---
+
+Every time a GitHub Actions workflow runs without caching, it downloads all dependencies from scratch. For projects with many packages, this can add minutes to every build - multiplied across dozens of pull requests each day, this creates real cost and developer wait time.
+
+Caching dependencies between runs means the packages are only downloaded when the lock file changes, which dramatically reduces workflow duration and egress costs.
+
+<endIntro />
+
+## Use built-in caching in setup actions
+
+The simplest approach is to use the `cache` input built into the official language setup actions. This is the recommended method because GitHub manages the cache key automatically using the relevant lock file.
+
+**Node.js (npm or pnpm):**
+
+```yaml
+- uses: actions/setup-node@v4
+  with:
+    node-version: '22'
+    cache: 'npm'
+```
+
+Use `cache: 'pnpm'` for pnpm projects, or `cache: 'yarn'` for Yarn. The action automatically hashes the lock file and invalidates the cache when dependencies change.
+
+**Python (pip):**
+
+```yaml
+- uses: actions/setup-python@v5
+  with:
+    python-version: '3.12'
+    cache: 'pip'
+```
+
+**Go:**
+
+```yaml
+- uses: actions/setup-go@v5
+  with:
+    go-version: '1.22'
+    cache: true
+```
+
+## Use actions/cache for .NET NuGet packages
+
+The `actions/setup-dotnet` action does not include built-in caching, so use `actions/cache` directly with a key based on the lock file or project files.
+
+### ❌ Bad example - downloading NuGet packages on every run
+
+```yaml
+steps:
+  - uses: actions/checkout@v4
+  - uses: actions/setup-dotnet@v4
+    with:
+      dotnet-version: '9.0.x'
+  - run: dotnet restore
+  - run: dotnet build
+```
+
+### ✅ Good example - caching NuGet packages between runs
+
+```yaml
+steps:
+  - uses: actions/checkout@v4
+  - uses: actions/setup-dotnet@v4
+    with:
+      dotnet-version: '9.0.x'
+  - uses: actions/cache@v4
+    with:
+      path: ~/.nuget/packages
+      key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj', '**/packages.lock.json') }}
+      restore-keys: |
+        ${{ runner.os }}-nuget-
+  - run: dotnet restore
+  - run: dotnet build
+```
+
+The `restore-keys` field allows partial cache hits - if the exact key is not found, GitHub falls back to the most recent cache matching the prefix. This ensures a warm cache even when a single package version changes.
+
+## Key principles for effective caching
+
+* **Hash the lock file** - use `hashFiles` on `package-lock.json`, `pnpm-lock.yaml`, `packages.lock.json`, or `requirements.txt` to get automatic invalidation
+* **Include the OS in the key** - cache paths differ across operating systems, so prefix keys with `${{ runner.os }}`
+* **Use restore-keys as a fallback** - partial matches provide a warm cache that restores faster than a cold download
+* **Cache restore must happen before the install step** - place `actions/cache` before `npm install`, `dotnet restore`, or equivalent
+
+## Check your cache hit rate
+
+After adding caching, open a completed workflow run in GitHub and look for the `Cache` step output. It reports whether the cache was restored (`Cache restored`) or missed (`Cache not found`). A high miss rate usually means the key is too specific - broaden the `restore-keys` pattern.
