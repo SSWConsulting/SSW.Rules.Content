@@ -2,14 +2,14 @@ name: SEMrush - Fix Duplicate SEO Issues
 
 on:
   push:
-    branches: [2607-auto-workflow-for-semrush-errors] # TODO: remove before merging to main
+    branches: [2607-auto-workflow-for-semrush-errors-v2] # TODO: remove before merging to main
   schedule:
     - cron: "0 9 * * 1" # Every Monday at 9:00 AM UTC
   workflow_dispatch: # Allow manual runs from the Actions tab
 
 jobs:
-  fix-duplicate-meta:
-    name: Fix duplicate meta descriptions for /rules
+  fix-duplicate-seo:
+    name: Fix duplicate SEO issues for /rules
     runs-on: ubuntu-latest
 
     permissions:
@@ -36,46 +36,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Run SEMrush duplicate meta fixer
+      - name: Run SEMrush agentic SEO fixer
         env:
           SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
           SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/semrush/run_duplicate_meta_fix.py
-
-  fix-duplicate-titles:
-    name: Fix duplicate title tags for /rules
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-      pull-requests: write
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: pip install -r scripts/semrush/requirements.txt
-
-      - name: Configure git identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Run SEMrush duplicate title fixer
-        env:
-          SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
-          SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/semrush/run_duplicate_title_fix.py
+        run: python scripts/semrush/run_agent.py
