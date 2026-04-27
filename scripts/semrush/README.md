@@ -1,6 +1,8 @@
-# SEMrush Duplicate Meta Description Fixer
+# SEMrush SEO Issue Fixers
 
-Pulls duplicate meta description issues from a SEMrush Site Audit, maps the affected pages to files in this repo, generates unique replacement descriptions using the OpenAI API, writes the updated `seoDescription` frontmatter field back to each file, and automatically opens a GitHub pull request for review.
+Pulls duplicate SEO issues from a SEMrush Site Audit, maps the affected pages to files in this repo, generates unique replacements using the OpenAI API, writes the updated frontmatter back to each file, and automatically opens a GitHub pull request for review.
+
+Two fixers are included — one for `seoDescription` and one for `title`.
 
 ## Location
 
@@ -8,10 +10,12 @@ Pulls duplicate meta description issues from a SEMrush Site Audit, maps the affe
 scripts/semrush/
 ├── semrush_client.py           # SEMrush Site Audit API adapter
 ├── map_urls_to_files.py        # URL → repo file mapper
-├── generate_seo_description.py # AI description generator (OpenAI)
 ├── fix_duplicate_meta.py       # Frontmatter reader/writer
+├── generate_seo_description.py # AI description generator (OpenAI)
+├── generate_title.py           # AI title generator (OpenAI)
 ├── github_pr.py                # Branch, commit, push, PR creation + duplicate guard
-├── run_duplicate_meta_fix.py   # Entry point (orchestrator)
+├── run_duplicate_meta_fix.py   # Entry point: duplicate seoDescription fixer
+├── run_duplicate_title_fix.py  # Entry point: duplicate title fixer
 ├── requirements.txt
 └── README.md
 ```
@@ -46,6 +50,10 @@ Install it from <https://cli.github.com/>
 
 ## How to run
 
+Both scripts share the same flags: `--dry-run`, `--skip-pr`, `--limit N`, `--urls-file PATH`, `--list-issues`.
+
+### Duplicate meta descriptions
+
 ```bash
 # Dry run — logs what would change, no files written, no PR created
 python scripts/semrush/run_duplicate_meta_fix.py --dry-run
@@ -60,89 +68,57 @@ python scripts/semrush/run_duplicate_meta_fix.py
 python scripts/semrush/run_duplicate_meta_fix.py --skip-pr
 ```
 
-Set env vars inline on Windows PowerShell:
-
-```powershell
-$env:SEMRUSH_API_KEY="<key>"
-$env:SEMRUSH_PROJECT_ID="<id>"
-$env:OPENAI_API_KEY="<key>"
-python scripts/semrush/run_duplicate_meta_fix.py --dry-run --limit 5
-```
-
-Or on bash/macOS/Linux:
+### Duplicate titles
 
 ```bash
-export SEMRUSH_API_KEY=<key>
-export SEMRUSH_PROJECT_ID=<id>
-export OPENAI_API_KEY=<key>
-python scripts/semrush/run_duplicate_meta_fix.py --dry-run --limit 5
+python scripts/semrush/run_duplicate_title_fix.py --dry-run
+python scripts/semrush/run_duplicate_title_fix.py --dry-run --limit 5
+python scripts/semrush/run_duplicate_title_fix.py
+python scripts/semrush/run_duplicate_title_fix.py --skip-pr
 ```
 
-## What it does
+## What each fixer does
+
+### Duplicate meta description fixer (`run_duplicate_meta_fix.py`)
 
 1. **Checks** for an already-open PR on `semrush/fix-duplicate-meta` — exits early if one exists.
 2. **Fetches** the latest Site Audit snapshot from SEMrush and retrieves all pages flagged with duplicate meta descriptions (issue #15).
 3. **Filters** to URLs matching `https://[www.]ssw.com.au/rules/{slug}` only.
 4. **Maps** each URL to `public/uploads/rules/{slug}/rule.mdx` on disk.
 5. **Reads** the current `title` and `seoDescription` from the file's frontmatter.
-6. **Generates** a replacement description using the OpenAI API (`gpt-4o-mini`, Responses API), using the page title, current description, and a body excerpt as context. Enforces:
+6. **Generates** a replacement description using the OpenAI API (`gpt-4o-mini`), using the page title, current description, and a body excerpt as context. Enforces:
    * Under 160 characters
    * No filler phrases
    * Unique within the current batch
    * Automatic retry with the over-length draft if the first attempt is too long
 7. **Writes** only the `seoDescription` frontmatter line. Everything else (title, body, other fields) is unchanged.
-8. **Creates** a branch (`semrush/fix-duplicate-meta`), commits only the changed files, pushes, and opens a GitHub pull request for human review.
+8. **Creates** a branch (`semrush/fix-duplicate-meta`), commits only the changed files, pushes, and opens a GitHub PR with an old → new description table for human review.
 
-## PR automation
+### Duplicate title fixer (`run_duplicate_title_fix.py`)
 
-The full run (`python run_duplicate_meta_fix.py`) will:
+1. **Checks** for an already-open PR on `semrush/fix-duplicate-titles` — exits early if one exists.
+2. **Fetches** pages flagged with duplicate title tags (issue #13) from SEMrush.
+3. **Filters and maps** URLs to `rule.mdx` files, same as above.
+4. **Groups** files that share the same `title` value.
+5. **Generates** distinct replacement titles for each group using the OpenAI API, ensuring no two pages in the batch share a title.
+6. **Writes** only the `title` frontmatter line. Everything else is unchanged.
+7. **Creates** a branch (`semrush/fix-duplicate-titles`), commits, pushes, and opens a GitHub PR with an old → new title table for human review.
 
-* Create or reset the branch `semrush/fix-duplicate-meta` from `main`
-* Stage and commit only the files that were actually updated
-* Push to `origin`
-* Open a PR titled `[SEMrush] Fix duplicate meta descriptions for /rules`
+## GitHub Actions workflow
 
-The PR body lists every changed file, explains how descriptions were generated, and includes a checklist for reviewers.
+Both fixers run automatically via `.github/workflows/semrush-fix-duplicate-meta.yml` as two parallel jobs:
 
-**Duplicate PR guard:** if an open PR already exists on `semrush/fix-duplicate-meta`, the script exits immediately without writing any files or creating a duplicate PR. Close or merge the existing PR first.
+* **Schedule:** every Monday at 9:00 AM UTC
+* **Manual trigger:** available from the Actions tab (`workflow_dispatch`)
 
-## What it does NOT do
+Required secrets: `SEMRUSH_API_KEY`, `SEMRUSH_PROJECT_ID`, `OPENAI_API_KEY`. The workflow uses `GITHUB_TOKEN` for git push and PR creation — no PAT required.
 
-* Does not change `title` or any other frontmatter field
-* Does not modify page body content
-* Does not commit or push to Git
-* Does not create a PR (that step is manual or handled by a separate pipeline)
-* Does not handle issue types other than `duplicate_meta_descriptions`
+The duplicate PR guard on each script means it is safe to run on a schedule — if the previous PR is still open, the script exits without writing any files or creating a duplicate.
 
-## After running
+## What the fixers do NOT do
 
-The PR is created automatically. Once it's open:
-
-```bash
-# Validate frontmatter on the changed files (copy paths from PR description)
-cd scripts/frontmatter-validator && npm install
-node frontmatter-validator.js '<comma-separated file paths>'
-```
-
-Review each description in the PR diff, edit anything that looks off directly on the branch, then merge.
-
-## Known limitations and follow-up work
-
-### Current limitations
-
-* Only handles `seoDescription` field; does not detect or fix other SEO issues.
-* Does not deduplicate against descriptions already present on *other* pages (only within the current batch).
-* No retry logic on transient SEMrush/OpenAI API failures.
-* Does not integrate with ContentHawk or the existing PR automation pipeline.
-* Python only; no npm script alias (there is no root `package.json` in this content repo).
-* `semrush/fix-duplicate-meta` is a single shared branch — running the script twice in a row without merging the first PR will be caught by the duplicate guard and exit cleanly.
-
-### For GitHub Actions / recurring runs
-
-To run this automatically on a schedule, you would need a workflow file that:
-
-1. Provides secrets: `SEMRUSH_API_KEY`, `SEMRUSH_PROJECT_ID`, `OPENAI_API_KEY`
-2. Uses a PAT (Personal Access Token) with `repo` and `pull_requests` scopes for the `gh` CLI — store it as `GH_TOKEN` or `CONTENTHAWK_GITHUB_PAT` (already used in this repo)
-3. Runs: `pip install -r scripts/semrush/requirements.txt && python scripts/semrush/run_duplicate_meta_fix.py`
-
-The duplicate PR guard means it is safe to run on a schedule — it will exit without creating a duplicate if the previous PR is still open.
+* Do not modify page body content — only the relevant frontmatter field is touched
+* Do not change any frontmatter field other than the one being fixed
+* Do not deduplicate against values already present on *other* pages (only within the current batch)
+* Do not retry on transient SEMrush/OpenAI API failures
+* Do not handle SEMrush issue types other than duplicate meta descriptions and duplicate titles
