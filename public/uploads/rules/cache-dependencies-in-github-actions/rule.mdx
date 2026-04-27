@@ -58,7 +58,7 @@ Use `cache: 'pnpm'` for pnpm projects, or `cache: 'yarn'` for Yarn. The action a
 
 The `actions/setup-dotnet` action does not include built-in caching, so use `actions/cache` directly with a key based on the lock file or project files.
 
-### ❌ Bad example - downloading NuGet packages on every run
+### ❌ Bad example - Downloading NuGet packages on every run
 
 ```yaml
 steps:
@@ -70,7 +70,7 @@ steps:
   - run: dotnet build
 ```
 
-### ✅ Good example - caching NuGet packages between runs
+### ✅ Good example - Caching NuGet packages between runs
 
 ```yaml
 steps:
