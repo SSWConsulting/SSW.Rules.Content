@@ -3,7 +3,7 @@
 Fix duplicate title tags flagged by SEMrush Site Audit.
 
 Workflow:
-  1. Fetch all /rules URLs with duplicate titles from SEMrush (issue #13)
+  1. Fetch all /rules URLs with duplicate titles from SEMrush (issue #6)
   2. Map URLs to rule.mdx file paths in this repo
   3. Read the current title from each file's frontmatter
   4. Group files that share the same title value
@@ -51,8 +51,11 @@ _COMMIT_MSG = (
 
 def _build_pr_body(mappings: list[tuple[str, str, str]]) -> str:
     """mappings: list of (rel_file_path, old_title, new_title)"""
+    def _safe(val: str) -> str:
+        return val.replace("\n", " ").replace("\r", "").replace("|", "\\|")
+
     rows = "\n".join(
-        f"| `{rel}` | {old} | {new} |"
+        f"| `{rel}` | {_safe(old)} | {_safe(new)} |"
         for rel, old, new in mappings
     )
     return (

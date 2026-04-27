@@ -105,19 +105,26 @@ def generate_description(
 
     user_msg = base_user_msg
     previous_draft: str | None = None
+    failure_reason: str | None = None  # "too_long" | "filler" | "duplicate"
 
     for attempt in range(1, max_retries + 1):
         if attempt > 1:
             print(f"  [ai] Retry {attempt - 1}/{max_retries - 1}...")
-            # Tell the model exactly what went wrong and give it the draft to fix
-            user_msg = (
-                f"{base_user_msg}\n\n"
-                f"Your previous attempt was {len(previous_draft)} characters — "
-                f"that is {len(previous_draft) - _MAX_CHARS} characters too long.\n"
-                f"Previous draft: {previous_draft}\n\n"
-                f"Rewrite it to be strictly under {_MAX_CHARS} characters. "
-                f"Cut words, do not cut meaning."
-            )
+            if failure_reason == "too_long" and previous_draft is not None:
+                user_msg = (
+                    f"{base_user_msg}\n\n"
+                    f"Your previous attempt was {len(previous_draft)} characters — "
+                    f"that is {len(previous_draft) - _MAX_CHARS} characters too long.\n"
+                    f"Previous draft: {previous_draft}\n\n"
+                    f"Rewrite it to be strictly under {_MAX_CHARS} characters. "
+                    f"Cut words, do not cut meaning."
+                )
+            else:
+                user_msg = (
+                    f"{base_user_msg}\n\n"
+                    f"Your previous attempt was rejected. Try a different angle — "
+                    f"be specific and concrete. Output must be under {_MAX_CHARS} characters."
+                )
 
         try:
             response = client.responses.create(
@@ -136,11 +143,14 @@ def generate_description(
         if len(desc) > _MAX_CHARS:
             print(f"  [ai] Too long ({len(desc)} chars) — {desc!r}")
             previous_draft = desc
+            failure_reason = "too_long"
             continue
 
         for pattern in _FILLER_PATTERNS:
             if re.search(pattern, desc, re.IGNORECASE):
                 print(f"  [ai] Filler phrase detected — {desc!r}")
+                previous_draft = desc
+                failure_reason = "filler"
                 desc = None
                 break
 
@@ -150,6 +160,7 @@ def generate_description(
         if desc.lower().strip() in used_descriptions:
             print(f"  [ai] Duplicate within batch — {desc!r}")
             previous_draft = desc
+            failure_reason = "duplicate"
             continue
 
         return desc

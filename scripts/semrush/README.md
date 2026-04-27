@@ -97,7 +97,7 @@ python scripts/semrush/run_duplicate_title_fix.py --skip-pr
 ### Duplicate title fixer (`run_duplicate_title_fix.py`)
 
 1. **Checks** for an already-open PR on `semrush/fix-duplicate-titles` — exits early if one exists.
-2. **Fetches** pages flagged with duplicate title tags (issue #13) from SEMrush.
+2. **Fetches** pages flagged with duplicate title tags (issue #6) from SEMrush.
 3. **Filters and maps** URLs to `rule.mdx` files, same as above.
 4. **Groups** files that share the same `title` value.
 5. **Generates** distinct replacement titles for each group using the OpenAI API, ensuring no two pages in the batch share a title.

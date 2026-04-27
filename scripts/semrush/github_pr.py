@@ -139,6 +139,17 @@ def create_branch(repo_root: str, branch_name: str = BRANCH_NAME) -> bool:
             print(f"[pr] ERROR: Could not delete branch: {result.stderr.strip()}", file=sys.stderr)
             return False
 
+    print(f"[pr] Switching to {BASE_BRANCH!r}...")
+    result = _run(["git", "checkout", BASE_BRANCH], repo_root, check=False)
+    if result.returncode != 0:
+        print(f"[pr] ERROR: Could not checkout {BASE_BRANCH}: {result.stderr.strip()}", file=sys.stderr)
+        return False
+
+    print(f"[pr] Pulling latest {BASE_BRANCH!r}...")
+    result = _run(["git", "pull", "--ff-only", "origin", BASE_BRANCH], repo_root, check=False)
+    if result.returncode != 0:
+        print(f"[pr] WARNING: git pull failed (continuing anyway): {result.stderr.strip()}")
+
     print(f"[pr] Creating branch {branch_name!r} from {BASE_BRANCH!r}...")
     result = _run(
         ["git", "checkout", "-b", branch_name],

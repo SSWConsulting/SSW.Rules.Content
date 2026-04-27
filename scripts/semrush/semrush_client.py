@@ -34,7 +34,7 @@ _EP_AUDIT_ISSUES = "/reports/v1/projects/{project_id}/siteaudit/issues"
 # SEMrush uses integers, not strings, for issue IDs.
 # Run --list-issues to see all IDs present in your snapshot.
 ISSUE_DUPLICATE_META  = 15   # "Duplicate meta description"
-ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag"
+ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag" — verify with --list-issues if this changes
 
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -120,7 +120,7 @@ class SEMrushClient:
         """
         Return source_urls of all pages flagged for duplicate title tags.
 
-        Mirrors get_duplicate_meta_pages() but uses ISSUE_DUPLICATE_TITLE (13).
+        Mirrors get_duplicate_meta_pages() but uses ISSUE_DUPLICATE_TITLE.
         """
         if snapshot_id is None:
             print("[semrush] Fetching latest snapshot ID...")
