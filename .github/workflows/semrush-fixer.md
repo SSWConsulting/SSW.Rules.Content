@@ -47,6 +47,7 @@ tools:
   github:
     lockdown: false
     toolsets: [repos, pull_requests]
+    min-integrity: unapproved
     github-token: "${{ secrets.GITHUB_TOKEN }}"
 ---
 
@@ -127,7 +128,7 @@ After all pages for this issue type are processed:
    ```
 3. Check if an open PR already exists for this branch using the GitHub `pull_requests` toolset.
    If one exists, skip PR creation and log a message.
-4. If no open PR exists, call `create-pull-request` (safe-output) with:
+4. If no open PR exists, call `create-pull-request` (safe-output) **exactly once** with:
    - **title**: `Fix duplicate <seoDescription|title> for /rules (<N> pages)`
    - **body**: (see format below)
 
