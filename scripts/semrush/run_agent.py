@@ -31,7 +31,7 @@ sys.path.insert(0, _SCRIPT_DIR)
 
 from semrush_client import client_from_env
 from map_urls_to_files import map_urls_to_files
-from fix_duplicate_meta import read_frontmatter_fields, update_seo_description, update_title
+from frontmatter_utils import read_frontmatter_fields, update_seo_description, update_title
 import github_pr
 
 try:

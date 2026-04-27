@@ -8,7 +8,7 @@ Pulls duplicate SEO issues from a SEMrush Site Audit and fixes them using an AI 
 scripts/semrush/
 ├── semrush_client.py   # SEMrush Site Audit API adapter
 ├── map_urls_to_files.py # URL → repo file mapper
-├── fix_duplicate_meta.py # Frontmatter reader/writer
+├── frontmatter_utils.py # Frontmatter reader/writer
 ├── github_pr.py        # Branch, commit, push, PR creation + duplicate guard
 ├── run_agent.py        # Entry point: LLM-driven tool use (gpt-4o)
 ├── requirements.txt

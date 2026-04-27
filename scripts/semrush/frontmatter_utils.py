@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Read and update the seoDescription frontmatter field in rule.mdx files.
+Read and update frontmatter fields in rule.mdx files.
 
-Strategy: regex-based, consistent with scripts/generateSeoDescriptions/generate-descriptions.py.
-Only the seoDescription line is touched; everything else is preserved byte-for-byte.
+Strategy: regex-based. Only the target field line(s) are replaced;
+everything else is preserved byte-for-byte.
 """
 
 import re
