@@ -139,10 +139,26 @@ def create_branch(repo_root: str, branch_name: str = BRANCH_NAME) -> bool:
             print(f"[pr] ERROR: Could not delete branch: {result.stderr.strip()}", file=sys.stderr)
             return False
 
+    # Stash any uncommitted changes so the checkout to BASE_BRANCH succeeds.
+    # They will be re-applied on the new branch after it is created, and
+    # commit_changes() will then stage only the relevant files from that set.
+    dirty = (
+        _run(["git", "diff", "--quiet"], repo_root, check=False).returncode != 0
+        or _run(["git", "diff", "--cached", "--quiet"], repo_root, check=False).returncode != 0
+    )
+    if dirty:
+        print("[pr] Stashing uncommitted changes before switching branch...")
+        result = _run(["git", "stash", "--include-untracked"], repo_root, check=False)
+        if result.returncode != 0:
+            print(f"[pr] ERROR: git stash failed: {result.stderr.strip()}", file=sys.stderr)
+            return False
+
     print(f"[pr] Switching to {BASE_BRANCH!r}...")
     result = _run(["git", "checkout", BASE_BRANCH], repo_root, check=False)
     if result.returncode != 0:
         print(f"[pr] ERROR: Could not checkout {BASE_BRANCH}: {result.stderr.strip()}", file=sys.stderr)
+        if dirty:
+            _run(["git", "stash", "pop"], repo_root, check=False)
         return False
 
     print(f"[pr] Pulling latest {BASE_BRANCH!r}...")
@@ -151,14 +167,19 @@ def create_branch(repo_root: str, branch_name: str = BRANCH_NAME) -> bool:
         print(f"[pr] WARNING: git pull failed (continuing anyway): {result.stderr.strip()}")
 
     print(f"[pr] Creating branch {branch_name!r} from {BASE_BRANCH!r}...")
-    result = _run(
-        ["git", "checkout", "-b", branch_name],
-        repo_root,
-        check=False,
-    )
+    result = _run(["git", "checkout", "-b", branch_name], repo_root, check=False)
     if result.returncode != 0:
         print(f"[pr] ERROR: Could not create branch: {result.stderr.strip()}", file=sys.stderr)
+        if dirty:
+            _run(["git", "stash", "pop"], repo_root, check=False)
         return False
+
+    if dirty:
+        print("[pr] Restoring stashed changes onto new branch...")
+        result = _run(["git", "stash", "pop"], repo_root, check=False)
+        if result.returncode != 0:
+            print(f"[pr] ERROR: git stash pop failed: {result.stderr.strip()}", file=sys.stderr)
+            return False
 
     return True
 

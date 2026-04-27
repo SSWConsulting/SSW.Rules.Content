@@ -40,9 +40,10 @@ ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag" — verify with --list-issu
 
 
 class SEMrushClient:
-    def __init__(self, api_key: str, project_id: str):
+    def __init__(self, api_key: str, project_id: str, snapshot_id: str | None = None):
         self.api_key = api_key
         self.project_id = project_id
+        self._snapshot_id = snapshot_id  # explicit override; skips get_latest_snapshot_id()
         self._session = requests.Session()
 
     def _get(self, endpoint_template: str, params: dict = None) -> dict:
@@ -54,10 +55,19 @@ class SEMrushClient:
         return resp.json()
 
     def get_latest_snapshot_id(self) -> str:
-        """Return the snapshot_id of the most recent completed audit."""
+        """Return the snapshot_id of the most recent completed audit.
+
+        If SEMRUSH_SNAPSHOT_ID is set, that value is returned directly without
+        making an API call — use this to pin a known-good snapshot ID in CI or
+        to bypass the response-shape uncertainty below.
+        """
+        if self._snapshot_id:
+            return self._snapshot_id
+
         data = self._get(_EP_AUDIT_INFO)
-        # TODO: verify the exact key name once you have a real API response.
-        # Typical candidates: "snapshot_id", "snapshotId", data["data"]["snapshot_id"]
+        # The exact key name has not been verified against a live API response.
+        # If this lookup fails, set SEMRUSH_SNAPSHOT_ID to the correct value
+        # (visible in the SEMrush UI URL) to bypass it permanently.
         snapshot_id = (
             data.get("snapshot_id")
             or data.get("snapshotId")
@@ -66,9 +76,9 @@ class SEMrushClient:
         )
         if not snapshot_id:
             raise ValueError(
-                f"Could not find snapshot_id in SEMrush response.\n"
-                f"Response keys: {list(data.keys())}\n"
-                f"Full response: {data}"
+                f"Could not find snapshot_id in SEMrush response. "
+                f"Response keys: {list(data.keys())}. "
+                f"Set SEMRUSH_SNAPSHOT_ID env var to bypass this lookup."
             )
         return str(snapshot_id)
 
@@ -176,6 +186,7 @@ def client_from_env() -> SEMrushClient:
     """Build a SEMrushClient from environment variables. Exits if vars are missing."""
     api_key = os.environ.get("SEMRUSH_API_KEY", "")
     project_id = os.environ.get("SEMRUSH_PROJECT_ID", "")
+    snapshot_id = os.environ.get("SEMRUSH_SNAPSHOT_ID") or None
     missing = []
     if not api_key:
         missing.append("SEMRUSH_API_KEY")
@@ -187,4 +198,4 @@ def client_from_env() -> SEMrushClient:
             file=sys.stderr,
         )
         sys.exit(1)
-    return SEMrushClient(api_key, project_id)
+    return SEMrushClient(api_key, project_id, snapshot_id=snapshot_id)

@@ -9,9 +9,6 @@ everything else is preserved byte-for-byte.
 import re
 
 
-# Characters that require a YAML scalar to be double-quoted to avoid parse errors.
-# Colon-space (": ") is the most common culprit in English meta descriptions.
-_NEEDS_QUOTING_RE = re.compile(r'(?:: )|(?:^[{[\|>&!%@`*?#])')
 
 
 def read_frontmatter_fields(file_path: str) -> dict | None:
@@ -155,12 +152,6 @@ def _extract_scalar(frontmatter: str, field: str) -> str | None:
 
 
 def _yaml_scalar(value: str) -> str:
-    """
-    Return a YAML-safe representation of a string scalar.
-    Wraps in double quotes only when the value contains characters
-    that would break bare YAML parsing.
-    """
-    if _NEEDS_QUOTING_RE.search(value):
-        escaped = value.replace('\\', '\\\\').replace('"', '\\"')
-        return f'"{escaped}"'
-    return value
+    """Always emit a double-quoted YAML scalar — safe for any AI-generated string."""
+    escaped = value.replace('\\', '\\\\').replace('"', '\\"')
+    return f'"{escaped}"'

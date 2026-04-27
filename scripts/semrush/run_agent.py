@@ -63,6 +63,27 @@ def _reset_state(dry_run: bool, limit: int, urls_file: str | None) -> None:
     })
 
 
+# ── Path validation ───────────────────────────────────────────────────────────
+
+_ALLOWED_PATH_PREFIX = os.path.realpath(os.path.join(_REPO_ROOT, "public", "uploads", "rules"))
+_ALLOWED_FILENAME = "rule.mdx"
+
+
+def _validate_rule_path(file_path: str) -> str | None:
+    """
+    Return None if file_path is a valid rule file, or an error string if not.
+
+    Rejects anything outside public/uploads/rules/**/rule.mdx under _REPO_ROOT,
+    and resolves symlinks to prevent path traversal.
+    """
+    real = os.path.realpath(file_path)
+    if not real.startswith(_ALLOWED_PATH_PREFIX + os.sep):
+        return f"Path is outside the allowed directory ({_ALLOWED_PATH_PREFIX}). Only rule.mdx files under public/uploads/rules/ are accessible."
+    if os.path.basename(real) != _ALLOWED_FILENAME:
+        return f"Only files named '{_ALLOWED_FILENAME}' are accessible."
+    return None
+
+
 # ── Tool implementations ──────────────────────────────────────────────────────
 
 def _tool_fetch_flagged_pages(issue_type: str) -> dict:
@@ -90,6 +111,9 @@ def _tool_fetch_flagged_pages(issue_type: str) -> dict:
 
 def _tool_read_rule_file(file_path: str) -> dict:
     """Return frontmatter fields and a body excerpt for a rule file."""
+    err = _validate_rule_path(file_path)
+    if err:
+        return {"error": err}
     fields = read_frontmatter_fields(file_path)
     if fields is None:
         return {"error": "Could not parse frontmatter"}
@@ -107,9 +131,13 @@ def _tool_write_frontmatter_field(
     old_value: str = "",
 ) -> dict:
     """Validate and write one frontmatter field. Returns an error dict on rejection."""
+    err = _validate_rule_path(file_path)
+    if err:
+        return {"success": False, "error": err}
+
     norm = value.lower().strip()
 
-    if field == "seoDescription" and len(value) > 160:
+    if field == "seoDescription" and len(value) >= 160:
         return {
             "success": False,
             "error": f"Value is {len(value)} chars — must be under 160. Shorten it and retry.",
@@ -361,7 +389,7 @@ def run_agent(issue_types: list[str]) -> None:
             tool_choice="auto",
         )
         msg = response.choices[0].message
-        messages.append(msg)
+        messages.append(msg.model_dump(exclude_unset=True))
 
         if not msg.tool_calls:
             print(f"\n[agent] done.\n{msg.content or ''}")
