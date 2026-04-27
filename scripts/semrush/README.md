@@ -88,6 +88,7 @@ AGENT_MODEL=gpt-4o-mini python scripts/semrush/run_agent.py --dry-run --limit 3
 4. After all pages are processed, calls `open_pull_request`
 
 **Generation rules enforced via the system prompt:**
+
 * `seoDescription`: under 160 characters, no filler openers, no trailing full stop, specific and concrete
 * `title`: unique, descriptive, faithful to the page content
 * Values already written in the session are rejected by the tool — the model must generate something different
