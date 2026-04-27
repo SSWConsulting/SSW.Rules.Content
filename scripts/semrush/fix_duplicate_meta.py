@@ -69,7 +69,7 @@ def update_seo_description(file_path: str, new_desc: str) -> bool:
     fm_block = fm_match.group(1)
     safe_value = _yaml_scalar(new_desc)
     new_fm_block, n = re.subn(
-        r"^seoDescription:.*$",
+        r"^seoDescription:[ \t]*.*(?:\n[ \t]+.*)*",
         f"seoDescription: {safe_value}",
         fm_block,
         flags=re.MULTILINE,
@@ -113,7 +113,7 @@ def update_title(file_path: str, new_title: str) -> bool:
     fm_block = fm_match.group(1)
     safe_value = _yaml_scalar(new_title)
     new_fm_block, n = re.subn(
-        r"^title:.*$",
+        r"^title:[ \t]*.*(?:\n[ \t]+.*)*",
         f"title: {safe_value}",
         fm_block,
         flags=re.MULTILINE,
@@ -138,15 +138,16 @@ def update_title(file_path: str, new_title: str) -> bool:
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 def _extract_scalar(frontmatter: str, field: str) -> str | None:
-    """Extract a plain scalar YAML field value, stripping optional surrounding quotes."""
+    """Extract a plain scalar YAML field value, including indented continuation lines."""
     m = re.search(
-        rf"^{re.escape(field)}:\s*(.*?)\s*$",
+        rf"^{re.escape(field)}:\s*(.*(?:\n[ \t]+.*)*)",
         frontmatter,
         re.MULTILINE,
     )
     if not m:
         return None
-    value = m.group(1).strip()
+    # Join continuation lines into a single string
+    value = " ".join(part.strip() for part in m.group(1).splitlines()).strip()
     # Strip matching surrounding quotes
     if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
         value = value[1:-1]

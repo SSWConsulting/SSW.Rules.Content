@@ -1,6 +1,6 @@
 # SEMrush SEO Issue Fixer
 
-Pulls duplicate SEO issues from a SEMrush Site Audit and fixes them using an AI agent (OpenAI tool use). The agent fetches flagged pages, reads each file, generates unique replacements, writes the updated frontmatter, and opens a GitHub pull request for review — all driven by the model's own reasoning rather than a fixed script.
+Pulls duplicate SEO issues from a SEMrush Site Audit and fixes them using an AI agent (OpenAI tool use). The agent fetches flagged pages, reads each file, generates unique replacements, writes the updated frontmatter, and opens a GitHub pull request for review.
 
 ## Location
 
@@ -67,24 +67,6 @@ Override the model (default: `gpt-4o`):
 AGENT_MODEL=gpt-4o-mini python scripts/semrush/run_agent.py --dry-run --limit 3
 ```
 
-Set env vars inline on Windows PowerShell:
-
-```powershell
-$env:SEMRUSH_API_KEY="<key>"
-$env:SEMRUSH_PROJECT_ID="<id>"
-$env:OPENAI_API_KEY="<key>"
-python scripts/semrush/run_agent.py --dry-run --limit 3
-```
-
-Or on bash/macOS/Linux:
-
-```bash
-export SEMRUSH_API_KEY=<key>
-export SEMRUSH_PROJECT_ID=<id>
-export OPENAI_API_KEY=<key>
-python scripts/semrush/run_agent.py --dry-run --limit 3
-```
-
 ## How it works
 
 `run_agent.py` exposes four tools to the model and gives it a high-level goal. The model decides the order of calls, inspects results, and retries when a tool rejects a value.
@@ -120,14 +102,6 @@ Required secrets: `SEMRUSH_API_KEY`, `SEMRUSH_PROJECT_ID`, `OPENAI_API_KEY`. The
 
 The duplicate PR guard means it is safe to run on a schedule — if a previous PR is still open, the agent exits without writing files or creating a duplicate.
 
-## PR format
-
-Each issue type gets a separate PR with a markdown table:
-
-| File | Old description / Old title | New description / New title |
-|------|-----------------------------|-----------------------------|
-| `` `rules/.../rule.mdx` `` | original value | AI-generated replacement |
-
 ## What the agent does NOT do
 
 * Does not modify page body content — only the relevant frontmatter field is touched
@@ -135,15 +109,3 @@ Each issue type gets a separate PR with a markdown table:
 * Does not deduplicate against values already present on *other* pages (only within the current run)
 * Does not retry on transient SEMrush/OpenAI API failures
 * Does not handle SEMrush issue types other than duplicate meta descriptions and duplicate titles
-
-## After running
-
-The PR is created automatically. Once it's open:
-
-```bash
-# Validate frontmatter on the changed files (copy paths from PR description)
-cd scripts/frontmatter-validator && npm install
-node frontmatter-validator.js '<comma-separated file paths>'
-```
-
-Review each value in the PR diff, edit anything that looks off directly on the branch, then merge.

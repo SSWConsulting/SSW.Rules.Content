@@ -115,6 +115,12 @@ def _tool_write_frontmatter_field(
             "error": f"Value is {len(value)} chars — must be under 160. Shorten it and retry.",
         }
 
+    if field == "title" and not (value.startswith("Do you") and value.endswith("?")):
+        return {
+            "success": False,
+            "error": 'Title must start with "Do you" and end with "?". Rewrite it and retry.',
+        }
+
     if norm in _state["used_values"]:
         return {
             "success": False,
@@ -314,7 +320,8 @@ For each issue type you are asked to fix, follow this workflow:
 Generation rules:
 - seoDescription: strictly under 160 characters, no filler openers (Learn / Discover /
   Find out / In this article / This page), no trailing full stop, specific and concrete.
-- title: unique, descriptive, concise, faithful to the page content.
+- title: must start with "Do you" and end with "?", unique, descriptive, concise, faithful to the page content.
+  Example: "Do you use pull requests for all code changes?"
 - Never reuse a value already written this session (the tool will reject duplicates — generate something different).
 - Always pass old_value to write_frontmatter_field so the PR table shows before/after.
 - Skip a file only if read_rule_file returns an error or the title field is empty.
