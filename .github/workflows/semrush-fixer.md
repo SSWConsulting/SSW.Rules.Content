@@ -7,8 +7,6 @@ description: >
 name: SEMrush SEO Fixer
 
 on:
-  push:
-    branches: [2607-auto-workflow-for-semrush-errors-v3] # TODO: remove before merging to main
   schedule:
     - cron: "0 9 * * 1" # Every Monday at 9:00 AM UTC
   workflow_dispatch:
