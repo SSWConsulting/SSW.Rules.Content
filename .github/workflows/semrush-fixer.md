@@ -27,48 +27,6 @@ mcp-scripts:
       pip install -q requests
       python scripts/semrush/semrush_client.py list-issues
 
-  get-semrush-pages:
-    description: >
-      Returns JSON array of {url, file_path} for pages flagged with a given issue type.
-      issue_type must be "duplicate_meta" or "duplicate_title".
-    schema:
-      issue_type:
-        type: string
-        description: The issue type to fetch pages for
-        enum: [duplicate_meta, duplicate_title]
-    run: |
-      python scripts/semrush/semrush_client.py get-pages "$issue_type"
-
-  read-frontmatter:
-    description: >
-      Reads the title and seoDescription frontmatter fields from a rule.mdx file.
-      Returns JSON with "title" and "seoDescription" keys.
-    schema:
-      file_path:
-        type: string
-        description: Absolute path to the rule.mdx file
-    run: |
-      python scripts/semrush/frontmatter_utils.py read "$file_path"
-
-  write-frontmatter:
-    description: >
-      Writes a new value to one frontmatter field in a rule.mdx file.
-      field must be "seoDescription" or "title".
-      Returns "OK" on success or exits with code 1 on failure.
-    schema:
-      file_path:
-        type: string
-        description: Absolute path to the rule.mdx file
-      field:
-        type: string
-        description: The frontmatter field to update
-        enum: [seoDescription, title]
-      value:
-        type: string
-        description: The new value to write
-    run: |
-      python scripts/semrush/frontmatter_utils.py write "$file_path" "$field" "$value"
-
 permissions: read-all
 
 network:
@@ -102,11 +60,15 @@ The repository lives at `${{ github.workspace }}`. All `/rules` pages are MDX fi
 public/uploads/rules/<slug>/rule.mdx
 ```
 
-You have four MCP tools to use:
-- `list-semrush-issues` — see all SEMrush issues and their page counts
-- `get-semrush-pages` — get the list of affected files for a fixable issue type
-- `read-frontmatter` — read current frontmatter values from a file
-- `write-frontmatter` — write a new value to a frontmatter field
+You have one MCP tool and several shell commands to use:
+
+**MCP tool:**
+- `list-semrush-issues` — lists all SEMrush issues with page counts; items with `fixable_as` are ones you can fix
+
+**Shell commands (run these directly):**
+- `python scripts/semrush/semrush_client.py get-pages <issue_type>` — returns JSON array of `{url, file_path}` for a given issue type (`duplicate_meta` or `duplicate_title`)
+- `python scripts/semrush/frontmatter_utils.py read <file_path>` — returns JSON with current `title` and `seoDescription`
+- `python scripts/semrush/frontmatter_utils.py write <file_path> <field> "<value>"` — writes a new value to a frontmatter field; prints `OK` on success
 
 ---
 
@@ -129,20 +91,24 @@ For each issue type you decide to fix, follow this workflow:
 
 ### 2a — Get affected pages
 
-Call `get-semrush-pages` with the issue type to get a list of `{url, file_path}` objects.
+Run:
+```bash
+python scripts/semrush/semrush_client.py get-pages <issue_type>
+```
+This returns a JSON array of `{url, file_path}` objects.
 
 ### 2b — Fix each page
 
 For each page:
 
-1. Call `read-frontmatter` with the `file_path` to get the current `title` and `seoDescription`.
-2. Generate a unique replacement value based on the page content and title:
+1. Run `python scripts/semrush/frontmatter_utils.py read <file_path>` to get the current `title` and `seoDescription`.
+2. Generate a unique replacement value based on the page title and content:
    - **seoDescription**: strictly under 160 characters, no filler openers
      (`Learn` / `Discover` / `Find out` / `In this article` / `This page`),
      no trailing full stop, specific and concrete.
    - **title**: must start with `Do you` and end with `?`, unique, descriptive,
      faithful to the page content. Example: `Do you use pull requests for all code changes?`
-3. Call `write-frontmatter` with the file path, field name, and your generated value.
+3. Run `python scripts/semrush/frontmatter_utils.py write <file_path> <field> "<value>"` to write the replacement.
 4. If the write fails, try a different value and retry.
 5. Keep track of values you have already written — never reuse a value across pages.
 
