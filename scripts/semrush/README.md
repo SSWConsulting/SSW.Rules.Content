@@ -81,15 +81,16 @@ AGENT_MODEL=gpt-4o-mini python scripts/semrush/run_agent.py --dry-run --limit 3
 | `open_pull_request(issue_type)` | Commits changed files and opens a GitHub PR with an old → new table |
 
 **Agent workflow per issue type:**
+
 1. Calls `fetch_flagged_pages` to get affected pages
 2. For each page: calls `read_rule_file`, generates a replacement, calls `write_frontmatter_field`
 3. If the tool rejects the value (too long, duplicate), the model reads the error and retries with a different value
 4. After all pages are processed, calls `open_pull_request`
 
 **Generation rules enforced via the system prompt:**
-- `seoDescription`: under 160 characters, no filler openers, no trailing full stop, specific and concrete
-- `title`: unique, descriptive, faithful to the page content
-- Values already written in the session are rejected by the tool — the model must generate something different
+* `seoDescription`: under 160 characters, no filler openers, no trailing full stop, specific and concrete
+* `title`: unique, descriptive, faithful to the page content
+* Values already written in the session are rejected by the tool — the model must generate something different
 
 ## GitHub Actions workflow
 
