@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import os
+import sys
 import yaml
+from datetime import date, datetime
 from pathlib import Path
 from algoliasearch.search_client import SearchClient
 
@@ -14,7 +16,16 @@ INDEX_NAME = os.environ.get('NEXT_PUBLIC_ALGOLIA_INDEX_NAME', 'index-json')
 
 if not APP_ID or not ADMIN_KEY:
     print('Skipping Algolia sync: NEXT_PUBLIC_ALGOLIA_APP_ID or NEXT_PUBLIC_ALGOLIA_ADMIN_KEY not set')
-    exit(0)
+    sys.exit(0)
+
+def normalize(obj):
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    if isinstance(obj, dict):
+        return {k: normalize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [normalize(v) for v in obj]
+    return obj
 
 def parse_rule(folder_path):
     rule_file = folder_path / 'rule.mdx'
@@ -25,13 +36,13 @@ def parse_rule(folder_path):
         if not content.startswith('---'):
             return None
         parts = content.split('---', 2)
-        if len(parts) < 2:
+        if len(parts) < 3:
             return None
-        frontmatter = yaml.safe_load(parts[1])
+        frontmatter = normalize(yaml.safe_load(parts[1]))
         if not frontmatter.get('uri'):
             return None
         slug = frontmatter['uri']
-        return {'objectID': slug, 'slug': slug, **frontmatter}
+        return {**frontmatter, 'objectID': slug, 'slug': slug}
     except Exception as e:
         print(f'Error reading {rule_file}: {e}')
         return None
