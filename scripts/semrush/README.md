@@ -94,14 +94,6 @@ python scripts/semrush/frontmatter_utils.py write public/uploads/rules/some-rule
 - `title`: must start with `Do you` and end with `?`, unique, descriptive, faithful to the page content
 - Values are never reused within the same run
 
-## PR format
-
-Each issue type gets a separate PR:
-
-| File | Old value | New value |
-|------|-----------|-----------|
-| `` `rules/.../rule.mdx` `` | original value | AI-generated replacement |
-
 ## What the agent does NOT do
 
 - Does not modify page body content — only the target frontmatter field
