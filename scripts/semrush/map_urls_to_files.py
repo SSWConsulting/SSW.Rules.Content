@@ -57,7 +57,7 @@ def map_urls_to_files(urls: list[str], repo_root: str) -> dict[str, str]:
 
         file_path = slug_to_file_path(slug, repo_root)
         if file_path is None:
-            print(f"[map] SKIP (file not found on disk): {url}  ->  rules/{slug}/rule.mdx")
+            print(f"[map] SKIP (file not found on disk): {url}  ->  public/uploads/rules/{slug}/rule.mdx")
             skipped_not_found += 1
             continue
 

@@ -27,14 +27,13 @@ SEMRUSH_API_BASE = "https://api.semrush.com"
 # Site Audit endpoint paths (project_id is substituted at call time)
 # Reference: https://developer.semrush.com/api/v2/site-audit/
 _EP_AUDIT_INFO   = "/reports/v1/projects/{project_id}/siteaudit/"
-_EP_AUDIT_PAGES  = "/reports/v1/projects/{project_id}/siteaudit/pages"
 _EP_AUDIT_ISSUES = "/reports/v1/projects/{project_id}/siteaudit/issues"
 
 # SEMrush numeric issue IDs.
 # SEMrush uses integers, not strings, for issue IDs.
-# Run --list-issues to see all IDs present in your snapshot.
+# Run list-issues to see all IDs present in your snapshot.
 ISSUE_DUPLICATE_META  = 15   # "Duplicate meta description"
-ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag" — verify with --list-issues if this changes
+ISSUE_DUPLICATE_TITLE = 6    # "Duplicate title tag" — verify with list-issues if this changes
 
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -46,7 +45,7 @@ class SEMrushClient:
         self._snapshot_id = snapshot_id  # explicit override; skips get_latest_snapshot_id()
         self._session = requests.Session()
 
-    def _get(self, endpoint_template: str, params: dict = None) -> dict:
+    def _get(self, endpoint_template: str, params: dict | None = None) -> dict | list:
         url = SEMRUSH_API_BASE + endpoint_template.format(project_id=self.project_id)
         params = dict(params or {})
         params["key"] = self.api_key

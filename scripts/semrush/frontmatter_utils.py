@@ -9,8 +9,6 @@ everything else is preserved byte-for-byte.
 import re
 
 
-
-
 def read_frontmatter_fields(file_path: str) -> dict | None:
     """
     Parse title, seoDescription, and raw content from an MDX file.
@@ -39,7 +37,6 @@ def read_frontmatter_fields(file_path: str) -> dict | None:
     return {
         "title": _extract_scalar(fm, "title"),
         "seoDescription": _extract_scalar(fm, "seoDescription"),
-        "_content": content,
     }
 
 
