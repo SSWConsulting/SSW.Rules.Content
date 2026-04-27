@@ -1,4 +1,4 @@
-# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"c2fb2a29495f296a07bf80c9baf9ef46480ddb0b28e9a681d66c9d7fb388833f","compiler_version":"v0.68.3","strict":true,"agent_id":"copilot","agent_model":"gpt-5-mini"}
+# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"38ccf1af11d1516a38ec7037528f3632c184456985979a5b7e3eb3fdd1b7e6d8","compiler_version":"v0.68.3","strict":true,"agent_id":"copilot","agent_model":"gpt-5-mini"}
 # gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","GH_AW_CI_TRIGGER_TOKEN","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"de0fac2e4500dabe0009e67214ff5f5447ce83dd","version":"v6.0.2"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"373c709c69115d41ff229c7e5df9f8788daa9553","version":"v9"},{"repo":"actions/upload-artifact","sha":"043fb46d1a93c77aae656e7c1c64a875d1fc6a0a","version":"v7.0.1"},{"repo":"github/gh-aw-actions/setup","sha":"ba90f2186d7ad780ec640f364005fa24e797b360","version":"v0.68.3"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.25.20"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.25.20"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.2.19"},{"image":"ghcr.io/github/github-mcp-server:v0.32.0"},{"image":"node:lts-alpine"}]}
 #    ___                   _   _      
 #   / _ \                 | | (_)     
@@ -171,19 +171,19 @@ jobs:
         run: |
           bash "${RUNNER_TEMP}/gh-aw/actions/create_prompt_first.sh"
           {
-          cat << 'GH_AW_PROMPT_20bee16f9559a140_EOF'
+          cat << 'GH_AW_PROMPT_476a70da887a4fc7_EOF'
           <system>
-          GH_AW_PROMPT_20bee16f9559a140_EOF
+          GH_AW_PROMPT_476a70da887a4fc7_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/xpia.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/temp_folder_prompt.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/markdown.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_prompt.md"
-          cat << 'GH_AW_PROMPT_20bee16f9559a140_EOF'
+          cat << 'GH_AW_PROMPT_476a70da887a4fc7_EOF'
           <safe-output-tools>
           Tools: create_pull_request(max:2), missing_tool, missing_data, noop
-          GH_AW_PROMPT_20bee16f9559a140_EOF
+          GH_AW_PROMPT_476a70da887a4fc7_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_create_pull_request.md"
-          cat << 'GH_AW_PROMPT_20bee16f9559a140_EOF'
+          cat << 'GH_AW_PROMPT_476a70da887a4fc7_EOF'
           </safe-output-tools>
           <github-context>
           The following GitHub context information is available for this workflow:
@@ -213,12 +213,12 @@ jobs:
           {{/if}}
           </github-context>
           
-          GH_AW_PROMPT_20bee16f9559a140_EOF
+          GH_AW_PROMPT_476a70da887a4fc7_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/github_mcp_tools_with_safeoutputs_prompt.md"
-          cat << 'GH_AW_PROMPT_20bee16f9559a140_EOF'
+          cat << 'GH_AW_PROMPT_476a70da887a4fc7_EOF'
           </system>
           {{#runtime-import .github/workflows/semrush-fixer.md}}
-          GH_AW_PROMPT_20bee16f9559a140_EOF
+          GH_AW_PROMPT_476a70da887a4fc7_EOF
           } > "$GH_AW_PROMPT"
       - name: Interpolate variables and render templates
         uses: actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553 # v9
@@ -384,9 +384,9 @@ jobs:
           mkdir -p "${RUNNER_TEMP}/gh-aw/safeoutputs"
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
-          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_9579fda114be159f_EOF'
+          cat > "${RUNNER_TEMP}/gh-aw/safeoutputs/config.json" << 'GH_AW_SAFE_OUTPUTS_CONFIG_e3a39883f9e53c5c_EOF'
           {"create_pull_request":{"max":2,"max_patch_size":1024,"protected_files":["package.json","bun.lockb","bunfig.toml","deno.json","deno.jsonc","deno.lock","global.json","NuGet.Config","Directory.Packages.props","mix.exs","mix.lock","go.mod","go.sum","stack.yaml","stack.yaml.lock","pom.xml","build.gradle","build.gradle.kts","settings.gradle","settings.gradle.kts","gradle.properties","package-lock.json","yarn.lock","pnpm-lock.yaml","npm-shrinkwrap.json","requirements.txt","Pipfile","Pipfile.lock","pyproject.toml","setup.py","setup.cfg","Gemfile","Gemfile.lock","uv.lock","CODEOWNERS"],"protected_path_prefixes":[".github/",".agents/"],"title_prefix":"[SEMrush] "},"create_report_incomplete_issue":{},"missing_data":{},"missing_tool":{},"noop":{"max":1,"report-as-issue":"true"},"report_incomplete":{}}
-          GH_AW_SAFE_OUTPUTS_CONFIG_9579fda114be159f_EOF
+          GH_AW_SAFE_OUTPUTS_CONFIG_e3a39883f9e53c5c_EOF
       - name: Write Safe Outputs Tools
         env:
           GH_AW_TOOLS_META_JSON: |
@@ -556,98 +556,9 @@ jobs:
           
           bash "${RUNNER_TEMP}/gh-aw/actions/start_safe_outputs_server.sh"
           
-      - name: Write MCP Scripts Config
-        run: |
-          mkdir -p "${RUNNER_TEMP}/gh-aw/mcp-scripts/logs"
-          cat > "${RUNNER_TEMP}/gh-aw/mcp-scripts/tools.json" << 'GH_AW_MCP_SCRIPTS_TOOLS_fe16c9fd0f7b9a14_EOF'
-          {
-            "serverName": "mcpscripts",
-            "version": "1.0.0",
-            "logDir": "${RUNNER_TEMP}/gh-aw/mcp-scripts/logs",
-            "tools": [
-              {
-                "name": "list-semrush-issues",
-                "description": "Lists all SEMrush Site Audit issue types with page counts. Returns JSON array sorted by count descending. Items with a \"fixable_as\" field are ones this agent can fix.\n",
-                "inputSchema": {
-                  "properties": {},
-                  "type": "object"
-                },
-                "handler": "list-semrush-issues.sh",
-                "timeout": 60
-              }
-            ]
-          }
-          GH_AW_MCP_SCRIPTS_TOOLS_fe16c9fd0f7b9a14_EOF
-          cat > "${RUNNER_TEMP}/gh-aw/mcp-scripts/mcp-server.cjs" << 'GH_AW_MCP_SCRIPTS_SERVER_8ad48a8111383880_EOF'
-            const path = require("path");
-            const { startHttpServer } = require("./mcp_scripts_mcp_server_http.cjs");
-            const configPath = path.join(__dirname, "tools.json");
-            const port = parseInt(process.env.GH_AW_MCP_SCRIPTS_PORT || "3000", 10);
-            const apiKey = process.env.GH_AW_MCP_SCRIPTS_API_KEY || "";
-            startHttpServer(configPath, {
-              port: port,
-              stateless: true,
-              logDir: "${RUNNER_TEMP}/gh-aw/mcp-scripts/logs"
-            }).catch(error => {
-              console.error("Failed to start mcp-scripts HTTP server:", error);
-              process.exit(1);
-            });
-          GH_AW_MCP_SCRIPTS_SERVER_8ad48a8111383880_EOF
-          chmod +x "${RUNNER_TEMP}/gh-aw/mcp-scripts/mcp-server.cjs"
-          
-      - name: Write MCP Scripts Tool Files
-        run: |
-          cat > "${RUNNER_TEMP}/gh-aw/mcp-scripts/list-semrush-issues.sh" << 'GH_AW_MCP_SCRIPTS_SH_LIST-SEMRUSH-ISSUES_49d0271deb05f14c_EOF'
-          #!/bin/bash
-          # Auto-generated mcp-script tool: list-semrush-issues
-          # Lists all SEMrush Site Audit issue types with page counts. Returns JSON array sorted by count descending. Items with a "fixable_as" field are ones this agent can fix.
-          
-          set -euo pipefail
-          
-          pip install -q requests
-          python scripts/semrush/semrush_client.py list-issues
-          
-          
-          GH_AW_MCP_SCRIPTS_SH_LIST-SEMRUSH-ISSUES_49d0271deb05f14c_EOF
-          chmod +x "${RUNNER_TEMP}/gh-aw/mcp-scripts/list-semrush-issues.sh"
-          
-      - name: Generate MCP Scripts Server Config
-        id: mcp-scripts-config
-        run: |
-          # Generate a secure random API key (360 bits of entropy, 40+ chars)
-          # Mask immediately to prevent timing vulnerabilities
-          API_KEY=$(openssl rand -base64 45 | tr -d '/+=')
-          echo "::add-mask::${API_KEY}"
-          
-          PORT=3000
-          
-          # Set outputs for next steps
-          {
-            echo "mcp_scripts_api_key=${API_KEY}"
-            echo "mcp_scripts_port=${PORT}"
-          } >> "$GITHUB_OUTPUT"
-          
-          echo "MCP Scripts server will run on port ${PORT}"
-          
-      - name: Start MCP Scripts HTTP Server
-        id: mcp-scripts-start
-        env:
-          DEBUG: '*'
-          GH_AW_MCP_SCRIPTS_PORT: ${{ steps.mcp-scripts-config.outputs.mcp_scripts_port }}
-          GH_AW_MCP_SCRIPTS_API_KEY: ${{ steps.mcp-scripts-config.outputs.mcp_scripts_api_key }}
-        run: |
-          # Environment variables are set above to prevent template injection
-          export DEBUG
-          export GH_AW_MCP_SCRIPTS_PORT
-          export GH_AW_MCP_SCRIPTS_API_KEY
-          
-          bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_scripts_server.sh"
-          
       - name: Start MCP Gateway
         id: start-mcp-gateway
         env:
-          GH_AW_MCP_SCRIPTS_API_KEY: ${{ steps.mcp-scripts-start.outputs.api_key }}
-          GH_AW_MCP_SCRIPTS_PORT: ${{ steps.mcp-scripts-start.outputs.port }}
           GH_AW_SAFE_OUTPUTS: ${{ steps.set-runtime-paths.outputs.GH_AW_SAFE_OUTPUTS }}
           GH_AW_SAFE_OUTPUTS_API_KEY: ${{ steps.safe-outputs-start.outputs.api_key }}
           GH_AW_SAFE_OUTPUTS_PORT: ${{ steps.safe-outputs-start.outputs.port }}
@@ -668,10 +579,10 @@ jobs:
           export DEBUG="*"
           
           export GH_AW_ENGINE="copilot"
-          export MCP_GATEWAY_DOCKER_COMMAND='docker run -i --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -e MCP_GATEWAY_PORT -e MCP_GATEWAY_DOMAIN -e MCP_GATEWAY_API_KEY -e MCP_GATEWAY_PAYLOAD_DIR -e MCP_GATEWAY_PAYLOAD_SIZE_THRESHOLD -e DEBUG -e MCP_GATEWAY_LOG_DIR -e GH_AW_MCP_LOG_DIR -e GH_AW_SAFE_OUTPUTS -e GH_AW_SAFE_OUTPUTS_CONFIG_PATH -e GH_AW_SAFE_OUTPUTS_TOOLS_PATH -e GH_AW_ASSETS_BRANCH -e GH_AW_ASSETS_MAX_SIZE_KB -e GH_AW_ASSETS_ALLOWED_EXTS -e DEFAULT_BRANCH -e GITHUB_MCP_SERVER_TOKEN -e GITHUB_MCP_GUARD_MIN_INTEGRITY -e GITHUB_MCP_GUARD_REPOS -e GITHUB_REPOSITORY -e GITHUB_SERVER_URL -e GITHUB_SHA -e GITHUB_WORKSPACE -e GITHUB_TOKEN -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RUN_ATTEMPT -e GITHUB_JOB -e GITHUB_ACTION -e GITHUB_EVENT_NAME -e GITHUB_EVENT_PATH -e GITHUB_ACTOR -e GITHUB_ACTOR_ID -e GITHUB_TRIGGERING_ACTOR -e GITHUB_WORKFLOW -e GITHUB_WORKFLOW_REF -e GITHUB_WORKFLOW_SHA -e GITHUB_REF -e GITHUB_REF_NAME -e GITHUB_REF_TYPE -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GH_AW_MCP_SCRIPTS_PORT -e GH_AW_MCP_SCRIPTS_API_KEY -e GH_AW_SAFE_OUTPUTS_PORT -e GH_AW_SAFE_OUTPUTS_API_KEY -v /tmp/gh-aw/mcp-payloads:/tmp/gh-aw/mcp-payloads:rw -v /opt:/opt:ro -v /tmp:/tmp:rw -v '"${GITHUB_WORKSPACE}"':'"${GITHUB_WORKSPACE}"':rw ghcr.io/github/gh-aw-mcpg:v0.2.19'
+          export MCP_GATEWAY_DOCKER_COMMAND='docker run -i --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -e MCP_GATEWAY_PORT -e MCP_GATEWAY_DOMAIN -e MCP_GATEWAY_API_KEY -e MCP_GATEWAY_PAYLOAD_DIR -e MCP_GATEWAY_PAYLOAD_SIZE_THRESHOLD -e DEBUG -e MCP_GATEWAY_LOG_DIR -e GH_AW_MCP_LOG_DIR -e GH_AW_SAFE_OUTPUTS -e GH_AW_SAFE_OUTPUTS_CONFIG_PATH -e GH_AW_SAFE_OUTPUTS_TOOLS_PATH -e GH_AW_ASSETS_BRANCH -e GH_AW_ASSETS_MAX_SIZE_KB -e GH_AW_ASSETS_ALLOWED_EXTS -e DEFAULT_BRANCH -e GITHUB_MCP_SERVER_TOKEN -e GITHUB_MCP_GUARD_MIN_INTEGRITY -e GITHUB_MCP_GUARD_REPOS -e GITHUB_REPOSITORY -e GITHUB_SERVER_URL -e GITHUB_SHA -e GITHUB_WORKSPACE -e GITHUB_TOKEN -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RUN_ATTEMPT -e GITHUB_JOB -e GITHUB_ACTION -e GITHUB_EVENT_NAME -e GITHUB_EVENT_PATH -e GITHUB_ACTOR -e GITHUB_ACTOR_ID -e GITHUB_TRIGGERING_ACTOR -e GITHUB_WORKFLOW -e GITHUB_WORKFLOW_REF -e GITHUB_WORKFLOW_SHA -e GITHUB_REF -e GITHUB_REF_NAME -e GITHUB_REF_TYPE -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GH_AW_SAFE_OUTPUTS_PORT -e GH_AW_SAFE_OUTPUTS_API_KEY -v /tmp/gh-aw/mcp-payloads:/tmp/gh-aw/mcp-payloads:rw -v /opt:/opt:ro -v /tmp:/tmp:rw -v '"${GITHUB_WORKSPACE}"':'"${GITHUB_WORKSPACE}"':rw ghcr.io/github/gh-aw-mcpg:v0.2.19'
           
           mkdir -p /home/runner/.copilot
-          cat << GH_AW_MCP_CONFIG_bbbc0f961e47825b_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
+          cat << GH_AW_MCP_CONFIG_a7001ef2b5872a16_EOF | bash "${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh"
           {
             "mcpServers": {
               "github": {
@@ -690,20 +601,6 @@ jobs:
                     "min-integrity": "unapproved",
                     "repos": "all",
                     "trusted-users": ${{ steps.parse-guard-vars.outputs.trusted_users }}
-                  }
-                }
-              },
-              "mcpscripts": {
-                "type": "http",
-                "url": "http://host.docker.internal:$GH_AW_MCP_SCRIPTS_PORT",
-                "headers": {
-                  "Authorization": "\${GH_AW_MCP_SCRIPTS_API_KEY}"
-                },
-                "guard-policies": {
-                  "write-sink": {
-                    "accept": [
-                      "*"
-                    ]
                   }
                 }
               },
@@ -729,7 +626,7 @@ jobs:
               "payloadDir": "${MCP_GATEWAY_PAYLOAD_DIR}"
             }
           }
-          GH_AW_MCP_CONFIG_bbbc0f961e47825b_EOF
+          GH_AW_MCP_CONFIG_a7001ef2b5872a16_EOF
       - name: Download activation artifact
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
@@ -855,15 +752,6 @@ jobs:
             setupGlobals(core, github, context, exec, io, getOctokit);
             const { main } = require('${{ runner.temp }}/gh-aw/actions/parse_copilot_log.cjs');
             await main();
-      - name: Parse MCP Scripts logs for step summary
-        if: always()
-        uses: actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553 # v9
-        with:
-          script: |
-            const { setupGlobals } = require('${{ runner.temp }}/gh-aw/actions/setup_globals.cjs');
-            setupGlobals(core, github, context, exec, io, getOctokit);
-            const { main } = require('${{ runner.temp }}/gh-aw/actions/parse_mcp_scripts_logs.cjs');
-            await main();
       - name: Parse MCP Gateway logs for step summary
         if: always()
         id: parse-mcp-gateway
@@ -918,7 +806,6 @@ jobs:
             /tmp/gh-aw/mcp-logs/
             /tmp/gh-aw/proxy-logs/
             !/tmp/gh-aw/proxy-logs/proxy-tls/
-            /tmp/gh-aw/mcp-scripts/logs/
             /tmp/gh-aw/agent_usage.json
             /tmp/gh-aw/agent-stdio.log
             /tmp/gh-aw/agent/

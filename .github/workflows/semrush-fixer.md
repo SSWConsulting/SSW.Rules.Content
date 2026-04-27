@@ -17,15 +17,6 @@ engine:
   id: copilot
   model: gpt-5-mini
 
-mcp-scripts:
-  list-semrush-issues:
-    description: >
-      Lists all SEMrush Site Audit issue types with page counts.
-      Returns JSON array sorted by count descending.
-      Items with a "fixable_as" field are ones this agent can fix.
-    run: |
-      pip install -q requests
-      python scripts/semrush/semrush_client.py list-issues
 
 permissions: read-all
 
@@ -61,12 +52,9 @@ The repository lives at `${{ github.workspace }}`. All `/rules` pages are MDX fi
 public/uploads/rules/<slug>/rule.mdx
 ```
 
-You have one MCP tool and several shell commands to use:
+You have the following shell commands available (run all of them directly as shell commands):
 
-**MCP tool:**
-- `list-semrush-issues` — lists all SEMrush issues with page counts; items with `fixable_as` are ones you can fix
-
-**Shell commands (run these directly):**
+- `pip install -q requests && python scripts/semrush/semrush_client.py list-issues` — lists all SEMrush issue types with page counts; items with `fixable_as` are ones you can fix
 - `python scripts/semrush/semrush_client.py get-pages <issue_type>` — returns JSON array of `{url, file_path}` for a given issue type (`duplicate_meta` or `duplicate_title`)
 - `python scripts/semrush/frontmatter_utils.py read <file_path>` — returns JSON with current `title` and `seoDescription`
 - `python scripts/semrush/frontmatter_utils.py write <file_path> <field> "<value>"` — writes a new value to a frontmatter field; prints `OK` on success
@@ -75,7 +63,7 @@ You have one MCP tool and several shell commands to use:
 
 ## Step 1 — Audit and prioritise
 
-Call `list-semrush-issues` to see all current problems and their scale.
+Run `pip install -q requests && python scripts/semrush/semrush_client.py list-issues` to see all current problems and their scale.
 
 From the results, identify which issue types are `fixable_as` (only `duplicate_meta` and `duplicate_title` are supported).
 
