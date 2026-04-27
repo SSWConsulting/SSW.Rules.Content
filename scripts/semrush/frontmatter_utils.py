@@ -155,3 +155,41 @@ def _yaml_scalar(value: str) -> str:
     """Always emit a double-quoted YAML scalar — safe for any AI-generated string."""
     escaped = value.replace('\\', '\\\\').replace('"', '\\"')
     return f'"{escaped}"'
+
+
+if __name__ == "__main__":
+    import json
+    import sys
+
+    cmd = sys.argv[1] if len(sys.argv) > 1 else ""
+
+    if cmd == "read":
+        _file = sys.argv[2]
+        _fields = read_frontmatter_fields(_file)
+        if _fields is None:
+            print(json.dumps({"error": "Could not parse frontmatter"}))
+            sys.exit(1)
+        print(json.dumps({
+            "title": _fields.get("title") or "",
+            "seoDescription": _fields.get("seoDescription") or "",
+        }))
+
+    elif cmd == "write":
+        _file, _field, _value = sys.argv[2], sys.argv[3], sys.argv[4]
+        if _field == "seoDescription":
+            _ok = update_seo_description(_file, _value)
+        elif _field == "title":
+            _ok = update_title(_file, _value)
+        else:
+            print(f"ERROR: unknown field {_field!r}", file=sys.stderr)
+            sys.exit(1)
+        if _ok:
+            print("OK")
+        else:
+            print("FAIL", file=sys.stderr)
+            sys.exit(1)
+
+    else:
+        print("Usage: frontmatter_utils.py read <file>", file=sys.stderr)
+        print("       frontmatter_utils.py write <file> <field> <value>", file=sys.stderr)
+        sys.exit(1)

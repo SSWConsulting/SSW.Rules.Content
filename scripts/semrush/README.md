@@ -1,112 +1,110 @@
 # SEMrush SEO Issue Fixer
 
-Pulls duplicate SEO issues from a SEMrush Site Audit and fixes them using an AI agent (OpenAI tool use). The agent fetches flagged pages, reads each file, generates unique replacements, writes the updated frontmatter, and opens a GitHub pull request for review.
+Fixes duplicate `seoDescription` and `title` frontmatter on /rules pages flagged by SEMrush Site Audit, using a GitHub Copilot agent (gpt-5-mini) via the `gh-aw` framework. Runs on a weekly schedule and opens pull requests for human review.
 
 ## Location
 
 ```
 scripts/semrush/
-├── semrush_client.py   # SEMrush Site Audit API adapter
+├── semrush_client.py    # SEMrush Site Audit API adapter + CLI
 ├── map_urls_to_files.py # URL → repo file mapper
-├── frontmatter_utils.py # Frontmatter reader/writer
-├── github_pr.py        # Branch, commit, push, PR creation + duplicate guard
-├── run_agent.py        # Entry point: LLM-driven tool use (gpt-4o)
+├── frontmatter_utils.py # Frontmatter reader/writer + CLI
 ├── requirements.txt
 └── README.md
-```
 
-## Required environment variables
-
-| Variable | Description |
-|---|---|
-| `SEMRUSH_API_KEY` | Your SEMrush API key (found in SEMrush → Account → API keys) |
-| `SEMRUSH_PROJECT_ID` | The SEMrush project ID for ssw.com.au (visible in the project URL) |
-| `OPENAI_API_KEY` | OpenAI API key |
-
-Optional:
-
-| Variable | Description |
-|---|---|
-| `AGENT_MODEL` | OpenAI model to use (default: `gpt-4o`) |
-| `REPO_ROOT` | Absolute path to the repo root. Defaults to two levels above this script (`../../`). |
-
-## Setup
-
-```bash
-# 1. Install Python dependencies
-cd scripts/semrush
-pip install -r requirements.txt
-
-# 2. Authenticate the GitHub CLI (required for PR creation)
-gh auth login
-```
-
-The `gh` CLI must be installed and authenticated before running the full workflow.
-Install it from <https://cli.github.com/>
-
-## How to run
-
-```bash
-# Dry run — fix both issue types, no files written, no PR created
-python scripts/semrush/run_agent.py --dry-run
-
-# Test with a small batch
-python scripts/semrush/run_agent.py --dry-run --limit 3
-
-# Fix only one issue type
-python scripts/semrush/run_agent.py --issue duplicate_meta
-python scripts/semrush/run_agent.py --issue duplicate_title
-
-# Full run: fix both issue types and open PRs
-python scripts/semrush/run_agent.py
-```
-
-Override the model (default: `gpt-4o`):
-
-```bash
-AGENT_MODEL=gpt-4o-mini python scripts/semrush/run_agent.py --dry-run --limit 3
+.github/workflows/
+├── semrush-fixer.md     # gh-aw agent workflow (source)
+└── semrush-fixer.lock.yml  # compiled workflow (generated — do not edit)
 ```
 
 ## How it works
 
-`run_agent.py` exposes four tools to the model and gives it a high-level goal. The model decides the order of calls, inspects results, and retries when a tool rejects a value.
+The agent workflow (`semrush-fixer.md`) is compiled by `gh aw compile` into a GitHub Actions workflow (`semrush-fixer.lock.yml`). When triggered, a GitHub Copilot agent:
 
-**Tools:**
+1. Calls `list-semrush-issues` (MCP script) to see all current SEMrush issues and their scale
+2. Decides which fixable issue types to tackle, in priority order by page count
+3. For each issue type: fetches affected pages, reads each file, generates a unique replacement, writes it back
+4. Commits the changes and opens a PR for review
 
-| Tool | What it does |
+The agent generates replacement text inline (no separate OpenAI API call). Generation and retries are handled by the model's own reasoning.
+
+## Required secrets
+
+| Secret | Description |
 |---|---|
-| `fetch_flagged_pages(issue_type)` | Calls SEMrush API, maps URLs to `rule.mdx` file paths |
-| `read_rule_file(file_path)` | Returns title, seoDescription, and body excerpt |
-| `write_frontmatter_field(file_path, field, value, old_value)` | Validates (length, uniqueness) and writes; returns an error the model must reason about |
-| `open_pull_request(issue_type)` | Commits changed files and opens a GitHub PR with an old → new table |
+| `COPILOT_GITHUB_TOKEN` | GitHub Copilot token for the `gh-aw` engine |
+| `SEMRUSH_API_KEY` | SEMrush API key |
+| `SEMRUSH_PROJECT_ID` | SEMrush project ID for ssw.com.au |
 
-**Agent workflow per issue type:**
+Optional:
 
-1. Calls `fetch_flagged_pages` to get affected pages
-2. For each page: calls `read_rule_file`, generates a replacement, calls `write_frontmatter_field`
-3. If the tool rejects the value (too long, duplicate), the model reads the error and retries with a different value
-4. After all pages are processed, calls `open_pull_request`
+| Secret / Env var | Description |
+|---|---|
+| `SEMRUSH_SNAPSHOT_ID` | Pin a specific SEMrush snapshot ID, bypassing the `get_latest_snapshot_id()` lookup |
 
-**Generation rules enforced via the system prompt:**
-* `seoDescription`: under 160 characters, no filler openers, no trailing full stop, specific and concrete
-* `title`: unique, descriptive, faithful to the page content
-* Values already written in the session are rejected by the tool — the model must generate something different
+## Setup
 
-## GitHub Actions workflow
+### 1. Install the gh-aw CLI
 
-The agent runs automatically via `.github/workflows/semrush-fix-duplicate-meta.yml`:
+```bash
+gh extension install github/gh-aw
+```
 
-* **Schedule:** every Monday at 9:00 AM UTC
-* **Manual trigger:** available from the Actions tab (`workflow_dispatch`)
+### 2. Compile the workflow
 
-Required secrets: `SEMRUSH_API_KEY`, `SEMRUSH_PROJECT_ID`, `OPENAI_API_KEY`. The workflow uses `GITHUB_TOKEN` for git push and PR creation — no PAT required.
+```bash
+gh aw compile .github/workflows/semrush-fixer.md
+```
 
-The duplicate PR guard means it is safe to run on a schedule — if a previous PR is still open, the agent exits without writing files or creating a duplicate.
+This generates `.github/workflows/semrush-fixer.lock.yml`. Commit both files.
+
+### 3. Set up secrets
+
+In the repository settings, add: `COPILOT_GITHUB_TOKEN`, `SEMRUSH_API_KEY`, `SEMRUSH_PROJECT_ID`.
+
+### 4. Install Python dependencies (for local testing only)
+
+```bash
+cd scripts/semrush
+pip install -r requirements.txt
+```
+
+## How to run locally (testing Python helpers)
+
+```bash
+export SEMRUSH_API_KEY=<key>
+export SEMRUSH_PROJECT_ID=<id>
+
+# See all SEMrush issues with counts
+python scripts/semrush/semrush_client.py list-issues
+
+# Get pages flagged for duplicate meta descriptions
+python scripts/semrush/semrush_client.py get-pages duplicate_meta
+
+# Read frontmatter from a file
+python scripts/semrush/frontmatter_utils.py read public/uploads/rules/some-rule/rule.mdx
+
+# Write a new seoDescription
+python scripts/semrush/frontmatter_utils.py write public/uploads/rules/some-rule/rule.mdx seoDescription "New description here"
+```
+
+## Generation rules (enforced via agent system prompt)
+
+- `seoDescription`: strictly under 160 characters, no filler openers, no trailing full stop, specific and concrete
+- `title`: must start with `Do you` and end with `?`, unique, descriptive, faithful to the page content
+- Values are never reused within the same run
+
+## PR format
+
+Each issue type gets a separate PR:
+
+| File | Old value | New value |
+|------|-----------|-----------|
+| `` `rules/.../rule.mdx` `` | original value | AI-generated replacement |
 
 ## What the agent does NOT do
 
-* Does not modify page body content — only the relevant frontmatter field is touched
-* Does not change any frontmatter field other than the one being fixed
-* Does not deduplicate against values already present on *other* pages (only within the current run)
-* Does not retry on transient SEMrush/OpenAI API failures
-* Does not handle SEMrush issue types other than duplicate meta descriptions and duplicate titles
+- Does not modify page body content — only the target frontmatter field
+- Does not change any frontmatter field other than the one being fixed
+- Does not deduplicate against values on other pages (only within the current run)
+- Does not handle SEMrush issue types other than duplicate meta descriptions and duplicate titles

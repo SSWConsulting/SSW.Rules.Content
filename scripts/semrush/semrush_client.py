@@ -199,3 +199,53 @@ def client_from_env() -> SEMrushClient:
         )
         sys.exit(1)
     return SEMrushClient(api_key, project_id, snapshot_id=snapshot_id)
+
+
+if __name__ == "__main__":
+    import json
+    _SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+    sys.path.insert(0, _SCRIPT_DIR)
+    from map_urls_to_files import map_urls_to_files
+
+    _REPO_ROOT = os.environ.get("REPO_ROOT") or os.path.abspath(
+        os.path.join(_SCRIPT_DIR, "..", "..")
+    )
+    _FIXABLE = {
+        ISSUE_DUPLICATE_META: "duplicate_meta",
+        ISSUE_DUPLICATE_TITLE: "duplicate_title",
+    }
+
+    cmd = sys.argv[1] if len(sys.argv) > 1 else ""
+
+    if cmd == "list-issues":
+        _client = client_from_env()
+        _raw = _client.list_issues()
+        _result = []
+        for _item in _raw:
+            _id = _item.get("issue_id") or _item.get("id")
+            _count = _item.get("total") or _item.get("count") or 0
+            _name = _item.get("name") or _item.get("title") or f"issue_{_id}"
+            _entry = {"issue_id": _id, "name": _name, "count": _count}
+            if _id in _FIXABLE:
+                _entry["fixable_as"] = _FIXABLE[_id]
+            _result.append(_entry)
+        _result.sort(key=lambda x: x.get("count", 0), reverse=True)
+        print(json.dumps(_result, indent=2))
+
+    elif cmd == "get-pages":
+        _issue_type = sys.argv[2] if len(sys.argv) > 2 else ""
+        _client = client_from_env()
+        if _issue_type == "duplicate_meta":
+            _urls = _client.get_duplicate_meta_pages()
+        elif _issue_type == "duplicate_title":
+            _urls = _client.get_duplicate_title_pages()
+        else:
+            print(f"ERROR: unknown issue type {_issue_type!r}", file=sys.stderr)
+            sys.exit(1)
+        _mapped = map_urls_to_files(_urls, _REPO_ROOT)
+        print(json.dumps([{"url": u, "file_path": fp} for u, fp in _mapped.items()], indent=2))
+
+    else:
+        print("Usage: semrush_client.py list-issues", file=sys.stderr)
+        print("       semrush_client.py get-pages <duplicate_meta|duplicate_title>", file=sys.stderr)
+        sys.exit(1)
