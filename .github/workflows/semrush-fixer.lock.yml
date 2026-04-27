@@ -773,6 +773,8 @@ jobs:
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
           GIT_COMMITTER_NAME: github-actions[bot]
           XDG_CONFIG_HOME: /home/runner
+          SEMRUSH_API_KEY: ${{ secrets.SEMRUSH_API_KEY }}
+          SEMRUSH_PROJECT_ID: ${{ secrets.SEMRUSH_PROJECT_ID }}
       - name: Detect Copilot errors
         id: detect-copilot-errors
         if: always()
