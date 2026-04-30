@@ -46,6 +46,7 @@ An `AGENTS.md` file acts as a "manual" for AI agents. It provides a centralized 
 ## 👎 What does **not** go into an AGENTS.md?
 
 * **Secrets** - Never put API keys, secrets, or sensitive internal information, it's committed to source control
+* **Pull request descriptions** - PR description format belongs in `.github/pull_request_template.md`, not `AGENTS.md`. AI tools already pick up the template when opening PRs
 
 By providing this information, you ensure that the AI's suggestions are consistent with your project's existing structure, reducing the need for manual corrections.
 
@@ -132,6 +133,8 @@ Multiple AGENTS.md is particularly useful for architectures like [Modular Monoli
 />
 
 You could also have a separate AGENTS.md for your tests!
+
+For an alternative pattern that scopes rules by file *patterns* rather than directories, see [Do you split your AGENTS.md into scoped rule files?](/scoped-rules-for-ai-agents).
 
 ## Writing tips
 

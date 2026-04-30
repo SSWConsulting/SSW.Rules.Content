@@ -1,0 +1,118 @@
+---
+type: rule
+title: Do you split your AGENTS.md into scoped rule files?
+uri: scoped-rules-for-ai-agents
+guid: 1b79a72b-2245-445b-8059-6c4324c03d28
+seoDescription: Learn how to split AGENTS.md into scoped rule files that AI agents only load when working in matching paths — avoiding context bloat in large projects.
+created: 2026-04-30T00:00:00.000Z
+authors:
+  - title: Brady Stroud
+    url: 'https://www.ssw.com.au/people/brady-stroud'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
+  - title: Gordon Beeming
+    url: 'https://www.ssw.com.au/people/gordon-beeming'
+related:
+  - rule: public/uploads/rules/write-agents-md/rule.mdx
+  - rule: public/uploads/rules/symlink-agents-to-claude/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+---
+
+A single, monolithic `AGENTS.md` doesn't scale. As your project grows, agents waste context window on rules that aren't relevant to the current task. Scoped rule files solve this — they're auto-loaded only when the agent works in matching paths.
+
+<endIntro />
+
+## The problem with one big AGENTS.md
+
+If your `AGENTS.md` covers backend, frontend, database, testing, and security, every agent invocation pulls in all of it — even when the task only touches one area. Large rule files get truncated, slow context loading, and bury the rules that matter for the current task.
+
+[Multiple AGENTS.md](/write-agents-md) help by scoping rules per directory. But sometimes rules apply to file *patterns* rather than directories — e.g. "all `.razor` files" or "all `*Effects.cs` files across the codebase".
+
+## The solution: path-scoped rule files
+
+Claude Code supports rule files in `.claude/rules/` with a `paths:` frontmatter that tells the agent when to load them.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```yaml
+    ---
+    paths:
+      - "src/Northwind.Web/**/*"
+      - "**/*.razor"
+    ---
+
+    # UI — Blazor
+
+    ## Components
+
+    - One component per feature folder
+    - Use `@bind-Value` for form inputs
+    - Validation via `EditForm` + `DataAnnotationsValidator`
+    ...
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Path-scoped rule file — only loaded when the agent touches matching files"
+/>
+
+The `AGENTS.md` at the root then acts as a lightweight index pointing to the scoped files:
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```markdown
+    ## Rules
+
+    Detailed conventions are in `.claude/rules/` (auto-loaded by Claude Code):
+
+    | File | Covers |
+    |---|---|
+    | `architecture.md` | Clean Architecture layers, MediatR |
+    | `coding-standards.md` | naming, async, enums, records |
+    | `database.md` | EF Core migrations |
+    | `testing.md` | xUnit, FluentAssertions |
+    | `ui-blazor.md` | components, validation, accessibility |
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Root AGENTS.md as an index pointing to scoped rule files"
+/>
+
+## Example: a Northwind app
+
+Imagine a Northwind sample app structured with Clean Architecture. Instead of cramming every convention into one giant `AGENTS.md`, split the detail across `.claude/rules/` by concern. Each file declares the paths it applies to, so the agent only loads what's relevant to the file currently being edited.
+
+<boxEmbed
+  style="greybox"
+  body={<>
+    ```
+    ├── 🤖 AGENTS.md                       ← Index + project overview
+    └── .claude/
+        └── rules/
+            ├── architecture.md            ← paths: src/Northwind.Application/**, src/Northwind.Domain/**
+            ├── coding-standards.md        ← paths: **/*.cs
+            ├── database.md                ← paths: **/Migrations/**, **/*DbContext.cs
+            ├── ddd-patterns.md            ← paths: src/Northwind.Domain/**
+            ├── security.md                ← paths: **/*Authorization*.cs
+            ├── testing.md                 ← paths: **/*.Tests/**
+            └── ui-blazor.md               ← paths: **/*.razor
+    ```
+  </>}
+  figurePrefix="good"
+  figure="Scoped rule files keep each concern targeted, the agent's context lean, and the root AGENTS.md skimmable"
+/>
+
+## When to use scoped rules vs. multiple AGENTS.md
+
+* **Multiple AGENTS.md** — when rules align with directory structure (e.g. one `AGENTS.md` per package in a monorepo). See [Do you write an AGENTS.md?](/write-agents-md).
+* **Scoped rule files** — when rules apply to file patterns that cross directories (e.g. "all migration files", "all `.razor` files"), or when you want one short index at the root.
+
+The two patterns can coexist — a `AGENTS.md` per package, with `.claude/rules/` for cross-cutting patterns within each.
+
+## Further reading
+
+* [Claude Code — Project rules](https://docs.claude.com/en/docs/claude-code/memory)
+* [Do you write an AGENTS.md?](/write-agents-md)
+* [Do you symlink your AGENTS.md to other tool-specific files?](/symlink-agents-to-claude)
