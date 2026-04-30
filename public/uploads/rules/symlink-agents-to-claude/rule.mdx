@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you symlink your AGENTS.md and skills to .claude?
+title: Do you symlink your AGENTS.md to other tool-specific files?
 uri: symlink-agents-to-claude
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
@@ -15,22 +15,22 @@ related:
   - rule: public/uploads/rules/write-agents-md/rule.mdx
   - rule: public/uploads/rules/ai-agents-with-skills/rule.mdx
 guid: f7a3c1e2-8d45-4b91-a6e0-2c9f17d58b34
-seoDescription: Learn how to use symlinks so your AGENTS.md and skills work across both AGENTS.md-compatible tools and Claude Code without duplicating files.
+seoDescription: Learn how to use symlinks so your AGENTS.md works across Claude Code, GitHub Copilot, and other AI tools without duplicating files.
 created: 2026-03-11T00:00:00.000Z
 createdBy: Gordon Beeming
 createdByEmail: gordonbeeming@ssw.com.au
-lastUpdated: 2026-03-11T00:00:00.000Z
-lastUpdatedBy: Gordon Beeming
-lastUpdatedByEmail: gordonbeeming@ssw.com.au
+lastUpdated: 2026-04-30T00:00:00.000Z
+lastUpdatedBy: Brady Stroud
+lastUpdatedByEmail: bradystroud@ssw.com.au
 ---
 
-`AGENTS.md` is the cross-tool standard for AI coding instructions, but Claude Code still looks for `CLAUDE.md` and `.claude/skills/`. Instead of maintaining two copies, use symlinks so both conventions resolve to the same files.
+`AGENTS.md` is the cross-tool standard for AI coding instructions, but some tools still look for their own files — Claude Code wants `CLAUDE.md` and `.claude/skills/`, and GitHub Copilot's PR review reads `.github/copilot-instructions.md`. Instead of maintaining multiple copies, use symlinks so every convention resolves to the same source.
 
 <endIntro />
 
 ## The problem
 
-Most AI coding tools (Cursor, GitHub Copilot, OpenCode) read `AGENTS.md` and `.agents/skills/`. Claude Code reads `CLAUDE.md` and `.claude/skills/`. If you maintain separate files, they drift apart and your team gets inconsistent AI behavior depending on which tool they use.
+Most AI coding tools (Cursor, GitHub Copilot, OpenCode) read `AGENTS.md` and `.agents/skills/`. Claude Code reads `CLAUDE.md` and `.claude/skills/`. GitHub Copilot's pull request review feature reads `.github/copilot-instructions.md`. If you maintain separate files, they drift apart and your team gets inconsistent AI behavior depending on which tool they use.
 
 ## The solution: symlinks
 
@@ -42,6 +42,14 @@ Keep your instructions in `AGENTS.md` (the cross-tool standard) and symlink `CLA
 
 ```bash
 ln -s AGENTS.md CLAUDE.md
+```
+
+### AGENTS.md → .github/copilot-instructions.md
+
+GitHub Copilot's pull request review feature reads `.github/copilot-instructions.md`. Symlink it to `AGENTS.md` so PR reviews use the same instructions:
+
+```bash
+ln -s ../AGENTS.md .github/copilot-instructions.md
 ```
 
 ### .agents/skills/ → .claude/skills/
@@ -62,6 +70,8 @@ ln -s ../.agents/skills .claude/skills
     ```
     ├── AGENTS.md
     ├── CLAUDE.md               ← copy of AGENTS.md (manually maintained)
+    ├── .github/
+    │   └── copilot-instructions.md   ← another copy (manually maintained)
     ├── .agents/
     │   └── skills/
     │       └── commit/
@@ -82,6 +92,8 @@ ln -s ../.agents/skills .claude/skills
     ```
     ├── AGENTS.md                ← single source of truth
     ├── CLAUDE.md → AGENTS.md   ← symlink
+    ├── .github/
+    │   └── copilot-instructions.md → ../AGENTS.md   ← symlink
     ├── .agents/
     │   └── skills/              ← single source of truth
     │       └── commit/
@@ -100,8 +112,8 @@ ln -s ../.agents/skills .claude/skills
 Git tracks symlinks natively. When you commit and push, your teammates get the same symlinks when they clone or pull — no extra setup needed.
 
 ```bash
-git add CLAUDE.md .claude/skills
-git commit -m "Add symlinks from .claude to .agents for Claude Code compatibility"
+git add CLAUDE.md .github/copilot-instructions.md .claude/skills
+git commit -m "Symlink tool-specific files to AGENTS.md for cross-tool compatibility"
 ```
 
 <boxEmbed
