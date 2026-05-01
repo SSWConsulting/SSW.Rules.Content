@@ -1,0 +1,37 @@
+---
+type: rule
+title: Do you know how to use Sitefinity with Markdown?
+categories:
+  - category: categories/websites-and-cms/rules-to-better-sitefinity.mdx
+seoDescription: Learn how to use Markdown in Sitefinity. Covers recommended approaches, best practices, and when TinaCMS is a stronger long-term fit for Markdown-driven projects.
+uri: use-sitefinity-with-markdown
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+created: 2026-04-23T00:00:00.000Z
+guid: 5f7df78c-315a-47fc-97c3-22147264e8ce
+---
+
+Markdown helps keep content clean, portable, and easier to manage, especially for documentation, blogs, knowledge bases, and technical content.
+
+Since [Sitefinity](https://www.progress.com/sitefinity-cms) is built around structured content and rich content editing, Markdown is not native. The best approach is to use Markdown where it adds value without replacing the platform's content management strengths.
+
+<endIntro />
+
+## Recommended methods
+
+* Use Markdown for technical articles, documentation, and developer-focused content
+* Store Markdown in dedicated content fields instead of mixing it inside rich text areas
+* Keep presentation logic in templates and page layouts, not inside the content itself
+* Avoid excessive inline HTML so content stays portable
+* Use structured content types for reusable business content such as News, Events, and Resources
+
+## Why this matters
+
+Markdown improves consistency, makes version control easier, and helps technical teams collaborate more effectively with content editors.
+
+It also reduces formatting issues caused by rich text editors.
+
+## Technical recommendation
+
+If your website is primarily Markdown-driven, a Git-based CMS such as [TinaCMS](https://tina.io) is usually a stronger long-term fit because Markdown is part of the core workflow rather than an added layer.

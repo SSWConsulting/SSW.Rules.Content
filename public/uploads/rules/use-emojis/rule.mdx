@@ -3,6 +3,7 @@ type: rule
 title: Do you use emojis to help give context?
 uri: use-emojis
 categories:
+  - category: categories/communication/rules-to-better-email.mdx
   - category: categories/communication/rules-to-better-calendars.mdx
   - category: categories/communication/rules-to-better-microsoft-teams.mdx
   - category: categories/communication/rules-to-better-technical-documentation.mdx
@@ -13,7 +14,7 @@ authors:
   - title: Jean Thirion
     url: 'https://www.ssw.com.au/people/jean-thirion'
 related:
-  - rule: public/uploads/rules/enforce-the-text-meaning-with-icons-and-emojis/rule.mdx
+  - rule: public/uploads/rules/use-icons-to-reinforce-meaning/rule.mdx
   - rule: public/uploads/rules/which-emojis-to-use-in-scrum/rule.mdx
   - rule: public/uploads/rules/use-emojis-in-your-commits/rule.mdx
   - rule: public/uploads/rules/write-a-good-pull-request/rule.mdx
@@ -48,19 +49,27 @@ It's usually easier for users to remember where given information is when it is 
   style="tips"
 />
 
-## Easily understood actions
+Here are some common emoji reactions and when to use them:
 
-An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action.
+## Emails and web content
 
-You can also update those emojis afterwards to show your progression from "understood", "in action", or "done". That way, when the sender checks back, they won't chase you thinking you haven't seen it.
+<boxEmbed
+  style="greybox"
+  body={<>
+    I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements...
+  </>}
+  figurePrefix="bad"
+  figure="No emojis to enforce the meaning"
+/>
 
-You can use:
-
-✅ for **"Done, this task is complete"**\
-👍🏻 for **"I agree"**\
-👎🏻 for **"I disagree"**\
-❌ for **"No, don't do that"**\
-👀 for **"I've seen it, in progress"**
+<boxEmbed
+  style="greybox"
+  body={<>
+    I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information 😥. Usually, this is due to unclear requirements...
+  </>}
+  figurePrefix="good"
+  figure="The emoji gives extra focus on what is important"
+/>
 
 ## Microsoft Teams channel names
 
