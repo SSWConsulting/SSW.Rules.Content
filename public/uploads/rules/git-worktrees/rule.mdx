@@ -3,6 +3,7 @@ title: Do you use Git worktrees?
 uri: git-worktrees
 categories:
   - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+sidebarVideo: 'https://youtube.com/shorts/XrsoFQhn1HA'
 authors:
   - title: Michael Qiu
     url: 'https://www.ssw.com.au/people/michael-qiu'
@@ -21,9 +22,9 @@ seoDescription: 'Learn how to use Git worktrees to run parallel AI coding agent 
 created: 2026-03-30T05:33:05.620Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-04-02T09:28:45.402Z
-lastUpdatedBy: Andrew Waltos
-lastUpdatedByEmail: AndrewWaltos@ssw.com.au
+lastUpdated: 2026-05-04T17:35:57.923Z
+lastUpdatedBy: Tiago Araujo
+lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 ---
 
 When working on a repository with AI Agents, you often want multiple sessions running in parallel. One fixing a bug, another adding a new feature, and perhaps a third one refactoring tests.
@@ -31,8 +32,6 @@ When working on a repository with AI Agents, you often want multiple sessions ru
 But sharing the same working directory would be a nightmare. File changes from one session will collide with the changes from others, creating merge conflicts, and breaking things. Git worktrees solve this issue by giving each session its own isolated copy of the codebase, while sharing the same repository history.
 
 <endIntro />
-
-<youtubeEmbed url="https://youtube.com/shorts/XrsoFQhn1HA" description="Video: Git Worktrees Explained: Fix Production Bugs Without Losing Focus (1 min)" />
 
 ## What are Git worktrees?
 
@@ -55,9 +54,9 @@ Unlike cloning a repository multiple times, worktrees share the same `.git` data
 
 Git worktrees are most valuable when you need parallel, independent work streams on the same repository, as they allow for:
 
-* **Parallel AI Agent sessions** - running multiple AI Agents on separate tasks simultaneously
-* **Review whilst developing** - allows for you to review a PR on one worktree whilst continuing feature work in another
-* **Quickly address an urgent bug while developing** - switching over to fix an urgent bug whilst working on a feature without having to stash your changes
+* **Parallel AI Agent sessions** - Running multiple AI Agents on separate tasks simultaneously
+* **Review whilst developing** - Allows for you to review a PR on one worktree whilst continuing feature work in another
+* **Quickly address an urgent bug while developing** - Switching over to fix an urgent bug whilst working on a feature without having to stash your changes
 
 <boxEmbed
   body={<>
