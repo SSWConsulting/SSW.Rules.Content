@@ -1,0 +1,101 @@
+---
+title: Do you use skeleton loaders in your UI?
+uri: skeleton-loaders
+categories:
+  - category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
+authors:
+  - title: Micaela Blank
+    url: 'https://www.ssw.com.au/people/micaela-blank'
+related:
+  - rule: public/uploads/rules/when-do-you-need-a-ux-designer/rule.mdx
+  - rule: public/uploads/rules/design-system/rule.mdx
+guid: 237b8a9e-a674-4b09-a252-72e6ae5af7b8
+seoDescription: 'Use skeleton loaders to improve perceived performance by showing users a preview of the layout while content loads, reducing frustration and increasing engagement.'
+created: 2026-05-01T01:10:12.566Z
+createdBy: micaelablank@ssw.com.au
+createdByEmail: MicaelaBlank@ssw.com.au
+lastUpdated: 2026-05-04T03:03:47.848Z
+lastUpdatedBy: micaelablank@ssw.com.au
+lastUpdatedByEmail: MicaelaBlank@ssw.com.au
+---
+
+When users open a content-heavy page and see a blank screen or spinning loader, it creates uncertainty and frustration. They don’t know what’s coming, how long it will take, or if the app is even working. Skeleton loaders solve this by showing a visual preview of the layout while content is loading. \<!--endintro-->
+
+<endIntro />
+
+## What are skeleton loaders?
+
+Skeleton loaders are lightweight placeholders that mimic the structure of the final UI. Instead of showing a generic spinner, they display shapes representing text, images, and components.
+
+They work because they:
+
+* Reduce perceived wait time by showing visible progress
+* Help users understand the structure of the page early
+* Keep users engaged instead of waiting passively
+
+Research consistently shows users perceive skeleton screens as faster and easier to navigate than traditional loading indicators.
+
+## When should you use skeleton loaders?
+
+### ✅ Use them when:
+
+* The layout is predictable (e.g. dashboards, lists, cards)
+* Content loads dynamically from APIs or async sources
+* Load times are noticeable (typically > 0.5–1 second)
+
+### ❌ Avoid them when:
+
+* The structure is unknown or highly dynamic
+* Content loads almost instantly (can cause flicker)
+* A progress indicator communicates status more clearly (e.g. file uploads)
+
+## Examples
+
+<imageEmbed alt="A blank white page with a centered spinner while waiting for a dashboard to load." size="large" showBorder={true} figurePrefix="bad" figure="Bad Example - No structure or context, leaving users uncertain about what is loading  " src="/uploads/rules/skeleton-loaders/bad-example-loader.gif" />
+
+<imageEmbed alt="A page with grey boxes roughly representing cards, but spacing and layout differ from the final UI. :::" size="large" showBorder={true} figurePrefix="good" figure="Clearly communicates layout and transitions seamlessly into loaded content" src="/uploads/rules/skeleton-loaders/Good-example-skeleton-loader.gif" />
+
+## How to implement skeleton loaders well
+
+### 1. Match the real UI
+
+Your skeleton should closely mirror the final layout:
+
+* Maintain the same spacing and hierarchy
+* Align with actual components
+* Prevent layout shifts when content loads
+
+### 2. Show structure, not detail
+
+Focus on clarity over realism:
+
+* Use simple blocks for text and images
+* Avoid fake or misleading content
+* Keep placeholders generic
+
+### 3. Keep them subtle
+
+Avoid drawing unnecessary attention:
+
+* Use neutral colors (e.g. light greys)
+* Add gentle animations (pulse or shimmer) sparingly
+* Ensure accessibility (contrast and reduced motion support)
+
+### 4. Replace content progressively
+
+Load content in place as it becomes available:
+
+* Avoid full page redraws
+* Minimize visual jumps
+* Transition smoothly from placeholder to real content
+
+## Common mistakes
+
+* Skeletons that don’t match the final UI
+* Overly detailed placeholders that mislead users
+* Showing skeletons too briefly, causing flicker
+* Using skeletons where a different loading pattern would be clearer
+
+## Key takeaway
+
+Skeleton loaders don’t actually make your app faster — they make it \*feel\* faster, clearer, and more predictable, which leads to a better overall user experience.
