@@ -1,7 +1,20 @@
 ---
+type: rule
 title: Do you know how to use Playwright with your AI Agents?
 uri: playwright-with-ai
 guid: 05f8fdb2-bbf8-4c93-a94c-eedd362cc218
+seoDescription: Learn the different ways to combine Playwright with AI coding agents - the Playwright MCP server, the Playwright CLI, codegen, and the official Playwright Test Agents - for UI testing, frontend development, and browser automation.
+authors:
+  - title: Michael Qiu
+    url: 'https://www.ssw.com.au/people/michael-qiu'
+related:
+  - rule: public/uploads/rules/automated-ui-testing/rule.mdx
+  - rule: public/uploads/rules/playwright-page-object-model/rule.mdx
+  - rule: public/uploads/rules/mcp-servers-for-context/rule.mdx
+  - rule: public/uploads/rules/ai-cli-tools/rule.mdx
+categories:
+  - category: categories/artificial-intelligence/rules-to-better-ai-assisted-development.mdx
+  - category: categories/software-engineering/rules-to-better-testing.mdx
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
@@ -10,8 +23,124 @@ lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
 
-Intro
+[Playwright](https://playwright.dev/) is Microsoft's end-to-end browser automation framework. On its own it is a powerful test runner, but paired with an AI coding agent it becomes much more - the agent can write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and automate repetitive web tasks.
+
+There are several ways to give your AI agent access to Playwright, and each one is suited to a different job. Picking the right one keeps your tests reliable and your token bill predictable.
 
 <endIntro />
 
-Body
+## Why pair Playwright with an AI agent?
+
+Without a browser, an agent has to *guess* what the UI looks like. It writes selectors blindly, can't see the result of its own changes, and ships tests that break the moment they run. Giving the agent Playwright closes that loop:
+
+* **UI testing** - Generate end-to-end tests by exploring the real app and self-heal them when selectors drift
+* **Frontend development** - Let the agent open the page it just built, click through it, and verify the change actually works before claiming it is done
+* **Automation and scraping** - Drive multi-step web workflows (form fills, data extraction, scheduled checks) using structured accessibility data instead of brittle screenshots
+
+## Option 1 - Playwright MCP server
+
+The [Playwright MCP](https://github.com/microsoft/playwright-mcp) exposes the browser to your agent through the Model Context Protocol. Instead of screenshots, it sends the page's **accessibility tree** (ARIA roles, labels, states) which is deterministic, LLM-friendly, and avoids the cost of vision models.
+
+Install it once, use it everywhere:
+
+```bash
+# Claude Code
+claude mcp add playwright npx @playwright/mcp@latest
+```
+
+```json
+// VS Code, Cursor, Claude Desktop - mcpServers config
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
+```
+
+**Best for:** interactive sessions where the agent needs to explore an app, click around, and reason about page state across multiple turns - for example debugging a bug report by reproducing it in the browser.
+
+<boxEmbed
+  body={<>
+    Playwright MCP is **not a security boundary**. It can navigate to any URL the agent asks for and submit any form. Run it with `--isolated` for ephemeral profiles, scope it to safe origins, and never point it at production with real credentials.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="highlight"
+/>
+
+## Option 2 - Playwright CLI plus codegen
+
+For most day-to-day test authoring, the plain Playwright CLI driven by your agent is faster and cheaper than the MCP. Microsoft now recommends the CLI path for coding agents because it uses roughly **4x fewer tokens per session** than the equivalent MCP loop.
+
+The killer feature is `codegen` - it opens a browser, records your clicks, and emits idiomatic test code with smart role-based locators:
+
+```bash
+npx playwright codegen https://your-app.example.com
+```
+
+The "**record then refine**" pattern works far better than asking an agent to imagine a flow from scratch:
+
+1. *You* record the happy path with codegen
+2. *The agent* refactors the recording into a [Page Object Model](/playwright-page-object-model), parameterises inputs, and adds assertions
+3. *The agent* runs `npx playwright test --ui` to debug failures with time-travel snapshots
+
+### ❌ Bad example - Agent writes Playwright tests blind
+
+```typescript
+// Agent invented this without ever opening the page
+test('checkout flow', async ({ page }) => {
+  await page.goto('/checkout');
+  await page.locator('#email-input-field').fill('test@example.com');
+  await page.locator('.btn-primary.checkout-submit').click();
+  await page.waitForTimeout(3000); // hope the page loaded
+  await expect(page.locator('.success')).toBeVisible();
+});
+```
+
+**Figure: Bad example - Hallucinated CSS selectors and a fixed `waitForTimeout` that will be flaky on day one**
+
+### ✅ Good example - Codegen recording, refined by the agent
+
+```typescript
+test('checkout flow', async ({ page }) => {
+  await page.goto('/checkout');
+  await page.getByLabel('Email').fill('test@example.com');
+  await page.getByRole('button', { name: 'Place order' }).click();
+  await expect(page.getByRole('heading', { name: 'Order confirmed' })).toBeVisible();
+});
+```
+
+**Figure: Good example - Role-based locators captured from the live DOM, no arbitrary waits, web-first assertions**
+
+## Option 3 - Playwright Test Agents (Planner, Generator, Healer)
+
+Playwright now ships a set of [official AI agents](https://playwright.dev/docs/test-agents) that wrap the whole test lifecycle. Generate them with one command:
+
+```bash
+npx playwright init-agents --loop=claude
+```
+
+* 🎭 **Planner** - Explores the app and produces a Markdown test plan
+* 🎭 **Generator** - Converts the plan into runnable Playwright Test files, verifying selectors live
+* 🎭 **Healer** - Runs the suite, inspects failures in the browser, and proposes patches
+
+**Best for:** teams that want a structured, repeatable agentic loop for test generation rather than ad-hoc prompting. Works with Claude Code, GitHub Copilot, and Cursor (via the `--loop` flag).
+
+## Best practices
+
+* **Prefer the accessibility tree** - Whether via MCP or codegen, role-based locators (`getByRole`, `getByLabel`) are roughly **10x more stable** than CSS selectors against agent-generated UI churn
+* **Record then refine** - Capture the flow with codegen first, then ask the agent to refactor. Don't ask the agent to imagine the DOM
+* **Reserve agents for the hard parts** - Keep stable, high-confidence specs as static Playwright tests. Use the agent loop for flaky tests, new features, and high-churn areas
+* **Run the test before declaring success** - The agent should execute `npx playwright test` and read the output, not just write code that "looks right"
+* **Combine with the [Page Object Model](/playwright-page-object-model)** - Agent-generated tests are still tests; structure them so a UI change touches one file, not fifty
+
+## Further reading
+
+* [Playwright documentation](https://playwright.dev/docs/intro)
+* [Playwright MCP](https://github.com/microsoft/playwright-mcp)
+* [Playwright Test Agents](https://playwright.dev/docs/test-agents)
+* [Codegen guide](https://playwright.dev/docs/codegen-intro)
+* [UI Mode for time-travel debugging](https://playwright.dev/docs/test-ui-mode)
