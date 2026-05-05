@@ -8,6 +8,10 @@ categories:
 authors:
   - title: Michael Qiu
     url: 'https://www.ssw.com.au/people/michael-qiu'
+  - title: Hark Singh
+    url: 'https://www.ssw.com.au/people/hark-singh'
+  - title: Daniel Mackay
+    url: 'https://www.ssw.com.au/people/daniel-mackay'
 related:
   - rule: public/uploads/rules/automated-ui-testing/rule.mdx
   - rule: public/uploads/rules/playwright-page-object-model/rule.mdx
@@ -18,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-05T07:00:21.648Z
+lastUpdated: 2026-05-05T07:40:20.433Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -37,41 +41,7 @@ Without a browser, an agent has to *guess* what the UI looks like. It writes sel
 * **Frontend development** - Let the agent open the page it just built, click through it, and verify the change actually works before claiming it is done
 * **Automation and scraping** - Drive multi-step web workflows (form fills, data extraction, scheduled checks) using structured accessibility data instead of brittle screenshots
 
-## Option 1 - Playwright MCP server
-
-The [Playwright MCP](https://github.com/microsoft/playwright-mcp) exposes the browser to your agent through the Model Context Protocol. Instead of screenshots, it sends the page's **accessibility tree** (ARIA roles, labels, states) which is deterministic, LLM-friendly, and avoids the cost of vision models.
-
-Install it once, use it everywhere:
-
-```bash
-# Claude Code
-claude mcp add playwright npx @playwright/mcp@latest
-```
-
-```json
-// VS Code, Cursor, Claude Desktop - mcpServers config
-{
-  "mcpServers": {
-    "playwright": {
-      "command": "npx",
-      "args": ["@playwright/mcp@latest"]
-    }
-  }
-}
-```
-
-**Best for:** interactive sessions where the agent needs to explore an app, click around, and reason about page state across multiple turns - for example debugging a bug report by reproducing it in the browser.
-
-<boxEmbed
-  body={<>
-    Playwright MCP is **not a security boundary**. It can navigate to any URL the agent asks for and submit any form. Run it with `--isolated` for ephemeral profiles, scope it to safe origins, and never point it at production with real credentials.
-  </>}
-  figurePrefix="none"
-  figure=""
-  style="warning"
-/>
-
-## Option 2 - Playwright CLI plus codegen
+## Playwright CLI plus codegen (Recommended)
 
 For most day-to-day test authoring, the plain Playwright CLI driven by your agent is faster and cheaper than the MCP. Microsoft now recommends the CLI path for coding agents because it uses roughly **4x fewer tokens per session** than the equivalent MCP loop.
 
@@ -115,7 +85,41 @@ test('checkout flow', async ({ page }) => {
 
 **Figure: Good example - Role-based locators captured from the live DOM, no arbitrary waits, web-first assertions**
 
-## Option 3 - Playwright Test Agents (Planner, Generator, Healer)
+## Playwright MCP server
+
+The [Playwright MCP](https://github.com/microsoft/playwright-mcp) exposes the browser to your agent through the Model Context Protocol. Instead of screenshots, it sends the page's **accessibility tree** (ARIA roles, labels, states) which is deterministic, LLM-friendly, and avoids the cost of vision models.
+
+Install it once, use it everywhere:
+
+```bash
+# Claude Code
+claude mcp add playwright npx @playwright/mcp@latest
+```
+
+```json
+// VS Code, Cursor, Claude Desktop - mcpServers config
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
+```
+
+**Best for:** interactive sessions where the agent needs to explore an app, click around, and reason about page state across multiple turns - for example debugging a bug report by reproducing it in the browser.
+
+<boxEmbed
+  body={<>
+    Playwright MCP is **not a security boundary**. It can navigate to any URL the agent asks for and submit any form. Run it with `--isolated` for ephemeral profiles, scope it to safe origins, and never point it at production with real credentials.
+  </>}
+  figurePrefix="none"
+  figure=""
+  style="warning"
+/>
+
+## Playwright Test Agents (Planner, Generator, Healer)
 
 Playwright now ships a set of [official AI agents](https://playwright.dev/docs/test-agents) that wrap the whole test lifecycle. Generate them with one command:
 
