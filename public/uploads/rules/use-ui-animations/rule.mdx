@@ -1,0 +1,53 @@
+---
+title: Do you use animation to guide users’ attention after interactions?
+uri: use-ui-animations
+categories:
+  - category: categories/design/rules-to-better-interfaces-general-usability-practices.mdx
+authors:
+  - title: Adam Cogan
+    url: 'https://www.ssw.com.au/people/adam-cogan'
+  - title: Tiago Araujo
+    url: 'https://www.ssw.com.au/people/tiago-araujo'
+related:
+  - rule: public/uploads/rules/production-do-you-manage-audience-interactivity/rule.mdx
+guid: 478b74a5-d398-460c-b1a4-5eecbc7dc75d
+seoDescription: Improve UX by using subtle animations to provide feedback and guide users after actions like clicks form submissions and updates.
+created: 2026-05-04T23:51:23.115Z
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+lastUpdated: 2026-05-05T04:52:24.823Z
+lastUpdatedBy: AlexBlum-SSW
+lastUpdatedByEmail: alexblum@ssw.com.au
+---
+
+Animations in UI are not just decorative. They are a powerful way to guide users and reinforce what just happened.
+
+After a user performs an action such as submitting a form, clicking a button, or adding an item, subtle animation can help draw attention to the next important element or confirm the result. Without this, users may feel lost or unsure if anything changed.
+
+<endIntro />
+
+## Why use animation?
+
+* **Provide feedback** - Confirm that an action was successful such as a button changing state or a checkmark appearing
+* **Guide attention** - Highlight what changed or where to look next
+* **Reduce cognitive load** - Make state changes easier to understand
+* **Improve flow** - Smooth transitions feel more natural than abrupt changes
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="bad" figure="No animation or visual feedback is provided, leaving users unsure if the item was added to the cart" src="/uploads/rules/use-ui-animations/add-cart-no-animation-bad.gif" />
+
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="good" figure="The product smoothly flies to the cart, clearly confirming the item was added and showing where it went" src="/uploads/rules/use-ui-animations/add-cart-with-animation-good.gif" />
+
+## Additional scenarios for effective UI animation
+
+* **Highlight changes on the screen** - Use motion to draw attention to what just updated (e.g. new data, refreshed content, or UI changes), so users don’t have to search for it
+* **Show system status and progress** - Animate loading, saving, or syncing states to reassure users that something is happening and prevent uncertainty
+* **Guide the next user action** - Subtle motion can direct focus to the next step (e.g. highlighting a button or revealing the next field), helping users move forward smoothly
+* **Maintain context during navigation** - Transitions (like expand, slide, or zoom) help users understand where they came from and how screens are connected
+* **Provide clear feedback on interactions** - Immediate visual responses (success, error, validation) confirm that an action was received and what the result was
+
+## Tips
+
+* Keep animations fast and subtle (usually between 150 and 300 milliseconds)
+* Use easing to feel natural
+* Animate only when it adds meaning **not** just decoration
+* Be consistent across the app so users learn the patterns
