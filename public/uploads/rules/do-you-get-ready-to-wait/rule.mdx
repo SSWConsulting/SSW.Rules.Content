@@ -13,7 +13,7 @@ seoDescription: 'Optimize Sitefinity performance with essential tips to speed up
 created: 2013-04-10T21:18:31.000Z
 createdBy: Tiago Araujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2026-05-06T03:53:50.197Z
+lastUpdated: 2026-05-06T03:54:08.487Z
 lastUpdatedBy: Tiago Araujo
 lastUpdatedByEmail: TiagoAraujo@ssw.com.au
 isArchived: false
@@ -32,7 +32,7 @@ There will be a lot of small quick query's against the Sitefinity SQL database a
 * **Disable Sitefinity modules that you are not using or don't need. **We recommend disabling all modules and only enabling items that you require.
   You can access the Module list via the Sitefinity backend.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="none" figure="Administration -> System -> Modules" src="/uploads/rules/do-you-get-ready-to-wait/sitefinity-admin-module.jpg" />
+<imageEmbed alt="Image" size="large" showBorder={true} figurePrefix="none" figure="Administration -> System -> Modules" src="/uploads/rules/do-you-get-ready-to-wait/sitefinity-admin-module.jpg" />
 
 * **Ensure that the Sitefinity database is indexed and the Statistics are updated. **This will ensure that the Sitefinity query's remain quick: [Sitefinity Database maintenance](http://knowledgebase.progress.com/articles/Article/Sitefinity-Database-maintenance)
 * **Use a reflection tool like DotTrace that can show you what is slow on application start time. **Using this method we determined that Sitefinity was using reflection on assemblies to find any MVC widgets and add them into the Sitefinity widget list. This process took a few seconds and we removed tags to speed this up.
