@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T04:13:15.870Z
+lastUpdated: 2026-05-06T04:15:01.264Z
 lastUpdatedBy: Michael Qiu
 lastUpdatedByEmail: MichaelQiu@ssw.com.au
 ---
@@ -68,7 +68,7 @@ For most day-to-day test authoring, building, and usage, the Playwright CLI driv
 
 ### Playwright MCP server
 
-The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree **(i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
+The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
 
 Playwright MCP is best for interactive sessions where the agent needs to explore an app, click around, and reason about the page state across multiple turns (e.g. Debugging a bug report by figuring out how to reproduce it in the browser)
 
@@ -88,52 +88,8 @@ Playwright MCP is best for interactive sessions where the agent needs to explore
 Playwright now comes with three Playwright Test Agents immediately out of the box that wrap around the entire test lifecycle.
 
 * 🎭 **Planner** - used to explore the app and produce a Markdown test plan that covers one or many scenarios and user flows, the plan itself is human readable but still accurate enough to drive test generation
-* 🎭 **Generator **- used to take the Markdown test plan and produce executible Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
+* 🎭 **Generator** - used to take the Markdown test plan and produce executible Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
 * 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
-
-## Playwright CLI plus codegen (Recommended)
-
-For most day-to-day test authoring, the plain Playwright CLI driven by your agent is faster and cheaper than the MCP. Microsoft now recommends the CLI path for coding agents because it uses roughly **4x fewer tokens per session** than the equivalent MCP loop.
-
-The killer feature is `codegen` - it opens a browser, records your clicks, and emits idiomatic test code with smart role-based locators:
-
-```bash
-npx playwright codegen https://your-app.example.com
-```
-
-The "**record then refine**" pattern works far better than asking an agent to imagine a flow from scratch:
-
-1. *You* record the happy path with codegen
-2. *The agent* refactors the recording into a [Page Object Model](/playwright-page-object-model), parameterises inputs, and adds assertions
-3. *The agent* runs `npx playwright test --ui` to debug failures with time-travel snapshots
-
-### ❌ Bad example - Agent writes Playwright tests blind
-
-```typescript
-// Agent invented this without ever opening the page
-test('checkout flow', async ({ page }) => {
-  await page.goto('/checkout');
-  await page.locator('#email-input-field').fill('test@example.com');
-  await page.locator('.btn-primary.checkout-submit').click();
-  await page.waitForTimeout(3000); // hope the page loaded
-  await expect(page.locator('.success')).toBeVisible();
-});
-```
-
-**Figure: Bad example - Hallucinated CSS selectors and a fixed `waitForTimeout` that will be flaky on day one**
-
-### ✅ Good example - Codegen recording, refined by the agent
-
-```typescript
-test('checkout flow', async ({ page }) => {
-  await page.goto('/checkout');
-  await page.getByLabel('Email').fill('test@example.com');
-  await page.getByRole('button', { name: 'Place order' }).click();
-  await expect(page.getByRole('heading', { name: 'Order confirmed' })).toBeVisible();
-});
-```
-
-**Figure: Good example - Role-based locators captured from the live DOM, no arbitrary waits, web-first assertions**
 
 ## Best practices
 
