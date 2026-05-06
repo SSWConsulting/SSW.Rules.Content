@@ -24,7 +24,7 @@ title: Do you keep date and time formatting consistent accross your application?
 categories:
   - category: categories/design/rules-to-better-interfaces-reports-charts-and-dates.mdx
 type: rule
-uri: dates-do-you-keep-date-formats-consistent-across-your-application
+uri: keep-date-and-time-formats-consistent
 ---
 
 Date and time formats should always be kept consistent across applications. More importantly, they should be kept consistent with the operating system's regional settings, otherwise this will cause significant confusion for users.
@@ -37,7 +37,7 @@ Date and time formats should always be kept consistent across applications. More
   showBorder={false}
   figurePrefix="bad"
   figure="Screens with inconsistent date formats"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/BadExampleDP.gif"
+  src="/uploads/rules/keep-date-and-time-formats-consistent/BadExampleDP.gif"
 />
 
 <imageEmbed
@@ -46,7 +46,7 @@ Date and time formats should always be kept consistent across applications. More
   showBorder={false}
   figurePrefix="good"
   figure="Screens with consistent date formats"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/GoodExampleDP.gif"
+  src="/uploads/rules/keep-date-and-time-formats-consistent/GoodExampleDP.gif"
 />
 
 The best way to do this in your code is to grab the culture information from the application thread and use it to automatically format your Datetime data type. Do not use hard coded datetime formatting strings unless it's absolutely necessary.
@@ -71,9 +71,9 @@ txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialC
 
 Time formats should be consistent across your application, to give the application a very professional and consistent look.
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Three screens with inconsistent time formats" src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/BadExampleTP.gif" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Three screens with inconsistent time formats" src="/uploads/rules/keep-date-and-time-formats-consistent/BadExampleTP.gif" />
 
-<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Three screens with consistent formats" src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/GoodExampleTP.gif" />
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Three screens with consistent formats" src="/uploads/rules/keep-date-and-time-formats-consistent/GoodExampleTP.gif" />
 
 ## Users - Browser/OS language settings
 
@@ -83,7 +83,7 @@ Time formats should be consistent across your application, to give the applicati
   showBorder={false}
   figurePrefix="none"
   figure="Operating System's Regional Settings"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/operatingsystem-language-setting.png"
+  src="/uploads/rules/keep-date-and-time-formats-consistent/operatingsystem-language-setting.png"
 />
 
 It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content.
@@ -96,7 +96,7 @@ For example, Power BI is date format agnostic and will honor the setting in your
   showBorder={false}
   figurePrefix="none"
   figure="Date format incorrect due to unmodified web page language settings"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/PowerBI-wrong-date-format.png"
+  src="/uploads/rules/keep-date-and-time-formats-consistent/PowerBI-wrong-date-format.png"
 />
 
 Go to **Browser Settings | Language | Select English (Australia)** as the top priority language:
@@ -107,7 +107,7 @@ Go to **Browser Settings | Language | Select English (Australia)** as the top pr
   showBorder={false}
   figurePrefix="none"
   figure="Set English (Australia) as the top priority in the browser language settings"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/browser-language-setting.png"
+  src="/uploads/rules/keep-date-and-time-formats-consistent/browser-language-setting.png"
 />
 
 For more information, refer to [make sure all software uses English rule](/make-sure-all-software-uses-english).
