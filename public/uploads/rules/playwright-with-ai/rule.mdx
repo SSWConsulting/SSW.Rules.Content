@@ -22,12 +22,12 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T04:28:07.065Z
-lastUpdatedBy: Michael Qiu
-lastUpdatedByEmail: MichaelQiu@ssw.com.au
+lastUpdated: 2026-05-06T07:39:17.108Z
+lastUpdatedBy: Hark
+lastUpdatedByEmail: harksingh@ssw.com.au
 ---
 
-Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real use flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
+Playwright is Microsoft's end-to-end browser automation framework. On its own, it is a powerful test runner, something that you can use to implement visual tests, but when paired with an AI Agent, it becomes so much more. The agent gains the ability to write tests by recording real user flows, verify its own frontend changes in a live browser, heal flaky tests, and even automate repetitive web tasks.
 
 There are a number of ways to give your AI Agent access to Playwright, whether than be through the MCP, CLI, or otherwise, with each one being best suited for a different job. The decision comes in figuring out and understanding which one to pick.
 
@@ -47,7 +47,7 @@ By giving the agent Playwright, we can close this loop and set up a sort of iter
 
 ## How can you pair Playwright with an AI agent?
 
-While there are many ways to connect your AI Agent to Playwright, the options built specifically for agents are the ones that perform best.
+There are a variety of ways that you can give your AI Agent access to Playwright, however, there are a few ways that are built and optimised specifically for AI Agents and those are what perform the best in terms of integration with AI Agents.
 
 ### Playwright CLI (Recommended)
 
@@ -62,7 +62,12 @@ While there are many ways to connect your AI Agent to Playwright, the options bu
   style="info"
 />
 
-For most day-to-day test authoring, building, and usage, the Playwright CLI driven by your AI Agent is faster and cheaper than using the MCP to drive. In many cases, using the CLI with a coding agent uses approximately **4x fewer tokens** compared to a run with the same prompt to an agent using the MCP.
+The Playwright CLI driven by your AI agent is the **fastest and cheapest **option for day-to-day test authoring, running, and debugging. In benchmarks, the same prompt run via the CLI uses approximately **4× fewer tokens** than running it through the MCP.
+
+##### Why it's token efficient?
+
+* **Results written to disk: **the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context (instead of a full page snapshot every turn)
+* **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
 
 ### Using Playwright CLI with Codegen (Optional)
 
