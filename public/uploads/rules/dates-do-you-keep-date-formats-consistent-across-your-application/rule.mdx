@@ -3,8 +3,8 @@ archivedreason: null
 authors:
 - title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
+- title: Rebecca Liu
+  url: https://www.ssw.com.au/people/rebecca-liu
 created: 2014-12-01 06:00:30+00:00
 createdBy: Rebecca Liu
 createdByEmail: RebeccaLiu@ssw.com.au
@@ -18,29 +18,18 @@ related:
 - rule: public/uploads/rules/the-value-of-consistency/rule.mdx
 - rule: public/uploads/rules/make-sure-all-software-uses-english/rule.mdx
 - rule: public/uploads/rules/avoid-short-ambiguous-dates/rule.mdx
-seoDescription: Dates should be formatted consistently across an application to avoid
+seoDescription: Dates and Times should be formatted consistently across an application to avoid
   confusion for users, aligning with the operating system's regional settings.
-title: Dates - Do you keep date formatting consistent?
+title: Dates - Do you keep date and time formatting consistent?
 categories:
   - category: categories/design/rules-to-better-interfaces-reports-charts-and-dates.mdx
 type: rule
 uri: dates-do-you-keep-date-formats-consistent-across-your-application
 ---
 
-Date formats should always be kept consistent across applications. More importantly, they should be kept consistent with the operating system's regional settings, otherwise this will cause significant confusion for users.
+Date and time formats should always be kept consistent across applications. More importantly, they should be kept consistent with the operating system's regional settings, otherwise this will cause significant confusion for users.
 
 <endIntro />
-
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figurePrefix="none"
-  figure="Operating System's Regional Settings"
-  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/operatingsystem-language-setting.png"
-/>
-
 
 <imageEmbed
   alt="Image"
@@ -51,7 +40,6 @@ Date formats should always be kept consistent across applications. More importan
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/BadExampleDP.gif"
 />
 
-
 <imageEmbed
   alt="Image"
   size="large"
@@ -60,7 +48,6 @@ Date formats should always be kept consistent across applications. More importan
   figure="Screens with consistent date formats"
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/GoodExampleDP.gif"
 />
-
 
 The best way to do this in your code is to grab the culture information from the application thread and use it to automatically format your Datetime data type. Do not use hard coded datetime formatting strings unless it's absolutely necessary.
 
@@ -80,12 +67,28 @@ txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialC
 ```
 **✅ Figure: Good example - Using culture info to format datetime**  
 
-## Browser language settings
+## Time
+
+Time formats should be consistent across your application, to give the application a very professional and consistent look.
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="bad" figure="Three screens with inconsistent time formats" src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/BadExampleTP.gif" />
+
+<imageEmbed alt="Image" size="large" showBorder={false} figurePrefix="good" figure="Three screens with consistent formats" src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/GoodExampleTP.gif" />
+
+## Browser/OS language settings
+
+<imageEmbed
+  alt="Image"
+  size="large"
+  showBorder={false}
+  figurePrefix="none"
+  figure="Operating System's Regional Settings"
+  src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/operatingsystem-language-setting.png"
+/>
 
 It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content.
 
 For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
-
 
 <imageEmbed
   alt="Image"
@@ -96,9 +99,7 @@ For example, Power BI is date format agnostic and will honor the setting in your
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/PowerBI-wrong-date-format.png"
 />
 
-
 Go to **Browser Settings | Language | Select English (Australia)** as the top priority language:
-
 
 <imageEmbed
   alt="Image"
@@ -108,6 +109,5 @@ Go to **Browser Settings | Language | Select English (Australia)** as the top pr
   figure="Set English (Australia) as the top priority in the browser language settings"
   src="/uploads/rules/dates-do-you-keep-date-formats-consistent-across-your-application/browser-language-setting.png"
 />
-
 
 For more information, refer to [make sure all software uses English rule](/make-sure-all-software-uses-english).
