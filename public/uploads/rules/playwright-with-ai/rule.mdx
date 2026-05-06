@@ -93,11 +93,26 @@ Playwright now comes with three Playwright Test Agents immediately out of the bo
 * 🎭 **Generator** - used to take the Markdown test plan and produce executible Playwright tests. It also verifies that selectors and assertions live as it performs the relevant scenarios
 * 🎭 **Healer** - automatically heals the tests created by the Generator agent that fails, replaying the failing steps, inspecting the current UI, suggesting a patch to fix the tests, and rerunning until the test passes or the built-in guardrails stop the loop
 
+## Using Playwright for AI-driven development
+
+Most Playwright + AI content focuses on testing, but the more interesting day-to-day use case is the **inner development loop**. Without a browser, the agent's "is it done?" check is just "the file compiles." With Playwright (typically via the MCP), the agent can open the page it just changed, click through it, and verify the behaviour the same way a human dev would refresh the browser.
+
+This unlocks a few high-value workflows:
+
+* **Verify frontend changes inline** - After editing a component, the agent navigates to the page, captures an accessibility snapshot, and confirms the change actually rendered. Stops the "looks good to me, ship it" failure mode where the code compiles but the UI is broken
+* **Reproduce reported bugs** - When a bug ticket comes in, the agent walks through the reproduction steps in the browser, captures the broken state, then proposes a fix. Faster than the human pasting screenshots back and forth
+* **Explore before editing** - Before changing a flow the agent doesn't know, it navigates the app to understand the current behaviour (e.g. *"click through the checkout so you know what state I'm starting from"*). Reduces blind edits to code the agent has never seen run
+* **Deep-link inner loops** - For changes buried behind login and several clicks, the agent automates the navigation each iteration, instead of asking the human to manually click through after every save
+* **Component playground verification** - Agent navigates Storybook, Histoire, or your component sandbox after a change and confirms each variant still renders correctly
+* **Network interception during dev** - Agent uses Playwright's route mocking to test edge cases (slow API, 500 errors, empty states) without needing to touch the real backend
+
 ## Best practices
 
-* **Prefer the accessibility tree** - Whether via MCP or codegen, role-based locators (`getByRole`, `getByLabel`) are roughly **10x more stable** than CSS selectors against agent-generated UI churn
-* **Record then refine** - Capture the flow with codegen first, then ask the agent to refactor. Don't ask the agent to imagine the DOM
-* **Combine with the [Page Object Model](/playwright-page-object-model)** - Agent-generated tests are still tests; structure them so a UI change touches one file, not fifty
+* **Use [Page Object Models](/playwright-page-object-model)** - Agent-generated tests are still tests; structure them so a UI change touches one file, not fifty
+* **Run the test before declaring success** - The agent should execute `npx playwright test` and read the output, not just write code that "looks right" and call it done
+* **Prefer role-based locators** - `getByRole`, `getByLabel`, and `getByText` survive UI churn far better than CSS selectors, and they're what the MCP returns natively in its accessibility snapshots
+* **Scope the agent to safe origins** - Never point Playwright MCP at production with real credentials; use a staging URL or local dev server, and run with `--isolated` to keep each session's state ephemeral
+* **Iterate one test at a time** - Generate a single test, run it, fix the failure, then move on. Asking the agent for a 20-test suite in one shot tends to produce 20 mediocre tests with hallucinated selectors
 
 ## Further reading
 
