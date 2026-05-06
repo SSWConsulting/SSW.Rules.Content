@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T07:39:17.108Z
+lastUpdated: 2026-05-06T07:40:51.912Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -68,6 +68,17 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest **optio
 
 * **Results written to disk: **the agent runs a test, output goes to a file, and only the relevant lines come back into the chat context (instead of a full page snapshot every turn)
 * **Independent bash commands per action:**  each action is a one-shot CLI call, no long-lived session to keep alive in context
+
+##### Best for:
+
+* **Stateless tasks:** write a test, run a test, debug a failing test, walk a codebase
+
+###### **Setup**
+
+```bash
+npm install -g @playwright/cli@latest
+playwright-cli install --skills
+```
 
 ### Using Playwright CLI with Codegen (Optional)
 
