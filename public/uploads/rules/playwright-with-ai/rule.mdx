@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T07:42:14.340Z
+lastUpdated: 2026-05-06T07:47:54.906Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -72,6 +72,7 @@ The Playwright CLI driven by your AI agent is the **fastest and cheapest **optio
 ##### Best for:
 
 * **Stateless tasks:** write a test, run a test, debug a failing test, walk a codebase
+* Example: `“Go to 5 tina.io pages and check if everything is working”`
 
 ###### Docs and setup
 
@@ -87,6 +88,11 @@ playwright-cli install --skills
 The Playwright MCP works by exposing your browser to your AI Agent via the [Model Context Protocol](https://modelcontextprotocol.io/). Unlike other forms of Playwright, instead of taking screenshots of views and navigating it form there, it sends the page's **accesibility tree** (i.e. ARIA roles, labels, and states), which are deterministic, LLM-friendly, and allows users to avoid the cost of vision models.
 
 Playwright MCP is best for interactive sessions where the agent needs to explore an app, click around, and reason about the page state across multiple turns (e.g. Debugging a bug report by figuring out how to reproduce it in the browser)
+
+##### Best for:
+
+* **Stateful tasks: **The agent needs to explore an app across multiple turns (e.g. clicking around to figure out how to reproduce a reported bug)
+* You're building an **agentic workflow** where the same browser session carries context between steps (e.g. "log in, add three items to cart, check out, verify the receipt email")
 
 <boxEmbed
   body={<>
