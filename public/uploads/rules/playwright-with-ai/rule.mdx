@@ -22,7 +22,7 @@ seoDescription: 'Learn the different ways to combine Playwright with AI coding a
 created: 2026-05-05T05:12:20.286Z
 createdBy: Michael Qiu
 createdByEmail: MichaelQiu@ssw.com.au
-lastUpdated: 2026-05-06T07:47:54.906Z
+lastUpdated: 2026-05-06T07:48:41.063Z
 lastUpdatedBy: Hark
 lastUpdatedByEmail: harksingh@ssw.com.au
 ---
@@ -93,6 +93,8 @@ Playwright MCP is best for interactive sessions where the agent needs to explore
 
 * **Stateful tasks: **The agent needs to explore an app across multiple turns (e.g. clicking around to figure out how to reproduce a reported bug)
 * You're building an **agentic workflow** where the same browser session carries context between steps (e.g. "log in, add three items to cart, check out, verify the receipt email")
+
+**Trade off: **higher token usage, because the page snapshot is part of the chat context every turn.
 
 <boxEmbed
   body={<>
