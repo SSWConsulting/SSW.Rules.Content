@@ -39,7 +39,7 @@ There are a number of ways to give your AI Agent access to Playwright, whether t
 
 Without access to a browser, agents have to guess and assume what the UI looks like. This means that it writes selectors blindly, and can't see the results of its own changes. In turn, it can ship tests that break the moment they're run and build features that look completely wrong without a second thought.
 
-By giving the agent Playwright, we can close this loop and set up a sort of iterative inner loop for the agent to check its own changes, allowing for:
+By giving the agent access to Playwright, we can close this loop and set up an iterative inner loop for the agent to check its own changes, allowing for:
 
 * **Automated UI testing** - generating end-to-end tests for the frontend by exploring the layout of the app itself and self-healing the tests when certain selectors drift during development
 * **Frontend development** - allow the agent to open the page that it just built, click through the page, and verify that the changes made actually work as intended before claiming that it is done, reducing the number of iterative cycles required
